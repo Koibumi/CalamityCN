@@ -1,4 +1,4 @@
-using Terraria.ModLoader;
+ï»¿using Terraria.ModLoader;
 using Terraria.Localization;
 
 namespace CalamityCN
@@ -15,9 +15,9 @@ namespace CalamityCN
             {
 
                 /*
-                    ¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨[
-                    ¨U +-+ | ·­Òë¼ÓÔØ | +-+ ¨U
-                    ¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨a
+                    â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+                    â•‘ +-+ | ç¿»è¯‘åŠ è½½ | +-+ â•‘
+                    â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
                 */
 
                 ItemNameDict itemNameDictionary = new ItemNameDict();
@@ -27,46 +27,46 @@ namespace CalamityCN
                 BuffDescriptionDict buffDescriptionDictionary = new BuffDescriptionDict();
 
                 /*
-                    ¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨[
-                    ¨U +-+ | ÎïÆ· | +-+ ¨U
-                    ¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨a
+                    â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+                    â•‘ +-+ | ç‰©å“ | +-+ â•‘
+                    â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
                 */
 
-                //ÎïÆ·Ãû³Æ
+                //ç‰©å“åç§°
                 foreach (var itemName in itemNameDictionary.ItemName)
                 {
                     Calamity.Find<ModItem>(itemName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, itemName.Value);
                 }
 
-                //ÎïÆ·ËµÃ÷
+                //ç‰©å“è¯´æ˜
                 foreach (var itemTooltip in itemTooltipDictionary.ItemToolTip)
                 {
                     Calamity.Find<ModItem>(itemTooltip.Key).Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, itemTooltip.Value);
                 }
                 /*
-                    ¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨[
-                    ¨U +-+ | ÔöÒæ¼õÒæ   | +-+ ¨U
-                    ¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨a
+                    â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+                    â•‘ +-+ | å¢ç›Šå‡ç›Š   | +-+ â•‘
+                    â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
                 */
 
-                //BuffÃû³Æ
+                //Buffåç§°
                 foreach (var effectName in buffNameDictionary.EffectName)
                 {
                     Calamity.Find<ModBuff>(effectName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, effectName.Value);
                 }
 
-                //BuffËµÃ÷
+                //Buffè¯´æ˜
                 foreach (var effectDescription in buffDescriptionDictionary.EffectDescription)
                 {
                     Calamity.Find<ModBuff>(effectDescription.Key).Description.AddTranslation((int)GameCulture.CultureName.Chinese, effectDescription.Value);
                 }
                 /*
-                    ¨X¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨[
-                    ¨U +-+ | NPC | +-+ ¨U
-                    ¨^¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨a
+                    â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+                    â•‘ +-+ | NPC | +-+ â•‘
+                    â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
                 */
 
-                //NPCÃû³Æ
+                //NPCåç§°
                 foreach (var npcName in npcNameDictionary.NPCName)
                 {
                     Calamity.Find<ModNPC>(npcName.Key).DisplayName.AddTranslation(7, npcName.Value);
