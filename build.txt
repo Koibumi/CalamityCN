@@ -1,3 +1,6 @@
-displayName = 灾厄
-author = K
-version = 0.1
+displayName = [Beta]灾厄Mod-汉化补丁<灾厄维基汉化组>
+author = Kcovin&灾厄维基汉化组
+version = 1.0.7
+modReferences = CalamityMod
+hideCode = true
+hideResources = true
