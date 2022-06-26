@@ -1125,7 +1125,7 @@ namespace CalamityCN
             {"ForbiddenSun", "禁忌之阳"},
             {"FrigidflashBolt", "冰火箭魔法书"},
             {"FrostBolt", "冰箭魔法书"},
-            {"GammaFusillade", "生化射线"},
+            {"GammaFusillade", "生命光流"},
             {"Genisis", "源"},
             {"GhastlyVisage", "鬼之形"},
             {"GleamingMagnolia", "烁兰"},
