@@ -1,0 +1,242 @@
+Mods: {
+CalamityMod: {
+
+Config:
+{
+    MainTitle: "Main Config",
+
+    SectionTitle:
+    {
+        "BossRushCurses": "Boss Rush 诅咒",
+        "ExpertMaster": "专家和大师模式改动",
+        "Gameplay": "总体游戏内容改动",
+        "Graphics": "画面改动",
+        "Revengeance": "复仇模式改动",
+        "UI": "UI 改动",
+    }
+
+    EntryTitle:
+    {
+        "AdrenalineMeterPosX": "肾上腺素条X轴坐标",
+        "AdrenalineMeterPosY": "肾上腺素条Y轴坐标",
+        "Afterimages": "残影",
+        "BossHealthBarExtraInfo": "Boss血条额外信息",
+        "BossHealthBoost": "Boss生命值百分比强化",
+        "BossRushDashCurse": "冲刺诅咒",
+        "BossRushIFrameCurse": "无敌帧诅咒",
+        "BossRushRegenCurse": "生命诅咒",
+        "BossZen": "Boss 禅定",
+        "ChargeMeter": "显示充能条",
+        "ChargeMeterPosX": "充能条X轴坐标",
+        "ChargeMeterPosY": "充能条Y轴坐标",
+        "ChilledWaterRework": "重置版冰水",
+        "CooldownDisplay": "冷却显示",
+        "DebuffDisplay": "显示敌人Debuff",
+        "EarlyHardmodeProgressionRework": "困难模式早期流程重做",
+        "ForceTownSafety": "强制城镇安全",
+        "MeterPosLock": "属性条位置锁定",
+        "NerfExpertDebuffs": "移除增加的减益持续时间",
+        "ParticleLimit": "最大粒子数",
+        "Proficiency": "熟练度",
+        "RageMeterPosX": "怒气条X轴坐标",
+        "RageMeterPosY": "怒气条Y轴坐标",
+        "RipperMeterShake": "怒气条与肾上腺素条震动",
+        "Screenshake": "屏幕震动",
+        "ShopNewAlert": "商店新物品提示",
+        "SpeedrunTimer": "速通计时器",
+        "SpeedrunTimerPosX": "速通计时器X轴坐标",
+        "SpeedrunTimerPosY": "速通计时器Y轴坐标",
+        "StealthInvisibility": "潜行隐身",
+        "StealthMeter": "潜行条",
+        "StealthMeterPosX": "潜行条X轴坐标",
+        "StealthMeterPosY": "潜行条Y轴坐标",
+        "TownNPCSpawnRateMultiplier": "城镇NPC生成率乘算器",
+        "TownNPCsSpawnAtNight": "城镇NPC在夜间生成",
+        "VanillaCooldownDisplay": "原版冷却显示",
+    }
+
+    EntryTooltip:
+    {
+        "AdrenalineMeterPosX": "肾上腺素条的 X 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
+        "AdrenalineMeterPosY": "肾上腺素条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
+        "Afterimages": "为灾厄 NPC、射弹等等物体开启残影渲染。\n关闭以提升性能。",
+        "BossHealthBarExtraInfo": "在灾厄的Boss生命条上添加额外信息。\n这包括 Boss 的实际生命值或剩余的部位/体节数量。",
+        "BossHealthBoost": "增加所有 Boss 的生命值。\n不会影响已被生成的 Boss。",
+        "BossRushDashCurse": "在 Boss Rush 期间禁用所有冲刺。",
+        "BossRushIFrameCurse": "在 Boss Rush 期间，在 3 秒内被击中 2 次会让玩家立即死亡。\n此效果无视复活效果。",
+        "BossRushRegenCurse": "在 Boss Rush 期间禁用所有生命再生。",
+        "BossZen": "当有 Boss 存活时，所有玩家会获得Boss禅定增益，它会极大降低敌怪的生成率。",
+        "ChargeMeter": "开启显示玩家当前手持的嘉登造物的充能值。\n如果没有手持嘉登造物，充能条会总是处于隐藏状态。",
+        "ChargeMeterPosX": "充能条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+        "ChargeMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+        "ChilledWaterRework": "启用时，雪原生物群落和冰雪生物群落中的水会造成肺部冻伤，使得玩家的呼吸条快速消耗，而不会造成冷冻减益。",
+        "CooldownDisplay": "在Buff栏和Debuff栏下方显示重要的冷却图标。值设为1图标显示地更紧凑。值设为0不会显示图标。",
+        "DebuffDisplay": "在所有 Boss 和迷你 Boss 上方添加一排当前具有的减益图标。",
+        "EarlyHardmodeProgressionRework": "破坏邪恶祭坛不再生成矿石和邪恶物块。\n首次击杀血肉墙会使钯金矿和钴矿在世界中生成。\n第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。\n第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。\n首次击败第三个机械boss会使神圣矿在世界中生成。",
+        "ForceTownSafety": "通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。\n这可能会产生意想不到的副作用，例如使动物难以找到。",
+        "MeterPosLock": "开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。",
+        "NerfExpertDebuffs": "禁用专家和大师模式减益持续时间的翻倍。\n灾厄围绕启用的此设置进行平衡。",
+        "ParticleLimit": "设定同时存在的最大粒子数。\n粒子和溅血效果是分开的。\n调低以提升性能。",
+        "Proficiency": "启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。\n禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。",
+        "RageMeterPosX": "怒气条的 X 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
+        "RageMeterPosY": "怒气条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
+        "RipperMeterShake": "使用怒气和肾上腺素时条的振幅。\n设为 0 可以完全禁用振动。",
+        "Screenshake": "开启或关闭所有屏幕抖动效果。",
+        "ShopNewAlert": "当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。",
+        "SpeedrunTimer": "启用游戏内速通计时器，时间显示为毫秒。\n第二行显示最近一次Boss击杀的时间。",
+        "SpeedrunTimerPosX": "速通计时器的 X 坐标位置。\n只能手动设置",
+        "SpeedrunTimerPosY": "速通计时器的 X 坐标位置。\n只能手动设置",
+        "StealthInvisibility": "启用时玩家会随着潜行值逐渐隐身。",
+        "StealthMeter": "开启显示玩家当前潜行值的潜行条。\n如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。",
+        "StealthMeterPosX": "潜行条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+        "StealthMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+        "TownNPCSpawnRateMultiplier": "此数值越高，城镇 NPC 生成的速率越快。",
+        "TownNPCsSpawnAtNight": "玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。",
+        "VanillaCooldownDisplay": "为混沌状态和药水疾病添加特定冷却图标。\n这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。",
+    }
+}
+        
+DamageClassName:
+{
+        RogueDamageClass: "盗贼伤害",
+        AverageDamageClass: "平均伤害",
+}
+        
+UI:
+{
+    SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
+}
+
+BiomeName: 
+{
+    AbovegroundAstralBiome: "星辉瘟疫地表",
+    AbovegroundAstralDesertBiome: "星辉瘟疫沙漠地表",
+    AbovegroundAstralSnowBiome: "星辉瘟疫雪原地表",
+    AbyssLayer1Biome: "深渊第一层",
+    AbyssLayer2Biome: "深渊第二层",
+    AbyssLayer3Biome: "深渊第三层",
+    AbyssLayer4Biome: "深渊第四层",
+    AcidRainBiome: "酸雨",
+    ArsenalLabBiome: "实验室",
+    BrimstoneCragsBiome: "硫火之崖",
+    SulphurousSeaBiome: "硫磺海",
+    SunkenSeaBiome: "沉沦之海",
+    UndergroundAstralBiome: "星辉瘟疫地底",
+}
+
+TownNPCMood: 
+{
+    DILF:
+    {
+        Content: "The weather is cool today.",
+        NoHome: "Without a place to rest, my studies cannot proceed. Could you procure me a living space? I no longer like to make my homes using ice magic.",
+        LoveSpace: "Too many people can disrupt the flow of mana. I much prefer the breathing room here.",
+        FarFromHome: "My sense of direction is…subpar. I loathe to admit it, but I have a tendency to not venture outside too often.",
+        DislikeCrowded: "My spells are precise, and cannot be interrupted. I would like some more room to practice with them.",
+        HateCrowded: "I’d hate for one of your associates to be caught up in my magic. Alas, there are too many here to mitigate that risk.",
+        LikeBiome: "The temperature here allows me to save my magic power, as my creations can sustain their shape without melting in the cold.",
+        DislikeBiome: "The sun here is too unfriendly for my ice! Please, allow me lodgings elsewhere at once!",
+        HateBiome: "Dark forces are strong here. This is not ideal.",
+        LikeNPC: "{NPCName} is well learned, and quite a respectable mage himself!",
+        DislikeNPC: "I dislike {NPCName}’s blatant disregard of magic. I cannot blame his functions, but he is quite ignorant.",
+        LikeNPC_Princess: "{NPCName} has some very quaint spells. I’m quite impressed, for someone of her age.",
+    },
+
+    FAP:
+    {
+        Content: "It's 5 o'clock somewhere.",
+        NoHome: "I need a place to crash! My drinks need to be properly cooled before they can be served!",
+        LoveSpace: "Finally, some peace and quiet. Large quantities of people tend to piss me off.",
+        FarFromHome: "I'm used to running away from home, but this is a little ridculous.",
+        DislikeCrowded: "If one more person tells me ‘it’s happy hour somewhere’ to try and get a discount, I’m going to snap!",
+        HateCrowded: "No amount of alcohol can drown out the noise these people make!",
+        LoveBiome: "Other unicorns? Never thought I’d see the day! This place is incredible!",
+        LikeBiome: "A good breeze to cool some heads, that's the way to deal with customers who've had a few too many drinks!",
+        DislikeBiome: "This dry air and heat isn’t good for my hair, or my drinks.",
+        HateBiome: "This place is awful! The musty air spoils the taste and aroma of everything I’m selling!",
+        LoveNPC_Stylist: "{NPCName} works wonders for my hair... among other things, hehe.",
+        LoveNPC_BestiaryGirl: "{NCPName} is so fluffy and squishy! She also says my alicorn form is 'mega rad'.",
+        LikeNPC_Truffle: "{NCPName} makes me so hungry... I wonder how great of a trip he'd give...",
+        LikeNPC_PartyGirl: "{NCPName} would make for a great bartender some day. She really knows how to liven the mood!",
+        DislikeNPC_DD2Bartender: "{NCPName} is so bald. Maybe if he'd stop trying to date me he'd finally grow some hair.",
+        DislikeNPC_TaxCollector: "{NCPName} had best keep his distance... he wouldn't want to wake up one morning with a pipe bomb in his mailbox.",
+        HateNPC_GoblinTinkerer: "{NCPName} was so terrible that I had to FORCE him to have a better reforge system. Why would you house me next to him? Do you enjoy watching me relive the stress he gave me!?",
+        HateNPC_Angler: "{NCPName} never stops blabbering about his inane fishing quests. Get me away from him before I stomp him into the ground!",
+        LikeNPC_Princess: "You think I’d dislike {NPCName} because we’re too different? Quite the contrary, there's a lot we like to talk about, over non-alcoholic drinks of course.",
+    },
+
+    SEAHOE:
+    {
+        Content: "I am satisfied."
+        NoHome: "Thank you for your service, but I am afraid I am without a home now.",
+        LoveSpace: "Ah, the quiet of solitude is something I much enjoy.",
+        FarFromHome: "My scales will dry away from shelter. I am too far from my home.",
+        DislikeCrowded: "The living conditions here are quite cramped, are they not?",
+        HateCrowded: "I disliked leveraging my status but when I was royalty, I was far more accustomed to having less people around.",
+        LikeBiome: "So close to the ocean. It is bittersweet, though I cannot help but like it.",
+        DislikeBiome: "The sun is too harsh on me. I dislike the arid climate here.",
+        HateBiome: "This is simply no place to live. Let us depart immediately.",
+        LikeNPC: "The way {NPCName} acts is a bit too coarse for me, but his love of the ocean is something I can quite appreciate!",
+        DislikeNPC: "I’ve had quite enough carnage for one lifetime thank you! {NPCName}'s destructive tendencies are a bit insensitive.",
+        HateNPC: "{NPCName} is just a child, but his attitude towards marine life is unacceptable! Absolutely unacceptable!",
+        LikeNPC_Princess: "That child, {NPCName}. She is an innocent soul. Let us hope the horrors of war never reach her.",
+    },
+
+    THIEF:
+    {
+        Content: "It’s been going well!",
+        NoHome: "You have a place to bunk? Sleeping on the ground makes me stiff and sore.",
+        LoveSpace: "Less people makes getting away with certain things easier.",
+        FarFromHome: "I need to get back to my secret cache! What if someone got their hands on it while I was away!?",
+        DislikeCrowded: "I don’t like this, too many possible eyewitnesses.",
+        HateCrowded: "Being around this many people makes me think I’M going to be robbed.",
+        LikeBiome: "I know that a lot of wealthy traders come through the desert at times. Makes it a great spot to nick their goods.",
+        DislikeBiome: "Too stifling, too humid. I get sluggish in these conditions, no good.",
+        HateBiome: "No one lives here, and why would they?! This place is a dump!",
+        LikeNPC: "{NPCName} doesn’t only keep spiky balls in his pockets, he keeps a ton of cash! He’s too absentminded to notice I’m stealing from him too! I like that a lot!",
+        DislikeNPC: "What a goody two shoes, {NPCName} is! I dislike her out of principle! …And because she has almost no material goods.",
+        LikeNPC_Princess: "I couldn’t bear to steal anything from {NPCName}, she’s so cute!",
+    },
+
+    WITCH:
+    {
+        Content: "I can’t complain really.",
+        NoHome: "Anywhere would be better than a cave with no bed or lighting.",
+        LoveSpace: "The quieter, the better. This is good.",
+        FarFromHome: "After being used to having people around for a bit, I miss it again.",
+        DislikeCrowded: "I really don’t like how familiar some of these people are getting with me.",
+        HateCrowded: "I’m getting a headache from the pressure of having so many people around.",
+        LikeBiome: "I’ve never had the chance to live somewhere like this before. The trees and the songbirds… I quite like it.",
+        DislikeBiome: "Is this a sick joke? I can’t bear to be here any longer, I’ve already tried to atone for my sins.",
+        HateBiome: "The spirits are unrestful here. It’s really not a good feeling.",
+        LikeNPC: "{NPCName} is someone who’s had a terrible experience being cursed. He’s put up with it quite well all that time, it’s quite impressive honestly.",
+        DislikeNPC: "Such a racket! All {NPCName} does is make noise, day in and day out! I can’t stand her!",
+        LikeNPC_Princess: "What a strangely pleasant kid, {NPCName} is to be around.",
+    },
+}
+
+Prefix: {
+		Atrocious: 糟糕
+		Blunt: 钝化
+		Camouflaged: 伪装
+		Cloaked: 隐蔽
+		Feathered: 覆羽
+		Flawless: 化境
+		Flimsy: 易碎
+		Glorious: 荣光
+		Hefty: 强劲
+		Lethal: 致命
+		Mighty: 强力
+		Pointy: 尖锐
+		Quiet: 宁静
+		Radical: 极端
+		Serrated: 锯齿
+		Sharp: 锐利
+		Silent: 寂静
+		Sleek: 光滑
+		Unbalanced: 失衡
+		Vicious: 恶毒
+		}
+		
+}
+}
