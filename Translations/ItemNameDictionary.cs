@@ -2244,7 +2244,7 @@ namespace CalamityCN
             {"PlaguebringerBanner", "瘟疫使者旗"},
             {"PlagueChargerBanner", "瘟疫蜜蜂旗"},
             {"PlagueshellBanner", "瘟疫龟旗"},
-            {"PrismTurtleBanner", "棱晶背龟旗"},
+            {"PrismBackBanner", "棱晶背龟旗"},
             {"ProfanedEnergyBanner", "亵渎能量旗"},
             {"RadiatorBanner", "辐射海参旗"},
             {"ReaperSharkBanner", "猎魂鲨旗"},
