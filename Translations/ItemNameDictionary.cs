@@ -2208,6 +2208,7 @@ namespace CalamityCN
             {"EmeraldCrawlerBanner", "绿宝石爬虫旗"},
             {"EutrophicRayBanner", "富养剑鱼旗"},
             {"FearlessGoldfishWarriorBanner", "无畏金鱼战士旗"},
+            {"FlakCrabBanner", "高口蟹旗"},
             {"FlounderBanner", "比目鱼旗"},
             {"FrogfishBanner", "躄鱼旗"},
             {"FusionFeederBanner", "融食鲨旗"},
