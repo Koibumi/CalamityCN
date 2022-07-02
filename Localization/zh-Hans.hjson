@@ -99,7 +99,7 @@ Config:
 DamageClassName:
 {
         RogueDamageClass: "盗贼伤害",
-        AverageDamageClass: "平均伤害",
+        AverageDamageClass: "通用伤害",
 }
         
 UI:
@@ -237,6 +237,29 @@ Prefix: {
 		Unbalanced: 失衡
 		Vicious: 恶毒
 		}
+
+MapObject: {
+		ChaoticOre: 熔渣矿
+		Navystone: 沉沦渊石
+        AerialiteOre: 天蓝矿
+        AstralOre: 炫星矿
+        AuricOre: 圣金源矿
+        ChaoticOre: 熔渣矿
+        CharredOre: 焦炭矿
+        CryonicOre: 寒元矿
+        ExodiumClusterOre: 起源之簇
+		HallowedOre: 神圣矿
+        PerennialOre: 永恒矿
+        UelibloomOre: 龙蒿矿
+        PlantyMush: 植物混融块
+        SeaPrismCrystals: 棱晶碎片
+        SeaPrism: 海棱晶
+		Tenebris: 黑渊石
+		EutrophicSand: 富营养沙
 		
+		}
+
+
+			
 }
 }
