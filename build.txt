@@ -1,4 +1,4 @@
-displayName = [Beta]灾厄Mod-汉化补丁<灾厄维基汉化组>
+displayName = 灾厄Mod-汉化补丁
 author = Kcovin&灾厄维基汉化组
-version = 0.0
+version = 1.0.9
 modReferences = CalamityMod

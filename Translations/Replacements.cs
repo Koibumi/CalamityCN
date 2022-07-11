@@ -2,7 +2,6 @@ using System;
 using Terraria;
 using CalamityMod;
 using CalamityMod.Items;
-using CalamityMod.Items.Accessories;
 using CalamityMod.Items.Armor;
 using CalamityMod.Items.Armor.Aerospec;
 using CalamityMod.Items.Armor.Astral;
@@ -34,6 +33,7 @@ using CalamityMod.Items.Armor.Umbraphile;
 using CalamityMod.Items.Armor.Vanity;
 using CalamityMod.Items.Armor.Victide;
 using CalamityMod.Items.Armor.Wulfrum;
+using CalamityMod.Items.Accessories;
 using CalamityMod.Items.Accessories.Vanity;
 using CalamityMod.Items.Accessories.Wings;
 using CalamityMod.Items.DifficultyItems;
@@ -42,12 +42,12 @@ using CalamityMod.Items.Placeables.Ores;
 using CalamityMod.Items.Potions;
 using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.Tools;
+using CalamityMod.Items.DraedonMisc;
+using CalamityMod.Items.Mounts;
 using CalamityMod.Items.Weapons.Melee;
 using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Items.Weapons.Rogue;
 using CalamityMod.Items.Weapons.Summon;
-using CalamityMod.Items.DraedonMisc;
-using CalamityMod.Items.Mounts;
 using CalamityMod.Items.Weapons.DraedonsArsenal;
 using CalamityMod.World;
 using System.Collections.Generic;
@@ -70,6 +70,7 @@ public class CalamityGlobalItemCN : GlobalItem
 		if (IsPortugueseLanguageActive)
 		{
 			string hotkey = CalamityMod.CalamityKeybinds.SetBonusHotKey.TooltipHotkeyString();
+			string hotkeyGods = CalamityKeybinds.GodSlayerDashHotKey.TooltipHotkeyString();
 			if (set == "AerospecMagic")
 			{
 				player.setBonus = "增加5%移动速度和魔法暴击率\n一次性受到超过25点伤害会召唤追踪羽毛从天而降\n增加下落速度，免疫摔落伤害";
@@ -201,19 +202,19 @@ public class CalamityGlobalItemCN : GlobalItem
             }
             if (set == "GemTech")
             {
-                player.setBonus = "红色宝石给予130最大潜行值，增加盗贼属性，并让非盗贼武器不消耗潜行值\n黄色宝石增加近战属性，让近战攻击释放宝石碎片。真近战攻击释放宝石碎片的冷却时间更少\n绿色宝石增加远程属性，并召唤飞镖弹快速向被远程弹幕击中的敌人飞去\n蓝色宝石给予4最大召唤栏，增加召唤伤害，并减少手持非召唤武器的召唤伤害降低惩罚\n紫色宝石给予100最大魔力值，增加魔法属性，并在你手持非魔法武器时为你快速回复魔力\n粉色基础宝石给予75防御，增加免伤、移动速度和跳跃速度，+2生命回复\n六个宝石碎片缓缓绕着你旋转；其中五个对应五个职业，还有一个基础宝石\n如果一次受到超过100的伤害，你会损失一个宝石。失去的宝石对应你最近一次使用的武器的职业\n如果你已经损失了那个宝石，那么这次失去的将会是基础宝石\n宝石在损失时会破碎，并向最近的敌人或boss飞去，造成40000基础伤害\n破碎的宝石需要30秒来重新凝聚\n如果所有宝石同时存在，用任何武器击中敌人会提供持续8秒的2点生命回复\n如果在这{1}秒内，你使用了另一职业的武器超过2.5秒，增加的生命回复会变成3点";
+                player.setBonus = "红色宝石给予130最大潜行值，增加盗贼属性，并让非盗贼武器不消耗潜行值\n黄色宝石增加近战属性，让近战攻击释放宝石碎片。真近战攻击释放宝石碎片的冷却时间更少\n绿色宝石增加远程属性，并召唤飞镖弹快速向被远程弹幕击中的敌人飞去\n蓝色宝石给予4最大召唤栏，增加召唤伤害，并减少手持非召唤武器的召唤伤害降低惩罚\n紫色宝石给予100最大魔力值，增加魔法属性，并在你手持非魔法武器时为你快速回复魔力\n粉色基础宝石给予75防御，增加免伤、移动速度和跳跃速度，+2生命回复\n六个宝石碎片缓缓绕着你旋转；其中五个对应五个职业，还有一个基础宝石\n如果一次受到超过100的伤害，你会损失一个宝石。失去的宝石对应你最近一次使用的武器的职业\n如果你已经损失了那个宝石，那么这次失去的将会是基础宝石\n宝石在损失时会破碎，并向最近的敌人或boss飞去，造成40000基础伤害\n破碎的宝石需要30秒来重新凝聚\n如果所有宝石同时存在，用任何武器击中敌人会提供持续8秒的2点生命回复\n如果在这8秒内，你使用了另一职业的武器超过2.5秒，增加的生命回复会变成3点";
             }
             else if (set == "GodSlayerMelee")
             {
-                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkey + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n敌人更有可能以你为目标\n一次性受到超过80点伤害使你放出一群高伤害的弑神飞镖\n敌人碰到你时受到大量伤害\n如果一次攻击将对你造成少于80点伤害，则它改为对你造成1点伤害";
+                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkeyGods + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n敌人更有可能以你为目标\n一次性受到超过80点伤害使你放出一群高伤害的弑神飞镖\n敌人碰到你时受到大量伤害\n如果一次攻击将对你造成少于80点伤害，则它改为对你造成1点伤害";
             }
             else if (set == "GodSlayerRanged")
             {
-                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkey + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n的远程武器射击时每2.5秒发射一枚弑神榴霰弹";
+                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkeyGods + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n的远程武器射击时每2.5秒发射一枚弑神榴霰弹";
             }
             else if (set == "GodSlayerRogue")
             {
-                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkey + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n生命值全满时所有盗贼属性增加10%\n如果一次攻击对你造成了超过80伤害，你获得额外的无敌帧\n不攻击时累积潜行值，移动时积累较慢，最大120点\n一旦你的潜行值满，下一次盗贼攻击可施展潜伏攻击\n盗贼潜行值只在攻击时下降，移动时不会下降\n潜行值越高，你的盗贼伤害，暴击率，移动速度越高";
+                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkeyGods + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n生命值全满时所有盗贼属性增加10%\n如果一次攻击对你造成了超过80伤害，你获得额外的无敌帧\n不攻击时累积潜行值，移动时积累较慢，最大120点\n一旦你的潜行值满，下一次盗贼攻击可施展潜伏攻击\n盗贼潜行值只在攻击时下降，移动时不会下降\n潜行值越高，你的盗贼伤害，暴击率，移动速度越高";
             }
             else if (set == "Mollusk")
             {
@@ -359,7 +360,8 @@ public class CalamityGlobalItemCN : GlobalItem
             {
                 player.setBonus = "增加9%盗贼伤害和盗贼弹幕飞行速度\n盗贼弹幕击中敌人产生特殊效果\n受伤时受到来自宇宙的怒火加持\n不攻击时累积潜行值，移动时积累较慢，最大115点\n一旦你的潜行值满，下一次盗贼攻击可施展潜伏攻击\n盗贼潜行值只在攻击时下降，移动时不会下降\n潜行值越高，你的盗贼伤害、暴击率、移动速度越高";
             }
-            //原版
+			
+//原版套装
             else if (set == "SpectreHeal")
             {
                 player.setBonus = "魔法伤害减少20%并将其转化为治愈力\n对敌人造成的魔法伤害将治疗生命值最低的玩家";
@@ -657,13 +659,16 @@ public class CalamityGlobalItemCN : GlobalItem
 		{
 			return "Xeroc";
 		}
-		//原版
+		
+//原版套装
 		if (head.type == ItemID.SpectreHood && body.type == ItemID.SpectreRobe && legs.type == ItemID.SpectrePants)
 		{
 			return "SpectreHeal";
 		}
 		return "";
 	}
+			
+//修改描述	
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 	{
 	    foreach (TooltipLine line in tooltips)
@@ -704,13 +709,39 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Press " + hotkeySand + " to consume 25% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen", "按下 " + hotkeySand + " 消耗25%最大潜行值，召唤一个围绕你的破坏性沙漠龙卷持续15秒，并提供6点防御和+2生命恢复");
 			}
 			
+			if (item.type == ModContent.ItemType<TheCommunity>())
+			{
+				line.Text = line.Text.Replace("Max health increased by", "最大生命增加");
+				line.Text = line.Text.Replace("Melee speed increased by", "近战攻速增加");
+				line.Text = line.Text.Replace("Life regeneration increased by", "生命再生速度增加");
+				line.Text = line.Text.Replace("Critical strike chance increased by", "暴击率增加");
+				line.Text = line.Text.Replace("Damage increased by", "伤害增加");
+				line.Text = line.Text.Replace("Damage reduction increased by", "伤害减免增加");
+				line.Text = line.Text.Replace("Defense increased by", "防御增加");
+				line.Text = line.Text.Replace("Minion knockback increased by", "召唤物击退增加");
+				line.Text = line.Text.Replace("Movement speed increased by", "移速增加");
+				line.Text = line.Text.Replace("Flight time increased by", "飞行时间增加");
+			}
+			
 			if (item.type == ModContent.ItemType<ProfanedSoulCrystal>())
 			{
+				line.Text = line.Text.Replace("Requires 10 minion slots to use in order to grant the following effects", "需要10个召唤栏以启用以下所有效果：");
+				line.Text = line.Text.Replace("All non-summon weapons are converted into powerful summon variations", "所有非召唤攻击都被转换为强力的召唤变种");
+				line.Text = line.Text.Replace("Falling below 50% life will empower these attacks", "掉到50%血量以下会强化这些攻击");
+				line.Text = line.Text.Replace("Transforms Melee attacks into a barrage of spears", "将近战攻击转换为一波投矛");
+				line.Text = line.Text.Replace("Transforms Magic attacks into a powerful splitting fireball for", "将魔法攻击转换为强力分裂火球，每次消耗");
+				line.Text = line.Text.Replace("mana per cast", "点魔力值");
+				line.Text = line.Text.Replace("Transforms Ranged attacks into a flurry of fireballs and meteors", "将远程攻击转换为一阵火球与陨石");
+				line.Text = line.Text.Replace("Transforms Rogue attacks into a deadly crystalline spiral", "将盗贼攻击转换为死亡水晶螺旋");
+				line.Text = line.Text.Replace("Summons and empowers the profaned babs to fight alongside you", "召唤并强化三个亵渎守卫为你而战");				
+				line.Text = line.Text.Replace("You are no longer affected by burn out when hit", "受伤时不再受到灼伤减益");
+				line.Text = line.Text.Replace("Provides buffs depending on the time of day", "基于所处的时间给予增益");
+				line.Text = line.Text.Replace("Thinking back, it was a boring life", "我的人生平淡无奇，索然无味");
+				line.Text = line.Text.Replace("And so we burn it all in the name of purity", "现在我们以纯化之名将其燃烧殆尽");
 				line.Text = line.Text.Replace("The soul within this crystal has been defiled by the powerful magic of a supreme witch", "这块水晶中的魂魄被至尊女巫的强大魔力污染了");
 				line.Text = line.Text.Replace("The soul within this crystal has been defiled by overwhelming energy waves from dangerous mechanations", "这块水晶中的魂魄被危险的机械造物发出的能量波干扰了");
 				line.Text = line.Text.Replace("Merchants will reject a defiled soul such as this.", "商人会拒绝收购这样一个被玷污的魂魄");
-				line.Text = line.Text.Replace("Transforms Magic attacks into a powerful splitting fireball for", "将魔法攻击转换为强力分裂火球，每次消耗");
-				line.Text = line.Text.Replace("mana per cast", "点魔力值");
+
 			}
 			
 			if (item.type == ModContent.ItemType<PlaguedFuelPack>())
@@ -733,7 +764,7 @@ public class CalamityGlobalItemCN : GlobalItem
 			if (item.type == ModContent.ItemType<CelestialJewel>())
 			{
 				string hotkeyCelestial = CalamityMod.CalamityKeybinds.AstralTeleportHotKey.TooltipHotkeyString();
-				line.Text = line.Text.Replace("Press " + hotkeyCelestial + " to teleport to a random location while no bosses are alive", "没有boss存活时按下 " + hotkeyCelestial + " 键进行随机传送");
+				line.Text = line.Text.Replace("Press " + hotkeyCelestial + " to teleport to a random location while no bosses are alive", "没有Boss存活时按下 " + hotkeyCelestial + " 键进行随机传送");
 			}
 
 			if (item.type == ModContent.ItemType<BlunderBooster>())
@@ -745,7 +776,7 @@ public class CalamityGlobalItemCN : GlobalItem
 			if (item.type == ModContent.ItemType<AstralArcanum>())
 			{
 				string hotkeyArcanum = CalamityMod.CalamityKeybinds.AstralArcanumUIHotkey.TooltipHotkeyString();
-				line.Text = line.Text.Replace("Press " + hotkeyArcanum + " to toggle teleportation UI", "按下 " + hotkeyArcanum + " 键可以打开传送UI");
+				line.Text = line.Text.Replace("Press " + hotkeyArcanum + " to toggle teleportation UI while no bosses are alive", "没有Boss存活时按下 " + hotkeyArcanum + " 键可以打开传送UI");
 			}
 
 			if (item.type == ModContent.ItemType<AsgardianAegis>() || item.type == ModContent.ItemType<ElysianAegis>())
@@ -758,6 +789,12 @@ public class CalamityGlobalItemCN : GlobalItem
 			{
 				string hotkeyReloc = CalamityMod.CalamityKeybinds.NormalityRelocatorHotKey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeyReloc + " to teleport to the position of the mouse", "按下 " + hotkeyReloc + " 传送至鼠标位置");
+			}
+			
+			if (item.type == ModContent.ItemType<AngelicAlliance>())
+			{
+				string hotkeyAngelic = CalamityKeybinds.AngelicAllianceHotKey.TooltipHotkeyString();
+				line.Text = line.Text.Replace("Press " + hotkeyAngelic + " to grace yourself in divinity for 15 seconds", "按下 " + hotkeyAngelic + " 键获得15秒神之祝福");
 			}
 
 			if (item.type == ModContent.ItemType<MagicLevelMeter>())
@@ -808,7 +845,7 @@ public class CalamityGlobalItemCN : GlobalItem
 			{
 				line.Text = line.Text.Replace("Tells you how high your summon proficiency is", "显示你的召唤熟练度");
 				line.Text = line.Text.Replace("While equipped you will gain summon proficiency faster", "装备此物品的时候更快地获得熟练度");
-				line.Text = line.Text.Replace("The higher your summon level the higher your minion damage, knockback, and slots", "召唤等级影响召唤栏位数量、伤害和击退");
+				line.Text = line.Text.Replace("The higher your summon level the higher your minion damage and knockback", "召唤等级影响召唤伤害和击退");
 				line.Text = line.Text.Replace("Summon proficiency (max of 12500):", "召唤熟练度（最大值12500）：");
 				line.Text = line.Text.Replace("Summon level (max of 15):", "召唤等级（最大15）：");
 				line.Text = line.Text.Replace("Minion damage increase:", "召唤物伤害提升：");
@@ -823,21 +860,25 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Adrenaline DR Boost:", "肾上腺素伤害减免加成：");
 				line.Text = line.Text.Replace("Rage Damage Boost:", "愤怒模式伤害加成：");
 				line.Text = line.Text.Replace("Melee Damage:", "近战伤害加成：");
-				line.Text = line.Text.Replace("True Melee Damage:", "真近战伤害加成：");
+				line.Text = line.Text.Replace("True ", "真");
 				line.Text = line.Text.Replace("True Danos por ataque físico:", "真实伤害:");
 				line.Text = line.Text.Replace("Melee Crit Chance:", "近战暴击率：");
-				line.Text = line.Text.Replace("Melee Speed Boost:", "近战攻速加成：");
+				line.Text = line.Text.Replace("Melee Attack Speed:", "近战攻速：");
 				line.Text = line.Text.Replace("Ranged Damage:", "远程伤害加成：");
 				line.Text = line.Text.Replace("Ranged Crit Chance:", "远程暴击率：");
+				line.Text = line.Text.Replace("Ranged Attack Speed:", "远程攻速：");
 				line.Text = line.Text.Replace("Ammo Consumption Chance:", "弹药消耗率：");
 				line.Text = line.Text.Replace("Magic Damage:", "魔法伤害加成：");
 				line.Text = line.Text.Replace("Magic Crit Chance:", "魔法暴击率：");
+				line.Text = line.Text.Replace("Magic Attack Speed:", "魔法攻速：");
 				line.Text = line.Text.Replace("Mana Usage:", "魔力值消耗：");
 				line.Text = line.Text.Replace("Mana Regen:", "魔力值恢复速度：");
 				line.Text = line.Text.Replace("Minion Damage:", "召唤伤害加成：");
+				line.Text = line.Text.Replace("Minion Crit Chance:", "召唤暴击率：");
 				line.Text = line.Text.Replace("Minion Slots:", "召唤栏位数量：");
 				line.Text = line.Text.Replace("Rogue Damage:", "盗贼伤害加成：");
 				line.Text = line.Text.Replace("Rogue Crit Chance:", "盗贼暴击率：");
+				line.Text = line.Text.Replace("Rogue Attack Speed:", "盗贼攻速");
 				line.Text = line.Text.Replace("Rogue Velocity Boost:", "盗贼弹幕飞行速度提升：");
 				line.Text = line.Text.Replace("Rogue Weapon Consumption Chance:", "盗贼消耗性武器消耗率：");
 				line.Text = line.Text.Replace("Max Stealth:", "最大潜行值：");
@@ -849,8 +890,9 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Armor Penetration:", "护甲穿透：");
 				line.Text = line.Text.Replace("Wing Flight Time:", "飞行时间：");
 				line.Text = line.Text.Replace("seconds", "秒");
-				line.Text = line.Text.Replace("Jump Speed Boost:", "跳跃速度：");
-				line.Text = line.Text.Replace("Movement Speed Boost:", "移速提升：");
+				line.Text = line.Text.Replace("sec", "秒");
+				line.Text = line.Text.Replace("Jump Boost:", "跳跃提升：");
+				line.Text = line.Text.Replace("Move Speed:", "移速：");
 				line.Text = line.Text.Replace("Abyss/Cave Light Strength:", "深渊/洞穴光照强度：");
 				line.Text = line.Text.Replace("Abyss Light Strength:", "深渊光照强度：");
 				line.Text = line.Text.Replace("Other Abyss stats are only displayed while in the Abyss", "其他深渊状态数据只有身处深渊才会显示");
@@ -858,7 +900,7 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Breath Lost Per Tick:", "呼吸条消耗速率：");
 				line.Text = line.Text.Replace("Breath Loss Rate:", "呼吸困难程度：");
 				line.Text = line.Text.Replace("Life Lost Per Tick at Zero Breath:", "呼吸条耗尽后生命流失速度：");
-				line.Text = line.Text.Replace("Defense Lost:", "防御削减：");
+				line.Text = line.Text.Replace("Defense Lost From Pressure:", "防御削减：");
 			}
 			if (item.type == ModContent.ItemType<ExoThrone>())
 			{
@@ -872,7 +914,7 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Current level:", "当前等级：");
 				line.Text = line.Text.Replace("Rage Mode damage", "暴怒模式伤害");
 				line.Text = line.Text.Replace("Progress to next level:", "距离下一等级：");
-				line.Text = line.Text.Replace("Total Rage Mode damage:", "暴怒模式总伤害：");
+				line.Text = line.Text.Replace("Total ", "总");
 			}
 			if (item.type == ModContent.ItemType<BrokenBiomeBlade>())
 			{
@@ -1026,10 +1068,14 @@ public class CalamityGlobalItemCN : GlobalItem
 			
 			}
 			
-			if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>())
+			if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>() || item.type == ModContent.ItemType<LongRangedSensorArray>())
 			{
 				line.Text = line.Text.Replace("You don't have sufficient knowledge to create this yet", "你没有足够的知识去制作这个");
-				line.Text = line.Text.Replace("A specific schematic must be deciphered first", "必须先破译特定的原型图，去世界各地的嘉登实验室寻找这些图纸\n随后，你需要用密码破译器基站以及一些部件组装成密码破译器\n接下来消耗嘉登能源电池破译加密原型图来解锁该物品的配方\n上述物品都可以使用神秘电路与可疑镀层合成");
+				line.Text = line.Text.Replace("The Sunken Sea schematic must be deciphered first", "需要先破译沉沦之海原型图");
+				line.Text = line.Text.Replace("The Planetoid schematic must be deciphered first", "需要先破译小行星原型图");
+				line.Text = line.Text.Replace("The Jungle schematic must be deciphered first", "需要先破译丛林原型图");
+				line.Text = line.Text.Replace("The Underworld schematic must be deciphered first", "需要先破译地狱原型图");
+				line.Text = line.Text.Replace("The Ice biome schematic must be deciphered first", "需要先破译雪原原型图");
 
 			}
 			
@@ -1047,6 +1093,644 @@ public class CalamityGlobalItemCN : GlobalItem
 			{
 				line.Text = line.Text.Replace("Donor Item", "捐赠者物品");
 			}
+			
+			if (item.Calamity().AppliedEnchantment != null)
+			{
+				line.Text = line.Text.Contains("Aflame") ? line.Text.Replace("Aflame", "").Trim() + " (魔焱)" : line.Text;
+				line.Text = line.Text.Replace("Lights enemies ablaze on hit but also causes the user to take damage over time when holding this item.", "攻击会点燃目标，但拿着该物品时会受到伤害性减益。");
+				line.Text = line.Text.Contains("Ephemeral") ? line.Text.Replace("Ephemeral", "").Trim() + " (须臾)" : line.Text;
+				line.Text = line.Text.Replace("Causes the damage output of this item to discharge from exhaustive use.", "连续使用时伤害会持续降低。");
+				line.Text = line.Text.Replace("Its damage returns naturally when not being used. It starts off with more damage than it normally would have.", "停止使用时，伤害会逐渐恢复。刚开始使用时它会造成比正常情况下高得多的伤害。");
+				line.Text = line.Text.Contains("Withering") ? line.Text.Replace("Withering", "").Trim() + " (凋零)" : line.Text;
+			    line.Text = line.Text.Replace("When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%.", "当你受伤，会根据之前累计造成的伤害恢复一定比例的生命值，最高可达100%。");
+				line.Text = line.Text.Replace("After this, you gain a damage boost while holding this item but also take exponential damage over time the longer you hold it.", "随后，你会持续受到减益伤害，但你造成的伤害会上升。");
+				line.Text = line.Text.Contains("Resentful") ? line.Text.Replace("Resentful", "").Trim() + " (憎懣)" : line.Text;
+				line.Text = line.Text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The farther, the more damage, and vice versa.", "使弹幕的伤害取决于目标与你的距离，距离越远，伤害越高。反之亦然。");
+				line.Text = line.Text.Contains("Bloodthirsty") ? line.Text.Replace("Bloodthirsty", "").Trim() + " (嗜血)" : line.Text;
+				line.Text = line.Text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The closer, the more damage, and vice versa.", "使弹幕的伤害取决于目标与你的距离，距离越近，伤害越高。反之亦然。");
+				line.Text = line.Text.Contains("Persecuted") ? line.Text.Replace("Persecuted", "").Trim() + " (压迫)" : line.Text;
+				line.Text = line.Text.Replace("When attacked, or over time, demon portals appear near you.", "当攻击时，或随着时间推移，你的附近会生成一个恶魔之门，并在一小段时间后生成恶魔。");
+				line.Text = line.Text.Replace("If sufficiently damaged they are friendly; otherwise they attack you. They become angered if a portal is damaged.", "如果恶魔出现之前传送门被严重破坏，恶魔们会选择攻击敌怪；否则，当传送门消失后，恶魔们就会选择攻击玩家。");
+				line.Text = line.Text.Contains("Lecherous") ? line.Text.Replace("Lecherous", "").Trim() + " (淫欲)" : line.Text;
+				line.Text = line.Text.Replace("Spawns a resilient brimstone monster that stays between you and your mouse that interferes with your homing weapons. It releases a bunch of hearts on death.", "生成一个硫磺怪物处于你和你的鼠标中间，干扰你的武器发射的弹幕。硫磺怪物死亡后会释放很多红心。");
+				line.Text = line.Text.Contains("Tainted") ? line.Text.Replace("Tainted", "").Trim() + " (邪染)" : line.Text;
+				line.Text = line.Text.Replace("Removes projectile shooting capabilities of this item. In exchange, two skeletal arms are released on use that slice at the mouse position.", "取消该物品的弹幕，在挥舞武器时，两只额外的骷髅手臂会与你一起挥舞武器");
+				line.Text = line.Text.Contains("Oblatory") ? line.Text.Replace("Oblatory", "").Trim() + " (献奉)" : line.Text;
+				line.Text = line.Text.Replace("Reduces mana cost and greatly increases damage but sometimes causes this item to use your life.", "减少魔力消耗并大幅增加伤害，但使用该物品偶尔会消耗你的生命值。");
+				line.Text = line.Text.Contains("Traitorous") ? line.Text.Replace("Traitorous", "").Trim() + " (背叛)" : line.Text;
+				line.Text = line.Text.Replace("Causes this item to sometimes release a monster that hurts both you and enemies when you have less than 50% mana.", "当你的魔力值低于50%时，使用该武器会随机生成一个无差别攻击一切生物的怪物。");
+				line.Text = line.Text.Contains("Indignant") ? line.Text.Replace("Indignant", "").Trim() + " (愤慨)" : line.Text;
+				line.Text = line.Text.Replace("Summons demons that harm you but drop healing items on death on item usage.", "使用时召唤一个恶魔攻击你，但恶魔死亡后会产生治愈射线治疗你。");
+				line.Text = line.Text.Contains("Hellbound") ? line.Text.Replace("Hellbound", "").Trim() + " (狱使)" : line.Text;
+				line.Text = line.Text.Replace("Causes minions to be created with a 40 second timer.", "召唤物会在生成40秒后产生剧烈爆炸并消失。");
+				line.Text = line.Text.Replace("Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.", "在这40秒内，召唤物存在时间越久，造成的伤害越高，并且会随机产生小范围爆炸。");
+			}
+			
+			if (item.accessory && !item.social && item.prefix > 0)
+			{
+				line.Text = line.Text.Replace("damage reduction", "伤害减免");
+				line.Text = line.Text.Replace("stealth generation", "潜行值恢复速度");
+
+			}
+
+//-原版物品-
+//武器
+            if (item.type == 1327)
+			{
+				line.Text = line.Text.Replace("Inflicts Whispering Death on hit", "命中造成死亡低语减益");
+			}
+			
+			if (item.type == 368 || item.type == 674 || item.type == 550)
+			{
+				line.Text = line.Text.Replace("Inflicts Holy Flames", "命中造成神圣之火减益");
+				line.Text = line.Text.Replace("Deals double damage to enemies above 75% life", "对75%生命值以上的敌怪造成双倍伤害");
+			}
+			
+			if (item.type == 46 || item.type == 273 || item.type == 675 || item.type == 162)
+			{
+				line.Text = line.Text.Replace("Inflicts Shadowflame on hit", "命中造成暗影焰减益");
+			}
+			
+			if (item.type == 426 || item.type == 1166 || item.type == 3772)
+			{
+				line.Text = line.Text.Replace("Ignores 50% of enemy defense", "无视敌怪50%的防御力");
+			}
+			
+			if (item.type == 795 || item.type == 801 || item.type == 802)
+			{
+				line.Text = line.Text.Replace("Inflicts Burning Blood on hit", "命中造成沸腾之血减益");
+			}
+			
+			List<int> i100ed = new List<int>() { 3352, 198, 199, 200, 201, 202, 203, 3764, 3765, 3766, 3767, 3768, 3769, 4258, 4259};
+			if (i100ed.Contains(item.type))
+			{
+				line.Text = line.Text.Replace("Ignores 100% of enemy defense", "无视敌怪100%的防御力");
+			}
+			
+//工具
+			if (item.type == 367 || item.type == 787)
+			{
+				line.Text = line.Text.Replace("Demon Altars now provide Souls of Night instead of generating ores when destroyed", "摧毁恶魔祭坛获得暗影之魂，而不是新三矿");
+				line.Text = line.Text.Replace("Hardmode ores now generate after defeating Mechanical Bosses for the first time", "新三矿仅在击败每个机械Boss后生成");
+			}
+			
+			if (item.type == 1294)
+			{
+				line.Text = line.Text.Replace("Can mine Scoria Ore located in the Abyss", "可开采深渊中的熔渣矿");
+			}
+			
+			if (item.type == 2776 || item.type == 2781 || item.type == 2786 || item.type == 3466)
+			{
+				line.Text = line.Text.Replace("Can mine Uelibloom Ore", "可开采龙蒿矿");
+			}
+						
+//饰品			
+			if (item.type == 3334 || item.type == 3366)
+			{
+				line.Text = line.Text.Replace("Yoyos will do 33% less damage", "悠悠球伤害减少33%");
+			}
+			
+			if (item.type == 886 || item.type == 901)
+			{
+				line.Text = line.Text.Replace("and Armor Crunch", "免疫碎甲减益");
+			}
+			
+			if (item.type == 1613)
+			{
+				line.Text = line.Text.Replace("including Mighty Wind", "包括强风");
+			}
+			
+			if (item.type == 963 || item.type == 984)
+			{
+				line.Text = line.Text.Replace("Grants the ability to dodge attacks", "获得闪避能力");
+				line.Text = line.Text.Replace("The dodge has a 90 second cooldown which is shared with all other dodges and reflects", "闪避有90秒冷却，且与其他闪避和反弹效果共享冷却");
+			}
+			
+			if (item.type == 3016 || item.type == 3992 || item.type == 3998)
+			{
+				line.Text = line.Text.Replace("Max life increased by 45", "最大生命增加45");
+			}
+			
+			if (item.type == 897 || item.type == 936 || item.type == 3992)
+			{
+				line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%");
+			}
+			
+			if (item.type == 1343)
+			{
+				line.Text = line.Text.Replace("14% increased melee damage and speed", "近战伤害和攻速增加14%");
+				line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%");
+			}
+			
+			if (item.type == 899)
+			{
+				line.Text = line.Text.Replace("Grants immunity to Holy Flames", "免疫神圣之火减益");
+			}
+			
+			if (item.type == 900)
+			{
+				line.Text = line.Text.Replace("Grants immunity to Nightwither", "免疫夜魇减益");
+			}
+			
+			if (item.type == 1865 || item.type == 3110)
+			{
+				line.Text = line.Text.Replace("Grants immunity to Nightwither and Holy Flames", "免疫夜魇和神圣之火减益");
+			}
+			
+			if (item.type == 268 || item.type == 1861 || item.type == 3110)
+			{
+				line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难");
+			}
+			
+			if (item.type == 1303 || item.type == 1860 || item.type == 1861)
+			{
+				line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提高少量光照");
+			}
+			
+			if (item.type == 4989)
+			{
+				line.Text = line.Text.Replace("Increases wing flight time by 50%", "翅膀飞行时间增加50%");
+				line.Text = line.Text.Replace("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高1.1倍");
+			}
+			
+			if (item.type == 3991 || item.type == 4000)
+			{
+			line.Text = line.Text.Replace("20% reduced mana usage", "减少20%魔力消耗");
+			}
+			
+			if (item.type == 1321)
+			{
+				line.Text = line.Text.Replace("Increases arrow damage by 5% and greatly increases arrow speed", "增加5%的箭矢伤害，并大幅提高箭矢速度");
+			}
+			
+			if (item.type == 4002)
+			{
+				line.Text = line.Text.Replace("Increases arrow damage by 7% and greatly increases arrow speed", "增加7%的箭矢伤害，并大幅提高箭矢速度");
+				line.Text = line.Text.Replace("and all arrows inflict Hellfire", "所有箭矢造成狱火减益");
+			}
+			
+			if (item.type == 1858)
+			{
+				line.Text = line.Text.Replace("7% increased ranged damage and critical strike chance", "提高7%远程伤害和暴击率");
+			}
+			
+			if (item.type == 1921)
+			{
+				line.Text = line.Text.Replace("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外提升2点生命再生速度");
+			}
+			
+			if (item.type == 3223)
+			{
+				line.Text = line.Text.Replace("Grants the ability to dodge attacks", "获得闪避能力");
+				line.Text = line.Text.Replace("The dodge has a 120 second cooldown which is shared with all other dodges and reflects", "闪避有120秒冷却，且与其他闪避和反弹效果共享冷却");
+			}
+			
+			if (item.type == 4874)
+			{
+				line.Text = line.Text.Replace("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘于1.5");
+				line.Text = line.Text.Replace("All attacks inflict Hellfire", "所有攻击造成狱火减益");
+			}
+			
+			if (item.type == 3993)
+			{
+				line.Text = line.Text.Replace("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
+				line.Text = line.Text.Replace("Nearby fairies grant increased life regen, defense and movement speed", "靠近仙灵获得生命恢复，防御与移动速度");
+				line.Text = line.Text.Replace("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
+			}
+			
+			if (item.type == 492)
+			{
+			line.Text = line.Text.Replace("5% increased damage and critical strike chance", "提高5%伤害和暴击率");
+			}
+			
+			if (item.type == 493)
+			{
+			line.Text = line.Text.Replace("+20 max life, +10 defense and +2 life regen", "+20最大生命值，+10防御力和2点生命恢复");
+			}
+			
+			if (item.type == 1162)
+			{
+			line.Text = line.Text.Replace("+5 defense, 5% increased damage reduction,", "穿着提基盔甲提高5防御力和5%减伤");
+			line.Text = line.Text.Replace("and permanent Dryad's Blessing while wearing the Tiki Armor", "并永久获得树妖祝福");
+			}
+			
+			if (item.type == 2494)
+			{
+			line.Text = line.Text.Replace("Gills effect and you can move freely through liquids", "具有鱼鳃效果且允许在液体中快速移动");
+			line.Text = line.Text.Replace("You fall faster while submerged in liquid", "液体中下落速度加快");
+			}
+			
+			if (item.type == 1515)
+			{
+			line.Text = line.Text.Replace("Permanently gives the Honey buff", "任何时候都会给予蜂蜜buff");
+			}
+			
+			if (item.type == 749)
+			{
+			line.Text = line.Text.Replace("+20 max mana, 5% decreased mana usage,", "+20最大魔力值，减少5%魔力消耗");
+			line.Text = line.Text.Replace("5% increased magic damage and magic critical strike chance", "提高5%魔法伤害和魔法暴击率");
+			}
+			
+			if (item.type == 761)
+			{
+			line.Text = line.Text.Replace("+60 max life", "+60最大生命值");
+			}
+			
+			if (item.type == 1165)
+			{
+			line.Text = line.Text.Replace("At night or during an eclipse, you will gain the following boosts:", "在夜晚或日食期间，你将获得以下加成：");
+			line.Text = line.Text.Replace("7% increased damage and 3% increased critical strike chance", "增加7%伤害和3%暴击率");
+			}
+			
+			if (item.type == 785)
+			{
+			line.Text = line.Text.Replace("20% increased movement speed", "提高20%移动速度");
+			line.Text = line.Text.Replace("With Harpy Ring or Angel Treads equipped, most attacks sometimes launch feathers", "在装备女妖指环或天使之靴时大多数攻击会释放羽毛");
+			}
+			
+			if (item.type == 786)
+			{
+			line.Text = line.Text.Replace("10% increased movement speed, ranged damage and critical strike chance", "穿着死灵盔甲时提高10%移动速度，提高10%远程伤害和远程暴击率");
+			line.Text = line.Text.Replace("and +30 defense while wearing the Necro Armor", "提高30点防御力");
+			}
+			
+			if (item.type == 2770)
+			{
+			line.Text = line.Text.Replace("+5 defense and 5% increased damage", "增加5防御力，提高5%伤害");
+			}
+			
+			if (item.type == 822)
+			{
+			line.Text = line.Text.Replace("2% increased melee and ranged damage", "穿着寒霜盔甲时");
+			line.Text = line.Text.Replace("and 1% increased melee and ranged critical strike chance", "提高2%近战和远程伤害");
+			line.Text = line.Text.Replace("while wearing the Frost Armor", "提高1%近战和远程暴击率");
+			}
+			
+			if (item.type == 821)
+			{
+			line.Text = line.Text.Replace("5% increased melee damage and critical strike chance", "提高5%近战伤害和近战暴击率");
+			}
+			
+			if (item.type == 823)
+			{
+			line.Text = line.Text.Replace("+10 defense and 5% increased damage reduction while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%减伤");
+			line.Text = line.Text.Replace("5% increased magic damage and critical strike chance while wearing the Spectre Mask set", "穿着幽灵盔甲配幽灵面具时提高5%魔法伤害和魔法暴击率");
+			}
+			
+			if (item.type == 2280)
+			{
+			line.Text = line.Text.Replace("+10 defense and 5% increased damage reduction while wearing the Beetle Shell set", "穿着甲虫盔甲配甲虫壳时增加10防御力和5%减伤");
+			line.Text = line.Text.Replace("5% increased melee damage and critical strike chance while wearing the Beetle Scale Mail set", "穿着甲虫盔甲配甲虫铠甲时提高5%近战伤害和近战暴击率");
+			}
+			
+			if (item.type == 1866)
+			{
+			line.Text = line.Text.Replace("10% increased weapon-type damage while wearing the Shroomite Armor", "	穿着蘑菇矿盔甲时提高10%弓、枪械、火箭发射器或火焰喷射器的伤害");
+			line.Text = line.Text.Replace("The weapon type boosted matches which Shroomite helmet is worn", "加成武器类型取决于戴的蘑菇矿头盔");
+			}
+			
+			if (item.type == 1871)
+			{
+			line.Text = line.Text.Replace("+40 max life", "+40最大生命值");
+			line.Text = line.Text.Replace("Ornaments rain down as you fly", "飞行时掉落装饰品");
+			}
+			
+			if (item.type == 1830)
+			{
+			line.Text = line.Text.Replace("Increased minion knockback and 5% increased minion damage while wearing the Spooky Armor", "穿着阴森盔甲时提高召唤物击退和5%召唤伤害");
+			}
+			
+			if (item.type == 1797)
+			{
+			line.Text = line.Text.Replace("5% increased damage and critical strike chance", "提高5%伤害和暴击率");
+			}
+			
+			if (item.type == 948)
+			{
+			line.Text = line.Text.Replace("+8 defense, 10% increased movement speed,", "+8防御力和10%移速");
+			line.Text = line.Text.Replace("4% increased damage, and 2% increased critical strike chance", "并提高4%伤害和2%暴击率");
+			}
+			
+			if (item.type == 3470)
+			{
+			line.Text = line.Text.Replace("+20 max mana, 5% increased magic damage and critical strike chance,", "穿着星云盔甲时+20最大魔力值");
+			line.Text = line.Text.Replace("and 5% decreased mana usage while wearing the Nebula Armor", "提高5%魔法伤害和魔法暴击率减少5%魔力消耗");
+			}
+			
+			if (item.type == 3469)
+			{
+			line.Text = line.Text.Replace("3% increased ranged damage and 7% increased ranged critical strike chance", "穿着星旋盔甲时");
+			line.Text = line.Text.Replace("while wearing the Vortex Armor", "提高3%远程伤害和7%远程暴击率");
+			}
+			
+			if (item.type == 3471)
+			{
+			line.Text = line.Text.Replace("10% increased minion damage while wearing the Stardust Armor", "穿着星尘盔甲时增加10%召唤伤害");
+			}
+			
+			if (item.type == 3468)
+			{
+			line.Text = line.Text.Replace("7% increased melee damage and 3% increased melee critical strike chance", "穿着耀斑盔甲时");
+			line.Text = line.Text.Replace("while wearing the Solar Flare Armor", "提高7%近战伤害和3%近战暴击率");
+			}
+			
+			List<int> wings = new List<int>() { 4978, 492, 493, 1162, 761, 2494, 822, 785, 748, 665, 1583, 1584, 1585, 1586, 3228, 3580, 3582, 3588, 3592, 3924, 3928, 4730, 4746, 4750, 4754, 1165, 1515, 749, 821, 823, 1866, 786, 2770, 823, 2280, 1871, 1830, 1797, 948, 3883, 4823, 2609, 3470, 3469, 3468, 3471, 4954 };
+			if (wings.Contains(item.type))
+			{
+				line.Text = line.Text.Replace("Horizontal speed", "水平飞行速度");
+				line.Text = line.Text.Replace("Acceleration multiplier", "加速倍率");
+				line.Text = line.Text.Replace("Bad vertical speed", "糟糕的垂直飞行速度");
+				line.Text = line.Text.Replace("Average vertical speed", "普通的垂直飞行速度");
+				line.Text = line.Text.Replace("Good vertical speed", "不错的垂直飞行速度");
+				line.Text = line.Text.Replace("Great vertical speed", "较强的垂直飞行速度");
+				line.Text = line.Text.Replace("Excellent vertical speed", "优异的垂直飞行速度");
+				line.Text = line.Text.Replace("Flight time", "飞行时间");
+			}
+			
+			List<int> grappins = new List<int>() { 84, 1236, 1237, 1238, 1239, 1240, 1241, 939, 1273, 2585, 2360, 185, 1800, 1915, 437, 3021, 3023, 3020, 3022, 2800, 1829, 1916, 3572, 3623, 4257, 4759, 4980 };
+			if (grappins.Contains(item.type))
+			{
+				line.Text = line.Text.Replace("Reach", "长度");
+				line.Text = line.Text.Replace("tiles", "图格");
+				line.Text = line.Text.Replace("Launch Velocity", "发射速度");
+				line.Text = line.Text.Replace("Reelback Velocity", "回收速度");
+				line.Text = line.Text.Replace("Pull Velocity", "牵引速度");
+			}
+//盔甲
+            if (item.type == 89 || item.type == 80 || item.type == 76)
+				{
+					line.Text = line.Text.Replace("Increases all damage by", "所有伤害增加");
+					line.Text = line.Text.Replace("increased movement speed", "移速增加");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+					line.Text = line.Text.Replace("5% increased damage", "伤害增加5%");
+					line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%");
+				}
+			if (item.type == 123 || item.type == 124 || item.type == 125)
+				{
+					line.Text = line.Text.Replace("太空枪不消耗魔力", "减少太空枪50%魔力消耗");
+				}
+			if (item.type == 687 || item.type == 688 || item.type == 689)
+				{
+					line.Text = line.Text.Replace("Increases armor penetration by 5", "增加5点护甲穿透");
+					line.Text = line.Text.Replace("life regen", "生命再生速度");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+					line.Text = line.Text.Replace("4% increased critical strike chance", "暴击率增加4%");
+					line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%");
+				}
+			if (item.type == 954 || item.type == 90 || item.type == 81 || item.type == 77)
+				{
+					line.Text = line.Text.Replace("Reduces damage taken by", "伤害减免");
+					line.Text = line.Text.Replace("life regen", "生命再生速度");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+				}
+			if (item.type == 690 || item.type == 691 || item.type == 692)
+				{
+					line.Text = line.Text.Replace("Reduces damage taken by", "伤害减免");
+					line.Text = line.Text.Replace("life regen", "生命再生速度");
+					line.Text = line.Text.Replace("Grants immunity to knockback", "免疫击退");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+				}
+            if (item.type == 91 || item.type == 82 || item.type == 78)
+				{
+					line.Text = line.Text.Replace("life regen", "生命再生速度");
+					line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%");
+					line.Text = line.Text.Replace("6% increased critical strike chance", "暴击率增加6%");
+					line.Text = line.Text.Replace("Two seconds after getting hit for 20 or more damage, you heal for 10", "受到20点以上的伤害两秒后，你会恢复10点生命");
+					line.Text = line.Text.Replace("Getting hit again resets the timer, delaying the heal", "如果期间再受到伤害会重新计时2秒");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+				}
+			if (item.type == 693 || item.type == 694 || item.type == 695)
+				{
+					line.Text = line.Text.Replace("7% increased damage", "伤害增加7%");
+					line.Text = line.Text.Replace("life regen", "生命再生速度");
+					line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%");
+					line.Text = line.Text.Replace("Increases your critical strike chance by 100% of the knockback of your held weapon", "根据武器的击退增加暴击率");
+					line.Text = line.Text.Replace("This effect caps at Insane knockback, which gives 10% increased critical strike chance", "上限增加为10%暴击率");
+					line.Text = line.Text.Replace("Increases all knockback by 33%, this counts for the above boost", "所有击退增加33%,也算");
+					line.Text = line.Text.Replace("Current bonus:", "当前奖励:");
+					line.Text = line.Text.Replace("critical strike chance from", "暴击率来自");
+					line.Text = line.Text.Replace("knockback", "击退");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+				}
+			if (item.type == 955 || item.type == 92 || item.type == 83 || item.type == 79)
+				{
+					line.Text = line.Text.Replace("6% increased damage", "伤害增加6%");
+					line.Text = line.Text.Replace("Reduces damage taken by", "伤害减免");
+					line.Text = line.Text.Replace("12% increased movement speed", "移速增加12%");
+					line.Text = line.Text.Replace("All enemies have a 4% chance to drop 1 gold. All bosses killed drop 3 gold", "所有敌人有4%几率掉落1金币，Boss掉落3金币");
+					line.Text = line.Text.Replace("You gain 1% critical strike chance for every 5 gold in your inventory, capped at 10%", "背包中每有5金币增加1%暴击率，上限为10%");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+				}
+			if (item.type == 696 || item.type == 697 || item.type == 698)
+				{
+					line.Text = line.Text.Replace("8% increased damage", "伤害增加8%");
+					line.Text = line.Text.Replace("6% increased critical strike chance", "暴击率增加6%");
+					line.Text = line.Text.Replace("12% increased movement speed", "移速增加12%");
+					line.Text = line.Text.Replace("Every 10 defense gives you +1 life regen", "每10点防御+1生命再生速度");
+					line.Text = line.Text.Replace("Every point of defense gives you 0.1% increased critical strike chance", "每点防御增加0.01%暴击率");
+					line.Text = line.Text.Replace("These effects both cap at 50 defense", "上限50点防御");
+					line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%");
+				}
+			if (item.type == 3266 || item.type == 3267 || item.type == 3268)
+				{
+					line.Text = line.Text.Replace("Set Bonus:", "套装奖励：");
+                    line.Text = line.Text.Replace("Increases whip range by 50% and speed by 35%", "增加50%鞭子范围和35%速度");
+					line.Text = line.Text.Replace("Increases minion damage by 15%", "增加15%召唤伤害");
+					line.Text = line.Text.Replace("Grants immunity to fire blocks and temporary immunity to lava", "免疫火块和短暂免疫岩浆");
+				}
+			if (item.type == 956 || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
+				{
+					line.Text = line.Text.Replace("Set bonus:", "套装奖励：");
+					line.Text = line.Text.Replace("15% increased max movement speed and acceleration", "最大移速和加速度提高15%");
+					line.Text = line.Text.Replace("5% increased damage and 7% increased jump speed", "增加5%伤害和7%跳跃速度");
+				}	
+			if (item.type == 231 || item.type == 232 || item.type == 233)
+				{
+					line.Text = line.Text.Replace("20% extra true melee damage", "增加20%额外真近战伤害");
+					line.Text = line.Text.Replace("Grants immunity to fire blocks and temporary immunity to lava", "免疫火块和短暂免疫岩浆");
+				}
+			if (item.type == 792 || item.type == 793 || item.type == 794)
+				{
+					line.Text = line.Text.Replace("life regen", "生命再生速度");
+				}
+			if (item.type == 3187 || item.type == 3188 || item.type == 3189)
+			    {
+                    line.Text = line.Text.Replace("3% increased rogue damage", "增加3%盗贼伤害");
+					line.Text = line.Text.Replace("3% increased rogue critical strike chance", "增加3%盗贼暴击率");
+					line.Text = line.Text.Replace("3% increased rogue velocity", "增加3%盗贼弹幕速度");
+					line.Text = line.Text.Replace("+3 defense", "套装效果：+3 防御力");
+					line.Text = line.Text.Replace("5% increased rogue damage and 10% increased velocity", "增加5%盗贼伤害和10%盗贼弹幕速度");
+					line.Text = line.Text.Replace("Rogue stealth builds while not attacking and not moving, up to a max of 70", "不攻击时累积潜行值，移动时积累较慢，最大70点");
+					line.Text = line.Text.Replace("Once you have built max stealth, you will be able to perform a Stealth Strike", "一旦你的潜行值满，下一次盗贼攻击可施展潜伏攻击");
+					line.Text = line.Text.Replace("Rogue stealth only reduces when you attack, it does not reduce while moving", "盗贼潜行值只在攻击时下降，移动时不会下降");
+					line.Text = line.Text.Replace("The higher your rogue stealth the higher your rogue damage, crit, and movement speed", "潜行值越高，你的盗贼伤害，暴击率，移动速度越高。");
+				}
+			if (item.type == 1001 || item.type == 1002 || item.type == 1003 || item.type == 1004 || item.type == 1005)
+			    {
+					line.Text = line.Text.Replace("Summons a powerful leaf crystal to shoot pulses of life every 3 seconds", "生成一个能量叶子水晶，每3秒发射一次生命脉冲");
+					line.Text = line.Text.Replace("The pulses do a base damage of 300 to enemies within its range", "脉冲对范围内的敌人造成300基础伤害");
+					line.Text = line.Text.Replace("The pulses also provide a 10 health boost to you and all players on your team", "脉冲也为范围内的友军治疗10点生命");
+					line.Text = line.Text.Replace("Players healed by pulses cannot be healed by another pulse until 2.5 seconds have passed", "2.5秒内玩家只会受到一个水晶治疗");
+					line.Text = line.Text.Replace("Both the health boost and the damage scale based on your strongest class", "治疗和伤害基于你最强职业");
+				}
+			if (item.type == 371 || item.type == 372 || item.type == 373 || item.type == 374 || item.type == 375)
+			    {
+					line.Text = line.Text.Replace("Increases maximum mana by 60", "增加60最大魔力值");
+					line.Text = line.Text.Replace("10% increased max speed and acceleration", "最大移速和加速度提高10%");
+                    line.Text = line.Text.Replace("You gain a damage and critical strike chance boost relative to your current movement speed, up to 10%", "基于移速提高伤害和暴击率，上限10%");
+				}	
+			if (item.type == 376 || item.type == 377 || item.type == 378 || item.type == 379 || item.type == 380)
+			    {
+					line.Text = line.Text.Replace("Increases maximum mana by 80", "增加80最大魔力值");
+					line.Text = line.Text.Replace("12% increased damage", "伤害增加12%");
+					line.Text = line.Text.Replace("14% increased critical strike chance", "暴击率增加14%");
+					line.Text = line.Text.Replace("Enemy hits release mythril flares, which home in on enemies after a short delay", "击中敌怪时释放秘银火焰，一段时间后会追踪敌怪");
+                    line.Text = line.Text.Replace("Once a flare is created, there is a 9 frame delay before another one can appear", "秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧");
+				}
+			if (item.type == 400 || item.type == 401 || item.type == 402 || item.type == 403 || item.type == 404)
+			    {
+					line.Text = line.Text.Replace("Increases maximum mana by 100", "增加100最大魔力值");
+					line.Text = line.Text.Replace("Half of your current DR is added to your critical strike chance", "基于伤害减免的一半增加暴击率");
+					line.Text = line.Text.Replace("Continuously doing damage makes you gradually gain more and more defense, up to a maximum of 30", "持续造成伤害会提升防御，至多30点");
+					line.Text = line.Text.Replace("When not doing damage, this bonus gradually decays", "如果不造成伤害，增加的防御会降低");
+					line.Text = line.Text.Replace("This added defense can be broken by defense damage", "也受防御损伤影响");
+				}
+			if (item.type == 4982 || item.type == 4983 || item.type == 4984)
+			    {
+					line.Text = line.Text.Replace("Allows the ability to dash", "获得冲刺能力");
+				}
+			if (item.type == 803 || item.type == 804 || item.type == 805 || item.type == 978 || item.type == 979 || item.type == 980)
+			    {
+					line.Text = line.Text.Replace("Multiplies all cold-based debuff damage by 1.25", "所有冷系减益对敌人多造成25%伤害");
+					line.Text = line.Text.Replace("Cold enemies will deal reduced contact damage to the player", "冷系敌人对玩家造成的伤害减少");
+					line.Text = line.Text.Replace("Provides immunity to the Frostburn and Glacial State debuffs", "免疫霜冻和冰河时代减益");
+				}
+			if (item.type == 1208 || item.type == 1209)
+			    {
+					line.Text = line.Text.Replace("7% increased damage", "伤害增加7%");
+				}
+			if (item.type == 1213)
+			    {
+					line.Text = line.Text.Replace("10% increased critical strike chance", "暴击率增加10%");
+				}	
+			if (item.type == 3776 || item.type == 3777 || item.type == 3778)
+			    {
+					line.Text = line.Text.Replace("The minion damage nerf is reduced while wielding magic weapons", "使用魔法武器时减少召唤伤害");
+				}
+			if (item.type == 3800 || item.type == 3801 || item.type == 3802)
+			    {
+					line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害");
+					line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
+					line.Text = line.Text.Replace("15% increased movement speed", "移速增加15%");
+					line.Text = line.Text.Replace("Increases your life regeneration", "增加生命再生速度");
+					line.Text = line.Text.Replace("15% increased minion damage and 10% increased melee critical strike chance", "增加15%召唤伤害和10%近战暴击率");
+				}
+			if (item.type == 3803 || item.type == 3804 || item.type == 3805)
+			    {
+					line.Text = line.Text.Replace("10% increased minion and ranged damage", "增加10%召唤和远程伤害");
+					line.Text = line.Text.Replace("10% chance to not consume ammo", "10%几率不消耗弹药");
+				}	
+			if (item.type == 3806 || item.type == 3807 || item.type == 3808)
+			    {
+					line.Text = line.Text.Replace("Increases your max number of sentries by 1 and increases melee attack speed by 10%", "增加1最大哨兵栏，增加10%近战攻速");
+					line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害");
+					line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
+					line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
+					line.Text = line.Text.Replace("10% increased melee speed, crit, and damage", "增加10%近战攻速，暴击率和伤害");
+					line.Text = line.Text.Replace("15% increased minion damage", "增加15%召唤伤害");
+				}
+			if (item.type == 3797 || item.type == 3798 || item.type == 3799)
+			    {
+					line.Text = line.Text.Replace("5% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
+					line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
+					line.Text = line.Text.Replace("5% increased minion damage and 15% increased magic critical strike chance", "增加5%召唤伤害和15%魔法暴击率");
+				}
+			if (item.type == 3871 || item.type == 3872 || item.type == 3873)
+			    {
+					line.Text = line.Text.Replace("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生速度");
+					line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
+					line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
+					line.Text = line.Text.Replace("Massively increased life regeneration", "较大提高生命再生速度");
+				}
+			if (item.type == 3880 || item.type == 3881 || item.type == 3882)
+			    {
+					line.Text = line.Text.Replace("Increases your max number of sentries by 2", "增加2最大哨兵栏");
+					line.Text = line.Text.Replace("10% increased melee and minion damage", "增加10%召唤和近战伤害");
+					line.Text = line.Text.Replace("10% increased minion damage and melee speed", "增加10%召唤伤害和近战攻速");
+					line.Text = line.Text.Replace("5% increased melee critical strike chance", "(增加5%近战暴击率)");
+					line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
+					line.Text = line.Text.Replace("30% increased movement speed", "(移速增加30%)");
+					line.Text = line.Text.Replace("10% increased melee damage, melee critical strike chance and melee speed", "增加10%近战攻速，暴击率和伤害");
+					line.Text = line.Text.Replace("30% increased minion damage", "增加30%召唤伤害");
+				}
+            if (item.type == 3877 || item.type == 3878 || item.type == 3879)
+			    {
+					line.Text = line.Text.Replace("15% increased minion and ranged damage and 20% chance to not consume ammo", "增加15%召唤和远程伤害,20%几率不消耗弹药");
+					line.Text = line.Text.Replace("10% increased minion and ranged damage", "增加10%召唤和远程伤害");
+				}
+			if (item.type == 3874 || item.type == 3875 || item.type == 3876)
+			    {
+					line.Text = line.Text.Replace("20% increased movement speed", "(移速增加20%)");
+					line.Text = line.Text.Replace("10% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
+					line.Text = line.Text.Replace("10% increased minion damage and 15% increased magic critical strike chance", "增加10%召唤伤害和15%魔法暴击率");
+				}
+//物品
+				if (item.type == 560 || item.type == 361 || item.type == 602 || item.type == 1844 || item.type == 1958 || item.type == 2767 || item.type == 3601 || item.type == 1315 || item.type == 4271)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+				}
+				if (item.type == 43)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("when used during nighttime", "在夜晚使用");
+					line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴");
+				}
+				if (item.type == 1133)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("when used in the Jungle", "在丛林使用");
+					line.Text = line.Text.Replace("Enrages outside the Underground Jungle", "在地下丛林外会狂暴");
+				}
+				if (item.type == 1331)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("when used in the Crimson", "在血腥之地使用");
+					line.Text = line.Text.Replace("Enrages outside the Underground Crimson", "在地下血腥外会狂暴");
+				}
+				if (item.type == 70)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("when used in the Corruption", "在腐化之地使用");
+					line.Text = line.Text.Replace("Enrages outside the Underground Corruption", "在地下腐化外会狂暴");
+				}
+				if (item.type == 1293)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("to summon the Golem", "在神庙使用");
+					line.Text = line.Text.Replace("Enrages outside the Jungle Temple", "在丛林神庙外会狂暴");
+				}
+				if (item.type == 544 || item.type == 556 || item.type == 557)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("when used during nighttime", "在夜晚使用");
+					line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴");
+				}
+				if (item.type == 2673)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("Summons Duke Fishron if used as bait in the Ocean", "在海洋钓一条猪鲨");
+					line.Text = line.Text.Replace("Enrages outside the Ocean", "海洋群系外会狂暴");
+				}
+				if (item.type == 4988)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("when used in the Hallow", "在神圣之地使用");
+				}
+				if (item.type == 5120)
+				{
+					line.Text = line.Text.Replace("Not consumable", "不消耗");
+					line.Text = line.Text.Replace("when used in the Snow or Ice biome", "在雪原群系使用");
+				}
 		}
 	}		
 			
