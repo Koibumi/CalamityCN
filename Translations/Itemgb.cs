@@ -49,6 +49,22 @@ using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Items.Weapons.Rogue;
 using CalamityMod.Items.Weapons.Summon;
 using CalamityMod.Items.Weapons.DraedonsArsenal;
+using CalamityMod.Items.Fishing.BrimstoneCragCatches;
+using CalamityMod.Items.Fishing.SunkenSeaCatches;
+using CalamityMod.Items.Placeables;
+using CalamityMod.Items.Placeables.FurnitureAbyss;
+using CalamityMod.Items.Placeables.FurnitureAcidwood;
+using CalamityMod.Items.Placeables.FurnitureAncient;
+using CalamityMod.Items.Placeables.FurnitureAshen;
+using CalamityMod.Items.Placeables.FurnitureCosmilite;
+using CalamityMod.Items.Placeables.FurnitureExo;
+using CalamityMod.Items.Placeables.FurnitureMonolith;
+using CalamityMod.Items.Placeables.FurnitureOtherworldly;
+using CalamityMod.Items.Placeables.FurnitureProfaned;
+using CalamityMod.Items.Placeables.FurnitureSilva;
+using CalamityMod.Items.Placeables.FurnitureStatigel;
+using CalamityMod.Items.Placeables.FurnitureStratus;
+using CalamityMod.Items.Placeables.FurnitureVoid;
 using CalamityMod.World;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,18 +72,50 @@ using Terraria.ModLoader;
 using Terraria.Localization;
 using Terraria.ID;
 
-public class CalamityGlobalItemCN : GlobalItem
+public class Itemgb : GlobalItem
 {
 
-	public CalamityGlobalItemCN()
+	public static bool IsLanguageActive => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
+
+    public override void AnglerChat(int type, ref string chat, ref string catchLocation)
 	{
+		if (IsLanguageActive)
+			{
+			if (type == ModContent.ItemType<EutrophicSandfish>())
+			{
+				chat = "你知道沙漠里的蜥蜴往地下钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。 你，现在就去把它抓来，这样我就有新的宠物了！";
+				catchLocation = "抓捕位置：沉沦之海";
+				return;
+			}
+			if (type == ModContent.ItemType<Serpentuna>())
+			{
+				chat = "海蛇其实还是很漂亮的，只要你不贸然侵入他们的领地。现在我命令你给我抓一条来作为给我的惊喜，限你一天之内完成！";
+				catchLocation = "抓捕位置：沉沦之海";
+				return;
+			}
+			if (type == ModContent.ItemType<SurfClam>())
+			{
+				chat = "你知道蛤很美味吗?流言说沙漠地下住着一大群蛤，光是说说就觉得饿了。给我抓一只来，让我练习练习烹饪技巧，也顺便解解馋。";
+				catchLocation = "抓捕位置：沉沦之海";
+				return;
+			}
+			if (type == ModContent.ItemType<Brimlish>())
+			{
+				chat = "在你击败硫磺火元素后，她的孩子们掉进了地狱的岩浆中。据说他们都化作了鱼，现在我要你给我搞到一条，这样我新准备的岩浆鱼缸就能派上用场了！";
+				catchLocation = "抓捕位置：硫火之崖";
+				return;
+			}
+			if (type == ModContent.ItemType<Slurpfish>())
+			{
+				chat = "我知道我知道，要你去远古地狱遗迹的岩浆里钓鱼简直是不讲道理。我正准备这样做。还不快去？鱼可不会自己上钩！";
+				catchLocation = "抓捕位置：硫火之崖";
+			}
+		}
 	}
-
-	public static bool IsPortugueseLanguageActive => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
-
+		
 	public override void UpdateArmorSet(Player player, string set)
 	{
-		if (IsPortugueseLanguageActive)
+		if (IsLanguageActive)
 		{
 			string hotkey = CalamityMod.CalamityKeybinds.SetBonusHotKey.TooltipHotkeyString();
 			string hotkeyGods = CalamityKeybinds.GodSlayerDashHotKey.TooltipHotkeyString();
@@ -671,6 +719,8 @@ public class CalamityGlobalItemCN : GlobalItem
 //修改描述	
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 	{
+		if (IsLanguageActive)
+		{
 	    foreach (TooltipLine line in tooltips)
 		{
 			if (item.type == ModContent.ItemType<Eternity>())
@@ -1061,6 +1111,11 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("rogue damage", "盗贼伤害");
 				line.Text = line.Text.Replace("stealth strike damage", "潜伏攻击伤害");
 			}
+			
+			if (item.DamageType.Name == "AverageDamageClass")
+			{
+				line.Text = line.Text.Replace("average damage", "无职业伤害");
+			}
 
 			if (item.type >= 3930 && (item.Calamity()?.UsesCharge ?? false))
 			{
@@ -1096,32 +1151,32 @@ public class CalamityGlobalItemCN : GlobalItem
 			
 			if (item.Calamity().AppliedEnchantment != null)
 			{
-				line.Text = line.Text.Contains("Aflame") ? line.Text.Replace("Aflame", "").Trim() + " (魔焱)" : line.Text;
+				line.Text = line.Text.Replace("Aflame", "魔焱");
 				line.Text = line.Text.Replace("Lights enemies ablaze on hit but also causes the user to take damage over time when holding this item.", "攻击会点燃目标，但拿着该物品时会受到伤害性减益。");
-				line.Text = line.Text.Contains("Ephemeral") ? line.Text.Replace("Ephemeral", "").Trim() + " (须臾)" : line.Text;
+				line.Text = line.Text.Replace("Ephemeral", "须臾");
 				line.Text = line.Text.Replace("Causes the damage output of this item to discharge from exhaustive use.", "连续使用时伤害会持续降低。");
 				line.Text = line.Text.Replace("Its damage returns naturally when not being used. It starts off with more damage than it normally would have.", "停止使用时，伤害会逐渐恢复。刚开始使用时它会造成比正常情况下高得多的伤害。");
-				line.Text = line.Text.Contains("Withering") ? line.Text.Replace("Withering", "").Trim() + " (凋零)" : line.Text;
+				line.Text = line.Text.Replace("Withering", "凋零");
 			    line.Text = line.Text.Replace("When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%.", "当你受伤，会根据之前累计造成的伤害恢复一定比例的生命值，最高可达100%。");
 				line.Text = line.Text.Replace("After this, you gain a damage boost while holding this item but also take exponential damage over time the longer you hold it.", "随后，你会持续受到减益伤害，但你造成的伤害会上升。");
-				line.Text = line.Text.Contains("Resentful") ? line.Text.Replace("Resentful", "").Trim() + " (憎懣)" : line.Text;
+				line.Text = line.Text.Replace("Resentful", "憎懣");
 				line.Text = line.Text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The farther, the more damage, and vice versa.", "使弹幕的伤害取决于目标与你的距离，距离越远，伤害越高。反之亦然。");
-				line.Text = line.Text.Contains("Bloodthirsty") ? line.Text.Replace("Bloodthirsty", "").Trim() + " (嗜血)" : line.Text;
+				line.Text = line.Text.Replace("Bloodthirsty", "嗜血");
 				line.Text = line.Text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The closer, the more damage, and vice versa.", "使弹幕的伤害取决于目标与你的距离，距离越近，伤害越高。反之亦然。");
-				line.Text = line.Text.Contains("Persecuted") ? line.Text.Replace("Persecuted", "").Trim() + " (压迫)" : line.Text;
+				line.Text = line.Text.Replace("Persecuted", "压迫");
 				line.Text = line.Text.Replace("When attacked, or over time, demon portals appear near you.", "当攻击时，或随着时间推移，你的附近会生成一个恶魔之门，并在一小段时间后生成恶魔。");
 				line.Text = line.Text.Replace("If sufficiently damaged they are friendly; otherwise they attack you. They become angered if a portal is damaged.", "如果恶魔出现之前传送门被严重破坏，恶魔们会选择攻击敌怪；否则，当传送门消失后，恶魔们就会选择攻击玩家。");
-				line.Text = line.Text.Contains("Lecherous") ? line.Text.Replace("Lecherous", "").Trim() + " (淫欲)" : line.Text;
+				line.Text = line.Text.Replace("Lecherous", "淫欲");
 				line.Text = line.Text.Replace("Spawns a resilient brimstone monster that stays between you and your mouse that interferes with your homing weapons. It releases a bunch of hearts on death.", "生成一个硫磺怪物处于你和你的鼠标中间，干扰你的武器发射的弹幕。硫磺怪物死亡后会释放很多红心。");
-				line.Text = line.Text.Contains("Tainted") ? line.Text.Replace("Tainted", "").Trim() + " (邪染)" : line.Text;
+				line.Text = line.Text.Replace("Tainted", "邪染");
 				line.Text = line.Text.Replace("Removes projectile shooting capabilities of this item. In exchange, two skeletal arms are released on use that slice at the mouse position.", "取消该物品的弹幕，在挥舞武器时，两只额外的骷髅手臂会与你一起挥舞武器");
-				line.Text = line.Text.Contains("Oblatory") ? line.Text.Replace("Oblatory", "").Trim() + " (献奉)" : line.Text;
+				line.Text = line.Text.Replace("Oblatory", "献奉");
 				line.Text = line.Text.Replace("Reduces mana cost and greatly increases damage but sometimes causes this item to use your life.", "减少魔力消耗并大幅增加伤害，但使用该物品偶尔会消耗你的生命值。");
-				line.Text = line.Text.Contains("Traitorous") ? line.Text.Replace("Traitorous", "").Trim() + " (背叛)" : line.Text;
+				line.Text = line.Text.Replace("Traitorous", "背叛");
 				line.Text = line.Text.Replace("Causes this item to sometimes release a monster that hurts both you and enemies when you have less than 50% mana.", "当你的魔力值低于50%时，使用该武器会随机生成一个无差别攻击一切生物的怪物。");
-				line.Text = line.Text.Contains("Indignant") ? line.Text.Replace("Indignant", "").Trim() + " (愤慨)" : line.Text;
+				line.Text = line.Text.Replace("Indignant", "愤慨");
 				line.Text = line.Text.Replace("Summons demons that harm you but drop healing items on death on item usage.", "使用时召唤一个恶魔攻击你，但恶魔死亡后会产生治愈射线治疗你。");
-				line.Text = line.Text.Contains("Hellbound") ? line.Text.Replace("Hellbound", "").Trim() + " (狱使)" : line.Text;
+				line.Text = line.Text.Replace("Hellbound", "狱使");
 				line.Text = line.Text.Replace("Causes minions to be created with a 40 second timer.", "召唤物会在生成40秒后产生剧烈爆炸并消失。");
 				line.Text = line.Text.Replace("Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.", "在这40秒内，召唤物存在时间越久，造成的伤害越高，并且会随机产生小范围爆炸。");
 			}
@@ -1132,7 +1187,417 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("stealth generation", "潜行值恢复速度");
 
 			}
-
+//不能直接翻译的家具(恼
+//星流家具
+            if (item.type == ModContent.ItemType<ExoChair>())
+			{
+				line.Text = line.Text.Replace("Exo Chair", "星流椅");
+			}
+			if (item.type == ModContent.ItemType<ExoBathtub>())
+            {
+				line.Text = line.Text.Replace("Exo Bathtub", "星流浴缸");
+			}
+			if (item.type == ModContent.ItemType<ExoBed>())
+            {
+				line.Text = line.Text.Replace("Exo Bed", "星流床");
+			}
+			if (item.type == ModContent.ItemType<ExoBookcase>())
+            {
+				line.Text = line.Text.Replace("Exo Bookcase", "星流书架");
+			}
+			if (item.type == ModContent.ItemType<ExoCandelabra>())
+            {
+				line.Text = line.Text.Replace("Exo Candelabra", "星流烛台");
+			}
+			if (item.type == ModContent.ItemType<ExoCandle>())
+            {
+				line.Text = line.Text.Replace("Exo Candle", "星流蜡烛");
+			}
+			if (item.type == ModContent.ItemType<ExoChandelier>())
+            {
+				line.Text = line.Text.Replace("Exo Chandelier", "星流吊灯");
+			}
+			if (item.type == ModContent.ItemType<ExoChest>())
+            {
+				line.Text = line.Text.Replace("Exo Chest", "星流箱");
+			}
+			if (item.type == ModContent.ItemType<ExoClock>())
+            {
+				line.Text = line.Text.Replace("Exo Clock", "星流钟");
+			}
+			if (item.type == ModContent.ItemType<ExoDoor>())
+            {
+				line.Text = line.Text.Replace("Exo Door", "星流门");
+			}
+			if (item.type == ModContent.ItemType<ExoDresser>())
+            {
+				line.Text = line.Text.Replace("Exo Dresser", "星流梳妆台");
+			}
+			if (item.type == ModContent.ItemType<ExoKeyboard>())
+            {
+				line.Text = line.Text.Replace("Exo Keyboard", "星流键盘");
+			}
+			if (item.type == ModContent.ItemType<ExoLamp>())
+            {
+				line.Text = line.Text.Replace("Exo Lamp", "星流灯");
+			}
+			if (item.type == ModContent.ItemType<ExoLantern>())
+            {
+				line.Text = line.Text.Replace("Exo Lantern", "星流灯笼");
+			}
+			if (item.type == ModContent.ItemType<ExoPlatform>())
+            {
+				line.Text = line.Text.Replace("Exo Platform", "星流平台");
+			}
+			if (item.type == ModContent.ItemType<ExoPrismPlatform>())
+            {
+				line.Text = line.Text.Replace("Exo Prism Platform", "星流棱晶平台");
+			}
+			if (item.type == ModContent.ItemType<ExoSink>())
+            {
+				line.Text = line.Text.Replace("Exo Sink", "星流水槽");
+			}
+			if (item.type == ModContent.ItemType<ExoSofa>())
+            {
+				line.Text = line.Text.Replace("Exo Sofa", "星流沙发");
+			}
+			if (item.type == ModContent.ItemType<ExoTable>())
+            {
+				line.Text = line.Text.Replace("Exo Table", "星流桌");
+			}
+			if (item.type == ModContent.ItemType<ExoToilet>())
+            {
+				line.Text = line.Text.Replace("Exo Toilet", "星流马桶");
+			}
+			if (item.type == ModContent.ItemType<ExoWorkbench>())
+            {
+				line.Text = line.Text.Replace("Exo Work Bench", "星流工作台");
+			}
+//酸腐木家具
+			if (item.type == ModContent.ItemType<AcidwoodBathtub>())
+            {
+				line.Text = line.Text.Replace("Acidwood Bathtub", "酸腐木浴缸");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodBed>())
+            {
+				line.Text = line.Text.Replace("Acidwood Bed", "酸腐木床");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodBench>())
+            {
+				line.Text = line.Text.Replace("Acidwood Bench", "酸腐木长凳");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodBookcase>())
+            {
+				line.Text = line.Text.Replace("Acidwood Bookcase", "酸腐木书架");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodCandelabra>())
+            {
+				line.Text = line.Text.Replace("Acidwood Candelabra", "酸腐木烛台");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodCandle>())
+            {
+				line.Text = line.Text.Replace("Acidwood Candle", "酸腐木蜡烛");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodChair>())
+            {
+				line.Text = line.Text.Replace("Acidwood Chair", "酸腐木椅子");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodChandelier>())
+            {
+				line.Text = line.Text.Replace("Acidwood Chandelier", "酸腐木吊灯");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodChest>())
+            {
+				line.Text = line.Text.Replace("Acidwood Chest", "酸腐木箱");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodClock>())
+            {
+				line.Text = line.Text.Replace("Acidwood Clock", "酸腐木钟");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodDoor>())
+            {
+				line.Text = line.Text.Replace("Acidwood Door", "酸腐木门");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodDresser>())
+            {
+				line.Text = line.Text.Replace("Acidwood Dresser", "酸腐木梳妆台");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodLamp>())
+            {
+				line.Text = line.Text.Replace("Acidwood Lamp", "酸腐木灯");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodLantern>())
+            {
+				line.Text = line.Text.Replace("Acidwood Lantern", "酸腐木灯笼");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodPiano>())
+            {
+				line.Text = line.Text.Replace("Acidwood Piano", "酸腐木钢琴");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodPlatform>())
+            {
+				line.Text = line.Text.Replace("Acidwood Platform", "酸腐木平台");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodSink>())
+            {
+				line.Text = line.Text.Replace("Acidwood Sink", "酸腐木水槽");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodTable>())
+            {
+				line.Text = line.Text.Replace("Acidwood Table", "酸腐木桌子");
+			}
+			if (item.type == ModContent.ItemType<AcidwoodWorkBench>())
+            {
+				line.Text = line.Text.Replace("Acidwood Work Bench", "酸腐木工作台");
+			}
+//星石家具
+			if (item.type == ModContent.ItemType<MonolithBathtub>())
+            {
+				line.Text = line.Text.Replace("Monolith Bathtub", "星石浴缸");
+			}
+			if (item.type == ModContent.ItemType<MonolithBed>())
+            {
+				line.Text = line.Text.Replace("Monolith Bed", "星石床");
+			}
+			if (item.type == ModContent.ItemType<MonolithBench>())
+            {
+				line.Text = line.Text.Replace("Monolith Bench", "星石长凳");
+			}
+			if (item.type == ModContent.ItemType<MonolithBookcase>())
+            {
+				line.Text = line.Text.Replace("Monolith Bookcase", "星石书架");
+			}
+			if (item.type == ModContent.ItemType<MonolithCandelabra>())
+            {
+				line.Text = line.Text.Replace("Monolith Candelabra", "星石烛台");
+			}
+			if (item.type == ModContent.ItemType<MonolithCandle>())
+            {
+				line.Text = line.Text.Replace("Monolith Candle", "星石蜡烛");
+			}
+			if (item.type == ModContent.ItemType<MonolithChair>())
+            {
+				line.Text = line.Text.Replace("Monolith Chair", "星石椅");
+			}
+			if (item.type == ModContent.ItemType<MonolithChandelier>())
+            {
+				line.Text = line.Text.Replace("Monolith Chandelier", "星石吊灯");
+			}
+			if (item.type == ModContent.ItemType<MonolithChest>())
+            {
+				line.Text = line.Text.Replace("Monolith Chest", "星石箱");
+			}
+			if (item.type == ModContent.ItemType<MonolithClock>())
+            {
+				line.Text = line.Text.Replace("Monolith Clock", "星石钟");
+			}
+			if (item.type == ModContent.ItemType<MonolithDoor>())
+            {
+				line.Text = line.Text.Replace("Monolith Door", "星石门");
+			}
+			if (item.type == ModContent.ItemType<MonolithDresser>())
+            {
+				line.Text = line.Text.Replace("Monolith Dresser", "星石梳妆台");
+			}
+			if (item.type == ModContent.ItemType<MonolithLamp>())
+            {
+				line.Text = line.Text.Replace("Monolith Lamp", "星石灯");
+			}
+			if (item.type == ModContent.ItemType<MonolithLantern>())
+            {
+				line.Text = line.Text.Replace("Monolith Lantern", "星石灯笼");
+			}
+			if (item.type == ModContent.ItemType<MonolithPiano>())
+            {
+				line.Text = line.Text.Replace("Monolith Piano", "星石钢琴");
+			}
+			if (item.type == ModContent.ItemType<MonolithPlatform>())
+            {
+				line.Text = line.Text.Replace("Monolith Platform", "星石平台");
+			}
+			if (item.type == ModContent.ItemType<MonolithSink>())
+            {
+				line.Text = line.Text.Replace("Monolith Sink", "星石水槽");
+			}
+			if (item.type == ModContent.ItemType<MonolithTable>())
+            {
+				line.Text = line.Text.Replace("Monolith Table", "星石桌");
+			}
+			if (item.type == ModContent.ItemType<MonolithWorkBench>())
+            {
+				line.Text = line.Text.Replace("Monolith Work Bench", "星石工作台");
+			}
+//异域家具
+			if (item.type == ModContent.ItemType<OtherworldlyBathtub>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Bathtub", "异域浴缸");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyBed>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Bed", "异域床");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyBookcase>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Bookcase", "异域书架");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyCandelabra>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Candelabra", "异域烛台");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyCandle>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Candle", "异域蜡烛");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyChair>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Chair", "异域椅");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyChandelier>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Chandelier", "异域烛台");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyChest>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Chest", "异域箱");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyClock>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Clock", "异域钟");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyDoor>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Door", "异域门");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyDresser>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Dresser", "异域梳妆台");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyLamp>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Lamp", "异域灯");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyLantern>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Lantern", "异域灯笼");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyPiano>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Piano", "异域钢琴");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyPlatform>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Platform", "异域平台");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlySink>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Sink", "异域水槽");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlySofa>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Sofa", "异域沙发");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyStone>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Stone", "异域石");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyTable>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Table", "异域桌");
+			}
+			if (item.type == ModContent.ItemType<OtherworldlyWorkBench>())
+            {
+				line.Text = line.Text.Replace("Otherworldly Work Bench", "异域工作台");
+			}
+//其他家具
+            if (item.type == ModContent.ItemType<VoidBathtub>())
+            {
+				line.Text = line.Text.Replace("Void Bathtub", "虚空浴缸");
+			}
+			if (item.type == ModContent.ItemType<VoidObelisk>())
+            {
+				line.Text = line.Text.Replace("Void Obelisk", "虚空钟");
+			}
+			if (item.type == ModContent.ItemType<VoidWorkbench>())
+            {
+				line.Text = line.Text.Replace("Void Work Bench", "虚空工作台");
+			}
+			if (item.type == ModContent.ItemType<AshenBathtub>())
+            {
+				line.Text = line.Text.Replace("Ashen Bathtub", "灰烬浴缸");
+			}
+			if (item.type == ModContent.ItemType<AshenPipeOrgan>())
+            {
+				line.Text = line.Text.Replace("Ashen Pipe Organ", "灰烬钢琴");
+			}
+			if (item.type == ModContent.ItemType<AshenWorkBench>())
+            {
+				line.Text = line.Text.Replace("Ashen Work Bench", "灰烬工作台");
+			}
+			if (item.type == ModContent.ItemType<AncientBathtub>())
+            {
+				line.Text = line.Text.Replace("Ancient Bathtub", "远古浴缸");
+			}
+			if (item.type == ModContent.ItemType<AncientPipeOrgan>())
+            {
+				line.Text = line.Text.Replace("Ancient Pipe Organ", "远古钢琴");
+			}
+			if (item.type == ModContent.ItemType<AncientWorkBench>())
+            {
+				line.Text = line.Text.Replace("Ancient Work Bench", "远古工作台");
+			}
+			if (item.type == ModContent.ItemType<AbyssBathtub>())
+            {
+				line.Text = line.Text.Replace("Abyss Bathtub", "深渊浴缸");
+			}
+			if (item.type == ModContent.ItemType<AbyssSynth>())
+            {
+				line.Text = line.Text.Replace("Abyss Synth", "深渊钢琴");
+			}
+			if (item.type == ModContent.ItemType<AbyssWorkBench>())
+            {
+				line.Text = line.Text.Replace("Abyss Work Bench", "深渊工作台");
+			}
+			if (item.type == ModContent.ItemType<StatigelBathtub>())
+            {
+				line.Text = line.Text.Replace("Statigel Bathtub", "斯塔提斯浴缸");
+			}
+			if (item.type == ModContent.ItemType<StatigelWorkbench>())
+            {
+				line.Text = line.Text.Replace("Statigel Work Bench", "斯塔提斯工作台");
+			}
+			if (item.type == ModContent.ItemType<ProfanedBathtub>())
+            {
+				line.Text = line.Text.Replace("Profaned Bathtub", "渎神浴缸");
+			}
+			if (item.type == ModContent.ItemType<ProfanedWorkbench>())
+            {
+				line.Text = line.Text.Replace("Profaned Work Bench", "渎神工作台");
+			}
+			if (item.type == ModContent.ItemType<CosmiliteBathtub>())
+            {
+				line.Text = line.Text.Replace("Cosmilite Bathtub", "宇宙浴缸");
+			}
+			if (item.type == ModContent.ItemType<CosmiliteWorkBench>())
+            {
+				line.Text = line.Text.Replace("Cosmilite Work Bench", "宇宙工作台");
+			}
+			if (item.type == ModContent.ItemType<StratusWorkbench>())
+            {
+				line.Text = line.Text.Replace("Stratus Work Bench", "幻云工作台");
+			}
+//特殊
+				line.Text = line.Text.Replace("Otherworldly Stone Wall", "异域石墙");
+				line.Text = line.Text.Replace("Eutrophic Shelf", "富养制造架");
+				line.Text = line.Text.Replace("Monolith Amalgam", "星幻柱综合体");
+				line.Text = line.Text.Replace("Profaned Crucible", "亵渎坩埚");
+				line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机");
+				
+/*		
+			if (item.type == ModContent.ItemType<>())
+            {
+				line.Text = line.Text.Replace("", "");
+			}	
+*/			
 //-原版物品-
 //武器
             if (item.type == 1327)
@@ -1146,7 +1611,7 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Deals double damage to enemies above 75% life", "对75%生命值以上的敌怪造成双倍伤害");
 			}
 			
-			if (item.type == 46 || item.type == 273 || item.type == 675 || item.type == 162)
+			if (item.type == 46 || item.type == 273 || item.type == 675 || item.type == 162 || item.type == 3279)
 			{
 				line.Text = line.Text.Replace("Inflicts Shadowflame on hit", "命中造成暗影焰减益");
 			}
@@ -1156,9 +1621,44 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Ignores 50% of enemy defense", "无视敌怪50%的防御力");
 			}
 			
-			if (item.type == 795 || item.type == 801 || item.type == 802)
+			if (item.type == 795 || item.type == 801 || item.type == 802 || item.type == 3280)
 			{
 				line.Text = line.Text.Replace("Inflicts Burning Blood on hit", "命中造成沸腾之血减益");
+			}
+			
+			if (item.type == 483 || item.type == 537)
+			{
+				line.Text = line.Text.Replace("Decreases enemy defense by 25% on hit", "命中时减少敌人25%防御");
+			}
+			
+			if (item.type == 1185 || item.type == 1186)
+			{
+				line.Text = line.Text.Replace("Increases life regen on hit", "命中时增加生命恢复速度");
+			}
+			
+			if (item.type == 484 || item.type == 390)
+			{
+				line.Text = line.Text.Replace("Decreases enemy contact damage by 10% on hit", "命中时减少敌人10%接触伤害");
+			}
+			
+			if (item.type == 1192 || item.type == 1193)
+			{
+				line.Text = line.Text.Replace("Increases how frequently the Orichalcum set bonus triggers on hit", "命中时增加山铜套触发效果");
+			}
+			
+			if (item.type == 406 || item.type == 482)
+			{
+				line.Text = line.Text.Replace("Slows enemies on hit", "命中时减速敌人");
+			}
+			
+			if (item.type == 3859)
+			{
+				line.Text = line.Text.Replace("Shoots splitting arrows", "射出分裂的箭");
+			}
+			
+			if (item.type == 1199 || item.type == 1200)
+			{
+				line.Text = line.Text.Replace("Deals increased damage to enemies with high knockback resistance", "对高击退抗性的敌人造成更多伤害");
 			}
 			
 			List<int> i100ed = new List<int>() { 3352, 198, 199, 200, 201, 202, 203, 3764, 3765, 3766, 3767, 3768, 3769, 4258, 4259};
@@ -1184,7 +1684,12 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Can mine Uelibloom Ore", "可开采龙蒿矿");
 			}
 						
-//饰品			
+//饰品
+            if (item.type == 5107)
+			{
+				line.Text = line.Text.Replace("Increases movement acceleration and deceleration by 1.25x", "增加25%移动加速度和减速度");
+			}
+			
 			if (item.type == 3334 || item.type == 3366)
 			{
 				line.Text = line.Text.Replace("Yoyos will do 33% less damage", "悠悠球伤害减少33%");
@@ -1242,9 +1747,19 @@ public class CalamityGlobalItemCN : GlobalItem
 				line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难");
 			}
 			
-			if (item.type == 1303 || item.type == 1860 || item.type == 1861)
+			if (item.type == 1303 || item.type == 1860 || item.type == 1861 || item.type == 115 || item.type == 3062 || item.type == 3043)
 			{
-				line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提高少量光照");
+				line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照");
+			}
+			
+			if (item.type == 425 || item.type == 3856 || item.type == 298)
+			{
+				line.Text = line.Text.Replace("Provides a moderate amount of light in the abyss", "在深渊中提供适当光照");
+			}
+			
+			if (item.type == 1183 || item.type == 3577)
+			{
+				line.Text = line.Text.Replace("Provides a large amount of light in the abyss", "在深渊中提供大量光照");
 			}
 			
 			if (item.type == 4989)
@@ -1385,7 +1900,7 @@ public class CalamityGlobalItemCN : GlobalItem
 			
 			if (item.type == 1866)
 			{
-			line.Text = line.Text.Replace("10% increased weapon-type damage while wearing the Shroomite Armor", "	穿着蘑菇矿盔甲时提高10%弓、枪械、火箭发射器或火焰喷射器的伤害");
+			line.Text = line.Text.Replace("10% increased weapon-type damage while wearing the Shroomite Armor", "穿着蘑菇矿盔甲时提高10%弓、枪械、火箭发射器或火焰喷射器的伤害");
 			line.Text = line.Text.Replace("The weapon type boosted matches which Shroomite helmet is worn", "加成武器类型取决于戴的蘑菇矿头盔");
 			}
 			
@@ -1567,11 +2082,11 @@ public class CalamityGlobalItemCN : GlobalItem
 				}
 			if (item.type == 1001 || item.type == 1002 || item.type == 1003 || item.type == 1004 || item.type == 1005)
 			    {
-					line.Text = line.Text.Replace("Summons a powerful leaf crystal to shoot pulses of life every 3 seconds", "生成一个能量叶子水晶，每3秒发射一次生命脉冲");
+					line.Text = line.Text.Replace("Summons a powerful leaf crystal to shoot pulses of life every 3 seconds", "召唤叶状水晶，每3秒发射一次生命脉冲");
 					line.Text = line.Text.Replace("The pulses do a base damage of 300 to enemies within its range", "脉冲对范围内的敌人造成300基础伤害");
-					line.Text = line.Text.Replace("The pulses also provide a 10 health boost to you and all players on your team", "脉冲也为范围内的友军治疗10点生命");
+					line.Text = line.Text.Replace("The pulses also provide a 10 health boost to you and all players on your team", "并治疗范围内的友军10点生命");
 					line.Text = line.Text.Replace("Players healed by pulses cannot be healed by another pulse until 2.5 seconds have passed", "2.5秒内玩家只会受到一个水晶治疗");
-					line.Text = line.Text.Replace("Both the health boost and the damage scale based on your strongest class", "治疗和伤害基于你最强职业");
+					line.Text = line.Text.Replace("Both the health boost and the damage scale based on your strongest class", "伤害和治疗值均受玩家最强职业加成");
 				}
 			if (item.type == 371 || item.type == 372 || item.type == 373 || item.type == 374 || item.type == 375)
 			    {
@@ -1731,7 +2246,84 @@ public class CalamityGlobalItemCN : GlobalItem
 					line.Text = line.Text.Replace("Not consumable", "不消耗");
 					line.Text = line.Text.Replace("when used in the Snow or Ice biome", "在雪原群系使用");
 				}
+				if (item.type == 267)
+				{
+					line.Text = line.Text.Replace("Summons the Wall of Flesh if thrown into lava in the underworld while the Guide is alive", "向导存活时将娃娃扔进地狱的岩浆中召唤肉山");
+				}
+				if (item.type == 1307)
+				{
+					line.Text = line.Text.Replace("While equipped, summons Skeletron when the Clothier is killed during nighttime", "装备后在夜晚杀死服饰商召唤骷髅王");
+					line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴");
+				}
+				if (item.type == 50 || item.type == 3199 || item.type == 3124 || item.type == 2350)
+				{
+					line.Text = line.Text.Replace("Cannot be used while you have the Boss Effects buff", "Boss战期间无法使用");
+				}
+				if (item.type == 353 || item.type == 2266)
+				{
+					line.Text = line.Text.Replace("Increases melee damage and speed by 10% and reduces defense by 10%", "增加10%近战伤害和攻速，减少10%防御");
+				}
+				if (item.type == 291)
+				{
+					line.Text = line.Text.Replace("Greatly reduces breath loss in the abyss", "大大缓解深渊造成的呼吸困难");
+				}
+				if (item.type == 1134)
+				{
+					line.Text = line.Text.Replace("Grants the Honey buff for 2 minutes", "给予2分钟蜂蜜增益");
+				}
+				if (item.type == 303)
+				{
+					line.Text = line.Text.Replace("20% increased arrow speed and 5% increased arrow damage", "增加20%箭矢速度和5%箭矢伤害");
+				}
+				if (item.type == 2346)
+				{
+					line.Text = line.Text.Replace("Reduces damage taken by 5%", "减少5%受到的伤害");
+				}
+				if (item.type == 294)
+				{
+					line.Text = line.Text.Replace("10% increased magic damage", "增加10%魔法伤害");
+				}
+				if (item.type == 290)
+				{
+					line.Text = line.Text.Replace("15% increased movement speed", "增加15%移速");
+				}
+				if (item.type == 2359)
+				{
+					line.Text = line.Text.Replace("Grants immunity to Chilled, Frozen and Glacial State", "免疫冷冻，冰冻和冰河时代减益");
+				}
+				if (item.type == 1353)
+				{
+					line.Text = line.Text.Replace("Rogue attacks inflict enemies with cursed flames", "盗贼攻击会对敌人造成诅咒焰");
+				}
+				if (item.type == 1354)
+				{
+					line.Text = line.Text.Replace("Rogue attacks set enemies on fire", "盗贼攻击会使敌人着火");
+				}
+				if (item.type == 1355)
+				{
+					line.Text = line.Text.Replace("Rogue attacks make enemies drop more gold", "盗贼攻击会使敌人掉落更多金子");
+				}
+				if (item.type == 1356)
+				{
+					line.Text = line.Text.Replace("Rogue attacks decrease enemy defense", "盗贼攻击会降低敌人防御力");
+				}
+				if (item.type == 1357)
+				{
+					line.Text = line.Text.Replace("Rogue attacks confuse enemies", "盗贼攻击会让敌人困惑");
+				}
+				if (item.type == 1358)
+				{
+					line.Text = line.Text.Replace("All attacks cause confetti to appear", "所有攻击喷出彩纸");
+				}
+				if (item.type == 1359)
+				{
+					line.Text = line.Text.Replace("Rogue attacks poison enemies", "盗贼攻击会使敌人中毒");
+				}
+				if (item.type == 1340)
+				{
+					line.Text = line.Text.Replace("Rogue attacks inflict Venom on enemies", "盗贼攻击会对敌人施放毒液");
+				}
 		}
 	}		
-			
+}		
 }	

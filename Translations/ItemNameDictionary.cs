@@ -1741,6 +1741,8 @@ namespace CalamityCN
             {"UniversalGenesis", "宇宙之源"},
             {"SearedPan", "焦锅"},
             {"Seraphim", "炽天使之匕"},
+			{"BabyFlakCrabItem", "小高口蟹"},
+			{"BabyFlakCrabCage", "小高口蟹笼"},
             //难度
             {"Death", "死亡魔杖"},
             {"Revenge", "复仇血泉"},
@@ -1917,7 +1919,7 @@ namespace CalamityCN
             {"ExoBookcase", "星流书架"},
             {"ExoCandelabra", "星流烛台"},
             {"ExoCandle", "星流蜡烛"},
-            {"ExoChair", "星流椅子"},
+            {"ExoChair", "星流椅"},
             {"ExoChandelier", "星流吊灯"},
             {"ExoChest", "星流箱"},
             {"ExoClock", "星流钟"},
