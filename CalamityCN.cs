@@ -1,16 +1,17 @@
-﻿using Terraria.ModLoader;
+using System;
+using CalamityMod;
+using Terraria;
 using Terraria.Localization;
+using Terraria.ModLoader;
 
 namespace CalamityCN
 {
 	public class CalamityCN : Mod
 	{
-        public CalamityCN()
-        {
-
-        }
+		
         public override void PostSetupContent()
         {
+				
             if (ModLoader.TryGetMod("CalamityMod", out Mod Calamity))
             {
 

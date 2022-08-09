@@ -1,11 +1,9 @@
 [h1]This is a Chinese-translation Mod for[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072] Calamity Mod[/url][/h1]
 
 [h1]=[介绍]=[/h1]
-本Mod是由Kcovin制作，灾厄维基汉化组出品的灾厄汉化Mod
-此Mod为Beta版，目前只实装了部分翻译，
-套装效果和一些特殊文本的翻译暂缺，
-部分汉化来自1.5还未与2.0校对(缓慢进行中,
-姑且能解决燃眉之急，请各位玩家耐心等待我们后续的工作。
+本Mod是由Kcovin制作，灾厄维基汉化组出品的灾厄汉化补丁，
+此Mod已汉化大部分内容，除一些特殊文本的翻译暂缺，
+能满足正常游戏体验，完整汉化请各位玩家耐心等待汉化者2.0。
 
 讨论群1：1060107125
 讨论群2：470305298
@@ -18,3 +16,4 @@
 3.安装完成，进行游戏
 
 :p
+
