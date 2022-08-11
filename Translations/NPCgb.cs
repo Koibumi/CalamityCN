@@ -18,35 +18,35 @@ public class NPCgb : GlobalNPC
                 int deathCount = Main.player[Main.myPlayer].Calamity().deathCount;
                 if (deathCount <= 100)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。";
                 }
                 else if (deathCount > 100 && deathCount <= 250)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。考虑降低难度吧。如果这句话让你感到恼火，那太好了。";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。考虑降低难度吧。如果这句话让你感到恼火，那太好了。";
                 }
                 else if (deathCount > 250 && deathCount <= 500)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。我敬佩你不屈不挠的精神。坚持下去，你的敌人正在绞尽脑汁地想怎么对付你！";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。我敬佩你不屈不挠的精神。坚持下去，你的敌人正在绞尽脑汁地想怎么对付你！";
                 }
                 else if (deathCount > 500 && deathCount <= 1000)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。你甚至无法规避最基本的攻击。这让我很震惊。";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。你甚至无法规避最基本的攻击。这让我很震惊。";
                 }
                 else if (deathCount > 1000 && deathCount <= 2500)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。据说泰拉人的平均寿命大约是两分钟，或者更少。……嗯，可能不准确，但我感觉你会变成统计数据的一部分。";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。据说泰拉人的平均寿命大约是两分钟，或者更少。……嗯，可能不准确，但我感觉你会变成统计数据的一部分。";
                 }
                 else if (deathCount > 2500 && deathCount <= 5000)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。祝福你。即使我喝高了，我也躲的比你好。";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。祝福你。即使我喝高了，我也躲的比你好。";
                 }
                 else if (deathCount > 5000 && deathCount <= 10000)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。我不知道这次我该说什么了。你很糟糕，并且应该感觉到自己很糟糕？然而这已经是众所周知的事情了。";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。我不知道这次我该说什么了。你很糟糕，并且应该感觉到自己很糟糕？然而这已经是众所周知的事情了。";
                 }
                 else if (deathCount > 10000)
                 {
-                    Main.npcChatText = "你一共死了 " + deathCount + " 次。恭喜！你现在正式成为泰拉瑞亚历史上最大的loser！谁是第二？如果我知道的话。";
+                    Main.npcChatText = "你一共死了" + deathCount + "次。恭喜！你现在正式成为泰拉瑞亚历史上最大的loser！谁是第二？如果我知道的话。";
                 }
             }
 

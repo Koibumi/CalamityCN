@@ -17,15 +17,13 @@ namespace CalamityCN.Translations.CodeEdit
 {
     public class DraedonWidgetTranslation
     {
-        private static List<ILHook> IlHooks;
-        private static List<Hook> Hooks;
+        private static List<ILHook> ILHooks;
         private static List<string> SchematicText;
         private static List<string> ExoUIText;
         private static List<string> KnowledgeText;
         public static void Load()
         {
-            IlHooks = new List<ILHook>();
-            Hooks = new List<Hook>();
+            ILHooks = new List<ILHook>();
             SchematicText = new List<string>(new string[]
             {
                 "Within an army, as weapons do, the soldiers serve different purposes. That distinction is crucial, as the wrong tool in the wrong hands—no matter how potent—may as well be a wooden club.\nAddendum: Seek out my base of operations closest to the Lihzahrd’s home. I wish you the best of luck with all sincerity, for it has been a long time since I have had a worthy test subject. ",
@@ -52,12 +50,20 @@ namespace CalamityCN.Translations.CodeEdit
             });
             KnowledgeText = new List<string>(new string[]
             {
-                "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.",
-                "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。",
-                "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.",
-                "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。",
-                "Artemis and Apollo, a pair of extremely agile destroyers with pulse cannons.",
-                "阿尔忒弥斯和阿波罗，装备了脉冲加农炮的，快如流星的一对战争机器。"
+                "You don't have sufficient knowledge to create this yet",
+                "你没有足够的知识来制作这个物品",
+                "A specific schematic must be deciphered first",
+                "必须先破译特定的原型图",
+                "The Sunken Sea schematic must be deciphered first",
+                "必须先找到沉沦之海的加密原型图。",
+                "The Planetoid schematic must be deciphered first",
+                "必须先破译小行星的加密原型图",
+                "The Jungle schematic must be deciphered first",
+                "必须先破译丛林的加密原型图",
+                "The Underworld schematic must be deciphered first",
+                "必须先破译地狱的加密原型图",
+                "The Ice biome schematic must be deciphered first",
+                "必须先破译雪原的加密原型图",
             });
 
             QuickTranslate(typeof(CodebreakerTile), "RightClick",
@@ -80,16 +86,13 @@ namespace CalamityCN.Translations.CodeEdit
             {
                 QuickTranslate(typeof(ExoMechSelectionUI), "HandleInteractionWithButton", ExoUIText[i * 2], ExoUIText[i * 2 + 1]);
             }
-
-            
-            Hooks.Add(new Hook(typeof(CalamityGlobalItem).GetMethod("InsertKnowledgeTooltip", BindingFlags.Public | BindingFlags.Static), TranslateKnowledgeTooltip));
-
-            foreach (ILHook hook in IlHooks)
+            for (int i = 0; i < 7; i++)
             {
-                if (hook is not null)
-                    hook.Apply();
+                QuickTranslate(typeof(CalamityGlobalItem), "InsertKnowledgeTooltip", KnowledgeText[i * 2], KnowledgeText[i * 2 + 1]);
             }
-            foreach (Hook hook in Hooks)
+
+
+            foreach (ILHook hook in ILHooks)
             {
                 if (hook is not null)
                     hook.Apply();
@@ -97,18 +100,12 @@ namespace CalamityCN.Translations.CodeEdit
         }
         public static void Unload()
         {
-            foreach (ILHook hook in IlHooks)
+            foreach (ILHook hook in ILHooks)
             {
                 if (hook is not null)
                     hook.Dispose();
             }
-            foreach (Hook hook in Hooks)
-            {
-                if (hook is not null)
-                    hook.Dispose();
-            }
-            IlHooks = null;
-            Hooks = null;
+            ILHooks = null;
             SchematicText = null;
             ExoUIText = null;
             KnowledgeText = null;
@@ -116,7 +113,7 @@ namespace CalamityCN.Translations.CodeEdit
 
         private static void QuickTranslate(Type type, string methodName, string origin, string trans)
         {
-            IlHooks.Add(new ILHook(
+            ILHooks.Add(new ILHook(
             type.GetMethod(methodName, (BindingFlags)60 | BindingFlags.GetProperty),
             new ILContext.Manipulator(il =>
             {
@@ -126,34 +123,6 @@ namespace CalamityCN.Translations.CodeEdit
                 cursor.Index++;
                 cursor.EmitDelegate<Func<string, string>>((eng) => trans);
             })));
-        }
-
-        private static void TranslateKnowledgeTooltip(List<TooltipLine> tooltips, int tier, bool allowOldWorlds = false)
-        {
-            TooltipLine tooltipLine = new TooltipLine(CalamityCN.Instance, "SchematicKnowledge1", "你没有足够的知识去制做这个");
-            TooltipLine tooltipLine2 = new TooltipLine(CalamityCN.Instance, "SchematicKnowledge2", "必须先破译特定的原型图");
-            switch (tier)
-            {
-                case 1:
-                    tooltipLine2 = new TooltipLine(CalamityCN.Instance, "SchematicKnowledge2", "必须先找到沉沦之海的加密原型图");
-                    break;
-                case 2:
-                    tooltipLine2 = new TooltipLine(CalamityCN.Instance, "SchematicKnowledge2", "必须先破译小行星的加密原型图");
-                    break;
-                case 3:
-                    tooltipLine2 = new TooltipLine(CalamityCN.Instance, "SchematicKnowledge2", "必须先破译丛林的加密原型图");
-                    break;
-                case 4:
-                    tooltipLine2 = new TooltipLine(CalamityCN.Instance, "SchematicKnowledge2", "必须先破译地狱的加密原型图");
-                    break;
-                case 5:
-                    tooltipLine2 = new TooltipLine(CalamityCN.Instance, "SchematicKnowledge2", "必须先破译雪原的加密原型图");
-                    break;
-            }
-            tooltipLine.OverrideColor = tooltipLine2.OverrideColor = Color.Cyan;
-            bool flag = allowOldWorlds && CalamityWorld.IsWorldAfterDraedonUpdate;
-            tooltips.AddWithCondition(tooltipLine, !ArsenalTierGatedRecipe.HasTierBeenLearned(tier) && !flag);
-            tooltips.AddWithCondition(tooltipLine2, !ArsenalTierGatedRecipe.HasTierBeenLearned(tier) && !flag);
         }
     }
 }
