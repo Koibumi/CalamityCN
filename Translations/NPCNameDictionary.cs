@@ -161,7 +161,7 @@ namespace CalamityCN
             { "ShockstormShuttle", "风暴飞碟" },
             { "Stormlion", "风暴蚁狮" },
             { "Sunskater", "寻阳鱼" },
-			{ "Horse", "地元魔魂"},
+            { "Horse", "地元魔魂"},
             { "ThiccWaifu", "雨云元素" },
             { "WulfrumDrone", "钨钢无人机" },
             { "PerforatorBodyLarge", "血肉寄生者" },
@@ -288,8 +288,8 @@ namespace CalamityCN
             { "BrimstoneHeart", "硫磺火之心" },
             { "WITCH", "硫磺火女巫" },
             { "Rotdog", "血犬" },
-			{ "PlaguebringerMiniboss", "瘟疫使者"},
-			{ "AuroraSpirit", "极光之灵"},	
+            { "PlaguebringerMiniboss", "瘟疫使者"},
+            { "AuroraSpirit", "极光之灵"},
         };
     }
 }

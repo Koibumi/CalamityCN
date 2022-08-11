@@ -1,26 +1,21 @@
-﻿
-using CalamityMod.NPCs.TownNPCs;
+﻿using CalamityMod.NPCs.TownNPCs;
 using MonoMod.RuntimeDetour;
-using System;
 using System.Collections.Generic;
-using System.Reflection;
 using Terraria.Localization;
-using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.CodeEdit
 {
-    public static class ChatButtonsTranslate
+    public class ChatButtonsTranslation
     {
         private static List<Hook> chatButton;
         public static void Load()
         {
-            MonoModHooks.RequestNativeAccess();
             chatButton = new List<Hook>();
             chatButton.Add(new Hook(typeof(THIEF).GetMethod("SetChatButtons"), THIEFButton));
             chatButton.Add(new Hook(typeof(SEAHOE).GetMethod("SetChatButtons"), SEAHOEButton));
             chatButton.Add(new Hook(typeof(WITCH).GetMethod("SetChatButtons"), WITCHButton));
             chatButton.Add(new Hook(typeof(FAP).GetMethod("SetChatButtons"), FAPButton));
-            foreach(Hook hook in chatButton)
+            foreach (Hook hook in chatButton)
             {
                 if (hook is not null)
                     hook.Apply();
