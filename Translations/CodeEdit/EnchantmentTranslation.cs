@@ -18,6 +18,7 @@ namespace CalamityCN.Translations.CodeEdit
         {
             translationDict = new Dictionary<string, string[]>()
             {
+                // 第一个是英文名，后俩是名称和说明，这是固定格式
                 { "Exhume", new string[] { "死灵炼注", "将该物品转化为更加强大的物品。" } },
                 { "Aflame", new string[] { "魔焱","攻击会点燃目标，但拿着该物品时会受到伤害性减益。"} },
                 { "Ephemeral", new string[] { "须臾", "连续使用时伤害会持续降低。停止使用时，伤害会逐渐恢复。刚开始使用时它会造成比正常情况下高得多的伤害。" } },
