@@ -14,7 +14,8 @@ namespace CalamityCN
 {
 	public class CalamityCN : Mod
 	{
-
+        private static CalamityCN _instance;
+        public static CalamityCN Instance => _instance;
         public override void PostSetupContent()
         {
 				
@@ -65,6 +66,7 @@ namespace CalamityCN
         
 		public override void Load()
         {
+            _instance = this;
 			SetLanguage_GameCulture += Fix;
             GetFriendlyName += TranslatedFriendlyName;
 			Main.QueueMainThreadAction(() =>
@@ -80,6 +82,7 @@ namespace CalamityCN
             });
 			SetLanguage_GameCulture -= Fix;
             GetFriendlyName -= TranslatedFriendlyName;
+            _instance = null;
         }
 		
 		private void Fix(orig_SetLanguage_GameCulture orig, LanguageManager self, GameCulture culture)

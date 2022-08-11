@@ -12,6 +12,7 @@ namespace CalamityCN.Translations.CodeEdit
             ChatButtonsTranslation.Load();
             EnchantmentTranslation.Load();
             DraedonLogTranslation.Load();
+            DraedonComputerTranslation.Load();
         }
         public override void Unload()
         {
@@ -19,6 +20,7 @@ namespace CalamityCN.Translations.CodeEdit
             ChatButtonsTranslation.Unload();
             EnchantmentTranslation.Unload();
             DraedonLogTranslation.Unload();
+            DraedonComputerTranslation.Unload();
         }
     }
 }

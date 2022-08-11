@@ -74,6 +74,7 @@ namespace CalamityCN.Translations.CodeEdit
                         return "花费：";
                     });
                 }));
+
             fixExhume.Apply();
             fixCost.Apply();
         }
