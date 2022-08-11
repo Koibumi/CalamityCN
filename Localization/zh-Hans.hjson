@@ -110,18 +110,18 @@ UI:
 BiomeName: 
 {
     AbovegroundAstralBiome: "星辉瘟疫地表",
-    AbovegroundAstralDesertBiome: "星辉瘟疫沙漠地表",
-    AbovegroundAstralSnowBiome: "星辉瘟疫雪原地表",
+    AbovegroundAstralDesertBiome: "星幻沙漠",
+    AbovegroundAstralSnowBiome: "星幻雪地",
     AbyssLayer1Biome: "深渊第一层",
     AbyssLayer2Biome: "深渊第二层",
     AbyssLayer3Biome: "深渊第三层",
     AbyssLayer4Biome: "深渊第四层",
     AcidRainBiome: "酸雨",
-    ArsenalLabBiome: "实验室",
+    ArsenalLabBiome: "嘉登实验室",
     BrimstoneCragsBiome: "硫火之崖",
     SulphurousSeaBiome: "硫磺海",
     SunkenSeaBiome: "沉沦之海",
-    UndergroundAstralBiome: "星辉瘟疫地底",
+    UndergroundAstralBiome: "星辉瘟疫地下",
 }
 
 TownNPCMood: 
@@ -146,7 +146,7 @@ TownNPCMood:
     {
         Content: "总有一个地方是五点钟。",
         NoHome: "我需要个地方休息！我的饮品也需要冰镇服务！",
-        LoveSpace: "终于有了片刻宁静，人太多会惹怒我。",
+        LoveSpace: "终于有了片刻宁静，人太多会惹恼我。",
         FarFromHome: "我虽然习惯了离家出走，但这还是有点离谱。",
         DislikeCrowded: "如果再有人和我说'现在是特价时间'以此想要打折，我就打折他！",
         HateCrowded: "再多的酒精也掩盖不了这些人发出的噪音！",
@@ -160,7 +160,7 @@ TownNPCMood:
         LikeNPC_PartyGirl: "{NCPName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！",
         DislikeNPC_DD2Bartender: "{NCPName} 真的秃，也许他不再尝试约我，就能长出一些头发。",
         DislikeNPC_TaxCollector: "{NCPName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。",
-        HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边?你喜欢看我重温他给我的压力吗?",
+        HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗?",
         HateNPC_Angler: "{NCPName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！",
         LikeNPC_Princess: "你以为我会不喜欢 {NPCName} 只因我们太不同了? 恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。",
     },
@@ -168,14 +168,14 @@ TownNPCMood:
     SEAHOE:
     {
         Content: "我很满意。",
-        NoHome: "谢谢你的款待，但是我现在恐怕没有家了。",
+        NoHome: "谢谢你的招待，但是我现在恐怕无家可归。",
         LoveSpace: "啊，我很喜欢独处的宁静。",
-        FarFromHome: "我的鳞片变干了，我离家太远了",
+        FarFromHome: "我的鳞片变得干燥，我离家太远了",
         DislikeCrowded: "这里的生活条件很拥挤，不是吗?",
         HateCrowded: "我不想利用我的地位，但我还是皇室成员时，我更习惯周围人少点。",
         LikeBiome: "靠近大海，苦乐参半。但我还是忍不住喜欢它。",
-        DislikeBiome: "这里太阳太刺眼了，我不喜欢干旱气候。",
-        HateBiome: "这就不是能住的地方，快放我走！~",
+        DislikeBiome: "阳光太刺眼了，我不喜欢这里的干旱气候。",
+        HateBiome: "这就不是能住的地方，快放我走！",
         LikeNPC: "{NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！",
         DislikeNPC: "我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。",
         HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！",
@@ -186,14 +186,14 @@ TownNPCMood:
     {
         Content: "一切都很顺利!",
         NoHome: "你有地方睡吗？睡地上让我浑身酸痛。",
-        LoveSpace: "人越少就越容易跳脱某些事情。",
+        LoveSpace: "人越少就越容易逃脱某些事情。",
         FarFromHome: "我得回到我的秘密储藏室，万一有人趁我不在拿我宝贝怎么办。",
         DislikeCrowded: "我不喜欢这里，目击者太多了。",
         HateCrowded: "和这么多人在一起让我觉得我会被偷",
         LikeBiome: "我知道许多富商会穿过沙漠，这是个偷他们东西的好地方。",
         DislikeBiome: "太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。",
         HateBiome: "这里没人住，为什么要住这里？！这里简直是个垃圾场！",
-        LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到我偷了他，笑死我了。",
+        LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。",
         DislikeNPC: "{NPCName} 真是个伪君子!我不喜欢她是出于原则！也因为她几乎没有任何物质财富。",
         LikeNPC_Princess: "我不忍心从 {NPCName} 偷任何东西，她太可爱了!",
     },
@@ -257,7 +257,7 @@ MapObject: {
 		EutrophicSand: "富营养沙"
 		ViperVines: "蝰蛇藤蔓"
 }
-		
+
 ProjectileName: {
 		AbyssBallVolley: "深渊追魂弹"
 		AbyssBallVolley2: "深渊追魂弹"

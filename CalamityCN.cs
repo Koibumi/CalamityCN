@@ -1,22 +1,25 @@
+using System.Globalization;
+using System.Reflection;
+using System.Threading;
+using System;
+using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using Terraria.GameContent.UI.Elements;
+using static On.Terraria.GameContent.UI.Elements.UIKeybindingListItem;
+using static On.Terraria.Localization.LanguageManager;
+using CalamityMod;
 
 namespace CalamityCN
 {
-    public class CalamityCN : Mod
-    {
+	public class CalamityCN : Mod
+	{
 
         public override void PostSetupContent()
         {
-
+				
             if (ModLoader.TryGetMod("CalamityMod", out Mod Calamity))
             {
-
-                /*
-                    ╔════════════════════════════════╗
-                    ║ +-+ | 翻译加载 | +-+ ║
-                    ╚════════════════════════════════╝
-                */
 
                 ItemNameDict itemNameDictionary = new ItemNameDict();
                 ItemToolTipDict itemTooltipDictionary = new ItemToolTipDict();
@@ -24,11 +27,7 @@ namespace CalamityCN
                 BuffNameDict buffNameDictionary = new BuffNameDict();
                 BuffDescriptionDict buffDescriptionDictionary = new BuffDescriptionDict();
 
-                /*
-                    ╔══════════════════════════════╗
-                    ║ +-+ | 物品 | +-+ ║
-                    ╚══════════════════════════════╝
-                */
+
 
                 //物品名称
                 foreach (var itemName in itemNameDictionary.ItemName)
@@ -41,11 +40,7 @@ namespace CalamityCN
                 {
                     Calamity.Find<ModItem>(itemTooltip.Key).Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, itemTooltip.Value);
                 }
-                /*
-                    ╔════════════════════════════════╗
-                    ║ +-+ | 增益减益   | +-+ ║
-                    ╚════════════════════════════════╝
-                */
+
 
                 //Buff名称
                 foreach (var effectName in buffNameDictionary.EffectName)
@@ -58,11 +53,7 @@ namespace CalamityCN
                 {
                     Calamity.Find<ModBuff>(effectDescription.Key).Description.AddTranslation((int)GameCulture.CultureName.Chinese, effectDescription.Value);
                 }
-                /*
-                    ╔═════════════════════════════╗
-                    ║ +-+ | NPC | +-+ ║
-                    ╚═════════════════════════════╝
-                */
+
 
                 //NPC名称
                 foreach (var npcName in npcNameDictionary.NPCName)
@@ -70,6 +61,100 @@ namespace CalamityCN
                     Calamity.Find<ModNPC>(npcName.Key).DisplayName.AddTranslation(7, npcName.Value);
                 }
             }
+        }
+        
+		public override void Load()
+        {
+			SetLanguage_GameCulture += Fix;
+            GetFriendlyName += TranslatedFriendlyName;
+			Main.QueueMainThreadAction(() =>
+            {
+                Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            });
+        }
+        public override void Unload()
+        {
+			Main.QueueMainThreadAction(() =>
+            {
+                Thread.CurrentThread.CurrentCulture = Language.ActiveCulture.CultureInfo;
+            });
+			SetLanguage_GameCulture -= Fix;
+            GetFriendlyName -= TranslatedFriendlyName;
+        }
+		
+		private void Fix(orig_SetLanguage_GameCulture orig, LanguageManager self, GameCulture culture)
+        {
+            orig.Invoke(self, culture);
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+        }
+		private string TranslatedFriendlyName(orig_GetFriendlyName orig, UIKeybindingListItem item)
+        {
+            string keybindName = item.GetType().GetField("_keybind", (BindingFlags)60).GetValue(item) as string;
+            if (Language.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese))
+			{
+				if (keybindName == "CalamityMod: Normality Relocator")
+                {
+                return "灾厄：常态定位器";
+                }
+				if (keybindName == "CalamityMod: Rage Mode")
+				{
+                return "灾厄：暴怒模式";
+				}
+				if (keybindName == "CalamityMod: Adrenaline Mode")
+				{
+                return "灾厄：肾上腺素";
+				}
+				if (keybindName == "CalamityMod: Elysian Guard")
+				{
+                return "灾厄：极乐守护";
+				}
+				if (keybindName == "CalamityMod: Armor Set Bonus")
+				{
+                return "灾厄：套装奖励";
+				}
+				if (keybindName == "CalamityMod: Astral Teleport")
+				{
+                return "灾厄：天魔星石传送";
+				}
+				if (keybindName == "CalamityMod: Astral Arcanum UI Toggle")
+				{
+                return "灾厄：星辉秘术UI";
+				}
+				if (keybindName == "CalamityMod: Momentum Capacitor Effect")
+				{
+                return "灾厄：动量电容器";
+				}
+				if (keybindName == "CalamityMod: Sand Cloak Effect")
+				{
+                return "灾厄：沙尘披风";
+				}
+				if (keybindName == "CalamityMod: Spectral Veil Teleport")
+				{
+                return "灾厄：幽灵披风传送";
+				}
+				if (keybindName == "CalamityMod: Booster Dash")
+				{
+                return "灾厄：喷射器冲刺";
+				}
+				if (keybindName == "CalamityMod: Angelic Alliance Blessing")
+				{
+                return "灾厄：圣天誓盟祝福";
+				}
+				if (keybindName == "CalamityMod: God Slayer Dash")
+				{
+                return "灾厄：弑神者冲刺";
+				}
+				if (keybindName == "CalamityMod: Exo Chair Speed Up")
+				{
+                return "灾厄：星流飞椅加速";
+				}
+				if (keybindName == "CalamityMod: Exo Chair Slow Down")
+				{
+                return "灾厄：星流飞椅减速";
+				}
+			}
+            return orig.Invoke(item);
+			
         }
     }
 }
