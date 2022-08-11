@@ -8,19 +8,19 @@ namespace CalamityCN.Translations.CodeEdit
         {
             MonoModHooks.RequestNativeAccess();
 
-            OptimizeVanillaChineseDisplay.Load();
+            OptimizeChineseDisplay.Load();
             ChatButtonsTranslation.Load();
             EnchantmentTranslation.Load();
             DraedonLogTranslation.Load();
-            DraedonComputerTranslation.Load();
+            DraedonWidgetTranslation.Load();
         }
         public override void Unload()
         {
-            OptimizeVanillaChineseDisplay.Unload();
+            OptimizeChineseDisplay.Unload();
             ChatButtonsTranslation.Unload();
             EnchantmentTranslation.Unload();
             DraedonLogTranslation.Unload();
-            DraedonComputerTranslation.Unload();
+            DraedonWidgetTranslation.Unload();
         }
     }
 }

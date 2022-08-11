@@ -13,7 +13,6 @@ namespace CalamityCN.Translations.CodeEdit
         private static ILHook fixExhume;
         private static ILHook fixCost;
         private static Dictionary<string, string[]> translationDict;
-        private static Dictionary<string, string> originDict;
         public static void Load()
         {
             translationDict = new Dictionary<string, string[]>()

@@ -1,8 +1,6 @@
-﻿using CalamityMod.NPCs.TownNPCs;
-using CalamityMod.UI;
+﻿using CalamityMod.UI;
 using MonoMod.RuntimeDetour;
 using System.Collections.Generic;
-using Terraria.Localization;
 
 namespace CalamityCN.Translations.CodeEdit
 {

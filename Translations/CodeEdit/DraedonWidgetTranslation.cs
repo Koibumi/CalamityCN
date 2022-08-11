@@ -10,20 +10,18 @@ using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.CodeEdit
 {
-    public class DraedonComputerTranslation
+    public class DraedonWidgetTranslation
     {
         private static List<ILHook> IlHooks;
         private static List<Hook> Hooks;
         private static List<string> SchematicText;
         private static List<string> ExoUIText;
+        private static List<string> KnowledgeText;
         public static void Load()
         {
             IlHooks = new List<ILHook>();
@@ -52,23 +50,38 @@ namespace CalamityCN.Translations.CodeEdit
                 "Artemis and Apollo, a pair of extremely agile destroyers with pulse cannons.",
                 "阿尔忒弥斯和阿波罗，装备了脉冲加农炮的，快如流星的一对战争机器。"
             });
+            KnowledgeText = new List<string>(new string[]
+            {
+                "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.",
+                "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。",
+                "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.",
+                "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。",
+                "Artemis and Apollo, a pair of extremely agile destroyers with pulse cannons.",
+                "阿尔忒弥斯和阿波罗，装备了脉冲加农炮的，快如流星的一对战争机器。"
+            });
 
-            QuickTranslate(typeof(CodebreakerTile), "RightClick", "No decryption computer installed", "未安装解密计算机");
-            QuickTranslate(typeof(CodebreakerUI), "DisplayNotStrongEnoughErrorText", "Encryption unsolveable: Upgrades required.", "解密请求失败：需要升级解码装置"); 
-            QuickTranslate(typeof(CodebreakerUI), "DisplayCostText", "Cost: ", "花费：");
-            QuickTranslate(typeof(CodebreakerUI), "DrawDecryptCancelConfirmationText", "Are you sure?", "确定吗？");
-            QuickTranslate(typeof(CodebreakerUI), "HandleDraedonSummonButton", "Contact", "对话");
+            QuickTranslate(typeof(CodebreakerTile), "RightClick",
+                "No decryption computer installed", "未安装解密计算机");
+            QuickTranslate(typeof(CodebreakerUI), "DisplayNotStrongEnoughErrorText",
+                "Encryption unsolveable: Upgrades required.", "解密请求失败：需要升级解码装置");
+            QuickTranslate(typeof(CodebreakerUI), "DisplayCostText",
+                "Cost: ", "花费：");
+            QuickTranslate(typeof(CodebreakerUI), "DrawDecryptCancelConfirmationText",
+                "Are you sure?", "确定吗？");
+            QuickTranslate(typeof(CodebreakerUI), "HandleDraedonSummonButton",
+                "Contact", "对话");
+            QuickTranslate(typeof(TECodebreaker), "UpdateTime",
+                "You learned how to create new things!", "你学会了如何制作新的东西！");
             for (int i = 0; i < 4; i++)
             {
                 QuickTranslate(typeof(TECodebreaker), "get_UnderlyingSchematicText", SchematicText[i * 2], SchematicText[i * 2 + 1]);
             }
-            QuickTranslate(typeof(TECodebreaker), "UpdateTime", "You learned how to create new things!", "你学会了如何制作新的东西！");
             for (int i = 0; i < 3; i++)
             {
                 QuickTranslate(typeof(ExoMechSelectionUI), "HandleInteractionWithButton", ExoUIText[i * 2], ExoUIText[i * 2 + 1]);
             }
 
-
+            
             Hooks.Add(new Hook(typeof(CalamityGlobalItem).GetMethod("InsertKnowledgeTooltip", BindingFlags.Public | BindingFlags.Static), TranslateKnowledgeTooltip));
 
             foreach (ILHook hook in IlHooks)
@@ -76,7 +89,7 @@ namespace CalamityCN.Translations.CodeEdit
                 if (hook is not null)
                     hook.Apply();
             }
-            foreach(Hook hook in Hooks)
+            foreach (Hook hook in Hooks)
             {
                 if (hook is not null)
                     hook.Apply();
@@ -96,6 +109,9 @@ namespace CalamityCN.Translations.CodeEdit
             }
             IlHooks = null;
             Hooks = null;
+            SchematicText = null;
+            ExoUIText = null;
+            KnowledgeText = null;
         }
 
         private static void QuickTranslate(Type type, string methodName, string origin, string trans)
