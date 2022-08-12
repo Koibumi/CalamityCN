@@ -1,221 +1,224 @@
-Mods: {
-CalamityMod: {
-
-Config:
+Mods:
 {
-    MainTitle: "主要配置",
+	CalamityMod:
+	{
 
-    SectionTitle:
-    {
-        "BossRushCurses": "Boss Rush 诅咒",
-        "ExpertMaster": "专家和大师模式改动",
-        "Gameplay": "总体游戏内容改动",
-        "Graphics": "画面改动",
-        "Revengeance": "复仇模式改动",
-        "UI": "UI 改动",
-    }
+		Config:
+		{
+			MainTitle: "主要配置",
 
-    EntryTitle:
-    {
-        "AdrenalineMeterPosX": "肾上腺素条X轴坐标",
-        "AdrenalineMeterPosY": "肾上腺素条Y轴坐标",
-        "Afterimages": "残影",
-        "BossHealthBarExtraInfo": "Boss血条额外信息",
-        "BossHealthBoost": "Boss生命值百分比强化",
-        "BossRushDashCurse": "冲刺诅咒",
-        "BossRushIFrameCurse": "无敌帧诅咒",
-        "BossRushRegenCurse": "生命诅咒",
-        "BossZen": "Boss 禅定",
-        "ChargeMeter": "显示充能条",
-        "ChargeMeterPosX": "充能条X轴坐标",
-        "ChargeMeterPosY": "充能条Y轴坐标",
-        "ChilledWaterRework": "重置版冰水",
-        "CooldownDisplay": "冷却显示",
-        "DebuffDisplay": "显示敌人Debuff",
-        "EarlyHardmodeProgressionRework": "困难模式早期流程重做",
-        "ForceTownSafety": "强制城镇安全",
-        "MeterPosLock": "属性条位置锁定",
-        "NerfExpertDebuffs": "移除增加的减益持续时间",
-        "ParticleLimit": "最大粒子数",
-        "Proficiency": "熟练度",
-        "RageMeterPosX": "怒气条X轴坐标",
-        "RageMeterPosY": "怒气条Y轴坐标",
-        "RipperMeterShake": "怒气条与肾上腺素条震动",
-        "Screenshake": "屏幕震动",
-        "ShopNewAlert": "商店新物品提示",
-        "SpeedrunTimer": "速通计时器",
-        "SpeedrunTimerPosX": "速通计时器X轴坐标",
-        "SpeedrunTimerPosY": "速通计时器Y轴坐标",
-        "StealthInvisibility": "潜行隐身",
-        "StealthMeter": "潜行条",
-        "StealthMeterPosX": "潜行条X轴坐标",
-        "StealthMeterPosY": "潜行条Y轴坐标",
-        "TownNPCSpawnRateMultiplier": "城镇NPC生成率乘算器",
-        "TownNPCsSpawnAtNight": "城镇NPC在夜间生成",
-        "VanillaCooldownDisplay": "原版冷却显示",
-    }
+			SectionTitle:
+			{
+				"BossRushCurses": "Boss Rush 诅咒",
+				"ExpertMaster": "专家和大师模式改动",
+				"Gameplay": "总体游戏内容改动",
+				"Graphics": "画面改动",
+				"Revengeance": "复仇模式改动",
+				"UI": "UI 改动",
+			}
 
-    EntryTooltip:
-    {
-        "AdrenalineMeterPosX": "肾上腺素条的 X 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
-        "AdrenalineMeterPosY": "肾上腺素条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
-        "Afterimages": "为灾厄 NPC、射弹等等物体开启残影渲染。\n关闭以提升性能。",
-        "BossHealthBarExtraInfo": "在灾厄的Boss生命条上添加额外信息。\n这包括 Boss 的实际生命值或剩余的部位/体节数量。",
-        "BossHealthBoost": "增加所有 Boss 的生命值。\n不会影响已被生成的 Boss。",
-        "BossRushDashCurse": "在 Boss Rush 期间禁用所有冲刺。",
-        "BossRushIFrameCurse": "在 Boss Rush 期间，在 3 秒内被击中 2 次会让玩家立即死亡。\n此效果无视复活效果。",
-        "BossRushRegenCurse": "在 Boss Rush 期间禁用所有生命再生。",
-        "BossZen": "当有 Boss 存活时，所有玩家会获得Boss禅定增益，它会极大降低敌怪的生成率。",
-        "ChargeMeter": "开启显示玩家当前手持的嘉登造物的充能值。\n如果没有手持嘉登造物，充能条会总是处于隐藏状态。",
-        "ChargeMeterPosX": "充能条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-        "ChargeMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-        "ChilledWaterRework": "启用时，雪原生物群落和冰雪生物群落中的水会造成肺部冻伤，使得玩家的呼吸条快速消耗，而不会造成冷冻减益。",
-        "CooldownDisplay": "在Buff栏和Debuff栏下方显示重要的冷却图标。值设为1图标显示地更紧凑。值设为0不会显示图标。",
-        "DebuffDisplay": "在所有 Boss 和迷你 Boss 上方添加一排当前具有的减益图标。",
-        "EarlyHardmodeProgressionRework": "破坏邪恶祭坛不再生成矿石和邪恶物块。\n首次击杀血肉墙会使钯金矿和钴矿在世界中生成。\n第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。\n第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。\n首次击败第三个机械boss会使神圣矿在世界中生成。",
-        "ForceTownSafety": "通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。\n这可能会产生意想不到的副作用，例如使动物难以找到。",
-        "MeterPosLock": "开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。",
-        "NerfExpertDebuffs": "禁用专家和大师模式减益持续时间的翻倍。\n灾厄围绕启用的此设置进行平衡。",
-        "ParticleLimit": "设定同时存在的最大粒子数。\n粒子和溅血效果是分开的。\n调低以提升性能。",
-        "Proficiency": "启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。\n禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。",
-        "RageMeterPosX": "怒气条的 X 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
-        "RageMeterPosY": "怒气条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
-        "RipperMeterShake": "使用怒气和肾上腺素时条的振幅。\n设为 0 可以完全禁用振动。",
-        "Screenshake": "开启或关闭所有屏幕抖动效果。",
-        "ShopNewAlert": "当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。",
-        "SpeedrunTimer": "启用游戏内速通计时器，时间显示为毫秒。\n第二行显示最近一次Boss击杀的时间。",
-        "SpeedrunTimerPosX": "速通计时器的 X 坐标位置。\n只能手动设置",
-        "SpeedrunTimerPosY": "速通计时器的 X 坐标位置。\n只能手动设置",
-        "StealthInvisibility": "启用时玩家会随着潜行值逐渐隐身。",
-        "StealthMeter": "开启显示玩家当前潜行值的潜行条。\n如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。",
-        "StealthMeterPosX": "潜行条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-        "StealthMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-        "TownNPCSpawnRateMultiplier": "此数值越高，城镇 NPC 生成的速率越快。",
-        "TownNPCsSpawnAtNight": "玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。",
-        "VanillaCooldownDisplay": "为混沌状态和药水疾病添加特定冷却图标。\n这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。",
-    }
-}
-        
-DamageClassName:
-{
-        RogueDamageClass: "盗贼伤害",
-        AverageDamageClass: "无职业伤害",
-}
-        
-UI:
-{
-    SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
-}
+			EntryTitle:
+			{
+				"AdrenalineMeterPosX": "肾上腺素条X轴坐标",
+				"AdrenalineMeterPosY": "肾上腺素条Y轴坐标",
+				"Afterimages": "残影",
+				"BossHealthBarExtraInfo": "Boss血条额外信息",
+				"BossHealthBoost": "Boss生命值百分比强化",
+				"BossRushDashCurse": "冲刺诅咒",
+				"BossRushIFrameCurse": "无敌帧诅咒",
+				"BossRushRegenCurse": "生命诅咒",
+				"BossZen": "Boss 禅定",
+				"ChargeMeter": "显示充能条",
+				"ChargeMeterPosX": "充能条X轴坐标",
+				"ChargeMeterPosY": "充能条Y轴坐标",
+				"ChilledWaterRework": "重置版冰水",
+				"CooldownDisplay": "冷却显示",
+				"DebuffDisplay": "显示敌人Debuff",
+				"EarlyHardmodeProgressionRework": "困难模式早期流程重做",
+				"ForceTownSafety": "强制城镇安全",
+				"MeterPosLock": "属性条位置锁定",
+				"NerfExpertDebuffs": "移除增加的减益持续时间",
+				"ParticleLimit": "最大粒子数",
+				"Proficiency": "熟练度",
+				"RageMeterPosX": "怒气条X轴坐标",
+				"RageMeterPosY": "怒气条Y轴坐标",
+				"RipperMeterShake": "怒气条与肾上腺素条震动",
+				"Screenshake": "屏幕震动",
+				"ShopNewAlert": "商店新物品提示",
+				"SpeedrunTimer": "速通计时器",
+				"SpeedrunTimerPosX": "速通计时器X轴坐标",
+				"SpeedrunTimerPosY": "速通计时器Y轴坐标",
+				"StealthInvisibility": "潜行隐身",
+				"StealthMeter": "潜行条",
+				"StealthMeterPosX": "潜行条X轴坐标",
+				"StealthMeterPosY": "潜行条Y轴坐标",
+				"TownNPCSpawnRateMultiplier": "城镇NPC生成率乘算器",
+				"TownNPCsSpawnAtNight": "城镇NPC在夜间生成",
+				"VanillaCooldownDisplay": "原版冷却显示",
+			}
 
-BiomeName: 
-{
-    AbovegroundAstralBiome: "星辉瘟疫地表",
-    AbovegroundAstralDesertBiome: "星幻沙漠",
-    AbovegroundAstralSnowBiome: "星幻雪地",
-    AbyssLayer1Biome: "深渊第一层",
-    AbyssLayer2Biome: "深渊第二层",
-    AbyssLayer3Biome: "深渊第三层",
-    AbyssLayer4Biome: "深渊第四层",
-    AcidRainBiome: "酸雨",
-    ArsenalLabBiome: "嘉登实验室",
-    BrimstoneCragsBiome: "硫火之崖",
-    SulphurousSeaBiome: "硫磺海",
-    SunkenSeaBiome: "沉沦之海",
-    UndergroundAstralBiome: "星辉瘟疫地下",
-}
+			EntryTooltip:
+			{
+				"AdrenalineMeterPosX": "肾上腺素条的 X 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
+				"AdrenalineMeterPosY": "肾上腺素条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
+				"Afterimages": "为灾厄 NPC、射弹等等物体开启残影渲染。\n关闭以提升性能。",
+				"BossHealthBarExtraInfo": "在灾厄的Boss生命条上添加额外信息。\n这包括 Boss 的实际生命值或剩余的部位/体节数量。",
+				"BossHealthBoost": "增加所有 Boss 的生命值。\n不会影响已被生成的 Boss。",
+				"BossRushDashCurse": "在 Boss Rush 期间禁用所有冲刺。",
+				"BossRushIFrameCurse": "在 Boss Rush 期间，在 3 秒内被击中 2 次会让玩家立即死亡。\n此效果无视复活效果。",
+				"BossRushRegenCurse": "在 Boss Rush 期间禁用所有生命再生。",
+				"BossZen": "当有 Boss 存活时，所有玩家会获得Boss禅定增益，它会极大降低敌怪的生成率。",
+				"ChargeMeter": "开启显示玩家当前手持的嘉登造物的充能值。\n如果没有手持嘉登造物，充能条会总是处于隐藏状态。",
+				"ChargeMeterPosX": "充能条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+				"ChargeMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+				"ChilledWaterRework": "启用时，雪原生物群落和冰雪生物群落中的水会造成肺部冻伤，使得玩家的呼吸条快速消耗，而不会造成冷冻减益。",
+				"CooldownDisplay": "在Buff栏和Debuff栏下方显示重要的冷却图标。值设为1图标显示地更紧凑。值设为0不会显示图标。",
+				"DebuffDisplay": "在所有 Boss 和迷你 Boss 上方添加一排当前具有的减益图标。",
+				"EarlyHardmodeProgressionRework": "破坏邪恶祭坛不再生成矿石和邪恶物块。\n首次击杀血肉墙会使钯金矿和钴矿在世界中生成。\n第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。\n第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。\n首次击败第三个机械boss会使神圣矿在世界中生成。",
+				"ForceTownSafety": "通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。\n这可能会产生意想不到的副作用，例如使动物难以找到。",
+				"MeterPosLock": "开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。",
+				"NerfExpertDebuffs": "禁用专家和大师模式减益持续时间的翻倍。\n灾厄围绕启用的此设置进行平衡。",
+				"ParticleLimit": "设定同时存在的最大粒子数。\n粒子和溅血效果是分开的。\n调低以提升性能。",
+				"Proficiency": "启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。\n禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。",
+				"RageMeterPosX": "怒气条的 X 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
+				"RageMeterPosY": "怒气条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
+				"RipperMeterShake": "使用怒气和肾上腺素时条的振幅。\n设为 0 可以完全禁用振动。",
+				"Screenshake": "开启或关闭所有屏幕抖动效果。",
+				"ShopNewAlert": "当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。",
+				"SpeedrunTimer": "启用游戏内速通计时器，时间显示为毫秒。\n第二行显示最近一次Boss击杀的时间。",
+				"SpeedrunTimerPosX": "速通计时器的 X 坐标位置。\n只能手动设置",
+				"SpeedrunTimerPosY": "速通计时器的 X 坐标位置。\n只能手动设置",
+				"StealthInvisibility": "启用时玩家会随着潜行值逐渐隐身。",
+				"StealthMeter": "开启显示玩家当前潜行值的潜行条。\n如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。",
+				"StealthMeterPosX": "潜行条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+				"StealthMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+				"TownNPCSpawnRateMultiplier": "此数值越高，城镇 NPC 生成的速率越快。",
+				"TownNPCsSpawnAtNight": "玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。",
+				"VanillaCooldownDisplay": "为混沌状态和药水疾病添加特定冷却图标。\n这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。",
+			}
+		}
 
-TownNPCMood: 
-{
-    DILF:
-    {
-        Content: "今天天气很凉爽。",
-        NoHome: "没有地方休息，我就无法继续研究魔法。你能给我提供住所吗？我不想再用冰魔法造房子。",
-        LoveSpace: "人太多会扰乱魔力的流动，我更喜欢这里有喘息的空间。",
-        FarFromHome: "我的方向感……不太好。我不想承认，但我不愿意经常外出冒险。",
-        DislikeCrowded: "我的咒语很精密，不能被打扰，我需要更多的空间来练习它们。",
-        HateCrowded: "我不想你的朋友被我的魔法冻住，可惜，这里人太多无法避免。",
-        LikeBiome: "这儿的温度让我能保存魔力，因为我的作品不会在严寒中融化。",
-        DislikeBiome: "这儿的太阳太毒辣啦！ 请立刻让我搬到别处去！",
-        HateBiome: "这里太邪恶了，不适合我！",
-        LikeNPC: "{NPCName} 学识渊博，还是个很受尊敬的法师。",
-        DislikeNPC: "我不喜欢 {NPCName} 的公然漠视魔法，我没有指责他的意思，但他非常愚昧。",
-        LikeNPC_Princess: "{NPCName} 会一些非常古老的咒语，尤其她这年纪的人让我印象深刻。",
-    },
+	DamageClassName:
+	{
+		RogueDamageClass: "盗贼伤害",
+		AverageDamageClass: "无职业伤害",
+	}
 
-    FAP:
-    {
-        Content: "总有一个地方是五点钟。",
-        NoHome: "我需要个地方休息！我的饮品也需要冰镇服务！",
-        LoveSpace: "终于有了片刻宁静，人太多会惹恼我。",
-        FarFromHome: "我虽然习惯了离家出走，但这还是有点离谱。",
-        DislikeCrowded: "如果再有人和我说'现在是特价时间'以此想要打折，我就打折他！",
-        HateCrowded: "再多的酒精也掩盖不了这些人发出的噪音！",
-        LoveBiome: "另一种独角兽？没想到我会看到这一天！这个地方太棒了！",
-        LikeBiome: "一阵清风可以让头脑清醒一下，对于喝多了的顾客就这么处理!",
-        DislikeBiome: "这种干燥的空气和高温对我的头发和饮料都不好。",
-        HateBiome: "这地方糟透了！发霉的空气破坏了我所有商品的香味！",
-        LoveNPC_Stylist: "{NPCName} 护理我的头发很有一手…除此之外，呵呵。",
-        LoveNPC_BestiaryGirl: "{NCPName} 是多么毛茸茸，她还说我的独角形状'非常棒'",
-        LikeNPC_Truffle: "{NCPName} 让我好饿……我想知道他会给我多棒的幻觉……",
-        LikeNPC_PartyGirl: "{NCPName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！",
-        DislikeNPC_DD2Bartender: "{NCPName} 真的秃，也许他不再尝试约我，就能长出一些头发。",
-        DislikeNPC_TaxCollector: "{NCPName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。",
-        HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗?",
-        HateNPC_Angler: "{NCPName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！",
-        LikeNPC_Princess: "你以为我会不喜欢 {NPCName} 只因我们太不同了? 恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。",
-    },
+	UI:
+	{
+		SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
+	}
 
-    SEAHOE:
-    {
-        Content: "我很满意。",
-        NoHome: "谢谢你的招待，但是我现在恐怕无家可归。",
-        LoveSpace: "啊，我很喜欢独处的宁静。",
-        FarFromHome: "我的鳞片变得干燥，我离家太远了",
-        DislikeCrowded: "这里的生活条件很拥挤，不是吗?",
-        HateCrowded: "我不想利用我的地位，但我还是皇室成员时，我更习惯周围人少点。",
-        LikeBiome: "靠近大海，苦乐参半。但我还是忍不住喜欢它。",
-        DislikeBiome: "阳光太刺眼了，我不喜欢这里的干旱气候。",
-        HateBiome: "这就不是能住的地方，快放我走！",
-        LikeNPC: "{NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！",
-        DislikeNPC: "我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。",
-        HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！",
-        LikeNPC_Princess: "那孩子，{NPCName}。多么天真无邪，希望恐怖的战争永远不会降临到她身上。",
-    },
+	BiomeName: 
+	{
+		AbovegroundAstralBiome: "星辉瘟疫地表",
+		AbovegroundAstralDesertBiome: "星幻沙漠",
+		AbovegroundAstralSnowBiome: "星幻雪地",
+		AbyssLayer1Biome: "深渊第一层",
+		AbyssLayer2Biome: "深渊第二层",
+		AbyssLayer3Biome: "深渊第三层",
+		AbyssLayer4Biome: "深渊第四层",
+		AcidRainBiome: "酸雨",
+		ArsenalLabBiome: "嘉登实验室",
+		BrimstoneCragsBiome: "硫火之崖",
+		SulphurousSeaBiome: "硫磺海",
+		SunkenSeaBiome: "沉沦之海",
+		UndergroundAstralBiome: "星辉瘟疫地下",
+	}
 
-    THIEF:
-    {
-        Content: "一切都很顺利!",
-        NoHome: "你有地方睡吗？睡地上让我浑身酸痛。",
-        LoveSpace: "人越少就越容易逃脱某些事情。",
-        FarFromHome: "我得回到我的秘密储藏室，万一有人趁我不在拿我宝贝怎么办。",
-        DislikeCrowded: "我不喜欢这里，目击者太多了。",
-        HateCrowded: "和这么多人在一起让我觉得我会被偷",
-        LikeBiome: "我知道许多富商会穿过沙漠，这是个偷他们东西的好地方。",
-        DislikeBiome: "太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。",
-        HateBiome: "这里没人住，为什么要住这里？！这里简直是个垃圾场！",
-        LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。",
-        DislikeNPC: "{NPCName} 真是个伪君子!我不喜欢她是出于原则！也因为她几乎没有任何物质财富。",
-        LikeNPC_Princess: "我不忍心从 {NPCName} 偷任何东西，她太可爱了!",
-    },
+	TownNPCMood: 
+	{
+		DILF:
+		{
+			Content: "今天天气很凉爽。",
+			NoHome: "没有地方休息，我就无法继续研究魔法。你能给我提供住所吗？我不想再用冰魔法造房子。",
+			LoveSpace: "人太多会扰乱魔力的流动，我更喜欢这里有喘息的空间。",
+			FarFromHome: "我的方向感……不太好。我不想承认，但我不愿意经常外出冒险。",
+			DislikeCrowded: "我的咒语很精密，不能被打扰，我需要更多的空间来练习它们。",
+			HateCrowded: "我不想你的朋友被我的魔法冻住，可惜，这里人太多无法避免。",
+			LikeBiome: "这儿的温度让我能保存魔力，因为我的作品不会在严寒中融化。",
+			DislikeBiome: "这儿的太阳太毒辣啦！ 请立刻让我搬到别处去！",
+			HateBiome: "这里太邪恶了，不适合我！",
+			LikeNPC: "{NPCName} 学识渊博，还是个很受尊敬的法师。",
+			DislikeNPC: "我不喜欢 {NPCName} 的公然漠视魔法，我没有指责他的意思，但他非常愚昧。",
+			LikeNPC_Princess: "{NPCName} 会一些非常古老的咒语，尤其她这年纪的人让我印象深刻。",
+		},
 
-    WITCH:
-    {
-        Content: "我真的没什么可抱怨的。",
-        NoHome: "任何地方都比没有床和光照的洞穴好。",
-        LoveSpace: "越安静越好，这里就很好。",
-        FarFromHome: "习惯有人在身边一段时间后，我开始有点怀念了。",
-        DislikeCrowded: "我不太喜欢有人和我这么熟。",
-        HateCrowded: "周围人太多了，压力好大，头好痛。",
-        LikeBiome: "我以前从来没有机会住在这样的地方。有树木和鸟鸣……我很喜欢。",
-        DislikeBiome: "这是一个残酷的笑话？我无法忍受在这里待着，我已经试着赎罪了。",
-        HateBiome: "这里的灵魂不安宁，这种感觉真的不好。",
-        LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。",
-        DislikeNPC: "太吵了！{NPCName} 只会每天制造噪音！我受不了她！",
-        LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。",
-    },
-}
+		FAP:
+		{
+			Content: "总有一个地方是五点钟。",
+			NoHome: "我需要个地方休息！我的饮品也需要冰镇服务！",
+			LoveSpace: "终于有了片刻宁静，人太多会惹恼我。",
+			FarFromHome: "我虽然习惯了离家出走，但这还是有点离谱。",
+			DislikeCrowded: "如果再有人和我说'现在是特价时间'以此想要打折，我就打折他！",
+			HateCrowded: "再多的酒精也掩盖不了这些人发出的噪音！",
+			LoveBiome: "另一种独角兽？没想到我会看到这一天！这个地方太棒了！",
+			LikeBiome: "一阵清风可以让头脑清醒一下，对于喝多了的顾客就这么处理!",
+			DislikeBiome: "这种干燥的空气和高温对我的头发和饮料都不好。",
+			HateBiome: "这地方糟透了！发霉的空气破坏了我所有商品的香味！",
+			LoveNPC_Stylist: "{NPCName} 护理我的头发很有一手…除此之外，呵呵。",
+			LoveNPC_BestiaryGirl: "{NCPName} 是多么毛茸茸，她还说我的独角形状'非常棒'",
+			LikeNPC_Truffle: "{NCPName} 让我好饿……我想知道他会给我多棒的幻觉……",
+			LikeNPC_PartyGirl: "{NCPName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！",
+			DislikeNPC_DD2Bartender: "{NCPName} 真的秃，也许他不再尝试约我，就能长出一些头发。",
+			DislikeNPC_TaxCollector: "{NCPName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。",
+			HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗?",
+			HateNPC_Angler: "{NCPName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！",
+			LikeNPC_Princess: "你以为我会不喜欢 {NPCName} 只因我们太不同了? 恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。",
+		},
 
-Prefix: {
+		SEAHOE:
+		{
+			Content: "我很满意。",
+			NoHome: "谢谢你的招待，但是我现在恐怕无家可归。",
+			LoveSpace: "啊，我很喜欢独处的宁静。",
+			FarFromHome: "我的鳞片变得干燥，我离家太远了",
+			DislikeCrowded: "这里的生活条件很拥挤，不是吗?",
+			HateCrowded: "我不想利用我的地位，但我还是皇室成员时，我更习惯周围人少点。",
+			LikeBiome: "靠近大海，苦乐参半。但我还是忍不住喜欢它。",
+			DislikeBiome: "阳光太刺眼了，我不喜欢这里的干旱气候。",
+			HateBiome: "这就不是能住的地方，快放我走！",
+			LikeNPC: "{NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！",
+			DislikeNPC: "我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。",
+			HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！",
+			LikeNPC_Princess: "那孩子，{NPCName}。多么天真无邪，希望恐怖的战争永远不会降临到她身上。",
+		},
+
+		THIEF:
+		{
+			Content: "一切都很顺利!",
+			NoHome: "你有地方睡吗？睡地上让我浑身酸痛。",
+			LoveSpace: "人越少就越容易逃脱某些事情。",
+			FarFromHome: "我得回到我的秘密储藏室，万一有人趁我不在拿我宝贝怎么办。",
+			DislikeCrowded: "我不喜欢这里，目击者太多了。",
+			HateCrowded: "和这么多人在一起让我觉得我会被偷",
+			LikeBiome: "我知道许多富商会穿过沙漠，这是个偷他们东西的好地方。",
+			DislikeBiome: "太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。",
+			HateBiome: "这里没人住，为什么要住这里？！这里简直是个垃圾场！",
+			LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。",
+			DislikeNPC: "{NPCName} 真是个伪君子!我不喜欢她是出于原则！也因为她几乎没有任何物质财富。",
+			LikeNPC_Princess: "我不忍心从 {NPCName} 偷任何东西，她太可爱了!",
+		},
+
+		WITCH:
+		{
+			Content: "我真的没什么可抱怨的。",
+			NoHome: "任何地方都比没有床和光照的洞穴好。",
+			LoveSpace: "越安静越好，这里就很好。",
+			FarFromHome: "习惯有人在身边一段时间后，我开始有点怀念了。",
+			DislikeCrowded: "我不太喜欢有人和我这么熟。",
+			HateCrowded: "周围人太多了，压力好大，头好痛。",
+			LikeBiome: "我以前从来没有机会住在这样的地方。有树木和鸟鸣……我很喜欢。",
+			DislikeBiome: "这是一个残酷的笑话？我无法忍受在这里待着，我已经试着赎罪了。",
+			HateBiome: "这里的灵魂不安宁，这种感觉真的不好。",
+			LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。",
+			DislikeNPC: "太吵了！{NPCName} 只会每天制造噪音！我受不了她！",
+			LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。",
+		},
+	}
+
+	Prefix:
+	{
 		Atrocious: "糟糕"
 		Blunt: "钝化"
 		Camouflaged: "伪装"
@@ -236,29 +239,45 @@ Prefix: {
 		Sleek: "光滑"
 		Unbalanced: "失衡"
 		Vicious: "恶毒"
-}
+	}
 
-MapObject: {
+	MapObject:
+	{
 		Navystone: "沉沦渊石"
-        AerialiteOre: "天蓝矿"
-        AstralOre: "炫星矿"
-        AuricOre: "圣金源矿"
-        ChaoticOre: "熔渣矿"
-        CharredOre: "焦炭矿"
-        CryonicOre: "寒元矿"
-        ExodiumClusterOre: "起源之簇"
+		AerialiteOre: "天蓝矿"
+		AstralOre: "炫星矿"
+		AuricOre: "圣金源矿"
+		ChaoticOre: "熔渣矿"
+		CharredOre: "焦炭矿"
+		CryonicOre: "寒元矿"
+		ExodiumClusterOre: "起源之簇"
 		HallowedOre: "神圣矿"
-        PerennialOre: "永恒矿"
-        UelibloomOre: "龙蒿矿"
-        PlantyMush: "植物混融块"
-        SeaPrismCrystals: "棱晶碎片"
-        SeaPrism: "海棱晶"
+		PerennialOre: "永恒矿"
+		UelibloomOre: "龙蒿矿"
+		PlantyMush: "植物混融块"
+		SeaPrismCrystals: "棱晶碎片"
+		SeaPrism: "海棱晶"
 		Tenebris: "黑渊石"
 		EutrophicSand: "富营养沙"
 		ViperVines: "蝰蛇藤蔓"
-}
 
-ProjectileName: {
+		// 以下为暂时加入，后期可能会替换或删除
+		AncientAltar: "远古祭坛"
+		AshenAltar: "灰烬祭坛"
+		BotanicPlanter: "植物培养器"
+		CosmicAnvil: "星宇砧"
+		DraedonsForge: "嘉登熔炉"
+		EutrophicShelf: "富养制造架"
+		MonolithAmalgam: "星幻柱综合体"
+		PlagueInfuser: "瘟疫灌注器"
+		ProfanedCrucible: "亵渎坩埚"
+		SilvaBasin:	"闪耀操纵机"
+		StaticRefiner: "静电精炼机"
+		VoidCondenser: "虚空压缩机"
+	}
+
+	ProjectileName:
+	{
 		AbyssBallVolley: "深渊追魂弹"
 		AbyssBallVolley2: "深渊追魂弹"
 		AstralFlame: "星瀚逐影焰"
@@ -2115,176 +2134,175 @@ ProjectileName: {
 		GemTechArmorGem: "星流天钻"
 		MythrilFlare: "秘银火花"
 		PumplerGrenadeExplosion: "南瓜壳爆"
-}
+	}
 
 
 		
-	    # --- Dialogos ---
-	    MeleeLevelUp: "近战熟练度升级了！"
-	    MeleeLevelUpFinal: "近战熟练度满级了！"
-	    RangedLevelUp: "远程熟练度升级了！"
-	    RangedLevelUpFinal: "远程熟练度满级了！"
-	    MagicLevelUp: "魔法熟练度升级了！"
-	    MagicLevelUpFinal: "魔法熟练度满级了"
-	    SummonLevelUp: "召唤熟练度升级了！"
-	    SummonLevelUpFinal: "召唤熟练度满级了！"
-	    RogueLevelUp: "盗贼熟练度升级了！"
-	    RogueLevelUpFinal: "盗贼熟练度满级了！"
-	    SkyOreText: "苍青色的光辉照耀着这片土地。"
-	    IceOreText: "寒晶能量从冰之洞穴中迸发而出。"
-	    PlantOreText: "富含能量的植物物质已在地下形成。"
-	    TreeOreText: "石化树皮正在丛林的淤泥中爆发。"
-	    AuricOreText: "神之光环祝福了这个世界的洞穴。"
-	    FutureOreText: "冷黯的能量散布至宇宙之间。"
-	    HardmodeOreTier1Text: "你的世界已被钴矿和钯金矿祝福！"
-	    HardmodeOreTier2Text: "你的世界已被秘银矿和山铜矿祝福！"
-	    HardmodeOreTier3Text: "你的世界已被精金矿和钛金矿祝福！"
-	    HardmodeOreTier4Text: "神圣之地已得到神之金属的祝福！"
-	    UglyBossText: "沉沦之海在颤动..."
-	    WetWormBossText: "硫磺海的天空变暗了..."
-	    PlantBossText: "海洋的深处传来震动。"
-	    BabyBossText: "一场瘟疫席卷了丛林。"
-	    MoonBossText: "亵渎之火猛烈燃烧！"
-	    MoonBossText2: "宇宙的恐惧正注着这一切..."
-	    PlagueBossText: "瘟疫核弹已就绪，准备发射！！！"
-	    PlagueBossText2: "导弹已发射，目标定位系统开启！！！"
-	    ProfanedBossText: "空气正在燃烧..."
-	    ProfanedBossText2: "尖叫声回荡于地牢之中。"
-	    ProfanedBossText3: "灾厄造物已被血石洗礼。"
-	    ProfanedBossText4: "亵渎天神已经认可了你对纯净的贡献！"
-	    GhostBossText: "深渊之灵受到了威胁。"
-	    GhostBossText2: "哀嚎声回响在破旧的地牢大厅之中..."
-	    GhostBossText3: "逝去已久的囚犯们寻求着自己的狂热复仇..."
-	    GhostBossText4: "喷涌而出的灵魂扰乱了这场酸性风暴..."
-	    AstralText: "一颗明星从天堂中坠陨！"
-	    AureusBossText: "星幻敌人得到了增强！"
-	    AureusBossText2: "微弱的异界之音游离在地牢中。"
-	    AstralBossText: "幻星的封印已破碎！你可以挖掘炫星矿了。"
-	    DeusText: "诞生于星辰之间的恐惧穿梭在星辉瘟疫中。"
-	    DeusAltarRejectNightText: "群星之神拒绝了你的供奉。仪式只能在夜晚进行。"
-	    SandSharkText: "沙子中有什么东西正在行动..."
-	    SandSharkText2: "一个巨大的顶级掠食者接近了..."
-	    SandSharkText3: "沙漠正在剧烈动荡！"
-	    CryogenBossText: "极地之灵蹦了出来！" 
-	    EdgyBossText: "别得意！小子！"
-	    EdgyBossText3: "致命失误！"
-	    EdgyBossText4: "真希望你能恢复过来！"
-	    EdgyBossText5: "美味..."
-	    EdgyBossText6: "哦，疼么？"
-	    EdgyBossText7: "这无关个人私怨，小子。"
-	    EdgyBossText8: "你真的连躲闪都不会吗？"
-	    EdgyBossText9: "这么长的身体，唯一命中的居然是..."
-	    EdgyBossText10: "还没完呢！小子！"
-	    EdgyBossText11: "神！不惧死亡！"
-	    EdgyBossText12: "你不是神...但你的灵魂仍是我的盛宴！"
-	    DoGBossText: "寒霜之月散发着明洁的光辉。"
-	    DoGBossText2: "收割之月散布着诡异的光芒。"
-	    DargonBossText: "黑蚀之日蓄势待发。"
-	    DraedonIntroductionText1: "你知道吗？这一刻已经等了太久了。"
-	    DraedonIntroductionText2: "你的本质令我着迷，因为我还未能理解它。"
-	    DraedonIntroductionText3: "你将会面对我的造物，那些超越神明的造物。"
-	    DraedonIntroductionText4: "而你，则会在战斗中向我展示你的意愿。"
-	    DraedonIntroductionText5: "现在，选择吧。"
-	    DraedonExoPhase1Text1: "我作品的精华，蕴藏在随时间与知识不断改进的设计之中。"
-	    DraedonExoPhase1Text2: "接近完美的方法，除此再无。"
-	    DraedonExoPhase2Text1: "你的表现完全就在误差范围之内。"
-	    DraedonExoPhase2Text2: "这着实令人满意。接下来我们将进入下一个测试环节。"
-	    DraedonExoPhase3Text1: "自我第一次认识到你的存在，我就一直在研究你的战斗，并以此让我的机械变得更强。"
-	    DraedonExoPhase3Text2: "就算是现在，我依然在检测你的行动。一切都在我的计算之内。"
-	    DraedonExoPhase4Text1: "有趣，十分有趣。"
-	    DraedonExoPhase4Text2: "就算是面对更为困难的挑战，你仍可以稳步推进。"
-	    DraedonExoPhase5Text1: "我依然无法理解你的本质，这样下去可不行。"
-	    DraedonExoPhase5Text2: "...我追求完美，而命运总是带有讽刺，这是我犯下的第一个错误。"
-	    DraedonExoPhase6Text1: "荒谬至极。"
-	    DraedonExoPhase6Text2: "我不会再让那些无用的计算干扰我对这场战斗的观察了。"
-	    DraedonExoPhase6Text3: "我将向你展示，我终极造物的全部威力。"
-	    DraedonAresEnrageText: "真是愚昧，你是无法逃跑的。"
-	    DraedonResummonText: "做出你的选择。"
-	    DraedonEndText1: "一个未知因素——你，是一个特异点。"
-	    DraedonEndText2: "几乎与我一样，和这片大地和它的历史格格不入。"
-	    DraedonEndText3: "...请原谅我的反省，但我必须得在这场展示之后整理我的思绪。"
-	    DraedonEndText4: "迄今为止喷洒的血液已经让这片大陆变得陈腐无比，毫无生气。"
-	    DraedonEndText5: "你也喷洒了自己的鲜血，但这可能足以带来一个新的时代...是什么，我不知道。但那一定是我所渴望看到的时代。"
-	    DraedonEndText6: "现在，你想要接触那位暴君。可惜我无法帮到你。"
-	    DraedonEndText7: "这并非出自怨恨，毕竟从一开始，我的目标就只有观察刚才的这一场战斗。"
-	    DraedonEndText8: "但你之前已经与他有所交集，所以我相信你最终会找到合适的办法的。"
-	    DraedonEndText9: "我必须承认你赢了，但我得回到我的机械工作上了。"
-	    DraedonEndKillAttemptText: "...你的行为没什么必要。"
-	    CalamitasBossText: "你低估了我的力量..."
-	    CalamitasBossText2: "兄弟重生！"
-	    CalamitasBossText3: "你成功给我留下了深刻的印象，留下了最深刻的印象..."
-	    SCalSummonText: "你享受地狱之旅么？"
-	    SCalStartText: "真奇怪，你应该已经死了才对..."
-	    SCalBH2Text: "距离你上次勉强才击败我的克隆体也没过多久。那玩意就是个失败品，不是么？"
-	    SCalBH3Text: "你驾驭着强大的力量，但你使用这股力量只为了自己的私欲。"
-	    SCalBrothersText: "你想见见我的家人吗？听上去挺可怕，不是么？"
-	    SCalPhase2Text: "你将痛不欲生。"
-	    SCalBH4Text: "别想着逃跑。只要你还活着，痛苦就不会离你而去。"
-	    SCalSeekerRingText: "一个后起之人，只识杀戮与偷窃，但却以此得到力量。我想想，这让我想起了谁...？"
-	    SCalBH5Text: "这场战斗的输赢对你而言毫无意义！那你又有什么理由干涉这一切！"
-	    SCalSepulcher2Text: "我们两人里只有一个可以活下来，但如果那个人是你，这一切还有什么意义？！"
-	    SCalDesparationText1: "给我停下！"
-	    SCalDesparationText2: "如果我在这里失败，我就再无未来可言。"
-	    SCalDesparationText3: "一旦你战胜了我，你就只剩下一条道路。"
-	    SCalDesparationText4: "而那条道路...同样也无未来可言。"
-	    SCalAcceptanceText1: "哪怕他抛弃了一切，他的力量也不会消失。"
-	    SCalAcceptanceText2: "我已没有余力去怨恨他了，对你也是如此..."
-	    SCalAcceptanceText3: "现在，一切都取决于你。"
-	    SCalSummonTextRematch: "如果你想感受一下四级烫伤的话，你可算是找对人了。"
-	    SCalStartTextRematch: "他日若你魂销魄散，你会介意我将你的骨头和血肉融入我的造物中吗？"
-	    SCalBH2TextRematch: "你离胜利还差得远着呢。"
-	    SCalBH3TextRematch: "自我上一次能在如此有趣的靶子假人身上测试我的魔法，已经过了很久了。"
-	    SCalBrothersTextRematch: "只是单有过去形态的空壳罢了，或许在其中依然残存他们的些许灵魂也说不定。"
-	    SCalPhase2TextRematch: "再一次，我们开始吧。"
-	    SCalBH4TextRematch: "我挺好奇，自我们第一次交手后，你曾否在梦魇中见到过这些？"
-	    SCalSeekerRingTextRematch: "起码你的技术没有退步。"
-	    SCalBH5TextRematch: "这难道不令人激动么？"
-	    SCalSepulcher2TextRematch: "注意一下，那个会自己爬的坟墓来了，这是最后一次。"
-	    SCalDesparationText1Rematch: "了不起的表现，我认可你的胜利。"
-	    SCalDesparationText2Rematch: "毫无疑问，你会遇见比我更加强大的敌人。"
-	    SCalDesparationText3Rematch: "我相信你不会犯下和他一样的错误。"
-	    SCalDesparationText4Rematch: "至于你的未来会变成什么样子，我很期待。"
-	    BossRushStartText: "嗯？啊，又一位挑战者。嗯，好，很好，那就让仪式开始吧！"
-	    BossRushTierOneEndText: "嗯？喔，你还活着啊。想不到想不到，但你别就因为这点程度就自满咯～"
-	    BossRushTierTwoEndText: "嗯？你还真的挺顽强的，不是吗？也许跟以前过去那些挑战者不同，你有成功的机会。"
-	    BossRushTierThreeEndText: "嗯？你的执着真的能算得上一个值得赞扬的品质啊。你在这么短的时间里，都已经超越半神了。"
-	    BossRushTierThreeEndText2: "愿你的技巧能继续把这个锋芒保持到最后的挑战。"
-	    BossRushTierFourEndText: "嗯？所以你就进入了最终阶段？这可是连最强大的神灵都会生羡的伟大壮举。"
-	    BossRushTierFourEndText2: "前进！征服！直到仪式的终结！"
-	    BossRushTierFiveEndText: "嗯？除了这石头你还想要更多奖励？别急，真正的奖励迟早会出现..."
-	    Tier1ArsenalRecipeCondition: "你必须先找到沉沦之海的原型图"
-	    Tier2ArsenalRecipeCondition: "你必须先破译小行星的加密原型图"
-	    Tier3ArsenalRecipeCondition: "你必须先破译丛林的加密原型图"
-	    Tier4ArsenalRecipeCondition: "你必须先破译地狱的加密原型图"
-	    Tier5ArsenalRecipeCondition: "你必须先破译雪原的加密原型图"
-	    SunkenSeaSchematicRecipeCondition: "背包中至少放置一次沉沦之海原型图"
-	    PlanetoidSchematicRecipeCondition: "背包中至少放置一次小行星原型图"
-	    JungleSchematicRecipeCondition: "背包中至少放置一次丛林原型图"
-	    UnderworldSchematicRecipeCondition: "背包中至少放置一次地狱原型图"
-	    IceSchematicRecipeCondition: "背包中至少放置一次雪原原型图"
-	    SandstormTrigger: "沙漠里刮起了猛烈的疾风！"
-	    OpenSunkenSea: "地下沙漠的深处轰隆作响..."
-	    AcidRainStart: "一场剧毒暴雨席卷了整片废土之海！"
-	    AcidRainEnd: "硫磺海的天空开始放晴了..."
-	    ThirdSageBlessingText: "你已被第三贤者祝福！"
-	    ThirdSageBlessingText2: "第三贤者收回了它的祝福..."
-	    DefenseDamage: "防御伤害"
-	    ChangingTheRules: "你现在无法改变规则。"
-	    FlameText: "你周围的空气变得灼热起来。"
-	    BloodMoonText: "血月正在升起..."
-	    RevengeText: "复仇模式已开启。"
-	    RevengeText2: "复仇模式已关闭。"
-	    DeathText: "死亡模式已开启，享受吧。"
-	    DeathText2: "死亡模式已关闭，你还不够享受吗？"
-	    MaliceText: "恶意模式已开启，见证恐惧吧！"
-	    MaliceText2: "恶意模式已关闭。"
-	    AprilFools: "唯一神正在接近..."
-	    AprilFools2: "老核弹在等着你..."
-	    ArmageddonText: "Boss现在可以秒杀你。"
-	    ArmageddonText2: "Boss不再能秒杀你了。"
-	    ArmageddonDodgeEnable: "你的所有闪避都已被重新启用。"
-	    ArmageddonDodgeDisable: "你的所有闪避都已被禁用。"
-	    DargonBossText2: "吾之龙未将汝视为旗鼓相当之对手。取黑蚀之日之力，识吾龙真正之强大。"
-
-    }
+		# --- Dialogos ---
+		MeleeLevelUp: "近战熟练度升级了！"
+		MeleeLevelUpFinal: "近战熟练度满级了！"
+		RangedLevelUp: "远程熟练度升级了！"
+		RangedLevelUpFinal: "远程熟练度满级了！"
+		MagicLevelUp: "魔法熟练度升级了！"
+		MagicLevelUpFinal: "魔法熟练度满级了"
+		SummonLevelUp: "召唤熟练度升级了！"
+		SummonLevelUpFinal: "召唤熟练度满级了！"
+		RogueLevelUp: "盗贼熟练度升级了！"
+		RogueLevelUpFinal: "盗贼熟练度满级了！"
+		SkyOreText: "苍青色的光辉照耀着这片土地。"
+		IceOreText: "寒晶能量从冰之洞穴中迸发而出。"
+		PlantOreText: "富含能量的植物物质已在地下形成。"
+		TreeOreText: "石化树皮正在丛林的淤泥中爆发。"
+		AuricOreText: "神之光环祝福了这个世界的洞穴。"
+		FutureOreText: "冷黯的能量散布至宇宙之间。"
+		HardmodeOreTier1Text: "你的世界已被钴矿和钯金矿祝福！"
+		HardmodeOreTier2Text: "你的世界已被秘银矿和山铜矿祝福！"
+		HardmodeOreTier3Text: "你的世界已被精金矿和钛金矿祝福！"
+		HardmodeOreTier4Text: "神圣之地已得到神之金属的祝福！"
+		UglyBossText: "沉沦之海在颤动……"
+		WetWormBossText: "硫磺海的天空变暗了……"
+		PlantBossText: "海洋的深处传来震动。"
+		BabyBossText: "一场瘟疫席卷了丛林。"
+		MoonBossText: "亵渎之火猛烈燃烧！"
+		MoonBossText2: "宇宙的恐惧正注着这一切……"
+		PlagueBossText: "瘟疫核弹已就绪，准备发射！！！"
+		PlagueBossText2: "导弹已发射，目标定位系统开启！！！"
+		ProfanedBossText: "空气正在燃烧……"
+		ProfanedBossText2: "尖叫声回荡于地牢之中。"
+		ProfanedBossText3: "灾厄造物已被血石洗礼。"
+		ProfanedBossText4: "亵渎天神已经认可了你对纯净的贡献！"
+		GhostBossText: "深渊之灵受到了威胁。"
+		GhostBossText2: "哀嚎声回响在破旧的地牢大厅之中……"
+		GhostBossText3: "逝去已久的囚犯们寻求着自己的狂热复仇……"
+		GhostBossText4: "喷涌而出的灵魂扰乱了这场酸性风暴……"
+		AstralText: "一颗明星从天堂中坠陨！"
+		AureusBossText: "星幻敌人得到了增强！"
+		AureusBossText2: "微弱的异界之音游离在地牢中。"
+		AstralBossText: "幻星的封印已破碎！你可以挖掘炫星矿了。"
+		DeusText: "诞生于星辰之间的恐惧穿梭在星辉瘟疫中。"
+		DeusAltarRejectNightText: "群星之神拒绝了你的供奉。仪式只能在夜晚进行。"
+		SandSharkText: "沙子中有什么东西正在行动……"
+		SandSharkText2: "一个巨大的顶级掠食者接近了……"
+		SandSharkText3: "沙漠正在剧烈动荡！"
+		CryogenBossText: "极地之灵蹦了出来！" 
+		EdgyBossText: "别得意！小子！"
+		EdgyBossText3: "致命失误！"
+		EdgyBossText4: "真希望你能恢复过来！"
+		EdgyBossText5: "美味……"
+		EdgyBossText6: "哦，疼么？"
+		EdgyBossText7: "这无关个人私怨，小子。"
+		EdgyBossText8: "你真的连躲闪都不会吗？"
+		EdgyBossText9: "这么长的身体，唯一命中的居然是……"
+		EdgyBossText10: "还没完呢！小子！"
+		EdgyBossText11: "神！不惧死亡！"
+		EdgyBossText12: "你不是神……但你的灵魂仍是我的盛宴！"
+		DoGBossText: "寒霜之月散发着明洁的光辉。"
+		DoGBossText2: "收割之月散布着诡异的光芒。"
+		DargonBossText: "黑蚀之日蓄势待发。"
+		DraedonIntroductionText1: "你知道吗？这一刻已经等了太久了。"
+		DraedonIntroductionText2: "你的本质令我着迷，因为我还未能理解它。"
+		DraedonIntroductionText3: "你将会面对我的造物，那些超越神明的造物。"
+		DraedonIntroductionText4: "而你，则会在战斗中向我展示你的意愿。"
+		DraedonIntroductionText5: "现在，选择吧。"
+		DraedonExoPhase1Text1: "我作品的精华，蕴藏在随时间与知识不断改进的设计之中。"
+		DraedonExoPhase1Text2: "接近完美的方法，除此再无。"
+		DraedonExoPhase2Text1: "你的表现完全就在误差范围之内。"
+		DraedonExoPhase2Text2: "这着实令人满意。接下来我们将进入下一个测试环节。"
+		DraedonExoPhase3Text1: "自我第一次认识到你的存在，我就一直在研究你的战斗，并以此让我的机械变得更强。"
+		DraedonExoPhase3Text2: "就算是现在，我依然在检测你的行动。一切都在我的计算之内。"
+		DraedonExoPhase4Text1: "有趣，十分有趣。"
+		DraedonExoPhase4Text2: "就算是面对更为困难的挑战，你仍可以稳步推进。"
+		DraedonExoPhase5Text1: "我依然无法理解你的本质，这样下去可不行。"
+		DraedonExoPhase5Text2: "……我追求完美，而命运总是带有讽刺，这是我犯下的第一个错误。"
+		DraedonExoPhase6Text1: "荒谬至极。"
+		DraedonExoPhase6Text2: "我不会再让那些无用的计算干扰我对这场战斗的观察了。"
+		DraedonExoPhase6Text3: "我将向你展示，我终极造物的全部威力。"
+		DraedonAresEnrageText: "真是愚昧，你是无法逃跑的。"
+		DraedonResummonText: "做出你的选择。"
+		DraedonEndText1: "一个未知因素——你，是一个特异点。"
+		DraedonEndText2: "几乎与我一样，和这片大地和它的历史格格不入。"
+		DraedonEndText3: "……请原谅我的反省，但我必须得在这场展示之后整理我的思绪。"
+		DraedonEndText4: "迄今为止喷洒的血液已经让这片大陆变得陈腐无比，毫无生气。"
+		DraedonEndText5: "你也喷洒了自己的鲜血，但这可能足以带来一个新的时代……是什么，我不知道。但那一定是我所渴望看到的时代。"
+		DraedonEndText6: "现在，你想要接触那位暴君。可惜我无法帮到你。"
+		DraedonEndText7: "这并非出自怨恨，毕竟从一开始，我的目标就只有观察刚才的这一场战斗。"
+		DraedonEndText8: "但你之前已经与他有所交集，所以我相信你最终会找到合适的办法的。"
+		DraedonEndText9: "我必须承认你赢了，但我得回到我的机械工作上了。"
+		DraedonEndKillAttemptText: "……你的行为没什么必要。"
+		CalamitasBossText: "你低估了我的力量……"
+		CalamitasBossText2: "兄弟重生！"
+		CalamitasBossText3: "你成功给我留下了深刻的印象，留下了最深刻的印象……"
+		SCalSummonText: "你享受地狱之旅么？"
+		SCalStartText: "真奇怪，你应该已经死了才对……"
+		SCalBH2Text: "距离你上次勉强才击败我的克隆体也没过多久。那玩意就是个失败品，不是么？"
+		SCalBH3Text: "你驾驭着强大的力量，但你使用这股力量只为了自己的私欲。"
+		SCalBrothersText: "你想见见我的家人吗？听上去挺可怕，不是么？"
+		SCalPhase2Text: "你将痛不欲生。"
+		SCalBH4Text: "别想着逃跑。只要你还活着，痛苦就不会离你而去。"
+		SCalSeekerRingText: "一个后起之人，只识杀戮与偷窃，但却以此得到力量。我想想，这让我想起了谁……？"
+		SCalBH5Text: "这场战斗的输赢对你而言毫无意义！那你又有什么理由干涉这一切！"
+		SCalSepulcher2Text: "我们两人里只有一个可以活下来，但如果那个人是你，这一切还有什么意义？！"
+		SCalDesparationText1: "给我停下！"
+		SCalDesparationText2: "如果我在这里失败，我就再无未来可言。"
+		SCalDesparationText3: "一旦你战胜了我，你就只剩下一条道路。"
+		SCalDesparationText4: "而那条道路……同样也无未来可言。"
+		SCalAcceptanceText1: "哪怕他抛弃了一切，他的力量也不会消失。"
+		SCalAcceptanceText2: "我已没有余力去怨恨他了，对你也是如此……"
+		SCalAcceptanceText3: "现在，一切都取决于你。"
+		SCalSummonTextRematch: "如果你想感受一下四级烫伤的话，你可算是找对人了。"
+		SCalStartTextRematch: "他日若你魂销魄散，你会介意我将你的骨头和血肉融入我的造物中吗？"
+		SCalBH2TextRematch: "你离胜利还差得远着呢。"
+		SCalBH3TextRematch: "自我上一次能在如此有趣的靶子假人身上测试我的魔法，已经过了很久了。"
+		SCalBrothersTextRematch: "只是单有过去形态的空壳罢了，或许在其中依然残存他们的些许灵魂也说不定。"
+		SCalPhase2TextRematch: "再一次，我们开始吧。"
+		SCalBH4TextRematch: "我挺好奇，自我们第一次交手后，你曾否在梦魇中见到过这些？"
+		SCalSeekerRingTextRematch: "起码你的技术没有退步。"
+		SCalBH5TextRematch: "这难道不令人激动么？"
+		SCalSepulcher2TextRematch: "注意一下，那个会自己爬的坟墓来了，这是最后一次。"
+		SCalDesparationText1Rematch: "了不起的表现，我认可你的胜利。"
+		SCalDesparationText2Rematch: "毫无疑问，你会遇见比我更加强大的敌人。"
+		SCalDesparationText3Rematch: "我相信你不会犯下和他一样的错误。"
+		SCalDesparationText4Rematch: "至于你的未来会变成什么样子，我很期待。"
+		BossRushStartText: "嗯？啊，又一位挑战者。嗯，好，很好，那就让仪式开始吧！"
+		BossRushTierOneEndText: "嗯？喔，你还活着啊。想不到想不到，但你别就因为这点程度就自满咯～"
+		BossRushTierTwoEndText: "嗯？你还真的挺顽强的，不是吗？也许跟以前过去那些挑战者不同，你有成功的机会。"
+		BossRushTierThreeEndText: "嗯？你的执着真的能算得上一个值得赞扬的品质啊。你在这么短的时间里，都已经超越半神了。"
+		BossRushTierThreeEndText2: "愿你的技巧能继续把这个锋芒保持到最后的挑战。"
+		BossRushTierFourEndText: "嗯？所以你就进入了最终阶段？这可是连最强大的神灵都会生羡的伟大壮举。"
+		BossRushTierFourEndText2: "前进！征服！直到仪式的终结！"
+		BossRushTierFiveEndText: "嗯？除了这石头你还想要更多奖励？别急，真正的奖励迟早会出现……"
+		Tier1ArsenalRecipeCondition: "你必须先找到沉沦之海的原型图"
+		Tier2ArsenalRecipeCondition: "你必须先破译小行星的加密原型图"
+		Tier3ArsenalRecipeCondition: "你必须先破译丛林的加密原型图"
+		Tier4ArsenalRecipeCondition: "你必须先破译地狱的加密原型图"
+		Tier5ArsenalRecipeCondition: "你必须先破译雪原的加密原型图"
+		SunkenSeaSchematicRecipeCondition: "背包中至少放置一次沉沦之海原型图"
+		PlanetoidSchematicRecipeCondition: "背包中至少放置一次小行星原型图"
+		JungleSchematicRecipeCondition: "背包中至少放置一次丛林原型图"
+		UnderworldSchematicRecipeCondition: "背包中至少放置一次地狱原型图"
+		IceSchematicRecipeCondition: "背包中至少放置一次雪原原型图"
+		SandstormTrigger: "沙漠里刮起了猛烈的疾风！"
+		OpenSunkenSea: "地下沙漠的深处轰隆作响……"
+		AcidRainStart: "一场剧毒暴雨席卷了整片废土之海！"
+		AcidRainEnd: "硫磺海的天空开始放晴了……"
+		ThirdSageBlessingText: "你已被第三贤者祝福！"
+		ThirdSageBlessingText2: "第三贤者收回了它的祝福……"
+		DefenseDamage: "防御伤害"
+		ChangingTheRules: "你现在无法改变规则。"
+		FlameText: "你周围的空气变得灼热起来。"
+		BloodMoonText: "血月正在升起……"
+		RevengeText: "复仇模式已开启。"
+		RevengeText2: "复仇模式已关闭。"
+		DeathText: "死亡模式已开启，享受吧。"
+		DeathText2: "死亡模式已关闭，你还不够享受吗？"
+		MaliceText: "恶意模式已开启，见证恐惧吧！"
+		MaliceText2: "恶意模式已关闭。"
+		AprilFools: "唯一神正在接近……"
+		AprilFools2: "老核弹在等着你……"
+		ArmageddonText: "Boss现在可以秒杀你。"
+		ArmageddonText2: "Boss不再能秒杀你了。"
+		ArmageddonDodgeEnable: "你的所有闪避都已被重新启用。"
+		ArmageddonDodgeDisable: "你的所有闪避都已被禁用。"
+		DargonBossText2: "吾之龙未将汝视为旗鼓相当之对手。取黑蚀之日之力，识吾龙真正之强大。"
+	}
 }
