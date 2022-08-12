@@ -15,10 +15,10 @@ namespace CalamityCN.Translations.CodeEdit
         {
             buttonTranslation = new List<ILHook>();
 
-            QuickTranslate(typeof(THIEF), "Refund", "退款");
-            QuickTranslate(typeof(SEAHOE), "Help", "帮助");
-            QuickTranslate(typeof(WITCH), "Enchant", "咒术炼注");
-            QuickTranslate(typeof(FAP), "Death Count", "死亡次数");
+            QuickTranslate(typeof(THIEF), "Refund", "退款".zh());
+            QuickTranslate(typeof(SEAHOE), "Help", "帮助".zh());
+            QuickTranslate(typeof(WITCH), "Enchant", "咒术炼注".zh());
+            QuickTranslate(typeof(FAP), "Death Count", "死亡次数".zh());
             foreach (ILHook hook in buttonTranslation)
             {
                 if (hook is not null)

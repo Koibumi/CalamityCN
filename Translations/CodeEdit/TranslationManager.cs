@@ -13,6 +13,7 @@ namespace CalamityCN.Translations.CodeEdit
             EnchantmentTranslation.Load();
             DraedonLogTranslation.Load();
             DraedonWidgetTranslation.Load();
+            MiscCombatTextTranslation.Load();
         }
         public override void Unload()
         {
@@ -21,6 +22,7 @@ namespace CalamityCN.Translations.CodeEdit
             EnchantmentTranslation.Unload();
             DraedonLogTranslation.Unload();
             DraedonWidgetTranslation.Unload();
+            MiscCombatTextTranslation.Unload();
         }
     }
 }
