@@ -46,9 +46,14 @@ namespace CalamityCN
                     Main.NewText("[c/ff0000:如果需要向我们反馈，请提供报错日志和模组列表。]");
                     break;
                 case 600:
-                    Main.NewText($"[i:{ModContent.ItemType<BabyFlakCrabItem>()}]祝玩得愉快！[i:{ModContent.ItemType<PiggyItem>()}]");
+                    Main.NewText("[c/ff0000:如果破译加密原型图的内容出现了错误，请重启游戏！]");
+                    Main.NewText("[c/ff0000:如果破译加密原型图的内容出现了错误，请重启游戏！]");
+                    Main.NewText("[c/ff0000:如果破译加密原型图的内容出现了错误，请重启游戏！]");
                     break;
                 case 660:
+                    Main.NewText($"[i:{ModContent.ItemType<BabyFlakCrabItem>()}]祝玩得愉快！[i:{ModContent.ItemType<PiggyItem>()}]");
+                    break;
+                case 720:
                     Main.NewText("——From [i:3541]");
                     break;
             }
