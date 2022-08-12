@@ -1,5 +1,5 @@
 displayName = 灾厄Mod-汉化补丁
 author = Kcovin&灾厄维基汉化组
-version = 1.1.1.401
+version = 1.1.1.402
 modReferences = CalamityMod
 side = Client
