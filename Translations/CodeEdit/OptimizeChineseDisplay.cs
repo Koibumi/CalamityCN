@@ -41,7 +41,7 @@ namespace CalamityCN.Translations.CodeEdit
             draedonDecryptionStuff = new ILHook(typeof(CodebreakerUI).GetMethod("HandleDecryptionStuff", BindingFlags.Public | BindingFlags.Static), new ILContext.Manipulator(il =>
             {
                 var cursor = new ILCursor(il);
-                if (!cursor.TryGotoNext(i => i.MatchCall(typeof(Char).GetMethod("IsWhiteSpace",new Type[] { typeof(Char) }))))
+                if (!cursor.TryGotoNext(i => i.MatchCall(typeof(Char).GetMethod("IsWhiteSpace", new Type[] { typeof(Char) }))))
                     return;
                 cursor.Index++;
                 cursor.EmitDelegate<Func<bool, bool>>((isWhiteSpace) => (!GameCulture.FromCultureName(GameCulture.CultureName.Chinese).IsActive) && isWhiteSpace);

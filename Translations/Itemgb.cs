@@ -396,16 +396,18 @@ public class Itemgb : GlobalItem
                 player.setBonus = "增加9%盗贼伤害和盗贼弹幕飞行速度\n盗贼弹幕击中敌人产生特殊效果\n受伤时受到来自宇宙的怒火加持\n不攻击时累积潜行值，移动时积累较慢，最大115点\n一旦你的潜行值满，下一次盗贼攻击可施展潜伏攻击\n盗贼潜行值只在攻击时下降，移动时不会下降\n潜行值越高，你的盗贼伤害、暴击率、移动速度越高";
             }
 
-            //原版套装
+            #region 原版套装
             else if (set == "SpectreHeal")
             {
                 player.setBonus = "魔法伤害减少20%并将其转化为治愈力\n对敌人造成的魔法伤害将治疗生命值最低的玩家";
             }
+            #endregion
         }
     }
 
     public override string IsArmorSet(Item head, Item body, Item legs)
     {
+        #region 灾厄套装
         if (head.type == ModContent.ItemType<AerospecHat>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
         {
             return "AerospecMagic";
@@ -694,12 +696,14 @@ public class Itemgb : GlobalItem
         {
             return "Xeroc";
         }
+        #endregion
 
-        //原版套装
+        #region 原版套装
         if (head.type == ItemID.SpectreHood && body.type == ItemID.SpectreRobe && legs.type == ItemID.SpectrePants)
         {
             return "SpectreHeal";
         }
+        #endregion
         return "";
     }
 
@@ -1104,7 +1108,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("average damage", "无职业伤害");
                 }
 
-                if (item.type >= 3930 && (item.Calamity()?.UsesCharge ?? false))
+                if (item.type >= ItemID.Celeb2 && (item.Calamity()?.UsesCharge ?? false))
                 {
                     line.Text = line.Text.Replace("Current Charge:", "当前充能：");
 
@@ -1174,7 +1178,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("stealth generation", "潜行值恢复速度");
 
                 }
-                //不能直接翻译的家具(恼
+                #region 不能直接翻译的家具(恼
                 //星流家具
                 if (item.type == ModContent.ItemType<ExoChair>())
                 {
@@ -1578,6 +1582,7 @@ public class Itemgb : GlobalItem
                 line.Text = line.Text.Replace("Monolith Amalgam", "星幻柱综合体");
                 line.Text = line.Text.Replace("Profaned Crucible", "亵渎坩埚");
                 line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机");
+                #endregion
 
                 /*		
                             if (item.type == ModContent.ItemType<>())
@@ -1586,7 +1591,7 @@ public class Itemgb : GlobalItem
                             }	
                 */
                 //-原版物品-
-                //武器
+                #region 武器
                 if (item.type == 1327)
                 {
                     line.Text = line.Text.Replace("Inflicts Whispering Death on hit", "命中造成死亡低语减益");
@@ -1653,8 +1658,9 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Ignores 100% of enemy defense", "无视敌怪100%的防御力");
                 }
+                #endregion
 
-                //工具
+                #region 工具
                 if (item.type == 367 || item.type == 787)
                 {
                     line.Text = line.Text.Replace("Demon Altars now provide Souls of Night instead of generating ores when destroyed", "摧毁恶魔祭坛获得暗影之魂，而不是新三矿");
@@ -1670,8 +1676,9 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Can mine Uelibloom Ore", "可开采龙蒿矿");
                 }
+                #endregion
 
-                //饰品
+                #region 饰品
                 if (item.type == 5107)
                 {
                     line.Text = line.Text.Replace("Increases movement acceleration and deceleration by 1.25x", "增加25%移动加速度和减速度");
@@ -1958,7 +1965,9 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Reelback Velocity", "回收速度");
                     line.Text = line.Text.Replace("Pull Velocity", "牵引速度");
                 }
-                //盔甲
+                #endregion
+
+                #region 盔甲
                 if (item.type == 89 || item.type == 80 || item.type == 76)
                 {
                     line.Text = line.Text.Replace("Increases all damage by", "所有伤害增加");
@@ -2176,7 +2185,9 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("10% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
                     line.Text = line.Text.Replace("10% increased minion damage and 15% increased magic critical strike chance", "增加10%召唤伤害和15%魔法暴击率");
                 }
-                //物品
+                #endregion
+
+                #region 物品
                 if (item.type == 560 || item.type == 361 || item.type == 602 || item.type == 1844 || item.type == 1958 || item.type == 2767 || item.type == 3601 || item.type == 1315 || item.type == 4271)
                 {
                     line.Text = line.Text.Replace("Not consumable", "不消耗");
@@ -2310,6 +2321,11 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Rogue attacks inflict Venom on enemies", "盗贼攻击会对敌人施放毒液");
                 }
+                if (item.type == 1263)
+                {
+                    line.Text = line.Text.Replace("\nCannot be used while a boss is alive", "在有Boss存活是无法使用");
+                }
+                #endregion
             }
         }
     }

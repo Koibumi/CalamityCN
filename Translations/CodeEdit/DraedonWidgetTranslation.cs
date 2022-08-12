@@ -1,17 +1,12 @@
-﻿using CalamityMod;
-using CalamityMod.CustomRecipes;
-using CalamityMod.Items;
+﻿using CalamityMod.Items;
 using CalamityMod.TileEntities;
 using CalamityMod.Tiles.DraedonSummoner;
 using CalamityMod.UI;
-using CalamityMod.World;
-using Microsoft.Xna.Framework;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.CodeEdit
 {
@@ -27,7 +22,7 @@ namespace CalamityCN.Translations.CodeEdit
             SchematicText = new List<string>(new string[]
             {
                 "Within an army, as weapons do, the soldiers serve different purposes. That distinction is crucial, as the wrong tool in the wrong hands—no matter how potent—may as well be a wooden club.\nAddendum: Seek out my base of operations closest to the Lihzahrd’s home. I wish you the best of luck with all sincerity, for it has been a long time since I have had a worthy test subject. ",
-                "在一支军队中，士兵就如同武器一样有着不同的用途。它们的区别至关重要，毕竟如果错误的工具在错误的人手中的话——无论那些工具有多么厉害——可能也就和一根木头球棒差不多。"+
+                "在一支军队中，士兵就如同武器一样有着不同的用途。它们的区别至关重要，毕竟如果错误的工具在错误的人手中的话——无论那些工具有多么厉害——可能也就和一根木头球棒差不多。\n"+
                 "附录：去寻找距离蜥蜴神庙最近的行动基地。我真诚地祝愿你好运，毕竟我已经很久没有遇到过如此有价值的实验对象了。",
                 "As rank progresses, so often does the lethality of equipment. In the hands of competent soldiers, the weapons have the ability to make change. However, competent soldiers take no action but orders from above.\nAddendum: If you read this, you have come far. Do not disappoint. Go now to Hell, for the next component stored in what were once my forges.",
                 "随着军衔的提高，装备的杀伤力也会增长。在有能力的士兵手里，这些武器也确实可以带来改变。可惜，这些有能力的士兵除了遵循上头的命令外根本不会自己行动。\n"+
