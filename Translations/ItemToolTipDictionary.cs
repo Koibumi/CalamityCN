@@ -1596,6 +1596,10 @@ namespace CalamityCN
                 {"WulfrumHovercraftBanner", "{$CommonItemTooltip.BannerBonus}钨钢悬浮坦克旗"},
                 {"WulfrumPylonBanner", "{$CommonItemTooltip.BannerBonus}钨钢充能塔旗"},
                 {"WulfrumRoverBanner", "{$CommonItemTooltip.BannerBonus}钨钢漫步者旗"},
+
+                //大师遗物
+                
+                {"PlaguebringerGoliathRelic", "对它未来模样的一瞥……".zh()},
             };
         }
         public static void Unload()

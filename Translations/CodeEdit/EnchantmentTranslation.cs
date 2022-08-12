@@ -1,9 +1,15 @@
-﻿using CalamityMod.UI.CalamitasEnchants;
+﻿using CalamityMod;
+using CalamityMod.Items.Accessories;
+using CalamityMod.Items.Weapons.Magic;
+using CalamityMod.Items.Weapons.Summon;
+using CalamityMod.UI.CalamitasEnchants;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Terraria;
+using Terraria.ModLoader;
 using static CalamityMod.UI.CalamitasEnchants.EnchantmentManager;
 
 namespace CalamityCN.Translations.CodeEdit
@@ -12,6 +18,7 @@ namespace CalamityCN.Translations.CodeEdit
     {
         private static ILHook fixExhume;
         private static ILHook fixCost;
+        private static Hook disenchant;
         private static Dictionary<string, string[]> translationDict;
         public static void Load()
         {
@@ -31,7 +38,6 @@ namespace CalamityCN.Translations.CodeEdit
                 { "Traitorous", new string[] { "背叛".zh(), "当你的魔力值低于50%时，使用该武器会随机生成一个无差别攻击一切生物的怪物。".zh() } },
                 { "Indignant", new string[] { "愤慨".zh(), "使用时召唤一个恶魔攻击你，但恶魔死亡后会产生治愈射线治疗你。".zh() } },
                 { "Hellbound", new string[] { "狱使".zh(), "召唤物会在生成40秒后产生剧烈爆炸并消失。在这40秒内，召唤物存在时间越久，造成的伤害越高，并且会随机产生小范围爆炸。".zh() } },
-                { "Disenchant", new string[] { "祛魔".zh(), string.Empty } },
             };
 
             for (int i = 0; i < EnchantmentList.Count; i++)
@@ -45,6 +51,14 @@ namespace CalamityCN.Translations.CodeEdit
                     }
                 }
             }
+            disenchant = new Hook(typeof(EnchantmentManager).GetMethod("get_ClearEnchantment", (BindingFlags)60), () => 
+            {
+                return new Enchantment("祛魔", string.Empty, -18591774, null, delegate (Item item)
+                {
+                    item.Calamity().AppliedEnchantment = null;
+                    item.Calamity().DischargeEnchantExhaustion = 0f;
+                }, (Item item) => item.IsEnchantable() && item.shoot >= 0);
+            });
 
             fixExhume = new ILHook(typeof(CalamitasEnchantUI).GetMethod("InteractWithEnchantIcon", (BindingFlags)60), new ILContext.Manipulator(
                 il =>
@@ -77,6 +91,7 @@ namespace CalamityCN.Translations.CodeEdit
 
             fixExhume.Apply();
             fixCost.Apply();
+            disenchant.Apply();
         }
         public static void Unload()
         {
@@ -87,6 +102,9 @@ namespace CalamityCN.Translations.CodeEdit
             if (fixCost is not null)
                 fixCost.Dispose();
             fixCost = null;
+            if (disenchant is not null)
+                disenchant.Dispose();
+            disenchant = null;
         }
     }
 }
