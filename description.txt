@@ -2,9 +2,7 @@ This is a Chinese-translation Mod for Calamity Mod.
 
 =[介绍]=
 本Mod是由Kcovin制作，灾厄维基汉化组出品的灾厄汉化Mod
-此Mod已汉化大部分内容，能满足正常游戏体验
-
-
+此Mod已汉化大部分内容，能满足正常游戏体验。
 
 讨论群1：1060107125
 讨论群2：470305298
@@ -18,7 +16,8 @@ This is a Chinese-translation Mod for Calamity Mod.
 
 v1.1.1.403 beta
 真正补充了祛魔的翻译
-修复咒术炼注提示过长的bug（ing）
+修复咒术炼注提示过长的bug
+修复失误导致Buff名称错误
 
 v1.1.1.402 beta
 修复了原型图破译在重新加载后无法显示的bug

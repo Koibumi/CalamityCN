@@ -802,7 +802,7 @@ public class NPCgb : GlobalNPC
 			//渔夫
 			new string[2]{
                 "Someone tell " + givenNames[10] + " to quit trying to throw me out of town, it's not going to work.",
-                "有人说.zh()" + givenNames[10] + "想把我赶出镇子，那是不存在的。".zh()
+                "有人说".zh() + givenNames[10] + "想把我赶出镇子，那是不存在的。".zh()
             },
 
 			//军火商

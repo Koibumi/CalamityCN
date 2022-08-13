@@ -741,14 +741,6 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("to activate Adrenaline Mode.", "键来激活肾上腺素".zh());
                 }
 
-                if (item.type == ModContent.ItemType<DraedonsHeart>())
-                {
-                    line.Text = line.Text.Replace("Adds the Nanomachines meter", "获得纳米机器条".zh());
-                    line.Text = line.Text.Replace("Nanomachines accumulate over time while fighting bosses\n", "纳米机器在与Boss对战时积累".zh());
-                    line.Text = line.Text.Replace("Taking damage stops the accumulation for ", "受击时纳米机器停止充能".zh());
-                    line.Text = line.Text.Replace(" seconds", "秒".zh());
-                }
-
                 if (item.type == ModContent.ItemType<SpectralVeil>())
                 {
                     string hotkeySpecVeil = CalamityMod.CalamityKeybinds.SpectralVeilHotKey.TooltipHotkeyString();
@@ -911,28 +903,25 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Adrenaline Damage Boost:", "肾上腺素伤害加成：".zh());
                     line.Text = line.Text.Replace("Adrenaline DR Boost:", "肾上腺素伤害减免加成：".zh());
                     line.Text = line.Text.Replace("Rage Damage Boost:", "愤怒模式伤害加成：".zh());
-                    line.Text = line.Text.Replace("Melee Damage:", "近战伤害加成：".zh());
-                    line.Text = line.Text.Replace("True ", "真".zh());
+                    line.Text = line.Text.Replace("True Melee Damage:", "真近战伤害加成：".zh());
                     line.Text = line.Text.Replace("True Danos por ataque físico:", "真实伤害:".zh());
-                    line.Text = line.Text.Replace("Melee Crit Chance:", "近战暴击率：".zh());
-                    line.Text = line.Text.Replace("Melee Attack Speed:", "近战攻速：".zh());
-                    line.Text = line.Text.Replace("Ranged Damage:", "远程伤害加成：".zh());
-                    line.Text = line.Text.Replace("Ranged Crit Chance:", "远程暴击率：".zh());
-                    line.Text = line.Text.Replace("Ranged Attack Speed:", "远程攻速：".zh());
                     line.Text = line.Text.Replace("Ammo Consumption Chance:", "弹药消耗率：".zh());
-                    line.Text = line.Text.Replace("Magic Damage:", "魔法伤害加成：".zh());
-                    line.Text = line.Text.Replace("Magic Crit Chance:", "魔法暴击率：".zh());
-                    line.Text = line.Text.Replace("Magic Attack Speed:", "魔法攻速：".zh());
                     line.Text = line.Text.Replace("Mana Usage:", "魔力值消耗：".zh());
                     line.Text = line.Text.Replace("Mana Regen:", "魔力值恢复速度：".zh());
-                    line.Text = line.Text.Replace("Minion Damage:", "召唤伤害加成：".zh());
-                    line.Text = line.Text.Replace("Minion Crit Chance:", "召唤暴击率：".zh());
                     line.Text = line.Text.Replace("Minion Slots:", "召唤栏位数量：".zh());
-                    line.Text = line.Text.Replace("Rogue Damage:", "盗贼伤害加成：".zh());
-                    line.Text = line.Text.Replace("Rogue Crit Chance:", "盗贼暴击率：".zh());
-                    line.Text = line.Text.Replace("Rogue Attack Speed:", "盗贼攻速".zh());
                     line.Text = line.Text.Replace("Rogue Velocity Boost:", "盗贼弹幕飞行速度提升：".zh());
                     line.Text = line.Text.Replace("Rogue Weapon Consumption Chance:", "盗贼消耗性武器消耗率：".zh());
+                    line.Text = line.Text.Replace("Melee ", "近战".zh());
+                    line.Text = line.Text.Replace("Magic ", "魔法".zh());
+                    line.Text = line.Text.Replace("Ranged ", "远程".zh());
+                    line.Text = line.Text.Replace("Minion ", "召唤".zh());
+                    line.Text = line.Text.Replace("Rogue ", "盗贼".zh());
+                    line.Text = line.Text.Replace("Averaged ", "无职业".zh());
+                    line.Text = line.Text.Replace("Unsupported ", "未支持职业".zh());
+                    line.Text = line.Text.Replace("Averaged ", "无职业".zh());
+                    line.Text = line.Text.Replace("Damage", "伤害加成".zh());
+                    line.Text = line.Text.Replace("Crit Chance", "暴击率".zh());
+                    line.Text = line.Text.Replace("Attack Speed", "攻速".zh());
                     line.Text = line.Text.Replace("Max Stealth:", "最大潜行值：".zh());
                     line.Text = line.Text.Replace("Standing Regen:", "站定恢复速度：".zh());
                     line.Text = line.Text.Replace("Moving Regen:", "移动时恢复速度：".zh());

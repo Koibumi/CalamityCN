@@ -15,7 +15,7 @@ namespace CalamityCN
                     Main.NewText("感谢您使用由 [c/a44d02:K][c/c67400:c][c/e6a207:o][c/ffcd00:v][c/ffcd00:i][c/ffff93:n] 制作，由[c/faca8c:灾][c/ff9173:厄][c/e34f4f:维][c/ad3446:基][c/e34f4f:汉][c/ff9173:化][c/faca8c:组]出品的 [c/FF0000:灾厄Mod-汉化补丁]！".zh());
                     break;
                 case 60:
-                    Main.NewText("如果您看到此消息，说明您正在使用[c/f58f9b:1.1.1.402测试版]！".zh());
+                    Main.NewText("如果您看到此消息，说明您正在使用[c/f58f9b:1.1.1.403测试版]！".zh());
                     break;
                 case 120:
                     Main.NewText("当前适配的灾厄Mod版本为：[c/cccc00:2.0.0.3]。".zh());

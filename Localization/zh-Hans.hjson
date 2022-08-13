@@ -2287,7 +2287,7 @@ Mods:
 		AcidRainEnd: "硫磺海的天空开始放晴了……"
 		ThirdSageBlessingText: "你已被第三贤者祝福！"
 		ThirdSageBlessingText2: "第三贤者收回了它的祝福……"
-		DefenseDamage: "防御伤害"
+		DefenseDamage: "防御损伤"
 		ChangingTheRules: "你现在无法改变规则。"
 		FlameText: "你周围的空气变得灼热起来。"
 		BloodMoonText: "血月正在升起……"
