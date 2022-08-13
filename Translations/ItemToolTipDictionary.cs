@@ -1191,7 +1191,7 @@ namespace CalamityCN
                 { "SunSpiritStaff", "召唤一个太阳之灵保护你\n同时只能存在一个太阳之灵".zh() },
                 { "WulfrumController", "召唤钨钢机器人为你而战".zh() },
                 { "Aestheticus", "发射爆炸的水晶减速敌人\n受到所有种类伤害加成的影响".zh() },
-                { "AethersWhisper", "发射能量光束，距离越远伤害越高\n造成长时间的暗影焰减益，碰到物块会分裂\n右键将魔法攻击转为远程攻击\n右键不消耗魔力".zh() },
+                { "AethersWhisper", "发射能量光束，距离越远伤害越高\n造成长时间的暗影焰减益，碰到物块会分裂".zh() },
                 { "Bazooka", "以榴弹片为弹药\nBoss战限制只能发射两发弹药".zh() },
                 { "ElephantKiller", "以马格南弹为弹药\nBoss战限制只能发射三发弹药".zh() },
                 { "Hydra", "以爆炸散弹为弹药\nBoss战限制只能发射一发弹药".zh() },
