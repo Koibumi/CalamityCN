@@ -14,6 +14,9 @@ This is a Chinese-translation Mod for Calamity Mod.
 2.进入tml，在模组管理中同时启用灾厄Mod和本Mod
 3.安装完成，进行游戏[i:74]
 
+v1.1.1.5
+修复了多人模式相关bug
+
 v1.1.1.403 beta
 真正补充了祛魔的翻译
 修复咒术炼注提示过长的bug
