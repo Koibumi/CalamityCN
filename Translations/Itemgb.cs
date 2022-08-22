@@ -373,26 +373,7 @@ public class Itemgb : GlobalItem
             {
                 player.setBonus = "在水中时增加3点生命再生速度和10%远程伤害\n使用任何武器时都有10%几率发射回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提高水下灵活性，稍微减缓深渊中呼吸条消耗速度".zh();
             }
-            else if (set == "WulfrumRanged")
-            {
-                player.setBonus = "增加3点防御力\n低于50%生命值时增加5点防御力".zh();
-            }
-            else if (set == "WulfrumMelee")
-            {
-                player.setBonus = "敌人更有可能以你为目标\n增加3点防御力\n低于50%生命值时增加5点防御力".zh();
-            }
-            else if (set == "WulfrumSummon")
-            {
-                player.setBonus = "增加3点防御力，+1召唤栏\n低于50%生命值时增加5点防御力".zh();
-            }
-            else if (set == "WulfrumMagic")
-            {
-                player.setBonus = "增加3点防御力\n低于50%生命值时增加5点防御力".zh();
-            }
-            else if (set == "WulfrumRogue")
-            {
-                player.setBonus = "增加3点防御力\n低于50%生命值时增加5点防御力\n不攻击时累积潜行值，移动时积累较慢，最大50点\n一旦你的潜行值满，下一次盗贼攻击可施展潜伏攻击\n盗贼潜行值只在攻击时下降，移动时不会下降\n潜行值越高，你的盗贼伤害、暴击率、移动速度越高".zh();
-            }
+
             else if (set == "Xeroc")
             {
                 player.setBonus = "增加9%盗贼伤害和盗贼弹幕飞行速度\n盗贼弹幕击中敌人产生特殊效果\n受伤时受到来自宇宙的怒火加持\n不攻击时累积潜行值，移动时积累较慢，最大115点\n一旦你的潜行值满，下一次盗贼攻击可施展潜伏攻击\n盗贼潜行值只在攻击时下降，移动时不会下降\n潜行值越高，你的盗贼伤害、暴击率、移动速度越高".zh();
@@ -675,26 +656,7 @@ public class Itemgb : GlobalItem
         {
             return "VictideRanged";
         }
-        if (head.type == ModContent.ItemType<WulfrumHeadRanged>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-        {
-            return "WulfrumRanged";
-        }
-        if (head.type == ModContent.ItemType<WulfrumHeadMelee>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-        {
-            return "WulfrumMelee";
-        }
-        if (head.type == ModContent.ItemType<WulfrumHeadSummon>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-        {
-            return "WulfrumSummon";
-        }
-        if (head.type == ModContent.ItemType<WulfrumHeadMagic>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-        {
-            return "WulfrumMagic";
-        }
-        if (head.type == ModContent.ItemType<WulfrumHeadRogue>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-        {
-            return "WulfrumRogue";
-        }
+
         if (head.type == ModContent.ItemType<EmpyreanMask>() && body.type == ModContent.ItemType<EmpyreanCloak>() && legs.type == ModContent.ItemType<EmpyreanCuisses>())
         {
             return "Xeroc";
@@ -731,14 +693,6 @@ public class Itemgb : GlobalItem
                 if (item.type == ModContent.ItemType<HadalStew>())
                 {
                     line.Text = line.Text.Replace("Only gives 37 seconds of Potion Sickness", "只造成37秒的药水疾病减益".zh());
-                }
-
-                if (item.type == ModContent.ItemType<RevengeanceModeItem>())
-                {
-                    line.Text = line.Text.Replace("Enables the Rage mechanic. When Rage is maxed press", "启用怒气机制。当怒气值满了的时候按下 ".zh());
-                    line.Text = line.Text.Replace("to activate Rage Mode.", "键来激活暴怒模式".zh());
-                    line.Text = line.Text.Replace("Enables the Adrenaline mechanic. When Adrenaline is maxed press", "启用肾上腺素机制。当肾上腺素值满了的时候按下 ".zh());
-                    line.Text = line.Text.Replace("to activate Adrenaline Mode.", "键来激活肾上腺素".zh());
                 }
 
                 if (item.type == ModContent.ItemType<SpectralVeil>())
@@ -797,12 +751,6 @@ public class Itemgb : GlobalItem
                 if (item.type == ModContent.ItemType<Nanotech>() || item.type == ModContent.ItemType<RaidersTalisman>())
                 {
                     line.Text = line.Text.Replace("Rogue Crit Level:", "当前堆叠等级：".zh());
-                }
-
-                if (item.type == ModContent.ItemType<MomentumCapacitor>())
-                {
-                    string hotkeyCapacitor = CalamityMod.CalamityKeybinds.MomentumCapacitatorHotkey.TooltipHotkeyString();
-                    line.Text = line.Text.Replace("Press " + hotkeyCapacitor + " to consume 30% of your maximum stealth to create an energy field at the cursor position", "按下 ".zh() + hotkeyCapacitor + " 键消耗最大潜行值的30%，在光标位置创建一个能量场".zh());
                 }
 
                 if (item.type == ModContent.ItemType<CelestialJewel>())
@@ -985,6 +933,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Grovetender's Touch", "林妖的鞭笞".zh());
                     line.Text = line.Text.Replace("Heaven's Might", "天堂的迫力".zh());
                     line.Text = line.Text.Replace("Extant Abhorrence", "尚存的憎恶".zh());
+					line.Text = line.Text.Replace("Gesture for the Drowned", "溺者之势".zh());
                     line.Text = line.Text.Replace("None", "无".zh());
                     line.Text = line.Text.Replace("Does nothing..yet", "没有用处……起码目前还没有".zh());
                     line.Text = line.Text.Replace("Repairing the blade seems to have improved its attuning capacities", "看上去，修复此剑增强了它的调谐能力".zh());
@@ -1002,6 +951,8 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which raises otherworldly monoliths", "将此猛冲施加给地面将导致巨大的冲击，使得异界巨石破地而出".zh());
                     line.Text = line.Text.Replace("Hold the attack button to swing the sword around you, accelerating over time", "按住攻击键使用回旋斩，随时间逐渐加速".zh());
                     line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor. The sword then quickly returns to your hand", "松开攻击键将剑向鼠标猛投出去。剑将会迅速回到你手中".zh());
+					line.Text = line.Text.Replace("Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground", "向两周射出水球。水中击中地面时会化作滑行的小冲击波".zh());
+					line.Text = line.Text.Replace("Waves fired while underwater or that touch water will become much larger and faster", "触碰到水的冲击波会变得巨大且飞快".zh());
                 }
                 if (item.type == ModContent.ItemType<OmegaBiomeBlade>())
                 {
@@ -1145,17 +1096,17 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Aflame", "魔焱".zh());
                     line.Text = line.Text.Replace("Lights enemies ablaze on hit but also causes the user to take damage over time when holding this item.", "攻击会点燃目标，但拿着该物品时会受到伤害性减益。".zh());
                     line.Text = line.Text.Replace("Ephemeral", "须臾".zh());
-                    line.Text = line.Text.Replace("Causes the damage output of this item to discharge from exhaustive use.", "连续使用时伤害会持续降低。\n".zh());
+                    line.Text = line.Text.Replace("Causes the damage output of this item to discharge from exhaustive use.", "连续使用时伤害会持续降低。".zh());
                     line.Text = line.Text.Replace("Its damage returns naturally when not being used. It starts off with more damage than it normally would have.", "停止使用时，伤害会逐渐恢复。刚开始使用时它会造成比正常情况下高得多的伤害。".zh());
                     line.Text = line.Text.Replace("Withering", "凋零".zh());
-                    line.Text = line.Text.Replace("When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%.", "当你受伤，会根据之前累计造成的伤害恢复一定比例的生命值，最高可达100%。\n".zh());
+                    line.Text = line.Text.Replace("When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%.", "当你受伤，会根据之前累计造成的伤害恢复一定比例的生命值，最高可达100%。".zh());
                     line.Text = line.Text.Replace("After this, you gain a damage boost while holding this item but also take exponential damage over time the longer you hold it.", "随后，你会持续受到减益伤害，但你造成的伤害会上升。".zh());
                     line.Text = line.Text.Replace("Resentful", "憎懣".zh());
                     line.Text = line.Text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The farther, the more damage, and vice versa.", "使弹幕的伤害取决于目标与你的距离，距离越远，伤害越高。反之亦然。".zh());
                     line.Text = line.Text.Replace("Bloodthirsty", "嗜血".zh());
                     line.Text = line.Text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The closer, the more damage, and vice versa.", "使弹幕的伤害取决于目标与你的距离，距离越近，伤害越高。反之亦然。".zh());
                     line.Text = line.Text.Replace("Persecuted", "压迫".zh());
-                    line.Text = line.Text.Replace("When attacked, or over time, demon portals appear near you.", "当攻击时，或随着时间推移，你的附近会生成一个恶魔之门，并在一小段时间后生成恶魔。\n".zh());
+                    line.Text = line.Text.Replace("When attacked, or over time, demon portals appear near you.", "当攻击时，或随着时间推移，你的附近会生成一个恶魔之门，并在一小段时间后生成恶魔。".zh());
                     line.Text = line.Text.Replace("If sufficiently damaged they are friendly; otherwise they attack you. They become angered if a portal is damaged.", "如果恶魔出现之前传送门被严重破坏，恶魔们会选择攻击敌怪；否则，当传送门消失后，恶魔们就会选择攻击玩家。".zh());
                     line.Text = line.Text.Replace("Lecherous", "淫欲".zh());
                     line.Text = line.Text.Replace("Spawns a resilient brimstone monster that stays between you and your mouse that interferes with your homing weapons. It releases a bunch of hearts on death.", "生成一个硫磺怪物处于你和你的鼠标中间，干扰你的武器发射的弹幕。\n硫磺怪物死亡后会释放很多红心。".zh());

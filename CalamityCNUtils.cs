@@ -1,4 +1,4 @@
-﻿namespace CalamityCN
+namespace CalamityCN
 {
     internal static class CalamityCNUtils
     {

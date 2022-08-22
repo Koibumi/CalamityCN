@@ -15,6 +15,7 @@ Mods:
 				"Graphics": "画面改动",
 				"Revengeance": "复仇模式改动",
 				"UI": "UI 改动",
+				"BaseBoosts": "基础属性提升",
 			}
 
 			EntryTitle:
@@ -37,6 +38,11 @@ Mods:
 				"EarlyHardmodeProgressionRework": "困难模式早期流程重做",
 				"ForceTownSafety": "强制城镇安全",
 				"MeterPosLock": "属性条位置锁定",
+				"FasterBaseSpeed": "更高基础速度",
+				"HigherJumpHeight": "更高跳跃高度",
+        "FasterJumpSpeed": "更高跳跃速度",
+        "FasterFallHotkey": "快速下落快捷键",
+        "FasterTilePlacement": "更快的基础放置速度",
 				"NerfExpertDebuffs": "移除增加的减益持续时间",
 				"ParticleLimit": "最大粒子数",
 				"Proficiency": "熟练度",
@@ -55,6 +61,7 @@ Mods:
 				"TownNPCSpawnRateMultiplier": "城镇NPC生成率乘算器",
 				"TownNPCsSpawnAtNight": "城镇NPC在夜间生成",
 				"VanillaCooldownDisplay": "原版冷却显示",
+				"WikiStatusMessage": "Wiki状态信息",
 			}
 
 			EntryTooltip:
@@ -77,6 +84,11 @@ Mods:
 				"EarlyHardmodeProgressionRework": "破坏邪恶祭坛不再生成矿石和邪恶物块。\n首次击杀血肉墙会使钯金矿和钴矿在世界中生成。\n第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。\n第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。\n首次击败第三个机械boss会使神圣矿在世界中生成。",
 				"ForceTownSafety": "通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。\n这可能会产生意想不到的副作用，例如使动物难以找到。",
 				"MeterPosLock": "开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。",
+				"FasterBaseSpeed": "增加玩家基础移动速度",
+        "HigherJumpHeight": "增加玩家基础跳跃高度",
+        "FasterJumpSpeed": "增加玩家基础跳跃速度",
+        "FasterFallHotkey": "按住快捷键增加玩家下落速度",
+        "FasterTilePlacement": "增加玩家基础放置速度",
 				"NerfExpertDebuffs": "禁用专家和大师模式减益持续时间的翻倍。\n灾厄围绕启用的此设置进行平衡。",
 				"ParticleLimit": "设定同时存在的最大粒子数。\n粒子和溅血效果是分开的。\n调低以提升性能。",
 				"Proficiency": "启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。\n禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。",
@@ -95,6 +107,7 @@ Mods:
 				"TownNPCSpawnRateMultiplier": "此数值越高，城镇 NPC 生成的速率越快。",
 				"TownNPCsSpawnAtNight": "玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。",
 				"VanillaCooldownDisplay": "为混沌状态和药水疾病添加特定冷却图标。\n这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。",
+			    "WikiStatusMessage": "启用/禁用进入世界的Wiki状态消息提示",
 			}
 		}
 
@@ -102,6 +115,8 @@ Mods:
 	{
 		RogueDamageClass: "盗贼伤害",
 		AverageDamageClass: "无职业伤害",
+		TrueMeleeDamageClass: "真近战伤害",
+    TrueMeleeNoSpeedDamageClass: "真近战伤害",
 	}
 
 	UI:
@@ -125,6 +140,40 @@ Mods:
 		SunkenSeaBiome: "沉沦之海",
 		UndergroundAstralBiome: "星辉瘟疫地下",
 	}
+
+ItemName:
+{
+    AstralPylon: "星辉瘟疫晶塔",
+    CragsPylon: "硫火之崖晶塔",
+    SulphurPylon: "硫磺海晶塔",
+    SunkenPylon: "沉沦之海晶塔",
+}
+
+ItemTooltip:
+{
+    AstralPylon:
+        '''
+        附近有2个居民时可以传送到另一个晶塔
+        只能在匹配的生物群落中放置且每个类型只能放置一个
+        '''
+    CragsPylon:
+        '''
+        附近有2个居民时可以传送到另一个晶塔
+        硫火之崖的环境允许这里没有居民就可以传送到这里
+        只能在匹配的生物群落中放置且每个类型只能放置一个
+        '''
+    SulphurPylon:
+        '''
+        附近有2个居民时可以传送到另一个晶塔
+        只能在匹配的生物群落中放置且每个类型只能放置一个
+        '''
+    SunkenPylon:
+        '''
+        附近有2个居民时可以传送到另一个晶塔
+        只能在匹配的生物群落中放置且每个类型只能放置一个
+        '''
+
+}
 
 	TownNPCMood: 
 	{
@@ -157,13 +206,13 @@ Mods:
 			DislikeBiome: "这种干燥的空气和高温对我的头发和饮料都不好。",
 			HateBiome: "这地方糟透了！发霉的空气破坏了我所有商品的香味！",
 			LoveNPC_Stylist: "{NPCName} 护理我的头发很有一手…除此之外，呵呵。",
-			LoveNPC_BestiaryGirl: "{NCPName} 是多么毛茸茸，她还说我的独角形状'非常棒'",
-			LikeNPC_Truffle: "{NCPName} 让我好饿……我想知道他会给我多棒的幻觉……",
-			LikeNPC_PartyGirl: "{NCPName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！",
-			DislikeNPC_DD2Bartender: "{NCPName} 真的秃，也许他不再尝试约我，就能长出一些头发。",
-			DislikeNPC_TaxCollector: "{NCPName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。",
-			HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗?",
-			HateNPC_Angler: "{NCPName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！",
+			LoveNPC_BestiaryGirl: "{NPCName} 是多么毛茸茸，她还说我的独角形状'非常棒'",
+			LikeNPC_Truffle: "{NPCName} 让我好饿……我想知道他会给我多棒的幻觉……",
+			LikeNPC_PartyGirl: "{NPCName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！",
+			DislikeNPC_DD2Bartender: "{NPCName} 真的秃，也许他不再尝试约我，就能长出一些头发。",
+			DislikeNPC_TaxCollector: "{NPCName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。",
+			HateNPC_GoblinTinkerer: "{NPCName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗?",
+			HateNPC_Angler: "{NPCName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！",
 			LikeNPC_Princess: "你以为我会不喜欢 {NPCName} 只因我们太不同了? 恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。",
 		},
 
@@ -261,7 +310,11 @@ Mods:
 		EutrophicSand: "富营养沙"
 		ViperVines: "蝰蛇藤蔓"
 
-		// 以下为暂时加入，后期可能会替换或删除
+		AstralPylonTile: "{$Mods.CalamityMod.ItemName.AstralPylon}"
+        CragsPylonTile: "{$Mods.CalamityMod.ItemName.CragsPylon}"
+        SulphurPylonTile: "{$Mods.CalamityMod.ItemName.SulphurPylon}"
+        SunkenPylonTile: "{$Mods.CalamityMod.ItemName.SunkenPylon}"
+
 		AncientAltar: "远古祭坛"
 		AshenAltar: "灰烬祭坛"
 		BotanicPlanter: "植物培养器"
@@ -274,6 +327,8 @@ Mods:
 		SilvaBasin:	"闪耀操纵机"
 		StaticRefiner: "静电精炼机"
 		VoidCondenser: "虚空压缩机"
+
+		WulfrumLure: "钨钢干扰器"
 	}
 
 	ProjectileName:
@@ -2304,5 +2359,14 @@ Mods:
 		ArmageddonDodgeEnable: "你的所有闪避都已被重新启用。"
 		ArmageddonDodgeDisable: "你的所有闪避都已被禁用。"
 		DargonBossText2: "吾之龙未将汝视为旗鼓相当之对手。取黑蚀之日之力，识吾龙真正之强大。"
+
+		BloodOrangeText: "你已经使用过血橙。再吃对你没有好处。"
+		MiracleFruitText: "你已经使用过奇迹之果。再吃会让你感到恶心。"
+		ElderberryText: "你已经使用过旧神浆果。再吃一个可能会降智。"
+		DragonfruitText: "你已经使用过龙果。再吃你的胃可受不了。"
+		CometShardText: "你已经使用过彗星碎片。再使用会让你反胃。"
+		EtherealCoreText: "你已经使用过飘渺之核。最好不要再使用了。"
+		PhantomHeartText: "你已经使用过幻影之心。不再使用应该是明智之选。"
+
 	}
 }

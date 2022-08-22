@@ -130,10 +130,6 @@ namespace CalamityCN
                 {
                     return "灾厄：星辉秘术UI".zh();
                 }
-                if (keybindName == "CalamityMod: Momentum Capacitor Effect")
-                {
-                    return "灾厄：动量电容器".zh();
-                }
                 if (keybindName == "CalamityMod: Sand Cloak Effect")
                 {
                     return "灾厄：沙尘披风".zh();

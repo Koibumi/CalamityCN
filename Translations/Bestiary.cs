@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using CalamityMod.NPCs.Abyss;
 using CalamityMod.NPCs.AcidRain;
 using CalamityMod.NPCs.AdultEidolonWyrm;
@@ -561,12 +561,12 @@ namespace CalamityCN
 			if (type == ModContent.NPCType<HeatSpirit>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("	一个人类的灵魂，其思想被自己居住地的炽热橙色火焰所迷惑，会寻找并试图消除任何它能检测到的进入地狱世界的水分来源。".zh()));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("一个人类的灵魂，其思想被自己居住地的炽热橙色火焰所迷惑，会寻找并试图消除任何它能检测到的进入地狱世界的水分来源。".zh()));
 			}
-			if (type == ModContent.NPCType<Hive>())
+			if (type == ModContent.NPCType<HiveEnemy>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("	这些存在似乎是从星辉之地的洞穴本身中喷发出来的。无数宿主的肉体被扭曲成了这样一个螺旋形的，脉动着的蜂巢肉体。".zh()));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("这些存在似乎是从星辉之地的洞穴本身中喷发出来的。无数宿主的肉体被扭曲成了这样一个螺旋形的，脉动着的蜂巢肉体。".zh()));
 			}
 			if (type == ModContent.NPCType<HiveBlob>())
 			{

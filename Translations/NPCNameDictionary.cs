@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 namespace CalamityCN
 {
@@ -65,7 +65,7 @@ namespace CalamityCN
                 { "EnchantedNightcrawler", "附魔夜行者".zh() },
                 { "FusionFeeder", "融食鲨".zh() },
                 { "Hadarian", "哈德安翼龙".zh() },
-                { "Hive", "星幻巢".zh() },
+                { "HiveEnemy", "星幻巢".zh() },
                 { "Hiveling", "星幻蜂".zh() },
                 { "Mantis", "星幻螳螂".zh() },
                 { "Nova", "新星".zh() },
@@ -90,7 +90,7 @@ namespace CalamityCN
                 { "DarkEnergy", "暗能量".zh() },
                 { "CrabShroom", "真菌孢子".zh() },
                 { "Crabulon", "菌生蟹".zh() },
-                { "CalamityEye", "小灾厄眼".zh() },
+                { "CalamityEye", "灾厄眼".zh() },
                 { "CharredSlime", "焦炭史莱姆".zh() },
                 { "CultistAssassin", "邪教刺客".zh() },
                 { "DespairStone", "绝望之石".zh() },
@@ -108,7 +108,6 @@ namespace CalamityCN
                 { "CosmicGuardianHead", "星宇护卫".zh() },
                 { "DevourerofGodsTail", "神明吞噬者".zh() },
                 { "CosmicGuardianTail", "星宇护卫".zh() },
-                { "GreatSandShark", "旱海狂鲨".zh() },
                 { "DankCreeper", "沼泽之眼".zh() },
                 { "DarkHeart", "暗之心".zh() },
                 { "HiveBlob", "腐化球".zh() },
@@ -294,8 +293,8 @@ namespace CalamityCN
                 { "BrimstoneHeart", "硫磺火之心".zh() },
                 { "WITCH", "硫磺火女巫".zh() },
                 { "Rotdog", "血犬".zh() },
-                { "PlaguebringerMiniboss", "瘟疫使者"},
-                { "AuroraSpirit", "极光之灵"},
+                { "PlaguebringerMiniboss", "瘟疫使者".zh() },
+                { "AuroraSpirit", "极光之灵".zh() },
             };
         }
         public static void Unload()
