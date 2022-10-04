@@ -186,7 +186,7 @@ namespace CalamityCN
                 {"HermitCrab", "寄居蟹会保护你".zh()},
                 {"Herring", "鲱鱼群会保护你".zh()},
                 {"HotE", "所有元素之灵给予你祝福，为你而战".zh()},
-                {"Mechworm", "虚空吞噬者在你身旁飞翔".zh()},
+                {"Mechworm", "星宇护卫在你身旁飞翔".zh()},
                 {"Phantom", "噬魂幽花的灵魂碎片主动帮助你".zh()},
                 {"PlantationBuff", "迷你世纪之花会保护你\n是你吗，世纪小花？".zh()},
                 {"ProfanedBabs", "治疗守卫会治疗你的伤势！".zh()},
@@ -293,7 +293,9 @@ namespace CalamityCN
                 {"RancorBurn", "燃烧".zh()},
                 {"IceClasperBuff", "食魂冰虫会保护你".zh()},
                 {"EntropysVigilBuff", "灾厄之影和她的兄弟们会保护你".zh()},
-
+                //new
+                {"CoralSymbiosis", "珊瑚泥充能加快，多造成2点伤害".zh() },
+                {"MarniteLiftBuff", "你甚至...?".zh() },
             };
         }
         public static void Unload()

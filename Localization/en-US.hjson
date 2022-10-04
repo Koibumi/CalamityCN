@@ -20,48 +20,48 @@ Config:
 
     EntryTitle:
     {
-        "AdrenalineMeterPosX": "Adrenaline Meter X Position",
-        "AdrenalineMeterPosY": "Adrenaline Meter Y Position",
-        "Afterimages": "Afterimages",
-        "BossHealthBarExtraInfo": "Boss Health Bar Extra Info",
-        "BossHealthBoost": "Boss Health Boost Percentage",
-        "BossRushDashCurse": "Dashes",
-        "BossRushIFrameCurse": "Immunity Frames",
-        "BossRushRegenCurse": "Regeneration",
-        "BossZen": "Bosses Drastically Reduce Spawn Rates",
-        "ChargeMeter": "Display Charge Meter",
-        "ChargeMeterPosX": "Charge Meter X Position",
-        "ChargeMeterPosY": "Charge Meter Y Position",
-        "ChilledWaterRework": "Chilled Water Rework",
-        "CooldownDisplay": "Cooldown Rack Display Mode",
-        "DebuffDisplay": "Display Enemy Debuffs",
-        "EarlyHardmodeProgressionRework": "Early Hardmode Progression Rework",
-        "ForceTownSafety": "Force Town Safety",
-        "MeterPosLock": "Lock Meter Positions",
-		"FasterBaseSpeed": "Higher Base Speed",
-		"HigherJumpHeight": "Higher Jump Height",
-        "FasterJumpSpeed": "Higher Jump Speed",
-        "FasterFallHotkey": "Faster Fall Acceleration Hotkey",
-        "FasterTilePlacement": "Faster Base Tile Placement Speed",
-        "NerfExpertDebuffs": "Remove Increased Debuff Duration",
-        "ParticleLimit": "Max Particle Limit",
-        "Proficiency": "Proficiency",
-        "RageMeterPosX": "Rage Meter X Position",
-        "RageMeterPosY": "Rage Meter Y Position",
-        "RipperMeterShake": "Rage and Adrenaline Meter Shake",
-        "Screenshake": "Screenshake",
-        "ShopNewAlert": "New Shop Inventory Alerts",
-        "SpeedrunTimer": "Display Speedrun Timer",
-        "SpeedrunTimerPosX": "Speedrun Timer X Position",
-        "SpeedrunTimerPosY": "Speedrun Timer Y Position",
-        "StealthInvisibility": "Stealth Invisibility",
-        "StealthMeter": "Display Stealth Meter",
-        "StealthMeterPosX": "Stealth Meter X Position",
-        "StealthMeterPosY": "Stealth Meter Y Position",
-        "TownNPCSpawnRateMultiplier": "Town NPC Spawn Rate Multiplier",
-        "TownNPCsSpawnAtNight": "Town NPCs Spawn at Night",
-        "VanillaCooldownDisplay": "Display Vanilla Cooldowns",
-		"WikiStatusMessage": "Wiki Status Message",
+						AdrenalineMeterPosX : "[i:2799] Adrenaline Meter X Position"
+						AdrenalineMeterPosY : "[i:2799] Adrenaline Meter Y Position"
+						Afterimages : "[i:1742] Afterimages"
+						BossHealthBarExtraInfo : "[i:5597] Boss Health Bar Extra Info"
+						BossHealthBoost : "[i:29] Boss Health Boost Percentage"
+						BossRushDashCurse : "[i:216] Dashes"
+						BossRushIFrameCurse : "[i:216] Immunity Frames"
+						BossRushRegenCurse : "[i:216] Regeneration"
+						BossZen : "[i:6618] Bosses Drastically Reduce Spawn Rates"
+						ChargeMeter : "[i:5588] Display Charge Meter"
+						ChargeMeterPosX : "[i:2799] Charge Meter X Position"
+						ChargeMeterPosY : "[i:2799] Charge Meter Y Position"
+						ChilledWaterRework : "[i:1861] Chilled Water Rework"
+						CooldownDisplay : "[i:5274] Cooldown Rack Display Mode"
+						DebuffDisplay : "[i:1356] Display Enemy Debuffs"
+						EarlyHardmodeProgressionRework : "[i:367] Early Hardmode Progression Rework"
+						FasterBaseSpeed : "[i:54] Higher Base Speed"
+						FasterFallHotkey : "[i:5583] Faster Fall Acceleration Hotkey"
+						FasterJumpSpeed : "[i:2423] Higher Jump Speed"
+						FasterTilePlacement : "[i:3061] Faster Base Tile Placement Speed"
+						ForceTownSafety : "[i:63] Force Town Safety"
+						HigherJumpHeight : "[i:159] Higher Jump Height"
+						MeterPosLock : "[i:3647] Lock Meter Positions"
+						NerfExpertDebuffs : "[i:1612] Remove Increased Debuff Duration"
+						ParticleLimit : "[i:3459] Max Particle Limit"
+						Proficiency : "[i:5265] Proficiency"
+						RageMeterPosX : "[i:2799] Rage Meter X Position"
+						RageMeterPosY : "[i:2799] Rage Meter Y Position"
+						RipperMeterShake : "[i:5835] Rage and Adrenaline Meter Shake"
+						Screenshake : "[i:6740] Screenshake"
+						ShopNewAlert : "[i:306] New Shop Inventory Alerts"
+						SpeedrunTimer : "[i:3099] Display Speedrun Timer"
+						SpeedrunTimerPosX : "[i:2799] Speedrun Timer X Position"
+						SpeedrunTimerPosY : "[i:2799] Speedrun Timer Y Position"
+						StealthInvisibility : "[i:5622] Stealth Invisibility"
+						StealthMeter : "[i:5219] Display Stealth Meter"
+						StealthMeterPosX : "[i:2799] Stealth Meter X Position"
+						StealthMeterPosY : "[i:2799] Stealth Meter Y Position"
+						TownNPCSpawnRateMultiplier : "[i:267] Town NPC Spawn Rate Multiplier"
+						TownNPCsSpawnAtNight : "[i:1307] Town NPCs Spawn at Night"
+						VanillaCooldownDisplay : "[i:188] Display Vanilla Cooldowns"
+						WikiStatusMessage : "[i:149] Wiki Status Message"
     }
 
     EntryTooltip:

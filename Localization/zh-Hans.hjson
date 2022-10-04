@@ -20,48 +20,48 @@ Mods:
 
 			EntryTitle:
 			{
-				"AdrenalineMeterPosX": "肾上腺素条X轴坐标",
-				"AdrenalineMeterPosY": "肾上腺素条Y轴坐标",
-				"Afterimages": "残影",
-				"BossHealthBarExtraInfo": "Boss血条额外信息",
-				"BossHealthBoost": "Boss生命值百分比强化",
-				"BossRushDashCurse": "冲刺诅咒",
-				"BossRushIFrameCurse": "无敌帧诅咒",
-				"BossRushRegenCurse": "生命诅咒",
-				"BossZen": "Boss 禅定",
-				"ChargeMeter": "显示充能条",
-				"ChargeMeterPosX": "充能条X轴坐标",
-				"ChargeMeterPosY": "充能条Y轴坐标",
-				"ChilledWaterRework": "重置版冰水",
-				"CooldownDisplay": "冷却显示",
-				"DebuffDisplay": "显示敌人Debuff",
-				"EarlyHardmodeProgressionRework": "困难模式早期流程重做",
-				"ForceTownSafety": "强制城镇安全",
-				"MeterPosLock": "属性条位置锁定",
-				"FasterBaseSpeed": "更高基础速度",
-				"HigherJumpHeight": "更高跳跃高度",
-        "FasterJumpSpeed": "更高跳跃速度",
-        "FasterFallHotkey": "快速下落快捷键",
-        "FasterTilePlacement": "更快的基础放置速度",
-				"NerfExpertDebuffs": "移除增加的减益持续时间",
-				"ParticleLimit": "最大粒子数",
-				"Proficiency": "熟练度",
-				"RageMeterPosX": "怒气条X轴坐标",
-				"RageMeterPosY": "怒气条Y轴坐标",
-				"RipperMeterShake": "怒气条与肾上腺素条震动",
-				"Screenshake": "屏幕震动",
-				"ShopNewAlert": "商店新物品提示",
-				"SpeedrunTimer": "速通计时器",
-				"SpeedrunTimerPosX": "速通计时器X轴坐标",
-				"SpeedrunTimerPosY": "速通计时器Y轴坐标",
-				"StealthInvisibility": "潜行隐身",
-				"StealthMeter": "潜行条",
-				"StealthMeterPosX": "潜行条X轴坐标",
-				"StealthMeterPosY": "潜行条Y轴坐标",
-				"TownNPCSpawnRateMultiplier": "城镇NPC生成率乘算器",
-				"TownNPCsSpawnAtNight": "城镇NPC在夜间生成",
-				"VanillaCooldownDisplay": "原版冷却显示",
-				"WikiStatusMessage": "Wiki状态信息",
+				"AdrenalineMeterPosX": "[i:2799]肾上腺素条X轴坐标",
+				"AdrenalineMeterPosY": "[i:2799]肾上腺素条Y轴坐标",
+				"Afterimages": "[i:1742]残影",
+				"BossHealthBarExtraInfo": "[i:5597]Boss血条额外信息",
+				"BossHealthBoost": "[i:29]Boss生命值百分比强化",
+				"BossRushDashCurse": "[i:216]冲刺诅咒",
+				"BossRushIFrameCurse": "[i:216]无敌帧诅咒",
+				"BossRushRegenCurse": "[i:216]生命诅咒",
+				"BossZen": "[i:6618]Boss 禅定",
+				"ChargeMeter": "[i:5588]显示充能条",
+				"ChargeMeterPosX": "[i:2799]充能条X轴坐标",
+				"ChargeMeterPosY": "[i:2799]充能条Y轴坐标",
+				"ChilledWaterRework": "[i:1861]重置版冰水",
+				"CooldownDisplay": "[i:5274]冷却显示",
+				"DebuffDisplay": "[i:1356]显示敌人Debuff",
+				"EarlyHardmodeProgressionRework": "[i:367]困难模式早期流程重做",
+				"ForceTownSafety": "[i:63]强制城镇安全",
+				"MeterPosLock": "[i:5583]属性条位置锁定",
+				"FasterBaseSpeed": "[i:2423]更高基础速度",
+				"HigherJumpHeight": "[i:159]更高跳跃高度",
+        "FasterJumpSpeed": "[i:2423]更高跳跃速度",
+        "FasterFallHotkey": "[i:5583]快速下落快捷键",
+        "FasterTilePlacement": "[i:3061]更快的基础放置速度",
+				"NerfExpertDebuffs": "[i:1612]移除增加的减益持续时间",
+				"ParticleLimit": "[i:3459]最大粒子数",
+				"Proficiency": "[i:5265]熟练度",
+				"RageMeterPosX": "[i:2799]怒气条X轴坐标",
+				"RageMeterPosY": "[i:2799]怒气条Y轴坐标",
+				"RipperMeterShake": "[i:5835]怒气条与肾上腺素条震动",
+				"Screenshake": "[i:6740]屏幕震动",
+				"ShopNewAlert": "[i:306]商店新物品提示",
+				"SpeedrunTimer": "[i:3099]速通计时器",
+				"SpeedrunTimerPosX": "[i:2799]速通计时器X轴坐标",
+				"SpeedrunTimerPosY": "[i:2799]速通计时器Y轴坐标",
+				"StealthInvisibility": "[i:5622]潜行隐身",
+				"StealthMeter": "[i:5219]潜行条",
+				"StealthMeterPosX": "[i:2799]潜行条X轴坐标",
+				"StealthMeterPosY": "[i:2799]潜行条Y轴坐标",
+				"TownNPCSpawnRateMultiplier": "[i:267]城镇NPC生成率乘算器",
+				"TownNPCsSpawnAtNight": "[i:1307]城镇NPC在夜间生成",
+				"VanillaCooldownDisplay": "[i:188]原版冷却显示",
+				"WikiStatusMessage": "[i:149]Wiki状态信息",
 			}
 
 			EntryTooltip:
@@ -143,10 +143,10 @@ Mods:
 
 ItemName:
 {
-    AstralPylon: "星辉瘟疫晶塔",
-    CragsPylon: "硫火之崖晶塔",
+    AstralPylon: "星辉地晶塔",
+    CragsPylon: "硫火崖晶塔",
     SulphurPylon: "硫磺海晶塔",
-    SunkenPylon: "沉沦之海晶塔",
+    SunkenPylon: "沉沦海晶塔",
 }
 
 ItemTooltip:
@@ -1548,7 +1548,7 @@ ItemTooltip:
 		OldDukeGore: "富硫腐尸"
 		OldDukeSummonDrop: "酸"
 		OldDukeVortex: "硫毒旋涡"
-		OverlyDramaticDukeSummoner: "硫海遗爵召唤杖"
+		OverlyDramaticDukeSummoner: "硫海遗爵"
 		RedLightning: "猩红闪电"
 		GatlingLaserProj: "多管激光枪"
 		GatlingLaserShot: "多管机关枪"
@@ -2199,7 +2199,7 @@ ItemTooltip:
 		RangedLevelUp: "远程熟练度升级了！"
 		RangedLevelUpFinal: "远程熟练度满级了！"
 		MagicLevelUp: "魔法熟练度升级了！"
-		MagicLevelUpFinal: "魔法熟练度满级了"
+		MagicLevelUpFinal: "魔法熟练度满级了!"
 		SummonLevelUp: "召唤熟练度升级了！"
 		SummonLevelUpFinal: "召唤熟练度满级了！"
 		RogueLevelUp: "盗贼熟练度升级了！"
@@ -2241,16 +2241,12 @@ ItemTooltip:
 		SandSharkText3: "沙漠正在剧烈动荡！"
 		CryogenBossText: "极地之灵蹦了出来！" 
 		EdgyBossText: "别得意！小子！"
-		EdgyBossText3: "致命失误！"
-		EdgyBossText4: "真希望你能恢复过来！"
-		EdgyBossText5: "美味……"
-		EdgyBossText6: "哦，疼么？"
-		EdgyBossText7: "这无关个人私怨，小子。"
-		EdgyBossText8: "你真的连躲闪都不会吗？"
-		EdgyBossText9: "这么长的身体，唯一命中的居然是……"
-		EdgyBossText10: "还没完呢！小子！"
-		EdgyBossText11: "神！不惧死亡！"
-		EdgyBossText12: "你不是神……但你的灵魂仍是我的盛宴！"
+		EdgyBossText2: "致命失误！"
+		EdgyBossText3: "美味……"
+		EdgyBossText4: "哦，疼么？"
+		EdgyBossText5: "还没完呢！小子！"
+		EdgyBossText6: "神！不惧死亡！"
+		EdgyBossText7: "你不是神……但你的灵魂仍是我的盛宴！"
 		DoGBossText: "寒霜之月散发着明洁的光辉。"
 		DoGBossText2: "收割之月散布着诡异的光芒。"
 		DargonBossText: "黑蚀之日蓄势待发。"
