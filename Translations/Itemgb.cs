@@ -2274,7 +2274,7 @@ public class Itemgb : GlobalItem
                 }
                 if (item.type == 1263)
                 {
-                    line.Text = line.Text.Replace("\nCannot be used while a boss is alive", "在有Boss存活是无法使用".zh());
+                    line.Text = line.Text.Replace("\nCannot be used while a boss is alive", "在有Boss存活时无法使用".zh());
                 }
                 #endregion
             }
