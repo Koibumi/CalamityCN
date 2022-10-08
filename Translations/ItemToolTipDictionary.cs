@@ -699,7 +699,7 @@ namespace CalamityCN
                 { "StardustStaff", "远古异教徒的力量在此法杖中回响\n发射一簇远古之光，有几率发射旋转冰球".zh() },
                 { "Starfall", "向光标方向发射幻星".zh() },
                 { "StormSpray", "发射一个会额外溅射的水柱".zh() },
-                { "SubsumingVortex", "发射缓慢移动的巨大漩涡\n当附近有敌人时，漩涡释放出星流触手并朝向敌人移动\n一段时间过后漩涡减速，充能并最终发生爆炸".zh() },
+                
                 { "T1000", "发射可以穿过物块的交叉射线弹幕".zh() },
                 { "TearsofHeaven", "发射俩缓慢移动的神圣光团".zh() },
                 { "TerraRay", "发射能量射线，命中后分解为自然能量\n敌人距离越远，自然能量越多".zh() },
@@ -938,7 +938,7 @@ namespace CalamityCN
                 { "GunkShot", "发射数颗子弹".zh() },
                 { "HalibutCannon", "是的，它现在依然强的过分".zh() },
                 { "HalleysInferno", "哈雷彗星比想象中来得早\n发射一颗燃烧彗星\n50%几率不消耗凝胶\n右键以扩大视野".zh() },
-                { "HeavenlyGale", "将木箭转化为随机的五支星流箭弹幕\n绿色的箭释放旋风\n蓝色的箭将对敌人进行二次攻击\n橙色的箭引发爆破\n蓝绿色的箭打破敌人的无敌\n使用任意其它箭都会多造成25%的伤害\n66%几率不消耗弹药".zh() },
+                
                 { "Hellborn", "一次发射三发子弹\n将火枪子弹转化为爆炸子弹\n敌人接触这把枪时造成爆炸\n此后，该枪大幅提高伤害，射速和击退\n增益效果在10秒内随时间缓慢衰减".zh() },
                 { "Helstorm", "一次发射两颗子弹\n对接触这把枪的敌人造成伤害".zh() },
                 { "Infinity", "发射一团会分裂弹射的能量子弹\n右键发射一团普通子弹\n只要你把它握在手中，无限的解离就不会停止".zh() },
@@ -1151,7 +1151,7 @@ namespace CalamityCN
                 { "CalamarisLament", "召唤乌贼为你而战".zh() },
                 { "CorroslimeStaff", "召唤腐化史莱姆为你而战".zh() },
                 { "CosmicImmaterializer", "召唤宇宙之灵为你而战\n当它探测到敌人时，它会发射大量的跟踪能源箭\n需要10个仆从槽才能召唤，并且只能存在一个\n如果没有召唤师套装的加成，这个仆从造成的伤害将降低".zh() },
-                { "Cosmilamp", "召唤宇宙灯为你而战\n需要2召唤栏".zh() },
+                
                 { "CrimslimeStaff", "召唤血腥史莱姆为你而战".zh() },
                 { "CryogenicStaff", "召唤冰结体保护你\n弹幕射速和射程会随着攻击时间的增加而增加".zh() },
                 { "DankStaff", "召唤黑暗爬行者为你而战".zh() },
@@ -1255,7 +1255,7 @@ namespace CalamityCN
                 { "FuelCellBundle", "召唤一个小而特别的瘟疫携带者变种".zh() },
                 { "HauntedScroll", "召唤一个缠怨鬼碟为你而战".zh() },
                 { "IgneousExaltation", "召唤一把刀锋\n右键使刀锋冲向鼠标所在位置".zh() },
-                { "InfectedRemote", "其上有暗淡的绿色字条\n只有第一排的文字依稀可见：“我保证她不会传染给你！”\n召唤瘟疫的先兆……？\n使用时消耗所有召唤栏\n必须在快捷栏使用\n随消耗召唤栏增加而增强".zh() },
+                
                 { "MidnightSunBeacon", "召唤一个UFO，让你的敌人人间蒸发".zh() },
                 { "OrthoceraShell", "在光标位置召唤一个悬空的直角石哨卫".zh() },
                 { "SarosPossession", "取得对光芒本身的绝对控制\n召唤一个璀璨光环\n使用时消耗所有召唤栏\n必须在快捷栏使用\n随消耗召唤栏增加而增强".zh() },
@@ -1271,7 +1271,7 @@ namespace CalamityCN
                 { "SulphurskinPotion", "减弱硫磺海水的影响".zh() },
                 { "CorrodedCaustibow", "将木箭转换为缓慢但强力的毒箭，毒箭会留下辐射光径".zh() },
                 { "GammaHeart", "召唤连在你身体上的辐射之头\n如果已经存在，再次使用将获得更多的头\n每个头占据1召唤栏".zh() },
-                { "RustyBeaconPrototype", "召唤一架被遗弃已久的锈蚀无人机来支援你\n点击敌人可进行标记，使它们激怒\n无人机悬浮在目标上空造成辐射减益".zh() },
+                
                 { "StarStruckWater", "蔓延星辉瘟疫".zh() },
                 { "RelicOfConvergence", "创造一块充满能量的亵渎水晶\n使用水晶蓄力时会减慢玩家的速度\n当蓄力完成时，它将治愈玩家70点生命值".zh() },
                 { "RelicOfResilience", "在光标位置召唤一个堡垒\n堡垒会受到敌人和所有弹幕的伤害（包括友方的）\n死亡时，堡垒会炸成碎片\n如果敌人在碎片区，那么敌人的下次攻击造成的伤害会削减许多\n一段时间后碎片会自动聚合并重新生成堡垒\n这种聚合只能发生3次\n两次召唤堡垒之间会存在较短的冷却时间\n如果堡垒或碎片已经存在，那么再次使用此物品时会重新召唤".zh() },
@@ -1442,7 +1442,7 @@ namespace CalamityCN
                 { "UniverseSplitter", "在光标位置召唤一个能量力场\n力场定位成功后，几条小激光会从天而降\n几秒后，湮灭死光会在力场的位置出现\n该效果有冷却时间\n在冷却时间内使用该武器会导致它短路，对你造成伤害\n一个来自上个时代的古老人造物体，它等待着你的命令……\n这真是个糟糕的想法，但无论如何它不是你的……对吗？".zh() },
                 { "Vigilance", "召唤一个灵魂搜寻者为你而战".zh() },
                 { "ViralSprout", "召唤一个鼠尾草之灵为你而战\n鼠尾草之灵会造成鼠尾草中毒减益，召唤的鼠尾草之灵越多，减益伤害越高".zh() },
-                { "ViridVanguard", "召唤两把葱茏之锋在你周围旋转\n每一对葱茏之锋消耗3个召唤栏\n右键使刀锋冲向光标所在位置".zh() },
+                
                 { "VoidConcentrationStaff", "召唤出一个虚空光环，发射虚空球以攻击敌人\n存在虚空光环时，召唤伤害增加5%\n消耗三个仆从栏位\n同时只能存在一个光环\n当光环存在时，右键点击可发射出逐渐变大的黑洞".zh() },
                 { "WitherBlossomsStaff", "在你的头顶召唤四朵凋零枯花\n共消耗两个召唤栏位".zh() },
                 { "OccultSkullCrown", "只有打不过史莱姆王的人才戴这破烂……\n你的怒气值将持续升高，即使在战斗外也不会下降\n将一些减益效果转化为增益效果\n受影响的减益有：黑暗、灯火管制、困惑、缓慢、软弱、破损盔甲\n碎甲、冷冻、灵液和和阻塞\n额外给予20%肾上腺素的充能效率\n提高5%的移动速度和加速度\n这个物品也可以当做头盔戴脑袋上\n复仇模式专属".zh() },
@@ -1601,7 +1601,7 @@ namespace CalamityCN
                 {"StormWeaverRelic", "对它未来模样的一瞥……".zh()},
                 {"YharonRelic", "对它未来模样的一瞥……".zh()},
                 {"PlaguebringerGoliathRelic", "对它未来模样的一瞥……".zh()},
-                //new
+                //c2.1
                 {"WulfrumBow", "消耗钨钢金属废料开火\n射击的扩散可以通过瞄准更远的地方来减少，但代价是伤害减少\n[c/83B87E:\"钨钢的好处是虽然随便就碎了，但它可以很快就二次利用\"]\n[c/83B87E:\"事实上，机器人停工后即刻变成弹药是很常见的\"]".zh()},
                 {"WulfrumBlade", "快速有力地消灭敌人，前提是他们够弱\n攻击敌人有概率给予你一把钨钢螺丝，你可以右键将其扔回去\n用螺丝刀击中被甩出的螺丝会增加它的伤害和速度，使它高速向前猛冲\n[c/83B87E:\"是谁把平头螺丝刀做的这么大？？我他妈到底能用它来干啥？这东西甚至可以直接把人的眼睛挖出来！\"]\n[c/83B87E:\"......啊。\"]".zh()},
                 {"WulfrumFusionCannon", "发射快速的中射程弹丸\n[c/878787:\"自己变成召唤物后，谁还需要一根鞭子呢？\"]".zh() },
@@ -1631,6 +1631,21 @@ namespace CalamityCN
                 {"WulfrumScaffoldKit", "\"为你需要速建而不需要持续效果的东西而存在\"\n放置临时金属脚手架。建造40块物块时消耗一块钨钢金属废料\n脚手架需要从实心物块开始放置".zh() },
                 {"WulfrumTreasurePinger", "帮助你找到比钨钢更有价值的金属\n这个破东西看起来质量太差了。 [c/fc4903:它迟早会坏掉]".zh() },
           
+                //c2.2
+                {"PuffShroom", "Summons a cute mushroom warrior to fight for you".zh() },
+                {"WarloksMoonFist", "Summons a celestial fist to punch enemies for you\nTakes up 4  minion slots".zh() },
+                {"TheAnomalysNanogun", "'Welcome to the party, pal'\nLeft click to charge up 5 rapid-fire plasma beams\nRight click to launch 3 fission bombs".zh() },
+                {"AndroombaItem", "Right click the roomba with a solution to insert it\nWhile a solution is inserted, the roomba will start spreading its contents".zh() },
+                {"ThankYouPainting", "Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!\nThe confines of this painting is not enough to fit the entire team\nHold SHIFT to see a list of past and current devs and CTRL to see past and current testers".zh() },
+                {"RitualCandle", "Right click to place in a different style".zh() },
+                {"MonolithOfTheAccursed", "Let the sky burn a blazing red\nThe monolith has two different modes".zh() },
+
+                { "InfectedRemote", "Summons a humanoid-hybrid Plaguebringer, codenamed 'Virili', to aid you in battle\nVirili requires 3 minion slots to summon, and can only be summoned once\nVirili uses a variety of attacks which she cycles through on a timer\nAll attacks spread the plague, as was her original design intention\n'A single note graces the back:'\n'WARNING: Subject is extremely corrosive and contagious. Avoid direct contact.'".zh() },
+                { "Cosmilamp", "Summons a cosmic lantern above your head to fight for you\nEach lantern takes up 2 minion slots".zh() },
+                { "RustyBeaconPrototype", "Summons a long-abandoned drone to support you\nThe drone hovers in place and releases toxic waves that inflict sulphuric poisoning".zh() },
+                { "ViridVanguard", "Summons a circular formation of blades that slice nearby enemies to pieces".zh() },
+                { "SubsumingVortex", "Left clicking releases a barrage of vortices that race towards enemies\nRight clicking casts a gigantic vortex in front of you with a bias towards the mouse\nWhen enemies are near the vortex, it sends multiple fast-moving smaller vortices towards them\nAfter enough time has passed the vortex stops shooting, and releasing the right mouse button fires the vortex towards the mouse".zh() },
+                { "HeavenlyGale", "Fires a rapid stream of supercharged exo-crystals\nHolding the bow and waiting for some time before firing causes the crystals to become more powerful\nIf the crystals are sufficiently powerful enough they will summon torrents of exo-lightning above whatever target they hit".zh() },
             };
         }
         public static void Unload()

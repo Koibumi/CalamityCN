@@ -2367,15 +2367,14 @@ public class Itemgb : GlobalItem
                 }
                 #endregion
                 
-                //特殊
+                //偷懒
                 line.Text = line.Text.Replace("Otherworldly Stone Wall", "异域石墙".zh());
                 line.Text = line.Text.Replace("Eutrophic Shelf", "富养制造架".zh());
                 line.Text = line.Text.Replace("Monolith Amalgam", "星幻柱综合体".zh());
                 line.Text = line.Text.Replace("Profaned Crucible", "亵渎坩埚".zh());
                 line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机".zh());
-                //偷懒
+                
                 line.Text = line.Text.Replace("You have already consumed this item", "你已经使用过这个".zh());
-                line.Text = line.Text.Replace("Hold DOWN and JUMP to hover", "按住下和跳可以悬浮".zh());
                 line.Text = line.Text.Replace("Has already been decrypted.", "已经破解该原型图".zh());
                 line.Text = line.Text.Replace("Click to view its contents.", "点击查看内容".zh());
                 line.Text = line.Text.Replace("Restores", "恢复".zh());

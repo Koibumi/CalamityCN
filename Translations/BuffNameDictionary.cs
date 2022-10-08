@@ -83,9 +83,9 @@ namespace CalamityCN
                 {"CirrusYellowCandleBuff", "恶毒".zh() },
                 {"PopoBuff", "雪宝".zh() },
                 {"PopoNoselessBuff", "没鼻子的雪宝".zh() },
-                {"AbyssalWeapon", "武器灌注：深渊".zh() },
+                
                 {"AnechoicCoatingBuff", "吸音涂层".zh() },
-                {"ArmorCrumbling", "护甲破裂".zh() },
+                
                 //{"ArmorShattering", "护甲粉碎".zh() },
                 {"AstralInjectionBuff", "幻星注射剂".zh() },
                 {"BaguetteBuff", "法棍".zh() },
@@ -293,9 +293,15 @@ namespace CalamityCN
                 {"RancorBurn", "仇怨焚烧".zh() },
                 {"IceClasperBuff", "食魂冰虫".zh() },
                 {"EntropysVigilBuff", "枯萎之眼".zh() },
-                //new
+                //c2.1
                 {"CoralSymbiosis", "珊瑚共生".zh() },
                 {"MarniteLiftBuff", "合成岩悬浮平台".zh() },
+                //c2.2
+                {"PuffWarriorBuff", "Puff Warrior".zh() },
+                {"MoonFistBuff", "Moon Fist".zh() },
+
+                {"AbyssalWeapon", "Weapon Imbue: Brimstone".zh() },
+                {"ArmorCrumbling", "Weapon Imbue: Crumbling".zh() },
             };
         }
         public static void Unload()

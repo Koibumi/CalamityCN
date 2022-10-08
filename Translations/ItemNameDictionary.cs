@@ -558,7 +558,7 @@ namespace CalamityCN
                 {"AstralSnow", "星幻雪块".zh()},
                 {"AstralStone", "星幻石块".zh()},
                 {"BrimstoneSlag", "硫磺火石砖".zh()},
-                {"ChaoticBrick", "混乱砖".zh()},
+                
                 {"Cinderplate", "狱烬石".zh()},
                 {"CryonicBrick", "寒元砖".zh()},
                 {"EutrophicSand", "富营养沙".zh()},
@@ -662,10 +662,10 @@ namespace CalamityCN
                 {"Baguette", "法棍".zh()},
                 {"BoundingPotion", "弹跳药水".zh()},
                 {"CadencePotion", "韵律药水".zh()},
-                {"CalamitasBrew", "灾厄之酿".zh()},
+                
                 {"CalciumPotion", "钙质药水".zh()},
                 {"CeaselessHungerPotion", "无尽吞噬药水".zh()},
-                {"CrumblingPotion", "碎甲药水".zh()},
+                
                 {"DeliciousMeat", "水晶冻肉".zh()},
                 {"DraconicElixir", "龙魂秘药".zh()},
                 {"GravityNormalizerPotion", "重力复原药水".zh()},
@@ -2108,7 +2108,7 @@ namespace CalamityCN
                 {"BlueSlabWallUnsafe", "危险蓝板墙".zh()},
                 {"BlueTiledWallUnsafe", "危险蓝瓷砖墙".zh()},
                 {"BrimstoneSlagWall", "硫火板墙".zh()},
-                {"ChaoticBrickWall", "混乱砖墙".zh()},
+                
                 {"ChaosplateWall", "混沌石墙".zh()},
                 {"CinderplateWall", "狱烬石墙".zh()},
                 {"CosmiliteBrickWall", "宇宙砖墙".zh()},
@@ -2272,7 +2272,7 @@ namespace CalamityCN
                 {"WulfrumPylonBanner", "钨钢充能塔旗".zh()},
                 {"WulfrumRoverBanner", "钨钢漫步者旗".zh()},
                 
-                //new
+                //c2,1
                 {"AcidwoodWallItem", "酸蚀木墙".zh() },
                 {"FloralWall", "繁花墙".zh() },
                 {"AresExoskeleton", "阿瑞斯外骨骼".zh() },
@@ -2304,6 +2304,48 @@ namespace CalamityCN
                 {"MaulerTrophy", "渊海狂鲨纪念章".zh() },
 
                 {"WulfrumFusionCannon", "试作型钨钢聚变炮".zh() },
+
+                //c2.2
+                {"PuffShroom", "Puff Shroom".zh() },
+                {"WarloksMoonFist", "Warloks' Moon Fist".zh() },
+                {"TheAnomalysNanogun", "The Anomaly's Nanogun".zh() },
+                {"AndroombaItem", "Androomba".zh() },
+                {"DraedonsAmbienceMusicBox", "Music Box (Draedon's Ambience)".zh() },
+                {"ThankYouPainting", "Thank You".zh() },
+                {"NanodroidPlagueRedItem", "Red Plague Nanodroid".zh() },
+                {"NanodroidPlagueGreenItem", "Green Plague Nanodroid".zh() },
+                {"NanodroidItem", "Nanodroid".zh() },
+                {"NanodroidDysfunctionalItem", "Dysfunctional Nanodroid".zh() },
+                {"EyeOfTheAccursedBanner", "Eye of the Accursed Banner".zh() },
+                {"SacrilegiousDresser", "Sacrilegious Dresser".zh() },
+                {"SacrilegiousLamp", "Sacrilegious Lamp".zh() },
+                {"SacrilegiousLantern", "Sacrilegious Lantern".zh() },
+                {"SacrilegiousOrgan", "Sacrilegious Organ".zh() },
+                {"SacrilegiousSink", "Sacrilegious Sink".zh() },
+                {"SacrilegiousTable", "Sacrilegious Table".zh() },
+                {"SacrilegiousWorkBench", "Sacrilegious Work Bench".zh() },
+                {"LargeRitualCandle", "Large Ritual Candle".zh() },
+                {"MonolithOfTheAccursed", "Monolith Of The Accursed".zh() },
+                {"OccultBrickItem", "Occult rick".zh() },
+                {"OccultLegionnaireBanner", "Occult Legionnaire Banner".zh() },
+                {"OccultPlatformItem", "Occult Platform".zh() },
+                {"RitualCandle", "Ritual Candle".zh() },
+                {"SacrilegiousBathtub", "Sacrilegious Bathtub".zh() },
+                {"SacrilegiousBed", "Sacrilegious Bed".zh() },
+                {"SacrilegiousBench", "Sacrilegious Bench".zh() },
+                {"SacrilegiousBookcase", "Sacrilegious Bookcase".zh() },
+                {"SacrilegiousCandelabra", "Sacrilegious Candelabra".zh() },
+                {"SacrilegiousCandle", "Sacrilegious Candle".zh() },
+                {"SacrilegiousChair", "Sacrilegious Chair".zh() },
+                {"SacrilegiousChandelier", "Sacrilegious Chandelier".zh() },
+                {"SacrilegiousChest", "Sacrilegious Chest".zh() },
+                {"SacrilegiousClock", "Sacrilegious Clock".zh() },
+                {"SacrilegiousDoor", "Sacrilegious Door".zh() },
+
+                {"CalamitasBrew", "Flask of Brimstone".zh()},
+                {"CrumblingPotion", "Flask of Crumbling".zh()},
+                {"ChaoticBrickWall", "Scoria Brick Wall".zh()},
+                {"ChaoticBrick", "Scoria Brick".zh()},
             };
         }
         public static void Unload()

@@ -84,9 +84,9 @@ namespace CalamityCN
                 {"CirrusYellowCandleBuff", "它那惹人厌的火光只会激起愤怒".zh()},
                 {"PopoBuff", "你是个雪人了！".zh()},
                 {"PopoNoselessBuff", "你的鼻子被别人偷走了！".zh()},
-                {"AbyssalWeapon", "近战和盗贼武器攻击会附加深渊之火效果，移动速度提高5%".zh()},
+                
                 {"AnechoicCoatingBuff", "深渊生物的探测范围缩小".zh()},
-                {"ArmorCrumbling", "近战和盗贼攻击会击碎敌人的护甲".zh()},
+                
                 //{"ArmorShattering", "近战和盗贼攻击会粉碎敌人的护甲".zh()},
                 {"AstralInjectionBuff", "大幅增加魔力值恢复速度".zh()},
                 {"BaguetteBuff", "如果只有我知道……~醉仙女".zh()},
@@ -293,9 +293,15 @@ namespace CalamityCN
                 {"RancorBurn", "燃烧".zh()},
                 {"IceClasperBuff", "食魂冰虫会保护你".zh()},
                 {"EntropysVigilBuff", "灾厄之影和她的兄弟们会保护你".zh()},
-                //new
+                //c2.1
                 {"CoralSymbiosis", "珊瑚泥充能加快，多造成2点伤害".zh() },
                 {"MarniteLiftBuff", "你甚至...?".zh() },
+                //c2.2
+                {"PuffWarriorBuff", "It confidently and excitedly protects you".zh() },
+                {"MoonFistBuff", "Catch these hands".zh() },
+
+                {"AbyssalWeapon", "Melee, Whip, and Rogue attacks inflict Brimstone Flames on enemies".zh()},
+                {"ArmorCrumbling", "Melee, Whip, and Rogue attacks inflict Armor Crunch on enemies".zh()},
             };
         }
         public static void Unload()
