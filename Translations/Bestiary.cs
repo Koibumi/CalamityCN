@@ -998,7 +998,7 @@ namespace CalamityCN
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("悬浮力载着它们，让它们能在地面上轻松行进以寻找入侵者，尽管它们的分析可能会随着时间的推移变得越发迟钝。".zh()));
 			}
-			if (type == ModContent.NPCType<WulfrumPylon>())
+			if (type == ModContent.NPCType<WulfrumAmplifier>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("一个静止不动但十分危险的敌人。在它的影响下，其他钨钢造物会变得明显更为强大，它们内部的奇怪能量也会溢出。".zh()));

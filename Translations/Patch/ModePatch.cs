@@ -18,6 +18,9 @@ namespace CalamityCN.Translations.Patch
         {
             DifficultyMode = new List<ILHook>();
 
+            //附加信息
+            //QuickTranslate(typeof(RevengeanceDifficulty), "我不造啊", "Revengeance", "复仇".zh());
+            
             //详细信息
             QuickTranslate(typeof(RevengeanceDifficulty), "get_ExpandedDescription", ":Enables the][c/85FFE9: Adrenaline] [c/", ":启用][c/85FFE9: 肾上腺素] [c/".zh());
             QuickTranslate(typeof(RevengeanceDifficulty), "get_ExpandedDescription", ":mechanic. You gain Adrenaline while fighting bosses. Getting hit drops Adrenaline back to 0] \n[c/", ":机制. 对战Boss时可积攒肾上腺素条，受击时肾上腺素条归零。] \n[c/".zh());

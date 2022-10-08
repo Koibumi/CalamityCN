@@ -1,5 +1,8 @@
 ﻿using CalamityMod;
 using CalamityMod.UI;
+using CalamityMod.UI.ModeIndicator;
+using CalamityMod.UI.DraedonSummoning;
+using CalamityMod.UI.Rippers;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
@@ -42,10 +45,14 @@ namespace CalamityCN.Translations.Patch
                 QuickTranslate(typeof(ModeIndicatorUI), "GetLockStatus", "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]", "[c/919191:只能在专家模式及以上时开启更高难度]".zh());
                 QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyText", "Currently Selected : ", "当前选择的难度：".zh());
                 QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyText", "\n[c/737373:Hold the 'Shift' key for more information]", "\n[c/737373:按住Shift键查看更多信息]".zh());
+            //属性条
+            QuickTranslate(typeof(RipperUI), "Draw", "Rage: ", "怒气:".zh());
+            QuickTranslate(typeof(RipperUI), "Draw", "Adrenaline", "肾上腺素".zh());
+            QuickTranslate(typeof(RipperUI), "Draw", "Nanomachines", "纳米机器".zh());
 
-                //QuickTranslate(typeof(), "", "", "".zh());
+            //QuickTranslate(typeof(), "", "", "".zh());
 
-                foreach (ILHook hook in ILHooks)
+            foreach (ILHook hook in ILHooks)
                 {
                     if (hook is not null)
                         hook.Apply();

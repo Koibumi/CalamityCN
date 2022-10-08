@@ -709,7 +709,7 @@ public class Itemgb : GlobalItem
                 if (item.type == ModContent.ItemType<SandCloak>())
                 {
                     string hotkeySand = CalamityMod.CalamityKeybinds.SandCloakHotkey.TooltipHotkeyString();
-                    line.Text = line.Text.Replace("Press " + hotkeySand + " to consume 25% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen", "按下 ".zh() + hotkeySand + " 消耗25%最大潜行值，召唤一个围绕你的破坏性沙漠龙卷持续15秒，并提供6点防御和+2生命恢复".zh());
+                    line.Text = line.Text.Replace("Press " + hotkeySand + " to consume 10% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen", "按下 ".zh() + hotkeySand + " 消耗10%最大潜行值，召唤一个围绕你的破坏性沙漠龙卷持续15秒，并提供6点防御和+2生命恢复".zh());
                 }
 
                 if (item.type == ModContent.ItemType<TheCommunity>())
@@ -799,7 +799,7 @@ public class Itemgb : GlobalItem
                     string hotkeyAngelic = CalamityKeybinds.AngelicAllianceHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeyAngelic + " to grace yourself in divinity for 15 seconds", "按下 ".zh() + hotkeyAngelic + " 键获得15秒神之祝福".zh());
                 }
-
+                /*
                 if (item.type == ModContent.ItemType<MagicLevelMeter>())
                 {
                     line.Text = line.Text.Replace("Tells you how high your magic proficiency is", "显示你的魔法熟练度".zh());
@@ -855,6 +855,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Minion knockback increase:", "召唤物击退提升：".zh());
                     line.Text = line.Text.Replace("Minion slot increase:", "召唤物栏提升：".zh());
                 }
+                */
                 if (item.type == ModContent.ItemType<StatMeter>())
                 {
                     line.Text = line.Text.Replace("Displays almost all player stats", "显示你绝大部分属性的具体数据".zh());
@@ -1146,9 +1147,9 @@ public class Itemgb : GlobalItem
 
                 if (item.type == ModContent.ItemType<WulfrumHat>() || item.type == ModContent.ItemType<WulfrumJacket>() || item.type == ModContent.ItemType<WulfrumOveralls>())
                 {
-                    line.Text = line.Text.Replace("Wulfrum Bastion - Double tap DOWN while dismounted to equip a heavy wulfrum armor", "钨钢阵线 - 不在坐骑上时双击下键以装备重型钨钢装甲".zh());
-                    line.Text = line.Text.Replace("While the power armor is active, you can only use the integrated fusion cannon, but get increased defensive stats", "当能量装甲激活时，你只能使用聚变炮，但防御力提升".zh());
-                    line.Text = line.Text.Replace("Calling down the armor consumes one piece of wulfrum scrap, and the armor will lose durability faster when hit", "召唤装甲消耗一块钨钢金属废料，且装甲在被击中时会更快失去耐久".zh());
+                    line.Text = line.Text.Replace("Wulfrum Bastion - Double tap DOWN while dismounted to equip wulfrum power armor", "钨钢阵线 - 不在坐骑上时双击下键以装备钨钢能量装甲".zh());
+                    line.Text = line.Text.Replace("While the armor is active, you can only use the integrated fusion cannon, but your defensive stats are increased", "当能量装甲激活时，你只能使用聚变炮，但防御力提升".zh());
+                    line.Text = line.Text.Replace("Calling down the armor consumes one piece of wulfrum metal scrap, and the armor will lose durability faster when hit", "召唤装甲消耗一块钨钢金属废料，且装甲在被击中时会更快失去耐久".zh());
                     line.Text = line.Text.Replace("Hold SHIFT to see the stats of the fusion cannon", "按住SHIFT视察聚变炮的属性".zh());
                 }
 
@@ -1207,6 +1208,16 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Summons the Signus, Envoy of the Devourer", "召唤神之使徒，西格纳斯".zh());
                     line.Text = line.Text.Replace("Summons the Ceaseless Void", "召唤无尽虚空".zh());
                     line.Text = line.Text.Replace("Enrages on the surface", "在地表上狂暴".zh());
+                }
+
+                if (item.type == ModContent.ItemType<CalamityMod.Items.Accessories.Wings.HadarianWings>())
+                {
+                    line.Text = line.Text.Replace("Hold ", "按住".zh());
+                    line.Text = line.Text.Replace(" and ", "和".zh());
+                    line.Text = line.Text.Replace(" to hover", "可以悬浮".zh());
+                    line.Text = line.Text.Replace("Press ", "按下".zh());
+                    line.Text = line.Text.Replace(" to toggle hover\nPress ", "可切换悬停\n按下".zh());
+                    line.Text = line.Text.Replace(" to deactivate hover", "可停用悬停".zh());
                 }
 
                 #region 不能直接翻译的家具(恼
@@ -1711,7 +1722,8 @@ public class Itemgb : GlobalItem
                 }
                 if (item.type == 5107)
                 {
-                    line.Text = line.Text.Replace("Increases movement acceleration and deceleration by 1.25x", "增加25%移动加速度和减速度".zh());
+                    line.Text = line.Text.Replace("Increases movement acceleration and deceleration by 1.25x", "移动加速度和减速度增加1.25倍".zh());
+                    line.Text = line.Text.Replace("Increases movement speed by 1.05x. This bonus applies to running boot accessories", "移动速度增加1.05倍。该效果适用于移动饰品".zh());
                 }
 
                 if (item.type == 3334 || item.type == 3366)
@@ -1771,7 +1783,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难".zh());
                 }
 
-                if (item.type == 1303 || item.type == 1860 || item.type == 1861 || item.type == 115 || item.type == 3062 || item.type == 3043)
+                if (item.type == 1303 || item.type == 1860 || item.type == 1861 || item.type == 115 || item.type == 3062 || item.type == 3043 || item.type ==5107)
                 {
                     line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照".zh());
                 }
@@ -2351,7 +2363,7 @@ public class Itemgb : GlobalItem
                 }
                 if (item.type == 1263)
                 {
-                    line.Text = line.Text.Replace("\nCannot be used while a boss is alive", "在有Boss存活是无法使用".zh());
+                    line.Text = line.Text.Replace("\nCannot be used while a boss is alive", "在有Boss存活时无法使用".zh());
                 }
                 #endregion
                 
