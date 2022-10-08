@@ -104,59 +104,59 @@ namespace CalamityCN
             {
                 if (keybindName == "CalamityMod: Normality Relocator")
                 {
-                    return "灾厄：常态定位器".zh();
+                    return "灾厄：常态定位器";
                 }
                 if (keybindName == "CalamityMod: Rage Mode")
                 {
-                    return "灾厄：暴怒模式".zh();
+                    return "灾厄：暴怒模式";
                 }
                 if (keybindName == "CalamityMod: Adrenaline Mode")
                 {
-                    return "灾厄：肾上腺素".zh();
+                    return "灾厄：肾上腺素";
                 }
                 if (keybindName == "CalamityMod: Elysian Guard")
                 {
-                    return "灾厄：极乐守护".zh();
+                    return "灾厄：极乐守护";
                 }
                 if (keybindName == "CalamityMod: Armor Set Bonus")
                 {
-                    return "灾厄：套装奖励".zh();
+                    return "灾厄：套装奖励";
                 }
                 if (keybindName == "CalamityMod: Astral Teleport")
                 {
-                    return "灾厄：天魔星石传送".zh();
+                    return "灾厄：天魔星石传送";
                 }
                 if (keybindName == "CalamityMod: Astral Arcanum UI Toggle")
                 {
-                    return "灾厄：星辉秘术UI".zh();
+                    return "灾厄：星辉秘术UI";
                 }
                 if (keybindName == "CalamityMod: Sand Cloak Effect")
                 {
-                    return "灾厄：沙尘披风".zh();
+                    return "灾厄：沙尘披风";
                 }
                 if (keybindName == "CalamityMod: Spectral Veil Teleport")
                 {
-                    return "灾厄：幽灵披风传送".zh();
+                    return "灾厄：幽灵披风传送";
                 }
                 if (keybindName == "CalamityMod: Booster Dash")
                 {
-                    return "灾厄：喷射器冲刺".zh();
+                    return "灾厄：喷射器冲刺";
                 }
                 if (keybindName == "CalamityMod: Angelic Alliance Blessing")
                 {
-                    return "灾厄：圣天誓盟祝福".zh();
+                    return "灾厄：圣天誓盟祝福";
                 }
                 if (keybindName == "CalamityMod: God Slayer Dash")
                 {
-                    return "灾厄：弑神者冲刺".zh();
+                    return "灾厄：弑神者冲刺";
                 }
                 if (keybindName == "CalamityMod: Exo Chair Speed Up")
                 {
-                    return "灾厄：星流飞椅加速".zh();
+                    return "灾厄：星流飞椅加速";
                 }
                 if (keybindName == "CalamityMod: Exo Chair Slow Down")
                 {
-                    return "灾厄：星流飞椅减速".zh();
+                    return "灾厄：星流飞椅减速";
                 }
             }
             return orig.Invoke(item);
