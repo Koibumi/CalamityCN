@@ -86,7 +86,7 @@ namespace CalamityCN
                 {"AbyssalWeapon", "武器灌注：深渊"},
                 {"AnechoicCoatingBuff", "吸音涂层"},
                 {"ArmorCrumbling", "护甲破裂"},
-                {"ArmorShattering", "护甲粉碎"},
+                /*{"ArmorShattering", "护甲粉碎"},*/
                 {"AstralInjectionBuff", "幻星注射剂"},
                 {"BaguetteBuff", "法棍"},
                 {"BloodfinBoost", "血鳍之助"},
@@ -237,7 +237,7 @@ namespace CalamityCN
                 {"EffigyOfDecayBuff", "腐朽塑像"},
                 {"SulphurskinBuff", "硫磺皮肤"},
                 {"GammaHydraBuff", "伽马共生体"},
-                {"RustyDroneBuff", "锈蚀无人机"},
+                /*{"RustyDroneBuff", "锈蚀无人机"},*/
                 {"LadBuff", "老爹"},
                 {"ProfanedWeakness", "亵渎之疲弱"},
                 {"TundraFlameBlossomsBuff", "永冻之焱华"},
