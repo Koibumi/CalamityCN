@@ -1602,7 +1602,7 @@ namespace CalamityCN
                 {"GodSlayerSlug", "弑神者弹".zh()},
                 {"ChargingStationItem", "充能站".zh()},
                 {"LabHologramProjectorItem", "实验室全息投影仪".zh()},
-                {"PowerCellFactoryItem", "燃料电池工厂".zh()},
+                {"PowerCellFactoryItem", "能源电池工厂".zh()},
                 {"BallAndChain", "球镣".zh()},
                 {"Auralis", "极光".zh()},
                 {"AngelicAlliance", "圣天誓盟".zh()},

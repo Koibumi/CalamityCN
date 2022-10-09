@@ -40,9 +40,9 @@ Mods:
 				"MeterPosLock": "[i:5583]属性条位置锁定",
 				"FasterBaseSpeed": "[i:2423]更高基础速度",
 				"HigherJumpHeight": "[i:159]更高跳跃高度",
-        "FasterJumpSpeed": "[i:2423]更高跳跃速度",
-        "FasterFallHotkey": "[i:5583]快速下落快捷键",
-        "FasterTilePlacement": "[i:3061]更快的基础放置速度",
+   	    		"FasterJumpSpeed": "[i:2423]更高跳跃速度",
+    		    "FasterFallHotkey": "[i:5583]快速下落快捷键",
+    		    "FasterTilePlacement": "[i:3061]更快的基础放置速度",
 				"NerfExpertDebuffs": "[i:1612]移除增加的减益持续时间",
 				"ParticleLimit": "[i:3459]最大粒子数",
 				"Proficiency": "[i:5265]熟练度",
@@ -85,10 +85,10 @@ Mods:
 				"ForceTownSafety": "通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。\n这可能会产生意想不到的副作用，例如使动物难以找到。",
 				"MeterPosLock": "开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。",
 				"FasterBaseSpeed": "增加玩家基础移动速度",
-        "HigherJumpHeight": "增加玩家基础跳跃高度",
-        "FasterJumpSpeed": "增加玩家基础跳跃速度",
-        "FasterFallHotkey": "按住快捷键增加玩家下落速度",
-        "FasterTilePlacement": "增加玩家基础放置速度",
+    		    "HigherJumpHeight": "增加玩家基础跳跃高度",
+    		    "FasterJumpSpeed": "增加玩家基础跳跃速度",
+    		    "FasterFallHotkey": "按住快捷键增加玩家下落速度",
+    		    "FasterTilePlacement": "增加玩家基础放置速度",
 				"NerfExpertDebuffs": "禁用专家和大师模式减益持续时间的翻倍。\n灾厄围绕启用的此设置进行平衡。",
 				"ParticleLimit": "设定同时存在的最大粒子数。\n粒子和溅血效果是分开的。\n调低以提升性能。",
 				"Proficiency": "启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。\n禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。",
@@ -266,8 +266,7 @@ ItemTooltip:
 		},
 	}
 
-	Prefix:
-	{
+	Prefix: {
 		Atrocious: "糟糕"
 		Blunt: "钝化"
 		Camouflaged: "伪装"
@@ -413,7 +412,7 @@ ItemTooltip:
 		ScavengerLaser: "回旋镖"
 		ScavengerNuke: "制导核导弹"
 		ShadeNimbusHostile: "乌云"
-		ShaderainHostile: "Shade Rain"
+		ShaderainHostile: "阴影雨"
 		ShadowflameFireball: "暗影火球"
 		Shadowflamethrower: "影炎之息"
 		SignusScythe: "西格纳斯鬼镰"
@@ -640,7 +639,7 @@ ItemTooltip:
 		SupremeDustFlakProjectile: "至尊之尘"
 		SupremeDustProjectile: "至尊之尘"
 		TearsofHeavenProjectile: "天堂之泪"
-		TerraBeam: "Beam"
+		TerraBeam: "光束"
 		ThunderstormShot: "雷电风暴"
 		ThunderstormShotSplit: "雷电风暴"
 		TradewindsProjectile: "信风羽"
@@ -783,7 +782,7 @@ ItemTooltip:
 		HolyColliderHolyFire: "集束焰火"
 		HyperBlade: "至尊之刃"
 		Iceberg: "冰川"
-		IceBombFriendly: "Ice Bomb"
+		IceBombFriendly: "冰川爆弹"
 		InsidiousHarpoon: "鱼叉"
 		JudgementBlah: "‘巴拉’光束"
 		JudgementProj: "裁决"
@@ -1336,7 +1335,7 @@ ItemTooltip:
 		TotalityTar: "浓缩焦油"
 		TurbulanceProjectile: "乱流长枪"
 		TurbulanceWindSlash: "风斩"
-		UmbraphileBoom: "Umbra Blast"
+		UmbraphileBoom: "本影爆破"
 		UrchinStingerProj: "海胆刺"
 		ValariBoomerang: "霜碎回力标"
 		Valaricicle: "碎冰"
@@ -1438,7 +1437,7 @@ ItemTooltip:
 		SolarBeam: "激光"
 		SolarGod: "太阳神"
 		SolarPixie: "太阳精灵"
-		SonOfYharon: "Draconid"
+		SonOfYharon: "火龙卷"
 		Spikecrag: "尖峰岩"
 		SpikecragSpike: "尖峰岩刺"
 		SquirrelSquireAcorn: "橡子"
@@ -1815,8 +1814,8 @@ ItemTooltip:
 		DesertMark: "荒漠遗印"
 		DesertTornado: "沙尘卷"
 		DualpoonProj: "双叉枪"
-		ExoLight: "Exo Light"
-		ExoSpark: "神圣花火"
+		ExoLight: "星流耀光"
+		ExoSpark: "星流花火"
 		ImpactRound: "冲击波"
 		PiercingBullet: "穿甲弹"
 		UltimaBolt: "创世之光"
@@ -1938,10 +1937,10 @@ ItemTooltip:
 		RancorLaserbeam: "怨戾激光"
 		RancorMagicCircle: "怨戾魔法阵"
 		RancorSmallCinder: "熔岩"
-		RedirectingFire: "Fire"
-		RedirectingGildedSoul: "Gilded Soul"
-		RedirectingLostSoul: "Soul"
-		RedirectingVengefulSoul: "Soul"
+		RedirectingFire: "火焰"
+		RedirectingGildedSoul: "镀金之魂"
+		RedirectingLostSoul: "灵魂"
+		RedirectingVengefulSoul: "灵魂"
 		SilvaBurst: "始源林海爆炸"
 		SmallSpirit: "愤怒灵魂"
 		SolarElementalBeam: "光束"
@@ -1996,7 +1995,7 @@ ItemTooltip:
 		PrismExplosionLarge: "爆炸"
 		PrismExplosionSmall: "爆炸"
 		PrismMine: "雷"
-		SurgeDriverHoldout: "Surge Driver"
+		SurgeDriverHoldout: "煌晖御流炮"
 		TelluricGlareArrow: "辐光之箭"
 		CorpusAvertorStealth: "憎恶血刃"
 		MangroveChakramFlower: "花"
