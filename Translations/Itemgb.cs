@@ -1105,7 +1105,7 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Donor Item", "捐赠者物品".zh());
                 }
-
+                
                 if (item.Calamity().AppliedEnchantment != null)
                 {
                     line.Text = line.Text.Replace("Aflame", "魔焱".zh());
@@ -1137,7 +1137,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Causes minions to be created with a 40 second timer.", "召唤物会在生成40秒后产生剧烈爆炸并消失。".zh());
                     line.Text = line.Text.Replace("Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.", "在这40秒内，召唤物存在时间越久，造成的伤害越高，并且会随机产生小范围爆炸。".zh());
                 }
-
+                
                 if (item.accessory && !item.social && item.prefix > 0)
                 {
                     line.Text = line.Text.Replace("damage reduction", "伤害减免".zh());
@@ -1218,6 +1218,44 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Press ", "按下".zh());
                     line.Text = line.Text.Replace(" to toggle hover\nPress ", "可切换悬停\n按下".zh());
                     line.Text = line.Text.Replace(" to deactivate hover", "可停用悬停".zh());
+                }
+
+                if (item.type == ModContent.ItemType<EncryptedSchematicSunkenSea>() || item.type == ModContent.ItemType<EncryptedSchematicPlanetoid>() || item.type == ModContent.ItemType<EncryptedSchematicJungle>() || item.type == ModContent.ItemType<EncryptedSchematicIce>() || item.type == ModContent.ItemType<EncryptedSchematicHell>())
+                {
+                    line.Text = line.Text.Replace("Has already been decrypted.", "已经破解该原型图".zh());
+                    line.Text = line.Text.Replace("Click to view its contents.", "点击查看内容".zh());
+                    line.Text = line.Text.Replace("Unlocked recipes:", "解锁配方：".zh());
+                    line.Text = line.Text.Replace("Gauss Dagger", "高斯短匕".zh());
+                    line.Text = line.Text.Replace("Taser", "泰瑟枪".zh());
+                    line.Text = line.Text.Replace("Pulse Pistol", "脉冲手枪".zh());
+                    line.Text = line.Text.Replace("Star Swallower Containment Unit", "噬星者控制元件".zh());
+                    line.Text = line.Text.Replace("Tracking Disk", "逐影飞盘".zh());
+                    line.Text = line.Text.Replace("Decryption Computer", "解密计算机".zh());
+                    line.Text = line.Text.Replace("Hydraulic Volt Crasher", "液压伏冲器".zh());
+                    line.Text = line.Text.Replace("Matter Modulator", "物质调谐器".zh());
+                    line.Text = line.Text.Replace("Gauss Pistol", "高斯手枪".zh());
+                    line.Text = line.Text.Replace("Mounted Scanner", "架式扫射机".zh());
+                    line.Text = line.Text.Replace("Frequency Manipulator", "变频器".zh());
+                    line.Text = line.Text.Replace("Long Ranged Sensor Array", "远程传感器阵列".zh());
+                    line.Text = line.Text.Replace("Galvanizing Glaive", "磁能分割刀".zh());
+                    line.Text = line.Text.Replace("Gauss Rifle", "高斯来复枪".zh());
+                    line.Text = line.Text.Replace("Gatling Laser", "激光加特林".zh());
+                    line.Text = line.Text.Replace("Pulse Turret Remote", "脉冲炮塔遥控装置".zh());
+                    line.Text = line.Text.Replace("System Bane", "神经系统紊乱装置".zh());
+                    line.Text = line.Text.Replace("Advanced Display", "高级显示屏".zh());
+                    line.Text = line.Text.Replace("Phaseslayer", "相位剑".zh());
+                    line.Text = line.Text.Replace("Pulse Rifle", "脉冲步枪".zh());
+                    line.Text = line.Text.Replace("Tesla Cannon", "特斯拉巨炮".zh());
+                    line.Text = line.Text.Replace("Pole Warper", "电极解离机".zh());
+                    line.Text = line.Text.Replace("Plasma Grenade", "等离子手雷".zh());
+                    line.Text = line.Text.Replace("Auric Quantum Cooling Cell", "金源量子冷却电池".zh());
+                    line.Text = line.Text.Replace("Pulse Dragon", "脉冲龙链枷".zh());
+                    line.Text = line.Text.Replace("Heavy Laser Rifle", "重型激光步枪".zh());
+                    line.Text = line.Text.Replace("Plasma Caster", "等离子液铸器".zh());
+                    line.Text = line.Text.Replace("Snake Eyes", "蛇眼".zh());
+                    line.Text = line.Text.Replace("Wave Pounder", "震波炸弹".zh());
+                    line.Text = line.Text.Replace("Voltage Regulation System", "电压校准系统".zh());
+                    
                 }
 
                 #region 不能直接翻译的家具(恼
@@ -2375,8 +2413,6 @@ public class Itemgb : GlobalItem
                 line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机".zh());
                 
                 line.Text = line.Text.Replace("You have already consumed this item", "你已经使用过这个".zh());
-                line.Text = line.Text.Replace("Has already been decrypted.", "已经破解该原型图".zh());
-                line.Text = line.Text.Replace("Click to view its contents.", "点击查看内容".zh());
                 line.Text = line.Text.Replace("Restores", "恢复".zh());
                 line.Text = line.Text.Replace("life", "生命".zh());
             }

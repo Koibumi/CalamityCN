@@ -2315,7 +2315,7 @@ namespace CalamityCN
                 {"NanodroidPlagueRedItem", "红色瘟疫纳米机器人".zh() },
                 {"NanodroidPlagueGreenItem", "绿色瘟疫纳米机器人".zh() },
                 {"NanodroidItem", "纳米机器人".zh() },
-                {"NanodroidDysfunctionalItem", "功能失调的纳米机器".zh() },
+                {"NanodroidDysfunctionalItem", "功能失调的纳米机器人".zh() },
                 {"EyeOfTheAccursedBanner", "诅咒之眼旗帜".zh() },
                 {"SacrilegiousDresser", "渎圣梳妆台".zh() },
                 {"SacrilegiousLamp", "渎圣灯".zh() },

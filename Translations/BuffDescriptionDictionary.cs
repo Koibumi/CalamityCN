@@ -301,7 +301,7 @@ namespace CalamityCN
                 {"MoonFistBuff", "准备好用这些手去打一架了吗？".zh() },  //需要讨论
 
                 {"AbyssalWeapon", "近战、鞭子和盗贼攻击会对敌人造成硫磺火减益".zh()},
-                {"ArmorCrumbling", "近战、鞭子和盗贼攻击会对敌人造成碎甲减益".zh()},
+                {"ArmorCrumbling", "近战、鞭子和盗贼攻击会降低敌人的伤害减免".zh()},
             };
         }
         public static void Unload()

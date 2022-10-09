@@ -13,6 +13,8 @@ namespace CalamityCN.Translations.Patch
                 MonoModHooks.RequestNativeAccess();
                 ModePatch.Load();
                 UIPatch.Load();
+                TextPatch.Load();
+                //EnchantmentPatch.Load();
              }
 
         }
@@ -20,6 +22,8 @@ namespace CalamityCN.Translations.Patch
         {
             UIPatch.Unload();
             ModePatch.Unload();
+            TextPatch.Unload();
+            //EnchantmentPatch.Unload();
         }
     }
 }

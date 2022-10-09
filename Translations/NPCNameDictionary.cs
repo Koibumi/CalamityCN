@@ -295,6 +295,7 @@ namespace CalamityCN
                 { "Rotdog", "血犬".zh() },
                 { "PlaguebringerMiniboss", "瘟疫使者".zh() },
                 { "AuroraSpirit", "极光之灵".zh() },
+                { "Nanodroid", "纳米机器人".zh() },
             };
         }
         public static void Unload()
