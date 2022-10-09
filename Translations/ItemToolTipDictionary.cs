@@ -1639,6 +1639,7 @@ namespace CalamityCN
                 {"ThankYouPainting", "感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！\n这幅画的大小无法容纳整个团队\n长按SHIFT键可以查看以前和当前的开发者，长按CTRL键可以查看以前和当前的测试员".zh() },
                 {"RitualCandle", "右键以切换样式".zh() },
                 {"MonolithOfTheAccursed", "以烈焰将苍天尽染炽红\n石柱有两种不同的模式".zh() },
+                {"AtlasMunitionsBeacon", "Drops down a crate from the sky that opens up to reveal a mounted, stationary cannon\nThe cannon will fire at any potential enemies within its range, and enter overdrive mode if said enemy is close to the cannon\nWhen in overdrive mode the cannon uses three barrels that each collectively fire. The cannon also heats up the more it fires in overdrive mode\nPlayers may right click to pick up the cannon and use it for themselves, if they are selecting an Atlas Munitions Beacon.\nWhen players fire the cannon, it automatically enters overdrive mode\nIf the held cannon becomes hot due to overdrive mode, you are forced to drop it. Otherwise, right clicking allows you to drop it manually\nIf the held cannon is dropped back onto the mount, it is attached again\nIt's surprisingly easy to pick up".zh() },
 
                 { "InfectedRemote", "召唤一个代号为“Virili”的人形混血瘟疫使者在战斗中帮助你\n需要至少3格召唤栏位才能召唤Virili，并且同时只能召唤一个\nVirili会使用各种方式的攻击，通过内部的计时器进行循环\n所有的攻击都会传播瘟疫，正如她最初的设计意图一样\n“贴在后面的便条写着：”\n“警告：受试者具有极强的腐蚀性和传染性。请避免直接接触”".zh() },
                 { "Cosmilamp", "在你的头顶召唤一盏宇宙灯为你而战\n每盏宇宙灯占据两格召唤栏位".zh() },
