@@ -1638,14 +1638,14 @@ namespace CalamityCN
                 {"AndroombaItem", "右键扫除机以嵌入溶液\n当嵌入溶液后，扫除机会开始传播其内容物".zh() },
                 {"ThankYouPainting", "感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！\n这幅画的大小无法容纳整个团队\n长按SHIFT键可以查看以前和当前的开发者，长按CTRL键可以查看以前和当前的测试员".zh() },
                 {"RitualCandle", "右键以切换样式".zh() },
-                {"MonolithOfTheAccursed", "Let the sky burn a blazing red\n石柱有两种不同的模式".zh() },
+                {"MonolithOfTheAccursed", "将天空染成炽热的红色\n石柱有两种不同的模式".zh() },
 
                 { "InfectedRemote", "召唤一个代号为“Virili”的人形混血瘟疫使者在战斗中帮助你\n需要至少3格召唤栏位才能召唤Virili，并且同时只能召唤一个\nVirili会使用各种方式的攻击，通过内部的计时器进行循环\n所有的攻击都会传播瘟疫，正如她最初的设计意图一样\n“贴在后面的便条写着：”\n“警告：受试者具有极强的腐蚀性和传染性。请避免直接接触”".zh() },
                 { "Cosmilamp", "在你的头顶召唤一盏宇宙灯为你而战\n每盏宇宙灯占据两格召唤栏位".zh() },
                 { "RustyBeaconPrototype", "召唤一架废弃已久的无人机来支援你\n无人机会在地点徘徊并释放会造成硫磺海剧毒减益的剧毒波".zh() },
-                { "ViridVanguard", "Summons a circular formation of blades that slice nearby enemies to pieces".zh() },
-                { "SubsumingVortex", "左键释放一连串会冲向敌人的漩涡\nRight clicking casts a gigantic vortex in front of you with a bias towards the mouse\nWhen enemies are near the vortex, it sends multiple fast-moving smaller vortices towards them\nAfter enough time has passed the vortex stops shooting, and releasing the right mouse button fires the vortex towards the mouse".zh() },
-                { "HeavenlyGale", "发射增压星流晶体急流\n手持此弓并且不攻击一段时间后会使晶体更加强大\nIf the crystals are sufficiently powerful enough they will summon torrents of exo-lightning above whatever target they hit".zh() },
+                { "ViridVanguard", "召唤圆舞剑阵切碎附近的敌人".zh() },
+                { "SubsumingVortex", "左键释放一连串会冲向敌人的漩涡\n右键在你的前方投射一个跟随光标的巨大旋涡\n当漩涡的附近有敌人时，漩涡会向敌人发射多个快速移动的小漩涡\n大漩涡会在一段时间后停止发射，并且松开右键时会将大漩涡向光标方向释放".zh() },
+                { "HeavenlyGale", "发射增压星流晶体急流\n手持此弓并且不攻击一段时间后会使晶体更加强大\n当晶体足够强大时会在被击中的任何目标上方召唤星流闪电急流".zh() },
             };
         }
         public static void Unload()
