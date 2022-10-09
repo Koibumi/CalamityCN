@@ -2341,7 +2341,7 @@ namespace CalamityCN
                 {"SacrilegiousChest", "Sacrilegious 箱".zh() },
                 {"SacrilegiousClock", "Sacrilegious 钟".zh() },
                 {"SacrilegiousDoor", "Sacrilegious 门".zh() },
-		{"AtlasMunitionsBeacon", "Atlas Munitions Beacon".zh() },
+		        {"AtlasMunitionsBeacon", "擎天军用信标".zh() },
 
                 {"CalamitasBrew", "硫火瓶".zh()},
                 {"CrumblingPotion", "碎甲瓶".zh()},

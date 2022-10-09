@@ -1639,14 +1639,14 @@ namespace CalamityCN
                 {"ThankYouPainting", "感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！\n这幅画的大小无法容纳整个团队\n长按SHIFT键可以查看以前和当前的开发者，长按CTRL键可以查看以前和当前的测试员".zh() },
                 {"RitualCandle", "右键以切换样式".zh() },
                 {"MonolithOfTheAccursed", "以烈焰将苍天尽染炽红\n石柱有两种不同的模式".zh() },
-                {"AtlasMunitionsBeacon", "Drops down a crate from the sky that opens up to reveal a mounted, stationary cannon\nThe cannon will fire at any potential enemies within its range, and enter overdrive mode if said enemy is close to the cannon\nWhen in overdrive mode the cannon uses three barrels that each collectively fire. The cannon also heats up the more it fires in overdrive mode\nPlayers may right click to pick up the cannon and use it for themselves, if they are selecting an Atlas Munitions Beacon.\nWhen players fire the cannon, it automatically enters overdrive mode\nIf the held cannon becomes hot due to overdrive mode, you are forced to drop it. Otherwise, right clicking allows you to drop it manually\nIf the held cannon is dropped back onto the mount, it is attached again\nIt's surprisingly easy to pick up".zh() },
+                {"AtlasMunitionsBeacon", "从空中落下板条箱，打开后会露出一架安装好的固定式巨炮\n巨炮会向任何在其攻击范围内的潜在敌人开火，巨炮会在敌人接近自身时进入超载模式\n在超载模式下，巨炮会同时用三根炮管一起开火。同时在超载模式下，巨炮的热量会随着开火次数提高\n玩家可以通过右键信标来拾取巨炮并使用\n当玩家使用巨炮开火时会自动进入超载模式\n如果手持的巨炮因为超载模式而保持过热，那么你将被迫放下巨炮。除此以外，你可以通过右键手动放下巨炮\n如果手持的巨炮被放到信标底座上，那么它会与其再次连接\n令人惊讶的是，它很容易被拾起".zh() },
 
                 { "InfectedRemote", "召唤一个代号为“Virili”的人形混血瘟疫使者在战斗中帮助你\n需要至少3格召唤栏位才能召唤Virili，并且同时只能召唤一个\nVirili会使用各种方式的攻击，通过内部的计时器进行循环\n所有的攻击都会传播瘟疫，正如她最初的设计意图一样\n“贴在后面的便条写着：”\n“警告：受试者具有极强的腐蚀性和传染性。请避免直接接触”".zh() },
                 { "Cosmilamp", "在你的头顶召唤一盏宇宙灯为你而战\n每盏宇宙灯占据两格召唤栏位".zh() },
                 { "RustyBeaconPrototype", "召唤一架废弃已久的无人机来支援你\n无人机会在指定地点徘徊并释放会造成硫磺海剧毒减益的剧毒波".zh() },
                 { "ViridVanguard", "召唤圆舞剑阵切碎附近的敌人".zh() },
                 { "SubsumingVortex", "左键释放一连串会冲向敌人的漩涡\n右键在你的前方投射一个跟随光标的巨大旋涡\n当漩涡的附近有敌人时，漩涡会向敌人发射多个快速移动的小漩涡\n大漩涡会在一段时间后停止发射，并且松开右键时会将大漩涡向光标方向释放".zh() },
-                { "HeavenlyGale", "发射一连串迅速的增压星流晶体箭\r\n\n手持此弓并且不攻击一段时间后会使晶体更加强大\n当晶体足够强大时会在被击中的任何目标上方召唤星流闪电急流".zh() },
+                { "HeavenlyGale", "发射一连串迅速的增压星流晶体箭\r\n\n手持此弓并且不攻击一段时间后会使晶体更加强大\n当晶体足够强大时会在被击中的任何目标上方召唤星流闪电急流手持此弓并且不攻击一段时间后会使晶体更加强大\n当晶体足够强大时会在被击中的任何目标上方召唤星流闪电激流".zh() },
             };
         }
         public static void Unload()
