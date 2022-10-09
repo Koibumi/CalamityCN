@@ -1058,17 +1058,17 @@ namespace CalamityCN
 			if (type == ModContent.NPCType<Androomba>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("Slowly moving back and forth, these contraptions operate endlessly with the fruitless goal of cleaning the now long abandoned labs.".zh()));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("这些机器人无休无止地缓慢徘徊着，做着清洁早已被废弃的实验室的无用功。".zh()));
 			}
 			if (type == ModContent.NPCType<AndroombaFriendly>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("Easily reversed engineered, these robots can be made to spread whatever you put into them, giving them a new purpose.".zh()));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("这些机器人很容易通过逆向工程再设计，现在它们被赋予了新的目标：传播你放入的任何东西。".zh()));
 			}
 			if (type == ModContent.NPCType<Nanodroid>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("Not every creation has to be large and flashy to be a success, sometimes it's good to take a step back and appreciate how much that smaller things such as these devices contribute.".zh()));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("并非所有创造都要巨大而华丽才算得上成功，有时不妨退一步，来欣赏像这些设备一样的小东西所做的贡献。".zh()));
 			}
 			}
 		}
