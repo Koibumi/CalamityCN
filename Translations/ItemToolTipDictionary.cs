@@ -1434,7 +1434,7 @@ namespace CalamityCN
                 { "DeathstareRod", "在你的头顶召唤眼球，它会看着你并向敌怪发射激光\n同时只能存在一颗眼球".zh() },
                 { "EyeOfNight", "召唤会发射瘟疫细胞的永夜眼球，瘟疫细胞会附着在敌怪身上并造成诅咒焰减益".zh() },
                 { "FleshOfInfidelity", "召唤一个触手血球，向敌怪抛出血弹".zh() },
-                { "FlowersOfMortality", "在你头顶召唤五朵元素之花\n共消耗2.5个仆从栏位".zh() },
+                { "FlowersOfMortality", "在你头顶召唤五朵元素之花\n共消耗2.5格召唤栏位".zh() },
                 { "Metastasis", "召唤灾坟魔物为你而战\n当有灾坟魔物存在时，你的周围会不断出现硫磺火之心\n硫磺火之心越多，灾坟魔物攻击你的频率越高\n消耗四个召唤栏位且同时只能存在一个灾坟魔物\n[c/c61b40:宇宙之虫可能的未来，]\n[c/c61b40:对力量的饥渴蒙蔽双眼，这可是一个可怕的警告，但不影响你走向这样的结局。]\n".zh() },
                 { "Perdition", "在光标位置召唤一个永劫信标\n当有敌怪被右键标记时，它会从其下方召唤出灵魂之流，将敌人湮没在永劫地狱中\n同时只能存在一个永劫信标".zh() },
                 { "PolypLauncher", "召唤一个珊瑚堆，向附近的敌怪发射珊瑚块".zh() },
@@ -1443,8 +1443,8 @@ namespace CalamityCN
                 { "Vigilance", "召唤一个灵魂搜寻者为你而战".zh() },
                 { "ViralSprout", "召唤一个鼠尾草之灵为你而战\n鼠尾草之灵会造成鼠尾草中毒减益，召唤的鼠尾草之灵越多，减益伤害越高".zh() },
                 
-                { "VoidConcentrationStaff", "召唤出一个虚空光环，发射虚空球以攻击敌人\n存在虚空光环时，召唤伤害增加5%\n消耗三个仆从栏位\n同时只能存在一个光环\n当光环存在时，右键点击可发射出逐渐变大的黑洞".zh() },
-                { "WitherBlossomsStaff", "在你的头顶召唤四朵凋零枯花\n共消耗两个召唤栏位".zh() },
+                { "VoidConcentrationStaff", "召唤出一个虚空光环，发射虚空球以攻击敌人\n存在虚空光环时，召唤伤害增加5%\n占据三格召唤栏位\n同时只能存在一个光环\n当光环存在时，右键点击可发射出逐渐变大的黑洞".zh() },
+                { "WitherBlossomsStaff", "在你的头顶召唤四朵凋零枯花\n共占据两格召唤栏位".zh() },
                 { "OccultSkullCrown", "只有打不过史莱姆王的人才戴这破烂……\n你的怒气值将持续升高，即使在战斗外也不会下降\n将一些减益效果转化为增益效果\n受影响的减益有：黑暗、灯火管制、困惑、缓慢、软弱、破损盔甲\n碎甲、冷冻、灵液和和阻塞\n额外给予20%肾上腺素的充能效率\n提高5%的移动速度和加速度\n这个物品也可以当做头盔戴脑袋上\n复仇模式专属".zh() },
                 { "CirrusDress", "来，穿上它，想喝多少伏特加就喝多少，吨吨吨\n提高5%魔法伤害和魔法暴击率\n你醉了。".zh() },
                 { "GemTechBodyArmor", "你怎么可以如此堕落！先前的作战方案都让你喂猪了吗？".zh() },
@@ -1632,20 +1632,20 @@ namespace CalamityCN
                 {"WulfrumTreasurePinger", "帮助你找到比钨钢更有价值的金属\n这个破东西看起来质量太差了。 [c/fc4903:它迟早会坏掉]".zh() },
           
                 //c2.2
-                {"PuffShroom", "Summons a cute mushroom warrior to fight for you".zh() },
-                {"WarloksMoonFist", "Summons a celestial fist to punch enemies for you\nTakes up 4  minion slots".zh() },
-                {"TheAnomalysNanogun", "'Welcome to the party, pal'\nLeft click to charge up 5 rapid-fire plasma beams\nRight click to launch 3 fission bombs".zh() },
-                {"AndroombaItem", "Right click the roomba with a solution to insert it\nWhile a solution is inserted, the roomba will start spreading its contents".zh() },
-                {"ThankYouPainting", "Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!\nThe confines of this painting is not enough to fit the entire team\nHold SHIFT to see a list of past and current devs and CTRL to see past and current testers".zh() },
-                {"RitualCandle", "Right click to place in a different style".zh() },
-                {"MonolithOfTheAccursed", "Let the sky burn a blazing red\nThe monolith has two different modes".zh() },
+                {"PuffShroom", "召唤一个可爱的蘑菇战士为你而战".zh() },
+                {"WarloksMoonFist", "召唤一个星界之拳来拳击你的敌人\n占据4格召唤栏位".zh() },
+                {"TheAnomalysNanogun", "'Welcome to the party, pal'\n左键可以充能并快速发射至多5到离子光束\n右键发射3颗裂变炸弹".zh() },
+                {"AndroombaItem", "右键扫除机以嵌入溶液\n当嵌入溶液后，扫除机会开始传播其内容物".zh() },
+                {"ThankYouPainting", "感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！\n这幅画的大小无法容纳整个团队\n长按SHIFT键可以查看以前和当前的开发者，长按CTRL键可以查看以前和当前的测试员".zh() },
+                {"RitualCandle", "右键以切换样式".zh() },
+                {"MonolithOfTheAccursed", "Let the sky burn a blazing red\n石柱有两种不同的模式".zh() },
 
-                { "InfectedRemote", "Summons a humanoid-hybrid Plaguebringer, codenamed 'Virili', to aid you in battle\nVirili requires 3 minion slots to summon, and can only be summoned once\nVirili uses a variety of attacks which she cycles through on a timer\nAll attacks spread the plague, as was her original design intention\n'A single note graces the back:'\n'WARNING: Subject is extremely corrosive and contagious. Avoid direct contact.'".zh() },
-                { "Cosmilamp", "Summons a cosmic lantern above your head to fight for you\nEach lantern takes up 2 minion slots".zh() },
-                { "RustyBeaconPrototype", "Summons a long-abandoned drone to support you\nThe drone hovers in place and releases toxic waves that inflict sulphuric poisoning".zh() },
+                { "InfectedRemote", "召唤一个代号为“Virili”的人形混血瘟疫使者在战斗中帮助你\n需要至少3格召唤栏位才能召唤Virili，并且同时只能召唤一个\nVirili会使用各种方式的攻击，通过内部的计时器进行循环\n所有的攻击都会传播瘟疫，正如她最初的设计意图一样\n“贴在后面的便条写着：”\n“警告：受试者具有极强的腐蚀性和传染性。请避免直接接触”".zh() },
+                { "Cosmilamp", "在你的头顶召唤一盏宇宙灯为你而战\n每盏宇宙灯占据两格召唤栏位".zh() },
+                { "RustyBeaconPrototype", "召唤一架废弃已久的无人机来支援你\n无人机会在地点徘徊并释放会造成硫磺海剧毒减益的剧毒波".zh() },
                 { "ViridVanguard", "Summons a circular formation of blades that slice nearby enemies to pieces".zh() },
-                { "SubsumingVortex", "Left clicking releases a barrage of vortices that race towards enemies\nRight clicking casts a gigantic vortex in front of you with a bias towards the mouse\nWhen enemies are near the vortex, it sends multiple fast-moving smaller vortices towards them\nAfter enough time has passed the vortex stops shooting, and releasing the right mouse button fires the vortex towards the mouse".zh() },
-                { "HeavenlyGale", "Fires a rapid stream of supercharged exo-crystals\nHolding the bow and waiting for some time before firing causes the crystals to become more powerful\nIf the crystals are sufficiently powerful enough they will summon torrents of exo-lightning above whatever target they hit".zh() },
+                { "SubsumingVortex", "左键释放一连串会冲向敌人的漩涡\nRight clicking casts a gigantic vortex in front of you with a bias towards the mouse\nWhen enemies are near the vortex, it sends multiple fast-moving smaller vortices towards them\nAfter enough time has passed the vortex stops shooting, and releasing the right mouse button fires the vortex towards the mouse".zh() },
+                { "HeavenlyGale", "发射一个快速的增压星流晶体流\n手持此弓并且不攻击一段时间后会使晶体更加强大\nIf the crystals are sufficiently powerful enough they will summon torrents of exo-lightning above whatever target they hit".zh() },
             };
         }
         public static void Unload()

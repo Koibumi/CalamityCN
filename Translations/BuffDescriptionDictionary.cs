@@ -9,7 +9,7 @@ namespace CalamityCN
         {
             EffectDescription = new Dictionary<string, string>()
             {
-                {"SeaSnailBuff", "喵?".zh()},
+                {"SeaSnailBuff", "喵？".zh()},
                 {"AlcoholPoisoning", "你饮酒过量，代谢紊乱，气息奄奄".zh()},
                 {"BloodyMaryBuff", "血月时，增加伤害、暴击率、移动速度和近战攻速，但降低生命恢复速度和防御".zh()},
                 {"CaribbeanRumBuff", "你晕乎乎的，增加移动速度、飞行时间和生命恢复速度，但防御力降低".zh()},
@@ -295,13 +295,13 @@ namespace CalamityCN
                 {"EntropysVigilBuff", "灾厄之影和她的兄弟们会保护你".zh()},
                 //c2.1
                 {"CoralSymbiosis", "珊瑚泥充能加快，多造成2点伤害".zh() },
-                {"MarniteLiftBuff", "你甚至...?".zh() },
+                {"MarniteLiftBuff", "你甚至……？".zh() },
                 //c2.2
-                {"PuffWarriorBuff", "It confidently and excitedly protects you".zh() },
-                {"MoonFistBuff", "Catch these hands".zh() },
+                {"PuffWarriorBuff", "它自信且兴奋地保护着你".zh() },
+                {"MoonFistBuff", "准备好用这些手去打一架了吗？".zh() },  //需要讨论
 
-                {"AbyssalWeapon", "Melee, Whip, and Rogue attacks inflict Brimstone Flames on enemies".zh()},
-                {"ArmorCrumbling", "Melee, Whip, and Rogue attacks inflict Armor Crunch on enemies".zh()},
+                {"AbyssalWeapon", "近战、鞭子和盗贼攻击会对敌人造成硫磺火减益".zh()},
+                {"ArmorCrumbling", "近战、鞭子和盗贼攻击会对敌人造成碎甲减益".zh()},
             };
         }
         public static void Unload()

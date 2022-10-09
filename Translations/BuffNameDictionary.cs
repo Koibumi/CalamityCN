@@ -297,11 +297,11 @@ namespace CalamityCN
                 {"CoralSymbiosis", "珊瑚共生".zh() },
                 {"MarniteLiftBuff", "合成岩悬浮平台".zh() },
                 //c2.2
-                {"PuffWarriorBuff", "Puff Warrior".zh() },
-                {"MoonFistBuff", "Moon Fist".zh() },
+                {"PuffWarriorBuff", "蓬松战士".zh() },
+                {"MoonFistBuff", "月亮之拳".zh() },
 
-                {"AbyssalWeapon", "Weapon Imbue: Brimstone".zh() },
-                {"ArmorCrumbling", "Weapon Imbue: Crumbling".zh() },
+                {"AbyssalWeapon", "武器灌注：硫火".zh() },
+                {"ArmorCrumbling", "武器灌注：粉碎".zh() },
             };
         }
         public static void Unload()
