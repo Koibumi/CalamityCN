@@ -1645,7 +1645,7 @@ namespace CalamityCN
                 { "RustyBeaconPrototype", "召唤一架废弃已久的无人机来支援你\n无人机会在地点徘徊并释放会造成硫磺海剧毒减益的剧毒波".zh() },
                 { "ViridVanguard", "Summons a circular formation of blades that slice nearby enemies to pieces".zh() },
                 { "SubsumingVortex", "左键释放一连串会冲向敌人的漩涡\nRight clicking casts a gigantic vortex in front of you with a bias towards the mouse\nWhen enemies are near the vortex, it sends multiple fast-moving smaller vortices towards them\nAfter enough time has passed the vortex stops shooting, and releasing the right mouse button fires the vortex towards the mouse".zh() },
-                { "HeavenlyGale", "发射一个快速的增压星流晶体流\n手持此弓并且不攻击一段时间后会使晶体更加强大\nIf the crystals are sufficiently powerful enough they will summon torrents of exo-lightning above whatever target they hit".zh() },
+                { "HeavenlyGale", "发射增压星流晶体急流\n手持此弓并且不攻击一段时间后会使晶体更加强大\nIf the crystals are sufficiently powerful enough they will summon torrents of exo-lightning above whatever target they hit".zh() },
             };
         }
         public static void Unload()
