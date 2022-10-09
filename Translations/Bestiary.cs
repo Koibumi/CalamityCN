@@ -1053,6 +1053,23 @@ namespace CalamityCN
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("看到这名强大的敌人与那些友好的面孔生活在一起令人十分惊讶。历史是否会重演？她能否真正成功从魔君的掌控中解脱出来？".zh()));
 			}
+			
+			//c2.2
+			if (type == ModContent.NPCType<Androomba>())
+			{
+				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("Slowly moving back and forth, these contraptions operate endlessly with the fruitless goal of cleaning the now long abandoned labs.".zh()));
+			}
+			if (type == ModContent.NPCType<AndroombaFriendly>())
+			{
+				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("Easily reversed engineered, these robots can be made to spread whatever you put into them, giving them a new purpose.".zh()));
+			}
+			if (type == ModContent.NPCType<Nanodroid>())
+			{
+				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("Not every creation has to be large and flashy to be a success, sometimes it's good to take a step back and appreciate how much that smaller things such as these devices contribute.".zh()));
+			}
 			}
 		}
 	}
