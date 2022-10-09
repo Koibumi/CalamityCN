@@ -2310,7 +2310,7 @@ namespace CalamityCN
                 {"WarloksMoonFist", "术士的月亮之拳".zh() },
                 {"TheAnomalysNanogun", "异象纳米枪".zh() },
                 {"AndroombaItem", "仙女座扫除机".zh() },
-                {"DraedonsAmbienceMusicBox", "音乐盒（嘉登氛围）".zh() },
+                {"DraedonsAmbienceMusicBox", "音乐盒（嘉登的格调）".zh() },
                 {"ThankYouPainting", "Thank you".zh() },
                 {"NanodroidPlagueRedItem", "红色瘟疫纳米机器人".zh() },
                 {"NanodroidPlagueGreenItem", "绿色瘟疫纳米机器人".zh() },
