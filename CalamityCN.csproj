@@ -15,5 +15,8 @@
     <Reference Include="CalamityMod">
       <HintPath>..\CalamityMod.dll</HintPath>
     </Reference>
+    <Reference Include="tModLoader">
+      <HintPath>..\tModLoader.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
