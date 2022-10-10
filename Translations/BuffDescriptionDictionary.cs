@@ -99,7 +99,7 @@ namespace CalamityCN
                 {"GravityNormalizerBuff", "在太空中恢复正常重力作用，免疫扭曲减益".zh()},
                 {"HolyWrathBuff", "提高伤害，所有攻击附带神圣之火减益".zh()},
                 {"Omniscience", "你能看透世间万物".zh()},
-                {"PenumbraBuff", "移动时的潜行值恢复速度增加15%\n在夜晚，静止时的潜行值恢复速度增加15%\n日食期间，两者都会增加20%".zh()},
+                {"PenumbraBuff", "移动时增加10%盗贼潜行值恢复速度，站定不动时增加15%盗贼潜行值恢复速度".zh()},
                 {"PhotosynthesisBuff", "增加生命恢复速度，在白天时生命恢复更快，红心能回复更多生命值".zh()},
                 {"ProfanedRageBuff", "提高暴击率".zh()},
                 {"Soaring", "增加飞行速度和飞行时间\n真近战攻击击中敌怪时恢复一定的飞行时间".zh()},

@@ -300,6 +300,7 @@ namespace CalamityCN
                 { "NanodroidPlagueRed", "纳米机器人".zh() },
                 { "NanodroidPlagueGreen", "纳米机器人".zh() },
                 { "Androomba", "仙女座扫除机".zh() },
+                { "AndroombaFriendly", "仙女座扫除机老友".zh() },
             };
         }
         public static void Unload()
