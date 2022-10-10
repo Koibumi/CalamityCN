@@ -2307,7 +2307,7 @@ namespace CalamityCN
 
                 //c2.2
                 {"PuffShroom", "蓬松蘑菇".zh() },
-                {"WarloksMoonFist", "术士的月亮之拳".zh() },
+                {"WarloksMoonFist", "Warloks的月亮之拳".zh() },
                 {"TheAnomalysNanogun", "异象纳米枪".zh() },
                 {"AndroombaItem", "仙女座扫除机".zh() },
                 {"DraedonsAmbienceMusicBox", "音乐盒（嘉登的格调）".zh() },
