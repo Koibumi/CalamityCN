@@ -273,7 +273,7 @@ namespace CalamityCN
                 { "DesertNuisanceBody", "黄沙恶虫".zh() },
                 { "DesertNuisanceHead", "黄沙恶虫".zh() },
                 { "DesertNuisanceTail", "黄沙恶虫".zh() },
-                { "RepairUnitCritter", "修复单位".zh() },
+                { "RepairUnitCritter", "修复机器人".zh() },
                 { "Apollo", "XS-03“阿波罗”".zh() },
                 { "AresBody", "XF-09“阿瑞斯”".zh() },
                 { "AresGaussNuke", "XF-09“阿瑞斯”高斯核弹发射器".zh() },
@@ -296,6 +296,10 @@ namespace CalamityCN
                 { "PlaguebringerMiniboss", "瘟疫使者".zh() },
                 { "AuroraSpirit", "极光之灵".zh() },
                 { "Nanodroid", "纳米机器人".zh() },
+                { "NanodroidDysfunctional", "纳米机器人".zh() },
+                { "NanodroidPlagueRed", "纳米机器人".zh() },
+                { "NanodroidPlagueGreen", "纳米机器人".zh() },
+                { "Androomba", "仙女座扫除机".zh() },
             };
         }
         public static void Unload()

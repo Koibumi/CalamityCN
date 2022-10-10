@@ -2327,6 +2327,7 @@ namespace CalamityCN
                 {"LargeRitualCandle", "大型仪式蜡烛".zh() },
                 {"MonolithOfTheAccursed", "诅咒石柱".zh() },
                 {"OccultBrickItem", "玄秘砖".zh() },
+                {"OccultBrickItem", "玄秘砖墙".zh() },
                 {"OccultLegionnaireBanner", "玄秘军团旗帜".zh() },
                 {"OccultPlatformItem", "玄秘平台".zh() },
                 {"RitualCandle", "仪式蜡烛".zh() },
@@ -2342,6 +2343,7 @@ namespace CalamityCN
                 {"SacrilegiousClock", "渎圣钟".zh() },
                 {"SacrilegiousDoor", "渎圣门".zh() },
 		        {"AtlasMunitionsBeacon", "擎天军用信标".zh() },
+                {"RepairUnitItem", "修复机器人".zh() },
 
                 {"CalamitasBrew", "硫火瓶".zh()},
                 {"CrumblingPotion", "碎甲瓶".zh()},
