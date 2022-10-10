@@ -2327,7 +2327,7 @@ namespace CalamityCN
                 {"LargeRitualCandle", "大型仪式蜡烛".zh() },
                 {"MonolithOfTheAccursed", "诅咒石柱".zh() },
                 {"OccultBrickItem", "玄秘砖".zh() },
-                {"OccultBrickItem", "玄秘砖墙".zh() },
+                {"OccultBrickWallItem", "玄秘砖墙".zh() },
                 {"OccultLegionnaireBanner", "玄秘军团旗帜".zh() },
                 {"OccultPlatformItem", "玄秘平台".zh() },
                 {"RitualCandle", "仪式蜡烛".zh() },
