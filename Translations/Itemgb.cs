@@ -753,11 +753,6 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Press " + plagueHotkey + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds", "按下 ".zh() + plagueHotkey + " 键消耗25%最大潜行值并快速斜向上喷射\n并在沿途留下大量瘟疫毒云".zh());
                 }
 
-                if (item.type == ModContent.ItemType<Nanotech>() || item.type == ModContent.ItemType<RaidersTalisman>())
-                {
-                    line.Text = line.Text.Replace("Rogue Crit Level:", "当前堆叠等级：".zh());
-                }
-
                 if (item.type == ModContent.ItemType<CelestialJewel>())
                 {
                     string hotkeyCelestial = CalamityMod.CalamityKeybinds.AstralTeleportHotKey.TooltipHotkeyString();
@@ -1080,10 +1075,10 @@ public class Itemgb : GlobalItem
 
                 }
 
-                if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>() || item.type == ModContent.ItemType<LongRangedSensorArray>())
+                if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>() || item.type == ModContent.ItemType<LongRangedSensorArray>() || item.type == ModContent.ItemType<DecryptionComputer>())
                 {
                     line.Text = line.Text.Replace("You don't have sufficient knowledge to create this yet", "你没有足够的知识去制作这个".zh());
-                    line.Text = line.Text.Replace("The Sunken Sea schematic must be deciphered first", "需要先破译沉沦之海原型图".zh());
+                    line.Text = line.Text.Replace("The Sunken Sea schematic must be deciphered first", "需要先获取沉沦之海原型图".zh());
                     line.Text = line.Text.Replace("The Planetoid schematic must be deciphered first", "需要先破译小行星原型图".zh());
                     line.Text = line.Text.Replace("The Jungle schematic must be deciphered first", "需要先破译丛林原型图".zh());
                     line.Text = line.Text.Replace("The Underworld schematic must be deciphered first", "需要先破译地狱原型图".zh());
@@ -1105,7 +1100,7 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Donor Item", "捐赠者物品".zh());
                 }
-                
+                /*
                 if (item.Calamity().AppliedEnchantment != null)
                 {
                     line.Text = line.Text.Replace("Aflame", "魔焱".zh());
@@ -1137,7 +1132,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Causes minions to be created with a 40 second timer.", "召唤物会在生成40秒后产生剧烈爆炸并消失。".zh());
                     line.Text = line.Text.Replace("Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.", "在这40秒内，召唤物存在时间越久，造成的伤害越高，并且会随机产生小范围爆炸。".zh());
                 }
-                
+                */
                 if (item.accessory && !item.social && item.prefix > 0)
                 {
                     line.Text = line.Text.Replace("damage reduction", "伤害减免".zh());

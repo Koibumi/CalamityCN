@@ -14,7 +14,7 @@ namespace CalamityCN.Translations.Patch
                 ModePatch.Load();
                 UIPatch.Load();
                 TextPatch.Load();
-                //EnchantmentPatch.Load();
+                Reflection.Load();
              }
 
         }
@@ -23,7 +23,7 @@ namespace CalamityCN.Translations.Patch
             UIPatch.Unload();
             ModePatch.Unload();
             TextPatch.Unload();
-            //EnchantmentPatch.Unload();
+            Reflection.Unload();
         }
     }
 }

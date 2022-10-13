@@ -3,7 +3,6 @@ This is a Chinese-translation Mod for Calamity Mod.
 =[介绍]=
 本Mod是由Kcovin制作，灾厄维基汉化组出品的灾厄汉化补丁，
 此Mod已汉化大部分内容，能满足正常游戏体验，
-完整汉化，敬请期待汉化者2.0的汉化包。
 
 讨论群1：1060107125
 讨论群2：470305298
@@ -15,6 +14,11 @@ This is a Chinese-translation Mod for Calamity Mod.
 2.进入tml，在模组管理中同时启用灾厄Mod和本Mod
 3.安装完成，进行游戏[i:74]
 
+v1.1.3.4
+添加死亡信息，进入世界信息汉化
+补充难度选择UI汉化
+补充死灵炼注UI部分汉化
+！如出现Bug及时反馈！
 v1.1.3.3
 修改部分饰品描述
 补充内容

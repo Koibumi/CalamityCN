@@ -12,6 +12,8 @@ using CalamityMod.UI.ModeIndicator;
 using CalamityMod.UI.Rippers;
 using CalamityMod.UI;
 using CalamityMod.UI.DraedonLogs;
+using CalamityMod.UI.DraedonsArsenal;
+using CalamityMod.UI.CalamitasEnchants;
 
 namespace CalamityCN.Translations.Patch
 {
@@ -48,13 +50,14 @@ namespace CalamityCN.Translations.Patch
             QuickTranslate(typeof(TECodebreaker), "UpdateTime","You learned how to create new things!", "你学会了如何制作新的东西！");
             //难度
             QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyStatus", " Mode is ", "模式");
-                QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyStatus", "active", "已启用");
-                QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyStatus", "not active", "未启用");
-                QuickTranslate(typeof(ModeIndicatorUI), "GetLockStatus", "[c/919191:Click to select a difficulty mode]", "[c/919191:点击选择难度]");
-                QuickTranslate(typeof(ModeIndicatorUI), "GetLockStatus", "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]", "[c/919191:只能在专家模式及以上时开启更高难度]");
-                QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyText", "Currently Selected : ", "当前选择的难度：");
-                QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyText", "\n[c/737373:Hold the 'Shift' key for more information]", "\n[c/737373:按住Shift键查看更多信息]");
+            QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyStatus", "active", "已启用");
+            QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyStatus", "not active", "未启用");
+            QuickTranslate(typeof(ModeIndicatorUI), "GetLockStatus", "[c/919191:Click to select a difficulty mode]", "[c/919191:点击选择难度]");
+            QuickTranslate(typeof(ModeIndicatorUI), "GetLockStatus", "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]", "[c/919191:只能在专家模式及以上时开启更高难度]");
+            QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyText", "Currently Selected : ", "当前选择的难度：");
+            QuickTranslate(typeof(ModeIndicatorUI), "GetDifficultyText", "\n[c/737373:Hold the 'Shift' key for more information]", "\n[c/737373:按住Shift键查看更多信息]");
             //机制
+            QuickTranslate(typeof(ChargeMeterUI), "Draw", "Current Charge: ", "当前充能：");
             QuickTranslate(typeof(RipperUI), "Draw", "Rage: ", "怒气: ");
             QuickTranslate(typeof(RipperUI), "Draw", "Adrenaline", "肾上腺素");
             QuickTranslate(typeof(RipperUI), "Draw", "Nanomachines", "纳米机器");
@@ -77,6 +80,12 @@ namespace CalamityCN.Translations.Patch
             QuickTranslate(typeof(DraedonLogSnowBiomeGUI), "GetTextByPage", "A freezing tundra, where only creatures entirely adapted to the subzero temperatures exist and thrive. It is a shocking transition from the forests of the purity and the sun baked desert. A climate like this should not exist naturally in this part of the world with ease. The weather patterns seem to shift unnaturally arounds the skies of these icy plains. There is likely a reason for this, which necessitates further research.", "在这片冰天雪地的冻土地带，只有完全适应零下温度的生物才能在这里存在和繁衍。从纯净的森林到被阳光烘烤的沙漠，气候的转变令人震惊。像这样的气候不应该会轻易地在这样的地方自然存在。在这些冰雪平原天空的周围，天气模式的转变似乎也很不自然。这很可能是有原因的，有必要进行进一步研究。");
             QuickTranslate(typeof(DraedonLogSnowBiomeGUI), "GetTextByPage", "I am not the only singular being to inhabit this biome. Once before, the Archmage who opposed the Lord resided here, cloaked by constant artificial blizzards of his own creation, which no longer fall. He likely chose this place as a conduit for research into his ice spells, and extended the period of time that this place remained frozen. Deep underground my research and materials lay well protected, but above in the natural storms there are traces of the prison of ice he resides in, still haunting its place of creation.", "我并不是唯一一个居住在这个生物群落的独行侠。曾经，反对领主的大法师也居住在这里，被他自己创造的持续不断的人造暴风雪所保护，而这些暴风雪现在已经消失。他很可能选择了这里作为研究他的冰系法术的渠道，并延长了这里保持冰封的时间。在地底深处，我的研究和资料依然被很好的保护着，但在上方，在那片自然产生的风暴当中，他所居住的冰之囚牢的痕迹依然存在，出没于它的诞生之地。");
             QuickTranslate(typeof(DraedonLogSnowBiomeGUI), "GetTextByPage", "Intriguing. Though embedded deep into the caverns of ice and worn from centuries of frost and meltwater, I have uncovered several mechanisms which once filled the tunnels here. The ingenuity present is remarkable, and I have found parallels within my own work, as well as devices even I have something to learn from. From where do these come? Why machinery so complex in so sparse and dreary a habitat? Perhaps, they are related to the unnatural conditions.", "令人好奇。尽管深埋在冰洞中，还因为几个世纪的冰霜和融水而变得破旧不堪，但我依然发现了几个曾经遍布于这些隧道的装置。这些独创的装置非凡无比，我不仅在自己的作品中发现了和这些装置的相似之处，甚至还有一些连我自己都需要向其学习的装置。这些东西从何而来？为什么在如此稀疏和沉闷的地层里会有如此复杂的机械？也许，它们与非自然条件有关。");
+            //炼注
+            QuickTranslate(typeof(CalamitasEnchantUI), "DrawEnchantmentCost", "Cost: ", "花费：");
+            //酸雨
+            QuickTranslate(typeof(AcidRainUI), "get_InvasionName", "Acid Rain", "酸雨");
+            //选择
+            QuickTranslate(typeof(AstralArcanumUI), "UpdateAndDraw", "Select", "选择");
 
             //QuickTranslate(typeof(), "", "", "");
 
