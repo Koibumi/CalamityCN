@@ -1678,7 +1678,7 @@ namespace CalamityCN
                 {"HallowedOre", "神圣矿".zh()},
                 {"SCalAltarItem", "诅咒祭坛".zh()},
                 {"SirenproofEarMuffs", "防海妖耳塞".zh()},
-                {"MartianDistressBeacon", "火星危机信标".zh()},
+                {"MartianDistressBeacon", "火星危机遥控器".zh()},
                 {"CeaselessVoidBag", "宝藏袋".zh()},
                 {"DraedonTreasureBag", "宝藏保险箱".zh()},
                 {"SCalBag", "宝藏保险箱".zh()},
