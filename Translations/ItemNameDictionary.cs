@@ -463,7 +463,7 @@ namespace CalamityCN
                 {"CoreofCinder", "日光核心".zh()},
                 {"CoreofEleum", "冰川核心".zh()},
                 {"CosmiliteBar", "宇宙锭".zh()},
-                {"CruptixBar", "熔渣锭".zh()},
+                {"ScoriaBar", "熔渣锭".zh()},
                 {"DarkPlasma", "暗物质".zh()},
                 {"DarksunFragment", "日蚀之阴碎片".zh()},
                 {"DemonicBoneAsh", "恶魔骨灰".zh()},
