@@ -34,7 +34,7 @@ namespace CalamityCN
                 {"AstralInfectionDebuff", "幻星感染".zh() },
                 {"BrimstoneFlames", "硫磺火".zh() },
                 {"BurningBlood", "血液沸腾".zh() },
-                {"CragsLava", "硫焰灼烧".zh() },
+                {"SearingLava", "硫焰灼烧".zh() },
                 {"CrushDepth", "深渊水压".zh() },
                 {"DemonFlames", "恶魔之炎".zh() },
                 {"GodSlayerInferno", "神弑者之怒焰".zh() },
