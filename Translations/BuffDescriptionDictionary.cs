@@ -35,7 +35,7 @@ namespace CalamityCN
                 {"AstralInfectionDebuff", "你的血肉正在被幻星熔蚀".zh()},
                 {"BrimstoneFlames", "生命快速流失".zh()},
                 {"BurningBlood", "你的血液沸腾了".zh()},
-                {"CragsLava", "硫火岩浆的烧灼难以承受".zh()},
+                {"SearingLava", "硫火岩浆的烧灼难以承受".zh()},
                 {"CrushDepth", "深海水压".zh()},
                 {"DemonFlames", "来自异界的恐怖燃烧减益".zh()},
                 {"GodSlayerInferno", "你的血肉在燃烧".zh()},
