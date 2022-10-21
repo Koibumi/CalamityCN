@@ -398,7 +398,7 @@ namespace CalamityCN
                 { "AuricBar", "散发出神圣的能量".zh() },
                 { "CalamitousEssence", "至尊女巫怒火的炽热精华".zh() },
                 { "CosmiliteBar", "一块坚硬而柔韧的宇宙金属".zh() },
-                { "CruptixBar", "你感觉它所散发的烟很暖和……".zh() },
+                { "CruptixBar", "冒出来的烟尚有余温".zh() },
                 { "DarksunFragment", "曜日与皎月，两种相斥天体的能量聚合进这一块晶体中".zh() },
                 { "DepthCells", "深渊生物的细胞".zh() },
                 { "DivineGeode", "蕴藏着神圣能量的晶石".zh() },
