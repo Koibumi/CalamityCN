@@ -258,7 +258,6 @@ namespace CalamityCN
                 {"PoleWarperBuff", "电极解离机".zh() },
                 {"SnakeEyesBuff", "蛇眼".zh() },
                 {"StarSwallowerBuff", "噬星者".zh() },
-                {"HeavyBleeding", "大出血".zh() },
                 {"Withered", "凋零".zh() },
                 {"BanishingFire", "放逐之火".zh() },
                 {"ManaBurn", "魔力烧蚀".zh() },
