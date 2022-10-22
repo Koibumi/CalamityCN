@@ -538,7 +538,7 @@ namespace CalamityCN
                 { "TeslaPotion", "召唤电击并减速敌人的电场\n电场对boss造成的伤害变少\n减少带电减益的持续时间".zh() },
                 { "TitanScalePotion", "增加击退，5防御和5%伤害减免\n使用真正近战武器暴击后几秒内增加20防御和5%伤害减免".zh() },
                 { "TriumphPotion", "敌怪造成的接触伤害降低，此效果随敌怪生命值降低更加明显".zh() },
-                { "YharimsStimulants", "给予能增强所有防御和进攻的属性".zh() },
+                { "YharimsStimulants", "增加10点防御、25%击退、4%伤害减免、\n10%攻击速度、5%伤害、2%暴击率、10%召唤物击退、\n7.5%移动速度和近战攻速".zh() },
                 { "ZenPotion", "大幅降低刷怪速率".zh() },
                 { "ZergPotion", "大幅增加刷怪速率".zh() },
                 { "Rock", "克希洛克创造的第一种物品".zh() },
