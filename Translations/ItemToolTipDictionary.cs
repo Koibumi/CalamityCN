@@ -1398,7 +1398,7 @@ namespace CalamityCN
                 { "KnowledgeExoMechs", "精湛的工艺和最优化的成果，创造的目的只是为了毁灭。\n然而最终，他们所取得的成就并不比最初的设计多多少。".zh() },
                 { "ExoPrism", "分形能量在其表面闪烁".zh() },
                 { "MiracleMatter", "无所定形，但潜力无穷\n用以合成星流武器".zh() },
-                { "ExoThrone", "召唤一个相当舒适、极其灵活的星流飞椅\nReplaced\nAlso replaced\n舒适的电竞椅，危险的电竞椅".zh() },
+                { "ExoThrone", "召唤一个相当舒适、极其灵活的星流飞椅\nReplaced\n舒适的电竞椅，危险的电竞椅".zh() },
                 { "LittleLight", "它已经看着你很长时间了\n召唤一个小机械跟着你，并照亮很大的一片区域\n在深渊中提供大量光照".zh() },
                 { "PineapplePet", "召唤一个菠萝".zh() },
                 { "RottingEyeball", "召唤一个腐巢宝宝".zh() },
