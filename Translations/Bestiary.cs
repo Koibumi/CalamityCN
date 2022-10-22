@@ -978,11 +978,6 @@ namespace CalamityCN
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("被瘟疫感染后，跳跳兽也失去了那双被视作障碍的双腿，它们再也没法高高兴兴地到处乱跳了。".zh()));
 			}
-			if (type == ModContent.NPCType<WaterLeech>())
-			{
-				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("它在很远的地方就能闻到肉的气味，并急切地向其蠕动。一旦附着在宿主身上，它们就会迅速吸血并注入毒液，对它的猎物而言无论哪个都不算好消息。".zh()));
-			}
 			if (type == ModContent.NPCType<WulfrumDrone>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
