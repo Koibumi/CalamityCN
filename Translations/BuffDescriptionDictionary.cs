@@ -258,7 +258,6 @@ namespace CalamityCN
                 {"PoleWarperBuff", "你吸引着这些磁场模块".zh()},
                 {"SnakeEyesBuff", "永远注视着……".zh()},
                 {"StarSwallowerBuff", "并不能吞噬星星".zh()},
-                {"HeavyBleeding", "你血流不止".zh()},
                 {"Withered", "手持凋零的武器会让你渐渐枯萎，但也会让你的武器变得强大".zh()},
                 {"BanishingFire", "你的罪孽不会被宽赦".zh()},
                 {"ManaBurn", "过多的魔力正在烧蚀你的身心".zh()},
