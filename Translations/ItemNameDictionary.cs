@@ -1291,7 +1291,7 @@ namespace CalamityCN
                 {"TarragonThrowingDart", "龙蒿投镖".zh()},
                 {"TerraDisk", "泰拉飞盘".zh()},
                 {"TerrorTalons", "恐惧鹰爪".zh()},
-                {"TheReaper", "死神飞镰".zh()},
+                {"TheReaper", "死神遗镰".zh()},
                 {"TheSyringe", "瘟疫注射器".zh()},
                 {"ThrowingBrick", "板砖".zh()},
                 {"TimeBolt", "时空交叉刃".zh()},
