@@ -32,8 +32,8 @@ namespace CalamityCN.Translations.Patch
                 "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。",
                 "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.",
                 "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。",
-                "Artemis and Apollo, a pair of extremely agile destroyers with pulse cannons.",
-                "阿尔忒弥斯和阿波罗，装备了脉冲加农炮的，快如流星的一对战争机器。"
+                "Artemis and Apollo, a pair of extremely persistent automatons with unstable energy reserves.",
+                "阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。"
                 });
 
                 for (int i = 0; i < 3; i++)
