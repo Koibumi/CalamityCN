@@ -903,8 +903,8 @@ public class Itemgb : GlobalItem
                 }
                 if (item.type == ModContent.ItemType<ExoThrone>())
                 {
-                    string hotkeySpeedUp = CalamityMod.CalamityKeybinds.ExoChairSlowdownHotkey.TooltipHotkeyString();
-                    line.Text = line.Text.Replace("Hold " + ExoChairSlowdownHotkey + "  while sitting in the throne to move slower for more precision", "坐在飞椅上时按住 " + ExoChairSlowdownHotkey + " 键将会精确减速".zh());
+                    string hotkeySpeedDown = CalamityMod.CalamityKeybinds.ExoChairSlowdownHotkey.TooltipHotkeyString();
+                    line.Text = line.Text.Replace("Hold " + hotkeySpeedDown + "  while sitting in the throne to move slower for more precision", "坐在飞椅上时按住 " + hotkeySpeedDown + " 键将会精确减速".zh());
                 }
                 if (item.type == ModContent.ItemType<ShatteredCommunity>())
                 {
