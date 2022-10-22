@@ -260,7 +260,6 @@ namespace CalamityCN
                 { "Skyfin", "天鳍鱼".zh() },
                 { "SulphurousSkater", "硫海爬虫".zh() },
                 { "Trilobite", "三叶虫".zh() },
-                { "WaterLeech", "水蛭".zh() },
                 { "SuperDummyNPC", "大草人".zh() },
                 { "OldDuke", "硫海遗爵".zh() },
                 { "SulphurousSharkron", "硫海龙鲨".zh() },
