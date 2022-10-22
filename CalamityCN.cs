@@ -150,10 +150,6 @@ namespace CalamityCN
                 {
                     return "灾厄：弑神者冲刺".zh();
                 }
-                if (keybindName == "CalamityMod: Exo Chair Speed Up")
-                {
-                    return "灾厄：星流飞椅加速".zh();
-                }
                 if (keybindName == "CalamityMod: Exo Chair Slow Down")
                 {
                     return "灾厄：星流飞椅减速".zh();
