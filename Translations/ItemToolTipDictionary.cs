@@ -1575,7 +1575,6 @@ namespace CalamityCN
                 {"TrilobiteBanner", "{$CommonItemTooltip.BannerBonus}三叶虫".zh() },
                 {"ViperfishBanner", "{$CommonItemTooltip.BannerBonus}蝰蛇鱼".zh() },
                 {"VirulingBanner", "{$CommonItemTooltip.BannerBonus}毒飞虫".zh() },
-                {"WaterLeechBanner", "{$CommonItemTooltip.BannerBonus}水蛭".zh() },
                 {"WulfrumDroneBanner", "{$CommonItemTooltip.BannerBonus}钨钢无人机".zh() },
                 {"WulfrumGyratorBanner", "{$CommonItemTooltip.BannerBonus}钨钢回转器".zh() },
                 {"WulfrumHovercraftBanner", "{$CommonItemTooltip.BannerBonus}钨钢悬浮坦克".zh() },
