@@ -2265,7 +2265,6 @@ namespace CalamityCN
                 {"TrilobiteBanner", "三叶虫旗".zh()},
                 {"ViperfishBanner", "蝰蛇鱼旗".zh()},
                 {"VirulingBanner", "毒飞虫旗".zh()},
-                {"WaterLeechBanner", "水蛭旗".zh()},
                 {"WulfrumDroneBanner", "钨钢无人机旗".zh()},
                 {"WulfrumGyratorBanner", "钨钢回转器旗".zh()},
                 {"WulfrumHovercraftBanner", "钨钢悬浮坦克旗".zh()},
