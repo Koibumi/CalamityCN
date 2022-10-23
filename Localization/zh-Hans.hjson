@@ -1,6 +1,5 @@
-Mods:
 {
-	CalamityMod:
+	Mods.CalamityMod:
 	{
 
 		Config:
@@ -20,48 +19,50 @@ Mods:
 
 			EntryTitle:
 			{
-				"AdrenalineMeterPosX": "[i:2799]肾上腺素条X轴坐标",
-				"AdrenalineMeterPosY": "[i:2799]肾上腺素条Y轴坐标",
-				"Afterimages": "[i:1742]残影",
-				"BossHealthBarExtraInfo": "[i:5597]Boss血条额外信息",
-				"BossHealthBoost": "[i:29]Boss生命值百分比强化",
-				"BossRushDashCurse": "[i:216]冲刺诅咒",
-				"BossRushIFrameCurse": "[i:216]无敌帧诅咒",
-				"BossRushRegenCurse": "[i:216]生命诅咒",
-				"BossZen": "[i:6618]Boss 禅定",
-				"ChargeMeter": "[i:5588]显示充能条",
-				"ChargeMeterPosX": "[i:2799]充能条X轴坐标",
-				"ChargeMeterPosY": "[i:2799]充能条Y轴坐标",
-				"ChilledWaterRework": "[i:1861]重置版冰水",
-				"CooldownDisplay": "[i:5274]冷却显示",
-				"DebuffDisplay": "[i:1356]显示敌人Debuff",
-				"EarlyHardmodeProgressionRework": "[i:367]困难模式早期流程重做",
-				"ForceTownSafety": "[i:63]强制城镇安全",
-				"MeterPosLock": "[i:5583]属性条位置锁定",
-				"FasterBaseSpeed": "[i:2423]更高基础速度",
-				"HigherJumpHeight": "[i:159]更高跳跃高度",
-   	    		"FasterJumpSpeed": "[i:2423]更高跳跃速度",
-    		    "FasterFallHotkey": "[i:5583]快速下落快捷键",
-    		    "FasterTilePlacement": "[i:3061]更快的基础放置速度",
-				"NerfExpertDebuffs": "[i:1612]移除增加的减益持续时间",
-				"ParticleLimit": "[i:3459]最大粒子数",
-				"Proficiency": "[i:5265]熟练度",
-				"RageMeterPosX": "[i:2799]怒气条X轴坐标",
-				"RageMeterPosY": "[i:2799]怒气条Y轴坐标",
-				"RipperMeterShake": "[i:5835]怒气条与肾上腺素条震动",
-				"Screenshake": "[i:6740]屏幕震动",
-				"ShopNewAlert": "[i:306]商店新物品提示",
-				"SpeedrunTimer": "[i:3099]速通计时器",
-				"SpeedrunTimerPosX": "[i:2799]速通计时器X轴坐标",
-				"SpeedrunTimerPosY": "[i:2799]速通计时器Y轴坐标",
-				"StealthInvisibility": "[i:5622]潜行隐身",
-				"StealthMeter": "[i:5219]潜行条",
-				"StealthMeterPosX": "[i:2799]潜行条X轴坐标",
-				"StealthMeterPosY": "[i:2799]潜行条Y轴坐标",
-				"TownNPCSpawnRateMultiplier": "[i:267]城镇NPC生成率乘算器",
-				"TownNPCsSpawnAtNight": "[i:1307]城镇NPC在夜间生成",
-				"VanillaCooldownDisplay": "[i:188]原版冷却显示",
-				"WikiStatusMessage": "[i:149]Wiki状态信息",
+				"AdrenalineMeterPosX": "肾上腺素条X轴坐标",
+				"AdrenalineMeterPosY": "肾上腺素条Y轴坐标",
+				"Afterimages": "残影",
+				"BossHealthBarExtraInfo": "Boss血条额外信息",
+				"BossHealthBoost": "Boss生命值百分比强化",
+				"BossRushDashCurse": "冲刺诅咒",
+				"BossRushIFrameCurse": "无敌帧诅咒",
+				"BossRushRegenCurse": "生命诅咒",
+				"BossZen": "Boss 禅定",
+				"ChargeMeter": "显示充能条",
+				"ChargeMeterPosX": "充能条X轴坐标",
+				"ChargeMeterPosY": "充能条Y轴坐标",
+				"ChilledWaterRework": "重置版冰水",
+				"CooldownDisplay": "冷却显示",
+				"DebuffDisplay": "显示敌人Debuff",
+				"EarlyHardmodeProgressionRework": "困难模式早期流程重做",
+				"ForceTownSafety": "强制城镇安全",
+				"MeterPosLock": "属性条位置锁定",
+				"FasterBaseSpeed": "更高基础速度",
+				"HigherJumpHeight": "更高跳跃高度",
+                "FasterJumpSpeed": "更高跳跃速度",
+                "FasterFallHotkey": "快速下落快捷键",
+                "FasterTilePlacement": "更快的基础放置速度",
+				"NerfExpertDebuffs": "移除增加的减益持续时间",
+				"ParticleLimit": "最大粒子数",
+				"RageMeterPosX": "怒气条X轴坐标",
+				"RageMeterPosY": "怒气条Y轴坐标",
+				"RipperMeterShake": "怒气条与肾上腺素条震动",
+				"Screenshake": "屏幕震动",
+				"ShopNewAlert": "商店新物品提示",
+				"SpeedrunTimer": "速通计时器",
+				"SpeedrunTimerPosX": "速通计时器X轴坐标",
+				"SpeedrunTimerPosY": "速通计时器Y轴坐标",
+				"StealthInvisibility": "潜行隐身",
+				"StealthMeter": "潜行条",
+				"StealthMeterPosX": "潜行条X轴坐标",
+				"StealthMeterPosY": "潜行条Y轴坐标",
+				"SulphuricWaterMeterPosX": "硫磺海水腐蚀条X轴坐标",
+                "SulphuricWaterMeterPosY": "硫磺海水腐蚀条Y轴坐标",
+				
+				"TownNPCSpawnRateMultiplier": "城镇NPC生成率乘算器",
+				"TownNPCsSpawnAtNight": "城镇NPC在夜间生成",
+				"VanillaCooldownDisplay": "原版冷却显示",
+				"WikiStatusMessage": "Wiki状态信息",
 			}
 
 			EntryTooltip:
@@ -84,11 +85,11 @@ Mods:
 				"EarlyHardmodeProgressionRework": "破坏邪恶祭坛不再生成矿石和邪恶物块。\n首次击杀血肉墙会使钯金矿和钴矿在世界中生成。\n第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。\n第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。\n首次击败第三个机械boss会使神圣矿在世界中生成。",
 				"ForceTownSafety": "通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。\n这可能会产生意想不到的副作用，例如使动物难以找到。",
 				"MeterPosLock": "开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。",
-				"FasterBaseSpeed": "增加玩家基础移动速度",
-    		    "HigherJumpHeight": "增加玩家基础跳跃高度",
-    		    "FasterJumpSpeed": "增加玩家基础跳跃速度",
-    		    "FasterFallHotkey": "按住快捷键增加玩家下落速度",
-    		    "FasterTilePlacement": "增加玩家基础放置速度",
+			  	"FasterBaseSpeed": "增加玩家基础移动速度",
+       		    "HigherJumpHeight": "增加玩家基础跳跃高度",
+       		    "FasterJumpSpeed": "增加玩家基础跳跃速度",
+        		"FasterFallHotkey": "按住快捷键增加玩家下落速度",
+        		"FasterTilePlacement": "增加玩家基础放置速度",
 				"NerfExpertDebuffs": "禁用专家和大师模式减益持续时间的翻倍。\n灾厄围绕启用的此设置进行平衡。",
 				"ParticleLimit": "设定同时存在的最大粒子数。\n粒子和溅血效果是分开的。\n调低以提升性能。",
 				"Proficiency": "启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。\n禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。",
@@ -104,6 +105,8 @@ Mods:
 				"StealthMeter": "开启显示玩家当前潜行值的潜行条。\n如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。",
 				"StealthMeterPosX": "潜行条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
 				"StealthMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
+				"SulphuricWaterMeterPosX": "硫磺海水腐蚀条的 X 坐标位置，测量的是屏幕宽度的百分比。\n如果属性条位置锁定被关闭，则该条可以被鼠标拖动。",
+                "SulphuricWaterMeterPosY": "硫磺海水腐蚀条的 Y 坐标位置，测量的是屏幕高度的百分比。\n如果属性条位置锁定被关闭，则该条可以被鼠标拖动。",
 				"TownNPCSpawnRateMultiplier": "此数值越高，城镇 NPC 生成的速率越快。",
 				"TownNPCsSpawnAtNight": "玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。",
 				"VanillaCooldownDisplay": "为混沌状态和药水疾病添加特定冷却图标。\n这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。",
@@ -266,7 +269,8 @@ ItemTooltip:
 		},
 	}
 
-	Prefix: {
+	Prefix:
+	{
 		Atrocious: "糟糕"
 		Blunt: "钝化"
 		Camouflaged: "伪装"
@@ -308,6 +312,8 @@ ItemTooltip:
 		Tenebris: "黑渊石"
 		EutrophicSand: "富营养沙"
 		ViperVines: "蝰蛇藤蔓"
+		SulphurousColumn: "硫海石柱"
+		SulphurousVines: "硫海藤蔓"
 
 		AstralPylonTile: "{$Mods.CalamityMod.ItemName.AstralPylon}"
         CragsPylonTile: "{$Mods.CalamityMod.ItemName.CragsPylon}"
@@ -412,7 +418,7 @@ ItemTooltip:
 		ScavengerLaser: "回旋镖"
 		ScavengerNuke: "制导核导弹"
 		ShadeNimbusHostile: "乌云"
-		ShaderainHostile: "阴影雨"
+		ShaderainHostile: "Shade Rain"
 		ShadowflameFireball: "暗影火球"
 		Shadowflamethrower: "影炎之息"
 		SignusScythe: "西格纳斯鬼镰"
@@ -639,7 +645,7 @@ ItemTooltip:
 		SupremeDustFlakProjectile: "至尊之尘"
 		SupremeDustProjectile: "至尊之尘"
 		TearsofHeavenProjectile: "天堂之泪"
-		TerraBeam: "光束"
+		TerraBeam: "Beam"
 		ThunderstormShot: "雷电风暴"
 		ThunderstormShotSplit: "雷电风暴"
 		TradewindsProjectile: "信风羽"
@@ -782,7 +788,7 @@ ItemTooltip:
 		HolyColliderHolyFire: "集束焰火"
 		HyperBlade: "至尊之刃"
 		Iceberg: "冰川"
-		IceBombFriendly: "冰川爆弹"
+		IceBombFriendly: "Ice Bomb"
 		InsidiousHarpoon: "鱼叉"
 		JudgementBlah: "‘巴拉’光束"
 		JudgementProj: "裁决"
@@ -1335,7 +1341,7 @@ ItemTooltip:
 		TotalityTar: "浓缩焦油"
 		TurbulanceProjectile: "乱流长枪"
 		TurbulanceWindSlash: "风斩"
-		UmbraphileBoom: "本影爆破"
+		UmbraphileBoom: "Umbra Blast"
 		UrchinStingerProj: "海胆刺"
 		ValariBoomerang: "霜碎回力标"
 		Valaricicle: "碎冰"
@@ -1437,7 +1443,7 @@ ItemTooltip:
 		SolarBeam: "激光"
 		SolarGod: "太阳神"
 		SolarPixie: "太阳精灵"
-		SonOfYharon: "火龙卷"
+		SonOfYharon: "Draconid"
 		Spikecrag: "尖峰岩"
 		SpikecragSpike: "尖峰岩刺"
 		SquirrelSquireAcorn: "橡子"
@@ -1814,8 +1820,8 @@ ItemTooltip:
 		DesertMark: "荒漠遗印"
 		DesertTornado: "沙尘卷"
 		DualpoonProj: "双叉枪"
-		ExoLight: "星流耀光"
-		ExoSpark: "星流花火"
+		ExoLight: "Exo Light"
+		ExoSpark: "神圣花火"
 		ImpactRound: "冲击波"
 		PiercingBullet: "穿甲弹"
 		UltimaBolt: "创世之光"
@@ -1937,10 +1943,10 @@ ItemTooltip:
 		RancorLaserbeam: "怨戾激光"
 		RancorMagicCircle: "怨戾魔法阵"
 		RancorSmallCinder: "熔岩"
-		RedirectingFire: "火焰"
-		RedirectingGildedSoul: "镀金之魂"
-		RedirectingLostSoul: "灵魂"
-		RedirectingVengefulSoul: "灵魂"
+		RedirectingFire: "Fire"
+		RedirectingGildedSoul: "Gilded Soul"
+		RedirectingLostSoul: "Soul"
+		RedirectingVengefulSoul: "Soul"
 		SilvaBurst: "始源林海爆炸"
 		SmallSpirit: "愤怒灵魂"
 		SolarElementalBeam: "光束"
@@ -1995,7 +2001,7 @@ ItemTooltip:
 		PrismExplosionLarge: "爆炸"
 		PrismExplosionSmall: "爆炸"
 		PrismMine: "雷"
-		SurgeDriverHoldout: "煌晖御流炮"
+		SurgeDriverHoldout: "Surge Driver"
 		TelluricGlareArrow: "辐光之箭"
 		CorpusAvertorStealth: "憎恶血刃"
 		MangroveChakramFlower: "花"
@@ -2223,16 +2229,7 @@ GameTips:
 }
 		
 		# --- Dialogos ---
-		MeleeLevelUp: "近战熟练度升级了！"
-		MeleeLevelUpFinal: "近战熟练度满级了！"
-		RangedLevelUp: "远程熟练度升级了！"
-		RangedLevelUpFinal: "远程熟练度满级了！"
-		MagicLevelUp: "魔法熟练度升级了！"
-		MagicLevelUpFinal: "魔法熟练度满级了!"
-		SummonLevelUp: "召唤熟练度升级了！"
-		SummonLevelUpFinal: "召唤熟练度满级了！"
-		RogueLevelUp: "盗贼熟练度升级了！"
-		RogueLevelUpFinal: "盗贼熟练度满级了！"
+		SlimeGodRun: "史莱姆之神落荒而逃，改日再战吧……"
 		SkyOreText: "苍青色的光辉照耀着这片土地。"
 		IceOreText: "寒晶能量从冰之洞穴中迸发而出。"
 		PlantOreText: "富含能量的植物物质已在地下形成。"
@@ -2394,4 +2391,116 @@ GameTips:
 		PhantomHeartText: "你已经使用过幻影之心。不再使用应该是明智之选。"
 
 	}
+
+#---无效部分---
+    Mods.CalamityCN.CalamityMod: {
+	Buff:
+	{
+	Vanilla: {
+                Endurance: {
+                    Description: Test 5%
+                }
+                
+                MagicPower: {
+                    Description: Test 10%
+                }
+                
+                Archery: {
+                    Description: Test 20%, Test 5%
+                }
+                
+                Swiftness: {
+                    Description: Test 15%
+                }
+                
+                SugarRush: {
+                    Description: Test 10%, Test 20%
+                }
+                
+                NebulaUpDmg1: {
+                    Description: Test 7.5%
+                }
+                
+                NebulaUpDmg2: {
+                    Description: Test 15%
+                }
+                
+                NebulaUpDmg3: {
+                    Description: Test 22.5%
+                }
+                
+                BeetleMight1: {
+                    Description: Test 10%
+                }
+                
+                BeetleMight2: {
+                    Description: Test 20%
+                }
+                
+                BeetleMight3: {
+                    Description: Test 30%
+                }
+                
+                BeetleEndurance1: {
+                    Description: Test 10%
+                }
+                
+                BeetleEndurance2: {
+                    Description: Test 20%
+                }
+                
+                BeetleEndurance3: {
+                    Description: Test 30%
+                }
+                
+                WeaponImbueVenom: {
+                    Description: Test «{$BuffName.Venom}»
+                }
+                
+                WeaponImbueCursedFlames: {
+                    Description: Test «{$BuffName.CursedInferno}»
+                }
+                
+                WeaponImbueFire: {
+                    Description: Test «{$BuffName.OnFire}»
+                }
+                
+                WeaponImbueGold: {
+                    Description: Test «{$BuffName.Midas}»
+                }
+                
+                WeaponImbueIchor: {
+                    Description: Test «{$BuffName.Ichor}»
+                }
+                
+                WeaponImbueNanites: {
+                    Description: Test «{$BuffName.Confused}»
+                }
+                
+                WeaponImbueConfetti: {
+                    Description: Test
+                }
+                
+                WeaponImbuePoison: {
+                    Description: Test «{$BuffName.Poisoned}»
+                }
+                
+                IceBarrier: {
+                    Description: Test 15%
+                }
+                
+                ChaosState: {
+                    Description: 裂位
+                }
+
+                Warmth: {
+                    Description:
+                        '''
+                        {$BuffDescription.Warmth}
+                        Test «{$BuffName.Chilled}», «{$BuffName.Frozen}»
+                        '''
+                }
+            }
+	    }
+    }
 }

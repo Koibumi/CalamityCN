@@ -1,3 +1,4 @@
+
 using System.Globalization;
 using System.Reflection;
 using System.Threading;
@@ -28,8 +29,16 @@ namespace CalamityCN
 
         public override void PostSetupContent()
         {
+            ModLoader.TryGetMod("CalamityMod", out Mod Calamity);
+            /*ModLoader.TryGetMod("Wikithis", out Mod wikithis);
+            if (wikithis != null && !Main.dedServ)
+            {
+                wikithis.Call(0, Calamity, "soammer.com/calamitywiki", GameCulture.CultureName.Chinese);
+            }
+            得改网址XD
+             */
 
-            if (ModLoader.TryGetMod("CalamityMod", out Mod Calamity))
+            if (Calamity !=null)
             {
 
                 ItemNameDict.Load();
