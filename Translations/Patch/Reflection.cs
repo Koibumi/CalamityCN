@@ -19,7 +19,7 @@ namespace CalamityCN.Translations.Patch
 		{
 
 				List<ValueTuple<string, string>> list = new List<ValueTuple<string, string>>();
-			list.Add(new ValueTuple<string, string>("Exhume", "(死灵炼注)将该物品转化为更加强大的物品。"));
+			list.Add(new ValueTuple<string, string>("Exhume", "（死灵炼注）将该物品转化为更加强大的物品。"));
 			list.Add(new ValueTuple<string, string>("愤慨", "使用时召唤一个恶魔攻击你，但恶魔死亡后会产生治愈射线治疗你。"));
 			list.Add(new ValueTuple<string, string>("魔焱", "攻击会点燃目标，但拿着该物品时会受到伤害性减益。"));
 			list.Add(new ValueTuple<string, string>("献奉", "减少魔力消耗并大幅增加伤害，但使用该物品偶尔会消耗你的生命值。"));
