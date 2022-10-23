@@ -119,7 +119,7 @@ namespace CalamityCN
                 {"OceanCrest", "海波项链".zh()},
                 {"OldDie", "赌徒骰子".zh()},
                 {"OrnateShield", "宝光盾牌".zh()},
-                {"PermafrostsConcoction", "永冻之秘药".zh()},
+                {"PermafrostsConcoction", "永冻秘药".zh()},
                 {"PlaguedFuelPack", "瘟疫燃料背包".zh()},
                 {"PlagueHive", "瘟疫蜂巢".zh()},
                 {"ProfanedSoulArtifact", "渎魂神物".zh()},
