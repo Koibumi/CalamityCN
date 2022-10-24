@@ -1204,7 +1204,7 @@ public class NPCgb : GlobalNPC
             int i = 0;
             if (chat.EndsWith(fabSpecialQuote))
             {
-                chat = chat.Replace("Hey ", "嘿 ".zh()).Replace(" and ", " 和 ".zh()).Replace(fabSpecialQuote, "你们都好棒!".zh());
+                chat = chat.Replace("Hey ", "嘿 ".zh()).Replace(" and ", " 和 ".zh()).Replace(fabSpecialQuote, "你们都好棒！".zh());
                 found = true;
             }
             while (i < translatedChat.Length && !found)

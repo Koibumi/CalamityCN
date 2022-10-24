@@ -146,7 +146,7 @@ namespace CalamityCN
 			if (type == ModContent.NPCType<BabyFlakCrab>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("奇怪的是，在它们足够小的时候捕获一只的话，这些似乎足够聪明的生物会给你打上父母的烙印，并在之后永远伴随着你!".zh()));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("奇怪的是，在它们足够小的时候捕获一只的话，这些似乎足够聪明的生物会给你打上父母的烙印，并在之后永远伴随着你！".zh()));
 			}
 			if (type == ModContent.NPCType<BabyGhostBell>())
 			{
