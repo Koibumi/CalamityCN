@@ -272,7 +272,7 @@ public class Itemgb : GlobalItem
             }
             else if (set == "ReaverExp")
             {
-                player.setBonus = "令附近的宝藏闪闪发光\n提升物品拾取距离和物块放置距离\n在水下挖掘物块时恢复氧气\n召唤一个掠夺者毒球照亮周围区域\n降低敌人的进攻性，即便身处深渊\n在深渊中提供微量光照".zh();
+                player.setBonus = "令附近的宝藏闪闪发光\n提升物品拾取距离和物块放置距离\n在水下挖掘物块时恢复氧气\n召唤一个掠夺者毒球照亮周围区域\n降低敌人的进攻性，即便身处深渊\n在深渊中提供少量光照".zh();
             }
             else if (set == "ReaverTan")
             {
@@ -1732,7 +1732,7 @@ public class Itemgb : GlobalItem
 
                 if (item.type == 298 || item.type == 425 || item.type == 3856)
                 {
-                    line.Text = line.Text.Replace("Provides a moderate amount of light in the abyss", "在深渊中提供适当光照".zh());
+                    line.Text = line.Text.Replace("Provides a moderate amount of light in the abyss", "在深渊中提供适量光照".zh());
                 }
 
                 if (item.type == 1183 || item.type == 4812 || item.type == 4807 || item.type == 4811 || item.type == 3577)
