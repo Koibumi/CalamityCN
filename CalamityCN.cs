@@ -1,13 +1,15 @@
-
-using System.Globalization;
+using CalamityCN.Translations.Patch;
+using MonoMod.Cil;
+using MonoMod.RuntimeDetour;
+using System;
+using System.Collections.Generic;
 using System.Reflection;
-using System.Threading;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using static On.Terraria.GameContent.UI.Elements.UIKeybindingListItem;
-using static On.Terraria.Localization.LanguageManager;
+
 
 namespace CalamityCN
 {
@@ -16,15 +18,35 @@ namespace CalamityCN
         private static CalamityCN _instance;
         public static CalamityCN Instance => _instance;
 
+        private List<Hook> _onHooks;
+
         public override void Load()
         {
             _instance = this;
-            SetLanguage_GameCulture += Fix;
             GetFriendlyName += TranslatedFriendlyName;
-            Main.QueueMainThreadAction(() =>
+            MonoModHooks.RequestNativeAccess();
+            this._onHooks = new List<Hook>();
+            foreach (Type type in CalamityCN._instance.Code.GetTypes())
             {
-                Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
-            });
+                if (type.IsSubclassOf(typeof(OnPatcher)))
+                {
+                    OnPatcher onPatcher = Activator.CreateInstance(type) as OnPatcher;
+                    if (onPatcher != null && onPatcher.AutoLoad)
+                    {
+                        this._onHooks.Add(new Hook(onPatcher.ModifiedMethod, onPatcher.Delegate));
+                    }
+                }
+            }
+            if (this._onHooks.Count > 0)
+            {
+                foreach (Hook hook in this._onHooks)
+                {
+                    if (hook != null)
+                    {
+                        hook.Apply();
+                    }
+                }
+            }
         }
 
         public override void PostSetupContent()
@@ -35,7 +57,7 @@ namespace CalamityCN
             {
                 wikithis.Call(0, Calamity, "soammer.com/calamitywiki", GameCulture.CultureName.Chinese);
             }
-            得改网址XD
+            /wiki/{}XD
              */
 
             if (Calamity !=null)
@@ -47,35 +69,22 @@ namespace CalamityCN
                 BuffNameDict.Load();
                 BuffDescriptionDict.Load();
 
-
-
-                //物品名称
                 foreach (var itemName in ItemNameDict.ItemName)
                 {
                     Calamity.Find<ModItem>(itemName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, itemName.Value);
                 }
-
-                //物品说明
                 foreach (var itemTooltip in ItemToolTipDict.ItemToolTip)
                 {
                     Calamity.Find<ModItem>(itemTooltip.Key).Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, itemTooltip.Value);
                 }
-
-
-                //Buff名称
                 foreach (var effectName in BuffNameDict.EffectName)
                 {
                     Calamity.Find<ModBuff>(effectName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, effectName.Value);
                 }
-
-                //Buff说明
                 foreach (var effectDescription in BuffDescriptionDict.EffectDescription)
                 {
                     Calamity.Find<ModBuff>(effectDescription.Key).Description.AddTranslation((int)GameCulture.CultureName.Chinese, effectDescription.Value);
                 }
-
-
-                //NPC名称
                 foreach (var npcName in NPCNameDict.NPCName)
                 {
                     Calamity.Find<ModNPC>(npcName.Key).DisplayName.AddTranslation(7, npcName.Value);
@@ -84,11 +93,6 @@ namespace CalamityCN
         }
         public override void Unload()
         {
-            Main.QueueMainThreadAction(() =>
-            {
-                Thread.CurrentThread.CurrentCulture = Language.ActiveCulture.CultureInfo;
-            });
-            SetLanguage_GameCulture -= Fix;
             GetFriendlyName -= TranslatedFriendlyName;
 
             ItemNameDict.Unload();
@@ -99,13 +103,19 @@ namespace CalamityCN
 
             _instance = null;
             CalamityCNConfig.Instance = null;
+            if (this._onHooks != null)
+            {
+                foreach (Hook hook in this._onHooks)
+                {
+                    if (hook != null)
+                    {
+                        hook.Dispose();
+                    }
+                }
+            }
+            this._onHooks = null;
         }
 
-        private void Fix(orig_SetLanguage_GameCulture orig, LanguageManager self, GameCulture culture)
-        {
-            orig.Invoke(self, culture);
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
-        }
         private string TranslatedFriendlyName(orig_GetFriendlyName orig, UIKeybindingListItem item)
         {
             string keybindName = item.GetType().GetField("_keybind", (BindingFlags)60).GetValue(item) as string;

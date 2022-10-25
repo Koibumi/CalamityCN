@@ -1689,64 +1689,58 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("The dodge has a 90 second cooldown which is shared with all other dodges and reflects", "闪避有90秒冷却，且与其他闪避和反弹效果共享冷却".zh());
                 }
 
-                if (item.type == 3016 || item.type == 3992 || item.type == 3998)
+                if (item.type == ItemID.FleshKnuckles || item.type == ItemID.BerserkerGlove || item.type == ItemID.HeroShield)
                 {
                     line.Text = line.Text.Replace("Max life increased by 45", "最大生命增加45".zh());
                 }
 
-                if (item.type == 897 || item.type == 936 || item.type == 3992)
+                if (item.type == ItemID.PowerGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
                 {
                     line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%".zh());
                 }
 
-                if (item.type == 1343)
+                if (item.type == ItemID.FireGauntlet)
                 {
                     line.Text = line.Text.Replace("14% increased melee damage and speed", "近战伤害和攻速增加14%".zh());
                     line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%".zh());
                 }
 
-                if (item.type == 899)
+                if (item.type == ItemID.SunStone)
                 {
                     line.Text = line.Text.Replace("Grants immunity to Holy Flames", "免疫神圣之火减益".zh());
                 }
 
-                if (item.type == 900)
+                if (item.type == ItemID.MoonStone)
                 {
                     line.Text = line.Text.Replace("Grants immunity to Nightwither", "免疫夜魇减益".zh());
                 }
 
-                if (item.type == 1865 || item.type == 3110)
+                if (item.type == ItemID.CelestialStone || item.type == ItemID.CelestialShell)
                 {
                     line.Text = line.Text.Replace("Grants immunity to Nightwither and Holy Flames", "免疫夜魇和神圣之火减益".zh());
                 }
 
-                if (item.type == 268 || item.type == 1861 || item.type == 3110)
+                if (item.type == ItemID.DivingHelmet || item.type == ItemID.ArcticDivingGear || item.type == ItemID.CelestialShell)
                 {
                     line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难".zh());
                 }
 
-                if (item.type == 3062 || item.type == 115 || item.type == 3043 || item.type == 1303 || item.type == 88 || item.type == 4008 || item.type == 1860 || item.type == 5107)
+                if (item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type==ItemID.MiningHelmet)
                 {
                     line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照".zh());
                 }
 
-                if (item.type == 298 || item.type == 425 || item.type == 3856)
+                if (item.type == ItemID.FairyBell || item.type == ItemID.DD2PetGhost || item.type == ItemID.ShinePotion)
                 {
                     line.Text = line.Text.Replace("Provides a moderate amount of light in the abyss", "在深渊中提供适量光照".zh());
                 }
 
-                if (item.type == 1183 || item.type == 4812 || item.type == 4807 || item.type == 4811 || item.type == 3577)
+                if (item.type == ItemID.WispinaBottle || item.type == ItemID.SuspiciousLookingTentacle || item.type == ItemID.GolemPetItem || item.type == ItemID.FairyQueenPetItem || item.type == ItemID.PumpkingPetItem)
                 {
                     line.Text = line.Text.Replace("Provides a large amount of light in the abyss", "在深渊中提供大量光照".zh());
                 }
 
-                if (item.type == 1861)
-			    {
-					line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照".zh());
-                    line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难".zh());
-			    }
-
-                if (item.type == 4989)
+                if (item.type == ItemID.EmpressFlightBooster)
                 {
                     line.Text = line.Text.Replace("Increases wing flight time by 25%", "翅膀飞行时间增加25%".zh());
                     line.Text = line.Text.Replace("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高1.1倍".zh());

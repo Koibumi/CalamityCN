@@ -5,10 +5,10 @@ namespace CalamityCN.Translations.Patch
 {
     public class TranslationManager : ModSystem
     {
-        public static bool IsLanguageActive => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
+
         public override void Load()
         {
-            if (IsLanguageActive)
+            if (LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese))
             {
                 MonoModHooks.RequestNativeAccess();
                 ModePatch.Load();
