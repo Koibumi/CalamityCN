@@ -37,6 +37,7 @@ namespace CalamityCN
                 { "LuminousCorvina", "流光石首鱼".zh() },
                 { "MantisShrimp", "螳螂虾".zh() },
                 { "Mauler", "渊海狂鲨".zh() },
+                { "GreatSandShark", " 旱海狂鲨".zh() },
                 { "MirageJelly", "幻海水母".zh() },
                 { "MorayEel", "海鳝".zh() },
                 { "OarfishBody", "桨鱼".zh() },

@@ -1725,17 +1725,17 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难".zh());
                 }
 
-                if (item.type == 1303 || item.type == 1860 || item.type == 1861 || item.type == 115 || item.type == 3062 || item.type == 3043 || item.type ==5107 || item.type==ItemID.MiningHelmet)
+                if (item.type == 3062 || item.type == 115 || item.type == 3043 || item.type == 1303 || item.type == 88 || item.type == 4008 || item.type == 1860 || item.type == 5107)
                 {
                     line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照".zh());
                 }
 
-                if (item.type == 425 || item.type == 3856 || item.type == 298)
+                if (item.type == 298 || item.type == 425 || item.type == 3856)
                 {
                     line.Text = line.Text.Replace("Provides a moderate amount of light in the abyss", "在深渊中提供适当光照".zh());
                 }
 
-                if (item.type == 1183 || item.type == 3577)
+                if (item.type == 1183 || item.type == 4812 || item.type == 4807 || item.type == 4811 || item.type == 3577)
                 {
                     line.Text = line.Text.Replace("Provides a large amount of light in the abyss", "在深渊中提供大量光照".zh());
                 }
