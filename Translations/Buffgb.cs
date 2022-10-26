@@ -116,7 +116,7 @@ namespace CalamityCN.Translations
 						default:
 							if (type == 114)
 							{
-								tip = "减少5%伤害";
+								tip = "所受伤害降低5%";
 							}
 							break;
 					}
@@ -152,6 +152,14 @@ namespace CalamityCN.Translations
 		else if (type == 192)
 		{
 			tip = "移动速度提高10%，挖掘速度提高20%";
+		}
+		else if (type == 206)
+		{
+			tip = "所有属性中幅度提升";
+		}
+		else if (type == 207)
+		{
+			tip = "所有属性大幅度提升";
 		}
 			if (!tip.Equals(""))
 		{
