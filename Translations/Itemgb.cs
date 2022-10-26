@@ -1587,6 +1587,11 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Inflicts Shadowflame on hit", "命中造成暗影焰减益".zh());
                 }
 
+                if (item.type == 2608)
+                {
+                    line.Text = line.Text.Replace("Holding this item grants +20% increased movement speed", "手持此物品时会获得20%移动速度加成".zh());
+                }
+                
                 if (item.type == 426 || item.type == 1166 || item.type == 3772)
                 {
                     line.Text = line.Text.Replace("Ignores 50% of enemy defense", "无视敌怪50%的防御力".zh());
