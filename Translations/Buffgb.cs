@@ -25,7 +25,7 @@ namespace CalamityCN.Translations
 					}
 					else
 					{
-						tip = "增加10%魔法伤害";
+						tip = "魔法伤害增加10%";
 					}
 				}
 				else
@@ -39,7 +39,7 @@ namespace CalamityCN.Translations
 				{
 					if (type == 62)
 					{
-						tip = "伤害减免15%";
+						tip = "所受伤害降低15%";
 					}
 				}
 				else
@@ -96,13 +96,13 @@ namespace CalamityCN.Translations
 						case 94:
 							break;
 						case 95:
-							tip = "伤害减免10%";
+							tip = "所受伤害降低10%";
 							break;
 						case 96:
-							tip = "伤害减免20%";
+							tip = "所受伤害降低20%";
 							break;
 						case 97:
-							tip = "伤害减免30%";
+							tip = "所受伤害降低30%";
 							break;
 						case 98:
 							tip = "伤害增加10%";
@@ -151,7 +151,7 @@ namespace CalamityCN.Translations
 		}
 		else if (type == 192)
 		{
-			tip = "移动速度提高10%，挖掘速度提高20%";
+			tip = "移动速度增加10%，挖掘速度增加20%";
 		}
 		else if (type == 206)
 		{
