@@ -105,13 +105,8 @@ namespace CalamityCN.Translations
 							tip = "所受伤害降低30%";
 							break;
 						case 98:
-							tip = "伤害增加10%";
-							break;
 						case 99:
-							tip = "伤害增加20%";
-							break;
 						case 100:
-							tip = "伤害增加30%";
 							break;
 						default:
 							if (type == 114)
