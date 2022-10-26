@@ -1750,12 +1750,6 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Provides a large amount of light in the abyss", "在深渊中提供大量光照".zh());
                 }
 
-                if (item.type == 1861)
-			    {
-					line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照".zh());
-                    line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难".zh());
-			    }
-
                 if (item.type == ItemID.EmpressFlightBooster)
                 {
                     line.Text = line.Text.Replace("Increases wing flight time by 25%", "翅膀飞行时间增加25%".zh());
