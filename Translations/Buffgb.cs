@@ -142,7 +142,7 @@ namespace CalamityCN.Translations
 			}
 			else
 			{
-				tip = "减少冷系伤害\n免疫冷冻、冰冻和冰河时代减益";
+				tip += "。免疫冷冻、冰冻和冰河时代减益";
 			}
 		}
 		else if (type == 189)
