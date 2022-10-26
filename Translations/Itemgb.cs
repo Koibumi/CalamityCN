@@ -1627,6 +1627,11 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Slows enemies on hit", "命中时减速敌人".zh());
                 }
 
+                if (item.type == 3065 || item.type == 1947 || item.type == 3106)
+                {
+                    line.Text = line.Text.Replace("Receives 33% benefit from melee speed bonuses", "只能享受33%近战攻速加成效果".zh());
+                }
+
                 if (item.type == 3859)
                 {
                     line.Text = line.Text.Replace("Shoots splitting arrows", "射出分裂的箭".zh());
