@@ -860,61 +860,61 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Main Attunement :", "主环境调谐：".zh());
                     line.Text = line.Text.Replace("Secondary Attunement :", "副环境调谐：".zh());
-                    line.Text = line.Text.Replace("Pure Clarity", "纯粹的清澈".zh());
-                    line.Text = line.Text.Replace("Biting Embrace", "凛冽的怀抱".zh());
-                    line.Text = line.Text.Replace("Arid Grandeur", "干涸的堂皇".zh());
-                    line.Text = line.Text.Replace("Decay's Retort", "朽者的反击".zh());
-                    line.Text = line.Text.Replace("Grovetender's Touch", "林妖的鞭笞".zh());
-                    line.Text = line.Text.Replace("None", "无".zh());
-                    line.Text = line.Text.Replace("Does nothing..yet", "没有用处……还没有".zh());
-                    line.Text = line.Text.Replace("Fires a weak projectile that crushes enemy defenses", "射出脆弱的弹幕，撕裂敌人护甲".zh());
-                    line.Text = line.Text.Replace("Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second", "使用冰川凝造之刃进行三连击剑技。最终一剑将短暂冻结来敌".zh());
-                    line.Text = line.Text.Replace("Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air", "令灼热的剑刃在你面前出现，并随着击打敌人而逐渐变大变强。当你在空中时，剑刃也可以用于在物块上弹跳".zh());
-                    line.Text = line.Text.Replace("Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets", "使用鬼魂般高速的投影向前冲刺，并吸取击中敌人的生命值。击中敌人时，你会从敌人处弹开".zh());
-                    line.Text = line.Text.Replace("Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles", "以藤鞭为绳，将刃掷出。使用尖端击中敌人必定暴击。若尖端击中物块，你也会被其拉去".zh());
+                    line.Text = line.Text.Replace("Pure Clarity", "澄澈之纯净".zh());
+                    line.Text = line.Text.Replace("Biting Embrace", "拥怀之凛冽".zh());
+                    line.Text = line.Text.Replace("Arid Grandeur", "伟岸之枯涸".zh());
+                    line.Text = line.Text.Replace("Decay's Retort", "反抗之衰朽".zh());
+                    line.Text = line.Text.Replace("Grovetender's Touch", "林妖之轻抚".zh());
+                    line.Text = line.Text.Replace("None", "无调谐".zh());
+                    line.Text = line.Text.Replace("Does nothing..yet", "似乎没什么用".zh());
+                    line.Text = line.Text.Replace("Fires a weak projectile that crushes enemy defenses", "射出薄弱的弹幕，它将击碎敌怪的防御".zh());
+                    line.Text = line.Text.Replace("Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second", "以冰川凝结为剑身，施行三连剑技，其最终一剑将冻结敌怪".zh());
+                    line.Text = line.Text.Replace("Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air", "于面前召唤多把炙热的剑刃，且击中敌怪次数越多，它们将愈加庞大而锋利。你在半空时，剑刃也能用于在物块之间弹跳".zh());
+                    line.Text = line.Text.Replace("Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets", "依靠幽魅的剑影向前冲锋，汲取击中敌怪的生命，并从其身上弹开".zh());
+                    line.Text = line.Text.Replace("Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles", "将剑刃绑在藤蔓一端，挥舞藤鞭。刃尖击中敌怪必定暴击，而击中物块时将把你拉去".zh());
                 }
                 if (item.type == ModContent.ItemType<TrueBiomeBlade>())
                 {
                     line.Text = line.Text.Replace("Main Attunement :", "主环境调谐：".zh());
                     line.Text = line.Text.Replace("Secondary Attunement :", "副环境调谐：".zh());
-                    line.Text = line.Text.Replace("Pure Clarity", "纯粹的清澈".zh());
-                    line.Text = line.Text.Replace("Biting Embrace", "凛冽的怀抱".zh());
-                    line.Text = line.Text.Replace("Arid Grandeur", "干涸的堂皇".zh());
-                    line.Text = line.Text.Replace("Decay's Retort", "朽者的反击".zh());
-                    line.Text = line.Text.Replace("Grovetender's Touch", "林妖的鞭笞".zh());
-                    line.Text = line.Text.Replace("Heaven's Might", "天堂的迫力".zh());
-                    line.Text = line.Text.Replace("Extant Abhorrence", "尚存的憎恶".zh());
-					line.Text = line.Text.Replace("Gesture for the Drowned", "溺者之势".zh());
-                    line.Text = line.Text.Replace("None", "无".zh());
-                    line.Text = line.Text.Replace("Does nothing..yet", "没有用处……起码目前还没有".zh());
-                    line.Text = line.Text.Replace("Repairing the blade seems to have improved its attuning capacities", "看上去，修复此剑增强了它的调谐能力".zh());
-                    line.Text = line.Text.Replace("Fires a weak projectile that crushes enemy defenses", "射出脆弱的弹幕，撕裂敌人护甲".zh());
-                    line.Text = line.Text.Replace("Landing true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes", "使用真近战击中敌人将置一纯净之符于其身上。你的弹幕追踪被标记的敌人".zh());
-                    line.Text = line.Text.Replace("Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second", "使用冰川凝造之刃进行三连击剑技。最终一剑将短暂冻结来敌".zh());
-                    line.Text = line.Text.Replace("Lingering glacial mist is released on each swing, dealing damage to enemies wandering into it", "每次挥动都会释放于空中弥漫的冰雾，对在其中徘徊的敌人造成伤害".zh());
-                    line.Text = line.Text.Replace("Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air", "令灼热的剑刃在你面前出现，并随着击打敌人而逐渐变大变强。当你在空中时，剑刃也可以用于在物块上弹跳".zh());
-                    line.Text = line.Text.Replace("Releasing the attack button after the blades are fully charged sends them hurtling forwards to shred your foes", "松开攻击键将会使满蓄力的剑刃向前飞驰，撕裂途径的敌人".zh());
-                    line.Text = line.Text.Replace("Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets", "使用鬼魂般高速的投影向前冲刺，并吸取击中敌人的生命值。击中敌人时，你会从敌人处弹开".zh());
-                    line.Text = line.Text.Replace("Landing three strikes without touching the ground changes your next attack into an empowered dash thrust", "若在触碰地面之前成功进行了三次打击，你的下一次攻击会变成强化的突刺冲锋".zh());
-                    line.Text = line.Text.Replace("Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles", "以藤鞭为绳，将刃掷出。使用尖端击中敌人必定暴击。若尖端击中物块，你也会被其拉去".zh());
-                    line.Text = line.Text.Replace("Spreading vines sprout from critical strikes. These vines can hit up to three targets", "暴击会使得藤蔓蔓延。藤蔓最多击中三个敌人".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to charge a star-piercing lunge, release to unleash the devastating blow", "按住攻击键来为一次足以穿透星辰的猛冲蓄力，松开以释放这一打击".zh());
-                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which raises otherworldly monoliths", "将此猛冲施加给地面将导致巨大的冲击，使得异界巨石破地而出".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to swing the sword around you, accelerating over time", "按住攻击键使用回旋斩，随时间逐渐加速".zh());
-                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor. The sword then quickly returns to your hand", "松开攻击键将剑向鼠标猛投出去。剑将会迅速回到你手中".zh());
-					line.Text = line.Text.Replace("Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground", "向两周射出水球。水中击中地面时会化作滑行的小冲击波".zh());
-					line.Text = line.Text.Replace("Waves fired while underwater or that touch water will become much larger and faster", "触碰到水的冲击波会变得巨大且飞快".zh());
+                    line.Text = line.Text.Replace("Pure Clarity", "澄澈之纯净".zh());
+                    line.Text = line.Text.Replace("Biting Embrace", "拥怀之凛冽".zh());
+                    line.Text = line.Text.Replace("Arid Grandeur", "伟岸之枯涸".zh());
+                    line.Text = line.Text.Replace("Decay's Retort", "反抗之衰朽".zh());
+                    line.Text = line.Text.Replace("Grovetender's Touch", "林妖之轻抚".zh());
+                    line.Text = line.Text.Replace("Heaven's Might", "天国之神威".zh());
+                    line.Text = line.Text.Replace("Extant Abhorrence", "嫌恶之永存".zh());
+					line.Text = line.Text.Replace("Gesture for the Drowned", "溺死之亡姿".zh());
+                    line.Text = line.Text.Replace("None", "无调谐".zh());
+                    line.Text = line.Text.Replace("Does nothing..yet", "暂无所长，静待调谐。".zh());
+                    line.Text = line.Text.Replace("Repairing the blade seems to have improved its attuning capacities", "似乎你对它的修复增强了它的调谐能力".zh());
+                    line.Text = line.Text.Replace("Fires a weak projectile that crushes enemy defenses", "射出薄弱的弹幕，它将击碎敌怪的防御".zh());
+                    line.Text = line.Text.Replace("Landing true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes", "剑刃本身将以纯净之符标记命中的敌怪，被标记者会被剑气追踪".zh());
+                    line.Text = line.Text.Replace("Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second", "以冰川凝结为剑身，施行三连剑技，其最终一剑将冻结敌怪".zh());
+                    line.Text = line.Text.Replace("Lingering glacial mist is released on each swing, dealing damage to enemies wandering into it", "挥舞时，极寒之雾将从剑身涌出，在空中弥漫，并挫伤其中的生灵".zh());
+                    line.Text = line.Text.Replace("Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air", "于面前召唤多把炙热的剑刃，且击中敌怪次数越多，它们将愈加庞大而锋利。你在半空时，剑刃也能用于在物块之间弹跳".zh());
+                    line.Text = line.Text.Replace("Releasing the attack button after the blades are fully charged sends them hurtling forwards to shred your foes", "剑刃蓄力达到巅峰时，停止攻击，它们将向前飞驰，撕碎敌怪".zh());
+                    line.Text = line.Text.Replace("Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets", "依靠幽魅的剑影向前冲锋，汲取击中敌怪的生命，并从其身上弹开".zh());
+                    line.Text = line.Text.Replace("Landing three strikes without touching the ground changes your next attack into an empowered dash thrust", "命中三次攻击而不落地，下一剑将变为强化的突刺冲锋".zh());
+                    line.Text = line.Text.Replace("Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles", "将剑刃绑在藤蔓一端，挥舞藤鞭。刃尖击中敌怪必定暴击，而击中物块时将把你拉去".zh());
+                    line.Text = line.Text.Replace("Spreading vines sprout from critical strikes. These vines can hit up to three targets", "暴击使藤蔓蔓延，它最多可以击中三个目标".zh());
+                    line.Text = line.Text.Replace("Hold the attack button to charge a star-piercing lunge, release to unleash the devastating blow", "按住攻击，为贯穿星辰的冲锋蓄力，松开以释放这一毁灭性打击".zh());
+                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which raises otherworldly monoliths", "撞击地面将引起地动山摇，异界巨石破土而出".zh());
+                    line.Text = line.Text.Replace("Hold the attack button to swing the sword around you, accelerating over time", "使用回旋斩，随按住时间增加旋转速度".zh());
+                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor. The sword then quickly returns to your hand", "使用回旋斩时松开攻击将剑掷出，它会在这之后快速回到你手中".zh());
+					line.Text = line.Text.Replace("Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground", "向两侧投放水球，它们落地后会激发小型海浪沿地面滑行".zh());
+					line.Text = line.Text.Replace("Waves fired while underwater or that touch water will become much larger and faster", "若水球接触到水，它激起的浪花将变得巨大且飞快".zh());
                 }
                 if (item.type == ModContent.ItemType<OmegaBiomeBlade>())
                 {
-                    line.Text = line.Text.Replace("Active Attunement :", "核心环境调谐：".zh());
-                    line.Text = line.Text.Replace("Passive Attunement :", "辅助环境调谐：".zh());
+                    line.Text = line.Text.Replace("Active Attunement :", "主环境调谐：".zh());
+                    line.Text = line.Text.Replace("Passive Attunement :", "副环境调谐：".zh());
                     line.Text = line.Text.Replace("Swordsmith's Pride", "刀匠之傲".zh());
                     line.Text = line.Text.Replace("Sanguine Fury", "血红之怒".zh());
                     line.Text = line.Text.Replace("Lamentations of the Chained", "囚徒之哀".zh());
                     line.Text = line.Text.Replace("Mercurial Tides", "变幻之潮".zh());
-                    line.Text = line.Text.Replace("None", "无".zh());
-                    line.Text = line.Text.Replace("Does nothing..yet", "没有力量……至少现在没有".zh());
+                    line.Text = line.Text.Replace("None", "无调谐".zh());
+                    line.Text = line.Text.Replace("Does nothing..yet", "暂无所长，静待调谐。".zh());
                     line.Text = line.Text.Replace("It seems that upgrading the blade expanded the scope of the previous attunements", "你对剑的升级似乎让它原有的调谐获得了强化".zh());
                     line.Text = line.Text.Replace("Your secondary attunement can now provide passive bonuses", "副环境调谐现在可以提供辅助增益".zh());
                     line.Text = line.Text.Replace("Hold the attack button to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging", "按住攻击键使用回旋斩，随时间逐渐加速。挥动时，剑气束会狂暴四散".zh());
@@ -935,7 +935,7 @@ public class Itemgb : GlobalItem
                 }
                 if (item.type == ModContent.ItemType<FourSeasonsGalaxia>())
                 {
-                    line.Text = line.Text.Replace("Active Attunement :", "星系协调：".zh());
+                    line.Text = line.Text.Replace("Active Attunement :", "星系调谐：".zh());
                     line.Text = line.Text.Replace("Passive Blessing :", "星系馈赠：".zh());
                     line.Text = line.Text.Replace("Phoenix's Pride", "凤凰座之桀骜".zh());
                     line.Text = line.Text.Replace("Aries' Wrath", "白羊座之盛怒".zh());
