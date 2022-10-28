@@ -907,55 +907,55 @@ public class Itemgb : GlobalItem
                 }
                 if (item.type == ModContent.ItemType<OmegaBiomeBlade>())
                 {
-                    line.Text = line.Text.Replace("Active Attunement :", "主环境调谐：".zh());
-                    line.Text = line.Text.Replace("Passive Attunement :", "副环境调谐：".zh());
-                    line.Text = line.Text.Replace("Swordsmith's Pride", "刀匠之傲".zh());
-                    line.Text = line.Text.Replace("Sanguine Fury", "血红之怒".zh());
-                    line.Text = line.Text.Replace("Lamentations of the Chained", "囚徒之哀".zh());
+                    line.Text = line.Text.Replace("Active Attunement :", "核心调谐：".zh());
+                    line.Text = line.Text.Replace("Passive Attunement :", "辅助调谐：".zh());
+                    line.Text = line.Text.Replace("Swordsmith's Pride", "兵匠之傲".zh());
+                    line.Text = line.Text.Replace("Sanguine Fury", "血腾之愤".zh());
+                    line.Text = line.Text.Replace("Lamentations of the Chained", "缚囚之悼".zh());
                     line.Text = line.Text.Replace("Mercurial Tides", "变幻之潮".zh());
                     line.Text = line.Text.Replace("None", "无调谐".zh());
                     line.Text = line.Text.Replace("Does nothing..yet", "暂无所长，静待调谐。".zh());
-                    line.Text = line.Text.Replace("It seems that upgrading the blade expanded the scope of the previous attunements", "你对剑的升级似乎让它原有的调谐获得了强化".zh());
-                    line.Text = line.Text.Replace("Your secondary attunement can now provide passive bonuses", "副环境调谐现在可以提供辅助增益".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging", "按住攻击键使用回旋斩，随时间逐渐加速。挥动时，剑气束会狂暴四散".zh());
-                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor. Sword beams home onto enemies struck by the thrown sword", "松开攻击键将剑向鼠标猛投出去。剑气束将会追踪被掷出的剑击中的来敌".zh());
+                    line.Text = line.Text.Replace("It seems that upgrading the blade expanded the scope of the previous attunements", "你对它的强化将它的调谐能力发挥到了极致".zh());
+                    line.Text = line.Text.Replace("Your secondary attunement can now provide passive bonuses", "存有的第二个环境调谐现在可以提供辅助增益".zh());
+                    line.Text = line.Text.Replace("Hold the attack button to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging", "按住攻击舞动剑刃，使用大回旋斩，同时剑气将狂野四散".zh());
+                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor. Sword beams home onto enemies struck by the thrown sword", "中途停止攻击将剑朝鼠标猛然掷出，以纯净之符标记击中的敌怪。剑气将追踪被标记的敌怪".zh());
                     line.Text = line.Text.Replace("All attacks have a chance to fire sword beams", "所有攻击有几率射出剑气".zh());
-                    line.Text = line.Text.Replace("Conjures molten blades in front of you that get larger and stronger the more you hit enemies.", "令熔岩剑刃在你面前出现，并随着击打敌人而逐渐变大变强。".zh());
-                    line.Text = line.Text.Replace(" The blades can also be used to bounce off tiles when in the air", "当你在空中时，剑刃也可以用于在物块上弹跳".zh());
-                    line.Text = line.Text.Replace("Releasing the attack button sends the charged blades hurtling forwards like a wheel.", "松开攻击键将会使蓄力的剑刃如车轮一般向前飞驰。".zh());
-                    line.Text = line.Text.Replace(" Attacking again immediately thereafter dashes to the wheel, shredding anything in the way", "那之后立即再次攻击使你冲向剑刃，并撕裂途径的一切".zh());
-                    line.Text = line.Text.Replace("Striking enemies rarely steals a small amount of life", "击中敌人有小概率为你回复一定生命值".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to charge a heaven-shattering lunge, release to unleash the devastating blow.", "按住攻击键来为一次足以碎裂天堂的猛冲蓄力，松开以释放这一打击。".zh());
-                    line.Text = line.Text.Replace(" Shock waves are emitted as the sword charges up", "蓄力时，冲击波将不断释放".zh());
-                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive shock wave on impact which raises a flood of monoliths", "将此猛冲施加给地面将导致巨大的冲击波，并让洪水般的幻星巨石破地而出".zh());
-                    line.Text = line.Text.Replace("Periodically emit shock waves while attacking", "攻击时周期性释放冲击波".zh());
-                    line.Text = line.Text.Replace("Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit", "向前迅猛掷出一阵拴在锁链上的剑刃。使用刃的顶部击中敌人必定暴击".zh());
-                    line.Text = line.Text.Replace("Critical strikes send out extra phantom chains which latch onto multiple targets", "暴击会送出能够锁住多个目标的幻象锁链".zh());
-                    line.Text = line.Text.Replace("An enchanted chain hook floats near you. Striking enemies makes the hook whirl around you, freezing enemies", "一个附魔链钩在你附近漂浮。击中敌人会让钩子在你周围旋转，冻结敌人".zh());
+                    line.Text = line.Text.Replace("Conjures molten blades in front of you that get larger and stronger the more you hit enemies.", "于面前召唤熔岩剑刃，击中敌怪次数越多，它们将愈加庞大而锋利".zh());
+                    line.Text = line.Text.Replace(" The blades can also be used to bounce off tiles when in the air", "你在半空时，剑刃也能用于在物块之间弹跳".zh());
+                    line.Text = line.Text.Replace("Releasing the attack button sends the charged blades hurtling forwards like a wheel.", "在剑刃达到巅峰时停止攻击，它们将如扇叶一般旋转飞出".zh());
+                    line.Text = line.Text.Replace(" Attacking again immediately thereafter dashes to the wheel, shredding anything in the way", "此时立即进行下一次攻击，你将冲向剑刃，并撕裂途径的一切".zh());
+                    line.Text = line.Text.Replace("Striking enemies rarely steals a small amount of life", "击中敌人偶尔会为你回复生命".zh());
+                    line.Text = line.Text.Replace("Hold the attack button to charge a heaven-shattering lunge, release to unleash the devastating blow.", "按住攻击，为碎裂天界的冲锋蓄力，松开以释放这一毁灭性打击".zh());
+                    line.Text = line.Text.Replace(" Shock waves are emitted as the sword charges up", "蓄力时，不断产生冲击波".zh());
+                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive shock wave on impact which raises a flood of monoliths", "撞击地面将引发山崩地裂，天地轰鸣，刹那间，一排异界巨石破土而出".zh());
+                    line.Text = line.Text.Replace("Periodically emit shock waves while attacking", "攻击时，周期性在身边释放冲击波".zh());
+                    line.Text = line.Text.Replace("Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit", "快速挥舞大量链刃，以刃尖攻击时必定暴击".zh());
+                    line.Text = line.Text.Replace("Critical strikes send out extra phantom chains which latch onto multiple targets", "暴击将生成锁缚多个目标的幻影锁链".zh());
+                    line.Text = line.Text.Replace("An enchanted chain hook floats near you. Striking enemies makes the hook whirl around you, freezing enemies", "附魔链钩在你身旁漂浮。攻击敌人会触发钩子回旋，冻结近身的敌怪".zh());
                 }
                 if (item.type == ModContent.ItemType<FourSeasonsGalaxia>())
                 {
                     line.Text = line.Text.Replace("Active Attunement :", "星系调谐：".zh());
                     line.Text = line.Text.Replace("Passive Blessing :", "星系馈赠：".zh());
-                    line.Text = line.Text.Replace("Phoenix's Pride", "凤凰座之桀骜".zh());
-                    line.Text = line.Text.Replace("Aries' Wrath", "白羊座之盛怒".zh());
-                    line.Text = line.Text.Replace("Polaris' Gaze", "北极星之凝视".zh());
-                    line.Text = line.Text.Replace("Andromeda's Stride", "仙女座之冲击".zh());
-                    line.Text = line.Text.Replace("Capricorn's Blessing", "摩羯座之祝福".zh());
-                    line.Text = line.Text.Replace("Cancer's Blessing", "巨蟹座之馈赠".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to swing Galaxia around you, accelerating over time. The swirling nebula constantly emits homing cosmic bolts", "按住攻击键释放旋风阵，随时间加速。旋转的星云会持续释放追踪宙能束".zh());
-                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor alongside a burst of 6 gigantic cosmic bolts. The sword then quickly returns to your hand", "松开攻击键将剑随六个巨大的宙能束向鼠标猛投出去。剑会在随后快速回到你手中".zh());
-                    line.Text = line.Text.Replace("Throw Galaxia to your cursor, holding it in place with constellations. Galaxia follows your cursor, rapidly spinning to shred enemies", "将银河掷向鼠标，以群星将其握住。银河将跟随你的鼠标，快速旋转，解离来敌".zh());
-                    line.Text = line.Text.Replace("Striking enemies causes nebulous explosions which spawn homing cosmic bolts", "击中敌人产生星云爆炸，生成追踪的宙能束".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to channel the Northern Star's power into a tight vortex of galactic energies, bound by concentric rings of stars.", "按住攻击键将北极星的力量引导为由星环围绕的星系能量旋涡。".zh());
-                    line.Text = line.Text.Replace("The vortex powers up over time and when hitting enemies", "旋涡会随着时间和击中敌人增强".zh());
-                    line.Text = line.Text.Replace("Release the attack button to fire off the charged star. Attacking again immediately thereafter dashes to the star, emitting a nova of cosmic bolts", "松开攻击键以释放蓄力的星星。释放后立即攻击会使你冲向星星，并如超新星般四散宙能束".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to charge a god-erasing lunge, release to unleash the devastating blow. Galaxia emits cosmic bolts while charging", "按住攻击键来为一次足以抹杀神明的猛冲蓄力，松开以释放这一打击。蓄力时，银河将四散宙能束".zh());
-                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which summons an apocalyptic storm of cosmic energies", "将此猛冲施加给地面将导致巨大的冲击，并释放如末世风暴般的宇宙能量".zh());
-                    line.Text = line.Text.Replace("Periodically releases a ring of weakening stars around your cursor when attacking", "攻击时，不时向你的鼠标释放逐渐变弱的星环".zh());
-                    line.Text = line.Text.Replace("The ring is repelled away from you at first, before slowing down over time", "星环会远离你，并逐渐变慢".zh());
-                    line.Text = line.Text.Replace("Periodically releases a ring of lifestealing stars around yourself when attacking", "定期在你周围放出吸血的星环".zh());
-                    line.Text = line.Text.Replace("The ring is attracted towards you at first, before slowing down over time", "星环会朝你飞去，之后逐渐慢下来".zh());
+                    line.Text = line.Text.Replace("Phoenix's Pride", "凤凰之耀".zh());
+                    line.Text = line.Text.Replace("Aries' Wrath", "白羊之怒".zh());
+                    line.Text = line.Text.Replace("Polaris' Gaze", "北斗之眸".zh());
+                    line.Text = line.Text.Replace("Andromeda's Stride", "仙女之跃".zh());
+                    line.Text = line.Text.Replace("Capricorn's Blessing", "摩羯之祈".zh());
+                    line.Text = line.Text.Replace("Cancer's Blessing", "巨蟹之礼".zh());
+                    line.Text = line.Text.Replace("Hold the attack button to swing Galaxia around you, accelerating over time. The swirling nebula constantly emits homing cosmic bolts", "回旋挥舞银河，随时间加速。旋转的星云将持续释放银河之雷".zh());
+                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor alongside a burst of 6 gigantic cosmic bolts. The sword then quickly returns to your hand", "释放回旋斩时停止攻击，把剑伴随六个巨型银河之雷向前掷出。它会在这之后快速回归手中".zh());
+                    line.Text = line.Text.Replace("Throw Galaxia to your cursor, holding it in place with constellations. Galaxia follows your cursor, rapidly spinning to shred enemies", "将银河掷向鼠标，以群星将其拉住。银河将跟随鼠标移动，快速旋转，粉碎敌怪".zh());
+                    line.Text = line.Text.Replace("Striking enemies causes nebulous explosions which spawn homing cosmic bolts", "击中敌人引发星云爆破，释放银河之雷".zh());
+                    line.Text = line.Text.Replace("Hold the attack button to channel the Northern Star's power into a tight vortex of galactic energies, bound by concentric rings of stars.", "引导北极星之力，化为星环簇拥的星系能量漩涡".zh());
+                    line.Text = line.Text.Replace("The vortex powers up over time and when hitting enemies", "随着时间流逝或击中敌怪，漩涡将逐渐成长".zh());
+                    line.Text = line.Text.Replace("Release the attack button to fire off the charged star. Attacking again immediately thereafter dashes to the star, emitting a nova of cosmic bolts", "停止攻击将释放北极星向前飞跃。此时立即再次攻击，你将追随北极星的步伐高速冲刺，并化身超新星爆发，四散银河之雷".zh());
+                    line.Text = line.Text.Replace("Hold the attack button to charge a god-erasing lunge, release to unleash the devastating blow. Galaxia emits cosmic bolts while charging", "按住攻击，为抹杀神明的冲锋蓄力，松开以释放这一毁灭性打击".zh());
+                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which summons an apocalyptic storm of cosmic energies", "撞击地面使得寰宇崩塌，时空撕裂，末世风暴般的宇宙能量轰鸣而至".zh());
+                    line.Text = line.Text.Replace("Periodically releases a ring of weakening stars around your cursor when attacking", "攻击时，在光标处召唤能削弱敌怪的星环".zh());
+                    line.Text = line.Text.Replace("The ring is repelled away from you at first, before slowing down over time", "星环会离你而去，逐渐变慢".zh());
+                    line.Text = line.Text.Replace("Periodically releases a ring of lifestealing stars around yourself when attacking", "在身旁召唤吸取敌怪生命的星环".zh());
+                    line.Text = line.Text.Replace("The ring is attracted towards you at first, before slowing down over time", "星环会朝你飞去，逐渐变慢".zh());
                 }
                 if (item.type == ModContent.ItemType<FracturedArk>())
                 {
