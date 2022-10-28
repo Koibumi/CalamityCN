@@ -825,11 +825,11 @@ public class NPCgb : GlobalNPC
                 "你想叫谁？".zh()
             },
             new string[2]{
-                "Those screams...I'm not sure why, but I feel like a nameless fear has awoken in my heart.",
+                "Those screams... I'm not sure why, but I feel like a nameless fear has awoken in my heart.",
                 "那些尖叫……不知道为什么，但我觉得一种莫名的恐惧已经在我的心中醒来。".zh()
             },
             new string[2]{
-                "I can faintly hear ghostly shrieks from the dungeon...and not ones I'm familiar with at all. Just what is going on in there?",
+                "I can faintly hear ghostly shrieks from the dungeon... and not ones I'm familiar with at all. Just what is going on in there?",
                 "我能隐约听到地牢里的鬼哭嚎叫……而我根本不熟悉这些。那里发生了什么？".zh()
             },
             new string[2]{
@@ -839,7 +839,7 @@ public class NPCgb : GlobalNPC
 
 			//机器人
 			new string[2]{
-                "All these moments will be lost in time. Like tears...in the rain.",
+                "All these moments will be lost in time. Like tears... in the rain.",
                 "所有这一刻都将随着时间流逝而消失。就像雨中的……眼泪。".zh()
             },
             new string[2]{
@@ -847,7 +847,7 @@ public class NPCgb : GlobalNPC
                 "总是朝月亮开枪！很明显，这以前起过作用。".zh()
             },
             new string[2]{
-                "Draedon? He's...a little 'high octane' if you know what I mean.",
+                "Draedon? He's... a little 'high octane' if you know what I mean.",
                 "嘉登？如果你懂我的意思，我说他有点“高辛烷值”。".zh()
             },
             new string[2]{
@@ -899,13 +899,13 @@ public class NPCgb : GlobalNPC
                 "嘿，是我减肥了，还是我的钱包在".zh() + givenNames[11] + "到达后变轻了？".zh()
             },
             new string[2]{
-                "You know...we haven't had an invasion in a while...",
+                "You know... we haven't had an invasion in a while...",
                 "你知道...我们已经有一段时间没有入侵了...".zh()
             },
 
 			//向导
 			new string[2]{
-                "Could you be so kind as to, ah...check hell for me...? I left someone I kind of care about down there.",
+                "Could you be so kind as to, ah... check hell for me...? I left someone I kind of care about down there.",
                 "你能不能发点好心，额...帮我查一下地狱...？我把一个我关心的人留在下面了。".zh()
             },
             new string[2]{
@@ -931,11 +931,11 @@ public class NPCgb : GlobalNPC
                 "你说你的机关没成功是什么意思？和我没关系！".zh()
             },
             new string[2]{
-                "Um...should my nightlight be on?",
+                "Um... should my nightlight be on?",
                 "呃……我的夜灯需要开着吗？".zh()
             },
             new string[2]{
-                "Well, I like " + givenNames[2] + ", but I, ah...I have my eyes on someone else.",
+                "Well, I like " + givenNames[2] + ", but I, ah... I have my eyes on someone else.",
                 "嗯，我喜欢".zh() + givenNames[2] + "，但是我，呃...心里已有他人".zh()
             },
             new string[2]{
@@ -1111,7 +1111,7 @@ public class NPCgb : GlobalNPC
                 "有时我发现".zh() + givenNames[2] + "从我背后偷偷跟上来。".zh()
             },
             new string[2]{
-                givenNames[2] + " is always trying to brighten my mood...even if, deep down, I know she's sad.",
+                givenNames[2] + " is always trying to brighten my mood... even if, deep down, I know she's sad.",
                 givenNames[2] + "总是想让我心情愉快……即使，我知道她的内心深处很伤心。".zh()
             },
             new string[2]{
@@ -1204,7 +1204,7 @@ public class NPCgb : GlobalNPC
             int i = 0;
             if (chat.EndsWith(fabSpecialQuote))
             {
-                chat = chat.Replace("Hey ", "嘿 ".zh()).Replace(" and ", " 和 ".zh()).Replace(fabSpecialQuote, "你们都好棒！".zh());
+                chat = chat.Replace("Hey ", "嘿 ".zh()).Replace(" and ", " 和 ".zh()).Replace(fabSpecialQuote, "你们都好棒!".zh());
                 found = true;
             }
             while (i < translatedChat.Length && !found)

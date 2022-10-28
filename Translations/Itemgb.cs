@@ -66,42 +66,6 @@ public class Itemgb : GlobalItem
 
     public static bool IsLanguageActive => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
 
-    public override void AnglerChat(int type, ref string chat, ref string catchLocation)
-    {
-        if (IsLanguageActive)
-        {
-            if (type == ModContent.ItemType<EutrophicSandfish>())
-            {
-                chat = "你知道沙漠里的蜥蜴往地下钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。 你，现在就去把它抓来，这样我就有新的宠物了！".zh();
-                catchLocation = "抓捕位置：沉沦之海".zh();
-                return;
-            }
-            if (type == ModContent.ItemType<Serpentuna>())
-            {
-                chat = "海蛇其实还是很漂亮的，只要你不贸然侵入他们的领地。现在我命令你给我抓一条来作为给我的惊喜，限你一天之内完成！".zh();
-                catchLocation = "抓捕位置：沉沦之海".zh();
-                return;
-            }
-            if (type == ModContent.ItemType<SurfClam>())
-            {
-                chat = "你知道蛤很美味吗?流言说沙漠地下住着一大群蛤，光是说说就觉得饿了。给我抓一只来，让我练习练习烹饪技巧，也顺便解解馋。".zh();
-                catchLocation = "抓捕位置：沉沦之海".zh();
-                return;
-            }
-            if (type == ModContent.ItemType<Brimlish>())
-            {
-                chat = "在你击败硫磺火元素后，她的孩子们掉进了地狱的岩浆中。据说他们都化作了鱼，现在我要你给我搞到一条，这样我新准备的岩浆鱼缸就能派上用场了！".zh();
-                catchLocation = "抓捕位置：硫火之崖".zh();
-                return;
-            }
-            if (type == ModContent.ItemType<Slurpfish>())
-            {
-                chat = "我知道我知道，要你去远古地狱遗迹的岩浆里钓鱼简直是不讲道理。我正准备这样做。还不快去？鱼可不会自己上钩！".zh();
-                catchLocation = "抓捕位置：硫火之崖".zh();
-            }
-        }
-    }
-
     public override void UpdateArmorSet(Player player, string set)
     {
         if (IsLanguageActive)
@@ -1756,176 +1720,176 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高1.1倍".zh());
                 }
 
-                if (item.type == 3991 || item.type == 4000)
+                if (item.type == ItemID.ArcaneFlower || item.type == ItemID.MagnetFlower)
                 {
                     line.Text = line.Text.Replace("12% reduced mana usage", "减少12%魔力消耗".zh());
                 }
 
-                if (item.type == 1321)
+                if (item.type == ItemID.MagicQuiver)
                 {
                     line.Text = line.Text.Replace("Increases arrow damage by 5% and greatly increases arrow speed", "增加5%的箭矢伤害，并大幅提高箭矢速度".zh());
                 }
 
-                if (item.type == 4002)
+                if (item.type == ItemID.MoltenQuiver)
                 {
                     line.Text = line.Text.Replace("Increases arrow damage by 7% and greatly increases arrow speed", "增加7%的箭矢伤害，并大幅提高箭矢速度".zh());
                     line.Text = line.Text.Replace("and all arrows inflict Hellfire", "所有箭矢造成狱火减益".zh());
                 }
 
-                if (item.type == 1858)
+                if (item.type == ItemID.SniperScope)
                 {
                     line.Text = line.Text.Replace("7% increased ranged damage and critical strike chance", "提高7%远程伤害和暴击率".zh());
                 }
 
-                if (item.type == 1921)
+                if (item.type == ItemID.HandWarmer)
                 {
                     line.Text = line.Text.Replace("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外提升2点生命再生速度".zh());
                 }
 
-                if (item.type == 4874)
+                if (item.type == ItemID.HellfireTreads)
                 {
                     line.Text = line.Text.Replace("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘于1.5".zh());
                     line.Text = line.Text.Replace("All attacks inflict Hellfire", "所有攻击造成狱火减益".zh());
                 }
 
-                if (item.type == 3993)
+                if (item.type == ItemID.FairyBoots)
                 {
                     line.Text = line.Text.Replace("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成".zh());
                     line.Text = line.Text.Replace("Nearby fairies grant increased life regen, defense and movement speed", "靠近仙灵获得生命恢复，防御与移动速度".zh());
                     line.Text = line.Text.Replace("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你".zh());
                 }
 
-                if (item.type == 492)
+                if (item.type == ItemID.DemonWings)
                 {
                     line.Text = line.Text.Replace("5% increased damage and critical strike chance", "提高5%伤害和暴击率".zh());
                 }
 
-                if (item.type == 493)
+                if (item.type == ItemID.AngelWings)
                 {
                     line.Text = line.Text.Replace("+20 max life, +10 defense and +2 life regen", "+20最大生命值，+10防御力和2点生命恢复".zh());
                 }
 
-                if (item.type == 1162)
+                if (item.type == ItemID.LeafWings)
                 {
                     line.Text = line.Text.Replace("+5 defense, 5% increased damage reduction,", "穿着提基盔甲提高5防御力和5%减伤".zh());
                     line.Text = line.Text.Replace("and permanent Dryad's Blessing while wearing the Tiki Armor", "并永久获得树妖祝福".zh());
                 }
 
-                if (item.type == 2494)
+                if (item.type == ItemID.FinWings)
                 {
                     line.Text = line.Text.Replace("Gills effect and you can move freely through liquids", "具有鱼鳃效果且允许在液体中快速移动".zh());
                     line.Text = line.Text.Replace("You fall faster while submerged in liquid", "液体中下落速度加快".zh());
                 }
 
-                if (item.type == 1515)
+                if (item.type == ItemID.BeeWings)
                 {
                     line.Text = line.Text.Replace("Permanently gives the Honey buff", "任何时候都会给予蜂蜜buff".zh());
                 }
 
-                if (item.type == 749)
+                if (item.type == ItemID.ButterflyWings)
                 {
                     line.Text = line.Text.Replace("+20 max mana, 5% decreased mana usage,", "+20最大魔力值，减少5%魔力消耗".zh());
                     line.Text = line.Text.Replace("5% increased magic damage and magic critical strike chance", "提高5%魔法伤害和魔法暴击率".zh());
                 }
 
-                if (item.type == 761)
+                if (item.type == ItemID.FairyWings)
                 {
                     line.Text = line.Text.Replace("+60 max life", "+60最大生命值".zh());
                 }
 
-                if (item.type == 1165)
+                if (item.type == ItemID.BatWings)
                 {
                     line.Text = line.Text.Replace("At night or during an eclipse, you will gain the following boosts:", "在夜晚或日食期间，你将获得以下加成：".zh());
                     line.Text = line.Text.Replace("7% increased damage and 3% increased critical strike chance", "增加7%伤害和3%暴击率".zh());
                 }
 
-                if (item.type == 785)
+                if (item.type == ItemID.HarpyWings)
                 {
                     line.Text = line.Text.Replace("20% increased movement speed", "提高20%移动速度".zh());
                     line.Text = line.Text.Replace("With Harpy Ring or Angel Treads equipped, most attacks sometimes launch feathers", "在装备女妖指环或天使之靴时大多数攻击会释放羽毛".zh());
                 }
 
-                if (item.type == 786)
+                if (item.type == ItemID.BoneWings)
                 {
                     line.Text = line.Text.Replace("10% increased movement speed, ranged damage and critical strike chance", "穿着死灵盔甲时提高10%移动速度，提高10%远程伤害和远程暴击率".zh());
                     line.Text = line.Text.Replace("and +30 defense while wearing the Necro Armor", "提高30点防御力".zh());
                 }
 
-                if (item.type == 2770)
+                if (item.type == ItemID.MothronWings)
                 {
                     line.Text = line.Text.Replace("+5 defense and 5% increased damage", "增加5防御力，提高5%伤害".zh());
                 }
 
-                if (item.type == 822)
+                if (item.type == ItemID.FrozenWings)
                 {
                     line.Text = line.Text.Replace("2% increased melee and ranged damage", "穿着寒霜盔甲时".zh());
                     line.Text = line.Text.Replace("and 1% increased melee and ranged critical strike chance", "提高2%近战和远程伤害".zh());
                     line.Text = line.Text.Replace("while wearing the Frost Armor", "提高1%近战和远程暴击率".zh());
                 }
 
-                if (item.type == 821)
+                if (item.type == ItemID.FlameWings)
                 {
                     line.Text = line.Text.Replace("5% increased melee damage and critical strike chance", "提高5%近战伤害和近战暴击率".zh());
                 }
 
-                if (item.type == 823)
+                if (item.type == ItemID.GhostWings)
                 {
                     line.Text = line.Text.Replace("+10 defense and 5% increased damage reduction while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%减伤".zh());
                     line.Text = line.Text.Replace("5% increased magic damage and critical strike chance while wearing the Spectre Mask set", "穿着幽灵盔甲配幽灵面具时提高5%魔法伤害和魔法暴击率".zh());
                 }
 
-                if (item.type == 2280)
+                if (item.type == ItemID.BeetleWings)
                 {
                     line.Text = line.Text.Replace("+10 defense and 5% increased damage reduction while wearing the Beetle Shell set", "穿着甲虫盔甲配甲虫壳时增加10防御力和5%减伤".zh());
                     line.Text = line.Text.Replace("5% increased melee damage and critical strike chance while wearing the Beetle Scale Mail set", "穿着甲虫盔甲配甲虫铠甲时提高5%近战伤害和近战暴击率".zh());
                 }
 
-                if (item.type == 1866)
+                if (item.type == ItemID.Hoverboard)
                 {
                     line.Text = line.Text.Replace("10% increased weapon-type damage while wearing the Shroomite Armor", "穿着蘑菇矿盔甲时提高10%弓、枪械、火箭发射器或火焰喷射器的伤害".zh());
                     line.Text = line.Text.Replace("The weapon type boosted matches which Shroomite helmet is worn", "加成武器类型取决于戴的蘑菇矿头盔".zh());
                 }
 
-                if (item.type == 1871)
+                if (item.type == ItemID.FestiveWings)
                 {
                     line.Text = line.Text.Replace("+40 max life", "+40最大生命值".zh());
                     line.Text = line.Text.Replace("Ornaments rain down as you fly", "飞行时掉落装饰品".zh());
                 }
 
-                if (item.type == 1830)
+                if (item.type == ItemID.SpookyWings)
                 {
                     line.Text = line.Text.Replace("Increased minion knockback and 5% increased minion damage while wearing the Spooky Armor", "穿着阴森盔甲时提高召唤物击退和5%召唤伤害".zh());
                 }
 
-                if (item.type == 1797)
+                if (item.type == ItemID.TatteredFairyWings)
                 {
                     line.Text = line.Text.Replace("5% increased damage and critical strike chance", "提高5%伤害和暴击率".zh());
                 }
 
-                if (item.type == 948)
+                if (item.type == ItemID.SteampunkWings)
                 {
                     line.Text = line.Text.Replace("+8 defense, 10% increased movement speed,", "+8防御力和10%移速".zh());
                     line.Text = line.Text.Replace("4% increased damage, and 2% increased critical strike chance", "并提高4%伤害和2%暴击率".zh());
                 }
 
-                if (item.type == 3470)
+                if (item.type == ItemID.WingsNebula)
                 {
                     line.Text = line.Text.Replace("+20 max mana, 5% increased magic damage and critical strike chance,", "穿着星云盔甲时+20最大魔力值".zh());
                     line.Text = line.Text.Replace("and 5% decreased mana usage while wearing the Nebula Armor", "提高5%魔法伤害和魔法暴击率减少5%魔力消耗".zh());
                 }
 
-                if (item.type == 3469)
+                if (item.type == ItemID.WingsVortex)
                 {
                     line.Text = line.Text.Replace("3% increased ranged damage and 7% increased ranged critical strike chance", "穿着星旋盔甲时".zh());
                     line.Text = line.Text.Replace("while wearing the Vortex Armor", "提高3%远程伤害和7%远程暴击率".zh());
                 }
 
-                if (item.type == 3471)
+                if (item.type == ItemID.WingsStardust)
                 {
                     line.Text = line.Text.Replace("10% increased minion damage while wearing the Stardust Armor", "穿着星尘盔甲时增加10%召唤伤害".zh());
                 }
 
-                if (item.type == 3468)
+                if (item.type == ItemID.WingsSolar)
                 {
                     line.Text = line.Text.Replace("7% increased melee damage and 3% increased melee critical strike chance", "穿着耀斑盔甲时".zh());
                     line.Text = line.Text.Replace("while wearing the Solar Flare Armor", "提高7%近战伤害和3%近战暴击率".zh());
@@ -2270,6 +2234,10 @@ public class Itemgb : GlobalItem
                 if (item.type == ItemID.SwiftnessPotion)
                 {
                     line.Text = line.Text.Replace("15% increased movement speed", "增加15%移速".zh());
+                }
+                if (item.type == ItemID.WarmthPotion)
+                {
+                    line.Text = line.Text.Replace("Grants immunity to Chilled, Frozen and Glacial State", "免疫冷冻、冰冻和冰河时代减益".zh());
                 }
                 if (item.type == ItemID.RodofDiscord)
                 {

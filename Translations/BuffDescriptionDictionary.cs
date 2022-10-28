@@ -54,7 +54,7 @@ namespace CalamityCN
                 {"AlicornBuff", "你喝高了还打败了神长直，心朗气清，足以畅叙幽情！".zh()},
                 {"BrimroseMount", "坐着温暖舒适。那就足够了".zh()},
                 {"GazeOfCrysthamyrBuff", "你骑着一只暗影飞龙".zh()},
-                {"OnyxExcavatorBuff", "钻钻钻！".zh()},
+                {"OnyxExcavatorBuff", "钻钻钻!".zh()},
                 {"SquishyBeanBuff", "BEAN MAN. BEAN DO T H E  B EA N IS HER E".zh()},
                 {"RimehoundBuff", "你正驾驭着愤怒雪狗".zh()},
                 {"AkatoBuff", "看起来你现在应该好好照顾这只小龙".zh()},
@@ -84,10 +84,7 @@ namespace CalamityCN
                 {"CirrusYellowCandleBuff", "它那惹人厌的火光只会激起愤怒".zh()},
                 {"PopoBuff", "你是个雪人了！".zh()},
                 {"PopoNoselessBuff", "你的鼻子被别人偷走了！".zh()},
-                
                 {"AnechoicCoatingBuff", "深渊生物的探测范围缩小".zh()},
-                
-                //{"ArmorShattering", "近战和盗贼攻击会粉碎敌人的护甲".zh()},
                 {"AstralInjectionBuff", "大幅增加魔力值恢复速度".zh()},
                 {"BaguetteBuff", "如果只有我知道……~醉仙女".zh()},
                 {"BloodfinBoost", "不要让血液冲昏头脑".zh()},
@@ -295,12 +292,17 @@ namespace CalamityCN
                 //c2.1
                 {"CoralSymbiosis", "珊瑚泥充能加快，多造成2点伤害".zh() },
                 {"MarniteLiftBuff", "你甚至……？".zh() },
-                //c2.2
-                {"PuffWarriorBuff", "它自信且兴奋地保护着你".zh() },
-                {"MoonFistBuff", "准备好用这些手去打一架了吗？".zh() },  //需要讨论
 
+                 //---分类---
+                //药水
                 {"AbyssalWeapon", "近战、鞭子和盗贼攻击会对敌人造成硫磺火减益".zh()},
                 {"ArmorCrumbling", "近战、鞭子和盗贼攻击会降低敌人的伤害减免".zh()},
+                //召唤物
+                {"PuffWarriorBuff", "它自信且兴奋地保护着你".zh() },
+                {"MoonFistBuff", "准备好用这些手去打一架了吗？".zh() },
+                {"ExoskeletonCannons", "内不含脉冲加农".zh() },
+                //宠物
+                //其他
             };
         }
         public static void Unload()

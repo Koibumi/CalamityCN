@@ -1,8 +1,11 @@
+
+using CalamityCN.LangUtils;
 using CalamityCN.Translations.Patch;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
@@ -17,7 +20,7 @@ namespace CalamityCN
     {
         private static CalamityCN _instance;
         public static CalamityCN Instance => _instance;
-
+        public List<ContentTranslation> Contents;
         private List<Hook> _onHooks;
 
         public override void Load()
@@ -25,9 +28,18 @@ namespace CalamityCN
             _instance = this;
             GetFriendlyName += TranslatedFriendlyName;
             MonoModHooks.RequestNativeAccess();
+            this.Contents = new List<ContentTranslation>();
             this._onHooks = new List<Hook>();
-            foreach (Type type in CalamityCN._instance.Code.GetTypes())
+            foreach (Type type in CalamityCN.Instance.Code.GetTypes())
             {
+                if (type.IsSubclassOf(typeof(ContentTranslation)))
+                {
+                    ContentTranslation contentTranslation = Activator.CreateInstance(type) as ContentTranslation;
+                    if (contentTranslation != null)
+                    {
+                        this.Contents.Add(contentTranslation);
+                    }
+                }
                 if (type.IsSubclassOf(typeof(OnPatcher)))
                 {
                     OnPatcher onPatcher = Activator.CreateInstance(type) as OnPatcher;
@@ -36,6 +48,7 @@ namespace CalamityCN
                         this._onHooks.Add(new Hook(onPatcher.ModifiedMethod, onPatcher.Delegate));
                     }
                 }
+                this.Contents.Sort((ContentTranslation n, ContentTranslation t) => n.Priority.CompareTo(t.Priority));
             }
             if (this._onHooks.Count > 0)
             {
@@ -44,6 +57,19 @@ namespace CalamityCN
                     if (hook != null)
                     {
                         hook.Apply();
+                    }
+                }
+            }
+            if (this.Contents.Count > 0)
+            {
+                foreach (ContentTranslation contentTranslation2 in from x in this.Contents
+                                                                   where x.IsTranslationEnabled
+                                                                   select x)
+                {
+                    ILoadableContent loadableContent = contentTranslation2 as ILoadableContent;
+                    if (loadableContent != null)
+                    {
+                        loadableContent.LoadContent();
                     }
                 }
             }
@@ -103,6 +129,17 @@ namespace CalamityCN
 
             _instance = null;
             CalamityCNConfig.Instance = null;
+            if (this.Contents != null)
+            {
+                foreach (ContentTranslation contentTranslation in this.Contents)
+                {
+                    ILoadableContent loadableContent = contentTranslation as ILoadableContent;
+                    if (loadableContent != null)
+                    {
+                        loadableContent.UnloadContent();
+                    }
+                }
+            }
             if (this._onHooks != null)
             {
                 foreach (Hook hook in this._onHooks)
@@ -114,6 +151,7 @@ namespace CalamityCN
                 }
             }
             this._onHooks = null;
+            this.Contents = null;
         }
 
         private string TranslatedFriendlyName(orig_GetFriendlyName orig, UIKeybindingListItem item)

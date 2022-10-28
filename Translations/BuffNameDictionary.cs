@@ -83,10 +83,7 @@ namespace CalamityCN
                 {"CirrusYellowCandleBuff", "恶毒".zh() },
                 {"PopoBuff", "雪宝".zh() },
                 {"PopoNoselessBuff", "没鼻子的雪宝".zh() },
-                
                 {"AnechoicCoatingBuff", "吸音涂层".zh() },
-                
-                //{"ArmorShattering", "护甲粉碎".zh() },
                 {"AstralInjectionBuff", "幻星注射剂".zh() },
                 {"BaguetteBuff", "法棍".zh() },
                 {"BloodfinBoost", "血鳍之助".zh() },
@@ -237,7 +234,6 @@ namespace CalamityCN
                 {"EffigyOfDecayBuff", "腐朽塑像".zh() },
                 {"SulphurskinBuff", "硫磺皮肤".zh() },
                 {"GammaHydraBuff", "伽马共生体".zh() },
-                //{"RustyDroneBuff", "锈蚀无人机".zh() },
                 {"LadBuff", "老爹".zh() },
                 {"ProfanedWeakness", "亵渎之疲弱".zh() },
                 {"TundraFlameBlossomsBuff", "永冻之焱华".zh() },
@@ -295,12 +291,17 @@ namespace CalamityCN
                 //c2.1
                 {"CoralSymbiosis", "珊瑚共生".zh() },
                 {"MarniteLiftBuff", "合成岩悬浮平台".zh() },
-                //c2.2
-                {"PuffWarriorBuff", "蓬松战士".zh() },
-                {"MoonFistBuff", "月亮之拳".zh() },
 
+                //---分类---
+                //药水
                 {"AbyssalWeapon", "武器灌注：硫火".zh() },
                 {"ArmorCrumbling", "武器灌注：粉碎".zh() },
+                //召唤物
+                {"PuffWarriorBuff", "蓬松战士".zh() },
+                {"MoonFistBuff", "月亮之拳".zh() },
+                {"ExoskeletonCannons", "阿瑞斯外骨骼".zh() },
+                //宠物
+                //其他
             };
         }
         public static void Unload()

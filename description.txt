@@ -14,6 +14,9 @@ This is a Chinese-translation Mod for Calamity Mod.
 2.进入tml，在模组管理中同时启用灾厄Mod和本Mod
 3.安装完成，进行游戏[i:74]
 
+v1.3.4
+方舟系列调谐翻译重置2
+其他小调整
 v1.3.3
 统一部分物品深渊照明强度描述
 添加Boss列表翻译-部分测试版

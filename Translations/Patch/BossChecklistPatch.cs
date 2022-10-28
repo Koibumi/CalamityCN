@@ -45,7 +45,6 @@ using CalamityMod.NPCs.SupremeCalamitas;
 using CalamityMod.NPCs.Yharon;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.Patch
@@ -61,7 +60,7 @@ namespace CalamityCN.Translations.Patch
 		{
 			get
 			{
-				return ModLoader.TryGetMod("BossChecklist", out Mod bossChecklist) && LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
+				return ModsCall.IsCN && ModsCall.BossChecklist != null;
 			}
 		}
 
@@ -70,7 +69,7 @@ namespace CalamityCN.Translations.Patch
 			[PreserveBaseOverrides]
 			get
 			{
-				ModLoader.TryGetMod("CalamityMod", out Mod calamity);
+				Mod calamity = ModsCall.Calamity;
 				Type type = (calamity != null) ? calamity.Code.GetType("CalamityMod.WeakReferenceSupport") : null;
 				if (type == null)
 				{
