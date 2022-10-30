@@ -14,6 +14,7 @@ using CalamityMod.Items.Weapons.Ranged;
 using CalamityMod.Items.Potions;
 using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Cooldowns;
+using CalamityMod.Projectiles.Summon.SmallAresArms;
 
 namespace CalamityCN.Translations.Patch
 {
@@ -23,12 +24,13 @@ namespace CalamityCN.Translations.Patch
         public static void Load()
         {
             ILHooksT = new List<ILHook>();
-            //武器弹字
+            //武器提示
             QuickTranslate(typeof(ArkoftheAncientsParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
             QuickTranslate(typeof(TrueArkoftheAncientsParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
             QuickTranslate(typeof(ArkoftheElementsParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
             QuickTranslate(typeof(ArkoftheCosmosParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
             QuickTranslate(typeof(AtlasMunitionsAutocannonHeld), "AI", "OUCH! HOT!", "我焯！好烫！");
+            QuickTranslate(typeof(ExoskeletonPanel), "PreDraw", "Insufficient minion slots!", "召唤栏位不足！");
             //世界加载
             QuickTranslate(typeof(WorldgenManagementSystem), "ModifyWorldGenTasks", "Corrupting a floating island", "正在邪恶化一处空岛");
             QuickTranslate(typeof(WorldgenManagementSystem), "ModifyWorldGenTasks", "Partially flooding an overblown desert", "正在淹没部分沙漠");

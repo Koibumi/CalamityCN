@@ -1,7 +1,5 @@
-
 using CalamityCN.LangUtils;
 using CalamityCN.Translations.Patch;
-using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
@@ -78,14 +76,13 @@ namespace CalamityCN
         public override void PostSetupContent()
         {
             ModLoader.TryGetMod("CalamityMod", out Mod Calamity);
-            /*ModLoader.TryGetMod("Wikithis", out Mod wikithis);
+            /*(网址格式改不了https://url/wiki/{})
+            ModLoader.TryGetMod("Wikithis", out Mod wikithis);
             if (wikithis != null && !Main.dedServ)
             {
                 wikithis.Call(0, Calamity, "soammer.com/calamitywiki", GameCulture.CultureName.Chinese);
             }
-            /wiki/{}XD
-             */
-
+            */
             if (Calamity !=null)
             {
 

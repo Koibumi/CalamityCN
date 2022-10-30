@@ -54,7 +54,7 @@ namespace CalamityCN
                 {"AlicornBuff", "你喝高了还打败了神长直，心朗气清，足以畅叙幽情！".zh()},
                 {"BrimroseMount", "坐着温暖舒适。那就足够了".zh()},
                 {"GazeOfCrysthamyrBuff", "你骑着一只暗影飞龙".zh()},
-                {"OnyxExcavatorBuff", "钻钻钻!".zh()},
+                {"OnyxExcavatorBuff", "钻钻钻！".zh()},
                 {"SquishyBeanBuff", "BEAN MAN. BEAN DO T H E  B EA N IS HER E".zh()},
                 {"RimehoundBuff", "你正驾驭着愤怒雪狗".zh()},
                 {"AkatoBuff", "看起来你现在应该好好照顾这只小龙".zh()},

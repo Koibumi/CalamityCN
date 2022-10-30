@@ -2,42 +2,8 @@ using CalamityCN;
 using CalamityMod;
 using CalamityMod.Items;
 using CalamityMod.Items.Accessories;
-using CalamityMod.Items.Armor;
-using CalamityMod.Items.Armor.Aerospec;
-using CalamityMod.Items.Armor.Astral;
-using CalamityMod.Items.Armor.Auric;
-using CalamityMod.Items.Armor.Bloodflare;
-using CalamityMod.Items.Armor.Brimflame;
-using CalamityMod.Items.Armor.Daedalus;
-using CalamityMod.Items.Armor.Demonshade;
-using CalamityMod.Items.Armor.DesertProwler;
-using CalamityMod.Items.Armor.Empyrean;
-using CalamityMod.Items.Armor.FathomSwarmer;
-using CalamityMod.Items.Armor.Fearmonger;
-using CalamityMod.Items.Armor.GemTech;
-using CalamityMod.Items.Armor.GodSlayer;
-using CalamityMod.Items.Armor.Hydrothermic;
-using CalamityMod.Items.Armor.Mollusk;
-using CalamityMod.Items.Armor.OmegaBlue;
-using CalamityMod.Items.Armor.Plaguebringer;
-using CalamityMod.Items.Armor.PlagueReaper;
-using CalamityMod.Items.Armor.Prismatic;
-using CalamityMod.Items.Armor.Reaver;
-using CalamityMod.Items.Armor.Silva;
-using CalamityMod.Items.Armor.SnowRuffian;
-using CalamityMod.Items.Armor.Statigel;
-using CalamityMod.Items.Armor.Sulphurous;
-using CalamityMod.Items.Armor.Tarragon;
-using CalamityMod.Items.Armor.TitanHeart;
-using CalamityMod.Items.Armor.Umbraphile;
-using CalamityMod.Items.Armor.Victide;
-using CalamityMod.Items.Armor.Wulfrum;
-using CalamityMod.Items.Armor.MarniteArchitect;
 using CalamityMod.Items.DraedonMisc;
-using CalamityMod.Items.Fishing.BrimstoneCragCatches;
-using CalamityMod.Items.Fishing.SunkenSeaCatches;
 using CalamityMod.Items.Mounts;
-using CalamityMod.Items.Placeables.Furniture;	
 using CalamityMod.Items.Placeables.FurnitureAbyss;
 using CalamityMod.Items.Placeables.FurnitureAcidwood;
 using CalamityMod.Items.Placeables.FurnitureAncient;
@@ -60,586 +26,13 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using CalamityMod.Items.Placeables.Furniture.CraftingStations;
+using CalamityMod.Items.Placeables.Walls;
 
 public class Itemgb : GlobalItem
 {
 
     public static bool IsLanguageActive => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
-
-    public override void UpdateArmorSet(Player player, string set)
-    {
-        if (IsLanguageActive)
-        {
-            string hotkey = CalamityMod.CalamityKeybinds.SetBonusHotKey.TooltipHotkeyString();
-            string hotkeyGods = CalamityKeybinds.GodSlayerDashHotKey.TooltipHotkeyString();
-            #region 灾厄套装
-            if (set == "AerospecMagic")
-            {
-                player.setBonus = "增加5%移动速度和魔法暴击率\n一次性受到超过25点伤害会召唤追踪羽毛从天而降\n增加下落速度，免疫摔落伤害".zh();
-            }
-            else if (set == "AerospecRogue")
-            {
-                player.setBonus = "增加5%移动速度和盗贼暴击率\n一次性受到超过25点伤害会召唤追踪羽毛从天而降\n增加下落速度，免疫摔落伤害\n增加100点最大潜行值".zh();
-            }
-            else if (set == "AerospecMelee")
-            {
-                player.setBonus = "增加5%移动速度和近战暴击率\n敌人更有可能以你为目标\n一次性受到超过25点伤害会召唤追踪羽毛从天而降\n增加下落速度，免疫摔落伤害".zh();
-            }
-            else if (set == "AerospecSummon")
-            {
-                player.setBonus = "增加11%召唤伤害，+1召唤栏\n召唤天武神保护你\n一次性受到超过25点伤害会召唤追踪羽毛从天而降\n增加下落速度，免疫摔落伤害".zh();
-            }
-            else if (set == "AerospecRanged")
-            {
-                player.setBonus = "增加5%移动速度和远程暴击率\n一次性受到超过25点伤害会召唤追踪羽毛从天而降\n增加下落速度，免疫摔落伤害".zh();
-            }
-            else if (set == "Astral")
-            {
-                player.setBonus = "增加5%移动速度和3个召唤栏\n增加35%伤害和25%暴击率\n每当你暴击敌人时天空会降落坠落之星，神圣新星和星幻陨星\n此效果1秒内至多触发一次".zh();
-            }
-            else if (set == "AtaxiaRanged")
-            {
-                player.setBonus = "增加5%远程伤害\n低于50%生命值获得狱火药水的效果\n使用远程武器时每0.33秒发射一团追踪的混沌火焰\n你受伤时会在原地产生一场烈焰爆炸".zh();
-            }
-            else if (set == "AtaxiaMelee")
-            {
-                player.setBonus = "增加5%近战伤害\n敌人更有可能以你为目标\n低于50%生命值获得狱火药水的效果\n近战攻击和弹幕在击中敌人时喷发出混沌火焰\n你受伤时会在原地产生一场烈焰爆炸".zh();
-            }
-            else if (set == "AtaxiaSummon")
-            {
-                player.setBonus = "增加40%召唤伤害并+2召唤栏\n低于50%生命值获得狱火药水的效果\n召唤渊泉之灵保护你\n你受伤时会在原地产生一场烈焰爆炸".zh();
-            }
-            else if (set == "AtaxiaRogue")
-            {
-                player.setBonus = "提升5%盗贼伤害\n低于50%生命值获得狱火药水的效果\n使用盗贼武器攻击时每2.5秒会在你周围召唤8团追踪敌人的混沌火焰\n你受伤时会在原地产生一场烈焰爆炸\n增加110点最大潜行值".zh();
-            }
-            else if (set == "AtaxiaMagic")
-            {
-                player.setBonus = "增加5%魔法伤害并降低15%魔力消耗\n低于50%生命值获得狱火药水的效果\n魔法攻击产生伤害火球和治疗火球\n你受伤时会在原地产生一场烈焰爆炸".zh();
-            }
-            else if (set == "AuricMelee")
-            {
-                player.setBonus = "近战龙蒿、血炎、弑神者套装奖励\n敌人更有可能以你为目标\n弹幕击中敌人时生成圣金源光球治疗玩家".zh();
-            }
-            else if (set == "AuricRanged")
-            {
-                player.setBonus = "远程龙蒿、血炎、弑神者套装奖励\n弹幕击中敌人时生成圣金源光球治疗玩家".zh();
-            }
-            else if (set == "AuricRogue")
-            {
-                player.setBonus = "盗贼龙蒿、血炎、弑神者套装奖励\n弹幕击中敌人时生成圣金源光球治疗玩家\n增加130点最大潜行值".zh();
-            }
-            else if (set == "AuricSummon")
-            {
-                player.setBonus = "召唤龙蒿、血炎、始源林海套装奖励\n弹幕击中敌人时生成圣金源光球治疗玩家\n增加5%最大奔跑速度和加速度\n+6召唤栏和75%召唤伤害".zh();
-            }
-            else if (set == "AuricMagic")
-            {
-                player.setBonus = "魔法龙蒿、血炎、始源林海套装奖励\n弹幕击中敌人时生成圣金源光球治疗玩家\n增加5%最大奔跑速度和加速度".zh();
-            }
-            else if (set == "BloodflareRogue")
-            {
-                player.setBonus = "大幅增加生命再生速度\n击中一个生命值低于50%的敌人会掉落红心\n这个效果有5秒冷却时间\n血月期间击杀的敌人掉落血珠的概率大幅提高\n生命值高于80%时增加30点防御和5%盗贼暴击率\n生命值低于80%时增加10%盗贼伤害\n盗贼武器暴击有50%几率治疗你\n增加120点最大潜行值".zh();
-            }
-            else if (set == "BloodflareSummon")
-            {
-                player.setBonus = "增加50%召唤伤害,+3召唤栏\n大幅增加生命再生速度\n击中一个生命值低于50%的敌人会掉落红心\n这个效果有5秒冷却时间\n血月期间击杀的敌人掉落血珠的概率大幅提高\n召唤环绕你的幽魂雷\n生命值高于90%时增加10%召唤伤害\n生命值小于或等于50%及时获得20点防御和2点生命再生速度".zh();
-            }
-            else if (set == "BloodflareRanged")
-            {
-                player.setBonus = "大幅增加生命再生速度\n击中一个生命值低于50%的敌人会掉落红心\n这个效果有5秒冷却时间\n血月期间击杀的敌人掉落血珠的概率大幅提高\n按下 " + hotkey + " 键释放噬魂幽花的冤魂摧毁你的敌人\n此效果有30秒冷却时间\n远程武器每2.5秒发射出一个爆炸血炎珠".zh();
-            }
-            else if (set == "BloodflareMagic")
-            {
-                player.setBonus = "大幅增加生命再生速度\n击中一个生命值低于50%的敌人会掉落红心\n这个效果有5秒冷却时间\n血月期间击杀的敌人掉落血珠的概率大幅提高\n魔法武器每1.67秒会发射一个灵魂束\n魔法武器暴击产生火焰爆炸，两秒钟内至多触发一次".zh();
-            }
-            else if (set == "BloodflareMelee")
-            {
-                player.setBonus = "大幅增加生命再生速度\n敌人更有可能以你为目标\n击中一个生命值低于50%的敌人会掉落红心\n击这个效果有5秒冷却时间\n血月期间击杀的敌人掉落血珠的概率大幅提高\n真近战攻击会治疗你\n使用真近战武器攻击敌人15次后进入鲜血狂怒状态，持续5秒\n此期间增加25%近战伤害和暴击率，来自敌人的接触伤害减半\n此效果有30秒冷却时间".zh();
-            }
-            else if (set == "Brimflame")
-            {
-                player.setBonus = "额外增加15%的魔法伤害和暴击率\n按 " + hotkey + " 键进入硫火狂暴模式\n在此模式下，你造成的伤害会显著增加\n然而你的生命会快速流失，魔力值恢复速度归零\n此状态可以手动关闭\n硫火狂暴有30秒的冷却时间".zh();
-            }
-            else if (set == "DaedalusMagic")
-            {
-                player.setBonus = "增加5%魔法伤害\n你有10%的几率吸收一次物理伤害或弹幕\n如果你成功吸收了一次攻击，你将回复相当于那次攻击的伤害值二分之一的生命值".zh();
-            }
-            else if (set == "DaedalusSummon")
-            {
-                player.setBonus = "增加20%召唤伤害，+2召唤栏\n召唤悬浮的代达罗斯水晶保护你".zh();
-            }
-            else if (set == "DaedalusMelee")
-            {
-                player.setBonus = "增加5%近战伤害\n敌人更有可能以你为目标\n你能够反弹弹幕\n被反弹的弹幕只会对你造成50%的伤害\n反弹效果有90秒内置冷却，冷却时间和其它效果类似的物品共享".zh();
-            }
-            else if (set == "DaedalusRanged")
-            {
-                player.setBonus = "增加5%远程伤害\n被击中时释放出水晶碎片".zh();
-            }
-            else if (set == "DaedalusRogue")
-            {
-                player.setBonus = "增加5%盗贼伤害\n盗贼弹幕飞行时释放水晶碎片\n增加105点最大潜行值".zh();
-            }
-            else if (set == "Demonshade")
-            {
-                player.setBonus = "增加100%召唤伤害，+10召唤栏\n所有攻击造成恶魔之炎减益\n受伤时发射暗影射线和恶魔镰刀\n召唤一只友善的红恶魔为你战斗\n按 " + hotkey + " 键以黑魔法咒语激怒周围的敌人10秒\n这道咒语使他们对你额外造成25%伤害，同时额外受到125%伤害".zh();
-            }
-            else if (set == "DesertProwler")
-            {
-                player.setBonus = "额外增加1点远程伤害".zh();
-            }
-            else if (set == "FathomSwarmer")
-            {
-                player.setBonus = "增加10%召唤伤害，+2召唤栏\n获得爬墙的能力\n浸没在液体中时增加30%召唤伤害\n在深渊中提供适量光照，一定程度减缓深渊中呼吸条消耗速度".zh();
-            }
-            else if (set == "Fearmonger")
-            {
-                player.setBonus = "增加20%召唤伤害，+2召唤栏\n使用其他职业武器时的召唤伤害惩罚从降低50%召唤伤害变成降低25%召唤伤害\n免疫一切霜、火相关的减益\n召唤物攻击敌人会使你获得极高的生命再生速度\n在南瓜月和霜月事件期间获得15%伤害减免\n这15%伤害减免无视减伤率软上限".zh();
-            }
-            else if (set == "ForbiddenCalam")
-            {
-                int stormMana = (int)(60f * player.manaCost);
-                player.setBonus = "按下 " + hotkey + " 键可在光标位置处召唤一个远古风暴\n远古风暴消耗 " + stormMana + " 魔力值并且同时受到召唤和盗贼伤害增益\n盗贼潜伏攻击命中会召唤追踪的禁戒吞噬者\n即使拿着盗贼武器，仆从也会造成全额伤害\n盗贼和召唤攻击将会按比例增加伤害\n增加40点最大潜行值".zh();
-            }
-            else if (set == "GodSlayerMelee")
-            {
-                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkeyGods + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n敌人更有可能以你为目标\n一次性受到超过80点伤害使你放出一群高伤害的弑神飞镖\n敌人碰到你时受到大量伤害\n如果一次攻击将对你造成少于80点伤害，则它改为对你造成1点伤害".zh();
-            }
-            else if (set == "GodSlayerRanged")
-            {
-                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkeyGods + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n你的远程武器射击时每2.5秒发射一枚弑神榴霰弹".zh();
-            }
-            else if (set == "GodSlayerRogue")
-            {
-                player.setBonus = "允许你进行一次距离极长的能够选择八个方向的冲刺\n当你按着控制角色移动的按键的同时按 " + hotkeyGods + " 键可以进行指定方向的冲刺\n被冲刺撞到的敌人会受到极高的碰撞伤害\n在冲刺过程中你免疫绝大多数减益\n弑神者冲刺有35秒冷却时间\n生命值全满时所有盗贼属性增加10%\n如果一次攻击对你造成了超过80伤害，你获得额外的无敌帧\n增加120点最大潜行值".zh();
-            }
-            else if (set == "Mollusk")
-            {
-                player.setBonus = "两只贝壳会在战斗中助你一臂之力\n增加10%伤害\n水平移动速度降低".zh();
-            }
-            else if (set == "OmegaBlue")
-            {
-                player.setBonus = "增加15点护甲穿透\n增加10%伤害和暴击率，增加2召唤栏\n触手会攻击附近的敌人，偷取生命治疗你\n按 " + hotkey + " 键进入深渊狂乱状态5秒\n深渊狂乱状态会增加你的伤害和暴击率，同时触手的攻击性和攻击范围也会提升\n此效果有25秒冷却时间".zh();
-            }
-            else if (set == "PlaguebringerSummon")
-            {
-                player.setBonus = "获得瘟疫冲刺，使敌怪被瘟疫折磨\n召唤一个小瘟疫使者来保护你，并增强附近的召唤物\n+3召唤栏".zh();
-            }
-            else if (set == "PlaguebringerRanged")
-            {
-                player.setBonus = "减少25%弹药消耗率，增加5%飞行时间\n受瘟疫减益作用的敌人会额外受到10%远程伤害\n受到伤害会使瘟疫残渣从天而降\n按 " + hotkey + " 键使自己在5秒钟内失去视野，但大幅增加远程伤害\n此效果有25秒冷却时间".zh();
-            }
-            else if (set == "Prismatic")
-            {
-                player.setBonus = "最大魔力值增加40，魔力消耗减少15%\n提高魔力再生速度\n按 " + hotkey + " 键在鼠标位置召唤一轮死亡激光，持续5秒\n这个技能有30秒冷却".zh();
-            }
-            else if (set == "ReaverExp")
-            {
-                player.setBonus = "令附近的宝藏闪闪发光\n提升物品拾取距离和物块放置距离\n在水下挖掘物块时恢复氧气\n召唤一个掠夺者毒球照亮周围区域\n降低敌人的进攻性，即便身处深渊\n在深渊中提供少量光照".zh();
-            }
-            else if (set == "ReaverTan")
-            {
-                player.setBonus = "+10防御力并+3生命恢复\n敌人更有可能以你为目标\n受到持续性伤害减益时的生命恢复损失降低20%\n你的任何攻击都有小概率具有生命偷取效果并且增加生命恢复速度\n减少20%的移动速度与飞行时间\n敌人会受到你的反伤，并且你被击中时召唤一束荆棘伤害敌人\n当你受伤时有25%的几率获得掠夺者之怒增益".zh();
-            }
-            else if (set == "ReaverMob")
-            {
-                player.setBonus = "免疫摔落伤害并允许连续跳跃\n增加10%飞行时间和水平飞行速度\n钩爪的射速和牵引速度增加10%\n降低冲刺类效果的冷却时间".zh();
-            }
-            else if (set == "ShroomiteCalam")
-            {
-                player.setBonus = "站立不动进入射手潜行状态".zh();
-            }
-            else if (set == "SilvaSummon")
-            {
-                player.setBonus = "增加65%召唤伤害，+5召唤栏\n所有弹幕击中敌人时生成林海光球治疗你\n增加5%最大奔跑速度和加速度\n如果你的生命值将要降至1以下，则你在8秒钟内不会因为受伤而死亡\n这个效果有5分钟冷却时间，冷却时间不会在Boss存在或事件时期计时\n召唤始源林海水晶轰击你的敌人".zh();
-            }
-            else if (set == "SilvaMagic")
-            {
-                player.setBonus = "所有弹幕击中敌人时生成林海光球治疗你\n增加5%最大奔跑速度和加速度\n如果你的生命值将要降至1以下，则你在8秒钟内不会因为受伤而死亡\n这个效果有5分钟冷却时间，冷却时间不会在Boss存在或事件时期计时\n不能穿透的魔法弹幕击中敌人后有几率产生强大的自然能量爆炸".zh();
-            }
-            else if (set == "SnowRuffian")
-            {
-                player.setBonus = "增加5%盗贼伤害\n你可以缓降以消除坠落伤害\n增加50点最大潜行值".zh();
-            }
-            else if (set == "StatigelMagic")
-            {
-                player.setBonus = "当你一次性受到超过100点伤害时，获得额外的无敌帧\n增加跳跃高度，并获得一段额外跳跃\n增加12%跳跃速度".zh();
-            }
-            else if (set == "StatigelRanged")
-            {
-                player.setBonus = "当你一次性受到超过100点伤害时，获得额外的无敌帧\n增加跳跃高度，并获得一段额外跳跃\n增加12%跳跃速度".zh();
-            }
-            else if (set == "StatigelMelee")
-            {
-                player.setBonus = "敌人更有可能以你为目标\n当你一次性受到超过100点伤害时，获得额外的无敌帧\n增加跳跃高度，并获得一段额外跳跃\n增加12%跳跃速度".zh();
-            }
-            else if (set == "StatigelSummon")
-            {
-                player.setBonus = "增加18%召唤伤害，+1召唤栏\n召唤史莱姆之神宝宝为你而战, 它的种类取决于世界邪恶类型\n当你一次性受到超过100点伤害时，获得额外的无敌帧\n增加跳跃高度，并获得一段额外跳跃\n增加12%跳跃速度".zh();
-            }
-            else if (set == "StatigelRogue")
-            {
-                player.setBonus = "当你一次性受到超过100点伤害时，获得额外的无敌帧\n增加跳跃高度，并获得一段额外跳跃\n增加12%跳跃速度\n增加100点最大潜行值".zh();
-            }
-            else if (set == "Sulfur")
-            {
-                player.setBonus = "攻击敌人或被敌人攻击时对其造成中毒减益\n获得一段额外跳跃，跳跃时生成硫磺泡泡\n增加水下移动力，降低硫磺海水的威胁性\n增加95点最大潜行值".zh();
-            }
-            else if (set == "TarragonMelee")
-            {
-                player.setBonus = "增加红心拾取范围\n敌人死亡时有几率掉落更多心\n敌人更有可能以你为目标\n在受到伤害时你有25%几率获得生命再生的增益\n按 " + hotkey + " 键将自己以生命的能量包裹，大大降低你受到的接触伤害，持续10秒\n此效果有30秒冷却时间".zh();
-            }
-            else if (set == "TarragonRogue")
-            {
-                player.setBonus = "降低刷怪率\n增加红心拾取范围\n敌人死亡时有几率掉落更多心\n使用盗贼武器暴击敌人25次后你会获得3秒无敌时间\n此效果30秒内只能发动一次\n若你受到减益影响，则提升10%暴击率\n增加115点最大潜行值".zh();
-            }
-            else if (set == "TarragonSummon")
-            {
-                player.setBonus = "增加50%召唤伤害，+3召唤栏\n降低敌怪生成率\n增加红心拾取范围\n敌人死亡时有几率掉落更多心\n召唤围绕你的生命光环，对敌人造成伤害".zh();
-            }
-            else if (set == "TarragonMagic")
-            {
-                player.setBonus = "降低刷怪率\n增加红心拾取范围\n敌人死亡时有几率掉落更多心\n每五次暴击时发射叶片风暴\n魔法弹幕击中敌人时有50%几率治疗你\n治疗量取决于弹幕造成的伤害".zh();
-            }
-            else if (set == "TarragonRanged")
-            {
-                player.setBonus = "降低刷怪率\n增加心拾取范围\n敌人死亡时有几率掉落更多心\n远程弹幕在因击中敌人而消失时有几率分裂为生命能量".zh();
-            }
-            else if (set == "TitanHeart")
-            {
-                player.setBonus = "增加15%盗贼伤害和击退\n潜伏攻击会造成两倍的击退并产生幻星爆炸\n获得击退免疫\n增加100点最大潜行值".zh();
-            }
-            else if (set == "Umbraphile")
-            {
-                player.setBonus = "盗贼武器击中敌人时概率产生爆炸\n暴击总是产生爆炸\n半影药剂总是发挥最大功效（增加30%潜行值积累速度）\n增加110点最大潜行值".zh();
-            }
-            else if (set == "VictideRogue")
-            {
-                player.setBonus = "在水中时增加3点生命再生速度和10%盗贼伤害\n使用任何武器时都有10%几率发射回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提高水下灵活性，稍微减缓深渊中呼吸条消耗速度\n增加90点最大潜行值".zh();
-            }
-            else if (set == "VictideMelee")
-            {
-                player.setBonus = "敌人更有可能以你为目标\n在水中时增加3点生命再生速度和10%近战伤害\n使用任何武器时都有10%几率发射回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提高水下灵活性，稍微减缓深渊中呼吸条消耗速度".zh();
-            }
-            else if (set == "VictideSummon")
-            {
-                player.setBonus = "在水中时增加3点生命再生速度和10%召唤伤害\n召唤一只海胆为你而战\n使用任何武器时都有10%几率发射回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提高水下灵活性，稍微减缓深渊中呼吸条消耗速度\n+1召唤栏".zh();
-            }
-            else if (set == "VictideMagic")
-            {
-                player.setBonus = "在水中时增加3点生命再生速度和10%魔法伤害\n使用任何武器时都有10%几率发射回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提高水下灵活性，稍微减缓深渊中呼吸条消耗速度".zh();
-            }
-            else if (set == "VictideRanged")
-            {
-                player.setBonus = "在水中时增加3点生命再生速度和10%远程伤害\n使用任何武器时都有10%几率发射回旋贝壳弹幕\n贝壳造成真实伤害，不受任何职业伤害加成影响\n提高水下灵活性，稍微减缓深渊中呼吸条消耗速度".zh();
-            }
-
-            else if (set == "Xeroc")
-            {
-                player.setBonus = "增加9%盗贼伤害和盗贼弹幕飞行速度\n盗贼弹幕击中敌人产生特殊效果\n受伤时受到来自宇宙的怒火加持\n增加115点最大潜行值".zh();
-            }
-
-            else if (set == "Wulfrum")
-            {
-                player.setBonus = "增加1召唤栏".zh();
-            }
-
-            #endregion
-
-            #region 原版套装
-            else if (set == "SpectreHeal")
-            {
-                player.setBonus = "魔法伤害减少20%并将其转化为治愈力\n对敌人造成的魔法伤害将治疗生命值最低的玩家".zh();
-            }
-            #endregion
-        }
-    }
-
-    public override string IsArmorSet(Item head, Item body, Item legs)
-    {
-        #region 灾厄套装
-        if (head.type == ModContent.ItemType<AerospecHat>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
-        {
-            return "AerospecMagic";
-        }
-        if (head.type == ModContent.ItemType<AerospecHeadgear>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
-        {
-            return "AerospecRogue";
-        }
-        if (head.type == ModContent.ItemType<AerospecHelm>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
-        {
-            return "AerospecMelee";
-        }
-        if (head.type == ModContent.ItemType<AerospecHelmet>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
-        {
-            return "AerospecSummon";
-        }
-        if (head.type == ModContent.ItemType<AerospecHood>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
-        {
-            return "AerospecRanged";
-        }
-        if (head.type == ModContent.ItemType<AstralHelm>() && body.type == ModContent.ItemType<AstralBreastplate>() && legs.type == ModContent.ItemType<AstralLeggings>())
-        {
-            return "Astral";
-        }
-        if (head.type == ModContent.ItemType<HydrothermicHeadRanged>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
-        {
-            return "AtaxiaRanged";
-        }
-        if (head.type == ModContent.ItemType<HydrothermicHeadMelee>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
-        {
-            return "AtaxiaMelee";
-        }
-        if (head.type == ModContent.ItemType<HydrothermicHeadSummon>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
-        {
-            return "AtaxiaSummon";
-        }
-        if (head.type == ModContent.ItemType<HydrothermicHeadRogue>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
-        {
-            return "AtaxiaRogue";
-        }
-        if (head.type == ModContent.ItemType<HydrothermicHeadMagic>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
-        {
-            return "AtaxiaMagic";
-        }
-        if (head.type == ModContent.ItemType<AuricTeslaRoyalHelm>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
-        {
-            return "AuricMelee";
-        }
-        if (head.type == ModContent.ItemType<AuricTeslaHoodedFacemask>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
-        {
-            return "AuricRanged";
-        }
-        if (head.type == ModContent.ItemType<AuricTeslaPlumedHelm>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
-        {
-            return "AuricRogue";
-        }
-        if (head.type == ModContent.ItemType<AuricTeslaSpaceHelmet>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
-        {
-            return "AuricSummon";
-        }
-        if (head.type == ModContent.ItemType<AuricTeslaWireHemmedVisage>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
-        {
-            return "AuricMagic";
-        }
-        if (head.type == ModContent.ItemType<BloodflareHeadRogue>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
-        {
-            return "BloodflareRogue";
-        }
-        if (head.type == ModContent.ItemType<BloodflareHeadSummon>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
-        {
-            return "BloodflareSummon";
-        }
-        if (head.type == ModContent.ItemType<BloodflareHeadRanged>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
-        {
-            return "BloodflareRanged";
-        }
-        if (head.type == ModContent.ItemType<BloodflareHeadMagic>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
-        {
-            return "BloodflareMagic";
-        }
-        if (head.type == ModContent.ItemType<BloodflareHeadMelee>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
-        {
-            return "BloodflareMelee";
-        }
-        if (head.type == ModContent.ItemType<BrimflameScowl>() && body.type == ModContent.ItemType<BrimflameRobes>() && legs.type == ModContent.ItemType<BrimflameBoots>())
-        {
-            return "Brimflame";
-        }
-        if (head.type == ModContent.ItemType<DaedalusHeadMagic>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
-        {
-            return "DaedalusMagic";
-        }
-        if (head.type == ModContent.ItemType<DaedalusHeadSummon>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
-        {
-            return "DaedalusSummon";
-        }
-        if (head.type == ModContent.ItemType<DaedalusHeadMelee>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
-        {
-            return "DaedalusMelee";
-        }
-        if (head.type == ModContent.ItemType<DaedalusHeadRanged>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
-        {
-            return "DaedalusRanged";
-        }
-        if (head.type == ModContent.ItemType<DaedalusHeadRogue>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
-        {
-            return "DaedalusRogue";
-        }
-        if (head.type == ModContent.ItemType<DemonshadeHelm>() && body.type == ModContent.ItemType<DemonshadeBreastplate>() && legs.type == ModContent.ItemType<DemonshadeGreaves>())
-        {
-            return "Demonshade";
-        }
-        if (head.type == ModContent.ItemType<DesertProwlerHat>() && body.type == ModContent.ItemType<DesertProwlerShirt>() && legs.type == ModContent.ItemType<DesertProwlerPants>())
-        {
-            return "DesertProwler";
-        }
-        if (head.type == ModContent.ItemType<FathomSwarmerVisage>() && body.type == ModContent.ItemType<FathomSwarmerBreastplate>() && legs.type == ModContent.ItemType<FathomSwarmerBoots>())
-        {
-            return "FathomSwarmer";
-        }
-        if (head.type == ModContent.ItemType<FearmongerGreathelm>() && body.type == ModContent.ItemType<FearmongerPlateMail>() && legs.type == ModContent.ItemType<FearmongerGreaves>())
-        {
-            return "Fearmonger";
-        }
-        if (head.type == ModContent.ItemType<ForbiddenCirclet>() && body.type == ItemID.AncientBattleArmorShirt && legs.type == ItemID.AncientBattleArmorPants)
-        {
-            return "ForbiddenCalam";
-        }
-        if (head.type == ModContent.ItemType<GodSlayerHeadMelee>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
-        {
-            return "GodSlayerMelee";
-        }
-        if (head.type == ModContent.ItemType<GodSlayerHeadRanged>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
-        {
-            return "GodSlayerRanged";
-        }
-        if (head.type == ModContent.ItemType<GodSlayerHeadRogue>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
-        {
-            return "GodSlayerRogue";
-        }
-        if (head.type == ModContent.ItemType<MolluskShellmet>() && body.type == ModContent.ItemType<MolluskShellplate>() && legs.type == ModContent.ItemType<MolluskShelleggings>())
-        {
-            return "Mollusk";
-        }
-        if (head.type == ModContent.ItemType<OmegaBlueHelmet>() && body.type == ModContent.ItemType<OmegaBlueChestplate>() && legs.type == ModContent.ItemType<OmegaBlueTentacles>())
-        {
-            return "OmegaBlue";
-        }
-        if (head.type == ModContent.ItemType<PlaguebringerVisor>() && body.type == ModContent.ItemType<PlaguebringerCarapace>() && legs.type == ModContent.ItemType<PlaguebringerPistons>())
-        {
-            return "PlaguebringerSummon";
-        }
-        if (head.type == ModContent.ItemType<PlagueReaperMask>() && body.type == ModContent.ItemType<PlagueReaperVest>() && legs.type == ModContent.ItemType<PlagueReaperStriders>())
-        {
-            return "PlaguebringerRanged";
-        }
-        if (head.type == ModContent.ItemType<PrismaticHelmet>() && body.type == ModContent.ItemType<PrismaticRegalia>() && legs.type == ModContent.ItemType<PrismaticGreaves>())
-        {
-            return "Prismatic";
-        }
-        if (head.type == ModContent.ItemType<ReaverHeadTank>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
-        {
-            return "ReaverTan";
-        }
-        if (head.type == ModContent.ItemType<ReaverHeadMobility>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
-        {
-            return "ReaverMob";
-        }
-        if (head.type == ModContent.ItemType<ReaverHeadExplore>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
-        {
-            return "ReaverExp";
-        }
-        if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == ItemID.ShroomiteBreastplate && legs.type == ItemID.ShroomiteLeggings)
-        {
-            return "ShroomiteCalam";
-        }
-        if (head.type == ModContent.ItemType<SilvaHeadSummon>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
-        {
-            return "SilvaSummon";
-        }
-        if (head.type == ModContent.ItemType<SilvaHeadMagic>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
-        {
-            return "SilvaMagic";
-        }
-        if (head.type == ModContent.ItemType<SnowRuffianMask>() && body.type == ModContent.ItemType<SnowRuffianChestplate>() && legs.type == ModContent.ItemType<SnowRuffianGreaves>())
-        {
-            return "SnowRuffian";
-        }
-        if (head.type == ModContent.ItemType<StatigelHeadMagic>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
-        {
-            return "StatigelMagic";
-        }
-        if (head.type == ModContent.ItemType<StatigelHeadRanged>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
-        {
-            return "StatigelRanged";
-        }
-        if (head.type == ModContent.ItemType<StatigelHeadMelee>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
-        {
-            return "StatigelMelee";
-        }
-        if (head.type == ModContent.ItemType<StatigelHeadSummon>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
-        {
-            return "StatigelSummon";
-        }
-        if (head.type == ModContent.ItemType<StatigelHeadRogue>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
-        {
-            return "StatigelRogue";
-        }
-        if (head.type == ModContent.ItemType<SulphurousHelmet>() && body.type == ModContent.ItemType<SulphurousBreastplate>() && legs.type == ModContent.ItemType<SulphurousLeggings>())
-        {
-            return "Sulfur";
-        }
-        if (head.type == ModContent.ItemType<TarragonHeadMelee>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
-        {
-            return "TarragonMelee";
-        }
-        if (head.type == ModContent.ItemType<TarragonHeadRogue>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
-        {
-            return "TarragonRogue";
-        }
-        if (head.type == ModContent.ItemType<TarragonHeadSummon>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
-        {
-            return "TarragonSummon";
-        }
-        if (head.type == ModContent.ItemType<TarragonHeadMagic>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
-        {
-            return "TarragonMagic";
-        }
-        if (head.type == ModContent.ItemType<TarragonHeadRanged>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
-        {
-            return "TarragonRanged";
-        }
-        if (head.type == ModContent.ItemType<TitanHeartMask>() && body.type == ModContent.ItemType<TitanHeartMantle>() && legs.type == ModContent.ItemType<TitanHeartBoots>())
-        {
-            return "TitanHeart";
-        }
-        if (head.type == ModContent.ItemType<UmbraphileHood>() && body.type == ModContent.ItemType<UmbraphileRegalia>() && legs.type == ModContent.ItemType<UmbraphileBoots>())
-        {
-            return "Umbraphile";
-        }
-        if (head.type == ModContent.ItemType<VictideHeadRogue>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
-        {
-            return "VictideRogue";
-        }
-        if (head.type == ModContent.ItemType<VictideHeadMelee>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
-        {
-            return "VictideMelee";
-        }
-        if (head.type == ModContent.ItemType<VictideHeadSummon>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
-        {
-            return "VictideSummon";
-        }
-        if (head.type == ModContent.ItemType<VictideHeadMagic>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
-        {
-            return "VictideMagic";
-        }
-        if (head.type == ModContent.ItemType<VictideHeadRanged>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
-        {
-            return "VictideRanged";
-        }
-
-        if (head.type == ModContent.ItemType<EmpyreanMask>() && body.type == ModContent.ItemType<EmpyreanCloak>() && legs.type == ModContent.ItemType<EmpyreanCuisses>())
-        {
-            return "Xeroc";
-        }
-
-        if (head.type == ModContent.ItemType<WulfrumHat>() && body.type == ModContent.ItemType<WulfrumJacket>() && legs.type == ModContent.ItemType<WulfrumOveralls>())
-        {
-            return "Wulfrum";
-        }
-
-        #endregion
-
-        #region 原版套装
-        if (head.type == ItemID.SpectreHood && body.type == ItemID.SpectreRobe && legs.type == ItemID.SpectrePants)
-        {
-            return "SpectreHeal";
-        }
-        #endregion
-        return "";
-    }
 
     //修改描述	
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -781,7 +174,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Averaged ", "无职业".zh());
                     line.Text = line.Text.Replace("Unsupported ", "未支持职业".zh());
                     line.Text = line.Text.Replace("Averaged ", "无职业".zh());
-					line.Text = line.Text.Replace("Whip ", "鞭子".zh());
+                    line.Text = line.Text.Replace("Whip ", "鞭子".zh());
                     line.Text = line.Text.Replace("Damage", "伤害加成".zh());
                     line.Text = line.Text.Replace("Crit Chance", "暴击率".zh());
                     line.Text = line.Text.Replace("Attack Speed", "攻速".zh());
@@ -795,7 +188,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Wing Flight Time:", "飞行时间：".zh());
                     line.Text = line.Text.Replace("seconds", "秒".zh());
                     line.Text = line.Text.Replace("sec", "秒".zh());
-					line.Text = line.Text.Replace("from melee", "来自近战".zh());
+                    line.Text = line.Text.Replace("from melee", "来自近战".zh());
                     line.Text = line.Text.Replace("Jump Boost:", "跳跃提升：".zh());
                     line.Text = line.Text.Replace("Move Speed:", "移速：".zh());
                     line.Text = line.Text.Replace("Luck:", "幸运值：".zh());
@@ -848,7 +241,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Grovetender's Touch", "林妖之轻抚".zh());
                     line.Text = line.Text.Replace("Heaven's Might", "天国之神威".zh());
                     line.Text = line.Text.Replace("Extant Abhorrence", "嫌恶之永存".zh());
-					line.Text = line.Text.Replace("Gesture for the Drowned", "溺死之亡姿".zh());
+                    line.Text = line.Text.Replace("Gesture for the Drowned", "溺死之亡姿".zh());
                     line.Text = line.Text.Replace("None", "无调谐".zh());
                     line.Text = line.Text.Replace("Does nothing..yet", "暂无所长，静待调谐。".zh());
                     line.Text = line.Text.Replace("Repairing the blade seems to have improved its attuning capacities", "似乎你对它的修复增强了它的调谐能力".zh());
@@ -866,8 +259,8 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which raises otherworldly monoliths", "撞击地面将引起地动山摇，异界巨石破土而出".zh());
                     line.Text = line.Text.Replace("Hold the attack button to swing the sword around you, accelerating over time", "使用回旋斩，随按住时间增加旋转速度".zh());
                     line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor. The sword then quickly returns to your hand", "使用回旋斩时松开攻击将剑掷出，它会在这之后快速回到你手中".zh());
-					line.Text = line.Text.Replace("Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground", "向两侧投放水球，它们落地后会激发小型海浪沿地面滑行".zh());
-					line.Text = line.Text.Replace("Waves fired while underwater or that touch water will become much larger and faster", "若水球接触到水，它激起的浪花将变得巨大且飞快".zh());
+                    line.Text = line.Text.Replace("Shoot out two water balls at your sides. On ground contact the water balls will turn into small waves that ride along the ground", "向两侧投放水球，它们落地后会激发小型海浪沿地面滑行".zh());
+                    line.Text = line.Text.Replace("Waves fired while underwater or that touch water will become much larger and faster", "若水球接触到水，它激起的浪花将变得巨大且飞快".zh());
                 }
                 if (item.type == ModContent.ItemType<OmegaBiomeBlade>())
                 {
@@ -1005,68 +398,12 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Donor Item", "捐赠者物品".zh());
                 }
+
                 if (item.accessory && !item.social && item.prefix > 0)
                 {
                     line.Text = line.Text.Replace("damage reduction", "伤害减免".zh());
                     line.Text = line.Text.Replace("stealth generation", "潜行值恢复速度".zh());
 
-                }
-
-                if (item.type == ModContent.ItemType<WulfrumHat>() || item.type == ModContent.ItemType<WulfrumJacket>() || item.type == ModContent.ItemType<WulfrumOveralls>())
-                {
-                    line.Text = line.Text.Replace("Wulfrum Bastion - Double tap DOWN while dismounted to equip wulfrum power armor", "钨钢阵线 - 不在坐骑上时双击下键以装备钨钢能量装甲".zh());
-                    line.Text = line.Text.Replace("While the armor is active, you can only use the integrated fusion cannon, but your defensive stats are increased", "当能量装甲激活时，你只能使用聚变炮，但防御力提升".zh());
-                    line.Text = line.Text.Replace("Calling down the armor consumes one piece of wulfrum metal scrap, and the armor will lose durability faster when hit", "召唤装甲消耗一块钨钢金属废料，且装甲在被击中时会更快失去耐久".zh());
-                    line.Text = line.Text.Replace("Hold SHIFT to see the stats of the fusion cannon", "按住SHIFT视察聚变炮的属性".zh());
-                }
-
-                if (item.type == ModContent.ItemType<MarniteArchitectHeadgear>() || item.type == ModContent.ItemType<MarniteArchitectToga>())
-                {
-                    line.Text = line.Text.Replace("Marnite Lift - You can summon a lift under your feet to reach higher up", "合成岩悬浮平台-你可以在你的脚下召唤一个悬浮平台以够到更高的地方".zh());
-                    line.Text = line.Text.Replace("The lift gets summoned when the mount hotkey gets pressed", "悬浮平台会在按下坐骑按钮时被召唤".zh());
-                    line.Text = line.Text.Replace("without any mounts equipped", "前提是没有装备任何坐骑".zh());
-                    line.Text = line.Text.Replace("Using the Up and Down keys can change the lift's height", "使用上下键改变悬浮平台的高度".zh());
-                }
-
-                if (item.type == ModContent.ItemType<DesertProwlerHat>() || item.type == ModContent.ItemType<DesertProwlerPants>() || item.type == ModContent.ItemType<DesertProwlerShirt>())
-                {
-                    line.Text = line.Text.Replace("Sandsmoke Bomb - Double tap DOWN to shroud yourself in a small cloud of sand", "沙尘覆盖-双击下键将自己笼罩在一小片沙尘之中".zh());
-                    line.Text = line.Text.Replace("While the sand cloud is active, gain increased mobility but heavily reduced defense", "当在沙尘之中，获得更高的机动性，但防御力大大降低".zh());
-                    line.Text = line.Text.Replace("Using a ranged weapon instantly dispels the sand cloak, but guarantees a supercrit for 200% damage", "使用远程攻击会立刻驱散沙尘，但会造成200%的超级暴击伤害".zh());
-                    line.Text = line.Text.Replace("The super crit applies only as long as the resulting hit wouldn't exceed 100 damage", "超级暴击只在造成的伤害不超过100点时才有效".zh());
-                    line.Text = line.Text.Replace("Landing the killing blow on an enemy with this shot shortens the ability's cooldown to 1.5 seconds", "此次攻击击杀敌人，冷却时间缩短到1.5秒".zh());
-                }
-
-                if (item.type == ModContent.ItemType<GemTechHeadgear>() || item.type == ModContent.ItemType<GemTechSchynbaulds>() || item.type == ModContent.ItemType<GemTechBodyArmor>())
-                {
-                    line.Text = line.Text.Replace("Power Gems - Six gem fragments idly orbit you; one for each class, and a base gem", "能量宝石 - 六个宝石碎片缓缓绕着你旋转；其中五个对应五个职业，还有一个基础宝石".zh());
-                    line.Text = line.Text.Replace("Each active gem provides a bonus for its respective class, while the defensive gem grants defensive boosts", "每种宝石提供一种对应职业奖励，防御宝石会给予大量防御提升".zh());
-                    line.Text = line.Text.Replace("Powerful enemy hits will dislodge gems, launching them into the nearest enemy for huge damage", "受到大量伤害宝石会破碎，并攻击附近敌怪造成大量伤害".zh());
-                    line.Text = line.Text.Replace("Lost gems regenerate after a while", "失去的宝石需要时间来重新凝聚".zh());
-                    line.Text = line.Text.Replace("The lost gem is the same class as the weapon you are using, so better prepare for some weapon switching action!", "失去的宝石对应你最近一次使用的武器的职业！".zh());
-                    line.Text = line.Text.Replace("Hold SHIFT to see an expanded description", "按住Shift查看更多信息".zh());
-                    line.Text = line.Text.Replace("A gem is lost when you take more than ", "如果一次受到超过".zh());
-                    line.Text = line.Text.Replace(" damage in a single hit. The type of gem lost is the same as the class of the previous when you used", "点伤害，你会失去一个宝石。失去的宝石对应你最近一次使用的武器的职业".zh());
-                    line.Text = line.Text.Replace("If said gem has already been lost, the base gem is lost instead", "如果你已经失去了那个宝石，那么这次失去的将会是基础宝石".zh());
-                    line.Text = line.Text.Replace("When a gem is lost, it breaks off and homes towards the nearest enemy or boss, if one is present, dealing a base of ", "宝石在失去时会破碎，并向最近的敌人或boss飞去，造成".zh());
-                    line.Text = line.Text.Replace("Gems have a ", "破碎的宝石需要".zh());
-                    line.Text = line.Text.Replace(" second delay before they appear again", "秒来重新凝聚".zh());
-                    line.Text = line.Text.Replace("The red gem grants ", "红色宝石给予".zh());
-                    line.Text = line.Text.Replace(" maximum stealth, increased rogue stats, and makes stealth only consumable by rogue weapons", "点最大潜行值，增加盗贼属性，并让非盗贼武器不消耗潜行值".zh());
-                    line.Text = line.Text.Replace("The yellow gem provides increased melee stats and makes melee attacks release shards on hit with a cooldown. This cooldown is shorter for true melee attacks", "黄色宝石增加近战属性，让近战攻击释放宝石碎片。真近战攻击释放宝石碎片的冷却时间更少".zh());
-                    line.Text = line.Text.Replace("The green gem provides increased ranged stats and causes flechettes to fly swiftly towards targets when they are damaged by a ranged projectile", "绿色宝石增加远程属性，并召唤飞镖弹快速向被远程弹幕击中的敌人飞去".zh());
-                    line.Text = line.Text.Replace("The blue gem grants ", "蓝色宝石给予".zh());
-                    line.Text = line.Text.Replace(" extra maximum minions, increased minion damage, and reduces the penalty for summoner items while holding a non-summoner weapon", "最大召唤栏，增加召唤伤害，并减少手持非召唤武器的召唤伤害降低惩罚".zh());
-                    line.Text = line.Text.Replace("The violet gem grants ", "紫色宝石给予".zh());
-                    line.Text = line.Text.Replace(" extra maximum mana, increased magic stats, and makes mana rapidly regenerate when holding a non-magic weapon", "点魔力上限，增加魔法属性，并在你手持非魔法武器时为你快速回复魔力".zh());
-                    line.Text = line.Text.Replace("The pink base gem grants ", "粉色基础宝石给予".zh());
-                    line.Text = line.Text.Replace(" extra defense, extra damage reduction, increased movement speed, jump speed, and +", "点防御力，增加免伤、移动速度和跳跃速度，增加".zh());               
-                    line.Text = line.Text.Replace("When all gems exist simultaneously, hitting a target with any weapon grants you +", "如果所有宝石同时存在，使用任意武器击中敌人会给予你".zh());
-                    line.Text = line.Text.Replace(" life regen for ", "点生命恢复持续".zh());
-                    line.Text = line.Text.Replace("This is increased to +3 life regen if a weapon of another class is used during that 8 second period for 2.5 seconds", "持续期间使用另一职业的武器超过2.5秒，生命恢复增加至3点".zh());
-					line.Text = line.Text.Replace(" damage", "基础伤害".zh());
-                    line.Text = line.Text.Replace(" life regen", "生命回复".zh());
-                    line.Text = line.Text.Replace(" seconds", "秒".zh());
                 }
 
                 if (item.type == ModContent.ItemType<RuneofKos>())
@@ -1123,10 +460,10 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Snake Eyes", "蛇眼".zh());
                     line.Text = line.Text.Replace("Wave Pounder", "震波炸弹".zh());
                     line.Text = line.Text.Replace("Voltage Regulation System", "电压校准系统".zh());
-                    
+
                 }
 
-                #region 不能直接翻译的家具(恼
+                #region OverrideName
                 //星流家具
                 if (item.type == ModContent.ItemType<ExoChair>())
                 {
@@ -1524,6 +861,26 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Stratus Work Bench", "幻云工作台".zh());
                 }
+                if (item.type == ModContent.ItemType<OtherworldlyStoneWall>())
+                {
+                    line.Text = line.Text.Replace("Otherworldly Stone Wall", "异域石墙".zh());
+                }
+                if (item.type == ModContent.ItemType<EutrophicShelf>())
+                {
+                    line.Text = line.Text.Replace("Eutrophic Shelf", "富养制造架".zh());
+                }
+                if (item.type == ModContent.ItemType<MonolithAmalgam>())
+                {
+                    line.Text = line.Text.Replace("Monolith Amalgam", "星幻柱综合体".zh());
+                }
+                if (item.type == ModContent.ItemType<ProfanedCrucible>())
+                {
+                    line.Text = line.Text.Replace("Profaned Crucible", "亵渎坩埚".zh());
+                }
+                if (item.type == ModContent.ItemType<SilvaBasin>())
+                {
+                    line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机".zh());
+                }
 
                 #endregion
 
@@ -1555,7 +912,7 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("Holding this item grants +20% increased movement speed", "手持此物品时会获得20%移动速度加成".zh());
                 }
-                
+
                 if (item.type == 426 || item.type == 1166 || item.type == 3772)
                 {
                     line.Text = line.Text.Replace("Ignores 50% of enemy defense", "无视敌怪50%的防御力".zh());
@@ -1614,20 +971,25 @@ public class Itemgb : GlobalItem
                 #endregion
 
                 #region 工具
-                if (item.type == 367 || item.type == 787)
+                if (item.type == ItemID.Pwnhammer || item.type == ItemID.Hammush)
                 {
                     line.Text = line.Text.Replace("Demon Altars now drop Souls of Night instead of generating ores when destroyed", "摧毁恶魔祭坛获得暗影之魂，而不是新三矿".zh());
                     line.Text = line.Text.Replace("Hardmode ores now generate after defeating Mechanical Bosses for the first time", "新三矿仅在击败每个机械Boss后生成".zh());
                 }
 
-                if (item.type == 1294)
+                if (item.type == ItemID.Picksaw)
                 {
                     line.Text = line.Text.Replace("Can mine Scoria Ore located in the Abyss", "可开采深渊中的熔渣矿".zh());
                 }
 
-                if (item.type == 2776 || item.type == 2781 || item.type == 2786 || item.type == 3466)
+                if (item.type == ItemID.VortexPickaxe || item.type == ItemID.NebulaPickaxe || item.type == ItemID.SolarFlarePickaxe || item.type == ItemID.StardustPickaxe)
                 {
                     line.Text = line.Text.Replace("Can mine Uelibloom Ore", "可开采龙蒿矿".zh());
+                }
+
+                if (item.type == ItemID.GoldenFishingRod)
+                {
+                    line.Text = line.Text.Replace("Its fishing line will never break", "鱼线永远不会断裂".zh());
                 }
                 #endregion
 
@@ -1699,7 +1061,7 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难".zh());
                 }
 
-                if (item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type==ItemID.MiningHelmet)
+                if (item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
                 {
                     line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照".zh());
                 }
@@ -1922,149 +1284,75 @@ public class Itemgb : GlobalItem
                 #region 盔甲
                 if (item.type == 89 || item.type == 80 || item.type == 76)
                 {
-                    line.Text = line.Text.Replace("Increases all damage by", "所有伤害增加".zh());
-                    line.Text = line.Text.Replace("increased movement speed", "移速增加".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
                     line.Text = line.Text.Replace("5% increased damage", "伤害增加5%".zh());
                     line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%".zh());
-                }
-                if (item.type == 123 || item.type == 124 || item.type == 125)
-                {
-                    line.Text = line.Text.Replace("太空枪不消耗魔力", "减少太空枪50%魔力消耗".zh());
-                }
-                if (item.type == 687 || item.type == 688 || item.type == 689)
-                {
-                    line.Text = line.Text.Replace("Increases armor penetration by 5", "增加5点护甲穿透".zh());
-                    line.Text = line.Text.Replace("life regen", "生命再生速度".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
-                    line.Text = line.Text.Replace("4% increased critical strike chance", "暴击率增加4%".zh());
-                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
-                }
-                if (item.type == 954 || item.type == 90 || item.type == 81 || item.type == 77)
-                {
-                    line.Text = line.Text.Replace("Reduces damage taken by", "伤害减免".zh());
-                    line.Text = line.Text.Replace("life regen", "生命再生速度".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
-                }
-                if (item.type == 690 || item.type == 691 || item.type == 692)
-                {
-                    line.Text = line.Text.Replace("Reduces damage taken by", "伤害减免".zh());
-                    line.Text = line.Text.Replace("life regen", "生命再生速度".zh());
-                    line.Text = line.Text.Replace("Grants immunity to knockback", "免疫击退".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
+                    line.Text = line.Text.Replace("5% increased movement speed", "移速增加5%".zh());
                 }
                 if (item.type == 91 || item.type == 82 || item.type == 78)
                 {
-                    line.Text = line.Text.Replace("life regen", "生命再生速度".zh());
                     line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
+                    line.Text = line.Text.Replace("life regen", "生命再生".zh());
                     line.Text = line.Text.Replace("6% increased critical strike chance", "暴击率增加6%".zh());
-                    line.Text = line.Text.Replace("Two seconds after getting hit for 20 or more damage, you heal for 10", "受到20点以上的伤害两秒后，你会恢复10点生命".zh());
-                    line.Text = line.Text.Replace("Getting hit again resets the timer, delaying the heal", "如果期间再受到伤害会重新计时2秒".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
                 }
-                if (item.type == 693 || item.type == 694 || item.type == 695)
+                if (item.type == 954 || item.type == 90 || item.type == 81 || item.type == 77)
                 {
-                    line.Text = line.Text.Replace("7% increased damage", "伤害增加7%".zh());
-                    line.Text = line.Text.Replace("life regen", "生命再生速度".zh());
-                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
-                    line.Text = line.Text.Replace("Increases your critical strike chance by 100% of the knockback of your held weapon", "根据武器的击退增加暴击率".zh());
-                    line.Text = line.Text.Replace("This effect caps at Insane knockback, which gives 10% increased critical strike chance", "上限增加为10%暴击率".zh());
-                    line.Text = line.Text.Replace("Increases all knockback by 33%, this counts for the above boost", "所有击退增加33%,也算".zh());
-                    line.Text = line.Text.Replace("Current bonus:", "当前奖励:".zh());
-                    line.Text = line.Text.Replace("critical strike chance from", "暴击率来自".zh());
-                    line.Text = line.Text.Replace("knockback", "击退".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
+                    line.Text = line.Text.Replace("Reduces damage taken by", "所受伤害减少".zh());
                 }
                 if (item.type == 955 || item.type == 92 || item.type == 83 || item.type == 79)
                 {
                     line.Text = line.Text.Replace("6% increased damage", "伤害增加6%".zh());
-                    line.Text = line.Text.Replace("Reduces damage taken by", "伤害减免".zh());
+                    line.Text = line.Text.Replace("Reduces damage taken by", "所受伤害减少".zh());
                     line.Text = line.Text.Replace("12% increased movement speed", "移速增加12%".zh());
-                    line.Text = line.Text.Replace("All enemies have a 4% chance to drop 1 gold. All bosses killed drop 3 gold", "所有敌人有4%几率掉落1金币，Boss掉落3金币".zh());
-                    line.Text = line.Text.Replace("You gain 1% critical strike chance for every 5 gold in your inventory, capped at 10%", "背包中每有5金币增加1%暴击率，上限为10%".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
                 }
-                if (item.type == ItemID.PlatinumHelmet || item.type == ItemID.PlatinumChainmail || item.type == ItemID.PlatinumGreaves)
+                if (item.type == 687 || item.type == 688 || item.type == 689)
+                {
+                    line.Text = line.Text.Replace("4% increased critical strike chance", "暴击率增加4%".zh());
+                    line.Text = line.Text.Replace("life regen", "生命再生".zh());
+                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
+                }
+                if (item.type == 690 || item.type == 691 || item.type == 692)
+                {
+                    line.Text = line.Text.Replace("Reduces damage taken by", "所受伤害减少".zh());
+                }
+                if (item.type == 693 || item.type == 694 || item.type == 695)
+                {
+                    line.Text = line.Text.Replace("7% increased damage", "伤害增加7%".zh());
+                    line.Text = line.Text.Replace("life regen", "生命再生".zh());
+                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
+                }
+                if (item.type == 696 || item.type == 697 || item.type == 698)
                 {
                     line.Text = line.Text.Replace("6% increased damage", "伤害增加6%".zh());
                     line.Text = line.Text.Replace("5% increased critical strike chance", "暴击率增加5%".zh());
                     line.Text = line.Text.Replace("12% increased movement speed", "移速增加12%".zh());
-                    line.Text = line.Text.Replace("Every 15 defense gives you +1 life regen", "每15点防御力增加1生命再生".zh());
-                    line.Text = line.Text.Replace("Every 15 defense gives you 1% increased critical strike chance", "每15点防御力增加1%暴击率".zh());
-                    line.Text = line.Text.Replace("These effects both cap at 45 defense", "上限45点防御".zh());
-                    line.Text = line.Text.Replace("25% increased mining speed", "挖掘速度增加25%".zh());
-                }
-                if (item.type == 3266 || item.type == 3267 || item.type == 3268)
-                {
-                    line.Text = line.Text.Replace("Set Bonus:", "套装奖励：".zh());
-                    line.Text = line.Text.Replace("Increases whip range by 50% and speed by 35%", "增加50%鞭子范围和35%速度".zh());
-                    line.Text = line.Text.Replace("Increases minion damage by 15%", "增加15%召唤伤害".zh());
-                    line.Text = line.Text.Replace("Grants immunity to fire blocks and temporary immunity to lava", "免疫火块和短暂免疫岩浆".zh());
                 }
                 if (item.type == 956 || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
                 {
-                    line.Text = line.Text.Replace("Set bonus:", "套装奖励：".zh());
-                    line.Text = line.Text.Replace("15% increased max movement speed and acceleration", "最大移速和加速度提高15%".zh());
                     line.Text = line.Text.Replace("5% increased damage and 7% increased jump speed", "增加5%伤害和7%跳跃速度".zh());
-                }
-                if (item.type == 231 || item.type == 232 || item.type == 233)
-                {
-                    line.Text = line.Text.Replace("20% extra true melee damage", "增加20%额外真近战伤害".zh());
-                    line.Text = line.Text.Replace("Grants immunity to fire blocks and temporary immunity to lava", "免疫火块和短暂免疫岩浆".zh());
                 }
                 if (item.type == 792 || item.type == 793 || item.type == 794)
                 {
-                    line.Text = line.Text.Replace("life regen", "生命再生速度".zh());
+                    line.Text = line.Text.Replace("life regen", "生命再生".zh());
                 }
                 if (item.type == 3187 || item.type == 3188 || item.type == 3189)
                 {
                     line.Text = line.Text.Replace("3% increased rogue damage", "增加3%盗贼伤害".zh());
                     line.Text = line.Text.Replace("3% increased rogue critical strike chance", "增加3%盗贼暴击率".zh());
                     line.Text = line.Text.Replace("3% increased rogue velocity", "增加3%盗贼弹幕速度".zh());
-                    line.Text = line.Text.Replace("+3 defense", "套装效果：+3 防御力".zh());
-                    line.Text = line.Text.Replace("5% increased rogue damage and 10% increased velocity", "增加5%盗贼伤害和10%盗贼弹幕速度".zh());
-                    line.Text = line.Text.Replace("+60 maximum stealth", "增加60最大潜行值".zh());
-
-                }
-                if (item.type == 1001 || item.type == 1002 || item.type == 1003 || item.type == 1004 || item.type == 1005)
-                {
-                    line.Text = line.Text.Replace("Summons a powerful leaf crystal to shoot pulses of life every 5 seconds", "召唤叶状水晶，每5秒发射一次生命脉冲".zh());
-                    line.Text = line.Text.Replace("The pulses do a base damage of 300 to enemies within its range", "脉冲对范围内的敌人造成300基础伤害".zh());
-                    line.Text = line.Text.Replace("The pulses also provide a 10 health boost to you and all players on your team", "并治疗范围内的友军10点生命".zh());
-                    line.Text = line.Text.Replace("Players healed by pulses cannot be healed by another pulse until 4.5 seconds have passed", "4.5秒内玩家只会受到一个水晶治疗".zh());
-                    line.Text = line.Text.Replace("Both the health boost and the damage scale based on your strongest class", "伤害和治疗值均受玩家最强职业加成".zh());
                 }
                 if (item.type == 371 || item.type == 372 || item.type == 373 || item.type == 374 || item.type == 375)
                 {
                     line.Text = line.Text.Replace("Increases maximum mana by 60", "增加60最大魔力值".zh());
-                    line.Text = line.Text.Replace("10% increased max speed and acceleration", "最大移速和加速度提高10%".zh());
-                    line.Text = line.Text.Replace("You gain a damage and critical strike chance boost relative to your current movement speed, up to 10%", "基于移速提高伤害和暴击率，上限10%".zh());
                 }
                 if (item.type == 376 || item.type == 377 || item.type == 378 || item.type == 379 || item.type == 380)
                 {
                     line.Text = line.Text.Replace("Increases maximum mana by 80", "增加80最大魔力值".zh());
                     line.Text = line.Text.Replace("12% increased damage", "伤害增加12%".zh());
                     line.Text = line.Text.Replace("14% increased critical strike chance", "暴击率增加14%".zh());
-                    line.Text = line.Text.Replace("Enemy hits release mythril flares, which home in on enemies after a short delay", "击中敌怪时释放秘银火焰，一段时间后会追踪敌怪".zh());
-                    line.Text = line.Text.Replace("Once a flare is created, there is a 9 frame delay before another one can appear", "秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧".zh());
                 }
                 if (item.type == 400 || item.type == 401 || item.type == 402 || item.type == 403 || item.type == 404)
                 {
                     line.Text = line.Text.Replace("Increases maximum mana by 100", "增加100最大魔力值".zh());
-                    line.Text = line.Text.Replace("Half of your current DR is added to your critical strike chance", "基于伤害减免的一半增加暴击率".zh());
-                    line.Text = line.Text.Replace("Continuously doing damage makes you gradually gain more and more defense, up to a maximum of 30", "持续造成伤害会提升防御，至多30点".zh());
-                    line.Text = line.Text.Replace("When not doing damage, this bonus gradually decays", "如果不造成伤害，增加的防御会降低".zh());
-                    line.Text = line.Text.Replace("This added defense can be broken by defense damage", "也受防御损伤影响".zh());
-                }
-                if (item.type == 4982 || item.type == 4983 || item.type == 4984)
-                {
-                    line.Text = line.Text.Replace("Allows the ability to dash", "获得冲刺能力".zh());
-                }
-                if (item.type == 803 || item.type == 804 || item.type == 805 || item.type == 978 || item.type == 979 || item.type == 980)
-                {
-                    line.Text = line.Text.Replace("Multiplies all cold-based debuff damage by 1.25", "所有冷系减益对敌人多造成25%伤害".zh());
-                    line.Text = line.Text.Replace("Cold enemies will deal reduced contact damage to the player", "冷系敌人对玩家造成的伤害减少".zh());
-                    line.Text = line.Text.Replace("Provides immunity to the Frostburn and Glacial State debuffs", "免疫霜冻和冰河时代减益".zh());
                 }
                 if (item.type == 1208 || item.type == 1209)
                 {
@@ -2074,17 +1362,11 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("10% increased critical strike chance", "暴击率增加10%".zh());
                 }
-                if (item.type == 3776 || item.type == 3777 || item.type == 3778)
-                {
-                    line.Text = line.Text.Replace("The minion damage nerf is reduced while wielding magic weapons", "使用魔法武器时减少召唤伤害".zh());
-                }
                 if (item.type == 3800 || item.type == 3801 || item.type == 3802)
                 {
                     line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害".zh());
                     line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率".zh());
                     line.Text = line.Text.Replace("15% increased movement speed", "移速增加15%".zh());
-                    line.Text = line.Text.Replace("Increases your life regeneration", "增加生命再生速度".zh());
-                    line.Text = line.Text.Replace("15% increased minion damage and 10% increased melee critical strike chance", "增加15%召唤伤害和10%近战暴击率".zh());
                 }
                 if (item.type == 3803 || item.type == 3804 || item.type == 3805)
                 {
@@ -2097,43 +1379,32 @@ public class Itemgb : GlobalItem
                     line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害".zh());
                     line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率".zh());
                     line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%".zh());
-                    line.Text = line.Text.Replace("10% increased melee speed, crit, and damage", "增加10%近战攻速，暴击率和伤害".zh());
-                    line.Text = line.Text.Replace("15% increased minion damage", "增加15%召唤伤害".zh());
                 }
                 if (item.type == 3797 || item.type == 3798 || item.type == 3799)
                 {
                     line.Text = line.Text.Replace("5% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率".zh());
                     line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%".zh());
-                    line.Text = line.Text.Replace("5% increased minion damage and 15% increased magic critical strike chance", "增加5%召唤伤害和15%魔法暴击率".zh());
                 }
                 if (item.type == 3871 || item.type == 3872 || item.type == 3873)
                 {
                     line.Text = line.Text.Replace("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生速度".zh());
                     line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率".zh());
                     line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%".zh());
-                    line.Text = line.Text.Replace("Massively increased life regeneration", "较大提高生命再生速度".zh());
                 }
                 if (item.type == 3880 || item.type == 3881 || item.type == 3882)
                 {
                     line.Text = line.Text.Replace("Increases your max number of sentries by 2", "增加2最大哨兵栏".zh());
                     line.Text = line.Text.Replace("10% increased melee and minion damage", "增加10%召唤和近战伤害".zh());
                     line.Text = line.Text.Replace("10% increased minion damage and melee speed", "增加10%召唤伤害和近战攻速".zh());
-                    line.Text = line.Text.Replace("5% increased melee critical strike chance", "(增加5%近战暴击率)".zh());
                     line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率".zh());
-                    line.Text = line.Text.Replace("30% increased movement speed", "(移速增加30%)".zh());
-                    line.Text = line.Text.Replace("10% increased melee damage, melee critical strike chance and melee speed", "增加10%近战攻速，暴击率和伤害".zh());
-                    line.Text = line.Text.Replace("30% increased minion damage", "增加30%召唤伤害".zh());
                 }
                 if (item.type == 3877 || item.type == 3878 || item.type == 3879)
                 {
                     line.Text = line.Text.Replace("15% increased minion and ranged damage and 20% chance to not consume ammo", "增加15%召唤和远程伤害,20%几率不消耗弹药".zh());
-                    line.Text = line.Text.Replace("10% increased minion and ranged damage", "增加10%召唤和远程伤害".zh());
                 }
                 if (item.type == 3874 || item.type == 3875 || item.type == 3876)
                 {
-                    line.Text = line.Text.Replace("20% increased movement speed", "(移速增加20%)".zh());
                     line.Text = line.Text.Replace("10% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率".zh());
-                    line.Text = line.Text.Replace("10% increased minion damage and 15% increased magic critical strike chance", "增加10%召唤伤害和15%魔法暴击率".zh());
                 }
                 #endregion
 
@@ -2253,13 +1524,7 @@ public class Itemgb : GlobalItem
                 }
                 #endregion
 
-                //偷懒
-                line.Text = line.Text.Replace("Otherworldly Stone Wall", "异域石墙".zh());
-                line.Text = line.Text.Replace("Eutrophic Shelf", "富养制造架".zh());
-                line.Text = line.Text.Replace("Monolith Amalgam", "星幻柱综合体".zh());
-                line.Text = line.Text.Replace("Profaned Crucible", "亵渎坩埚".zh());
-                line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机".zh());
-                
+                //偷懒                
                 line.Text = line.Text.Replace("You have already consumed this item", "你已经使用过这个".zh());
                 line.Text = line.Text.Replace("Restores", "恢复".zh());
                 line.Text = line.Text.Replace("life", "生命".zh());
