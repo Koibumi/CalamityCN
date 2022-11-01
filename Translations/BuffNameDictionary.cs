@@ -207,7 +207,7 @@ namespace CalamityCN
                 {"HallowedRuneDefense", "神圣之佑".zh() },
                 {"HallowedRuneRegeneration", "神圣之辉".zh() },
                 {"ProfanedCrystalBuff", "忠诚".zh() },
-                {"BelladonnaSpiritBuff", "莨菪之灵".zh() },
+                {"BelladonnaSpiritBuff", "颠茄之灵".zh() },
                 {"SkeletalDragonsBuff", "血炎骨龙".zh() },
                 {"CinderBlossomBuff", "烬之英".zh() },
                 {"ColdDivinityBuff", "冰寒神性".zh() },

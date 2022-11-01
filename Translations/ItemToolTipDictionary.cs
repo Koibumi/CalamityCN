@@ -1233,7 +1233,7 @@ namespace CalamityCN
                 { "SkyfinBombers", "鱼雷母舰入境！\n发射一枚天鳍核武并追踪敌人\n潜伏攻击将丢出无视敌人位置且会追踪的天鳍核武".zh() },
                 { "SpentFuelContainer", "战争从未改变\n投掷一个装有微量钚的燃料容器并且造成爆炸\n如果下面没有物块，则爆炸不会发生\n潜伏攻击会使爆炸后的区域留下辐射".zh() },
                 { "ToxicantTwister", "投掷一个飞快的环刃\n发射一段时间后，环刃选择一个目标并快速跟踪\n潜伏攻击投掷跟踪速度更快的环刃且释放沙子".zh() },
-                { "BelladonnaSpiritStaff", "召唤飘散着有毒花瓣但可爱的莨菪之灵".zh() },
+                { "BelladonnaSpiritStaff", "召唤飘散着有毒花瓣但可爱的颠茄之灵".zh() },
                 { "BensUmbrella", "交涉失败，准备动手！\n召唤一顶魔法礼帽飘在你的头顶上\n帽子会释放各种物体来攻击你的敌人\n消耗5召唤栏位并且只能存在一顶帽子".zh() },
                 { "CadaverousCarrion", "在地面上召唤一个硫海遗爵的头".zh() },
                 { "CausticCroakerStaff", "召唤一个在敌人接近时爆炸的蟾蜍".zh() },

@@ -1398,7 +1398,7 @@ namespace CalamityCN
                 {"SkyfinBombers", "天鳍毁灭者".zh()},
                 {"SpentFuelContainer", "辐毒废水".zh()},
                 {"ToxicantTwister", "剧毒旋风".zh()},
-                {"BelladonnaSpiritStaff", "莨菪之灵杖".zh()},
+                {"BelladonnaSpiritStaff", "颠茄灵杖".zh()},
                 {"BensUmbrella", "光阴流时伞".zh()},
                 {"CadaverousCarrion", "干缩腐尸".zh()},
                 {"CausticCroakerStaff", "腐蚀蛙法杖".zh()},
