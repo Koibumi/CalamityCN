@@ -1430,7 +1430,7 @@ ItemTooltip:
 			DislikeCrowded: "我的咒语很精密，不能被打扰，我需要更多的空间来练习它们。",
 			HateCrowded: "我不想你的朋友被我的魔法冻住，可惜，这里人太多无法避免。",
 			LikeBiome: "这儿的温度让我能保存魔力，因为我的作品不会在严寒中融化。",
-			DislikeBiome: "这儿的太阳太毒辣啦！ 请立刻让我搬到别处去！",
+			DislikeBiome: "这儿的太阳太毒辣啦！请立刻让我搬到别处去！",
 			HateBiome: "这里太邪恶了，不适合我！",
 			LikeNPC: "{NPCName} 学识渊博，还是个很受尊敬的法师。",
 			DislikeNPC: "我不喜欢 {NPCName} 的公然漠视魔法，我没有指责他的意思，但他非常愚昧。",
@@ -1457,7 +1457,7 @@ ItemTooltip:
 			DislikeNPC_TaxCollector: "{NCPName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。",
 			HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗？",
 			HateNPC_Angler: "{NCPName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！",
-			LikeNPC_Princess: "你以为我会不喜欢 {NPCName} 只因我们太不同了? 恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。",
+			LikeNPC_Princess: "你以为我会不喜欢 {NPCName} 只因我们太不同了？恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。",
 		},
 
 		SEAHOE:
@@ -1496,7 +1496,7 @@ ItemTooltip:
 		WITCH:
 		{
 			Content: "我真的没什么可抱怨的。",
-			NoHome: "任何地方都比没有床和光照的洞穴好。",
+			NoHome: "任何地方都比没有光照的洞穴好。",
 			LoveSpace: "越安静越好，这里就很好。",
 			FarFromHome: "习惯有人在身边一段时间后，我开始有点怀念了。",
 			DislikeCrowded: "我不太喜欢有人和我这么熟。",
