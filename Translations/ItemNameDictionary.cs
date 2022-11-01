@@ -2222,7 +2222,7 @@ namespace CalamityCN
                 {"OrthoceraBanner", "直角石旗".zh()},
                 {"OverloadedSoldierBanner", "过载装甲骷髅旗".zh()},
                 {"PerennialSlimeBanner", "永恒史莱姆旗".zh()},
-                {"PestilentSlimeBanner", "鸠毒史莱姆旗".zh()},
+                {"PestilentSlimeBanner", "毒疫史莱姆旗".zh()},
                 {"PhantomSpiritBanner", "幻魂旗".zh()},
                 {"PiggyBanner", "小猪猪旗".zh()},
                 {"PlaguebringerBanner", "瘟疫使者旗".zh()},

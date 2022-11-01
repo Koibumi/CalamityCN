@@ -1535,7 +1535,7 @@ namespace CalamityCN
                 {"OrthoceraBanner", "{$CommonItemTooltip.BannerBonus}直角石".zh() },
                 {"OverloadedSoldierBanner", "{$CommonItemTooltip.BannerBonus}过载装甲骷髅".zh() },
                 {"PerennialSlimeBanner", "{$CommonItemTooltip.BannerBonus}永恒史莱姆".zh() },
-                {"PestilentSlimeBanner", "{$CommonItemTooltip.BannerBonus}鸠毒史莱姆".zh() },
+                {"PestilentSlimeBanner", "{$CommonItemTooltip.BannerBonus}毒疫史莱姆".zh() },
                 {"PhantomSpiritBanner", "{$CommonItemTooltip.BannerBonus}幻魂".zh() },
                 {"PiggyBanner", "{$CommonItemTooltip.BannerBonus}小猪猪".zh() },
                 {"PlaguebringerBanner", "{$CommonItemTooltip.BannerBonus}瘟疫使者".zh() },
