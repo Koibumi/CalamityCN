@@ -1446,7 +1446,7 @@ ItemTooltip:
 			DislikeCrowded: "如果再有人和我说'现在是特价时间'以此想要打折，我就打折他！",
 			HateCrowded: "再多的酒精也掩盖不了这些人发出的噪音！",
 			LoveBiome: "另一种独角兽？没想到我会看到这一天！这个地方太棒了！",
-			LikeBiome: "一阵清风可以让头脑清醒一下，对于喝多了的顾客就这么处理!",
+			LikeBiome: "一阵清风可以让头脑清醒一下，对于喝多了的顾客就这么处理！",
 			DislikeBiome: "这种干燥的空气和高温对我的头发和饮料都不好。",
 			HateBiome: "这地方糟透了！发霉的空气破坏了我所有商品的香味！",
 			LoveNPC_Stylist: "{NPCName} 护理我的头发很有一手…除此之外，呵呵。",
@@ -1455,7 +1455,7 @@ ItemTooltip:
 			LikeNPC_PartyGirl: "{NCPName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！",
 			DislikeNPC_DD2Bartender: "{NCPName} 真的秃，也许他不再尝试约我，就能长出一些头发。",
 			DislikeNPC_TaxCollector: "{NCPName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。",
-			HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗?",
+			HateNPC_GoblinTinkerer: "{NCPName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难度你喜欢看我重温他给我的压力吗？",
 			HateNPC_Angler: "{NCPName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！",
 			LikeNPC_Princess: "你以为我会不喜欢 {NPCName} 只因我们太不同了? 恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。",
 		},
@@ -1465,8 +1465,8 @@ ItemTooltip:
 			Content: "我很满意。",
 			NoHome: "谢谢你的招待，但是我现在恐怕无家可归。",
 			LoveSpace: "啊，我很喜欢独处的宁静。",
-			FarFromHome: "我的鳞片变得干燥，我离家太远了",
-			DislikeCrowded: "这里的生活条件很拥挤，不是吗?",
+			FarFromHome: "我的鳞片变得干燥，我离家太远了。",
+			DislikeCrowded: "这里的生活条件很拥挤，不是吗？",
 			HateCrowded: "我不想利用我的地位，但我还是皇室成员时，我更习惯周围人少点。",
 			LikeBiome: "靠近大海，苦乐参半。但我还是忍不住喜欢它。",
 			DislikeBiome: "阳光太刺眼了，我不喜欢这里的干旱气候。",
@@ -1474,7 +1474,7 @@ ItemTooltip:
 			LikeNPC: "{NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！",
 			DislikeNPC: "我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。",
 			HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！",
-			LikeNPC_Princess: "那孩子，{NPCName}。多么天真无邪，希望恐怖的战争永远不会降临到她身上。",
+			LikeNPC_Princess: "那孩子，{NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。",
 		},
 
 		THIEF:
@@ -1490,7 +1490,7 @@ ItemTooltip:
 			HateBiome: "这里没人住，为什么要住这里？！这里简直是个垃圾场！",
 			LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。",
 			DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！也因为她几乎没有任何物质财富。",
-			LikeNPC_Princess: "我不忍心从 {NPCName} 偷任何东西，她太可爱了!",
+			LikeNPC_Princess: "我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！",
 		},
 
 		WITCH:
