@@ -1,5 +1,5 @@
 #做的稀烂D:
-#oldlogs
+#old-changelogs
 
 v1.1.3.7
 模组改成仅客户端MOD

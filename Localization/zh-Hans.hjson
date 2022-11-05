@@ -1116,6 +1116,50 @@ CalamityCN: {
         }
 
          Buffs: {
+		    BossEffects: {
+                Description: {
+                    $parentVal:
+                        '''
+						附近存在Boss时：
+						护士治疗费用四倍
+						傀儡假人失去效果
+                        '''
+                    BossZen:
+                        '''
+                        附近存在Boss时：
+						大幅降低敌怪生成
+						护士治疗费用四倍
+						傀儡假人失去效果
+                        '''
+                }
+            }
+
+			ProfanedCrystalBuff: {
+                Description: {
+                    1: 一个冰晶结构体压迫着你的真正潜力...
+					2: 一顶魔法帽压倒了你的五感，浪费了你的真正潜力...
+					3: 
+					'''
+					你现在是亵渎天神的神使了！
+
+					'''
+					4: 太阳之光
+					5: 熔岩之热
+					6: 增强着你的进攻能力
+					7: 蜂蜜之滋
+					8: 泉水之冽
+					9: 夜幕之暗
+					10: 冷却着你的烈焰，增强你的防守能力
+					11: 
+					'''
+
+					你消逝的生命力支撑着你的绝望反抗
+					'''
+					12: 你的亵渎之魂受到召唤能力的限制
+					13: 这块水晶中的魂魄被危险的机械造物发出的能量波干扰了
+					14: 亵渎之魂被一位强大女巫的魔法所玷污
+				}
+			}
 	     Vanilla: {
                 Endurance: {
                     Description: 所受伤害降低5%
@@ -1249,109 +1293,222 @@ CalamityMod:
 
 			SectionTitle:
 			{
-				"BossRushCurses": "Boss Rush 诅咒",
-				"ExpertMaster": "专家和大师模式改动",
-				"Gameplay": "总体游戏内容改动",
-				"Graphics": "画面改动",
-				"Revengeance": "复仇模式改动",
-				"UI": "UI 改动",
-				"BaseBoosts": "基础属性提升",
+				BossRushCurses: Boss Rush 诅咒
+				ExpertMaster: 专家和大师模式改动
+				Gameplay: 总体游戏内容改动
+				Graphics: 画面改动
+				Revengeance: 复仇模式改动
+				UI: UI 改动
+				BaseBoosts: 基础属性提升
 			}
 
 			EntryTitle:
 			{
-				"AdrenalineMeterPosX": "肾上腺素条X轴坐标",
-				"AdrenalineMeterPosY": "肾上腺素条Y轴坐标",
-				"Afterimages": "残影",
-				"BossHealthBarExtraInfo": "Boss血条额外信息",
-				"BossHealthBoost": "Boss生命值百分比强化",
-				"BossRushDashCurse": "冲刺诅咒",
-				"BossRushIFrameCurse": "无敌帧诅咒",
-				"BossRushRegenCurse": "生命诅咒",
-				"BossZen": "Boss 禅定",
-				"ChargeMeter": "显示充能条",
-				"ChargeMeterPosX": "充能条X轴坐标",
-				"ChargeMeterPosY": "充能条Y轴坐标",
-				"ChilledWaterRework": "重置版冰水",
-				"CooldownDisplay": "冷却显示",
-				"DebuffDisplay": "显示敌人Debuff",
-				"EarlyHardmodeProgressionRework": "困难模式早期流程重做",
-				"ForceTownSafety": "强制城镇安全",
-				"MeterPosLock": "属性条位置锁定",
-				"FasterBaseSpeed": "更高基础速度",
-				"HigherJumpHeight": "更高跳跃高度",
-                "FasterJumpSpeed": "更高跳跃速度",
-                "FasterFallHotkey": "快速下落快捷键",
-                "FasterTilePlacement": "更快的基础放置速度",
-				"NerfExpertDebuffs": "移除增加的减益持续时间",
-				"ParticleLimit": "最大粒子数",
-				"RageMeterPosX": "怒气条X轴坐标",
-				"RageMeterPosY": "怒气条Y轴坐标",
-				"RipperMeterShake": "怒气条与肾上腺素条震动",
-				"Screenshake": "屏幕震动",
-				"ShopNewAlert": "商店新物品提示",
-				"SpeedrunTimer": "速通计时器",
-				"SpeedrunTimerPosX": "速通计时器X轴坐标",
-				"SpeedrunTimerPosY": "速通计时器Y轴坐标",
-				"StealthInvisibility": "潜行隐身",
-				"StealthMeter": "潜行条",
-				"StealthMeterPosX": "潜行条X轴坐标",
-				"StealthMeterPosY": "潜行条Y轴坐标",
-				"SulphuricWaterMeterPosX": "硫磺海水腐蚀条X轴坐标",
-                "SulphuricWaterMeterPosY": "硫磺海水腐蚀条Y轴坐标",
-				
-				"TownNPCSpawnRateMultiplier": "城镇NPC生成率乘算器",
-				"TownNPCsSpawnAtNight": "城镇NPC在夜间生成",
-				"VanillaCooldownDisplay": "原版冷却显示",
-				"WikiStatusMessage": "Wiki状态信息",
+				AdrenalineMeterPosX: "[i:2799] 肾上腺素条X轴坐标"
+				AdrenalineMeterPosY: "[i:2799] 肾上腺素条Y轴坐标"
+				Afterimages: "[i:1742] 残影"
+				BossHealthBarExtraInfo: "[i:CalamityMod/EncryptedSchematicPlanetoid] Boss血条额外信息"
+				BossHealthBoost: "[i:29] Boss生命值百分比强化"
+				BossRushDashCurs: "[i:216] 冲刺诅咒"
+				BossRushIFrameCurse: "[i:216] 无敌帧诅咒"
+				BossRushRegenCurse: "[i:216] 生命诅咒"
+				BossZen: "[i:CalamityMod/ZenPotion] Boss 禅定"
+				ChargeMeter: "[i:CalamityMod/DraedonPowerCell] 显示充能条"
+				ChargeMeterPosX: "[i:2799] 充能条X轴坐标"
+				ChargeMeterPosY: "[i:2799] 充能条Y轴坐标"
+				ChilledWaterRework: "[i:1861] 重置版冰水"
+				CooldownDisplay: "[i:CalamityMod/NebulousCore] 冷却显示"
+				DebuffDisplay: "[i:1356] 显示敌人Debuff"
+				EarlyHardmodeProgressionRework: "[i:367] 困难模式早期流程重做"
+				ForceTownSafety: "[i:63] 强制城镇安全"
+				MeterPosLock: "[i:5583] 属性条位置锁定"
+				FasterBaseSpeed: "[i:2423] 更高基础速度"
+				HigherJumpHeight: "[i:159] 更高跳跃高度"
+				FasterJumpSpeed: "[i:2423] 更高跳跃速度"
+				FasterFallHotkey: "[i:CalamityMod/BallAndChain] 快速下落快捷键"
+				FasterTilePlacement: "[i:3061] 更快的基础放置速度"
+				NerfExpertDebuffs: "[i:1612] 移除增加的减益持续时间"
+				ParticleLimit: "[i:3459] 最大粒子数"
+				RageMeterPosX: "[i:2799] 怒气条X轴坐标"
+				RageMeterPosY: "[i:2799] 怒气条Y轴坐标"
+				RemoveReforgeRNG: "[i:3499] 移除重铸随机性"
+				RipperMeterShake: "[i:CalamityMod/RedLightningContainer] 怒气条与肾上腺素条震动"
+				Screenshake: "[i:CalamityMod/WavePounder] 屏幕震动"
+				ShopNewAlert: "[i:306] 商店新物品提示"
+				SpeedrunTimer: "[i:3099] 速通计时器"
+				SpeedrunTimerPosX: "[i:2799] 速通计时器X轴坐标"
+				SpeedrunTimerPosY: "[i:2799] 速通计时器Y轴坐标"
+				StealthInvisibility: "[i:CalamityMod/StealthHairDye] 潜行隐身"
+				StealthMeter: "[i:CalamityMod/EclipseMirror] 潜行条"
+				StealthMeterPosX: "[i:2799] 潜行条X轴坐标"
+				StealthMeterPosY: "[i:2799] 潜行条Y轴坐标"
+				SulphuricWaterMeterPosX: "[i:2799] 硫磺海水腐蚀条X轴坐标"
+                SulphuricWaterMeterPosY: "[i:2799] 硫磺海水腐蚀条Y轴坐标"
+				TownNPCSpawnRateMultiplier: "[i:267] 城镇NPC生成率乘算器"
+				TownNPCsSpawnAtNight: "[i:1307] 城镇NPC在夜间生成"
+				VanillaCooldownDisplay: "[i:188] 原版冷却显示"
+				WikiStatusMessage: "[i:149] Wiki状态信息"
 			}
 
 			EntryTooltip:
 			{
-				"AdrenalineMeterPosX": "肾上腺素条的 X 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
-				"AdrenalineMeterPosY": "肾上腺素条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。",
-				"Afterimages": "为灾厄 NPC、射弹等等物体开启残影渲染。\n关闭以提升性能。",
-				"BossHealthBarExtraInfo": "在灾厄的Boss生命条上添加额外信息。\n这包括 Boss 的实际生命值或剩余的部位/体节数量。",
-				"BossHealthBoost": "增加所有 Boss 的生命值。\n不会影响已被生成的 Boss。",
-				"BossRushDashCurse": "在 Boss Rush 期间禁用所有冲刺。",
-				"BossRushIFrameCurse": "在 Boss Rush 期间，在 3 秒内被击中 2 次会让玩家立即死亡。\n此效果无视复活效果。",
-				"BossRushRegenCurse": "在 Boss Rush 期间禁用所有生命再生。",
-				"BossZen": "当有 Boss 存活时，所有玩家会获得Boss禅定增益，它会极大降低敌怪的生成率。",
-				"ChargeMeter": "开启显示玩家当前手持的嘉登造物的充能值。\n如果没有手持嘉登造物，充能条会总是处于隐藏状态。",
-				"ChargeMeterPosX": "充能条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-				"ChargeMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-				"ChilledWaterRework": "启用时，雪原生物群落和冰雪生物群落中的水会造成肺部冻伤，使得玩家的呼吸条快速消耗，而不会造成冷冻减益。",
-				"CooldownDisplay": "在Buff栏和Debuff栏下方显示重要的冷却图标。值设为1图标显示地更紧凑。值设为0不会显示图标。",
-				"DebuffDisplay": "在所有 Boss 和迷你 Boss 上方添加一排当前具有的减益图标。",
-				"EarlyHardmodeProgressionRework": "破坏邪恶祭坛不再生成矿石和邪恶物块。\n首次击杀血肉墙会使钯金矿和钴矿在世界中生成。\n第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。\n第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。\n首次击败第三个机械boss会使神圣矿在世界中生成。",
-				"ForceTownSafety": "通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。\n这可能会产生意想不到的副作用，例如使动物难以找到。",
-				"MeterPosLock": "开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。",
-			  	"FasterBaseSpeed": "增加玩家基础移动速度",
-       		    "HigherJumpHeight": "增加玩家基础跳跃高度",
-       		    "FasterJumpSpeed": "增加玩家基础跳跃速度",
-        		"FasterFallHotkey": "按住快捷键增加玩家下落速度",
-        		"FasterTilePlacement": "增加玩家基础放置速度",
-				"NerfExpertDebuffs": "禁用专家和大师模式减益持续时间的翻倍。\n灾厄围绕启用的此设置进行平衡。",
-				"ParticleLimit": "设定同时存在的最大粒子数。\n粒子和溅血效果是分开的。\n调低以提升性能。",
-				"Proficiency": "启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。\n禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。",
-				"RageMeterPosX": "怒气条的 X 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
-				"RageMeterPosY": "怒气条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。",
-				"RipperMeterShake": "使用怒气和肾上腺素时条的振幅。\n设为 0 可以完全禁用振动。",
-				"Screenshake": "开启或关闭所有屏幕抖动效果。",
-				"ShopNewAlert": "当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。",
-				"SpeedrunTimer": "启用游戏内速通计时器，时间显示为毫秒。\n第二行显示最近一次Boss击杀的时间。",
-				"SpeedrunTimerPosX": "速通计时器的 X 坐标位置。\n只能手动设置",
-				"SpeedrunTimerPosY": "速通计时器的 X 坐标位置。\n只能手动设置",
-				"StealthInvisibility": "启用时玩家会随着潜行值逐渐隐身。",
-				"StealthMeter": "开启显示玩家当前潜行值的潜行条。\n如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。",
-				"StealthMeterPosX": "潜行条的 X 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-				"StealthMeterPosY": "潜行条的 Y 坐标位置。\n如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。",
-				"SulphuricWaterMeterPosX": "硫磺海水腐蚀条的 X 坐标位置，测量的是屏幕宽度的百分比。\n如果属性条位置锁定被关闭，则该条可以被鼠标拖动。",
-                "SulphuricWaterMeterPosY": "硫磺海水腐蚀条的 Y 坐标位置，测量的是屏幕高度的百分比。\n如果属性条位置锁定被关闭，则该条可以被鼠标拖动。",
-				"TownNPCSpawnRateMultiplier": "此数值越高，城镇 NPC 生成的速率越快。",
-				"TownNPCsSpawnAtNight": "玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。",
-				"VanillaCooldownDisplay": "为混沌状态和药水疾病添加特定冷却图标。\n这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。",
-			    "WikiStatusMessage": "启用/禁用进入世界的Wiki状态消息提示",
+				AdrenalineMeterPosX: 
+				'''
+				肾上腺素条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。
+				'''
+				AdrenalineMeterPosY: 
+				'''
+				肾上腺素条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。
+				'''
+				Afterimages: 
+				'''
+				为灾厄 NPC、射弹等等物体开启残影渲染。
+				关闭以提升性能。
+				'''
+				BossHealthBarExtraInfo: 
+				'''
+				在灾厄的Boss生命条上添加额外信息。
+				这包括 Boss 的实际生命值或剩余的部位/体节数量。
+				'''
+				BossHealthBoost: 
+				'''
+				增加所有 Boss 的生命值。
+				不会影响已被生成的 Boss。
+				'''
+				BossRushDashCurse: 在 Boss Rush 期间禁用所有冲刺。
+				BossRushIFrameCurse: 
+				'''
+				在 Boss Rush 期间，在 3 秒内被击中 2 次会让玩家立即死亡。
+				此效果无视复活效果。
+				'''
+				BossRushRegenCurse: 在 Boss Rush 期间禁用所有生命再生。
+				BossZen: 当有 Boss 存活时，所有玩家会获得Boss禅定增益，它会极大降低敌怪的生成率。
+				ChargeMeter: 
+				'''
+				开启显示玩家当前手持的嘉登造物的充能值。
+				如果没有手持嘉登造物，充能条会总是处于隐藏状态。
+				'''
+				ChargeMeterPosX: 
+				'''
+				充能条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				ChargeMeterPosY: 
+				'''
+				潜行条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				ChilledWaterRework: 启用时，雪原生物群落和冰雪生物群落中的水会造成肺部冻伤，使得玩家的呼吸条快速消耗，而不会造成冷冻减益。
+				CooldownDisplay: 在Buff栏和Debuff栏下方显示重要的冷却图标。值设为1图标显示地更紧凑。值设为0不会显示图标。
+				DebuffDisplay: 在所有 Boss 和迷你 Boss 上方添加一排当前具有的减益图标。
+				EarlyHardmodeProgressionRework: 
+				'''
+				破坏邪恶祭坛不再生成矿石和邪恶物块。
+				首次击杀血肉墙会使钯金矿和钴矿在世界中生成。
+				第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。
+				第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。
+				首次击败第三个机械boss会使神圣矿在世界中生成。
+				'''
+				ForceTownSafety: 
+				'''
+				通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。
+				这可能会产生意想不到的副作用，例如使动物难以找到。
+				'''
+				MeterPosLock: 开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。
+			  	FasterBaseSpeed: 增加玩家基础移动速度
+       		    HigherJumpHeight: 增加玩家基础跳跃高度
+       		    FasterJumpSpeed: 增加玩家基础跳跃速度
+        		FasterFallHotkey: 按住快捷键增加玩家下落速度
+        		FasterTilePlacement: 增加玩家基础放置速度
+				NerfExpertDebuffs: 
+				'''
+				禁用专家和大师模式减益持续时间的翻倍。
+				灾厄围绕启用的此设置进行平衡。
+				'''
+				ParticleLimit: 
+				'''
+				设定同时存在的最大粒子数。
+				粒子和溅血效果是分开的。
+				调低以提升性能。
+				'''
+				Proficiency: 
+				'''
+				启用熟练度系统，这允许玩家通过持续使用同一伤害类型来获得一些属性加成。
+				禁用此系统不会移除玩家已有的熟练等级，而是禁用属性加成和经验获得。
+				'''
+				RageMeterPosX:
+				'''
+				怒气条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。
+				'''
+				RageMeterPosY: 
+				'''
+				怒气条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。
+				'''
+				RemoveReforgeRNG: 
+				'''
+				移除哥布林工匠重铸武器和饰品时的随机性。
+				当有其他模组对重铸做出修改时禁用以防冲突。
+				'''
+				RipperMeterShake: 
+				'''
+				使用怒气和肾上腺素时条的振幅。
+				设为 0 可以完全禁用振动。
+				'''
+				Screenshake: 开启或关闭所有屏幕抖动效果。
+				ShopNewAlert: 当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。
+				SpeedrunTimer: 
+				'''
+				启用游戏内速通计时器，时间显示为毫秒。
+				第二行显示最近一次Boss击杀的时间。
+				'''
+				SpeedrunTimerPosX: 
+				'''
+				速通计时器的 X 坐标位置。
+				只能手动设置
+				'''
+				SpeedrunTimerPosY: 
+				'''
+				速通计时器的 X 坐标位置。
+				只能手动设置
+				'''
+				StealthInvisibility: 启用时玩家会随着潜行值逐渐隐身。
+				StealthMeter: 
+				'''
+				开启显示玩家当前潜行值的潜行条。
+				如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。
+				'''
+				StealthMeterPosX: 
+				'''
+				潜行条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				StealthMeterPosY: 
+				'''
+				潜行条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				SulphuricWaterMeterPosX: 
+				'''
+				硫磺海水腐蚀条的 X 坐标位置，测量的是屏幕宽度的百分比。
+				如果属性条位置锁定被关闭，则该条可以被鼠标拖动。
+                '''
+				SulphuricWaterMeterPosY: 
+				'''
+				硫磺海水腐蚀条的 Y 坐标位置，测量的是屏幕高度的百分比。
+				如果属性条位置锁定被关闭，则该条可以被鼠标拖动。
+				'''
+				TownNPCSpawnRateMultiplier: 此数值越高，城镇 NPC 生成的速率越快。
+				TownNPCsSpawnAtNight: 玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。
+				VanillaCooldownDisplay: 
+				'''
+				为混沌状态和药水疾病添加特定冷却图标。
+				这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。
+				'''
+			    WikiStatusMessage: 启用/禁用进入世界的Wiki状态消息提示
 			}
 		}
 
@@ -1360,7 +1517,7 @@ CalamityMod:
 		RogueDamageClass: "盗贼伤害",
 		AverageDamageClass: "无职业伤害",
 		TrueMeleeDamageClass: "真近战伤害",
-    TrueMeleeNoSpeedDamageClass: "真近战伤害",
+    	TrueMeleeNoSpeedDamageClass: "真近战伤害",
 	}
 
 	UI:
@@ -3537,6 +3694,7 @@ GameTips:
 		DraedonExoPhase6Text3: "我将向你展示，我终极造物的全部威力。"
 		DraedonAresEnrageText: "真是愚昧，你是无法逃跑的。"
 		DraedonResummonText: "做出你的选择。"
+		DraedonBossRushText: "做出你的选择。你只有20秒时间。"
 		DraedonEndText1: "一个未知因素——你，是一个特异点。"
 		DraedonEndText2: "几乎与我一样，和这片大地和它的历史格格不入。"
 		DraedonEndText3: "……请原谅我的反省，但我必须得在这场展示之后整理我的思绪。"

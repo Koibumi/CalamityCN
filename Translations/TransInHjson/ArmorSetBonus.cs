@@ -214,7 +214,7 @@ namespace CalamityCN.Translations.TransInHjson
             }
             else if (set == "Prismatic")
             {
-                player.setBonus = LangHelper.GetTextValue("CalamityMod.Items.SetBonusPrismatic.Prismatic", hotkey);
+                player.setBonus = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.Prismatic", hotkey);
             }
             else if (set == "ReaverExp")
             {
@@ -748,12 +748,15 @@ namespace CalamityCN.Translations.TransInHjson
                             case 88:
                                 return;
                             default:
+							if (type > 122)
+							{
                                 if (type - 123 > 2)
                                 {
                                     return;
                                 }
                                 tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.Vanilla.Meteor", Array.Empty<object>());
-                                return;
+							} 
+								return;
                         }
                     }
                     else
@@ -877,12 +880,15 @@ namespace CalamityCN.Translations.TransInHjson
                                     tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.Vanilla.MonkTier3", Array.Empty<object>());
                                     return;
                                 default:
+								if (type > 4981 )
+								{
                                     if (type - 4982 > 2)
                                     {
                                         return;
                                     }
                                     tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.Vanilla.CrystalNinja", Array.Empty<object>());
-                                    break;
+								}  
+									return;
                             }
                             break;
                     }
