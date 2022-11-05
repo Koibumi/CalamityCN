@@ -156,7 +156,7 @@ namespace CalamityCN
                 { "PlagueChargerLarge", "瘟疫蜜蜂".zh() },
                 { "Viruling", "毒飞虫".zh() },
                 { "Melter", "蚀化者".zh() },
-                { "PestilentSlime", "毒疫史莱姆".zh() },
+                { "PestilentSlime", "疫病史莱姆".zh() },
                 { "Plagueshell", "瘟疫龟".zh() },
                 { "ProfanedEnergyBody", "亵渎能量".zh() },
                 { "ProfanedEnergyLantern", "亵渎能量".zh() },
