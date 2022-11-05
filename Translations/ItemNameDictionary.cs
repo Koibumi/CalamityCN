@@ -2112,7 +2112,7 @@ namespace CalamityCN
                 {"GreenBrickWallUnsafe", "危险绿砖墙".zh()},
                 {"GreenSlabWallUnsafe", "危险绿板墙".zh()},
                 {"GreenTiledWallUnsafe", "危险绿瓷砖墙".zh()},
-                {"HardenedAstralSandWall", "硬化星幻土墙".zh()},
+                {"HardenedAstralSandWall", "硬化星幻沙墙".zh()},
                 {"HardenedSulphurousSandstoneWall", "硬化硫磺沙岩墙".zh()},
                 {"HazardChevronWall", "警戒墙".zh()},
                 {"LaboratoryPanelWall", "实验室板块墙".zh()},
