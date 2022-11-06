@@ -1203,7 +1203,7 @@ namespace CalamityCN
                 {"Eradicator", "湮灭".zh()},
                 {"ExecutionersBlade", "终结者之刃".zh()},
                 {"Exorcism", "驱魔十字架".zh()},
-                {"FantasyTalisman", "魔幻符咒".zh()},
+                {"FantasyTalisman", "幻想符札".zh()},
                 {"FeatherKnife", "羽刃".zh()},
                 {"FlameScythe", "板块斩切者".zh()},
                 {"FrostcrushValari", "霜碎回旋镖".zh()},
