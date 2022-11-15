@@ -510,7 +510,7 @@ namespace CalamityCN
                 { "Whiskey", "那种燃烧的错觉让其美味更甚！\n增加4%伤害，击退和2%暴击率\n减少5%防御".zh() },
                 { "WhiteWine", "曾有一晚，我喝了一桶这酒，第二天我连我是谁都忘了。\n增加10%魔法伤害\n减少6%防御和1生命再生速度".zh() },
                 { "AnechoicCoating", "降低深渊生物侦测到你的可能性".zh() },
-                { "AstralInjection", "使用时对自身造成伤害并获得魔力疾病减益，你会以极快的速度再生魔力值，即使是处于移动状态或施法时亦是如此".zh() },
+                { "AstralInjection", "使用时对自身造成伤害并获得魔力疾病减益，大幅度增加魔力再生速度，且魔力再生速度不会受移动或施法影响".zh() },
                 { "AstralJelly", "获得魔力再生及魔能增益".zh() },
                 { "Baguette", "{$CommonItemTooltip.MinorStats}\n增强红葡萄酒的效果\n[c/FCE391:我骑上去了！]".zh() },
                 { "BoundingPotion", "增加5%跳跃速度，额外25格坠落伤害保护并增加跳跃高度".zh() },
