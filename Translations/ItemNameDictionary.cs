@@ -1426,7 +1426,7 @@ namespace CalamityCN
                 {"RustyMedallion", "锈蚀勋章".zh()},
                 {"PlagueCaller", "瘟疫呼机".zh()},
                 {"EffigyOfDecay", "腐朽塑像".zh()},
-                {"RustyChest", "锈蚀箱子".zh()},
+                {"RustyChest", "锈蚀箱".zh()},
                 {"ProfanedGuardianTrophy", "亵渎守卫纪念章".zh()},
                 {"SupremeCalamitasTrophy", "至尊灾厄纪念章".zh()},
                 {"HardenedSulphurousSandstone", "硬化硫磺沙岩".zh()},
