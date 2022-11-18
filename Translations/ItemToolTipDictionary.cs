@@ -195,7 +195,7 @@ namespace CalamityCN
                 { "HyperiusBullet", "你的敌人不会好过了……\n击中敌人后产生额外弹幕".zh() },
                 { "IcicleArrow", "命中后碎裂".zh() },
                 { "IcyBullet", "可以命中至多三次\n第三次打击分裂成碎冰".zh() },
-                { "MortarRound", "大范围攻击。会炸裂砖块\n普通枪的弹药".zh() },
+                { "MortarRound", "爆炸范围大，会摧毁物块\n普通枪的弹药".zh() },
                 { "NapalmArrow", "爆裂出火星子".zh() },
                 { "RubberMortarRound", "大爆炸范围\n会在每次弹跳时都会破坏砖块\n普通枪可使用而非火箭发射器\n来自汉化组的温馨提示：请不要在家方圆300格内使用".zh() },
                 { "SuperballBullet", "快速弹跳".zh() },
