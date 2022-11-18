@@ -33,10 +33,9 @@ using CalamityMod.Items.Armor.Umbraphile;
 using CalamityMod.Items.Armor.Victide;
 using CalamityMod.Items.Armor.Wulfrum;
 using CalamityMod.Items.Armor.MarniteArchitect;
-using CalamityCN.LangUtils;
+using CalamityCN.Utils;
 using System;
 using System.Collections.Generic;
-using CalamityCN.Utils;
 using Microsoft.Xna.Framework;
 
 namespace CalamityCN.Translations.TransInHjson
@@ -888,7 +887,7 @@ namespace CalamityCN.Translations.TransInHjson
                                     }
                                     tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.Vanilla.CrystalNinja", Array.Empty<object>());
 								}  
-									return;
+									break;
                             }
                             break;
                     }

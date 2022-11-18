@@ -1,21 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using CalamityCN.Utils;
 using CalamityMod;
 using CalamityMod.Systems;
 using CalamityMod.UI;
 using CalamityMod.UI.CalamitasEnchants;
 using Terraria;
-using Terraria.Localization;
-using Terraria.ModLoader;
+
 
 namespace CalamityCN.Translations.Patch
 {
 	
-	public static class Reflection
+	public class Reflection : ContentTranslation, ILoadableContent
 	{
-		
-		public static void Load()
+		public override bool IsTranslationEnabled
+		{
+			get
+			{
+				return ModsCall.Calamity != null && ModsCall.IsCN;
+			}
+		}
+
+		public override float Priority
+		{
+			get
+			{
+				return 1f;
+			}
+		}
+
+		public void LoadContent()
 		{
 
 				List<ValueTuple<string, string>> list = new List<ValueTuple<string, string>>();
@@ -78,7 +93,7 @@ namespace CalamityCN.Translations.Patch
 				}
 			
 		}
-		public static void Unload()
+		public void UnloadContent()
 		{
 		}
 	}

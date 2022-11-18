@@ -1,5 +1,4 @@
-using CalamityCN.LangUtils;
-using CalamityCN.Translations.Patch;
+using CalamityCN.Utils;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;

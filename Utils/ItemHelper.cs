@@ -16,7 +16,6 @@ namespace CalamityCN.Utils
 
 		internal static void ApplyTooltipEdits(Item item, List<TooltipLine> lines, Func<Item, TooltipLine, bool> predicate, Action<TooltipLine> action)
 		{
-			//Func<TooltipLine, bool> <> 9__0; 原代码<>搞不懂，删了不知道有没有bug。
 			Func<TooltipLine, bool> predicate2;
 			if ((predicate2 = null) == null)
 			{

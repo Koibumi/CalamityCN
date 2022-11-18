@@ -24,21 +24,19 @@ using CalamityMod.Items.Weapons.Melee;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
-using Terraria.Localization;
 using Terraria.ModLoader;
 using CalamityMod.Items.Placeables.Furniture.CraftingStations;
 using CalamityMod.Items.Placeables.Walls;
 
-public class Itemgb : GlobalItem
+public class ItemGlobalTrans : GlobalItem
 {
-
-    public static bool IsLanguageActive => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
-
+    public override bool IsLoadingEnabled(Mod mod)
+    {
+        return ModsCall.IsCN && ModsCall.Calamity != null;
+    }
     //修改描述	
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        if (IsLanguageActive)
-        {
             foreach (TooltipLine line in tooltips)
             {
                 if (item.type == ModContent.ItemType<Eternity>())
@@ -59,13 +57,13 @@ public class Itemgb : GlobalItem
 
                 if (item.type == ModContent.ItemType<SpectralVeil>())
                 {
-                    string hotkeySpecVeil = CalamityMod.CalamityKeybinds.SpectralVeilHotKey.TooltipHotkeyString();
+                    string hotkeySpecVeil = CalamityKeybinds.SpectralVeilHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeySpecVeil + " to consume 25% of your maximum stealth to perform a mid-range teleport and render you momentarily invulnerable", "按下 ".zh() + hotkeySpecVeil + " 消耗25%最大潜行值，向鼠标方向进行中距离传送".zh());
                 }
 
                 if (item.type == ModContent.ItemType<SandCloak>())
                 {
-                    string hotkeySand = CalamityMod.CalamityKeybinds.SandCloakHotkey.TooltipHotkeyString();
+                    string hotkeySand = CalamityKeybinds.SandCloakHotkey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeySand + " to consume 10% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen", "按下 ".zh() + hotkeySand + " 消耗10%最大潜行值，召唤一个围绕你的破坏性沙漠龙卷持续15秒，并提供6点防御和+2生命恢复".zh());
                 }
 
@@ -106,43 +104,43 @@ public class Itemgb : GlobalItem
 
                 if (item.type == ModContent.ItemType<PlaguedFuelPack>())
                 {
-                    string plagueHotkey = CalamityMod.CalamityKeybinds.PlaguePackHotKey.TooltipHotkeyString();
+                    string plagueHotkey = CalamityKeybinds.PlaguePackHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + plagueHotkey + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds", "按下 ".zh() + plagueHotkey + " 键消耗25%最大潜行值并快速斜向上喷射\n并在沿途留下大量瘟疫毒云".zh());
                 }
 
                 if (item.type == ModContent.ItemType<CelestialJewel>())
                 {
-                    string hotkeyCelestial = CalamityMod.CalamityKeybinds.AstralTeleportHotKey.TooltipHotkeyString();
+                    string hotkeyCelestial = CalamityKeybinds.AstralTeleportHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeyCelestial + " to teleport to a random location while no bosses are alive", "没有Boss存活时按下 ".zh() + hotkeyCelestial + " 键进行随机传送".zh());
                 }
 
                 if (item.type == ModContent.ItemType<BlunderBooster>())
                 {
-                    string hotkeyBlunder = CalamityMod.CalamityKeybinds.PlaguePackHotKey.TooltipHotkeyString();
+                    string hotkeyBlunder = CalamityKeybinds.PlaguePackHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeyBlunder + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts", "按下 ".zh() + hotkeyBlunder + " 键消耗你盗贼潜行值的25%来向左上/右上方冲刺并留下追踪闪电".zh());
                 }
 
                 if (item.type == ModContent.ItemType<AstralArcanum>())
                 {
-                    string hotkeyArcanum = CalamityMod.CalamityKeybinds.AstralArcanumUIHotkey.TooltipHotkeyString();
+                    string hotkeyArcanum = CalamityKeybinds.AstralArcanumUIHotkey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeyArcanum + " to toggle teleportation UI while no bosses are alive", "没有Boss存活时按下 ".zh() + hotkeyArcanum + " 键可以打开传送UI".zh());
                 }
 
                 if (item.type == ModContent.ItemType<AsgardianAegis>())
                 {
-                    string hotkeyAsgard = CalamityMod.CalamityKeybinds.AegisHotKey.TooltipHotkeyString();
+                    string hotkeyAsgard = CalamityKeybinds.AegisHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeyAsgard + " to activate buffs to all damage, crit chance, and defense", "按下 ".zh() + hotkeyAsgard + " 键获得增加伤害、暴击率和防御的增益".zh());
                 }
 
                 if (item.type == ModContent.ItemType<ElysianAegis>())
                 {
-                    string hotkeyElysian = CalamityMod.CalamityKeybinds.AegisHotKey.TooltipHotkeyString();
+                    string hotkeyElysian = CalamityKeybinds.AegisHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeyElysian + " to activate buffs to all damage, crit chance and defense", "按下 ".zh() + hotkeyElysian + " 键获得增加伤害、暴击率和防御的增益".zh());
                 }
 
                 if (item.type == ModContent.ItemType<NormalityRelocator>())
                 {
-                    string hotkeyReloc = CalamityMod.CalamityKeybinds.NormalityRelocatorHotKey.TooltipHotkeyString();
+                    string hotkeyReloc = CalamityKeybinds.NormalityRelocatorHotKey.TooltipHotkeyString();
                     line.Text = line.Text.Replace("Press " + hotkeyReloc + " to teleport to the position of the mouse", "按下 ".zh() + hotkeyReloc + " 传送至鼠标位置".zh());
                 }
 
@@ -1409,61 +1407,33 @@ public class Itemgb : GlobalItem
                 #endregion
 
                 #region 物品
-                if (item.type == ItemID.SlimeCrown || item.type == ItemID.GoblinBattleStandard || item.type == ItemID.SnowGlobe || item.type == ItemID.PumpkinMoonMedallion || item.type == ItemID.NaughtyPresent || item.type == ItemID.SolarTablet || item.type == ItemID.CelestialSigil || item.type == ItemID.PirateMap || item.type == ItemID.BloodMoonStarter)
+                if (item.type == ModContent.ItemType<ProfanedShard>() || item.type == ModContent.ItemType<ProfanedCore>() || item.type == ItemID.DeerThing || item.type == ItemID.QueenSlimeCrystal || item.type == ItemID.TruffleWorm || item.type == ItemID.MechanicalEye || item.type == ItemID.MechanicalWorm || item.type == ItemID.MechanicalSkull || item.type == ItemID.LihzahrdPowerCell || item.type == ItemID.WormFood || item.type == ItemID.BloodySpine || item.type == ItemID.Abeemination || item.type == ItemID.SlimeCrown || item.type == ItemID.GoblinBattleStandard || item.type == ItemID.SnowGlobe || item.type == ItemID.PumpkinMoonMedallion || item.type == ItemID.NaughtyPresent || item.type == ItemID.SolarTablet || item.type == ItemID.PirateMap || item.type == ItemID.BloodMoonStarter || item.type == ItemID.CelestialSigil || item.type == ItemID.SuspiciousLookingEye)
                 {
                     line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
-                }
-                if (item.type == ItemID.SuspiciousLookingEye)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
+
                     line.Text = line.Text.Replace("when used during nighttime", "在夜晚使用".zh());
-                    line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴".zh());
-                }
-                if (item.type == ItemID.Abeemination)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
                     line.Text = line.Text.Replace("when used in the Jungle", "在丛林使用".zh());
-                    line.Text = line.Text.Replace("Enrages outside the Underground Jungle", "在地下丛林外会狂暴".zh());
-                }
-                if (item.type == ItemID.BloodySpine)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
-                    line.Text = line.Text.Replace("when used in the Crimson", "在血腥之地使用".zh());
-                    line.Text = line.Text.Replace("Enrages outside the Underground Crimson", "在地下血腥外会狂暴".zh());
-                }
-                if (item.type == ItemID.WormFood)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
-                    line.Text = line.Text.Replace("when used in the Corruption", "在腐化之地使用".zh());
-                    line.Text = line.Text.Replace("Enrages outside the Underground Corruption", "在地下腐化外会狂暴".zh());
-                }
-                if (item.type == ItemID.LihzahrdPowerCell)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
-                    line.Text = line.Text.Replace("to summon the Golem", "在神庙使用".zh());
-                    line.Text = line.Text.Replace("Enrages outside the Jungle Temple", "在丛林神庙外会狂暴".zh());
-                }
-                if (item.type == ItemID.MechanicalEye || item.type == ItemID.MechanicalWorm || item.type == ItemID.MechanicalSkull)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
-                    line.Text = line.Text.Replace("when used during nighttime", "在夜晚使用".zh());
-                    line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴".zh());
-                }
-                if (item.type == ItemID.TruffleWorm)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
-                    line.Text = line.Text.Replace("Summons Duke Fishron if used as bait in the Ocean", "在海洋钓一条猪鲨".zh());
-                    line.Text = line.Text.Replace("Enrages outside the Ocean", "海洋群系外会狂暴".zh());
-                }
-                if (item.type == ItemID.QueenSlimeCrystal)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
                     line.Text = line.Text.Replace("when used in the Hallow", "在神圣之地使用".zh());
-                }
-                if (item.type == ItemID.DeerThing)
-                {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
                     line.Text = line.Text.Replace("when used in the Snow or Ice biome", "在雪原群系使用".zh());
+                    line.Text = line.Text.Replace("when used in the Crimson", "在血腥之地使用".zh());
+                    line.Text = line.Text.Replace("when used in the Corruption", "在腐化之地使用".zh());
+
+                    line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴".zh());
+                    line.Text = line.Text.Replace("Enrages outside the Underground Jungle", "在地下丛林外会狂暴".zh());
+                    line.Text = line.Text.Replace("Enrages outside the Underground Crimson", "在地下血腥外会狂暴".zh());
+                    line.Text = line.Text.Replace("Enrages outside the Underground Corruption", "在地下腐化外会狂暴".zh());
+                    line.Text = line.Text.Replace("Enrages outside the Jungle Temple", "在丛林神庙外会狂暴".zh());
+                    line.Text = line.Text.Replace("Enrages outside the Ocean", "海洋群系外会狂暴".zh());
+                    
+                    line.Text = line.Text.Replace("to summon the Golem", "召唤石巨人".zh());
+                    line.Text = line.Text.Replace("Summons Duke Fishron if used as bait in the Ocean", "在海洋钓一条猪鲨".zh());
+                    
+                //InfernumMode
+                    line.Text = line.Text.Replace("Summons the Moon Lord immediately", "立刻召唤月亮领主");
+                    line.Text = line.Text.Replace("Creates an arena at the player's position", "在玩家的位置创建一个战斗场地");
+                    line.Text = line.Text.Replace("Creates a rectangular arena around the altar. If the altar is inside of the temple solid tiles within the arena are broken", "在祭坛周围创建一个矩形战斗场地，如果祭坛在神庙内，则场地内神庙方块会被破坏");
+                    line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the profaned garden at the far right of the underworld", "在地狱最右侧亵渎庭院中使用召唤亵渎守卫");
+                    line.Text = line.Text.Replace("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", "在地狱最右侧亵渎神庙中圣坛使用召唤亵渎天神");
                 }
                 if (item.type == ItemID.GuideVoodooDoll)
                 {
@@ -1473,10 +1443,6 @@ public class Itemgb : GlobalItem
                 {
                     line.Text = line.Text.Replace("While equipped, summons Skeletron when the Clothier is killed during nighttime", "装备后在夜晚杀死服饰商召唤骷髅王".zh());
                     line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴".zh());
-                }
-                if (item.type == ItemID.MagicMirror || item.type == ItemID.IceMirror || item.type == ItemID.CellPhone || item.type == ItemID.RecallPotion)
-                {
-                    line.Text = line.Text.Replace("Cannot be used while you have the Boss Effects buff", "Boss战期间无法使用".zh());
                 }
                 if (item.type == ItemID.Ale || item.type == ItemID.Sake)
                 {
@@ -1529,6 +1495,5 @@ public class Itemgb : GlobalItem
                 line.Text = line.Text.Replace("Restores", "恢复".zh());
                 line.Text = line.Text.Replace("life", "生命".zh());
             }
-        }
     }
 }

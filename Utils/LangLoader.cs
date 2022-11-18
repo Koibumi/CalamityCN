@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Terraria.ModLoader;
 
-namespace CalamityCN.LangUtils
+namespace CalamityCN.Utils
 {
 	public class LangLoader : ContentTranslation, ILoadableContent
 	{

@@ -1,6 +1,7 @@
-﻿using CalamityCN.LangUtils;
+﻿using CalamityCN.Utils;
 using CalamityMod;
 using CalamityMod.Buffs.StatBuffs;
+using CalamityMod.Buffs.Summon;
 using System;
 using Terraria;
 using Terraria.Localization;
@@ -8,7 +9,7 @@ using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.TransInHjson
 {
-	public class Buffgb : GlobalBuff
+	public class BuffGlobalTrans : GlobalBuff
 	{
 		public override void ModifyBuffTip(int type, ref string tooltip, ref int rare)
 	{
@@ -17,6 +18,12 @@ namespace CalamityCN.Translations.TransInHjson
 			{
 				tip = LangHelper.GetTextValue(CalamityConfig.Instance.BossZen ? "CalamityMod.Buffs.BossEffects.Description.BossZen" : "CalamityMod.Buffs.BossEffects.Description", Array.Empty<object>());
 			}
+
+			if (type == ModContent.BuffType<ProfanedBabs>())
+			{
+				tip = ((tooltip == "The Profaned Babs will accompany you!") ? LangHelper.GetTextValue("CalamityMod.Buffs.ProfanedBabs.Description", Array.Empty<object>()) : tip);
+			}
+
 			if (type == ModContent.BuffType<ProfanedCrystalBuff>())
             {
 				Player player = Main.player[Main.myPlayer];

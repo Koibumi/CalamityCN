@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using CalamityCN.Translations.Patch;
+using CalamityCN.Utils;
 using CalamityMod;
 using CalamityMod.Items.Pets;
 using CalamityMod.Items.SummonItems.Invasion;
@@ -13,7 +13,7 @@ using Terraria.ModLoader;
 
 namespace CalamityCN.Translation.Patch
 {
-	[JITWhenModsEnabled(new string[]
+    [JITWhenModsEnabled(new string[]
 	{
 		"CalamityMod"
 	})]

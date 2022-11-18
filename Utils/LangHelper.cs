@@ -2,7 +2,7 @@
 using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace CalamityCN.LangUtils
+namespace CalamityCN.Utils
 {
 
 	internal static class LangHelper

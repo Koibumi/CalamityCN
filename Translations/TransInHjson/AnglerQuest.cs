@@ -1,5 +1,5 @@
 ﻿using System;
-using CalamityCN.LangUtils;
+using CalamityCN.Utils;
 using CalamityMod.Items.Fishing.BrimstoneCragCatches;
 using CalamityMod.Items.Fishing.SunkenSeaCatches;
 using Terraria.ModLoader;
@@ -17,32 +17,32 @@ namespace CalamityCN.Translations.TransInHjson
 		{
 			if (type == ModContent.ItemType<EutrophicSandfish>())
 			{
-				chat = LangHelper.GetText("CalamityMod.AnglerQuest.EutrophicSandfish.Chat");
-				catchLocation = LangHelper.GetText("CalamityMod.AnglerQuest.EutrophicSandfish.CatchLocation");
+				chat = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.EutrophicSandfish.Chat");
+				catchLocation = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.EutrophicSandfish.CatchLocation");
 				return;
 			}
 			if (type == ModContent.ItemType<Serpentuna>())
 			{
-				chat = LangHelper.GetText("CalamityMod.AnglerQuest.Serpentuna.Chat");
-				catchLocation = LangHelper.GetText("CalamityMod.AnglerQuest.Serpentuna.CatchLocation");
+				chat = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.Serpentuna.Chat");
+				catchLocation = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.Serpentuna.CatchLocation");
 				return;
 			}
 			if (type == ModContent.ItemType<SurfClam>())
 			{
-				chat = LangHelper.GetText("CalamityMod.AnglerQuest.SurfClam.Chat");
-				catchLocation = LangHelper.GetText("CalamityMod.AnglerQuest.SurfClam.CatchLocation");
+				chat = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.SurfClam.Chat");
+				catchLocation = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.SurfClam.CatchLocation");
 				return;
 			}
 			if (type == ModContent.ItemType<Brimlish>())
 			{
-				chat = LangHelper.GetText("CalamityMod.AnglerQuest.Brimlish.Chat");
-				catchLocation = LangHelper.GetText("CalamityMod.AnglerQuest.Brimlish.CatchLocation");
+				chat = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.Brimlish.Chat");
+				catchLocation = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.Brimlish.CatchLocation");
 				return;
 			}
 			if (type == ModContent.ItemType<Slurpfish>())
 			{
-				chat = LangHelper.GetText("CalamityMod.AnglerQuest.Slurpfish.Chat");
-				catchLocation = LangHelper.GetText("CalamityMod.AnglerQuest.Slurpfish.CatchLocation");
+				chat = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.Slurpfish.Chat");
+				catchLocation = LangHelper.GetText("CalamityMod.NPCs.AnglerQuest.Slurpfish.CatchLocation");
 			}
 		}
 	}

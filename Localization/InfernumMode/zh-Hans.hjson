@@ -1,0 +1,124 @@
+﻿Mods: {
+InfernumMode: {
+
+InfernumText: "祝你好运。",
+InfernumText2: "那好吧。",
+
+UI:
+{
+    NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
+}
+
+ModBiome: {
+            ProfanedTempleBiome: 亵渎神庙
+        }
+
+ItemName: {
+    BlastedTophat: 该死的礼帽
+    BloodwormPlatter: 盘装血蠕虫
+    DungeonsCurse: 地牢的诅咒
+    FleshChunk: 血肉块
+    LeviathanDetector: 利维坦探测器
+    ProfanedFountainItem: 亵渎岩浆喷泉
+    RadiantCrystal: 辐光水晶
+    SparklingTunaCan: 发光软体动物罐头
+    DemonicChaliceOfInfernum: 炼狱圣杯
+    AquaticScourgeRelic: 炼狱渊海灾虫圣物
+    AstrumAureusRelic: 炼狱白金星舰圣物
+    AstrumDeusRelic: 炼狱星神游龙圣物
+    BrimstoneElementalRelic: 炼狱硫磺火元素圣物
+    CalamitasCloneRelic: 炼狱灾厄圣物
+    CeaselessVoidRelic: 炼狱无尽虚空圣物
+    CrabulonRelic: 炼狱菌生蟹圣物
+    CragmawMireRelic: 炼狱峭咽潭圣物
+    CryogenRelic: 炼狱极地之灵圣物
+    DesertScourgeRelic: 炼狱荒漠灾虫圣物
+    DevourerOfGodsRelic: 炼狱神明吞噬者圣物
+    DraedonRelic: 炼狱嘉登圣物
+    DragonfollyRelic: 炼狱痴愚金龙圣物
+    GiantClamRelic: 炼狱巨像蛤圣物
+    GreatSandSharkRelic: 炼狱旱海狂鲨圣物
+    HiveMindRelic: 炼狱腐巢意志圣物
+    LeviathanRelic: 炼狱利维坦圣物
+    MaulerRelic: 炼狱渊海狂鲨圣物
+    NuclearTerrorRelic: 炼狱辐射骇兽圣物
+    OldDukeRelic: 炼狱硫海遗爵圣物
+    PerforatorsRelic: 炼狱血肉宿主圣物
+    PlaguebringerGoliathRelic: 炼狱瘟疫使者歌莉娅圣物
+    PolterghastRelic: 炼狱噬魂幽花圣物
+    ProfanedGuardiansRelic: 炼狱亵渎守卫圣物
+    ProvidenceRelic: 炼狱亵渎天神圣物
+    RavagerRelic: 炼狱毁灭魔像圣物
+    SignusRelic: 炼狱神之使徒西格纳斯圣物
+    SlimeGodRelic: 炼狱史莱姆之神圣物
+    StormWeaverRelic: 炼狱风暴编织者圣物
+    SupremeCalamitasRelic: 炼狱至尊灾厄圣物
+    YharonRelic: 炼狱丛林龙，犽戎圣物
+    BetsyRelic: 炼狱双足翼龙圣物
+    BrainOfCthulhuRelic: 炼狱克苏鲁之脑圣物
+    DarkMageRelic: 炼狱暗黑魔法师圣物
+    DeerclopsRelic: 炼狱独眼巨鹿圣物
+    DestroyerRelic: 炼狱毁灭者圣物
+    DreadnautilusRelic: 炼狱恐惧鹦鹉螺圣物
+    DukeFishronRelic: 炼狱猪龙鱼公爵圣物
+    EaterOfWorldsRelic: 炼狱世界吞噬怪圣物
+    EmpressOfLightRelic: 炼狱光之女皇圣物
+    EyeOfCthulhuRelic: 炼狱克苏鲁之眼圣物
+    GolemRelic: 炼狱石巨人圣物
+    KingSlimeRelic: 炼狱史莱姆王圣物
+    LunaticCultistRelic: 炼狱拜月教邪教徒圣物
+    MoonLordRelic: 炼狱月亮领主圣物
+    OgreRelic: 炼狱食人魔圣物
+    PlanteraRelic: 炼狱世纪之花圣物
+    QueenBeeRelic: 炼狱蜂王圣物
+    QueenSlimeRelic: 炼狱史莱姆皇后圣物
+    SkeletronPrimeRelic: 炼狱机械骷髅王圣物
+    SkeletronRelic: 炼狱骷髅王圣物
+    TwinsRelic: 炼狱双子魔眼圣物
+    WallOfFleshRelic: 炼狱血肉墙圣物
+}
+
+ItemTooltip: {
+    BlastedTophat: 召唤一个带着帽子的小女孩在你与Boss战斗时给予建议？
+    BloodwormPlatter:
+    '''
+    召唤硫海遗爵
+    只能在硫磺海使用
+    不消耗
+    '''
+    DungeonsCurse: 
+    '''
+    召唤骷髅王
+    骷髅王在白天狂暴
+    如果在白天使用会变成晚上
+    不消耗
+    '''
+    FleshChunk:
+    '''
+    召唤肉山
+    只能在地狱使用
+    不消耗
+    '''
+    LeviathanDetector:
+    '''
+    召唤阿娜希塔
+    在任意海边使用
+    不消耗
+    '''
+    RadiantCrystal:
+    '''
+    召唤光之女皇
+    不需要在神圣地使用
+    光之女皇在白天狂暴
+    不消耗
+    '''
+    SparklingTunaCan:
+    '''
+    召唤巨像蛤
+    只能在沉沦海使用
+    不消耗
+    '''
+}
+
+   }
+}

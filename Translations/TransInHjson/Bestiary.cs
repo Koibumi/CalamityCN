@@ -41,7 +41,7 @@ using CalamityMod.NPCs.SunkenSea;
 using CalamityMod.NPCs.SupremeCalamitas;
 using CalamityMod.NPCs.TownNPCs;
 using CalamityMod.NPCs.Yharon;
-using CalamityCN.LangUtils;
+using CalamityCN.Utils;
 using Terraria;
 using Terraria.GameContent.Bestiary;
 using Terraria.ModLoader;
@@ -60,1007 +60,1007 @@ namespace CalamityCN.Translations.TransInHjson
 			if (npc.type == ModContent.NPCType<Bloatfish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Bloatfish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Bloatfish")));
 			}
 			if (npc.type == ModContent.NPCType<BobbitWormHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BobbitWormHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BobbitWormHead")));
 			}
 			if (npc.type == ModContent.NPCType<BoxJellyfish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BoxJellyfish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BoxJellyfish")));
 			}
 			if (npc.type == ModContent.NPCType<ChaoticPuffer>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ChaoticPuffer", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ChaoticPuffer")));
 			}
 			if (npc.type == ModContent.NPCType<ColossalSquid>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ColossalSquid", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ColossalSquid")));
 			}
 			if (npc.type == ModContent.NPCType<Cuttlefish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Cuttlefish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Cuttlefish")));
 			}
 			if (npc.type == ModContent.NPCType<DevilFish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DevilFish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DevilFish")));
 			}
 			if (npc.type == ModContent.NPCType<DevilFishAlt>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DevilFishAlt", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DevilFishAlt")));
 			}
 			if (npc.type == ModContent.NPCType<EidolonWyrmHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.EidolonWyrmHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.EidolonWyrmHead")));
 			}
 			if (npc.type == ModContent.NPCType<GiantSquid>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.GiantSquid", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.GiantSquid")));
 			}
 			if (npc.type == ModContent.NPCType<GulperEelHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.GulperEelHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.GulperEelHead")));
 			}
 			if (npc.type == ModContent.NPCType<Laserfish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Laserfish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Laserfish")));
 			}
 			if (npc.type == ModContent.NPCType<LuminousCorvina>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.LuminousCorvina", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.LuminousCorvina")));
 			}
 			if (npc.type == ModContent.NPCType<MirageJelly>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.MirageJelly", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.MirageJelly")));
 			}
 			if (npc.type == ModContent.NPCType<MorayEel>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.MorayEel", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.MorayEel")));
 			}
 			if (npc.type == ModContent.NPCType<OarfishHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.OarfishHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.OarfishHead")));
 			}
 			if (npc.type == ModContent.NPCType<ReaperShark>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ReaperShark", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ReaperShark")));
 			}
 			if (npc.type == ModContent.NPCType<ToxicMinnow>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ToxicMinnow", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ToxicMinnow")));
 			}
 			if (npc.type == ModContent.NPCType<Viperfish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Viperfish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Viperfish")));
 			}
 			if (npc.type == ModContent.NPCType<AcidEel>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AcidEel", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AcidEel")));
 			}
 			if (npc.type == ModContent.NPCType<BabyFlakCrab>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BabyFlakCrab", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BabyFlakCrab")));
 			}
 			if (npc.type == ModContent.NPCType<BloodwormNormal>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BloodwormNormal", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BloodwormNormal")));
 			}
 			if (npc.type == ModContent.NPCType<CragmawMire>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CragmawMire", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CragmawMire")));
 			}
 			if (npc.type == ModContent.NPCType<FlakCrab>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.FlakCrab", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.FlakCrab")));
 			}
 			if (npc.type == ModContent.NPCType<GammaSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.GammaSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.GammaSlime")));
 			}
 			if (npc.type == ModContent.NPCType<IrradiatedSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.IrradiatedSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.IrradiatedSlime")));
 			}
 			if (npc.type == ModContent.NPCType<Mauler>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Mauler", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Mauler")));
 			}
 			if (npc.type == ModContent.NPCType<NuclearTerror>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.NuclearTerror", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.NuclearTerror")));
 			}
 			if (npc.type == ModContent.NPCType<NuclearToad>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.NuclearToad", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.NuclearToad")));
 			}
 			if (npc.type == ModContent.NPCType<Orthocera>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Orthocera", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Orthocera")));
 			}
 			if (npc.type == ModContent.NPCType<Radiator>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Radiator", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Radiator")));
 			}
 			if (npc.type == ModContent.NPCType<Skyfin>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Skyfin", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Skyfin")));
 			}
 			if (npc.type == ModContent.NPCType<SulphurousSkater>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SulphurousSkater", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SulphurousSkater")));
 			}
 			if (npc.type == ModContent.NPCType<Trilobite>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Trilobite", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Trilobite")));
 			}
 			if (npc.type == ModContent.NPCType<AdultEidolonWyrmHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AdultEidolonWyrmHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AdultEidolonWyrmHead")));
 			}
 			if (npc.type == ModContent.NPCType<AquaticScourgeHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AquaticScourgeHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AquaticScourgeHead")));
 			}
 			if (npc.type == ModContent.NPCType<AquaticUrchin>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AquaticUrchin", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AquaticUrchin")));
 			}
 			if (npc.type == ModContent.NPCType<Aries>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Aries", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Aries")));
 			}
 			if (npc.type == ModContent.NPCType<AstralachneaGround>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AstralachneaGround", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AstralachneaGround")));
 			}
 			if (npc.type == ModContent.NPCType<AstralProbe>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AstralProbe", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AstralProbe")));
 			}
 			if (npc.type == ModContent.NPCType<AstralSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AstralSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AstralSlime")));
 			}
 			if (npc.type == ModContent.NPCType<Atlas>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Atlas", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Atlas")));
 			}
 			if (npc.type == ModContent.NPCType<BigSightseer>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BigSightseer", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BigSightseer")));
 			}
 			if (npc.type == ModContent.NPCType<Hadarian>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Hadarian", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Hadarian")));
 			}
 			if (npc.type == ModContent.NPCType<HiveEnemy>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Hive", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.HiveEnemy")));
 			}
 			if (npc.type == ModContent.NPCType<Hiveling>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Hiveling", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Hiveling")));
 			}
 			if (npc.type == ModContent.NPCType<Mantis>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Mantis", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Mantis")));
 			}
 			if (npc.type == ModContent.NPCType<Nova>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Nova", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Nova")));
 			}
 			if (npc.type == ModContent.NPCType<SmallSightseer>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SmallSightseer", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SmallSightseer")));
 			}
 			if (npc.type == ModContent.NPCType<StellarCulex>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.StellarCulex", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.StellarCulex")));
 			}
 			if (npc.type == ModContent.NPCType<Twinkler>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Twinkler", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Twinkler")));
 			}
 			if (npc.type == ModContent.NPCType<AstrumAureus>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AstrumAureus", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AstrumAureus")));
 			}
 			if (npc.type == ModContent.NPCType<AstrumDeusHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AstrumDeusHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AstrumDeusHead")));
 			}
 			if (npc.type == ModContent.NPCType<Brimling>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Brimling", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Brimling")));
 			}
 			if (npc.type == ModContent.NPCType<BrimstoneElemental>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BrimstoneElemental", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BrimstoneElemental")));
 			}
 			if (npc.type == ModContent.NPCType<Bumblefuck>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Bumblefuck", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Bumblefuck")));
 			}
 			if (npc.type == ModContent.NPCType<CalamitasClone>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CalamitasClone", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CalamitasClone")));
 			}
 			if (npc.type == ModContent.NPCType<Cataclysm>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Cataclysm", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Cataclysm")));
 			}
 			if (npc.type == ModContent.NPCType<Catastrophe>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Catastrophe", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Catastrophe")));
 			}
 			if (npc.type == ModContent.NPCType<SoulSeeker>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SoulSeeker", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SoulSeeker")));
 			}
 			if (npc.type == ModContent.NPCType<CeaselessVoid>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CeaselessVoid", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CeaselessVoid")));
 			}
 			if (npc.type == ModContent.NPCType<DarkEnergy>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DarkEnergy", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DarkEnergy")));
 			}
 			if (npc.type == ModContent.NPCType<CrabShroom>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrabShroom", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrabShroom")));
 			}
 			if (npc.type == ModContent.NPCType<Crabulon>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Crabulon", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Crabulon")));
 			}
 			if (npc.type == ModContent.NPCType<CalamityEye>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CalamityEye", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CalamityEye")));
 			}
 			if (npc.type == ModContent.NPCType<CharredSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CharredSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CharredSlime")));
 			}
 			if (npc.type == ModContent.NPCType<CultistAssassin>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CultistAssassin", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CultistAssassin")));
 			}
 			if (npc.type == ModContent.NPCType<DespairStone>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DespairStone", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DespairStone")));
 			}
 			if (npc.type == ModContent.NPCType<HeatSpirit>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.HeatSpirit", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.HeatSpirit")));
 			}
 			if (npc.type == ModContent.NPCType<Scryllar>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Scryllar", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Scryllar")));
 			}
 			if (npc.type == ModContent.NPCType<SoulSlurper>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SoulSlurper", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SoulSlurper")));
 			}
 			if (npc.type == ModContent.NPCType<Cryogen>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Cryogen", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Cryogen")));
 			}
 			if (npc.type == ModContent.NPCType<DesertNuisanceHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DesertNuisanceHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DesertNuisanceHead")));
 			}
 			if (npc.type == ModContent.NPCType<DesertScourgeHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DesertScourgeHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DesertScourgeHead")));
 			}
 			if (npc.type == ModContent.NPCType<CosmicGuardianHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CosmicGuardianHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CosmicGuardianHead")));
 			}
 			if (npc.type == ModContent.NPCType<DevourerofGodsHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DevourerofGodsHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DevourerofGodsHead")));
 			}
 			if (npc.type == ModContent.NPCType<Androomba>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Androomba", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Androomba")));
 			}
 			if (npc.type == ModContent.NPCType<Nanodroid>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Nanodroid", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Nanodroid")));
 			}
 			if (npc.type == ModContent.NPCType<RepairUnitCritter>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.RepairUnitCritter", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.RepairUnitCritter")));
 			}
 			if (npc.type == ModContent.NPCType<Draedon>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Draedon", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Draedon")));
 			}
 			if (npc.type == ModContent.NPCType<Apollo>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Apollo", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Apollo")));
 			}
 			if (npc.type == ModContent.NPCType<AresBody>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AresBody", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AresBody")));
 			}
 			if (npc.type == ModContent.NPCType<Artemis>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Artemis", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Artemis")));
 			}
 			if (npc.type == ModContent.NPCType<ThanatosHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ThanatosHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ThanatosHead")));
 			}
 			if (npc.type == ModContent.NPCType<GreatSandShark>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.GreatSandShark", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.GreatSandShark")));
 			}
 			if (npc.type == ModContent.NPCType<DankCreeper>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DankCreeper", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DankCreeper")));
 			}
 			if (npc.type == ModContent.NPCType<DarkHeart>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DarkHeart", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DarkHeart")));
 			}
 			if (npc.type == ModContent.NPCType<HiveBlob>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.HiveBlob", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.HiveBlob")));
 			}
 			if (npc.type == ModContent.NPCType<HiveCyst>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.HiveCyst", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.HiveCyst")));
 			}
 			if (npc.type == ModContent.NPCType<HiveMind>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.HiveMind", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.HiveMind")));
 			}
 			if (npc.type == ModContent.NPCType<Anahita>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Anahita", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Anahita")));
 			}
 			if (npc.type == ModContent.NPCType<AquaticAberration>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AquaticAberration", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AquaticAberration")));
 			}
 			if (npc.type == ModContent.NPCType<Leviathan>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Leviathan", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Leviathan")));
 			}
 			if (npc.type == ModContent.NPCType<LeviathanStart>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.LeviathanStart", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.LeviathanStart")));
 			}
 			if (npc.type == ModContent.NPCType<AeroSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AeroSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AeroSlime")));
 			}
 			if (npc.type == ModContent.NPCType<Rimehound>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Rimehound", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Rimehound")));
 			}
 			if (npc.type == ModContent.NPCType<ArmoredDiggerHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ArmoredDiggerHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ArmoredDiggerHead")));
 			}
 			if (npc.type == ModContent.NPCType<AuroraSpirit>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AuroraSpirit", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AuroraSpirit")));
 			}
 			if (npc.type == ModContent.NPCType<BloomSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BloomSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BloomSlime")));
 			}
 			if (npc.type == ModContent.NPCType<Bohldohr>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Bohldohr", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Bohldohr")));
 			}
 			if (npc.type == ModContent.NPCType<Cnidrion>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Cnidrion", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Cnidrion")));
 			}
 			if (npc.type == ModContent.NPCType<CosmicElemental>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CosmicElemental", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CosmicElemental")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerAmber>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerAmber", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerAmber")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerAmethyst>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerAmethyst", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerAmethyst")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerCrystal>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerCrystal", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerCrystal")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerDiamond>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerDiamond", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerDiamond")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerEmerald>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerEmerald", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerEmerald")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerRuby>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerRuby", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerRuby")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerSapphire>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerSapphire", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerSapphire")));
 			}
 			if (npc.type == ModContent.NPCType<CrawlerTopaz>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrawlerTopaz", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrawlerTopaz")));
 			}
 			if (npc.type == ModContent.NPCType<CrimulanBlightSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrimulanBlightSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrimulanBlightSlime")));
 			}
 			if (npc.type == ModContent.NPCType<Cryon>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Cryon", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Cryon")));
 			}
 			if (npc.type == ModContent.NPCType<CryoSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CryoSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CryoSlime")));
 			}
 			if (npc.type == ModContent.NPCType<EbonianBlightSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.EbonianBlightSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.EbonianBlightSlime")));
 			}
 			if (npc.type == ModContent.NPCType<Eidolist>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Eidolist", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Eidolist")));
 			}
 			if (npc.type == ModContent.NPCType<FearlessGoldfishWarrior>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.FearlessGoldfishWarrior", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.FearlessGoldfishWarrior")));
 			}
 			if (npc.type == ModContent.NPCType<Frogfish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Frogfish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Frogfish")));
 			}
 			if (npc.type == ModContent.NPCType<FusionFeeder>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.FusionFeeder", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.FusionFeeder")));
 			}
 			if (npc.type == ModContent.NPCType<Horse>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Horse", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Horse")));
 			}
 			if (npc.type == ModContent.NPCType<IceClasper>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.IceClasper", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.IceClasper")));
 			}
 			if (npc.type == ModContent.NPCType<ImpiousImmolator>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ImpiousImmolator", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ImpiousImmolator")));
 			}
 			if (npc.type == ModContent.NPCType<MantisShrimp>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.MantisShrimp", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.MantisShrimp")));
 			}
 			if (npc.type == ModContent.NPCType<OverloadedSoldier>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.OverloadedSoldier", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.OverloadedSoldier")));
 			}
 			if (npc.type == ModContent.NPCType<PerennialSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PerennialSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PerennialSlime")));
 			}
 			if (npc.type == ModContent.NPCType<PhantomSpirit>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PhantomSpirit", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PhantomSpirit")));
 			}
 			if (npc.type == ModContent.NPCType<PhantomSpiritL>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PhantomSpiritL", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PhantomSpiritL")));
 			}
 			if (npc.type == ModContent.NPCType<PhantomSpiritM>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PhantomSpiritM", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PhantomSpiritM")));
 			}
 			if (npc.type == ModContent.NPCType<PhantomSpiritS>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PhantomSpiritS", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PhantomSpiritS")));
 			}
 			if (npc.type == ModContent.NPCType<Piggy>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Piggy", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Piggy")));
 			}
 			if (npc.type == ModContent.NPCType<ProfanedEnergyBody>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ProfanedEnergyBody", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ProfanedEnergyBody")));
 			}
 			if (npc.type == ModContent.NPCType<Rotdog>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Rotdog", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Rotdog")));
 			}
 			if (npc.type == ModContent.NPCType<ScornEater>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ScornEater", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ScornEater")));
 			}
 			if (npc.type == ModContent.NPCType<SeaUrchin>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SeaUrchin", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SeaUrchin")));
 			}
 			if (npc.type == ModContent.NPCType<ShockstormShuttle>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ShockstormShuttle", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ShockstormShuttle")));
 			}
 			if (npc.type == ModContent.NPCType<Stormlion>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Stormlion", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Stormlion")));
 			}
 			if (npc.type == ModContent.NPCType<Sunskater>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Sunskater", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Sunskater")));
 			}
 			if (npc.type == ModContent.NPCType<ThiccWaifu>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ThiccWaifu", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ThiccWaifu")));
 			}
 			if (npc.type == ModContent.NPCType<WildBumblefuck>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.WildBumblefuck", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.WildBumblefuck")));
 			}
 			if (npc.type == ModContent.NPCType<WulfrumAmplifier>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.WulfrumAmplifier", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.WulfrumAmplifier")));
 			}
 			if (npc.type == ModContent.NPCType<WulfrumDrone>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.WulfrumDrone", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.WulfrumDrone")));
 			}
 			if (npc.type == ModContent.NPCType<WulfrumGyrator>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.WulfrumGyrator", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.WulfrumGyrator")));
 			}
 			if (npc.type == ModContent.NPCType<WulfrumHovercraft>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.WulfrumHovercraft", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.WulfrumHovercraft")));
 			}
 			if (npc.type == ModContent.NPCType<WulfrumRover>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.WulfrumRover", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.WulfrumRover")));
 			}
 			if (npc.type == ModContent.NPCType<OldDuke>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.OldDuke", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.OldDuke")));
 			}
 			if (npc.type == ModContent.NPCType<SulphurousSharkron>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SulphurousSharkron", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SulphurousSharkron")));
 			}
 			if (npc.type == ModContent.NPCType<PerforatorCyst>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PerforatorCyst", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PerforatorCyst")));
 			}
 			if (npc.type == ModContent.NPCType<PerforatorHeadLarge>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PerforatorHeadLarge", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PerforatorHeadLarge")));
 			}
 			if (npc.type == ModContent.NPCType<PerforatorHeadMedium>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PerforatorHeadMedium", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PerforatorHeadMedium")));
 			}
 			if (npc.type == ModContent.NPCType<PerforatorHeadSmall>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PerforatorHeadSmall", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PerforatorHeadSmall")));
 			}
 			if (npc.type == ModContent.NPCType<PerforatorHive>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PerforatorHive", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PerforatorHive")));
 			}
 			if (npc.type == ModContent.NPCType<PlaguebringerGoliath>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PlaguebringerGoliath", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PlaguebringerGoliath")));
 			}
 			if (npc.type == ModContent.NPCType<Melter>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Melter", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Melter")));
 			}
 			if (npc.type == ModContent.NPCType<PestilentSlime>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PestilentSlime", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PestilentSlime")));
 			}
 			if (npc.type == ModContent.NPCType<PlagueCharger>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PlagueCharger", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PlagueCharger")));
 			}
 			if (npc.type == ModContent.NPCType<PlagueChargerLarge>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PlagueChargerLarge", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PlagueChargerLarge")));
 			}
 			if (npc.type == ModContent.NPCType<PlaguebringerMiniboss>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PlaguebringerMiniboss", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PlaguebringerMiniboss")));
 			}
 			if (npc.type == ModContent.NPCType<Plagueshell>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Plagueshell", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Plagueshell")));
 			}
 			if (npc.type == ModContent.NPCType<Viruling>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Viruling", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Viruling")));
 			}
 			if (npc.type == ModContent.NPCType<Polterghast>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Polterghast", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Polterghast")));
 			}
 			if (npc.type == ModContent.NPCType<ProfanedGuardianCommander>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ProfanedGuardianCommander", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ProfanedGuardianCommander")));
 			}
 			if (npc.type == ModContent.NPCType<ProfanedGuardianDefender>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ProfanedGuardianDefender", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ProfanedGuardianDefender")));
 			}
 			if (npc.type == ModContent.NPCType<ProfanedGuardianHealer>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.ProfanedGuardianHealer", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.ProfanedGuardianHealer")));
 			}
 			if (npc.type == ModContent.NPCType<Providence>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Providence", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Providence")));
 			}
 			if (npc.type == ModContent.NPCType<RavagerBody>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.RavagerBody", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.RavagerBody")));
 			}
 			if (npc.type == ModContent.NPCType<CosmicLantern>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CosmicLantern", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CosmicLantern")));
 			}
 			if (npc.type == ModContent.NPCType<Signus>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Signus", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Signus")));
 			}
 			if (npc.type == ModContent.NPCType<CorruptSlimeSpawn>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CorruptSlimeSpawn", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CorruptSlimeSpawn")));
 			}
 			if (npc.type == ModContent.NPCType<CrimsonSlimeSpawn>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrimsonSlimeSpawn", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrimsonSlimeSpawn")));
 			}
 			if (npc.type == ModContent.NPCType<CrimsonSlimeSpawn2>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.CrimsonSlimeSpawn2", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CrimsonSlimeSpawn2")));
 			}
 			if (npc.type == ModContent.NPCType<SlimeGodCore>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SlimeGodCore", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SlimeGodCore")));
 			}
 			if (npc.type == ModContent.NPCType<SplitCrimulanSlimeGod>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SplitCrimulanSlimeGod", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SplitCrimulanSlimeGod")));
 			}
 			if (npc.type == ModContent.NPCType<SplitEbonianSlimeGod>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SplitEbonianSlimeGod", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SplitEbonianSlimeGod")));
 			}
 			if (npc.type == ModContent.NPCType<StormWeaverHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.StormWeaverHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.StormWeaverHead")));
 			}
 			if (npc.type == ModContent.NPCType<AnthozoanCrab>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AnthozoanCrab", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AnthozoanCrab")));
 			}
 			if (npc.type == ModContent.NPCType<BelchingCoral>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BelchingCoral", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BelchingCoral")));
 			}
 			if (npc.type == ModContent.NPCType<Catfish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Catfish", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Catfish")));
 			}
 			if (npc.type == ModContent.NPCType<Flounder>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Flounder", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Flounder")));
 			}
 			if (npc.type == ModContent.NPCType<Gnasher>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Gnasher", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Gnasher")));
 			}
 			if (npc.type == ModContent.NPCType<Trasher>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Trasher", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Trasher")));
 			}
 			if (npc.type == ModContent.NPCType<BabyGhostBell>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BabyGhostBell", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BabyGhostBell")));
 			}
 			if (npc.type == ModContent.NPCType<BlindedAngler>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.BlindedAngler", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BlindedAngler")));
 			}
 			if (npc.type == ModContent.NPCType<Clam>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Clam", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Clam")));
 			}
 			if (npc.type == ModContent.NPCType<EutrophicRay>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.EutrophicRay", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.EutrophicRay")));
 			}
 			if (npc.type == ModContent.NPCType<GhostBell>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.GhostBell", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.GhostBell")));
 			}
 			if (npc.type == ModContent.NPCType<GiantClam>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.GiantClam", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.GiantClam")));
 			}
 			if (npc.type == ModContent.NPCType<PrismBack>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.PrismBack", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.PrismBack")));
 			}
 			if (npc.type == ModContent.NPCType<SeaFloaty>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SeaFloaty", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SeaFloaty")));
 			}
 			if (npc.type == ModContent.NPCType<SeaMinnow>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SeaMinnow", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SeaMinnow")));
 			}
 			if (npc.type == ModContent.NPCType<SeaSerpent1>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SeaSerpent1", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SeaSerpent1")));
 			}
 			if (npc.type == ModContent.NPCType<SepulcherHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SepulcherHead", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SepulcherHead")));
 			}
 			if (npc.type == ModContent.NPCType<SoulSeekerSupreme>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SoulSeekerSupreme", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SoulSeekerSupreme")));
 			}
 			if (npc.type == ModContent.NPCType<SupremeCalamitas>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SupremeCalamitas", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SupremeCalamitas")));
 			}
 			if (npc.type == ModContent.NPCType<SupremeCataclysm>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SupremeCataclysm", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SupremeCataclysm")));
 			}
 			if (npc.type == ModContent.NPCType<SupremeCatastrophe>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SupremeCatastrophe", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SupremeCatastrophe")));
 			}
 			if (npc.type == ModContent.NPCType<AndroombaFriendly>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.AndroombaFriendly", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AndroombaFriendly")));
 			}
 			if (npc.type == ModContent.NPCType<DILF>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.DILF", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.DILF")));
 			}
 			if (npc.type == ModContent.NPCType<FAP>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.FAP", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.FAP")));
 			}
 			if (npc.type == ModContent.NPCType<SEAHOE>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.SEAHOE", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SEAHOE")));
 			}
 			if (npc.type == ModContent.NPCType<THIEF>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.THIEF", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.THIEF")));
 			}
 			if (npc.type == ModContent.NPCType<WITCH>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.WITCH", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.WITCH")));
 			}
 			if (npc.type == ModContent.NPCType<Yharon>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetTextValue("CalamityMod.Bestiary.Yharon", Array.Empty<object>())));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Yharon")));
 			}
 		}
 	}

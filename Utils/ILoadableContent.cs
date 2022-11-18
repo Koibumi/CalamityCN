@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalamityCN.LangUtils
+namespace CalamityCN.Utils
 {
 	public interface ILoadableContent
 	{

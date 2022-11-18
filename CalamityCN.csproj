@@ -6,17 +6,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CalamityMod">
-      <HintPath>..\CalamityMod.dll</HintPath>
+      <HintPath>D:\Repos\CalamityMod.dll</HintPath>
     </Reference>
-    <Reference Include="tModLoader">
-      <HintPath>..\tModLoader.dll</HintPath>
+    <Reference Include="InfernumMode">
+      <HintPath>D:\Repos\InfernumMode.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

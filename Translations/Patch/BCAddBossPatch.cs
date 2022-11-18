@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using CalamityCN.Utils;
 using CalamityMod;
 using CalamityMod.Items.Armor.Vanity;
 using CalamityMod.Items.LoreItems;
@@ -49,7 +50,7 @@ using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.Patch
 {
-	[JITWhenModsEnabled(new string[]
+    [JITWhenModsEnabled(new string[]
 	{
 		"CalamityMod"
 	})]
@@ -82,11 +83,11 @@ namespace CalamityCN.Translations.Patch
 		{
 			get
 			{
-				return new Action<BCAddBossPatch.AddCalamityBossesDelegate, Mod, Mod>(this.Translation);
+				return new Action<AddCalamityBossesDelegate, Mod, Mod>(this.Translation);
 			}
 		}
 
-		private void Translation(BCAddBossPatch.AddCalamityBossesDelegate orig, Mod bossChecklist, Mod calamity)
+		private void Translation(AddCalamityBossesDelegate orig, Mod bossChecklist, Mod calamity)
 		{
 			string name = "荒漠灾虫";
 			float difficulty = 1.6f;
@@ -100,7 +101,7 @@ namespace CalamityCN.Translations.Patch
 			list2.Add(ModContent.ItemType<DesertScourgeTrophy>());
 			list2.Add(ModContent.ItemType<DesertScourgeMask>());
 			list2.Add(ModContent.ItemType<KnowledgeDesertScourge>());
-            AddBoss(bossChecklist, calamity, name, difficulty, list, downed, summon, list2, "在沙漠环境使用 [i:" + ModContent.ItemType<DesertMedallion>().ToString() + "] 召唤", CalamityUtils.ColorMessage("荒漠灾虫潜入旱海之中……", new Color(238, 232, 170)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
+			AddBoss(bossChecklist, calamity, name, difficulty, list, downed, summon, list2, "在沙漠环境使用 [i:" + ModContent.ItemType<DesertMedallion>().ToString() + "] 召唤", CalamityUtils.ColorMessage("荒漠灾虫潜入旱海之中……", new Color(238, 232, 170)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
 			{
 				Texture2D value = ModContent.Request<Texture2D>("CalamityMod/NPCs/DesertScourge/DesertScourge_BossChecklist", (ReLogic.Content.AssetRequestMode)2).Value;
 				sb.Draw(value, new Vector2((float)(rect.Center.X - value.Width / 2), (float)(rect.Center.Y - value.Height / 2)), color);
