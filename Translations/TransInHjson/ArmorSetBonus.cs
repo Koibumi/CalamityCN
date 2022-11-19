@@ -229,7 +229,7 @@ namespace CalamityCN.Translations.TransInHjson
             }
             else if (set == "ShroomiteVisage")
             {
-                player.setBonus = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.ShroomiteCalam", Array.Empty<object>());
+                player.setBonus = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.ShroomiteVisage", Array.Empty<object>());
             }
             else if (set == "SilvaSummon")
             {
