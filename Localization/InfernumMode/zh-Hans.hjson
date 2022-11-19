@@ -1,124 +1,123 @@
 ﻿Mods: {
 InfernumMode: {
 
-InfernumText: "祝你好运。",
-InfernumText2: "那好吧。",
+    InfernumText: "祝你好运。",
+    InfernumText2: "那好吧。",
 
-UI:
-{
-    NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
-}
+    UI: {
+            NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
+        }
 
-ModBiome: {
+    ModBiome: {
             ProfanedTempleBiome: 亵渎神庙
         }
 
-ItemName: {
-    BlastedTophat: 该死的礼帽
-    BloodwormPlatter: 血蠕虫拼盘  
-    DungeonsCurse: 地牢厄咒
-    FleshChunk: 血肉碎块
-    LeviathanDetector: 利维坦探测器
-    ProfanedFountainItem: 亵渎岩浆喷泉
-    RadiantCrystal: 辐彩棱晶  
-    SparklingTunaCan: 闪光软体生物罐头 
-    DemonicChaliceOfInfernum: 炼狱圣杯
-    AquaticScourgeRelic: 渊海灾虫孽狱圣物
-    AstrumAureusRelic: 白金星舰孽狱圣物
-    AstrumDeusRelic: 星神游龙孽狱圣物
-    BrimstoneElementalRelic: 硫磺火元素孽狱圣物
-    CalamitasCloneRelic: 灾厄孽狱圣物
-    CeaselessVoidRelic: 无尽虚空孽狱圣物
-    CrabulonRelic: 菌生蟹孽狱圣物
-    CragmawMireRelic: 峭咽潭孽狱圣物
-    CryogenRelic: 极地之灵孽狱圣物
-    DesertScourgeRelic: 荒漠灾虫孽狱圣物
-    DevourerOfGodsRelic: 神明吞噬者孽狱圣物
-    DraedonRelic: 嘉登孽狱圣物
-    DragonfollyRelic: 痴愚金龙孽狱圣物
-    GiantClamRelic: 巨像蛤孽狱圣物
-    GreatSandSharkRelic: 旱海狂鲨孽狱圣物
-    HiveMindRelic: 腐巢意志孽狱圣物
-    LeviathanRelic: 利维坦孽狱圣物
-    MaulerRelic: 渊海狂鲨孽狱圣物
-    NuclearTerrorRelic: 辐射骇兽孽狱圣物
-    OldDukeRelic: 硫海遗爵孽狱圣物
-    PerforatorsRelic: 血肉宿主圣物
-    PlaguebringerGoliathRelic: 瘟疫使者歌莉娅圣物
-    PolterghastRelic: 噬魂幽花孽狱圣物
-    ProfanedGuardiansRelic: 亵渎守卫孽狱圣物
-    ProvidenceRelic: 亵渎天神孽狱圣物
-    RavagerRelic: 毁灭魔像孽狱圣物
-    SignusRelic: 神之使徒西格纳斯孽狱圣物
-    SlimeGodRelic: 史莱姆之神孽狱圣物
-    StormWeaverRelic: 风暴编织者孽狱圣物
-    SupremeCalamitasRelic: 至尊灾厄孽狱圣物
-    YharonRelic: 丛林龙，犽戎孽狱圣物
-    BetsyRelic: 双足翼龙孽狱圣物
-    BrainOfCthulhuRelic: 克苏鲁之脑孽狱圣物
-    DarkMageRelic: 暗黑魔法师孽狱圣物
-    DeerclopsRelic: 独眼巨鹿孽狱圣物
-    DestroyerRelic: 毁灭者孽狱圣物
-    DreadnautilusRelic: 恐惧鹦鹉螺孽狱圣物
-    DukeFishronRelic: 猪龙鱼公爵孽狱圣物
-    EaterOfWorldsRelic: 世界吞噬怪孽狱圣物
-    EmpressOfLightRelic: 光之女皇孽狱圣物
-    EyeOfCthulhuRelic: 克苏鲁之眼孽狱圣物
-    GolemRelic: 石巨人孽狱圣物
-    KingSlimeRelic: 史莱姆王孽狱圣物
-    LunaticCultistRelic: 拜月教邪教徒孽狱圣物
-    MoonLordRelic: 月亮领主孽狱圣物
-    OgreRelic: 食人魔孽狱圣物
-    PlanteraRelic: 世纪之花孽狱圣物
-    QueenBeeRelic: 蜂王孽狱圣物
-    QueenSlimeRelic: 史莱姆皇后孽狱圣物
-    SkeletronPrimeRelic: 机械骷髅王孽狱圣物
-    SkeletronRelic: 骷髅王孽狱圣物
-    TwinsRelic: 双子魔眼孽狱圣物
-    WallOfFleshRelic: 血肉墙孽狱圣物
-}
+    ItemName: {
+            BlastedTophat: 该死的礼帽
+            BloodwormPlatter: 血蠕虫拼盘  
+            DungeonsCurse: 地牢厄咒
+            FleshChunk: 血肉碎块
+            LeviathanDetector: 利维坦探测器
+            ProfanedFountainItem: 亵渎岩浆喷泉
+            RadiantCrystal: 辐彩棱晶  
+            SparklingTunaCan: 闪光软体生物罐头 
+            DemonicChaliceOfInfernum: 炼狱圣杯
+            AquaticScourgeRelic: 渊海灾虫孽狱圣物
+            AstrumAureusRelic: 白金星舰孽狱圣物
+            AstrumDeusRelic: 星神游龙孽狱圣物
+            BrimstoneElementalRelic: 硫磺火元素孽狱圣物
+            CalamitasCloneRelic: 灾厄孽狱圣物
+            CeaselessVoidRelic: 无尽虚空孽狱圣物
+            CrabulonRelic: 菌生蟹孽狱圣物
+            CragmawMireRelic: 峭咽潭孽狱圣物
+            CryogenRelic: 极地之灵孽狱圣物
+            DesertScourgeRelic: 荒漠灾虫孽狱圣物
+            DevourerOfGodsRelic: 神明吞噬者孽狱圣物
+            DraedonRelic: 嘉登孽狱圣物
+            DragonfollyRelic: 痴愚金龙孽狱圣物
+            GiantClamRelic: 巨像蛤孽狱圣物
+            GreatSandSharkRelic: 旱海狂鲨孽狱圣物
+            HiveMindRelic: 腐巢意志孽狱圣物
+            LeviathanRelic: 利维坦孽狱圣物
+            MaulerRelic: 渊海狂鲨孽狱圣物
+            NuclearTerrorRelic: 辐射骇兽孽狱圣物
+            OldDukeRelic: 硫海遗爵孽狱圣物
+            PerforatorsRelic: 血肉宿主圣物
+            PlaguebringerGoliathRelic: 瘟疫使者歌莉娅圣物
+            PolterghastRelic: 噬魂幽花孽狱圣物
+            ProfanedGuardiansRelic: 亵渎守卫孽狱圣物
+            ProvidenceRelic: 亵渎天神孽狱圣物
+            RavagerRelic: 毁灭魔像孽狱圣物
+            SignusRelic: 神之使徒西格纳斯孽狱圣物
+            SlimeGodRelic: 史莱姆之神孽狱圣物
+            StormWeaverRelic: 风暴编织者孽狱圣物
+            SupremeCalamitasRelic: 至尊灾厄孽狱圣物
+            YharonRelic: 丛林龙，犽戎孽狱圣物
+            BetsyRelic: 双足翼龙孽狱圣物
+            BrainOfCthulhuRelic: 克苏鲁之脑孽狱圣物
+            DarkMageRelic: 暗黑魔法师孽狱圣物
+            DeerclopsRelic: 独眼巨鹿孽狱圣物
+            DestroyerRelic: 毁灭者孽狱圣物
+            DreadnautilusRelic: 恐惧鹦鹉螺孽狱圣物
+            DukeFishronRelic: 猪龙鱼公爵孽狱圣物
+            EaterOfWorldsRelic: 世界吞噬怪孽狱圣物
+            EmpressOfLightRelic: 光之女皇孽狱圣物
+            EyeOfCthulhuRelic: 克苏鲁之眼孽狱圣物
+            GolemRelic: 石巨人孽狱圣物
+            KingSlimeRelic: 史莱姆王孽狱圣物
+            LunaticCultistRelic: 拜月教邪教徒孽狱圣物
+            MoonLordRelic: 月亮领主孽狱圣物
+            OgreRelic: 食人魔孽狱圣物
+            PlanteraRelic: 世纪之花孽狱圣物
+            QueenBeeRelic: 蜂王孽狱圣物
+            QueenSlimeRelic: 史莱姆皇后孽狱圣物
+            SkeletronPrimeRelic: 机械骷髅王孽狱圣物
+            SkeletronRelic: 骷髅王孽狱圣物
+            TwinsRelic: 双子魔眼孽狱圣物
+            WallOfFleshRelic: 血肉墙孽狱圣物
+        }
 
-ItemTooltip: {
-    BlastedTophat: 召唤一个带着帽子的小女孩在你与Boss战斗时给予建议？
-    BloodwormPlatter:
-    '''
-    召唤硫海遗爵
-    只能在硫磺海使用
-    不消耗
-    '''
-    DungeonsCurse: 
-    '''
-    召唤骷髅王
-    骷髅王在白天狂暴
-    如果在白天使用会变成晚上
-    不消耗
-    '''
-    FleshChunk:
-    '''
-    召唤肉山
-    只能在地狱使用
-    不消耗
-    '''
-    LeviathanDetector:
-    '''
-    召唤阿娜希塔
-    在任意海边使用
-    不消耗
-    '''
-    RadiantCrystal:
-    '''
-    召唤光之女皇
-    不需要在神圣地使用
-    光之女皇在白天狂暴
-    不消耗
-    '''
-    SparklingTunaCan:
-    '''
-    召唤巨像蛤
-    只能在沉沦海使用
-    不消耗
-    '''
-}
+    ItemTooltip: {
+            BlastedTophat: 召唤一个带着帽子的小女孩在你与Boss战斗时给予建议？
+            BloodwormPlatter:
+            '''
+            召唤硫海遗爵
+            只能在硫磺海使用
+            不消耗
+            '''
+            DungeonsCurse: 
+            '''
+            召唤骷髅王
+            骷髅王在白天狂暴
+            如果在白天使用会变成晚上
+            不消耗
+            '''
+            FleshChunk:
+            '''
+            召唤肉山
+            只能在地狱使用
+            不消耗
+            '''
+            LeviathanDetector:
+            '''
+            召唤阿娜希塔
+            在任意海边使用
+            不消耗
+            '''
+            RadiantCrystal:
+            '''
+            召唤光之女皇
+            不需要在神圣地使用
+            光之女皇在白天狂暴
+            不消耗
+            '''
+            SparklingTunaCan:
+            '''
+            召唤巨像蛤
+            只能在沉沦海使用
+            不消耗
+            '''
+        }
 
-   }
+    }
 }
