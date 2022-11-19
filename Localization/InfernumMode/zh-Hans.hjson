@@ -14,13 +14,13 @@ InfernumMode: {
 
     ItemName: {
             BlastedTophat: 该死的礼帽
-            BloodwormPlatter: 血蠕虫拼盘  
+            BloodwormPlatter: 血蠕虫拼盘
             DungeonsCurse: 地牢厄咒
             FleshChunk: 血肉碎块
             LeviathanDetector: 利维坦探测器
             ProfanedFountainItem: 亵渎岩浆喷泉
-            RadiantCrystal: 辐彩棱晶  
-            SparklingTunaCan: 闪光软体生物罐头 
+            RadiantCrystal: 辐彩棱晶
+            SparklingTunaCan: 闪光软体生物罐头
             DemonicChaliceOfInfernum: 炼狱圣杯
             AquaticScourgeRelic: 渊海灾虫孽狱圣物
             AstrumAureusRelic: 白金星舰孽狱圣物
@@ -85,7 +85,7 @@ InfernumMode: {
             只能在硫磺海使用
             不消耗
             '''
-            DungeonsCurse: 
+            DungeonsCurse:
             '''
             召唤骷髅王
             骷髅王在白天狂暴
@@ -118,6 +118,5 @@ InfernumMode: {
             不消耗
             '''
         }
-
     }
 }
