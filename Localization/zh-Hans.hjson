@@ -16,7 +16,7 @@ CalamityCN: {
                     
                 Forbidden: 使用魔法武器时减少召唤伤害
                 
-                ShroomiteVisage: "{$ArmorSetBonus.Shroomite}"
+                ShroomiteVisage: 不移动则会隐身
                 
                 AerospecMagic:
                     '''
