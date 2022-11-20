@@ -118,5 +118,8 @@ InfernumMode: {
             不消耗
             '''
         }
+    NPCName: {
+        PhotonRipperNPC: XF-09“阿瑞斯”光子撕裂者
+        }        
     }
 }
