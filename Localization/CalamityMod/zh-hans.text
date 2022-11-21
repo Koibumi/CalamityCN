@@ -68,7 +68,7 @@
       ElectriciansGlove: 电击手套
       ElementalGauntlet: 元素之握
       ElementalQuiver: 元素箭袋
-      ElysianAegis: 极乐庇护
+      ElysianAegis: 极乐之庇护
       EnchantedPearl: 附魔珍珠
       EtherealExtorter: 虚空掠夺者
       EtherealTalisman: 空灵护符
@@ -2189,131 +2189,131 @@
       ShardofAntumbra: Shard of Antumbra
       ShatteredSun: Shattered Sun
       ShinobiBlade: Shinobi Blade
-      ShockGrenade: Shock Grenade
-      SkyfinBombers: Skyfin Bombers
-      SkyStabber: Sky Stabber
-      SlickCane: Slick Cane
-      SludgeSplotch: Sludge Splotch
-      SnapClam: Snap Clam
-      SpearofDestiny: Spear of Destiny
-      SpearofPaleolith: Spear of Paleolith
-      SpentFuelContainer: Spent Fuel Container
-      StarofDestruction: Star of Destruction
-      StellarKnife: Stellar Knife
-      StickySpikyBall: Sticky Spiky Ball
-      StormfrontRazor: Stormfront Razor
-      SubductionSlicer: Subduction Slicer
-      Supernova: Supernova
-      TarragonThrowingDart: Tarragon Throwing Dart
-      TerraDisk: Terra Disk
-      TerrorTalons: Terror Talons
-      TheAtomSplitter: The Atom Splitter
-      TheOldReaper: The Old Reaper
-      TheSyringe: The Syringe
-      ThrowingBrick: Throwing Brick
-      TimeBolt: Time Bolt
-      TitaniumShuriken: Titanium Shuriken
-      ToothBall: Tooth Ball
-      TotalityBreakers: Totality Breakers
-      ToxicantTwister: Toxicant Twister
-      Turbulance: Turbulance
-      UrchinStinger: Urchin Stinger
-      UtensilPoker: Utensil Poker
-      Valediction: Valediction
-      WaveSkipper: Wave Skipper
-      WebBall: Web Ball
-      Wrathwing: Wrathwing
-      WulfrumKnife: Wulfrum Knife
-      AbandonedSlimeStaff: Abandoned Slime Staff
-      AncientIceChunk: Ancient Ice Chunk
-      AresExoskeleton: Ares' Exoskeleton
-      AtlasMunitionsBeacon: Atlas Munitions Beacon
-      BelladonnaSpiritStaff: Belladonna Spirit Staff
-      BlackHawkRemote: Black Hawk Remote
-      BloodClotStaff: Blood Clot Staff
-      BorealisBomber: Borealis Bomber
-      CadaverousCarrion: Cadaverous Carrion
-      CalamarisLament: Calamari's Lament
-      CausticCroakerStaff: Caustic Croaker Staff
-      CausticStaff: Caustic Staff
-      CinderBlossomStaff: Cinder Blossom Staff
-      CindersOfLament: Cinders of Lament
-      Cnidarian: Cnidarian
-      ColdDivinity: Cold Divinity
-      CorroslimeStaff: Corroslime Staff
-      CorvidHarbringerStaff: Corvid Harbinger Staff
-      CosmicImmaterializer: Cosmic Immaterializer
-      CosmicViperEngine: Cosmic Viper Engine
-      Cosmilamp: Cosmilamp
-      CrimslimeStaff: Crimslime Staff
-      CryogenicStaff: Cryogenic Staff
-      DaedalusGolemStaff: Daedalus Golem Staff
-      DankStaff: Dank Staff
-      DazzlingStabberStaff: Dazzling Stabber Staff
-      DeathstareRod: Deathstare Rod
-      DeepseaStaff: Deepsea Staff
-      DormantBrimseeker: Dormant Brimseeker
-      DragonbloodDisgorger: Dragonblood Disgorger
-      DreadmineStaff: Dreadmine Staff
-      ElementalAxe: Elemental Axe
-      Endogenesis: Endogenesis
-      EndoHydraStaff: Endo Hydra Staff
-      EnergyStaff: Energy Staff
-      EntropysVigil: Entropy's Vigil
-      EtherealSubjugator: Ethereal Subjugator
-      EyeOfNight: Eye of Night
-      FlamsteedRing: Flamsteed Ring
-      FleshOfInfidelity: Flesh of Infidelity
-      FlowersOfMortality: Flowers of Mortality
-      ForgottenApexWand: Forgotten Apex Wand
-      FrostBlossomStaff: Frost Blossom Staff
-      FuelCellBundle: Fuel Cell Bundle
-      GammaHeart: Gamma Heart
-      GastricBelcherStaff: Gastric Belcher Staff
-      GodspawnHelixStaff: Godspawn Helix Staff
-      GuidelightofOblivion: Guidelight of Oblivion
-      HauntedScroll: Haunted Scroll
-      HerringStaff: Herring Staff
-      HivePod: Hive Pod
-      IgneousExaltation: Igneous Exaltation
-      InfectedRemote: Infected Remote
-      MagicalConch: Magical Conch
-      Metastasis: Metastasis
-      MidnightSunBeacon: Midnight Sun Beacon
-      OrthoceraShell: Orthocera Shell
-      Perdition: Perdition
-      PlantationStaff: Plantation Staff
-      PolypLauncher: Polyp Launcher
-      PuffShroom: Puff Shroom
-      ResurrectionButterfly: Resurrection Butterfly
-      RustyBeaconPrototype: Rusty Beacon Prototype
-      SandSharknadoStaff: Sand Sharknado Staff
-      SarosPossession: Saros Possession
-      ScabRipper: Scab Ripper
-      SeaboundStaff: Seabound Staff
-      ShellfishStaff: Shellfish Staff
-      Sirius: Sirius
-      SlimePuppetStaff: Slime Puppet Staff
-      SpikecragStaff: Spikecrag Staff
-      SquirrelSquireStaff: Squirrel Squire Staff
-      StaffOfNecrosteocytes: Staff of Necrosteocytes
-      StaffoftheMechworm: Staff of the Mechworm
-      StormjawStaff: Stormjaw Staff
-      SunGodStaff: Sun God Staff
-      SunSpiritStaff: Sun Spirit Staff
-      TacticalPlagueEngine: Tactical Plague Engine
-      TemporalUmbrella: Temporal Umbrella
-      TundraFlameBlossomsStaff: Tundra Flame Blossoms Staff
-      UniverseSplitter: Universe Splitter
-      Vigilance: Vigilance
-      VileFeeder: Vile Feeder
-      ViralSprout: Viral Sprout
-      ViridVanguard: Virid Vanguard
-      VoidConcentrationStaff: Void Concentration Staff
-      WarloksMoonFist: Warloks' Moon Fist
-      WitherBlossomsStaff: Wither Blossoms Staff
-      WulfrumController: Wulfrum Controller
-      YharonsKindleStaff: Yharon's Kindle Staff
+      ShockGrenade: 震爆弹
+      SkyfinBombers: 天鳍毁灭者
+      SkyStabber: 天羽尖钉球
+      SlickCane: 盗贼手杖
+      SludgeSplotch: 污泥斑点
+      SnapClam: 夹贝
+      SpearofDestiny: 命运之矛
+      SpearofPaleolith: 古岩投矛
+      SpentFuelContainer: 辐毒废水
+      StarofDestruction: 毁灭之星
+      StellarKnife: 恒星匕首
+      StickySpikyBall: 粘性尖钉球
+      StormfrontRazor: 风暴剃刃
+      SubductionSlicer: 板块斩切者
+      Supernova: 超新星
+      TarragonThrowingDart: 龙蒿投镖
+      TerraDisk: 泰拉飞盘
+      TerrorTalons: 恐惧鹰爪
+      TheAtomSplitter: 微元劫裂者
+      TheOldReaper: 死神遗镰
+      TheSyringe: 瘟疫注射器
+      ThrowingBrick: 板砖
+      TimeBolt: 时空交叉刃
+      TitaniumShuriken: 钛金手里剑
+      ToothBall: 尖牙簇
+      TotalityBreakers: 集束燃爆瓶
+      ToxicantTwister: 剧毒旋风
+      Turbulance: 乱流
+      UrchinStinger: 深渊海胆蛰
+      UtensilPoker: 百变餐叉
+      Valediction: 辞别飞镰
+      WaveSkipper: 越浪蛟
+      WebBall: 蛛网球
+      Wrathwing: 狂龙翼火
+      WulfrumKnife: 钨钢飞刀
+      AbandonedSlimeStaff: 淡忘之史
+      AncientIceChunk: 千载寒晶
+      AresExoskeleton: 阿瑞斯外骨骼
+      AtlasMunitionsBeacon: 擎天军用信标
+      BelladonnaSpiritStaff: 颠茄灵杖
+      BlackHawkRemote: 黑鹰遥控器
+      BloodClotStaff: 血块法杖
+      BorealisBomber: 极光爆破
+      CadaverousCarrion: 干缩腐尸
+      CalamarisLament: 乌贼之哀歌
+      CausticCroakerStaff: 腐蚀蛙法杖
+      CausticStaff: 蚀骨法杖
+      CinderBlossomStaff: 烬英法杖
+      CindersOfLament: 余烬挽歌
+      Cnidarian: 水母钓竿
+      ColdDivinity: 冰寒神性
+      CorroslimeStaff: 腐化史莱姆召唤杖
+      CorvidHarbringerStaff: 灭兆渡鸦杖
+      CosmicImmaterializer: 归虚之灵
+      CosmicViperEngine: 宙极毒蝰引擎
+      Cosmilamp: 无限之灯
+      CrimslimeStaff: 血腥史莱姆召唤杖
+      CryogenicStaff: 寒极法杖
+      DaedalusGolemStaff: 代达罗斯守卫法杖
+      DankStaff: 沼泽之眼
+      DazzlingStabberStaff: 耀目穿刺者杖
+      DeathstareRod: 死亡凝视法杖
+      DeepseaStaff: 深海权杖
+      DormantBrimseeker: 沉眠寻焰者
+      DragonbloodDisgorger: 龙血弃族
+      DreadmineStaff: 恐惧渊雷法杖
+      ElementalAxe: 元素之斧
+      Endogenesis: 源生寒晶
+      EndoHydraStaff: 冰洋九头龙
+      EnergyStaff: 能源法杖
+      EntropysVigil: 混乱之祈祷
+      EtherealSubjugator: 幽花之主
+      EyeOfNight: 永夜之眼
+      FlamsteedRing: 月陨天环
+      FleshOfInfidelity: 不洁血肉
+      FlowersOfMortality: 告死之花
+      ForgottenApexWand: 失落极峰
+      FrostBlossomStaff: 霜华法杖
+      FuelCellBundle: 燃料电池组
+      GammaHeart: 伽马共生者
+      GastricBelcherStaff: 畸变吞食者法杖
+      GodspawnHelixStaff: 星神圣护
+      GuidelightofOblivion: 遗境魂灯
+      HauntedScroll: 闹鬼卷轴
+      HerringStaff: 鲱鱼法杖
+      HivePod: 星幻巢
+      IgneousExaltation: 淬焰之升华
+      InfectedRemote: 瘟疫控制器
+      MagicalConch: 魔法海螺
+      Metastasis: 硫心恶殖
+      MidnightSunBeacon: 极昼信标
+      OrthoceraShell: 直角石壳
+      Perdition: 永劫
+      PlantationStaff: 苍华之庭
+      PolypLauncher: 珊瑚召唤杖
+      PuffShroom: 蓬松蘑菇
+      ResurrectionButterfly: 反魂蝶
+      RustyBeaconPrototype: 锈蚀信标原型
+      SandSharknadoStaff: 沙龙卷法杖
+      SarosPossession: 星律之握揽
+      ScabRipper: 疤痕撕裂者
+      SeaboundStaff: 海星召唤杖
+      ShellfishStaff: 海贝法杖
+      Sirius: 天狼星
+      SlimePuppetStaff: 史莱姆傀儡法杖
+      SpikecragStaff: 地刺王法杖
+      SquirrelSquireStaff: 松鼠召唤杖
+      StaffOfNecrosteocytes: 死灵骨髓杖
+      StaffoftheMechworm: 星宇神卫召唤杖
+      StormjawStaff: 风暴蚁狮杖
+      SunGodStaff: 太阳神法杖
+      SunSpiritStaff: 太阳之灵法杖
+      TacticalPlagueEngine: 战术瘟疫引擎
+      TemporalUmbrella: 光阴流时伞
+      TundraFlameBlossomsStaff: 永冻之焱华
+      UniverseSplitter: 渊宇天基炮
+      Vigilance: 恂戒
+      VileFeeder: 腐化吞噬者
+      ViralSprout: 剧毒芽孢
+      ViridVanguard: 葱茏之锋
+      VoidConcentrationStaff: 幽冥统御
+      WarloksMoonFist: Warloks的月亮之拳
+      WitherBlossomsStaff: 凋零绽放法杖
+      WulfrumController: 钨钢控制器
+      YharonsKindleStaff: 巨龙七星灯
       Aestheticus: 美学魔杖
       EyeofMagnus: 玛格努斯之眼
       Bazooka: 巴祖卡
