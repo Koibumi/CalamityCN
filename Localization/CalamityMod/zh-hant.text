@@ -4,380 +4,380 @@
   {
     ItemName:
     {
-      AstralPylon: Astral Pylon
-      CragsPylon: Crags Pylon
-      SulphurPylon: Sulphur Pylon
-      SunkenPylon: Sunken Pylon
-      Abaddon: Abaddon
-      AbyssalAmulet: Abyssal Amulet
-      AbyssalDivingGear: Abyssal Diving Gear
-      AbyssalDivingSuit: Abyssal Diving Suit
-      AbyssalMirror: Abyssal Mirror
-      AeroStone: Aero Stone
-      Affliction: Affliction
-      AlchemicalFlask: Alchemical Flask
-      AlluringBait: Alluring Bait
-      AmalgamatedBrain: Amalgamated Brain
-      AmbrosialAmpoule: Ambrosial Ampoule
-      AmidiasPendant: Amidias' Pendant
-      AmidiasSpark: Amidias' Spark
-      AncientFossil: Ancient Fossil
-      AnechoicPlating: Anechoic Plating
-      AngelicAlliance: Angelic Alliance
-      AngelTreads: Angel Treads
-      AquaticEmblem: Aquatic Emblem
-      AquaticHeart: Aquatic Heart
-      ArchaicPowder: Archaic Powder
-      AsgardianAegis: Asgardian Aegis
-      AsgardsValor: Asgard's Valor
-      AstralArcanum: Astral Arcanum
-      BadgeofBravery: Badge of Bravery
-      BlazingCore: Blazing Core
-      BloodflareCore: Bloodflare Core
-      BloodPact: Blood Pact
-      BloodstainedGlove: Bloodstained Glove
-      BloodyWormScarf: Bloody Worm Scarf
-      BloodyWormTooth: Bloody Worm Tooth
-      BloomStone: Bloom Stone
-      BlunderBooster: Blunder Booster
-      Calamity: Calamity
-      CelestialJewel: Celestial Jewel
-      ChaosStone: Chaos Stone
-      CoinofDeceit: Coin of Deceit
-      CoreOfTheBloodGod: Core of the Blood God
-      CorrosiveSpine: Corrosive Spine
-      CorruptFlask: Corrupt Flask
-      CounterScarf: Counter Scarf
-      CrawCarapace: Craw Carapace
-      CrimsonFlask: Crimson Flask
-      CrownJewel: Crown Jewel
-      CryoStone: Cryo Stone
-      DaawnlightSpiritOrigin: Daawnlight Spirit Origin
-      DarkGodsSheath: Dark God's Sheath
-      DarkSunRing: Dark Sun Ring
-      DeadshotBrooch: Deadshot Brooch
-      DeepDiver: Deep Diver
-      DeificAmulet: Deific Amulet
-      DepthCharm: Depths Charm
-      DimensionalSoulArtifact: Dimensional Soul Artifact
-      DraedonsHeart: Draedon's Heart
-      DragonScales: Dragon Scales
-      DynamoStemCells: Dynamo Stem Cells
-      EclipseMirror: Eclipse Mirror
-      EldritchSoulArtifact: Eldritch Soul Artifact
-      ElectriciansGlove: Electrician's Glove
-      ElementalGauntlet: Elemental Gauntlet
-      ElementalQuiver: Elemental Quiver
-      ElysianAegis: Elysian Aegis
-      EnchantedPearl: Enchanted Pearl
-      EtherealExtorter: Ethereal Extorter
-      EtherealTalisman: Ethereal Talisman
-      EvasionScarf: Evasion Scarf
-      EyeoftheStorm: Eye of the Storm
-      FeatherCrown: Feather Crown
-      FilthyGlove: Filthy Glove
-      FlameLickedShell: Flame-Licked Shell
-      FleshTotem: Flesh Totem
-      FrostBarrier: Frost Barrier
-      FrostFlare: Frost Flare
-      FungalCarapace: Fungal Carapace
-      FungalClump: Fungal Clump
-      FungalSymbiote: Fungal Symbiote
-      Gehenna: Gehenna
-      GiantPearl: Giant Pearl
-      GiantShell: Giant Shell
-      GiantTortoiseShell: Giant Tortoise Shell
-      GladiatorsLocket: Gladiator's Locket
-      GloveOfPrecision: Glove of Precision
-      GloveOfRecklessness: Glove of Recklessness
-      GodlySoulArtifact: Godly Soul Artifact
-      GrandGelatin: Grand Gelatin
-      GravistarSabaton: Gravistar Sabaton
-      HallowedRune: Hallowed Rune
-      HarpyRing: Harpy Ring
-      HeartofDarkness: Heart of Darkness
-      HeartoftheElements: Heart of the Elements
-      HideofAstrumDeus: Hide of Astrum Deus
-      HoneyDew: Honey Dew
-      HowlsHeart: Howl's Heart
-      InkBomb: Ink Bomb
-      IronBoots: Iron Boots
-      JellyChargedBattery: Jelly-Charged Battery
-      Laudanum: Laudanum
-      LeviathanAmbergris: Leviathan Ambergris
-      LifeJelly: Life Jelly
-      LivingDew: Living Dew
-      LumenousAmulet: Lumenous Amulet
-      LuxorsGift: Luxor's Gift
-      ManaJelly: Mana Jelly
-      ManaPolarizer: Mana Polarizer
-      MarniteRepulsionShield: Marnite Repulsion Shield
-      MirageMirror: Mirage Mirror
-      MoonstoneCrown: Moonstone Crown
-      MutatedTruffle: Mutated Truffle
-      Nanotech: Nanotech
-      NebulousCore: Nebulous Core
-      NecklaceofVexation: Necklace of Vexation
-      NuclearRod: Nuclear Rod
-      Nucleogenesis: Nucleogenesis
-      OccultSkullCrown: Occult Skull Crown
-      OceanCrest: Ocean Crest
-      OldDie: Old Die
-      OldDukeScales: Old Duke's Scales
-      OrnateShield: Ornate Shield
-      PearlofEnthrallment: Pearl of Enthrallment
-      PermafrostsConcoction: Permafrost's Concoction
-      PhantomicArtifact: Phantomic Artifact
-      PlaguedFuelPack: Plagued Fuel Pack
-      PlagueHive: Plague Hive
-      ProfanedSoulArtifact: Profaned Soul Artifact
-      ProfanedSoulCrystal: Profaned Soul Crystal
-      QuiverofNihility: Quiver of Nihility
-      RadiantOoze: Radiant Ooze
-      RaidersTalisman: Raider's Talisman
-      RampartofDeities: Rampart of Deities
-      ReaperToothNecklace: Reaper Tooth Necklace
-      Regenator: Regenator
-      RogueEmblem: Rogue Emblem
-      RoseStone: Rose Stone
-      RottenBrain: Rotten Brain
-      RottenDogtooth: Rotten Dogtooth
-      RoverDrive: Rover Drive
-      RuinMedallion: Ruin Medallion
-      RustyMedallion: Rusty Medallion
-      SandCloak: Sand Cloak
-      SandSharkToothNecklace: Sand Shark Tooth Necklace
-      ScuttlersJewel: Scuttler's Jewel
-      ShatteredCommunity: Shattered Community
-      ShieldoftheOcean: Shield of the Ocean
-      SigilofCalamitas: Sigil of Calamitas
-      SilencingSheath: Silencing Sheath
-      SpectralVeil: Spectral Veil
-      SpelunkersAmulet: Spelunker's Amulet
-      SpiritGlyph: Spirit Glyph
-      StarbusterCore: Starbuster Core
-      StarTaintedGenerator: Star-Tainted Generator
-      StatisBlessing: Statis' Blessing
-      StatisCurse: Statis' Curse
-      StatisNinjaBelt: Statis' Ninja Belt
-      StatisVoidSash: Statis' Void Sash
-      StatMeter: Stat Meter
-      StressPills: Stress Pills
-      SupremeBaitTackleBoxFishingStation: Supreme Bait Tackle Box Fishing Station
-      TheAbsorber: The Absorber
-      TheAmalgam: The Amalgam
-      TheBee: The Bee
-      TheCamper: The Camper
-      TheCommunity: The Community
-      TheEvolution: The Evolution
-      TheFirstShadowflame: The First Shadowflame
-      TheSponge: The Sponge
-      TheTransformer: The Transformer
-      ThiefsDime: Thief's Dime
-      ToxicHeart: Toxic Heart
-      TrinketofChi: Trinket of Chi
-      UnstableGraniteCore: Unstable Granite Core
-      VampiricTalisman: Vampiric Talisman
-      AbandonedWulfrumHelmet: Abandoned Wulfrum Helmet
-      Popo: Magic Scarf and Hat
-      VeneratedLocket: Venerated Locket
-      VitalJelly: Vital Jelly
-      VoidofCalamity: Void of Calamity
-      VoidofExtinction: Void of Extinction
-      VoltaicJelly: Voltaic Jelly
-      WarbanneroftheSun: Warbanner of the Sun
-      WifeinaBottle: Elemental in a Bottle
-      WifeinaBottlewithBoobs: Rare Elemental in a Bottle
-      AureateBooster: Aureate Booster
-      CelestialTracers: Celestial Tracers
-      DrewsWings: Drew's Wings
-      ElysianTracers: Elysian Tracers
-      ElysianWings: Elysian Wings
-      ExodusWings: Exodus Wings
-      HadalMantle: Hadal Mantle
-      HadarianWings: Hadarian Wings
-      MOAB: MOAB
-      SeraphTracers: Seraph Tracers
-      SilvaWings: Silva Wings
-      SkylineWings: Skyline Wings
-      SoulofCryogen: Soul of Cryogen
-      StarlightWings: Starlight Wings
-      TarragonWings: Tarragon Wings
-      WulfrumAcrobaticsPack: Wulfrum Acrobatics Pack
-      WulfrumBattery: Wulfrum Battery
-      YharimsGift: Yharim's Gift
-      YharimsInsignia: Yharim's Insignia
-      AccelerationRound: Acceleration Round
-      AcidRound: Acid Round
-      ArcticArrow: Arctic Arrow
-      AstralSolution: Astral Solution
-      BloodfireArrow: Bloodfire Arrow
-      BloodfireBullet: Bloodfire Bullet
-      BloodRune: Blood Rune
-      ElysianArrow: Elysian Arrow
-      EnhancedNanoRound: Enhanced Nano Round
-      ExplosiveShells: Explosive Shotgun Shell
-      GrenadeRounds: Grenade Shell
-      MagnumRounds: Magnum Round
-      FlashRound: Flash Round
-      GodSlayerSlug: God Slayer Slug
-      HolyFireBullet: Holy Fire Bullet
-      HyperiusBullet: Hyperius Bullet
-      IcicleArrow: Icicle Arrow
-      IcyBullet: Icy Bullet
-      MortarRound: Mortar Round
-      NapalmArrow: Napalm Arrow
-      RubberMortarRound: Rubber Mortar Round
-      SuperballBullet: Superball Bullet
-      TerraArrow: Terra Arrow
-      TerraBullet: Terra Bullet
-      VanquisherArrow: Vanquisher Arrow
-      VeriumBullet: Verium Bullet
-      AntiCystOintment: Anti-Cyst Ointment
-      AntiTumorOintment: Anti-Tumor Ointment
-      AerospecBreastplate: Aerospec Breastplate
-      AerospecHat: Aerospec Hat
-      AerospecHeadgear: Aerospec Headgear
-      AerospecHelm: Aerospec Helm
-      AerospecHelmet: Aerospec Helmet
-      AerospecHood: Aerospec Hood
-      AerospecLeggings: Aerospec Leggings
-      AstralBreastplate: Astral Breastplate
-      AstralHelm: Astral Helm
-      AstralLeggings: Astral Leggings
-      AuricTeslaBodyArmor: Auric Tesla Body Armor
-      AuricTeslaCuisses: Auric Tesla Cuisses
-      AuricTeslaHoodedFacemask: Auric Tesla Hooded Facemask
-      AuricTeslaPlumedHelm: Auric Tesla Plumed Helm
-      AuricTeslaRoyalHelm: Auric Tesla Royal Helm
-      AuricTeslaSpaceHelmet: Auric Tesla Space Helmet
-      AuricTeslaWireHemmedVisage: Auric Tesla Wire-Hemmed Visage
-      BloodflareBodyArmor: Bloodflare Body Armor
-      BloodflareCuisses: Bloodflare Cuisses
-      BloodflareHeadMagic: Bloodflare Hydra Hood
-      BloodflareHeadMelee: Bloodflare Ram Mask
-      BloodflareHeadRanged: Bloodflare Horned Helm
-      BloodflareHeadRogue: Bloodflare Imp Mask
-      BloodflareHeadSummon: Bloodflare Wyvern Helm
-      BrimflameBoots: Brimflame Boots
-      BrimflameRobes: Brimflame Robes
-      BrimflameScowl: Brimflame Cowl
-      CirrusDress: Cirrus' Dress
-      DaedalusBreastplate: Daedalus Breastplate
-      DaedalusHeadMagic: Daedalus Hood
-      DaedalusHeadMelee: Daedalus Helm
-      DaedalusHeadRanged: Daedalus Headgear
-      DaedalusHeadRogue: Daedalus Facemask
-      DaedalusHeadSummon: Daedalus Mask
-      DaedalusLeggings: Daedalus Leggings
-      DemonshadeBreastplate: Demonshade Breastplate
-      DemonshadeGreaves: Demonshade Greaves
-      DemonshadeHelm: Demonshade Helm
-      DesertProwlerHat: Desert Prowler Hat
-      DesertProwlerPants: Desert Prowler Pants
-      DesertProwlerShirt: Desert Prowler Shirt
-      EmpyreanCloak: Empyrean Cloak
-      EmpyreanCuisses: Empyrean Cuisses
-      EmpyreanMask: Empyrean Mask
-      FathomSwarmerBoots: Fathom Swarmer Greaves
-      FathomSwarmerBreastplate: Fathom Swarmer Breastplate
-      FathomSwarmerVisage: Fathom Swarmer Visage
-      FearmongerGreathelm: Fearmonger Greathelm
-      FearmongerGreaves: Fearmonger Greaves
-      FearmongerPlateMail: Fearmonger Plate Mail
-      ForbiddenCirclet: Forbidden Circlet
-      GemTechBodyArmor: Gem Tech Body Armor
-      GemTechHeadgear: Gem Tech Headgear
-      GemTechSchynbaulds: Gem Tech Schynbaulds
-      GodSlayerChestplate: God Slayer Chestplate
-      GodSlayerHeadMelee: God Slayer Horned Greathelm
-      GodSlayerHeadRanged: God Slayer Helmet
-      GodSlayerHeadRogue: God Slayer Mask
-      GodSlayerLeggings: God Slayer Leggings
-      HydrothermicArmor: Hydrothermic Armor
-      HydrothermicHeadMagic: Hydrothermic Mask
-      HydrothermicHeadMelee: Hydrothermic Helm
-      HydrothermicHeadRanged: Hydrothermic Headgear
-      HydrothermicHeadRogue: Hydrothermic Hood
-      HydrothermicHeadSummon: Hydrothermic Helmet
-      HydrothermicSubligar: Hydrothermic Subligar
-      MarniteArchitectHeadgear: Marnite Architect Headgear
-      MarniteArchitectToga: Marnite Architect Toga
-      MolluskShelleggings: Mollusk Shelleggings
-      MolluskShellmet: Mollusk Shellmet
-      MolluskShellplate: Mollusk Shellplate
-      OmegaBlueChestplate: Omega Blue Chestplate
-      OmegaBlueHelmet: Omega Blue Helmet
-      OmegaBlueTentacles: Omega Blue Tentacles
-      PlaguebringerCarapace: Plaguebringer Carapace
-      PlaguebringerPistons: Plaguebringer Pistons
-      PlaguebringerVisor: Plaguebringer Visor
-      PlagueReaperMask: Plague Reaper Mask
-      PlagueReaperStriders: Plague Reaper Striders
-      PlagueReaperVest: Plague Reaper Vest
-      PrismaticGreaves: Prismatic Greaves
-      PrismaticHelmet: Prismatic Helmet
-      PrismaticRegalia: Prismatic Regalia
-      ReaverCuisses: Reaver Cuisses
-      ReaverHeadExplore: Reaver Headgear
-      ReaverHeadMobility: Reaver Visage
-      ReaverHeadTank: Reaver Helm
-      ReaverScaleMail: Reaver Scale Mail
-      ShroomiteVisage: Shroomite Visage
-      SilvaArmor: Silva Armor
-      SilvaHeadMagic: Silva Masked Cap
-      SilvaHeadSummon: Silva Horned Hood
-      SilvaLeggings: Silva Leggings
-      SnowRuffianChestplate: Snow Ruffian Chestplate
-      SnowRuffianGreaves: Snow Ruffian Greaves
-      SnowRuffianMask: Snow Ruffian Mask
-      StatigelArmor: Statigel Armor
-      StatigelGreaves: Statigel Greaves
-      StatigelHeadMagic: Statigel Cap
-      StatigelHeadMelee: Statigel Helm
-      StatigelHeadRanged: Statigel Headgear
-      StatigelHeadRogue: Statigel Mask
-      StatigelHeadSummon: Statigel Hood
-      SulphurousBreastplate: Sulphurous Breastplate
-      SulphurousHelmet: Sulphurous Helmet
-      SulphurousLeggings: Sulphurous Leggings
-      TarragonBreastplate: Tarragon Breastplate
-      TarragonHeadMagic: Tarragon Mask
-      TarragonHeadMelee: Tarragon Helm
-      TarragonHeadRanged: Tarragon Visage
-      TarragonHeadRogue: Tarragon Helmet
-      TarragonHeadSummon: Tarragon Horned Helm
-      TarragonLeggings: Tarragon Leggings
-      TitanHeartBoots: Titan Heart Boots
-      TitanHeartMantle: Titan Heart Mantle
-      TitanHeartMask: Titan Heart Mask
-      UmbraphileBoots: Umbraphile Boots
-      UmbraphileHood: Umbraphile Hood
-      UmbraphileRegalia: Umbraphile Regalia
-      AcesApronOfAffection: Ace's Apron of Affection
-      AnahitaMask: Anahita Mask
-      AncientGodSlayerChestplate: Ancient God Slayer Chestplate
-      AncientGodSlayerHelm: Ancient God Slayer Helm
-      AncientGodSlayerLeggings: Ancient God Slayer Leggings
-      ApolloMask: Apollo Mask
-      AquaticScourgeMask: Aquatic Scourge Mask
-      AresMask: Ares Mask
-      ArtemisMask: Artemis Mask
-      AshenHorns: Ashen Horns
-      AstrumAureusMask: Astrum Aureus Mask
-      AstrumDeusMask: Astrum Deus Mask
-      BrimstoneWaifuMask: Brimstone Elemental Mask
-      BumblefuckMask: Dragonfolly Mask
-      CalamitasMask: Calamitas Mask
-      CeaselessVoidMask: Ceaseless Void Mask
-      CrabulonMask: Crabulon Mask
-      CryogenMask: Cryogen Mask
-      DesertScourgeMask: Desert Scourge Mask
-      DevourerofGodsMask: Devourer of Gods Mask
-      DraedonMask: Draedon Mask
-      GodSlayerHornedHelm: God Slayer Horned Helm
-      GodSlayerVisage: God Slayer Visage
-      HiveMindMask: Hive Mind Mask
+      AstralPylon: 星辉地晶塔
+      CragsPylon: 硫火崖晶塔
+      SulphurPylon: 硫磺海晶塔
+      SunkenPylon: 沉沦海晶塔
+      Abaddon: 魔鬼之庇护
+      AbyssalAmulet: 深渊护身符
+      AbyssalDivingGear: 深渊潜游装
+      AbyssalDivingSuit: 深渊潜游服
+      AbyssalMirror: 深渊魔镜
+      AeroStone: 天蓝石
+      Affliction: 灾劫之尖啸
+      AlchemicalFlask: 冶金烧瓶
+      AlluringBait: 诱惑鱼饵
+      AmalgamatedBrain: 融合之脑
+      AmbrosialAmpoule: 百草天香瓶
+      AmidiasPendant: 阿米迪亚斯之垂饰
+      AmidiasSpark: 阿米迪亚斯电火花石
+      AncientFossil: 远古化石
+      AnechoicPlating: 吸音金属
+      AngelicAlliance: 圣天誓盟
+      AngelTreads: 天使之靴
+      AquaticEmblem: 海波纹章
+      AquaticHeart: 渊洋之心
+      ArchaicPowder: 古元粉末
+      AsgardianAegis: 阿斯加德之庇护
+      AsgardsValor: 阿斯加德之英勇
+      AstralArcanum: 星辉秘术
+      BadgeofBravery: 勇气勋章
+      BlazingCore: 渎火核心
+      BloodflareCore: 血炎晶核
+      BloodPact: 血契
+      BloodstainedGlove: 血染手套
+      BloodyWormScarf: 血蠕虫围巾
+      BloodyWormTooth: 血蠕虫之牙
+      BloomStone: 绽花石
+      BlunderBooster: 悖论增幅器
+      Calamity: 灾厄
+      CelestialJewel: 天魔星石
+      ChaosStone: 混乱石
+      CoinofDeceit: 欺诈硬币
+      CoreOfTheBloodGod: 血神核心
+      CorrosiveSpine: 腐蚀脊椎
+      CorruptFlask: 腐化药瓶
+      CounterScarf: 反击围巾
+      CrawCarapace: 蟹爪壳
+      CrimsonFlask: 血腥药瓶
+      CrownJewel: 王冠宝石
+      CryoStone: 冰川石
+      DaawnlightSpiritOrigin: 曙旼始灵
+      DarkGodsSheath: 暗神之剑鞘
+      DarkSunRing: 蚀日尊戒
+      DeadshotBrooch: 神射手胸针
+      DeepDiver: 深潜者
+      DeificAmulet: 神圣护符
+      DepthCharm: 深渊咒符
+      DimensionalSoulArtifact: 维魂神物
+      DraedonsHeart: 嘉登之心
+      DragonScales: 浴火龙鳞
+      DynamoStemCells: 痴愚金龙干细胞
+      EclipseMirror: 日蚀魔镜
+      EldritchSoulArtifact: 惧魂神物
+      ElectriciansGlove: 电击手套
+      ElementalGauntlet: 元素之握
+      ElementalQuiver: 元素箭袋
+      ElysianAegis: 极乐庇护
+      EnchantedPearl: 附魔珍珠
+      EtherealExtorter: 虚空掠夺者
+      EtherealTalisman: 空灵护符
+      EvasionScarf: 闪避围巾
+      EyeoftheStorm: 风暴之眼
+      FeatherCrown: 天羽头冠
+      FilthyGlove: 污秽手套
+      FlameLickedShell: 舐火甲壳
+      FleshTotem: 血肉图腾
+      FrostBarrier: 寒冰屏障
+      FrostFlare: 霜冻之炎
+      FungalCarapace: 真菌壳
+      FungalClump: 真菌块
+      FungalSymbiote: 真菌共生体
+      Gehenna: 焦热地狱
+      GiantPearl: 大珍珠
+      GiantShell: 巨大甲壳
+      GiantTortoiseShell: 巨大龟壳
+      GladiatorsLocket: 角斗士金锁
+      GloveOfPrecision: 精准手套
+      GloveOfRecklessness: 鲁莽手套
+      GodlySoulArtifact: 圣魂神物
+      GrandGelatin: 绚彩凝胶
+      GravistarSabaton: 引力靴
+      HallowedRune: 神圣符文
+      HarpyRing: 女妖指环
+      HeartofDarkness: 黑暗之心
+      HeartoftheElements: 元灵之心
+      HideofAstrumDeus: 星神隐壳
+      HoneyDew: 蜂蜜露珠
+      HowlsHeart: 哈尔之心
+      InkBomb: 墨水炸弹
+      IronBoots: 铁靴
+      JellyChargedBattery: 凝胶充能电池
+      Laudanum: 鸦片酊
+      LeviathanAmbergris: 利维坦龙涎香
+      LifeJelly: 生命凝胶
+      LivingDew: 生命露珠
+      LumenousAmulet: 流明护身符
+      LuxorsGift: 卢克索的礼物
+      ManaJelly: 魔力凝胶
+      ManaPolarizer: 魔能谐振仪
+      MarniteRepulsionShield: 合成岩斥力盾
+      MirageMirror: 幻影魔镜
+      MoonstoneCrown: 月长石头冠
+      MutatedTruffle: 突变松露
+      Nanotech: 纳米技术
+      NebulousCore: 星云之核
+      NecklaceofVexation: 恼怒项链
+      NuclearRod: 核燃料棒
+      Nucleogenesis: 核子之源
+      OccultSkullCrown: 玄秘颅冠
+      OceanCrest: 海波项链
+      OldDie: 赌徒骰子
+      OldDukeScales: 硫海遗爵之鳞
+      OrnateShield: 宝光盾牌
+      PearlofEnthrallment: 魅惑珍珠
+      PermafrostsConcoction: 永冻秘药
+      PhantomicArtifact: 幻魂神物
+      PlaguedFuelPack: 瘟疫燃料背包
+      PlagueHive: 瘟疫蜂巢
+      ProfanedSoulArtifact: 渎魂神物
+      ProfanedSoulCrystal: 渎神魂晶
+      QuiverofNihility: 虚无箭袋
+      RadiantOoze: 光泥
+      RaidersTalisman: 掠夺者护符
+      RampartofDeities: 神之壁垒
+      ReaperToothNecklace: 猎魂鲨齿项链
+      Regenator: 再生护符
+      RogueEmblem: 盗贼徽章
+      RoseStone: 玫瑰石
+      RottenBrain: 腐烂之脑
+      RottenDogtooth: 腐烂犬齿
+      RoverDrive: 钨钢屏障生成仪
+      RuinMedallion: 毁灭勋章
+      RustyMedallion: 锈蚀勋章
+      SandCloak: 沙尘披风
+      SandSharkToothNecklace: 旱海鲨牙项链
+      ScuttlersJewel: 潜遁者宝石
+      ShatteredCommunity: 幻灭心元石
+      ShieldoftheOcean: 海之盾
+      SigilofCalamitas: 灾厄符章
+      SilencingSheath: 寂静刀鞘
+      SpectralVeil: 幽灵披风
+      SpelunkersAmulet: 探险者护符
+      SpiritGlyph: 灵魂浮雕
+      StarbusterCore: 星爆核心
+      StarTaintedGenerator: 玷星之源
+      StatisBlessing: 斯塔提斯的祝福
+      StatisCurse: 斯塔提斯的诅咒
+      StatisNinjaBelt: 斯塔提斯的忍者腰带
+      StatisVoidSash: 斯塔提斯的虚空饰带
+      StatMeter: 属性统计器
+      StressPills: 压力药丸
+      SupremeBaitTackleBoxFishingStation: 万圣钓鱼台
+      TheAbsorber: 阴阳吸星石
+      TheAmalgam: 聚合之脑
+      TheBee: 蜜蜂护符
+      TheCamper: 露营者
+      TheCommunity: 归一心元石
+      TheEvolution: 进化者
+      TheFirstShadowflame: 始源暗影炎
+      TheSponge: 化绵留香石
+      TheTransformer: 变压器
+      ThiefsDime: 盗贼铸币
+      ToxicHeart: 毒疫之心
+      TrinketofChi: 气功念珠
+      UnstableGraniteCore: 不稳定花岗岩核心
+      VampiricTalisman: 吸血鬼符咒
+      AbandonedWulfrumHelmet: 废弃钨钢头盔
+      Popo: 魔法围巾帽
+      VeneratedLocket: 敬天神盗盒
+      VitalJelly: 活力凝胶
+      VoidofCalamity: 灾劫虚空
+      VoidofExtinction: 终结虚空
+      VoltaicJelly: 伏打凝胶
+      WarbanneroftheSun: 阳炎战旗
+      WifeinaBottle: 元素瓶
+      WifeinaBottlewithBoobs: 稀有元素瓶
+      AureateBooster: 玉金喷射器
+      CelestialTracers: 天神之靴
+      DrewsWings: Drew之翼
+      ElysianTracers: 极乐之靴
+      ElysianWings: 极乐之翼
+      ExodusWings: 逸界之翼
+      HadalMantle: 幽渊斗篷
+      HadarianWings: 哈德安之翼
+      MOAB: 气球之母
+      SeraphTracers: 六翼天使之靴
+      SilvaWings: 始源林海之翼
+      SkylineWings: 天羽之翼
+      SoulofCryogen: 极寒之魂
+      StarlightWings: 星光之翼
+      TarragonWings: 龙蒿叶之翼
+      WulfrumAcrobaticsPack: 钨钢杂技背包
+      WulfrumBattery: 钨钢电池
+      YharimsGift: 魔君的礼物
+      YharimsInsignia: 魔君之证章
+      AccelerationRound: 加速弹
+      AcidRound: 酸液弹
+      ArcticArrow: 北极箭
+      AstralSolution: 星源溶剂
+      BloodfireArrow: 血炎箭
+      BloodfireBullet: 血炎弹
+      BloodRune: 血之符文
+      ElysianArrow: 极乐之箭
+      EnhancedNanoRound: 注魔纳米弹
+      ExplosiveShells: 爆炸散弹
+      GrenadeRounds: 榴弹片
+      MagnumRounds: 马格南弹
+      FlashRound: 眩晕弹
+      GodSlayerSlug: 弑神者弹
+      HolyFireBullet: 圣火弹
+      HyperiusBullet: 海伯里斯弹
+      IcicleArrow: 冰坠箭
+      IcyBullet: 冰砾弹
+      MortarRound: 迫击炮弹
+      NapalmArrow: 汽油箭
+      RubberMortarRound: 橡胶迫击炮
+      SuperballBullet: 弹球弹
+      TerraArrow: 泰拉箭
+      TerraBullet: 泰拉弹
+      VanquisherArrow: 湮灭之箭
+      VeriumBullet: 钫弹
+      AntiCystOintment: 抗囊肿药膏
+      AntiTumorOintment: 抗肿瘤药膏
+      AerospecBreastplate: 天蓝胸甲
+      AerospecHat: 天蓝帽
+      AerospecHeadgear: 天蓝头套
+      AerospecHelm: 天蓝战盔
+      AerospecHelmet: 天蓝头盔
+      AerospecHood: 天蓝兜帽
+      AerospecLeggings: 天蓝护胫
+      AstralBreastplate: 星幻胸甲
+      AstralHelm: 星幻头盔
+      AstralLeggings: 星幻护胫
+      AuricTeslaBodyArmor: 古圣金源盔甲
+      AuricTeslaCuisses: 古圣金源腿甲
+      AuricTeslaHoodedFacemask: 金兜铁面盔
+      AuricTeslaPlumedHelm: 金羽十杀盔
+      AuricTeslaRoyalHelm: 金源耀日盔
+      AuricTeslaSpaceHelmet: 金宇星界盔
+      AuricTeslaWireHemmedVisage: 金虚万象盔
+      BloodflareBodyArmor: 血炎铠甲
+      BloodflareCuisses: 血炎腿甲
+      BloodflareHeadMagic: 血魇九头盔
+      BloodflareHeadMelee: 血碾溃阵盔
+      BloodflareHeadRanged: 血弑曲角盔
+      BloodflareHeadRogue: 血饮魔精盔
+      BloodflareHeadSummon: 血戮狂龙盔
+      BrimflameBoots: 硫火靴子
+      BrimflameRobes: 硫火长袍
+      BrimflameScowl: 硫火兜帽
+      CirrusDress: 醉仙女的小裙子
+      DaedalusBreastplate: 代达罗斯胸甲
+      DaedalusHeadMagic: 代达罗斯兜帽
+      DaedalusHeadMelee: 代达罗斯战盔
+      DaedalusHeadRanged: 代达罗斯头饰
+      DaedalusHeadRogue: 代达罗斯头罩
+      DaedalusHeadSummon: 代达罗斯面具
+      DaedalusLeggings: 代达罗斯护胫
+      DemonshadeBreastplate: 魔影装甲
+      DemonshadeGreaves: 魔影护胫
+      DemonshadeHelm: 魔影头盔
+      DesertProwlerHat: 沙漠巡游者帽
+      DesertProwlerPants: 沙漠巡游者裤
+      DesertProwlerShirt: 沙漠巡游者衣
+      EmpyreanCloak: 皇天斗篷
+      EmpyreanCuisses: 皇天腿甲
+      EmpyreanMask: 皇天面具
+      FathomSwarmerBoots: 幻渊鱼群护胫
+      FathomSwarmerBreastplate: 幻渊鱼群胸甲
+      FathomSwarmerVisage: 幻渊鱼群面罩
+      FearmongerGreathelm: 神惧者头盔
+      FearmongerGreaves: 神惧者护胫
+      FearmongerPlateMail: 神惧者板甲
+      ForbiddenCirclet: 禁戒金箍
+      GemTechBodyArmor: 天钻胸甲
+      GemTechHeadgear: 天钻头饰
+      GemTechSchynbaulds: 天钻战裙
+      GodSlayerChestplate: 弑神者胸甲
+      GodSlayerHeadMelee: 弑神者角盔
+      GodSlayerHeadRanged: 弑神者头盔
+      GodSlayerHeadRogue: 弑神者面具
+      GodSlayerLeggings: 弑神者护胫
+      HydrothermicArmor: 渊泉盔甲
+      HydrothermicHeadMagic: 渊泉面具
+      HydrothermicHeadMelee: 渊泉战盔
+      HydrothermicHeadRanged: 渊泉头饰
+      HydrothermicHeadRogue: 渊泉兜帽
+      HydrothermicHeadSummon: 渊泉头盔
+      HydrothermicSubligar: 渊泉战裙
+      MarniteArchitectHeadgear: 合成岩建筑师头饰
+      MarniteArchitectToga: 合成岩建筑师长袍
+      MolluskShelleggings: 软壳护胫
+      MolluskShellmet: 软壳贝盔
+      MolluskShellplate: 软壳贝甲
+      OmegaBlueChestplate: 蓝色欧米茄胸甲
+      OmegaBlueHelmet: 蓝色欧米茄头盔
+      OmegaBlueTentacles: 蓝色欧米茄触手
+      PlaguebringerCarapace: 瘟疫使者铠甲
+      PlaguebringerPistons: 瘟疫使者推进靴
+      PlaguebringerVisor: 瘟疫使者面甲
+      PlagueReaperMask: 瘟疫死神面具
+      PlagueReaperStriders: 瘟疫死神长靴
+      PlagueReaperVest: 瘟疫死神夹克
+      PrismaticGreaves: 光棱护胫
+      PrismaticHelmet: 光棱头盔
+      PrismaticRegalia: 光棱斗篷
+      ReaverCuisses: 掠夺者腿甲
+      ReaverHeadExplore: 掠夺者头饰
+      ReaverHeadMobility: 掠夺者面罩
+      ReaverHeadTank: 掠夺者战盔
+      ReaverScaleMail: 掠夺者鳞甲
+      ShroomiteVisage: 蘑菇面罩
+      SilvaArmor: 始源林海盔甲
+      SilvaHeadMagic: 始源林海兜帽
+      SilvaHeadSummon: 始源林海头盔
+      SilvaLeggings: 始源林海护胫
+      SnowRuffianChestplate: 雪境暴徒胸甲
+      SnowRuffianGreaves: 雪境暴徒护胫
+      SnowRuffianMask: 雪境暴徒面具
+      StatigelArmor: 斯塔提斯盔甲
+      StatigelGreaves: 斯塔提斯护胫
+      StatigelHeadMagic: 斯塔提斯帽子
+      StatigelHeadMelee: 斯塔提斯战盔
+      StatigelHeadRanged: 斯塔提斯头饰
+      StatigelHeadRogue: 斯塔提斯面具
+      StatigelHeadSummon: 斯塔提斯兜帽
+      SulphurousBreastplate: 硫磺胸甲
+      SulphurousHelmet: 硫磺头盔
+      SulphurousLeggings: 硫磺护胫
+      TarragonBreastplate: 龙蒿胸甲
+      TarragonHeadMagic: 龙蒿面具
+      TarragonHeadMelee: 龙蒿战盔
+      TarragonHeadRanged: 龙蒿面罩
+      TarragonHeadRogue: 龙蒿头盔
+      TarragonHeadSummon: 龙蒿角盔
+      TarragonLeggings: 龙蒿护胫
+      TitanHeartBoots: 泰坦之心靴子
+      TitanHeartMantle: 泰坦之心斗篷
+      TitanHeartMask: 泰坦之心面具
+      UmbraphileBoots: 日影靴子
+      UmbraphileHood: 日影兜帽
+      UmbraphileRegalia: 日影斗篷
+      AcesApronOfAffection: 艾斯的慈爱围裙
+      AnahitaMask: 阿娜希塔面具
+      AncientGodSlayerChestplate: 远古弑神者胸甲
+      AncientGodSlayerHelm: 远古弑神者头盔
+      AncientGodSlayerLeggings: 远古弑神者护胫
+      ApolloMask: 阿波罗面具
+      AquaticScourgeMask: 渊海灾虫面具
+      AresMask: 阿瑞斯面具
+      ArtemisMask: 阿尔忒弥斯面具
+      AshenHorns: 余烬之角
+      AstrumAureusMask: 白金星舰面具
+      AstrumDeusMask: 星神游龙面具
+      BrimstoneWaifuMask: 硫磺火元素面具
+      BumblefuckMask: 痴愚金龙面具
+      CalamitasMask: 灾厄面具
+      CeaselessVoidMask: 无尽虚空面具
+      CrabulonMask: 菌生蟹面具
+      CryogenMask: 极地之灵面具
+      DesertScourgeMask: 荒漠灾虫面具
+      DevourerofGodsMask: 神明吞噬者面具
+      DraedonMask: 嘉登面具
+      GodSlayerHornedHelm: 弑神者角盔
+      GodSlayerVisage: 弑神者面甲
+      HiveMindMask: 腐巢意志面具
       HoodOfCalamity: Hood of Calamity
       LeviathanMask: Leviathan Mask
       OldDukeMask: Old Duke Mask
