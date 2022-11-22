@@ -118,8 +118,64 @@ InfernumMode: {
             不消耗
             '''
         }
+        
     NPCName: {
-        PhotonRipperNPC: XF-09“阿瑞斯”光子撕裂者
-        }        
+            AquaticParasite2: 渊海寄生虫
+            AquaticSeekerBody2: 渊海追寻者
+            AquaticSeekerHead2: 渊海追寻者
+            AquaticSeekerTail2: 渊海追寻者
+            AresPulseCannon: XF-09“阿瑞斯”脉冲加农炮
+            BrainIllusion: 克苏鲁之脑
+            BrainIllusion2: 克苏鲁之脑
+            BuilderDroneBig: Big Builder Drone
+            BuilderDroneSmall: Small Builder Drone
+            CursedOrb: Cursed Flame Orb
+            DeusSpawn: Deus Spawn
+            EnergyOrb: Energy Orb
+            EtherealHand: Ethereal Hand
+            ExplodingServant: Exploding Servant
+            ExplosivePlagueCharger: Explosive Plague Charger
+            GolemArenaPlatform: ""
+            GolemFistLeft: 石巨人之拳
+            GolemFistRight: 石巨人之拳
+            LightSnuffingHand: Light Snuffing Shadow Hand
+            Ninja: 忍者
+            PhotonRipperNPC: XF-09“阿瑞斯”光子撕裂者
+            PlagueNuke: 瘟疫核弹
+            PlanteraPinkTentacle: Plantera Pink Tentacle
+            PolterghastLeg: Ghostly Leg
+            ProvArenaPlatform: ""
+            RedirectingBubble: Bubble
+            RedPlasmaEnergy: Plasma Orb
+            ShadowDemon: Shadow Demon
+            SmallDrone: Small Drone
+            SoulSeeker2: 探魂者
+            SplitBigSlime: Unstable Slime Spawn
+            SplitBigSlimeAnimation: Unstable Slime Spawn
+            UnworldlyEntity: Unworldly Entity
+        }
+		
+	BuffName: {
+			DarkFlames: 黑暗火焰
+            ElysianGrace: 极乐恩典
+            HatGirlBuff: 帽子女孩
+            Madness: 精神失常
+            RedSurge: 红色涌动
+            ShadowflameInferno: 暗影狱火
+		}
+		
+	BuffDescription: {
+			DarkFlames: Your body is consumed by a forsaken inferno. Your defense is lowered
+            ElysianGrace: 你拥有无限飞行时间
+            HatGirlBuff: Arson
+            Madness: 要疯了……
+            RedSurge: 你无法移动
+            ShadowflameInferno: 生命急速流失
+		}
+
+	MapObject: {
+			GolemArena: 战斗场地
+            MoonlordArena: 战斗场地
+		}      
     }
 }
