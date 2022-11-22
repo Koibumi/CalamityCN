@@ -1726,7 +1726,7 @@ namespace CalamityCN
                 {"ScorchedEarth", "焦土".zh()},
                 {"UniversalGenesis", "宇宙之源".zh()},
                 {"SearedPan", "焦锅".zh()},
-                {"Seraphim", "炽天使之匕".zh()},
+                {"Seraphim", "炽天使".zh()},
                 {"BabyFlakCrabItem", "小高口蟹".zh()},
                 {"BabyFlakCrabCage", "小高口蟹笼".zh()},
                 {"TheMaelstrom", "幽漩风暴" },
