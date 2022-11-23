@@ -1261,7 +1261,7 @@ namespace CalamityCN
                 {"ScarletDevil", "绯红恶魔".zh()},
                 {"ScourgeoftheDesert", "沙漠之灾".zh()},
                 {"ScourgeoftheSeas", "渊海之灾".zh()},
-                {"SeafoamBomb", "海泡石手雷".zh()},
+                {"SeafoamBomb", "海沫炸弹".zh()},
                 {"SeashellBoomerang", "鱼骨回旋镖".zh()},
                 {"ShatteredSun", "裂阳".zh()},
                 {"ShinobiBlade", "忍者之刃".zh()},
