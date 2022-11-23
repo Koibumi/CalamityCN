@@ -514,7 +514,7 @@ namespace CalamityCN
                 { "AstralJelly", "获得魔力再生及魔能增益".zh() },
                 { "Baguette", "{$CommonItemTooltip.MinorStats}\n增强红葡萄酒的效果\n[c/FCE391:我骑上去了！]".zh() },
                 { "BoundingPotion", "增加5%跳跃速度，额外25格坠落伤害保护并增加跳跃高度".zh() },
-                { "CadencePotion", "获得心率和谐增益\n增加生命再生速度和25%最大生命值\n增加红心拾取范围\n在此药水的效果持续时间内，生命力药水和拾心药水的增益效果将被覆盖".zh() },
+                { "CadencePotion", "获得心率和谐增益\n增加生命再生速度和25%最大生命值\n扩大红心拾取范围\n在此药水的效果持续时间内，再生药水和生命力药水的增益效果将被覆盖".zh() },
                 { "CalamitasBrew", "近战、鞭子和盗贼攻击会对敌人造成硫磺火减益".zh() },
                 { "CalciumPotion", "免疫摔落伤害".zh() },
                 { "CeaselessHungerPotion", "使你将全世界的物品吸入囊中".zh() },

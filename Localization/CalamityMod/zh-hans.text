@@ -1150,37 +1150,37 @@
       MonolithCandle: 星石蜡烛
       MonolithChair: 星石椅
       MonolithChandelier: 星石吊灯
-      MonolithChest: Monolith Chest
-      MonolithClock: Monolith Clock
-      MonolithDoor: Monolith Door
-      MonolithDresser: Monolith Dresser
-      MonolithLamp: Monolith Lamp
-      MonolithLantern: Monolith Lantern
-      MonolithPiano: Monolith Piano
-      MonolithPlatform: Monolith Platform
-      MonolithSink: Monolith Sink
-      MonolithTable: Monolith Table
-      MonolithWorkBench: Monolith Work Bench
-      OtherworldlyBathtub: Otherworldly Bathtub
-      OtherworldlyBed: Otherworldly Bed
-      OtherworldlyBookcase: Otherworldly Bookcase
-      OtherworldlyCandelabra: Otherworldly Candelabra
-      OtherworldlyCandle: Otherworldly Candle
-      OtherworldlyChair: Otherworldly Chair
-      OtherworldlyChandelier: Otherworldly Chandelier
-      OtherworldlyChest: Otherworldly Chest
-      OtherworldlyClock: Otherworldly Clock
-      OtherworldlyDoor: Otherworldly Door
-      OtherworldlyDresser: Otherworldly Dresser
-      OtherworldlyLamp: Otherworldly Lamp
-      OtherworldlyLantern: Otherworldly Lantern
-      OtherworldlyPiano: Otherworldly Piano
-      OtherworldlyPlatform: Otherworldly Platform
-      OtherworldlySink: Otherworldly Sink
-      OtherworldlySofa: Otherworldly Sofa
-      OtherworldlyStone: Otherworldly Stone
-      OtherworldlyTable: Otherworldly Table
-      OtherworldlyWorkBench: Otherworldly Work Bench
+      MonolithChest: 星石箱
+      MonolithClock: 星石钟
+      MonolithDoor: 星石门
+      MonolithDresser: 星石梳妆台
+      MonolithLamp: 星石灯
+      MonolithLantern: 星石灯笼
+      MonolithPiano: 星石钢琴
+      MonolithPlatform: 星石平台
+      MonolithSink: 星石水槽
+      MonolithTable: 星石桌
+      MonolithWorkBench: 星石工作台
+      OtherworldlyBathtub: 异域浴缸
+      OtherworldlyBed: 异域床
+      OtherworldlyBookcase: 异域书架
+      OtherworldlyCandelabra: 异域烛台
+      OtherworldlyCandle: 异域蜡烛
+      OtherworldlyChair: 异域椅
+      OtherworldlyChandelier: 异域烛台
+      OtherworldlyChest: 异域箱
+      OtherworldlyClock: 异域钟
+      OtherworldlyDoor: 异域门
+      OtherworldlyDresser: 异域梳妆台
+      OtherworldlyLamp: 异域灯
+      OtherworldlyLantern: 异域灯笼
+      OtherworldlyPiano: 异域钢琴
+      OtherworldlyPlatform: 异域平台
+      OtherworldlySink: 异域水槽
+      OtherworldlySofa: 异域沙发
+      OtherworldlyStone: 异域石
+      OtherworldlyTable: 异域桌
+      OtherworldlyWorkBench: 异域工作台
       BrokenPlaguedBed: Broken Plagued 'Bed'
       PlaguedContainmentBrick: Plagued Containment Brick
       PlaguedPlateBathtub: Plagued Bathtub
