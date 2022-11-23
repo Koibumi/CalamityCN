@@ -899,10 +899,10 @@
       ProfanedGuardiansRelic: 亵渎守卫圣物
       ProvidenceRelic: 亵渎天神圣物
       RavagerRelic: 毁灭魔像圣物
-      SignusRelic: 神之使徒西格纳斯圣物
+      SignusRelic: 西格纳斯圣物
       SlimeGodRelic: 史莱姆之神圣物
       StormWeaverRelic: 风暴编织者圣物
-      YharonRelic: 丛林龙，犽戎圣物
+      YharonRelic: 犽戎圣物
       ChaosCandle: 混乱蜡烛
       CorruptionEffigy: 腐化雕像
       AltarOfTheAccursedItem: 诅咒祭坛
@@ -920,83 +920,83 @@
       VoidCondenser: 虚空压缩机
       CrimsonEffigy: 血腥雕像
       ThankYouPainting: Thank You
-      EffigyOfDecay: Effigy of Decay
-      AbyssFountainItem: Abyss Water Fountain
-      AstralFountainItem: Astral Water Fountain
-      SulphurousFountainItem: Sulphuric Water Fountain
-      SunkenSeaFountain: Sunken Water Fountain
-      PiggyCage: Piggy Cage
-      ResilientCandle: Resilient Candle
-      RustyChest: Rusty Chest
-      SeaMinnowJar: Sea Minnow Jar
-      SpitefulCandle: Spiteful Candle
-      ThaumaticChair: Thaumatic Chair
-      TranquilityCandle: Tranquility Candle
-      AnahitaTrophy: Anahita Trophy
-      ApolloTrophy: Apollo Trophy
-      AquaticScourgeTrophy: Aquatic Scourge Trophy
-      AresTrophy: Ares Trophy
-      ArtemisTrophy: Artemis Trophy
-      AstrumAureusTrophy: Astrum Aureus Trophy
-      AstrumDeusTrophy: Astrum Deus Trophy
-      BrimstoneElementalTrophy: Brimstone Elemental Trophy
-      CalamitasTrophy: Calamitas Trophy
-      CataclysmTrophy: Cataclysm Trophy
-      CatastropheTrophy: Catastrophe Trophy
-      CeaselessVoidTrophy: Ceaseless Void Trophy
-      CrabulonTrophy: Crabulon Trophy
-      CragmawMireTrophy: Cragmaw Mire Trophy
-      CryogenTrophy: Cryogen Trophy
-      DesertScourgeTrophy: Desert Scourge Trophy
-      DevourerofGodsTrophy: Devourer of Gods Trophy
-      DragonfollyTrophy: Dragonfolly Trophy
-      GiantClamTrophy: Giant Clam Trophy
-      GreatSandSharkTrophy: Great Sand Shark Trophy
-      HiveMindTrophy: Hive Mind Trophy
-      LeviathanTrophy: Leviathan Trophy
-      MaulerTrophy: Mauler Trophy
-      NuclearTerrorTrophy: Nuclear Terror Trophy
-      OldDukeTrophy: Old Duke Trophy
-      PerforatorTrophy: Perforator Trophy
-      PlaguebringerGoliathTrophy: Plaguebringer Goliath Trophy
-      PolterghastTrophy: Polterghast Trophy
-      ProfanedGuardianTrophy: Profaned Guardian Trophy
-      ProvidenceTrophy: Providence Trophy
-      RavagerTrophy: Ravager Trophy
-      SignusTrophy: Signus Trophy
-      SlimeGodTrophy: Slime God Trophy
-      SupremeCalamitasTrophy: Supreme Calamitas Trophy
-      SupremeCataclysmTrophy: Supreme Cataclysm Trophy
-      SupremeCatastropheTrophy: Supreme Catastrophe Trophy
-      ThanatosTrophy: Thanatos Trophy
-      WeaverTrophy: Storm Weaver Trophy
-      YharonTrophy: Yharon Trophy
-      TwinklerInABottle: Twinkler in a Bottle
-      VigorousCandle: Vigorous Candle
-      WeightlessCandle: Weightless Candle
-      WulfrumLureItem: Wulfrum Lure
-      AbyssBathtub: Abyss Bathtub
-      AbyssBed: Abyss Bed
-      AbyssBookcase: Abyss Bookcase
-      AbyssCandelabra: Abyss Candelabra
-      AbyssCandle: Abyss Candle
-      AbyssChair: Abyss Chair
-      AbyssChandelier: Abyss Chandelier
-      AbyssChest: Abyss Chest
-      AbyssClock: Abyss Clock
-      AbyssDoor: Abyss Door
-      AbyssDresser: Abyss Dresser
-      AbyssLamp: Abyss Lamp
-      AbyssLantern: Abyss Lantern
-      AbyssSink: Abyss Sink
-      AbyssSofa: Abyss Sofa
+      EffigyOfDecay: 腐朽雕像
+      AbyssFountainItem: 深渊喷泉
+      AstralFountainItem: 星辉喷泉
+      SulphurousFountainItem: 硫磺喷泉
+      SunkenSeaFountain: 沉沦喷泉
+      PiggyCage: 猪猪笼
+      ResilientCandle: 恢复蜡烛
+      RustyChest: 锈蚀箱
+      SeaMinnowJar: 海洋米诺鱼缸
+      SpitefulCandle: 恶念蜡烛
+      ThaumaticChair: 奇迹之椅
+      TranquilityCandle: 宁静蜡烛
+      AnahitaTrophy: 阿娜希塔纪念章
+      ApolloTrophy: 阿波罗纪念章
+      AquaticScourgeTrophy: 渊海灾虫纪念章
+      AresTrophy: 阿瑞斯纪念章
+      ArtemisTrophy: 阿尔忒弥斯纪念章
+      AstrumAureusTrophy: 白金星舰纪念章
+      AstrumDeusTrophy: 星神游龙纪念章
+      BrimstoneElementalTrophy: 硫磺火元素纪念章
+      CalamitasTrophy: 灾厄纪念章
+      CataclysmTrophy: 灾祸纪念章
+      CatastropheTrophy: 灾难纪念章
+      CeaselessVoidTrophy: 无尽虚空纪念章
+      CrabulonTrophy: 菌生蟹纪念章
+      CragmawMireTrophy: 峭咽潭纪念章
+      CryogenTrophy: 极地之灵纪念章
+      DesertScourgeTrophy: 荒漠灾虫纪念章
+      DevourerofGodsTrophy: 神明吞噬者纪念章
+      DragonfollyTrophy: 痴愚金龙纪念章
+      GiantClamTrophy: 巨像蛤纪念章
+      GreatSandSharkTrophy: 旱海狂鲨纪念章
+      HiveMindTrophy: 腐巢意志纪念章
+      LeviathanTrophy: 利维坦纪念章
+      MaulerTrophy: 渊海狂鲨纪念章
+      NuclearTerrorTrophy: 辐核骇兽纪念章
+      OldDukeTrophy: 硫海遗爵纪念章
+      PerforatorTrophy: 血肉宿主纪念章
+      PlaguebringerGoliathTrophy: 瘟疫使者歌莉娅纪念章
+      PolterghastTrophy: 噬魂幽花纪念章
+      ProfanedGuardianTrophy: 亵渎守卫纪念章
+      ProvidenceTrophy: 亵渎天神纪念章
+      RavagerTrophy: 毁灭魔像纪念章
+      SignusTrophy: 西格纳斯纪念章
+      SlimeGodTrophy: 史莱姆之神纪念章
+      SupremeCalamitasTrophy: 至尊灾厄纪念章
+      SupremeCataclysmTrophy: 至尊灾祸纪念章
+      SupremeCatastropheTrophy: 至尊灾难纪念章
+      ThanatosTrophy: 塔纳托斯纪念章
+      WeaverTrophy: 风暴编织者纪念章
+      YharonTrophy: 犽戎纪念章
+      TwinklerInABottle: 星幻萤火虫瓶
+      VigorousCandle: 活力蜡烛
+      WeightlessCandle: 失重蜡烛
+      WulfrumLureItem: 钨钢诱扰器
+      AbyssBathtub: 深渊浴缸
+      AbyssBed: 深渊床
+      AbyssBookcase: 深渊书架
+      AbyssCandelabra: 深渊烛台
+      AbyssCandle: 深渊蜡烛
+      AbyssChair: 深渊椅
+      AbyssChandelier: 深渊吊灯
+      AbyssChest: 深渊箱
+      AbyssClock: 深渊钟
+      AbyssDoor: 深渊门
+      AbyssDresser: 深渊梳妆台
+      AbyssLamp: 深渊灯
+      AbyssLantern: 深渊灯笼
+      AbyssSink: 深渊水槽
+      AbyssSofa: 深渊沙发
       AbyssSynth: Abyss Synth
-      AbyssTable: Abyss Table
-      AbyssTorch: Abyss Torch
-      AbyssWorkBench: Abyss Work Bench
-      SmoothAbyssGravel: Smooth Abyss Gravel
-      SmoothAbyssGravelPlatform: Smooth Abyss Gravel Platform
-      AcidwoodBathtub: Acidwood Bathtub
+      AbyssTable: 深渊桌
+      AbyssTorch: 深渊火把
+      AbyssWorkBench: 深渊工作台
+      SmoothAbyssGravel: 平滑深渊石
+      SmoothAbyssGravelPlatform: 平滑深渊砾石平台
+      AcidwoodBathtub: 酸腐木浴缸
       AcidwoodBed: Acidwood Bed
       AcidwoodBench: Acidwood Bench
       AcidwoodBookcase: Acidwood Bookcase
