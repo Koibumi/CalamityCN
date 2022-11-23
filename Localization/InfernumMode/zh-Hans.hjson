@@ -1,181 +1,736 @@
-﻿Mods: {
-InfernumMode: {
-
-    InfernumText: "祝你好运。",
-    InfernumText2: "那好吧。",
-
-    UI: {
-            NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
-        }
-
-    ModBiome: {
-            ProfanedTempleBiome: 亵渎神庙
-        }
-
-    ItemName: {
-            BlastedTophat: 该死的礼帽
-            BloodwormPlatter: 血蠕虫拼盘
-            DungeonsCurse: 地牢厄咒
-            FleshChunk: 血肉碎块
-            LeviathanDetector: 利维坦探测器
-            ProfanedFountainItem: 亵渎岩浆喷泉
-            RadiantCrystal: 辐彩棱晶
-            SparklingTunaCan: 闪光软体生物罐头
-            DemonicChaliceOfInfernum: 炼狱圣杯
-            AquaticScourgeRelic: 渊海灾虫孽狱圣物
-            AstrumAureusRelic: 白金星舰孽狱圣物
-            AstrumDeusRelic: 星神游龙孽狱圣物
-            BrimstoneElementalRelic: 硫磺火元素孽狱圣物
-            CalamitasCloneRelic: 灾厄孽狱圣物
-            CeaselessVoidRelic: 无尽虚空孽狱圣物
-            CrabulonRelic: 菌生蟹孽狱圣物
-            CragmawMireRelic: 峭咽潭孽狱圣物
-            CryogenRelic: 极地之灵孽狱圣物
-            DesertScourgeRelic: 荒漠灾虫孽狱圣物
-            DevourerOfGodsRelic: 神明吞噬者孽狱圣物
-            DraedonRelic: 嘉登孽狱圣物
-            DragonfollyRelic: 痴愚金龙孽狱圣物
-            GiantClamRelic: 巨像蛤孽狱圣物
-            GreatSandSharkRelic: 旱海狂鲨孽狱圣物
-            HiveMindRelic: 腐巢意志孽狱圣物
-            LeviathanRelic: 利维坦孽狱圣物
-            MaulerRelic: 渊海狂鲨孽狱圣物
-            NuclearTerrorRelic: 辐射骇兽孽狱圣物
-            OldDukeRelic: 硫海遗爵孽狱圣物
-            PerforatorsRelic: 血肉宿主圣物
-            PlaguebringerGoliathRelic: 瘟疫使者歌莉娅圣物
-            PolterghastRelic: 噬魂幽花孽狱圣物
-            ProfanedGuardiansRelic: 亵渎守卫孽狱圣物
-            ProvidenceRelic: 亵渎天神孽狱圣物
-            RavagerRelic: 毁灭魔像孽狱圣物
-            SignusRelic: 神之使徒西格纳斯孽狱圣物
-            SlimeGodRelic: 史莱姆之神孽狱圣物
-            StormWeaverRelic: 风暴编织者孽狱圣物
-            SupremeCalamitasRelic: 至尊灾厄孽狱圣物
-            YharonRelic: 丛林龙，犽戎孽狱圣物
-            BetsyRelic: 双足翼龙孽狱圣物
-            BrainOfCthulhuRelic: 克苏鲁之脑孽狱圣物
-            DarkMageRelic: 暗黑魔法师孽狱圣物
-            DeerclopsRelic: 独眼巨鹿孽狱圣物
-            DestroyerRelic: 毁灭者孽狱圣物
-            DreadnautilusRelic: 恐惧鹦鹉螺孽狱圣物
-            DukeFishronRelic: 猪龙鱼公爵孽狱圣物
-            EaterOfWorldsRelic: 世界吞噬怪孽狱圣物
-            EmpressOfLightRelic: 光之女皇孽狱圣物
-            EyeOfCthulhuRelic: 克苏鲁之眼孽狱圣物
-            GolemRelic: 石巨人孽狱圣物
-            KingSlimeRelic: 史莱姆王孽狱圣物
-            LunaticCultistRelic: 拜月教邪教徒孽狱圣物
-            MoonLordRelic: 月亮领主孽狱圣物
-            OgreRelic: 食人魔孽狱圣物
-            PlanteraRelic: 世纪之花孽狱圣物
-            QueenBeeRelic: 蜂王孽狱圣物
-            QueenSlimeRelic: 史莱姆皇后孽狱圣物
-            SkeletronPrimeRelic: 机械骷髅王孽狱圣物
-            SkeletronRelic: 骷髅王孽狱圣物
-            TwinsRelic: 双子魔眼孽狱圣物
-            WallOfFleshRelic: 血肉墙孽狱圣物
-        }
-
-    ItemTooltip: {
-            BlastedTophat: 召唤一个带着帽子的小女孩在你与Boss战斗时给予建议？
-            BloodwormPlatter:
-            '''
-            召唤硫海遗爵
-            只能在硫磺海使用
-            不消耗
-            '''
-            DungeonsCurse:
-            '''
-            召唤骷髅王
-            骷髅王在白天狂暴
-            如果在白天使用会变成晚上
-            不消耗
-            '''
-            FleshChunk:
-            '''
-            召唤肉山
-            只能在地狱使用
-            不消耗
-            '''
-            LeviathanDetector:
-            '''
-            召唤阿娜希塔
-            在任意海边使用
-            不消耗
-            '''
-            RadiantCrystal:
-            '''
-            召唤光之女皇
-            不需要在神圣地使用
-            光之女皇在白天狂暴
-            不消耗
-            '''
-            SparklingTunaCan:
-            '''
-            召唤巨像蛤
-            只能在沉沦海使用
-            不消耗
-            '''
-        }
-        
-    NPCName: {
-            AquaticParasite2: 渊海寄生虫
-            AquaticSeekerBody2: 渊海追寻者
-            AquaticSeekerHead2: 渊海追寻者
-            AquaticSeekerTail2: 渊海追寻者
-            AresPulseCannon: XF-09“阿瑞斯”脉冲加农炮
-            BrainIllusion: 克苏鲁之脑
-            BrainIllusion2: 克苏鲁之脑
-            BuilderDroneBig: Big Builder Drone
-            BuilderDroneSmall: Small Builder Drone
-            CursedOrb: Cursed Flame Orb
-            DeusSpawn: Deus Spawn
-            EnergyOrb: Energy Orb
-            EtherealHand: Ethereal Hand
-            ExplodingServant: Exploding Servant
-            ExplosivePlagueCharger: Explosive Plague Charger
-            GolemArenaPlatform: ""
-            GolemFistLeft: 石巨人之拳
-            GolemFistRight: 石巨人之拳
-            LightSnuffingHand: Light Snuffing Shadow Hand
-            Ninja: 忍者
-            PhotonRipperNPC: XF-09“阿瑞斯”光子撕裂者
-            PlagueNuke: 瘟疫核弹
-            PlanteraPinkTentacle: Plantera Pink Tentacle
-            PolterghastLeg: Ghostly Leg
-            ProvArenaPlatform: ""
-            RedirectingBubble: Bubble
-            RedPlasmaEnergy: Plasma Orb
-            ShadowDemon: Shadow Demon
-            SmallDrone: Small Drone
-            SoulSeeker2: 探魂者
-            SplitBigSlime: Unstable Slime Spawn
-            SplitBigSlimeAnimation: Unstable Slime Spawn
-            UnworldlyEntity: Unworldly Entity
-        }
-		
-	BuffName: {
-			DarkFlames: 黑暗火焰
-            ElysianGrace: 极乐恩典
-            HatGirlBuff: 帽子女孩
-            Madness: 精神失常
-            RedSurge: 红色涌动
-            ShadowflameInferno: 暗影狱火
-		}
-		
-	BuffDescription: {
-			DarkFlames: Your body is consumed by a forsaken inferno. Your defense is lowered
-            ElysianGrace: 你拥有无限飞行时间
-            HatGirlBuff: Arson
-            Madness: 要疯了……
-            RedSurge: 你无法移动
-            ShadowflameInferno: 生命急速流失
-		}
-
-	MapObject: {
-			GolemArena: 战斗场地
-            MoonlordArena: 战斗场地
-		}      
+﻿Mods:
+{
+  InfernumMode:
+  {
+    ItemName:
+    {
+      DemonicChaliceOfInfernum: 炼狱圣杯
+      BlastedTophat: 该死的礼帽
+      BloodwormPlatter: 血蠕虫拼盘
+      DungeonsCurse: 地牢厄咒
+      FleshChunk: 血肉碎块
+      LeviathanDetector: 利维坦探测器
+      ProfanedFountainItem: 亵渎岩浆喷泉
+      RadiantCrystal: 辐彩棱晶
+      AquaticScourgeRelic: 渊海灾虫孽狱圣物
+      AstrumAureusRelic: 白金星舰孽狱圣物
+      AstrumDeusRelic: 星神游龙孽狱圣物
+      BetsyRelic: 双足翼龙孽狱圣物
+      BrainOfCthulhuRelic: 克苏鲁之脑孽狱圣物
+      BrimstoneElementalRelic: 硫磺火元素孽狱圣物
+      CalamitasCloneRelic: 灾厄孽狱圣物
+      CeaselessVoidRelic: 无尽虚空孽狱圣物
+      CrabulonRelic: 菌生蟹孽狱圣物
+      CryogenRelic: 极地之灵孽狱圣物
+      DarkMageRelic: 暗黑魔法师孽狱圣物
+      DeerclopsRelic: 独眼巨鹿孽狱圣物
+      DesertScourgeRelic: 荒漠灾虫孽狱圣物
+      DestroyerRelic: 毁灭者孽狱圣物
+      DevourerOfGodsRelic: 神明吞噬者孽狱圣物
+      DraedonRelic: 嘉登孽狱圣物
+      DragonfollyRelic: 痴愚金龙孽狱圣物
+      DreadnautilusRelic: 恐惧鹦鹉螺孽狱圣物
+      DukeFishronRelic: 猪龙鱼公爵孽狱圣物
+      EaterOfWorldsRelic: 世界吞噬怪孽狱圣物
+      EmpressOfLightRelic: 光之女皇孽狱圣物
+      EyeOfCthulhuRelic: 克苏鲁之眼孽狱圣物
+      GiantClamRelic: 巨像蛤孽狱圣物
+      GolemRelic: 石巨人孽狱圣物
+      HiveMindRelic: 腐巢意志孽狱圣物
+      KingSlimeRelic: 史莱姆王孽狱圣物
+      LeviathanRelic: 利维坦孽狱圣物
+      LunaticCultistRelic: 拜月教邪教徒孽狱圣物
+      MoonLordRelic: 月亮领主孽狱圣物
+      OgreRelic: 食人魔孽狱圣物
+      OldDukeRelic: 硫海遗爵孽狱圣物
+      PerforatorsRelic: 血肉宿主孽狱圣物
+      PlaguebringerGoliathRelic: 瘟疫使者歌莉娅孽狱圣物
+      PlanteraRelic: 世纪之花孽狱圣物
+      PolterghastRelic: 噬魂幽花孽狱圣物
+      ProfanedGuardiansRelic: 亵渎守卫孽狱圣物
+      ProvidenceRelic: 亵渎天神孽狱圣物
+      QueenBeeRelic: 蜂王孽狱圣物
+      QueenSlimeRelic: 史莱姆皇后孽狱圣物
+      RavagerRelic: 毁灭魔像孽狱圣物
+      SignusRelic: 神之使徒西格纳斯孽狱圣物
+      SkeletronPrimeRelic: 机械骷髅王孽狱圣物
+      SkeletronRelic: 骷髅王孽狱圣物
+      SlimeGodRelic: 史莱姆之神孽狱圣物
+      StormWeaverRelic: 风暴编织者孽狱圣物
+      SupremeCalamitasRelic: 至尊灾厄孽狱圣物
+      TwinsRelic: 双子魔眼孽狱圣物
+      WallOfFleshRelic: 血肉墙孽狱圣物
+      YharonRelic: 丛林龙，犽戎孽狱圣物
+      SparklingTunaCan: 闪光软体生物罐头
     }
+    ItemTooltip:
+    {
+      DemonicChaliceOfInfernum: ""
+      BlastedTophat: Summons a small hat girl that gives you advice about bosses that you fight
+      BloodwormPlatter:
+        '''
+        Summons the Old Duke
+        Can only be used in the Sulphurous Sea
+        Not consumable
+        '''
+      DungeonsCurse:
+        '''
+        Summons Skeletron
+        Skeletron enrages during daytime
+        It becomes nighttime if this item is used during daytime
+        Not consumable
+        '''
+      FleshChunk:
+        '''
+        Summons the Wall of Flesh
+        Can only be used in the underworld
+        Not consumable
+        '''
+      LeviathanDetector:
+        '''
+        Summons Anahita
+        Does not need to be used at the ocean
+        Not consumable
+        '''
+      ProfanedFountainItem: ""
+      RadiantCrystal:
+        '''
+        Summons the Empress of Light
+        Does not need to be used in the Hallow
+        The Empress enrages during daytime
+        Not consumable
+        '''
+      AquaticScourgeRelic: GetsChanged
+      AstrumAureusRelic: GetsChanged
+      AstrumDeusRelic: GetsChanged
+      BetsyRelic: GetsChanged
+      BrainOfCthulhuRelic: GetsChanged
+      BrimstoneElementalRelic: GetsChanged
+      CalamitasCloneRelic: GetsChanged
+      CeaselessVoidRelic: GetsChanged
+      CrabulonRelic: GetsChanged
+      CryogenRelic: GetsChanged
+      DarkMageRelic: GetsChanged
+      DeerclopsRelic: GetsChanged
+      DesertScourgeRelic: GetsChanged
+      DestroyerRelic: GetsChanged
+      DevourerOfGodsRelic: GetsChanged
+      DraedonRelic: GetsChanged
+      DragonfollyRelic: GetsChanged
+      DreadnautilusRelic: GetsChanged
+      DukeFishronRelic: GetsChanged
+      EaterOfWorldsRelic: GetsChanged
+      EmpressOfLightRelic: GetsChanged
+      EyeOfCthulhuRelic: GetsChanged
+      GiantClamRelic: GetsChanged
+      GolemRelic: GetsChanged
+      HiveMindRelic: GetsChanged
+      KingSlimeRelic: GetsChanged
+      LeviathanRelic: GetsChanged
+      LunaticCultistRelic: GetsChanged
+      MoonLordRelic: GetsChanged
+      OgreRelic: GetsChanged
+      OldDukeRelic: GetsChanged
+      PerforatorsRelic: GetsChanged
+      PlaguebringerGoliathRelic: GetsChanged
+      PlanteraRelic: GetsChanged
+      PolterghastRelic: GetsChanged
+      ProfanedGuardiansRelic: GetsChanged
+      ProvidenceRelic: GetsChanged
+      QueenBeeRelic: GetsChanged
+      QueenSlimeRelic: GetsChanged
+      RavagerRelic: GetsChanged
+      SignusRelic: GetsChanged
+      SkeletronPrimeRelic: GetsChanged
+      SkeletronRelic: GetsChanged
+      SlimeGodRelic: GetsChanged
+      StormWeaverRelic: GetsChanged
+      SupremeCalamitasRelic: GetsChanged
+      TwinsRelic: GetsChanged
+      WallOfFleshRelic: GetsChanged
+      YharonRelic: GetsChanged
+      SparklingTunaCan:
+        '''
+        Summons the Giant Clam
+        Can only be used in the sunken sea
+        Not consumable
+        '''
+    }
+    ProjectileName:
+    {
+      SlowerSandTooth: Sand Tooth
+      SulphurousPoisonCloud: Toxic Cloud
+      AstralBlueComet: Astral Comet
+      AstralMissile: Astral Missile
+      BlueLaserbeam: Astral Deathray
+      MissileTelegraphLine: Telegraph
+      OrangeLaserbeam: Astral Deathray
+      AstralBlackHole: Astral Black Hole
+      AstralConstellation: Star
+      AstralCrystal: Astral Crystal
+      AstralFlame2: Astral Flame
+      AstralPlasmaFireball: Astral Plasma Flame
+      AstralPlasmaSpark: Astral Plasma Spark
+      AstralRubble: Astral Rubble
+      AstralSparkle: Astral Sparkle
+      AstralTelegraphLine: Telegraph
+      AstralVortex: Consumed Vortex
+      DarkGodLaser: Antimatter Deathray
+      DarkStar: Dark Star
+      InfectionGlob: Infection Glob
+      MassiveInfectedStar: Consumed Star
+      BloodGeyser2: Ichor Geyser
+      IchorSpit: Ichor
+      PsionicLightningBolt: Psionic Lightning Bolt
+      PsionicOrb: Psychic Energy
+      BrimstoneDeathray: Brimstone Deathray
+      BrimstoneFireball: Brimstone Flame
+      BrimstonePetal: Brimstone Petal
+      BrimstonePetal2: Brimstone Petal
+      BrimstoneRose: Brimstone Rose
+      BrimstoneSkull: Brimstone Skull
+      BrimstoneTelegraphRay: Brimstone Deathray
+      HomingBrimstoneSkull: Brimstone Hellblast
+      AdjustingCinder: Brimstone Dart
+      BrimstoneBomb: Brimstone Bomb
+      BrimstoneBurst: Brimstone Flame
+      BrimstoneBurstTelegraph: Telegraph
+      BrimstoneGeyser: Brimstone Lava
+      BrimstoneMeteor: Brimstone Meteor
+      ExplodingBrimstoneFireball: Brimstone Bomb
+      HomingBrimstoneBurst: Brimstone Flame
+      RisingBrimstoneFireball: Brimstone Bomb
+      AllConsumingBlackHole: All-Consuming Black Hole
+      CelestialBarrage: Otherwordly Bolt
+      ConvergingCelestialBarrage: Otherwordly Bolt
+      DarkEnergyBolt: Dark Energy Bolt
+      DarkEnergyBulletHellProj: Dark Energy
+      EnergyTelegraph: Dark Energy Shard
+      RealitySlice: Reality Tear
+      RealityTear: Reality Tear
+      SpiralEnergyLaser: Energy Laser
+      HomingSpore: Spore
+      MushroomPillar: Mushroom Column
+      SporeCloud: Spore Gas
+      AimedIcicleSpike: Icicle Spike
+      AuroraSpirit: Aurora Spirit
+      AuroraSpirit2: Aurora Spirit
+      IceBomb2: Ice Bomb
+      IcePillar: Ice Pillar
+      IceRain2: Ice Rain
+      IcicleSpike: Icicle Spike
+      AncientDoom: Doomer
+      CultistFireBeamTelegraph: Telegraph
+      CultistRitual: Ritual
+      DarkBolt: Dark Bolt
+      DarkBoltLarge: Dark Bolt
+      DarkPulse: Dark Pulse
+      DeathExplosion: Explosion
+      DoomBeam: Death Beam
+      FireballLineTelegraph: Telegraph
+      FireBeam: Flame Beam
+      IceMass: Ice Mass
+      IceShard: Ice Shard
+      LightBeam: Beam
+      LightBurst: Light Burst
+      NebulaTelegraphLine: Telegraph
+      PinkLightning: Nebulous Lightning
+      TeleportTelegraph: Telegraph
+      AcceleratingShadowHand: Shadow Hand
+      ArenaIcicle: Long Icicle
+      DeerclopsEyeLaserbeam: Firebeam
+      DeerclopsP2Wave: Explosion
+      GroundIcicleSpike: Ice Spike
+      ShadowHandArena: Shadow Hand
+      SpinningShadowHand: Shadow Hand
+      Sandnado: Sand Tornado
+      SandstormBlast: Sand Blast
+      SandstormBlast2: Sand Blast
+      DestroyerBomb: Explosion
+      DestroyerPierceLaser: Laserbeam
+      DestroyerPierceLaserTelegraph: Telegraph
+      EnergyBlast2: Energy Blast
+      EnergySpark: Red Spark
+      EnergySpark2: Red Spark
+      AcceleratingDoGBurst: Death Fire
+      DoGChargeGate: Portal
+      DoGPhase2IntroPortalGate: Portal
+      DoGSpawnBoom: Explosion
+      EssenceSlice: Essence Slice
+      EssenceSliceTelegraphLine: Chain
+      RealityBreakPortalLaserWall: Portal
+      RoDFailPulse: Explosion
+      AresBeamExplosion: Exoburst Explosion
+      AresBeamTelegraph: Gamma Disintegration Beam Telegraph
+      AresCannonLaser: Exo Flame Laser
+      AresDeathBeamTelegraph: Exo Overload Telegraph
+      AresLaserDeathray: Laser Deathray
+      AresLaughBoom: Explosion
+      AresPlasmaFireball: Volatile Plasma Blast
+      AresPulseBlast: Exopulse Energy Burst
+      AresPulseDeathray: Pulse Deathray
+      AresSpinningDeathBeam: Exo Overload Beam
+      AresSpinningRedDeathray: Exothermal Disintegration Deathray
+      AresTeslaGasField: Electric Cloud
+      AresTeslaOrb: Tesla Sphere
+      AresTeslaSpark: Tesla Spark
+      ExoburstSpark: Exoburst Spark
+      PhotonRipperCrystal: Supercharged Exo Crystal
+      PlasmaGas: Plasma
+      SmallPlasmaSpark: Plasma Spark
+      ApolloAcceleratingPlasmaSpark: Plasma Spark
+      ApolloFallingPlasmaSpark: Plasma Spark
+      ApolloFlamethrower: Exoplasma Flamethrower
+      ApolloPlasmaFireball: Volatile Plasma Blast
+      ApolloRocketInfernum: High Explosive Plasma Rocket
+      ApolloTelegraphedPlasmaSpark: Plasma Bolt
+      ArtemisGasFireballBlast: Volatile Fireball Blast
+      ArtemisGatlingLaser: Exo Flame Laser
+      ArtemisLaser: Exo Flame Laser
+      ArtemisSpinLaser: Ohio Beam
+      ArtemisSweepLaserbeam: Ohio Beam
+      SuperheatedExofireGas: Superheated Fire
+      DetatchedThanatosLaser: Exo Flame Laser
+      ExolaserBomb: Exolaser Bomb
+      ExolaserSpark: Exolaser Spark
+      LightOverloadRay: Prismatic Overload Beam
+      LightRayTelegraph: Prismatic Light
+      OverloadBoom: Explosion
+      RefractionRotor: Refraction Rotor
+      ThanatosAresComboLaser: Exo Flame Laser
+      ThanatosLaser: Exo Flame Laser
+      BigFollyFeather: Feather
+      BirbThunderAuraFlare: Draconic Aura Flare
+      ExplodingEnergyOrb: Plasma Orb
+      FollyFeather: Feather
+      LightningCloud: Lightning
+      LightningCloud2: Lightning
+      LightningSuperchargeTelegraph: Charge Telegraph
+      RedLightningRedirectingFeather: Lightning Feather
+      RedLightningSnipeFeather: Lightning Feather
+      RedSpark: Lightning Feather
+      VolatileLightning: Lightning Cloud
+      BloodBolt: Blood Bolt
+      BloodShot2: Blood
+      GoreSpike: Spike
+      GoreSpitBall: Gore Spit Ball
+      SanguineBat: Sanguine Bat
+      ChargeTyphoon: Typhoon
+      SharkSummoner: Summon Thing
+      SmallWave: Wave
+      TidalWave: Tidal Wave
+      Tornado: Tornado
+      TyphoonBlade: Typhoon Blade
+      AcceleratingPrismaticBolt: Prismatic Bolt
+      EmpressAurora: Aurora
+      EmpressExplosion: Explosion
+      EmpressPrism: Prism
+      EmpressSparkle: Majestic Sparkle
+      EmpressSword: Empress Blade
+      EtherealLance: Ethereal Lance
+      LightBolt: Light Bolt
+      LightOrb: Light Orb
+      LightOverloadBeam: Prismatic Overload Ray
+      PrismaticBolt: Prismatic Bolt
+      PrismLaserbeam: Prismatic Ray
+      ShimmeringLightWave: Explosion
+      SpinningPrismLaserbeam: Prismatic Ray
+      CorruptThorn: Corrupt Thorn
+      CursedBullet: Cursed Shot
+      CursedFlameBomb: Cursed Flame Bomb
+      ShadowOrb: Shadow Orb
+      BloodShot: Blood
+      EoCTooth: Tooth
+      EoCTooth2: Tooth
+      SittingBlood: Tooth Ball
+      FistBullet: Fist Bullet
+      FistBulletTelegraph: Telegraph
+      GolemEyeLaserRay: Heat Ray
+      GroundFireCrystal: Fire Crystal
+      SpikeTrap: Spike Trap
+      StationarySpikeTrap: Spike Trap
+      ThermalDeathray: Thermal Deathray
+      SandFlameBall: Sand Ball
+      BlobProjectile: Hive Blob
+      EaterOfSouls: Eater of Souls
+      HiveMindMirage: Hive Mind Mirage
+      HiveMindWave: Explosion
+      ShadeFire: Fire
+      ShadeFireColumn: Fire
+      JewelBeam: Beam
+      Shuriken: Shuriken
+      AnahitaWaterIllusion: Anahita Illusion
+      AquaticAberrationProj: Aquatic Aberration
+      AtlantisSpear: Atlantis Spear
+      AtlantisSpear2: Atlantis Spear
+      HeavenlyLullaby: Heavenly Lullaby
+      LeviathanMeteor: Leviathan Meteor
+      LeviathanSpawner: Water
+      LeviathanSpawnWave: Wave
+      LeviathanVomit: Leviathan Vomit
+      RedirectingWaterBolt: Water Spear
+      WaterBolt: Water Spear
+      LunarAsteroid: Lunar Flame
+      LunarFireball: Lunar Flame
+      LunarFlare: Phantasmal Flare
+      LunarFlareTelegraph: Telegraph
+      MoonLordDeathAnimationHandler: Death Animation
+      MoonLordDeathBloodBlob: Ichor Blob
+      MoonLordExplosion: Explosion
+      MoonLordExplosionCinder: Cinder
+      MoonLordWave: Explosion
+      NebulaCloud: Nebula
+      NebulaVortex: Vortex
+      NonHomingPhantasmalEye: Phantasmal Eye
+      PhantasmalDeathray: Phantasmal Deathray
+      PhantasmalOrb: Phantasmal Orb
+      PressurePhantasmalDeathray: Phantasmal Deathray
+      StardustConstellation: Star
+      TrueEyeChargeTelegraph: Charge Telegraph
+      VoidBlackHole: Void
+      AcidFountainBubble: Acid Bubble
+      HomingAcid: Acid
+      OldDukeTooth: Rotten Tooth
+      SharkSummonVortex: Sulphurous Vortex
+      SulphuricBlob: Sulphuric Blob
+      BloodGlob: Blood Glob
+      Crimera: Crimera
+      FallingIchor: Ichor
+      FallingIchorBlast: Ichor Blob
+      FlyingIchor: Ichor
+      IchorBlast: Ichor Blast
+      IchorBolt: Ichor Spit
+      PerforatorWave: Explosion
+      ToothBall: Tooth Ball
+      BombingTelegraph: Telegraph
+      HostilePlagueSeeker: Plague Seeker
+      LargePlagueExplosion: Explosion
+      PlagueCloud: Plague Cloud
+      PlagueDeathray: Plague Ray
+      PlagueMissile: Missile
+      PlagueMissile2: Missile
+      PlagueNuclearExplosion: Explosion
+      PlagueVomit: Plague Vomit
+      PlagueWave: Shockwave
+      RedirectingPlagueMissile: Missile
+      BouncingPetal: Petal
+      ExplodingFlower: Flower
+      NettlevineArenaSeparator: Nettlevine
+      Petal: Petal
+      SporeFlower: Flower
+      SporeGas: Spore Gas
+      ArcingSoul: Soul
+      CirclingEctoplasm: Ectoplasm Wisp
+      EctoplasmShot: Ectoplasm Blast
+      GhostlyVortex: Phantoplasm Vortex
+      Light: Light
+      NonReturningSoul: Soul
+      NotSpecialSoul: Soul
+      PolterghastWave: Shockwave
+      SoulTelegraphLine: Telegraph
+      SpinningSoul: Soul
+      WavySoul: Soul
+      LaserBolt: Laser Bolt
+      LaserRayIdle: Deathray
+      LightningStrike: Lightning
+      MetallicSpike: Metal Spike
+      NuclearExplosion: Explosion
+      NukeSmoke: Smoke
+      PrimeEyeLaserRay: Deathray
+      PrimeNuke: Nuke
+      PrimeShield: Shield
+      SmallElectricGasGloud: Electric Cloud
+      TeslaBomb: Tesla Bomb
+      AimedDeathray: Deathray
+      LightningTelegraph: Telegraph Ray
+      MagicCrystalShot: Crystalline Light
+      ProfanedField: Profaned Defender Field
+      ProfanedSpearInfernum: Profaned Spear
+      AcceleratingCrystalShard: Holy Crystal Shard
+      BouncingCrystalBlade: Holy Crystal Blade
+      CrystalPillar: Crystal Spike
+      CrystalTelegraphLine: Telegraph
+      DyingSun: Dying Sun
+      FallingCrystalShard: Holy Crystal Shard
+      GroundCrystalSpike: Crystal Spike
+      HolyBomb: Holy Bomb
+      HolyCinder: Holy Cinder
+      HolyFireBeam: Holy Fire Beam
+      HolySunExplosion: Holy Explosion
+      MoltenBlast: Molten Blast
+      MoltenFire: Molten Bolt
+      ProvBoomDeath: Boom
+      ProvidenceArenaBorder: Border
+      SwirlingFire: Fire
+      BeeWave: Shockwave
+      HoneyBlast: Honey Blast
+      HornetHive: Hive
+      TinyBee: Bee
+      AcceleratingGel: Accelerating Gel
+      CrownBeam: Beam
+      CrystalShard: Crystal Shard
+      FallingGel: Falling Gel
+      QueenSlimeCrown: Queen Slime's Crown
+      ShatteringCrystal: Royal Crystal
+      DarkFlamePillar: Dark Flame Pillar
+      DarkFlamePillarTelegraph: Telegraph
+      DarkMagicCinder: Dark Magic Cinder
+      DarkMagicFireball: Dark Magic Fireball
+      GroundBloodSpike: Blood Spike
+      GroundBloodSpikeCreator: Blood Spike Creator
+      RitualFlame: Blue Flame
+      SlammingRockPillar: Rock Pillar
+      StompShockwave: Shockwave
+      UnholyBloodGlob: Ungodly Blood
+      CosmicExplosion: Cosmic Explosion
+      CosmicKunai: Cosmic Kunai
+      CosmicMine: Cosmic Mine
+      DarkCosmicBomb: Cosmic Bomb
+      EldritchScythe: Scythe
+      ShadowDashTelegraph: Telegraph
+      ShadowSlash: Shadow Slash
+      VoidTentacle: Void Tentacle
+      AcceleratingSkull: Skull
+      NonHomingSkull: Skull
+      ShadowflameFireball: Shadowflame Bomb
+      SpinningFireball: Shadowflame Fireball
+      DeceleratingCrimulanGlob: Unstable Crimulan Glob
+      DeceleratingEbonianGlob: Unstable Ebonian Glob
+      EvilBolt: Evil Fire
+      GroundSlimeGlob: Unstable Slime Glob
+      ElectricOrb: Orb
+      HomingWeaverSpark: Spark
+      StormWeaveCloud: Cloud
+      WeaverSpark: Spark
+      WeaverSpark2: Spark
+      AcceleratingDarkMagicFlame: Dark Magic Flame
+      BrimstoneDemonSummonExplosion: Brimstone Explosion
+      BrimstoneFlameOrb: Brimstone Flame Orb
+      BrimstoneFlamePillar: Brimstone Flame Pillar
+      BrimstoneFlamePillarTelegraph: Telegraph
+      BrimstoneJewelProj: Brimstone Jewel
+      BrimstoneLaserbeam: Brimstone Deathray
+      CatastropheSlash: Resonance Slash
+      CondemnationArrowSCal: Dark Arrow
+      CondemnationProj: Condemnation
+      DemonicBomb: Demonic Bomb
+      DemonicExplosion: Demonic Explosion
+      DemonicTelegraphLine: Telegraph
+      FlameOverloadBeam: Brimstone Flame Overload Ray
+      HeartSummoningDagger: Sacrificial Dagger
+      HeresyProjSCal: Heresy
+      InfernumBrimstoneGigablast: Brimstone Gigablast
+      LostSoulProj: Burning Soul
+      RedirectingDarkSoul: Dark Soul
+      RedirectingHellfireSCal: Brimstone Hellfire
+      RedirectingLostSoulProj: Burning Soul
+      RitualBrimstoneHeart: Brimstone Heart
+      SepulcherBone: Occult Bone
+      SepulcherSoulBomb: Wrathful Spirits
+      ShadowBolt: Shadow Bolt
+      ShadowFlameBlast: Shadow Blast
+      ShadowGigablast: Shadow Gigablast
+      ShadowSpark: Shadow Spark
+      SuicideBomberDemonExplosion: Explosion
+      SuicideBomberDemonHostile: Demon
+      SuicideBomberRitual: Ritual
+      SupremeCalamitasBrotherPortal: Dark Portal
+      SCalSymbol: Alchemical Symbol
+      VigilanceProj: Vigilance
+      BigEnergyBlast: Blast
+      CursedBomb: Cursed Flame Bomb
+      CursedCinder: Cursed Cinder
+      CursedFlameBurst: Cursed Flame
+      CursedFlameBurstTelegraph: Telegraph
+      EnergyBlast: Blast
+      HomingCursedFlameBurst: Cursed Flame
+      HomingEnergyOrb: Energy
+      RedLightning: Lightning
+      TwinsEnergyExplosion: Boom
+      TwinsShield: Shield
+      CursedGeyser: The Fountain of Pain
+      CursedSoul: Soul
+      FireBeamTelegraph: Telegraph
+      FireBeamWoF: Flame Beam
+      HellishScythe: Demon Scythe
+      TileTentacle: Tentacle
+      ChargeFlare: Big Flare
+      DragonFireball: Fireball
+      LingeringDragonFlames: Dragonfire
+      MajesticSparkleBig: Majestic Sparkle
+      ProvSummonFlameExplosion: Hyperthermal Explosion
+      RedirectingYharonMeteor: Dragon Fireball
+      VortexOfFlame: Vortex of Flame
+      VortexTelegraphBeam: Flame Beam Telegraph
+      YharonBoom: Boom
+      YharonFlameExplosion: Hyperthermal Explosion
+      YharonFlamethrower: Draconic Flame Breath
+      YharonHeatFlashFireball: Fire
+      YharonMajesticSparkle: Majestic Sparkle
+      DraconicBurst: Draconic Burst
+      ExplodingWyvern: Wyvern
+      MeteorCinder: Cinder
+      MoltenMeteor: Meteor
+      ChainGuillotine: Chain Guillotine
+      CursedDart: Cursed Flame Dart
+      CursedFlamePillar: Cursed Flame Pillar
+      FetidBaghnakhs: Fetid Baghnakhs
+      IchorDart: Ichor Dart
+      LifeDrainingField: Life-Draining Field
+      DarkMagicCircle: Dark Magic
+      RedirectingWeakDarkMagicFlame: Dark Flame
+      PearlSwirl: Pearl Swirl
+      FlyingKnife: Flying Knife
+      HolyStar: Holy Star
+      PiercingCrystalShard: Crystal Shard
+      BouncingSpitBall: Spit Ball
+      RisingFireball: Fireball
+      Sandnado2: Sand Tornado
+      GuardiansSummonerProjectile: Guardians Summoner Projectile
+      HatGirl: Hat Girl
+      ProfanedTempleCinder: Cinder
+      ProvidenceArenaDelimiterProj: Arena Thing
+      ProvidenceSummonerProjectile: Providence Summoner Projectile
+    }
+    NPCName:
+    {
+      AquaticParasite2: Aquatic Parasite
+      AquaticSeekerBody2: Aquatic Seeker
+      AquaticSeekerHead2: Aquatic Seeker
+      AquaticSeekerTail2: Aquatic Seeker
+      DeusSpawn: Deus Spawn
+      BrainIllusion: Brain of Cthulhu
+      BrainIllusion2: Brain of Cthulhu
+      SoulSeeker2: Soul Seeker
+      LightSnuffingHand: Light Snuffing Shadow Hand
+      AresPulseCannon: XF-09 Ares Pulse Cannon
+      PhotonRipperNPC: XF-09 Ares Photon Ripper
+      RedPlasmaEnergy: Plasma Orb
+      RedirectingBubble: Bubble
+      ExplodingServant: Servant of Cthulhu
+      GolemArenaPlatform: ""
+      GolemFistLeft: Golem Fist
+      GolemFistRight: Golem Fist
+      Ninja: Ninja
+      BuilderDroneBig: Big Builder Drone
+      BuilderDroneSmall: Small Builder Drone
+      ExplosivePlagueCharger: Explosive Plague Charger
+      PlagueNuke: Plague Nuke
+      SmallDrone: Small Drone
+      PlanteraPinkTentacle: Plantera's Tentacle
+      PolterghastLeg: Ghostly Leg
+      EtherealHand: Ethereal Hand
+      ProvArenaPlatform: ""
+      UnworldlyEntity: Unworldly Entity
+      SplitBigSlime: Unstable Slime Spawn
+      SplitBigSlimeAnimation: Unstable Slime Spawn
+      ShadowDemon: Shadow Hydra
+      CursedOrb: Cursed Flame Orb
+      EnergyOrb: Energy Orb
+    }
+    BiomeName:
+    {
+      ProfanedTempleBiome: 亵渎神庙
+    }
+    BuffName:
+    {
+      DarkFlames: Dark Flames
+      ElysianGrace: Elysian Grace
+      HatGirlBuff: Hat Girl
+      Madness: Madness
+      RedSurge: Red Surge
+      ShadowflameInferno: Shadowflame Inferno
+    }
+    BuffDescription:
+    {
+      DarkFlames: Your body is consumed by a forsaken inferno. Your defense is lowered
+      ElysianGrace: You have infinite flight time
+      HatGirlBuff: Arson
+      Madness: Going insane...
+      RedSurge: You cannot move
+      ShadowflameInferno: Rapidly losing life
+    }
+    MapObject:
+    {
+      GolemArena: Arena
+      MoonlordArena: Arena
+    }
+    InfernumText: 祝你好运。
+    InfernumText2: 那好吧。
+    UI:
+    {
+      NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
+    }
+    Containers:
+    {
+      GolemArena: ""
+      GuardiansSummoner: ""
+      InfernalChaliceTile: ""
+      MoonlordArena: ""
+      ProfanedFountainTile: ""
+      ProvidenceRoomDoorPedestal: ""
+      ProvidenceSummoner: ""
+      AquaticScourgeRelicTile: ""
+      AstrumAureusRelicTile: ""
+      AstrumDeusRelicTile: ""
+      BetsyRelicTile: ""
+      BrainOfCthulhuRelicTile: ""
+      BrimstoneElementalRelicTile: ""
+      CalamitasCloneRelicTile: ""
+      CeaselessVoidRelicTile: ""
+      CrabulonRelicTile: ""
+      CryogenRelicTile: ""
+      DarkMageRelicTile: ""
+      DeerclopsRelicTile: ""
+      DesertScourgeRelicTile: ""
+      DestroyerRelicTile: ""
+      DevourerOfGodsRelicTile: ""
+      DraedonRelicTile: ""
+      DragonfollyRelicTile: ""
+      DreadnautilusRelicTile: ""
+      DukeFishronRelicTile: ""
+      EaterOfWorldsRelicTile: ""
+      EmpressOfLightRelicTile: ""
+      EyeOfCthulhuRelicTile: ""
+      GiantClamRelicTile: ""
+      GolemRelicTile: ""
+      HiveMindRelicTile: ""
+      KingSlimeRelicTile: ""
+      LeviathanRelicTile: ""
+      LunaticCultistRelicTile: ""
+      MoonLordRelicTile: ""
+      OgreRelicTile: ""
+      OldDukeRelicTile: ""
+      PerforatorsRelicTile: ""
+      PlaguebringerGoliathRelicTile: ""
+      PlanteraRelicTile: ""
+      PolterghastRelicTile: ""
+      ProfanedGuardiansRelicTile: ""
+      ProvidenceRelicTile: ""
+      QueenBeeRelicTile: ""
+      QueenSlimeRelicTile: ""
+      RavagerRelicTile: ""
+      SignusRelicTile: ""
+      SkeletronPrimeRelicTile: ""
+      SkeletronRelicTile: ""
+      SlimeGodRelicTile: ""
+      StormWeaverRelicTile: ""
+      SupremeCalamitasRelicTile: ""
+      TwinsRelicTile: ""
+      WallOfFleshRelicTile: ""
+      YharonRelicTile: ""
+    }
+    InfernumConfig:
+    {
+      Config:
+      {
+        Label: Config
+      }
+      BossIntroductionAnimationsAreAllowed:
+      {
+        Label: Boss Introduction Animations
+        Tooltip: Enables boss introduction animations. They only activate when Infernum Mode is active.
+      }
+    }
+  }
 }
