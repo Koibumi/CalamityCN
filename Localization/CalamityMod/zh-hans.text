@@ -1051,105 +1051,105 @@
       AshenSlab: 灰烬石板
       AshenSofa: 灰烬沙发
       AshenTable: 灰烬桌
-      AshenWorkBench: Ashen Work Bench
-      SmoothBrimstoneSlag: Smooth Brimstone Slag
-      BotanicBathtub: Botanic Bathtub
-      BotanicBed: Botanic Bed
-      BotanicBench: Botanic Bench
-      BotanicBookcase: Botanic Bookcase
-      BotanicCandelabra: Botanic Candelabra
-      BotanicCandle: Botanic Candle
-      BotanicChair: Botanic Chair
-      BotanicChandelier: Botanic Chandelier
-      BotanicChest: Botanic Chest
-      BotanicClock: Botanic Clock
-      BotanicDoor: Botanic Door
-      BotanicDresser: Botanic Dresser
-      BotanicLamp: Botanic Lamp
-      BotanicLantern: Botanic Lantern
-      BotanicPiano: Botanic Piano
-      BotanicPlatform: Botanic Platform
-      BotanicSink: Botanic Sink
-      BotanicTable: Botanic Table
-      BotanicWorkBench: Botanic Work Bench
-      CosmiliteBasin: Cosmilite Basin
-      CosmiliteBathtub: Cosmilite Bathtub
-      CosmiliteBed: Cosmilite Bed
-      CosmiliteBookcase: Cosmilite Bookcase
-      CosmiliteBrick: Cosmilite Brick
-      CosmiliteCandelabra: Cosmilite Candelabra
-      CosmiliteCandle: Cosmilite Candle
-      CosmiliteChair: Cosmilite Chair
-      CosmiliteChandelier: Cosmilite Chandelier
-      CosmiliteChest: Cosmilite Chest
-      CosmiliteClock: Cosmilite Clock
-      CosmiliteDoor: Cosmilite Door
-      CosmiliteDresser: Cosmilite Dresser
-      CosmiliteLamp: Cosmilite Lamp
-      CosmiliteLantern: Cosmilite Lantern
-      CosmilitePiano: Cosmilite Piano
-      CosmilitePlatform: Cosmilite Platform
-      CosmiliteSconce: Cosmilite Sconce
-      CosmiliteSink: Cosmilite Sink
-      CosmiliteSofa: Cosmilite Sofa
-      CosmiliteTable: Cosmilite Table
-      CosmiliteWorkBench: Cosmilite Work Bench
-      EutrophicBathtub: Eutrophic Bathtub
-      EutrophicBed: Eutrophic Bed
-      EutrophicBench: Eutrophic Bench
-      EutrophicBookcase: Eutrophic Bookcase
-      EutrophicCandelabra: Eutrophic Candelabra
-      EutrophicCandle: Eutrophic Candle
-      EutrophicChair: Eutrophic Chair
-      EutrophicChandelier: Eutrophic Chandelier
-      EutrophicChest: Eutrophic Chest
-      EutrophicClock: Eutrophic Clock
-      EutrophicDoor: Eutrophic Door
-      EutrophicDresser: Eutrophic Dresser
-      EutrophicLamp: Eutrophic Lamp
-      EutrophicLantern: Eutrophic Lantern
-      EutrophicPiano: Eutrophic Piano
-      EutrophicPlatform: Eutrophic Platform
-      EutrophicSink: Eutrophic Sink
-      EutrophicTable: Eutrophic Table
-      EutrophicWorkBench: Eutrophic Work Bench
-      SmoothNavystone: Smooth Navystone
-      ExoBathtub: Exo Bathtub
-      ExoBed: Exo Bed
-      ExoBookcase: Exo Bookcase
-      ExoCandelabra: Exo Candelabra
-      ExoCandle: Exo Candle
-      ExoChair: Exo Chair
-      ExoChandelier: Exo Chandelier
-      ExoChest: Exo Chest
-      ExoClock: Exo Clock
-      ExoConsole: Exo Console
-      ExoDisplay: Exo Display
-      ExoDoor: Exo Door
-      ExoDresser: Exo Dresser
-      ExoKeyboard: Exo Keyboard
-      ExoLamp: Exo Lamp
-      ExoLantern: Exo Lantern
-      ExoPlatform: Exo Platform
-      ExoPlating: Exo Plating
-      ExoPrismPanel: Exo Prism Panel
-      ExoPrismPlatform: Exo Prism Platform
-      ExoScreen: Exo Screen
-      ExoServer: Exo Server
-      ExoSink: Exo Sink
-      ExoSofa: Exo Sofa
-      ExoTable: Exo Table
-      ExoTerminal: Exo Terminal
-      ExoToilet: Exo Toilet
-      ExoWorkbench: Exo Workbench
-      MonolithBathtub: Monolith Bathtub
-      MonolithBed: Monolith Bed
-      MonolithBench: Monolith Bench
-      MonolithBookcase: Monolith Bookcase
-      MonolithCandelabra: Monolith Candelabra
-      MonolithCandle: Monolith Candle
-      MonolithChair: Monolith Chair
-      MonolithChandelier: Monolith Chandelier
+      AshenWorkBench: 灰烬工作台
+      SmoothBrimstoneSlag: 平滑硫火石
+      BotanicBathtub: 植物浴缸
+      BotanicBed: 植物床
+      BotanicBench: 植物长凳
+      BotanicBookcase: 植物书架
+      BotanicCandelabra: 植物烛台
+      BotanicCandle: 植物蜡烛
+      BotanicChair: 植物椅
+      BotanicChandelier: 植物吊灯
+      BotanicChest: 植物箱
+      BotanicClock: 植物钟
+      BotanicDoor: 植物门
+      BotanicDresser: 植物梳妆台
+      BotanicLamp: 植物灯
+      BotanicLantern: 植物灯笼
+      BotanicPiano: 植物钢琴
+      BotanicPlatform: 植物平台
+      BotanicSink: 植物水槽
+      BotanicTable: 植物桌
+      BotanicWorkBench: 植物工作台
+      CosmiliteBasin: 宇宙火盆
+      CosmiliteBathtub: 宇宙浴缸
+      CosmiliteBed: 宇宙床
+      CosmiliteBookcase: 宇宙书架
+      CosmiliteBrick: 宇宙砖
+      CosmiliteCandelabra: 宇宙烛台
+      CosmiliteCandle: 宇宙蜡烛
+      CosmiliteChair: 宇宙椅
+      CosmiliteChandelier: 宇宙吊灯
+      CosmiliteChest: 宇宙箱
+      CosmiliteClock: 宇宙钟
+      CosmiliteDoor: 宇宙门
+      CosmiliteDresser: 宇宙梳妆台
+      CosmiliteLamp: 宇宙灯
+      CosmiliteLantern: 宇宙灯笼
+      CosmilitePiano: 宇宙钢琴
+      CosmilitePlatform: 宇宙砖平台
+      CosmiliteSconce: 宇宙壁灯
+      CosmiliteSink: 宇宙水槽
+      CosmiliteSofa: 宇宙沙发
+      CosmiliteTable: 宇宙桌
+      CosmiliteWorkBench: 宇宙工作台
+      EutrophicBathtub: 富养浴缸
+      EutrophicBed: 富养床
+      EutrophicBench: 富养长凳
+      EutrophicBookcase: 富养书架
+      EutrophicCandelabra: 富养烛台
+      EutrophicCandle: 富养蜡烛
+      EutrophicChair: 富养椅
+      EutrophicChandelier: 富养吊灯
+      EutrophicChest: 富养箱
+      EutrophicClock: 富养钟
+      EutrophicDoor: 富养门
+      EutrophicDresser: 富养梳妆台
+      EutrophicLamp: 富养灯
+      EutrophicLantern: 富养灯笼
+      EutrophicPiano: 富养钢琴
+      EutrophicPlatform: 富养平台
+      EutrophicSink: 富养水槽
+      EutrophicTable: 富养桌
+      EutrophicWorkBench: 富养工作台
+      SmoothNavystone: 平滑沉沦渊石
+      ExoBathtub: 星流浴缸
+      ExoBed: 星流床
+      ExoBookcase: 星流书架
+      ExoCandelabra: 星流烛台
+      ExoCandle: 星流蜡烛
+      ExoChair: 星流椅
+      ExoChandelier: 星流吊灯
+      ExoChest: 星流箱
+      ExoClock: 星流钟
+      ExoConsole: 星流控制台
+      ExoDisplay: 星流展柜
+      ExoDoor: 星流门
+      ExoDresser: 星流梳妆台
+      ExoKeyboard: 星流键盘
+      ExoLamp: 星流灯
+      ExoLantern: 星流灯笼
+      ExoPlatform: 星流平台
+      ExoPlating: 星流镶板
+      ExoPrismPanel: 星流棱晶镶板
+      ExoPrismPlatform: 星流棱晶平台
+      ExoScreen: 星流荧幕
+      ExoServer: 星流服务器
+      ExoSink: 星流水槽
+      ExoSofa: 星流沙发
+      ExoTable: 星流桌
+      ExoTerminal: 星流终端机
+      ExoToilet: 星流马桶
+      ExoWorkbench: 星流工作台
+      MonolithBathtub: 星石浴缸
+      MonolithBed: 星石床
+      MonolithBench: 星石长凳
+      MonolithBookcase: 星石书架
+      MonolithCandelabra: 星石烛台
+      MonolithCandle: 星石蜡烛
+      MonolithChair: 星石椅
+      MonolithChandelier: 星石吊灯
       MonolithChest: Monolith Chest
       MonolithClock: Monolith Clock
       MonolithDoor: Monolith Door
