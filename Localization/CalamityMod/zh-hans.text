@@ -9303,1099 +9303,1099 @@
     ProjectileName:
     {
       MarniteRepulsionHitbox: Repulsion Matrix
-      ApolloChargeTelegraph: Apollo Charge Telegraph
-      ApolloFireball: Volatile Plasma Blast
-      ApolloRocket: High Explosive Plasma Rocket
-      AresDeathBeamStart: Blenderbeam
-      AresDeathBeamTelegraph: Exo Overload Telegraph
-      AresGaussNukeProjectile: Gauss Nuke
-      AresGaussNukeProjectileBoom: Gauss Explosion
-      AresGaussNukeProjectileSpark: Gauss Spark
-      AresLaserBeamStart: Exothermal Laser
-      AresPlasmaBolt: Exoplasma Bolt
-      AresPlasmaFireball: Volatile Plasma Blast
-      AresTeslaOrb: Tesla Sphere
-      ArtemisChargeTelegraph: Artemis Charge Telegraph
-      ArtemisDeathrayTelegraph: Exothermal Artemis Beam Telegraph
-      ArtemisLaser: Exo Pulse Laser
+      ApolloChargeTelegraph: 阿波罗
+      ApolloFireball: 挥发性等离子光球
+      ApolloRocket: 高爆等离子火箭
+      AresDeathBeamStart: 过载星流死光
+      AresDeathBeamTelegraph: 过载星流死光
+      AresGaussNukeProjectile: 高斯核弹
+      AresGaussNukeProjectileBoom: 高斯核弹爆炸
+      AresGaussNukeProjectileSpark: 高斯核弹裂片
+      AresLaserBeamStart: 星流热能激光
+      AresPlasmaBolt: 星流等离子束
+      AresPlasmaFireball: 挥发性等离子光球
+      AresTeslaOrb: 特斯拉球状闪电
+      ArtemisChargeTelegraph: 阿尔忒弥斯冲刺
+      ArtemisDeathrayTelegraph: 阿尔忒弥斯星流热能光束
+      ArtemisLaser: 星流脉冲激光
       ArtemisSpinLaserbeam: Ohio Beam
-      AstralFlame: Astral Homing Flame
-      AstralGodRay: Astral God Ray
-      AstralLaser: Astral Laser Volley
-      AstralShot2: Astral Laser
-      BigFlare: Big Flare
-      BigFlare2: Big Flare
-      BirbAura: Draconic Aura
-      BirbAuraFlare: Draconic Aura Flare
-      BloodGeyser: Blood Geyser
-      BrimstoneBall: Brimstone Fireball
-      BrimstoneBarrage: Brimstone Dart
-      BrimstoneFire: Brimstone Fire
-      BrimstoneHellblast: Brimstone Hellblast
-      BrimstoneHellblast2: Brimstone Hellblast
-      BrimstoneHellfireball: Brimstone Hellfireball
-      BrimstoneMonster: Brimstone Monster
-      BrimstoneRay: Brimstone Ray
-      BrimstoneTargetRay: Brimstone Target Ray
-      BrimstoneWave: Brimstone Flame Skull
-      BrokenApolloLens: Lens
-      BrokenArtemisLens: Lens
-      DarkEnergyBall: Dark Energy
-      DarkEnergyBall2: Dark Energy
-      DarkOrb: Dark Orb
-      DestroyerCursedLaser: Cursed Laser
-      DestroyerElectricLaser: Electric Laser
-      DeusMine: Astral Mine
-      DeusRitualDrama: Deus Ritual Drama
-      DoGBeam: Portal Laser
-      DoGBeamPortal: Beam Portal
-      DoGDeath: Death Beam
-      DoGDeathBoom: Cosmic Explosion
-      DoGFire: Death Fire
-      DoGP1EndPortal: Portal
-      DoGTeleportRift: Rift
-      DraedonSummonLaser: Giant Fuck-off Deathray of Doom
-      DyingSun: Dying Sun
-      EssenceDust: Cosmic Dust
-      Flare: Flare
-      FlareBomb: Flare Bomb
-      FlareDust: Flare Dust
-      FlareDust2: Flare Bomb
-      Flarenado: Flarenado
-      FrostMist: Frost Mist
-      GreatSandBlast: Great Sand Blast
-      HealOrbProv: Heal
-      HellfireExplosion: Brimstone Hellfire Explosion
-      HiveBombGoliath: Hive Bomb
-      HolyAura: Holy Aura
-      HolyBlast: Holy Blast
-      HolyBomb: Holy Bomb
-      HolyBurnOrb: Holy Orb
-      HolyExplosionBoom: Holy Explosion
-      HolyFire: Holy Fire
-      HolyFire2: Holy Fire
-      HolyFlare: Holy Flare
-      HolyLight: Holy Light
-      HolySpear: Holy Spear
-      IceBlast: Ice Blast
-      IceBomb: Ice Bomb
-      IceRain: Ice Rain
-      IchorBlob: Ichor Blob
-      IchorShot: Ichor Shot
-      Infernado: Infernado
-      Infernado2: Infernado
-      InfernadoRevenge: Infernado
-      JewelProjectile: Ruby Bolt
-      LeviathanBomb: Meteor Vomit
-      LeviathanSpawner: Spawner
-      MajesticSparkle: Majestic Sparkle
-      MoltenBlast: Molten Blast
-      MoltenBlob: Molten Blob
-      MushBomb: Mushroom Shot
-      MushBombFall: Falling Mushroom
-      OldDukeGore: Sulphurous Gore
-      OldDukeSummonDrop: Acid
-      OldDukeVortex: Sulphurous Vortex
-      OverlyDramaticDukeSummoner: Old Duke Summoner
-      PhantomBlast: Phantom Blast
-      PhantomBlast2: Potent Phantom Blast
-      PhantomGhostShot: Potent Phantom Spirit Shot
-      PhantomHookShot: Phantom Hook Shot
-      PhantomMine: Phantom Orb
-      PhantomShot: Phantom Shot
-      PhantomShot2: Potent Phantom Shot
-      PlagueExplosion: Plague Stinger Explosion
-      PlagueStingerGoliath: Plague Homing Stinger
-      PlagueStingerGoliathV2: Exploding Plague Stinger
-      ProfanedSpear: Profaned Spear
-      ProvidenceCrystal: Holy Crystal
-      ProvidenceCrystalShard: Holy Crystal Shard
-      ProvidenceHolyRay: Holy Ray
-      RavagerFlame: Blue Flame
-      RedLightning: Red Lightning
-      RedLightningFeather: Lightning Feather
-      SandBlast: Sand Blast
-      SandPoisonCloud: Toxic Cloud
-      SandPoisonCloudOldDuke: Toxic Cloud
-      SandTooth: Sand Tooth
+      AstralFlame: 星瀚逐影焰
+      AstralGodRay: 星神射线
+      AstralLaser: 星辉莫幻射线
+      AstralShot2: 星辉莫幻光
+      BigFlare: 巨型耀斑
+      BigFlare2: 巨型耀斑
+      BirbAura: 龙魂光环
+      BirbAuraFlare: 龙魂弹
+      BloodGeyser: 血涌泉
+      BrimstoneBall: 炼狱硫火球
+      BrimstoneBarrage: 硫火飞弹
+      BrimstoneFire: 炼狱硫火
+      BrimstoneHellblast: 深渊亡魂
+      BrimstoneHellblast2: 深渊亡魂
+      BrimstoneHellfireball: 炼狱硫火球
+      BrimstoneMonster: 猩红圆月
+      BrimstoneRay: 狱火永燃射线
+      BrimstoneTargetRay: 狱火锁魂射线
+      BrimstoneWave: 深渊炙颅
+      BrokenApolloLens: 光镜
+      BrokenArtemisLens: 光镜
+      DarkEnergyBall: 暗能量
+      DarkEnergyBall2: 暗能量
+      DarkOrb: 暗之球
+      DestroyerCursedLaser: 诅咒激光
+      DestroyerElectricLaser: 带电激光
+      DeusMine: 幻星雷
+      DeusRitualDrama: 祭神仪式
+      DoGBeam: 传送门光束
+      DoGBeamPortal: 传送门光束
+      DoGDeath: 死亡之光
+      DoGDeathBoom: 宇宙爆裂
+      DoGFire: 死亡之火
+      DoGP1EndPortal: 噬神者维度传送门
+      DoGTeleportRift: 星宇裂隙
+      DraedonSummonLaser: wowowow超级xx的巨型末日死光！！
+      DyingSun: 垂死之日
+      EssenceDust: 寰宇灵尘
+      Flare: 耀斑
+      FlareBomb: 炎爆弹
+      FlareDust: 灼焱余烬
+      FlareDust2: 炎爆弹
+      Flarenado: 灼焱龙卷
+      FrostMist: 霜雾
+      GreatSandBlast: 大沙暴
+      HealOrbProv: 治愈球
+      HellfireExplosion: 硫火焦炎爆
+      HiveBombGoliath: 腐脓爆裂
+      HolyAura: 圣洁灵光
+      HolyBlast: 圣之爆焱
+      HolyBomb: 闪耀之弹
+      HolyBurnOrb: 神圣新星
+      HolyExplosionBoom: 神圣爆破
+      HolyFire: 神圣之火
+      HolyFire2: 神圣之火
+      HolyFlare: 圣之烁光
+      HolyLight: 神圣之光
+      HolySpear: 神圣之矛
+      IceBlast: 冰霜爆
+      IceBomb: 冰锥
+      IceRain: 冰晶雨
+      IchorBlob: 灵液弹
+      IchorShot: 灵液弹
+      Infernado: 烈焰龙卷
+      Infernado2: 烈焰龙卷
+      InfernadoRevenge: 烈焰龙卷
+      JewelProjectile: 殷红弹幕
+      LeviathanBomb: 流陨倾泄
+      LeviathanSpawner: 利维坦生成物
+      MajesticSparkle: 威严之光
+      MoltenBlast: 熔岩陨星
+      MoltenBlob: 熔岩陨石
+      MushBomb: 蘑菇弹
+      MushBombFall: 飘落蘑菇孢子
+      OldDukeGore: 富硫腐尸
+      OldDukeSummonDrop: 酸
+      OldDukeVortex: 硫毒旋涡
+      OverlyDramaticDukeSummoner: 硫海遗爵
+      PhantomBlast: 幻影冲击
+      PhantomBlast2: 幽魂冲击
+      PhantomGhostShot: 幻影灵弹
+      PhantomHookShot: 幽魂飞弹
+      PhantomMine: 幻灵珠
+      PhantomShot: 幻空弹
+      PhantomShot2: 幽魂飞弹
+      PlagueExplosion: 瘟疫导弹
+      PlagueStingerGoliath: 制导瘟疫弹
+      PlagueStingerGoliathV2: 制导瘟疫弹V2
+      ProfanedSpear: 瘟疫长矛
+      ProvidenceCrystal: 圣洁水晶
+      ProvidenceCrystalShard: 神圣碎晶片
+      ProvidenceHolyRay: 圣之耀光
+      RavagerFlame: 湛蓝火焰
+      RedLightning: 猩红闪电
+      RedLightningFeather: 闪耀红羽
+      SandBlast: 沙尘暴
+      SandPoisonCloud: 疫毒之云
+      SandPoisonCloudOldDuke: 毒云
+      SandTooth: 瀚漠之牙
       SCalBrimstoneFireblast: Brimstone Fireblast
       SCalBrimstoneGigablast: Brimstone Gigablast
-      SCalRitualDrama: Calamitous Ritual Drama
-      ScavengerLaser: Homing Dart
-      ScavengerNuke: Homing Nuke
-      ShadeNimbusHostile: Shade Nimbus
+      SCalRitualDrama: 至尊灾厄
+      ScavengerLaser: 回旋镖
+      ScavengerNuke: 制导核导弹
+      ShadeNimbusHostile: 乌云
       ShaderainHostile: Shade Rain
-      ShadowflameFireball: Shadowflame Fireball
-      Shadowflamethrower: Shadowflame Breath
-      SignusScythe: Scythe
-      SirenSong: Musical Note
-      SkyFlare: Sky Flare
-      SkyFlareRevenge: Sky Flare
-      SporeGasPlantera: Spore Gas
+      ShadowflameFireball: 暗影火球
+      Shadowflamethrower: 影炎之息
+      SignusScythe: 西格纳斯鬼镰
+      SirenSong: 魅惑之音
+      SkyFlare: 天界之火
+      SkyFlareRevenge: 天界之火
+      SporeGasPlantera: 毒气孢子
       StormWeaverFrostWaveTelegraph: Frost Wave Telegraph
-      SupremeCataclysmFist: Fist of Fury
-      SupremeCatastropheSlash: Resonance Slash
-      SwirlingFire: Fire
-      ThanatosBeamStart: T Hanos Beam
-      ThanatosBeamTelegraph: Gamma Disintegration Beam Telegraph
-      ThanatosLaser: Exo Pulse Laser
-      ToxicCloud: Toxic Cloud
+      SupremeCataclysmFist: 愤怒之拳
+      SupremeCatastropheSlash: 共振之波
+      SwirlingFire: 炽焰
+      ThanatosBeamStart: 黑 金棱镜蛇的激光
+      ThanatosBeamTelegraph: 伽马瓦解射线
+      ThanatosLaser: 星流脉冲激光
+      ToxicCloud: 毒云
       UnstableCrimulanGlob: Unstable Crimulan Glob
       UnstableEbonianGlob: Unstable Ebonian Glob
-      VileClot: Vile Clot
-      WaterSpear: Water Spear
+      VileClot: 恶毒瘤块
+      WaterSpear: 水之枪
       YharonBulletHellVortex: Bullet Hell Vortex
-      YharonFireball: Dragon Fireball
-      YharonFireball2: Dragon Fireball
-      ArtifactOfResilienceBulwark: Artifact of Resilience
+      YharonFireball: 龙炎弹
+      YharonFireball2: 龙炎弹
+      ArtifactOfResilienceBulwark: 灵之形
       AnomalysNanogunHoldout: The Anomaly's Nanogun
       AnomalysNanogunMPFBBoom: MPFB Explosion
       AnomalysNanogunMPFBDevastator: MPFB Devastator
       AnomalysNanogunPlasmaBeam: Plasma Beam
-      FrequencyManipulatorEnergy: Pulse Energy
-      FrequencyManipulatorProjectile: Frequency Manipulator
-      GalvanizingGlaiveProjectile: Galvanizing Glaive
-      GatlingLaserProj: Gatling Laser
-      GatlingLaserShot: Gatling Laser
-      GaussEnergy: Gauss Energy
-      GaussFlux: Gauss Flux
-      GaussPistolShot: Gauss Shot
-      GaussRifleBlast: Gauss Blast
-      GaussRifleExplosion: Gauss Explosion
-      HydraulicVoltCrasherProjectile: Hydraulic Volt Crasher
-      LaserRifleShot: Laser Rifle
-      MassivePlasmaExplosion: Plasma Explosion
-      MountedScannerLaser: Deathray
-      MountedScannerSummon: Mounted Scanner
-      PhaseslayerBeam: Light Blade
-      PhaseslayerProjectile: Phaseslayer
-      PlasmaCasterShot: Plasma Bolt
-      PlasmaGrenadeProjectile: Plasma Grenade
-      PlasmaGrenadeSmallExplosion: Plasma Explosion
-      PoleWarperSummon: Pole Warper
-      PulseDragonProjectile: Pulse Dragon
-      PulsePistolShot: Pulse Bolt
-      PulseRifleShot: Pulse Bolt
-      PulseTurret: Pulse Turret
-      PulseTurretShot: Pulse Bolt
-      SnakeEyesSummon: Snake Eyes
-      StarSwallowerAcid: Acid
-      StarSwallowerSummon: Pet Froge
-      SystemBaneLightning: Lightning
-      SystemBaneProjectile: System Bane
-      TaserHook: Taser
-      TeslaCannonShot: Tesla Beam
-      TrackingDiskLaser: Laser
-      TrackingDiskProjectile: Tracking Disk
-      UnstableMatter: Unstable Matter
-      VoltageStream: Voltage Stream
-      WavePounderBoom: Explosion
-      WavePounderProjectile: Wave Pounder
+      FrequencyManipulatorEnergy: 脉冲能量
+      FrequencyManipulatorProjectile: 变频器
+      GalvanizingGlaiveProjectile: 磁能分割刀
+      GatlingLaserProj: 多管激光枪
+      GatlingLaserShot: 多管机关枪
+      GaussEnergy: 高斯能量
+      GaussFlux: 高斯流能
+      GaussPistolShot: 高斯电能弹
+      GaussRifleBlast: 电泳冲击波
+      GaussRifleExplosion: 电磁暴
+      HydraulicVoltCrasherProjectile: 液压伏冲器
+      LaserRifleShot: 激光步枪
+      MassivePlasmaExplosion: 等离子爆炸
+      MountedScannerLaser: 红色死光
+      MountedScannerSummon: 架式扫射机
+      PhaseslayerBeam: 热熔光刃
+      PhaseslayerProjectile: 相位剑
+      PlasmaCasterShot: 血浆束
+      PlasmaGrenadeProjectile: 等离子手雷
+      PlasmaGrenadeSmallExplosion: 等离子爆炸
+      PoleWarperSummon: 电极解离机
+      PulseDragonProjectile: 脉冲龙连枷
+      PulsePistolShot: 聚能脉冲弹
+      PulseRifleShot: 脉冲束
+      PulseTurret: 脉冲炮塔
+      PulseTurretShot: 脉冲弹
+      SnakeEyesSummon: 蛇眼
+      StarSwallowerAcid: 酸
+      StarSwallowerSummon: 宠物青蛙
+      SystemBaneLightning: 电磁束
+      SystemBaneProjectile: 神经系统紊乱装置
+      TaserHook: 泰瑟枪
+      TeslaCannonShot: 特斯拉光束
+      TrackingDiskLaser: 逐影激光
+      TrackingDiskProjectile: 逐影飞盘
+      UnstableMatter: 不稳定物质
+      VoltageStream: 高压电流
+      WavePounderBoom: 震荡波
+      WavePounderProjectile: 震波炸弹
       AstralMeteorProj: Astral Meteor
-      BelchingCoralSpike: Spike
-      CrabBoulder: Boulder
-      CragmawAcidDrop: Acid
-      CragmawBeam: Gamma Ray
-      CragmawBubble: Acid Bubble
-      CragmawExplosion: Nuclear Explosion
-      CragmawSpike: Spike
-      CragmawVibeCheckChain: You Think You're Safe
-      CrimsonSpike: Spike
-      DraedonLaser: Lab Turret Laser
-      EarthRockBig: Rock
-      EarthRockSmall: Rock
-      FlakAcid: Acid
-      FlameBurstHostile: Burst
-      GammaAcid: Acid
-      GammaBeam: Gamma Ray
-      HorsWaterBlast: Water
-      InkBombHostile: Ink Bomb
-      InkPoisonCloud: Ink Cloud
-      InkPoisonCloud2: Ink Cloud
-      InkPoisonCloud3: Ink Cloud
+      BelchingCoralSpike: 喷涌珊瑚刺
+      CrabBoulder: 海蚀岩
+      CragmawAcidDrop: 酸滴
+      CragmawBeam: 伽马射线
+      CragmawBubble: 酸性气泡
+      CragmawExplosion: 核能爆破
+      CragmawSpike: 峭壁岩刺
+      CragmawVibeCheckChain: 你觉得你很安全
+      CrimsonSpike: 猩红棘刺
+      DraedonLaser: 实验室脉冲激光
+      EarthRockBig: 巨岩
+      EarthRockSmall: 岩块
+      FlakAcid: 酸
+      FlameBurstHostile: 炙炎
+      GammaAcid: 酸
+      GammaBeam: 伽马射线
+      HorsWaterBlast: 水
+      InkBombHostile: 墨水炸弹
+      InkPoisonCloud: 墨水云雾
+      InkPoisonCloud2: 墨水云雾
+      InkPoisonCloud3: 墨水云雾
       LightningCloud: Cloud
-      MantisRing: Mantis Ring
-      MaulerAcidBubble: Acid Bubble
-      MaulerAcidDrop: Acid
-      NuclearBulletLarge: Nuclear Bullet
-      NuclearBulletMedium: Nuclear Bullet
-      NuclearToadGoo: Goop
-      OrthoceraStream: Acid Stream
-      PearlBurst: Pearl Burst
-      PearlRain: Pearl Rain
-      PufferExplosion: Explosion
-      StormMarkHostile: Mark
-      SulphuricAcidBubble: Acid Bubble
-      SulphuricAcidMist: Acid Mist
-      TornadoHostile: Tornado
-      ToxicMinnowCloud: Toxic Cloud
-      TrilobiteSpike: Spike
-      AcidDrop: Acid
-      BrimstoneGeyser: Smoke
-      GeyserTelegraph: Geyser
-      HotSteam: Steam
-      LavaChunk: Lava Chunk
-      SmokeTelegraph: Smoke
-      AuricOrb: Auric Orb
-      BurntSiennaProj: Sienna
-      CactusHealOrb: Heal
-      DemonHeal: Heal
-      EarthHealOrb: Heal
+      MantisRing: 幻星螳螂
+      MaulerAcidBubble: 强酸泡泡
+      MaulerAcidDrop: 酸滴
+      NuclearBulletLarge: 大号核弹
+      NuclearBulletMedium: 中型核弹
+      NuclearToadGoo: 放射性蟾蜍分泌物
+      OrthoceraStream: 酸液流
+      PearlBurst: 爆裂珍珠
+      PearlRain: 珍珠雨
+      PufferExplosion: 刺豚爆炸
+      StormMarkHostile: 暴风铭印
+      SulphuricAcidBubble: 酸性气泡
+      SulphuricAcidMist: 酸雾
+      TornadoHostile: 龙卷风
+      ToxicMinnowCloud: 剧毒云雾
+      TrilobiteSpike: 三叶虫刺
+      AcidDrop: 酸液滴
+      BrimstoneGeyser: 烟
+      GeyserTelegraph: 烟
+      HotSteam: 炽热蒸汽
+      LavaChunk: 熔岩块
+      SmokeTelegraph: 烟
+      AuricOrb: 艾瑞克珠
+      BurntSiennaProj: 赛纳
+      CactusHealOrb: 治愈球
+      DemonHeal: 回血
+      EarthHealOrb: 治愈球
       EmpyreanHealOrb: Empyrean Heal Orb
-      EssenceFlame: Flame
-      Exoheal: Heal
-      FungalHeal: Heal
-      GodSlayerHealOrb: God Slayer Heal Orb
+      EssenceFlame: 透髓之火
+      Exoheal: 治愈
+      FungalHeal: 治愈
+      GodSlayerHealOrb: 弑神者治愈球
       HydrothermicHealOrb: Hydrothermic Rejuvenation
       ManaPolarizerHealOrb: Mana Polarizer Heal Orb
-      PhantomicHeart: Phantomic Heart
-      RainHeal: Heal
-      ReaverHealOrb: Reaver Heal Orb
-      RoyalHeal: Heal
-      ShinobiHealOrb: Blue Healing Orb
-      SilvaOrb: Silva Orb
-      TransfusionTrail: Heal
-      AbyssBall: Abyss Ball
-      AcidGunStream: Acid Stream
-      AcidicReed: Reed
-      AcidicSaxBubble: Acid Bubble
-      AcidicSaxMist: Acid Mist
-      AetherBeam: Beam
-      AetherfluxCannonHoldout: Aetherflux Cannon
+      PhantomicHeart: 幻魂之心
+      RainHeal: 治愈
+      ReaverHealOrb: 掠夺者治疗光球
+      RoyalHeal: 治愈
+      ShinobiHealOrb: 蓝色治愈球
+      SilvaOrb: 希尔瓦球
+      TransfusionTrail: 治愈
+      AbyssBall: 深渊之掷
+      AcidGunStream: 酸液流
+      AcidicReed: 酸化芦苇
+      AcidicSaxBubble: 酸性气泡
+      AcidicSaxMist: 酸雾
+      AetherBeam: 以太射线
+      AetherfluxCannonHoldout: 金湮载波炮
       AnahitasArpeggioNote: Song
-      Ancient: Ancient
-      Ancient2: Ancient
-      ApotheosisEnergy: Apotheosis Energy
-      ApotheosisWorm: The Devourer of Gods
-      AquamarineBolt: Bolt
-      ArcticBearPawProj: Arctic Bear Paw
-      ArtAttackHoldout: Art Attack
-      ArtAttackStar: Star
+      Ancient: 亘古
+      Ancient2: 亘古
+      ApotheosisEnergy: 圣神能量
+      ApotheosisWorm: 打人不疼的神明吞噬者
+      AquamarineBolt: 海耀
+      ArcticBearPawProj: 北极熊爪
+      ArtAttackHoldout: 艺术之击
+      ArtAttackStar: 星星
       ArtAttackStrike: Art Attack
-      Asteroid: Asteroid
-      AsteroidMolten: Asteroid
-      AstralachneaFang: Fang
-      AstralCrystal: Crystal
-      AstralCrystalInvisibleExplosion: Astral Crystal Invisible Explosion
-      AstralStarMagic: Star
-      AtlantisSpear: Atlantis Spear
-      AtlantisSpear2: Atlantis Spear
-      AuraRain: Aura Rain
-      AuroraAustralis: Aurora Australis
-      BeamingBolt: Beaming Bolt
-      BeamingBolt2: Beaming Bolt
-      BeamStar: Star
-      BeastScythe: Scythe
-      BigBeamofDeath: Big Beam of Death
-      BigBeamofDeath2: Big Beam of Death
-      BlackAnurianBubble: Bubble
-      BlackAnurianPlankton: Plankton
-      BlindingLight: Blinding Light
-      BloodBeam: Blood Beam
-      BloodBlast: Blast
-      BloodRay: Blood Ray
-      BlueBubble: Bubble
-      BlushieStaffProj: Staff of Blushie
-      BrimstoneBeam: Beam
-      BrimstoneBeam2: Beam
-      BrimstoneBeam3: Beam
-      BrimstoneBeam4: Beam
-      BrimstoneBeam5: Beam
-      BrimstoneFireball: Fireball
-      BrimstoneHellfireballFriendly: Hellfire
-      BrimstoneHomer: Homer
-      BrimstoneTentacle: Tentacle
-      ClamorNoctusStar: Star
-      ClamorNoctusWyvern: Wyvern
-      ClimaxBeam: Voltaic Bolt
-      ClimaxProj: Voltaic Orb
-      CoralSpike: Coral Spike
+      Asteroid: 小行星
+      AsteroidMolten: 小行星
+      AstralachneaFang: 獠牙
+      AstralCrystal: 星幻凝晶
+      AstralCrystalInvisibleExplosion: 星体晶影爆
+      AstralStarMagic: 寰星奥秘
+      AtlantisSpear: 亚特兰蒂斯之枪
+      AtlantisSpear2: 亚特兰蒂斯之枪
+      AuraRain: 光环雨
+      AuroraAustralis: 极光
+      BeamingBolt: 光斑
+      BeamingBolt2: 光斑
+      BeamStar: 星星
+      BeastScythe: 狂野之镰
+      BigBeamofDeath: 巨型死光束
+      BigBeamofDeath2: 巨型死光束
+      BlackAnurianBubble: 黑尿鱼泡泡
+      BlackAnurianPlankton: 黑尿鱼
+      BlindingLight: 致盲之光
+      BloodBeam: 猩红之光
+      BloodBlast: 鲜血爆弹
+      BloodRay: 猩红射线
+      BlueBubble: 蓝泡泡
+      BlushieStaffProj: 蓝炼魂法杖
+      BrimstoneBeam: 硫火光束
+      BrimstoneBeam2: 硫火光束
+      BrimstoneBeam3: 硫火光束
+      BrimstoneBeam4: 硫火光束
+      BrimstoneBeam5: 硫火光束
+      BrimstoneFireball: 狱炎球
+      BrimstoneHellfireballFriendly: 地狱火
+      BrimstoneHomer: 硫火追踪弹
+      BrimstoneTentacle: 诡触
+      ClamorNoctusStar: 裂空之星
+      ClamorNoctusWyvern: 星龙
+      ClimaxBeam: 光伏射线
+      ClimaxProj: 光伏磁球
+      CoralSpike: 珊瑚刺
       CoralSpoutHoldout: Coral Spout
-      CosmicTentacle: Tentacle
-      CryoBlast: Blast
-      DarkSparkBeam: Beam
-      DarkSparkPrism: Crystal
-      DeathhailBeam: Deathhail
-      DivineRetributionSpear: Divine Retribution
-      DustProjectile: Dust
-      EelDrop: Acid
-      EidolicWailSoundwave: Wail
-      EldritchTentacle: Tentacle
-      ElementalRayBeam: Ray
-      ElementBolt: Bolt
-      ElementBolt2: Bolt
-      ElementOrb: Orb
-      ElementOrb2: Orb
-      ElementTentacle: Tentacle
-      EnormousConsumingVortex: Subsuming Vortex
-      EternityBook: Eternity
-      EternityCircle: Eternity
-      EternityCrystal: Crystal
-      EternityHex: Eternity
-      EternityHoming: Eternity
-      EventHorizonBlackhole: Blackhole
-      EventHorizonStar: Event Horizon Star
-      EvergladeSprayProjectile: Spray
+      CosmicTentacle: 次元之触
+      CryoBlast: 霜寒爆裂
+      DarkSparkBeam: 寂虚之光
+      DarkSparkPrism: 寂虚之光
+      DeathhailBeam: 死亡冰雹
+      DivineRetributionSpear: 神罚
+      DustProjectile: 余烬
+      EelDrop: 酸
+      EidolicWailSoundwave: 哀怨之声
+      EldritchTentacle: 诡触
+      ElementalRayBeam: 元素射线
+      ElementBolt: 元素耀斑
+      ElementBolt2: 元素耀斑
+      ElementOrb: 元素融合珠
+      ElementOrb2: 元素融合珠
+      ElementTentacle: 元素之须
+      EnormousConsumingVortex: 归元漩涡
+      EternityBook: 永恒
+      EternityCircle: 永恒
+      EternityCrystal: 永恒魔晶
+      EternityHex: 永恒
+      EternityHoming: 永恒
+      EventHorizonBlackhole: 事件视界黑洞
+      EventHorizonStar: 事件视界行星
+      EvergladeSprayProjectile: 常青之气
       ExoVortex: Subsuming Vortex
       ExoVortex2: Subsuming Vortex
-      FabBolt: Bolt
-      FabRay: Ray
-      FatesRevealFlame: Fate's Reveal
-      FlamingPumpkin: Pumpkin
-      FlareBoltProjectile: Flare Bolt
-      ForbiddenAxeBlade: Blade
-      ForbiddenSunburst: Sunburst
-      ForbiddenSunProjectile: Sun
-      FrigidflashBoltProjectile: Frigidflash Bolt
-      FrostBoltProjectile: Ball
-      GammaLaser: Laser
-      GhastlyBlast: Ghast Blast
-      GhastlyExplosion: Ghastly Explosion
-      GhastlyExplosionShard: Ghastly Fragment
-      GhastlySubBlast: Ghast Blast
-      GhastlyVisageProj: Ghastly Visage
-      GleamingBolt: Bolt
-      GleamingBolt2: Bolt
-      GraniteEnergy: Granite Energy
-      GranitePulse: Pulse
-      GruesomeEminenceHoldout: Gruesome Eminence
+      FabBolt: 原体斑
+      FabRay: 原体射线
+      FatesRevealFlame: 幽灵魂火
+      FlamingPumpkin: 南瓜
+      FlareBoltProjectile: 耀斑
+      ForbiddenAxeBlade: 禁忌斧刃
+      ForbiddenSunburst: 禁忌阳炎爆
+      ForbiddenSunProjectile: 禁忌之阳
+      FrigidflashBoltProjectile: 寒流
+      FrostBoltProjectile: 霜冻球
+      GammaLaser: 射命之光
+      GhastlyBlast: 幽魂能量球
+      GhastlyExplosion: 幽魂爆炸
+      GhastlyExplosionShard: 幽魂闪电
+      GhastlySubBlast: 幽魂能量球
+      GhastlyVisageProj: 鬼之形
+      GleamingBolt: 闪光箭
+      GleamingBolt2: 闪光箭
+      GraniteEnergy: 花岗岩能量
+      GranitePulse: 花岗岩脉冲
+      GruesomeEminenceHoldout: 腥邪诡灵
       HadalUrnHoldout: Hadal Urn
       HadalUrnIsopod: Abyssal Isopod
       HadalUrnJellyfish: Mirage Jelly
       HadalUrnLamprey: Sea Lamprey
       HadalUrnStarfish: Marianan Starfish
       HadalUrnStarfishShard: Starfish Shard
-      HeliumFlashBlast: Helium Flash
-      HellfireExplosionFriendly: Explosion
-      HellwingPillar: Pillar
-      HeresyProj: Heresy
-      HolyFlame: Flame
-      HolyLaser: Laser
-      IceBarrageMain: Ice Barrage
-      IceBlock: Ice Barrage
-      IceBlockIcicle: Ice Barrage
-      IceCluster: Ice
-      IceSpike: Spike
-      Icicle: Icicle
-      IcicleStaffProj: Fury
-      InfernadoFriendly: Infernado
-      InfernadoMarkFriendly: Mark
-      InfernalBlade: Blade
-      InfernalBlade2: Blade
-      IonBlast: Blast
-      KeelhaulBubble: Bubble
-      KeelhaulGeyserBottom: Geyser
-      KeelhaulGeyserTop: Geyser
-      LightBall: Light Ball
-      LightBallExplosion: Explosion
-      LightBead: Light Bead
-      LightBeadSplit: Light Bead
-      LightBlade: Light Blade
-      LightningArc: Lightning Arc
-      LiquidBlade: Blade
-      LiquidBlade2: Blade
-      LuxorsGiftMagic: Gift
-      MadAlchemistsCocktailAlt: Mad Alchemist's Prismatic Cocktail
-      MadAlchemistsCocktailBlue: Mad Alchemist's Blue Cocktail
-      MadAlchemistsCocktailGasCloud: Mad Alchemist's Gas
-      MadAlchemistsCocktailGreen: Mad Alchemist's Green Cocktail
-      MadAlchemistsCocktailPurple: Mad Alchemist's Purple Cocktail
-      MadAlchemistsCocktailRed: Mad Alchemist's Red Cocktail
-      MadAlchemistsCocktailShrapnel: Shrapnel
-      MagnaBlast: Blast
-      MagneticBeam: Beam
-      MagneticOrb: Magnetic Orb
-      ManaBolt: Bolt
-      ManaBoltSmall: Bolt
-      ManaBoltSmall2: Bolt
+      HeliumFlashBlast: 氦闪
+      HellfireExplosionFriendly: 狱火炎爆
+      HellwingPillar: 狱岩之柱
+      HeresyProj: 邪崇
+      HolyFlame: 圣火
+      HolyLaser: 圣光聚束
+      IceBarrageMain: 寒冰弹幕
+      IceBlock: 寒冰弹幕
+      IceBlockIcicle: 寒冰弹幕
+      IceCluster: 冰簇
+      IceSpike: 冰锥
+      Icicle: 冰锥
+      IcicleStaffProj: 冰坠
+      InfernadoFriendly: 烈焰龙卷
+      InfernadoMarkFriendly: 火龙卷标记
+      InfernalBlade: 烈刃龙卷
+      InfernalBlade2: 烈刃龙卷
+      IonBlast: 离子爆破
+      KeelhaulBubble: 泡泡
+      KeelhaulGeyserBottom: 喷泉
+      KeelhaulGeyserTop: 喷泉
+      LightBall: 奇光球
+      LightBallExplosion: 闪光爆破
+      LightBead: 奇光球
+      LightBeadSplit: 奇光球
+      LightBlade: 光刃弹雨
+      LightningArc: 闪电弧
+      LiquidBlade: 液态刀
+      LiquidBlade2: 液态刀
+      LuxorsGiftMagic: 卢克索之魔礼
+      MadAlchemistsCocktailAlt: 炼金狂人的混合烧瓶
+      MadAlchemistsCocktailBlue: 炼金狂人的蓝色烧瓶
+      MadAlchemistsCocktailGasCloud: 炼金狂人的毒雾
+      MadAlchemistsCocktailGreen: 炼金狂人的绿色烧瓶
+      MadAlchemistsCocktailPurple: 炼金狂人的紫色烧瓶
+      MadAlchemistsCocktailRed: 炼金狂人的红色烧瓶
+      MadAlchemistsCocktailShrapnel: 炼金狂人的弹片
+      MagnaBlast: 麦格纳冲击波
+      MagneticBeam: 磁场
+      MagneticOrb: 磁电球
+      ManaBolt: 魔法飞弹
+      ManaBoltSmall: 魔法小飞弹
+      ManaBoltSmall2: 魔法小飞弹
       ManaChargedCoral: Mana-charged Coral
-      ManaMonster: Monster
-      MelterAmp: Melter Amp
-      MelterNote1: Song
-      MelterNote2: Song
-      MeteorStar: Meteor Star
-      MeteorStarExplosion: Explosion
-      MiasmaGas: Gas
-      NanoPurgeHoldout: Nano Purge
-      NanoPurgeLaser: Nano Beam
-      NebulaElementalBeam: Beam
-      NettleRight: Thorn
-      NettleTip: Thorn
-      NightBolt: Bolt
-      NightOrb: Orb
-      NightsRayBeam: Ray
-      NuclearFuryProjectile: Nuclear Fury
-      ParticleBeamofDoom: Doom
-      PartySparkle: Pretty Sparkle
-      PhantasmalFuryProj: Fury
-      Phantom: Phantom
-      PhasedGodRay: Phased God Ray
-      PlagueFang: Plague Fang
-      PlasmaBolt: Bolt
-      PlasmaRay: Ray
-      PlasmaRay2: Ray
-      PlasmaShot: Shot
-      PoseidonTyphoon: Poseidon Typhoon
-      PrinceFlameLarge: Holy Fireball
-      PrinceFlameSmall: Holy Fire
-      RainbowComet: Comet
-      RainbowPartyCannonProjectile: Party Cannon
-      RainbowRocket: Rainbow Rocket
-      RancorArm: Vengeful Arm
-      RancorFog: Fog
-      RancorHoldout: Rancor
-      RancorLargeCinder: Lava Cinder
-      RancorLaserbeam: The Angy Beam
-      RancorMagicCircle: Magic Circle
-      RancorSmallCinder: Cinder
+      ManaMonster: 怪物
+      MelterAmp: 熔融电子
+      MelterNote1: 歌声
+      MelterNote2: 歌声
+      MeteorStar: 流星
+      MeteorStarExplosion: 爆破
+      MiasmaGas: 瘴气
+      NanoPurgeHoldout: 纳米净化
+      NanoPurgeLaser: 纳米光束
+      NebulaElementalBeam: 光束
+      NettleRight: 荆棘
+      NettleTip: 荆棘
+      NightBolt: 夜明弹
+      NightOrb: 夜明块
+      NightsRayBeam: 夜光
+      NuclearFuryProjectile: 原子暴怒
+      ParticleBeamofDoom: 毁灭粒子束
+      PartySparkle: 漂亮火花
+      PhantasmalFuryProj: 亡魂之怒
+      Phantom: 幻魂
+      PhasedGodRay: 神之射线
+      PlagueFang: 瘟疫之牙
+      PlasmaBolt: 等离子弹
+      PlasmaRay: 等离子射线
+      PlasmaRay2: 等离子射线
+      PlasmaShot: 等离子喷丸
+      PoseidonTyphoon: 海神之台风
+      PrinceFlameLarge: 神圣火球
+      PrinceFlameSmall: 圣火
+      RainbowComet: 陨星
+      RainbowPartyCannonProjectile: 彩虹派对加农炮
+      RainbowRocket: 彩虹火箭
+      RancorArm: 怨戾之手
+      RancorFog: 雾
+      RancorHoldout: 怨戾
+      RancorLargeCinder: 熔岩
+      RancorLaserbeam: 怨戾激光
+      RancorMagicCircle: 怨戾魔法阵
+      RancorSmallCinder: 熔岩
       RedirectingFire: Fire
       RedirectingGildedSoul: Gilded Soul
       RedirectingLostSoul: Soul
       RedirectingVengefulSoul: Soul
-      RougeSlashLarge: Slash
-      RougeSlashMedium: Slash
-      RougeSlashSmall: Slash
-      SanguineFlareProj: Flare
-      SeethingDischargeBrimstoneBarrage: Brimstone
-      SeethingDischargeBrimstoneHellblast: Hellblast
-      SerpentineBody: Serpentine
-      SerpentineHead: Serpentine
-      SerpentineTail: Serpentine
-      ShadecrystalProjectile: Crystal
-      ShadeNimbus: Nimbus
-      ShadeNimbusCloud: Nimbus
-      Shaderain: Rain
-      Shadowbolt: Bolt
-      ShiftingSandsProj: Shifting Sands
+      RougeSlashLarge: 绯红利刃
+      RougeSlashMedium: 绯红利刃
+      RougeSlashSmall: 绯红利刃
+      SanguineFlareProj: 血斑
+      SeethingDischargeBrimstoneBarrage: 迸裂硫火
+      SeethingDischargeBrimstoneHellblast: 狱炎风暴
+      SerpentineBody: 海蟒之身
+      SerpentineHead: 海蟒之头
+      SerpentineTail: 海蟒之尾
+      ShadecrystalProjectile: 暗影水晶
+      ShadeNimbus: 乌云
+      ShadeNimbusCloud: 乌云
+      Shaderain: 暗影之雨
+      Shadowbolt: 幽影箭
+      ShiftingSandsProj: 流沙
       SHPB: SHPB
-      SHPExplosion: Explosion
-      SHPL: Laser
-      SilvaBurst: Silva Burst
-      SlitheringEelProjectile: Eel
-      SmallSpirit: Small Angry Spirit
-      Snowball: Snowball
-      Snowflake: Snowflake
-      SolarBeam2: Beam
-      SolarElementalBeam: Beam
-      SoulPiercerBeam: Piercer
-      SoulPiercerBolt: Piercer
-      SparkInfernal: Spark
-      SparklingBeam: Sparkling Beam
-      SpiritCongregation: Spirit Monster
-      SpiritDust: Spirit Dust
-      Starblast: Star
-      StardustElementalBeam: Beam
-      StickyFeather: Feather
-      SupremeDustFlakProjectile: Dust
-      SupremeDustProjectile: Dust
-      TacticiansElectricBoom: Electric Explosion
-      TacticiansTrumpCardProj: Beam
-      TearsofHeavenProjectile: Tears of Heaven
+      SHPExplosion: 冲击波
+      SHPL: 镭射
+      SilvaBurst: 始源林海爆炸
+      SlitheringEelProjectile: 鳗鱼
+      SmallSpirit: 愤怒灵魂
+      Snowball: 雪球
+      Snowflake: 雪花
+      SolarBeam2: 阳炎光线
+      SolarElementalBeam: 光束
+      SoulPiercerBeam: 灵魂穿刺
+      SoulPiercerBolt: 灵魂穿刺
+      SparkInfernal: 火花
+      SparklingBeam: 闪耀光
+      SpiritCongregation: 魂灵怪物
+      SpiritDust: 灵魂之尘
+      Starblast: 星爆
+      StardustElementalBeam: 光束
+      StickyFeather: 粘性羽毛
+      SupremeDustFlakProjectile: 至尊之尘
+      SupremeDustProjectile: 至尊之尘
+      TacticiansElectricBoom: 电流爆裂
+      TacticiansTrumpCardProj: 光束
+      TearsofHeavenProjectile: 天堂之泪
       TerraBeam: Beam
-      TerraShard: Shard
-      ThunderstormShot: Shot
-      ThunderstormShotSplit: Shot
-      TradewindsProjectile: Feather
-      TridentIcicle: Trident Icicle
-      UberBubble: Bubble
-      UndinesRetributionSpear: Undine's Retribution
-      ValkyrieRayBeam: Valkyrie Ray
-      ValkyrieRayStaff: Valkyrie Ray
-      Vehemence: Blast of Vehemence
-      VehemenceHoldout: Vehemence
-      VehemenceSkull: Vehement Skull
-      VenusianBolt: Bolt
-      VenusianExplosion: Explosion
-      VenusianFlame: Venusian Cinder
-      VisceraBeam: Viscera
-      VitriolicViperFang: Fang
-      VitriolicViperSpit: Spit
-      VividBeam: Beam
-      VividBolt: Bolt
-      VividClarityBeam: Ray
-      VividExplosion: Explosion
-      VividLaser2: Vivid Bolt
-      VividOrb: Orb
-      VoidVortexProj: Void Vortex
-      VolatileStarcore: Volatile Starcore
-      VortexElementalBeam: Lightning
-      WaterLeechProj: Leech
-      WaterStream: Stream
-      WaterStream2: Stream
-      WaywasherProj: Waywasher Blast
-      WulfrumBolt: Bolt
+      TerraShard: 碎片
+      ThunderstormShot: 雷电风暴
+      ThunderstormShotSplit: 雷电风暴
+      TradewindsProjectile: 信风羽
+      TridentIcicle: 寒冰三叉戟
+      UberBubble: 泡泡
+      UndinesRetributionSpear: 深渊女神的复仇
+      ValkyrieRayBeam: 女武神射线
+      ValkyrieRayStaff: 女武神杖
+      Vehemence: 狞桀爆炸
+      VehemenceHoldout: 狞桀
+      VehemenceSkull: 狞桀骷髅
+      VenusianBolt: 飞弹
+      VenusianExplosion: 火焰
+      VenusianFlame: 金耀余烬
+      VisceraBeam: 内脏
+      VitriolicViperFang: 尖牙
+      VitriolicViperSpit: 唾液
+      VividBeam: 光束
+      VividBolt: 飞弹
+      VividClarityBeam: 光束
+      VividExplosion: 爆炸
+      VividLaser2: 耀界之光
+      VividOrb: 闪耀块
+      VoidVortexProj: 虚空漩涡
+      VolatileStarcore: 挥发性星核
+      VortexElementalBeam: 闪电
+      WaterLeechProj: 水蛭
+      WaterStream: 水流
+      WaterStream2: 水流
+      WaywasherProj: 清道夫弹幕
+      WulfrumBolt: 钨钢杖飞弹
       WulfrumManaDrain: Mana Drain
-      WyvernFeatherGreen: Feather
-      WyvernFeatherPink: Feather
-      WyvernFeatherPurple: Feather
-      WyvernProjectile: Wyvern
-      YharimsCrystalBeam: Yharim's Beam
-      YharimsCrystalPrism: Yermes Christal
-      AegisBeam: Aegis Beam
-      AegisBlast: Aegis Blast
-      AegisBlast2: Aegis Blast
-      AegisFlame: Aegis Flame
-      AftershockRock: Rock
-      AmidiasWhirlpool: Whirlpool
-      AncientBeam: Ancient Beam
-      AncientStar: Ancient Star
-      AndromedasStride: Andromeda's Stride
-      AndromedasStrideBoltSpawner: Andromeda Shock
-      AquaStream: Aqua Stream
-      AridGrandeur: Arid Grandeur
-      AriesWrath: Aries's Wrath
-      AriesWrathConstellation: Constellation
-      ArkoftheAncientsParryHoldout: Fractured Ark
-      ArkoftheAncientsSwungBlade: Fractured Ark
-      ArkoftheCosmosBlast: Sundering Scissors
-      ArkoftheCosmosConstellation: Constellation
-      ArkoftheCosmosParryHoldout: Ark of the Cosmos
-      ArkoftheCosmosSwungBlade: Ark of the Cosmos
-      ArkoftheElementsParryHoldout: Ark of the Elements
-      ArkoftheElementsSnapBlast: Rending Scissors
-      ArkoftheElementsSwungBlade: Ark of the Elements
-      AstralScytheProjectile: Astral Ring
-      AtaraxiaHoming: Definitely Not Exoblade
-      AtaraxiaMain: Not Exoblade
-      AtaraxiaSide: Also Not Exoblade
-      AtaraxiaSplit: Still Not Exoblade
-      BalefulHarvesterProjectile: Pumpkin Skull
-      BallOFuguProj: Ball O Fugu
-      BansheeHookBoom: Boom
-      BansheeHookScythe: Scythe
-      BiomeBladeHoldout: Mended Biome Blade
-      BitingEmbrace: Biting Embrace
-      BitingEmbraceMist: Glacial Mist
+      WyvernFeatherGreen: 绿色星龙羽
+      WyvernFeatherPink: 粉色星龙羽
+      WyvernFeatherPurple: 紫色星龙羽
+      WyvernProjectile: 星龙
+      YharimsCrystalBeam: 魔君水晶聚焦射线
+      YharimsCrystalPrism: 爆菌水京
+      AegisBeam: 庇护之光
+      AegisBlast: 宙斯爆怒
+      AegisBlast2: 宙斯低语
+      AegisFlame: 宙斯怒火
+      AftershockRock: 余震岩
+      AmidiasWhirlpool: 阿米迪亚斯漩涡
+      AncientBeam: 远古之光
+      AncientStar: 远古之星
+      AndromedasStride: 仙女座之跃
+      AndromedasStrideBoltSpawner: 仙女座震击
+      AquaStream: 澄净之水
+      AridGrandeur: 旱瘠之伟
+      AriesWrath: 阿瑞斯之怒
+      AriesWrathConstellation: 星座之击
+      ArkoftheAncientsParryHoldout: 破碎方舟
+      ArkoftheAncientsSwungBlade: 破碎方舟
+      ArkoftheCosmosBlast: 断绝之拆解
+      ArkoftheCosmosConstellation: 星座之击
+      ArkoftheCosmosParryHoldout: 鸿蒙方舟
+      ArkoftheCosmosSwungBlade: 鸿蒙方舟
+      ArkoftheElementsParryHoldout: 元素方舟
+      ArkoftheElementsSnapBlast: 断绝之撕裂
+      ArkoftheElementsSwungBlade: 元素方舟
+      AstralScytheProjectile: 星耀戒
+      AtaraxiaHoming: 绝非凡刃
+      AtaraxiaMain: 非凡之刃
+      AtaraxiaSide: 并非凡刃
+      AtaraxiaSplit: 仍非凡刃
+      BalefulHarvesterProjectile: 南瓜头骨
+      BallOFuguProj: 河豚链球
+      BansheeHookBoom: 爆炸
+      BansheeHookScythe: 鬼爪
+      BiomeBladeHoldout: 已修复的环境之刃
+      BitingEmbrace: 啮咬之拥
+      BitingEmbraceMist: 冰雾
       BladecrestOathswordProj: Bladecrest Oathsword
-      BlazingPhantomBlade: Blazing Phantom Blade
-      Blood: Blood
-      Blood2: Blood
-      BloodBall: Blood Ball
-      BloodExplosion: Blood
-      BloodScythe: Blood Scythe
-      BloodyBlade: Bloody Blade
-      BonebreakerFragment1: Shrapnel
-      BonebreakerProjectile: Bonebreaker
-      Brimblast: Brimblast
-      BrimlanceHellfireExplosion: Explosion
-      BrimlanceStandingFire: Flame
-      Brimlash2: Brimlash
-      BrimlashProj: Brimlash
-      BrimstoneBoom: Boom
-      BrimstoneLaserFriendly: Laser
-      BrimstoneSwordExplosion: Explosion
-      BrinySpout: Briny Spout
-      BrinyTyphoonBubble: Bubble
-      BrokenBiomeBladeHoldout: Broken Biome Blade
-      BurningMeteor: Meteor
-      CalamityAura: Aura
-      CalamityAuraType2: Aura
-      CalamityAuraType3: Aura
-      ChainedMeatHook: Enchanted Meat Hook
-      ClamCrusherFlail: Clam Crusher
-      CometQuasherMeteor: Meteor
-      CosmicBolt: Bolt
-      CosmicDischargeFlail: Cosmic Discharge
-      CosmicIceBurst: Cosmic Ice
-      CosmicOrb: Orb
-      CosmicShivBall: Cosmic Energy
-      CosmicShivBlade: Beam
-      CosmicSpiritBomb1: Bomb
-      CosmicSpiritBomb2: Bomb
-      CosmicSpiritBomb3: Bomb
-      CrescentMoonFlail: Crescent Moon
-      CrescentMoonProj: Crescent Moon
-      CrystylCrusherRay: Crystyl Crusher Ray
-      Cyclone: Cyclone
-      Dark: Dark
-      DarkBall: Dark Ball
-      DarkBeam: Dark Beam
-      DarkIceZero: Dark Ice
+      BlazingPhantomBlade: 炽炎幻影刃
+      Blood: 血
+      Blood2: 血
+      BloodBall: 血球
+      BloodExplosion: 血爆
+      BloodScythe: 鲜血之镰
+      BloodyBlade: 流血之刃
+      BonebreakerFragment1: 弹片
+      BonebreakerProjectile: 碎骨者
+      Brimblast: 硫火爆焱
+      BrimlanceHellfireExplosion: 硫狱炎爆
+      BrimlanceStandingFire: 硫火
+      Brimlash2: 硫火鞭挞
+      BrimlashProj: 硫火鞭挞
+      BrimstoneBoom: 硫火爆焱
+      BrimstoneLaserFriendly: 硫火死光
+      BrimstoneSwordExplosion: 硫火爆炎
+      BrinySpout: 盐水浴
+      BrinyTyphoonBubble: 泡泡
+      BrokenBiomeBladeHoldout: 环境断刃
+      BurningMeteor: 流星
+      CalamityAura: 灾厄狱境
+      CalamityAuraType2: 灾厄狱境
+      CalamityAuraType3: 灾厄狱境
+      ChainedMeatHook: 附魔肉钩
+      ClamCrusherFlail: 碎蛤者
+      CometQuasherMeteor: 陨星
+      CosmicBolt: 宙能箭
+      CosmicDischargeFlail: 寒宙弹刃
+      CosmicIceBurst: 寒宙魔冰
+      CosmicOrb: 宙能块
+      CosmicShivBall: 宇宙能量
+      CosmicShivBlade: 宇宙射线
+      CosmicSpiritBomb1: 宙能聚爆
+      CosmicSpiritBomb2: 宙能聚爆
+      CosmicSpiritBomb3: 宙能聚爆
+      CrescentMoonFlail: 新月
+      CrescentMoonProj: 新月
+      CrystylCrusherRay: 晶体碾碎射线
+      Cyclone: 旋风
+      Dark: 黑暗
+      DarkBall: 暗影球
+      DarkBeam: 暗影射线
+      DarkIceZero: 暗冰
       DeathsAscensionProjectile: Scythe
       DeathsAscensionSwing: Death's Ascension
-      DecaysRetort: Decay's Retort
-      DecaysRetortDash: Evisceration Lunge
-      DemonBlast: Devil Fork
-      DepthOrb: Beam
-      DepthOrb2: Beam
-      DevilsSunriseCyclone: Devil's Sunrise
-      DevilsSunriseProj: Devil's Sunrise
-      DivineHatchetBoomerang: Scorching Seeker
-      DNA: DNA
-      DNA2: DNA
-      DracoBeam: Beam
-      DracoBeam2: Beam
-      DraconicSpark: Draconic Spark
-      DragonPowFlail: Dragon Pow
-      DragonRageFireball: Fire
-      DragonRageStaff: Dragon Rage
-      Earth2: Earth
-      Earth3: Earth
-      Earth4: Earth
-      EarthProj: Earth
-      ElementalExcaliburBeam: Beam
-      ElementalGlassStar: Glass Star
-      ElementBall: Ball
-      ElementBallShiv: Shiv
-      EmpyreanKnife: Empyrean Knife
+      DecaysRetort: 腐化之复仇
+      DecaysRetortDash: 除脏猛冲
+      DemonBlast: 恶魔三叉戟
+      DepthOrb: 深度球光
+      DepthOrb2: 深度球光
+      DevilsSunriseCyclone: 邪锋黎明
+      DevilsSunriseProj: 邪锋黎明
+      DivineHatchetBoomerang: 炽炎焚罪者
+      DNA: 卢克雷西亚剑气
+      DNA2: 卢克雷西亚剑气
+      DracoBeam: 天龙座射线
+      DracoBeam2: 天龙座射线
+      DraconicSpark: 暴风灼焱
+      DragonPowFlail: 龙啸波
+      DragonRageFireball: 火球
+      DragonRageStaff: 巨龙之怒
+      Earth2: 无限大地
+      Earth3: 无限大地
+      Earth4: 无限大地
+      EarthProj: 无限大地
+      ElementalExcaliburBeam: 元素圣剑
+      ElementalGlassStar: 玻璃之星
+      ElementBall: 元素球
+      ElementBallShiv: 元素短剑
+      EmpyreanKnife: 苍穹飞刀
       EntropicFlechette: Entropic Flechette
       EntropicFlechetteLarge: Entropic Flechette
       EntropicFlechetteSmall: Entropic Flechette
-      EonBolt: Eon Bolt
-      EssenceBeam: Essence Beam
-      EssenceFireball: Fireball
-      EssenceFlame2: Flame
-      EssenceScythe: Scythe
-      EutrophicScimitarProj: Scimitar Zap
-      EutrophicSpark: Eutrophic Spark
-      ExcelsusBlue: Excelsus
-      ExcelsusMain: Excelsus
-      ExcelsusPink: Excelsus
-      Exobeam: Exobeam
+      EonBolt: 永恒之雷
+      EssenceBeam: 精华光束
+      EssenceFireball: 浓缩火球
+      EssenceFlame2: 火焰
+      EssenceScythe: 镰刀
+      EutrophicScimitarProj: 水华弯刀
+      EutrophicSpark: 电火星
+      ExcelsusBlue: 宙魔之纹
+      ExcelsusMain: 宙魔之纹
+      ExcelsusPink: 宙魔之纹
+      Exobeam: 星流光束
       ExobeamSlash: Exobeam Slash
       ExobeamSlashCreator: Anime Sword Effect
       ExobladeProj: Exoblade
-      Exoboom: Exoplasma Explosion
-      Exocomet: Comet
-      ExtantAbhorrence: Extant Abhorrence
-      ExtantAbhorrenceMonolith: Abhorrent Monolith
-      FallenPaladinsHammerProj: Fallen Paladin's Hammer
-      Feather: Feather
-      Flarefrost: Flarefrost
-      ForbiddenOathbladeProjectile: Oathblade
-      GaelExplosion: Explosion
-      GaelSkull: No Longer Ark of the Cosmos' Superior Cousin
-      GaelSkull2: No Longer Ark of the Cosmos' Superior Cousin
-      GalacticaComet: Comet
-      GalaxiaBolt: Galaxia Bolt
-      GalaxiaHoldout: Galactic Formation
-      GalaxiaTropicRing: Star Ring
-      GalaxyBlast: Blast
-      GalaxyBlastType2: Blast
-      GalaxyBlastType3: Blast
-      GalaxySmasherHammer: Galaxy Smasher
-      GalaxyStar: Star
-      GalileosMoon: Crescent Moon
-      GalileosPlanet: Planet
-      GelWave: Wave
-      GemTechYellowShard: Trireme's Yellow Gem
-      GestureForTheDrowned: Biome Blade
-      GestureForTheDrownedOrb: Gesture for the Drowned
-      GhastlyChain: Ghastly Chain
-      GhastlySoulLarge: Ghastly Soul
-      GhastlySoulMedium: Ghastly Soul
-      GhastlySoulSmall: Ghastly Soul
-      GreenWater: Tooth
-      GrovetendersEntanglingVines: Entangling Growth
-      GrovetendersTouch: Grovetender's Touch
-      HeavensMight: Heaven's Might
-      HellionSpike: Spike
-      HolyColliderHolyFire: Fire
-      HyperBlade: Blade
+      Exoboom: 星流聚爆
+      Exocomet: 星流
+      ExtantAbhorrence: 犹存之憎
+      ExtantAbhorrenceMonolith: 憎恶巨石
+      FallenPaladinsHammerProj: 堕落圣骑士之锤
+      Feather: 羽毛
+      Flarefrost: 霜炎
+      ForbiddenOathbladeProjectile: 誓约与禁忌之弹幕
+      GaelExplosion: 盖尔震击
+      GaelSkull: 盖尔鲜血头颅
+      GaelSkull2: 盖尔鲜血头颅
+      GalacticaComet: 彗星
+      GalaxiaBolt: 星河霍闪
+      GalaxiaHoldout: 星河之构
+      GalaxiaTropicRing: 星环
+      GalaxyBlast: 银河聚爆
+      GalaxyBlastType2: 银河聚爆
+      GalaxyBlastType3: 银河聚爆
+      GalaxySmasherHammer: 银河溃灭者
+      GalaxyStar: 陨星
+      GalileosMoon: 新月
+      GalileosPlanet: 伽利略行星
+      GelWave: 凝胶波
+      GemTechYellowShard: 星宇流霆宝石
+      GestureForTheDrowned: 环境之刃
+      GestureForTheDrownedOrb: 溺亡者之姿
+      GhastlyChain: 惊惧魂锁
+      GhastlySoulLarge: 惧魂
+      GhastlySoulMedium: 惧魂
+      GhastlySoulSmall: 惧魂
+      GreenWater: 毒牙
+      GrovetendersEntanglingVines: 缠绕疯长
+      GrovetendersTouch: 树妖之触
+      HeavensMight: 极乐之威
+      HellionSpike: 尖刺
+      HolyColliderHolyFire: 集束焰火
+      HyperBlade: 至尊之刃
       IceBombFriendly: Ice Bomb
-      IllustriousKnife: Illustrious Knife
-      InsidiousHarpoon: Harpoon
-      JudgementBlah: Blah Beam
-      JudgementProj: Judgement
-      LamentationsOfTheChained: Lamentations of the Chained
-      LaserFountain: Fountain
-      LifeScythe: Scythe
-      Light: Light
-      LightBeam: Light Beam
-      LightningThing: Lightning
-      LuxorsGiftMelee: Gift
+      IllustriousKnife: 圣光飞刀
+      InsidiousHarpoon: 鱼叉
+      JudgementBlah: ‘巴拉’光束
+      JudgementProj: 裁决
+      LamentationsOfTheChained: 羁系者之哀歌
+      LaserFountain: 射线喷井
+      LifeScythe: 生命之镰
+      Light: 光
+      LightBeam: 光束
+      LightningThing: 电光
+      LuxorsGiftMelee: 卢克索的礼物
       MarniteDeconstructorProj: Marnite Deconstructor
-      MarniteObliteratorProj: Marnite Obliterator
-      MercurialTides: Mercurial Tides
-      MercurialTidesBlast: Mercurial Blast
-      MercurialTidesMonolith: Mercurial Monolith
-      MicrowaveAura: Microwave Radiation
-      MirrorBlast: Blast
-      MonstrousKnife: Monstrous Knife
-      MourningSkull: Mourning Skull
-      MourningstarFlail: Mourningstar
-      MurasamaSlash: Murasama
-      Nebudust: Dust
-      NebulashFlail: Nebulash
-      NebulaShot: Shot
-      NeptuneOrb: Beam
-      Oathblade: Oathblade
+      MarniteObliteratorProj: 花岗石钻头
+      MercurialTides: 幻变潮汐
+      MercurialTidesBlast: 幽鬼爆破
+      MercurialTidesMonolith: 活化巨石
+      MicrowaveAura: 微波辐照
+      MirrorBlast: 爆炸
+      MonstrousKnife: 畸变飞刀
+      MourningSkull: 恐惧骷髅
+      MourningstarFlail: 晨星链刃
+      MurasamaSlash: 鬼妖村正
+      Nebudust: 星云余烬
+      NebulashFlail: 星云鞭
+      NebulaShot: 子弹
+      NeptuneOrb: 渊海三叉戟
+      Oathblade: 禁忌之刃
       OathswordFlame: Flame
       OldLordOathswordProj: Old Lord Oathsword
-      OmnibladeSwing: Omniblade
-      Orbacle: Auric Orb
-      PhoenixsPride: Phoenix's Pride
-      PhosphorescentGauntletPunches: Punch
-      PhotonRipperProjectile: Extraordinarily Cost-Inefficient Chainsaw
-      PlagueSeeker: Seeker
-      PolarisGaze: Polaris's Gaze
-      PolarisGazeDash: Polaris Piercing Lunge
-      PolarisGazeStar: Northern Star
-      PrismaticBeam: Prismatic Beam
-      PrismaticWave: Wave
-      PrismRay: Prismatic Light
-      PrismTooth: Photon Ripper
-      ProfanedSwordProj: Profaned Sword
-      PurityProjection: Purity Projection
-      PurityProjectionSigil: Purity Sigil
-      PwnagehammerEcho: Pwnagehammer Echo
-      PwnagehammerProj: Pwnagehammer
-      RainBolt: Bolt
-      RainbowBoom: Boom
-      Razorwind: Razorwind
-      RedtideWhirlpool: Whirlpool
-      RemsRevengeProj: Rem's Revenge
-      RendingNeedle: Rending Needle
-      Rox1: Rox1
-      RoxShockwave: Rox Shockwave
-      RoxSlam: Rox Slam
-      RSSolarFlare: Flare
-      SandBlade: Blade
-      SandFire: Fire
-      SanguineFury: Sanguine Fury
-      SanguineFuryDash: Shredding Lunge
-      SanguineFuryWheel: Sanguine Bladewheel
-      ScourgeoftheCosmosMini: Miniature Cosmic Scourge
-      ScourgeoftheCosmosProj: Cosmic Scourge
-      SeashineSwordProj: Seashine Sword Proj
-      SHIV: Shiv
+      OmnibladeSwing: 全能之刃
+      Orbacle: 圣金源矿
+      PhoenixsPride: 鳯傲
+      PhosphorescentGauntletPunches: 重拳出击！
+      PhotonRipperProjectile: 垃圾链锯，不用了
+      PlagueSeeker: 瘟疫探寻者
+      PolarisGaze: 北辰凝视
+      PolarisGazeDash: 北辰冲刺
+      PolarisGazeStar: 北极星
+      PrismaticBeam: 彩虹光束
+      PrismaticWave: 虹光剑气
+      PrismRay: 彩虹棱光
+      PrismTooth: 光子撕裂者
+      ProfanedSwordProj: 圣火之刃
+      PurityProjection: 纯化投弹
+      PurityProjectionSigil: 纯元魔符
+      PwnagehammerEcho: 幽灵战锤
+      PwnagehammerProj: 圣时之锤
+      RainBolt: 雨滴
+      RainbowBoom: 爆炸
+      Razorwind: 水刃龙卷
+      RedtideWhirlpool: 归元漩涡
+      RemsRevengeProj: 雷姆的复仇
+      RendingNeedle: 撕裂之针
+      Rox1: 石之约
+      RoxShockwave: 石约之震荡
+      RoxSlam: 石约之猛攻
+      RSSolarFlare: 灼烧
+      SandBlade: 瀚漠之刃
+      SandFire: 瀚漠焦火
+      SanguineFury: 血色之怒
+      SanguineFuryDash: 撕毁之跃
+      SanguineFuryWheel: 血腥轮刃
+      ScourgeoftheCosmosMini: 宇宙劫难
+      ScourgeoftheCosmosProj: 宇宙灾祸
+      SeashineSwordProj: 海耀剑气
+      SHIV: SHIV
       AquaticDischargeProj: Aquatic Discharge
       CosmicShivProj: Cosmic Shiv
       ElementalShivProj: Elemental Shiv
       GalileoGladiusProj: Galileo Gladius
       LucreciaProj: Lucrecia
       SubmarineShockerProj: Submarine Shocker
-      SolarNeedle: Solar Needle
-      SolsticeBeam: Beam
-      SoulScythe: Scythe
-      SoulScytheExplosion: Explosion
-      Spark: Spark
-      SpatialSpear: Spear
-      SpatialSpear2: Spear
-      SpatialSpear3: Spear
-      SpatialSpear4: Spear
-      AmidiasTridentProj: Trident
-      AstralPikeProj: Pike
-      BansheeHookProj: Banshee Hook
-      BrimlanceProj: Brimlance
-      DiseasedPikeSpear: Pike
-      EarthenPikeSpear: Pike
+      SolarNeedle: 日针
+      SolsticeBeam: 近日点光束
+      SoulScythe: 灵魂之镰
+      SoulScytheExplosion: 影镰崩
+      Spark: 光
+      SpatialSpear: 长枪
+      SpatialSpear2: 长枪
+      SpatialSpear3: 长枪
+      SpatialSpear4: 长枪
+      AmidiasTridentProj: 阿米迪亚斯三叉戟
+      AstralPikeProj: 幻星矛
+      BansheeHookProj: 鬼爪
+      BrimlanceProj: 硫磺火矛
+      DiseasedPikeSpear: 瘟疫长枪
+      EarthenPikeSpear: 磐石地元叉
       ElementalLanceProjectile: Lance
-      GildedProboscisProj: Proboscis
-      GoldplumeSpearProjectile: Spear
-      HellionFlowerSpearProjectile: Spear
-      InsidiousImpalerProj: Insidious Impaler
-      NadirSpear: Nadir
+      GildedProboscisProj: 镀金鸟喙
+      GoldplumeSpearProjectile: 金羽
+      HellionFlowerSpearProjectile: 狱火花矛
+      InsidiousImpalerProj: 阴险穿刺者
+      NadirSpear: 天底
       RedtideSpearProjectile: Redtide Spear
-      SausageMakerSpear: Spear
-      StarnightLanceProjectile: Lance
-      StreamGougeProj: Stream Gouge
-      TenebreusTidesProjectile: Tenebreus Tides
-      TerraLanceProjectile: Lance
+      SausageMakerSpear: 长枪
+      StarnightLanceProjectile: 长枪
+      StreamGougeProj: 血槽
+      TenebreusTidesProjectile: 深渊潮涌
+      TerraLanceProjectile: 长枪
       VulcaniteLanceProj: Lance
-      YateveoBloomSpear: Yateveo Bloom
-      SpineOfThanatosProjectile: Spine of Thanatos
-      StarnightBeam: Beam
-      StellarContemptHammer: Stellar Contempt
-      StormBeam: Beam
-      StormMark: Mark
-      StormRulerProj: Ruler
+      YateveoBloomSpear: 玫瑰之盛放
+      SpineOfThanatosProjectile: 塔纳托斯的脊柱
+      StarnightBeam: 夜之星光
+      StellarContemptHammer: 星体击碎者
+      StormBeam: 死光
+      StormMark: 死亡标记
+      StormRulerProj: 管束者
       StreamGougePortal: Portal
-      SulphurousGrabberBubble: Bubble
-      SulphurousGrabberBubble2: Bubble
-      SunlightBlade: Blade
-      SwordsmithsPride: Swordsmith's Pride
-      SwordsmithsPrideBeam: Swordsmith's Projection
-      SwordsplosionBlue: Blue Sword
-      SwordsplosionGreen: Green Sword
-      SwordsplosionPurple: Purple Sword
-      SwordsplosionRed: Red Sword
-      TaintedBladeSlasher: Blade
-      TenebreusTidesWaterProjectile: Water Spear
-      TenebreusTidesWaterSpear: Tenebreus Tides Water Spear
-      TenebreusTidesWaterSword: Tenebreus Tides Water Sword
-      TerraEdgeBeam: Beam
-      TerraSpear: Spear
-      TerratomereProjectile: Bolt
-      TerrorBeam: Terror Beam
-      TerrorBlast: Terror Blast
-      ThanatosBoom: Boom
-      ThornBase: Thorn
-      ThornTip: Thorn
-      TinyCrystal: Crystal
-      TinyFlare: Flare
-      Tornado: Tornado
-      TriactisHammerProj: Triactis' True Paladinian Mage-Hammer of Might
-      TrueAncientBeam: True Ancient Beam
-      TrueAncientBlast: Ancient Energy Blast
-      TrueAridGrandeur: Arid Grandeur
-      TrueAridGrandeurShot: Arid Shredder
-      TrueArkoftheAncientsParryHoldout: Ark of the Ancients
-      TrueArkoftheAncientsSwungBlade: Ark of the Ancients
-      TrueBiomeBladeHoldout: True Biome Blade
-      TrueBitingEmbrace: Biting Embrace
-      TrueCausticEdgeProjectile: Edge
-      TrueDecaysRetort: Decay's Retort
-      TrueGrovetendersTouch: Grovetender's Touch
-      TruePurityProjection: Purity Projection
-      TumbleweedFlail: Tumbleweed
-      TumbleweedRolling: Tumbleweed
-      TyphonsGreedBubble: Typhon's Greed
-      TyphonsGreedStaff: Typhon's Greed
-      UltimusCleaverDust: Ultimus Flame
-      UrchinBall: UrchinBall
-      UrchinBallSpike: Spike
+      SulphurousGrabberBubble: 气泡
+      SulphurousGrabberBubble2: 气泡
+      SunlightBlade: 日炎剑
+      SwordsmithsPride: 剑匠之傲
+      SwordsmithsPrideBeam: 剑匠之影
+      SwordsplosionBlue: 爆破剑
+      SwordsplosionGreen: 爆破剑
+      SwordsplosionPurple: 爆破剑
+      SwordsplosionRed: 爆破剑
+      TaintedBladeSlasher: 剑刃邪风
+      TenebreusTidesWaterProjectile: 凝水长枪
+      TenebreusTidesWaterSpear: 凝水长枪
+      TenebreusTidesWaterSword: 凝水之刃
+      TerraEdgeBeam: 光束
+      TerraSpear: 泰拉之星
+      TerratomereProjectile: 光束
+      TerrorBeam: 恐惧光束
+      TerrorBlast: 惊惧爆炸
+      ThanatosBoom: 轰
+      ThornBase: 荆棘
+      ThornTip: 荆棘
+      TinyCrystal: 小水晶
+      TinyFlare: 小耀斑
+      Tornado: 飓风
+      TriactisHammerProj: 真·泰阿克提斯之圣骑士魔锤
+      TrueAncientBeam: 真远古之光
+      TrueAncientBlast: 远古能量爆
+      TrueAridGrandeur: 旱瘠之伟
+      TrueAridGrandeurShot: 旱瘠之壮
+      TrueArkoftheAncientsParryHoldout: 远古方舟
+      TrueArkoftheAncientsSwungBlade: 远古方舟
+      TrueBiomeBladeHoldout: 真环境之刃
+      TrueBitingEmbrace: 啮咬之拥
+      TrueCausticEdgeProjectile: 真·绝望之刃
+      TrueDecaysRetort: 腐化之复仇
+      TrueGrovetendersTouch: 树妖之触
+      TruePurityProjection: 纯化投弹
+      TumbleweedFlail: 风滚草
+      TumbleweedRolling: 风滚草
+      TyphonsGreedBubble: 贪魂台风
+      TyphonsGreedStaff: 贪魂台风
+      UltimusCleaverDust: 终焉余焰
+      UrchinBall: 海胆球
+      UrchinBallSpike: 海胆刺
       UrchinMaceProjectile: Urchin Mace
-      UrchinSpikeFugu: Urchin Spike
-      ViolenceSlashProjectile: Violence
-      ViolenceThrownProjectile: Violence
+      UrchinSpikeFugu: 海胆刺
+      ViolenceSlashProjectile: 恣睢
+      ViolenceThrownProjectile: 恣睢
       VirulentBeeWave: Virulent Bee Wave
       VirulentWave: Virulent Wave
-      VoidEssence: Void Essence
-      VoidTentacle: Void Tentacle
+      VoidEssence: 虚空精华
+      VoidTentacle: 虚空精华
       VolcanicFireball: Volcanic Fireball
       VolcanicFireballLarge: Volcanic Fireball
-      Waterfall: Beam
-      WhiteBoltAura: Aura
-      WhiteBoltAuraBlah: Aura
-      WhiteOrb: Orb
-      WhiteOrbBlah: Orb
-      Whiterain: Rain
-      WhiterainBlah: Rain
+      Waterfall: 光束
+      WhiteBoltAura: 光圈
+      WhiteBoltAuraBlah: 光圈
+      WhiteOrb: 苍白块
+      WhiteOrbBlah: 苍白块
+      Whiterain: 苍白雨
+      WhiterainBlah: 苍白之雨
       WulfrumScrew: Screw
       WulfrumScrewdriverProj: Screwdriver
-      YateveoBloomProj: Yateveo Bloom
-      AirSpinnerYoyo: Air Spinner
-      AortaYoyo: Aorta
-      AzathothYoyo: Azathoth
+      YateveoBloomProj: 玫瑰之盛放
+      AirSpinnerYoyo: 空旋
+      AortaYoyo: 大动脉
+      AzathothYoyo: 阿撒托斯
       FaultLineYoyo: Fault Line
-      GodsGambitYoyo: The God's Gambit
-      LaceratorYoyo: Lacerator
-      MicrowaveYoyo: The Microwave
-      ObliteratorYoyo: The Obliterator
-      OblivionYoyo: Oblivion
-      OracleYoyo: The Oracle
-      PandemicYoyo: Pandemic
-      QuagmireYoyo: Quagmire
-      RiptideYoyo: Riptide
-      ShimmersparkYoyo: Shimmerspark
-      SolarFlareYoyo: Solar Flare
-      SulphurousGrabberYoyo: Sulphurous Grabber Yoyo
-      VerdantYoyo: Verdant
-      YinYoyo: Yin-Yo
-      Akato: Akato
-      Astrophage: Astrophage
-      BabyGhostBell: Baby Ghost Bell
-      Bear: Bear
-      BendyPet: Dreamfog Dragon
-      BrimlingPet: Brimling
-      ChibiiDoggo: Chibii Devourer
-      ChibiiDoggoFly: Chibii Devourer (Flying)
-      DaawnlightSpiritOriginMinion: Daawnlight
-      DannyDevitoPet: Danny Devito
-      FlakPet: Flak Hermit
-      FoxPet: Fox
-      KendraPet: Kendra
-      LadShark: Lad Shark
-      LeviPet: Levi
-      LittleLightProj: Little Light
-      MiniHiveMind: Mini Hive Mind
+      GodsGambitYoyo: 神旨
+      LaceratorYoyo: 裂魔
+      MicrowaveYoyo: 微波
+      ObliteratorYoyo: 泯灭
+      OblivionYoyo: 遗境
+      OracleYoyo: 先知
+      PandemicYoyo: 流感
+      QuagmireYoyo: 泥潭
+      RiptideYoyo: 涡流
+      ShimmersparkYoyo: 烁光
+      SolarFlareYoyo: 太阳耀斑
+      SulphurousGrabberYoyo: 硫磺劫掠者
+      VerdantYoyo: 葱茏
+      YinYoyo: 阴阳
+      Akato: 阿卡托
+      Astrophage: 噬星体
+      BabyGhostBell: 小鬼铃水母
+      Bear: 小熊
+      BendyPet: 翡翠幼龙
+      BrimlingPet: 小硫火灵
+      ChibiiDoggo: 女装神长
+      ChibiiDoggoFly: 飞行中的女装神长
+      DaawnlightSpiritOriginMinion: 曙旼始灵
+      DannyDevitoPet: 丹尼·德维托
+      FlakPet: 酸丘隐居者
+      FoxPet: 狐狸
+      KendraPet: 肯德拉狗
+      LadShark: 鲨鱼小伙
+      LeviPet: 利维坦
+      LittleLightProj: 机灵
+      MiniHiveMind: 腐巢宝宝
       OceanSpirit: Ocean Spirit
-      PerforaMini: Perforamini
-      PineapplePetProj: Pineapple
-      PlaguebringerBab: Plaguebringer Bab
-      RadiatorPet: Radiator
-      RotomPet: Rotom
-      SCalPet: Supreme Calamitas
-      Sparks: Sparks
-      ThirdSage: Third Sage
-      YharonSonPet: Son of Yharon
+      PerforaMini: 小血肉宿主
+      PineapplePetProj: 菠萝
+      PlaguebringerBab: 瘟疫使者歌莉娅宝宝
+      RadiatorPet: 辐射
+      RotomPet: 电鬼洛托姆
+      SCalPet: 至尊灾厄眼
+      Sparks: 火花
+      ThirdSage: 第三贤者
+      YharonSonPet: 犽戎之子
       AccelerationRoundProj: Acceleration Round
       AcidRoundProj: Acid Round
       AdamAcceleratorBeam: Adamantite Particle Beam
       AdamantiteAcceleratorHoldout: Adamantite Particle Accelerator
       AMR2: AMR
       AMRShot: AMR
-      AngelicBeam: Angelic Beam
-      AquaBlast: Aqua Blast
-      AquaBlastToxic: Aqua Blast Toxic
-      Aquashard: Aquashard
-      AquashardSplit: Aquashard
-      ArcherfishShot: Water Round
-      ArcticArrowProj: Arctic Arrow
-      AstralCannonProjectile: Astral Crystal
-      AstralRound: Astral Round
-      AstralSandgun: Astral Sandgun
-      AstrealArrow: Astreal Arrow
-      AstrealFlame: Flame
-      AuralisBullet: Bullet
-      AuroraFire: Aurora
-      BallistaGreatArrow: Ballista Great Arrow
-      BeeRPG: Bee RPG
-      BigCoral: Big Coral
-      BigNuke: Big Nuke
-      BloodBoilerFire: Blood
-      BloodClotFriendly: Blood Clot
-      BloodfireArrowProj: Bloodfire Arrow
-      BloodfireBulletProj: Bloodfire Bullet
-      BloodflareSoul: Blood Soul
-      Bolt: Bolt
-      BoltArrow: Bolt Arrow
-      BouncingShotgunPellet: Shotgun Pellet
-      BrimstoneBolt: Bolt
-      BrimstoneFireFriendly: Fire
-      ButcherGun: Butcher
-      CardClub: Club
-      CardClubSplit: Club
-      CardDiamond: Diamond
-      CardHeart: Heart
-      CardSpade: Spade
-      ChargedBlast: Blast
-      ChargedBlast2: Blast
-      ChargedBlast3: Blast
-      ChargedDartExplosion: Explosion
-      ChickenCannonHeld: Chicken Cannon
-      ChickenExplosion: Kentucky Fried Explosion
-      ChickenRocket: Chicken Rocket
-      ClamorRifleProj: Energy Bolt
-      ClamorRifleProjSplit: Energy Bolt
-      ClaretCannonProj: Claret Cannon
-      ClockworkBowHoldout: ClockworkBow
-      CondemnationArrow: Condemning Arrow
-      CondemnationArrowHoming: Condemning Echo
-      CondemnationHoldout: Condemnation
-      ContagionArrow: Contagion Arrow
-      ContagionBall: Contagion Ball
-      ContagionBow: Contagion
-      CorossiveFlames: Flames
-      CorrodedShell: Shell
-      CosmicFire: Fire
+      AngelicBeam: 天使之光
+      AquaBlast: 澄净喷流
+      AquaBlastToxic: 剧毒喷流
+      Aquashard: 碎水弹
+      AquashardSplit: 碎水弹
+      ArcherfishShot: 水之境
+      ArcticArrowProj: 北极箭
+      AstralCannonProjectile: 星辉水晶
+      AstralRound: 星体环
+      AstralSandgun: 星辉砂弹
+      AstrealArrow: 彗星箭
+      AstrealFlame: 星辉病
+      AuralisBullet: 极光弹
+      AuroraFire: 极光
+      BallistaGreatArrow: 城弩巨箭
+      BeeRPG: 蜜蜂火箭筒
+      BigCoral: 巨型珊瑚
+      BigNuke: 大号核弹
+      BloodBoilerFire: 沸腾之血
+      BloodClotFriendly: 血凝块
+      BloodfireArrowProj: 血炎箭
+      BloodfireBulletProj: 血炎弹
+      BloodflareSoul: 血灵
+      Bolt: 箭
+      BoltArrow: 闪电箭
+      BouncingShotgunPellet: 霰弹枪子弹
+      BrimstoneBolt: 硫火飞弹
+      BrimstoneFireFriendly: 硫火
+      ButcherGun: 屠夫猎枪
+      CardClub: 梅花牌
+      CardClubSplit: 分裂梅花牌
+      CardDiamond: 方块牌
+      CardHeart: 红心牌
+      CardSpade: 黑桃牌
+      ChargedBlast: 爆炸
+      ChargedBlast2: 爆炸
+      ChargedBlast3: 爆炸
+      ChargedDartExplosion: 爆炸
+      ChickenCannonHeld: 小鸡大炮
+      ChickenExplosion: 肯德炸鸡
+      ChickenRocket: 小鸡火箭
+      ClamorRifleProj: 聚能弹
+      ClamorRifleProjSplit: 聚能弹
+      ClaretCannonProj: 深红手炮
+      ClockworkBowHoldout: 发条弓
+      CondemnationArrow: 诘责之矢
+      CondemnationArrowHoming: 诘责之矢
+      CondemnationHoldout: 诘责
+      ContagionArrow: 疫毒箭
+      ContagionBall: 疫病球
+      ContagionBow: 疫毒
+      CorossiveFlames: 火焰
+      CorrodedShell: 酸蚀外壳
+      CosmicFire: 宙炎
       CrackshotBlast: Blast
       CrackshotCoin: Coin
-      DaemonsFlameArrow: Arrow
-      DaemonsFlameBow: Daemon's Flame
-      DesertMark: Mark
-      DesertTornado: Tornado
-      DragonsBreathRound: Dragon's Breath Round
-      DrataliornusBow: Drataliornus
-      DrataliornusExoArrow: Drataliornus Arrow
-      DrataliornusFlame: Drataliornus Arrow
-      DrizzlefishFire: Drizzlefish Flames
-      DrizzlefishFireball: Drizzlefish Fireball
-      DrizzlefishFireSplit: Drizzlefish Flames
-      DWArrow: Death's Arrow
-      ElysianArrowProj: Arrow
-      EmesisGore: Rotten Gore
-      EnhancedNanoRoundProj: Enhanced Nano Round
-      EssenceFire: Fire
+      DaemonsFlameArrow: 鬼炎箭
+      DaemonsFlameBow: 鬼炎箭
+      DesertMark: 荒漠遗印
+      DesertTornado: 沙尘卷
+      DragonsBreathRound: 龙息弹
+      DrataliornusBow: 赤陨霸龙弓
+      DrataliornusExoArrow: 炎龙崩啸
+      DrataliornusFlame: 赤陨霸龙弓
+      DrizzlefishFire: 龙雨鱼之火
+      DrizzlefishFireball: 龙雨鱼炎弹
+      DrizzlefishFireSplit: 龙雨鱼息
+      DWArrow: 死亡之箭
+      ElysianArrowProj: 箭矢
+      EmesisGore: 腐败血迹
+      EnhancedNanoRoundProj: 注魔纳米弹
+      EssenceFire: 火焰
       ExoCrystalArrow: Exo Crystal
-      ExoFire: Exo Flames
-      ExoFlare: Exo Flare
-      ExoFlareCluster: Exo Flare Cluster
+      ExoFire: 星流火焰
+      ExoFlare: 星流烈焰
+      ExoFlareCluster: 星流聚焰
       ExoLight: Exo Light
       ExoLightningBolt: Exo Teratesla Lightningbolt
-      ExoSpark: Exo Spark
-      FallenStarProj: Fallen Star
-      FeatherLarge: Feather
-      FishronRPG: RPG
-      FlakKrakenGun: Flak Kraken
-      FlakKrakenProj: Kraken
-      FlareBat: Bat
-      Flash: Flash
+      ExoSpark: 神圣花火
+      FallenStarProj: 陨星
+      FeatherLarge: 羽毛
+      FishronRPG: SDFMG水龙卷弹
+      FlakKrakenGun: 高射水怪
+      FlakKrakenProj: 海妖之焰
+      FlareBat: 黑翼蝙蝠
+      Flash: 烁光
       FlashRoundProj: Flash Round
-      FlurrystormCannonShooting: Flurrystorm Cannon
-      FlurrystormIceChunk: Ice Chunk
-      FlurrystormIceShard: Ice Shard
-      FossilShard: Shard
-      FungiOrb: Orb
-      FungiOrb2: Orb
-      GemTechGreenFlechette: Gem Tech Flechette
-      GodSlayerSlugProj: God Slayer Slug
-      GoliathRocket: Rocket
-      HalleysComet: Halley's Comet
-      HandheldTankShell: Tank Shell
+      FlurrystormCannonShooting: 雪球机关枪
+      FlurrystormIceChunk: 冰块
+      FlurrystormIceShard: 碎冰
+      FossilShard: 化石碎片
+      FungiOrb: 真菌快
+      FungiOrb2: 真菌快
+      GemTechGreenFlechette: 星流天钻飞镖弹
+      GodSlayerSlugProj: 弑神弹
+      GoliathRocket: 瘟疫导弹
+      HalleysComet: 哈雷彗星
+      HandheldTankShell: 坚硬外壳
       HeavenlyGaleProj: Heavenly Gale
-      HighExplosivePeanutShell: High Explosive Peanut Shell
-      HiveBomb: Bomb
-      HiveMissile: Bomb
-      HolyFireBulletProj: Holy Fire Bullet
-      HyperiusBulletProj: Hyperius Bullet
-      HyperiusSplit: Hyperius Bad Time
-      IcicleArrowProj: Icicle Arrow
-      IcyBulletProj: Icy Bullet
-      IlluminatedBullet: Illuminated Bullet
-      ImpactRound: Impact Round
-      KarasawaShot: Karasawa Shot
-      LeafArrow: Arrow
-      LunarBolt: Bolt
-      LunarBolt2: Bolt
-      LuxorsGiftRanged: Gift
+      HighExplosivePeanutShell: 高爆花生
+      HiveBomb: 爆炸
+      HiveMissile: 爆炸
+      HolyFireBulletProj: 圣火弹
+      HyperiusBulletProj: 猩红高速弹
+      HyperiusSplit: 猩红的悲惨时光
+      IcicleArrowProj: 冰坠箭
+      IcyBulletProj: 冰砾弹
+      IlluminatedBullet: 烁光弹
+      ImpactRound: 冲击波
+      KarasawaShot: 卡拉萨瓦炮弹
+      LeafArrow: 叶之箭
+      LunarBolt: 飞弹
+      LunarBolt2: 飞弹
+      LuxorsGiftRanged: 卢克索的礼物
       MaelstromHoldout: The Maelstrom
-      MagnaStrike: Strike
-      MagnomalyAura: Magnomaly Aura
-      MagnomalyBeam: Beam
-      MagnomalyExplosion: Explosion
-      MagnomalyRocket: Nuke
-      MechanicalBarracuda: Barracuda
-      MeowFire: Fire
-      MeowFire2: Fire
+      MagnaStrike: 麦格纳冲击波
+      MagnomalyAura: 磁暴
+      MagnomalyBeam: 光束
+      MagnomalyExplosion: 爆炸
+      MagnomalyRocket: 核弹
+      MechanicalBarracuda: 梭鱼
+      MeowFire: 火焰
+      MeowFire2: 火焰
       MidasBlast: Blast
       MidasCoin: Coin
       MiniatureFolly: Miniature Folly
-      MiniRocket: Rocket
-      MiniSharkron: Mini Sharkron
-      MistArrow: Arrow
-      MortarRoundProj: Mortar
-      Nanomachine: Bullet
-      NapalmArrowProj: Arrow
-      NeedlerProj: Needle
-      NorfleetCannon: Norfleet
-      NorfleetComet: Comet
-      NorfleetExplosion: Explosion
-      Nuke: Nuke
-      NullShot: Null
-      NullShot2: Null
-      OnyxSharkBomb: Shark
-      OpalStrike: Strike
-      PhangasmBow: Phangasm
-      PiercingBullet: Piercing Blow
-      PlagueArrow: Arrow
-      PlagueExplosionFriendly: Explosion
-      PlanarRipperBolt: Bolt
-      PlanarRipperExplosion: Explosion
-      PlanetaryAnnihilationProj: Ball
-      PlasmaBlast: Blast
-      PlasmaExplosion: Explosion
-      PolarStar: Polar Star
-      PrecisionBolt: Precision Bolt
+      MiniRocket: 火箭
+      MiniSharkron: 迷你鲨鱼龙
+      MistArrow: 箭
+      MortarRoundProj: 炮弹
+      Nanomachine: 子弹
+      NapalmArrowProj: 箭
+      NeedlerProj: 针
+      NorfleetCannon: 诺弗利特
+      NorfleetComet: 彗星
+      NorfleetExplosion: 爆炸
+      Nuke: 核弹
+      NullShot: 空弹
+      NullShot2: 空弹
+      OnyxSharkBomb: 鲨鱼
+      OpalStrike: 冲撞
+      PhangasmBow: 幻魔
+      PiercingBullet: 穿甲弹
+      PlagueArrow: 箭
+      PlagueExplosionFriendly: 爆炸
+      PlanarRipperBolt: 位面猎魂弹
+      PlanarRipperExplosion: 位面肃清
+      PlanetaryAnnihilationProj: 行星的毁灭
+      PlasmaBlast: 爆炸波
+      PlasmaExplosion: 爆炸
+      PolarStar: 北极星
+      PrecisionBolt: 精准之箭
       PressurizedBubbleStream: Pressurized Bubble Stream
-      PrismaticEnergyBlast: Energy Blast
-      PrismComet: Comet
-      PrismEnergyBullet: Prism Rocket
-      PrismExplosionLarge: Explosion
-      PrismExplosionSmall: Explosion
-      PrismMine: Mine
-      PristineFire: Fire
-      PristineSecondary: Fire
-      PumplerGrenade: Squash Shell
-      PumplerHoldout: Pumpler
-      RainbowBlast: Blast
-      RainbowFront: Rainbow
-      RainbowTrail: Rainbow
-      RealmRavagerBullet: Explosive Bullet
-      RocketFire: Fire
-      RubberMortarRoundProj: Round
-      SandstormBullet: Sandstorm
-      SandyWaifuShark: Shark
-      ScorchedEarthBlast: Earth Scorcher
-      ScorchedEarthClusterBomb: Cluster Bomb
-      ScorchedEarthRocket: Rocket
-      SeaDragonRocket: RPG
-      SeasSearingBubble: Searing Bubble
-      SeasSearingSecondary: Hydroshower
-      SeasSearingSpout: Spout
-      SepticSkewerBacteria: Bacteria
-      SepticSkewerHarpoon: Septic Skewer
+      PrismaticEnergyBlast: 能量束
+      PrismComet: 陨石
+      PrismEnergyBullet: 棱晶火箭
+      PrismExplosionLarge: 爆炸
+      PrismExplosionSmall: 爆炸
+      PrismMine: 雷
+      PristineFire: 原初之火
+      PristineSecondary: 火焰
+      PumplerGrenade: 南瓜壳
+      PumplerHoldout: 气泵枪
+      RainbowBlast: 爆炸波
+      RainbowFront: 彩虹
+      RainbowTrail: 彩虹
+      RealmRavagerBullet: 爆炸性弹头
+      RocketFire: 火焰
+      RubberMortarRoundProj: 光环
+      SandstormBullet: 沙尘暴
+      SandyWaifuShark: 瀚海狂鲨
+      ScorchedEarthBlast: 炽焦大地
+      ScorchedEarthClusterBomb: 集束炸弹
+      ScorchedEarthRocket: 火箭
+      SeaDragonRocket: 海龙爆炎弹
+      SeasSearingBubble: 灼热泡泡
+      SeasSearingSecondary: 海浴
+      SeasSearingSpout: 海灼龙卷
+      SepticSkewerBacteria: 剧毒细胞
+      SepticSkewerHarpoon: 剧毒叉枪
       SevensStrikerBrick: Brick
       SevensStrikerCherry: Cherry
       SevensStrikerCherrySplit: Cherry
@@ -10403,804 +10403,804 @@
       SevensStrikerHoldout: Sevens Striker
       SevensStrikerOrange: Orange
       SevensStrikerPlatinumCoin: Platinum Coin
-      ShadeFire: Fire
-      Shell: Shell
-      Shockblast: Blast
-      ShockblastRound: Round
-      Shroom: Shroom
-      Sickness: Sickness
-      SicknessRound: Round
-      SicknessRound2: Round
-      SlagRound: Round
-      SlimeBolt: Bolt
-      SmallCoral: Small Coral
-      SparkSpreaderFire: Sparked Flames
-      SporeBomb: Bomb
-      SputterComet: Comet
-      SputterCometBig: Comet
-      SpykerProj: Spyker
-      StarfleetMK2Gun: Starmada
-      StormSurgeTornado: Surge
-      SulphuricBlast: Sulphuric Blast
-      SuperballBulletProj: Superball Bullet
+      ShadeFire: 火焰
+      Shell: 贝壳箭
+      Shockblast: 震爆冲击波
+      ShockblastRound: 震爆冲击波
+      Shroom: 真菌
+      Sickness: 抗药性
+      SicknessRound: 抗药性光环
+      SicknessRound2: 抗药性光环
+      SlagRound: 抗药性光环
+      SlimeBolt: 史莱姆喷溅
+      SmallCoral: 小珊瑚
+      SparkSpreaderFire: 火焰
+      SporeBomb: 毒气弹
+      SputterComet: 彗星
+      SputterCometBig: 彗星
+      SpykerProj: 叶针霰弹炮
+      StarfleetMK2Gun: 群星大炮
+      StormSurgeTornado: 潮涌
+      SulphuricBlast: 硫磺酸风
+      SuperballBulletProj: 弹球弹
       SurgeDriverHoldout: Surge Driver
-      TelluricGlareArrow: Radiant Arrow
-      TerraArrowMain: Arrow
-      TerraArrowSplit: Arrow
-      TerraBulletMain: Terra Bullet
-      TerraBulletSplit: Bullet
-      TerraFireGreen: Fire
-      TerraFireGreen2: Fire
+      TelluricGlareArrow: 辐光之箭
+      TerraArrowMain: 泰拉箭
+      TerraArrowSplit: 泰拉箭
+      TerraBulletMain: 泰拉弹
+      TerraBulletSplit: 泰拉子弹
+      TerraFireGreen: 泰拉绿焰
+      TerraFireGreen2: 泰拉绿焰
       TheMaelstromExplosion: Explosion
       TheMaelstromShark: Reaper Shark
-      ThePackMinissile: Pack Minissile
-      ThePackMissile: Pack Missile
+      ThePackMinissile: 集束迷你火箭
+      ThePackMissile: 集束火箭
       TitaniumRailgunScope: Titanium Scope
       TitaniumRailgunShot: Titanium Decimator
-      TorrentialArrow: Arrow
-      ToxicannonDrop: Acid
-      ToxicannonShot: Cannon Shot
-      ToxicArrow: Toxic Arrow
-      TyphoonArrow: Arrow
-      TyphoonBubble: Bubble
-      UltimaBolt: Ultima Bolt
-      UltimaBowProjectile: Ultima
-      UltimaRay: Ultima Ray
-      UltimaSpark: Ultima Spark
-      UniversalGenesisStar: Star
-      UniversalGenesisStarcaller: Starcaller Shot
-      VanquisherArrowMain: Arrow
-      VeriumBulletProj: Verium Bullet
-      Voidragon: Blast
-      VoidragonTentacle: Voidragon Tentacle
-      WaterSpout: Spout
+      TorrentialArrow: 洪流箭
+      ToxicannonDrop: 酸
+      ToxicannonShot: 硫酸炮弹
+      ToxicArrow: 硫毒弓
+      TyphoonArrow: 台风箭
+      TyphoonBubble: 台风泡泡
+      UltimaBolt: 创世之光
+      UltimaBowProjectile: 创世纪
+      UltimaRay: 创世射线
+      UltimaSpark: 创世花火
+      UniversalGenesisStar: 星辰
+      UniversalGenesisStarcaller: 唤星者之射击
+      VanquisherArrowMain: 湮灭箭
+      VeriumBulletProj: 钫弹
+      Voidragon: 太虚星龙炮
+      VoidragonTentacle: 太虚星龙触须
+      WaterSpout: 激流
       WulfrumScrapBullet: High Speed Scrap
-      AbyssalMirrorProjectile: Lumenyl Fluid
-      AcidBarrelDrop: Acid
-      AcidShrapnel: Shrapnel
-      AdamantiteThrowingAxeProjectile: Adamantite Throwing Axe
-      AlphaSeeker: Alpha Virus Seeker
-      AlphaVirusProjectile: Alpha Virus
-      AntumbraShardProjectile: Antumbra Shard
-      ApoctolithProj: Apoctolith
-      ApoctolithShard: Apoctolith Shard
-      AshenStalactiteDebris: Ashen Debris
-      AshenStalactiteProj: Ashen Stalactite
-      AshenStalagmiteProj: Ashen Stalagmite
-      AuroradicalSplitter: Auroradical Star
-      AuroradicalStar: Auroradical Star
-      BallisticPoisonBombProj: Poison Bomb
-      BallisticPoisonBombSpike: Spike
-      BarrelShrapnel: Shrapnel
-      BettyExplosion: Betty Explosion
-      BileExplosion: Bile
-      BlastBarrelProjectile: Barrel
-      BlazingStarProj: Blazing Star
-      BloodsoakedCrashax: Bloodsoaked Crasher
-      BlueFlamePillar: Flame Pillar
-      BlunderBoosterLightning: Bolt
-      BouncingEyeballProjectile: Eyeball
-      BouncingEyeballProjectileStealthStrike: Eyeball
-      BouncyBol: Bouncy Ball
-      BrackishFlaskProj: Brackish Flask
-      BrackishSpear: Atlantis Spear
-      BrackishSpear2: Atlantis Spear
-      BrackishWater: Water
-      BrackishWaterBlast: Water
-      Brick: Brick
-      BrickFragment: Brick Fragment
-      Brimblade2: Brimblade
-      BrimbladeProj: Brimblade
-      BurningStrifeProj: Shadow Flame Spiky Ball
-      ButcherKnife: Butcher Knife
-      CarvingFork: Carving Fork
-      CelestialReaperAfterimage: Celestial Reaper
-      CelestialReaperProjectile: Celestial Reaper
-      Celestus2: Celestus
-      CelestusBoomerang: Celestus
-      CinquedeaProj: Cinquedea
-      CircletMark: Mark
-      CircletTornado: Tornado
-      CobaltEnergy: Cobalt Energy
-      CobaltKunaiProjectile: Kunai
-      ConsecratedWaterProjectile: Consecrated Water
-      ContaminatedBileFlask: Contaminated Bile
-      CorpusAvertorClone: Corpus Avertor
-      CorpusAvertorProj: Corpus Avertor
-      CorpusAvertorStealth: Corpus Avertor
-      Corrocloud1: Corrocloud
-      Corrocloud2: Corrocloud
-      Corrocloud3: Corrocloud
-      CosmicKunaiProj: Kunai
-      CosmicScythe: Cosmic Scythe
-      CraniumSMASH: Cranium SMASH
-      CraniumSmasherExplosive: Explosive Cranium Smasher
-      CraniumSmasherProj: Cranium Smasher
-      CraniumSmasherStealth: Stealthy Cranium Smasher
-      Crushax: Crushax
-      Crystalline2: Crystalline
-      CrystallineProj: Crystalline
-      CrystalPiercerProjectile: Crystal Piercer
-      CrystalPiercerShard: Crystal Shard
-      CursedDaggerProj: Cursed Dagger
-      DeepSeaDumbbell1: Deep Sea Dumbbell
-      DeepSeaDumbbell2: Deep Sea Dumbbell
-      DeepSeaDumbbell3: Deep Sea Dumbbell
-      DeepSeaDumbbellWeight: Deep Sea Dumbbell
-      DeepWounderProjectile: Deep Wounder Projectile
-      DeepWounderWater: Water Droplet
-      DeificThunderboltProj: Deific Thunderbolt
-      DesecratedBubble: Bubble
-      DesecratedWaterProj: Desecrated Water
-      DestructionBolt: Destruction Bolt
-      DestructionStar: Star of Destruction
-      DragonShit: Fire
-      DukesDecapitatorBubble: Bubble
-      DukesDecapitatorProj: Decapitator
-      DuneHopperProjectile: Scourge
-      DuststormCloud: Cloud
-      DuststormCloudStealth: Cloud
-      DuststormInABottleProj: Duststorm
+      AbyssalMirrorProjectile: 流明晶
+      AcidBarrelDrop: 酸
+      AcidShrapnel: 弹片
+      AdamantiteThrowingAxeProjectile: 精金投斧
+      AlphaSeeker: 始源病毒搜寻者
+      AlphaVirusProjectile: 始源病毒
+      AntumbraShardProjectile: 黄昏之影
+      ApoctolithProj: 末渊板砖
+      ApoctolithShard: 石板碎片
+      AshenStalactiteDebris: 灰烬残骸
+      AshenStalactiteProj: 灰烬石钟乳
+      AshenStalagmiteProj: 灰烬石钟乳
+      AuroradicalSplitter: 源野之星
+      AuroradicalStar: 天光星辰
+      BallisticPoisonBombProj: 渊毒子母雷
+      BallisticPoisonBombSpike: 渊毒刺
+      BarrelShrapnel: 针叶片
+      BettyExplosion: 炸弹
+      BileExplosion: 胆汁
+      BlastBarrelProjectile: 爆炸桶
+      BlazingStarProj: 烈火之星
+      BloodsoakedCrashax: 血沫重斧
+      BlueFlamePillar: 圣炎柱
+      BlunderBoosterLightning: 悖论闪电
+      BouncingEyeballProjectile: 眼球
+      BouncingEyeballProjectileStealthStrike: 眼球
+      BouncyBol: 弹跳尖钉球
+      BrackishFlaskProj: 盐水瓶
+      BrackishSpear: 亚特兰蒂斯之矛
+      BrackishSpear2: 亚特兰蒂斯之矛
+      BrackishWater: 咸水
+      BrackishWaterBlast: 剧毒海水弹
+      Brick: 砖
+      BrickFragment: 砖片
+      Brimblade2: 硫火手里剑
+      BrimbladeProj: 硫火手里剑
+      BurningStrifeProj: 影炎刺球
+      ButcherKnife: 屠刀
+      CarvingFork: 雕刻叉
+      CelestialReaperAfterimage: 神宇魔星刃
+      CelestialReaperProjectile: 神宇魔星刃
+      Celestus2: 星神之杀
+      CelestusBoomerang: 星神之杀
+      CinquedeaProj: 五指剑
+      CircletMark: 标记
+      CircletTornado: 旋涡
+      CobaltEnergy: 钴蓝能量
+      CobaltKunaiProjectile: 钴蓝苦无
+      ConsecratedWaterProjectile: 圣水
+      ContaminatedBileFlask: 污秽胆汁
+      CorpusAvertorClone: 憎恶血刃
+      CorpusAvertorProj: 憎恶血刃
+      CorpusAvertorStealth: 憎恶血刃
+      Corrocloud1: 酸雨云
+      Corrocloud2: 酸雨云
+      Corrocloud3: 酸雨云
+      CosmicKunaiProj: 星体苦无
+      CosmicScythe: 宙能镰刀
+      CraniumSMASH: 飞盘裂片
+      CraniumSmasherExplosive: 爆炸碎颅者
+      CraniumSmasherProj: 碎颅者
+      CraniumSmasherStealth: 碎颅飞盘
+      Crushax: 十字军
+      Crystalline2: 结晶体
+      CrystallineProj: 结晶体
+      CrystalPiercerProjectile: 穿星者
+      CrystalPiercerShard: 水晶碎块
+      CursedDaggerProj: 诅咒匕首
+      DeepSeaDumbbell1: 渊海哑铃
+      DeepSeaDumbbell2: 渊海哑铃
+      DeepSeaDumbbell3: 渊海哑铃
+      DeepSeaDumbbellWeight: 渊海哑铃
+      DeepWounderProjectile: 重伤战斧
+      DeepWounderWater: 水滴
+      DeificThunderboltProj: 圣雷天劫
+      DesecratedBubble: 泡泡
+      DesecratedWaterProj: 渎神水流
+      DestructionBolt: 毁灭弹
+      DestructionStar: 毁灭之星
+      DragonShit: 火焰
+      DukesDecapitatorBubble: 泡泡
+      DukesDecapitatorProj: 斩首者
+      DuneHopperProjectile: 亡灵
+      DuststormCloud: 粉尘云
+      DuststormCloudStealth: 沙尘云
+      DuststormInABottleProj: 尘暴
       DynamicPursuerElectricity: Electricity
       DynamicPursuerLaser: Laser
       DynamicPursuerProjectile: Dynamic Pursuer
-      EclipseMirrorBurst: Eclipse Mirror Flash
-      EclipsesFallMain: Eclipse's Fall
-      EclipsesSmol: Eclipse's Small
-      EclipsesStealth: Eclipse's Fall
+      EclipseMirrorBurst: 暗日之光
+      EclipsesFallMain: 日蚀之陨
+      EclipsesSmol: 蚀日之矛
+      EclipsesStealth: 日蚀之陨
       ElementalDiskProj: Elemental Disk
       ElementalDiskSplit: Elemental Disk
-      EnchantedAxe2: Enchanted Axe
-      EnchantedAxeProj: Enchanted Axe
-      EpidemicShredderProjectile: Epidemic Shredder
-      EquanimityDarkShard: Dark Shard
-      EquanimityLightShard: Light Shard
-      EquanimityProj: Equanimity
-      EradicatorProjectile: Eradicator
-      ExecutionersBladeProj: Blade
-      ExecutionersBladeStealthProj: Blade
-      ExorcismProj: Exorcism
-      ExorcismShockwave: Exorcism Shockwave
-      ExorcismStar: Exorcism Star
-      ExplosiveSun: Explosive Sun
-      FantasyTalismanProj: Talisman
-      FantasyTalismanStealth: Talisman
-      FeatherKnifeProjectile: Knife
-      FinalDawnFireball: The Final Dawn
-      FinalDawnFireSlash: The Final Dawn
-      FinalDawnFlame: The Final Dawn
-      FinalDawnHorizontalSlash: The Final Dawn
-      FinalDawnProjectile: The Final Dawn
-      FinalDawnReticle: The Final Dawn
-      FinalDawnThrow: The Final Dawn
-      FinalDawnThrow2: The Final Dawn
+      EnchantedAxe2: 附魔之斧
+      EnchantedAxeProj: 附魔之斧
+      EpidemicShredderProjectile: 瘟疫回旋镖
+      EquanimityDarkShard: 阴极
+      EquanimityLightShard: 阳极
+      EquanimityProj: 寂静回旋镖
+      EradicatorProjectile: 寂静回旋镖
+      ExecutionersBladeProj: 终结者之刃
+      ExecutionersBladeStealthProj: 终结追魂刃
+      ExorcismProj: 驱魔十字架
+      ExorcismShockwave: 驱魔波
+      ExorcismStar: 神圣流星
+      ExplosiveSun: 圣阳
+      FantasyTalismanProj: 符咒
+      FantasyTalismanStealth: 符咒
+      FeatherKnifeProjectile: 飞刀
+      FinalDawnFireball: 终曲火球
+      FinalDawnFireSlash: 终曲裂魂斩
+      FinalDawnFlame: 终曲烈焰
+      FinalDawnHorizontalSlash: 终曲黎明斩
+      FinalDawnProjectile: 终曲黎明
+      FinalDawnReticle: 终曲爆炎
+      FinalDawnThrow: 终曲黎明
+      FinalDawnThrow2: 终曲黎明
       FishboneBoomerangProjectile: Fishbone Boomerang
-      Fork: Fork
-      FossilShardThrown: Shard
-      FrostShardFriendly: Frost Shard
-      FrostyFlareProj: Frosty Flare
-      FrostyFlareStealth: Frosty Flare
-      GacruxianHome: Mollusk
-      GacruxianProj: Mollusk
-      GelDartProjectile: Dart
-      GhoulishGougerBoomerang: Ghoulish Gouger
-      GildedDaggerProj: Gilded Dagger
-      GlaiveProj: Glaive
-      GleamingDaggerProj: Gleaming Dagger
-      GodsParanoiaDart: Kunai
-      GodsParanoiaProj: God's Paranoia
+      Fork: 飞叉
+      FossilShardThrown: 碎片
+      FrostShardFriendly: 霜冻碎片
+      FrostyFlareProj: 霜花
+      FrostyFlareStealth: 霜火弹
+      GacruxianHome: 十字架一蜗牛
+      GacruxianProj: 十字架一蜗牛
+      GelDartProjectile: 凝胶飞镖
+      GhoulishGougerBoomerang: 狱卒之镰
+      GildedDaggerProj: 黄金飞刀
+      GlaiveProj: 海星回旋镖
+      GleamingDaggerProj: 铂金飞刀
+      GodsParanoiaDart: 神妄苦无
+      GodsParanoiaProj: 神之妄论
       GraveGrimreaverProjectile: Grave Grimreaver
-      GreenDonkeyKongReference: Barrel
+      GreenDonkeyKongReference: 酸蚀木桶
       GrimreaverBat: Grim Bat
       GrimreaverSkull: Grim Skull
-      HeavenfallenEnergy: Heavenfallen Energy
-      HeavenfallenStardiskBoomerang: Heavenfallen Stardisk
-      HellsSunProj: Hell's Sun
-      Honeycomb: Honeycomb
-      HoneycombFragment: Honeycomb Fragment
-      HypothermiaChunk: Ice Chunk
-      HypothermiaShard: Ice Shard
-      IcebreakerHammer: Icebreaker
-      IceStarProjectile: Star
-      IchorSpearProj: Spear
-      InfernalKrisCinder: Infernal Cinder
-      InfernalKrisExplosion: Infernal Explosion
-      InfernalKrisProjectile: Infernal Kris
+      HeavenfallenEnergy: 天陨魔能
+      HeavenfallenStardiskBoomerang: 天陨星盘
+      HellsSunProj: 地狱之阳
+      Honeycomb: 蜂巢
+      HoneycombFragment: 蜂巢碎片
+      HypothermiaChunk: 冰块
+      HypothermiaShard: 碎冰片
+      IcebreakerHammer: 破冰者
+      IceStarProjectile: 冰星
+      IchorSpearProj: 腐脓标枪
+      InfernalKrisCinder: 狱炎余烬
+      InfernalKrisExplosion: 狱炎爆
+      InfernalKrisProjectile: 炼狱克里斯
       InfestedClawmerangProj: Shroomerang
-      InkBombProjectile: Ink Bomb
-      InkCloud: Ink Cloud
-      InkCloud2: Ink Cloud
-      InkCloud3: Ink Cloud
-      IronFranciscaProj: Iron Francisca
-      JawsProjectile: Reaper Tooth
-      JawsShockwave: Reaper Tooth Shockwave
-      KelvinCatalystBoomerang: Kelvin Catalyst
-      Knife: Knife
-      KylieBoomerang: Kylie
-      LeadTomahawkProj: Lead Tomahawk
-      LeonidCometBig: Comet
-      LeonidCometSmall: Comet
-      LeonidProgenitorBombshell: Leonid Bombshell
-      LeonidStar: Leonid Star
-      LeviathanTooth: Leviathan Tooth
-      LionfishProj: Lionfish
-      LostSoulFriendly: Lost Soul
-      LuminousShard: Stardust Shard
-      LuminousStrikerProj: Luminous Striker
-      LunarKunaiProj: Kunai
-      LuxorsGiftRogue: Gift
-      MalachiteBolt: Malachite
-      MalachiteProj: Malachite
-      MalachiteStealth: Malachite
-      MangroveChakramFlower: Flower
-      MangroveChakramProjectile: Mangrove Chakram
-      MetalChunk: Metal Chunk
-      MetalShard: Metal Shard
-      MeteorFistProj: Fist
-      MoltenAmputatorProj: Molten Amputator
-      MoltenBlobThrown: Molten Blob
-      MonkeyDart: Monkey Dart
-      MoonSigil: Moon Sigil
-      MycorootProj: Root
-      MythrilKnifeProjectile: Knife
-      NanoblackMain: Nanoblack Reaper
-      NanoblackSplit: Nanoblack Blade
-      NanoblackStealthSplit: Nanoblack Afterimage
-      NastyChollaBol: Nasty Cholla
-      NastyChollaNeedle: Needle
-      NiceCock: Flame
-      NightsGazeProjectile: Night's Gaze
-      NightsGazeSpark: Night's Gaze Spark
-      NightsGazeStar: Night's Gaze Star
-      NychthemeronOrb: Nychthemeron Orb
-      NychthemeronProjectile: Nychthemeron
-      OrichalcumSpikedGemstoneProjectile: Gemstone
-      PalladiumJavelinProjectile: Javelin
-      PanSpark: Spark
-      PartisanExplosion: Profaned Explosion
-      PenumbraBomb: Penumbra Bomb
-      PenumbraSoul: Penumbra Soul
-      PhantasmalRuinGhost: Phantasmal Afterimage
-      PhantasmalRuinProj: Phantasmal Ruin
-      PhantasmalSoul: Phantasmal Soul
-      PhantomLanceProj: Phantom Lance
-      PlaguedFuelPackCloud: Plagued Cloud
-      PlaguenadeBee: Plague Bee
-      PlaguenadeProj: Plaguenade
-      PoisonBol: Poison Ball
-      Prismalline2: Prismalline
-      Prismalline3: Prismalline
-      PrismallineProj: Prismalline
-      PrismRocket: Prism Rocket
-      PrismShurikenBlade: Blade
-      ProfanedPartisanProj: Profaned Partisan
-      ProfanedPartisanSpear: Profaned Spear
-      RadiantExplosion: Explosion
-      RadiantStar2: Radiant Star
-      RadiantStarKnife: Radiant Star
-      ReaperProjectile: The Old Reaper
-      RefractionRotorProjectile: Prism Shuriken
-      RegulusEnergy: Regulus Energy
-      RegulusRiotProj: Regulus Riot
-      RotBallProjectile: Ball
-      SacrificeProjectile: Sacrificial Dagger
-      SandDollarProj: Sand Dollar
-      SandDollarStealth: Sand Dollar
-      SandslasherProj: Sandslasher
-      ScarletBlast: Blast
-      ScarletDevilBullet: Gungnir Bullet
-      ScarletDevilProjectile: Spear the Gungnir
-      ScourgeoftheDesertProj: Scourge
-      ScourgeoftheSeasProjectile: Moist Scourge
-      ScourgeVenomCloud: Venom Cloud
-      SeafoamBombProj: Seafoam Bomb
-      SeafoamBubble: Seafoam Bubble
-      SealedSingularityBlackhole: Blackhole
-      SealedSingularityGore: Sealed Singularity Fragment
-      SealedSingularityProj: Sealed Singularity
-      SearedPanProjectile: Pan
-      SeraphimAngelicLight: Light Orb
-      SeraphimAngelicLight2: Light Orb
-      SeraphimBeamLarge: Holy Beam
-      SeraphimDagger: Seraphim
-      SeraphimProjectile: Seraphim
-      ShadowBlackhole: Blackhole
-      ShatteredExplosion: Shattered Sun Blast
-      ShatteredSunKnife: Shattered Sun
-      ShatteredSunScorchedBlade: Scorched Blade
-      ShinobiBladeProjectile: Shinobi Blade
-      ShockGrenadeBolt: Bolt
-      ShockGrenadeExplosion: Shock Grenade Explosion
-      ShockGrenadeProjectile: Shock Grenade
-      ShockTeslaAura: Electrifying Aura
-      ShroomerangSpore: Spore
-      SkyBomberGas: Irradiated Cloud
-      SkyfinNuke: Skyfin Nuke
-      SkyStabberProj: SkyStabberProj
-      SlickCaneProjectile: Slick Cane
-      SludgeSplotchProj1: Sludge Splotch
-      SludgeSplotchProj2: Sludge Splotch
-      SnapClamProj: Snap Clam
-      SnapClamStealth: Snap Clam
-      SpearofDestinyProjectile: Spear
-      SpearofPaleolithProj: Spear
-      SpentFuelContainerProjectile: Spent Fuel Container
-      SphereBladed: Bladed Sphere
-      SphereBlue: Blue Thruster Sphere
-      SphereSpiked: Spiked Sphere
-      SphereYellow: Yellow Thruster Sphere
-      StealthNimbus: Nimbus
-      StealthNimbusCloud: Nimbus
-      StealthRain: Rain
-      StellarKnifeProj: Stellar Knife
-      StickyBol: Sticky Bol
-      StormfrontRazorProjectile: Stormfront Knife
-      Stormfrontspark: Spark
-      SubductionFlameburst: Flame Pillar
+      InkBombProjectile: 乌云
+      InkCloud: 乌云
+      InkCloud2: 乌云
+      InkCloud3: 乌云
+      IronFranciscaProj: 铁质飞斧
+      JawsProjectile: 猎魂鲨之牙
+      JawsShockwave: 猎魂鲨牙冲击波
+      KelvinCatalystBoomerang: 冰灵旋刃
+      Knife: 飞刀
+      KylieBoomerang: 回力标
+      LeadTomahawkProj: 铅制飞斧
+      LeonidCometBig: 狮源陨星
+      LeonidCometSmall: 狮源陨星
+      LeonidProgenitorBombshell: 狮源流星
+      LeonidStar: 狮源之星
+      LeviathanTooth: 利维坦之牙
+      LionfishProj: 狮子鱼
+      LostSoulFriendly: 迷失之魂
+      LuminousShard: 星尘碎片
+      LuminousStrikerProj: 闪亮先锋矛
+      LunarKunaiProj: 夜明苦无
+      LuxorsGiftRogue: 卢克索的礼物
+      MalachiteBolt: 孔雀翎
+      MalachiteProj: 孔雀翎
+      MalachiteStealth: 孔雀翎
+      MangroveChakramFlower: 花
+      MangroveChakramProjectile: 红木环刃
+      MetalChunk: 金属块
+      MetalShard: 金属碎片
+      MeteorFistProj: 流星拳
+      MoltenAmputatorProj: 熔岩切碎者
+      MoltenBlobThrown: 神圣火球
+      MonkeyDart: 猴子飞镖
+      MoonSigil: 月球符文
+      MycorootProj: 蘑菇根质
+      MythrilKnifeProjectile: 飞刀
+      NanoblackMain: 黑纳米死神
+      NanoblackSplit: 纳米黑锋
+      NanoblackStealthSplit: 黑纳米残像
+      NastyChollaBol: 仙人掌尖钉球
+      NastyChollaNeedle: 仙人掌刺
+      NiceCock: 火焰
+      NightsGazeProjectile: 夜之凝视
+      NightsGazeSpark: 夜之凝视枪魂
+      NightsGazeStar: 夜凝星
+      NychthemeronOrb: 光暗球
+      NychthemeronProjectile: 昼夜
+      OrichalcumSpikedGemstoneProjectile: 山铜宝石钉
+      PalladiumJavelinProjectile: 标枪
+      PanSpark: 火花
+      PartisanExplosion: 圣火爆焱
+      PenumbraBomb: 半影爆炸
+      PenumbraSoul: 半影之魂
+      PhantasmalRuinGhost: 幻魂归墟残影
+      PhantasmalRuinProj: 幻灵归墟
+      PhantasmalSoul: 幻魂
+      PhantomLanceProj: 幻影投矛
+      PlaguedFuelPackCloud: 瘟疫云
+      PlaguenadeBee: 疫病毒蜂
+      PlaguenadeProj: 瘟疫
+      PoisonBol: 剧毒球
+      Prismalline2: 棱晶飞刀
+      Prismalline3: 棱晶飞刀
+      PrismallineProj: 棱晶飞刀
+      PrismRocket: 棱晶火箭
+      PrismShurikenBlade: 衍曜旋刃
+      ProfanedPartisanProj: 狂龙火球
+      ProfanedPartisanSpear: 狂龙翼火
+      RadiantExplosion: 爆炸
+      RadiantStar2: 辐射星
+      RadiantStarKnife: 辐射星
+      ReaperProjectile: 死神飞镰
+      RefractionRotorProjectile: 衍曜旋刃
+      RegulusEnergy: 星神游龙之灵
+      RegulusRiotProj: 星神游龙之混沌
+      RotBallProjectile: 球
+      SacrificeProjectile: 牺牲之匕
+      SandDollarProj: 沙币
+      SandDollarStealth: 沙币
+      SandslasherProj: 瀚漠之刃
+      ScarletBlast: 冲击波
+      ScarletDevilBullet: 永恒弹
+      ScarletDevilProjectile: 冈格尼尔永恒之枪
+      ScourgeoftheDesertProj: 荒漠灾虫
+      ScourgeoftheSeasProjectile: 湿漉亡灵
+      ScourgeVenomCloud: 毒雨云
+      SeafoamBombProj: 海沫炸弹
+      SeafoamBubble: 海沫泡泡
+      SealedSingularityBlackhole: 黑洞
+      SealedSingularityGore: 秘封奇点裂片
+      SealedSingularityProj: 秘封奇点
+      SearedPanProjectile: 平底锅
+      SeraphimAngelicLight: 光球
+      SeraphimAngelicLight2: 光球
+      SeraphimBeamLarge: 神圣之光
+      SeraphimDagger: 六翼天使
+      SeraphimProjectile: 六翼天使
+      ShadowBlackhole: 黑洞
+      ShatteredExplosion: 裂阳爆炸
+      ShatteredSunKnife: 裂阳
+      ShatteredSunScorchedBlade: 裂阳
+      ShinobiBladeProjectile: 忍者之刃
+      ShockGrenadeBolt: 震爆弹闪电
+      ShockGrenadeExplosion: 震爆
+      ShockGrenadeProjectile: 震爆弹
+      ShockTeslaAura: 闪电光环
+      ShroomerangSpore: 真菌孢子
+      SkyBomberGas: 辐射云
+      SkyfinNuke: 天翼核弹
+      SkyStabberProj: 天羽尖钉球
+      SlickCaneProjectile: 盗贼手杖
+      SludgeSplotchProj1: 污泥斑点
+      SludgeSplotchProj2: 污泥斑点
+      SnapClamProj: 夹贝
+      SnapClamStealth: 夹贝
+      SpearofDestinyProjectile: 命运之矛
+      SpearofPaleolithProj: 远古投矛
+      SpentFuelContainerProjectile: 辐毒废水
+      SphereBladed: 致命之球
+      SphereBlue: 蓝色致命之球
+      SphereSpiked: 致命刺球
+      SphereYellow: 黄色致命刺球
+      StealthNimbus: 云
+      StealthNimbusCloud: 雨云
+      StealthRain: 雨
+      StellarKnifeProj: 恒星匕首
+      StickyBol: 恒星
+      StormfrontRazorProjectile: 风暴短匕
+      Stormfrontspark: 火花
+      SubductionFlameburst: 火柱
       SubductionSlicerProj: Subduction Slicer
-      SulphuricNukesplosion: Nuke
-      SupernovaBomb: Supernova Bomb
-      SupernovaBoom: Explosion
-      SupernovaHoming: Supernova Energy
-      SupernovaSpike: Spike
-      TalonLargeProj: Huge Terror Talon
-      TalonSmallProj: Terror Talon
-      TarragonThrowingDartProjectile: Tarragon Throwing Dart
-      TarraThornRight: Thorn
-      TarraThornTip: Thorn
-      TerraDiskProjectile: Terra Disk
-      TerraDiskProjectile2: Terra Disk
-      TheAtomSplitterDuplicate: Atom Splitter
-      TheAtomSplitterProjectile: Atom Splitter
-      TheSyringeCinder: Syringe Cinder
-      TheSyringeProj: Syringe
-      TheSyringeS1: Shrapnel
-      ThiefsDimeProj: Thief's Dime
-      TimeBoltKnife: Time Bolt
-      TitaniumClone: Shuriken
-      TitaniumShurikenProjectile: Shuriken
-      ToothBallProjectile: Ball
-      TotalityFire: Fire
-      TotalityFlask: Totality Flask
-      TotalityTar: Totality Tar
-      TotalMeltdown: Explosion
-      ToxicantTwisterDust: Dust
-      ToxicantTwisterTwoPointZero: Toxicant Twister
-      TurbulanceProjectile: Turbulance
-      TurbulanceWindSlash: Wind Slash
+      SulphuricNukesplosion: 核弹
+      SupernovaBomb: 超新星爆炸
+      SupernovaBoom: 超新星爆炸
+      SupernovaHoming: 超新星能量
+      SupernovaSpike: 尖刺
+      TalonLargeProj: 巨型恐惧鹰爪
+      TalonSmallProj: 恐惧鹰爪
+      TarragonThrowingDartProjectile: 龙蒿投镖
+      TarraThornRight: 荆棘
+      TarraThornTip: 荆棘
+      TerraDiskProjectile: 泰拉飞盘
+      TerraDiskProjectile2: 泰拉飞盘
+      TheAtomSplitterDuplicate: 量子劫裂者
+      TheAtomSplitterProjectile: 微元劫裂者
+      TheSyringeCinder: 注射器碎片
+      TheSyringeProj: 瘟疫注射器
+      TheSyringeS1: 瘟疫弹片
+      ThiefsDimeProj: 盗贼铸币
+      TimeBoltKnife: 时空交叉刃
+      TitaniumClone: 回旋镖
+      TitaniumShurikenProjectile: 手里剑
+      ToothBallProjectile: 球
+      TotalityFire: 火焰
+      TotalityFlask: 集束燃爆瓶
+      TotalityTar: 浓缩焦油
+      TotalMeltdown: 爆炸
+      ToxicantTwisterDust: 剧毒旋涡尘
+      ToxicantTwisterTwoPointZero: 剧毒旋风
+      TurbulanceProjectile: 乱流长枪
+      TurbulanceWindSlash: 风斩
       UmbraphileBoom: Umbra Blast
-      UrchinStingerProj: Stinger
-      ValariBoomerang: Frostcrush Valari
-      Valaricicle: Valaricicle
-      Valaricicle2: Valaricicle
-      ValedictionBoomerang: Valediction
-      VeneratedKnife: Venerated Knife
-      WebBallBol: Web Ball
-      WrathwingCinder: Wrathwing Eruption
-      WrathwingFireball: Wrathwing Fireball
-      WrathwingSpear: Wrathwing
-      WulfrumKnifeProj: Knife
-      AndromedaDeathRay: Beam
-      AndromedaRegislash: Regislash
+      UrchinStingerProj: 海胆刺
+      ValariBoomerang: 霜碎回力标
+      Valaricicle: 碎冰
+      Valaricicle2: 碎冰
+      ValedictionBoomerang: 辞别飞镰
+      VeneratedKnife: 敬天弑神刀
+      WebBallBol: 蛛网球
+      WrathwingCinder: 狂龙翼火爆炸
+      WrathwingFireball: 狂龙火球
+      WrathwingSpear: 狂龙翼火
+      WulfrumKnifeProj: 飞刀
+      AndromedaDeathRay: 能量射线
+      AndromedaRegislash: 能量光刃
       AndromedaUI_Background: UI
-      AngelBolt: Bolt
-      AngelicAllianceArchangel: Archangel
-      AngelOrb: Orb
-      AngelRay: Ray
-      ApexShark: Ancient Mineral Shark
-      ApparatusExplosion: Explosion
-      AquaticStarMinion: Aquatic Star
-      AstrageldonLaser: Astral Laser
-      AstrageldonSummon: Astrageldon
-      AstralProbeRound: Blast
-      AstralProbeSummon: Astral Probe
+      AngelBolt: 圣天使之矢
+      AngelicAllianceArchangel: 圣天使
+      AngelOrb: 光球
+      AngelRay: 射线
+      ApexShark: 失落极峰鲨
+      ApparatusExplosion: 爆炸
+      AquaticStarMinion: 水星
+      AstrageldonLaser: 星幻激光
+      AstrageldonSummon: 末世星史莱姆
+      AstralProbeRound: 爆炸冲击波
+      AstralProbeSummon: 幻星探测器
       AtlasMunitionsAutocannon: Atlas Munitions Autocannon
       AtlasMunitionsAutocannonHeld: Atlas Munitions Autocannon
       AtlasMunitionsDropPod: Drop Pod
       AtlasMunitionsDropPodUpper: Drop Pod Cover
       AtlasMunitionsLaser: Exo Pulse Laser
       AtlasMunitionsLaserOverdrive: Exo Pulse Laser
-      AureusBomber: Aureus Bomber
-      BabyBloodCrawler: Baby Blood Crawler
-      BabyPlaguebringer: Baby Plaguebringer
-      BelladonnaPetal: Bullet
-      BelladonnaSpirit: Belladonna Spirit
-      BlackHawkBullet: Black Hawk Bullet
-      BlackHawkSummon: Black Hawk
-      BloodBreath: Fire
-      BloodClotMinion: Blood Clot
-      BloodRain: Blood Rain
-      BloodSpit: Spit
-      BoneMatter: Bone Matter
-      BoneMatter2: Bone Matter
-      BrimseekerAuraBall: Seeker
-      BrimstoneDartMinion: Brimfire
-      BrimstoneDartSummon: Brimstone Dart
-      BrimstoneElementalMinion: Brimstone Elemental
-      BrimstoneExplosionMinion: Explosion
-      BrimstoneFireballMinion: Brimfire
-      BrimstoneFireSummon: Fire
-      BrimstoneLaserSummon: Laser
-      BrittleStarMinion: Brittle Star
-      CalamariInk: Ink
-      CalamariMinion: Calamari
-      Calamitamini: Calamitamini
-      Cataclymini: Cataclymini
-      CataclysmSummon: Cataclysm
-      Catastromini: Catastromini
-      CatastropheSummon: Catastrophe
-      CausticStaffProjectile: Thorn
-      CausticStaffSummon: Caustic Dragon
-      Cinder: Cinder
-      CinderBlossom: Cinder Blossom
-      CloudElementalMinion: Cloudy Waifu
+      AureusBomber: 白金星舰
+      BabyBloodCrawler: 幼年血蛭
+      BabyPlaguebringer: 幼年疫病使者
+      BelladonnaPetal: 颠茄花瓣
+      BelladonnaSpirit: 颠茄灵气
+      BlackHawkBullet: 黑鹰弹
+      BlackHawkSummon: 黑鹰
+      BloodBreath: 猩红之火
+      BloodClotMinion: 血凝块
+      BloodRain: 血雨
+      BloodSpit: 血痰
+      BoneMatter: 骨基质
+      BoneMatter2: 骨基质
+      BrimseekerAuraBall: 探索者
+      BrimstoneDartMinion: 硫火
+      BrimstoneDartSummon: 硫火镖
+      BrimstoneElementalMinion: 硫磺火元素
+      BrimstoneExplosionMinion: 硫火迸射
+      BrimstoneFireballMinion: 硫磺火
+      BrimstoneFireSummon: 火焰
+      BrimstoneLaserSummon: 激光
+      BrittleStarMinion: 蛇尾海星
+      CalamariInk: 乌贼墨
+      CalamariMinion: 乌贼
+      Calamitamini: 灾厄之眼
+      Cataclymini: 灾劫之眼
+      CataclysmSummon: 灾祸
+      Catastromini: 灾难之眼
+      CatastropheSummon: 灾难
+      CausticStaffProjectile: 荆棘
+      CausticStaffSummon: 蚀骨之龙
+      Cinder: 熔渣
+      CinderBlossom: 烬之英
+      CloudElementalMinion: 云之灵
       CnidarianJellyfishOnTheString: Cnidarian
       CnidarianSpark: Spark
-      ColdDivinityPointyThing: Ice Castle Shard
-      CorroslimeMinion: Corroslime
-      CorruptionSlimeGodMinion: Slime God
-      CosmicBlast: Blast
-      CosmicBlastBig: Blast
-      CosmicEnergySpiral: Cosmic Energy
-      CosmicViperConcussionMissile: Concussion Missile
-      CosmicViperHomingRocket: Homing Rocket
-      CosmicViperSplitRocket1: Rocket Shard
-      CosmicViperSplittingRocket: Splitting Rocket
-      CosmicViperSummon: Cosmic Viper
+      ColdDivinityPointyThing: 冰堡残片
+      CorroslimeMinion: 腐化史莱姆
+      CorruptionSlimeGodMinion: 史莱姆之神
+      CosmicBlast: 爆炸波
+      CosmicBlastBig: 爆炸波
+      CosmicEnergySpiral: 宇宙能量
+      CosmicViperConcussionMissile: 震爆飞弹
+      CosmicViperHomingRocket: 制导火箭
+      CosmicViperSplitRocket1: 火箭破片
+      CosmicViperSplittingRocket: 子母火箭
+      CosmicViperSummon: 寰宇毒蝰
       CosmilampBeam: Cosmic Beam
-      CosmilampMinion: Cosmilamp
-      CrimslimeMinion: Crimslime
-      CrimsonSlimeGodMinion: Slime God
-      DaedalusCrystal: Daedalus Crystal
-      DaedalusCrystalShot: Crystal Shot
-      DaedalusGolem: Daedalus Golem
-      DaedalusLightning: Daedalus Lightning
-      DaedalusPellet: Pellet
-      DankCreeperMinion: Dank Creeper
-      DazzlingStabber: Dazzling Stabber
-      DeathstareBeam: Beam
-      DeathstareEyeball: Eyeball
-      DormantBrimseekerAura: Dormant Brimseeker Aura Projecter
-      DormantBrimseekerBab: Dormant Brimseeker
-      DormantBrimseekerSummoner: Dormant Brimseeker
-      Dreadmine: Mine
-      DreadmineTurret: Dreadmine Turret
-      ElementalAxeMinion: Axe
-      EndoBeam: Ray
-      EndoCooperBody: Ascened Cooper
-      EndoCooperLimbs: Ascened Cooper
-      EndoFire: Endo Fire
-      EndoHydraBody: Hydra Body
-      EndoHydraHead: Hydra Head
-      EndoIceShard: Endo Ice Shard
-      EndoRay: Ray
-      EnergyOrb: Energy Orb
-      EXPLODINGFROG: A not frog of the explosive variety
-      EyeOfNightCell: Cell
-      EyeOfNightSummon: Eye of Night
+      CosmilampMinion: 无限之灯
+      CrimslimeMinion: 血腥史莱姆
+      CrimsonSlimeGodMinion: 史莱姆之神
+      DaedalusCrystal: 代达罗斯水晶
+      DaedalusCrystalShot: 水晶弹
+      DaedalusGolem: 白给守卫
+      DaedalusLightning: 闪电
+      DaedalusPellet: 子弹
+      DankCreeperMinion: 沼泽爬行者
+      DazzlingStabber: 耀目穿刺者
+      DeathstareBeam: 激光
+      DeathstareEyeball: 微型克苏鲁之眼
+      DormantBrimseekerAura: 沉眠寻焰者光环
+      DormantBrimseekerBab: 沉眠寻焰者
+      DormantBrimseekerSummoner: 沉眠寻焰者
+      Dreadmine: 惧魂矿
+      DreadmineTurret: 恐惧炮塔
+      ElementalAxeMinion: 斧子
+      EndoBeam: 源生射线
+      EndoCooperBody: 源生冰灵
+      EndoCooperLimbs: 源生冰灵
+      EndoFire: 源生冰焰
+      EndoHydraBody: 九头蛇身
+      EndoHydraHead: 九头龙首
+      EndoIceShard: 源生冰片
+      EndoRay: 冰洋光束
+      EnergyOrb: 能量球
+      EXPLODINGFROG: 蟾血炸弹
+      EyeOfNightCell: 瘟疫细胞
+      EyeOfNightSummon: 永夜之眼
       FieryDraconid: Fiery Draconid
-      FlameBlast: Blast
-      FlameBurst: Burst
-      FleshBallMinion: Flesh Ball
-      FleshBlood: Blood
-      FlowersOfMortalityPetal: Elemental Petal
-      FlyingOrthocera: Flying Orthocera
-      FlyingOrthoceraStream: Acid Stream
-      ForbiddenCircletEater: Circlet Eater
-      FrogGore1: Gore from a not frog of the explosive variety
-      FrogGore2: Gore from a not frog of the explosive variety
-      FrogGore3: Gore from a not frog of the explosive variety
-      FrogGore4: Gore from a not frog of the explosive variety
-      FrogGore5: Gore from a not frog of the explosive variety
-      FrostBeam: Beam
-      FrostBlossom: Frost Blossom
-      FrostMistFriendly: Mist
-      GammaCanister: Gamma Canister
-      GammaHead: Gamma Head
-      GastricBelcher: Gastric Belcher
-      GastricBelcherBubble: Gastric Bubble
-      GastricBelcherVomit: Gastric Vomit
-      GhostFire: Fire
-      GhostlyMine: Mine
-      GiantIbanRobotOfDoom: Andromeda
-      HallowedStarSummon: Star
-      HauntedDishes: HauntedDishes
-      HermitCrabMinion: Hermit Crab
-      HerringMinion: Herring
-      Hive: Hive
-      Hiveling: Hiveling
-      HomingGammaBullet: Gamma Bullet
-      HowlsHeartCalcifer: Calcifer
-      HowlsHeartFireball: Fireball
-      HowlsHeartHowl: Howl
-      HowlsHeartTurnipHead: Turnip-Head
+      FlameBlast: 爆炸波
+      FlameBurst: 霜冻破
+      FleshBallMinion: 血肉之球
+      FleshBlood: 鲜血
+      FlowersOfMortalityPetal: 告死之花
+      FlyingOrthocera: 飞行直角石
+      FlyingOrthoceraStream: 酸流
+      ForbiddenCircletEater: 禁戒吞噬者
+      FrogGore1: 蟾血炸弹
+      FrogGore2: 蟾血炸弹
+      FrogGore3: 蟾血炸弹
+      FrogGore4: 蟾血炸弹
+      FrogGore5: 蟾血炸弹
+      FrostBeam: 急冻光束
+      FrostBlossom: 霜之华
+      FrostMistFriendly: 霜雾
+      GammaCanister: 辐射之罐
+      GammaHead: 辐射之头
+      GastricBelcher: 畸变吞食者
+      GastricBelcherBubble: 硫酸泡泡
+      GastricBelcherVomit: 呕吐物
+      GhostFire: 火焰
+      GhostlyMine: 幽魂雷
+      GiantIbanRobotOfDoom: 银河战甲
+      HallowedStarSummon: 神圣之星
+      HauntedDishes: 闹鬼餐碟
+      HermitCrabMinion: 寄居蟹
+      HerringMinion: 鲱鱼
+      Hive: 蜂巢
+      Hiveling: 蜂群
+      HomingGammaBullet: 伽马子弹
+      HowlsHeartCalcifer: 卡西法
+      HowlsHeartFireball: 冥光之火
+      HowlsHeartHowl: 哈尔
+      HowlsHeartTurnipHead: 小萝卜头
       HydrothermicVent: Hydrothermic Vent
-      IceClasperMinion: Ice Clasper
-      IceSentry: Ice Sentry
-      IceSentryFrostBolt: Ball
-      IceSentryShard: Frost Shard
-      IgneousBlade: Igneous Blade
-      IgneousBladeStrike: Blade
-      IrradiatedAura: Irradiated Aura
-      LanternFlame: Flame
-      LanternSoul: Lantern
-      LostSoulGiant: Soul
-      LostSoulGold: Gold Soul
-      LostSoulLarge: Soul
-      LostSoulSmall: Soul
-      LuxorsGiftSummon: Gift
-      MagicAxe: Axe
-      MagicBat: Baseball Bat
-      MagicBird: Bird
-      MagicBullet: Bullet
-      MagicHammer: Hammer
-      MagicHat: Magic Hat
-      MagicRifle: Rifle
-      MagicUmbrella: Umbrella
-      MechwormBody: Mechworm
-      MechwormHead: Mechworm
-      MechwormLaser: Laser
-      MechwormTail: Mechworm
-      MechwormTeleportRift: Rift
-      MidnightSunBeaconProj: Midnight Sun Beacon
-      MidnightSunBeam: Beam
-      MidnightSunShot: Midnight Shot
-      MidnightSunUFO: Midnight Sun UFO
-      MiniGuardianAttack: Offensive Guardian
-      MiniGuardianDefense: Defensive Guardian
-      MiniGuardianHealer: Healer Guardian
-      MiniGuardianSpear: Bab Spear
-      MiniSandShark: Mini Sand Shark
-      MK2FlaskSummon: Flask
-      MK2RocketHoming: Rocket
-      MK2RocketNormal: Rocket
+      IceClasperMinion: 食魂冰虫
+      IceSentry: 冰哨
+      IceSentryFrostBolt: 冰球
+      IceSentryShard: 霜冻碎片
+      IgneousBlade: 淬焰之刃
+      IgneousBladeStrike: 淬焰之刃
+      IrradiatedAura: 辐射光环
+      LanternFlame: 火焰
+      LanternSoul: 灯笼
+      LostSoulGiant: 灵魂
+      LostSoulGold: 黄金灵魂
+      LostSoulLarge: 灵魂
+      LostSoulSmall: 灵魂
+      LuxorsGiftSummon: 卢克索的礼物
+      MagicAxe: 魔化斧
+      MagicBat: 魔法球棒
+      MagicBird: 魔鸟
+      MagicBullet: 魔弹
+      MagicHammer: 魔化锤
+      MagicHat: 魔法帽
+      MagicRifle: 魔能来复枪
+      MagicUmbrella: 魔法伞
+      MechwormBody: 神明吞噬者
+      MechwormHead: 神明吞噬者
+      MechwormLaser: 激光
+      MechwormTail: 神明吞噬者
+      MechwormTeleportRift: 星界裂痕
+      MidnightSunBeaconProj: 极昼信标
+      MidnightSunBeam: 光束
+      MidnightSunShot: 极昼信标子弹
+      MidnightSunUFO: 极昼UFO
+      MiniGuardianAttack: 进攻守卫
+      MiniGuardianDefense: 防御守卫
+      MiniGuardianHealer: 治疗守卫
+      MiniGuardianSpear: 守卫者之矛
+      MiniSandShark: 迷你沙鲨
+      MK2FlaskSummon: 疫毒瓶
+      MK2RocketHoming: 制导火箭
+      MK2RocketNormal: 普通火箭
       MoonFist: Cosmic Fist
       MoonFistTeleportVisual: Light
-      MortalityBeam: Beam
-      MortalityBolt: Bolt
-      OldDukeHeadCorpse: Absolutely Disgusting Shark Puker
-      OldDukeSharkVomit: Puke
-      PerditionBeacon: Perdition Beacon
-      PhantomGuy: Phantom
-      PhantomicDagger: Phantom Dagger
-      PhantomicShield: Phantomic Bulwark
-      PinkButterfly: Pink Butterfly
-      PlagueBeeSmall: Plague Bee
-      PlaguebringerMK2: Plaguebringer MK2
-      PlaguebringerSummon: Lil' Plaguebringer
-      PlaguePrincess: Virili
-      PlantSeed: Seed
-      PlantSeedGreen: Seed
-      PlantSporeCloud: Spore Cloud
-      PlantSummon: Plantera
-      PlantTentacle: Tentacle
-      PlantThornBall: Thorn Ball
-      PlateProjectile: Plate
-      PolypLauncherProjectile: Polyp Chunk
-      PolypLauncherSentry: Polyp Launcher
-      PolypLauncherShrapnel: Polyp Shrapnel
-      PowerfulRaven: Super Raven
-      PrincessMissile: Hive Bomb
-      ProfanedCrystalMageFireball: Holy Bab Fireball
-      ProfanedCrystalMageFireballSplit: Holy Bab Fire
-      ProfanedCrystalMeleeSpear: Holy Friendly Spear
-      ProfanedCrystalRangedHuges: Holy Bab Boomer
-      ProfanedCrystalRangedSmalls: Holy Bab Boomer Orb
-      ProfanedCrystalRogueShard: Holy Bab Crystal Shard
-      ProfanedEnergy: Profaned Energy
+      MortalityBeam: 告死光束
+      MortalityBolt: 告死光束
+      OldDukeHeadCorpse: 老核弹的头
+      OldDukeSharkVomit: 呕吐物
+      PerditionBeacon: 永劫信标
+      PhantomGuy: 幻影
+      PhantomicDagger: 幻魂之匕
+      PhantomicShield: 幻魂壁垒
+      PinkButterfly: 粉蝴蝶
+      PlagueBeeSmall: 疫病毒蜂
+      PlaguebringerMK2: 疫病使者MK2
+      PlaguebringerSummon: 瘟疫使者
+      PlaguePrincess: 瘟疫雌蜂
+      PlantSeed: 种子
+      PlantSeedGreen: 种子
+      PlantSporeCloud: 孢子云
+      PlantSummon: 世纪小花
+      PlantTentacle: 触手
+      PlantThornBall: 荆棘球
+      PlateProjectile: 飞盘
+      PolypLauncherProjectile: 珊瑚
+      PolypLauncherSentry: 珊瑚
+      PolypLauncherShrapnel: 珊瑚
+      PowerfulRaven: 强力劫掠者
+      PrincessMissile: 蜂巢炸弹
+      ProfanedCrystalMageFireball: 圣灵净火球
+      ProfanedCrystalMageFireballSplit: 圣灵净火
+      ProfanedCrystalMeleeSpear: 神圣之矛
+      ProfanedCrystalRangedHuges: 圣之爆焱
+      ProfanedCrystalRangedSmalls: 圣灵炎爆弹
+      ProfanedCrystalRogueShard: 圣灵碎晶片
+      ProfanedEnergy: 亵渎灵能
       PuffCloud: Cloud
       PuffWarrior: Puff Warrior
-      PurpleButterfly: Purple Butterfly
+      PurpleButterfly: 紫蝴蝶
       RustyBeaconPulse: Irradiated Pulse
-      RustyDrone: Rusty Drone
-      SageNeedle: Sage Needle
-      SageSpirit: Sage Spirit
-      SakuraBullet: Sakura Bullet
-      SandBolt: Bolt
-      SandElementalHealer: Sand Healer
-      SandElementalMinion: Waifu
-      SandMark: Mark
-      SandnadoMinion: Sandnado
-      SandTornado: Tornado
+      RustyDrone: 锈蚀无人机
+      SageNeedle: 鼠尾草针叶
+      SageSpirit: 鼠尾草之灵
+      SakuraBullet: 樱花弹
+      SandBolt: 瀚漠弹
+      SandElementalHealer: 流沙治疗者
+      SandElementalMinion: 宝物
+      SandMark: 瀚漠铭印
+      SandnadoMinion: 沙龙卷
+      SandTornado: 沙龙卷
       SarosAura: Saros Aura
       SarosMicrosun: Saros Microsun
       SarosSunfire: Saros Sunfire
-      SeekerSummonProj: Soul Seeker
-      SepulcherMinion: Sepulcher
-      Shellfish: Shellfish
-      SilvaCrystal: Silva Crystal
-      SilvaCrystalExplosion: Explosion
-      SiriusBeam: Beam
-      SiriusExplosion: Explosion
-      SiriusMinion: Sirius
-      SkeletalDragonChild: Child
-      SkeletalDragonMother: Mother
-      SlimePuppet: Slime Puppet
-      CannonLaserbeam: Exothermal Deathray
-      ExoskeletonGaussNukeCannon: Gauss Nuke
-      ExoskeletonLaserCannon: Laser Cannon
+      SeekerSummonProj: 灵魂搜寻者
+      SepulcherMinion: 灾坟虫
+      Shellfish: 贝壳
+      SilvaCrystal: 始源林海魔晶
+      SilvaCrystalExplosion: 魔晶迸射
+      SiriusBeam: 激光
+      SiriusExplosion: 爆炸
+      SiriusMinion: 天狼星
+      SkeletalDragonChild: 骨龙之子
+      SkeletalDragonMother: 骨龙之母
+      SlimePuppet: 史莱姆傀儡
+      CannonLaserbeam: 终灭激光
+      ExoskeletonGaussNukeCannon: 高斯核弹
+      ExoskeletonLaserCannon: 镭射加农炮
       ExoskeletonPanel: UI
-      ExoskeletonPlasmaCannon: Plasma Cannon
-      ExoskeletonTeslaCannon: Tesla Cannon
-      MinionGaussBoom: Gauss Hyperexplosion
-      MinionGaussNuke: Gauss Nuke
-      MinionLaserBurst: Exothermal Laser
-      MinionPlasmaBlast: Volatile Plasma Blast
-      MinionPlasmaGas: Superheated Plasma Cloud
-      MinionTeslaOrb: Tesla Sphere
-      SmallSkeletonMinion: Small Skeleton
-      SolarBeam: Beam
-      SolarGod: Solar God
-      SolarPixie: Solar Pixie
-      Spikecrag: Spikecrag
-      SpikecragSpike: Spikecrag Spike
-      SquirrelSquireAcorn: Acorn
-      SquirrelSquireMinion: Squirrel Squire
-      StormjawBaby: Stormjaw Baby
-      StormMarkSummon: Mark
-      SummonAstralExplosion: Explosion
-      SummonBrimstoneExplosion: Explosion
-      SummonBrimstoneExplosionSmall: Explosion
-      TacticalPlagueJet: Tactical Plague Jet
-      TundraFlameBlossom: Frost Blossom
-      TundraFlameBlossomsOrb: Blossom Orb
-      UniverseSplitterField: Field
-      UniverseSplitterHugeBeam: Universe Splitter Ray
-      UniverseSplitterSmallBeam: Universe Splitter Ray
-      UrchinSpike: Urchin Spike
-      Valkyrie: Valkyrie
-      VictideSeaSnail: Sea Snail
-      VileFeederProjectile: Eater of Souls Mini
-      VileFeederSummon: Baby Eater
-      ViridVanguardBlade: Vanguard Blade
-      VoidConcentrationAura: Concentrated Void Aura
-      VoidConcentrationBlackhole: Black Hole
-      VoidConcentrationOrb: Void Orb
+      ExoskeletonPlasmaCannon: 离子加农炮
+      ExoskeletonTeslaCannon: 特斯拉加农炮
+      MinionGaussBoom: 高斯超级爆炸
+      MinionGaussNuke: 高斯核弹
+      MinionLaserBurst: 星流热能激光
+      MinionPlasmaBlast: 挥发性等离子光球
+      MinionPlasmaGas: 等离子气云
+      MinionTeslaOrb: 特斯拉球状闪电
+      SmallSkeletonMinion: 小骨龙
+      SolarBeam: 激光
+      SolarGod: 太阳神
+      SolarPixie: 太阳精灵
+      Spikecrag: 尖峰岩
+      SpikecragSpike: 尖峰岩刺
+      SquirrelSquireAcorn: 橡子
+      SquirrelSquireMinion: 松鼠侍从
+      StormjawBaby: 风暴蚁狮
+      StormMarkSummon: 风暴铭印
+      SummonAstralExplosion: 爆裂星辰
+      SummonBrimstoneExplosion: 爆炸
+      SummonBrimstoneExplosionSmall: 爆炸
+      TacticalPlagueJet: 战术瘟疫喷气背包
+      TundraFlameBlossom: 永冻之焰华
+      TundraFlameBlossomsOrb: 永冻之焰珠
+      UniverseSplitterField: 力场
+      UniverseSplitterHugeBeam: 渊宇天基炮激光
+      UniverseSplitterSmallBeam: 天基炮激光
+      UrchinSpike: 海胆刺
+      Valkyrie: 瓦尔基里女武神
+      VictideSeaSnail: 海蜗牛
+      VileFeederProjectile: 迷你灵魂饮食者
+      VileFeederSummon: 腐化吞噬者宝宝
+      ViridVanguardBlade: 葱茏之锋
+      VoidConcentrationAura: 虚空统御
+      VoidConcentrationBlackhole: 黑洞
+      VoidConcentrationOrb: 虚空
       VolcanicFireballSummon: Volcanic Fireball
-      WaterElementalMinion: Anahita
+      WaterElementalMinion: 阿娜希塔
       WaterElementalSong: Siren Song
-      WaterSpearFriendly: Spear
-      WitherBlossom: Wither Blossom
-      WitherBolt: Wither Bolt
-      WulfrumDroid: Wulfrum Droid
+      WaterSpearFriendly: 矛
+      WitherBlossom: 凋零枯花
+      WitherBolt: 凋零花弹
+      WulfrumDroid: 钨钢机器人
       WulfrumEnergyBurst: Bolt
       WulfrumFusionBolt: Fusion Bolt
-      YharonMinionFireball: Dragon Fireball
-      YoungDuke: Young Old Duke
-      AeroExplosive: Aeroboom
-      AllianceTriangle: Alliance Triangle
-      ArtifactOfResilienceShard1: Artifact Shard
-      ArtifactOfResilienceShard2: Artifact Shard
-      ArtifactOfResilienceShard3: Artifact Shard
-      ArtifactOfResilienceShard4: Artifact Shard
-      ArtifactOfResilienceShard5: Artifact Shard
-      ArtifactOfResilienceShard6: Artifact Shard
-      AstralFallingSand: Astral Falling Sand
-      AstralSpray: Astral Spray
-      AstralStar: Star
-      BallisticPoisonCloud: Cloud
-      BlazingSun: Blazing Sun
-      BlazingSun2: Blazing Sun
-      BloodBomb: Bomb
-      BloodBombExplosion: Explosion
-      BlunderBoosterAura: Red Lightning Aura
-      BobbitHead: Bobbit Head
+      YharonMinionFireball: 龙崽火球
+      YoungDuke: 幼年硫海遗爵
+      AeroExplosive: 天蓝爆炸
+      AllianceTriangle: 圣天三角
+      ArtifactOfResilienceShard1: 灵之形碎块
+      ArtifactOfResilienceShard2: 灵之形碎块
+      ArtifactOfResilienceShard3: 灵之形碎块
+      ArtifactOfResilienceShard4: 灵之形碎块
+      ArtifactOfResilienceShard5: 灵之形碎块
+      ArtifactOfResilienceShard6: 灵之形碎块
+      AstralFallingSand: 幻星陨砂
+      AstralSpray: 星体喷流
+      AstralStar: 彗星
+      BallisticPoisonCloud: 云
+      BlazingSun: 烈日
+      BlazingSun2: 烈日
+      BloodBomb: 炸弹
+      BloodBombExplosion: 爆炸
+      BlunderBoosterAura: 悖论电场
+      BobbitHead: 博比特之首
       BossRushEffectThing: Boss Rush Effect Thing
       BossRushEndEffectThing: Boss Rush End Effect Thing
       BossRushFailureEffectThing: Boss Rush Failure Effect Thing
       BossRushTierAnimation: Boss Rush Tier Animation
-      BrimstoneHellfireballFriendly2: Hellfire
+      BrimstoneHellfireballFriendly2: 地狱火
       ChaoticGeyser: Chaotic Geyser
-      ChlorophyteLifePulse: Life Pulse
-      CoralBubble: Bubble
-      CoralBubbleSmall: Bubble
-      CryonicShield: Cryonic Shield
-      CursorProj: Aestheticus Crystal
-      CursorProjSplit: Aestheticus Crystal
-      CyanLabSeeker: Seeking Mechanism
-      DarkIce: Dark Ice
+      ChlorophyteLifePulse: 生命脉冲
+      CoralBubble: 泡泡
+      CoralBubbleSmall: 泡泡
+      CryonicShield: 冰盾
+      CursorProj: 蒸汽波水晶
+      CursorProjSplit: 蒸汽波水晶
+      CyanLabSeeker: 实验室定位仪
+      DarkIce: 暗冰
       DeepseaBlaze: Deepsea Blaze
-      DemonshadeRedDevil: Red Devil
-      DevourerofCodsBobber: Devourer of Cods Bobber
-      DirectStrike: Nondescript Damaging Entity
-      DragonDust: Dust
-      EarlyBloomBobber: Early Bloom Bobber
+      DemonshadeRedDevil: 红恶魔
+      DevourerofCodsBobber: 鳕鱼吞噬者浮漂
+      DirectStrike: 难以形容的破坏性实体
+      DragonDust: 龙尘之径
+      EarlyBloomBobber: 龙蒿钓竿浮漂
       EmpyreanBlast: Empyrean Blast
       EmpyreanEmber: Empyrean Ember
       EmpyreanGlob: Empyeran Glob
       EmpyreanMarble: Empyrean Marble
       EmpyreanStellarDetritus: Empyrean Stellar Detritus
-      EnergyShell: Energy Shell
-      FabsolDust: Dust
-      FeralDoubleBobber: Feral Bobber
-      ExplosiveShotgunShell: Explosive Shotgun Shell
-      GrenadeRound: Grenade Round
-      MagnumRound: Magnum Round
-      FlareExplosion: Explosion
-      FuckYou: Explosion
-      FungalClumpMinion: Fungal Clump
-      GemTechArmorGem: Trireme's Gem
-      GhostlyBolt: Bolt
-      GladiatorSword: Gladiator Sword
-      GladiatorSword2: Gladiator Sword
-      GodKiller: God Killer
-      GodSlayerBlaze: Blaze
-      GodSlayerOrb: God Slayer Orb
-      GodSlayerPhantom: God Slayer Phantom
-      GodSlayerShrapnel: Flame
-      GodSlayerShrapnelRound: Round
-      GoldenGunProj: Golden Round
-      GreenLabSeeker: Seeking Mechanism
-      HellfireExplosionFriendly2: Explosion
-      HeronBobber: Heron Bobber
-      HolyEruption: Eruption
-      HolyExplosion: Explosion
-      HolyExplosionSupreme: Explosion
-      HolyFlameBomb: Flame
-      HydrothermalSmoke: Smoke
+      EnergyShell: 能量庇护
+      FabsolDust: 法布索尔尘
+      FeralDoubleBobber: 野性浮漂
+      ExplosiveShotgunShell: 爆炸散弹片
+      GrenadeRound: 榴弹
+      MagnumRound: 马格南弹
+      FlareExplosion: 爆炸
+      FuckYou: 爆炸
+      FungalClumpMinion: 真菌球
+      GemTechArmorGem: 星流天钻
+      GhostlyBolt: 闪电
+      GladiatorSword: 角斗士剑灵
+      GladiatorSword2: 角斗士剑灵
+      GodKiller: 神杀
+      GodSlayerBlaze: 烈火
+      GodSlayerOrb: 弑神珠
+      GodSlayerPhantom: 弑神之灵
+      GodSlayerShrapnel: 火焰
+      GodSlayerShrapnelRound: 弑神者光环
+      GoldenGunProj: 黄金光环
+      GreenLabSeeker: 实验室定位仪
+      HellfireExplosionFriendly2: 狱火炎爆
+      HeronBobber: 苍鹭浮漂
+      HolyEruption: 圣火喷溅
+      HolyExplosion: 爆炸
+      HolyExplosionSupreme: 爆炸
+      HolyFlameBomb: 火焰
+      HydrothermalSmoke: 水热烟雾
       HydrothermicFlare: Hydrothermic Flare
       HydrothermicFlareRogue: Hydrothermic Flare
       HydrothermicSphere: Hydrothermic Sphere
-      JewelSpike: Spike
-      KelvinCatalystStar: Kelvin Catalyst Star
-      LunicBeam: Beam
-      MageHammerBoom: Explosion
-      MagnusBeam: Beam
-      MythrilFlare: Mythril Flare
-      NanoFlare: Nano Flare
-      Nanotech: Nanoblade
-      NavyBobber: Navy Bobber
-      NebulaDust: Dust
-      NebulaStar: Star
-      NobodyKnows: Nope
-      OmegaBlueTentacle: Omega Blue Tentacle
-      PendantProjectile1: Prism Shard
-      PendantProjectile2: Prism Shard
-      PendantProjectile3: Prism Shard
-      PoisonousSeawater: Seawater
-      PurpleLabSeeker: Seeking Mechanism
-      ReaverOrb: Reaver Orb
-      ReaverThornBase: Thorn
-      ReaverThornTip: Thorn
-      RedLabSeeker: Seeking Mechanism
-      RelicOfConvergenceCrystal: Relic of Convergence
-      RelicOfDeliveranceSpear: Relic of Deliverance
+      JewelSpike: 宝石尖刺
+      KelvinCatalystStar: 冰灵旋刃碎冰星
+      LunicBeam: 激光
+      MageHammerBoom: 爆炸
+      MagnusBeam: 磁振子束
+      MythrilFlare: 秘银火花
+      NanoFlare: 纳米耀斑
+      Nanotech: 纳米刃
+      NavyBobber: 沉沦渊海钓竿浮漂
+      NebulaDust: 星尘
+      NebulaStar: 星云
+      NobodyKnows: 虚无
+      OmegaBlueTentacle: 欧米茄蓝色触手
+      PendantProjectile1: 棱镜碎片
+      PendantProjectile2: 棱镜碎片
+      PendantProjectile3: 棱镜碎片
+      PoisonousSeawater: 海水
+      PurpleLabSeeker: 实验室定位仪
+      ReaverOrb: 掠夺者宝珠
+      ReaverThornBase: 荆棘
+      ReaverThornTip: 荆棘
+      RedLabSeeker: 实验室定位仪
+      RelicOfConvergenceCrystal: 聚魂神晶
+      RelicOfDeliveranceSpear: 渡魂圣物
       RiftReelerBobber: Chaotic Bobber
-      SabatonBoom: Sabaton Boom
-      SabatonSlam: Sabaton Slam
-      SandCloakVeil: Dust Veil
-      SandExplosion: Sand
-      Seashell: Seashell
-      SepulcherSoul: Tormented Soul
-      SerpentsBiteHook: Serpent's Bite
-      ShadowflameExplosion: Shadowflame Explosion
-      ShadowflameExplosionBig: Shadowflame Explosion
-      SkyFlareFriendly: Flare
-      SlurperBobber: Slurper Bobber
-      SpiritOriginBullseye: Spirit Origin Bullseye
-      StandingFire: Flame
-      StarStruckWaterBottle: Bottle
-      StickyFeatherAero: Feather
-      StormBolt: Bolt
-      SuicideBomberDemon: Demon
-      SulphuricAcidBubbleFriendly: Acid Bubble
-      TarraEnergy: Tarra Energy
-      TerminusHoldout: Terminus Holdout
-      TeslaAura: Tesla's Electricity
-      TrueBattleSpawn: Spawn
-      UnstableSpark: Unstable Spark
-      VanquisherArrowSplit: Arrow
-      VerstaltiteBobber: Verstaltite Bobber
+      SabatonBoom: 萨巴顿爆炸
+      SabatonSlam: 萨巴顿猛击
+      SandCloakVeil: 沙尘龙卷
+      SandExplosion: 流沙
+      Seashell: 贝壳
+      SepulcherSoul: 折磨之魂
+      SerpentsBiteHook: 巨蟒之咬
+      ShadowflameExplosion: 暗影炎爆
+      ShadowflameExplosionBig: 暗影炎爆
+      SkyFlareFriendly: 烈焰
+      SlurperBobber: 灵魂饮食者漂子
+      SpiritOriginBullseye: 靶心
+      StandingFire: 火焰
+      StarStruckWaterBottle: 星水瓶
+      StickyFeatherAero: 羽毛
+      StormBolt: 风暴闪电
+      SuicideBomberDemon: 恶魔
+      SulphuricAcidBubbleFriendly: 酸性气泡
+      TarraEnergy: 泰拉能量
+      TerminusHoldout: 终焉反抗
+      TeslaAura: 磁暴
+      TrueBattleSpawn: 再生
+      UnstableSpark: 脉冲星
+      VanquisherArrowSplit: 湮灭箭
+      VerstaltiteBobber: 极寒浮漂
       VoidFieldGenerator: Void Field Generator
-      WaterConvertor: Water Convertor
-      WulfrumBobber: Wulfrum Bobber
-      WulfrumDiggingTurtleProjectile: Digging Turtle
-      WulfrumDrillProj: Drill
-      WulfrumHook: Wulfrum Slingshot
-      WulfrumLureSignal: Signal
-      WulfrumScaffoldKitHoldout: Wulfrum Scaffold Kit
-      YanmeisKnifeSlash: Yanmei's Knife
-      YellowLabSeeker: Seeking Mechanism
+      WaterConvertor: 净水器
+      WulfrumBobber: 钨钢浮漂
+      WulfrumDiggingTurtleProjectile: 掘地机械龟
+      WulfrumDrillProj: 钻头
+      WulfrumHook: 钨钢弹弓
+      WulfrumLureSignal: 信号
+      WulfrumScaffoldKitHoldout: 钨钢云梯工具包
+      YanmeisKnifeSlash: Yanmei斩
+      YellowLabSeeker: 实验室定位仪
     }
     NPCName:
     {
