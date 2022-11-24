@@ -976,7 +976,7 @@ namespace CalamityCN
                 {"ProfanedSword", "硫火之刃".zh()},
                 {"PwnagehammerMelee", "圣时之锤".zh()},
                 {"Quagmire", "泥潭".zh()},
-                {"RedSun", "行星雨".zh()},
+                {"RedSun", "红日".zh()},
                 {"RedtideSword", "海胆链枷".zh()},
                 {"Roxcalibur", "石约与胜利之剑".zh()},
                 {"RoyalKnivesMelee", "圣光飞刀".zh()},

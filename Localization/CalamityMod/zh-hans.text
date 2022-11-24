@@ -1181,40 +1181,40 @@
       OtherworldlyStone: 异域石
       OtherworldlyTable: 异域桌
       OtherworldlyWorkBench: 异域工作台
-      BrokenPlaguedBed: Broken Plagued 'Bed'
-      PlaguedContainmentBrick: Plagued Containment Brick
-      PlaguedPlateBathtub: Plagued Bathtub
-      PlaguedPlateBed: Plagued 'Bed'
-      PlaguedPlateBookcase: Plagued Bookcase
-      PlaguedPlateCandelabra: Plagued Candelabra
-      PlaguedPlateCandle: Plagued Candle
-      PlaguedPlateChair: Plagued Chair
-      PlaguedPlateChandelier: Plagued Chandelier
-      PlaguedPlateChest: Plagued Chest
-      PlaguedPlateClock: Plagued Clock
-      PlaguedPlateDoor: Plagued Door
-      PlaguedPlateDresser: Plagued Dresser
-      PlaguedPlateLamp: Plagued Lamp
-      PlaguedPlateLantern: Plagued Lantern
-      PlaguedPlatePiano: Plagued Piano
-      PlaguedPlatePlatform: Plagued Shelf
-      PlaguedPlateSink: Plagued Sink
-      PlaguedPlateSofa: Plagued Sofa
-      PlaguedPlateTable: Plagued Table
-      PlaguedWorkBench: Plagued Work Bench
-      ProfanedBathtub: Profaned Bathtub
-      ProfanedBed: Profaned Bed
-      ProfanedBench: Profaned Bench
-      ProfanedBookcase: Profaned Bookcase
-      ProfanedCandelabra: Profaned Candelabra
-      ProfanedCandle: Profaned Candle
-      ProfanedChair: Profaned Chair
-      ProfanedChandelier: Profaned Chandelier
-      ProfanedChest: Profaned Chest
-      ProfanedClock: Profaned Clock
-      ProfanedCrystal: Profaned Crystal
-      ProfanedDoor: Profaned Door
-      ProfanedDresser: Profaned Dresser
+      BrokenPlaguedBed: 破损瘟疫“床”
+      PlaguedContainmentBrick: 瘟疫密封砖
+      PlaguedPlateBathtub: 瘟疫浴缸
+      PlaguedPlateBed: 瘟疫“床”
+      PlaguedPlateBookcase: 瘟疫书架
+      PlaguedPlateCandelabra: 瘟疫烛台
+      PlaguedPlateCandle: 瘟疫蜡烛
+      PlaguedPlateChair: 瘟疫椅
+      PlaguedPlateChandelier: 瘟疫吊灯
+      PlaguedPlateChest: 瘟疫箱
+      PlaguedPlateClock: 瘟疫钟
+      PlaguedPlateDoor: 瘟疫门
+      PlaguedPlateDresser: 瘟疫梳妆台
+      PlaguedPlateLamp: 瘟疫灯
+      PlaguedPlateLantern: 瘟疫灯笼
+      PlaguedPlatePiano: 瘟疫钢琴
+      PlaguedPlatePlatform: 瘟疫架
+      PlaguedPlateSink: 瘟疫水槽
+      PlaguedPlateSofa: 瘟疫沙发
+      PlaguedPlateTable: 瘟疫桌
+      PlaguedWorkBench: 瘟疫工作台
+      ProfanedBathtub: 渎神浴缸
+      ProfanedBed: 渎神床
+      ProfanedBench: 渎神长凳
+      ProfanedBookcase: 渎神书架
+      ProfanedCandelabra: 渎神烛台
+      ProfanedCandle: 渎神蜡烛
+      ProfanedChair: 渎神椅
+      ProfanedChandelier: 渎神吊灯
+      ProfanedChest: 渎神箱
+      ProfanedClock: 渎神钟
+      ProfanedCrystal: 渎神结晶
+      ProfanedDoor: 渎神门
+      ProfanedDresser: 渎神梳妆台
       ProfanedLamp: Profaned Lamp
       ProfanedLantern: Profaned Lantern
       ProfanedPiano: Profaned Piano
@@ -1826,56 +1826,56 @@
       GildedProboscis: Gilded Proboscis
       GoldplumeSpear: Goldplume Spear
       GrandGuardian: Grand Guardian
-      GreatswordofBlah: Greatsword of Blah
-      GreatswordofJudgement: Greatsword of Judgement
-      Greentide: Greentide
-      HellfireFlamberge: Hellfire Flamberge
-      HellionFlowerSpear: Hellion Flower Spear
-      Hellkite: Hellkite
-      HolyCollider: Holy Collider
-      IllustriousKnives: Illustrious Knives
-      InsidiousImpaler: Insidious Impaler
-      Lacerator: Lacerator
-      LifefruitScythe: Lifehunt Scythe
-      LionHeart: Lion Heart
-      Lucrecia: Lucrecia
-      MajesticGuard: Majestic Guard
-      MantisClaws: Mantis Claws
-      MirrorBlade: Mirror Blade
-      MonstrousKnives: Monstrous Knives
-      Mourningstar: Mourningstar
-      Murasama: Murasama
-      MycelialClaws: Mycelial Claws
-      Nadir: Nadir
-      Nebulash: Nebulash
-      NeptunesBounty: Neptune's Bounty
-      Oblivion: Oblivion
-      OldLordOathsword: Old Lord Oathsword
-      OmegaBiomeBlade: True Biome Blade
-      Omniblade: Omniblade
-      Oracle: The Oracle
-      Pandemic: Pandemic
-      PerfectDark: Perfect Dark
-      PhosphorescentGauntlet: Phosphorescent Gauntlet
-      PhotonRipper: Photon Ripper
-      PlagueKeeper: Plague Keeper
-      PrismaticBreaker: Prismatic Breaker
-      Pwnagehammer: Pwnagehammer
-      Quagmire: Quagmire
-      RedSun: Red Sun
-      RedtideSpear: Redtide Spear
-      RemsRevenge: Rem's Revenge
-      Riptide: Riptide
-      Roxcalibur: Roxcalibur
-      SausageMaker: Sausage Maker
-      ScourgeoftheCosmos: Scourge of the Cosmos
-      SeashineSword: Seashine Sword
-      SeekingScorcher: Seeking Scorcher
-      Shimmerspark: Shimmerspark
-      SolarFlare: Solar Flare
-      SolsticeClaymore: Solstice Claymore
-      SoulEdge: Soul Edge
-      SoulHarvester: Soul Harvester
+      GreatswordofBlah: 巨剑“巴拉”
+      GreatswordofJudgement: 制裁大剑
+      Greentide: 翡翠之潮
+      HellfireFlamberge: 狱火重剑
+      HellionFlowerSpear: 刺花长矛
+      Hellkite: 地狱龙锋
+      HolyCollider: 圣火之刃
+      IllustriousKnives: 圣光飞刀
+      InsidiousImpaler: 阴险穿刺者
+      Lacerator: 裂魔
+      LifefruitScythe: 猎命镰刀
+      LionHeart: 狮心圣裁
+      Lucrecia: 卢克雷西亚
+      MajesticGuard: 雄伟之护
+      MantisClaws: 螳螂爪
+      MirrorBlade: 镜之刃
+      MonstrousKnives: 畸变飞刀
+      Mourningstar: 晨星链刃
+      Murasama: 鬼妖村正
+      MycelialClaws: 真菌爪
+      Nadir: 天底
+      Nebulash: 星云鞭
+      NeptunesBounty: 海神之馈赠
+      Oblivion: 遗殇
+      OldLordOathsword: 旧神之誓约
+      OmegaBiomeBlade: 真·环境之刃
+      Omniblade: 全能之刃
+      Oracle: 神谕
+      Pandemic: 瘟疫狂潮
+      PerfectDark: 完美黑暗
+      PhosphorescentGauntlet: 磷光拳套
+      PhotonRipper: 光子撕裂者
+      PlagueKeeper: 瘟疫大剑
+      PrismaticBreaker: 光棱破碎者
+      Pwnagehammer: 圣时之锤
+      Quagmire: 泥潭
+      RedSun: 红日
+      RedtideSpear: 赤潮矛
+      RemsRevenge: 雷姆的复仇
+      Riptide: 涡旋
+      Roxcalibur: 石约与胜利之剑
+      SausageMaker: 香肠矛
+      ScourgeoftheCosmos: 灾劫宙怨
+      SeashineSword: 海耀之刃
+      SeekingScorcher: 焚罪飞斧
+      Shimmerspark: 烁光
+      SolarFlare: 日炎
+      SolsticeClaymore: 季节长剑
+      SoulEdge: 灵魂之锋
+      SoulHarvester: 灵魂收割者
       SpineOfThanatos: 塔纳托斯的脊椎
       StarnightLance: 星夜长枪
       StellarContempt: 星体击碎者
