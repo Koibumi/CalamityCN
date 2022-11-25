@@ -1215,61 +1215,61 @@
       ProfanedCrystal: 渎神结晶
       ProfanedDoor: 渎神门
       ProfanedDresser: 渎神梳妆台
-      ProfanedLamp: Profaned Lamp
-      ProfanedLantern: Profaned Lantern
-      ProfanedPiano: Profaned Piano
-      ProfanedPlatform: Profaned Platform
-      ProfanedRock: Profaned Rock
-      ProfanedSink: Profaned Sink
-      ProfanedSlab: Profaned Slab
-      ProfanedTable: Profaned Table
-      ProfanedWorkbench: Profaned Workbench
-      RunicProfanedBrick: Runic Profaned Brick
-      EyeOfTheAccursedBanner: Eye of the Accursed Banner
-      LargeRitualCandle: Large Ritual Candle
-      MonolithOfTheAccursed: Monolith of the Accursed
-      OccultBrickItem: Occult Brick
-      OccultLegionnaireBanner: Occult Legionnaire Banner
-      OccultPlatformItem: Occult Platform
-      RitualCandle: Ritual Candle
-      SacrilegiousBathtub: Sacrilegious Bathtub
-      SacrilegiousBed: Sacrilegious Bed
-      SacrilegiousBench: Sacrilegious Bench
-      SacrilegiousBookcase: Sacrilegious Bookcase
-      SacrilegiousCandelabra: Sacrilegious Candelabra
-      SacrilegiousCandle: Sacrilegious Candle
-      SacrilegiousChair: Sacrilegious Chair
-      SacrilegiousChandelier: Sacrilegious Chandelier
-      SacrilegiousChest: Sacrilegious Chest
-      SacrilegiousClock: Sacrilegious Clock
-      SacrilegiousDoor: Sacrilegious Door
-      SacrilegiousDresser: Sacrilegious Dresser
-      SacrilegiousLamp: Sacrilegious Lamp
-      SacrilegiousLantern: Sacrilegious Lantern
-      SacrilegiousOrgan: Sacrilegious Organ
-      SacrilegiousSink: Sacrilegious Sink
-      SacrilegiousTable: Sacrilegious Table
-      SacrilegiousWorkBench: Sacrilegious Work Bench
-      SilvaBathtub: Silva Bathtub
-      SilvaBed: Silva Bed
-      SilvaBench: Silva Bench
-      SilvaBookcase: Silva Bookcase
-      SilvaCandelabra: Silva Candelabra
-      SilvaCandle: Silva Candle
-      SilvaChair: Silva Chair
-      SilvaChandelier: Silva Chandelier
-      SilvaChest: Silva Chest
-      SilvaClock: Silva Clock
-      SilvaCrystal: Silva Crystal
-      SilvaDoor: Silva Door
-      SilvaDresser: Silva Dresser
-      SilvaLamp: Silva Lamp
-      SilvaLantern: Silva Lantern
-      SilvaPiano: Silva Piano
-      SilvaPlatform: Silva Platform
-      SilvaSink: Silva Sink
-      SilvaTable: Silva Table
-      SilvaWorkBench: Silva Work Bench
+      ProfanedLamp: 渎神灯
+      ProfanedLantern: 渎神灯笼
+      ProfanedPiano: 渎神钢琴
+      ProfanedPlatform: 渎神平台
+      ProfanedRock: 渎神石块
+      ProfanedSink: 渎神水槽
+      ProfanedSlab: 渎神石板
+      ProfanedTable: 渎神桌
+      ProfanedWorkbench: 渎神工作台
+      RunicProfanedBrick: 渎神符文砖
+      EyeOfTheAccursedBanner: 诅咒之眼旗帜
+      LargeRitualCandle: 大型仪式蜡烛
+      MonolithOfTheAccursed: 诅咒石柱
+      OccultBrickItem: 玄秘砖
+      OccultLegionnaireBanner: 玄秘军团旗帜
+      OccultPlatformItem: 玄秘平台
+      RitualCandle: 仪式蜡烛
+      SacrilegiousBathtub: 渎圣浴缸
+      SacrilegiousBed: 渎圣床
+      SacrilegiousBench: 渎圣长凳
+      SacrilegiousBookcase: 渎圣书架
+      SacrilegiousCandelabra: 渎圣烛台
+      SacrilegiousCandle: 渎圣蜡烛
+      SacrilegiousChair: 渎圣椅
+      SacrilegiousChandelier: 渎圣大吊灯
+      SacrilegiousChest: 渎圣箱
+      SacrilegiousClock: 渎圣钟
+      SacrilegiousDoor: 渎圣门
+      SacrilegiousDresser: 渎圣梳妆台
+      SacrilegiousLamp: 渎圣灯
+      SacrilegiousLantern: 渎圣灯笼
+      SacrilegiousOrgan: 渎圣钢琴
+      SacrilegiousSink: 渎圣水槽
+      SacrilegiousTable: 渎圣桌
+      SacrilegiousWorkBench: 渎圣工作台
+      SilvaBathtub: 始源林海浴缸
+      SilvaBed: 始源林海床
+      SilvaBench: 始源林海长凳
+      SilvaBookcase: 始源林海书架
+      SilvaCandelabra: 始源林海烛台
+      SilvaCandle: 始源林海蜡烛
+      SilvaChair: 始源林海椅
+      SilvaChandelier: 始源林海吊灯
+      SilvaChest: 始源林海箱
+      SilvaClock: 始源林海钟
+      SilvaCrystal: 始源林海晶块
+      SilvaDoor: 始源林海门
+      SilvaDresser: 始源林海梳妆台
+      SilvaLamp: 始源林海灯
+      SilvaLantern: 始源林海灯笼
+      SilvaPiano: 始源林海钢琴
+      SilvaPlatform: 始源林海平台
+      SilvaSink: 始源林海水槽
+      SilvaTable: 始源林海桌
+      SilvaWorkBench: 始源林海工作台
       StatigelBathtub: Statigel Bathtub
       StatigelBed: Statigel Bed
       StatigelBlock: Statigel Block
