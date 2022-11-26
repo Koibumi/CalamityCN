@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using CalamityCN.Utils;
 using CalamityMod.Systems;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
@@ -90,7 +91,7 @@ namespace CalamityCN.Translations.Patch
         private static void QuickTranslate(Type type, string origin, string trans)
         {
             DifficultyMode.Add(new ILHook(
-            type.GetMethod("get_ExpandedDescription", (BindingFlags)60 | BindingFlags.Instance),
+            type.GetCachedMethod("get_ExpandedDescription"),
             new ILContext.Manipulator(il =>
             {
                 var cursor = new ILCursor(il);

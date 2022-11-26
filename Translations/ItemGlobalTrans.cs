@@ -1407,7 +1407,7 @@ public class ItemGlobalTrans : GlobalItem
                 #endregion
 
                 #region 物品
-                if (item.type == ModContent.ItemType<ProfanedShard>() || item.type == ModContent.ItemType<ProfanedCore>() || item.type == ItemID.DeerThing || item.type == ItemID.QueenSlimeCrystal || item.type == ItemID.TruffleWorm || item.type == ItemID.MechanicalEye || item.type == ItemID.MechanicalWorm || item.type == ItemID.MechanicalSkull || item.type == ItemID.LihzahrdPowerCell || item.type == ItemID.WormFood || item.type == ItemID.BloodySpine || item.type == ItemID.Abeemination || item.type == ItemID.SlimeCrown || item.type == ItemID.GoblinBattleStandard || item.type == ItemID.SnowGlobe || item.type == ItemID.PumpkinMoonMedallion || item.type == ItemID.NaughtyPresent || item.type == ItemID.SolarTablet || item.type == ItemID.PirateMap || item.type == ItemID.BloodMoonStarter || item.type == ItemID.CelestialSigil || item.type == ItemID.SuspiciousLookingEye)
+                if (item.type == ItemID.DeerThing || item.type == ItemID.QueenSlimeCrystal || item.type == ItemID.TruffleWorm || item.type == ItemID.MechanicalEye || item.type == ItemID.MechanicalWorm || item.type == ItemID.MechanicalSkull || item.type == ItemID.LihzahrdPowerCell || item.type == ItemID.WormFood || item.type == ItemID.BloodySpine || item.type == ItemID.Abeemination || item.type == ItemID.SlimeCrown || item.type == ItemID.GoblinBattleStandard || item.type == ItemID.SnowGlobe || item.type == ItemID.PumpkinMoonMedallion || item.type == ItemID.NaughtyPresent || item.type == ItemID.SolarTablet || item.type == ItemID.PirateMap || item.type == ItemID.BloodMoonStarter || item.type == ItemID.CelestialSigil || item.type == ItemID.SuspiciousLookingEye)
                 {
                     line.Text = line.Text.Replace("Not consumable", "不消耗".zh());
 
@@ -1427,13 +1427,6 @@ public class ItemGlobalTrans : GlobalItem
                     
                     line.Text = line.Text.Replace("to summon the Golem", "召唤石巨人".zh());
                     line.Text = line.Text.Replace("Summons Duke Fishron if used as bait in the Ocean", "在海洋钓一条猪鲨".zh());
-                    
-                //InfernumMode
-                    line.Text = line.Text.Replace("Summons the Moon Lord immediately", "立刻召唤月亮领主");
-                    line.Text = line.Text.Replace("Creates an arena at the player's position", "在玩家的位置创建一个战斗场地");
-                    line.Text = line.Text.Replace("Creates a rectangular arena around the altar. If the altar is inside of the temple solid tiles within the arena are broken", "在祭坛周围创建一个矩形战斗场地，如果祭坛在神庙内，则场地内神庙方块会被破坏");
-                    line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the profaned garden at the far right of the underworld", "在地狱最右侧亵渎庭院中使用召唤亵渎守卫");
-                    line.Text = line.Text.Replace("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", "在地狱最右侧亵渎神庙中圣坛使用召唤亵渎天神");
                 }
                 if (item.type == ItemID.GuideVoodooDoll)
                 {

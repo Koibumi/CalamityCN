@@ -16,6 +16,12 @@ This is a Chinese-translation Mod for Calamity Mod.
 2.进入tml，在模组管理中同时启用灾厄Mod和本Mod
 3.安装完成，进行游戏[i:74]
 
+v1.3.13
+更新/补充翻译内容
+部分物品名称描述改动
+v1.3.11
+修复蘑菇套装描述丢失
+部分物品名称改动
 v1.3.10
 补充遗漏描述修改
 v1.3.9

@@ -67,7 +67,6 @@ namespace CalamityCN.Translations.Patch
 
 		public override MethodInfo ModifiedMethod
 		{
-			[PreserveBaseOverrides]
 			get
 			{
 				Mod calamity = ModsCall.Calamity;
@@ -278,7 +277,7 @@ namespace CalamityCN.Translations.Patch
 			list19.Add(ModContent.ItemType<RavagerTrophy>());
 			list19.Add(ModContent.ItemType<RavagerMask>());
 			list19.Add(ModContent.ItemType<KnowledgeRavager>());
-			AddBoss(bossChecklist, calamity, name14, difficulty14, list18, downed14, summon14, list19, "使用 [i:" + ModContent.ItemType<DeathWhistle>().ToString() + "] 召唤", CalamityUtils.ColorMessage("那由暴君所屠戮之人的血肉，扭曲形成的战争巨兽，再次开始寻找真正的恶徒……", new Color(178, 34, 34)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
+			AddBoss(bossChecklist, calamity, name14, difficulty14, list18, downed14, summon14, list19, "使用 [i:" + ModContent.ItemType<DeathWhistle>().ToString() + "] 召唤", CalamityUtils.ColorMessage("那由魔君所屠戮之人的血肉，扭曲形成的战争巨兽，再次开始寻找真正的恶徒……", new Color(178, 34, 34)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
 			{
 				Texture2D value = ModContent.Request<Texture2D>("CalamityMod/NPCs/Ravager/Ravager_BossChecklist", (ReLogic.Content.AssetRequestMode)2).Value;
 				sb.Draw(value, new Vector2((float)(rect.Center.X - value.Width / 2), (float)(rect.Center.Y - value.Height / 2)), color);

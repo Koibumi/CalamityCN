@@ -17,6 +17,7 @@ using CalamityMod.NPCs.Calamitas;
 using CalamityMod.NPCs.Ravager;
 using CalamityMod.NPCs.Bumblebirb;
 using CalamityMod.NPCs.ProfanedGuardians;
+using CalamityCN.Utils;
 
 namespace CalamityCN.Translations.Patch
 {
@@ -186,7 +187,7 @@ namespace CalamityCN.Translations.Patch
         private static void QuickTranslate(Type type, string methodName, string origin, string trans)
         {
             ILHooksT.Add(new ILHook(
-            type.GetMethod(methodName, (BindingFlags)60 | BindingFlags.Instance),
+            type.GetCachedMethod(methodName),
             new ILContext.Manipulator(il =>
             {
                 var cursor = new ILCursor(il);

@@ -30,7 +30,6 @@ namespace CalamityCN.Translation.Patch
 
 		public override MethodInfo ModifiedMethod
 		{
-			[PreserveBaseOverrides]
 			get
 			{
 				Mod calamity = ModsCall.Calamity;

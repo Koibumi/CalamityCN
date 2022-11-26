@@ -1,28 +1,69 @@
 using CalamityCN.Utils;
 using MonoMod.RuntimeDetour;
+using ReLogic.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Terraria;
 using Terraria.GameContent.UI.Elements;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using static On.Terraria.GameContent.UI.Elements.UIKeybindingListItem;
-
+using Terraria;
 
 namespace CalamityCN
 {
     public class CalamityCN : Mod
     {
-        private static CalamityCN _instance;
-        public static CalamityCN Instance => _instance;
+        public CalamityCN(){CalamityCN.Instance = this;}
+        internal static CalamityCN Instance;
         public List<ContentTranslation> Contents;
         private List<Hook> _onHooks;
+        public DynamicSpriteFont BossIntroScreensFont;
 
+        public override void PostSetupContent()
+        {
+            ModLoader.TryGetMod("CalamityMod", out Mod Calamity);
+            /*(网址格式改不了https://url/wiki/{})
+            ModLoader.TryGetMod("Wikithis", out Mod wikithis);
+            if (wikithis != null && !Main.dedServ)
+            {
+                wikithis.Call(0, Calamity, "soammer.com/calamitywiki", GameCulture.CultureName.Chinese);
+            }
+            */
+            if (Calamity != null)
+            {
+
+                ItemNameDict.Load();
+                ItemToolTipDict.Load();
+                NPCNameDict.Load();
+                BuffNameDict.Load();
+                BuffDescriptionDict.Load();
+
+                foreach (var itemName in ItemNameDict.ItemName)
+                {
+                    Calamity.Find<ModItem>(itemName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, itemName.Value);
+                }
+                foreach (var itemTooltip in ItemToolTipDict.ItemToolTip)
+                {
+                    Calamity.Find<ModItem>(itemTooltip.Key).Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, itemTooltip.Value);
+                }
+                foreach (var effectName in BuffNameDict.EffectName)
+                {
+                    Calamity.Find<ModBuff>(effectName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, effectName.Value);
+                }
+                foreach (var effectDescription in BuffDescriptionDict.EffectDescription)
+                {
+                    Calamity.Find<ModBuff>(effectDescription.Key).Description.AddTranslation((int)GameCulture.CultureName.Chinese, effectDescription.Value);
+                }
+                foreach (var npcName in NPCNameDict.NPCName)
+                {
+                    Calamity.Find<ModNPC>(npcName.Key).DisplayName.AddTranslation(7, npcName.Value);
+                }
+            }
+        }
         public override void Load()
         {
-            _instance = this;
             GetFriendlyName += TranslatedFriendlyName;
             MonoModHooks.RequestNativeAccess();
             this.Contents = new List<ContentTranslation>();
@@ -72,47 +113,6 @@ namespace CalamityCN
             }
         }
 
-        public override void PostSetupContent()
-        {
-            ModLoader.TryGetMod("CalamityMod", out Mod Calamity);
-            /*(网址格式改不了https://url/wiki/{})
-            ModLoader.TryGetMod("Wikithis", out Mod wikithis);
-            if (wikithis != null && !Main.dedServ)
-            {
-                wikithis.Call(0, Calamity, "soammer.com/calamitywiki", GameCulture.CultureName.Chinese);
-            }
-            */
-            if (Calamity !=null)
-            {
-
-                ItemNameDict.Load();
-                ItemToolTipDict.Load();
-                NPCNameDict.Load();
-                BuffNameDict.Load();
-                BuffDescriptionDict.Load();
-
-                foreach (var itemName in ItemNameDict.ItemName)
-                {
-                    Calamity.Find<ModItem>(itemName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, itemName.Value);
-                }
-                foreach (var itemTooltip in ItemToolTipDict.ItemToolTip)
-                {
-                    Calamity.Find<ModItem>(itemTooltip.Key).Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, itemTooltip.Value);
-                }
-                foreach (var effectName in BuffNameDict.EffectName)
-                {
-                    Calamity.Find<ModBuff>(effectName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, effectName.Value);
-                }
-                foreach (var effectDescription in BuffDescriptionDict.EffectDescription)
-                {
-                    Calamity.Find<ModBuff>(effectDescription.Key).Description.AddTranslation((int)GameCulture.CultureName.Chinese, effectDescription.Value);
-                }
-                foreach (var npcName in NPCNameDict.NPCName)
-                {
-                    Calamity.Find<ModNPC>(npcName.Key).DisplayName.AddTranslation(7, npcName.Value);
-                }
-            }
-        }
         public override void Unload()
         {
             GetFriendlyName -= TranslatedFriendlyName;
@@ -123,7 +123,7 @@ namespace CalamityCN
             BuffNameDict.Unload();
             BuffDescriptionDict.Unload();
 
-            _instance = null;
+            Instance = null;
             CalamityCNConfig.Instance = null;
             if (this.Contents != null)
             {
@@ -148,6 +148,7 @@ namespace CalamityCN
             }
             this._onHooks = null;
             this.Contents = null;
+
         }
 
         private string TranslatedFriendlyName(orig_GetFriendlyName orig, UIKeybindingListItem item)

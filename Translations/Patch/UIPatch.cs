@@ -13,6 +13,7 @@ using CalamityMod.UI.DraedonLogs;
 using CalamityMod.UI.DraedonsArsenal;
 using CalamityMod.UI.CalamitasEnchants;
 using CalamityMod.UI.SulphurousWaterMeter;
+using CalamityCN.Utils;
 
 namespace CalamityCN.Translations.Patch
 {
@@ -105,7 +106,7 @@ namespace CalamityCN.Translations.Patch
         private static void QuickTranslate(Type type, string methodName, string origin, string trans)
         {
             ILHooks.Add(new ILHook(
-            type.GetMethod(methodName, (BindingFlags)60 | BindingFlags.Instance),
+            type.GetCachedMethod(methodName),
             new ILContext.Manipulator(il =>
             {
                 var cursor = new ILCursor(il);
