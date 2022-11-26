@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using CalamityCN.Utils;
-using CalamityMod.Events;
-using InfernumMode.Systems;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;

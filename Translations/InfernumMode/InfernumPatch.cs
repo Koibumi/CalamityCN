@@ -22,10 +22,6 @@ using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.Patch
 {
-    [JITWhenModsEnabled(new string[]
-    {
-        "InfernumMode"
-    })]
     public class InfernumPatch
     {
         private static List<ILHook> ILHooksI;

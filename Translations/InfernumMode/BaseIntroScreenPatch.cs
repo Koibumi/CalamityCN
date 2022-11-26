@@ -3,6 +3,7 @@ using System.Reflection;
 using CalamityCN.Utils;
 using InfernumMode.BossIntroScreens;
 using ReLogic.Graphics;
+using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.InfernumMode
 {

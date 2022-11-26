@@ -15,7 +15,7 @@ namespace CalamityCN
 {
     public class CalamityCN : Mod
     {
-        public CalamityCN(){CalamityCN.Instance = this;}
+        public CalamityCN(){CalamityCN.Instance = this; base.PreJITFilter = new DisableJIT();}
         internal static CalamityCN Instance;
         public List<ContentTranslation> Contents;
         private List<Hook> _onHooks;

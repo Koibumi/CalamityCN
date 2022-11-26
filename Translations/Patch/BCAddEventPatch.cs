@@ -13,10 +13,6 @@ using Terraria.ModLoader;
 
 namespace CalamityCN.Translation.Patch
 {
-    [JITWhenModsEnabled(new string[]
-	{
-		"CalamityMod"
-	})]
 	public class BCAddEventPatch : OnPatcher
 	{
 

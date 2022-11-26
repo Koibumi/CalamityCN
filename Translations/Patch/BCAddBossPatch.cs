@@ -50,10 +50,6 @@ using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.Patch
 {
-    [JITWhenModsEnabled(new string[]
-	{
-		"CalamityMod"
-	})]
 	public class BCAddBossPatch : OnPatcher
 	{
 
