@@ -66,39 +66,39 @@
     ItemTooltip:
     {
       DemonicChaliceOfInfernum: ""
-      BlastedTophat: Summons a small hat girl that gives you advice about bosses that you fight
+      BlastedTophat: 召唤一个戴帽子的小女孩在你与Boss战斗时给予你建议
       BloodwormPlatter:
         '''
-        Summons the Old Duke
-        Can only be used in the Sulphurous Sea
-        Not consumable
+        召唤硫海遗爵
+        只能在硫磺海使用
+        不消耗
         '''
       DungeonsCurse:
         '''
-        Summons Skeletron
-        Skeletron enrages during daytime
-        It becomes nighttime if this item is used during daytime
-        Not consumable
+        召唤骷髅王
+        骷髅王在白天狂暴
+        如果在白天使用会变成晚上
+        不消耗
         '''
       FleshChunk:
         '''
-        Summons the Wall of Flesh
-        Can only be used in the underworld
-        Not consumable
+        召唤肉山
+        只能在地狱使用
+        不消耗
         '''
       LeviathanDetector:
         '''
-        Summons Anahita
-        Does not need to be used at the ocean
-        Not consumable
+        召唤阿娜希塔
+        在任意海边使用
+        不消耗
         '''
       ProfanedFountainItem: ""
       RadiantCrystal:
         '''
-        Summons the Empress of Light
-        Does not need to be used in the Hallow
-        The Empress enrages during daytime
-        Not consumable
+        召唤光之女皇
+        不需要在神圣地使用
+        光之女皇在白天狂暴
+        不消耗
         '''
       AquaticScourgeRelic: GetsChanged
       AstrumAureusRelic: GetsChanged
@@ -151,9 +151,9 @@
       YharonRelic: GetsChanged
       SparklingTunaCan:
         '''
-        Summons the Giant Clam
-        Can only be used in the sunken sea
-        Not consumable
+        召唤巨像蛤
+        只能在沉沦海使用
+        不消耗
         '''
     }
     ProjectileName:
@@ -594,39 +594,39 @@
     }
     NPCName:
     {
-      AquaticParasite2: Aquatic Parasite
-      AquaticSeekerBody2: Aquatic Seeker
-      AquaticSeekerHead2: Aquatic Seeker
-      AquaticSeekerTail2: Aquatic Seeker
+      AquaticParasite2: 渊海寄生虫
+      AquaticSeekerBody2: 渊海追寻者
+      AquaticSeekerHead2: 渊海追寻者
+      AquaticSeekerTail2: 渊海追寻者
       DeusSpawn: Deus Spawn
-      BrainIllusion: Brain of Cthulhu
-      BrainIllusion2: Brain of Cthulhu
-      SoulSeeker2: Soul Seeker
+      BrainIllusion: 克苏鲁之脑
+      BrainIllusion2: 克苏鲁之脑
+      SoulSeeker2: 探魂者
       LightSnuffingHand: Light Snuffing Shadow Hand
-      AresPulseCannon: XF-09 Ares Pulse Cannon
-      PhotonRipperNPC: XF-09 Ares Photon Ripper
-      RedPlasmaEnergy: Plasma Orb
-      RedirectingBubble: Bubble
-      ExplodingServant: Servant of Cthulhu
+      AresPulseCannon: XF-09“阿瑞斯”脉冲加农炮
+      PhotonRipperNPC: XF-09“阿瑞斯”光子撕裂者
+      RedPlasmaEnergy: 等离子球
+      RedirectingBubble: 泡泡
+      ExplodingServant: 克苏鲁奴仆
       GolemArenaPlatform: ""
-      GolemFistLeft: Golem Fist
-      GolemFistRight: Golem Fist
-      Ninja: Ninja
+      GolemFistLeft: 石巨人之拳
+      GolemFistRight: 石巨人之拳
+      Ninja: 忍者
       BuilderDroneBig: Big Builder Drone
       BuilderDroneSmall: Small Builder Drone
       ExplosivePlagueCharger: Explosive Plague Charger
-      PlagueNuke: Plague Nuke
-      SmallDrone: Small Drone
+      PlagueNuke: 瘟疫核弹
+      SmallDrone: 小型无人机
       PlanteraPinkTentacle: Plantera's Tentacle
-      PolterghastLeg: Ghostly Leg
+      PolterghastLeg: 鬼爪
       EtherealHand: Ethereal Hand
       ProvArenaPlatform: ""
       UnworldlyEntity: Unworldly Entity
       SplitBigSlime: Unstable Slime Spawn
       SplitBigSlimeAnimation: Unstable Slime Spawn
       ShadowDemon: Shadow Hydra
-      CursedOrb: Cursed Flame Orb
-      EnergyOrb: Energy Orb
+      CursedOrb: 诅咒焰球
+      EnergyOrb: 能量球
     }
     BiomeName:
     {
@@ -634,26 +634,26 @@
     }
     BuffName:
     {
-      DarkFlames: Dark Flames
-      ElysianGrace: Elysian Grace
-      HatGirlBuff: Hat Girl
-      Madness: Madness
-      RedSurge: Red Surge
-      ShadowflameInferno: Shadowflame Inferno
+      DarkFlames: 黑暗火焰
+      ElysianGrace: 极乐恩典
+      HatGirlBuff: 帽子女孩
+      Madness: 精神失常
+      RedSurge: 红色涌动
+      ShadowflameInferno: 暗影狱火
     }
     BuffDescription:
     {
       DarkFlames: Your body is consumed by a forsaken inferno. Your defense is lowered
-      ElysianGrace: You have infinite flight time
+      ElysianGrace: 你拥有无限飞行时间
       HatGirlBuff: Arson
-      Madness: Going insane...
-      RedSurge: You cannot move
-      ShadowflameInferno: Rapidly losing life
+      Madness: 要疯了……
+      RedSurge: 你无法移动
+      ShadowflameInferno: 生命急速流失
     }
     MapObject:
     {
-      GolemArena: Arena
-      MoonlordArena: Arena
+      GolemArena: 战斗场地
+      MoonlordArena: 战斗场地
     }
     InfernumText: 祝你好运。
     InfernumText2: 那好吧。
@@ -728,8 +728,8 @@
       }
       BossIntroductionAnimationsAreAllowed:
       {
-        Label: Boss Introduction Animations
-        Tooltip: Enables boss introduction animations. They only activate when Infernum Mode is active.
+        Label: Boss入场介绍动画
+        Tooltip: 启用Boss入场介绍动画，仅在炼狱模式激活时有效。
       }
     }
   }
