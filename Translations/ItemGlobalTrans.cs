@@ -879,6 +879,13 @@ public class ItemGlobalTrans : GlobalItem
                 {
                     line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机".zh());
                 }
+                if (item.type == ModContent.ItemType<RuneofKos>())
+                {
+                    line.Text = line.Text.Replace("Summons the Ceaseless Void", "召唤无尽虚空".zh());
+                    line.Text = line.Text.Replace("Enrages on the surface", "在地表狂暴".zh());
+                    line.Text = line.Text.Replace("Summons the Storm Weaver", "召唤风暴编织者".zh());
+                    line.Text = line.Text.Replace("Summons Signus, Envoy of the Devourer", "召唤神之使徒西格纳斯".zh());
+                }
 
                 #endregion
 
