@@ -34,6 +34,427 @@ public class ItemGlobalTrans : GlobalItem
     {
         return ModsCall.IsCN && ModsCall.Calamity != null;
     }
+    //重命名
+    public override void SetDefaults(Item item)
+    {
+        //星流家具
+        if (item.type == ModContent.ItemType<ExoChair>())
+        {
+            item.SetNameOverride("星流椅".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoBathtub>())
+        {
+            item.SetNameOverride("星流浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoBed>())
+        {
+            item.SetNameOverride("星流床".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoBookcase>())
+        {
+            item.SetNameOverride("星流书架".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoCandelabra>())
+        {
+            item.SetNameOverride("星流烛台".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoCandle>())
+        {
+            item.SetNameOverride("星流蜡烛".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoChandelier>())
+        {
+            item.SetNameOverride("星流吊灯".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoChest>())
+        {
+            item.SetNameOverride("星流箱".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoClock>())
+        {
+            item.SetNameOverride("星流钟".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoDoor>())
+        {
+            item.SetNameOverride("星流门".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoDresser>())
+        {
+            item.SetNameOverride("星流梳妆台".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoKeyboard>())
+        {
+            item.SetNameOverride("星流键盘".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoLamp>())
+        {
+            item.SetNameOverride("星流灯".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoLantern>())
+        {
+            item.SetNameOverride("星流灯笼".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoPlatform>())
+        {
+            item.SetNameOverride("星流平台".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoPrismPlatform>())
+        {
+            item.SetNameOverride("星流棱晶平台".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoSink>())
+        {
+            item.SetNameOverride("星流水槽".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoSofa>())
+        {
+            item.SetNameOverride("星流沙发".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoTable>())
+        {
+            item.SetNameOverride("星流桌".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoToilet>())
+        {
+            item.SetNameOverride("星流马桶".zh());
+        }
+        if (item.type == ModContent.ItemType<ExoWorkbench>())
+        {
+            item.SetNameOverride("星流工作台".zh());
+        }
+        //酸腐木家具
+        if (item.type == ModContent.ItemType<AcidwoodBathtub>())
+        {
+            item.SetNameOverride("酸腐木浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodBed>())
+        {
+            item.SetNameOverride("酸腐木床".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodBench>())
+        {
+            item.SetNameOverride("酸腐木长凳".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodBookcase>())
+        {
+            item.SetNameOverride("酸腐木书架".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodCandelabra>())
+        {
+            item.SetNameOverride("酸腐木烛台".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodCandle>())
+        {
+            item.SetNameOverride("酸腐木蜡烛".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodChair>())
+        {
+            item.SetNameOverride("酸腐木椅子".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodChandelier>())
+        {
+            item.SetNameOverride("酸腐木吊灯".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodChest>())
+        {
+            item.SetNameOverride("酸腐木箱".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodClock>())
+        {
+            item.SetNameOverride("酸腐木钟".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodDoor>())
+        {
+            item.SetNameOverride("酸腐木门".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodDresser>())
+        {
+            item.SetNameOverride("酸腐木梳妆台".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodLamp>())
+        {
+            item.SetNameOverride("酸腐木灯".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodLantern>())
+        {
+            item.SetNameOverride("酸腐木灯笼".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodPiano>())
+        {
+            item.SetNameOverride("酸腐木钢琴".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodPlatform>())
+        {
+            item.SetNameOverride("酸腐木平台".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodSink>())
+        {
+            item.SetNameOverride("酸腐木水槽".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodTable>())
+        {
+            item.SetNameOverride("酸腐木桌子".zh());
+        }
+        if (item.type == ModContent.ItemType<AcidwoodWorkBench>())
+        {
+            item.SetNameOverride("酸腐木工作台".zh());
+        }
+        //星石家具
+        if (item.type == ModContent.ItemType<MonolithBathtub>())
+        {
+            item.SetNameOverride("星石浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithBed>())
+        {
+            item.SetNameOverride("星石床".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithBench>())
+        {
+            item.SetNameOverride("星石长凳".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithBookcase>())
+        {
+            item.SetNameOverride("星石书架".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithCandelabra>())
+        {
+            item.SetNameOverride("星石烛台".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithCandle>())
+        {
+            item.SetNameOverride("星石蜡烛".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithChair>())
+        {
+            item.SetNameOverride("星石椅".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithChandelier>())
+        {
+            item.SetNameOverride("星石吊灯".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithChest>())
+        {
+            item.SetNameOverride("星石箱".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithClock>())
+        {
+            item.SetNameOverride("星石钟".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithDoor>())
+        {
+            item.SetNameOverride("星石门".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithDresser>())
+        {
+            item.SetNameOverride("星石梳妆台".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithLamp>())
+        {
+            item.SetNameOverride("星石灯".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithLantern>())
+        {
+            item.SetNameOverride("星石灯笼".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithPiano>())
+        {
+            item.SetNameOverride("星石钢琴".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithPlatform>())
+        {
+            item.SetNameOverride("星石平台".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithSink>())
+        {
+            item.SetNameOverride("星石水槽".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithTable>())
+        {
+            item.SetNameOverride("星石桌".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithWorkBench>())
+        {
+            item.SetNameOverride("星石工作台".zh());
+        }
+        //异域家具
+        if (item.type == ModContent.ItemType<OtherworldlyBathtub>())
+        {
+            item.SetNameOverride("异域浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyBed>())
+        {
+            item.SetNameOverride("异域床".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyBookcase>())
+        {
+            item.SetNameOverride("异域书架".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyCandelabra>())
+        {
+            item.SetNameOverride("异域烛台".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyCandle>())
+        {
+            item.SetNameOverride("异域蜡烛".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyChair>())
+        {
+            item.SetNameOverride("异域椅".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyChandelier>())
+        {
+            item.SetNameOverride("异域吊灯".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyChest>())
+        {
+            item.SetNameOverride("异域箱".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyClock>())
+        {
+            item.SetNameOverride("异域钟".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyDoor>())
+        {
+            item.SetNameOverride("异域门".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyDresser>())
+        {
+            item.SetNameOverride("异域梳妆台".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyLamp>())
+        {
+            item.SetNameOverride("异域灯".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyLantern>())
+        {
+            item.SetNameOverride("异域灯笼".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyPiano>())
+        {
+            item.SetNameOverride("异域钢琴".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyPlatform>())
+        {
+            item.SetNameOverride("异域平台".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlySink>())
+        {
+            item.SetNameOverride("异域水槽".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlySofa>())
+        {
+            item.SetNameOverride("异域沙发".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyStone>())
+        {
+            item.SetNameOverride("异域石".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyTable>())
+        {
+            item.SetNameOverride("异域桌".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyWorkBench>())
+        {
+            item.SetNameOverride("异域工作台".zh());
+        }
+        //其他家具
+        if (item.type == ModContent.ItemType<VoidBathtub>())
+        {
+            item.SetNameOverride("虚空浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<VoidObelisk>())
+        {
+            item.SetNameOverride("虚空钟".zh());
+        }
+        if (item.type == ModContent.ItemType<VoidWorkbench>())
+        {
+            item.SetNameOverride("虚空工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<AshenBathtub>())
+        {
+            item.SetNameOverride("灰烬浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<AshenPipeOrgan>())
+        {
+            item.SetNameOverride("灰烬钢琴".zh());
+        }
+        if (item.type == ModContent.ItemType<AshenWorkBench>())
+        {
+            item.SetNameOverride("灰烬工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<AncientBathtub>())
+        {
+            item.SetNameOverride("远古浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<AncientPipeOrgan>())
+        {
+            item.SetNameOverride("远古钢琴".zh());
+        }
+        if (item.type == ModContent.ItemType<AncientWorkBench>())
+        {
+            item.SetNameOverride("远古工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<AbyssBathtub>())
+        {
+            item.SetNameOverride("深渊浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<AbyssSynth>())
+        {
+            item.SetNameOverride("深渊钢琴".zh());
+        }
+        if (item.type == ModContent.ItemType<AbyssWorkBench>())
+        {
+            item.SetNameOverride("深渊工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<StatigelBathtub>())
+        {
+            item.SetNameOverride("斯塔提斯浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<StatigelWorkbench>())
+        {
+            item.SetNameOverride("斯塔提斯工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<ProfanedBathtub>())
+        {
+            item.SetNameOverride("渎神浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<ProfanedWorkbench>())
+        {
+            item.SetNameOverride("渎神工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<CosmiliteBathtub>())
+        {
+            item.SetNameOverride("宇宙浴缸".zh());
+        }
+        if (item.type == ModContent.ItemType<CosmiliteWorkBench>())
+        {
+            item.SetNameOverride("宇宙工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<StratusWorkbench>())
+        {
+            item.SetNameOverride("幻云工作台".zh());
+        }
+        if (item.type == ModContent.ItemType<OtherworldlyStoneWall>())
+        {
+            item.SetNameOverride("异域石墙".zh());
+        }
+        if (item.type == ModContent.ItemType<EutrophicShelf>())
+        {
+            item.SetNameOverride("富养制造架".zh());
+        }
+        if (item.type == ModContent.ItemType<MonolithAmalgam>())
+        {
+            item.SetNameOverride("星幻柱综合体".zh());
+        }
+        if (item.type == ModContent.ItemType<ProfanedCrucible>())
+        {
+            item.SetNameOverride("亵渎坩埚".zh());
+        }
+        if (item.type == ModContent.ItemType<SilvaBasin>())
+        {
+            item.SetNameOverride("闪耀操纵机".zh());
+        }
+    }
     //修改描述	
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
@@ -407,7 +828,7 @@ public class ItemGlobalTrans : GlobalItem
                 if (item.type == ModContent.ItemType<RuneofKos>())
                 {
                     line.Text = line.Text.Replace("Summons the Storm Weaver", "召唤风暴编织者".zh());
-                    line.Text = line.Text.Replace("Summons the Signus, Envoy of the Devourer", "召唤神之使徒，西格纳斯".zh());
+                    line.Text = line.Text.Replace("Summons Signus, Envoy of the Devourer", "召唤神之使徒西格纳斯".zh());
                     line.Text = line.Text.Replace("Summons the Ceaseless Void", "召唤无尽虚空".zh());
                     line.Text = line.Text.Replace("Enrages on the surface", "在地表上狂暴".zh());
                 }
@@ -460,427 +881,6 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Voltage Regulation System", "电压校准系统".zh());
 
                 }
-
-                #region OverrideName
-                //星流家具
-                if (item.type == ModContent.ItemType<ExoChair>())
-                {
-                    line.Text = line.Text.Replace("Exo Chair", "星流椅".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoBathtub>())
-                {
-                    line.Text = line.Text.Replace("Exo Bathtub", "星流浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoBed>())
-                {
-                    line.Text = line.Text.Replace("Exo Bed", "星流床".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoBookcase>())
-                {
-                    line.Text = line.Text.Replace("Exo Bookcase", "星流书架".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoCandelabra>())
-                {
-                    line.Text = line.Text.Replace("Exo Candelabra", "星流烛台".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoCandle>())
-                {
-                    line.Text = line.Text.Replace("Exo Candle", "星流蜡烛".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoChandelier>())
-                {
-                    line.Text = line.Text.Replace("Exo Chandelier", "星流吊灯".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoChest>())
-                {
-                    line.Text = line.Text.Replace("Exo Chest", "星流箱".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoClock>())
-                {
-                    line.Text = line.Text.Replace("Exo Clock", "星流钟".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoDoor>())
-                {
-                    line.Text = line.Text.Replace("Exo Door", "星流门".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoDresser>())
-                {
-                    line.Text = line.Text.Replace("Exo Dresser", "星流梳妆台".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoKeyboard>())
-                {
-                    line.Text = line.Text.Replace("Exo Keyboard", "星流键盘".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoLamp>())
-                {
-                    line.Text = line.Text.Replace("Exo Lamp", "星流灯".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoLantern>())
-                {
-                    line.Text = line.Text.Replace("Exo Lantern", "星流灯笼".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoPlatform>())
-                {
-                    line.Text = line.Text.Replace("Exo Platform", "星流平台".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoPrismPlatform>())
-                {
-                    line.Text = line.Text.Replace("Exo Prism Platform", "星流棱晶平台".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoSink>())
-                {
-                    line.Text = line.Text.Replace("Exo Sink", "星流水槽".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoSofa>())
-                {
-                    line.Text = line.Text.Replace("Exo Sofa", "星流沙发".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoTable>())
-                {
-                    line.Text = line.Text.Replace("Exo Table", "星流桌".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoToilet>())
-                {
-                    line.Text = line.Text.Replace("Exo Toilet", "星流马桶".zh());
-                }
-                if (item.type == ModContent.ItemType<ExoWorkbench>())
-                {
-                    line.Text = line.Text.Replace("Exo Work Bench", "星流工作台".zh());
-                }
-                //酸腐木家具
-                if (item.type == ModContent.ItemType<AcidwoodBathtub>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Bathtub", "酸腐木浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodBed>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Bed", "酸腐木床".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodBench>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Bench", "酸腐木长凳".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodBookcase>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Bookcase", "酸腐木书架".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodCandelabra>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Candelabra", "酸腐木烛台".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodCandle>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Candle", "酸腐木蜡烛".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodChair>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Chair", "酸腐木椅子".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodChandelier>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Chandelier", "酸腐木吊灯".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodChest>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Chest", "酸腐木箱".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodClock>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Clock", "酸腐木钟".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodDoor>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Door", "酸腐木门".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodDresser>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Dresser", "酸腐木梳妆台".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodLamp>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Lamp", "酸腐木灯".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodLantern>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Lantern", "酸腐木灯笼".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodPiano>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Piano", "酸腐木钢琴".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodPlatform>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Platform", "酸腐木平台".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodSink>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Sink", "酸腐木水槽".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodTable>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Table", "酸腐木桌子".zh());
-                }
-                if (item.type == ModContent.ItemType<AcidwoodWorkBench>())
-                {
-                    line.Text = line.Text.Replace("Acidwood Work Bench", "酸腐木工作台".zh());
-                }
-                //星石家具
-                if (item.type == ModContent.ItemType<MonolithBathtub>())
-                {
-                    line.Text = line.Text.Replace("Monolith Bathtub", "星石浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithBed>())
-                {
-                    line.Text = line.Text.Replace("Monolith Bed", "星石床".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithBench>())
-                {
-                    line.Text = line.Text.Replace("Monolith Bench", "星石长凳".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithBookcase>())
-                {
-                    line.Text = line.Text.Replace("Monolith Bookcase", "星石书架".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithCandelabra>())
-                {
-                    line.Text = line.Text.Replace("Monolith Candelabra", "星石烛台".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithCandle>())
-                {
-                    line.Text = line.Text.Replace("Monolith Candle", "星石蜡烛".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithChair>())
-                {
-                    line.Text = line.Text.Replace("Monolith Chair", "星石椅".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithChandelier>())
-                {
-                    line.Text = line.Text.Replace("Monolith Chandelier", "星石吊灯".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithChest>())
-                {
-                    line.Text = line.Text.Replace("Monolith Chest", "星石箱".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithClock>())
-                {
-                    line.Text = line.Text.Replace("Monolith Clock", "星石钟".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithDoor>())
-                {
-                    line.Text = line.Text.Replace("Monolith Door", "星石门".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithDresser>())
-                {
-                    line.Text = line.Text.Replace("Monolith Dresser", "星石梳妆台".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithLamp>())
-                {
-                    line.Text = line.Text.Replace("Monolith Lamp", "星石灯".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithLantern>())
-                {
-                    line.Text = line.Text.Replace("Monolith Lantern", "星石灯笼".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithPiano>())
-                {
-                    line.Text = line.Text.Replace("Monolith Piano", "星石钢琴".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithPlatform>())
-                {
-                    line.Text = line.Text.Replace("Monolith Platform", "星石平台".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithSink>())
-                {
-                    line.Text = line.Text.Replace("Monolith Sink", "星石水槽".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithTable>())
-                {
-                    line.Text = line.Text.Replace("Monolith Table", "星石桌".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithWorkBench>())
-                {
-                    line.Text = line.Text.Replace("Monolith Work Bench", "星石工作台".zh());
-                }
-                //异域家具
-                if (item.type == ModContent.ItemType<OtherworldlyBathtub>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Bathtub", "异域浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyBed>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Bed", "异域床".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyBookcase>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Bookcase", "异域书架".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyCandelabra>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Candelabra", "异域烛台".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyCandle>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Candle", "异域蜡烛".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyChair>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Chair", "异域椅".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyChandelier>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Chandelier", "异域吊灯".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyChest>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Chest", "异域箱".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyClock>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Clock", "异域钟".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyDoor>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Door", "异域门".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyDresser>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Dresser", "异域梳妆台".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyLamp>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Lamp", "异域灯".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyLantern>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Lantern", "异域灯笼".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyPiano>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Piano", "异域钢琴".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyPlatform>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Platform", "异域平台".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlySink>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Sink", "异域水槽".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlySofa>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Sofa", "异域沙发".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyStone>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Stone", "异域石".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyTable>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Table", "异域桌".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyWorkBench>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Work Bench", "异域工作台".zh());
-                }
-                //其他家具
-                if (item.type == ModContent.ItemType<VoidBathtub>())
-                {
-                    line.Text = line.Text.Replace("Void Bathtub", "虚空浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<VoidObelisk>())
-                {
-                    line.Text = line.Text.Replace("Void Obelisk", "虚空钟".zh());
-                }
-                if (item.type == ModContent.ItemType<VoidWorkbench>())
-                {
-                    line.Text = line.Text.Replace("Void Work Bench", "虚空工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<AshenBathtub>())
-                {
-                    line.Text = line.Text.Replace("Ashen Bathtub", "灰烬浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<AshenPipeOrgan>())
-                {
-                    line.Text = line.Text.Replace("Ashen Pipe Organ", "灰烬钢琴".zh());
-                }
-                if (item.type == ModContent.ItemType<AshenWorkBench>())
-                {
-                    line.Text = line.Text.Replace("Ashen Work Bench", "灰烬工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<AncientBathtub>())
-                {
-                    line.Text = line.Text.Replace("Ancient Bathtub", "远古浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<AncientPipeOrgan>())
-                {
-                    line.Text = line.Text.Replace("Ancient Pipe Organ", "远古钢琴".zh());
-                }
-                if (item.type == ModContent.ItemType<AncientWorkBench>())
-                {
-                    line.Text = line.Text.Replace("Ancient Work Bench", "远古工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<AbyssBathtub>())
-                {
-                    line.Text = line.Text.Replace("Abyss Bathtub", "深渊浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<AbyssSynth>())
-                {
-                    line.Text = line.Text.Replace("Abyss Synth", "深渊钢琴".zh());
-                }
-                if (item.type == ModContent.ItemType<AbyssWorkBench>())
-                {
-                    line.Text = line.Text.Replace("Abyss Work Bench", "深渊工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<StatigelBathtub>())
-                {
-                    line.Text = line.Text.Replace("Statigel Bathtub", "斯塔提斯浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<StatigelWorkbench>())
-                {
-                    line.Text = line.Text.Replace("Statigel Work Bench", "斯塔提斯工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<ProfanedBathtub>())
-                {
-                    line.Text = line.Text.Replace("Profaned Bathtub", "渎神浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<ProfanedWorkbench>())
-                {
-                    line.Text = line.Text.Replace("Profaned Work Bench", "渎神工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<CosmiliteBathtub>())
-                {
-                    line.Text = line.Text.Replace("Cosmilite Bathtub", "宇宙浴缸".zh());
-                }
-                if (item.type == ModContent.ItemType<CosmiliteWorkBench>())
-                {
-                    line.Text = line.Text.Replace("Cosmilite Work Bench", "宇宙工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<StratusWorkbench>())
-                {
-                    line.Text = line.Text.Replace("Stratus Work Bench", "幻云工作台".zh());
-                }
-                if (item.type == ModContent.ItemType<OtherworldlyStoneWall>())
-                {
-                    line.Text = line.Text.Replace("Otherworldly Stone Wall", "异域石墙".zh());
-                }
-                if (item.type == ModContent.ItemType<EutrophicShelf>())
-                {
-                    line.Text = line.Text.Replace("Eutrophic Shelf", "富养制造架".zh());
-                }
-                if (item.type == ModContent.ItemType<MonolithAmalgam>())
-                {
-                    line.Text = line.Text.Replace("Monolith Amalgam", "星幻柱综合体".zh());
-                }
-                if (item.type == ModContent.ItemType<ProfanedCrucible>())
-                {
-                    line.Text = line.Text.Replace("Profaned Crucible", "亵渎坩埚".zh());
-                }
-                if (item.type == ModContent.ItemType<SilvaBasin>())
-                {
-                    line.Text = line.Text.Replace("Effulgent Manipulator", "闪耀操纵机".zh());
-                }
-
-                #endregion
 
                 /*		
                             if (item.type == ModContent.ItemType<>())

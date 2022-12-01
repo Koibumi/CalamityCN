@@ -1,4 +1,4 @@
-﻿using MonoMod.Cil;
+using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
@@ -28,11 +28,6 @@ namespace CalamityCN.Translations.Patch
         {
             ILHooksT = new List<ILHook>();
             //武器提示
-            QuickTranslate(typeof(ArkoftheAncientsParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
-            QuickTranslate(typeof(TrueArkoftheAncientsParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
-            QuickTranslate(typeof(ArkoftheElementsParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
-            QuickTranslate(typeof(ArkoftheCosmosParryHoldout), "GeneralParryEffects", "Parry!", "格挡！");
-            QuickTranslate(typeof(AtlasMunitionsAutocannonHeld), "AI", "OUCH! HOT!", "我焯！好烫！");
             QuickTranslate(typeof(ExoskeletonPanel), "PreDraw", "Insufficient minion slots!", "召唤栏位不足！");
             //世界加载
             string[][] WMS = new string[][]

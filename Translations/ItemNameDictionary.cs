@@ -2261,7 +2261,7 @@ namespace CalamityCN
                 {"WulfrumPylonBanner", "钨钢充能塔旗".zh()},
                 {"WulfrumRoverBanner", "钨钢漫步者旗".zh()},
                 
-                //c2,1
+                //c2,1.1
                 {"AcidwoodWallItem", "酸蚀木墙".zh() },
                 {"FloralWall", "繁花墙".zh() },
                 {"AresExoskeleton", "阿瑞斯外骨骼".zh() },
@@ -2294,7 +2294,7 @@ namespace CalamityCN
 
                 {"WulfrumFusionCannon", "试作型钨钢聚变炮".zh() },
 
-                //c2.2
+                //c2.1.2
                 {"PuffShroom", "蓬松蘑菇".zh() },
                 {"WarloksMoonFist", "Warloks的月亮之拳".zh() },
                 {"TheAnomalysNanogun", "异象纳米枪".zh() },

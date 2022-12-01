@@ -33,7 +33,6 @@ namespace CalamityCN
             */
             if (Calamity != null)
             {
-
                 ItemNameDict.Load();
                 ItemToolTipDict.Load();
                 NPCNameDict.Load();
@@ -148,7 +147,6 @@ namespace CalamityCN
             }
             this._onHooks = null;
             this.Contents = null;
-
         }
 
         private string TranslatedFriendlyName(orig_GetFriendlyName orig, UIKeybindingListItem item)

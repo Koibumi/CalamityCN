@@ -1,5 +1,4 @@
-﻿using CalamityCN.Utils;
-using CalamityMod.NPCs;
+using CalamityCN.Utils;
 using InfernumMode;
 using InfernumMode.BehaviorOverrides.BossAIs.CalamitasClone;
 using InfernumMode.BehaviorOverrides.BossAIs.DoG;
@@ -20,7 +19,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace CalamityCN.Translations.Patch
+namespace CalamityCN.Translations.InfernumMode
 {
     public class InfernumPatch
     {

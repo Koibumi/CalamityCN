@@ -234,7 +234,6 @@ namespace CalamityCN
                 {"EffigyOfDecayBuff", "硫海之水给予你力量".zh()},
                 {"SulphurskinBuff", "削弱硫海之水对你的影响".zh()},
                 {"GammaHydraBuff", "……".zh()},
-                //{"RustyDroneBuff", "可怜且脆弱的无人机正观察着你".zh()},
                 {"LadBuff", "啊哈哈哈，你爹来咯".zh()},
                 {"ProfanedWeakness", "你造成的伤害降低".zh()},
                 {"TundraFlameBlossomsBuff", "均衡与美丽的完美和谐".zh()},
@@ -289,20 +288,13 @@ namespace CalamityCN
                 {"RancorBurn", "燃烧".zh()},
                 {"IceClasperBuff", "食魂冰虫会保护你".zh()},
                 {"EntropysVigilBuff", "灾厄之影和她的兄弟们会保护你".zh()},
-                //c2.1
                 {"CoralSymbiosis", "珊瑚泥充能加快，多造成2点伤害".zh() },
                 {"MarniteLiftBuff", "你甚至……？".zh() },
-
-                 //---分类---
-                //药水
                 {"AbyssalWeapon", "近战、鞭子和盗贼攻击会对敌人造成硫磺火减益".zh()},
                 {"ArmorCrumbling", "近战、鞭子和盗贼攻击会降低敌人的伤害减免".zh()},
-                //召唤物
                 {"PuffWarriorBuff", "它自信且兴奋地保护着你".zh() },
                 {"MoonFistBuff", "准备好用这些手去打一架了吗？".zh() },
                 {"ExoskeletonCannons", "内不含脉冲加农".zh() },
-                //宠物
-                //其他
             };
         }
         public static void Unload()

@@ -288,20 +288,13 @@ namespace CalamityCN
                 {"RancorBurn", "仇怨焚烧".zh() },
                 {"IceClasperBuff", "食魂冰虫".zh() },
                 {"EntropysVigilBuff", "枯萎之眼".zh() },
-                //c2.1
                 {"CoralSymbiosis", "珊瑚共生".zh() },
                 {"MarniteLiftBuff", "合成岩悬浮平台".zh() },
-
-                //---分类---
-                //药水
                 {"AbyssalWeapon", "武器灌注：硫火".zh() },
                 {"ArmorCrumbling", "武器灌注：粉碎".zh() },
-                //召唤物
                 {"PuffWarriorBuff", "蓬松战士".zh() },
                 {"MoonFistBuff", "月亮之拳".zh() },
                 {"ExoskeletonCannons", "阿瑞斯外骨骼".zh() },
-                //宠物
-                //其他
             };
         }
         public static void Unload()
