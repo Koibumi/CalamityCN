@@ -920,7 +920,7 @@ namespace CalamityCN
                 { "Eviscerator", "将火枪子弹转化为缓慢飞行的血凝弹".zh() },
                 { "FirestormCannon", "70%几率不消耗信号弹\n右键以发射散弹".zh() },
                 { "FlakKraken", "发射一个随时间流逝而更加强大的能量十字纹".zh() },
-                { "FlarewingBow", "一次发射五支箭\n将木箭转化为黑曜石蝙蝠".zh() },
+                { "FlarewingBow", "一次发射四支箭\n将木箭转化为黑曜石蝙蝠".zh() },
                 { "FlurrystormCannon", "发射雪球\n使用时间越长，发射速度越快\n有几率同时发射一个冰块，命中时碎裂\n50%几率不消耗雪球".zh() },
                 { "FrostbiteBlaster", "一次发射六发子弹\n将火枪子弹转化为冰锥".zh() },
                 { "Fungicide", "将火枪子弹转化为命中后分裂的真菌弹".zh() },
