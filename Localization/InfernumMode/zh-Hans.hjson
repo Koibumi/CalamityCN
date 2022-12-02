@@ -158,48 +158,48 @@
     }
     ProjectileName:
     {
-      SlowerSandTooth: Sand Tooth
-      SulphurousPoisonCloud: Toxic Cloud
+      SlowerSandTooth: 沙牙
+      SulphurousPoisonCloud: 毒云
       AstralBlueComet: Astral Comet
-      AstralMissile: Astral Missile
-      BlueLaserbeam: Astral Deathray
+      AstralMissile: 星辉导弹
+      BlueLaserbeam: 星辉死亡射线
       MissileTelegraphLine: Telegraph
-      OrangeLaserbeam: Astral Deathray
-      AstralBlackHole: Astral Black Hole
-      AstralConstellation: Star
-      AstralCrystal: Astral Crystal
-      AstralFlame2: Astral Flame
-      AstralPlasmaFireball: Astral Plasma Flame
-      AstralPlasmaSpark: Astral Plasma Spark
-      AstralRubble: Astral Rubble
-      AstralSparkle: Astral Sparkle
+      OrangeLaserbeam: 星辉死亡射线
+      AstralBlackHole: 星辉黑洞
+      AstralConstellation: 恒星
+      AstralCrystal: 星辉水晶
+      AstralFlame2: 星辉火焰
+      AstralPlasmaFireball: 星辉等离子火焰
+      AstralPlasmaSpark: 星辉等离子火花
+      AstralRubble: 星辉碎石
+      AstralSparkle: 星辉火花
       AstralTelegraphLine: Telegraph
       AstralVortex: Consumed Vortex
-      DarkGodLaser: Antimatter Deathray
-      DarkStar: Dark Star
+      DarkGodLaser: 反物质死亡射线
+      DarkStar: 暗星
       InfectionGlob: Infection Glob
       MassiveInfectedStar: Consumed Star
-      BloodGeyser2: Ichor Geyser
-      IchorSpit: Ichor
-      PsionicLightningBolt: Psionic Lightning Bolt
-      PsionicOrb: Psychic Energy
-      BrimstoneDeathray: Brimstone Deathray
-      BrimstoneFireball: Brimstone Flame
-      BrimstonePetal: Brimstone Petal
-      BrimstonePetal2: Brimstone Petal
-      BrimstoneRose: Brimstone Rose
-      BrimstoneSkull: Brimstone Skull
-      BrimstoneTelegraphRay: Brimstone Deathray
-      HomingBrimstoneSkull: Brimstone Hellblast
-      AdjustingCinder: Brimstone Dart
-      BrimstoneBomb: Brimstone Bomb
-      BrimstoneBurst: Brimstone Flame
+      BloodGeyser2: 灵液间歇泉
+      IchorSpit: 灵液
+      PsionicLightningBolt: 幽灵闪电
+      PsionicOrb: 灵能
+      BrimstoneDeathray: 硫火死亡射线
+      BrimstoneFireball: 硫火球
+      BrimstonePetal: 硫火花瓣
+      BrimstonePetal2: 硫火花瓣
+      BrimstoneRose: 硫火玫瑰
+      BrimstoneSkull: 硫火骷髅头
+      BrimstoneTelegraphRay: 硫火死亡射线
+      HomingBrimstoneSkull: 硫火爆炸
+      AdjustingCinder: 硫火飞镖
+      BrimstoneBomb: 硫火炸弹
+      BrimstoneBurst: 硫磺火
       BrimstoneBurstTelegraph: Telegraph
-      BrimstoneGeyser: Brimstone Lava
-      BrimstoneMeteor: Brimstone Meteor
-      ExplodingBrimstoneFireball: Brimstone Bomb
-      HomingBrimstoneBurst: Brimstone Flame
-      RisingBrimstoneFireball: Brimstone Bomb
+      BrimstoneGeyser: 硫火岩浆
+      BrimstoneMeteor: 硫火流星
+      ExplodingBrimstoneFireball: 硫火炸弹
+      HomingBrimstoneBurst: 硫磺火
+      RisingBrimstoneFireball: 硫火炸弹
       AllConsumingBlackHole: All-Consuming Black Hole
       CelestialBarrage: Otherwordly Bolt
       ConvergingCelestialBarrage: Otherwordly Bolt
@@ -602,7 +602,7 @@
       BrainIllusion: 克苏鲁之脑
       BrainIllusion2: 克苏鲁之脑
       SoulSeeker2: 探魂者
-      LightSnuffingHand: Light Snuffing Shadow Hand
+      LightSnuffingHand: 发光暗影之手
       AresPulseCannon: XF-09“阿瑞斯”脉冲加农炮
       PhotonRipperNPC: XF-09“阿瑞斯”光子撕裂者
       RedPlasmaEnergy: 等离子球
@@ -617,14 +617,14 @@
       ExplosivePlagueCharger: Explosive Plague Charger
       PlagueNuke: 瘟疫核弹
       SmallDrone: 小型无人机
-      PlanteraPinkTentacle: Plantera's Tentacle
+      PlanteraPinkTentacle: 世纪之花的触手
       PolterghastLeg: 鬼爪
-      EtherealHand: Ethereal Hand
+      EtherealHand: 以太之手
       ProvArenaPlatform: ""
       UnworldlyEntity: Unworldly Entity
       SplitBigSlime: Unstable Slime Spawn
       SplitBigSlimeAnimation: Unstable Slime Spawn
-      ShadowDemon: Shadow Hydra
+      ShadowDemon: 暗影祸害
       CursedOrb: 诅咒焰球
       EnergyOrb: 能量球
     }
