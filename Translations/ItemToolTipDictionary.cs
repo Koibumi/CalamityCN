@@ -678,7 +678,7 @@ namespace CalamityCN
                 { "RecitationoftheBeast", "被封印于魔界中的千年时光总会教你一两招\n召唤环绕玩家的狂野之镰\n随即将它们向光标处发射并追踪敌人".zh() },
                 { "RelicofRuin", "放射出一圈沙之刃".zh() },
                 { "RougeSlash", "一次发射3道空气斩".zh() },
-                { "SanguineFlare", "发射一个能吸血的爆炸猩红火焰".zh() },
+                { "SanguineFlare", "发射一阵从敌人身上吸取生命的猩红火焰".zh() },
                 { "SeethingDischarge", "发射一团硫磺火烈焰".zh() },
                 { "Serpentine", "在光标位置召唤海蟒蛇".zh() },
                 { "ShadecrystalTome", "发射大量暗晶碎片，一次能发射两个".zh() },
