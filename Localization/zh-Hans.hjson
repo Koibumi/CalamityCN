@@ -9,17 +9,17 @@ CalamityCN: {
         2: 它跳那么高，我想你能从它下面躲过去吗？
         3: 你不得不处理这十分黏滑的状况……
         #荒漠灾虫
-        4: The Scourge usually roars when it's about to whip up a sandstorm, get to high grounds!
-        5: A Hook may prove useful to quickly get out of the Scourge's mandibles!
-        6: I loath sand, its grainy and itchy and sticks to every part of my feet.
-        7: You better have dessert for me after this...
+        4: 荒漠灾虫通常会在将要释放沙尘暴时吼叫，跑到高处去！
+        5: 一个钩爪可能对迅速摆脱荒漠灾虫的头部很有用！
+        6: 我讨厌沙子，它粗糙，发痒，并黏在我脚上的每一处地方。
+        7: 你最好在这之后给我来点甜点……
         #克苏鲁之眼
-        8: Watch out for those teeth bombs! The teeth spew away from the bomb's landing, try staying close!
-        9: Investing in a hook or high mobility could prove great to dodge the Eye of Cthulhu's Charges!
+        8: 当心那些尖牙炸弹！它们落到地上时牙齿会喷出来，尽量离远点！
+        9: 制作一个钩爪或将你的机动性提高是躲避克苏鲁之眼冲刺的绝佳选择！
         10: Eye can't believe you died to that.
         #菌生蟹
-        11: Crabulon will only launch spores every 3rd jump, better keep count!
-        12: Try focusing on those Crab Shrooms. They'll overwhelm you if you leave them alone!
+        11: 菌生蟹每跳跃三次才会发射孢子，你最好保持计数！
+        12: 试着把注意力集中在菌生蟹的真菌孢子上，如果你忽视了它们的话，它们会攻击到你！
         13: There isnt Mushroom for the three of us, and I can tell who won the roullete.
         #世界吞噬者
         14: Many layered platforms can help greatly to avoid the exploding Cursed Flames!
@@ -237,12 +237,12 @@ CalamityCN: {
         MoonLordRelic: 
             '''
             到目前为止，你做得很好。
-            但愿你的毅力能指引你完成余下的挑战。
+            但愿你的坚韧不拔能指引你完成剩下的挑战。
             '''
         OldDukeRelic: 
             '''
-            Difficult as the fight may be, you were wise to endure and overcome the challenge it brings.
-            You will find that the mechanics it tested will be relevant again soon.
+            这也许是场困难的战斗，但你十分明智的忍受并克服了它所带来的挑战。
+            你会发现它所测试你的机制将会很快就会再次出现。
             '''
         PlanteraRelic: 
             '''
