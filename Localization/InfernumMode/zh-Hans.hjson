@@ -5,7 +5,7 @@
     ItemName:
     {
       DemonicChaliceOfInfernum: 炼狱圣杯
-      BlastedTophat: 该死的礼帽
+      BlastedTophat: Blast的礼帽
       BloodwormPlatter: 血蠕虫拼盘
       DungeonsCurse: 地牢厄咒
       FleshChunk: 血肉碎块
@@ -69,36 +69,32 @@
       BlastedTophat: 召唤一个戴帽子的小女孩在你与Boss战斗时给予你建议
       BloodwormPlatter:
         '''
-        召唤硫海遗爵
-        只能在硫磺海使用
-        不消耗
+        在硫磺海使用，召唤硫海遗爵
+			  不消耗
         '''
       DungeonsCurse:
         '''
-        召唤骷髅王
-        骷髅王在白天狂暴
-        如果在白天使用会变成晚上
-        不消耗
+        召唤骷髅王，如果在白天使用，时间会切换到夜晚
+			  在白天狂暴
+		  	不消耗
         '''
       FleshChunk:
         '''
-        召唤肉山
-        只能在地狱使用
-        不消耗
+        在地狱使用，召唤血肉墙
+			  不消耗
         '''
       LeviathanDetector:
         '''
-        召唤阿娜希塔
-        在任意海边使用
+        在任意一侧海洋使用，召唤阿娜希塔
         不消耗
         '''
       ProfanedFountainItem: ""
       RadiantCrystal:
         '''
         召唤光之女皇
-        不需要在神圣地使用
-        光之女皇在白天狂暴
-        不消耗
+			  不需要在神圣之地使用
+			  在白天狂暴
+			  不消耗
         '''
       AquaticScourgeRelic: GetsChanged
       AstrumAureusRelic: GetsChanged
@@ -151,9 +147,8 @@
       YharonRelic: GetsChanged
       SparklingTunaCan:
         '''
-        召唤巨像蛤
-        只能在沉沦海使用
-        不消耗
+        在沉沦之海使用，召唤巨像蛤
+			  不消耗
         '''
     }
     ProjectileName:
@@ -595,36 +590,36 @@
     NPCName:
     {
       AquaticParasite2: 渊海寄生虫
-      AquaticSeekerBody2: 渊海追寻者
-      AquaticSeekerHead2: 渊海追寻者
-      AquaticSeekerTail2: 渊海追寻者
-      DeusSpawn: Deus Spawn
+      AquaticSeekerBody2: 渊海追魂虫
+      AquaticSeekerHead2: 渊海追魂虫
+      AquaticSeekerTail2: 渊海追魂虫
+      DeusSpawn: 小白金
       BrainIllusion: 克苏鲁之脑
       BrainIllusion2: 克苏鲁之脑
       SoulSeeker2: 探魂者
-      LightSnuffingHand: 发光暗影之手
+      LightSnuffingHand: 熄芒暗手
       AresPulseCannon: XF-09“阿瑞斯”脉冲加农炮
       PhotonRipperNPC: XF-09“阿瑞斯”光子撕裂者
       RedPlasmaEnergy: 等离子球
       RedirectingBubble: 泡泡
-      ExplodingServant: 克苏鲁奴仆
+      ExplodingServant: 克苏鲁之仆
       GolemArenaPlatform: ""
-      GolemFistLeft: 石巨人之拳
-      GolemFistRight: 石巨人之拳
+      GolemFistLeft: 石巨人拳
+      GolemFistRight: 石巨人拳
       Ninja: 忍者
-      BuilderDroneBig: Big Builder Drone
-      BuilderDroneSmall: Small Builder Drone
-      ExplosivePlagueCharger: Explosive Plague Charger
+      BuilderDroneBig: 大型建构无人机
+      BuilderDroneSmall: 小型建构无人机
+      ExplosivePlagueCharger: 爆炸瘟疫蜜蜂
       PlagueNuke: 瘟疫核弹
       SmallDrone: 小型无人机
-      PlanteraPinkTentacle: 世纪之花的触手
-      PolterghastLeg: 鬼爪
-      EtherealHand: 以太之手
+      PlanteraPinkTentacle: 世纪之花触手
+      PolterghastLeg: 诡灵腿
+      EtherealHand: 缥缈之手
       ProvArenaPlatform: ""
-      UnworldlyEntity: Unworldly Entity
-      SplitBigSlime: Unstable Slime Spawn
-      SplitBigSlimeAnimation: Unstable Slime Spawn
-      ShadowDemon: 暗影祸害
+      UnworldlyEntity: 异空间实体
+      SplitBigSlime: 不稳定的史莱姆子代
+      SplitBigSlimeAnimation: 不稳定的史莱姆子代
+      ShadowDemon: 暗影巨蛇
       CursedOrb: 诅咒焰球
       EnergyOrb: 能量球
     }
@@ -636,27 +631,27 @@
     {
       DarkFlames: 黑暗火焰
       ElysianGrace: 极乐恩典
-      HatGirlBuff: 帽子女孩
+      HatGirlBuff: 礼帽女孩
       Madness: 精神失常
       RedSurge: 红色涌动
       ShadowflameInferno: 暗影狱火
     }
     BuffDescription:
     {
-      DarkFlames: Your body is consumed by a forsaken inferno. Your defense is lowered
-      ElysianGrace: 你拥有无限飞行时间
+      DarkFlames: 你的身体被遗忘之火吞噬。你的防御力降低了
+      ElysianGrace: 你获得了无限的飞行时间
       HatGirlBuff: Arson
       Madness: 要疯了……
       RedSurge: 你无法移动
-      ShadowflameInferno: 生命急速流失
+      ShadowflameInferno: 快速流失生命值
     }
     MapObject:
     {
       GolemArena: 战斗场地
       MoonlordArena: 战斗场地
     }
-    InfernumText: 祝你好运。
-    InfernumText2: 那好吧。
+    InfernumText: 炼狱模式已开启！祝你好运。
+    InfernumText2: 炼狱模式已关闭！很好，然后呢？
     UI:
     {
       NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
