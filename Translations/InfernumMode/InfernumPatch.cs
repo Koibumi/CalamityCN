@@ -32,25 +32,25 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
             QuickTranslate(typeof(InfernumDifficulty), "get_ExpandedDescription", "[c/B32E81:Many major foes will be different, having more challenging AI.] \n[c/B32E81:Adrenaline takes considerably longer to charge.] \n[c/FF0055:Adaptability is imperative.]", "[c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。] \n[c/B32E81:肾上腺素充能时间变长。] \n[c/FF0055:适应力必不可少!]");
             //嘉登
-            QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "DrawWrapper", "Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.", "选择两台巨械。选择的第一台巨械一开始会单独作战\n当它受到一定量的伤害，选择的第二台巨械将会出现并协同战斗");
+            QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "DrawWrapper", "Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.", "选择两台巨械。选择的第一台巨械一开始会单独作战\n当它受到了一定的伤害后，选择的第二台巨械将会出现并协同战斗");
             QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.", "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。");
             QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.", "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。");
             QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Artemis and Apollo, a pair of extremely agile destroyers with unstable energy reserves.", "阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。");
             //Override
             QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Now choose.", "现在，选择吧。");
             QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Your efforts are very intriguing.", "你的努力十分有趣。");
-            QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Go on. Continue feeding information to my machines.", "继续，向我的机械输送更多信息。");
+            QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Go on. Continue feeding information to my machines.", "继续吧，向我的机械输送更多信息。");
             string[][] DBOHDS = new string[][] {
                new string [2] {"Intriguing. Truly, intriguing.", "有趣，十分有趣。"},
-               new string [2] {"My magnum opera, truly and utterly defeated.", "我的杰作，彻彻底底的失败了。"},
-               new string [2] {"This outcome was not what I had expected.", "这个结果和我预料的不一样。"},
-               new string [2] {"...Excuse my introspection. I must gather my thoughts after that display.", "……请原谅我的反省，但我必须得在这场展示之后整理我的思绪。"},
-               new string [2] {"It is perhaps not irrational to infer that you are beyond my reasoning.", "推断你超出了我的计算范围，这也许不无道理。"},
+               new string [2] {"My magnum opera, truly and utterly defeated.", "我引以为傲的杰作，彻底失败了。"},
+               new string [2] {"This outcome was not what I had expected.", "这也非是我预期中的结果。"},
+               new string [2] {"...Excuse my introspection. I must gather my thoughts after that display.", "……很抱歉，但在看了这样一场“展示”之后，我必须得花点时间整理我的思绪。"},
+               new string [2] {"It is perhaps not irrational to infer that you are beyond my reasoning.", "分析你的行为已超出了我的计算能力，但这也许并不荒谬。"},
                new string [2] {"Now.", "现在。"},
-               new string [2] {"You would wish to reach the Tyrant. I cannot assist you in that.", "你想要接触那位魔君。可惜我无法帮到你。"},
+               new string [2] {"You would wish to reach the Tyrant. I cannot assist you in that.", "你想要接触那位暴君。可惜我无法帮到你。"},
                new string [2] {"It is not a matter of spite, for I would wish nothing more than to observe such a conflict.", "这并非出自怨恨，毕竟从一开始，我的目标就只有观察刚才的这一场战斗。"},
-               new string [2] {"But now, I must return to my machinery. You may use the Codebreaker if you wish to face my creations once again.", "但是现在，我得回到我的机械工作上了。如果你想再次挑战我的造物可以使用破译器。"},
-               new string [2] { "In the meantime, I bid you farewell, and good luck in your future endeavors.", "至此，该告别了，祝你未来旅途好运。" }
+               new string [2] {"But now, I must return to my machinery. You may use the Codebreaker if you wish to face my creations once again.", "但现在，我得把注意力放回到我的机械上了。如果你想再次面对我的造物，就使用密码破译器吧。"},
+               new string [2] { "In the meantime, I bid you farewell, and good luck in your future endeavors.", "至此，我向你道别，祝你的未来一路顺风。" }
              };
             foreach (string[] il in DBOHDS)
             {
@@ -66,7 +66,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(PlaguebringerGoliathBehaviorOverride), "DoBehavior_BombConstructors", "NUCLEAR CORE GENERATED. INITIATING BUILD PROCEDURE!", "核能核心启动，组装程序启动！");
             
             QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blazing air rises...", "空气变得灼热起来……");
-            QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blue flames roar...", "蓝色的火焰熊熊燃烧……");
+            QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blue flames roar...", "苍蓝的烈火猛烈咆哮……");
             
             QuickTranslate(typeof(TwinsAttackSynchronizer), "DoAI", ": DEFENSES PENETRATED. INITIATING PROCEDURE SHLD-17ECF9.", "：防御被突破，启动程序SHLD-17ECF9。");
             QuickTranslate(typeof(TwinsAttackSynchronizer), "DoAI", ": ERROR DETECTING SECONDARY UNIT. BURNING EXCESS FUEL RESERVES.", "：检测到辅助装置错误，燃烧多余的燃料储备。");
@@ -74,12 +74,12 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(YharonBehaviorOverride), "DoBehavior_FinalDyingRoar", "The heat is surging...", "热浪滚滚……");
             QuickTranslate(typeof(YharonBehaviorOverride), "PreAI", "The air is scorching your skin...", "空气炙烤着你的皮肤……");
             
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "Destroy ", "消灭");
+            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "Destroy ", "摧毁");
             QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "him", "他");
             QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "her", "她");
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", ", my brothers.", "，兄弟们。");
+            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", ", my brothers.", "，我的兄弟们。");
             QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "I will not be defeated so easily.", "我不会被轻易击败。");
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "You will suffer.", "你将受尽折磨。");
+            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "You will suffer.", "你将痛不欲生。");
 
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I WILL NOT BE DESTROYED!!!", "我不会被毁灭！！！");
             //第二个重复当前代码翻译不到，摆
@@ -89,12 +89,12 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I...", "我……");
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "Phase2AI", "A GOD DOES NOT FEAR DEATH!", "神！不惧死亡！");
             //圣物
-            QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "战败的敌人被孽狱之火淹没");
+            QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
             //POD
-            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "你无法这么轻易地逃避我！");
-            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "你别指望智胜维度大师！");
-            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "NOT SO FAST!", "别跑太快！");
-            QuickTranslate(typeof(PoDPlayer), "PostUpdateMiscEffects", "Infernum is not allowed in Master Mode, For the Worthy, or Eternity Mode.", "炼狱模式无法在大师模式、For the Worthy、永恒模式下启用。");
+            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
+            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
+            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "NOT SO FAST!", "太慢了！");
+            QuickTranslate(typeof(PoDPlayer), "PostUpdateMiscEffects", "Infernum is not allowed in Master Mode, For the Worthy, or Eternity Mode.", "炼狱模式无法在大师模式、For the Worthy种子、永恒模式下启用。");
             QuickTranslate(typeof(PoDPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电。");
             QuickTranslate(typeof(PoDPlayer), "PreKill", " was incinerated by ungodly fire.", "被亵渎之火烧成灰烬。");
             QuickTranslate(typeof(PoDPlayer), "PreKill", " went mad.", "疯了。");
@@ -103,11 +103,11 @@ namespace CalamityCN.Translations.InfernumMode
             {
                 QuickTranslate(typeof(AnahitaIntroScreen), "get_TextToDisplay", "Forgotten Deity\nAnahita", "遗忘精灵\n阿娜希塔");
                 QuickTranslate(typeof(AquaticScourgeIntroScreen), "get_TextToDisplay", "Sulphuric Serpent\nThe Aquatic Scourge", "Sulphuric Serpent\n渊海灾虫");
-                QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "Prediction Game Master\nAres", "游戏主宰\n阿瑞斯");
-                QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "The Ultimate War Machine\nAres", "终极战机\n阿瑞斯");
-                QuickTranslate(typeof(ArtemisAndApolloIntroScreen), "get_TextToDisplay", "The Supreme Hunters\nArtemis and Apollo", "至尊狂猎\n阿尔忒弥斯和阿波罗");
+                QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "Prediction Game Master\nAres", "预判游戏大师\n阿瑞斯");
+                QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "The Ultimate War Machine\nAres", "终极战争机器\n阿瑞斯");
+                QuickTranslate(typeof(ArtemisAndApolloIntroScreen), "get_TextToDisplay", "The Supreme Hunters\nArtemis and Apollo", "终极猎手\n阿尔忒弥斯和阿波罗");
                 QuickTranslate(typeof(AstrumAureusIntroScreen), "get_TextToDisplay", "The Infected Stomper\nAstrum Aureus", "The Infected Stomper\n白金星舰");
-                QuickTranslate(typeof(AstrumDeusIntroScreen), "get_TextToDisplay", "The Star Weaver\nAstrum Deus", "The Star Weaver\n星神游龙");
+                QuickTranslate(typeof(AstrumDeusIntroScreen), "get_TextToDisplay", "The Star Weaver\nAstrum Deus", "织星者\n星神游龙");
                 QuickTranslate(typeof(BetsyIntroScreen), "get_TextToDisplay", "Mother of Wyverns\nBetsy", "Mother of Wyverns\n双足翼龙");
                 QuickTranslate(typeof(BrainOfCthulhuIntroScreen), "get_TextToDisplay", "Eldritch Mind\nThe Brain of Cthulhu", "Eldritch Mind\n克苏鲁之脑");
                 QuickTranslate(typeof(BrimstoneElementalIntroScreen), "get_TextToDisplay", "Scarred Numen\nThe Brimstone Elemental", "Scarred Numen\n硫磺火元素");
@@ -130,7 +130,7 @@ namespace CalamityCN.Translations.InfernumMode
                 //QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "NUMBER ! SALSMAN\n[Circa 1997]", "NUMBER ! SALSMAN\n[Circa 1997]");
                 QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "The Ancient Idol\nGolem", "The Ancient Idol\n石巨人");
                 QuickTranslate(typeof(HiveMindIntroScreen), "get_TextToDisplay", "Collective Growth\nThe Hive Mind", "Collective Growth\n腐巢意志");
-                QuickTranslate(typeof(KingSlimeIntroScreen), "get_TextToDisplay", "Monarch of the Gelatinous\nKing Slime", "Monarch of the Gelatinous\n史莱姆之王");
+                QuickTranslate(typeof(KingSlimeIntroScreen), "get_TextToDisplay", "Monarch of the Gelatinous\nKing Slime", "Monarch of the Gelatinous\n史莱姆王");
                 QuickTranslate(typeof(LeviathanIntroScreen), "get_TextToDisplay", "Timeworn Beast\nThe Leviathan", "Timeworn Beast\n利维坦");
                 //QuickTranslate(typeof(MoonLordIntroScreen), "get_TextToDisplay", "The Remains of the Moon Lord-", "The Remains of the Moon Lord-");
                 QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Speed Demon\nThe Old Duke", "Speed Demon\n硫海遗爵");
