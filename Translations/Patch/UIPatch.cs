@@ -80,7 +80,7 @@ namespace CalamityCN.Translations.Patch
             //选择
             QuickTranslate(typeof(AstralArcanumUI), "UpdateAndDraw", "Select", "选择");
             //名字-bug出现在游戏内重新加载mod
-            QuickTranslate(typeof(BossHealthBarManager), "AttemptToAddBar", "XS-01 Artemis and XS-03 Apollo", "XS-01“阿尔忒弥斯”和XS-03“阿波罗”");
+            //QuickTranslate(typeof(BossHealthBarManager), "AttemptToAddBar", "XS-01 Artemis and XS-03 Apollo", "XS-01“阿尔忒弥斯”和XS-03“阿波罗”");
 
             //QuickTranslate(typeof(), "", "", "");
 
