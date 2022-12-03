@@ -650,7 +650,7 @@
       GolemArena: 战斗场地
       MoonlordArena: 战斗场地
     }
-    InfernumText: 炼狱模式已开启！祝你好运。
+    InfernumText: 炼狱模式已开启，祝你好运。
     InfernumText2: 炼狱模式已关闭，很好，继续吧。
     UI:
     {
