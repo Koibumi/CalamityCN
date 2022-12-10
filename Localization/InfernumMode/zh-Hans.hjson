@@ -5,7 +5,7 @@
     ItemName:
     {
       DemonicChaliceOfInfernum: 炼狱圣杯
-      BlastedTophat: Blast的礼帽
+      BlastedTophat: 爆炸礼帽
       BloodwormPlatter: 血蠕虫拼盘
       DungeonsCurse: 地牢厄咒
       FleshChunk: 血肉碎块
@@ -66,22 +66,22 @@
     ItemTooltip:
     {
       DemonicChaliceOfInfernum: ""
-      BlastedTophat: 召唤一个戴帽子的小女孩在你与Boss战斗时给予你建议
+      BlastedTophat: 召唤一个小小的礼帽女孩在你与Boss战斗时给予你建议
       BloodwormPlatter:
         '''
         在硫磺海使用，召唤硫海遗爵
-			  不消耗
+	不消耗
         '''
       DungeonsCurse:
         '''
         召唤骷髅王，如果在白天使用，时间会切换到夜晚
-			  在白天狂暴
-		  	不消耗
+	在白天狂暴
+	不消耗
         '''
       FleshChunk:
         '''
         在地狱使用，召唤血肉墙
-			  不消耗
+	不消耗
         '''
       LeviathanDetector:
         '''
@@ -92,9 +92,9 @@
       RadiantCrystal:
         '''
         召唤光之女皇
-			  不需要在神圣之地使用
-			  在白天狂暴
-			  不消耗
+	不需要在神圣之地使用
+	在白天狂暴
+	不消耗
         '''
       AquaticScourgeRelic: GetsChanged
       AstrumAureusRelic: GetsChanged
@@ -148,14 +148,14 @@
       SparklingTunaCan:
         '''
         在沉沦之海使用，召唤巨像蛤
-			  不消耗
+	不消耗
         '''
     }
     ProjectileName:
     {
       SlowerSandTooth: 沙牙
       SulphurousPoisonCloud: 毒云
-      AstralBlueComet: Astral Comet
+      AstralBlueComet: 星辉彗星
       AstralMissile: 星辉导弹
       BlueLaserbeam: 星辉死亡射线
       MissileTelegraphLine: Telegraph
@@ -199,8 +199,8 @@
       CelestialBarrage: Otherwordly Bolt
       ConvergingCelestialBarrage: Otherwordly Bolt
       DarkEnergyBolt: Dark Energy Bolt
-      DarkEnergyBulletHellProj: Dark Energy
-      EnergyTelegraph: Dark Energy Shard
+      DarkEnergyBulletHellProj: 暗能量
+      EnergyTelegraph: 暗能量碎片
       RealitySlice: Reality Tear
       RealityTear: Reality Tear
       SpiralEnergyLaser: Energy Laser
@@ -210,18 +210,18 @@
       AimedIcicleSpike: Icicle Spike
       AuroraSpirit: Aurora Spirit
       AuroraSpirit2: Aurora Spirit
-      IceBomb2: Ice Bomb
-      IcePillar: Ice Pillar
-      IceRain2: Ice Rain
-      IcicleSpike: Icicle Spike
-      AncientDoom: Doomer
+      IceBomb2: 冰弹
+      IcePillar: 冰柱
+      IceRain2: 冰雨
+      IcicleSpike: 冰刺
+      AncientDoom: 末日预言
       CultistFireBeamTelegraph: Telegraph
-      CultistRitual: Ritual
-      DarkBolt: Dark Bolt
-      DarkBoltLarge: Dark Bolt
-      DarkPulse: Dark Pulse
-      DeathExplosion: Explosion
-      DoomBeam: Death Beam
+      CultistRitual: 仪式
+      DarkBolt: 暗影闪电
+      DarkBoltLarge: 暗影闪电
+      DarkPulse: 暗影脉冲
+      DeathExplosion: 爆炸
+      DoomBeam: 死亡激光
       FireballLineTelegraph: Telegraph
       FireBeam: Flame Beam
       IceMass: Ice Mass
@@ -255,45 +255,45 @@
       EssenceSliceTelegraphLine: Chain
       RealityBreakPortalLaserWall: Portal
       RoDFailPulse: Explosion
-      AresBeamExplosion: Exoburst Explosion
+      AresBeamExplosion: 星流爆炸
       AresBeamTelegraph: Gamma Disintegration Beam Telegraph
-      AresCannonLaser: Exo Flame Laser
+      AresCannonLaser: 星流热能激光
       AresDeathBeamTelegraph: Exo Overload Telegraph
-      AresLaserDeathray: Laser Deathray
-      AresLaughBoom: Explosion
-      AresPlasmaFireball: Volatile Plasma Blast
-      AresPulseBlast: Exopulse Energy Burst
-      AresPulseDeathray: Pulse Deathray
-      AresSpinningDeathBeam: Exo Overload Beam
-      AresSpinningRedDeathray: Exothermal Disintegration Deathray
-      AresTeslaGasField: Electric Cloud
-      AresTeslaOrb: Tesla Sphere
-      AresTeslaSpark: Tesla Spark
-      ExoburstSpark: Exoburst Spark
-      PhotonRipperCrystal: Supercharged Exo Crystal
-      PlasmaGas: Plasma
-      SmallPlasmaSpark: Plasma Spark
-      ApolloAcceleratingPlasmaSpark: Plasma Spark
-      ApolloFallingPlasmaSpark: Plasma Spark
-      ApolloFlamethrower: Exoplasma Flamethrower
-      ApolloPlasmaFireball: Volatile Plasma Blast
-      ApolloRocketInfernum: High Explosive Plasma Rocket
-      ApolloTelegraphedPlasmaSpark: Plasma Bolt
-      ArtemisGasFireballBlast: Volatile Fireball Blast
-      ArtemisGatlingLaser: Exo Flame Laser
-      ArtemisLaser: Exo Flame Laser
+      AresLaserDeathray: 终灭激光
+      AresLaughBoom: 爆炸
+      AresPlasmaFireball: 挥发性等离子光球
+      AresPulseBlast: 星流脉冲能量光球
+      AresPulseDeathray: 脉冲死光
+      AresSpinningDeathBeam: 星流过载激光
+      AresSpinningRedDeathray: 星流外分解死亡射线
+      AresTeslaGasField: 电云
+      AresTeslaOrb: 特斯拉球状闪电
+      AresTeslaSpark: 特斯拉裂片
+      ExoburstSpark: 星流爆炸裂片
+      PhotonRipperCrystal: 增压星流结晶
+      PlasmaGas: 等离子球
+      SmallPlasmaSpark: 等离子裂片
+      ApolloAcceleratingPlasmaSpark: 等离子裂片
+      ApolloFallingPlasmaSpark: 等离子裂片
+      ApolloFlamethrower: 星流等离子火焰喷射
+      ApolloPlasmaFireball: 挥发性等离子光球
+      ApolloRocketInfernum: 高爆等离子火焰
+      ApolloTelegraphedPlasmaSpark: 等离子束
+      ArtemisGasFireballBlast: 挥发性火焰球
+      ArtemisGatlingLaser: 星流热能激光
+      ArtemisLaser: 星流热能激光
       ArtemisSpinLaser: Ohio Beam
       ArtemisSweepLaserbeam: Ohio Beam
-      SuperheatedExofireGas: Superheated Fire
-      DetatchedThanatosLaser: Exo Flame Laser
-      ExolaserBomb: Exolaser Bomb
-      ExolaserSpark: Exolaser Spark
-      LightOverloadRay: Prismatic Overload Beam
-      LightRayTelegraph: Prismatic Light
+      SuperheatedExofireGas: 终极烈火
+      DetatchedThanatosLaser: 星流等离子束
+      ExolaserBomb: 星流等离子炸弹
+      ExolaserSpark: 星流等离子裂片
+      LightOverloadRay: 光棱过载激光
+      LightRayTelegraph: 光棱光束
       OverloadBoom: Explosion
-      RefractionRotor: Refraction Rotor
-      ThanatosAresComboLaser: Exo Flame Laser
-      ThanatosLaser: Exo Flame Laser
+      RefractionRotor: 衍耀旋刃
+      ThanatosAresComboLaser: 星流火焰激光
+      ThanatosLaser: 星流火焰激光
       BigFollyFeather: Feather
       BirbThunderAuraFlare: Draconic Aura Flare
       ExplodingEnergyOrb: Plasma Orb
@@ -582,7 +582,7 @@
       RisingFireball: Fireball
       Sandnado2: Sand Tornado
       GuardiansSummonerProjectile: Guardians Summoner Projectile
-      HatGirl: Hat Girl
+      HatGirl: 礼帽女孩
       ProfanedTempleCinder: Cinder
       ProvidenceArenaDelimiterProj: Arena Thing
       ProvidenceSummonerProjectile: Providence Summoner Projectile
@@ -593,7 +593,7 @@
       AquaticSeekerBody2: 渊海追魂虫
       AquaticSeekerHead2: 渊海追魂虫
       AquaticSeekerTail2: 渊海追魂虫
-      DeusSpawn: 小白金
+      DeusSpawn: 大白金
       BrainIllusion: 克苏鲁之脑
       BrainIllusion2: 克苏鲁之脑
       SoulSeeker2: 探魂者
