@@ -101,8 +101,8 @@ CalamityCN: {
         68: Plantera isn't keeping anything back, watch out!
         69: Manage those clouds carefully. You'll need to weave through them to find the gap in her tentacles!
         #石巨人
-        70: You're gonna have a bad time...
-        71: Golem's eye color will change depending on it's attack. Keep your own eyes peeled!
+        70: 你会有一段不愉快的时光……
+        71: 石巨人的眼睛颜色会跟着攻击模式改变，睁大你的眼睛！
         #猪龙鱼公爵
         72: Keep track of where the long charge stops! You might get swept up by a tidal wave!
         73: Try your best to weave through the razorblades and brace youself!
@@ -148,9 +148,9 @@ CalamityCN: {
         102: Movement speed is gonna matter a lot against that fish!
         103: Try to keep a counter in the last phase. The Old Duke will teleport, charge seven times, and then repeat.
         104: Are you really sure you don't want to use a dash for that fish?
-        105: A dashing accessory would be reeaaally helpful here...
+        105: 一个冲刺饰品在这里会非常有用……
         #神明吞噬者
-        106: A dashing accessory would be reeaaaally helpful here...
+        106: 一个冲刺饰品在这里会非常有用……
         107: Being able to face it head on with a ram sounds like a good idea, don't you think?
         108: Don't feel intimidated, face fear in the eyes and dash directly into the Devourer's maw!
         109: Oh man, theres so many lasers! Slow and precise movements seem like your best bet here...
@@ -162,13 +162,13 @@ CalamityCN: {
         114: AND IF I SHOULD DIE BEFORE YOU CONTINUEE, YOU SHALL HAV-... Wait, you died? Come on, I was on a roll here!
         #星流巨械
         115: If a certain starting combo isnt working too well, maybe experiment with another one?
-        116: Better choose well!
+        116: 做好选择！
         117: Best to keep close during these Exo Overload attacks, otherwise you may have trouble keeping up with the spin!
         118: Ares' has one hell of a supercomputer, those arms are super predictive! Maybe you can use that to your advantage?
         119: The Exo-Twins are magnificently in-sync, try finding a rythem to outsmart them!
         120: Don't fret, face fear in the eyes and dash directly into Thanatos' face-plates!
-        121: Oh my, so many lasers... better keep on the move!
-        122: Seems like they are combining efforts, beware!
+        121: 我的天，好多激光……最好保持移动！
+        122: 看起来它们在组合攻击，小心！
         #至尊灾厄
         123: So many skulls, but it appears they aren't focused directly at you! Try going inbetween!
         124: Calamitas' is laying exploding brimstone magic with every charge, try to direct them away from a safe location!
@@ -193,47 +193,47 @@ CalamityCN: {
         ProvidenceRelic: {
             0: 
             '''
-            The first major hurdle following the defeat of the Moon Lord. Your triumph over her was by no means a small feat.
-            Perhaps consider fighting her again during the night for a special challenge?
+            月后击败的第一个大阻碍，你战神她绝非壮举。
+            也许可以尝试夜晚与她再进行一次特殊挑战？
             '''
             HasBeatedInfernumNightProvBeforeDay: 
             '''
-            Bruh? What the heck? Are you OK?
-            You were supposed to fight her at night AFTER beating her during the day first!
+            老兄搞什么鬼？你还好吗？
+            你应该打败她的白天挑战之后再打晚上的！
             '''
         }
         DraedonRelic: {
             0: 
             '''
-            You have done phenomenally. There is only one challenge left now-
-            Face the Witch.
+            你做的非常出色，现在只剩下一个挑战-
+            直面硫火女巫-至尊灾厄
             '''
             DownedSCal: 
             '''
-            Spectacular work. You have conquered all of the major obstacles.
-            Take pride in this accomplishment, for you are considerably stronger than you were when you began.
+            精彩的表演。你击败了所有阻碍。
+            这些成就引以为豪，对于你比刚开始强大多了。
             '''
         }
         SupremeCalamitasRelic: {
             0: 
             '''
-            You have done phenomenally. There is only one challenge left now-
-            Face the Cosmic Engineer.
+            你做的非常出色，现在只剩下一个挑战-
+            直面寰宇匠师-嘉登
             '''
             DownedExoMechs: 
             '''
-            Spectacular work. You have conquered all of the major obstacles.
-            Take pride in this accomplishment, for you are considerably stronger than you were when you began.
+            精彩的表演。你击败了所有阻碍。
+            这些成就引以为豪，对于你比刚开始强大多了。
             '''
         }
         EyeOfCthulhuRelic: 
             '''
-            Remember to not force yourself too much in the pursuit of victory. Take breaks if you need to.
-            The most important thing is fun.
+            记住不要强制一味的追求胜利，需要时休息一下。
+            享受乐趣是最重要的。
             '''
         EmpressOfLightRelic: The optional foes may at times be the most formidable. So too may they yield the greatest rewards.
         GolemRelic: Simple methodical planning goes a long way. It will be invaluable against future obstacles.
-        KingSlimeRelic: Even seasoned players may struggle somewhat in the face of something new and unfamiliar. Adaptability is key.
+        KingSlimeRelic: 即使是经验再丰富的玩家，面对陌生的挑战也会不熟练。适应力是关键。
         MoonLordRelic: 
             '''
             到目前为止，你做得很好。
@@ -246,15 +246,15 @@ CalamityCN: {
             '''
         PlanteraRelic: 
             '''
-            Be proud of your death count!
-            The more you die, the more you're learning. Keep going!
+            为你的死亡次数感到骄傲！
+            死的越多，学的越多。继续前进！
             '''
-        SkeletronRelic: The first major roadblock. You are better now than before you faced it. Did you have fun learning its patterns?
+        SkeletronRelic: 流程第一个阻碍，你现在比之前面对它更加熟练了，你享受熟练它攻击模式的过程吗？
         DevourerOfGodsRelic: 
             '''
-            Sometimes pure reaction skill is the most valuable thing to cultivate.
-            You are in the final stretch. Your determination has proven invaluable up to this point.
-            May it guide you through the last challenges.
+            有时反应能力是最好的技能。
+            你的流程来到最后阶段。直到目前，证明你的决心强大。
+            愿它指导你完成最后的挑战。
             '''
 
         Vanilla: {
