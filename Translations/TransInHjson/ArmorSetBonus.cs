@@ -760,13 +760,11 @@ namespace CalamityCN.Translations.TransInHjson
                     }
                     else
                     {
-                        if (type - 231 <= 2)
-                        {
-                            tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.Vanilla.Molten", Array.Empty<object>());
-                            return;
-                        }
                         switch (type)
                         {
+                            case >=231 and <= 233:
+                                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.Vanilla.Molten", Array.Empty<object>());
+                                return;
                             case 687:
                             case 688:
                             case 689:
