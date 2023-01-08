@@ -16,7 +16,7 @@ CalamityCN: {
         #克苏鲁之眼
         8: 当心那些尖牙炸弹！它们落到地上时牙齿会喷出来，尽量离远点！
         9: 制作一个钩爪或将你的机动性提高是躲避克苏鲁之眼冲刺的绝佳选择！
-        10: Eye can't believe you died to that.
+        10: 我不敢相信你就这么死了。
         #菌生蟹
         11: 菌生蟹每跳跃三次才会发射孢子，你最好保持计数！
         12: 试着把注意力集中在菌生蟹的真菌孢子上，如果你忽视了它们的话，它们会攻击到你！
@@ -47,18 +47,18 @@ CalamityCN: {
         #独眼巨鹿
         32: Deerclops' are Myopic, so they will force you to stay close, dont let them corner you!
         33: The Deerclops will follow a set pattern, learn it to gain the upper hand!
-        34: Deer god...
+        34: 我敬皑的上帝啊......
         #骷髅王
         35: Contrary to what you may think, running into the shadowflame walls will not work, take it slow!
         36: Don't panic when Skeletron does his barrages of hand fireballs! Just jump and stay calm!
-        37: Geeettttttt DUNKED ON!!!
+        37: 花~~~~~~式吊打！
         #史莱姆之神
         38: They dont seem very intelligent, maybe you could trick them to jump higher if you do aswell?
         39: Dont let all the projectiles intimidate you, be very cautious with your movement!
         #血肉之墙
-        40: Be sure to run the opposite direction!
+        40: 确保朝反方向跑！
         #双子魔眼
-        41: Watch out, that last twin is gonna hit you with everything it's got! Don't let up!
+        41: 小心，最后的魔眼会竭尽全力击败你！别掉以轻心！
         42: Having trouble dodging during the spin? Three can play at that game, Spin!
         #机械骷髅王
         43: Those blue tesla mines are going to explode into gas; take cover!
@@ -69,11 +69,11 @@ CalamityCN: {
         46: Move as little as possible while it's above you. That should calm down its spastic jittering!
         47: Watch for the gaps in the icicles around Cryogen, they're a great indicator of where a safe spot is!
         #硫磺火元素
-        48: Stay near the center of your arena if you can. Those thorns are really good at cornering you!
-        49: The beam predicts your position, try baiting it into shooting away from you!
+        48: 尽可能的靠近场地中心。那些刺真的很擅长让你拐弯！
+        49: 激光会预判你的位置，试着诱导它远离你！
         #渊海灾虫
         50: If you can't handle dodging at high speeds, try baiting it into circling you!
-        51: The Scourge will stop at nothing to snack on you! Stay on the move!
+        51: 渊海灾虫会不顾一切吃掉你作为它的点心，保持移动！
         #史莱姆皇后
         52: Keep your feet working! This gelatinous queen will stop at nothing to crush her foes!
         53: Short hops may help better than trying to fly away from all the crystal shrapnel!
@@ -86,12 +86,12 @@ CalamityCN: {
         58: The meteors all split in the same way; use this to your advantage!
         59: Home stretch! try focusing on yourself more than the boss!
         #白金星舰
-        60: Stay somewhat close, otherwise you may be caught off guard!
+        60: 保持一定的距离，否则你可能会被打个措手不及！
         #瘟疫使者歌莉娅
-        61: Those drones are building a jail around you, destroying one will give you an opening!
-        62: Destroy those builder drones before the whole jungle goes kablooey!
+        61: 那些无人机正在你周围创造一个囚笼，摧毁一架以给你创造一个缺口！
+        62: 在丛林被夷为平地之前摧毁那些建构无人机！
         #毁灭魔像
-        63: Some of Ravager's attacks reward you for staying close. Try not to run away!
+        63: 毁灭魔像的一些攻击会让你和它离得很近，尽量别跑太远！
         #星神游龙
         64: That thing seems to have shed its outer shell. Brace yourself, it's going to be a lot faster now!
         65: Don't forget about that rubble! It will rain down from above!
@@ -99,7 +99,7 @@ CalamityCN: {
         67: That serpent is really fast! Good mobility will be important to defeat it!
         #世纪之花
         68: Plantera isn't keeping anything back, watch out!
-        69: Manage those clouds carefully. You'll need to weave through them to find the gap in her tentacles!
+        69: 小心对付那些毒云。只有穿过它们才能找到她触手间的空隙！
         #石巨人
         70: 你会有一段不愉快的时光……
         71: 石巨人的眼睛颜色会跟着攻击模式改变，睁大你的眼睛！
@@ -159,8 +159,8 @@ CalamityCN: {
         111: This speed is crazy! Make sure you know when it starts; you might get jumpscared!
         112: Don't let the flashbang faze you! Keep your eyes peeled for where the embers are!
         113: Yharon's burning some serious energy now! Stay focused!
-        114: AND IF I SHOULD DIE BEFORE YOU CONTINUEE, YOU SHALL HAV-... Wait, you died? Come on, I was on a roll here!
-        #星流巨械
+        114: “如果我在你的伟业继续之前而死，你会......”等等，你死了？继续加油，我在这儿玩的很开心！
+	#星流巨械
         115: If a certain starting combo isnt working too well, maybe experiment with another one?
         116: 做好选择！
         117: Best to keep close during these Exo Overload attacks, otherwise you may have trouble keeping up with the spin!
@@ -193,37 +193,37 @@ CalamityCN: {
         ProvidenceRelic: {
             0: 
             '''
-            月后击败的第一个大阻碍，你战神她绝非壮举。
-            也许可以尝试夜晚与她再进行一次特殊挑战？
+            这是在你击败月球领主后遇到的第一个阻碍。战胜她绝非易事。
+            也许你可以试试在晚上与她来一次特别的战斗？
             '''
             HasBeatedInfernumNightProvBeforeDay: 
             '''
-            老兄搞什么鬼？你还好吗？
-            你应该打败她的白天挑战之后再打晚上的！
+            老兄？你在干什么？你还好吗？
+            你应该先在白天击败过她一次后再在晚上与她战斗的！
             '''
         }
         DraedonRelic: {
             0: 
             '''
-            你做的非常出色，现在只剩下一个挑战-
-            直面硫火女巫-至尊灾厄
+            你做的很好。现在，只剩下一个挑战了-
+            面对那位女巫。
             '''
             DownedSCal: 
             '''
-            精彩的表演。你击败了所有阻碍。
-            这些成就引以为豪，对于你比刚开始强大多了。
+            令人赞叹，你已经战胜了所有的困难。
+            为这些成就感到骄傲吧，因为你已经比最初的时候更加强大了。
             '''
         }
         SupremeCalamitasRelic: {
             0: 
             '''
-            你做的非常出色，现在只剩下一个挑战-
-            直面寰宇匠师-嘉登
+            你做的很好。现在，只剩下一个挑战了-
+            面对那位神匠。
             '''
             DownedExoMechs: 
             '''
-            精彩的表演。你击败了所有阻碍。
-            这些成就引以为豪，对于你比刚开始强大多了。
+            令人赞叹，你已经战胜了所有的困难。
+            为这些成就感到骄傲吧，因为你已经比最初的时候更加强大了。
             '''
         }
         EyeOfCthulhuRelic: 
@@ -231,7 +231,7 @@ CalamityCN: {
             记住不要强制一味的追求胜利，需要时休息一下。
             享受乐趣是最重要的。
             '''
-        EmpressOfLightRelic: The optional foes may at times be the most formidable. So too may they yield the greatest rewards.
+        EmpressOfLightRelic: 那些可选性的敌人有时可能很难对付。击败他们也可能会拥有很高的收益。
         GolemRelic: Simple methodical planning goes a long way. It will be invaluable against future obstacles.
         KingSlimeRelic: 即使是经验再丰富的玩家，面对陌生的挑战也会不熟练。适应力是关键。
         MoonLordRelic: 
@@ -252,9 +252,9 @@ CalamityCN: {
         SkeletronRelic: 流程第一个阻碍，你现在比之前面对它更加熟练了，你享受熟练它攻击模式的过程吗？
         DevourerOfGodsRelic: 
             '''
-            有时反应能力是最好的技能。
-            你的流程来到最后阶段。直到目前，证明你的决心强大。
-            愿它指导你完成最后的挑战。
+            有些时候，纯粹的反应能力是最值得去培养的
+            你已经到了最终的阶段。目前为止，你已经证明了你那无价的决心。
+            愿它指引你完成最后的挑战。
             '''
 
         Vanilla: {
