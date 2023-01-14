@@ -72,12 +72,12 @@
       TrufflePlatter: 松露虫拼盘
       RedBait: 赤饵
 
-      AridBattlecry: Arid Battlecry
+      AridBattlecry: 旱沙号角
       Myrindael: Myrindael
       TheGlassmaker: 熔璃化匠
       WanderersShell: 流浪者贝壳
-      CherishedSealocket: Cherished Sealocket
-      WaterglassToken: Waterglass Token
+      CherishedSealocket: 珍海吊坠
+      WaterglassToken: 水琉璃之赠
       Wayfinder: 寻路者
     }
     ItemTooltip:
@@ -645,8 +645,8 @@
       ShadowDemon: 暗影巨蛇
       CursedOrb: 诅咒焰球
       EnergyOrb: 能量球
-      BereftVassal: Argus, the Bereft Vassal
-      GreatSandSharkNPC: Taurus, the Great Sand Shark
+      BereftVassal: 阿耳戈斯，无邦封臣
+      GreatSandSharkNPC: 托勒斯，旱海狂鲨
     }
     BiomeName:
     {
@@ -665,7 +665,7 @@
     {
       DarkFlames: 你的身体被遗忘之火吞噬。你的防御力降低了
       ElysianGrace: 你获得了无限的飞行时间
-      HatGirlBuff: Arson
+      HatGirlBuff: 芳心纵火犯
       Madness: 要疯了……
       RedSurge: 你无法移动
       ShadowflameInferno: 快速流失生命值
