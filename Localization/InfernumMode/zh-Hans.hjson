@@ -64,9 +64,9 @@
       SparklingTunaCan: 闪光软体生物罐头
 
       BereftVassalBossBag: 宝藏袋（无邦封臣）
-      KnowledgeBereftVassal: 无邦遗臣和旱海狂鲨
-      BereftVassalTrophy: 无邦遗臣纪念章
-      BereftVassalRelic: 无邦遗臣孽狱圣物
+      KnowledgeBereftVassal: 无邦封臣和旱海狂鲨
+      BereftVassalTrophy: 无邦封臣纪念章
+      BereftVassalRelic: 无邦封臣孽狱圣物
       GrandStatueItem: 狂鲨雕像
       ProfanedFountainItem: 亵渎岩浆喷泉
       TrufflePlatter: 松露虫拼盘
@@ -627,6 +627,7 @@
       GolemArenaPlatform: ""
       GolemFistLeft: 石巨人拳
       GolemFistRight: 石巨人拳
+      BereftVassal: 无邦封臣
       Ninja: 忍者
       BuilderDroneBig: 大型建构无人机
       BuilderDroneSmall: 小型建构无人机
