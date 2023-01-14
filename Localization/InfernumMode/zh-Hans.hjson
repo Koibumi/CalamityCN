@@ -684,7 +684,7 @@
       NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
       AchievementsHeader: "死亡祈愿"
     }
-
+#暂时没用
     Config:
     {
       BossIntroductionAnimationsAreAllowed:
