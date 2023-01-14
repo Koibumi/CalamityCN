@@ -159,7 +159,7 @@ CalamityCN: {
         111: This speed is crazy! Make sure you know when it starts; you might get jumpscared!
         112: Don't let the flashbang faze you! Keep your eyes peeled for where the embers are!
         113: Yharon's burning some serious energy now! Stay focused!
-        114: AND IF I SHOULD DIE BEFORE YOU CONTINUEE, YOU SHALL HAV-... Wait, you died? Come on, I was on a roll here!
+        114: “如果我在你的伟业继续之前而死，你会......”等等，你死了？继续加油，我在这儿玩的很开心！
         #星流巨械
         115: If a certain starting combo isnt working too well, maybe experiment with another one?
         116: 做好选择！
@@ -179,6 +179,10 @@ CalamityCN: {
         128: 这似乎是影响传送定位的魔法，你的混沌传送杖在这里失效了！
         129: Those meteorites fall ahead of you. Try baiting them for a little more breathing room!
     }
+    Bestiary: {
+        BereftVassal: A vigilant guardian, once wandering without a purpose. Having learned that his king lives on, it'd seem that he has started to regain his will to live. He looks forward to fighting you again.
+    }
+
     Items: {
     Tooltip: {
         ProfanedShard: {
