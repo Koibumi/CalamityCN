@@ -63,66 +63,66 @@
       YharonRelic: 丛林龙，犽戎孽狱圣物
       SparklingTunaCan: 闪光软体生物罐头
 
-      BereftVassalBossBag: 宝藏袋（无邦遗臣）
+      BereftVassalBossBag: 宝藏袋（无邦封臣）
       KnowledgeBereftVassal: 无邦遗臣和旱海狂鲨
       BereftVassalTrophy: 无邦遗臣纪念章
       BereftVassalRelic: 无邦遗臣孽狱圣物
-      GrandStatueItem: Grand Statue
-      ProfanedFountainItem: Profaned Lava Fountain
+      GrandStatueItem: 狂鲨雕像
+      ProfanedFountainItem: 亵渎岩浆喷泉
       TrufflePlatter: 松露虫拼盘
-      RedBait: Red Bait
+      RedBait: 赤饵
 
       AridBattlecry: Arid Battlecry
       Myrindael: Myrindael
-      TheGlassmaker: The Glassmaker
-      WanderersShell: Wanderer's Shell
+      TheGlassmaker: 熔璃化匠
+      WanderersShell: 流浪者贝壳
       CherishedSealocket: Cherished Sealocket
       WaterglassToken: Waterglass Token
-      Wayfinder: The Wayfinder
+      Wayfinder: 寻路者
     }
     ItemTooltip:
     {
-      AridBattlecry: Summons sharks below the cursor that fly towards enemies
+      AridBattlecry: 在光标下方召唤鲨鱼飞向敌人
       Myrindael: 
       '''
-      Holding left click spins the spear before throwing it. After being thrown, enemy hits release lightning and sparks towards enemies
-      Right clicks perform a powerful lunge that releases lightning from the sky on enemy hits
-      To fight, to destroy, is to take away from the world
-      And yet, when the world itself clashes against you, what else can you do?
+      按住左键旋转长矛，然后投掷出去。投掷后，命中敌人会向敌人释放闪电与火花
+      右键会进行强力的冲刺，在命中敌人时从空中劈下闪电
+      争斗，毁灭，是要这世界任你予取予求
+      然而，当这世界都对你刀兵相向，你还能做些什么？
       '''
       TheGlassmaker: 
       '''
-      90% chance to not consume gel
-      Sometimes releases hot glass shards that home in on nearby targets
+      90%几率不消耗凝胶
+      有时会发射出炽热的玻璃碎片追踪附近的目标
       '''
       WanderersShell: 
       '''
-      Throws a spread of sea shells that home in on enemies before bouncing off of them and lingering on the ground
-      Stealth strikes cause all lingering shells to explode into water geysers that target nearby enemies
-      The open edge is too sharp to put near your ear
+      向敌人投掷贝壳，在它们反弹并停留在地上之前，这些贝壳会追踪敌人
+      潜伏攻击会将所有停留在地上的贝壳炸成会攻击附近敌人的水柱
+      开口边缘太锋利了，没法靠近耳朵
       '''
       CherishedSealocket: 
       '''
-      Grants a water forcefield that dissipates after 2 hits
-      When the forcefield is up, hard-hitting hits do 60% less damage overall, and you recieve a 12% damage boost
-      The forcefield reappears after 90 seconds
+      生成一个受击2次后消散的水波立场
+      当立场存在时，受到的伤害会减少60%，你会获得12%的伤害加成
+      立场会在90秒后再次生成
       '''
       BereftVassalBossBag: "{$CommonItemTooltip.RightClickToOpen}"
       KnowledgeBereftVassal: 
       '''
-      A most unusual allegiance.
-      Once a great warrior under the Sea King, it appears that the destruction of his home had left him despondent.
-      And yet, it would seem that fighting you has reignited his spirits.
+      一份最为罕见的忠诚。
+      曾经海王手下的一名伟大战士，他家园的覆灭似乎让他异常挫败。
+      然而，与你战斗似乎重新燃起了他的斗志。
       '''
       WaterglassToken: 
       '''
-      Teleports you to the Lost Colosseum and back
-      This item cannot be used when being held by the mouse and must be in the hotbar
+      将你传送到失落竞技场以及返回主世界
+      必须在快捷栏才可以使用
       '''
       Wayfinder: 
       '''
-      Creates a magical gate that allows you to fast travel to it
-      Does not work when a boss is alive
+      创造一扇魔法门让你快速到达那里
+      有boss存活时使用无法使用
       ModifedInModifyTooltips
       '''
 
@@ -163,14 +163,12 @@
         '''
       TrufflePlatter: 
       '''
-      召唤猪龙鱼公爵
-      只能在海洋环境使用
+      在海洋使用，召唤猪龙鱼公爵
       不消耗
       '''
       RedBait: 
       '''
-      Summons the Dreadnautilus
-      只能在夜晚使用
+      在夜晚使用，召唤恐惧鹦鹉螺
       不消耗
       '''
     }
