@@ -1,17 +1,17 @@
 using CalamityCN.Utils;
 using InfernumMode;
-using InfernumMode.BehaviorOverrides.BossAIs.CalamitasClone;
-using InfernumMode.BehaviorOverrides.BossAIs.DoG;
-using InfernumMode.BehaviorOverrides.BossAIs.Draedon;
-using InfernumMode.BehaviorOverrides.BossAIs.PlaguebringerGoliath;
-using InfernumMode.BehaviorOverrides.BossAIs.Providence;
-using InfernumMode.BehaviorOverrides.BossAIs.SupremeCalamitas;
-using InfernumMode.BehaviorOverrides.BossAIs.Twins;
-using InfernumMode.BehaviorOverrides.BossAIs.Yharon;
-using InfernumMode.BossIntroScreens;
+using InfernumMode.Content.Achievements.InfernumAchievements;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasClone;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.DoG;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.PlaguebringerGoliath;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Providence;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.SupremeCalamitas;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Twins;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Yharon;
+using InfernumMode.Content.BossIntroScreens;
+using InfernumMode.Core.GlobalInstances.Systems;
 using InfernumMode.GlobalInstances;
-using InfernumMode.ILEditingStuff;
-using InfernumMode.Systems;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
@@ -28,14 +28,33 @@ namespace CalamityCN.Translations.InfernumMode
         {
             ILHooksI = new List<ILHook>();
 
+            //成就
+            QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "First Of Many", "死海无涯");
+            QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "The higher the count, the more you've learnt\n[c/777777:Die to an Infernum boss]", "死的越多，懂得越多\n[c/777777:在炼狱模式下死于Boss]");
+            QuickTranslate(typeof(BereftVassalAchievement), "Initialize", "Forgotten Sands", "尘封已久");
+            QuickTranslate(typeof(BereftVassalAchievement), "Initialize", "Best the Bereft Vassal in combat, in the far reaches of the desert's dunes\n[c/777777:Defeat the Bereft Vassal]", "在远方的沙丘的边缘击败无邦遗臣\n[c/777777:击败无邦遗臣]");
+            QuickTranslate(typeof(ExoPathAchievement), "Initialize", "Lab Rat", "实验白鼠");
+            QuickTranslate(typeof(ExoPathAchievement), "Initialize", "Become Draedon's favorite test subject\n[c/777777:Beat all Infernum Exo Mech combinations]", "成为嘉登最爱的实验素材\n[c/777777:在炼狱模式中击败所以星流巨械组合]");
+            QuickTranslate(typeof(InfernalChaliceAchievement), "Initialize", "Baptized By Hellfire", "狱火洗礼");
+            QuickTranslate(typeof(InfernalChaliceAchievement), "Initialize", "Complete the final challenge, and earn your reward\n[c/777777:Obtain the Infernal Chalice]", "完成最终挑战，并领取你的奖励\n[c/777777:获得炼狱圣杯]");
+            QuickTranslate(typeof(KillAllBossesAchievement), "Initialize", "Infer-it-all!", "全都下炼狱去吧！");
+            QuickTranslate(typeof(KillAllBossesAchievement), "Initialize", "Rip and tear, until it is done\n[c/777777:Beat every Infernum Boss]", "撕碎一切，直至尘埃落定\n[c/777777:在炼狱模式中击败每一个Boss]");
+            QuickTranslate(typeof(KillAllMinibossesAchievement), "Initialize", "Mini-Meany!", "小小的震撼！");
+            QuickTranslate(typeof(KillAllMinibossesAchievement), "Initialize", "Defeat the various minor threats across the world!\n[c/777777:Beat every Infernum Miniboss]", "击败潜藏在世界各地的威胁\n[c/777777:在炼狱模式中击败每一个迷你Boss]");
+            QuickTranslate(typeof(MechaMayhemAchievement), "Initialize", "Malicious Machinery", "恶意军工厂");
+            QuickTranslate(typeof(MechaMayhemAchievement), "Initialize", "Decommission the Maniacal Mechanical trio in one fell swoop!\n[c/777777:Beat Infernum Mecha-Mayhem]", "在一次清扫中同时让三台疯狂的机器报废\n[c/777777:在炼狱模式下击败机甲暴乱]");
+            QuickTranslate(typeof(NightProviAchievement), "Initialize", "Night Knight", "午夜骑士");
+            QuickTranslate(typeof(NightProviAchievement), "Initialize", "Challenge the Profaned Goddess under the gaze of the stars\n[c/777777:Beat Infernum Night Providence]", "在群星的注视中向亵渎天神发起挑战\n[c/777777:在炼狱模式中击败夜晚亵渎天神]");
+            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Ramification", "寸止挑战");
+            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Best the Devourer at his own game: without a ram!\n[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]", "将计就计击败神明吞噬者\n[c/777777:在炼狱模式中不使用冲刺击败神明吞噬者]");
             //难度
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
             QuickTranslate(typeof(InfernumDifficulty), "get_ExpandedDescription", "[c/B32E81:Many major foes will be different, having more challenging AI.] \n[c/B32E81:Adrenaline takes considerably longer to charge.] \n[c/FF0055:Adaptability is imperative.]", "[c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。] \n[c/B32E81:肾上腺素充能时间变长。] \n[c/FF0055:适应力必不可少!]");
             //嘉登
-            QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "DrawWrapper", "Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.", "选择两台巨械。选择的第一台巨械一开始会单独作战\n当它受到了一定的伤害后，选择的第二台巨械将会出现并协同战斗");
-            QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.", "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。");
-            QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.", "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。");
-            QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Artemis and Apollo, a pair of extremely agile destroyers with unstable energy reserves.", "阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。");
+            //QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "DrawWrapper", "Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.", "选择两台巨械。选择的第一台巨械一开始会单独作战\n当它受到了一定的伤害后，选择的第二台巨械将会出现并协同战斗");
+            //QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.", "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。");
+            //QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.", "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。");
+            //QuickTranslate(typeof(DrawDraedonSelectionUIWithAthena), "HandleInteractionWithButton", "Artemis and Apollo, a pair of extremely agile destroyers with unstable energy reserves.", "阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。");
             //Override
             QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Now choose.", "现在，选择吧。");
             QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Your efforts are very intriguing.", "你的努力十分有趣。");
@@ -91,13 +110,13 @@ namespace CalamityCN.Translations.InfernumMode
             //圣物
             QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
             //POD
-            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
-            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
-            QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "NOT SO FAST!", "太慢了！");
-            QuickTranslate(typeof(PoDPlayer), "PostUpdateMiscEffects", "Infernum is not allowed in Master Mode, For the Worthy, or Eternity Mode.", "炼狱模式无法在大师模式、For the Worthy种子、永恒模式下启用。");
-            QuickTranslate(typeof(PoDPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电。");
-            QuickTranslate(typeof(PoDPlayer), "PreKill", " was incinerated by ungodly fire.", "被亵渎之火烧成灰烬。");
-            QuickTranslate(typeof(PoDPlayer), "PreKill", " went mad.", "疯了。");
+            //QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
+            //QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
+            //QuickTranslate(typeof(PoDItems), "DoGTeleportDenialText", "NOT SO FAST!", "太慢了！");
+            //QuickTranslate(typeof(PoDPlayer), "PostUpdateMiscEffects", "Infernum is not allowed in Master Mode, For the Worthy, or Eternity Mode.", "炼狱模式无法在大师模式、For the Worthy种子、永恒模式下启用。");
+            //QuickTranslate(typeof(PoDPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电。");
+            //QuickTranslate(typeof(PoDPlayer), "PreKill", " was incinerated by ungodly fire.", "被亵渎之火烧成灰烬。");
+            //QuickTranslate(typeof(PoDPlayer), "PreKill", " went mad.", "疯了。");
             //Intro
             if (CalamityCNConfig.Instance.InfernumCNFont)
             {

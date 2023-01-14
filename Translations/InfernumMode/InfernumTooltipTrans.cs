@@ -4,8 +4,10 @@ using CalamityCN.Utils;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
-using InfernumMode.Items.Relics;
 using CalamityMod.Items.SummonItems;
+using CalamityMod.Items.Placeables.Furniture.BossRelics;
+using InfernumMode.Content.Items.Relics;
+using InfernumMode.Content.Items;
 
 namespace CalamityCN.Translations.InfernumMode
 {
@@ -33,6 +35,14 @@ namespace CalamityCN.Translations.InfernumMode
 
 			foreach (TooltipLine line in tooltips)
 			{
+				if (item.type == ModContent.ItemType<Wayfinder>())
+                {
+					line.Text = line.Text.Replace("Hold LMB to teleport to the gate", "按住左键传送到魔法门");
+					line.Text = line.Text.Replace("Hold LMB and", "按住左键和");
+					line.Text = line.Text.Replace("unbound", "未绑定");
+					line.Text = line.Text.Replace("to set the gate to your position", "键，设置你的魔法门传送点");
+					line.Text = line.Text.Replace("to remove the gate", "键，移除魔法门");
+				}
 				if (item.type == ItemID.CelestialSigil)
 				{
 					line.Text = line.Text.Replace("Summons the Moon Lord immediately\nCreates an arena at the player's position\nNot consumable.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.Vanilla.CelestialSigil", Array.Empty<object>()));
@@ -45,12 +55,12 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedCore", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<ProvidenceRelic>())
+				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.ProvidenceRelic>())
 				{
 					line.Text = line.Text.Replace("The first major hurdle following the defeat of the Moon Lord. Your triumph over her was by no means a small feat.\nPerhaps consider fighting her again during the night for a special challenge?", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProvidenceRelic.0", Array.Empty<object>()));
 					line.Text = line.Text.Replace("Bruh? What the heck? Are you OK?\nYou were supposed to fight her at night AFTER beating her during the day first!", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProvidenceRelic.HasBeatedInfernumNightProvBeforeDay", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<DraedonRelic>())
+				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.DraedonRelic>())
 				{
 					line.Text = line.Text.Replace("You have done phenomenally. There is only one challenge left now-\nFace the Witch.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.DraedonRelic.0", Array.Empty<object>()));
 					line.Text = line.Text.Replace("Spectacular work. You have conquered all of the major obstacles.\nTake pride in this accomplishment, for you are considerably stronger than you were when you began.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.DraedonRelic.DownedSCal", Array.Empty<object>()));
@@ -80,7 +90,7 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("You have done very well thus far.\nMay your tenacity guide you through the remaining challenges.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.MoonLordRelic", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<OldDukeRelic>())
+				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.OldDukeRelic>())
 				{
 					line.Text = line.Text.Replace("Difficult as the fight may be, you were wise to endure and overcome the challenge it brings.\nYou will find that the mechanics it tested will be relevant again soon.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.OldDukeRelic", Array.Empty<object>()));
 				}
@@ -92,7 +102,7 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("The first major roadblock. You are better now than before you faced it. Did you have fun learning its patterns?", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.SkeletronRelic", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<DevourerOfGodsRelic>())
+				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.DevourerOfGodsRelic>())
 				{
 					line.Text = line.Text.Replace("Sometimes pure reaction skill is the most valuable thing to cultivate.\nYou are in the final stretch. Your determination has proven invaluable up to this point.\nMay it guide you through the last challenges.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.DevourerOfGodsRelic", Array.Empty<object>()));
 				}

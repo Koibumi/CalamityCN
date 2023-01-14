@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using CalamityCN.Utils;
-using InfernumMode.BossIntroScreens;
+using InfernumMode.Content.BossIntroScreens;
 using ReLogic.Graphics;
 using Terraria.ModLoader;
 

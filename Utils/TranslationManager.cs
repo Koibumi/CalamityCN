@@ -1,4 +1,4 @@
-using CalamityCN.Translations.InfernumMode;
+﻿using CalamityCN.Translations.InfernumMode;
 using CalamityCN.Translations.Patch;
 using CalamityCN.Translations.TransInHjson;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ namespace CalamityCN.Utils
             ModePatch.Load();
             UIPatch.Load();
             TextPatch.Load();
-            if(ModsCall.Infernum != null)
+            if(ModsCall.Infernum != null && CalamityCNConfig.Instance.InfernumCN)
             {
                 InfernumPatch.Load();
             }
@@ -45,7 +45,7 @@ namespace CalamityCN.Utils
                 return;
             }
             CombatTextTrans.LoadTranslation();
-            if (ModsCall.Infernum !=null)
+            if (ModsCall.Infernum !=null && CalamityCNConfig.Instance.InfernumCN)
             {
                 InfenumCombatTextTrans.LoadTranslation();
             }

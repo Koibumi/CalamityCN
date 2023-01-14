@@ -62,26 +62,86 @@
       WallOfFleshRelic: 血肉墙孽狱圣物
       YharonRelic: 丛林龙，犽戎孽狱圣物
       SparklingTunaCan: 闪光软体生物罐头
+
+      BereftVassalBossBag: 宝藏袋（无邦遗臣）
+      KnowledgeBereftVassal: 无邦遗臣和旱海狂鲨
+      BereftVassalTrophy: 无邦遗臣纪念章
+      BereftVassalRelic: 无邦遗臣孽狱圣物
+      GrandStatueItem: Grand Statue
+      ProfanedFountainItem: Profaned Lava Fountain
+      TrufflePlatter: 松露虫拼盘
+      RedBait: Red Bait
+
+      AridBattlecry: Arid Battlecry
+      Myrindael: Myrindael
+      TheGlassmaker: The Glassmaker
+      WanderersShell: Wanderer's Shell
+      CherishedSealocket: Cherished Sealocket
+      WaterglassToken: Waterglass Token
+      Wayfinder: The Wayfinder
     }
     ItemTooltip:
     {
-      DemonicChaliceOfInfernum: ""
+      AridBattlecry: Summons sharks below the cursor that fly towards enemies
+      Myrindael: 
+      '''
+      Holding left click spins the spear before throwing it. After being thrown, enemy hits release lightning and sparks towards enemies
+      Right clicks perform a powerful lunge that releases lightning from the sky on enemy hits
+      To fight, to destroy, is to take away from the world
+      And yet, when the world itself clashes against you, what else can you do?
+      '''
+      TheGlassmaker: 
+      '''
+      90% chance to not consume gel
+      Sometimes releases hot glass shards that home in on nearby targets
+      '''
+      WanderersShell: 
+      '''
+      Throws a spread of sea shells that home in on enemies before bouncing off of them and lingering on the ground
+      Stealth strikes cause all lingering shells to explode into water geysers that target nearby enemies
+      The open edge is too sharp to put near your ear
+      '''
+      CherishedSealocket: 
+      '''
+      Grants a water forcefield that dissipates after 2 hits
+      When the forcefield is up, hard-hitting hits do 60% less damage overall, and you recieve a 12% damage boost
+      The forcefield reappears after 90 seconds
+      '''
+      BereftVassalBossBag: "{$CommonItemTooltip.RightClickToOpen}"
+      KnowledgeBereftVassal: 
+      '''
+      A most unusual allegiance.
+      Once a great warrior under the Sea King, it appears that the destruction of his home had left him despondent.
+      And yet, it would seem that fighting you has reignited his spirits.
+      '''
+      WaterglassToken: 
+      '''
+      Teleports you to the Lost Colosseum and back
+      This item cannot be used when being held by the mouse and must be in the hotbar
+      '''
+      Wayfinder: 
+      '''
+      Creates a magical gate that allows you to fast travel to it
+      Does not work when a boss is alive
+      ModifedInModifyTooltips
+      '''
+
       BlastedTophat: 召唤一个小小的礼帽女孩在你与Boss战斗时给予你建议
       BloodwormPlatter:
         '''
         在硫磺海使用，召唤硫海遗爵
-	不消耗
+        不消耗
         '''
       DungeonsCurse:
         '''
         召唤骷髅王，如果在白天使用，时间会切换到夜晚
-	在白天狂暴
-	不消耗
+        在白天狂暴
+        不消耗
         '''
       FleshChunk:
         '''
         在地狱使用，召唤血肉墙
-	不消耗
+        不消耗
         '''
       LeviathanDetector:
         '''
@@ -92,64 +152,27 @@
       RadiantCrystal:
         '''
         召唤光之女皇
-	不需要在神圣之地使用
-	在白天狂暴
-	不消耗
+        不需要在神圣之地使用
+        在白天狂暴
+        不消耗
         '''
-      AquaticScourgeRelic: GetsChanged
-      AstrumAureusRelic: GetsChanged
-      AstrumDeusRelic: GetsChanged
-      BetsyRelic: GetsChanged
-      BrainOfCthulhuRelic: GetsChanged
-      BrimstoneElementalRelic: GetsChanged
-      CalamitasCloneRelic: GetsChanged
-      CeaselessVoidRelic: GetsChanged
-      CrabulonRelic: GetsChanged
-      CryogenRelic: GetsChanged
-      DarkMageRelic: GetsChanged
-      DeerclopsRelic: GetsChanged
-      DesertScourgeRelic: GetsChanged
-      DestroyerRelic: GetsChanged
-      DevourerOfGodsRelic: GetsChanged
-      DraedonRelic: GetsChanged
-      DragonfollyRelic: GetsChanged
-      DreadnautilusRelic: GetsChanged
-      DukeFishronRelic: GetsChanged
-      EaterOfWorldsRelic: GetsChanged
-      EmpressOfLightRelic: GetsChanged
-      EyeOfCthulhuRelic: GetsChanged
-      GiantClamRelic: GetsChanged
-      GolemRelic: GetsChanged
-      HiveMindRelic: GetsChanged
-      KingSlimeRelic: GetsChanged
-      LeviathanRelic: GetsChanged
-      LunaticCultistRelic: GetsChanged
-      MoonLordRelic: GetsChanged
-      OgreRelic: GetsChanged
-      OldDukeRelic: GetsChanged
-      PerforatorsRelic: GetsChanged
-      PlaguebringerGoliathRelic: GetsChanged
-      PlanteraRelic: GetsChanged
-      PolterghastRelic: GetsChanged
-      ProfanedGuardiansRelic: GetsChanged
-      ProvidenceRelic: GetsChanged
-      QueenBeeRelic: GetsChanged
-      QueenSlimeRelic: GetsChanged
-      RavagerRelic: GetsChanged
-      SignusRelic: GetsChanged
-      SkeletronPrimeRelic: GetsChanged
-      SkeletronRelic: GetsChanged
-      SlimeGodRelic: GetsChanged
-      StormWeaverRelic: GetsChanged
-      SupremeCalamitasRelic: GetsChanged
-      TwinsRelic: GetsChanged
-      WallOfFleshRelic: GetsChanged
-      YharonRelic: GetsChanged
       SparklingTunaCan:
         '''
         在沉沦之海使用，召唤巨像蛤
-	不消耗
+        不消耗
         '''
+      TrufflePlatter: 
+      '''
+      召唤猪龙鱼公爵
+      只能在海洋环境使用
+      不消耗
+      '''
+      RedBait: 
+      '''
+      Summons the Dreadnautilus
+      只能在夜晚使用
+      不消耗
+      '''
     }
     ProjectileName:
     {
@@ -655,6 +678,7 @@
     UI:
     {
       NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
+      AchievementsHeader: "死亡祈愿"
     }
     Containers:
     {
