@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.InfernumMode
 {
-    public class Bestiary : GlobalNPC
+    public class InfernumBestiary : GlobalNPC
     {
         public override bool IsLoadingEnabled(Mod mod)
         {
