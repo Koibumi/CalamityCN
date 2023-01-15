@@ -33,23 +33,23 @@ namespace CalamityCN.Translations.InfernumMode
 
             //成就
             QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "First Of Many", "死海无涯");
-            QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "The higher the count, the more you've learnt\n[c/777777:Die to an Infernum boss]", "死的越多，懂得越多\n[c/777777:在炼狱模式下死于Boss]");
+            QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "The higher the count, the more you've learnt\n[c/777777:Die to an Infernum boss]", "死的越多，懂得越多\n[c/777777:在炼狱模式下死于任意一个Boss]");
             QuickTranslate(typeof(BereftVassalAchievement), "Initialize", "Forgotten Sands", "尘封已久");
             QuickTranslate(typeof(BereftVassalAchievement), "Initialize", "Best the Bereft Vassal in combat, in the far reaches of the desert's dunes\n[c/777777:Defeat the Bereft Vassal]", "在远方的沙丘的边缘击败无邦封臣\n[c/777777:击败无邦封臣]");
             QuickTranslate(typeof(ExoPathAchievement), "Initialize", "Lab Rat", "实验白鼠");
-            QuickTranslate(typeof(ExoPathAchievement), "Initialize", "Become Draedon's favorite test subject\n[c/777777:Beat all Infernum Exo Mech combinations]", "成为嘉登最爱的实验素材\n[c/777777:在炼狱模式中击败所有星流巨械组合]");
+            QuickTranslate(typeof(ExoPathAchievement), "Initialize", "Become Draedon's favorite test subject\n[c/777777:Beat all Infernum Exo Mech combinations]", "成为嘉登最爱的实验素材\n[c/777777:在炼狱模式下击败所有星流巨械组合]");
             QuickTranslate(typeof(InfernalChaliceAchievement), "Initialize", "Baptized By Hellfire", "狱火洗礼");
             QuickTranslate(typeof(InfernalChaliceAchievement), "Initialize", "Complete the final challenge, and earn your reward\n[c/777777:Obtain the Infernal Chalice]", "完成最终挑战，并领取你的奖励\n[c/777777:获得炼狱圣杯]");
             QuickTranslate(typeof(KillAllBossesAchievement), "Initialize", "Infer-it-all!", "全都下炼狱去吧！");
             QuickTranslate(typeof(KillAllBossesAchievement), "Initialize", "Rip and tear, until it is done\n[c/777777:Beat every Infernum Boss]", "撕碎一切，直至尘埃落定\n[c/777777:在炼狱模式中击败每一个Boss]");
             QuickTranslate(typeof(KillAllMinibossesAchievement), "Initialize", "Mini-Meany!", "小小的震撼！");
-            QuickTranslate(typeof(KillAllMinibossesAchievement), "Initialize", "Defeat the various minor threats across the world!\n[c/777777:Beat every Infernum Miniboss]", "击败潜藏在世界各地的威胁\n[c/777777:在炼狱模式中击败每一个迷你Boss]");
+            QuickTranslate(typeof(KillAllMinibossesAchievement), "Initialize", "Defeat the various minor threats across the world!\n[c/777777:Beat every Infernum Miniboss]", "击败潜藏在世界各地的威胁\n[c/777777:在炼狱模式下击败每一个迷你Boss]");
             QuickTranslate(typeof(MechaMayhemAchievement), "Initialize", "Malicious Machinery", "恶意军械");
             QuickTranslate(typeof(MechaMayhemAchievement), "Initialize", "Decommission the Maniacal Mechanical trio in one fell swoop!\n[c/777777:Beat Infernum Mecha-Mayhem]", "在一次清扫中同时让三台疯狂的机器报废\n[c/777777:在炼狱模式下击败机甲混战]");
             QuickTranslate(typeof(NightProviAchievement), "Initialize", "Night Knight", "戌时戍侍");
-            QuickTranslate(typeof(NightProviAchievement), "Initialize", "Challenge the Profaned Goddess under the gaze of the stars\n[c/777777:Beat Infernum Night Providence]", "在群星的注视中向亵渎天神发起挑战\n[c/777777:在炼狱模式中击败夜晚亵渎天神]");
+            QuickTranslate(typeof(NightProviAchievement), "Initialize", "Challenge the Profaned Goddess under the gaze of the stars\n[c/777777:Beat Infernum Night Providence]", "在群星的注视中向亵渎天神发起挑战\n[c/777777:在炼狱模式下击败夜晚亵渎天神]");
             QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Ramification", "寸止挑战");
-            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Best the Devourer at his own game: without a ram!\n[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]", "将计就计击败神明吞噬者\n[c/777777:在炼狱模式中不使用冲刺击败神明吞噬者]");
+            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Best the Devourer at his own game: without a ram!\n[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]", "将计就计击败神明吞噬者\n[c/777777:在炼狱模式下不使用冲刺击败神明吞噬者]");
             //难度
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
             QuickTranslate(typeof(InfernumDifficulty), "get_ExpandedDescription", "[c/B32E81:Many major foes will be different, having more challenging AI.] \n[c/B32E81:Adrenaline takes considerably longer to charge.] \n[c/FF0055:Adaptability is imperative.]", "[c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。] \n[c/B32E81:肾上腺素充能时间变长。] \n[c/FF0055:适应力必不可少!]");
@@ -83,15 +83,15 @@ namespace CalamityCN.Translations.InfernumMode
             }
             #region Exo Mechs
             // Ares
-            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "ARES-09: CORE TEMPERATURES RAPIDLY INCREASING. SELF DESTRUCTION IMMINENT.", "");
-            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "ARES-09: PREPARING 'PRECISION GAMMA-BLASTS' MUTUAL DESTRUCTION PROTOCOL.", "");
-            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "You have made a grave miscalculation.", "");
+            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "ARES-09: CORE TEMPERATURES RAPIDLY INCREASING. SELF DESTRUCTION IMMINENT.", "阿瑞斯-09：核心温度迅速升高，即将自毁。");
+            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "ARES-09: PREPARING 'PRECISION GAMMA-BLASTS' MUTUAL DESTRUCTION PROTOCOL.", "阿瑞斯-09：准备启用“精准伽马射线”互毁协定。");
+            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "You have made a grave miscalculation.", "你犯了个严重的错误。");
             // Apollo & Artemis
-            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "ARTEMIS-01: COMBINED ENERGY RESERVES AT LOW CAPACITY. SYSTEM FAILURE IMMINENT.", "");
-            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "APOLLO-03: PREPARING 'THERMONUCLEAR BLITZ' MUTUAL DESTRUCTION PROTOCOL.", "");
+            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "ARTEMIS-01: COMBINED ENERGY RESERVES AT LOW CAPACITY. SYSTEM FAILURE IMMINENT.", "阿尔忒弥斯-01：联合能量储备过低，即将发生系统故障。");
+            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "APOLLO-03: PREPARING 'THERMONUCLEAR BLITZ' MUTUAL DESTRUCTION PROTOCOL.", "阿波罗-03：准备启用“热核闪击”互毁协定。");
             // Thanatos
-            QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: EXO TURRETS BURNING AT UNSTABLE ENERGY LEVELS. SELF DESTRUCTION IMMINENT.", "");
-            QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: PREPARING 'MAXIMUM OVERDRIVE CHARGE' MUTUTAL DESTRUCTION PROTOCOL.", "");
+            QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: EXO TURRETS BURNING AT UNSTABLE ENERGY LEVELS. SELF DESTRUCTION IMMINENT.", "塔纳托斯-05：星流炮塔在不稳定能量水平下燃烧，即将自毁。");
+            QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: PREPARING 'MAXIMUM OVERDRIVE CHARGE' MUTUTAL DESTRUCTION PROTOCOL.", "塔纳托斯-05：准备启用“极限过载冲击”互毁协定。");
             #endregion
 
             QuickTranslate(typeof(SupremeCalamitasBehaviorOverride), "DoBehavior_DesperationPhase", "... Congratulations.", "……恭喜你。");
