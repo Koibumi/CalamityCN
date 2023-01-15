@@ -4,6 +4,9 @@ using InfernumMode.Content.Achievements.InfernumAchievements;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasClone;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.DoG;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon.Ares;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon.ArtemisAndApollo;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon.Thanatos;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.PlaguebringerGoliath;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Providence;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.SupremeCalamitas;
@@ -78,6 +81,19 @@ namespace CalamityCN.Translations.InfernumMode
                     QuickTranslate(typeof(DraedonBehaviorOverride), "HandleDefeatStuff", il[0], il[1]);
                 }
             }
+            #region Exo Mechs
+            // Ares
+            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "ARES-09: CORE TEMPERATURES RAPIDLY INCREASING. SELF DESTRUCTION IMMINENT.", "");
+            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "ARES-09: PREPARING 'PRECISION GAMMA-BLASTS' MUTUAL DESTRUCTION PROTOCOL.", "");
+            QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "You have made a grave miscalculation.", "");
+            // Apollo & Artemis
+            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "ARTEMIS-01: COMBINED ENERGY RESERVES AT LOW CAPACITY. SYSTEM FAILURE IMMINENT.", "");
+            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "APOLLO-03: PREPARING 'THERMONUCLEAR BLITZ' MUTUAL DESTRUCTION PROTOCOL.", "");
+            // Thanatos
+            QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: EXO TURRETS BURNING AT UNSTABLE ENERGY LEVELS. SELF DESTRUCTION IMMINENT.", "");
+            QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: PREPARING 'MAXIMUM OVERDRIVE CHARGE' MUTUTAL DESTRUCTION PROTOCOL.", "");
+            #endregion
+
             QuickTranslate(typeof(SupremeCalamitasBehaviorOverride), "DoBehavior_DesperationPhase", "... Congratulations.", "……恭喜你。");
             
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "A profaned shrine has erupted from the ashes at the underworld's edge!", "一座亵渎神庙从地狱边缘的灰烬中拔地而起！");
@@ -207,6 +223,22 @@ namespace CalamityCN.Translations.InfernumMode
                     return;
                 cursor.Index++;
                 cursor.EmitDelegate<Func<string, string>>((eng) => trans);
+            })));
+        }
+        private static void QuickTranslate(Type type, string methodName, string origin, string trans, int times)
+        {
+            ILHooksI.Add(new ILHook(
+            type.GetCachedMethod(methodName),
+            new ILContext.Manipulator(il =>
+            {
+                var cursor = new ILCursor(il);
+                for (int i = 0; i < times; i++)
+                {
+                    if (!cursor.TryGotoNext(i => i.MatchLdstr(origin)))
+                        return;
+                    cursor.Index++;
+                    cursor.EmitDelegate<Func<string, string>>((eng) => trans);
+                }
             })));
         }
     }
