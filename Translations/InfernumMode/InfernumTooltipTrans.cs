@@ -105,6 +105,11 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("Sometimes pure reaction skill is the most valuable thing to cultivate.\nYou are in the final stretch. Your determination has proven invaluable up to this point.\nMay it guide you through the last challenges.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.DevourerOfGodsRelic", Array.Empty<object>()));
 				}
+				if (item.type == ModContent.ItemType<SandstormsCore>())
+				{
+					line.Text = line.Text.Replace("Opens a portal to the Lost Colosseum", "");
+					line.Text = line.Text.Replace("Your world does not currently have a Lost Gateway. Kill the Lunatic Cultist again to generate it.", "");
+				}
 			}
 		}
 	}
