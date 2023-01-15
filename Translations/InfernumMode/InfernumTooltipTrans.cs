@@ -5,7 +5,6 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using CalamityMod.Items.SummonItems;
-using CalamityMod.Items.Placeables.Furniture.BossRelics;
 using InfernumMode.Content.Items.Relics;
 using InfernumMode.Content.Items;
 
@@ -15,7 +14,7 @@ namespace CalamityCN.Translations.InfernumMode
 	{
 		public override bool IsLoadingEnabled(Mod mod)
 		{
-			return ModsCall.Calamity != null && ModsCall.Infernum != null && ModsCall.IsCN;
+			return ModsCall.Calamity != null && ModsCall.Infernum != null && ModsCall.IsCN && CalamityCNConfig.Instance.InfernumCN;
 		}
 
 		public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

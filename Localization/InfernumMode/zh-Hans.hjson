@@ -72,12 +72,12 @@
       TrufflePlatter: 松露虫拼盘
       RedBait: 赤饵
 
-      AridBattlecry: Arid Battlecry
+      AridBattlecry: 旱沙号角
       Myrindael: Myrindael
       TheGlassmaker: 熔璃化匠
       WanderersShell: 流浪者贝壳
-      CherishedSealocket: Cherished Sealocket
-      WaterglassToken: Waterglass Token
+      CherishedSealocket: 珍海吊坠
+      WaterglassToken: 水琉璃之赠
       Wayfinder: 寻路者
     }
     ItemTooltip:
@@ -122,7 +122,7 @@
       Wayfinder: 
       '''
       创造一扇魔法门让你快速到达那里
-      有boss存活时使用无法使用
+      有Boss存活时使用无法使用
       ModifedInModifyTooltips
       '''
 
@@ -163,12 +163,14 @@
         '''
       TrufflePlatter: 
       '''
-      在海洋使用，召唤猪龙鱼公爵
+      召唤猪龙鱼公爵
+      只能在海洋环境使用
       不消耗
       '''
       RedBait: 
       '''
-      在夜晚使用，召唤恐惧鹦鹉螺
+      召唤恐惧鹦鹉螺
+      只能在夜晚使用
       不消耗
       '''
     }
@@ -627,7 +629,6 @@
       GolemArenaPlatform: ""
       GolemFistLeft: 石巨人拳
       GolemFistRight: 石巨人拳
-      BereftVassal: 无邦封臣
       Ninja: 忍者
       BuilderDroneBig: 大型建构无人机
       BuilderDroneSmall: 小型建构无人机
@@ -644,6 +645,8 @@
       ShadowDemon: 暗影巨蛇
       CursedOrb: 诅咒焰球
       EnergyOrb: 能量球
+      BereftVassal: 阿耳戈斯，无邦封臣
+      GreatSandSharkNPC: 托勒斯，旱海狂鲨
     }
     BiomeName:
     {
@@ -662,7 +665,7 @@
     {
       DarkFlames: 你的身体被遗忘之火吞噬。你的防御力降低了
       ElysianGrace: 你获得了无限的飞行时间
-      HatGirlBuff: Arson
+      HatGirlBuff: 芳心纵火犯
       Madness: 要疯了……
       RedSurge: 你无法移动
       ShadowflameInferno: 快速流失生命值
@@ -672,82 +675,37 @@
       GolemArena: 战斗场地
       MoonlordArena: 战斗场地
     }
+    
     InfernumText: 炼狱模式已开启，祝你好运。
     InfernumText2: 炼狱模式已关闭，很好，继续吧。
+    
     UI:
     {
       NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
       AchievementsHeader: "死亡祈愿"
     }
-    Containers:
+#暂时没用
+    Config:
     {
-      GolemArena: ""
-      GuardiansSummoner: ""
-      InfernalChaliceTile: ""
-      MoonlordArena: ""
-      ProfanedFountainTile: ""
-      ProvidenceRoomDoorPedestal: ""
-      ProvidenceSummoner: ""
-      AquaticScourgeRelicTile: ""
-      AstrumAureusRelicTile: ""
-      AstrumDeusRelicTile: ""
-      BetsyRelicTile: ""
-      BrainOfCthulhuRelicTile: ""
-      BrimstoneElementalRelicTile: ""
-      CalamitasCloneRelicTile: ""
-      CeaselessVoidRelicTile: ""
-      CrabulonRelicTile: ""
-      CryogenRelicTile: ""
-      DarkMageRelicTile: ""
-      DeerclopsRelicTile: ""
-      DesertScourgeRelicTile: ""
-      DestroyerRelicTile: ""
-      DevourerOfGodsRelicTile: ""
-      DraedonRelicTile: ""
-      DragonfollyRelicTile: ""
-      DreadnautilusRelicTile: ""
-      DukeFishronRelicTile: ""
-      EaterOfWorldsRelicTile: ""
-      EmpressOfLightRelicTile: ""
-      EyeOfCthulhuRelicTile: ""
-      GiantClamRelicTile: ""
-      GolemRelicTile: ""
-      HiveMindRelicTile: ""
-      KingSlimeRelicTile: ""
-      LeviathanRelicTile: ""
-      LunaticCultistRelicTile: ""
-      MoonLordRelicTile: ""
-      OgreRelicTile: ""
-      OldDukeRelicTile: ""
-      PerforatorsRelicTile: ""
-      PlaguebringerGoliathRelicTile: ""
-      PlanteraRelicTile: ""
-      PolterghastRelicTile: ""
-      ProfanedGuardiansRelicTile: ""
-      ProvidenceRelicTile: ""
-      QueenBeeRelicTile: ""
-      QueenSlimeRelicTile: ""
-      RavagerRelicTile: ""
-      SignusRelicTile: ""
-      SkeletronPrimeRelicTile: ""
-      SkeletronRelicTile: ""
-      SlimeGodRelicTile: ""
-      StormWeaverRelicTile: ""
-      SupremeCalamitasRelicTile: ""
-      TwinsRelicTile: ""
-      WallOfFleshRelicTile: ""
-      YharonRelicTile: ""
-    }
-    InfernumConfig:
-    {
-      Config:
-      {
-        Label: Config
-      }
       BossIntroductionAnimationsAreAllowed:
       {
         Label: Boss入场介绍动画
         Tooltip: 启用Boss入场介绍动画，仅在炼狱模式激活时有效。
+      }
+      DisplayTipsInChat:
+      {
+        Label: 礼帽女孩提升在聊天栏
+        Tooltip: 决定爆炸礼帽中的宠物是否应在聊天中显示其提示。
+      }
+      ReducedGraphicsConfig: 
+      {
+        Label: 简化的图形设置
+        Tooltip: 启用简化图形模式。有利于性能低设备。
+      }
+      AcceptClientChanges: 
+      {
+        Label: 饱和Bloom强度
+        Tooltip: 调整颜色饱和度Bloom效果强度。当该值为零时，这些效果将被禁用。
       }
     }
   }
