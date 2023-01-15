@@ -260,8 +260,8 @@ CalamityCN: {
             你已经到了最终的阶段。目前为止，你已经证明了你那无价的决心。
             愿它指引你完成最后的挑战。
             '''
-        SandstormsCore1: ""
-        SandstormsCore2: ""
+        SandstormsCore1: "开启前往失落竞技场的入口"
+        SandstormsCore2: "你的世界目前没有失落之门，杀死拜月教邪教徒以生成它。"
 
         Vanilla: {
             CelestialSigil: 
