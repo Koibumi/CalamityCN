@@ -260,6 +260,8 @@ CalamityCN: {
             你已经到了最终的阶段。目前为止，你已经证明了你那无价的决心。
             愿它指引你完成最后的挑战。
             '''
+        SandstormsCore1: ""
+        SandstormsCore2: ""
 
         Vanilla: {
             CelestialSigil: 

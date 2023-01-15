@@ -107,8 +107,8 @@ namespace CalamityCN.Translations.InfernumMode
 				}
 				if (item.type == ModContent.ItemType<SandstormsCore>())
 				{
-					line.Text = line.Text.Replace("Opens a portal to the Lost Colosseum", "");
-					line.Text = line.Text.Replace("Your world does not currently have a Lost Gateway. Kill the Lunatic Cultist again to generate it.", "");
+					line.Text = line.Text.Replace("Opens a portal to the Lost Colosseum", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.SandstormsCore1", Array.Empty<object>()));
+					line.Text = line.Text.Replace("Your world does not currently have a Lost Gateway. Kill the Lunatic Cultist again to generate it.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.SandstormsCore2", Array.Empty<object>()));
 				}
 			}
 		}
