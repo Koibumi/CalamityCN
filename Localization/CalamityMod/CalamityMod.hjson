@@ -4,1298 +4,1298 @@
   {
     ItemName:
     {
-      AstralPylon: Astral Pylon
-      CragsPylon: Crags Pylon
-      SulphurPylon: Sulphur Pylon
-      SunkenPylon: Sunken Pylon
-      Abaddon: Abaddon
-      AbyssalAmulet: Abyssal Amulet
-      AbyssalDivingGear: Abyssal Diving Gear
-      AbyssalDivingSuit: Abyssal Diving Suit
-      AbyssalMirror: Abyssal Mirror
-      AeroStone: Aero Stone
-      Affliction: Affliction
-      AlchemicalFlask: Alchemical Flask
-      AlluringBait: Alluring Bait
-      AmalgamatedBrain: Amalgamated Brain
-      AmbrosialAmpoule: Ambrosial Ampoule
-      AmidiasPendant: Amidias' Pendant
-      AmidiasSpark: Amidias' Spark
-      AncientFossil: Ancient Fossil
-      AnechoicPlating: Anechoic Plating
-      AngelicAlliance: Angelic Alliance
-      AngelTreads: Angel Treads
-      AquaticEmblem: Aquatic Emblem
-      AquaticHeart: Aquatic Heart
-      ArchaicPowder: Archaic Powder
-      AsgardianAegis: Asgardian Aegis
-      AsgardsValor: Asgard's Valor
-      AstralArcanum: Astral Arcanum
-      BadgeofBravery: Badge of Bravery
-      BlazingCore: Blazing Core
-      BloodflareCore: Bloodflare Core
-      BloodPact: Blood Pact
-      BloodstainedGlove: Bloodstained Glove
-      BloodyWormScarf: Bloody Worm Scarf
-      BloodyWormTooth: Bloody Worm Tooth
-      BloomStone: Bloom Stone
-      BlunderBooster: Blunder Booster
-      Calamity: Calamity
-      CelestialJewel: Celestial Jewel
-      ChaosStone: Chaos Stone
-      CoinofDeceit: Coin of Deceit
-      CoreOfTheBloodGod: Core of the Blood God
-      CorrosiveSpine: Corrosive Spine
-      CorruptFlask: Corrupt Flask
-      CounterScarf: Counter Scarf
-      CrawCarapace: Craw Carapace
-      CrimsonFlask: Crimson Flask
-      CrownJewel: Crown Jewel
-      CryoStone: Cryo Stone
-      DaawnlightSpiritOrigin: Daawnlight Spirit Origin
-      DarkGodsSheath: Dark God's Sheath
-      DarkSunRing: Dark Sun Ring
-      DeadshotBrooch: Deadshot Brooch
-      DeepDiver: Deep Diver
-      DeificAmulet: Deific Amulet
-      DepthCharm: Depths Charm
-      DimensionalSoulArtifact: Dimensional Soul Artifact
-      DraedonsHeart: Draedon's Heart
-      DragonScales: Dragon Scales
-      DynamoStemCells: Dynamo Stem Cells
-      EclipseMirror: Eclipse Mirror
-      EldritchSoulArtifact: Eldritch Soul Artifact
-      ElectriciansGlove: Electrician's Glove
-      ElementalGauntlet: Elemental Gauntlet
-      ElementalQuiver: Elemental Quiver
-      ElysianAegis: Elysian Aegis
-      EnchantedPearl: Enchanted Pearl
-      EtherealExtorter: Ethereal Extorter
-      EtherealTalisman: Ethereal Talisman
-      EvasionScarf: Evasion Scarf
-      EyeoftheStorm: Eye of the Storm
-      FeatherCrown: Feather Crown
-      FilthyGlove: Filthy Glove
-      FlameLickedShell: Flame-Licked Shell
-      FleshTotem: Flesh Totem
-      FrostBarrier: Frost Barrier
-      FrostFlare: Frost Flare
-      FungalCarapace: Fungal Carapace
-      FungalClump: Fungal Clump
-      FungalSymbiote: Fungal Symbiote
-      Gehenna: Gehenna
-      GiantPearl: Giant Pearl
-      GiantShell: Giant Shell
-      GiantTortoiseShell: Giant Tortoise Shell
-      GladiatorsLocket: Gladiator's Locket
-      GloveOfPrecision: Glove of Precision
-      GloveOfRecklessness: Glove of Recklessness
-      GodlySoulArtifact: Godly Soul Artifact
-      GrandGelatin: Grand Gelatin
-      GravistarSabaton: Gravistar Sabaton
-      HallowedRune: Hallowed Rune
-      HarpyRing: Harpy Ring
-      HeartofDarkness: Heart of Darkness
-      HeartoftheElements: Heart of the Elements
-      HideofAstrumDeus: Hide of Astrum Deus
-      HoneyDew: Honey Dew
-      HowlsHeart: Howl's Heart
-      InkBomb: Ink Bomb
-      IronBoots: Iron Boots
-      JellyChargedBattery: Jelly-Charged Battery
-      Laudanum: Laudanum
-      LeviathanAmbergris: Leviathan Ambergris
-      LifeJelly: Life Jelly
-      LivingDew: Living Dew
-      LumenousAmulet: Lumenous Amulet
-      LuxorsGift: Luxor's Gift
-      ManaJelly: Mana Jelly
-      ManaPolarizer: Mana Polarizer
-      MarniteRepulsionShield: Marnite Repulsion Shield
-      MirageMirror: Mirage Mirror
-      MoonstoneCrown: Moonstone Crown
-      MutatedTruffle: Mutated Truffle
-      Nanotech: Nanotech
-      NebulousCore: Nebulous Core
-      NecklaceofVexation: Necklace of Vexation
-      NuclearRod: Nuclear Rod
-      Nucleogenesis: Nucleogenesis
-      OccultSkullCrown: Occult Skull Crown
-      OceanCrest: Ocean Crest
-      OldDie: Old Die
-      OldDukeScales: Old Duke's Scales
-      OrnateShield: Ornate Shield
-      PearlofEnthrallment: Pearl of Enthrallment
-      PermafrostsConcoction: Permafrost's Concoction
-      PhantomicArtifact: Phantomic Artifact
-      PlaguedFuelPack: Plagued Fuel Pack
-      PlagueHive: Plague Hive
-      ProfanedSoulArtifact: Profaned Soul Artifact
-      ProfanedSoulCrystal: Profaned Soul Crystal
-      QuiverofNihility: Quiver of Nihility
-      RadiantOoze: Radiant Ooze
-      RaidersTalisman: Raider's Talisman
-      RampartofDeities: Rampart of Deities
-      ReaperToothNecklace: Reaper Tooth Necklace
-      Regenator: Regenator
-      RogueEmblem: Rogue Emblem
-      RoseStone: Rose Stone
-      RottenBrain: Rotten Brain
-      RottenDogtooth: Rotten Dogtooth
-      RoverDrive: Rover Drive
-      RuinMedallion: Ruin Medallion
-      RustyMedallion: Rusty Medallion
-      SandCloak: Sand Cloak
-      SandSharkToothNecklace: Sand Shark Tooth Necklace
-      ScuttlersJewel: Scuttler's Jewel
-      ShatteredCommunity: Shattered Community
-      ShieldoftheOcean: Shield of the Ocean
-      SigilofCalamitas: Sigil of Calamitas
-      SilencingSheath: Silencing Sheath
-      SpectralVeil: Spectral Veil
-      SpelunkersAmulet: Spelunker's Amulet
-      SpiritGlyph: Spirit Glyph
-      StarbusterCore: Starbuster Core
-      StarTaintedGenerator: Star-Tainted Generator
-      StatisBlessing: Statis' Blessing
-      StatisCurse: Statis' Curse
-      StatisNinjaBelt: Statis' Ninja Belt
-      StatisVoidSash: Statis' Void Sash
-      StatMeter: Stat Meter
-      StressPills: Stress Pills
-      SupremeBaitTackleBoxFishingStation: Supreme Bait Tackle Box Fishing Station
-      TheAbsorber: The Absorber
-      TheAmalgam: The Amalgam
-      TheBee: The Bee
-      TheCamper: The Camper
-      TheCommunity: The Community
-      TheEvolution: The Evolution
-      TheFirstShadowflame: The First Shadowflame
-      TheSponge: The Sponge
-      TheTransformer: The Transformer
-      ThiefsDime: Thief's Dime
-      ToxicHeart: Toxic Heart
-      TrinketofChi: Trinket of Chi
-      UnstableGraniteCore: Unstable Granite Core
-      VampiricTalisman: Vampiric Talisman
-      AbandonedWulfrumHelmet: Abandoned Wulfrum Helmet
-      Popo: Magic Scarf and Hat
-      VeneratedLocket: Venerated Locket
-      VitalJelly: Vital Jelly
-      VoidofCalamity: Void of Calamity
-      VoidofExtinction: Void of Extinction
-      VoltaicJelly: Voltaic Jelly
-      WarbanneroftheSun: Warbanner of the Sun
-      WifeinaBottle: Elemental in a Bottle
-      WifeinaBottlewithBoobs: Rare Elemental in a Bottle
-      AureateBooster: Aureate Booster
-      CelestialTracers: Celestial Tracers
-      DrewsWings: Drew's Wings
-      ElysianTracers: Elysian Tracers
-      ElysianWings: Elysian Wings
-      ExodusWings: Exodus Wings
-      HadalMantle: Hadal Mantle
-      HadarianWings: Hadarian Wings
-      MOAB: MOAB
-      SeraphTracers: Seraph Tracers
-      SilvaWings: Silva Wings
-      SkylineWings: Skyline Wings
-      SoulofCryogen: Soul of Cryogen
-      StarlightWings: Starlight Wings
-      TarragonWings: Tarragon Wings
-      WulfrumAcrobaticsPack: Wulfrum Acrobatics Pack
-      WulfrumBattery: Wulfrum Battery
-      YharimsGift: Yharim's Gift
-      YharimsInsignia: Yharim's Insignia
-      AccelerationRound: Acceleration Round
-      AcidRound: Acid Round
-      ArcticArrow: Arctic Arrow
-      AstralSolution: Astral Solution
-      BloodfireArrow: Bloodfire Arrow
-      BloodfireBullet: Bloodfire Bullet
-      BloodRune: Blood Rune
-      ElysianArrow: Elysian Arrow
-      EnhancedNanoRound: Enhanced Nano Round
-      ExplosiveShells: Explosive Shotgun Shell
-      GrenadeRounds: Grenade Shell
-      MagnumRounds: Magnum Round
-      FlashRound: Flash Round
-      GodSlayerSlug: God Slayer Slug
-      HolyFireBullet: Holy Fire Bullet
-      HyperiusBullet: Hyperius Bullet
-      IcicleArrow: Icicle Arrow
-      IcyBullet: Icy Bullet
-      MortarRound: Mortar Round
-      NapalmArrow: Napalm Arrow
-      RubberMortarRound: Rubber Mortar Round
-      SuperballBullet: Superball Bullet
-      TerraArrow: Terra Arrow
-      TerraBullet: Terra Bullet
-      VanquisherArrow: Vanquisher Arrow
-      VeriumBullet: Verium Bullet
-      AntiCystOintment: Anti-Cyst Ointment
-      AntiTumorOintment: Anti-Tumor Ointment
-      AerospecBreastplate: Aerospec Breastplate
-      AerospecHat: Aerospec Hat
-      AerospecHeadgear: Aerospec Headgear
-      AerospecHelm: Aerospec Helm
-      AerospecHelmet: Aerospec Helmet
-      AerospecHood: Aerospec Hood
-      AerospecLeggings: Aerospec Leggings
-      AstralBreastplate: Astral Breastplate
-      AstralHelm: Astral Helm
-      AstralLeggings: Astral Leggings
-      AuricTeslaBodyArmor: Auric Tesla Body Armor
-      AuricTeslaCuisses: Auric Tesla Cuisses
-      AuricTeslaHoodedFacemask: Auric Tesla Hooded Facemask
-      AuricTeslaPlumedHelm: Auric Tesla Plumed Helm
-      AuricTeslaRoyalHelm: Auric Tesla Royal Helm
-      AuricTeslaSpaceHelmet: Auric Tesla Space Helmet
-      AuricTeslaWireHemmedVisage: Auric Tesla Wire-Hemmed Visage
-      BloodflareBodyArmor: Bloodflare Body Armor
-      BloodflareCuisses: Bloodflare Cuisses
-      BloodflareHeadMagic: Bloodflare Hydra Hood
-      BloodflareHeadMelee: Bloodflare Ram Mask
-      BloodflareHeadRanged: Bloodflare Horned Helm
-      BloodflareHeadRogue: Bloodflare Imp Mask
-      BloodflareHeadSummon: Bloodflare Wyvern Helm
-      BrimflameBoots: Brimflame Boots
-      BrimflameRobes: Brimflame Robes
-      BrimflameScowl: Brimflame Cowl
-      CirrusDress: Cirrus' Dress
-      DaedalusBreastplate: Daedalus Breastplate
-      DaedalusHeadMagic: Daedalus Hood
-      DaedalusHeadMelee: Daedalus Helm
-      DaedalusHeadRanged: Daedalus Headgear
-      DaedalusHeadRogue: Daedalus Facemask
-      DaedalusHeadSummon: Daedalus Mask
-      DaedalusLeggings: Daedalus Leggings
-      DemonshadeBreastplate: Demonshade Breastplate
-      DemonshadeGreaves: Demonshade Greaves
-      DemonshadeHelm: Demonshade Helm
-      DesertProwlerHat: Desert Prowler Hat
-      DesertProwlerPants: Desert Prowler Pants
-      DesertProwlerShirt: Desert Prowler Shirt
-      EmpyreanCloak: Empyrean Cloak
-      EmpyreanCuisses: Empyrean Cuisses
-      EmpyreanMask: Empyrean Mask
-      FathomSwarmerBoots: Fathom Swarmer Greaves
-      FathomSwarmerBreastplate: Fathom Swarmer Breastplate
-      FathomSwarmerVisage: Fathom Swarmer Visage
-      FearmongerGreathelm: Fearmonger Greathelm
-      FearmongerGreaves: Fearmonger Greaves
-      FearmongerPlateMail: Fearmonger Plate Mail
-      ForbiddenCirclet: Forbidden Circlet
-      GemTechBodyArmor: Gem Tech Body Armor
-      GemTechHeadgear: Gem Tech Headgear
-      GemTechSchynbaulds: Gem Tech Schynbaulds
-      GodSlayerChestplate: God Slayer Chestplate
-      GodSlayerHeadMelee: God Slayer Horned Greathelm
-      GodSlayerHeadRanged: God Slayer Helmet
-      GodSlayerHeadRogue: God Slayer Mask
-      GodSlayerLeggings: God Slayer Leggings
-      HydrothermicArmor: Hydrothermic Armor
-      HydrothermicHeadMagic: Hydrothermic Mask
-      HydrothermicHeadMelee: Hydrothermic Helm
-      HydrothermicHeadRanged: Hydrothermic Headgear
-      HydrothermicHeadRogue: Hydrothermic Hood
-      HydrothermicHeadSummon: Hydrothermic Helmet
-      HydrothermicSubligar: Hydrothermic Subligar
-      MarniteArchitectHeadgear: Marnite Architect Headgear
-      MarniteArchitectToga: Marnite Architect Toga
-      MolluskShelleggings: Mollusk Shelleggings
-      MolluskShellmet: Mollusk Shellmet
-      MolluskShellplate: Mollusk Shellplate
-      OmegaBlueChestplate: Omega Blue Chestplate
-      OmegaBlueHelmet: Omega Blue Helmet
-      OmegaBlueTentacles: Omega Blue Tentacles
-      PlaguebringerCarapace: Plaguebringer Carapace
-      PlaguebringerPistons: Plaguebringer Pistons
-      PlaguebringerVisor: Plaguebringer Visor
-      PlagueReaperMask: Plague Reaper Mask
-      PlagueReaperStriders: Plague Reaper Striders
-      PlagueReaperVest: Plague Reaper Vest
-      PrismaticGreaves: Prismatic Greaves
-      PrismaticHelmet: Prismatic Helmet
-      PrismaticRegalia: Prismatic Regalia
-      ReaverCuisses: Reaver Cuisses
-      ReaverHeadExplore: Reaver Headgear
-      ReaverHeadMobility: Reaver Visage
-      ReaverHeadTank: Reaver Helm
-      ReaverScaleMail: Reaver Scale Mail
-      ShroomiteVisage: Shroomite Visage
-      SilvaArmor: Silva Armor
-      SilvaHeadMagic: Silva Masked Cap
-      SilvaHeadSummon: Silva Horned Hood
-      SilvaLeggings: Silva Leggings
-      SnowRuffianChestplate: Snow Ruffian Chestplate
-      SnowRuffianGreaves: Snow Ruffian Greaves
-      SnowRuffianMask: Snow Ruffian Mask
-      StatigelArmor: Statigel Armor
-      StatigelGreaves: Statigel Greaves
-      StatigelHeadMagic: Statigel Cap
-      StatigelHeadMelee: Statigel Helm
-      StatigelHeadRanged: Statigel Headgear
-      StatigelHeadRogue: Statigel Mask
-      StatigelHeadSummon: Statigel Hood
-      SulphurousBreastplate: Sulphurous Breastplate
-      SulphurousHelmet: Sulphurous Helmet
-      SulphurousLeggings: Sulphurous Leggings
-      TarragonBreastplate: Tarragon Breastplate
-      TarragonHeadMagic: Tarragon Mask
-      TarragonHeadMelee: Tarragon Helm
-      TarragonHeadRanged: Tarragon Visage
-      TarragonHeadRogue: Tarragon Helmet
-      TarragonHeadSummon: Tarragon Horned Helm
-      TarragonLeggings: Tarragon Leggings
-      TitanHeartBoots: Titan Heart Boots
-      TitanHeartMantle: Titan Heart Mantle
-      TitanHeartMask: Titan Heart Mask
-      UmbraphileBoots: Umbraphile Boots
-      UmbraphileHood: Umbraphile Hood
-      UmbraphileRegalia: Umbraphile Regalia
-      AcesApronOfAffection: Ace's Apron of Affection
-      AnahitaMask: Anahita Mask
-      AncientGodSlayerChestplate: Ancient God Slayer Chestplate
-      AncientGodSlayerHelm: Ancient God Slayer Helm
-      AncientGodSlayerLeggings: Ancient God Slayer Leggings
-      ApolloMask: Apollo Mask
-      AquaticScourgeMask: Aquatic Scourge Mask
-      AresMask: Ares Mask
-      ArtemisMask: Artemis Mask
-      AshenHorns: Ashen Horns
-      AstrumAureusMask: Astrum Aureus Mask
-      AstrumDeusMask: Astrum Deus Mask
-      BrimstoneWaifuMask: Brimstone Elemental Mask
-      BumblefuckMask: Dragonfolly Mask
-      CalamitasMask: Calamitas Mask
-      CeaselessVoidMask: Ceaseless Void Mask
-      CrabulonMask: Crabulon Mask
-      CryogenMask: Cryogen Mask
-      DesertScourgeMask: Desert Scourge Mask
-      DevourerofGodsMask: Devourer of Gods Mask
-      DraedonMask: Draedon Mask
-      GodSlayerHornedHelm: God Slayer Horned Helm
-      GodSlayerVisage: God Slayer Visage
-      HiveMindMask: Hive Mind Mask
-      HoodOfCalamity: Hood of Calamity
-      LeviathanMask: Leviathan Mask
-      OldDukeMask: Old Duke Mask
-      OldHunterHat: Old Hunter Hat
-      OldHunterPants: Old Hunter Pants
-      OldHunterShirt: Old Hunter Shirt
-      PerforatorMask: Perforator Mask
-      PlaguebringerGoliathMask: Plaguebringer Goliath Mask
-      PolterghastMask: Polterghast Mask
-      ProfanedGuardianMask: Profaned Guardian Mask
-      ProvidenceMask: Providence Mask
-      RavagerMask: Ravager Mask
-      RobesOfCalamity: Robes of Calamity
-      SCalBoots: Calamitous Boots
-      SCalMask: Calamitous Hood
-      SCalRobes: Calamitous Robes
-      SignusMask: Signus Mask
-      SilvaHelm: Silva Helm
-      SilvaHornedHelm: Silva Horned Helm
-      SilvaMask: Silva Mask
-      SlimeGodMask: Slime God Mask
-      SlimeGodMask2: Slime God Mask
-      StormWeaverMask: Storm Weaver Mask
-      ThanatosMask: Thanatos Mask
-      YharonMask: Yharon Mask
-      VictideBreastplate: Victide Breastplate
-      VictideGreaves: Victide Greaves
-      VictideHeadMagic: Victide Hermit Helmet
-      VictideHeadMelee: Victide Shellmet
-      VictideHeadRanged: Victide Coral Turban
-      VictideHeadRogue: Victide Headcrab
-      VictideHeadSummon: Victide Mask
-      WulfrumFusionCannon: Experimental Wulfrum Fusion Array
-      WulfrumHat: Wulfrum Hat & Goggles
-      WulfrumJacket: Wulfrum Jacket
-      WulfrumOveralls: Wulfrum Overalls
-      BleachBall: Bleach Ball
-      BrimstoneLocus: Brimstone Locus
-      BrokenWaterFilter: Broken Water Filter
-      AndroombaItem: Androomba
-      BabyFlakCrabItem: Baby Flak Crab
-      BabyGhostBellItem: Baby Ghost Bell
-      NanodroidDysfunctionalItem: Dysfunctional Nanodroid
-      NanodroidItem: Nanodroid
-      NanodroidPlagueGreenItem: Green Plague Nanodroid
-      NanodroidPlagueRedItem: Red Plague Nanodroid
-      PiggyItem: Piggy
-      RepairUnitItem: Repair Unit
-      SeaMinnowItem: Sea Minnow
-      TwinklerItem: Twinkler
-      BallAndChain: Ball and Chain
-      AdvancedDisplay: Advanced Display
-      AuricQuantumCoolingCell: Auric Quantum Cooling Cell
-      CodebreakerBase: Codebreaker Base
-      DecryptionComputer: Decryption Computer
-      DraedonPowerCell: Draedon Power Cell
-      DraedonsLogHell: Draedon's Log - Hell
-      DraedonsLogJungle: Draedon's Log - The Jungle and Plague
-      DraedonsLogPlanetoid: Draedon's Log - Space
-      DraedonsLogSnowBiome: Draedon's Log - The Frozen Wasteland
-      DraedonsLogSunkenSea: Draedon's Log - Study on Sunken Aquatic Life
-      EncryptedSchematicHell: Encrypted Schematic (Underworld)
-      EncryptedSchematicIce: Encrypted Schematic (Ice)
-      EncryptedSchematicJungle: Encrypted Schematic (Jungle)
-      EncryptedSchematicPlanetoid: Encrypted Schematic (Planetoid)
-      EncryptedSchematicSunkenSea: Schematic (Sunken Sea)
-      LongRangedSensorArray: Long Ranged Sensor Array
-      VoltageRegulationSystem: Voltage Regulation System
-      AerialiteDye: Aerialite Dye
-      AstralBlueDye: Astral Blue Dye
-      AstralDye: Astral Flesh Dye
-      AstralOrangeDye: Astral Orange Dye
-      AstralSwirlDye: Astral Swirl Dye
-      AuricDye: Auric Dye
-      BloodflareDye: Bloodflare Dye
-      BlueCosmicFlameDye: Blue Cosmic Flame Dye
-      BlueStatigelDye: Blue Statigel Dye
-      BrimflameDye: Brimflame Dye
-      CalamitousDye: Calamitous Dye
-      CeaselessDye: Ceaseless Dye
-      CosmiliteDye: Cosmilite Dye
-      CryonicDye: Cryonic Dye
-      DefiledFlameDye: Defiled Flame Dye
-      DragonSoulDye: Dragon Soul Dye
-      ElementalDye: Elemental Dye
-      EndothermicDye: Endothermic Dye
-      ExoDye: Exo Dye
-      AdrenalineHairDye: Adrenaline Hair Dye
-      RageHairDye: Rage Hair Dye
-      StealthHairDye: Stealth Hair Dye
-      WingTimeHairDye: Wing Time Hair Dye
-      NightmareDye: Nightmare Dye
-      PhantoplasmDye: Phantoplasm Dye
-      PinkCosmicFlameDye: Pink Cosmic Flame Dye
-      PinkStatigelDye: Pink Statigel Dye
-      ProfanedFlameDye: Profaned Flame Dye
-      ProfanedMoonlightDye: Profaned Moonlight Dye
-      ReaverDye: Reaver Dye
-      ShadowspecDye: Shadowspec Dye
-      SlimeGodDye: Slime God Dye
-      StratusDye: Stratus Dye
-      SwirlingCosmicFlameDye: Swirling Cosmic Flame Dye
-      AldebaranAlewife: Aldebaran Alewife
-      ArcturusAstroidean: Arcturus Astroidean
-      AstralCrate: Astral Crate
-      AstrophageItem: Astrophage
-      ProcyonidPrawn: Procyonid Prawn
-      TwinklingPollox: Twinkling Pollox
-      UrsaSergeant: Ursa Sergeant
-      Bloodfin: Bloodfin
-      Brimlish: Brimlish
-      BrimstoneCrate: Brimstone Crate
-      BrimstoneFish: Brimstone Fish
-      ChaoticFish: Chaotic Fish
-      CharredLasher: Charred Lasher
-      CoastalDemonfish: Coastal Demonfish
-      CragBullhead: Crag Bullhead
-      DragoonDrizzlefish: Dragoon Drizzlefish
-      Shadowfish: Shadowfish
-      Slurpfish: Slurpfish
-      EnchantedStarfish: Enchanted Starfish
-      EarlyBloomRod: Early Bloom Rod
-      FeralDoubleRod: Feral Double Rod
-      HeronRod: Heron Rod
-      NavyFishingRod: Navy Fishing Rod
-      RiftReeler: Rift Reeler
-      SlurperPole: Slurper Pole
-      TheDevourerofCods: The Devourer of Cods
-      VerstaltiteFishingRod: Verstaltite Fishing Rod
-      WulfrumRod: Wulfrum Fishing Pole
-      FishofEleum: Fish of Eleum
-      FishofFlight: Fish of Flight
-      FishofLight: Fish of Light
-      FishofNight: Fish of Night
-      GlimmeringGemfish: Glimmering Gemfish
-      Spadefish: Spadefish
-      StuffedFish: Stuffed Fish
-      AbyssalCrate: Abyssal Crate
-      SunbeamFish: Sunbeam Fish
-      CoralskinFoolfish: Coralskin Foolfish
-      EutrophicSandfish: Eutrophic Sandfish
-      GreenwaveLoach: Greenwave Loach
-      PrismaticGuppy: Prismatic Guppy
-      RustedJingleBell: Rusted Jingle Bell
-      SerpentsBite: Serpent's Bite
-      Serpentuna: Serpentuna
-      SparklingEmpress: Sparkling Empress
-      SunkenCrate: Sunken Crate
-      SunkenSailfish: Sunken Sailfish
-      SurfClam: Surf Clam
-      Xerocodile: Xerocodile
-      CyanSeekingMechanism: Cyan Seeking Mechanism
-      GreenSeekingMechanism: Green Seeking Mechanism
-      LabSeekingMechanism: Lab Seeking Mechanism
-      PurpleSeekingMechanism: Purple Seeking Mechanism
-      RedSeekingMechanism: Red Seeking Mechanism
-      YellowSeekingMechanism: Yellow Seeking Mechanism
-      KnowledgeAquaticScourge: Aquatic Scourge
-      KnowledgeAstralInfection: Astral Infection
-      KnowledgeAstrumAureus: Astrum Aureus
-      KnowledgeAstrumDeus: Astrum Deus
-      KnowledgeBloodMoon: The Red Moon
-      KnowledgeBrainofCthulhu: The Brain of Cthulhu
-      KnowledgeBrimstoneCrag: Brimstone Crag
-      KnowledgeBrimstoneElemental: Brimstone Elemental
-      KnowledgeCalamitas: Calamitas
-      KnowledgeCalamitasClone: Calamitas Clone
-      KnowledgeCorruption: The Corruption
-      KnowledgeCrabulon: Crabulon
-      KnowledgeCrimson: The Crimson
-      KnowledgeCryogen: Cryogen
-      KnowledgeDesertScourge: The Desert Scourge
-      KnowledgeDestroyer: The Destroyer
-      KnowledgeDevourerofGods: The Devourer of Gods
-      KnowledgeDragonfolly: The Dragonfolly
-      KnowledgeDukeFishron: Duke Fishron
-      KnowledgeEaterofWorlds: The Eater of Worlds
-      KnowledgeExoMechs: The Exo Mechanical Trio
-      KnowledgeEyeofCthulhu: The Eye of Cthulhu
-      KnowledgeGolem: Golem
-      KnowledgeHiveMind: The Hive Mind
-      KnowledgeKingSlime: King Slime
-      KnowledgeLeviathanAnahita: Leviathan and Anahita
-      KnowledgeLunaticCultist: Lunatic Cultist
-      KnowledgeMechs: The Mechanical Trio
-      KnowledgeMoonLord: Moon Lord
-      KnowledgeOcean: The Ocean
-      KnowledgeOldDuke: Old Duke
-      KnowledgePerforators: The Perforators and their Hive
-      KnowledgePlaguebringerGoliath: The Plaguebringer Goliath
-      KnowledgePlantera: Plantera
-      KnowledgePolterghast: Polterghast
-      KnowledgeProfanedGuardians: The Profaned Guardians
-      KnowledgeProvidence: Providence, the Profaned Goddess
-      KnowledgeQueenBee: Queen Bee
-      KnowledgeRavager: Ravager
-      KnowledgeSentinels: The Sentinels of the Devourer
-      KnowledgeSkeletron: Skeletron
-      KnowledgeSkeletronPrime: Skeletron Prime
-      KnowledgeSlimeGod: The Slime God
-      KnowledgeSulphurSea: Sulphur Sea
-      KnowledgeTwins: The Twins
-      KnowledgeUnderworld: The Underworld
-      KnowledgeWallofFlesh: Wall of Flesh
-      KnowledgeYharon: Jungle Dragon, Yharon
-      AerialiteBar: Aerialite Bar
-      AncientBoneDust: Ancient Bone Dust
-      ArmoredShell: Armored Shell
-      AscendantSpiritEssence: Ascendant Spirit Essence
-      AshesofAnnihilation: Ashes of Annihilation
-      AshesofCalamity: Ashes of Calamity
-      AuricBar: Auric Bar
-      BeetleJuice: Beetle Juice
-      BlightedGel: Blighted Gel
-      BloodOrb: Blood Orb
-      BloodSample: Blood Sample
-      Bloodstone: Bloodstone
-      BloodstoneCore: Bloodstone Core
-      CoreofCalamity: Core of Calamity
-      CoreofChaos: Core of Chaos
-      CoreofEleum: Core of Eleum
-      CoreofSunlight: Core of Sunlight
-      CorrodedFossil: Corroded Fossil
-      CosmiliteBar: Cosmilite Bar
-      CryonicBar: Cryonic Bar
-      DarkPlasma: Dark Plasma
-      DarksunFragment: Darksun Fragment
-      DemonicBoneAsh: Demonic Bone Ash
-      DepthCells: Depth Cells
-      DesertFeather: Desert Feather
-      DivineGeode: Divine Geode
-      DubiousPlating: Dubious Plating
-      EffulgentFeather: Effulgent Feather
-      EndothermicEnergy: Endothermic Energy
-      EnergyCore: Energy Core
-      EssenceofChaos: Essence of Chaos
-      EssenceofEleum: Essence of Eleum
-      EssenceofSunlight: Essence of Sunlight
-      ExoPrism: Exo Prism
-      GalacticaSingularity: Galactica Singularity
-      GrandScale: Grand Scale
-      InfectedArmorPlating: Infected Armor Plating
-      LifeAlloy: Life Alloy
-      LivingShard: Living Shard
-      Lumenyl: Lumenyl
-      MeldBlob: Meld Blob
-      MeldConstruct: Meld Construct
-      MiracleMatter: Miracle Matter
-      MolluskHusk: Mollusk Husk
-      MurkyPaste: Murky Paste
-      MysteriousCircuitry: Mysterious Circuitry
-      NightmareFuel: Nightmare Fuel
-      PearlShard: Pearl Shard
-      PerennialBar: Perennial Bar
-      Phantoplasm: Phantoplasm
-      PlagueCellCanister: Plague Cell Canister
-      PlasmaDriveCore: Prototype Plasma Drive Core
-      PurifiedGel: Purified Gel
-      ReaperTooth: Reaper Tooth
-      RottenMatter: Rotten Matter
-      RuinousSoul: Ruinous Soul
-      ScoriaBar: Scoria Bar
-      SeaRemains: Sea Remains
-      ShadowspecBar: Shadowspec Bar
-      SolarVeil: Solar Veil
-      Stardust: Stardust
-      StormlionMandible: Stormlion Mandible
-      SulphuricScale: Sulphuric Scale
-      SuspiciousScrap: Suspicious Scrap
-      TitanHeart: Titan Heart
-      TrapperBulb: Trapper Bulb
-      TwistingNether: Twisting Nether
-      UelibloomBar: Uelibloom Bar
-      UnholyCore: Unholy Core
-      UnholyEssence: Unholy Essence
-      WulfrumMetalScrap: Wulfrum Metal Scrap
-      YharonSoulFragment: Yharon Soul Fragment
-      MomentumCapacitor: Momentum Capacitor
-      Brimrose: Brimrose
-      ExoThrone: Exo Box
-      Fabsol: Princess Spirit in a Bottle
-      FollyFeed: Folly Feed
-      GazeOfCrysthamyr: Gaze of Crysthamyr
-      TheCartofGods: The Cart of Gods
-      OnyxExcavatorKey: Onyx Excavator Key
-      SuspiciousLookingJellyBean: Suspicious Looking Jelly Bean
-      TundraLeash: Tundra Leash
-      NormalityRelocator: Normality Relocator
-      BloodOrange: Blood Orange
-      CelestialOnion: Celestial Onion
-      CometShard: Comet Shard
-      Dragonfruit: Dragonfruit
-      Ectoheart: Ectoheart
-      Elderberry: Elderberry
-      ElectrolyteGelPack: Electrolyte Gel Pack
-      EtherealCore: Ethereal Core
-      InfernalBlood: Infernal Blood
-      MiracleFruit: Miracle Fruit
-      MushroomPlasmaRoot: Mushroom Plasma Root
-      PhantomHeart: Phantom Heart
-      RedLightningContainer: Red Lightning Container
-      StarlightFuelCell: Starlight Fuel Cell
-      BearsEye: Bear's Eye
-      BloodyVein: Bloody Vein
-      BrimstoneJewel: Brimstone Jewel
-      CharredRelic: Charred Relic
-      ChromaticOrb: Chromatic Orb
-      CosmicPlushie: Cosmic Plushie
-      EnchantedButterfly: Enchanted Butterfly
-      ForgottenDragonEgg: Forgotten Dragon Egg
-      FoxDrive: Fox Drive
-      GeyserShell: Geyser Shell
-      HermitsBoxofOneHundredMedicines: Hermit's Box of One Hundred Medicines
-      JoyfulHeart: Joyful Heart
-      Levi: Levi
-      LittleLight: Little Light
-      McNuggets: McNuggets
-      PineapplePet: Pineapple
-      PlagueCaller: Plague Caller
-      PrimroseKeepsake: Primrose Keepsake
-      RadiatingCrystal: Radiating Crystal
-      RomajedaOrchid: Romajeda Orchid
-      RottingEyeball: Rotting Eyeball
-      StrangeOrb: Strange Orb
-      TheEtomer: The Etomer
-      TrashmanTrashcan: Trash Can
-      AbyssGravel: Abyss Gravel
-      Acidwood: Acidwood
-      AerialiteBrick: Aerialite Brick
-      AstralBar: Astral Bar
-      AstralBrick: Astral Brick
-      AstralClay: Astral Clay
-      AstralDirt: Astral Dirt
-      AstralIce: Astral Ice
-      AstralMonolith: Astral Monolith
-      AstralSand: Astral Sand
-      AstralSandstone: Astral Sandstone
-      AstralSnow: Astral Snow
-      AstralStone: Astral Stone
-      AcidEelBanner: Acid Eel Banner
-      AeroSlimeBanner: Aero Slime Banner
-      AmberCrawlerBanner: Amber Crawler Banner
-      AmethystCrawlerBanner: Amethyst Crawler Banner
-      AnthozoanCrabBanner: Anthozoan Crab Banner
-      AquaticAberrationBanner: Aquatic Aberration Banner
-      AquaticUrchinBanner: Aquatic Urchin Banner
-      AriesBanner: Aries Banner
-      ArmoredDiggerBanner: Armored Digger Banner
-      AstralachneaBanner: Astralachnea Banner
-      AstralProbeBanner: Astral Probe Banner
-      AstralSlimeBanner: Astral Slime Banner
-      AtlasBanner: Atlas Banner
-      BabyFlakCrabBanner: Baby Flak Crab Banner
-      BabyGhostBellBanner: Baby Ghost Bell Banner
-      BelchingCoralBanner: Belching Coral Banner
-      BigSightseerBanner: Big Sightseer Banner
-      BlindedAnglerBanner: Blinded Angler Banner
-      BloatfishBanner: Bloatfish Banner
-      BloomSlimeBanner: Bloom Slime Banner
-      BobbitWormBanner: Bobbit Worm Banner
-      BohldohrBanner: Bohldohr Banner
-      BoxJellyfishBanner: Box Jellyfish Banner
-      CalamityEyeBanner: Calamity Eye Banner
-      CatfishBanner: Catfish Banner
-      ChaoticPufferBanner: Chaotic Puffer Banner
-      CharredSlimeBanner: Charred Slime Banner
-      ClamBanner: Clam Banner
-      CloudElementalBanner: Cloud Elemental Banner
-      CnidrionBanner: Cnidrion Banner
-      ColossalSquidBanner: Colossal Squid Banner
-      CosmicElementalBanner: Cosmic Elemental Banner
-      CrimulanBlightSlimeBanner: Crimulan Blight Slime Banner
-      CryonBanner: Cryon Banner
-      CryoSlimeBanner: Cryo Slime Banner
-      CrystalCrawlerBanner: Crystal Crawler Banner
-      CultistAssassinBanner: Cultist Assassin Banner
-      CuttlefishBanner: Cuttlefish Banner
-      DespairStoneBanner: Despair Stone Banner
-      DevilFishBanner: Devil Fish Banner
-      DiamondCrawlerBanner: Diamond Crawler Banner
-      EarthElementalBanner: Earth Elemental Banner
-      EbonianBlightSlimeBanner: Ebonian Blight Slime Banner
-      EidolistBanner: Eidolist Banner
-      EidolonWyrmJuvenileBanner: Eidolon Wyrm Juvenile Banner
-      EmeraldCrawlerBanner: Emerald Crawler Banner
-      EutrophicRayBanner: Eutrophic Ray Banner
-      FearlessGoldfishWarriorBanner: Fearless Goldfish Warrior Banner
-      FlakCrabBanner: Flak Crab Banner
-      FlounderBanner: Flounder Banner
-      FrogfishBanner: Frogfish Banner
-      FusionFeederBanner: Fusion Feeder Banner
-      GammaSlimeBanner: Gamma Slime Banner
-      GhostBellBanner: Ghost Bell Banner
-      GiantSquidBanner: Giant Squid Banner
-      GnasherBanner: Gnasher Banner
-      GulperEelBanner: Gulper Eel Banner
-      HadarianBanner: Hadarian Banner
-      HeatSpiritBanner: Heat Spirit Banner
-      HiveBanner: Hive Banner
-      IceClasperBanner: Ice Clasper Banner
-      ImpiousImmolatorBanner: Impious Immolator Banner
-      IrradiatedSlimeBanner: Irradiated Slime Banner
-      LaserfishBanner: Laserfish Banner
-      LuminousCorvinaBanner: Luminous Corvina Banner
-      MantisBanner: Mantis Banner
-      MantisShrimpBanner: Mantis Shrimp Banner
-      MelterBanner: Melter Banner
-      MirageJellyBanner: Mirage Jelly Banner
-      MorayEelBanner: Moray Eel Banner
-      NovaBanner: Nova Banner
-      NuclearToadBanner: Nuclear Toad Banner
-      OarfishBanner: Oarfish Banner
-      OrthoceraBanner: Orthocera Banner
-      OverloadedSoldierBanner: Overloaded Soldier Banner
-      PerennialSlimeBanner: Perennial Slime Banner
-      PestilentSlimeBanner: Pestilent Slime Banner
-      PhantomSpiritBanner: Phantom Spirit Banner
-      PiggyBanner: Piggy Banner
-      PlaguebringerBanner: Plaguebringer Banner
-      PlagueChargerBanner: Plague Charger Banner
-      PlagueshellBanner: Plagueshell Banner
-      PrismBackBanner: Prism-Back Banner
-      ProfanedEnergyBanner: Profaned Energy Banner
-      RadiatorBanner: Radiator Banner
-      ReaperSharkBanner: Reaper Shark Banner
-      RimehoundBanner: Rimehound Banner
-      RotdogBanner: Rotdog Banner
-      RubyCrawlerBanner: Ruby Crawler Banner
-      SapphireCrawlerBanner: Sapphire Crawler Banner
-      ScornEaterBanner: Scorn Eater Banner
-      ScryllarBanner: Scryllar Banner
-      SeaFloatyBanner: Sea Floaty Banner
-      SeaMinnowBanner: Sea Minnow Banner
-      SeaSerpentBanner: Sea Serpent Banner
-      SeaUrchinBanner: Sea Urchin Banner
-      ShockstormShuttleBanner: Shockstorm Shuttle Banner
-      SkyfinBanner: Skyfin Banner
-      SmallSightseerBanner: Small Sightseer Banner
-      SoulSlurperBanner: Soul Slurper Banner
-      StellarCulexBanner: Stellar Culex Banner
-      StormlionBanner: Stormlion Banner
-      SulphurousSkaterBanner: Sulphurous Skater Banner
-      SunskaterBanner: Sunskater Banner
-      TopazCrawlerBanner: Topaz Crawler Banner
-      ToxicMinnowBanner: Toxic Minnow Banner
-      TrasherBanner: Trasher Banner
-      TrilobiteBanner: Trilobite Banner
-      ViperfishBanner: Viperfish Banner
-      VirulingBanner: Viruling Banner
-      WulfrumAmplifierBanner: Wulfrum Amplifier Banner
-      WulfrumDroneBanner: Wulfrum Drone Banner
-      WulfrumGyratorBanner: Wulfrum Gyrator Banner
-      WulfrumHovercraftBanner: Wulfrum Hovercraft Banner
-      WulfrumRoverBanner: Wulfrum Rover Banner
-      BrimstoneSlag: Brimstone Slag
-      CelestialRemains: Celestial Remains
-      CryonicBrick: Cryonic Brick
-      AgedLaboratoryConsoleItem: Aged Laboratory Console
-      AgedLaboratoryContainmentBoxItem: Aged Laboratory Containment Box
-      AgedLaboratoryDisplayItem: Aged Laboratory Display
-      AgedLaboratoryDoorItem: Aged Laboratory Door
-      AgedLaboratoryElectricPanelItem: Aged Laboratory Electric Panel
-      AgedLaboratoryScreenItem: Aged Laboratory Screen
-      AgedLaboratoryServerItem: Aged Laboratory Server
-      AgedLaboratoryTerminalItem: Aged Laboratory Terminal
-      AgedReinforcedCrateItem: Aged Reinforced Crate
-      AgedSecurityChest: Aged Security Chest
-      ChargingStationItem: Charging Station
-      HazardChevronPanels: Hazard Chevron Panels
-      LabHologramProjectorItem: Lab Hologram Projector
-      LaboratoryConsoleItem: Laboratory Console
-      LaboratoryContainmentBoxItem: Laboratory Containment Box
-      LaboratoryDisplayItem: Laboratory Display
-      LaboratoryDoorItem: Laboratory Door
-      LaboratoryElectricPanelItem: Laboratory Electric Panel
-      LaboratoryPanels: Laboratory Panels
-      LaboratoryPipePlating: Laboratory Pipe Plating
-      LaboratoryPlating: Laboratory Plating
-      LaboratoryScreenItem: Laboratory Screen
-      LaboratoryServerItem: Laboratory Server
-      LaboratoryShelf: Laboratory Shelf
-      LaboratoryTerminalItem: Laboratory Terminal
-      PowerCellFactoryItem: Power Cell Factory
-      ReinforcedCrateItem: Reinforced Crate
-      RustedPipes: Rusted Pipes
-      RustedPlating: Rusted Plating
-      RustedShelf: Rusted Shelf
-      SecurityChest: Security Chest
-      EutrophicSand: Eutrophic Sand
-      AstralBeaconItem: Astral Beacon
-      AstralChest: Astral Chest
-      AuricToilet: Auric Toilet
-      BabyFlakCrabCage: Baby Flak Crab Cage
-      BabyGhostBellJar: Baby Ghost Bell Jar
-      AquaticScourgeRelic: Aquatic Scourge Relic
-      AstrumAureusRelic: Astrum Aureus Relic
-      AstrumDeusRelic: Astrum Deus Relic
-      BrimstoneElementalRelic: Brimstone Elemental Relic
-      CalamitasCloneRelic: Calamitas Clone Relic
-      CalamitasRelic: Calamitas Relic
-      CeaselessVoidRelic: Ceaseless Void Relic
-      CrabulonRelic: Crabulon Relic
-      CragmawMireRelic: Cragmaw Mire Relic
-      CryogenRelic: Cryogen Relic
-      DesertScourgeRelic: Desert Scourge Relic
-      DevourerOfGodsRelic: Devourer of Gods Relic
-      DraedonRelic: Draedon Relic
-      DragonfollyRelic: Dragonfolly Relic
-      GiantClamRelic: Giant Clam Relic
-      GreatSandSharkRelic: Great Sand Shark Relic
-      HiveMindRelic: Hive Mind Relic
-      LeviathanAnahitaRelic: Leviathan and Anahita Relic
-      MaulerRelic: Mauler Relic
-      NuclearTerrorRelic: Nuclear Terror Relic
-      OldDukeRelic: Old Duke Relic
-      PerforatorsRelic: Perforators Relic
-      PlaguebringerGoliathRelic: Plaguebringer Goliath Relic
-      PolterghastRelic: Polterghast Relic
-      ProfanedGuardiansRelic: Profaned Guardians Relic
-      ProvidenceRelic: Providence Relic
-      RavagerRelic: Ravager Relic
-      SignusRelic: Signus Relic
-      SlimeGodRelic: Slime God Relic
-      StormWeaverRelic: Storm Weaver Relic
-      YharonRelic: Yharon Relic
-      ChaosCandle: Chaos Candle
-      CorruptionEffigy: Corruption Effigy
-      AltarOfTheAccursedItem: Altar of the Accursed
-      AncientAltar: Ancient Altar
-      AshenAltar: Ashen Altar
-      BotanicPlanter: Botanic Planter
-      CosmicAnvilItem: Cosmic Anvil
-      DraedonsForge: Draedon's Forge
-      EutrophicShelf: Eutrophic Shelf
-      MonolithAmalgam: Monolith Amalgam
-      PlagueInfuser: Plague Infuser
-      ProfanedCrucible: Profaned Crucible
-      SilvaBasin: Silva Basin
-      StaticRefiner: Static Refiner
-      VoidCondenser: Void Condenser
-      CrimsonEffigy: Crimson Effigy
+      AstralPylon: 星辉地晶塔
+      CragsPylon: 硫火崖晶塔
+      SulphurPylon: 硫磺海晶塔
+      SunkenPylon: 沉沦海晶塔
+      Abaddon: 魔鬼之庇护
+      AbyssalAmulet: 深渊护身符
+      AbyssalDivingGear: 深渊潜游装
+      AbyssalDivingSuit: 深渊潜游服
+      AbyssalMirror: 深渊魔镜
+      AeroStone: 天蓝石
+      Affliction: 灾劫之尖啸
+      AlchemicalFlask: 冶金烧瓶
+      AlluringBait: 诱惑鱼饵
+      AmalgamatedBrain: 融合之脑
+      AmbrosialAmpoule: 百草天香瓶
+      AmidiasPendant: 阿米迪亚斯之垂饰
+      AmidiasSpark: 阿米迪亚斯电火花石
+      AncientFossil: 远古化石
+      AnechoicPlating: 吸音金属
+      AngelicAlliance: 圣天誓盟
+      AngelTreads: 天使之靴
+      AquaticEmblem: 海波纹章
+      AquaticHeart: 渊洋之心
+      ArchaicPowder: 古元粉末
+      AsgardianAegis: 阿斯加德之庇护
+      AsgardsValor: 阿斯加德之英勇
+      AstralArcanum: 星辉秘术
+      BadgeofBravery: 勇气勋章
+      BlazingCore: 渎火核心
+      BloodflareCore: 血炎晶核
+      BloodPact: 血契
+      BloodstainedGlove: 血染手套
+      BloodyWormScarf: 血蠕虫围巾
+      BloodyWormTooth: 血蠕虫之牙
+      BloomStone: 绽花石
+      BlunderBooster: 悖论增幅器
+      Calamity: 灾厄
+      CelestialJewel: 天魔星石
+      ChaosStone: 混乱石
+      CoinofDeceit: 欺诈硬币
+      CoreOfTheBloodGod: 血神核心
+      CorrosiveSpine: 腐蚀脊椎
+      CorruptFlask: 腐化药瓶
+      CounterScarf: 反击围巾
+      CrawCarapace: 蟹爪壳
+      CrimsonFlask: 血腥药瓶
+      CrownJewel: 王冠宝石
+      CryoStone: 冰川石
+      DaawnlightSpiritOrigin: 曙旼始灵
+      DarkGodsSheath: 暗神之剑鞘
+      DarkSunRing: 蚀日尊戒
+      DeadshotBrooch: 神射手胸针
+      DeepDiver: 深潜者
+      DeificAmulet: 神圣护符
+      DepthCharm: 深渊咒符
+      DimensionalSoulArtifact: 维魂神物
+      DraedonsHeart: 嘉登之心
+      DragonScales: 浴火龙鳞
+      DynamoStemCells: 痴愚金龙干细胞
+      EclipseMirror: 日蚀魔镜
+      EldritchSoulArtifact: 惧魂神物
+      ElectriciansGlove: 电击手套
+      ElementalGauntlet: 元素之握
+      ElementalQuiver: 元素箭袋
+      ElysianAegis: 极乐之庇护
+      EnchantedPearl: 附魔珍珠
+      EtherealExtorter: 虚空掠夺者
+      EtherealTalisman: 空灵护符
+      EvasionScarf: 闪避围巾
+      EyeoftheStorm: 风暴之眼
+      FeatherCrown: 天羽头冠
+      FilthyGlove: 污秽手套
+      FlameLickedShell: 舐火甲壳
+      FleshTotem: 血肉图腾
+      FrostBarrier: 寒冰屏障
+      FrostFlare: 霜冻之炎
+      FungalCarapace: 真菌壳
+      FungalClump: 真菌块
+      FungalSymbiote: 真菌共生体
+      Gehenna: 焦热地狱
+      GiantPearl: 大珍珠
+      GiantShell: 巨大甲壳
+      GiantTortoiseShell: 巨大龟壳
+      GladiatorsLocket: 角斗士金锁
+      GloveOfPrecision: 精准手套
+      GloveOfRecklessness: 鲁莽手套
+      GodlySoulArtifact: 圣魂神物
+      GrandGelatin: 绚彩凝胶
+      GravistarSabaton: 引力靴
+      HallowedRune: 神圣符文
+      HarpyRing: 女妖指环
+      HeartofDarkness: 黑暗之心
+      HeartoftheElements: 元灵之心
+      HideofAstrumDeus: 星神隐壳
+      HoneyDew: 蜂蜜露珠
+      HowlsHeart: 哈尔之心
+      InkBomb: 墨水炸弹
+      IronBoots: 铁靴
+      JellyChargedBattery: 凝胶充能电池
+      Laudanum: 鸦片酊
+      LeviathanAmbergris: 利维坦龙涎香
+      LifeJelly: 生命凝胶
+      LivingDew: 生命露珠
+      LumenousAmulet: 流明护身符
+      LuxorsGift: 卢克索的礼物
+      ManaJelly: 魔力凝胶
+      ManaPolarizer: 魔能谐振仪
+      MarniteRepulsionShield: 合成岩斥力盾
+      MirageMirror: 幻影魔镜
+      MoonstoneCrown: 月长石头冠
+      MutatedTruffle: 突变松露
+      Nanotech: 纳米技术
+      NebulousCore: 星云之核
+      NecklaceofVexation: 恼怒项链
+      NuclearRod: 核燃料棒
+      Nucleogenesis: 核子之源
+      OccultSkullCrown: 玄秘颅冠
+      OceanCrest: 海波项链
+      OldDie: 老旧骰子
+      OldDukeScales: 硫海遗爵之鳞
+      OrnateShield: 宝光盾牌
+      PearlofEnthrallment: 魅惑珍珠
+      PermafrostsConcoction: 永冻秘药
+      PhantomicArtifact: 幻魂神物
+      PlaguedFuelPack: 瘟疫燃料背包
+      PlagueHive: 瘟疫蜂巢
+      ProfanedSoulArtifact: 渎魂神物
+      ProfanedSoulCrystal: 渎神魂晶
+      QuiverofNihility: 虚无箭袋
+      RadiantOoze: 光泥
+      RaidersTalisman: 掠夺者护符
+      RampartofDeities: 神之壁垒
+      ReaperToothNecklace: 猎魂鲨齿项链
+      Regenator: 再生护符
+      RogueEmblem: 盗贼徽章
+      RoseStone: 玫瑰石
+      RottenBrain: 腐烂之脑
+      RottenDogtooth: 腐烂犬齿
+      RoverDrive: 钨钢屏障生成仪
+      RuinMedallion: 毁灭勋章
+      RustyMedallion: 锈蚀勋章
+      SandCloak: 沙尘披风
+      SandSharkToothNecklace: 旱海鲨牙项链
+      ScuttlersJewel: 潜遁者宝石
+      ShatteredCommunity: 幻灭心元石
+      ShieldoftheOcean: 海之盾
+      SigilofCalamitas: 灾厄符章
+      SilencingSheath: 寂静刀鞘
+      SpectralVeil: 幽灵披风
+      SpelunkersAmulet: 探险者护符
+      SpiritGlyph: 灵魂浮雕
+      StarbusterCore: 星爆核心
+      StarTaintedGenerator: 玷星之源
+      StatisBlessing: 斯塔提斯的祝福
+      StatisCurse: 斯塔提斯的诅咒
+      StatisNinjaBelt: 斯塔提斯的忍者腰带
+      StatisVoidSash: 斯塔提斯的虚空饰带
+      StatMeter: 属性统计器
+      StressPills: 压力药丸
+      SupremeBaitTackleBoxFishingStation: 万圣钓鱼台
+      TheAbsorber: 阴阳吸星石
+      TheAmalgam: 聚合之脑
+      TheBee: 蜜蜂护符
+      TheCamper: 露营者
+      TheCommunity: 归一心元石
+      TheEvolution: 进化者
+      TheFirstShadowflame: 始源暗影炎
+      TheSponge: 化绵留香石
+      TheTransformer: 变压器
+      ThiefsDime: 盗贼铸币
+      ToxicHeart: 毒疫之心
+      TrinketofChi: 气功念珠
+      UnstableGraniteCore: 不稳定花岗岩核心
+      VampiricTalisman: 吸血鬼符咒
+      AbandonedWulfrumHelmet: 废弃钨钢头盔
+      Popo: 魔法围巾帽
+      VeneratedLocket: 敬天神盗盒
+      VitalJelly: 活力凝胶
+      VoidofCalamity: 灾劫虚空
+      VoidofExtinction: 终结虚空
+      VoltaicJelly: 伏打凝胶
+      WarbanneroftheSun: 阳炎战旗
+      WifeinaBottle: 元素瓶
+      WifeinaBottlewithBoobs: 稀有元素瓶
+      AureateBooster: 玉金喷射器
+      CelestialTracers: 天神之靴
+      DrewsWings: Drew之翼
+      ElysianTracers: 极乐之靴
+      ElysianWings: 极乐之翼
+      ExodusWings: 逸界之翼
+      HadalMantle: 幽渊斗篷
+      HadarianWings: 哈德安之翼
+      MOAB: 气球之母
+      SeraphTracers: 六翼天使之靴
+      SilvaWings: 始源林海之翼
+      SkylineWings: 天羽之翼
+      SoulofCryogen: 极寒之魂
+      StarlightWings: 星光之翼
+      TarragonWings: 龙蒿叶之翼
+      WulfrumAcrobaticsPack: 钨钢杂技背包
+      WulfrumBattery: 钨钢电池
+      YharimsGift: 魔君的礼物
+      YharimsInsignia: 魔君之证章
+      AccelerationRound: 加速弹
+      AcidRound: 酸液弹
+      ArcticArrow: 北极箭
+      AstralSolution: 星源溶剂
+      BloodfireArrow: 血炎箭
+      BloodfireBullet: 血炎弹
+      BloodRune: 血之符文
+      ElysianArrow: 极乐之箭
+      EnhancedNanoRound: 注魔纳米弹
+      ExplosiveShells: 爆炸散弹
+      GrenadeRounds: 榴弹片
+      MagnumRounds: 马格南弹
+      FlashRound: 眩晕弹
+      GodSlayerSlug: 弑神者弹
+      HolyFireBullet: 圣火弹
+      HyperiusBullet: 海伯里斯弹
+      IcicleArrow: 冰坠箭
+      IcyBullet: 冰砾弹
+      MortarRound: 迫击炮弹
+      NapalmArrow: 汽油箭
+      RubberMortarRound: 橡胶迫击炮
+      SuperballBullet: 弹球弹
+      TerraArrow: 泰拉箭
+      TerraBullet: 泰拉弹
+      VanquisherArrow: 湮灭之箭
+      VeriumBullet: 钫弹
+      AntiCystOintment: 抗囊肿药膏
+      AntiTumorOintment: 抗肿瘤药膏
+      AerospecBreastplate: 天蓝胸甲
+      AerospecHat: 天蓝帽
+      AerospecHeadgear: 天蓝头套
+      AerospecHelm: 天蓝战盔
+      AerospecHelmet: 天蓝头盔
+      AerospecHood: 天蓝兜帽
+      AerospecLeggings: 天蓝护胫
+      AstralBreastplate: 星幻胸甲
+      AstralHelm: 星幻头盔
+      AstralLeggings: 星幻护胫
+      AuricTeslaBodyArmor: 古圣金源盔甲
+      AuricTeslaCuisses: 古圣金源腿甲
+      AuricTeslaHoodedFacemask: 金兜铁面盔
+      AuricTeslaPlumedHelm: 金羽十杀盔
+      AuricTeslaRoyalHelm: 金源耀日盔
+      AuricTeslaSpaceHelmet: 金宇星界盔
+      AuricTeslaWireHemmedVisage: 金虚万象盔
+      BloodflareBodyArmor: 血炎铠甲
+      BloodflareCuisses: 血炎腿甲
+      BloodflareHeadMagic: 血魇九头盔
+      BloodflareHeadMelee: 血碾溃阵盔
+      BloodflareHeadRanged: 血弑曲角盔
+      BloodflareHeadRogue: 血饮魔精盔
+      BloodflareHeadSummon: 血戮狂龙盔
+      BrimflameBoots: 硫火靴子
+      BrimflameRobes: 硫火长袍
+      BrimflameScowl: 硫火兜帽
+      CirrusDress: 醉仙女的小裙子
+      DaedalusBreastplate: 代达罗斯胸甲
+      DaedalusHeadMagic: 代达罗斯兜帽
+      DaedalusHeadMelee: 代达罗斯战盔
+      DaedalusHeadRanged: 代达罗斯头饰
+      DaedalusHeadRogue: 代达罗斯头罩
+      DaedalusHeadSummon: 代达罗斯面具
+      DaedalusLeggings: 代达罗斯护胫
+      DemonshadeBreastplate: 魔影装甲
+      DemonshadeGreaves: 魔影护胫
+      DemonshadeHelm: 魔影头盔
+      DesertProwlerHat: 沙漠巡游者帽
+      DesertProwlerPants: 沙漠巡游者裤
+      DesertProwlerShirt: 沙漠巡游者衣
+      EmpyreanCloak: 皇天斗篷
+      EmpyreanCuisses: 皇天腿甲
+      EmpyreanMask: 皇天面具
+      FathomSwarmerBoots: 幻渊鱼群护胫
+      FathomSwarmerBreastplate: 幻渊鱼群胸甲
+      FathomSwarmerVisage: 幻渊鱼群面罩
+      FearmongerGreathelm: 神惧者头盔
+      FearmongerGreaves: 神惧者护胫
+      FearmongerPlateMail: 神惧者板甲
+      ForbiddenCirclet: 禁戒金箍
+      GemTechBodyArmor: 天钻胸甲
+      GemTechHeadgear: 天钻头饰
+      GemTechSchynbaulds: 天钻战裙
+      GodSlayerChestplate: 弑神者胸甲
+      GodSlayerHeadMelee: 弑神者角盔
+      GodSlayerHeadRanged: 弑神者头盔
+      GodSlayerHeadRogue: 弑神者面具
+      GodSlayerLeggings: 弑神者护胫
+      HydrothermicArmor: 渊泉盔甲
+      HydrothermicHeadMagic: 渊泉面具
+      HydrothermicHeadMelee: 渊泉战盔
+      HydrothermicHeadRanged: 渊泉头饰
+      HydrothermicHeadRogue: 渊泉兜帽
+      HydrothermicHeadSummon: 渊泉头盔
+      HydrothermicSubligar: 渊泉战裙
+      MarniteArchitectHeadgear: 合成岩建筑师头饰
+      MarniteArchitectToga: 合成岩建筑师长袍
+      MolluskShelleggings: 软壳护胫
+      MolluskShellmet: 软壳贝盔
+      MolluskShellplate: 软壳贝甲
+      OmegaBlueChestplate: 蓝色欧米茄胸甲
+      OmegaBlueHelmet: 蓝色欧米茄头盔
+      OmegaBlueTentacles: 蓝色欧米茄触手
+      PlaguebringerCarapace: 瘟疫使者铠甲
+      PlaguebringerPistons: 瘟疫使者推进靴
+      PlaguebringerVisor: 瘟疫使者面甲
+      PlagueReaperMask: 瘟疫死神面具
+      PlagueReaperStriders: 瘟疫死神长靴
+      PlagueReaperVest: 瘟疫死神夹克
+      PrismaticGreaves: 光棱护胫
+      PrismaticHelmet: 光棱头盔
+      PrismaticRegalia: 光棱斗篷
+      ReaverCuisses: 掠夺者腿甲
+      ReaverHeadExplore: 掠夺者头饰
+      ReaverHeadMobility: 掠夺者面罩
+      ReaverHeadTank: 掠夺者战盔
+      ReaverScaleMail: 掠夺者鳞甲
+      ShroomiteVisage: 蘑菇面罩
+      SilvaArmor: 始源林海盔甲
+      SilvaHeadMagic: 始源林海兜帽
+      SilvaHeadSummon: 始源林海头盔
+      SilvaLeggings: 始源林海护胫
+      SnowRuffianChestplate: 雪境暴徒胸甲
+      SnowRuffianGreaves: 雪境暴徒护胫
+      SnowRuffianMask: 雪境暴徒面具
+      StatigelArmor: 斯塔提斯盔甲
+      StatigelGreaves: 斯塔提斯护胫
+      StatigelHeadMagic: 斯塔提斯帽子
+      StatigelHeadMelee: 斯塔提斯战盔
+      StatigelHeadRanged: 斯塔提斯头饰
+      StatigelHeadRogue: 斯塔提斯面具
+      StatigelHeadSummon: 斯塔提斯兜帽
+      SulphurousBreastplate: 硫磺胸甲
+      SulphurousHelmet: 硫磺头盔
+      SulphurousLeggings: 硫磺护胫
+      TarragonBreastplate: 龙蒿胸甲
+      TarragonHeadMagic: 龙蒿面具
+      TarragonHeadMelee: 龙蒿战盔
+      TarragonHeadRanged: 龙蒿面罩
+      TarragonHeadRogue: 龙蒿头盔
+      TarragonHeadSummon: 龙蒿角盔
+      TarragonLeggings: 龙蒿护胫
+      TitanHeartBoots: 泰坦之心靴子
+      TitanHeartMantle: 泰坦之心斗篷
+      TitanHeartMask: 泰坦之心面具
+      UmbraphileBoots: 日影靴子
+      UmbraphileHood: 日影兜帽
+      UmbraphileRegalia: 日影斗篷
+      AcesApronOfAffection: 艾斯的慈爱围裙
+      AnahitaMask: 阿娜希塔面具
+      AncientGodSlayerChestplate: 远古弑神者胸甲
+      AncientGodSlayerHelm: 远古弑神者头盔
+      AncientGodSlayerLeggings: 远古弑神者护胫
+      ApolloMask: 阿波罗面具
+      AquaticScourgeMask: 渊海灾虫面具
+      AresMask: 阿瑞斯面具
+      ArtemisMask: 阿尔忒弥斯面具
+      AshenHorns: 余烬之角
+      AstrumAureusMask: 白金星舰面具
+      AstrumDeusMask: 星神游龙面具
+      BrimstoneWaifuMask: 硫磺火元素面具
+      BumblefuckMask: 痴愚金龙面具
+      CalamitasMask: 灾厄面具
+      CeaselessVoidMask: 无尽虚空面具
+      CrabulonMask: 菌生蟹面具
+      CryogenMask: 极地之灵面具
+      DesertScourgeMask: 荒漠灾虫面具
+      DevourerofGodsMask: 神明吞噬者面具
+      DraedonMask: 嘉登面具
+      GodSlayerHornedHelm: 弑神者角盔
+      GodSlayerVisage: 弑神者面甲
+      HiveMindMask: 腐巢意志面具
+      HoodOfCalamity: 灾厄的兜帽
+      LeviathanMask: 利维坦面具
+      OldDukeMask: 硫海遗爵面具
+      OldHunterHat: 老猎人帽
+      OldHunterPants: 老猎人长裤
+      OldHunterShirt: 老猎人制服
+      PerforatorMask: 血肉宿主面具
+      PlaguebringerGoliathMask: 瘟疫使者歌莉娅面具
+      PolterghastMask: 噬魂幽花面具
+      ProfanedGuardianMask: 亵渎守卫面具
+      ProvidenceMask: 亵渎天神面具
+      RavagerMask: 毁灭魔像面具
+      RobesOfCalamity: 灾厄的长袍
+      SCalBoots: 灾厄魔靴
+      SCalMask: 灾厄兜帽
+      SCalRobes: 灾厄长袍
+      SignusMask: 西格纳斯面具
+      SilvaHelm: 始源林海战盔
+      SilvaHornedHelm: 始源林海角盔
+      SilvaMask: 始源林海面具
+      SlimeGodMask: 史莱姆之神面具
+      SlimeGodMask2: 史莱姆之神面具
+      StormWeaverMask: 风暴编织者面具
+      ThanatosMask: 塔纳托斯面具
+      YharonMask: 犽戎面具
+      VictideBreastplate: 胜潮胸甲
+      VictideGreaves: 胜潮护胫
+      VictideHeadMagic: 胜潮隐帽
+      VictideHeadMelee: 胜潮贝盔
+      VictideHeadRanged: 胜潮瑚巾
+      VictideHeadRogue: 胜潮蟹盔
+      VictideHeadSummon: 胜潮面罩
+      WulfrumFusionCannon: 试作型钨钢聚变炮
+      WulfrumHat: 钨钢工程帽
+      WulfrumJacket: 钨钢夹克
+      WulfrumOveralls: 钨钢工装裤
+      BleachBall: 漂白球
+      BrimstoneLocus: 硫火魔珠
+      BrokenWaterFilter: 破损净水器
+      AndroombaItem: 仙女座扫除机
+      BabyFlakCrabItem: 小高口蟹
+      BabyGhostBellItem: 小鬼铃水母
+      NanodroidDysfunctionalItem: 功能失调的纳米机器人
+      NanodroidItem: 纳米机器人
+      NanodroidPlagueGreenItem: 绿色瘟疫纳米机器人
+      NanodroidPlagueRedItem: 红色瘟疫纳米机器人
+      PiggyItem: 小猪猪
+      RepairUnitItem: 修复机器人
+      SeaMinnowItem: 海洋米诺鱼
+      TwinklerItem: 星幻萤火虫
+      BallAndChain: 球镣
+      AdvancedDisplay: 高级显示屏
+      AuricQuantumCoolingCell: 金源量子冷却电池
+      CodebreakerBase: 密码破译器基站
+      DecryptionComputer: 解密计算机
+      DraedonPowerCell: 嘉登能源电池
+      DraedonsLogHell: 嘉登日志 - 地狱
+      DraedonsLogJungle: 嘉登日志 - 丛林与瘟疫
+      DraedonsLogPlanetoid: 嘉登日志 - 太空
+      DraedonsLogSnowBiome: 嘉登日志 - 永冻废土
+      DraedonsLogSunkenSea: 嘉登日志 - 对沉沦海水生生命的研究记录
+      EncryptedSchematicHell: 加密原型图（地狱）
+      EncryptedSchematicIce: 加密原型图（冰雪）
+      EncryptedSchematicJungle: 加密原型图（丛林）
+      EncryptedSchematicPlanetoid: 加密原型图（小行星）
+      EncryptedSchematicSunkenSea: 原型图（沉沦之海）
+      LongRangedSensorArray: 远程传感器阵列
+      VoltageRegulationSystem: 电压校准系统
+      AerialiteDye: 苍青辉蓝染料
+      AstralBlueDye: 星辉之蓝染料
+      AstralDye: 幻星之魄染料
+      AstralOrangeDye: 星辉之橙染料
+      AstralSwirlDye: 融星染料
+      AuricDye: 圣金源染料
+      BloodflareDye: 沸血炽炎染料
+      BlueCosmicFlameDye: 瀚蓝宙焰染料
+      BlueStatigelDye: 蓝色斯塔提斯染料
+      BrimflameDye: 硫火染料
+      CalamitousDye: 至尊灾厄染料
+      CeaselessDye: 无尽空虚染料
+      CosmiliteDye: 恒宇弘宙染料
+      CryonicDye: 寒元辉光染料
+      DefiledFlameDye: 神殇烈焰染料
+      DragonSoulDye: 神龙之魂染料
+      ElementalDye: 元素涌动染料
+      EndothermicDye: 恒温之刻染料
+      ExoDye: 星宇流霆染料
+      AdrenalineHairDye: 肾上腺素染发剂
+      RageHairDye: 怒气染发剂
+      StealthHairDye: 潜伏染发剂
+      WingTimeHairDye: 飞行时间染发剂
+      NightmareDye: 万圣梦魇染料
+      PhantoplasmDye: 幽喑幻魂染料
+      PinkCosmicFlameDye: 霏粉宙焰染料
+      PinkStatigelDye: 粉色斯塔提斯染料
+      ProfanedFlameDye: 渎神圣火染料
+      ProfanedMoonlightDye: 亵渎月色染料
+      ReaverDye: 掠夺之恒染料
+      ShadowspecDye: 灾劫魔影染料
+      SlimeGodDye: 史莱姆之神染料
+      StratusDye: 幻空流云染料
+      SwirlingCosmicFlameDye: 宙宇潆焰染料
+      AldebaranAlewife: 毕宿五灰西鲱
+      ArcturusAstroidean: 大角海星
+      AstralCrate: 星幻匣
+      AstrophageItem: 噬星体
+      ProcyonidPrawn: 南河三明虾
+      TwinklingPollox: 北河三烁光鱼
+      UrsaSergeant: 大熊座雀鲷
+      Bloodfin: 血鳍
+      Brimlish: 小硫火鱼
+      BrimstoneCrate: 硫磺火匣
+      BrimstoneFish: 硫磺火鱼
+      ChaoticFish: 混乱鱼
+      CharredLasher: 焦黑鞭笞者
+      CoastalDemonfish: 海岸恶魔鱼
+      CragBullhead: 硫火崖回鱼
+      DragoonDrizzlefish: 硫火喷吐鱼
+      Shadowfish: 暗影鱼
+      Slurpfish: 饮食者鱼
+      EnchantedStarfish: 附魔星鱼
+      EarlyBloomRod: 龙蒿钓竿
+      FeralDoubleRod: 野性双头钓竿
+      HeronRod: 白鹭钓竿
+      NavyFishingRod: 沉沦渊石钓竿
+      RiftReeler: 岩缝取鱼者
+      SlurperPole: 饮食者钓竿
+      TheDevourerofCods: 鳕鱼吞噬者
+      VerstaltiteFishingRod: 寒元钓竿
+      WulfrumRod: 钨钢钓竿
+      FishofEleum: 冰川鱼
+      FishofFlight: 飞翔之鱼
+      FishofLight: 光明之鱼
+      FishofNight: 暗影之鱼
+      GlimmeringGemfish: 闪光宝石鱼
+      Spadefish: 铲子鱼
+      StuffedFish: 填充草药鱼
+      AbyssalCrate: 深渊匣
+      SunbeamFish: 日光鱼
+      CoralskinFoolfish: 珊瑚拟态鲽
+      EutrophicSandfish: 富养沙地鱼
+      GreenwaveLoach: 绿波泥鳅
+      PrismaticGuppy: 棱晶孔雀鱼
+      RustedJingleBell: 锈蚀铃铛
+      SerpentsBite: 巨蛇之咬
+      Serpentuna: 巨蛇金枪鱼
+      SparklingEmpress: 闪光皇后鱼
+      SunkenCrate: 沉沦匣
+      SunkenSailfish: 沉沦帆鱼
+      SurfClam: 碎浪蛤
+      Xerocodile: 克希洛克鳄
+      CyanSeekingMechanism: 海蓝色定位仪
+      GreenSeekingMechanism: 绿色定位仪
+      LabSeekingMechanism: 实验室定位仪
+      PurpleSeekingMechanism: 紫色定位仪
+      RedSeekingMechanism: 红色定位仪
+      YellowSeekingMechanism: 黄色定位仪
+      KnowledgeAquaticScourge: 渊海灾虫
+      KnowledgeAstralInfection: 星辉瘟疫
+      KnowledgeAstrumAureus: 白金星舰
+      KnowledgeAstrumDeus: 星神游龙
+      KnowledgeBloodMoon: 血月
+      KnowledgeBrainofCthulhu: 克苏鲁之脑
+      KnowledgeBrimstoneCrag: 硫火之崖
+      KnowledgeBrimstoneElemental: 硫磺火元素
+      KnowledgeCalamitas: 至尊灾厄
+      KnowledgeCalamitasClone: 灾厄
+      KnowledgeCorruption: 腐化之地
+      KnowledgeCrabulon: 菌生蟹
+      KnowledgeCrimson: 猩红之地
+      KnowledgeCryogen: 极地之灵
+      KnowledgeDesertScourge: 荒漠灾虫
+      KnowledgeDestroyer: 钢铁毁灭者
+      KnowledgeDevourerofGods: 神明吞噬者
+      KnowledgeDragonfolly: 痴愚金龙
+      KnowledgeDukeFishron: 猪龙鱼公爵
+      KnowledgeEaterofWorlds: 世界吞噬者
+      KnowledgeExoMechs: 星流巨械
+      KnowledgeEyeofCthulhu: 克苏鲁之眼
+      KnowledgeGolem: 神庙傀儡
+      KnowledgeHiveMind: 腐巢意志
+      KnowledgeKingSlime: 史莱姆王
+      KnowledgeLeviathanAnahita: 利维坦和阿娜希塔
+      KnowledgeLunaticCultist: 拜月教邪教徒
+      KnowledgeMechs: 机械动乱
+      KnowledgeMoonLord: 月球领主
+      KnowledgeOcean: 海洋
+      KnowledgeOldDuke: 硫海遗爵
+      KnowledgePerforators: 血肉寄生者和宿主
+      KnowledgePlaguebringerGoliath: 瘟疫使者歌莉娅
+      KnowledgePlantera: 世纪之花
+      KnowledgePolterghast: 噬魂幽花
+      KnowledgeProfanedGuardians: 亵渎守卫
+      KnowledgeProvidence: 亵渎天神，普罗维登斯
+      KnowledgeQueenBee: 蜂后
+      KnowledgeRavager: 毁灭魔像
+      KnowledgeSentinels: 神之仆从
+      KnowledgeSkeletron: 骷髅王
+      KnowledgeSkeletronPrime: 钢铁骷髅王
+      KnowledgeSlimeGod: 史莱姆之神
+      KnowledgeSulphurSea: 硫磺海
+      KnowledgeTwins: 双子魔眼
+      KnowledgeUnderworld: 地狱
+      KnowledgeWallofFlesh: 血肉之墙
+      KnowledgeYharon: 丛林龙，犽戎
+      AerialiteBar: 天蓝锭
+      AncientBoneDust: 上古骨灰
+      ArmoredShell: 装甲外壳
+      AscendantSpiritEssence: 化神魂精
+      AshesofAnnihilation: 湮灭余烬
+      AshesofCalamity: 灾厄尘
+      AuricBar: 圣金源锭
+      BeetleJuice: 甲虫汁
+      BlightedGel: 枯萎凝胶
+      BloodOrb: 血珠
+      BloodSample: 血液样本
+      Bloodstone: 血石
+      BloodstoneCore: 血石核心
+      CoreofCalamity: 灾劫核心
+      CoreofChaos: 混乱核心
+      CoreofEleum: 冰川核心
+      CoreofSunlight: 日光核心
+      CorrodedFossil: 酸腐化石
+      CosmiliteBar: 宇宙锭
+      CryonicBar: 寒元锭
+      DarkPlasma: 暗物质
+      DarksunFragment: 日蚀之阴碎片
+      DemonicBoneAsh: 恶魔骨灰
+      DepthCells: 深渊细胞
+      DesertFeather: 荒漠之羽
+      DivineGeode: 神圣晶石
+      DubiousPlating: 可疑镀层
+      EffulgentFeather: 闪耀金羽
+      EndothermicEnergy: 恒温能量
+      EnergyCore: 能源核心
+      EssenceofChaos: 混乱精华
+      EssenceofEleum: 冰川精华
+      EssenceofSunlight: 日光精华
+      ExoPrism: 星流棱晶
+      GalacticaSingularity: 星系异石
+      GrandScale: 大狂鲨鳞
+      InfectedArmorPlating: 瘟疫装甲镀层
+      LifeAlloy: 生命合金
+      LivingShard: 生命碎片
+      Lumenyl: 流明晶
+      MeldBlob: 冥思溶剂
+      MeldConstruct: 冥思构造体
+      MiracleMatter: 奇迹物质
+      MolluskHusk: 软体动物外壳
+      MurkyPaste: 浆糊泥
+      MysteriousCircuitry: 神秘电路
+      NightmareFuel: 梦魇魔能
+      PearlShard: 珍珠碎片
+      PerennialBar: 永恒锭
+      Phantoplasm: 幻魂
+      PlagueCellCanister: 瘟疫细胞罐
+      PlasmaDriveCore: 等离子驱动核心原型
+      PurifiedGel: 纯净凝胶
+      ReaperTooth: 猎魂鲨牙
+      RottenMatter: 腐烂物质
+      RuinousSoul: 毁灭之灵
+      ScoriaBar: 熔渣锭
+      SeaRemains: 海洋残渣
+      ShadowspecBar: 魔影锭
+      SolarVeil: 日影面纱
+      Stardust: 星尘
+      StormlionMandible: 风暴之颚
+      SulphuricScale: 硫磺鳞片
+      SuspiciousScrap: 可疑的电路板
+      TitanHeart: 泰坦之心
+      TrapperBulb: 猎捕花苞
+      TwistingNether: 扭曲虚空
+      UelibloomBar: 龙蒿锭
+      UnholyCore: 污痕核心
+      UnholyEssence: 浊火精华
+      WulfrumMetalScrap: 钨钢金属废料
+      YharonSoulFragment: 龙魂碎片
+      MomentumCapacitor: 动量电容器
+      Brimrose: 硫火玫瑰
+      ExoThrone: 星流之盒
+      Fabsol: 瓶中公主灵
+      FollyFeed: 痴愚饲料
+      GazeOfCrysthamyr: 克里斯塔米尔的凝视
+      TheCartofGods: 神明矿车
+      OnyxExcavatorKey: 玛瑙挖掘机钥匙
+      SuspiciousLookingJellyBean: 可疑的果冻豆
+      TundraLeash: 冻原拴绳
+      NormalityRelocator: 常态定位器
+      BloodOrange: 血橙
+      CelestialOnion: 天体洋葱
+      CometShard: 彗星碎片
+      Dragonfruit: 龙果
+      Ectoheart: 幽魂之心
+      Elderberry: 旧神浆果
+      ElectrolyteGelPack: 电磁凝胶包
+      EtherealCore: 飘渺之核
+      InfernalBlood: 地狱之血
+      MiracleFruit: 奇迹之果
+      MushroomPlasmaRoot: 蘑菇根质
+      PhantomHeart: 幻影之心
+      RedLightningContainer: 电刑之容
+      StarlightFuelCell: 星光能量核心
+      BearsEye: 猫眼石
+      BloodyVein: 血管碎块
+      BrimstoneJewel: 硫火宝珠
+      CharredRelic: 厄古炭钩
+      ChromaticOrb: 彩球
+      CosmicPlushie: 星际毛绒娃娃
+      EnchantedButterfly: 附魔蝴蝶
+      ForgottenDragonEgg: 被遗忘的龙蛋
+      FoxDrive: 狐盘
+      GeyserShell: 间歇泉贝壳
+      HermitsBoxofOneHundredMedicines: 华扇的百药枡
+      JoyfulHeart: 欢愉之心
+      Levi: 利维
+      LittleLight: 机灵
+      McNuggets: 金拱门炸鸡块
+      PineapplePet: 菠萝
+      PlagueCaller: 瘟疫呼机
+      PrimroseKeepsake: 报春花纪念品
+      RadiatingCrystal: 辐射水晶
+      RomajedaOrchid: Romajeda之兰
+      RottingEyeball: 腐烂眼球
+      StrangeOrb: 奇光球
+      TheEtomer: 摩擦发光遥控器
+      TrashmanTrashcan: 垃圾罐
+      AbyssGravel: 深渊砾石
+      Acidwood: 酸蚀木
+      AerialiteBrick: 天蓝砖
+      AstralBar: 炫星锭
+      AstralBrick: 炫星砖
+      AstralClay: 星幻粘土
+      AstralDirt: 星幻土块
+      AstralIce: 星幻冰雪块
+      AstralMonolith: 星幻木材
+      AstralSand: 星幻沙块
+      AstralSandstone: 星幻沙岩块
+      AstralSnow: 星幻雪块
+      AstralStone: 星幻石块
+      AcidEelBanner: 酸水鳗旗
+      AeroSlimeBanner: 天蓝史莱姆旗
+      AmberCrawlerBanner: 琥珀爬虫旗
+      AmethystCrawlerBanner: 紫水晶爬虫旗
+      AnthozoanCrabBanner: 珊瑚蟹旗
+      AquaticAberrationBanner: 深海吞食者旗
+      AquaticUrchinBanner: 渊海海胆旗
+      AriesBanner: 白羊座旗
+      ArmoredDiggerBanner: 装甲掘地虫旗
+      AstralachneaBanner: 星幻蛛旗
+      AstralProbeBanner: 幻星探测器旗
+      AstralSlimeBanner: 幻星史莱姆旗
+      AtlasBanner: 擎星者旗
+      BabyFlakCrabBanner: 小高口蟹旗
+      BabyGhostBellBanner: 小鬼铃水母旗
+      BelchingCoralBanner: 喷嗝珊瑚旗
+      BigSightseerBanner: 大监星眼旗
+      BlindedAnglerBanner: 盲鮟鱇旗
+      BloatfishBanner: 肿胀翻车鱼旗
+      BloomSlimeBanner: 龙蒿史莱姆旗
+      BobbitWormBanner: 博比特虫旗
+      BohldohrBanner: 神庙滚石旗
+      BoxJellyfishBanner: 灯水母旗
+      CalamityEyeBanner: 灾厄眼旗
+      CatfishBanner: 鲶鱼旗
+      ChaoticPufferBanner: 混乱河豚旗
+      CharredSlimeBanner: 焦炭史莱姆旗
+      ClamBanner: 蛤旗
+      CloudElementalBanner: 雨云元素旗
+      CnidrionBanner: 卧龙海马旗
+      ColossalSquidBanner: 巨像乌贼旗
+      CosmicElementalBanner: 宇宙元素旗
+      CrimulanBlightSlimeBanner: 血腥枯萎史莱姆旗
+      CryonBanner: 冰人旗
+      CryoSlimeBanner: 寒元史莱姆旗
+      CrystalCrawlerBanner: 水晶爬虫旗
+      CultistAssassinBanner: 邪教刺客旗
+      CuttlefishBanner: 红乌贼旗
+      DespairStoneBanner: 绝望之石旗
+      DevilFishBanner: 魔鬼鱼旗
+      DiamondCrawlerBanner: 钻石爬虫旗
+      EarthElementalBanner: 地元魔魂旗
+      EbonianBlightSlimeBanner: 黑檀枯萎史莱姆旗
+      EidolistBanner: 幻妖灵巫旗
+      EidolonWyrmJuvenileBanner: 幻海妖龙旗
+      EmeraldCrawlerBanner: 绿宝石爬虫旗
+      EutrophicRayBanner: 富养剑鱼旗
+      FearlessGoldfishWarriorBanner: 无畏金鱼战士旗
+      FlakCrabBanner: 高口蟹旗
+      FlounderBanner: 比目鱼旗
+      FrogfishBanner: 躄鱼旗
+      FusionFeederBanner: 融食鲨旗
+      GammaSlimeBanner: 伽马史莱姆旗
+      GhostBellBanner: 鬼铃水母旗
+      GiantSquidBanner: 巨大乌贼旗
+      GnasherBanner: 噬咬龟旗
+      GulperEelBanner: 大嘴鳗旗
+      HadarianBanner: 哈德安翼龙旗
+      HeatSpiritBanner: 热能之魂旗
+      HiveBanner: 星幻巢旗
+      IceClasperBanner: 噬魂冰虫旗
+      ImpiousImmolatorBanner: 亵渎献祭者旗
+      IrradiatedSlimeBanner: 辐射史莱姆旗
+      LaserfishBanner: 激光鱼旗
+      LuminousCorvinaBanner: 流光石首鱼旗
+      MantisBanner: 星幻螳螂旗
+      MantisShrimpBanner: 螳螂虾旗
+      MelterBanner: 蚀化者旗
+      MirageJellyBanner: 幻海水母旗
+      MorayEelBanner: 海鳝旗
+      NovaBanner: 新星旗
+      NuclearToadBanner: 辐核蟾蜍旗
+      OarfishBanner: 桨鱼旗
+      OrthoceraBanner: 直角石旗
+      OverloadedSoldierBanner: 过载装甲骷髅旗
+      PerennialSlimeBanner: 永恒史莱姆旗
+      PestilentSlimeBanner: 疫病史莱姆旗
+      PhantomSpiritBanner: 幻魂旗
+      PiggyBanner: 小猪猪旗
+      PlaguebringerBanner: 瘟疫使者旗
+      PlagueChargerBanner: 瘟疫蜜蜂旗
+      PlagueshellBanner: 瘟疫龟旗
+      PrismBackBanner: 棱晶背龟旗
+      ProfanedEnergyBanner: 亵渎能量旗
+      RadiatorBanner: 辐射海参旗
+      ReaperSharkBanner: 猎魂鲨旗
+      RimehoundBanner: 雾凇猎犬旗
+      RotdogBanner: 血犬旗
+      RubyCrawlerBanner: 红宝石爬虫旗
+      SapphireCrawlerBanner: 蓝宝石爬虫旗
+      ScornEaterBanner: 吞食魔旗
+      ScryllarBanner: 恶魔仆从旗
+      SeaFloatyBanner: 海蜉蝣旗
+      SeaMinnowBanner: 海洋米诺鱼旗
+      SeaSerpentBanner: 深海巨蛇旗
+      SeaUrchinBanner: 海胆旗
+      ShockstormShuttleBanner: 风暴飞碟旗
+      SkyfinBanner: 天鳍鱼旗
+      SmallSightseerBanner: 小监星眼旗
+      SoulSlurperBanner: 灵魂饮食者旗
+      StellarCulexBanner: 星幻蚊旗
+      StormlionBanner: 风暴蚁狮旗
+      SulphurousSkaterBanner: 硫海爬虫旗
+      SunskaterBanner: 寻阳鱼旗
+      TopazCrawlerBanner: 黄玉爬虫旗
+      ToxicMinnowBanner: 剧毒米诺鱼旗
+      TrasherBanner: 捣鱼旗
+      TrilobiteBanner: 三叶虫旗
+      ViperfishBanner: 蝰蛇鱼旗
+      VirulingBanner: 毒飞虫旗
+      WulfrumAmplifierBanner: 钨钢增幅器旗
+      WulfrumDroneBanner: 钨钢无人机旗
+      WulfrumGyratorBanner: 钨钢回转器旗
+      WulfrumHovercraftBanner: 钨钢悬浮坦克旗
+      WulfrumRoverBanner: 钨钢漫步者旗
+      BrimstoneSlag: 硫磺火石砖
+      CelestialRemains: 星界残骸
+      CryonicBrick: 寒元砖
+      AgedLaboratoryConsoleItem: 老旧实验室控制台
+      AgedLaboratoryContainmentBoxItem: 老旧实验室密封箱
+      AgedLaboratoryDisplayItem: 老旧实验室展柜
+      AgedLaboratoryDoorItem: 老旧实验室大门
+      AgedLaboratoryElectricPanelItem: 老旧实验室配电盘
+      AgedLaboratoryScreenItem: 老旧实验室荧幕
+      AgedLaboratoryServerItem: 老旧实验室服务器
+      AgedLaboratoryTerminalItem: 老旧实验室终端机
+      AgedReinforcedCrateItem: 老旧实验室板条箱
+      AgedSecurityChest: 老旧安全箱
+      ChargingStationItem: 充能站
+      HazardChevronPanels: 警示面板
+      LabHologramProjectorItem: 实验室全息投影仪
+      LaboratoryConsoleItem: 实验室控制台
+      LaboratoryContainmentBoxItem: 实验室密封箱
+      LaboratoryDisplayItem: 实验室展柜
+      LaboratoryDoorItem: 实验室大门
+      LaboratoryElectricPanelItem: 实验室配电盘
+      LaboratoryPanels: 实验室板块
+      LaboratoryPipePlating: 实验室电镀管道
+      LaboratoryPlating: 实验室搁板
+      LaboratoryScreenItem: 实验室荧幕
+      LaboratoryServerItem: 实验室服务器
+      LaboratoryShelf: 实验室架
+      LaboratoryTerminalItem: 实验室终端机
+      PowerCellFactoryItem: 能源电池工厂
+      ReinforcedCrateItem: 加固板条箱
+      RustedPipes: 生锈管道
+      RustedPlating: 生锈镀层
+      RustedShelf: 生锈架
+      SecurityChest: 安全箱
+      EutrophicSand: 富营养沙
+      AstralBeaconItem: 星辉信标
+      AstralChest: 星幻箱
+      AuricToilet: 圣金马桶
+      BabyFlakCrabCage: 小高口蟹笼
+      BabyGhostBellJar: 小鬼铃水母罐
+      AquaticScourgeRelic: 渊海灾虫圣物
+      AstrumAureusRelic: 白金星舰圣物
+      AstrumDeusRelic: 星神游龙圣物
+      BrimstoneElementalRelic: 硫磺火元素圣物
+      CalamitasCloneRelic: 灾厄圣物
+      CalamitasRelic: 至尊灾厄圣物
+      CeaselessVoidRelic: 无尽虚空圣物
+      CrabulonRelic: 菌生蟹圣物
+      CragmawMireRelic: 峭咽潭圣物
+      CryogenRelic: 极地之灵圣物
+      DesertScourgeRelic: 荒漠灾虫圣物
+      DevourerOfGodsRelic: D神明吞噬者圣物
+      DraedonRelic: 嘉登圣物
+      DragonfollyRelic: 痴愚金龙圣物
+      GiantClamRelic: 巨像蛤圣物
+      GreatSandSharkRelic: 旱海狂鲨圣物
+      HiveMindRelic: 腐巢意志圣物
+      LeviathanAnahitaRelic: 利维坦和阿娜希塔圣物
+      MaulerRelic: 渊海狂鲨圣物
+      NuclearTerrorRelic: 辐射骇兽圣物
+      OldDukeRelic: 硫海遗爵圣物
+      PerforatorsRelic: 血肉宿主圣物
+      PlaguebringerGoliathRelic: 瘟疫使者歌莉娅圣物
+      PolterghastRelic: 噬魂幽花圣物
+      ProfanedGuardiansRelic: 亵渎守卫圣物
+      ProvidenceRelic: 亵渎天神圣物
+      RavagerRelic: 毁灭魔像圣物
+      SignusRelic: 西格纳斯圣物
+      SlimeGodRelic: 史莱姆之神圣物
+      StormWeaverRelic: 风暴编织者圣物
+      YharonRelic: 犽戎圣物
+      ChaosCandle: 混乱蜡烛
+      CorruptionEffigy: 腐化雕像
+      AltarOfTheAccursedItem: 诅咒祭坛
+      AncientAltar: 远古祭坛
+      AshenAltar: 灰烬祭坛
+      BotanicPlanter: 植物培养器
+      CosmicAnvilItem: 星宇砧
+      DraedonsForge: 嘉登熔炉
+      EutrophicShelf: 富养制造架
+      MonolithAmalgam: 星幻柱综合体
+      PlagueInfuser: 瘟疫灌注器
+      ProfanedCrucible: 亵渎坩埚
+      SilvaBasin: 闪耀操纵机
+      StaticRefiner: 静电精炼机
+      VoidCondenser: 虚空压缩机
+      CrimsonEffigy: 血腥雕像
       ThankYouPainting: Thank You
-      EffigyOfDecay: Effigy of Decay
-      AbyssFountainItem: Abyss Water Fountain
-      AstralFountainItem: Astral Water Fountain
-      SulphurousFountainItem: Sulphuric Water Fountain
-      SunkenSeaFountain: Sunken Water Fountain
-      PiggyCage: Piggy Cage
-      ResilientCandle: Resilient Candle
-      RustyChest: Rusty Chest
-      SeaMinnowJar: Sea Minnow Jar
-      SpitefulCandle: Spiteful Candle
-      ThaumaticChair: Thaumatic Chair
-      TranquilityCandle: Tranquility Candle
-      AnahitaTrophy: Anahita Trophy
-      ApolloTrophy: Apollo Trophy
-      AquaticScourgeTrophy: Aquatic Scourge Trophy
-      AresTrophy: Ares Trophy
-      ArtemisTrophy: Artemis Trophy
-      AstrumAureusTrophy: Astrum Aureus Trophy
-      AstrumDeusTrophy: Astrum Deus Trophy
-      BrimstoneElementalTrophy: Brimstone Elemental Trophy
-      CalamitasTrophy: Calamitas Trophy
-      CataclysmTrophy: Cataclysm Trophy
-      CatastropheTrophy: Catastrophe Trophy
-      CeaselessVoidTrophy: Ceaseless Void Trophy
-      CrabulonTrophy: Crabulon Trophy
-      CragmawMireTrophy: Cragmaw Mire Trophy
-      CryogenTrophy: Cryogen Trophy
-      DesertScourgeTrophy: Desert Scourge Trophy
-      DevourerofGodsTrophy: Devourer of Gods Trophy
-      DragonfollyTrophy: Dragonfolly Trophy
-      GiantClamTrophy: Giant Clam Trophy
-      GreatSandSharkTrophy: Great Sand Shark Trophy
-      HiveMindTrophy: Hive Mind Trophy
-      LeviathanTrophy: Leviathan Trophy
-      MaulerTrophy: Mauler Trophy
-      NuclearTerrorTrophy: Nuclear Terror Trophy
-      OldDukeTrophy: Old Duke Trophy
-      PerforatorTrophy: Perforator Trophy
-      PlaguebringerGoliathTrophy: Plaguebringer Goliath Trophy
-      PolterghastTrophy: Polterghast Trophy
-      ProfanedGuardianTrophy: Profaned Guardian Trophy
-      ProvidenceTrophy: Providence Trophy
-      RavagerTrophy: Ravager Trophy
-      SignusTrophy: Signus Trophy
-      SlimeGodTrophy: Slime God Trophy
-      SupremeCalamitasTrophy: Supreme Calamitas Trophy
-      SupremeCataclysmTrophy: Supreme Cataclysm Trophy
-      SupremeCatastropheTrophy: Supreme Catastrophe Trophy
-      ThanatosTrophy: Thanatos Trophy
-      WeaverTrophy: Storm Weaver Trophy
-      YharonTrophy: Yharon Trophy
-      TwinklerInABottle: Twinkler in a Bottle
-      VigorousCandle: Vigorous Candle
-      WeightlessCandle: Weightless Candle
-      WulfrumLureItem: Wulfrum Lure
-      AbyssBathtub: Abyss Bathtub
-      AbyssBed: Abyss Bed
-      AbyssBookcase: Abyss Bookcase
-      AbyssCandelabra: Abyss Candelabra
-      AbyssCandle: Abyss Candle
-      AbyssChair: Abyss Chair
-      AbyssChandelier: Abyss Chandelier
-      AbyssChest: Abyss Chest
-      AbyssClock: Abyss Clock
-      AbyssDoor: Abyss Door
-      AbyssDresser: Abyss Dresser
-      AbyssLamp: Abyss Lamp
-      AbyssLantern: Abyss Lantern
-      AbyssSink: Abyss Sink
-      AbyssSofa: Abyss Sofa
-      AbyssSynth: Abyss Synth
-      AbyssTable: Abyss Table
-      AbyssTorch: Abyss Torch
-      AbyssWorkBench: Abyss Work Bench
-      SmoothAbyssGravel: Smooth Abyss Gravel
-      SmoothAbyssGravelPlatform: Smooth Abyss Gravel Platform
-      AcidwoodBathtub: Acidwood Bathtub
-      AcidwoodBed: Acidwood Bed
-      AcidwoodBench: Acidwood Bench
-      AcidwoodBookcase: Acidwood Bookcase
-      AcidwoodCandelabra: Acidwood Candelabra
-      AcidwoodCandle: Acidwood Candle
-      AcidwoodChair: Acidwood Chair
-      AcidwoodChandelier: Acidwood Chandelier
-      AcidwoodChest: Acidwood Chest
-      AcidwoodClock: Acidwood Clock
-      AcidwoodDoor: Acidwood Door
-      AcidwoodDresser: Acidwood Dresser
-      AcidwoodLamp: Acidwood Lamp
-      AcidwoodLantern: Acidwood Lantern
-      AcidwoodPiano: Acidwood Piano
-      AcidwoodPlatform: Acidwood Platform
-      AcidwoodSink: Acidwood Sink
-      AcidwoodTable: Acidwood Table
-      AcidwoodWorkBench: Acidwood Work Bench
-      AncientBasin: Ancient Basin
-      AncientBathtub: Ancient Bathtub
-      AncientBed: Ancient Bed
-      AncientBookcase: Ancient Bookcase
-      AncientChair: Ancient Chair
-      AncientChandelier: Ancient Chandelier
-      AncientDoor: Ancient Door
-      AncientDresser: Ancient Dresser
-      AncientLamp: Ancient Lamp
-      AncientLantern: Ancient Lantern
-      AncientMonolith: Ancient Monolith
-      AncientPipeOrgan: Ancient Pipe Organ
-      AncientSink: Ancient Sink
-      AncientSofa: Ancient Sofa
-      AncientTable: Ancient Table
-      AncientWorkBench: Ancient Work Bench
-      AshenBasin: Ashen Basin
-      AshenBathtub: Ashen Bathtub
-      AshenBed: Ashen Bed
-      AshenBookcase: Ashen Bookcase
-      AshenCandelabra: Ashen Candelabra
-      AshenCandle: Ashen Candle
-      AshenChair: Ashen Chair
-      AshenChandelier: Ashen Chandelier
-      AshenChest: Ashen Chest
-      AshenDoor: Ashen Door
-      AshenDresser: Ashen Dresser
-      AshenLamp: Ashen Lamp
-      AshenLantern: Ashen Lantern
-      AshenMonolith: Ashen Monolith
-      AshenPipeOrgan: Ashen Pipe Organ
-      AshenPlatform: Ashen Platform
-      AshenSink: Ashen Sink
-      AshenSlab: Ashen Slab
-      AshenSofa: Ashen Sofa
-      AshenTable: Ashen Table
-      AshenWorkBench: Ashen Work Bench
-      SmoothBrimstoneSlag: Smooth Brimstone Slag
-      BotanicBathtub: Botanic Bathtub
-      BotanicBed: Botanic Bed
-      BotanicBench: Botanic Bench
-      BotanicBookcase: Botanic Bookcase
-      BotanicCandelabra: Botanic Candelabra
-      BotanicCandle: Botanic Candle
-      BotanicChair: Botanic Chair
-      BotanicChandelier: Botanic Chandelier
-      BotanicChest: Botanic Chest
-      BotanicClock: Botanic Clock
-      BotanicDoor: Botanic Door
-      BotanicDresser: Botanic Dresser
-      BotanicLamp: Botanic Lamp
-      BotanicLantern: Botanic Lantern
-      BotanicPiano: Botanic Piano
-      BotanicPlatform: Botanic Platform
-      BotanicSink: Botanic Sink
-      BotanicTable: Botanic Table
-      BotanicWorkBench: Botanic Work Bench
-      CosmiliteBasin: Cosmilite Basin
-      CosmiliteBathtub: Cosmilite Bathtub
-      CosmiliteBed: Cosmilite Bed
-      CosmiliteBookcase: Cosmilite Bookcase
-      CosmiliteBrick: Cosmilite Brick
-      CosmiliteCandelabra: Cosmilite Candelabra
-      CosmiliteCandle: Cosmilite Candle
-      CosmiliteChair: Cosmilite Chair
-      CosmiliteChandelier: Cosmilite Chandelier
-      CosmiliteChest: Cosmilite Chest
-      CosmiliteClock: Cosmilite Clock
-      CosmiliteDoor: Cosmilite Door
-      CosmiliteDresser: Cosmilite Dresser
-      CosmiliteLamp: Cosmilite Lamp
-      CosmiliteLantern: Cosmilite Lantern
-      CosmilitePiano: Cosmilite Piano
-      CosmilitePlatform: Cosmilite Platform
-      CosmiliteSconce: Cosmilite Sconce
-      CosmiliteSink: Cosmilite Sink
-      CosmiliteSofa: Cosmilite Sofa
-      CosmiliteTable: Cosmilite Table
-      CosmiliteWorkBench: Cosmilite Work Bench
-      EutrophicBathtub: Eutrophic Bathtub
-      EutrophicBed: Eutrophic Bed
-      EutrophicBench: Eutrophic Bench
-      EutrophicBookcase: Eutrophic Bookcase
-      EutrophicCandelabra: Eutrophic Candelabra
-      EutrophicCandle: Eutrophic Candle
-      EutrophicChair: Eutrophic Chair
-      EutrophicChandelier: Eutrophic Chandelier
-      EutrophicChest: Eutrophic Chest
-      EutrophicClock: Eutrophic Clock
-      EutrophicDoor: Eutrophic Door
-      EutrophicDresser: Eutrophic Dresser
-      EutrophicLamp: Eutrophic Lamp
-      EutrophicLantern: Eutrophic Lantern
-      EutrophicPiano: Eutrophic Piano
-      EutrophicPlatform: Eutrophic Platform
-      EutrophicSink: Eutrophic Sink
-      EutrophicTable: Eutrophic Table
-      EutrophicWorkBench: Eutrophic Work Bench
-      SmoothNavystone: Smooth Navystone
-      ExoBathtub: Exo Bathtub
-      ExoBed: Exo Bed
-      ExoBookcase: Exo Bookcase
-      ExoCandelabra: Exo Candelabra
-      ExoCandle: Exo Candle
-      ExoChair: Exo Chair
-      ExoChandelier: Exo Chandelier
-      ExoChest: Exo Chest
-      ExoClock: Exo Clock
-      ExoConsole: Exo Console
-      ExoDisplay: Exo Display
-      ExoDoor: Exo Door
-      ExoDresser: Exo Dresser
-      ExoKeyboard: Exo Keyboard
-      ExoLamp: Exo Lamp
-      ExoLantern: Exo Lantern
-      ExoPlatform: Exo Platform
-      ExoPlating: Exo Plating
-      ExoPrismPanel: Exo Prism Panel
-      ExoPrismPlatform: Exo Prism Platform
-      ExoScreen: Exo Screen
-      ExoServer: Exo Server
-      ExoSink: Exo Sink
-      ExoSofa: Exo Sofa
-      ExoTable: Exo Table
-      ExoTerminal: Exo Terminal
-      ExoToilet: Exo Toilet
-      ExoWorkbench: Exo Workbench
-      MonolithBathtub: Monolith Bathtub
-      MonolithBed: Monolith Bed
-      MonolithBench: Monolith Bench
-      MonolithBookcase: Monolith Bookcase
-      MonolithCandelabra: Monolith Candelabra
-      MonolithCandle: Monolith Candle
-      MonolithChair: Monolith Chair
-      MonolithChandelier: Monolith Chandelier
-      MonolithChest: Monolith Chest
-      MonolithClock: Monolith Clock
-      MonolithDoor: Monolith Door
-      MonolithDresser: Monolith Dresser
-      MonolithLamp: Monolith Lamp
-      MonolithLantern: Monolith Lantern
-      MonolithPiano: Monolith Piano
-      MonolithPlatform: Monolith Platform
-      MonolithSink: Monolith Sink
-      MonolithTable: Monolith Table
-      MonolithWorkBench: Monolith Work Bench
-      OtherworldlyBathtub: Otherworldly Bathtub
-      OtherworldlyBed: Otherworldly Bed
-      OtherworldlyBookcase: Otherworldly Bookcase
-      OtherworldlyCandelabra: Otherworldly Candelabra
-      OtherworldlyCandle: Otherworldly Candle
-      OtherworldlyChair: Otherworldly Chair
-      OtherworldlyChandelier: Otherworldly Chandelier
-      OtherworldlyChest: Otherworldly Chest
-      OtherworldlyClock: Otherworldly Clock
-      OtherworldlyDoor: Otherworldly Door
-      OtherworldlyDresser: Otherworldly Dresser
-      OtherworldlyLamp: Otherworldly Lamp
-      OtherworldlyLantern: Otherworldly Lantern
-      OtherworldlyPiano: Otherworldly Piano
-      OtherworldlyPlatform: Otherworldly Platform
-      OtherworldlySink: Otherworldly Sink
-      OtherworldlySofa: Otherworldly Sofa
-      OtherworldlyStone: Otherworldly Stone
-      OtherworldlyTable: Otherworldly Table
-      OtherworldlyWorkBench: Otherworldly Work Bench
-      BrokenPlaguedBed: Broken Plagued 'Bed'
-      PlaguedContainmentBrick: Plagued Containment Brick
-      PlaguedPlateBathtub: Plagued Bathtub
-      PlaguedPlateBed: Plagued 'Bed'
-      PlaguedPlateBookcase: Plagued Bookcase
-      PlaguedPlateCandelabra: Plagued Candelabra
-      PlaguedPlateCandle: Plagued Candle
-      PlaguedPlateChair: Plagued Chair
-      PlaguedPlateChandelier: Plagued Chandelier
-      PlaguedPlateChest: Plagued Chest
-      PlaguedPlateClock: Plagued Clock
-      PlaguedPlateDoor: Plagued Door
-      PlaguedPlateDresser: Plagued Dresser
-      PlaguedPlateLamp: Plagued Lamp
-      PlaguedPlateLantern: Plagued Lantern
-      PlaguedPlatePiano: Plagued Piano
-      PlaguedPlatePlatform: Plagued Shelf
-      PlaguedPlateSink: Plagued Sink
-      PlaguedPlateSofa: Plagued Sofa
-      PlaguedPlateTable: Plagued Table
-      PlaguedWorkBench: Plagued Work Bench
-      ProfanedBathtub: Profaned Bathtub
-      ProfanedBed: Profaned Bed
-      ProfanedBench: Profaned Bench
-      ProfanedBookcase: Profaned Bookcase
-      ProfanedCandelabra: Profaned Candelabra
-      ProfanedCandle: Profaned Candle
-      ProfanedChair: Profaned Chair
-      ProfanedChandelier: Profaned Chandelier
-      ProfanedChest: Profaned Chest
-      ProfanedClock: Profaned Clock
-      ProfanedCrystal: Profaned Crystal
-      ProfanedDoor: Profaned Door
-      ProfanedDresser: Profaned Dresser
-      ProfanedLamp: Profaned Lamp
-      ProfanedLantern: Profaned Lantern
-      ProfanedPiano: Profaned Piano
-      ProfanedPlatform: Profaned Platform
-      ProfanedRock: Profaned Rock
-      ProfanedSink: Profaned Sink
-      ProfanedSlab: Profaned Slab
-      ProfanedTable: Profaned Table
-      ProfanedWorkbench: Profaned Workbench
-      RunicProfanedBrick: Runic Profaned Brick
-      EyeOfTheAccursedBanner: Eye of the Accursed Banner
-      LargeRitualCandle: Large Ritual Candle
-      MonolithOfTheAccursed: Monolith of the Accursed
-      OccultBrickItem: Occult Brick
-      OccultLegionnaireBanner: Occult Legionnaire Banner
-      OccultPlatformItem: Occult Platform
-      RitualCandle: Ritual Candle
-      SacrilegiousBathtub: Sacrilegious Bathtub
-      SacrilegiousBed: Sacrilegious Bed
-      SacrilegiousBench: Sacrilegious Bench
-      SacrilegiousBookcase: Sacrilegious Bookcase
-      SacrilegiousCandelabra: Sacrilegious Candelabra
-      SacrilegiousCandle: Sacrilegious Candle
-      SacrilegiousChair: Sacrilegious Chair
-      SacrilegiousChandelier: Sacrilegious Chandelier
-      SacrilegiousChest: Sacrilegious Chest
-      SacrilegiousClock: Sacrilegious Clock
-      SacrilegiousDoor: Sacrilegious Door
-      SacrilegiousDresser: Sacrilegious Dresser
-      SacrilegiousLamp: Sacrilegious Lamp
-      SacrilegiousLantern: Sacrilegious Lantern
-      SacrilegiousOrgan: Sacrilegious Organ
-      SacrilegiousSink: Sacrilegious Sink
-      SacrilegiousTable: Sacrilegious Table
-      SacrilegiousWorkBench: Sacrilegious Work Bench
-      SilvaBathtub: Silva Bathtub
-      SilvaBed: Silva Bed
-      SilvaBench: Silva Bench
-      SilvaBookcase: Silva Bookcase
-      SilvaCandelabra: Silva Candelabra
-      SilvaCandle: Silva Candle
-      SilvaChair: Silva Chair
-      SilvaChandelier: Silva Chandelier
-      SilvaChest: Silva Chest
-      SilvaClock: Silva Clock
-      SilvaCrystal: Silva Crystal
-      SilvaDoor: Silva Door
-      SilvaDresser: Silva Dresser
-      SilvaLamp: Silva Lamp
-      SilvaLantern: Silva Lantern
-      SilvaPiano: Silva Piano
-      SilvaPlatform: Silva Platform
-      SilvaSink: Silva Sink
-      SilvaTable: Silva Table
-      SilvaWorkBench: Silva Work Bench
-      StatigelBathtub: Statigel Bathtub
-      StatigelBed: Statigel Bed
-      StatigelBlock: Statigel Block
-      StatigelBookcase: Statigel Bookcase
-      StatigelCandelabra: Statigel Candelabra
-      StatigelCandle: Statigel Candle
-      StatigelChair: Statigel Chair
-      StatigelChandelier: Statigel Chandelier
-      StatigelChest: Statigel Chest
-      StatigelClock: Statigel Clock
-      StatigelDoor: Statigel Door
-      StatigelDresser: Statigel Dresser
-      StatigelLamp: Statigel Lamp
-      StatigelLantern: Statigel Lantern
-      StatigelPiano: Statigel Piano
-      StatigelPlatform: Statigel Platform
-      StatigelSink: Statigel Sink
-      StatigelSofa: Statigel Sofa
-      StatigelTable: Statigel Table
-      StatigelWorkbench: Statigel Workbench
-      StratusBathtub: Stratus Bathtub
-      StratusBed: Stratus Bed
-      StratusBookcase: Stratus Bookcase
-      StratusBricks: Stratus Brick
-      StratusCandelabra: Stratus Candelabra
-      StratusCandle: Stratus Candle
+      EffigyOfDecay: 腐朽雕像
+      AbyssFountainItem: 深渊喷泉
+      AstralFountainItem: 星辉喷泉
+      SulphurousFountainItem: 硫磺喷泉
+      SunkenSeaFountain: 沉沦喷泉
+      PiggyCage: 猪猪笼
+      ResilientCandle: 恢复蜡烛
+      RustyChest: 锈蚀箱
+      SeaMinnowJar: 海洋米诺鱼缸
+      SpitefulCandle: 恶念蜡烛
+      ThaumaticChair: 奇迹之椅
+      TranquilityCandle: 宁静蜡烛
+      AnahitaTrophy: 阿娜希塔纪念章
+      ApolloTrophy: 阿波罗纪念章
+      AquaticScourgeTrophy: 渊海灾虫纪念章
+      AresTrophy: 阿瑞斯纪念章
+      ArtemisTrophy: 阿尔忒弥斯纪念章
+      AstrumAureusTrophy: 白金星舰纪念章
+      AstrumDeusTrophy: 星神游龙纪念章
+      BrimstoneElementalTrophy: 硫磺火元素纪念章
+      CalamitasTrophy: 灾厄纪念章
+      CataclysmTrophy: 灾祸纪念章
+      CatastropheTrophy: 灾难纪念章
+      CeaselessVoidTrophy: 无尽虚空纪念章
+      CrabulonTrophy: 菌生蟹纪念章
+      CragmawMireTrophy: 峭咽潭纪念章
+      CryogenTrophy: 极地之灵纪念章
+      DesertScourgeTrophy: 荒漠灾虫纪念章
+      DevourerofGodsTrophy: 神明吞噬者纪念章
+      DragonfollyTrophy: 痴愚金龙纪念章
+      GiantClamTrophy: 巨像蛤纪念章
+      GreatSandSharkTrophy: 旱海狂鲨纪念章
+      HiveMindTrophy: 腐巢意志纪念章
+      LeviathanTrophy: 利维坦纪念章
+      MaulerTrophy: 渊海狂鲨纪念章
+      NuclearTerrorTrophy: 辐核骇兽纪念章
+      OldDukeTrophy: 硫海遗爵纪念章
+      PerforatorTrophy: 血肉宿主纪念章
+      PlaguebringerGoliathTrophy: 瘟疫使者歌莉娅纪念章
+      PolterghastTrophy: 噬魂幽花纪念章
+      ProfanedGuardianTrophy: 亵渎守卫纪念章
+      ProvidenceTrophy: 亵渎天神纪念章
+      RavagerTrophy: 毁灭魔像纪念章
+      SignusTrophy: 西格纳斯纪念章
+      SlimeGodTrophy: 史莱姆之神纪念章
+      SupremeCalamitasTrophy: 至尊灾厄纪念章
+      SupremeCataclysmTrophy: 至尊灾祸纪念章
+      SupremeCatastropheTrophy: 至尊灾难纪念章
+      ThanatosTrophy: 塔纳托斯纪念章
+      WeaverTrophy: 风暴编织者纪念章
+      YharonTrophy: 犽戎纪念章
+      TwinklerInABottle: 星幻萤火虫瓶
+      VigorousCandle: 活力蜡烛
+      WeightlessCandle: 失重蜡烛
+      WulfrumLureItem: 钨钢诱扰器
+      AbyssBathtub: 深渊浴缸
+      AbyssBed: 深渊床
+      AbyssBookcase: 深渊书架
+      AbyssCandelabra: 深渊烛台
+      AbyssCandle: 深渊蜡烛
+      AbyssChair: 深渊椅
+      AbyssChandelier: 深渊吊灯
+      AbyssChest: 深渊箱
+      AbyssClock: 深渊钟
+      AbyssDoor: 深渊门
+      AbyssDresser: 深渊梳妆台
+      AbyssLamp: 深渊灯
+      AbyssLantern: 深渊灯笼
+      AbyssSink: 深渊水槽
+      AbyssSofa: 深渊沙发
+      AbyssSynth: 深渊钢琴
+      AbyssTable: 深渊桌
+      AbyssTorch: 深渊火把
+      AbyssWorkBench: 深渊工作台
+      SmoothAbyssGravel: 平滑深渊石
+      SmoothAbyssGravelPlatform: 平滑深渊砾石平台
+      AcidwoodBathtub: 酸腐木浴缸
+      AcidwoodBed: 酸腐木床
+      AcidwoodBench: 酸腐木长凳
+      AcidwoodBookcase: 酸腐木书架
+      AcidwoodCandelabra: 酸腐木烛台
+      AcidwoodCandle: 酸腐木蜡烛
+      AcidwoodChair: 酸腐木椅子
+      AcidwoodChandelier: 酸腐木吊灯
+      AcidwoodChest: 酸腐木箱
+      AcidwoodClock: 酸腐木钟
+      AcidwoodDoor: 酸腐木门
+      AcidwoodDresser: 酸腐木梳妆台
+      AcidwoodLamp: 酸腐木灯
+      AcidwoodLantern: 酸腐木灯笼
+      AcidwoodPiano: 酸腐木钢琴
+      AcidwoodPlatform: 酸腐木平台
+      AcidwoodSink: 酸腐木水槽
+      AcidwoodTable: 酸腐木桌子
+      AcidwoodWorkBench: 酸腐木工作台
+      AncientBasin: 远古火盆
+      AncientBathtub: 远古浴缸
+      AncientBed: 远古床
+      AncientBookcase: 远古书架
+      AncientChair: 远古椅
+      AncientChandelier: 远古烛台
+      AncientDoor: 远古门
+      AncientDresser: 远古梳妆台
+      AncientLamp: 远古灯
+      AncientLantern: 远古灯笼
+      AncientMonolith: 远古石柱
+      AncientPipeOrgan: 远古管风琴
+      AncientSink: 远古水槽
+      AncientSofa: 远古沙发
+      AncientTable: 远古桌
+      AncientWorkBench: 远古工作台
+      AshenBasin: 灰烬火盆
+      AshenBathtub: 灰烬浴缸
+      AshenBed: 灰烬床
+      AshenBookcase: 灰烬书架
+      AshenCandelabra: 灰烬烛台
+      AshenCandle: 灰烬蜡烛
+      AshenChair: 灰烬椅
+      AshenChandelier: 灰烬吊灯
+      AshenChest: 灰烬箱
+      AshenDoor: 灰烬门
+      AshenDresser: 灰烬梳妆台
+      AshenLamp: 灰烬灯
+      AshenLantern: 灰烬灯笼
+      AshenMonolith: 灰烬柱
+      AshenPipeOrgan: 灰烬管风琴
+      AshenPlatform: 灰烬平台
+      AshenSink: 灰烬水槽
+      AshenSlab: 灰烬石板
+      AshenSofa: 灰烬沙发
+      AshenTable: 灰烬桌
+      AshenWorkBench: 灰烬工作台
+      SmoothBrimstoneSlag: 平滑硫火石
+      BotanicBathtub: 植物浴缸
+      BotanicBed: 植物床
+      BotanicBench: 植物长凳
+      BotanicBookcase: 植物书架
+      BotanicCandelabra: 植物烛台
+      BotanicCandle: 植物蜡烛
+      BotanicChair: 植物椅
+      BotanicChandelier: 植物吊灯
+      BotanicChest: 植物箱
+      BotanicClock: 植物钟
+      BotanicDoor: 植物门
+      BotanicDresser: 植物梳妆台
+      BotanicLamp: 植物灯
+      BotanicLantern: 植物灯笼
+      BotanicPiano: 植物钢琴
+      BotanicPlatform: 植物平台
+      BotanicSink: 植物水槽
+      BotanicTable: 植物桌
+      BotanicWorkBench: 植物工作台
+      CosmiliteBasin: 宇宙火盆
+      CosmiliteBathtub: 宇宙浴缸
+      CosmiliteBed: 宇宙床
+      CosmiliteBookcase: 宇宙书架
+      CosmiliteBrick: 宇宙砖
+      CosmiliteCandelabra: 宇宙烛台
+      CosmiliteCandle: 宇宙蜡烛
+      CosmiliteChair: 宇宙椅
+      CosmiliteChandelier: 宇宙吊灯
+      CosmiliteChest: 宇宙箱
+      CosmiliteClock: 宇宙钟
+      CosmiliteDoor: 宇宙门
+      CosmiliteDresser: 宇宙梳妆台
+      CosmiliteLamp: 宇宙灯
+      CosmiliteLantern: 宇宙灯笼
+      CosmilitePiano: 宇宙钢琴
+      CosmilitePlatform: 宇宙砖平台
+      CosmiliteSconce: 宇宙壁灯
+      CosmiliteSink: 宇宙水槽
+      CosmiliteSofa: 宇宙沙发
+      CosmiliteTable: 宇宙桌
+      CosmiliteWorkBench: 宇宙工作台
+      EutrophicBathtub: 富养浴缸
+      EutrophicBed: 富养床
+      EutrophicBench: 富养长凳
+      EutrophicBookcase: 富养书架
+      EutrophicCandelabra: 富养烛台
+      EutrophicCandle: 富养蜡烛
+      EutrophicChair: 富养椅
+      EutrophicChandelier: 富养吊灯
+      EutrophicChest: 富养箱
+      EutrophicClock: 富养钟
+      EutrophicDoor: 富养门
+      EutrophicDresser: 富养梳妆台
+      EutrophicLamp: 富养灯
+      EutrophicLantern: 富养灯笼
+      EutrophicPiano: 富养钢琴
+      EutrophicPlatform: 富养平台
+      EutrophicSink: 富养水槽
+      EutrophicTable: 富养桌
+      EutrophicWorkBench: 富养工作台
+      SmoothNavystone: 平滑沉沦渊石
+      ExoBathtub: 星流浴缸
+      ExoBed: 星流床
+      ExoBookcase: 星流书架
+      ExoCandelabra: 星流烛台
+      ExoCandle: 星流蜡烛
+      ExoChair: 星流椅
+      ExoChandelier: 星流吊灯
+      ExoChest: 星流箱
+      ExoClock: 星流钟
+      ExoConsole: 星流控制台
+      ExoDisplay: 星流展柜
+      ExoDoor: 星流门
+      ExoDresser: 星流梳妆台
+      ExoKeyboard: 星流键盘
+      ExoLamp: 星流灯
+      ExoLantern: 星流灯笼
+      ExoPlatform: 星流平台
+      ExoPlating: 星流镶板
+      ExoPrismPanel: 星流棱晶镶板
+      ExoPrismPlatform: 星流棱晶平台
+      ExoScreen: 星流荧幕
+      ExoServer: 星流服务器
+      ExoSink: 星流水槽
+      ExoSofa: 星流沙发
+      ExoTable: 星流桌
+      ExoTerminal: 星流终端机
+      ExoToilet: 星流马桶
+      ExoWorkbench: 星流工作台
+      MonolithBathtub: 星石浴缸
+      MonolithBed: 星石床
+      MonolithBench: 星石长凳
+      MonolithBookcase: 星石书架
+      MonolithCandelabra: 星石烛台
+      MonolithCandle: 星石蜡烛
+      MonolithChair: 星石椅
+      MonolithChandelier: 星石吊灯
+      MonolithChest: 星石箱
+      MonolithClock: 星石钟
+      MonolithDoor: 星石门
+      MonolithDresser: 星石梳妆台
+      MonolithLamp: 星石灯
+      MonolithLantern: 星石灯笼
+      MonolithPiano: 星石钢琴
+      MonolithPlatform: 星石平台
+      MonolithSink: 星石水槽
+      MonolithTable: 星石桌
+      MonolithWorkBench: 星石工作台
+      OtherworldlyBathtub: 异域浴缸
+      OtherworldlyBed: 异域床
+      OtherworldlyBookcase: 异域书架
+      OtherworldlyCandelabra: 异域烛台
+      OtherworldlyCandle: 异域蜡烛
+      OtherworldlyChair: 异域椅
+      OtherworldlyChandelier: 异域烛台
+      OtherworldlyChest: 异域箱
+      OtherworldlyClock: 异域钟
+      OtherworldlyDoor: 异域门
+      OtherworldlyDresser: 异域梳妆台
+      OtherworldlyLamp: 异域灯
+      OtherworldlyLantern: 异域灯笼
+      OtherworldlyPiano: 异域钢琴
+      OtherworldlyPlatform: 异域平台
+      OtherworldlySink: 异域水槽
+      OtherworldlySofa: 异域沙发
+      OtherworldlyStone: 异域石
+      OtherworldlyTable: 异域桌
+      OtherworldlyWorkBench: 异域工作台
+      BrokenPlaguedBed: 破损瘟疫“床”
+      PlaguedContainmentBrick: 瘟疫密封砖
+      PlaguedPlateBathtub: 瘟疫浴缸
+      PlaguedPlateBed: 瘟疫“床”
+      PlaguedPlateBookcase: 瘟疫书架
+      PlaguedPlateCandelabra: 瘟疫烛台
+      PlaguedPlateCandle: 瘟疫蜡烛
+      PlaguedPlateChair: 瘟疫椅
+      PlaguedPlateChandelier: 瘟疫吊灯
+      PlaguedPlateChest: 瘟疫箱
+      PlaguedPlateClock: 瘟疫钟
+      PlaguedPlateDoor: 瘟疫门
+      PlaguedPlateDresser: 瘟疫梳妆台
+      PlaguedPlateLamp: 瘟疫灯
+      PlaguedPlateLantern: 瘟疫灯笼
+      PlaguedPlatePiano: 瘟疫钢琴
+      PlaguedPlatePlatform: 瘟疫架
+      PlaguedPlateSink: 瘟疫水槽
+      PlaguedPlateSofa: 瘟疫沙发
+      PlaguedPlateTable: 瘟疫桌
+      PlaguedWorkBench: 瘟疫工作台
+      ProfanedBathtub: 渎神浴缸
+      ProfanedBed: 渎神床
+      ProfanedBench: 渎神长凳
+      ProfanedBookcase: 渎神书架
+      ProfanedCandelabra: 渎神烛台
+      ProfanedCandle: 渎神蜡烛
+      ProfanedChair: 渎神椅
+      ProfanedChandelier: 渎神吊灯
+      ProfanedChest: 渎神箱
+      ProfanedClock: 渎神钟
+      ProfanedCrystal: 渎神结晶
+      ProfanedDoor: 渎神门
+      ProfanedDresser: 渎神梳妆台
+      ProfanedLamp: 渎神灯
+      ProfanedLantern: 渎神灯笼
+      ProfanedPiano: 渎神钢琴
+      ProfanedPlatform: 渎神平台
+      ProfanedRock: 渎神石块
+      ProfanedSink: 渎神水槽
+      ProfanedSlab: 渎神石板
+      ProfanedTable: 渎神桌
+      ProfanedWorkbench: 渎神工作台
+      RunicProfanedBrick: 渎神符文砖
+      EyeOfTheAccursedBanner: 诅咒之眼旗帜
+      LargeRitualCandle: 大型仪式蜡烛
+      MonolithOfTheAccursed: 诅咒石柱
+      OccultBrickItem: 玄秘砖
+      OccultLegionnaireBanner: 玄秘军团旗帜
+      OccultPlatformItem: 玄秘平台
+      RitualCandle: 仪式蜡烛
+      SacrilegiousBathtub: 渎圣浴缸
+      SacrilegiousBed: 渎圣床
+      SacrilegiousBench: 渎圣长凳
+      SacrilegiousBookcase: 渎圣书架
+      SacrilegiousCandelabra: 渎圣烛台
+      SacrilegiousCandle: 渎圣蜡烛
+      SacrilegiousChair: 渎圣椅
+      SacrilegiousChandelier: 渎圣大吊灯
+      SacrilegiousChest: 渎圣箱
+      SacrilegiousClock: 渎圣钟
+      SacrilegiousDoor: 渎圣门
+      SacrilegiousDresser: 渎圣梳妆台
+      SacrilegiousLamp: 渎圣灯
+      SacrilegiousLantern: 渎圣灯笼
+      SacrilegiousOrgan: 渎圣钢琴
+      SacrilegiousSink: 渎圣水槽
+      SacrilegiousTable: 渎圣桌
+      SacrilegiousWorkBench: 渎圣工作台
+      SilvaBathtub: 始源林海浴缸
+      SilvaBed: 始源林海床
+      SilvaBench: 始源林海长凳
+      SilvaBookcase: 始源林海书架
+      SilvaCandelabra: 始源林海烛台
+      SilvaCandle: 始源林海蜡烛
+      SilvaChair: 始源林海椅
+      SilvaChandelier: 始源林海吊灯
+      SilvaChest: 始源林海箱
+      SilvaClock: 始源林海钟
+      SilvaCrystal: 始源林海晶块
+      SilvaDoor: 始源林海门
+      SilvaDresser: 始源林海梳妆台
+      SilvaLamp: 始源林海灯
+      SilvaLantern: 始源林海灯笼
+      SilvaPiano: 始源林海钢琴
+      SilvaPlatform: 始源林海平台
+      SilvaSink: 始源林海水槽
+      SilvaTable: 始源林海桌
+      SilvaWorkBench: 始源林海工作台
+      StatigelBathtub: 斯塔提斯浴缸
+      StatigelBed: 斯塔提斯床
+      StatigelBlock: 斯塔提斯块
+      StatigelBookcase: 斯塔提斯书架
+      StatigelCandelabra: 斯塔提斯烛台
+      StatigelCandle: 斯塔提斯蜡烛
+      StatigelChair: 斯塔提斯椅
+      StatigelChandelier: 斯塔提斯吊灯
+      StatigelChest: 斯塔提斯箱
+      StatigelClock: 斯塔提斯钟
+      StatigelDoor: 斯塔提斯门
+      StatigelDresser: 斯塔提斯梳妆台
+      StatigelLamp: 斯塔提斯灯
+      StatigelLantern: 斯塔提斯灯笼
+      StatigelPiano: 斯塔提斯钢琴
+      StatigelPlatform: 斯塔提斯平台
+      StatigelSink: 斯塔提斯水槽
+      StatigelSofa: 斯塔提斯沙发
+      StatigelTable: 斯塔提斯桌
+      StatigelWorkbench: 斯塔提斯工作台
+      StratusBathtub: 幻云浴缸
+      StratusBed: 幻云床
+      StratusBookcase: 幻云书架
+      StratusBricks: 幻云砖块
+      StratusCandelabra: 幻云烛台
+      StratusCandle: 幻云蜡烛
       StratusChair: Stratus Chair
       StratusChandelier: Stratus Chandelier
       StratusChest: Stratus Chest
