@@ -2119,7 +2119,7 @@ namespace CalamityCN
                 {"NavyplateWall", "沉沦石墙".zh()},
                 {"NavystoneWall", "危险沉沦渊石墙".zh()},
                 {"NavystoneWallSafe", "沉沦渊石墙".zh()},
-                {"OtherworldlyStoneWall", "幻云石墙".zh()},
+                {"OtherworldlyStoneWall", "异域石墙".zh()},
                 {"PerennialBrickWall", "永恒砖墙".zh()},
                 {"PinkBrickWallUnsafe", "危险粉砖墙".zh()},
                 {"PinkSlabWallUnsafe", "危险粉板墙".zh()},

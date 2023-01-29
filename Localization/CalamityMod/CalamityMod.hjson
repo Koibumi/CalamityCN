@@ -713,10 +713,10 @@
       AstralDirt: 星幻土块
       AstralIce: 星幻冰雪块
       AstralMonolith: 星幻木材
-      AstralSand: 星幻沙块
-      AstralSandstone: 星幻沙岩块
+      AstralSand: 星幻沙
+      AstralSandstone: 星幻沙岩
       AstralSnow: 星幻雪块
-      AstralStone: 星幻石块
+      AstralStone: 星幻石
       AcidEelBanner: 酸水鳗旗
       AeroSlimeBanner: 天蓝史莱姆旗
       AmberCrawlerBanner: 琥珀爬虫旗
@@ -1325,93 +1325,93 @@
       VoidDresser: 虚空梳妆台
       VoidLamp: 虚空灯
       VoidLantern: 虚空灯笼
-      VoidObelisk: Void Obelisk
+      VoidObelisk: 虚空钟
       VoidPiano: 虚空钢琴
       VoidSink: 虚空水槽
       VoidSofa: 虚空沙发
       VoidstoneSlab: 虚空石板
-      VoidTable: Void Table
-      VoidWorkbench: Void Workbench
-      HardenedAstralSand: Hardened Astral Sand
-      HardenedSulphurousSandstone: Hardened Sulphurous Sandstone
-      LivingBrimstoneFireBlock: Living Brimstone Fire Block
-      LivingGodSlayerFireBlock: Living God Slayer Fire Block
-      LivingHolyFireBlock: Living Holy Fire Block
-      DraedonsAmbienceMusicBox: Music Box (Draedon's Ambience)
-      Navystone: Navystone
-      NovaeSlag: Novae Slag
-      AerialiteOre: Aerialite Ore
-      AstralOre: Astral Ore
-      AuricOre: Auric Ore
-      CharredOre: Charred Ore
-      CryonicOre: Cryonic Ore
-      ExodiumCluster: Exodium Cluster
-      HallowedOre: Hallowed Ore
-      PerennialOre: Perennial Ore
-      ScoriaOre: Scoria Ore
-      UelibloomOre: Uelibloom Ore
-      PerennialBrick: Perennial Brick
-      PlantyMush: Planty Mush
-      Chaosplate: Chaosplate
-      Cinderplate: Cinderplate
-      Elumplate: Elumplate
-      Navyplate: Navyplate
-      Plagueplate: Plagueplate
-      PrismShard: Prism Shard
-      ScoriaBrick: Scoria Brick
-      SeaPrism: Sea Prism
-      SulphurousSand: Sulphurous Sand
-      SulphurousSandstone: Sulphurous Sandstone
-      Tenebris: Tenebris
-      UelibloomBrick: Uelibloom Brick
-      Voidstone: Voidstone
-      AbyssGravelWallItem: Abyss Gravel Wall
-      AcidwoodWallItem: Acidwood Wall
-      AerialiteBrickWall: Aerialite Brick Wall
-      AshenSlabWall: Ashen Slab Wall
-      AstralBrickWall: Astral Brick Wall
-      AstralDirtWall: Astral Dirt Wall
-      AstralGrassWall: Astral Grass Wall
-      AstralIceWall: Astral Ice Wall
-      AstralMonolithWall: Astral Monolith Wall
-      AstralSandstoneWall: Astral Sandstone Wall
-      AstralSnowWall: Astral Snow Wall
-      AstralStoneWall: Astral Stone Wall
-      BlueBrickWallUnsafe: Blue Brick Wall Unsafe
-      BlueSlabWallUnsafe: Blue Slab Wall Unsafe
-      BlueTiledWallUnsafe: Blue Tiled Wall Unsafe
-      BrimstoneSlagWall: Brimstone Slag Wall
-      CelestialRemainsWall: Celestial Remains Wall
-      ChaosplateWall: Chaosplate Wall
-      CinderplateWall: Cinderplate Wall
-      CosmiliteBrickWall: Cosmilite Brick Wall
-      CryonicBrickWall: Cryonic Brick Wall
-      HazardChevronWall: Hazard Chevron Wall
-      LaboratoryPanelWall: Laboratory Panel Wall
-      LaboratoryPlateBeam: Laboratory Plate Beam
-      LaboratoryPlatePillar: Laboratory Plate Pillar
-      LaboratoryPlatingWall: Laboratory Plating Wall
-      RustedPlateBeam: Rusted Plate Beam
-      RustedPlatePillar: Rusted Plate Pillar
-      RustedPlatingWall: Rusted Plating Wall
-      ElumplateWall: Elumplate Wall
-      EutrophicSandWall: Unsafe Eutrophic Sand Wall
-      EutrophicSandWallSafe: Eutrophic Sand Wall
-      ExoPlatingWallItem: Exo Plating Wall
-      ExoPrismPanelWallItem: Exo Prism Panel Wall
-      FloralWall: Floral Wall
-      GreenBrickWallUnsafe: Green Brick Wall Unsafe
-      GreenSlabWallUnsafe: Green Slab Wall Unsafe
-      GreenTiledWallUnsafe: Green Tiled Wall Unsafe
-      HardenedAstralSandWall: Hardened Astral Sand Wall
-      HardenedSulphurousSandstoneWall: Hardened Sulphurous Sandstone Wall
-      NavyplateWall: Navyplate Wall
-      NavystoneWall: Unsafe Navystone Wall
-      NavystoneWallSafe: Navystone Wall
-      OccultBrickWallItem: Occult Brick Wall
-      OtherworldlyStoneWall: Otherworldly Stone Wall
-      PerennialBrickWall: Perennial Brick Wall
-      PinkBrickWallUnsafe: Pink Brick Wall Unsafe
+      VoidTable: 虚空桌
+      VoidWorkbench: 虚空工作台
+      HardenedAstralSand: 硬化星幻沙
+      HardenedSulphurousSandstone: 硬化硫磺沙岩
+      LivingBrimstoneFireBlock: 永燃硫磺火
+      LivingGodSlayerFireBlock: 永燃弑神火
+      LivingHolyFireBlock: 永燃圣火
+      DraedonsAmbienceMusicBox: 音乐盒（嘉登的格调）
+      Navystone: 沉沦渊石
+      NovaeSlag: 新星熔渣
+      AerialiteOre: 天蓝矿
+      AstralOre: 炫星矿
+      AuricOre: 圣金源矿
+      CharredOre: 焦炭矿
+      CryonicOre: 寒元矿
+      ExodiumCluster: 起源之簇
+      HallowedOre: 神圣矿
+      PerennialOre: 永恒矿
+      ScoriaOre: 熔渣矿
+      UelibloomOre: 龙蒿矿
+      PerennialBrick: 永恒砖
+      PlantyMush: 植物混融块
+      Chaosplate: 混沌石
+      Cinderplate: 狱烬石
+      Elumplate: 永冻石
+      Navyplate: 沉沦石
+      Plagueplate: 疫病石
+      PrismShard: 棱晶碎片
+      ScoriaBrick: 熔渣砖
+      SeaPrism: 海棱晶
+      SulphurousSand: 硫磺沙
+      SulphurousSandstone: 硫磺沙岩
+      Tenebris: 黑渊石
+      UelibloomBrick: 龙蒿砖
+      Voidstone: 虚空石
+      AbyssGravelWallItem: 深渊砾石墙
+      AcidwoodWallItem: 酸蚀木墙
+      AerialiteBrickWall: 天蓝砖墙
+      AshenSlabWall: 灰烬石板墙
+      AstralBrickWall: 星幻砖墙
+      AstralDirtWall: 星幻土墙
+      AstralGrassWall: 星幻草墙
+      AstralIceWall: 星幻冰晶墙
+      AstralMonolithWall: 星幻木墙
+      AstralSandstoneWall: 星幻沙岩墙
+      AstralSnowWall: 星幻雪墙
+      AstralStoneWall: 星幻石墙
+      BlueBrickWallUnsafe: 危险蓝砖墙
+      BlueSlabWallUnsafe: 危险蓝板墙
+      BlueTiledWallUnsafe: 危险蓝瓷砖墙
+      BrimstoneSlagWall: 硫火板墙
+      CelestialRemainsWall: 星界残骸墙
+      ChaosplateWall: 混沌石墙
+      CinderplateWall: 狱烬石墙
+      CosmiliteBrickWall: 宇宙砖墙
+      CryonicBrickWall: 寒元砖墙
+      HazardChevronWall: 警戒墙
+      LaboratoryPanelWall: 实验室板块墙
+      LaboratoryPlateBeam: 实验室板梁
+      LaboratoryPlatePillar: 实验室板柱
+      LaboratoryPlatingWall: 实验室板墙
+      RustedPlateBeam: 生锈板梁
+      RustedPlatePillar: 生锈板柱
+      RustedPlatingWall: 生锈板墙
+      ElumplateWall: 永冻石墙
+      EutrophicSandWall: 危险富营养沙墙
+      EutrophicSandWallSafe: 富营养沙墙
+      ExoPlatingWallItem: 星流镶板墙
+      ExoPrismPanelWallItem: 星流棱晶镶板墙
+      FloralWall: 繁花墙
+      GreenBrickWallUnsafe: 危险绿砖墙
+      GreenSlabWallUnsafe: 危险绿板墙
+      GreenTiledWallUnsafe: 危险绿瓷砖墙
+      HardenedAstralSandWall: 硬化星幻沙墙
+      HardenedSulphurousSandstoneWall: 硬化硫磺沙岩墙
+      NavyplateWall: 沉沦石墙
+      NavystoneWall: 危险沉沦渊石墙
+      NavystoneWallSafe: 沉沦渊石墙
+      OccultBrickWallItem: 玄秘砖墙
+      OtherworldlyStoneWall: 异域石墙
+      PerennialBrickWall: 永恒砖墙
+      PinkBrickWallUnsafe: 危险粉砖墙
       PinkSlabWallUnsafe: Pink Slab Wall Unsafe
       PinkTiledWallUnsafe: Pink Tiled Wall Unsafe
       PlagueContainmentCellsWall: Plagueplate Wall
