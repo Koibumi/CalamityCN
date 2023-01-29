@@ -2129,7 +2129,7 @@ namespace CalamityCN
                 {"ProfanedCrystalWall", "渎神结晶墙".zh()},
                 {"ProfanedRockWall", "渎神石墙".zh()},
                 {"ProfanedSlabWall", "渎神石板墙".zh()},
-                {"RunicProfanedBrickWall", "渎神符文砖砖墙".zh()},
+                {"RunicProfanedBrickWall", "渎神符文砖墙".zh()},
                 {"RustedPlatingWall", "生锈板墙".zh()},
                 {"SilvaWall", "始源林海墙".zh()},
                 {"SmoothAbyssGravelWall", "平滑深渊砾石墙".zh()},
