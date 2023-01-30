@@ -992,7 +992,7 @@ namespace CalamityCN
                 { "Svantechnical", "发射出巨量子弹\n右击以扩大视野".zh() },
                 { "TelluricGlare", "发射四支可穿透物块的爆炸辐射箭".zh() },
                 { "TerraFlameburster", "80%几率不消耗凝胶".zh() },
-                { "TheBallista", "将木箭转化为攻城巨箭，击碎敌人的装甲，并碎裂为化石碎片".zh() },
+                { "TheBallista", "将木箭转化为能击碎敌人的装甲并且会碎裂为化石碎片的破城巨箭".zh() },
                 { "TheEmpyrean", "70%几率不消耗凝胶".zh() },
                 { "TheHive", "发射多种瘟疫火箭\n爆炸时生成瘟疫蜜蜂\n当使用可摧毁物块的弹药时火箭会破坏物块".zh() },
                 { "ThePack", "发射一个大的追踪火箭，接近敌人时爆炸出小的追踪火箭".zh() },
