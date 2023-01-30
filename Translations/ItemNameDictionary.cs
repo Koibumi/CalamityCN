@@ -1154,7 +1154,7 @@ namespace CalamityCN
                 {"Svantechnical", "斯万科技枪".zh()},
                 {"TelluricGlare", "地核之炎".zh()},
                 {"TerraFlameburster", "泰拉喷火器".zh()},
-                {"TheBallista", "城弩".zh()},
+                {"TheBallista", "攻城弓".zh()},
                 {"TheEmpyrean", "神之风箱".zh()},
                 {"TheHive", "蜂巢发射器".zh()},
                 {"ThePack", "集束火箭".zh()},
