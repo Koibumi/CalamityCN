@@ -798,8 +798,8 @@ ItemTooltip:
       ForbiddenAxeBlade: 禁忌斧刃
       ForbiddenSunburst: 禁忌阳炎爆
       ForbiddenSunProjectile: 禁忌之阳
-      FrigidflashBoltProjectile: 寒流
-      FrostBoltProjectile: 霜冻球
+      FrigidflashBoltProjectile: 冰火矢
+      FrostBoltProjectile: 冰矢
       GammaLaser: 射命之光
       GhastlyBlast: 幽魂能量球
       GhastlyExplosion: 幽魂爆炸
