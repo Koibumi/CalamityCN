@@ -87,8 +87,8 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "ARES-09: PREPARING 'PRECISION GAMMA-BLASTS' MUTUAL DESTRUCTION PROTOCOL.", "阿瑞斯-09：准备启用“精准伽马射线”互毁协定。");
             QuickTranslate(typeof(AresBodyBehaviorOverride), "DoBehavior_PrecisionBlasts", "You have made a grave miscalculation.", "你犯了个严重的错误。");
             // Apollo & Artemis
-            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "ARTEMIS-01: COMBINED ENERGY RESERVES AT LOW CAPACITY. SYSTEM FAILURE IMMINENT.", "阿尔忒弥斯-01：联合能量储备过低，即将发生系统故障。");
-            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThemonuclearBlitz", "APOLLO-03: PREPARING 'THERMONUCLEAR BLITZ' MUTUAL DESTRUCTION PROTOCOL.", "阿波罗-03：准备启用“热核闪击”互毁协定。");
+            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThermonuclearBlitz", "ARTEMIS-01: COMBINED ENERGY RESERVES AT LOW CAPACITY. SYSTEM FAILURE IMMINENT.", "阿尔忒弥斯-01：联合能量储备过低，即将发生系统故障。");
+            QuickTranslate(typeof(ApolloBehaviorOverride), "DoBehavior_ThermonuclearBlitz", "APOLLO-03: PREPARING 'THERMONUCLEAR BLITZ' MUTUAL DESTRUCTION PROTOCOL.", "阿波罗-03：准备启用“热核闪击”互毁协定。");
             // Thanatos
             QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: EXO TURRETS BURNING AT UNSTABLE ENERGY LEVELS. SELF DESTRUCTION IMMINENT.", "塔纳托斯-05：星流炮塔在不稳定能量水平下燃烧，即将自毁。");
             QuickTranslate(typeof(ThanatosHeadBehaviorOverride), "DoBehavior_MaximumOverdrive", "THANATOS-05: PREPARING 'MAXIMUM OVERDRIVE CHARGE' MUTUTAL DESTRUCTION PROTOCOL.", "塔纳托斯-05：准备启用“极限过载冲击”互毁协定。");
