@@ -7,6 +7,7 @@ using Terraria.ID;
 using CalamityMod.Items.SummonItems;
 using InfernumMode.Content.Items.Relics;
 using InfernumMode.Content.Items;
+using InfernumMode.Content.Items.Pets;
 
 namespace CalamityCN.Translations.InfernumMode
 {
@@ -34,6 +35,10 @@ namespace CalamityCN.Translations.InfernumMode
 
 			foreach (TooltipLine line in tooltips)
 			{
+                if (item.type == ModContent.ItemType<BlastedTophat>())
+				{
+					line.Text = line.Text.Replace("Developer Item", "开发者物品");
+				}
 				if (item.type == ModContent.ItemType<Wayfinder>())
                 {
 					line.Text = line.Text.Replace("Hold LMB to teleport to the gate", "按住左键传送到魔法门");
@@ -54,12 +59,12 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedCore", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.ProvidenceRelic>())
+				if (item.type == ModContent.ItemType<ProvidenceRelic>())
 				{
 					line.Text = line.Text.Replace("The first major hurdle following the defeat of the Moon Lord. Your triumph over her was by no means a small feat.\nPerhaps consider fighting her again during the night for a special challenge?", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProvidenceRelic.0", Array.Empty<object>()));
 					line.Text = line.Text.Replace("Bruh? What the heck? Are you OK?\nYou were supposed to fight her at night AFTER beating her during the day first!", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProvidenceRelic.HasBeatedInfernumNightProvBeforeDay", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.DraedonRelic>())
+				if (item.type == ModContent.ItemType<DraedonRelic>())
 				{
 					line.Text = line.Text.Replace("You have done phenomenally. There is only one challenge left now-\nFace the Witch.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.DraedonRelic.0", Array.Empty<object>()));
 					line.Text = line.Text.Replace("Spectacular work. You have conquered all of the major obstacles.\nTake pride in this accomplishment, for you are considerably stronger than you were when you began.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.DraedonRelic.DownedSCal", Array.Empty<object>()));
@@ -89,7 +94,7 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("You have done very well thus far.\nMay your tenacity guide you through the remaining challenges.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.MoonLordRelic", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.OldDukeRelic>())
+				if (item.type == ModContent.ItemType<OldDukeRelic>())
 				{
 					line.Text = line.Text.Replace("Difficult as the fight may be, you were wise to endure and overcome the challenge it brings.\nYou will find that the mechanics it tested will be relevant again soon.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.OldDukeRelic", Array.Empty<object>()));
 				}
@@ -101,7 +106,7 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("The first major roadblock. You are better now than before you faced it. Did you have fun learning its patterns?", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.SkeletronRelic", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<CalamityMod.Items.Placeables.Furniture.BossRelics.DevourerOfGodsRelic>())
+				if (item.type == ModContent.ItemType<DevourerOfGodsRelic>())
 				{
 					line.Text = line.Text.Replace("Sometimes pure reaction skill is the most valuable thing to cultivate.\nYou are in the final stretch. Your determination has proven invaluable up to this point.\nMay it guide you through the last challenges.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.DevourerOfGodsRelic", Array.Empty<object>()));
 				}
