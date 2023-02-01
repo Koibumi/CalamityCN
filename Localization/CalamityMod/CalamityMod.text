@@ -1673,96 +1673,96 @@
       IceBarrage: 寒冰弹幕
       IcicleStaff: 冰坠法杖
       IcicleTrident: 冰坠三叉戟
-      InfernalRift: Infernal Rift
-      IonBlaster: Ion Blaster
-      Keelhaul: Keelhaul
-      LashesofChaos: Lashes of Chaos
-      Lazhar: Lazhar
-      LightGodsBrilliance: Light God's Brilliance
-      MadAlchemistsCocktailGlove: Mad Alchemist's Cocktail Glove
-      MagnaCannon: Magna Cannon
-      MagneticMeltdown: Magnetic Meltdown
-      ManaRose: Mana Rose
-      Miasma: Miasma
-      Mistlestorm: Mistlestorm
-      NanoPurge: Nano Purge
-      NightsRay: Night's Ray
-      NuclearFury: Nuclear Fury
-      ParasiticSceptor: Parasitic Scepter
-      PhantasmalFury: Phantasmal Fury
-      PhoenixFlameBarrage: Phoenix Flame Barrage
-      PlagueStaff: Plague Staff
-      PlasmaRifle: Plasma Rifle
-      PlasmaRod: Plasma Rod
-      Poseidon: Poseidon
-      PrimordialAncient: Primordial Ancient
-      PrimordialEarth: Primordial Earth
-      PurgeGuzzler: Purge Guzzler
-      RainbowPartyCannon: Rainbow Party Cannon
-      Rancor: Rancor
-      RecitationoftheBeast: Recitation of the Beast
-      RelicofRuin: Relic of Ruin
-      RougeSlash: Rouge Slash
-      SanguineFlare: Sanguine Flare
-      SeethingDischarge: Seething Discharge
-      Serpentine: Serpentine
-      ShadecrystalTome: Shadecrystal Barrage
-      ShaderainStaff: Shaderain Staff
-      ShadowboltStaff: Shadowbolt Staff
-      ShiftingSands: Shifting Sands
+      InfernalRift: 狱炎裂空
+      IonBlaster: 离子冲击波
+      Keelhaul: 斥责法杖
+      LashesofChaos: 混乱火鞭
+      Lazhar: 拉扎尔射线
+      LightGodsBrilliance: 圣神光辉
+      MadAlchemistsCocktailGlove: 炼金狂人的手套
+      MagnaCannon: 麦格纳炮
+      MagneticMeltdown: 磁场之融
+      ManaRose: 魔法玫瑰
+      Miasma: 瘴气
+      Mistlestorm: 槲叶暴风
+      NanoPurge: 纳米净化
+      NightsRay: 永夜射线
+      NuclearFury: 原核之怒
+      ParasiticSceptor: 寄生权杖
+      PhantasmalFury: 幻象之怒
+      PhoenixFlameBarrage: 星火凤凰雨
+      PlagueStaff: 瘟疫法杖
+      PlasmaRifle: 等离子步枪
+      PlasmaRod: 等离子射线
+      Poseidon: 波塞冬
+      PrimordialAncient: 始源之遗
+      PrimordialEarth: 始源之尘
+      PurgeGuzzler: 净化激光炮
+      RainbowPartyCannon: 彩虹派对加农炮
+      Rancor: 怨戾
+      RecitationoftheBeast: 狂野复诵
+      RelicofRuin: 遗迹圣物
+      RougeSlash: 殷红鞭笞
+      SanguineFlare: 猩红烈焰
+      SeethingDischarge: 沸腾之火
+      Serpentine: 海蟒咒书
+      ShadecrystalTome: 暗晶风暴
+      ShaderainStaff: 腐蚀之雨法杖
+      ShadowboltStaff: 影流法杖
+      ShiftingSands: 移沙接土
       SHPC: SHPC
-      SkyGlaze: Sky Glaze
-      SlitheringEels: Slithering Eels
-      SnowstormStaff: Snowstorm Staff
-      SoulPiercer: Soul Piercer
-      StaffofBlushie: Staff of Blushie
-      Starfall: Starfall
-      StormSpray: Storm Spray
-      SubsumingVortex: Subsuming Vortex
-      TacticiansTrumpCard: Tactician's Trump Card
-      TearsofHeaven: Tears of Heaven
-      TerraRay: Terra Ray
-      TheDanceofLight: The Dance of Light
-      ThePrince: The Prince
-      TheSwarmer: The Swarmer
-      TheWand: The Wand
-      ThornBlossom: Thorn Blossom
-      Thunderstorm: Thunderstorm
-      TomeofFates: Tome of Fates
-      Tradewinds: Tradewinds
-      UltraLiquidator: Ultra Liquidator
-      UndinesRetribution: Undine's Retribution
-      ValkyrieRay: Valkyrie Ray
-      Vehemence: Vehemence
-      VenusianTrident: Venusian Trident
-      Vesuvius: Vesuvius
-      Viscera: Viscera
-      VitriolicViper: Vitriolic Viper
-      VividClarity: Vivid Clarity
-      VoidVortex: Void Vortex
-      VoltaicClimax: Voltaic Climax
-      Waywasher: Waywasher
-      Wingman: Wingman
-      WintersFury: Winter's Fury
-      WrathoftheAncients: Wrath of the Ancients
-      WulfrumProsthesis: Wulfrum Prosthesis
-      WyvernsCall: Wyvern's Call
-      YharimsCrystal: Yharim's Crystal
-      AbsoluteZero: Absolute Zero
-      AbyssBlade: Abyss Blade
-      AegisBlade: Aegis Blade
-      Aftershock: Aftershock
-      AirSpinner: Air Spinner
-      AmidiasTrident: Amidias' Trident
-      AnarchyBlade: Anarchy Blade
-      Aorta: Aorta
-      AquaticDischarge: Aquatic Discharge
-      ArkoftheCosmos: Ark of the Cosmos
-      ArkoftheElements: Ark of the Elements
-      AstralBlade: Astral Blade
-      AstralPike: Astral Pike
-      AstralScythe: Astral Scythe
-      Ataraxia: Ataraxia
+      SkyGlaze: 天空之羽
+      SlitheringEels: 蜿蜒酸鳗
+      SnowstormStaff: 冰晶风暴
+      SoulPiercer: 灵魂穿透者
+      StaffofBlushie: 蓝链魂火杖
+      Starfall: 流星雨
+      StormSpray: 水流喷射
+      SubsumingVortex: 归元漩涡
+      TacticiansTrumpCard: 战术家的王牌
+      TearsofHeaven: 天堂之泪
+      TerraRay: 泰拉射线
+      TheDanceofLight: 光之舞
+      ThePrince: “王子”
+      TheSwarmer: 蜂群
+      TheWand: 神杖·暴风灼炎
+      ThornBlossom: 荆棘烁兰
+      Thunderstorm: 雷暴雨
+      TomeofFates: 命运之手
+      Tradewinds: 信风
+      UltraLiquidator: 终结裂空戟
+      UndinesRetribution: 深渊女神之复仇
+      ValkyrieRay: 女武神权杖
+      Vehemence: 狞桀
+      VenusianTrident: 金星三叉戟
+      Vesuvius: 维苏威阿斯
+      Viscera: 心泵血杖
+      VitriolicViper: 酸蚀毒蝰
+      VividClarity: 耀界之光
+      VoidVortex: 虚空漩涡
+      VoltaicClimax: 极点光伏
+      Waywasher: 清道夫
+      Wingman: 侧翼
+      WintersFury: 凛冬之怒
+      WrathoftheAncients: 远古之怒
+      WulfrumProsthesis: 钨钢义肢
+      WyvernsCall: 飞龙之歌
+      YharimsCrystal: 魔君水晶
+      AbsoluteZero: 绝对零度
+      AbyssBlade: 深渊之刃
+      AegisBlade: 庇护之刃
+      Aftershock: 余震
+      AirSpinner: 空旋
+      AmidiasTrident: 海王三叉戟
+      AnarchyBlade: 混乱之刃
+      Aorta: 大动脉
+      AquaticDischarge: 水电剑
+      ArkoftheCosmos: 鸿蒙方舟
+      ArkoftheElements: 元素方舟
+      AstralBlade: 幻星刃
+      AstralPike: 幻星矛
+      AstralScythe: 幻星镰
+      Ataraxia: 禅心剑
       Avalanche: Avalanche
       Azathoth: Azathoth
       BalefulHarvester: Baleful Harvester
