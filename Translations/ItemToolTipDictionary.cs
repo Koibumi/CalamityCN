@@ -1567,6 +1567,8 @@ namespace CalamityCN
                 {"WulfrumPylonBanner", "{$CommonItemTooltip.BannerBonus}钨钢充能塔".zh() },
                 {"WulfrumRoverBanner", "{$CommonItemTooltip.BannerBonus}钨钢漫步者".zh() },
                 
+		{ "MycelialClaws", "击中敌怪时获得6秒与菇共生增益".zh() },
+		    
                 //大师遗物
                 {"AquaticScourgeRelic", "对它未来模样的一瞥……".zh()},
                 {"DesertScourgeRelic", "对它未来模样的一瞥……".zh()},
