@@ -38,10 +38,19 @@ namespace CalamityCN.Translations.InfernumMode
         private string GetNPCFullNameFromID(GetNPCFullNameFromIDDelegate orig, int id)
         {
             if (id < NPCID.Count)
-                return NPC.GetFullnameByID(id);
+            {
+                return id switch
+                {
+                    NPCID.Spazmatism => "双子魔眼",
+                    NPCID.MoonLordCore => "月亮领主",
+                    _ => NPC.GetFullnameByID(id)
+                };
+            }
 
             return NPCLoader.GetNPC(id).DisplayName.GetDefault() switch
             {
+                "Guardian Commander" => "Profaned Guardians",
+                //其他的看看游戏内名字吧（
                 "Desert Scourge" => "荒漠灾虫",
                 _ => NPCLoader.GetNPC(id).DisplayName.GetDefault()
             };
