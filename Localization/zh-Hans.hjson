@@ -3,6 +3,7 @@ Mods: {
 CalamityCN: {
  InfernumMode: {
     CombatTexts: {
+        #之前的弹出提示文本，聊天栏文本就寄了。
         #史莱姆王
         0: 你离忍者越远，他就会扔更多飞镖，所以不要离太远！
         1: 试着熟悉史莱姆王的跳跃规律，这有利于规划你的走位。
@@ -236,7 +237,7 @@ CalamityCN: {
             享受乐趣是最重要的。
             '''
         EmpressOfLightRelic: 那些可选性的敌人有时可能很难对付。击败他们也可能会拥有很高的收益。
-        GolemRelic: Simple methodical planning goes a long way. It will be invaluable against future obstacles.
+        GolemRelic: 还有很长的路要走，有条不紊的计划将有助于克服未来的障碍。
         KingSlimeRelic: 即使是经验再丰富的玩家，面对陌生的挑战也会不熟练。适应力是关键。
         MoonLordRelic: 
             '''
