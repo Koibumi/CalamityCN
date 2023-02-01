@@ -5,6 +5,7 @@ using InfernumMode;
 using ReLogic.Graphics;
 using Terraria;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityCN.Translations.InfernumMode
@@ -49,10 +50,8 @@ namespace CalamityCN.Translations.InfernumMode
 
             return NPCLoader.GetNPC(id).DisplayName.GetDefault() switch
             {
-                "Guardian Commander" => "Profaned Guardians",
-                //其他的看看游戏内名字吧（
-                "Desert Scourge" => "荒漠灾虫",
-                _ => NPCLoader.GetNPC(id).DisplayName.GetDefault()
+                "Guardian Commander" => "亵渎守卫",
+                _ => NPCLoader.GetNPC(id).DisplayName.GetTranslation((int)GameCulture.CultureName.Chinese)
             };
         }
 
