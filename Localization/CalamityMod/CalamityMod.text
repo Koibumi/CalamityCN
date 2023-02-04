@@ -1910,7 +1910,7 @@
       Tumbleweed: 风滚草
       TyphonsGreed: 贪魂台风
       TyrantYharimsUltisword: 暴君亚利姆之巨刃
-      UltimusCleaver:斩首者
+      UltimusCleaver: 斩首者
       UrchinFlail: 海胆链球
       UrchinMace: 海胆链枷
       VeinBurster: 静脉爆裂
@@ -2304,7 +2304,7 @@
       TacticalPlagueEngine: 战术瘟疫引擎
       TemporalUmbrella: 光阴流时伞
       TundraFlameBlossomsStaff: 永冻之焱华
-      UniverseSplitter:渊宇天基炮
+      UniverseSplitter: 渊宇天基炮
       Vigilance: 恂戒
       VileFeeder: 腐化吞噬者
       ViralSprout: 剧毒芽孢
@@ -2312,7 +2312,7 @@
       VoidConcentrationStaff: 幽冥统御
       WarloksMoonFist: Warloks的月亮之拳
       WitherBlossomsStaff: 凋零绽放法杖
-      WulfrumController:钨钢控制器
+      WulfrumController: 钨钢控制器
       YharonsKindleStaff: 巨龙七星灯
       Aestheticus: 美学魔杖
       EyeofMagnus: 玛格努斯之眼
@@ -11523,602 +11523,602 @@
     }
     BuffName:
     {
-      AlcoholPoisoning: Alcohol Poisoning
-      BloodyMaryBuff: Bloody Mary
-      CaribbeanRumBuff: Caribbean Rum
-      CinnamonRollBuff: Cinnamon Roll
-      EverclearBuff: Everclear
-      EvergreenGinBuff: Evergreen Gin
-      FabsolVodkaBuff: Fab
-      FireballBuff: Fireball
-      GrapeBeerBuff: Grape Beer
-      MargaritaBuff: Margarita
-      MoonshineBuff: Moonshine
-      MoscowMuleBuff: Moscow Mule
-      RedWineBuff: Red Wine
-      RumBuff: Rum
-      ScrewdriverBuff: Screwdriver
-      StarBeamRyeBuff: Star Beam Rye
-      TequilaBuff: Tequila
-      TequilaSunriseBuff: Tequila Sunrise
-      Trippy: Trippy
-      VodkaBuff: Vodka
-      WhiskeyBuff: Whiskey
-      WhiteWineBuff: White Wine
-      Withered: Withered
-      AstralInfectionDebuff: Astral Infection
-      BanishingFire: Banishing Fire
-      BrimstoneFlames: Brimstone Flames
-      BurningBlood: Burning Blood
-      CrushDepth: Crush Depth
-      DemonFlames: Demon Flames
-      Dragonfire: Dragonfire
-      GodSlayerInferno: God Slayer Inferno
-      HolyFlames: Holy Flames
-      HolyInferno: Holy Inferno
-      ManaBurn: Mana Burn
-      Nightwither: Nightwither
-      Plague: Plague
-      SagePoison: Sage Poison
-      SearingLava: Searing Lava
-      Shadowflame: Shadowflame
-      ShellfishClaps: Shellfish Claps
-      Shred: Shred
-      SnapClamDebuff: Clammed
-      SulphuricPoisoning: Sulphuric Poisoning
-      Vaporfied: Vaporfied
-      VulnerabilityHex: Vulnerability Hex
-      WeakBrimstoneFlames: Weak Brimstone Flames
-      AlicornBuff: Alicorn
-      AndromedaBuff: Andromeda
-      AndromedaSmallBuff: Andromeda
-      BrimroseMount: Brimrose Mount
-      BumbledogeMount: Bumbledoge
-      DraedonGamerChairBuff: Exo Chair
-      GazeOfCrysthamyrBuff: Gaze of Crysthamyr
-      MarniteLiftBuff: Marnite Lift
-      OnyxExcavatorBuff: Onyx Excavator
-      RimehoundBuff: Rimehound
-      SquishyBeanBuff: Squishy Bean
-      TheCartofGodsBuff: The Cart of Gods
-      AkatoBuff: Akato
-      ArcherofLunamoon: Archer of Lunamoon
-      AstrophageBuff: Astrophage
-      BabyGhostBellBuff: Baby Ghost Bell
-      BearBuff: Bear
-      BloodBound: Blood Bound
-      BrimlingBuff: Brimling
-      ChibiiDoGBuff: Chibii Devourer
-      ClassicSCalPetBuff: Classic Supreme Calamitas
-      DannyDevito: Danny Devito
-      Dreamfog: Dreamfog
-      ElectricTroublemaker: Electric Troublemaker
-      FlakHermitBuff: Flak Hermit
-      FoxPetBuff: Fox Pet
-      FurtasticDuoBuff: Furtastic Duo
-      Kendra: Kendra
-      LadBuff: The Father
-      LeviBuff: Levi
-      LittleLightBuff: Little Light
-      MiniMindBuff: Mini Mind
-      OceanSpiritBuff: Ocean Spirit
-      PineappleBuff: Pineapple
-      PlaguebringerBabBuff: Plaguebringer Bab
-      RadiatorBuff: Radiator
-      ReaverOrbBuff: Reaver Orb
-      SparksBuff: Sparks
-      ThirdSageBuff: Third Sage
-      YharonSonBuff: Son of Yharon
-      ChaosCandleBuff: Chaos Candle
-      CirrusBlueCandleBuff: Limber
-      CirrusPinkCandleBuff: Vigor
-      CirrusPurpleCandleBuff: Resilience
-      CirrusYellowCandleBuff: Spite
-      CorruptionEffigyBuff: Corruption Effigy
-      CrimsonEffigyBuff: Crimson Effigy
-      EffigyOfDecayBuff: Effigy of Decay
-      TranquilityCandleBuff: Tranquility Candle
-      PopoBuff: Popo
-      PopoNoselessBuff: Noseless Popo
-      AbyssalWeapon: Weapon Imbue: Brimstone
-      AnechoicCoatingBuff: Anechoic Coating
-      ArmorCrumbling: Weapon Imbue: Crumbling
-      AstralInjectionBuff: Astral Injection
-      BaguetteBuff: Baguette
-      BloodfinBoost: Bloodfin Boost
-      BoundingBuff: Bounding
-      CadancesGrace: Cadance's Grace
-      CalciumBuff: Calcium
-      CeaselessHunger: Ceaseless Hunger
-      DraconicSurgeBuff: Draconic Surge
-      GravityNormalizerBuff: Gravity Normalizer
-      HolyWrathBuff: Holy Wrath
-      Omniscience: Omniscience
-      PenumbraBuff: Penumbra
-      PhotosynthesisBuff: Photosynthesis
-      ProfanedRageBuff: Profaned Rage
-      ShadowBuff: Shadow
-      Soaring: Soaring
-      SulphurskinBuff: Sulphurskin
-      TeslaBuff: Tesla's Electricity
-      TitanScale: Titan Scale
-      TriumphBuff: Triumph
-      YharimPower: Yharim's Power
-      Zen: Zen
-      Zerg: Zerg
-      RancorBurn: Rancor Burn
-      AbyssalDivingSuitBuff: Abyssal Diving Suit
-      AbyssalDivingSuitPlates: Abyssal Diving Suit Plates
-      AbyssalMadness: Abyssal Madness
-      AdrenalineMode: Adrenaline Mode
-      Afflicted: Afflicted
-      AmidiasBlessing: Amidias' Blessing
-      AquaticHeartBuff: Water Elemental
-      AquaticHeartWaterSpeed: Ocean's Blessing
-      AvertorBonus: Avertor Bonus
-      BloodflareBloodFrenzy: Blood Frenzy
-      BloodyBoost: Bloody Boost
-      BossEffects: Boss Effects
-      BrimflameFrenzyBuff: Brimflame Frenzy
-      ChiBuff: Chi
-      CoralSymbiosis: Coral Symbiosis
-      CosmicFreeze: Cosmic Freeze
-      DivineBless: Divine Bless
-      ElysianGuard: Elysian Guard
-      EmpyreanRage: Empyrean Rage
-      EmpyreanWrath: Empyrean Wrath
-      Encased: Encased
-      GraxBoost: Grax Boost
-      HallowedRuneDefense: Hallowed Defense
-      HallowedRunePower: Hallowed Power
-      HallowedRuneRegeneration: Hallowed Regen
-      IceShieldBuff: Ice Shield
-      KamiBuff: Kami Injection
-      Molten: Molten
-      Mushy: Mushy
-      PhantomicEmpowerment: Phantomic Empowerment
-      PhantomicRegen: Phantomic Regen
-      PhantomicShield: Phantomic Shield
-      PolarisBuff: Polaris Boost
-      ProfanedCrystalBuff: Devotion
-      RageMode: Rage Mode
-      ReaverRage: Reaver Rage
-      ShellBoost: Shell Speed Boost
-      SilvaRevival: Silva Immunity
-      SpiritDefense: Spirit Defense
-      SpiritPower: Spirit Power
-      SpiritRegen: Spirit Regen
-      TarragonCloak: Tarragon Cloak
-      TarragonImmunity: Tarragon Immunity
-      TarraLifeRegen: Tarra Life
-      TyrantsFury: Tyrant's Fury
-      AndromedaCripple: Andromeda Cripple
-      ArmorCrunch: Armor Crunch
-      Clamity: Clamity
-      DoGExtremeGravity: Extreme Gravity
-      Enraged: Enraged
-      Eutrophication: Eutrophication
-      ExoFreeze: Exo Freeze
-      FishAlert: Fish Alert
-      FrozenLungs: Frozen Lungs
-      GlacialState: Glacial State
-      IcarusFolly: Icarus' Folly
-      Irradiated: Irradiated
-      KamiFlu: Kami Flu
-      MarkedforDeath: Marked for Death
-      PearlAura: Pearl Aura
-      ProfanedWeakness: Profaned Weakness
-      TemporalSadness: Temporal Sadness
-      TeslaFreeze: Galvanic Corrosion
-      TimeDistortion: Time Distortion
-      Warped: Warped
-      WeakPetrification: Weak Petrification
-      WhisperingDeath: Whispering Death
-      WitherDebuff: Wither
-      AbandonedSlimeBuff: Astral Jelly
-      AncientMineralSharkBuff: Ancient Mineral Shark
-      AquaticStar: Aquatic Star
-      AstralProbeBuff: Astral Probe
-      BabyBloodCrawlerBuff: Baby Blood Crawler
-      BabySlimeGodBuff: Baby Slime God
-      BabyStormlionBuff: Baby Stormlion
-      BelladonnaSpiritBuff: Belladonna Spirit
-      BlackHawkBuff: Black Hawk
-      BloodClot: Blood Clot
-      BrimseekerBuff: Brimseeker
-      BrimstoneWaifu: Brimstone Elemental
-      BrittleStar: Brittle Star
-      Calamari: Calamari
-      CausticStaffBuff: Caustic Dragon
-      CinderBlossomBuff: Cinder Blossom
-      CloudyWaifu: Cloud Elemental
-      ColdDivinityBuff: Cold Divinity
-      Corroslime: Corroslime
-      CorvidHarbringerBuff: Raven
-      CosmicEnergy: Cosmic Energy
-      CosmicViperEngineBuff: Cosmic Viper
-      CosmilampBuff: Cosmilamp
-      Crimslime: Crimslime
-      DaedalusCrystalBuff: Daedalus Crystal
-      DaedalusGolemBuff: Daedalus Golem
-      DankCreeperBuff: Dank Creeper
-      DazzlingStabberBuff: Dazzling Stabber
-      DemonshadeSetDevilBuff: Red Devil
-      ElementalAxeBuff: Elemental Axe
-      EndoCooperBuff: Endo Cooper
-      EndoHydraBuff: Endo Hydra
-      EntropysVigilBuff: Entropy's Vigil
-      ExoskeletonCannons: Ares' Cannons
-      EyeOfNightBuff: Eye of Night
-      FieryDraconidBuff: Fiery Draconid
-      FleshBallBuff: Flesh Ball
-      FlowersOfMortalityBuff: Flowers of Mortality
-      FrostBlossomBuff: Frost Blossom
-      FungalClumpBuff: Fungal Clump
-      GammaHydraBuff: Gamma Hydra
-      GastricAberrationBuff: Gastric Aberration
-      GladiatorSwords: Gladiator Swords
-      HauntedDishesBuff: Haunted Dishes
-      HermitCrab: Hermit Crab
-      Herring: Herring
-      HotE: Heart of the Elements
-      HowlTrio: Howl's Heart
-      HydrothermicVentBuff: Hydrothermic Vent
-      IceClasperBuff: Ice Clasper
-      IgneousExaltationBuff: Igneous Blade
-      LilPlaguebringerBuff: Lil' Plaguebringer
-      MagicHatBuff: Magic Hat
-      Mechworm: Mechworm
-      MidnightSunBuff: Midnight Sun UFO
-      MiniatureEyeofCthulhu: Miniature Eye of Cthulhu
-      MiniOldDukeBuff: Mini Old Duke
-      MiniPlaguebringerBuff: Mini Plaguebringer
-      MoonFistBuff: Moon Fist
-      MountedScannerBuff: Mounted Scanner
-      PerditionBuff: Perdition
-      Phantom: Phantom
-      PlantationBuff: Plantation
-      PoleWarperBuff: Pole Warper
-      ProfanedBabs: The Profaned Soul
-      PuffWarriorBuff: Puff Warrior
-      ResurrectionButterflyBuff: Resurrection Butterfly
-      SageSpiritBuff: Sage Spirit
-      Sandnado: Sandnado
-      SandyHealingWaifu: Rare Sand Elemental
-      SandyWaifu: Sand Elemental
-      SarosPossessionBuff: Saros Possession
-      SeaSnailBuff: Sea Snail
-      SepulcherMinionBuff: Sepulcher
-      ShellfishBuff: Shellfish
-      SilvaCrystalBuff: Silva Crystal
-      SiriusBuff: Sirius
-      SkeletalDragonsBuff: Skeletal Dragons
-      SmallSkeletonBuff: Small Skeleton
-      SnakeEyesBuff: Snake Eyes
-      SolarGodSpiritBuff: Solar God Spirit
-      SolarSpirit: Solar Spirit
-      SoulSeekerBuff: Soul Seeker
-      StarSwallowerBuff: Star Swallower
-      TacticalPlagueEngineBuff: Tactical Plague Engine
-      TundraFlameBlossomsBuff: Tundra Flame Blossom
-      ValkyrieBuff: Valkyrie
-      VileFeederBuff: Vile Feeder
-      ViridVanguardBuff: Virid Vanguard
-      ViriliBuff: Virili
-      VoidConcentrationBuff: Concentrated Void
-      WaterWaifu: Anahita
-      WitherBlossomsBuff: Wither Blossoms
-      WulfrumDroidBuff: Wulfrum Droid
+      AlcoholPoisoning: 酒精中毒
+      BloodyMaryBuff: 血腥玛丽
+      CaribbeanRumBuff: 加勒比朗姆酒
+      CinnamonRollBuff: 肉桂威士忌
+      EverclearBuff: 谷酒
+      EvergreenGinBuff: 常青松子酒
+      FabsolVodkaBuff: Fabsol伏特加
+      FireballBuff: 火龙酒
+      GrapeBeerBuff: 葡萄啤酒
+      MargaritaBuff: 玛格丽塔酒
+      MoonshineBuff: 摩闪酒
+      MoscowMuleBuff: 莫斯科骡子
+      RedWineBuff: 红葡萄酒
+      RumBuff: 朗姆酒
+      ScrewdriverBuff: 螺丝起子
+      StarBeamRyeBuff: 星流黑麦威士忌
+      TequilaBuff: 龙舌兰酒
+      TequilaSunriseBuff: 龙舌兰日出
+      Trippy: 幻菇中毒
+      VodkaBuff: 伏特加
+      WhiskeyBuff: 威士忌
+      WhiteWineBuff: 白酒
+      Withered: 凋零
+      AstralInfectionDebuff: 幻星感染
+      BanishingFire: 放逐之火
+      BrimstoneFlames: 硫磺火
+      BurningBlood: 血液沸腾
+      CrushDepth: 深渊水压
+      DemonFlames: 恶魔之炎
+      Dragonfire: 龙焰
+      GodSlayerInferno: 神弑者之怒焰
+      HolyFlames: 神圣之火
+      HolyInferno: 圣狱神火
+      ManaBurn: 魔力烧蚀
+      Nightwither: 夜魇
+      Plague: 瘟疫
+      SagePoison: 鼠尾草中毒
+      SearingLava: 硫焰灼烧
+      Shadowflame: 暗影焰
+      ShellfishClaps: 贝壳痛咬
+      Shred: 解离
+      SnapClamDebuff: 扇贝轻夹
+      SulphuricPoisoning: 硫磺海剧毒
+      Vaporfied: 蒸汽波
+      VulnerabilityHex: 孱弱巫咒
+      WeakBrimstoneFlames: 较弱的硫磺火
+      AlicornBuff: 彩虹小马
+      AndromedaBuff: 仙女座机甲
+      AndromedaSmallBuff: 仙女座机甲
+      BrimroseMount: 硫火玫瑰坐骑
+      BumbledogeMount: 癫痫Doge
+      DraedonGamerChairBuff: 星流飞椅
+      GazeOfCrysthamyrBuff: 克里斯塔米尔的凝视
+      MarniteLiftBuff: 合成岩悬浮平台
+      OnyxExcavatorBuff: 玛瑙挖掘钻
+      RimehoundBuff: 雾凇猎犬
+      SquishyBeanBuff: 可疑果冻豆
+      TheCartofGodsBuff: 神明矿车
+      AkatoBuff: 阿卡托
+      ArcherofLunamoon: 皎月之弓兵
+      AstrophageBuff: 噬星体
+      BabyGhostBellBuff: 小鬼铃水母
+      BearBuff: 小熊
+      BloodBound: 血肉羁绊
+      BrimlingBuff: 小硫火灵
+      ChibiiDoGBuff: 迷你神长直
+      ClassicSCalPetBuff: 迷你至尊灾厄眼
+      DannyDevito: 丹尼·德维托
+      Dreamfog: 梦境幼龙
+      ElectricTroublemaker: 电鬼洛托姆
+      FlakHermitBuff: 酸丘寄居蟹
+      FoxPetBuff: 狐狸宠物
+      FurtasticDuoBuff: 毛茸茸的伙伴们
+      Kendra: 肯德拉
+      LadBuff: 老爹
+      LeviBuff: 利维
+      LittleLightBuff: 机灵
+      MiniMindBuff: 腐巢宝宝
+      OceanSpiritBuff: 海洋之灵
+      PineappleBuff: 菠萝
+      PlaguebringerBabBuff: 瘟疫使者宝宝
+      RadiatorBuff: 辐射海参
+      ReaverOrbBuff: 掠夺者
+      SparksBuff: 溅花闪蜓
+      ThirdSageBuff: 第三贤者
+      YharonSonBuff: 犽戎之子
+      ChaosCandleBuff: 混乱蜡烛
+      CirrusBlueCandleBuff: 敏捷
+      CirrusPinkCandleBuff: 活力
+      CirrusPurpleCandleBuff: 执念
+      CirrusYellowCandleBuff: 恶毒
+      CorruptionEffigyBuff: 腐化雕像
+      CrimsonEffigyBuff: 血腥雕像
+      EffigyOfDecayBuff: 腐朽雕像
+      TranquilityCandleBuff: 宁静蜡烛
+      PopoBuff: 雪宝
+      PopoNoselessBuff: 没鼻子的雪宝
+      AbyssalWeapon: 武器灌注：硫火
+      AnechoicCoatingBuff: 吸音涂层
+      ArmorCrumbling: 武器灌注：粉碎
+      AstralInjectionBuff: 幻星注射剂
+      BaguetteBuff: 法棍
+      BloodfinBoost: 血鳍之助
+      BoundingBuff: 弹跳助力
+      CadancesGrace: 韵律
+      CalciumBuff: 钙质补充
+      CeaselessHunger: 无尽空虚
+      DraconicSurgeBuff: 龙魂加持
+      GravityNormalizerBuff: 重力复原
+      HolyWrathBuff: 圣神之怒
+      Omniscience: 全知
+      PenumbraBuff: 半影
+      PhotosynthesisBuff: 光合作用
+      ProfanedRageBuff: 渎神之怒
+      ShadowBuff: 匿影
+      Soaring: 翱翔
+      SulphurskinBuff: 硫磺皮肤
+      TeslaBuff: 特斯拉电球
+      TitanScale: 泰坦之鳞
+      TriumphBuff: 胜利之战
+      YharimPower: 亚利姆之力
+      Zen: 禅定
+      Zerg: 虫潮
+      RancorBurn: 仇怨焚烧
+      AbyssalDivingSuitBuff: 深渊潜游服
+      AbyssalDivingSuitPlates: 深渊潜游服金属外壳
+      AbyssalMadness: 深渊狂乱
+      AdrenalineMode: 肾上腺素
+      Afflicted: 灾劫之尖啸
+      AmidiasBlessing: 海神祝福
+      AquaticHeartBuff: 水元素
+      AquaticHeartWaterSpeed: 海洋之佑
+      AvertorBonus: 憎恶血刃之助
+      BloodflareBloodFrenzy: 鲜血狂怒
+      BloodyBoost: 血腥激励
+      BossEffects: Boss效果
+      BrimflameFrenzyBuff: 硫火狂怒
+      ChiBuff: 气
+      CoralSymbiosis: 珊瑚共生
+      CosmicFreeze: 宙宇冰封
+      DivineBless: 圣天祝福
+      ElysianGuard: 极乐守护
+      EmpyreanRage: 皇天之愤怒
+      EmpyreanWrath: 皇天之暴怒
+      Encased: 冰固免死
+      GraxBoost: 格拉克斯之助
+      HallowedRuneDefense: 神圣之佑
+      HallowedRunePower: 神圣之力
+      HallowedRuneRegeneration: 神圣之辉
+      IceShieldBuff: 冰盾
+      KamiBuff: Kami之佑
+      Molten: 熔火之心
+      Mushy: 与菇共生
+      PhantomicEmpowerment: 幻魂神力
+      PhantomicRegen: 幻魂还生
+      PhantomicShield: 幻魂坚盾
+      PolarisBuff: 极星之护
+      ProfanedCrystalBuff: 忠诚
+      RageMode: 暴怒模式
+      ReaverRage: 掠夺者之怒
+      ShellBoost: 甲壳提速
+      SilvaRevival: 始源林海无敌
+      SpiritDefense: 灵魂防御
+      SpiritPower: 灵魂力量
+      SpiritRegen: 灵魂恢复
+      TarragonCloak: 龙蒿披风
+      TarragonImmunity: 龙蒿无敌
+      TarraLifeRegen: 生命涌流
+      TyrantsFury: 暴君之怒
+      AndromedaCripple: 战甲破损
+      ArmorCrunch: 碎甲
+      Clamity: 灾蛤之力
+      DoGExtremeGravity: 极限重力
+      Enraged: 激怒
+      Eutrophication: 富营养化
+      ExoFreeze: 星宇冰寒
+      FishAlert: 鱼饵标注
+      FrozenLungs: 肺部冻伤
+      GlacialState: 冰河时代
+      IcarusFolly: 伊卡洛斯之愚
+      Irradiated: 辐射
+      KamiFlu: Kami之疫
+      MarkedforDeath: 死亡标记
+      PearlAura: 珍珠光环
+      ProfanedWeakness: 亵渎之疲弱
+      TemporalSadness: 莫名的悲伤
+      TeslaFreeze: 电偶腐蚀
+      TimeDistortion: 时间扭曲
+      Warped: 空间翘曲
+      WeakPetrification: 略微石化
+      WhisperingDeath: 死亡低语
+      WitherDebuff: 枯萎
+      AbandonedSlimeBuff: 末世星凝胶
+      AncientMineralSharkBuff: 远古岩鲨
+      AquaticStar: 深海之星
+      AstralProbeBuff: 幻星探测器
+      BabyBloodCrawlerBuff: 血爬虫宝宝
+      BabySlimeGodBuff: 史莱姆神宝宝
+      BabyStormlionBuff: 风暴蚁狮宝宝
+      BelladonnaSpiritBuff: 颠茄之灵
+      BlackHawkBuff: 黑鹰战斗机
+      BloodClot: 血块
+      BrimseekerBuff: 硫火搜寻者
+      BrimstoneWaifu: 硫磺火元素
+      BrittleStar: 脆弱之星
+      Calamari: 深渊乌贼
+      CausticStaffBuff: 蚀骨之龙
+      CinderBlossomBuff: 烬之英
+      CloudyWaifu: 雨云元素
+      ColdDivinityBuff: 冰寒神性
+      Corroslime: 腐化史莱姆
+      CorvidHarbringerBuff: 渡鸦
+      CosmicEnergy: 归虚之灵
+      CosmicViperEngineBuff: 宙极蝰蛇
+      CosmilampBuff: 无尽之灯
+      Crimslime: 血腥史莱姆
+      DaedalusCrystalBuff: 代达罗斯水晶
+      DaedalusGolemBuff: 代达罗斯守卫
+      DankCreeperBuff: 沼泽之眼
+      DazzlingStabberBuff: 耀目穿刺者
+      DemonshadeSetDevilBuff: 赤红恶魔
+      ElementalAxeBuff: 元素之斧
+      EndoCooperBuff: 源生寒晶
+      EndoHydraBuff:  冰洋九头龙
+      EntropysVigilBuff: 枯萎之眼
+      ExoskeletonCannons: 阿瑞斯外骨骼
+      EyeOfNightBuff: 永夜之眼
+      FieryDraconidBuff: 炽焰天龙
+      FleshBallBuff: 血肉之球
+      FlowersOfMortalityBuff: 告死之花
+      FrostBlossomBuff: 霜之华
+      FungalClumpBuff: 真菌块
+      GammaHydraBuff: 伽马共生体
+      GastricAberrationBuff: 畸变吞食者
+      GladiatorSwords: 角斗士短剑
+      HauntedDishesBuff: 缠怨鬼碟
+      HermitCrab: 寄居蟹
+      Herring: 鲱鱼
+      HotE: 元灵之心
+      HowlTrio: 哈尔之心
+      HydrothermicVentBuff: 沸腾渊泉
+      IceClasperBuff: 食魂冰虫
+      IgneousExaltationBuff: 淬焰古刀
+      LilPlaguebringerBuff: 小型瘟疫使者
+      MagicHatBuff: 魔法礼帽
+      Mechworm: 星宇神卫
+      MidnightSunBuff: 极昼飞行物
+      MiniatureEyeofCthulhu: 微型克苏鲁之眼
+      MiniOldDukeBuff: 迷你硫海遗爵
+      MiniPlaguebringerBuff: 迷你瘟疫使者
+      MoonFistBuff: 月亮之拳
+      MountedScannerBuff: 架式扫射机
+      PerditionBuff: 永劫信标
+      Phantom: 幽花之灵
+      PlantationBuff: 世纪之花
+      PoleWarperBuff: 电极解离机
+      ProfanedBabs: 亵渎之魂
+      PuffWarriorBuff: 蓬松战士
+      ResurrectionButterflyBuff: 反魂蝶
+      SageSpiritBuff: 鼠尾草之灵
+      Sandnado: 沙龙卷
+      SandyHealingWaifu: 稀有沙元素
+      SandyWaifu: 沙元素
+      SarosPossessionBuff: 掌控星律
+      SeaSnailBuff: 海蜗牛
+      SepulcherMinionBuff: 灾坟魔物
+      ShellfishBuff: 沉沦之贝
+      SilvaCrystalBuff: 始源林海水晶
+      SiriusBuff: 天狼星
+      SkeletalDragonsBuff: 血炎骨龙
+      SmallSkeletonBuff: 小骷髅
+      SnakeEyesBuff: 蛇眼
+      SolarGodSpiritBuff: 太阳神之灵
+      SolarSpirit: 太阳之灵
+      SoulSeekerBuff: 摄魂魔翼
+      StarSwallowerBuff: 噬星者
+      TacticalPlagueEngineBuff: 战术瘟疫引擎
+      TundraFlameBlossomsBuff: 永冻之焱华
+      ValkyrieBuff: 天武神
+      VileFeederBuff: 腐化吞噬者
+      ViridVanguardBuff: 葱茏之锋
+      ViriliBuff: 瘟疫雌蜂
+      VoidConcentrationBuff: 虚空统御
+      WaterWaifu: 阿娜希塔
+      WitherBlossomsBuff: 凋零枯花
+      WulfrumDroidBuff: 钨钢无人机
     }
     BuffDescription:
     {
-      AlcoholPoisoning: You drank too much and you are now dying
-      BloodyMaryBuff: Damage, critical strike chance, movement speed, and melee speed boosted during a Blood Moon, life regen and defense reduced
-      CaribbeanRumBuff: Life regen, movement speed, and wing flight time boosted, you are floaty and defense is reduced
-      CinnamonRollBuff: Mana regen rate and fire debuff damage boosted, defense reduced
-      EverclearBuff: Damage boosted, life regen and defense reduced
-      EvergreenGinBuff: Sickness and water debuff damage boosted, life regen reduced
-      FabsolVodkaBuff: You feel fabulous
-      FireballBuff: Fire debuff damage boosted, life regen reduced
-      GrapeBeerBuff: Defense and movement speed reduced
-      MargaritaBuff: Reduced duration to most debuffs, defense and life regen reduced
-      MoonshineBuff: Defense and damage reduction boosted, life regen reduced
-      MoscowMuleBuff: Damage, critical strike chance, and knockback boosted, life regen reduced
-      RedWineBuff: Life regen reduced
-      RumBuff: Movement speed and life regen boosted, defense reduced
-      ScrewdriverBuff: Piercing projectile damage boosted, life regen reduced
-      StarBeamRyeBuff: Max mana and magic damage increased. Defense, mana usage, and life regen reduced
-      TequilaBuff: Damage, critical strike chance, damage reduction, defense, and knockback boosted during daytime, life regen reduced
-      TequilaSunriseBuff: Damage, critical strike chance, damage reduction, defense, and knockback boosted during daytime, life regen reduced
-      Trippy: You see the world for what it truly is... and you also have a 50% increase to all damage
-      VodkaBuff: Damage and critical stike chance boosted, defense and life regen reduced
-      WhiskeyBuff: Damage, critical strike chance, and knockback boosted, defense reduced
-      WhiteWineBuff: Magic damage boosted, life regen and defense reduced
-      Withered: Holding withered weapons causes you to suffer but makes your weapons strong
-      AstralInfectionDebuff: Your flesh is melting off
-      BanishingFire: You shall not be forgiven for your sins
-      BrimstoneFlames: Rapid health loss
-      BurningBlood: Your blood is on fire
-      CrushDepth: Aquatic pressure
-      DemonFlames: Another burning debuff
-      Dragonfire: Engulfed by roaring flames
-      GodSlayerInferno: Your flesh is burning off
-      HolyFlames: Dissolving from holy light
-      HolyInferno: You've gone too far from the Profaned Goddess!
-      ManaBurn: The excess of mana sears your body and mind
-      Nightwither: Incinerated by lunar rays
-      Plague: Rotting from the inside
-      SagePoison: Poisoned
-      SearingLava: The brimstone lava sears your flesh
-      Shadowflame: Losing life
-      ShellfishClaps: Clamfest
-      Shred: Someone built ten Tri-Tip Daggers...
-      SnapClamDebuff: Clapped by Snap Clams
-      SulphuricPoisoning: The acidic water burns away your flesh
-      Vaporfied: Vape
-      VulnerabilityHex: You are weak
-      WeakBrimstoneFlames: Health loss
-      AlicornBuff: You beat DoG while drunk, you are truly fabulous!
-      AndromedaBuff: You're controlling a piece of history
-      AndromedaSmallBuff: You're controlling a small piece of history
-      BrimroseMount: The seat is toasty.  That is all
-      BumbledogeMount: Wait a second. That's not right...
-      DraedonGamerChairBuff: Riding a physics defying gamer chair
-      GazeOfCrysthamyrBuff: You are riding a shadow dragon
-      MarniteLiftBuff: Do you even..?
-      OnyxExcavatorBuff: Drill
-      RimehoundBuff: You are riding an angry dog
+      AlcoholPoisoning: 你饮酒过量，代谢紊乱，气息奄奄
+      BloodyMaryBuff: 血月时，增加伤害、暴击率、移动速度和近战攻速，但降低生命恢复速度和防御
+      CaribbeanRumBuff: 你晕乎乎的，增加移动速度、飞行时间和生命恢复速度，但防御力降低
+      CinnamonRollBuff: 增加魔力恢复速度和火系减益的伤害，但防御力降低
+      EverclearBuff: 增加伤害，但降低防御力和生命恢复速度
+      EvergreenGinBuff: 提高疫病系和水系减益的伤害并提高伤害减免，但降低生命恢复速度
+      FabsolVodkaBuff: 你感受到了一种难以置信的美妙
+      FireballBuff: 提高火系减益伤害，但降低生命恢复速度
+      GrapeBeerBuff: 降低防御力和移动速度
+      MargaritaBuff: 减少绝大部分减益的持续时间，但降低防御力和生命恢复速度
+      MoonshineBuff: 增加防御力和伤害减免，但降低生命恢复速度
+      MoscowMuleBuff: 增加伤害、暴击率和击退力，但降低生命恢复速度
+      RedWineBuff: 降低生命恢复速度
+      RumBuff: 增加移动速度和生命恢复速度，但防御力降低
+      ScrewdriverBuff: 增加穿透弹幕伤害，但降低生命恢复速度
+      StarBeamRyeBuff: 增加魔法伤害和最大魔力值、降低魔力消耗，但降低防御力和生命恢复速度
+      TequilaBuff: 在白天增加伤害、暴击率、伤害减免、防御力和击退力，但降低生命恢复速度
+      TequilaSunriseBuff: 在白天增加伤害、暴击率、伤害减免、防御力和击退力，但降低生命恢复速度
+      Trippy: 你看到了世界的本质……同时增加50%伤害
+      VodkaBuff: 增加伤害和暴击率，但降低防御力和生命恢复速度
+      WhiskeyBuff: 增加伤害、暴击率和击退力，但防御力降低
+      WhiteWineBuff: 提高魔法伤害，但降低防御力和生命恢复速度
+      Withered: 手持凋零的武器会让你渐渐枯萎，但也会让你的武器变得强大
+      AstralInfectionDebuff: 你的血肉正在被幻星熔蚀
+      BanishingFire: 你的罪孽不会被宽赦
+      BrimstoneFlames: 生命快速流失
+      BurningBlood: 你的血液沸腾了
+      CrushDepth: 深海水压
+      DemonFlames: 来自异界的恐怖燃烧减益
+      Dragonfire: 生命流失，移动速度降低
+      GodSlayerInferno: 你的血肉在燃烧
+      HolyFlames: 神圣之光将你焚化
+      HolyInferno: 你离亵渎天神太远了！
+      ManaBurn: 过多的魔力正在烧蚀你的身心
+      Nightwither: 被月之射线瓦解
+      Plague: 从内部腐烂
+      SagePoison: 中毒
+      SearingLava: 硫火岩浆的烧灼难以承受
+      Shadowflame: 失去生命
+      ShellfishClaps: 大快朵颐
+      Shred: 有人造了十把三尖匕首……
+      SnapClamDebuff: 扇贝轻夹
+      SulphuricPoisoning: 有毒的硫磺海水正在烧灼你的皮肤
+      Vaporfied: 蒸汽波是极美的
+      VulnerabilityHex: 你很虚弱
+      WeakBrimstoneFlames: 生命流失
+      AlicornBuff: 你喝高了还打败了神长直，心朗气清，足以畅叙幽情！
+      AndromedaBuff: 你操控之物本已成为历史
+      AndromedaSmallBuff: 你操控之物本已成为历史
+      BrimroseMount: 坐着温暖舒适。那就足够了
+      BumbledogeMount: 你骑在癫痫鸟上……不对劲
+      DraedonGamerChairBuff: 坐在一把挑战物理的游戏椅上
+      GazeOfCrysthamyrBuff: 你骑着一只暗影飞龙
+      MarniteLiftBuff: 你甚至……？
+      OnyxExcavatorBuff: 钻钻钻！
+      RimehoundBuff: 你正驾驭着愤怒雪狗
       SquishyBeanBuff: BEAN MAN. BEAN DO T H E  B EA N IS HER E
-      TheCartofGodsBuff: Riding a cosmic terror
-      AkatoBuff: Looks like you'll have to take care of it now
-      ArcherofLunamoon: You have a personal spotter
-      AstrophageBuff: Little astral buggy
-      BabyGhostBellBuff: Be careful not to pop the bubble
-      BearBuff: A guardian angel is following you.
-      BloodBound: You must be desperate for company
-      BrimlingBuff: Protect her or suffer in agony
-      ChibiiDoGBuff: What? Were you expecting someone else?
-      ClassicSCalPetBuff: Her supreme powers will never be forgotten
-      DannyDevito: The trash man is following you.
-      Dreamfog: Xi believes in Yuu
-      ElectricTroublemaker: Lightning never strikes the same place twice
-      FlakHermitBuff: Little acid buggy
-      FoxPetBuff: Fox Pet? FOX PET
-      FurtasticDuoBuff: They just did! The Furtastic Duo will accompany you!
-      Kendra: A loyal friend accompanies you.
-      LadBuff: A father of many floats around you
-      LeviBuff: Small and cute
-      LittleLightBuff: Endearing
-      MiniMindBuff: It knows everything
-      OceanSpiritBuff: Small and cute
-      PineappleBuff: It smells like pizza...
-      PlaguebringerBabBuff: The baby plaguebringer sees you as the queen
-      RadiatorBuff: Radioactive but adorable
-      ReaverOrbBuff: The reaver orb will light your way
-      SparksBuff: Eats butterflies
-      ThirdSageBuff: Eh? No way it's an oni.
-      YharonSonBuff: You better not eat his dinner
-      ChaosCandleBuff: Spawn rates around the candle are boosted!
-      CirrusBlueCandleBuff: The floating flame seems to uplift your very spirit
-      CirrusPinkCandleBuff: Its brilliant light suffuses those nearby with hope
-      CirrusPurpleCandleBuff: Neither rain nor wind can snuff its undying flame
-      CirrusYellowCandleBuff: Its hateful glow flickers with ire
-      CorruptionEffigyBuff: The corruption empowers you
-      CrimsonEffigyBuff: The crimson empowers you
-      EffigyOfDecayBuff: The sulphuric waters empower you
-      TranquilityCandleBuff: Spawn rates around the candle are reduced!
-      PopoBuff: You are a snowman now!
-      PopoNoselessBuff: Your nose has been stolen!
-      AbyssalWeapon: Melee, Whip, and Rogue attacks ignite enemies with brimstone flames
-      AnechoicCoatingBuff: Abyssal creatures' detection ranges reduced
-      ArmorCrumbling: Melee, Whip, and Rogue attacks reduce enemy damage reduction
-      AstralInjectionBuff: Extreme mana recovery
-      BaguetteBuff: If only I knew... ~Cirrus
-      BloodfinBoost: Don't let the blood get to your head
-      BoundingBuff: Increased jump height, jump speed, and fall damage resistance
-      CadancesGrace: Your heart is pure
-      CalciumBuff: You are immune to fall damage
-      CeaselessHunger: You are sucking up all the items
-      DraconicSurgeBuff: The power of a dragon courses through your veins
-      GravityNormalizerBuff: Gravity is now normal in space, immunity to distorted
-      HolyWrathBuff: Increased damage and all attacks inflict holy fire
-      Omniscience: You can see everything
-      PenumbraBuff: Stealth regenerates 10% faster while moving and 15% faster while standing still
-      PhotosynthesisBuff: Life regen boosted, more during daytime, and hearts heal more HP
-      ProfanedRageBuff: Increased critical strike chance
-      ShadowBuff: You are a shadow, rogue weapons spawn projectiles on hit, and stealth generation is boosted by 8%
+      TheCartofGodsBuff: 驾驭星宇所恐惧之物
+      AkatoBuff: 看起来你现在应该好好照顾这只小龙
+      ArcherofLunamoon: 现在你有了属于自己的观察员
+      AstrophageBuff: 小小的幻星机器
+      BabyGhostBellBuff: 小心不要戳破那个泡泡
+      BearBuff: 守护天使正在跟着你
+      BloodBound: 有它在身边陪伴，你一定很沮丧
+      BrimlingBuff: 保护她或迎接苦难的折磨，二选一
+      ChibiiDoGBuff: 什么？你期待还能召唤出谁？
+      ClassicSCalPetBuff: 至尊灾厄之力守护着你……真可爱
+      DannyDevito: 垃圾男正在跟着你
+      Dreamfog: 祂相信伱
+      ElectricTroublemaker: 闪电从不会两次击中同一个地方
+      FlakHermitBuff: 淘气的小酸虫
+      FoxPetBuff: 狐狸宠物？狐 狸
+      FurtasticDuoBuff: 它们做到了！毛茸茸的伙伴们围在你周围
+      Kendra: 一位忠诚的朋友陪在你身旁
+      LadBuff: 啊哈哈哈，你爹来咯
+      LeviBuff: 小而可爱
+      LittleLightBuff: 小东西长得真别致
+      MiniMindBuff: 它知晓一切
+      OceanSpiritBuff: 音轻体柔，小巧玲珑
+      PineappleBuff: 它闻起来像披萨……
+      PlaguebringerBabBuff: 瘟疫使者宝宝将你视为它们的女王
+      RadiatorBuff: 具放射性的可爱生物
+      ReaverOrbBuff: 掠夺者宝珠会照亮你的前路
+      SparksBuff: 这东西吃蝴蝶
+      ThirdSageBuff: 额，这不可能是鬼
+      YharonSonBuff: 你最好别不小心把他的晚餐吃了
+      ChaosCandleBuff: 蜡烛周围的刷怪率增加！
+      CirrusBlueCandleBuff: 飘浮的火焰振奋着你的灵魂
+      CirrusPinkCandleBuff: 它耀眼的光芒给周围的人带来了希望
+      CirrusPurpleCandleBuff: 暴风骤雨也无法熄灭这不灭的火
+      CirrusYellowCandleBuff: 它那惹人厌的火光只会激起愤怒
+      CorruptionEffigyBuff: 腐化之地的力量灌注双拳
+      CrimsonEffigyBuff: 猩红之地的力量充盈于身
+      EffigyOfDecayBuff: 硫海之水给予你力量
+      TranquilityCandleBuff: 蜡烛周围的刷怪率降低！
+      PopoBuff: 你是个雪人了！
+      PopoNoselessBuff: 你的鼻子被别人偷走了！
+      AbyssalWeapon: 近战、鞭子和盗贼攻击会对敌人造成硫磺火减益
+      AnechoicCoatingBuff: 深渊生物的探测范围缩小
+      ArmorCrumbling: 近战、鞭子和盗贼攻击会降低敌人的伤害减免
+      AstralInjectionBuff: 大幅增加魔力值恢复速度
+      BaguetteBuff: 如果只有我知道……~醉仙女
+      BloodfinBoost: 不要让血液冲昏头脑
+      BoundingBuff: 提高跳跃高度和跳跃速度，增加摔落伤害减免
+      CadancesGrace: 你心灵纯净
+      CalciumBuff: 免疫摔落伤害
+      CeaselessHunger: 你吸收着世界上所有的物品
+      DraconicSurgeBuff: 神龙的力量顺着你的血流灌注全身
+      GravityNormalizerBuff: 在太空中恢复正常重力作用，免疫扭曲减益
+      HolyWrathBuff: 提高伤害，所有攻击附带神圣之火减益
+      Omniscience: 你能看透世间万物
+      PenumbraBuff: 移动时增加10%盗贼潜行值恢复速度，站定不动时增加15%盗贼潜行值恢复速度
+      PhotosynthesisBuff: 增加生命恢复速度，在白天时生命恢复更快，红心能回复更多生命值
+      ProfanedRageBuff: 提高暴击率
+      ShadowBuff: 你隐形了，某些盗贼武器会使你获得增益，提高盗贼潜行值恢复速度。
       Soaring:
         '''
-        Increased wing flight time and speed
-        True melee hits restore wing flight time
+        增加飞行速度和飞行时间
+        真近战攻击击中敌怪时恢复一定的飞行时间
         '''
-      SulphurskinBuff: The sulphuric waters have a lesser effect on you
-      TeslaBuff: Summons an aura of electricity
-      TitanScale: You feel tanky
-      TriumphBuff: Enemy contact damage is reduced, the lower their health the greater the reduction
-      YharimPower: You feel like you can break the world in two... with your bare hands!
-      Zen: Spawn rates are reduced
-      Zerg: Spawn rates are boosted
-      RancorBurn: Burning
-      AbyssalDivingSuitBuff: You are made of metal
-      AbyssalDivingSuitPlates: The plates will absorb 15% damage
-      AbyssalMadness: Increased damage, critical strike chance, and tentacle aggression/range
-      AdrenalineMode: 200% damage boost. Can be boosted by other items up to 245%.
-      Afflicted: Empowered by otherworldly spirits
+      SulphurskinBuff: 削弱硫海之水对你的影响
+      TeslaBuff: 召唤一个电流光环
+      TitanScale: 你感觉可以坦住成年幻海妖龙
+      TriumphBuff: 降低敌怪的接触伤害，生命值越低，降低幅度越大
+      YharimPower: 你感觉可以把世界撕成了两半……空手足矣！
+      Zen: 大幅降低刷怪率
+      Zerg: 大幅提高刷怪率
+      RancorBurn: 燃烧
+      AbyssalDivingSuitBuff: 你是铁打的
+      AbyssalDivingSuitPlates: 外壳金属会吸收15%的伤害
+      AbyssalMadness: 增加伤害和暴击率，提高深渊触手的攻击距离和攻击性
+      AdrenalineMode: 伤害提高200%。能使用其他物品提升至245%。
+      Afflicted: 被异界之魂祝福
       AmidiasBlessing:
         '''
-        You are blessed by Amidias
-        Lets you breathe underwater, even in the Abyss!
-        Just don't get hit...
+        你被海神祝福了
+        拥有水下呼吸的能力，在深渊中也生效！
+        小心别受伤……
         '''
-      AquaticHeartBuff: You are a water elemental now
-      AquaticHeartWaterSpeed: 15% increased max speed and acceleration
-      AvertorBonus: Boosted damage and life regeneration
-      BloodflareBloodFrenzy: Contact damage is reduced and melee stats are greatly increased
+      AquaticHeartBuff: 女装有趣吗？
+      AquaticHeartWaterSpeed: 增加15%移动速度和加速度
+      AvertorBonus: 增加伤害与生命恢复速度
+      BloodflareBloodFrenzy: 降低怪物的接触伤害，大幅提高近战属性
       BloodyBoost:
         '''
-        Increased offensive and defensive stats
-        Healing potions grant more health
+        增强攻击和防御属性
+        治疗药水回复更多生命值
         '''
       BossEffects: This tooltip is edited in the function below
-      BrimflameFrenzyBuff: Dark magic empowers your attacks at the cost of your life
-      ChiBuff: Your next attack is boosted and you are more resilient
-      CoralSymbiosis: Coral Spout charges up faster and deals 2 extra damage
-      CosmicFreeze: You feel as cold as the empty expanse of outer space
-      DivineBless: Increased health regen and minions inflict Banishing Fire
-      ElysianGuard: Movement speed reduced, other stats buffed
-      EmpyreanRage: Rage of the cosmos
-      EmpyreanWrath: Wrath of the cosmos
-      Encased: 30 defense and +30% damage reduction, but...
-      GraxBoost: Your defenses and muscles are strong
-      HallowedRuneDefense: Defense boosted by 8 and damage reduction boosted by 4%
-      HallowedRunePower: Minion damage boosted by 10%
-      HallowedRuneRegeneration: Regenerating life
-      IceShieldBuff: Absorbs 20% damage from the next hit you take, then shatters
-      KamiBuff: Increased max movement speed, acceleration and damage
-      Molten: Resistant to cold effects
-      Mushy: Increased defense and life regen
-      PhantomicEmpowerment: Empowering minion damage by 10%
-      PhantomicRegen: Regenerating life
+      BrimflameFrenzyBuff: 以生命为代价，黑魔法大大增强了你的力量
+      ChiBuff: 提高你下一次攻击的伤害，提高防御属性
+      CoralSymbiosis: 珊瑚泥充能加快，多造成2点伤害
+      CosmicFreeze: 寒气逼人，犹如身于宙域
+      DivineBless: 增加生命恢复速度，召唤物攻击会造成放逐之火减益
+      ElysianGuard: 移动速度降低，提高各项属性
+      EmpyreanRage: 宇宙的怒火
+      EmpyreanWrath: 宇宙的狂怒
+      Encased: 增加30点防御和30%伤害减免，但是……
+      GraxBoost: 提高防御力，你的肌肉更加强壮
+      HallowedRuneDefense: 增加8点防御力和4%防御减免
+      HallowedRunePower: 召唤伤害增加10%
+      HallowedRuneRegeneration: 恢复生命
+      IceShieldBuff: 受伤时吸收20%的伤害，随后破碎
+      KamiBuff: 提高伤害和移动速度
+      Molten: 对寒冷效果具有抗性
+      Mushy: 增加防御力和生命恢复速度
+      PhantomicEmpowerment: 提升10%召唤伤害
+      PhantomicRegen: 生命再生
       PhantomicShield:
         '''
-        Defense boosted by 10 and damage reduction boosted by 5%
-        An ephemeral bulwark protects you
+        增加10点防御，提升5%伤害减免
+        幻魂壁垒保护着你
         '''
-      PolarisBuff: The Northern Star empowers your weapon
+      PolarisBuff: 北极星与你手中的武器产生了共鸣
       ProfanedCrystalBuff: ""
-      RageMode: 35% damage boost.
-      ReaverRage: You are angry
-      ShellBoost: Speed is boosted
-      SilvaRevival: You are unkillable and immune to most debuffs
-      SpiritDefense: Defense boosted by 6 and damage reduction boosted by 3%
-      SpiritPower: Minion damage boosted by 10%
-      SpiritRegen: Regenerating life
-      TarragonCloak: Contact damage is reduced
-      TarragonImmunity: You are immune
-      TarraLifeRegen: Rapid healing
-      TyrantsFury: 30% increased melee damage and 10% increased melee crit chance
-      AndromedaCripple: You're slow
-      ArmorCrunch: Your armor is shredded
-      Clamity: The clams have been angered!
-      DoGExtremeGravity: Your wing time is reduced by 25%, infinite flight is disabled
-      Enraged: All damage taken is increased by 25%
-      Eutrophication: Excessive nutrients restrict your movement
-      ExoFreeze: Cannot move
-      FishAlert: The abyssal creatures have spotted you!
-      FrozenLungs: The icy waters restrict your breathing
-      GlacialState: Cannot move
-      IcarusFolly: Your wing time is reduced by 33%, infinite flight is disabled
-      Irradiated: Your skin is burning off
-      KamiFlu: Defenseless and dying
-      MarkedforDeath: Damage reduction reduced
-      PearlAura: Slowed down
-      ProfanedWeakness: You do less damage
-      TemporalSadness: You are crying
-      TeslaFreeze: Your limbs have begun to corrode
-      TimeDistortion: Time is slowed
-      Warped: Movement is being warped
-      WeakPetrification: Your vertical movement is weakened
-      WhisperingDeath: Death approaches; movement speed, attack power and life regen reduced
+      RageMode: 伤害提高35%
+      ReaverRage: 爷怒了
+      ShellBoost: 增加移动速度
+      SilvaRevival: 你处于无敌状态，免疫大多数减益
+      SpiritDefense: 增加6点防御力和3%伤害减免
+      SpiritPower: 增加10%召唤伤害
+      SpiritRegen: 恢复生命
+      TarragonCloak: 降低接触伤害
+      TarragonImmunity: 你现在无敌了
+      TarraLifeRegen: 极速生命恢复
+      TyrantsFury: 提高30%近战伤害和10%近战暴击率
+      AndromedaCripple: 你变慢了
+      ArmorCrunch: 你的护甲被撕裂了
+      Clamity: 远古巨蛤怒了！
+      DoGExtremeGravity: 无限飞行失效，飞行时间减少25%
+      Enraged: 所有受到的伤害增加25%
+      Eutrophication: 过多的营养物质拖慢了你的步伐
+      ExoFreeze: 无法移动
+      FishAlert: 深渊生物发现你了！
+      FrozenLungs: 冰冷的水使你无法呼吸
+      GlacialState: 无法移动
+      IcarusFolly: 飞行时间减少33%，无限飞行失效
+      Irradiated: 你的皮肤正被侵蚀
+      KamiFlu: 手无寸铁，奄奄一息
+      MarkedforDeath: 降低伤害减免
+      PearlAura: 减速
+      ProfanedWeakness: 你造成的伤害降低
+      TemporalSadness: 蓝瘦香菇
+      TeslaFreeze: 你的四肢正被腐蚀
+      TimeDistortion: 时间流逝减缓
+      Warped: 移动被空间翘曲影响
+      WeakPetrification: 弱化垂直移动能力
+      WhisperingDeath: 死亡临近；降低移动速度、攻击力和生命恢复速度
       WitherDebuff:
         '''
-        Withered...
-        Defense reduced by 20
+        枯萎了……
+        减少20点防御力
         '''
-      AbandonedSlimeBuff: The mini astrageldon slime will protect you
-      AncientMineralSharkBuff: Ancient yet so dangerous
-      AquaticStar: The aquatic star will protect you
-      AstralProbeBuff: The astral probe will protect you
-      BabyBloodCrawlerBuff: The baby blood crawler will protect you
-      BabySlimeGodBuff: The slime god will protect you
-      BabyStormlionBuff: The baby stormlion will protect you
-      BelladonnaSpiritBuff: A cute forest spirit is following you
-      BlackHawkBuff: The fighter jet will protect you
-      BloodClot: The blood clot will protect you
-      BrimseekerBuff: Does it want something from you?
-      BrimstoneWaifu: The brimstone elemental will protect you
-      BrittleStar: The brittle star will protect you
-      Calamari: The squid will protect you
-      CausticStaffBuff: A mini jungle dragon is following you
-      CinderBlossomBuff: A hot, searing flower is floating uncomfortably close to you
-      CloudyWaifu: The cloud elemental will protect you
-      ColdDivinityBuff: The magic of the ancient ice castle will aid you
-      Corroslime: The corroslime will protect you
-      CorvidHarbringerBuff: The powerful raven will protect you
-      CosmicEnergy: The cosmic energy will protect you
-      CosmicViperEngineBuff: The cosmic gunship will protect you
-      CosmilampBuff: The cosmilamp will protect you
-      Crimslime: The crimslime will protect you
-      DaedalusCrystalBuff: The daedalus crystal will protect you
-      DaedalusGolemBuff: A crystal golem is following you
-      DankCreeperBuff: The dank creeper will protect you
-      DazzlingStabberBuff: En garde
-      DemonshadeSetDevilBuff: The red devil will protect you
-      ElementalAxeBuff: The elemental axe will protect you
-      EndoCooperBuff: The ascened Cooper will protect you
-      EndoHydraBuff: The endo hydra will protect you... for some reason
-      EntropysVigilBuff: The necromantic clones protect you with undying vigilance
-      ExoskeletonCannons: Pulse cannon not included
-      EyeOfNightBuff: It eerily watches
-      FieryDraconidBuff: The fiery draconid will protect you
-      FleshBallBuff: Why is it following you?
-      FlowersOfMortalityBuff: Celestial blossoms surround you
-      FrostBlossomBuff: A cold, prickly flower is floating uncomfortably close to you
-      FungalClumpBuff: The fungal clump will protect you
+      AbandonedSlimeBuff: 迷你末世星史莱姆会保护你
+      AncientMineralSharkBuff: 来自远古，危险无比
+      AquaticStar: 深海之星会保护你
+      AstralProbeBuff: 幻星探测器会保护你
+      BabyBloodCrawlerBuff: 血爬虫宝宝将保护你
+      BabySlimeGodBuff: 史莱姆之神会保护你
+      BabyStormlionBuff: 风暴蚁狮宝宝将保护你
+      BelladonnaSpiritBuff: 可爱的森林精灵正跟着你
+      BlackHawkBuff: 喷气战斗机会保护你
+      BloodClot: 血块会保护你
+      BrimseekerBuff: 它是不是想从你身上索取些什么？
+      BrimstoneWaifu: 硫磺火元素会保护你
+      BrittleStar: 脆弱海星会保护你
+      Calamari: 深渊乌贼会保护你
+      CausticStaffBuff: 迷你丛林之龙正在跟着你
+      CinderBlossomBuff: 一朵灼热的花儿在你头顶浮动
+      CloudyWaifu: 雨云元素会保护你
+      ColdDivinityBuff: 古老冰霜城堡的魔法会帮助你
+      Corroslime: 腐化史莱姆会保护你
+      CorvidHarbringerBuff: 强大的渡鸦会保护你
+      CosmicEnergy: 归虚之灵会保护你
+      CosmicViperEngineBuff: 宇宙武装战机会保护你
+      CosmilampBuff: 宇宙之光照耀着你
+      Crimslime: 血腥史莱姆会保护你
+      DaedalusCrystalBuff: 代达罗斯水晶会保护你
+      DaedalusGolemBuff: 一个水晶傀儡正在跟随你
+      DankCreeperBuff: 沼泽之眼会保护你
+      DazzlingStabberBuff: 时刻戒护
+      DemonshadeSetDevilBuff: 赤红恶魔与你同在
+      ElementalAxeBuff: 元素之斧会保护你
+      EndoCooperBuff: 寒古宙以来冰封的晶体为你而战
+      EndoHydraBuff: 冰洋九头蛇将保护你……出于某些原因
+      EntropysVigilBuff: 灾厄之影和她的兄弟们会保护你
+      ExoskeletonCannons: 内不含脉冲加农
+      EyeOfNightBuff: 它诡异地注视着一切
+      FieryDraconidBuff: 炽焰天龙会保护你
+      FleshBallBuff: 为什么这玩意在跟着你？
+      FlowersOfMortalityBuff: 天界之花环绕着你
+      FrostBlossomBuff: 一朵冰冷的花在你头顶浮动
+      FungalClumpBuff: 真菌块会保护你
       GammaHydraBuff: ...
-      GastricAberrationBuff: The aquatic aberration will protect you
-      GladiatorSwords: The gladiator swords will protect you
-      HauntedDishesBuff: The haunted dishes will protect you
-      HermitCrab: The hermit crab will protect you
-      Herring: The herring will protect you
-      HotE: All elementals will protect you
-      HowlTrio: Howl protects you, Calcifer lights your way, Turnip-Head stalks you
-      HydrothermicVentBuff: The hydrothermic vent will protect you
-      IceClasperBuff: The ice clasper will protect you
-      IgneousExaltationBuff: A blade is orbiting you
-      LilPlaguebringerBuff: The plaguebringer will protect you
-      MagicHatBuff: The hat carries your soul, bound by a contract
-      Mechworm: The mechworm will protect you
-      MidnightSunBuff: A strange UFO is observing you, and it's making you very uncomfortable
-      MiniatureEyeofCthulhu: It's watching you
-      MiniOldDukeBuff: The young duke will protect you
-      MiniPlaguebringerBuff: A small plague bee is following you
-      MoonFistBuff: Catch these hands
-      MountedScannerBuff: Powerful machinery surrounds you
-      PerditionBuff: How unfortunate
-      Phantom: The phantom will protect you
-      PlantationBuff: The miniature plantera will protect you
-      PoleWarperBuff: Sentient magnets are attracted to you
-      ProfanedBabs: The Profaned Babs will fight for and defend you!
-      PuffWarriorBuff: It confidently and excitedly protects you
-      ResurrectionButterflyBuff: Sleep beneath the Cherry Blossoms, Red-White Butterfly
-      SageSpiritBuff: It's uncomfortably close
-      Sandnado: The sandnado will protect you
-      SandyHealingWaifu: The sand elemental will heal you
-      SandyWaifu: The sand elemental will protect you
-      SarosPossessionBuff: A radiant aura protects you
-      SeaSnailBuff: Meow?
-      SepulcherMinionBuff: It is not benevolent
-      ShellfishBuff: The shellfish will protect you
-      SilvaCrystalBuff: The crystal will protect you
-      SiriusBuff: A bit too bright, but it helps you
-      SkeletalDragonsBuff: Big happy family
-      SmallSkeletonBuff: A skeleton is observing you
-      SnakeEyesBuff: Always watching...
-      SolarGodSpiritBuff: The solar god spirit will protect you
-      SolarSpirit: The solar spirit will protect you
-      SoulSeekerBuff: It definitely wants something from you
-      StarSwallowerBuff: Mmmm myes
-      TacticalPlagueEngineBuff: A giant plague jet is following you
-      TundraFlameBlossomsBuff: A perfect unison of balance and beauty
-      ValkyrieBuff: The valkyrie will protect you
-      VileFeederBuff: The baby eater of souls will protect you
-      ViridVanguardBuff: A perfect act of unity surrounds you
-      ViriliBuff: Unfortunately for you, she's quite contagious
-      VoidConcentrationBuff: The infinite void yearns for more...
-      WaterWaifu: Anahita will protect you
-      WitherBlossomsBuff: Pestilence surrounds you
-      WulfrumDroidBuff: The wulfrum droid will protect you
+      GastricAberrationBuff: 深海吞食者会保护你
+      GladiatorSwords: 角斗士短剑在你身旁飞舞
+      HauntedDishesBuff: 缠怨鬼碟会保护你
+      HermitCrab: 寄居蟹会保护你
+      Herring: 鲱鱼群会保护你
+      HotE: 所有元素之灵给予你祝福，为你而战
+      HowlTrio: 哈尔会保护你，卡西法会照亮你的道路，小萝卜头会跟随着你
+      HydrothermicVentBuff: 沸腾渊泉会保护你
+      IceClasperBuff: 食魂冰虫会保护你
+      IgneousExaltationBuff: 淬焰古刀围绕着你旋转
+      LilPlaguebringerBuff: 瘟疫使者会保护你
+      MagicHatBuff: 我会一直留着你的灵魂当人质，但你找到的东西都得留下！
+      Mechworm: 星宇护卫在你身旁飞翔
+      MidnightSunBuff: 一个奇怪的UFO在观察你，这令你很不舒服
+      MiniatureEyeofCthulhu: 它正在注视你
+      MiniOldDukeBuff: 年轻的硫海公爵保护你
+      MiniPlaguebringerBuff: 一只小瘟疫蜂跟着你
+      MoonFistBuff: 准备好用这些手去打一架了吗？
+      MountedScannerBuff: 强大的机械环绕在你的身边
+      PerditionBuff: 永劫不复
+      Phantom: 噬魂幽花的灵魂碎片主动帮助你
+      PlantationBuff: 迷你世纪之花会保护你
+      PoleWarperBuff: 你吸引着这些磁场模块
+      ProfanedBabs: 亵渎守卫全员将为你而战！
+      PuffWarriorBuff: 它自信且兴奋地保护着你
+      ResurrectionButterflyBuff: 回归于花下好了，春之亡灵！沉眠于花下好了，红白之蝶！
+      SageSpiritBuff: 靠的太近了，很不舒服
+      Sandnado: 沙龙卷会保护你
+      SandyHealingWaifu: 沙元素会治疗你
+      SandyWaifu: 沙元素会保护你
+      SarosPossessionBuff: 闪熠的流光日环保护着你
+      SeaSnailBuff: 喵？
+      SepulcherMinionBuff: 它并非带着善意而来……
+      ShellfishBuff: 沉沦之贝会保护你
+      SilvaCrystalBuff: 始源林海水晶在你头顶闪耀
+      SiriusBuff: 有点亮，毕竟是颗蓝矮星
+      SkeletalDragonsBuff: 幸福大家庭
+      SmallSkeletonBuff: 骷髅在注视着你
+      SnakeEyesBuff: 永远注视着……
+      SolarGodSpiritBuff: 太阳神之灵会保护你
+      SolarSpirit: 太阳之灵会保护你
+      SoulSeekerBuff: 它渴望汝所拥有之物……
+      StarSwallowerBuff: 并不能吞噬星星
+      TacticalPlagueEngineBuff: 一架瘟疫喷气战机跟着你
+      TundraFlameBlossomsBuff: 均衡与美丽的完美和谐
+      ValkyrieBuff: 天武神会保护你
+      VileFeederBuff: 灵魂吞噬者宝宝将保护你
+      ViridVanguardBuff: 你身边环绕着完美的和谐之风
+      ViriliBuff: 很遗憾你不能拥抱她
+      VoidConcentrationBuff: 无尽之虚空渴望着更多……
+      WaterWaifu: 阿娜希塔会保护你
+      WitherBlossomsBuff: 瘟疫之蕾环绕在你身边
+      WulfrumDroidBuff: 钨钢无人机会保护你
     }
     MapObject:
     {
