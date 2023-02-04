@@ -2283,51 +2283,51 @@
       OrthoceraShell: 直角石壳
       Perdition: 永劫
       PlantationStaff: 苍华之庭
-      PolypLauncher: Polyp Launcher
-      PuffShroom: Puff Shroom
-      ResurrectionButterfly: Resurrection Butterfly
-      RustyBeaconPrototype: Rusty Beacon Prototype
-      SandSharknadoStaff: Sand Sharknado Staff
-      SarosPossession: Saros Possession
-      ScabRipper: Scab Ripper
-      SeaboundStaff: Seabound Staff
-      ShellfishStaff: Shellfish Staff
-      Sirius: Sirius
-      SlimePuppetStaff: Slime Puppet Staff
-      SpikecragStaff: Spikecrag Staff
-      SquirrelSquireStaff: Squirrel Squire Staff
-      StaffOfNecrosteocytes: Staff of Necrosteocytes
-      StaffoftheMechworm: Staff of the Mechworm
-      StormjawStaff: Stormjaw Staff
-      SunGodStaff: Sun God Staff
-      SunSpiritStaff: Sun Spirit Staff
-      TacticalPlagueEngine: Tactical Plague Engine
-      TemporalUmbrella: Temporal Umbrella
-      TundraFlameBlossomsStaff: Tundra Flame Blossoms Staff
-      UniverseSplitter: Universe Splitter
-      Vigilance: Vigilance
-      VileFeeder: Vile Feeder
-      ViralSprout: Viral Sprout
-      ViridVanguard: Virid Vanguard
-      VoidConcentrationStaff: Void Concentration Staff
-      WarloksMoonFist: Warloks' Moon Fist
-      WitherBlossomsStaff: Wither Blossoms Staff
-      WulfrumController: Wulfrum Controller
-      YharonsKindleStaff: Yharon's Kindle Staff
-      Aestheticus: Aestheticus
-      EyeofMagnus: Eye of Magnus
-      Bazooka: Bazooka
-      ElephantKiller: Elephant Killer
-      Hydra: Hydra
-      LightningHawk: Lightning Hawk
-      Magnum: Magnum
-      GoldenGun: Golden Gun
-      LunicEye: Lunic Eye
-      RelicOfDeliverance: Relic of Deliverance
-      RelicOfResilience: Relic of Resilience
-      Skynamite: Skynamite
-      StarStruckWater: Star Struck Water
-      YanmeisKnife: Yanmei's Knife
+      PolypLauncher: 珊瑚召唤杖
+      PuffShroom: 蓬松蘑菇
+      ResurrectionButterfly: 反魂蝶
+      RustyBeaconPrototype: 锈蚀信标原型
+      SandSharknadoStaff: 沙龙卷法杖
+      SarosPossession: 星律之握揽
+      ScabRipper: 疤痕撕裂者
+      SeaboundStaff: 海星召唤杖
+      ShellfishStaff: 海贝法杖
+      Sirius: 天狼星
+      SlimePuppetStaff: 史莱姆傀儡法杖
+      SpikecragStaff: 地刺王法杖
+      SquirrelSquireStaff: 松鼠召唤杖
+      StaffOfNecrosteocytes: 死灵骨髓杖
+      StaffoftheMechworm: 星宇神卫召唤杖
+      StormjawStaff: 风暴蚁狮杖
+      SunGodStaff: 太阳神法杖
+      SunSpiritStaff: 太阳之灵法杖
+      TacticalPlagueEngine: 战术瘟疫引擎
+      TemporalUmbrella: 光阴流时伞
+      TundraFlameBlossomsStaff: 永冻之焱华
+      UniverseSplitter:渊宇天基炮
+      Vigilance: 恂戒
+      VileFeeder: 腐化吞噬者
+      ViralSprout: 剧毒芽孢
+      ViridVanguard: 葱茏之锋
+      VoidConcentrationStaff: 幽冥统御
+      WarloksMoonFist: Warloks的月亮之拳
+      WitherBlossomsStaff: 凋零绽放法杖
+      WulfrumController:钨钢控制器
+      YharonsKindleStaff: 巨龙七星灯
+      Aestheticus: 美学魔杖
+      EyeofMagnus: 玛格努斯之眼
+      Bazooka: 巴祖卡
+      ElephantKiller: 猎象者
+      Hydra: 九头蛇
+      LightningHawk: 闪电鹰
+      Magnum: 马格南
+      GoldenGun: 灵液枪
+      LunicEye: 星光之眼
+      RelicOfDeliverance: 渡魂圣物
+      RelicOfResilience: 塑魂圣物
+      Skynamite: 天蓝炸药
+      StarStruckWater: 星水
+      YanmeisKnife: Yanmei的刀
     }
     ItemTooltip:
     {
