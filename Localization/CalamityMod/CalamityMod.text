@@ -2333,31 +2333,31 @@
     {
       AstralPylon:
         '''
-        Teleport to another pylon when 2 villagers are nearby
-        You can only place one per type and in the matching biome
+        附近有2个村民时可以传送至另一个晶塔
+        只能在匹配的生物群落中放置且每个类型只能放置一个
         '''
       CragsPylon:
         '''
-        Teleport to another pylon
-        The nature of the Crags allows you to teleport to this pylon without nearby villagers
-        You can only place one per type and in the matching biome
+        可以传送至另一个晶塔
+        硫火之崖的地理环境使得附近没有村民时玩家依然能够进行传送
+        只能在匹配的生物群落中放置且每个类型只能放置一个
         '''
       SulphurPylon:
         '''
-        Teleport to another pylon when 2 villagers are nearby
-        You can only place one per type and in the matching biome
+        附近有2个村民时可以传送至另一个晶塔
+        只能在匹配的生物群落中放置且每个类型只能放置一个
         '''
       SunkenPylon:
         '''
-        Teleport to another pylon when 2 villagers are nearby
-        You can only place one per type and in the matching biome
+        附近有2个村民时可以传送至另一个晶塔
+        只能在匹配的生物群落中放置且每个类型只能放置一个
         '''
-      Abaddon: Grants immunity to Brimstone Flames and Searing Lava
+      Abaddon: 使你免疫硫磺火和硫焰灼烧减益
       AbyssalAmulet:
         '''
-        Attacks inflict the Crush Depth debuff
-        Grants immunity to the Crush Depth debuff
-        While in the abyss you gain 10% increased max life
+        攻击会造成深渊水压减益
+        使你免疫深渊水压减益
+        当你处于深渊中时获得10%最大生命值加成
         '''
       AbyssalDivingGear:
         '''
@@ -13631,238 +13631,5 @@
     EtherealCoreText: You have already used an Ethereal Core. It's best to not use more than you are able to.
     PhantomHeartText: You have already used a Phantom Heart. It's probably good that you can't use another.
     SlimeGodRun: The Slime God flees to fight another day...
-    CalamityConfig:
-    {
-      Config:
-      {
-        Label: $Mods.CalamityMod.Config.MainTitle
-      }
-      Afterimages:
-      {
-        Header: $Mods.CalamityMod.Config.SectionTitle.Graphics
-        Label: $Mods.CalamityMod.Config.EntryTitle.Afterimages
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.Afterimages
-      }
-      ParticleLimit:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.ParticleLimit
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.ParticleLimit
-      }
-      Screenshake:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.Screenshake
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.Screenshake
-      }
-      StealthInvisibility:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.StealthInvisibility
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.StealthInvisibility
-      }
-      ShopNewAlert:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.ShopNewAlert
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.ShopNewAlert
-      }
-      WikiStatusMessage:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.WikiStatusMessage
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.WikiStatusMessage
-      }
-      BossHealthBarExtraInfo:
-      {
-        Header: $Mods.CalamityMod.Config.SectionTitle.UI
-        Label: $Mods.CalamityMod.Config.EntryTitle.BossHealthBarExtraInfo
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.BossHealthBarExtraInfo
-      }
-      DebuffDisplay:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.DebuffDisplay
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.DebuffDisplay
-      }
-      CooldownDisplay:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.CooldownDisplay
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.CooldownDisplay
-      }
-      VanillaCooldownDisplay:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.VanillaCooldownDisplay
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.VanillaCooldownDisplay
-      }
-      MeterPosLock:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.MeterPosLock
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.MeterPosLock
-      }
-      StealthMeter:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.StealthMeter
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.StealthMeter
-      }
-      StealthMeterPosX:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.StealthMeterPosX
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.StealthMeterPosX
-      }
-      StealthMeterPosY:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.StealthMeterPosY
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.StealthMeterPosY
-      }
-      SulphuricWaterMeterPosX:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.SulphuricWaterMeterPosX
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.SulphuricWaterMeterPosX
-      }
-      SulphuricWaterMeterPosY:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.SulphuricWaterMeterPosY
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.SulphuricWaterMeterPosY
-      }
-      ChargeMeter:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.ChargeMeter
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.ChargeMeter
-      }
-      ChargeMeterPosX:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.ChargeMeterPosX
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.ChargeMeterPosX
-      }
-      ChargeMeterPosY:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.ChargeMeterPosY
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.ChargeMeterPosY
-      }
-      SpeedrunTimer:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.SpeedrunTimer
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.SpeedrunTimer
-      }
-      SpeedrunTimerPosX:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.SpeedrunTimerPosX
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.SpeedrunTimerPosX
-      }
-      SpeedrunTimerPosY:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.SpeedrunTimerPosY
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.SpeedrunTimerPosY
-      }
-      RemoveReforgeRNG:
-      {
-        Header: $Mods.CalamityMod.Config.SectionTitle.Gameplay
-        Label: $Mods.CalamityMod.Config.EntryTitle.RemoveReforgeRNG
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.RemoveReforgeRNG
-      }
-      EarlyHardmodeProgressionRework:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.EarlyHardmodeProgressionRework
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.EarlyHardmodeProgressionRework
-      }
-      BossZen:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.BossZen
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.BossZen
-      }
-      TownNPCsSpawnAtNight:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.TownNPCsSpawnAtNight
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.TownNPCsSpawnAtNight
-      }
-      TownNPCSpawnRateMultiplier:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.TownNPCSpawnRateMultiplier
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.TownNPCSpawnRateMultiplier
-      }
-      BossHealthBoost:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.BossHealthBoost
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.BossHealthBoost
-      }
-      FasterBaseSpeed:
-      {
-        Header: $Mods.CalamityMod.Config.SectionTitle.BaseBoosts
-        Label: $Mods.CalamityMod.Config.EntryTitle.FasterBaseSpeed
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.FasterBaseSpeed
-      }
-      HigherJumpHeight:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.HigherJumpHeight
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.HigherJumpHeight
-      }
-      FasterJumpSpeed:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.FasterJumpSpeed
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.FasterJumpSpeed
-      }
-      FasterFallHotkey:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.FasterFallHotkey
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.FasterFallHotkey
-      }
-      FasterTilePlacement:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.FasterTilePlacement
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.FasterTilePlacement
-      }
-      NerfExpertDebuffs:
-      {
-        Header: $Mods.CalamityMod.Config.SectionTitle.ExpertMaster
-        Label: $Mods.CalamityMod.Config.EntryTitle.NerfExpertDebuffs
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.NerfExpertDebuffs
-      }
-      ChilledWaterRework:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.ChilledWaterRework
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.ChilledWaterRework
-      }
-      ForceTownSafety:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.ForceTownSafety
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.ForceTownSafety
-      }
-      RipperMeterShake:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.RipperMeterShake
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.RipperMeterShake
-      }
-      RageMeterPosX:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.RageMeterPosX
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.RageMeterPosX
-      }
-      RageMeterPosY:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.RageMeterPosY
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.RageMeterPosY
-      }
-      AdrenalineMeterPosX:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.AdrenalineMeterPosX
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.AdrenalineMeterPosX
-      }
-      AdrenalineMeterPosY:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.AdrenalineMeterPosY
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.AdrenalineMeterPosY
-      }
-      BossRushRegenCurse:
-      {
-        Header: $Mods.CalamityMod.Config.SectionTitle.BossRushCurses
-        Label: $Mods.CalamityMod.Config.EntryTitle.BossRushRegenCurse
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.BossRushRegenCurse
-      }
-      BossRushDashCurse:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.BossRushDashCurse
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.BossRushDashCurse
-      }
-      BossRushIFrameCurse:
-      {
-        Label: $Mods.CalamityMod.Config.EntryTitle.BossRushIFrameCurse
-        Tooltip: $Mods.CalamityMod.Config.EntryTooltip.BossRushIFrameCurse
-      }
-    }
   }
 }
