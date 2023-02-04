@@ -2361,44 +2361,44 @@
         '''
       AbyssalDivingGear:
         '''
-        Reduces the damage caused by the pressure of the abyss while out of breath
-        Removes the bleed effect caused by the abyss
-        Grants the ability to swim and greatly extends underwater breathing
-        Provides light underwater and extra mobility on ice
-        Provides a moderate amount of light in the abyss
-        Greatly reduces breath loss in the abyss
+        减少深渊氧气耗尽时水压造成的伤害
+        移除深渊造成的生命流失效果
+        使你获得水下游泳能力并且大幅度延长水下呼吸时间
+        提供水下光照以及冰面上额外的机动性
+        在深渊中提供适量光照
+        大幅度减缓在深渊中时的氧气消耗速度
         '''
       AbyssalDivingSuit:
         '''
-        Transforms the holder into an armored diver
-        Increases max movement speed and acceleration while underwater but you move slowly outside of water
-        The suits' armored plates reduce damage taken by 15%
-        The plates will only take damage if the damage taken is over 50
-        After the suit has taken too much damage its armored plates will take 3 minutes to regenerate
-        Reduces the damage caused by the pressure of the abyss while out of breath
-        Removes the bleed effect caused by the abyss in all layers except the deepest one
-        Grants the ability to swim and greatly extends underwater breathing
-        Provides light underwater and extra mobility on ice
-        Provides a moderate amount of light in the abyss
-        Greatly reduces breath loss in the abyss
-        Reduces creature's ability to detect you in the abyss
-        Reduces the defense reduction that the abyss causes
-        Grants immunity to the sulphurous waters
-        Allows you to fall faster while in liquids
+        将穿戴者变为身披重甲的潜水员
+        在水下时增加最大移动速度和加速度但在陆地时减少移动速度
+        潜水服的板甲会降低15%所受伤害
+        板甲只会在受到的伤害超过50点时损坏
+        在受到过多的伤害后，板甲需要3分钟时间来恢复
+        减少深渊氧气耗尽时水压造成的伤害
+        移除除深渊底层外其他深渊层造成的生命流失效果
+        使你获得水下游泳能力并且大幅度延长水下呼吸时间
+        提供水下光照以及冰面上额外的机动性
+        在深渊中提供适量光照
+        大幅度减缓在深渊中时的氧气消耗速度
+        削减深渊生物的探测能力
+        降低深渊的防御削减效果
+        使你免疫硫磺海水的效果
+        允许你在液体中进行更快地下潜
         '''
       AbyssalMirror:
         '''
-        Light does not reach the depths of the ocean
-        Significantly reduces enemy aggression, even in the abyss
-        Stealth generates 25% faster when standing still and 12% faster while moving
-        Grants the ability to evade attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies
-        Evading an attack grants a lot of stealth but has a 90 second cooldown
-        This cooldown is shared with all other dodges and reflects
+        光无法到达海洋深处
+        大幅度减少敌人的攻击性，即便是在深渊中亦是如此
+        静止时增加25%潜行值恢复速度，移动时增加12%潜行值恢复速度
+        使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
+        闪避攻击时会使你获得大量的潜行值并且闪避攻击的能力有90秒的冷却时间
+        该闪避与其他的闪避或反弹效果共享冷却时间
         '''
       AeroStone:
         '''
-        One of the ancient relics
-        Increases flight time, movement speed and jump speed by 10%
+        远古遗物之一
+        增加10%飞行时间、移动速度和跳跃高度
         '''
       Affliction:
         '''
