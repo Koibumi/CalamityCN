@@ -37,6 +37,7 @@ namespace CalamityCN.Translations.InfernumMode
             ILHooksI = new List<ILHook>();
 
             //成就
+            QuickTranslate(typeof(Achievement), "OnCompletion", "Achievement Completed! [c/ff884d:", "成就完成 [c/ff884d:");
             QuickTranslate(typeof(AchievementMenuUIHookEdit), "AchievementAdvisor_DrawOneAchievement", "Open Death Wishes", "打开死亡祈愿");
             QuickTranslate(typeof(AchievementUIManager), "InitializePage", "Death Wishes", "死亡祈愿");
             QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "First Of Many", "死海无涯");
