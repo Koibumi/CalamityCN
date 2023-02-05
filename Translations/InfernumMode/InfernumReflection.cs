@@ -11,7 +11,7 @@ namespace CalamityCN.Mods.InfernumMode
 		{
 			get
 			{
-				return ModsCall.Calamity != null && ModsCall.Infernum != null && ModsCall.IsCN && CalamityCNConfig.Instance.InfernumCN;
+				return ModsCall.Calamity != null && ModsCall.Infernum != null && ModsCall.IsCN;
 			}
 		}
 

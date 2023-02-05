@@ -15,6 +15,11 @@ namespace CalamityCN.Translations.InfernumMode
 					{
 						Main.combatText[index].text = "没有设置魔法门！";
 					}
+					if (Main.combatText[index].text.Equals("Infernum must be enabled to enter the Colosseum!"))
+					{
+						Main.combatText[index].text = "必须启用炼狱模式才能进入失落竞技场来！";
+					}
+					/*
 					if (Main.combatText[index].text.Equals("Many layered platforms can help greatly to avoid the exploding Cursed Flames!"))
 					{
 						Main.combatText[index].text = LangHelper.GetText("InfernumMode.CombatTexts.14");
@@ -535,6 +540,7 @@ namespace CalamityCN.Translations.InfernumMode
 					{
 						Main.combatText[index].text = LangHelper.GetText("InfernumMode.CombatTexts.2");
 					}
+					*/
 				}
 			}
 		}

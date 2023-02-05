@@ -2,9 +2,6 @@ using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
-using System.Reflection;
-using CalamityMod.Tiles.DraedonSummoner;
-using CalamityMod.TileEntities;
 using CalamityMod.UI.DraedonSummoning;
 using CalamityMod.UI.ModeIndicator;
 using CalamityMod.UI.Rippers;
@@ -79,8 +76,6 @@ namespace CalamityCN.Translations.Patch
             QuickTranslate(typeof(AcidRainUI), "get_InvasionName", "Acid Rain", "酸雨");
             //选择
             QuickTranslate(typeof(AstralArcanumUI), "UpdateAndDraw", "Select", "选择");
-            //名字-bug出现在游戏内重新加载mod
-            //QuickTranslate(typeof(BossHealthBarManager), "AttemptToAddBar", "XS-01 Artemis and XS-03 Apollo", "XS-01“阿尔忒弥斯”和XS-03“阿波罗”");
 
             //QuickTranslate(typeof(), "", "", "");
 

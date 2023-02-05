@@ -29,10 +29,6 @@ namespace CalamityCN.Utils
             UIPatch.Unload();
             ModePatch.Unload();
             TextPatch.Unload();
-            if (ModsCall.Infernum != null)
-            {
-                InfernumPatch.Unload();
-            }
         }
         public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
         {

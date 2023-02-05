@@ -22,13 +22,14 @@ namespace CalamityCN
 
         [ReloadRequired]
         [Header("炼狱模式部分配置")]
-        [Label("字体转换")]
-        [Tooltip("启用后炼狱模式下BOSS介绍标题字体将使用中文格式（部分翻译未完成）\n注意：需要重启游戏，强制重载可能有Bug！")]
+        [Label("标题字体转换")]
+        [Tooltip("启用后炼狱模式下BOSS介绍标题字体将使用中文格式\n注意：需要重启游戏！需要启用下方特殊部分才有效！")]
         [DefaultValue(false)]
         public bool InfernumCNFont;
 
-        [Label("汉化开关")]
-        [Tooltip("默认启用，除非炼狱更新又不适配了应急关闭")]
+		[ReloadRequired]
+        [Label("特殊部分汉化")]
+        [Tooltip("默认启用，除非炼狱更新或其他情况不适配了尝试关闭")]
         [DefaultValue(true)]
         public bool InfernumCN;
     }
