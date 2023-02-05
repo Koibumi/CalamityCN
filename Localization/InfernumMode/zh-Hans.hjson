@@ -702,7 +702,7 @@
       GlassPiece: 玻璃块
       WanderersShellProj: 流浪者之壳
       ScreenShakeProj: Screen Shake
-      WaterglassTokenProjectile: Waterglass Token
+      WaterglassTokenProjectile: 水琉璃之赠
       WayfinderGate: 寻路之门
       WayfinderHoldout: 寻路者
       WayfinderItemProjectile: 寻路者
@@ -727,7 +727,7 @@
       GolemArenaPlatform: ""
       GolemFistLeft: 石巨人拳
       GolemFistRight: 石巨人拳
-      BereftVassal: 阿耳戈斯，无邦封臣
+      BereftVassal: 无邦封臣，阿尔戈斯
       Ninja: 忍者
       BuilderDroneBig: 大型建构无人机
       BuilderDroneSmall: 小型建构无人机
@@ -772,7 +772,7 @@
     {
       GolemArena: 战斗场地
       MoonlordArena: 战斗场地
-      SeaShell: Sea Shell
+      SeaShell: 海贝
     }
     InfernumText: 炼狱模式已开启，祝你好运。
     InfernumText2: 炼狱模式已关闭，很好，继续吧。
