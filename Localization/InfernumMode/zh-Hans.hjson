@@ -4,181 +4,236 @@
   {
     ItemName:
     {
-      DemonicChaliceOfInfernum: 炼狱圣杯
-      BlastedTophat: 爆炸礼帽
-      BloodwormPlatter: 血蠕虫拼盘
-      DungeonsCurse: 地牢厄咒
-      FleshChunk: 血肉碎块
-      LeviathanDetector: 利维坦探测器
-      ProfanedFountainItem: 亵渎岩浆喷泉
-      RadiantCrystal: 辐彩棱晶
-      AquaticScourgeRelic: 渊海灾虫孽狱圣物
-      AstrumAureusRelic: 白金星舰孽狱圣物
-      AstrumDeusRelic: 星神游龙孽狱圣物
-      BetsyRelic: 双足翼龙孽狱圣物
-      BrainOfCthulhuRelic: 克苏鲁之脑孽狱圣物
-      BrimstoneElementalRelic: 硫磺火元素孽狱圣物
-      CalamitasCloneRelic: 灾厄孽狱圣物
-      CeaselessVoidRelic: 无尽虚空孽狱圣物
-      CrabulonRelic: 菌生蟹孽狱圣物
-      CryogenRelic: 极地之灵孽狱圣物
-      DarkMageRelic: 暗黑魔法师孽狱圣物
-      DeerclopsRelic: 独眼巨鹿孽狱圣物
-      DesertScourgeRelic: 荒漠灾虫孽狱圣物
-      DestroyerRelic: 毁灭者孽狱圣物
-      DevourerOfGodsRelic: 神明吞噬者孽狱圣物
-      DraedonRelic: 嘉登孽狱圣物
-      DragonfollyRelic: 痴愚金龙孽狱圣物
-      DreadnautilusRelic: 恐惧鹦鹉螺孽狱圣物
-      DukeFishronRelic: 猪龙鱼公爵孽狱圣物
-      EaterOfWorldsRelic: 世界吞噬怪孽狱圣物
-      EmpressOfLightRelic: 光之女皇孽狱圣物
-      EyeOfCthulhuRelic: 克苏鲁之眼孽狱圣物
-      GiantClamRelic: 巨像蛤孽狱圣物
-      GolemRelic: 石巨人孽狱圣物
-      HiveMindRelic: 腐巢意志孽狱圣物
-      KingSlimeRelic: 史莱姆王孽狱圣物
-      LeviathanRelic: 利维坦孽狱圣物
-      LunaticCultistRelic: 拜月教邪教徒孽狱圣物
-      MoonLordRelic: 月亮领主孽狱圣物
-      OgreRelic: 食人魔孽狱圣物
-      OldDukeRelic: 硫海遗爵孽狱圣物
-      PerforatorsRelic: 血肉宿主孽狱圣物
-      PlaguebringerGoliathRelic: 瘟疫使者歌莉娅孽狱圣物
-      PlanteraRelic: 世纪之花孽狱圣物
-      PolterghastRelic: 噬魂幽花孽狱圣物
-      ProfanedGuardiansRelic: 亵渎守卫孽狱圣物
-      ProvidenceRelic: 亵渎天神孽狱圣物
-      QueenBeeRelic: 蜂王孽狱圣物
-      QueenSlimeRelic: 史莱姆皇后孽狱圣物
-      RavagerRelic: 毁灭魔像孽狱圣物
-      SignusRelic: 神之使徒西格纳斯孽狱圣物
-      SkeletronPrimeRelic: 机械骷髅王孽狱圣物
-      SkeletronRelic: 骷髅王孽狱圣物
-      SlimeGodRelic: 史莱姆之神孽狱圣物
-      StormWeaverRelic: 风暴编织者孽狱圣物
-      SupremeCalamitasRelic: 至尊灾厄孽狱圣物
-      TwinsRelic: 双子魔眼孽狱圣物
-      WallOfFleshRelic: 血肉墙孽狱圣物
-      YharonRelic: 丛林龙，犽戎孽狱圣物
-      SparklingTunaCan: 闪光软体生物罐头
-
-      BereftVassalBossBag: 宝藏袋（无邦封臣）
-      KnowledgeBereftVassal: 无邦封臣和旱海狂鲨
-      BereftVassalTrophy: 无邦封臣纪念章
-      BereftVassalRelic: 无邦封臣孽狱圣物
-      GrandStatueItem: 狂鲨雕像
-      ProfanedFountainItem: 亵渎岩浆喷泉
-      TrufflePlatter: 松露虫拼盘
-      RedBait: 赤饵
-
-      AridBattlecry: 旱沙号角
-      Myrindael: 颤沙霆戟
-      TheGlassmaker: 熔璃化匠
-      WanderersShell: 流浪者之壳
-      CherishedSealocket: 珍海吊坠
-      WaterglassToken: 水琉璃之赠
-      Wayfinder: 寻路者
+    CherishedSealocket: 珍海吊坠
+    BereftVassalBossBag: 宝藏袋（无邦封臣）
+    DemonicChaliceOfInfernum: 炼狱圣杯
+    KnowledgeBereftVassal: 无邦封臣和旱海狂鲨
+    BlastedTophat: 爆炸礼帽
+    BereftVassalTrophy: 无邦封臣纪念章
+    GrandStatueItem: 狂鲨雕像
+    ProfanedFountainItem: 亵渎岩浆喷泉
+    AquaticScourgeRelic: 渊海灾虫孽狱圣物
+    AstrumAureusRelic: 白金星舰孽狱圣物
+    AstrumDeusRelic: 星神游龙孽狱圣物
+    BereftVassalRelic: 无邦封臣孽狱圣物
+    BetsyRelic: 双足翼龙孽狱圣物
+    BrainOfCthulhuRelic: 克苏鲁之脑孽狱圣物
+    BrimstoneElementalRelic: 硫磺火元素孽狱圣物
+    CalamitasCloneRelic: 灾厄孽狱圣物
+    CeaselessVoidRelic: 无尽虚空孽狱圣物
+    CrabulonRelic: 菌生蟹孽狱圣物
+    CryogenRelic: 极地之灵孽狱圣物
+    DarkMageRelic: 暗黑魔法师孽狱圣物
+    DeerclopsRelic: 独眼巨鹿孽狱圣物
+    DesertScourgeRelic: 荒漠灾虫孽狱圣物
+    DestroyerRelic: 毁灭者孽狱圣物
+    DevourerOfGodsRelic: 神明吞噬者孽狱圣物
+    DraedonRelic: 嘉登孽狱圣物
+    DragonfollyRelic: 痴愚金龙孽狱圣物
+    DreadnautilusRelic: 恐惧鹦鹉螺孽狱圣物
+    DukeFishronRelic: 猪龙鱼公爵孽狱圣物
+    EaterOfWorldsRelic: 世界吞噬怪孽狱圣物
+    EmpressOfLightRelic: 光之女皇孽狱圣物
+    EyeOfCthulhuRelic: 克苏鲁之眼孽狱圣物
+    GiantClamRelic: 巨像蛤孽狱圣物
+    GolemRelic: 石巨人孽狱圣物
+    HiveMindRelic: 腐巢意志孽狱圣物
+    KingSlimeRelic: 史莱姆王孽狱圣物
+    LeviathanRelic: 利维坦孽狱圣物
+    LunaticCultistRelic: 拜月教邪教徒孽狱圣物
+    MoonLordRelic: 月亮领主孽狱圣物
+    OgreRelic: 食人魔孽狱圣物
+    OldDukeRelic: 硫海遗爵孽狱圣物
+    PerforatorsRelic: 血肉宿主孽狱圣物
+    PlaguebringerGoliathRelic: 瘟疫使者歌莉娅孽狱圣物
+    PlanteraRelic: 世纪之花孽狱圣物
+    PolterghastRelic: 噬魂幽花孽狱圣物
+    ProfanedGuardiansRelic: 亵渎守卫孽狱圣物
+    ProvidenceRelic: 亵渎天神孽狱圣物
+    QueenBeeRelic: 蜂王孽狱圣物
+    QueenSlimeRelic: 史莱姆皇后孽狱圣物
+    RavagerRelic: 毁灭魔像孽狱圣物
+    SignusRelic: 神之使徒西格纳斯孽狱圣物
+    SkeletronPrimeRelic: 机械骷髅王孽狱圣物
+    SkeletronRelic: 骷髅王孽狱圣物
+    SlimeGodRelic: 史莱姆之神孽狱圣物
+    StormWeaverRelic: 风暴编织者孽狱圣物
+    SupremeCalamitasRelic: 至尊灾厄孽狱圣物
+    TwinsRelic: 双子魔眼孽狱圣物
+    WallOfFleshRelic: 血肉墙孽狱圣物
+    YharonRelic: 丛林龙，犽戎孽狱圣物
+    BloodwormPlatter: 血蠕虫拼盘
+    DungeonsCurse: 地牢厄咒
+    FleshChunk: 血肉碎块
+    LeviathanDetector: 利维坦探测器
+    RadiantCrystal: 辐彩棱晶
+    RedBait: 赤饵
+    SparklingTunaCan: 闪光软体生物罐头
+    TrufflePlatter: 松露虫拼盘
+    WaterglassToken: 水琉璃之赠
+    Wayfinder: 寻路者
+    AridBattlecry: 旱沙号角
+    Myrindael: 颤沙霆戟
+    TheGlassmaker: 熔璃化匠
+    WanderersShell: 流浪者之壳
     }
     ItemTooltip:
     {
-      AridBattlecry: 在光标下方召唤鲨鱼飞向敌人
-      Myrindael: 
-      '''
-      按住左键旋转长矛，然后投掷出去。投掷后，命中敌人会向敌人释放闪电与火花
-      右键会进行强力的冲刺，在命中敌人时从空中劈下闪电
-      争斗，毁灭，是要这世界任你予取予求
-      然而，当这世界都对你刀兵相向，你还能做些什么？
-      '''
-      TheGlassmaker: 
-      '''
-      90%几率不消耗凝胶
-      有时会发射出炽热的玻璃碎片追踪附近的目标
-      '''
-      WanderersShell: 
-      '''
-      向敌人投掷贝壳，在它们反弹并停留在地上之前，这些贝壳会追踪敌人
-      潜伏攻击会将所有停留在地上的贝壳炸成会攻击附近敌人的水柱
-      开口边缘太锋利了，没法靠近耳朵
-      '''
-      CherishedSealocket: 
-      '''
-      生成一个受击2次后消散的水波立场
-      当立场存在时，受到的伤害会减少60%，你会获得12%的伤害加成
-      立场会在90秒后再次生成
-      '''
+      CherishedSealocket:
+        '''
+        生成一个受击2次后消散的水波立场
+      	当立场存在时，受到的伤害会减少60%，你会获得12%的伤害加成
+      	立场会在90秒后再次生成
+        '''
       BereftVassalBossBag: "{$CommonItemTooltip.RightClickToOpen}"
-      KnowledgeBereftVassal: 
-      '''
-      一份最为罕见的忠诚。
-      曾经海王手下的一名伟大战士，他家园的覆灭似乎让他异常挫败。
-      然而，与你战斗似乎重新燃起了他的斗志。
-      '''
-      WaterglassToken: 
-      '''
-      将你传送到失落竞技场以及返回主世界
-      必须在快捷栏才可以使用
-      '''
-      Wayfinder: 
-      '''
-      创造一扇魔法门让你快速到达那里
-      有Boss存活时使用无法使用
-      ModifedInModifyTooltips
-      '''
-
+      DemonicChaliceOfInfernum: ""
+      KnowledgeBereftVassal:
+        '''
+        一份最为罕见的忠诚。
+      	曾经海王手下的一名伟大战士，他家园的覆灭似乎让他异常挫败。
+      	然而，与你战斗似乎重新燃起了他的斗志。
+        '''
       BlastedTophat: 召唤一个小小的礼帽女孩在你与Boss战斗时给予你建议
+      BereftVassalTrophy: ""
+      GrandStatueItem: ""
+      ProfanedFountainItem: ""
+      AquaticScourgeRelic: GetsChanged
+      AstrumAureusRelic: GetsChanged
+      AstrumDeusRelic: GetsChanged
+      BereftVassalRelic: GetsChanged
+      BetsyRelic: GetsChanged
+      BrainOfCthulhuRelic: GetsChanged
+      BrimstoneElementalRelic: GetsChanged
+      CalamitasCloneRelic: GetsChanged
+      CeaselessVoidRelic: GetsChanged
+      CrabulonRelic: GetsChanged
+      CryogenRelic: GetsChanged
+      DarkMageRelic: GetsChanged
+      DeerclopsRelic: GetsChanged
+      DesertScourgeRelic: GetsChanged
+      DestroyerRelic: GetsChanged
+      DevourerOfGodsRelic: GetsChanged
+      DraedonRelic: GetsChanged
+      DragonfollyRelic: GetsChanged
+      DreadnautilusRelic: GetsChanged
+      DukeFishronRelic: GetsChanged
+      EaterOfWorldsRelic: GetsChanged
+      EmpressOfLightRelic: GetsChanged
+      EyeOfCthulhuRelic: GetsChanged
+      GiantClamRelic: GetsChanged
+      GolemRelic: GetsChanged
+      HiveMindRelic: GetsChanged
+      KingSlimeRelic: GetsChanged
+      LeviathanRelic: GetsChanged
+      LunaticCultistRelic: GetsChanged
+      MoonLordRelic: GetsChanged
+      OgreRelic: GetsChanged
+      OldDukeRelic: GetsChanged
+      PerforatorsRelic: GetsChanged
+      PlaguebringerGoliathRelic: GetsChanged
+      PlanteraRelic: GetsChanged
+      PolterghastRelic: GetsChanged
+      ProfanedGuardiansRelic: GetsChanged
+      ProvidenceRelic: GetsChanged
+      QueenBeeRelic: GetsChanged
+      QueenSlimeRelic: GetsChanged
+      RavagerRelic: GetsChanged
+      SignusRelic: GetsChanged
+      SkeletronPrimeRelic: GetsChanged
+      SkeletronRelic: GetsChanged
+      SlimeGodRelic: GetsChanged
+      StormWeaverRelic: GetsChanged
+      SupremeCalamitasRelic: GetsChanged
+      TwinsRelic: GetsChanged
+      WallOfFleshRelic: GetsChanged
+      YharonRelic: GetsChanged
       BloodwormPlatter:
         '''
-        在硫磺海使用，召唤硫海遗爵
+        召唤硫海遗爵
+        Can only be used in the Sulphurous Sea
         不消耗
         '''
       DungeonsCurse:
         '''
-        召唤骷髅王，如果在白天使用，时间会切换到夜晚
-        在白天狂暴
+        召唤骷髅王
+        Skeletron enrages during daytime
+        It becomes nighttime if this item is used during daytime
         不消耗
         '''
       FleshChunk:
         '''
-        在地狱使用，召唤血肉墙
+        召唤血肉墙
+        Can only be used in the underworld
         不消耗
         '''
       LeviathanDetector:
         '''
-        在任意一侧海洋使用，召唤阿娜希塔
+        召唤阿娜希塔
+        Does not need to be used at the ocean
         不消耗
         '''
-      ProfanedFountainItem: ""
       RadiantCrystal:
         '''
         召唤光之女皇
-        不需要在神圣之地使用
-        在白天狂暴
+        Does not need to be used in the Hallow
+        The Empress enrages during daytime
+        不消耗
+        '''
+      RedBait:
+        '''
+        召唤恐惧鹦鹉螺
+        Can only be used at night
         不消耗
         '''
       SparklingTunaCan:
         '''
-        在沉沦之海使用，召唤巨像蛤
+        召唤巨像蛤
+        Can only be used in the sunken sea
         不消耗
         '''
-      TrufflePlatter: 
-      '''
-      召唤猪龙鱼公爵
-      只能在海洋环境使用
-      不消耗
-      '''
-      RedBait: 
-      '''
-      召唤恐惧鹦鹉螺
-      只能在夜晚使用
-      不消耗
-      '''
+      TrufflePlatter:
+        '''
+        召唤猪龙鱼公爵
+        只能在海洋环境使用
+        不消耗
+        '''
+      WaterglassToken:
+        '''
+        将你传送到失落竞技场以及返回主世界
+      	必须在快捷栏才可以使用
+        '''
+      Wayfinder:
+        '''
+        创造一扇魔法门让你快速到达那里
+      	有Boss存活时使用无法使用
+        ModifedInModifyTooltips
+        '''
+      AridBattlecry: 在光标下方召唤鲨鱼飞向敌人
+      Myrindael:
+        '''
+        按住左键旋转长矛，然后投掷出去。投掷后，命中敌人会向敌人释放闪电与火花
+      	右键会进行强力的冲刺，在命中敌人时从空中劈下闪电
+        [c/6fc8ff:争斗，毁灭，是要这世界任你予取予求]
+        [c/6fc8ff:然而，当这世界都对你刀兵相向，你还能做些什么？]
+        '''
+      TheGlassmaker:
+        '''
+        90%几率不消耗凝胶
+      	有时会发射出炽热的玻璃碎片追踪附近的目标
+        '''
+      WanderersShell:
+        '''
+        向敌人投掷贝壳，在它们反弹并停留在地上之前，这些贝壳会追踪敌人
+      	潜伏攻击会将所有停留在地上的贝壳炸成会攻击附近敌人的水柱
+      	开口边缘太锋利了，没法靠近耳朵
+        '''
     }
     ProjectileName:
     {
       SlowerSandTooth: 沙牙
       SulphurousPoisonCloud: 毒云
       AstralBlueComet: 星辉彗星
+      AstralLaserInfernum: Astral Laser Volley
       AstralMissile: 星辉导弹
       BlueLaserbeam: 星辉死亡射线
       MissileTelegraphLine: Telegraph
@@ -201,6 +256,7 @@
       IchorSpit: 灵液
       PsionicLightningBolt: 幽灵闪电
       PsionicOrb: 灵能
+      Brimrose: Brimrose
       BrimstoneDeathray: 硫火死亡射线
       BrimstoneFireball: 硫火球
       BrimstonePetal: 硫火花瓣
@@ -220,13 +276,13 @@
       RisingBrimstoneFireball: 硫火炸弹
       AllConsumingBlackHole: All-Consuming Black Hole
       CelestialBarrage: Otherwordly Bolt
-      ConvergingCelestialBarrage: Otherwordly Bolt
       DarkEnergyBolt: Dark Energy Bolt
       DarkEnergyBulletHellProj: 暗能量
       EnergyTelegraph: 暗能量碎片
       RealitySlice: Reality Tear
       RealityTear: Reality Tear
       SpiralEnergyLaser: Energy Laser
+      TelegraphedCelestialBarrage: Otherwordly Bolt
       HomingSpore: Spore
       MushroomPillar: Mushroom Column
       SporeCloud: Spore Gas
@@ -256,26 +312,26 @@
       TeleportTelegraph: Telegraph
       AcceleratingShadowHand: Shadow Hand
       ArenaIcicle: Long Icicle
+      DeathAnimationShadowHand: Shadow Hand
       DeerclopsEyeLaserbeam: Firebeam
       DeerclopsP2Wave: Explosion
       GroundIcicleSpike: Ice Spike
       ShadowHandArena: Shadow Hand
       SpinningShadowHand: Shadow Hand
+      SandBlastInfernum: Sand Blast
       Sandnado: Sand Tornado
       SandstormBlast: Sand Blast
-      SandstormBlast2: Sand Blast
       DestroyerBomb: Explosion
-      DestroyerPierceLaser: Laserbeam
+      DestroyerPierceLaser: Flame Laser
       DestroyerPierceLaserTelegraph: Telegraph
       EnergyBlast2: Energy Blast
       EnergySpark: Red Spark
       EnergySpark2: Red Spark
       AcceleratingDoGBurst: Death Fire
       DoGChargeGate: Portal
+      DoGDeathInfernum: Death Beam
       DoGPhase2IntroPortalGate: Portal
       DoGSpawnBoom: Explosion
-      EssenceSlice: Essence Slice
-      EssenceSliceTelegraphLine: Chain
       RealityBreakPortalLaserWall: Portal
       RoDFailPulse: Explosion
       AresBeamExplosion: 星流爆炸
@@ -285,6 +341,7 @@
       AresLaserDeathray: 终灭激光
       AresLaughBoom: 爆炸
       AresPlasmaFireball: 挥发性等离子光球
+      AresPrecisionBlast: Precision Blast
       AresPulseBlast: 星流脉冲能量光球
       AresPulseDeathray: 脉冲死光
       AresSpinningDeathBeam: 星流过载激光
@@ -293,6 +350,7 @@
       AresTeslaOrb: 特斯拉球状闪电
       AresTeslaSpark: 特斯拉裂片
       ExoburstSpark: 星流爆炸裂片
+      HotMetal: Superheated Metal
       PhotonRipperCrystal: 增压星流结晶
       PlasmaGas: 等离子球
       SmallPlasmaSpark: 等离子裂片
@@ -301,13 +359,17 @@
       ApolloFlamethrower: 星流等离子火焰喷射
       ApolloPlasmaFireball: 挥发性等离子光球
       ApolloRocketInfernum: 高爆等离子火焰
-      ApolloTelegraphedPlasmaSpark: 等离子束
+      ArtemisBasicShotLaser: Exo Flame Laser
       ArtemisGasFireballBlast: 挥发性火焰球
       ArtemisGatlingLaser: 星流热能激光
       ArtemisLaser: 星流热能激光
+      ArtemisLaserbeamTelegraph: Laserbeam Telegraph
       ArtemisSpinLaser: Ohio Beam
       ArtemisSweepLaserbeam: Ohio Beam
+      ExoplasmaBomb: Exoplasma Bomb
+      ExoplasmaExplosion: Exoplasma Explosion
       SuperheatedExofireGas: 终极烈火
+      ThermonuclearDeathOrb: Thermonuclear Death Orb
       DetatchedThanatosLaser: 星流等离子束
       ExolaserBomb: 星流等离子炸弹
       ExolaserSpark: 星流等离子裂片
@@ -316,7 +378,6 @@
       OverloadBoom: Explosion
       RefractionRotor: 衍耀旋刃
       ThanatosAresComboLaser: 星流火焰激光
-      ThanatosLaser: 星流火焰激光
       BigFollyFeather: Feather
       BirbThunderAuraFlare: Draconic Aura Flare
       ExplodingEnergyOrb: Plasma Orb
@@ -340,19 +401,21 @@
       Tornado: Tornado
       TyphoonBlade: Typhoon Blade
       AcceleratingPrismaticBolt: Prismatic Bolt
+      ArcingLightBolt: Light Bolt
       EmpressAurora: Aurora
       EmpressExplosion: Explosion
       EmpressPrism: Prism
       EmpressSparkle: Majestic Sparkle
       EmpressSword: Empress Blade
       EtherealLance: Ethereal Lance
-      LightBolt: Light Bolt
-      LightOrb: Light Orb
+      LanceCreatingSword: Empress Blade
       LightOverloadBeam: Prismatic Overload Ray
       PrismaticBolt: Prismatic Bolt
       PrismLaserbeam: Prismatic Ray
       ShimmeringLightWave: Explosion
       SpinningPrismLaserbeam: Prismatic Ray
+      StarBolt: Star Bolt
+      StolenCelestialObject: Big Stolen Celestial Object
       CorruptThorn: Corrupt Thorn
       CursedBullet: Cursed Shot
       CursedFlameBomb: Cursed Flame Bomb
@@ -368,13 +431,26 @@
       SpikeTrap: Spike Trap
       StationarySpikeTrap: Spike Trap
       ThermalDeathray: Thermal Deathray
-      SandFlameBall: Sand Ball
+      BereftVassalBigBoom: Explosion
+      BereftVassalSpear: Myrindael
+      BereftVassalTeleportBoom: Explosion
+      DustDevil: Dust Devil
+      GreatSandBlast: Sand Blast
+      GroundSlamWave: Wave
+      PressureSandnado: Sand Tornado
+      SandBlob: Sand Blob
+      SparkTelegraphLine: Telegraph
+      TorrentWave: Wave
+      VassalLightning: Myrndael Lightning Bolt
+      WaterSlice: Water Tear
+      WaterSpear: Water Spear
+      WaterTorrentBeam: Water Torrent
       BlobProjectile: Hive Blob
       EaterOfSouls: Eater of Souls
       HiveMindMirage: Hive Mind Mirage
       HiveMindWave: Explosion
       ShadeFire: Fire
-      ShadeFireColumn: Fire
+      DeathSlash: Ninja Slice
       JewelBeam: Beam
       Shuriken: Shuriken
       AnahitaWaterIllusion: Anahita Illusion
@@ -398,7 +474,6 @@
       MoonLordExplosionCinder: Cinder
       MoonLordWave: Explosion
       NebulaCloud: Nebula
-      NebulaVortex: Vortex
       NonHomingPhantasmalEye: Phantasmal Eye
       PhantasmalDeathray: Phantasmal Deathray
       PhantasmalOrb: Phantasmal Orb
@@ -429,7 +504,7 @@
       PlagueMissile2: Missile
       PlagueNuclearExplosion: Explosion
       PlagueVomit: Plague Vomit
-      PlagueWave: Shockwave
+      PlagueWave: Explosion
       RedirectingPlagueMissile: Missile
       BouncingPetal: Petal
       ExplodingFlower: Flower
@@ -444,23 +519,20 @@
       Light: Light
       NonReturningSoul: Soul
       NotSpecialSoul: Soul
-      PolterghastWave: Shockwave
+      PolterghastWave: Explosion
       SoulTelegraphLine: Telegraph
       SpinningSoul: Soul
       WavySoul: Soul
-      LaserBolt: Laser Bolt
-      LaserRayIdle: Deathray
+      EvenlySpreadPrimeLaserRay: Deathray
       LightningStrike: Lightning
       MetallicSpike: Metal Spike
-      NuclearExplosion: Explosion
-      NukeSmoke: Smoke
       PrimeEyeLaserRay: Deathray
-      PrimeNuke: Nuke
+      PrimeMissile: Missile
       PrimeShield: Shield
+      PrimeSmallLaser: Laser
+      SawSpark: Saw Spark
       SmallElectricGasGloud: Electric Cloud
       TeslaBomb: Tesla Bomb
-      AimedDeathray: Deathray
-      LightningTelegraph: Telegraph Ray
       MagicCrystalShot: Crystalline Light
       ProfanedField: Profaned Defender Field
       ProfanedSpearInfernum: Profaned Spear
@@ -477,10 +549,12 @@
       HolySunExplosion: Holy Explosion
       MoltenBlast: Molten Blast
       MoltenFire: Molten Bolt
-      ProvBoomDeath: Boom
+      ProvBoomDeath: Explosion
       ProvidenceArenaBorder: Border
+      ProvidenceWave: Explosion
+      ProvSummonFlameExplosion: Hyperthermal Explosion
       SwirlingFire: Fire
-      BeeWave: Shockwave
+      BeeWave: Explosion
       HoneyBlast: Honey Blast
       HornetHive: Hive
       TinyBee: Bee
@@ -489,6 +563,7 @@
       CrystalShard: Crystal Shard
       FallingGel: Falling Gel
       QueenSlimeCrown: Queen Slime's Crown
+      QueenSlimeCrystalSpike: Crystal Spike
       ShatteringCrystal: Royal Crystal
       DarkFlamePillar: Dark Flame Pillar
       DarkFlamePillarTelegraph: Telegraph
@@ -514,7 +589,6 @@
       SpinningFireball: Shadowflame Fireball
       DeceleratingCrimulanGlob: Unstable Crimulan Glob
       DeceleratingEbonianGlob: Unstable Ebonian Glob
-      EvilBolt: Evil Fire
       GroundSlimeGlob: Unstable Slime Glob
       ElectricOrb: Orb
       HomingWeaverSpark: Spark
@@ -535,7 +609,6 @@
       DemonicExplosion: Demonic Explosion
       DemonicTelegraphLine: Telegraph
       FlameOverloadBeam: Brimstone Flame Overload Ray
-      HeartSummoningDagger: Sacrificial Dagger
       HeresyProjSCal: Heresy
       InfernumBrimstoneGigablast: Brimstone Gigablast
       LostSoulProj: Burning Soul
@@ -555,6 +628,7 @@
       SupremeCalamitasBrotherPortal: Dark Portal
       SCalSymbol: Alchemical Symbol
       VigilanceProj: Vigilance
+      AimedDeathray: Deathray
       BigEnergyBlast: Blast
       CursedBomb: Cursed Flame Bomb
       CursedCinder: Cursed Cinder
@@ -563,20 +637,22 @@
       EnergyBlast: Blast
       HomingCursedFlameBurst: Cursed Flame
       HomingEnergyOrb: Energy
+      LightningTelegraph: Telegraph Ray
       RedLightning: Lightning
       TwinsEnergyExplosion: Boom
+      TwinsLensFlare: Lens Flare
       TwinsShield: Shield
+      TwinsSpriteExplosion: Twins Sprite Explosion
       CursedGeyser: The Fountain of Pain
       CursedSoul: Soul
       FireBeamTelegraph: Telegraph
       FireBeamWoF: Flame Beam
-      HellishScythe: Demon Scythe
       TileTentacle: Tentacle
       ChargeFlare: Big Flare
       DragonFireball: Fireball
+      HomingFireball: Homing Fireball
       LingeringDragonFlames: Dragonfire
       MajesticSparkleBig: Majestic Sparkle
-      ProvSummonFlameExplosion: Hyperthermal Explosion
       RedirectingYharonMeteor: Dragon Fireball
       VortexOfFlame: Vortex of Flame
       VortexTelegraphBeam: Flame Beam Telegraph
@@ -589,6 +665,10 @@
       ExplodingWyvern: Wyvern
       MeteorCinder: Cinder
       MoltenMeteor: Meteor
+      CloudLightning: Cloud Lightning
+      LargeCloud: Large Cloud
+      LargeHail: Large Hail
+      SmallHail: Small Hail
       ChainGuillotine: Chain Guillotine
       CursedDart: Cursed Flame Dart
       CursedFlamePillar: Cursed Flame Pillar
@@ -603,12 +683,30 @@
       PiercingCrystalShard: Crystal Shard
       BouncingSpitBall: Spit Ball
       RisingFireball: Fireball
+      SandFlameBall: Sand Ball
       Sandnado2: Sand Tornado
+      WanderersShellWater: Water Torrent
       GuardiansSummonerProjectile: Guardians Summoner Projectile
       HatGirl: 礼帽女孩
-      ProfanedTempleCinder: Cinder
-      ProvidenceArenaDelimiterProj: Arena Thing
+      AridBattlecryProjectile: Arid Battlecry
+      LingeringSandSkull: Sand Skull
+      MiniSandShark: Mini Sand Shark
+      MyrindaelBonkProjectile: Myrindael
+      MyrindaelLightning: Myrndael Lightning Bolt
+      MyrindaelSpark: Myrindael Spark
+      MyrindaelSpinProjectile: Myrindael
+      PortalLensFlare: Lens Flare
       ProvidenceSummonerProjectile: Providence Summoner Projectile
+      GlassmakerFire: Glass Flames
+      GlassmakerHoldout: Glassmaker
+      GlassPiece: Glass Piece
+      WanderersShellProj: Wanderer's Shell
+      ScreenShakeProj: Screen Shake
+      WaterglassTokenProjectile: Waterglass Token
+      WayfinderGate: Wayfinder Gate
+      WayfinderHoldout: Wayfinder
+      WayfinderItemProjectile: Wayfinder
+      WayfinderSymbol: Wayfinder Gate Symbol
     }
     NPCName:
     {
@@ -629,6 +727,7 @@
       GolemArenaPlatform: ""
       GolemFistLeft: 石巨人拳
       GolemFistRight: 石巨人拳
+      BereftVassal: 阿耳戈斯，无邦封臣
       Ninja: 忍者
       BuilderDroneBig: 大型建构无人机
       BuilderDroneSmall: 小型建构无人机
@@ -645,67 +744,140 @@
       ShadowDemon: 暗影巨蛇
       CursedOrb: 诅咒焰球
       EnergyOrb: 能量球
-      BereftVassal: 阿耳戈斯，无邦封臣
-      GreatSandSharkNPC: 托勒斯，旱海狂鲨
     }
     BiomeName:
     {
+      LostColosseumBiome: Lost Colosseum
       ProfanedTempleBiome: 亵渎神庙
     }
     BuffName:
     {
       DarkFlames: 黑暗火焰
       ElysianGrace: 极乐恩典
+      GlimmeringWings: Glimmering Wings
       HatGirlBuff: 礼帽女孩
       Madness: 精神失常
-      RedSurge: 红色涌动
       ShadowflameInferno: 暗影狱火
     }
     BuffDescription:
     {
       DarkFlames: 你的身体被遗忘之火吞噬。你的防御力降低了
       ElysianGrace: 你获得了无限的飞行时间
+      GlimmeringWings: 你获得了无限的飞行时间
       HatGirlBuff: 芳心纵火犯
       Madness: 要疯了……
-      RedSurge: 你无法移动
       ShadowflameInferno: 快速流失生命值
     }
     MapObject:
     {
       GolemArena: 战斗场地
       MoonlordArena: 战斗场地
+      SeaShell: Sea Shell
     }
-    
     InfernumText: 炼狱模式已开启，祝你好运。
     InfernumText2: 炼狱模式已关闭，很好，继续吧。
-    
     UI:
     {
       NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
-      AchievementsHeader: "死亡祈愿"
+      AchievementsHeader: 死亡祈愿
     }
-#暂时没用
-    Config:
+    Containers:
     {
+      ColosseumPortal: ""
+      GolemArena: ""
+      GrandStatue: ""
+      GuardiansSummoner: ""
+      InfernalChaliceTile: ""
+      MoonlordArena: ""
+      PalladiumColumn: ""
+      ProfanedFountainTile: ""
+      ProvidenceRoomDoorPedestal: ""
+      ProvidenceSummoner: ""
+      AquaticScourgeRelicTile: ""
+      AstrumAureusRelicTile: ""
+      AstrumDeusRelicTile: ""
+      BereftVassalRelicTile: ""
+      BetsyRelicTile: ""
+      BrainOfCthulhuRelicTile: ""
+      BrimstoneElementalRelicTile: ""
+      CalamitasCloneRelicTile: ""
+      CeaselessVoidRelicTile: ""
+      CrabulonRelicTile: ""
+      CryogenRelicTile: ""
+      DarkMageRelicTile: ""
+      DeerclopsRelicTile: ""
+      DesertScourgeRelicTile: ""
+      DestroyerRelicTile: ""
+      DevourerOfGodsRelicTile: ""
+      DraedonRelicTile: ""
+      DragonfollyRelicTile: ""
+      DreadnautilusRelicTile: ""
+      DukeFishronRelicTile: ""
+      EaterOfWorldsRelicTile: ""
+      EmpressOfLightRelicTile: ""
+      EyeOfCthulhuRelicTile: ""
+      GiantClamRelicTile: ""
+      GolemRelicTile: ""
+      HiveMindRelicTile: ""
+      KingSlimeRelicTile: ""
+      LeviathanRelicTile: ""
+      LunaticCultistRelicTile: ""
+      MoonLordRelicTile: ""
+      OgreRelicTile: ""
+      OldDukeRelicTile: ""
+      PerforatorsRelicTile: ""
+      PlaguebringerGoliathRelicTile: ""
+      PlanteraRelicTile: ""
+      PolterghastRelicTile: ""
+      ProfanedGuardiansRelicTile: ""
+      ProvidenceRelicTile: ""
+      QueenBeeRelicTile: ""
+      QueenSlimeRelicTile: ""
+      RavagerRelicTile: ""
+      SignusRelicTile: ""
+      SkeletronPrimeRelicTile: ""
+      SkeletronRelicTile: ""
+      SlimeGodRelicTile: ""
+      StormWeaverRelicTile: ""
+      SupremeCalamitasRelicTile: ""
+      TwinsRelicTile: ""
+      WallOfFleshRelicTile: ""
+      YharonRelicTile: ""
+      SandstoneTile: ""
+      SeaShell: ""
+      BereftVassalTrophyTile: ""
+      WayfinderTile: ""
+    }
+    InfernumConfig:
+    {
+      Config:
+      {
+        Label: Config
+      }
       BossIntroductionAnimationsAreAllowed:
       {
-        Label: Boss入场介绍动画
-        Tooltip: 启用Boss入场介绍动画，仅在炼狱模式激活时有效。
+        Label: Boss Introduction Animations
+        Tooltip: Enables boss introduction animations. They only activate when Infernum Mode is active.
       }
       DisplayTipsInChat:
       {
-        Label: 礼帽女孩提升在聊天栏
-        Tooltip: 决定爆炸礼帽中的宠物是否应在聊天中显示其提示。
+        Label: Blasted Tophat Tips in Chat
+        Tooltip: Determines whether the pet from the Blasted Tophat should display its tips in chat or not.
       }
-      ReducedGraphicsConfig: 
+      ReducedGraphicsConfig:
       {
-        Label: 简化的图形设置
-        Tooltip: 启用简化图形模式。有利于性能低设备。
+        Label: Reduced Graphical Settings
+        Tooltip: Enables reduced graphics mode. Use this if lag is an issue.
       }
-      AcceptClientChanges: 
+      SaturationBloomIntensity:
       {
-        Label: 饱和Bloom强度
-        Tooltip: 调整颜色饱和度Bloom效果强度。当该值为零时，这些效果将被禁用。
+        Label: Saturation Bloom Intensity
+        Tooltip: How intense color saturation bloom effects should be. Such effects are disabled when this value is zero.
+      }
+      FlashbangOverlays:
+      {
+        Label: Screen Overlays
+        Tooltip: Enables screen overlay 'flashbang' effects. This will not directly affect gameplay mechanics.
       }
     }
   }
