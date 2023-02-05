@@ -105,7 +105,7 @@ namespace CalamityCN.Translations.InfernumMode
             #region Other Boss
             QuickTranslate(typeof(SupremeCalamitasBehaviorOverride), "DoBehavior_DesperationPhase", "... Congratulations.", "……恭喜你。");
            
-            QuickTranslate(typeof(PlaguebringerGoliathBehaviorOverride), "DoBehavior_BombConstructors", "NUCLEAR CORE GENERATED. INITIATING BUILD PROCEDURE!", "核能核心启动，组装程序启动！");
+            QuickTranslate(typeof(PlaguebringerGoliathBehaviorOverride), "DoBehavior_BombConstructors", "NUCLEAR CORE GENERATED. INITIATING BUILD PROCEDURE!", "核能核心生成，组装程序开始启动！");
             
             QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blazing air rises...", "空气变得灼热起来……");
             QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blue flames roar...", "苍蓝的烈火猛烈咆哮……");
@@ -117,9 +117,9 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(YharonBehaviorOverride), "PreAI", "The air is scorching your skin...", "空气炙烤着你的皮肤……");
             //似乎无效
             QuickTranslate(typeof(BereftVassal), "get_BossTitle", "Bereft Vassal", "无邦封臣");
-            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "Use a [i:", "使用 [i:");
-            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "] at the pedestal in the heart of the desert.", "] 在沙漠中心的基座上。");
-            QuickTranslate(typeof(BereftVassal), "get_DespawnMessage", "Argus returns to quiet solitude at the center of the Colosseum.", "阿耳戈斯回到了僻静又孤独的失落竞技场中心。");
+            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "Use a [i:", "在沙漠中心的基座上使用 [i:");
+            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "] at the pedestal in the heart of the desert.", "] 。");
+            QuickTranslate(typeof(BereftVassal), "get_DespawnMessage", "Argus returns to quiet solitude at the center of the Colosseum.", "阿耳戈斯回到了僻静又孤独的竞技场中心。");
             #endregion
             #region CalamitasClone
             QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "Destroy ", "摧毁");
@@ -143,9 +143,9 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "NOT SO FAST!", "太慢了！");
             QuickTranslate(typeof(DifficultyManagementSystem), "PreUpdateWorld", "Infernum is not allowed in Master Mode or For the Worthy.", "炼狱模式无法在大师模式或For the Worthy种子下启用。");
-            QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电。");
+            QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电的洗礼。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " was incinerated by ungodly fire.", "被亵渎之火烧成了灰烬。");
-            QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " went mad.", "疯了。");
+            QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " went mad.", "发疯了。");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "A profaned shrine has erupted from the ashes at the underworld's edge!", "一座亵渎神庙从地狱边缘的灰烬中拔地而起！");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "Mysterious ruins have materialized in the heart of the desert!", "神秘的废墟出现在沙漠的中心！");
             //Intro
