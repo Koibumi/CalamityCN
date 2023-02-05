@@ -2357,14 +2357,14 @@
         '''
         攻击会造成深渊水压减益
         使你免疫深渊水压减益
-        当你处于深渊中时获得10%最大生命值加成
+        当你处于深渊中时增加10%最大生命值
         '''
       AbyssalDivingGear:
         '''
         减少深渊氧气耗尽时水压造成的伤害
         移除深渊造成的生命流失效果
-        使你获得水下游泳能力并且大幅度延长水下呼吸时间
-        提供水下光照以及冰面上额外的机动性
+        使你获得水下游泳能力并大幅度延长水下呼吸时间
+        提供水下光照以及在冰面上获得额外的机动性
         在深渊中提供适量光照
         大幅度减缓在深渊中时的氧气消耗速度
         '''
@@ -2377,8 +2377,8 @@
         在受到过多的伤害后，板甲需要3分钟时间来恢复
         减少深渊氧气耗尽时水压造成的伤害
         移除除深渊底层外其他深渊层造成的生命流失效果
-        使你获得水下游泳能力并且大幅度延长水下呼吸时间
-        提供水下光照以及冰面上额外的机动性
+        使你获得水下游泳能力并大幅度延长水下呼吸时间
+        提供水下光照以及在冰面上获得额外的机动性
         在深渊中提供适量光照
         大幅度减缓在深渊中时的氧气消耗速度
         削减深渊生物的探测能力
@@ -2392,7 +2392,7 @@
         大幅度减少敌人的攻击性，即便是在深渊中亦是如此
         静止时增加25%潜行值恢复速度，移动时增加12%潜行值恢复速度
         使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
-        闪避攻击时会使你获得大量的潜行值并且闪避攻击的能力有90秒的冷却时间
+        闪避攻击时会使你获得大量的潜行值且闪避攻击的能力有90秒的冷却时间
         该闪避与其他的闪避或反弹效果共享冷却时间
         '''
       AeroStone:
@@ -2402,117 +2402,117 @@
         '''
       Affliction:
         '''
-        Gives you and all other players on your team +1 life regen,
-        +10% max life, 7% damage reduction, 13 defense and 10% increased damage
+        为你和你附近的队友增加1点生命再生速度、
+        10%最大生命值、7%伤害减免、13点防御和10%伤害
         '''
       AlchemicalFlask:
         '''
-        All attacks inflict the Plague and grants immunity to the Plague
-        Projectiles spawn plague seekers on enemy hits
+        所有的攻击都会造成瘟疫减益并使你免疫瘟疫减益
+        弹幕在击中敌人时会生成瘟疫搜寻者
         '''
       AlluringBait:
         '''
-        30 increased fishing power
-        Greatly increases chance of catching potion ingredient fish
-        Potion ingredient fish yield is increased
+        增加30点渔力
+        大幅度增加捕获药水材料鱼的几率
+        增加药水材料鱼的材料产出数量
         '''
       AmalgamatedBrain:
         '''
-        10% increased damage
-        Shade rains down when you are hit
-        Grants the ability to dodge attacks
-        The dodge has a 90 second cooldown which is shared with all other dodges and reflects
-        Temporarily increases critical strike chance and summon damage after a dodge
-        You will confuse nearby enemies when you are struck
+        增加10%伤害
+        当你被击中时天降阴影之雨
+        使你获得闪避攻击的能力
+        闪避攻击的能力有90秒的冷却时间且该闪避与其他的闪避或反弹效果共享冷却时间
+        闪避攻击后会使你获得暴击率和召唤伤害加成
+        当你被击中时会对附近的敌人造成困惑减益
         '''
       AmbrosialAmpoule:
         '''
-        You emit light
-        5% increased damage reduction and increased life regen
-        Grants immunity to the Frozen, Chilled, Frostburn, Cursed Inferno and Burning Blood debuffs
+        你会散发光芒
+        增加5%伤害减免和生命再生速度
+        使你免疫冰冻、冷冻、霜冻、诅咒狱火和血液沸腾减益
         '''
-      AmidiasPendant: Periodically rains down prism shards that can briefly stun enemies
-      AmidiasSpark: Taking damage releases a blast of sparks
-      AncientFossil: Increases pick speed by 15% while underground
+      AmidiasPendant: 周期性地天降能够短暂眩晕敌人的棱晶碎片
+      AmidiasSpark: 当你受到伤害时会释放电火花冲击
+      AncientFossil: 当你处于地底时增加15%挖掘速度
       AnechoicPlating:
         '''
-        Reduces creature's ability to detect you in the abyss
-        Reduces the defense reduction that the abyss causes
+        削减深渊生物的探测能力
+        降低深渊的防御削减效果
         '''
       AngelicAlliance:
         '''
-        Call upon the force of heaven to empower your attacks and minions
-        Courage, Enlightenment, Bliss. United in Judgement
-        +2 max minions, 15% increased summon damage, and 8% increased damage to all other classes
-        Life regeneration is boosted while jumping
+        召唤圣天之力，强化你的攻击和召唤物
+        勇气注入双拳，启迪充盈脑海，祝福映于身后，这一切使你拥有无穷之力，使你能对眼前的敌人做出最终审判
+        增加2格最大召唤栏位、15%召唤伤害和8%其他职业伤害
+        当跳跃时会增加生命再生速度
         This line is modified in the code below. If you can read this, someone probably did something wrong (It was Ben)
-        While under the effects of Divine Bless, for every minion you have, an archangel shall be summoned to aid you in combat
-        Each spawned angel will instantly heal you for two health
-        All minion attacks inflict Banishing Fire and you are granted a flat health boost of four health per second
-        This effect has a cooldown of 1 minute
+        当你拥有圣天祝福增益时，你每拥有一个召唤物，便会出现一个圣天使助你一臂之力
+        每出现一个圣天使都会使你回复2点生命值
+        所有召唤物的攻击都会造成放逐之火减益，并使你获得不受其他效果影响的4点生命再生速度加成
+        此效果有1分钟冷却时间
         '''
       AngelTreads:
         '''
-        Extreme speed!
-        36% increased running acceleration
-        Increased flight time
-        Greater mobility on ice
-        Water and lava walking
-        Immunity to the On Fire! debuff
-        Temporary immunity to lava
+        极致的速度！
+        增加36%加速度
+        延长飞行时间
+        在冰面上获得额外的机动性
+        使你获得在水面和熔岩上行走的能力
+        使你免疫着火了！减益
+        使你短暂的免疫熔岩
         '''
       AquaticEmblem:
         '''
-        Most ocean enemies become friendly and provides waterbreathing
-        Being underwater slowly boosts your defense over time but also slows movement speed
-        The defense boost and movement speed reduction slowly vanish while outside of water
-        Maximum defense boost is 50, maximum movement speed reduction is 10%
-        Provides a small amount of light in the abyss
-        Moderately reduces breath loss in the abyss
+        大多数海洋敌人变得友好并使你获得水下呼吸能力
+        在水下时会逐渐增加防御但会逐渐降低移动速度
+        在水外时防御加成和移动速度降低效果会逐渐消失
+        防御至多增加50点，移动速度至多降低10%
+        在深渊中提供少量光照
+        适量减缓在深渊中时的氧气消耗速度
         '''
       AquaticHeart:
         '''
-        Transforms the holder into a water elemental
-        Going underwater gives you a buff
-        Greatly reduces breath loss and provides a small amount of light in the abyss
-        Enemies become frozen when they touch you
-        You have a layer of ice around you that absorbs 20% damage but breaks after one hit
-        After 30 seconds the ice shield will regenerate
-        Wow, you can swim now!
-        Most of these effects are only active after Skeletron has been defeated
+        将佩戴者变为水元素
+        在水中时会使你获得增益效果
+        大幅度减缓氧气消耗速度并在深渊中提供少量光照
+        与你接触的敌人会被冻结
+        使你获得一个环绕着你的寒冰屏障，寒冰屏障能够吸收20%伤害且会在吸收伤害后会碎裂
+        寒冰屏障会在碎裂30秒后再生
+        哇哦！你可以游泳了！
+        上述的大部分效果仅会在骷髅王被击败后才会生效
         '''
-      ArchaicPowder: 20% increased mining speed, 5% damage reduction and +10 defense while underground or in the underworld
+      ArchaicPowder: 当你处于地底或地狱时增加20%挖掘速度、5%伤害减免和10点防御
       AsgardianAegis:
         '''
-        Grants immunity to knockback
-        Immune to most debuffs
-        +40 max life and increased life regeneration
-        Grants a supreme holy flame dash
-        Can be used to ram enemies
+        使你免疫击退
+        使你免疫大多数减益
+        增加40点最大生命值和生命再生速度
+        使你获得至高圣火冲刺能力
+        可以用于撞击敌人
         TOOLTIP LINE HERE
-        Activating this buff will reduce your movement speed and increase enemy aggro
-        +20 defense while submerged in liquid
+        此增益存在时会降低你的移动速度并增加敌人对你的仇恨值
+        浸没在液体中时增加20点防御 
         '''
       AsgardsValor:
         '''
-        Grants immunity to knockback
-        Immune to most debuffs
-        +16 defense while submerged in liquid
-        +20 max life
-        Grants a holy dash which can be used to ram enemies
+        使你免疫击退
+        使你免疫大多数减益
+        浸没在液体中时增加16点防御
+        增加20点最大生命值
+        使你获得可以用于撞击敌人的至高圣火冲刺能力
         '''
       AstralArcanum:
         '''
-        Provides immunity to the astral infection debuff
-        Boosts life regen even while under the effects of a damaging debuff
-        While under the effects of a damaging debuff you will gain 15 defense
+        使你免疫幻星感染减益
+        即使在受到伤害性减益的影响时也会增加生命再生速度
+        当你受到伤害性减益的影响时会增加15点防御
         TOOLTIP LINE HERE
         '''
       BadgeofBravery:
         '''
-        15% increased melee speed
-        Increases melee damage and melee crit by 5%
-        +5 melee armor penetration
+        增加15%近战攻速
+        增加5%近战伤害和近战暴击率
+        增加5点护甲穿透
         '''
       BlazingCore:
         '''
