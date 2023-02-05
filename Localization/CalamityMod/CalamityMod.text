@@ -2357,7 +2357,7 @@
         '''
         攻击会造成深渊水压减益
         使你免疫深渊水压减益
-        当你处于深渊中时增加10%最大生命值
+        处于深渊中时增加10%最大生命值
         '''
       AbyssalDivingGear:
         '''
@@ -2419,11 +2419,11 @@
       AmalgamatedBrain:
         '''
         增加10%伤害
-        当你被击中时天降阴影之雨
+        被击中时天降阴影之雨
         使你获得闪避攻击的能力
         闪避攻击的能力有90秒的冷却时间且该闪避与其他的闪避或反弹效果共享冷却时间
         闪避攻击后会使你获得暴击率和召唤伤害加成
-        当你被击中时会对附近的敌人造成困惑减益
+        被击中时会对附近的敌人造成困惑减益
         '''
       AmbrosialAmpoule:
         '''
@@ -2432,8 +2432,8 @@
         使你免疫冰冻、冷冻、霜冻、诅咒狱火和血液沸腾减益
         '''
       AmidiasPendant: 周期性地天降能够短暂眩晕敌人的棱晶碎片
-      AmidiasSpark: 当你受到伤害时会释放电火花冲击
-      AncientFossil: 当你处于地底时增加15%挖掘速度
+      AmidiasSpark: 受到伤害时会释放电火花冲击
+      AncientFossil: 处于地底时增加15%挖掘速度
       AnechoicPlating:
         '''
         削减深渊生物的探测能力
@@ -2444,9 +2444,9 @@
         召唤圣天之力，强化你的攻击和召唤物
         勇气注入双拳，启迪充盈脑海，祝福映于身后，这一切使你拥有无穷之力，使你能对眼前的敌人做出最终审判
         增加2格最大召唤栏位、15%召唤伤害和8%其他职业伤害
-        当跳跃时会增加生命再生速度
+        跳跃时会增加生命再生速度
         This line is modified in the code below. If you can read this, someone probably did something wrong (It was Ben)
-        当你拥有圣天祝福增益时，你每拥有一个召唤物，便会出现一个圣天使助你一臂之力
+        拥有圣天祝福增益时，你每拥有一个召唤物，便会出现一个圣天使助你一臂之力
         每出现一个圣天使都会使你回复2点生命值
         所有召唤物的攻击都会造成放逐之火减益，并使你获得不受其他效果影响的4点生命再生速度加成
         此效果有1分钟冷却时间
@@ -2481,7 +2481,7 @@
         哇哦！你可以游泳了！
         上述的大部分效果仅会在骷髅王被击败后才会生效
         '''
-      ArchaicPowder: 当你处于地底或地狱时增加20%挖掘速度、5%伤害减免和10点防御
+      ArchaicPowder: 处于地底或地狱时增加20%挖掘速度、5%伤害减免和10点防御
       AsgardianAegis:
         '''
         使你免疫击退
@@ -2504,8 +2504,8 @@
       AstralArcanum:
         '''
         使你免疫幻星感染减益
-        即使在受到伤害性减益的影响时也会增加生命再生速度
-        当你受到伤害性减益的影响时会增加15点防御
+        即便是在受到伤害性减益的影响时也会增加生命再生速度
+        受到伤害性减益影响时增加15点防御
         TOOLTIP LINE HERE
         '''
       BadgeofBravery:
@@ -2516,64 +2516,65 @@
         '''
       BlazingCore:
         '''
-        The searing core of the profaned goddess
-        Being hit creates a miniature sun that lingers, dealing damage to nearby enemies
-        The sun will slowly drag enemies into it
-        Only one sun can be active at once
-        Provides a moderate amount of light in the Abyss
+        亵渎天神的炽热之心
+        被击中时会生成一个小型太阳，其会对附近的敌人造成伤害
+        太阳会缓慢的牵引敌人
+        一次只能存在至多一个太阳
+        在深渊中提供适量光照
         '''
       BloodflareCore:
         '''
-        You lose up to half your defense after taking damage
-        Lost defense regenerates over time
-        You gain 1 health for every 1 defense gained as it regenerates
+        受到伤害时会损失防御，至多损失一半的防御
+        损失的防御会随着时间流逝而逐渐恢复
+        每恢复1点防御便为你回复1点生命值
         '''
       BloodPact:
         '''
-        Doubles your max HP
-        Allows you to be critically hit 25% of the time
-        After a critical hit, you gain various buffs for ten seconds
-        Any healing potions consumed during this time period heal 50% more health
+        使你的最大生命值翻倍
+        你有25%的几率受到暴击
+        受到暴击时会使你获得持续10秒的多种增益效果
+        此期间增加50%治疗药水的治疗量
         '''
-      BloodstainedGlove: Stealth strikes have +8 armor penetration and heal for 2 HP
+      BloodstainedGlove: 潜伏攻击会附带8点护甲穿透并为你回复2点生命值
       BloodyWormScarf:
         '''
-        7% increased damage reduction
-        7% increased melee damage and speed
+        增加7%伤害减免
+        增加7%近战伤害和近战攻速
         '''
-      BloodyWormTooth: 7% increased melee damage and speed
+      BloodyWormTooth: 增加7%近战伤害和近战攻速
       BloomStone:
         '''
-        One of the ancient relics
-        You quickly regenerate life while on the ground
-        This effect works best during daytime
-        Flowers grow if you are standing on grass
-        Random dye plants will grow while standing on grassless dirt
+        远古遗物之一
+        在地面上时你会快速的恢复生命值
+        在白天时会强化此效果
+        你走过的草地会百花齐放
+        站在泥土上时有几率长出随机的染料植物
         '''
       BlunderBooster:
         '''
-        12% increased rogue damage and 15% increased rogue projectile velocity
-        Stealth generates 10% faster
-        Summons a red lightning aura to surround the player and electrify nearby enemies
-        TOOLTIP LINE HEREThis effect has a 1 second cooldown before it can be used again
+        增加12%盗贼伤害和15%盗贼弹幕飞行速度
+        增加10%潜行值恢复速度
+        召唤一个红色的闪电光环包围玩家并电击附近的敌人
+        TOOLTIP LINE HERE
+        此效果有1秒冷却时间
         '''
       Calamity:
         '''
-        Lights your cursor ablaze with the Witch's flames, engulfing it in a blazing aura
-        Enemies touching the blaze take immense damage and are inflicted with Vulnerability Hex
-        Equip in a vanity slot to change the cursor without dealing damage
-        These changes work in conjunction with the Rainbow Cursor
+        用女巫的硫火点燃你的光标，使光标被炽热的光环包围
+        光标会对与其接触的敌人造成巨额伤害和孱弱巫咒减益
+        装备在时装栏中时仅会改变光标的颜色，且不会造成伤害
+        这些改动在与彩虹光标同时使用时也会生效
         '''
       CelestialJewel:
         '''
-        Boosts life regen even while under the effects of a damaging debuff
-        While under the effects of a damaging debuff you will gain 11 defense
+        即便是在受到伤害性减益的影响时也会增加生命再生速度
+        受到伤害性减益影响时增加11点防御
         TOOLTIP LINE HERE
         '''
       ChaosStone:
         '''
-        One of the ancient relics
-        Mana Sickness from drinking mana potions is replaced by Mana Burn
+        远古遗物之一
+        饮用魔力药水时会使你获得魔力烧蚀减益而非魔力病减益
         Mana Burn deals damage over time relative to the intensity of the debuff
         This debuff does not reduce your magic damage
         '''
