@@ -150,45 +150,45 @@
       BloodwormPlatter:
         '''
         召唤硫海遗爵
-        Can only be used in the Sulphurous Sea
+        只能在硫磺海使用
         不消耗
         '''
       DungeonsCurse:
         '''
         召唤骷髅王
-        Skeletron enrages during daytime
-        It becomes nighttime if this item is used during daytime
+        在白天狂暴
+        在白天使用此物品会将时间变为夜晚
         不消耗
         '''
       FleshChunk:
         '''
         召唤血肉墙
-        Can only be used in the underworld
+        只能在地狱使用
         不消耗
         '''
       LeviathanDetector:
         '''
         召唤阿娜希塔
-        Does not need to be used at the ocean
+        在任意一侧海洋使用
         不消耗
         '''
       RadiantCrystal:
         '''
         召唤光之女皇
-        Does not need to be used in the Hallow
-        The Empress enrages during daytime
+        不需要在神圣之地使用
+        在白天狂暴
         不消耗
         '''
       RedBait:
         '''
         召唤恐惧鹦鹉螺
-        Can only be used at night
+        只能在夜晚使用
         不消耗
         '''
       SparklingTunaCan:
         '''
         召唤巨像蛤
-        Can only be used in the sunken sea
+        只能在沉沦之海使用
         不消耗
         '''
       TrufflePlatter:
@@ -233,7 +233,7 @@
       SlowerSandTooth: 沙牙
       SulphurousPoisonCloud: 毒云
       AstralBlueComet: 星辉彗星
-      AstralLaserInfernum: Astral Laser Volley
+      AstralLaserInfernum: 星辉拦截激光
       AstralMissile: 星辉导弹
       BlueLaserbeam: 星辉死亡射线
       MissileTelegraphLine: Telegraph
@@ -450,8 +450,8 @@
       HiveMindMirage: Hive Mind Mirage
       HiveMindWave: Explosion
       ShadeFire: Fire
-      DeathSlash: Ninja Slice
-      JewelBeam: Beam
+      DeathSlash: 忍者飞刀
+      JewelBeam: 激光
       Shuriken: Shuriken
       AnahitaWaterIllusion: Anahita Illusion
       AquaticAberrationProj: Aquatic Aberration
@@ -473,12 +473,12 @@
       MoonLordExplosion: Explosion
       MoonLordExplosionCinder: Cinder
       MoonLordWave: Explosion
-      NebulaCloud: Nebula
+      NebulaCloud: 星云
       NonHomingPhantasmalEye: Phantasmal Eye
       PhantasmalDeathray: Phantasmal Deathray
       PhantasmalOrb: Phantasmal Orb
       PressurePhantasmalDeathray: Phantasmal Deathray
-      StardustConstellation: Star
+      StardustConstellation: 星星
       TrueEyeChargeTelegraph: Charge Telegraph
       VoidBlackHole: Void
       AcidFountainBubble: Acid Bubble
@@ -656,10 +656,10 @@
       RedirectingYharonMeteor: Dragon Fireball
       VortexOfFlame: Vortex of Flame
       VortexTelegraphBeam: Flame Beam Telegraph
-      YharonBoom: Boom
+      YharonBoom: 爆炸
       YharonFlameExplosion: Hyperthermal Explosion
       YharonFlamethrower: Draconic Flame Breath
-      YharonHeatFlashFireball: Fire
+      YharonHeatFlashFireball: 火焰
       YharonMajesticSparkle: Majestic Sparkle
       DraconicBurst: Draconic Burst
       ExplodingWyvern: Wyvern
@@ -678,35 +678,35 @@
       DarkMagicCircle: Dark Magic
       RedirectingWeakDarkMagicFlame: Dark Flame
       PearlSwirl: Pearl Swirl
-      FlyingKnife: Flying Knife
+      FlyingKnife: 飞刀
       HolyStar: Holy Star
       PiercingCrystalShard: Crystal Shard
       BouncingSpitBall: Spit Ball
-      RisingFireball: Fireball
-      SandFlameBall: Sand Ball
-      Sandnado2: Sand Tornado
-      WanderersShellWater: Water Torrent
+      RisingFireball: 火球
+      SandFlameBall: 沙球
+      Sandnado2: 沙龙卷
+      WanderersShellWater: 水流
       GuardiansSummonerProjectile: Guardians Summoner Projectile
       HatGirl: 礼帽女孩
-      AridBattlecryProjectile: Arid Battlecry
-      LingeringSandSkull: Sand Skull
-      MiniSandShark: Mini Sand Shark
-      MyrindaelBonkProjectile: Myrindael
-      MyrindaelLightning: Myrndael Lightning Bolt
-      MyrindaelSpark: Myrindael Spark
-      MyrindaelSpinProjectile: Myrindael
+      AridBattlecryProjectile: 旱沙号角
+      LingeringSandSkull: 沙颅骨
+      MiniSandShark: 小沙鲨
+      MyrindaelBonkProjectile: 颤沙霆戟
+      MyrindaelLightning: 颤沙霆戟闪电
+      MyrindaelSpark: 颤沙霆戟火花
+      MyrindaelSpinProjectile: 颤沙霆戟
       PortalLensFlare: Lens Flare
       ProvidenceSummonerProjectile: Providence Summoner Projectile
-      GlassmakerFire: Glass Flames
-      GlassmakerHoldout: Glassmaker
-      GlassPiece: Glass Piece
-      WanderersShellProj: Wanderer's Shell
+      GlassmakerFire: 熔璃火焰
+      GlassmakerHoldout: 熔璃化匠
+      GlassPiece: 玻璃块
+      WanderersShellProj: 流浪者之壳
       ScreenShakeProj: Screen Shake
       WaterglassTokenProjectile: Waterglass Token
-      WayfinderGate: Wayfinder Gate
-      WayfinderHoldout: Wayfinder
-      WayfinderItemProjectile: Wayfinder
-      WayfinderSymbol: Wayfinder Gate Symbol
+      WayfinderGate: 寻路之门
+      WayfinderHoldout: 寻路者
+      WayfinderItemProjectile: 寻路者
+      WayfinderSymbol: 寻路之门符号
     }
     NPCName:
     {
@@ -747,14 +747,14 @@
     }
     BiomeName:
     {
-      LostColosseumBiome: Lost Colosseum
+      LostColosseumBiome: 失落竞技场
       ProfanedTempleBiome: 亵渎神庙
     }
     BuffName:
     {
       DarkFlames: 黑暗火焰
       ElysianGrace: 极乐恩典
-      GlimmeringWings: Glimmering Wings
+      GlimmeringWings: 微光之翼
       HatGirlBuff: 礼帽女孩
       Madness: 精神失常
       ShadowflameInferno: 暗影狱火
