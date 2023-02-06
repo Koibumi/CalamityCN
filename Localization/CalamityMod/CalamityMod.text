@@ -2575,8 +2575,8 @@
         '''
         远古遗物之一
         饮用魔力药水时会使你获得魔力烧蚀减益而非魔力病减益
-        Mana Burn deals damage over time relative to the intensity of the debuff
-        This debuff does not reduce your magic damage
+        魔力烧蚀会持续对你造成伤害，伤害会随着时间流逝而降低
+        此增益不会降低你的魔法伤害
         '''
       CoinofDeceit:
         '''
@@ -2585,9 +2585,9 @@
         '''
       CoreOfTheBloodGod:
         '''
-        Boosts your max HP by 15%
-        Healing Potions are 25% more effective
-        Halves enemy contact damage
+        增加15%最大生命值
+        增加25%治疗药水的治疗量
+        减半敌人的接触伤害
         When you take contact damage this effect has a 20 second cooldown
         '''
       CorrosiveSpine:
