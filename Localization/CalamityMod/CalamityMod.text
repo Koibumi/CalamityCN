@@ -2685,30 +2685,30 @@
         减半防御损伤效果
         将肾上腺素条替换为纳米机器条
         与肾上腺素不同，你在受到伤害时不会失去纳米机器条而是停止充能1秒
-        在完全充能时, press & to heal 360 health over 2 seconds
-        While healing, you take @% less damage
+        在完全充能时，按下"{$Mods.CalamityMod.KeyBindName.AdrenalineMode}"会在2秒内逐渐回复360点生命值
+        上述效果激活时，降低50%所受伤害
         “纳米机器，小子。”
         '''
       DragonScales:
         '''
-        Only a living dragon holds true treasure
-        Rogue projectiles create slow fireballs as they travel
-        Stealth strikes create infernados on death
-        +10% max run speed and acceleration
-        Grants immunity to Dragonfire
+        只有真龙才能拥有真正的宝藏
+        盗贼弹幕在飞行时会创造缓慢移动的火球
+        潜伏攻击弹幕消失后会生成地狱龙卷
+        增加10%移动速度和加速度
+        使你免疫龙焰减益
         '''
       DynamoStemCells:
         '''
-        10% increased movement speed
-        Ranged weapons have a chance to fire mini swarmers
-        Grants immunity to Dragonfire and Electrified
+        增加10%移动速度
+        远程武器有几率发射迷你龙裔
+        使你免疫龙焰和带电减益
         '''
       EclipseMirror:
         '''
-        Its reflection shows naught but darkness
-        +10 maximum stealth
-        6% increased rogue damage, and 6% increased rogue crit chance
-        Vastly reduces enemy aggression, even in the abyss
+        它所映出的只有无边黑暗
+        增加10点最大潜行值
+        增加6%盗贼伤害和盗贼暴击率
+        大幅度降低敌人的攻击性，即便是在深渊中亦是如此
         Stealth generates 25% faster when standing still
         Mobile stealth generation exponentially accelerates while not attacking
         Stealth strikes only expend 50% of your max stealth
