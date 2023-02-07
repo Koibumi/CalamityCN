@@ -2389,7 +2389,7 @@
       AbyssalMirror:
         '''
         光无法到达海洋深处
-        大幅度减少敌人的攻击性，即便是在深渊中亦是如此
+        大幅度降低敌人的攻击性，即便是在深渊中亦是如此
         静止时增加25%潜行值恢复速度，移动时增加12%潜行值恢复速度
         使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
         闪避攻击时会使你获得大量的潜行值且闪避攻击的能力有90秒的冷却时间
@@ -2580,114 +2580,114 @@
         '''
       CoinofDeceit:
         '''
-        Stealth strikes only expend 85% of your max stealth
-        6% increased rogue crit chance
+        潜伏攻击只会消耗85%潜行值
+        增加6%盗贼暴击率
         '''
       CoreOfTheBloodGod:
         '''
         增加15%最大生命值
         增加25%治疗药水的治疗量
         减半敌人的接触伤害
-        When you take contact damage this effect has a 20 second cooldown
+        减半接触伤害的效果有20秒冷却时间
         '''
       CorrosiveSpine:
         '''
-        5% increased movement speed
-        All rogue weapons inflict poisoned and spawn clouds on enemy hits
-        You release a ton of clouds everywhere on hit
+        增加5%移动速度
+        所有的盗贼武器在击中敌人时都会造成中毒减益并生成毒云
+        受到伤害时会释放大量毒云
         '''
       CorruptFlask:
         '''
-        4% increased damage reduction and +6 defense while in the corruption
-        Grants immunity to the Cursed Inferno debuff
+        处于腐化之地时增加4%伤害减免和6点防御
+        使你免疫诅咒狱火减益
         '''
       CounterScarf:
         '''
-        10% increased true melee damage
-        Grants the ability to dash; dashing into an attack will cause you to dodge it
-        After a successful dodge you must wait 30 seconds before you can dodge again
+        增加10%真近战伤害
+        使你获得冲刺能力；冲刺时受伤会闪避这次伤害
+        闪避效果有30秒冷却时间，期间你仍然可以进行冲刺
         '''
-      CrawCarapace: Enemies take damage when they touch you
+      CrawCarapace: 与你接触的敌人会受到伤害
       CrimsonFlask:
         '''
-        4% increased damage reduction and +6 defense while in the crimson
-        Grants immunity to the Burning Blood debuff
+        处于猩红之地时增加4%伤害减免和6点防御
+        使你免疫血液沸腾减益
         '''
       CrownJewel:
         '''
-        Boosts life regen even while under the effects of a damaging debuff
-        While under the effects of a damaging debuff you will gain 8 defense
+        即便是在受到伤害性减益的影响时也会增加生命再生速度
+        受到伤害性减益影响时增加8点防御
         '''
       CryoStone:
         '''
-        One of the ancient relics
-        Creates a rotating ice shield around you that damages and slows down enemies on contact
+        远古遗物之一
+        创造一个环绕着你选择的冰盾，冰盾会伤害并减速与其接触的敌人
         '''
       DaawnlightSpiritOrigin:
         '''
-        All nearby enemies and bosses are marked with bullseyes
-        Ranged attacks that strike a bullseye always critically strike and deal massive damage
-        When a bullseye is struck, it vanishes and a new one appears elsewhere
-        Explosions or large projectiles cannot strike bullseyes
-        Converts all ranged critical strike chance boosts into extra critical strike damage
-        All ranged weapons will deal even more critical strike damage the slower they are
-        Summons a heroic spirit from another world if accessory visibility is enabled
-        The heroic spirit is also summoned when this accessory is placed in vanity slots
-        'A strand of a lost cosmos remains, waiting for its master'
+        附近的所有敌人和Boss会被靶心标记
+        击中靶心的远程攻击必定暴击且会造成大量伤害
+        被击中的靶心会消散，而后新的靶心会在别处出现
+        爆炸或较大的弹幕不会被判定为击中靶心
+        将所有远程暴击率加成转化为额外的暴击伤害加成
+        远程武器的使用使用越长，造成的暴击伤害越高
+        如果启用该饰品的可视性，则会召唤一个来自另一个世界的英灵
+        放置在时装栏时也会召唤英灵
+        “一缕失落宇宙的残烬，久久等待着她的御主
         '''
       DarkGodsSheath:
         '''
-        +10 maximum stealth
-        Mobile stealth generation accelerates while not attacking
-        Stealth strikes only expend 50% of your max stealth
-        6% increased rogue damage, and 6% increased rogue crit chance
+        增加10点最大潜行值
+        移动但不攻击时增加潜行值恢复速度
+        潜伏攻击只会消耗50%潜行值
+        增加6%盗贼伤害和盗贼暴击率
         '''
       DarkSunRing:
         '''
-        Contains the power of the dark sun
-        12% increase to damage and melee speed
-        +1 life regen, 15% increased pick speed and +2 max minions
-        Increased minion knockback
-        During the day the player has +3 life regen
-        During the night the player has +15 defense
-        Both of these bonuses are granted during an eclipse
+        蕴含着日蚀之阴的力量
+        增加12%伤害和近战攻速
+        增加1点生命再生速度、15%挖掘速度和2格最大召唤栏位
+        增加召唤物击退
+        在白天时增加3点生命再生速度
+        在夜晚时增加15点防御
+        在日食时上述两种效果均会生效
         '''
       DeadshotBrooch:
         '''
-        10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage
-        Greatly increases all ranged projectile velocity
+        增加10%远程伤害、5%远程暴击率并降低20%弹药消耗率
+        大幅度增加所有远程弹幕速度
         '''
       DeepDiver:
         '''
-        15% increased damage, movement speed and +15 defense while underwater
-        While underwater you gain the ability to dash great distances
+        在水下时增加15%伤害、移动速度和15点防御
+        在水下时使你获得长距离冲刺能力
         '''
       DeificAmulet:
         '''
-        Causes stars to fall and grants increased immune time when damaged
-        Provides life regeneration and reduces the cooldown of healing potions
+        受到伤害时会召唤星星从天而降并延长受伤后无敌时间
+        提供什么再生并缩短治疗药水的冷却时间
 
         '''
       DepthCharm:
         '''
-        Reduces the damage caused by the pressure of the abyss while out of breath
-        Removes the bleed effect caused by the upper layers of the abyss
+        减少深渊氧气耗尽时水压造成的伤害
+        移除除深渊上层造成的生命流失效果
         '''
       DimensionalSoulArtifact:
         '''
-        Power
-        Boosts all damage by 25%, but at what cost?
-        Increases all damage taken by 15%
+        力量
+        增加25%伤害，但是要付出什么代价？
+        增加15%所受到的伤害
         '''
       DraedonsHeart:
         '''
-        15% reduced contact damage from enemies
-        Reduces defense damage taken by 50%
-        Replaces Adrenaline with the Nanomachines meter
-        Unlike Adrenaline, you lose no Nanomachines when you take damage, but they stop accumulating for 1 second
-        With full Nanomachines, press & to heal 360 health over 2 seconds
+        减少15%接触伤害
+        减半防御损伤效果
+        将肾上腺素条替换为纳米机器条
+        与肾上腺素不同，你在受到伤害时不会失去纳米机器条而是停止充能1秒
+        在完全充能时, press & to heal 360 health over 2 seconds
         While healing, you take @% less damage
-        'Nanomachines, son.'
+        “纳米机器，小子。”
         '''
       DragonScales:
         '''
