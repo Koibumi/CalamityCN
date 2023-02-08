@@ -2390,7 +2390,7 @@
         '''
         光无法到达海洋深处
         大幅度降低敌人的攻击性，即便是在深渊中亦是如此
-        静止时增加25%潜行值恢复速度，移动时增加12%潜行值恢复速度
+        站定不动时增加25%潜行值恢复速度，移动时增加12%潜行值恢复速度
         使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
         闪避攻击时会使你获得大量的潜行值且闪避攻击的能力有90秒的冷却时间
         该闪避与其他的闪避或反弹效果共享冷却时间
@@ -2709,18 +2709,18 @@
         增加10点最大潜行值
         增加6%盗贼伤害和盗贼暴击率
         大幅度降低敌人的攻击性，即便是在深渊中亦是如此
-        Stealth generates 25% faster when standing still
-        Mobile stealth generation exponentially accelerates while not attacking
-        Stealth strikes only expend 50% of your max stealth
-        Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area
-        Evading an attack grants full stealth but has a 90 second cooldown
-        This cooldown is shared with all other dodges and reflects
+        站定不动时增加25%潜行值恢复速度
+        移动但不攻击时增加潜行值恢复速度
+        潜伏攻击只会消耗50%潜行值
+        在黑日之光的聚爆之中，你能够闪避一次攻击，聚爆会在大范围内造成很高的伤害
+        闪避攻击时会使你的潜行值回复至满且闪避攻击的能力有90秒的冷却时间
+        该闪避与其他的闪避或反弹效果共享冷却时间
         '''
       EldritchSoulArtifact:
         '''
-        Knowledge
+        知识
         Boosts melee speed by 10%, ranged velocity by 25%, rogue stealth regen by 10%, max minions by 2 and reduces mana cost by 15%
-        Grants immunity to Whispering Death
+        使你免疫死亡低语减益
         '''
       ElectriciansGlove:
         '''
