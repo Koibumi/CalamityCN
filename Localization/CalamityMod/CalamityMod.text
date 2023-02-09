@@ -2552,7 +2552,7 @@
         '''
       BlunderBooster:
         '''
-        增加12%盗贼伤害和15%盗贼弹幕飞行速度
+        增加12%盗贼伤害和15%盗贼弹幕速度
         增加10%潜行值恢复速度
         召唤一个红色的闪电光环包围玩家并电击附近的敌人
         TOOLTIP LINE HERE
@@ -2719,12 +2719,12 @@
       EldritchSoulArtifact:
         '''
         知识
-        Boosts melee speed by 10%, ranged velocity by 25%, rogue stealth regen by 10%, max minions by 2 and reduces mana cost by 15%
+        增加10%近战攻速、25%远程弹幕速度、10%潜行值恢复速度、2格最大召唤物栏位并降低15%魔力消耗
         使你免疫死亡低语减益
         '''
       ElectriciansGlove:
         '''
-        Stealth strikes summon sparks on enemy hits
+        潜伏攻击击中敌人时会释放电火花
         Stealth strikes also have +10 armor penetration, deal 8% more damage, and heal for 2 HP
         '''
       ElementalGauntlet:
