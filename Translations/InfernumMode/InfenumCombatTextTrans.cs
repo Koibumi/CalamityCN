@@ -17,7 +17,7 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 					if (Main.combatText[index].text.Equals("Infernum must be enabled to enter the Colosseum!"))
 					{
-						Main.combatText[index].text = "必须启用炼狱模式才能进入失落竞技场来！";
+						Main.combatText[index].text = "必须启用炼狱模式才能进入失落竞技场！";
 					}
 					/*
 					if (Main.combatText[index].text.Equals("Many layered platforms can help greatly to avoid the exploding Cursed Flames!"))
