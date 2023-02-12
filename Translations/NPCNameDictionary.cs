@@ -290,7 +290,7 @@ namespace CalamityCN
                 { "ExhumedHeart", "死灵硫火心".zh() },
                 { "LecherousOrb", "淫欲之眼".zh() },
                 { "BrimstoneHeart", "硫磺火之心".zh() },
-                { "WITCH", "硫磺火女巫".zh() },
+                { "WITCH", "硫火女巫".zh() },
                 { "Rotdog", "血犬".zh() },
                 { "PlaguebringerMiniboss", "瘟疫使者".zh() },
                 { "AuroraSpirit", "极光之灵".zh() },
