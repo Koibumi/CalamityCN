@@ -852,32 +852,32 @@
     {
       Config:
       {
-        Label: Config
+        Label: 配置
       }
       BossIntroductionAnimationsAreAllowed:
       {
-        Label: Boss Introduction Animations
-        Tooltip: Enables boss introduction animations. They only activate when Infernum Mode is active.
+        Label: Boss介绍动画
+        Tooltip: 开启Boss介绍动画，仅在炼狱模式启用时有效。
       }
       DisplayTipsInChat:
       {
-        Label: Blasted Tophat Tips in Chat
-        Tooltip: Determines whether the pet from the Blasted Tophat should display its tips in chat or not.
+        Label: 爆炸礼帽提示聊天栏显示
+        Tooltip: 确认爆炸礼帽宠物是否在聊天栏中显示其提示。
       }
       ReducedGraphicsConfig:
       {
-        Label: Reduced Graphical Settings
-        Tooltip: Enables reduced graphics mode. Use this if lag is an issue.
+        Label: 减少图形运算量设置
+        Tooltip: 启用减少图形运算量模式。如果你有卡顿问题，请启用此选项。
       }
       SaturationBloomIntensity:
       {
-        Label: Saturation Bloom Intensity
-        Tooltip: How intense color saturation bloom effects should be. Such effects are disabled when this value is zero.
+        Label: 饱和发光效果强度
+        Tooltip: 设置颜色饱和发光效果的强度。值为0时禁用此类效果。
       }
       FlashbangOverlays:
       {
-        Label: Screen Overlays
-        Tooltip: Enables screen overlay 'flashbang' effects. This will not directly affect gameplay mechanics.
+        Label: 屏幕覆盖层
+        Tooltip: 启用屏幕覆盖层的“闪光弹”效果。此设置不会直接影响游戏机制。
       }
     }
   }
