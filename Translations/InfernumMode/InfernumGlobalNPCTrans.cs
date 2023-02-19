@@ -17,7 +17,7 @@ namespace CalamityCN.Translations.InfernumMode
 		{
 			if (npc.type == ModContent.NPCType<GreatSandShark>() && WorldSaveSystem.InfernumMode)
 			{
-				typeName = "托勒斯，旱海狂鲨";
+				typeName = "旱海狂鲨，托勒斯";
 			}
 		}
 	}
