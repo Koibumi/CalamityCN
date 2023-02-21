@@ -13,7 +13,7 @@ using CalamityMod.Items.Potions;
 using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Cooldowns;
 using CalamityMod.Projectiles.Summon.SmallAresArms;
-using CalamityMod.NPCs.Calamitas;
+using CalamityMod.NPCs.CalClone;
 using CalamityMod.NPCs.Ravager;
 using CalamityMod.NPCs.Bumblebirb;
 using CalamityMod.NPCs.ProfanedGuardians;
@@ -126,7 +126,7 @@ namespace CalamityCN.Translations.Patch
             QuickTranslate(typeof(DivineBless), "get_DisplayName", "Divine Bless Cooldown", "神圣祝福冷却");
             QuickTranslate(typeof(DivingPlatesBreaking), "get_DisplayName", "Abyssal Diving Suit Plates Durability", "深渊潜游服耐久");
             QuickTranslate(typeof(DivingPlatesBroken), "get_DisplayName", "Abyssal Diving Suit Broken Plates", "深渊潜游服外壳破损");
-            QuickTranslate(typeof(CalamityMod.Cooldowns.DraconicElixir), "get_DisplayName", "Draconic Surge Cooldown", "龙魂加持冷却");
+            //QuickTranslate(typeof(CalamityMod.Cooldowns.DraconicElixir), "get_DisplayName", "Draconic Surge Cooldown", "龙魂加持冷却");
             QuickTranslate(typeof(EvasionScarf), "get_DisplayName", "Scarf Cooldown", "围巾冷却");
             QuickTranslate(typeof(FleshTotem), "get_DisplayName", "Contact Damage Halving Cooldown", "接触伤害减半冷却");
             QuickTranslate(typeof(GlobalDodge), "get_DisplayName", "Dodge Cooldown", "闪避冷却");

@@ -227,10 +227,10 @@ namespace CalamityCN.Translations.TransInHjson
             {
                 player.setBonus = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.ReaverMob", Array.Empty<object>());
             }
-            else if (set == "ShroomiteVisage")
+            /*else if (set == "ShroomiteVisage")
             {
                 player.setBonus = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.ShroomiteVisage", Array.Empty<object>());
-            }
+            }*/
             else if (set == "SilvaSummon")
             {
                 player.setBonus = LangHelper.GetTextValue("CalamityMod.Items.SetBonus.SilvaSummon", Array.Empty<object>());
@@ -506,10 +506,10 @@ namespace CalamityCN.Translations.TransInHjson
             {
                 return "ReaverExp";
             }
-            if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == ItemID.ShroomiteBreastplate && legs.type == ItemID.ShroomiteLeggings)
+            /*if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == ItemID.ShroomiteBreastplate && legs.type == ItemID.ShroomiteLeggings)
             {
                 return "ShroomiteVisage";
-            }
+            }*/
             if (head.type == ModContent.ItemType<SilvaHeadSummon>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
             {
                 return "SilvaSummon";

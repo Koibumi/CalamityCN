@@ -46,7 +46,7 @@ namespace CalamityCN.Translations.TransInHjson
 				}
 				else
 				{
-					if (DownedBossSystem.downedSCal && DownedBossSystem.downedExoMechs)
+					if (DownedBossSystem.downedCalamitas && DownedBossSystem.downedExoMechs)
 					{
 						tooltip = LangHelper.GetTextValue("CalamityMod.Buffs.ProfanedCrystalBuff.Description.12", Array.Empty<object>());
 						return;
