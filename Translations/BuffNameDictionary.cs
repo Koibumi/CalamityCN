@@ -285,7 +285,7 @@ namespace CalamityCN
                 
                 {"MiracleBlight", "超位崩解".zh()},
                 {"EidolonSnailBuff", "幻海灵蜗".zh()},
-                {"GoldieBuff", "Goldie".zh()},
+                {"GoldieBuff", "金制硬币".zh()},
                 {"WeaponImbueBrimstone", "武器灌注：硫火".zh()},
                 {"WeaponImbueCrumbling", "武器灌注：碎甲".zh()},
                 {"WeaponImbueHolyFlames", "武器灌注：硫火".zh()},

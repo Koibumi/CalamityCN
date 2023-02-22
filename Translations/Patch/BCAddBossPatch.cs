@@ -219,7 +219,7 @@ namespace CalamityCN.Translations.Patch
 				ModContent.ItemType<ThankYouPainting>()
 			};
 			AddBoss(bossChecklist, calamity, name8, difficulty8, npcType5, downed8, summon8, list11, "在硫火之崖使用 [i:" + ModContent.ItemType<CharredIdol>().ToString() + " ] 召唤", CalamityUtils.ColorMessage("硫磺火元素重返她曾经的圣殿，如今的废墟中……", new Color(220, 20, 60)), () => true, null, null);
-			string name9 = "灾厄";
+			string name9 = "灾厄之影";
 			float difficulty9 = 11.7f;
 			int npcType6 = ModContent.NPCType<CalamitasClone>();
 			Func<bool> downed9 = () => DownedBossSystem.downedCalamitas;
@@ -512,7 +512,7 @@ namespace CalamityCN.Translations.Patch
 				Texture2D value = ModContent.Request<Texture2D>("CalamityMod/NPCs/DevourerofGods/DevourerofGods_BossChecklist", (ReLogic.Content.AssetRequestMode)2).Value;
 				sb.Draw(value, new Vector2((float)(rect.Center.X - value.Width / 2), (float)(rect.Center.Y - value.Height / 2)), color);
 			}, "CalamityMod/NPCs/DevourerofGods/DevourerofGodsHead_Head_Boss");
-			string name25 = "丛林龙，犽戎";
+			string name25 = "犽戎";
 			float difficulty25 = 22f;
 			int npcType17 = ModContent.NPCType<Yharon>();
 			Func<bool> downed25 = () => DownedBossSystem.downedYharon;
@@ -527,7 +527,7 @@ namespace CalamityCN.Translations.Patch
 				ModContent.ItemType<FoxDrive>(),
 				ModContent.ItemType<ThankYouPainting>()
 			};
-			AddBoss(bossChecklist, calamity, name25, difficulty25, npcType17, downed25, summon24, list34, "在丛林使用 [i:" + ModContent.ItemType<YharonEgg>().ToString() + "] 召唤", CalamityUtils.ColorMessage("犽戎蔑视你的弱小，并不屑于在你的墓碑边多作停留……", new Color(255, 165, 0)), () => true, null, "CalamityMod/NPCs/Yharon/Yharon_Head_Boss");
+			AddBoss(bossChecklist, calamity, name25, difficulty25, npcType17, downed25, summon24, list34, "使用 [i:" + ModContent.ItemType<YharonEgg>().ToString() + "] 召唤", CalamityUtils.ColorMessage("犽戎蔑视你的弱小，并不屑于在你的墓碑边多作停留……", new Color(255, 165, 0)), () => true, null, "CalamityMod/NPCs/Yharon/Yharon_Head_Boss");
 			string name26 = "星流巨械";
 			float difficulty26 = 22f;
 			List<int> list35 = new List<int>();
@@ -552,12 +552,12 @@ namespace CalamityCN.Translations.Patch
 				ModContent.ItemType<LoreCynosure>(),
 				ModContent.ItemType<ThankYouPainting>()
 			};
-			AddBoss(bossChecklist, calamity, name26, difficulty26, list35, downed26, summon25, list36, "By using a high-tech computer", CalamityUtils.ColorMessage("毕竟不是完美造物……真是可惜……", new Color(127, 255, 212)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
+			AddBoss(bossChecklist, calamity, name26, difficulty26, list35, downed26, summon25, list36, "使用高科技计算机", CalamityUtils.ColorMessage("毕竟不是完美造物……真是可惜……", new Color(127, 255, 212)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
 			{
 				Texture2D value = ModContent.Request<Texture2D>("CalamityMod/NPCs/ExoMechs/ExoMechs_BossChecklist", (ReLogic.Content.AssetRequestMode)2).Value;
 				sb.Draw(value, new Vector2((float)rect.Center.X - (float)value.Width * 0.7f / 2f, (float)rect.Center.Y - (float)value.Height * 0.7f / 2f), null, color, 0f, Vector2.Zero, 0.7f, 0, 0f);
 			}, null);
-			string name27 = "至尊灾厄";
+			string name27 = "至尊女巫，灾厄";
 			float difficulty27 = 23f;
 			int npcType18 = ModContent.NPCType<SupremeCalamitas>();
 			Func<bool> downed27 = () => DownedBossSystem.downedCalamitas;
