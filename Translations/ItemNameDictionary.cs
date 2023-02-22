@@ -2311,7 +2311,7 @@ namespace CalamityCN
 
                 {"ShieldoftheHighRuler", "至高统治之盾".zh()},
                 {"BubonicRound", "鼠疫弹".zh()},
-                {"MarksmanRound", "神射手子弹".zh()},
+                {"MarksmanRound", "神射手弹".zh()},
                 { "Havocfish", "浩劫鱼".zh() },
                 { "WhiteSeekingMechanism", "白色定位仪".zh() },
                 { "AbyssShellFossil", "深渊贝壳化石".zh() },
