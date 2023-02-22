@@ -12,29 +12,10 @@ The Cragmaw Mire buries itself within the sand.
 灾厄 -> 灾厄之影
 至尊灾厄 -> 至尊女巫，灾厄
 
-Mauler
-Spawns during Acid Rain after Polterghast has been defeated.
-Start Acid Rain with a [i:]
-The ravenous shark has mauled everybody's corpses.
-
-NuclearTerror
-Spawns during Acid Rain after Polterghast has been defeated.
-Start Acid Rain with a [i:]
-The radioactive monstrosity has further enforced its name
-
-星流巨蟹召唤描述
-By using a high-tech computer
-
-Boss Rush
-Use a [i:] found at the bottom of the Abyss
-
 ItemDropRules
 IItemDropRuleCondition
 ItemDropHelper
 的文本内容
-
-
-BossHealthBarManager::AttemptToAddBar 的新增文本 Eyes of XB-∞ Hekate
 
 CalamityMod.UI.DraedonSummoning.DraedonDialogRegistry::.cctor()": 的新增文本
 0: Who are you?
@@ -70,16 +51,6 @@ My patron...
 He is not someone I have spoken to in a very long time.
 Is that such a surprise? He no longer required my services and I no longer needed his patronage. Many years ago now he withdrew himself to some secret hideaway. I suspect, to the grave of dragons he spoke of...
 Should you locate him, I'll await the news of either his or your death. Perhaps I will collect the cadaver.
-
-CalamityMod.UI.DraedonLogs.DraedonLog GUI::GetTextByPage()": 的 文本更改
-
-
- "System.Boolean CalamityMod.Projectiles.Summon.SmallAresArms.ExoskeletonPanel::PreDraw(Microsoft.Xna.Framework.Color&)":
-  {
-    0: CalamityMod/Projectiles/Summon/SmallAresArms/ExoskeletonPanelPlasma
-    1: CalamityMod/Projectiles/Summon/SmallAresArms/Arrow
-    2: Insufficient minion slots!
-  }
 
    "System.Void CalamityMod.NPCs.Polterghast.Polterghast::ModifyTypeName(System.String&)":
   {
@@ -154,36 +125,4 @@ CalamityMod.UI.DraedonLogs.DraedonLog GUI::GetTextByPage()": 的 文本更改
     0: Corrosive Eye of XB-∞ Hekate
   }
 
-
-新增 大师或复仇
-CS$<>8__locals1.<ModifyVanillaTooltips>g__EditTooltipByName|4("Master", delegate(TooltipLine line)
-line.Text += " or Revengeance";
-});
-
-
-Incinerated by solar rays -> Emits powerful life pulses at nearby enemies
-
-else
-{
-if (type == 60)
-{
-tip = "Emits powerful life pulses at nearby enemies";
-return;
-}
-if (type == 62)
-{
-tip = "Damage taken is reduced by 15%";
-return;
-}
-
-
- Vanilla: {
-   Endurance: {
-      Description: 防御增加
-case 5:
-tip = "Increase defense by " + CalamityUtils.GetScalingDefense(-1).ToString();
-
-
 NPC图鉴
-
-lore item
