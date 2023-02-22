@@ -2379,7 +2379,7 @@ namespace CalamityCN
                 { "OldLordClaymore", "旧神阔剑".zh() },
                 { "SmokingComet", "烟陨彗星".zh() },
                 { "CorinthPrime", "科林斯Prime".zh() },
-                { "FreedomStar", "无羁浪星".zh() },
+                { "FreedomStar", "自由之星".zh() },
                 { "HoarfrostBow", "白霜弓".zh() },
                 { "AquasScepter", "海潮节杖".zh() },
                 { "EnchantedConch", "附魔海螺".zh() },

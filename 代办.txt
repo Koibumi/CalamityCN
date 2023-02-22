@@ -87,6 +87,10 @@ CalamityMod.UI.DraedonLogs.DraedonLog GUI::GetTextByPage()": 的 文本更改
     1: Necroplasm
     2: Polterghast
   }
+  
+  "System.Void CalamityMod.NPCs.Yharon.Yharon::ModifyTypeName(System.String&)":
+  {
+    0: Yharon, Resplendent Phoenix
 
   "System.Void CalamityMod.NPCs.ExoMechs.Thanatos.ThanatosBody1::ModifyTypeName(System.String&)":
   {
