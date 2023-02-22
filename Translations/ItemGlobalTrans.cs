@@ -1288,41 +1288,41 @@ public class ItemGlobalTrans : GlobalItem
                 }
                 if (item.type == 91 || item.type == 82 || item.type == 78)
                 {
-                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
-                    line.Text = line.Text.Replace("life regen", "生命再生".zh());
-                    line.Text = line.Text.Replace("6% increased critical strike chance", "暴击率增加6%".zh());
+                    line.Text = line.Text.Replace("5% increased critical strike chance", "暴击率增加5%".zh());
+                    line.Text = line.Text.Replace("+2 life regen", "生命再生增加2点".zh());
+                    line.Text = line.Text.Replace("8% increased movement speed", "移动速度增加8%".zh());
                 }
                 if (item.type == 954 || item.type == 90 || item.type == 81 || item.type == 77)
                 {
-                    line.Text = line.Text.Replace("Reduces damage taken by", "所受伤害减少".zh());
+                    line.Text = line.Text.Replace("Reduces damage taken by 3%", "所受伤害减少3%".zh());
                 }
                 if (item.type == 955 || item.type == 92 || item.type == 83 || item.type == 79)
                 {
                     line.Text = line.Text.Replace("6% increased damage", "伤害增加6%".zh());
-                    line.Text = line.Text.Replace("Reduces damage taken by", "所受伤害减少".zh());
-                    line.Text = line.Text.Replace("12% increased movement speed", "移速增加12%".zh());
+                    line.Text = line.Text.Replace("Reduces damage taken by 5%", "所受伤害减少5%".zh());
+                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
                 }
                 if (item.type == 687 || item.type == 688 || item.type == 689)
                 {
-                    line.Text = line.Text.Replace("4% increased critical strike chance", "暴击率增加4%".zh());
-                    line.Text = line.Text.Replace("life regen", "生命再生".zh());
-                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
+                    line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%".zh());
+                    line.Text = line.Text.Replace("+1life regen", "生命再生增加1点".zh());
+                    line.Text = line.Text.Replace("5% increased movement speed", "移速增加5%".zh());
                 }
                 if (item.type == 690 || item.type == 691 || item.type == 692)
                 {
-                    line.Text = line.Text.Replace("Reduces damage taken by", "所受伤害减少".zh());
+                    line.Text = line.Text.Replace("Reduces damage taken by 3%", "所受伤害减少3%".zh());
                 }
                 if (item.type == 693 || item.type == 694 || item.type == 695)
                 {
                     line.Text = line.Text.Replace("7% increased damage", "伤害增加7%".zh());
-                    line.Text = line.Text.Replace("life regen", "生命再生".zh());
-                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
+                    line.Text = line.Text.Replace("+1 life regen", "生命再生增加1点".zh());
+                    line.Text = line.Text.Replace("8% increased movement speed", "移速增加8%".zh());
                 }
                 if (item.type == 696 || item.type == 697 || item.type == 698)
                 {
                     line.Text = line.Text.Replace("6% increased damage", "伤害增加6%".zh());
                     line.Text = line.Text.Replace("5% increased critical strike chance", "暴击率增加5%".zh());
-                    line.Text = line.Text.Replace("12% increased movement speed", "移速增加12%".zh());
+                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%".zh());
                 }
                 if (item.type == 956 || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
                 {
@@ -1480,6 +1480,22 @@ public class ItemGlobalTrans : GlobalItem
                 if (item.type == ItemID.DD2ElderCrystal)
                 {
                     line.Text = line.Text.Replace("Once placed you can right click the crystal to skip waves or increase the spawn rate of the invaders", "放置后你可以通过右键水晶跳过波数等待或加快刷怪速度".zh());
+                }
+                if (item.type == ItemID.Lacerator)
+                {
+                    line.Text = line.Text.Replace("Someone thought this was a viable weapon against DoG at one point lol", "竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑".zh());
+                }
+                if (item.type == ItemID.CryoKey)
+                {
+                    line.Text = line.Text.Replace("Summons Cryogen when used in the tundra", "在雪原使用，召唤极地冰灵".zh());
+                }
+                if (item.type == ItemID.ProfanedShard)
+                {
+                    line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the Hallow or Underworld during daytime", "白天在地狱或神圣之地使用，召唤亵渎守卫".zh());
+                }
+                if (item.type == ItemID.SandstormsCore)
+                {
+                    line.Text = line.Text.Replace("Summons the Great Sand Shark when used in the desert", "在沙漠使用，召唤旱海狂鲨".zh());
                 }
                 #endregion
 

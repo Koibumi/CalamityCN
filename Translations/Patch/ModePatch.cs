@@ -36,8 +36,8 @@ namespace CalamityCN.Translations.Patch
                     ":    当怒气条满时，按下] "},
                 new string[2]{":for a temporary damage boost] \n[c/",
                     ":获得少量伤害提升。] \n[c/"},
-                new string[2]{":Most foes have higher stats and deal more damage] \n[c/",
-                    ":大多数敌怪属性提升，造成的伤害更高。] \n[c/"},
+                new string[2]{":Most foes have higher stats and more aggressive AIs] \n[c/",
+                    ":大多数敌怪属性提升并且有着更具攻击性的AI。] \n[c/"},
                 new string[2]{":Bosses have new AI mechanics, new phases, and will drop Master Mode loot. Enemies spawn more frequently] \n[c/F7342A:This mode is more difficult than Expert. Be sure to prepare for the challenge]",
                     ":Boss们拥有新的AI和阶段，会掉落大师模式专属物品。敌怪生成更频繁。] \n[c/F7342A:本模式比专家模式难度更高。准备好迎接挑战就开启吧。]"}
             };
@@ -49,8 +49,8 @@ namespace CalamityCN.Translations.Patch
                 }
             }
 
-            QuickTranslate(typeof(DeathDifficulty), "[c/B834E0:All foes will pose a much larger threat with aggressive AI and increased damage] \n[c/B834E0:Bosses have substantially harder AI changes. Enemies are even more numerous and can easily overwhelm you] \n[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous] \n[c/E945FF:Vigilance and tenacity are crucial to survival]",
-                "[c/B834E0:所有敌怪有着更具攻击性的AI，造成的伤害更高。] \n[c/B834E0:Boss们的AI变得更难，敌人多到可以淹没你]\n[c/B834E0:减益更致命，深渊更危险]\n[c/E945FF:保持警惕，坚韧不拔至关重要]");
+            QuickTranslate(typeof(DeathDifficulty), "[c/B834E0:foes will pose a much larger threat with highly aggressive AIs and increased damage] \n[c/B834E0:Bosses have substantially harder AI changes. Enemies are even more numerous and can easily overwhelm you] \n[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous] \n[c/E945FF:Vigilance and tenacity are crucial to survival]",
+                "[c/B834E0:所有敌怪有着更高攻击性的AI，造成的伤害更高。] \n[c/B834E0:Boss们的AI变得更难，敌人多到可以淹没你]\n[c/B834E0:减益更致命，深渊更危险]\n[c/E945FF:保持警惕，坚韧不拔至关重要]");
 
             string[][] Mode3 = new string[][]
             {

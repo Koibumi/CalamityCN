@@ -64,6 +64,9 @@ CalamityMod:
 				TownNPCsSpawnAtNight: "[i:1307] 城镇NPC在夜间生成"
 				VanillaCooldownDisplay: "[i:188] 原版冷却显示"
 				WikiStatusMessage: "[i:149] Wiki状态信息"
+				BossRushRegenCurse: "[i:216] "
+				BossRushDashCurse: "[i:216] "
+				BossRushIFrameCurse: "[i:216] "
 			}
 
 			EntryTooltip:
@@ -83,6 +86,11 @@ CalamityMod:
 				为灾厄 NPC、射弹等等物体开启残影渲染。
 				关闭以提升性能。
 				'''
+				BossesStopWeather:
+				'''
+				When enabled, many late game bosses while stop all rain and related weather when spawned.
+				Enable if you have performance issues during late game boss fights.
+				'''
 				BossHealthBarExtraInfo: 
 				'''
 				在灾厄的Boss生命条上添加额外信息。
@@ -93,13 +101,6 @@ CalamityMod:
 				增加所有 Boss 的生命值。
 				不会影响已被生成的 Boss。
 				'''
-				BossRushDashCurse: 在 Boss Rush 期间禁用所有冲刺。
-				BossRushIFrameCurse: 
-				'''
-				在 Boss Rush 期间，在 3 秒内被击中 2 次会让玩家立即死亡。
-				此效果无视复活效果。
-				'''
-				BossRushRegenCurse: 在 Boss Rush 期间禁用所有生命再生。
 				BossZen: 当有 Boss 存活时，所有玩家会获得Boss禅定增益，它会极大降低敌怪的生成率。
 				ChargeMeter: 
 				'''
@@ -127,17 +128,39 @@ CalamityMod:
 				第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。
 				首次击败第三个机械boss会使神圣矿在世界中生成。
 				'''
+				FasterBaseSpeed:
+				'''
+				Increases the player's base movement speed substantially by always giving them +50% movement speed.
+				This setting does nothing if the mod Terraria Overhaul is loaded.
+				Calamity is balanced around this setting being enabled.
+				'''
+				FasterFallHotkey:
+				'''
+				When enabled, you can hold the DOWN key while in the air to accelerate downwards faster.
+				This config does not increase your maximum falling speed, just how quickly you accelerate to it.
+				Calamity is balanced around this setting being enabled.
+				'''
+				FasterJumpSpeed:
+				'''
+				Slightly increases the player's base jump speed.
+				Calamity is balanced around this setting being enabled.
+				'''
+				FasterTilePlacement:
+				'''
+				Substantially increases how rapidly the player can place tiles and walls.
+				This config stacks with the Brick Layer, Portable Cement Mixer and other accessories.
+				'''
 				ForceTownSafety: 
 				'''
 				通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。
 				这可能会产生意想不到的副作用，例如使动物难以找到。
 				'''
+				HigherJumpHeight:
+				'''
+				Increases the player's base jump height by 10% so that they can jump 7 tiles.
+				Calamity is balanced around this setting being enabled.
+				'''
 				MeterPosLock: 开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。
-				FasterBaseSpeed: 增加玩家基础移动速度
-				HigherJumpHeight: 增加玩家基础跳跃高度
-				FasterJumpSpeed: 增加玩家基础跳跃速度
-				FasterFallHotkey: 按住快捷键增加玩家下落速度
-				FasterTilePlacement: 增加玩家基础放置速度
 				NerfExpertDebuffs: 
 				'''
 				禁用专家和大师模式减益持续时间的翻倍。
@@ -217,6 +240,11 @@ CalamityMod:
 				硫磺海水腐蚀条的 Y 坐标位置，测量的是屏幕高度的百分比。
 				如果属性条位置锁定被关闭，则该条可以被鼠标拖动。
 				'''
+				PotionSelling:
+				'''
+				Allows town NPCs to sell various potions.
+				Certain potions are sold after specific bosses have been defeated.
+				'''
 				TownNPCSpawnRateMultiplier: 此数值越高，城镇 NPC 生成的速率越快。
 				TownNPCsSpawnAtNight: 玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。
 				VanillaCooldownDisplay: 
@@ -246,10 +274,10 @@ CalamityMod:
 		AbovegroundAstralBiome: 星辉瘟疫地表
 		AbovegroundAstralDesertBiome: 星幻沙漠
 		AbovegroundAstralSnowBiome: 星幻雪地
-		AbyssLayer1Biome: 深渊第一层
-		AbyssLayer2Biome: 深渊第二层
-		AbyssLayer3Biome: 深渊第三层
-		AbyssLayer4Biome: 深渊第四层
+		AbyssLayer1Biome: 硫海深处
+		AbyssLayer2Biome: 浑浊污水
+		AbyssLayer3Biome: 热泉
+		AbyssLayer4Biome: 虚空
 		AcidRainBiome: 酸雨
 		ArsenalLabBiome: 嘉登实验室
 		BrimstoneCragsBiome: 硫火之崖
@@ -269,26 +297,26 @@ ItemName:
 ItemTooltip:
 {
     AstralPylon:
-        '''
-        附近有2个居民时可以传送到另一个晶塔
-        只能在匹配的生物群落中放置且每个类型只能放置一个
-        '''
+				'''
+				附近有2个居民时可以传送到另一个晶塔
+				只能在匹配的生物群落中放置且每个类型只能放置一个
+				'''
     CragsPylon:
-        '''
-        可以传送到另一个晶塔
-        硫火之崖的环境允许这里没有居民就可以传送到这里
-        只能在匹配的生物群落中放置且每个类型只能放置一个
-        '''
+				'''
+				可以传送到另一个晶塔
+				硫火之崖的环境允许这里没有居民就可以传送到这里
+				只能在匹配的生物群落中放置且每个类型只能放置一个
+				'''
     SulphurPylon:
-        '''
-        附近有2个居民时可以传送到另一个晶塔
-        只能在匹配的生物群落中放置且每个类型只能放置一个
-        '''
+				'''
+				附近有2个居民时可以传送到另一个晶塔
+				只能在匹配的生物群落中放置且每个类型只能放置一个
+				'''
     SunkenPylon:
-        '''
-        附近有2个居民时可以传送到另一个晶塔
-        只能在匹配的生物群落中放置且每个类型只能放置一个
-        '''
+				'''
+				附近有2个居民时可以传送到另一个晶塔
+				只能在匹配的生物群落中放置且每个类型只能放置一个
+				'''
 
 }
 
@@ -2388,13 +2416,16 @@ GameTips:
 }
 		
 		# --- Text ---
+		SulphurSwitchLeft: "硫磺海现在位于世界左侧。"
+		SulphurSwitchRight: "硫磺海现在位于世界右侧。"
 		SlimeGodRun: "史莱姆之神落荒而逃，改日再战吧……"
-		SkyOreText: "苍青色的光辉照耀着这片土地。"
+		SkyOreText: "苍青色的光辉照耀着天空。"
 		IceOreText: "寒晶能量从冰之洞穴中迸发而出。"
 		PlantOreText: "富含能量的植物物质已在地下形成。"
 		TreeOreText: "石化树皮正在丛林的淤泥中爆发。"
-		AuricOreText: "神之光环祝福了这个世界的洞穴。"
+		AuricOreText: "AuricOreText"
 		FutureOreText: "冷黯的能量散布至宇宙之间。"
+        keletronAbyssChestNotification: "The First Dryad's vines deem you worthy of their abyssal treasures."
 		HardmodeOreTier1Text: "你的世界已被钴矿和钯金矿祝福！"
 		HardmodeOreTier2Text: "你的世界已被秘银矿和山铜矿祝福！"
 		HardmodeOreTier3Text: "你的世界已被精金矿和钛金矿祝福！"
@@ -2424,7 +2455,8 @@ GameTips:
 		SandSharkText: "沙子中有什么东西正在行动……"
 		SandSharkText2: "一个巨大的顶级掠食者接近了……"
 		SandSharkText3: "沙漠正在剧烈动荡！"
-		CryogenBossText: "极地之灵蹦了出来！" 
+		CryogenBossText: "极地之灵蹦了出来！"
+        PyrogenBossText: "炙原之灵蹦了出来！"
 		EdgyBossText: "别得意！小子！"
 		EdgyBossText2: "致命失误！"
 		EdgyBossText3: "美味……"
@@ -2466,6 +2498,9 @@ GameTips:
 		DraedonEndText8: "但你过去也成功过，所以你最后会找到办法的。"
 		DraedonEndText9: "我必须尊重并承认你的胜利，但现在，我得把注意力放回到我的机械上了。"
 		DraedonEndKillAttemptText: "……你的行为没什么必要。"
+		DraedonMechdusaBeginText: "……死吧。"
+		DraedonMechdusaEndText1: "等等，什么？怎么可能？"
+		DraedonMechdusaEndText2: "不"
 		CalamitasBossText: "你低估了我的力量……"
 		CalamitasBossText2: "兄弟重生！"
 		CalamitasBossText3: "你成功给我留下了深刻的印象，留下了最深刻的印象……"
@@ -2536,6 +2571,7 @@ GameTips:
 		MaliceText2: "恶意模式已关闭。"
 		AprilFools: "唯一神正在接近……"
 		AprilFools2: "老核弹在等着你……"
+        AprilFoolsGFB: "不可言说的惊骇之物正在接近……"
 		ArmageddonText: "Boss现在可以秒杀你。"
 		ArmageddonText2: "Boss不再能秒杀你了。"
 		ArmageddonDodgeEnable: "你的所有闪避都已被重新启用。"

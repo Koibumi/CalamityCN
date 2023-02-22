@@ -65,13 +65,34 @@ namespace CalamityCN.Translations.Patch
             new string[2]{"Oxygen failed to reach ", "在"},
             new string[2]{" from the depths of the Abyss.", "溺亡时肺里没有一丝氧气。"},
             new string[2]{" failed the challenge at hand.", "没能逃脱命运之手的操控。"},
-            new string[2]{" was destroyed by a mysterious force.", "被神秘的力量摧毁了。"}
             };
             foreach (string[] il in CPKP)
             {
                 if (!il[1].Equals(""))
                 {
                     QuickTranslate(typeof(CalamityPlayer), "KillPlayer", il[0], il[1]);
+                }
+            }
+            string[][] CPKP = new string[][]
+            {
+            new string[2]{" was not worthy", "不配。"},
+            };
+            foreach (string[] il in CPKP)
+            {
+                if (!il[1].Equals(""))
+                {
+                    QuickTranslate(typeof(CalamityPlayer), "HandleTileEffects", il[0], il[1]);
+                }
+            }
+            string[][] CPKP = new string[][]
+            {
+            new string[2]{"'s flesh was dissolved by sulphuric water.", "的血肉被硫磺海水溶解了。"},
+            };
+            foreach (string[] il in CPKP)
+            {
+                if (!il[1].Equals(""))
+                {
+                    QuickTranslate(typeof(CalamityPlayer), "UpdateBadLifeRegen", il[0], il[1]);
                 }
             }
             string[][] CPPK = new string[][]
@@ -100,7 +121,9 @@ namespace CalamityCN.Translations.Patch
             new string[2]{" succumbed to alcohol sickness.", "因酗酒痛苦死去。"},
             new string[2]{" withered away.", "凋谢了。"},
             new string[2]{" was summoned too soon.", "没来得及积蓄足够的力量。"},
-            new string[2]{" lost too much blood.", "失血过多。"}
+            new string[2]{" lost too much blood.", "失血过多。"},
+            new string[2]{" was blown away by miraculous technological advancements.", "被奇迹般的科技进步扫进了历史的垃圾堆。"},
+            new string[2]{" disintegrated from the overpowering exotic resonance.", "与星流能量共振而塌缩了。"}
             };
             foreach (string[] il in CPPK)
             {
@@ -115,6 +138,7 @@ namespace CalamityCN.Translations.Patch
             QuickTranslate(typeof(AstralInjection), "OnConsumeItem", "'s blood vessels burst from drug overdose.", "的血管由于药物过量爆裂了。");
             QuickTranslate(typeof(ThornBlossom), "Shoot", " was violently pricked by a flower.", "被花上的刺扎死了。");
             //进入世界
+            QuickTranslate(typeof(CalamityPlayer), "OnEnterWorld", " [c/EE4939:Note: The Fandom wiki is no longer supported by Calamity.] ", " [c/EE4939:备注：灾厄已不再支持Fandom Wiki。] ");
             QuickTranslate(typeof(CalamityPlayer), "OnEnterWorld", " [c/EE4939:Be sure to check out the Official Calamity Mod Wiki at ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] ", " [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:soammer.com][c/EE4939:!] ");
             //冷却图标
             QuickTranslate(typeof(ChaosState), "get_DisplayName", "Teleportation Cooldown", "传送冷却");

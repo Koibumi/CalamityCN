@@ -43,7 +43,7 @@ namespace CalamityCN.Translations.Patch
 			list.Add(new ValueTuple<string, string>("须臾", "连续使用时伤害会持续降低。停止使用时，伤害会逐渐恢复。\n刚开始使用时它会造成比正常情况下高得多的伤害。"));
 			list.Add(new ValueTuple<string, string>("狱使", "召唤物会在生成40秒后产生剧烈爆炸并消失。\n在这40秒内，召唤物存在时间越久，造成的伤害越高，并且会随机产生小范围爆炸。"));	
 			list.Add(new ValueTuple<string, string>("邪染", "取消该物品的弹幕，在挥舞武器时，两只额外的骷髅手臂会与你一起挥舞武器。"));
-			list.Add(new ValueTuple<string, string>("背叛", "当你的魔力值低于50%时，使用该武器会随机生成一个无差别攻击一切生物的怪物。"));
+			list.Add(new ValueTuple<string, string>("背叛", "当你的魔力值低于25%时，使用该武器会立即消耗你的全部魔力值并随机生成一个无差别攻击一切生物的怪物。"));
 			list.Add(new ValueTuple<string, string>("凋零", "当你受伤，会根据之前累计造成的伤害恢复一定比例的生命值，最高可达100%。\n随后，你会持续受到减益伤害，但你造成的伤害会上升。"));
 			list.Add(new ValueTuple<string, string>("压迫", "当攻击时，或随着时间推移，你的附近会生成一个恶魔之门，并在一小段时间后生成恶魔。\n如果恶魔出现之前传送门被严重破坏，恶魔们会选择攻击敌怪；\n否则，当传送门消失后，恶魔们就会选择攻击玩家。"));
 			list.Add(new ValueTuple<string, string>("淫欲", "生成一个硫磺怪物处于你和你的鼠标中间，干扰你的武器发射的弹幕。\n硫磺怪物死亡后会释放很多红心。"));
