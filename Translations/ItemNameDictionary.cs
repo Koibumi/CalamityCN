@@ -2374,7 +2374,7 @@ namespace CalamityCN
                 { "YharonEgg", "圣佑不死鸟龙蛋".zh() },
                 { "CalamitasCloneBag", "宝藏袋（灾厄之影）".zh() },
                 { "CalamitasCoffer", "宝藏保险箱（灾厄）".zh() },
-                { "GrandStaffoftheNebulaMage", "星云法师之圣杖".zh() },
+                { "GrandStaffoftheNebulaMage", "星云法师圣杖".zh() },
                 { "ExaltedOathblade", "崇高誓约之剑".zh() },
                 { "OldLordClaymore", "旧神阔剑".zh() },
                 { "SmokingComet", "烟陨彗星".zh() },
