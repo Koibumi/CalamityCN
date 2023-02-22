@@ -36,11 +36,6 @@ ItemDropHelper
 
 BossHealthBarManager::AttemptToAddBar 的新增文本 Eyes of XB-∞ Hekate
 
-
-CalamityMod.UI.DraedonSummoning.CodebreakerUI::get_InquiryText()": 的新增文本 ...和State your inquiry.
-
-CalamityMod.UI.DraedonSummoning.CodebreakerUI::Draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)": 的新增文本 Summon 和 Evoke
-
 CalamityMod.UI.DraedonSummoning.DraedonDialogRegistry::.cctor()": 的新增文本
 0: Who are you?
 1:
@@ -186,8 +181,5 @@ tip = "Increase defense by " + CalamityUtils.GetScalingDefense(-1).ToString();
 
 
 NPC图鉴
-
-
-甲等实验日志
 
 lore item
