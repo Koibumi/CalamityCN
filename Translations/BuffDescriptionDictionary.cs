@@ -288,7 +288,7 @@ namespace CalamityCN
 
                 {"MiracleBlight", "星流共振撕碎了组成你身体的物质".zh()},
                 {"EidolonSnailBuff", "多么愚蠢的史前小蜗牛".zh()},
-                {"GoldieBuff", "闪光的都是金子".zh()},
+                {"GoldieBuff", "是金子总会发光".zh()},
                 {"WeaponImbueBrimstone", "近战、鞭子和盗贼攻击会造成硫磺火减益".zh()},
                 {"WeaponImbueCrumbling", "近战、鞭子和盗贼攻击会对敌人造成碎甲减益".zh()},
                 {"WeaponImbueHolyFlames", "近战、鞭子和盗贼攻击会造成神圣之火减益".zh()},
