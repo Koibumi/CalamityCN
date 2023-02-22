@@ -2381,7 +2381,7 @@ namespace CalamityCN
                 { "CorinthPrime", "科林斯Prime".zh() },
                 { "FreedomStar", "自由之星".zh() },
                 { "HoarfrostBow", "白霜弓".zh() },
-                { "AquasScepter", "Aqua的节杖".zh() },
+                { "AquasScepter", "Aqua的权杖".zh() },
                 { "EnchantedConch", "附魔海螺".zh() },
                 { "SanctifiedSpark", "圣耀火花".zh() },
             };
