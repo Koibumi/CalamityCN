@@ -206,6 +206,14 @@ namespace CalamityCN
                 {
                     return "灾厄：星流飞椅减速".zh();
                 }
+                if (keybindName == "InfernumMode: Wayfinder Create Key")
+                {
+                    return "炼狱：魔法门创造键".zh();
+                }
+                if (keybindName == "InfernumMode: Wayfinder Destroy Key")
+                {
+                    return "炼狱：魔法门破坏键".zh();
+                }
             }
             return orig.Invoke(item);
 

@@ -52,7 +52,7 @@ namespace CalamityCN.Translations.Patch
 			}
 			if (npc.type == ModContent.NPCType<Apollo>())
 			{
-				overridingName = "XS-01“阿尔忒弥斯”和XS-03“阿波罗”";
+				overridingName = (npc.ModNPC<Apollo>().exoMechdusa ? "Eyes of XB-∞ Hekate" : "XS-01“阿尔忒弥斯”和XS-03“阿波罗”");
 			}
 			if (!flag)
 			{

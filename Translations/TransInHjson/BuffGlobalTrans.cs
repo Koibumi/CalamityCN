@@ -83,10 +83,14 @@ namespace CalamityCN.Translations.TransInHjson
 			{
 				if (type != 39)
 				{
+					if (type == 60)
+					{
+						tip = "Emits powerful life pulses at nearby enemies";
+					}
 					if (type == 62)
 					{
-							tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.IceBarrier.Description", Array.Empty<object>());
-						}
+						tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.IceBarrier.Description", Array.Empty<object>());
+					}
 				}
 				else
 				{
@@ -190,10 +194,6 @@ namespace CalamityCN.Translations.TransInHjson
 			{
 					tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.Warmth.Description", Array.Empty<object>());
 			}
-		}
-		else if (type == 189)
-		{
-				tip = Language.GetTextValue("BuffDescription.Daybreak");
 		}
 		else if (type == 192)
 		{

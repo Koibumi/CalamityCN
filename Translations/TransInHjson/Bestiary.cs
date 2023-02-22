@@ -8,7 +8,6 @@ using CalamityMod.NPCs.AstrumAureus;
 using CalamityMod.NPCs.AstrumDeus;
 using CalamityMod.NPCs.BrimstoneElemental;
 using CalamityMod.NPCs.Bumblebirb;
-using CalamityMod.NPCs.CalClone;
 using CalamityMod.NPCs.CeaselessVoid;
 using CalamityMod.NPCs.Crabulon;
 using CalamityMod.NPCs.Crags;
@@ -45,6 +44,7 @@ using CalamityCN.Utils;
 using Terraria;
 using Terraria.GameContent.Bestiary;
 using Terraria.ModLoader;
+using CalamityMod.NPCs.CalClone;
 
 namespace CalamityCN.Translations.TransInHjson
 {
@@ -500,7 +500,7 @@ namespace CalamityCN.Translations.TransInHjson
 			if (npc.type == ModContent.NPCType<HiveTumor>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.HiveCyst")));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.HiveTumor")));
 			}
 			if (npc.type == ModContent.NPCType<HiveMind>())
 			{
@@ -935,12 +935,12 @@ namespace CalamityCN.Translations.TransInHjson
 			if (npc.type == ModContent.NPCType<Toxicatfish>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Catfish")));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Toxicatfish")));
 			}
 			if (npc.type == ModContent.NPCType<Sulflounder>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Flounder")));
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Sulflounder")));
 			}
 			if (npc.type == ModContent.NPCType<Gnasher>())
 			{

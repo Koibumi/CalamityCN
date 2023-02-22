@@ -1481,19 +1481,19 @@ public class ItemGlobalTrans : GlobalItem
                 {
                     line.Text = line.Text.Replace("Once placed you can right click the crystal to skip waves or increase the spawn rate of the invaders", "放置后你可以通过右键水晶跳过波数等待或加快刷怪速度".zh());
                 }
-                if (item.type == ItemID.Lacerator)
+                if (item.type == ModContent.ItemType<Lacerator>())
                 {
                     line.Text = line.Text.Replace("Someone thought this was a viable weapon against DoG at one point lol", "竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑".zh());
                 }
-                if (item.type == ItemID.CryoKey)
+                if (item.type == ModContent.ItemType<CryoKey>())
                 {
                     line.Text = line.Text.Replace("Summons Cryogen when used in the tundra", "在雪原使用，召唤极地冰灵".zh());
                 }
-                if (item.type == ItemID.ProfanedShard)
+                if (item.type == ModContent.ItemType<ProfanedShard>())
                 {
                     line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the Hallow or Underworld during daytime", "白天在地狱或神圣之地使用，召唤亵渎守卫".zh());
                 }
-                if (item.type == ItemID.SandstormsCore)
+                if (item.type == ModContent.ItemType<SandstormsCore>())
                 {
                     line.Text = line.Text.Replace("Summons the Great Sand Shark when used in the desert", "在沙漠使用，召唤旱海狂鲨".zh());
                 }
@@ -1503,6 +1503,8 @@ public class ItemGlobalTrans : GlobalItem
                 line.Text = line.Text.Replace("You have already consumed this item", "你已经使用过这个".zh());
                 line.Text = line.Text.Replace("Restores", "恢复".zh());
                 line.Text = line.Text.Replace("life", "生命".zh());
-            }
+                line.Text = line.Text.Replace(" or Revengeance", "或者复仇".zh());
+                line.Text = line.Text.Replace("Increase defense by ", "防御力增加".zh());
+        }
     }
 }

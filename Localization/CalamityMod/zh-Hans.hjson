@@ -9,7 +9,6 @@ CalamityMod:
 
 			SectionTitle:
 			{
-				BossRushCurses: Boss Rush 诅咒
 				ExpertMaster: 专家和大师模式改动
 				Gameplay: 总体游戏内容改动
 				Graphics: 画面改动
@@ -23,6 +22,7 @@ CalamityMod:
 				AdrenalineMeterPosX: "[i:2799] 肾上腺素条X轴坐标"
 				AdrenalineMeterPosY: "[i:2799] 肾上腺素条Y轴坐标"
 				Afterimages: "[i:1742] 残影"
+				BossesStopWeather: "Bosse战斗停雨"
 				BossHealthBarExtraInfo: "[i:CalamityMod/EncryptedSchematicPlanetoid] Boss血条额外信息"
 				BossHealthBoost: "[i:29] Boss生命值百分比强化"
 				BossRushDashCurse: "[i:216] 冲刺诅咒"
@@ -60,13 +60,11 @@ CalamityMod:
 				StealthMeterPosY: "[i:2799] 潜行条Y轴坐标"
 				SulphuricWaterMeterPosX: "[i:2799] 硫磺海水腐蚀条X轴坐标"
 				SulphuricWaterMeterPosY: "[i:2799] 硫磺海水腐蚀条Y轴坐标"
+				PotionSelling: "城镇NPC出售药水",
 				TownNPCSpawnRateMultiplier: "[i:267] 城镇NPC生成率乘算器"
 				TownNPCsSpawnAtNight: "[i:1307] 城镇NPC在夜间生成"
 				VanillaCooldownDisplay: "[i:188] 原版冷却显示"
 				WikiStatusMessage: "[i:149] Wiki状态信息"
-				BossRushRegenCurse: "[i:216] "
-				BossRushDashCurse: "[i:216] "
-				BossRushIFrameCurse: "[i:216] "
 			}
 
 			EntryTooltip:
@@ -88,8 +86,8 @@ CalamityMod:
 				'''
 				BossesStopWeather:
 				'''
-				When enabled, many late game bosses while stop all rain and related weather when spawned.
-				Enable if you have performance issues during late game boss fights.
+				启用后，许多后期Boss在召唤时会停止降雨和相关天气。
+                如果你在游戏后期与Boss战斗时遇到性能问题，请启用。
 				'''
 				BossHealthBarExtraInfo: 
 				'''
@@ -130,25 +128,25 @@ CalamityMod:
 				'''
 				FasterBaseSpeed:
 				'''
-				Increases the player's base movement speed substantially by always giving them +50% movement speed.
-				This setting does nothing if the mod Terraria Overhaul is loaded.
-				Calamity is balanced around this setting being enabled.
+				大幅提高玩家的基础移动速度（移动速度+50%）。
+				如果加载了Terraria Overhaul，则此设置无效。
+				在此设置启用时灾厄会平衡。
 				'''
 				FasterFallHotkey:
 				'''
-				When enabled, you can hold the DOWN key while in the air to accelerate downwards faster.
-				This config does not increase your maximum falling speed, just how quickly you accelerate to it.
-				Calamity is balanced around this setting being enabled.
+				启用后，你可以在空中按住DOWN键以更快地向下降落。
+				此配置不会增加你的最大下降速度，只会增加加速度。
+				在此设置启用时灾厄会平衡。
 				'''
 				FasterJumpSpeed:
 				'''
-				Slightly increases the player's base jump speed.
-				Calamity is balanced around this setting being enabled.
+				小幅提高玩家的基础跳跃速度
+				在此设置启用时灾厄会平衡。
 				'''
 				FasterTilePlacement:
 				'''
-				Substantially increases how rapidly the player can place tiles and walls.
-				This config stacks with the Brick Layer, Portable Cement Mixer and other accessories.
+				大幅提高玩家放置方块和墙壁速度。
+				此设置与饰品效果叠加。
 				'''
 				ForceTownSafety: 
 				'''
@@ -157,8 +155,8 @@ CalamityMod:
 				'''
 				HigherJumpHeight:
 				'''
-				Increases the player's base jump height by 10% so that they can jump 7 tiles.
-				Calamity is balanced around this setting being enabled.
+				提高玩家的基础跳跃高度10%，可以跳跃7图格。
+				在此设置启用时灾厄会平衡。
 				'''
 				MeterPosLock: 开启时阻止潜行条、充能条、怒气条和肾上腺素条被鼠标拖动。
 				NerfExpertDebuffs: 
@@ -242,8 +240,8 @@ CalamityMod:
 				'''
 				PotionSelling:
 				'''
-				Allows town NPCs to sell various potions.
-				Certain potions are sold after specific bosses have been defeated.
+				允许城镇NPC出售各种药水。
+                某些药剂在特定boss被击败后出售。
 				'''
 				TownNPCSpawnRateMultiplier: 此数值越高，城镇 NPC 生成的速率越快。
 				TownNPCsSpawnAtNight: 玩家可决定城镇 NPC（包括老人）是否会在夜晚生成。

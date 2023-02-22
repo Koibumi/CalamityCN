@@ -4,7 +4,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using CalamityCN.Utils;
 using CalamityMod;
+using CalamityMod.Items;
 using CalamityMod.Items.Pets;
+using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.SummonItems.Invasion;
 using CalamityMod.NPCs.AcidRain;
 using Microsoft.Xna.Framework;
@@ -111,6 +113,28 @@ namespace CalamityCN.Translation.Patch
 				Texture2D value = ModContent.Request<Texture2D>("CalamityMod/Events/AcidRainT3_BossChecklist", (ReLogic.Content.AssetRequestMode)2).Value;
 				sb.Draw(value, new Vector2((float)rect.Center.X - (float)value.Width * 0.9f / 2f, (float)rect.Center.Y - (float)value.Height * 0.9f / 2f), null, color, 0f, Vector2.Zero, 0.9f, 0, 0f);
 			}, "CalamityMod/UI/MiscTextures/AcidRainIcon");
+
+			float difficulty4 = 23.49f;
+			List<int> enemies4 = new List<int>
+			{
+				0
+			};
+			List<int> summons3 = new List<int>
+			{
+				ModContent.ItemType<Terminus>()
+			};
+			List<int> collection4 = new List<int>
+			{
+				ModContent.ItemType<Rock>()
+			};
+			Func<bool> downed4 = () => DownedBossSystem.downedBossRush;
+			string iconTexture4 = "CalamityMod/UI/MiscTextures/BossRushIcon";
+			Action<SpriteBatch, Rectangle, Color> portrait4 = delegate (SpriteBatch sb, Rectangle rect, Color color)
+			{
+				Texture2D texture = ModContent.Request<Texture2D>("CalamityMod/Skies/XerocEye", (ReLogic.Content.AssetRequestMode)2).Value;
+				sb.Draw(texture, new Vector2((float)rect.Center.X - (float)texture.Width * 0.5f / 2f, (float)rect.Center.Y - (float)texture.Height * 0.5f / 2f), null, color, 0f, Vector2.Zero, 0.5f, 0, 0f);
+			};
+			AddInvasion(bossChecklist, calamity, "Boss Rush", difficulty4, enemies4, downed4, summons3, collection4, "使用在深渊底部找到的 [i:" + ModContent.ItemType <Terminus>().ToString() + "]。", () => true, portrait4, iconTexture4);
 		}
 
 		private void AddInvasion(Mod bossChecklist, Mod hostMod, string name, float difficulty, List<int> npcTypes, Func<bool> downed, object summon, List<int> collection, string instructions, Func<bool> available, Action<SpriteBatch, Rectangle, Color> portrait = null, string bossHeadTex = null)
