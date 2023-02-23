@@ -19,27 +19,14 @@ using CalamityMod.NPCs.Bumblebirb;
 using CalamityMod.NPCs.ProfanedGuardians;
 using CalamityCN.Utils;
 using CalamityMod.Items.LoreItems;
-using Terraria.ModLoader;
-using CalamityMod.Tiles.Ores;
-using CalamityMod.Tiles.Abyss.AbyssAmbient;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using CalamityMod.Buffs.DamageOverTime;
-using Terraria.DataStructures;
-using Terraria.Audio;
 
-namespace CalamityCN.Translations.Patch {
-    public class TextPatch {
+namespace CalamityCN.Translations.Patch
+{
+    public class TextPatch
+    {
         private static List<ILHook> ILHooksT;
-        private static Hook temp_AuricOreDeath;
-
-        public static void Load() {
-            MethodBase auric = typeof(CalamityPlayer).GetMethod("HandleTileEffects", BindingFlags.NonPublic | BindingFlags.Instance);
-            temp_AuricOreDeath = new Hook(auric, HandleTileEffects);
-            if (temp_AuricOreDeath is not null)
-                temp_AuricOreDeath.Apply();
-
+        public static void Load()
+        {
             ILHooksT = new List<ILHook>();
             //武器提示
             QuickTranslate(typeof(ExoskeletonPanel), "PreDraw", "Insufficient minion slots!", "召唤栏位不足！");
@@ -60,8 +47,10 @@ namespace CalamityCN.Translations.Patch {
                 new string[2]{"I Wanna Rock", "石头，嘿嘿嘿，我的石头" }
 
             };
-            foreach (string[] il in WMS) {
-                if (!il[1].Equals("")) {
+            foreach (string[] il in WMS)
+            {
+                if (!il[1].Equals(""))
+                {
                     QuickTranslate(typeof(WorldgenManagementSystem), "ModifyWorldGenTasks", il[0], il[1]);
                 }
             }
@@ -75,6 +64,7 @@ namespace CalamityCN.Translations.Patch {
             QuickTranslate(typeof(CalamityPlayer), "KillPlayer", "Oxygen failed to reach ", "在");
             QuickTranslate(typeof(CalamityPlayer), "KillPlayer", " from the depths of the Abyss.", "溺亡时肺里没有一丝氧气。");
             QuickTranslate(typeof(CalamityPlayer), "KillPlayer", " failed the challenge at hand.", "没能逃脱命运之手的操控。");
+            QuickTranslate(typeof(CalamityPlayer), "HandleTileEffects", " was not worthy", "不配。"); 
             QuickTranslate(typeof(CalamityPlayer), "UpdateBadLifeRegen", "'s flesh was dissolved by sulphuric water.", "的血肉被硫磺海水溶解了。");
 
             string[][] CPPK = new string[][]
@@ -107,8 +97,10 @@ namespace CalamityCN.Translations.Patch {
             new string[2]{" was blown away by miraculous technological advancements.", "被奇迹般的科技进步扫进了历史的垃圾堆。"},
             new string[2]{" disintegrated from the overpowering exotic resonance.", "与星流能量共振而塌缩了。"}
             };
-            foreach (string[] il in CPPK) {
-                if (!il[1].Equals("")) {
+            foreach (string[] il in CPPK)
+            {
+                if (!il[1].Equals(""))
+                {
                     QuickTranslate(typeof(CalamityPlayer), "PreKill", il[0], il[1]);
                 }
             }
@@ -262,7 +254,7 @@ namespace CalamityCN.Translations.Patch {
                 "有的灵魂被仇恨蒙蔽了双眼，他们以我的名义起誓，会为我做任何事情。\n他们的奉献绝对坚定不移。他们的所为绝非暴行，他们的复仇没有界限。\n我把他们组织为冲击部队，而他们的喷火器和燃烧弹则令人生畏。\n他们将神庙夷为平地，将那些虚假的虔诚者付之一炬。用火焰摧毁信仰是他们的专长。\n嘉登对此的理解十分到位，他为此所创造的外形令人“恐惧”，以至让人想起了遗忘本身。");
             QuickTranslate(typeof(LoreSlimeGod), "get_Lore", "An old clan once revered this thing as a paragon of the balance of nature. Now its purity is sullied by freshly absorbed muck and grime.\nThe gelatinous being neither knows nor cares for the last surviving clansman.\nSuch tragedy is all too common in worship.\nAlas, the Slime God is wise enough to be cowardly, fleeing battles it cannot win when its servants are destroyed.\nPerhaps fortune will favor you if you catch it unaware.",
                 "一个古老的部族曾经敬此物为自然界平衡的典范。如今，它的纯洁早以被新吸收的泥土和污垢所玷污。\n这个凝胶生物既不知道也不关心最后幸存的那位族人。\n如此悲剧在崇拜中比比皆是。\n唉，史莱姆之神狡诈得很。当它的随从被摧毁时，它会毫不犹豫地逃离这场无法胜利的战斗。\n如果你能在它不知不觉的时候把它抓住，也许幸运就会眷顾你。");
-            QuickTranslate(typeof(LoreStormWeaver), "get_Lore", "This beast, while of lesser stature than the Devourer, is a great danger in its own right.\nThey are clearly of the same species. Even this serpent was known to devour Wyverns whole.\nVery little is known about the realm or space that the Great Devourer hails from.\nEven Draedon and his obsessive research has been unable to discern its true nature.\nThe Weaver slipped through a rift from this place opened by the Devourer, and he has monitored it since.\nIn his mind, the lesser serpent's similar powers could lead it to be too threatening for him to let live.\nHe thinks himself invincible. Little does he know, he has ever stood in a similar position.",
+            QuickTranslate(typeof(LoreStormWeaver), "get_Lore", "This beast, while of lesser stature than the Devourer, is a great danger in its own right.\nThey are clearly of the same species. Even this serpent was known to devour Wyverns whole.\nVery little is known about the realm or space that the Great Devourer hails from.\nEven Draedon and his obsessive research has been unable to discern its true nature.\nThe Weaver slipped through a rift from this place opened by the Devourer, and he has monitored it since.\nIn his mind, the lesser serpent's similar powers could lead it to be too threatening for him to let live.\nHe thinks himself invincible. Little does he know, he has ever stood in a similar position.", 
                 "这头巨兽尽管体型不如神明吞噬者，但它本身仍是一个巨大的威胁。\n二者显然属于同一物种，甚至这条大蛇也可以吞噬一整条飞龙。\n关于神明吞噬者来自哪个领域或空间，我们知之甚少。\n即使是嘉登和他所痴迷的研究也无法辨别它真正的本质。\n自风暴编织者从神明吞噬者打开的此地的裂缝中溜走后，他就一直在监视着它。\n在他看来，一条拥有与自己类似的力量的小蛇可能会对自己构成严重威胁，因此，他绝不能让它活着。\n他自认自己无敌。可惜他不知道，其实他自己也处在一个同样的位置上。");
             QuickTranslate(typeof(LoreSulphurSea), "get_Lore", "This seaside has never been pleasant, though it has seen far better days.\nIncessant fumes rising from the industry of Azafure inundate the water with caustic ions.\nYet still, the hardy life adapted. No doubt aided by Silva as she burrowed through to the underworld.\nLong considered uninhabitable, its further deterioration led Draedon to designate it as a dumping ground.\nYears of careless mass waste disposal has now left the coast's transformation irreversible.",
                 "这片海岸从来只会让人感到压抑，然而它过去也曾有美丽的时光。\n源自阿萨福勒工业的烟雾不断升起，最终使这里的水充满了腐蚀性离子。\n然而，生命仍在顽强地生存于此。毫无疑问，是一度生根发芽直至地狱的席尔瓦在帮助它们。\n一直以来，这里都不被认为是一个适合居住的地方，随着它进一步恶化，嘉登最终将其作为了一个指定的垃圾场。\n此地多年来相当粗暴的大规模垃圾处理，已经让这片海岸的环境发生了不可逆转的变化。");
@@ -277,26 +269,27 @@ namespace CalamityCN.Translations.Patch {
 
             //QuickTranslate(typeof(), "", "", "");
 
-            foreach (ILHook hook in ILHooksT) {
+            foreach (ILHook hook in ILHooksT)
+            {
                 if (hook is not null)
                     hook.Apply();
             }
         }
-        public static void Unload() {
-            foreach (ILHook hook in ILHooksT) {
-                if (hook is not null)
-                    hook.Dispose();
+            public static void Unload()
+            {
+                foreach (ILHook hook in ILHooksT)
+                {
+                    if (hook is not null)
+                        hook.Dispose();
+                }
+                ILHooksT = null;
             }
-            ILHooksT = null;
-            if (temp_AuricOreDeath is not null) {
-                temp_AuricOreDeath.Dispose();
-                temp_AuricOreDeath = null;
-            }
-        }
-        private static void QuickTranslate(Type type, string methodName, string origin, string trans) {
+        private static void QuickTranslate(Type type, string methodName, string origin, string trans)
+        {
             ILHooksT.Add(new ILHook(
             type.GetCachedMethod(methodName),
-            new ILContext.Manipulator(il => {
+            new ILContext.Manipulator(il =>
+            {
                 var cursor = new ILCursor(il);
                 if (!cursor.TryGotoNext(i => i.MatchLdstr(origin)))
                     return;
@@ -304,46 +297,5 @@ namespace CalamityCN.Translations.Patch {
                 cursor.EmitDelegate<Func<string, string>>((eng) => trans);
             })));
         }
-
-        private delegate void HandleTileEffects_tr(CalamityPlayer calPlayer);
-        private static void HandleTileEffects(HandleTileEffects_tr orig, CalamityPlayer calPlayer) {
-            Player player = calPlayer.Player;
-            int num = ModContent.TileType<AstralOre>();
-            int num2 = ModContent.TileType<AuricOre>();
-            int num3 = ModContent.TileType<ScoriaOre>();
-            int num4 = ModContent.TileType<AbyssKelp>();
-            int num5 = 300;
-            float num6 = player.noKnockback ? 20f : 40f;
-            foreach (Point point in Collision.GetEntityEdgeTiles(player, true, true, true, true)) {
-                Tile tile = Main.tile[point];
-                if (tile.HasTile && tile.HasUnactuatedTile) {
-                    if (tile.TileType == num4) {
-                        if (player.velocity.Length() == 0f) {
-                            break;
-                        }
-                        Dust dust = Main.dust[Dust.NewDust(player.Center, 16, 16, DustID.Firefly, 0.23255825f, 10f, 0, new Color(117, 55, 15), 1.5116279f)];
-                        dust.noGravity = true;
-                        dust.noLight = true;
-                        dust.fadeIn = 2.5813954f;
-                    }
-                    if (tile.TileType == num) {
-                        player.AddBuff(ModContent.BuffType<AstralInfectionDebuff>(), 2, true, false);
-                    }
-                    if (tile.TileType == num3 && !player.fireWalk) {
-                        player.AddBuff(67, 2, true, false);
-                    } else if (tile.TileType == num2 && !calPlayer.auricSet) {
-                        player.RemoveAllGrapplingHooks();
-                        AuricOre.Animate = true;
-                        Vector2 vector = Vector2.Normalize(player.Center - Terraria.Utils.ToWorldCoordinates(point, 8f, 8f));
-                        player.velocity += vector * num6;
-                        player.Hurt(PlayerDeathReason.ByCustomReason(player.name + "不配。".zh()), num5, 0, false, false, false, -1);
-                        player.AddBuff(144, 300, true, false);
-                        SoundStyle soundStyle = new SoundStyle("CalamityMod/Sounds/Custom/ExoMechs/TeslaShoot1", 0);
-                        SoundEngine.PlaySound(in soundStyle, default(Vector2?));
-                    }
-                }
-            }
-        }
-
     }
 }
