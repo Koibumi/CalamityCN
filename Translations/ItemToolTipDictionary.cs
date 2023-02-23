@@ -1322,7 +1322,7 @@ namespace CalamityCN
                 { "SignusBag", "{$CommonItemTooltip.RightClickToOpen}".zh() },
                 { "StormWeaverBag", "{$CommonItemTooltip.RightClickToOpen}".zh() },
                 { "VoodooDemonVoodooDoll", "在物品栏中标记为收藏，可以防止巫毒恶魔在你身旁生成".zh() },
-                { "GruesomeEminence", "在鼠标旁召唤众多腥邪诡灵\n起初，诡灵会随意飞行，此时它对敌怪和玩家都会造成伤害\n随着时间流逝，诡灵会汇聚成一个可控制的巨灵\n[c/c61b40:聚合成那地牢怪物的灵魂永远无法进入他们所期望的来世，]\n[c/c61b40:被愤怒玷污、融化，他们终将如此。]\n".zh() },
+                { "GruesomeEminence", "在鼠标旁召唤一团腥邪诡灵\n起初，诡灵会随意飞行，此时它对敌怪和玩家都会造成伤害\n随着时间流逝，诡灵会逐渐汇聚成一个可控制的巨灵\n[c/c61b40:聚合成那地牢怪物的灵魂永远无法进入他们所期望的来世，]\n[c/c61b40:被愤怒玷污、融化，他们终将如此。]\n".zh() },
                 { "Heresy", "从翻开的书页中召唤火焰与灵魂\n你翻书的时间越长，攻击越强".zh() },
                 { "RainbowPartyCannon", "彩虹会让你记住，我们将一起永远闪耀……".zh() },
                 { "Rancor", "召唤一个圆形法阵，法阵会逐渐蓄力，最终会发射出一束强大的怨戾激光\n被激光照射的物块会迸发出岩浆，随后出现亡魂之手\n[c/c61b40:呵，如果那些死于硫火烈炎的人没有宽恕自己，]\n[c/c61b40:他人的宽恕又有什么用呢？]\n".zh() },
