@@ -19,7 +19,8 @@ namespace CalamityCN.Utils
             ModePatch.Load();
             UIPatch.Load();
             TextPatch.Load();
-            if(ModsCall.Infernum != null && CalamityCNConfig.Instance.InfernumCN)
+            AuricOreDeathPatch.Load();
+            if (ModsCall.Infernum != null && CalamityCNConfig.Instance.InfernumCN)
             {
                 InfernumPatch.Load();
             }
@@ -29,6 +30,7 @@ namespace CalamityCN.Utils
             UIPatch.Unload();
             ModePatch.Unload();
             TextPatch.Unload();
+            AuricOreDeathPatch.Unload();
         }
         public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
         {
