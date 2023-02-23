@@ -2324,7 +2324,7 @@ namespace CalamityCN
                 { "CinderBlossomSeeds", "烬英种子".zh() },
                 { "AbyssTreasureChest", "远古宝藏箱".zh() },
                 { "AlgalPrismTorch", "藻类棱晶火把".zh() },
-                { "WulfrumLabstationItem", "钨钢实验室站台物品".zh() },
+                { "WulfrumLabstationItem", "钨钢实验桌".zh() },
                 { "GloomTorch", "幽匿火把".zh() },
                 { "LanternCenter", "灯笼中枢".zh() },
                 { "NavyPrismTorch", "沉沦棱晶火把".zh() },
