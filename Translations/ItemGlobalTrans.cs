@@ -719,55 +719,59 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Andromeda's Stride", "仙女之跃".zh());
                     line.Text = line.Text.Replace("Capricorn's Blessing", "摩羯之祈".zh());
                     line.Text = line.Text.Replace("Cancer's Blessing", "巨蟹之礼".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to swing Galaxia around you, accelerating over time. The swirling nebula constantly emits homing cosmic bolts", "回旋挥舞银河，随时间加速。旋转的星云将持续释放银河之雷".zh());
-                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor alongside a burst of 6 gigantic cosmic bolts. The sword then quickly returns to your hand", "释放回旋斩时停止攻击，把剑伴随六个巨型银河之雷向前掷出。它会在这之后快速回归手中".zh());
-                    line.Text = line.Text.Replace("Throw Galaxia to your cursor, holding it in place with constellations. Galaxia follows your cursor, rapidly spinning to shred enemies", "将银河掷向鼠标，以群星将其拉住。银河将跟随鼠标移动，快速旋转，粉碎敌怪".zh());
+                    line.Text = line.Text.Replace("Hold left click to swing Galaxia around you, accelerating over time", "回旋挥舞银河，随时间加速".zh());
+                    line.Text = line.Text.Replace("The swirling nebula constantly emits homing cosmic bolts", "旋转的星云将持续释放银河之雷".zh());
+                    line.Text = line.Text.Replace("Release left click to hurl Galaxia toward the cursor alongside 6 gigantic cosmic bolts", "释放回旋斩时停止攻击，把剑伴随六个巨型银河之雷向前掷出".zh());
+                    line.Text = line.Text.Replace("Throw Galaxia to your cursor, holding it in place with constellations", "将银河掷向鼠标，以群星将其拉住".zh());
+                    line.Text = line.Text.Replace("Galaxia follows your cursor, rapidly spinning to shred enemies", "银河将跟随鼠标移动，快速旋转，粉碎敌怪".zh());
                     line.Text = line.Text.Replace("Striking enemies causes nebulous explosions which spawn homing cosmic bolts", "击中敌人引发星云爆破，释放银河之雷".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to channel the Northern Star's power into a tight vortex of galactic energies, bound by concentric rings of stars.", "引导北极星之力，化为星环簇拥的星系能量漩涡".zh());
+                    line.Text = line.Text.Replace("Hold left click to channel Galaxia's power into a tight vortex of galactic energies", "引导北极星之力，化为星环簇拥的星系能量漩涡".zh());
                     line.Text = line.Text.Replace("The vortex powers up over time and when hitting enemies", "随着时间流逝或击中敌怪，漩涡将逐渐成长".zh());
-                    line.Text = line.Text.Replace("Release the attack button to fire off the charged star. Attacking again immediately thereafter dashes to the star, emitting a nova of cosmic bolts", "停止攻击将释放北极星向前飞跃。此时立即再次攻击，你将追随北极星的步伐高速冲刺，并化身超新星爆发，四散银河之雷".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to charge a god-erasing lunge, release to unleash the devastating blow. Galaxia emits cosmic bolts while charging", "按住攻击，为抹杀神明的冲锋蓄力，松开以释放这一毁灭性打击".zh());
-                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which summons an apocalyptic storm of cosmic energies", "撞击地面使得寰宇崩塌，时空撕裂，末世风暴般的宇宙能量轰鸣而至".zh());
+                    line.Text = line.Text.Replace("Release left click to fire off the charged star in straight line", "停止攻击将释放北极星向前飞跃".zh());
+                    line.Text = line.Text.Replace(" Press left click again immediately to dash towards the star and release cosmic bolts", "此时立即再次攻击，你将追随北极星的步伐高速冲刺，并化身超新星爆发，四散银河之雷".zh());
+                    line.Text = line.Text.Replace("Hold left click to charge a god-erasing lunge, release to unleash the devastating blow", "按住攻击，为抹杀神明的冲锋蓄力，松开以释放这一毁灭性打击".zh());
+                    line.Text = line.Text.Replace("Galaxia emits cosmic bolts while charging", "银河在蓄力时会释放银河之雷".zh());
+                    line.Text = line.Text.Replace("Lunging into the ground will cause a shockwave which summons a storm of cosmic energies", "撞击地面使得寰宇崩塌，时空撕裂，末世风暴般的宇宙能量轰鸣而至".zh());
                     line.Text = line.Text.Replace("Periodically releases a ring of weakening stars around your cursor when attacking", "攻击时，在光标处召唤能削弱敌怪的星环".zh());
                     line.Text = line.Text.Replace("The ring is repelled away from you at first, before slowing down over time", "星环会离你而去，逐渐变慢".zh());
-                    line.Text = line.Text.Replace("Periodically releases a ring of lifestealing stars around yourself when attacking", "在身旁召唤吸取敌怪生命的星环".zh());
+                    line.Text = line.Text.Replace("Periodically releases a ring of lifestealing stars around yourself when attacking", "攻击时，在身旁召唤吸取敌怪生命的星环".zh());
                     line.Text = line.Text.Replace("The ring is attracted towards you at first, before slowing down over time", "星环会朝你飞去，逐渐变慢".zh());
                 }
                 if (item.type == ModContent.ItemType<FracturedArk>())
                 {
-                    line.Text = line.Text.Replace("Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability", "右键向前伸出，击中敌人将会进行格挡，给予你短暂的无敌".zh());
-                    line.Text = line.Text.Replace("You can also parry projectiles and temporarily make them deal 100 less damage", "也可以格挡弹幕，并短暂让其伤害减少100".zh());
-                    line.Text = line.Text.Replace("Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw projectiles out", "成功格挡将会强化10次正常攻击，使其射出弹幕".zh());
+                    line.Text = line.Text.Replace("Using RMB will extend the Ark out in front of you", "右键向前延展方舟".zh());
+                    line.Text = line.Text.Replace("Hitting an enemy with it will parry them, granting you a small window of invulnerability", "剑刃击中敌人时会进行招架，并使你短暂无敌".zh());
+                    line.Text = line.Text.Replace("You can also parry projectiles and temporarily make them deal 100 less damage", "你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少100点".zh());
+                    line.Text = line.Text.Replace("Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw projectiles out", "格挡后会获得10层充能，充能会强化普通攻击和伤害，并让剑刃能够发射弹幕".zh());
                 }
                 if (item.type == ModContent.ItemType<TrueArkoftheAncients>())
                 {
-                    line.Text = line.Text.Replace("Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability", "右键向前伸出，击中敌人将会进行格挡，给予你短暂的无敌".zh());
-                    line.Text = line.Text.Replace("You can also parry projectiles and temporarily make them deal 160 less damage", "也可以格挡弹幕，并短暂让其伤害减少160".zh());
-                    line.Text = line.Text.Replace("Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw stronger projectiles", "成功格挡将会强化10次正常攻击，使其伤害更高并射出更强大的弹幕".zh());
-                    line.Text = line.Text.Replace("Using RMB and pressing up while the Ark is empowered will release all the charges in a powerful burst of energy", "处于强化攻击状态时，按住上并点右键将会以强大能量波的形式把所有蓄力一次性释放".zh());
+                    line.Text = line.Text.Replace("Using right click will extend the Ark out in front of you.Hitting an enemy with it will parry them, granting you brief invulnerability", "右键向前延展方舟。剑刃击中敌人时会进行招架，并使你短暂无敌".zh());
+                    line.Text = line.Text.Replace("You can also parry projectiles to make them deal 160 less damage for a short period", "你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少160点".zh());
+                    line.Text = line.Text.Replace("Parrying empowers the next 10 swings of the sword, letting them throw stronger projectiles", "格挡后会获得10层充能，充能会强化普通攻击，并且剑刃会发射更加强大的弹幕".zh());
+                    line.Text = line.Text.Replace("Using right click and pressing UP will release all empowered charges in a powerful burst of energy", "按住上并点击右键会释放储存的所有充能并产生强大的能量爆发".zh());
                 }
                 if (item.type == ModContent.ItemType<ArkoftheElements>())
                 {
-                    line.Text = line.Text.Replace("Performs a combo of swings, throwing the blade out every 5 swings", "进行一套连斩，并每隔五次挥动掷出一次刀刃".zh());
-                    line.Text = line.Text.Replace("Releasing the mouse while the blade is out will throw the second half towards it, making the scissors snap", "若在掷出剑刃时松开鼠标，则会挥出另一片刀刃，进行一次剪击".zh());
-                    line.Text = line.Text.Replace("Snapping the scissors together increase their damage and empower your next two swings", "剪击会增加剪刀的伤害，并强化你下两次挥动".zh());
-                    line.Text = line.Text.Replace("Using RMB will snip out the scissor blades in front of you", "右键向前方剪出".zh());
-                    line.Text = line.Text.Replace("Hitting an enemy with it will parry them, granting you a small window of invulnerability", "剪刀击中敌人将会进行格挡，给予你短暂的无敌".zh());
-                    line.Text = line.Text.Replace("You can also parry projectiles and temporarily make them deal 200 less damage", "它也可以格挡弹幕，并短暂让其伤害减少200".zh());
-                    line.Text = line.Text.Replace("Parrying will empower the next 10 swings of the sword, letting you use both blades at once", "成功格挡将会强化10次正常挥动，允许你同时使用两片刀刃".zh());
-                    line.Text = line.Text.Replace("Using RMB and pressing up while the Ark is empowered will throw the blades in front of you to provoke a Big Rip in spacetime, using up all your charges in the process", "当方舟处于强化攻击状态时，按住上并点右键将掷出两片刀刃，产生时空之中的大撕裂，并一次性释放所有蓄力".zh());
+                    line.Text = line.Text.Replace("Using left click performs a 5-swing combo that ends by throwing the blade", "左键进行一次五连斩，斩击以掷出剑刃结束".zh());
+                    line.Text = line.Text.Replace("Releasing left click while the blade is out will deal extra damage and give 2 charges", "在剑刃掷出时松开左键会造成额外伤害并获得2层充能".zh());
+                    line.Text = line.Text.Replace("Using right click will snip out the scissor blades in front of you", "右键用剑刃向前方剪出".zh());
+                    line.Text = line.Text.Replace("Hitting an enemy with it will parry them, granting you brief invulnerability", "剑刃击中敌人时会进行招架，并使你短暂无敌".zh());
+                    line.Text = line.Text.Replace("You can parry projectiles to make them deal 200 less damage for a short period", "你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少200点".zh());
+                    line.Text = line.Text.Replace("Parrying will empower the next 10 swings of the sword, letting you use both blades at once", "格挡后会获得10层充能，充能会强化普通攻击，让你可以同时使用两把剑刃".zh());
+                    line.Text = line.Text.Replace("Using right click while pressing UP with empowered charges will provoke a Big Rip in spacetime and use all charges", "当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能".zh());
                 }
                 if (item.type == ModContent.ItemType<ArkoftheCosmos>())
                 {
-                    line.Text = line.Text.Replace("Performs a combo of swings, alternating between narrow and wide swings and throwing the blade out every 5 swings", "进行一套连斩，在横扫和劈斩之间来回切换，并每隔五次挥动掷出一次刀刃".zh());
-                    line.Text = line.Text.Replace("The thrown blade is held in place by constellations and will follow your cursor", "掷出的剑刃为星系所连，随你鼠标而动".zh());
-                    line.Text = line.Text.Replace("Releasing the mouse while the blade is out will throw the second half towards it, making the scissors snap and explode into stars", "若在掷出剑刃时松开鼠标，则会挥出另一片刀刃，进行一次剪击，并爆炸成群星".zh());
-                    line.Text = line.Text.Replace("Using RMB will snip out the scissor blades in front of you", "右键向前方剪出".zh());
-                    line.Text = line.Text.Replace("Hitting an enemy with it will parry them, granting you a small window of invulnerability", "剪刀击中敌人将会进行格挡，给予你短暂的无敌".zh());
-                    line.Text = line.Text.Replace("You can also parry projectiles and temporarily make them deal 200 less damage", "它也可以格挡弹幕，并短暂让其伤害减少200".zh());
-                    line.Text = line.Text.Replace("Parrying will empower the next 10 swings of the sword, letting you use both blades at once", "成功格挡将会强化10次正常挥动，允许你同时使用两片刀刃".zh());
-                    line.Text = line.Text.Replace("Using RMB and pressing up while the Ark is empowered will throw the blades in front of you to provoke a Big Rip in spacetime, using up all your charges in the process", "当方舟处于强化攻击状态时，按住上并点右键将掷出两片刀刃，产生时空之中的大撕裂，并一次性释放所有蓄力".zh());
-                    line.Text = line.Text.Replace("If more than half the charges were used up, you can dash across the rip by keeping the up key pressed down", "若释放的蓄力超过一半，保持按住上键将允许你冲过撕裂".zh());
+                    line.Text = line.Text.Replace("Using left click performs a 5-swing combo that ends by throwing the blade", "左键进行一次五连斩，斩击以掷出剑刃结束".zh());
+                    line.Text = line.Text.Replace("The thrown blade will follow your cursor", "掷出的剑刃会跟随你的光标".zh());
+                    line.Text = line.Text.Replace("Releasing left click while the blade is out will cause an exploding snap", "在剑刃掷出时松开左键会释放爆炸剪击".zh());
+                    line.Text = line.Text.Replace("Using right click will snip out the scissor blades in front of you", "右键用剑刃向前方剪出".zh());
+                    line.Text = line.Text.Replace("Hitting an enemy with it will parry them, granting you brief invulnerability", "剑刃击中敌人时会进行招架，并使你短暂无敌".zh());
+                    line.Text = line.Text.Replace("You can parry projectiles to make them deal 200 less damage for a short period", "你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少200点".zh());
+                    line.Text = line.Text.Replace("Parrying anything will empower the next 10 swings of the sword", "格挡后会获得10层充能，充能会强化普通攻击".zh());
+                    line.Text = line.Text.Replace("Using right click while pressing UP with empowered charges will provoke a Big Rip in spacetime and use all charges", "当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能".zh());
+                    line.Text = line.Text.Replace("If more than 5 charges were used, you can dash across the rip by holding UP", "若释放的充能超过5层，保持按住上键将允许你冲过撕裂".zh());
                 }
 
                 if (item.CountsAsClass(DamageClass.Melee))
