@@ -2349,7 +2349,7 @@ namespace CalamityCN
                 { "WulfrumTable", "钨钢桌".zh() },
                 { "WulfrumToilet", "钨钢马桶".zh() },
                 { "WulfrumWorkbench", "钨钢工作台".zh() },
-                { "AerialiteOreDisenchanted", "失魔天蓝矿".zh() },
+                { "AerialiteOreDisenchanted", "天蓝原矿".zh() },
                 { "InfernalSuevite", "地狱角砾岩".zh() },
                 { "Havocplate", "混沌石".zh() },
                 { "Onyxplate", "玛瑙石".zh() },
