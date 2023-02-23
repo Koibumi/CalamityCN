@@ -476,7 +476,7 @@ namespace CalamityCN.Translations.Patch
 			};
 
 			Func<bool> downed221 = () => DownedBossSystem.downedMauler;
-			AddMiniBoss(bossChecklist, calamity, "渊海狂鲨", 20.1f, ModContent.NPCType<Mauler>(), downed221, null, null, "在噬魂幽花被击败后的酸雨期间生成。\n使用 [i: " + ModContent.ItemType<CausticTear>().ToString() + "] 召唤酸雨。", CalamityUtils.ColorMessage("那条极其饥饿的鲨鱼撕碎了所有人的尸体。", new Color(240, 230, 140)), () => true, null, null);
+			AddMiniBoss(bossChecklist, calamity, "渊海狂鲨", 20.1f, ModContent.NPCType<Mauler>(), downed221, null, null, "在噬魂幽花被击败后的酸雨期间生成。\n使用 [i: " + ModContent.ItemType<CausticTear>().ToString() + "] 召唤酸雨。", CalamityUtils.ColorMessage("那饥饿的鲨鱼粗鲁的撕咬了所有人的尸体。", new Color(240, 230, 140)), () => true, null, null);
 
 			Func<bool> downed222 = () => DownedBossSystem.downedNuclearTerror;
 			AddMiniBoss(bossChecklist, calamity, "辐核骇兽", 20.2f, ModContent.NPCType<NuclearTerror>(), downed222, null, null, "在噬魂幽花被击败的在酸雨期间生成。\n使用 [i:" + ModContent.ItemType<CausticTear>().ToString() + "] 召唤酸雨。", CalamityUtils.ColorMessage("放射性怪物进一步印证了其名号并非空穴来风。", new Color(240, 230, 140)), () => true, null, null);
