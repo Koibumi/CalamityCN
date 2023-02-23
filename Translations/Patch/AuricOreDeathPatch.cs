@@ -78,7 +78,7 @@ namespace CalamityCN.Translations.Patch
                         AuricOre.Animate = true;
                         Vector2 vector = Vector2.Normalize(player.Center - Terraria.Utils.ToWorldCoordinates(point, 8f, 8f));
                         player.velocity += vector * num6;
-                        player.Hurt(PlayerDeathReason.ByCustomReason(player.name + "≤ª≈‰°£".zh()), num5, 0, false, false, false, -1);
+                        player.Hurt(PlayerDeathReason.ByCustomReason(player.name + "‰∏çÈÖç„ÄÇ".zh()), num5, 0, false, false, false, -1);
                         player.AddBuff(144, 300, true, false);
                         SoundStyle soundStyle = new SoundStyle("CalamityMod/Sounds/Custom/ExoMechs/TeslaShoot1", 0);
                         SoundEngine.PlaySound(in soundStyle, default(Vector2?));
