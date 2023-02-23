@@ -66,20 +66,20 @@ public class NPCGlobalTrans : GlobalNPC
             {
                 string[][] seahoeQuotes = new string[][]
                 {
-                new string[2]{ "Draedon's style of confrontation is very... alien and hands-off. You may be more likely to fight any one of his mechs before taking him down.",
+                new string[2]{ "Draedon isn't a frontline fighter; he is a scientist and inventor. He is unlikely to face you directly, and will likely have his creations confront you instead. Be prepared for anything that blasphemous machine could throw at you.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.1", Array.Empty<object>())},
-                new string[2]{ "Lord Yharim possesses god-like strength. He may not even fight you at full power which is fortunate for you. His attacks may just kill you in one hit, so be careful.",
+                new string[2]{ "The Golden Heretic, Yharim, possesses strength that may just surpass all of the Gods. When you face him, be well prepared for the battle of your life.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.2", Array.Empty<object>())},
-                new string[2]{ "Pockets of ore have appeared once more in the land. This will allow you to create the most powerful weaponry and armor imagined!",
+                new string[2]{ "Auric is near impossible to work with without being attuned to a Dragon or using the claimed soul of a Dragon to perform a \"mock\" attunement. However, if one can work with it truly powerful things can be created; enough so that using it in anything was deemed heretical by the Gods.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.3", Array.Empty<object>())},
                 new string[2]{ "Ah, the dragon Yharon is fickle. You may find that he will refuse to use his full power unless you are strong enough to unleash the power of the Dark Sun.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.4", Array.Empty<object>())},
 
-                new string[2]{ "The Devourer of Gods is extremely powerful. However, he is young, foolhardy, and very lazy. Perhaps if he had been given time to develop he would have turned into quite the threat.",
+                new string[2]{ "The Devourer of Gods is truly an enigma. Some say it's not even from this world at all. What is known is that he is a being that can devour the essence of Gods entirely, leaving absolutely nothing left. It's no wonder Yharim recruited that monster.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.5", Array.Empty<object>())},
                 new string[2]{ "With the cosmic steel you can fashion many of your weapons into much more powerful forms.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.6", Array.Empty<object>())},
-                new string[2]{ "The Devourer of God's cosmic armor is unique in that it is capable of not only protecting his body from tearing itself apart when ripping through the fabric of space and time, but also allows him to control his powers.",
+                new string[2]{ "The Devourer's armor was specially made by Draedon. Extremely flexible yet durable and massive, it may be one of his most impressive creations. I shudder to think of what unholy things he may be able to create now, if his research has not stopped.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.7", Array.Empty<object>())},
 
                 new string[2]{ "Ah...I can sense a powerful change in the weather. You may want to venture to the Sulphurous Seas once more during the rain to experience it.",
@@ -344,6 +344,10 @@ public class NPCGlobalTrans : GlobalNPC
             new string[2]{
                 "I must admit, the Witch's presence is unsettling to me. But so many years have passed, and she too has suffered much.",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.21", Array.Empty<object>())
+            },
+            new string[2]{
+                "My home may have been destroyed and my people lost... But I will assist you to honor their memory.",
+                LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.22", Array.Empty<object>())
             },
             
             //强盗
@@ -674,10 +678,6 @@ public class NPCGlobalTrans : GlobalNPC
             new string[2]{
                 "I have not seen such a sky in decades. Who are you, to so brazenly march against that Tyrant?",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.DILF.2", Array.Empty<object>())
-            },
-            new string[2]{
-                "The tundra’s unnatural state is not all my doing. Decades ago, I came across it and amplified the climate with my magic.",
-                LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.DILF.3", Array.Empty<object>())
             },
             new string[2]{
                 "If you have a request, make it quick. I am in the process of weaving a spell, which requires great focus.",

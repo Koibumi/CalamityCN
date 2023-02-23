@@ -1494,14 +1494,15 @@ CalamityCN: {
 			   19: "{0}问我，我的鼻子是否可以当呜呜祖拉。什么是呜呜祖拉？"
 			   20: "传言{0}为了忘记她过去的烦恼而喝酒。"
 			   21: 我承认，至尊女巫的存在让我很不安。但这么多年过去了，她也遭受了很多苦难。
+               22: My home may have been destroyed and my people lost... But I will assist you to honor their memory.
 				  Help: {
-				  1: 嘉登的战斗风格非常的……另类……他不在战斗中与你交手。你在打倒他之前，很可能要先与他的所有机械造物战斗。
-			      2: 亚利姆的力量已入鬼神之境。幸好，他甚至不会全力与你一战，但你仍要小心他的必死攻击。
-			      3: 在这片土地上又出现了新的矿脉。这次你将制造出你能想象的最强武器和装甲！
+				  1: Draedon isn't a frontline fighter; he is a scientist and inventor. He is unlikely to face you directly, and will likely have his creations confront you instead. Be prepared for anything that blasphemous machine could throw at you.
+			      2: The Golden Heretic, Yharim, possesses strength that may just surpass all of the Gods. When you face him, be well prepared for the battle of your life.
+			      3: Auric is near impossible to work with without being attuned to a Dragon or using the claimed soul of a Dragon to perform a "mock" attunement. However, if one can work with it truly powerful things can be created; enough so that using it in anything was deemed heretical by the Gods.
 			      4: 啊，丛林龙犽戎变化无常。你会发现，除非你有足够的力量释放日食的全部力量，否则他将拒绝使用他的全部力量。
-			      5: 神明吞噬者的力量远不止如此。然而，他年轻莽撞，懒惰成性。如果给他时间去发展，他也许会成为相当大的威胁。
+			      5: The Devourer of Gods is truly an enigma. Some say it's not even from this world at all. What is known is that he is a being that can devour the essence of Gods entirely, leaving absolutely nothing left. It's no wonder Yharim recruited that monster.
 			      6: 有了宇宙锭，你可以将许多武器改造得更为强大。
-			      7: 神明吞噬者的盔甲独一无二，不仅能够在撕裂时空时保护他自身不被撕裂，还能让他自如掌控他的力量。
+			      7: The Devourer's armor was specially made by Draedon. Extremely flexible yet durable and massive, it may be one of his most impressive creations. I shudder to think of what unholy things he may be able to create now, if his research has not stopped.
 			      8: 啊……我感觉到天气强烈变化。你不妨趁着雨天再去硫磺海看看会发生什么。
 			      9: 深渊中潜藏的诸多秘密，随着时间流逝而逐渐浮现出来。再去探索一次，也许会有新收获。
 			      10: 地牢现在似乎更活跃了。倘若你仔细聆听，你就能感受到残存的怨灵，在消散于虚无之前的微渺呼喊……我建议你在与神之仆从交战之前先去那里探索一下。
