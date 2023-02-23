@@ -206,6 +206,10 @@ namespace CalamityCN
                 {
                     return "灾厄：星流飞椅减速".zh();
                 }
+                if (keybindName == "CalamityMod: Dash Double Tap Override")
+                {
+                    return "灾厄：单击冲刺".zh();
+                }
                 if (keybindName == "InfernumMode: Wayfinder Create Key")
                 {
                     return "炼狱：魔法门创造键".zh();
