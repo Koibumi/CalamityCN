@@ -1,16 +1,6 @@
-按键
-Dash Double Tap Override
 
 Boss清单更改
 Kill a Tumor in the Corruption or use a [i:
-
-Cragmaw Mire
-Spawns during Acid Rain after the Aquatic Scourge has been defeated.
-Start Acid Rain with a [i:]
-The Cragmaw Mire buries itself within the sand.
-
-灾厄 -> 灾厄之影
-至尊灾厄 -> 至尊女巫，灾厄
 
 ItemDropRules
 IItemDropRuleCondition
@@ -52,77 +42,4 @@ He is not someone I have spoken to in a very long time.
 Is that such a surprise? He no longer required my services and I no longer needed his patronage. Many years ago now he withdrew himself to some secret hideaway. I suspect, to the grave of dragons he spoke of...
 Should you locate him, I'll await the news of either his or your death. Perhaps I will collect the cadaver.
 
-   "System.Void CalamityMod.NPCs.Polterghast.Polterghast::ModifyTypeName(System.String&)":
-  {
-    0: Necroghast
-    1: Necroplasm
-    2: Polterghast
-  }
-  
-  "System.Void CalamityMod.NPCs.Yharon.Yharon::ModifyTypeName(System.String&)":
-  {
-    0: Yharon, Resplendent Phoenix
-
-  "System.Void CalamityMod.NPCs.ExoMechs.Thanatos.ThanatosBody1::ModifyTypeName(System.String&)":
-  {
-    0: Spine of XB-∞ Hekate
-  }
-  "System.Void CalamityMod.NPCs.ExoMechs.Thanatos.ThanatosBody2::ModifyTypeName(System.String&)":
-  {
-    0: Spine of XB-∞ Hekate
-  }
-  "System.Void CalamityMod.NPCs.ExoMechs.Thanatos.ThanatosHead::ModifyTypeName(System.String&)":
-  {
-    0: Spine of XB-∞ Hekate
-  }
-   "System.Void CalamityMod.NPCs.ExoMechs.Thanatos.ThanatosTail::ModifyTypeName(System.String&)":
-  {
-    0: Spine of XB-∞ Hekate
-  }
-  "System.Void CalamityMod.NPCs.ExoMechs.Artemis.Artemis::ModifyTypeName(System.String&)":
-  {
-    0: Blazing Eye of XB-∞ Hekate
-  }
- 移除"System.Void CalamityMod.NPCs.ExoMechs.Artemis.Artemis::SetStaticDefaults()":
-  {
-    0: XS-01 Artemis
-  }
-  替换为System.Void CalamityMod.NPCs.ExoMechs.Artemis.Artemis::.cctor()":
-  {
-    6: XS-01 Artemis
-  }
-   "System.Void CalamityMod.NPCs.ExoMechs.Ares.AresBody::ModifyTypeName(System.String&)":
-  {
-    0: XB-∞ Hekate
-  }
-   "System.Void CalamityMod.NPCs.ExoMechs.Ares.AresGaussNuke::ModifyTypeName(System.String&)":
-  {
-    0: XB-∞ Hekate Gauss Nuke
-  }
-   "System.Void CalamityMod.NPCs.ExoMechs.Ares.AresLaserCannon::ModifyTypeName(System.String&)":
-  {
-    0: XB-∞ Hekate Laser Cannon
-  }
-   "System.Void CalamityMod.NPCs.ExoMechs.Ares.AresPlasmaFlamethrower::ModifyTypeName(System.String&)":
-  {
-    0: XB-∞ Hekate Plasma Flamethrower
-  }
-   "System.Void CalamityMod.NPCs.ExoMechs.Ares.AresTeslaCannon::ModifyTypeName(System.String&)":
-  {
-    0: XB-∞ Hekate Tesla Cannon
-  }
-   移除"System.Void CalamityMod.NPCs.ExoMechs.Apollo.Apollo::SetStaticDefaults()":
-  {
-    0: XS-03 Apollo
-  }
- 替换为 "System.Void CalamityMod.NPCs.ExoMechs.Apollo.Apollo::.cctor()":
-  {
-    0: XS-03 Apollo
-    1: CalamityMod/Sounds/Custom/ExoMechs/ApolloMissileLaunch
-  }
-   "System.Void CalamityMod.NPCs.ExoMechs.Apollo.Apollo::ModifyTypeName(System.String&)":
-  {
-    0: Corrosive Eye of XB-∞ Hekate
-  }
-
-NPC图鉴
+npc图鉴
