@@ -1,115 +1,115 @@
 Mods: {
 	CalamityModMusic: {
 		ItemName: {
-			AbyssLayer2MusicBox: Music Box (Abyss - Layer 2)
-			AbyssLayer3MusicBox: Music Box (Abyss - Layer 3)
-			AbyssLayer4MusicBox: Music Box (Abyss - Layer 4)
-			AcidRainTier1MusicBox: Music Box (Acid Rain - Tiers 1 and 2)
-			AcidRainTier3MusicBox: Music Box (Acid Rain - Tier 3)
-			AdultEidolonWyrmMusicBox: Music Box (Adult Eidolon Wyrm)
-			AnahitaMusicBox: Music Box (Anahita)
-			AnahitasLureMusicBox: Music Box (Anahita's Lure)
-			AquaticScourgeMusicBox: Music Box (Aquatic Scourge)
-			AstralInfectionMusicBox: Music Box (Astral Infection)
-			AstralInfectionUndergroundMusicBox: Music Box (Underground Astral Infection)
-			AstrumAureusMusicBox: Music Box (Astrum Aureus)
-			AstrumDeusMusicBox: Music Box (Astrum Deus)
-			BioLabMusicBox: Music Box (Bio Lab)
-			BossRushTier1MusicBox: Music Box (Boss Rush - Tier 1)
-			BossRushTier2MusicBox: Music Box (Boss Rush - Tier 2)
-			BossRushTier3MusicBox: Music Box (Boss Rush - Tier 3)
-			BossRushTier4MusicBox: Music Box (Boss Rush - Tier 4)
-			BossRushTier5MusicBox: Music Box (Boss Rush - Tier 5)
-			BrimstoneCragsMusicBox: Music Box (Brimstone Crags)
-			BrimstoneElementalMusicBox: Music Box (Brimstone Elemental)
-			CalamitasCloneMusicBox: Music Box (Calamitas Clone)
-			CalamitasDefeatMusicBox: Music Box (Calamitas - Defeat)
-			CalamitasPhase1MusicBox: Music Box (Calamitas - Phase 1)
-			CalamitasPhase2MusicBox: Music Box (Calamitas - Phase 2)
-			CalamitasPhase3MusicBox: Music Box (Calamitas - Phase 3)
-			CalamityTitleMusicBox: Music Box (Calamity Title)
-			CeaselessVoidMusicBox: Music Box (Ceaseless Void)
-			CrabulonMusicBox: Music Box (Crabulon)
-			CryogenMusicBox: Music Box (Cryogen)
-			DesertScourgeMusicBox: Music Box (Desert Scourge)
-			DevourerofGodsPhase1MusicBox: Music Box (Devourer of Gods - Phase 1)
-			DevourerofGodsPhase2MusicBox: Music Box (Devourer of Gods - Phase 2)
-			DragonfollyMusicBox: Music Box (Dragonfolly)
-			ExoMechsMusicBox: Music Box (Exo Mechs)
-			HiveMindMusicBox: Music Box (Hive Mind)
-			LeviathanMusicBox: Music Box (Leviathan)
-			OldDukeMusicBox: Music Box (Old Duke)
-			PerforatorsMusicBox: Music Box (Perforators)
-			PlaguebringerGoliathMusicBox: Music Box (Plaguebringer Goliath)
-			PolterghastMusicBox: Music Box (Polterghast)
-			ProfanedGuardiansMusicBox: Music Box (Profaned Guardians)
-			ProvidenceMusicBox: Music Box (Providence)
-			RavagerMusicBox: Music Box (Ravager)
-			SignusMusicBox: Music Box (Signus)
-			SlimeGodMusicBox: Music Box (Slime God)
-			StormWeaverMusicBox: Music Box (Storm Weaver)
-			SulphurousSeaDayMusicBox: Music Box (Sulphurous Sea Day)
-			SulphurousSeaNightMusicBox: Music Box (Sulphurous Sea Night)
-			SunkenSeaMusicBox: Music Box (Sunken Sea)
-			YharonLegacyMusicBox: Music Box (Yharon - Legacy)
-			YharonPhase1MusicBox: Music Box (Yharon - Phase 1)
-			YharonPhase2MusicBox: Music Box (Yharon - Phase 2)
+			AbyssLayer2MusicBox: 音乐盒（浅层深渊）
+			AbyssLayer3MusicBox: 音乐盒（深层深渊）
+			AbyssLayer4MusicBox: 音乐盒（虚空）
+			AcidRainTier1MusicBox: 音乐盒（酸性暴雨）
+			AcidRainTier3MusicBox: 音乐盒（硫酸季风）
+			AdultEidolonWyrmMusicBox: 音乐盒（成年幻海妖龙）
+			AnahitaMusicBox: 音乐盒（阿娜希塔）
+			AnahitasLureMusicBox: 音乐盒（阿娜希塔，诱饵）
+			AquaticScourgeMusicBox: 音乐盒（渊海灾虫）
+			AstralInfectionMusicBox: 音乐盒（星辉瘟疫）
+			AstralInfectionUndergroundMusicBox: 音乐盒（地下星辉瘟疫）
+			AstrumAureusMusicBox: 音乐盒（白金星舰）
+			AstrumDeusMusicBox: 音乐盒（星神游龙）
+			BioLabMusicBox: 音乐盒（群系实验室）
+			BossRushTier1MusicBox: 音乐盒（Boss Rush第一阶段）
+			BossRushTier2MusicBox: 音乐盒（Boss Rush第二阶段）
+			BossRushTier3MusicBox: 音乐盒（Boss Rush第三阶段）
+			BossRushTier4MusicBox: 音乐盒（Boss Rush第四阶段）
+			BossRushTier5MusicBox: 音乐盒（Boss Rush第五阶段）
+			BrimstoneCragsMusicBox: 音乐盒（硫火之崖）
+			BrimstoneElementalMusicBox: 音乐盒（硫磺火元素）
+			CalamitasCloneMusicBox: 音乐盒（灾厄之影）
+			CalamitasDefeatMusicBox: 音乐盒（至尊灾厄第四部分（接受））
+			CalamitasPhase1MusicBox: 音乐盒（至尊灾厄第一部分（哀伤））
+			CalamitasPhase2MusicBox: 音乐盒（至尊灾厄第二部分（哀叹））
+			CalamitasPhase3MusicBox: 音乐盒（至尊灾厄第三部分（醒悟））
+			CalamityTitleMusicBox: 音乐盒（灾厄主题曲，残酷世界之传说）
+			CeaselessVoidMusicBox: 音乐盒（无尽虚空）
+			CrabulonMusicBox: 音乐盒（菌生蟹）
+			CryogenMusicBox: 音乐盒（极地之灵）
+			DesertScourgeMusicBox: 音乐盒（荒漠灾虫）
+			DevourerofGodsPhase1MusicBox: 音乐盒（神明吞噬者一阶段）
+			DevourerofGodsPhase2MusicBox: 音乐盒（神明吞噬者二阶段）
+			DragonfollyMusicBox: 音乐盒（痴愚金龙）
+			ExoMechsMusicBox: 音乐盒（星流巨械）
+			HiveMindMusicBox: 音乐盒（腐巢意志）
+			LeviathanMusicBox: 音乐盒（利维坦）
+			OldDukeMusicBox: 音乐盒（硫海遗爵）
+			PerforatorsMusicBox: 音乐盒（血肉宿主）
+			PlaguebringerGoliathMusicBox: 音乐盒（瘟疫使者歌莉娅）
+			PolterghastMusicBox: 音乐盒（噬魂幽花）
+			ProfanedGuardiansMusicBox: 音乐盒（亵渎守卫）
+			ProvidenceMusicBox: 音乐盒（亵渎天神）
+			RavagerMusicBox: 音乐盒（毁灭魔像）
+			SignusMusicBox: 音乐盒（神之使徒西格纳斯）
+			SlimeGodMusicBox: 音乐盒（史莱姆之神）
+			StormWeaverMusicBox: 音乐盒（风暴编织者）
+			SulphurousSeaDayMusicBox: 音乐盒（硫磺海白天）
+			SulphurousSeaNightMusicBox: 音乐盒（硫磺海黑夜）
+			SunkenSeaMusicBox: 音乐盒（沉沦之海）
+			YharonLegacyMusicBox: 音乐盒（犽戎，巨龙重生）
+			YharonPhase1MusicBox: 音乐盒（犽戎，阶段一）
+			YharonPhase2MusicBox: 音乐盒（犽戎，阶段二）
 		}
 		ItemTooltip:
 		{
-			AbyssLayer2MusicBox: Plays 'Hadopelagic Pressure' by DM DOKURO
-			AbyssLayer3MusicBox: Plays 'R'LYEH' by RoverdriveX
-			AbyssLayer4MusicBox: Plays 'void' by DM DOKURO
-			AcidRainTier1MusicBox: Plays 'corrosion!' by RoverdriveX
-			AcidRainTier3MusicBox: Plays 'nuclear monsoon' by PinpinNeon
-			AdultEidolonWyrmMusicBox: Plays 'Threats of the Ocean Floor' by DM DOKURO
-			AnahitaMusicBox: Plays 'Siren's War Cry' by DM DOKURO
-			AnahitasLureMusicBox: Plays 'Siren's Call' by DM DOKURO
-			AquaticScourgeMusicBox: Plays 'Outcast of the Sulphurous Seas' by DM DOKURO
-			AstralInfectionMusicBox: Plays 'The Heaven-Sent Abomination' by DM DOKURO
-			AstralInfectionUndergroundMusicBox: Plays 'Treasures Within the Abomination' by DM DOKURO
-			AstrumAureusMusicBox: Plays 'Interstellar Stomper' by DM DOKURO
-			AstrumDeusMusicBox: Plays 'Pest of the Cosmos' by DM DOKURO
-			BioLabMusicBox: Plays 'Engineer's Sanctum' by Heart Plus Up!
-			BossRushTier1MusicBox: Plays 'Ensemble of Fools' by CDMusic
-			BossRushTier2MusicBox: Plays 'Onslaught of Beasts' by CDMusic
-			BossRushTier3MusicBox: Plays 'Reign of Lords' by CDMusic
+			AbyssLayer2MusicBox: 播放 'Hadopelagic Pressure' 作者： DM DOKURO
+			AbyssLayer3MusicBox: 播放 'R'LYEH' 作者： RoverdriveX
+			AbyssLayer4MusicBox: 播放 'void' 作者： DM DOKURO
+			AcidRainTier1MusicBox: 播放 'corrosion!' 作者： RoverdriveX
+			AcidRainTier3MusicBox: 播放 'nuclear monsoon' 作者： PinpinNeon
+			AdultEidolonWyrmMusicBox: 播放 'Threats of the Ocean Floor' 作者： DM DOKURO
+			AnahitaMusicBox: 播放 'Siren's War Cry' 作者： DM DOKURO
+			AnahitasLureMusicBox: 播放 'Siren's Call' 作者： DM DOKURO
+			AquaticScourgeMusicBox: 播放 'Outcast of the Sulphurous Seas' 作者： DM DOKURO
+			AstralInfectionMusicBox: 播放 'The Heaven-Sent Abomination' 作者： DM DOKURO
+			AstralInfectionUndergroundMusicBox: 播放 'Treasures Within the Abomination' 作者： DM DOKURO
+			AstrumAureusMusicBox: 播放 'Interstellar Stomper' 作者： DM DOKURO
+			AstrumDeusMusicBox: 播放 'Pest of the Cosmos' 作者： DM DOKURO
+			BioLabMusicBox: 播放 'Engineer's Sanctum' 作者： Heart Plus Up!
+			BossRushTier1MusicBox: 播放 'Ensemble of Fools' 作者： CDMusic
+			BossRushTier2MusicBox: 播放 'Onslaught of Beasts' 作者： CDMusic
+			BossRushTier3MusicBox: 播放 'Reign of Lords' 作者： CDMusic
 			BossRushTier4MusicBox: This music box is unfinished and does not work
 			BossRushTier5MusicBox: This music box is unfinished and does not work
-			BrimstoneCragsMusicBox: Plays 'The Step Below Hell' by DM DOKURO
-			BrimstoneElementalMusicBox: Plays 'Left Alone' by DM DOKURO
-			CalamitasCloneMusicBox: Plays 'Raw, Unfiltered Calamity' by DM DOKURO
-			CalamitasDefeatMusicBox: Plays 'Stained, Brutal Calamity (Acceptance)' by DM DOKURO
-			CalamitasPhase1MusicBox: Plays 'Stained, Brutal Calamity (Grief)' by DM DOKURO
-			CalamitasPhase2MusicBox: Plays 'Stained, Brutal Calamity (Lament)' by DM DOKURO
-			CalamitasPhase3MusicBox: Plays 'Stained, Brutal Calamity (Epiphany)' by DM DOKURO
-			CalamityTitleMusicBox: Plays 'The Tale of a Cruel World' by DM DOKURO
-			CeaselessVoidMusicBox: Plays 'Servants of the Scourge (Type V)' by DM DOKURO
-			CrabulonMusicBox: Plays 'Infestation' by DM DOKURO
-			CryogenMusicBox: Plays 'Antarctic Reinforcement' by DM DOKURO
-			DesertScourgeMusicBox: Plays 'Guardian of the Former Seas' by DM DOKURO
-			DevourerofGodsPhase1MusicBox: Plays 'Scourge of the Universe' by DM DOKURO
-			DevourerofGodsPhase2MusicBox: Plays 'Universal Collapse' by DM DOKURO
-			DragonfollyMusicBox: Plays 'Murderswarm' by DM DOKURO
-			ExoMechsMusicBox: Plays 'Inferior Fabrications' by PinpinNeon
-			HiveMindMusicBox: Plays 'The Filthy Mind' by DM DOKURO and SixteenInMono
-			LeviathanMusicBox: Plays 'Forbidden Lullaby' by DM DOKURO
-			OldDukeMusicBox: Plays 'Toxic Wisdom' by DM DOKURO
-			PerforatorsMusicBox: Plays 'Blood Coagulant' by DM DOKURO and SixteenInMono
-			PlaguebringerGoliathMusicBox: Plays 'Fly of Beelzebub' by DM DOKURO
-			PolterghastMusicBox: Plays 'Feral Amalgamation' by DM DOKURO
-			ProfanedGuardiansMusicBox: Plays 'Unholy Ambush' by DM DOKURO
-			ProvidenceMusicBox: Plays 'Unholy Insurgency' by DM DOKURO
-			RavagerMusicBox: Plays 'Open Frenzy' by DM DOKURO
-			SignusMusicBox: Plays 'Servants of the Scourge (Type S)' by DM DOKURO
-			SlimeGodMusicBox: Plays 'Return to Slime' by DM DOKURO and SixteenInMono
-			StormWeaverMusicBox: Plays 'Servants of the Scourge (Type W)' by DM DOKURO
-			SulphurousSeaDayMusicBox: Plays 'wasteland' by DM DOKURO
-			SulphurousSeaNightMusicBox: Plays 'caustic tides' by Heart Plus Up!
-			SunkenSeaMusicBox: Plays 'sanctuary' by DM DOKURO
-			YharonLegacyMusicBox: Plays 'Infernal Catharsis' by DM DOKURO
-			YharonPhase1MusicBox: Plays 'Infernal Catharsis (Rebirth)' by DM DOKURO
-			YharonPhase2MusicBox: Plays 'Roar of the Jungle Dragon' by DM DOKURO
+			BrimstoneCragsMusicBox: 播放 'The Step Below Hell' 作者： DM DOKURO
+			BrimstoneElementalMusicBox: 播放 'Left Alone' 作者： DM DOKURO
+			CalamitasCloneMusicBox: 播放 'Raw, Unfiltered Calamity' 作者： DM DOKURO
+			CalamitasDefeatMusicBox: 播放 'Stained, Brutal Calamity (Acceptance)' 作者： DM DOKURO
+			CalamitasPhase1MusicBox: 播放 'Stained, Brutal Calamity (Grief)' 作者： DM DOKURO
+			CalamitasPhase2MusicBox: 播放 'Stained, Brutal Calamity (Lament)' 作者： DM DOKURO
+			CalamitasPhase3MusicBox: 播放 'Stained, Brutal Calamity (Epiphany)' 作者： DM DOKURO
+			CalamityTitleMusicBox: 播放 'The Tale of a Cruel World' 作者： DM DOKURO
+			CeaselessVoidMusicBox: 播放 'Servants of the Scourge (Type V)' 作者： DM DOKURO
+			CrabulonMusicBox: 播放 'Infestation' 作者： DM DOKURO
+			CryogenMusicBox: 播放 'Antarctic Reinforcement' 作者： DM DOKURO
+			DesertScourgeMusicBox: 播放 'Guardian of the Former Seas' 作者： DM DOKURO
+			DevourerofGodsPhase1MusicBox: 播放 'Scourge of the Universe' 作者： DM DOKURO
+			DevourerofGodsPhase2MusicBox: 播放 'Universal Collapse' 作者： DM DOKURO
+			DragonfollyMusicBox: 播放 'Murderswarm' 作者： DM DOKURO
+			ExoMechsMusicBox: 播放 'Inferior Fabrications' 作者： PinpinNeon
+			HiveMindMusicBox: 播放 'The Filthy Mind' 作者： DM DOKURO and SixteenInMono
+			LeviathanMusicBox: 播放 'Forbidden Lullaby' 作者： DM DOKURO
+			OldDukeMusicBox: 播放 'Toxic Wisdom' 作者： DM DOKURO
+			PerforatorsMusicBox: 播放 'Blood Coagulant' 作者： DM DOKURO and SixteenInMono
+			PlaguebringerGoliathMusicBox: 播放 'Fly of Beelzebub' 作者： DM DOKURO
+			PolterghastMusicBox: 播放 'Feral Amalgamation' 作者： DM DOKURO
+			ProfanedGuardiansMusicBox: 播放 'Unholy Ambush' 作者： DM DOKURO
+			ProvidenceMusicBox: 播放 'Unholy Insurgency' 作者： DM DOKURO
+			RavagerMusicBox: 播放 'Open Frenzy' 作者： DM DOKURO
+			SignusMusicBox: 播放 'Servants of the Scourge (Type S)' 作者： DM DOKURO
+			SlimeGodMusicBox: 播放 'Return to Slime' 作者： DM DOKURO and SixteenInMono
+			StormWeaverMusicBox: 播放 'Servants of the Scourge (Type W)' 作者： DM DOKURO
+			SulphurousSeaDayMusicBox: 播放 'wasteland' 作者： DM DOKURO
+			SulphurousSeaNightMusicBox: 播放 'caustic tides' 作者： Heart Plus Up!
+			SunkenSeaMusicBox: 播放 'sanctuary' 作者： DM DOKURO
+			YharonLegacyMusicBox: 播放 'Infernal Catharsis' 作者： DM DOKURO
+			YharonPhase1MusicBox: 播放 'Infernal Catharsis (Rebirth)' 作者： DM DOKURO
+			YharonPhase2MusicBox: 播放 'Roar of the Jungle Dragon' 作者： DM DOKURO
 		}
 	}
 }
