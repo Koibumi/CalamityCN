@@ -933,7 +933,7 @@ namespace CalamityCN
                 {"Swordsplosion", "爆破剑".zh()},
                 {"TeardropCleaver", "泪刃".zh()},
                 {"TerraLance", "泰拉长枪".zh()},
-                {"Terratomere", "泰拉巨刃".zh()},
+                {"Terratomere", "泰拉阔剑".zh()},
                 {"TerrorBlade", "惊惧魂刃".zh()},
                 {"TheBurningSky", "焚灭天惩".zh()},
                 {"TheEnforcer", "暴政".zh()},
