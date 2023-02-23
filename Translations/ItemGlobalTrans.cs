@@ -719,18 +719,22 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Andromeda's Stride", "仙女之跃".zh());
                     line.Text = line.Text.Replace("Capricorn's Blessing", "摩羯之祈".zh());
                     line.Text = line.Text.Replace("Cancer's Blessing", "巨蟹之礼".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to swing Galaxia around you, accelerating over time. The swirling nebula constantly emits homing cosmic bolts", "回旋挥舞银河，随时间加速。旋转的星云将持续释放银河之雷".zh());
-                    line.Text = line.Text.Replace("Releasing the attack button hurls the sword towards your cursor alongside a burst of 6 gigantic cosmic bolts. The sword then quickly returns to your hand", "释放回旋斩时停止攻击，把剑伴随六个巨型银河之雷向前掷出。它会在这之后快速回归手中".zh());
-                    line.Text = line.Text.Replace("Throw Galaxia to your cursor, holding it in place with constellations. Galaxia follows your cursor, rapidly spinning to shred enemies", "将银河掷向鼠标，以群星将其拉住。银河将跟随鼠标移动，快速旋转，粉碎敌怪".zh());
+                    line.Text = line.Text.Replace("Hold left click to swing Galaxia around you, accelerating over time", "回旋挥舞银河，随时间加速".zh());
+                    line.Text = line.Text.Replace("The swirling nebula constantly emits homing cosmic bolts", "旋转的星云将持续释放银河之雷".zh());
+                    line.Text = line.Text.Replace("Release left click to hurl Galaxia toward the cursor alongside 6 gigantic cosmic bolts", "释放回旋斩时停止攻击，把剑伴随六个巨型银河之雷向前掷出".zh());
+                    line.Text = line.Text.Replace("Throw Galaxia to your cursor, holding it in place with constellations", "将银河掷向鼠标，以群星将其拉住".zh());
+                    line.Text = line.Text.Replace("Galaxia follows your cursor, rapidly spinning to shred enemies", "银河将跟随鼠标移动，快速旋转，粉碎敌怪".zh());
                     line.Text = line.Text.Replace("Striking enemies causes nebulous explosions which spawn homing cosmic bolts", "击中敌人引发星云爆破，释放银河之雷".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to channel the Northern Star's power into a tight vortex of galactic energies, bound by concentric rings of stars.", "引导北极星之力，化为星环簇拥的星系能量漩涡".zh());
+                    line.Text = line.Text.Replace("Hold left click to channel Galaxia's power into a tight vortex of galactic energies", "引导北极星之力，化为星环簇拥的星系能量漩涡".zh());
                     line.Text = line.Text.Replace("The vortex powers up over time and when hitting enemies", "随着时间流逝或击中敌怪，漩涡将逐渐成长".zh());
-                    line.Text = line.Text.Replace("Release the attack button to fire off the charged star. Attacking again immediately thereafter dashes to the star, emitting a nova of cosmic bolts", "停止攻击将释放北极星向前飞跃。此时立即再次攻击，你将追随北极星的步伐高速冲刺，并化身超新星爆发，四散银河之雷".zh());
-                    line.Text = line.Text.Replace("Hold the attack button to charge a god-erasing lunge, release to unleash the devastating blow. Galaxia emits cosmic bolts while charging", "按住攻击，为抹杀神明的冲锋蓄力，松开以释放这一毁灭性打击".zh());
-                    line.Text = line.Text.Replace("Striking the earth with the lunge will cause a massive impact which summons an apocalyptic storm of cosmic energies", "撞击地面使得寰宇崩塌，时空撕裂，末世风暴般的宇宙能量轰鸣而至".zh());
+                    line.Text = line.Text.Replace("Release left click to fire off the charged star in straight line", "停止攻击将释放北极星向前飞跃".zh());
+                    line.Text = line.Text.Replace(" Press left click again immediately to dash towards the star and release cosmic bolts", "此时立即再次攻击，你将追随北极星的步伐高速冲刺，并化身超新星爆发，四散银河之雷".zh());
+                    line.Text = line.Text.Replace("Hold left click to charge a god-erasing lunge, release to unleash the devastating blow", "按住攻击，为抹杀神明的冲锋蓄力，松开以释放这一毁灭性打击".zh());
+                    line.Text = line.Text.Replace("Galaxia emits cosmic bolts while charging", "银河在蓄力时会释放银河之雷".zh());
+                    line.Text = line.Text.Replace("Lunging into the ground will cause a shockwave which summons a storm of cosmic energies", "撞击地面使得寰宇崩塌，时空撕裂，末世风暴般的宇宙能量轰鸣而至".zh());
                     line.Text = line.Text.Replace("Periodically releases a ring of weakening stars around your cursor when attacking", "攻击时，在光标处召唤能削弱敌怪的星环".zh());
                     line.Text = line.Text.Replace("The ring is repelled away from you at first, before slowing down over time", "星环会离你而去，逐渐变慢".zh());
-                    line.Text = line.Text.Replace("Periodically releases a ring of lifestealing stars around yourself when attacking", "在身旁召唤吸取敌怪生命的星环".zh());
+                    line.Text = line.Text.Replace("Periodically releases a ring of lifestealing stars around yourself when attacking", "攻击时，在身旁召唤吸取敌怪生命的星环".zh());
                     line.Text = line.Text.Replace("The ring is attracted towards you at first, before slowing down over time", "星环会朝你飞去，逐渐变慢".zh());
                 }
                 if (item.type == ModContent.ItemType<FracturedArk>())
