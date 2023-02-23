@@ -12,8 +12,8 @@ namespace CalamityCN
     {
         public override void OnEnterWorld(Player player)
         {
-            Color c = Color.Orange;
-            Main.NewText("额外备注：灾厄更新后天蓝矿的生成由地下转为在空岛中生成。", c);
+            Color Orange = Color.Orange;
+            Main.NewText("额外备注：灾厄更新后天蓝矿的生成由地下转为在空岛中生成。", Orange);
         }
     }
 }
