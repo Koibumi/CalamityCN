@@ -435,47 +435,320 @@ ItemTooltip:
 
 	MapObject:
 	{
-		Navystone: 沉沦渊石
-		AerialiteOre: 天蓝矿
-		AstralOre: 炫星矿
-		AuricOre: 圣金源矿
-		ChaoticOre: 熔渣矿
-		CharredOre: 焦炭矿
-		CryonicOre: 寒元矿
-		ExodiumClusterOre: 起源之簇
-		HallowedOre: 神圣矿
-		PerennialOre: 永恒矿
-		UelibloomOre: 龙蒿矿
-		PlantyMush: 植物混融块
-		SeaPrismCrystals: 棱晶碎片
-		SeaPrism: 海棱晶
-		Tenebris: 黑渊石
-		EutrophicSand: 富营养沙
-		ViperVines: 蝰蛇藤蔓
-		SulphurousColumn: 硫海石柱
-		SulphurousVines: 硫海藤蔓
-
 		AstralPylonTile: "{$Mods.CalamityMod.ItemName.AstralPylon}"
 		CragsPylonTile: "{$Mods.CalamityMod.ItemName.CragsPylon}"
 		SulphurPylonTile: "{$Mods.CalamityMod.ItemName.SulphurPylon}"
 		SunkenPylonTile: "{$Mods.CalamityMod.ItemName.SunkenPylon}"
-
-		AncientAltar: 远古祭坛
-		AshenAltar: 灰烬祭坛
-		BotanicPlanter: 植物培养器
-		CosmicAnvil: 星宇砧
-		DraedonsForge: 嘉登熔炉
-		EutrophicShelf: 富养制造架
-		MonolithAmalgam: 星幻柱综合体
-		PlagueInfuser: 瘟疫灌注器
-		ProfanedCrucible: 亵渎坩埚
-		SilvaBasin:	闪耀操纵机
-		StaticRefiner: 静电精炼机
-		VoidCondenser: 虚空压缩机
-		CodebreakerTile: 密码破译器基站
-		PowerCellFactory: 能源电池工厂
-		ChargingStation: 充能站
-		WulfrumLure: 钨钢干扰器
+        AbyssalCrateTile: 深渊匣
+        AbyssalPots: 罐子
+        AcidWoodTreeSapling: MapObject.Sapling
+        LumenylCrystals: Lumenyl
+        PlantyMush: 植物混融块
+        RustyChestTile: Rusty 箱
+        SulphurousStalacmite1: Stalacmite
+        SulphurousStalacmite2: Stalacmite
+        SulphurousStalacmite3: Stalacmite
+        SulphurousStalacmite4: Stalacmite
+        SulphurousStalacmite5: Stalacmite
+        SulphurousStalacmite6: Stalacmite
+        SulphurousStalactite1: Stalactite
+        SulphurousStalactite2: Stalactite
+        SulphurousStalactite3: Stalactite
+        SulphurousStalactite4: Stalactite
+        SulphurousStalactite5: Stalactite
+        SulphurousStalactite6: Stalactite
+        SteamGeyser: Geyser
+        SulphuricFossil1: Fossil
+        SulphuricFossil2: Fossil
+        SulphuricFossil3: Fossil
+        SulphurousColumn: 硫海石柱
+        SulphurousPots: Pot
+        SulphurousRib1: Ribs
+        SulphurousRib2: Ribs
+        SulphurousRib3: Ribs
+        SulphurousRib4: Ribs
+        SulphurousRib5: Ribs
+        SulphurousVines: 硫海藤蔓
+        Tenebris: Tenebris
+        ViperVines: 蝰蛇藤蔓
+        ArenaTile: 战斗场地
+        AstralBeacon: 星辉星标
+        chestAstral: 星辉箱
+        chestAstral_Locked: 上锁的星辉箱
+        AstralCrateTile: 星辉匣
+        AstralTreeSapling: MapObject.Sapling
+        NovaeSlag: Novae Slag
+        AstralPalmSapling: MapObject.Sapling
+        CelestialRemains: Celestial Remains
+        AstralSnowTreeSapling: MapObject.Sapling
+        BrimstoneCrateTile: 硫火匣
+        AgedLaboratoryConsole: 老旧控制台
+        AgedLaboratoryContainmentBox: 老旧实验室密封箱
+        AgedLaboratoryDisplay: 老旧展柜
+        AgedLaboratoryDoorClosed: 老旧实验室门
+        AgedLaboratoryDoorOpen: 老旧实验室门
+        AgedLaboratoryElectricPanel: 老旧配电盘
+        AgedLaboratoryScreen: 老旧荧幕
+        AgedLaboratoryServer: 老旧服务器
+        AgedLaboratoryTerminal: 老旧终端机
+        AgedReinforcedCrate: 老旧板条箱
+        AgedSecurityChestTile: 老旧安全箱
+        ChargingStation: 充能站
+        DraedonLabTurret: Lab Turret
+        InactivePowerCellFactory: 未激活能源电池工厂
+        LabHologramProjector: Lab Hologram Projector
+        LaboratoryConsole: Console
+        LaboratoryContainmentBox: 实验室密封箱
+        LaboratoryDisplay: 展柜
+        LaboratoryDoorClosed: 实验室门
+        LaboratoryDoorOpen: 实验室门
+        LaboratoryElectricPanel: 配电盘
+        LaboratoryScreen: 荧幕
+        LaboratoryServer: 服务器
+        LaboratoryTerminal: 终端机
+        PowerCellFactory: 能源电池工厂
+        ReinforcedCrate: 板条箱
+        SecurityChestTile: 安全箱
+        CodebreakerTile: 密码破译器基站
+        AuricToiletTile: 圣金源马桶
+        BabyFlakCrabCageTile: Baby Flak Crab Cage
+        BabyGhostBellJarTile: Baby Ghost Bell Jar
+        BlueCandle: 失重蜡烛
+        BossTrophy: 纪念章
+        ChaosCandle: 混乱蜡烛
+        CorruptionEffigy: 腐化雕塑
+        AncientAltar: 远古祭坛
+        AshenAltar: 灰烬祭坛
+        BotanicPlanter: 植物培养器
+        CosmicAnvil: 星宇砧
+        DraedonsForge: 嘉登熔炉
+        EutrophicShelf: 富养制造架
+        MonolithAmalgam: 星幻柱综合体
+        PlagueInfuser: 瘟疫灌注器
+        ProfanedCrucible: 亵渎坩埚
+        SCalAltar: 祭坛
+        SilvaBasin: 闪耀操纵机
+        StaticRefiner: 静电精炼机
+        VoidCondenser: 虚空压缩机
+        CrimsonEffigy: Crimson Effigy
+        ThankYouPaintingTile: Thank You画
+        EffigyOfDecayPlaceable: Effigy of Decay
+        PiggyCageTile: Piggy Cage
+        PinkCandle: 活力蜡烛
+        PurpleCandle: 恢复蜡烛
+        SeaMinnowJarTile: Sea Minnow Jar
+        TranquilityCandle: 宁静蜡烛
+        TwinklerInABottleTile: Twinkler in a Bottle
+        WulfrumLure: 钨钢干扰器
+        YellowCandle: 恶念蜡烛
+        AbyssBathtub: 浴缸
+        AbyssBed: 床
+        AbyssBookcase: 书架
+        AbyssCandelabra: 烛台
+        AbyssCandle: 蜡烛
+        AbyssChest: 深渊箱
+        AbyssClock: 座钟
+        AbyssDresser: 深渊梳妆台
+        AbyssSynth: 深渊钢琴
+        AbyssTorch: 火把
+        AbyssWorkBench: 工作台
+        AcidwoodBathTile: 浴缸
+        AcidwoodBedTile: 床
+        AcidwoodBookcaseTile: 书架
+        AcidwoodCandelabraTile: 烛台
+        AcidwoodCandleTile: 蜡烛
+        AcidwoodChestTile: 酸腐木箱
+        AcidwoodClockTile: 座钟
+        AcidwoodDresserTile: 酸腐木梳妆台
+        AcidwoodPianoTile: 钢琴
+        AcidwoodWorkBenchTile: 工作台
+        AncientBasin: 远古火盆
+        AncientBathtub: 浴缸
+        AncientBed: 床
+        AncientBookcase: 书架
+        AncientDresser: 远古梳妆台
+        AncientMonolith: 远古石柱
+        AncientPipeOrgan: 远古钢琴
+        AncientWorkBench: 工作台
+        AshenBasin: 灰烬火盆
+        AshenBathtub: 浴缸
+        AshenBed: 床
+        AshenBookcase: 书架
+        AshenCandelabra: 烛台
+        AshenCandle: 蜡烛
+        AshenChest: 灰烬箱
+        AshenChest_Locked: 上锁的灰烬箱
+        AshenDresser: 灰烬梳妆台
+        AshenMonolith: 灰烬柱
+        AshenPipeOrgan: 灰烬钢琴
+        AshenWorkBench: 工作台
+        BotanicBathtub: 浴缸
+        BotanicBed: 床
+        BotanicBookcase: 书架
+        BotanicCandelabra: 烛台
+        BotanicCandle: 蜡烛
+        BotanicChest: 植物箱
+        BotanicClock: 座钟
+        BotanicDresser: 植物梳妆台
+        BotanicPiano: 钢琴
+        BotanicWorkBench: 工作台
+        CosmiliteBasinTile: 宇宙火盆
+        CosmiliteBathtub: 浴缸
+        CosmiliteBed: 床
+        CosmiliteBookcase: 书架
+        CosmiliteCandelabra: 烛台
+        CosmiliteCandle: 蜡烛
+        CosmiliteChest: 宇宙箱
+        CosmiliteClock: 座钟
+        CosmiliteDresser: 宇宙钟梳妆台
+        CosmilitePiano: 钢琴
+        CosmiliteSconce: 宇宙壁灯
+        CosmiliteWorkBench: 工作台
+        EutrophicBathtub: 浴缸
+        EutrophicBed: 床
+        EutrophicBookcase: 书架
+        EutrophicCandelabra: 烛台
+        EutrophicCandle: 蜡烛
+        EutrophicChest: 富养箱
+        EutrophicClock: 座钟
+        EutrophicDresser: 富养梳妆台
+        EutrophicPiano: 钢琴
+        EutrophicWorkBench: 工作台
+        ExoBathtubTile: 浴缸
+        ExoBedTile: 床
+        ExoBookcaseTile: 书架
+        ExoCandelabraTile: 烛台
+        ExoCandleTile: 蜡烛
+        ExoChestTile: 星流箱
+        ExoClockTile: 座钟
+        ExoConsoleTile: 星流控制台
+        ExoDisplayTile: 星流展柜
+        ExoDoorClosed: 星流门
+        ExoDoorOpen: 星流门
+        ExoDresserTile: 星流梳妆台
+        ExoKeyboardTile: 星流键盘
+        ExoScreenTile: 星流荧幕
+        ExoServerTile: S星流服务器
+        ExoTerminalTile: 星流终端机
+        ExoToiletTile: 星流马桶
+        ExoWorkbenchTile: 工作台
+        MonolithBathtub: 浴缸
+        MonolithBed: 床
+        MonolithBookcase: 书架
+        MonolithCandelabra: 烛台
+        MonolithCandle: 蜡烛
+        MonolithChest: 星石箱
+        MonolithClock: 座钟
+        MonolithDresser: 星石梳妆台
+        MonolithPiano: 钢琴
+        MonolithWorkBench: 工作台
+        OtherworldlyBathtub: 浴缸
+        OtherworldlyBed: 床
+        OtherworldlyBookcase: 书架
+        OtherworldlyCandelabra: 烛台
+        OtherworldlyCandle: 蜡烛
+        OtherworldlyChest: 异域箱
+        OtherworldlyClock: 座钟
+        OtherworldlyDresser: 异域梳妆台
+        OtherworldlyPiano: 钢琴
+        OtherworldlyWorkBench: 工作台
+        PlaguedPlateBasin: 瘟疫“床”
+        PlaguedPlateBathtub: 浴缸
+        PlaguedPlateBed: “床”
+        PlaguedPlateBookcase: 书架
+        PlaguedPlateCandelabra: 烛台
+        PlaguedPlateCandle: 蜡烛
+        PlaguedPlateChest: 瘟疫箱
+        PlaguedPlateClock: 座钟
+        PlaguedPlateDresser: 瘟疫梳妆台
+        PlaguedPlatePiano: 钢琴
+        PlaguedPlateWorkbench: 工作台
+        ProfanedBath: 浴缸
+        ProfanedBed: 床
+        ProfanedBookcase: 书架
+        ProfanedCandelabra: 烛台
+        ProfanedCandle: 蜡烛
+        ProfanedChest: 亵渎箱
+        ProfanedClock: 座钟
+        ProfanedDresser: 亵渎梳妆台
+        ProfanedPiano: 钢琴
+        ProfanedWorkbench: 工作台
+        MonolithOfTheAccursedTile: 诅咒石柱
+        SacrilegiousBathtubTile: 浴缸
+        SacrilegiousBedTile: 床
+        SacrilegiousBookcaseTile: 书架
+        SacrilegiousCandelabraTile: 烛台
+        SacrilegiousCandleTile: 蜡烛
+        SacrilegiousChestTile: 渎圣箱
+        SacrilegiousClockTile: 座钟
+        SacrilegiousDresserTile: 渎圣梳妆台
+        SacrilegiousOrganTile: 钢琴
+        SacrilegiousWorkBenchTile: 工作台
+        SilvaBathtub: 浴缸
+        SilvaBed: 床
+        SilvaBookcase: 书架
+        SilvaCandelabra: 烛台
+        SilvaCandle: 蜡烛
+        SilvaChest: 始源林海箱
+        SilvaClock: 座钟
+        SilvaDresser: 始源林海梳妆台
+        SilvaPiano: 钢琴
+        SilvaWorkBench: 工作台
+        StatigelBath: 浴缸
+        StatigelBed: 床
+        StatigelBookcase: 书架
+        StatigelCandelabra: 烛台
+        StatigelCandle: 蜡烛
+        StatigelChest: 斯塔提斯箱
+        StatigelClock: 座钟
+        StatigelDresser: 斯塔提斯梳妆台
+        StatigelPiano: 钢琴
+        StatigelWorkbench: 工作台
+        StratusBathtub: 浴缸
+        StratusBed: 床
+        StratusBookcase: 书架
+        StratusCandelabra: 烛台
+        StratusCandle: 蜡烛
+        StratusChest: 幻云箱
+        StratusClock: 座钟
+        StratusDresser: 幻云梳妆台
+        StratusPiano: 钢琴
+        StratusWorkbench: 工作台
+        VoidBath: 浴缸
+        VoidBed: 床
+        VoidBookcase: 书架
+        VoidCandelabra: 烛台
+        VoidCandle: 蜡烛
+        VoidChest: 虚空箱
+        VoidClock: 虚空钟
+        VoidDresser: 虚空梳妆台
+        VoidPiano: 钢琴
+        VoidWorkbench: 工作台
+        DraedonsAmbienceMusicBoxTile: 音乐盒
+        AerialiteOre: 天蓝矿
+        AerialiteOreDisenchanted: 未注魔的天蓝矿
+        AstralOre: 炫星矿
+        AuricOre: 圣金源矿
+        ScoriaOre: 熔渣矿
+        InfernalSuevite: 地狱角砾岩
+		CryonicOre: 寒元矿
+        ExodiumOre: 起源之簇
+		HallowedOre: 神圣矿
+        PerennialOre: 永恒矿
+		UelibloomOre: 龙蒿矿
+        RoxTile: Roxcalibur
+        BrainCoral: Brain Coral
+        EutrophicSand: 富营养沙
+        FanCoral: Fan Coral
+        Navystone: 沉沦渊石
+        SeaAnemone: Sea Anemone
+        SeaPrism: 海棱晶
+        SeaPrismCrystals: 棱晶碎片
+        SmallBrainCoral: Small Brain Coral
+        SmallTubeCoral: Small Tube Coral
+        SunkenCrateTile: Sunken Crate
+        TableCoral: Table Coral
+        TubeCoral: Tube Coral
 	}
 
 	ProjectileName:
@@ -1466,12 +1739,12 @@ ItemTooltip:
       EmesisGore: 腐败血迹
       EnhancedNanoRoundProj: 注魔纳米弹
       EssenceFire: 火焰
-      ExoCrystalArrow: Exo Crystal
+      ExoCrystalArrow: 星流Crystal
       ExoFire: 星流火焰
       ExoFlare: 星流烈焰
       ExoFlareCluster: 星流聚焰
-      ExoLight: Exo Light
-      ExoLightningBolt: Exo Teratesla Lightningbolt
+      ExoLight: 星流Light
+      ExoLightningBolt: 星流Teratesla Lightningbolt
       ExoSpark: 神圣花火
       FallenStarProj: 陨星
       FeatherLarge: 羽毛
@@ -1976,8 +2249,8 @@ ItemTooltip:
       AtlasMunitionsAutocannonHeld: Atlas Munitions Autocannon
       AtlasMunitionsDropPod: Drop Pod
       AtlasMunitionsDropPodUpper: Drop Pod Cover
-      AtlasMunitionsLaser: Exo Pulse Laser
-      AtlasMunitionsLaserOverdrive: Exo Pulse Laser
+      AtlasMunitionsLaser: 星流Pulse Laser
+      AtlasMunitionsLaserOverdrive: 星流Pulse Laser
       AureusBomber: 白金星舰
       BabyBloodCrawler: 幼年血蛭
       BabyPlaguebringer: 幼年疫病使者
@@ -2369,7 +2642,7 @@ ItemTooltip:
       UnstableSpark: 脉冲星
       VanquisherArrowSplit: 湮灭箭
       VerstaltiteBobber: 极寒浮漂
-      VoidFieldGenerator: Void Field Generator
+      VoidFieldGenerator: 虚空Field Generator
       WaterConvertor: 净水器
       WulfrumBobber: 钨钢浮漂
       WulfrumDiggingTurtleProjectile: 掘地机械龟

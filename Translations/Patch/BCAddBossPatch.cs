@@ -202,7 +202,7 @@ namespace CalamityCN.Translations.Patch
 			}, "CalamityMod/NPCs/AquaticScourge/AquaticScourgeHead_Head_Boss");
 
 			Func<bool> downed75 = () => DownedBossSystem.downedCragmawMire;
-			AddMiniBoss(bossChecklist, calamity, "Cragmaw Mire", 10.0f, ModContent.NPCType<CragmawMire>(), downed75, null, null, "Spawns during Acid Rain after the Aquatic Scourge has been defeated.\nStart Acid Rain with a [i:" + ModContent.ItemType<CausticTear>().ToString() + "]", CalamityUtils.ColorMessage("The Cragmaw Mire buries itself within the sand.", new Color(240, 230, 140)), () => true, null, null);
+			AddMiniBoss(bossChecklist, calamity, "峭咽潭", 10.0f, ModContent.NPCType<CragmawMire>(), downed75, null, null, "击败渊海灾虫后的酸雨事件自然生成。\n使用 [i:" + ModContent.ItemType<CausticTear>().ToString() + "] 召唤酸雨", CalamityUtils.ColorMessage("峭咽潭埋进了沙子里。", new Color(240, 230, 140)), () => true, null, null);
 
 			string name8 = "硫磺火元素";
 			float difficulty8 = 10.5f;

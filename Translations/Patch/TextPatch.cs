@@ -19,33 +19,16 @@ using CalamityMod.NPCs.Bumblebirb;
 using CalamityMod.NPCs.ProfanedGuardians;
 using CalamityCN.Utils;
 using CalamityMod.Items.LoreItems;
-using Terraria.ModLoader;
-using CalamityMod.Tiles.Ores;
-using CalamityMod.Tiles.Abyss.AbyssAmbient;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using CalamityMod.Buffs.DamageOverTime;
-using Terraria.DataStructures;
-using Terraria.Audio;
 
 namespace CalamityCN.Translations.Patch {
     public class TextPatch {
         private static List<ILHook> ILHooksT;
-        private static Hook temp_AuricOreDeath;
-
         public static void Load() {
-            MethodBase auric = typeof(CalamityPlayer).GetMethod("HandleTileEffects", BindingFlags.NonPublic | BindingFlags.Instance);
-            temp_AuricOreDeath = new Hook(auric, HandleTileEffects);
-            if (temp_AuricOreDeath is not null)
-                temp_AuricOreDeath.Apply();
-
             ILHooksT = new List<ILHook>();
             //武器提示
             QuickTranslate(typeof(ExoskeletonPanel), "PreDraw", "Insufficient minion slots!", "召唤栏位不足！");
             //世界加载
-            string[][] WMS = new string[][]
-            {
+            string[][] WMS = new string[][] {
                 new string[2]{"Corrupting a floating island", "正在邪恶化一处空岛"},
                 new string[2]{"Partially flooding an overblown desert", "正在淹没部分沙漠"},
                 new string[2]{"Building a bigger jungle temple", "正在创建更大的丛林神庙"},
@@ -61,7 +44,8 @@ namespace CalamityCN.Translations.Patch {
 
             };
             foreach (string[] il in WMS) {
-                if (!il[1].Equals("")) {
+                if (!il[1].Equals(""))
+                {
                     QuickTranslate(typeof(WorldgenManagementSystem), "ModifyWorldGenTasks", il[0], il[1]);
                 }
             }
@@ -77,8 +61,7 @@ namespace CalamityCN.Translations.Patch {
             QuickTranslate(typeof(CalamityPlayer), "KillPlayer", " failed the challenge at hand.", "没能逃脱命运之手的操控。");
             QuickTranslate(typeof(CalamityPlayer), "UpdateBadLifeRegen", "'s flesh was dissolved by sulphuric water.", "的血肉被硫磺海水溶解了。");
 
-            string[][] CPPK = new string[][]
-            {
+            string[][] CPPK = new string[][] {
             new string[2]{" downed too many shots.", "喝的太多了。"},
             new string[2]{"'s liver failed.", "的肝衰竭了。"},
             new string[2]{" was charred by the brimstone inferno.", "被硫磺烈焰烧焦了。"},
@@ -108,7 +91,8 @@ namespace CalamityCN.Translations.Patch {
             new string[2]{" disintegrated from the overpowering exotic resonance.", "与星流能量共振而塌缩了。"}
             };
             foreach (string[] il in CPPK) {
-                if (!il[1].Equals("")) {
+                if (!il[1].Equals(""))
+                {
                     QuickTranslate(typeof(CalamityPlayer), "PreKill", il[0], il[1]);
                 }
             }
@@ -277,26 +261,27 @@ namespace CalamityCN.Translations.Patch {
 
             //QuickTranslate(typeof(), "", "", "");
 
-            foreach (ILHook hook in ILHooksT) {
+            foreach (ILHook hook in ILHooksT)
+            {
                 if (hook is not null)
                     hook.Apply();
             }
         }
-        public static void Unload() {
-            foreach (ILHook hook in ILHooksT) {
-                if (hook is not null)
-                    hook.Dispose();
+            public static void Unload()
+            {
+                foreach (ILHook hook in ILHooksT)
+                {
+                    if (hook is not null)
+                        hook.Dispose();
+                }
+                ILHooksT = null;
             }
-            ILHooksT = null;
-            if (temp_AuricOreDeath is not null) {
-                temp_AuricOreDeath.Dispose();
-                temp_AuricOreDeath = null;
-            }
-        }
-        private static void QuickTranslate(Type type, string methodName, string origin, string trans) {
+        private static void QuickTranslate(Type type, string methodName, string origin, string trans)
+        {
             ILHooksT.Add(new ILHook(
             type.GetCachedMethod(methodName),
-            new ILContext.Manipulator(il => {
+            new ILContext.Manipulator(il =>
+            {
                 var cursor = new ILCursor(il);
                 if (!cursor.TryGotoNext(i => i.MatchLdstr(origin)))
                     return;
@@ -304,46 +289,5 @@ namespace CalamityCN.Translations.Patch {
                 cursor.EmitDelegate<Func<string, string>>((eng) => trans);
             })));
         }
-
-        private delegate void HandleTileEffects_tr(CalamityPlayer calPlayer);
-        private static void HandleTileEffects(HandleTileEffects_tr orig, CalamityPlayer calPlayer) {
-            Player player = calPlayer.Player;
-            int num = ModContent.TileType<AstralOre>();
-            int num2 = ModContent.TileType<AuricOre>();
-            int num3 = ModContent.TileType<ScoriaOre>();
-            int num4 = ModContent.TileType<AbyssKelp>();
-            int num5 = 300;
-            float num6 = player.noKnockback ? 20f : 40f;
-            foreach (Point point in Collision.GetEntityEdgeTiles(player, true, true, true, true)) {
-                Tile tile = Main.tile[point];
-                if (tile.HasTile && tile.HasUnactuatedTile) {
-                    if (tile.TileType == num4) {
-                        if (player.velocity.Length() == 0f) {
-                            break;
-                        }
-                        Dust dust = Main.dust[Dust.NewDust(player.Center, 16, 16, DustID.Firefly, 0.23255825f, 10f, 0, new Color(117, 55, 15), 1.5116279f)];
-                        dust.noGravity = true;
-                        dust.noLight = true;
-                        dust.fadeIn = 2.5813954f;
-                    }
-                    if (tile.TileType == num) {
-                        player.AddBuff(ModContent.BuffType<AstralInfectionDebuff>(), 2, true, false);
-                    }
-                    if (tile.TileType == num3 && !player.fireWalk) {
-                        player.AddBuff(67, 2, true, false);
-                    } else if (tile.TileType == num2 && !calPlayer.auricSet) {
-                        player.RemoveAllGrapplingHooks();
-                        AuricOre.Animate = true;
-                        Vector2 vector = Vector2.Normalize(player.Center - Terraria.Utils.ToWorldCoordinates(point, 8f, 8f));
-                        player.velocity += vector * num6;
-                        player.Hurt(PlayerDeathReason.ByCustomReason(player.name + "不配。".zh()), num5, 0, false, false, false, -1);
-                        player.AddBuff(144, 300, true, false);
-                        SoundStyle soundStyle = new SoundStyle("CalamityMod/Sounds/Custom/ExoMechs/TeslaShoot1", 0);
-                        SoundEngine.PlaySound(in soundStyle, default(Vector2?));
-                    }
-                }
-            }
-        }
-
     }
 }

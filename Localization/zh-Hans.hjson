@@ -1373,6 +1373,25 @@ CalamityCN: {
 		 }
 
 		 NPCs: {
+            Name: {
+                Yharon: Yharon, Resplendent Phoenix（犽戎, 璀璨不死鸟）
+                Hekate: {
+                0: Corrosive Eye of XB-∞ Hekate
+                1: XB-∞ Hekate
+                2: XB-∞ Hekate Gauss Nuke
+                3: XB-∞ Hekate Laser Cannon
+                4: XB-∞ Hekate Plasma Flamethrower
+                5: XB-∞ Hekate Tesla Cannon
+                6: Spine of XB-∞ Hekate
+                7: Blazing Eye of XB-∞ Hekate
+                }
+                Polterghast: {
+                0: Necroghast
+                1: Necroplasm
+                2: Polterghast
+                }
+            }
+
 		    Dialogues: {
 		       FAP: {
 			   1: 我在几英里外闻到我的伏特加味！

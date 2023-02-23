@@ -1,7 +1,13 @@
 ﻿using CalamityCN;
 using CalamityCN.Utils;
 using CalamityMod;
+using CalamityMod.NPCs.ExoMechs.Apollo;
+using CalamityMod.NPCs.ExoMechs.Ares;
+using CalamityMod.NPCs.ExoMechs.Artemis;
+using CalamityMod.NPCs.ExoMechs.Thanatos;
+using CalamityMod.NPCs.Polterghast;
 using CalamityMod.NPCs.TownNPCs;
+using CalamityMod.NPCs.Yharon;
 using System;
 using Terraria;
 using Terraria.ModLoader;
@@ -11,6 +17,76 @@ public class NPCGlobalTrans : GlobalNPC
     public override bool IsLoadingEnabled(Mod mod)
     {
         return ModsCall.IsCN && ModsCall.Calamity != null;
+    }
+
+    public override void ModifyTypeName(NPC npc, ref string typeName)
+    {
+        if (npc.type == ModContent.NPCType<Yharon>())
+        {
+            typeName = typeName.Replace("Yharon, Resplendent Phoenix", LangHelper.GetText("CalamityMod.NPCs.Name.Yharon"));
+        }
+        if (npc.type == ModContent.NPCType<Apollo>())
+        {
+            typeName = typeName.Replace("Corrosive Eye of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.0"));
+        }
+        if (npc.type == ModContent.NPCType<AresBody>())
+        {
+            typeName = typeName.Replace("XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.1"));
+        }
+        if (npc.type == ModContent.NPCType<AresGaussNuke>())
+        {
+            typeName = typeName.Replace("XB-∞ Hekate Gauss Nuke", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.2"));
+        }
+        if (npc.type == ModContent.NPCType<AresLaserCannon>())
+        {
+            typeName = typeName.Replace("XB-∞ Hekate Laser Cannon", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.3"));
+        }
+        if (npc.type == ModContent.NPCType<AresPlasmaFlamethrower>())
+        {
+            typeName = typeName.Replace("XB-∞ Hekate Plasma Flamethrower", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.4"));
+        }
+        if (npc.type == ModContent.NPCType<AresTeslaCannon>())
+        {
+            typeName = typeName.Replace("XB-∞ Hekate Tesla Cannon", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.5"));
+        }
+        if (npc.type == ModContent.NPCType<ThanatosBody1>())
+        {
+            typeName = typeName.Replace("Spine of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.6"));
+        }
+        if (npc.type == ModContent.NPCType<ThanatosBody2>())
+        {
+            typeName = typeName.Replace("Spine of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.6"));
+        }
+        if (npc.type == ModContent.NPCType<ThanatosHead>())
+        {
+            typeName = typeName.Replace("Spine of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.6"));
+        }
+        if (npc.type == ModContent.NPCType<ThanatosTail>())
+        {
+            typeName = typeName.Replace("Spine of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.6"));
+        }
+        if (npc.type == ModContent.NPCType<Artemis>())
+        {
+            typeName = typeName.Replace("Blazing Eye of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.7"));
+        }
+        if (npc.type == ModContent.NPCType<Polterghast>())
+        {
+            typeName = typeName.Replace("Necroghast", LangHelper.GetText("CalamityMod.NPCs.Name.Polterghast.0"));
+        }
+        if (npc.type == ModContent.NPCType<Polterghast>())
+        {
+            typeName = typeName.Replace("Necroplasm", LangHelper.GetText("CalamityMod.NPCs.Name.Polterghast.1"));
+        }
+        if (npc.type == ModContent.NPCType<Polterghast>())
+        {
+            typeName = typeName.Replace("Polterghast", LangHelper.GetText("CalamityMod.NPCs.Name.Polterghast.2"));
+        }
+        /*
+        if (npc.type == ModContent.NPCType<>())
+        {
+            typeName = typeName.Replace("", LangHelper.GetText("CalamityMod.NPCs.Name."));
+        }
+        */
     }
     public override void OnChatButtonClicked(NPC npc, bool firstButton)
     {
