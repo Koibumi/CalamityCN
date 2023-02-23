@@ -479,7 +479,7 @@ namespace CalamityCN.Translations.Patch
 			AddMiniBoss(bossChecklist, calamity, "渊海狂鲨", 20.1f, ModContent.NPCType<Mauler>(), downed221, null, null, "在噬魂幽花被击败后的酸雨期间生成。\n使用 [i: " + ModContent.ItemType<CausticTear>().ToString() + "] 召唤酸雨。", CalamityUtils.ColorMessage("那条极其饥饿的鲨鱼撕碎了所有人的尸体。", new Color(240, 230, 140)), () => true, null, null);
 
 			Func<bool> downed222 = () => DownedBossSystem.downedNuclearTerror;
-			AddMiniBoss(bossChecklist, calamity, "辐核骇兽", 20.2f, ModContent.NPCType<NuclearTerror>(), downed222, null, null, "在噬魂幽花被击败的在酸雨期间生成。\n使用 [i:" + ModContent.ItemType<CausticTear>().ToString() + "] 召唤酸雨。", CalamityUtils.ColorMessage("放射性怪物进一步印证了它的名字。", new Color(240, 230, 140)), () => true, null, null);
+			AddMiniBoss(bossChecklist, calamity, "辐核骇兽", 20.2f, ModContent.NPCType<NuclearTerror>(), downed222, null, null, "在噬魂幽花被击败的在酸雨期间生成。\n使用 [i:" + ModContent.ItemType<CausticTear>().ToString() + "] 召唤酸雨。", CalamityUtils.ColorMessage("放射性怪物进一步印证了其名号并非空穴来风。", new Color(240, 230, 140)), () => true, null, null);
 
 			AddBoss(bossChecklist, calamity, name22, difficulty22, list30, downed22, summon21, list31, "杀死30只幻魂或在地牢使用 [i:" + ModContent.ItemType<NecroplasmicBeacon>().ToString() + "] 召唤", CalamityUtils.ColorMessage("飘渺不定的幽魂恶兽消失在地牢深处……", new Color(176, 224, 230)), () => true, null, null);
 			string name23 = "硫海遗爵";
