@@ -27,6 +27,8 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using CalamityMod.Items.Placeables.Furniture.CraftingStations;
 using CalamityMod.Items.Placeables.Walls;
+using CalamityCN.Utils;
+using System;
 
 public class ItemGlobalTrans : GlobalItem
 {
@@ -460,7 +462,18 @@ public class ItemGlobalTrans : GlobalItem
     {
             foreach (TooltipLine line in tooltips)
             {
-                if (item.type == ModContent.ItemType<Eternity>())
+            //图鉴掉落提示
+            ItemHelper.TranslateTooltip(item, tooltips, "BestiaryNotes", delegate (TooltipLine tooltip)
+            {
+                line.Text = line.Text.Replace("This is a Revengeance Mode drop rate", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.1", Array.Empty<object>()));
+
+                line.Text = line.Text.Replace("Drops after defeating King Slime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.1", Array.Empty<object>()));
+
+                //测试，明天再补剩下的
+                //line.Text = line.Text.Replace("", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.", Array.Empty<object>()));
+            });
+
+            if (item.type == ModContent.ItemType<Eternity>())
                 {
                     line.Text = line.Text.Replace("There's pictures of ponies in the book", "书内有张小马图片".zh());
                 }
