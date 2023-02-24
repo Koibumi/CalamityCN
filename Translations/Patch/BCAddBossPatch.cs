@@ -134,7 +134,7 @@ namespace CalamityCN.Translations.Patch
 				ModContent.ItemType<RottingEyeball>(),
 				ModContent.ItemType<ThankYouPainting>()
 			};
-			AddBoss(bossChecklist, calamity, name3, difficulty3, npcType2, downed3, summon3, list4, "杀死刷新在腐化之地的腐化囊或在腐化之地使用 [i:" + ModContent.ItemType<Teratoma>().ToString() + "] 召唤", CalamityUtils.ColorMessage("腐化之源开始搜寻下一处繁衍之所……", new Color(148, 0, 211)), () => true, null, "CalamityMod/NPCs/HiveMind/HiveMindP2_Head_Boss");
+			AddBoss(bossChecklist, calamity, name3, difficulty3, npcType2, downed3, summon3, list4, "杀死刷新在腐化之地的腐化肿瘤或在腐化之地使用 [i:" + ModContent.ItemType<Teratoma>().ToString() + "] 召唤", CalamityUtils.ColorMessage("腐化之源开始搜寻下一处繁衍之所……", new Color(148, 0, 211)), () => true, null, "CalamityMod/NPCs/HiveMind/HiveMindP2_Head_Boss");
 			string name4 = "血肉宿主";
 			float difficulty4 = 3.99f;
 			int npcType3 = ModContent.NPCType<PerforatorHive>();

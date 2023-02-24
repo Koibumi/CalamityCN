@@ -43,3 +43,10 @@ Is that such a surprise? He no longer required my services and I no longer neede
 Should you locate him, I'll await the news of either his or your death. Perhaps I will collect the cadaver.
 
 npc图鉴
+
+
+System.Void CalamityMod.NPCs.Providence.ProvUtils::ApplyHitEffects(Terraria.Player,System.Int32,System.Int32,System.Int32)":
+0: " burst into sinless ash."
+
+HiveCyst -> HiveTumor
+腐化肿瘤

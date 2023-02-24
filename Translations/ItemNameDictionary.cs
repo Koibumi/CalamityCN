@@ -686,7 +686,7 @@ namespace CalamityCN
                 {"RavagerBag", "宝藏袋（毁灭魔像）".zh()},
                 {"SlimeGodBag", "宝藏袋（史莱姆之神）".zh()},
                 {"StarterBag", "新手礼包".zh()},
-                {"YharonBag", "宝藏袋（丛林龙，犽戎）".zh()},
+                {"YharonBag", "宝藏袋（犽戎）".zh()},
                 {"AbyssalTome", "深渊之书".zh()},
                 {"AbyssShocker", "深渊电击者".zh()},
                 {"AlphaRay", "阿尔法射线".zh()},
@@ -1683,7 +1683,7 @@ namespace CalamityCN
                 {"SignusRelic", "神之使徒，西格纳斯圣物".zh()},
                 {"SlimeGodRelic", "史莱姆之神圣物".zh()},
                 {"StormWeaverRelic", "风暴编织者圣物".zh()},
-                {"YharonRelic", "丛林龙，犽戎圣物".zh()},
+                {"YharonRelic", "犽戎圣物".zh()},
                 //家具
                 {"AbyssBed", "深渊床".zh()},
                 {"AbyssBookcase", "深渊书架".zh()},
