@@ -1,4 +1,6 @@
 
+击败统御守卫时会弹出debug信息
+
 Boss清单更改
 Kill a Tumor in the Corruption or use a [i:
 
