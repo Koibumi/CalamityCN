@@ -1375,10 +1375,23 @@ CalamityCN: {
          BestiaryNotes: {
             Boss: {
             1: 击败史莱姆王后掉落
-
+            2: 只在第一次击杀掉落
+            3: Drops on the first kill of the final Mechanical Boss
+            4: Drops once you have defeated both Draedon and Calamitas
+            5: 
+            '''
+            Drops if Providence was summoned in the Hallow
+            or if Providence is only attacked during nighttime
+            '''
+            6: 
+            '''
+            Drops if Providence was summoned in the Underworld
+            or if Providence is only attacked during nighttime
+            '''
+            7: Drops if Providence is only attacked during nighttime
             }
             Other: {
-            1: 这是复仇模式下掉率
+            1: 这是复仇模式下的掉落率
 
             }
          }

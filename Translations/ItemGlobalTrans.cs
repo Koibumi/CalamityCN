@@ -466,6 +466,12 @@ public class ItemGlobalTrans : GlobalItem
             ItemHelper.TranslateTooltip(item, tooltips, "BestiaryNotes", delegate (TooltipLine tooltip)
             {
                 line.Text = line.Text.Replace("This is a Revengeance Mode drop rate", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.1", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops only on the first kill", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.2", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops on the first kill of the final Mechanical Boss", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.3", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops once you have defeated both Draedon and Calamitas", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.4", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops if Providence was summoned in the Hallow\nor if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.5", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops if Providence was summoned in the Underworld\nor if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.6", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.7", Array.Empty<object>()));
 
                 line.Text = line.Text.Replace("Drops after defeating King Slime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.1", Array.Empty<object>()));
 
