@@ -1615,7 +1615,7 @@ namespace CalamityCN
                 { "Havocfish", "它的角将诅咒触碰任何它的人\n右击提取它的精华".zh() },
                 { "WhiteSeekingMechanism", "指向寒霜洞穴的实验室".zh() },
                 { "AbyssShellFossil", "一种史前生物的化石，被遗忘在深渊的深处\n召唤一只幻海灵蜗宠物跟着你\n装备后小幅度削减深渊生物的探测能力".zh() },
-                { "OnyxSeekingMechanism", "指向洞穴中的实验室".zh() },
+                { "OnyxSeekingMechanism", "指向洞穴的实验室".zh() },
                 { "ThiefsDime", "曾经一文不值的财宝，现在是见证窃贼之间的友情的遗物\n召唤金制硬币照亮你的道路并收集附近的钱币\n在深渊中提供少量光照".zh() },
                 { "AstralGrassSeeds", "在星幻土块上种植星辉草".zh() },
                 { "AndroombaBanner", "{$CommonItemTooltip.BannerBonus}仙女座扫除机".zh() },

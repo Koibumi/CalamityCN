@@ -1566,7 +1566,7 @@ namespace CalamityCN
                 {"ProfanedFlameDye", "渎神圣火染料".zh()},
                 {"SlimeGodDye", "史莱姆之神染料".zh()},
                 {"SwirlingCosmicFlameDye", "宙宇潆焰染料".zh()},
-                {"CyanSeekingMechanism", "海蓝色定位仪".zh()},
+                {"CyanSeekingMechanism", "青色定位仪".zh()},
                 {"GreenSeekingMechanism", "绿色定位仪".zh()},
                 {"MysteriousMechanism", "实验室定位仪".zh()},
                 {"OnyxSeekingMechanism", "玛瑙定位仪".zh()},
