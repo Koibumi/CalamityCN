@@ -299,7 +299,7 @@ namespace CalamityCN
                 { "Androomba", "仙女座扫除机".zh() },
                 { "AndroombaFriendly", "仙女座扫除机老友".zh() },
                 { "ProfanedRocks", "亵渎岩".zh() },
-                { "Sulflounder", "硫酸比目鱼".zh() },
+                { "Sulflounder", "硫磺比目鱼".zh() },
                 { "Toxicatfish", "剧毒鲶鱼".zh() },
             };
         }

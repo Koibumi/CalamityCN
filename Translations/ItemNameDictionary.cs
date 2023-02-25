@@ -2318,7 +2318,7 @@ namespace CalamityCN
                 { "AstralGrassSeeds", "星辉草种子".zh() },
                 { "AndroombaBanner", "仙女座扫除机旗".zh() },
                 { "RepairUnitBanner", "修复机器人旗".zh() },
-                { "SulflounderBanner", "硫酸比目鱼旗".zh() },
+                { "SulflounderBanner", "硫磺比目鱼旗".zh() },
                 { "ToxicatfishBanner", "剧毒鲶鱼旗".zh() },
                 { "BrimstoneSlab", "硫火石板".zh() },
                 { "CinderBlossomSeeds", "烬英种子".zh() },

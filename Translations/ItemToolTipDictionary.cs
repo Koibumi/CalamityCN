@@ -1619,7 +1619,7 @@ namespace CalamityCN
                 { "AstralGrassSeeds", "在星幻土块上种植星辉草".zh() },
                 { "AndroombaBanner", "{$CommonItemTooltip.BannerBonus}仙女座扫除机".zh() },
                 { "RepairUnitBanner", "{$CommonItemTooltip.BannerBonus}修复机器人".zh() },
-                { "SulflounderBanner", "{$CommonItemTooltip.BannerBonus}硫酸比目鱼".zh() },
+                { "SulflounderBanner", "{$CommonItemTooltip.BannerBonus}硫磺比目鱼".zh() },
                 { "ToxicatfishBanner", "{$CommonItemTooltip.BannerBonus}剧毒鲶鱼".zh() },
                 { "CinderBlossomSeeds", "在焦灼遗骸上种植烬英草".zh() },
                 { "AlgalPrismTorch", "可放置于水中".zh() },
