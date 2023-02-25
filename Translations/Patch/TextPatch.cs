@@ -2,9 +2,6 @@ using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
-using System.Reflection;
-using CalamityMod.Projectiles.Melee;
-using CalamityMod.Projectiles.Summon;
 using CalamityMod.Systems;
 using CalamityMod.NPCs.TownNPCs;
 using CalamityMod.CalPlayer;
@@ -19,6 +16,7 @@ using CalamityMod.NPCs.Bumblebirb;
 using CalamityMod.NPCs.ProfanedGuardians;
 using CalamityCN.Utils;
 using CalamityMod.Items.LoreItems;
+using CalamityMod.NPCs.Providence;
 
 namespace CalamityCN.Translations.Patch {
     public class TextPatch {
@@ -101,6 +99,8 @@ namespace CalamityCN.Translations.Patch {
             QuickTranslate(typeof(BloodBoiler), "Shoot", " was unable to obtain a blood transfusion.", "没能及时完成输血。");
             QuickTranslate(typeof(AstralInjection), "OnConsumeItem", "'s blood vessels burst from drug overdose.", "的血管由于药物过量爆裂了。");
             QuickTranslate(typeof(ThornBlossom), "Shoot", " was violently pricked by a flower.", "被花上的刺扎死了。");
+            QuickTranslate(typeof(ProvUtils), "ApplyHitEffects", " burst into sinless ash.", "化为无罪的灰烬。");
+
             //进入世界
             QuickTranslate(typeof(CalamityPlayer), "OnEnterWorld", " [c/EE4939:Note: The Fandom wiki is no longer supported by Calamity.] ", " [c/EE4939:备注：灾厄已不再支持Fandom Wiki。] ");
             QuickTranslate(typeof(CalamityPlayer), "OnEnterWorld", " [c/EE4939:Check out the Official Calamity Mod Wiki at ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] ", " [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:soammer.com][c/EE4939:!] ");
@@ -114,7 +114,6 @@ namespace CalamityCN.Translations.Patch {
             QuickTranslate(typeof(DivineBless), "get_DisplayName", "Divine Bless Cooldown", "神圣祝福冷却");
             QuickTranslate(typeof(DivingPlatesBreaking), "get_DisplayName", "Abyssal Diving Suit Plates Durability", "深渊潜游服耐久");
             QuickTranslate(typeof(DivingPlatesBroken), "get_DisplayName", "Abyssal Diving Suit Broken Plates", "深渊潜游服外壳破损");
-            //QuickTranslate(typeof(CalamityMod.Cooldowns.DraconicElixir), "get_DisplayName", "Draconic Surge Cooldown", "龙魂加持冷却");
             QuickTranslate(typeof(EvasionScarf), "get_DisplayName", "Scarf Cooldown", "围巾冷却");
             QuickTranslate(typeof(FleshTotem), "get_DisplayName", "Contact Damage Halving Cooldown", "接触伤害减半冷却");
             QuickTranslate(typeof(GlobalDodge), "get_DisplayName", "Dodge Cooldown", "闪避冷却");

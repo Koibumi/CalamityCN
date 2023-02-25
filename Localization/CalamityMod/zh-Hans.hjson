@@ -547,7 +547,7 @@ ItemTooltip:
         AbyssCandelabra: 烛台
         AbyssCandle: 蜡烛
         AbyssChest: 深渊箱
-        AbyssClock: 座钟
+        AbyssClock: 落地大摆钟
         AbyssDresser: 深渊梳妆台
         AbyssSynth: 深渊钢琴
         AbyssTorch: 火把
@@ -558,7 +558,7 @@ ItemTooltip:
         AcidwoodCandelabraTile: 烛台
         AcidwoodCandleTile: 蜡烛
         AcidwoodChestTile: 酸腐木箱
-        AcidwoodClockTile: 座钟
+        AcidwoodClockTile: 落地大摆钟
         AcidwoodDresserTile: 酸腐木梳妆台
         AcidwoodPianoTile: 钢琴
         AcidwoodWorkBenchTile: 工作台
@@ -588,7 +588,7 @@ ItemTooltip:
         BotanicCandelabra: 烛台
         BotanicCandle: 蜡烛
         BotanicChest: 植物箱
-        BotanicClock: 座钟
+        BotanicClock: 落地大摆钟
         BotanicDresser: 植物梳妆台
         BotanicPiano: 钢琴
         BotanicWorkBench: 工作台
@@ -599,7 +599,7 @@ ItemTooltip:
         CosmiliteCandelabra: 烛台
         CosmiliteCandle: 蜡烛
         CosmiliteChest: 宇宙箱
-        CosmiliteClock: 座钟
+        CosmiliteClock: 落地大摆钟
         CosmiliteDresser: 宇宙钟梳妆台
         CosmilitePiano: 钢琴
         CosmiliteSconce: 宇宙壁灯
@@ -610,7 +610,7 @@ ItemTooltip:
         EutrophicCandelabra: 烛台
         EutrophicCandle: 蜡烛
         EutrophicChest: 富养箱
-        EutrophicClock: 座钟
+        EutrophicClock: 落地大摆钟
         EutrophicDresser: 富养梳妆台
         EutrophicPiano: 钢琴
         EutrophicWorkBench: 工作台
@@ -620,7 +620,7 @@ ItemTooltip:
         ExoCandelabraTile: 烛台
         ExoCandleTile: 蜡烛
         ExoChestTile: 星流箱
-        ExoClockTile: 座钟
+        ExoClockTile: 落地大摆钟
         ExoConsoleTile: 星流控制台
         ExoDisplayTile: 星流展柜
         ExoDoorClosed: 星流门
@@ -638,7 +638,7 @@ ItemTooltip:
         MonolithCandelabra: 烛台
         MonolithCandle: 蜡烛
         MonolithChest: 星石箱
-        MonolithClock: 座钟
+        MonolithClock: 落地大摆钟
         MonolithDresser: 星石梳妆台
         MonolithPiano: 钢琴
         MonolithWorkBench: 工作台
@@ -648,7 +648,7 @@ ItemTooltip:
         OtherworldlyCandelabra: 烛台
         OtherworldlyCandle: 蜡烛
         OtherworldlyChest: 异域箱
-        OtherworldlyClock: 座钟
+        OtherworldlyClock: 落地大摆钟
         OtherworldlyDresser: 异域梳妆台
         OtherworldlyPiano: 钢琴
         OtherworldlyWorkBench: 工作台
@@ -659,7 +659,7 @@ ItemTooltip:
         PlaguedPlateCandelabra: 烛台
         PlaguedPlateCandle: 蜡烛
         PlaguedPlateChest: 瘟疫箱
-        PlaguedPlateClock: 座钟
+        PlaguedPlateClock: 落地大摆钟
         PlaguedPlateDresser: 瘟疫梳妆台
         PlaguedPlatePiano: 钢琴
         PlaguedPlateWorkbench: 工作台
@@ -669,7 +669,7 @@ ItemTooltip:
         ProfanedCandelabra: 烛台
         ProfanedCandle: 蜡烛
         ProfanedChest: 亵渎箱
-        ProfanedClock: 座钟
+        ProfanedClock: 落地大摆钟
         ProfanedDresser: 亵渎梳妆台
         ProfanedPiano: 钢琴
         ProfanedWorkbench: 工作台
@@ -680,7 +680,7 @@ ItemTooltip:
         SacrilegiousCandelabraTile: 烛台
         SacrilegiousCandleTile: 蜡烛
         SacrilegiousChestTile: 渎圣箱
-        SacrilegiousClockTile: 座钟
+        SacrilegiousClockTile: 落地大摆钟
         SacrilegiousDresserTile: 渎圣梳妆台
         SacrilegiousOrganTile: 钢琴
         SacrilegiousWorkBenchTile: 工作台
@@ -690,7 +690,7 @@ ItemTooltip:
         SilvaCandelabra: 烛台
         SilvaCandle: 蜡烛
         SilvaChest: 始源林海箱
-        SilvaClock: 座钟
+        SilvaClock: 落地大摆钟
         SilvaDresser: 始源林海梳妆台
         SilvaPiano: 钢琴
         SilvaWorkBench: 工作台
@@ -700,7 +700,7 @@ ItemTooltip:
         StatigelCandelabra: 烛台
         StatigelCandle: 蜡烛
         StatigelChest: 斯塔提斯箱
-        StatigelClock: 座钟
+        StatigelClock: 落地大摆钟
         StatigelDresser: 斯塔提斯梳妆台
         StatigelPiano: 钢琴
         StatigelWorkbench: 工作台
@@ -710,7 +710,7 @@ ItemTooltip:
         StratusCandelabra: 烛台
         StratusCandle: 蜡烛
         StratusChest: 幻云箱
-        StratusClock: 座钟
+        StratusClock: 落地大摆钟
         StratusDresser: 幻云梳妆台
         StratusPiano: 钢琴
         StratusWorkbench: 工作台
@@ -724,6 +724,16 @@ ItemTooltip:
         VoidDresser: 虚空梳妆台
         VoidPiano: 钢琴
         VoidWorkbench: 工作台
+        WulfrumBathtub: 浴缸
+		WulfrumBed: 床
+		WulfrumBookcase: 书架
+		WulfrumCandelabra: 烛台
+		WulfrumCandle: 蜡烛
+		WulfrumClock: 落地大摆钟
+		WulfrumDresser: 钨钢梳妆台
+		WulfrumPiano: 钢琴
+		WulfrumToilet: 钨钢马桶
+		WulfrumWorkbench: 工作台
         DraedonsAmbienceMusicBoxTile: 音乐盒
         AerialiteOre: 天蓝矿
         AerialiteOreDisenchanted: 未注魔的天蓝矿

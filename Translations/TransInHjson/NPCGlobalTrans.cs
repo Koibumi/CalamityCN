@@ -28,6 +28,7 @@ public class NPCGlobalTrans : GlobalNPC
         if (npc.type == ModContent.NPCType<Apollo>())
         {
             typeName = typeName.Replace("Corrosive Eye of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.0"));
+            typeName = typeName.Replace("XS-03 Apollo", LangHelper.GetText("CalamityMod.NPCs.Name.Apollo"));
         }
         if (npc.type == ModContent.NPCType<AresBody>())
         {
@@ -68,6 +69,7 @@ public class NPCGlobalTrans : GlobalNPC
         if (npc.type == ModContent.NPCType<Artemis>())
         {
             typeName = typeName.Replace("Blazing Eye of XB-∞ Hekate", LangHelper.GetText("CalamityMod.NPCs.Name.Hekate.7"));
+            typeName = typeName.Replace("XS-01 Artemis", LangHelper.GetText("CalamityMod.NPCs.Name.Artemis"));
         }
         if (npc.type == ModContent.NPCType<Polterghast>())
         {
