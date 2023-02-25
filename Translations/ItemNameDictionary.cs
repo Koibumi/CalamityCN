@@ -2343,7 +2343,7 @@ namespace CalamityCN
                 { "WulfrumLamp", "钨钢灯".zh() },
                 { "WulfrumLantern", "钨钢灯笼".zh() },
                 { "WulfrumPiano", "钨钢钢琴".zh() },
-                { "WulfrumPlating", "钨钢电镀砖".zh() },
+                { "WulfrumPlating", "钨钢镀砖".zh() },
                 { "WulfrumSink", "钨钢水槽".zh() },
                 { "WulfrumSofa", "钨钢沙发".zh() },
                 { "WulfrumTable", "钨钢桌".zh() },
