@@ -1376,19 +1376,19 @@ CalamityCN: {
             Boss: {
             1: 击败史莱姆王后掉落
             2: 只在第一次击杀掉落
-            3: Drops on the first kill of the final Mechanical Boss
-            4: Drops once you have defeated both Draedon and Calamitas
+            3: 第一次击败最后一位机械Boss后掉落
+            4: 在嘉登和灾厄均被击败后掉落
             5: 
             '''
-            Drops if Providence was summoned in the Hallow
-            or if Providence is only attacked during nighttime
+            击败在神圣之地召唤的普罗维登斯后掉落
+            或者仅在夜晚召唤并击败普罗维登斯时掉落
             '''
             6: 
             '''
-            Drops if Providence was summoned in the Underworld
-            or if Providence is only attacked during nighttime
+            击败在地狱召唤的普罗维登斯后掉落
+            或者仅在夜晚召唤并击败普罗维登斯时掉落
             '''
-            7: Drops if Providence is only attacked during nighttime
+            7: 仅在夜晚召唤并击败普罗维登斯时掉落
             }
             Other: {
             1: 这是复仇模式下的掉落率
