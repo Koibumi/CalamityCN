@@ -2327,7 +2327,7 @@ namespace CalamityCN
                 { "WulfrumLabstationItem", "钨钢实验桌".zh() },
                 { "GloomTorch", "幽匿火把".zh() },
                 { "LanternCenter", "灯笼中枢".zh() },
-                { "NavyPrismTorch", "沉沦棱晶火把".zh() },
+                { "NavyPrismTorch", "富营养棱晶火把".zh() },
                 { "RefractivePrismTorch", "异光棱晶火把".zh() },
                 { "SulphurousTorch", "硫海火把".zh() },
                 { "AshenAccentSlab", "灰烬硬制石板".zh() },

@@ -469,17 +469,74 @@ public class ItemGlobalTrans : GlobalItem
                 line.Text = line.Text.Replace("Drops only on the first kill", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.2", Array.Empty<object>()));
                 line.Text = line.Text.Replace("Drops on the first kill of the final Mechanical Boss", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.3", Array.Empty<object>()));
                 line.Text = line.Text.Replace("Drops once you have defeated both Draedon and Calamitas", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.4", Array.Empty<object>()));
-                line.Text = line.Text.Replace("Drops if Providence was summoned in the Hallow\nor if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.5", Array.Empty<object>()));
-                line.Text = line.Text.Replace("Drops if Providence was summoned in the Underworld\nor if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.6", Array.Empty<object>()));
-                line.Text = line.Text.Replace("Drops if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.7", Array.Empty<object>()));
-
+                line.Text = line.Text.Replace("Drops if Providence was summoned in the Hallow", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.5", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops if Providence was summoned in the Underworld", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.6", Array.Empty<object>()));
+                line.Text = line.Text.Replace("or if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.7", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops if Providence is only attacked during nighttime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.8", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops in Hardmode", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.9", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the first tier of Acid Rain", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.10", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the second tier of Acid Rain", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.11", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops if Providence was defeated only with the [i:", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.12", Array.Empty<object>()));
+                line.Text = line.Text.Replace("] Profaned Soul Artifact", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.13", Array.Empty<object>()));
+                line.Text = line.Text.Replace("This is an Expert Mode drop rate", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.14", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops if fed to a Trasher", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Other.15", Array.Empty<object>()));
+                
                 line.Text = line.Text.Replace("Drops after defeating King Slime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.1", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Desert Scourge", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.2", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Eye of Cthulhu", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.3", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Crabulon", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.4", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Brain of Cthulhu", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.5", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Eater of Worlds", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.6", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Hive Mind", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.7", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Perforators", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.8", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Queen Bee", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.9", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Deerclops", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.10", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Skeletron", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.11", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Slime God", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.12", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Queen Slime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.13", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Cryogen", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.14", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Aquatic Scourge", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.15", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Brimstone Elemental", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.16", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Destroyer", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.17", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Twins", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.18", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Skeletron Prime", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.19", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating a Mechanical Boss", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.20", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating all three Mechanical Bosses", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.21", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Calamitas Clone", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.22", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Plantera", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.23", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Calamitas or Plantera", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.24", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Leviathan and Anahita", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.25", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Astrum Aureus", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.26", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Golem", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.27", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Plaguebringer Goliath", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.28", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Empress of Light", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.29", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Duke Fishron", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.30", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Ravager", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.31", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Lunatic Cultist", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.32", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Astrum Deus", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.33", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Moon Lord", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.34", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Profaned Guardian", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.35", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Dragonfolly", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.36", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Providence", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.37", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Signus", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.38", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Storm Weaver", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.39", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Ceaseless Void", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.40", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Polterghast", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.41", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Old Duke", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.42", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Devourer of Gods", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.43", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Yharon", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.44", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Exo Mechs", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.45", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Calamitas", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.46", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Adult Eidolon Wyrm", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.47", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Giant Clam", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.48", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Giant Clam in Hardmode", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.49", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating the Great Sand Shark", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.50", Array.Empty<object>()));
+                line.Text = line.Text.Replace("Drops after defeating Betsy", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.Boss.51", Array.Empty<object>()));
 
-                //测试，明天再补剩下的
                 //line.Text = line.Text.Replace("", LangHelper.GetTextValue("CalamityMod.BestiaryNotes.", Array.Empty<object>()));
             });
 
-            if (item.type == ModContent.ItemType<Eternity>())
+                if (item.type == ModContent.ItemType<Eternity>())
                 {
                     line.Text = line.Text.Replace("There's pictures of ponies in the book", "书内有张小马图片".zh());
                 }
@@ -776,10 +833,11 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Releasing left click while the blade is out will deal extra damage and give 2 charges", "在剑刃掷出时松开左键会造成额外伤害并获得2层充能".zh());
                     line.Text = line.Text.Replace("Using right click will snip out the scissor blades in front of you", "右键用剑刃向前方剪出".zh());
                     line.Text = line.Text.Replace("Hitting an enemy with it will parry them, granting you brief invulnerability", "剑刃击中敌人时会进行招架，并使你短暂无敌".zh());
-                    line.Text = line.Text.Replace("You can parry projectiles to make them deal 200 less damage for a short period", "你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少200点".zh());
+                    line.Text = line.Text.Replace("You can also parry projectiles to make them deal 200 less damage for a short period", "你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少200点".zh());
                     line.Text = line.Text.Replace("Parrying will empower the next 10 swings of the sword, letting you use both blades at once", "格挡后会获得10层充能，充能会强化普通攻击，让你可以同时使用两把剑刃".zh());
                     line.Text = line.Text.Replace("Using right click while pressing UP with empowered charges will provoke a Big Rip in spacetime and use all charges", "当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能".zh());
-                }
+                    line.Text = line.Text.Replace("If more than 5 charges were used, you can dash across the rip by holding UP", "若释放的充能超过5层，保持按住上键将允许你冲过撕裂".zh());
+            }
                 if (item.type == ModContent.ItemType<ArkoftheCosmos>())
                 {
                     line.Text = line.Text.Replace("Using left click performs a 5-swing combo that ends by throwing the blade", "左键进行一次五连斩，斩击以掷出剑刃结束".zh());
@@ -1027,7 +1085,7 @@ public class ItemGlobalTrans : GlobalItem
 
                 if (item.type == ItemID.YoYoGlove || item.type == ItemID.YoyoBag)
                 {
-                    line.Text = line.Text.Replace("Yoyos will do 33% less damage", "悠悠球伤害减少33%".zh());
+                    line.Text = line.Text.Replace("Secondary yoyos will do 50% less damage", "第二个悠悠球伤害减少50%".zh());
                 }
 
                 if (item.type == ItemID.ArmorPolish || item.type == ItemID.ArmorBracing)
