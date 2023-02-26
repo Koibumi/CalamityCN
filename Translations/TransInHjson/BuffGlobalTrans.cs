@@ -58,34 +58,38 @@ namespace CalamityCN.Translations.TransInHjson
 
 			if (type <= 62)
 		    {
-			if (type <= 16)
-			{
-				if (type != 3)
+				if (type <= 26)
 				{
-					if (type != 7)
+					switch (type)
 					{
-						if (type == 16)
-						{
-							tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.Archery.Description", Array.Empty<object>());
-							}
-					}
-					else
-					{
+						case 3:
+							tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.Swiftness.Description", Array.Empty<object>());
+							break;
+						case 4:
+						case 6:
+							break;
+						case 5:
+							tooltip = tooltip.Replace("Increase defense by ", LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.Defense.Description", Array.Empty<object>()));
+							break;
+						case 7:
 							tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.MagicPower.Description", Array.Empty<object>());
-						}
-				}
-				else
-				{
-						tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.Swiftness.Description", Array.Empty<object>());
+							break;
+						default:
+							if (type == 16)
+							{
+								tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.Archery.Description", Array.Empty<object>());
+								break;
+							}
+							break;
 					}
-			}
+				}
 			else if (type != 26)
 			{
 				if (type != 39)
 				{
 					if (type == 60)
 					{
-						tip = "Emits powerful life pulses at nearby enemies";
+						tip = LangHelper.GetTextValue("CalamityMod.Buffs.Vanilla.Emits.Description", Array.Empty<object>());
 					}
 					if (type == 62)
 					{

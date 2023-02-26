@@ -1585,7 +1585,6 @@ public class ItemGlobalTrans : GlobalItem
                 line.Text = line.Text.Replace("Restores", "恢复");
                 line.Text = line.Text.Replace("life", "生命");
                 line.Text = line.Text.Replace(" or Revengeance", "或者复仇");
-                line.Text = line.Text.Replace("Increase defense by ", "防御力增加");
         }
     }
 }

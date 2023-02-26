@@ -2019,6 +2019,13 @@ CalamityCN: {
                         免疫{$BuffName.Chilled}，{$BuffName.Frozen}和冰河时代减益
                         '''
                 }
+                Defense: {
+                    Description: 防御力增加
+                }
+
+                Emits: {
+                    Description: Emits powerful life pulses at nearby enemies
+                }
             }
 	    }
 	}
