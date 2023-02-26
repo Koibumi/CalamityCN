@@ -3115,10 +3115,10 @@ Mods: {
 				'''
 			OldDukeScales:
 				'''
-				While under the effects of a damaging debuff, you gain 10% increased damage and 5% crit
-				For every 25% of lost life, you gain 6% increased damage and 3% crit
-				This will max out at 18% increased damage and 9% crit when under 25% life
-				Provides immunity to poisoned, venom, and sulphuric poisoning
+				受到伤害性减益影响时, 增加10%伤害和5%暴击率
+				你每失去25%生命值就会增加6%伤害和3%暴击率
+				至多在25%生命值以下时增加18%伤害和9%暴击率
+				使你免疫中毒、毒液和硫磺海中毒减益
 				'''
 			OrnateShield:
 				'''
@@ -3127,8 +3127,8 @@ Mods: {
 				'''
 			PearlofEnthrallment:
 				'''
-				Summons a water elemental to fight for you
-				The elemental stays above you, shooting water spears, ice mist, and treble clefs at nearby enemies
+				召唤水之元素为你而战
+				水之元素待在你的头顶，向附近敌人发射水矛、冰雾和音符
 				'''
 			PermafrostsConcoction:
 				'''
@@ -3293,11 +3293,11 @@ Mods: {
 				混沌状态减益持续时间内无法再次传送
 				移动时增加15%潜行值恢复速度
 				'''
-			SpelunkersAmulet: Spelunker effect and 15% increased mining speed
+			SpelunkersAmulet: 使你获得洞穴探险增益，增加15%挖掘速度
 			SpiritGlyph:
 				'''
-				Whenever your minions hit an enemy you will gain a random buff
-				These buffs will either boost your defense, summon damage, or life regen for a while
+				你的召唤物击中敌人时会给你一个随机灵魂增幅
+				这些增幅包括短时增幅防御、召唤伤害和生命再生速度
 				'''
 			StarbusterCore:
 				'''
@@ -3417,14 +3417,15 @@ Mods: {
 				'''
 			TheSponge:
 				'''
-				10% increased damage reduction
-				+30 max life and mana
-				5% increased movement and jump speed
-				Standing still boosts life and mana regen
-				Enemies take damage when they touch you
-				You emit a cloud of mushroom spores when you are hit
-				6.25% of the damage from enemy attacks is absorbed and converted into healing
-				Grants immunity to Armor Crunch
+				增加10%伤害减免
+				增加30点最大生命值和魔力值
+				增加5%移速和跳跃速度
+				站立不动时会增加生命及魔力再生速度
+				浸没在液体中时增加防御，伤害减免和移动速度
+				敌人击中你时会受到伤害
+				受到伤害时释放一大片蘑菇孢子
+				能够吸收敌人6.25%的伤害值并转化为治疗效果
+				使你免疫碎甲减益
 				'''
 			TheTransformer:
 				'''
@@ -3456,11 +3457,11 @@ Mods: {
 				'''
 			AbandonedWulfrumHelmet:
 				'''
-				A worn and rusty helmet resembling older models of wulfrum armor
-				Transforms the holder into a wulfrum robot
-				Can also be worn in the helmet slot as a regular helm
-				[c/83B87E:This rather flimsy armor was commonly worn by scavengers and looters]
-				[c/83B87E:Its versatility and common nature led it to be used as currency in trades]
+				一个磨损生锈的头盔，看起来像是老式的钨钢头盔
+				装备在饰品栏可将持有者变成钨钢机器人
+				也可以像普通头盔一样穿戴在头盔栏和对应的时装栏里
+				[c/83B87E:拾荒者和劫掠者常常穿着这种脆弱的盔甲]
+				[c/83B87E:其丰富的功能性以及通用性让它也能作为一种货币在交易中使用]
 				'''
 			Popo:
 				'''
@@ -3478,8 +3479,8 @@ Mods: {
 			VitalJelly: 提高10%移动速度和跳跃速度
 			VoidofCalamity:
 				'''
-				12% increase to all damage
-				Brimstone fire rains down after getting hit
+				增加12%伤害
+				进入无敌时间时会召唤硫磺火雨从天而降
 				'''
 			VoidofExtinction:
 				'''
@@ -3496,8 +3497,8 @@ Mods: {
 				'''
 			WarbanneroftheSun:
 				'''
-				Increases melee damage, true melee damage and melee speed the closer you are to enemies
-				Max boost is 20% increased melee damage, true melee damage and melee speed
+				当靠近敌人时，增加你的近战伤害、真近战伤害和近战攻速
+				最大的增幅均为20%
 				'''
 			WifeinaBottle:
 				'''
@@ -3511,11 +3512,11 @@ Mods: {
 				'''
 			AureateBooster:
 				'''
-				Mach speed with style!
-				Horizontal speed: 8.00
-				Acceleration multiplier: 1.5
-				Good vertical speed
-				Flight time: 120
+				优雅地音速飞行
+				水平飞行速度：8
+				加速倍率：1.5
+				不错的垂直飞行速度
+				飞行时间：120
 				'''
 			CelestialTracers:
 				'''
@@ -3575,12 +3576,12 @@ Mods: {
 				'''
 			HadalMantle:
 				'''
-				Fueled by the fury of the depths
-				Horizontal speed: 7.75
-				Acceleration multiplier: 1.5
-				Average vertical speed
-				Flight time: 180
-				5% increased damage while wearing the Hydrothermic Armor
+				由深渊的怒火驱动
+				水平飞行速度：7.75
+				加速倍率：1.5
+				较强的垂直飞行速度
+				飞行时间：180
+				穿着渊泉套装时，增加5%伤害
 				'''
 			HadarianWings:
 				'''
@@ -3604,17 +3605,17 @@ Mods: {
 				'''
 			SeraphTracers:
 				'''
-				Ludicrous speed!
-				Counts as wings
-				Horizontal speed: 9.00
-				Acceleration multiplier: 2.5
-				Good vertical speed
-				Flight time: 140
-				24% increased running acceleration
-				Greater mobility on ice
-				Water and lava walking
-				Immunity to the On Fire! debuff
-				Temporary immunity to lava
+				荒诞的速度！
+				算作翅膀
+				水平飞行速度：9
+				加速倍率：2.5
+				不错的垂直飞行速度
+				飞行时间：140
+				增加24%跑动加速度
+				在冰上大幅增加机动性
+				能在水和岩浆上行走
+				免疫着火了！减益
+				提供暂时的岩浆免疫能力
 				'''
 			SilvaWings:
 				'''
@@ -3692,7 +3693,7 @@ Mods: {
 				提供暂时的岩浆免疫能力
 				增加近战击退
 				'''
-			AccelerationRound: Gains speed over time
+			AccelerationRound: 速度随时间加快
 			ArcticArrow: 将敌人冻住一小段时间
 			AstralSolution:
 				'''
@@ -3717,7 +3718,7 @@ Mods: {
 				'''
 			ElysianArrow: 命中敌人时天降陨石
 			EnhancedNanoRound: 让敌人混乱，并在其死亡时爆炸形成纳米毒云
-			FlashRound: Gives off a concussive blast that confuses enemies in a large area for a short time
+			FlashRound: 发射会在大范围内短时间让敌人混乱的震荡波
 			GodSlayerSlug:
 				'''
 				具有无限穿透力的重型弹药，能够撕裂时空
@@ -3801,7 +3802,7 @@ Mods: {
 				'''
 			AuricTeslaHoodedFacemask: 增加30%远程伤害和暴击率
 			AuricTeslaPlumedHelm: 增加20%盗贼伤害和暴击率，增加5%移动速度
-			AuricTeslaRoyalHelm: 20% increased melee damage and critical strike chance
+			AuricTeslaRoyalHelm: 增加20%近战伤害和暴击率
 			AuricTeslaSpaceHelmet: 增加15%召唤伤害
 			AuricTeslaWireHemmedVisage:
 				'''
@@ -3816,28 +3817,28 @@ Mods: {
 			BloodflareCuisses: 增加17%移速，10%伤害和7%暴击率
 			BloodflareHeadMagic:
 				'''
-				You can move freely through liquids and have temporary immunity to lava
-				20% increased magic damage, 10% increased magic critical strike chance, +100 max mana and 17% reduced mana usage
+				在液体中行动不受阻碍，获得暂时的岩浆免疫能力
+				增加20%魔法伤害和10%魔法暴击率，增加100点最大魔力值并降低17%魔力消耗
 				'''
 			BloodflareHeadMelee:
 				'''
-				You can move freely through liquids and have temporary immunity to lava
-				10% increased melee damage and critical strike chance
+				在液体中行动不受阻碍，获得暂时的岩浆免疫能力
+				增加10%近战伤害和暴击率
 				'''
 			BloodflareHeadRanged:
 				'''
-				You can move freely through liquids and have temporary immunity to lava
-				10% increased ranged damage and critical strike chance
+				在液体中行动不受阻碍，获得暂时的岩浆免疫能力
+				增加10%远程伤害和暴击率
 				'''
 			BloodflareHeadRogue:
 				'''
-				You can move freely through liquids and have temporary immunity to lava
-				10% increased rogue damage and critical strike chance, 5% increased movement speed
+				在液体中行动不受阻碍，获得暂时的岩浆免疫能力
+				增加10%盗贼伤害和暴击率, 提高5%移动速度
 				'''
 			BloodflareHeadSummon:
 				'''
-				You can move freely through liquids and have temporary immunity to lava
-				5% increased minion damage
+				在液体中行动不受阻碍，获得暂时的岩浆免疫能力
+				增加5%召唤伤害
 				'''
 			BrimflameBoots:
 				'''
@@ -3864,25 +3865,25 @@ Mods: {
 			DaedalusBreastplate: 增加3%伤害和暴击率
 			DaedalusHeadMagic:
 				'''
-				13% increased magic damage and 7% increased magic critical strike chance
-				10% decreased mana usage and +60 max mana
+				增加13%魔法伤害和7%魔法暴击率
+				降低10%魔力消耗并增加60点最大魔力值
 				'''
 			DaedalusHeadMelee:
 				'''
-				10% increased melee damage and critical strike chance
-				15% increased melee speed
+				增加10%近战伤害和暴击率
+				增加15%近战攻速
 				'''
 			DaedalusHeadRanged:
 				'''
-				13% increased ranged damage and 7% increased ranged critical strike chance
-				Reduces ammo usage by 20%
+				增加13%远程伤害和7%远程暴击率
+				降低20%弹药消耗率
 				'''
 			DaedalusHeadRogue:
 				'''
-				13% increased rogue damage and 7% increased rogue critical strike chance, increases rogue velocity by 15%
-				5% increased movement speed
+				增加13%盗贼伤害和7%盗贼暴击率，增加15%盗贼弹道速度
+				增加5%移动速度
 				'''
-			DaedalusHeadSummon: 5% increased minion damage
+			DaedalusHeadSummon: 增加5%召唤伤害
 			DaedalusLeggings:
 				'''
 				增加3%暴击
@@ -3902,19 +3903,21 @@ Mods: {
 			DesertProwlerShirt: 增加5%远程暴击率
 			EmpyreanCloak:
 				'''
-				Armor of the cosmos
-				+20 max life
-				7% increased rogue damage and critical strike chance
+				镇压万古之庇护
+				增加20点最大生命值
+				增加7%盗贼伤害和暴击率
 				'''
 			EmpyreanCuisses:
 				'''
-				5% increased rogue damage and critical strike chance
-				15% increased movement speed
+				纵横寰宇之极速
+				增加5%盗贼伤害和暴击率
+				增加15%移动速度
 				'''
 			EmpyreanMask:
 				'''
-				11% increased rogue damage and critical strike chance, 5% increased movement speed
-				Temporary immunity to lava
+				毁灭诸天之怒火
+				增加11%盗贼伤害和暴击率，增加5%移动速度
+				供暂时免疫岩浆的能力
 				'''
 			FathomSwarmerBoots:
 				'''
@@ -3962,9 +3965,9 @@ Mods: {
 				敌人在攻击你后会受到伤害
 				增加11%伤害和6%暴击
 				'''
-			GodSlayerHeadMelee: 14% increased melee damage and critical strike chance
-			GodSlayerHeadRanged: 14% increased ranged damage and critical strike chance
-			GodSlayerHeadRogue: 14% increased rogue damage and critical strike chance, 5% increased movement speed
+			GodSlayerHeadMelee: 增加14%近战伤害和暴击率
+			GodSlayerHeadRanged: 增加14%远程伤害和暴击率
+			GodSlayerHeadRogue: 增加14%盗贼伤害和暴击率，增加5%移动速度
 			GodSlayerLeggings:
 				'''
 				增加5%移速
@@ -3972,41 +3975,41 @@ Mods: {
 				'''
 			HydrothermicArmor:
 				'''
-				+20 max life
-				8% increased damage and 4% increased critical strike chance
+				增加20点最大生命值
+				增加8%伤害和4%暴击率
 				'''
 			HydrothermicHeadMagic:
 				'''
-				12% increased magic damage, +100 max mana, and 10% increased magic critical strike chance
-				Temporary immunity to lava, and immunity to fire damage
+				增加12%魔法伤害、100点最大魔力值和10%魔法暴击率
+				提供暂时的岩浆免疫能力，免疫砖块灼烧伤害
 				'''
 			HydrothermicHeadMelee:
 				'''
-				12% increased melee damage and 10% increased melee critical strike chance
-				18% increased melee speed
-				Melee attacks and melee projectiles inflict on fire
-				Temporary immunity to lava and immunity to fire damage
+				增加12%近战伤害和10%近战暴击率
+				增加18%近战攻速
+				近战攻击及其弹幕会造成着火了！减益
+				提供暂时的岩浆免疫能力，免疫砖块灼烧伤害
 				'''
 			HydrothermicHeadRanged:
 				'''
-				12% increased ranged damage and 10% increased ranged critical strike chance
-				Reduces ammo usage by 25%, temporary immunity to lava, and immunity to fire damage
+				增加12%远程伤害和10%远程暴击率
+				降低25%弹药消耗率，提供暂时的岩浆免疫能力，免疫砖块灼烧伤害
 				'''
 			HydrothermicHeadRogue:
 				'''
-				12% increased rogue damage and 10% increased rogue critical strike chance
-				50% chance to not consume rogue items and 5% increased movement speed
-				Temporary immunity to lava and immunity to fire damage
+				增加12%盗贼伤害和10%盗贼暴击率
+				50%不消耗盗贼投掷物，增加5%移动速度
+				提供暂时的岩浆免疫能力，免疫砖块灼烧伤害
 				'''
 			HydrothermicHeadSummon:
 				'''
-				5% increased minion damage and increased minion knockback
-				Temporary immunity to lava and immunity to fire damage
+				增加5%召唤伤害和召唤物击退
+				提供暂时的岩浆免疫能力，免疫砖块灼烧伤害
 				'''
 			HydrothermicSubligar:
 				'''
-				5% increased critical strike chance
-				10% increased movement speed
+				增加5%暴击率
+				增加10%移动速度
 				'''
 			MarniteArchitectHeadgear: 增加5格放置范围
 			MarniteArchitectToga: 增加50%放置速度
@@ -4038,8 +4041,8 @@ Mods: {
 				'''
 			OmegaBlueTentacles:
 				'''
-				12% increased movement speed
-				12% increased damage and critical strike chance
+				增加12%移动速度
+				增加12%伤害和暴击率
 				'''
 			PlaguebringerCarapace:
 				'''
@@ -4096,15 +4099,15 @@ Mods: {
 				'''
 			ReaverHeadExplore:
 				'''
-				40% increased pick speed and block/wall placement speed
-				Temporary immunity to lava and can move freely through liquids
+				增加40%挖掘速度和放置速度
+				获得暂时对岩浆免疫与在液体中自由移动的能力
 				'''
-			ReaverHeadMobility: 10% increased jump speed and 15% increased movement speed
+			ReaverHeadMobility: 增加10%跳跃速度和15%移动速度
 			ReaverHeadTank:
 				'''
-				15% increased damage reduction but 30% decreased damage
-				+50 max life
-				Passively regenerates one health point every second
+				增加15%伤害减免但伤害降低30%
+				增加50点最大生命值
+				每秒被动恢复一点生命值
 				'''
 			ReaverScaleMail:
 				'''
@@ -4118,10 +4121,10 @@ Mods: {
 				'''
 			SilvaHeadMagic:
 				'''
-				23% increased magic damage and 13% increased magic critical strike chance
-				+100 max mana and 19% reduced mana usage
+				增加23%魔法伤害和13%魔法暴击率
+				增加100点最大魔力值并降低19%魔力消耗
 				'''
-			SilvaHeadSummon: 10% increased minion damage
+			SilvaHeadSummon: 增加10%召唤伤害
 			SilvaLeggings:
 				'''
 				增加10%移速
@@ -4134,36 +4137,36 @@ Mods: {
 			StatigelGreaves: 增加5%伤害和移动速度
 			StatigelHeadMagic:
 				'''
-				10% increased magic damage and 10% decreased mana cost
-				7% increased magic critical strike chance and +30 max mana
+				增加10%魔法伤害并降低10%魔力消耗
+				增加7%魔法暴击率和30点最大魔力值
 				'''
 			StatigelHeadMelee:
 				'''
-				10% increased melee damage and melee speed
-				7% increased melee critical strike chance
+				增加10%近战伤害和近战攻速
+				增加7%近战暴击率
 				'''
 			StatigelHeadRanged:
 				'''
-				10% increased ranged damage
-				7% increased ranged critical strike chance
+				增加10%远程伤害
+				增加7%远程暴击率
 				'''
 			StatigelHeadRogue:
 				'''
-				10% increased rogue damage and 34% chance to not consume rogue items
-				7% increased rogue critical strike chance and 5% increased movement speed
+				增加10%盗贼伤害，34%不消耗投掷物
+				增加7%盗贼暴击率和5%移动速度
 				'''
-			StatigelHeadSummon: Increased minion knockback
-			SulphurousBreastplate: 8% increased rogue damage and 5% increased rogue critical strike chance
+			StatigelHeadSummon: 增加召唤物击退
+			SulphurousBreastplate: 增加8%盗贼伤害和5%盗贼暴击率
 			SulphurousHelmet:
 				'''
-				4% increased rogue damage
-				2% increased rogue critical strike chance
-				Grants underwater breathing
+				增加4%盗贼伤害
+				增加2%盗贼暴击率
+				允许水下呼吸
 				'''
 			SulphurousLeggings:
 				'''
-				Movement speed increased by 10%
-				Movement speed increased by 35% while submerged in liquid
+				增加10%移动速度
+				浸泡在液体中时增加35%移动速度
 				'''
 			TarragonBreastplate:
 				'''
@@ -4174,38 +4177,38 @@ Mods: {
 				'''
 			TarragonHeadMagic:
 				'''
-				Temporary immunity to lava
-				Can move freely through liquids
-				20% increased magic damage and 10% increased magic critical strike chance
-				5% increased damage reduction, +100 max mana, and 15% reduced mana usage
+				提供暂时的岩浆免疫能力
+				液体中行走无阻力
+				增加20%魔法伤害和10%魔法暴击率
+				增加5%伤害减免、100点最大魔力值并降低15%魔力消耗
 				'''
 			TarragonHeadMelee:
 				'''
-				Helm of the disciple of ancients
-				Temporary immunity to lava
-				Can move freely through liquids
-				5% increased damage reduction
-				10% increased melee damage and critical strike chance
+				远古信徒的头盔
+				提供暂时的岩浆免疫能力
+				液体中行走无阻力
+				增加5%伤害减免
+				增加10%近战伤害和暴击率
 				'''
 			TarragonHeadRanged:
 				'''
-				Temporary immunity to lava
-				Can move freely through liquids
-				10% increased ranged damage and critical strike chance
-				5% increased damage reduction
+				提供暂时的岩浆免疫能力
+				液体中行走无阻力
+				增加10%远程伤害和暴击率
+				增加5%伤害减免
 				'''
 			TarragonHeadRogue:
 				'''
-				Temporary immunity to lava
-				Can move freely through liquids, 5% increased movement speed
-				10% increased rogue damage and critical strike chance
-				5% increased damage reduction
+				提供暂时的岩浆免疫能力
+				液体中行走无阻力, 5% increased movement speed
+				增加10%盗贼伤害和暴击率
+				增加5%伤害减免
 				'''
 			TarragonHeadSummon:
 				'''
-				Temporary immunity to lava
-				Can move freely through liquids
-				5% increased damage reduction and minion damage
+				提供暂时的岩浆免疫能力
+				液体中行走无阻力
+				增加5%伤害减免和召唤伤害
 				'''
 			TarragonLeggings:
 				'''
@@ -4231,7 +4234,7 @@ Mods: {
 				'''
 			UmbraphileHood: 增加8%盗贼伤害和10%盗贼弹幕飞行速度
 			UmbraphileRegalia: 增加10%盗贼伤害和暴击率
-			AcesApronOfAffection: Great for hugging people
+			AcesApronOfAffection: 拥抱他人的温暖选择
 			AnahitaMask: ""
 			AncientGodSlayerChestplate: ""
 			AncientGodSlayerHelm: ""
@@ -4287,26 +4290,26 @@ Mods: {
 				'''
 			VictideGreaves:
 				'''
-				Movement speed increased by 8%
-				Movement speed increased by 30% while submerged in liquid
+				增加8%移动速度
+				浸泡在液体中时增加30%移动速度
 				'''
-			VictideHeadMagic: 5% increased magic damage
-			VictideHeadMelee: 5% increased melee damage
-			VictideHeadRanged: 5% increased ranged damage
-			VictideHeadRogue: 5% increased rogue damage
-			VictideHeadSummon: 10% increased minion damage
+			VictideHeadMagic: 增加5%魔法伤害
+			VictideHeadMelee: 增加5%近战伤害
+			VictideHeadRanged: 增加5%远程伤害
+			VictideHeadRogue: 增加5%盗贼伤害
+			VictideHeadSummon: 增加10%召唤伤害
 			WulfrumFusionCannon:
 				'''
-				发射快速的中射程弹丸
+				发射快速的中射程弹幕
 				[c/878787:“自己变成召唤物后，谁还需要一根鞭子呢？”]
 				'''
 			WulfrumHat:
 				'''
-				10% increased minion damage
-				Comes equipped with hair extensions
+				增加10%召唤伤害
+				自带假发
 				'''
-			WulfrumJacket: 5% increased damage reduction
-			WulfrumOveralls: Movement speed increased by 5%
+			WulfrumJacket: 增加5%伤害减免
+			WulfrumOveralls: 增加5%移动速度
 			BleachBall: 在物品栏中标记为收藏，可以使渊海灾虫不再生成
 			BrimstoneLocus:
 				'''
@@ -4355,8 +4358,8 @@ Mods: {
 				'''
 			DraedonPowerCell:
 				'''
-				Used to charge Draedon's weaponry at a Charging Station
-				Also can be processed by the Extractinator for spare parts
+				在充能站使用以充能武器
+				也可通过提炼机进行拆分
 				'''
 			DraedonsLogHell:
 				'''
@@ -4551,9 +4554,9 @@ Mods: {
 				'''
 			RiftReeler:
 				'''
-				Fires three to five lines at once. Can fish in lava.
-				The battlefield is a scene of constant chaos.
-				The winner will be the one who controls that chaos, both the pole and the fish.
+				一次性投放三至五条鱼线，能够在岩浆中垂钓
+				战场永远是充满混乱的场所
+				胜者必须是能够控制混乱之人，垂钓也是同样的道理
 				'''
 			SlurperPole:
 				'''
@@ -4612,7 +4615,7 @@ Mods: {
 			Xerocodile: 右击提取血珠
 			CyanSeekingMechanism: 指向沙漠地下的实验室
 			GreenSeekingMechanism: 指向丛林的实验室
-			LabSeekingMechanism: A receptacle for technology which pinpoints the power cores of Draedon's Labs
+			LabSeekingMechanism: 一个可以指向嘉登实验室能源核心的科技接收器
 			OnyxSeekingMechanism: 指向洞穴的实验室
 			RedSeekingMechanism: 指向地狱的实验室
 			WhiteSeekingMechanism: 指向寒霜洞穴的实验室
@@ -4891,7 +4894,7 @@ Mods: {
 			AncientBoneDust: ""
 			ArmoredShell: ""
 			AscendantSpiritEssence: 融合强大灵魂而制成的最高级催化剂
-			AshesofAnnihilation: The smoldering essence of the Witch's wrath
+			AshesofAnnihilation: 至尊女巫怒火的炽热精华
 			AshesofCalamity: ""
 			AuricBar: 散发出无限的能量
 			BeetleJuice: ""
@@ -4919,14 +4922,14 @@ Mods: {
 			EnergyCore: 能量在其中脉动
 			EssenceofEleum: 寒冰生命之精华
 			EssenceofHavoc: 混沌生命之精华
-			EssenceofSunlight: The essence of sky, light, and storm creatures
+			EssenceofSunlight: 天空、圣光及沙暴生命之精华
 			ExoPrism: 分形能量在其表面闪烁
 			GalacticaSingularity: 广阔宇宙的结晶
 			GrandScale: 顶级捕食者的巨大鳞片
 			InfectedArmorPlating: ""
 			LifeAlloy: ""
 			LivingShard: ""
-			Lumenyl: A shard of lumenous energy
+			Lumenyl: 蕴含着闪光能量的晶片
 			MeldBlob: ""
 			MeldConstruct: ""
 			MiracleMatter:
@@ -4985,7 +4988,7 @@ Mods: {
 				召唤醉公主独角兽形态的灵体
 				骑乘时醉公主会离开，取消骑乘后会唤她归来
 				'''
-			FollyFeed: Summons a monstrosity
+			FollyFeed: 召唤可怖的畸变物种
 			GazeOfCrysthamyr:
 				'''
 				召唤一条暗影巨龙
@@ -4999,7 +5002,7 @@ Mods: {
 				环保局和善待动物组织的人事后肯定会找你喝茶
 				挖掘能力取决于你背包中最高镐力的镐子
 				'''
-			SuspiciousLookingJellyBean: JELLY BEAN
+			SuspiciousLookingJellyBean: 果冻豆
 			TundraLeash: 召唤愤怒雪狗坐骑
 			NormalityRelocator:
 				'''
@@ -5017,9 +5020,9 @@ Mods: {
 				'''
 			CelestialOnion:
 				'''
-				Alien power pulses inside its layers
-				Consuming it does something that cannot be reversed
-				This item does nothing in Master Mode
+				外星的力量激荡在它的层叠之中
+				使用它会带来一些不可逆的后果
+				此物品在大师模式下无任何效果
 				'''
 			CometShard: 永久增加50点最大魔力值
 			Dragonfruit:
@@ -5078,7 +5081,7 @@ Mods: {
 				召唤一只幻海灵蜗宠物跟着你
 				装备后小幅度削减深渊生物的探测能力
 				'''
-			BearsEye: Summons a pet guardian angel
+			BearsEye: 召唤守护天使宠物 -- 小熊
 			BloodyVein: 召唤一堆聚合的血肉
 			BrimstoneJewel:
 				'''
@@ -5100,9 +5103,9 @@ Mods: {
 				'''
 			EnchantedButterfly:
 				'''
-				Feed him butterflies to keep him strong!
-				Summons a mysterious dragonfly light pet
-				Provides a small amount of light in the abyss
+				给它投喂蝴蝶，让它茁壮成长！
+				召唤一只神秘的发光蜻蜓宠物
+				在深渊中提供少量光照
 				'''
 			ForgottenDragonEgg: 把阿卡托--犽戎之子，呼唤到你身边
 			FoxDrive:
@@ -5113,12 +5116,12 @@ Mods: {
 			GeyserShell: 召唤小小酸丘寄居蟹
 			HermitsBoxofOneHundredMedicines:
 				'''
-				As the ice melts in the springs
-				And waves wash the old moss' hair...
-				Thank you, Goodbye.
-				Summons the Third Sage
-				Use the item with right click in the hotbar to toggle the Third Sage's blessing.
-				With the blessing, the player will spawn with full health rather than half.
+				气霁风梳新柳发
+				冰消波洗旧苔须
+				欢迎回来，搭档
+				召唤第三贤者
+				放置在快捷栏中右键使用该物品以永久获得第三贤者的祝福
+				第三贤者的祝福会使玩家在重生时以满血重生，而不是一半
 				'''
 			JoyfulHeart: 奇怪的暖和。可吸引……大老爹！
 			Levi: 召唤利维坦宝宝
@@ -5147,9 +5150,9 @@ Mods: {
 				'''
 			TheEtomer:
 				'''
-				Summons an electric troublemaker
-				A little note is attached:
-				Thank you, Aloe! Very much appreciated from Ben
+				召唤电鬼洛托姆
+				这有张小纸条：
+				谢谢你，Aloe！非常感谢 来自：Ben
 				'''
 			ThiefsDime:
 				'''
@@ -5384,11 +5387,11 @@ Mods: {
 				'''
 			AltarOfTheAccursedItem:
 				'''
-				Offer Ashes of Calamity at this altar to summon the Witch
-				Doing so will create a square arena of blocks, with the altar at its center
-				During the battle, heart pickups only heal for half as much
-				The Witch enrages while you are outside of the arena
-				Used for special crafting
+				在其上使用灾厄尘以召唤硫火女巫
+				在祭坛周围创造一个大型方型场地
+				在整场战斗中，拾取的红心只会治疗一半于原有恢复量的生命值
+				离开场地会使女巫狂暴
+				用于打造特定家具
 				'''
 			AncientAltar: 用于打造特定家具
 			AshenAltar: 用于打造特定家具
@@ -5403,14 +5406,14 @@ Mods: {
 				由无尽星流能源驱动的脉冲格纳米锻造厂
 				具有大部分主要合成站的功能
 				'''
-			EutrophicShelf: Used for special crafting
-			MonolithAmalgam: Used for special crafting
+			EutrophicShelf: 用于打造特定家具
+			MonolithAmalgam: 用于打造特定家具
 			PlagueInfuser: 用于打造特定家具
-			ProfanedCrucible: Used for special crafting
+			ProfanedCrucible: 用于打造特定家具
 			SilvaBasin: 用于打造特定家具
 			StaticRefiner: 用于打造特定家具
 			VoidCondenser: 用于打造特定家具
-			WulfrumLabstationItem: 用于特殊制作
+			WulfrumLabstationItem: 用于打造特定家具
 			CrimsonEffigy:
 				'''
 				放置后附近的玩家获得15%伤害加成和10防御加成
@@ -5439,16 +5442,16 @@ Mods: {
 			RefractivePrismTorch: 可放置于水中
 			ResilientCandle:
 				'''
-				When placed, nearby players' defense blocks 5% more damage
-				'Neither rain nor wind can snuff its undying flame'
+				放置后增强附近玩家5%防御效果
+				“狂风骤雨也无法熄灭这倔强的火苗”
 				'''
 			RustyChest: ""
 			SeaMinnowJar: ""
 			SpitefulCandle:
 				'''
-				When placed, nearby enemies take 5% more damage.
-				This extra damage bypasses enemy damage reduction and defense
-				'Its hateful glow flickers with ire'
+				放置后附近的敌人额外受到5%伤害
+				这些额外伤害将无视敌人的防御和伤害减免
+				“它闪耀着充满怒火的可憎光芒”
 				'''
 			SulphurousTorch: 可放置于水中
 			ThaumaticChair: 克洛伊最好的创造物之一
@@ -5495,14 +5498,14 @@ Mods: {
 			TwinklerInABottle: ""
 			VigorousCandle:
 				'''
-				When placed, nearby players regenerate 0.4% of their maximum health per second
-				This regeneration is at full power even while moving and bypasses Revengeance Mode caps
-				'Its brilliant light suffuses those nearby with hope'
+				放置后附近玩家每秒恢复0.4%最大生命值
+				此效果与原本的生命再生速度分开计算，不会受到生命再生速度上限，敌人伤害和当前行为的影响
+				“它明亮的光使周围的人充满希望”
 				'''
 			WeightlessCandle:
 				'''
-				When placed, nearby players gain 10% movement speed, 10% wing time and 5% acceleration
-				'The floating flame seems to uplift your very spirit'
+				放置时，增加附近玩家10%移动速度、飞行时间和5%加速度
+				“跃动的火焰似乎使你的精神获得升华”
 				'''
 			WulfrumLureItem:
 				'''
@@ -5906,7 +5909,7 @@ Mods: {
 			AstralOre: ""
 			AuricOre: 蕴含着上古巨龙的力量
 			CryonicOre: ""
-			ExodiumCluster: A cold cluster from the great unknown.
+			ExodiumCluster: 来自未知的冰冷奇物。
 			HallowedOre: ""
 			InfernalSuevite: ""
 			PerennialOre: ""
@@ -5919,7 +5922,7 @@ Mods: {
 			Havocplate: 其上回响着异界之能量
 			Navyplate: 其上回响着异界之能量
 			Onyxplate: 其上回响着异界之能量
-			Plagueplate: It resonates with otherworldly energy.
+			Plagueplate: 其上回响着异界之能量
 			PrismShard: 在水下时会更加明亮
 			PyreMantle: ""
 			PyreMantleMolten: ""
@@ -6143,7 +6146,7 @@ Mods: {
 				'''
 			AnechoicCoating: 削减深渊生物的探测能力
 			AstralInjection: 使用时对自身造成伤害并获得魔力疾病减益，大幅度增加魔力再生速度，且魔力再生速度不会受移动或施法影响
-			AureusCell: Grants increased mana regeneration and magic power
+			AureusCell: 获得魔力再生及魔能增益
 			Baguette:
 				'''
 				{$CommonItemTooltip.MinorStats}
@@ -6169,9 +6172,9 @@ Mods: {
 			GravityNormalizerPotion: 免疫太空低重力环境对你的影响，使你免疫扭曲减益
 			HadalStew:
 				'''
-				Only gives 50 seconds of Potion Sickness
+				仅造成50秒的药水疾病减益
 				{$CommonItemTooltip.MediumStats}
-				60 minute duration
+				60分钟持续时间
 				'''
 			OmegaHealingPotion: ""
 			PhotosynthesisPotion:
@@ -6219,10 +6222,10 @@ Mods: {
 				'''
 			Abombination:
 				'''
-				Calls in the airborne abomination
-				Summons the Plaguebringer Goliath when used in the Jungle
-				Enrages outside the Jungle
-				Not consumable
+				呼叫丛林的瘟疫传播者
+				在丛林使用，召唤瘟疫使者歌莉娅
+				在丛林外狂暴
+				不消耗
 				'''
 			AstralChunk:
 				'''
@@ -6262,9 +6265,9 @@ Mods: {
 				'''
 			DeathWhistle:
 				'''
-				A very old temple whistle
-				Summons the Ravager
-				Not consumable
+				非常老旧的神庙笛哨
+				召唤毁灭魔像
+				不消耗
 				'''
 			DecapoditaSprout:
 				'''
@@ -6274,9 +6277,9 @@ Mods: {
 				'''
 			DesertMedallion:
 				'''
-				Summons the Desert Scourge when used in the Desert
-				Enrages outside the Desert
-				Not consumable
+				在沙漠使用，召唤荒漠灾虫
+				在沙漠外狂暴
+				不消耗
 				'''
 			EidolonTablet:
 				'''
@@ -6285,10 +6288,10 @@ Mods: {
 				'''
 			ExoticPheromones:
 				'''
-				Attracts the failed draconic experiment
-				Summons The Dragonfolly when used in the Jungle
-				Enrages outside the Jungle
-				Not consumable
+				吸引巨龙实验的失败产物
+				在丛林使用，召唤痴愚金龙
+				在丛林外狂暴
+				不消耗
 				'''
 			EyeofDesolation:
 				'''
@@ -6304,8 +6307,8 @@ Mods: {
 				'''
 			MartianDistressRemote:
 				'''
-				Summons the Martian Madness
-				Not consumable
+				召唤火星暴乱
+				不消耗
 				'''
 			NecroplasmicBeacon:
 				'''
@@ -6328,17 +6331,17 @@ Mods: {
 				'''
 			Portabulb:
 				'''
-				Summons Plantera when used in the Jungle
-				Enrages outside the Underground Jungle
-				Not consumable
+				在丛林使用，召唤世纪之花
+				在地下丛林外狂暴
+				不消耗
 				'''
 			ProfanedCore:
 				'''
-				The core of the unholy flame
-				Summons Providence when used in the Hallow or Underworld
-				Unique drop changes depending on the biome fought in
-				Enrages when fought during nighttime or when outside the Hallow or Underworld
-				Not consumable
+				不洁火焰的核心
+				在神圣之地或地狱使用，召唤普罗维登斯
+				在不同的群落与其战斗会掉落不同的战利品
+				夜晚时狂暴，在神圣之地外或地狱外也狂暴
+				不消耗
 				'''
 			ProfanedShard:
 				'''
@@ -6349,10 +6352,10 @@ Mods: {
 				'''
 			RuneofKos:
 				'''
-				A relic of the profaned flame
-				Contains the power hunted relentlessly by the sentinels of the cosmic devourer
-				When used in certain areas of the world, it will unleash them
-				Not consumable
+				亵渎圣焰的遗物
+				封印着神之仆从的无情力量
+				在不同地区使用将解开他们的封印
+				不消耗
 				'''
 			SandstormsCore:
 				'''
@@ -6382,12 +6385,12 @@ Mods: {
 				'''
 			Terminus:
 				'''
-				Activates Boss Rush Mode, using it again will deactivate Boss Rush Mode
-				During the Boss Rush, all wires and wired devices will be disabled
+				激活Boss Rush模式，再次使用以退出Boss Rush模式
+				在Boss Rush模式中，所有的电路设备会被禁用
 				'''
 			YharonEgg:
 				'''
-				一颗不死鸟龙蛋的雕像，用于祭祀
+				一颗烬昭龙蛋的雕像，用于祭祀
 				召唤重生之龙，犽戎
 				在火墙外会狂暴
 				不消耗
@@ -6405,8 +6408,8 @@ Mods: {
 			AstralPickaxe: ""
 			AxeofPurity:
 				'''
-				Left click to use as a tool
-				Right click to cleanse evil
+				左击作为工具使用
+				右击净化邪恶
 				'''
 			BeastialPickaxe: ""
 			BerserkerWaraxe: ""
@@ -6444,7 +6447,7 @@ Mods: {
 				'''
 			FellerofEvergreens: ""
 			Gelpick: ""
-			GenesisPickaxe: Can mine Uelibloom Ore
+			GenesisPickaxe: 可开采龙蒿矿
 			Grax:
 				'''
 				击中敌人会在短时间内大幅提升你的防御、近战伤害和暴击率
@@ -6461,9 +6464,9 @@ Mods: {
 			ReefclawHamaxe: ""
 			SeismicHampick:
 				'''
-				Capable of mining Lihzahrd Bricks
-				Left click to use as a pickaxe
-				Right click to use as a hammer
+				可开采神庙砖
+				左键作为镐使用
+				右键作为锤使用
 				'''
 			ShardlightPickaxe: ""
 			SkyfringePickaxe: 可开采狱石
@@ -6571,7 +6574,7 @@ Mods: {
 				巨大且笨重的武器，但其射出的大威力子弹在清理成群的敌人时十分出色。
 				发射毁灭性的荒谬击退的高速冲击波
 				'''
-			HeavyLaserRifle: Laser weapon used by heavy infantry units in Yharim's army
+			HeavyLaserRifle: 亚利姆军队的重装步兵部队使用的激光武器
 			HydraulicVoltCrasher:
 				'''
 				既能冲压金属板，又能瞬间熔化金属板，也能粉碎敌人。
@@ -6676,7 +6679,7 @@ Mods: {
 			AbyssalTome: 释放一个缓慢移动的黑暗能量球
 			AbyssShocker: 发射一道不准确的电击，在敌人之间弹射并放出电弧
 			AcidGun: 喷出三股酸液流
-			AetherfluxCannon: Fires a barrage of phased god rays that pass through terrain
+			AetherfluxCannon: 发射可以穿过物块的交叉射线弹幕
 			AethersWhisper:
 				'''
 				发射能量光束，距离越远伤害越高
@@ -6688,7 +6691,7 @@ Mods: {
 				右键发射Y形光束以及一束激光
 				'''
 			AlulaAustralis: 发射一波优美的极光束，路径上会降下星辰
-			AnahitasArpeggio: Casts slow-moving treble clefs that confuse enemies
+			AnahitasArpeggio: 发射缓慢移动的高音音符诱惑敌人
 			ApoctosisArray:
 				'''
 				发射会加速并爆炸的离子冲击波
@@ -6723,7 +6726,7 @@ Mods: {
 				嘟嘟
 				发射一串哨片，音符和硫磺气泡
 				'''
-			Biofusillade: Unleashes a concentrated beam of life energy
+			Biofusillade: 发射能量集中的生命射线
 			BlackAnurian: 喷射泡泡和追踪浮游物
 			BloodBath: 让你的敌人鲜血淋漓
 			BrimroseStaff: 发射会分散开来的硫磺火射线
@@ -6764,7 +6767,7 @@ Mods: {
 				在你的敌人头顶降下死亡之雨！
 				从天上降下星云激光
 				'''
-			DeathValleyDuster: Casts a large blast of dust
+			DeathValleyDuster: 丢出一团巨大的粉尘
 			DivineRetribution: 法师才是盗贼大师，看，我们终于有了个捐赠武器来证明这一点！
 			Downpour: 发射会额外溅射的水柱
 			Effervescence: 射出一大串泡沫
@@ -6871,7 +6874,7 @@ Mods: {
 				击中敌人召唤法力间歇泉
 				碾碎他们，就像碾碎纸片儿那样！
 				'''
-			LashesofChaos: Watch the world burn...
+			LashesofChaos: 静看着整个世界的燃烧……
 			Lazhar: 发射高挥发性聚能太阳光束
 			LightGodsBrilliance: 释放追踪小光球和爆破光球
 			MadAlchemistsCocktailGlove:
@@ -6886,7 +6889,7 @@ Mods: {
 			ManaRose: 发射的魔法花爆炸会产生花瓣
 			Miasma: 释放出静止不动并在一段时间后爆炸的气体云
 			Mistlestorm: 发射针叶风暴
-			NanoPurge: Fires a barrage of nano lasers
+			NanoPurge: 发射纳米激光弹幕
 			NightsRay:
 				'''
 				发射暗影射线
@@ -6953,7 +6956,7 @@ Mods: {
 			SlitheringEels: 投出魔法酸鳗鱼，其移动时会产生酸液滴
 			SnowstormStaff: 发射一个冰晶跟随你的鼠标攻击敌人
 			SoulPiercer: 发射威力强大的光束，击中敌人时生成更多光束
-			StaffofBlushie: Hold your mouse, wait, wait, wait, and put your trust in the power of blue magic
+			StaffofBlushie: 按住你的鼠标，一直等，一直等，一直等，然后你就会相信蓝魔法的力量
 			Starfall: 向光标方向发射幻星
 			StormSpray: 发射一个会额外溅射的水柱
 			SubsumingVortex:
@@ -6976,8 +6979,8 @@ Mods: {
 				'''
 			TheDanceofLight:
 				'''
-				Barrages enemies with a hailstorm of Light Blades
-				'And in a flash of light, nothing remains'
+				将敌人以光刃弹雨湮灭
+				“炫目闪光过后，一切荡然无存”
 				'''
 			ThePrince:
 				'''
@@ -7004,8 +7007,8 @@ Mods: {
 			ValkyrieRay: 释放拥有神圣之力的毁灭射线
 			Vehemence:
 				'''
-				Casts intense bolts of hellish power that explode into skulls
-				Direct hits inflict Demon Flames for an extended period of time
+				释放地狱之力，击中物块或飞行一段时间后爆炸成骷髅
+				直接命中会造成恶魔之炎减益
 				'''
 			VenusianTrident: 发射一团狱炎三叉戟，造成巨大爆炸并释放熔岩火焰碎片
 			Vesuvius:
@@ -7021,24 +7024,24 @@ Mods: {
 			VitriolicViper: 释放一束毒牙和喷吐物
 			VividClarity:
 				'''
-				向鼠标位置发射五道元素能量束
+				向光标位置发射五道元素能量束
 				命中敌怪或击中物块时，元素能量束会分裂出元素能量体
 				或召唤可以反弹的元素射线从天而降
 				元素射线会分裂出额外的射线攻击敌怪
 				它的威严激发了无与伦比的天才壮举
 				'''
-			VoidVortex: 在鼠标位置召唤呈环形分布的磁暴球体
-			VoltaicClimax: Conjures an octagon of supercharged magnet spheres around the cursor
+			VoidVortex: 在光标位置召唤呈环形分布的磁暴球体
+			VoltaicClimax: 光标位置圆形散射出电磁球
 			Waywasher: 施放并不精准的水束
 			Wingman: 发射集中的激光束
 			WintersFury: 这书摸起来冷极了
 			WrathoftheAncients: 在光标处召唤能量脉冲，周期性散发追踪灵气
 			WulfrumProsthesis:
 				'''
-				Casts a wulfrum bolt
-				Right click to drain mana from creatures in front of you
-				[c/83B87E:Technology and magic have been forever locked in an arms race of imitation and retaliation]
-				[c/83B87E:At times they work in tandem, as seen in certain prosthetic limbs]
+				释放钨钢能量
+				右键对面前的生物进行法力汲取
+				[c/83B87E:科技和魔法永远被定格在效仿与复仇的军备竞赛中]
+				[c/83B87E:有时它们是协作的，如某些义肢]
 				'''
 			WyvernsCall:
 				'''
@@ -7120,9 +7123,9 @@ Mods: {
 			Brimlash: 发射一颗硫磺火弹，在爆裂时产生更多硫磺火弹
 			BrimstoneSword:
 				'''
-				Summons brimstone geysers on hit
-				Right click to throw like a javelin that explodes on hit
-				Receives 33% benefit from melee speed bonuses
+				击中敌人时释放硫磺火间歇泉
+				右键会将其像标枪一样掷出，击中时爆炸
+				只能享受33%近战攻速加成效果
 				'''
 			BrinyBaron:
 				'''
@@ -7132,8 +7135,8 @@ Mods: {
 			BrokenBiomeBlade:
 				'''
 				FUNCTION_DESC
-				Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome
-				Using RMB otherwise switches between the current attunement and an extra stored one
+				在平地上站定不动时长按右键将剑插入地面，使其与环境相谐振，储存生物群系的力量
+				其他情形下轻按右键，将存有的主副调谐互换
 				Main Attunement : [None]
 				Secondary Attunement: [None]
 				
@@ -7173,9 +7176,9 @@ Mods: {
 				'''
 			DepthCrusher:
 				'''
-				Hitting enemies will inflict the crush depth debuff
-				The lower the enemies' defense, the more damage they take from this debuff
-				Right click to use without hammering down walls
+				击中敌人时会对其造成深渊水压减益
+				敌人的防御越低，此减益造成的伤害越高
+				右键使用时无锤类工具的效果
 				'''
 			Devastation: 发射宇宙爆炸
 			DevilsDevastation:
@@ -7223,16 +7226,16 @@ Mods: {
 				'''
 			ElementalLance:
 				'''
-				Rend the cosmos asunder!
-				Fires a lance beam that splits multiple times as it travels
+				撕裂宇宙！
+				发射一只元素之矛，飞行过程中会分裂数次
 				'''
 			ElementalShiv:
 				'''
-				Shoots a rainbow shiv that spawns additional shivs on hit
-				Receives 33% benefit from melee speed bonuses
+				发射彩虹短剑，击中敌人后会生成额外的短剑弹幕
+				只能享受33%近战攻速加成效果
 				'''
 			EmpyreanKnives: 投出一簇能够弹射并治疗玩家的飞刀
-			EntropicClaymore: Fires a spread of homing plasma balls
+			EntropicClaymore: 发射数个追踪离子球
 			EssenceFlayer: 发射击杀敌人时释放治愈光线的精元镰刀
 			EutrophicScimitar: 挥舞时发射两道激光弹幕，会晕眩敌人
 			EvilSmasher:
@@ -7251,16 +7254,16 @@ Mods: {
 				'''
 			Exoblade:
 				'''
-				Left clicks release multiple energy beams that home in on enemies and slice them on hit
-				Right clicks make you dash in the direction of the cursor with the blade
-				Enemy hits from the blade during the dash result in massive damage and a rebound
-				Left clicks briefly after a rebound are far stronger and create explosions on enemy hits
+				左键释放大量能量光束追踪并在命中时斩击敌人
+				右键使你向光标方向冲刺并斩击
+				冲刺过程中命中敌人会造成巨量伤害并反弹自己
+				反弹后短暂时间内左键攻击更加强大并在命中敌人时爆炸
 				'''
-			FallenPaladinsHammer: Explodes on enemy hits
+			FallenPaladinsHammer: 击中敌人时爆炸
 			FaultLine:
 				'''
-				Explodes on enemy hits
-				A very agile yoyo
+				击中敌人时爆炸
+				一只十分灵活的悠悠球
 				'''
 			FeralthornClaymore: 击中敌人时召唤荆棘
 			FlarefrostBlade: 发射追踪炎霜球
@@ -7281,7 +7284,7 @@ Mods: {
 			FracturedArk:
 				'''
 				This line gets set in ModifyTooltips
-				A worn down and rusty blade once wielded against the evil of this world, ready to be of use once more
+				一把破旧生锈的剑，曾经对抗过这个世界的邪恶，现在它准备再一次发挥作用
 				'''
 			GaelsGreatsword:
 				'''
@@ -7295,11 +7298,11 @@ Mods: {
 				'''
 			GalactusBlade:
 				'''
-				Forged with the fury of nuclear chaos
-				Launches a barrage of comets from the sky
-				Receives 33% benefit from melee speed bonuses
+				用混沌之核打造
+				从天空中召唤大量彗星
+				只能享受33%近战攻速加成效果
 				'''
-			GalaxySmasher: Explodes and summons death lasers on enemy hits
+			GalaxySmasher: 击中敌人时爆炸并释放死亡射线
 			GalileoGladius:
 				'''
 				不要低估了小号太空剑的杀伤力
@@ -7346,7 +7349,7 @@ Mods: {
 				击中敌人时召唤火焰喷泉
 				'''
 			HolyCollider: 击中敌人时使其被圣火点燃并爆炸
-			IllustriousKnives: Throws a flurry of homing knives that can heal the user
+			IllustriousKnives: 投出数扇圣光飞刀，追踪敌人并治疗玩家
 			InsidiousImpaler: 发射一柄鱼叉，黏附于敌人并产生爆炸
 			Lacerator:
 				'''
@@ -7405,8 +7408,8 @@ Mods: {
 				'''
 			Oblivion:
 				'''
-				Fires brimstone lasers when enemies are near
-				A very agile yoyo
+				有敌人在附近时发射硫磺火激光
+				一只十分灵活的悠悠球
 				'''
 			OldLordClaymore:
 				'''
@@ -7435,8 +7438,8 @@ Mods: {
 				'''
 			Pandemic:
 				'''
-				Fires plague seekers when enemies are near
-				A very agile yoyo
+				有敌人在附近时发射瘟疫搜寻者
+				一只十分灵活的悠悠球 
 				'''
 			PerfectDark: 发射恶毒球体，黏附于物块并爆炸
 			PhosphorescentGauntlet:
@@ -7460,9 +7463,9 @@ Mods: {
 				'''
 			Pwnagehammer:
 				'''
-				Throws a heavy, gravity-affected hammer that creates a loud blast of hallowed energy when it hits something
-				There is a 20 percent chance for the hammer to home in on a target
-				Homing hammers summon an additional spectral hammer on hit and are guaranteed to land a critical hit
+				投掷一把沉重，受重力影响的战锤，击中物体时引发神圣能量爆炸
+				战锤有20%几率会追踪敌人
+				追踪战锤击中后召唤一柄幽灵战锤，且必定暴击
 				'''
 			Quagmire: 发射孢子云
 			RedSun:
@@ -7472,11 +7475,11 @@ Mods: {
 				'''
 			RedtideSpear:
 				'''
-				Poisons enemies on hit
-				Aiming the spear in front of you while running holds it down with increased knockback
-				Releasing the attack button after the charge makes an upwards slash, sending enemies flying into the air
-				[c/5C95A1:The people of the sea were adept hunters, but they abhorred unnecessary violence.]
-				[c/5C95A1:Unfortunately, neighboring nations were brutish, so they fashioned their tools for war.]
+				击中时使敌人中毒
+				在奔跑时按住攻击键会举起长矛并增加击退
+				停止奔跑或松开攻击键会进行一次上挑攻击，将敌人挑至空中
+				[c/5C95A1:大海之民善于狩猎，但他们痛恨没有意义的暴力。]
+				[c/5C95A1:幸的是，他们的邻国一个个都野蛮无比，因此他们铸造出了战争的兵器。]
 				'''
 			RemsRevenge:
 				'''
@@ -7502,8 +7505,8 @@ Mods: {
 			SeashineSword: 发射水刃剑气
 			SeekingScorcher:
 				'''
-				May your enemies burn in hell for the sins they have committed
-				Throws a holy boomerang that seeks out up to four enemies before returning to the player
+				你的敌人将连同他们的罪孽一起在地狱中焚烧殆尽
+				扔出一把神圣飞斧，追踪并攻击至多三个目标然后返回
 				'''
 			Shimmerspark:
 				'''
@@ -7538,7 +7541,7 @@ Mods: {
 				光束会射向附近的敌怪
 				'''
 			StarnightLance: 发射星夜光矛
-			StellarContempt: Lunar flares rain down on enemy hits
+			StellarContempt: 击中敌人时天降月炎射线
 			StellarStriker: 击中敌人时召唤数道月炎射线从天而降
 			StormRuler:
 				'''
@@ -7654,7 +7657,7 @@ Mods: {
 				'''
 			UltimusCleaver: 发射会追踪的蓝焰火花，击中敌人时爆炸
 			UrchinFlail: 甩出海胆链球，击中敌人时发射海胆刺
-			UrchinMace: Throws out a whirlpool when released at full charge
+			UrchinMace: 充能完毕时掷出一股赤潮涡流
 			VeinBurster: 发射一个血肉之雷，会黏在地上或敌人身上，造成爆炸
 			Verdant:
 				'''
@@ -7662,8 +7665,8 @@ Mods: {
 				一只十分灵活的悠悠球
 				'''
 			Violence: 掷出会在你鼠标附近旋转的硫火三叉戟，撕裂你的敌人
-			Virulence: Fires a plague cloud
-			VulcaniteLance: Explodes on enemy hits and summons homing flares on critical hits
+			Virulence: 发射瘟疫之云
+			VulcaniteLance: 击中敌人时产生爆炸，暴击时召唤追踪火焰
 			WindBlade: 发射会将敌怪吸入的旋风
 			WulfrumScrewdriver:
 				'''
@@ -7718,8 +7721,8 @@ Mods: {
 				'''
 			AntiMaterielRifle:
 				'''
-				Converts musket balls into .50 caliber sniper rounds that rip apart enemy defense and DR
-				If you crit the target a second swarm of bullets will fire
+				将火枪子弹转化为大口径.50狙击子弹，撕裂敌人的防御和伤害减免
+				如果造成暴击，会在敌人身旁召唤一梭子弹
 				'''
 			AquashardShotgun: 将火枪子弹转化为蓝晶碎片，击中敌人时分裂为追踪碎片
 			Arbalest:
@@ -7812,15 +7815,15 @@ Mods: {
 				'''
 			ConferenceCall:
 				'''
-				@everyone
-				50% chance to not consume ammo
+				@全体成员
+				50%几率不消耗弹药
 				'''
 			Contagion: 发射瘟疫箭，在飞行过程中产生瘟疫爆弹
 			ContinentalGreatbow:
 				'''
-				Wooden arrows are set alight with fire
-				Fires 3 arrows at once
-				Fires 2 additional cursed, hellfire, or ichor arrows
+				木箭会被火焰点燃
+				一次发射三支箭矢
+				额外发射两支诅咒地狱、狱炎或灵液箭
 				'''
 			CoralCannon:
 				'''
@@ -7872,7 +7875,7 @@ Mods: {
 			DragonsBreath:
 				'''
 				左键发射两束散弹
-				第一束为六发普通子弹
+				第一束为六发火枪子弹
 				第二束为六发密集龙息弹
 				右键全自动发射两种子弹，但伤害降低20%
 				该武器弹幕散布没有随机性
@@ -7939,7 +7942,7 @@ Mods: {
 				'''
 			Fungicide: 将火枪子弹转化为命中后分裂的真菌弹
 			Galeforce: 发射几只低伤害天羽
-			GodsBellows: 70% chance to not consume gel
+			GodsBellows: 70%几率不消耗凝胶
 			GoldenEagle: 一次发射五颗子弹
 			Goobow: 发射两束凝胶
 			GunkShot: 发射数颗子弹
@@ -7952,7 +7955,7 @@ Mods: {
 				右键以扩大视野
 				'''
 			HandheldTank: ""
-			HavocsBreath: 50% chance to not consume gel
+			HavocsBreath: 50%几率不消耗凝胶
 			HeavenlyGale:
 				'''
 				发射一连串迅速的增压星流晶体箭\r
@@ -7989,7 +7992,7 @@ Mods: {
 			Infinity:
 				'''
 				发射一团会分裂弹射的能量子弹
-				右键发射一团普通子弹
+				右键发射一团火枪子弹
 				只要你把它握在手中，无限的解离就不会停止
 				'''
 			Karasawa: ……这把枪太沉了……太沉了
@@ -8018,7 +8021,7 @@ Mods: {
 				'''
 			Megalodon:
 				'''
-				50%概率不消耗子弹
+				50%概率不消耗弹药
 				每隔一发就会射出强劲水流
 				'''
 			Meowthrower:
@@ -8049,8 +8052,8 @@ Mods: {
 			Needler: 将火枪子弹转化为钉在敌人身上并爆炸的叶针
 			NettlevineGreatbow:
 				'''
-				Shoots 4 arrows at once
-				Fires 2 additional venom or chlorophyte arrows
+				一次发射四支箭
+				发射两支额外的剧毒箭或叶绿箭
 				'''
 			Norfleet:
 				'''
@@ -8086,7 +8089,7 @@ Mods: {
 			PearlGod:
 				'''
 				汝命归我……
-				发射吸血的震爆弹和普通子弹
+				发射吸血的震爆弹和火枪子弹
 				每七次射击发射一枚强力冲击波子弹
 				'''
 			PestilentDefiler: 将火枪子弹转化为会爆裂成瘟疫碎片的瘟疫子弹
@@ -8110,13 +8113,13 @@ Mods: {
 				'''
 			PridefulHuntersPlanarRipper:
 				'''
-				Every fourth shot deals 135% damage
-				Converts musket balls into lightning bolts
-				Lightning bolts travel extremely fast and explode on enemy kills
-				Lightning bolt crits grant a stacking speed boost to the player
-				This stacks up to 20 percent bonus movement speed and acceleration
-				The boost will reset if the player holds a different item
-				33% chance to not consume ammo
+				每四发闪电弹会有一发造成135%的伤害
+				将火枪子弹转化为闪电弹
+				闪电弹的弹幕速度很快，并在击杀敌人时产生爆炸
+				闪电弹暴击时会使你获得可堆叠的速度加成
+				至多获得20%移动速度和加速度加成
+				切换手持的物品会重置加成
+				33%几率不消耗弹药
 				'''
 			PristineFury:
 				'''
@@ -8135,9 +8138,9 @@ Mods: {
 				'''
 			ReedBlowgun:
 				'''
-				Fires a high-pressure stream of bubbles
-				[c/5C95A1:The Old Sea Kingdom never truly sought to expand beyond its initial borders.]
-				[c/5C95A1:However, they had a perfect track record of repelling any invasions, thanks to their insurmountable advantage in the water.]
+				发射高压气泡流
+				[c/5C95A1:昔日的海洋王国从未真正需求过领土的扩张。]
+				[c/5C95A1:但也多亏了在水中无可匹敌的优势，他们完美的击退了所有敌人的入侵。]
 				'''
 			RubicoPrime:
 				'''
@@ -8157,8 +8160,8 @@ Mods: {
 			Scorpio:
 				'''
 				BOOM
-				Right click to fire a nuke
-				Rockets will destroy tiles with tile-destroying ammo
+				右键发射核弹
+				使用可摧毁物块的弹药时火箭会破坏物块
 				'''
 			SDFMG:
 				'''
@@ -8191,9 +8194,9 @@ Mods: {
 				'''
 				神话，传说，这把枪能让你的电脑爆炸
 				发射一团会分裂弹射的能量子弹
-				右键发射一团普通子弹
+				右键发射一团火枪子弹
 				'''
-			Shroomer: 发射普通子弹以及强大的追踪蘑菇
+			Shroomer: 发射火枪子弹以及强大的追踪蘑菇
 			SlagMagnum: 将火枪子弹转化为化石碎片，命中后生成额外的化石碎片
 			SomaPrime:
 				'''
@@ -8201,7 +8204,7 @@ Mods: {
 				所有发射的弹幕都会造成解离和可堆叠的流血减益
 				解离减益每秒造成150点伤害，该伤害受到你远程增益的影响。
 				解离减益每次造成伤害时，都有几率触发暴击或者超暴击
-				将普通子弹转化为高速子弹
+				将火枪子弹转化为高速子弹
 				80%概率不消耗弹药
 				'''
 			SparkSpreader: 70%几率不消耗凝胶
@@ -8210,10 +8213,10 @@ Mods: {
 				70%几率不消耗信号弹
 				发射失落之魂与信号弹
 				'''
-			SpeedBlaster: Shoots a string of paint blasts
+			SpeedBlaster: 发射一束颜料弹
 			Spyker: 将火枪子弹转化为会钉在敌人身上并爆炸的叶针
 			Starfleet: 发射数个等离子星弹
-			Starmada: Fires a barrage of stars and plasma blasts
+			Starmada: 发射星辰与等离子星弹
 			StarSputter:
 				'''
 				发射一束陨星
@@ -8292,23 +8295,23 @@ Mods: {
 				'''
 				令星空坠落到敌人头上
 				从枪口发射一簇子弹，令一簇坠星朝鼠标位置降落
-				将普通子弹转化为击中后召唤额外坠星的唤星弹
-				50%概率不消耗子弹
+				将火枪子弹转化为击中后召唤额外坠星的唤星弹
+				50%概率不消耗弹药
 				'''
 			Voidragon:
 				'''
-				75% chance to not consume ammo
-				Fires void blasts that explode every other shot
-				Shoots demon flame tentacles alongside every shot
+				75%几率不消耗弹药
+				每隔一发就会发射虚空爆破弹
+				每一发都会射出魔火之触
 				'''
 			Vortexpopper: 从各个方向发射泡泡，爆炸时产生子弹
 			WulfrumBlunderbuss:
 				'''
-				Consumes wulfrum scrap or silver coins to fire
-				The shot's spread can be diminished by aiming further away, at the cost of less damage
-				Ignores 3 points of enemy Defense
-				[c/83B87E:"The good thing about Wulfrum is that while it breaks fast, it can be reused even faster"]
-				[c/83B87E:"In fact, it is quite common for a robot to be turned into ammo right after it stops functioning"]
+				消耗钨钢金属废料开火
+				射击的扩散可以通过瞄准更远的地方来减少，但代价是伤害减少
+				无视敌人3点的防御力
+				[c/83B87E:"钨钢的好处是虽然随便就碎了，但它可以很快就二次利用”]
+				[c/83B87E:"事实上，机器人停工后即刻变成弹药是很常见的"]
 				'''
 			AcidicRainBarrel:
 				'''
@@ -8507,8 +8510,8 @@ Mods: {
 				'''
 			ElementalDisk:
 				'''
-				Throws a disk that has a chance to generate several disks if enemies are near it
-				Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
+				掷出元素飞盘，敌怪在附近时有几率生成数个新的元素飞盘
+				潜伏攻击飞行速度较慢，但飞行距离远，穿透敌怪并生成更多额外的飞盘
 				'''
 			EnchantedAxe:
 				'''
@@ -8565,9 +8568,9 @@ Mods: {
 				'''
 			FishboneBoomerang:
 				'''
-				Stealth strikes make the boomerang ricochet between enemies
-				[c/5C95A1:Though the evaporating Sea Kingdom fought a losing battle, its proud inhabitants did not go down easily.]
-				[c/5C95A1:As a last resort, they had to fashion weapons from the skeletons of dead animals.]
+				潜伏攻击会扔出能敌人之间弹跳的回旋镖
+				[c/5C95A1:尽管被蒸发至干涸的海洋王国输掉了这场战争，但它骄傲的人民并不会轻易放弃。]
+				[c/5C95A1:作为最后的手段，他们不得不将动物的尸骨制成兵器。]
 				'''
 			FrostcrushValari:
 				'''
@@ -8672,8 +8675,8 @@ Mods: {
 				'''
 			InfestedClawmerang:
 				'''
-				Fires a slow, long-ranged boomerang
-				Stealth strikes grant the Mushy buff to the user on enemy hits and summon homing spores
+				发射慢速，远距离的回旋镖
+				潜伏攻击给予使用者与菇共生增益并召唤爆炸孢子
 				'''
 			IronFrancisca:
 				'''
@@ -8767,10 +8770,10 @@ Mods: {
 			MythrilKnife: 潜伏攻击对敌人造成许多减益
 			NanoblackReaper:
 				'''
-				Unleashes a storm of nanoblack energy blades
-				Blades target bosses whenever possible
-				Stealth strikes cause the scythe to create a large amount of homing afterimages instead of energy blades
-				'She smothered them in Her hatred'
+				释放纳米黑能量刀刃风暴
+				刀刃永远优先以Boss为目标
+				潜伏攻击会导致镰刃产生大量自动追踪的残像，而不是能量刀刃
+				“生灵在她的无尽仇恨中溺亡”
 				'''
 			NastyCholla:
 				'''
@@ -8912,7 +8915,7 @@ Mods: {
 				消散结束后生成六个急速切割附近敌人的刀刃和一束激光
 				潜伏攻击释放一簇爆炸成激光和匕首的光弹
 				'''
-			ShardofAntumbra: Stealth strikes leave homing stars in their wake
+			ShardofAntumbra: 潜伏攻击飞行时留下追踪星星
 			ShatteredSun:
 				'''
 				投掷会分裂两次的追踪匕首，击中敌人时爆炸
@@ -8995,8 +8998,8 @@ Mods: {
 				'''
 			SubductionSlicer:
 				'''
-				Throws a scythe that explodes on enemy hits
-				Stealth strikes also summon an orange pillar of fire on enemy hits
+				扔出会在击中敌人时爆炸的飞镰
+				潜伏攻击命中目标后产生火柱
 				'''
 			Supernova:
 				'''
@@ -9026,8 +9029,8 @@ Mods: {
 				'''
 			TheOldReaper:
 				'''
-				Slice 'n dice
-				Stealth strikes throw four at once
+				切成碎片
+				潜伏攻击一次扔出4把飞镰
 				'''
 			TheSyringe:
 				'''
@@ -9080,8 +9083,8 @@ Mods: {
 				'''
 			WaveSkipper:
 				'''
-				Throws a spear that bounces a lot
-				Stealth strikes throw three high speed spears
+				投掷一把可以弹跳很多次的标枪
+				潜伏攻击扔出三把高速标枪
 				'''
 			WebBall:
 				'''
@@ -9090,8 +9093,8 @@ Mods: {
 				'''
 			Wrathwing:
 				'''
-				Throws an agile, homing winged spear that constantly spits fire
-				Stealth strikes create an eruption of cinders on hit
+				投掷追踪并在飞行过程中不断释放火球的长矛
+				潜伏攻击会在命中后喷发出火球
 				'''
 			WulfrumKnife:
 				'''
@@ -9138,7 +9141,7 @@ Mods: {
 				'''
 				召唤一架黑鹰战机为你而战
 				战机会消耗你物品栏中的子弹类弹药
-				50%几率不消耗子弹
+				50%几率不消耗弹药
 				'''
 			BloodClotStaff: 召唤血块为你而战
 			BorealisBomber:
@@ -9258,23 +9261,23 @@ Mods: {
 				'''
 			EntropysVigil:
 				'''
-				Summons Calamitas and her brothers to protect you
-				One minion trio takes two minion slots
+				召唤灾厄和她的两兄弟来保护你
+				每个三人组占据两格召唤栏位
 				'''
 			EtherealSubjugator: 召唤幽花保护你
 			EyeOfNight: 召唤会发射瘟疫细胞的永夜眼球，瘟疫细胞会附着在敌怪身上
 			FlamsteedRing:
 				'''
-				Summons a colossal controllable mech
-				Right click to display the mech's control panel
-				The panel has 3 configurations, selected using the brackets on the edges of the UI
-				Each bracket powers 2 out of 3 possible functions, represented by the circular icons.
-				The bottom left icon miniaturizes the mech to the size of a player, but weakens its weapons.
-				The bottom right icon is a powerful jet booster which greatly enhances movement.
-				The top icon is the mech's weaponry. It must be powered in order to attack.
-				Click the top icon to switch between Regicide, an enormous energy blade, and a powerful Gauss rifle.
-				Exiting the mount while a boss is alive will temporarily hinder your movement
-				[c/87ceeb:Now, make them pay.]
+				召唤一架可控的巨型战甲
+				右键展示控制面板
+				通过选定UI上边框之一来调整面板上的三个配置选项
+				每个边框可以使用三种能力中的其中两个，可通过面板上的圆形标志来辨识启用了何种能力
+				左下方标志可以将战甲缩小至玩家体型，但会弱化武器
+				右下方的标志为飞行助推器，短期内极大幅度提高移动速度
+				正上方标志为战甲的武器配置。此标志亮起时，战甲才可进行攻击
+				点击上方标志以切换战斗模式，战斗模式分为两种：装配有强大的能量光刃的弑君模式，以及高斯能量步枪模式
+				Boss存活时解除战甲会短暂阻碍玩家的移动
+				[c/87ceeb:现在，让他们偿还吧。]
 				'''
 			FleshOfInfidelity: 召唤一个触手血球，向敌怪抛出血弹
 			FlowersOfMortality:
@@ -9307,8 +9310,8 @@ Mods: {
 			GodspawnHelixStaff: 召唤星神探测器来保护你
 			GuidelightofOblivion:
 				'''
-				Shadows dream of endless fire, flames devour and embers swoop
-				Summons a lantern turret to fight for you
+				无尽火焰的暗影之梦，火焰吞噬，余烬落下
+				召唤失落之灯为你而战
 				'''
 			HauntedScroll: 召唤一个缠怨鬼碟为你而战
 			HerringStaff:
@@ -9419,7 +9422,7 @@ Mods: {
 				'''
 				召唤一架瘟疫战机，打得敌人叫妈妈
 				战机会消耗你物品栏中的子弹类弹药
-				50%几率不消耗子弹
+				50%几率不消耗弹药
 				有时会发射导弹而非子弹
 				导弹不会消耗子弹
 				'''
@@ -9485,8 +9488,8 @@ Mods: {
 				'''
 			YharonsKindleStaff:
 				'''
-				Summons a fiery draconid to fight for you
-				Requires 5 minion slots to use
+				召唤一只炽焰天龙为你而战
+				每只焰龙占据5格召唤栏位
 				'''
 			Aestheticus:
 				'''
@@ -9525,8 +9528,8 @@ Mods: {
 				'''
 			Skynamite:
 				'''
-				You don't need an aerodynamics major to use this
-				Throws a floaty explosive that defies gravity
+				你无需精通空气动力学就能扔这玩意
+				扔出一个无视重力的悬浮炸药
 				'''
 			StarStruckWater: 蔓延星辉瘟疫
 			YanmeisKnife:
@@ -9537,8 +9540,7 @@ Mods: {
 				荣誉相随的钢铁雄心
 				'''
 			}
-		ProjectileName:
-			{
+		ProjectileName: {
 			MarniteRepulsionHitbox: Repulsion Matrix
 			ApolloChargeTelegraph: Apollo Charge Telegraph
 			ApolloFireball: Volatile Plasma Blast
@@ -11437,8 +11439,7 @@ Mods: {
 			YanmeisKnifeSlash: Yanmei's Knife
 			YellowLabSeeker: Seeking Mechanism
 			}
-		NPCName:
-			{
+		NPCName: {
 			Bloatfish: 肿胀翻车鱼
 			BobbitWormHead: 博比特虫
 			BobbitWormSegment: 博比特虫
@@ -11719,7 +11720,7 @@ Mods: {
 			BrimstoneHeart: 硫磺火之心
 			SepulcherArm: 灾坟魔物
 			SepulcherBody: 灾坟魔物
-			SepulcherBodyEnergyBall: Sepulcher
+			SepulcherBodyEnergyBall: 灾坟魔物
 			SepulcherHead: 灾坟魔物
 			SepulcherTail: 灾坟魔物
 			SoulSeekerSupreme: 至尊探魂者
@@ -11734,31 +11735,28 @@ Mods: {
 			WITCH: 硫火女巫
 			Yharon: 重生之龙，犽戎
 			}
-		DamageClassName:
-			{
-			AverageDamageClass: average damage
-			RogueDamageClass: rogue damage
-			TrueMeleeDamageClass: true melee damage
-			TrueMeleeNoSpeedDamageClass: true melee damage
+		DamageClassName: {
+			AverageDamageClass: 无职业伤害
+			RogueDamageClass: 盗贼伤害
+			TrueMeleeDamageClass: 真近战伤害
+			TrueMeleeNoSpeedDamageClass: 真近战伤害
 			}
-		BiomeName:
-			{
-			AbovegroundAstralBiome: Astral Surface
-			AbovegroundAstralDesertBiome: Astral Desert Surface
-			AbovegroundAstralSnowBiome: Astral Snow Surface
-			AbyssLayer1Biome: Sulphuric Depths
-			AbyssLayer2Biome: Murky Waters
-			AbyssLayer3Biome: Thermal Vents
-			AbyssLayer4Biome: The Void
-			AcidRainBiome: Acid Rain
-			ArsenalLabBiome: Arsenal Labs
-			BrimstoneCragsBiome: Brimstone Crags
-			SulphurousSeaBiome: Sulphurous Sea
-			SunkenSeaBiome: Sunken Sea
-			UndergroundAstralBiome: Astral Underground
+		BiomeName: {
+			AbovegroundAstralBiome: 星辉瘟疫
+			AbovegroundAstralDesertBiome: 星幻沙漠
+			AbovegroundAstralSnowBiome: 星幻雪地
+			AbyssLayer1Biome: 硫海深处
+			AbyssLayer2Biome: 浑浊污水
+			AbyssLayer3Biome: 热泉
+			AbyssLayer4Biome: 虚空
+			AcidRainBiome: 酸雨
+			ArsenalLabBiome: 嘉登实验室
+			BrimstoneCragsBiome: 硫火之崖
+			SulphurousSeaBiome: 硫磺海
+			SunkenSeaBiome: 沉沦之海
+			UndergroundAstralBiome: 星辉瘟疫地下
 			}
-		BuffName:
-			{
+		BuffName: {
 			AlcoholPoisoning: 酒精中毒
 			BloodyMaryBuff: 血腥玛丽
 			CaribbeanRumBuff: 加勒比朗姆酒
@@ -12358,8 +12356,7 @@ Mods: {
 			WitherBlossomsBuff: 瘟疫之蕾环绕在你身边
 			WulfrumDroidBuff: 钨钢无人机会保护你
 			}
-		MapObject:
-			{
+		MapObject: {
 			AstralPylonTile: "{$Mods.CalamityMod.ItemName.AstralPylon}"
 			CragsPylonTile: "{$Mods.CalamityMod.ItemName.CragsPylon}"
 			SulphurPylonTile: "{$Mods.CalamityMod.ItemName.SulphurPylon}"
@@ -12721,45 +12718,39 @@ Mods: {
 			TubeCoral: Tube Coral
 			VernalSoil: Vernal Soil
 			}
-		Prefix:
-			{
-			Atrocious: Atrocious
-			Blunt: Blunt
-			Camouflaged: Camouflaged
-			Cloaked: Cloaked
-			Feathered: Feathered
-			Flawless: Flawless
-			Flimsy: Flimsy
-			Glorious: Glorious
-			Hefty: Hefty
-			Lethal: Lethal
-			Mighty: Mighty
-			Pointy: Pointy
-			Quiet: Quiet
-			Radical: Radical
-			RogueAccessoryPrefix: Rogue Accessory Prefix
-			RogueWeaponPrefix: Rogue Weapon Prefix
-			Serrated: Serrated
-			Sharp: Sharp
-			Silent: Silent
-			Sleek: Sleek
-			Unbalanced: Unbalanced
-			Vicious: Vicious
+		Prefix: {
+			Atrocious: 糟糕
+			Blunt: 钝化
+			Camouflaged: 伪装
+			Cloaked: 隐蔽
+			Feathered: 覆羽
+			Flawless: 化境
+			Flimsy: 易碎
+			Glorious: 荣光
+			Hefty: 强劲
+			Lethal: 致命
+			Mighty: 强力
+			Pointy: 尖锐
+			Quiet: 宁静
+			Radical: 极端
+			Serrated: 锯齿
+			Sharp: 锐利
+			Silent: 寂静
+			Sleek: 光滑
+			Unbalanced: 失衡
+			Vicious: 恶毒
 			}
-		Config:
-			{
-			MainTitle: Main Config
-			SectionTitle:
-				{
-				ExpertMaster: Expert and Master Mode Changes
-				Gameplay: General Gameplay Changes
-				Graphics: Graphics Changes
-				Revengeance: Revengeance Mode Changes
-				UI: UI Changes
-				BaseBoosts: Base Stat Boosts
+		Config: {
+			MainTitle: 主要配置
+			SectionTitle: {
+				ExpertMaster: 专家和大师模式改动
+				Gameplay: 总体游戏内容改动
+				Graphics: 画面改动
+				Revengeance: 复仇模式改动
+				UI: UI改动
+				BaseBoosts: 基础属性加成
 				}
-			EntryTitle:
-				{
+			EntryTitle: {
 				AdrenalineMeterPosX: "[i:2799] Adrenaline Meter X Position"
 				AdrenalineMeterPosY: "[i:2799] Adrenaline Meter Y Position"
 				Afterimages: "[i:1742] Afterimages"
@@ -13014,14 +13005,12 @@ Mods: {
 				WikiStatusMessage: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
 				}
 			}
-		UI:
-			{
+		UI: {
 			SmallWorldWarning: "[c/ff00000:SMALL WORLDS NOT SUPPORTED BY CALAMITY]"
 			}
 		TownNPCMood:
 			{
-			DILF:
-				{
+			DILF: {
 				Content: The weather is cool today.
 				NoHome: Without a place to rest, my studies cannot proceed. Could you procure me a living space? I no longer like to make my homes using ice magic.
 				LoveSpace: Too many people can disrupt the flow of mana. I much prefer the breathing room here.
@@ -13035,8 +13024,7 @@ Mods: {
 				DislikeNPC: I dislike {NPCName}'s blatant disregard of magic. I cannot blame his functions, but he is quite ignorant.
 				LikeNPC_Princess: "{NPCName} has some very quaint spells. I'm quite impressed, for someone of her age."
 				}
-			FAP:
-				{
+			FAP: {
 				Content: It's 5 o'clock somewhere.
 				NoHome: I need a place to crash! My drinks need to be properly cooled before they can be served!
 				LoveSpace: Finally, some peace and quiet. Large quantities of people tend to piss me off.
@@ -13057,8 +13045,7 @@ Mods: {
 				HateNPC_Angler: "{NCPName} never stops blabbering about his inane fishing quests. Get me away from him before I stomp him into the ground!"
 				LikeNPC_Princess: You think I'd dislike {NPCName} because we're too different? Quite the contrary, there's a lot we like to talk about, over non-alcoholic drinks of course.
 				}
-			SEAHOE:
-				{
+			SEAHOE: {
 				Content: I am satisfied.
 				NoHome: Thank you for your service, but I am afraid I am without a home now.
 				LoveSpace: Ah, the quiet of solitude is something I much enjoy.
@@ -13073,8 +13060,7 @@ Mods: {
 				HateNPC: "{NPCName} is just a child, but his attitude towards marine life is unacceptable! Absolutely unacceptable!"
 				LikeNPC_Princess: That child, {NPCName}. She is an innocent soul. Let us hope the horrors of war never reach her.
 				}
-			THIEF:
-				{
+			THIEF: {
 				Content: It's been going well!
 				NoHome: You have a place to bunk? Sleeping on the ground makes me stiff and sore.
 				LoveSpace: Less people makes getting away with certain things easier.
@@ -13088,8 +13074,7 @@ Mods: {
 				DislikeNPC: What a goody two shoes, {NPCName} is! I dislike her out of principle! …And because she has almost no material goods.
 				LikeNPC_Princess: I couldn't bear to steal anything from {NPCName}, she's so cute!
 				}
-			WITCH:
-				{
+			WITCH: {
 				Content: I can't complain really.
 				NoHome: Anywhere would be better than a cave with no bed or lighting.
 				LoveSpace: The quieter, the better. This is good.
@@ -13104,8 +13089,7 @@ Mods: {
 				LikeNPC_Princess: What a strangely pleasant kid, {NPCName} is to be around.
 				}
 			}
-		GameTips:
-			{
+		GameTips: {
 			SunkenSeaTip: Deep below the Underground Desert lie the ruined outskirts of a fallen kingdom.
 			ArsenalLabTip: Old labs can be found scattered throughout the Underground.
 			PlanetoidTip: You can find Planetoids in outer space!
