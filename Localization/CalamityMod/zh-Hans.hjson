@@ -1,8 +1,5 @@
 Mods: {
 	CalamityMod: {
-		KeyBindName: {
-			AdrenalineMode: 肾上腺素键
-		}
 		ItemName: {
 			AstralPylon: 星辉地晶塔
 			CragsPylon: 硫火崖晶塔
@@ -2733,7 +2730,7 @@ Mods: {
 				减半防御损伤效果
 				将肾上腺素条替换为纳米机器条
 				与肾上腺素不同，你在受到伤害时不会失去纳米机器条而是停止充能1秒
-				在完全充能时，按下"{$Mods.CalamityMod.KeyBindName.AdrenalineMode}"会在2秒内逐渐回复360点生命值
+				在完全充能时，按下肾上腺素模式键会在2秒内逐渐回复360点生命值
 				上述效果激活时，降低50%所受伤害
 				“纳米机器，小子。”
 				'''
