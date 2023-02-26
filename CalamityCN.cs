@@ -23,7 +23,6 @@ namespace CalamityCN
 
         public override void PostSetupContent()
         {
-            ModLoader.TryGetMod("CalamityMod", out Mod Calamity);
             /*(网址格式改不了https://url/wiki/{})
             ModLoader.TryGetMod("Wikithis", out Mod wikithis);
             if (wikithis != null && !Main.dedServ)
@@ -31,35 +30,7 @@ namespace CalamityCN
                 wikithis.Call(0, Calamity, "soammer.com/calamitywiki", GameCulture.CultureName.Chinese);
             }
             */
-            if (Calamity != null)
-            {
-                ItemNameDict.Load();
-                ItemToolTipDict.Load();
-                NPCNameDict.Load();
-                BuffNameDict.Load();
-                BuffDescriptionDict.Load();
 
-                foreach (var itemName in ItemNameDict.ItemName)
-                {
-                    Calamity.Find<ModItem>(itemName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, itemName.Value);
-                }
-                foreach (var itemTooltip in ItemToolTipDict.ItemToolTip)
-                {
-                    Calamity.Find<ModItem>(itemTooltip.Key).Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, itemTooltip.Value);
-                }
-                foreach (var effectName in BuffNameDict.EffectName)
-                {
-                    Calamity.Find<ModBuff>(effectName.Key).DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, effectName.Value);
-                }
-                foreach (var effectDescription in BuffDescriptionDict.EffectDescription)
-                {
-                    Calamity.Find<ModBuff>(effectDescription.Key).Description.AddTranslation((int)GameCulture.CultureName.Chinese, effectDescription.Value);
-                }
-                foreach (var npcName in NPCNameDict.NPCName)
-                {
-                    Calamity.Find<ModNPC>(npcName.Key).DisplayName.AddTranslation(7, npcName.Value);
-                }
-            }
         }
         public override void Load()
         {
@@ -116,12 +87,6 @@ namespace CalamityCN
         {
             GetFriendlyName -= TranslatedFriendlyName;
 
-            ItemNameDict.Unload();
-            ItemToolTipDict.Unload();
-            NPCNameDict.Unload();
-            BuffNameDict.Unload();
-            BuffDescriptionDict.Unload();
-
             Instance = null;
             CalamityCNConfig.Instance = null;
             if (this.Contents != null)
@@ -156,67 +121,67 @@ namespace CalamityCN
             {
                 if (keybindName == "CalamityMod: Normality Relocator")
                 {
-                    return "灾厄：常态定位器".zh();
+                    return "灾厄：常态定位器";
                 }
                 if (keybindName == "CalamityMod: Rage Mode")
                 {
-                    return "灾厄：暴怒模式".zh();
+                    return "灾厄：暴怒模式";
                 }
                 if (keybindName == "CalamityMod: Adrenaline Mode")
                 {
-                    return "灾厄：肾上腺素".zh();
+                    return "灾厄：肾上腺素";
                 }
                 if (keybindName == "CalamityMod: Elysian Guard")
                 {
-                    return "灾厄：极乐守护".zh();
+                    return "灾厄：极乐守护";
                 }
                 if (keybindName == "CalamityMod: Armor Set Bonus")
                 {
-                    return "灾厄：套装奖励".zh();
+                    return "灾厄：套装奖励";
                 }
                 if (keybindName == "CalamityMod: Astral Teleport")
                 {
-                    return "灾厄：天魔星石传送".zh();
+                    return "灾厄：天魔星石传送";
                 }
                 if (keybindName == "CalamityMod: Astral Arcanum UI Toggle")
                 {
-                    return "灾厄：星辉秘术UI".zh();
+                    return "灾厄：星辉秘术UI";
                 }
                 if (keybindName == "CalamityMod: Sand Cloak Effect")
                 {
-                    return "灾厄：沙尘披风".zh();
+                    return "灾厄：沙尘披风";
                 }
                 if (keybindName == "CalamityMod: Spectral Veil Teleport")
                 {
-                    return "灾厄：幽灵披风传送".zh();
+                    return "灾厄：幽灵披风传送";
                 }
                 if (keybindName == "CalamityMod: Booster Dash")
                 {
-                    return "灾厄：喷射器冲刺".zh();
+                    return "灾厄：喷射器冲刺";
                 }
                 if (keybindName == "CalamityMod: Angelic Alliance Blessing")
                 {
-                    return "灾厄：圣天誓盟祝福".zh();
+                    return "灾厄：圣天誓盟祝福";
                 }
                 if (keybindName == "CalamityMod: God Slayer Dash")
                 {
-                    return "灾厄：弑神者冲刺".zh();
+                    return "灾厄：弑神者冲刺";
                 }
                 if (keybindName == "CalamityMod: Exo Chair Slow Down")
                 {
-                    return "灾厄：星流飞椅减速".zh();
+                    return "灾厄：星流飞椅减速";
                 }
                 if (keybindName == "CalamityMod: Dash Double Tap Override")
                 {
-                    return "灾厄：单击冲刺".zh();
+                    return "灾厄：单击冲刺";
                 }
                 if (keybindName == "InfernumMode: Wayfinder Create Key")
                 {
-                    return "炼狱：魔法门创造键".zh();
+                    return "炼狱：魔法门创造键";
                 }
                 if (keybindName == "InfernumMode: Wayfinder Destroy Key")
                 {
-                    return "炼狱：魔法门破坏键".zh();
+                    return "炼狱：魔法门破坏键";
                 }
             }
             return orig.Invoke(item);

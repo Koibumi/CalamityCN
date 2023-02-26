@@ -48,10 +48,10 @@ namespace CalamityCN.Translations.Patch {
                 }
             }
             //对话按钮
-            QuickTranslate(typeof(THIEF), "SetChatButtons", "Refund", "退款".zh());
-            QuickTranslate(typeof(SEAHOE), "SetChatButtons", "Help", "帮助".zh());
-            QuickTranslate(typeof(WITCH), "SetChatButtons", "Enchant", "咒术炼注".zh());
-            QuickTranslate(typeof(FAP), "SetChatButtons", "Death Count", "死亡次数".zh());
+            QuickTranslate(typeof(THIEF), "SetChatButtons", "Refund", "退款");
+            QuickTranslate(typeof(SEAHOE), "SetChatButtons", "Help", "帮助");
+            QuickTranslate(typeof(WITCH), "SetChatButtons", "Enchant", "咒术炼注");
+            QuickTranslate(typeof(FAP), "SetChatButtons", "Death Count", "死亡次数");
             //死亡信息
             QuickTranslate(typeof(CalamityPlayer), "KillPlayer", " is food for the Wyrms.", "成为了妖龙的食物。");
             QuickTranslate(typeof(CalamityPlayer), "KillPlayer", "Oxygen failed to reach ", "在");
