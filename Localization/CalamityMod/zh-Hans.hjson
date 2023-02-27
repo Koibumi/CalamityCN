@@ -1047,7 +1047,7 @@ Mods: {
 			AncientSofa: 远古沙发
 			AncientTable: 远古桌
 			AncientWorkBench: 远古工作台
-			AshenAccentSlab: 灰烬硬制石板
+			AshenAccentSlab: 灰烬石材板
 			AshenBasin: 灰烬火盆
 			AshenBathtub: 灰烬浴缸
 			AshenBed: 灰烬床
@@ -5567,8 +5567,8 @@ Mods: {
 			AncientWorkBench: ""
 			AshenAccentSlab:
 				'''
-				灰烬石板的另一种样式，会与附近的物块以不同的方式合并
-				高级建筑师的最爱
+				另一种版本的灰烬石板，和临近物块的融合方式有所不同
+				深受高级建造者青睐
 				'''
 			AshenBasin: ""
 			AshenBathtub: ""
