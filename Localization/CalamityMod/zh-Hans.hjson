@@ -5567,7 +5567,7 @@ Mods: {
 			AncientWorkBench: ""
 			AshenAccentSlab:
 				'''
-				一种灰烬石板的变体，会与附近的物块以不同的方式合并
+				灰烬石板的另一种样式，会与附近的物块以不同的方式合并
 				高级建筑师的最爱
 				'''
 			AshenBasin: ""
