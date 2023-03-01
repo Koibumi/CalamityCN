@@ -1,14 +1,6 @@
 
 LabHologramProjectorUI 文本
 
-Boss清单更改
-Kill a Tumor in the Corruption or use a [i:
-
-ItemDropRules
-IItemDropRuleCondition
-ItemDropHelper
-的文本内容
-
 CalamityMod.UI.DraedonSummoning.DraedonDialogRegistry::.cctor()": 的新增文本
 0: Who are you?
 1:
@@ -45,10 +37,6 @@ Is that such a surprise? He no longer required my services and I no longer neede
 Should you locate him, I'll await the news of either his or your death. Perhaps I will collect the cadaver.
 
 npc图鉴
-
-
-System.Void CalamityMod.NPCs.Providence.ProvUtils::ApplyHitEffects(Terraria.Player,System.Int32,System.Int32,System.Int32)":
-0: " burst into sinless ash."
 
 HiveCyst -> HiveTumor
 腐化肿瘤
