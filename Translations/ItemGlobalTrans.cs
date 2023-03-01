@@ -962,6 +962,11 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Voltage Regulation System", "电压校准系统");
 
                 }
+                
+                if (item.type == ModContent.ItemType<Terminus>())
+            {
+                line.Text = line.Text.Replace("Terminus", "终末石");
+            }
 
                 /*		
                             if (item.type == ModContent.ItemType<>())
