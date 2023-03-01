@@ -13478,7 +13478,7 @@ Mods: {
 			AncientChandelier: ""
 			AncientDoorClosed: ""
 			AncientDoorOpen: ""
-			AncientDresser: Ancient Dresser
+			AncientDresser: 远古梳妆台
 			AncientLamp: ""
 			AncientLantern: ""
 			AncientMonolith: ""
@@ -13496,10 +13496,10 @@ Mods: {
 			AshenCandle: ""
 			AshenChair: ""
 			AshenChandelier: ""
-			AshenChest: Ashen Chest
+			AshenChest: 灰烬箱
 			AshenDoorClosed: ""
 			AshenDoorOpen: ""
-			AshenDresser: Ashen Dresser
+			AshenDresser: 灰烬梳妆台
 			AshenLamp: ""
 			AshenLantern: ""
 			AshenMonolith: ""
@@ -13519,11 +13519,11 @@ Mods: {
 			BotanicCandle: ""
 			BotanicChair: ""
 			BotanicChandelier: ""
-			BotanicChest: Botanic Chest
+			BotanicChest: 植物箱
 			BotanicClock: ""
 			BotanicDoorClosed: ""
 			BotanicDoorOpen: ""
-			BotanicDresser: Botanic Dresser
+			BotanicDresser: 植物梳妆台
 			BotanicLamp: ""
 			BotanicLantern: ""
 			BotanicPiano: ""
@@ -13540,11 +13540,11 @@ Mods: {
 			CosmiliteCandle: ""
 			CosmiliteChair: ""
 			CosmiliteChandelier: ""
-			CosmiliteChest: Cosmilite Chest
+			CosmiliteChest: 宇宙箱
 			CosmiliteClock: ""
 			CosmiliteDoorClosed: ""
 			CosmiliteDoorOpen: ""
-			CosmiliteDresser: Cosmilite Dresser
+			CosmiliteDresser: 宇宙梳妆台
 			CosmiliteLamp: ""
 			CosmiliteLantern: ""
 			CosmilitePiano: ""
@@ -13562,11 +13562,11 @@ Mods: {
 			EutrophicCandle: ""
 			EutrophicChair: ""
 			EutrophicChandelier: ""
-			EutrophicChest: Eutrophic Chest
+			EutrophicChest: 富养箱
 			EutrophicClock: ""
 			EutrophicDoorClosed: ""
 			EutrophicDoorOpen: ""
-			EutrophicDresser: Eutrophic Dresser
+			EutrophicDresser: 富养梳妆台
 			EutrophicLamp: ""
 			EutrophicLantern: ""
 			EutrophicPiano: ""
@@ -13582,13 +13582,13 @@ Mods: {
 			ExoCandleTile: ""
 			ExoChairTile: ""
 			ExoChandelierTile: ""
-			ExoChestTile: Exo Chest
+			ExoChestTile: 星流箱
 			ExoClockTile: ""
 			ExoConsoleTile: ""
 			ExoDisplayTile: ""
 			ExoDoorClosed: ""
 			ExoDoorOpen: ""
-			ExoDresserTile: Exo Dresser
+			ExoDresserTile: 星流梳妆台
 			ExoKeyboardTile: ""
 			ExoLampTile: ""
 			ExoLanternTile: ""
@@ -13612,11 +13612,11 @@ Mods: {
 			MonolithCandle: ""
 			MonolithChair: ""
 			MonolithChandelier: ""
-			MonolithChest: Monolith Chest
+			MonolithChest: 星石箱
 			MonolithClock: ""
 			MonolithDoorClosed: ""
 			MonolithDoorOpen: ""
-			MonolithDresser: Monolith Dresser
+			MonolithDresser: 星石梳妆台
 			MonolithLamp: ""
 			MonolithLantern: ""
 			MonolithPiano: ""
@@ -13631,11 +13631,11 @@ Mods: {
 			OtherworldlyCandle: ""
 			OtherworldlyChair: ""
 			OtherworldlyChandelier: ""
-			OtherworldlyChest: Otherworldly Chest
+			OtherworldlyChest: 异域箱
 			OtherworldlyClock: ""
 			OtherworldlyDoorClosed: ""
 			OtherworldlyDoorOpen: ""
-			OtherworldlyDresser: Otherworldly Dresser
+			OtherworldlyDresser: 异域梳妆台
 			OtherworldlyLamp: ""
 			OtherworldlyLantern: ""
 			OtherworldlyPiano: ""
@@ -13654,11 +13654,11 @@ Mods: {
 			PlaguedPlateCandle: ""
 			PlaguedPlateChair: ""
 			PlaguedPlateChandelier: ""
-			PlaguedPlateChest: Plagued Chest
+			PlaguedPlateChest: 瘟疫箱
 			PlaguedPlateClock: ""
 			PlaguedPlateDoorClosed: ""
 			PlaguedPlateDoorOpen: ""
-			PlaguedPlateDresser: Plagued Dresser
+			PlaguedPlateDresser: 瘟疫梳妆台
 			PlaguedPlateLamp: ""
 			PlaguedPlateLantern: ""
 			PlaguedPlatePiano: ""
@@ -13675,12 +13675,12 @@ Mods: {
 			ProfanedCandle: ""
 			ProfanedChair: ""
 			ProfanedChandelier: ""
-			ProfanedChest: Profaned Chest
+			ProfanedChest: 渎神箱
 			ProfanedClock: ""
 			ProfanedCrystal: ""
 			ProfanedDoorClosed: ""
 			ProfanedDoorOpen: ""
-			ProfanedDresser: Profaned Dresser
+			ProfanedDresser: 渎神梳妆台
 			ProfanedLamp: ""
 			ProfanedLantern: ""
 			ProfanedPiano: ""
@@ -13706,11 +13706,11 @@ Mods: {
 			SacrilegiousCandleTile: ""
 			SacrilegiousChairTile: ""
 			SacrilegiousChandelierTile: ""
-			SacrilegiousChestTile: Sacrilegious Chest
+			SacrilegiousChestTile: 渎圣箱
 			SacrilegiousClockTile: ""
 			SacrilegiousDoorClosed: ""
 			SacrilegiousDoorOpen: ""
-			SacrilegiousDresserTile: Sacrilegious Dresser
+			SacrilegiousDresserTile: 渎圣梳妆台
 			SacrilegiousLampTile: ""
 			SacrilegiousLanternTile: ""
 			SacrilegiousOrganTile: ""
@@ -13725,12 +13725,12 @@ Mods: {
 			SilvaCandle: ""
 			SilvaChair: ""
 			SilvaChandelier: ""
-			SilvaChest: Silva Chest
+			SilvaChest: 始源林海箱
 			SilvaClock: ""
 			SilvaCrystal: ""
 			SilvaDoorClosed: ""
 			SilvaDoorOpen: ""
-			SilvaDresser: Silva Dresser
+			SilvaDresser: 始源林海梳妆台
 			SilvaLamp: ""
 			SilvaLantern: ""
 			SilvaPiano: ""
@@ -13746,11 +13746,11 @@ Mods: {
 			StatigelCandle: ""
 			StatigelChair: ""
 			StatigelChandelier: ""
-			StatigelChest: Statigel Chest
+			StatigelChest: 斯塔提斯箱
 			StatigelClock: ""
 			StatigelDoorClosed: ""
 			StatigelDoorOpen: ""
-			StatigelDresser: Statigel Dresser
+			StatigelDresser: 斯塔提斯梳妆台
 			StatigelLamp: ""
 			StatigelLantern: ""
 			StatigelPiano: ""
@@ -13767,11 +13767,11 @@ Mods: {
 			StratusCandle: ""
 			StratusChair: ""
 			StratusChandelier: ""
-			StratusChest: Stratus Chest
+			StratusChest: 幻云箱
 			StratusClock: ""
 			StratusDoorClosed: ""
 			StratusDoorOpen: ""
-			StratusDresser: Stratus Dresser
+			StratusDresser: 幻云梳妆台
 			StratusLamp: ""
 			StratusLantern: ""
 			StratusPiano: ""
@@ -13790,11 +13790,11 @@ Mods: {
 			VoidCandle: ""
 			VoidChair: ""
 			VoidChandelier: ""
-			VoidChest: Void Chest
+			VoidChest: 虚空箱
 			VoidClock: ""
 			VoidDoorClosed: ""
 			VoidDoorOpen: ""
-			VoidDresser: Void Dresser
+			VoidDresser: 虚空梳妆台
 			VoidLamp: ""
 			VoidLantern: ""
 			VoidPiano: ""
@@ -13811,7 +13811,7 @@ Mods: {
 			WulfrumChair: ""
 			WulfrumChandelier: ""
 			WulfrumClock: ""
-			WulfrumDresser: Wulfrum Dresser
+			WulfrumDresser: 钨钢梳妆台
 			WulfrumLamp: ""
 			WulfrumLantern: ""
 			WulfrumPiano: ""
