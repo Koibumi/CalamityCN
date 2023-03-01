@@ -6450,7 +6450,7 @@ Mods: {
 				击中敌人会在短时间内大幅提升你的防御、近战伤害和暴击率
 				右键使用时无锤斧效果
 				'''
-			GreatbayPickaxe: 可开采恶魔矿、猩红矿、陨石、海棱晶和海棱晶晶体
+			GreatbayPickaxe: 可开采恶魔矿、猩红矿、陨石、海棱晶和海棱晶碎晶
 			InfernaCutter:
 				'''
 				暴击时生成小爆炸
@@ -12358,7 +12358,7 @@ Mods: {
 			CragsPylonTile: "{$Mods.CalamityMod.ItemName.CragsPylon}"
 			SulphurPylonTile: "{$Mods.CalamityMod.ItemName.SulphurPylon}"
 			SunkenPylonTile: "{$Mods.CalamityMod.ItemName.SunkenPylon}"
-			AbyssalPots: Pot
+			AbyssalPots: 罐子
 			AbyssVent1: Steam Vent
 			AbyssVent2: Steam Vent
 			AbyssVent3: Steam Vent

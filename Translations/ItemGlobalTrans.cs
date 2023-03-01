@@ -1056,6 +1056,11 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Hardmode ores now generate after defeating Mechanical Bosses for the first time", "新三矿仅在击败每个机械Boss后生成");
                 }
 
+                if (item.type == 3521 || item == 3485)
+                {
+                    line.Text = line.Text.Replace("Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals", "可开采魔矿、猩红矿、陨石、海棱晶和海棱晶碎晶");
+                }
+
                 if (item.type == ItemID.Picksaw)
                 {
                     line.Text = line.Text.Replace("Can mine Scoria Ore located in the Abyss", "可开采深渊中的熔渣矿");
