@@ -40,3 +40,9 @@ npc图鉴
 
 HiveCyst -> HiveTumor
 腐化肿瘤
+
+ "System.Void CalamityMod.ILEditing.ILChanges::ScopesRequireVisibilityToZoom(MonoMod.Cil.ILContext)":
+  {
+    0: Scopes Require Visibility to Zoom
+    1: Could not locate where player is set to have a scope equipped.
+  }

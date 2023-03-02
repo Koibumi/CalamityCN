@@ -484,7 +484,6 @@ Mods: {
 			Bloodfin: 血鳍
 			Brimlish: 小硫火鱼
 			BrimstoneCrate: 硫磺火匣
-			BrimstoneFish: 硫磺火鱼
 			CharredLasher: 焦黑鞭笞者
 			CoastalDemonfish: 海岸恶魔鱼
 			CragBullhead: 硫火崖回鱼
@@ -507,11 +506,11 @@ Mods: {
 			FishofLight: 光明之鱼
 			FishofNight: 暗影之鱼
 			GlimmeringGemfish: 闪光宝石鱼
+			Gorecodile: 血鳄
 			Spadefish: 铲子鱼
 			StuffedFish: 填充草药鱼
 			SulphurousCrate: 硫海匣
 			SunbeamFish: 日光鱼
-			CoralskinFoolfish: 珊瑚拟态鲽
 			EutrophicSandfish: 富养沙地鱼
 			GreenwaveLoach: 绿波泥鳅
 			PrismaticGuppy: 棱晶孔雀鱼
@@ -522,7 +521,6 @@ Mods: {
 			SunkenCrate: 沉沦匣
 			SunkenSailfish: 沉沦帆鱼
 			SurfClam: 碎浪蛤
-			Xerocodile: 克希洛克鳄
 			CyanSeekingMechanism: 青色定位仪
 			GreenSeekingMechanism: 绿色定位仪
 			LabSeekingMechanism: 实验室定位仪
@@ -727,7 +725,6 @@ Mods: {
 			AmethystCrawlerBanner: 紫水晶爬虫旗
 			AndroombaBanner: 仙女座扫除机旗
 			AnthozoanCrabBanner: 珊瑚蟹旗
-			AquaticAberrationBanner: 深海吞食者旗
 			AquaticUrchinBanner: 渊海海胆旗
 			AriesBanner: 白羊座旗
 			ArmoredDiggerBanner: 装甲掘地虫旗
@@ -874,11 +871,13 @@ Mods: {
 			RustedPlating: 生锈镀层
 			RustedShelf: 生锈架
 			SecurityChest: 安全箱
+			EutrophicGlass: 富养玻璃
 			EutrophicSand: 富营养沙
 			AbyssTreasureChest: 远古宝藏箱
 			AlgalPrismTorch: 藻类棱晶火把
 			AstralBeaconItem: 星辉信标
 			AstralChest: 星幻箱
+			AstralTorch: 星辉火把
 			AuricToilet: 圣金马桶
 			BabyFlakCrabCage: 小高口蟹笼
 			BabyGhostBellJar: 小鬼铃水母罐
@@ -2674,6 +2673,7 @@ Mods: {
 				击中靶心的远程攻击必定暴击且会造成大量伤害
 				被击中的靶心会消散，而后新的靶心会在别处出现
 				爆炸或较大的弹幕不会被判定为击中靶心
+				从硬币上反弹的子弹会击中靶心，但暴击倍率会降低
 				将所有远程暴击率加成转化为额外的暴击伤害加成
 				远程武器的使用使用越长，造成的暴击伤害越高
 				如果启用该饰品的可视性，则会召唤一个来自另一个世界的英灵
@@ -3737,7 +3737,7 @@ Mods: {
 			MarksmanRound:
 				'''
 				一种精心制作的子弹，可以在半空中的钱币上反弹
-				任何枪械发射出的这种子弹都能在迈达斯统帅抛出的硬币之间反弹
+				这允许其他枪械可以利用神枪手柯尔特个迈达斯统帅抛出的硬币
 				'''
 			MortarRound:
 				'''
@@ -4507,7 +4507,6 @@ Mods: {
 				'''
 			Brimlish: ""
 			BrimstoneCrate: "{$CommonItemTooltip.RightClickToOpen}"
-			BrimstoneFish: 体内含有火的生物
 			CharredLasher: 这条稀有的鱼可以卖个好价钱
 			CoastalDemonfish: 它的角将诅咒触碰任何它的人
 			CragBullhead: 它的鳞片烫手的吓人
@@ -4576,6 +4575,7 @@ Mods: {
 			FishofLight: 右击提取灵魂
 			FishofNight: 右击提取灵魂
 			GlimmeringGemfish: 右击提取宝石
+			Gorecodile: 右键提取血珠
 			Spadefish:
 				'''
 				我怎么用一条鱼挖地？
@@ -4584,7 +4584,6 @@ Mods: {
 			StuffedFish: 右击提取草药和种子
 			SulphurousCrate: "{$CommonItemTooltip.RightClickToOpen}"
 			SunbeamFish: 右击提取精华
-			CoralskinFoolfish: 在大自然中，隐身即无敌
 			EutrophicSandfish: ""
 			GreenwaveLoach: 一种濒危的鱼，应该会有人出高价买下它
 			PrismaticGuppy: 把这玩意养在水族箱里？你肯定是疯了
@@ -4609,7 +4608,6 @@ Mods: {
 			SunkenCrate: "{$CommonItemTooltip.RightClickToOpen}"
 			SunkenSailfish: 以60英里的时速巡航
 			SurfClam: ""
-			Xerocodile: 右击提取血珠
 			CyanSeekingMechanism: 指向沙漠地下的实验室
 			GreenSeekingMechanism: 指向丛林的实验室
 			LabSeekingMechanism: 一个可以指向嘉登实验室能源核心的科技接收器
@@ -5178,7 +5176,6 @@ Mods: {
 			AmethystCrawlerBanner: "{$CommonItemTooltip.BannerBonus}紫水晶爬虫"
 			AndroombaBanner: "{$CommonItemTooltip.BannerBonus}仙女座扫除机"
 			AnthozoanCrabBanner: "{$CommonItemTooltip.BannerBonus}珊瑚蟹"
-			AquaticAberrationBanner: "{$CommonItemTooltip.BannerBonus}深海吞食者"
 			AquaticUrchinBanner: "{$CommonItemTooltip.BannerBonus}渊海海胆"
 			AriesBanner: "{$CommonItemTooltip.BannerBonus}白羊座"
 			ArmoredDiggerBanner: "{$CommonItemTooltip.BannerBonus}装甲掘地虫"
@@ -5333,11 +5330,13 @@ Mods: {
 			RustedPlating: ""
 			RustedShelf: ""
 			SecurityChest: ""
+			EutrophicGlass: ""
 			EutrophicSand: ""
 			AbyssTreasureChest: ""
 			AlgalPrismTorch: 可放置于水中
 			AstralBeaconItem: 以特殊的祭品召唤星神游龙
 			AstralChest: ""
+			AstralTorch: ""
 			AuricToilet:
 				'''
 				这曾为神明所用
@@ -6285,7 +6284,7 @@ Mods: {
 				'''
 			ExoticPheromones:
 				'''
-				吸引巨龙实验的失败产物
+				专为吸引巨龙亚种而制
 				在丛林使用，召唤痴愚金龙
 				在丛林外狂暴
 				不消耗
@@ -6428,7 +6427,7 @@ Mods: {
 				'''
 			Cosmolight:
 				'''
-				切换白天与黑夜
+				把时间立刻加速至下个黎明、正午、黄昏和午夜
 				有Boss存活时不可用
 				'''
 			TorrentialTear:
@@ -6904,7 +6903,7 @@ Mods: {
 			PlasmaRifle:
 				'''
 				发射会爆炸的离子射线
-				右键切换模式
+				右键快速发射离子束
 				'''
 			PlasmaRod:
 				'''
@@ -6952,7 +6951,7 @@ Mods: {
 			SkyGlaze: 发射自天空落下的羽毛，羽毛会扎在敌人身上并爆炸
 			SlitheringEels: 投出魔法酸鳗鱼，其移动时会产生酸液滴
 			SnowstormStaff: 发射一个冰晶跟随你的鼠标攻击敌人
-			SoulPiercer: 发射威力强大的光束，击中敌人时生成更多光束
+			SoulPiercer: 发射威力强大的光束，首次命中时会生成更多光束
 			StaffofBlushie: 按住你的鼠标，一直等，一直等，一直等，然后你就会相信蓝魔法的力量
 			Starfall: 向光标方向发射幻星
 			StormSpray: 发射一个会额外溅射的水柱
@@ -7002,11 +7001,7 @@ Mods: {
 				'''
 			UndinesRetribution: 召唤一群追踪矛
 			ValkyrieRay: 释放拥有神圣之力的毁灭射线
-			Vehemence:
-				'''
-				释放地狱之力，击中物块或飞行一段时间后爆炸成骷髅
-				直接命中会造成恶魔之炎减益
-				'''
+			Vehemence: 释放地狱之力，击中物块或飞行一段时间后爆炸成骷髅
 			VenusianTrident: 发射一团狱炎三叉戟，造成巨大爆炸并释放熔岩火焰碎片
 			Vesuvius:
 				'''
@@ -7141,7 +7136,7 @@ Mods: {
 			BurntSienna: 敌人死亡时会爆发出治愈光线
 			Carnage: 敌人死亡时释放追踪血球
 			CatastropheClaymore: 发射会造成冻伤、狱火或灵液的火花
-			CausticEdge: 击中敌人时造成中毒和毒液减益
+			CausticEdge: 击中敌人时造成中毒减益
 			CelestialClaymore: 在玩家周围生成两秒后会爆炸的宇宙能量之火
 			ClamCrusher:
 				'''
@@ -7780,7 +7775,11 @@ Mods: {
 				每次使用消耗五颗子弹
 				瞄准？那是啥？
 				'''
-			Butcher: 使用时间越长，发射速度和精确度越高
+			Butcher: 
+				'''
+				使用时间越长，发射速度和精确度越高
+				25%几率不消耗弹药
+				'''
 			ChickenCannon:
 				'''
 				发射小鸡火箭，产生巨大燃爆
@@ -7843,11 +7842,17 @@ Mods: {
 				'''
 			CrackshotColt:
 				'''
-				右键以掷硬币于空中。击中硬币的子弹会向着最近的敌人瞄准
-				掷硬币消耗铜币
+				右键将一枚铜币抛向空中
+				击中硬币的子弹会向着最近的敌人瞄准
+				至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
+				反弹的子弹必定暴击，并且会基于反弹的次数增加伤害
 				'''
 			CursedCapper: 发射诅咒地狱子弹
-			DaemonsFlame: 发射正常箭矢的同时发射恶魔焰火球
+			DaemonsFlame: 
+				'''
+				发射正常箭矢的同时发射恶魔焰火球
+				66%几率不消耗弹药
+				'''
 			DarkechoGreatbow:
 				'''
 				一次发射两支箭
@@ -8028,11 +8033,10 @@ Mods: {
 				'''
 			MidasPrime:
 				'''
-				被击中的敌人额外掉落硬币
-				右键以掷硬币于空中。击中硬币的子弹会向着最近的敌人瞄准
-				如果空中有多个硬币，子弹会瞄准最近的其他硬币，最多四次
-				被硬币弹开会增加子弹伤害，只要硬币在空中滞留时间足够长
-				掷硬币消耗金币和银币
+				右键将一枚金币或银币抛向空中
+				击中硬币的子弹会向着最近的敌人瞄准
+				至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
+				反弹的子弹必定暴击，并且会基于反弹的次数增加伤害
 				'''
 			MineralMortar: 发射一个玛瑙火箭弹，爆炸时生成沙鲨
 			Minigun: 80%几率不消耗弹药
@@ -8090,7 +8094,11 @@ Mods: {
 				每七次射击发射一枚强力冲击波子弹
 				'''
 			PestilentDefiler: 将火枪子弹转化为会爆裂成瘟疫碎片的瘟疫子弹
-			Phangasm: 发射五发普通箭，击中敌怪后生成幻影箭
+			Phangasm: 
+				'''
+				发射五发普通箭，击中敌怪后生成幻影箭
+				66%几率不消耗弹药
+				'''
 			Photoviscerator:
 				'''
 				90%几率不消耗凝胶
@@ -8213,7 +8221,11 @@ Mods: {
 			SpeedBlaster: 发射一束颜料弹
 			Spyker: 将火枪子弹转化为会钉在敌人身上并爆炸的叶针
 			Starfleet: 发射数个等离子星弹
-			Starmada: 发射星辰与等离子星弹
+			Starmada:
+				'''
+				发射星辰与等离子星弹
+				66%几率不消耗弹药
+				'''
 			StarSputter:
 				'''
 				发射一束陨星
@@ -8764,7 +8776,7 @@ Mods: {
 				疯狂发射短距离根系
 				潜伏打击会引发真菌爆炸
 				'''
-			MythrilKnife: 潜伏攻击对敌人造成许多减益
+			MythrilKnife: 潜伏攻击覆盖着致命的毒素，会造成辐射、中毒和酸性毒液减益
 			NanoblackReaper:
 				'''
 				释放纳米黑能量刀刃风暴
@@ -10505,8 +10517,6 @@ Mods: {
 			CorossiveFlames: 火焰
 			CorrodedShell: 酸蚀外壳
 			CosmicFire: 宙炎
-			CrackshotBlast: Crack Shot
-			CrackshotCoin: Coin
 			DaemonsFlameArrow: 鬼炎箭
 			DaemonsFlameBow: 鬼炎箭
 			DragonsBreathRound: 龙息弹
@@ -10574,11 +10584,10 @@ Mods: {
 			MagnomalyBeam: 光束
 			MagnomalyExplosion: 爆炸
 			MagnomalyRocket: 核弹
+			 MarksmanShot: Marksman Shot
 			MechanicalBarracuda: 梭鱼
 			MeowFire: 火焰
 			MeowFire2: 火焰
-			MidasBlast: Marksman Shot
-			MidasCoin: Coin
 			MiniatureFolly: Miniature Folly
 			MiniRocket: 火箭
 			MiniSharkron: 迷你鲨鱼龙
@@ -10621,6 +10630,7 @@ Mods: {
 			RainbowFront: 彩虹
 			RainbowTrail: 彩虹
 			RealmRavagerBullet: 爆炸性弹头
+			RicoshotCoin: Ricoshot Coin
 			RocketFire: 火焰
 			RubberMortarRoundProj: 光环
 			SandstormBullet: 沙尘暴
@@ -11739,7 +11749,7 @@ Mods: {
 			TrueMeleeNoSpeedDamageClass: 真近战伤害
 			}
 		BiomeName: {
-			AbovegroundAstralBiome: 星辉瘟疫
+			AbovegroundAstralBiome: 星疫迷雾
 			AbovegroundAstralDesertBiome: 星幻沙漠
 			AbovegroundAstralSnowBiome: 星幻雪地
 			AbyssLayer1Biome: 硫海深处
@@ -11752,6 +11762,7 @@ Mods: {
 			SulphurousSeaBiome: 硫磺海
 			SunkenSeaBiome: 沉沦之海
 			UndergroundAstralBiome: 星辉瘟疫地下
+			AbovegroundAstralBiomeSurface: 星辉瘟疫地表
 			}
 		BuffName: {
 			AlcoholPoisoning: 酒精中毒
@@ -11901,7 +11912,6 @@ Mods: {
 			HallowedRuneRegeneration: 神圣之辉
 			IceShieldBuff: 冰盾
 			KamiBuff: Kami之佑
-			Molten: 熔火之心
 			Mushy: 与菇共生
 			PhantomicEmpowerment: 幻魂神力
 			PhantomicRegen: 幻魂还生
@@ -12202,7 +12212,6 @@ Mods: {
 			HallowedRuneRegeneration: 恢复生命
 			IceShieldBuff: 受伤时吸收20%的伤害，随后破碎
 			KamiBuff: 提高伤害和移动速度
-			Molten: 对寒冷效果具有抗性
 			Mushy: 增加防御力和生命再生速度
 			PhantomicEmpowerment: 提升10%召唤伤害
 			PhantomicRegen: 生命再生
@@ -12371,6 +12380,7 @@ Mods: {
 			ThermalVent1: Thermal Vent
 			ThermalVent2: Thermal Vent
 			ThermalVent3: Thermal Vent
+			AbyssFossilTile: Abyss Shell Fossil
 			AbyssTreasureChest: 远古宝藏箱
 			LumenylCrystals: Lumenyl
 			PlantyMush: 植物混融块
@@ -12409,6 +12419,7 @@ Mods: {
 			chestAstral: 星辉箱
 			chestAstral_Locked: 上锁的星辉箱
 			AstralCrateTile: 星辉匣
+			 AstralTorch: Torch
 			AstralTreeSapling: MapObject.Sapling
 			AstralVines: Astral Vines
 			NovaeSlag: Novae Slag
@@ -12690,6 +12701,7 @@ Mods: {
 			RoxTile: 石约与胜利之剑
 			AlgalPrismTorch: 火把
 			BrainCoral: 大脑珊瑚
+			EutrophicGlass: Eutrophic Glass
 			EutrophicSand: 富营养沙
 			FanCoral: 扇形珊瑚
 			NavyPrismTorch: 火把
@@ -12750,10 +12762,10 @@ Mods: {
 				AdrenalineMeterPosX: "[i:2799] 肾上腺素条X轴坐标"
 				AdrenalineMeterPosY: "[i:2799] 肾上腺素条Y轴坐标"
 				Afterimages: "[i:1742] 残影"
-				BossesStopWeather: "Bosse战斗停雨"
+				BossesStopWeather: "[i:6765] Bosse战斗停雨"
 				BossHealthBarExtraInfo: "[i:CalamityMod/EncryptedSchematicPlanetoid] Boss血条额外信息"
 				BossHealthBoost: "[i:29] Boss生命值百分比强化"
-				BossZen: "[i:CalamityMod/ZenPotion] Boss 禅定"
+				BossZen: "[i:6718] Boss 禅定"
 				ChargeMeter: "[i:CalamityMod/DraedonPowerCell] 显示充能条"
 				ChargeMeterPosX: "[i:2799] 充能条X轴坐标"
 				ChargeMeterPosY: "[i:2799] 充能条Y轴坐标"
@@ -12773,8 +12785,8 @@ Mods: {
 				RageMeterPosX: "[i:2799] 怒气条X轴坐标"
 				RageMeterPosY: "[i:2799] 怒气条Y轴坐标"
 				RemoveReforgeRNG: "[i:3499] 移除重铸随机性"
-				RipperMeterShake: "[i:CalamityMod/RedLightningContainer] 怒气条与肾上腺素条震动"
-				Screenshake: "[i:CalamityMod/WavePounder] 屏幕震动"
+				RipperMeterShake: "[i:5867] 怒气条与肾上腺素条震动"
+				Screenshake: "[i:6842] 屏幕震动"
 				ShopNewAlert: "[i:306] 商店新物品提示"
 				SpeedrunTimer: "[i:3099] 速通计时器"
 				SpeedrunTimerPosX: "[i:2799] 速通计时器X轴坐标"
@@ -13218,6 +13230,7 @@ Mods: {
 			AstralShortPlants: ""
 			AstralStone: ""
 			AstralTallPlants: ""
+			AstralTorch: ""
 			AstralTreeSapling: ""
 			AstralVines: ""
 			NovaeSlag: ""
@@ -13852,6 +13865,7 @@ Mods: {
 			ShadowspecBarTile: ""
 			AlgalPrismTorch: ""
 			BrainCoral: ""
+			EutrophicGlass: ""
 			EutrophicSand: ""
 			FanCoral: ""
 			NavyPrismTorch: ""
