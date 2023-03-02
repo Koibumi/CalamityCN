@@ -12362,32 +12362,31 @@ Mods: {
 			AbyssVent1: Steam Vent
 			AbyssVent2: Steam Vent
 			AbyssVent3: Steam Vent
-			PirateCrate1: Abandoned Crate
-			PirateCrate2: Abandoned Crate
-			PirateCrate3: Abandoned Crate
-			PirateCrate4: Abandoned Crate
-			PirateCrate5: Abandoned Crate
-			PirateCrate6: Abandoned Crate
+			PirateCrate1: 废弃板条箱
+			PirateCrate2: 废弃板条箱
+			PirateCrate3: 废弃板条箱
+			PirateCrate4: 废弃板条箱
+			PirateCrate5: 废弃板条箱
+			PirateCrate6: 废弃板条箱
 			ThermalVent1: Thermal Vent
 			ThermalVent2: Thermal Vent
 			ThermalVent3: Thermal Vent
 			AbyssTreasureChest: Ancient Treasure Chest
-			AcidWoodTreeSapling: MapObject.Sapling
-			LumenylCrystals: Lumenyl
+			LumenylCrystals: 流明晶
 			PlantyMush: Planty Mush
 			RustyChestTile: Rusty Chest
-			SulphurousStalacmite1: Stalacmite
-			SulphurousStalacmite2: Stalacmite
-			SulphurousStalacmite3: Stalacmite
-			SulphurousStalacmite4: Stalacmite
-			SulphurousStalacmite5: Stalacmite
-			SulphurousStalacmite6: Stalacmite
-			SulphurousStalactite1: Stalactite
-			SulphurousStalactite2: Stalactite
-			SulphurousStalactite3: Stalactite
-			SulphurousStalactite4: Stalactite
-			SulphurousStalactite5: Stalactite
-			SulphurousStalactite6: Stalactite
+			SulphurousStalacmite1: 石笋
+			SulphurousStalacmite2: 石笋
+			SulphurousStalacmite3: 石笋
+			SulphurousStalacmite4: 石笋
+			SulphurousStalacmite5: 石笋
+			SulphurousStalacmite6: 石笋
+			SulphurousStalactite1: 钟乳石
+			SulphurousStalactite2: 钟乳石
+			SulphurousStalactite3: 钟乳石
+			SulphurousStalactite4: 钟乳石
+			SulphurousStalactite5: 钟乳石
+			SulphurousStalactite6: 钟乳石
 			SteamGeyser1: Geyser
 			SteamGeyser2: Geyser
 			SteamGeyser3: Geyser
