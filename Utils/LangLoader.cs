@@ -31,7 +31,6 @@ namespace CalamityCN.Utils
 
 		public void UnloadContent()
 		{
-			LangLoader.Translations.Clear();
 			LangLoader.Translations = null;
 		}
 
