@@ -12371,9 +12371,9 @@ Mods: {
 			ThermalVent1: Thermal Vent
 			ThermalVent2: Thermal Vent
 			ThermalVent3: Thermal Vent
-			AbyssTreasureChest: Ancient Treasure Chest
-			LumenylCrystals: 流明晶
-			PlantyMush: Planty Mush
+			AbyssTreasureChest: 远古宝藏箱
+			LumenylCrystals: Lumenyl
+			PlantyMush: 植物混融块
 			RustyChestTile: Rusty Chest
 			SulphurousStalacmite1: 石笋
 			SulphurousStalacmite2: 石笋
@@ -12393,7 +12393,7 @@ Mods: {
 			SulphuricFossil1: Fossil
 			SulphuricFossil2: Fossil
 			SulphuricFossil3: Fossil
-			SulphurousColumn: Column
+			SulphurousColumn: 硫海石柱
 			SulphurousCrateTile: Sulphurous Crate
 			SulphurousPots: Pot
 			SulphurousRib1: Ribs
@@ -12401,304 +12401,304 @@ Mods: {
 			SulphurousRib3: Ribs
 			SulphurousRib4: Ribs
 			SulphurousRib5: Ribs
-			SulphurousTorch: Torch
-			SulphurousVines: Sulphurous Vines
-			ViperVines: Viper Vines
-			ArenaTile: Arena
-			AstralBeacon: Astral Beacon
-			chestAstral: Astral Chest
-			chestAstral_Locked: Locked Astral Chest
-			AstralCrateTile: Astral Crate
+			SulphurousTorch: 火把
+			SulphurousVines: 硫海藤蔓
+			ViperVines: 蝰蛇藤蔓
+			ArenaTile: 战斗场地
+			AstralBeacon: 星辉星标
+			chestAstral: 星辉箱
+			chestAstral_Locked: 上锁的星辉箱
+			AstralCrateTile: 星辉匣
 			AstralTreeSapling: MapObject.Sapling
 			AstralVines: Astral Vines
 			NovaeSlag: Novae Slag
 			AstralPalmSapling: MapObject.Sapling
 			CelestialRemains: Celestial Remains
 			AstralSnowTreeSapling: MapObject.Sapling
-			BrimstoneCrateTile: Brimstone Crate
-			BrimstoneSlab: Brimstone Slab
-			GloomTorch: Torch
-			SpineSapling: Spine Sapling
-			SpineTree: Giant Spine
-			AgedLaboratoryConsole: Aged Console
-			AgedLaboratoryContainmentBox: Aged Laboratory Containment Box
-			AgedLaboratoryDisplay: Aged Display
-			AgedLaboratoryDoorClosed: Laboratory Door
-			AgedLaboratoryDoorOpen: Laboratory Door
-			AgedLaboratoryElectricPanel: Aged Electric Panel
-			AgedLaboratoryScreen: Aged Screen
-			AgedLaboratoryServer: Aged Server
-			AgedLaboratoryTerminal: Aged Terminal
-			AgedReinforcedCrate: Aged Reinforced Crate
-			AgedSecurityChestTile: Aged Security Chest
-			ChargingStation: Charging Station
-			DraedonLabTurret: Lab Turret
-			InactivePowerCellFactory: Inactive Power Cell Factory
-			LabHologramProjector: Lab Hologram Projector
-			LaboratoryConsole: Console
-			LaboratoryContainmentBox: Laboratory Containment Box
-			LaboratoryDisplay: Display
-			LaboratoryDoorClosed: Laboratory Door
-			LaboratoryDoorOpen: Laboratory Door
-			LaboratoryElectricPanel: Electric Panel
-			LaboratoryScreen: Screen
-			LaboratoryServer: Server
-			LaboratoryTerminal: Terminal
-			OnyxExcavatorTile: Onyx Excavator
-			PowerCellFactory: Power Cell Factory
-			ReinforcedCrate: Reinforced Crate
-			SecurityChestTile: Security Chest
-			CodebreakerTile: The Codebreaker
-			AuricToiletTile: Auric Toilet
-			BabyFlakCrabCageTile: Baby Flak Crab Cage
-			BabyGhostBellJarTile: Baby Ghost Bell Jar
-			BlueCandle: Weightless Candle
-			BossTrophy: Trophy
-			ChaosCandle: Chaos Candle
-			CorruptionEffigy: Corruption Effigy
-			AncientAltar: Ancient Altar
-			AshenAltar: Ashen Altar
-			BotanicPlanter: Botanic Planter
-			CosmicAnvil: Cosmic Anvil
-			DraedonsForge: Draedon's Forge
-			EutrophicShelf: Eutrophic Shelf
-			MonolithAmalgam: Monolith Amalgam
-			PlagueInfuser: Plague Infuser
-			ProfanedCrucible: Profaned Crucible
-			SCalAltar: Altar
-			SilvaBasin: Effulgent Manipulator
-			StaticRefiner: Static Refiner
-			VoidCondenser: Void Condenser
-			WulfrumLabstation: Wulfrum Labstation
-			CrimsonEffigy: Crimson Effigy
-			ThankYouPaintingTile: Thank You Painting
-			EffigyOfDecayPlaceable: Effigy of Decay
+			BrimstoneCrateTile: 硫火匣
+			BrimstoneSlab: 硫火石板
+			GloomTorch: 火把
+			SpineSapling: 脊椎树苗
+			SpineTree: 巨大脊椎
+			AgedLaboratoryConsole: 老旧控制台
+			AgedLaboratoryContainmentBox: 老旧实验室密封箱
+			AgedLaboratoryDisplay: 老旧展柜
+			AgedLaboratoryDoorClosed: 老旧实验室门
+			AgedLaboratoryDoorOpen: 老旧实验室门
+			AgedLaboratoryElectricPanel: 老旧配电盘
+			AgedLaboratoryScreen: 老旧荧幕
+			AgedLaboratoryServer: 老旧服务器
+			AgedLaboratoryTerminal: 老旧终端机
+			AgedReinforcedCrate: 老旧板条箱
+			AgedSecurityChestTile: 老旧安全箱
+			ChargingStation: 充能站
+			DraedonLabTurret: 实验室转台
+			InactivePowerCellFactory: 未激活能源电池工厂
+			LabHologramProjector: 实验室全息投影仪
+			LaboratoryConsole: 控制台
+			LaboratoryContainmentBox: 实验室密封箱
+			LaboratoryDisplay: 展柜
+			LaboratoryDoorClosed: 实验室门
+			LaboratoryDoorOpen: 实验室门
+			LaboratoryElectricPanel: 配电盘
+			LaboratoryScreen: 荧幕
+			LaboratoryServer: 服务器
+			LaboratoryTerminal: 终端机
+			OnyxExcavatorTile: 玛瑙挖掘机
+			PowerCellFactory: 能源电池工厂
+			ReinforcedCrate: 板条箱
+			SecurityChestTile: 安全箱
+			CodebreakerTile: 密码破译器基站
+			AuricToiletTile: 圣金源马桶
+			BabyFlakCrabCageTile: 小酸丘寄居蟹笼
+			BabyGhostBellJarTile: 小鬼铃水母罐
+			BlueCandle: 失重蜡烛
+			BossTrophy: 纪念章
+			ChaosCandle: 混乱蜡烛
+			CorruptionEffigy: 腐化雕塑
+			AncientAltar: 远古祭坛
+			AshenAltar: 灰烬祭坛
+			BotanicPlanter: 植物培养器
+			CosmicAnvil: 星宇砧
+			DraedonsForge: 嘉登熔炉
+			EutrophicShelf: 富养制造架
+			MonolithAmalgam: 星幻柱综合体
+			PlagueInfuser: 瘟疫灌注器
+			ProfanedCrucible: 亵渎坩埚
+			SCalAltar: 祭坛
+			SilvaBasin: 闪耀操纵机
+			StaticRefiner: 静电精炼机
+			VoidCondenser: 虚空压缩机
+			WulfrumLabstation: 钨钢实验台
+			CrimsonEffigy: 血腥雕塑
+			ThankYouPaintingTile: Thank You画
+			EffigyOfDecayPlaceable: 腐化雕塑
 			LanternCenterTile: Lantern Center
-			PiggyCageTile: Piggy Cage
-			PinkCandle: Vigorous Candle
-			PurpleCandle: Resilient Candle
-			SeaMinnowJarTile: Sea Minnow Jar
-			TranquilityCandle: Tranquility Candle
-			TwinklerInABottleTile: Twinkler in a Bottle
-			WulfrumLure: Wulfrum Lure
-			YellowCandle: Spiteful Candle
-			AbyssBathtub: Bathtub
-			AbyssBed: Bed
-			AbyssBookcase: Bookcase
-			AbyssCandelabra: Candelabra
-			AbyssCandle: Candle
-			AbyssChest: Abyss Chest
-			AbyssClock: Grandfather Clock
-			AbyssDresser: Abyss Dresser
-			AbyssSynth: Abyss Synth
-			AbyssTorch: Torch
-			AbyssWorkBench: Work Bench
-			AcidwoodBathTile: Bathtub
-			AcidwoodBedTile: Bed
-			AcidwoodBookcaseTile: Bookcase
-			AcidwoodCandelabraTile: Candelabra
-			AcidwoodCandleTile: Candle
-			AcidwoodChestTile: Acidwood Chest
-			AcidwoodClockTile: Grandfather Clock
-			AcidwoodDresserTile: Acidwood Dresser
-			AcidwoodPianoTile: Piano
-			AcidwoodWorkBenchTile: Work Bench
-			AncientBasin: Ancient Basin
-			AncientBathtub: Bathtub
-			AncientBed: Bed
-			AncientBookcase: Bookcase
-			AncientDresser: Ancient Dresser
-			AncientMonolith: Ancient Monolith
-			AncientPipeOrgan: Ancient Pipe Organ
-			AncientWorkBench: Work Bench
-			AshenBasin: Ashen Basin
-			AshenBathtub: Bathtub
-			AshenBed: Bed
-			AshenBookcase: Bookcase
-			AshenCandelabra: Candelabra
-			AshenCandle: Candle
-			AshenChest: Ashen Chest
-			AshenChest_Locked: Locked Ashen Chest
-			AshenDresser: Ashen Dresser
-			AshenMonolith: Ashen Monolith
-			AshenPipeOrgan: Ashen Pipe Organ
-			AshenWorkBench: Work Bench
-			BotanicBathtub: Bathtub
-			BotanicBed: Bed
-			BotanicBookcase: Bookcase
-			BotanicCandelabra: Candelabra
-			BotanicCandle: Candle
-			BotanicChest: Botanic Chest
-			BotanicClock: Grandfather Clock
-			BotanicDresser: Botanic Dresser
-			BotanicPiano: Piano
-			BotanicWorkBench: Work Bench
-			CosmiliteBasinTile: Cosmilite Basin
-			CosmiliteBathtub: Bathtub
-			CosmiliteBed: Bed
-			CosmiliteBookcase: Bookcase
-			CosmiliteCandelabra: Candelabra
-			CosmiliteCandle: Candle
-			CosmiliteChest: Cosmilite Chest
-			CosmiliteClock: Grandfather Clock
-			CosmiliteDresser: Cosmilite Dresser
-			CosmilitePiano: Piano
-			CosmiliteSconce: Cosmilite Sconce
-			CosmiliteWorkBench: Work Bench
-			EutrophicBathtub: Bathtub
-			EutrophicBed: Bed
-			EutrophicBookcase: Bookcase
-			EutrophicCandelabra: Candelabra
-			EutrophicCandle: Candle
-			EutrophicChest: Eutrophic Chest
-			EutrophicClock: Grandfather Clock
-			EutrophicDresser: Eutrophic Dresser
-			EutrophicPiano: Piano
-			EutrophicWorkBench: Work Bench
-			ExoBathtubTile: Bathtub
-			ExoBedTile: Bed
-			ExoBookcaseTile: Bookcase
-			ExoCandelabraTile: Candelabra
-			ExoCandleTile: Candle
-			ExoChestTile: Exo Chest
-			ExoClockTile: Grandfather Clock
-			ExoConsoleTile: Console
-			ExoDisplayTile: Display
-			ExoDoorClosed: Exo Door
-			ExoDoorOpen: Exo Door
-			ExoDresserTile: Exo Dresser
-			ExoKeyboardTile: Exo Keyboard
-			ExoScreenTile: Screen
-			ExoServerTile: Server
-			ExoTerminalTile: Terminal
-			ExoToiletTile: Exo Toilet
-			ExoWorkbenchTile: Work Bench
-			MonolithBathtub: Bathtub
-			MonolithBed: Bed
-			MonolithBookcase: Bookcase
-			MonolithCandelabra: Candelabra
-			MonolithCandle: Candle
-			MonolithChest: Monolith Chest
-			MonolithClock: Grandfather Clock
-			MonolithDresser: Monolith Dresser
-			MonolithPiano: Piano
-			MonolithWorkBench: Work Bench
-			OtherworldlyBathtub: Bathtub
-			OtherworldlyBed: Bed
-			OtherworldlyBookcase: Bookcase
-			OtherworldlyCandelabra: Candelabra
-			OtherworldlyCandle: Candle
-			OtherworldlyChest: Otherworldly Chest
-			OtherworldlyClock: Grandfather Clock
-			OtherworldlyDresser: Otherworldly Dresser
-			OtherworldlyPiano: Piano
-			OtherworldlyWorkBench: Work Bench
-			PlaguedPlateBasin: Broken Plagued 'Bed'
-			PlaguedPlateBathtub: Bathtub
-			PlaguedPlateBed: "'Bed'"
-			PlaguedPlateBookcase: Bookcase
-			PlaguedPlateCandelabra: Candelabra
-			PlaguedPlateCandle: Candle
-			PlaguedPlateChest: Plagued Chest
-			PlaguedPlateClock: Grandfather Clock
-			PlaguedPlateDresser: Plagued Dresser
-			PlaguedPlatePiano: Piano
-			PlaguedPlateWorkbench: Work Bench
-			ProfanedBath: Bathtub
-			ProfanedBed: Bed
-			ProfanedBookcase: Bookcase
-			ProfanedCandelabra: Candelabra
-			ProfanedCandle: Candle
-			ProfanedChest: Profaned Chest
-			ProfanedClock: Grandfather Clock
-			ProfanedDresser: Profaned Dresser
-			ProfanedPiano: Piano
-			ProfanedWorkbench: Work Bench
-			MonolithOfTheAccursedTile: Monolith of the Accursed
-			SacrilegiousBathtubTile: Bathtub
-			SacrilegiousBedTile: Bed
-			SacrilegiousBookcaseTile: Bookcase
-			SacrilegiousCandelabraTile: Candelabra
-			SacrilegiousCandleTile: Candle
-			SacrilegiousChestTile: Sacrilegious Chest
-			SacrilegiousClockTile: Grandfather Clock
-			SacrilegiousDresserTile: Sacrilegious Dresser
-			SacrilegiousOrganTile: Piano
-			SacrilegiousWorkBenchTile: Work Bench
-			SilvaBathtub: Bathtub
-			SilvaBed: Bed
-			SilvaBookcase: Bookcase
-			SilvaCandelabra: Candelabra
-			SilvaCandle: Candle
-			SilvaChest: Silva Chest
-			SilvaClock: Grandfather Clock
-			SilvaDresser: Silva Dresser
-			SilvaPiano: Piano
-			SilvaWorkBench: Work Bench
-			StatigelBath: Bathtub
-			StatigelBed: Bed
-			StatigelBookcase: Bookcase
-			StatigelCandelabra: Candelabra
-			StatigelCandle: Candle
-			StatigelChest: Statigel Chest
-			StatigelClock: Grandfather Clock
-			StatigelDresser: Statigel Dresser
-			StatigelPiano: Piano
-			StatigelWorkbench: Work Bench
-			StratusBathtub: Bathtub
-			StratusBed: Bed
-			StratusBookcase: Bookcase
-			StratusCandelabra: Candelabra
-			StratusCandle: Candle
-			StratusChest: Stratus Chest
-			StratusClock: Grandfather Clock
-			StratusDresser: Stratus Dresser
-			StratusPiano: Piano
-			StratusWorkbench: Work Bench
-			VoidBath: Bathtub
-			VoidBed: Bed
-			VoidBookcase: Bookcase
-			VoidCandelabra: Candelabra
-			VoidCandle: Candle
-			VoidChest: Void Chest
-			VoidClock: Void Obelisk
-			VoidDresser: Void Dresser
-			VoidPiano: Piano
-			VoidWorkbench: Work Bench
-			WulfrumBathtub: Bathtub
-			WulfrumBed: Bed
-			WulfrumBookcase: Bookcase
-			WulfrumCandelabra: Candelabra
-			WulfrumCandle: Candle
-			WulfrumClock: Grandfather Clock
-			WulfrumDresser: Wulfrum Dresser
-			WulfrumPiano: Piano
-			WulfrumToilet: Wulfrum Toilet
-			WulfrumWorkbench: Work Bench
-			DraedonsAmbienceMusicBox: Music Box
-			AerialiteOre: Aerialite
-			AerialiteOreDisenchanted: Disenchanted Aerialite
-			AstralOre: Astral Ore
-			AuricOre: Auric
+			PiggyCageTile: 小猪笼
+			PinkCandle: 活力蜡烛
+			PurpleCandle: 恢复蜡烛
+			SeaMinnowJarTile: 海洋米诺鱼缸
+			TranquilityCandle: 宁静蜡烛
+			TwinklerInABottleTile:  星幻萤火虫瓶
+			WulfrumLure: 钨钢干扰器
+			YellowCandle: 恶念蜡烛
+			AbyssBathtub: 浴缸
+			AbyssBed: 床
+			AbyssBookcase: 书架
+			AbyssCandelabra: 烛台
+			AbyssCandle: 蜡烛
+			AbyssChest: 深渊箱
+			AbyssClock: 落地大摆钟
+			AbyssDresser: 深渊梳妆台
+			AbyssSynth: 深渊钢琴
+			AbyssTorch: 火把
+			AbyssWorkBench: 工作台
+			AcidwoodBathTile: 浴缸
+			AcidwoodBedTile: 床
+			AcidwoodBookcaseTile: 书架
+			AcidwoodCandelabraTile: 烛台
+			AcidwoodCandleTile: 蜡烛
+			AcidwoodChestTile: 酸腐木箱
+			AcidwoodClockTile: 落地大摆钟
+			AcidwoodDresserTile: 酸腐木梳妆台
+			AcidwoodPianoTile: 钢琴
+			AcidwoodWorkBenchTile: 工作台
+			AncientBasin: 远古火盆
+			AncientBathtub: 浴缸
+			AncientBed: 床
+			AncientBookcase: 书架
+			AncientDresser: 远古梳妆台
+			AncientMonolith: 远古石柱
+			AncientPipeOrgan: 远古钢琴
+			AncientWorkBench: 工作台
+			AshenBasin: 灰烬火盆
+			AshenBathtub: 浴缸
+			AshenBed: 床
+			AshenBookcase: 书架
+			AshenCandelabra: 烛台
+			AshenCandle: 蜡烛
+			AshenChest: 灰烬箱
+			AshenChest_Locked: 上锁的灰烬箱
+			AshenDresser: 灰烬梳妆台
+			AshenMonolith: 灰烬柱
+			AshenPipeOrgan: 灰烬钢琴
+			AshenWorkBench: 工作台
+			BotanicBathtub: 浴缸
+			BotanicBed: 床
+			BotanicBookcase: 书架
+			BotanicCandelabra: 烛台
+			BotanicCandle: 蜡烛
+			BotanicChest: 植物箱
+			BotanicClock: 落地大摆钟
+			BotanicDresser: 植物梳妆台
+			BotanicPiano: 钢琴
+			BotanicWorkBench: 工作台
+			CosmiliteBasinTile: 宇宙火盆
+			CosmiliteBathtub: 浴缸
+			CosmiliteBed: 床
+			CosmiliteBookcase: 书架
+			CosmiliteCandelabra: 烛台
+			CosmiliteCandle: 蜡烛
+			CosmiliteChest: 宇宙箱
+			CosmiliteClock: 落地大摆钟
+			CosmiliteDresser: 宇宙钟梳妆台
+			CosmilitePiano: 钢琴
+			CosmiliteSconce: 宇宙壁灯
+			CosmiliteWorkBench: 工作台
+			EutrophicBathtub: 浴缸
+			EutrophicBed: 床
+			EutrophicBookcase: 书架
+			EutrophicCandelabra: 烛台
+			EutrophicCandle: 蜡烛
+			EutrophicChest: 富养箱
+			EutrophicClock: 落地大摆钟
+			EutrophicDresser: 富养梳妆台
+			EutrophicPiano: 钢琴
+			EutrophicWorkBench: 工作台
+			ExoBathtubTile: 浴缸
+			ExoBedTile: 床
+			ExoBookcaseTile: 书架
+			ExoCandelabraTile: 烛台
+			ExoCandleTile: 蜡烛
+			ExoChestTile: 星流箱
+			ExoClockTile: 落地大摆钟
+			ExoConsoleTile: 星流控制台
+			ExoDisplayTile: 星流展柜
+			ExoDoorClosed: 星流门
+			ExoDoorOpen: 星流门
+			ExoDresserTile: 星流梳妆台
+			ExoKeyboardTile: 星流键盘
+			ExoScreenTile: 星流荧幕
+			ExoServerTile: S星流服务器
+			ExoTerminalTile: 星流终端机
+			ExoToiletTile: 星流马桶
+			ExoWorkbenchTile: 工作台
+			MonolithBathtub: 浴缸
+			MonolithBed: 床
+			MonolithBookcase: 书架
+			MonolithCandelabra: 烛台
+			MonolithCandle: 蜡烛
+			MonolithChest: 星石箱
+			MonolithClock: 落地大摆钟
+			MonolithDresser: 星石梳妆台
+			MonolithPiano: 钢琴
+			MonolithWorkBench: 工作台
+			OtherworldlyBathtub: 浴缸
+			OtherworldlyBed: 床
+			OtherworldlyBookcase: 书架
+			OtherworldlyCandelabra: 烛台
+			OtherworldlyCandle: 蜡烛
+			OtherworldlyChest: 异域箱
+			OtherworldlyClock: 落地大摆钟
+			OtherworldlyDresser: 异域梳妆台
+			OtherworldlyPiano: 钢琴
+			OtherworldlyWorkBench: 工作台
+			PlaguedPlateBasin: 瘟疫“床”
+			PlaguedPlateBathtub: 浴缸
+			PlaguedPlateBed: “床”
+			PlaguedPlateBookcase: 书架
+			PlaguedPlateCandelabra: 烛台
+			PlaguedPlateCandle: 蜡烛
+			PlaguedPlateChest: 瘟疫箱
+			PlaguedPlateClock: 落地大摆钟
+			PlaguedPlateDresser: 瘟疫梳妆台
+			PlaguedPlatePiano: 钢琴
+			PlaguedPlateWorkbench: 工作台
+			ProfanedBath: 浴缸
+			ProfanedBed: 床
+			ProfanedBookcase: 书架
+			ProfanedCandelabra: 烛台
+			ProfanedCandle: 蜡烛
+			ProfanedChest: 亵渎箱
+			ProfanedClock: 落地大摆钟
+			ProfanedDresser: 亵渎梳妆台
+			ProfanedPiano: 钢琴
+			ProfanedWorkbench: 工作台
+			MonolithOfTheAccursedTile: 诅咒石柱
+			SacrilegiousBathtubTile: 浴缸
+			SacrilegiousBedTile: 床
+			SacrilegiousBookcaseTile: 书架
+			SacrilegiousCandelabraTile: 烛台
+			SacrilegiousCandleTile: 蜡烛
+			SacrilegiousChestTile: 渎圣箱
+			SacrilegiousClockTile: 落地大摆钟
+			SacrilegiousDresserTile: 渎圣梳妆台
+			SacrilegiousOrganTile: 钢琴
+			SacrilegiousWorkBenchTile: 工作台
+			SilvaBathtub: 浴缸
+			SilvaBed: 床
+			SilvaBookcase: 书架
+			SilvaCandelabra: 烛台
+			SilvaCandle: 蜡烛
+			SilvaChest: 始源林海箱
+			SilvaClock: 落地大摆钟
+			SilvaDresser: 始源林海梳妆台
+			SilvaPiano: 钢琴
+			SilvaWorkBench: 工作台
+			StatigelBath: 浴缸
+			StatigelBed: 床
+			StatigelBookcase: 书架
+			StatigelCandelabra: 烛台
+			StatigelCandle: 蜡烛
+			StatigelChest: 斯塔提斯箱
+			StatigelClock: 落地大摆钟
+			StatigelDresser: 斯塔提斯梳妆台
+			StatigelPiano: 钢琴
+			StatigelWorkbench: 工作台
+			StratusBathtub: 浴缸
+			StratusBed: 床
+			StratusBookcase: 书架
+			StratusCandelabra: 烛台
+			StratusCandle: 蜡烛
+			StratusChest: 幻云箱
+			StratusClock: 落地大摆钟
+			StratusDresser: 幻云梳妆台
+			StratusPiano: 钢琴
+			StratusWorkbench: 工作台
+			VoidBath: 浴缸
+			VoidBed: 床
+			VoidBookcase: 书架
+			VoidCandelabra: 烛台
+			VoidCandle: 蜡烛
+			VoidChest: 虚空箱
+			VoidClock: 虚空钟
+			VoidDresser: 虚空梳妆台
+			VoidPiano: 钢琴
+			VoidWorkbench: 工作台
+			WulfrumBathtub: 浴缸
+			WulfrumBed: 床
+			WulfrumBookcase: 书架
+			WulfrumCandelabra: 烛台
+			WulfrumCandle: 蜡烛
+			WulfrumClock: 落地大摆钟
+			WulfrumDresser: 钨钢梳妆台
+			WulfrumPiano: 钢琴
+			WulfrumToilet: 钨钢马桶
+			WulfrumWorkbench: 工作台
+			DraedonsAmbienceMusicBox: 音乐盒
+			AerialiteOre: 天蓝矿
+			AerialiteOreDisenchanted: 未注魔的天蓝矿
+			AstralOre: 炫星矿
+			AuricOre: 圣金源矿
 			CryonicOre: Cryonic
 			ExodiumOre: Exodium
 			HallowedOre: Hallowed Ore
 			InfernalSuevite: Infernal Suevite
 			PerennialOre: Perennial
 			ScoriaOre: Scoria
-			UelibloomOre: Uelibloom
-			RoxTile: Roxcalibur
-			AlgalPrismTorch: Torch
-			BrainCoral: Brain Coral
-			EutrophicSand: Eutrophic Sand
-			FanCoral: Fan Coral
-			NavyPrismTorch: Torch
-			Navystone: Navystone
-			RefractivePrismTorch: Torch
-			SeaAnemone: Sea Anemone
-			SeaPrism: Sea Prism
-			SeaPrismBrick: Sea Prism Brick
-			SeaPrismCrystals: Sea Prism Crystal
+			UelibloomOre: 龙蒿矿
+			RoxTile: 石约与胜利之剑
+			AlgalPrismTorch: 火把
+			BrainCoral: 大脑珊瑚
+			EutrophicSand: 富营养沙
+			FanCoral: 扇形珊瑚
+			NavyPrismTorch: 火把
+			Navystone: 沉沦渊石
+			RefractivePrismTorch: 火把
+			SeaAnemone: 海葵
+			SeaPrism: 海棱晶
+			SeaPrismBrick: 海晶砖
+			SeaPrismCrystals: 棱晶碎片
 			SmallBrainCoral: Small Brain Coral
 			SmallTubeCoral: Small Tube Coral
 			SunkenCrateTile: Sunken Crate
@@ -12747,258 +12747,255 @@ Mods: {
 				BaseBoosts: 基础属性加成
 				}
 			EntryTitle: {
-				AdrenalineMeterPosX: "[i:2799] Adrenaline Meter X Position"
-				AdrenalineMeterPosY: "[i:2799] Adrenaline Meter Y Position"
-				Afterimages: "[i:1742] Afterimages"
-				BossesStopWeather: "[i:6766] Bosses Stop Weather"
-				BossHealthBarExtraInfo: "[i:5626] Boss Health Bar Extra Info"
-				BossHealthBoost: "[i:29] Boss Health Boost Percentage"
-				BossZen: "[i:6719] Bosses Drastically Reduce Spawn Rates"
-				ChargeMeter: "[i:5617] Display Charge Meter"
-				ChargeMeterPosX: "[i:2799] Charge Meter X Position"
-				ChargeMeterPosY: "[i:2799] Charge Meter Y Position"
-				ChilledWaterRework: "[i:1861] Chilled Water Rework"
-				CooldownDisplay: "[i:5303] Cooldown Rack Display Mode"
-				DebuffDisplay: "[i:1356] Display Enemy Debuffs"
-				EarlyHardmodeProgressionRework: "[i:367] Early Hardmode Progression Rework"
-				FasterBaseSpeed: "[i:54] Increase Base Movement Speed"
-				FasterFallHotkey: "[i:5612] Enable Fast Falling"
-				FasterJumpSpeed: "[i:2423] Increase Base Jump Speed"
-				FasterTilePlacement: "[i:3061] Increase Base Building Speed"
-				ForceTownSafety: "[i:63] Force Town Safety"
-				HigherJumpHeight: "[i:159] Increase Base Jump Height"
-				MeterPosLock: "[i:3647] Lock Meter Positions"
-				NerfExpertDebuffs: "[i:1612] Remove Increased Debuff Duration"
-				ParticleLimit: "[i:3459] Max Particle Limit"
-				RageMeterPosX: "[i:2799] Rage Meter X Position"
-				RageMeterPosY: "[i:2799] Rage Meter Y Position"
-				RemoveReforgeRNG: "[i:3499] Remove Reforge RNG"
-				RipperMeterShake: "[i:5869] Rage and Adrenaline Meter Shake"
-				Screenshake: "[i:6843] Screenshake"
-				ShopNewAlert: "[i:306] New Shop Inventory Alerts"
-				SpeedrunTimer: "[i:3099] Display Speedrun Timer"
-				SpeedrunTimerPosX: "[i:2799] Speedrun Timer X Position"
-				SpeedrunTimerPosY: "[i:2799] Speedrun Timer Y Position"
-				StealthInvisibility: "[i:5651] Stealth Invisibility"
-				StealthMeter: "[i:5250] Display Stealth Meter"
-				StealthMeterPosX: "[i:2799] Stealth Meter X Position"
-				StealthMeterPosY: "[i:2799] Stealth Meter Y Position"
-				SulphuricWaterMeterPosX: "[i:2799] Sulphuric Water Poison Meter X Position"
-				SulphuricWaterMeterPosY: "[i:2799] Sulphuric Water Poison Meter Y Position"
-				PotionSelling: "[i:296] Town NPC Potion Selling"
-				TownNPCSpawnRateMultiplier: "[i:267] Town NPC Spawn Rate Multiplier"
-				TownNPCsSpawnAtNight: "[i:1307] Town NPCs Spawn at Night"
-				VanillaCooldownDisplay: "[i:188] Display Vanilla Cooldowns"
-				WikiStatusMessage: "[i:149] Wiki Status Message"
-				BossRushRegenCurse: "[i:216] "
-				BossRushDashCurse: "[i:216] "
-				BossRushIFrameCurse: "[i:216] "
+				AdrenalineMeterPosX: "[i:2799] 肾上腺素条X轴坐标"
+				AdrenalineMeterPosY: "[i:2799] 肾上腺素条Y轴坐标"
+				Afterimages: "[i:1742] 残影"
+				BossesStopWeather: "Bosse战斗停雨"
+				BossHealthBarExtraInfo: "[i:CalamityMod/EncryptedSchematicPlanetoid] Boss血条额外信息"
+				BossHealthBoost: "[i:29] Boss生命值百分比强化"
+				BossZen: "[i:CalamityMod/ZenPotion] Boss 禅定"
+				ChargeMeter: "[i:CalamityMod/DraedonPowerCell] 显示充能条"
+				ChargeMeterPosX: "[i:2799] 充能条X轴坐标"
+				ChargeMeterPosY: "[i:2799] 充能条Y轴坐标"
+				ChilledWaterRework: "[i:1861] 重置版冰水"
+				CooldownDisplay: "[i:CalamityMod/NebulousCore] 冷却显示"
+				DebuffDisplay: "[i:1356] 显示敌人Debuff"
+				EarlyHardmodeProgressionRework: "[i:367] 困难模式早期流程重做"
+				ForceTownSafety: "[i:63] 强制城镇安全"
+				MeterPosLock: "[i:5583] 属性条位置锁定"
+				FasterBaseSpeed: "[i:2423] 更高基础速度"
+				HigherJumpHeight: "[i:159] 更高跳跃高度"
+				FasterJumpSpeed: "[i:2423] 更高跳跃速度"
+				FasterFallHotkey: "[i:CalamityMod/BallAndChain] 快速下落快捷键"
+				FasterTilePlacement: "[i:3061] 更快的基础放置速度"
+				NerfExpertDebuffs: "[i:1612] 移除增加的减益持续时间"
+				ParticleLimit: "[i:3459] 最大粒子数"
+				RageMeterPosX: "[i:2799] 怒气条X轴坐标"
+				RageMeterPosY: "[i:2799] 怒气条Y轴坐标"
+				RemoveReforgeRNG: "[i:3499] 移除重铸随机性"
+				RipperMeterShake: "[i:CalamityMod/RedLightningContainer] 怒气条与肾上腺素条震动"
+				Screenshake: "[i:CalamityMod/WavePounder] 屏幕震动"
+				ShopNewAlert: "[i:306] 商店新物品提示"
+				SpeedrunTimer: "[i:3099] 速通计时器"
+				SpeedrunTimerPosX: "[i:2799] 速通计时器X轴坐标"
+				SpeedrunTimerPosY: "[i:2799] 速通计时器Y轴坐标"
+				StealthInvisibility: "[i:CalamityMod/StealthHairDye] 潜行隐身"
+				StealthMeter: "[i:CalamityMod/EclipseMirror] 潜行条"
+				StealthMeterPosX: "[i:2799] 潜行条X轴坐标"
+				StealthMeterPosY: "[i:2799] 潜行条Y轴坐标"
+				SulphuricWaterMeterPosX: "[i:2799] 硫磺海水腐蚀条X轴坐标"
+				SulphuricWaterMeterPosY: "[i:2799] 硫磺海水腐蚀条Y轴坐标"
+				PotionSelling: "[i:296] 城镇NPC出售药水",
+				TownNPCSpawnRateMultiplier: "[i:267] 城镇NPC生成率乘算器"
+				TownNPCsSpawnAtNight: "[i:1307] 城镇NPC在夜间生成"
+				VanillaCooldownDisplay: "[i:188] 原版冷却显示"
+				WikiStatusMessage: "[i:149] Wiki状态信息"
 				}
 			EntryTooltip:
 				{
-				AdrenalineMeterPosX:
-					'''
-					The X position of the Adrenaline Meter, measured as a % of your screen width.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				AdrenalineMeterPosY:
-					'''
-					The Y position of the Adrenaline Meter, measured as a % of your screen height.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				Afterimages:
-					'''
-					Enables rendering afterimages for Calamity NPCs, projectiles, etc.
-					Disable to improve performance.
-					'''
+				AdrenalineMeterPosX: 
+				'''
+				肾上腺素条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。
+				'''
+				AdrenalineMeterPosY: 
+				'''
+				肾上腺素条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。
+				'''
+				Afterimages: 
+				'''
+				为灾厄 NPC、射弹等等物体开启残影渲染。
+				关闭以提升性能。
+				'''
 				BossesStopWeather:
-					'''
-					When enabled, many late game bosses while stop all rain and related weather when spawned.
-					Enable if you have performance issues during late game boss fights.
-					'''
-				BossHealthBarExtraInfo:
-					'''
-					Adds extra info to Calamity's boss health bar.
-					This displays either the boss's exact health or number of remaining parts or segments.
-					'''
-				BossHealthBoost:
-					'''
-					Globally boosts the health of all bosses by the specified percentage.
-					This stacks with multiplayer boss health boosts.
-					Does not affect bosses that are already spawned.
-					'''
-				BossZen:
-					'''
-					All living bosses will drastically reduce the spawn rates of regular enemies.
-					This also prevents Slime Rain from occurring while a boss is alive.
-					'''
-				ChargeMeter:
-					'''
-					Enables the Charge Meter UI, which displays the current charge of the player's held weapon.
-					The Charge Meter is always hidden if not holding a weapon which requires charge.
-					'''
-				ChargeMeterPosX:
-					'''
-					The X position of the Charge Meter, measured as a % of your screen width.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				ChargeMeterPosY:
-					'''
-					The Y position of the Charge Meter, measured as a % of your screen height.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				ChilledWaterRework: When enabled, water in the Snow and Ice biomes will rapidly drain the player's breath instead of inflicting Chilled.
-				CooldownDisplay:
-					'''
-					Adds the Cooldown Rack which displays all important cooldowns right underneath buffs and debuffs.
-					Set this to 1 to display the Cooldown Rack in compact mode, and to 0 to hide it entirely.
-					'''
-				DebuffDisplay: Adds an array of debuff icons above all bosses and minibosses.
-				EarlyHardmodeProgressionRework:
-					'''
-					Demon Altars no longer spawn ores and crimson/corruption blocks when broken.
-					Wall of Flesh spawns Cobalt and Palladium ore on first kill.
-					The first mech boss you fight has 20% less HP and damage and spawns Mythril and Orichalcum ore on first kill.
-					The second mech boss you fight has 10% less HP and damage and spawns Adamantite and Titanium ore on first kill.
-					The third mech boss spawns Hallowed Ore on first kill
-					'''
+				'''
+				启用后，许多后期Boss在召唤时会停止降雨和相关天气。
+                如果你在游戏后期与Boss战斗时遇到性能问题，请启用。
+				'''
+				BossHealthBarExtraInfo: 
+				'''
+				在灾厄的Boss生命条上添加额外信息。
+				这包括 Boss 的实际生命值或剩余的部位/体节数量。
+				'''
+				BossHealthBoost: 
+				'''
+				全局百分比提升所有 Boss 的生命值。
+                与多人血量提升叠加。
+				不会影响已被生成的 Boss。
+				'''
+				BossZen: 
+                '''
+                当有 Boss 存活时，所有玩家会获得Boss禅定增益，它会极大降低敌怪的生成率。
+                可防止Boss存活时发生史莱姆雨。
+                '''
+				ChargeMeter: 
+				'''
+				开启显示玩家当前手持的嘉登造物的充能值。
+				如果没有手持嘉登造物，充能条会总是处于隐藏状态。
+				'''
+				ChargeMeterPosX: 
+				'''
+				充能条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				ChargeMeterPosY: 
+				'''
+				潜行条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				ChilledWaterRework: 启用时，雪原生物群落和冰雪生物群落中的水会造成肺部冻伤，使得玩家的呼吸条快速消耗，而不会造成冷冻减益。
+				CooldownDisplay: 
+                '''
+                在Buff栏和Debuff栏下方显示重要的冷却图标。
+                值设为1图标显示地更紧凑。值设为0不会显示图标。
+                '''
+				DebuffDisplay: 在所有 Boss 和迷你 Boss 上方添加一排当前具有的减益图标。
+				EarlyHardmodeProgressionRework: 
+				'''
+				破坏邪恶祭坛不再生成矿石和邪恶物块。
+				首次击杀血肉墙会使钯金矿和钴矿在世界中生成。
+				第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。
+				第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。
+				首次击败第三个机械boss会使神圣矿在世界中生成。
+				'''
 				FasterBaseSpeed:
-					'''
-					Increases the player's base movement speed substantially by always giving them +50% movement speed.
-					This setting does nothing if the mod Terraria Overhaul is loaded.
-					Calamity is balanced around this setting being enabled.
-					'''
+				'''
+				大幅提高玩家的基础移动速度（移动速度+50%）。
+				如果加载了Terraria Overhaul，则此设置无效。
+				在此设置启用时灾厄会平衡。
+				'''
 				FasterFallHotkey:
-					'''
-					When enabled, you can hold the DOWN key while in the air to accelerate downwards faster.
-					This config does not increase your maximum falling speed, just how quickly you accelerate to it.
-					Calamity is balanced around this setting being enabled.
-					'''
+				'''
+				启用后，你可以在空中按住DOWN键以更快地向下降落。
+				此配置不会增加你的最大下降速度，只会增加加速度。
+				在此设置启用时灾厄会平衡。
+				'''
 				FasterJumpSpeed:
-					'''
-					Slightly increases the player's base jump speed.
-					Calamity is balanced around this setting being enabled.
-					'''
+				'''
+				小幅提高玩家的基础跳跃速度
+				在此设置启用时灾厄会平衡。
+				'''
 				FasterTilePlacement:
-					'''
-					Substantially increases how rapidly the player can place tiles and walls.
-					This config stacks with the Brick Layer, Portable Cement Mixer and other accessories.
-					'''
-				ForceTownSafety:
-					'''
-					Counteracts Expert and Master Mode allowing enemies to spawn near towns by vastly decreasing spawn rates.
-					This can have unintended side effects such as making critters difficult to find.
-					'''
+				'''
+				大幅提高玩家放置方块和墙壁速度。
+				此设置与饰品效果叠加。
+				'''
+				ForceTownSafety: 
+				'''
+				通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。
+				这可能会产生意想不到的副作用，例如使动物难以找到。
+				'''
 				HigherJumpHeight:
-					'''
-					Increases the player's base jump height by 10% so that they can jump 7 tiles.
-					Calamity is balanced around this setting being enabled.
-					'''
-				MeterPosLock:
-					'''
-					Prevents clicking on the Stealth, Charge, Rage, and Adrenaline Meters.
-					This stops them from being dragged around with the mouse.
-					'''
-				NerfExpertDebuffs:
-					'''
-					Disables Expert Mode doubling (and Master Mode tripling) the duration of debuffs on the player.
-					Calamity is balanced around this setting being enabled.
-					'''
-				ParticleLimit:
-					'''
-					Sets the maximum of particle effects that can exist at once.
-					Particles are separate from dust and gores.
-					Turn down to improve performance.
-					'''
+				'''
+				提高玩家的基础跳跃高度10%，可以跳跃7图格。
+				在此设置启用时灾厄会平衡。
+				'''
+				MeterPosLock: 
+                '''
+                固定潜行条、充能条、怒气条和肾上腺素条。
+                开启后防止它们被鼠标拖动。
+                '''
+				NerfExpertDebuffs: 
+				'''
+				禁用专家和大师模式减益持续时间的翻倍。
+				灾厄围绕启用的此设置进行平衡。
+				'''
+				ParticleLimit: 
+				'''
+				设定同时存在的最大粒子数。
+				粒子和溅血效果是分开的。
+				调低以提升性能。
+				'''
 				RageMeterPosX:
-					'''
-					The X position of the Rage Meter, measured as a % of your screen width.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				RageMeterPosY:
-					'''
-					The Y position of the Rage Meter, measured as a % of your screen height.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				RemoveReforgeRNG:
-					'''
-					Removes randomness from the Goblin Tinkerer's reforges for both weapons and accessories.
-					Disable this if using mods that change reforging on their own to prevent conflicts.
-					'''
-				RipperMeterShake:
-					'''
-					How much the Rage and Adrenaline Meters shake while in use.
-					Set to zero to disable the shaking entirely.
-					'''
-				Screenshake: Enable or disable all screen-shaking effects.
-				ShopNewAlert: Adds an icon that appears over Town NPCs when they have new items in their shops.
-				SpeedrunTimer:
-					'''
-					Enables an in-game speedrun timer which shows in-game time down to the millisecond.
-					A second line displays the time of your most recent boss kill.
-					The time is tracked per player and only counts time while loaded into a world.
-					'''
-				SpeedrunTimerPosX:
-					'''
-					The X position of the Speedrun Timer, measured as a % of your screen width.
-					This must be set manually and cannot be dragged around.
-					'''
-				SpeedrunTimerPosY:
-					'''
-					The Y position of the Speedrun Timer, measured as a % of your screen height.
-					This must be set manually and cannot be dragged around.
-					'''
-				StealthInvisibility:
-					'''
-					Enables players gradually turning invisible as their Rogue Stealth increases.
-					This effect is visually similar to Shroomite armor's stealth.
-					'''
-				StealthMeter:
-					'''
-					Enables the Stealth Meter UI, which shows the player's current stealth level.
-					The Stealth Meter is always hidden if not wearing Rogue armor.
-					'''
-				StealthMeterPosX:
-					'''
-					The X position of the Stealth Meter, measured as a % of your screen width.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				StealthMeterPosY:
-					'''
-					The Y position of the Stealth Meter, measured as a % of your screen height.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				SulphuricWaterMeterPosX:
-					'''
-					The X position of the Sulphuric Water Poison Meter, measured as a % of your screen width.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
-				SulphuricWaterMeterPosY:
-					'''
-					The Y position of the Sulphuric Water Poison Meter, measured as a % of your screen height.
-					The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-					'''
+				'''
+				怒气条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。
+				'''
+				RageMeterPosY: 
+				'''
+				怒气条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。
+				'''
+				RemoveReforgeRNG: 
+				'''
+				移除哥布林工匠重铸武器和饰品时的随机性。
+				当有其他模组对重铸做出修改时禁用以防冲突。
+				'''
+				RipperMeterShake: 
+				'''
+				使用怒气和肾上腺素时条的振幅。
+				设为 0 可以完全禁用振动。
+				'''
+				Screenshake: 开启或关闭所有屏幕抖动效果。
+				ShopNewAlert: 当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。
+				SpeedrunTimer: 
+				'''
+				启用游戏内速通计时器，时间显示为毫秒。
+				第二行显示最近一次Boss击杀的时间。
+                每个玩家时间独立，仅进入世界后计时。
+				'''
+				SpeedrunTimerPosX: 
+				'''
+				速通计时器的 X 坐标位置。
+				只能手动设置
+				'''
+				SpeedrunTimerPosY: 
+				'''
+				速通计时器的 X 坐标位置。
+				只能手动设置
+				'''
+				StealthInvisibility: 
+                '''
+                启用时玩家会随着潜行值逐渐隐身。
+                类似蘑菇套的效果。
+                '''
+				StealthMeter: 
+				'''
+				开启显示玩家当前潜行值的潜行条。
+				如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。
+				'''
+				StealthMeterPosX: 
+				'''
+				潜行条的 X 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				StealthMeterPosY: 
+				'''
+				潜行条的 Y 坐标位置。
+				如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+				'''
+				SulphuricWaterMeterPosX: 
+				'''
+				硫磺海水腐蚀条的 X 坐标位置，测量的是屏幕宽度的百分比。
+				如果属性条位置锁定被关闭，则该条可以被鼠标拖动。
+				'''
+				SulphuricWaterMeterPosY: 
+				'''
+				硫磺海水腐蚀条的 Y 坐标位置，测量的是屏幕高度的百分比。
+				如果属性条位置锁定被关闭，则该条可以被鼠标拖动。
+				'''
 				PotionSelling:
-					'''
-					Allows town NPCs to sell various potions.
-					Certain potions are sold after specific bosses have been defeated.
-					'''
-				TownNPCSpawnRateMultiplier:
-					'''
-					Directly multiply the rate at which town NPCs spawn and respawn.
-					This reduces waiting times if a boss or event wipes your whole town.
-					'''
-				TownNPCsSpawnAtNight:
-					'''
-					When enabled, town NPCs can spawn and respawn at night.
-					This includes the Old Man.
-					'''
-				VanillaCooldownDisplay:
-					'''
-					Adds the vanilla debuffs Potion Sickness and Chaos State to the Cooldown Rack.
-					This doesn't remove them from your buff list, but can help with visibility nonetheless
-					'''
-				WikiStatusMessage: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
+				'''
+				允许城镇NPC出售各种药水。
+                某些药剂在特定boss被击败后出售。
+				'''
+				TownNPCSpawnRateMultiplier: 
+                '''
+                此数值越高，城镇 NPC 生成的速率越快。
+                让你在Boss战中灰飞烟灭的城镇快速恢复。
+                '''
+				TownNPCsSpawnAtNight: 
+                '''
+                玩家可决定城镇 NPC是否会在夜晚生成。
+                （包括老人）
+                '''
+				VanillaCooldownDisplay: 
+				'''
+				为混沌状态和药水疾病添加特定冷却图标。
+				这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。
+				'''
+				WikiStatusMessage: 启用/禁用进入世界的Wiki状态消息提示
 				}
 			}
 		UI: {
@@ -13882,5 +13879,176 @@ Mods: {
 			VernalSoil: ""
 			WulfrumPipes: ""
 			}
+
+			# --- 聊天栏提示 ---
+		SulphurSwitchLeft: "硫磺海现在位于世界左侧。"
+		SulphurSwitchRight: "硫磺海现在位于世界右侧。"
+		SlimeGodRun: "史莱姆之神落荒而逃，改日再战吧……"
+		SkyOreText: "苍青色的光辉照耀着天空。"
+		IceOreText: "寒晶能量从冰之洞穴中迸发而出。"
+		PlantOreText: "富含能量的植物物质已在地下形成。"
+		TreeOreText: "石化树皮正在丛林的淤泥中爆发。"
+		AuricOreText: "远古巨龙的力量在洞穴中显现，交织着穿过岩石。"
+		FutureOreText: "冷黯的能量散布至宇宙之间。"
+        SkeletronAbyssChestNotification: "初代树妖的藤蔓认为你配得上它们的深渊宝藏。"
+		HardmodeOreTier1Text: "你的世界已被钴矿和钯金矿祝福！"
+		HardmodeOreTier2Text: "你的世界已被秘银矿和山铜矿祝福！"
+		HardmodeOreTier3Text: "你的世界已被精金矿和钛金矿祝福！"
+		HardmodeOreTier4Text: "神圣之地已得到神之金属的祝福！"
+		UglyBossText: "沉沦之海在颤动……"
+		WetWormBossText: "硫磺海的天空变暗了……"
+		PlantBossText: "海洋的深处传来震动。"
+		BabyBossText: "一场瘟疫席卷了丛林。"
+		MoonBossText: "亵渎之火猛烈燃烧！"
+		MoonBossText2: "宇宙的恐惧正注着这一切……"
+		PlagueBossText: "瘟疫核弹已就绪，准备发射！！！"
+		PlagueBossText2: "导弹已发射，目标定位系统开启！！！"
+		ProfanedBossText: "神圣之火点燃了你的翅膀……"
+		ProfanedBossText2: "尖叫声回荡于地牢之中。"
+		ProfanedBossText3: "灾厄造物已被血石洗礼。"
+		ProfanedBossText4: "亵渎天神已经认可了你对纯净的贡献！"
+		GhostBossText: "深渊之灵受到了威胁。"
+		GhostBossText2: "哀嚎声回响在破旧的地牢大厅之中……"
+		GhostBossText3: "逝去已久的囚犯们寻求着自己的狂热复仇……"
+		GhostBossText4: "喷涌而出的灵魂扰乱了这场酸性风暴……"
+		AstralText: "一颗明星从天堂中坠陨！"
+		AureusBossText: "星幻敌人得到了增强！"
+		AureusBossText2: "微弱的异界之音游离在地牢中。"
+		AstralBossText: "幻星的封印已破碎！你可以挖掘炫星矿了。"
+		DeusText: "诞生于星辰之间的恐惧穿梭在星辉瘟疫中。"
+		DeusAltarRejectNightText: "群星之神拒绝了你的供奉。仪式只能在夜晚进行。"
+		SandSharkText: "沙子中有什么东西正在行动……"
+		SandSharkText2: "一个巨大的顶级掠食者接近了……"
+		SandSharkText3: "沙漠正在剧烈动荡！"
+		CryogenBossText: "极地之灵蹦了出来！"
+        PyrogenBossText: "炙原之灵蹦了出来！"
+		EdgyBossText: "别得意！小子！"
+		EdgyBossText2: "致命失误！"
+		EdgyBossText3: "美味……"
+		EdgyBossText4: "哦，疼么？"
+		EdgyBossText5: "还没完呢！小子！"
+		EdgyBossText6: "神！不惧死亡！"
+		EdgyBossText7: "你不是神……但你的灵魂仍是我的盛宴！"
+		DoGBossText: "寒霜之月散发着明洁的光辉。"
+		DoGBossText2: "收割之月散布着诡异的光芒。"
+		DargonBossText: "黑蚀之日蓄势待发。"
+		DraedonIntroductionText1: "你知道吗？这一刻已经等了太久了。"
+		DraedonIntroductionText2: "我对一切未知感到着迷，但最让我着迷的莫过于你的本质。"
+		DraedonIntroductionText3: "我将会向你展示，我那些超越神明的造物。"
+		DraedonIntroductionText4: "而你，则将在战斗中向我展示你的本质。"
+		DraedonIntroductionText5: "现在，选择吧。"
+		DraedonExoPhase1Text1: "时间与知识的积累带来的不断改进，正是我作品精华所在。"
+		DraedonExoPhase1Text2: "接近完美的方法，除此再无。"
+		DraedonExoPhase2Text1: "很好，很好，你的表现水平完全就在误差范围之内。"
+		DraedonExoPhase2Text2: "这着实令人满意。接下来我们将进入下一个测试环节。"
+		DraedonExoPhase3Text1: "自我第一次到得知你的存在，我就一直在研究你的战斗，并以此让我的机械变得更强。"
+		DraedonExoPhase3Text2: "就算是现在，我依然在检测你的行动。一切都在我的计算之内。"
+		DraedonExoPhase4Text1: "有趣，十分有趣。"
+		DraedonExoPhase4Text2: "就算是面对更为困难的挑战，你仍可以稳步推进。"
+		DraedonExoPhase5Text1: "我依然无法理解你的本质，这样下去可不行。"
+		DraedonExoPhase5Text2: "……我一向追求完美，可惜造化弄人，这一定是我犯下的第一个错误。"
+		DraedonExoPhase6Text1: "荒谬至极。"
+		DraedonExoPhase6Text2: "我不会再让那些无用的计算干扰我对这场战斗的观察了。"
+		DraedonExoPhase6Text3: "我将向你展示，我终极造物的全部威力。"
+		DraedonAresEnrageText: "真是愚昧，你是无法逃跑的。"
+		DraedonResummonText: "做出你的选择。"
+		DraedonBossRushText: "做出你的选择。你有20秒的时间。"
+		DraedonEndText1: "一个未知因素——你，是一个特异点。"
+		DraedonEndText2: "你对这片大地和它的历史而言，只是外来之人，就和我一样。"
+		DraedonEndText3: "……很抱歉，但在看了这样一场“展示”之后，我必须得花点时间整理我的思绪。"
+		DraedonEndText4: "迄今为止喷洒的血液已经让这片大陆变得陈腐无比，毫无生气。"
+		DraedonEndText5: "你也挥洒了自己的鲜血，但这可能足以带来一个新的时代……是什么，我不知道。但那一定是我所渴望看到的时代。"
+		DraedonEndText6: "现在，你想要接触那位暴君。可惜我无法帮到你。"
+		DraedonEndText7: "这并非出自怨恨，毕竟从一开始，我的目标就只有观察刚才的这一场战斗。"
+		DraedonEndText8: "但你过去也成功过，所以你最后会找到办法的。"
+		DraedonEndText9: "我必须尊重并承认你的胜利，但现在，我得把注意力放回到我的机械上了。"
+		DraedonEndKillAttemptText: "……你的行为没什么必要。"
+		DraedonMechdusaBeginText: "……死吧。"
+		DraedonMechdusaEndText1: "等等，什么？怎么可能？"
+		DraedonMechdusaEndText2: "不"
+		CalamitasBossText: "你低估了我的力量……"
+		CalamitasBossText2: "兄弟重生！"
+		CalamitasBossText3: "你成功给我留下了深刻的印象，留下了最深刻的印象……"
+		SCalSummonText: "你享受地狱之旅么？"
+		SCalStartText: "真奇怪，你应该已经死了才对……"
+		SCalBH2Text: "距离你上次勉强才击败我的克隆体也没过多久。那玩意就是个失败品，不是么？"
+		SCalBH3Text: "你驾驭着强大的力量，但你使用这股力量只为了自己的私欲。"
+		SCalBrothersText: "你想见见我的家人吗？听上去挺可怕，不是么？"
+		SCalPhase2Text: "你将痛不欲生。"
+		SCalBH4Text: "别想着逃跑。只要你还活着，痛苦就不会离你而去。"
+		SCalSeekerRingText: "一个后起之人，只识杀戮与偷窃，但却以此得到力量。我想想，这让我想起了谁……？"
+		SCalBH5Text: "这场战斗的输赢对你而言毫无意义！那你又有什么理由干涉这一切！"
+		SCalSepulcher2Text: "我们两人里只有一个可以活下来，但如果那个人是你，这一切还有什么意义？！"
+		SCalDesparationText1: "给我停下！"
+		SCalDesparationText2: "如果我在这里失败，我就再无未来可言。"
+		SCalDesparationText3: "一旦你战胜了我，你就只剩下一条道路。"
+		SCalDesparationText4: "而那条道路……同样也无未来可言。"
+		SCalAcceptanceText1: "哪怕他抛弃了一切，他的力量也不会消失。"
+		SCalAcceptanceText2: "我已没有余力去怨恨他了，对你也是如此……"
+		SCalAcceptanceText3: "现在，一切都取决于你。"
+		SCalSummonTextRematch: "如果你想感受一下四级烫伤的话，你可算是找对人了。"
+		SCalStartTextRematch: "他日若你魂销魄散，你会介意我将你的骨头和血肉融入我的造物中吗？"
+		SCalBH2TextRematch: "你离胜利还差得远着呢。"
+		SCalBH3TextRematch: "自我上一次能在如此有趣的靶子假人身上测试我的魔法，已经过了很久了。"
+		SCalBrothersTextRematch: "只是单有过去形态的空壳罢了，或许在其中依然残存他们的些许灵魂也说不定。"
+		SCalPhase2TextRematch: "再一次，我们开始吧。"
+		SCalBH4TextRematch: "我挺好奇，自我们第一次交手后，你曾否在梦魇中见到过这些？"
+		SCalSeekerRingTextRematch: "起码你的技术没有退步。"
+		SCalBH5TextRematch: "这难道不令人激动么？"
+		SCalSepulcher2TextRematch: "注意一下，那个会自己爬的坟墓来了，这是最后一次。"
+		SCalDesparationText1Rematch: "了不起的表现，我认可你的胜利。"
+		SCalDesparationText2Rematch: "毫无疑问，你会遇见比我更加强大的敌人。"
+		SCalDesparationText3Rematch: "我相信你不会犯下和他一样的错误。"
+		SCalDesparationText4Rematch: "至于你的未来会变成什么样子，我很期待。"
+		BossRushStartText: "嗯？啊，又一位挑战者。嗯，好，很好，那就让仪式开始吧！"
+		BossRushTierOneEndText: "嗯？喔，你还活着啊。想不到想不到，但你别就因为这点程度就自满咯～"
+		BossRushTierTwoEndText: "嗯？你还真的挺顽强的，不是吗？也许跟以前过去那些挑战者不同，你有成功的机会。"
+		BossRushTierThreeEndText: "嗯？你的执着真的能算得上一个值得赞扬的品质啊。你在这么短的时间里，都已经超越半神了。"
+		BossRushTierThreeEndText2: "愿你的技巧能继续把这个锋芒保持到最后的挑战。"
+		BossRushTierFourEndText: "嗯？所以你就进入了最终阶段？这可是连最强大的神灵都会生羡的伟大壮举。"
+		BossRushTierFourEndText2: "前进！征服！直到仪式的终结！"
+		BossRushTierFiveEndText: "嗯？除了这石头你还想要更多奖励？别急，真正的奖励迟早会出现……"
+		Tier1ArsenalRecipeCondition: "获得沉沦之海原型图"
+		Tier2ArsenalRecipeCondition: "破译小行星加密原型图"
+		Tier3ArsenalRecipeCondition: "破译丛林加密原型图"
+		Tier4ArsenalRecipeCondition: "破译地狱加密原型图"
+		Tier5ArsenalRecipeCondition: "破译雪原加密原型图"
+		SunkenSeaSchematicRecipeCondition: "背包中至少放置一次沉沦之海原型图"
+		PlanetoidSchematicRecipeCondition: "背包中至少放置一次小行星原型图"
+		JungleSchematicRecipeCondition: "背包中至少放置一次丛林原型图"
+		UnderworldSchematicRecipeCondition: "背包中至少放置一次地狱原型图"
+		IceSchematicRecipeCondition: "背包中至少放置一次雪原原型图"
+		SandstormTrigger: "沙漠里刮起了猛烈的疾风！"
+		OpenSunkenSea: "地下沙漠的深处轰隆作响……"
+		AcidRainStart: "一场剧毒暴雨席卷了整片废土之海！"
+		AcidRainEnd: "硫磺海的天空开始放晴了……"
+		ThirdSageBlessingText: "你已被第三贤者祝福！"
+		ThirdSageBlessingText2: "第三贤者收回了它的祝福……"
+		DefenseDamage: "防御损伤"
+		ChangingTheRules: "你现在无法改变规则。"
+		FlameText: "你周围的空气变得灼热起来。"
+		BloodMoonText: "血月正在升起……"
+		RevengeText: "复仇模式已开启。"
+		RevengeText2: "复仇模式已关闭。"
+		DeathText: "死亡模式已开启，享受吧。"
+		DeathText2: "死亡模式已关闭，你还不够享受吗？"
+		MaliceText: "恶意模式已开启，见证恐惧吧！"
+		MaliceText2: "恶意模式已关闭。"
+		AprilFools: "唯一神正在接近……"
+		AprilFools2: "老核弹在等着你……"
+        AprilFoolsGFB: "不可言说的惊骇之物正在接近……"
+		ArmageddonText: "Boss现在可以秒杀你。"
+		ArmageddonText2: "Boss不再能秒杀你了。"
+		ArmageddonDodgeEnable: "你的所有闪避都已被重新启用。"
+		ArmageddonDodgeDisable: "你的所有闪避都已被禁用。"
+		DargonBossText2: "吾之龙未将汝视为旗鼓相当之对手。取黑蚀之日之力，识吾龙真正之强大。"
+
+		BloodOrangeText: "你已经使用过血橙。再吃对你没有好处。"
+		MiracleFruitText: "你已经使用过奇迹之果。再吃会让你感到恶心。"
+		ElderberryText: "你已经使用过旧神浆果。再吃一个可能会降智。"
+		DragonfruitText: "你已经使用过龙果。再吃你的胃可受不了。"
+		CometShardText: "你已经使用过彗星碎片。再使用会让你反胃。"
+		EtherealCoreText: "你已经使用过飘渺之核。最好不要再使用了。"
+		PhantomHeartText: "你已经使用过幻影之心。不再使用才是明智之选。"
 		}
 	}
