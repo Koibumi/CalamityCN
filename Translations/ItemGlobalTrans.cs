@@ -964,9 +964,14 @@ public class ItemGlobalTrans : GlobalItem
                 }
                 
                 if (item.type == ModContent.ItemType<Terminus>())
-            {
-                line.Text = line.Text.Replace("Terminus", "终末石");
-            }
+                {
+                    line.Text = line.Text.Replace("Terminus", "终末石");
+                }
+                 if (item.type == ModContent.ItemType<CryoKey>())
+                {
+                    line.Text = line.Text.Replace("Cryo Key", "极寒之匙");
+                    line.Text = line.Text.Replace("Summons Cryogen when used in the tundra", "在雪原使用，召唤极地冰灵");
+                }
 
                 /*		
                             if (item.type == ModContent.ItemType<>())
@@ -1083,6 +1088,10 @@ public class ItemGlobalTrans : GlobalItem
                 #endregion
 
                 #region 饰品
+                if (item.type == 4986)
+                {
+                    line.Text = line.Text.Replace("Throws a mixture of slime and sparkling crystals\nSlimed enemies take more damage from fire-based debuffs", "投掷粘液和闪亮晶体的混合物\n史莱姆类敌人会受到更多来自火系减益的伤害");
+                }
                 if (item.type == ItemID.TerrasparkBoots)
                 {
                     line.Text = line.Text.Replace("Immunity to the On Fire! debuff", "免疫着火了减益");
