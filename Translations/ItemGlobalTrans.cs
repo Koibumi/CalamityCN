@@ -1405,7 +1405,7 @@ public class ItemGlobalTrans : GlobalItem
                 if (item.type == 687 || item.type == 688 || item.type == 689)
                 {
                     line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%");
-                    line.Text = line.Text.Replace("+1life regen", "生命再生增加1点");
+                    line.Text = line.Text.Replace("+1 life regen", "生命再生增加1点");
                     line.Text = line.Text.Replace("5% increased movement speed", "移速增加5%");
                 }
                 if (item.type == 690 || item.type == 691 || item.type == 692)
@@ -1454,7 +1454,7 @@ public class ItemGlobalTrans : GlobalItem
                 }
                 if (item.type == 1208 || item.type == 1209)
                 {
-                    line.Text = line.Text.Replace("7% increased damage", "伤害增加7%");
+                    line.Text = line.Text.Replace("5% increased damage", "伤害增加5%");
                 }
                 if (item.type == 1213)
                 {
