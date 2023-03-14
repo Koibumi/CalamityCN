@@ -3247,8 +3247,8 @@ Mods: {
 				'''
 			ScuttlersJewel:
 				'''
-				使用潜伏攻击被摧毁时有几率产生宝石钉
-				飞快地爬.PNG
+				潜伏攻击的弹幕在被摧毁时会生成宝石钉
+				可通过提炼机进行拆分
 				'''
 			ShatteredCommunity:
 				'''
