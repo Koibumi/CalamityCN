@@ -2906,7 +2906,7 @@ Mods: {
 			GloveOfRecklessness:
 				'''
 				增加15%盗贼攻速，但会降低13%盗贼伤害
-				增加15%潜行值恢复速
+				增加15%潜行值恢复速度
 				盗贼武器弹幕更不精准
 				'''
 			GodlySoulArtifact:
