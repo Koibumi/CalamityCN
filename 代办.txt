@@ -1,6 +1,3 @@
-
-LabHologramProjectorUI 文本
-
 CalamityMod.UI.DraedonSummoning.DraedonDialogRegistry::.cctor()": 的新增文本
 0: Who are you?
 1:
@@ -36,10 +33,6 @@ He is not someone I have spoken to in a very long time.
 Is that such a surprise? He no longer required my services and I no longer needed his patronage. Many years ago now he withdrew himself to some secret hideaway. I suspect, to the grave of dragons he spoke of...
 Should you locate him, I'll await the news of either his or your death. Perhaps I will collect the cadaver.
 
-npc图鉴
-
-HiveCyst -> HiveTumor
-腐化肿瘤
 
  "System.Void CalamityMod.ILEditing.ILChanges::ScopesRequireVisibilityToZoom(MonoMod.Cil.ILContext)":
   {
