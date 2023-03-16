@@ -13,11 +13,11 @@ CalamityCN: {
         4: 荒漠灾虫通常会在将要释放沙尘暴时吼叫，跑到高处去！
         5: 一个钩爪可能对迅速摆脱荒漠灾虫的头部很有用！
         6: 我讨厌沙子，它粗糙，发痒，并黏在我脚上的每一处地方。
-        7: 你最好在这之后给我来点甜点……
+        7: 你最好在这之后给我来点“沙”甜点……
         #克苏鲁之眼
         8: 当心那些尖牙炸弹！它们落到地上时牙齿会喷出来，尽量离远点！
         9: 制作一个钩爪或将你的机动性提高是躲避克苏鲁之眼冲刺的绝佳选择！
-        10: 我不敢相信你就这么死了。
+        10: 我的眼睛不敢相信你就这么死了。
         #菌生蟹
         11: 菌生蟹每跳跃三次才会发射孢子，你最好保持计数！
         12: 试着把注意力集中在菌生蟹的真菌孢子上，如果你忽视了它们的话，它们会攻击到你！
@@ -73,8 +73,8 @@ CalamityCN: {
         48: 尽可能的靠近场地中心。那些刺真的很擅长让你拐弯！
         49: 激光会预判你的位置，试着诱导它远离你！
         #渊海灾虫
-        50: If you can't handle dodging at high speeds, try baiting it into circling you!
-        51: 渊海灾虫会不顾一切吃掉你作为它的点心，保持移动！
+        50: 如果你不能用高移速躲避它，试着引诱它围着你转圈！
+        51: 渊海灾虫会不顾一切把你吃掉以把你作为它的点心，保持移动！
         #史莱姆皇后
         52: Keep your feet working! This gelatinous queen will stop at nothing to crush her foes!
         53: Short hops may help better than trying to fly away from all the crystal shrapnel!
@@ -82,10 +82,10 @@ CalamityCN: {
         54: Try and move as precisely as possible here; you don't want to waste arena space!
         55: It seems like she's going to give it all she has! Brace yourself!
         #阿娜希塔&利维坦
-        56: Home stretch! Do the same as you did before!
+        56: 最后的冲刺！就像你之前那样做吧！
         57: You can weave through the clefs if you manipulate her movement well!
         58: The meteors all split in the same way; use this to your advantage!
-        59: Home stretch! try focusing on yourself more than the boss!
+        59: 最后的冲刺！你应该试着多关心一下你的状况而不是boss!
         #白金星舰
         60: 保持一定的距离，否则你可能会被打个措手不及！
         #瘟疫使者歌莉娅
@@ -94,24 +94,24 @@ CalamityCN: {
         #毁灭魔像
         63: 毁灭魔像的一些攻击会让你和它离得很近，尽量别跑太远！
         #星神游龙
-        64: That thing seems to have shed its outer shell. Brace yourself, it's going to be a lot faster now!
-        65: Don't forget about that rubble! It will rain down from above!
+        64: 那东西看起来已经褪壳了，打起精神来！它会比之前快的多！
+        65: 别忘了那些陨石！它们会如雨点般从天上落下！
         66: Don't panic while trying to evade the bolts!
         67: That serpent is really fast! Good mobility will be important to defeat it!
         #世纪之花
-        68: Plantera isn't keeping anything back, watch out!
+        68: 世纪之花会不顾一切地冲过来，当心！
         69: 小心对付那些毒云。只有穿过它们才能找到她触手间的空隙！
         #石巨人
         70: 你会有一段不愉快的时光……
         71: 石巨人的眼睛颜色会跟着攻击模式改变，睁大你的眼睛！
         #猪龙鱼公爵
-        72: Keep track of where the long charge stops! You might get swept up by a tidal wave!
-        73: Try your best to weave through the razorblades and brace youself!
+        72: 注意长距离冲刺的位置，你可能会被海啸卷走！
+        73: 尽你最大的努力穿过那些刀片，打起精神来！
         #光之女皇-null
         #拜月邪教徒
-        74: Lightning is going to aim ahead of you! Try to bait it!
-        75: Try to get between those lines, before the ice barrages explode!
-        76: That guy was quite a lunatic, You might want extra mobility!
+        74: 那些闪电会瞄准你的前方，试着诱导它！
+        75: 在那些寒冰弹爆炸之前试着移动到预判线的间隙里！
+        76: 那家伙真是疯了，你需要更多的移动空间！
         #月总
         77: The Moon Lord seems angry! Try to dodge the side projectiles, and don't touch that black hole!
         78: Those eyeballs perform attacks that require a lot of weaving! Make sure to not panic when they happen!
@@ -178,7 +178,7 @@ CalamityCN: {
         127: Do you want my Witch's hat? Matching her atire could be fun……
         #-
         128: 这似乎是影响传送定位的魔法，你的混沌传送杖在这里失效了！
-        129: Those meteorites fall ahead of you. Try baiting them for a little more breathing room!
+        129： 那些陨石会落到你的面前，试着诱导它们以给你一点喘息的空间！
     }
     Bestiary: {
         BereftVassal: 一位警惕的守护者，曾漫无目的地流浪。在得知他的国王还活着后，他似乎已重新燃起了他生存的意志。他期待着再次与你战斗。
