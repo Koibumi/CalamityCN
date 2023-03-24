@@ -12,9 +12,9 @@ namespace CalamityCN
     {
         public override void OnEnterWorld(Player player)
         {
-            var ModVersion = ModLoader.GetMod("CalamityMod").Version;
+            /*var ModVersion = ModLoader.GetMod("CalamityMod").Version;
             Color Orange = Color.Orange;
-            Main.NewText("测试" + ModVersion + "文本", Orange);
+            Main.NewText("测试" + ModVersion + "文本", Orange);*/
         }
     }
 }
