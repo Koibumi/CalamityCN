@@ -49,7 +49,7 @@ namespace CalamityCN.Translations.Patch
                 }
             }
 
-            QuickTranslate(typeof(DeathDifficulty), "[c/B834E0:foes will pose a much larger threat with highly aggressive AIs and increased damage] \n[c/B834E0:Bosses have substantially harder AI changes. Enemies are even more numerous and can easily overwhelm you] \n[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous] \n[c/E945FF:Vigilance and tenacity are crucial to survival]",
+            QuickTranslate(typeof(DeathDifficulty), "[c/B834E0:All foes will pose a much larger threat with highly aggressive AIs and increased damage] \n[c/B834E0:Bosses have substantially harder AI changes. Enemies are even more numerous and can easily overwhelm you] \n[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous] \n[c/E945FF:Vigilance and tenacity are crucial to survival]",
                 "[c/B834E0:所有敌怪有着更高攻击性的AI，造成的伤害更高。] \n[c/B834E0:Boss们的AI变得更难，敌人多到可以淹没你]\n[c/B834E0:减益更致命，深渊更危险]\n[c/E945FF:保持警惕，坚韧不拔至关重要]");
 
             string[][] Mode3 = new string[][]
