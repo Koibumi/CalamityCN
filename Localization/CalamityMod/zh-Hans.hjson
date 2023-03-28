@@ -2396,7 +2396,7 @@ Mods: {
 				'''
 				攻击会造成深渊水压减益
 				使你免疫深渊水压减益
-				处于深渊中时增加10%最大生命值
+				处于深渊时增加10%最大生命值
 				'''
 			AbyssalDivingGear:
 				'''
@@ -2997,7 +2997,7 @@ Mods: {
 				'''
 				攻击会造成深渊水压减益
 				使你免疫深渊水压减益
-				处于深渊中时增加25%最大生命值
+				处于深渊时增加25%最大生命值
 				在深渊中提供适量光照
 				'''
 			LuxorsGift:
@@ -4413,7 +4413,7 @@ Mods: {
 			StratusDye: ""
 			SwirlingCosmicFlameDye: ""
 			AldebaranAlewife: 被幻星击中的一条鱼
-			ArcturusAstroidean: 处于星辉瘟疫或硫磺海中时增加渔力
+			ArcturusAstroidean: 处于星辉瘟疫或硫磺海时增加渔力
 			AstralCrate: "{$CommonItemTooltip.RightClickToOpen}"
 			AstrophageItem: 召唤一只跟随你的噬星体
 			ProcyonidPrawn: ""
@@ -4462,7 +4462,7 @@ Mods: {
 				'''
 			HeronRod:
 				'''
-				处于太空中时增加渔力。
+				处于太空时增加渔力。
 				突然鹭的一截不声不响的头嘴戳下来，朝着鱼头一嘴攫去，
 				接着那嘴甲就开始吞噬起那小鱼，而鱼尾巴这时还在发狂地摆动着。
 				'''
@@ -4480,20 +4480,20 @@ Mods: {
 				'''
 			SlurperPole:
 				'''
-				可以在熔岩中钓鱼
-				灵魂内灼热的熔岩是一口熔炉——也是一口喷涌着哀愁和忧伤的活火山。
+				可以在熔岩中钓鱼。
+				我们的灵魂中蕴藏着一个熔炉，这熔炉是一座充满着悲痛与哀伤的火山。
 				'''
 			TheDevourerofCods:
 				'''
-				一次性投放十根鱼线。鱼线永远都不会断并且可以在熔岩中钓鱼
-				就连神明吞噬者也曾经在这样的鱼群中掠食
+				一次性投放十根鱼线。鱼线永远都不会断并且可以在熔岩中钓鱼。
+				就连神明吞噬者也曾经在这样的鱼群中掠食。
 				'''
 			VerstaltiteFishingRod:
 				'''
-				位于雪原时增加渔力
-				这种远古合金反射出的多彩光泽非常适合吸引鱼儿
+				处于苔原时增加渔力。
+				这种远古合金反射出的多彩光泽非常适合吸引鱼儿。
 				'''
-			WulfrumRod: 这玩意儿质量很差，但总比没有好。
+			WulfrumRod: 这玩意儿质量很差，但总比没有好
 			FishofEleum: 右键以提取精华
 			FishofFlight: 右键以提取灵魂
 			FishofLight: 右键以提取灵魂
@@ -4502,8 +4502,8 @@ Mods: {
 			Gorecodile: 右键以提取血珠
 			Spadefish:
 				'''
-				我怎么用一条鱼挖地？
-				有些问题还是不要深究的好
+				鱼怎么能拿来掘地呢？
+				有些问题还是不要深究的好。
 				'''
 			StuffedFish: 右键以提取草药和种子
 			SulphurousCrate: "{$CommonItemTooltip.RightClickToOpen}"
@@ -4526,7 +4526,7 @@ Mods: {
 			Serpentuna: ""
 			SparklingEmpress:
 				'''
-				发射一道激光歼灭你的敌人
+				发射一道聚焦激光来歼灭你的敌人
 				被击杀的敌人会爆出棱晶碎片
 				'''
 			SunkenCrate: "{$CommonItemTooltip.RightClickToOpen}"
@@ -4542,272 +4542,272 @@ Mods: {
 			LoreAbyss:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreAquaticScourge:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreArchmage:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreAstralInfection:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreAstrumAureus:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreAstrumDeus:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreAwakening:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreAzafure:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreBloodMoon:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreBrainofCthulhu:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreBrimstoneElemental:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreCalamitas:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreCalamitasClone:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreCeaselessVoid:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreCorruption:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreCrabulon:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreCrimson:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreCynosure:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreDesertScourge:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreDestroyer:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreDevourerofGods:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreDragonfolly:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreDukeFishron:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreEaterofWorlds:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreEmpressofLight:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreExoMechs:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreEyeofCthulhu:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreGolem:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreHiveMind:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreKingSlime:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreLeviathanAnahita:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreMechs:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreOldDuke:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LorePerforators:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LorePlaguebringerGoliath:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LorePlantera:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LorePolterghast:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LorePrelude:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreProfanedGuardians:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreProvidence:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreQueenBee:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreQueenSlime:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreRavager:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreRequiem:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreSignus:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreSkeletron:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreSkeletronPrime:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreSlimeGod:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreStormWeaver:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreSulphurSea:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreTwins:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreUnderworld:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreWallofFlesh:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			LoreYharon:
 				'''
 				[c/e3af40:寄宿其上的低语流入你的耳中……]
-				[c/bebebe:按住“左Shift”仔细聆听]
+				[c/bebebe:长按“左Shift”键以仔细聆听]
 				'''
 			AerialiteBar: ""
 			AncientBoneDust: ""
@@ -4877,11 +4877,7 @@ Mods: {
 			StormlionMandible: ""
 			SulphuricScale: ""
 			SuspiciousScrap: 看起来它只是个材料……
-			TitanHeart:
-				'''
-				同样可在星辉信标处右键使用以召唤星神游龙
-				“星神游龙怎么召唤？”
-				'''
+			TitanHeart: 同样可在星辉信标处使用
 			TrapperBulb: ""
 			TwistingNether: ""
 			UelibloomBar: ""
