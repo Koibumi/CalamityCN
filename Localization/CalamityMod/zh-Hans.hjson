@@ -3359,7 +3359,7 @@ Mods: {
 				使你获得闪避攻击的能力
 				闪避攻击的能力有90秒冷却时间，并且该闪避与其他的闪避或反弹效果共享冷却时间
 				闪避攻击后会暂短增加暴击率和召唤伤害
-				被击中时会对附近的敌人造成多种疾病相关减益
+				被击中时会对附近的敌人造成多种疫病相关减益
 				'''
 			TheBee:
 				'''
@@ -3420,7 +3420,7 @@ Mods: {
 				'''
 				召唤一圈围绕着你的瘟疫光环并伤害附近的敌人
 				使你免疫瘟疫减益
-				所有疾病减益的伤害倍率乘以1.5
+				所有疫病减益的伤害倍率乘以1.5
 				'''
 			TrinketofChi:
 				'''
@@ -5953,7 +5953,7 @@ Mods: {
 			EvergreenGin:
 				'''
 				圣诞树的味道~，如果你能想象到的话
-				所有疾病和水系减益的伤害倍率乘以1.5
+				所有疫病和水系减益的伤害倍率乘以1.5
 				减少1点生命再生速度
 				'''
 			FabsolsVodka:
@@ -6095,7 +6095,7 @@ Mods: {
 			PhotosynthesisPotion:
 				'''
 				站定不动时你会快速的恢复生命值，此效果在白天时会进一步增加
-				掉落的红心能治疗更多的生命值
+				掉落的红心会回复更多生命值
 				'''
 			PotionofOmniscience:
 				'''
@@ -7060,8 +7060,8 @@ Mods: {
 			CometQuasher: 击中敌人时会召唤流星向光标处坠落
 			CosmicDischarge:
 				'''
-				用能引发冰川爆破的弹鞭击打敌人，并给予玩家寒宙增益
-				此增益会令玩家站立不动时增加生命再生量，并冻结周围敌人
+				用能引发冰川爆破的弹鞭击打敌人并使玩家获得寒宙增益
+				此增益会令玩家在站定不动时增加生命再生速度并冻结周围敌人
 				'''
 			CosmicShiv:
 				'''
@@ -11972,27 +11972,27 @@ Mods: {
 		BuffDescription:
 			{
 			AlcoholPoisoning: 你饮酒过量，代谢紊乱，气息奄奄
-			BloodyMaryBuff: 血月时伤害和移动速度增加，但生命再生速度和防御降低
-			CaribbeanRumBuff: 你晕乎乎的，增加移动速度、飞行时间和生命再生速度，但防御力降低
-			CinnamonRollBuff: 增加魔力恢复速度和火系减益的伤害，但防御力降低
-			EverclearBuff: 增加伤害，但降低防御力和生命再生速度
-			EvergreenGinBuff: 提高疫病系和水系减益的伤害并提高伤害减免，但降低生命再生速度
+			BloodyMaryBuff: 在血月时伤害和移动速度增加，但生命再生速度和防御力降低
+			CaribbeanRumBuff: 你晕乎乎的，生命再生速度、移动速度和飞行时间增加，但防御力降低
+			CinnamonRollBuff: 魔力再生速率和火系减益的伤害增加，但防御力降低
+			EverclearBuff: 伤害增加，但防御力和生命再生速度降低
+			EvergreenGinBuff: 疫病和水系减益的伤害以及伤害减免增加，但生命再生速度降低
 			FabsolVodkaBuff: 你感受到了一种难以置信的美妙
-			FireballBuff: 提高火系减益伤害，但降低生命再生速度
-			GrapeBeerBuff: 防御降低
-			MargaritaBuff: 减少绝大部分减益的持续时间，但降低防御力和生命再生速度
-			MoonshineBuff: 增加防御力和伤害减免，但降低生命再生速度
-			MoscowMuleBuff: 增加伤害、暴击率和击退力，但降低生命再生速度
-			RedWineBuff: 降低生命再生速度
-			RumBuff: 增加移动速度和生命再生速度，但防御力降低
-			ScrewdriverBuff: 增加穿透弹幕伤害，但降低生命再生速度
-			StarBeamRyeBuff: 增加魔法伤害和最大魔力值、降低魔力消耗，但降低防御力和生命再生速度
-			TequilaBuff: 白天时暴击率、防御和击退增加，但生命再生速度降低
-			TequilaSunriseBuff: 白天时暴击率、防御和击退增加，但生命再生速度降低
-			Trippy: 你看到了世界的本质……同时增加50%伤害
-			VodkaBuff: 增加伤害和暴击率，但降低防御力和生命再生速度
-			WhiskeyBuff: 增加伤害、暴击率和击退力，但防御力降低
-			WhiteWineBuff: 提高魔法伤害，但降低防御力和生命再生速度
+			FireballBuff: 火系减益的伤害增加，但生命再生速度降低
+			GrapeBeerBuff: 防御力降低
+			MargaritaBuff: 大部分减益的持续时间缩短，但防御力和生命再生速度降低
+			MoonshineBuff: 防御力和伤害减免增加，但生命再生速度降低
+			MoscowMuleBuff: 伤害、暴击率和击退增加，但生命再生速度降低
+			RedWineBuff: 生命再生速度降低
+			RumBuff: 移动速度和生命再生速度增加，但防御力降低
+			ScrewdriverBuff: 穿透类弹幕的伤害增加，但生命再生速度降低
+			StarBeamRyeBuff: 最大魔力值和魔法伤害增加且魔力消耗降低，但防御力和生命再生速度降低
+			TequilaBuff: 在白天时暴击率、防御力和击退增加，但生命再生速度降低
+			TequilaSunriseBuff: 在白天时暴击率、防御力和击退增加，但生命再生速度降低
+			Trippy: 你看到了世界的本质……同时伤害50%增加
+			VodkaBuff: 伤害和暴击率增加，但防御力和生命再生速度降低
+			WhiskeyBuff: 伤害、暴击率和击退增加，但防御力降低
+			WhiteWineBuff: 魔法伤害增加，但生命再生速度和防御力降低
 			Withered: 手持凋零的武器会让你渐渐枯萎，但也会让你的武器变得强大
 			AstralInfectionDebuff: 你的血肉正在被幻星熔蚀
 			BanishingFire: 你的罪孽不会被宽赦
@@ -12009,7 +12009,7 @@ Mods: {
 			Plague: 从内部腐烂
 			SagePoison: 中毒
 			SearingLava: 硫火岩浆的烧灼难以承受
-			Shadowflame: 失去生命
+			Shadowflame: 损失生命
 			ShellfishClaps: 大快朵颐
 			Shred: 有人造了十把三尖匕首……
 			SnapClamDebuff: 扇贝轻夹
@@ -12033,21 +12033,17 @@ Mods: {
 			ArcherofLunamoon: 现在你有了属于自己的观察员
 			AstrophageBuff: 小小的幻星机器
 			BabyGhostBellBuff: 小心不要戳破那个泡泡
-			BearBuff: 守护天使正在跟着你
+			BearBuff: 守护天使正在跟随你
 			BloodBound: 有它在身边陪伴，你一定很沮丧
 			BrimlingBuff: 保护她或迎接苦难的折磨，二选一
 			ChibiiDoGBuff: 什么？你期待还能召唤出谁？
 			ClassicSCalPetBuff: 至尊灾厄之力守护着你……真可爱
-			DannyDevito: 垃圾男正在跟着你
+			DannyDevito: 垃圾男正在跟随你
 			Dreamfog: 祂相信伱
-			EidolonSnailBuff: 多么愚蠢的史前小蜗牛
+			EidolonSnailBuff: 多么可爱的史前小蜗牛
 			ElectricTroublemaker: 闪电从不会两次击中同一个地方
 			FlakHermitBuff: 淘气的小酸虫
-			FoxPetBuff:
-				'''
-				狐狸宠物？
-				狐 狸
-				'''
+			FoxPetBuff: 狐狸宠物？狐 狸 宠 物
 			FurtasticDuoBuff: 它们做到了！毛茸茸的伙伴们围在你周围
 			GoldieBuff: 是金子总会发光
 			Kendra: 一位忠诚的朋友陪在你身旁
@@ -12072,51 +12068,51 @@ Mods: {
 			CrimsonEffigyBuff: 猩红之地的力量充盈于身
 			EffigyOfDecayBuff: 硫海之水给予你力量
 			TranquilityCandleBuff: 蜡烛周围的刷怪率降低！
-			PopoBuff: 你是个雪人了！
+			PopoBuff: 你现在是个雪人了！
 			PopoNoselessBuff: 你的鼻子被别人偷走了！
 			AnechoicCoatingBuff: 深渊生物的探测范围缩小
-			AstralInjectionBuff: 大幅增加魔力值恢复速度
-			BaguetteBuff: 如果只有我知道……~醉仙女
+			AstralInjectionBuff: 魔力再生速度大幅度增加
+			BaguetteBuff: 如果只有我知道…… ~醉仙女
 			BloodfinBoost: 不要让血液冲昏头脑
-			BoundingBuff: 提高跳跃高度和跳跃速度，增加摔落伤害减免
-			CalciumBuff: 免疫摔落伤害
+			BoundingBuff: 跳跃高度、跳跃速度和摔落伤害抗性增加
+			CalciumBuff: 你免疫摔落伤害
 			CeaselessHunger: 你吸收着世界上所有的物品
-			GravityNormalizerBuff: 在太空中恢复正常重力作用，免疫扭曲减益
+			GravityNormalizerBuff: 在太空中恢复正常重力作用，你免疫扭曲减益
 			Omniscience: 你能看透世间万物
-			PhotosynthesisBuff: 增加生命再生速度，在白天时生命恢复更快，红心能回复更多生命值
-			ShadowBuff: 你隐形了，某些盗贼武器会使你获得增益，提高盗贼潜行值恢复速度。
+			PhotosynthesisBuff: 强化生命再生，此效果在白天时会进一步增加，掉落的红心会回复更多生命值
+			ShadowBuff: 你成为了一个暗影，盗贼武器在击中敌人时会生成弹幕并增加8%潜行值恢复速度
 			Soaring:
 				'''
-				增加飞行速度和飞行时间
-				真近战攻击击中敌怪时恢复一定的飞行时间
+				飞行速度和飞行时间增加
+				近战武器剑身击中敌人后会恢复你的一小部分飞行时间
 				'''
 			SulphurskinBuff: 削弱硫海之水对你的影响
 			TeslaBuff: 召唤一个电流光环
 			WeaponImbueBrimstone: 近战、鞭子和盗贼攻击会造成硫磺火减益
 			WeaponImbueCrumbling: 近战、鞭子和盗贼攻击会对敌人造成碎甲减益
 			WeaponImbueHolyFlames: 近战、鞭子和盗贼攻击会造成神圣之火减益
-			Zen: 大幅降低刷怪率
-			Zerg: 大幅提高刷怪率
+			Zen: 刷怪率大幅度降低
+			Zerg: 刷怪率大幅度增加
 			RancorBurn: 燃烧
 			AbyssalDivingSuitBuff: 你是铁打的
 			AbyssalDivingSuitPlates: 外壳金属会吸收15%的伤害
-			AbyssalMadness: 增加伤害和暴击率，提高深渊触手的攻击距离和攻击性
-			AdrenalineMode: 伤害提高200%。能使用其他物品提升至245%。
+			AbyssalMadness: 伤害、暴击率以及深渊触手的攻击距离和攻击性增加
+			AdrenalineMode: 伤害增加200%。可通过使用其他物品来使该加成增加至245%。
 			Afflicted: 被异界之魂祝福
 			AmidiasBlessing:
 				'''
 				你被海神祝福了
-				拥有水下呼吸的能力，在深渊中也生效！
+				使你获得水下呼吸能力，在深渊中也生效！
 				小心别受伤……
 				'''
 			AquaticHeartBuff: 女装有趣吗？
 			AquaticHeartWaterSpeed: 增加15%移动速度和加速度
-			AvertorBonus: 增加伤害与生命再生速度
-			BloodflareBloodFrenzy: 降低怪物的接触伤害，大幅提高近战属性
+			AvertorBonus: 伤害与生命再生速度增加
+			BloodflareBloodFrenzy: 敌人的接触伤害降低，你的近战属性大幅度增加
 			BloodyBoost:
 				'''
 				增强攻击和防御属性
-				治疗药水回复更多生命值
+				治疗药水会回复更多生命值
 				'''
 			BossEffects: This tooltip is edited in the function below
 			BrimflameFrenzyBuff: 以生命为代价，黑魔法大大增强了你的力量
@@ -12124,64 +12120,64 @@ Mods: {
 			ChiRegenBuff: 生命再生速度增加
 			CoralSymbiosis: 珊瑚泥充能加快，多造成2点伤害
 			CosmicFreeze: 寒气逼人，犹如身于宙域
-			DivineBless: 增加生命再生速度，召唤物攻击会造成放逐之火减益
-			ElysianGuard: 移动速度降低，提高各项属性
-			EmpyreanRage: 宇宙的怒火
-			EmpyreanWrath: 宇宙的狂怒
-			Encased: 增加30点防御和30%伤害减免，但是……
-			GraxBoost: 提高防御力，你的肌肉更加强壮
-			HallowedRuneDefense: 增加8点防御力和4%防御减免
-			HallowedRunePower: 召唤伤害增加10%
-			HallowedRuneRegeneration: 恢复生命
-			IceShieldBuff: 受伤时吸收20%的伤害，随后破碎
-			KamiBuff: 提高伤害和移动速度
-			Mushy: 增加防御力和生命再生速度
-			PhantomicEmpowerment: 提升10%召唤伤害
-			PhantomicRegen: 生命再生
+			DivineBless: 生命再生速度增加，召唤物攻击会造成放逐之火减益
+			ElysianGuard: 移动速度降低，各项属性增加
+			EmpyreanRage: 皇天之愤怒
+			EmpyreanWrath: 皇天之暴怒
+			Encased: 增加30点防御和30%伤害减免，但……
+			GraxBoost: 防御力增加，你的肌肉更加强壮
+			HallowedRuneDefense: 增加8点防御和4%伤害减免
+			HallowedRunePower: 增加10%召唤伤害
+			HallowedRuneRegeneration: 再生生命
+			IceShieldBuff: 吸收下次攻击伤害的20%，随后破碎
+			KamiBuff: 最大移动速度、加速度和伤害增加
+			Mushy: 防御力和生命再生速度增加
+			PhantomicEmpowerment: 增加10%召唤伤害
+			PhantomicRegen: 再生生命
 			PhantomicShield:
 				'''
-				增加10点防御，提升5%伤害减免
+				增加10点防御和5%伤害减免
 				幻魂壁垒保护着你
 				'''
 			PolarisBuff: 北极星强化了你的生命再生
 			ProfanedCrystalBuff: ""
-			RageMode: 伤害提高35%
+			RageMode: 增加35%伤害
 			ReaverRage: 爷怒了
-			ShellBoost: 增加移动速度
-			SilvaRevival: 你处于无敌状态，免疫大多数减益
-			SpiritDefense: 增加6点防御力和3%伤害减免
+			ShellBoost: 移动速度增加
+			SilvaRevival: 你处于无敌状态并免疫大多数减益
+			SpiritDefense: 增加6点防御和3%伤害减免
 			SpiritPower: 增加10%召唤伤害
-			SpiritRegen: 恢复生命
-			TarragonCloak: 降低接触伤害
+			SpiritRegen: 再生生命
+			TarragonCloak: 接触伤害降低
 			TarragonImmunity: 你现在无敌了
-			TarraLifeRegen: 极速生命恢复
-			TyrantsFury: 提高30%近战伤害和10%近战暴击率
+			TarraLifeRegen: 快速再生生命
+			TyrantsFury: 增加30%近战伤害和10%近战暴击率
 			AndromedaCripple: 你变慢了
 			ArmorCrunch: 你的护甲被撕裂了
 			Clamity: 远古巨蛤怒了！
-			DoGExtremeGravity: 无限飞行失效，飞行时间减少25%
-			Enraged: 所有受到的伤害增加25%
+			DoGExtremeGravity: 飞行时间降低25%，无限飞行失效
+			Enraged: 所受到的伤害增加25%
 			Eutrophication: 过多的营养物质拖慢了你的步伐
 			ExoFreeze: 无法移动
 			FishAlert: 深渊生物发现你了！
 			FrozenLungs: 冰冷的水使你无法呼吸
 			GalvanicCorrosion: 你的四肢正被腐蚀
 			GlacialState: 无法移动
-			IcarusFolly: 飞行时间减少33%，无限飞行失效
+			IcarusFolly: 飞行时间降低33%，无限飞行失效
 			Irradiated: 你的皮肤正被侵蚀
 			KamiFlu: 手无寸铁，奄奄一息
-			MarkedforDeath: 降低伤害减免
+			MarkedforDeath: 伤害减免降低
 			PearlAura: 减速
 			ProfanedWeakness: 你造成的伤害降低
 			TemporalSadness: 蓝瘦香菇
 			TimeDistortion: 时间流逝减缓
 			Warped: 移动被空间翘曲影响
-			WeakPetrification: 弱化垂直移动能力
-			WhisperingDeath: 死亡临近；降低攻击力和生命再生速度
+			WeakPetrification: 垂直移动能力弱化
+			WhisperingDeath: 死亡临近；攻击力和生命再生速度降低
 			WitherDebuff:
 				'''
 				枯萎了……
-				减少20点防御力
+				防御降低20点
 				'''
 			AbandonedSlimeBuff: 迷你末世星史莱姆会保护你
 			AncientMineralSharkBuff: 来自远古，危险无比
@@ -12190,15 +12186,15 @@ Mods: {
 			BabyBloodCrawlerBuff: 血爬虫宝宝将保护你
 			BabySlimeGodBuff: 史莱姆之神会保护你
 			BabyStormlionBuff: 风暴蚁狮宝宝将保护你
-			BelladonnaSpiritBuff: 可爱的森林精灵正跟着你
+			BelladonnaSpiritBuff: 可爱的森林精灵正在跟随你
 			BlackHawkBuff: 喷气战斗机会保护你
 			BloodClot: 血块会保护你
 			BrimseekerBuff: 它是不是想从你身上索取些什么？
 			BrimstoneWaifu: 硫磺火元素会保护你
 			BrittleStar: 脆弱海星会保护你
 			Calamari: 深渊乌贼会保护你
-			CausticStaffBuff: 迷你丛林之龙正在跟着你
-			CinderBlossomBuff: 一朵灼热的花儿在你头顶浮动
+			CausticStaffBuff: 迷你丛林之龙正在跟随你
+			CinderBlossomBuff: 一朵灼热的花漂浮在你的头顶
 			CloudyWaifu: 雨云元素会保护你
 			ColdDivinityBuff: 古老冰霜城堡的魔法会帮助你
 			Corroslime: 腐化史莱姆会保护你
@@ -12213,44 +12209,40 @@ Mods: {
 			DazzlingStabberBuff: 时刻戒护
 			DemonshadeSetDevilBuff: 赤红恶魔与你同在
 			ElementalAxeBuff: 元素之斧会保护你
-			EndoCooperBuff: 寒古宙以来冰封的晶体为你而战
-			EndoHydraBuff: 冰洋九头蛇将保护你……出于某些原因
+			EndoCooperBuff: 寒古宙以来冰封的晶体会保护你
+			EndoHydraBuff: 冰洋九头蛇会保护你……出于某些原因
 			EntropysVigilBuff: 灾厄之影和她的兄弟们会保护你
 			ExoskeletonCannons: 内不含脉冲加农
 			EyeOfNightBuff: 它诡异地注视着一切
 			FieryDraconidBuff: 炽焰天龙会保护你
 			FleshBallBuff: 为什么这玩意在跟着你？
-			FlowersOfMortalityBuff: 天界之花环绕着你
-			FrostBlossomBuff: 一朵冰冷的花在你头顶浮动
+			FlowersOfMortalityBuff: 天界之花环绕在你的身边
+			FrostBlossomBuff: 一朵冰冷的花漂浮在你的头顶
 			FungalClumpBuff: 真菌块会保护你
 			GammaHydraBuff: ...
 			GastricAberrationBuff: 深海吞食者会保护你
 			HauntedDishesBuff: 缠怨鬼碟会保护你
 			HermitCrab: 寄居蟹会保护你
 			Herring: 鲱鱼群会保护你
-			HotE: 所有元素之灵给予你祝福，为你而战
-			HowlTrio: 哈尔会保护你，卡西法会照亮你的道路，小萝卜头会跟随着你
+			HotE: 所有的元素之灵会保护你
+			HowlTrio: 哈尔会保护你，卡西法会照亮你的道路，小萝卜头会跟随你
 			HydrothermicVentBuff: 沸腾渊泉会保护你
 			IceClasperBuff: 食魂冰虫会保护你
-			IgneousExaltationBuff: 淬焰古刀围绕着你旋转
+			IgneousExaltationBuff: 淬焰古刀环绕在你的身边
 			LilPlaguebringerBuff: 瘟疫使者会保护你
 			MagicHatBuff: 我会一直留着你的灵魂当人质，但你找到的东西都得留下！
-			Mechworm: 星宇护卫在你身旁飞翔
+			Mechworm: 星宇神卫会保护你
 			MidnightSunBuff: 一个奇怪的UFO在观察你，这令你很不舒服
 			MiniatureEyeofCthulhu: 它正在注视你
-			MiniOldDukeBuff: 年轻的硫海公爵保护你
-			MiniPlaguebringerBuff: 一只小瘟疫蜂跟着你
+			MiniOldDukeBuff: 年轻的硫海公爵会保护你
+			MiniPlaguebringerBuff: 一只小瘟疫蜂正在跟随你
 			MoonFistBuff: 准备好用这些手去打一架了吗？
 			MountedScannerBuff: 强大的机械环绕在你的身边
 			PerditionBuff: 永劫不复
-			Phantom: 噬魂幽花的灵魂碎片主动帮助你
-			PlantationBuff:
-				'''
-				迷你世纪之花会保护你
-				是你吗，世纪小花？
-				'''
+			Phantom: 幽花之灵会保护你
+			PlantationBuff: 迷你世纪之花会保护你
 			PoleWarperBuff: 你吸引着这些磁场模块
-			ProfanedBabs: 亵渎守卫全员将为你而战！
+			ProfanedBabs: 亵渎守卫全员会为你而战！
 			PuffWarriorBuff: 它自信且兴奋地保护着你
 			ResurrectionButterflyBuff:
 				'''
@@ -12265,8 +12257,8 @@ Mods: {
 			SeaSnailBuff: 喵？
 			SepulcherMinionBuff: 它并非带着善意而来……
 			ShellfishBuff: 沉沦之贝会保护你
-			SilvaCrystalBuff: 始源林海水晶在你头顶闪耀
-			SiriusBuff: 有点亮，毕竟是颗蓝矮星
+			SilvaCrystalBuff: 始源林海水晶会保护你
+			SiriusBuff: 有点太亮了，但它会帮助你
 			SkeletalDragonsBuff: 幸福大家庭
 			SmallSkeletonBuff: 骷髅在注视着你
 			SnakeEyesBuff: 永远注视着……
@@ -12274,15 +12266,15 @@ Mods: {
 			SolarSpirit: 太阳之灵会保护你
 			SoulSeekerBuff: 它渴望汝所拥有之物……
 			StarSwallowerBuff: 并不能吞噬星星
-			TacticalPlagueEngineBuff: 一架瘟疫喷气战机跟着你
+			TacticalPlagueEngineBuff: 一架瘟疫喷气战机正在跟随你
 			TundraFlameBlossomsBuff: 均衡与美丽的完美和谐
 			ValkyrieBuff: 天武神会保护你
-			VileFeederBuff: 灵魂吞噬者宝宝将保护你
-			ViridVanguardBuff: 你身边环绕着完美的和谐之风
+			VileFeederBuff: 灵魂吞噬者宝宝会保护你
+			ViridVanguardBuff: 完美的和谐之风环绕在你的身边
 			ViriliBuff: 很遗憾你不能拥抱她
 			VoidConcentrationBuff: 无尽之虚空渴望着更多……
 			WaterWaifu: 阿娜希塔会保护你
-			WitherBlossomsBuff: 瘟疫之蕾环绕在你身边
+			WitherBlossomsBuff: 瘟疫之蕾环绕在你的身边
 			WulfrumDroidBuff: 钨钢无人机会保护你
 			}
 		MapObject: {
@@ -12343,12 +12335,9 @@ Mods: {
 			chestAstral_Locked: 上锁的星辉箱
 			AstralCrateTile: 星辉匣
 			 AstralTorch: Torch
-			AstralTreeSapling: MapObject.Sapling
 			AstralVines: Astral Vines
 			NovaeSlag: Novae Slag
-			AstralPalmSapling: MapObject.Sapling
 			CelestialRemains: Celestial Remains
-			AstralSnowTreeSapling: MapObject.Sapling
 			BrimstoneCrateTile: 硫火匣
 			BrimstoneSlab: 硫火石板
 			GloomTorch: 火把
