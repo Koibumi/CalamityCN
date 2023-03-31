@@ -9622,9 +9622,9 @@ Mods: {
 			YharonFireball2: 龙炎弹
 			ArtifactOfResilienceBulwark: 灵之形
 			AnomalysNanogunHoldout: 异象纳米枪
-			AnomalysNanogunMPFBBoom: MPFB Explosion
-			AnomalysNanogunMPFBDevastator: MPFB Devastator
-			AnomalysNanogunPlasmaBeam: Plasma Beam
+			AnomalysNanogunMPFBBoom: MPFB爆炸
+			AnomalysNanogunMPFBDevastator: MPFB毁灭仪
+			AnomalysNanogunPlasmaBeam: 离子光束
 			FrequencyManipulatorEnergy: 脉冲能量
 			FrequencyManipulatorProjectile: 变频器
 			GalvanizingGlaiveProjectile: 磁能分割刀
