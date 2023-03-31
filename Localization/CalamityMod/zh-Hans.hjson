@@ -9489,7 +9489,7 @@ Mods: {
 			ArtemisChargeTelegraph: 阿尔忒弥斯冲刺
 			ArtemisDeathrayTelegraph: 阿尔忒弥斯星流热能光束
 			ArtemisLaser: 星流脉冲激光
-			ArtemisSpinLaserbeam: Ohio Beam
+			ArtemisSpinLaserbeam: 俄亥俄光束
 			AstralFlame: 星瀚逐影焰
 			AstralGodRay: 星神射线
 			AstralLaser: 星辉莫幻射线
@@ -9566,10 +9566,10 @@ Mods: {
 			MushBombFall: 飘落蘑菇孢子
 			OldDukeGore: 富硫腐尸
 			OldDukeSummonDrop: 酸
-			OldDukeToothBallSpike: Spike
+			OldDukeToothBallSpike: 尖刺
 			OldDukeVortex: 硫毒旋涡
 			OverlyDramaticDukeSummoner: 硫海遗爵
-			PeanutRocket: High Explosive Peanut Shell
+			PeanutRocket: 高爆花生壳
 			PhantomBlast: 幻影冲击
 			PhantomBlast2: 幽魂冲击
 			PhantomGhostShot: 幻影灵弹
@@ -9591,13 +9591,13 @@ Mods: {
 			SandPoisonCloud: 疫毒之云
 			SandPoisonCloudOldDuke: 毒云
 			SandTooth: 瀚漠之牙
-			SCalBrimstoneFireblast: Brimstone Fireblast
-			SCalBrimstoneGigablast: Brimstone Gigablast
+			SCalBrimstoneFireblast: 硫火冲击
+			SCalBrimstoneGigablast: 硫火大冲击
 			SCalRitualDrama: 至尊灾厄
 			ScavengerLaser: 回旋镖
 			ScavengerNuke: 制导核导弹
 			ShadeNimbusHostile: 乌云
-			ShaderainHostile: Shade Rain
+			ShaderainHostile: 阴影之雨
 			ShadowflameFireball: 暗影火球
 			Shadowflamethrower: 影炎之息
 			SignusScythe: 西格纳斯鬼镰
@@ -9605,7 +9605,7 @@ Mods: {
 			SkyFlare: 天界之火
 			SkyFlareRevenge: 天界之火
 			SporeGasPlantera: 毒气孢子
-			StormWeaverFrostWaveTelegraph: Frost Wave Telegraph
+			StormWeaverFrostWaveTelegraph: 霜浪脉冲
 			SupremeCataclysmFist: 愤怒之拳
 			SupremeCatastropheSlash: 共振之波
 			SwirlingFire: 炽焰
@@ -9613,15 +9613,15 @@ Mods: {
 			ThanatosBeamTelegraph: 伽马瓦解射线
 			ThanatosLaser: 星流脉冲激光
 			ToxicCloud: 毒云
-			UnstableCrimulanGlob: Unstable Crimulan Glob
-			UnstableEbonianGlob: Unstable Ebonian Glob
+			UnstableCrimulanGlob: 不稳定的血腥球
+			UnstableEbonianGlob: 不稳定的黑檀球
 			VileClot: 恶毒瘤块
 			WaterSpear: 水之枪
-			YharonBulletHellVortex: Bullet Hell Vortex
+			YharonBulletHellVortex: 子弹地狱旋涡
 			YharonFireball: 龙炎弹
 			YharonFireball2: 龙炎弹
 			ArtifactOfResilienceBulwark: 灵之形
-			AnomalysNanogunHoldout: The Anomaly's Nanogun
+			AnomalysNanogunHoldout: 异象纳米枪
 			AnomalysNanogunMPFBBoom: MPFB Explosion
 			AnomalysNanogunMPFBDevastator: MPFB Devastator
 			AnomalysNanogunPlasmaBeam: Plasma Beam
@@ -9664,7 +9664,7 @@ Mods: {
 			VoltageStream: 高压电流
 			WavePounderBoom: 震荡波
 			WavePounderProjectile: 震波炸弹
-			AstralMeteorProj: Astral Meteor
+			AstralMeteorProj: 星辉陨石
 			BelchingCoralSpike: 喷涌珊瑚刺
 			CrabBoulder: 海蚀岩
 			CragmawAcidDrop: 酸滴
@@ -9680,11 +9680,11 @@ Mods: {
 			FlameBurstHostile: 炙炎
 			GammaAcid: 酸
 			GammaBeam: 伽马射线
-			GammaRayBurst: G-FUEL BEAM
+			GammaRayBurst: 伽马燃料光束
 			HorsWaterBlast: 水
 			InkBombHostile: 墨水炸弹
 			InkPoisonCloud: 墨水云雾
-			LightningCloud: Cloud
+			LightningCloud: 云
 			MantisRing: 幻星螳螂
 			MaulerAcidBubble: 强酸泡泡
 			MaulerAcidDrop: 酸滴
@@ -9706,22 +9706,22 @@ Mods: {
 			GeyserTelegraph: 烟
 			HotSteam: 炽热蒸汽
 			LavaChunk: 熔岩块
-			MurkySteam: Steam
+			MurkySteam: 蒸汽
 			SmokeTelegraph: 烟
-			ThermalSteam: Steam
+			ThermalSteam: 蒸汽
 			AuricOrb: 艾瑞克珠
 			BurntSiennaProj: 赛纳
 			CactusHealOrb: 治愈球
 			DemonHeal: 回血
 			EarthHealOrb: 治愈球
-			EmpyreanHealOrb: Empyrean Heal Orb
+			EmpyreanHealOrb: 皇天治疗珠
 			EssenceFlame: 透髓之火
 			Exoheal: 治愈
 			FungalHeal: 治愈
-			GladiatorHealOrb: Heal
+			GladiatorHealOrb: 治疗
 			GodSlayerHealOrb: 弑神者治愈球
-			HydrothermicHealOrb: Hydrothermic Rejuvenation
-			ManaPolarizerHealOrb: Mana Polarizer Heal Orb
+			HydrothermicHealOrb: 渊泉回生
+			ManaPolarizerHealOrb: 魔能谐振仪治疗珠
 			PhantomicHeart: 幻魂之心
 			RainHeal: 治愈
 			ReaverHealOrb: 掠夺者治疗光球
@@ -9736,7 +9736,7 @@ Mods: {
 			AcidicSaxMist: 酸雾
 			AetherBeam: 以太射线
 			AetherfluxCannonHoldout: 金湮载波炮
-			AnahitasArpeggioNote: Song
+			AnahitasArpeggioNote: 歌曲
 			Ancient: 亘古
 			Ancient2: 亘古
 			ApotheosisEnergy: 圣神能量
@@ -9745,7 +9745,7 @@ Mods: {
 			ArcticBearPawProj: 北极熊爪
 			ArtAttackHoldout: 艺术之击
 			ArtAttackStar: 星星
-			ArtAttackStrike: Art Attack
+			ArtAttackStrike: 艺术攻击
 			Asteroid: 小行星
 			AsteroidMolten: 小行星
 			AstralachneaFang: 獠牙
@@ -9770,7 +9770,7 @@ Mods: {
 			BloodRay: 猩红射线
 			BlueBubble: 蓝泡泡
 			BlushieStaffProj: 蓝炼魂法杖
-			BrimroseBeam: Brimrose Beam
+			BrimroseBeam: 硫火玫瑰光束
 			BrimstoneFireball: 狱炎球
 			BrimstoneHellfireballFriendly: 地狱火
 			BrimstoneHomer: 硫火追踪弹
@@ -9780,7 +9780,7 @@ Mods: {
 			ClimaxBeam: 光伏射线
 			ClimaxProj: 光伏磁球
 			CoralSpike: 珊瑚刺
-			CoralSpoutHoldout: Coral Spout
+			CoralSpoutHoldout: 珊瑚喷口
 			CosmicTentacle: 次元之触
 			CryoBlast: 霜寒爆裂
 			DarkSparkBeam: 寂虚之光
@@ -9801,8 +9801,8 @@ Mods: {
 			EventHorizonBlackhole: 事件视界黑洞
 			EventHorizonStar: 事件视界行星
 			EvergladeSprayProjectile: 常青之气
-			ExoVortex: Subsuming Vortex
-			ExoVortex2: Subsuming Vortex
+			ExoVortex: 归元旋涡
+			ExoVortex2: 归元旋涡
 			FabBolt: 原体斑
 			FabRay: 原体射线
 			FatesRevealFlame: 幽灵魂火
@@ -9821,16 +9821,16 @@ Mods: {
 			GhastlyVisageProj: 鬼之形
 			GleamingBolt: 闪光箭
 			GleamingBolt2: 闪光箭
-			GrandStaffoftheNebulaMage_Held: Grand Staff of the Nebula Mage
+			GrandStaffoftheNebulaMage_Held: 星云法师之圣杖
 			GraniteEnergy: 花岗岩能量
 			GranitePulse: 花岗岩脉冲
 			GruesomeEminenceHoldout: 腥邪诡灵
-			HadalUrnHoldout: Hadal Urn
-			HadalUrnIsopod: Abyssal Isopod
-			HadalUrnJellyfish: Mirage Jelly
-			HadalUrnLamprey: Sea Lamprey
-			HadalUrnStarfish: Marianan Starfish
-			HadalUrnStarfishShard: Starfish Shard
+			HadalUrnHoldout: 奈落瓮
+			HadalUrnIsopod: 深渊等足类动物
+			HadalUrnJellyfish: 幻影水母
+			HadalUrnLamprey: 七鳃鳗
+			HadalUrnStarfish: 马里亚纳海星
+			HadalUrnStarfishShard: 海星碎块
 			HeliumFlashBlast: 氦闪
 			HellfireExplosionFriendly: 狱火炎爆
 			HellwingPillar: 狱岩之柱
@@ -9851,7 +9851,7 @@ Mods: {
 			KeelhaulBubble: 泡泡
 			KeelhaulGeyserBottom: 喷泉
 			KeelhaulGeyserTop: 喷泉
-			LazharSolarBeam: Concentrated Solar Beam
+			LazharSolarBeam: 聚焦太阳射线
 			LightBall: 奇光球
 			LightBallExplosion: 闪光爆破
 			LightBead: 奇光球
@@ -9874,7 +9874,7 @@ Mods: {
 			ManaBolt: 魔法飞弹
 			ManaBoltSmall: 魔法小飞弹
 			ManaBoltSmall2: 魔法小飞弹
-			ManaChargedCoral: Mana-charged Coral
+			ManaChargedCoral: 充魔珊瑚
 			ManaMonster: 怪物
 			MelterAmp: 熔融电子
 			MelterNote1: 歌声
@@ -9884,10 +9884,10 @@ Mods: {
 			MiasmaGas: 瘴气
 			NanoPurgeHoldout: 纳米净化
 			NanoPurgeLaser: 纳米光束
-			NebulaCloud: Nebula Cloud
-			NebulaCloudCore: Nebula Cloud Core
+			NebulaCloud: 星云
+			NebulaCloudCore: 星云之核
 			NebulaElementalBeam: 光束
-			NebulaNova: Nebula Nova
+			NebulaNova: 星云新星
 			NettleRight: 荆棘
 			NettleTip: 荆棘
 			NightBolt: 夜明弹
@@ -9917,10 +9917,10 @@ Mods: {
 			RancorLaserbeam: 怨戾激光
 			RancorMagicCircle: 怨戾魔法阵
 			RancorSmallCinder: 熔岩
-			RedirectingFire: Fire
-			RedirectingGildedSoul: Gilded Soul
-			RedirectingLostSoul: Soul
-			RedirectingVengefulSoul: Soul
+			RedirectingFire: 火焰
+			RedirectingGildedSoul: 镀金之魂
+			RedirectingLostSoul: 灵魂
+			RedirectingVengefulSoul: 灵魂
 			RougeSlashLarge: 绯红利刃
 			RougeSlashMedium: 绯红利刃
 			RougeSlashSmall: 绯红利刃
@@ -9948,7 +9948,7 @@ Mods: {
 			SoulPiercerBeam: 灵魂穿刺
 			SoulPiercerBolt: 灵魂穿刺
 			SparkInfernal: 火花
-			SparklingLaser: Sparkling Laser
+			SparklingLaser: 火花激光
 			SpiritCongregation: 魂灵怪物
 			SpiritDust: 灵魂之尘
 			Starblast: 星爆
@@ -9959,7 +9959,7 @@ Mods: {
 			TacticiansElectricBoom: 电流爆裂
 			TacticiansTrumpCardProj: 光束
 			TearsofHeavenProjectile: 天堂之泪
-			TerraBeam: Beam
+			TerraBeam: 光束
 			TerraShard: 碎片
 			ThunderstormShot: 雷电风暴
 			ThunderstormShotSplit: 雷电风暴
@@ -9992,7 +9992,7 @@ Mods: {
 			WaterStream2: 水流
 			WaywasherProj: 清道夫弹幕
 			WulfrumBolt: 钨钢杖飞弹
-			WulfrumManaDrain: Mana Drain
+			WulfrumManaDrain: 魔力汲取
 			WyvernFeatherGreen: 绿色星龙羽
 			WyvernFeatherPink: 粉色星龙羽
 			WyvernFeatherPurple: 紫色星龙羽
@@ -10034,7 +10034,7 @@ Mods: {
 			BiomeBladeHoldout: 已修复的环境之刃
 			BitingEmbrace: 啮咬之拥
 			BitingEmbraceMist: 冰雾
-			BladecrestOathswordProj: Bladecrest Oathsword
+			BladecrestOathswordProj: 剑锋之誓约
 			BlazingPhantomBlade: 炽炎幻影刃
 			Blood: 血
 			Blood2: 血
@@ -10051,12 +10051,12 @@ Mods: {
 			BrimstoneBoom: 硫火爆焱
 			BrimstoneLaserFriendly: 硫火死光
 			BrimstoneSwordExplosion: 硫火爆炎
-			BrimstoneSwordProj: Brimstone Sword
+			BrimstoneSwordProj: 硫火剑
 			BrinySpout: 盐水浴
 			BrinyTyphoonBubble: 泡泡
 			BrokenBiomeBladeHoldout: 环境断刃
 			BurningMeteor: 流星
-			CatastropheClaymoreSparkle: Aura
+			CatastropheClaymoreSparkle: 光环
 			ChainedMeatHook: 附魔肉钩
 			ClamCrusherFlail: 碎蛤者
 			CometQuasherMeteor: 陨星
@@ -10077,8 +10077,8 @@ Mods: {
 			DarkBall: 暗影球
 			DarkBeam: 暗影射线
 			DarkIceZero: 暗冰
-			DeathsAscensionProjectile: Scythe
-			DeathsAscensionSwing: Death's Ascension
+			DeathsAscensionProjectile: 镰刀
+			DeathsAscensionSwing: 死神擢升
 			DecaysRetort: 腐化之复仇
 			DecaysRetortDash: 除脏猛冲
 			DemonBlast: 恶魔三叉戟
@@ -10104,9 +10104,9 @@ Mods: {
 			ElementBall: 元素球
 			ElementBallShiv: 元素短剑
 			EmpyreanKnife: 苍穹飞刀
-			EntropicFlechette: Entropic Flechette
-			EntropicFlechetteLarge: Entropic Flechette
-			EntropicFlechetteSmall: Entropic Flechette
+			EntropicFlechette: 熵弹
+			EntropicFlechetteLarge: 熵弹
+			EntropicFlechetteSmall: 熵弹
 			EonBolt: 永恒之雷
 			EssenceFlame2: 火焰
 			EssenceScythe: 镰刀
@@ -10116,9 +10116,9 @@ Mods: {
 			ExcelsusMain: 宙魔之纹
 			ExcelsusPink: 宙魔之纹
 			Exobeam: 星流光束
-			ExobeamSlash: Exobeam Slash
-			ExobeamSlashCreator: Anime Sword Effect
-			ExobladeProj: Exoblade
+			ExobeamSlash: 星流光束斩
+			ExobeamSlashCreator: 动画剑效果
+			ExobladeProj: 星流之刃
 			Exoboom: 星流聚爆
 			Exocomet: 星流
 			ExtantAbhorrence: 犹存之憎
@@ -10156,7 +10156,7 @@ Mods: {
 			HellionSpike: 尖刺
 			HolyColliderHolyFire: 集束焰火
 			HyperBlade: 至尊之刃
-			IceBombFriendly: Ice Bomb
+			IceBombFriendly: 冰炸弹
 			IllustriousKnife: 圣光飞刀
 			InsidiousHarpoon: 鱼叉
 			JudgementBlah: ‘巴拉’光束
@@ -10168,7 +10168,7 @@ Mods: {
 			LightBeam: 光束
 			LightningThing: 电光
 			LuxorsGiftMelee: 卢克索的礼物
-			MarniteDeconstructorProj: Marnite Deconstructor
+			MarniteDeconstructorProj: 合成岩重构器
 			MarniteObliteratorProj: 花岗石钻头
 			MercurialTides: 幻变潮汐
 			MercurialTidesBlast: 幽鬼爆破
@@ -10184,8 +10184,8 @@ Mods: {
 			NebulaShot: 子弹
 			NeptuneOrb: 渊海三叉戟
 			Oathblade: 禁忌之刃
-			OathswordFlame: Flame
-			OldLordClaymoreProj: Old Lord Claymore
+			OathswordFlame: 火焰
+			OldLordClaymoreProj: 旧神阔剑
 			OmnibladeSwing: 全能之刃
 			Orbacle: 圣金源矿
 			PhoenixsPride: 鳯傲
@@ -10221,13 +10221,13 @@ Mods: {
 			ScourgeoftheCosmosMini: 宇宙劫难
 			ScourgeoftheCosmosProj: 宇宙灾祸
 			SeashineSwordProj: 海耀剑气
-			SHIV: Shiv
-			AquaticDischargeProj: Aquatic Discharge
-			CosmicShivProj: Cosmic Shiv
-			ElementalShivProj: Elemental Shiv
-			GalileoGladiusProj: Galileo Gladius
-			LucreciaProj: Lucrecia
-			SubmarineShockerProj: Submarine Shocker
+			SHIV: 短剑
+			AquaticDischargeProj: 水电剑
+			CosmicShivProj: 宇宙短剑
+			ElementalShivProj: 元素短剑
+			GalileoGladiusProj: 伽利略短剑
+			LucreciaProj: 卢克雷西亚
+			SubmarineShockerProj: 潜渊震荡者
 			SolarNeedle: 日针
 			SolsticeBeam: 近日点光束
 			SoulScythe: 灵魂之镰
@@ -10243,19 +10243,19 @@ Mods: {
 			BrimlanceProj: 硫磺火矛
 			DiseasedPikeSpear: 瘟疫长枪
 			EarthenPikeSpear: 磐石地元叉
-			ElementalLanceProjectile: Lance
+			ElementalLanceProjectile: 长枪
 			GildedProboscisProj: 镀金鸟喙
 			GoldplumeSpearProjectile: 金羽
 			HellionFlowerSpearProjectile: 狱火花矛
 			InsidiousImpalerProj: 阴险穿刺者
 			NadirSpear: 天底
-			RedtideSpearProjectile: Redtide Spear
+			RedtideSpearProjectile: 赤潮矛
 			SausageMakerSpear: 长枪
 			StarnightLanceProjectile: 长枪
 			StreamGougeProj: 血槽
 			TenebreusTidesProjectile: 深渊潮涌
 			TerraLanceProjectile: 长枪
-			VulcaniteLanceProj: Lance
+			VulcaniteLanceProj: 长枪
 			YateveoBloomSpear: 玫瑰之盛放
 			SpineOfThanatosProjectile: 塔纳托斯的脊柱
 			StarnightBeam: 夜之星光
@@ -10263,7 +10263,7 @@ Mods: {
 			StormBeam: 死光
 			StormMark: 死亡标记
 			StormRulerProj: 管束者
-			StreamGougePortal: Portal
+			StreamGougePortal: 传送门
 			SulphurousGrabberBubble: 气泡
 			SulphurousGrabberBubble2: 气泡
 			SunlightBlade: 日炎剑
@@ -10278,12 +10278,12 @@ Mods: {
 			TenebreusTidesWaterSpear: 凝水长枪
 			TenebreusTidesWaterSword: 凝水之刃
 			TerraSpear: 泰拉之星
-			TerratomereBeam: Terra Slash Beam
-			TerratomereBigSlash: Terratomere Slash
-			TerratomereExplosion: Explosion
-			TerratomereHoldoutProj: Terratomere
-			TerratomereSlash: Terratomere Slash
-			TerratomereSlashCreator: Anime Sword Effect
+			TerratomereBeam: 泰拉斩击束
+			TerratomereBigSlash: 泰拉阔剑斩
+			TerratomereExplosion: 爆炸
+			TerratomereHoldoutProj: 泰拉阔剑
+			TerratomereSlash: 泰拉阔剑斩
+			TerratomereSlashCreator: 动画剑效果
 			TerrorBeam: 恐惧光束
 			TerrorBlast: 惊惧爆炸
 			ThanatosBoom: 轰
@@ -10312,16 +10312,16 @@ Mods: {
 			UltimusCleaverDust: 终焉余焰
 			UrchinBall: 海胆球
 			UrchinBallSpike: 海胆刺
-			UrchinMaceProjectile: Urchin Mace
+			UrchinMaceProjectile: 海胆链枷
 			UrchinSpikeFugu: 海胆刺
 			ViolenceSlashProjectile: 恣睢
 			ViolenceThrownProjectile: 恣睢
-			VirulentBeeWave: Virulent Bee Wave
-			VirulentWave: Virulent Wave
+			VirulentBeeWave: 病毒蜜蜂波
+			VirulentWave: 病毒波
 			VoidEssence: 虚空精华
 			VoidTentacle: 虚空精华
-			VolcanicFireball: Volcanic Fireball
-			VolcanicFireballLarge: Volcanic Fireball
+			VolcanicFireball: 火山火球
+			VolcanicFireballLarge: 火山火球
 			Waterfall: 光束
 			WhiteBoltAura: 光圈
 			WhiteBoltAuraBlah: 光圈
@@ -10329,13 +10329,13 @@ Mods: {
 			WhiteOrbBlah: 苍白块
 			Whiterain: 苍白雨
 			WhiterainBlah: 苍白之雨
-			WulfrumScrew: Screw
-			WulfrumScrewdriverProj: Screwdriver
+			WulfrumScrew: 螺丝钉
+			WulfrumScrewdriverProj: 螺丝刀
 			YateveoBloomProj: 玫瑰之盛放
 			AirSpinnerYoyo: 空旋
 			AortaYoyo: 大动脉
 			AzathothYoyo: 阿撒托斯
-			FaultLineYoyo: Fault Line
+			FaultLineYoyo: 断层
 			GodsGambitYoyo: 神旨
 			LaceratorYoyo: 裂魔
 			MicrowaveYoyo: 微波
@@ -10346,7 +10346,7 @@ Mods: {
 			QuagmireYoyo: 泥潭
 			RiptideYoyo: 涡流
 			ShimmersparkYoyo: 烁光
-			SmokingCometYoyo: Smoking Comet
+			SmokingCometYoyo: 烟陨彗星
 			SolarFlareYoyo: 太阳耀斑
 			SulphurousGrabberYoyo: 硫磺劫掠者
 			VerdantYoyo: 葱茏
@@ -10361,16 +10361,16 @@ Mods: {
 			ChibiiDoggoFly: 飞行中的女装神长
 			DaawnlightSpiritOriginMinion: 曙旼始灵
 			DannyDevitoPet: 丹尼·德维托
-			EidolonSnail: Escargidolon Snail
+			EidolonSnail: 幻海灵蜗
 			FlakPet: 酸丘隐居者
 			FoxPet: 狐狸
-			GoldiePet: Goldie
+			GoldiePet: 金硬币
 			KendraPet: 肯德拉狗
 			LadShark: 鲨鱼小伙
 			LeviPet: 利维坦
 			LittleLightProj: 机灵
 			MiniHiveMind: 腐巢宝宝
-			OceanSpirit: Ocean Spirit
+			OceanSpirit: 海洋之灵
 			PerforaMini: 小血肉宿主
 			PineapplePetProj: 菠萝
 			PlaguebringerBab: 瘟疫使者歌莉娅宝宝
@@ -10380,9 +10380,9 @@ Mods: {
 			Sparks: 火花
 			ThirdSage: 第三贤者
 			YharonSonPet: 犽戎之子
-			AccelerationRoundProj: Acceleration Round
-			AdamAcceleratorBeam: Adamantite Particle Beam
-			AdamantiteAcceleratorHoldout: Adamantite Particle Accelerator
+			AccelerationRoundProj: 加速弹
+			AdamAcceleratorBeam: 精金粒子光束
+			AdamantiteAcceleratorHoldout: 精金粒子加速器
 			AMR2: AMR
 			AMRShot: AMR
 			AngelicBeam: 天使之光
@@ -10413,7 +10413,7 @@ Mods: {
 			BouncingShotgunPellet: 霰弹枪子弹
 			BrimstoneBolt: 硫火飞弹
 			BrimstoneFireFriendly: 硫火
-			BubonicRoundProj: Bubonic Round
+			BubonicRoundProj: 鼠疫弹
 			ButcherGun: 屠夫猎枪
 			CardClub: 梅花牌
 			CardClubSplit: 分裂梅花牌
@@ -10435,8 +10435,8 @@ Mods: {
 			ContagionArrow: 疫毒箭
 			ContagionBall: 疫病球
 			ContagionBow: 疫毒
-			CorinthPrimeAirburst: Airburst
-			CorinthPrimeAirburstGrenade: Corinth Prime Airburst Shot
+			CorinthPrimeAirburst: 空爆
+			CorinthPrimeAirburstGrenade: 科林斯Prime空爆射击
 			CorossiveFlames: 火焰
 			CorrodedShell: 酸蚀外壳
 			CosmicFire: 宙炎
@@ -10454,12 +10454,12 @@ Mods: {
 			EmesisGore: 腐败血迹
 			EnhancedNanoRoundProj: 注魔纳米弹
 			EssenceFire: 火焰
-			ExoCrystalArrow: 星流Crystal
+			ExoCrystalArrow: 星流水晶
 			ExoFire: 星流火焰
 			ExoFlare: 星流烈焰
 			ExoFlareCluster: 星流聚焰
-			ExoLight: 星流Light
-			ExoLightningBolt: 星流Teratesla Lightningbolt
+			ExoLight: 星流之光
+			ExoLightningBolt: 星流增压闪电束
 			ExoSpark: 神圣花火
 			FallenStarProj: 陨星
 			FeatherLarge: 羽毛
@@ -10468,13 +10468,13 @@ Mods: {
 			FlakKrakenProj: 海妖之焰
 			FlareBat: 黑翼蝙蝠
 			Flash: 烁光
-			FlashRoundProj: Flash Round
+			FlashRoundProj: 眩晕弹
 			FlurrystormCannonShooting: 雪球机关枪
 			FlurrystormIceChunk: 冰块
 			FlurrystormIceShard: 碎冰
 			FossilShard: 化石碎片
-			FreedomStarBeam: Freedom Star Beam
-			FreedomStarHoldout: Freedom Star
+			FreedomStarBeam: 自由之星光束
+			FreedomStarHoldout: 自由之星
 			FungiOrb: 真菌快
 			FungiOrb2: 真菌快
 			GemTechGreenFlechette: 星流天钻飞镖弹
@@ -10482,16 +10482,16 @@ Mods: {
 			GoliathRocket: 瘟疫导弹
 			HalleysComet: 哈雷彗星
 			HandheldTankShell: 坚硬外壳
-			HeavenlyGaleProj: Heavenly Gale
+			HeavenlyGaleProj: 天堂之风
 			HighExplosivePeanutShell: 高爆花生
 			HiveBomb: 爆炸
 			HiveMissile: 爆炸
 			HolyFireBulletProj: 圣火弹
-			HydraHead: Hydra Head
-			HydraHeadLaunch: Hydra Head
-			HydrasBlood: Hydra's Blood
-			HyperiusBulletProj: 猩红高速弹
-			HyperiusSplit: 猩红的悲惨时光
+			HydraHead: 九头蛇
+			HydraHeadLaunch: 九头蛇
+			HydrasBlood: 九头蛇之血
+			HyperiusBulletProj: 海伯里斯弹
+			HyperiusSplit: 海伯里斯的悲惨时光
 			IcicleArrowProj: 冰坠箭
 			IcyBulletProj: 冰砾弹
 			IlluminatedBullet: 烁光弹
@@ -10501,17 +10501,17 @@ Mods: {
 			LunarBolt: 飞弹
 			LunarBolt2: 飞弹
 			LuxorsGiftRanged: 卢克索的礼物
-			MaelstromHoldout: The Maelstrom
+			MaelstromHoldout: 幽漩风暴
 			MagnaStrike: 麦格纳冲击波
 			MagnomalyAura: 磁暴
 			MagnomalyBeam: 光束
 			MagnomalyExplosion: 爆炸
 			MagnomalyRocket: 核弹
-			 MarksmanShot: Marksman Shot
+			MarksmanShot: 神射手射击
 			MechanicalBarracuda: 梭鱼
 			MeowFire: 火焰
 			MeowFire2: 火焰
-			MiniatureFolly: Miniature Folly
+			MiniatureFolly: 迷你痴愚金龙
 			MiniRocket: 火箭
 			MiniSharkron: 迷你鲨鱼龙
 			MistArrow: 箭
@@ -10538,7 +10538,7 @@ Mods: {
 			PlasmaExplosion: 爆炸
 			PolarStar: 北极星
 			PrecisionBolt: 精准之箭
-			PressurizedBubbleStream: Pressurized Bubble Stream
+			PressurizedBubbleStream: 增压泡泡流
 			PrismaticEnergyBlast: 能量束
 			PrismComet: 陨石
 			PrismEnergyBullet: 棱晶火箭
@@ -10553,7 +10553,7 @@ Mods: {
 			RainbowFront: 彩虹
 			RainbowTrail: 彩虹
 			RealmRavagerBullet: 爆炸性弹头
-			RicoshotCoin: Ricoshot Coin
+			RicoshotCoin: 钱币
 			RocketFire: 火焰
 			RubberMortarRoundProj: 光环
 			SandstormBullet: 沙尘暴
@@ -10567,13 +10567,13 @@ Mods: {
 			SeasSearingSpout: 海灼龙卷
 			SepticSkewerBacteria: 剧毒细胞
 			SepticSkewerHarpoon: 剧毒叉枪
-			SevensStrikerBrick: Brick
-			SevensStrikerCherry: Cherry
-			SevensStrikerCherrySplit: Cherry
-			SevensStrikerGrape: Grapes
-			SevensStrikerHoldout: Sevens Striker
-			SevensStrikerOrange: Orange
-			SevensStrikerPlatinumCoin: Platinum Coin
+			SevensStrikerBrick: 砖块
+			SevensStrikerCherry: 樱桃
+			SevensStrikerCherrySplit: 樱桃
+			SevensStrikerGrape: 葡萄
+			SevensStrikerHoldout: 头彩7
+			SevensStrikerOrange: 橙子
+			SevensStrikerPlatinumCoin: 铂金钱币
 			ShadeFire: 火焰
 			Shell: 贝壳箭
 			Shockblast: 震爆冲击波
@@ -10594,7 +10594,7 @@ Mods: {
 			StormSurgeTornado: 潮涌
 			SulphuricBlast: 硫磺酸风
 			SuperballBulletProj: 弹球弹
-			SurgeDriverHoldout: Surge Driver
+			SurgeDriverHoldout: 煌晖御流炮
 			TelluricGlareArrow: 辐光之箭
 			TerraArrowMain: 泰拉箭
 			TerraArrowSplit: 泰拉箭
@@ -10602,12 +10602,12 @@ Mods: {
 			TerraBulletSplit: 泰拉子弹
 			TerraFireGreen: 泰拉绿焰
 			TerraFireGreen2: 泰拉绿焰
-			TheMaelstromExplosion: Explosion
-			TheMaelstromShark: Reaper Shark
+			TheMaelstromExplosion: 爆炸
+			TheMaelstromShark: 猎魂鲨
 			ThePackMinissile: 集束迷你火箭
 			ThePackMissile: 集束火箭
-			TitaniumRailgunScope: Titanium Scope
-			TitaniumRailgunShot: Titanium Decimator
+			TitaniumRailgunScope: 钛金示波器
+			TitaniumRailgunShot: 钛金滤波器
 			TorrentialArrow: 洪流箭
 			ToxicannonDrop: 酸
 			ToxicannonShot: 硫酸炮弹
@@ -10625,7 +10625,7 @@ Mods: {
 			Voidragon: 太虚星龙炮
 			VoidragonTentacle: 太虚星龙触须
 			WaterSpout: 激流
-			WulfrumScrapBullet: High Speed Scrap
+			WulfrumScrapBullet: 高速废料
 			AbyssalMirrorProjectile: 流明晶
 			AcidBarrelDrop: 酸
 			AcidShrapnel: 弹片
@@ -10712,16 +10712,16 @@ Mods: {
 			DuststormCloud: 粉尘云
 			DuststormCloudStealth: 沙尘云
 			DuststormInABottleProj: 尘暴
-			DynamicPursuerElectricity: Electricity
-			DynamicPursuerLaser: Laser
-			DynamicPursuerProjectile: Dynamic Pursuer
+			DynamicPursuerElectricity: 电能
+			DynamicPursuerLaser: 激光
+			DynamicPursuerProjectile: 动能寻迹镖
 			EclipseMirrorBurst: 暗日之光
 			EclipsesFallMain: 日蚀之陨
 			EclipsesSmol: 蚀日之矛
 			EclipsesStealth: 日蚀之陨
-			EGloveSpark: Spark
-			ElementalDiskProj: Elemental Disk
-			ElementalDiskSplit: Elemental Disk
+			EGloveSpark: 火花
+			ElementalDiskProj: 元素飞盘
+			ElementalDiskSplit: 元素飞盘
 			EnchantedAxe2: 附魔之斧
 			EnchantedAxeProj: 附魔之斧
 			EpidemicShredderProjectile: 瘟疫回旋镖
@@ -10746,7 +10746,7 @@ Mods: {
 			FinalDawnReticle: 终曲爆炎
 			FinalDawnThrow: 终曲黎明
 			FinalDawnThrow2: 终曲黎明
-			FishboneBoomerangProjectile: Fishbone Boomerang
+			FishboneBoomerangProjectile: 鱼骨回旋镖
 			Fork: 飞叉
 			FossilShardThrown: 碎片
 			FrostShardFriendly: 霜冻碎片
@@ -10761,10 +10761,10 @@ Mods: {
 			GleamingDaggerProj: 铂金飞刀
 			GodsParanoiaDart: 神妄苦无
 			GodsParanoiaProj: 神之妄论
-			GraveGrimreaverProjectile: Grave Grimreaver
+			GraveGrimreaverProjectile: 幽影掠墓者
 			GreenDonkeyKongReference: 酸蚀木桶
-			GrimreaverBat: Grim Bat
-			GrimreaverSkull: Grim Skull
+			GrimreaverBat: 掠墓蝙蝠
+			GrimreaverSkull: 掠墓颅骨
 			HeavenfallenEnergy: 天陨魔能
 			HeavenfallenStardiskBoomerang: 天陨星盘
 			HellsSunProj: 地狱之阳
@@ -10778,7 +10778,7 @@ Mods: {
 			InfernalKrisCinder: 狱炎余烬
 			InfernalKrisExplosion: 狱炎爆
 			InfernalKrisProjectile: 炼狱克里斯
-			InfestedClawmerangProj: Shroomerang
+			InfestedClawmerangProj: 蘑菇回旋镖
 			InkBombProjectile: 乌云
 			InkCloud: 乌云
 			InkCloud2: 乌云
@@ -10906,11 +10906,11 @@ Mods: {
 			StealthRain: 雨
 			StellarKnifeProj: 恒星匕首
 			StickyBol: 恒星
-			StormfrontLightning: Lightning
+			StormfrontLightning: 闪电
 			StormfrontRazorProjectile: 风暴短匕
 			Stormfrontspark: 火花
 			SubductionFlameburst: 火柱
-			SubductionSlicerProj: Subduction Slicer
+			SubductionSlicerProj: 板块斩切者
 			SulphuricNukesplosion: 核弹
 			SupernovaBomb: 超新星爆炸
 			SupernovaBoom: 超新星爆炸
@@ -10940,7 +10940,7 @@ Mods: {
 			ToxicantTwisterTwoPointZero: 剧毒旋风
 			TurbulanceProjectile: 乱流长枪
 			TurbulanceWindSlash: 风斩
-			UmbraphileBoom: Umbra Blast
+			UmbraphileBoom: 本影爆破
 			UrchinStingerProj: 海胆刺
 			ValariBoomerang: 霜碎回力标
 			Valaricicle: 碎冰
@@ -10961,21 +10961,21 @@ Mods: {
 			AngelRay: 射线
 			ApexShark: 失落极峰鲨
 			ApparatusExplosion: 爆炸
-			AquasScepterCloud: Storm Cloud
-			AquasScepterCloudFlash: Storm Cloud Flash
-			AquasScepterRaindrop: Rain Droplet
-			AquasScepterTeslaAura: Tesla Aura
+			AquasScepterCloud: 风暴云
+			AquasScepterCloudFlash: 风暴云闪
+			AquasScepterRaindrop: 雨滴
+			AquasScepterTeslaAura: 特斯拉光环
 			AquaticStarMinion: 水星
 			AstrageldonLaser: 星幻激光
 			AstrageldonSummon: 末世星史莱姆
 			AstralProbeRound: 爆炸冲击波
 			AstralProbeSummon: 幻星探测器
-			AtlasMunitionsAutocannon: Atlas Munitions Autocannon
-			AtlasMunitionsAutocannonHeld: Atlas Munitions Autocannon
-			AtlasMunitionsDropPod: Drop Pod
-			AtlasMunitionsDropPodUpper: Drop Pod Cover
-			AtlasMunitionsLaser: 星流Pulse Laser
-			AtlasMunitionsLaserOverdrive: 星流Pulse Laser
+			AtlasMunitionsAutocannon: 擎天军用机炮
+			AtlasMunitionsAutocannonHeld: 擎天军用机炮
+			AtlasMunitionsDropPod: 空投舱
+			AtlasMunitionsDropPodUpper: 空投舱
+			AtlasMunitionsLaser: 星流脉冲激光
+			AtlasMunitionsLaserOverdrive: 星流脉冲激光
 			AureusBomber: 白金星舰
 			BabyBloodCrawler: 幼年血蛭
 			BabyPlaguebringer: 幼年疫病使者
@@ -11010,8 +11010,8 @@ Mods: {
 			Cinder: 熔渣
 			CinderBlossom: 烬之英
 			CloudElementalMinion: 云之灵
-			CnidarianJellyfishOnTheString: Cnidarian
-			CnidarianSpark: Spark
+			CnidarianJellyfishOnTheString: 刺胞
+			CnidarianSpark: 火花
 			ColdDivinityPointyThing: 冰堡残片
 			CorroslimeMinion: 腐化史莱姆
 			CorruptionSlimeGodMinion: 史莱姆之神
@@ -11023,7 +11023,7 @@ Mods: {
 			CosmicViperSplitRocket1: 火箭破片
 			CosmicViperSplittingRocket: 子母火箭
 			CosmicViperSummon: 寰宇毒蝰
-			CosmilampBeam: Cosmic Beam
+			CosmilampBeam: 宇宙光束
 			CosmilampMinion: 无限之灯
 			CrimslimeMinion: 血腥史莱姆
 			CrimsonSlimeGodMinion: 史莱姆之神
@@ -11054,7 +11054,7 @@ Mods: {
 			EXPLODINGFROG: 蟾血炸弹
 			EyeOfNightCell: 瘟疫细胞
 			EyeOfNightSummon: 永夜之眼
-			FieryDraconid: Fiery Draconid
+			FieryDraconid: 赤焰天龙
 			FlameBlast: 爆炸波
 			FlameBurst: 霜冻破
 			FleshBallMinion: 血肉之球
@@ -11090,7 +11090,7 @@ Mods: {
 			HowlsHeartFireball: 冥光之火
 			HowlsHeartHowl: 哈尔
 			HowlsHeartTurnipHead: 小萝卜头
-			HydrothermicVent: Hydrothermic Vent
+			HydrothermicVent: 热泉
 			IceClasperMinion: 食魂冰虫
 			IceSentry: 冰哨
 			IceSentryFrostBolt: 冰球
@@ -11122,8 +11122,8 @@ Mods: {
 			MK2FlaskSummon: 疫毒瓶
 			MK2RocketHoming: 制导火箭
 			MK2RocketNormal: 普通火箭
-			MoonFist: Cosmic Fist
-			MoonFistTeleportVisual: Light
+			MoonFist: 宇宙之拳
+			MoonFistTeleportVisual: 光辉
 			MortalityBeam: 告死光束
 			MortalityBolt: 告死光束
 			OldDukeHeadCorpse: 老核弹的头
@@ -11155,10 +11155,10 @@ Mods: {
 			ProfanedCrystalRangedSmalls: 圣灵炎爆弹
 			ProfanedCrystalRogueShard: 圣灵碎晶片
 			ProfanedEnergy: 亵渎灵能
-			PuffCloud: Cloud
-			PuffWarrior: Puff Warrior
+			PuffCloud: 蓬松云
+			PuffWarrior: 蓬松战士
 			PurpleButterfly: 紫蝴蝶
-			RustyBeaconPulse: Irradiated Pulse
+			RustyBeaconPulse: 辐照脉冲
 			RustyDrone: 锈蚀无人机
 			SageNeedle: 鼠尾草针叶
 			SageSpirit: 鼠尾草之灵
@@ -11169,9 +11169,9 @@ Mods: {
 			SandMark: 瀚漠铭印
 			SandnadoMinion: 沙龙卷
 			SandTornado: 沙龙卷
-			SarosAura: Saros Aura
-			SarosMicrosun: Saros Microsun
-			SarosSunfire: Saros Sunfire
+			SarosAura: 星律光环
+			SarosMicrosun: 星律卫星
+			SarosSunfire: 星律阳火
 			SeekerSummonProj: 灵魂搜寻者
 			SepulcherMinion: 灾坟虫
 			Shellfish: 贝壳
@@ -11210,16 +11210,16 @@ Mods: {
 			TacticalPlagueJet: 战术瘟疫喷气背包
 			TundraFlameBlossom: 永冻之焰华
 			TundraFlameBlossomsOrb: 永冻之焰珠
-			MagicArrow: Vermillion Arrow
+			MagicArrow: 朱红色箭矢
 			MagicAxe: 魔化斧
 			MagicBird: 魔鸟
 			MagicBullet: 魔弹
-			MagicBulletBig: Bullet
-			MagicBunny: Bunny
+			MagicBulletBig: 子弹
+			MagicBunny: 兔兔
 			MagicHammer: 魔化锤
 			MagicHat: 魔法帽
 			MagicRifle: 魔能来复枪
-			MagicTree: Tree
+			MagicTree: 树
 			MagicUmbrella: 魔法伞
 			UniverseSplitterField: 力场
 			UniverseSplitterHugeBeam: 渊宇天基炮激光
@@ -11233,20 +11233,20 @@ Mods: {
 			VoidConcentrationAura: 虚空统御
 			VoidConcentrationBlackhole: 黑洞
 			VoidConcentrationOrb: 虚空
-			VolcanicFireballSummon: Volcanic Fireball
+			VolcanicFireballSummon: 火山火球
 			WaterElementalMinion: 阿娜希塔
-			WaterElementalSong: Siren Song
+			WaterElementalSong: 塞壬之歌
 			WaterSpearFriendly: 矛
 			WitherBlossom: 凋零枯花
 			WitherBolt: 凋零花弹
 			WulfrumDroid: 钨钢机器人
-			WulfrumEnergyBurst: Bolt
-			WulfrumFusionBolt: Fusion Bolt
+			WulfrumEnergyBurst: 能量束
+			WulfrumFusionBolt: 融合束
 			YharonMinionFireball: 龙崽火球
 			YoungDuke: 幼年硫海遗爵
 			AeroExplosive: 天蓝爆炸
 			AllianceTriangle: 圣天三角
-			ArcZap: Arc Zap
+			ArcZap: 电弧
 			ArtifactOfResilienceShard1: 灵之形碎块
 			ArtifactOfResilienceShard2: 灵之形碎块
 			ArtifactOfResilienceShard3: 灵之形碎块
@@ -11259,7 +11259,7 @@ Mods: {
 			BallisticPoisonCloud: 云
 			BlazingSun: 烈日
 			BlazingSun2: 烈日
-			BlissfulBombardierDustProjectile: Dust
+			BlissfulBombardierDustProjectile: 尘埃
 			BloodBomb: 炸弹
 			BloodBombExplosion: 爆炸
 			BlunderBoosterAura: 悖论电场
@@ -11269,7 +11269,7 @@ Mods: {
 			BossRushFailureEffectThing: Boss Rush Failure Effect Thing
 			BossRushTierAnimation: Boss Rush Tier Animation
 			BrimstoneHellfireballFriendly2: 地狱火
-			ChaoticGeyser: Chaotic Geyser
+			ChaoticGeyser: 混沌间歇泉
 			ChlorophyteLifePulse: 生命脉冲
 			CoralBubble: 泡泡
 			CoralBubbleSmall: 泡泡
@@ -11278,17 +11278,17 @@ Mods: {
 			CursorProjSplit: 蒸汽波水晶
 			CyanLabSeeker: 实验室定位仪
 			DarkIce: 暗冰
-			DeepseaBlaze: Deepsea Blaze
+			DeepseaBlaze: 深海之耀
 			DemonshadeRedDevil: 红恶魔
 			DevourerofCodsBobber: 鳕鱼吞噬者浮漂
 			DirectStrike: 难以形容的破坏性实体
 			DragonDust: 龙尘之径
 			EarlyBloomBobber: 龙蒿钓竿浮漂
-			EmpyreanBlast: Empyrean Blast
-			EmpyreanEmber: Empyrean Ember
-			EmpyreanGlob: Empyeran Glob
-			EmpyreanMarble: Empyrean Marble
-			EmpyreanStellarDetritus: Empyrean Stellar Detritus
+			EmpyreanBlast: 皇天爆破
+			EmpyreanEmber: 皇天余烬
+			EmpyreanGlob: 皇天液滴
+			EmpyreanMarble: 皇天大理石
+			EmpyreanStellarDetritus: 皇天星源碎屑
 			EnergyShell: 能量庇护
 			FeralDoubleBobber: 野性浮漂
 			FuckYou: 爆炸
@@ -11302,13 +11302,13 @@ Mods: {
 			GoldenGunProj: 黄金光环
 			GreenLabSeeker: 实验室定位仪
 			HellfireExplosionFriendly2: 狱火炎爆
-			HeronBobber: 苍鹭浮漂
+			HeronBobber: 苍鹭浮标
 			HolyExplosion: 爆炸
 			HolyExplosionSupreme: 爆炸
 			HydrothermalSmoke: 水热烟雾
-			HydrothermicFlare: Hydrothermic Flare
-			HydrothermicFlareRogue: Hydrothermic Flare
-			HydrothermicSphere: Hydrothermic Sphere
+			HydrothermicFlare: 渊泉之火
+			HydrothermicFlareRogue: 渊泉之火
+			HydrothermicSphere: 渊泉球体
 			JewelSpike: 宝石尖刺
 			KelvinCatalystStar: 冰灵旋刃碎冰星
 			LunicBeam: 激光
@@ -11317,12 +11317,12 @@ Mods: {
 			MythrilFlare: 秘银火花
 			NanoFlare: 纳米耀斑
 			Nanotech: 纳米刃
-			NavyBobber: 沉沦渊海钓竿浮漂
+			NavyBobber: 沉沦渊海钓竿浮标
 			NebulaDust: 星尘
 			NebulaStar: 星云
 			NobodyKnows: 虚无
 			OmegaBlueTentacle: 欧米茄蓝色触手
-			OnyxLabSeeker: Seeking Mechanism
+			OnyxLabSeeker: 实验室定位仪
 			PendantProjectile1: 棱镜碎片
 			PendantProjectile2: 棱镜碎片
 			PendantProjectile3: 棱镜碎片
@@ -11333,7 +11333,7 @@ Mods: {
 			RedLabSeeker: 实验室定位仪
 			RelicOfConvergenceCrystal: 聚魂神晶
 			RelicOfDeliveranceSpear: 渡魂圣物
-			RiftReelerBobber: Chaotic Bobber
+			RiftReelerBobber: 混乱浮标
 			SabatonBoom: 萨巴顿爆炸
 			SabatonSlam: 萨巴顿猛击
 			SandCloakVeil: 沙尘龙卷
@@ -11344,8 +11344,8 @@ Mods: {
 			ShadowflameExplosion: 暗影炎爆
 			ShadowflameExplosionBig: 暗影炎爆
 			SkyFlareFriendly: 烈焰
-			SlimeStream: Silme Stream
-			SlurperBobber: 灵魂饮食者漂子
+			SlimeStream: 史莱姆流
+			SlurperBobber: 灵魂饮食者浮标
 			SpiritOriginBullseye: 靶心
 			StandingFire: 火焰
 			StarStruckWaterBottle: 星水瓶
@@ -11356,11 +11356,11 @@ Mods: {
 			TerminusHoldout: 终焉反抗
 			TeslaAura: 磁暴
 			VanquisherArrowSplit: 湮灭箭
-			VerstaltiteBobber: 极寒浮漂
-			VoidFieldGenerator: 虚空Field Generator
+			VerstaltiteBobber: 极寒浮标
+			VoidFieldGenerator: 虚空力场生成器
 			WaterConvertor: 净水器
-			WhiteLabSeeker: Seeking Mechanism
-			WulfrumBobber: 钨钢浮漂
+			WhiteLabSeeker: 实验室定位仪
+			WulfrumBobber: 钨钢浮标
 			WulfrumDiggingTurtleProjectile: 掘地机械龟
 			WulfrumDrillProj: 钻头
 			WulfrumHook: 钨钢弹弓
