@@ -7074,7 +7074,7 @@ Mods: {
 				以寒锋恰似拜月者希冀之月
 				这把链刃能发射追踪新月
 				'''
-			DarklightGreatsword: 发射夜光刀锋，临近消失时分裂
+			DarklightGreatsword: 发射在消失时分裂的夜光刀锋
 			DeathsAscension:
 				'''
 				你感到死神之手掌控着你
@@ -7180,7 +7180,7 @@ Mods: {
 			FlarefrostBlade: 发射追踪炎霜球
 			Floodtide: 发射龙卷鲨，因为龙卷鲨很棒棒！
 			ForbiddenOathblade: 发射一只恶魔镰刀，暴击时造成暗影炎爆炸
-			ForsakenSaber: 发射两把沙刃，在飞行时改变速度
+			ForsakenSaber: 发射两把在飞行时自动变速的沙刃
 			FourSeasonsGalaxia:
 				'''
 				FUNCTION_DESC
@@ -7435,7 +7435,7 @@ Mods: {
 			SolsticeClaymore:
 				'''
 				依照现实时间，发射出颜色不同的剑气
-				在白天造成破晓减益，在晚上造成夜殇减益
+				在白天造成破晓减益，在晚上造成夜魇减益
 				'''
 			SoulEdge: 发射出深渊原住民的的恐惧幽魂
 			SoulHarvester:
