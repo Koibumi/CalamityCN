@@ -775,7 +775,7 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Conjures molten blades in front of you that get larger and stronger the more you hit enemies.", "于面前召唤熔岩剑刃，击中敌怪次数越多，它们将愈加庞大而锋利".zh());
                     line.Text = line.Text.Replace("The blades can also be used to bounce off tiles when in the air", "你在半空时，剑刃也能用于在物块之间弹跳".zh());
                     line.Text = line.Text.Replace("Releasing the attack button sends the charged blades hurtling forwards like a wheel.", "在剑刃达到巅峰时停止攻击，它们将如扇叶一般旋转飞出".zh());
-                    line.Text = line.Text.Replace("Attacking again immediately thereafter dashes to the wheel, shredding anything in the way", "此时立即进行下一次攻击，你将冲向剑刃，并撕裂途径的一切".zh());
+                    line.Text = line.Text.Replace("Attacking again immediately thereafter dashes to the wheel, shredding anything in the way", "此时立即进行下一次攻击，你将冲向剑刃，并撕裂途经的一切".zh());
                     line.Text = line.Text.Replace("Striking enemies rarely steals a small amount of life", "击中敌人偶尔会为你回复生命".zh());
                     line.Text = line.Text.Replace("Hold the attack button to charge a heaven-shattering lunge, release to unleash the devastating blow.", "按住攻击，为碎裂天界的冲锋蓄力，松开以释放这一毁灭性打击".zh());
                     line.Text = line.Text.Replace("Shock waves are emitted as the sword charges up", "蓄力时，不断产生冲击波".zh());
