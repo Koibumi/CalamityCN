@@ -804,7 +804,7 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Hold left click to channel Galaxia's power into a tight vortex of galactic energies", "引导北极星之力，化为星环簇拥的星系能量漩涡".zh());
                     line.Text = line.Text.Replace("The vortex powers up over time and when hitting enemies", "随着时间流逝或击中敌怪，漩涡将逐渐成长".zh());
                     line.Text = line.Text.Replace("Release left click to fire off the charged star in straight line", "停止攻击将释放北极星向前飞跃".zh());
-                    line.Text = line.Text.Replace(" Press left click again immediately to dash towards the star and release cosmic bolts", "此时立即再次攻击，你将追随北极星的步伐高速冲刺，并化身超新星爆发，四散银河之雷".zh());
+                    line.Text = line.Text.Replace("Press left click again immediately to dash towards the star and release cosmic bolts", "此时立即再次攻击，你将追随北极星的步伐高速冲刺，并化身超新星爆发，四散银河之雷".zh());
                     line.Text = line.Text.Replace("Hold left click to charge a god-erasing lunge, release to unleash the devastating blow", "按住攻击，为抹杀神明的冲锋蓄力，松开以释放这一毁灭性打击".zh());
                     line.Text = line.Text.Replace("Galaxia emits cosmic bolts while charging", "银河在蓄力时会释放银河之雷".zh());
                     line.Text = line.Text.Replace("Lunging into the ground will cause a shockwave which summons a storm of cosmic energies", "撞击地面使得寰宇崩塌，时空撕裂，末世风暴般的宇宙能量轰鸣而至".zh());
