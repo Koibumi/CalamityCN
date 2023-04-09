@@ -1,7 +1,10 @@
 TODO:添加用于加载指定hjson的config（在简体-香港繁体和台湾繁体直接切换）
 
 
-
+Defense: {
+ Description: 防御力增加
+}
+不会生效
 
 
 
