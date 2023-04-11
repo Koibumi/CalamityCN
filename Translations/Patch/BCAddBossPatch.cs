@@ -195,7 +195,7 @@ namespace CalamityCN.Translations.Patch
 				ModContent.ItemType<LoreSulphurSea>(),
 				ModContent.ItemType<ThankYouPainting>()
 			};
-			AddBoss(bossChecklist, calamity, name7, difficulty7, list9, downed7, summon7, list10, "在硫磺海使用 [i:" + ModContent.ItemType<Seafood>().ToString() + "] 召唤，或在硫磺海等待其自然刷新", CalamityUtils.ColorMessage("剧毒的灾虫游回了宁静而广大的海洋中。", new Color(238, 232, 170)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
+			AddBoss(bossChecklist, calamity, name7, difficulty7, list9, downed7, summon7, list10, "在硫磺海使用 [i:" + ModContent.ItemType<Seafood>().ToString() + "] 召唤，或在硫磺海等待其自然刷新", CalamityUtils.ColorMessage("剧毒的灾虫游回了宁静的汪洋中。", new Color(238, 232, 170)), () => true, delegate (SpriteBatch sb, Rectangle rect, Color color)
 			{
 				Texture2D value = ModContent.Request<Texture2D>("CalamityMod/NPCs/AquaticScourge/AquaticScourge_BossChecklist", (ReLogic.Content.AssetRequestMode)2).Value;
 				sb.Draw(value, new Vector2((float)(rect.Center.X - value.Width / 2), (float)(rect.Center.Y - value.Height / 2)), color);
