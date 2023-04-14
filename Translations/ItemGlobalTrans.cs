@@ -39,6 +39,10 @@ public class ItemGlobalTrans : GlobalItem
     //重命名
     public override void SetDefaults(Item item)
     {
+        if (item.type == ModContent.ItemType<WulfrumWorkbench>())
+        {
+            item.SetNameOverride("钨钢工作台");
+        }
         //星流家具
         if (item.type == ModContent.ItemType<ExoChair>())
         {
@@ -972,7 +976,18 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Cryo Key", "极寒之匙".zh());
                     line.Text = line.Text.Replace("Summons Cryogen when used in the tundra", "在雪原使用，召唤极地冰灵".zh());
                 }
-
+                if (item.type == ModContent.ItemType<Lacerator>())
+                {
+                    line.Text = line.Text.Replace("Someone thought this was a viable weapon against DoG at one point lol", "竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑");
+                }
+                if (item.type == ModContent.ItemType<ProfanedShard>())
+                {   
+                    line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the Hallow or Underworld during daytime", "白天在地狱或神圣之地使用，召唤亵渎守卫");
+                }
+                if (item.type == ModContent.ItemType<SandstormsCore>())
+                {
+                    line.Text = line.Text.Replace("Summons the Great Sand Shark when used in the desert", "在沙漠使用，召唤旱海狂鲨");
+                }
                 /*		
                             if (item.type == ModContent.ItemType<>())
                             {
@@ -1581,21 +1596,9 @@ public class ItemGlobalTrans : GlobalItem
                 {
                     line.Text = line.Text.Replace("Once placed you can right click the crystal to skip waves or increase the spawn rate of the invaders", "放置后你可以通过右键水晶跳过波数等待或加快刷怪速度".zh());
                 }
-                if (item.type == ModContent.ItemType<Lacerator>())
+                if (item.type == ItemID.IronskinPotion)
                 {
-                    line.Text = line.Text.Replace("Someone thought this was a viable weapon against DoG at one point lol", "竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑".zh());
-                }
-                if (item.type == ModContent.ItemType<CryoKey>())
-                {
-                    line.Text = line.Text.Replace("Summons Cryogen when used in the tundra", "在苔原使用，召唤极地冰灵".zh());
-                }
-                if (item.type == ModContent.ItemType<ProfanedShard>())
-                {
-                    line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the Hallow or Underworld during daytime", "白天在地狱或神圣之地使用，召唤亵渎守卫".zh());
-                }
-                if (item.type == ModContent.ItemType<SandstormsCore>())
-                {
-                    line.Text = line.Text.Replace("Summons the Great Sand Shark when used in the desert", "在沙漠使用，召唤旱海狂鲨".zh());
+                    line.Text = line.Text.Replace("Increase defense by", "防御力增加");
                 }
                 #endregion
 
