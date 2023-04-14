@@ -3755,7 +3755,7 @@ Mods: {
 			AerospecLeggings: 增加12%移动速度
 			AstralBreastplate:
 				'''
-				增加80点最大魔力值和20点大生命值
+				增加80点最大魔力值和20点最大生命值
 				能够侦测生命体
 				'''
 			AstralHelm: 能够侦测危险
