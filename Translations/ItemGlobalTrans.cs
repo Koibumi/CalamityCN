@@ -974,7 +974,7 @@ public class ItemGlobalTrans : GlobalItem
                  if (item.type == ModContent.ItemType<CryoKey>())
                 {
                     line.Text = line.Text.Replace("Cryo Key", "极寒之匙".zh());
-                    line.Text = line.Text.Replace("Summons Cryogen when used in the tundra", "在雪原使用，召唤极地冰灵".zh());
+                    line.Text = line.Text.Replace("Summons Cryogen when used in the tundra", "在苔原使用以召唤极地之灵".zh());
                 }
                 if (item.type == ModContent.ItemType<Lacerator>())
                 {
@@ -982,11 +982,11 @@ public class ItemGlobalTrans : GlobalItem
                 }
                 if (item.type == ModContent.ItemType<ProfanedShard>())
                 {   
-                    line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the Hallow or Underworld during daytime", "白天在地狱或神圣之地使用，召唤亵渎守卫");
+                    line.Text = line.Text.Replace("Summons the Profaned Guardians when used in the Hallow or Underworld during daytime", "白天时在地狱或神圣之地使用以召唤亵渎守卫");
                 }
                 if (item.type == ModContent.ItemType<SandstormsCore>())
                 {
-                    line.Text = line.Text.Replace("Summons the Great Sand Shark when used in the desert", "在沙漠使用，召唤旱海狂鲨");
+                    line.Text = line.Text.Replace("Summons the Great Sand Shark when used in the desert", "在沙漠使用以召唤旱海狂鲨");
                 }
                 /*		
                             if (item.type == ModContent.ItemType<>())
