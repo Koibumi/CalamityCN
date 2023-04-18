@@ -16,6 +16,7 @@ using CalamityMod.Items.Placeables.FurnitureProfaned;
 using CalamityMod.Items.Placeables.FurnitureStatigel;
 using CalamityMod.Items.Placeables.FurnitureStratus;
 using CalamityMod.Items.Placeables.FurnitureVoid;
+using CalamityMod.Items.Placeables.FurnitureWulfrum;
 using CalamityMod.Items.Potions;
 using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.Weapons.DraedonsArsenal;
@@ -41,7 +42,7 @@ public class ItemGlobalTrans : GlobalItem
     {
         if (item.type == ModContent.ItemType<WulfrumWorkbench>())
         {
-            item.SetNameOverride("钨钢工作台");
+            item.SetNameOverride("钨钢工作台".zh());
         }
         //星流家具
         if (item.type == ModContent.ItemType<ExoChair>())
@@ -874,7 +875,6 @@ public class ItemGlobalTrans : GlobalItem
                 if (item.type >= ItemID.Celeb2 && (item.Calamity()?.UsesCharge ?? false))
                 {
                     line.Text = line.Text.Replace("Current Charge:", "当前充能：".zh());
-
                 }
 
                 if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>() || item.type == ModContent.ItemType<LongRangedSensorArray>() || item.type == ModContent.ItemType<DecryptionComputer>())
@@ -885,12 +885,21 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("The Jungle schematic must be deciphered first", "需要先破译丛林原型图".zh());
                     line.Text = line.Text.Replace("The Underworld schematic must be deciphered first", "需要先破译地狱原型图".zh());
                     line.Text = line.Text.Replace("The Ice biome schematic must be deciphered first", "需要先破译雪原原型图".zh());
+                }
 
+                if (item.type == ModContent.ItemType<DraedonsHeart>())
+                {
+                    line.Text = line.Text.Replace("Adds the Nanomachines meter", "使你获得纳米机器条".zh());
+                    line.Text = line.Text.Replace("Nanomachines accumulate over time while fighting bosses", "在Boss战期间，纳米机器条会持续充能".zh());
+                    line.Text = line.Text.Replace("Taking damage stops the accumulation for", "受到伤害时停止充能".zh());
+                    line.Text = line.Text.Replace(" seconds", "秒".zh());
+                    line.Text = line.Text.Replace("While healing, you take ", "上述效果激活时，降低".zh());
+                    line.Text = line.Text.Replace("% less damage", "%所受伤害".zh());
                 }
 
                 if (item.Calamity().canFirePointBlankShots)
                 {
-                    line.Text = line.Text.Replace("Does extra damage to enemies shot at point-blank range", "对近距离敌怪射击时造成额外伤害".zh());
+                    line.Text = line.Text.Replace("Does extra damage to enemies shot at point-blank range", "近距离射击时敌怪造成额外伤害".zh());
                 }
 
                 if (item.Calamity().devItem)
@@ -1159,6 +1168,16 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Grants immunity to Holy Flames", "免疫神圣之火减益".zh());
                 }
 
+                if (item.type == ItemID.MagicHat)
+                {
+                    line.Text = line.Text.Replace("5% increased magic damage and critical strike chance", "增加5%魔法伤害和魔法暴击率".zh());
+                }
+
+                if (item.type == ItemID.Tombstone || item.type == ItemID.GraveMarker || item.type == ItemID.CrossGraveMarker || item.type == ItemID.Headstone || item.type == ItemID.Gravestone || item.type == ItemID.Obelisk|| item.type == ItemID.RichGravestone1 || item.type == ItemID.RichGravestone2 || item.type == ItemID.RichGravestone3 || item.type == ItemID.RichGravestone4 || item.type == ItemID.RichGravestone5)
+                {
+                    line.Text = line.Text.Replace("20 of any tombstone turns the surrounding area into a graveyard\nGraveyards have various new item sales and recipes", "20个任意墓碑会将周围的区域转化为墓地\n墓地环境中会有多种新的物品出售和配方".zh());
+                }
+
                 if (item.type == ItemID.MoonStone)
                 {
                     line.Text = line.Text.Replace("Grants immunity to Nightwither", "免疫夜魇减益".zh());
@@ -1174,7 +1193,7 @@ public class ItemGlobalTrans : GlobalItem
                     line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难".zh());
                 }
 
-                if (item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
+                if (item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.UltrabrightHelmet || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
                 {
                     line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照".zh());
                 }
