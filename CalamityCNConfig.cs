@@ -14,11 +14,11 @@ namespace CalamityCN
         }
 
         [ReloadRequired]
-        [Header("繁简转换")]
+        [Header("繁简转换")]//需要改
         [Label("将大部分简体转化为繁体（仅包含灾厄本体）")]
         [Tooltip("注意：仅将简体字直接替换为字库中相应的繁体字（为测试功能，已停止维护）\n警告：不支持Mac系统，启用会报错！")]
-        [DefaultValue(false)]
-        public bool TSChange;
+        [DefaultValue(0)]
+        public Systems.zhCNLang Lang;
 
         [ReloadRequired]
         [Header("炼狱模式部分配置")]

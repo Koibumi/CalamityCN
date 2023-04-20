@@ -81,8 +81,10 @@ namespace CalamityCN
                     }
                 }
             }
-        }
 
+            typeof(LocalizationLoader).GetCachedMethod("Autoload").Invoke(null, new object[] { this });//强制重新加载自己Mod的hjson，因为patch加载在hjson加载后
+        }
+        
         public override void Unload()
         {
             GetFriendlyName -= TranslatedFriendlyName;

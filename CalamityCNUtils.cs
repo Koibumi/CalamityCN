@@ -1,3 +1,5 @@
+using CalamityCN.Systems;
+
 namespace CalamityCN
 {
     internal static class CalamityCNUtils
@@ -9,7 +11,7 @@ namespace CalamityCN
         }
         public static string zh(this string strSimple)
         {
-            if (CalamityCNConfig.Instance.TSChange)
+            if (CalamityCNConfig.Instance.Lang == zhCNLang.tw || CalamityCNConfig.Instance.Lang == zhCNLang.hk)
                 return strSimple.tc();
             return strSimple;
         }
