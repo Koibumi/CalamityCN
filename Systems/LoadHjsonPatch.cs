@@ -109,11 +109,11 @@ namespace CalamityCN.Systems
 
     public enum zhCNLang
     {
-        [Label("")]//需要写
+        [Label("简体中文")]
         zh,
-        [Label("")]
+        [Label("繁体中文（香港）")]
         hk,
-        [Label("")]
+        [Label("繁体中文（台灣）")]
         tw
     }
 }

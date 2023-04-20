@@ -14,9 +14,9 @@ namespace CalamityCN
         }
 
         [ReloadRequired]
-        [Header("繁简转换")]//需要改
+        [Header("繁简转换")]
         [Label("将大部分简体转化为繁体（仅包含灾厄本体）")]
-        [Tooltip("注意：仅将简体字直接替换为字库中相应的繁体字（为测试功能，已停止维护）\n警告：不支持Mac系统，启用会报错！")]
+        [Tooltip("在简体中文-繁体中文（香港）-繁体中文（台灣）之间切换\n不支持Mac系统，")]
         [DefaultValue(0)]
         public Systems.zhCNLang Lang;
 
