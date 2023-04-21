@@ -19,10 +19,15 @@ namespace CalamityCN.Systems
 
         public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).GetCachedMethod("AutoloadTranslations");
 
-        public override Delegate Delegate => new Action<Mod, Dictionary<string, ModTranslation>>(AutoloadTranslations);
+        public override Delegate Delegate => new Action<AutoloadTranslationsPatch, Mod, Dictionary<string, ModTranslation>>(AutoloadTranslations);
 
-        public static void AutoloadTranslations(Mod mod, Dictionary<string, ModTranslation> modTranslationDictionary)
+        private static void AutoloadTranslations(AutoloadTranslationsPatch orig, Mod mod, Dictionary<string, ModTranslation> modTranslationDictionary)
         {
+            if (mod.Name != "CalamityCN")
+            {
+                orig.Invoke(mod, modTranslationDictionary);
+                return;
+            }
             foreach (TmodFile.FileEntry translationFile in GetFile(mod))
             {
                 if (Path.GetExtension(translationFile.Name) == ".hjson")
@@ -88,6 +93,8 @@ namespace CalamityCN.Systems
                 }
             }
         }
+
+        private delegate void AutoloadTranslationsPatch(Mod mod, Dictionary<string, ModTranslation> modTranslationDictionary);
 
         private static TmodFile GetFile(Mod mod) => mod.GetType().GetProperty("File", BindingFlags.Instance | BindingFlags.NonPublic)!.GetValue(mod) as TmodFile;
 
