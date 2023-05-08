@@ -1,5 +1,3 @@
-TODO:添加用于加载指定hjson的config（在简体-香港繁体和台湾繁体直接切换）
-
 CalamityMod.UI.DraedonSummoning.DraedonDialogRegistry::.cctor()": 的新增文本
 0: Who are you?
 1:
@@ -41,7 +39,3 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
     0: Scopes Require Visibility to Zoom
     1: Could not locate where player is set to have a scope equipped.
   }
-
-
-
-
