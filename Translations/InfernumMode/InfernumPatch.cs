@@ -140,9 +140,9 @@ namespace CalamityCN.Translations.InfernumMode
             //Relic
             QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
             //Text
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "NOT SO FAST!", "太慢了！");
+            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
+            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
+            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "NOT SO FAST!", "太慢了！");
             QuickTranslate(typeof(DifficultyManagementSystem), "PreUpdateWorld", "Infernum is not allowed in Master Mode or For the Worthy.", "炼狱模式无法在大师模式或For the Worthy种子下启用。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电的洗礼。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " was incinerated by ungodly fire.", "被亵渎之火烧成了灰烬。");
