@@ -13,7 +13,7 @@
     DemonicChaliceOfInfernum: 炼狱圣杯
     ProfanedCrystalDye: Profaned Crystal Dye
     ElysianRose: Elysian Rose
-    HyperplaneMatrix: Hyperplane Matrix
+    HyperplaneMatrix: 超平面矩阵
     KnowledgeBereftVassal: 无邦封臣和旱海狂鲨
     LunarCoin: Lunar Coin
     Blahaj: Blahaj
@@ -22,7 +22,7 @@
     NightmareCatcher: Nightmare Catcher
     RisingWarriorsSoulstone: Rising Warrior's Soulstone
     SuspiciouslyRoundFeather: Suspiciously Round Feather
-    AquaticScourgeSkull: Aquatic Scourge Skull
+    AquaticScourgeSkull: 渊海灾虫的头骨
     BereftVassalTrophy: 无邦封臣纪念章
     CosmicMonolithItem: Cosmic Monolith
     CreditPainting: Credit where Credit is Due
@@ -30,7 +30,7 @@
     ProfanedFountainItem: 亵渎岩浆喷泉
     ProvidenceSpawnerItem: Providence Shrine Debug Item
     TabletPedestal: Tablet Pedestal
-    AEWRelic: Infernal Adult Eidolon Wyrm Relic
+    AEWRelic: 成年幻海妖龙孽狱圣物
     AquaticScourgeRelic: 渊海灾虫孽狱圣物
     AstrumAureusRelic: 白金星舰孽狱圣物
     AstrumDeusRelic: 星神游龙孽狱圣物
@@ -53,7 +53,7 @@
     EaterOfWorldsRelic: 世界吞噬怪孽狱圣物
     EmpressOfLightRelic: 光之女皇孽狱圣物
     EyeOfCthulhuRelic: 克苏鲁之眼孽狱圣物
-    ForgottenShadowOfCalamitasRelic: Infernal Forgotten Shadow of Calamitas Relic
+    ForgottenShadowOfCalamitasRelic: 遗落灾影孽狱圣物
     GiantClamRelic: 巨像蛤孽狱圣物
     GolemRelic: 石巨人孽狱圣物
     HiveMindRelic: 腐巢意志孽狱圣物
@@ -115,9 +115,9 @@
       FlowerOfTheOcean: Grants vastly increased visibility while underwater
       Purity:
         '''
-        30% increased damage and attack speed
-        Grants immunity to Nightwither
-        [c/ff5d5d:You are unlucky]
+        增加30%伤害和攻击速度
+        免疫夜魇
+        [c/ff5d5d:你会变得不幸]
         [c/59aae7:It sounds like two brothers, chasing glass frogs in the sun]
         '''
       SakuraBloom:
@@ -138,9 +138,9 @@
       ElysianRose: It yearns for the deepest depths of the abyss...
       HyperplaneMatrix:
         '''
-        An incalculably complex apparatus containing infinite power
-        Using it opens a panel that can grants a variety of reality-warping abilities
-        Upon a distant celestial body, a being named Draedon is born
+        一个难以计算的复杂装置，其中蕴含着无限的力量
+        使用以打开一个面板，其能够授予你各种扭曲现实的能力
+        在遥远的星球上，一个名为嘉登的存在诞生了
         Made to construct and to evolve
         One purpose, one cycle
         High, the machine works
@@ -252,9 +252,9 @@
         '''
       EvokingSearune:
         '''
-        Summons the Adult Eidolon Wyrm in the deepest layer of the Abyss
-        A primordial artifact said to have been formed by the First God, it is capable of summoning a guarding apparition
-        Not consumable
+        在深渊底层召唤成年幻海妖龙
+        据说是由原初之神所创造的远古神器，它可以召唤一个幽灵守卫
+        不消耗
         '''
       FleshChunk:
         '''
@@ -960,8 +960,8 @@
     {
       ColossalSquidTentacle: Tentacle
       DepthFeeder: Depth Feeder
-      Herring: Herring
-      LionfishEnemy: Lionfish
+      Herring: 鲱鱼
+      LionfishEnemy: 狮子鱼
       DeusSpawn: 大白金
       BrainIllusion: 克苏鲁之脑
       BrainIllusion2: 克苏鲁之脑
@@ -985,7 +985,7 @@
       PlanteraPinkTentacle: 世纪之花触手
       PolterghastLeg: 诡灵腿
       EtherealHand: 缥缈之手
-      HealerShieldCrystal: Holy Shield
+      HealerShieldCrystal: 圣洁之盾
       SplitBigSlime: 不稳定的史莱姆子代
       SplitBigSlimeAnimation: 不稳定的史莱姆子代
       ShadowDemon: 暗影巨蛇
@@ -1157,8 +1157,8 @@
       }
       SaturationBloomIntensity:
       {
-        Label: 饱和发光效果强度
-        Tooltip: 设置颜色饱和发光效果的强度。值为0时禁用此类效果。
+        Label: 饱和Bloom强度
+        Tooltip: 设置颜色饱和Bloom的强度。值为0时禁用此类效果。
       }
       FlashbangOverlays:
       {
