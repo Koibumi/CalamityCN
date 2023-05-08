@@ -5,21 +5,21 @@
     ItemName:
     {
     CherishedSealocket: 珍海吊坠
-    FlowerOfTheOcean: Flower of the Ocean
+    FlowerOfTheOcean: 海洋之花
     Purity: Purity
     SakuraBloom: Sakura Bloom
     BereftVassalBossBag: 宝藏袋（无邦封臣）
     BrimstoneCrescentStaff: Brimstone Crescent Staff
     DemonicChaliceOfInfernum: 炼狱圣杯
-    ProfanedCrystalDye: Profaned Crystal Dye
+    ProfanedCrystalDye: Profaned Crystal染料
     ElysianRose: Elysian Rose
     HyperplaneMatrix: 超平面矩阵
     KnowledgeBereftVassal: 无邦封臣和旱海狂鲨
-    LunarCoin: Lunar Coin
+    LunarCoin: 月之币章
     Blahaj: Blahaj
     BlastedTophat: 爆炸礼帽
     DisenchantedTablet: Disenchanted Tablet
-    NightmareCatcher: Nightmare Catcher
+    NightmareCatcher: 噩梦捕手
     RisingWarriorsSoulstone: Rising Warrior's Soulstone
     SuspiciouslyRoundFeather: Suspiciously Round Feather
     AquaticScourgeSkull: 渊海灾虫的头骨
@@ -150,8 +150,8 @@
         '''
       KnowledgeBereftVassal:
         '''
-        [c/e3af40:Whispers from on high dance in your ears...]
-        [c/bebebe:Press "Left Shift" to listen closer]
+        [c/e3af40:寄宿其上的低语流入你的耳中……]
+        [c/bebebe:按住“左Shift”仔细聆听]
         '''
       LunarCoin: ""
       Blahaj: Summons a pet ikea plushie
@@ -171,7 +171,7 @@
         Summons a wolf starchild that... 'helps' you?
         The tablet resonates with a strong legacy
         '''
-      SuspiciouslyRoundFeather: Summons an old friend
+      SuspiciouslyRoundFeather: 召唤一个老朋友
       AquaticScourgeSkull: ""
       BereftVassalTrophy: ""
       CosmicMonolithItem: ""
@@ -253,7 +253,7 @@
       EvokingSearune:
         '''
         在深渊底层召唤成年幻海妖龙
-        据说是由原初之神所创造的远古神器，它可以召唤一个幽灵守卫
+        据说是由原初之神所创造的远古神器，它可以用来召唤一个幽灵守卫
         不消耗
         '''
       FleshChunk:
@@ -322,7 +322,7 @@
         A part of a greater whole, incomprehensible to the layperson
         It stands for 'Kinetic Electroplasma Voltage Infuser'
         '''
-      CallUponTheEggs: "[c/f0ad56:This weapon is to be wielded by only those who shall take upon the task of watching over the weak ones]"
+      CallUponTheEggs: "[c/f0ad56:这把武器只能由那些肩负着保护弱者使命的人使用]"
       Myrindael:
         '''
         按住左键旋转长矛，然后投掷出去。投掷后，命中敌人会向敌人释放闪电与火花
@@ -958,7 +958,7 @@
     }
     NPCName:
     {
-      ColossalSquidTentacle: Tentacle
+      ColossalSquidTentacle: 触手
       DepthFeeder: Depth Feeder
       Herring: 鲱鱼
       LionfishEnemy: 狮子鱼
@@ -967,7 +967,7 @@
       BrainIllusion2: 克苏鲁之脑
       SoulSeeker2: 探魂者
       LightSnuffingHand: 熄芒暗手
-      AresEnergyKatana: XF-09 Ares Energy Katana
+      AresEnergyKatana: XF-09“阿瑞斯”能量光刀
       AresPulseCannon: XF-09“阿瑞斯”脉冲加农炮
       RedPlasmaEnergy: 等离子球
       RedirectingBubble: 泡泡
@@ -1045,7 +1045,7 @@
     {
       NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
       AchievementsHeader: 死亡祈愿
-      WishesHeader: Dev Wishes
+      WishesHeader: 开发者祈愿
     }
     Containers:
     {
