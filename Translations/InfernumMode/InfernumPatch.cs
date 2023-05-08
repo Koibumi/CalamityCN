@@ -1,8 +1,8 @@
 using CalamityCN.Utils;
 using InfernumMode;
+using InfernumMode.Content.Achievements;
 using InfernumMode.Content.Achievements.InfernumAchievements;
-using InfernumMode.Content.Achievements.UI;
-using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasClone;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.DoG;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon.Ares;
@@ -15,16 +15,16 @@ using InfernumMode.Content.BehaviorOverrides.BossAIs.SupremeCalamitas;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Twins;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Yharon;
 using InfernumMode.Content.BossIntroScreens;
+using InfernumMode.Content.UI;
+using InfernumMode.Core.GlobalInstances;
+using InfernumMode.Core.GlobalInstances.GlobalItems;
 using InfernumMode.Core.GlobalInstances.Players;
 using InfernumMode.Core.GlobalInstances.Systems;
 using InfernumMode.Core.ILEditingStuff;
-using InfernumMode.GlobalInstances;
-using InfernumMode.GlobalInstances.GlobalItems;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
-using InfernumMode.Content.Achievements;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -119,16 +119,16 @@ namespace CalamityCN.Translations.InfernumMode
             //似乎无效
             QuickTranslate(typeof(BereftVassal), "get_BossTitle", "Bereft Vassal", "无邦封臣");
             QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "Use a [i:", "在沙漠中心的基座上使用 [i:");
-            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "] at the pedestal in the heart of the desert.", "] 。");
+            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "] at the pedestal in the heart of the desert.", "]。");
             QuickTranslate(typeof(BereftVassal), "get_DespawnMessage", "Argus returns to quiet solitude at the center of the Colosseum.", "阿耳戈斯回到了僻静又孤独的竞技场中心。");
             #endregion
-            #region CalamitasClone
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "Destroy ", "摧毁");
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "him", "他");
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "her", "她");
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", ", my brothers.", "，我的兄弟们。");
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "I will not be defeated so easily.", "我不会被轻易击败。");
-            QuickTranslate(typeof(CalamitasCloneBehaviorOverride), "PreAI", "You will suffer.", "你将痛不欲生。");
+            #region CalamitasShadow
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "Destroy ", "摧毁");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "him", "他");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "her", "她");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", ", my brothers.", "，我的兄弟们。");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "I will not be defeated so easily.", "我不会被轻易击败。");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "You will suffer.", "你将痛不欲生。");
             #endregion
             #region DoG
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I WILL NOT BE DESTROYED!!!", "我不会被毁灭！！！", 2);
@@ -163,15 +163,15 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(BereftVassalIntroScreen), "get_TextToDisplay", "Argus\nThe Bereft Vassal", "阿尔戈斯\n无邦封臣");
                 QuickTranslate(typeof(BrainOfCthulhuIntroScreen), "get_TextToDisplay", "Eldritch Mind\nThe Brain of Cthulhu", "邪神思维\n克苏鲁之脑");
                 QuickTranslate(typeof(BrimstoneElementalIntroScreen), "get_TextToDisplay", "Scarred Numen\nThe Brimstone Elemental", "受创守护神\n硫磺火元素");
-                QuickTranslate(typeof(CalamitasCloneIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Clone", "虚假女巫\n灾厄之影");
+                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Clone", "虚假女巫\n灾厄之影");
                 QuickTranslate(typeof(CeaselessVoidIntroScreen), "get_TextToDisplay", "The Never-Ending\nCeaseless Void", "永无止境\n无尽虚空");
                 QuickTranslate(typeof(CrabulonIntroScreen), "get_TextToDisplay", "The Reanimated Carcass\nCrabulon", "复生死尸\n菌生蟹");
                 QuickTranslate(typeof(CryogenIntroScreen), "get_TextToDisplay", "The Unstable Prison\nCryogen", "崩摧监牢\n极地之灵");
                 QuickTranslate(typeof(CultistIntroScreen), "get_TextToDisplay", "Ancient Doomsayer\nThe Lunatic Cultist", "远古末日预言者\n拜月教邪教徒");
-                QuickTranslate(typeof(DeerclopsIntroScreen), "get_TextToDisplay", "Winter Beast\nThe Deerclops", "冬季凶兽\n独眼巨鹿 ");
+                QuickTranslate(typeof(DeerclopsIntroScreen), "get_TextToDisplay", "Winter Beast\nThe Deerclops", "冬日凶兽\n独眼巨鹿 ");
                 QuickTranslate(typeof(DesertScourgeIntroScreen), "get_TextToDisplay", "Dried Glutton\nThe Desert Scourge", "干缩饕餮\n荒漠灾虫");
                 QuickTranslate(typeof(DestroyerIntroScreen), "get_TextToDisplay", "World Excavator\nThe Destroyer", "世界挖掘者\n毁灭者");
-                QuickTranslate(typeof(DoGIntroScreen), "get_TextToDisplay", "The Conceited\nDevourer of Gods", "自命不凡的\n神明吞噬者");
+                QuickTranslate(typeof(DoGIntroScreen), "get_TextToDisplay", "The Conceited\nDevourer of Gods", "自命不凡\n神明吞噬者");
                 QuickTranslate(typeof(DraedonIntroScreen), "get_TextToDisplay", "The Cosmic Engineer\nDraedon", "寰宇神匠\n嘉登");
                 QuickTranslate(typeof(DragonfollyIntroScreen), "get_TextToDisplay", "Failed Experiment\nThe Dragonfolly", "失败实验体\n痴愚金龙");
                 QuickTranslate(typeof(DreadnautilusIntroScreen), "get_TextToDisplay", "Nightmare of the Blood Moon\nDreadnautilus", "血月之魇\n恐惧鹦鹉螺");
@@ -181,7 +181,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(EyeOfCthulhuIntroScreen), "get_TextToDisplay", "Demonic Seer\nThe Eye of Cthulhu", "恶魔注视者\n克苏鲁之眼");
                 //QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "NUMBER ! SALSMAN\n[Circa 1997]", "");
                 QuickTranslate(typeof(GreatSandSharkIntroScreen), "get_TextToDisplay", "Taurus\nThe Great Sand Shark", "托勒斯\n旱海狂鲨");
-                QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "The Ancient Idol\nGolem", "远古神像\n石巨人");
+                QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "The Ancient Idol\nGolem", "古代神像\n石巨人");
                 QuickTranslate(typeof(HiveMindIntroScreen), "get_TextToDisplay", "Collective Growth\nThe Hive Mind", "群生恶瘤\n腐巢意志");
                 QuickTranslate(typeof(KingSlimeIntroScreen), "get_TextToDisplay", "Monarch of the Gelatinous\nKing Slime", "凝胶君主\n史莱姆王");
                 QuickTranslate(typeof(LeviathanIntroScreen), "get_TextToDisplay", "Timeworn Beast\nThe Leviathan", "远古野兽\n利维坦");
@@ -209,8 +209,10 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(TwinsIntroScreen), "get_TextToDisplay", "Mechanical Observers\nRetinazer and Spazmatism", "机械观察者\n双子魔眼");
                 QuickTranslate(typeof(WoFIntroScreen), "get_TextToDisplay", "Hungering Conglomeration\nThe Wall of Flesh", "饥饿聚合体\n血肉墙");
                 //当前字体文件没“犽”字，悲
-                QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Grand\nYharon", "傲慢的\n丛林龙 牙戎");
-                QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Unwavering Guardian\nYharon", "忠诚护卫\n丛林龙 牙戎");
+                QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Grand\nYharon", "傲慢的\nYharon");
+                QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Unwavering Guardian\nYharon", "忠诚护卫\nYharon");
+                //成年幻海妖龙
+                QuickTranslate(typeof(AEWIntroScreen), "get_TextToDisplay", "Primeval Warden\nThe Eidolon Wyrm", "始渊守卫\n成年幻海妖龙");
             }
             
             //QuickTranslate(typeof(), "", "", "");
