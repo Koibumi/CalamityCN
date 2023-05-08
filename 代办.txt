@@ -39,3 +39,576 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
     0: Scopes Require Visibility to Zoom
     1: Could not locate where player is set to have a scope equipped.
   }
+
+---------炼狱
+"System.Void InfernumMode.Utilities::DoInfiniteFlightCheck(Terraria.Player,Microsoft.Xna.Framework.Color)":
+      [
+        Infinite flight granted!
+      ]
+
+ "System.Void InfernumMode.Core.ILEditingStuff.ChangeCalCloneNameHook::ChangeName(.NPC+orig_DoDeathEvents_DropBossPotionsAndHearts,Terraria.NPC,System.String&)":
+      [
+        The Forgotten Shadow of Calamitas
+      ]
+      "System.Void InfernumMode.Core.GlobalInstances.GlobalNPCOverrides::ModifyTypeName(Terraria.NPC,System.String&)":
+      [
+        The Forgotten Shadow of Calamitas
+        Forgotten Shadow of Cataclysm
+        Forgotten Shadow of Catastrophe
+      ]
+
+"System.Void InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem::UndoBarChanges()":
+      [
+        Dark Energy
+      ]
+
+"System.Void InfernumMode.Core.GlobalInstances.Players.CyberneticImmortalityPlayer::ToggleImmortality()":
+      [
+        "Cybernetic immortality has been "
+        disabled
+        enabled
+      ]
+
+ "System.Collections.Generic.Dictionary`2<> InfernumMode.Core.GlobalInstances.GlobalItems.TooltipChangeGlobalItem::get_EnrageTooltipReplacements()":
+      [
+        Enrages outside of the Mushroom biome
+        
+          '''
+          Enrages outside of the Corruption
+          '''
+        
+          '''
+          Enrages outside of the Crimson
+          '''
+        Enrages outside of the Corruption
+        Enrages outside of the Crimson
+        Enrages outside of the waters of the Sulphurous Sea
+        Enrages outside of the Underground Jungle
+        Enrages outside of the Underground
+      ]
+      "System.Void InfernumMode.Core.GlobalInstances.GlobalItems.TooltipChangeGlobalItem::ModifyTooltips(Terraria.Item,System.Collections.Generic.List`1<>)":
+      [
+        
+          '''
+          Summons the Moon Lord immediately
+          Creates an arena at the player's position
+          Not consumable.
+          '''
+        Tooltip0
+        Summons the Profaned Guardians when used in the profaned garden at the far right of the underworld
+        Tooltip1
+        Warning
+        
+          '''
+          Your world does not currently have a Profaned Garden. Kill the Moon Lord again to generate it
+          Be sure to grab the Hell schematic first if you do this, as the garden might destroy the lab
+          '''
+        Tooltip1
+        Summons the Forgotten Shadow of Calamitas when used during nighttime
+        Tooltip1
+        Summons Providence when used at the alter in the profaned temple at the far right of the underworld
+        Tooltip1
+        CVWarning
+        The Ceaseless Void can only be fought in the Archives
+        
+          '''
+          Summons Golem when used at the Lihzhard Altar
+          Golem summons a rectangular arena around the altar
+          If the altar is inside of the temple solid tiles within the arena are broken
+          '''
+        Tooltip0
+        Opens a portal to the Lost Colosseum
+        Your world does not currently have a Lost Gateway. Kill the Lunatic Cultist again to generate it.
+        Developer
+        ":~ Developer Item ~]"
+      ]
+      "System.Void InfernumMode.Core.GlobalInstances.GlobalItems.TooltipChangeGlobalItem::EditEnrageTooltips(Terraria.Item,System.Collections.Generic.List`1<>)":
+      [
+        enrage
+      ]
+      "System.Boolean InfernumMode.Core.GlobalInstances.GlobalItems.UseRestrictionGlobalItem::DisplayTeleportDenialText(Terraria.Player,Microsoft.Xna.Framework.Vector2,Terraria.Item,System.Boolean)":
+      [
+        YOU CANNOT EVADE ME SO EASILY!
+        YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!
+        NOT SO FAST!
+        It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!
+        The profaned magic seems to be blocking your Rod of Discord!
+      ]
+      "System.Nullable`1<> InfernumMode.Core.GlobalInstances.GlobalItems.UseRestrictionGlobalItem::UseItem(Terraria.Item,Terraria.Player)":
+      [
+        The pressure is too strong to escape!
+      ]
+
+
+ "System.Void InfernumMode.Content.WorldGeneration.EggShrineGeneration::Generate(Terraria.WorldBuilding.GenerationProgress,Terraria.IO.GameConfiguration)":
+      [
+        Hiding eggs...
+      ]
+
+       "System.Void InfernumMode.Content.WorldGeneration.TabletPedestalGeneration::Generate(Terraria.WorldBuilding.GenerationProgress,Terraria.IO.GameConfiguration)":
+      [
+        Placing a tablet...
+        TabletPedestal
+      ]
+
+ "System.Void InfernumMode.Content.UI.GuardiansPlaqueUIManager::Draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)":
+      [
+        Three disciples. One mind. One deity. One purpose. Tempered by the holy flames of Providence, an ancient artifact is crystalized, with the sole purpose of initiating the Ritual at the cliff of this Temple.
+        ancient artifact
+        ancient artifact
+        ancient artifact
+      ]
+"System.Void InfernumMode.Content.UI.GuardiansPlaqueUIManager::DrawTextLine(System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteBatch)":
+      [
+        ancient artifact
+        Profaned Shard
+      ]
+      "System.String InfernumMode.Content.UI.InfernumDifficulty::get_ExpandedDescription()":
+      [
+        
+          '''
+          [c/B32E81:Many major foes will be different, having more challenging AI.] 
+          [c/B32E81:Adrenaline takes considerably longer to charge.] 
+          [c/FF0055:Adaptability is imperative.]
+          '''
+      ]
+
+  "System.Void InfernumMode.Content.UI.InfernumDifficulty::.ctor()":
+      [
+        Infernum
+        
+          '''
+          [c/B32E81:A distinct challenge for those who seek something vastly different yet also more demanding than Death mode.]
+          [c/B32E81:This mode does not work with Master or the For the Worthy seed.]
+          '''
+        Mods.InfernumMode.InfernumText
+        Mods.InfernumMode.InfernumText2
+      ]
+      "System.Int32 InfernumMode.Content.UI.InfernumDifficulty::FavoredDifficultyAtTier(System.Int32)":
+      [
+        Death
+      ]
+
+   "System.Void InfernumMode.Content.UI.InfernumDraedonDialog::DisplayTextSelectionOptions(Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Vector2)":
+      [
+        Unfinished
+      ]
+      "System.Void InfernumMode.Content.UI.InfernumUIAchievementListItem::DrawSelf(Microsoft.Xna.Framework.Graphics.SpriteBatch)":
+      [
+        Spazmatism
+        Moon Lord Core
+        Guardian Commander
+        The Twins
+        Moon Lord
+        Profaned Guardians
+        "Next: "
+      ]
+
+  "System.Void InfernumMode.Content.Tiles.EggSwordShrine::KillTile(System.Int32,System.Int32,System.Boolean&,System.Boolean&,System.Boolean&)":
+      [
+        The eggs reject your attempt at claiming the blade!
+      ]
+
+ "System.String InfernumMode.Content.MainMenu.InfernumMainMenu::get_DisplayName()":
+      [
+        Infernum Style
+      ]
+
+ "System.Boolean InfernumMode.Content.Items.SakuraBud::PreDrawTooltipLine(Terraria.ModLoader.DrawableTooltipLine,System.Int32&)":
+      [
+        You feel
+        "You feel a "
+        guiding spirit
+        " trying to lead you the bloom’s home"
+        Maybe you
+        "The spirit is trying to draw your attention to the "
+        water
+        Maybe you should follow its call?
+      ]
+
+      "System.Boolean InfernumMode.Content.Items.Weapons.Magic.IllusionersReverie::PreDrawTooltipLine(Terraria.ModLoader.DrawableTooltipLine,System.Int32&)":
+      [
+        Tooltip1
+        "An "
+        noiseIntensity
+        horizontalDisplacementFactor
+        "incomprehensibly "
+        old tome. Somehow, in spite of its supposed age, it appears to be completely unscathed
+        Tooltip2
+      ]
+
+ "System.Void InfernumMode.Content.Items.Pets.RisingWarriorsSoulstone::.cctor()":
+      [
+        Thought you could keep me away? Think again!
+        Huzzah! I return.
+        WOW it smells dusty inside that tablet...
+        Be careful with me, I'm a special little guy.
+        Back at last! Time to wreak havoc once more!
+        Gamers don't die, they respawn.
+        Weh!
+        It's a beautiful day outside. Birds are singing, flowers are blooming...
+        Wanna come pick flowers with me?
+        Hey, where do you keep your explosives?
+        What a boring day.
+        Come on! Let's do something FUN!
+        What's next on the agenda, compadre?
+        Sparkle sparkle!
+        Heh, this'll be over quick.
+        Don't die this time, alright?
+        Back so soon?
+        If you lose this time, I'll eat all your furniture. That's a threat.
+        Don't forget potions!
+        If you die on purpose, I'll give you a twenty.
+        Keh, this'll be a breeze!
+        Go forth. Make me proud.
+        Show us how it's done, big shot.
+        Remember, fallgodding is ALWAYS an option!
+        Hey now...
+        WEH?
+        Affections!
+        Wait, don't stop...
+      ]
+
+"System.String InfernumMode.Content.Items.LoreItems.KnowledgeBereftVassal::get_Lore()":
+      [
+        
+          '''
+          An unusal pair of solitary camaraderie.
+          Once a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.
+          Without purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.
+          Fates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.
+          '''
+      ]
+
+ "System.Boolean InfernumMode.Content.Items.Accessories.SakuraBloom::PreDrawTooltipLine(Terraria.ModLoader.DrawableTooltipLine,System.Int32&)":
+      [
+        A symbol of how beautiful love is when in bloom, and how easily it can wither away
+        "A symbol of how beautiful "
+        love
+        " is when it’s in bloom, and yet how easily it can wither away"
+        Temporary
+        "Maybe with this, we can hold onto the "
+        memories
+      ]
+
+
+      "System.String InfernumMode.Content.BossIntroScreens.TerminusIntroScreen::get_TextToDisplay()":
+      [
+        You found the Terminus!
+      ]
+
+
+       "System.String InfernumMode.Content.BossBars.BossBarManager::get_DisplayName()":
+      [
+        Infernum Mod
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.Yharon.YharonBehaviorOverride::DisplayAEWNotificationText(Terraria.NPC)":
+      [
+        A primordial light shimmers at the nadir of the abyssal depths...
+      ]
+
+       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.QueenSlime.QueenSlimeBehaviorOverride::DoBehavior_CrystalMaze(Terraria.NPC,Terraria.Player,System.Boolean,System.Single&,System.Single&,System.Single&)":
+      [
+        Those crystals are equally spaced... seems like you can dodge them the same way consistently!
+      ]
+
+
+      System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.Providence.ProvidenceBehaviorOverride::DoBehavior_EnterFireFormBulletHell(Terraria.NPC,Terraria.Player,Microsoft.Xna.Framework.Vector2,System.Single,System.Int32,System.Int32,System.Single&,System.Single&)":
+      [
+        Lava is rising from below!
+      ]
+
+       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.Providence.ProvidenceBehaviorOverride::DoBehavior_CleansingFireballBombardment(Terraria.NPC,Terraria.Player,System.Single,System.Int32,System.Int32,System.Single&)":
+      [
+        Those fireballs seem to only explode if they hit lava, you should probably bait them away!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.Providence.ProvidenceBehaviorOverride::DoBehavior_EnterHolyMagicForm(Terraria.NPC,Terraria.Player,System.Int32,System.Int32,System.Single&)":
+      [
+        It looks like Providence is preparing something!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.Providence.ProvidenceBehaviorOverride::DoBehavior_FinalPhaseRadianceBursts(Terraria.NPC,Terraria.Player,Microsoft.Xna.Framework.Vector2,System.Int32,System.Int32,System.Single&,System.Single&)":
+      [
+        The lava is rising, get to higher ground!
+        Who opened the faucets again?!
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.ProfanedGuardians.DefenderGuardianBehaviorOverride::DoBehavior_DefenderYeetEffects(Terraria.NPC,Terraria.Player,System.Single&,Terraria.NPC)":
+      [
+        whitening
+        Ohhh, he's really mad now! Stay on your toes!
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.ProfanedGuardians.GuardianComboAttackManager::DoBehavior_FlappyBird(Terraria.NPC,Terraria.Player,System.Single&,Terraria.NPC)":
+      [
+        They've holed themselves up on the right, but if you get there you can probably breach their defenses!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.ProfanedGuardians.GuardianComboAttackManager::DoBehavior_HealerDeathAnimation(Terraria.NPC,Terraria.Player,System.Single&,Terraria.NPC)":
+      [
+        It's getting physical now! Don't let one distract you from the other!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.ProfanedGuardians.GuardianComboAttackManager::DoBehavior_FireballBulletHell(Terraria.NPC,Terraria.Player,System.Single&,Terraria.NPC)":
+      [
+        Try ramming into the defender!
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.ProfanedGuardians.HealerShieldCrystal::DoBehavior_Shatter(Terraria.Player)":
+      [
+        They're a really good team! You'll want to manage everything at once, taking it slow is your best shot!
+        ProvidenceDoor
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.MoonLord.MoonLordCoreBehaviorOverride::GenerateProfanedTempleIfNecessary(Terraria.NPC)":
+      [
+        A profaned shrine has erupted from the ashes at the underworld's edge!
+      ]
+
+
+       "System.Boolean InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon.ComboAttacks.ExoMechComboAttackContent::ShouldSelectComboAttack(Terraria.NPC,.ExoMechComboAttackType&)":
+      [
+        Seems like they are combining efforts, beware!
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist.CultistBehaviorOverride::GenerateColosseumEntranceIfNecessary(Terraria.NPC)":
+      [
+        Mysterious ruins have materialized in the heart of the desert!
+      ]
+      "System.Boolean InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist.CultistBehaviorOverride::PreAI(Terraria.NPC)":
+      [
+        " was repelled by celestial forces."
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CeaselessVoid.CeaselessVoidBehaviorOverride::DoBehavior_DarkEnergySwirl(Terraria.NPC,System.Boolean,System.Boolean,Terraria.Player,System.Single&)":
+      [
+        Stay calm and circle! Don't lose focus!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CeaselessVoid.CeaselessVoidBehaviorOverride::DoBehavior_RedirectingAcceleratingDarkEnergy(Terraria.NPC,Terraria.Player,System.Boolean,System.Single&)":
+      [
+        Those blobs seem to spin in a spiral! Spin with them!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CeaselessVoid.CeaselessVoidBehaviorOverride::DoBehavior_AreaDenialVortexTears(Terraria.NPC,Terraria.Player,System.Boolean,System.Single&)":
+      [
+        Those portals are preparing something! Get near the void, quickly!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CeaselessVoid.CeaselessVoidBehaviorOverride::DoBehavior_ShellCrack(Terraria.NPC,Terraria.Player,System.Single&,System.Single&)":
+      [
+        CeaselessVoidFragment
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CeaselessVoid.CeaselessVoidBehaviorOverride::DoBehavior_DarkEnergyTorrent(Terraria.NPC,Terraria.Player,System.Single&)":
+      [
+        That thing is releasing so much energy! Try to get to the edge and move up and down to weave through it!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CeaselessVoid.CeaselessVoidBehaviorOverride::DoBehavior_ChainBreakTransition(Terraria.NPC,Terraria.Player,System.Single&)":
+      [
+        Those chains wont seem to hold it much longer, brace yourself!
+        InfernumMode:ScreenDistortion
+        distortionAmount
+        wiggleSpeed
+      ]
+
+       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow.CalamitasShadowBehaviorOverride::DoBehavior_BrothersPhase(Terraria.NPC,Terraria.Player,System.Boolean,System.Single&,System.Single&,System.Single&,System.Single&)":
+      [
+        "Destroy "
+        her
+        him
+        ", my brothers."
+      ]
+
+       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow.CalamitasShadowBehaviorOverride::DoBehavior_TransitionToFinalPhase(Terraria.NPC,Terraria.Player,System.Single&,System.Single&,System.Single&,System.Single&)":
+      [
+        I'm just getting started!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow.CalamitasShadowBehaviorOverride::DoBehavior_DeathAnimation(Terraria.NPC,Terraria.Player,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)":
+      [
+        I'm not done yet! Brace yourself for my strongest hex!
+        Oh.
+        CalamitasClone
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.AquaticScourge.AquaticScourgeHeadBehaviorOverride::DoBehavior_SpawnAnimation(Terraria.NPC,Terraria.Player,System.Single&)":
+      [
+        That bleach bubble looks like a good place to recover from the acidic water!
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.AquaticScourge.AquaticScourgeHeadBehaviorOverride::DoBehavior_WallHitCharges(Terraria.NPC,Terraria.Player,System.Boolean,System.Boolean,System.Single&)":
+      [
+        Bonk!
+      ]
+
+       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.AquaticScourge.AquaticScourgeHeadBehaviorOverride::DoBehavior_EnterFinalPhase(Terraria.NPC,Terraria.Player,System.Single&,System.Single&)":
+      [
+        A deluge of acid is quickly rising from below!
+        The water is almost boiling, I'd surface unless you want to become fried human!
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.AquaticScourge.AquaticScourgeHeadBehaviorOverride::DoBehavior_SulphurousTyphoon(Terraria.NPC,Terraria.Player,System.Single&)":
+      [
+        Looks like that's not all this serpent could do, we gotta skeddadle!
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.AbyssAIs.DepthFeeder::SetBestiary(Terraria.GameContent.Bestiary.BestiaryDatabase,Terraria.GameContent.Bestiary.BestiaryEntry)":
+      [
+        Even in the overwhelmingly hostile environment of the Abyss, ecosystems may flourish.
+      ]
+
+      "System.Void InfernumMode.Content.BehaviorOverrides.AbyssAIs.Herring::SetBestiary(Terraria.GameContent.Bestiary.BestiaryDatabase,Terraria.GameContent.Bestiary.BestiaryEntry)":
+      [
+        Unusually hardy, these creatures somehow flourish in the toxic upper abyssal caverns. Regardless, they are at the bottom of the food chain.
+      ]
+      "System.Void InfernumMode.Content.BehaviorOverrides.AbyssAIs.LionfishEnemy::SetBestiary(Terraria.GameContent.Bestiary.BestiaryDatabase,Terraria.GameContent.Bestiary.BestiaryEntry)":
+      [
+        These rugged fish are seldom hunted in their natural habitats, relying heavily on their venomous spines for both offense and defense.
+      ]
+
+       "System.Void InfernumMode.Content.Achievements.DevWishes.BlahajWish::Initialize()":
+      [
+        Benevolent Force
+        
+          '''
+          Warm hugs
+          [c/777777:Defeat Infernum Duke Fishron in under 1 minute]
+          '
+
+          "System.Void InfernumMode.Content.Achievements.DevWishes.CrescentWish::Initialize()":
+      [
+        Post-apocalyptic
+        
+          '''
+          The witch's sins could never be fully atoned
+          [c/777777:Defeat the Forgotten Shadow of Calamitas in the underworld]
+          '''
+      ]
+
+       "System.Void InfernumMode.Content.Achievements.DevWishes.EggWish::Initialize()":
+      [
+        The Chosen One
+        
+          '''
+          Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within
+          [c/777777:Find an egg sword shrine after defeating Golem]
+          '''
+      ]
+
+       "System.Void InfernumMode.Content.Achievements.DevWishes.MatrixWish::Initialize()":
+      [
+        The Scientific Method
+        
+          '''
+          To experiment is to fail. To fail is to learn. To learn is to advance
+          [c/777777:Defeat every single boss and Exo Mech combination]
+          '''
+      ]
+
+      "System.Void InfernumMode.Content.Achievements.DevWishes.NightmareWish::Initialize()":
+      [
+        It Awakens
+        
+          '''
+          It demands a sacrifice. You seem like a good choice
+          '''
+        " seconds]"
+      ]
+
+      "System.Void InfernumMode.Content.Achievements.DevWishes.PurityWish::Initialize()":
+      [
+        The Tanning Starseed
+        
+          '''
+          It feels like solar winds, and solar chimes
+          [c/777777:Defeat Infernum Night Providence in under 3.5 minutes]
+          '''
+      ]
+       "System.Void InfernumMode.Content.Achievements.DevWishes.SakuraWish::Initialize()":
+      [
+        Innocent Breeze
+        
+          '''
+          One hundred whimsical spirits, dancing playfully
+          [c/777777:Find a Sakura Bud]
+          '''
+      ]
+
+       "System.Void InfernumMode.Content.Achievements.DevWishes.StormMaidenWish::Initialize()":
+      [
+        Lamentation
+        
+          '''
+          Their tears blend with the raindrops, mourning over all that couldn't be
+          [c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]
+          '''
+      ]
+
+      "System.Void InfernumMode.Content.Achievements.DevWishes.TabletWish::Initialize()":
+      [
+        Unsullied
+        
+          '''
+          Not all beasts are monsters
+          [c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]
+          '''
+      ]
+       "System.Void InfernumMode.Content.Achievements.DevWishes.TophatWish::Initialize()":
+      [
+        Amazingly Asinine Assistant
+        
+          '''
+          You're improving with every failure! Keep going!
+          [c/777777:Have 3 deaths in a row to a boss]
+          '''
+      ]
+
+      "System.Void InfernumMode.Content.Projectiles.HyperplaneMatrixProjectile::DoBehavior_InitialShake()":
+      [
+        " was blown up."
+      ]
+
+       "System.Void InfernumMode.Content.Projectiles.HyperplaneMatrixProjectile::.ctor()":
+      [
+        Toggle cybernetic immortality
+        Toggle physics defiance flying
+        Accelerate time until sunrise
+        Accelerate time until noon
+        Accelerate time until sunset
+        Atomize every single hostile NPC
+      ]
+
+      "System.Void InfernumMode.Common.Graphics.Primitives.Primitive3DStrip::.ctor(.Primitive3DStrip+VertexHeightFunction,.Primitive3DStrip+VertexColorFunction)":
+      [
+        "In order to create a primitive 3D strip, a non-null "
+        color
+        height
+        " function must be specified."
+      ]
+
+       "System.Void InfernumMode.Common.Graphics.Primitives.PrimitiveTrailCopy::.ctor(.PrimitiveTrailCopy+VertexWidthFunction,.PrimitiveTrailCopy+VertexColorFunction,.PrimitiveTrailCopy+VertexOffsetFunction,System.Boolean,Terraria.Graphics.Shaders.MiscShaderData)":
+      [
+        "In order to create a primitive trail, a non-null "
+        color
+        width
+        " function must be specified."
+      ]
+
+       "System.Void InfernumMode.Common.Graphics.AttemptRecording.ScreenCapturer::CreateGif(System.Threading.CancellationToken)":
+      [
+        
+          '''
+          The weird files stored here are compressed .GIF files. These are created and used by InfernumMode, and are decompressed when needed by the mod.
+          If you wish to verify this, you can extract the mod in-game and check out 'InfernumMode/Common/Graphics/AttemptRecording/ScreenCapturer'.
+          Be aware it may spoil you if you have not completed the mod yet.
+          You can also safely delete any of these files without breaking anything, if you wish to not have the space taken up. - Toasty
+          '''
+        .compgif
+      ]
+
+
+    "System.Void InfernumMode.Content.Achievements.Achievement::WishCompletionEffects(Terraria.Player,System.Int32)":
+		{
+			AchievementsNotificationTracker.AddAchievementAsCompleted(this);
+			Main.NewText("Dev Wish Completed! [c/ff884d:" + this.Name + "]", byte.MaxValue, byte.MaxValue, byte.MaxValue);
+			SoundEngine.PlaySound(ref InfernumSoundRegistry.InfernumAchievementCompletionSound, null);
+			player.QuickSpawnItem(Entity.GetSource_None(), assosiatedItemType, 1);
+		}
+
+    "System.Void InfernumMode.Content.Achievements.DevWishes.NightmareWish::Initialize()":
+      [
+        "[c/777777:Sleep in the brimstone crags for "
+      ]

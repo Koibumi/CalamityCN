@@ -144,7 +144,7 @@ namespace CalamityCN.Translations.InfernumMode
 					{
 						Main.combatText[index].text = LangHelper.GetText("InfernumMode.CombatTexts.90");
 					}
-					if (Main.combatText[index].text.Equals("The Scourge will stop at nothing to snack on you! Stay on the move!"))
+					if (Main.combatText[index].text.Equals("That bleach bubble looks like a good place to recover from the acidic water!"))
 					{
 						Main.combatText[index].text = LangHelper.GetText("InfernumMode.CombatTexts.51");
 					}

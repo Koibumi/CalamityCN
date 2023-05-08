@@ -75,11 +75,16 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Go on. Continue feeding information to my machines.", "继续吧，向我的机械输送更多信息。");
             string[][] DBOHDS = new string[][] {
                new string [2] {"Intriguing. Truly, intriguing.", "有趣，十分有趣。"},
+               new string [2] {"You have been an excellent test subject.", "You have been an excellent test subject."},
                new string [2] {"My magnum opera, truly and utterly defeated.", "我引以为傲的杰作，彻底失败了。"},
+               new string [2] {"The data I have acquired from your combat has been invaluable.", "The data I have acquired from your combat has been invaluable."},
                new string [2] {"This outcome was not what I had expected.", "这也非是我预期中的结果。"},
+               new string [2] {"...Perhaps, I may be able to grant you a reward for your time.", "...Perhaps, I may be able to grant you a reward for your time."},
                new string [2] {"...Excuse my introspection. I must gather my thoughts after that display.", "……很抱歉，但在看了这样一场“展示”之后，我必须得花点时间整理我的思绪。"},
                new string [2] {"It is perhaps not irrational to infer that you are beyond my reasoning.", "分析你的行为已超出了我的计算能力，但这也许并不荒谬。"},
+               new string [2] {"My most useful creation. I'm sure you will find some use for it.", "My most useful creation. I'm sure you will find some use for it."},
                new string [2] {"Now.", "现在。"},
+               new string [2] {"Use it wisely.", "Use it wisely."},
                new string [2] {"You would wish to reach the Tyrant. I cannot assist you in that.", "你想要接触那位暴君。可惜我无法帮到你。"},
                new string [2] {"It is not a matter of spite, for I would wish nothing more than to observe such a conflict.", "这并非出自怨恨，毕竟从一开始，我的目标就只有观察刚才的这一场战斗。"},
                new string [2] {"But now, I must return to my machinery. You may use the Codebreaker if you wish to face my creations once again.", "但现在，我得把注意力放回到我的机械上了。如果你想再次面对我的造物，就使用密码破译器吧。"},
@@ -163,7 +168,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(BereftVassalIntroScreen), "get_TextToDisplay", "Argus\nThe Bereft Vassal", "阿尔戈斯\n无邦封臣");
                 QuickTranslate(typeof(BrainOfCthulhuIntroScreen), "get_TextToDisplay", "Eldritch Mind\nThe Brain of Cthulhu", "邪神思维\n克苏鲁之脑");
                 QuickTranslate(typeof(BrimstoneElementalIntroScreen), "get_TextToDisplay", "Scarred Numen\nThe Brimstone Elemental", "受创守护神\n硫磺火元素");
-                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Clone", "虚假女巫\n灾厄之影");
+                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Shadow", "虚假女巫\n灾厄之影");
                 QuickTranslate(typeof(CeaselessVoidIntroScreen), "get_TextToDisplay", "The Never-Ending\nCeaseless Void", "永无止境\n无尽虚空");
                 QuickTranslate(typeof(CrabulonIntroScreen), "get_TextToDisplay", "The Reanimated Carcass\nCrabulon", "复生死尸\n菌生蟹");
                 QuickTranslate(typeof(CryogenIntroScreen), "get_TextToDisplay", "The Unstable Prison\nCryogen", "崩摧监牢\n极地之灵");
@@ -173,7 +178,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(DestroyerIntroScreen), "get_TextToDisplay", "World Excavator\nThe Destroyer", "世界挖掘者\n毁灭者");
                 QuickTranslate(typeof(DoGIntroScreen), "get_TextToDisplay", "The Conceited\nDevourer of Gods", "自命不凡\n神明吞噬者");
                 QuickTranslate(typeof(DraedonIntroScreen), "get_TextToDisplay", "The Cosmic Engineer\nDraedon", "寰宇神匠\n嘉登");
-                QuickTranslate(typeof(DragonfollyIntroScreen), "get_TextToDisplay", "Failed Experiment\nThe Dragonfolly", "失败实验体\n痴愚金龙");
+                QuickTranslate(typeof(DragonfollyIntroScreen), "get_TextToDisplay", "False Offspring\nThe Dragonfolly", "False Offspring\n痴愚金龙");
                 QuickTranslate(typeof(DreadnautilusIntroScreen), "get_TextToDisplay", "Nightmare of the Blood Moon\nDreadnautilus", "血月之魇\n恐惧鹦鹉螺");
                 QuickTranslate(typeof(DukeFishronIntroScreen), "get_TextToDisplay", "Terror of the Seas\nDuke Fishron", "海洋之惧\n猪龙鱼公爵");
                 QuickTranslate(typeof(EaterOfWorldsIntroScreen), "get_TextToDisplay", "Terror of the Corruption\nThe Eater of Worlds", "腐化之惧\n世界吞噬者");
@@ -188,7 +193,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(MoonLordIntroScreen), "get_TextToDisplay", "Eldritch Remains\nThe Moon Lord", "暗神遗骸\n月亮领主");
                 QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Speed Demon\nThe Old Duke", "冲刺恶魔\n硫海遗爵");
                 QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Sulphuric Terror\nThe Old Duke", "硫海之惧\n硫海遗爵");
-                QuickTranslate(typeof(PBGIntroScreen), "get_TextToDisplay", "Infected Insectoid\nThe Plaguebringer Goliath", "感染昆虫\n瘟疫使者歌莉娅");
+                QuickTranslate(typeof(PBGIntroScreen), "get_TextToDisplay", "Biomechanical Colossus\nThe Plaguebringer Goliath", "Biomechanical Colossus\n瘟疫使者歌莉娅");
                 QuickTranslate(typeof(PerforatorHiveIntroScreen), "get_TextToDisplay", "Bloodied Parasites\nThe Perforators", "血殁寄生者\n血肉宿主");
                 QuickTranslate(typeof(PlanteraIntroScreen), "get_TextToDisplay", "The Overgrowth\nPlantera", "繁茂丛生\n世纪之花");
                 QuickTranslate(typeof(PolterghastIntroScreen), "get_TextToDisplay", "Wrathful Coalescence\nThe Polterghast", "怨念融合体\n噬魂幽花");
@@ -196,7 +201,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(ProfanedTempleIntroScreen), "get_TextToDisplay", "Cleansed Site\nThe Profaned Garden", "圣洁之地\n亵渎花园");
                 QuickTranslate(typeof(ProvidenceIntroScreen), "get_TextToDisplay", "The Blaze of Purity\nProvidence", "圣洁之焰\n亵渎天神 普罗维登斯");
                 QuickTranslate(typeof(ProvidenceIntroScreen), "get_TextToDisplay", "The Blaze of Absolution\nProvidence", "赦罪之焰\n亵渎天神 普罗维登斯");
-                QuickTranslate(typeof(QueenBeeIntroScreen), "get_TextToDisplay", "Oversized Insect\nQueen Bee", "巨型昆虫\n蜂王");
+                QuickTranslate(typeof(QueenBeeIntroScreen), "get_TextToDisplay", "Hive Matriarch\nQueen Bee", "Hive Matriarch\n蜂王");
                 QuickTranslate(typeof(QueenSlimeIntroScreen), "get_TextToDisplay", "Hallowed Mass\nThe Queen Slime", "神圣聚群\n史莱姆皇后");
                 QuickTranslate(typeof(RavagerIntroScreen), "get_TextToDisplay", "The Fortress of Flesh\nRavager", "血肉堡垒\n毁灭魔像");
                 QuickTranslate(typeof(SCalIntroScreen), "get_TextToDisplay", "The Brimstone Witch\nCalamitas", "硫火女巫\n至尊灾厄");
@@ -206,7 +211,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(SlimeGodIntroScreen), "get_TextToDisplay", "Primordial Formation\nThe Slime God", "原初之构\n史莱姆之神");
                 QuickTranslate(typeof(StormWeaverIntroScreen), "get_TextToDisplay", "Atmospheric Predator\nThe Storm Weaver", "大气捕食者\n风暴编织者");
                 QuickTranslate(typeof(ThanatosIntroScreen), "get_TextToDisplay", "The Perfect Annihilator\nThanatos", "完美歼灭者\n塔纳托斯");
-                QuickTranslate(typeof(TwinsIntroScreen), "get_TextToDisplay", "Mechanical Observers\nRetinazer and Spazmatism", "机械观察者\n双子魔眼");
+                QuickTranslate(typeof(TwinsIntroScreen), "get_TextToDisplay", "Mechanical Observers\nThe Twins", "机械观察者\n双子魔眼");
                 QuickTranslate(typeof(WoFIntroScreen), "get_TextToDisplay", "Hungering Conglomeration\nThe Wall of Flesh", "饥饿聚合体\n血肉墙");
                 //当前字体文件没“犽”字，悲
                 QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Grand\nYharon", "傲慢的\nYharon");
