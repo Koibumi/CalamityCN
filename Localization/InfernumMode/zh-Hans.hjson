@@ -128,10 +128,10 @@
       BereftVassalBossBag: "{$CommonItemTooltip.RightClickToOpen}"
       BrimstoneCrescentStaff:
         '''
-        Using the staff toggles a powerful forcefield that provides a universal 66% DR
-        Hits that are applied to you while the forcefield is up release a violent explosion that hurts nearby enemies
-        When the forcefield is activated, and for 15 seconds afterwards, your damage output is reduced by 67%
-        The forcefield breaks after 3 hits. After it breaks, you cannot recreate it until 15 seconds have passed
+        使用法杖可生成一个强大的立场，其会提供独立的66%伤害减免
+        立场存在时，受击将会触发强力的爆炸以伤害敌人
+        立场存在期间和消失后15秒内，你的伤害减少67%
+        立场在三次受击后破碎。破碎后15秒内无法再次生成立场
         '''
       DemonicChaliceOfInfernum: ""
       ProfanedCrystalDye: ""
@@ -253,7 +253,7 @@
       EvokingSearune:
         '''
         在深渊底层召唤成年幻海妖龙
-        据说是由原初之神所创造的远古神器，它可以用来召唤一个幽灵守卫
+        据说是由原初之神所创造的远古神器，它用于召唤一个幽灵守卫
         不消耗
         '''
       FleshChunk:
@@ -959,7 +959,7 @@
     NPCName:
     {
       ColossalSquidTentacle: 触手
-      DepthFeeder: Depth Feeder
+      DepthFeeder: 深水饵鱼
       Herring: 鲱鱼
       LionfishEnemy: 狮子鱼
       DeusSpawn: 大白金
@@ -1009,7 +1009,7 @@
       IndignationHex: Hex of Indignation
       Madness: 精神失常
       ShadowflameInferno: 暗影狱火
-      SheepGodBuff: Sheep God
+      SheepGodBuff: 绵羊之神
       Sleepy: Sleepy
       WeaknessHex: Hex of Weakness
       ZealHex: Hex of Zeal
@@ -1022,15 +1022,15 @@
       BrimstoneBarrier: Your magic withers your weaponry at the cost of a strong magical barrier
       BrimstoneExhaustion: You cannot resummon the Brimstone Crescent Staff's forcefield
       BronzePetBuff: Did you know that you can pet the birb in Terraria?
-      CatharsisHex: Natural life regeneration is disabled and angry spirits are released from within you
-      DarkFlames: 你的身体被遗忘之火吞噬。你的防御力降低了
+      CatharsisHex: 自然生命再生被禁用，愤怒之魂从你体内释放出来
+      DarkFlames: 你的身体被遗忘之火吞噬，你的防御力降低了
       HatGirlBuff: 芳心纵火犯
-      IndignationHex: You are haunted by a soul seeker
+      IndignationHex: 你被探魂者盯上了
       Madness: 要疯了……
       ShadowflameInferno: 快速流失生命值
-      SheepGodBuff: Does the sheep count the sheep?
+      SheepGodBuff: 绵羊也会数羊吗？
       Sleepy: You are fast asleep!
-      WeaknessHex: Your defense and damage reduction is significantly weakened
+      WeaknessHex: 你的防御力和伤害减免被大幅度削弱了
       ZealHex: Your opponent's magic accelerates wildly
     }
     MapObject:
