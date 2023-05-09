@@ -7,7 +7,7 @@ namespace CalamityCN.Translations.InfernumMode
 	{
 		internal static void LoadTranslation()
 		{
-			for (int index = 0; index < 100; index++)
+			for (int index = 0; index < Main.maxCombatText; index++)
 			{
 				if (Main.combatText[index].active)
 				{
@@ -15,10 +15,14 @@ namespace CalamityCN.Translations.InfernumMode
 					{
 						Main.combatText[index].text = "没有设置魔法门！";
 					}
-					if (Main.combatText[index].text.Equals("Infernum must be enabled to enter the Colosseum!"))
+                    else if (Main.combatText[index].text.Equals("Infernum must be enabled to enter the Colosseum!"))
 					{
 						Main.combatText[index].text = "必须启用炼狱模式才能进入失落竞技场！";
 					}
+					else if (Main.combatText[index].text.Equals("Infinite flight granted!"))
+                    {
+                        Main.combatText[index].text = "Infinite flight granted!";
+                    }
 					/*
 					if (Main.combatText[index].text.Equals("Many layered platforms can help greatly to avoid the exploding Cursed Flames!"))
 					{

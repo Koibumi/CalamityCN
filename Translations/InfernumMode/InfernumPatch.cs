@@ -154,6 +154,20 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " went mad.", "发疯了。");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "A profaned shrine has erupted from the ashes at the underworld's edge!", "一座亵渎神庙从地狱边缘的灰烬中拔地而起！");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "Mysterious ruins have materialized in the heart of the desert!", "神秘的废墟出现在沙漠的中心！");
+            //超平面矩阵 CyberneticImmortality
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "");
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "enabled", "");
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "disabled", "");
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", ".", "。");
+            //禁用混沌传送杖
+            //DoG
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "");
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "");
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "NOT SO FAST!", "");
+            //DoG HatGirl
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!", "");
+            //亵渎守卫 HatGirl
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "The profaned magic seems to be blocking your Rod of Discord!", "");
             //Intro
             if (CalamityCNConfig.Instance.InfernumCNFont)
             {

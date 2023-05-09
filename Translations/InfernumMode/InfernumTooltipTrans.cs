@@ -8,6 +8,7 @@ using CalamityMod.Items.SummonItems;
 using InfernumMode.Content.Items.Relics;
 using InfernumMode.Content.Items;
 using InfernumMode.Content.Items.Pets;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow;
 
 namespace CalamityCN.Translations.InfernumMode
 {
@@ -22,10 +23,11 @@ namespace CalamityCN.Translations.InfernumMode
 		{
 			if (item.type == ModContent.ItemType<ProfanedShard>())
 			{
-				ItemHelper.ApplyTooltipEdits(item, tooltips, (Item i, TooltipLine l) => l.Text == "Summons the Profaned Guardians when used in the profaned garden at the far right of the underworld", delegate (TooltipLine tooltip)
+				//这段现在大抵是没用了（
+				/*ItemHelper.ApplyTooltipEdits(item, tooltips, (Item i, TooltipLine l) => l.Text == "Summons the Profaned Guardians when used in the profaned garden at the far right of the underworld", delegate (TooltipLine tooltip)
 				{
 					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedShard.0", Array.Empty<object>());
-				});
+				});*/
 				ItemHelper.TranslateTooltip(item, tooltips, "Warning", delegate (TooltipLine tooltip)
 				{
 					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedShard.Warning", Array.Empty<object>());
@@ -51,15 +53,27 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("Summons the Moon Lord immediately\nCreates an arena at the player's position\nNot consumable.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.Vanilla.CelestialSigil", Array.Empty<object>()));
 				}
+				if (item.type == ModContent.ItemType<ProfanedShard>())
+                {
+					line.Text = line.Text.Replace("Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld", "");
+                }
+                if (item.type == ModContent.ItemType<EyeofDesolation>())
+                {
+					line.Text = line.Text.Replace($"Summons the Forgotten Shadow of Calamitas when used during nighttime", "");
+                }
+                if (item.type == ModContent.ItemType<ProfanedCore>())
+                {
+                    line.Text = line.Text.Replace("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedCore", Array.Empty<object>()));
+                }
+                if (item.type == ModContent.ItemType<RuneofKos>())
+                {
+                    line.Text = line.Text.Replace("The Ceaseless Void can only be fought in the Archives", "");
+                }
 				if (item.type == ItemID.LihzahrdPowerCell)
 				{
 					line.Text = line.Text.Replace("\nCreates a rectangular arena around the altar. If the altar is inside of the temple solid tiles within the arena are broken", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.Vanilla.LihzahrdPowerCell", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<ProfanedCore>())
-				{
-					line.Text = line.Text.Replace("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedCore", Array.Empty<object>()));
-				}
-				if (item.type == ModContent.ItemType<ProvidenceRelic>())
+                if (item.type == ModContent.ItemType<ProvidenceRelic>())
 				{
 					line.Text = line.Text.Replace("The first major hurdle following the defeat of the Moon Lord. Your triumph over her was by no means a small feat.\nPerhaps consider fighting her again during the night for a special challenge?", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProvidenceRelic.0", Array.Empty<object>()));
 					line.Text = line.Text.Replace("Bruh? What the heck? Are you OK?\nYou were supposed to fight her at night AFTER beating her during the day first!", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProvidenceRelic.HasBeatedInfernumNightProvBeforeDay", Array.Empty<object>()));

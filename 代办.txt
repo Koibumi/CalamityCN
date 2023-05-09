@@ -150,7 +150,14 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
         Placing a tablet...
         TabletPedestal
       ]
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+摸了  ——Furgo
 
+未完成：
+普灾三兄弟名字，
+InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark Energy（？
+世界生成的提示
+------------------------------------------------------------------------------------------------------------------------------------------------------------
  "System.Void InfernumMode.Content.UI.GuardiansPlaqueUIManager::Draw(Microsoft.Xna.Framework.Graphics.SpriteBatch)":
       [
         Three disciples. One mind. One deity. One purpose. Tempered by the holy flames of Providence, an ancient artifact is crystalized, with the sole purpose of initiating the Ritual at the cliff of this Temple.
