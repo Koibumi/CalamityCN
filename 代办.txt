@@ -95,7 +95,7 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
           Not consumable.
           '''
         Tooltip0
-        Summons the Profaned Guardians when used in the profaned garden at the far right of the underworld
+        Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld
         Tooltip1
         Warning
         
