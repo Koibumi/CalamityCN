@@ -571,35 +571,6 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
         Atomize every single hostile NPC
       ]
 
-      "System.Void InfernumMode.Common.Graphics.Primitives.Primitive3DStrip::.ctor(.Primitive3DStrip+VertexHeightFunction,.Primitive3DStrip+VertexColorFunction)":
-      [
-        "In order to create a primitive 3D strip, a non-null "
-        color
-        height
-        " function must be specified."
-      ]
-
-       "System.Void InfernumMode.Common.Graphics.Primitives.PrimitiveTrailCopy::.ctor(.PrimitiveTrailCopy+VertexWidthFunction,.PrimitiveTrailCopy+VertexColorFunction,.PrimitiveTrailCopy+VertexOffsetFunction,System.Boolean,Terraria.Graphics.Shaders.MiscShaderData)":
-      [
-        "In order to create a primitive trail, a non-null "
-        color
-        width
-        " function must be specified."
-      ]
-
-       "System.Void InfernumMode.Common.Graphics.AttemptRecording.ScreenCapturer::CreateGif(System.Threading.CancellationToken)":
-      [
-        
-          '''
-          The weird files stored here are compressed .GIF files. These are created and used by InfernumMode, and are decompressed when needed by the mod.
-          If you wish to verify this, you can extract the mod in-game and check out 'InfernumMode/Common/Graphics/AttemptRecording/ScreenCapturer'.
-          Be aware it may spoil you if you have not completed the mod yet.
-          You can also safely delete any of these files without breaking anything, if you wish to not have the space taken up. - Toasty
-          '''
-        .compgif
-      ]
-
-
     "System.Void InfernumMode.Content.Achievements.Achievement::WishCompletionEffects(Terraria.Player,System.Int32)":
 		{
 			AchievementsNotificationTracker.AddAchievementAsCompleted(this);
