@@ -583,3 +583,50 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
       [
         "[c/777777:Sleep in the brimstone crags for "
       ]
+
+
+
+      ------炼狱音乐
+      "System.Void InfernumModeMusic.Projectiles.SoulDrivenHeadphonesProj::.ctor()":
+      [
+        Sky After Rain - Infernum
+        TitleScreen
+        Gelatinous Dynasty - King Slime
+        KingSlime
+        Seer of the Night - The Eye of Cthulhu
+        EyeOfCthulhu
+        Maw of the Corruption - The Eater of Worlds
+        EaterOfWorlds
+        Intellect of the Crimson - The Brain of Cthulhu
+        BrainOfCthulhu
+        Royal Retaliation - The Queen Bee
+        QueenBee
+        Warden of the Damned - Skeletron
+        Skeletron
+        One's Ending, Another's Beginning - Wall of Flesh
+        WallOfFlesh
+        Crowned before One's End - Queen Slime
+        QueenSlime
+        Inferior Fabrications - The Mechanical Trio
+        MechBosses
+        Floral Animosity - Plantera
+        Plantera
+        Razorblade Typhoon - Duke Fishron
+        DukeFishron
+        Shining Kaleidoscope - The Empress of Light
+        EmpressOfLight
+        Eidolic Ancestry - The Lunatic Cultist
+        LunaticCultist
+        Duel for a Lost Kingdom - The Bereft Vassal
+        BereftVassal
+        The End of an Olden Era - The Moon Lord
+        MoonLord
+        Inferior Fabrications (Exo Remix) - The Exo Mechs
+        ExoMechBossesOld
+        Catastrophic Fabrications - The Exo Mechs
+        ExoMechBosses
+        Their Fabricator - Draedon
+        Draedon
+        Storm Before Dawn - Infernum
+        StormBeforeDawn
+      ]
