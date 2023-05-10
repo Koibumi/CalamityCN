@@ -155,15 +155,15 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "A profaned shrine has erupted from the ashes at the underworld's edge!", "一座亵渎神庙从地狱边缘的灰烬中拔地而起！");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "Mysterious ruins have materialized in the heart of the desert!", "神秘的废墟出现在沙漠的中心！");
             //超平面矩阵 CyberneticImmortality
-            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "");
-            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "enabled", "");
-            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "disabled", "");
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "超平面矩阵已");
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "enabled", "启用");
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "disabled", "禁用");
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", ".", "。");
             //禁用混沌传送杖
             //DoG
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "");
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "");
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "NOT SO FAST!", "");
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
+            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "NOT SO FAST!", "太慢了！");
             //DoG HatGirl
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!", "");
             //亵渎守卫 HatGirl
@@ -172,7 +172,7 @@ namespace CalamityCN.Translations.InfernumMode
             if (CalamityCNConfig.Instance.InfernumCNFont)
             {
                 QuickTranslate(typeof(AnahitaIntroScreen), "get_TextToDisplay", "Forgotten Deity\nAnahita", "遗忘精灵\n阿娜希塔");
-                QuickTranslate(typeof(AquaticScourgeIntroScreen), "get_TextToDisplay", "Sulphuric Serpent\nThe Aquatic Scourge", "硫磺巨蛇\n渊海灾虫");
+                QuickTranslate(typeof(AquaticScourgeIntroScreen), "get_TextToDisplay", "Sulphuric Serpent\nThe Aquatic Scourge", "硫磺巨蟒\n渊海灾虫");
                 QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "Prediction Game Master\nAres", "预判游戏大师\n阿瑞斯");
                 QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "The Ultimate War Machine\nAres", "终极战争机器\n阿瑞斯");
                 QuickTranslate(typeof(ArtemisAndApolloIntroScreen), "get_TextToDisplay", "The Supreme Hunters\nArtemis and Apollo", "终极猎手\n阿尔忒弥斯和阿波罗");
@@ -182,8 +182,8 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(BereftVassalIntroScreen), "get_TextToDisplay", "Argus\nThe Bereft Vassal", "阿尔戈斯\n无邦封臣");
                 QuickTranslate(typeof(BrainOfCthulhuIntroScreen), "get_TextToDisplay", "Eldritch Mind\nThe Brain of Cthulhu", "邪神思维\n克苏鲁之脑");
                 QuickTranslate(typeof(BrimstoneElementalIntroScreen), "get_TextToDisplay", "Scarred Numen\nThe Brimstone Elemental", "受创守护神\n硫磺火元素");
-                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Shadow", "虚假女巫\n灾厄之影");
-                QuickTranslate(typeof(CeaselessVoidIntroScreen), "get_TextToDisplay", "The Never-Ending\nCeaseless Void", "永无止境\n无尽虚空");
+                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Shadow", "欺诈女巫\n灾厄之影");
+                QuickTranslate(typeof(CeaselessVoidIntroScreen), "get_TextToDisplay", "The Never-Ending\nCeaseless Void", "无止之噬\n无尽虚空");
                 QuickTranslate(typeof(CrabulonIntroScreen), "get_TextToDisplay", "The Reanimated Carcass\nCrabulon", "复生死尸\n菌生蟹");
                 QuickTranslate(typeof(CryogenIntroScreen), "get_TextToDisplay", "The Unstable Prison\nCryogen", "崩摧监牢\n极地之灵");
                 QuickTranslate(typeof(CultistIntroScreen), "get_TextToDisplay", "Ancient Doomsayer\nThe Lunatic Cultist", "远古末日预言者\n拜月教邪教徒");
@@ -192,7 +192,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(DestroyerIntroScreen), "get_TextToDisplay", "World Excavator\nThe Destroyer", "世界挖掘者\n毁灭者");
                 QuickTranslate(typeof(DoGIntroScreen), "get_TextToDisplay", "The Conceited\nDevourer of Gods", "自命不凡\n神明吞噬者");
                 QuickTranslate(typeof(DraedonIntroScreen), "get_TextToDisplay", "The Cosmic Engineer\nDraedon", "寰宇神匠\n嘉登");
-                QuickTranslate(typeof(DragonfollyIntroScreen), "get_TextToDisplay", "False Offspring\nThe Dragonfolly", "False Offspring\n痴愚金龙");
+                QuickTranslate(typeof(DragonfollyIntroScreen), "get_TextToDisplay", "False Offspring\nThe Dragonfolly", "混血龙裔\n痴愚金龙");
                 QuickTranslate(typeof(DreadnautilusIntroScreen), "get_TextToDisplay", "Nightmare of the Blood Moon\nDreadnautilus", "血月之魇\n恐惧鹦鹉螺");
                 QuickTranslate(typeof(DukeFishronIntroScreen), "get_TextToDisplay", "Terror of the Seas\nDuke Fishron", "海洋之惧\n猪龙鱼公爵");
                 QuickTranslate(typeof(EaterOfWorldsIntroScreen), "get_TextToDisplay", "Terror of the Corruption\nThe Eater of Worlds", "腐化之惧\n世界吞噬者");
@@ -204,18 +204,18 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(HiveMindIntroScreen), "get_TextToDisplay", "Collective Growth\nThe Hive Mind", "群生恶瘤\n腐巢意志");
                 QuickTranslate(typeof(KingSlimeIntroScreen), "get_TextToDisplay", "Monarch of the Gelatinous\nKing Slime", "凝胶君主\n史莱姆王");
                 QuickTranslate(typeof(LeviathanIntroScreen), "get_TextToDisplay", "Timeworn Beast\nThe Leviathan", "远古野兽\n利维坦");
-                QuickTranslate(typeof(MoonLordIntroScreen), "get_TextToDisplay", "Eldritch Remains\nThe Moon Lord", "暗神遗骸\n月亮领主");
+                QuickTranslate(typeof(MoonLordIntroScreen), "get_TextToDisplay", "Eldritch Remains\nThe Moon Lord", "不可名状之遗骸\n月亮领主");
                 QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Speed Demon\nThe Old Duke", "冲刺恶魔\n硫海遗爵");
                 QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Sulphuric Terror\nThe Old Duke", "硫海之惧\n硫海遗爵");
                 QuickTranslate(typeof(PBGIntroScreen), "get_TextToDisplay", "Biomechanical Colossus\nThe Plaguebringer Goliath", "Biomechanical Colossus\n瘟疫使者歌莉娅");
                 QuickTranslate(typeof(PerforatorHiveIntroScreen), "get_TextToDisplay", "Bloodied Parasites\nThe Perforators", "血殁寄生者\n血肉宿主");
-                QuickTranslate(typeof(PlanteraIntroScreen), "get_TextToDisplay", "The Overgrowth\nPlantera", "繁茂丛生\n世纪之花");
+                QuickTranslate(typeof(PlanteraIntroScreen), "get_TextToDisplay", "The Overgrowth\nPlantera", "繁茂丛生的\n世纪之花");
                 QuickTranslate(typeof(PolterghastIntroScreen), "get_TextToDisplay", "Wrathful Coalescence\nThe Polterghast", "怨念融合体\n噬魂幽花");
                 QuickTranslate(typeof(ProfanedGuardiansIntroScreen), "get_TextToDisplay", "Disciples of Purity\nThe Profaned Guardians", "圣洁使徒\n亵渎守卫");
                 QuickTranslate(typeof(ProfanedTempleIntroScreen), "get_TextToDisplay", "Cleansed Site\nThe Profaned Garden", "圣洁之地\n亵渎花园");
                 QuickTranslate(typeof(ProvidenceIntroScreen), "get_TextToDisplay", "The Blaze of Purity\nProvidence", "圣洁之焰\n亵渎天神 普罗维登斯");
                 QuickTranslate(typeof(ProvidenceIntroScreen), "get_TextToDisplay", "The Blaze of Absolution\nProvidence", "赦罪之焰\n亵渎天神 普罗维登斯");
-                QuickTranslate(typeof(QueenBeeIntroScreen), "get_TextToDisplay", "Hive Matriarch\nQueen Bee", "Hive Matriarch\n蜂王");
+                QuickTranslate(typeof(QueenBeeIntroScreen), "get_TextToDisplay", "Hive Matriarch\nQueen Bee", "蜂群女王\n蜂王");
                 QuickTranslate(typeof(QueenSlimeIntroScreen), "get_TextToDisplay", "Hallowed Mass\nThe Queen Slime", "神圣聚群\n史莱姆皇后");
                 QuickTranslate(typeof(RavagerIntroScreen), "get_TextToDisplay", "The Fortress of Flesh\nRavager", "血肉堡垒\n毁灭魔像");
                 QuickTranslate(typeof(SCalIntroScreen), "get_TextToDisplay", "The Brimstone Witch\nCalamitas", "硫火女巫\n至尊灾厄");
