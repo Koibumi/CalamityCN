@@ -1,6 +1,7 @@
 using CalamityCN.Utils;
 using InfernumMode;
 using InfernumMode.Content.Achievements;
+using InfernumMode.Content.Achievements.DevWishes;
 using InfernumMode.Content.Achievements.InfernumAchievements;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.DoG;
@@ -39,8 +40,11 @@ namespace CalamityCN.Translations.InfernumMode
 
             //成就
             QuickTranslate(typeof(Achievement), "OnCompletion", "Achievement Completed! [c/ff884d:", "成就完成 [c/ff884d:");
+            QuickTranslate(typeof(Achievement), "WishCompletionEffects", "Dev Wish Completed! [c/ff884d:", "开发者祈愿完成 [c/ff884d:");
             QuickTranslate(typeof(AchievementMenuUIHookEdit), "AchievementAdvisor_DrawOneAchievement", "Open Death Wishes", "打开死亡祈愿");
             QuickTranslate(typeof(AchievementUIManager), "InitializePage", "Death Wishes", "死亡祈愿");
+            QuickTranslate(typeof(WishesUIManager), "InitializePage", "Dev Wishes", "开发者祈愿");
+
             QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "First Of Many", "死海无涯");
             QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "The higher the count, the more you've learnt\n[c/777777:Die to an Infernum boss]", "死的越多，懂得越多\n[c/777777:在炼狱模式中死于任意一个Boss]");
             QuickTranslate(typeof(BereftVassalAchievement), "Initialize", "Forgotten Sands", "尘封已久");
@@ -57,9 +61,30 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(MechaMayhemAchievement), "Initialize", "Decommission the Maniacal Mechanical trio in one fell swoop!\n[c/777777:Beat Infernum Mecha-Mayhem]", "在一次清扫中同时让三台疯狂的机器报废\n[c/777777:在炼狱模式中击败机甲混战]");
             QuickTranslate(typeof(NightProviAchievement), "Initialize", "Night Knight", "戌时戍侍");
             QuickTranslate(typeof(NightProviAchievement), "Initialize", "Challenge the Profaned Goddess under the gaze of the stars\n[c/777777:Beat Infernum Night Providence]", "在群星的注视中向亵渎天神发起挑战\n[c/777777:在炼狱模式中击败夜晚亵渎天神]");
-            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Rampage", "Rampage");
+            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Rampage", "寸止挑战");
             QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Best the Devourer at his own game: without a ram!\n[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]", "将计就计击败神明吞噬者\n[c/777777:在炼狱模式中不使用冲刺击败神明吞噬者]");
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Next: ", "下一位：");
+
+            QuickTranslate(typeof(BlahajWish), "Initialize", "Benevolent Force", "Benevolent Force");
+            QuickTranslate(typeof(BlahajWish), "Initialize", "Warm hugs\n[c/777777:Defeat Infernum Duke Fishron in under 1 minute]", "Warm hugs\n[c/777777:Defeat Infernum Duke Fishron in under 1 minute]");
+            QuickTranslate(typeof(CrescentWish), "Initialize", "Post-apocalyptic", "Post-apocalyptic");
+            QuickTranslate(typeof(CrescentWish), "Initialize", "The witch's sins could never be fully atoned\n[c/777777:Defeat the Forgotten Shadow of Calamitas in the underworld]", "The witch's sins could never be fully atoned\n[c/777777:在地狱击败遗落灾影]");
+            QuickTranslate(typeof(EggWish), "Initialize", "The Chosen One", "The Chosen One");
+            QuickTranslate(typeof(EggWish), "Initialize", "Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within\n[c/777777:Find an egg sword shrine after defeating Golem]", "Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within\n[c/777777:Find an egg sword shrine after defeating Golem]");
+            QuickTranslate(typeof(MatrixWish), "Initialize", "The Scientific Method", "The Scientific Method");
+            QuickTranslate(typeof(MatrixWish), "Initialize", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]");
+            QuickTranslate(typeof(NightmareWish), "Initialize", "It Awakens", "It Awakens");
+            QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n[c/777777:Sleep in the brimstone crags for 16 seconds]", "It demands a sacrifice. You seem like a good choice\n[c/777777:Sleep in the brimstone crags for 15 seconds]");
+            QuickTranslate(typeof(PurityWish), "Initialize", "The Tanning Starseed", "The Tanning Starseed");
+            QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "It feels like solar winds, and solar chimes\n[c/777777:三分钟半内击败炼狱夜晚亵渎天神]");
+            QuickTranslate(typeof(SakuraWish), "Initialize", "Innocent Breeze", "Innocent Breeze");
+            QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]");
+            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Lamentation", "Lamentation");
+            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]");
+            QuickTranslate(typeof(TabletWish), "Initialize", "Unsullied", "Unsullied");
+            QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]");
+            QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "Amazingly Asinine Assistant");
+            QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]");
             //难度
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
             QuickTranslate(typeof(InfernumDifficulty), "get_ExpandedDescription", "[c/B32E81:Many major foes will be different, having more challenging AI.] \n[c/B32E81:Adrenaline takes considerably longer to charge.] \n[c/FF0055:Adaptability is imperative.]", "[c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。] \n[c/B32E81:肾上腺素充能时间变长。] \n[c/FF0055:适应力必不可少!]");
@@ -128,12 +153,13 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(BereftVassal), "get_DespawnMessage", "Argus returns to quiet solitude at the center of the Colosseum.", "阿耳戈斯回到了僻静又孤独的竞技场中心。");
             #endregion
             #region CalamitasShadow
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "Destroy ", "摧毁");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "him", "他");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "her", "她");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", ", my brothers.", "，我的兄弟们。");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "I will not be defeated so easily.", "我不会被轻易击败。");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "PreAI", "You will suffer.", "你将痛不欲生。");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "Destroy ", "摧毁");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "him", "他");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "her", "她");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", ", my brothers.", "，我的兄弟们。");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "这才刚刚开始呢！");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "I'm not done yet! Brace yourself for my strongest hex!", "I'm not done yet! Brace yourself for my strongest hex!");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "唔。");
             #endregion
             #region DoG
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I WILL NOT BE DESTROYED!!!", "我不会被毁灭！！！", 2);
@@ -162,9 +188,9 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "NOT SO FAST!", "太慢了！");
             //DoG HatGirl
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!", "");
+            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!", "");
             //亵渎守卫 HatGirl
-            QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "The profaned magic seems to be blocking your Rod of Discord!", "");
+            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "The profaned magic seems to be blocking your Rod of Discord!", "");
             //Intro
             if (CalamityCNConfig.Instance.InfernumCNFont)
             {
