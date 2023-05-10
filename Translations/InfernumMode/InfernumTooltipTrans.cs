@@ -37,10 +37,6 @@ namespace CalamityCN.Translations.InfernumMode
 
 			foreach (TooltipLine line in tooltips)
 			{
-                if (item.type == ModContent.ItemType<BlastedTophat>())
-				{
-					line.Text = line.Text.Replace("Developer Item", "开发者物品");
-				}
 				if (item.type == ModContent.ItemType<Wayfinder>())
                 {
 					line.Text = line.Text.Replace("Hold LMB to teleport to the gate", "按住左键传送到魔法门");
@@ -129,6 +125,8 @@ namespace CalamityCN.Translations.InfernumMode
 					line.Text = line.Text.Replace("Opens a portal to the Lost Colosseum", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.SandstormsCore1", Array.Empty<object>()));
 					line.Text = line.Text.Replace("Your world does not currently have a Lost Gateway. Kill the Lunatic Cultist again to generate it.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.SandstormsCore2", Array.Empty<object>()));
 				}
+
+				line.Text = line.Text.Replace("Developer Item", "开发者物品");
 			}
 		}
 	}

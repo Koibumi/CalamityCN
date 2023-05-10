@@ -57,7 +57,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(MechaMayhemAchievement), "Initialize", "Decommission the Maniacal Mechanical trio in one fell swoop!\n[c/777777:Beat Infernum Mecha-Mayhem]", "在一次清扫中同时让三台疯狂的机器报废\n[c/777777:在炼狱模式中击败机甲混战]");
             QuickTranslate(typeof(NightProviAchievement), "Initialize", "Night Knight", "戌时戍侍");
             QuickTranslate(typeof(NightProviAchievement), "Initialize", "Challenge the Profaned Goddess under the gaze of the stars\n[c/777777:Beat Infernum Night Providence]", "在群星的注视中向亵渎天神发起挑战\n[c/777777:在炼狱模式中击败夜晚亵渎天神]");
-            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Ramification", "寸止挑战");
+            QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Rampage", "Rampage");
             QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Best the Devourer at his own game: without a ram!\n[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]", "将计就计击败神明吞噬者\n[c/777777:在炼狱模式中不使用冲刺击败神明吞噬者]");
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Next: ", "下一位：");
             //难度
@@ -145,9 +145,6 @@ namespace CalamityCN.Translations.InfernumMode
             //Relic
             QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
             //Text
-            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
-            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
-            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayDoGTeleportDenialText", "NOT SO FAST!", "太慢了！");
             QuickTranslate(typeof(DifficultyManagementSystem), "PreUpdateWorld", "Infernum is not allowed in Master Mode or For the Worthy.", "炼狱模式无法在大师模式或For the Worthy种子下启用。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电的洗礼。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " was incinerated by ungodly fire.", "被亵渎之火烧成了灰烬。");
