@@ -41,22 +41,6 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
   }
 
 ---------炼狱
-"System.Void InfernumMode.Utilities::DoInfiniteFlightCheck(Terraria.Player,Microsoft.Xna.Framework.Color)":
-      [
-        Infinite flight granted!
-      ]
-
- "System.Void InfernumMode.Core.ILEditingStuff.ChangeCalCloneNameHook::ChangeName(.NPC+orig_DoDeathEvents_DropBossPotionsAndHearts,Terraria.NPC,System.String&)":
-      [
-        The Forgotten Shadow of Calamitas
-      ]
-      "System.Void InfernumMode.Core.GlobalInstances.GlobalNPCOverrides::ModifyTypeName(Terraria.NPC,System.String&)":
-      [
-        The Forgotten Shadow of Calamitas
-        Forgotten Shadow of Cataclysm
-        Forgotten Shadow of Catastrophe
-      ]
-
 "System.Void InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem::UndoBarChanges()":
       [
         Dark Energy
@@ -154,7 +138,6 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
 摸了  ——Furgo
 
 未完成：
-普灾三兄弟名字，
 InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark Energy（？
 世界生成的提示
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -274,17 +257,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
         WEH?
         Affections!
         Wait, don't stop...
-      ]
-
-"System.String InfernumMode.Content.Items.LoreItems.KnowledgeBereftVassal::get_Lore()":
-      [
-        
-          '''
-          An unusal pair of solitary camaraderie.
-          Once a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.
-          Without purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.
-          Fates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.
-          '''
       ]
 
  "System.Boolean InfernumMode.Content.Items.Accessories.SakuraBloom::PreDrawTooltipLine(Terraria.ModLoader.DrawableTooltipLine,System.Int32&)":
@@ -413,25 +385,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
         wiggleSpeed
       ]
 
-       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow.CalamitasShadowBehaviorOverride::DoBehavior_BrothersPhase(Terraria.NPC,Terraria.Player,System.Boolean,System.Single&,System.Single&,System.Single&,System.Single&)":
-      [
-        "Destroy "
-        her
-        him
-        ", my brothers."
-      ]
-
-       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow.CalamitasShadowBehaviorOverride::DoBehavior_TransitionToFinalPhase(Terraria.NPC,Terraria.Player,System.Single&,System.Single&,System.Single&,System.Single&)":
-      [
-        I'm just getting started!
-      ]
-      "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow.CalamitasShadowBehaviorOverride::DoBehavior_DeathAnimation(Terraria.NPC,Terraria.Player,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)":
-      [
-        I'm not done yet! Brace yourself for my strongest hex!
-        Oh.
-        CalamitasClone
-      ]
-
       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.AquaticScourge.AquaticScourgeHeadBehaviorOverride::DoBehavior_SpawnAnimation(Terraria.NPC,Terraria.Player,System.Single&)":
       [
         That bleach bubble looks like a good place to recover from the acidic water!
@@ -466,103 +419,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
         These rugged fish are seldom hunted in their natural habitats, relying heavily on their venomous spines for both offense and defense.
       ]
 
-       "System.Void InfernumMode.Content.Achievements.DevWishes.BlahajWish::Initialize()":
-      [
-        Benevolent Force
-        
-          '''
-          Warm hugs
-          [c/777777:Defeat Infernum Duke Fishron in under 1 minute]
-          '
-
-          "System.Void InfernumMode.Content.Achievements.DevWishes.CrescentWish::Initialize()":
-      [
-        Post-apocalyptic
-        
-          '''
-          The witch's sins could never be fully atoned
-          [c/777777:Defeat the Forgotten Shadow of Calamitas in the underworld]
-          '''
-      ]
-
-       "System.Void InfernumMode.Content.Achievements.DevWishes.EggWish::Initialize()":
-      [
-        The Chosen One
-        
-          '''
-          Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within
-          [c/777777:Find an egg sword shrine after defeating Golem]
-          '''
-      ]
-
-       "System.Void InfernumMode.Content.Achievements.DevWishes.MatrixWish::Initialize()":
-      [
-        The Scientific Method
-        
-          '''
-          To experiment is to fail. To fail is to learn. To learn is to advance
-          [c/777777:Defeat every single boss and Exo Mech combination]
-          '''
-      ]
-
-      "System.Void InfernumMode.Content.Achievements.DevWishes.NightmareWish::Initialize()":
-      [
-        It Awakens
-        
-          '''
-          It demands a sacrifice. You seem like a good choice
-          '''
-        " seconds]"
-      ]
-
-      "System.Void InfernumMode.Content.Achievements.DevWishes.PurityWish::Initialize()":
-      [
-        The Tanning Starseed
-        
-          '''
-          It feels like solar winds, and solar chimes
-          [c/777777:Defeat Infernum Night Providence in under 3.5 minutes]
-          '''
-      ]
-       "System.Void InfernumMode.Content.Achievements.DevWishes.SakuraWish::Initialize()":
-      [
-        Innocent Breeze
-        
-          '''
-          One hundred whimsical spirits, dancing playfully
-          [c/777777:Find a Sakura Bud]
-          '''
-      ]
-
-       "System.Void InfernumMode.Content.Achievements.DevWishes.StormMaidenWish::Initialize()":
-      [
-        Lamentation
-        
-          '''
-          Their tears blend with the raindrops, mourning over all that couldn't be
-          [c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]
-          '''
-      ]
-
-      "System.Void InfernumMode.Content.Achievements.DevWishes.TabletWish::Initialize()":
-      [
-        Unsullied
-        
-          '''
-          Not all beasts are monsters
-          [c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]
-          '''
-      ]
-       "System.Void InfernumMode.Content.Achievements.DevWishes.TophatWish::Initialize()":
-      [
-        Amazingly Asinine Assistant
-        
-          '''
-          You're improving with every failure! Keep going!
-          [c/777777:Have 3 deaths in a row to a boss]
-          '''
-      ]
-
       "System.Void InfernumMode.Content.Projectiles.HyperplaneMatrixProjectile::DoBehavior_InitialShake()":
       [
         " was blown up."
@@ -577,20 +433,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
         Accelerate time until sunset
         Atomize every single hostile NPC
       ]
-
-    "System.Void InfernumMode.Content.Achievements.Achievement::WishCompletionEffects(Terraria.Player,System.Int32)":
-		{
-			AchievementsNotificationTracker.AddAchievementAsCompleted(this);
-			Main.NewText("Dev Wish Completed! [c/ff884d:" + this.Name + "]", byte.MaxValue, byte.MaxValue, byte.MaxValue);
-			SoundEngine.PlaySound(ref InfernumSoundRegistry.InfernumAchievementCompletionSound, null);
-			player.QuickSpawnItem(Entity.GetSource_None(), assosiatedItemType, 1);
-		}
-
-    "System.Void InfernumMode.Content.Achievements.DevWishes.NightmareWish::Initialize()":
-      [
-        "[c/777777:Sleep in the brimstone crags for "
-      ]
-
 
 
       ------炼狱音乐
