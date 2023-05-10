@@ -22,16 +22,15 @@ namespace CalamityCN.Translations.InfernumMode
 			}
 			if (npc.type == ModContent.NPCType<CalamitasClone>())
 			{
-				typeName = typeName.Replace("Forgotten Shadow of Calamitas", "遗落灾影");
 				typeName = typeName.Replace("The Forgotten Shadow of Calamitas", "遗落灾影");
 			}
 			if (npc.type == ModContent.NPCType<Cataclysm>())
 			{
-				typeName = typeName.Replace("Forgotten Shadow of Cataclysm", "Forgotten Shadow of Cataclysm");
+				typeName = typeName.Replace("Forgotten Shadow of Cataclysm", "遗落灾祸");
 			}
 			if (npc.type == ModContent.NPCType<Catastrophe>())
 			{
-				typeName = typeName.Replace("Forgotten Shadow of Catastrophe", "Forgotten Shadow of Catastrophe");
+				typeName = typeName.Replace("Forgotten Shadow of Catastrophe", "遗落灾难");
 			}
 
 		}

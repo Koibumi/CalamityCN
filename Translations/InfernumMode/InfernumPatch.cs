@@ -16,6 +16,7 @@ using InfernumMode.Content.BehaviorOverrides.BossAIs.SupremeCalamitas;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Twins;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Yharon;
 using InfernumMode.Content.BossIntroScreens;
+using InfernumMode.Content.Items.LoreItems;
 using InfernumMode.Content.UI;
 using InfernumMode.Core.GlobalInstances;
 using InfernumMode.Core.GlobalInstances.GlobalItems;
@@ -44,7 +45,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(AchievementMenuUIHookEdit), "AchievementAdvisor_DrawOneAchievement", "Open Death Wishes", "打开死亡祈愿");
             QuickTranslate(typeof(AchievementUIManager), "InitializePage", "Death Wishes", "死亡祈愿");
             QuickTranslate(typeof(WishesUIManager), "InitializePage", "Dev Wishes", "开发者祈愿");
-
+            #region Death Wishes
             QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "First Of Many", "死海无涯");
             QuickTranslate(typeof(BabysFirstAchievement), "Initialize", "The higher the count, the more you've learnt\n[c/777777:Die to an Infernum boss]", "死的越多，懂得越多\n[c/777777:在炼狱模式中死于任意一个Boss]");
             QuickTranslate(typeof(BereftVassalAchievement), "Initialize", "Forgotten Sands", "尘封已久");
@@ -64,7 +65,8 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Rampage", "寸止挑战");
             QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Best the Devourer at his own game: without a ram!\n[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]", "将计就计击败神明吞噬者\n[c/777777:在炼狱模式中不使用冲刺击败神明吞噬者]");
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Next: ", "下一位：");
-
+            #endregion
+            #region Dev Wishes
             QuickTranslate(typeof(BlahajWish), "Initialize", "Benevolent Force", "Benevolent Force");
             QuickTranslate(typeof(BlahajWish), "Initialize", "Warm hugs\n[c/777777:Defeat Infernum Duke Fishron in under 1 minute]", "Warm hugs\n[c/777777:Defeat Infernum Duke Fishron in under 1 minute]");
             QuickTranslate(typeof(CrescentWish), "Initialize", "Post-apocalyptic", "Post-apocalyptic");
@@ -85,6 +87,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]");
             QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "Amazingly Asinine Assistant");
             QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]");
+            #endregion
             //难度
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
             QuickTranslate(typeof(InfernumDifficulty), "get_ExpandedDescription", "[c/B32E81:Many major foes will be different, having more challenging AI.] \n[c/B32E81:Adrenaline takes considerably longer to charge.] \n[c/FF0055:Adaptability is imperative.]", "[c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。] \n[c/B32E81:肾上腺素充能时间变长。] \n[c/FF0055:适应力必不可少!]");
@@ -177,6 +180,10 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " went mad.", "发疯了。");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "A profaned shrine has erupted from the ashes at the underworld's edge!", "一座亵渎神庙从地狱边缘的灰烬中拔地而起！");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "Mysterious ruins have materialized in the heart of the desert!", "神秘的废墟出现在沙漠的中心！");
+            //Lore
+            QuickTranslate(typeof(KnowledgeBereftVassal), "get_Lore", "An unusal pair of solitary camaraderie.\nOnce a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.\nWithout purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.\nFates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.",
+                "An unusal pair of solitary camaraderie.\nOnce a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.\nWithout purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.\nFates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.");
+
             //超平面矩阵 CyberneticImmortality
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "超平面矩阵已");
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "enabled", "启用");
@@ -191,6 +198,7 @@ namespace CalamityCN.Translations.InfernumMode
             //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!", "");
             //亵渎守卫 HatGirl
             //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "The profaned magic seems to be blocking your Rod of Discord!", "");
+            
             //Intro
             if (CalamityCNConfig.Instance.InfernumCNFont)
             {
