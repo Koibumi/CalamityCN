@@ -7,7 +7,7 @@
     CherishedSealocket: 珍海吊坠
     FlowerOfTheOcean: 海之花
     Purity: Purity
-    SakuraBloom: Sakura Bloom
+    SakuraBloom: 盛开的樱花
     BereftVassalBossBag: 宝藏袋（无邦封臣）
     BrimstoneCrescentStaff: Brimstone Crescent Staff
     DemonicChaliceOfInfernum: 炼狱圣杯
@@ -81,7 +81,7 @@
     TwinsRelic: 双子魔眼孽狱圣物
     WallOfFleshRelic: 血肉墙孽狱圣物
     YharonRelic: 犽戎孽狱圣物
-    SakuraBud: Sakura Bud
+    SakuraBud: 樱花花苞
     BloodwormPlatter: 血蠕虫拼盘
     DungeonsCurse: 地牢厄咒
      EvokingSearune: Evoking Searune
@@ -122,8 +122,8 @@
         '''
       SakuraBloom:
         '''
-        A symbol of how beautiful love is when in bloom, and how easily it can wither away whyyyy
-        Temporary
+        这象征着爱情在盛开时是多么美丽，而它又多么容易枯萎
+        短暂的
         '''
       BereftVassalBossBag: "{$CommonItemTooltip.RightClickToOpen}"
       BrimstoneCrescentStaff:
@@ -233,9 +233,9 @@
       YharonRelic: GetsChanged
       SakuraBud:
         '''
-        A delicate, fragile sakura bud, just about to bloom
-        You feel a guiding spirit trying to lead you the bloom’s home
-        Maybe you should follow its call?
+        一朵娇嫩脆弱的樱花花苞，含苞待放
+        你感觉到一只精灵尝试指引你去往花苞的家
+        也许你应该跟随它的指引？
         '''
       BloodwormPlatter:
         '''
@@ -1022,16 +1022,16 @@
       BrimstoneBarrier: Your magic withers your weaponry at the cost of a strong magical barrier
       BrimstoneExhaustion: You cannot resummon the Brimstone Crescent Staff's forcefield
       BronzePetBuff: Did you know that you can pet the birb in Terraria?
-      CatharsisHex: 自然生命再生被禁用，愤怒的灵魂从你体内释放了
+      CatharsisHex: 自然生命再生被禁用，愤怒之魂从你体内释放出来
       DarkFlames: 你的身体被遗忘之火吞噬，你的防御力降低了
       HatGirlBuff: 芳心纵火犯
-      IndignationHex: 一个探魂者以你作为目标
+      IndignationHex: 你被探魂者盯上了
       Madness: 要疯了……
       ShadowflameInferno: 快速流失生命值
       SheepGodBuff: 绵羊也会数羊吗？
       Sleepy: You are fast asleep!
       WeaknessHex: 你的防御力和伤害减免被大幅度削弱了
-      ZealHex: 你的敌手的魔法将大幅度加速
+      ZealHex: Your opponent's magic accelerates wildly
     }
     MapObject:
     {
