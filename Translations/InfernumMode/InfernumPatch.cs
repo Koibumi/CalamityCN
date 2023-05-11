@@ -160,9 +160,9 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "him", "他");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "her", "她");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", ", my brothers.", "，我的兄弟们。");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "这才刚刚开始呢！");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "I'm not done yet! Brace yourself for my strongest hex!", "I'm not done yet! Brace yourself for my strongest hex!");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "唔。");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "我现在才刚刚使出全力！");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "I'm not done yet! Brace yourself for my strongest hex!", "还没完呢！准备迎接我的最强法术吧！");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "额啊。");
             #endregion
             #region DoG
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I WILL NOT BE DESTROYED!!!", "我不会被毁灭！！！", 2);
