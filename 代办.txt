@@ -41,18 +41,6 @@ Should you locate him, I'll await the news of either his or your death. Perhaps 
   }
 
 ---------炼狱
-"System.Void InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem::UndoBarChanges()":
-      [
-        Dark Energy
-      ]
-
-"System.Void InfernumMode.Core.GlobalInstances.Players.CyberneticImmortalityPlayer::ToggleImmortality()":
-      [
-        "Cybernetic immortality has been "
-        disabled
-        enabled
-      ]
-
  "System.Collections.Generic.Dictionary`2<> InfernumMode.Core.GlobalInstances.GlobalItems.TooltipChangeGlobalItem::get_EnrageTooltipReplacements()":
       [
         Enrages outside of the Mushroom biome
@@ -204,29 +192,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
         Infernum Style
       ]
 
- "System.Boolean InfernumMode.Content.Items.SakuraBud::PreDrawTooltipLine(Terraria.ModLoader.DrawableTooltipLine,System.Int32&)":
-      [
-        You feel
-        "You feel a "
-        guiding spirit
-        " trying to lead you the bloom’s home"
-        Maybe you
-        "The spirit is trying to draw your attention to the "
-        water
-        Maybe you should follow its call?
-      ]
-
-      "System.Boolean InfernumMode.Content.Items.Weapons.Magic.IllusionersReverie::PreDrawTooltipLine(Terraria.ModLoader.DrawableTooltipLine,System.Int32&)":
-      [
-        Tooltip1
-        "An "
-        noiseIntensity
-        horizontalDisplacementFactor
-        "incomprehensibly "
-        old tome. Somehow, in spite of its supposed age, it appears to be completely unscathed
-        Tooltip2
-      ]
-
  "System.Void InfernumMode.Content.Items.Pets.RisingWarriorsSoulstone::.cctor()":
       [
         Thought you could keep me away? Think again!
@@ -258,24 +223,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
         Affections!
         Wait, don't stop...
       ]
-
- "System.Boolean InfernumMode.Content.Items.Accessories.SakuraBloom::PreDrawTooltipLine(Terraria.ModLoader.DrawableTooltipLine,System.Int32&)":
-      [
-        A symbol of how beautiful love is when in bloom, and how easily it can wither away
-        "A symbol of how beautiful "
-        love
-        " is when it’s in bloom, and yet how easily it can wither away"
-        Temporary
-        "Maybe with this, we can hold onto the "
-        memories
-      ]
-
-
-      "System.String InfernumMode.Content.BossIntroScreens.TerminusIntroScreen::get_TextToDisplay()":
-      [
-        You found the Terminus!
-      ]
-
 
        "System.String InfernumMode.Content.BossBars.BossBarManager::get_DisplayName()":
       [
@@ -352,11 +299,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
       [
         Mysterious ruins have materialized in the heart of the desert!
       ]
-      "System.Boolean InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist.CultistBehaviorOverride::PreAI(Terraria.NPC)":
-      [
-        " was repelled by celestial forces."
-      ]
-
       "System.Void InfernumMode.Content.BehaviorOverrides.BossAIs.CeaselessVoid.CeaselessVoidBehaviorOverride::DoBehavior_DarkEnergySwirl(Terraria.NPC,System.Boolean,System.Boolean,Terraria.Player,System.Single&)":
       [
         Stay calm and circle! Don't lose focus!
@@ -418,22 +360,6 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
       [
         These rugged fish are seldom hunted in their natural habitats, relying heavily on their venomous spines for both offense and defense.
       ]
-
-      "System.Void InfernumMode.Content.Projectiles.HyperplaneMatrixProjectile::DoBehavior_InitialShake()":
-      [
-        " was blown up."
-      ]
-
-       "System.Void InfernumMode.Content.Projectiles.HyperplaneMatrixProjectile::.ctor()":
-      [
-        Toggle cybernetic immortality
-        Toggle physics defiance flying
-        Accelerate time until sunrise
-        Accelerate time until noon
-        Accelerate time until sunset
-        Atomize every single hostile NPC
-      ]
-
 
       ------炼狱音乐
       "System.Void InfernumModeMusic.Projectiles.SoulDrivenHeadphonesProj::.ctor()":
