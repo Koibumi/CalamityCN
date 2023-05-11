@@ -4,6 +4,7 @@ using InfernumMode.Content.Achievements;
 using InfernumMode.Content.Achievements.DevWishes;
 using InfernumMode.Content.Achievements.InfernumAchievements;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.DoG;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Draedon.Ares;
@@ -16,7 +17,11 @@ using InfernumMode.Content.BehaviorOverrides.BossAIs.SupremeCalamitas;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Twins;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Yharon;
 using InfernumMode.Content.BossIntroScreens;
+using InfernumMode.Content.Items;
+using InfernumMode.Content.Items.Accessories;
 using InfernumMode.Content.Items.LoreItems;
+using InfernumMode.Content.Items.Weapons.Magic;
+using InfernumMode.Content.Projectiles;
 using InfernumMode.Content.UI;
 using InfernumMode.Core.GlobalInstances;
 using InfernumMode.Core.GlobalInstances.GlobalItems;
@@ -74,7 +79,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(EggWish), "Initialize", "The Chosen One", "天选之子");
             QuickTranslate(typeof(EggWish), "Initialize", "Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within\n[c/777777:Find an egg sword shrine after defeating Golem]", "传说中有一位勇敢的勇者将会进入这个世界进行冒险，并找到隐藏其中的传奇之剑\n[c/777777:在击败石巨人后找到一个蛋之剑冢]");
             QuickTranslate(typeof(MatrixWish), "Initialize", "The Scientific Method", "科学方式");
-            QuickTranslate(typeof(MatrixWish), "Initialize", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]", 实验就是失败，失败就是学习，学习就是进步\n[c/777777:击败所有Boss和星流巨械的全部组合]");
+            QuickTranslate(typeof(MatrixWish), "Initialize", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]", "实验就是失败，失败就是学习，学习就是进步\n[c/777777:击败所有Boss和星流巨械的全部组合]");
             QuickTranslate(typeof(NightmareWish), "Initialize", "It Awakens", "它已苏醒");
             QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n[c/777777:Sleep in the brimstone crags for 16 seconds]", "它需要献祭，而你正是个不错的选择\n[c/777777:在硫火之崖睡15秒]");
             QuickTranslate(typeof(PurityWish), "Initialize", "The Tanning Starseed", "The Tanning Starseed");
@@ -143,17 +148,20 @@ namespace CalamityCN.Translations.InfernumMode
             
             QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blazing air rises...", "空气变得灼热起来……");
             QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blue flames roar...", "苍蓝的烈火猛烈咆哮……");
+            QuickTranslate(typeof(ProvidenceBehaviorOverride), "DoBehavior_EnterFireFormBulletHell", "Lava is rising from below!", "岩浆正在从下上涨！");
             
             QuickTranslate(typeof(TwinsAttackSynchronizer), "DoAI", ": DEFENSES PENETRATED. INITIATING PROCEDURE SHLD-17ECF9.", "：防御被突破，启动程序SHLD-17ECF9。");
             QuickTranslate(typeof(TwinsAttackSynchronizer), "DoAI", ": ERROR DETECTING SECONDARY UNIT. BURNING EXCESS FUEL RESERVES.", "：检测到辅助装置错误，燃烧多余的燃料储备。");
 
             QuickTranslate(typeof(YharonBehaviorOverride), "DoBehavior_FinalDyingRoar", "The heat is surging...", "热浪滚滚……", 2);
             QuickTranslate(typeof(YharonBehaviorOverride), "PreAI", "The air is scorching your skin...", "空气炙烤着你的皮肤……");
+            QuickTranslate(typeof(YharonBehaviorOverride), "DisplayAEWNotificationText", "A primordial light shimmers at the nadir of the abyssal depths...", "一束原始的光在深渊的最深处闪烁……");
+            
             //似乎无效
-            QuickTranslate(typeof(BereftVassal), "get_BossTitle", "Bereft Vassal", "无邦封臣");
-            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "Use a [i:", "在沙漠中心的基座上使用 [i:");
-            QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "] at the pedestal in the heart of the desert.", "]。");
-            QuickTranslate(typeof(BereftVassal), "get_DespawnMessage", "Argus returns to quiet solitude at the center of the Colosseum.", "阿耳戈斯回到了僻静又孤独的竞技场中心。");
+            //QuickTranslate(typeof(BereftVassal), "get_BossTitle", "Bereft Vassal", "无邦封臣");
+            //QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "Use a [i:", "在沙漠中心的基座上使用 [i:");
+            //QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "] at the pedestal in the heart of the desert.", "]。");
+            //QuickTranslate(typeof(BereftVassal), "get_DespawnMessage", "Argus returns to quiet solitude at the center of the Colosseum.", "阿耳戈斯回到了僻静又孤独的竞技场中心。");
             #endregion
             #region CalamitasShadow
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "Destroy ", "摧毁");
@@ -171,21 +179,27 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I...", "我……");
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "Phase2AI", "A GOD DOES NOT FEAR DEATH!", "神！不惧死亡！");
             #endregion
-            //Relic
-            QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
-            //Text
+            
+            //Other
             QuickTranslate(typeof(DifficultyManagementSystem), "PreUpdateWorld", "Infernum is not allowed in Master Mode or For the Worthy.", "炼狱模式无法在大师模式或For the Worthy种子下启用。");
+            QuickTranslate(typeof(DifficultyManagementSystem), "PreUpdateWorld", "Eternity mode's boss AI changes are overridden by Infernum if there are conflicts.", "如果存在冲突，永恒模式的BossAI将被炼狱覆盖。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " could not withstand the red lightning.", "无法承受住红色闪电的洗礼。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " was incinerated by ungodly fire.", "被亵渎之火烧成了灰烬。");
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " went mad.", "发疯了。");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "A profaned shrine has erupted from the ashes at the underworld's edge!", "一座亵渎神庙从地狱边缘的灰烬中拔地而起！");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "Mysterious ruins have materialized in the heart of the desert!", "神秘的废墟出现在沙漠的中心！");
+            QuickTranslate(typeof(TerminusIntroScreen), "get_TextToDisplay", "You found the Terminus!", "你找到了终末石！");
+            QuickTranslate(typeof(CultistBehaviorOverride), "PreAI", " was repelled by celestial forces.", "被天体力量驱逐。");
+            QuickTranslate(typeof(HyperplaneMatrixProjectile), "DoBehavior_InitialShake", " was blown up.", "被炸碎了。");
+            QuickTranslate(typeof(CalamityBossHPBarChangesSystem), "UndoBarChanges", "Dark Energy", "暗能量");
+            //Relic
+            QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
             //Lore
             QuickTranslate(typeof(KnowledgeBereftVassal), "get_Lore", "An unusal pair of solitary camaraderie.\nOnce a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.\nWithout purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.\nFates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.",
                 "源于孤独的非凡友情。\n阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。\n他藏身于这些神秘的废墟中，默默见证着时间的流逝，没有任何目的，直到你的到来。\n他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。");
 
             //超平面矩阵 CyberneticImmortality
-            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "超平面矩阵已");
+            QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "无敌已");
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "enabled", "启用");
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "disabled", "禁用");
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", ".", "。");
@@ -264,7 +278,29 @@ namespace CalamityCN.Translations.InfernumMode
                 //成年幻海妖龙
                 QuickTranslate(typeof(AEWIntroScreen), "get_TextToDisplay", "Primeval Warden\nThe Eidolon Wyrm", "始渊守卫\n成年幻海妖龙");
             }
-            
+
+            //特效Tooltip?翻译随手贴的可以再改改
+            QuickTranslate(typeof(IllusionersReverie), "PreDrawTooltipLine", "An ", "一本");
+            QuickTranslate(typeof(IllusionersReverie), "PreDrawTooltipLine", "incomprehensibly ", "令人费解的");
+            QuickTranslate(typeof(IllusionersReverie), "PreDrawTooltipLine", "old tome. Somehow, in spite of its supposed age, it appears to be completely unscathed", "古老巨著。不知何故，尽管它的年代久远，但它似乎完好无损");
+
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", "You feel", "你感觉");
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", "You feel a ", "你感觉一只");
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", "guiding spirit", "精灵尝试指引");
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", " trying to lead you the bloom’s home", "你去往花苞的家");
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", "Maybe you", "也许");
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", "The spirit is trying to draw your attention to the ", "精灵尝试吸引你的注意力到");
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", "water", "水中");
+            QuickTranslate(typeof(SakuraBud), "PreDrawTooltipLine", "Maybe you should follow its call?", "也许你应该跟随它的指引？");
+
+            QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "A symbol of how beautiful love is when in bloom, and how easily it can wither away", "这象征着爱情在盛开时是多么美丽，而它又多么容易枯萎");
+            QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "A symbol of how beautiful ", "这象征着");
+            QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "love", "爱情");
+            QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", " is when it’s in bloom, and yet how easily it can wither away", "在盛开时是多么美丽，而它又多么容易枯萎");
+            QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "Temporary", "短暂的");
+            QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "Maybe with this, we can hold onto the ", "也许有了这个，我们就能保存");
+            QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "memories", "记忆");
+
             //QuickTranslate(typeof(), "", "", "");
 
             foreach (ILHook hook in ILHooksI)

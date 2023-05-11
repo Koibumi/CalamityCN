@@ -9,6 +9,7 @@ using InfernumMode.Content.Items.Relics;
 using InfernumMode.Content.Items;
 using InfernumMode.Content.Items.Pets;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow;
+using InfernumMode.Content.Items.Weapons.Magic;
 
 namespace CalamityCN.Translations.InfernumMode
 {
@@ -23,11 +24,10 @@ namespace CalamityCN.Translations.InfernumMode
 		{
 			if (item.type == ModContent.ItemType<ProfanedShard>())
 			{
-				//这段现在大抵是没用了（
-				/*ItemHelper.ApplyTooltipEdits(item, tooltips, (Item i, TooltipLine l) => l.Text == "Summons the Profaned Guardians when used in the profaned garden at the far right of the underworld", delegate (TooltipLine tooltip)
+				ItemHelper.ApplyTooltipEdits(item, tooltips, (Item i, TooltipLine l) => l.Text == "Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld", delegate (TooltipLine tooltip)
 				{
 					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedShard.0", Array.Empty<object>());
-				});*/
+				});
 				ItemHelper.TranslateTooltip(item, tooltips, "Warning", delegate (TooltipLine tooltip)
 				{
 					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedShard.Warning", Array.Empty<object>());
@@ -49,13 +49,9 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					line.Text = line.Text.Replace("Summons the Moon Lord immediately\nCreates an arena at the player's position\nNot consumable.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.Vanilla.CelestialSigil", Array.Empty<object>()));
 				}
-				if (item.type == ModContent.ItemType<ProfanedShard>())
-                {
-					line.Text = line.Text.Replace("Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld", "");
-                }
                 if (item.type == ModContent.ItemType<EyeofDesolation>())
                 {
-					line.Text = line.Text.Replace($"Summons the Forgotten Shadow of Calamitas when used during nighttime", "");
+					line.Text = line.Text.Replace("Summons the Forgotten Shadow of Calamitas when used during nighttime", "在夜晚使用召唤遗落灾影");
                 }
                 if (item.type == ModContent.ItemType<ProfanedCore>())
                 {
@@ -63,7 +59,7 @@ namespace CalamityCN.Translations.InfernumMode
                 }
                 if (item.type == ModContent.ItemType<RuneofKos>())
                 {
-                    line.Text = line.Text.Replace("The Ceaseless Void can only be fought in the Archives", "");
+                    line.Text = line.Text.Replace("The Ceaseless Void can only be fought in the Archives", "The Ceaseless Void can only be fought in the Archives");
                 }
 				if (item.type == ItemID.LihzahrdPowerCell)
 				{

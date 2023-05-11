@@ -16,23 +16,25 @@ namespace CalamityCN.Translations.InfernumMode
 
 		public override void ModifyTypeName(NPC npc, ref string typeName)
 		{
-			if (npc.type == ModContent.NPCType<GreatSandShark>() && WorldSaveSystem.InfernumMode)
+			if (WorldSaveSystem.InfernumMode)
 			{
-				typeName = "旱海狂鲨，托勒斯";
+				if (npc.type == ModContent.NPCType<GreatSandShark>())
+				{
+					typeName = "旱海狂鲨，托勒斯";
+				}
+				if (npc.type == ModContent.NPCType<CalamitasClone>())
+				{
+					typeName = "遗落灾影";
+				}
+				if (npc.type == ModContent.NPCType<Cataclysm>())
+				{
+					typeName = "遗落灾祸之影";
+				}
+				if (npc.type == ModContent.NPCType<Catastrophe>())
+				{
+					typeName = "遗落灾难之影";
+				}
 			}
-			if (npc.type == ModContent.NPCType<CalamitasClone>())
-			{
-				typeName = typeName.Replace("The Forgotten Shadow of Calamitas", "遗落灾影");
-			}
-			if (npc.type == ModContent.NPCType<Cataclysm>())
-			{
-				typeName = typeName.Replace("Forgotten Shadow of Cataclysm", "遗落灾祸之影");
-			}
-			if (npc.type == ModContent.NPCType<Catastrophe>())
-			{
-				typeName = typeName.Replace("Forgotten Shadow of Catastrophe", "遗落灾难之影");
-			}
-
 		}
 	}
 }
