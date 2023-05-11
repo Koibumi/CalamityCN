@@ -1022,16 +1022,16 @@
       BrimstoneBarrier: Your magic withers your weaponry at the cost of a strong magical barrier
       BrimstoneExhaustion: You cannot resummon the Brimstone Crescent Staff's forcefield
       BronzePetBuff: Did you know that you can pet the birb in Terraria?
-      CatharsisHex: 自然生命再生被禁用，愤怒的灵魂从你体内释放了
+      CatharsisHex: 自然生命再生被禁用，愤怒灵魂从你体内喷涌而出
       DarkFlames: 你的身体被遗忘之火吞噬，你的防御力降低了
       HatGirlBuff: 芳心纵火犯
-      IndignationHex: 一个探魂者以你作为目标
+      IndignationHex: 一个探魂者把你作为目标
       Madness: 要疯了……
       ShadowflameInferno: 快速流失生命值
       SheepGodBuff: 绵羊也会数羊吗？
       Sleepy: 你睡着了！
       WeaknessHex: 你的防御力和伤害减免被大幅度削弱了
-      ZealHex: 你的敌手的魔法将大幅度加速
+      ZealHex: 你对手的魔法将会大幅度加速
     }
     MapObject:
     {
