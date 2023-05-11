@@ -67,18 +67,18 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Next: ", "下一位：");
             #endregion
             #region Dev Wishes
-            QuickTranslate(typeof(BlahajWish), "Initialize", "Benevolent Force", "Benevolent Force");
-            QuickTranslate(typeof(BlahajWish), "Initialize", "Warm hugs\n[c/777777:Defeat Infernum Duke Fishron in under 1 minute]", "Warm hugs\n[c/777777:Defeat Infernum Duke Fishron in under 1 minute]");
-            QuickTranslate(typeof(CrescentWish), "Initialize", "Post-apocalyptic", "Post-apocalyptic");
-            QuickTranslate(typeof(CrescentWish), "Initialize", "The witch's sins could never be fully atoned\n[c/777777:Defeat the Forgotten Shadow of Calamitas in the underworld]", "The witch's sins could never be fully atoned\n[c/777777:在地狱击败遗落灾影]");
-            QuickTranslate(typeof(EggWish), "Initialize", "The Chosen One", "The Chosen One");
-            QuickTranslate(typeof(EggWish), "Initialize", "Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within\n[c/777777:Find an egg sword shrine after defeating Golem]", "Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within\n[c/777777:Find an egg sword shrine after defeating Golem]");
-            QuickTranslate(typeof(MatrixWish), "Initialize", "The Scientific Method", "The Scientific Method");
-            QuickTranslate(typeof(MatrixWish), "Initialize", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]");
-            QuickTranslate(typeof(NightmareWish), "Initialize", "It Awakens", "It Awakens");
-            QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n[c/777777:Sleep in the brimstone crags for 16 seconds]", "It demands a sacrifice. You seem like a good choice\n[c/777777:Sleep in the brimstone crags for 15 seconds]");
+            QuickTranslate(typeof(BlahajWish), "Initialize", "Benevolent Force", "仁爱之力");
+            QuickTranslate(typeof(BlahajWish), "Initialize", "Warm hugs\n[c/777777:Defeat Infernum Duke Fishron in under 1 minute]", "温暖的拥抱\n[c/777777:在一分钟内击败炼狱模式下的猪龙鱼公爵]");
+            QuickTranslate(typeof(CrescentWish), "Initialize", "Post-apocalyptic", "末日之终");
+            QuickTranslate(typeof(CrescentWish), "Initialize", "The witch's sins could never be fully atoned\n[c/777777:Defeat the Forgotten Shadow of Calamitas in the underworld]", "女巫的罪孽永远无法偿还\n[c/777777:在地狱击败遗落灾影]");
+            QuickTranslate(typeof(EggWish), "Initialize", "The Chosen One", "天选之子");
+            QuickTranslate(typeof(EggWish), "Initialize", "Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within\n[c/777777:Find an egg sword shrine after defeating Golem]", "传说中有一位勇敢的勇者将会进入这个世界进行冒险，并找到隐藏其中的传奇之剑\n[c/777777:在击败石巨人后找到一个蛋之剑冢]");
+            QuickTranslate(typeof(MatrixWish), "Initialize", "The Scientific Method", "科学方式");
+            QuickTranslate(typeof(MatrixWish), "Initialize", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]", 实验就是失败，失败就是学习，学习就是进步\n[c/777777:击败所有Boss和星流巨械的全部组合]");
+            QuickTranslate(typeof(NightmareWish), "Initialize", "It Awakens", "它已苏醒");
+            QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n[c/777777:Sleep in the brimstone crags for 16 seconds]", "它需要献祭，而你正是个不错的选择\n[c/777777:在硫火之崖睡15秒]");
             QuickTranslate(typeof(PurityWish), "Initialize", "The Tanning Starseed", "The Tanning Starseed");
-            QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "It feels like solar winds, and solar chimes\n[c/777777:三分钟半内击败炼狱夜晚亵渎天神]");
+            QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "It feels like solar winds, and solar chimes\n[c/777777:在三分半内击败炼狱模式下的夜晚亵渎天神]");
             QuickTranslate(typeof(SakuraWish), "Initialize", "Innocent Breeze", "Innocent Breeze");
             QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]");
             QuickTranslate(typeof(StormMaidenWish), "Initialize", "Lamentation", "Lamentation");
@@ -160,9 +160,9 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "him", "他");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "her", "她");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", ", my brothers.", "，我的兄弟们。");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "这才刚刚开始呢！");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "I'm not done yet! Brace yourself for my strongest hex!", "I'm not done yet! Brace yourself for my strongest hex!");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "唔。");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "我现在才刚刚使出全力！");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "I'm not done yet! Brace yourself for my strongest hex!", "还没完呢！准备迎接我的最强法术吧！");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "额啊。");
             #endregion
             #region DoG
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I WILL NOT BE DESTROYED!!!", "我不会被毁灭！！！", 2);
@@ -182,7 +182,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "Mysterious ruins have materialized in the heart of the desert!", "神秘的废墟出现在沙漠的中心！");
             //Lore
             QuickTranslate(typeof(KnowledgeBereftVassal), "get_Lore", "An unusal pair of solitary camaraderie.\nOnce a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.\nWithout purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.\nFates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.",
-                "An unusal pair of solitary camaraderie.\nOnce a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.\nWithout purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.\nFates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.");
+                "源于孤独的非凡友情。\n阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。\n他藏身于这些神秘的废墟中，默默见证着时间的流逝，没有任何目的，直到你的到来。\n他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。");
 
             //超平面矩阵 CyberneticImmortality
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "超平面矩阵已");

@@ -96,12 +96,12 @@
     AridBattlecry: 旱沙号角
     EyeOfMadness: Eye of Madness
     IllusionersReverie: Illusioner's Reverie
-    Kevin: kevin
+    Kevin: KEVIN
     CallUponTheEggs: Call Upon The Eggs
     Myrindael: 颤沙霆戟
     TheGlassmaker: 熔璃化匠
     Dreamtastic: Dreamtastic
-    StormMaidensRetribution: Storm Maiden's Retribution
+    StormMaidensRetribution: 风暴少女之复仇
     WanderersShell: 流浪者之壳
     }
     ItemTooltip:
@@ -117,7 +117,7 @@
         '''
         增加30%伤害和攻击速度
         免疫夜魇
-        [c/ff5d5d:你会变得不幸]
+        [c/ff5d5d:你会变得不幸]（无法暴击）
         [c/59aae7:It sounds like two brothers, chasing glass frogs in the sun]
         '''
       SakuraBloom:
@@ -140,13 +140,13 @@
         '''
         一个难以计算的复杂装置，其中蕴含着无限的力量
         使用以打开一个面板，其能够授予你各种扭曲现实的能力
-        在遥远的星球上，一个名为嘉登的存在诞生了
-        Made to construct and to evolve
-        One purpose, one cycle
-        High, the machine works
-        Low, it rests
-        All ordered
-        All same
+        在遥远的天体上，一个名为嘉登的存在诞生了
+        生来为创造与改进
+        一个目标，一个循环
+        电量充足，日夜运转
+        电量不足，机械休眠
+        一切早已安排
+        一切毫无区别
         '''
       KnowledgeBereftVassal:
         '''
@@ -163,8 +163,8 @@
         '''
       NightmareCatcher:
         '''
-        Summons the Sheep Lord to follow you around
-        It Appears From the Darkness, As I Softly Slink Into The Dream
+        召唤绵羊之主跟着你
+        当我轻轻的进入梦乡，它便自黑暗之中诞生
         '''
       RisingWarriorsSoulstone:
         '''
@@ -319,8 +319,8 @@
         '''
       Kevin:
         '''
-        A part of a greater whole, incomprehensible to the layperson
-        It stands for 'Kinetic Electroplasma Voltage Infuser'
+        宏伟之铸的一小部分，外行人理解不了这些
+        它是“动能电浆伏压注入器”的缩写
         '''
       CallUponTheEggs: "[c/f0ad56:这把武器只能由那些肩负着保护弱者使命的人使用]"
       Myrindael:
@@ -997,41 +997,41 @@
     }
     BuffName:
     {
-      AccentuationHex: Hex of Accentuation
+      AccentuationHex: 引魔巫咒
       AsterPetBuff: Aster
       BlahajBuff: Blahaj
-      BrimstoneBarrier: Brimstone Barrier
-      BrimstoneExhaustion: Brimstone Exhaustion
+      BrimstoneBarrier: 硫火屏障
+      BrimstoneExhaustion: 硫火之疲惫
       BronzePetBuff: Calamity Bumblebirb Circa 2018
-      CatharsisHex: Hex of Catharsis
+      CatharsisHex: 泄怒巫咒
       DarkFlames: 黑暗火焰
       HatGirlBuff: 礼帽女孩
-      IndignationHex: Hex of Indignation
+      IndignationHex: 愤慨巫咒
       Madness: 精神失常
       ShadowflameInferno: 暗影狱火
       SheepGodBuff: 绵羊之神
-      Sleepy: Sleepy
-      WeaknessHex: Hex of Weakness
-      ZealHex: Hex of Zeal
+      Sleepy: 困倦
+      WeaknessHex: 羸弱巫咒
+      ZealHex: 狂化巫咒
     }
     BuffDescription:
     {
-      AccentuationHex: Your opponent's magic attracts to you
+      AccentuationHex: 你对手的魔法将会追踪你
       AsterPetBuff: He
       BlahajBuff: Comforting friend
       BrimstoneBarrier: Your magic withers your weaponry at the cost of a strong magical barrier
       BrimstoneExhaustion: You cannot resummon the Brimstone Crescent Staff's forcefield
       BronzePetBuff: Did you know that you can pet the birb in Terraria?
-      CatharsisHex: 自然生命再生被禁用，愤怒之魂从你体内释放出来
+      CatharsisHex: 自然生命再生被禁用，愤怒的灵魂从你体内释放了
       DarkFlames: 你的身体被遗忘之火吞噬，你的防御力降低了
       HatGirlBuff: 芳心纵火犯
-      IndignationHex: 你被探魂者盯上了
+      IndignationHex: 一个探魂者以你作为目标
       Madness: 要疯了……
       ShadowflameInferno: 快速流失生命值
       SheepGodBuff: 绵羊也会数羊吗？
-      Sleepy: You are fast asleep!
+      Sleepy: 你睡着了！
       WeaknessHex: 你的防御力和伤害减免被大幅度削弱了
-      ZealHex: Your opponent's magic accelerates wildly
+      ZealHex: 你的敌手的魔法将大幅度加速
     }
     MapObject:
     {
