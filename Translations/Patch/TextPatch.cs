@@ -38,7 +38,7 @@ namespace CalamityCN.Translations.Patch {
                 new string[2]{"Rust and Dust", "锈蚀和灰尘".zh()},
                 new string[2]{"Discovering the new Challenger Deep", "正在探索更深处的新挑战".zh()},
                 new string[2]{"Further polluting one of the oceans", "正在进一步污染海洋".zh()},
-                new string[2]{"I Wanna Rock", "石头，嘿嘿嘿，我的石头" }
+                new string[2]{"I Wanna Rock", "石头，嘿嘿嘿，我的石头".zh()}
 
             };
             foreach (string[] il in WMS) {

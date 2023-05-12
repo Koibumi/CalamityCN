@@ -81,17 +81,19 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(MatrixWish), "Initialize", "The Scientific Method", "科学方式");
             QuickTranslate(typeof(MatrixWish), "Initialize", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]", "实验就是失败，失败就是学习，学习就是进步\n[c/777777:击败所有Boss和星流巨械的全部组合]");
             QuickTranslate(typeof(NightmareWish), "Initialize", "It Awakens", "它已苏醒");
-            QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n[c/777777:Sleep in the brimstone crags for 16 seconds]", "它需要献祭，而你正是个不错的选择\n[c/777777:在硫火之崖睡15秒]");
+            QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n", "它需要献祭，而你正是个不错的选择\n");
+            QuickTranslate(typeof(NightmareWish), "Initialize", "[c/777777:Sleep in the brimstone crags for ", "[c/777777:在硫火之崖睡");
+            QuickTranslate(typeof(NightmareWish), "Initialize", " seconds]", "秒]");
             QuickTranslate(typeof(PurityWish), "Initialize", "The Tanning Starseed", "The Tanning Starseed");
             QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "It feels like solar winds, and solar chimes\n[c/777777:在三分半内击败炼狱模式下的夜晚亵渎天神]");
             QuickTranslate(typeof(SakuraWish), "Initialize", "Innocent Breeze", "Innocent Breeze");
-            QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]");
+            QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "One hundred whimsical spirits, dancing playfully\n[c/777777:找到樱花花苞]");
             QuickTranslate(typeof(StormMaidenWish), "Initialize", "Lamentation", "Lamentation");
-            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]");
+            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:击败星流巨械和至尊灾厄后，下雨天在出生点找到该长矛]");
             QuickTranslate(typeof(TabletWish), "Initialize", "Unsullied", "Unsullied");
-            QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]");
+            QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "Not all beasts are monsters\n[c/777777:在腐蚀度不超过50%的情况下击败渊海灾虫]");
             QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "Amazingly Asinine Assistant");
-            QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]");
+            QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "You're improving with every failure! Keep going!\n[c/777777:在任意Boss战累计死亡3次]");
             #endregion
             //难度
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
@@ -147,15 +149,15 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(PlaguebringerGoliathBehaviorOverride), "DoBehavior_BombConstructors", "NUCLEAR CORE GENERATED. INITIATING BUILD PROCEDURE!", "核能核心生成，组装程序开始启动！");
             
             QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blazing air rises...", "空气变得灼热起来……");
-            QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blue flames roar...", "苍蓝的烈火猛烈咆哮……");
-            QuickTranslate(typeof(ProvidenceBehaviorOverride), "DoBehavior_EnterFireFormBulletHell", "Lava is rising from below!", "岩浆正在从下上涨！");
+            QuickTranslate(typeof(ProvidenceBehaviorOverride), "PreAI", "The blue flames roar...", "苍蓝之火猛烈咆哮……");
+            QuickTranslate(typeof(ProvidenceBehaviorOverride), "DoBehavior_EnterFireFormBulletHell", "Lava is rising from below!", "炽热的岩浆正在自下方涨起！");
             
             QuickTranslate(typeof(TwinsAttackSynchronizer), "DoAI", ": DEFENSES PENETRATED. INITIATING PROCEDURE SHLD-17ECF9.", "：防御被突破，启动程序SHLD-17ECF9。");
             QuickTranslate(typeof(TwinsAttackSynchronizer), "DoAI", ": ERROR DETECTING SECONDARY UNIT. BURNING EXCESS FUEL RESERVES.", "：检测到辅助装置错误，燃烧多余的燃料储备。");
 
             QuickTranslate(typeof(YharonBehaviorOverride), "DoBehavior_FinalDyingRoar", "The heat is surging...", "热浪滚滚……", 2);
-            QuickTranslate(typeof(YharonBehaviorOverride), "PreAI", "The air is scorching your skin...", "空气炙烤着你的皮肤……");
-            QuickTranslate(typeof(YharonBehaviorOverride), "DisplayAEWNotificationText", "A primordial light shimmers at the nadir of the abyssal depths...", "一束原始的光在深渊的最深处闪烁……");
+            QuickTranslate(typeof(YharonBehaviorOverride), "DoBehavior_EnterSecondPhase", "The air is scorching your skin...", "空气炙烤着你的皮肤……");
+            QuickTranslate(typeof(YharonBehaviorOverride), "DisplayAEWNotificationText", "A primordial light shimmers at the nadir of the abyssal depths...", "一束原始之光在深渊的最深处闪烁……");
             
             //似乎无效
             //QuickTranslate(typeof(BereftVassal), "get_BossTitle", "Bereft Vassal", "无邦封臣");
@@ -227,7 +229,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(BereftVassalIntroScreen), "get_TextToDisplay", "Argus\nThe Bereft Vassal", "阿尔戈斯\n无邦封臣");
                 QuickTranslate(typeof(BrainOfCthulhuIntroScreen), "get_TextToDisplay", "Eldritch Mind\nThe Brain of Cthulhu", "邪神思维\n克苏鲁之脑");
                 QuickTranslate(typeof(BrimstoneElementalIntroScreen), "get_TextToDisplay", "Scarred Numen\nThe Brimstone Elemental", "受创守护神\n硫磺火元素");
-                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Shadow", "欺诈女巫\n灾厄之影");
+                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Shadow", "欺诈魔女\n灾厄之影");
                 QuickTranslate(typeof(CeaselessVoidIntroScreen), "get_TextToDisplay", "The Never-Ending\nCeaseless Void", "无止之噬\n无尽虚空");
                 QuickTranslate(typeof(CrabulonIntroScreen), "get_TextToDisplay", "The Reanimated Carcass\nCrabulon", "复生死尸\n菌生蟹");
                 QuickTranslate(typeof(CryogenIntroScreen), "get_TextToDisplay", "The Unstable Prison\nCryogen", "崩摧监牢\n极地之灵");
@@ -235,7 +237,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(DeerclopsIntroScreen), "get_TextToDisplay", "Winter Beast\nThe Deerclops", "冬日凶兽\n独眼巨鹿 ");
                 QuickTranslate(typeof(DesertScourgeIntroScreen), "get_TextToDisplay", "Dried Glutton\nThe Desert Scourge", "干缩饕餮\n荒漠灾虫");
                 QuickTranslate(typeof(DestroyerIntroScreen), "get_TextToDisplay", "World Excavator\nThe Destroyer", "世界挖掘者\n毁灭者");
-                QuickTranslate(typeof(DoGIntroScreen), "get_TextToDisplay", "The Conceited\nDevourer of Gods", "自命不凡\n神明吞噬者");
+                QuickTranslate(typeof(DoGIntroScreen), "get_TextToDisplay", "The Conceited\nDevourer of Gods", "自命不凡的\n神明吞噬者");
                 QuickTranslate(typeof(DraedonIntroScreen), "get_TextToDisplay", "The Cosmic Engineer\nDraedon", "寰宇神匠\n嘉登");
                 QuickTranslate(typeof(DragonfollyIntroScreen), "get_TextToDisplay", "False Offspring\nThe Dragonfolly", "混血龙裔\n痴愚金龙");
                 QuickTranslate(typeof(DreadnautilusIntroScreen), "get_TextToDisplay", "Nightmare of the Blood Moon\nDreadnautilus", "血月之魇\n恐惧鹦鹉螺");
