@@ -3,6 +3,7 @@ using InfernumMode;
 using InfernumMode.Content.Achievements;
 using InfernumMode.Content.Achievements.DevWishes;
 using InfernumMode.Content.Achievements.InfernumAchievements;
+using InfernumMode.Content.BehaviorOverrides.BossAIs.AquaticScourge;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.DoG;
@@ -158,7 +159,9 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(YharonBehaviorOverride), "DoBehavior_FinalDyingRoar", "The heat is surging...", "热浪滚滚……", 2);
             QuickTranslate(typeof(YharonBehaviorOverride), "DoBehavior_EnterSecondPhase", "The air is scorching your skin...", "空气炙烤着你的皮肤……");
             QuickTranslate(typeof(YharonBehaviorOverride), "DisplayAEWNotificationText", "A primordial light shimmers at the nadir of the abyssal depths...", "一束原始之光在深渊的最深处闪烁……");
-            
+
+            QuickTranslate(typeof(AquaticScourgeHeadBehaviorOverride), "DoBehavior_EnterFinalPhase", "A deluge of acid is quickly rising from below!", "一股酸液正迅速从下面涌上来!");
+
             //似乎无效
             //QuickTranslate(typeof(BereftVassal), "get_BossTitle", "Bereft Vassal", "无邦封臣");
             //QuickTranslate(typeof(BereftVassal), "get_SpawnRequirement", "Use a [i:", "在沙漠中心的基座上使用 [i:");
@@ -190,15 +193,11 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(DebuffEffectsPlayer), "PreKill", " went mad.", "发疯了。");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "A profaned shrine has erupted from the ashes at the underworld's edge!", "一座亵渎神庙从地狱边缘的灰烬中拔地而起！");
             QuickTranslate(typeof(GlobalNPCOverrides), "OnKill", "Mysterious ruins have materialized in the heart of the desert!", "神秘的废墟出现在沙漠的中心！");
-            QuickTranslate(typeof(TerminusIntroScreen), "get_TextToDisplay", "You found the Terminus!", "你找到了终末石！");
             QuickTranslate(typeof(CultistBehaviorOverride), "PreAI", " was repelled by celestial forces.", "被天体力量驱逐。");
             QuickTranslate(typeof(HyperplaneMatrixProjectile), "DoBehavior_InitialShake", " was blown up.", "被炸碎了。");
             QuickTranslate(typeof(CalamityBossHPBarChangesSystem), "UndoBarChanges", "Dark Energy", "暗能量");
             //Relic
             QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
-            //Lore
-            QuickTranslate(typeof(KnowledgeBereftVassal), "get_Lore", "An unusal pair of solitary camaraderie.\nOnce a warrior of noble renown, it would seem that Argus was one of the few survivors to emerge from the ruins of Ilmeris.\nWithout purpose, he sought refuge in these enigmatic ruins, silently witnessing the passage of time until your arrival.\nFates like his are the consequence of misguided self-righteousness. Do not cause senseless pain in the pursuit of greater causes.",
-                "源于孤独的非凡友情。\n阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。\n他藏身于这些神秘的废墟中，默默见证着时间的流逝，没有任何目的，直到你的到来。\n他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。");
 
             //超平面矩阵 CyberneticImmortality
             QuickTranslate(typeof(CyberneticImmortalityPlayer), "ToggleImmortality", "Cybernetic immortality has been ", "无敌已");
@@ -279,6 +278,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Unwavering Guardian\nYharon", "忠诚护卫\nYharon");
                 //成年幻海妖龙
                 QuickTranslate(typeof(AEWIntroScreen), "get_TextToDisplay", "Primeval Warden\nThe Eidolon Wyrm", "始渊守卫\n成年幻海妖龙");
+                QuickTranslate(typeof(TerminusIntroScreen), "get_TextToDisplay", "You found the Terminus!", "你找到了终末石！");
             }
 
             //特效Tooltip?翻译随手贴的可以再改改

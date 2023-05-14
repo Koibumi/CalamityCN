@@ -16,12 +16,8 @@ namespace CalamityCN.Utils
 
 		internal static void ApplyTooltipEdits(Item item, List<TooltipLine> lines, Func<Item, TooltipLine, bool> predicate, Action<TooltipLine> action)
 		{
-			Func<TooltipLine, bool> predicate2;
-			if ((predicate2 = null) == null)
-			{
-				predicate2 = ((TooltipLine line) => predicate(item, line));
-			}
-			foreach (TooltipLine line2 in lines.Where(predicate2))
+
+			foreach (TooltipLine line2 in lines.Where(line => predicate(item, line)))
 			{
 				if (line2 != null)
 				{

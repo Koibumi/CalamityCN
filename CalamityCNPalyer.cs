@@ -17,7 +17,8 @@ namespace CalamityCN
             if(ModsCall.Infernum != null)
             {
             Color Orange = Color.Orange;
-            Main.NewText("[灾厄汉化补丁：如果游戏内重载模组出现Bug，尝试重启游戏]", Orange);
+            Main.NewText("[灾厄汉化补丁：如果游戏内重载模组出现Bug，尝试重启游戏。]", Orange);
+			Main.NewText("[炼狱中文标题：默认已改回关，如想使用可在汉化配置中开启。]", Orange);
             }
             
         }

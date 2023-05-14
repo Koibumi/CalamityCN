@@ -7,9 +7,10 @@ using Terraria.ID;
 using CalamityMod.Items.SummonItems;
 using InfernumMode.Content.Items.Relics;
 using InfernumMode.Content.Items;
-using InfernumMode.Content.Items.Pets;
-using InfernumMode.Content.BehaviorOverrides.BossAIs.CalamitasShadow;
-using InfernumMode.Content.Items.Weapons.Magic;
+using InfernumMode.Core.GlobalInstances.Systems;
+using Terraria.GameInput;
+using System.Linq;
+using InfernumMode.Content.Items.LoreItems;
 
 namespace CalamityCN.Translations.InfernumMode
 {
@@ -32,26 +33,38 @@ namespace CalamityCN.Translations.InfernumMode
 				{
 					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedShard.Warning", Array.Empty<object>());
 				});
-				return;
 			}
+			else if (item.type == ModContent.ItemType<Wayfinder>())
+			{
+				string WayfinderCreateKey = KeybindSystem.WayfinderCreateKey.GetAssignedKeys(InputMode.Keyboard).FirstOrDefault<string>();
+				string WayfinderDestroyKey = KeybindSystem.WayfinderDestroyKey.GetAssignedKeys(InputMode.Keyboard).FirstOrDefault<string>();
+				ItemHelper.TranslateTooltip(item, tooltips, "Tooltip2", delegate (TooltipLine tooltip)
+				{
+					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Wayfinder.Tooltip.2", new object[]
+					{
+						WayfinderCreateKey ?? "[NONE]",
+						WayfinderDestroyKey ?? "[NONE]"
+					});
+				});
+			}
+			else if (item.type == ModContent.ItemType<KnowledgeBereftVassal>())
+			{
+				ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+				{
+					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Lore.KnowledgeBereftVassal", Array.Empty<object>());
+				});
+			}
+
 
 			foreach (TooltipLine line in tooltips)
 			{
-				if (item.type == ModContent.ItemType<Wayfinder>())
-                {
-					line.Text = line.Text.Replace("Hold LMB to teleport to the gate", "按住左键传送到魔法门");
-					line.Text = line.Text.Replace("Hold LMB and", "按住左键和");
-					line.Text = line.Text.Replace("unbound", "未绑定");
-					line.Text = line.Text.Replace("to set the gate to your position", "键，设置你的魔法门传送点");
-					line.Text = line.Text.Replace("to remove the gate", "键，移除魔法门");
-				}
 				if (item.type == ItemID.CelestialSigil)
 				{
 					line.Text = line.Text.Replace("Summons the Moon Lord immediately\nCreates an arena at the player's position\nNot consumable.", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.Vanilla.CelestialSigil", Array.Empty<object>()));
 				}
                 if (item.type == ModContent.ItemType<EyeofDesolation>())
                 {
-					line.Text = line.Text.Replace("Summons the Forgotten Shadow of Calamitas when used during nighttime", "在夜晚使用召唤遗落灾影");
+					line.Text = line.Text.Replace("Summons the Forgotten Shadow of Calamitas when used during nighttime", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.EyeofDesolation", Array.Empty<object>()));
                 }
                 if (item.type == ModContent.ItemType<ProfanedCore>())
                 {
@@ -59,7 +72,7 @@ namespace CalamityCN.Translations.InfernumMode
                 }
                 if (item.type == ModContent.ItemType<RuneofKos>())
                 {
-                    line.Text = line.Text.Replace("The Ceaseless Void can only be fought in the Archives", "The Ceaseless Void can only be fought in the Archives");
+                    line.Text = line.Text.Replace("The Ceaseless Void can only be fought in the Archives", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.RuneofKos", Array.Empty<object>()));
                 }
 				if (item.type == ItemID.LihzahrdPowerCell)
 				{

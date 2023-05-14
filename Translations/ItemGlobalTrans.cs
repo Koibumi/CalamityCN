@@ -30,6 +30,7 @@ using CalamityMod.Items.Placeables.Furniture.CraftingStations;
 using CalamityMod.Items.Placeables.Walls;
 using CalamityCN.Utils;
 using System;
+using CalamityMod.Items.LoreItems;
 
 public class ItemGlobalTrans : GlobalItem
 {
@@ -465,7 +466,387 @@ public class ItemGlobalTrans : GlobalItem
     //修改描述	
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-            foreach (TooltipLine line in tooltips)
+        //Lore
+        if (item.type == ModContent.ItemType<LoreAbyss>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreAbyss", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreAquaticScourge>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreAquaticScourge", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreArchmage>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreArchmage", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreAstralInfection>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreAstralInfection", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreAstrumAureus>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreAstrumAureus", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreAstrumDeus>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreAstrumDeus", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreAwakening>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreAwakening", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreAzafure>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreAzafure", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreBloodMoon>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreBloodMoon", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreBrainofCthulhu>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreBrainofCthulhu", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreBrimstoneElemental>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreBrimstoneElemental", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreCalamitas>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreCalamitas", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreCalamitasClone>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreCalamitasClone", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreCeaselessVoid>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreCeaselessVoid", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreCorruption>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreCorruption", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreCrabulon>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreCrabulon", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreCrimson>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreCrimson", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreCynosure>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreCynosure", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreDesertScourge>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreDesertScourge", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreDestroyer>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreDestroyer", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreDevourerofGods>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreDevourerofGods", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreDragonfolly>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreDragonfolly", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreDukeFishron>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreDukeFishron", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreEaterofWorlds>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreEaterofWorlds", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreEmpressofLight>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreEmpressofLight", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreExoMechs>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreExoMechs", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreEyeofCthulhu>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreEyeofCthulhu", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreGolem>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.Golem", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreHiveMind>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreHiveMind", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreKingSlime>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreKingSlime", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreLeviathanAnahita>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreLeviathanAnahita", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreMechs>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreMechs", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreOldDuke>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreOldDuke", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LorePerforators>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LorePerforators", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LorePlaguebringerGoliath>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LorePlaguebringerGoliath", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LorePlantera>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LorePlantera", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LorePolterghast>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LorePolterghast", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LorePrelude>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LorePrelude", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreProfanedGuardians>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreProfanedGuardians", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreProvidence>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreProvidence", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreQueenBee>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreQueenBee", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreQueenSlime>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreQueenSlime", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreRavager>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreRavager", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreRequiem>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreRequiem", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreSignus>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreSignus", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreSkeletron>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreSkeletron", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreSkeletronPrime>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreSkeletronPrime", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreSlimeGod>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreSlimeGod", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreStormWeaver>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreStormWeaver", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreSulphurSea>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreSulphurSea", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreTwins>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreTwins", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreUnderworld>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreUnderworld", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreWallofFlesh>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreWallofFlesh", Array.Empty<object>());
+            });
+        }
+        else if (item.type == ModContent.ItemType<LoreYharon>())
+        {
+            ItemHelper.TranslateTooltip(item, tooltips, "CalamityMod:Lore", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = LangHelper.GetTextValue("CalamityMod.Items.Lore.LoreYharon", Array.Empty<object>());
+            });
+        }
+
+        foreach (TooltipLine line in tooltips)
             {
             //图鉴掉落提示
             ItemHelper.TranslateTooltip(item, tooltips, "BestiaryNotes", delegate (TooltipLine tooltip)

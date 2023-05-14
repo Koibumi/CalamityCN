@@ -24,7 +24,7 @@ namespace CalamityCN
         [Header("炼狱模式部分配置")]
         [Label("标题字体转换")]
         [Tooltip("启用后炼狱模式下BOSS介绍标题字体将使用中文格式\n注意：需要启用下方特殊部分才有效！")]
-        [DefaultValue(true)]
+        [DefaultValue(false)]
         public bool InfernumCNFont;
 
 		[ReloadRequired]

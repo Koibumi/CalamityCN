@@ -1,6 +1,6 @@
 displayName = 灾厄Mod-汉化补丁
 author = Kcovin&灾厄维基汉化组
-version = 2.3.4
+version = 2.3.5
 modReferences = CalamityMod
 weakReferences = InfernumMode, CalamityModMusic, InfernumModeMusic
 hideCode = true
