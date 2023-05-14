@@ -6,7 +6,7 @@
     {
     CherishedSealocket: 珍海吊坠
     FlowerOfTheOcean: 海之花
-    Purity: Purity
+    Purity: 纯净
     SakuraBloom: 盛开的樱花
     BereftVassalBossBag: 宝藏袋（无邦封臣）
     BrimstoneCrescentStaff: Brimstone Crescent Staff
@@ -24,11 +24,11 @@
     SuspiciouslyRoundFeather: Suspiciously Round Feather
     AquaticScourgeSkull: 渊海灾虫的头骨
     BereftVassalTrophy: 无邦封臣纪念章
-    CosmicMonolithItem: Cosmic Monolith
+    CosmicMonolithItem: 寰宇之石
     CreditPainting: Credit where Credit is Due
     GrandStatueItem: 狂鲨雕像
     ProfanedFountainItem: 亵渎岩浆喷泉
-    ProvidenceSpawnerItem: Providence Shrine Debug Item
+    ProvidenceSpawnerItem: 亵渎祭坛Debug物品
     TabletPedestal: Tablet Pedestal
     AEWRelic: 成年幻海妖龙孽狱圣物
     AquaticScourgeRelic: 渊海灾虫孽狱圣物
@@ -94,13 +94,13 @@
     WaterglassToken: 水琉璃之赠
     Wayfinder: 寻路者
     AridBattlecry: 旱沙号角
-    EyeOfMadness: Eye of Madness
+    EyeOfMadness: 癫狂魔眼
     IllusionersReverie: Illusioner's Reverie
     Kevin: KEVIN
-    CallUponTheEggs: Call Upon The Eggs
+    CallUponTheEggs: 呼唤之蛋
     Myrindael: 颤沙霆戟
     TheGlassmaker: 熔璃化匠
-    Dreamtastic: Dreamtastic
+    Dreamtastic: 梦幻
     StormMaidensRetribution: 风暴少女之复仇
     WanderersShell: 流浪者之壳
     }
@@ -154,7 +154,7 @@
         [c/bebebe:按住“左Shift”仔细聆听]
         '''
       LunarCoin: ""
-      Blahaj: Summons a pet ikea plushie
+      Blahaj: 召唤一只宜家毛绒玩具宠物
       BlastedTophat: 召唤一个小小的礼帽女孩在你与Boss战斗时给予你建议
       DisenchantedTablet:
         '''
@@ -916,7 +916,7 @@
       CherryBlossomPetal: Cherry Blossom Petal
       DisenchantedTabletProj: Disenchanted Tablet
       GuardiansSummonerProjectile: Guardians Summoner Projectile
-      HydrothermalSmoke: Steam
+      HydrothermalSmoke: 蒸汽
       PortalLensFlare: Lens Flare
       ProvidenceSummonerProjectile: Providence Summoner Projectile
       ScreenShakeProj: Screen Shake
@@ -932,14 +932,14 @@
       ShadowIllusion: Lens Flare
       ShadowTendril: Shadow Tendril
       EggGoldProjectile: Golden Egg
-      EggProjectile: Egg
+      EggProjectile: 蛋
       MyrindaelBonkProjectile: Myrindael
       MyrindaelLightning: Myrndael Lightning Bolt
       MyrindaelSpark: Myrindael Spark
       MyrindaelSpinProjectile: Myrindael
       AsterPetProj: Aster
       BlahajProj: Blahaj
-      BronzePetProj: Yharn
+      BronzePetProj: 鸭戎
       HatGirl: Hat Girl
       SheepGod: Sheep God
       GlassmakerFire: Glass Flames
@@ -950,10 +950,10 @@
       StormMaidensLightning: Storm Maiden Lightning Bolt
       StormMaidensRetributionProj: Storm Maiden's Retribution
       StormMaidensRetributionWorldProj: Storm Maiden's Retribution
-      WanderersShellProj: Wanderer's Shell
+      WanderersShellProj: 流浪者之壳
       WayfinderGate: Wayfinder Gate
-      WayfinderHoldout: Wayfinder
-      WayfinderItemProjectile: Wayfinder
+      WayfinderHoldout: 寻路者
+      WayfinderItemProjectile: 寻路者
       WayfinderSymbol: Wayfinder Gate Symbol
     }
     NPCName:
@@ -999,7 +999,7 @@
     {
       AccentuationHex: 引魔巫咒
       AsterPetBuff: Aster
-      BlahajBuff: Blahaj
+      BlahajBuff: 蓝鲨
       BrimstoneBarrier: 硫火屏障
       BrimstoneExhaustion: 硫火之疲惫
       BronzePetBuff: Calamity Bumblebirb Circa 2018
@@ -1017,11 +1017,11 @@
     BuffDescription:
     {
       AccentuationHex: 你对手的魔法将会追踪你
-      AsterPetBuff: He
-      BlahajBuff: Comforting friend
+      AsterPetBuff: 他
+      BlahajBuff: 舒适的朋友
       BrimstoneBarrier: Your magic withers your weaponry at the cost of a strong magical barrier
       BrimstoneExhaustion: You cannot resummon the Brimstone Crescent Staff's forcefield
-      BronzePetBuff: Did you know that you can pet the birb in Terraria?
+      BronzePetBuff: 你知道你能在泰拉瑞亚中养一只鸟吗？
       CatharsisHex: 自然生命再生被禁用，愤怒灵魂从你体内喷涌而出
       DarkFlames: 你的身体被遗忘之火吞噬，你的防御力降低了
       HatGirlBuff: 芳心纵火犯
