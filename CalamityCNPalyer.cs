@@ -14,6 +14,8 @@ namespace CalamityCN
     {
         public override void OnEnterWorld(Player player)
         {
+            /*var ModVersion = ModLoader.GetMod("CalamityMod").Version;
+            Main.NewText("测试" + ModVersion + "文本", Orange);*/
             if(ModsCall.Infernum != null)
             {
             Color Orange = Color.Orange;
