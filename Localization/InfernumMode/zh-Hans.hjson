@@ -12,7 +12,7 @@
     BrimstoneCrescentStaff: Brimstone Crescent Staff
     DemonicChaliceOfInfernum: 炼狱圣杯
     ProfanedCrystalDye: 渎神结晶染料
-    ElysianRose: Elysian Rose
+    ElysianRose: 极乐玫瑰
     HyperplaneMatrix: 超平面矩阵
     KnowledgeBereftVassal: 无邦封臣和旱海狂鲨
     LunarCoin: 月之币章
@@ -168,7 +168,7 @@
         '''
       RisingWarriorsSoulstone:
         '''
-        Summons a wolf starchild that... 'helps' you?
+        召唤一个狼星孩……“帮助”你?
         The tablet resonates with a strong legacy
         '''
       SuspiciouslyRoundFeather: 召唤一个老朋友
@@ -313,9 +313,9 @@
         '''
       IllusionersReverie:
         '''
-        Casts shadow illusions of yourself that hunt down nearby enemies before dispersing into clouds of dark magic
+        发射你的暗影幻像追踪攻击附近的敌怪然后会分散成黑魔法云
         You shouldn't see this
-        Its existence compels one to wonder what knowledge has been lost to the mysterious, watery depths
+        它的存在让人不禁想知道，究竟是什么知识被神秘的深海淹没了
         '''
       Kevin:
         '''
@@ -337,15 +337,15 @@
         '''
       Dreamtastic:
         '''
-        Summons two dorks that fire energy bolts at enemies
-        The book also releases energy bolts of its own
-        Contains a finite number of pages, documenting the stories of the two Dreamtastic Stars and their bountiful adventures
-        You are a dork
+        召唤两个笨蛋向敌人发射能量球
+        这本书本身也会释放能量
+        里面有限的页数，记录了两个梦幻之星他们丰富的冒险故事
+        你是个笨蛋
         '''
       StormMaidensRetribution:
         '''
-        Fires a spear that releases torrents of red lightning once fired
-        Stealth strikes release three spears upon firing that home in on enemies and release lightning from above when colliding with something
+        射出长矛会释放出红色的闪电
+        潜伏攻击会释放第三只长矛追踪敌怪，命中后会天降闪电
         A divine spear wielded by a storm goddess, tempered by her vast abilities
         The weapon itself seems to echo with perpetual misery, regret, and mourning
         '''

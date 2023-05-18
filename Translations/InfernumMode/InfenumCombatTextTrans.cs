@@ -21,12 +21,12 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 					else if (Main.combatText[index].text.Equals("Infinite flight granted!"))
                     {
-                        Main.combatText[index].text = "Infinite flight granted!";
+                        Main.combatText[index].text = "准许无限飞行！";
                     }
 					//Pet-RisingWarriorsSoulstone
 					else if (Main.combatText[index].text.Equals("Thought you could keep me away? Think again!"))
 					{
-						Main.combatText[index].text = "你想远离我？ 请三思";
+						Main.combatText[index].text = "你想远离我？ 请三思！";
 					}
 					else if (Main.combatText[index].text.Equals("Huzzah! I return."))
 					{
@@ -54,7 +54,7 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 					else if (Main.combatText[index].text.Equals("It's a beautiful day outside. Birds are singing, flowers are blooming..."))
 					{
-						Main.combatText[index].text = "It's a beautiful day outside. Birds are singing, flowers are blooming...";
+						Main.combatText[index].text = "外面是多美好的一天，鸟语花香……";
 					}
 					else if (Main.combatText[index].text.Equals("Wanna come pick flowers with me?"))
 					{
@@ -94,7 +94,7 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 					else if (Main.combatText[index].text.Equals("If you lose this time, I'll eat all your furniture. That's a threat."))
 					{
-						Main.combatText[index].text = "If you lose this time, I'll eat all your furniture. That's a threat.";
+						Main.combatText[index].text = "如果这次你输了，我就吃光你的家具。这就是威胁。";
 					}
 					else if (Main.combatText[index].text.Equals("Don't forget potions!"))
 					{
@@ -106,15 +106,15 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 					else if (Main.combatText[index].text.Equals("Keh, this'll be a breeze!"))
 					{
-						Main.combatText[index].text = "Keh, this'll be a breeze!";
+						Main.combatText[index].text = "咳，这将易如反掌!";
 					}
 					else if (Main.combatText[index].text.Equals("Go forth. Make me proud."))
 					{
-						Main.combatText[index].text = "Go forth. Make me proud.";
+						Main.combatText[index].text = "勇往直前，我的骄傲。";
 					}
 					else if (Main.combatText[index].text.Equals("Show us how it's done, big shot."))
 					{
-						Main.combatText[index].text = "Show us how it's done, big shot.";
+						Main.combatText[index].text = "给我展示一手，大佬。";
 					}
 					else if (Main.combatText[index].text.Equals("Remember, fallgodding is ALWAYS an option!"))
 					{
