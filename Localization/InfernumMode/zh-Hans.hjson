@@ -1168,9 +1168,9 @@
     }
   }
 #手动添加部分
-CalamityCN: {
- InfernumMode: {
-    CombatTexts: {
+  CalamityCN: {
+    InfernumMode: {
+      CombatTexts: {
         #之前的弹出提示文本，目前寄了，暂做文本保存。
         #史莱姆王
         0: 你离忍者越远，他就会扔更多飞镖，所以不要离太远！
@@ -1347,19 +1347,16 @@ CalamityCN: {
         #-
         128: 这似乎是影响传送定位的魔法，你的混沌传送杖在这里失效了！
         129: 那些陨石会落到你的面前，试着诱导它们以给你一点喘息的空间！
-    }
-
-    Bestiary: {
+      }
+      Bestiary: {
         BereftVassal: 一位警惕的守护者，曾漫无目的地流浪。在得知他的国王还活着后，他似乎已重新燃起了他生存的意志。他期待着再次与你战斗。
         Herring: Unusually hardy, these creatures somehow flourish in the toxic upper abyssal caverns. Regardless, they are at the bottom of the food chain.
         LionfishEnemy: These rugged fish are seldom hunted in their natural habitats, relying heavily on their venomous spines for both offense and defense.
         DepthFeeder: Even in the overwhelmingly hostile environment of the Abyss, ecosystems may flourish.
-
-    }
-
-    Items: {
+      }
+      Items: {
         Lore: {
-            KnowledgeBereftVassal: 
+          KnowledgeBereftVassal: 
             '''
             源于孤独的非凡友情。
             阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。
@@ -1367,19 +1364,18 @@ CalamityCN: {
             他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛
             '''
         }
-
-    Tooltip: {
+      Tooltip: {
         RuneofKos: The Ceaseless Void can only be fought in the Archives
         EyeofDesolation: 在夜晚使用召唤遗落灾影
         Wayfinder: 
-            '''
-            按住左键传送到魔法门
-            按住左键和 {0} 键，设置你的魔法门传送点
-            按住左键和 {1} 键，移除魔法门
-            '''
+          '''
+          按住左键传送到魔法门
+          按住左键和 {0} 键，设置你的魔法门传送点
+          按住左键和 {1} 键，移除魔法门
+          '''
         ProfanedShard: {
-            0: 在地狱最右侧亵渎花园的悬崖上使用召唤亵渎守卫
-            Warning: 
+          0: 在地狱最右侧亵渎花园的悬崖上使用召唤亵渎守卫
+          Warning: 
             '''
             当前世界没有亵渎神庙，击杀一次月亮领主来生成
             注意：确保已探索地狱嘉登实验室，生成亵渎神庙可能会破坏它
@@ -1387,89 +1383,88 @@ CalamityCN: {
         }
         ProfanedCore: 在地狱最右侧亵渎神庙中圣坛使用召唤亵渎天神
         ProvidenceRelic: {
-            0: 
+          0: 
             '''
             这是在你击败月球领主后遇到的第一个阻碍。战胜她绝非易事。
             也许你可以试试在晚上与她来一次特别的战斗？
             '''
-            HasBeatedInfernumNightProvBeforeDay: 
+          HasBeatedInfernumNightProvBeforeDay: 
             '''
             老兄？你在干什么？你还好吗？
             你应该先在白天击败过她一次后再在晚上与她战斗的！
             '''
         }
         DraedonRelic: {
-            0: 
+          0: 
             '''
             你做的很好。现在，只剩下一个挑战了-
             面对那位女巫。
             '''
-            DownedSCal: 
+          DownedSCal: 
             '''
             令人赞叹，你已经战胜了所有的困难。
             为这些成就感到骄傲吧，因为你已经比最初的时候更加强大了。
             '''
         }
         SupremeCalamitasRelic: {
-            0: 
+          0: 
             '''
             你做的很好。现在，只剩下一个挑战了-
             面对那位神匠。
             '''
-            DownedExoMechs: 
+          DownedExoMechs: 
             '''
             令人赞叹，你已经战胜了所有的困难。
             为这些成就感到骄傲吧，因为你已经比最初的时候更加强大了。
             '''
         }
         EyeOfCthulhuRelic: 
-            '''
-            记住不要强制一味的追求胜利，需要时休息一下。
-            享受乐趣是最重要的。
-            '''
+          '''
+          记住不要强制一味的追求胜利，需要时休息一下。
+          享受乐趣是最重要的。
+          '''
         EmpressOfLightRelic: 那些可选性的敌人有时可能很难对付。击败他们也可能会拥有很高的收益。
         GolemRelic: 还有很长的路要走，有条不紊的计划将有助于克服未来的障碍。
         KingSlimeRelic: 即使是经验再丰富的玩家，面对陌生的挑战也会不熟练。适应力是关键。
         MoonLordRelic: 
-            '''
-            到目前为止，你做得很好。
-            但愿你的坚韧不拔能指引你完成剩下的挑战。
-            '''
+          '''
+          到目前为止，你做得很好。
+          但愿你的坚韧不拔能指引你完成剩下的挑战。
+          '''
         OldDukeRelic: 
-            '''
-            这也许是场困难的战斗，但你十分明智的忍受并克服了它所带来的挑战。
-            你会发现它所测试你的机制将会很快就会再次出现。
-            '''
+          '''
+          这也许是场困难的战斗，但你十分明智的忍受并克服了它所带来的挑战。
+          你会发现它所测试你的机制将会很快就会再次出现。
+          '''
         PlanteraRelic: 
-            '''
-            为你的死亡次数感到骄傲！
-            死的越多，学的越多。继续前进！
-            '''
+          '''
+          为你的死亡次数感到骄傲！
+          死的越多，学的越多。继续前进！
+          '''
         SkeletronRelic: 流程第一个阻碍，你现在比之前面对它更加熟练了，你享受熟练它攻击模式的过程吗？
         DevourerOfGodsRelic: 
-            '''
-            有些时候，纯粹的反应能力是最值得去培养的
-            你已经到了最终的阶段。目前为止，你已经证明了你那无价的决心。
-            愿它指引你完成最后的挑战。
-            '''
+          '''
+          有些时候，纯粹的反应能力是最值得去培养的
+          你已经到了最终的阶段。目前为止，你已经证明了你那无价的决心。
+          愿它指引你完成最后的挑战。
+          '''
         SandstormsCore1: "开启前往失落竞技场的入口"
         SandstormsCore2: "你的世界目前没有失落之门，杀死拜月教邪教徒以生成它。"
-
         Vanilla: {
-            CelestialSigil: 
-                '''
-                立刻召唤月亮领主
-                会在玩家的位置创建一个战斗场地
-                不消耗
-                '''
-            LihzahrdPowerCell: 
-                '''
+          CelestialSigil: 
+            '''
+            立刻召唤月亮领主
+            会在玩家的位置创建一个战斗场地
+            不消耗
+            '''
+          LihzahrdPowerCell: 
+            '''
 
-                在祭坛周围创建一个矩形战斗场地，如果祭坛在神庙内，则场地内神庙方块会被破坏
-                '''
+            在祭坛周围创建一个矩形战斗场地，如果祭坛在神庙内，则场地内神庙方块会被破坏
+            '''
         }
+        }
+      }
     }
-    }
-}
-}
+  }
 }
