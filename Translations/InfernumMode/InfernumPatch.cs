@@ -89,9 +89,9 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "It feels like solar winds, and solar chimes\n[c/777777:在三分半内击败炼狱模式下的夜晚亵渎天神]");
             QuickTranslate(typeof(SakuraWish), "Initialize", "Innocent Breeze", "Innocent Breeze");
             QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "One hundred whimsical spirits, dancing playfully\n[c/777777:找到樱花花苞]");
-            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Lamentation", "Lamentation");
-            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:击败星流巨械和至尊灾厄后，下雨天在出生点找到该长矛]");
-            QuickTranslate(typeof(TabletWish), "Initialize", "Unsullied", "Unsullied");
+            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Lamentation", "哀歌");
+            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:击败星流巨械和灾厄，并在下雨天的出生点附近找到一把矛]");
+            QuickTranslate(typeof(TabletWish), "Initialize", "Unsullied", "纯洁无暇");
             QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "Not all beasts are monsters\n[c/777777:在腐蚀度不超过50%的情况下击败渊海灾虫]");
             QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "Amazingly Asinine Assistant");
             QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "You're improving with every failure! Keep going!\n[c/777777:在任意Boss战累计死亡3次]");
@@ -160,7 +160,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(YharonBehaviorOverride), "DoBehavior_EnterSecondPhase", "The air is scorching your skin...", "空气炙烤着你的皮肤……");
             QuickTranslate(typeof(YharonBehaviorOverride), "DisplayAEWNotificationText", "A primordial light shimmers at the nadir of the abyssal depths...", "一束原始之光在深渊的最深处闪烁……");
 
-            QuickTranslate(typeof(AquaticScourgeHeadBehaviorOverride), "DoBehavior_EnterFinalPhase", "A deluge of acid is quickly rising from below!", "一股酸液正迅速从下面涌上来!");
+            QuickTranslate(typeof(AquaticScourgeHeadBehaviorOverride), "DoBehavior_EnterFinalPhase", "A deluge of acid is quickly rising from below!", "一股强酸正迅速从下方喷涌而上!");
 
             //似乎无效
             //QuickTranslate(typeof(BereftVassal), "get_BossTitle", "Bereft Vassal", "无邦封臣");
@@ -173,7 +173,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "him", "他");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", "her", "她");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", ", my brothers.", "，我的兄弟们。");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "我现在才刚刚使出全力！");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "我才刚刚使出全力！");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "I'm not done yet! Brace yourself for my strongest hex!", "还没完呢！准备迎接我的最强法术吧！");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "额啊。");
             #endregion
@@ -243,7 +243,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(DukeFishronIntroScreen), "get_TextToDisplay", "Terror of the Seas\nDuke Fishron", "海洋之惧\n猪龙鱼公爵");
                 QuickTranslate(typeof(EaterOfWorldsIntroScreen), "get_TextToDisplay", "Terror of the Corruption\nThe Eater of Worlds", "腐化之惧\n世界吞噬者");
                 QuickTranslate(typeof(EmpressOfLightIntroScreen), "get_TextToDisplay", "Prismatic Fae\nThe Empress of Light", "虹棱辐辉\n光之女皇");
-                QuickTranslate(typeof(EyeOfCthulhuIntroScreen), "get_TextToDisplay", "Demonic Seer\nThe Eye of Cthulhu", "恶魔注视者\n克苏鲁之眼");
+                QuickTranslate(typeof(EyeOfCthulhuIntroScreen), "get_TextToDisplay", "Demonic Seer\nThe Eye of Cthulhu", "恶魔凝视者\n克苏鲁之眼");
                 //QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "NUMBER ! SALSMAN\n[Circa 1997]", "");
                 QuickTranslate(typeof(GreatSandSharkIntroScreen), "get_TextToDisplay", "Taurus\nThe Great Sand Shark", "托勒斯\n旱海狂鲨");
                 QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "The Ancient Idol\nGolem", "古代神像\n石巨人");
