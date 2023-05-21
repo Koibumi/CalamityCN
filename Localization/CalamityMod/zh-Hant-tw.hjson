@@ -3863,31 +3863,29 @@ Mods: {
 				'''
 			DemonshadeBreastplate:
 				'''
-				增加20%近戰攻速、15%近戰傷害和近戰暴擊率
+				增加20%近戰攻速、15%傷害和暴擊率
 				與你接觸的敵人會受到鬼魔傷害
 				增加200點最大生命值和最大魔力值
 				站定不動時吸收暗影能量並增加生命再生速度
 				'''
-			DemonshadeGreaves: 遁入暗影
+			DemonshadeGreaves: 魔影極速
 			DemonshadeHelm: 增加30%傷害和15%暴擊率
-			DesertProwlerHat:增加4%遠程暴擊率和20%不消耗彈藥的幾率
+			DesertProwlerHat: 增加4%遠程暴擊率和20%不消耗彈藥的幾率
 			DesertProwlerPants: 增加10%移動速度並使你免疫強風減益
 			DesertProwlerShirt: 增加5%遠程暴擊率
 			EmpyreanCloak:
 				'''
-				鎮壓萬古之庇護
+				諸天寰宇之庇護
 				增加20點最大生命值
 				增加7%盜賊傷害和盜賊暴擊率
 				'''
 			EmpyreanCuisses:
 				'''
-				縱橫寰宇之極速
 				增加5%盜賊傷害和盜賊暴擊率
 				增加15%移動速度
 				'''
 			EmpyreanMask:
 				'''
-				毀滅諸天之怒火
 				增加11%盜賊傷害、盜賊暴擊率和5%移動速度
 				使你暫時免疫熔岩
 				'''
