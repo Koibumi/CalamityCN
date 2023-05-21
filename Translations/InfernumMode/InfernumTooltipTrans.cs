@@ -40,7 +40,7 @@ namespace CalamityCN.Translations.InfernumMode
 				string WayfinderDestroyKey = KeybindSystem.WayfinderDestroyKey.GetAssignedKeys(InputMode.Keyboard).FirstOrDefault<string>();
 				ItemHelper.TranslateTooltip(item, tooltips, "Tooltip2", delegate (TooltipLine tooltip)
 				{
-					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Wayfinder.Tooltip.2", new object[]
+					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Wayfinder.Tooltip.Wayfinder", new object[]
 					{
 						WayfinderCreateKey ?? "[NONE]",
 						WayfinderDestroyKey ?? "[NONE]"
