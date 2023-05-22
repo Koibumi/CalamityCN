@@ -27,6 +27,30 @@ namespace CalamityCN.Translations.Patch
             QuickTranslate(typeof(ExoMechSelectionUI), "HandleInteractionWithButton", "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.", "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。".zh());
             QuickTranslate(typeof(ExoMechSelectionUI), "HandleInteractionWithButton", "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.", "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。".zh());
             QuickTranslate(typeof(ExoMechSelectionUI), "HandleInteractionWithButton", "Artemis and Apollo, a pair of extremely persistent automatons with unstable energy reserves.", "阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。".zh());
+            //实验室投影
+            string[][] LHPUI = new string[][] {
+                new string[2]{ "To any personnel engaged in the laboratories. Please wear your steel engraved ID badge at all times. It is the easiest method to discern your body if any accidents do occur.", "致从事实验室工作的每个人员。请始终佩戴钢印身份徽章。如果真的发生了事故，这是辨别你躯体身份的最简单方法。".zh()},
+                new string[2]{ "To experiment is to fail. To fail is to learn. To learn is to advance.", "实验失败，总结失败，学习进步。".zh()},
+                new string[2]{ "Apparent danger while researching serves only to enhance the research experience.", "研究时有明显危险才能提高研究经验。".zh()},
+                new string[2]{ "Laser-type weapon prototypes are incredibly lethal and are not to be used within presentation halls.", "激光武器原型具有难以置信的破坏性，严禁在演示厅内使用。".zh()},
+                new string[2]{ "High-energy plasma emissions have adverse effects on both flesh and metal. Do not attempt to handle vented plasma.", "高能等离子体辐射对人体和金属都有不利影响。请勿试图处理泄露的等离子体。".zh()},
+                //未翻译 new string[2]{ "Electric shocks from military equipment are intended to be fatal. If you survive such a shock, that is a clear indicator that the device is not functioning properly. Please report any such cases.", "未翻译".zh()},
+                new string[2]{ "All employees are hereby notified that they will be held accountable for any collateral damage caused by Gauss weapon fire, even during sanctioned testing exercises.", "特此通知所有人员，使用高斯武器射击造成的额外损坏需要自行负责，即使是在批准的测试演习中。".zh()},
+                //未翻译 new string[2]{ "Security Field Emitters will vaporize all unauthorized equipment and personnel. Please leave personal effects in the designated lockers off-site. This also means: Do not bring any family members who are not enlisted as personnel.", "未翻译".zh()},
+                new string[2]{ "If one does manage to breach restricted testing facilities, do at least record any unexpected burns, lacerations, bruising, fractur... ...trauma, shocks and otherwise. Thank you.", "如果有人成功突破了限制测试设施，至少要记录任何意外烧伤，撕裂，瘀伤，骨折……创伤，电击等等。感谢！".zh()},
+                new string[2]{ "The power grid has been... ...eavily compromised. Abort research and proceed to the emergency exits located at... ...and egress with haste.", "电力系统已经被……只能妥协。终止研究，前往……处紧急出口，迅速撤离。".zh()},
+                new string[2]{ "Notify the Security Department of any aggressive local fauna immediately.", "发现任何具有攻击性的原居生物，应立即通报安全部门。".zh()},
+                //未翻译 new string[2]{ "Sensors have detected a significant breach in the spacetime continuum.", "未翻译".zh()},
+                new string[2]{ "Please help. I'm stuck in this hologram machine.", "请帮帮我，我被困在这个全息投影机里了。".zh()}
+
+            };
+            foreach (string[] il in LHPUI)
+            {
+                if (!il[1].Equals("".zh()))
+                {
+                    QuickTranslate(typeof(LabHologramProjectorUI), "ChooseDialogue", il[0], il[1]);
+                }
+            }
             //破译
             QuickTranslate(typeof(DraedonSchematicSunkenSeaGUI), "GetTextByPage", "The weaponry I supply to the workers of the laboratories is weak. Hardly suited for battle.\nHowever, they suffice for self defense against any lab mechanisms or creations which may have gone rogue.\nAddendum: For those who think themselves powerful, search the upper bounds of this planet's atmosphere for a structure similar to that of the Sunken Seas.\nI will know by the end if you are worthy of battling my creations.\n", "众多设备和武器的精细图示在全息屏幕上飞舞。\n我提供给实验室工人们的武器装备很弱，几乎不适合战斗。\n然而，这些东西足以让他们自卫，抵御所有实验室的攻击机制或可能叛逃的创造物。\n后附：妄自尊大的人啊，你可以前往这颗星球的大气层的上界，寻找类似于沉沦之海实验室的结构。\n走到最后，我就会知道你是否值得与我的创造物战斗。\n".zh());
             QuickTranslate(typeof(DraedonSchematicPlanetoidGUI), "GetTextByPage", "Within an army, as weapons do, the soldiers serve different purposes.\nThat distinction is crucial, as the wrong tool in the wrong hands—no matter how potent—may as well be a wooden club.\nAddendum: Seek out my base of operations closest to the Lihzahrd's home.\nI wish you the best of luck with all sincerity, for it has been a long time since I have had a worthy test subject.", "在一支军队中，士兵就如同武器一样有着不同的用途。\n它们的区别至关重要，毕竟如果错误的工具在错误的人手中的话——无论那些工具有多么厉害——可能也就和一根木头球棒差不多。\n附录：去寻找距离蜥蜴神庙最近的行动基地。\n我真诚地祝愿你好运，毕竟我已经很久没有遇到过如此有价值的实验对象了。".zh());
