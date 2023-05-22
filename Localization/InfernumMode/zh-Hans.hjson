@@ -9,7 +9,7 @@
     Purity: 纯净
     SakuraBloom: 盛开的樱花
     BereftVassalBossBag: 宝藏袋（无邦封臣）
-    BrimstoneCrescentStaff: Brimstone Crescent Staff
+    BrimstoneCrescentStaff: 硫火新月法杖
     DemonicChaliceOfInfernum: 炼狱圣杯
     ProfanedCrystalDye: 渎神结晶染料
     ElysianRose: 极乐玫瑰
@@ -84,7 +84,7 @@
     SakuraBud: 樱花花苞
     BloodwormPlatter: 血蠕虫拼盘
     DungeonsCurse: 地牢厄咒
-     EvokingSearune: Evoking Searune
+     EvokingSearune: 唤海符石
     FleshChunk: 血肉碎块
     LeviathanDetector: 利维坦探测器
     RadiantCrystal: 辐彩棱晶
@@ -314,7 +314,7 @@
       IllusionersReverie:
         '''
         发射你的暗影幻像追踪攻击附近的敌怪然后会分散成黑魔法云
-        You shouldn't see this
+        你不应该看见这个
         它的存在让人不禁想知道，究竟是什么知识被神秘的深海淹没了
         '''
       Kevin:
@@ -358,26 +358,26 @@
     }
     ProjectileName:
     {
-      AbyssalIce: Abyssal Ice
+      AbyssalIce: 深渊幻冰
       BoxJellyZap: Jelly Zap
       DevilfishExplosion: Devilburst
       EidolistElectricOrb: Electric Orb
       EidolistElectricOrb2: Electric Orb
-      EidolistIce: Abyssal Ice
-      EidolistIceBomb: Abyssal Ice
+      EidolistIce: 深渊幻冰
+      EidolistIceBomb: 深渊幻冰
       EidolistLightning: Lightning Bolt
       EidolistRitual: Ritual
       ElectricPulse: Electric Pulse
-      InkBlob: Ink Blob
-      InkBolt: Ink
+      InkBlob: 墨水爆弹
+      InkBolt: 墨水
       MiniReaperShark: Reaper Shark
       ReaperSharkIceBreath: Ice Breath
-      SimpleAbyssalSoul: Abyssal Spirit
-      AbyssalSoul: Abyssal Spirit
+      SimpleAbyssalSoul: 深渊灵魂
+      AbyssalSoul: 深渊灵魂
       AbyssalSoulTelegraph: Abyssal Telegraph
       AEWIllusionTelegraphLine: Telegraph
-      AEWNightmareWyrm: Eidolon Wyrm
-      AEWSplitForm: Adult Eidolon Wyrm
+      AEWNightmareWyrm: 幻海妖龙
+      AEWSplitForm: 成年幻海妖龙
       AEWTelegraphLine: Telegraph
       CircleCenterTelegraph: Telegraph
       ConvergingLumenylCrystal: Divine Lumenyl
@@ -931,7 +931,7 @@
       MiniSandShark: Mini Sand Shark
       ShadowIllusion: Lens Flare
       ShadowTendril: Shadow Tendril
-      EggGoldProjectile: Golden Egg
+      EggGoldProjectile: 金蛋
       EggProjectile: 蛋
       MyrindaelBonkProjectile: Myrindael
       MyrindaelLightning: Myrndael Lightning Bolt
@@ -1350,9 +1350,9 @@
       }
       Bestiary: {
         BereftVassal: 一位警惕的守护者，曾漫无目的地流浪。在得知他的国王还活着后，他似乎已重新燃起了他生存的意志。他期待着再次与你战斗。
-        Herring: Unusually hardy, these creatures somehow flourish in the toxic upper abyssal caverns. Regardless, they are at the bottom of the food chain.
-        LionfishEnemy: These rugged fish are seldom hunted in their natural habitats, relying heavily on their venomous spines for both offense and defense.
-        DepthFeeder: Even in the overwhelmingly hostile environment of the Abyss, ecosystems may flourish.
+        Herring: 源于不寻常的顽强，这种生物得以在剧毒的深渊上层的洞穴中繁衍生息。但无论如何，它们仍处于食物链的底端。
+        LionfishEnemy: 这些畸形的鱼在它们的自然栖息地很少被捕食，这在很大程度上归功于它们那攻守兼备的毒刺。
+        DepthFeeder: 即使是在深渊这一极其恶劣的环境中，生态系统仍然有可能蓬勃发展。
       }
       Items: {
         Lore: {
@@ -1361,11 +1361,11 @@
             源于孤独的非凡友情。
             阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。
             他藏身于这些神秘的废墟中，默默见证着时间的流逝，没有任何目的，直到你的到来。
-            他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛
+            他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。
             '''
         }
       Tooltip: {
-        RuneofKos: The Ceaseless Void can only be fought in the Archives
+        RuneofKos: 无尽虚空只能在档案室中战斗
         EyeofDesolation: 在夜晚使用召唤遗落灾影
         Wayfinder: 
           '''
