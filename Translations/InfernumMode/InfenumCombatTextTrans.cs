@@ -23,6 +23,14 @@ namespace CalamityCN.Translations.InfernumMode
                     {
                         Main.combatText[index].text = "准许无限飞行！";
                     }
+					else if (Main.combatText[index].text.Equals("Peck!"))
+					{
+						Main.combatText[index].text = "菜！";
+					}
+					else if (Main.combatText[index].text.Equals("The pressure is too strong to escape!"))
+					{
+						Main.combatText[index].text = "压力太大了，无法逃脱!";
+					}
 					//Pet-RisingWarriorsSoulstone
 					else if (Main.combatText[index].text.Equals("Thought you could keep me away? Think again!"))
 					{
@@ -138,6 +146,8 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 
 					/*
+					 * LangHelper.GetText("InfernumMode.CombatTexts.New")
+					 * 
 					else if (Main.combatText[index].text.Equals(""))
 					{
 						Main.combatText[index].text = "";

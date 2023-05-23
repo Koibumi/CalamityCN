@@ -20,9 +20,9 @@ using InfernumMode.Content.BehaviorOverrides.BossAIs.Yharon;
 using InfernumMode.Content.BossIntroScreens;
 using InfernumMode.Content.Items;
 using InfernumMode.Content.Items.Accessories;
-using InfernumMode.Content.Items.LoreItems;
 using InfernumMode.Content.Items.Weapons.Magic;
 using InfernumMode.Content.Projectiles;
+using InfernumMode.Content.Tiles;
 using InfernumMode.Content.UI;
 using InfernumMode.Core.GlobalInstances;
 using InfernumMode.Core.GlobalInstances.GlobalItems;
@@ -41,6 +41,17 @@ namespace CalamityCN.Translations.InfernumMode
     public class InfernumPatch
     {
         private static List<ILHook> ILHooksI;
+        public static bool infpatchload
+        {
+            get
+            {
+                if (ILHooksI is not null)
+                {
+                    return true;
+                }
+                    return false;
+            }
+        }
         public static void Load()
         {
             ILHooksI = new List<ILHook>();
@@ -111,16 +122,16 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(DraedonBehaviorOverride), "PreAI", "Go on. Continue feeding information to my machines.", "继续吧，向我的机械输送更多信息。");
             string[][] DBOHDS = new string[][] {
                new string [2] {"Intriguing. Truly, intriguing.", "有趣，十分有趣。"},
-               new string [2] {"You have been an excellent test subject.", "You have been an excellent test subject."},
+               new string [2] {"You have been an excellent test subject.", "你是个优秀的测试对象。"},
                new string [2] {"My magnum opera, truly and utterly defeated.", "我引以为傲的杰作，彻底失败了。"},
-               new string [2] {"The data I have acquired from your combat has been invaluable.", "The data I have acquired from your combat has been invaluable."},
+               new string [2] {"The data I have acquired from your combat has been invaluable.", "我从你的战斗中获得的数据是无价的。"},
                new string [2] {"This outcome was not what I had expected.", "这也非是我预期中的结果。"},
-               new string [2] {"...Perhaps, I may be able to grant you a reward for your time.", "...Perhaps, I may be able to grant you a reward for your time."},
+               new string [2] {"...Perhaps, I may be able to grant you a reward for your time.", "……也许，我该给你的付出给予一些奖励。"},
                new string [2] {"...Excuse my introspection. I must gather my thoughts after that display.", "……很抱歉，但在看了这样一场“展示”之后，我必须得花点时间整理我的思绪。"},
                new string [2] {"It is perhaps not irrational to infer that you are beyond my reasoning.", "分析你的行为已超出了我的计算能力，但这也许并不荒谬。"},
-               new string [2] {"My most useful creation. I'm sure you will find some use for it.", "My most useful creation. I'm sure you will find some use for it."},
+               new string [2] {"My most useful creation. I'm sure you will find some use for it.", "我最有用的发明。我相信你会找到它的用处的。"},
                new string [2] {"Now.", "现在。"},
-               new string [2] {"Use it wisely.", "Use it wisely."},
+               new string [2] {"Use it wisely.", "明智地使用它。"},
                new string [2] {"You would wish to reach the Tyrant. I cannot assist you in that.", "你想要接触那位暴君。可惜我无法帮到你。"},
                new string [2] {"It is not a matter of spite, for I would wish nothing more than to observe such a conflict.", "这并非出自怨恨，毕竟从一开始，我的目标就只有观察刚才的这一场战斗。"},
                new string [2] {"But now, I must return to my machinery. You may use the Codebreaker if you wish to face my creations once again.", "但现在，我得把注意力放回到我的机械上了。如果你想再次面对我的造物，就使用密码破译器吧。"},
@@ -196,6 +207,8 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(CultistBehaviorOverride), "PreAI", " was repelled by celestial forces.", "被天体力量驱逐。");
             QuickTranslate(typeof(HyperplaneMatrixProjectile), "DoBehavior_InitialShake", " was blown up.", "被炸碎了。");
             QuickTranslate(typeof(CalamityBossHPBarChangesSystem), "UndoBarChanges", "Dark Energy", "暗能量");
+            QuickTranslate(typeof(EggSwordShrine), "KillTile", "The eggs reject your attempt at claiming the blade!", "该蛋拒绝了你拔剑的企图！");
+
             //Relic
             QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
 
@@ -209,11 +222,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT EVADE ME SO EASILY!", "想如此轻易地躲开我？绝无可能！");
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "YOU CANNOT HOPE TO OUTSMART A MASTER OF DIMENSIONS!", "智取一名掌控次元的大师？痴心妄想！");
             QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "NOT SO FAST!", "太慢了！");
-            //DoG HatGirl
-            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!", "");
-            //亵渎守卫 HatGirl
-            //QuickTranslate(typeof(UseRestrictionGlobalItem), "DisplayTeleportDenialText", "The profaned magic seems to be blocking your Rod of Discord!", "");
-            
+
             //Intro
             if (CalamityCNConfig.Instance.InfernumCNFont)
             {
