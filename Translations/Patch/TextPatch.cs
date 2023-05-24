@@ -103,7 +103,7 @@ namespace CalamityCN.Translations.Patch {
 
             //进入世界
             QuickTranslate(typeof(CalamityPlayer), "OnEnterWorld", " [c/EE4939:Note: The Fandom wiki is no longer supported by Calamity.] ", " [c/EE4939:备注：灾厄已不再支持Fandom Wiki。] ".zh());
-            QuickTranslate(typeof(CalamityPlayer), "OnEnterWorld", " [c/EE4939:Check out the Official Calamity Mod Wiki at ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] ", " [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:soammer.com][c/EE4939:!] ".zh());
+            QuickTranslate(typeof(CalamityPlayer), "OnEnterWorld", " [c/EE4939:Check out the Official Calamity Mod Wiki at ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] ", " [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:calamity.huijiwiki.com][c/EE4939:!] ".zh());
             //冷却图标
             QuickTranslate(typeof(ChaosState), "get_DisplayName", "Teleportation Cooldown", "传送冷却".zh());
             QuickTranslate(typeof(AquaticHeartIceShield), "get_DisplayName", "Ice Shield Cooldown", "冰盾冷却".zh());
