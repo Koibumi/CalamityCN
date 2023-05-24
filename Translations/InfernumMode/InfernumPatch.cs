@@ -103,8 +103,8 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(StormMaidenWish), "Initialize", "Lamentation", "哀歌");
             QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:击败星流巨械和灾厄，并在下雨天的出生点附近找到一把矛]");
             QuickTranslate(typeof(TabletWish), "Initialize", "Unsullied", "纯洁无暇");
-            QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "Not all beasts are monsters\n[c/777777:在腐蚀度不超过50%的情况下击败渊海灾虫]");
-            QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "Amazingly Asinine Assistant");
+            QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "不是所有的野兽都是怪物\n[c/777777:在腐蚀度不超过50%的情况下击败渊海灾虫]");
+            QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "著名的铸币助手");
             QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "You're improving with every failure! Keep going!\n[c/777777:在任意Boss战累计死亡3次]");
             #endregion
             //难度
