@@ -21,7 +21,7 @@
     DisenchantedTablet: Disenchanted Tablet
     NightmareCatcher: 噩梦捕手
     RisingWarriorsSoulstone: Rising Warrior's Soulstone
-    SuspiciouslyRoundFeather: Suspiciously Round Feather
+    SuspiciouslyRoundFeather: 可疑的圆羽毛
     AquaticScourgeSkull: 渊海灾虫的头骨
     BereftVassalTrophy: 无邦封臣纪念章
     CosmicMonolithItem: 寰宇之石
@@ -58,7 +58,7 @@
     GolemRelic: 石巨人孽狱圣物
     HiveMindRelic: 腐巢意志孽狱圣物
     KingSlimeRelic: 史莱姆王孽狱圣物
-    LeviathanRelic: 利维坦孽狱圣物
+    LeviathanRelic: 阿娜希塔和利维坦孽狱圣物
     LunaticCultistRelic: 拜月教邪教徒孽狱圣物
     MoonLordRelic: 月亮领主孽狱圣物
     OgreRelic: 食人魔孽狱圣物
@@ -178,7 +178,7 @@
       CreditPainting: ""
       GrandStatueItem: ""
       ProfanedFountainItem: ""
-      ProvidenceSpawnerItem: Summons Providence when right clicked with a Profaned Core
+      ProvidenceSpawnerItem: 用亵渎晶核在其上右键以召唤亵渎天神
       TabletPedestal: Can be used to enchant a particular disenchanted tablet
       AEWRelic: GetsChanged
       AquaticScourgeRelic: GetsChanged
@@ -253,7 +253,7 @@
       EvokingSearune:
         '''
         在深渊底层召唤成年幻海妖龙
-        据说是由原初之神所创造的远古神器，它用于召唤一个幽灵守卫
+        此乃原初之神创造的远古神器，其用于召唤一个幽灵守卫
         不消耗
         '''
       FleshChunk:
@@ -346,8 +346,8 @@
         '''
         射出长矛会释放出红色的闪电
         潜伏攻击会释放第三只长矛追踪敌怪，命中后会天降闪电
-        A divine spear wielded by a storm goddess, tempered by her vast abilities
-        The weapon itself seems to echo with perpetual misery, regret, and mourning
+        一把由风暴女神所使用的神之长矛，由她强大的力量所锻造
+        这把武器本身似乎激荡着不可磨灭的苦痛，懊悔，和哀悼
         '''
       WanderersShell:
         '''
@@ -1020,7 +1020,7 @@
       AsterPetBuff: 他
       BlahajBuff: 舒适的朋友
       BrimstoneBarrier: Your magic withers your weaponry at the cost of a strong magical barrier
-      BrimstoneExhaustion: You cannot resummon the Brimstone Crescent Staff's forcefield
+      BrimstoneExhaustion: 你不能再召唤出硫火新月法杖的立场
       BronzePetBuff: 你知道你能在泰拉瑞亚中养一只鸟吗？
       CatharsisHex: 自然生命再生被禁用，愤怒灵魂从你体内喷涌而出
       DarkFlames: 你的身体被遗忘之火吞噬，你的防御力降低了
