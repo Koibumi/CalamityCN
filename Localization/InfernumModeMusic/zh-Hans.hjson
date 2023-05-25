@@ -1,16 +1,16 @@
 InfernumModeMusic: {
   ItemName: {
-    SoulDrivenHeadphones: Soul-Driven Headphones
+    SoulDrivenHeadphones: 驭魂耳机
   }
   ItemTooltip: {
     SoulDrivenHeadphones:
       '''
-      Allows you to pick and play custom Infernum music of defeated bosses, and to toggle a special boss battle theme
-      As you hold onto them, you vaguely feel a mystical presence
-      You can also hear the sounds of instruments passionately playing
+      允许你选择并播放已击败的炼狱boss的音乐，以及一个特殊的boss战主题曲
+      当你拿起耳机时，你隐约感受到一种神秘的存在
+      你还可以听到充满激情的乐器演奏声
       '''
   }
   ProjectileName: {
-    SoulDrivenHeadphonesProj: Soul-Driven Headphones
+    SoulDrivenHeadphonesProj: 驭魂耳机
   }
 }
