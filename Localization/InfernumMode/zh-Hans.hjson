@@ -16,7 +16,7 @@
     HyperplaneMatrix: 超平面矩阵
     KnowledgeBereftVassal: 无邦封臣和旱海狂鲨
     LunarCoin: 月之币章
-    Blahaj: Blahaj
+    Blahaj: 蓝鲨抱枕
     BlastedTophat: 爆炸礼帽
     DisenchantedTablet: Disenchanted Tablet
     NightmareCatcher: 噩梦捕手
@@ -117,7 +117,7 @@
         '''
         增加30%伤害和攻击速度
         免疫夜魇
-        [c/ff5d5d:你会变得不幸]（无法暴击）
+        [c/ff5d5d:你会变得不幸（无法暴击）]
         [c/59aae7:It sounds like two brothers, chasing glass frogs in the sun]
         '''
       SakuraBloom:
@@ -253,7 +253,7 @@
       EvokingSearune:
         '''
         在深渊底层召唤成年幻海妖龙
-        此乃原初之神创造的远古神器，其用于召唤一个幽灵守卫
+        此乃原初之神创造的远古神器，其可用于召唤一个幽灵守卫
         不消耗
         '''
       FleshChunk:
@@ -306,15 +306,15 @@
       AridBattlecry: 在光标下方召唤鲨鱼飞向敌人
       EyeOfMadness:
         '''
-        Releases barrages of shadow tendrils that ensnare enemies within their range
-        A sacred artifact once used by the Eidolists. Somehow, it contains within it knowledge of aeons past
-        Unfortunately, the full extent of its contents are beyond your understanding, but it would seem that you have an affinity for its
-        arcane powers, even if usage of them costs a little bit of your sanity
+        释放一连串的暗影卷须猎捕其范围内的敌人
+        一件曾被幻妖灵巫使用过的宗教器具。不知为何，其容纳着过去亿万年的知识
+        遗憾的是，它的全部内容已超出了你的理解范围，但你似乎对它的
+        秘法力量很感兴趣，即使使用它们会消耗你些许的理智
         '''
       IllusionersReverie:
         '''
-        发射你的暗影幻像追踪攻击附近的敌怪然后会分散成黑魔法云
-        你不应该看见这个
+        发射你的暗影幻象追踪攻击附近的敌怪然后会分散成黑魔法云
+        你不应该看到这些
         它的存在让人不禁想知道，究竟是什么知识被神秘的深海淹没了
         '''
       Kevin:
@@ -347,7 +347,7 @@
         射出长矛会释放出红色的闪电
         潜伏攻击会释放第三只长矛追踪敌怪，命中后会天降闪电
         一把由风暴女神所使用的神之长矛，由她强大的力量所锻造
-        这把武器本身似乎激荡着不可磨灭的苦痛，懊悔，和哀悼
+        这把武器本身似乎激荡着不可磨灭的苦痛，懊悔，和哀伤
         '''
       WanderersShell:
         '''
@@ -1002,7 +1002,7 @@
       BlahajBuff: 蓝鲨
       BrimstoneBarrier: 硫火屏障
       BrimstoneExhaustion: 硫火之疲惫
-      BronzePetBuff: Calamity Bumblebirb Circa 2018
+      BronzePetBuff: 2018年灾厄的嗡嗡蜂鸟
       CatharsisHex: 泄怒巫咒
       DarkFlames: 黑暗火焰
       HatGirlBuff: 礼帽女孩
@@ -1019,13 +1019,13 @@
       AccentuationHex: 你对手的魔法将会追踪你
       AsterPetBuff: 他
       BlahajBuff: 舒适的朋友
-      BrimstoneBarrier: Your magic withers your weaponry at the cost of a strong magical barrier
+      BrimstoneBarrier: 你的魔法将以削弱武器为代价创造一个强大的魔法屏障
       BrimstoneExhaustion: 你不能再召唤出硫火新月法杖的立场
-      BronzePetBuff: 你知道你能在泰拉瑞亚中养一只鸟吗？
+      BronzePetBuff: 你知道你能在泰拉瑞亚中抚摸一只蜂鸟吗？
       CatharsisHex: 自然生命再生被禁用，愤怒灵魂从你体内喷涌而出
       DarkFlames: 你的身体被遗忘之火吞噬，你的防御力降低了
       HatGirlBuff: 芳心纵火犯
-      IndignationHex: 一个探魂者把你作为目标
+      IndignationHex: 一个探魂者将以你作为目标
       Madness: 要疯了……
       ShadowflameInferno: 快速流失生命值
       SheepGodBuff: 绵羊也会数羊吗？
