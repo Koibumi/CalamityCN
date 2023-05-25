@@ -7,6 +7,7 @@ using ReLogic.Graphics;
 using Terraria;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework.Graphics;
+using InfernumModeMusic.Projectiles;
 
 namespace CalamityCN.Mods.InfernumMode
 {
@@ -88,6 +89,18 @@ namespace CalamityCN.Mods.InfernumMode
 			{
 				text2 = "开关控制不死";
 			}
+			//InfernumModeMusic
+			if (text == "Sky After Rain - Infernum")
+            {
+				text2 = "雨后的天空 - 炼狱";
+			}
+			
+			/*
+			else if (text == "")
+			{
+				text2 = "";
+			}
+			*/
 			text = text2;
 			return orig.Invoke(spritebatch, font, text, position, basecolor, rotation, origin, basescale, maxwidth, spread);
 		}

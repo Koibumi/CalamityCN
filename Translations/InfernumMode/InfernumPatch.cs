@@ -29,6 +29,7 @@ using InfernumMode.Core.GlobalInstances.GlobalItems;
 using InfernumMode.Core.GlobalInstances.Players;
 using InfernumMode.Core.GlobalInstances.Systems;
 using InfernumMode.Core.ILEditingStuff;
+using InfernumModeMusic.Projectiles;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
@@ -105,7 +106,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(TabletWish), "Initialize", "Unsullied", "纯洁无暇");
             QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "不是所有的野兽都是怪物\n[c/777777:在腐蚀度不超过50%的情况下击败渊海灾虫]");
             QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "著名的铸币助手");
-            QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "You're improving with every failure! Keep going!\n[c/777777:在任意Boss战累计死亡3次]");
+            QuickTranslate(typeof(TophatWish), "Initialize", "You're improving with every failure! Keep going!\n[c/777777:Have 3 deaths in a row to a boss]", "每一次失败都让你进步!继续前进!\n[c/777777:在任意Boss战累计死亡3次]");
             #endregion
             //难度
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
@@ -262,7 +263,7 @@ namespace CalamityCN.Translations.InfernumMode
                 QuickTranslate(typeof(MoonLordIntroScreen), "get_TextToDisplay", "Eldritch Remains\nThe Moon Lord", "不可名状之遗骸\n月亮领主");
                 QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Speed Demon\nThe Old Duke", "冲刺恶魔\n硫海遗爵");
                 QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Sulphuric Terror\nThe Old Duke", "硫海之惧\n硫海遗爵");
-                QuickTranslate(typeof(PBGIntroScreen), "get_TextToDisplay", "Biomechanical Colossus\nThe Plaguebringer Goliath", "Biomechanical Colossus\n瘟疫使者歌莉娅");
+                QuickTranslate(typeof(PBGIntroScreen), "get_TextToDisplay", "Biomechanical Colossus\nThe Plaguebringer Goliath", "生物巨械\n瘟疫使者歌莉娅");
                 QuickTranslate(typeof(PerforatorHiveIntroScreen), "get_TextToDisplay", "Bloodied Parasites\nThe Perforators", "血殁寄生者\n血肉宿主");
                 QuickTranslate(typeof(PlanteraIntroScreen), "get_TextToDisplay", "The Overgrowth\nPlantera", "繁茂丛生的\n世纪之花");
                 QuickTranslate(typeof(PolterghastIntroScreen), "get_TextToDisplay", "Wrathful Coalescence\nThe Polterghast", "怨念融合体\n噬魂幽花");
@@ -311,6 +312,10 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "Temporary", "短暂的");
             QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "Maybe with this, we can hold onto the ", "也许有了这个，我们就能保存");
             QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "memories", "记忆");
+
+            //InfernumModeMusic
+            //QuickTranslate(typeof(SoulDrivenHeadphonesProj), "Draw", "Now playing ", "现在播放 ");
+            //QuickTranslate(typeof(SoulDrivenHeadphonesProj), "Draw", " will be played during boss fights!", " 将在Boss战期间播放!");
 
             //QuickTranslate(typeof(), "", "", "");
 
