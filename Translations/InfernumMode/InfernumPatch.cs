@@ -97,7 +97,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n", "它需要献祭，而你正是个不错的选择\n");
             QuickTranslate(typeof(NightmareWish), "Initialize", "[c/777777:Sleep in the brimstone crags for ", "[c/777777:在硫火之崖睡");
             QuickTranslate(typeof(NightmareWish), "Initialize", " seconds]", "秒]");
-            QuickTranslate(typeof(PurityWish), "Initialize", "The Tanning Starseed", "The Tanning Starseed");
+            QuickTranslate(typeof(PurityWish), "Initialize", "The Tanning Starseed", "星光普照");
             QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "It feels like solar winds, and solar chimes\n[c/777777:在三分半内击败炼狱模式下的夜晚亵渎天神]");
             QuickTranslate(typeof(SakuraWish), "Initialize", "Innocent Breeze", "Innocent Breeze");
             QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "One hundred whimsical spirits, dancing playfully\n[c/777777:找到樱花花苞]");
@@ -112,7 +112,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(InfernumDifficulty), "FavoredDifficultyAtTier", "Death", "死亡");
             QuickTranslate(typeof(InfernumDifficulty), "get_ExpandedDescription", "[c/B32E81:Many major foes will be different, having more challenging AI.] \n[c/B32E81:Adrenaline takes considerably longer to charge.] \n[c/FF0055:Adaptability is imperative.]", "[c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。] \n[c/B32E81:肾上腺素充能时间变长。] \n[c/FF0055:适应力必不可少!]");
             //嘉登
-            QuickTranslate(typeof(CustomExoMechSelectionSystem), "DrawWrapper", "Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.", "选择两台巨械。选择的第一台巨械一开始会单独作战\n当它受到了一定的伤害后，选择的第二台巨械将会出现并协同战斗");
+            QuickTranslate(typeof(CustomExoMechSelectionSystem), "DrawWrapper", "Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.", "选择两台巨械。选择的第一台巨械一开始会单独作战\n当它受到一定的伤害后，选择的第二台巨械将会出现并协同战斗");
             QuickTranslate(typeof(CustomExoMechSelectionSystem), "HandleInteractionWithButton", "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.", "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。");
             QuickTranslate(typeof(CustomExoMechSelectionSystem), "HandleInteractionWithButton", "Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.", "阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。");
             QuickTranslate(typeof(CustomExoMechSelectionSystem), "HandleInteractionWithButton", "Artemis and Apollo, a pair of extremely agile destroyers with unstable energy reserves.", "阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。");
@@ -130,7 +130,7 @@ namespace CalamityCN.Translations.InfernumMode
                new string [2] {"...Perhaps, I may be able to grant you a reward for your time.", "……也许，我该给你的付出给予一些奖励。"},
                new string [2] {"...Excuse my introspection. I must gather my thoughts after that display.", "……很抱歉，但在看了这样一场“展示”之后，我必须得花点时间整理我的思绪。"},
                new string [2] {"It is perhaps not irrational to infer that you are beyond my reasoning.", "分析你的行为已超出了我的计算能力，但这也许并不荒谬。"},
-               new string [2] {"My most useful creation. I'm sure you will find some use for it.", "我最有用的发明。我相信你会找到它的用处的。"},
+               new string [2] {"My most useful creation. I'm sure you will find some use for it.", "那是我最有用的发明，我相信你会找到它的用处的。"},
                new string [2] {"Now.", "现在。"},
                new string [2] {"Use it wisely.", "明智地使用它。"},
                new string [2] {"You would wish to reach the Tyrant. I cannot assist you in that.", "你想要接触那位暴君。可惜我无法帮到你。"},
@@ -187,7 +187,7 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_BrothersPhase", ", my brothers.", "，我的兄弟们。");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_TransitionToFinalPhase", "I'm just getting started!", "我才刚刚使出全力！");
             QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "I'm not done yet! Brace yourself for my strongest hex!", "还没完呢！准备迎接我的最强法术吧！");
-            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "额啊。");
+            QuickTranslate(typeof(CalamitasShadowBehaviorOverride), "DoBehavior_DeathAnimation", "Oh.", "呃啊。");
             #endregion
             #region DoG
             QuickTranslate(typeof(DoGPhase2HeadBehaviorOverride), "DoDeathEffects", "I WILL NOT BE DESTROYED!!!", "我不会被毁灭！！！", 2);
