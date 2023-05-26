@@ -96,79 +96,79 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Gelatinous Dynasty - King Slime")
 			{
-				text2 = "Gelatinous Dynasty - King Slime";
+				text2 = "凝元王朝 - 史莱姆王";
 			}
 			else if (text == "Seer of the Night - The Eye of Cthulhu")
 			{
-				text2 = "Seer of the Night - The Eye of Cthulhu";
+				text2 = "夜幕凝视 - 克苏鲁之眼";
 			}
 			else if (text == "Maw of the Corruption - The Eater of Worlds")
 			{
-				text2 = "Maw of the Corruption - The Eater of Worlds";
+				text2 = "Maw of the Corruption - 世界吞噬怪";
 			}
 			else if (text == "Intellect of the Crimson - The Brain of Cthulhu")
 			{
-				text2 = "Intellect of the Crimson - The Brain of Cthulhu";
+				text2 = "Intellect of the Crimson - 克苏鲁之脑";
 			}
 			else if (text == "Royal Retaliation - The Queen Bee")
 			{
-				text2 = "Royal Retaliation - The Queen Bee";
+				text2 = "Royal Retaliation - 蜂王";
 			}
 			else if (text == "Warden of the Damned - Skeletron")
 			{
-				text2 = "Warden of the Damned - Skeletron";
+				text2 = "Warden of the Damned - 骷髅王";
 			}
 			else if (text == "One's Ending, Another's Beginning - Wall of Flesh")
 			{
-				text2 = "One's Ending, Another's Beginning - Wall of Flesh";
+				text2 = "One's Ending, Another's Beginning - 血肉墙";
 			}
 			else if (text == "Crowned before One's End - Queen Slime")
 			{
-				text2 = "Crowned before One's End - Queen Slime";
+				text2 = "Crowned before One's End - 史莱姆皇后";
 			}
 			else if (text == "Inferior Fabrications - The Mechanical Trio")
 			{
-				text2 = "Inferior Fabrications - The Mechanical Trio";
+				text2 = "劣等造物 - 机械三王";
 			}
 			else if (text == "Floral Animosity - Plantera")
 			{
-				text2 = "Floral Animosity - Plantera";
+				text2 = "Floral Animosity - 世纪之花";
 			}
 			else if (text == "Razorblade Typhoon - Duke Fishron")
 			{
-				text2 = "Razorblade Typhoon - Duke Fishron";
+				text2 = "利刃台风 - 猪龙鱼公爵";
 			}
 			else if (text == "Shining Kaleidoscope - The Empress of Light")
 			{
-				text2 = "Shining Kaleidoscope - The Empress of Light";
+				text2 = "Shining Kaleidoscope - 光之女皇";
 			}
 			else if (text == "Eidolic Ancestry - The Lunatic Cultist")
 			{
-				text2 = "Eidolic Ancestry - The Lunatic Cultist";
+				text2 = "幻海血脉 - 拜月教邪教徒";
 			}
 			else if (text == "Duel for a Lost Kingdom - The Bereft Vassal")
 			{
-				text2 = "Duel for a Lost Kingdom - The Bereft Vassal";
+				text2 = "为失落王国而决斗 - 无邦封臣";
 			}
 			else if (text == "The End of an Olden Era - The Moon Lord")
 			{
-				text2 = "The End of an Olden Era - The Moon Lord";
+				text2 = "旧世之终 - 月亮领主";
 			}
 			else if (text == "Inferior Fabrications (Exo Remix) - The Exo Mechs")
 			{
-				text2 = "Inferior Fabrications (Exo Remix) - The Exo Mechs";
+				text2 = "Inferior Fabrications (Exo Remix) - 星流巨械";
 			}
 			else if (text == "Catastrophic Fabrications - The Exo Mechs")
 			{
-				text2 = "Catastrophic Fabrications - The Exo Mechs";
+				text2 = "铸灾神械 - 星流巨械";
 			}
 			else if (text == "Their Fabricator - Draedon")
 			{
-				text2 = "Their Fabricator - Draedon";
+				text2 = "它们的造物主 - 嘉登";
 			}
 			else if (text == "Storm Before Dawn - Infernum")
 			{
-				text2 = "Storm Before Dawn - Infernum";
+				text2 = "黎明前的风暴 - 炼狱";
 			}
 
 			
