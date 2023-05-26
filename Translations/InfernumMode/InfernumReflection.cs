@@ -94,6 +94,83 @@ namespace CalamityCN.Mods.InfernumMode
             {
 				text2 = "雨后的天空 - 炼狱";
 			}
+			else if (text == "Gelatinous Dynasty - King Slime")
+			{
+				text2 = "Gelatinous Dynasty - King Slime";
+			}
+			else if (text == "Seer of the Night - The Eye of Cthulhu")
+			{
+				text2 = "Seer of the Night - The Eye of Cthulhu";
+			}
+			else if (text == "Maw of the Corruption - The Eater of Worlds")
+			{
+				text2 = "Maw of the Corruption - The Eater of Worlds";
+			}
+			else if (text == "Intellect of the Crimson - The Brain of Cthulhu")
+			{
+				text2 = "Intellect of the Crimson - The Brain of Cthulhu";
+			}
+			else if (text == "Royal Retaliation - The Queen Bee")
+			{
+				text2 = "Royal Retaliation - The Queen Bee";
+			}
+			else if (text == "Warden of the Damned - Skeletron")
+			{
+				text2 = "Warden of the Damned - Skeletron";
+			}
+			else if (text == "One's Ending, Another's Beginning - Wall of Flesh")
+			{
+				text2 = "One's Ending, Another's Beginning - Wall of Flesh";
+			}
+			else if (text == "Crowned before One's End - Queen Slime")
+			{
+				text2 = "Crowned before One's End - Queen Slime";
+			}
+			else if (text == "Inferior Fabrications - The Mechanical Trio")
+			{
+				text2 = "Inferior Fabrications - The Mechanical Trio";
+			}
+			else if (text == "Floral Animosity - Plantera")
+			{
+				text2 = "Floral Animosity - Plantera";
+			}
+			else if (text == "Razorblade Typhoon - Duke Fishron")
+			{
+				text2 = "Razorblade Typhoon - Duke Fishron";
+			}
+			else if (text == "Shining Kaleidoscope - The Empress of Light")
+			{
+				text2 = "Shining Kaleidoscope - The Empress of Light";
+			}
+			else if (text == "Eidolic Ancestry - The Lunatic Cultist")
+			{
+				text2 = "Eidolic Ancestry - The Lunatic Cultist";
+			}
+			else if (text == "Duel for a Lost Kingdom - The Bereft Vassal")
+			{
+				text2 = "Duel for a Lost Kingdom - The Bereft Vassal";
+			}
+			else if (text == "The End of an Olden Era - The Moon Lord")
+			{
+				text2 = "The End of an Olden Era - The Moon Lord";
+			}
+			else if (text == "Inferior Fabrications (Exo Remix) - The Exo Mechs")
+			{
+				text2 = "Inferior Fabrications (Exo Remix) - The Exo Mechs";
+			}
+			else if (text == "Catastrophic Fabrications - The Exo Mechs")
+			{
+				text2 = "Catastrophic Fabrications - The Exo Mechs";
+			}
+			else if (text == "Their Fabricator - Draedon")
+			{
+				text2 = "Their Fabricator - Draedon";
+			}
+			else if (text == "Storm Before Dawn - Infernum")
+			{
+				text2 = "Storm Before Dawn - Infernum";
+			}
+
 			
 			/*
 			else if (text == "")
