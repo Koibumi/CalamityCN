@@ -764,7 +764,7 @@ Mods: {
 			EidolistBanner: 幻妖灵巫旗
 			EidolonWyrmJuvenileBanner: 幻海妖龙旗
 			EmeraldCrawlerBanner: 绿宝石爬虫旗
-			EutrophicRayBanner: 富养剑鱼旗
+			EutrophicRayBanner: 富养鳐鱼旗
 			FearlessGoldfishWarriorBanner: 无畏金鱼战士旗
 			FlakCrabBanner: 高口蟹旗
 			FrogfishBanner: 躄鱼旗
@@ -5133,7 +5133,7 @@ Mods: {
 			EidolistBanner: "{$CommonItemTooltip.BannerBonus}幻妖灵巫"
 			EidolonWyrmJuvenileBanner: "{$CommonItemTooltip.BannerBonus}幻海妖龙"
 			EmeraldCrawlerBanner: "{$CommonItemTooltip.BannerBonus}绿宝石爬虫"
-			EutrophicRayBanner: "{$CommonItemTooltip.BannerBonus}富养剑鱼"
+			EutrophicRayBanner: "{$CommonItemTooltip.BannerBonus}富养鳐鱼"
 			FearlessGoldfishWarriorBanner: "{$CommonItemTooltip.BannerBonus}无畏金鱼战士"
 			FlakCrabBanner: "{$CommonItemTooltip.BannerBonus}高口蟹"
 			FrogfishBanner: "{$CommonItemTooltip.BannerBonus}躄鱼"
@@ -11618,7 +11618,7 @@ Mods: {
 			BabyGhostBell: 小鬼铃水母
 			BlindedAngler: 盲鮟鱇
 			Clam: 蛤
-			EutrophicRay: 富养剑鱼
+			EutrophicRay: 富养鳐鱼
 			GhostBell: 鬼铃水母
 			GiantClam: 巨像蛤
 			PrismBack: 棱晶背龟
@@ -15415,7 +15415,7 @@ CalamityMod: {
 		    EbonianBlightSlime: 看起来这些都是被一个更加高级的存在所祝福过的史莱姆。他们寻找与吞噬他物的行为并非是为了自己，这在史莱姆中并不常见。
 		    Eidolist: 这些十分精通法术的神秘生物似乎像哨兵一样站在那儿看守着什么。靠近它们中的其中一个，你也许能听到一些无法理解的低语。
 		    EidolonWyrmHead: 在有史以来的任何生物中，只有它们最超脱我们的理解。如此的力量，如此的神秘……
-		    EutrophicRay: 一种大部分时间都呆在沉沦之海岩石地面上的温顺貂鱼。它会储存自己的能量并在遇到危险时于短时间内将其释放出去。
+		    EutrophicRay: 一种大部分时间都呆在沉沦之海岩石地面上的温顺鳐鱼。它会储存自己的能量并在遇到危险时于短时间内将其释放出去。
 		    FearlessGoldfishWarrior: 头顶锡帽，手携金匕，雨中行进，随时战斗。
 		    FlakCrab: 除了壳以外从各方面来看算正常的螃蟹。它已经学会了将周围的水聚集起来，并在处理后通过自己的漏斗强行排出一种十分危险的混合物。
 		    Sulflounder: 这些生物并不主动寻找食物，而是等待着食物自己送上门来。如果你冒险进入硫磺海，请注意自己的脚步。
@@ -15785,7 +15785,7 @@ CalamityMod: {
 			      32: 猩红之力原本处于大自然的管控之中。然而，最近爆发的战争和污染破坏了大自然的保护与修复能力，打破了亘古的自然平衡。
 			      33: 腐化之力原本处于大自然的管控之中。然而，最近爆发的战争和污染破坏了大自然的保护与修复能力，打破了亘古的自然平衡。
 			      34: 我猜你应该听说过传说忍者斯塔提斯？他和他的氏族崇拜着一位因为十分善于逃跑而在战争中幸免于难的神明，史莱姆之神。
-			      35: 世界各地散布着供奉神灵的神龛。神龛中放置着强大的装备，它们会为你的冒险带来有力的帮助。
+			      35: 献给神明的神龛分散在大地之间，里面储藏着的强大装备能为你的冒险提供帮助。
 			      36: 猩红之地是最近才出现在这个世界上的，它象征着是亚利姆这场惨绝人寰的战争的起始。它的蔓延本可以被阻止，但从来没有人有对其源头采取过任何措施。
 			      37: 腐化之地是最近才出现在这个世界上的，它象征着是亚利姆这场惨绝人寰的战争的起始。它的蔓延本可以被阻止，但从来没有人有对其源头采取过任何措施。
 			      38: 硫磺海早在一个世纪以前就已经形成，但直到最近几十年它才变成了这样一个让人难以忍受的地方。都是那个天杀的机器人嘉登的错，他一直都在往里面倾倒垃圾和废弃品。多亏了他，这地方才变成了你现在看到的这鬼样。

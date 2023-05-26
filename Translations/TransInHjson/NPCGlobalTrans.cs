@@ -211,7 +211,7 @@ public class NPCGlobalTrans : GlobalNPC
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.33", Array.Empty<object>())},
                 new string[2]{ "I assume you have heard of the legendary ninja, Statis? He and his clan worshiped the God of slime, who may be a survivor of the war due to its trickery and knowing when to hide or flee.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.34", Array.Empty<object>())},
-                new string[2]{ "Scattered across the lands are shrines dedicated to the gods. You can take whatever is in them, but a few items you may not be able to use until much later.",
+                new string[2]{ "Scattered across the lands are shrines dedicated to the gods. They contain powerful gear that may help you on your adventures.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.35", Array.Empty<object>())},
                 new string[2]{ "Be careful what you attack in the Crimson. You might just unveil a greater threat than what was there before.",
                     LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.Help.36", Array.Empty<object>())},
