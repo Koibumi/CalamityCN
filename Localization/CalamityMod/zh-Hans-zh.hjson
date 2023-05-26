@@ -6807,7 +6807,7 @@ Mods: {
 				击中敌人时会在其附近产生额外的射线
 				'''
 			NuclearFury: 发射高能台风
-			ParasiticSceptor: 发射一阵会吸附敌人的水蛭，早吃可叠加的持续伤害
+			ParasiticSceptor: 发射一阵会吸附敌人的水蛭，造成可叠加的持续伤害
 			PhantasmalFury: 释放会分裂的幻象球
 			PhoenixFlameBarrage:
 				'''
