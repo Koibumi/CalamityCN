@@ -107,6 +107,11 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod
 				text2 = "做好选择！";
 				goto IL_99A;
 			}
+			else if (text == "Stay calm and circle! Don't lose focus!")
+			{
+				text2 = "保持冷静的绕圈！不要失去注意力！";
+				goto IL_99A;
+			}
 
 			/* 翻译后移出注释
 			else if (text == "Destroy those builder drones before the whole jungle goes kablooey!")
@@ -364,11 +369,7 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod
 				text2 = "";
 				goto IL_99A;
 			}
-			else if (text == "Stay calm and circle! Don't lose focus!")
-			{
-				text2 = "";
-				goto IL_99A;
-			}
+			
 			else if (text == "Manage those clouds carefully. You'll need to weave through them to find the gap in her tentacles!")
 			{
 				text2 = "";

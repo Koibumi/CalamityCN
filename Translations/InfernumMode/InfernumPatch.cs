@@ -314,8 +314,8 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(SakuraBloom), "PreDrawTooltipLine", "memories", "记忆");
 
             //InfernumModeMusic
-            //QuickTranslate(typeof(SoulDrivenHeadphonesProj), "Draw", "Now playing ", "现在播放 ");
-            //QuickTranslate(typeof(SoulDrivenHeadphonesProj), "Draw", " will be played during boss fights!", " 将在Boss战期间播放!");
+            //QuickTranslate(typeof(SoulDrivenHeadphonesProj.MusicUIIcon), "Draw", "Now playing ", "现在播放 ");
+            //QuickTranslate(typeof(SoulDrivenHeadphonesProj.MusicUIIcon), "Draw", " will be played during boss fights!", " 将在Boss战期间播放!");
 
             //QuickTranslate(typeof(), "", "", "");
 

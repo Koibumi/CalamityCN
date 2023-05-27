@@ -7,7 +7,6 @@ using ReLogic.Graphics;
 using Terraria;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework.Graphics;
-using InfernumModeMusic.Projectiles;
 
 namespace CalamityCN.Mods.InfernumMode
 {
@@ -91,8 +90,8 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			//InfernumModeMusic
 			if (text == "Sky After Rain - Infernum")
-            {
-				text2 = "雨后的天空 - 炼狱";
+			{
+				text2 = "雨过天晴 - 炼狱";
 			}
 			else if (text == "Gelatinous Dynasty - King Slime")
 			{
@@ -104,11 +103,11 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Maw of the Corruption - The Eater of Worlds")
 			{
-				text2 = "Maw of the Corruption - 世界吞噬怪";
+				text2 = "腐败之咽 - 世界吞噬怪";
 			}
 			else if (text == "Intellect of the Crimson - The Brain of Cthulhu")
 			{
-				text2 = "Intellect of the Crimson - 克苏鲁之脑";
+				text2 = "血肉意志 - 克苏鲁之脑";
 			}
 			else if (text == "Royal Retaliation - The Queen Bee")
 			{
@@ -116,15 +115,15 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Warden of the Damned - Skeletron")
 			{
-				text2 = "Warden of the Damned - 骷髅王";
+				text2 = "诅咒守门人 - 骷髅王";
 			}
 			else if (text == "One's Ending, Another's Beginning - Wall of Flesh")
 			{
-				text2 = "One's Ending, Another's Beginning - 血肉墙";
+				text2 = "终亦是始 - 血肉墙";
 			}
 			else if (text == "Crowned before One's End - Queen Slime")
 			{
-				text2 = "Crowned before One's End - 史莱姆皇后";
+				text2 = "神赐末王 - 史莱姆皇后";
 			}
 			else if (text == "Inferior Fabrications - The Mechanical Trio")
 			{
@@ -132,7 +131,7 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Floral Animosity - Plantera")
 			{
-				text2 = "Floral Animosity - 世纪之花";
+				text2 = "花卉暴憎 - 世纪之花";
 			}
 			else if (text == "Razorblade Typhoon - Duke Fishron")
 			{
@@ -140,7 +139,7 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Shining Kaleidoscope - The Empress of Light")
 			{
-				text2 = "Shining Kaleidoscope - 光之女皇";
+				text2 = "曜天万華鏡 - 光之女皇";
 			}
 			else if (text == "Eidolic Ancestry - The Lunatic Cultist")
 			{
@@ -171,13 +170,6 @@ namespace CalamityCN.Mods.InfernumMode
 				text2 = "黎明前的风暴 - 炼狱";
 			}
 
-			
-			/*
-			else if (text == "")
-			{
-				text2 = "";
-			}
-			*/
 			text = text2;
 			return orig.Invoke(spritebatch, font, text, position, basecolor, rotation, origin, basescale, maxwidth, spread);
 		}
