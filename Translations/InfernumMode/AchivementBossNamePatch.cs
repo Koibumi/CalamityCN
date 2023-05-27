@@ -38,21 +38,11 @@ namespace CalamityCN.Translations.InfernumMode
 
         private string GetNPCFullNameFromID(GetNPCFullNameFromIDDelegate orig, int id)
         {
-            if (id < NPCID.Count)
+            if (id >= NPCID.Count)
             {
-                return id switch
-                {
-                    NPCID.Spazmatism => "双子魔眼",
-                    NPCID.MoonLordCore => "月亮领主",
-                    _ => NPC.GetFullnameByID(id)
-                };
+                return NPCLoader.GetNPC(id).DisplayName.GetTranslation(GameCulture.FromCultureName(GameCulture.CultureName.Chinese));
             }
-
-            return NPCLoader.GetNPC(id).DisplayName.GetDefault() switch
-            {
-                "Guardian Commander" => "亵渎守卫",
-                _ => NPCLoader.GetNPC(id).DisplayName.GetTranslation((int)GameCulture.CultureName.Chinese)
-            };
+            return NPC.GetFullnameByID(id);
         }
 
         private delegate string GetNPCFullNameFromIDDelegate(int id);

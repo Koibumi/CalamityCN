@@ -83,6 +83,12 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Rampage", "寸止挑战");
             QuickTranslate(typeof(RamlessDoGAchievement), "Initialize", "Best the Devourer at his own game: without a ram!\n[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]", "将计就计击败神明吞噬者\n[c/777777:在炼狱模式中不使用冲刺击败神明吞噬者]");
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Next: ", "下一位：");
+            //QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Spazmatism", "");
+            QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "The Twins", "双子魔眼");
+            //QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Moon Lord Core", "");
+            QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Moon Lord", "月亮领主");
+            //QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Guardian Commander", "");
+            QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Profaned Guardians", "亵渎守卫");
             #endregion
             #region Dev Wishes
             QuickTranslate(typeof(BlahajWish), "Initialize", "Benevolent Force", "仁爱之力");

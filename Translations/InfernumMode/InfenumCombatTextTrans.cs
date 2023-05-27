@@ -34,7 +34,7 @@ namespace CalamityCN.Translations.InfernumMode
 					//Pet-RisingWarriorsSoulstone
 					else if (Main.combatText[index].text.Equals("Thought you could keep me away? Think again!"))
 					{
-						Main.combatText[index].text = "你想远离我？ 请三思！";
+						Main.combatText[index].text = "你想远离我？ 再考虑下！";
 					}
 					else if (Main.combatText[index].text.Equals("Huzzah! I return."))
 					{
@@ -46,11 +46,11 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 					else if (Main.combatText[index].text.Equals("Be careful with me, I'm a special little guy."))
 					{
-						Main.combatText[index].text = "Be careful with me, I'm a special little guy.";
+						Main.combatText[index].text = "小心点我，我是个特殊的小家伙。";
 					}
 					else if (Main.combatText[index].text.Equals("Back at last! Time to wreak havoc once more!"))
 					{
-						Main.combatText[index].text = "Back at last! Time to wreak havoc once more!";
+						Main.combatText[index].text = "终于回来了!是时候再一次肆虐了!";
 					}
 					else if (Main.combatText[index].text.Equals("Gamers don't die, they respawn."))
 					{
@@ -110,7 +110,7 @@ namespace CalamityCN.Translations.InfernumMode
 					}
 					else if (Main.combatText[index].text.Equals("If you die on purpose, I'll give you a twenty."))
 					{
-						Main.combatText[index].text = "If you die on purpose, I'll give you a twenty.";
+						Main.combatText[index].text = "如果你是故意死的，我给你打二十分。";
 					}
 					else if (Main.combatText[index].text.Equals("Keh, this'll be a breeze!"))
 					{
