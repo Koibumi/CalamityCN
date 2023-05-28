@@ -91,7 +91,7 @@ namespace CalamityCN.Mods.InfernumMode
 			//InfernumModeMusic
 			if (text == "Sky After Rain - Infernum")
 			{
-				text2 = "雨过天晴 - 炼狱";
+				text2 = "雨后的天空 - 炼狱";
 			}
 			else if (text == "Gelatinous Dynasty - King Slime")
 			{
@@ -103,15 +103,15 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Maw of the Corruption - The Eater of Worlds")
 			{
-				text2 = "腐败之咽 - 世界吞噬怪";
+				text2 = "腐化胃咽 - 世界吞噬怪";
 			}
 			else if (text == "Intellect of the Crimson - The Brain of Cthulhu")
 			{
-				text2 = "血肉意志 - 克苏鲁之脑";
+				text2 = "猩红遗智 - 克苏鲁之脑";
 			}
 			else if (text == "Royal Retaliation - The Queen Bee")
 			{
-				text2 = "Royal Retaliation - 蜂王";
+				text2 = "皇后的复仇 - 蜂王";
 			}
 			else if (text == "Warden of the Damned - Skeletron")
 			{
@@ -155,7 +155,7 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Inferior Fabrications (Exo Remix) - The Exo Mechs")
 			{
-				text2 = "Inferior Fabrications (Exo Remix) - 星流巨械";
+				text2 = "劣等造物（星流混音） - 星流巨械";
 			}
 			else if (text == "Catastrophic Fabrications - The Exo Mechs")
 			{
