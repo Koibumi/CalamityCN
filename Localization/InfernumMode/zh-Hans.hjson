@@ -18,18 +18,18 @@
     LunarCoin: 月之币章
     Blahaj: 蓝鲨抱枕
     BlastedTophat: 爆炸礼帽
-    DisenchantedTablet: Disenchanted Tablet
+    DisenchantedTablet: 未注魔的石碑
     NightmareCatcher: 噩梦捕手
-    RisingWarriorsSoulstone: Rising Warrior's Soulstone
+    RisingWarriorsSoulstone: Rising Warrior的魂石
     SuspiciouslyRoundFeather: 可疑的圆羽毛
     AquaticScourgeSkull: 渊海灾虫的头骨
     BereftVassalTrophy: 无邦封臣纪念章
     CosmicMonolithItem: 寰宇之石
-    CreditPainting: Credit where Credit is Due
+    CreditPainting: 你应得的荣誉
     GrandStatueItem: 狂鲨雕像
     ProfanedFountainItem: 亵渎岩浆喷泉
     ProvidenceSpawnerItem: 亵渎祭坛Debug物品
-    TabletPedestal: Tablet Pedestal
+    TabletPedestal: 石碑基座
     AEWRelic: 成年幻海妖龙孽狱圣物
     AquaticScourgeRelic: 渊海灾虫孽狱圣物
     AstrumAureusRelic: 白金星舰孽狱圣物
@@ -95,7 +95,7 @@
     Wayfinder: 寻路者
     AridBattlecry: 旱沙号角
     EyeOfMadness: 癫狂魔眼
-    IllusionersReverie: Illusioner's Reverie
+    IllusionersReverie: 幻迷之念
     Kevin: KEVIN
     CallUponTheEggs: 呼唤之蛋
     Myrindael: 颤沙霆戟
@@ -118,7 +118,7 @@
         增加30%伤害和攻击速度
         免疫夜魇
         [c/ff5d5d:你会变得不幸（无法暴击）]
-        [c/59aae7:It sounds like two brothers, chasing glass frogs in the sun]
+        [c/59aae7:这听起来就像两兄弟在阳光下追逐玻璃青蛙]
         '''
       SakuraBloom:
         '''
@@ -158,18 +158,18 @@
       BlastedTophat: 召唤一个小小的礼帽女孩在你与Boss战斗时给予你建议
       DisenchantedTablet:
         '''
-        Contains a complex network of intricately woven memories, locked away
-        Can be enchanted at a tablet altar, located somewhere on the surface
+        其容纳着被锁定的错综复杂的记忆之网
+        可以在地表某处的石碑祭坛上被附魔
         '''
       NightmareCatcher:
         '''
-        召唤绵羊之主跟着你
+        召唤羔羊之主跟着你
         当我轻轻的进入梦乡，它便自黑暗之中诞生
         '''
       RisingWarriorsSoulstone:
         '''
         召唤一个狼星孩……“帮助”你?
-        The tablet resonates with a strong legacy
+        这块石碑与强大的遗物产生了共鸣
         '''
       SuspiciouslyRoundFeather: 召唤一个老朋友
       AquaticScourgeSkull: ""
@@ -179,7 +179,7 @@
       GrandStatueItem: ""
       ProfanedFountainItem: ""
       ProvidenceSpawnerItem: 用亵渎晶核在其上右键以召唤亵渎天神
-      TabletPedestal: Can be used to enchant a particular disenchanted tablet
+      TabletPedestal: 可用于附魔一块特殊的未注魔的石碑
       AEWRelic: GetsChanged
       AquaticScourgeRelic: GetsChanged
       AstrumAureusRelic: GetsChanged
@@ -319,7 +319,7 @@
         '''
       Kevin:
         '''
-        宏伟之铸的一小部分，外行人理解不了这些
+        宏伟之铸的一小部分，外行人可理解不了这些
         它是“动能电浆伏压注入器”的缩写
         '''
       CallUponTheEggs: "[c/f0ad56:这把武器只能由那些肩负着保护弱者使命的人使用]"
@@ -998,10 +998,10 @@
     BuffName:
     {
       AccentuationHex: 引魔巫咒
-      AsterPetBuff: Aster
+      AsterPetBuff: 星状体
       BlahajBuff: 蓝鲨
       BrimstoneBarrier: 硫火屏障
-      BrimstoneExhaustion: 硫火之疲惫
+      BrimstoneExhaustion: 硫火之疲倦
       BronzePetBuff: 2018年灾厄的嗡嗡蜂鸟
       CatharsisHex: 泄怒巫咒
       DarkFlames: 黑暗火焰
@@ -1009,7 +1009,7 @@
       IndignationHex: 愤慨巫咒
       Madness: 精神失常
       ShadowflameInferno: 暗影狱火
-      SheepGodBuff: 绵羊之神
+      SheepGodBuff: 羔羊之神
       Sleepy: 困倦
       WeaknessHex: 羸弱巫咒
       ZealHex: 狂化巫咒
@@ -1028,7 +1028,7 @@
       IndignationHex: 一个探魂者将以你作为目标
       Madness: 要疯了……
       ShadowflameInferno: 快速流失生命值
-      SheepGodBuff: 绵羊也会数羊吗？
+      SheepGodBuff: 羊也会数羊吗？
       Sleepy: 你睡着了！
       WeaknessHex: 你的防御力和伤害减免被大幅度削弱了
       ZealHex: 你对手的魔法将会大幅度加速
@@ -1365,7 +1365,7 @@
             '''
         }
       Tooltip: {
-        RuneofKos: 无尽虚空只能在档案室中战斗
+        RuneofKos: 无尽虚空只能在废弃档案室中战斗
         EyeofDesolation: 在夜晚使用召唤遗落灾影
         Wayfinder: 
           '''
