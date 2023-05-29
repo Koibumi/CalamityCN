@@ -97,18 +97,18 @@ namespace CalamityCN.Translations.InfernumMode
             QuickTranslate(typeof(CrescentWish), "Initialize", "The witch's sins could never be fully atoned\n[c/777777:Defeat the Forgotten Shadow of Calamitas in the underworld]", "女巫的罪孽永远无法偿还\n[c/777777:在地狱击败遗落灾影]");
             QuickTranslate(typeof(EggWish), "Initialize", "The Chosen One", "天选之子");
             QuickTranslate(typeof(EggWish), "Initialize", "Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within\n[c/777777:Find an egg sword shrine after defeating Golem]", "传说中有一位勇敢的勇者将会进入这个世界进行冒险，并找到隐藏其中的传奇之剑\n[c/777777:在击败石巨人后找到一个蛋之剑冢]");
-            QuickTranslate(typeof(MatrixWish), "Initialize", "The Scientific Method", "科学方式");
+            QuickTranslate(typeof(MatrixWish), "Initialize", "The Scientific Method", "科学方法");
             QuickTranslate(typeof(MatrixWish), "Initialize", "To experiment is to fail. To fail is to learn. To learn is to advance\n[c/777777:Defeat every single boss and Exo Mech combination]", "实验就是失败，失败就是学习，学习就是进步\n[c/777777:击败所有Boss和星流巨械的全部组合]");
             QuickTranslate(typeof(NightmareWish), "Initialize", "It Awakens", "它已苏醒");
             QuickTranslate(typeof(NightmareWish), "Initialize", "It demands a sacrifice. You seem like a good choice\n", "它需要献祭，而你正是个不错的选择\n");
             QuickTranslate(typeof(NightmareWish), "Initialize", "[c/777777:Sleep in the brimstone crags for ", "[c/777777:在硫火之崖睡");
             QuickTranslate(typeof(NightmareWish), "Initialize", " seconds]", "秒]");
             QuickTranslate(typeof(PurityWish), "Initialize", "The Tanning Starseed", "星光普照");
-            QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "It feels like solar winds, and solar chimes\n[c/777777:在三分半内击败炼狱模式下的夜晚亵渎天神]");
-            QuickTranslate(typeof(SakuraWish), "Initialize", "Innocent Breeze", "Innocent Breeze");
-            QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "One hundred whimsical spirits, dancing playfully\n[c/777777:找到樱花花苞]");
+            QuickTranslate(typeof(PurityWish), "Initialize", "It feels like solar winds, and solar chimes\n[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]", "这感觉就像太阳风和太阳钟\n[c/777777:在三分半内击败炼狱模式下的夜晚亵渎天神]");
+            QuickTranslate(typeof(SakuraWish), "Initialize", "Innocent Breeze", "无邪微风");
+            QuickTranslate(typeof(SakuraWish), "Initialize", "One hundred whimsical spirits, dancing playfully\n[c/777777:Find a Sakura Bud]", "一百个淘气的精灵正欢快地跳舞\n[c/777777:找到樱花花苞]");
             QuickTranslate(typeof(StormMaidenWish), "Initialize", "Lamentation", "哀歌");
-            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:击败星流巨械和灾厄，并在下雨天的出生点附近找到一把矛]");
+            QuickTranslate(typeof(StormMaidenWish), "Initialize", "Their tears blend with the raindrops, mourning over all that couldn't be\n[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]", "他们的眼泪跟雨水混合在一起，为一切不可能的事物哀悼\n[c/777777:击败星流巨械和灾厄，并在下雨天的出生点附近找到一把矛]");
             QuickTranslate(typeof(TabletWish), "Initialize", "Unsullied", "纯洁无暇");
             QuickTranslate(typeof(TabletWish), "Initialize", "Not all beasts are monsters\n[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]", "不是所有的野兽都是怪物\n[c/777777:在腐蚀度不超过50%的情况下击败渊海灾虫]");
             QuickTranslate(typeof(TophatWish), "Initialize", "Amazingly Asinine Assistant", "著名的铸币助手");
@@ -139,7 +139,7 @@ namespace CalamityCN.Translations.InfernumMode
                new string [2] {"My most useful creation. I'm sure you will find some use for it.", "那是我最有用的发明，我相信你会找到它的用处的。"},
                new string [2] {"Now.", "现在。"},
                new string [2] {"Use it wisely.", "明智地使用它。"},
-               new string [2] {"You would wish to reach the Tyrant. I cannot assist you in that.", "你想要接触那位暴君。可惜我无法帮到你。"},
+               new string [2] {"You would wish to reach the Tyrant. I cannot assist you in that.", "你想要接触那位暴君，可惜我无法帮到你。"},
                new string [2] {"It is not a matter of spite, for I would wish nothing more than to observe such a conflict.", "这并非出自怨恨，毕竟从一开始，我的目标就只有观察刚才的这一场战斗。"},
                new string [2] {"But now, I must return to my machinery. You may use the Codebreaker if you wish to face my creations once again.", "但现在，我得把注意力放回到我的机械上了。如果你想再次面对我的造物，就使用密码破译器吧。"},
                new string [2] { "In the meantime, I bid you farewell, and good luck in your future endeavors.", "至此，我向你道别，祝你的未来一路顺风。" }
