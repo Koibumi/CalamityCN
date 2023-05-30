@@ -112,34 +112,49 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod
 				text2 = "保持冷静的绕圈！不要失去注意力！";
 				goto IL_99A;
 			}
-
-			/* 翻译后移出注释
+			else if (text == "The Moon Lord seems angry! Try to dodge the side projectiles, and don't touch that black hole!")
+			{
+				text2 = "月亮领主似乎愤怒了！尽量避开侧面的弹幕，不要碰到黑洞！";
+				goto IL_99A;
+			}
+			else if (text == "Plantera isn't keeping anything back, watch out!")
+			{
+				text2 = "世纪之花会不顾一切地冲过来，当心！";
+				goto IL_99A;
+			}
 			else if (text == "Destroy those builder drones before the whole jungle goes kablooey!")
 			{
-				text2 = "";
+				text2 = "在丛林被夷为平地之前摧毁那些建构无人机！";
 				goto IL_99A;
 			}
 			else if (text == "Those blue tesla mines are going to explode into gas; take cover!")
 			{
-				text2 = "";
+				text2 = "那些蓝色的电球将会爆炸成气体，快点躲避！";
 				goto IL_99A;
 			}
 			else if (text == "Better stay near the edges of the arena during those carpet bomb flames, That should keep them out of the way!")
 			{
-				text2 = "";
+				text2 = "在地毯式炸弹轰炸时，最好绕着战斗场地边缘，这样不容易堵住你的去路！";
 				goto IL_99A;
 			}
-			else if (text == "The Moon Lord seems angry! Try to dodge the side projectiles, and don't touch that black hole!")
+			else if (text == "Those bombs will explode into kunai that fly towards you. Be careful!")
 			{
-				text2 = "";
+				text2 = "那些炸弹会爆炸成苦无飞向你。小心！";
 				goto IL_99A;
 			}
-			
-			else if (text == "Plantera isn't keeping anything back, watch out!")
+			else if (text == "You're gonna have a bad time...")
 			{
-				text2 = "";
+				text2 = "你会有一段不愉快的时光……";
 				goto IL_99A;
 			}
+			else if (text == "Stay near the center of your arena if you can. Those thorns are really good at cornering you!")
+			{
+				text2 = "尽可能的靠近场地中心。那些刺真的很擅长让你拐弯！";
+				goto IL_99A;
+			}
+
+			/* 翻译后移出注释
+
 			else if (text == "They've holed themselves up on the right, but if you get there you can probably breach their defenses!")
 			{
 				text2 = "";
@@ -187,22 +202,13 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod
 				text2 = "";
 				goto IL_99A;
 			}
-			else if (text == "Stay near the center of your arena if you can. Those thorns are really good at cornering you!")
-			{
-				text2 = "";
-				goto IL_99A;
-			}
+			
 			else if (text == "Watch out, he might try to trick you at the end!")
 			{
 				text2 = "";
 				goto IL_99A;
 			}
 			else if (text == "Don't fret, face fear in the eyes and dash directly into Thanatos' face-plates!")
-			{
-				text2 = "";
-				goto IL_99A;
-			}
-			else if (text == "Those bombs will explode into kunai that fly towards you. Be careful!")
 			{
 				text2 = "";
 				goto IL_99A;
@@ -222,11 +228,7 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod
 				text2 = "";
 				goto IL_99A;
 			}
-			else if (text == "The ninja shoots more shurikens the farther you are, so don't go too far!")
-			{
-				text2 = "";
-				goto IL_99A;
-			}
+
 			else if (text == "That thing seems to have shed its outer shell. Brace yourself, it's going to be a lot faster now!")
 			{
 				text2 = "";
@@ -329,11 +331,7 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod
 				text2 = "";
 				goto IL_99A;
 			}
-			else if (text == "You're gonna have a bad time...")
-			{
-				text2 = "";
-				goto IL_99A;
-			}
+			
 			else if (text == "Those blobs seem to spin in a spiral! Spin with them!")
 			{
 				text2 = "";
