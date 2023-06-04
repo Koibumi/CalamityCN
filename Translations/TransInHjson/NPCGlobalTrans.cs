@@ -758,7 +758,7 @@ public class NPCGlobalTrans : GlobalNPC
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.DILF.5", Array.Empty<object>())
             },
             new string[2]{
-                "Flowers and the like don’t hold a candle to the beauty of intricately formed ice.",
+                "Flowers and the like don't hold a candle to the beauty of intricately formed ice.",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.DILF.6", Array.Empty<object>())
             },
             new string[2]{
