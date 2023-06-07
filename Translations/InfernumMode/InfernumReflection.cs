@@ -88,7 +88,7 @@ namespace CalamityCN.Mods.InfernumMode
 			{
 				text2 = "开关控制不死";
 			}
-			//InfernumModeMusic
+			//InfernumModeMusic ? 重加载才生效
 			if (text == "Sky After Rain - Infernum")
 			{
 				text2 = "雨后的天空 - 炼狱";
@@ -171,6 +171,7 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 
 			text = text2;
+			
 			return orig.Invoke(spritebatch, font, text, position, basecolor, rotation, origin, basescale, maxwidth, spread);
 		}
 

@@ -42,17 +42,7 @@ namespace CalamityCN.Translations.InfernumMode
     public class InfernumPatch
     {
         private static List<ILHook> ILHooksI;
-        public static bool infpatchload
-        {
-            get
-            {
-                if (ILHooksI is not null)
-                {
-                    return true;
-                }
-                    return false;
-            }
-        }
+
         public static void Load()
         {
             ILHooksI = new List<ILHook>();

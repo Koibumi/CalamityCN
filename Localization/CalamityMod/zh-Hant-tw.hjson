@@ -1652,7 +1652,7 @@ Mods: {
 			AbyssalTome: 深淵之書
 			AbyssShocker: 深淵電擊者
 			AcidGun: 酸液槍
-			AetherfluxCannon: 以太流光炮
+			AetherfluxCannon: 以太流光砲
 			AethersWhisper: 以太之低語
 			AlphaRay: 阿爾法射線
 			AlulaAustralis: 南極光羽
@@ -2801,7 +2801,7 @@ Mods: {
 			EnchantedPearl:
 				'''
 				增加漁力
-				增加釣到板條箱的機率
+				增加釣到寶匣的機率
 				'''
 			EtherealExtorter:
 				'''
@@ -3336,7 +3336,7 @@ Mods: {
 				終極釣魚飾品
 				增加80點漁力
 				釣魚線永遠都不會斷，降低魚餌消耗率
-				增加釣到板條箱的機率
+				增加釣到寶匣的機率
 				可以在熔岩中釣魚
 				使你獲得聲吶藥水的效果
 				'''
