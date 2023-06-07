@@ -113,6 +113,7 @@ namespace CalamityCN
             }
             this._onHooks = null;
             this.Contents = null;
+            ClearCache();
         }
 
         private string TranslatedFriendlyName(orig_GetFriendlyName orig, UIKeybindingListItem item)
@@ -187,6 +188,20 @@ namespace CalamityCN
             }
             return orig.Invoke(item);
 
+        }
+
+        public static void ClearCache() {
+            if (typeof(ReflectionHelper).GetField("AssembliesCache", BindingFlags.Static | BindingFlags.NonPublic)?.GetValue(null) is Dictionary<string, WeakReference[]> cache1) {
+                foreach (var key in cache1.Keys.ToArray()) {
+                    cache1.Remove(key);
+                }
+            }
+
+            if (typeof(ReflectionHelper).GetField("ResolveReflectionCache", BindingFlags.Static | BindingFlags.NonPublic)?.GetValue(null) is Dictionary<string, WeakReference> cache2) {
+                foreach (var key in cache2.Keys.ToArray()) {
+                    cache2.Remove(key);
+                }
+            }
         }
     }
 }
