@@ -514,11 +514,11 @@ public class NPCGlobalTrans : GlobalNPC
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.THIEF.26", Array.Empty<object>())
             },
             new string[2]{
-                "If you find anything cool, make sure to drop by and show it to me, I promise I’ll keep my hands off it.",
+                "If you find anything cool, make sure to drop by and show it to me, I promise I'll keep my hands off it.",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.THIEF.27", Array.Empty<object>())
             },
             new string[2]{
-                "So many new things to steal, I can’t think of where to start!",
+                "So many new things to steal, I can't think of where to start!",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.THIEF.28", Array.Empty<object>())
             },
             new string[2]{
