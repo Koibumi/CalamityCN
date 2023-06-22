@@ -332,7 +332,7 @@ public class NPCGlobalTrans : GlobalNPC
             string[][] translatedChat = new string[][] {
 			//海王
             new string[2]{
-                "How much more has the world fallen to ruin? Even the Tyrant’s empire...",
+                "How much more has the world fallen to ruin? Even the Tyrant's empire...",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.1", Array.Empty<object>())
             },
             new string[2]{
@@ -392,7 +392,7 @@ public class NPCGlobalTrans : GlobalNPC
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.15", Array.Empty<object>())
             },
             new string[2]{
-                "To see that Tyrant’s serpent free of its shackles. It gave me chills.",
+                "To see that Tyrant's serpent free of its shackles. It gave me chills.",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.SEAHOE.16", Array.Empty<object>())
             },
             new string[2]{
