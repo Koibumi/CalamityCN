@@ -766,7 +766,7 @@ public class NPCGlobalTrans : GlobalNPC
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.DILF.7", Array.Empty<object>())
             },
             new string[2]{
-                "I must admit, I’m not quite used to this weather. It's far too warm for my tastes...",
+                "I must admit, I'm not quite used to this weather. It's far too warm for my tastes...",
                 LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.DILF.8", Array.Empty<object>())
             },
             new string[2]{
