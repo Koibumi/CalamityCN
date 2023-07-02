@@ -1920,7 +1920,7 @@ Mods: {
 			SolsticeClaymore: 季节长剑
 			SoulEdge: 灵魂之锋
 			SoulHarvester: 灵魂收割者
-			SpineOfThanatos: 塔纳托斯的脊椎
+			SpineOfThanatos: 塔纳托斯的脊柱
 			StarnightLance: 星夜长枪
 			StellarContempt: 星体击碎者
 			StellarStriker: 月炎之锋
@@ -2004,7 +2004,7 @@ Mods: {
 			CorrodedCaustibow: 酸腐弓
 			CosmicBolter: 宇束弓
 			CrackshotColt: 神枪手柯尔特
-			CursedCapper: 诅咒地狱手枪
+			CursedCapper: 诅咒手枪
 			DaemonsFlame: 鬼火弓
 			DarkechoGreatbow: 暗之回响
 			Deathwind: 死亡之风
@@ -7755,7 +7755,7 @@ Mods: {
 				至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
 				反弹的子弹必定暴击，并且会基于反弹的次数增加伤害
 				'''
-			CursedCapper: 发射诅咒地狱子弹
+			CursedCapper: 发射诅咒狱火弹
 			DaemonsFlame:
 				'''
 				发射正常箭矢的同时发射恶魔焰火球
@@ -8393,7 +8393,7 @@ Mods: {
 			DesecratedWater:
 				'''
 				投掷一瓶邪恶之水，破碎后形成追踪气泡
-				潜伏攻击形成更多气泡，并造成咒焰和灵液减益
+				潜伏攻击形成更多气泡，并造成诅咒狱火和灵液减益
 				'''
 			DukesDecapitator:
 				'''
@@ -8539,7 +8539,7 @@ Mods: {
 				投掷一把被诅咒的追踪镰刀
 				镰刀飞行中会召唤颅骨并在命中后爆成蝙蝠
 				潜伏攻击会使镰刀在消失时生成大量蝙蝠和坠落头骨
-				造成诅咒焰和困惑减益
+				造成诅咒狱火和困惑减益
 				“卡特里娜骷髅的不二之选武器”
 				'''
 			HardenedHoneycomb:
