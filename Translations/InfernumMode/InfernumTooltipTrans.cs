@@ -25,7 +25,7 @@ namespace CalamityCN.Translations.InfernumMode
 		{
 			if (item.type == ModContent.ItemType<ProfanedShard>())
 			{
-				ItemHelper.ApplyTooltipEdits(item, tooltips, (Item i, TooltipLine l) => l.Text == "Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld", delegate (TooltipLine tooltip)
+				ItemHelper.ApplyTooltipEdits(item, tooltips, (Item i, TooltipLine l) => l.Text == "Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld during day", delegate (TooltipLine tooltip)
 				{
 					tooltip.Text = LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedShard.0", Array.Empty<object>());
 				});
@@ -68,7 +68,7 @@ namespace CalamityCN.Translations.InfernumMode
                 }
                 if (item.type == ModContent.ItemType<ProfanedCore>())
                 {
-                    line.Text = line.Text.Replace("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedCore", Array.Empty<object>()));
+                    line.Text = line.Text.Replace("Summons Providence when used at the altar in the profaned temple at the far right of the underworld", LangHelper.GetTextValue("InfernumMode.Items.Tooltip.ProfanedCore", Array.Empty<object>()));
                 }
                 if (item.type == ModContent.ItemType<RuneofKos>())
                 {
