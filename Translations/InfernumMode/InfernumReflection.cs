@@ -123,7 +123,7 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Misanthropic Encounters - Minibosses")
 			{
-				text2 = "Misanthropic Encounters - 小Boss";
+				text2 = "极恶强敌 - 小Boss";
 			}
 			else if (text == "Crowned before One's End - Queen Slime")
 			{
@@ -139,7 +139,7 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Icon of the Sun - Golem")
 			{
-				text2 = "Icon of the Sun - 石巨人";
+				text2 = "艳阳之证 - 石巨人";
 			}
 			else if (text == "Razorblade Typhoon - Duke Fishron")
 			{
@@ -161,9 +161,9 @@ namespace CalamityCN.Mods.InfernumMode
 			{
 				text2 = "旧世之终 - 月亮领主";
 			}
-			else if (text == "TVocitus Terminus - The Eidolon Wyrm")
+			else if (text == "Vocitus Terminus - The Eidolon Wyrm")
 			{
-				text2 = "Vocitus Terminus - 幻海妖龙";
+				text2 = "始源之末 - 幻海妖龙";
 			}
 			else if (text == "Inferior Fabrications (Exo Remix) - The Exo Mechs")
 			{
@@ -179,7 +179,7 @@ namespace CalamityCN.Mods.InfernumMode
 			}
 			else if (text == "Scars of Calamity - Calamitas")
 			{
-				text2 = "Scars of Calamity - 灾厄";
+				text2 = "灾之痂痕 - 灾厄";
 			}
 			else if (text == "Storm Before Dawn - Infernum")
 			{
