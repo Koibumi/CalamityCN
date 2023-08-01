@@ -9,7 +9,7 @@ namespace CalamityCN.Utils
 	{
 		internal static string GetText(string key)
 		{
-			return LangLoader.Translations["Mods.CalamityCN." + key].GetTranslation(Language.ActiveCulture);
+			return LangLoader.Translations["Mods.CalamityCN." + key].Value;
 		}
 
 		internal static string GetTextValue(string key, params object[] args)

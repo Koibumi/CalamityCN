@@ -15,7 +15,7 @@ using CalamityMod.Items.Placeables.Furniture.Trophies;
 using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.SummonItems.Invasion;
 using CalamityMod.NPCs.AcidRain;
-using CalamityMod.NPCs.AdultEidolonWyrm;
+using CalamityMod.NPCs.PrimordialWyrm;
 using CalamityMod.NPCs.AquaticScourge;
 using CalamityMod.NPCs.AstrumAureus;
 using CalamityMod.NPCs.AstrumDeus;
@@ -153,8 +153,8 @@ namespace CalamityCN.Translations.Patch
 			float difficulty5 = 6.5f;
 			List<int> list6 = new List<int>();
 			list6.Add(ModContent.NPCType<SlimeGodCore>());
-			list6.Add(ModContent.NPCType<EbonianSlimeGod>());
-			list6.Add(ModContent.NPCType<CrimulanSlimeGod>());
+			list6.Add(ModContent.NPCType<EbonianPaladin>());
+			list6.Add(ModContent.NPCType<CrimulanPaladin>());
 			Func<bool> downed5 = () => DownedBossSystem.downedSlimeGod;
 			object summon5 = ModContent.ItemType<OverloadedSludge>();
 			List<int> list7 = new List<int>

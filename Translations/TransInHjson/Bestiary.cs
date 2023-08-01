@@ -1,7 +1,7 @@
 ﻿using System;
 using CalamityMod.NPCs.Abyss;
 using CalamityMod.NPCs.AcidRain;
-using CalamityMod.NPCs.AdultEidolonWyrm;
+using CalamityMod.NPCs.PrimordialWyrm;
 using CalamityMod.NPCs.AquaticScourge;
 using CalamityMod.NPCs.Astral;
 using CalamityMod.NPCs.AstrumAureus;
@@ -227,7 +227,7 @@ namespace CalamityCN.Translations.TransInHjson
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Trilobite")));
 			}
-			if (npc.type == ModContent.NPCType<AdultEidolonWyrmHead>())
+			if (npc.type == ModContent.NPCType<PrimordialWyrmHead>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.AdultEidolonWyrmHead")));
@@ -267,7 +267,7 @@ namespace CalamityCN.Translations.TransInHjson
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Atlas")));
 			}
-			if (npc.type == ModContent.NPCType<BigSightseer>())
+			if (npc.type == ModContent.NPCType<SightseerSpitter>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.BigSightseer")));
@@ -297,7 +297,7 @@ namespace CalamityCN.Translations.TransInHjson
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Nova")));
 			}
-			if (npc.type == ModContent.NPCType<SmallSightseer>())
+			if (npc.type == ModContent.NPCType<SightseerCollider>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SmallSightseer")));
@@ -382,12 +382,12 @@ namespace CalamityCN.Translations.TransInHjson
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CalamityEye")));
 			}
-			if (npc.type == ModContent.NPCType<CharredSlime>())
+			if (npc.type == ModContent.NPCType<InfernalCongealment>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CharredSlime")));
 			}
-			if (npc.type == ModContent.NPCType<CultistAssassin>())
+			if (npc.type == ModContent.NPCType<RenegadeWarlock>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CultistAssassin")));
@@ -562,11 +562,13 @@ namespace CalamityCN.Translations.TransInHjson
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.Cnidrion")));
 			}
+			/*
 			if (npc.type == ModContent.NPCType<CosmicElemental>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.CosmicElemental")));
 			}
+			*/
 			if (npc.type == ModContent.NPCType<CrawlerAmber>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
@@ -907,12 +909,12 @@ namespace CalamityCN.Translations.TransInHjson
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SlimeGodCore")));
 			}
-			if (npc.type == ModContent.NPCType<SplitCrimulanSlimeGod>())
+			if (npc.type == ModContent.NPCType<SplitCrimulanPaladin>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SplitCrimulanSlimeGod")));
 			}
-			if (npc.type == ModContent.NPCType<SplitEbonianSlimeGod>())
+			if (npc.type == ModContent.NPCType<SplitEbonianPaladin>())
 			{
 				bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
 				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(LangHelper.GetText("CalamityMod.Bestiary.SplitEbonianSlimeGod")));

@@ -67,7 +67,7 @@ namespace CalamityCN.Translations.Patch
             {
                 if (!il[1].Equals(""))
                 {
-                    QuickTranslate(typeof(WhereMalice), il[0], il[1]);
+                    //QuickTranslate(typeof(WhereMalice), il[0], il[1]);
                 }
             }
 

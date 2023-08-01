@@ -1,4 +1,5 @@
-﻿using CalamityCN.Utils;
+﻿/*
+using CalamityCN.Utils;
 using CalamityMod.Systems;
 using System;
 using Microsoft.Xna.Framework;
@@ -193,3 +194,4 @@ namespace CalamityCN.Mods.InfernumMode
 
 	}
 }
+*/

@@ -94,7 +94,7 @@ public class NPCGlobalTrans : GlobalNPC
     {
             if (npc.type == ModContent.NPCType<FAP>() && !firstButton)
             {
-                int dc = CalamityUtils.Calamity(Main.player[Main.myPlayer]).deathCount;
+            int dc = Main.player[Main.myPlayer].numberOfDeathsPVE;
                 if (dc <= 100)
                 {
                     Main.npcChatText = LangHelper.GetTextValue("CalamityMod.NPCs.Dialogues.FAP.Death.1", dc);

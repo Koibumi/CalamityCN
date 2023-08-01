@@ -15,14 +15,12 @@ namespace CalamityCN.Utils
         }
         public override void Load()
         {
-            MonoModHooks.RequestNativeAccess();
             ModePatch.Load();
             UIPatch.Load();
             TextPatch.Load();
-            AuricOreDeathPatch.Load();
             if (ModsCall.Infernum != null && CalamityCNConfig.Instance.InfernumCN)
             {
-                InfernumPatch.Load();
+                // InfernumPatch.Load();
             }
         }
         public override void Unload()
@@ -30,7 +28,6 @@ namespace CalamityCN.Utils
             UIPatch.Unload();
             ModePatch.Unload();
             TextPatch.Unload();
-            AuricOreDeathPatch.Unload();
         }
         public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
         {

@@ -93,3 +93,9 @@ InfernumMode.Core.GlobalInstances.Systems.CalamityBossHPBarChangesSystem中Dark 
       [
         Unfinished
       ]
+
+
+
+
+
+检查圣金源矿死亡提示

@@ -40,7 +40,7 @@ namespace CalamityCN.Translations.InfernumMode
         {
             if (id >= NPCID.Count)
             {
-                return NPCLoader.GetNPC(id).DisplayName.GetTranslation(GameCulture.FromCultureName(GameCulture.CultureName.Chinese));
+                return NPCLoader.GetNPC(id).DisplayName.Value;
             }
             return NPC.GetFullnameByID(id);
         }

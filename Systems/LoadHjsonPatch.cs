@@ -19,9 +19,9 @@ namespace CalamityCN.Systems
 
         public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).GetCachedMethod("AutoloadTranslations");
 
-        public override Delegate Delegate => new Action<AutoloadTranslationsPatch, Mod, Dictionary<string, ModTranslation>>(AutoloadTranslations);
+        public override Delegate Delegate => new Action<AutoloadTranslationsPatch, Mod, Dictionary<string, LocalizedText>>(AutoloadTranslations);
 
-        private static void AutoloadTranslations(AutoloadTranslationsPatch orig, Mod mod, Dictionary<string, ModTranslation> modTranslationDictionary)
+        private static void AutoloadTranslations(AutoloadTranslationsPatch orig, Mod mod, Dictionary<string, LocalizedText> modTranslationDictionary)
         {
             if (mod.Name != "CalamityCN")
             {
@@ -82,26 +82,27 @@ namespace CalamityCN.Systems
                         string text3 = text;
                         string value = text2;
                         string effectiveKey = text3.Replace(".$parentVal", "");
-                        ModTranslation mt;
+                        LocalizedText mt;
                         if (!modTranslationDictionary.TryGetValue(effectiveKey, out mt))
                         {
-                            mt = (modTranslationDictionary[effectiveKey] = LocalizationLoader.CreateTranslation(effectiveKey));
+                            //mt = (modTranslationDictionary[effectiveKey] = LocalizationLoader.CreateTranslation(effectiveKey));
                         }
 
-                        mt.AddTranslation(culture, value);
+                        //mt.AddTranslation(culture, value);
                     }
                 }
             }
         }
 
-        private delegate void AutoloadTranslationsPatch(Mod mod, Dictionary<string, ModTranslation> modTranslationDictionary);
+        private delegate void AutoloadTranslationsPatch(Mod mod, Dictionary<string, LocalizedText> modTranslationDictionary);
 
         private static TmodFile GetFile(Mod mod) => mod.GetType().GetProperty("File", BindingFlags.Instance | BindingFlags.NonPublic)!.GetValue(mod) as TmodFile;
 
         private static GameCulture FromPathOverride(ref string path)
         {
             if (!path.Contains("Localization/CalamityMod/zh"))
-                return GameCulture.FromPath(path);
+                ;
+                // return GameCulture.FromPath(path);
 
             path = CalamityCNConfig.Instance.Lang switch
             {

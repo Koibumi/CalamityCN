@@ -1,3 +1,4 @@
+/*
 using CalamityCN.Utils;
 using InfernumMode;
 using InfernumMode.Content.Achievements;
@@ -361,3 +362,4 @@ namespace CalamityCN.Translations.InfernumMode
         }
     }
 }
+*/

@@ -12,10 +12,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CalamityMod">
-      <HintPath>..\CalamityMod.dll</HintPath>
+      <HintPath>lib\CalamityMod.dll</HintPath>
     </Reference>
     <Reference Include="InfernumMode">
-      <HintPath>..\InfernumMode.dll</HintPath>
+      <HintPath>lib\InfernumMode.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

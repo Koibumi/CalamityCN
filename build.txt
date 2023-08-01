@@ -4,5 +4,5 @@ version = 2.3.10
 modReferences = CalamityMod
 weakReferences = InfernumMode, CalamityModMusic, InfernumModeMusic
 hideCode = true
-buildIgnore = *.csproj, compile_temp\*, obj\*, bin\*, .vs\*
+buildIgnore = *.csproj, compile_temp\*, obj\*, bin\*, .vs\*, .lib\*
 side=client

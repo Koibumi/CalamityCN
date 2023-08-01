@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityCN.Utils
@@ -26,7 +27,7 @@ namespace CalamityCN.Utils
 		public void LoadContent()
 		{
 			FieldInfo field = typeof(LocalizationLoader).GetField("translations", BindingFlags.Static | BindingFlags.NonPublic);
-			LangLoader.Translations = (Dictionary<string, ModTranslation>)((field != null) ? field.GetValue(CalamityCN.Instance) : null);
+			LangLoader.Translations = (Dictionary<string, LocalizedText>)((field != null) ? field.GetValue(CalamityCN.Instance) : null);
 		}
 
 		public void UnloadContent()
@@ -34,6 +35,6 @@ namespace CalamityCN.Utils
 			LangLoader.Translations = null;
 		}
 
-		public static Dictionary<string, ModTranslation> Translations;
+		public static Dictionary<string, LocalizedText> Translations;
 	}
 }

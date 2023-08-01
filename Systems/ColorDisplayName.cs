@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿/*
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using MonoMod.RuntimeDetour.HookGen;
 using ReLogic.Content;
@@ -110,3 +111,4 @@ namespace CalamityCN.Systems
 		}
 	}
 }
+*/
