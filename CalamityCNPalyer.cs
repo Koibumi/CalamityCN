@@ -12,16 +12,16 @@ namespace CalamityCN
 {
     public class CalamityCNPlayer : ModPlayer
     {
-        /*
-         * public override void OnEnterWorld(Player player)
+        
+         public override void OnEnterWorld()
         {
-            if(ModsCall.Infernum != null && !CalamityCNConfig.Instance.InfernumCNFont)
+            if(ModsCall.Infernum != null)
             {
             Color Orange = Color.Orange;
-			Main.NewText("[炼狱中文标题：默认为关，如想使用可在灾厄汉化配置中开启。]", Orange);
+			Main.NewText("[炼狱汉化暂不支持]", Orange);
             }
             
         }
-        */
+        
     }
 }
