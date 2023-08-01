@@ -22,7 +22,7 @@ namespace CalamityCN.Systems
 
 		public override void Load()
 		{
-			if (Main.dedServ)
+			if (Main.dedServ && !(Environment.OSVersion.Platform == PlatformID.MacOSX))
 			{
 				return;
 			}
@@ -44,29 +44,13 @@ namespace CalamityCN.Systems
 				Main.spriteBatch.End();
 				Main.graphics.GraphicsDevice.SetRenderTarget(null);
 			});
-
+			//Hook
 			_uiModItemType = typeof(Main).Assembly.GetTypes().First(t => t.Name == "UIModItem");
 			_drawMethod = _uiModItemType.GetMethod("Draw", BindingFlags.Instance | BindingFlags.Public);
 
 			if (_drawMethod is not null)
 			{
-				HookEndpointManager.Add(_drawMethod, DrawHook);
-			}
-		}
-
-		public override void Unload()
-		{
-			if (Main.dedServ)
-			{
-				return;
-			}
-			if (_drawMethod is not null)
-			{
-				HookEndpointManager.Remove(_drawMethod, DrawHook);
-			}
-			if (_renderTarget is not null)
-			{
-				_renderTarget = null;
+				MonoModHooks.Add(_drawMethod, DrawHook);
 			}
 		}
 
@@ -102,8 +86,6 @@ namespace CalamityCN.Systems
 			sb.Begin(SpriteSortMode.Immediate, sb.GraphicsDevice.BlendState, sb.GraphicsDevice.SamplerStates[0],
 				sb.GraphicsDevice.DepthStencilState, sb.GraphicsDevice.RasterizerState, shader, Main.UIScaleMatrix);
 			sb.Draw(_renderTarget, position, Color.White);
-			// 一般的绘制字符串方法
-			// ChatManager.DrawColorCodedString(sb, FontAssets.MouseText.Value, modName.Text, position, Color.White, 0f, Vector2.Zero, Vector2.One);
 			sb.End();
 			sb.Begin(SpriteSortMode.Deferred, sb.GraphicsDevice.BlendState, sb.GraphicsDevice.SamplerStates[0],
 				sb.GraphicsDevice.DepthStencilState, sb.GraphicsDevice.RasterizerState, null, Main.UIScaleMatrix);

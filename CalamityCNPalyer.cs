@@ -12,7 +12,8 @@ namespace CalamityCN
 {
     public class CalamityCNPlayer : ModPlayer
     {
-        public override void OnEnterWorld(Player player)
+        /*
+         * public override void OnEnterWorld(Player player)
         {
             if(ModsCall.Infernum != null && !CalamityCNConfig.Instance.InfernumCNFont)
             {
@@ -21,5 +22,6 @@ namespace CalamityCN
             }
             
         }
+        */
     }
 }

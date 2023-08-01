@@ -13,8 +13,10 @@ using Terraria.ModLoader.Core;
 
 namespace CalamityCN.Systems
 {
+    /*
     public class LoadHjsonPatch : OnPatcher
     {
+
         public override bool AutoLoad => true;
 
         public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).GetCachedMethod("AutoloadTranslations");
@@ -123,4 +125,5 @@ namespace CalamityCN.Systems
         [Label("繁体中文（台灣）")]
         tw
     }
+    */
 }

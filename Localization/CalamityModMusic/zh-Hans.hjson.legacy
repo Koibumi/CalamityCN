@@ -1,0 +1,115 @@
+Mods: {
+	CalamityModMusic: {
+		ItemName: {
+			AbyssLayer2MusicBox: 音乐盒（浅层深渊）
+			AbyssLayer3MusicBox: 音乐盒（深层深渊）
+			AbyssLayer4MusicBox: 音乐盒（虚空）
+			AcidRainTier1MusicBox: 音乐盒（酸性暴雨）
+			AcidRainTier3MusicBox: 音乐盒（硫酸季风）
+			AdultEidolonWyrmMusicBox: 音乐盒（成年幻海妖龙）
+			AnahitaMusicBox: 音乐盒（阿娜希塔）
+			AnahitasLureMusicBox: 音乐盒（阿娜希塔，诱饵）
+			AquaticScourgeMusicBox: 音乐盒（渊海灾虫）
+			AstralInfectionMusicBox: 音乐盒（星辉瘟疫）
+			AstralInfectionUndergroundMusicBox: 音乐盒（地下星辉瘟疫）
+			AstrumAureusMusicBox: 音乐盒（白金星舰）
+			AstrumDeusMusicBox: 音乐盒（星神游龙）
+			BioLabMusicBox: 音乐盒（群系实验室）
+			BossRushTier1MusicBox: 音乐盒（Boss Rush第一阶段）
+			BossRushTier2MusicBox: 音乐盒（Boss Rush第二阶段）
+			BossRushTier3MusicBox: 音乐盒（Boss Rush第三阶段）
+			BossRushTier4MusicBox: 音乐盒（Boss Rush第四阶段）
+			BossRushTier5MusicBox: 音乐盒（Boss Rush第五阶段）
+			BrimstoneCragsMusicBox: 音乐盒（硫火之崖）
+			BrimstoneElementalMusicBox: 音乐盒（硫磺火元素）
+			CalamitasCloneMusicBox: 音乐盒（灾厄之影）
+			CalamitasDefeatMusicBox: 音乐盒（灾厄第四部分（接受））
+			CalamitasPhase1MusicBox: 音乐盒（灾厄第一部分（哀伤））
+			CalamitasPhase2MusicBox: 音乐盒（灾厄第二部分（哀叹））
+			CalamitasPhase3MusicBox: 音乐盒（灾厄第三部分（醒悟））
+			CalamityTitleMusicBox: 音乐盒（灾厄主题曲，残酷世界之传说）
+			CeaselessVoidMusicBox: 音乐盒（无尽虚空）
+			CrabulonMusicBox: 音乐盒（菌生蟹）
+			CryogenMusicBox: 音乐盒（极地之灵）
+			DesertScourgeMusicBox: 音乐盒（荒漠灾虫）
+			DevourerofGodsPhase1MusicBox: 音乐盒（神明吞噬者一阶段）
+			DevourerofGodsPhase2MusicBox: 音乐盒（神明吞噬者二阶段）
+			DragonfollyMusicBox: 音乐盒（痴愚金龙）
+			ExoMechsMusicBox: 音乐盒（星流巨械）
+			HiveMindMusicBox: 音乐盒（腐巢意志）
+			LeviathanMusicBox: 音乐盒（利维坦）
+			OldDukeMusicBox: 音乐盒（硫海遗爵）
+			PerforatorsMusicBox: 音乐盒（血肉宿主）
+			PlaguebringerGoliathMusicBox: 音乐盒（瘟疫使者歌莉娅）
+			PolterghastMusicBox: 音乐盒（噬魂幽花）
+			ProfanedGuardiansMusicBox: 音乐盒（亵渎守卫）
+			ProvidenceMusicBox: 音乐盒（亵渎天神）
+			RavagerMusicBox: 音乐盒（毁灭魔像）
+			SignusMusicBox: 音乐盒（神之使徒，西格纳斯）
+			SlimeGodMusicBox: 音乐盒（史莱姆之神）
+			StormWeaverMusicBox: 音乐盒（风暴编织者）
+			SulphurousSeaDayMusicBox: 音乐盒（硫磺海白天）
+			SulphurousSeaNightMusicBox: 音乐盒（硫磺海黑夜）
+			SunkenSeaMusicBox: 音乐盒（沉沦之海）
+			YharonLegacyMusicBox: 音乐盒（犽戎，旧版）
+			YharonPhase1MusicBox: 音乐盒（犽戎，阶段一）
+			YharonPhase2MusicBox: 音乐盒（犽戎，阶段二）
+		}
+		ItemTooltip:
+		{
+			AbyssLayer2MusicBox: 播放 '深海水压' 作者：DM DOKURO
+			AbyssLayer3MusicBox: 播放 '拉莱耶' 作者：RoverdriveX
+			AbyssLayer4MusicBox: 播放 '虚空' 作者：DM DOKURO
+			AcidRainTier1MusicBox: 播放 '酸性暴雨' 作者：RoverdriveX
+			AcidRainTier3MusicBox: 播放 '硫酸季风' 作者：PinpinNeon
+			AdultEidolonWyrmMusicBox: 播放 '渊海的威胁' 作者：DM DOKURO
+			AnahitaMusicBox: 播放 '海妖的号吟' 作者：DM DOKURO
+			AnahitasLureMusicBox: 播放 '海妖之呼唤' 作者：DM DOKURO
+			AquaticScourgeMusicBox: 播放 '硫磺之海的遗弃者' 作者：DM DOKURO
+			AstralInfectionMusicBox: 播放 '天界之憎' 作者：DM DOKURO
+			AstralInfectionUndergroundMusicBox: 播放 '星疫魔域之秘宝' 作者：DM DOKURO
+			AstrumAureusMusicBox: 播放 '星际践踏者' 作者：DM DOKURO
+			AstrumDeusMusicBox: 播放 '宇宙灾害' 作者：DM DOKURO
+			BioLabMusicBox: 播放 '工程师圣地' 作者：Heart Plus Up!
+			BossRushTier1MusicBox: 播放 '愚者的合奏' 作者：CDMusic
+			BossRushTier2MusicBox: 播放 '野兽的狂袭' 作者：CDMusic
+			BossRushTier3MusicBox: 播放 '君王的统治' 作者：CDMusic
+			BossRushTier4MusicBox: 尚未完成
+			BossRushTier5MusicBox: 尚未完成
+			BrimstoneCragsMusicBox: 播放 '地狱跬步' 作者：DM DOKURO
+			BrimstoneElementalMusicBox: 播放 '孑然一身' 作者：DM DOKURO
+			CalamitasCloneMusicBox: 播放 '未成，灾厄之本色' 作者：DM DOKURO
+			CalamitasDefeatMusicBox: 播放 '玷残之灾（接受）' 作者：DM DOKURO
+			CalamitasPhase1MusicBox: 播放 '玷残之灾，残酷之灾（悲伤）' 作者：DM DOKURO
+			CalamitasPhase2MusicBox: 播放 '玷残之灾，残酷之灾（哀叹）' 作者：DM DOKURO
+			CalamitasPhase3MusicBox: 播放 '玷残之灾，残酷之灾（醒悟）' 作者：DM DOKURO
+			CalamityTitleMusicBox: 播放 '残酷世界的传说' 作者：DM DOKURO
+			CeaselessVoidMusicBox: 播放 '灾祸之仆（无尽虚空）' 作者：DM DOKURO
+			CrabulonMusicBox: 播放 '侵染' 作者：DM DOKURO
+			CryogenMusicBox: 播放 '极地之囚' 作者：DM DOKURO
+			DesertScourgeMusicBox: 播放 '旧日之海的守护者' 作者：DM DOKURO
+			DevourerofGodsPhase1MusicBox: 播放 '寰宇灾劫' 作者：DM DOKURO
+			DevourerofGodsPhase2MusicBox: 播放 '寰宇破灭' 作者：DM DOKURO
+			DragonfollyMusicBox: 播放 '杀戮洪潮' 作者：DM DOKURO
+			ExoMechsMusicBox: 播放 '劣铸灾械' 作者：PinpinNeon
+			HiveMindMusicBox: 播放 '污秽之心' 作者：DM DOKURO and SixteenInMono
+			LeviathanMusicBox: 播放 '禁忌摇篮曲' 作者：DM DOKURO
+			OldDukeMusicBox: 播放 '毒海智者' 作者：DM DOKURO
+			PerforatorsMusicBox: 播放 '血肉凝聚剂' 作者：DM DOKURO and SixteenInMono
+			PlaguebringerGoliathMusicBox: 播放 '飞行的别西卜' 作者：DM DOKURO
+			PolterghastMusicBox: 播放 '怨兽凝魂' 作者：DM DOKURO
+			ProfanedGuardiansMusicBox: 播放 '亵渎伏击' 作者：DM DOKURO
+			ProvidenceMusicBox: 播放 '秽色革命' 作者：DM DOKURO
+			RavagerMusicBox: 播放 '狂潮原簇' 作者：DM DOKURO
+			SignusMusicBox: 播放 '灾祸之仆（西格纳斯）' 作者：DM DOKURO
+			SlimeGodMusicBox: 播放 '归一凝元' 作者：DM DOKURO and SixteenInMono
+			StormWeaverMusicBox: 播放 '灾祸之仆（风暴编织者）' 作者：DM DOKURO
+			SulphurousSeaDayMusicBox: 播放 '遗弃之地' 作者：DM DOKURO
+			SulphurousSeaNightMusicBox: 播放 '腐蚀之潮' 作者：Heart Plus Up!
+			SunkenSeaMusicBox: 播放 '庇护之地' 作者：DM DOKURO
+			YharonLegacyMusicBox: 播放 '地狱涌流' 作者：DM DOKURO
+			YharonPhase1MusicBox: 播放 '地狱涌流（重生）' 作者：DM DOKURO
+			YharonPhase2MusicBox: 播放 '丛林龙之怒吼' 作者：DM DOKURO
+		}
+	}
+}

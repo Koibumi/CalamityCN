@@ -2,6 +2,7 @@ using CalamityCN.Systems;
 
 namespace CalamityCN
 {
+    /*
     internal static class CalamityCNUtils
     {
         public static string tc(this string strSimple)
@@ -16,4 +17,5 @@ namespace CalamityCN
             return strSimple;
         }
     }
+    */
 }
