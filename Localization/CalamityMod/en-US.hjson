@@ -18278,8 +18278,8 @@ Mods: {
 			RepairUnitCritter.DisplayName: Repair Unit
 
 			Apollo: {
-				DisplayName: XS-03 “阿波罗”
-				HekateName: XB-∞ “赫卡忒”的腐蚀之眼
+				DisplayName: XS-03 Apollo
+				HekateName: Corrosive Eye of XB-∞ Hekate
 
 				BossChecklistIntegration: {
 					EntryName: Exo Mechs
@@ -18289,40 +18289,40 @@ Mods: {
 			}
 
 			AresBody: {
-				DisplayName: XF-09 “阿瑞斯”
-				HekateName: XB-∞ “赫卡忒”
+				DisplayName: XF-09 Ares
+				HekateName: XB-∞ Hekate
 			}
 
 			AresGaussNuke: {
 				DisplayName: XF-09 Ares Gauss Nuke
-				HekateName: XB-∞ “赫卡忒”高斯核弹发射井
+				HekateName: XB-∞ Hekate Gauss Nuke
 			}
 
 			AresLaserCannon: {
 				DisplayName: XF-09 Ares Laser Cannon
-				HekateName: XB-∞ “赫卡忒”镭射加农炮
+				HekateName: XB-∞ Hekate Laser Cannon
 			}
 
 			AresPlasmaFlamethrower: {
 				DisplayName: XF-09 Ares Plasma Cannon
-				HekateName: XB-∞ “赫卡忒”离子加农炮
+				HekateName: XB-∞ Hekate Plasma Cannon
 			}
 
 			AresTeslaCannon: {
 				DisplayName: XF-09 Ares Tesla Cannon
-				HekateName: XB-∞ “赫卡忒”特斯拉加农炮
+				HekateName: XB-∞ Hekate Tesla Cannon
 			}
 
 			Artemis: {
-				DisplayName: XS-01 “阿尔忒弥斯”
-				HekateName: XB-∞ “赫卡忒”的灼焰之眼
+				DisplayName: XS-01 Artemis
+				HekateName: Blazing Eye of XB-∞ Hekate
 			}
 
-			Draedon.DisplayName: 嘉登
+			Draedon.DisplayName: Draedon
 
 			ThanatosHead: {
-				DisplayName: XM-05 “塔纳托斯”
-				HekateName: XB-∞ “赫卡忒”的脊椎
+				DisplayName: XM-05 Thanatos
+				HekateName: Spine of XB-∞ Hekate
 			}
 
 			GreatSandShark: {
