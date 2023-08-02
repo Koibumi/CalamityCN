@@ -1,0 +1,312 @@
+Abombination: {
+	DisplayName: 瘟疫起动装置
+	Tooltip:
+		'''
+		呼叫丛林的瘟疫传播者
+		在丛林使用以召唤瘟疫使者歌莉娅
+		在丛林外狂暴
+		不消耗
+		'''
+}
+
+AstralChunk: {
+	DisplayName: 星辉碎块
+	Tooltip:
+		'''
+		夜晚时在星辉瘟疫使用以召唤白金星舰
+		在白天时狂暴
+		不消耗
+		'''
+}
+
+BloodwormItem: {
+	DisplayName: 血蠕虫
+	Tooltip:
+		'''
+		作为鱼饵在硫磺海钓鱼来召唤硫海遗爵
+		在硫磺海外狂暴
+		'''
+}
+
+BloodyWormFood: {
+	DisplayName: 血蠕虫诱饵
+	Tooltip:
+		'''
+		在猩红之地使用以召唤血肉宿主
+		在地下猩红之地外狂暴
+		不消耗
+		'''
+}
+
+CeremonialUrn: {
+	DisplayName: 祭魂瓮
+	Tooltip:
+		'''
+		在诅咒祭坛处使用以召唤至尊女巫，灾厄
+		不消耗
+		'''
+}
+
+CharredIdol: {
+	DisplayName: 焦炭玩偶
+	Tooltip:
+		'''
+		后果自负
+		在硫火之崖使用以召唤硫磺火元素
+		在硫火之崖外狂暴
+		不消耗
+		'''
+}
+
+CosmicWorm: {
+	DisplayName: 宇宙之虫
+	Tooltip:
+		'''
+		召唤神明吞噬者
+		不消耗
+		'''
+}
+
+CryoKey: {
+	DisplayName: 极寒之匙
+	// GFBName: Pryo Key
+	Tooltip:
+		'''
+		在苔原使用以召唤极地之灵
+		在苔原外狂暴
+		不消耗
+		'''
+	// SpawnNormal: Summons Cryogen when used in the tundra
+	// SpawnGFB: Summons Pryogen...? when used in the tundra
+}
+
+DeathWhistle: {
+	DisplayName: 唤死笛哨
+	Tooltip:
+		'''
+		非常老旧的神庙笛哨
+		召唤毁灭魔像
+		不消耗
+		'''
+}
+
+DecapoditaSprout: {
+	DisplayName: 节肢动物芽孢
+	Tooltip:
+		'''
+		在发光蘑菇生物群落使用以召唤菌生蟹
+		在地下发光蘑菇生物群落外狂暴
+		不消耗
+		'''
+}
+
+DesertMedallion: {
+	DisplayName: 荒漠吊坠
+	Tooltip:
+		'''
+		在沙漠使用以召唤荒漠灾虫
+		在沙漠外狂暴
+		不消耗
+		'''
+}
+
+EidolonTablet: {
+	DisplayName: 幻海灵石
+	Tooltip:
+		'''
+		召唤拜月教邪教徒
+		不消耗
+		'''
+}
+
+ExoticPheromones: {
+	DisplayName: 奇异信息素
+	Tooltip:
+		'''
+		专为吸引巨龙亚种而制
+		在丛林使用以召唤痴愚金龙
+		在丛林外狂暴
+		不消耗
+		'''
+}
+
+EyeofDesolation: {
+	DisplayName: 荒芜之眼
+	// The GFB tag generates a new line below when placed at the end of a line
+	Tooltip:
+		'''
+		这将会是一个恐怖的夜晚……
+		在夜晚使用以召唤灾厄之影
+		在白天时狂暴
+		不消耗
+		'''
+	// GFBInfo: Creates a square arena of blocks, with you at its center
+}
+
+CausticTear: {
+	DisplayName: 腐蚀之泪
+	Tooltip:
+		'''
+		让酸雨在硫磺海上方倾盆而下
+		不消耗
+		'''
+}
+
+MartianDistressRemote: {
+	DisplayName: 火星危机遥控器
+	Tooltip:
+		'''
+		召唤火星暴乱
+		不消耗
+		'''
+}
+
+NecroplasmicBeacon: {
+	DisplayName: 死灵魂炬
+	Tooltip:
+		'''
+		毛骨悚然
+		在地牢使用以召唤噬魂幽花
+		处于巨大空旷的区域时狂暴
+		不消耗
+		'''
+}
+
+NO: {
+	// DisplayName: NO
+	// Tooltip: U
+}
+
+OldPowerCell: {
+	DisplayName: 陈旧的能源之核
+	Tooltip:
+		'''
+		在神庙使用以召唤石巨人
+		在丛林神庙外狂暴
+		不消耗
+		'''
+}
+
+OverloadedSludge: {
+	DisplayName: 过载淤泥
+	Tooltip:
+		'''
+		它看起来有点被腐化了
+		召唤史莱姆之神
+		不消耗
+		'''
+}
+
+Portabulb: {
+	DisplayName: 世纪之花花苞
+	Tooltip:
+		'''
+		在丛林使用以召唤世纪之花
+		在地下丛林外狂暴
+		不消耗
+		'''
+}
+
+ProfanedCore: {
+	DisplayName: 亵渎晶核
+	Tooltip:
+		'''
+		不洁火焰的核心
+		在神圣之地或地狱使用以召唤普罗维登斯
+		在不同的群落与其战斗会掉落不同的战利品
+		在夜晚时狂暴，在神圣之地外或地狱外也狂暴
+		不消耗
+		'''
+}
+
+ProfanedShard: {
+	DisplayName: 亵渎碎片
+	Tooltip:
+		'''
+		自亵渎之火衍生出的碎片
+		白天时在地狱或神圣之地使用以召唤亵渎守卫
+		在神圣之地外或地狱外狂暴
+		不消耗
+		'''
+	// SpawnNormal: Summons the Profaned Guardians when used in the Hallow or Underworld during daytime
+	// SpawnRemix: Summons the Profaned Guardians when used in the Hallow or Underworld
+}
+
+RuneofKos: {
+	DisplayName: 宇宙符文
+	Tooltip:
+		'''
+		亵渎圣焰的遗物
+		封印着神之仆从的无情力量
+		在不同地区使用以解开他们的封印
+		不消耗
+		'''
+	// SpawnInfo: When used in certain areas of the world, it will unleash them
+	/* SpawnVoid:
+		'''
+		Summons the Ceaseless Void
+		Enrages on the surface
+		''' */
+	// SpawnSignus: Summons Signus, Envoy of the Devourer
+	// SpawnWeaver: Summons the Storm Weaver
+}
+
+SandstormsCore: {
+	DisplayName: 沙暴核心
+	Tooltip:
+		'''
+		在沙漠使用以召唤旱海狂鲨
+		不消耗
+		'''
+}
+
+Seafood: {
+	DisplayName: 海鲜饵料
+	Tooltip:
+		'''
+		在硫磺海使用以召唤渊海灾虫
+		在硫磺海外狂暴
+		不消耗
+		'''
+}
+
+Starcore: {
+	DisplayName: 星核
+	Tooltip:
+		'''
+		愿群星指引你的前路
+		在星辉信标处使用以召唤星神游龙，不会消耗
+		在白天狂暴
+		'''
+}
+
+Teratoma: {
+	DisplayName: 畸形肿瘤
+	Tooltip:
+		'''
+		在腐化之地使用以召唤腐巢意志
+		在地下腐化之地外狂暴
+		不消耗
+		'''
+}
+
+Terminus: {
+	DisplayName: 终末石
+	// GFBName: Ogscule
+	Tooltip:
+		'''
+		激活Boss Rush模式，再次使用以退出Boss Rush模式
+		在Boss Rush模式中，所有的电路设备会被禁用
+		'''
+}
+
+YharonEgg: {
+	DisplayName: 圣佑烬昭龙蛋
+	Tooltip:
+		'''
+		一颗烬昭龙蛋的雕像，用于祭祀
+		召唤重生之龙，犽戎
+		在火墙外狂暴
+		不消耗
+		'''
+}

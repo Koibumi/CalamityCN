@@ -1,0 +1,223 @@
+DraedonPowerCell: {
+	DisplayName: 嘉登能源电池
+	Tooltip:
+		'''
+		在充能站使用以充能武器
+		也可以通过提炼机进行拆分
+		'''
+}
+
+// Codebreaker Pieces
+AdvancedDisplay: {
+	DisplayName: 高级显示屏
+	Tooltip:
+		'''
+		可以放置于密码破译基站上
+		允许解密地狱原型图
+		'''
+}
+
+AuricQuantumCoolingCell: {
+	DisplayName: 金源量子冷却电池
+	Tooltip:
+		'''
+		可以放置于密码破译基站上，作为其最后的元件
+		完成密码破译器后，你能够与它的创造者直接对话
+		试图这样做可能会造成严重的后果……
+		'''
+}
+
+CodebreakerBase: {
+	DisplayName: 密码破译器基站
+	Tooltip: ""
+}
+
+DecryptionComputer: {
+	DisplayName: 解密计算机
+	Tooltip:
+		'''
+		可以放置于密码破译基站上
+		允许你解密加密原型图
+		解密后，你能够合成新的物品
+		'''
+}
+
+LongRangedSensorArray: {
+	DisplayName: 远程传感器阵列
+	Tooltip:
+		'''
+		可以放置于密码破译基站上
+		允许解密丛林原型图
+		'''
+}
+
+VoltageRegulationSystem: {
+	DisplayName: 电压校准系统
+	Tooltip:
+		'''
+		可以放置于密码破译基站上
+		允许解密冰雪原型图
+		'''
+}
+
+// Draedon Logs
+DraedonsLogHell: {
+	DisplayName: 嘉登日志 - 环境污染
+	Tooltip:
+		'''
+		[环境日志] - 污染和“血肉墙”
+		点击以查看内容
+		'''
+	// ContentPage1: The Underworld is a realm with history dating back more than a millenia when the Crags were first settled, and acts as a glance into both the modern and ancient world simultaneously. Prior to my joining of Yharim’s forces, Azafure was the center of scientific advancement in this world. Explosives, firearms, smithing techniques, and even entire schools of magic have roots in the city. It is doubtless that the city has been largely aided by the fact that forging is trivial in the Underworld, along with an abundance of food due to Silva’s essence dripping down from the Abyss above. Due to this, it has prospered even with the occasional attack from Demons.
+	// ContentPage2: Azafure has not existed without consequence, of course. Any society on such a large scale leaves an ecological footprint behind. This can be seen most clearly in the sea far above the city, appropriately known as the Sulphurous Sea. Brimstone fumes became intense enough in the city that they began rising up through the Abyss via a process akin to osmosis, and eventually reached the sea. Reducing the pollution the city creates, particularly from forging, is a goal Yharim wishes for me to prioritize. I see little need in it, yet it is a field of study few in this world have delved into. I refuse to squander an opportunity for scientific breakthrough.
+	// ContentPage3: A particular being here has been the subject of my interest: a massive wall created from biological material lies in this place created many years ago by the greatest mages Azafure has to offer. It is a living being, though only just. It lacks both pain and emotion, and brings terror to all who lay their eyes upon it. It is kept protected via high security by the city, and so few aside from the Godseeker’s closest allies have had the opportunity to observe it. For as long as Azafure continues to stand, it is unlikely to ever be truly released. Yet, I do not deny that I would be fascinated to see the effects its release would have on the world.
+}
+
+DraedonsLogJungle: {
+	DisplayName: 嘉登日志 - 瘟疫纳米机器
+	Tooltip:
+		'''
+		[纳米机器实验结果] - “瘟疫”
+		点击以查看内容
+		'''
+	// ContentPage1: It would not be a stretch to call the jungle the hub of this planet. All is centered around it, and none know not of it. It brings me no small amount of unease to see the uncomfortable, raw forms of the living beings who pass through on their journeys above. Fortunately, these labs provide everything I need in my research and more. There is little need to visit the surface, save for Yharim's summons.
+	// ContentPage2: Few travel down here, with far fewer making the expedition to reach as far down as this research station. As such, I have taken to using this isolation to develop advanced nanotechnology for use in controlling the minds of biologicals. I yearn for it to be capable of spreading from organism to organism, a perfected blend of a virus and nanotechnology. Yet, it has been an arduous task even with my newly developed technologies. Further experimentation and research are required.
+	// ContentPage3: Continued experiments have led to significant results. With a mechanically modified Queen Bee as a primary host, it may act as the core of a hive mind of those my plague has touched. However, Yharim was outraged upon learning of my experiments here and decried them as inhumane. After a brief verbal conflict, he wordlessly left and I have not heard from him since. Fortunately, I need not rely on the slayer of gods any longer, nor have I needed to for years.
+}
+
+DraedonsLogPlanetoid: {
+	DisplayName: 嘉登日志 - 低轨道天体研究
+	Tooltip:
+		'''
+		[太空和土壤调查] - 近泰拉瑞亚轨道
+		点击以查看内容
+		'''
+	// ContentPage1: High above even the sky islands upheaved long ago lies a fascinating geological phenomenon. Though, unlike the islands, their airborne nature appears to have formed more naturally. I speculate that they formed long ago when the world was in its infancy judging by soil samples I have taken while testing high atmosphere plant growth. Perhaps these "planetoids", as many refer to them as, formed via meteor strikes tossing matter high into the atmosphere. This would simultaneously explain many geological oddities I have found on the world's surface.
+	// ContentPage2: Travel between worlds is a fascination of mine. The planets within reasonable distance to this provide no use to me in terms of materials or study opportunities they could provide. And so, I wish to go further beyond this mere cluster of planets some day. It will likely take many more decades of technological progress, however, as travel between worlds would take years even at the maximum speed physical matter can currently go. Perhaps I will find a way to shatter this limit once this world holds my interest no longer.
+	// ContentPage3: A request from Yharim has been delivered. An inquiry to create a suit of armor for the serpent that has joined his forces recently, the "Devourer of Gods" as the serpent calls himself. He is a bothersome yet fascinating being. And so, I have taken the opportunity so that I may learn more of his home dimension. Using materials from his place of origin, I have forged armor of immense size and durability yet extreme flexibility. It is certainly one of the most unique materials I have worked with and has advanced my knowledge greatly. Though, I have learned more than I expected to about the cosmic beast from this. Perhaps more than he wished for me to.
+}
+
+DraedonsLogSnowBiome: {
+	DisplayName: 嘉登日志 - 低温材料
+	Tooltip:
+		'''
+		[材料科学报告] - 大法师的“低温金属”
+		点击以查看内容
+		'''
+	// ContentPage1: A freezing tundra, where only creatures that have adapted to the subzero temperatures thrive. Few sapient beings have ever permanently resided here, save for miners and the Archmage. With this fact in mind, Yharim has requested I observe this place for oddities due to the armies largely having glossed over this location. Additionally, I have been requested by the Archmage to perform studies on his frigid metals. There is little else to do in this frozen wasteland, and so his request has been accepted.
+	// ContentPage2: Cryonic Ore, as the Archmage simply calls it, is a material seemingly akin to iced over glass. One would assume it is a fragile material at a glance, yet upon testing it is clear that is not the case. Plating made out of it has been found to be more durable and resilient than mythril alloy via flexural and tensile testing, followed by destruction attempts. Yet, it is but a fraction of the weight. Perhaps mass amounts of this material could be used to forge armor for units who disdain for the usual burden of metal plating. I will likely inquire further about the creation methods of Cryonic Ore to achieve this.
+	// ContentPage3: As described earlier, Cryonic Ore was developed by the Archmage, Permafrost. Despite his position as the mage of mages, he has little will to engage in combat. He instead acts as advisor to Yharim, assisting in much of the management of cities and towns taken by or sided with the Godkiller. In addition, he seems to have bonded with the girl who arrived seeking Yharim some months ago, acting as a fatherly figure to her. I myself have taken an interest in her immense natural power.
+}
+
+DraedonsLogSunkenSea: {
+	DisplayName: 嘉登日志 - 海洋生物
+	Tooltip:
+		'''
+		[生物形态研究] - 伊尔梅里斯的水生生物
+		点击以查看内容
+		'''
+	// ContentPage1: A hub of diverse ocean life, and all that remains of Ilmeris that is unscorched. Once its rural outskirts, it is now the final fragment of a once powerful kingdom. It is fortunate that the Witch only focused on attacking the cities proper, and spared some amount of the sea from the Incineration. I have long yearned to research these waters in great depth, yet was never able due to the ongoing conflict. Although many species went extinct in the devastation, many still thrive down here in its depths. It is in this lab that I may finally study the aquatic life properly and learn of their nature.
+	// ContentPage2: Although the marine life in these caves do have eyes, some of their eyes are weak and process few colors. All they are made to see is the light of the sea prisms that surround them, with many creatures relying on them to guide their way through the submerged caverns. Their tough, gnarled hides possess crystal growths that I had originally assumed were the prisms settling on their backs. However, dissection results reveal that they instead possess these crystals internally, and the growths are a result of internal sea prisms bursting out of their hides. The growth of these crystals reaches such an extent that some creatures are more geological than biological in certain areas.
+	// ContentPage3: Of the specimens here, the abnormally large clams capture my interest the most. Many times larger than the average person, their weight is so great that they lack the ability to move via the same methods as their smaller counterparts. Instead, they rely on teleportation to transport their hulking, heavily armored bodies. They seem to have once possessed further magical powers according to scouts. However, as they were seen only from afar, their reports could have easily been mistaken. Alternatively, their source of power simply could have faded after Ilmeris' downfall. It is unwise to entirely discount the latter possibility.
+}
+
+// Lab Finders
+CyanSeekingMechanism: {
+	DisplayName: 青色定位仪
+	Tooltip: 指向沙漠地下的实验室
+}
+
+GreenSeekingMechanism: {
+	DisplayName: 绿色定位仪
+	Tooltip: 指向丛林的实验室
+}
+
+LabSeekingMechanism: {
+	DisplayName: 实验室定位仪
+	Tooltip: 一个可以指向嘉登实验室能源核心的科技接收器
+}
+
+OnyxSeekingMechanism: {
+	DisplayName: 玛瑙定位仪
+	Tooltip: 指向洞穴的实验室
+}
+
+RedSeekingMechanism: {
+	DisplayName: 红色定位仪
+	Tooltip: 指向地狱的实验室
+}
+
+WhiteSeekingMechanism: {
+	DisplayName: 白色定位仪
+	Tooltip: 指向寒霜洞穴的实验室
+}
+
+YellowSeekingMechanism: {
+	DisplayName: 黄色定位仪
+	Tooltip: 指向天空的实验室
+}
+
+// Schematics
+/* SchematicUnlocked:
+	'''
+	Has already been decrypted.
+	Click to view its contents.
+	Unlocked recipes:
+	''' */
+
+EncryptedSchematicHell: {
+	DisplayName: 加密原型图（地狱）
+	Tooltip: 一个安装了[c/FF8C00:高级显示屏]的[c/FF8C00:密码破译器]能将其解密
+	/* Content:
+		'''
+		Only the highest ranking in the battalions of Yharim's army held these weapons. However these are still not my most potent tools. Those...characters could not be trusted with them.
+		Addendum: The final piece remains. Travel now from the hottest fire this land has to offer, to the most frigid cold. I cannot deny having some sense of poetic symmetry.
+		''' */
+}
+
+EncryptedSchematicIce: {
+	DisplayName: 加密原型图（冰雪）
+	Tooltip: 一个安装了[c/FF8C00:电压校准系统]的[c/FF8C00:密码破译器]能将其解密
+	/* Content:
+		'''
+		I have since made progress to even greater weapons than these, but they remain creations to be proud of. No progress can be made without a desire that comes from dissatisfaction.
+		Addendum: The time has come. You are ready.
+		''' */
+}
+
+EncryptedSchematicJungle: {
+	DisplayName: 加密原型图（丛林）
+	Tooltip: 一个安装了经过微调的[c/FF8C00:远程传感器阵列]的[c/FF8C00:密码破译器]能将其解密
+	/* Content:
+		'''
+		As rank progresses, so often does the lethality of equipment. In the hands of competent soldiers, the weapons have the ability to make change. However, competent soldiers take no action but orders from above.
+		Addendum: If you read this, you have come far. Do not disappoint. Go now to Hell, for the next component stored in what were once my forges.
+		''' */
+}
+
+EncryptedSchematicPlanetoid: {
+	DisplayName: 加密原型图（小行星）
+	Tooltip: 一个安装了基础[c/FF8C00:解密计算机]的[c/FF8C00:密码破译器]能将其解密
+	/* Content:
+		'''
+		Within an army, as weapons do, the soldiers serve different purposes. That distinction is crucial, as the wrong tool in the wrong hands—no matter how potent—may as well be a wooden club.
+		Addendum: Seek out my base of operations closest to the Lihzahrd's home. I wish you the best of luck with all sincerity, for it has been a long time since I have had a worthy test subject.
+		''' */
+}
+
+EncryptedSchematicSunkenSea: {
+	DisplayName: 原型图（沉沦之海）
+	Tooltip:
+		'''
+		众多设备和武器的精细图示在全息屏幕上飞舞。
+		捡起这个物品或将其放置于背包中时，某些新的合成配方会永远解锁
+		点击以查看内容
+		'''
+	/* Content:
+		'''
+		The weaponry I supply to the workers of the laboratories is weak. Hardly suited for battle.
+		However, they suffice for self defense against any lab mechanisms or creations which may have gone rogue.
+		Addendum: For those who think themselves powerful, search the upper bounds of this planet's atmosphere for a structure similar to that of the Sunken Seas.
+		I will know by the end if you are worthy of battling my creations.
+		''' */
+}

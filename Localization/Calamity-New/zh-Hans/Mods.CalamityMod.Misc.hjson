@@ -1,0 +1,60 @@
+// Recipe Groups
+RecipeGroup: {
+	// HardmodeAnvil: Any Hardmode Anvil
+	// HarmodeForge: Any Hardmode Forge
+	// AnyLargeGem: Any Large Gem
+	// AnyFood: Any Food Item
+	// AnyEvilBar: Any Evil Bar
+	// AnyEvilPowder: Any Evil Powder
+	// Boss2Material: Shadow Scale or Tissue Sample
+	// CursedFlameIchor: Cursed Flame or Ichor
+	// AnyEvilWater: Any Evil Water
+	// AnyEvilFlask: Any Evil Flask
+	// AnyEvilBlock: Any Evil Block
+	// AnyGoodBlock: Any Good Block
+	// LunarPickaxe: Any Lunar Pickaxe
+	// LunarHamaxe: Any Lunar Hamaxe
+	// AnyQuiver: Any Quiver
+	// AnyWings: Any Wings
+}
+
+// Status
+// WikiStatus1: "[i:Book][c/EE4939:Note: The Fandom wiki is no longer supported by Calamity.] [i:Book]"
+// WikiStatus2: "[i:Book][c/EE4939:Check out the Official Calamity Mod Wiki at ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
+// Recipe Conditions
+Tier1ArsenalRecipeCondition: 获得沉沦之海原型图
+Tier2ArsenalRecipeCondition: 破译小行星加密原型图
+Tier3ArsenalRecipeCondition: 破译丛林加密原型图
+Tier4ArsenalRecipeCondition: 破译地狱加密原型图
+Tier5ArsenalRecipeCondition: 破译雪原加密原型图
+SunkenSeaSchematicRecipeCondition: 背包中至少放置一次沉沦之海原型图
+PlanetoidSchematicRecipeCondition: 背包中至少放置一次小行星原型图
+JungleSchematicRecipeCondition: 背包中至少放置一次丛林原型图
+UnderworldSchematicRecipeCondition: 背包中至少放置一次地狱原型图
+IceSchematicRecipeCondition: 背包中至少放置一次雪原原型图
+// Other CombatText uses and Item Messages
+// ShiftToExpand: Hold SHIFT to see an expanded description
+// LearnedSchematic: You learned how to create new things!
+// CragmawVibeCheck: Vibe check.
+// AutocannonHot: OUCH! HOT!
+// NoComputer: No decryption computer installed
+// ArkParry: Parry!
+// ClockworkTick: Tick
+// ClockworkTock: Tock
+// SevensJackpot: Jackpot!!!
+// SevensBust: Bust!
+// SevensDoubles: Doubles!
+// SevensTriples: Triples!
+// StylishHammerHit: Stylish!
+ThirdSageBlessingText: 你已被第三贤者祝福！
+ThirdSageBlessingText2: 第三贤者收回了它的祝福……
+// GenericConsumedText: "[c/8A8A8A:You have already consumed this item]"
+BloodOrangeText: 你已经使用过血橙。再吃对你没有好处。
+MiracleFruitText: 你已经使用过奇迹之果。再吃会让你感到恶心。
+ElderberryText: 你已经使用过旧神浆果。再吃一个可能会降智。
+DragonfruitText: 你已经使用过龙果。再吃你的胃可受不了。
+CometShardText: 你已经使用过彗星碎片。再使用会让你反胃。
+EtherealCoreText: 你已经使用过飘渺之核。最好不要再使用了。
+PhantomHeartText: 你已经使用过幻影之心。不再使用才是明智之选。
+SulphurSwitchLeft: 硫磺海现在位于世界左侧。
+SulphurSwitchRight: 硫磺海现在位于世界右侧。

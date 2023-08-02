@@ -1,0 +1,569 @@
+AstralBreastplate: {
+	DisplayName: 星幻胸甲
+	Tooltip:
+		'''
+		增加80点最大魔力值和20点最大生命值
+		能够侦测生命体
+		'''
+}
+
+AstralHelm: {
+	DisplayName: 星幻头盔
+	Tooltip: 能够侦测危险
+	/* SetBonus:
+		'''
+		5% increased movement speed and +3 max minions
+		35% increased damage and 25% increased critical strike chance
+		Whenever you crit an enemy, a barrage of stars will rain down
+		This effect has a 1 second cooldown before it can trigger again
+		''' */
+}
+
+AstralLeggings: {
+	DisplayName: 星幻护胫
+	Tooltip:
+		'''
+		增加10%移动速度
+		能够侦测宝藏和矿石
+		'''
+}
+
+BrimflameBoots: {
+	DisplayName: 硫火靴子
+	Tooltip:
+		'''
+		增加5%魔法伤害
+		增加5%移动速度
+		'''
+}
+
+BrimflameRobes: {
+	DisplayName: 硫火长袍
+	Tooltip:
+		'''
+		增加5%魔法伤害和魔法暴击率
+		降低因接触熔岩而受到的伤害
+		'''
+}
+
+BrimflameScowl: {
+	DisplayName: 硫火兜帽
+	Tooltip:
+		'''
+		增加5%魔法伤害和魔法暴击率
+		增加70点最大魔力值并降低10%魔力消耗
+		使你免疫着火了！、硫磺火和霜冻减益
+		'''
+	/* SetBonus:
+		'''
+		Grants an additional 15% increased magic damage and crit
+		Press {0} to trigger a brimflame frenzy effect
+		While under this effect, you get an additional 40% increase to magic damage
+		However, this comes at the cost of rapid life loss and no mana regeneration
+		This can be toggled off, however, a brimflame frenzy has a 30 second cooldown
+		''' */
+}
+
+CirrusDress: {
+	DisplayName: 醉仙女的小裙子
+	Tooltip:
+		'''
+		来，穿上它，这个可以让你喝的比平常更多
+		增加5%魔法伤害和魔法暴击率
+		你醉了……
+		'''
+}
+
+DaedalusBreastplate: {
+	DisplayName: 代达罗斯胸甲
+	Tooltip: 增加3%伤害和暴击率
+}
+
+DaedalusHeadMagic: {
+	DisplayName: 代达罗斯兜帽
+	Tooltip:
+		'''
+		增加13%魔法伤害和7%魔法暴击率
+		降低10%魔力消耗并增加60点最大魔力值
+		'''
+	/* SetBonus:
+		'''
+		5% increased magic damage
+		You have a 10% chance to absorb physical attacks and projectiles when hit
+		If you absorb an attack you are healed for 1/2 of that attack's damage
+		''' */
+}
+
+DaedalusHeadMelee: {
+	DisplayName: 代达罗斯战盔
+	Tooltip:
+		'''
+		增加10%近战伤害和近战暴击率
+		增加15%近战攻速
+		'''
+	/* SetBonus:
+		'''
+		10% increased melee speed
+		Enemies are more likely to target you
+		You reflect projectiles back at enemies
+		Reflected projectiles deal 50% less damage to you
+		This reflect has a 90 second cooldown which is shared with all other dodges and reflects
+		''' */
+}
+
+DaedalusHeadRanged: {
+	DisplayName: 代达罗斯头饰
+	Tooltip:
+		'''
+		增加13%远程伤害和7%远程暴击率
+		降低20%弹药消耗率
+		'''
+	/* SetBonus:
+		'''
+		5% increased ranged damage
+		Getting hit causes you to emit a blast of crystal shards
+		''' */
+}
+
+DaedalusHeadRogue: {
+	DisplayName: 代达罗斯头罩
+	Tooltip:
+		'''
+		增加13%盗贼伤害、7%盗贼暴击率和15%盗贼弹幕速度
+		增加5%移动速度
+		'''
+	/* SetBonus:
+		'''
+		5% increased rogue damage
+		+105 maximum stealth
+		Rogue projectiles throw out crystal shards as they travel
+		''' */
+}
+
+DaedalusHeadSummon: {
+	DisplayName: 代达罗斯面具
+	Tooltip: 增加5%召唤伤害
+	/* SetBonus:
+		'''
+		20% increased summon damage and +2 max minions
+		A daedalus crystal floats above you to protect you
+		''' */
+}
+
+DaedalusLeggings: {
+	DisplayName: 代达罗斯护胫
+	Tooltip:
+		'''
+		增加3%暴击率
+		增加10%移动速度
+		'''
+}
+
+FathomSwarmerBoots: {
+	DisplayName: 幻渊鱼群护胫
+	Tooltip:
+		'''
+		增加4%召唤伤害
+		使你获得水下游泳能力
+		浸没在液体中时增加40%移动速度
+		'''
+}
+
+FathomSwarmerBreastplate: {
+	DisplayName: 幻渊鱼群胸甲
+	Tooltip:
+		'''
+		增加6%伤害减免
+		增加6%召唤伤害
+		浸没在液体中时增加防御和生命再生速度
+		降低深渊造成的防御削减效果
+		'''
+}
+
+FathomSwarmerVisage: {
+	DisplayName: 幻渊鱼群面罩
+	Tooltip:
+		'''
+		增加5%召唤伤害
+		使你获得水下呼吸能力并提供水下光照
+		'''
+	/* SetBonus:
+		'''
+		10% increased summon damage and +2 max minions
+		Grants the ability to climb walls
+		30% increased summon damage while submerged in liquid
+		Provides a moderate amount of light and moderately reduces breath loss in the abyss
+		''' */
+}
+
+ForbiddenCirclet: {
+	DisplayName: 禁戒金箍
+	Tooltip: 增加10%召唤伤害和15%盗贼弹幕速度
+	/* SetBonus:
+		'''
+		+40 maximum stealth
+		Press {0} to call an ancient storm to the cursor location
+		The ancient storm costs {1} mana and benefits from both summon and rogue bonuses
+		Rogue stealth strikes spawn homing eaters on enemy hits
+		Rogue and summon attacks will scale off of the stat with a higher boost
+		''' */
+}
+
+HydrothermicArmor: {
+	DisplayName: 渊泉盔甲
+	Tooltip:
+		'''
+		增加20点最大生命值
+		增加8%伤害和4%暴击率
+		'''
+	/* CommonSetBonus:
+		'''
+		Inferno effect when below 50% life
+		You emit a blazing explosion when you are hit
+		''' */
+}
+
+HydrothermicHeadMagic: {
+	DisplayName: 渊泉面具
+	Tooltip:
+		'''
+		增加12%魔法伤害、100点最大魔力值和10%魔法暴击率
+		使你暂时免疫熔岩，并使你免疫着火了！减益
+		'''
+	/* SetBonus:
+		'''
+		5% increased magic damage and 15% reduced mana usage
+		Magic attacks summon damaging and healing flare orbs on hit
+		''' */
+}
+
+HydrothermicHeadMelee: {
+	DisplayName: 渊泉战盔
+	Tooltip:
+		'''
+		增加12%近战伤害和10%近战暴击率
+		增加18%近战攻速
+		近战攻击及其弹幕会造成着火了！减益
+		使你暂时免疫熔岩，并使你免疫着火了！减益
+		'''
+	/* SetBonus:
+		'''
+		15% increased melee speed
+		Enemies are more likely to target you
+		Melee attacks and projectiles cause chaos flames to erupt on enemy hits
+		''' */
+}
+
+HydrothermicHeadRanged: {
+	DisplayName: 渊泉头饰
+	Tooltip:
+		'''
+		增加12%远程伤害和10%远程暴击率
+		降低25%弹药消耗率，使你暂时免疫熔岩，并使你免疫着火了！减益
+		'''
+	/* SetBonus:
+		'''
+		5% increased ranged damage
+		You fire a homing chaos flare when using ranged weapons every 0.33 seconds
+		''' */
+}
+
+HydrothermicHeadRogue: {
+	DisplayName: 渊泉兜帽
+	Tooltip:
+		'''
+		增加12%盗贼伤害和10%盗贼暴击率
+		50%几率不消耗盗贼武器并增加5%移动速度
+		使你暂时免疫熔岩，并使你免疫着火了！减益
+		'''
+	/* SetBonus:
+		'''
+		5% increased rogue damage
+		+110 maximum stealth
+		Rogue weapons unleash a volley of homing chaos flames around the player every 2.5 seconds
+		''' */
+}
+
+HydrothermicHeadSummon: {
+	DisplayName: 渊泉头盔
+	Tooltip:
+		'''
+		增加5%召唤伤害和召唤物击退
+		使你暂时免疫熔岩，并使你免疫着火了！减益
+		'''
+	/* SetBonus:
+		'''
+		40% increased summon damage and +2 max minions
+		Summons a hydrothermic vent to protect you
+		''' */
+}
+
+HydrothermicSubligar: {
+	DisplayName: 渊泉战裙
+	Tooltip:
+		'''
+		增加5%暴击率
+		增加10%移动速度
+		'''
+}
+
+LunicCorpsBoots: {
+	// DisplayName: Lunic Corps Boots
+	/* Tooltip:
+		'''
+		15% increased movement speed
+		4% increased ranged critical strike chance
+		10% increased max movement speed and acceleration
+		''' */
+}
+
+LunicCorpsHelmet: {
+	// DisplayName: Lunic Corps Helmet
+	/* Tooltip:
+		'''
+		12% increased ranged damage
+		Night vision and creature detect
+		''' */
+	/* SetBonus:
+		'''
+		'Finish the fight'
+		Provides an energy shield that absorbs up to 70 damage
+		The shield recharges over 10 seconds after being broken
+		Getting hit during the shield recharge period will restart the recharging process
+		10% increased bullet damage
+		10% increased specialist ranged damage
+		These are launchers, dartguns, or anything else that doesn't shoot arrows/bullets
+		20% increased jump speed
+		''' */
+}
+
+LunicCorpsVest: {
+	// DisplayName: Lunic Corps Vest
+	/* Tooltip:
+		'''
+		3% increased ranged damage
+		11% increased ranged critical strike chance
+		''' */
+}
+
+MolluskShelleggings: {
+	DisplayName: 软壳护胫
+	Tooltip:
+		'''
+		增加12%伤害和4%暴击率
+		降低7%移动速度
+		'''
+}
+
+MolluskShellmet: {
+	DisplayName: 软壳贝盔
+	Tooltip:
+		'''
+		增加5%伤害和4%暴击率
+		在液体中行动不受阻碍
+		'''
+	/* SetBonus:
+		'''
+		Two shellfishes aid you in combat
+		10% increased damage
+		Your horizontal movement is slowed
+		''' */
+}
+
+MolluskShellplate: {
+	DisplayName: 软壳贝甲
+	Tooltip:
+		'''
+		增加10%伤害和6%暴击率
+		降低15%移动速度
+		'''
+}
+
+PlaguebringerCarapace: {
+	DisplayName: 瘟疫使者铠甲
+	Tooltip:
+		'''
+		使你免疫瘟疫减益
+		增加12%召唤伤害
+		友方蜜蜂会造成瘟疫减益
+		'''
+}
+
+PlaguebringerPistons: {
+	DisplayName: 瘟疫使者推进靴
+	Tooltip:
+		'''
+		增加13%召唤伤害和15%移动速度
+		你走过的草地会百花齐放，站在泥土上时有几率长出随机的染料植物
+		奔跑或冲刺时会释放蜜蜂
+		'''
+}
+
+PlaguebringerVisor: {
+	DisplayName: 瘟疫使者面甲
+	Tooltip:
+		'''
+		增加15%召唤伤害
+		增加20点最大生命值
+		'''
+	/* SetBonus:
+		'''
+		Grants a plague dash which can slam through enemies without taking damage
+		Summons a lil' plaguebringer to protect you and empower nearby minions
+		+3 max minions
+		''' */
+}
+
+PlagueReaperMask: {
+	DisplayName: 瘟疫死神面具
+	Tooltip: 增加10%远程伤害和8%远程暴击率
+	/* SetBonus:
+		'''
+		25% reduced ammo usage and 5% increased flight time
+		Enemies receive 10% more damage from ranged projectiles when afflicted by the Plague
+		Getting hit causes plague cinders to rain from above
+		Press {0} to blind yourself for 5 seconds but massively boost your ranged damage
+		This has a 25 second cooldown.
+		''' */
+}
+
+PlagueReaperStriders: {
+	DisplayName: 瘟疫死神长靴
+	Tooltip:
+		'''
+		增加3%远程暴击率
+		增加15%移动速度
+		'''
+}
+
+PlagueReaperVest: {
+	DisplayName: 瘟疫死神夹克
+	Tooltip:
+		'''
+		使你免疫瘟疫减益
+		增加15%远程伤害和5%远程暴击率
+		'''
+}
+
+ReaverCuisses: {
+	DisplayName: 掠夺者护胫
+	Tooltip:
+		'''
+		增加5%暴击率
+		增加12%移动速度
+		'''
+}
+
+ReaverHeadExplore: {
+	DisplayName: 掠夺者头饰
+	Tooltip:
+		'''
+		增加40%挖掘速度和放置速度
+		使你暂时免疫熔岩并且在液体中行动不受阻碍
+		'''
+	/* SetBonus:
+		'''
+		Highlights all treasure nearby
+		Increased item grab range and block placement range
+		Mining tiles restores breath while underwater
+		Summons a reaver orb to light up the area around you
+		Reduces enemy aggression, even in the abyss
+		Provides a small amount of light in the abyss
+		''' */
+}
+
+ReaverHeadMobility: {
+	DisplayName: 掠夺者面罩
+	Tooltip: 增加10%跳跃速度和15%移动速度
+	/* SetBonus:
+		'''
+		Grants immunity to fall damage and allows constant jumping
+		10% increased flight time and horizontal wing speed
+		Hooks fly out and retract 10% faster
+		Reduces the cooldown of dashes
+		''' */
+}
+
+ReaverHeadTank: {
+	DisplayName: 掠夺者战盔
+	Tooltip:
+		'''
+		增加15%伤害减免，但降低30%伤害
+		增加50点最大生命值
+		每秒被动恢复一点生命值
+		'''
+	/* SetBonus:
+		'''
+		+10 defense and +3 life regen
+		Enemies are more likely to target you
+		Reduces the life regen lost from damage over time debuffs by 20%
+		All attacks have a small chance to steal life and speed up the rate of life regen
+		20% decreased movement speed and flight time
+		Enemy damage is reflected and summons a thorn spike
+		Reaver Rage has a 25% chance to activate when you are damaged
+		''' */
+}
+
+ReaverScaleMail: {
+	DisplayName: 掠夺者鳞甲
+	Tooltip:
+		'''
+		增加9%伤害和4%暴击率
+		增加20点最大生命值
+		'''
+}
+
+TitanHeartBoots: {
+	DisplayName: 泰坦之心靴子
+	Tooltip: 增加4%盗贼伤害、10%盗贼弹幕速度和5%盗贼击退
+}
+
+TitanHeartMantle: {
+	DisplayName: 泰坦之心斗篷
+	Tooltip:
+		'''
+		45%几率不消耗盗贼武器
+		增加5%击退，但降低15%攻击速度
+		'''
+}
+
+TitanHeartMask: {
+	DisplayName: 泰坦之心面具
+	Tooltip:
+		'''
+		增加5%盗贼伤害和盗贼击退
+		盗贼武器会造成幻星感染
+		'''
+	/* SetBonus:
+		'''
+		15% increased rogue damage and knockback
+		+100 maximum stealth
+		Stealth strikes deal double knockback and cause an astral explosion
+		Grants immunity to knockback
+		''' */
+}
+
+UmbraphileBoots: {
+	DisplayName: 日影靴子
+	Tooltip:
+		'''
+		增加9%盗贼伤害和6%盗贼暴击率
+		增加20%移动速度
+		'''
+}
+
+UmbraphileHood: {
+	DisplayName: 日影兜帽
+	Tooltip: 增加8%盗贼伤害和10%盗贼弹幕速度
+	/* SetBonus:
+		'''
+		+110 maximum stealth
+		Rogue weapons have a chance to create explosions on hit
+		Stealth strikes always create an explosion
+		''' */
+}
+
+UmbraphileRegalia: {
+	DisplayName: 日影斗篷
+	Tooltip: 增加10%盗贼伤害和盗贼暴击率
+}

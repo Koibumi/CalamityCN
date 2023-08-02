@@ -1,0 +1,1405 @@
+AbsoluteZero: {
+	DisplayName: 绝对零度
+	Tooltip:
+		'''
+		被冰之大魔法师祝福的远古之刃
+		发射暗影冰晶
+		剑刃直接击中敌人时会产生冰爆
+		'''
+}
+
+AbyssBlade: {
+	DisplayName: 深渊之刃
+	Tooltip:
+		'''
+		发射短距离三叉戟
+		击中敌人时会造成深渊水压减益
+		敌人的防御越低，减益造成的伤害越高
+		'''
+}
+
+AegisBlade: {
+	DisplayName: 庇护之刃
+	Tooltip:
+		'''
+		用剑击打敌人时，庇护之光会爆发出火焰
+		右键发射庇护之火
+		'''
+}
+
+Aftershock: {
+	DisplayName: 余震
+	Tooltip: 召唤落石从天而降
+}
+
+AirSpinner: {
+	DisplayName: 空旋
+	Tooltip:
+		'''
+		有敌人在附近时发射羽毛
+		一只十分灵活的悠悠球
+		'''
+}
+
+AmidiasTrident: {
+	DisplayName: 海王三叉戟
+	Tooltip: 发射追踪旋涡
+}
+
+AnarchyBlade: {
+	DisplayName: 混乱之刃
+	Tooltip:
+		'''
+		你的生命值越低，剑的伤害越高
+		击中敌人时引发爆炸
+		生命值低于50%时，攻击有几率瞬间秒杀普通敌人
+		'''
+}
+
+Aorta: {
+	DisplayName: 大动脉
+	Tooltip:
+		'''
+		向周围敌人射出追踪鲜血
+		一只超级灵活的悠悠球
+		'''
+}
+
+AquaticDischarge: {
+	DisplayName: 水电剑
+	Tooltip: 击中敌怪时释放电火花
+}
+
+ArkoftheCosmos: {
+	DisplayName: 鸿蒙方舟
+	Tooltip:
+		'''
+		This line gets set in ModifyTooltips
+		This line also gets set in ModifyTooltips
+		This line also gets set in ModifyTooltips
+		你的旅程的物理顶点，拥有着能使神明分崩离析的力量
+		'''
+	/* ComboInfo:
+		'''
+		<left> to perform a 5-swing combo that ends by throwing the blade
+		The thrown blade will follow your cursor
+		Releasing while the blade is out will cause an exploding snap
+		''' */
+	/* ParryInfo:
+		'''
+		<right> to snip out the scissor blades in front of you
+		Hitting an enemy with it will parry them, granting you brief invulnerability
+		You can parry projectiles to make them deal 160 less damage for a short period
+		Parrying anything will empower the next 10 swings of the sword
+		''' */
+	/* BlastInfo:
+		'''
+		Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
+		If more than 5 charges were used, you can dash across the rip by holding UP
+		''' */
+}
+
+ArkoftheElements: {
+	DisplayName: 元素方舟
+	Tooltip:
+		'''
+		This line gets set in ModifyTooltips
+		This line also gets set in ModifyTooltips
+		This line also gets set in ModifyTooltips
+		一对注入了泰拉大陆精华的天赐之刃，其威力足以切割现实的结构
+		'''
+	/* ComboInfo:
+		'''
+		<left> to perform a 5-swing combo that ends by throwing the blade
+		Releasing while the blade is out will deal extra damage and give 2 charges
+		''' */
+	/* ParryInfo:
+		'''
+		<right> to snip out the scissor blades in front of you
+		Hitting an enemy with it will parry them, granting you brief invulnerability
+		You can parry projectiles to make them deal 100 less damage for a short period
+		Parrying will empower the next 10 swings of the sword, letting you use both blades at once
+		''' */
+	/* BlastInfo:
+		'''
+		Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
+		If more than 5 charges were used, you can dash across the rip by holding UP
+		''' */
+}
+
+AstralBlade: {
+	DisplayName: 幻星刀
+	Tooltip: 敌人剩余的生命值越高，造成伤害越多
+}
+
+AstralPike: {
+	DisplayName: 幻星矛
+	Tooltip: 暴击时召唤一群幻星
+}
+
+AstralScythe: {
+	DisplayName: 星幻镰刀
+	Tooltip: 发射会加速的镰刀环
+}
+
+Ataraxia: {
+	DisplayName: 禅心剑
+	Tooltip: 安宁
+}
+
+Avalanche: {
+	DisplayName: 雪崩
+	Tooltip: 生成会在接触敌人3秒钟后爆炸出冰晶的冰炸弹
+}
+
+Azathoth: {
+	DisplayName: 阿撒托斯
+	Tooltip:
+		'''
+		眨眼之间摧毁宇宙
+		一只十分灵活的悠悠球
+		发射能爆裂出死亡射线的寰宇之球攻击敌人
+		'''
+}
+
+BalefulHarvester: {
+	DisplayName: 邪恶收割者
+	Tooltip: 召唤燃烧的南瓜和颅骨，击中敌人时分裂成追踪火球
+}
+
+BallOFugu: {
+	DisplayName: 河豚链球
+	Tooltip: 投出一条会吐出追踪尖刺的鱼
+}
+
+BansheeHook: {
+	DisplayName: 女妖之爪
+	Tooltip: 放出一个触碰到敌人会爆炸的灵魂鬼爪
+}
+
+Basher: {
+	DisplayName: 痛击者
+	Tooltip: 击中敌人时会造成辐射减益
+}
+
+BladecrestOathsword: {
+	DisplayName: 剑锋之誓约
+	Tooltip: 发射一连串飞行速度会迅速降低的爆炸性恶魔之刃
+}
+
+Bonebreaker: {
+	DisplayName: 碎骨者
+	Tooltip: 发射标枪黏在敌人身上并爆炸
+}
+
+Brimlance: {
+	DisplayName: 硫磺火矛
+	Tooltip: 击中敌人时产生硫磺火爆炸
+}
+
+Brimlash: {
+	DisplayName: 硫火鞭
+	Tooltip: 发射一颗硫磺火弹，在爆裂时产生更多硫磺火弹
+}
+
+BrimstoneSword: {
+	DisplayName: 硫火之刃
+	Tooltip:
+		'''
+		击中敌人时释放硫磺火间歇泉
+		右键会将其像标枪一样掷出，击中时爆炸
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+BrinyBaron: {
+	DisplayName: 海爵剑
+	Tooltip:
+		'''
+		剑刃击中敌人会释放涡流台风
+		右键发射水刃龙卷
+		'''
+}
+
+BrokenBiomeBlade: {
+	DisplayName: 残缺环境刃
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		FUNCTION_DESC
+		在平地上站定不动时长按右键将剑插入地面，使其与环境相谐振，储存生物群系的力量
+		其他情形下轻按右键，将存有的主副调谐互换
+		Main Attunement : [None]
+		Secondary Attunement: [None]
+
+		'''
+	// DefaultFunction: Does nothing... yet
+}
+
+BurntSienna: {
+	DisplayName: 灼炎弯刀
+	Tooltip: 敌人死亡时会爆发出治愈光线
+}
+
+Carnage: {
+	DisplayName: 屠杀
+	Tooltip: 敌人死亡时释放追踪血球
+}
+
+CatastropheClaymore: {
+	DisplayName: 灾难巨剑
+	Tooltip: 发射会造成冻伤、狱火或灵液减益的火花
+}
+
+TaintedBlade: {
+	// DisplayName: Tainted Blade
+	// Tooltip: Inflicts poison on enemy hits
+}
+
+CelestialClaymore: {
+	DisplayName: 天神之剑
+	Tooltip: 在玩家周围生成两秒后会爆炸的宇宙能量之火
+}
+
+ClamCrusher: {
+	DisplayName: 海蚌锤
+	Tooltip:
+		'''
+		掷出大蚌，令敌人短时间内晕眩
+		大蚌受重力影响，掷向空中砸到敌人时造成更多伤害
+		'''
+}
+
+CometQuasher: {
+	DisplayName: 彗星陨刃
+	Tooltip: 击中敌人时会召唤流星向光标处坠落
+}
+
+CosmicDischarge: {
+	DisplayName: 寒宙弹刃
+	Tooltip:
+		'''
+		用能引发冰川爆破的弹鞭击打敌人并使玩家获得寒宙增益
+		此增益会令玩家在站定不动时增加生命再生速度并冻结周围敌人
+		'''
+}
+
+CosmicShiv: {
+	DisplayName: 宇宙短剑
+	Tooltip:
+		'''
+		万万不可低估短剑的杀伤力
+		发射一束追踪敌人的宇宙射线
+		在击中敌人后，召唤从天而降的落星，并在较远处生成追踪弹幕
+		'''
+}
+
+CrescentMoon: {
+	DisplayName: 新月链刃
+	Tooltip:
+		'''
+		以寒锋恰似拜月者希冀之月
+		这把链刃能发射追踪新月
+		'''
+}
+
+DarklightGreatsword: {
+	DisplayName: 巨剑“夜光”
+	Tooltip: 发射在消失时分裂的夜光刀锋
+}
+
+DeathsAscension: {
+	DisplayName: 死神擢升
+	Tooltip:
+		'''
+		你感到死神之手掌控着你
+		右键发射一连串追踪镰刀
+		'''
+}
+
+DepthCrusher: {
+	DisplayName: 深渊碾碎者
+	Tooltip:
+		'''
+		击中敌人时会对其造成深渊水压减益
+		敌人的防御越低，此减益造成的伤害越高
+		右键使用时无锤类工具的效果
+		'''
+}
+
+Devastation: {
+	DisplayName: 破坏重剑
+	Tooltip:
+		'''
+		发射宇宙爆炸
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+DevilsDevastation: {
+	DisplayName: 破灭魔王剑
+	Tooltip:
+		'''
+		发射数个恶魔刀刃和爆炸
+		召唤火叉从地狱中升起，穿透你的敌人
+		暴击时造成暗影炎爆炸
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+DevilsSunrise: {
+	DisplayName: 邪锋破晓
+	Tooltip: 勇气？你真的有那玩意？
+}
+
+DiseasedPike: {
+	DisplayName: 瘟疫长枪
+	Tooltip: 击中敌人时释放瘟疫搜寻者
+}
+
+DraconicDestruction: {
+	DisplayName: 龙破斩
+	Tooltip:
+		'''
+		发射符文剑气，击中敌人时爆炸产生新的剑气
+		新的剑气会上下翻飞继续攻击敌人
+		'''
+}
+
+DragonPow: {
+	DisplayName: 龙魂破
+	Tooltip:
+		'''
+		发射龙头，释放龙息火星
+		击中敌人时召唤花瓣和瀑布弹幕
+		'''
+}
+
+DragonRage: {
+	DisplayName: 巨龙之怒
+	Tooltip:
+		'''
+		旋转武器，命中敌怪时产生爆炸
+		每十次命中召唤一个火环
+		'''
+}
+
+Earth: {
+	DisplayName: 无限大地
+	Tooltip:
+		'''
+		每次命中降低敌怪1点防御
+		你的攻击会大幅治疗你
+		召唤会分裂的红蓝绿陨石
+		蓝陨石造成冰冻
+		红陨石会爆炸
+		绿陨石生成治疗球
+		'''
+}
+
+EarthenPike: {
+	DisplayName: 磐石地元叉
+	Tooltip:
+		'''
+		击碎敌人的防御
+		喷射化石碎片
+		'''
+}
+
+ElementalLance: {
+	DisplayName: 元素长枪
+	Tooltip:
+		'''
+		撕裂宇宙！
+		发射一只元素之矛，飞行过程中会分裂数次
+		'''
+}
+
+ElementalShiv: {
+	DisplayName: 元素短剑
+	Tooltip:
+		'''
+		发射彩虹短剑，击中敌人后会生成额外的短剑弹幕
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+EmpyreanKnives: {
+	DisplayName: 苍穹飞刀
+	Tooltip: 投出一簇能够弹射并治疗玩家的飞刀
+}
+
+EntropicClaymore: {
+	DisplayName: 熵阔剑
+	Tooltip: 发射数个追踪离子球
+}
+
+EssenceFlayer: {
+	DisplayName: 精元劫掠者
+	Tooltip: 发射击杀敌人时释放治愈光线的精元镰刀
+}
+
+EutrophicScimitar: {
+	DisplayName: 水华弯刀
+	Tooltip: 挥舞时发射两道激光弹幕，会晕眩敌人
+}
+
+EvilSmasher: {
+	DisplayName: 邪恶粉碎者
+	Tooltip:
+		'''
+		邪恶！粉碎邪恶！粉碎……者！
+		每用这把锤子击杀一名敌人都会获得属性提升
+		属性到达最大值时停止增长
+		如果使用其他物品会移除加成
+		受击时移除一次属性提升
+		'''
+}
+
+ExaltedOathblade: {
+	DisplayName: 崇高誓约之剑
+	Tooltip: 发射三个向外飞出的恶魔镰刀，暴击时造成暗影炎爆炸
+}
+
+Excelsus: {
+	DisplayName: 宙能波纹剑
+	Tooltip:
+		'''
+		发射旋转锋刃
+		击中敌人时召唤激光束
+		'''
+}
+
+Exoblade: {
+	DisplayName: 星流之刃
+	Tooltip:
+		'''
+		左键释放大量能量光束追踪并在命中时斩击敌人
+		右键使你向光标方向冲刺并斩击
+		冲刺过程中命中敌人会造成巨量伤害并反弹自己
+		反弹后短暂时间内左键攻击更加强大并在命中敌人时爆炸
+		'''
+}
+
+FallenPaladinsHammer: {
+	DisplayName: 堕落圣骑士之锤
+	Tooltip: 击中敌人时爆炸
+}
+
+FaultLine: {
+	DisplayName: 断层
+	Tooltip:
+		'''
+		击中敌人时爆炸
+		一只十分灵活的悠悠球
+		'''
+}
+
+FeralthornClaymore: {
+	DisplayName: 荆棘长刃
+	Tooltip: 击中敌人时召唤荆棘
+}
+
+FlarefrostBlade: {
+	DisplayName: 炎霜之刃
+	Tooltip: 发射追踪炎霜球
+}
+
+Floodtide: {
+	DisplayName: 鲨潮
+	Tooltip: 发射龙卷鲨，因为龙卷鲨很棒棒！
+}
+
+ForbiddenOathblade: {
+	DisplayName: 誓约与禁忌之刃
+	Tooltip: 发射一只恶魔镰刀，暴击时造成暗影炎爆炸
+}
+
+ForsakenSaber: {
+	DisplayName: 遗忘之刃
+	Tooltip: 发射两把在飞行时自动变速的沙刃
+}
+
+FourSeasonsGalaxia: {
+	DisplayName: 银河
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		FUNCTION_DESC
+		FUNCTION_PASSIVE
+		寰宇自在，毋须调谐
+		全部环境调谐已存在其中
+		轻按鼠标右键切换当前调谐，鼠标在屏幕左、右侧分别对应向前、向后循环
+		Active Attunement : None
+		Passive Blessing : None
+
+		'''
+}
+
+FracturedArk: {
+	DisplayName: 破碎方舟
+	Tooltip:
+		'''
+		This line gets set in ModifyTooltips
+		一把破旧生锈的剑，曾经对抗过这个世界的邪恶，现在它准备再一次发挥作用
+		'''
+	/* ParryInfo:
+		'''
+		<right> to extend the Ark out in front of you
+		Hitting an enemy with it will parry them, granting you a small window of invulnerability
+		You can also parry projectiles and temporarily make them deal 50 less damage
+		Parrying empowers the next 10 swings of the sword, boosting damage and letting them throw projectiles
+		''' */
+}
+
+GaelsGreatsword: {
+	DisplayName: 盖尔大剑
+	Tooltip:
+		'''
+		来，快给我——把你的黑暗灵魂给我。
+		第一次挥动发射追踪骷髅
+		第二次挥动发射巨大的强力骷髅
+		第三次挥动造成巨大伤害
+		使用时持续获得怒气
+		处于50%生命以下挥动时在身后留下血之轨迹
+		激活暴怒模式时释放出大群骷髅
+		'''
+}
+
+GalactusBlade: {
+	DisplayName: 星河之刃
+	Tooltip:
+		'''
+		用混沌之核打造
+		从天空中召唤大量彗星
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+GalaxySmasher: {
+	DisplayName: 银河溃灭者
+	Tooltip: 击中敌人时爆炸并释放死亡射线
+}
+
+GalileoGladius: {
+	DisplayName: 伽利略短剑
+	Tooltip:
+		'''
+		不要低估了小号太空剑的杀伤力
+		发射追踪新月
+		击中敌人时生成小行星
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+GeliticBlade: {
+	DisplayName: 凝胶波刃
+	Tooltip: 发射凝胶波，击中敌人时使其减速
+}
+
+GildedProboscis: {
+	DisplayName: 镀金鸟喙
+	Tooltip: 命中敌怪时治疗玩家
+}
+
+GoldplumeSpear: {
+	DisplayName: 金羽
+	Tooltip: 发射落羽
+}
+
+GrandGuardian: {
+	DisplayName: 大守卫者
+	Tooltip:
+		'''
+		每次击中时降低敌人1防御
+		如果敌人防御低于0，造成伤害会治疗你
+		击中敌人造成大幅爆炸
+		击中低于半血的敌人会释放彩虹弹幕
+		敌人死亡时生成治疗球
+		'''
+}
+
+GreatswordofJudgement: {
+	DisplayName: 制裁大剑
+	Tooltip:
+		'''
+		遗忘之土的白色长剑
+		你可以听到这把剑传出的虚弱而带安抚的耳语
+		“无论何地，你都不会孤身一人”
+		“我会永远陪伴在你身边，我的王”
+		发射一个白色剑刃，持续发射能量束追踪攻击敌人
+		'''
+}
+
+Greentide: {
+	DisplayName: 翡翠之潮
+	Tooltip: 攻击敌人时从天空召唤利维坦毒牙
+}
+
+HellfireFlamberge: {
+	DisplayName: 狱火重剑
+	Tooltip: 发射若干个火球
+}
+
+HellionFlowerSpear: {
+	DisplayName: 刺花长矛
+	Tooltip:
+		'''
+		发射花矛尖
+		暴击时召唤花瓣从天而降
+		'''
+}
+
+Hellkite: {
+	DisplayName: 地狱龙锋
+	Tooltip:
+		'''
+		包含一只远古恶龙的力量
+		击中敌人时召唤火焰喷泉
+		'''
+	/* TooltipNormal:
+		'''
+		Summons flame geyser explosions on enemy hits
+		Contains the power of an ancient drake
+		''' */
+	// TooltipGFB: "'My Beloved <3'"
+}
+
+HolyCollider: {
+	DisplayName: 圣火之刃
+	Tooltip: 击中敌人时使其被圣火点燃并爆炸
+}
+
+IllustriousKnives: {
+	DisplayName: 圣光飞刀
+	Tooltip: 投出数扇圣光飞刀，追踪敌人并治疗玩家
+}
+
+InsidiousImpaler: {
+	DisplayName: 阴险穿刺者
+	Tooltip: 发射一柄鱼叉，黏附于敌人并产生爆炸
+}
+
+IridescentExcalibur: {
+	// DisplayName: Iridescent Excalibur
+	/* Tooltip:
+		'''
+		Freezes enemies and heals the player on hit
+		Fires rainbow beams that change their behavior based on their color
+		Press <right> for true melee
+		''' */
+}
+
+Lacerator: {
+	DisplayName: 裂魔
+	Tooltip:
+		'''
+		接近这个悠悠球的敌人的生命会被汲取
+		一只十分灵活的悠悠球
+		竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑
+		'''
+	// TooltipNormal: Someone thought this was a viable weapon against DoG at one point lol
+	// TooltipGFB: May be a viable weapon against DoG...
+}
+
+LifefruitScythe: {
+	DisplayName: 猎命镰刀
+	Tooltip: 命中后会治疗你并发射一个能量镰刀
+}
+
+LionHeart: {
+	DisplayName: 狮心圣裁
+	Tooltip:
+		'''
+		击中敌人时产生能量爆炸
+		右键召唤可以使伤害减半的能量庇护
+		此效果有45秒冷却时间
+		'''
+}
+
+Lucrecia: {
+	DisplayName: 卢克雷西亚
+	Tooltip:
+		'''
+		精致
+		用剑身攻击敌人会让你无敌一小段时间
+		发射脱氧核糖核酸链
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+MajesticGuard: {
+	DisplayName: 雄伟之护
+	Tooltip:
+		'''
+		每次命中时降低敌怪1防御
+		当敌人的防御值小于等于0时会治疗玩家
+		'''
+}
+
+MantisClaws: {
+	DisplayName: 螳螂爪
+	Tooltip: 击中敌人时产生爆炸
+}
+
+MirrorBlade: {
+	DisplayName: 镜之刃
+	Tooltip:
+		'''
+		被攻击的敌人的接触伤害会被添加到此剑的伤害之上
+		你必须用剑身击中敌人才有可能触发此效果
+		'''
+}
+
+MonstrousKnives: {
+	DisplayName: 畸变飞刀
+	Tooltip: 扔出一阵可以吸血的飞刀
+}
+
+Mourningstar: {
+	DisplayName: 晨星链刃
+	Tooltip: 发射两柄日耀链剑，击中敌人时爆炸
+}
+
+Murasama: {
+	DisplayName: 鬼妖村正
+	Tooltip:
+		'''
+		鲜血四溅！
+		ID和强度被限制
+		证明你的强大或拥有一个正确的ID以驾驭此剑
+		'''
+}
+
+MycelialClaws: {
+	DisplayName: 真菌爪
+	Tooltip: 击中敌怪时获得6秒与菇共生增益
+}
+
+Nadir: {
+	DisplayName: 天底
+	Tooltip:
+		'''
+		发射虚空精华，伸出触手掠夺敌人的血肉
+		无视无敌帧
+		“深渊凝视你良久，如今它将声震人间，不再低语似缄”
+		'''
+}
+
+Nebulash: {
+	DisplayName: 星云鞭
+	Tooltip: 发射一道闪光的链刃，击中敌人时爆炸
+}
+
+NeptunesBounty: {
+	DisplayName: 海神之馈赠
+	Tooltip:
+		'''
+		发射一支三叉戟，飞行过程中降下额外的三叉戟
+		造成深渊水压减益
+		敌人的防御越低，此减益造成伤害越高
+		'''
+}
+
+Oblivion: {
+	DisplayName: 遗殇
+	Tooltip:
+		'''
+		有敌人在附近时发射硫磺火激光
+		一只十分灵活的悠悠球
+		'''
+}
+
+OldLordClaymore: {
+	DisplayName: 旧神阔剑
+	Tooltip:
+		'''
+		远古地狱遗物
+		长按右键以快速将能量吸收进刀刃中，直至充能完毕
+		充能时点击左键可向光标位置飞去
+		飞行时，充能会逐渐衰减至零
+		'''
+}
+
+OmegaBiomeBlade: {
+	DisplayName: 真·环境之刃
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		FUNCTION_DESC
+		FUNCTION_PASSIVE
+		长按鼠标右键，剑指苍穹，电闪雷鸣，剑将与环境调谐，储存生物群系的力量
+		其他情形下轻按鼠标右键，将存有的核心和辅助调谐互换
+		Active Attunement : None
+		Passive Attunement: None
+
+		'''
+	/* DefaultFunction:
+		'''
+		Does nothing... yet
+		It seems that upgrading the blade expanded the scope of the previous attunements
+		''' */
+	// DefaultPassive: Your secondary attunement can now provide passive bonuses
+}
+
+Omniblade: {
+	DisplayName: 全能之刃
+	Tooltip: 远古之锋，由传奇的奥米尼尔打造
+}
+
+Oracle: {
+	DisplayName: 神谕
+	Tooltip:
+		'''
+		我看到了过去，当下，将来……还有你的死期
+		发出红色闪电光圈，在击中敌人时充能
+		充能完全时发射圣金源珠
+		一只超级灵活的悠悠球
+		'''
+}
+
+Orderbringer: {
+	// DisplayName: Orderbringer
+	/* Tooltip:
+		'''
+		Fires a rainbow blade that emits rainbow rain on death for a time
+		A pale white sword from a forgotten land
+		You can hear faint yet comforting whispers emanating from the blade
+		'No matter where you may be you are never alone
+		I shall always be at your side, my lord'
+		''' */
+}
+
+Pandemic: {
+	DisplayName: 瘟疫狂潮
+	Tooltip:
+		'''
+		有敌人在附近时发射瘟疫搜寻者
+		一只十分灵活的悠悠球 
+		'''
+}
+
+PerfectDark: {
+	DisplayName: 完美黑暗
+	Tooltip: 发射恶毒球体，黏附于物块并爆炸
+}
+
+PhosphorescentGauntlet: {
+	DisplayName: 磷光拳套
+	Tooltip:
+		'''
+		快速打出硫海重拳
+		使用时，你会向鼠标方向突刺
+		撞击时，你会被弹回
+		'''
+}
+
+PhotonRipper: {
+	DisplayName: 光子撕裂者
+	Tooltip:
+		'''
+		以急速投影出定向撕裂空间的光子链锯齿
+		这把武器和它的投影会破坏树木
+		'''
+}
+
+PlagueKeeper: {
+	DisplayName: 瘟疫大剑
+	Tooltip: 发射一团瘟疫和蜜蜂
+}
+
+PrismaticBreaker: {
+	DisplayName: 光棱破碎者
+	Tooltip:
+		'''
+		看上去属于一位魔法少女。辐射出强烈的宇宙魔能
+		充能发射一束彩虹光炮
+		右键挥舞此剑，释放虹光剑气
+		这把剑同时受到近战和远程的伤害加成影响
+		'''
+}
+
+Pwnagehammer: {
+	DisplayName: 圣时之锤
+	Tooltip:
+		'''
+		投掷一把沉重，受重力影响的战锤，击中物体时引发神圣能量爆炸
+		战锤有20%几率会追踪敌人
+		追踪战锤击中后召唤一柄幽灵战锤，且必定暴击
+		'''
+}
+
+Quagmire: {
+	DisplayName: 泥潭
+	Tooltip: 发射孢子云
+}
+
+RedSun: {
+	DisplayName: 红日
+	Tooltip:
+		'''
+		圣堂之上
+		日炎火球从天而降
+		'''
+}
+
+RedtideSpear: {
+	DisplayName: 赤潮矛
+	Tooltip:
+		'''
+		击中时使敌人中毒
+		在奔跑时按住攻击键会举起长矛并增加击退
+		停止奔跑或松开攻击键会进行一次上挑攻击，将敌人挑至空中
+		[c/5C95A1:大海之民善于狩猎，但他们痛恨没有意义的暴力。]
+		[c/5C95A1:不幸的是，他们的邻国一个个都野蛮无比，因此他们铸造出了战争的兵器。]
+		'''
+}
+
+RemsRevenge: {
+	DisplayName: 雷姆的复仇
+	Tooltip:
+		'''
+		由最勇敢的战士使用
+		击中敌人时迸发出血花，降低其防御
+		'''
+}
+
+Riptide: {
+	DisplayName: 涡旋
+	Tooltip:
+		'''
+		发射水流
+		一只十分灵活的悠悠球
+		'''
+}
+
+Roxcalibur: {
+	DisplayName: 石约与胜利之剑
+	// The WOF tag generates a new line above when placed at the start of a line
+	Tooltip:
+		'''
+		你没法把它从石头里拔出来，你就带着石头一起用了！
+		击败一个地狱的血肉生物是释放这把武器潜力的关键所在
+		左键攻击发射数颗石弹
+		单击右键以向下坠落，在敌怪身上反弹
+		落到方块上时释放一圈地震波
+		'''
+	// LockedInfo: The hellish Wall of Flesh holds the key to this weapon's power
+}
+
+SausageMaker: {
+	DisplayName: 香肠矛
+	Tooltip: 击中时释放追踪血珠
+}
+
+ScourgeoftheCosmos: {
+	DisplayName: 灾劫宙怨
+	Tooltip: 掷出一个宇宙灾虫，击中方块时反弹并释放出追踪的小宇宙灾虫
+}
+
+SeashineSword: {
+	DisplayName: 海耀之刃
+	Tooltip: 发射水刃剑气
+}
+
+SeekingScorcher: {
+	DisplayName: 焚罪飞斧
+	Tooltip:
+		'''
+		你的敌人将连同他们的罪孽一起在地狱中焚烧殆尽
+		扔出一把神圣飞斧，追踪并攻击至多三个目标然后返回
+		'''
+}
+
+Shimmerspark: {
+	DisplayName: 烁光
+	Tooltip:
+		'''
+		有敌人在附近时发射星星
+		一只十分灵活的悠悠球
+		'''
+}
+
+SmokingComet: {
+	DisplayName: 烟陨彗星
+	Tooltip:
+		'''
+		召唤星星从天而降
+		一只十分灵活的悠悠球
+		'''
+}
+
+SolarFlare: {
+	DisplayName: 日炎
+	Tooltip:
+		'''
+		击中敌人时产生强大的圣火爆炸
+		一只十分灵活的悠悠球
+		'''
+}
+
+SolsticeClaymore: {
+	DisplayName: 季节长剑
+	Tooltip:
+		'''
+		依照现实时间，发射出颜色不同的剑气
+		在白天造成破晓减益，在晚上造成夜魇减益
+		'''
+}
+
+SoulEdge: {
+	DisplayName: 灵魂之锋
+	Tooltip: 发射出深渊原住民的的恐惧幽魂
+}
+
+SoulHarvester: {
+	DisplayName: 灵魂收割者
+	Tooltip:
+		'''
+		发射出一把灵魂镰刀
+		击中生命值低的敌怪时发生爆炸，传播瘟疫
+		'''
+}
+
+SpineOfThanatos: {
+	DisplayName: 塔纳托斯的脊柱
+	Tooltip:
+		'''
+		挥出三个由星流金属构成的鞭子
+		三条鞭子撞击在一起时会发射出棱晶光
+		光束会射向附近的敌怪
+		'''
+}
+
+StarnightLance: {
+	DisplayName: 星夜长枪
+	Tooltip: 发射星夜光矛
+}
+
+StellarContempt: {
+	DisplayName: 星体击碎者
+	Tooltip: 击中敌人时天降月炎射线
+}
+
+StellarStriker: {
+	DisplayName: 月炎之锋
+	Tooltip: 击中敌人时召唤数道月炎射线从天而降
+}
+
+StormRuler: {
+	DisplayName: 风暴管束者
+	Tooltip:
+		'''
+		只有风暴才能击倒大树
+		发射剑气，消失时生成龙卷风暴
+		龙卷风暴会将怪物吸入
+		'''
+}
+
+StormSaber: {
+	DisplayName: 风暴军刀
+	Tooltip:
+		'''
+		发射两束风暴剑气
+		一束从剑刃发出，另一束从天而降
+		'''
+}
+
+StreamGouge: {
+	DisplayName: 宇宙暗流
+	Tooltip:
+		'''
+		召唤一个让长矛穿过的传送门
+		短暂延迟后在光标周围出现传送门的出口并释放长矛的复制体切割敌人
+		击中敌人后撕开时空裂缝，显现出宇宙背景
+		'''
+}
+
+StygianShield: {
+	// DisplayName: Stygian Shield
+	/* Tooltip:
+		'''
+		Hold <left> to charge an omni-directional dash which slams through enemies
+		<right> to throw a buckler which bounces towards a nearby foe upon collision
+		Grants knockback immunity and {0} defense while held
+		However, dashes are disabled until you stop holding this weapon for {1} seconds
+		''' */
+}
+
+SubmarineShocker: {
+	DisplayName: 潜渊震荡者
+	Tooltip: 击中敌人时释放电火花
+}
+
+SulphurousGrabber: {
+	DisplayName: 硫磺掠夺者
+	Tooltip:
+		'''
+		偶尔释放一圈泡泡
+		触碰绿色泡泡后悠悠球会增强
+		一只十分灵活的悠悠球
+		'''
+}
+
+Swordsplosion: {
+	DisplayName: 爆破剑
+	Tooltip:
+		'''
+		元素剑雨
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+TeardropCleaver: {
+	DisplayName: 泪刃
+	Tooltip: 让你的敌人哭泣
+}
+
+TenebreusTides: {
+	DisplayName: 深渊潮涌
+	Tooltip:
+		'''
+		剑如潮涌
+		发射一把凝水长枪，穿透敌人与地形
+		击中敌人时召唤凝水之刃与长枪击穿敌人
+		只能享受33%近战攻速加成效果
+		'''
+}
+
+TerraLance: {
+	DisplayName: 泰拉长枪
+	Tooltip: 发射出泰拉之矛弹幕
+}
+
+Terratomere: {
+	DisplayName: 泰拉阔剑
+	Tooltip:
+		'''
+		与泰拉瑞亚世界之精华相连
+		真近战攻击击中敌人时会治愈玩家
+		发射穿透能量矢，击中敌人时会产生爆炸并斩切敌人
+		'''
+}
+
+TerrorBlade: {
+	DisplayName: 惊惧魂刃
+	Tooltip:
+		'''
+		发射惊惧剑气，击中物块时反弹
+		每次反弹或穿透怪物时发生爆炸
+		'''
+}
+
+TheBurningSky: {
+	DisplayName: 焚灭天惩
+	Tooltip: 剑指苍穹，见证末日
+}
+
+TheEnforcer: {
+	DisplayName: 暴政
+	Tooltip: 命中时生成弑神之焰
+}
+
+TheGodsGambit: {
+	DisplayName: 神旨
+	Tooltip:
+		'''
+		有敌人在附近时发射凝胶束
+		一只十分灵活的悠悠球
+		'''
+}
+
+TheLastMourning: {
+	DisplayName: 末晓之殇
+	Tooltip: 击中敌人时召唤燃烧南瓜和烈焰头骨，后者在击中敌人时分裂成数个火焰弹
+}
+
+TheMicrowave: {
+	DisplayName: 微波辐照
+	Tooltip:
+		'''
+		以辐射破坏附近敌人的生物组织和机械原件
+		一只十分灵活的悠悠球
+		用幻星的传统方式料理你的敌人，是舌尖上的灾厄的著名菜点
+		'''
+}
+
+TheMutilator: {
+	DisplayName: 血石斩切刃
+	Tooltip:
+		'''
+		攻击生命值低于20%的敌人时会激发鲜血爆破粒子效果
+		鲜血爆破会让红心掉落并回复你的生命值
+		'''
+}
+
+TheObliterator: {
+	DisplayName: 混沌射线
+	Tooltip:
+		'''
+		以死亡激光抹除周围敌人的存在
+		一只超级灵活的悠悠球
+		'''
+}
+
+TitanArm: {
+	DisplayName: 泰坦之臂
+	Tooltip:
+		'''
+		像拍拍手，但是更棒
+		将敌人光速击飞
+		'''
+}
+
+TriactisTruePaladinianMageHammerofMightMelee: {
+	DisplayName: 真·泰阿克提斯之圣骑士魔锤
+	Tooltip: 击中敌人时发生爆炸
+}
+
+TrueArkoftheAncients: {
+	DisplayName: 远古方舟
+	Tooltip:
+		'''
+		This line gets set in ModifyTooltips
+		锻造出来征服一切邪恶的神圣之刃
+		'''
+	/* ParryInfo:
+		'''
+		<right> to extend the Ark out in front of you
+		Hitting an enemy with it will parry them, granting you brief invulnerability
+		You can also parry projectiles to make them deal 80 less damage for a short period
+		Parrying empowers the next 10 swings of the sword, letting them throw stronger projectiles
+		Pressing <right> while holding UP will release all empowered charges in a powerful burst of energy
+		''' */
+}
+
+TrueBiomeBlade: {
+	DisplayName: 环境之刃
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		FUNCTION_DESC
+		在平地上静止不动时长按鼠标右键将剑插入地面，使其与环境相谐振，储存生物群系的力量
+		其他情形下轻按鼠标右键，将存有的主副调谐互换
+		Main Attunement : [None]
+		Secondary Attunement: [None]
+
+		'''
+	/* DefaultFunction:
+		'''
+		Does nothing... yet
+		Repairing the blade seems to have improved its attuning capacities
+		''' */
+}
+
+TrueCausticEdge: {
+	DisplayName: 真·绝望之刃
+	Tooltip:
+		'''
+		发出弹射绝望光束
+		造成中毒，酸性毒液减益
+		'''
+}
+
+DefiledGreatsword: {
+	// DisplayName: Defiled Greatsword
+	/* Tooltip:
+		'''
+		Fires blazing, hyper, and sunlight blades
+		Gives the player the tyrant's fury buff on enemy hits
+		This buff increases melee damage by 30% and melee crit chance by 10%
+		''' */
+}
+
+Tumbleweed: {
+	DisplayName: 风滚草
+	Tooltip: 击中敌人时释放风滚草
+}
+
+TyphonsGreed: {
+	DisplayName: 提丰之贪婪
+	Tooltip: 使用时召唤水之精灵
+}
+
+BlightedCleaver: {
+	// DisplayName: Blighted Cleaver
+	/* Tooltip:
+		'''
+		Fires homing blazing blades
+		Gives the player the tyrant's fury buff on enemy hits
+		This buff increases melee damage by 30% and melee crit chance by 10%
+		''' */
+}
+
+UltimusCleaver: {
+	DisplayName: 斩首者
+	Tooltip: 发射会追踪的蓝焰火花，击中敌人时爆炸
+}
+
+UrchinFlail: {
+	DisplayName: 海胆链球
+	Tooltip: 甩出海胆链球，击中敌人时发射海胆刺
+}
+
+UrchinMace: {
+	DisplayName: 海胆链枷
+	Tooltip: 充能完毕时掷出一股赤潮涡流
+}
+
+VeinBurster: {
+	DisplayName: 静脉爆裂
+	Tooltip: 发射一个血肉之雷，会黏在地上或敌人身上，造成爆炸
+}
+
+Violence: {
+	DisplayName: 恣睢
+	Tooltip: 掷出会在你鼠标附近旋转的硫火三叉戟，撕裂你的敌人
+}
+
+Virulence: {
+	DisplayName: 瘟疫毒刃
+	Tooltip: 发射瘟疫之云
+}
+
+VulcaniteLance: {
+	DisplayName: 火山之矛
+	Tooltip: 击中敌人时产生爆炸，暴击时召唤追踪火焰
+}
+
+WindBlade: {
+	DisplayName: 风之刃
+	Tooltip: 发射会将敌怪吸入的旋风
+}
+
+WulfrumScrewdriver: {
+	DisplayName: 钨钢螺丝刀
+	Tooltip:
+		'''
+		快速有力地消灭敌人
+		攻击敌人有概率给予你一把钨钢螺丝，你可以右键将其扔回去
+		用螺丝刀击中被甩出的螺丝会增加它的伤害和速度，使它高速向前猛冲
+		[c/83B87E:“是谁把平头螺丝刀做的这么大？？我他妈到底能用它来干啥？”]
+		[c/83B87E:“这东西甚至可以直接把人的眼睛挖出来！”]
+		[c/83B87E:“……啊。”]
+		'''
+}
+
+YateveoBloom: {
+	DisplayName: 绽花毒藤
+	Tooltip:
+		'''
+		丛林植物的集合体
+		掷出一个强大的玫瑰链球
+		右键攻击来用花矛戳刺
+		'''
+}
+
+YinYo: {
+	DisplayName: 阴阳
+	Tooltip:
+		'''
+		敌人在附近时发射光明或黑暗碎块
+		碎块会来回运动
+		一只十分灵活的悠悠球
+		'''
+}

@@ -1,0 +1,58 @@
+// Ambient Objects
+// Fossil: Fossil
+// Column: Column
+// Ribs: Ribs
+// Stalagmite: Stalagmite
+// Stalactite: Stalactite
+// PirateCrate: Abandoned Crate
+// Basic Calamity Furniture
+// Basin: Basin
+// PipeOrgan: Pipe Organ
+// Sconce: Sconce
+// Draedon Lab Furniture
+// Console: Console
+// ContainmentBox: Containment Box
+// Display: Display
+// ElectricPanel: Electric Panel
+// ReinforcedCrate: Reinforced Crate
+// Screen: Screen
+// Server: Server
+// Terminal: Terminal
+// Individual entries
+// Sulphurous Sea & Abyss
+// SteamGeyser.MapEntry: Geyser
+// AbyssVent.MapEntry: Steam Vent
+// ThermalVent.MapEntry: Thermal Vent
+// Brimstone Crag
+SpineSapling.MapEntry: 脊椎树苗
+SpineTree.MapEntry: 巨大脊椎
+// Draedon
+InactivePowerCellFactory.MapEntry: 未激活能源电池工厂
+OnyxExcavatorTile.MapEntry: 玛瑙挖掘机
+CodebreakerTile.MapEntry: 密码破译器基站
+// Ores
+AerialiteOre.MapEntry: 天蓝矿
+AerialiteOreDisenchanted.MapEntry: 未注魔的天蓝矿
+AstralOre.MapEntry: 炫星矿
+AuricOre.MapEntry: 圣金源矿
+CryonicOre.MapEntry: Cryonic
+ExodiumOre.MapEntry: Exodium
+HallowedOre.MapEntry: Hallowed Ore
+InfernalSuevite.MapEntry: Infernal Suevite
+PerennialOre.MapEntry: Perennial
+ScoriaOre.MapEntry: Scoria
+UelibloomOre.MapEntry: 龙蒿矿
+// Misc
+ArenaTile.MapEntry: 战斗场地
+
+AshenChest: {
+	// MapEntry0: "{$Mods.CalamityMod.Items.Placeables.AshenChest.DisplayName}"
+	// MapEntry1: Locked {$Mods.CalamityMod.Items.Placeables.AshenChest.DisplayName}
+}
+
+AstralChestLocked: {
+	// MapEntry0: "{$Mods.CalamityMod.Items.Placeables.AstralChest.DisplayName}"
+	// MapEntry1: Locked {$Mods.CalamityMod.Items.Placeables.AstralChest.DisplayName}
+}
+
+PlaguedPlateBed.MapEntry: “床”

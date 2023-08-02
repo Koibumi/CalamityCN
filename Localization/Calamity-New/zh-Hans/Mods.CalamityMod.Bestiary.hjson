@@ -1,0 +1,192 @@
+//Abyss Enemies
+Bloatfish: 这些重而巨大的鱼类可以轻松抵御深海的压迫和任何试图刺穿其坚硬皮肤的武器。
+// BobbitWorm: Hiding away in the darkest corners of the void to strike at unsuspecting prey, bobbit worms take full advantage of the Abyss’ darkness. To live here, in the most extreme environment in the world, a creature must either be truly mighty, learn to use the environment to survive, or both.
+BoxJellyfish: 这些看似笨拙的胶状动物绝非无害。即便是让任意一条拖曳的触角拂过你，你也会受到严重的感染。
+ChaoticPuffer: 无序的小型恶魔。它们会吞下大量的水来使自己刚硬的身体膨胀起来。被杀死时，它们体内的水会沸腾并迸发为滚烫的毒气。
+ColossalSquid: 它们那充满压迫性的触手有两个成年男子身高加在一起那么长，再加上带毒的黑色墨水，它们无愧是一种可怕的掠食者。
+Cuttlefish: 如果你在深渊深处感觉到有什么东西在洗刷你的腿，这玩意很可能就是那期待在水下品尝猎物的罪魁祸首。
+DevilFish: 一种在深渊中度过了漫长的时间的，十分坚固的鱼。雄性通过其向前的角来辨别，而雌性则通过其卷曲的角来识别。
+DevilFishAlt: 一种在深渊中度过了漫长的时间的，十分坚固的鱼。雄性通过其向前的角来辨别，而雌性则通过其卷曲的角来识别。
+// EidolonWyrm: Relatives of the auric dragons, they adapted to hide away in a forgotten corner of the world to survive the great purges. And yet even without auric souls, the power of eidolon wyrms rivals many of their brethren who possessed them.
+GiantSquid: 一种巨大的乌贼，由于其栖息地猎物丰富且竞争不激烈而长成了如今的尺寸。其眼睛特别适用于在黑暗中寻找猎物。
+// GulperEel: Though sluggish and bulky, these eels traverse the abyss with surprising ease. They blend into the darkness, with a mouth that can stretch abnormally wide used to slowly swallow prey whole. Their meals are left unaware of their predicament until it is far too late.
+Laserfish: 它的眼睛被聚集在其头部气囊中的细菌所蒙蔽。当它依靠原始的回声定位在水中游动时，这些细菌能够释放出震荡性爆炸来清除它路上的敌人。
+LuminousCorvina: 这种鱼有一种奇特的防御机制。当像你这样的威胁进入它的视野时，它就会释放出尖锐的脉冲，提醒其他生物注意你的存在——而不是它的。
+MirageJelly: 在深渊无处不在的黑暗中看到的一种似乎无视所有物理边界的漂移的紫色光亮，很可能就是这些生物中的一个。许多人甚至怀疑它们的存在，并将其归咎于深渊的狂欢。
+MorayEel: 它们的眼睛闪烁着饥饿的光芒，休息时栖息在水下结构的岩石上，只是偶尔在开放的水域游荡。
+// Oarfish: Oarfish are known for laying thousands or even millions of eggs in astonishingly quick gestation cycles. These eggs are the most abundant source of food in the Abyss, being part of the reason even the smallest and least threatening creatures can live in the otherwise near inhospitable depths of the sea.
+ReaperShark: 进化就像一位奇怪的妇人，在深渊的深处尤其如此。对其中一些家伙来说，她把它们引向了一条明确的生命之路；而对另一些家伙来说，她把它们武装到了牙齿。
+ToxicMinnow: 它把大部分时间都花在寻找那些最令其它动物反感和不快的植物上。在处理用于自卫的化学物质时，它们的肚子会发出绿色的光芒。
+Viperfish: 一种典型的温顺动物，大部分时间都在沉沦之海的岩石上徘徊。可一旦接近它，它也会变得相当有攻击性。
+//Acid Rain Enemies
+AcidEel: 在其脊柱有一个隆起的背鳍，这允许它们在水下冲向猎物时可以很好地利用此流线型的身形。
+BabyFlakCrab: 奇怪的是，在它们足够小的时候捕获一只的话，这些似乎足够聪明的生物会给你打上父母的烙印，并在之后永远伴随着你！
+// Bloodworm: Bloodworms are an exceedingly rare creature to stumble upon, as they burrow at the first sign of danger. It takes both exceedingly great patience, wisdom, and agility to catch one, leaving the worms ever having but a single natural predator.
+CragmawMire: 在那违背了硫磺海内一切逻辑所形成的钙化外壳内，有一个搅动着的胶状身体。其中还寄生着另一个长长的类钩爪生物，它帮助其抓住猎物以换取保护。
+FlakCrab: 除了壳以外从各方面来看算正常的螃蟹。它已经学会了将周围的水聚集起来，并在处理后通过自己的漏斗强行排出一种十分危险的混合物。
+GammaSlime: 随着硫磺海水中的毒素不断恶化，以及从中汲取水分的云层变得危险，这些史莱姆也越来越强大了。
+IrradiatedSlime: 被从硫磺海中慢慢蒸发出来的污物包裹着的史莱姆，它们实际上是在大气层上部的酸雨中形成然后落回地面的。
+Mauler: 鲨鱼也许是我们星球历史上最有具有适应性的物种之一。这些顶级捕食者在如此的海洋中茁壮成长也并不奇怪。
+NuclearTerror: 有可能它以前只是一只简单的螃蟹，也有可能依然还有很多像它这样的家伙潜伏在深海里。但无论哪个答案都不会让你想着再次踏入硫磺海。
+NuclearToad: 在水下受到威胁时，它们会迅速充气并浮到到水面上。作为最后的手段，它们会强行把自己撑爆。它们那无私的目标是让自己的同族可以长期生存下去。
+Orthocera: 在硫磺海的淤泥中发现遥远过去的生物其实并不罕见。这些生物的身体就完全保存了下来。看来并非所有的生物都只是简单地消失了。
+Radiator: 就和许多其他的海蛞蝓一样，它会从环境中摄取毒素，然后转化成华丽的荧光投射在整个背部，只是硫磺海中的毒素要比其他的地方强上那么一点。
+Skyfin: 它们的鳍同时适应了空气与水，哪怕哪一次鲁莽的冲刺让它们不得不短暂滞留在陆地上，片刻之间它们也会飞到空中。
+SulphurousSkater: 从下面看，它们的腿尖几乎没有穿透水面，因此很难从雨水的水面中分辨出它们的动作。
+Trilobite: 它们的外壳十分坚硬，其重量也与石头相同。而它们能够像这样甩动自己也恰恰体现了它们的力量之大。
+//Astral Enemies
+Aries: 就生物学上而言，这个生物遭受着巨大的苦痛。它的腿没法让它休息，只能在那块污染之地无休止地跳跃下去。然而它的意志早以灰飞烟灭，因而它会毫不在意地跳跃下去直至死亡到来。
+// Astralachnea: Once black widows, they have now been reduced to their most basic functions. The effects of the Astral Infection are far more intense underground than it is on the surface, the air heavy with the thick fog and vestiges of the star burrowed deeply into the earth.
+AstralProbe: 一种被星体感染吞噬的小动物。病毒在感染后会保留并与彼此分享吞噬其他类似生物的经验，因此所有的宿主都形成了相同的外壳。
+AstralSlime: 它并没有表现出与任何同族不同的行为，因此这类适应性强的生物可能是唯一以自己的方式对抗感染的存在。
+Atlas: 在其无节制的生长中，其中一个附属物从另一个当中夺走了营养与材料，使其达到了肌肉力量的极致。它的一次攻击就足以粉碎一块巨石。
+FusionFeeder: 一只被星辉瘟疫感染的沙鲨。由于不熟悉病毒的起源，它的大脑中充斥着在整个宇宙中收集的信息，并因此渴求着遥远星球的脉冲。
+Hadarian: 它们翅膀的薄膜出乎意料地特别坚韧。其翅膀也因它们在无情撕咬敌人时保护它们免受烧伤和射弹伤害而闻名。
+HiveEnemy: 这些存在似乎是从星辉之地的洞穴本身中喷发出来的。无数宿主的肉体被扭曲成了这样一个螺旋形的，脉动着的蜂巢肉体。
+Hiveling: 这类小形生物除了从宿主蜂巢中取出的一小块有机物核心以外，完全是属于星辉瘟疫本身的存在。它们很容易被摧毁，但在濒临全灭的情况下也会成群结队。
+Mantis: 这是一种灵活的星辉感染生物，它的多条腿使其能够快速穿越几乎任何被感染吞噬的地形。通过高速挥动前爪，它可以释放出带有伤害的能量利刃。
+Nova: 星辉瘟疫强制生物变异的过程十分有效，但副产品也同样十分不稳定。大多数生物会逐渐排出这种化学物质--但新星就会储存这些。
+// SightseerCollider: Originally demon eyes, these now act as an extension of the dead star. Unlike the larger variants, these sightseers lack the ability to spit at their enemies. All they are capable of is ramming into those who intrude upon land taken by the Astral Infection with a questionable amount of success.
+// SightseerSpitter: What once were wandering eyes have been transformed into something else entirely. Rather than attempting to rush their enemies, they now primarily spit an infectious saliva from what was their mouths as a weapon.
+StellarCulex: 这种突变怪物的头部有许多钳状器官。它会试图附着在其他有机生物上，并将嘴插入它们的肉体以进食。
+Twinkler: 星辉瘟疫创造无害生物的罕见案例，你不是唯一认为它们的闪烁十分动人的人。它们同样也是很有用的鱼饵。
+//Brimstone Crags Enemies
+CalamityEye: 虽然这些敌人不比恶魔之眼有多危险，但有人说它们最初是从那些曾居住在首都的，灵魂被朱红色火焰诅咒的人的眼眶中出现的。
+DespairStone: 一块凝结而不稳定的，由硫磺石砖所构成的石头。据说它会撕裂地面的原因，是因为有许多被困在里面的灵魂试图从中挣扎脱出。
+HeatSpirit: 一个人类的灵魂，其思想被自己居住地的炽热橙色火焰所迷惑，会寻找并试图消除任何它能检测到的进入地狱世界的水分来源。
+// InfernalCongealment: A lava slime that has absorbed pieces of the charred stone left behind by the Brimstone Elemental. Despite its simple nature, these creatures are just as much of a threat as the rest of the Crag’s current inhabitants.
+// RenegadeWarlock: Victims caught in the crossfire during the battle between Calamitas and the Brimstone Elemental, cursed to wander the ruins of their former home for all eternity. Their final moments were spent clinging to life, and in death they seek survival by using the very magicks that slaughtered them.
+Scryllar: 过去那些来到硫火之崖遗迹试图捡漏的人，此地的低语影响了他们，最后只留下了此般扭曲的残渣
+SoulSlurper: 一个灵魂的残渣。它在此之前早以吞噬，被吞噬，并最终成为了其他灵魂的一部分。没有人知道这个循环从何处开始的，你也不会想成为知道的那个人的。
+//Draedon Lab Critters
+Androomba: 这些机器无休无止地缓慢徘徊着，做着清洁早已被废弃的实验室的无用功。
+Nanodroid: 并非所有造都要巨大而华丽才算得上成功，有时不妨退一步，来欣赏像这些设备一样的小东西。
+RepairUnitCritter: 多亏了这些小家伙，尘封的实验室才得以能屹立不倒，只不过它们似乎没法处理生锈的问题。
+//Normal Uncategorized Enemies
+AeroSlime: 史莱姆会根据自身的所处环境而发生变化，这些个体在吞噬了天蓝矿后便长出了翅膀。
+// ArmoredDigger: Despite being relatively primitive compared to Draedon’s current technology, armored diggers continue to see use to this day. Though their primary directive is mining and delivering minerals, they also once cleared room for the numerous underground laboratories.
+AuroraSpirit: 那些在暴风雪中死去之人的灵魂。它们现在正在寻找其他人，想让他们像自己那样因受冻而亡。
+BloomSlime: 凭借着亵渎天神的毁灭所释放的太阳能，龙蒿得以在丛林的泥土中，以及居住于其中的史莱姆体内发芽生长。
+Bohldohr: 那些洞穴中浑身覆盖着宝石的蜥蜴的远亲。这类生物用神庙的光滑砖块覆盖自己，蜷缩成球状进行运动。
+Cnidrion: 一种奇怪的生物。它们与许多其他沙漠生物具有相同的特征，但似乎能够在体内储存大量的水。
+// GemCrawler: Relatives to the Ilmeran Sea’s prismbacks. The aquatic lizards ended up in the wild after being taken in as pets, though without the proper nutrients to grow prisms on their back, many grew the next best thing– precious gems.
+// BlightSlime: Slimes that have absorbed some of the blighted godly essence. Riddled with impurity, they are now more putrid flesh than gelatin and, having taken in such an amount that they seem ready to burst. Yet unlike most slimes which have relatively basic minds, these seem to be collecting mass with a purpose.
+Cryon: 在它们的八面体内可以找到雕刻在那些不会融化的冰晶上的古老符文。是谁创造了它们？
+CryoSlime: 当极地之灵魔法的释放解冻了地下的冰冻金属时产生的融水形成了这些史莱姆。寒元矿的残余物仍然存在于其中。
+Eidolist: 这些十分精通法术的神秘生物似乎像哨兵一样站在那儿看守着什么。靠近它们中的其中一个，你也许能听到一些无法理解的低语。
+FearlessGoldfishWarrior: 头顶锡帽，手携金匕，雨中行进，随时战斗。
+Frogfish: 埋伏着等待猎物的捕食者。它们并不算特别强壮，哪怕你遇到一个也能轻松干掉。
+Horse: 文明的目标是控制自然，而这就是这种征服的结果——一个依靠发条齿轮运作的人造元素。
+IceClasper: 一类在猎物方面从不挑剔的敌人。它们以其在低能见度暴风雪中冻结和捕食旅行者而闻名。其受害者的下场无从知悉。
+ImpiousImmolator: 一个从不考虑也不认可自身周遭环境的燃烧的灵魂。任何闯入亵渎天神圣地的人都将化为灰烬。
+MantisShrimp: 如果它用那圆形的前爪攻击你，你就会粉身碎骨。不用说，请不惜一切代价避免这种情况。
+OverloadedSoldier: 在这个被复仇之灵魂所复活的生物于洞穴跋涉的过程中，幻影从腐蚀的盔甲中隆起，取代了早以糜烂的肉体。
+PerennialSlime: 这些在灌木丛中晃动的史莱姆充满了营养，可以很好地维持植物的生命。它们中的许多都接纳了这些植物，比如它们头顶上的花。
+PhantomSpirit: 在无谓无欲的狂热中彼此残杀和吞噬的幽灵。过去曾有这样一个先例：有一个吞噬了足够多其他幽灵的存在，其力量的增长已经达到了令人震惊的地步。
+Piggy: 小猪猪是贪心的牲口。哪怕是遇到了你根本不觉得猪猪会下口的食物，猪猪也会在一眨眼的功夫就将其囫囵吞下。
+ProfanedEnergyBody: 一个紧邻亵渎天神之心的活祭坛。火焰从其支架上的水晶中向世界扑去，焚尽那些不忠之人。
+Rimehound: 一种巨大而笨重的猎犬，在结成冰霜的毛发上几乎形成了冰柱。被它抓到一定很痛苦。
+Rotdog: 一种充斥着恶意的生物。铁齿铜牙的它们造成的所有伤口都会导致大量出血。请尽快处理伤口。
+ScornEater: 亵渎天神的造物与奉献者野蛮的一面。他们的下颚充满了锋利的水晶和炙热的圣火。
+SeaUrchin: 一种带刺的动物，会为了保卫自己的领地而四处乱窜。哪怕它们不小心飞上了陆地——尽管没东西能帮助它们——它们也能想办法自己回到海洋。
+ShockstormShuttle: 宇宙中存在生命的证明，这些早已落后于自身所属文明的飞行物在遥远的过去很可能是战争兵器。它们会继续在宇宙中寻找适合居住的星球，并对其进行攻击。
+Stormlion: 这些生物似乎以沙漠上酝酿的电风暴为食。当天空变暗时，它们会把下颚向上伸去用以引雷。
+Sunskater: 一些掠过我们大气层边缘的生物往往比其他生物能更好地吸收和引导太阳光。无论如何这是一种被动的生物。它对你没有恶意，你应该给予回报。
+ThiccWaifu: 过去，人们在天空中建立了前哨站，以便对蕴藏在云层的力量进行崇拜并取悦他们。在前哨站被遗弃的现在，这些神灵同样也被激怒了。
+WildBumblefuck: 虽然这些生物可能看起来很可爱，但它们其实是一种极为恶劣的入侵物种。如果不能迅速处理，它们很可能会使附近的一切都灭绝。
+WulfrumAmplifier: 一个静止不动但十分危险的敌人。在它的影响下，其他钨钢造物会变得明显更为强大，它们内部的奇怪能量也会溢出。
+WulfrumDrone: 毫无目的游荡着的它们，在发现潜在的入侵者闯入一个早已不存在的预定领土时，也会旋转起自己的小框架向其俯冲。
+WulfrumGyrator: 一个由钨钢组成的球体。它如何行动这一点依然成谜，这有可能与它的陀螺式旋转有关。它们会将自己的身体甩向敌人以进行攻击。
+WulfrumHovercraft: 悬浮力载着它们，让它们能在地面上轻松行进以寻找入侵者，尽管它们的分析可能会随着时间的推移变得越发迟钝。
+WulfrumRover: 一个来历不明的古老的自动机器人。它们带着无尽的责任感与破旧的框架在这片土地上搜寻。它们的灯闪耀着奇怪的能量。
+//Plague Enemies
+Melter: 它的脸部被瘟疫纳米机器人的腐蚀所扭曲和软化。在自己和瘟疫的双重意志下，它试图将这一令人不适的命运传递给其它生物。
+PestilentSlime: 一种被瘟疫纳米机器人感染的史莱姆。瘟疫无法直接使用任何指令控制它。所以它只是继续自己正常的生活，除了会腐蚀所有接近它的东西这一点。
+PlaguebringerMiniboss: 以皇家蜂蜜为食的蜂王将会成为整个族群的首脑。可一旦在这个过程中她们为瘟疫所劫持，这副凄惨的模样就只能让外人来回忆她们本该成为的样子了。
+PlagueCharger: 虽然黄蜂本身就以积极捍卫自己的领地而闻名。但被瘟疫扭曲的它们领土意识只会更进一步。
+Plagueshell: 事实上，一旦一只丛林陆龟沾染了瘟疫，它原来的外壳就会解体，而其现在背上的荆棘盾牌完全由强化过的纳米机器构成。
+Viruling: 被瘟疫感染后，跳跳兽也失去了那双被视作障碍的双腿，它们再也没法高高兴兴地到处乱跳了。
+//Sulphur Sea Enemies
+AnthozoanCrab: 这只螃蟹驮着一个坚固的石头结构。它会向侵犯其领地者投掷巨石来彰显自己强大的力量。
+AquaticUrchin: 遥远海洋中普通海胆的远亲，硫磺海水让它们的刺变得又坚硬又带有剧毒，最好不要被它们打到。
+BelchingCoral: 一种罕见的珊瑚物种，它能够处理硫磺海水并从中汲取营养物质，这个过程会产生大量挥发性气体。
+Gnasher: 一种乌龟，它的壳早以被硫磺海的污物所包裹。它的下颚有着完全和体型不匹配的巨大咬合力。
+Sulflounder: 这些生物并不主动寻找食物，而是等待着食物自己送上门来。如果你冒险进入硫磺海，请注意自己的脚步。
+Toxicatfish: 一种天然适应了剧毒水域的动物。它用自己的胡须来寻找道路与躲在阴暗深处的猎物。
+Trasher: 巨大的短吻鳄适应了在硫磺海中捡漏的生活，它们会用巨大的下颚从海底刮取食物的碎片。但别搞错了，那些软弱无力的生物也位于它们的菜单之列。
+//Sunken Sea Enemies
+BabyGhostBell: 就像它们的成年体一样，这些生物会轻轻闪烁着。如果周围的棱镜还不够亮的话，它们就能成为十分有用的光源。或许有什么办法能让你随身携带一个。
+BlindedAngler: 鮟鱇的一个分支。这些鱼类的头部早已失去了可供辨识的特征。利用一种原始的类似于鲨鱼的电感应，它们得以缓慢而有条不紊地猎取猎物。
+Clam: 这些迟钝的软体动物会从咸水中过滤出养分。它们的壳像石头一样坚硬，但肉精致而多汁。
+EutrophicRay: 一种大部分时间都呆在沉沦之海岩石地面上的温顺鳐鱼。它会储存自己的能量并在遇到危险时于短时间内将其释放出去。
+GhostBell: 虚无缥缈的水母，漂浮在沉沦之海的静水中。不知为何它们的身体带着电流。
+GiantClam: 这种超大的蛤蜊足以把一个乃至两个人整个夹住。值得庆幸的是，它只在沉沦之海的最底层区域安家。
+PrismBack: 这些游泳速度相当慢的家伙是少数需要繁殖的生物之一。它们会定期游到栖息地的上层下蛋。
+SeaFloaty: 奇怪但令人着迷的生物，似乎还没长成熟的它们一见到掠食者就会立即躲起来。
+SeaMinnow: 虽然处在食物链的底层，但它们也占据了这片海域生物量的80%。它们会啃食从上方的地下沙漠中掉下来的尸体。
+// SeaSerpent: Despite being one of the few carnivorous creatures to have ever existed in the Ilmeran Sea, even these serpents are unusually passive towards those they do not consider prey by the standards of elsewhere. The sea has only ever known one truly aggressive predator, and it abandoned a life of calming solitude years ago.
+//Town NPCs
+AndroombaFriendly: 这些机器人很容易过逆向工程再设计，现在它们被赋予了新的目标：传播你放入的任何东西。
+DILF: 他这张饱经沧桑的脸不仅展现着他的年迈，同样也蕴含了他的智慧。大法师曾经为弑神者服务，但在战争的后期离他而去。他售卖各种冰霜道具，但最强大的法术他只会留给自己。
+FAP: 没有人知道她从哪儿来，也没人在乎。这家伙能处，你甚至可以和她一起喝酒，只要不把她惹毛的话。
+SEAHOE: 一位大海之王，来自一个早已消失在时间与风沙中的古老文明。活了很久的他能够为你的周遭提供有用的建议。
+THIEF: 一个在面对面的战斗中有些胆小的偷窃狂。无论是把自己卷进危险还是从中抽身，她都很在行。
+WITCH: 看到这名强大的敌人与那些友好的面孔生活在一起令人十分惊讶。历史是否会重演？她能否真正成功从魔君的掌控中解脱出来？
+//Boss Minions
+Brimling: 硫磺火元素的碎片，拥有硫磺火石砖一样的外壳。它们的眼睛总是无意识地盯着远方，寻找着可以燃烧的目标。
+SoulSeeker: 被灾厄之眼聚集在一起的守护者，保护着它的身体免受攻击。它们有可能是一种被不同于硫磺火的另类魔法所强化和奴役的灵魂饮食者。
+DarkEnergy: 无尽虚空在空间结构中所创造的无数裂缝的其中一个。有人说如果你凝视它，你甚至可以瞥见另一个世界。
+// DesertNuisance: Though these serpents are of the Desert Scourge’s species, they are notably younger and less developed. Choosing to hunt in a pack with the large scourge due to this weakness, many have seen them tear apart prey not unlike the piranhas that once populated the former sea.
+// CosmicGuardian: Though of the same species as the nameless serpent, their minds and functions are far more basic. They possess very little will of their own and blindly follow the orders of their gluttonous master.
+HiveTumor: 寄宿着的超级有机体中的污秽之物，大量的有机物像心脏一样跳动。其增长是腐化生物共同融合所形成的结果。
+AquaticAberration: 头也好胃也罢，它的所有器官都只为吞噬大片鱼群而存在。
+LeviathanStart: 它似乎在用一种极具魅惑力的声音呼唤你，牵动着你关于海洋那从未切身体验过的舒适回忆。
+PerforatorCyst: 一团跳动的眼睛和牙齿。毫无章法可言。它是猩红血肉的终点，应该不惜一切代价避开它。
+CosmicLantern: 这些灯笼可以让使用者看穿一切黑暗，但通常不会把它们用于战斗。
+CorruptSlimeSpawn: 这些迅速扇动着由膜化的凝胶与刺状的硬化粘液所组成的翅膀的生物会不停地追捕你。
+CrimsonSlimeSpawn: 刺激性的史莱姆状物。如果它们沾到了你的眼睛你就会失去视力。请不惜一切代价避免这些为史莱姆之神传播死亡的生物。
+CrimsonSlimeSpawn2: 这些史莱姆的体内嵌入了血化史莱姆的碎片，其中流淌着一种可以损害视力的毒素。
+// Sepulcher: An amalgamation of souls and flesh given new form and purpose via necromancy. This twisted perversion of life is inspired by the Auric Dragons’ method of revival, though it is plain to see that any grace the dragons may have had is not present here. The school of magic used to create Sepulcher was forbidden in the Deific Era, yet many still practiced it in secrecy.
+SoulSeekerSupreme: 如食尸鬼般不完整的头颅。它们有限的形式下付出的是无限的奉献。很可能它们中的每个个体都渴望能有一个属于自己的完整的灵魂，无论那灵魂是由灾厄给予的还是从它们杀死的敌人身上扯下来的。
+//Bosses
+// AquaticScourge: A peaceful yet intimidating being that roamed the Sulphurous Sea, its mere existence was enough to scare away most creatures from the shore. Without its presence to act as a deterrent, fearsome predators now feel safe to prowl during the acidic storms.
+AstrumAureus: 一台多足的钢铁巨兽。它的存在本身就足以证明星辉瘟疫对非生物也有相当的控制程度，即使是机器也无法抵御如此的侵蚀。
+// AstrumDeus: When a star begins to die, under normal circumstances, its power simply fades as it falls to the nearest celestial body. However, some dying stars bloat and fester before falling. Astrum Deus exists to consume these stars before the Astral Infection manifests in them, and it has been revered for its sacred duty since time immemorial.
+BrimstoneElemental: 她从沉睡中被唤醒只是最近几年的事，而她的苏醒则成为了导致阿萨福勒陨落的灾难。除去那些适用于任何元素生物的猜测外，我们对她的本性几乎一无所知。
+Bumblefuck: 它们因在丛林中的聚群而闻名。它们几乎算是最令人恐惧的存在，因为尽管它们可能不及其他势力那样危险，可它们没有主人。
+// Calamitas: This machine which stalks the night carries the failed clone of the Supreme Witch. Though lacking her hexes and black magic, even a fragment of Calamitas’ brimstone power was enough to drive the clone to insanity. Nothing human remains.
+Cataclysm: 自己的影子，只识燃烧与杀戮。
+Catastrophe: 暴力而愚昧的造物，让死者复生不可能有好结果。
+CeaselessVoid: 一个可以作为通往其他地方的传送门的神秘实体。人们对它的起源几乎一无所知，只知道邪教徒们把它封印了起来。
+Crabulon: 在蘑菇洞穴的球茎生长物中并不难发现蜕皮的壳。但它们对于这个环境中任何常见的十足目动物而言都太大了。
+Cryogen: 一个棱镜状的活体冰晶。虽然通常只能在严寒的暴风雪瞥见其一角。可若是在难得的晴天里看到它，它的身体就会闪烁一种致命而美丽的蓝色。
+// DesertScourge: A sea serpent that once swam through the waters of the Ilmeran Sea, it curiously chose to stay in its home rather than find a new one deep below. Quickly taking to a diet of antlion and cactus, it was able to take the place of possibly the desert’s apex predator after its only competition went into hiding.
+// DevourerofGods: An entity of many titles and reputations, it is easy to conflate the truth and myths of its many legendary deeds. Though Yharim once believed that the essence he devours is utterly and completely erased from existence, it is a fundamental rule of creation that energy cannot be destroyed– it can only be transferred from one form to another.
+Draedon: 那位值得受到尊敬的科学家本人。他的AI被上传到了一个足以远离一切伤害的数据库中，因此摧毁他的那些侦察机体也没有任何意义。
+Apollo: 在它的内部燃烧着如希腊火焰般狂暴的化学物质。从之前的双子眼球设计中高度提炼后，它现在能够在空中进行十分出色的移动。
+// Ares: The first of the superweapons Draedon created, Ares is capable of both widespread destruction and concentrated attacks with its deadly cannons. His goal in making the Exo Mechs was to forge war machines that could rival even the vaunted strength of Yharim when last they saw one another. To gaze upon this diabolical monstrosity is to know fear.
+Artemis: 星流双子是终极侦察单位。它们甚至能够探测到我们浑然不知的各种波长的光，在它们面前一切都无所遁形。
+// Thanatos: A mechanical serpent built using a revised variant of the Devourer’s armor plating, it was intended to be utterly invincible. Even its weakness of needing to vent due to overheating was turned to a strength, for no creature of flesh or metal can survive such temperatures. To gaze upon this serpentine terror is to know true power.
+HiveMind: 在腐化的深沟中，受感染的生物聚集在一起以表现出它们自己的神性。与其他小型生物聚集保护彼此的情况不同，这完全是一种进攻性的行为。
+Anahita: 这个元素生物以其对水的精确操控和在自己主场的无穷力量而闻名，但那早以成了年久日深的往事。
+Leviathan: 与水元素阿娜希塔一起潜伏在海洋深处的一种巨大海洋两栖生物。她到底是自己种族中的最后一个个体，还是单纯像她的主人那样被塑造召唤出来，我们不得而知。
+GreatSandShark: 见到这样的生物不禁让人产生疑问：鲨鱼在寻求生存中的坚持过程是否有极限？它们甚至征服了与通常生活的气候完全相反的地方。鲨鱼还没长出翅膀也真是奇迹。
+OldDuke: 作为巨龙最早的后代，它作为海洋顶尖掠食者的荣耀早已为人所遗忘。但从巨龙处继承的遗产依然彰显着它的强大力量。
+// Perforator: A living embodiment of some of the worst this world has to offer, these parasites made full use of their hive. Using it to seek ever more to gorge themselves upon, they sought to grow even larger, that they may one day perhaps regain what they lost.
+PerforatorHive: 一团跳动的眼睛和牙齿。毫无章法可言。它是猩红血肉的终点，应该不惜一切代价避开它。
+PlaguebringerGoliath: 这只蜂王本来的外形早以因机械的改造和纳米机器的感染而不复存在。不禁让人好奇从头制造一个效率会不会更高。
+Polterghast: 伴随着尖啸与哭号，痛苦的灵魂在地牢狭窄的走廊里横冲直撞，只为寻找更多的灵魂——无论死活——来扩大它们的族群。
+// PrimordialWyrm: The first Wyrm, blessed by the Goddess of Life, held staggering power that surpassed nearly all of its auric brethren. It held a deep hatred for any sign of usurped light, and would have attempted to strike down even the wielder of Primordial Light had they returned to reclaim their artifact. And yet, despite its immense power, it never would have stood a chance.
+ProfanedGuardianCommander: 每次把燃烧的长矛转向目标时，它那简单的头脑总是有且只有一个明确的目标：彻底消灭敌人。
+ProfanedGuardianDefender: 它的身体拥有一个经受过太阳火焰洗礼与锤炼的石之外壳，很少有人能完全击碎它的防御。
+ProfanedGuardianHealer: 从它身上突出的水晶能够恢复对其同族造成的伤害，并将这种伤害转化为可以窃取生命的耀斑。
+Providence: 岩石与火焰的神祇。她的火焰只为一个原因而燃--净化世界上的一切生命，让痛苦从这个世界中彻底消失。
+// Ravager: The mangled reincarnation of the God of Sacrifices, given life once more. Necromancers sworn to his faith returned his broken body to his temple, offering the only sacrifices they could– their own lives. Yet, necromancy is an imperfect art, and the god has very little of his mind left, simply destroying all it comes across.
+Signus: 这个黑影的过去远比它所身披的长袍更为黑暗。尽管关于它的传言数不胜数，但其实没人知道它的真实形态。
+// SlimeGodPaladin: The Slime God avoids direct combat due to its weakness, instead choosing to mold guardians to protect it. These guardians were created from countless blight slimes, their filth acting as a counterweight to the purity of their god.
+SlimeGodCore: 由于它在众多的神明当中属于实力相对较弱的那一个，因此它练就了相当高超的逃跑本领，手段十分机敏。它更喜欢在战斗中保护自身而非主动出击。
+// StormWeaver: An invasive pest from another dimension crowned by many as king of the skies, soaring across the upper atmosphere at near unmatched speed. Unlike the other beings from the Distortion, the Storm Weaver lacks higher purpose, feasting upon the remnants of the civilization that once dwelled in the skies.
+SupremeCalamitas: 硫火女巫施展的魔法映射了她艰苦的生活，无常、强大，与优雅相去甚远。据说她的脾气火爆到足以烧毁一整个王国。
+SupremeCataclysm: 有着人的外貌不代表有着人的思考。它只有暴力。
+SupremeCatastrophe: 灾厄的亡灵法术无人能敌，但没有人能够真正使亡者起死回生。
+Yharon: 猎神者的忠诚伙伴，他拥有的力量与过去的巨龙相比要巨大的多。其中一部分可能是因为他在自己主人身旁的长期战斗与训练。

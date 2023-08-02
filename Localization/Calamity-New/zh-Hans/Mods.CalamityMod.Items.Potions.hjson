@@ -1,0 +1,389 @@
+AnechoicCoating: {
+	DisplayName: 吸音涂层
+	Tooltip: 削减深渊生物的探测能力
+}
+
+AstralInjection: {
+	DisplayName: 星幻注射剂
+	Tooltip: 对你造成伤害并使你获得魔力疾病减益，但即便是在移动或施法时，你也能快速恢复魔力值
+}
+
+AureusCell: {
+	DisplayName: 星舰电池
+	Tooltip: 使你获得魔力再生和魔能增益
+}
+
+Baguette: {
+	DisplayName: 法棍
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MinorStats}
+		增强红葡萄酒的效果
+		[c/FCE391:我骑上去了！]
+		'''
+}
+
+BlasphemousDonut: {
+	DisplayName: 亵渎甜甜圈
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		“完甜不用点心，它是可以吃的”
+		'''
+}
+
+BoundingPotion: {
+	DisplayName: 弹跳药水
+	Tooltip: 增加5%跳跃速度、25格摔落伤害抗性和跳跃高度
+}
+
+CalciumPotion: {
+	DisplayName: 钙质药水
+	Tooltip: 使你免疫摔落伤害
+}
+
+CeaselessHungerPotion: {
+	DisplayName: 无尽吞噬药水
+	Tooltip: 使你将全世界的物品吸入囊中
+}
+
+DeliciousMeat: {
+	DisplayName: 水晶冻肉
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		“太好吃了”
+		'''
+}
+
+Fabsoup: {
+	// DisplayName: Pot of Pain
+	/* Tooltip:
+		'''
+		{$CommonItemTooltip.MajorStats}
+		'hrngh, soup'
+		''' */
+}
+
+FlaskOfBrimstone: {
+	DisplayName: 硫火瓶
+	Tooltip: 近战、鞭子和盗贼攻击会造成硫磺火减益
+}
+
+FlaskOfCrumbling: {
+	DisplayName: 碎甲瓶
+	Tooltip: 近战、鞭子和盗贼攻击会对敌人造成碎甲减益
+}
+
+FlaskOfHolyFlames: {
+	DisplayName: 圣火瓶
+	Tooltip: 近战、鞭子和盗贼攻击会造成神圣之火减益
+}
+
+GravityNormalizerPotion: {
+	DisplayName: 重力复原药水
+	Tooltip: 使你免疫太空低重力环境的影响和扭曲减益
+}
+
+HadalStew: {
+	DisplayName: 乱渊炖
+	Tooltip:
+		'''
+		仅造成50秒的药水疾病减益
+		{$CommonItemTooltip.MediumStats}
+		60分钟持续时间
+		'''
+}
+
+OmegaHealingPotion: {
+	DisplayName: 终极治疗药水
+	Tooltip: ""
+}
+
+PhotosynthesisPotion: {
+	DisplayName: 光合药水
+	Tooltip:
+		'''
+		站定不动时你会快速的恢复生命值，此效果在白天时会进一步增加
+		掉落的红心会回复更多生命值
+		'''
+}
+
+PotionofOmniscience: {
+	DisplayName: 全知药水
+	Tooltip: 高亮附近的生物、敌人弹幕、危险源和宝藏
+}
+
+ShadowPotion: {
+	DisplayName: 暗影药剂
+	Tooltip:
+		'''
+		将你转化为一个眼睛发光的暗影
+		盗贼武器在击中敌人时会生成弹幕
+		增加8%潜行值恢复速度
+		可通过配置“潜行不可见性”来禁用视觉效果
+		'''
+}
+
+SoaringPotion: {
+	DisplayName: 腾飞药水
+	Tooltip:
+		'''
+		增加10%飞行时间和水平飞行速度
+		近战武器剑身击中敌人后会恢复你的一小部分飞行时间
+		以此法恢复的飞行时间受到来自你近战属性和近战攻速的加成
+		'''
+}
+
+SulphurskinPotion: {
+	DisplayName: 硫磺皮肤药水
+	Tooltip: 削减硫磺海水的影响
+}
+
+SupremeHealingPotion: {
+	DisplayName: 至尊治疗药水
+	Tooltip: ""
+}
+
+SupremeManaPotion: {
+	DisplayName: 至尊魔力药水
+	Tooltip: ""
+}
+
+TeslaPotion: {
+	DisplayName: 特斯拉药水
+	Tooltip:
+		'''
+		召唤一个会电击并减速敌人的电场
+		电场对boss造成更少的伤害
+		缩短带电减益的持续时间
+		'''
+}
+
+ZenPotion: {
+	DisplayName: 禅定药水
+	Tooltip: 大幅度降低刷怪速率
+}
+
+ZergPotion: {
+	DisplayName: 虫潮药水
+	Tooltip: 大幅度增加刷怪速率
+}
+
+// Drunk Princess Shop Items
+BloodyMary: {
+	DisplayName: 血腥玛丽
+	Tooltip:
+		'''
+		辣而血腥！
+		在血月时增加10%伤害和移动速度
+		减少4点生命再生速度和4%防御
+		'''
+}
+
+CaribbeanRum: {
+	DisplayName: 加勒比朗姆酒
+	Tooltip:
+		'''
+		咦？酒怎么突然没了？
+		增加2点生命再生速度、10%移速和20%飞行时间
+		令你变得飘飘若仙并降低10%防御
+		'''
+}
+
+CinnamonRoll: {
+	DisplayName: 肉桂威士忌
+	Tooltip:
+		'''
+		肉桂威士忌，品起来就如奶油苏打一样，啊，绝赞美味
+		魔力再生速率和所有火系减益的伤害倍率乘以1.5
+		降低10%防御
+		'''
+}
+
+Everclear: {
+	DisplayName: 谷酒
+	Tooltip:
+		'''
+		这是我这里最劲爆的好酒了，小心点儿！
+		增加25%伤害
+		减少10点生命再生速度和30%防御
+		'''
+}
+
+EvergreenGin: {
+	DisplayName: 常青松子酒
+	Tooltip:
+		'''
+		圣诞树的味道~，如果你能想象到的话
+		所有疫病和水系减益的伤害倍率乘以1.25
+		减少1点生命再生速度
+		'''
+}
+
+FabsolsVodka: {
+	DisplayName: Fabsol伏特加
+	Tooltip:
+		'''
+		增加8%伤害，但降低10%防御
+		延长受伤后无敌时间
+		这种神奇的酒深受口味高雅人士的喜爱
+		'''
+}
+
+Fireball: {
+	DisplayName: 火龙酒
+	Tooltip:
+		'''
+		清爽可口的肉桂威士忌酒
+		所有火系减益的伤害倍率乘以1.25
+		减少1点生命再生速度
+		'''
+}
+
+GrapeBeer: {
+	DisplayName: 葡萄啤酒
+	Tooltip:
+		'''
+		这鬼玩意真恶心，不过你或许会喜欢
+		降低3%防御
+		'''
+}
+
+Margarita: {
+	DisplayName: 玛格丽塔酒
+	Tooltip:
+		'''
+		有史以来最可口的饮品，在它还有时细细品尝吧
+		缩短大多数减益的持续时间
+		降低6%防御和1点生命再生速度
+		3分钟持续时间
+		'''
+}
+
+Moonshine: {
+	DisplayName: 摩闪酒
+	Tooltip:
+		'''
+		这酒很烈，但我相信你没问题的
+		增加10点防御和3%伤害减免
+		减少1点生命再生速度
+		'''
+}
+
+MoscowMule: {
+	DisplayName: 莫斯科骡子
+	Tooltip:
+		'''
+		我曾听说铜马克杯有毒，然后我就跟他们说：“嘿，蠢货，那么我早就毒翻自己啦”
+		增加9%伤害、50%击退和3%暴击率
+		减少4点生命再生速度
+		'''
+}
+
+OddMushroom: {
+	DisplayName: 怪异蘑菇
+	Tooltip:
+		'''
+		使你看到周围造物栩栩如生的幻像
+		致 幻
+		警告：有极少数的人在观看一些视觉影像时可能会突然癫痫发作，这些影像包括电子游戏中出现的闪光或图形。
+		在进行电子游戏时，这些人可能会出现癫痫症状。
+		甚至连不具有癫痫史的人，也可能在进行电子游戏时，出现类似癫痫症状。
+		这类未经诊断的症状称为“光敏性癫痫”。
+		癫痫症状包括头昏眼花、视幻觉、眼部或脸部抽搐、手脚痉挛、暂失方向感、精神混淆或暂时失去意识。
+		癫痫病发作时可能因为失去意识或抽筋之故，跌落地面而受伤或碰撞到周遭物品。
+		若在中止游戏后，症状仍没有消退，请立即寻求医生的诊疗。
+		如果您或您的家人有癫痫史，请在使用本菇前先与医生咨询。
+		'''
+}
+
+RedWine: {
+	DisplayName: 红葡萄酒
+	Tooltip:
+		'''
+		对我来说太干了
+		减少1点生命再生速度
+		'''
+}
+
+Rum: {
+	DisplayName: 朗姆酒
+	Tooltip:
+		'''
+		甜美劲爆，爱它不需要别的理由
+		增加2点生命再生速度和10%移动速度
+		降低5%防御
+		'''
+}
+
+Screwdriver: {
+	DisplayName: 螺丝起子
+	Tooltip:
+		'''
+		你……耍酒疯吗？
+		穿透类弹幕的伤害倍率乘以1.05
+		减少1点生命再生速度
+		'''
+}
+
+StarBeamRye: {
+	DisplayName: 星流黑麦威士忌
+	Tooltip:
+		'''
+		我在彗星陨石坑附近找到了些材料，调制成了这酒，哈哈别担心，它很安全，相信我。
+		增加50点最大魔力值和8%魔法伤害
+		降低10%魔力消耗
+		降低6%防御和2点生命再生速度
+		'''
+}
+
+Tequila: {
+	DisplayName: 龙舌兰酒
+	Tooltip:
+		'''
+		在白天畅饮的绝佳鸡尾酒
+		在白天时增加10%击退、4%暴击率和5点防御
+		减少1点生命再生速度
+		'''
+}
+
+TequilaSunrise: {
+	DisplayName: 龙舌兰日出
+	Tooltip:
+		'''
+		我尝过的最棒的日间饮品。
+		在白天时增加20%击退、8%暴击率和10点防御
+		减少2点生命再生速度
+		'''
+}
+
+Vodka: {
+	DisplayName: 伏特加
+	Tooltip:
+		'''
+		调制美味鸡尾酒的不二选择
+		增加6%伤害和2%暴击率
+		减少1点生命再生速度和5%防御
+		'''
+}
+
+Whiskey: {
+	DisplayName: 威士忌
+	Tooltip:
+		'''
+		那种燃烧的错觉让其美味更甚！
+		增加4%伤害、20%击退和2%暴击率
+		降低5%防御
+		'''
+}
+
+WhiteWine: {
+	DisplayName: 白酒
+	Tooltip:
+		'''
+		曾有一晚，我喝了一桶这酒，第二天我连我是谁都忘了。
+		增加8%魔法伤害
+		降低6%防御和1点生命再生速度
+		'''
+}

@@ -1,0 +1,292 @@
+// Critters
+AndroombaItem: {
+	DisplayName: 仙女座扫除机
+	Tooltip:
+		'''
+		右键扫除机以嵌入溶液
+		当嵌入溶液后，扫除机会开始传播其内容物
+		'''
+}
+
+BabyFlakCrabItem: {
+	DisplayName: 小高口蟹
+	Tooltip: ""
+}
+
+BabyGhostBellItem: {
+	DisplayName: 小鬼铃水母
+	Tooltip: ""
+}
+
+NanodroidDysfunctionalItem: {
+	DisplayName: 功能失调的纳米机器人
+	Tooltip: ""
+}
+
+NanodroidItem: {
+	DisplayName: 纳米机器人
+	Tooltip: ""
+}
+
+NanodroidPlagueGreenItem: {
+	DisplayName: 绿色瘟疫纳米机器人
+	Tooltip: ""
+}
+
+NanodroidPlagueRedItem: {
+	DisplayName: 红色瘟疫纳米机器人
+	Tooltip: ""
+}
+
+PiggyItem: {
+	DisplayName: 小猪猪
+	Tooltip: ""
+}
+
+RepairUnitItem: {
+	DisplayName: 修复机器人
+	Tooltip: ""
+}
+
+SeaMinnowItem: {
+	DisplayName: 海洋米诺鱼
+	Tooltip: ""
+}
+
+TwinklerItem: {
+	DisplayName: 星幻萤火虫
+	Tooltip: ""
+}
+
+// Permanent Boosters
+BloodOrange: {
+	DisplayName: 血橙
+	Tooltip:
+		'''
+		它很甜，也很香
+		永久增加25点最大生命值
+		仅能在达到最大生命值后才能使用
+		'''
+}
+
+CelestialOnion: {
+	DisplayName: 天体洋葱
+	Tooltip:
+		'''
+		外星的力量激荡在它的层叠之中
+		使用它会带来一些不可逆的后果
+		此物品在大师模式下无任何效果
+		'''
+}
+
+CometShard: {
+	DisplayName: 彗星碎片
+	Tooltip: 永久增加50点最大魔力值
+}
+
+Dragonfruit: {
+	DisplayName: 龙果
+	Tooltip:
+		'''
+		尽管味道有些寡淡，但这味道绝对堪称是种全新的体验
+		永久增加25点最大生命值
+		仅能在达到最大生命值后才能使用
+		'''
+}
+
+Ectoheart: {
+	DisplayName: 幽魂之心
+	Tooltip:
+		'''
+		永久增加肾上腺素模式15%伤害和5%伤害减免
+		复仇模式专属
+		'''
+}
+
+Elderberry: {
+	DisplayName: 旧神浆果
+	Tooltip:
+		'''
+		摸上去像是土做的，尝起来酸甜香浓
+		永久增加25点最大生命值
+		仅能在达到最大生命值后才能使用
+		'''
+}
+
+ElectrolyteGelPack: {
+	DisplayName: 电磁凝胶包
+	Tooltip:
+		'''
+		永久增加肾上腺素模式15%伤害和5%伤害减免
+		复仇模式专属
+		'''
+}
+
+EtherealCore: {
+	DisplayName: 飘渺之核
+	Tooltip: 永久增加50点最大魔力值
+}
+
+InfernalBlood: {
+	DisplayName: 地狱之血
+	Tooltip:
+		'''
+		永久增加1秒暴怒模式持续时间
+		复仇模式专属
+		'''
+}
+
+MiracleFruit: {
+	DisplayName: 奇迹之果
+	Tooltip:
+		'''
+		令人神清气爽，甚至好像略带薄荷的香气
+		永久增加25点最大生命值
+		仅能在达到最大生命值后才能使用
+		'''
+}
+
+MushroomPlasmaRoot: {
+	DisplayName: 蘑菇根质
+	Tooltip:
+		'''
+		永久增加1秒暴怒模式持续时间
+		复仇模式专属
+		'''
+}
+
+PhantomHeart: {
+	DisplayName: 幻影之心
+	Tooltip: 永久增加50点最大魔力值
+}
+
+RedLightningContainer: {
+	DisplayName: 电刑之容
+	Tooltip:
+		'''
+		永久增加1秒暴怒模式持续时间
+		复仇模式专属
+		'''
+}
+
+StarlightFuelCell: {
+	DisplayName: 星光能量核心
+	Tooltip:
+		'''
+		永久增加肾上腺素模式15%伤害和5%伤害减免
+		复仇模式专属
+		'''
+}
+
+// Spawn Blockers
+AntiCystOintment: {
+	DisplayName: 抗囊肿药膏
+	Tooltip: 标记为收藏后，可使血肉囊不再生成
+}
+
+AntiTumorOintment: {
+	DisplayName: 抗肿瘤药膏
+	Tooltip: 标记为收藏后，可使腐化肿瘤不再生成
+}
+
+BleachBall: {
+	DisplayName: 白色水球
+	Tooltip: 标记为收藏后，可使渊海灾虫不再生成
+}
+
+BrokenWaterFilter: {
+	DisplayName: 破损净水器
+	Tooltip: 标记为收藏后，可使酸雨事件不再自然生成
+}
+
+SirenproofEarMuffs: {
+	DisplayName: 防海妖耳塞
+	Tooltip: 标记为收藏后，可使阿娜希塔不再生成
+}
+
+VoodooDemonVoodooDoll: {
+	DisplayName: 巫毒恶魔的巫毒娃娃
+	Tooltip: 标记为收藏后，可使巫毒恶魔不再生成
+}
+
+// Uncategorized
+AlicornonaStick: {
+	// DisplayName: Alicorn on a Stick
+	// Tooltip: "'Congratulations, you're winner! Here's my head on a stick.'"
+}
+
+BallAndChain: {
+	DisplayName: 球镣
+	Tooltip:
+		'''
+		不堪重负……
+		标记为收藏后，可使你的所有冲刺效果无效化
+		'''
+}
+
+BrimstoneLocus: {
+	DisplayName: 硫火魔珠
+	Tooltip:
+		'''
+		我不仅可以用强大的魔法增强你的装备，还可以引出某些物品真正的死灵之力
+		将它们转化为全新的形态
+		当该物品被放在你的背包中时，能够进行死灵灌注的武器装备会被标出
+		'''
+}
+
+MomentumCapacitor: {
+	DisplayName: 动量电容器
+	Tooltip:
+		'''
+		当使用动量电容器时
+		你的最高速度会持续且不可控的增加
+		此效果在Boss存活时失效
+		'''
+}
+
+NormalityRelocator: {
+	DisplayName: 常态定位器
+	Tooltip:
+		'''
+		眨眼即至！
+		This line is modified below
+		传送后的30帧内会使下落速度翻倍
+		受到混沌状态减益的影响时无法进行传送
+		放在背包中时仍然有效
+		'''
+}
+
+RelicOfConvergence: {
+	DisplayName: 聚魂圣物
+	Tooltip:
+		'''
+		创造一块亵渎水晶并充能
+		充能时会减速玩家
+		充能完成后会治疗玩家70点生命值
+		'''
+}
+
+Rock: {
+	DisplayName: 古恒石
+	Tooltip: 克希洛克创造的第一种物品
+}
+
+SulphurousSeaWorldSideChanger: {
+	DisplayName: 硫海世界选边转换器
+	Tooltip:
+		'''
+		如果你的海洋被视为硫磺海，请生成并使用这个
+		当深渊损坏时也可以使用该物品修复
+		'''
+}
+
+SuperDummy: {
+	DisplayName: 大草人
+	Tooltip:
+		'''
+		超级草人
+		每秒恢复百万生命值
+		受到造成持续伤害的减益影响时也不会死亡
+		右键点击灭杀所有大草人
+		'''
+}

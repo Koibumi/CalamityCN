@@ -1,0 +1,358 @@
+AerialiteBar: {
+	DisplayName: 天蓝锭
+	Tooltip: ""
+}
+
+AncientBoneDust: {
+	DisplayName: 上古骨灰
+	Tooltip: ""
+}
+
+ArmoredShell: {
+	DisplayName: 装甲外壳
+	Tooltip: ""
+}
+
+AscendantSpiritEssence: {
+	DisplayName: 化神魂精
+	Tooltip: 融合强大灵魂而制成的最高级催化剂
+}
+
+AshesofAnnihilation: {
+	DisplayName: 湮灭余烬
+	Tooltip: 至尊女巫怒火的炽热精华
+}
+
+AshesofCalamity: {
+	DisplayName: 灾厄尘
+	Tooltip: ""
+}
+
+AuricBar: {
+	DisplayName: 圣金源锭
+	Tooltip: 散发出无限的能量
+}
+
+BeetleJuice: {
+	DisplayName: 甲虫汁
+	Tooltip: ""
+}
+
+BlightedGel: {
+	DisplayName: 枯萎凝胶
+	Tooltip: ""
+}
+
+BloodOrb: {
+	DisplayName: 血珠
+	Tooltip: ""
+}
+
+BloodSample: {
+	DisplayName: 血液样本
+	Tooltip: ""
+}
+
+Bloodstone: {
+	DisplayName: 血石
+	Tooltip: ""
+}
+
+BloodstoneCore: {
+	DisplayName: 血石核心
+	Tooltip: ""
+}
+
+CoreofCalamity: {
+	DisplayName: 灾劫核心
+	Tooltip: ""
+}
+
+CoreofEleum: {
+	DisplayName: 冰川核心
+	Tooltip: ""
+}
+
+CoreofHavoc: {
+	DisplayName: 混乱核心
+	Tooltip: ""
+}
+
+CoreofSunlight: {
+	DisplayName: 日光核心
+	Tooltip: ""
+}
+
+CorrodedFossil: {
+	DisplayName: 酸腐化石
+	Tooltip: 它非常坚固
+}
+
+CosmiliteBar: {
+	DisplayName: 宇宙锭
+	Tooltip: 一块坚硬而柔韧的宇宙金属
+}
+
+CryonicBar: {
+	DisplayName: 寒元锭
+	Tooltip: ""
+}
+
+DarkPlasma: {
+	DisplayName: 暗物质
+	Tooltip: ""
+}
+
+DarksunFragment: {
+	DisplayName: 日蚀之阴碎片
+	Tooltip: 曜日与皎月，两种相斥天体的能量聚合进这一块晶体中
+}
+
+DemonicBoneAsh: {
+	DisplayName: 恶魔骨灰
+	Tooltip: ""
+}
+
+DepthCells: {
+	DisplayName: 深渊细胞
+	Tooltip: 深渊生物的细胞
+}
+
+DivineGeode: {
+	DisplayName: 神圣晶石
+	Tooltip: 蕴藏着神圣能量的晶石
+}
+
+DubiousPlating: {
+	DisplayName: 可疑镀层
+	Tooltip: ""
+}
+
+EffulgentFeather: {
+	DisplayName: 闪耀金羽
+	Tooltip: 流动着蓬松的金色能量
+}
+
+EndothermicEnergy: {
+	DisplayName: 恒温能量
+	Tooltip: 它的极寒能够吸收周围的生命
+}
+
+EnergyCore: {
+	DisplayName: 能源核心
+	Tooltip: 能量在其中脉动
+}
+
+EssenceofEleum: {
+	DisplayName: 冰川精华
+	Tooltip: 寒冰生命之精华
+}
+
+EssenceofHavoc: {
+	DisplayName: 混乱精华
+	Tooltip: 混沌生命之精华
+}
+
+EssenceofSunlight: {
+	DisplayName: 日光精华
+	Tooltip: 天空、圣光及沙暴生命之精华
+}
+
+ExoPrism: {
+	DisplayName: 星流棱晶
+	Tooltip: 分形能量在其表面闪烁
+}
+
+GalacticaSingularity: {
+	DisplayName: 星系异石
+	Tooltip: 广阔宇宙的结晶
+}
+
+GrandScale: {
+	DisplayName: 大狂鲨鳞
+	Tooltip: 顶级捕食者的巨大鳞片
+}
+
+InfectedArmorPlating: {
+	DisplayName: 瘟疫装甲镀层
+	Tooltip: ""
+}
+
+LifeAlloy: {
+	DisplayName: 生命合金
+	Tooltip: ""
+}
+
+LivingShard: {
+	DisplayName: 生命碎片
+	Tooltip: ""
+}
+
+Lumenyl: {
+	DisplayName: 流明晶
+	Tooltip: 蕴含着闪光能量的晶片
+}
+
+MeldBlob: {
+	DisplayName: 冥思溶剂
+	Tooltip: ""
+}
+
+MeldConstruct: {
+	DisplayName: 冥思构造体
+	Tooltip: ""
+}
+
+MiracleMatter: {
+	DisplayName: 奇迹物质
+	Tooltip:
+		'''
+		无所定形，但潜力无穷
+		用以合成星流武器
+		'''
+}
+
+MolluskHusk: {
+	DisplayName: 软体动物外壳
+	Tooltip: 软体动物的遗留物
+}
+
+MurkyPaste: {
+	DisplayName: 浆糊泥
+	Tooltip: ""
+}
+
+MysteriousCircuitry: {
+	DisplayName: 神秘电路
+	Tooltip: ""
+}
+
+NightmareFuel: {
+	DisplayName: 梦魇魔能
+	Tooltip: 会搅乱你的心智
+}
+
+PearlShard: {
+	DisplayName: 珍珠碎片
+	Tooltip: ""
+}
+
+PerennialBar: {
+	DisplayName: 永恒锭
+	Tooltip: ""
+}
+
+Polterplasm: {
+	// DisplayName: Polterplasm
+	// Tooltip: It churns and seethes with ghastly malice
+}
+
+PlagueCellCanister: {
+	DisplayName: 瘟疫细胞罐
+	Tooltip: ""
+}
+
+PlasmaDriveCore: {
+	DisplayName: 等离子驱动核心原型
+	Tooltip: 尽管这玩意在仓库里吃了很多灰，它还能正常运转
+}
+
+PurifiedGel: {
+	DisplayName: 纯净凝胶
+	Tooltip: ""
+}
+
+ReaperTooth: {
+	DisplayName: 猎魂鲨牙
+	Tooltip: 坚硬到足以斩开钻石的程度
+}
+
+RottenMatter: {
+	DisplayName: 腐烂物质
+	Tooltip: ""
+}
+
+RuinousSoul: {
+	DisplayName: 毁灭之灵
+	Tooltip: 来自遥远过去的碎片
+}
+
+ScoriaBar: {
+	DisplayName: 熔渣锭
+	Tooltip: 冒出来的烟尚有余温
+}
+
+SeaRemains: {
+	DisplayName: 海洋残渣
+	Tooltip: ""
+}
+
+ShadowspecBar: {
+	DisplayName: 魔影锭
+	Tooltip: 邪祟的、漆黑的金属，其悚骇与伟力超逾理解
+}
+
+SolarVeil: {
+	DisplayName: 日影面纱
+	Tooltip: 没有任何一缕阳光能够穿透这块布料的纤维
+}
+
+Stardust: {
+	DisplayName: 星尘
+	Tooltip: ""
+}
+
+StormlionMandible: {
+	DisplayName: 风暴之颚
+	Tooltip: ""
+}
+
+SulphuricScale: {
+	DisplayName: 硫磺鳞片
+	Tooltip: ""
+}
+
+SuspiciousScrap: {
+	DisplayName: 可疑的电路板
+	Tooltip: 看起来它只是个材料……
+}
+
+TitanHeart: {
+	DisplayName: 泰坦之心
+	Tooltip: 同样可在星辉信标处使用
+}
+
+TrapperBulb: {
+	DisplayName: 猎捕花苞
+	Tooltip: ""
+}
+
+TwistingNether: {
+	DisplayName: 扭曲虚空
+	Tooltip: ""
+}
+
+UelibloomBar: {
+	DisplayName: 龙蒿锭
+	Tooltip: ""
+}
+
+UnholyCore: {
+	DisplayName: 污痕核心
+	Tooltip: ""
+}
+
+UnholyEssence: {
+	DisplayName: 浊火精华
+	Tooltip: 亵渎生物的精华
+}
+
+WulfrumMetalScrap: {
+	DisplayName: 钨钢金属废料
+	Tooltip: ""
+}
+
+YharonSoulFragment: {
+	DisplayName: 龙魂碎片
+	Tooltip: 巨龙的金源魄碎片
+}

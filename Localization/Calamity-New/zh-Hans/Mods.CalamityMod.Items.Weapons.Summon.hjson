@@ -1,0 +1,794 @@
+AbandonedSlimeStaff: {
+	DisplayName: 淡忘之史
+	Tooltip:
+		'''
+		被遗忘者自天堂而来，安静地唱着哀伤的史诗
+		使用时会消耗所有的召唤栏位
+		必须在快捷栏使用
+		基于消耗的召唤栏位数量增加伤害和尺寸
+		手持此武器时增加10%跳跃速度
+		'''
+}
+
+AncientIceChunk: {
+	DisplayName: 千载寒晶
+	Tooltip: 召唤食魂冰虫为你而战
+}
+
+AquasScepter: {
+	DisplayName: Aqua的权杖
+	Tooltip:
+		'''
+		召唤一朵巨大的风暴云哨兵向你的敌人倾泻暴雨，并用过载特斯拉能量打击附近的敌人
+		“船长！我想-我们要有一场雨中冒险了！”
+		'''
+}
+
+AresExoskeleton: {
+	DisplayName: 阿瑞斯外骨骼
+	Tooltip:
+		'''
+		使用后构建出拥有四个槽位的外骨骼武装配置器：离子加农炮，特斯拉加农炮，镭射加农炮，高斯核弹加农炮
+		点击一个武器选项，随后点击一个武装槽位，可以召唤一门该种类的加农炮
+		点击已被占据的槽位会清空它，并卸载对应的加农炮
+		加农炮占据3格召唤栏位
+		'''
+}
+
+AtlasMunitionsBeacon: {
+	DisplayName: 擎天军用信标
+	Tooltip:
+		'''
+		从空中落下板条箱，打开后会露出一架安装好的固定式巨炮
+		巨炮会向任何在其攻击范围内的潜在敌人开火
+		巨炮会在敌人接近自身时进入超载模式
+		在超载模式下，巨炮会同时用三根炮管一起开火
+		同时在超载模式下，巨炮的热量会随着开火次数提高
+		当在快捷栏选中信标时，玩家可以通过右键来拾取巨炮并使用
+		手持巨炮时会始终处于超载模式
+		如果手持的巨炮因为超载模式而保持过热，那么你将被迫放下巨炮
+		你可以通过右键手动放下巨炮
+		如果巨炮落在信标底座的附近，那么它会与其再次连接
+		令人惊讶的是，它很容易被拾起
+		'''
+}
+
+BelladonnaSpiritStaff: {
+	DisplayName: 颠茄灵杖
+	Tooltip: 召唤一个会投掷魔法剧毒花瓣的可爱的颠茄之灵
+}
+
+BlackHawkRemote: {
+	DisplayName: 黑鹰遥控器
+	Tooltip:
+		'''
+		召唤一架黑鹰战机为你而战
+		战机会消耗你物品栏中的子弹
+		50%几率不消耗弹药
+		'''
+}
+
+BloodClotStaff: {
+	DisplayName: 血块法杖
+	Tooltip: 召唤血块为你而战
+}
+
+BorealisBomber: {
+	DisplayName: 极光爆破
+	Tooltip:
+		'''
+		召唤星幻炸弹为你而战
+		星幻炸弹会在命中敌人时爆炸
+		星幻炸弹不会占据召唤栏位
+		'''
+}
+
+CadaverousCarrion: {
+	DisplayName: 干缩腐尸
+	Tooltip: 在地面上召唤一个硫海遗爵的头
+}
+
+CalamarisLament: {
+	DisplayName: 乌贼之哀歌
+	Tooltip: 召唤乌贼为你而战
+}
+
+CausticCroakerStaff: {
+	DisplayName: 腐蚀蛙法杖
+	Tooltip: 召唤一个在敌人接近时爆炸的蟾蜍
+}
+
+CausticStaff: {
+	DisplayName: 蚀骨法杖
+	Tooltip:
+		'''
+		召唤一条迷你龙为你而战
+		手持召唤武器或是工具时，这条龙会造成多种减益
+		'''
+}
+
+CinderBlossomStaff: {
+	DisplayName: 烬英法杖
+	Tooltip:
+		'''
+		在你的头顶召唤一朵灼热之花
+		同时只能存在至多一朵灼热之花
+		'''
+}
+
+CindersOfLament: {
+	DisplayName: 余烬挽歌
+	Tooltip:
+		'''
+		在光标位置召唤灾难或灾祸
+		他们出现时会看着你，并在短时间后向你冲刺
+		路径上的敌怪和玩家都会受到伤害
+		[c/c61b40:女巫是罪人，自己的罪人，她将自己拖入无尽的因果苦海。]
+		[c/c61b40:念想中的恶魔一直安静着，等待着，直到终结。]
+
+		'''
+}
+
+Cnidarian: {
+	DisplayName: 水母钓竿
+	Tooltip:
+		'''
+		钓起一只带电水母
+		周期性发射电火花攻击周围的敌人
+		[c/5C95A1:通过观察那些蒙昧的水生物邻居，旧日王国的居民创造出了能在水下高效使用的工具和武器。]
+		[c/5C95A1:鬼铃水母死后，它们体内的电能依然可以发挥功效，使其得以被广泛应用于管道作业中。]
+		'''
+}
+
+CorroslimeStaff: {
+	DisplayName: 腐化史莱姆召唤杖
+	Tooltip: 召唤腐化史莱姆为你而战
+}
+
+CorvidHarbringerStaff: {
+	DisplayName: 灭兆渡鸦杖
+	Tooltip:
+		'''
+		永不复返
+		召唤一只强大的渡鸦，可以传送和猛冲
+		'''
+}
+
+CosmicImmaterializer: {
+	DisplayName: 归虚之灵
+	Tooltip:
+		'''
+		召唤一个宇宙之灵为你而战
+		宇宙之灵在探测到敌人时会发射大量的跟踪能源箭
+		需要至少10格召唤栏位才能使用并且同时只能存在至多一个宇宙之灵
+		如果没有召唤师套装的加成，宇宙之灵造成的伤害会降低
+		'''
+}
+
+CosmicViperEngine: {
+	DisplayName: 宙极毒蝰引擎
+	Tooltip:
+		'''
+		召唤一艘宇宙炮艇射击你的敌人
+		炮艇会消耗你背包中的子弹
+		50%几率不消耗弹药
+		交替发射火箭和子弹
+		火箭不会消耗弹药
+		'''
+}
+
+Cosmilamp: {
+	DisplayName: 无限之灯
+	Tooltip:
+		'''
+		在你的头顶召唤一盏宇宙灯为你而战
+		每盏宇宙灯占据两格召唤栏位
+		'''
+}
+
+CrimslimeStaff: {
+	DisplayName: 血腥史莱姆召唤杖
+	Tooltip: 召唤血腥史莱姆为你而战
+}
+
+CryogenicStaff: {
+	DisplayName: 寒极法杖
+	Tooltip:
+		'''
+		召唤一个冰晶结构来保护你
+		攻击速度和射程会随着攻击时间的增加而增加
+		'''
+}
+
+DaedalusGolemStaff: {
+	DisplayName: 代达罗斯守卫法杖
+	Tooltip:
+		'''
+		召唤一个会发射子弹与电流的水晶守卫
+		闪耀的贪心之神
+		'''
+}
+
+DankStaff: {
+	DisplayName: 沼泽之眼
+	Tooltip: 召唤黑暗爬行者为你而战
+}
+
+DazzlingStabberStaff: {
+	DisplayName: 耀目穿刺者杖
+	Tooltip: 召唤圣刃为你而战
+}
+
+DeathstareRod: {
+	DisplayName: 死亡凝视法杖
+	Tooltip:
+		'''
+		在你的头顶召唤一颗眼球，它会看着你并向敌人发射激光
+		同时只能存在至多一颗眼球
+		'''
+}
+
+DeepseaStaff: {
+	DisplayName: 深海权杖
+	Tooltip: 召唤深海海星为你而战
+}
+
+DormantBrimseeker: {
+	DisplayName: 沉眠寻焰者
+	Tooltip:
+		'''
+		当你在镜子里看到他们的倒影时，他们绝对看起来更加可怕
+		召唤一个硫火搜寻者
+		当召唤栏位耗尽时，再次使用则会召唤一个硫火光环
+		光环会强化硫火搜寻者并产生伤害性火球
+		同时只能存在至多一个光环
+		'''
+}
+
+DragonbloodDisgorger: {
+	DisplayName: 龙血弃族
+	Tooltip:
+		'''
+		召唤一只骨龙和她的两个孩子
+		需要至少6格召唤栏位才能使用
+		同时只能存在至多一家骨龙
+		'''
+}
+
+DreadmineStaff: {
+	DisplayName: 恐惧渊雷法杖
+	Tooltip: 召唤恐惧渊雷为你而战
+}
+
+ElementalAxe: {
+	DisplayName: 元素之斧
+	Tooltip: 召唤元素之斧为你而战
+}
+
+EnchantedConch: {
+	DisplayName: 附魔海螺
+	Tooltip: 召唤寄居蟹为你而战
+}
+
+Endogenesis: {
+	DisplayName: 源生寒晶
+	Tooltip:
+		'''
+		召唤一个升格的冰晶结构来保护你
+		再次使用或重新召唤可以改变攻击形态
+		第一形态：发射多束锁定敌人的激光
+		第二形态：发射大量追踪冰晶
+		第三形态：连续冲撞敌人
+		第四形态：旋转并向四周喷射极寒之火
+		需要至少10格召唤栏位才能使用
+		同时只能存在至多一个冰晶结构
+		[c/B0FBFF:不包含冰的双关语]
+		'''
+}
+
+EndoHydraStaff: {
+	DisplayName: 冰洋九头龙
+	Tooltip:
+		'''
+		召唤具有一个头的寒冰实体
+		如果寒冰实体已经存在，再次使用则会召唤更多的头
+		'''
+}
+
+EntropysVigil: {
+	DisplayName: 混乱之祈祷
+	Tooltip:
+		'''
+		召唤灾厄和她的两兄弟来保护你
+		每个三人组占据两格召唤栏位
+		'''
+}
+
+EtherealSubjugator: {
+	DisplayName: 幽花之主
+	Tooltip: 召唤幽花来保护你
+}
+
+EyeOfNight: {
+	DisplayName: 永夜之眼
+	Tooltip: 召唤会发射瘟疫细胞的永夜眼球，瘟疫细胞会附着在敌怪身上
+}
+
+FlamsteedRing: {
+	DisplayName: 月陨天环
+	// NoSpaceTextTop: Cannot Deploy
+	// NoSpaceTextBottom: Insufficient space!
+	Tooltip:
+		'''
+		召唤一架可控的巨型战甲
+		右键展示控制面板
+		通过选定UI上边框之一来调整面板上的三个配置选项
+		每个边框可以使用三种能力中的其中两个，可通过面板上的圆形标志来辨识启用了何种能力
+		左下方标志可以将战甲缩小至玩家体型，但会弱化武器
+		右下方的标志为飞行助推器，短期内极大幅度提高移动速度
+		正上方标志为战甲的武器配置。此标志亮起时，战甲才可进行攻击
+		点击上方标志以切换战斗模式，战斗模式分为两种：装配有强大的能量光刃的弑君模式，以及高斯能量步枪模式
+		Boss存活时解除战甲会短暂阻碍玩家的移动
+		[c/87ceeb:现在，让他们偿还吧。]
+		'''
+}
+
+FleshOfInfidelity: {
+	DisplayName: 不洁血肉
+	Tooltip: 召唤一个触手血球，向敌怪抛出血弹
+}
+
+FlowersOfMortality: {
+	DisplayName: 告死之花
+	Tooltip:
+		'''
+		在你的头顶召唤五朵元素之花
+		共占据3格召唤栏位
+		'''
+}
+
+ForgottenApexWand: {
+	DisplayName: 失落极峰
+	Tooltip:
+		'''
+		召唤远古矿鲨为你而战 
+		看起来，它在很久之前就失去了颚骨
+		'''
+}
+
+FrostBlossomStaff: {
+	DisplayName: 霜华法杖
+	Tooltip:
+		'''
+		在你的头顶召唤一朵冰霜之花
+		同时只能存在至多一朵冰霜之花
+		'''
+}
+
+FuelCellBundle: {
+	DisplayName: 燃料电池组
+	Tooltip: 召唤一个小而特别的瘟疫携带者变种
+}
+
+GammaHeart: {
+	DisplayName: 伽马共生者
+	Tooltip: 召唤连在你身体上的辐射之头
+}
+
+GastricBelcherStaff: {
+	DisplayName: 畸变吞食者法杖
+	Tooltip:
+		'''
+		召唤深海吞食者保护你
+		吞食者会向附近的敌人喷射呕吐物，每攻击三次便会发射一次气泡
+		'''
+}
+
+GlacialEmbrace: {
+	// DisplayName: Glacial Embrace
+	/* Tooltip:
+		'''
+		Summons the power of the ancient ice castle
+		For each minion slot used, you will gain an additional orbiting shield spike
+		These spikes accelerate rapidly towards a nearby enemy to inflict heavy damage
+		They take some time to regenerate after launching themselves at the target, however
+		On right click, summons a duplicate ring around the targeted enemy, which slowly converges before exploding
+		''' */
+}
+
+GodspawnHelixStaff: {
+	DisplayName: 星神圣护
+	Tooltip: 召唤星神探测器来保护你
+}
+
+GuidelightofOblivion: {
+	DisplayName: 遗境魂灯
+	Tooltip:
+		'''
+		无尽火焰的暗影之梦，火焰吞噬，余烬落下
+		召唤失落之灯为你而战
+		'''
+}
+
+HauntedScroll: {
+	DisplayName: 闹鬼卷轴
+	Tooltip: 召唤缠怨鬼碟为你而战
+}
+
+HerringStaff: {
+	DisplayName: 鲱鱼法杖
+	Tooltip:
+		'''
+		召唤鲱鱼为你而战
+		仅占据半格召唤栏位
+		'''
+}
+
+HivePod: {
+	DisplayName: 星幻巢
+	Tooltip: 召唤星幻巢来保护你
+}
+
+IgneousExaltation: {
+	DisplayName: 淬焰之升华
+	Tooltip:
+		'''
+		召唤一把刀锋
+		右键使刀锋冲向光标位置
+		'''
+}
+
+InfectedRemote: {
+	DisplayName: 瘟疫控制器
+	Tooltip:
+		'''
+		召唤一个代号为“瘟疫雌蜂”的人形混血瘟疫使者在战斗中帮助你
+		需要至少3格召唤栏位才能使用并且同时只能存在至多一只瘟疫雌蜂
+		瘟疫雌蜂会使用各种方式的攻击，通过内部的计时器进行循环
+		所有的攻击都会传播瘟疫，正如她最初的设计意图一样
+		“贴在后面的便条写着：”
+		“警告：受试者具有极强的腐蚀性和传染性。请避免直接接触。”
+		'''
+}
+
+KingofConstellationsTenryu: {
+	// DisplayName: King of Constellations, Tenryū
+	/* Tooltip:
+		'''
+		Uses 4 minion slots to summon a pair of celestial dragons to fight for you
+		There can only be one pair of dragons at a time
+		'The ones who will devour the Unmoving Star'
+		''' */
+}
+
+Metastasis: {
+	DisplayName: 硫心恶殖
+	Tooltip:
+		'''
+		召唤灾坟魔物为你而战
+		当灾坟魔物存在时，你的周围会不断出现硫磺火之心
+		硫磺火之心越多，灾坟魔物攻击你的几率越高
+		占据4格召唤栏位并且同时只能存在至多一个灾坟魔物
+		[c/c61b40:宇宙之虫可能的未来，]
+		[c/c61b40:对力量的饥渴蒙蔽双眼，这可是一个可怕的警告，但不影响你走向这样的结局。]
+
+		'''
+}
+
+MidnightSunBeacon: {
+	DisplayName: 极昼信标
+	Tooltip: 召唤一个UFO来蒸发你的敌人
+}
+
+OrthoceraShell: {
+	DisplayName: 直角石壳
+	Tooltip: 在光标位置召唤一个悬空的直角石哨卫
+}
+
+Perdition: {
+	DisplayName: 永劫
+	Tooltip:
+		'''
+		在光标位置召唤一个永劫信标
+		当有敌人被右键标记时，它会从其下方召唤出灵魂之流，将敌人湮没在永劫地狱中
+		同时只能存在至多一个永劫信标
+		'''
+}
+
+PlantationStaff: {
+	DisplayName: 苍华之庭
+	Tooltip:
+		'''
+		召唤迷你世纪之花来保护你
+		其会向目标发射种子、刺球和孢子云并造成中毒减益
+		当你的生命值低于75%时，迷你世纪之花会被激怒并开始冲撞敌人
+		占据3格召唤栏位并且同时只能存在至多一个迷你世纪之花
+		'''
+}
+
+PolypLauncher: {
+	DisplayName: 珊瑚召唤杖
+	Tooltip: 召唤一个会向附近的敌怪发射珊瑚块的珊瑚堆
+}
+
+PuffShroom: {
+	DisplayName: 蓬松蘑菇
+	Tooltip: 召唤可爱的蘑菇战士为你而战
+}
+
+ResurrectionButterfly: {
+	DisplayName: 反魂蝶
+	Tooltip:
+		'''
+		应该能不体会自身悲惨的境遇就度过每一日吧
+		如果是在那个没有出家风俗的世界的话
+		召唤一对蝴蝶为你而战
+		'''
+}
+
+RustyBeaconPrototype: {
+	DisplayName: 锈蚀信标原型
+	Tooltip:
+		'''
+		召唤一架废弃已久的无人机来支援你
+		无人机会在指定地点徘徊并释放会造成硫磺海剧毒减益的剧毒波
+		'''
+}
+
+SanctifiedSpark: {
+	DisplayName: 圣耀火花
+	Tooltip: 召唤亵渎能量为你而战
+}
+
+SandSharknadoStaff: {
+	DisplayName: 沙龙卷法杖
+	Tooltip: 召唤沙龙卷为你而战
+}
+
+SarosPossession: {
+	DisplayName: 星律之握揽
+	Tooltip:
+		'''
+		取得对光芒本身的绝对控制
+		同时只能存在至多一个光环
+		占据8格召唤栏位
+		'''
+}
+
+ScabRipper: {
+	DisplayName: 疤痕撕裂者
+	Tooltip: 召唤血腥爬行者宝宝来保护你
+}
+
+SeaboundStaff: {
+	DisplayName: 海星召唤杖
+	Tooltip: 召唤海星为你而战
+}
+
+ShellfishStaff: {
+	DisplayName: 海贝法杖
+	Tooltip:
+		'''
+		召唤海贝为你而战
+		占据2格召唤栏位
+		'''
+}
+
+Sirius: {
+	DisplayName: 天狼星
+	Tooltip:
+		'''
+		召唤夜空中最亮的星来闪瞎你的敌人
+		同时只能存在至多一颗天狼星
+		占据6格召唤栏位
+		'''
+}
+
+SlimePuppetStaff: {
+	DisplayName: 史莱姆傀儡法杖
+	Tooltip:
+		'''
+		召唤一个跟着你的史莱姆球
+		史莱姆球会飞向附近的敌人并在击中敌人时爆炸
+		史莱姆球不会占据召唤栏位
+		'''
+}
+
+SpikecragStaff: {
+	DisplayName: 地刺王法杖
+	Tooltip: 召唤一个地刺王来保护你
+	// TooltipNormal: Summons a spikecrag to protect you
+	/* TooltipGFB:
+		'''
+		Summons a spikecrag to protect you"
+		Defeating the Profaned Goddess unlocks its true power
+		''' */
+}
+
+SquirrelSquireStaff: {
+	DisplayName: 松鼠召唤杖
+	Tooltip: 召唤一只松鼠为你而战
+}
+
+StaffOfNecrosteocytes: {
+	DisplayName: 死灵骨髓杖
+	Tooltip:
+		'''
+		召唤小骷髅为你而战
+		小骷髅在移动时会留下骨细胞
+		'''
+}
+
+StaffoftheMechworm: {
+	DisplayName: 星宇神卫召唤杖
+	Tooltip: 召唤星宇护卫为你而战
+}
+
+StormjawStaff: {
+	DisplayName: 风暴蚁狮杖
+	Tooltip: 召唤风暴蚁狮宝宝为你而战
+}
+
+SunGodStaff: {
+	DisplayName: 太阳神法杖
+	Tooltip:
+		'''
+		召唤一个太阳神灵来保护你
+		同时只能存在至多一个太阳神灵
+		'''
+}
+
+SunSpiritStaff: {
+	DisplayName: 太阳之灵法杖
+	Tooltip:
+		'''
+		召唤一个太阳之灵来保护你
+		同时只能存在至多一个太阳之灵
+		'''
+}
+
+TacticalPlagueEngine: {
+	DisplayName: 战术瘟疫引擎
+	Tooltip:
+		'''
+		召唤一架瘟疫战机，打得敌人叫妈妈
+		战机会消耗你背包中的子弹
+		50%几率不消耗弹药
+		有时会发射导弹而非子弹
+		导弹不会消耗弹药
+		'''
+}
+
+TemporalUmbrella: {
+	DisplayName: 光阴流时伞
+	Tooltip:
+		'''
+		如此结实，我敢说它一击就能打趴那些黑手党
+		召唤各种工具协助你作战：
+		- 一支朱红色箭矢会穿透你的对手
+		- 一个果酱锤会别具风格的锤打敌怪
+		- 一柄翡翠斧会劈开怪物并且偶尔会砍倒一棵树
+		- 一把青色雨伞会优雅的击败你的敌人
+		- 一杆淡紫色步枪会射击那些阻碍你前进的人
+		最重要的是，你得戴上一顶礼帽
+		需要至少5格召唤栏位才能使用并且同时只能存在至多一套工具
+		'''
+}
+
+TundraFlameBlossomsStaff: {
+	DisplayName: 永冻之焱华
+	Tooltip:
+		'''
+		在你的头顶召唤三朵焰霜兰花
+		每朵花各占据1格召唤栏位
+		'''
+}
+
+UniverseSplitter: {
+	DisplayName: 渊宇天基炮
+	Tooltip:
+		'''
+		在光标位置召唤一个能量力场
+		力场定位成功后，几条小激光会从天而降
+		几秒后，湮灭死光会在力场的位置出现
+		该效果有冷却时间
+		在冷却时间内使用该武器会导致它短路，对你造成伤害
+		一个来自上个时代的古老人造物体，它等待着你的命令……
+		这真是个糟糕的想法，但无论如何它不是你的……对吗？
+		'''
+}
+
+Vigilance: {
+	DisplayName: 恂戒
+	Tooltip: 召唤一个灵魂搜寻者为你而战
+}
+
+VileFeeder: {
+	DisplayName: 腐化吞噬者
+	Tooltip: 召唤灵魂吞噬者宝宝来保护你
+}
+
+ViralSprout: {
+	DisplayName: 剧毒芽孢
+	Tooltip:
+		'''
+		召唤一个鼠尾草之灵为你而战
+		鼠尾草之灵会造成鼠尾草中毒减益，召唤的鼠尾草之灵越多，减益的伤害越高
+		'''
+}
+
+ViridVanguard: {
+	DisplayName: 葱茏之锋
+	Tooltip: 召唤一把环绕着你旋转的刀锋切碎附近的敌人
+}
+
+VoidConcentrationStaff: {
+	DisplayName: 幽冥统御
+	Tooltip:
+		'''
+		召唤出一个虚空光环，发射虚空球以攻击敌人
+		当虚空光环存在时，增加5%召唤伤害
+		需要至少3格召唤栏位才能使用
+		同时只能存在至多一个光环
+		当光环存在时，右键可发射逐渐变大的黑洞
+		'''
+}
+
+WarloksMoonFist: {
+	DisplayName: Warloks的月亮之拳
+	Tooltip:
+		'''
+		召唤一个星界之拳来痛击你的敌人
+		占据4格召唤栏位
+		'''
+}
+
+WitherBlossomsStaff: {
+	DisplayName: 凋零绽放法杖
+	Tooltip:
+		'''
+		在你的头顶召唤四朵凋零枯花
+		共占据两格召唤栏位
+		'''
+}
+
+WulfrumController: {
+	DisplayName: 钨钢控制器
+	Tooltip:
+		'''
+		召唤一架钨钢无人机为你而战
+		手持遥控器时长按右键以使你的无人机进入增压模式
+		增压的无人机会停止攻击并为你聚集钨钢能量
+		能量束会提供额外的生命再生速度和防御力
+		保持你的光标离其他玩家足够近的话可以治疗他们
+		'''
+}
+
+YharonsKindleStaff: {
+	DisplayName: 巨龙七星灯
+	Tooltip:
+		'''
+		召唤一只炽焰天龙为你而战
+		需要至少5格召唤栏位才能使用
+		'''
+}
+
+MirrorofKalandra: {
+	// DisplayName: Mirror of Kalandra
+	/* Tooltip:
+		'''
+		Summons five ancient weapons to annihilate your enemies
+		There can only be one of each individual weapon
+		[c/BD7F59:Atziri's Disfavor brutally cleaves through enemies]
+		[c/E7A7FF:Starforge rips through foes and occasionally induces cosmic explosions]
+		[c/868B8F:Paradoxica teleports to enemies and blitzes through them at high speed]
+		[c/EBC3A5:Wind Ripper unleashes a single high-speed, powerful arrow at enemies]
+		[c/9B6856:Hope Shredder shoots arrows that split into three and pierce enemies twice]
+		'Ultimate, Immeasurable, Indescribable'
+		''' */
+}
+
+StellarTorusStaff: {
+	// DisplayName: Stellar Torus Staff
+	// Tooltip: Summons a Torus Orbital that fries foes with a telescoping light beam
+}
