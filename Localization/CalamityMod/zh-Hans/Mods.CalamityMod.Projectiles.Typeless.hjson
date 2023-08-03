@@ -8,8 +8,8 @@ ArtifactOfResilienceShard4.DisplayName: 灵之形碎块
 ArtifactOfResilienceShard5.DisplayName: 灵之形碎块
 ArtifactOfResilienceShard6.DisplayName: 灵之形碎块
 AstralFallingSand.DisplayName: 幻星陨砂
-// AstralSandBallFalling.DisplayName: Astral Sand
-// AstralSandBallGun.DisplayName: Astral Sand
+AstralSandBallFalling.DisplayName: 星幻沙块
+AstralSandBallGun.DisplayName: 星环沙块
 AstralSpray.DisplayName: 星体喷流
 AstralStar.DisplayName: 彗星
 BallisticPoisonCloud.DisplayName: 云
@@ -20,10 +20,10 @@ BloodBomb.DisplayName: 炸弹
 BloodBombExplosion.DisplayName: 爆炸
 BlunderBoosterAura.DisplayName: 悖论电场
 BobbitHead.DisplayName: 博比特之首
-BossRushEffectThing.DisplayName: Boss Rush Effect Thing
-BossRushEndEffectThing.DisplayName: Boss Rush End Effect Thing
-BossRushFailureEffectThing.DisplayName: Boss Rush Failure Effect Thing
-BossRushTierAnimation.DisplayName: Boss Rush Tier Animation
+BossRushEffectThing.DisplayName: Boss Rush 开始提示语言
+BossRushEndEffectThing.DisplayName: Boss Rush 结束提示语言
+BossRushFailureEffectThing.DisplayName: Boss Rush 失败提示语言
+BossRushTierAnimation.DisplayName: Boss Rush 级别动画
 BrimstoneHellfireballFriendly2.DisplayName: 地狱火
 ChaoticGeyser.DisplayName: 混沌间歇泉
 ChlorophyteLifePulse.DisplayName: 生命脉冲
@@ -46,7 +46,7 @@ EmpyreanGlob.DisplayName: 皇天液滴
 EmpyreanMarble.DisplayName: 皇天大理石
 EmpyreanStellarDetritus.DisplayName: 皇天星源碎屑
 EnergyShell.DisplayName: 能量庇护
-// EutrophicSandBallGun.DisplayName: Eutrophic Sand
+EutrophicSandBallGun.DisplayName: 富营养沙
 FeralDoubleBobber.DisplayName: 野性浮漂
 FuckYou.DisplayName: 爆炸
 FungalClumpMinion.DisplayName: 真菌球
@@ -109,7 +109,7 @@ StarStruckWaterBottle.DisplayName: 星水瓶
 StickyFeatherAero.DisplayName: 羽毛
 SuicideBomberDemon.DisplayName: 恶魔
 SulphuricAcidBubbleFriendly.DisplayName: 酸性气泡
-// SulphurousSandBallGun.DisplayName: Sulphurous Sand
+SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
 TerminusHoldout.DisplayName: 终焉反抗
 TeslaAura.DisplayName: 磁暴
@@ -126,4 +126,4 @@ WulfrumLureSignal.DisplayName: 信号
 WulfrumScaffoldKitHoldout.DisplayName: 钨钢云梯工具包
 YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
-// TarragonAura.DisplayName: Tarragon Aura
+TarragonAura.DisplayName: 龙蒿光环

@@ -1,166 +1,166 @@
 // Buff Descriptions
 BuffDescription: {
-	// BeetleMight: Melee damage and speed increase by {0}% and {1}% respectively
-	// ChaosState: Rod of Discord teleports are disabled
-	// LeafCrystal: Emits powerful life pulses at nearby enemies
-	// WarmthExtra: Grants immunity to Chilled, Frozen and Glacial State
-	// WeaponImbueConfetti: All attacks cause confetti to appear
-	// WeaponImbueCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames
-	// WeaponImbueFire: Melee, Whip, and Rogue attacks set enemies on fire
-	// WeaponImbueGold: Melee, Whip, and Rogue attacks make enemies drop more gold
-	// WeaponImbueIchor: Melee, Whip, and Rogue attacks decrease enemies defense
-	// WeaponImbueNanites: Melee, Whip, and Rogue attacks confuse enemies
-	// WeaponImbuePoison: Melee, Whip, and Rogue attacks poison enemies
-	// WeaponImbueVenom: Melee, Whip, and Rogue attacks inflict acid venom on your targets
+	BeetleMight: 近战伤害和攻速分别提升 {0}% 和 {1}%
+	ChaosState: 混沌传送杖暂时被禁用
+	LeafCrystal: 释放强大的生命光流攻击附近敌人
+	WarmthExtra: 免疫{$BuffName.Chilled}，{$BuffName.Frozen}和冰河时代减益
+	WeaponImbueConfetti: 所有攻击喷出彩纸
+	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.CursedInferno}
+	WeaponImbueFire: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.OnFire}
+	WeaponImbueGold: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Midas}
+	WeaponImbueIchor: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Ichor}
+	WeaponImbueNanites: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Confused}
+	WeaponImbuePoison: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Poisoned}
+	WeaponImbueVenom: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Venom}
 }
 
 // Vanilla NPC dialogues added by Calamity
-// AnglerChat.SeaKing: Someone tell {0} to quit trying to throw me out of town, it's not going to work.
+AnglerChat.SeaKing: 有人说{0}想把我赶出镇子，那是不存在的。
 
 ArmsDealerChat: {
-	// MentionQuadBarrel: That old man left a cranky old gun on his deathbed. You catching my drift?
-	// HasQuadBarrel: Hah! Look at that rusty old shotty. It looks straight out of the 70's!
-	// DoGDefeated: Is it me or are your weapons getting bigger and bigger?
-	// Eclipse: That's the biggest moth I've ever seen for sure. You'd need one big gun to take one of those down.
+	MentionQuadBarrel: 那老头临终前留了把破枪。你明白我的意思了吗?
+	HasQuadBarrel: 哈！看看那生锈的老玩意。它看起来是70年代的！
+	DoGDefeated: 是我越来越小，还是你的武器越来越大？
+	Eclipse: 那是我见过的最大的蛾子。你得需要一把大枪才能把它们给射下来。
 }
 
 ClothierChat: {
-	// PolterghastDefeated: Whatever that thing was, I'm glad it's gone now
-	// MoonLordDefeated1: Who you gonna call?
-	// MoonLordDefeated2: Those screams... I'm not sure why, but I feel like a nameless fear has awoken in my heart.
-	// MoonLordDefeated3: I can faintly hear ghostly shrieks from the dungeon... and not ones I'm familiar with at all. Just what is going on in there?
-	// MoonLordPresent: Houston, we've had a problem.
+	PolterghastDefeated: 不管那东西是什么，我很高兴它现在没了。
+	MoonLordDefeated1: 你想叫谁？
+	MoonLordDefeated2: 那些尖叫……不知道为什么，但我觉得一种莫名的恐惧已经在我的心中醒来。
+	MoonLordDefeated3: 我能隐约听到地牢里的鬼哭嚎叫……而我根本不熟悉这些。那里发生了什么？
+	MoonLordPresent: 休斯顿，我们遇上麻烦了。
 }
 
 CyborgChat: {
-	// MoonLordDefeated1: Always shoot for the moon! It has clearly worked before.
-	// MoonLordDefeated2: Draedon? He's... a little 'high octane' if you know what I mean.
-	// MentionPlague: Those oversized bugs terrorizing the jungle... Surely you of all people could shut them down!
-	// Rain: All these moments will be lost in time. Like tears... in the rain.
+	MoonLordDefeated1: 总是朝月亮开枪！很明显，这以前起过作用。
+	MoonLordDefeated2: 嘉登？他有点…………汽油喝多了，你懂我意思吧？
+	MentionPlague: 那些吓人的丛林里的大虫子……你当然可以把他们干掉了！
+	Rain: 这一切都终将湮灭在时间的长河之中，就像雨中的…………泪滴。
 }
 
-// DemolitionistChat.DoGDefeated: God Slayer Dynamite? Boy do I like the sound of that!
+DemolitionistChat.DoGDefeated: 弑神者雷管？我喜欢那声音！
 
 DryadChat: {
-	// DarksunEclipse: There's a dark solar energy emanating from the moths that appear during this time. Ah, as you progress further the moths get more powerful...
-	// Hardmode: That starborne illness sits upon this land like a blister. Do even more vile forces of corruption exist in worlds beyond?
-	// DrunkPrincessShroom: "{0} put me up to this."
-	// Mushroom: I'm not here for any reason! Just picking up mushrooms for uh, later use.
-	// SulphurSea: My ancestor was lost here long ago. I must pay my respects to her.
+	DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。啊，飞蛾随着你的发展也变得越来越强大……嗯……犽戎之前没有使出他的全部力量？
+	Hardmode: 那星辉瘟疫像水泡一样存在于这片土地上。难道世界上还有更多邪恶地形吗
+	DrunkPrincessShroom: "{0}让我来。"
+	Mushroom: 我才不想呆在这！我在这是为了捡蘑菇，呃，留着以后用。
+	SulphurSea: 我的祖辈很久以前就走了。我必须向她表示敬意。
 }
 
 DyeTraderChat: {
-	// Normal: Have you seen those gemstone creatures in the caverns? Their colors are simply breathtaking!
-	// Archmage: Do you think {0} knows how to 'let it go?'
+	Normal: 你看到洞穴里那些宝石生物了吗？它们的颜色简直令人叹为观止！
+	Archmage: 你认为{0}知道怎样“随它吧”？
 }
 
 GoblinTinkererChat: {
-	// Bandit: Hey, is it just me or have my pockets gotten lighter ever since {0} arrived?
-	// MoonLordDefeated: You know... we haven't had an invasion in a while...
+	Bandit: 嘿，是我减肥了，还是我的钱包在{0}到达后变轻了？
+	MoonLordDefeated: 你知道……我们已经有一段时间没有入侵了……
 }
 
 GuideChat: {
-	// ProvidenceDefeated1: Seems like extinguishing that butterfly caused its life to seep into the hallowed areas, try taking a peek there and see what you can find!
-	// ProvidenceDefeated2: I've heard there is a portal of antimatter absorbing everything it can see in the dungeon, try using the Rune of Kos there!
-	// MoonLordDefeated: The dungeon seems even more restless than usual, watch out for the powerful abominations stirring up in there.
-	// Hardmode1: Could you be so kind as to, ah... check hell for me...? I left someone I kind of care about down there.
-	// Hardmode2: I have this sudden shiver up my spine, like a meteor just fell and thousands of innocent creatures turned into monsters from the stars.
+	ProvidenceDefeated1: 就好像那只扑火的蝴蝶使它的生命渗入了圣域，试着窥视那里，看看你能找到什么！
+	ProvidenceDefeated2: 我听说有一个反物质之门吸收了它在地牢里看到的一切，试试在那里使用宇宙符文吧！
+	MoonLordDefeated: 地牢似乎比平时更不安宁，小心里面强大的憎恨之物激起的怒火。
+	Hardmode1: 你能不能发点好心，额……帮我查一下地狱……？我把一个我关心的人留在下面了。
+	Hardmode2: 我的脊椎突然颤抖起来，就像流星落下，成千上万无辜的生物变成了来自群星的怪物。
 }
 
 MechanicChat: {
-	// MoonLordDefeated: What do you mean your traps aren't making the cut? Don't look at me!
-	// Eclipse: Um... should my nightlight be on?
-	// AcidRain: Maybe I should've waterproofed my gadgets... They're starting to corrode.
-	// DrunkPrincess: Well, I like {0}, but I, ah... I have my eyes on someone else.
+	MoonLordDefeated: 你说你的机关没成功是什么意思？和我没关系！
+	Eclipse: 呃……我的夜灯需要开着吗？
+	AcidRain: 也许我应该给我的小玩意儿加入防水功能……它们已经开始被腐蚀了。
+	DrunkPrincess: 嗯，我喜欢{0}，但是我，呃……心里已有他人
 }
 
 MerchantChat: {
-	// MoonLordDefeated: Each night seems only more foreboding than the last. I feel unthinkable terrors are watching your every move.
-	// Eclipse: Are you daft?! Turn off those lamps!
-	// AcidRain: If this acid rain keeps up, there'll be a shortage of Dirt Blocks soon enough!
-	// Bandit: I happen to have several Angel Statues at the moment, a truely rare commodity. Want one?
+	MoonLordDefeated: 每天晚上似乎都比昨天更不祥。你的一举一动让我感到不可思议的恐惧。
+	Eclipse: 你制杖吗？！快把那些破灯关掉！
+	AcidRain: 如果这场酸雨持续下去，很快就会出现土块短缺的情况！
+	Bandit: 我现在拥有好几个天使雕像，那可真是稀世珍品啊！你要来一个吗？
 }
 
-// NurseChat.HealNotAllowed: Now is not the time!
+NurseChat.HealNotAllowed: 现在不是治疗的时候！
 
 PainterChat: {
-	// Corruption: A little sickness isn't going to stop me from doing my work as an artist!
-	// Crimson: There's a surprising art to this area. A sort of horrifying, eldritch feeling. It inspires me!
-	// Archmage: Think {0} would let me paint him like one of his French girls?!
-	// Tundra: I'm not exactly suited for this cold weather. Still looks pretty, though.
-	// Desert: I hate sand. It's coarse, and rough and gets in my paint.
-	// Hallow: Do you think unicorn blood could be used as a good pigment or resin? No I'm not going to find out myself.
-	// Space: I can't work in this environment. All of my paint just floats off.
-	// Jungle: Painting the tortoises in a still life isn't going so well.
-	// Astral: I can't paint a still life if the fruit grows legs and walks away.
-	// Underworld1: On the canvas, things get heated around here all the time. Like the environment!
-	// Underworld2: Sorry, I'm all out of watercolors. They keep evaporating.
-	// Crags: Roses, really? That's such an overrated thing to paint.
-	// SulphurSea: Fun fact! Sulphur was used as pigment once upon a time! Or was it Cinnabar?
-	// Abyss: Easiest landscape I've ever painted in my life.
+	Corruption: 一点点的不舒服无法阻止我身为画家的工作！
+	Crimson: 这个地区有一种惊人的艺术。这种感觉令人感到震撼。它鼓舞了我！
+	Archmage: 以为{0}会让我把他画得像个法国女孩？！
+	Tundra: 我不适应这种寒冷的天气。不过，看起来还是挺漂亮的。
+	Desert: 我讨厌沙子。它很不平滑，很粗糙，会沾到我的油漆里。
+	Hallow: 你认为独角兽的血可以用作一种好的颜料色素吗？不，我不会自己去找的。
+	Space: 我无法在这种环境下工作。我所有的油漆都掉了。
+	Jungle: 在静物画中画乌龟不太好。
+	Astral: 如果水果长腿跑路了，我就不能画静物画了。
+	Underworld1: 在画布上，任何时候东西都会被加热，就像环境一样！
+	Underworld2: 不好意思，水彩画脱销了，它们总是在被热卖。
+	Crags: 玫瑰，是吗？那画起来确实很难。
+	SulphurSea: 有趣的事实！硫磺曾经被用作颜料！还是朱砂来着？
+	Abyss: 这是我这辈子画过的最简单的风景画。
 }
 
 PartyGirlChat: {
-	// DrunkPrincess: I have a feeling we're going to have absolutely fantastic parties with {0} around!
-	// Eclipse1: I think my light display is turning into an accidental bug zapper. At least the monsters are enjoying it.
-	// Eclipse2: Ooh! I love parties where everyone wears a scary costume!
+	DrunkPrincess: 我有种感觉我们会在{0}周围举办非常棒的派对！
+	Eclipse1: 我想我的灯光变成了个意料之外的机器。但至少，怪物们会喜欢它的。
+	Eclipse2: 哦！我爱这样每个人都穿着奇服异装的派对！
 }
 
 PirateChat: {
-	// PreLeviathan: Aye, I've heard of a mythical creature in the oceans, singing with an alluring voice. Careful when yer fishin out there.
-	// WetScourgeDefeated: I have to thank ye again for takin' care of that sea serpent. Or was that another one...
-	// DrunkPrincess: Twenty-nine bottles of beer on the wall...
-	// SeaKing: I remember legends about that {0}. He ain't quite how the stories make him out to be though.
-	// Ocean: Now this is a scene that I can admire any time! I feel like something is watching me though.
-	// SulphurSea1: It ain't much of a sight, but there's still life living in these waters.
-	// SulphurSea2: Me ship might just sink from the acid alone.
+	PreLeviathan: 是的，我听说有一种神秘的海洋生物，用迷人的声音唱歌。在外面钓鱼时要小心。
+	WetScourgeDefeated: 我要再次感谢你们照顾那条海蛇。或者那是另一条……
+	DrunkPrincess: 二十九瓶啤酒在墙上……
+	SeaKing: 我记得关于{0}的传说，不过他不是很明白那些故事是怎么出来的。
+	Ocean: 现在这一幕我可以随时欣赏！但我觉得好像有什么东西在看着我。
+	SulphurSea1: 虽然表面上一片死寂，但在这些水域里仍然有生命。
+	SulphurSea2: 我的船可能会因为酸性而沉没。
 }
 
-// SkeletonMerchantChat.Normal: What'dya buyin'?
+SkeletonMerchantChat.Normal: 你买啥？
 
 SteampunkerChat: {
-	// HasPortalGun: Just what is that contraption? It makes my Teleporters look like child's play!
-	// MoonLordDefeated: Yep! I'm also considering being a space pirate now.
-	// Astral: Some of my machines are starting to go haywire thanks to this Astral Infection. I probably shouldn't have built them here
-	// Hallow: I'm sorry I really don't have any Unicorn proof tech here, you're on your own.
+	HasPortalGun: 那是什么玩意儿？它使我的传送机看起来像个儿童玩具！
+	MoonLordDefeated: 是的！我现在也在考虑当一名太空大盗。
+	Astral: 由于星辉瘟疫，我的一些机器开始出故障。我可能本不该在这里修建的。
+	Hallow: 对不起，我这里真的没有独角兽保护技术，你自己来吧。
 }
 
 StylistChat: {
-	// Hardmode: Please don't catch space lice. Or {0} lice. Or just lice in general.
-	// DrunkPrincess1: "{0} is always trying to brighten my mood... even if, deep down, I know she's sad..."
-	// DrunkPrincess2: Sometimes I catch {0} sneaking up from behind me.
-	// ProfanedSoulCrystal1: They look so cute and yet, I can feel their immense power just by being near them. What are you?
-	// ProfanedSoulCrystal2: I hate to break it to you, but you don't have hair to cut or style, hun.
-	// ProfanedDonuts: Aww, they're so cute, do they have names?
+	Hardmode: 请不要抓太空虱子，或者{0}虱子，或者仅仅是普通的虱子。
+	DrunkPrincess1: "{0}总是想让我心情愉快……即使，我知道她的内心深处很伤心。"
+	DrunkPrincess2: 有时我发现{0}从我背后偷偷跟上来。
+	ProfanedSoulCrystal1: 它们看上去如此可爱，然而一靠近它们，我就能感受到它们恐怖的力量。你怎么看？
+	ProfanedSoulCrystal2: 我不想打发你走，但是你的头发确实不需要剪，也没有发型。嗯。
+	ProfanedDonuts: 哇偶，它们太可爱了，你为它们起名字了吗？
 }
 
 TavernkeepChat: {
-	// FullMoon: Care for a little Moonshine?
-	// DrunkPrincess: Sheesh, {0} is a little cruel, isn't she? I never claimed to be an expert on anything but ale!
+	FullMoon: 想要一些私酿吗？
+	DrunkPrincess: 先生，{0}有那么点无情，不是吗？我从来没有声称自己是除了啤酒以外的任何东西的专家！
 }
 
 TaxCollectorChat: {
-	// DoGDefeated: Devourer of what, you said? Devourer of Funds, if its payroll is anything to go by!
-	// PreBrimmy: Perhaps with all that time you've got you could check those old ruins? Certainly something of value in it for you!
-	// HasSlickCane: Goodness! That cane has swagger!
-	// Has500Plat: Where and how are you getting all of this money?
-	// Has100Plat: BAH! Doesn't seem like I'll ever be able to quarrel with the debts of the town again!
+	DoGDefeated: 你说什么吞噬者？资金吞噬者，如果它的工资能是任何东西！
+	PreBrimmy: 也许你有时间可以去检查一下那些古老的遗迹？对你来说那里会有有价值的东西！
+	HasSlickCane: 我的天！那根拐杖太装逼了！
+	Has500Plat: 这些钱你到底是怎么弄来的？
+	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
 }
 
-// TravellingMerchantChat.DrunkPrincessMerchant: Tell {0} I'll take up her offer and meet with her at the back of {1}'s house.
+TravellingMerchantChat.DrunkPrincessMerchant: 去告诉{0}，我会接受她的建议并且会和她在{1}的房子那儿见面。
 
 TruffleChat: {
-	// Normal: I don't feel very safe; I think there's pigs following me around and it frightens me.
-	// DrunkPrincess: Sometimes, {0} just looks at me funny and I'm not sure how I feel about that.
+	Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
+	DrunkPrincess: 有时，{0} 只看着我很有趣而我不知道我对此有何感受。
 }
 
 WitchDoctorChat: {
-	// BloodMoon: This is as good a time as any to pick up the best ingredients for potions.
-	// PrePlantera: I have unique items if you show me that you have bested the guardian of this jungle.
-	// Jungle: My home here has an extensive history and a mysterious past. You'll find out quickly just how extensive it is...
+	BloodMoon: 这是一个很好的时间来挑选最好的药水成分。
+	PrePlantera: 如果你打败了这片丛林的守护者，我会给你展示我独特的物品。
+	Jungle: 我这里的家有着悠久的历史和神秘的过去。你很快就会发现它有多么广博……
 }
 
 WizardChat: {
-	// Hardmode: Space just got way too close for comfort.
-	// MentionRoD: I wanted to sell you a special rod I found in the Hallow, but it appears I have misplaced it. Maybe a trip back there would refresh my memory.
+	Hardmode: 这空间太小了，让人感到难受
+	MentionRoD: I wanted to sell you a special rod I found in the Hallow, but it appears I have misplaced it. Maybe a trip back there would refresh my memory.
 }

@@ -1,22 +1,22 @@
-/* ShortTooltip:
+ShortTooltip:
 	'''
-	[c/E3AF40:Whispers from on high dance in your ears...]
-	[c/BEBEBE:Press "Left Shift" to listen closer]
-	''' */
+	[c/E3AF40:寄宿其上的低语流入你的耳中……]
+	[c/BEBEBE:长按“左Shift”键以仔细聆听]
+	'''
 
 LoreAbyss: {
 	DisplayName: 深渊
-	/* Lore:
+	Lore:
 		'''
-		While there are many sightless crevasses in the deep sea, this one is a unique geological marvel.
-		It is located unsettlingly close to the shoreline. Somehow, even eons of tectonics could not seal or crush it.
-		The isolated Abyss is the debatably tranquil home of the naiad Anahita and some reclusive sea creatures.
-		Here, I disposed of the burgeoning remains of Silva, the Goddess of Life itself. Obviously, she of all Gods refused to truly die.
-		My wishes were that she would be forgotten, but her tenacity is remarkable.
-		Diffused, her influence inundated that pit of crushing pressure with flora and fauna aplenty.
-		Her great roots continue to thrash and tear at the impossibly dense stone, growing uncontrollably.
-		She will soon remake it in her image. I can think of no worse fate for this accursed, hadal domain.
-		''' */
+		尽管深海中有无数道肉眼难辨的裂痕，这一道却足以称得上是地质学的奇迹。
+		它位于离海岸线很近的地方，令人不安。不知何故，即使是长年累月的地质构造也无法封住或压碎它。
+		这道与世隔绝的深渊便是水之仙女阿娜希塔和一些隐居的海洋生物的宁静家园，尽管是否真的宁静，还有待商榷。
+		在这里，我处理了生命女神席尔瓦那具迅速增长的遗体。很明显，就算是在所有的神明之中，她也是真正拒绝死亡的那一位。
+		我曾希望她会为世人所遗忘，可她的坚韧引人瞩目。
+		她的余响于此扩散，无数的茎叶占据了这道重压的深坑。
+		从她身上延展而出的巨大根系不断鞭笞和撕扯着这些致密的石头，不受控制地生长着。
+		很快，她就会以自己的形象重新塑造这块区域。对于这片被诅咒的深海，我想不出有什么比这更加糟糕的命运。
+		'''
 }
 
 LoreAquaticScourge: {

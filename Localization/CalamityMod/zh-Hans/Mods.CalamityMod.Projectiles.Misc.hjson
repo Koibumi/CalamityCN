@@ -56,18 +56,18 @@ SmokeTelegraph.DisplayName: 烟
 ThermalSteam.DisplayName: 蒸汽
 // Turrets
 DraedonLaser.DisplayName: 实验室脉冲激光
-// DraedonLaserBuffer.DisplayName: Draedon Laser
-// FireShot.DisplayName: Fire Shot
-// FireShotBuffer.DisplayName: Fire Shot
-// IceExplosion.DisplayName: Ice Gas
-// IceShot.DisplayName: Ice Shot
-// IceShotBuffer.DisplayName: Ice Shot
-// LaserShot.DisplayName: Laser Shot
-// LaserShotBuffer.DisplayName: Laser Shot
-// OnyxShot.DisplayName: Onyx Shot
-// OnyxShotBuffer.DisplayName: Onyx Shot
-// PlagueExplosionGas.DisplayName: Plague Gas
-// PlagueShot.DisplayName: Plague Shot
-// PlagueShotBuffer.DisplayName: Plague Shot
-// WaterShot.DisplayName: Water Shot
-// WaterShotBuffer.DisplayName: Water Shot
+DraedonLaserBuffer.DisplayName: 实验室脉冲激光
+FireShot.DisplayName: 火焰喷射
+FireShotBuffer.DisplayName: 火焰喷射
+IceExplosion.DisplayName: 冰雾
+IceShot.DisplayName: 冰球
+IceShotBuffer.DisplayName: 冰球
+LaserShot.DisplayName: 脉冲射击
+LaserShotBuffer.DisplayName: 脉冲射击
+OnyxShot.DisplayName: 玛瑙射击
+OnyxShotBuffer.DisplayName: 玛瑙射击
+PlagueExplosionGas.DisplayName: 瘟疫爆炸
+PlagueShot.DisplayName: 瘟疫爆弹
+PlagueShotBuffer.DisplayName: 瘟疫爆弹
+WaterShot.DisplayName: 水流
+WaterShotBuffer.DisplayName: 水流

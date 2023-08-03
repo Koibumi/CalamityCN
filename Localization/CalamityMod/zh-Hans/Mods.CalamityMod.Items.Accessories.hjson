@@ -153,7 +153,7 @@ AngelicAlliance: {
 		勇气注入双拳，启迪充盈脑海，祝福映于身后，这一切使你拥有无穷之力，使你能对眼前的敌人做出最终审判
 		增加2格最大召唤栏位、15%召唤伤害和8%其他职业伤害
 		跳跃时会增加生命再生速度
-		This line is modified in the code below. If you can read this, someone probably did something wrong (It was Ben)
+		Press [KEY] to grace yourself in divinity for 15 seconds
 		拥有圣天祝福增益时，你每拥有一个召唤物，便会出现一个圣天使助你一臂之力
 		每出现一个圣天使都会使你回复2点生命值
 		所有召唤物的攻击都会造成放逐之火减益，并使你获得不受其他效果影响的4点生命再生速度加成
@@ -221,7 +221,7 @@ AsgardianAegis: {
 		增加40点最大生命值和生命再生速度
 		使你获得至高弑神火冲刺能力
 		可以用于撞击敌人
-		TOOLTIP LINE HERE
+		Press [KEY] to activate buffs to all damage, crit chance, and defense
 		此增益存在时会降低你的移动速度并增加敌人对你的仇恨值
 		浸没在液体中时增加20点防御
 		'''
@@ -246,7 +246,7 @@ AstralArcanum: {
 		使你免疫幻星感染减益
 		即便是在受到伤害性减益的影响时也会增加生命再生速度
 		受到伤害性减益的影响时增加15点防御
-		TOOLTIP LINE HERE
+		Press [KEY] to toggle teleportation UI while no bosses are alive
 		'''
 }
 
@@ -331,7 +331,7 @@ BlunderBooster: {
 		增加12%盗贼伤害和15%盗贼弹幕速度
 		增加10%潜行值恢复速度
 		召唤一个红色的闪电光环包围玩家并电击附近的敌人
-		TOOLTIP LINE HERE
+		Press [KEY] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts
 		此效果有1秒冷却时间
 		'''
 }
@@ -353,7 +353,7 @@ CelestialJewel: {
 		'''
 		即便是在受到伤害性减益的影响时也会增加生命再生速度
 		受到伤害性减益的影响时增加11点防御
-		TOOLTIP LINE HERE
+		Press [KEY] to teleport to a random location while no bosses are alive
 		'''
 }
 
@@ -543,12 +543,11 @@ DraedonsHeart: {
 	DisplayName: 嘉登之心
 	Tooltip:
 		'''
-		减少15%接触伤害
-		减半防御损伤效果
-		将肾上腺素条替换为纳米机器条
-		与肾上腺素不同，你在受到伤害时不会失去纳米机器条而是停止充能1秒
+		减少{0}%接触伤害
+		减少{1}%防御损伤效果
+		[NANODESC]
 		在完全充能时，按下"肾上腺素"键会在2秒内逐渐回复360点生命值
-		上述效果激活时，降低50%所受伤害
+		上述效果激活时，降低[DR]%所受伤害
 		“纳米机器，小子。”
 		'''
 	/* NanomachinesAdd:
@@ -650,13 +649,13 @@ ElysianAegis: {
 	DisplayName: 极乐之庇护
 	Tooltip:
 		'''
-		被亵渎之火所祝福的盾牌
 		使你免疫击退、燃烧、着火了！和神圣火焰减益
 		增加30点最大生命值
 		使你获得至高圣火冲刺能力
 		可以用于撞击敌人
-		TOOLTIP LINE HERE
+		Press [KEY] to activate buffs to all damage, crit chance and defense
 		此增益存在时会降低你的移动速度并增加敌人对你的仇恨值
+		被亵渎之火所祝福的盾牌
 		'''
 }
 
@@ -1231,7 +1230,7 @@ PlaguedFuelPack: {
 		'''
 		增加8%盗贼伤害和15%盗贼弹幕速度
 		增加10%潜行值恢复速度
-		TOOLTIP LINE HERE
+		Press [KEY] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds
 		此效果有1秒冷却时间
 		'''
 }
@@ -1263,25 +1262,25 @@ ProfanedSoulCrystal: {
 	Tooltip:
 		'''
 		将你变身为亵渎之神的神使
-		This tooltip gets modified
+		[STATUS]
 		'''
-	// ExoMechsLock: "[c/F05A5A:The soul within this crystal has been defiled by overwhelming energy waves from dangerous mechanations]"
-	// CalamitasLock: "[c/F05A5A:The soul within this crystal has been defiled by the powerful magic of a supreme witch]"
-	// Reject: Merchants will reject a defiled soul such as this.
-	/* FullTooltip:
+	ExoMechsLock: "[c/F05A5A:这块水晶中的魂魄被危险的机械造物发出的能量波干扰了]"
+	CalamitasLock: "[c/F05A5A:这块水晶中的魂魄被至尊女巫的强大魔力污染了]"
+	Reject: 商人会拒绝收购这样一个被玷污的魂魄
+	FullTooltip:
 		'''
-		Requires 10 minion slots to use in order to grant the following effects
-		All non-summon weapons are converted into powerful summon variations
-		Falling below 50% life will empower these attacks
-		[c/F05A5A:Transforms Melee attacks into a barrage of spears]
-		[c/3A83E4:Transforms Magic attacks into a powerful splitting fireball for {0} mana per cast]
-		[c/85E092:Transforms Ranged attacks into a flurry of fireballs and meteors]
-		[c/E94571:Transforms Rogue attacks into a deadly crystalline spiral]
-		Summons and empowers the profaned babs to fight alongside you
-		Provides buffs depending on the time of day
-		Thinking back, it was a boring life
-		[c/FFBF49:And so we burn it all in the name of purity]
-		''' */
+		需要10个召唤栏以启用以下所有效果：
+		所有非召唤攻击都被转换为强力的召唤变种
+		掉到50%血量以下会强化这些攻击
+		[c/F05A5A:将近战攻击转换为一波投矛]
+		[c/3A83E4:将魔法攻击转换为强力分裂火球，每次消耗{0}点魔力值]
+		[c/85E092:将远程攻击转换为一阵火球与陨石]
+		[c/E94571:将盗贼攻击转换为死亡水晶螺旋]
+		召唤并强化三个亵渎守卫为你而战
+		基于所处的时间给予增益
+		我的人生平淡无奇
+		[c/FFBF49:现在我们以纯化之名将其燃烧殆尽]
+		'''
 }
 
 QuiverofNihility: {
@@ -1404,7 +1403,7 @@ SandCloak: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		TOOLTIP LINE HERE
+		Press [KEY] to consume 10% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen
 		此效果有30秒冷却时间
 		'''
 }
@@ -1431,15 +1430,17 @@ ShatteredCommunity: {
 	DisplayName: 幻灭心元石
 	Tooltip:
 		'''
-		幻灭于不可知的仇恨中，它仍然包含着归一心元石大部分的力量……
+		‘幻灭于不可知的仇恨中，它仍然包含着归一心元石大部分的力量……’
 		增加10%伤害和5%暴击率
 		增加10%最大生命值、5%伤害减免、10点防御和2点生命再生速度
 		增加10%移动速度和20%飞行时间
-		你的怒气值会持续充能，即便是脱离战斗后怒气值也不会流失
+		[RAGEDESC]
 		受到伤害时会使你获得怒气值，该效果与你的防御属性无关
 		暴怒模式激活时，受到伤害获得的怒气值会减半
 		在暴怒模式下造成伤害能够进一步增加暴怒模式的伤害加成
-
+		当前等级：[LEVEL] (+[LEVEL]% 暴怒模式伤害)
+		距离下一等级：[PROGRESS]%
+		总暴怒模式伤害：[DAMAGE]
 		'''
 	/* RageAdd:
 		'''
@@ -1492,11 +1493,11 @@ SpectralVeil: {
 	DisplayName: 幽灵披风
 	Tooltip:
 		'''
-		披风里面布满了尖牙利齿……
-		TOOLTIP LINE HERE
+		Press [KEY] to consume 25% of your maximum stealth to perform a mid-range teleport and render you momentarily invulnerable
 		在无敌时间内闪避攻击时会使你的潜行值回复至满
 		受到混沌状态减益的影响时无法进行传送
 		增加15%潜行值恢复速度
+		‘披风里面布满了尖牙利齿……’
 		'''
 }
 
@@ -1586,66 +1587,74 @@ StatisVoidSash: {
 StatMeter: {
 	DisplayName: 属性统计器
 	// FoolsName: Pasta Strainer
-	Tooltip: 显示你绝大部分属性的具体数据
-	/* RevStats:
+	Tooltip:
 		'''
-		Rage Damage Boost: {0}% | Rage Mode Duration: {1} seconds
-		Adrenaline Damage Boost: {2}% | Adrenaline DR Boost: {3}%
-		''' */
+		显示你绝大部分属性的具体数据
+		Offensive/utility stats displayed vary with held item
+		[REV]
+		[ITEMS]
+		[GENERIC]
+		[ABYSS]
+		'''
+	RevStats:
+		'''
+		暴怒模式伤害加成：{0}% | 暴怒模式持续时间： {1} 秒
+		肾上腺素伤害加成：{2}% | 肾上腺素伤害减免加成：{3}%
+		'''
 
 	ClassNameOverride: {
-		// Default: true damage
-		// Generic: classless damage
-		// NoSpeed: " (no speed)"
-		// SummonMeleeSpeed: " (whip)"
+		Default: 真实伤害
+		Generic: 无职业伤害
+		NoSpeed: " (无速度)"
+		SummonMeleeSpeed: " (鞭子)"
 	}
 
-	/* DamageStats:
+	DamageStats:
 		'''
-		Class: {0}
-		Damage: {1}
-		Armor Penetration: {2}
-		''' */
-	// DamageBase: "[{0} base] +"
-	// DamageNormal: "{0}%"
-	// DamageMult: " x{0}"
-	// DamageFlat: " {0} flat"
-	// Crit: " | Crit Chance: {0}%"
-	// AttackSpeed: Attack Speed: {0}%
-	// WhipMeleeInheritance: " [{0}% from melee]"
+		职业：{0}
+		伤害：{1}
+		护甲穿透：{2}
+		'''
+	DamageBase: "[{0} base] +"
+	DamageNormal: "{0}%"
+	DamageMult: " x{0}"
+	DamageFlat: " {0} flat"
+	Crit: " | 暴击率：{0}%"
+	AttackSpeed: 攻速：{0}%
+	WhipMeleeInheritance: " [{0}% 来自近战]"
 	// Class stats
-	// RangedStats: Ammo Consumption Chance: {0}
-	// MagicStats: Mana Usage: {0}% | Mana Regen: {1}
-	// SummonStats: Minion Slots: {0} | Sentry Slots: {1}
-	// WhipStats: Whip Range: {0}%
-	/* RogueStats:
+	RangedStats: 弹药消耗率：{0}
+	MagicStats: 魔力值消耗：{0}% | 魔力值恢复速度：{1}
+	SummonStats: 召唤栏位数量：{0} | 哨兵栏位数量：{1}
+	WhipStats: 鞭子范围：{0}%
+	RogueStats:
 		'''
-		Max Stealth: {0} | Standing Regen: {1} / sec | Moving Regen: {2} / sec
-		Rogue Velocity Boost: {3}%
-		''' */
-	// RogueConsumption: " | Rogue Weapon Consumption Chance: {0}%"
+		最大潜行值：{0} | 站定恢复速度：{1} / 秒 | 移动时恢复速度：{2} / 秒
+		盗贼弹幕飞行速度提升：{3}%
+		'''
+	RogueConsumption: " | 盗贼消耗性武器消耗率：{0}%"
 	// Utility stats
-	// ToolRange: Tool Range Bonus: ({0}, {1})
-	// MiningSpeed: " | Mining Speed: {0}%"
-	// PlacementRange: Placement Range Bonus: ({0}, {1})
-	// TileSpeed: " | Block Placement Speed: {0}%"
-	// WallSpeed: " | Wall Placement Speed: {0}%"
+	ToolRange: 工具范围奖励：({0}, {1})
+	MiningSpeed: " | 挖掘速度：{0}%"
+	PlacementRange: 放置范围奖励：({0}, {1})
+	TileSpeed: " | 方块放置速度：{0}%"
+	WallSpeed: " | 墙放置速度：{0}%"
 	// Other stats
-	/* GenericStats:
+	GenericStats:
 		'''
-		Defense: {0} | DR: {1}% | Life Regen: {2}
-		Move Speed: {3}% | Jump Boost: {4}%
-		''' */
-	// FlightTime: " | Wing Flight Time: {0} seconds"
-	// MiscStats: Aggro: {0} | Luck: {1}%
-	/* AbyssStats:
+		防御力：{0} | 伤害减免：{1}% |生命再生速度：{2}
+		移速：{3}% | 跳跃提升：{4}%
 		'''
-		Abyss Light Strength: {0}
-		Breath Lost Per Tick: {1} | Breath Loss Rate: {2}
-		Life Lost Per Tick at Zero Breath: {3}
-		Defense Lost From Pressure: {4}
-		''' */
-	// AbyssStatsHidden: Abyss stats are only displayed while in the Abyss
+	FlightTime: " | 翅膀飞行时间：{0} 秒"
+	MiscStats: 仇恨值：{0} | 幸运值：{1}%
+	AbyssStats:
+		'''
+		深渊/洞穴光照强度：{0}
+		呼吸条消耗速率：{1} | 呼吸困难程度：{2}
+		呼吸条耗尽后生命流失速度：{3}
+		防御削减：{4}
+		'''
+	AbyssStatsHidden: 其他深渊状态数据只有身处深渊才会显示
 }
 
 StressPills: {
@@ -1727,21 +1736,19 @@ TheCommunity: {
 	DisplayName: 归一心元石
 	Tooltip:
 		'''
+		[STATS]
 		广大泰拉玩家的精神结晶
-		在最早时期你会获得所有属性的微量加成
-		随着游戏进程加成会变得更加强力
-		降低伤害性减益造成的伤害
 		感谢众多支持者的努力，让这一模组成为现实
 		也感谢汉化组的各位的努力，让灾厄模组的汉化成为可能
 		'''
-	/* StatsList:
+	StatsList:
 		'''
-		Increases damage by {0}% and critical strike chance by {1}%
-		Increases max health by {2}%, damage reduction by {3}%, and defense by {4}
-		Increases life regen by {5} while under damage over time effects
-		Increases movement speed by {6}% and flight time by {7}%
+		提升{0}%伤害和{1}%暴击率
+		最大生命增加{2}%，伤害减免增加{3}%，防御增加{4}
+		生命再生速度增加{5}，while under damage over time effects
+		移速增加{6}%，飞行时间增加{7}%
 		Become more powerful as you defeat bosses ({8}% Power)
-		''' */
+		'''
 }
 
 TheEvolution: {

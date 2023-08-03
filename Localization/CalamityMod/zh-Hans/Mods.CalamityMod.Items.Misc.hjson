@@ -248,11 +248,11 @@ NormalityRelocator: {
 	DisplayName: 常态定位器
 	Tooltip:
 		'''
-		眨眼即至！
-		This line is modified below
+		Press [KEY] to teleport to the position of the mouse
 		传送后的30帧内会使下落速度翻倍
 		受到混沌状态减益的影响时无法进行传送
 		放在背包中时仍然有效
+		眨眼即至！
 		'''
 }
 

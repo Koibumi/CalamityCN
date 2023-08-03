@@ -89,9 +89,9 @@ HadalStew: {
 	DisplayName: 乱渊炖
 	Tooltip:
 		'''
-		仅造成50秒的药水疾病减益
+		只造成 [S] 秒药水疾病
 		{$CommonItemTooltip.MediumStats}
-		60分钟持续时间
+		{$CommonItemTooltip.MinuteDuration}
 		'''
 }
 

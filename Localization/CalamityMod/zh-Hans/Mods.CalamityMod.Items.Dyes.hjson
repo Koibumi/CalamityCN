@@ -119,8 +119,8 @@ NightmareDye: {
 }
 
 PolterplasmDye: {
-	// DisplayName: Polterplasm Dye
-	// Tooltip: ""
+	DisplayName: 幽喑幻魂染料
+	Tooltip: ""
 }
 
 PinkCosmicFlameDye: {

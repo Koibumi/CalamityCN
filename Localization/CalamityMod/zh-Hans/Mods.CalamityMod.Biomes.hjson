@@ -1,78 +1,78 @@
 // For general uses
-// Abyss: Abyss
-// AstralInfection: Astral Infection
-// AstralDesert: Astral Desert
-// AstralSnow: Astral Snow
-// BrimstoneCrags: Brimstone Crags
-// SulphurousSea: Sulphurous Sea
-// SunkenSea: Sunken Sea
+Abyss: 深渊
+AstralInfection: 星辉瘟疫
+AstralDesert: 星幻沙漠
+AstralSnow: 星幻雪地
+BrimstoneCrags: 硫火之崖
+SulphurousSea: 硫磺海
+SunkenSea: 沉沦之海
 
 AbovegroundAstralBiome: {
 	DisplayName: 星疫迷雾
-	// TownNPCDialogueName: Astral Infection
+	TownNPCDialogueName: 星辉瘟疫
 }
 
 AbovegroundAstralBiomeSurface: {
 	DisplayName: 星辉瘟疫地表
-	// TownNPCDialogueName: Astral Infection
+	TownNPCDialogueName: 星辉瘟疫
 }
 
 AbovegroundAstralDesertBiome: {
 	DisplayName: 星幻沙漠
-	// TownNPCDialogueName: Astral Desert
+	TownNPCDialogueName: 星幻沙漠
 }
 
 AbovegroundAstralSnowBiome: {
 	DisplayName: 星幻雪地
-	// TownNPCDialogueName: Astral Snow
+	TownNPCDialogueName: 星幻雪地
 }
 
 AbyssLayer1Biome: {
 	DisplayName: 硫海深处
-	// TownNPCDialogueName: Sulphuric Depths
+	TownNPCDialogueName: 硫海深处
 }
 
 AbyssLayer2Biome: {
 	DisplayName: 浑浊污水
-	// TownNPCDialogueName: Murky Waters
+	TownNPCDialogueName: 浑浊污水
 }
 
 AbyssLayer3Biome: {
 	DisplayName: 热泉
-	// TownNPCDialogueName: Thermal Vents
+	TownNPCDialogueName: 热泉
 }
 
 AbyssLayer4Biome: {
 	DisplayName: 虚空
-	// TownNPCDialogueName: Void
+	TownNPCDialogueName: 虚空
 }
 
 AcidRainBiome: {
 	DisplayName: 酸雨
-	// TownNPCDialogueName: Acid Rain
+	TownNPCDialogueName: 酸雨
 }
 
 ArsenalLabBiome: {
 	DisplayName: 嘉登实验室
-	// TownNPCDialogueName: Arsenal Lab
+	TownNPCDialogueName: 嘉登实验室
 }
 
 BrimstoneCragsBiome: {
 	DisplayName: 硫火之崖
-	// TownNPCDialogueName: Brimstone Crags
+	TownNPCDialogueName: 硫火之崖
 }
 
 SulphurousSeaBiome: {
 	DisplayName: 硫磺海
-	// TownNPCDialogueName: Sulphurous Sea
+	TownNPCDialogueName: 硫磺海
 }
 
 SunkenSeaBiome: {
 	DisplayName: 沉沦之海
-	// TownNPCDialogueName: Sunken Sea
+	TownNPCDialogueName: 沉沦之海
 }
 
 UndergroundAstralBiome: {
 	DisplayName: 星辉瘟疫地下
-	// TownNPCDialogueName: Underground Astral Infection
+	TownNPCDialogueName: 星辉瘟疫地下
 }

@@ -27,9 +27,9 @@ BabyBloodCrawler.DisplayName: 幼年血蛭
 BabyPlaguebringer.DisplayName: 幼年疫病使者
 BelladonnaPetal.DisplayName: 颠茄花瓣
 BelladonnaSpirit.DisplayName: 颠茄灵气
-// BlackDragonBody.DisplayName: Black Celestial Dragon
-// BlackDragonHead.DisplayName: Black Celestial Dragon
-// BlackDragonTail.DisplayName: Black Celestial Dragon
+BlackDragonBody.DisplayName: 黑龙（身体）
+BlackDragonHead.DisplayName: 黑龙（头）
+BlackDragonTail.DisplayName: 黑龙（尾巴）
 BlackHawkBullet.DisplayName: 黑鹰弹
 BlackHawkSummon.DisplayName: 黑鹰
 BloodBreath.DisplayName: 猩红之火
@@ -61,7 +61,7 @@ CinderBlossom.DisplayName: 烬之英
 CloudElementalMinion.DisplayName: 云之灵
 CnidarianJellyfishOnTheString.DisplayName: 刺胞
 CnidarianSpark.DisplayName: 火花
-// GlacialEmbracePointyThing.DisplayName: Ice Castle Shard
+GlacialEmbracePointyThing.DisplayName: 冰垒碎晶
 CorroslimeMinion.DisplayName: 腐化史莱姆
 CorruptionSlimeGodMinion.DisplayName: 史莱姆之神
 CosmicBlast.DisplayName: 爆炸波
@@ -131,7 +131,7 @@ GiantIbanRobotOfDoom.DisplayName: 银河战甲
 HallowedStarSummon.DisplayName: 神圣之星
 HauntedDishes.DisplayName: 闹鬼餐碟
 HermitCrabMinion.DisplayName: 寄居蟹
-// HerringAI.DisplayName: Herring School
+HerringAI.DisplayName: 鲱鱼
 HerringMinion.DisplayName: 鲱鱼
 Hive.DisplayName: 蜂巢
 Hiveling.DisplayName: 蜂群
@@ -287,9 +287,9 @@ VolcanicFireballSummon.DisplayName: 火山火球
 WaterElementalMinion.DisplayName: 阿娜希塔
 WaterElementalSong.DisplayName: 塞壬之歌
 WaterSpearFriendly.DisplayName: 矛
-// WhiteDragonBody.DisplayName: White Celestial Dragon
-// WhiteDragonHead.DisplayName: White Celestial Dragon
-// WhiteDragonTail.DisplayName: White Celestial Dragon
+WhiteDragonBody.DisplayName: 白龙（身体）
+WhiteDragonHead.DisplayName: 白龙（头）
+WhiteDragonTail.DisplayName: 白龙（尾巴）
 WitherBlossom.DisplayName: 凋零枯花
 WitherBolt.DisplayName: 凋零花弹
 WulfrumDroid.DisplayName: 钨钢机器人
@@ -297,15 +297,15 @@ WulfrumEnergyBurst.DisplayName: 能量束
 WulfrumFusionBolt.DisplayName: 融合束
 YharonMinionFireball.DisplayName: 龙崽火球
 YoungDuke.DisplayName: 幼年硫海遗爵
-// IceClasperSummonProjectile.DisplayName: Ice Shard
-// AtzirisDisfavor.DisplayName: Atziri's Disfavor
-// Starforge.DisplayName: Starforge
-// Paradoxica.DisplayName: Paradoxica
-// StarforgeBlast.DisplayName: Starforge Blast
-// WindRipper.DisplayName: Wind Ripper
-// WindRipperArrow.DisplayName: Wind Ripper Arrow
-// HopeShredder.DisplayName: Hope Shredder
-// HopeShredderArrow.DisplayName: Hope Shredder Arrow
-// HopeShredderArrowSplit.DisplayName: Hope Shredder Split Arrow
-// StellarTorusSummon.DisplayName: Stellar Torus Summon
-// StellarTorusBeam.DisplayName: Stellar Torus Beam
+IceClasperSummonProjectile.DisplayName: 冰晶碎片
+AtzirisDisfavor.DisplayName: 阿兹里的刑刃
+Starforge.DisplayName: 塑星者
+Paradoxica.DisplayName: 悖论
+StarforgeBlast.DisplayName: 塑星爆炸
+WindRipper.DisplayName: 裂风
+WindRipperArrow.DisplayName: 裂风箭
+HopeShredder.DisplayName: 破灭之希
+HopeShredderArrow.DisplayName: 破灭之箭
+HopeShredderArrowSplit.DisplayName: 破灭之希分裂箭
+StellarTorusSummon.DisplayName: 星环召唤物
+StellarTorusBeam.DisplayName: 星环激光

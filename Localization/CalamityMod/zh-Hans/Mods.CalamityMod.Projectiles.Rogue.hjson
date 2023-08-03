@@ -81,9 +81,9 @@ DragonShit.DisplayName: 火焰
 DukesDecapitatorBubble.DisplayName: 泡泡
 DukesDecapitatorProj.DisplayName: 斩首者
 DuststormCloud.DisplayName: 粉尘云
-// DuststormCloudHitbox.DisplayName: Duststorm Cloud
+DuststormCloudHitbox.DisplayName: Duststorm Cloud
 DuststormInABottleProj.DisplayName: 尘暴
-// DragonScalesInfernado.DisplayName: Infernado
+DragonScalesInfernado.DisplayName: 地狱龙炎
 DynamicPursuerElectricity.DisplayName: 电能
 DynamicPursuerLaser.DisplayName: 激光
 DynamicPursuerProjectile.DisplayName: 动能寻迹镖
@@ -323,4 +323,4 @@ WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 飞刀
-// WaveSkipperProjectile.DisplayName: Scourge
+WaveSkipperProjectile.DisplayName: 灾虫

@@ -238,8 +238,8 @@ UberBubble.DisplayName: 泡泡
 UndinesRetributionSpear.DisplayName: 深渊女神的复仇
 ValkyrieRayBeam.DisplayName: 女武神射线
 ValkyrieRayStaff.DisplayName: 女武神杖
-// VeeringWindAirWave.DisplayName: Veering Wind Air Wave
-// VeeringWindFrostWave.DisplayName: Veering Wind Frost Wave
+VeeringWindAirWave.DisplayName: 环形风浪
+VeeringWindFrostWave.DisplayName: 霜波环流
 Vehemence.DisplayName: 狞桀爆炸
 VehemenceHoldout.DisplayName: 狞桀
 VehemenceSkull.DisplayName: 狞桀骷髅

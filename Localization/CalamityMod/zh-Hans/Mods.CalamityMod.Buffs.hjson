@@ -658,7 +658,7 @@ BloodyBoost: {
 
 BossEffects: {
 	DisplayName: Boss效果
-	Description: This tooltip is edited in the function below
+	Description: 大幅降低敌怪刷新率
 	// ZenDescription: Greatly reducing enemy spawn rates
 }
 
@@ -773,20 +773,20 @@ PolarisBuff: {
 
 ProfanedCrystalBuff: {
 	DisplayName: 忠诚
-	Description: ""
-	// Offense: The {0} empowers your offensive capabilities
-	// Lava: heat of the lava
-	// Day: light of the sun
-	// Defense: The {0} your flames, empowering your defensive capabilities
-	// Water: water douses
-	// Honey: honey cools
-	// Night: darkness of night cools
-	// Enrage: Your weakened life force fuels your desperate attacks
-	// NerfedEndo: An ascended ice construct is suppressing your true potential...
-	// NerfedHat: A magical hat overwhelms your senses, squandering your true potential...
-	// LockedSlots: Your profaned soul is constrained by your insufficient summoning powers
-	// LockedExos: The soul within this crystal has been defiled by overwhelming energy waves from dangerous mechanations
-	// LockedSCal: The profaned soul within has been defiled by the powerful magic of a supreme witch
+	Description: 你现在是亵渎天神的神使了！
+	Offense: "{0}增强着你的进攻能力"
+	Lava: 熔岩之热
+	Day: 太阳之光
+	Defense: "{0}你的烈焰，增强你的防守能力"
+	Water: 泉水之冽冷却着
+	Honey: 蜂蜜之滋冷却着
+	Night: 夜幕之暗冷却着
+	Enrage: 你消逝的生命力支撑着你的绝望反抗
+	NerfedEndo: 一个冰晶结构体压迫着你的真正潜力...
+	NerfedHat: 一顶魔法帽压倒了你的五感，浪费了你的真正潜力...
+	LockedSlots: 你的亵渎之魂受到召唤能力的限制
+	LockedExos: 这块水晶中的魂魄被危险的机械造物发出的能量波干扰了
+	LockedSCal: 亵渎之魂被一位强大女巫的魔法所玷污
 }
 
 RageMode: {
@@ -1049,8 +1049,8 @@ CloudyWaifu: {
 }
 
 GlacialEmbraceBuff: {
-	// DisplayName: Glacial Embrace
-	// Description: The magic of the ancient ice castle will aid you
+	DisplayName: 冰川之拥
+	Description: 古老冰霜城堡的魔法会帮助你
 }
 
 Corroslime: {
@@ -1165,7 +1165,7 @@ FungalClumpBuff: {
 
 GammaHydraBuff: {
 	DisplayName: 伽马共生体
-	Description: ...
+	Description: ……
 }
 
 GastricAberrationBuff: {
@@ -1214,13 +1214,13 @@ IgneousExaltationBuff: {
 }
 
 KalandraMirrorBuff: {
-	// DisplayName: Mirror of Kalandra
-	// Description: Five ancient weapons will annihilate your enemies
+	DisplayName: 卡兰德的魔镜
+	Description: 五把古老的武器会消灭你的敌人
 }
 
 KingofConstellationsBuff: {
-	// DisplayName: Celestial Dragons
-	// Description: The celestial dragons will protect you
+	DisplayName: 天龙
+	Description: 天龙会保护你
 }
 
 LilPlaguebringerBuff: {
@@ -1229,8 +1229,8 @@ LilPlaguebringerBuff: {
 }
 
 LordeBuff: {
-	// DisplayName: Lil'orde
-	// Description: Spin spin spin
+	DisplayName: Lil'orde
+	Description: 转↺转↻转⟳
 }
 
 MagicHatBuff: {
@@ -1274,8 +1274,8 @@ MountedScannerBuff: {
 }
 
 NOU: {
-	// DisplayName: NO U
-	// Description: Equips disabled
+	DisplayName: NO U
+	Description: 装备失效
 }
 
 PerditionBuff: {
@@ -1301,7 +1301,7 @@ PoleWarperBuff: {
 ProfanedBabs: {
 	DisplayName: 亵渎之魂
 	Description: 亵渎守卫全员会为你而战！
-	// VanityDescription: The Profaned Babs will accompany you!
+	VanityDescription: 亵渎守卫全员会伴你同行！
 }
 
 PuffWarriorBuff: {
@@ -1404,8 +1404,8 @@ StarSwallowerBuff: {
 }
 
 StellarTorusBuff: {
-	// DisplayName: Astral Vengeance Buff
-	// Description: Summons a Torus Orbital that fries your foes
+	DisplayName: 星界复仇增益
+	Description: 召唤一个环形轨道烤熟你的敌人
 }
 
 TacticalPlagueEngineBuff: {

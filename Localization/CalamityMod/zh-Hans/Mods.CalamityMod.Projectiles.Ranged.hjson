@@ -150,7 +150,7 @@ PhangasmBow.DisplayName: 幻魔
 PiercingBullet.DisplayName: 穿甲弹
 PlagueArrow.DisplayName: 箭
 PlagueExplosionFriendly.DisplayName: 爆炸
-// PlagueTaintedProjectile.DisplayName: Plague Tainted Projectile
+PlagueTaintedProjectile.DisplayName: 玷疫子弹
 // PlagueTaintedDrone.DisplayName: Plague Tainted Drone
 PlanarRipperBolt.DisplayName: 位面猎魂弹
 PlanarRipperExplosion.DisplayName: 位面肃清
@@ -212,10 +212,10 @@ SputterComet.DisplayName: 彗星
 SputterCometBig.DisplayName: 彗星
 SpykerProj.DisplayName: 叶针霰弹炮
 StarfleetMK2Gun.DisplayName: 群星大炮
-// StarmageddonBinaryStarCenter.DisplayName: Starmageddon Binary Star Center
-// StarmageddonHeld.DisplayName: Starmageddon
-// StarmageddonStar.DisplayName: Starmageddon Star
-// StarmageddonStar2.DisplayName: Starmageddon Star
+StarmageddonBinaryStarCenter.DisplayName: 双星中心
+StarmageddonHeld.DisplayName: 末日星河
+StarmageddonStar.DisplayName: 橙星
+StarmageddonStar2.DisplayName: 蓝星
 StormSurgeTornado.DisplayName: 潮涌
 SulphuricBlast.DisplayName: 硫磺酸风
 SuperballBulletProj.DisplayName: 弹球弹
@@ -251,5 +251,5 @@ Voidragon.DisplayName: 太虚星龙炮
 VoidragonTentacle.DisplayName: 太虚星龙触须
 WaterSpout.DisplayName: 激流
 WulfrumScrapBullet.DisplayName: 高速废料
-// ArcherfishRing.DisplayName: Archerfish Ring
-// SeaDragonMuzzleBlast.DisplayName: Seadragon Muzzle Blast
+ArcherfishRing.DisplayName: 水环
+SeaDragonMuzzleBlast.DisplayName: 枪口爆炸

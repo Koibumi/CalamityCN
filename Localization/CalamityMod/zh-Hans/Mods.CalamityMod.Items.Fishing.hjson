@@ -1,7 +1,7 @@
 // Quest fish tooltips
-// CaughtInAstral: "'Caught in the Astral Infection'"
-// CaughtInBrimstoneCrag: "'Caught in the Brimstone Crag'"
-// CaughtInSunkenSea: "'Caught in the Sunken Sea'"
+CaughtInAstral: ‘抓捕位置：星辉瘟疫’
+CaughtInBrimstoneCrag: ‘抓捕位置：硫火之崖’
+CaughtInSunkenSea: ‘抓捕位置：沉沦之海’
 
 // Astral Infection Catches
 AldebaranAlewife: {
@@ -58,7 +58,7 @@ Bloodfin: {
 
 Brimlish: {
 	DisplayName: 小硫火鱼
-	// QuestDescription: When you defeated the Brimstone Elemental, her children fell in the lava as a result of the aftermath. Rumors say they mutated a fish, and I'd love if you fetched one for my new lava-filled fish tank.
+	QuestDescription: 在你击败硫磺火元素后，她的孩子们掉进了地狱的岩浆中。据说他们都化作了鱼，现在我要你给我搞到一条，这样我新准备的岩浆鱼缸就能派上用场了！
 }
 
 BrimstoneCrate: {
@@ -107,13 +107,13 @@ Shadowfish: {
 
 Slurpfish: {
 	DisplayName: 饮食者鱼
-	// QuestDescription: Y'know, it'd be an absolute calamity if I sent you to the ancient ruins in the depths of hell to catch a fish. And I plan to do just that. Now scram! The fish isn't going to catch itself.
+	QuestDescription: 我知道我知道，要你去远古地狱遗迹的岩浆里钓鱼简直是不讲道理。我正准备这样做。还不快去？鱼可不会自己上钩！
 }
 
 // Sunken Sea Catches
 EutrophicSandfish: {
 	DisplayName: 富养沙地鱼
-	// QuestDescription: You ever get to see what would happen if a lizard that lived in the desert scurried too deep underground? I did, and they sure are cool! But it's way too slippery for me to get my hands on it now. You go and get it so I can keep it as a pet!
+	QuestDescription: 你知道沙漠里的蜥蜴往地下钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。 你，现在就去把它抓来，这样我就有新的宠物了！
 }
 
 GreenwaveLoach: {
@@ -148,7 +148,7 @@ SerpentsBite: {
 
 Serpentuna: {
 	DisplayName: 巨蛇金枪鱼
-	// QuestDescription: Sea serpents are pretty but not as pretty as the look on someone's face when they find one in their chair. I need you to fetch me the props for my next big scare, and the deadline is tomorrow.
+	QuestDescription: 海蛇其实还是很漂亮的，只要你不贸然侵入他们的领地。现在我命令你给我抓一条来作为给我的惊喜，限你一天之内完成！
 }
 
 SparklingEmpress: {
@@ -172,7 +172,7 @@ SunkenSailfish: {
 
 SurfClam: {
 	DisplayName: 碎浪蛤
-	// QuestDescription: Did you know that clams are a delicacy? Rumor has it that a big colony lives beneath the Desert. Just talking about them makes me hungry. I need you to fetch one for me, so I can practice my culinary skills and curb my hunger.
+	QuestDescription: 你知道蛤很美味吗?流言说沙漠地下住着一大群蛤，光是说说就觉得饿了。给我抓一只来，让我练习练习烹饪技巧，也顺便解解馋。
 }
 
 // Other Catches

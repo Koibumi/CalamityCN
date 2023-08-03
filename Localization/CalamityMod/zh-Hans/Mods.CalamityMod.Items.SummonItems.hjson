@@ -69,15 +69,15 @@ CosmicWorm: {
 
 CryoKey: {
 	DisplayName: 极寒之匙
-	// GFBName: Pryo Key
+	GFBName: Pryo Key
 	Tooltip:
 		'''
-		在苔原使用以召唤极地之灵
+		[SPAWN]
 		在苔原外狂暴
 		不消耗
 		'''
-	// SpawnNormal: Summons Cryogen when used in the tundra
-	// SpawnGFB: Summons Pryogen...? when used in the tundra
+	SpawnNormal: 在苔原使用以召唤极地之灵
+	SpawnGFB: Summons Pryogen...? when used in the tundra
 }
 
 DeathWhistle: {
@@ -136,11 +136,11 @@ EyeofDesolation: {
 	Tooltip:
 		'''
 		这将会是一个恐怖的夜晚……
-		在夜晚使用以召唤灾厄之影
+		在夜晚使用以召唤灾厄之影[GFB]
 		在白天时狂暴
 		不消耗
 		'''
-	// GFBInfo: Creates a square arena of blocks, with you at its center
+	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
 
 CausticTear: {
@@ -173,8 +173,8 @@ NecroplasmicBeacon: {
 }
 
 NO: {
-	// DisplayName: NO
-	// Tooltip: U
+	DisplayName: NO
+	Tooltip: U
 }
 
 OldPowerCell: {
@@ -224,12 +224,12 @@ ProfanedShard: {
 	Tooltip:
 		'''
 		自亵渎之火衍生出的碎片
-		白天时在地狱或神圣之地使用以召唤亵渎守卫
+		[SPAWN]
 		在神圣之地外或地狱外狂暴
 		不消耗
 		'''
-	// SpawnNormal: Summons the Profaned Guardians when used in the Hallow or Underworld during daytime
-	// SpawnRemix: Summons the Profaned Guardians when used in the Hallow or Underworld
+	SpawnNormal: 白天时在地狱或神圣之地使用以召唤亵渎守卫
+	SpawnRemix: 在地狱或神圣之地使用以召唤亵渎守卫
 }
 
 RuneofKos: {
@@ -238,17 +238,17 @@ RuneofKos: {
 		'''
 		亵渎圣焰的遗物
 		封印着神之仆从的无情力量
-		在不同地区使用以解开他们的封印
+		[SPAWN]
 		不消耗
 		'''
-	// SpawnInfo: When used in certain areas of the world, it will unleash them
-	/* SpawnVoid:
+	SpawnInfo: 在不同地区使用以解开他们的封印
+	SpawnVoid:
 		'''
-		Summons the Ceaseless Void
-		Enrages on the surface
-		''' */
-	// SpawnSignus: Summons Signus, Envoy of the Devourer
-	// SpawnWeaver: Summons the Storm Weaver
+		召唤无尽虚空
+		在地表狂暴
+		'''
+	SpawnSignus: 召唤神之使徒，西格纳斯
+	SpawnWeaver: 召唤风暴编织者
 }
 
 SandstormsCore: {
@@ -292,7 +292,7 @@ Teratoma: {
 
 Terminus: {
 	DisplayName: 终末石
-	// GFBName: Ogscule
+	GFBName: Ogscule
 	Tooltip:
 		'''
 		激活Boss Rush模式，再次使用以退出Boss Rush模式

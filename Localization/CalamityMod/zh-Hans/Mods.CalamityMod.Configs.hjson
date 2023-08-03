@@ -1,387 +1,387 @@
 CalamityConfig: {
-	// DisplayName: Main Config
+	DisplayName: 主要配置
 
 	Headers: {
-		// ExpertMaster: Expert and Master Mode Changes
-		// Gameplay: General Gameplay Changes
-		// Graphics: Graphics Changes
-		// Revengeance: Revengeance Mode Changes
-		// UI: UI Changes
-		// BaseBoosts: Base Stat Boosts
+		ExpertMaster: 专家和大师模式改动
+		Gameplay: 总体游戏内容改动
+		Graphics: 画面改动
+		Revengeance: 复仇模式改动
+		UI: UI改动
+		BaseBoosts: 基础属性加成
 	}
 
 	AdrenalineMeterPosX: {
-		// Label: "[i:LaserRuler] Adrenaline Meter X Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 肾上腺素条X轴坐标"
+		Tooltip:
 			'''
-			The X position of the Adrenaline Meter, measured as a % of your screen width.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			肾上腺素条的 X 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。 
+			'''
 	}
 
 	AdrenalineMeterPosY: {
-		// Label: "[i:LaserRuler] Adrenaline Meter Y Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 肾上腺素条Y轴坐标"
+		Tooltip:
 			'''
-			The Y position of the Adrenaline Meter, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			肾上腺素条的 Y 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。 
+			'''
 	}
 
 	Afterimages: {
-		// Label: "[i:SteampunkGoggles] Afterimages"
-		/* Tooltip:
+		Label: "[i:SteampunkGoggles] 残影"
+		Tooltip:
 			'''
-			Enables rendering afterimages for Calamity NPCs, projectiles, etc.
-			Disable to improve performance.
-			''' */
+			为灾厄NPC，射弹等等物体开启残影渲染。 
+			关闭以提升性能。 
+			'''
 	}
 
 	BossesStopWeather: {
-		// Label: "[i:CalamityMod/TorrentialTear] Bosses Stop Weather"
-		/* Tooltip:
+		Label: "[i:CalamityMod/TorrentialTear] Boss战停雨"
+		Tooltip:
 			'''
-			When enabled, many late game bosses while stop all rain and related weather when spawned.
-			Enable if you have performance issues during late game boss fights.
-			''' */
+			启用后，许多后期Boss在召唤时会停止降雨和相关天气。 
+			如果你在游戏后期与Boss战斗时遇到性能问题，请启用此选项。 
+			'''
 	}
 
 	BossHealthBarExtraInfo: {
-		// Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] Boss Health Bar Extra Info"
-		/* Tooltip:
+		Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] Boss血条额外信息"
+		Tooltip:
 			'''
-			Adds extra info to Calamity's boss health bar.
-			This displays either the boss's exact health or number of remaining parts or segments.
-			''' */
+			在灾厄的Boss生命条上添加额外信息。 
+			这包括Boss的实际生命值或剩余的部位/体节数量。 
+			'''
 	}
 
 	BossHealthBoost: {
-		// Label: "[i:LifeCrystal] Boss Health Boost Percentage"
-		/* Tooltip:
+		Label: "[i:LifeCrystal] Boss生命值百分比强化"
+		Tooltip:
 			'''
-			Globally boosts the health of all bosses by the specified percentage.
-			This stacks with multiplayer boss health boosts.
-			Does not affect bosses that are already spawned.
-			''' */
+			全局百分比提升所有Boss的生命值。 
+			与多人血量提升叠加。 
+			不会影响已生成的Boss。 
+			'''
 	}
 
 	BossZen: {
-		// Label: "[i:CalamityMod/ZenPotion] Bosses Drastically Reduce Spawn Rates"
-		/* Tooltip:
+		Label: "[i:CalamityMod/ZenPotion] Boss禅定"
+		Tooltip:
 			'''
-			All living bosses will drastically reduce the spawn rates of regular enemies.
-			This also prevents Slime Rain from occurring while a boss is alive.
-			''' */
+			任意存活的Boss都会给予玩家Boss禅定增益，大幅降低常规敌怪的刷新率。 
+			可以防止Boss存活时发生史莱姆雨。 
+			'''
 	}
 
 	ChargeMeter: {
-		// Label: "[i:CalamityMod/DraedonPowerCell] Display Charge Meter"
-		/* Tooltip:
+		Label: "[i:CalamityMod/DraedonPowerCell] 显示充能条"
+		Tooltip:
 			'''
-			Enables the Charge Meter UI, which displays the current charge of the player's held weapon.
-			The Charge Meter is always hidden if not holding a weapon which requires charge.
-			''' */
+			开启充能条UI，显示玩家当前手持嘉登造物的充能值。 
+			如果没有手持嘉登造物，充能条总是处于隐藏状态。 
+			'''
 	}
 
 	ChargeMeterPosX: {
-		// Label: "[i:LaserRuler] Charge Meter X Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 充能条X轴坐标"
+		Tooltip:
 			'''
-			The X position of the Charge Meter, measured as a % of your screen width.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			充能条的 X 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则充能条可以被鼠标拖动。 
+			'''
 	}
 
 	ChargeMeterPosY: {
-		// Label: "[i:LaserRuler] Charge Meter Y Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 充能条Y轴坐标"
+		Tooltip:
 			'''
-			The Y position of the Charge Meter, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			充能条的 Y 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则充能条可以被鼠标拖动。 
+			'''
 	}
 
 	ChilledWaterRework: {
-		// Label: "[i:ArcticDivingGear] Chilled Water Rework"
-		// Tooltip: When enabled, water in the Snow and Ice biomes will rapidly drain the player's breath instead of inflicting Chilled.
+		Label: "[i:ArcticDivingGear] 重制版冰水"
+		Tooltip: 启用时，雪原生物群落和冰雪生物群落的水会造成肺部冻伤减益，使得玩家的呼吸条快速消耗，而不会造成冷冻减益。
 	}
 
 	CooldownDisplay: {
-		// Label: "[i:CalamityMod/NebulousCore] Cooldown Rack Display Mode"
-		/* Tooltip:
+		Label: "[i:CalamityMod/NebulousCore] 冷却显示"
+		Tooltip:
 			'''
-			Adds the Cooldown Rack which displays all important cooldowns right underneath buffs and debuffs.
-			Set this to 1 to display the Cooldown Rack in compact mode, and to 0 to hide it entirely.
-			''' */
+			在Buff和Debuff栏下方显示重要的冷却图标。 
+			设为1图标显示会更加紧凑，设为0不会显示图标。 
+			'''
 	}
 
 	DebuffDisplay: {
-		// Label: "[i:FlaskofIchor] Display Enemy Debuffs"
-		// Tooltip: Adds an array of debuff icons above all bosses and minibosses.
+		Label: "[i:FlaskofIchor] 显示敌人Debuff"
+		Tooltip: 在所有Boss和迷你Boss上方添加一排图标，显示当前受到的减益。
 	}
 
 	EarlyHardmodeProgressionRework: {
-		// Label: "[i:Pwnhammer] Early Hardmode Progression Rework"
-		/* Tooltip:
+		Label: "[i:Pwnhammer] 困难模式早期流程重做"
+		Tooltip:
 			'''
-			Demon Altars no longer spawn ores and crimson/corruption blocks when broken.
-			Wall of Flesh spawns Cobalt and Palladium ore on first kill.
-			The first mech boss you fight has 20% less HP and damage and spawns Mythril and Orichalcum ore on first kill.
-			The second mech boss you fight has 10% less HP and damage and spawns Adamantite and Titanium ore on first kill.
-			The third mech boss spawns Hallowed Ore on first kill.
-			''' */
+			破坏邪恶祭坛不再生成矿石和邪恶/神圣石块。 
+			首次击杀血肉墙会使钯金矿和钴矿在世界中生成。 
+			第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。 
+			第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。 
+			首次击败第三个机械boss会使神圣矿在世界中生成。 
+			'''
 	}
 
 	FasterBaseSpeed: {
-		// Label: "[i:HermesBoots] Increase Base Movement Speed"
-		/* Tooltip:
+		Label: "[i:HermesBoots] 更高基础移速"
+		Tooltip:
 			'''
-			Increases the player's base movement speed substantially by always giving them +50% movement speed.
-			This setting does nothing if the mod Terraria Overhaul is loaded.
-			Calamity is balanced around this setting being enabled.
-			''' */
+			大幅提高玩家的基础移动速度（移动速度+50%）。 
+			如果加载了Terraria Overhaul，则此设置无效。 
+			灾厄平衡设定是在启用此配置的基础上进行的。 
+			'''
 	}
 
 	FasterFallHotkey: {
-		// Label: "[i:CalamityMod/BallAndChain] Enable Fast Falling"
-		/* Tooltip:
+		Label: "[i:CalamityMod/BallAndChain] 快速下落"
+		Tooltip:
 			'''
-			When enabled, you can hold the DOWN key while in the air to accelerate downwards faster.
-			This config does not increase your maximum falling speed, just how quickly you accelerate to it.
-			Calamity is balanced around this setting being enabled.
-			''' */
+			启用后，你可以在空中按住DOWN键以更快地向下降落。 
+			此配置不会增加你的最大下降速度，只会增加加速度。 
+			灾厄平衡设定是在启用此配置的基础上进行的。 
+			'''
 	}
 
 	FasterJumpSpeed: {
-		// Label: "[i:FrogLeg] Increase Base Jump Speed"
-		/* Tooltip:
+		Label: "[i:FrogLeg] 更高基础跳跃速度"
+		Tooltip:
 			'''
-			Slightly increases the player's base jump speed.
-			Calamity is balanced around this setting being enabled.
-			''' */
+			小幅提高玩家的基础跳跃速度。 
+			灾厄平衡设定是在启用此配置的基础上进行的。 
+			'''
 	}
 
 	FasterTilePlacement: {
-		// Label: "[i:ArchitectGizmoPack] Increase Base Building Speed"
-		/* Tooltip:
+		Label: "[i:ArchitectGizmoPack] 更快的基础建造速度"
+		Tooltip:
 			'''
-			Substantially increases how rapidly the player can place tiles and walls.
-			This config stacks with the Brick Layer, Portable Cement Mixer and other accessories.
-			''' */
+			大幅提高玩家放置方块和墙壁速度。 
+			此设置与饰品效果叠加。 
+			'''
 	}
 
 	ForceTownSafety: {
-		// Label: "[i:Sunflower] Force Town Safety"
-		/* Tooltip:
+		Label: "[i:Sunflower] 强制城镇安全"
+		Tooltip:
 			'''
-			Counteracts Expert and Master Mode allowing enemies to spawn near towns by vastly decreasing spawn rates.
-			This can have unintended side effects such as making critters difficult to find.
-			''' */
+			通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。 
+			这可能会产生意想不到的副作用，例如使动物难以找到。 
+			'''
 	}
 
 	HigherJumpHeight: {
-		// Label: "[i:ShinyRedBalloon] Increase Base Jump Height"
-		/* Tooltip:
+		Label: "[i:ShinyRedBalloon] 更高基础跳跃高度"
+		Tooltip:
 			'''
-			Increases the player's base jump height by 10% so that they can jump 7 tiles.
-			Calamity is balanced around this setting being enabled.
-			''' */
+			提高玩家的基础跳跃高度10%，可以跳跃7图格。 
+			灾厄平衡设定是在启用此配置的基础上进行的。 
+			'''
 	}
 
 	MeterPosLock: {
-		// Label: "[i:GemLockTopaz] Lock Meter Positions"
-		/* Tooltip:
+		Label: "[i:GemLockTopaz] 属性条位置锁定"
+		Tooltip:
 			'''
-			Prevents clicking on the Stealth, Charge, Rage, and Adrenaline Meters.
-			This stops them from being dragged around with the mouse.
-			''' */
+			固定潜行条、充能条、怒气条和肾上腺素条。 
+			         开启后防止它们被鼠标拖动。 
+			'''
 	}
 
 	NerfExpertDebuffs: {
-		// Label: "[i:AnkhCharm] Remove Increased Debuff Duration"
-		/* Tooltip:
+		Label: "[i:AnkhCharm] 减益持续时间增幅移除"
+		Tooltip:
 			'''
-			Disables Expert Mode doubling (and Master Mode tripling) the duration of debuffs on the player.
-			Calamity is balanced around this setting being enabled.
-			''' */
+			禁用专家和大师模式减益持续时间的翻倍。 
+			灾厄平衡设定是在启用此配置的基础上进行的。 
+			'''
 	}
 
 	ParticleLimit: {
-		// Label: "[i:FragmentStardust] Max Particle Limit"
-		/* Tooltip:
+		Label: "[i:FragmentStardust] 最大粒子数"
+		Tooltip:
 			'''
-			Sets the maximum of particle effects that can exist at once.
-			Particles are separate from dust and gores.
-			Turn down to improve performance.
-			''' */
+			设定同时存在的最大粒子数。 
+			粒子和溅血效果是分开的。 
+			调低以提升性能。 
+			'''
 	}
 
 	RageMeterPosX: {
-		// Label: "[i:LaserRuler] Rage Meter X Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 怒气条X轴坐标"
+		Tooltip:
 			'''
-			The X position of the Rage Meter, measured as a % of your screen width.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			怒气条的 X 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。 
+			'''
 	}
 
 	RageMeterPosY: {
-		// Label: "[i:LaserRuler] Rage Meter Y Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 怒气条Y轴坐标"
+		Tooltip:
 			'''
-			The Y position of the Rage Meter, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			怒气条的 Y 坐标位置，以屏幕高度的百分比度量。 
+			如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。 
+			'''
 	}
 
 	RemoveReforgeRNG: {
-		// Label: "[i:TinHammer] Remove Reforge RNG"
-		/* Tooltip:
+		Label: "[i:TinHammer] 移除重铸随机性"
+		Tooltip:
 			'''
-			Removes randomness from the Goblin Tinkerer's reforges for both weapons and accessories.
-			Disable this if using mods that change reforging on their own to prevent conflicts.
-			''' */
+			移除哥布林工匠重铸武器和饰品时的随机性。 
+			当有其他模组对重铸做出修改时禁用以防冲突。 
+			'''
 	}
 
 	RipperMeterShake: {
-		// Label: "[i:CalamityMod/RedLightningContainer] Rage and Adrenaline Meter Shake"
-		/* Tooltip:
+		Label: "[i:CalamityMod/RedLightningContainer] 怒气与肾上腺素条震动"
+		Tooltip:
 			'''
-			How much the Rage and Adrenaline Meters shake while in use.
-			Set to zero to disable the shaking entirely.
-			''' */
+			开启怒气与肾上腺素时，条的振动幅度。 
+			设为0完全禁用振动。 
+			'''
 	}
 
 	Screenshake: {
-		// Label: "[i:CalamityMod/WavePounder] Screenshake"
-		// Tooltip: Enable or disable all screen-shaking effects.
+		Label: "[i:CalamityMod/WavePounder] 屏幕震动"
+		Tooltip: 开启或关闭所有屏幕抖动效果。
 	}
 
 	ShopNewAlert: {
-		// Label: "[i:GoldChest] New Shop Inventory Alerts"
-		// Tooltip: Adds an icon that appears over Town NPCs when they have new items in their shops.
+		Label: "[i:GoldChest] 商店新物品提示"
+		Tooltip: 当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。
 	}
 
 	SpeedrunTimer: {
-		// Label: "[i:Stopwatch] Display Speedrun Timer"
-		/* Tooltip:
+		Label: "[i:Stopwatch] 显示速通计时器"
+		Tooltip:
 			'''
-			Enables an in-game speedrun timer which shows in-game time down to the millisecond.
-			A second line displays the time of your most recent boss kill.
-			The time is tracked per player and only counts time while loaded into a world.
-			''' */
+			启用游戏内速通计时器，时间显示为毫秒。 
+			第二行显示最近一次Boss击杀的时间。 
+			         每个玩家时间独立，仅进入世界后计时。 
+			'''
 	}
 
 	SpeedrunTimerPosX: {
-		// Label: "[i:LaserRuler] Speedrun Timer X Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 速通计时器X轴坐标"
+		Tooltip:
 			'''
-			The X position of the Speedrun Timer, measured as a % of your screen width.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			速通计时器的 X 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则速通计时器可以被鼠标拖动。 
+			'''
 	}
 
 	SpeedrunTimerPosY: {
-		// Label: "[i:LaserRuler] Speedrun Timer Y Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 速通计时器Y轴坐标"
+		Tooltip:
 			'''
-			The Y position of the Speedrun Timer, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			速通计时器的 Y 坐标位置，以屏幕高度的百分比度量。 
+			如果属性条位置锁定被关闭，则速通计时器可以被鼠标拖动。 
+			'''
 	}
 
 	StealthInvisibility: {
-		// Label: "[i:CalamityMod/StealthHairDye] Stealth Invisibility"
-		/* Tooltip:
+		Label: "[i:CalamityMod/StealthHairDye] 潜行隐身"
+		Tooltip:
 			'''
-			Enables players gradually turning invisible as their Rogue Stealth increases.
-			This effect is visually similar to Shroomite armor's stealth.
-			''' */
+			启用时玩家会随着潜行值增加逐渐隐身。 
+			         类似蘑菇套的效果。 
+			'''
 	}
 
 	StealthMeter: {
-		// Label: "[i:CalamityMod/EclipseMirror] Display Stealth Meter"
-		/* Tooltip:
+		Label: "[i:CalamityMod/EclipseMirror] 显示潜行条"
+		Tooltip:
 			'''
-			Enables the Stealth Meter UI, which shows the player's current stealth level.
-			The Stealth Meter is always hidden if not wearing Rogue armor.
-			''' */
+			开启显示玩家当前潜行值的潜行条。 
+			如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。 
+			'''
 	}
 
 	StealthMeterPosX: {
-		// Label: "[i:LaserRuler] Stealth Meter X Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 潜行条X轴坐标"
+		Tooltip:
 			'''
-			The X position of the Stealth Meter, measured as a % of your screen width.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			潜行条的 X 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。 
+			'''
 	}
 
 	StealthMeterPosY: {
-		// Label: "[i:LaserRuler] Stealth Meter Y Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 潜行条Y轴坐标"
+		Tooltip:
 			'''
-			The Y position of the Stealth Meter, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			潜行条的 Y 坐标位置，以屏幕高度的百分比度量。 
+			如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。 
+			'''
 	}
 
 	SulphuricWaterMeterPosX: {
-		// Label: "[i:LaserRuler] Sulphuric Water Poison Meter X Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 硫磺海水腐蚀条X轴坐标"
+		Tooltip:
 			'''
-			The X position of the Sulphuric Water Poison Meter, measured as a % of your screen width.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			硫磺海水腐蚀条的 X 坐标位置，以屏幕宽度的百分比度量。 
+			如果属性条位置锁定被关闭，则腐蚀条可以被鼠标拖动。 
+			'''
 	}
 
 	SulphuricWaterMeterPosY: {
-		// Label: "[i:LaserRuler] Sulphuric Water Poison Meter Y Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 硫磺海水腐蚀条Y轴坐标"
+		Tooltip:
 			'''
-			The Y position of the Sulphuric Water Poison Meter, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			硫磺海水腐蚀条的 Y 坐标位置，以屏幕高度的百分比度量。 
+			如果属性条位置锁定被关闭，则腐蚀条可以被鼠标拖动。 
+			'''
 	}
 
 	PotionSelling: {
-		// Label: "[i:SpelunkerPotion] Town NPC Potion Selling"
-		/* Tooltip:
+		Label: "[i:SpelunkerPotion] 城镇NPC出售药水"
+		Tooltip:
 			'''
-			Allows town NPCs to sell various potions.
-			Certain potions are sold after specific bosses have been defeated.
-			''' */
+			允许城镇NPC出售各种药水。 
+			         某些药剂在特定boss被击败后出售。 
+			'''
 	}
 
 	TownNPCSpawnRateMultiplier: {
-		// Label: "[i:GuideVoodooDoll] Town NPC Spawn Rate Multiplier"
-		/* Tooltip:
+		Label: "[i:GuideVoodooDoll] 城镇NPC生成速率乘算器"
+		Tooltip:
 			'''
-			Directly multiply the rate at which town NPCs spawn and respawn.
-			This reduces waiting times if a boss or event wipes your whole town.
-			''' */
+			此数值越高，城镇NPC生成的速率越快。 
+			         让你在Boss战中灰飞烟灭的城镇快速恢复。 
+			'''
 	}
 
 	TownNPCsSpawnAtNight: {
-		// Label: "[i:ClothierVoodooDoll] Town NPCs Spawn at Night"
-		/* Tooltip:
+		Label: "[i:ClothierVoodooDoll] 城镇NPC在夜间生成"
+		Tooltip:
 			'''
-			When enabled, town NPCs can spawn and respawn at night.
-			This includes the Old Man.
-			''' */
+			启用此选项时城镇NPC可以在夜晚生成。 
+			         包括老人。 
+			'''
 	}
 
 	VanillaCooldownDisplay: {
-		// Label: "[i:HealingPotion] Display Vanilla Cooldowns"
-		/* Tooltip:
+		Label: "[i:HealingPotion] 原版冷却显示"
+		Tooltip:
 			'''
-			Adds the vanilla debuffs Potion Sickness and Chaos State to the Cooldown Rack.
-			This doesn't remove them from your buff list, but can help with visibility nonetheless
-			''' */
+			为混沌状态和药水疾病添加特定冷却图标。 
+			这不会将它们从你的Debuff栏移除，但可以你更容易看到它们。 
+			'''
 	}
 
 	WikiStatusMessage: {
-		// Label: "[i:Book] Wiki Status Message"
-		// Tooltip: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
+		Label: "[i:Book] Wiki状态信息"
+		Tooltip: 启用/禁用进入世界的Wiki状态消息提示。
 	}
 }
