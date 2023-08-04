@@ -135,12 +135,12 @@ EyeofDesolation: {
 	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
+		这将会是一个恐怖的夜晚……
 		在夜晚使用以召唤灾厄之影[GFB]
 		在白天时狂暴
 		不消耗
-		这将会是一个恐怖的夜晚……
 		'''
-	GFBInfo: 创建一个以你为中心的方型竞技场
+	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
 
 CausticTear: {
@@ -223,7 +223,7 @@ ProfanedShard: {
 	DisplayName: 亵渎碎片
 	Tooltip:
 		'''
-		[SPAWN]	
+		[SPAWN]
 		在神圣之地外或地狱外狂暴
 		不消耗
 		自亵渎之火衍生出的碎片
@@ -236,10 +236,10 @@ RuneofKos: {
 	DisplayName: 宇宙符文
 	Tooltip:
 		'''
+		亵渎圣焰的遗物
 		封印着神之仆从的无情力量
 		[SPAWN]
 		不消耗
-		亵渎圣焰的遗物
 		'''
 	SpawnInfo: 在不同地区使用以解开他们的封印
 	SpawnVoid:
@@ -247,7 +247,7 @@ RuneofKos: {
 		召唤无尽虚空
 		在地表狂暴
 		'''
-	SpawnSignus: 召唤神之使徒西格纳斯
+	SpawnSignus: 召唤神之使徒，西格纳斯
 	SpawnWeaver: 召唤风暴编织者
 }
 

@@ -1,239 +1,202 @@
 AdamantiteMelee:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteMelee}
-                基于伤害减免的一半增加暴击率
-                持续造成伤害会提升防御，至多30点
-                如果不造成伤害，增加的防御会降低
-                也受防御损伤影响
-                '''
-
-            AdamantiteCaster:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteCaster}
-                基于伤害减免的一半增加暴击率
-                持续造成伤害会提升防御，至多30点
-                如果不造成伤害，增加的防御会降低
-                也受防御损伤影响
-                '''
- 
-            AdamantiteRanged:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteRanged}
-                基于伤害减免的一半增加暴击率
-                持续造成伤害会提升防御，至多30点
-                如果不造成伤害，增加的防御会降低
-                也受防御损伤影响
-                '''
-
-            CobaltMelee:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.CobaltMelee}
-                最大移速和加速度提高10%
-                基于移速提高伤害和暴击率，上限10%
-                '''
-
-            CobaltCaster:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.CobaltCaster}
-                最大移速和加速度提高10%
-                基于移速提高伤害和暴击率，上限10%
-                '''
-
-            CobaltRanged:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.CobaltRanged}
-                最大移速和加速度提高10%
-                基于移速提高伤害和暴击率，上限10%
-                '''
-
-            Copper:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
-                所有伤害增加2点
-                '''
-
-            Eskimo:
-                '''
-                {$LegacyTooltip.48} 所有冷系减益对敌人多造成25%伤害
-                冷系敌人对玩家造成的伤害减少
-                免疫{$BuffName.Chilled}、{$BuffName.Frozen}、{$BuffName.Frostburn}和冰河时代减益
-                '''
-
-            Chlorophyte:
-                '''
-                {$LegacyTooltip.48} 召唤叶状水晶，每5秒发射一次生命脉冲
-                脉冲对范围内的敌人造成300基础伤害
-                并治疗范围内的友军10点生命
-                4.5秒内玩家只会受到一个水晶治疗
-                伤害和治疗值均受玩家最强职业加成
-                '''
-
-            Gladiator:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.Gladiator}
-                +3 防御力
-                增加5%盗贼伤害和10%盗贼弹幕速度
-                增加60点最大潜行值
-                '''
-
-            Gold:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-                所有敌人有4%几率掉落1金币，Boss掉落3金币
-                背包中每有5金币增加1%暴击率，上限为10%
-                挖掘速度增加25%
-                '''
-
-            Iron:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
-                所受伤害减少6%
-                +2生命再生
-                挖掘速度增加25%
-                '''
-
-            Lead:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-                所受伤害减少3%
-                +1生命再生
-                免疫击退
-                挖掘速度增加25%
-                '''
-
-            Meteor: "{$LegacyTooltip.48} 减少太空枪50%魔力消耗"
-
-            Molten:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.Molten}
-                增加20%额外真近战伤害
-                免疫火块和短暂免疫岩浆
-                '''
-
-            MonkTier2:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MonkTier2}
-                增加10%近战攻速，暴击率和伤害
-                增加15%召唤伤害
-                '''
-
-            MythrilMelee:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MythrilMelee}
-                击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
-                秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
-                '''
-
-            MythrilCaster:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MythrilCaster}
-                击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
-                秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
-                '''
-
-            MythrilRanged:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MythrilRanged}
-                击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
-                秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
-                '''
-
-            Obsidian:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.ObsidianOutlaw}
-                免疫火块和短暂免疫岩浆
-                '''
-
-            Platinum:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.Platinum}
-                每15点防御力增加1生命再生和1%暴击率
-                上限45点防御力
-                '''
-
-            Shadow: "{$LegacyTooltip.48} 最大移速和加速度提高15%"
-
-            Silver:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-                +1生命再生
-                受到20点以上的伤害两秒后，你会恢复10点生命
-                如果期间再受到伤害会重新计时2秒
-                '''
-
-            Tin:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
-                增加5点护甲穿透
-                '''
-
-            Tungsten:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-                根据武器的击退增加暴击率
-                上限增加为10%暴击率
-                所有武器击退增加33%
-                当前奖励：{0} 暴击率来自 {1} 击退
-                '''
-
-            CrystalNinja:
-                '''
-                {$LegacyTooltip.48} 获得冲刺能力
-                '''
-
-            SquireTier2:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.SquireTier2}
-                增加生命再生速度
-                增加15%召唤伤害和10%近战暴击率
-                '''
-
-            HuntressTier2:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.HuntressTier2}
-                增加10%召唤和远程伤害
-                '''
-
-            ApprenticeTier2:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.ApprenticeTier2}
-                增加5%召唤伤害和15%魔法暴击率
-                '''
-
-            MonkTier3:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.MonkTier3}
-                增加10%近战攻速，暴击率和伤害
-                增加30%召唤伤害
-                '''
-
-            SquireTier3:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.SquireTier3}
-                大幅提高生命再生速度
-                增加10%召唤伤害和近战暴击率
-                '''
-
-            HuntressTier3:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.HuntressTier3}
-                增加10%召唤和远程伤害
-                '''
-
-            ApprenticeTier3:
-                '''
-                {$LegacyTooltip.48} {$ArmorSetBonus.ApprenticeTier3}
-                增加10%召唤伤害和15%魔法暴击率
-                '''
-
-            SpectreHealing:
-                '''
-                {$LegacyTooltip.48} 魔法伤害减少20%并将其转化为治愈力
-                对敌人造成的魔法伤害将治疗生命值最低的玩家
-                '''
-
-            Mining:
-                '''
-                {$LegacyTooltip.48}
-                开采矿石有几率获得额外收益
-                '''
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteMelee}
+	基于伤害减免的一半增加暴击率
+	持续造成伤害会提升防御，至多30点
+	如果不造成伤害，增加的防御会降低
+	也受防御损伤影响
+	'''
+AdamantiteCaster:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteCaster}
+	基于伤害减免的一半增加暴击率
+	持续造成伤害会提升防御，至多30点
+	如果不造成伤害，增加的防御会降低
+	也受防御损伤影响
+	'''
+AdamantiteRanged:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteRanged}
+	基于伤害减免的一半增加暴击率
+	持续造成伤害会提升防御，至多30点
+	如果不造成伤害，增加的防御会降低
+	也受防御损伤影响
+	'''
+CobaltMelee:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.CobaltMelee}
+	最大移速和加速度提高10%
+	基于移速提高伤害和暴击率，上限10%
+	'''
+CobaltCaster:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.CobaltCaster}
+	最大移速和加速度提高10%
+	基于移速提高伤害和暴击率，上限10%
+	'''
+CobaltRanged:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.CobaltRanged}
+	最大移速和加速度提高10%
+	基于移速提高伤害和暴击率，上限10%
+	'''
+Copper:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
+	所有伤害增加2点
+	'''
+Eskimo:
+	'''
+	{$LegacyTooltip.48} 所有冷系减益对敌人多造成25%伤害
+	冷系敌人对玩家造成的伤害减少
+	免疫{$BuffName.Chilled}、{$BuffName.Frozen}、{$BuffName.Frostburn}和冰河时代减益
+	'''
+Chlorophyte:
+	'''
+	{$LegacyTooltip.48} 召唤叶状水晶，每5秒发射一次生命脉冲
+	脉冲对范围内的敌人造成300基础伤害
+	并治疗范围内的友军10点生命
+	4.5秒内玩家只会受到一个水晶治疗
+	伤害和治疗值均受玩家最强职业加成
+	'''
+Gladiator:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.Gladiator}
+	+3 防御力
+	增加5%盗贼伤害和10%盗贼弹幕速度
+	增加60点最大潜行值
+	'''
+Gold:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
+	所有敌人有4%几率掉落1金币，Boss掉落3金币
+	背包中每有5金币增加1%暴击率，上限为10%
+	挖掘速度增加25%
+	'''
+Iron:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
+	所受伤害减少6%
+	+2生命再生
+	挖掘速度增加25%
+	'''
+Lead:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
+	所受伤害减少3%
+	+1生命再生
+	免疫击退
+	挖掘速度增加25%
+	'''
+Meteor: "{$LegacyTooltip.48} 减少太空枪50%魔力消耗"
+Molten:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.Molten}
+	增加20%额外真近战伤害
+	免疫火块和短暂免疫岩浆
+	'''
+MonkTier2:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MonkTier2}
+	增加10%近战攻速，暴击率和伤害
+	增加15%召唤伤害
+	'''
+MythrilMelee:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MythrilMelee}
+	击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
+	秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
+	'''
+MythrilCaster:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MythrilCaster}
+	击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
+	秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
+	'''
+MythrilRanged:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MythrilRanged}
+	击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
+	秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
+	'''
+Obsidian:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.ObsidianOutlaw}
+	免疫火块和短暂免疫岩浆
+	'''
+Platinum:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.Platinum}
+	每15点防御力增加1生命再生和1%暴击率
+	上限45点防御力
+	'''
+Shadow: "{$LegacyTooltip.48} 最大移速和加速度提高15%"
+Silver:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
+	+1生命再生
+	受到20点以上的伤害两秒后，你会恢复10点生命
+	如果期间再受到伤害会重新计时2秒
+	'''
+Tin:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
+	增加5点护甲穿透
+	'''
+Tungsten:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
+	根据武器的击退增加暴击率
+	上限增加为10%暴击率
+	所有武器击退增加33%
+	当前奖励：{0} 暴击率来自 {1} 击退
+	'''
+CrystalNinja: "{$LegacyTooltip.48} 获得冲刺能力"
+SquireTier2:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.SquireTier2}
+	增加生命再生速度
+	增加15%召唤伤害和10%近战暴击率
+	'''
+HuntressTier2:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.HuntressTier2}
+	增加10%召唤和远程伤害
+	'''
+ApprenticeTier2:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.ApprenticeTier2}
+	增加5%召唤伤害和15%魔法暴击率
+	'''
+MonkTier3:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.MonkTier3}
+	增加10%近战攻速，暴击率和伤害
+	增加30%召唤伤害
+	'''
+SquireTier3:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.SquireTier3}
+	大幅提高生命再生速度
+	增加10%召唤伤害和近战暴击率
+	'''
+HuntressTier3:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.HuntressTier3}
+	增加10%召唤和远程伤害
+	'''
+ApprenticeTier3:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.ApprenticeTier3}
+	增加10%召唤伤害和15%魔法暴击率
+	'''
+SpectreHealing:
+	'''
+	{$LegacyTooltip.48} 魔法伤害减少20%并将其转化为治愈力
+	对敌人造成的魔法伤害将治疗生命值最低的玩家
+	'''
+Mining:
+	'''
+	{$LegacyTooltip.48}
+	开采矿石有几率获得额外收益
+	'''

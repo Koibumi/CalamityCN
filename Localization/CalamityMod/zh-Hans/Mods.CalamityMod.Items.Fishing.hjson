@@ -1,7 +1,7 @@
 // Quest fish tooltips
-CaughtInAstral: "'星幻瘟疫钓鱼'"
-CaughtInBrimstoneCrag: "'硫火之崖钓鱼'"
-CaughtInSunkenSea: "'沉沦之海钓鱼'"
+CaughtInAstral: ‘抓捕位置：星辉瘟疫’
+CaughtInBrimstoneCrag: ‘抓捕位置：硫火之崖’
+CaughtInSunkenSea: ‘抓捕位置：沉沦之海’
 
 // Astral Infection Catches
 AldebaranAlewife: {
@@ -16,7 +16,7 @@ ArcturusAstroidean: {
 
 AstralCrate: {
 	DisplayName: 星幻匣
-	Tooltip: "{右键点击打开}"
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 AstrophageItem: {
@@ -63,7 +63,7 @@ Brimlish: {
 
 BrimstoneCrate: {
 	DisplayName: 硫磺火匣
-	Tooltip: "{右键点击打开}"
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CharredLasher: {
@@ -113,7 +113,7 @@ Slurpfish: {
 // Sunken Sea Catches
 EutrophicSandfish: {
 	DisplayName: 富养沙地鱼
-	QuestDescription:你知道蛤很美味吗?流言说沙漠地下住着一大群蛤，光是说说就觉得饿了。给我抓一只来，让我练习练习烹饪技巧，也顺便解解馋。
+	QuestDescription: 你知道沙漠里的蜥蜴往地下钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。 你，现在就去把它抓来，这样我就有新的宠物了！
 }
 
 GreenwaveLoach: {
@@ -162,7 +162,7 @@ SparklingEmpress: {
 
 SunkenCrate: {
 	DisplayName: 沉沦匣
-	Tooltip: "{右键点击打开}"
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SunkenSailfish: {
@@ -227,7 +227,7 @@ StuffedFish: {
 
 SulphurousCrate: {
 	DisplayName: 硫海匣
-	Tooltip: "{右键点击打开}"
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SunbeamFish: {

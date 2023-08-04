@@ -659,6 +659,7 @@ BloodyBoost: {
 BossEffects: {
 	DisplayName: Boss效果
 	Description: 大幅降低敌怪刷新率
+	// ZenDescription: Greatly reducing enemy spawn rates
 }
 
 BrimflameFrenzyBuff: {
@@ -772,20 +773,20 @@ PolarisBuff: {
 
 ProfanedCrystalBuff: {
 	DisplayName: 忠诚
-	Description: ""
-	 Offense: {0}增强着你的进攻能力
-	 Lava: 熔岩之热
-	 Day: 太阳之光
-	 Defense: {0}你的烈焰，增强你的防守能力
-	 Water: 泉水之冽冷却着
-	 Honey: 蜂蜜之滋冷却着
-	 Night: 夜幕之暗冷却着
-	 Enrage: 你消逝的生命力支撑着你的绝望反抗
-	 NerfedEndo: 一个冰晶结构体压迫着你的真正潜力...
-	 NerfedHat: 一顶魔法帽压倒了你的五感，浪费了你的真正潜力...
-	 LockedSlots: 你的亵渎之魂受到召唤能力的限制
-	 LockedExos: 这块水晶中的魂魄被危险的机械造物发出的能量波干扰了
-	 LockedSCal: 亵渎之魂被一位强大女巫的魔法所玷污
+	Description: 你现在是亵渎天神的神使了！
+	Offense: "{0}增强着你的进攻能力"
+	Lava: 熔岩之热
+	Day: 太阳之光
+	Defense: "{0}你的烈焰，增强你的防守能力"
+	Water: 泉水之冽冷却着
+	Honey: 蜂蜜之滋冷却着
+	Night: 夜幕之暗冷却着
+	Enrage: 你消逝的生命力支撑着你的绝望反抗
+	NerfedEndo: 一个冰晶结构体压迫着你的真正潜力...
+	NerfedHat: 一顶魔法帽压倒了你的五感，浪费了你的真正潜力...
+	LockedSlots: 你的亵渎之魂受到召唤能力的限制
+	LockedExos: 这块水晶中的魂魄被危险的机械造物发出的能量波干扰了
+	LockedSCal: 亵渎之魂被一位强大女巫的魔法所玷污
 }
 
 RageMode: {

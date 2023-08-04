@@ -103,7 +103,7 @@ AstrumAureus: {
 	DisplayName: 白金星舰
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在夜晚的星辉瘟疫使用 [i:CalamityMod/AstralChunk] 
+		SpawnInfo: 在夜晚的星辉瘟疫使用 [i:CalamityMod/AstralChunk]
 		DespawnMessage: "[c/FFD700:白金星舰已消除所有威胁，恢复执行侦察任务。]"
 	}
 }
@@ -126,7 +126,7 @@ BrimstoneElemental: {
 	DisplayName: 硫磺火元素
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在硫火之崖使用[i:CalamityMod/CharredIdol] 
+		SpawnInfo: 在硫火之崖使用[i:CalamityMod/CharredIdol]
 		DespawnMessage: "[c/DC143C:元素之灵继续阴沉地守望着阿萨福勒……]"
 	}
 }
@@ -138,7 +138,7 @@ Bumblefuck: {
 
 	BossChecklistIntegration: {
 		EntryName: 痴愚金龙
-		SpawnInfo:在丛林生物群落使用[i:CalamityMod/ExoticPheromones] 
+		SpawnInfo: 在丛林生物群落使用[i:CalamityMod/ExoticPheromones]
 		DespawnMessage: "[c/FFD700:金龙回到了它僻静的栖息地。]"
 	}
 }
@@ -163,7 +163,7 @@ CeaselessVoid: {
 	DisplayName: 无尽虚空
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在地牢使用[i:CalamityMod/RuneofKos] 
+		SpawnInfo: 在地牢使用[i:CalamityMod/RuneofKos]
 		DespawnMessage: "[c/4B0082:远古的空间裂隙飘向了未知的地方。]"
 		EntryName: 无尽虚空
 	}
@@ -176,7 +176,7 @@ Crabulon: {
 	DisplayName: 菌生蟹
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在发光蘑菇生物群落使用[i:CalamityMod/DecapoditaSprout] 
+		SpawnInfo: 在发光蘑菇生物群落使用[i:CalamityMod/DecapoditaSprout]
 		DespawnMessage: "[c/6495ED:菌生怪蟹爬走了……]"
 	}
 }
@@ -208,7 +208,7 @@ DesertScourgeHead: {
 	DisplayName: 荒漠灾虫
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在沙漠或地下沙漠使用[i:CalamityMod/DesertMedallion] 
+		SpawnInfo: 在沙漠或地下沙漠使用[i:CalamityMod/DesertMedallion]
 		DespawnMessage: "[c/EEE8AA:荒漠灾虫回到了沙子里。]"
 		EntryName: 荒漠灾虫
 	}
@@ -282,7 +282,7 @@ GreatSandShark: {
 	DisplayName: 旱海狂鲨
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore] 
+		SpawnInfo: 在沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore]
 		DespawnMessage: "[c/DAA520:沙漠顶级掠食者消失在沙丘之中。]"
 	}
 }
@@ -295,7 +295,7 @@ HiveMind: {
 	DisplayName: 腐巢意志
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在腐化之地击杀腐化囊或在腐化之地使用 [i:CalamityMod/Teratoma] 
+		SpawnInfo: 在腐化之地击杀腐化囊或在腐化之地使用 [i:CalamityMod/Teratoma]
 		DespawnMessage: "[c/9400D3:腐巢意志掠过此地，另寻他处繁殖。]"
 	}
 }
@@ -347,7 +347,7 @@ OverloadedSoldier.DisplayName: 过载装甲骷髅
 PerennialSlime.DisplayName: 永恒史莱姆
 PhantomSpirit.DisplayName: 幻影幽灵
 Piggy.DisplayName: 小猪猪
-lanterasFreeTentacle.DisplayName: 世纪之花触手
+// PlanterasFreeTentacle.DisplayName: Plantera's Tentacle
 ProfanedEnergyBody.DisplayName: 亵渎能量
 Rimehound.DisplayName: 雾凇猎犬
 Rotdog.DisplayName: 血犬
@@ -370,7 +370,7 @@ OldDuke: {
 
 	BossChecklistIntegration: {
 		EntryName: 硫海遗爵
-		pawnInfo: 在击败噬魂幽花后完成酸雨事件或在硫磺海以 [i:CalamityMod/BloodwormItem] 为鱼饵钓鱼
+		// SpawnInfo: Defeat the Acid Rain event post-Polterghast or fish using a [i:CalamityMod/BloodwormItem] in the Sulphurous Sea
 		DespawnMessage: "[c/F0E68C:硫海遗爵退回了酸雨中。]"
 	}
 }
@@ -393,7 +393,7 @@ PerforatorHive: {
 
 	BossChecklistIntegration: {
 		EntryName: 血肉宿主
-		SpawnInfo: 在猩红之地击杀血肉囊或在猩红之地使用 [i:CalamityMod/BloodyWormFood] 
+		SpawnInfo: 在猩红之地击杀血肉囊或在猩红之地使用 [i:CalamityMod/BloodyWormFood]
 		DespawnMessage: "[c/DC143C:血肉寄生者们去寻找更多的猎物来大快朵颐。]"
 	}
 }
@@ -403,7 +403,7 @@ PlaguebringerGoliath: {
 
 	BossChecklistIntegration: {
 		EntryName: 瘟疫使者歌莉娅
-		SpawnInfo: 在丛林环境使用 [i:CalamityMod/Abombination] 
+		SpawnInfo: 在丛林环境使用 [i:CalamityMod/Abombination]
 		DespawnMessage: "[c/00FF00:样本安乐死已执行，战斗终止。]"
 	}
 }
@@ -422,7 +422,7 @@ Polterghast: {
 	DisplayName: 噬魂幽花
 
 	BossChecklistIntegration: {
-	    SpawnInfo: 击杀30个幻魂或在地牢使用 [i:CalamityMod/NecroplasmicBeacon] 
+		SpawnInfo: 击杀30个幻魂或在地牢使用 [i:CalamityMod/NecroplasmicBeacon]
 		DespawnMessage: "[c/B0E0E6:变幻无常的幽魂在回荡的哀嚎声下无影无踪。]"
 		EntryName: 噬魂幽花
 	}
@@ -441,7 +441,7 @@ ProfanedGuardianCommander: {
 
 	BossChecklistIntegration: {
 		EntryName: 亵渎守卫
-		SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedShard] 
+		SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedShard]
 		DespawnMessage: "[c/FFA500:守卫们被召回了他们的女神身边。]"
 	}
 }
@@ -455,7 +455,7 @@ Providence: {
 
 	BossChecklistIntegration: {
 		EntryName: 亵渎天神，普罗维登斯
-		SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedCore] 
+		SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedCore]
 		DespawnMessage: "[c/FFA500:亵渎女神隐匿在纯净的烈焰中，只留下一团灰烬……]"
 	}
 }
@@ -468,7 +468,7 @@ FlamePillar.DisplayName: 火焰柱
 RavagerBody: {
 	DisplayName: 毁灭魔像
 
-	BossChecklistIntegration: {   
+	BossChecklistIntegration: {
 		SpawnInfo: 使用 [i:CalamityMod/DeathWhistle]
 		DespawnMessage: "[c/B22222:毁灭魔像又开始了它漫无目的地恐怖肆虐。]"
 		EntryName: 毁灭魔像
@@ -484,7 +484,7 @@ Signus: {
 
 	BossChecklistIntegration: {
 		EntryName: 神之使徒，西格纳斯
-		SpawnInfo: 在地狱使用 [i:CalamityMod/RuneofKos] 
+		SpawnInfo: 在地狱使用 [i:CalamityMod/RuneofKos]
 		DespawnMessage: "[c/BA55D3:西格纳斯以难以理解的方式原地消失。]"
 	}
 }
@@ -511,7 +511,7 @@ StormWeaverHead: {
 	DisplayName: 风暴编织者
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在太空使用 [i:CalamityMod/RuneofKos] 
+		SpawnInfo: 在太空使用 [i:CalamityMod/RuneofKos]
 		DespawnMessage: "[c/EE82EE:风暴编织者将自身藏于翻涌的雷雨云中。]"
 		EntryName: 风暴编织者
 	}
@@ -583,7 +583,7 @@ DILF: {
 	Name.Permafrost: 永冻
 
 	Chat: {
-		Homeless1:我非常感谢你把我从冰冻的城堡里解救出来。已经过去很多年了……
+		Homeless1: 我非常感谢你把我从冰冻的城堡里解救出来。已经过去很多年了……
 		Homeless2: 我已经很久没有见过这样的天空的。你究竟是谁？你是怎么敢如此明目张胆地反抗那个魔君的？
 		Normal1: 如果你找我有事儿，那就赶紧说。我正在准备一个新的咒语，这需要极高的专注度。
 		Normal2: 你很有法师的天赋和气质啊。告诉我，你觉得冰魔法怎么样？
@@ -634,7 +634,7 @@ FAP: {
 		Normal3: 交易这么好，我会[$$!$]我自己！……抱歉，我只是中风了！
 		Normal4: 有人告诉过你有钱会引起痛苦吗？嗯，他们是对的。
 		Archmage: "{0}可以随时和我一起喝一杯！……也许不行，我不确定他那颗沧桑的心能否承受。"
-		BrimstoneWitch: {0}经历了我难以想象的苦难。我想要给她一杯酒，但我想她可能不会喜欢。
+		BrimstoneWitch: "{0}经历了我难以想象的苦难。我想要给她一杯酒，但我想她可能不会喜欢。"
 		Tavernkeep1: 我的酒可比{0}的好多了，关于这个事实没人说服得了我。
 		Tavernkeep2: 告诉{0}别再找我了，他不合我的口味
 		Tavernkeep3: 我不得不多次告诉那个秃头我的眼睛在哪儿，我都数不清我说了多少次了。
@@ -774,7 +774,7 @@ SEAHOE: {
 		PreHardmode6: 腐化之地/猩红之地是最近才出现在这个世界上的，它象征着是亚利姆这场惨绝人寰的战争的起始。它的蔓延本可以被阻止，但从来没有人有对其源头采取过任何措施。
 		PreHardmode7: 世界各地散布着供奉神灵的神龛。神龛中放置着强大的装备，它们会为你的冒险带来有力的帮助。
 		PreHardmode8: 我猜你应该听说过传说忍者斯塔提斯？他和他的氏族崇拜着一位因为十分善于逃跑而在战争中幸免于难的神明，史莱姆之神。
-		PreHardmode9: {0}之力原本处于大自然的管控之中。 然而，最近爆发的战争和污染破坏了大自然的保护与修复能力，打破了亘古的自然平衡。
+		PreHardmode9: "{0}之力原本处于大自然的管控之中。 然而，最近爆发的战争和污染破坏了大自然的保护与修复能力，打破了亘古的自然平衡。"
 		PreHardmode10: 世界各地仍留存着由嘉登一手建造的数个研究设施。尽管陈旧的防御系统可能还能运转，但其中的物品也许值得你去扫荡一番。
 	}
 
@@ -788,10 +788,10 @@ SEAHOE: {
 		LikeBiome: 靠近大海，苦乐参半。但我还是忍不住喜欢它。
 		DislikeBiome: 阳光太刺眼了，我不喜欢这里的干旱气候。
 		HateBiome: 这就不是能住的地方，快放我走！
-		LikeNPC: {NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！
+		LikeNPC: "{NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！"
 		DislikeNPC: 我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。
 		HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！"
-		LikeNPC_Princess: {NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。
+		LikeNPC_Princess: "{NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。"
 		Princess_LovesNPC: 我喜欢{NPCName}.
 	}
 }
@@ -871,7 +871,7 @@ THIEF: {
 		DislikeBiome: 太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。
 		HateBiome: 这里没人住，为什么要住这里？！这里简直是个垃圾场！
 		LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
-		DislikeNPC: {NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。
+		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
 		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
 		Princess_LovesNPC: 我喜欢 {NPCName}。
 	}
@@ -914,7 +914,7 @@ WITCH: {
 		HateBiome: 这里的灵魂不安宁，这种感觉真的不好。
 		LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。"
 		DislikeNPC: 太吵了！ {NPCName} 只会每天制造噪音！我受不了她！
-		LikeNPC_Princess:  {NPCName} 是个异常的讨人喜欢的孩子。
+		LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。"
 		Princess_LovesNPC: 我喜欢 {NPCName}。
 	}
 }

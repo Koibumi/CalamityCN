@@ -3936,76 +3936,76 @@ VoidstoneWall: {
 }
 
 HardenedEutrophicSand: {
-	DisplayName: 硬化富营养沙
-	Tooltip: ""
+	// DisplayName: Hardened Eutrophic Sand
+	// Tooltip: ""
 }
 
 FireTurret: {
-	DisplayName: 火焰喷射炮塔
-	Tooltip: ""
+	// DisplayName: Fire Turret
+	// Tooltip: ""
 }
 
 HostileFireTurret: {
-	DisplayName: 敌对火焰喷射炮塔
-	Tooltip: ""
+	// DisplayName: Hostile Fire Turret
+	// Tooltip: ""
 }
 
 HostileIceTurret: {
-	DisplayName: 敌对冰球炮塔
-	Tooltip: ""
+	// DisplayName: Hostile Ice Turret
+	// Tooltip: ""
 }
 
 HostileLabTurret: {
-	DisplayName: 敌对实验室炮塔
-	Tooltip: ""
+	// DisplayName: Hostile Lab Turret
+	// Tooltip: ""
 }
 
 HostileLaserTurret: {
-	DisplayName: 敌对激光炮塔
-	Tooltip: ""
+	// DisplayName: Hostile Laser Turret
+	// Tooltip: ""
 }
 
 HostileOnyxTurret: {
-	DisplayName: 敌对玛瑙炮塔
-	Tooltip: ""
+	// DisplayName: Hostile Onyx Turret
+	// Tooltip: ""
 }
 
 HostilePlagueTurret: {
-	DisplayName: 敌对瘟疫爆弹炮塔
-	Tooltip: ""
+	// DisplayName: Hostile Plague Turret
+	// Tooltip: ""
 }
 
 HostileWaterTurret: {
-	DisplayName: 敌对水流炮塔
-	Tooltip: ""
+	// DisplayName: Hostile Water Turret
+	// Tooltip: ""
 }
 
 IceTurret: {
-	DisplayName: 冰球炮塔
-	Tooltip: ""
+	// DisplayName: Ice Turret
+	// Tooltip: ""
 }
 
 LabTurret: {
-	DisplayName: 实验室炮塔
-	Tooltip: ""
+	// DisplayName: Lab Turret
+	// Tooltip: ""
 }
 
 LaserTurret: {
-	DisplayName: 激光炮塔
-	Tooltip: ""
+	// DisplayName: Laser Turret
+	// Tooltip: ""
 }
 
 OnyxTurret: {
-	DisplayName: 玛瑙炮塔
-	Tooltip: ""
+	// DisplayName: Onyx Turret
+	// Tooltip: ""
 }
 
 PlagueTurret: {
-	DisplayName: 瘟疫爆弹炮塔
-	Tooltip: ""
+	// DisplayName: Plague Turret
+	// Tooltip: ""
 }
 
 WaterTurret: {
-	DisplayName: 水流炮塔
-	Tooltip: ""
+	// DisplayName: Water Turret
+	// Tooltip: ""
 }
