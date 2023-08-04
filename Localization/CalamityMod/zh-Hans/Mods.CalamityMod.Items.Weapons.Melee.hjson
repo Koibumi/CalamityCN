@@ -252,7 +252,7 @@ CatastropheClaymore: {
 }
 
 TaintedBlade: {
-	DisplayName: 污浊之剑
+	DisplayName: 污浊之刃
 	Tooltip: 击中敌人时会造成中毒减益
 }
 
@@ -1287,7 +1287,7 @@ TrueBiomeBlade: {
 }
 
 TrueCausticEdge: {
-	DisplayName: 真·绝望之刃
+	DisplayName: 绝望之刃
 	Tooltip:
 		'''
 		发出弹射绝望光束
