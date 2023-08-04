@@ -347,7 +347,7 @@ OverloadedSoldier.DisplayName: 过载装甲骷髅
 PerennialSlime.DisplayName: 永恒史莱姆
 PhantomSpirit.DisplayName: 幻影幽灵
 Piggy.DisplayName: 小猪猪
-// PlanterasFreeTentacle.DisplayName: Plantera's Tentacle
+PlanterasFreeTentacle.DisplayName: 世纪之花触手
 ProfanedEnergyBody.DisplayName: 亵渎能量
 Rimehound.DisplayName: 雾凇猎犬
 Rotdog.DisplayName: 血犬
@@ -370,7 +370,7 @@ OldDuke: {
 
 	BossChecklistIntegration: {
 		EntryName: 硫海遗爵
-		// SpawnInfo: Defeat the Acid Rain event post-Polterghast or fish using a [i:CalamityMod/BloodwormItem] in the Sulphurous Sea
+		SpawnInfo: 在击败噬魂幽花后完成酸雨事件或使用 [i:CalamityMod/BloodwormItem] 为鱼饵在硫磺海钓鱼
 		DespawnMessage: "[c/F0E68C:硫海遗爵退回了酸雨中。]"
 	}
 }
