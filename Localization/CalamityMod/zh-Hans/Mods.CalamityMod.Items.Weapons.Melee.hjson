@@ -854,7 +854,7 @@ Oracle: {
 }
 
 Orderbringer: {
-	DisplayName: 秩序使者
+	DisplayName: 携序之剑
 	Tooltip:
 		'''
 		发射一个彩虹剑刃，持续发射能量束追踪攻击敌人
@@ -1296,7 +1296,7 @@ TrueCausticEdge: {
 }
 
 DefiledGreatsword: {
-	DisplayName: 渎神巨剑
+	DisplayName: 不洁巨剑
 	Tooltip:
 		'''
 		发射烈火、至高和日炎剑气
@@ -1316,7 +1316,7 @@ TyphonsGreed: {
 }
 
 BlightedCleaver: {
-	DisplayName: 灭神屠刀
+	DisplayName: 凋亡屠刀
 	Tooltip:
 		'''
 		发射追踪剑气
