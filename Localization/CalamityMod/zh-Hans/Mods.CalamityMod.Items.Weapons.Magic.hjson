@@ -283,7 +283,7 @@ Eternity: {
 	Tooltip:
 		'''
 		向附近敌人施咒，令它们的生命在华丽的炫光中消逝
-		This line is modified in ModifyTooltips
+		‘书内有张小马图片’
 		'''
 }
 
@@ -691,16 +691,13 @@ ShiftingSands: {
 
 SHPC: {
 	DisplayName: SHPC
-	Tooltip:
-		'''
-		[GFB]
-		'''
-	 TooltipNormal:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
 		发射会停留在空中并引发巨大爆炸的相位激光球
-		右键发射强大的能量束
-		''' 
-	 TooltipGFB: 传奇武器归来！:)
+		按下<right>键发射强大的能量束
+		'''
+	TooltipGFB: 传奇武器归来！:)
 }
 
 SkyGlaze: {
@@ -729,8 +726,8 @@ StaffofBlushie: {
 }
 
 StarShower: {
-	 DisplayName: 流星雨
-	 Tooltip: 向光标方向发射幻星
+	DisplayName: 流星雨
+	Tooltip: 向光标方向发射幻星
 }
 
 StormSpray: {
@@ -845,12 +842,12 @@ ValkyrieRay: {
 }
 
 VeeringWind: {
-	 DisplayName: 逆转之风
-	 Tooltip:
+	DisplayName: 逆转之风
+	Tooltip:
 		'''
 		发射一个击退力很强的环形风浪
 		右键发射霜波环流
-		''' 
+		'''
 }
 
 Vehemence: {
@@ -950,8 +947,8 @@ WyvernsCall: {
 
 YharimsCrystal: {
 	DisplayName: 魔君水晶
-	 GFBName: 摸君水晶
-	Tooltip: [GFB]
-	 TooltipNormal: 发射猛烈的破坏死光
-	 TooltipGFB: ……仍一跟累管
+	GFBName: 摸君水晶
+	Tooltip: "[GFB]"
+	TooltipNormal: 发射猛烈的破坏死光
+	TooltipGFB: ……仍一跟累管
 }

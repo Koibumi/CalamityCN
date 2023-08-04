@@ -74,57 +74,57 @@ ArkoftheCosmos: {
 	DisplayName: 鸿蒙方舟
 	Tooltip:
 		'''
-		This line gets set in ModifyTooltips
-		This line also gets set in ModifyTooltips
-		This line also gets set in ModifyTooltips
+		[COMBO]
+		[PARRY]
+		[BLAST]
 		你的旅程的物理顶点，拥有着能使神明分崩离析的力量
 		'''
-	 ComboInfo:
+	ComboInfo:
 		'''
-		左键进行一次五连斩，斩击以掷出剑刃结束
+		<left>键进行一次五连斩，斩击以掷出剑刃结束
 		掷出的剑刃会跟随你的光标
 		在剑刃掷出时松开左键会释放爆炸剪击
-		''' 
-	 ParryInfo:
 		'''
-		右键用剑刃向前方剪出
+	ParryInfo:
+		'''
+		<right>键用剑刃向前方剪出
 		剑刃击中敌人时会进行招架，并使你短暂无敌
 		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少160点
 		格挡后会获得10层充能，充能会强化普通攻击
-		''' 
-	 BlastInfo:
 		'''
-		当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能
+	BlastInfo:
+		'''
+		当处于强化状态时，按住上并点击<right>键会引起时空之中的大撕裂，并一次性释放所有充能
 		若释放的充能超过5层，保持按住上键将允许你冲过撕裂
-		''' 
+		'''
 }
 
 ArkoftheElements: {
 	DisplayName: 元素方舟
 	Tooltip:
 		'''
-		This line gets set in ModifyTooltips
-		This line also gets set in ModifyTooltips
-		This line also gets set in ModifyTooltips
+		[COMBO]
+		[PARRY]
+		[BLAST]
 		一对注入了泰拉大陆精华的天赐之刃，其威力足以切割现实的结构
 		'''
-	 ComboInfo:
+	ComboInfo:
 		'''
-		左键进行一次五连斩，斩击以掷出剑刃结束
-		在剑刃掷出时松开左键会造成额外伤害并获得2层充能
-		''' 
-	 ParryInfo:
+		<left>键进行一次五连斩，斩击以掷出剑刃结束
+		在剑刃掷出时松开<left>键会造成额外伤害并获得2层充能
 		'''
-		右键用剑刃向前方剪出
+	ParryInfo:
+		'''
+		<right>键用剑刃向前方剪出
 		剑刃击中敌人时会进行招架，并使你短暂无敌
 		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少100点
 		格挡后会获得10层充能，充能会强化普通攻击，让你可以同时使用两把剑刃
-		''' 
-	 BlastInfo:
 		'''
-		当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能
+	BlastInfo:
+		'''
+		当处于强化状态时，按住上并点击<right>键会引起时空之中的大撕裂，并一次性释放所有充能
 		若释放的充能超过5层，保持按住上键将允许你冲过撕裂
-		''' 
+		'''
 }
 
 AstralBlade: {
@@ -226,11 +226,11 @@ BrokenBiomeBlade: {
 	// See the attunement file for each attunement
 	Tooltip:
 		'''
-		FUNCTION_DESC
+		[FUNC]
 		在平地上站定不动时长按右键将剑插入地面，使其与环境相谐振，储存生物群系的力量
 		其他情形下轻按右键，将存有的主副调谐互换
-		主环境调谐：[无]
-		副环境调谐：[无]
+		主环境调谐：[ATT1]
+		副环境调谐：[ATT2]
 
 		'''
 	DefaultFunction: 暂无所长，静待调谐
@@ -252,8 +252,8 @@ CatastropheClaymore: {
 }
 
 TaintedBlade: {
-	 DisplayName: 污浊之剑
-	 Tooltip: 击中敌人时会造成中毒减益
+	DisplayName: 污浊之剑
+	Tooltip: 击中敌人时会造成中毒减益
 }
 
 CelestialClaymore: {
@@ -525,11 +525,13 @@ FourSeasonsGalaxia: {
 	// See the attunement file for each attunement
 	Tooltip:
 		'''
+		[FUNC]
+		[PASS]
 		寰宇自在，毋须调谐
 		全部环境调谐已存在其中
 		轻按鼠标右键切换当前调谐，鼠标在屏幕左、右侧分别对应向前、向后循环
-		主调戏 : 无
-		被动祝福 : 无
+		星系调谐：[ATT]
+		星系馈赠：[BLE]
 
 		'''
 }
@@ -538,16 +540,16 @@ FracturedArk: {
 	DisplayName: 破碎方舟
 	Tooltip:
 		'''
-		This line gets set in ModifyTooltips
+		[PARRY]
 		一把破旧生锈的剑，曾经对抗过这个世界的邪恶，现在它准备再一次发挥作用
 		'''
-	 ParryInfo:
+	ParryInfo:
 		'''
-		右键向前延展方舟
+		<right>键向前延展方舟
 		剑刃击中敌人时会进行招架，并使你短暂无敌
 		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少50点
 		格挡后会获得10层充能，充能会强化普通攻击和伤害，并让剑刃能够发射弹幕
-		''' 
+		'''
 }
 
 GaelsGreatsword: {
@@ -650,16 +652,13 @@ HellionFlowerSpear: {
 
 Hellkite: {
 	DisplayName: 地狱龙锋
-	Tooltip:
-		'''
-		[GFB]
-		'''
-	 TooltipNormal:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
 		击中敌人时召唤火焰喷泉
 		包含一只远古恶龙的力量
-		''' 
-	 TooltipGFB: "'我的最爱<3'"
+		'''
+	TooltipGFB: "'我的最爱<3'"
 }
 
 HolyCollider: {
@@ -678,14 +677,13 @@ InsidiousImpaler: {
 }
 
 IridescentExcalibur: {
-	 DisplayName: 绚辉圣剑
-
-	 Tooltip:
+	DisplayName: 绚辉圣剑
+	Tooltip:
 		'''
 		击中敌人时使其冻结并治疗自己
 		发射彩虹光束，效果取决于它们的颜色
 		右击施展真近战攻击
-		''' 
+		'''
 }
 
 Lacerator: {
@@ -696,8 +694,8 @@ Lacerator: {
 		一只十分灵活的悠悠球
 		[GFB]
 		'''
-	 TooltipNormal: 竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑
-	 TooltipGFB: 或许真能用它挑战神明吞噬者……
+	TooltipNormal: 竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑
+	TooltipGFB: 或许真能用它挑战神明吞噬者……
 }
 
 LifefruitScythe: {
@@ -824,11 +822,12 @@ OmegaBiomeBlade: {
 	// See the attunement file for each attunement
 	Tooltip:
 		'''
+		[FUNC]
+		[PASS]
 		长按鼠标右键，剑指苍穹，电闪雷鸣，剑将与环境调谐，储存生物群系的力量
 		其他情形下轻按鼠标右键，将存有的核心和辅助调谐互换
-		主环境调谐：[无]
-		副环境调谐：[无]
-
+		主环境调谐：[ATT1]
+		副环境调谐：[ATT2]
 		'''
 	DefaultFunction:
 		'''
@@ -855,15 +854,15 @@ Oracle: {
 }
 
 Orderbringer: {
-	 DisplayName: 携序之剑
-	 Tooltip:
+	DisplayName: 秩序使者
+	Tooltip:
 		'''
 		发射一个彩虹剑刃，持续发射能量束追踪攻击敌人
 		遗忘之土的白色长剑
 		你可以听到这把剑传出的虚弱而带安抚的耳语
 		'无论何地，你都不会孤身一人
 		我会永远陪伴在你身边，我的王'
-		''' 
+		'''
 }
 
 Pandemic: {
@@ -1112,14 +1111,14 @@ StreamGouge: {
 }
 
 StygianShield: {
-	 DisplayName: 混沌之盾
-	 Tooltip:
+	DisplayName: 混沌之盾
+	Tooltip:
 		'''
-		按住鼠标左键蓄力，施展一个全方向的能够贯穿敌怪的冲刺
-		右键点击扔出一个能够弹向附近敌怪直到击中的小圆盾
+		按住鼠标<left>键蓄力，施展一个全方向的能够贯穿敌怪的冲刺
+		<right>键点击扔出一个能够弹向附近敌怪直到击中的小圆盾
 		在手持该武器时免疫击退，增加 {0} 点防御
 		只有停止手持该武器 {1} 秒后才能使用其他冲刺
-		''' 
+		'''
 }
 
 SubmarineShocker: {
@@ -1256,16 +1255,16 @@ TrueArkoftheAncients: {
 	DisplayName: 远古方舟
 	Tooltip:
 		'''
-		This line gets set in ModifyTooltips
+		[PARRY]
 		锻造出来征服一切邪恶的神圣之刃
 		'''
-	 ParryInfo:
+	ParryInfo:
 		'''
-		右键向前延展方舟。剑刃击中敌人时会进行招架，并使你短暂无敌
+		<right>键向前延展方舟。剑刃击中敌人时会进行招架，并使你短暂无敌
 		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少80点
 		格挡后会获得10层充能，充能会强化普通攻击，并且剑刃会发射更加强大的弹幕
-		按住上并点击右键会释放储存的所有充能并产生强大的能量爆发
-		''' 
+		按住上并点击<right>键会释放储存的所有充能并产生强大的能量爆发
+		'''
 }
 
 TrueBiomeBlade: {
@@ -1273,17 +1272,17 @@ TrueBiomeBlade: {
 	// See the attunement file for each attunement
 	Tooltip:
 		'''
-		FUNCTION_DESC
+		[FUNC]
 		在平地上静止不动时长按鼠标右键将剑插入地面，使其与环境相谐振，储存生物群系的力量
 		其他情形下轻按鼠标右键，将存有的主副调谐互换
-		主环境调谐：[无]
-		副环境调谐：[无]
+		主环境调谐：[ATT1]
+		副环境调谐：[ATT2]
 
 		'''
 	DefaultFunction:
 		'''
 		暂无所长，静待调谐。
-        似乎你对它的修复增强了它的调谐能力
+		似乎你对它的修复增强了它的调谐能力
 		'''
 }
 
@@ -1295,15 +1294,15 @@ TrueCausticEdge: {
 		造成中毒，酸性毒液减益
 		'''
 }
-1
+
 DefiledGreatsword: {
-	 DisplayName: 不洁巨剑
-	 Tooltip:
+	DisplayName: 渎神巨剑
+	Tooltip:
 		'''
 		发射烈火、至高和日炎剑气
 		击中敌人时给予玩家暴君之怒增益
 		这个增益会增加玩家30%近战伤害和10%近战暴击率
-		''' 
+		'''
 }
 
 Tumbleweed: {
@@ -1317,13 +1316,13 @@ TyphonsGreed: {
 }
 
 BlightedCleaver: {
-	 DisplayName: 凋亡屠刀
-	 Tooltip:
+	DisplayName: 灭神屠刀
+	Tooltip:
 		'''
 		发射追踪剑气
 		剑身击中敌人时给予玩家暴君之怒增益
 		这个增益会增加玩家30%近战伤害和10%近战暴击率
-		''' 
+		'''
 }
 
 UltimusCleaver: {
