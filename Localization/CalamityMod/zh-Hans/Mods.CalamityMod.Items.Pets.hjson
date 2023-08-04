@@ -164,11 +164,11 @@ StrangeOrb: {
 }
 
 SuspiciousLookingNOU: {
-	DisplayName: 看起来可疑的NO U
+	DisplayName: 可疑的NO U
 	Tooltip:
 		'''
 		召唤一个Lil Lorde提供照明
-		'It lives!'
+		'它活了！'
 		'''
 }
 
