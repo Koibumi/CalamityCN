@@ -243,8 +243,8 @@ PerennialBar: {
 }
 
 Polterplasm: {
-	// DisplayName: Polterplasm
-	// Tooltip: It churns and seethes with ghastly malice
+	DisplayName: 灵质
+	Tooltip: 可怖恶意涌动不已
 }
 
 PlagueCellCanister: {

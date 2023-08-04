@@ -69,7 +69,7 @@ CosmicWorm: {
 
 CryoKey: {
 	DisplayName: 极寒之匙
-	GFBName: Pryo Key
+	GFBName: 酷热之匙
 	Tooltip:
 		'''
 		[SPAWN]
@@ -77,7 +77,7 @@ CryoKey: {
 		不消耗
 		'''
 	SpawnNormal: 在苔原使用以召唤极地之灵
-	SpawnGFB: Summons Pryogen...? when used in the tundra
+	SpawnGFB: 在苔原使用以召唤……赤道之灵？
 }
 
 DeathWhistle: {
@@ -135,12 +135,12 @@ EyeofDesolation: {
 	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
-		这将会是一个恐怖的夜晚……
 		在夜晚使用以召唤灾厄之影[GFB]
 		在白天时狂暴
 		不消耗
+		这将会是一个恐怖的夜晚……
 		'''
-	GFBInfo: 以你为中心，创建一个方形战斗场地
+	GFBInfo: 创建一个以你为中心的方型竞技场
 }
 
 CausticTear: {
@@ -211,11 +211,11 @@ ProfanedCore: {
 	DisplayName: 亵渎晶核
 	Tooltip:
 		'''
-		不洁火焰的核心
 		在神圣之地或地狱使用以召唤普罗维登斯
 		在不同的群落与其战斗会掉落不同的战利品
 		在夜晚时狂暴，在神圣之地外或地狱外也狂暴
 		不消耗
+		不洁火焰的核心
 		'''
 }
 
@@ -223,10 +223,10 @@ ProfanedShard: {
 	DisplayName: 亵渎碎片
 	Tooltip:
 		'''
-		自亵渎之火衍生出的碎片
-		[SPAWN]
+		[SPAWN]	
 		在神圣之地外或地狱外狂暴
 		不消耗
+		自亵渎之火衍生出的碎片
 		'''
 	SpawnNormal: 白天时在地狱或神圣之地使用以召唤亵渎守卫
 	SpawnRemix: 在地狱或神圣之地使用以召唤亵渎守卫
@@ -236,10 +236,10 @@ RuneofKos: {
 	DisplayName: 宇宙符文
 	Tooltip:
 		'''
-		亵渎圣焰的遗物
 		封印着神之仆从的无情力量
 		[SPAWN]
 		不消耗
+		亵渎圣焰的遗物
 		'''
 	SpawnInfo: 在不同地区使用以解开他们的封印
 	SpawnVoid:
@@ -247,7 +247,7 @@ RuneofKos: {
 		召唤无尽虚空
 		在地表狂暴
 		'''
-	SpawnSignus: 召唤神之使徒，西格纳斯
+	SpawnSignus: 召唤神之使徒西格纳斯
 	SpawnWeaver: 召唤风暴编织者
 }
 
@@ -292,7 +292,7 @@ Teratoma: {
 
 Terminus: {
 	DisplayName: 终末石
-	GFBName: Ogscule
+	GFBName: 终末杖
 	Tooltip:
 		'''
 		激活Boss Rush模式，再次使用以退出Boss Rush模式
@@ -304,9 +304,9 @@ YharonEgg: {
 	DisplayName: 圣佑烬昭龙蛋
 	Tooltip:
 		'''
-		一颗烬昭龙蛋的雕像，用于祭祀
 		召唤重生之龙，犽戎
 		在火墙外狂暴
 		不消耗
+		一颗烬昭龙蛋的雕像，用于祭祀
 		'''
 }

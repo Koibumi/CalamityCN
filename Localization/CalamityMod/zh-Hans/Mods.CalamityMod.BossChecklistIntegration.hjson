@@ -1,19 +1,19 @@
 AcidRainT1: {
-	EntryName: 酸雨
-	SpawnInfo: 在击败克苏鲁之眼后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
+	 EntryName: 酸雨
+	 SpawnInfo: 在击败克苏鲁之眼后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。 
 }
 
 AcidRainT2: {
-	EntryName: 酸雨 (阶段 2)
-	SpawnInfo: 在击败渊海灾虫后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
+	 EntryName: 酸雨 (阶段 2)
+	 SpawnInfo: 在击败渊海灾虫后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。 
 }
 
 AcidRainT3: {
-	EntryName: 酸雨 (阶段 3)
-	SpawnInfo: 在击败噬魂幽花后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
+	 EntryName: 酸雨 (阶段 3)
+	 SpawnInfo: 在击败噬魂幽花后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。 
 }
 
 BossRush: {
-	EntryName: Boss Rush
-	SpawnInfo: 使用在深渊底部找到的[i:CalamityMod/Terminus]。
+	 EntryName: Boss Rush
+	 SpawnInfo: 使用在深渊底部找到的[i:CalamityMod/Terminus]。 
 }

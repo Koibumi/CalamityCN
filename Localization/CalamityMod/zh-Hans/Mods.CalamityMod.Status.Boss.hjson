@@ -28,7 +28,7 @@ EdgyBossText4: 哦，疼么？
 EdgyBossText5: 还没完呢！小子！
 EdgyBossText6: 神！不惧死亡！
 EdgyBossText7: 你不是神……但你的灵魂仍是我的盛宴！
-// EdgyBossText8: You think...you can butcher...ME!?
+EdgyBossText8: 你以为……你可以屠杀……我!?
 // Yharon
 FlameText: 你周围的空气变得灼热起来。
 // Yharon (now unused)
@@ -106,19 +106,19 @@ SCalDesparationText2Rematch: 毫无疑问，你会遇见比我更加强大的敌
 SCalDesparationText3Rematch: 我相信你不会犯下和他一样的错误。
 SCalDesparationText4Rematch: 至于你的未来会变成什么样子，我很期待。
 // Cirrus (GFB)
-// CirrusSummonText: Are you prepared for a task most Sisyphean?
-// CirrusBirbSwarmText: Those hearts are a bit too edgy. How about a swarm of birbs instead?
-// CirrusBH2Text: Feelin' thirsty? I can fix that!
-// CirrusBH3Text: Check out this cool toy I found!
-// CirrusDoGText: I told you the talking worms were real! But you didn't believe me!
-// CirrusPhase2Text: Time for a transformation!
-// CirrusBH4Text: It's HAGE time!
-// CirrusHallowBossSpamText: I have more friends than you could possibly imagine!
-// CirrusBH5Text: Hah! You're good, but I'm better!
-// CirrusSecondBirbSwarmText: Time for another swarm!
-// CirrusNonchalantText: I'm getting tired...
-// CirrusBruhText: Just kidding! Time for my special attack!
-// CirrusGiveUpText: Meh, whatever, I'm a bit tired of this.
+CirrusSummonText: 你准备好被苦心志劳筋骨饿体肤空乏身行拂乱所为了吗？
+CirrusBirbSwarmText: 那些心有点太搞人心态了，但如果把它们换成一群鸟，阁下又要如何应对呢？
+CirrusBH2Text: 感觉到口渴了吗？我来解决这个问题！
+CirrusBH3Text: 试试我新发现的这个很cooooooooooool的玩具！
+CirrusDoGText: 我跟你说过这些会说话的虫子是真的！但是你不信我！
+CirrusPhase2Text: 时间到，变身！
+CirrusBH4Text: 现在是，微笑时间！
+CirrusHallowBossSpamText: 我的朋友，超乎你的想象！
+CirrusBH5Text: 哈！你很厉害，但是我更厉害！
+CirrusSecondBirbSwarmText: 是时候放另一群鸟了！
+CirrusNonchalantText: 我累了……
+CirrusBruhText: 哒咩！该用我的大宝贝了！
+CirrusGiveUpText: 呃，无论如何，我对此有点厌倦了。
 // April Fools
 AprilFools: 唯一神正在接近……
 AprilFoolsGFB: 不可言说的惊骇之物正在接近……

@@ -35,11 +35,11 @@ BrimstoneTargetRay.DisplayName: 狱火锁魂射线
 BrimstoneWave.DisplayName: 深渊炙颅
 BrokenApolloLens.DisplayName: 光镜
 BrokenArtemisLens.DisplayName: 光镜
-// CirrusBlast.DisplayName: Cirrus Mushroom Blast
-// CirrusBlaster.DisplayName: Cirrus Mushroom
-// CirrusPhotonRipperPrismTooth.DisplayName: Cirrus Photon Ripper Tooth
-// CirrusPhotonRipperProjectile.DisplayName: Cirrus Photon Ripper
-// CirrusVolatileVodkaBottle.DisplayName: Volatile Vodka Bottle
+CirrusBlast.DisplayName: san猪菇菇炮
+CirrusBlaster.DisplayName: 山猪大飞菇
+CirrusPhotonRipperPrismTooth.DisplayName: 山猪大锯锯
+CirrusPhotonRipperProjectile.DisplayName: 山猪超级锯
+CirrusVolatileVodkaBottle.DisplayName: 挥发伏特加瓶
 DarkEnergyBall.DisplayName: 暗能量
 DarkEnergyBall2.DisplayName: 暗能量
 DarkOrb.DisplayName: 暗之球
@@ -63,7 +63,7 @@ FlareDust.DisplayName: 灼焱余烬
 FlareDust2.DisplayName: 炎爆弹
 Flarenado.DisplayName: 灼焱龙卷
 FrostMist.DisplayName: 霜雾
-// GooglyEye.DisplayName: Googly Eye
+GooglyEye.DisplayName: 卡姿兰大眼睛
 GreatSandBlast.DisplayName: 大沙暴
 HealOrbProv.DisplayName: 治愈球
 HellfireExplosion.DisplayName: 硫火焦炎爆
@@ -78,8 +78,8 @@ HolyFire2.DisplayName: 神圣之火
 HolyFlare.DisplayName: 圣之烁光
 HolyLight.DisplayName: 神圣之光
 HolySpear.DisplayName: 神圣之矛
-// HomingGasBulb.DisplayName: Homing Gas Bulb
-// HomingGasBulbSporeGas.DisplayName: Homing Gas Bulb Spore Gas
+HomingGasBulb.DisplayName: 追踪孢子
+HomingGasBulbSporeGas.DisplayName: 孢子尾气
 IceBlast.DisplayName: 冰霜爆
 IceBomb.DisplayName: 冰锥
 IceRain.DisplayName: 冰晶雨
@@ -116,8 +116,8 @@ ProfanedSpear.DisplayName: 瘟疫长矛
 ProvidenceCrystal.DisplayName: 圣洁水晶
 ProvidenceCrystalShard.DisplayName: 神圣碎晶片
 ProvidenceHolyRay.DisplayName: 圣之耀光
-// RavagerBlast.DisplayName: Ravaging Laser
-// RavagerBlaster.DisplayName: Ravager Blaster
+RavagerBlast.DisplayName: 魔像冲击波
+RavagerBlaster.DisplayName: 魔像冲击波
 RavagerFlame.DisplayName: 湛蓝火焰
 RedLightning.DisplayName: 猩红闪电
 RedLightningFeather.DisplayName: 闪耀红羽
@@ -146,7 +146,7 @@ SwirlingFire.DisplayName: 炽焰
 ThanatosBeamStart.DisplayName: 黑 金棱镜蛇的激光
 ThanatosBeamTelegraph.DisplayName: 伽马瓦解射线
 ThanatosLaser.DisplayName: 星流脉冲激光
-// ThornBallSpike.DisplayName: Thorn Ball Spike
+ThornBallSpike.DisplayName: 刺球尖刺
 ToxicCloud.DisplayName: 毒云
 UnstableCrimulanGlob.DisplayName: 不稳定的血腥球
 UnstableEbonianGlob.DisplayName: 不稳定的黑檀球

@@ -1,17 +1,18 @@
 // Buff Descriptions
 BuffDescription: {
+
 	BeetleMight: 近战伤害和攻速分别提升 {0}% 和 {1}%
 	ChaosState: 混沌传送杖暂时被禁用
 	LeafCrystal: 释放强大的生命光流攻击附近敌人
-	WarmthExtra: 免疫{$BuffName.Chilled}，{$BuffName.Frozen}和冰河时代减益
+	WarmthExtra: 免疫冷冻、冰冻和冰河时代减益
 	WeaponImbueConfetti: 所有攻击喷出彩纸
-	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.CursedInferno}
-	WeaponImbueFire: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.OnFire}
-	WeaponImbueGold: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Midas}
-	WeaponImbueIchor: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Ichor}
-	WeaponImbueNanites: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Confused}
-	WeaponImbuePoison: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Poisoned}
-	WeaponImbueVenom: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Venom}
+	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击对敌人造成诅咒狱火减益
+	WeaponImbueFire: 近战、鞭子和盗贼攻击对敌人造成着火了减益
+	WeaponImbueGold: 近战、鞭子和盗贼攻击对敌人造成迈达斯减益
+	WeaponImbueIchor: 近战、鞭子和盗贼攻击对敌人造成灵液减益
+	WeaponImbueNanites: 近战、鞭子和盗贼攻击对敌人造成困惑减益
+	WeaponImbuePoison: 近战、鞭子和盗贼攻击对敌人造成中毒减益
+	WeaponImbueVenom: 近战、鞭子和盗贼攻击对敌人造成酸性毒液减益
 }
 
 // Vanilla NPC dialogues added by Calamity

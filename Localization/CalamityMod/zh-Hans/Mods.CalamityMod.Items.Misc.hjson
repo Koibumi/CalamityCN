@@ -211,8 +211,8 @@ VoodooDemonVoodooDoll: {
 
 // Uncategorized
 AlicornonaStick: {
-	// DisplayName: Alicorn on a Stick
-	// Tooltip: "'Congratulations, you're winner! Here's my head on a stick.'"
+	DisplayName: 棒棒天角兽
+	Tooltip: "'恭喜！你赢了！这是一根有我头的棍子'"
 }
 
 BallAndChain: {
@@ -248,7 +248,7 @@ NormalityRelocator: {
 	DisplayName: 常态定位器
 	Tooltip:
 		'''
-		Press [KEY] to teleport to the position of the mouse
+		按下[KEY]会立刻将玩家传送至光标的位置
 		传送后的30帧内会使下落速度翻倍
 		受到混沌状态减益的影响时无法进行传送
 		放在背包中时仍然有效

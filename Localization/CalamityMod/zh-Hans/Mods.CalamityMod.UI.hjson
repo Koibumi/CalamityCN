@@ -3,7 +3,7 @@ SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
 Adrenaline: 肾上腺素条
 Nanomachines: 纳米机器条
 Rage: 怒气条
-Charge: 当前充能
+Charge: 潜行条
 DefenseDamage: 防御损伤
 SulphurousWater: 硫磺海水腐蚀条
 Stealth: 潜行槽
@@ -17,13 +17,13 @@ StealthInfoText:
 	更高的潜行恢复速度会略微降低潜伏伤害
 	但这可以通过更加频繁地使用潜伏攻击来抵消其伤害降低的负面影响
 	'''
-// Difficulty UI
-DifficultyStatusText: "{0} 是 {1}。"
+Difficulty UI
+DifficultyStatusText: "{0} is {1}."
 ModeAppend: " 模式"
 Active: 开启
 NotActive: 关闭
 DifficultyShiftText: "[c/737373:按住Shift以获取更多信息]"
-CurrentlySelected: 当前选择的难度：{0}
+CurrentlySelected: 当前选择的难度 : {0}
 DifficultyClickText: "[c/919191:点击选择难度]"
 ExpertDifficultyLock: "[c/919191:只能在专家模式及以上时开启更高难度]"
 ChangingTheRules: "[c/919191:你现在无法改变规则]"
@@ -52,11 +52,11 @@ DeathExpandedInfo:
 	[c/B834E0:减益更致命，深渊更危险]
 	[c/E945FF:保持警惕，坚韧不拔至关重要]
 	'''
-DeathActivate: 死亡模式已开启，享受吧！
-DeathDeactivate: 死亡模式已关闭，你还不够享受吗？
-// Calamity Health Bar
-ExoTwinsNameNormal: XS-01 “阿尔忒弥斯”和 XS-03 “阿波罗”
-ExoTwinsNameHekate: XB-∞ “赫卡忒”之眼
+DeathActivate: 死亡模式已开启，享受吧
+DeathDeactivate: 死亡模式已关闭，你还不够享受吗
+//Calamity Health Bar
+ExoTwinsNameNormal: XS-01阿尔忒弥斯 与 XS-03阿波罗
+ExoTwinsNameHekate: XB-∞ 赫卡忒之眼
 ExtensionDisplay: ({0} left: {1})
 
 ExtensionName: {
@@ -115,10 +115,10 @@ Cooldowns: {
 
 // Draedon UI
 Contact: 联络
-Summon: 召唤
-Evoke: 唤醒
+Summon: 生成
+Evoke: 唤起
 Communicate: 对话
-Cost: 花费：
+Cost: "代价: "
 ConfirmationText: 你确定么？
 UpgradesRequired: 解密失败: 需升级密码破译器.
 ThanatosIcon: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。
@@ -136,7 +136,7 @@ Hologram: {
 	Text7: 特此通知：所有雇员均需要为高斯武器的射击（包括在批准的测试演习期间内）所造成的任何附带损害承担全部责任。附带损害包括但不限于：使实验器材电流紊乱、误伤其他工作人员，和震坏装有热可可的咖啡杯。
 	Text8: 安保力场生成器将蒸发所有未经授权的设备和人员。请将你的个人物品安置在场外指定的储物柜中，也不要带任何未经认证的家属或宠物进行参观。因违反本规定而造成的器材损坏和尸体处理将由涉事人员亲自承担责任。
 	Text9: 如果有人设法闯入受限制的测试设施，至少要记录下任何意外的烧伤、撕裂伤、瘀伤、骨折... ...外伤、冲击伤或其它伤害（无论伤口来源于何种人员）。感谢各位的合作。
-	Text10: 电力系统已被......严重破坏。放弃研究，前往位于......的紧急出口，并迅速离开。
+	Text10: 电网已被......严重破坏。放弃研究，前往位于......的紧急出口，并迅速离开。
 	Text11: 如果与当地任何有攻击性的生物发生接触，请立即通知安保部门。我们优质的安保机器人会在第一时间对此类物种进行灭绝。
 	PostCultistText: 传感器已在时空连续体中检测到一个十分明显的扭曲。
 	EasterEgg: 别光顾着看啊，帮我一下，我被这个该死的全息图像机器卡住了。
@@ -233,7 +233,7 @@ BetterJungleTemple: 正在建造更大的丛林神庙
 JungleTempleAltar: 正在放置丛林蜥蜴祭坛
 GiantBeehive: 正在建造巨大蜂巢
 MechanicShed: 正在建立机械师的废弃棚屋
-VernalPass: 使丛林更加繁茂（建立常春回廊）
+VernalPass: 使丛林更加繁茂
 SunkenSea: 淹没一部分过大的沙漠
 GemAdjustment: 小心翼翼地调整宝石的深度
 DungeonArchive: 掩埋废弃档案室
@@ -248,8 +248,8 @@ IceShrine: 隐藏起一位驯兽师的雪屋（建立冰雪神龛）
 MarbleShrine: 重建帕特农神庙的一角（建立大理石神龛）
 MushroomShrine: 种植富含菌丝的蘑菇（建立蘑菇神龛）
 SurfaceShrine: 建立忍者的藏身之处（建立地表神龛）
-Aerialite: 将飞龙的宝藏在众目下隐藏
-DraedonLabs: 嗅到了铁锈与灰尘
+Aerialite: 将飞龙的宝藏在众目下隐藏（生成天蓝矿）
+DraedonLabs: 嗅到了铁锈与灰尘（建立嘉登实验室）
 HellLab: 以地狱之火锻造
 SunkenLab: 研究海洋的生物
 IceLab: 以过冷的量子建造

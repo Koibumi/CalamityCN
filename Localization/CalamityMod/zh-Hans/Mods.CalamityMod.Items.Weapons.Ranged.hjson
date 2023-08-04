@@ -345,12 +345,12 @@ DarkechoGreatbow: {
 }
 
 DeepcoreGK2: {
-	DisplayName: 深核GK2
-	Tooltip:
+	 DisplayName: 深核GK2
+	 Tooltip:
 		'''
 		子弹大小变为原来的两倍，忽略敌怪15点护甲
 		"挖到手软，赚到盆满！"
-		'''
+		''' 
 }
 
 Deathwind: {
@@ -536,7 +536,7 @@ GunkShot: {
 HalibutCannon: {
 	DisplayName: 大比目鱼炮
 	Tooltip: 是的，它现在依然强的过分
-	TooltipNormal: "'是的，它现在依然强的过分'"
+ 	TooltipNormal: "'是的，它现在依然强的过分'"
 	TooltipGFB: "'不，它现在弱的过分'"
 }
 
@@ -702,12 +702,12 @@ MidasPrime: {
 		至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
 		反弹的子弹必定暴击，并且会基于反弹的次数增加伤害
 		'''
-	UltrakillEasterEgg:
+	/* UltrakillEasterEgg:
 		'''
 		MANKIND IS DEAD.
 		BLOOD IS FUEL.
 		HELL IS FULL.
-		'''
+		''' */
 }
 
 MineralMortar: {
@@ -846,15 +846,15 @@ Photoviscerator: {
 }
 
 PlagueTaintedSMG: {
-	DisplayName: 玷污之疫SMG
-	Tooltip:
+	 DisplayName: 玷污之疫SMG
+	 Tooltip:
 		'''
 		发射瘟疫子弹，在暴击时生成瘟疫自爆无人机
 		敌怪越近，子弹的伤害和击退更高
 		无人机击中有瘟疫减益的敌怪时会暴击
 		右键发射无人机群
 		近距离射击时对敌怪造成额外伤害
-		'''
+		''' 
 }
 
 PlanetaryAnnihilation: {
@@ -1084,8 +1084,8 @@ Starmada: {
 }
 
 Starmageddon: {
-	DisplayName: 末日星河
-	Tooltip: 用暗日能量投映出宇宙毁灭的终局
+	 DisplayName: 末日星河
+	 Tooltip: 用暗日能量投映出宇宙毁灭的终局
 }
 
 StarSputter: {

@@ -19,5 +19,5 @@ Sleek.DisplayName: 光滑
 Unbalanced.DisplayName: 失衡
 Vicious.DisplayName: 恶毒
 // Why this is here is beyond me
-// RogueAccessoryPrefix.DisplayName: Rogue Accessory Prefix
-// RogueWeaponPrefix.DisplayName: Rogue Weapon Prefix
+RogueAccessoryPrefix.DisplayName: 盗贼饰品修饰语
+RogueWeaponPrefix.DisplayName: 盗贼武器修饰语

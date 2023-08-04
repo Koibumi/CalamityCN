@@ -164,12 +164,12 @@ StrangeOrb: {
 }
 
 SuspiciousLookingNOU: {
-	// DisplayName: Suspicious Looking NO U
-	/* Tooltip:
+	DisplayName: 看起来可疑的NO U
+	Tooltip:
 		'''
-		Summons a Lil Lorde that provides light
+		召唤一个Lil Lorde提供照明
 		'It lives!'
-		''' */
+		'''
 }
 
 TheEtomer: {
