@@ -316,8 +316,8 @@ EyeOfNight: {
 
 FlamsteedRing: {
 	DisplayName: 月陨天环
-	NoSpaceTextTop: 无法部署
-	NoSpaceTextBottom: 空间不足!
+	// NoSpaceTextTop: Cannot Deploy
+	// NoSpaceTextBottom: Insufficient space!
 	Tooltip:
 		'''
 		召唤一架可控的巨型战甲
@@ -385,15 +385,15 @@ GastricBelcherStaff: {
 }
 
 GlacialEmbrace: {
-	DisplayName: 冰川之拥
-	Tooltip:
+	 DisplayName: 冰川之拥
+	 Tooltip:
 		'''
 		释放古老冰霜城堡的力量
 		你可以额外消耗一格召唤栏位以召唤一个额外的环轨冰钉
 		这些冰钉会以极快的速度冲向附近的敌人，对他们造成大量伤害
 		冰钉发射后需要一段时间恢复
 		按下右键时会在目标周围生成冰钉的复制体，冰钉复制体会缓慢汇聚并爆裂
-		'''
+		''' 
 }
 
 GodspawnHelixStaff: {
@@ -452,13 +452,13 @@ InfectedRemote: {
 }
 
 KingofConstellationsTenryu: {
-	DisplayName: 天龙，群星的君主
-	Tooltip:
+	 DisplayName: 天龙，群星的君主
+	 Tooltip:
 		'''
 		使用4召唤栏，召唤一对天体巨龙为你而战
 		同一时间只能存在一对巨龙
 		“吞噬恒星的巨龙”
-		'''
+		''' 
 }
 
 Metastasis: {
@@ -596,13 +596,13 @@ SlimePuppetStaff: {
 
 SpikecragStaff: {
 	DisplayName: 地刺王法杖
-	Tooltip: 召唤一个地刺王来保护你
-	TooltipNormal: 召唤一个地刺王来保护你
-	TooltipGFB:
+	Tooltip: [GFB]
+	 TooltipNormal: 召唤一个地刺王来保护你
+	 TooltipGFB:
 		'''
 		召唤一个地刺王来保护你
 		击败亵渎天神以解放它真正的力量
-		'''
+		''' 
 }
 
 SquirrelSquireStaff: {
@@ -774,8 +774,8 @@ YharonsKindleStaff: {
 }
 
 MirrorofKalandra: {
-	DisplayName: 卡兰德的魔镜
-	Tooltip:
+	 DisplayName: 卡兰德的魔镜
+	 Tooltip:
 		'''
 		召唤五把上古神兵来消灭你的敌人
 		每种武器只能召唤一个
@@ -785,10 +785,10 @@ MirrorofKalandra: {
 		[c/EBC3A5:裂风会向敌人射出一根快速并且强而有力的箭矢]
 		[c/9B6856:破灭之希射出一根能分裂成三份并且穿透敌人两次的箭矢]
 		'不可超越，不可估量，不可言明'
-		'''
+		''' 
 }
 
 StellarTorusStaff: {
-	DisplayName: 星环召唤杖
-	Tooltip: 召唤一个星环轨道，用间断的激光束灼烧敌人
+	 DisplayName: 星环召唤杖
+	 Tooltip: 召唤一个星环轨道，用间断的激光束灼烧敌人
 }
