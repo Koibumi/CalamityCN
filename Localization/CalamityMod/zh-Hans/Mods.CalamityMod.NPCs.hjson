@@ -673,7 +673,7 @@ FAP: {
 
 	// Death Count stuffs
 	DeathCountButton: 死亡计数及捐赠者名单
-	DeathCount: 你已经死亡了{0}次。{^0:time;times}.
+	DeathCount: 你已经死亡了{0}次。
 	Death10000: 恭喜！你现在正式成为泰拉瑞亚历史上最大的loser！谁是第二？鬼才知道。
 	Death5000: 我不知道这次我该说什么了。你很糟糕，并且应该感觉到自己很糟糕？然而这已经是众所周知的事情了。
 	Death2500: 祝福你。即使我喝高了，我也躲的比你好。
