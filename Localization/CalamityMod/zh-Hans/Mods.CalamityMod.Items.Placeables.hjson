@@ -186,8 +186,8 @@ BelchingCoralBanner: {
 }
 
 SightseerSpitterBanner: {
-	// DisplayName: Sightseer Spitter Banner
-	// Tooltip: "{$CommonItemTooltip.BannerBonus}Sightseer Spitter"
+	DisplayName: 射能观星眼旗
+	Tooltip: "{$CommonItemTooltip.BannerBonus}射能观星眼"
 }
 
 BlindedAnglerBanner: {
@@ -271,8 +271,8 @@ CrystalCrawlerBanner: {
 }
 
 RenegadeWarlockBanner: {
-	// DisplayName: Renegade Warlock Banner
-	// Tooltip: "{$CommonItemTooltip.BannerBonus}Renegade Warlock"
+	DisplayName: 叛徒术士旗
+	Tooltip: "{$CommonItemTooltip.BannerBonus}叛徒术士"
 }
 
 CuttlefishBanner: {
@@ -396,8 +396,8 @@ ImpiousImmolatorBanner: {
 }
 
 InfernalCongealmentBanner: {
-	// DisplayName: Infernal Congealment Banner
-	// Tooltip: "{$CommonItemTooltip.BannerBonus}Infernal Congealment"
+	DisplayName: 狱火凝结物旗
+	Tooltip: "{$CommonItemTooltip.BannerBonus}狱火凝结物"
 }
 
 IrradiatedSlimeBanner: {
@@ -586,8 +586,8 @@ SkyfinBanner: {
 }
 
 SightseerColliderBanner: {
-	// DisplayName: Sightseer Collider Banner
-	// Tooltip: "{$CommonItemTooltip.BannerBonus}Sightseer Collider"
+	DisplayName: 对撞观星眼旗
+	Tooltip: "{$CommonItemTooltip.BannerBonus}对撞观星眼"
 }
 
 SoulSlurperBanner: {
