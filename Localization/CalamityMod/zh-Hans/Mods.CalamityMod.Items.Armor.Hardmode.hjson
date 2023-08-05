@@ -453,7 +453,7 @@ ReaverHeadExplore: {
 	DisplayName: 掠夺者头饰
 	Tooltip:
 		'''
-		增加40%挖掘速度和放置速度
+		增加20%挖掘速度和放置速度
 		使你暂时免疫熔岩并且在液体中行动不受阻碍
 		'''
 	SetBonus:
