@@ -1,6 +1,6 @@
 AdamantiteMelee:
 	'''
-	{$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteMelee}
+	{$LegacyTooltip.48} 近战速度提高15%移动速度提高20%
 	基于伤害减免的一半增加暴击率
 	持续造成伤害会提升防御，至多30点
 	如果不造成伤害，增加的防御会降低
@@ -24,7 +24,7 @@ AdamantiteRanged:
 	'''
 CobaltMelee:
 	'''
-	{$LegacyTooltip.48} {$ArmorSetBonus.CobaltMelee}
+	{$LegacyTooltip.48} 近战速度提高10%
 	最大移速和加速度提高10%
 	基于移速提高伤害和暴击率，上限10%
 	'''
