@@ -811,8 +811,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.BoneWings)
                 {
-                    line.Text = line.Text.Replace("10% increased movement speed, ranged damage and critical strike chance", "穿着死灵盔甲时提高10%移动速度，提高10%远程伤害和远程暴击率");
-                    line.Text = line.Text.Replace("and +30 defense while wearing the Necro Armor", "提高30点防御力");
+                    line.Text = line.Text.Replace("Halves flight time when taking a hit", "受击时飞行时间减半");
                 }
 
                 if (item.type == ItemID.MothronWings)
