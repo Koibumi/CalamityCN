@@ -57,12 +57,12 @@ DeliciousMeat: {
 }
 
 Fabsoup: {
-	// DisplayName: Pot of Pain
-	/* Tooltip:
+	DisplayName: 山猪胡辣汤
+	Tooltip:
 		'''
 		{$CommonItemTooltip.MajorStats}
-		'hrngh, soup'
-		''' */
+		'嗝~，汤'
+		'''
 }
 
 FlaskOfBrimstone: {
