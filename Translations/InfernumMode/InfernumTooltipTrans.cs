@@ -112,7 +112,7 @@ namespace CalamityCN.Translations.InfernumMode
 				}
 				if (item.type == ModContent.ItemType<PlanteraRelic>())
 				{
-					line.Text = line.Text.Replace("Be proud of your death count!\nThe more you die, the more you're learning. Keep going!", "为你的死亡次数感到骄傲！\n死的越多，学的越多。继续前进！");
+					line.Text = line.Text.Replace("Be proud of your death count!\nThe more you die, the more you're learning. Keep going!", "为死亡次数而欢呼吧！\n死亡次数越多，表示您的经验越丰富。继续加油！");
 				}
 				if (item.type == ModContent.ItemType<SkeletronRelic>())
 				{
