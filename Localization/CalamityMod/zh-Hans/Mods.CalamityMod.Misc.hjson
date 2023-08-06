@@ -35,7 +35,7 @@ IceSchematicRecipeCondition: 背包中至少放置一次雪原原型图
 // Other CombatText uses and Item Messages
 ShiftToExpand: 按住SHIFT键查看更多描述
 LearnedSchematic: 你学会了如何制作新的东西！
-CragmawVibeCheck: 环境检测
+CragmawVibeCheck: 感觉如何？
 AutocannonHot: 我焯！好烫！
 NoComputer: 未安装解密计算机
 ArkParry: 格挡！
@@ -45,7 +45,7 @@ SevensJackpot: 正中彩头！！！
 SevensBust: 破产！
 SevensDoubles: 双倍！
 SevensTriples: 三倍！
-StylishHammerHit: 时尚至极!
+StylishHammerHit: 亻尔女子
 ThirdSageBlessingText: 你已被第三贤者祝福！
 ThirdSageBlessingText2: 第三贤者收回了它的祝福……
 GenericConsumedText: "[c/8A8A8A:你已经使用过这个]"
