@@ -15,12 +15,10 @@ namespace CalamityCN
         
          public override void OnEnterWorld()
         {
-            if(ModsCall.Infernum != null)
-            {
+            /*
             Color Orange = Color.Orange;
-			Main.NewText("[炼狱汉化暂不支持]", Orange);
-            }
-            
+			Main.NewText("[汉化补丁：]", Orange);
+            */
         }
         
     }

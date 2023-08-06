@@ -1,8 +1,5 @@
 using CalamityMod;
-using CalamityMod.Items;
-using CalamityMod.Items.Accessories;
 using CalamityMod.Items.DraedonMisc;
-using CalamityMod.Items.Mounts;
 using CalamityMod.Items.Placeables.FurnitureAbyss;
 using CalamityMod.Items.Placeables.FurnitureAcidwood;
 using CalamityMod.Items.Placeables.FurnitureAncient;
@@ -15,21 +12,15 @@ using CalamityMod.Items.Placeables.FurnitureProfaned;
 using CalamityMod.Items.Placeables.FurnitureStatigel;
 using CalamityMod.Items.Placeables.FurnitureStratus;
 using CalamityMod.Items.Placeables.FurnitureVoid;
-using CalamityMod.Items.Potions;
-using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.Weapons.DraedonsArsenal;
-using CalamityMod.Items.Weapons.Magic;
-using CalamityMod.Items.Weapons.Melee;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using CalamityMod.Items.Placeables.Furniture.CraftingStations;
 using CalamityMod.Items.Placeables.Walls;
-using CalamityCN.Utils;
-using System;
 using CalamityMod.Items.Placeables.FurnitureWulfrum;
-
+using CalamityMod.Items.Placeables.PlaceableTurrets;
 
 namespace CalamityCN.Translations
 {
@@ -40,7 +31,7 @@ namespace CalamityCN.Translations
             return ModsCall.IsCN && ModsCall.Calamity != null;
         }
 
-        //重命名（这个问题怎么山猪还不锈（）
+        //重命名
         public override void SetDefaults(Item item)
         {
             if (item.type == ModContent.ItemType<WulfrumWorkbench>())
@@ -484,7 +475,7 @@ namespace CalamityCN.Translations
                 {
                     line.Text = line.Text.Replace("damage reduction", "伤害减免");
                     line.Text = line.Text.Replace("stealth generation", "潜行值恢复速度");
-
+                    line.Text = line.Text.Replace("luck", "幸运值");
                 }
 
                 if (item.CountsAsClass(DamageClass.Melee))
@@ -498,7 +489,7 @@ namespace CalamityCN.Translations
 
                 }
 
-                if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>() || item.type == ModContent.ItemType<LongRangedSensorArray>() || item.type == ModContent.ItemType<DecryptionComputer>())
+                if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>() || item.type == ModContent.ItemType<LongRangedSensorArray>() || item.type == ModContent.ItemType<DecryptionComputer>() || item.type == ModContent.ItemType<IceTurret>() || item.type == ModContent.ItemType<LabTurret>() || item.type == ModContent.ItemType<LaserTurret>() || item.type == ModContent.ItemType<OnyxTurret>() || item.type == ModContent.ItemType<PlagueTurret>() || item.type == ModContent.ItemType<WaterTurret>() || item.type == ModContent.ItemType<FireTurret>())
                 {
                     line.Text = line.Text.Replace("You don't have sufficient knowledge to create this yet", "你没有足够的知识去制作这个");
                     line.Text = line.Text.Replace("The Sunken Sea schematic must be deciphered first", "需要先获取沉沦之海原型图");
@@ -519,7 +510,24 @@ namespace CalamityCN.Translations
                     line.Text = line.Text.Replace("盗贼", "盗贱");
                 }
 
+                line.Text = line.Text.Replace(" or Revengeance", "或者复仇");
+
                 //-原版物品-
+                if (item.type == 3110 || item.type == 1865 || item.type == 899 || item.type == 900)
+                {
+                    line.Text = line.Text.Replace("近战速度、", "");
+                }
+
+                if (item.type == 3992)
+                {
+                    line.Text = line.Text.Replace("近战速度提高12%", "真近战伤害提高10%");
+                }
+
+                if (item.type == 2277)
+                {
+                    line.Text = line.Text.Replace("近战", "跳跃速度");
+                }
+
                 #region 武器
                 if (item.type == ItemID.DeathSickle)
                 {
@@ -919,127 +927,127 @@ namespace CalamityCN.Translations
                 #endregion
 
                 #region 盔甲
-                if (item.type == 89 || item.type == 80 || item.type == 76)
+                if (item.type == ItemID.CopperHelmet || item.type == 80 || item.type == 76)
                 {
                     line.Text = line.Text.Replace("5% increased damage", "伤害增加5%");
                     line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%");
                     line.Text = line.Text.Replace("5% increased movement speed", "移速增加5%");
                 }
-                if (item.type == 91 || item.type == 82 || item.type == 78)
+                if (item.type == ItemID.SilverHelmet || item.type == 82 || item.type == 78)
                 {
                     line.Text = line.Text.Replace("5% increased critical strike chance", "暴击率增加5%");
                     line.Text = line.Text.Replace("+2 life regen", "生命再生增加2点");
                     line.Text = line.Text.Replace("8% increased movement speed", "移动速度增加8%");
                 }
-                if (item.type == 954 || item.type == 90 || item.type == 81 || item.type == 77)
+                if (item.type == ItemID.AncientIronHelmet || item.type == 90 || item.type == 81 || item.type == 77)
                 {
-                    line.Text = line.Text.Replace("Reduces damage taken by 3%", "所受伤害减少3%");
+                    line.Text = line.Text.Replace("Increases damage reduction by 3%", "伤害减免增加3%");
                 }
-                if (item.type == 955 || item.type == 92 || item.type == 83 || item.type == 79)
+                if (item.type == ItemID.AncientGoldHelmet || item.type == 92 || item.type == 83 || item.type == 79)
                 {
                     line.Text = line.Text.Replace("6% increased damage", "伤害增加6%");
-                    line.Text = line.Text.Replace("Reduces damage taken by 5%", "所受伤害减少5%");
+                    line.Text = line.Text.Replace("Increases damage reduction by 5%", "伤害减免增加5%");
                     line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%");
                 }
-                if (item.type == 687 || item.type == 688 || item.type == 689)
+                if (item.type == ItemID.TinHelmet || item.type == 688 || item.type == 689)
                 {
                     line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%");
                     line.Text = line.Text.Replace("+1 life regen", "生命再生增加1点");
                     line.Text = line.Text.Replace("5% increased movement speed", "移速增加5%");
                 }
-                if (item.type == 690 || item.type == 691 || item.type == 692)
+                if (item.type == ItemID.LeadHelmet || item.type == 691 || item.type == 692)
                 {
-                    line.Text = line.Text.Replace("Reduces damage taken by 3%", "所受伤害减少3%");
+                    line.Text = line.Text.Replace("Increases damage reduction by 3%", "伤害减免增加3%");
                 }
-                if (item.type == 693 || item.type == 694 || item.type == 695)
+                if (item.type == ItemID.TungstenHelmet || item.type == 694 || item.type == 695)
                 {
                     line.Text = line.Text.Replace("7% increased damage", "伤害增加7%");
                     line.Text = line.Text.Replace("+1 life regen", "生命再生增加1点");
                     line.Text = line.Text.Replace("8% increased movement speed", "移速增加8%");
                 }
-                if (item.type == 696 || item.type == 697 || item.type == 698)
+                if (item.type == ItemID.PlatinumHelmet || item.type == 697 || item.type == 698)
                 {
                     line.Text = line.Text.Replace("6% increased damage", "伤害增加6%");
                     line.Text = line.Text.Replace("5% increased critical strike chance", "暴击率增加5%");
                     line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%");
                 }
-                if (item.type == 956 || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
+                if (item.type == ItemID.AncientShadowHelmet || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
                 {
                     line.Text = line.Text.Replace("5% increased damage and 7% increased jump speed", "增加5%伤害和7%跳跃速度");
                 }
-                if (item.type == 792 || item.type == 793 || item.type == 794)
+                if (item.type == ItemID.CrimsonHelmet || item.type == 793 || item.type == 794)
                 {
                     line.Text = line.Text.Replace("life regen", "生命再生");
                 }
-                if (item.type == 3187 || item.type == 3188 || item.type == 3189)
+                if (item.type == ItemID.GladiatorHelmet || item.type == 3188 || item.type == 3189)
                 {
                     line.Text = line.Text.Replace("3% increased rogue damage", "增加3%盗贼伤害");
                     line.Text = line.Text.Replace("3% increased rogue critical strike chance", "增加3%盗贼暴击率");
                     line.Text = line.Text.Replace("3% increased rogue velocity", "增加3%盗贼弹幕速度");
                 }
-                if (item.type == 371 || item.type == 372 || item.type == 373 || item.type == 374 || item.type == 375)
+                if (item.type == ItemID.CobaltHat || item.type == 372 || item.type == 373 || item.type == 374 || item.type == 375)
                 {
                     line.Text = line.Text.Replace("Increases maximum mana by 60", "增加60最大魔力值");
                 }
-                if (item.type == 376 || item.type == 377 || item.type == 378 || item.type == 379 || item.type == 380)
+                if (item.type == ItemID.MythrilHood || item.type == 377 || item.type == 378 || item.type == 379 || item.type == 380)
                 {
                     line.Text = line.Text.Replace("Increases maximum mana by 80", "增加80最大魔力值");
                     line.Text = line.Text.Replace("12% increased damage", "伤害增加12%");
                     line.Text = line.Text.Replace("14% increased critical strike chance", "暴击率增加14%");
                 }
-                if (item.type == 400 || item.type == 401 || item.type == 402 || item.type == 403 || item.type == 404)
+                if (item.type == ItemID.AdamantiteHeadgear || item.type == 401 || item.type == 402 || item.type == 403 || item.type == 404)
                 {
                     line.Text = line.Text.Replace("Increases maximum mana by 100", "增加100最大魔力值");
                 }
-                if (item.type == 1208 || item.type == 1209)
+                if (item.type == ItemID.PalladiumBreastplate || item.type == 1209)
                 {
                     line.Text = line.Text.Replace("5% increased damage", "伤害增加5%");
                 }
-                if (item.type == 1213)
+                if (item.type == ItemID.OrichalcumBreastplate)
                 {
                     line.Text = line.Text.Replace("10% increased critical strike chance", "暴击率增加10%");
                 }
-                if (item.type == 3800 || item.type == 3801 || item.type == 3802)
+                if (item.type == ItemID.SquireGreatHelm || item.type == 3801 || item.type == 3802)
                 {
                     line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害");
                     line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
                     line.Text = line.Text.Replace("15% increased movement speed", "移速增加15%");
                 }
-                if (item.type == 3803 || item.type == 3804 || item.type == 3805)
+                if (item.type == ItemID.HuntressWig || item.type == 3804 || item.type == 3805)
                 {
                     line.Text = line.Text.Replace("10% increased minion and ranged damage", "增加10%召唤和远程伤害");
                     line.Text = line.Text.Replace("10% chance to not consume ammo", "10%几率不消耗弹药");
                 }
-                if (item.type == 3806 || item.type == 3807 || item.type == 3808)
+                if (item.type == ItemID.MonkBrows || item.type == 3807 || item.type == 3808)
                 {
                     line.Text = line.Text.Replace("Increases your max number of sentries by 1 and increases melee attack speed by 10%", "增加1最大哨兵栏，增加10%近战攻速");
                     line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害");
                     line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
                     line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
                 }
-                if (item.type == 3797 || item.type == 3798 || item.type == 3799)
+                if (item.type == ItemID.ApprenticeHat || item.type == 3798 || item.type == 3799)
                 {
                     line.Text = line.Text.Replace("5% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
                     line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
                 }
-                if (item.type == 3871 || item.type == 3872 || item.type == 3873)
+                if (item.type == ItemID.SquireAltHead || item.type == 3872 || item.type == 3873)
                 {
                     line.Text = line.Text.Replace("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生速度");
                     line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
                     line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
                 }
-                if (item.type == 3880 || item.type == 3881 || item.type == 3882)
+                if (item.type == ItemID.MonkAltHead || item.type == 3881 || item.type == 3882)
                 {
                     line.Text = line.Text.Replace("Increases your max number of sentries by 2", "增加2最大哨兵栏");
                     line.Text = line.Text.Replace("10% increased melee and minion damage", "增加10%召唤和近战伤害");
                     line.Text = line.Text.Replace("10% increased minion damage and melee speed", "增加10%召唤伤害和近战攻速");
                     line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
                 }
-                if (item.type == 3877 || item.type == 3878 || item.type == 3879)
+                if (item.type == ItemID.HuntressAltHead || item.type == 3878 || item.type == 3879)
                 {
                     line.Text = line.Text.Replace("15% increased minion and ranged damage and 20% chance to not consume ammo", "增加15%召唤和远程伤害,20%几率不消耗弹药");
                 }
-                if (item.type == 3874 || item.type == 3875 || item.type == 3876)
+                if (item.type == ItemID.ApprenticeAltHead || item.type == 3875 || item.type == 3876)
                 {
                     line.Text = line.Text.Replace("10% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
                 }

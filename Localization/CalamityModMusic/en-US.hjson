@@ -341,4 +341,37 @@ Mods: {
 			}
 		}
 	}
+
+	CalamityCN: {
+		Configs: {
+			CalamityCNConfig: {
+				DisplayName: 汉化补丁设置
+
+				Headers: {
+					炼狱模式部分配置: 炼狱模式部分配置 Header
+					CNinfernum: C Ninfernum Header
+					fjzh: fjzh Header
+				}
+
+				InfernumCNFont: {
+					Label: 标题字体转换
+					Tooltip:
+						'''
+						启用后炼狱模式下BOSS介绍标题字体将使用中文格式
+						注意：需要启用下方特殊部分才有效！
+						'''
+				}
+
+				InfernumCN: {
+					Label: 特殊部分汉化
+					Tooltip: 默认启用，除非炼狱更新或其他情况不适配了尝试关闭
+				}
+
+				fjzh: {
+					Label: fjzh
+					Tooltip: ""
+				}
+			}
+		}
+	}
 }

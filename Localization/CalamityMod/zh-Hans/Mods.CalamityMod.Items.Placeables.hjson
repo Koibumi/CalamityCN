@@ -271,8 +271,8 @@ CrystalCrawlerBanner: {
 }
 
 RenegadeWarlockBanner: {
-	DisplayName: 叛徒术士旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}叛徒术士"
+	DisplayName: Renegade Warlock Banner
+	Tooltip: "{$CommonItemTooltip.BannerBonus}Renegade Warlock"
 }
 
 CuttlefishBanner: {
@@ -396,8 +396,8 @@ ImpiousImmolatorBanner: {
 }
 
 InfernalCongealmentBanner: {
-	DisplayName: 狱火凝结物旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}狱火凝结物"
+	DisplayName: Infernal Congealment Banner
+	Tooltip: "{$CommonItemTooltip.BannerBonus}Infernal Congealment"
 }
 
 IrradiatedSlimeBanner: {
@@ -586,8 +586,8 @@ SkyfinBanner: {
 }
 
 SightseerColliderBanner: {
-	DisplayName: 对撞观星眼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}对撞观星眼"
+	DisplayName: Sightseer Collider Banner
+	Tooltip: "{$CommonItemTooltip.BannerBonus}Sightseer Collider"
 }
 
 SoulSlurperBanner: {

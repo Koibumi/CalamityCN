@@ -695,7 +695,7 @@ SHPC: {
 	TooltipNormal:
 		'''
 		发射会停留在空中并引发巨大爆炸的相位激光球
-		按下<right>键发射强大的能量束
+		<right>发射强大的能量束
 		'''
 	TooltipGFB: 传奇武器归来！:)
 }

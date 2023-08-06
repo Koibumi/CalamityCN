@@ -7,267 +7,267 @@ Mods: {
 			}
 
 			AbyssLayer2MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Ç³²ãÉîÔ¨£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæµ…å±‚æ·±æ¸Šï¼‰
 				Tooltip: Plays 'Hadopelagic Pressure' by DM DOKURO
 			}
 
 			AbyssLayer3MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Éî²ãÉîÔ¨£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ·±å±‚æ·±æ¸Šï¼‰
 				Tooltip: Plays 'R'LYEH' by RoverdriveX
 			}
 
 			AbyssLayer4MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Ğé¿Õ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆè™šç©ºï¼‰
 				Tooltip: Plays 'void' by DM DOKURO
 			}
 
 			AcidRainTier1MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ËáĞÔ±©Óê£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆé…¸æ€§æš´é›¨ï¼‰
 				Tooltip: Plays 'corrosion!' by RoverdriveX
 			}
 
 			AcidRainTier3MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÁòËá¼¾·ç£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¡«é…¸å­£é£ï¼‰
 				Tooltip: Plays 'nuclear monsoon' by PinpinNeon
 			}
 
 			AnahitaMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨°¢ÄÈÏ£Ëş£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆé˜¿å¨œå¸Œå¡”ï¼‰
 				Tooltip: Plays 'Siren's War Cry' by DM DOKURO
 			}
 
 			AnahitasLureMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨°¢ÄÈÏ£Ëş£¬ÓÕ¶ü£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆé˜¿å¨œå¸Œå¡”ï¼Œè¯±é¥µï¼‰
 				Tooltip: Plays 'Siren's Call' by DM DOKURO
 			}
 
 			AquaticScourgeMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Ô¨º£ÔÖ³æ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ¸Šæµ·ç¾è™«ï¼‰
 				Tooltip: Plays 'Outcast of the Sulphurous Seas' by DM DOKURO
 			}
 
 			AstralInfectionMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ĞÇ»ÔÎÁÒß£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ˜Ÿè¾‰ç˜Ÿç–«ï¼‰
 				Tooltip: Plays 'The Heaven-Sent Abomination' by DM DOKURO
 			}
 
 			AstralInfectionUndergroundMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨µØÏÂĞÇ»ÔÎÁÒß£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆåœ°ä¸‹æ˜Ÿè¾‰ç˜Ÿç–«ï¼‰
 				Tooltip: Plays 'Treasures Within the Abomination' by DM DOKURO
 			}
 
 			AstrumAureusMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨°×½ğĞÇ½¢£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç™½é‡‘æ˜Ÿèˆ°ï¼‰
 				Tooltip: Plays 'Interstellar Stomper' by DM DOKURO
 			}
 
 			AstrumDeusMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ĞÇÉñÓÎÁú£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ˜Ÿç¥æ¸¸é¾™ï¼‰
 				Tooltip: Plays 'Pest of the Cosmos' by DM DOKURO
 			}
 
 			BioLabMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÈºÏµÊµÑéÊÒ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¾¤ç³»å®éªŒå®¤ï¼‰
 				Tooltip: Plays 'Engineer's Sanctum' by Heart Plus Up!
 			}
 
 			BossRushTier1MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Boss RushµÚÒ»½×¶Î£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆBoss Rushç¬¬ä¸€é˜¶æ®µï¼‰
 				Tooltip: Plays 'Ensemble of Fools' by CDMusic
 			}
 
 			BossRushTier2MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Boss RushµÚ¶ş½×¶Î£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆBoss Rushç¬¬äºŒé˜¶æ®µï¼‰
 				Tooltip: Plays 'Onslaught of Beasts' by CDMusic
 			}
 
 			BossRushTier3MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Boss RushµÚÈı½×¶Î£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆBoss Rushç¬¬ä¸‰é˜¶æ®µï¼‰
 				Tooltip: Plays 'Reign of Lords' by CDMusic
 			}
 
 			BossRushTier4MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Boss RushµÚËÄ½×¶Î£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆBoss Rushç¬¬å››é˜¶æ®µï¼‰
 				Tooltip: This music box is unfinished and does not work
 			}
 
 			BossRushTier5MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Boss RushµÚÎå½×¶Î£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆBoss Rushç¬¬äº”é˜¶æ®µï¼‰
 				Tooltip: This music box is unfinished and does not work
 			}
 
 			BrimstoneCragsMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Áò»ğÖ®ÑÂ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¡«ç«ä¹‹å´–ï¼‰
 				Tooltip: Plays 'The Step Below Hell' by DM DOKURO
 			}
 
 			BrimstoneElementalMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Áò»Ç»ğÔªËØ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¡«ç£ºç«å…ƒç´ ï¼‰
 				Tooltip: Plays 'Left Alone' by DM DOKURO
 			}
 
 			CalamitasCloneMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÔÖ¶òÖ®Ó°£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¾å„ä¹‹å½±ï¼‰
 				Tooltip: Plays 'Raw, Unfiltered Calamity' by DM DOKURO
 			}
 
 			CalamitasDefeatMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÔÖ¶òµÚËÄ²¿·Ö£¨½ÓÊÜ£©£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¾å„ç¬¬å››éƒ¨åˆ†ï¼ˆæ¥å—ï¼‰ï¼‰
 				Tooltip: Plays 'Stained, Brutal Calamity (Acceptance)' by DM DOKURO
 			}
 
 			CalamitasPhase1MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÔÖ¶òµÚÒ»²¿·Ö£¨°§ÉË£©£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¾å„ç¬¬ä¸€éƒ¨åˆ†ï¼ˆå“€ä¼¤ï¼‰ï¼‰
 				Tooltip: Plays 'Stained, Brutal Calamity (Grief)' by DM DOKURO
 			}
 
 			CalamitasPhase2MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÔÖ¶òµÚ¶ş²¿·Ö£¨°§Ì¾£©£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¾å„ç¬¬äºŒéƒ¨åˆ†ï¼ˆå“€å¹ï¼‰ï¼‰
 				Tooltip: Plays 'Stained, Brutal Calamity (Lament)' by DM DOKURO
 			}
 
 			CalamitasPhase3MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÔÖ¶òµÚÈı²¿·Ö£¨ĞÑÎò£©£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¾å„ç¬¬ä¸‰éƒ¨åˆ†ï¼ˆé†’æ‚Ÿï¼‰ï¼‰
 				Tooltip: Plays 'Stained, Brutal Calamity (Epiphany)' by DM DOKURO
 			}
 
 			CalamityTitleMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÔÖ¶òÖ÷ÌâÇú£¬²Ğ¿áÊÀ½çÖ®´«Ëµ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¾å„ä¸»é¢˜æ›²ï¼Œæ®‹é…·ä¸–ç•Œä¹‹ä¼ è¯´ï¼‰
 				Tooltip: Plays 'The Tale of a Cruel World' by DM DOKURO
 			}
 
 			CeaselessVoidMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÎŞ¾¡Ğé¿Õ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ— å°½è™šç©ºï¼‰
 				Tooltip: Plays 'Servants of the Scourge (Type V)' by DM DOKURO
 			}
 
 			CrabulonMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨¾úÉúĞ·£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆèŒç”ŸèŸ¹ï¼‰
 				Tooltip: Plays 'Infestation' by DM DOKURO
 			}
 
 			CryogenMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨¼«µØÖ®Áé£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæåœ°ä¹‹çµï¼‰
 				Tooltip: Plays 'Antarctic Reinforcement' by DM DOKURO
 			}
 
 			DesertScourgeMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨»ÄÄ®ÔÖ³æ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆè’æ¼ ç¾è™«ï¼‰
 				Tooltip: Plays 'Guardian of the Former Seas' by DM DOKURO
 			}
 
 			DevourerofGodsPhase1MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÉñÃ÷ÍÌÊÉÕßÒ»½×¶Î£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¥æ˜åå™¬è€…ä¸€é˜¶æ®µï¼‰
 				Tooltip: Plays 'Scourge of the Universe' by DM DOKURO
 			}
 
 			DevourerofGodsPhase2MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÉñÃ÷ÍÌÊÉÕß¶ş½×¶Î£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¥æ˜åå™¬è€…äºŒé˜¶æ®µï¼‰
 				Tooltip: Plays 'Universal Collapse' by DM DOKURO
 			}
 
 			DragonfollyMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨³ÕÓŞ½ğÁú£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç—´æ„šé‡‘é¾™ï¼‰
 				Tooltip: Plays 'Murderswarm' by DM DOKURO
 			}
 
 			ExoMechsMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ĞÇÁ÷¾ŞĞµ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ˜Ÿæµå·¨æ¢°ï¼‰
 				Tooltip: Plays 'Inferior Fabrications' by PinpinNeon
 			}
 
 			HiveMindMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨¸¯³²ÒâÖ¾£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆè…å·¢æ„å¿—ï¼‰
 				Tooltip: Plays 'The Filthy Mind' by DM DOKURO and SixteenInMono
 			}
 
 			LeviathanMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÀûÎ¬Ì¹£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆåˆ©ç»´å¦ï¼‰
 				Tooltip: Plays 'Forbidden Lullaby' by DM DOKURO
 			}
 
 			OldDukeMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Áòº£ÒÅ¾ô£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¡«æµ·é—çˆµï¼‰
 				Tooltip: Plays 'Toxic Wisdom' by DM DOKURO
 			}
 
 			PerforatorsMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÑªÈâËŞÖ÷£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆè¡€è‚‰å®¿ä¸»ï¼‰
 				Tooltip: Plays 'Blood Coagulant' by DM DOKURO and SixteenInMono
 			}
 
 			PlaguebringerGoliathMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÎÁÒßÊ¹Õß¸èÀòæ«£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç˜Ÿç–«ä½¿è€…æ­Œè‰å¨…ï¼‰
 				Tooltip: Plays 'Fly of Beelzebub' by DM DOKURO
 			}
 
 			PolterghastMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÊÉ»êÓÄ»¨£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆå™¬é­‚å¹½èŠ±ï¼‰
 				Tooltip: Plays 'Feral Amalgamation' by DM DOKURO
 			}
 
 			PrimordialWyrmMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Ê¼Ô´»Ãº£ÑıÁú£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆå§‹æºå¹»æµ·å¦–é¾™ï¼‰
 				Tooltip: Plays 'Threats of the Ocean Floor' by DM DOKURO
 			}
 
 			ProfanedGuardiansMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÙôäÂÊØÎÀ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆäºµæ¸å®ˆå«ï¼‰
 				Tooltip: Plays 'Unholy Ambush' by DM DOKURO
 			}
 
 			ProvidenceMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÙôäÂÌìÉñ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆäºµæ¸å¤©ç¥ï¼‰
 				Tooltip: Plays 'Unholy Insurgency' by DM DOKURO
 			}
 
 			RavagerMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨»ÙÃğÄ§Ïñ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ¯ç­é­”åƒï¼‰
 				Tooltip: Plays 'Open Frenzy' by DM DOKURO
 			}
 
 			SignusMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ÉñÖ®Ê¹Í½£¬Î÷¸ñÄÉË¹£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¥ä¹‹ä½¿å¾’ï¼Œè¥¿æ ¼çº³æ–¯ï¼‰
 				Tooltip: Plays 'Servants of the Scourge (Type S)' by DM DOKURO
 			}
 
 			SlimeGodMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Ê·À³Ä·Ö®Éñ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆå²è±å§†ä¹‹ç¥ï¼‰
 				Tooltip: Plays 'Return to Slime' by DM DOKURO and SixteenInMono
 			}
 
 			StormWeaverMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨·ç±©±àÖ¯Õß£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆé£æš´ç¼–ç»‡è€…ï¼‰
 				Tooltip: Plays 'Servants of the Scourge (Type W)' by DM DOKURO
 			}
 
 			SulphurousSeaDayMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Áò»Çº£°×Ìì£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¡«ç£ºæµ·ç™½å¤©ï¼‰
 				Tooltip: Plays 'wasteland' by DM DOKURO
 			}
 
 			SulphurousSeaNightMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨Áò»Çº£ºÚÒ¹£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆç¡«ç£ºæµ·é»‘å¤œï¼‰
 				Tooltip: Plays 'caustic tides' by Heart Plus Up!
 			}
 
 			SunkenSeaMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨³ÁÂÙÖ®º££©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆæ²‰æ²¦ä¹‹æµ·ï¼‰
 				Tooltip: Plays 'sanctuary' by DM DOKURO
 			}
 
 			YharonLegacyMusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ ëÈÖ£¬¾É°æ£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆçŠ½æˆï¼Œæ—§ç‰ˆï¼‰
 				Tooltip: Plays 'Infernal Catharsis' by DM DOKURO
 			}
 
 			YharonPhase1MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ ëÈÖ£¬½×¶ÎÒ»£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆçŠ½æˆï¼Œé˜¶æ®µä¸€ï¼‰
 				Tooltip: Plays 'Infernal Catharsis (Rebirth)' by DM DOKURO
 			}
 
 			YharonPhase2MusicBox: {
-				DisplayName: ÒôÀÖºĞ£¨ ëÈÖ£¬½×¶Î¶ş£©
+				DisplayName: éŸ³ä¹ç›’ï¼ˆçŠ½æˆï¼Œé˜¶æ®µäºŒï¼‰
 				Tooltip: Plays 'Roar of the Jungle Dragon' by DM DOKURO
 			}
 		}
@@ -337,6 +337,39 @@ Mods: {
 					HeartPlusUp: by Heart Plus Up!
 					PinpinNeon: by PinpinNeon
 					RoverdriveX: by RoverdriveX
+				}
+			}
+		}
+	}
+
+	CalamityCN: {
+		Configs: {
+			CalamityCNConfig: {
+				DisplayName: æ±‰åŒ–é…ç½®
+
+				Headers: {
+					// ç‚¼ç‹±æ¨¡å¼éƒ¨åˆ†é…ç½®: ç‚¼ç‹±æ¨¡å¼éƒ¨åˆ†é…ç½® Header
+					CNinfernum: ç‚¼ç‹±éƒ¨åˆ†é…ç½®
+					fjzh: ç¹ç®€è½¬æ¢ï¼ˆç»´æŠ¤ä¸­ï¼‰
+				}
+
+				InfernumCNFont: {
+					Label: ç‰¹æ®Šéƒ¨åˆ†æ±‰åŒ–
+					Tooltip: é»˜è®¤å¯ç”¨ï¼Œé™¤éç‚¼ç‹±æ›´æ–°æˆ–å…¶ä»–æƒ…å†µä¸é€‚é…äº†å°è¯•å…³é—­
+				}
+
+				InfernumCN: {
+					Label: æ ‡é¢˜å­—ä½“è½¬æ¢
+					Tooltip:
+						'''
+						å¯ç”¨åç‚¼ç‹±æ¨¡å¼ä¸‹BOSSä»‹ç»æ ‡é¢˜å­—ä½“å°†ä½¿ç”¨ä¸­æ–‡æ ¼å¼
+						æ³¨æ„ï¼šéœ€è¦å¯ç”¨ä¸‹æ–¹ç‰¹æ®Šéƒ¨åˆ†æ‰æœ‰æ•ˆï¼
+						'''
+				}
+
+				fjzh: {
+					// Label: fjzh
+					// Tooltip: ""
 				}
 			}
 		}

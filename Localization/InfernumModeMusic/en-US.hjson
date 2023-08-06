@@ -1,0 +1,28 @@
+Mods: {
+	InfernumModeMusic: {
+		Projectiles.SoulDrivenHeadphonesProj.DisplayName: Soul-Driven Headphones
+
+		Items: {
+			SoulDrivenHeadphones: {
+				DisplayName: Soul-Driven Headphones
+				Tooltip:
+					'''
+					Allows you to pick and play custom Infernum music of defeated bosses, and to toggle a special boss battle theme
+					As you hold onto them, you vaguely feel a mystical presence
+					You can also hear the sounds of instruments passionately playing
+					'''
+			}
+		}
+
+		Configs: {
+			InfernumMusicConfig: {
+				DisplayName: Config
+
+				OverrideCalTheme: {
+					Label: Override Calamitas' Theme
+					Tooltip: Determines whether Calamitas' track is overridden. If disabled, Stained Brutal Calamity will play instead, assuming Calamity's Music Mod is enabled.
+				}
+			}
+		}
+	}
+}

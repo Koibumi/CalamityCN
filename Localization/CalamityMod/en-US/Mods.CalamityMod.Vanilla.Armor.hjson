@@ -200,3 +200,16 @@ Mining:
 	{$LegacyTooltip.48}
 	开采矿石有几率获得额外收益
 	'''
+Frost:
+	'''
+	{$LegacyTooltip.48}
+	Melee and ranged attacks inflict Frostbite
+	15% increased damage which scales based on how far the target is from you
+	Closer range grants melee damage, while farther range grants ranged damage
+	'''
+Necro:
+	'''
+	{$LegacyTooltip.48} {$ArmorSetBonus.Necro}
+	Allows you to temporarily survive fatal damage
+	Grants up to 7  seconds of life before imminent death
+	'''

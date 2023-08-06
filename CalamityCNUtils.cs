@@ -2,7 +2,7 @@ using CalamityCN.Systems;
 
 namespace CalamityCN
 {
-    /*
+    /*TODO
     internal static class CalamityCNUtils
     {
         public static string tc(this string strSimple)

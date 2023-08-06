@@ -78,6 +78,15 @@ namespace CalamityCN.Translations.TransInHjson
                 {
                     tooltip.Text = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.Mining", Array.Empty<object>());
                 }
+                if (player.armor[0].type == 684 && player.armor[1].type == 685 && player.armor[2].type == 686)
+                {
+                    tooltip.Text = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.Frost", Array.Empty<object>());
+                }
+                if (player.armor[0].type == 959 || (player.armor[0].type == 151 && player.armor[1].type == 152 && player.armor[2].type == 153))
+                {
+                    tooltip.Text = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.Necro", Array.Empty<object>());
+                }
+
                 int type = item.type;
                 if (type <= 955)
                 {
