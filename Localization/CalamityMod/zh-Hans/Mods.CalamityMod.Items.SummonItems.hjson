@@ -255,7 +255,7 @@ SandstormsCore: {
 	DisplayName: 沙暴核心
 	Tooltip:
 		'''
-		在沙漠使用以召唤旱海狂鲨
+		在[BIOME]使用以召唤旱海狂鲨
 		不消耗
 		'''
 }
