@@ -26,7 +26,7 @@ Drops: {
 	DownedCal: 击败灾厄之影掉落
 	DownedPlant: 击败世纪之花掉落
 	DownedCalPlant: 击败灾厄之影或世纪之花掉落
-	DownedLevi: 击败阿娜希塔和利维坦掉落
+	DownedLevi: 击败利维坦和阿娜希塔掉落
 	DownedAureus: 击败白金星舰掉落
 	DownedGolem: 击败石巨人掉落
 	DownedPBG: 击败瘟疫使者歌莉娅掉落
@@ -63,14 +63,14 @@ Drops: {
 	ProvidenceHallow:
 		'''
 		当亵渎天神在神圣召唤时掉落
-		或是当亵渎天神在夜晚召唤并击败时掉落
+		或是当亵渎天神全程在夜晚受击并被击败时掉落
 		'''
 	ProvidenceUnderworld:
 		'''
 		当亵渎天神在地狱召唤时掉落
-		或是当亵渎天神在夜晚召唤并击败时掉落
+		或是当亵渎天神全程在夜晚受击并被击败时掉落
 		'''
-	ProvidenceNight: 仅当亵渎天神在夜晚召唤并击败时掉落
+	ProvidenceNight: 仅当亵渎天神全程在夜晚受击并被击败时掉落
 	ProvidenceChallenge:
 		'''
 		当玩家仅使用[i:CalamityMod/ProfanedSoulArtifact]渎魂神物击败亵渎天神时掉落
