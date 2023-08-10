@@ -20,7 +20,7 @@ AscendantSpiritEssence: {
 
 AshesofAnnihilation: {
 	DisplayName: 湮灭余烬
-	Tooltip: 至尊女巫怒火的炽热精华
+	Tooltip: 女巫怒火的炽热精华
 }
 
 AshesofCalamity: {
@@ -145,17 +145,17 @@ EnergyCore: {
 
 EssenceofEleum: {
 	DisplayName: 冰川精华
-	Tooltip: 寒冰生命之精华
+	Tooltip: 寒冰生物之精华
 }
 
 EssenceofHavoc: {
 	DisplayName: 混乱精华
-	Tooltip: 混沌生命之精华
+	Tooltip: 混沌生物之精华
 }
 
 EssenceofSunlight: {
 	DisplayName: 日光精华
-	Tooltip: 天空、圣光及沙暴生命之精华
+	Tooltip: 天空、圣光及沙暴生物之精华
 }
 
 ExoPrism: {
@@ -208,13 +208,13 @@ MiracleMatter: {
 	Tooltip:
 		'''
 		无所定形，但潜力无穷
-		用以合成星流武器
+		每把星流武器需要一个
 		'''
 }
 
 MolluskHusk: {
 	DisplayName: 软体动物外壳
-	Tooltip: 软体动物的遗留物
+	Tooltip: 软体动物的遗骸
 }
 
 MurkyPaste: {
@@ -319,7 +319,7 @@ SuspiciousScrap: {
 
 TitanHeart: {
 	DisplayName: 泰坦之心
-	Tooltip: 同样可在星辉信标处使用
+	Tooltip: 可在星辉信标处使用
 }
 
 TrapperBulb: {
