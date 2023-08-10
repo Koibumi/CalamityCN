@@ -5,12 +5,12 @@ AlcoholPoisoning: {
 
 BloodyMaryBuff: {
 	DisplayName: 血腥玛丽
-	Description: 在血月时伤害和移动速度增加，但生命再生速度和防御力降低
+	Description: 在血月期间伤害和移动速度增加，但生命再生速度和防御力降低
 }
 
 CaribbeanRumBuff: {
 	DisplayName: 加勒比朗姆酒
-	Description: 你晕乎乎的，生命再生速度、移动速度和飞行时间增加，但防御力降低
+	Description: 生命再生速度、移动速度和飞行时间增加，但你漂浮不定且防御力降低
 }
 
 CinnamonRollBuff: {
@@ -25,7 +25,7 @@ EverclearBuff: {
 
 EvergreenGinBuff: {
 	DisplayName: 常青松子酒
-	Description: 疫病和水系减益的伤害以及伤害减免增加，但生命再生速度降低
+	Description: 疫病和水系减益的伤害增加，但生命再生速度降低
 }
 
 FabsolVodkaBuff: {
@@ -125,7 +125,7 @@ BanishingFire: {
 
 BrimstoneFlames: {
 	DisplayName: 硫磺火
-	Description: 生命快速流失
+	Description: 焚烧身心
 }
 
 BurningBlood: {
@@ -135,12 +135,12 @@ BurningBlood: {
 
 CrushDepth: {
 	DisplayName: 深渊水压
-	Description: 深海水压
+	Description: 被深海水压粉碎
 }
 
 Dragonfire: {
 	DisplayName: 龙焰
-	Description: 生命流失，移动速度降低
+	Description: 被熊熊火焰吞没
 }
 
 GodSlayerInferno: {
@@ -185,7 +185,7 @@ SagePoison: {
 
 SearingLava: {
 	DisplayName: 硫焰灼烧
-	Description: 硫火岩浆的烧灼难以承受
+	Description: 硫火岩浆烧灼着你的血肉
 }
 
 ShellfishClaps: {
@@ -200,12 +200,12 @@ Shred: {
 
 SnapClamDebuff: {
 	DisplayName: 扇贝轻夹
-	Description: 扇贝轻夹
+	Description: 被扇贝夹住
 }
 
 SulphuricPoisoning: {
 	DisplayName: 硫磺海剧毒
-	Description: 有毒的硫磺海水正在烧灼你的皮肤
+	Description: 酸性海水正在烧灼你的血肉
 }
 
 Vaporfied: {
@@ -215,12 +215,12 @@ Vaporfied: {
 
 VulnerabilityHex: {
 	DisplayName: 孱弱巫咒
-	Description: 你很虚弱
+	Description: 你的精神毅力正在消散
 }
 
 WeakBrimstoneFlames: {
 	DisplayName: 较弱的硫磺火
-	Description: 生命流失
+	Description: 使用至尊女巫的能力会使你受苦，但会让你的武器更强大
 }
 
 AlicornBuff: {
@@ -325,7 +325,7 @@ ChibiiDoGBuff: {
 
 ClassicSCalPetBuff: {
 	DisplayName: 迷你至尊灾厄眼
-	Description: 至尊灾厄之力守护着你……真可爱
+	Description: 她的至尊之力永远不会被遗忘
 }
 
 DannyDevito: {
@@ -495,12 +495,12 @@ AnechoicCoatingBuff: {
 
 AstralInjectionBuff: {
 	DisplayName: 幻星注射剂
-	Description: 魔力再生速度大幅度增加
+	Description: 极致的魔力再生速度
 }
 
 BaguetteBuff: {
 	DisplayName: 法棍
-	Description: 如果只有我知道…… ~醉仙女
+	Description: [c/B00BA5:“如果只有我知道……” ~醉仙女]
 }
 
 BloodfinBoost: {
@@ -540,21 +540,26 @@ PhotosynthesisBuff: {
 
 ShadowBuff: {
 	DisplayName: 匿影
-	Description: 你成为了一个暗影，盗贼武器在击中敌人时会生成弹幕并增加8%潜行值恢复速度
+	Description:
+		'''
+		你成为了一个暗影
+		盗贼武器在击中敌人时会生成弹幕
+		增加8%潜行值恢复速度
+		'''
 }
 
 Soaring: {
 	DisplayName: 翱翔
 	Description:
 		'''
-		飞行速度和飞行时间增加
-		近战武器剑身击中敌人后会恢复你的一小部分飞行时间
+		飞行速度和飞行时间增加10%
+		真近战击中敌人后会恢复你的一小部分飞行时间
 		'''
 }
 
 SulphurskinBuff: {
 	DisplayName: 硫磺皮肤
-	Description: 削弱硫海之水对你的影响
+	Description: 硫海之水对你的影响效果降低
 }
 
 TeslaBuff: {
@@ -564,17 +569,17 @@ TeslaBuff: {
 
 WeaponImbueBrimstone: {
 	DisplayName: 武器灌注：硫火
-	Description: 近战、鞭子和盗贼攻击会造成硫磺火减益
+	Description: 近战、鞭子和盗贼攻击会用硫磺火焰点燃敌人
 }
 
 WeaponImbueCrumbling: {
 	DisplayName: 武器灌注：碎甲
-	Description: 近战、鞭子和盗贼攻击会对敌人造成碎甲减益
+	Description: 近战、鞭子和盗贼攻击会降低敌人的伤害减免
 }
 
 WeaponImbueHolyFlames: {
 	DisplayName: 武器灌注：圣火
-	Description: 近战、鞭子和盗贼攻击会造成神圣之火减益
+	Description: 近战、鞭子和盗贼攻击会用神圣火焰焚化敌人
 }
 
 Zen: {
@@ -599,7 +604,7 @@ AbyssalDivingSuitBuff: {
 
 AbyssalDivingSuitPlates: {
 	DisplayName: 深渊潜游服金属外壳
-	Description: 外壳金属会吸收15%的伤害
+	Description: 增加15%伤害减免
 }
 
 AbyssalMadness: {
@@ -609,7 +614,7 @@ AbyssalMadness: {
 
 AdrenalineMode: {
 	DisplayName: 肾上腺素
-	Description: 伤害增加200%。可通过使用其他物品来使该加成增加至245%。
+	Description: 总伤害翻3倍。可通过使用其他物品来使该加成增加至3.45倍。
 }
 
 Afflicted: {
@@ -634,7 +639,7 @@ AquaticHeartBuff: {
 
 AquaticHeartWaterSpeed: {
 	DisplayName: 海洋之佑
-	Description: 增加15%移动速度和加速度
+	Description: 增加15%最大速度和加速度
 }
 
 AvertorBonus: {
@@ -658,8 +663,13 @@ BloodyBoost: {
 
 BossEffects: {
 	DisplayName: Boss效果
-	Description: 大幅降低敌怪刷新率
-	// ZenDescription: Greatly reducing enemy spawn rates
+	Description:
+		'''
+		附近的Boss会：
+		护士的治疗价格增加400%
+		禁用训练傀儡和大草人的碰撞箱
+		'''
+	ZenDescription: 大幅降低敌怪生成率
 }
 
 BrimflameFrenzyBuff: {
@@ -689,12 +699,12 @@ CosmicFreeze: {
 
 DivineBless: {
 	DisplayName: 圣天祝福
-	Description: 生命再生速度增加，召唤物攻击会造成放逐之火减益
+	Description: 生命再生速度增加，仆从攻击会造成放逐之火减益
 }
 
 ElysianGuard: {
 	DisplayName: 极乐守护
-	Description: 移动速度降低，各项属性增加
+	Description: 移动速度降低，其他属性增加
 }
 
 EmpyreanRage: {
@@ -739,12 +749,12 @@ IceShieldBuff: {
 
 KamiBuff: {
 	DisplayName: Kami之佑
-	Description: 最大移动速度、加速度和伤害增加
+	Description: 最大移动速度、加速度和伤害增加15%
 }
 
 Mushy: {
 	DisplayName: 与菇共生
-	Description: 防御力和生命再生速度增加
+	Description: 增加6点防御和2点生命再生速度
 }
 
 PhantomicEmpowerment: {
@@ -791,7 +801,7 @@ ProfanedCrystalBuff: {
 
 RageMode: {
 	DisplayName: 暴怒模式
-	Description: 增加35%伤害
+	Description: 总伤害乘以1.35
 }
 
 ReaverRage: {
@@ -826,7 +836,7 @@ SpiritRegen: {
 
 TarragonCloak: {
 	DisplayName: 龙蒿披风
-	Description: 接触伤害降低
+	Description: 接触伤害降低50%
 }
 
 TarragonImmunity: {
@@ -861,12 +871,16 @@ Clamity: {
 
 DoGExtremeGravity: {
 	DisplayName: 极限重力
-	Description: 飞行时间降低25%，无限飞行失效
+	Description:
+		'''
+		飞行时间降低25%
+		无限飞行失效
+		'''
 }
 
 Enraged: {
 	DisplayName: 激怒
-	Description: 所受到的伤害增加25%
+	Description: 总伤害乘以2.25，但你受到1.25倍伤害
 }
 
 Eutrophication: {
@@ -901,7 +915,11 @@ GlacialState: {
 
 IcarusFolly: {
 	DisplayName: 伊卡洛斯之愚
-	Description: 飞行时间降低33%，无限飞行失效
+	Description:
+		'''
+		飞行时间降低33%
+		无限飞行失效
+		'''
 }
 
 Irradiated: {
@@ -1040,7 +1058,7 @@ CausticStaffBuff: {
 
 CinderBlossomBuff: {
 	DisplayName: 烬之英
-	Description: 一朵灼热的花漂浮在你的头顶
+	Description: 一朵灼热的花不舒服地飘在你身边
 }
 
 CloudyWaifu: {
@@ -1075,7 +1093,7 @@ CosmicViperEngineBuff: {
 
 CosmilampBuff: {
 	DisplayName: 无尽之灯
-	Description: 宇宙之光照耀着你
+	Description: 无尽之灯会保护你
 }
 
 Crimslime: {
@@ -1105,7 +1123,7 @@ DazzlingStabberBuff: {
 
 DemonshadeSetDevilBuff: {
 	DisplayName: 赤红恶魔
-	Description: 赤红恶魔与你同在
+	Description: 赤红恶魔会保护你
 }
 
 ElementalAxeBuff: {
@@ -1124,8 +1142,8 @@ EndoHydraBuff: {
 }
 
 EntropysVigilBuff: {
-	DisplayName: 枯萎之眼
-	Description: 灾厄之影和她的兄弟们会保护你
+	DisplayName: 混乱之祈祷
+	Description: 灾厄之影永远替你警戒着周围
 }
 
 ExoskeletonCannons: {
@@ -1155,7 +1173,7 @@ FlowersOfMortalityBuff: {
 
 FrostBlossomBuff: {
 	DisplayName: 霜之华
-	Description: 一朵冰冷的花漂浮在你的头顶
+	Description: 一朵冰冷多刺的花不舒服地飘在你身边
 }
 
 FungalClumpBuff: {
@@ -1284,8 +1302,8 @@ PerditionBuff: {
 }
 
 Phantom: {
-	DisplayName: 幽花之灵
-	Description: 幽花之灵会保护你
+	DisplayName: 花灵
+	Description: 花灵会保护你
 }
 
 PlantationBuff: {
@@ -1394,7 +1412,7 @@ SolarSpirit: {
 }
 
 SoulSeekerBuff: {
-	DisplayName: 摄魂魔翼
+	DisplayName: 摄魂魔
 	Description: 它渴望汝所拥有之物……
 }
 
@@ -1425,7 +1443,7 @@ ValkyrieBuff: {
 
 VileFeederBuff: {
 	DisplayName: 腐化吞噬者
-	Description: 灵魂吞噬者宝宝会保护你
+	Description: 噬魂者宝宝会保护你
 }
 
 ViridVanguardBuff: {
@@ -1435,7 +1453,7 @@ ViridVanguardBuff: {
 
 ViriliBuff: {
 	DisplayName: 瘟疫雌蜂
-	Description: 很遗憾你不能拥抱她
+	Description: 不幸的是，她的传染性很强
 }
 
 VoidConcentrationBuff: {
