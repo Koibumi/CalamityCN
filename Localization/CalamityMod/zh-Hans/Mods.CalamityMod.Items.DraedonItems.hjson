@@ -2,7 +2,7 @@ DraedonPowerCell: {
 	DisplayName: 嘉登能源电池
 	Tooltip:
 		'''
-		在充能站使用以充能武器
+		在充能站使用以充能嘉登造物
 		也可以通过提炼机进行拆分
 		'''
 }
