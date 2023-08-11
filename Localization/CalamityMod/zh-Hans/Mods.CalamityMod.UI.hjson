@@ -10,10 +10,10 @@ Stealth: 潜行槽
 StealthShiftText: 按住Shift以获取更多盗贼潜行值信息
 StealthInfoText:
 	'''
-	当你不使用任何物品的时候，盗贼潜行值就会增加，如果玩家保持静止则增加更快
-	当潜行值达到上限时,你使用盗贼武器进行攻击时将触发一些额外的效果，称为潜伏攻击
-	潜行值只会在你攻击的时候减少，移动不会降低潜行值
-	你的伤害和暴击率会随着潜行值的提高而提高
+	当你不攻击时，盗贼潜行值就会增加，如果玩家保持静止则增加更快
+	当潜行值达到上限时，你使用盗贼武器进行攻击时将触发一些额外的效果，称为潜伏攻击
+	盗贼潜行值只会在你攻击的时候减少，移动不会降低潜行值
+	盗贼伤害和暴击率会随着盗贼潜行值的提高而提高
 	更高的潜行恢复速度会略微降低潜伏伤害
 	但这可以通过更加频繁地使用潜伏攻击来抵消其伤害降低的负面影响
 	'''
@@ -22,7 +22,7 @@ DifficultyStatusText: "{0}已{1}。"
 ModeAppend: " 模式"
 Active: 开启
 NotActive: 关闭
-DifficultyShiftText: "[c/737373:按住Shift以获取更多信息]"
+DifficultyShiftText: "[c/737373:按住“Shift”以获取更多信息]"
 CurrentlySelected: 当前选择的难度：{0}
 DifficultyClickText: "[c/919191:点击选择难度]"
 ExpertDifficultyLock: "[c/919191:只能在专家模式及以上时开启更高难度]"
@@ -57,17 +57,17 @@ DeathDeactivate: 死亡模式已关闭，你还不够享受吗？
 // Calamity Health Bar
 ExoTwinsNameNormal: XS-01 “阿尔忒弥斯”和 XS-03 “阿波罗”
 ExoTwinsNameHekate: XB-∞ “赫卡忒”之眼
-ExtensionDisplay: ({0} left: {1})
+ExtensionDisplay: （{0} 剩余： {1}）
 
 ExtensionName: {
-	Segments: 段节
+	Segments: 体节
 	Creepers: 飞眼怪
 	Hands: 手
 	Arms: 肢体
 	Guns: 枪械
 	Cannons: 大炮
 	DarkEnergy: 暗能量
-	BodyParts: 体节
+	BodyParts: 身体部位
 }
 
 // Cooldowns
@@ -120,7 +120,7 @@ Evoke: 唤醒
 Communicate: 对话
 Cost: 花费：
 ConfirmationText: 你确定么？
-UpgradesRequired: 解密失败: 需升级密码破译器.
+UpgradesRequired: 解密失败：需升级密码破译器。
 ThanatosIcon: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。
 AresIcon: 阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。
 ArtemisApolloIcon: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。
@@ -150,12 +150,12 @@ Exhumed: {
 
 Indignant: {
 	DisplayName: 愤慨
-	Description: 使用时召唤一个恶魔攻击你，但恶魔死亡后会产生治愈射线治疗你。
+	Description: 使用时召唤一个恶魔攻击你，但恶魔死亡后会掉落治疗物品治愈你。
 }
 
 Aflame: {
 	DisplayName: 魔焱
-	Description: 攻击会点燃目标，但拿着该物品时会受到伤害性减益。
+	Description: 击中敌怪时以至尊女巫之力点燃它们，但手持该物品时会受到伤害性减益。
 }
 
 Oblatory: {

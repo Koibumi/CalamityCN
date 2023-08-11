@@ -1,6 +1,6 @@
 // Critters
 AndroombaItem: {
-	DisplayName: 仙女座扫除机
+	DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
 	Tooltip:
 		'''
 		右键扫除机以嵌入溶液
@@ -9,12 +9,12 @@ AndroombaItem: {
 }
 
 BabyFlakCrabItem: {
-	DisplayName: 小高口蟹
+	DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName}"
 	Tooltip: ""
 }
 
 BabyGhostBellItem: {
-	DisplayName: 小鬼铃水母
+	DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName}"
 	Tooltip: ""
 }
 
@@ -24,7 +24,7 @@ NanodroidDysfunctionalItem: {
 }
 
 NanodroidItem: {
-	DisplayName: 纳米机器人
+	DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName}"
 	Tooltip: ""
 }
 
@@ -39,22 +39,22 @@ NanodroidPlagueRedItem: {
 }
 
 PiggyItem: {
-	DisplayName: 小猪猪
+	DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
 	Tooltip: ""
 }
 
 RepairUnitItem: {
-	DisplayName: 修复机器人
+	DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName}"
 	Tooltip: ""
 }
 
 SeaMinnowItem: {
-	DisplayName: 海洋米诺鱼
+	DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName}"
 	Tooltip: ""
 }
 
 TwinklerItem: {
-	DisplayName: 星幻萤火虫
+	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
 	Tooltip: ""
 }
 

@@ -1,17 +1,17 @@
 // Buff Descriptions
 BuffDescription: {
 	BeetleMight: 近战伤害和攻速分别提升 {0}% 和 {1}%
-	ChaosState: 混沌传送杖暂时被禁用
+	ChaosState: 混沌传送杖暂时无法传送
 	LeafCrystal: 释放强大的生命光流攻击附近敌人
-	WarmthExtra: 免疫{$BuffName.Chilled}，{$BuffName.Frozen}和冰河时代减益
+	WarmthExtra: 免疫冷冻、冰冻和冰河时代减益
 	WeaponImbueConfetti: 所有攻击喷出彩纸
-	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.CursedInferno}
-	WeaponImbueFire: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.OnFire}
-	WeaponImbueGold: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Midas}
-	WeaponImbueIchor: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Ichor}
-	WeaponImbueNanites: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Confused}
-	WeaponImbuePoison: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Poisoned}
-	WeaponImbueVenom: 近战、鞭子和盗贼攻击对敌人造成{$BuffName.Venom}
+	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
+	WeaponImbueFire: 近战、鞭子和盗贼攻击会使敌人着火
+	WeaponImbueGold: 近战、鞭子和盗贼攻击会使敌人掉落更多钱
+	WeaponImbueIchor: 近战、鞭子和盗贼攻击会降低敌人防御
+	WeaponImbueNanites: 近战、鞭子和盗贼攻击会使敌人困惑
+	WeaponImbuePoison: 近战、鞭子和盗贼攻击会使敌人中毒
+	WeaponImbueVenom: 近战、鞭子和盗贼攻击会对敌人造成酸性毒液
 }
 
 // Vanilla NPC dialogues added by Calamity
@@ -42,7 +42,7 @@ CyborgChat: {
 DemolitionistChat.DoGDefeated: 弑神者雷管？我喜欢那声音！
 
 DryadChat: {
-	DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。啊，飞蛾随着你的发展也变得越来越强大……嗯……犽戎之前没有使出他的全部力量？
+	DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。啊，飞蛾随着你的发展也变得越来越强大……
 	Hardmode: 那星辉瘟疫像水泡一样存在于这片土地上。难道世界上还有更多邪恶地形吗
 	DrunkPrincessShroom: "{0}让我来。"
 	Mushroom: 我才不想呆在这！我在这是为了捡蘑菇，呃，留着以后用。
