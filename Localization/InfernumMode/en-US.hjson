@@ -1393,6 +1393,16 @@ Mods: {
 				}
 			}
 
+			NuclearTerrorRelic: {
+				DisplayName: Nuclear Terror Relic
+				Tooltip: ""
+			}
+
+			SakuraTreetop: {
+				DisplayName: Sakura Treetop
+				Tooltip: ""
+			}
+
 			Weapons: {
 				Rogue: {
 					Dreamtastic: {

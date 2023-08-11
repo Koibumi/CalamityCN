@@ -500,7 +500,7 @@ AstralInjectionBuff: {
 
 BaguetteBuff: {
 	DisplayName: 法棍
-	Description: [c/B00BA5:“如果只有我知道……” ~醉仙女]
+	Description: "[c/B00BA5:“如果只有我知道……” ~醉仙女]"
 }
 
 BloodfinBoost: {

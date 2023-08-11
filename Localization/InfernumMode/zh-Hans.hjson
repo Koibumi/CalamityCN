@@ -1,5 +1,8 @@
 Mods: {
 	InfernumMode: {
+		InfernumText: 炼狱模式已开启，祝你好运。
+		InfernumText2: 炼狱模式已关闭，很好，继续吧。
+
 		Cooldowns: {
 			SealocketForcefieldCooldown: 力场冷却
 			InfiniteFlightCooldown: 无限飞行
@@ -1391,6 +1394,16 @@ Mods: {
 						他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。
 						'''
 				}
+			}
+
+			NuclearTerrorRelic: {
+				DisplayName: 辐核骇兽孽狱圣物
+				Tooltip: ""
+			}
+
+			SakuraTreetop: {
+				DisplayName: 樱花树
+				Tooltip: ""
 			}
 
 			Weapons: {
