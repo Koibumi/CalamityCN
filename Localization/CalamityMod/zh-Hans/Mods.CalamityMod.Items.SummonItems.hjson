@@ -2,7 +2,6 @@ Abombination: {
 	DisplayName: 瘟疫起动装置
 	Tooltip:
 		'''
-		呼叫丛林的瘟疫传播者
 		在丛林使用以召唤瘟疫使者歌莉娅
 		在丛林外狂暴
 		不消耗
@@ -13,8 +12,8 @@ AstralChunk: {
 	DisplayName: 星辉碎块
 	Tooltip:
 		'''
-		夜晚时在星辉瘟疫使用以召唤白金星舰
-		在白天时狂暴
+		在星辉瘟疫使用以召唤白金星舰
+		白天时在星辉瘟疫外狂暴
 		不消耗
 		'''
 }
@@ -51,10 +50,10 @@ CharredIdol: {
 	DisplayName: 焦炭玩偶
 	Tooltip:
 		'''
-		后果自负
 		在硫火之崖使用以召唤硫磺火元素
 		在硫火之崖外狂暴
 		不消耗
+		“后果自负”
 		'''
 }
 
@@ -84,9 +83,9 @@ DeathWhistle: {
 	DisplayName: 唤死笛哨
 	Tooltip:
 		'''
-		非常老旧的神庙笛哨
 		召唤毁灭魔像
 		不消耗
+		非常老旧的神庙笛哨
 		'''
 }
 
@@ -123,10 +122,10 @@ ExoticPheromones: {
 	DisplayName: 奇异信息素
 	Tooltip:
 		'''
-		专为吸引巨龙亚种而制
 		在丛林使用以召唤痴愚金龙
 		在丛林外狂暴
 		不消耗
+		专为吸引巨龙亚种而制
 		'''
 }
 
@@ -135,10 +134,10 @@ EyeofDesolation: {
 	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
-		这将会是一个恐怖的夜晚……
 		在夜晚使用以召唤灾厄之影[GFB]
 		在白天时狂暴
 		不消耗
+		“今晚将会是一个恐怖的夜晚……”
 		'''
 	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
@@ -165,10 +164,10 @@ NecroplasmicBeacon: {
 	DisplayName: 死灵魂炬
 	Tooltip:
 		'''
-		毛骨悚然
 		在地牢使用以召唤噬魂幽花
 		处于巨大空旷的区域时狂暴
 		不消耗
+		“毛骨悚然”
 		'''
 }
 
@@ -191,9 +190,9 @@ OverloadedSludge: {
 	DisplayName: 过载淤泥
 	Tooltip:
 		'''
-		它看起来有点被腐化了
 		召唤史莱姆之神
 		不消耗
+		“它看起来有点被腐化了”
 		'''
 }
 
@@ -211,9 +210,9 @@ ProfanedCore: {
 	DisplayName: 亵渎晶核
 	Tooltip:
 		'''
-		在神圣之地或地狱使用以召唤普罗维登斯
+		在神圣之地或地狱使用以召唤亵渎天神
 		在不同的群落与其战斗会掉落不同的战利品
-		在夜晚时狂暴，在神圣之地外或地狱外也狂暴
+		在夜晚时狂暴
 		不消耗
 		不洁火焰的核心
 		'''
@@ -236,10 +235,10 @@ RuneofKos: {
 	DisplayName: 宇宙符文
 	Tooltip:
 		'''
-		亵渎圣焰的遗物
 		封印着神之仆从的无情力量
 		[SPAWN]
 		不消耗
+		亵渎圣焰的遗物
 		'''
 	SpawnInfo: 在不同地区使用以解开他们的封印
 	SpawnVoid:
@@ -274,9 +273,9 @@ Starcore: {
 	DisplayName: 星核
 	Tooltip:
 		'''
-		愿群星指引你的前路
 		在星辉信标处使用以召唤星神游龙，不会消耗
 		在白天狂暴
+		“愿群星指引你的前路”
 		'''
 }
 

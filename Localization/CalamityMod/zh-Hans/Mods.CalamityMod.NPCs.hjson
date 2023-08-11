@@ -29,7 +29,7 @@ CragmawMire: {
 		SpawnInfo:
 			'''
 			在渊海灾虫被击败后的酸雨事件中生成。
-			用[i:CalamityMod/CausticTear]手动召唤酸雨事件
+			用[i:CalamityMod/CausticTear]开始酸雨事件
 			'''
 		DespawnMessage: "[c/F0E68C:峭咽潭把自己埋回了沙子里……]"
 	}
@@ -46,7 +46,7 @@ Mauler: {
 		SpawnInfo:
 			'''
 			在噬魂幽花被击败后的酸雨事件中生成。
-			用[i:CalamityMod/CausticTear]手动召唤酸雨事件
+			用[i:CalamityMod/CausticTear]开始酸雨事件
 			'''
 		DespawnMessage: "[c/F0E68C:渊海狂鲨转而寻找其他攻击目标。]"
 	}
@@ -59,7 +59,7 @@ NuclearTerror: {
 		SpawnInfo:
 			'''
 			在噬魂幽花被击败后的酸雨事件中生成.
-			用[i:CalamityMod/CausticTear]手动召唤酸雨事件
+			用[i:CalamityMod/CausticTear]开始酸雨事件
 			'''
 		DespawnMessage: "[c/F0E68C:辐射异形在病态的光芒中逐渐消逝。]"
 	}
@@ -194,7 +194,7 @@ Cryogen: {
 	DisplayName: 极地之灵
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在冰雪地使用[i:CalamityMod/CryoKey]
+		SpawnInfo: 在雪原生物群落使用[i:CalamityMod/CryoKey]
 		DespawnMessage: "[c/00FFFF:极地之灵消失在刺骨的暴风雪中。]"
 	}
 }
@@ -208,7 +208,7 @@ DesertScourgeHead: {
 	DisplayName: 荒漠灾虫
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在沙漠或地下沙漠使用[i:CalamityMod/DesertMedallion]
+		SpawnInfo: 在沙漠生物群落使用[i:CalamityMod/DesertMedallion]
 		DespawnMessage: "[c/EEE8AA:荒漠灾虫回到了沙子里。]"
 		EntryName: 荒漠灾虫
 	}
@@ -282,7 +282,7 @@ GreatSandShark: {
 	DisplayName: 旱海狂鲨
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore]
+		SpawnInfo: 在击败世纪之花后的沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore]
 		DespawnMessage: "[c/DAA520:沙漠顶级掠食者消失在沙丘之中。]"
 	}
 }
@@ -295,7 +295,7 @@ HiveMind: {
 	DisplayName: 腐巢意志
 
 	BossChecklistIntegration: {
-		SpawnInfo: 在腐化之地击杀腐化囊或在腐化之地使用 [i:CalamityMod/Teratoma]
+		SpawnInfo: 在腐化之地击杀腐化肿瘤或在腐化之地使用 [i:CalamityMod/Teratoma]
 		DespawnMessage: "[c/9400D3:腐巢意志掠过此地，另寻他处繁殖。]"
 	}
 }
@@ -403,7 +403,7 @@ PlaguebringerGoliath: {
 
 	BossChecklistIntegration: {
 		EntryName: 瘟疫使者歌莉娅
-		SpawnInfo: 在丛林环境使用 [i:CalamityMod/Abombination]
+		SpawnInfo: 在丛林生物群落使用 [i:CalamityMod/Abombination]
 		DespawnMessage: "[c/00FF00:样本安乐死已执行，战斗终止。]"
 	}
 }
@@ -463,7 +463,7 @@ Providence: {
 ProvSpawnDefense.DisplayName: 圣御守卫
 ProvSpawnHealer.DisplayName: 天术守卫
 ProvSpawnOffense.DisplayName: 神攻守卫
-FlamePillar.DisplayName: 火焰柱
+FlamePillar.DisplayName: 火柱
 
 RavagerBody: {
 	DisplayName: 毁灭魔像
@@ -475,7 +475,7 @@ RavagerBody: {
 	}
 }
 
-RockPillar.DisplayName: 石元柱
+RockPillar.DisplayName: 石柱
 CosmicLantern.DisplayName: 无限灯笼
 CosmicMine.DisplayName: 星界雷
 
@@ -568,7 +568,7 @@ Yharon: {
 
 	BossChecklistIntegration: {
 		EntryName: 重生之龙，犽戎
-		SpawnInfo: Use a [i:CalamityMod/YharonEgg]
+		SpawnInfo: 使用 [i:CalamityMod/YharonEgg]
 		DespawnMessage: "[c/FFA500:犽戎飞离了视野，它完成了任务。]"
 	}
 }
@@ -799,7 +799,7 @@ SEAHOE: {
 
 THIEF: {
 	DisplayName: 强盗
-	Census.SpawnCondition: 骷髅王被击败后，玩家背包里有1{$ItemName.PlatinumCoin} [i:PlatinumCoin]
+	Census.SpawnCondition: 骷髅王被击败后，玩家物品栏里有1{$ItemName.PlatinumCoin} [i:PlatinumCoin]
 
 	Name: {
 		Laura: Laura

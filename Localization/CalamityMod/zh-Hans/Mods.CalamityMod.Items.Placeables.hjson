@@ -1,10 +1,6 @@
 AstralPylon: {
 	DisplayName: 星辉地晶塔
-	Tooltip:
-		'''
-		附近有2个村民时可以传送至另一个晶塔
-		只能在匹配的生物群落中放置且每个类型只能放置一个
-		'''
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 CragsPylon: {
@@ -12,27 +8,19 @@ CragsPylon: {
 	Tooltip:
 		'''
 		可以传送至另一个晶塔
-		硫火之崖的地理环境使得附近没有村民时玩家依然能够进行传送
+		硫火之崖的地理环境使得附近没有村民时玩家依然能够传送至此晶塔
 		只能在匹配的生物群落中放置且每个类型只能放置一个
 		'''
 }
 
 SulphurPylon: {
 	DisplayName: 硫磺海晶塔
-	Tooltip:
-		'''
-		附近有2个村民时可以传送至另一个晶塔
-		只能在匹配的生物群落中放置且每个类型只能放置一个
-		'''
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 SunkenPylon: {
 	DisplayName: 沉沦海晶塔
-	Tooltip:
-		'''
-		附近有2个村民时可以传送至另一个晶塔
-		只能在匹配的生物群落中放置且每个类型只能放置一个
-		'''
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 AbyssGravel: {
@@ -759,7 +747,7 @@ ChargingStationItem: {
 	DisplayName: 充能站
 	Tooltip:
 		'''
-		使用能源电池以对嘉登军械进行充能
+		使用能源电池以对嘉登造物进行充能
 		将物品和能源电池一起放入充能站中以进行充能
 		'''
 }
@@ -1008,7 +996,7 @@ HiveMindRelic: {
 }
 
 LeviathanAnahitaRelic: {
-	DisplayName: 利维坦&阿娜希塔圣物
+	DisplayName: 利维坦和阿娜希塔圣物
 	Tooltip: ""
 }
 
@@ -1096,26 +1084,26 @@ AltarOfTheAccursedItem: {
 	Tooltip:
 		'''
 		在其上使用灾厄尘以召唤硫火女巫
-		在祭坛周围创造一个大型方型场地
+		以祭坛为中心创造一个大型方型场地
 		在整场战斗中，拾取红心只会回复一半的生命值
 		离开场地会使女巫狂暴
-		用于打造特定家具
+		{$CommonItemTooltip.SpecialCrafting}
 		'''
 }
 
 AncientAltar: {
 	DisplayName: 远古祭坛
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 AshenAltar: {
 	DisplayName: 灰烬祭坛
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 BotanicPlanter: {
 	DisplayName: 植物培养器
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 CosmicAnvilItem: {
@@ -1123,7 +1111,7 @@ CosmicAnvilItem: {
 	Tooltip:
 		'''
 		超凡之砧，能够承受恒星崩塌的压力
-		同样视为困难模式砧
+		具有之前所有等级的砧的功能
 		'''
 }
 
@@ -1132,48 +1120,48 @@ DraedonsForge: {
 	Tooltip:
 		'''
 		由无尽星流能源驱动的脉冲格纳米锻造厂
-		具有大部分主要合成站的功能
+		具有大部分主要制作站的功能
 		'''
 }
 
 EutrophicShelf: {
 	DisplayName: 富养制造架
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 MonolithAmalgam: {
 	DisplayName: 星幻柱综合体
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 PlagueInfuser: {
 	DisplayName: 瘟疫灌注器
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 ProfanedCrucible: {
 	DisplayName: 亵渎坩埚
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 SilvaBasin: {
 	DisplayName: 闪耀操纵机
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 StaticRefiner: {
 	DisplayName: 静电精炼机
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 VoidCondenser: {
 	DisplayName: 虚空压缩机
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 WulfrumLabstationItem: {
 	DisplayName: 钨钢实验桌
-	Tooltip: 用于打造特定家具
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
 CrimsonEffigy: {
@@ -1201,7 +1189,7 @@ EffigyOfDecay: {
 		'''
 		放置后，使附近的玩家获得水下呼吸能力
 		此效果在深渊中时失效
-		附近的玩家免疫硫磺剧毒
+		附近的玩家免疫硫磺海剧毒
 		'''
 }
 
@@ -1807,7 +1795,7 @@ AshenAccentSlab: {
 	Tooltip:
 		'''
 		另一种版本的灰烬石板，和临近物块的融合方式有所不同
-		深受高级建造者青睐
+		“深受高级建造者青睐”
 		'''
 }
 
@@ -2538,7 +2526,7 @@ OtherworldlyPlatform: {
 
 OtherworldlySink: {
 	DisplayName: 异域水槽
-	Tooltip: Counts as a water source
+	Tooltip: 视为水源
 }
 
 OtherworldlySofa: {
@@ -2782,13 +2770,13 @@ RunicProfanedBrick: {
 }
 
 EyeOfTheAccursedBanner: {
-	DisplayName: 诅咒之眼旗帜
+	DisplayName: 诅咒之眼旗
 	Tooltip: ""
 }
 
 LargeRitualCandle: {
 	DisplayName: 大型仪式蜡烛
-	Tooltip: 右键放置另一种风格
+	Tooltip: 按右键以另一种风格放置
 }
 
 MonolithOfTheAccursed: {
@@ -2806,7 +2794,7 @@ OccultBrickItem: {
 }
 
 OccultLegionnaireBanner: {
-	DisplayName: 玄秘军团旗帜
+	DisplayName: 玄秘军团旗
 	Tooltip: ""
 }
 
@@ -2817,7 +2805,7 @@ OccultPlatformItem: {
 
 RitualCandle: {
 	DisplayName: 仪式蜡烛
-	Tooltip: 右键以切换样式
+	Tooltip: 按右键以另一种风格放置
 }
 
 SacrilegiousBathtub: {
@@ -3477,7 +3465,7 @@ CryonicOre: {
 
 ExodiumCluster: {
 	DisplayName: 起源之簇
-	Tooltip: 来自未知的冰冷奇物。
+	Tooltip: 来自未知的冰冷奇物
 }
 
 HallowedOre: {
@@ -3587,7 +3575,7 @@ SeaPrismBrick: {
 
 SpineSapling: {
 	DisplayName: 小型脊椎
-	Tooltip: 在硫火板上种植巨型脊骨树树苗
+	Tooltip: 在硫磺火石砖上种植巨型脊骨树树苗
 }
 
 SulphurousSand: {
