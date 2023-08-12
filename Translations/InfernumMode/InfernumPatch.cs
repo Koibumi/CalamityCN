@@ -1,4 +1,3 @@
-using CalamityCN;
 using CalamityCN.Utils;
 using InfernumMode;
 using InfernumMode.Content.Achievements;
@@ -7,7 +6,6 @@ using InfernumMode.Content.Achievements.InfernumAchievements;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist;
 using InfernumMode.Content.BossIntroScreens;
 using InfernumMode.Content.Items.Accessories;
-using InfernumMode.Content.Items;
 using InfernumMode.Content.Items.Misc;
 using InfernumMode.Content.Items.Weapons.Magic;
 using InfernumMode.Content.Projectiles;
@@ -19,8 +17,6 @@ using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
-using Terraria;
-using Terraria.ModLoader;
 //using InfernumModeMusic.Projectiles;
 
 namespace CalamityCN.Translations.InfernumMode

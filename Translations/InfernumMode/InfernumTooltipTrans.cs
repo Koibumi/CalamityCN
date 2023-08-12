@@ -5,7 +5,6 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using CalamityMod.Items.SummonItems;
 using InfernumMode.Content.Items.Relics;
-using InfernumMode.Content.Items;
 using InfernumMode.Content.Items.Misc;
 
 namespace CalamityCN.Translations.InfernumMode
