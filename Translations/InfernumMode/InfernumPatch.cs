@@ -1,3 +1,4 @@
+using CalamityCN;
 using CalamityCN.Utils;
 using InfernumMode;
 using InfernumMode.Content.Achievements;
