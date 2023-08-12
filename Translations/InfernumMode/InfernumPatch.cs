@@ -1,3 +1,4 @@
+using CalamityCN;
 using CalamityCN.Utils;
 using InfernumMode;
 using InfernumMode.Content.Achievements;
@@ -13,7 +14,7 @@ using InfernumMode.Content.UI;
 using InfernumMode.Core.GlobalInstances.Players;
 using InfernumMode.Core.GlobalInstances.Systems;
 using InfernumMode.Core.ILEditingStuff;
-using InfernumModeMusic.Projectiles;
+//using InfernumModeMusic.Projectiles;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
