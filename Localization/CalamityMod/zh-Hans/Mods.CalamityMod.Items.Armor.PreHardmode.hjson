@@ -30,16 +30,16 @@ AerospecHelm: {
 	SetBonus:
 		'''
 		增加5%移动速度和近战暴击率
-		      敌人更有可能以你为目标
+		敌人更有可能以你为目标
 		'''
 }
 
 AerospecHelmet: {
 	DisplayName: 天蓝头盔
-	Tooltip: 增加5%召唤伤害和移动速度
+	Tooltip: 增加5%移动速度和召唤伤害
 	SetBonus:
 		'''
-		增加11%召唤伤害，增加1召唤栏
+		增加11%召唤伤害和1仆从栏
 		召唤天武神保护你
 		'''
 }
@@ -81,7 +81,7 @@ DesertProwlerShirt: {
 
 MarniteArchitectHeadgear: {
 	DisplayName: 合成岩建筑师头饰
-	Tooltip: 增加5格物块放置范围
+	Tooltip: 增加5格物块放置和工具范围
 	AbilityBrief: 合成岩悬浮平台 -你可以在脚下召唤一个悬浮平台以够到更高的地方
 	AbilityDescription:
 		'''
@@ -92,7 +92,7 @@ MarniteArchitectHeadgear: {
 
 MarniteArchitectToga: {
 	DisplayName: 合成岩建筑师长袍
-	Tooltip: 增加50%放置速度
+	Tooltip: 增加50%图格放置速度
 }
 
 SnowRuffianChestplate: {
@@ -122,7 +122,7 @@ StatigelArmor: {
 	CommonSetBonus:
 		'''
 		当你一次性受到超过100点伤害时，获得额外的无敌帧
-		增加跳跃高度，并获得一段额外跳跃
+		获得一段额外跳跃并增加跳跃高度
 		增加12%跳跃速度
 		'''
 }
@@ -148,7 +148,7 @@ StatigelHeadMelee: {
 		增加10%近战伤害和近战攻速
 		增加7%近战暴击率
 		'''
-	SetBonus: 敌人将更容易瞄准你
+	SetBonus: 敌人更有可能以你为目标
 }
 
 StatigelHeadRanged: {
@@ -172,10 +172,10 @@ StatigelHeadRogue: {
 
 StatigelHeadSummon: {
 	DisplayName: 斯塔提斯兜帽
-	Tooltip: 增加召唤物击退
+	Tooltip: 增加仆从击退
 	SetBonus:
 		'''
-		增加18%召唤伤害，增加1召唤栏
+		增加18%召唤伤害和1仆从栏
 		召唤史莱姆之神宝宝为你而战，它的种类取决于世界邪恶类型
 		'''
 }
@@ -223,7 +223,7 @@ VictideBreastplate: {
 		在水中时增加3点生命再生速度和10%魔法伤害
 		使用任何武器时都有10%几率发射回旋贝壳弹幕
 		贝壳造成真实伤害，不受任何职业伤害加成影响
-		提高水下灵活性，稍微减缓深渊中呼吸条消耗速度
+		提高水下机动性，稍微减缓深渊中呼吸条消耗速度
 		'''
 }
 
@@ -263,8 +263,8 @@ VictideHeadSummon: {
 	Tooltip: 增加10%召唤伤害
 	SetBonus:
 		'''
-		增加1召唤栏
-		召唤一只海胆为你而战
+		增加1仆从栏
+		召唤一只海蜗牛保护你
 		'''
 }
 
@@ -273,7 +273,7 @@ WulfrumFusionCannon: {
 	Tooltip:
 		'''
 		发射快速的中射程弹幕
-		无视敌人10点的防御力
+		无视敌人10点防御力
 		[c/878787:“自己变成召唤物后，谁还需要一根鞭子呢？”]
 		'''
 }
@@ -285,7 +285,7 @@ WulfrumHat: {
 		增加10%召唤伤害
 		自带假发
 		'''
-	SetBonus: 增加1召唤栏
+	SetBonus: 增加1仆从栏
 	AbilityBrief: 钨钢阵线-不在坐骑上时双击下键以装备钨钢能量装甲
 	AbilityDescription:
 		'''

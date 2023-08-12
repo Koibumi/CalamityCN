@@ -1584,8 +1584,8 @@ StatMeter: {
 	FoolsName: 意大利面过滤器
 	Tooltip:
 		'''
-		显示你绝大部分属性的具体数据
-		显示属性数据根据手持物品变化
+		显示玩家几乎所有属性的数据
+		进攻/实用数据根据手持物品变化
 		[REV]
 		[ITEMS]
 		[GENERIC]
@@ -1600,8 +1600,8 @@ StatMeter: {
 	ClassNameOverride: {
 		Default: 真实伤害
 		Generic: 无职业伤害
-		NoSpeed: " (不受攻速加成影响)"
-		SummonMeleeSpeed: " (鞭子)"
+		NoSpeed: "（不受攻速加成影响）"
+		SummonMeleeSpeed: "（鞭子）"
 	}
 
 	DamageStats:
@@ -1620,7 +1620,7 @@ StatMeter: {
 	// Class stats
 	RangedStats: 弹药消耗率：{0}
 	MagicStats: 魔力值消耗：{0}% | 魔力值恢复速度：{1}
-	SummonStats: 召唤栏位数量：{0} | 哨兵栏位数量：{1}
+	SummonStats: 仆从栏位数量：{0} | 哨兵栏位数量：{1}
 	WhipStats: 鞭子范围提升：{0}%
 	RogueStats:
 		'''
@@ -1632,7 +1632,7 @@ StatMeter: {
 	ToolRange: 工具范围加成：({0}, {1})
 	MiningSpeed: " | 挖掘速度加成：{0}%"
 	PlacementRange: 放置范围加成：({0}, {1})
-	TileSpeed: " | 方块放置速度加成：{0}%"
+	TileSpeed: " | 物块放置速度加成：{0}%"
 	WallSpeed: " | 墙放置速度加成：{0}%"
 	// Other stats
 	GenericStats:
@@ -1641,7 +1641,7 @@ StatMeter: {
 		移速：{3}% | 跳跃提升：{4}%
 		'''
 	FlightTime: " | 飞行时间：{0} 秒"
-	MiscStats: 仇恨值：{0} | 幸运值：{1}%
+	MiscStats: 仇恨值：{0} | 运气值：{1}%
 	AbyssStats:
 		'''
 		深渊光照强度：{0}
