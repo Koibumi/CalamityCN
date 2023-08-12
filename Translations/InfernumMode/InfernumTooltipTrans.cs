@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using CalamityCN.Utils;
 using Terraria;
@@ -6,8 +5,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using CalamityMod.Items.SummonItems;
 using InfernumMode.Content.Items.Relics;
-using Terraria.GameInput;
-using System.Linq;
+using InfernumMode.Content.Items;
 using InfernumMode.Content.Items.Misc;
 
 namespace CalamityCN.Translations.InfernumMode

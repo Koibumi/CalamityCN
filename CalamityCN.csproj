@@ -17,5 +17,8 @@
     <Reference Include="InfernumMode">
       <HintPath>..\lib\InfernumMode.dll</HintPath>
     </Reference>
+    <Reference Include="InfernumModeMusic">
+      <HintPath>..\lib\InfernumModeMusic.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
