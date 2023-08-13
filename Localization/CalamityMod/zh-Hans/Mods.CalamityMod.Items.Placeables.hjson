@@ -1328,12 +1328,12 @@ CalamitasCloneTrophy: {
 }
 
 CataclysmTrophy: {
-	DisplayName: 灾祸纪念章
+	DisplayName: 灾祸构造体纪念章
 	Tooltip: ""
 }
 
 CatastropheTrophy: {
-	DisplayName: 灾难纪念章
+	DisplayName: 灾难构造体纪念章
 	Tooltip: ""
 }
 
