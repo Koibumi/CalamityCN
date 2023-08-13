@@ -525,7 +525,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == 2277)
                 {
-                    line.Text = line.Text.Replace("近战", "跳跃");
+                    line.Text = line.Text.Replace("近战", "跳跃速度");
                 }
 
                 if (item.type == 2275)
@@ -676,7 +676,7 @@ namespace CalamityCN.Translations
                     line.Text = line.Text.Replace("Max life increased by 45", "最大生命增加45");
                 }
 
-                if (item.type == ItemID.PowerGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
+                if (item.type == ItemID.PowerGlove || item.type == ItemID.TitanGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
                 {
                     line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%");
                 }
@@ -774,7 +774,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.FrozenTurtleShell || item.type == ItemID.FrozenShield)
                 {
-                    line.Text = line.Text.Replace("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%伤害的外壳");
+                    line.Text = line.Text.Replace("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%所受伤害的外壳");
                 }
 
                 if (item.type == ItemID.DemonWings)
@@ -1120,7 +1120,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.SwiftnessPotion)
                 {
-                    line.Text = line.Text.Replace("15% increased movement speed", "增加15%移速");
+                    line.Text = line.Text.Replace("15% increased movement speed", "增加15%移动速度");
                 }
                 if (item.type == ItemID.WarmthPotion)
                 {
@@ -1130,7 +1130,7 @@ namespace CalamityCN.Translations
                 {
                     line.Text = line.Text.Replace("Teleportation is disabled while Chaos State is active", "混沌状态下禁用传送");
                 }
-                if (item.type == ItemID.EmptyBucket)
+                if (item.type == ItemID.EmptyBucket || item.type == SuperAbsorbantSponge)
                 {
                     line.Text = line.Text.Replace("Cannot be used in the Abyss", "无法在深渊使用");
                 }
@@ -1152,11 +1152,11 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.FlaskofCursedFlames || item.type == ItemID.FlaskofFire || item.type == ItemID.FlaskofGold || item.type == ItemID.FlaskofIchor || item.type == ItemID.FlaskofNanites || item.type == ItemID.FlaskofPoison || item.type == ItemID.FlaskofVenom)
                 {
-                    line.Text = line.Text.Replace("近战攻击和鞭子", "近战，鞭子和盗贼");
+                    line.Text = line.Text.Replace("近战和鞭子", "近战，鞭子和盗贼");
                 }
                 if (item.type == ItemID.FlaskofParty)
                 {
-                    line.Text = line.Text.Replace("近战攻击和鞭子", "所有");
+                    line.Text = line.Text.Replace("近战和鞭子", "所有");
                 }
 
                 #endregion

@@ -1,8 +1,8 @@
 AdamantiteMelee:
 	'''
-	{$LegacyTooltip.48} 近战速度提高15%移动速度提高20%
+	{$LegacyTooltip.48} 近战速度提高15%，移动速度提高20%
 	基于伤害减免的一半增加暴击率
-	持续造成伤害会提升防御，至多30点
+	持续造成伤害会提升防御，至多15点
 	如果不造成伤害，增加的防御会降低
 	也受防御损伤影响
 	'''
@@ -10,7 +10,7 @@ AdamantiteCaster:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteCaster}
 	基于伤害减免的一半增加暴击率
-	持续造成伤害会提升防御，至多30点
+	持续造成伤害会提升防御，至多15点
 	如果不造成伤害，增加的防御会降低
 	也受防御损伤影响
 	'''
@@ -18,7 +18,7 @@ AdamantiteRanged:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.AdamantiteRanged}
 	基于伤害减免的一半增加暴击率
-	持续造成伤害会提升防御，至多30点
+	持续造成伤害会提升防御，至多15点
 	如果不造成伤害，增加的防御会降低
 	也受防御损伤影响
 	'''
@@ -62,38 +62,35 @@ Chlorophyte:
 Gladiator:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.Gladiator}
-	+3 防御力
-	增加5%盗贼伤害和10%盗贼弹幕速度
+	增加3点防御
 	增加60点最大潜行值
+	增加5%盗贼伤害和10%盗贼弹幕速度
 	'''
 Gold:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-	所有敌人有4%几率掉落1金币，Boss掉落3金币
+	所有敌人有4%几率掉落1金币。击杀的Boss会掉落3金币
 	背包中每有5金币增加1%暴击率，上限为10%
-	挖掘速度增加25%
 	'''
 Iron:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
-	所受伤害减少6%
-	+2生命再生
-	挖掘速度增加25%
+	增加6%伤害减免
+	增加2点生命再生
 	'''
 Lead:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-	所受伤害减少3%
-	+1生命再生
+	增加3%伤害减免
+	增加1点生命再生
 	免疫击退
-	挖掘速度增加25%
 	'''
 Meteor: "{$LegacyTooltip.48} 减少太空枪50%魔力消耗"
 Molten:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.Molten}
-	增加20%额外真近战伤害
-	免疫火块和短暂免疫岩浆
+	20%额外真近战伤害
+	免疫火块并短暂免疫岩浆
 	'''
 MonkTier2:
 	'''
@@ -105,32 +102,32 @@ MythrilMelee:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MythrilMelee}
 	击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
-	秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
+	秘银火焰生成间隔为12帧
 	'''
 MythrilCaster:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MythrilCaster}
 	击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
-	秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
+	秘银火焰生成间隔为12帧
 	'''
 MythrilRanged:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MythrilRanged}
 	击中敌怪时释放秘银火焰，一段时间后会追踪敌怪
-	秘银火焰造成生成它的弹幕40%伤害，上限105点。秘银火焰生成间隔为9帧
+	秘银火焰生成间隔为12帧
 	'''
 Obsidian:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.ObsidianOutlaw}
-	免疫火块和短暂免疫岩浆
+	免疫火块并短暂免疫岩浆
 	'''
 Platinum:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.Platinum}
-	每15点防御力增加1生命再生和1%暴击率
+	每15点防御力增加1点生命再生和1%暴击率
 	上限45点防御力
 	'''
-Shadow: "{$LegacyTooltip.48} 最大移速和加速度提高15%"
+Shadow: "{$LegacyTooltip.48} 最大移动速度和加速度提高15%"
 Silver:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
@@ -146,12 +143,11 @@ Tin:
 Tungsten:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-	根据武器的击退增加暴击率
-	上限增加为10%暴击率
-	所有武器击退增加33%
-	当前奖励： {0} 暴击率来自 {1} 击退
+	增加与手持武器击退值相同的暴击率
+	上限为增加10%暴击率
+	所有武器击退增加33%，这会将上面的增幅计入
+	当前加成： 来自 {1} 击退的 {0} 暴击率
 	'''
-CrystalNinja: "{$LegacyTooltip.48} 获得冲刺能力"
 SquireTier2:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.SquireTier2}
@@ -198,18 +194,18 @@ SpectreHealing:
 Mining:
 	'''
 	{$LegacyTooltip.48}
-	开采矿石有几率获得额外收益
+	挖矿时有几率额外掉落矿石
 	'''
 Frost:
 	'''
 	{$LegacyTooltip.48}
 	近战和远程攻击会造成冻伤
 	增加15%伤害，受益的伤害类型取决于敌人与你的距离
-	近距离时类型为近战伤害，远距离时类型为远程伤害
+	近距离时增加近战伤害，远距离时增加远程伤害
 	'''
 Necro:
 	'''
 	{$LegacyTooltip.48}
 	允许你暂时免受致命伤害
-	并在至多7秒后不可避免地死亡
+	至多7秒后才会死亡
 	'''

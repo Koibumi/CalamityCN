@@ -248,16 +248,6 @@ namespace CalamityCN.Translations.TransInHjson
                                 case 3882:
                                     tooltip.Text = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.MonkTier3", Array.Empty<object>());
                                     return;
-                                default:
-								if (type > 4981 )
-								{
-                                    if (type - 4982 > 2)
-                                    {
-                                        return;
-                                    }
-                                    tooltip.Text = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.CrystalNinja", Array.Empty<object>());
-								}  
-									break;
                             }
                             break;
                     }
