@@ -774,7 +774,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.FrozenTurtleShell || item.type == ItemID.FrozenShield)
                 {
-                    line.Text = line.Text.Replace("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%伤害的外壳");
+                    line.Text = line.Text.Replace("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%所受伤害的外壳");
                 }
 
                 if (item.type == ItemID.DemonWings)
