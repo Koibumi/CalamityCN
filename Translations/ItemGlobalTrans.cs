@@ -1130,7 +1130,7 @@ namespace CalamityCN.Translations
                 {
                     line.Text = line.Text.Replace("Teleportation is disabled while Chaos State is active", "混沌状态下禁用传送");
                 }
-                if (item.type == ItemID.EmptyBucket || item.type == SuperAbsorbantSponge)
+                if (item.type == ItemID.EmptyBucket || item.type == ItemID.SuperAbsorbantSponge)
                 {
                     line.Text = line.Text.Replace("Cannot be used in the Abyss", "无法在深渊使用");
                 }
