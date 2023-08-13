@@ -475,7 +475,7 @@ namespace CalamityCN.Translations
                 {
                     line.Text = line.Text.Replace("damage reduction", "伤害减免");
                     line.Text = line.Text.Replace("stealth generation", "潜行值恢复速度");
-                    line.Text = line.Text.Replace("luck", "幸运值");
+                    line.Text = line.Text.Replace("luck", "运气值");
                 }
 
                 if (item.CountsAsClass(DamageClass.Melee))
@@ -525,7 +525,12 @@ namespace CalamityCN.Translations
 
                 if (item.type == 2277)
                 {
-                    line.Text = line.Text.Replace("近战", "跳跃速度");
+                    line.Text = line.Text.Replace("近战", "跳跃");
+                }
+
+                if (item.type == 2275)
+                {
+                    line.Text = line.Text.Replace("5% increased magic damage and critical strike chance", "魔法伤害和魔法暴击率提高5%");
                 }
 
                 #region 武器
@@ -585,11 +590,6 @@ namespace CalamityCN.Translations
                     line.Text = line.Text.Replace("Slows enemies on hit", "命中时减速敌人");
                 }
 
-                if (item.type == 3065 || item.type == 1947 || item.type == 3106)
-                {
-                    line.Text = line.Text.Replace("Receives 33% benefit from melee speed bonuses", "只能享受33%近战攻速加成效果");
-                }
-
                 if (item.type == 3859)
                 {
                     line.Text = line.Text.Replace("Shoots splitting arrows", "射出分裂的箭");
@@ -610,13 +610,13 @@ namespace CalamityCN.Translations
                 #region 工具
                 if (item.type == ItemID.Pwnhammer || item.type == ItemID.Hammush)
                 {
-                    line.Text = line.Text.Replace("Demon Altars now drop Souls of Night instead of generating ores when destroyed", "摧毁恶魔祭坛获得暗影之魂，而不是新三矿");
+                    line.Text = line.Text.Replace("Demon Altars now drop Souls of Night instead of generating ores when destroyed", "摧毁恶魔祭坛现在掉落暗影之魂而不是生成新三矿");
                     line.Text = line.Text.Replace("Hardmode ores now generate after defeating Mechanical Bosses for the first time", "新三矿仅在击败每个机械Boss后生成");
                 }
 
                 if (item.type == ItemID.GoldPickaxe || item.type == ItemID.PlatinumPickaxe)
                 {
-                    line.Text = line.Text.Replace("Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals", "可开采魔矿、猩红矿、陨石、海棱晶和海棱晶碎晶");
+                    line.Text = line.Text.Replace("Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals", "可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片");
                 }
 
                 if (item.type == ItemID.Picksaw)
@@ -741,7 +741,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.MoltenQuiver)
                 {
                     line.Text = line.Text.Replace("Increases arrow damage by 7% and greatly increases arrow speed", "增加7%的箭矢伤害，并大幅提高箭矢速度");
-                    line.Text = line.Text.Replace("and all arrows inflict Hellfire", "所有箭矢造成狱火减益");
+                    line.Text = line.Text.Replace("and all arrows inflict Hellfire", "所有箭矢造成狱炎减益");
                 }
 
                 if (item.type == ItemID.SniperScope)
@@ -757,7 +757,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.HellfireTreads)
                 {
                     line.Text = line.Text.Replace("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘于1.5");
-                    line.Text = line.Text.Replace("All attacks inflict Hellfire", "所有攻击造成狱火减益");
+                    line.Text = line.Text.Replace("All attacks inflict Hellfire", "所有攻击造成狱炎减益");
                 }
 
                 if (item.type == ItemID.FairyBoots)
@@ -765,6 +765,16 @@ namespace CalamityCN.Translations
                     line.Text = line.Text.Replace("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
                     line.Text = line.Text.Replace("Nearby fairies grant increased life regen, defense and movement speed", "靠近仙灵获得生命恢复，防御与移动速度");
                     line.Text = line.Text.Replace("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
+                }
+
+                if (item.type == ItemID.AncientChisel)
+                {
+                    line.Text = line.Text.Replace("Increases mining speed by 15%", "提高15%挖矿速度");
+                }
+
+                if (item.type == ItemID.FrozenTurtleShell || item.type == ItemID.FrozenShield)
+                {
+                    line.Text = line.Text.Replace("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%伤害的外壳");
                 }
 
                 if (item.type == ItemID.DemonWings)
@@ -853,7 +863,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.Hoverboard)
                 {
-                    line.Text = line.Text.Replace("10% increased weapon-type damage while wearing the Shroomite Armor", "穿着蘑菇矿盔甲时提高10%武器类型伤害");
+                    line.Text = line.Text.Replace("5% increased weapon-type damage while wearing the Shroomite Armor", "穿着蘑菇矿盔甲时提高5%武器类型伤害");
                     line.Text = line.Text.Replace("The weapon type boosted matches which Shroomite helmet is worn", "加成武器类型取决于戴的蘑菇矿头盔的类型");
                 }
 
@@ -1118,7 +1128,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.RodofDiscord)
                 {
-                    line.Text = line.Text.Replace("Teleportation is disabled while Chaos State is active", "混乱状态下禁用传送");
+                    line.Text = line.Text.Replace("Teleportation is disabled while Chaos State is active", "混沌状态下禁用传送");
                 }
                 if (item.type == ItemID.EmptyBucket)
                 {
@@ -1131,6 +1141,22 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.IronskinPotion)
                 {
                     line.Text = line.Text.Replace("Increase defense by", "防御力增加");
+                }
+                if (item.type == ItemID.Tombstone || item.type == ItemID.GraveMarker || item.type == ItemID.CrossGraveMarker || item.type == ItemID.Headstone || item.type == ItemID.Gravestone || item.type == ItemID.Obelisk || item.type == ItemID.RichGravestone1 || item.type == ItemID.RichGravestone2 || item.type == ItemID.RichGravestone3 || item.type == ItemID.RichGravestone4 || item.type == ItemID.RichGravestone5)
+                {
+                    line.Text = line.Text.Replace("20 of any tombstone turns the surrounding area into a graveyard\nGraveyards have various new item sales and recipes", "20个各种墓碑会将周围环境变为墓地\n墓地会有各种新物品出售以及新的配方");
+                }
+                if (item.type == ItemID.Ale || item.type == ItemID.Sake)
+                {
+                    line.Text = line.Text.Replace("Increases melee damage by 10% and reduces defense by 5%", "提高10%近战伤害但降低5%防御");
+                }
+                if (item.type == ItemID.FlaskofCursedFlames || item.type == ItemID.FlaskofFire || item.type == ItemID.FlaskofGold || item.type == ItemID.FlaskofIchor || item.type == ItemID.FlaskofNanites || item.type == ItemID.FlaskofPoison || item.type == ItemID.FlaskofVenom)
+                {
+                    line.Text = line.Text.Replace("近战攻击和鞭子", "近战，鞭子和盗贼");
+                }
+                if (item.type == ItemID.FlaskofParty)
+                {
+                    line.Text = line.Text.Replace("近战攻击和鞭子", "所有");
                 }
 
                 #endregion

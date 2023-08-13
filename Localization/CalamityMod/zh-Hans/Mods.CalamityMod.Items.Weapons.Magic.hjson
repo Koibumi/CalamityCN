@@ -15,15 +15,15 @@ AcidGun: {
 
 AetherfluxCannon: {
 	DisplayName: 以太流光炮
-	Tooltip: 发射可以穿过物块的交叉射线弹幕
+	Tooltip: 发射可以穿过任何东西的聚焦光子双螺旋
 }
 
 AethersWhisper: {
 	DisplayName: 以太之低语
 	Tooltip:
 		'''
-		在击中物块时会分裂并造成暗影焰减益
-		弹幕的伤害会随着移动距离的增加而增加
+		在击中物块时会分裂并造成长时的暗影焰减益
+		弹幕移动过程中伤害会逐渐增加
 		'''
 }
 
@@ -31,8 +31,8 @@ AlphaRay: {
 	DisplayName: 阿尔法射线
 	Tooltip:
 		'''
-		以三发齐射的激光能量弹雨蒸发一切
-		右键发射Y形光束和一道激光
+		以三发齐射的激光能量蒸发一切
+		右键发射Y形毁灭光束和一道激光
 		'''
 }
 
@@ -60,8 +60,8 @@ Apotheosis: {
 	DisplayName: 圣神之像
 	Tooltip:
 		'''
-		召唤神明之法相
 		释放横跨维度的投影魔法
+		召唤神明之法相
 		'''
 }
 
@@ -79,8 +79,8 @@ ArcticBearPaw: {
 	DisplayName: 北极熊爪
 	Tooltip:
 		'''
-		狂野撕咬之力被你握在掌心
 		发射会穿墙的幻灵熊掌
+		“狂野撕咬之力被你握在掌心”
 		'''
 }
 
@@ -90,7 +90,7 @@ ArtAttack: {
 		'''
 		召唤一个有彩虹拖尾，会跟随光标移动的星星
 		用拖尾绘制闭合图形会对图形内所有敌人造成伤害，绘制图形所用的时间越长，伤害越高
-		观众席沸腾了！
+		“观众席沸腾了！”
 		'''
 }
 
@@ -111,7 +111,7 @@ AstralStaff: {
 
 Atlantis: {
 	DisplayName: 亚特兰蒂斯
-	Tooltip: 创造会在移动时分裂的海之枪
+	Tooltip: 创造会在移动时分裂的海之矛
 }
 
 AuguroftheElements: {
@@ -123,8 +123,8 @@ BelchingSaxophone: {
 	DisplayName: 喷嗝萨克斯
 	Tooltip:
 		'''
-		嘟嘟
 		发射一串哨片、音符和硫磺气泡
+		嘟嘟
 		'''
 }
 
@@ -166,8 +166,8 @@ ClamorNoctus: {
 	DisplayName: 星龙破空杖
 	Tooltip:
 		'''
-		令天幕坠落
 		召唤暗夜飞龙与繁星从天而降，会附着在敌人和物块上并爆炸
+		“令天幕坠落”
 		'''
 }
 
@@ -185,8 +185,8 @@ CoralSpout: {
 		充能完毕后的攻击会射出一块能附着在敌人身上一段时间的大型珊瑚碎块
 		拾取掉落的大珊瑚碎块时会回复150点魔力值
 		珊瑚碎块还会使你获得能够增加珊瑚泥伤害和充能速度的增益
-		[c/5C95A1:知识至关重要，昔日海洋王国的许多书吏都知道应不惜一切将知识保存]
-		[c/5C95A1:因为使用了大量防水石板，他们的图书馆比绝大多数其它地方的图书馆要大得多。]
+		[c/5C95A1:“知识至关重要，昔日海洋王国的许多书吏都知道应不惜一切将知识保存]
+		[c/5C95A1:因为使用了大量防水石板，他们的图书馆比绝大多数其它地方的图书馆要大得多。”]
 		'''
 }
 
@@ -199,8 +199,8 @@ Cryophobia: {
 	DisplayName: 恐寒症
 	Tooltip:
 		'''
-		战栗
 		发射会多次分裂并爆炸成碎片的寒冰冲击波
+		“战栗”
 		'''
 }
 
@@ -208,8 +208,8 @@ DarkSpark: {
 	DisplayName: 寂虚之光
 	Tooltip:
 		'''
-		炫日下的一切是如此的和谐一致
-		但炎日光辉已被暗月所侵蚀
+		“炫日下的一切是如此的和谐一致
+		但炎日光辉已被暗月所侵蚀”
 		'''
 }
 
@@ -217,8 +217,8 @@ DeathhailStaff: {
 	DisplayName: 死亡冰雹
 	Tooltip:
 		'''
-		在你的敌人头顶降下死亡之雨！
 		释放星云激光从天而降
+		“在你的敌人头顶降下死亡之雨！”
 		'''
 }
 
@@ -246,18 +246,14 @@ EidolicWail: {
 	DisplayName: 幻妖龙吟
 	Tooltip:
 		'''
-		贯耳魔音
 		发射一串弹射声波，移动距离越远威力越强
+		贯耳魔音
 		'''
 }
 
 EidolonStaff: {
 	DisplayName: 冰幻法杖
-	Tooltip:
-		'''
-		远古异教徒的力量在此法杖中回响
-		发射一簇会释放旋转冰球远古之光
-		'''
+	Tooltip: 发射一簇远古之光和一个旋转冰球
 }
 
 EldritchTome: {
@@ -283,7 +279,7 @@ Eternity: {
 	Tooltip:
 		'''
 		向附近敌人施咒，令它们的生命在华丽的炫光中消逝
-		‘书内有张小马图片’
+		“书内有张小马图片”
 		'''
 }
 
@@ -291,9 +287,9 @@ EventHorizon: {
 	DisplayName: 黑洞边缘
 	Tooltip:
 		'''
-		万物被悉数卷入其中，连光也无法幸免
 		发射一圈追踪敌人的星星
 		星星在击中敌人时会产生黑洞
+		“万物被悉数卷入其中，连光也无法幸免”
 		'''
 }
 
@@ -311,15 +307,15 @@ FaceMelter: {
 	DisplayName: 变脸熔炉
 	Tooltip:
 		'''
-		喔哦哦！幻想世界！！！
 		奏响音符
 		右键召唤一个会向光标位置发射音波的扩音器
+		“喔哦哦！幻想世界！！！”
 		'''
 }
 
 FatesReveal: {
 	DisplayName: 命运神启
-	Tooltip: 在身边召唤跟踪玩家的魂火
+	Tooltip: 召唤追随玩家的魂火
 }
 
 FlareBolt: {
@@ -344,7 +340,7 @@ FrostBolt: {
 
 Genisis: {
 	DisplayName: 源
-	Tooltip: 发射Y形状的毁灭能量束和一簇激光
+	Tooltip: 发射Y形毁灭能量束和一簇激光
 }
 
 GhastlyVisage: {
@@ -371,7 +367,7 @@ GloriousEnd: {
 
 GrandStaffoftheNebulaMage: {
 	DisplayName: 星云法师圣杖
-	Tooltip: 你的手中掌握着星云法师真正的力量……
+	Tooltip: “你的手中掌握着星云法师真正的力量……”
 }
 
 GruesomeEminence: {
@@ -381,9 +377,8 @@ GruesomeEminence: {
 		在光标旁召唤一团腥邪诡灵
 		起初，诡灵会随意飞行，此时它对敌人和玩家都会造成伤害
 		随着时间流逝，诡灵会逐渐汇聚成一个可控制的巨灵
-		[c/c61b40:聚合成那地牢怪物的灵魂永远无法进入他们所期望的来世，]
-		[c/c61b40:被愤怒玷污、融化，他们终将如此。]
-
+		[c/c61b40:“聚合成那地牢怪物的灵魂永远无法进入他们所期望的来世，]
+		[c/c61b40:被愤怒玷污、融化，他们终将如此。”]
 		'''
 }
 
@@ -405,8 +400,8 @@ HeliumFlash: {
 	DisplayName: 氦闪
 	Tooltip:
 		'''
-		“于刹那之间瞥见星海浩瀚之威”
 		发射挥发性星核，随即引发巨大聚变爆炸
+		“于刹那之间瞥见星海浩瀚之威”
 		'''
 }
 
@@ -438,10 +433,10 @@ IceBarrage: {
 	DisplayName: 寒冰弹幕
 	Tooltip:
 		'''
-		哦天呐，你死了！
 		在光标位置施放一个致命且强大的冰霜魔咒
 		冰霜魔咒会自动锁定附近的敌人
 		每次使用消耗两个血之符文
+		“哦天呐，你死了！”
 		'''
 }
 
@@ -475,13 +470,13 @@ Keelhaul: {
 	Tooltip:
 		'''
 		击中敌人时会召唤法力间歇泉
-		碾碎他们，就像碾碎纸片儿那样！
+		“碾碎他们，就像碾碎纸片儿那样！”
 		'''
 }
 
 LashesofChaos: {
 	DisplayName: 混乱火鞭
-	Tooltip: 静看着整个世界的燃烧……
+	Tooltip: “静看着整个世界的燃烧……”
 }
 
 Lazhar: {
@@ -500,8 +495,10 @@ MadAlchemistsCocktailGlove: {
 		'''
 		以高速投掷具有多种效果的烧瓶
 		右键投掷会造成多种减益的烧瓶
-		红色烧瓶会爆炸，蓝色烧瓶爆裂成毒云，
-		绿色烧瓶产生月球耀斑射线，紫色烧瓶爆炸成追踪碎片
+		红色烧瓶会爆炸
+		蓝色烧瓶爆裂成毒云
+		绿色烧瓶产生月炎射线
+		紫色烧瓶爆炸成追踪碎片
 		'''
 }
 
@@ -539,7 +536,7 @@ NightsRay: {
 	DisplayName: 永夜射线
 	Tooltip:
 		'''
-		发射暗影射线
+		发射纯粹而集中的暗影射线
 		击中敌人时会在其附近产生额外的射线
 		'''
 }
@@ -563,8 +560,8 @@ PhoenixFlameBarrage: {
 	DisplayName: 星火凤凰雨
 	Tooltip:
 		'''
-		圣火洗礼
 		召唤火幕从天而降
+		“圣火洗礼”
 		'''
 }
 
@@ -599,11 +596,7 @@ Poseidon: {
 
 PrimordialAncient: {
 	DisplayName: 始源之遗
-	Tooltip:
-		'''
-		远古大陆的遗物
-		丢出一团巨大的粉尘
-		'''
+	Tooltip: 丢出一团巨大的粉尘
 }
 
 PrimordialEarth: {
@@ -619,7 +612,7 @@ PurgeGuzzler: {
 RainbowPartyCannon: {
 	DisplayName: 彩虹派对加农炮
 	// Color changes at the first line of tooltip via ModifyTooltips.
-	Tooltip: 彩虹会让你记住，我们将一起永远闪耀……
+	Tooltip: “彩虹会让你记住，我们将一起永远闪耀……”
 }
 
 Rancor: {
@@ -628,9 +621,8 @@ Rancor: {
 		'''
 		召唤一个圆形法阵，法阵会逐渐蓄力，最终会发射出一束强大的怨戾激光
 		被激光照射的物块会迸发出岩浆，随后出现亡魂之手
-		[c/c61b40:当被原谅之人尚未能饶恕自身时，]
-		[c/c61b40:得到宽恕所带来的安慰也仅限于此了。]
-
+		[c/c61b40:“当被原谅之人尚未能饶恕自身时，]
+		[c/c61b40:得到宽恕所带来的安慰也仅限于此了。”]
 		'''
 }
 
@@ -638,7 +630,6 @@ RecitationoftheBeast: {
 	DisplayName: 狂野复诵
 	Tooltip:
 		'''
-		被封印于魔界中的千年时光总会教你一两招
 		召唤环绕玩家的狂野之镰
 		随即将它们向光标处发射并追踪敌人
 		'''
@@ -676,7 +667,7 @@ ShadecrystalTome: {
 
 ShaderainStaff: {
 	DisplayName: 腐蚀之雨法杖
-	Tooltip: 召唤出一个阴影云
+	Tooltip: 召唤出一个阴影风暴云
 }
 
 ShadowboltStaff: {
@@ -750,14 +741,14 @@ TacticiansTrumpCard: {
 	DisplayName: 战术家的王牌
 	Tooltip:
 		'''
-		来自未来一位公主的记忆涌上你的心头……
 		发射一道剑气，在击中敌人时对敌人进行电疗
+		“来自未来一位公主的记忆涌上你的心头……”
 		'''
 }
 
 TearsofHeaven: {
 	DisplayName: 天堂之泪
-	Tooltip: 发射俩缓慢移动的神圣光团
+	Tooltip: 发射缓慢移动的神圣光团
 }
 
 TerraRay: {
@@ -783,7 +774,7 @@ ThePrince: {
 	Tooltip:
 		'''
 		发射一枚会爆炸成6个火焰的神圣火球
-		所以现在你告诉我王子爆炸了，变成了一朵花？
+		“所以现在你告诉我王子爆炸了，变成了一朵花？”
 		-Dain
 		'''
 }
@@ -800,12 +791,21 @@ TheWand: {
 
 ThornBlossom: {
 	DisplayName: 荆棘烁兰
-	Tooltip: 每朵玫瑰都有刺
+	Tooltip:
+		'''
+		发射一朵爆炸成追踪花瓣以及致命荆棘的花朵
+		每次发射消耗3点生命值
+		“每朵玫瑰都有刺”
+		'''
 }
 
 Thunderstorm: {
 	DisplayName: 雷暴雨
-	Tooltip: 暴雨倾盆
+	Tooltip:
+		'''
+		发射一束爆炸性绿色等离子子弹，同时召唤额外的等离子子弹从天而降
+		“暴雨倾盆”
+		'''
 }
 
 TomeofFates: {
@@ -887,11 +887,10 @@ VividClarity: {
 	DisplayName: 耀界之光
 	Tooltip:
 		'''
-		向光标位置发射五道元素能量束
-		命中敌怪或击中物块时，元素能量束会分裂出元素能量体
-		或召唤可以反弹的元素射线从天而降
-		元素射线会分裂出额外的射线攻击敌怪
-		它的威严激发了无与伦比的天才壮举
+		向光标位置发射五道随机的星流能量束
+		命中敌怪或击中物块时，能量束可能会爆炸成大型闪光
+		从天而降一道额外激光，或是分裂成能量球
+		“它的威严激发了无与伦比的天才壮举”
 		'''
 }
 
@@ -907,7 +906,7 @@ VoltaicClimax: {
 
 Waywasher: {
 	DisplayName: 清道夫
-	Tooltip: 施放并不精准的水束
+	Tooltip: 发射并不精准的水束
 }
 
 Wingman: {
@@ -917,7 +916,11 @@ Wingman: {
 
 WintersFury: {
 	DisplayName: 凛冬之怒
-	Tooltip: 这书摸起来冷极了
+	Tooltip:
+		'''
+		向光标位置发射一连串的冰球和冰碎片
+		“这书摸起来冷极了”
+		'''
 }
 
 WrathoftheAncients: {
@@ -931,8 +934,8 @@ WulfrumProsthesis: {
 		'''
 		释放钨钢能量
 		右键对面前的生物进行法力汲取
-		[c/83B87E:科技和魔法永远被定格在效仿与复仇的军备竞赛中]
-		[c/83B87E:有时它们是协作的，如某些义肢]
+		[c/83B87E:“科技和魔法永远被定格在效仿与复仇的军备竞赛中]
+		[c/83B87E:有时它们是协作的，如某些义肢”]
 		'''
 }
 
@@ -940,8 +943,8 @@ WyvernsCall: {
 	DisplayName: 飞龙之歌
 	Tooltip:
 		'''
-		我呼唤神话中的飞龙，祈求向大地降下恩泽
 		召唤飞龙与羽毛从天而降，会附着在敌人和物块上并爆炸
+		“我呼唤神话中的飞龙，祈求向大地降下恩泽”
 		'''
 }
 
