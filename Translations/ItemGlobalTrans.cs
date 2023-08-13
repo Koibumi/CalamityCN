@@ -676,7 +676,7 @@ namespace CalamityCN.Translations
                     line.Text = line.Text.Replace("Max life increased by 45", "最大生命增加45");
                 }
 
-                if (item.type == ItemID.PowerGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
+                if (item.type == ItemID.PowerGlove || item.type == ItemID.TitanGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
                 {
                     line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%");
                 }
