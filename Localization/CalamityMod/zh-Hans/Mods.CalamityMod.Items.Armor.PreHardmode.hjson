@@ -239,6 +239,7 @@ VictideGreaves: {
 VictideHeadMagic: {
 	DisplayName: 胜潮隐帽
 	Tooltip: 增加5%魔法伤害
+	// SetBonus: +3 life regen and 10% increased magic damage while submerged in liquid
 }
 
 VictideHeadMelee: {
@@ -250,6 +251,7 @@ VictideHeadMelee: {
 VictideHeadRanged: {
 	DisplayName: 胜潮瑚巾
 	Tooltip: 增加5%远程伤害
+	// SetBonus: +3 life regen and 10% increased ranged damage while submerged in liquid
 }
 
 VictideHeadRogue: {

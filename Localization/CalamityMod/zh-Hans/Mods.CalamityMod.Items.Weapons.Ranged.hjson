@@ -541,8 +541,8 @@ GunkShot: {
 HalibutCannon: {
 	DisplayName: 大比目鱼炮
 	Tooltip: "[GFB]"
-	TooltipNormal: "“是的，它现在依然强的过分”"
-	TooltipGFB: "“不，它现在弱的过分”"
+	TooltipNormal: “是的，它现在依然强的过分”
+	TooltipGFB: “不，它现在弱的过分”
 }
 
 HalleysInferno: {

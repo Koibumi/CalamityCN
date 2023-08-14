@@ -224,7 +224,7 @@ VoodooDemonVoodooDoll: {
 // Uncategorized
 AlicornonaStick: {
 	DisplayName: 棒棒天角兽
-	Tooltip: "“恭喜！你赢了！这是一根有我头的棍子”"
+	Tooltip: “恭喜！你赢了！这是一根有我头的棍子”
 }
 
 BallAndChain: {

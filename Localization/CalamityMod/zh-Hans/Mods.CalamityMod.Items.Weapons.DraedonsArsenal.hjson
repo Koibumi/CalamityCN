@@ -22,7 +22,7 @@ GalvanizingGlaive: {
 
 GatlingLaser: {
 	DisplayName: 激光加特林
-		Tooltip:
+	Tooltip:
 		'''
 		快速发射加速激光消灭敌人
 		[c/1FFBFF:“亚利姆舰队和基地防御部队配装的大型激光炮”]

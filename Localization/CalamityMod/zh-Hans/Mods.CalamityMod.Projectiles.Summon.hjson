@@ -236,7 +236,12 @@ SlimePuppet.DisplayName: 史莱姆傀儡
 CannonLaserbeam.DisplayName: 终灭激光
 ExoskeletonGaussNukeCannon.DisplayName: 高斯核弹
 ExoskeletonLaserCannon.DisplayName: 镭射加农炮
-ExoskeletonPanel.DisplayName: UI
+
+ExoskeletonPanel: {
+	DisplayName: UI
+	// NoSlots: Insufficient minion slots!
+}
+
 ExoskeletonPlasmaCannon.DisplayName: 离子加农炮
 ExoskeletonTeslaCannon.DisplayName: 特斯拉加农炮
 MinionGaussBoom.DisplayName: 高斯超级爆炸

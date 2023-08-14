@@ -8,7 +8,8 @@ SandCloakEffect.DisplayName: 沙尘披风
 AstralArcanumUIToggle.DisplayName: 星辉秘术UI
 AstralTeleport.DisplayName: 天魔星石传送
 ArmorSetBonus.DisplayName: 套装奖励
-ElysianGuard.DisplayName: 极乐守护
 AdrenalineMode.DisplayName: 肾上腺素
 RageMode.DisplayName: 怒气模式
 NormalityRelocator.DisplayName: 常态定位器
+// BlazingCoreParry.DisplayName: Blazing Core Parry
+// GravistarSabatonHotkey.DisplayName: Gravistar Sabaton Hotkey

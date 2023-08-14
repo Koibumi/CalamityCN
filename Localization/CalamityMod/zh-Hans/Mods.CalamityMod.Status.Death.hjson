@@ -1,6 +1,9 @@
+// AbyssDrown1: "{0} is food for the Wyrms."
+// AbyssDrown2: Oxygen failed to reach {0} from the depths of the Abyss.
 AlcoholBig1: "{0}喝的太多了。"
 AlcoholBig2: "{0}的肝衰竭了。"
 AlcoholSmall: "{0}因酗酒痛苦死去。"
+// Armageddon: "{0} failed the challenge at hand."
 AstralInfection1: "{0}成为了星辉瘟疫的一部分。"
 AstralInfection2: "{0}的皮肤被星辉病毒侵蚀了。"
 AstralInjection: "{0}的血管由于药物过量爆裂了。"

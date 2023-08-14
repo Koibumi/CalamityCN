@@ -3,6 +3,7 @@ SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
 Adrenaline: 肾上腺素条
 Nanomachines: 纳米机器条
 Rage: 怒气条
+// Flight: "{0} Flight Remaining"
 Charge: 当前充能
 DefenseDamage: 防御损伤
 SulphurousWater: 硫磺海水腐蚀条
@@ -81,6 +82,7 @@ Cooldowns: {
 	DivineBless: 圣天祝福充能
 	DivingPlatesBreaking: 深渊潜游服耐久
 	DivingPlatesBroken: 深渊潜游服外壳破损
+	// ElysianGuard: Elysian Guard Cooldown
 	EvasionScarf: 闪避围巾冷却
 	FleshTotem: 血肉图腾冷却
 	GlobalDodge: 深渊影遁冷却
@@ -91,6 +93,7 @@ Cooldowns: {
 	MasterChefShieldDurability: 能量庇护中
 	MasterChefShieldRecharge: 能量庇护充能
 	NebulousCore: 星云之核冷却
+	// OldDukeScalesFatigue: Stamina
 	OmegaBlueActive: 深渊狂乱
 	OmegaBlueCooldown: 深渊狂乱冷却
 	PermafrostConcoction: 秘药冷却
@@ -113,12 +116,13 @@ Cooldowns: {
 	WulfrumRoverDriveRecharge: 保护矩阵充能
 }
 
+// Enchantment + Draedon UI
+Cost: 花费：
 // Draedon UI
 Contact: 联络
 Summon: 召唤
 Evoke: 唤醒
 Communicate: 对话
-Cost: 花费：
 ConfirmationText: 你确定么？
 UpgradesRequired: 解密失败：需升级密码破译器。
 ThanatosIcon: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。
