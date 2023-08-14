@@ -221,8 +221,6 @@ AsgardianAegis: {
 		+40 max life and increased life regeneration
 		Grants a cosmic inferno dash which can slam through enemies without taking damage
 		Can be used to ram enemies
-		Press [KEY] to activate buffs to all damage, crit chance, and defense
-		Activating this buff will reduce your movement speed and increase enemy aggro
 		+20 defense while submerged in liquid
 		'''
 }
@@ -263,10 +261,13 @@ BlazingCore: {
 	DisplayName: Blazing Core
 	Tooltip:
 		'''
-		The searing core of the profaned goddess
-		Being hit creates a miniature sun that lingers, dealing damage to nearby enemies
-		The sun will slowly drag enemies into it
-		Only one sun can be active at once
+		The searing core of the Profaned Goddess
+		Pressing [KEY] will activate Elysian Guard, encasing you in luminous profaned crystal
+		Being hit shortly after encasement will shatter the crystal
+		Upon shattering, waves of holy stars spiral outwards and the damage you would have taken is reduced to 1
+		After shattering, this damage reduction effect goes on cooldown
+		If another encasement is shattered whilst on cooldown, healing stars will be interspersed throughout the waves of stars
+		The damage of a hit is not reduced whilst on cooldown
 		Provides a moderate amount of light in the Abyss
 		'''
 }
@@ -418,7 +419,20 @@ CounterScarf: {
 
 CrawCarapace: {
 	DisplayName: Craw Carapace
-	Tooltip: Enemies take damage when they touch you
+	Tooltip:
+		'''
+		5% increased damage
+		Enemies that hit you take damage and are inflicted with Armor Crunch
+		'''
+}
+
+Baroclaw: {
+	DisplayName: Baroclaw
+	Tooltip:
+		'''
+		8% increased damage
+		Enemies that hit you take high damage and are inflicted with Armor Crunch for a long time
+		'''
 }
 
 CrimsonFlask: {
@@ -650,8 +664,6 @@ ElysianAegis: {
 		+30 max life
 		Grants an enhanced holy flame dash which can slam through enemies without taking damage
 		Can be used to ram enemies
-		Press [KEY] to activate buffs to all damage, crit chance and defense
-		Activating this buff will reduce your movement speed and increase enemy aggro
 		Blessed by the Profaned Flame
 		'''
 }
@@ -755,11 +767,6 @@ FrostFlare: {
 		'''
 }
 
-FungalCarapace: {
-	DisplayName: Fungal Carapace
-	Tooltip: You emit a cloud of mushroom spores when you are hit
-}
-
 FungalClump: {
 	DisplayName: Fungal Clump
 	Tooltip:
@@ -799,8 +806,8 @@ GiantShell: {
 	DisplayName: Giant Shell
 	Tooltip:
 		'''
-		15% reduced movement speed
-		Taking a hit will make you move very fast for a short time
+		10% reduced dash velocity
+		Taking a hit will remove the dash penalty and reduce defense for 5 seconds
 		'''
 }
 
@@ -808,9 +815,9 @@ GiantTortoiseShell: {
 	DisplayName: Giant Tortoise Shell
 	Tooltip:
 		'''
-		10% decreased movement speed
-		Enemies take damage when they hit you
-		Grants immunity to Armor Crunch
+		5% increased damage reduction
+		15% reduced dash velocity
+		Taking a hit will remove the dash penalty and reduce defense and damage reduction for 5 seconds
 		'''
 }
 
@@ -851,9 +858,10 @@ GrandGelatin: {
 	DisplayName: Grand Gelatin
 	Tooltip:
 		'''
-		10% increased movement and jump speed
-		+20 max life and mana
-		Standing still boosts life and mana regen
+		10% increased movement speed and jump speed
+		Using a healing potion will spawn a cleansing aura
+		Walking into the aura removes all debuffs and defense damage one time
+		The aura provides increased life regen for all players inside for 8 seconds
 		'''
 }
 
@@ -861,9 +869,14 @@ GravistarSabaton: {
 	DisplayName: Gravistar Sabaton
 	Tooltip:
 		'''
-		Tap the DOWN key to increase your fall speed for 5 seconds
-		This has an 8 second cooldown
-		Striking the ground with increased fall speed will cause an astral explosion
+		20% increased jump speed
+		Grants immunity to fall damage
+		Hold DOWN to increase your maximum fall speed
+		Hold [KEY] for 1 second while midair to charge up a superspeed slam
+		While slamming, you ram through enemies and don't take contact damage
+		Once you reach the ground, you create an explosion at your feet 
+		The explosion scales in both damage and size the longer you slam for
+		Temporary 40% increased jump speed after slamming into the ground
 		'''
 }
 
@@ -987,8 +1000,8 @@ LifeJelly: {
 	DisplayName: Life Jelly
 	Tooltip:
 		'''
-		+20 max life
-		Standing still boosts life regen
+		Using a healing potion will spawn a lingering aura 
+		The aura provides increased life regen for all players inside for 5 seconds
 		'''
 }
 
@@ -1021,12 +1034,12 @@ LuxorsGift: {
 		'''
 }
 
-ManaJelly: {
-	DisplayName: Mana Jelly
+CleansingJelly: {
+	DisplayName: Cleansing Jelly
 	Tooltip:
 		'''
-		+20 max mana
-		Standing still boosts mana regen
+		Using a healing potion will spawn a cleansing aura 
+		Walking into the aura removes all debuffs and defense damage one time
 		'''
 }
 
@@ -1170,10 +1183,17 @@ OldDukeScales: {
 	DisplayName: Old Duke's Scales
 	Tooltip:
 		'''
-		While under the effects of a damaging debuff, you gain 10% increased damage and 5% crit
-		For every 25% of lost life, you gain 6% increased damage and 3% crit
-		This will max out at 18% increased damage and 9% crit when under 25% life
-		Provides immunity to poisoned, venom, and sulphuric poisoning
+		10% increased damage reduction
+		10% increased max movement speed and acceleration
+		25% increased dash velocity and length
+		Gives you a stamina indicator on the cooldown rack
+		Using any dash will consume 20% of your stamina
+		Stamina will gradually recover to 100% after not dashing for 1 second
+		Stamina recovers faster when you are stationary
+		If your stamina reaches 0%, you become exhausted
+		[c/CE0E18:While exhausted, this item's damage reduction and movement bonuses are negated]
+		[c/CE0E18:Being exhausted reduces movement speed by 30% and dash velocity by 50%]
+		This debuff lasts until your stamina reaches 100% again
 		'''
 }
 
@@ -1679,14 +1699,12 @@ TheAbsorber: {
 	DisplayName: The Absorber
 	Tooltip:
 		'''
-		5% increased movement and jump speed
-		+20 max life and mana
-		Standing still boosts life and mana regen
-		Enemies take damage when they touch you
-		You emit a cloud of mushroom spores when you are hit
-		7% increased damage reduction
+		10% increased movement and jump speed
+		Enemies take immense damage when they touch you and are afflicted with a debuff that reduces damage reduction significantly
+		Using a healing potion will spawn a cleansing aura
+		Walking into the aura removes all debuffs and defense damage one time
+		The aura provides greatly increased life regen, damage, and damage reduction for all players inside for 15 seconds
 		5% of the damage from enemy attacks is absorbed and converted into healing
-		Grants immunity to Armor Crunch
 		'''
 }
 
@@ -1768,17 +1786,7 @@ TheFirstShadowflame: {
 
 TheSponge: {
 	DisplayName: The Sponge
-	Tooltip:
-		'''
-		10% increased damage reduction
-		+30 max life and mana
-		5% increased movement and jump speed
-		Standing still boosts life and mana regen
-		Enemies take damage when they touch you
-		You emit a cloud of mushroom spores when you are hit
-		6.25% of the damage from enemy attacks is absorbed and converted into healing
-		Grants immunity to Armor Crunch
-		'''
+	Tooltip: OUT OF ORDER
 }
 
 TheTransformer: {

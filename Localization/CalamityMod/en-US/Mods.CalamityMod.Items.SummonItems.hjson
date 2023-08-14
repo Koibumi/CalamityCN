@@ -68,7 +68,7 @@ CosmicWorm: {
 
 CryoKey: {
 	DisplayName: Cryo Key
-	GFBName: Pryo Key
+	GFBName: Pyro Key
 	Tooltip:
 		'''
 		[SPAWN]
@@ -76,7 +76,7 @@ CryoKey: {
 		Not consumable
 		'''
 	SpawnNormal: Summons Cryogen when used in the tundra
-	SpawnGFB: Summons Pryogen...? when used in the tundra
+	SpawnGFB: Summons Cryogen...? when used in the tundra
 }
 
 DeathWhistle: {
