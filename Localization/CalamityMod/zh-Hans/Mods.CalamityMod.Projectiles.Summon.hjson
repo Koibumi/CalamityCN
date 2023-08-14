@@ -239,7 +239,7 @@ ExoskeletonLaserCannon.DisplayName: 镭射加农炮
 
 ExoskeletonPanel: {
 	DisplayName: UI
-	// NoSlots: Insufficient minion slots!
+	NoSlots: 召唤栏位不足！
 }
 
 ExoskeletonPlasmaCannon.DisplayName: 离子加农炮
