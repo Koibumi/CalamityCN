@@ -16,7 +16,6 @@ namespace CalamityCN
         public CalamityCN() { CalamityCN.Instance = this; base.PreJITFilter = new DisableJIT(); }
         internal static CalamityCN Instance;
         private List<Hook> _onHooks;
-        public List<ContentTranslation> Contents;
         public DynamicSpriteFont BossIntroScreensFont;
 
         public override void PostSetupContent()
@@ -31,7 +30,6 @@ namespace CalamityCN
         public override void Load()
         {
             this._onHooks = new List<Hook>();
-            this.Contents = new List<ContentTranslation>();
             foreach (Type type in CalamityCN.Instance.Code.GetTypes())
             {
                 if (type.IsSubclassOf(typeof(OnPatcher)))
@@ -43,15 +41,7 @@ namespace CalamityCN
                         this._onHooks.Add(new Hook(onPatcher.ModifiedMethod, onPatcher.Delegate));
                     }
                 }
-                if (type.IsSubclassOf(typeof(ContentTranslation)))
-                {
-                    ContentTranslation contentTranslation = Activator.CreateInstance(type) as ContentTranslation;
-                    if (contentTranslation != null)
-                    {
-                        this.Contents.Add(contentTranslation);
-                    }
-                }
-                this.Contents.Sort((ContentTranslation n, ContentTranslation t) => n.Priority.CompareTo(t.Priority));
+               
             }
             if (this._onHooks.Count > 0)
             {
@@ -60,19 +50,6 @@ namespace CalamityCN
                     if (hook != null)
                     {
                         hook.Apply();
-                    }
-                }
-            }
-            if (this.Contents.Count > 0)
-            {
-                foreach (ContentTranslation contentTranslation2 in from x in this.Contents
-                                                                   where x.IsTranslationEnabled
-                                                                   select x)
-                {
-                    ILoadableContent loadableContent = contentTranslation2 as ILoadableContent;
-                    if (loadableContent != null)
-                    {
-                        loadableContent.LoadContent();
                     }
                 }
             }
@@ -95,19 +72,7 @@ namespace CalamityCN
                     }
                 }
             }
-            if (this.Contents != null)
-            {
-                foreach (ContentTranslation contentTranslation in this.Contents)
-                {
-                    ILoadableContent loadableContent = contentTranslation as ILoadableContent;
-                    if (loadableContent != null)
-                    {
-                        loadableContent.UnloadContent();
-                    }
-                }
-            }
             this._onHooks = null;
-            this.Contents = null;
             ClearCache();
         }
         public static void ClearCache()

@@ -1,39 +1,40 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.ModLoader;
 
 namespace CalamityCN.Utils
 {
 	internal static class ItemHelper
 	{
-		internal static void TranslateTooltip(Item item, List<TooltipLine> tooltips, string lineName, Action<TooltipLine> action)
+		public static void TranslateTooltip(List<TooltipLine> tooltips, string lineName, Action<TooltipLine> action)
 		{
-			ItemHelper.ApplyTooltipEdits(item, tooltips, ItemHelper.TooltipLineName(lineName), action);
+			ItemHelper.ApplyTooltipEdits(tooltips, (TooltipLine tooltipLine) => tooltipLine.Name == lineName, action);
 		}
 
-		internal static void ApplyTooltipEdits(Item item, List<TooltipLine> lines, Func<Item, TooltipLine, bool> predicate, Action<TooltipLine> action)
+		public static void TranslateTooltip(List<TooltipLine> tooltips, Func<TooltipLine, bool> predicate, Action<TooltipLine> action)
 		{
+			ItemHelper.ApplyTooltipEdits(tooltips, predicate, action);
+		}
 
-			foreach (TooltipLine line2 in lines.Where(line => predicate(item, line)))
+		public static void ReplaceText(this List<TooltipLine> tooltips, string oldValue, string newValue)
+		{
+			TooltipLine value = tooltips.FirstOrDefault((TooltipLine x) => x.Text.Contains(oldValue));
+			if (value != null)
 			{
-				if (line2 != null)
-				{
-					action(line2);
-				}
+				value.Text = value.Text.Replace(oldValue, newValue);
 			}
 		}
-		private static Func<Item, TooltipLine, bool> TooltipLineName(string name)
-		{
-			return (Item item, TooltipLine tooltip) => tooltip.Name == name;
-		}
 
-		internal static Color ColorSwap(Color firstColor, Color secondColor, float seconds)
+		private static void ApplyTooltipEdits(List<TooltipLine> lines, Func<TooltipLine, bool> predicate, Action<TooltipLine> action)
 		{
-			float num = (float)((Math.Sin(6.28318548202515 / (double)seconds * (double)Main.GlobalTimeWrappedHourly) + 1.0) * 0.5);
-			return Color.Lerp(firstColor, secondColor, num);
+			foreach (TooltipLine line in lines.Where(predicate))
+			{
+				if (line != null)
+				{
+					action(line);
+				}
+			}
 		}
 
 	}

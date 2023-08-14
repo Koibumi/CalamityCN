@@ -14,13 +14,7 @@ namespace CalamityCN.Translations.Patch {
         private static List<ILHook> ILHooksT;
         public static void Load() {
             ILHooksT = new List<ILHook>();
-            
-            //武器提示
-            if (ModsCall.Infernum is null)
-			{
-				QuickTranslate(typeof(ExoskeletonPanel), "PreDraw", "Insufficient minion slots!", "召唤栏位不足！");
-            }
-            
+
             //死亡名称
             QuickTranslate(typeof(CalamitasClone), "BossLoot", "The Calamitas Clone", "灾厄之影");
             QuickTranslate(typeof(RavagerBody), "BossLoot", "Ravager", "毁灭魔像");

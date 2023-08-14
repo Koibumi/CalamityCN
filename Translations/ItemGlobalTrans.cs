@@ -1,5 +1,4 @@
 using CalamityMod;
-using CalamityMod.Items.DraedonMisc;
 using CalamityMod.Items.Placeables.FurnitureAbyss;
 using CalamityMod.Items.Placeables.FurnitureAcidwood;
 using CalamityMod.Items.Placeables.FurnitureAncient;
@@ -12,7 +11,6 @@ using CalamityMod.Items.Placeables.FurnitureProfaned;
 using CalamityMod.Items.Placeables.FurnitureStatigel;
 using CalamityMod.Items.Placeables.FurnitureStratus;
 using CalamityMod.Items.Placeables.FurnitureVoid;
-using CalamityMod.Items.Weapons.DraedonsArsenal;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
@@ -20,7 +18,9 @@ using Terraria.ModLoader;
 using CalamityMod.Items.Placeables.Furniture.CraftingStations;
 using CalamityMod.Items.Placeables.Walls;
 using CalamityMod.Items.Placeables.FurnitureWulfrum;
-using CalamityMod.Items.Placeables.PlaceableTurrets;
+using CalamityCN.Utils;
+using System.Runtime.CompilerServices;
+using Terraria.Localization;
 
 namespace CalamityCN.Translations
 {
@@ -459,708 +459,719 @@ namespace CalamityCN.Translations
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            foreach (TooltipLine line in tooltips)
+            ItemHelper.TranslateTooltip(tooltips, "HealLife", delegate (TooltipLine tooltip)
             {
+                tooltip.Text = tooltip.Text.Replace("Restores", "恢复").Replace("life", "生命值");
+            });
+
+            ItemHelper.TranslateTooltip(tooltips, (TooltipLine l) => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge1", delegate (TooltipLine tooltip)
+            {
+                tooltip.Text = "你没有足够的知识去制作这个";
+            });
+
+            ItemHelper.TranslateTooltip(tooltips, (TooltipLine l) => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge2", delegate (TooltipLine _)
+            {
+                tooltips.ReplaceText("A specific schematic must be deciphered first", "必须先破译特定的原型图");
+                tooltips.ReplaceText("The Sunken Sea schematic must be deciphered first", "需要先获取沉沦之海原型图");
+                tooltips.ReplaceText("The Planetoid schematic must be deciphered first", "需要先破译小行星原型图");
+                tooltips.ReplaceText("The Jungle schematic must be deciphered first", "需要先破译丛林原型图");
+                tooltips.ReplaceText("The Underworld schematic must be deciphered first", "需要先破译地狱原型图");
+                tooltips.ReplaceText("The Ice biome schematic must be deciphered first", "需要先破译雪原原型图");
+
+            });
+
                 if (item.Calamity().devItem)
                 {
-                    line.Text = line.Text.Replace("Developer Item", "开发者物品");
+                    tooltips.ReplaceText("Developer Item", "开发者物品");
                 }
 
                 if (item.Calamity().donorItem)
                 {
-                    line.Text = line.Text.Replace("Donor Item", "捐赠者物品");
+                    tooltips.ReplaceText("Donor Item", "捐赠者物品");
                 }
 
                 if (item.accessory && !item.social && item.prefix > 0)
                 {
-                    line.Text = line.Text.Replace("damage reduction", "伤害减免");
-                    line.Text = line.Text.Replace("stealth generation", "潜行值恢复速度");
-                    line.Text = line.Text.Replace("luck", "运气值");
+                    tooltips.ReplaceText("damage reduction", "伤害减免");
+                    tooltips.ReplaceText("stealth generation", "潜行值恢复速度");
+                    tooltips.ReplaceText("luck", "运气值");
                 }
 
                 if (item.CountsAsClass(DamageClass.Melee))
                 {
-                    line.Text = line.Text.Replace("true melee damage", "真近战伤害");
+                    tooltips.ReplaceText("true melee damage", "真近战伤害");
                 }
 
                 if (item.type >= ItemID.Celeb2 && (item.Calamity()?.UsesCharge ?? false))
                 {
-                    line.Text = line.Text.Replace("Current Charge:", "当前充能：");
-
-                }
-
-                if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>() || item.type == ModContent.ItemType<VoltageRegulationSystem>() || item.type == ModContent.ItemType<AdvancedDisplay>() || item.type == ModContent.ItemType<LongRangedSensorArray>() || item.type == ModContent.ItemType<DecryptionComputer>() || item.type == ModContent.ItemType<IceTurret>() || item.type == ModContent.ItemType<LabTurret>() || item.type == ModContent.ItemType<LaserTurret>() || item.type == ModContent.ItemType<OnyxTurret>() || item.type == ModContent.ItemType<PlagueTurret>() || item.type == ModContent.ItemType<WaterTurret>() || item.type == ModContent.ItemType<FireTurret>())
-                {
-                    line.Text = line.Text.Replace("You don't have sufficient knowledge to create this yet", "你没有足够的知识去制作这个");
-                    line.Text = line.Text.Replace("The Sunken Sea schematic must be deciphered first", "需要先获取沉沦之海原型图");
-                    line.Text = line.Text.Replace("The Planetoid schematic must be deciphered first", "需要先破译小行星原型图");
-                    line.Text = line.Text.Replace("The Jungle schematic must be deciphered first", "需要先破译丛林原型图");
-                    line.Text = line.Text.Replace("The Underworld schematic must be deciphered first", "需要先破译地狱原型图");
-                    line.Text = line.Text.Replace("The Ice biome schematic must be deciphered first", "需要先破译雪原原型图");
+                    tooltips.ReplaceText("Current Charge:", "当前充能：");
 
                 }
 
                 if (item.Calamity().canFirePointBlankShots)
                 {
-                    line.Text = line.Text.Replace("Does extra damage to enemies shot at point-blank range", "对近距离敌怪射击时造成额外伤害");
+                    tooltips.ReplaceText("Does extra damage to enemies shot at point-blank range", "对近距离敌怪射击时造成额外伤害");
                 }
 
                 if (Main.zenithWorld)
                 {
-                    line.Text = line.Text.Replace("盗贼", "盗贱");
+                    tooltips.ReplaceText("盗贼", "盗贱");
                 }
 
-                line.Text = line.Text.Replace(" or Revengeance", "或者复仇");
-
-                //-原版物品-
-                if (item.type == 3110 || item.type == 1865 || item.type == 899 || item.type == 900)
+                if (item.master)
                 {
-                    line.Text = line.Text.Replace("近战速度、", "");
+                    tooltips.ReplaceText(" or Revengeance", "或者复仇");
+                }
+
+
+            //-原版物品-
+            if (item.type == 3110 || item.type == 1865 || item.type == 899 || item.type == 900)
+                {
+                    tooltips.ReplaceText("近战速度、", "");
                 }
 
                 if (item.type == 3992)
                 {
-                    line.Text = line.Text.Replace("近战速度提高12%", "真近战伤害提高10%");
+                    tooltips.ReplaceText("近战速度提高12%", "真近战伤害提高10%");
                 }
 
                 if (item.type == 2277)
                 {
-                    line.Text = line.Text.Replace("近战", "跳跃速度");
+                    tooltips.ReplaceText("近战", "跳跃速度");
                 }
 
                 if (item.type == 2275)
                 {
-                    line.Text = line.Text.Replace("5% increased magic damage and critical strike chance", "魔法伤害和魔法暴击率提高5%");
+                    tooltips.ReplaceText("5% increased magic damage and critical strike chance", "魔法伤害和魔法暴击率提高5%");
                 }
 
                 #region 武器
                 if (item.type == ItemID.DeathSickle)
                 {
-                    line.Text = line.Text.Replace("Inflicts Whispering Death on hit", "命中造成死亡低语减益");
+                    tooltips.ReplaceText("Inflicts Whispering Death on hit", "命中造成死亡低语减益");
                 }
 
                 if (item.type == ItemID.Excalibur || item.type == ItemID.TrueExcalibur || item.type == ItemID.Gungnir)
                 {
-                    line.Text = line.Text.Replace("Inflicts Holy Flames", "命中造成神圣之火减益");
-                    line.Text = line.Text.Replace("Deals double damage to enemies above 75% life", "对75%生命值以上的敌怪造成双倍伤害");
+                    tooltips.ReplaceText("Inflicts Holy Flames", "命中造成神圣之火减益");
+                    tooltips.ReplaceText("Deals double damage to enemies above 75% life", "对75%生命值以上的敌怪造成双倍伤害");
                 }
 
                 if (item.type == 46 || item.type == 273 || item.type == 675 || item.type == 162 || item.type == 3279)
                 {
-                    line.Text = line.Text.Replace("Inflicts Shadowflame on hit", "命中造成暗影焰减益");
+                    tooltips.ReplaceText("Inflicts Shadowflame on hit", "命中造成暗影焰减益");
                 }
 
                 if (item.type == 2608)
                 {
-                    line.Text = line.Text.Replace("Holding this item grants +20% increased movement speed", "手持此物品时会获得20%移动速度加成");
+                    tooltips.ReplaceText("Holding this item grants +20% increased movement speed", "手持此物品时会获得20%移动速度加成");
                 }
 
                 if (item.type == 426 || item.type == 1166 || item.type == 3772)
                 {
-                    line.Text = line.Text.Replace("Ignores 50% of enemy defense", "无视敌怪50%的防御力");
+                    tooltips.ReplaceText("Ignores 50% of enemy defense", "无视敌怪50%的防御力");
                 }
 
                 if (item.type == 795 || item.type == 801 || item.type == 802 || item.type == 3280)
                 {
-                    line.Text = line.Text.Replace("Inflicts Burning Blood on hit", "命中造成沸腾之血减益");
+                    tooltips.ReplaceText("Inflicts Burning Blood on hit", "命中造成沸腾之血减益");
                 }
 
                 if (item.type == 483 || item.type == 537)
                 {
-                    line.Text = line.Text.Replace("Decreases enemy defense by 25% on hit", "命中时减少敌人25%防御");
+                    tooltips.ReplaceText("Decreases enemy defense by 25% on hit", "命中时减少敌人25%防御");
                 }
 
                 if (item.type == 1185 || item.type == 1186)
                 {
-                    line.Text = line.Text.Replace("Increases life regen on hit", "命中时增加生命恢复速度");
+                    tooltips.ReplaceText("Increases life regen on hit", "命中时增加生命恢复速度");
                 }
 
                 if (item.type == 484 || item.type == 390)
                 {
-                    line.Text = line.Text.Replace("Decreases enemy contact damage by 10% on hit", "命中时减少敌人10%接触伤害");
+                    tooltips.ReplaceText("Decreases enemy contact damage by 10% on hit", "命中时减少敌人10%接触伤害");
                 }
 
                 if (item.type == 1192 || item.type == 1193)
                 {
-                    line.Text = line.Text.Replace("Increases how frequently the Orichalcum set bonus triggers on hit", "命中时增加山铜套触发效果");
+                    tooltips.ReplaceText("Increases how frequently the Orichalcum set bonus triggers on hit", "命中时增加山铜套触发效果");
                 }
 
                 if (item.type == 406 || item.type == 482)
                 {
-                    line.Text = line.Text.Replace("Slows enemies on hit", "命中时减速敌人");
+                    tooltips.ReplaceText("Slows enemies on hit", "命中时减速敌人");
                 }
 
                 if (item.type == 3859)
                 {
-                    line.Text = line.Text.Replace("Shoots splitting arrows", "射出分裂的箭");
+                    tooltips.ReplaceText("Shoots splitting arrows", "射出分裂的箭");
                 }
 
                 if (item.type == 1199 || item.type == 1200)
                 {
-                    line.Text = line.Text.Replace("Deals increased damage to enemies with high knockback resistance", "对高击退抗性的敌人造成更多伤害");
+                    tooltips.ReplaceText("Deals increased damage to enemies with high knockback resistance", "对高击退抗性的敌人造成更多伤害");
                 }
 
                 List<int> i100ed = new List<int>() { 3352, 198, 199, 200, 201, 202, 203, 3764, 3765, 3766, 3767, 3768, 3769, 4258, 4259 };
                 if (i100ed.Contains(item.type))
                 {
-                    line.Text = line.Text.Replace("Ignores 100% of enemy defense", "无视敌怪100%的防御力");
+                    tooltips.ReplaceText("Ignores 100% of enemy defense", "无视敌怪100%的防御力");
                 }
                 #endregion
 
                 #region 工具
                 if (item.type == ItemID.Pwnhammer || item.type == ItemID.Hammush)
                 {
-                    line.Text = line.Text.Replace("Demon Altars now drop Souls of Night instead of generating ores when destroyed", "摧毁恶魔祭坛现在掉落暗影之魂而不是生成新三矿");
-                    line.Text = line.Text.Replace("Hardmode ores now generate after defeating Mechanical Bosses for the first time", "新三矿仅在击败每个机械Boss后生成");
+                    tooltips.ReplaceText("Demon Altars now drop Souls of Night instead of generating ores when destroyed", "摧毁恶魔祭坛现在掉落暗影之魂而不是生成新三矿");
+                    tooltips.ReplaceText("Hardmode ores now generate after defeating Mechanical Bosses for the first time", "新三矿仅在击败每个机械Boss后生成");
                 }
 
                 if (item.type == ItemID.GoldPickaxe || item.type == ItemID.PlatinumPickaxe)
                 {
-                    line.Text = line.Text.Replace("Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals", "可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片");
+                    tooltips.ReplaceText("Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals", "可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片");
                 }
 
                 if (item.type == ItemID.Picksaw)
                 {
-                    line.Text = line.Text.Replace("Can mine Scoria Ore located in the Abyss", "可开采深渊中的熔渣矿");
+                    tooltips.ReplaceText("Can mine Scoria Ore located in the Abyss", "可开采深渊中的熔渣矿");
                 }
 
                 if (item.type == ItemID.VortexPickaxe || item.type == ItemID.NebulaPickaxe || item.type == ItemID.SolarFlarePickaxe || item.type == ItemID.StardustPickaxe)
                 {
-                    line.Text = line.Text.Replace("Can mine Uelibloom Ore", "可开采龙蒿矿");
+                    tooltips.ReplaceText("Can mine Uelibloom Ore", "可开采龙蒿矿");
                 }
 
                 if (item.type == ItemID.GoldenFishingRod)
                 {
-                    line.Text = line.Text.Replace("Its fishing line will never break", "鱼线永远不会断裂");
+                    tooltips.ReplaceText("Its fishing line will never break", "鱼线永远不会断裂");
                 }
                 #endregion
 
                 #region 饰品
-                if (item.type == 4986)
+                if (item.type == ItemID.GelBalloon)
                 {
-                    line.Text = line.Text.Replace("Throws a mixture of slime and sparkling crystals\nSlimed enemies take more damage from fire-based debuffs", "投掷粘液和闪亮晶体的混合物\n史莱姆类敌人会受到更多来自火系减益的伤害");
+                    tooltips.ReplaceText("Throws a mixture of slime and sparkling crystals\nSlimed enemies take more damage from fire-based debuffs", "投掷粘液和闪亮晶体的混合物\n史莱姆类敌人会受到更多来自火系减益的伤害");
                 }
                 if (item.type == ItemID.TerrasparkBoots)
                 {
-                    line.Text = line.Text.Replace("Immunity to the On Fire! debuff", "免疫着火了减益");
+                    tooltips.ReplaceText("Immunity to the On Fire! debuff", "免疫着火了减益");
                 }
                 if (item.type == ItemID.Magiluminescence)
                 {
-                    line.Text = line.Text.Replace("Increases movement acceleration and deceleration by 1.25x", "移动加速度和减速度增加1.25倍");
-                    line.Text = line.Text.Replace("Increases movement speed by 1.05x. This bonus applies to running boot accessories", "移动速度增加1.05倍。该效果适用于移动饰品");
+                    tooltips.ReplaceText("Increases movement acceleration and deceleration by 1.25x", "移动加速度和减速度增加1.25倍");
+                    tooltips.ReplaceText("Increases movement speed by 1.05x. This bonus applies to running boot accessories", "移动速度增加1.05倍。该效果适用于移动饰品");
                 }
 
                 if (item.type == ItemID.YoYoGlove || item.type == ItemID.YoyoBag)
                 {
-                    line.Text = line.Text.Replace("Secondary yoyos will do 50% less damage", "第二个悠悠球伤害减少50%");
+                    tooltips.ReplaceText("Secondary yoyos will do 50% less damage", "第二个悠悠球伤害减少50%");
                 }
 
                 if (item.type == ItemID.ArmorPolish || item.type == ItemID.ArmorBracing)
                 {
-                    line.Text = line.Text.Replace("and Armor Crunch", "免疫碎甲减益");
+                    tooltips.ReplaceText("and Armor Crunch", "免疫碎甲减益");
                 }
 
                 if (item.type == ItemID.AnkhShield)
                 {
-                    line.Text = line.Text.Replace("including Mighty Wind", "包括强风");
+                    tooltips.ReplaceText("including Mighty Wind", "包括强风");
                 }
 
                 if (item.type == ItemID.BlackBelt || item.type == ItemID.MasterNinjaGear || item.type == ItemID.BrainOfConfusion)
                 {
-                    line.Text = line.Text.Replace("Grants the ability to dodge attacks", "获得闪避能力");
-                    line.Text = line.Text.Replace("The dodge has a 90 second cooldown which is shared with all other dodges and reflects", "闪避有90秒冷却，且与其他闪避和反弹效果共享冷却");
+                    tooltips.ReplaceText("Grants the ability to dodge attacks", "获得闪避能力");
+                    tooltips.ReplaceText("The dodge has a 90 second cooldown which is shared with all other dodges and reflects", "闪避有90秒冷却，且与其他闪避和反弹效果共享冷却");
                 }
 
                 if (item.type == ItemID.FleshKnuckles || item.type == ItemID.BerserkerGlove || item.type == ItemID.HeroShield)
                 {
-                    line.Text = line.Text.Replace("Max life increased by 45", "最大生命增加45");
+                    tooltips.ReplaceText("Max life increased by 45", "最大生命增加45");
                 }
 
                 if (item.type == ItemID.PowerGlove || item.type == ItemID.TitanGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
                 {
-                    line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%");
+                    tooltips.ReplaceText("10% increased true melee damage", "真近战伤害增加10%");
                 }
 
                 if (item.type == ItemID.FireGauntlet)
                 {
-                    line.Text = line.Text.Replace("14% increased melee damage and speed", "近战伤害和攻速增加14%");
-                    line.Text = line.Text.Replace("10% increased true melee damage", "真近战伤害增加10%");
+                    tooltips.ReplaceText("14% increased melee damage and speed", "近战伤害和攻速增加14%");
+                    tooltips.ReplaceText("10% increased true melee damage", "真近战伤害增加10%");
                 }
 
                 if (item.type == ItemID.SunStone)
                 {
-                    line.Text = line.Text.Replace("Grants immunity to Holy Flames", "免疫神圣之火减益");
+                    tooltips.ReplaceText("Grants immunity to Holy Flames", "免疫神圣之火减益");
                 }
 
                 if (item.type == ItemID.MoonStone)
                 {
-                    line.Text = line.Text.Replace("Grants immunity to Nightwither", "免疫夜魇减益");
+                    tooltips.ReplaceText("Grants immunity to Nightwither", "免疫夜魇减益");
                 }
 
                 if (item.type == ItemID.CelestialStone || item.type == ItemID.CelestialShell)
                 {
-                    line.Text = line.Text.Replace("Grants immunity to Nightwither and Holy Flames", "免疫夜魇和神圣之火减益");
+                    tooltips.ReplaceText("Grants immunity to Nightwither and Holy Flames", "免疫夜魇和神圣之火减益");
                 }
 
                 if (item.type == ItemID.DivingHelmet || item.type == ItemID.ArcticDivingGear || item.type == ItemID.CelestialShell)
                 {
-                    line.Text = line.Text.Replace("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难");
+                    tooltips.ReplaceText("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难");
                 }
 
                 if (item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
                 {
-                    line.Text = line.Text.Replace("Provides a small amount of light in the abyss", "在深渊中提供少量光照");
+                    tooltips.ReplaceText("Provides a small amount of light in the abyss", "在深渊中提供少量光照");
                 }
 
                 if (item.type == ItemID.FairyBell || item.type == ItemID.DD2PetGhost || item.type == ItemID.ShinePotion)
                 {
-                    line.Text = line.Text.Replace("Provides a moderate amount of light in the abyss", "在深渊中提供适量光照");
+                    tooltips.ReplaceText("Provides a moderate amount of light in the abyss", "在深渊中提供适量光照");
                 }
 
                 if (item.type == ItemID.WispinaBottle || item.type == ItemID.SuspiciousLookingTentacle || item.type == ItemID.GolemPetItem || item.type == ItemID.FairyQueenPetItem || item.type == ItemID.PumpkingPetItem)
                 {
-                    line.Text = line.Text.Replace("Provides a large amount of light in the abyss", "在深渊中提供大量光照");
+                    tooltips.ReplaceText("Provides a large amount of light in the abyss", "在深渊中提供大量光照");
                 }
 
                 if (item.type == ItemID.EmpressFlightBooster)
                 {
-                    line.Text = line.Text.Replace("Increases wing flight time by 25%", "翅膀飞行时间增加25%");
-                    line.Text = line.Text.Replace("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高1.1倍");
+                    tooltips.ReplaceText("Increases wing flight time by 25%", "翅膀飞行时间增加25%");
+                    tooltips.ReplaceText("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高1.1倍");
                 }
 
                 if (item.type == ItemID.ArcaneFlower || item.type == ItemID.MagnetFlower)
                 {
-                    line.Text = line.Text.Replace("12% reduced mana usage", "减少12%魔力消耗");
+                    tooltips.ReplaceText("12% reduced mana usage", "减少12%魔力消耗");
                 }
 
                 if (item.type == ItemID.MagicQuiver)
                 {
-                    line.Text = line.Text.Replace("Increases arrow damage by 5% and greatly increases arrow speed", "增加5%的箭矢伤害，并大幅提高箭矢速度");
+                    tooltips.ReplaceText("Increases arrow damage by 5% and greatly increases arrow speed", "增加5%的箭矢伤害，并大幅提高箭矢速度");
                 }
 
                 if (item.type == ItemID.MoltenQuiver)
                 {
-                    line.Text = line.Text.Replace("Increases arrow damage by 7% and greatly increases arrow speed", "增加7%的箭矢伤害，并大幅提高箭矢速度");
-                    line.Text = line.Text.Replace("and all arrows inflict Hellfire", "所有箭矢造成狱炎减益");
+                    tooltips.ReplaceText("Increases arrow damage by 7% and greatly increases arrow speed", "增加7%的箭矢伤害，并大幅提高箭矢速度");
+                    tooltips.ReplaceText("and all arrows inflict Hellfire", "所有箭矢造成狱炎减益");
                 }
 
                 if (item.type == ItemID.SniperScope)
                 {
-                    line.Text = line.Text.Replace("7% increased ranged damage and critical strike chance", "提高7%远程伤害和暴击率");
+                    tooltips.ReplaceText("7% increased ranged damage and critical strike chance", "提高7%远程伤害和暴击率");
                 }
 
                 if (item.type == ItemID.HandWarmer)
                 {
-                    line.Text = line.Text.Replace("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外提升2点生命再生速度");
+                    tooltips.ReplaceText("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外提升2点生命再生速度");
                 }
 
                 if (item.type == ItemID.HellfireTreads)
                 {
-                    line.Text = line.Text.Replace("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘于1.5");
-                    line.Text = line.Text.Replace("All attacks inflict Hellfire", "所有攻击造成狱炎减益");
+                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘于1.5");
+                    tooltips.ReplaceText("All attacks inflict Hellfire", "所有攻击造成狱炎减益");
                 }
 
                 if (item.type == ItemID.FairyBoots)
                 {
-                    line.Text = line.Text.Replace("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
-                    line.Text = line.Text.Replace("Nearby fairies grant increased life regen, defense and movement speed", "靠近仙灵获得生命恢复，防御与移动速度");
-                    line.Text = line.Text.Replace("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
+                    tooltips.ReplaceText("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
+                    tooltips.ReplaceText("Nearby fairies grant increased life regen, defense and movement speed", "靠近仙灵获得生命恢复，防御与移动速度");
+                    tooltips.ReplaceText("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
                 }
 
                 if (item.type == ItemID.AncientChisel)
                 {
-                    line.Text = line.Text.Replace("Increases mining speed by 15%", "提高15%挖矿速度");
+                    tooltips.ReplaceText("Increases mining speed by 15%", "提高15%挖矿速度");
                 }
 
                 if (item.type == ItemID.FrozenTurtleShell || item.type == ItemID.FrozenShield)
                 {
-                    line.Text = line.Text.Replace("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%所受伤害的外壳");
+                    tooltips.ReplaceText("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%所受伤害的外壳");
                 }
 
                 if (item.type == ItemID.DemonWings)
                 {
-                    line.Text = line.Text.Replace("5% increased damage and critical strike chance", "提高5%伤害和暴击率");
+                    tooltips.ReplaceText("5% increased damage and critical strike chance", "提高5%伤害和暴击率");
                 }
 
                 if (item.type == ItemID.AngelWings)
                 {
-                    line.Text = line.Text.Replace("+20 max life, +10 defense and +2 life regen", "+20最大生命值，+10防御力和2点生命恢复");
+                    tooltips.ReplaceText("+20 max life, +10 defense and +2 life regen", "+20最大生命值，+10防御力和2点生命恢复");
                 }
 
                 if (item.type == ItemID.LeafWings)
                 {
-                    line.Text = line.Text.Replace("+5 defense, 5% increased damage reduction,", "穿着提基盔甲提高5防御力和5%减伤");
-                    line.Text = line.Text.Replace("and permanent Dryad's Blessing while wearing the Tiki Armor", "并永久获得树妖祝福");
+                    tooltips.ReplaceText("+5 defense, 5% increased damage reduction,", "穿着提基盔甲提高5防御力和5%减伤");
+                    tooltips.ReplaceText("and permanent Dryad's Blessing while wearing the Tiki Armor", "并永久获得树妖祝福");
                 }
 
                 if (item.type == ItemID.FinWings)
                 {
-                    line.Text = line.Text.Replace("Gills effect and you can move freely through liquids", "具有鱼鳃效果且允许在液体中快速移动");
-                    line.Text = line.Text.Replace("You fall faster while submerged in liquid", "液体中下落速度加快");
+                    tooltips.ReplaceText("Gills effect and you can move freely through liquids", "具有鱼鳃效果且允许在液体中快速移动");
+                    tooltips.ReplaceText("You fall faster while submerged in liquid", "液体中下落速度加快");
                 }
 
                 if (item.type == ItemID.BeeWings)
                 {
-                    line.Text = line.Text.Replace("Permanently gives the Honey buff", "任何时候都会给予蜂蜜buff");
+                    tooltips.ReplaceText("Permanently gives the Honey buff", "任何时候都会给予蜂蜜buff");
                 }
 
                 if (item.type == ItemID.ButterflyWings)
                 {
-                    line.Text = line.Text.Replace("+20 max mana, 5% decreased mana usage,", "+20最大魔力值，减少5%魔力消耗");
-                    line.Text = line.Text.Replace("5% increased magic damage and magic critical strike chance", "提高5%魔法伤害和魔法暴击率");
+                    tooltips.ReplaceText("+20 max mana, 5% decreased mana usage,", "+20最大魔力值，减少5%魔力消耗");
+                    tooltips.ReplaceText("5% increased magic damage and magic critical strike chance", "提高5%魔法伤害和魔法暴击率");
                 }
 
                 if (item.type == ItemID.FairyWings)
                 {
-                    line.Text = line.Text.Replace("+60 max life", "+60最大生命值");
+                    tooltips.ReplaceText("+60 max life", "+60最大生命值");
                 }
 
                 if (item.type == ItemID.BatWings)
                 {
-                    line.Text = line.Text.Replace("At night or during an eclipse, you will gain the following boosts:", "在夜晚或日食期间，你将获得以下加成：");
-                    line.Text = line.Text.Replace("7% increased damage and 3% increased critical strike chance", "增加7%伤害和3%暴击率");
+                    tooltips.ReplaceText("At night or during an eclipse, you will gain the following boosts:", "在夜晚或日食期间，你将获得以下加成：");
+                    tooltips.ReplaceText("7% increased damage and 3% increased critical strike chance", "增加7%伤害和3%暴击率");
                 }
 
                 if (item.type == ItemID.HarpyWings)
                 {
-                    line.Text = line.Text.Replace("20% increased movement speed", "提高20%移动速度");
-                    line.Text = line.Text.Replace("With Harpy Ring or Angel Treads equipped, most attacks sometimes launch feathers", "在装备女妖指环或天使之靴时大多数攻击会释放羽毛");
+                    tooltips.ReplaceText("20% increased movement speed", "提高20%移动速度");
+                    tooltips.ReplaceText("With Harpy Ring or Angel Treads equipped, most attacks sometimes launch feathers", "在装备女妖指环或天使之靴时大多数攻击会释放羽毛");
                 }
 
                 if (item.type == ItemID.BoneWings)
                 {
-                    line.Text = line.Text.Replace("Halves flight time when taking a hit", "受击时飞行时间减半");
+                    tooltips.ReplaceText("Halves flight time when taking a hit", "受击时飞行时间减半");
                 }
 
                 if (item.type == ItemID.MothronWings)
                 {
-                    line.Text = line.Text.Replace("+5 defense and 5% increased damage", "增加5防御力，提高5%伤害");
+                    tooltips.ReplaceText("+5 defense and 5% increased damage", "增加5防御力，提高5%伤害");
                 }
 
                 if (item.type == ItemID.FrozenWings)
                 {
-                    line.Text = line.Text.Replace("2% increased melee and ranged damage", "穿着寒霜盔甲时");
-                    line.Text = line.Text.Replace("and 1% increased melee and ranged critical strike chance", "提高2%近战和远程伤害");
-                    line.Text = line.Text.Replace("while wearing the Frost Armor", "提高1%近战和远程暴击率");
+                    tooltips.ReplaceText("2% increased melee and ranged damage", "穿着寒霜盔甲时");
+                    tooltips.ReplaceText("and 1% increased melee and ranged critical strike chance", "提高2%近战和远程伤害");
+                    tooltips.ReplaceText("while wearing the Frost Armor", "提高1%近战和远程暴击率");
                 }
 
                 if (item.type == ItemID.FlameWings)
                 {
-                    line.Text = line.Text.Replace("5% increased melee damage and critical strike chance", "提高5%近战伤害和近战暴击率");
+                    tooltips.ReplaceText("5% increased melee damage and critical strike chance", "提高5%近战伤害和近战暴击率");
                 }
 
                 if (item.type == ItemID.GhostWings)
                 {
-                    line.Text = line.Text.Replace("+10 defense and 5% increased damage reduction while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%减伤");
-                    line.Text = line.Text.Replace("5% increased magic damage and critical strike chance while wearing the Spectre Mask set", "穿着幽灵盔甲配幽灵面具时提高5%魔法伤害和魔法暴击率");
+                    tooltips.ReplaceText("+10 defense and 5% increased damage reduction while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%减伤");
+                    tooltips.ReplaceText("5% increased magic damage and critical strike chance while wearing the Spectre Mask set", "穿着幽灵盔甲配幽灵面具时提高5%魔法伤害和魔法暴击率");
                 }
 
                 if (item.type == ItemID.BeetleWings)
                 {
-                    line.Text = line.Text.Replace("+10 defense and 5% increased damage reduction while wearing the Beetle Shell set", "穿着甲虫盔甲配甲虫壳时增加10防御力和5%减伤");
-                    line.Text = line.Text.Replace("5% increased melee damage and critical strike chance while wearing the Beetle Scale Mail set", "穿着甲虫盔甲配甲虫铠甲时提高5%近战伤害和近战暴击率");
+                    tooltips.ReplaceText("+10 defense and 5% increased damage reduction while wearing the Beetle Shell set", "穿着甲虫盔甲配甲虫壳时增加10防御力和5%减伤");
+                    tooltips.ReplaceText("5% increased melee damage and critical strike chance while wearing the Beetle Scale Mail set", "穿着甲虫盔甲配甲虫铠甲时提高5%近战伤害和近战暴击率");
                 }
 
                 if (item.type == ItemID.Hoverboard)
                 {
-                    line.Text = line.Text.Replace("5% increased weapon-type damage while wearing the Shroomite Armor", "穿着蘑菇矿盔甲时提高5%武器类型伤害");
-                    line.Text = line.Text.Replace("The weapon type boosted matches which Shroomite helmet is worn", "加成武器类型取决于戴的蘑菇矿头盔的类型");
+                    tooltips.ReplaceText("5% increased weapon-type damage while wearing the Shroomite Armor", "穿着蘑菇矿盔甲时提高5%武器类型伤害");
+                    tooltips.ReplaceText("The weapon type boosted matches which Shroomite helmet is worn", "加成武器类型取决于戴的蘑菇矿头盔的类型");
                 }
 
                 if (item.type == ItemID.FestiveWings)
                 {
-                    line.Text = line.Text.Replace("+40 max life", "+40最大生命值");
-                    line.Text = line.Text.Replace("Ornaments rain down as you fly", "飞行时掉落装饰品");
+                    tooltips.ReplaceText("+40 max life", "+40最大生命值");
+                    tooltips.ReplaceText("Ornaments rain down as you fly", "飞行时掉落装饰品");
                 }
 
                 if (item.type == ItemID.SpookyWings)
                 {
-                    line.Text = line.Text.Replace("Increased minion knockback and 5% increased minion damage while wearing the Spooky Armor", "穿着阴森盔甲时提高召唤物击退和5%召唤伤害");
+                    tooltips.ReplaceText("Increased minion knockback and 5% increased minion damage while wearing the Spooky Armor", "穿着阴森盔甲时提高召唤物击退和5%召唤伤害");
                 }
 
                 if (item.type == ItemID.TatteredFairyWings)
                 {
-                    line.Text = line.Text.Replace("5% increased damage and critical strike chance", "提高5%伤害和暴击率");
+                    tooltips.ReplaceText("5% increased damage and critical strike chance", "提高5%伤害和暴击率");
                 }
 
                 if (item.type == ItemID.SteampunkWings)
                 {
-                    line.Text = line.Text.Replace("+8 defense, 10% increased movement speed,", "+8防御力和10%移速");
-                    line.Text = line.Text.Replace("4% increased damage, and 2% increased critical strike chance", "并提高4%伤害和2%暴击率");
+                    tooltips.ReplaceText("+8 defense, 10% increased movement speed,", "+8防御力和10%移速");
+                    tooltips.ReplaceText("4% increased damage, and 2% increased critical strike chance", "并提高4%伤害和2%暴击率");
                 }
 
                 if (item.type == ItemID.WingsNebula)
                 {
-                    line.Text = line.Text.Replace("+20 max mana, 5% increased magic damage and critical strike chance,", "穿着星云盔甲时+20最大魔力值");
-                    line.Text = line.Text.Replace("and 5% decreased mana usage while wearing the Nebula Armor", "提高5%魔法伤害和魔法暴击率减少5%魔力消耗");
+                    tooltips.ReplaceText("+20 max mana, 5% increased magic damage and critical strike chance,", "穿着星云盔甲时+20最大魔力值");
+                    tooltips.ReplaceText("and 5% decreased mana usage while wearing the Nebula Armor", "提高5%魔法伤害和魔法暴击率减少5%魔力消耗");
                 }
 
                 if (item.type == ItemID.WingsVortex)
                 {
-                    line.Text = line.Text.Replace("3% increased ranged damage and 7% increased ranged critical strike chance", "穿着星旋盔甲时");
-                    line.Text = line.Text.Replace("while wearing the Vortex Armor", "提高3%远程伤害和7%远程暴击率");
+                    tooltips.ReplaceText("3% increased ranged damage and 7% increased ranged critical strike chance", "穿着星旋盔甲时");
+                    tooltips.ReplaceText("while wearing the Vortex Armor", "提高3%远程伤害和7%远程暴击率");
                 }
 
                 if (item.type == ItemID.WingsStardust)
                 {
-                    line.Text = line.Text.Replace("10% increased minion damage while wearing the Stardust Armor", "穿着星尘盔甲时增加10%召唤伤害");
+                    tooltips.ReplaceText("10% increased minion damage while wearing the Stardust Armor", "穿着星尘盔甲时增加10%召唤伤害");
                 }
 
                 if (item.type == ItemID.WingsSolar)
                 {
-                    line.Text = line.Text.Replace("7% increased melee damage and 3% increased melee critical strike chance", "穿着耀斑盔甲时");
-                    line.Text = line.Text.Replace("while wearing the Solar Flare Armor", "提高7%近战伤害和3%近战暴击率");
+                    tooltips.ReplaceText("7% increased melee damage and 3% increased melee critical strike chance", "穿着耀斑盔甲时");
+                    tooltips.ReplaceText("while wearing the Solar Flare Armor", "提高7%近战伤害和3%近战暴击率");
                 }
 
                 List<int> wings = new List<int>() { 4978, 492, 493, 1162, 761, 2494, 822, 785, 748, 665, 1583, 1584, 1585, 1586, 3228, 3580, 3582, 3588, 3592, 3924, 3928, 4730, 4746, 4750, 4754, 1165, 1515, 749, 821, 823, 1866, 786, 2770, 823, 2280, 1871, 1830, 1797, 948, 3883, 4823, 2609, 3470, 3469, 3468, 3471, 4954 };
                 if (wings.Contains(item.type))
                 {
-                    line.Text = line.Text.Replace("Horizontal speed", "水平飞行速度");
-                    line.Text = line.Text.Replace("Acceleration multiplier", "加速倍率");
-                    line.Text = line.Text.Replace("Bad vertical speed", "糟糕的垂直飞行速度");
-                    line.Text = line.Text.Replace("Average vertical speed", "普通的垂直飞行速度");
-                    line.Text = line.Text.Replace("Good vertical speed", "不错的垂直飞行速度");
-                    line.Text = line.Text.Replace("Great vertical speed", "较强的垂直飞行速度");
-                    line.Text = line.Text.Replace("Excellent vertical speed", "优异的垂直飞行速度");
-                    line.Text = line.Text.Replace("Flight time", "飞行时间");
+                    tooltips.ReplaceText("Horizontal speed", "水平飞行速度");
+                    tooltips.ReplaceText("Acceleration multiplier", "加速倍率");
+                    tooltips.ReplaceText("Bad vertical speed", "糟糕的垂直飞行速度");
+                    tooltips.ReplaceText("Average vertical speed", "普通的垂直飞行速度");
+                    tooltips.ReplaceText("Good vertical speed", "不错的垂直飞行速度");
+                    tooltips.ReplaceText("Great vertical speed", "较强的垂直飞行速度");
+                    tooltips.ReplaceText("Excellent vertical speed", "优异的垂直飞行速度");
+                    tooltips.ReplaceText("Flight time", "飞行时间");
                 }
 
                 List<int> grappins = new List<int>() { 84, 1236, 1237, 1238, 1239, 1240, 1241, 939, 1273, 2585, 2360, 185, 1800, 1915, 437, 3021, 3023, 3020, 3022, 2800, 1829, 1916, 3572, 3623, 4257, 4759, 4980 };
                 if (grappins.Contains(item.type))
                 {
-                    line.Text = line.Text.Replace("Reach", "长度");
-                    line.Text = line.Text.Replace("tiles", "图格");
-                    line.Text = line.Text.Replace("Launch Velocity", "发射速度");
-                    line.Text = line.Text.Replace("Reelback Velocity", "回收速度");
-                    line.Text = line.Text.Replace("Pull Velocity", "牵引速度");
+                    tooltips.ReplaceText("Reach", "长度");
+                    tooltips.ReplaceText("tiles", "图格");
+                    tooltips.ReplaceText("Launch Velocity", "发射速度");
+                    tooltips.ReplaceText("Reelback Velocity", "回收速度");
+                    tooltips.ReplaceText("Pull Velocity", "牵引速度");
                 }
                 #endregion
 
                 #region 盔甲
                 if (item.type == ItemID.CopperHelmet || item.type == 80 || item.type == 76)
                 {
-                    line.Text = line.Text.Replace("5% increased damage", "伤害增加5%");
-                    line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%");
-                    line.Text = line.Text.Replace("5% increased movement speed", "移速增加5%");
+                    tooltips.ReplaceText("5% increased damage", "伤害增加5%");
+                    tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
+                    tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
                 }
                 if (item.type == ItemID.SilverHelmet || item.type == 82 || item.type == 78)
                 {
-                    line.Text = line.Text.Replace("5% increased critical strike chance", "暴击率增加5%");
-                    line.Text = line.Text.Replace("+2 life regen", "生命再生增加2点");
-                    line.Text = line.Text.Replace("8% increased movement speed", "移动速度增加8%");
+                    tooltips.ReplaceText("5% increased critical strike chance", "暴击率增加5%");
+                    tooltips.ReplaceText("+2 life regen", "生命再生增加2点");
+                    tooltips.ReplaceText("8% increased movement speed", "移动速度增加8%");
                 }
                 if (item.type == ItemID.AncientIronHelmet || item.type == 90 || item.type == 81 || item.type == 77)
                 {
-                    line.Text = line.Text.Replace("Increases damage reduction by 3%", "伤害减免增加3%");
+                    tooltips.ReplaceText("Increases damage reduction by 3%", "伤害减免增加3%");
                 }
                 if (item.type == ItemID.AncientGoldHelmet || item.type == 92 || item.type == 83 || item.type == 79)
                 {
-                    line.Text = line.Text.Replace("6% increased damage", "伤害增加6%");
-                    line.Text = line.Text.Replace("Increases damage reduction by 5%", "伤害减免增加5%");
-                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%");
+                    tooltips.ReplaceText("6% increased damage", "伤害增加6%");
+                    tooltips.ReplaceText("Increases damage reduction by 5%", "伤害减免增加5%");
+                    tooltips.ReplaceText("10% increased movement speed", "移速增加10%");
                 }
                 if (item.type == ItemID.TinHelmet || item.type == 688 || item.type == 689)
                 {
-                    line.Text = line.Text.Replace("3% increased critical strike chance", "暴击率增加3%");
-                    line.Text = line.Text.Replace("+1 life regen", "生命再生增加1点");
-                    line.Text = line.Text.Replace("5% increased movement speed", "移速增加5%");
+                    tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
+                    tooltips.ReplaceText("+1 life regen", "生命再生增加1点");
+                    tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
                 }
                 if (item.type == ItemID.LeadHelmet || item.type == 691 || item.type == 692)
                 {
-                    line.Text = line.Text.Replace("Increases damage reduction by 3%", "伤害减免增加3%");
+                    tooltips.ReplaceText("Increases damage reduction by 3%", "伤害减免增加3%");
                 }
                 if (item.type == ItemID.TungstenHelmet || item.type == 694 || item.type == 695)
                 {
-                    line.Text = line.Text.Replace("7% increased damage", "伤害增加7%");
-                    line.Text = line.Text.Replace("+1 life regen", "生命再生增加1点");
-                    line.Text = line.Text.Replace("8% increased movement speed", "移速增加8%");
+                    tooltips.ReplaceText("7% increased damage", "伤害增加7%");
+                    tooltips.ReplaceText("+1 life regen", "生命再生增加1点");
+                    tooltips.ReplaceText("8% increased movement speed", "移速增加8%");
                 }
                 if (item.type == ItemID.PlatinumHelmet || item.type == 697 || item.type == 698)
                 {
-                    line.Text = line.Text.Replace("6% increased damage", "伤害增加6%");
-                    line.Text = line.Text.Replace("5% increased critical strike chance", "暴击率增加5%");
-                    line.Text = line.Text.Replace("10% increased movement speed", "移速增加10%");
+                    tooltips.ReplaceText("6% increased damage", "伤害增加6%");
+                    tooltips.ReplaceText("5% increased critical strike chance", "暴击率增加5%");
+                    tooltips.ReplaceText("10% increased movement speed", "移速增加10%");
                 }
                 if (item.type == ItemID.AncientShadowHelmet || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
                 {
-                    line.Text = line.Text.Replace("5% increased damage and 7% increased jump speed", "增加5%伤害和7%跳跃速度");
+                    tooltips.ReplaceText("5% increased damage and 7% increased jump speed", "增加5%伤害和7%跳跃速度");
                 }
                 if (item.type == ItemID.CrimsonHelmet || item.type == 793 || item.type == 794)
                 {
-                    line.Text = line.Text.Replace("life regen", "生命再生");
+                    tooltips.ReplaceText("life regen", "生命再生");
                 }
                 if (item.type == ItemID.GladiatorHelmet || item.type == 3188 || item.type == 3189)
                 {
-                    line.Text = line.Text.Replace("3% increased rogue damage", "增加3%盗贼伤害");
-                    line.Text = line.Text.Replace("3% increased rogue critical strike chance", "增加3%盗贼暴击率");
-                    line.Text = line.Text.Replace("3% increased rogue velocity", "增加3%盗贼弹幕速度");
+                    tooltips.ReplaceText("3% increased rogue damage", "增加3%盗贼伤害");
+                    tooltips.ReplaceText("3% increased rogue critical strike chance", "增加3%盗贼暴击率");
+                    tooltips.ReplaceText("3% increased rogue velocity", "增加3%盗贼弹幕速度");
                 }
                 if (item.type == ItemID.CobaltHat || item.type == 372 || item.type == 373 || item.type == 374 || item.type == 375)
                 {
-                    line.Text = line.Text.Replace("Increases maximum mana by 60", "增加60最大魔力值");
+                    tooltips.ReplaceText("Increases maximum mana by 60", "增加60最大魔力值");
                 }
                 if (item.type == ItemID.MythrilHood || item.type == 377 || item.type == 378 || item.type == 379 || item.type == 380)
                 {
-                    line.Text = line.Text.Replace("Increases maximum mana by 80", "增加80最大魔力值");
-                    line.Text = line.Text.Replace("12% increased damage", "伤害增加12%");
-                    line.Text = line.Text.Replace("14% increased critical strike chance", "暴击率增加14%");
+                    tooltips.ReplaceText("Increases maximum mana by 80", "增加80最大魔力值");
+                    tooltips.ReplaceText("12% increased damage", "伤害增加12%");
+                    tooltips.ReplaceText("14% increased critical strike chance", "暴击率增加14%");
                 }
                 if (item.type == ItemID.AdamantiteHeadgear || item.type == 401 || item.type == 402 || item.type == 403 || item.type == 404)
                 {
-                    line.Text = line.Text.Replace("Increases maximum mana by 100", "增加100最大魔力值");
+                    tooltips.ReplaceText("Increases maximum mana by 100", "增加100最大魔力值");
                 }
                 if (item.type == ItemID.PalladiumBreastplate || item.type == 1209)
                 {
-                    line.Text = line.Text.Replace("5% increased damage", "伤害增加5%");
+                    tooltips.ReplaceText("5% increased damage", "伤害增加5%");
                 }
                 if (item.type == ItemID.OrichalcumBreastplate)
                 {
-                    line.Text = line.Text.Replace("10% increased critical strike chance", "暴击率增加10%");
+                    tooltips.ReplaceText("10% increased critical strike chance", "暴击率增加10%");
                 }
                 if (item.type == ItemID.SquireGreatHelm || item.type == 3801 || item.type == 3802)
                 {
-                    line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害");
-                    line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
-                    line.Text = line.Text.Replace("15% increased movement speed", "移速增加15%");
+                    tooltips.ReplaceText("10% increased minion and melee damage", "增加10%召唤和近战伤害");
+                    tooltips.ReplaceText("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
+                    tooltips.ReplaceText("15% increased movement speed", "移速增加15%");
                 }
                 if (item.type == ItemID.HuntressWig || item.type == 3804 || item.type == 3805)
                 {
-                    line.Text = line.Text.Replace("10% increased minion and ranged damage", "增加10%召唤和远程伤害");
-                    line.Text = line.Text.Replace("10% chance to not consume ammo", "10%几率不消耗弹药");
+                    tooltips.ReplaceText("10% increased minion and ranged damage", "增加10%召唤和远程伤害");
+                    tooltips.ReplaceText("10% chance to not consume ammo", "10%几率不消耗弹药");
                 }
                 if (item.type == ItemID.MonkBrows || item.type == 3807 || item.type == 3808)
                 {
-                    line.Text = line.Text.Replace("Increases your max number of sentries by 1 and increases melee attack speed by 10%", "增加1最大哨兵栏，增加10%近战攻速");
-                    line.Text = line.Text.Replace("10% increased minion and melee damage", "增加10%召唤和近战伤害");
-                    line.Text = line.Text.Replace("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
-                    line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
+                    tooltips.ReplaceText("Increases your max number of sentries by 1 and increases melee attack speed by 10%", "增加1最大哨兵栏，增加10%近战攻速");
+                    tooltips.ReplaceText("10% increased minion and melee damage", "增加10%召唤和近战伤害");
+                    tooltips.ReplaceText("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
+                    tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
                 }
                 if (item.type == ItemID.ApprenticeHat || item.type == 3798 || item.type == 3799)
                 {
-                    line.Text = line.Text.Replace("5% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
-                    line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
+                    tooltips.ReplaceText("5% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
+                    tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
                 }
                 if (item.type == ItemID.SquireAltHead || item.type == 3872 || item.type == 3873)
                 {
-                    line.Text = line.Text.Replace("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生速度");
-                    line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
-                    line.Text = line.Text.Replace("20% increased movement speed", "移速增加20%");
+                    tooltips.ReplaceText("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生速度");
+                    tooltips.ReplaceText("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
+                    tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
                 }
                 if (item.type == ItemID.MonkAltHead || item.type == 3881 || item.type == 3882)
                 {
-                    line.Text = line.Text.Replace("Increases your max number of sentries by 2", "增加2最大哨兵栏");
-                    line.Text = line.Text.Replace("10% increased melee and minion damage", "增加10%召唤和近战伤害");
-                    line.Text = line.Text.Replace("10% increased minion damage and melee speed", "增加10%召唤伤害和近战攻速");
-                    line.Text = line.Text.Replace("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
+                    tooltips.ReplaceText("Increases your max number of sentries by 2", "增加2最大哨兵栏");
+                    tooltips.ReplaceText("10% increased melee and minion damage", "增加10%召唤和近战伤害");
+                    tooltips.ReplaceText("10% increased minion damage and melee speed", "增加10%召唤伤害和近战攻速");
+                    tooltips.ReplaceText("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
                 }
                 if (item.type == ItemID.HuntressAltHead || item.type == 3878 || item.type == 3879)
                 {
-                    line.Text = line.Text.Replace("15% increased minion and ranged damage and 20% chance to not consume ammo", "增加15%召唤和远程伤害,20%几率不消耗弹药");
+                    tooltips.ReplaceText("15% increased minion and ranged damage and 20% chance to not consume ammo", "增加15%召唤和远程伤害,20%几率不消耗弹药");
                 }
                 if (item.type == ItemID.ApprenticeAltHead || item.type == 3875 || item.type == 3876)
                 {
-                    line.Text = line.Text.Replace("10% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
+                    tooltips.ReplaceText("10% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
                 }
                 #endregion
 
                 #region 物品
                 if (item.type == ItemID.DeerThing || item.type == ItemID.QueenSlimeCrystal || item.type == ItemID.TruffleWorm || item.type == ItemID.MechanicalEye || item.type == ItemID.MechanicalWorm || item.type == ItemID.MechanicalSkull || item.type == ItemID.LihzahrdPowerCell || item.type == ItemID.WormFood || item.type == ItemID.BloodySpine || item.type == ItemID.Abeemination || item.type == ItemID.SlimeCrown || item.type == ItemID.GoblinBattleStandard || item.type == ItemID.SnowGlobe || item.type == ItemID.PumpkinMoonMedallion || item.type == ItemID.NaughtyPresent || item.type == ItemID.SolarTablet || item.type == ItemID.PirateMap || item.type == ItemID.BloodMoonStarter || item.type == ItemID.CelestialSigil || item.type == ItemID.SuspiciousLookingEye)
                 {
-                    line.Text = line.Text.Replace("Not consumable", "不消耗");
+                    tooltips.ReplaceText("Not consumable", "不消耗");
 
-                    line.Text = line.Text.Replace("when used during nighttime", "在夜晚使用");
-                    line.Text = line.Text.Replace("when used in the Jungle", "在丛林使用");
-                    line.Text = line.Text.Replace("when used in the Hallow", "在神圣之地使用");
-                    line.Text = line.Text.Replace("when used in the Snow or Ice biome", "在雪原群系使用");
-                    line.Text = line.Text.Replace("when used in the Crimson", "在血腥之地使用");
-                    line.Text = line.Text.Replace("when used in the Corruption", "在腐化之地使用");
+                    tooltips.ReplaceText("when used during nighttime", "在夜晚使用");
+                    tooltips.ReplaceText("when used in the Jungle", "在丛林使用");
+                    tooltips.ReplaceText("when used in the Hallow", "在神圣之地使用");
+                    tooltips.ReplaceText("when used in the Snow or Ice biome", "在雪原群系使用");
+                    tooltips.ReplaceText("when used in the Crimson", "在血腥之地使用");
+                    tooltips.ReplaceText("when used in the Corruption", "在腐化之地使用");
 
-                    line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴");
-                    line.Text = line.Text.Replace("Enrages outside the Underground Jungle", "在地下丛林外会狂暴");
-                    line.Text = line.Text.Replace("Enrages outside the Underground Crimson", "在地下血腥外会狂暴");
-                    line.Text = line.Text.Replace("Enrages outside the Underground Corruption", "在地下腐化外会狂暴");
-                    line.Text = line.Text.Replace("Enrages outside the Jungle Temple", "在丛林神庙外会狂暴");
-                    line.Text = line.Text.Replace("Enrages outside the Ocean", "海洋群系外会狂暴");
+                    tooltips.ReplaceText("Enrages during the day", "白天会狂暴");
+                    tooltips.ReplaceText("Enrages outside the Underground Jungle", "在地下丛林外会狂暴");
+                    tooltips.ReplaceText("Enrages outside the Underground Crimson", "在地下血腥外会狂暴");
+                    tooltips.ReplaceText("Enrages outside the Underground Corruption", "在地下腐化外会狂暴");
+                    tooltips.ReplaceText("Enrages outside the Jungle Temple", "在丛林神庙外会狂暴");
+                    tooltips.ReplaceText("Enrages outside the Ocean", "海洋群系外会狂暴");
 
-                    line.Text = line.Text.Replace("to summon the Golem", "召唤石巨人");
-                    line.Text = line.Text.Replace("Summons Duke Fishron if used as bait in the Ocean", "在海洋钓一条猪鲨");
+                    tooltips.ReplaceText("to summon the Golem", "召唤石巨人");
+                    tooltips.ReplaceText("Summons Duke Fishron if used as bait in the Ocean", "在海洋钓一条猪鲨");
                 }
                 if (item.type == ItemID.GuideVoodooDoll)
                 {
-                    line.Text = line.Text.Replace("Summons the Wall of Flesh if thrown into lava in the underworld while the Guide is alive", "向导存活时将娃娃扔进地狱的岩浆中召唤肉山");
+                    tooltips.ReplaceText("Summons the Wall of Flesh if thrown into lava in the underworld while the Guide is alive", "向导存活时将娃娃扔进地狱的岩浆中召唤肉山");
                 }
                 if (item.type == ItemID.ClothierVoodooDoll)
                 {
-                    line.Text = line.Text.Replace("While equipped, summons Skeletron when the Clothier is killed during nighttime", "装备后在夜晚杀死服饰商召唤骷髅王");
-                    line.Text = line.Text.Replace("Enrages during the day", "白天会狂暴");
+                    tooltips.ReplaceText("While equipped, summons Skeletron when the Clothier is killed during nighttime", "装备后在夜晚杀死服饰商召唤骷髅王");
+                    tooltips.ReplaceText("Enrages during the day", "白天会狂暴");
                 }
                 if (item.type == ItemID.Ale || item.type == ItemID.Sake)
                 {
-                    line.Text = line.Text.Replace("Increases melee damage and speed by 10% and reduces defense by 10%", "增加10%近战伤害和攻速，减少10%防御");
+                    tooltips.ReplaceText("Increases melee damage and speed by 10% and reduces defense by 10%", "增加10%近战伤害和攻速，减少10%防御");
                 }
                 if (item.type == ItemID.GillsPotion)
                 {
-                    line.Text = line.Text.Replace("Greatly reduces breath loss in the abyss", "大大缓解深渊造成的呼吸困难");
+                    tooltips.ReplaceText("Greatly reduces breath loss in the abyss", "大大缓解深渊造成的呼吸困难");
                 }
                 if (item.type == ItemID.BottledHoney)
                 {
-                    line.Text = line.Text.Replace("Grants the Honey buff for 2 minutes", "给予2分钟蜂蜜增益");
+                    tooltips.ReplaceText("Grants the Honey buff for 2 minutes", "给予2分钟蜂蜜增益");
                 }
                 if (item.type == ItemID.ArcheryPotion)
                 {
-                    line.Text = line.Text.Replace("20% increased arrow speed and 5% increased arrow damage", "增加20%箭矢速度和5%箭矢伤害");
+                    tooltips.ReplaceText("20% increased arrow speed and 5% increased arrow damage", "增加20%箭矢速度和5%箭矢伤害");
                 }
                 if (item.type == ItemID.EndurancePotion)
                 {
-                    line.Text = line.Text.Replace("Reduces damage taken by 5%", "减少5%受到的伤害");
+                    tooltips.ReplaceText("Reduces damage taken by 5%", "减少5%受到的伤害");
                 }
                 if (item.type == ItemID.MagicPowerPotion)
                 {
-                    line.Text = line.Text.Replace("10% increased magic damage", "增加10%魔法伤害");
+                    tooltips.ReplaceText("10% increased magic damage", "增加10%魔法伤害");
                 }
                 if (item.type == ItemID.SwiftnessPotion)
                 {
-                    line.Text = line.Text.Replace("15% increased movement speed", "增加15%移动速度");
+                    tooltips.ReplaceText("15% increased movement speed", "增加15%移动速度");
                 }
                 if (item.type == ItemID.WarmthPotion)
                 {
-                    line.Text = line.Text.Replace("Grants immunity to Chilled, Frozen and Glacial State", "免疫冷冻、冰冻和冰河时代减益");
+                    tooltips.ReplaceText("Grants immunity to Chilled, Frozen and Glacial State", "免疫冷冻、冰冻和冰河时代减益");
                 }
                 if (item.type == ItemID.RodofDiscord)
                 {
-                    line.Text = line.Text.Replace("Teleportation is disabled while Chaos State is active", "混沌状态下禁用传送");
+                    tooltips.ReplaceText("Teleportation is disabled while Chaos State is active", "混沌状态下禁用传送");
                 }
                 if (item.type == ItemID.EmptyBucket || item.type == ItemID.SuperAbsorbantSponge)
                 {
-                    line.Text = line.Text.Replace("Cannot be used in the Abyss", "无法在深渊使用");
+                    tooltips.ReplaceText("Cannot be used in the Abyss", "无法在深渊使用");
                 }
                 if (item.type == ItemID.DD2ElderCrystal)
                 {
-                    line.Text = line.Text.Replace("Once placed you can right click the crystal to skip waves or increase the spawn rate of the invaders", "放置后你可以通过右键水晶跳过波数等待或加快刷怪速度");
+                    tooltips.ReplaceText("Once placed you can right click the crystal to skip waves or increase the spawn rate of the invaders", "放置后你可以通过右键水晶跳过波数等待或加快刷怪速度");
                 }
                 if (item.type == ItemID.IronskinPotion)
                 {
-                    line.Text = line.Text.Replace("Increase defense by", "防御力增加");
+                    tooltips.ReplaceText("Increase defense by", "防御力增加");
                 }
                 if (item.type == ItemID.Tombstone || item.type == ItemID.GraveMarker || item.type == ItemID.CrossGraveMarker || item.type == ItemID.Headstone || item.type == ItemID.Gravestone || item.type == ItemID.Obelisk || item.type == ItemID.RichGravestone1 || item.type == ItemID.RichGravestone2 || item.type == ItemID.RichGravestone3 || item.type == ItemID.RichGravestone4 || item.type == ItemID.RichGravestone5)
                 {
-                    line.Text = line.Text.Replace("20 of any tombstone turns the surrounding area into a graveyard\nGraveyards have various new item sales and recipes", "20个各种墓碑会将周围环境变为墓地\n墓地会有各种新物品出售以及新的配方");
+                    tooltips.ReplaceText("20 of any tombstone turns the surrounding area into a graveyard\nGraveyards have various new item sales and recipes", "20个各种墓碑会将周围环境变为墓地\n墓地会有各种新物品出售以及新的配方");
                 }
                 if (item.type == ItemID.Ale || item.type == ItemID.Sake)
                 {
-                    line.Text = line.Text.Replace("Increases melee damage by 10% and reduces defense by 5%", "提高10%近战伤害但降低5%防御");
+                    tooltips.ReplaceText("Increases melee damage by 10% and reduces defense by 5%", "提高10%近战伤害但降低5%防御");
                 }
                 if (item.type == ItemID.FlaskofCursedFlames || item.type == ItemID.FlaskofFire || item.type == ItemID.FlaskofGold || item.type == ItemID.FlaskofIchor || item.type == ItemID.FlaskofNanites || item.type == ItemID.FlaskofPoison || item.type == ItemID.FlaskofVenom)
                 {
-                    line.Text = line.Text.Replace("近战和鞭子", "近战，鞭子和盗贼");
+                    tooltips.ReplaceText("近战和鞭子", "近战，鞭子和盗贼");
                 }
                 if (item.type == ItemID.FlaskofParty)
                 {
-                    line.Text = line.Text.Replace("近战和鞭子", "所有");
+                    tooltips.ReplaceText("近战和鞭子", "所有");
                 }
 
                 #endregion
-            }
         }
     }
 }
