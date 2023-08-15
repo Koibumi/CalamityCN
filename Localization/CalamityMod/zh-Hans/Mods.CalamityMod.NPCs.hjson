@@ -385,11 +385,11 @@ LecherousOrb.DisplayName: 淫欲之眼
 THELORDE.DisplayName: THE LORDE
 PerforatorCyst.DisplayName: 血肉囊
 PerforatorHeadLarge.DisplayName: 血肉寄生者
-// PerforatorLarge: The Large Perforator
+PerforatorLarge: 大型血肉寄生者
 PerforatorHeadMedium.DisplayName: 血肉寄生者
-// PerforatorMedium: The Medium Perforator
+PerforatorMedium: 中型血肉寄生者
 PerforatorHeadSmall.DisplayName: 血肉寄生者
-// PerforatorSmall: The Small Perforator
+PerforatorSmall: 小型血肉寄生者
 
 PerforatorHive: {
 	DisplayName: 血肉宿主

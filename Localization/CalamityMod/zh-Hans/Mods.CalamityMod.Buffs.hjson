@@ -1422,7 +1422,7 @@ StarSwallowerBuff: {
 }
 
 StellarTorusBuff: {
-	DisplayName: 星界复仇增益
+	DisplayName: 星环
 	Description: 召唤一个环形轨道烤熟你的敌人
 }
 
@@ -1477,25 +1477,25 @@ WulfrumDroidBuff: {
 }
 
 PinkJellyRegen: {
-	// DisplayName: Pink Jelly Regen
-	// Description: The power of goo refreshes you, life regen increased by 4
+	DisplayName: 粉果胶再生
+	Description: 粘液的力量使你神清气爽，生命再生速度增加4
 }
 
 GreenJellyRegen: {
-	// DisplayName: Green Jelly Regen
-	// Description: The regenerative goo empowers you, life regen increased by 6
+	DisplayName: 绿果胶再生
+	Description: 再生粘液增幅着你，生命再生速度增加6
 }
 
 AbsorberRegen: {
-	// DisplayName: Regeneraga
-	/* Description:
+	DisplayName: Regeneraga
+	Description:
 		'''
-		You are blessed by the culmimation of nature's powers
-		Life regen increased by 7, damage increased by 10%, damage reduction increased by 7%
-		''' */
+		你被顶尖的自然力量所祝福
+		增加7点生命再生速度，10%伤害和7%伤害减免
+		'''
 }
 
 AbsorberAffliction: {
-	// DisplayName: Absorber Affliction
-	// Description: Damn nature, you scary!
+	DisplayName: Absorber Affliction
+	Description: 该死的大自然，你真可怕！
 }

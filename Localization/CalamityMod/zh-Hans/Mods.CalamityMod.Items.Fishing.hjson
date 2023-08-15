@@ -174,7 +174,11 @@ SurfClam: {
 // Other Catches
 EnchantedStarfish: {
 	DisplayName: 附魔星鱼
-	Tooltip: 永久增加20点最大魔力值
+	Tooltip:
+		'''
+		{$ItemTooltip.ManaCrystal}
+		可替代 [i:ManaCrystal] {$ItemName.ManaCrystal}
+		'''
 }
 
 FishofEleum: {
