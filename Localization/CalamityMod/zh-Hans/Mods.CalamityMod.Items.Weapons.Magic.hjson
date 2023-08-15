@@ -667,7 +667,7 @@ ShadecrystalTome: {
 
 ShaderainStaff: {
 	DisplayName: 腐蚀之雨法杖
-	Tooltip: 召唤出一个阴影风暴云
+	Tooltip: 发射邪恶云和雨滴
 }
 
 ShadowboltStaff: {

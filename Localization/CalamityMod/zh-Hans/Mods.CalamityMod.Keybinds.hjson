@@ -11,5 +11,5 @@ ArmorSetBonus.DisplayName: 套装奖励
 AdrenalineMode.DisplayName: 肾上腺素
 RageMode.DisplayName: 怒气模式
 NormalityRelocator.DisplayName: 常态定位器
-// BlazingCoreParry.DisplayName: Blazing Core Parry
-// GravistarSabatonHotkey.DisplayName: Gravistar Sabaton Hotkey
+BlazingCoreParry.DisplayName: 渎火核心格挡
+GravistarSabatonHotkey.DisplayName: 引力靴

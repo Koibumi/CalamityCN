@@ -76,7 +76,7 @@ CryoKey: {
 		不消耗
 		'''
 	SpawnNormal: 在苔原使用以召唤极地之灵
-	SpawnGFB: 在苔原使用以召唤……赤道之灵？
+	SpawnGFB: 在苔原使用以召唤极地之灵……？
 }
 
 DeathWhistle: {

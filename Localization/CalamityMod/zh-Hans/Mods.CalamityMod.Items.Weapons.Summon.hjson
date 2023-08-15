@@ -424,11 +424,7 @@ HauntedScroll: {
 
 HerringStaff: {
 	DisplayName: 鲱鱼法杖
-	Tooltip:
-		'''
-		召唤鲱鱼为你而战
-		每只鲱鱼仅占据0.5格仆从栏位
-		'''
+	Tooltip: 召唤一群鲱鱼为你而战
 }
 
 HivePod: {

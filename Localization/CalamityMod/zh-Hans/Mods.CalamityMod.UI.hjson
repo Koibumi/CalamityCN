@@ -3,7 +3,7 @@ SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
 Adrenaline: 肾上腺素条
 Nanomachines: 纳米机器条
 Rage: 怒气条
-// Flight: "{0} Flight Remaining"
+Flight: {0} 剩余飞行时间
 Charge: 当前充能
 DefenseDamage: 防御损伤
 SulphurousWater: 硫磺海水腐蚀条
@@ -35,9 +35,9 @@ RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！]"
 RevengeanceExpandedInfo:
 	'''
 	[c/B55362:开启] [c/85FFE9:肾上腺素] [c/B55362:机制。 对战Boss时可积攒肾上腺素条，受击时肾上腺素条归零。]
-	[c/B55362:    当肾上腺素条满时，按下] {0} [c/B55362:提升大量伤害]
+	[c/B55362:    当肾上腺素条满时，按下] {1} [c/B55362:提升大量伤害]
 	[c/B55362:开启] [c/FF8B54:怒气] [c/B55362:机制。接近敌怪或使用特定物品时会积攒怒气条。]
-	[c/B55362:    当怒气条满时，按下] {1} [c/B55362:获得暂时的伤害提升]
+	[c/B55362:    当怒气条满时，按下] {0} [c/B55362:获得暂时的伤害提升]
 	[c/B55362:大多数敌怪属性提升并且有着更具攻击性的AI]
 	[c/B55362:Boss们拥有新的AI和阶段，会掉落大师模式专属物品。敌怪生成更频繁。]
 	[c/F7342A:本模式比专家模式难度更高。准备好迎接挑战就开启吧。]
@@ -82,7 +82,7 @@ Cooldowns: {
 	DivineBless: 圣天祝福充能
 	DivingPlatesBreaking: 深渊潜游服耐久
 	DivingPlatesBroken: 深渊潜游服外壳破损
-	// ElysianGuard: Elysian Guard Cooldown
+	ElysianGuard: 极乐守护冷却
 	EvasionScarf: 闪避围巾冷却
 	FleshTotem: 血肉图腾冷却
 	GlobalDodge: 深渊影遁冷却
@@ -93,7 +93,7 @@ Cooldowns: {
 	MasterChefShieldDurability: 能量庇护中
 	MasterChefShieldRecharge: 能量庇护充能
 	NebulousCore: 星云之核冷却
-	// OldDukeScalesFatigue: Stamina
+	OldDukeScalesFatigue: 耐力
 	OmegaBlueActive: 深渊狂乱
 	OmegaBlueCooldown: 深渊狂乱冷却
 	PermafrostConcoction: 秘药冷却

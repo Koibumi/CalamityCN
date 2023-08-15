@@ -61,7 +61,7 @@ Aorta: {
 	Tooltip:
 		'''
 		向周围敌人射出追踪鲜血
-		一只超级灵活的悠悠球
+		一只十分灵活的悠悠球
 		'''
 }
 
@@ -157,7 +157,7 @@ Azathoth: {
 	Tooltip:
 		'''
 		发射能爆裂出死亡射线的寰宇之球攻击敌人
-		一只十分灵活的悠悠球
+		一只超级灵活的悠悠球
 		“眨眼之间摧毁宇宙”
 		'''
 }
@@ -687,7 +687,7 @@ Lacerator: {
 	Tooltip:
 		'''
 		接近这个悠悠球的敌人的生命会被汲取
-		一只十分灵活的悠悠球
+		一只超级灵活的悠悠球
 		[GFB]
 		'''
 	TooltipNormal: 竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑
@@ -730,7 +730,11 @@ MajesticGuard: {
 
 MantisClaws: {
 	DisplayName: 螳螂爪
-	Tooltip: 击中敌人时产生爆炸
+	Tooltip:
+		'''
+		击中敌人时产生爆炸
+		“三虾五除二的事”
+		'''
 }
 
 MirrorBlade: {
@@ -919,7 +923,11 @@ Pwnagehammer: {
 
 Quagmire: {
 	DisplayName: 泥潭
-	Tooltip: 发射孢子云
+	Tooltip:
+		'''
+		发射孢子云
+		一只十分灵活的悠悠球
+		'''
 }
 
 RedSun: {
@@ -954,11 +962,7 @@ RemsRevenge: {
 
 Riptide: {
 	DisplayName: 涡旋
-	Tooltip:
-		'''
-		发射水流
-		一只十分灵活的悠悠球
-		'''
+	Tooltip: 发射水流
 }
 
 Roxcalibur: {
@@ -1009,11 +1013,7 @@ Shimmerspark: {
 
 SmokingComet: {
 	DisplayName: 烟陨彗星
-	Tooltip:
-		'''
-		召唤星星从天而降
-		一只十分灵活的悠悠球
-		'''
+	Tooltip: 召唤星星从天而降
 }
 
 SolarFlare: {
@@ -1021,7 +1021,7 @@ SolarFlare: {
 	Tooltip:
 		'''
 		击中敌人时产生强大的圣火爆炸
-		一只十分灵活的悠悠球
+		一只超级灵活的悠悠球
 		'''
 }
 
@@ -1214,7 +1214,7 @@ TheMicrowave: {
 	Tooltip:
 		'''
 		以辐射破坏附近敌人的生物组织和机械原件
-		一只十分灵活的悠悠球
+		一只超级灵活的悠悠球
 		“用幻星的传统方式料理你的敌人，是舌尖上的灾厄的著名菜点”
 		'''
 }

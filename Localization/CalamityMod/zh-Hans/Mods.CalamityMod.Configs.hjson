@@ -171,26 +171,26 @@ CalamityConfig: {
 	}
 
 	FlightBar: {
-		// Label: "[i:CalamityMod/DrewsWings] Display Flight Bar"
-		// Tooltip: Enables the Flight Bar UI, which displays the player's flight capabilities
+		Label: "[i:CalamityMod/DrewsWings] 显示飞行时间条"
+		Tooltip: 启用飞行时间UI条，显示玩家的飞行能力
 	}
 
 	FlightBarPosX: {
-		// Label: "[i:LaserRuler] Flight Bar X Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] 飞行时间条X轴坐标"
+		Tooltip:
 			'''
-			The X position of the Flight Bar, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			飞行时间条的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则飞行时间条可以被鼠标拖动。
+			'''
 	}
 
 	FlightBarPosY: {
-		// Label: "[i:LaserRuler] Flight Bar Y Position"
-		/* Tooltip:
+		Label: "[i:LaserRuler] Flight Bar Y Position"
+		Tooltip:
 			'''
-			The Y position of the Flight Bar, measured as a % of your screen height.
-			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			''' */
+			飞行时间条的 Y 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则飞行时间条可以被鼠标拖动。
+			'''
 	}
 
 	ForceTownSafety: {
