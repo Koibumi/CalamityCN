@@ -341,8 +341,8 @@ Whiterain.DisplayName: 苍白雨
 WulfrumScrew.DisplayName: 螺丝钉
 WulfrumScrewdriverProj.DisplayName: 螺丝刀
 YateveoBloomProj.DisplayName: 玫瑰之盛放
-// YinYoDark.DisplayName: Dark Shard
-// YinYoLight.DisplayName: Light Shard
+YinYoDark.DisplayName: 黑暗碎块
+YinYoLight.DisplayName: 光明碎块
 AirSpinnerYoyo.DisplayName: 空旋
 AortaYoyo.DisplayName: 大动脉
 AzathothYoyo.DisplayName: 阿撒托斯
