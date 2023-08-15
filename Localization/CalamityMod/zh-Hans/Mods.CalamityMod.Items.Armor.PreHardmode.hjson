@@ -220,7 +220,6 @@ VictideBreastplate: {
 		'''
 	CommonSetBonus:
 		'''
-		在水中时增加3点生命再生速度和10%魔法伤害
 		使用任何武器时都有10%几率发射回旋贝壳弹幕
 		贝壳造成真实伤害，不受任何职业伤害加成影响
 		提高水下机动性，稍微减缓深渊中呼吸条消耗速度
@@ -239,25 +238,33 @@ VictideGreaves: {
 VictideHeadMagic: {
 	DisplayName: 胜潮隐帽
 	Tooltip: 增加5%魔法伤害
-	// SetBonus: +3 life regen and 10% increased magic damage while submerged in liquid
+	SetBonus: 在水中时增加3点生命再生速度和10%魔法伤害
 }
 
 VictideHeadMelee: {
 	DisplayName: 胜潮贝盔
 	Tooltip: 增加5%近战伤害
-	SetBonus: 敌人更有可能以你为目标
+	SetBonus:
+		'''
+		敌人更有可能以你为目标
+		在水中时增加3点生命再生速度和10%魔法伤害
+		'''
 }
 
 VictideHeadRanged: {
 	DisplayName: 胜潮瑚巾
 	Tooltip: 增加5%远程伤害
-	// SetBonus: +3 life regen and 10% increased ranged damage while submerged in liquid
+	SetBonus: 在水中时增加3点生命再生速度和10%远程伤害
 }
 
 VictideHeadRogue: {
 	DisplayName: 胜潮蟹盔
 	Tooltip: 增加5%盗贼伤害
-	SetBonus: 增加60点最大潜行值
+	SetBonus: 
+	    '''
+		增加60点最大潜行值
+		在水中时增加3点生命再生速度和10%盗贼伤害
+		'''
 }
 
 VictideHeadSummon: {
@@ -267,6 +274,7 @@ VictideHeadSummon: {
 		'''
 		增加1仆从栏
 		召唤一只海蜗牛保护你
+		在水中时增加3点生命再生速度和10%召唤伤害
 		'''
 }
 
