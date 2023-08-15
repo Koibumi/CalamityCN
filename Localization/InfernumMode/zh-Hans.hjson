@@ -1,8 +1,5 @@
 Mods: {
 	InfernumMode: {
-		InfernumText: 炼狱模式已开启，祝你好运。
-		InfernumText2: 炼狱模式已关闭，很好，继续吧。
-
 		Cooldowns: {
 			SealocketForcefieldCooldown: 力场冷却
 			InfiniteFlightCooldown: 无限飞行
@@ -25,16 +22,328 @@ Mods: {
 			InfernumText2: 炼狱模式已关闭，很好，继续吧。
 		}
 
-		Lore.VassalLore:
-			'''
-			[c/e3af40:寄宿其上的低语流入你的耳中……]
-			[c/bebebe:按住“左Shift”仔细聆听]
-			'''
-
 		UI: {
 			NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
 			AchievementsHeader: 死亡祈愿
 			WishesHeader: 开发者祈愿
+		}
+
+		IntroScreen: {
+			AEWIntroScreen.TextToDisplay:
+				'''
+				始渊守卫
+				始源妖龙
+				'''
+			AnahitaIntroScreen.TextToDisplay:
+				'''
+				遗忘精灵
+				阿娜希塔
+				'''
+			AquaticScourgeIntroScreen.TextToDisplay:
+				'''
+				硫磺巨蟒
+				渊海灾虫
+				'''
+
+			AresIntroScreen: {
+				TextToDisplay:
+					'''
+					终极战争机器
+					阿瑞斯
+					'''
+				JokeTextToDisplay:
+					'''
+					预判游戏大师
+					阿瑞斯
+					'''
+			}
+
+			ArtemisAndApolloIntroScreen.TextToDisplay:
+				'''
+				终极猎手
+				阿尔忒弥斯和阿波罗
+				'''
+			AstrumAureusIntroScreen.TextToDisplay:
+				'''
+				感染践踏者
+				白金星舰
+				'''
+			AstrumDeusIntroScreen.TextToDisplay:
+				'''
+				织星者
+				星神游龙
+				'''
+			BereftVassalIntroScreen.TextToDisplay:
+				'''
+				阿尔戈斯
+				无邦封臣
+				'''
+			BetsyIntroScreen.TextToDisplay:
+				'''
+				飞龙之母
+				双足翼龙
+				'''
+			BrainOfCthulhuIntroScreen.TextToDisplay:
+				'''
+				邪神思维
+				克苏鲁之脑
+				'''
+			BrimstoneElementalIntroScreen.TextToDisplay:
+				'''
+				受创守护神
+				硫磺火元素
+				'''
+			CalamitasShadowIntroScreen.TextToDisplay:
+				'''
+				欺诈魔女
+				灾厄之影
+				'''
+			CeaselessVoidIntroScreen.TextToDisplay:
+				'''
+				无止之噬
+				无尽虚空
+				'''
+			CrabulonIntroScreen.TextToDisplay:
+				'''
+				复生死尸
+				菌生蟹
+				'''
+			CryogenIntroScreen.TextToDisplay:
+				'''
+				崩摧监牢
+				极地之灵
+				'''
+			CultistIntroScreen.TextToDisplay:
+				'''
+				远古末日预言者
+				拜月教邪教徒
+				'''
+			DeerclopsIntroScreen.TextToDisplay:
+				'''
+				冬日凶兽
+				独眼巨鹿
+				'''
+			DesertScourgeIntroScreen.TextToDisplay:
+				'''
+				干缩饕餮
+				荒漠灾虫
+				'''
+			DestroyerIntroScreen.TextToDisplay:
+				'''
+				世界挖掘者
+				毁灭者
+				'''
+			DoGIntroScreen.TextToDisplay:
+				'''
+				自命不凡的
+				神明吞噬者
+				'''
+			DraedonIntroScreen.TextToDisplay:
+				'''
+				寰宇神匠
+				嘉登
+				'''
+			DragonfollyIntroScreen.TextToDisplay:
+				'''
+				混血龙裔
+				痴愚金龙
+				'''
+			DreadnautilusIntroScreen.TextToDisplay:
+				'''
+				血月之魇
+				恐惧鹦鹉螺
+				'''
+			DukeFishronIntroScreen.TextToDisplay:
+				'''
+				海洋之惧
+				猪龙鱼公爵
+				'''
+			EaterOfWorldsIntroScreen.TextToDisplay:
+				'''
+				腐化之惧
+				世界吞噬者
+				'''
+			EmpressOfLightIntroScreen.TextToDisplay:
+				'''
+				虹棱辐辉
+				光之女皇
+				'''
+			EyeOfCthulhuIntroScreen.TextToDisplay:
+				'''
+				恶魔凝视者
+				克苏鲁之眼
+				'''
+
+			GolemIntroScreen: {
+				TextToDisplay:
+					'''
+					古代神像
+					石巨人
+					'''
+				JokeTextToDisplay:
+					'''
+					NUMBER ! SALSMAN
+					[Circa 1997]
+					'''
+			}
+
+			GreatSandSharkIntroScreen.TextToDisplay:
+				'''
+				托勒斯
+				旱海狂鲨
+				'''
+			HiveMindIntroScreen.TextToDisplay:
+				'''
+				群生恶瘤
+				腐巢意志
+				'''
+			KingSlimeIntroScreen.TextToDisplay:
+				'''
+				凝胶君主
+				史莱姆王
+				'''
+			LeviathanIntroScreen.TextToDisplay:
+				'''
+				远古野兽
+				利维坦
+				'''
+			MoonLordIntroScreen.TextToDisplay:
+				'''
+				不可名状之遗骸
+				月亮领主
+				'''
+
+			OldDukeIntroScreen: {
+				TextToDisplay:
+					'''
+					硫海之惧
+					硫海遗爵
+					'''
+				JokeTextToDisplay:
+					'''
+					冲刺恶魔
+					硫海遗爵
+					'''
+			}
+
+			PBGIntroScreen.TextToDisplay:
+				'''
+				生物巨械
+				瘟疫使者歌莉娅
+				'''
+			PerforatorHiveIntroScreen.TextToDisplay:
+				'''
+				血殁寄生者
+				血肉宿主
+				'''
+			PlanteraIntroScreen.TextToDisplay:
+				'''
+				繁茂丛生的
+				世纪之花
+				'''
+			PolterghastIntroScreen.TextToDisplay:
+				'''
+				怨念融合体
+				噬魂幽花
+				'''
+			ProfanedGuardiansIntroScreen.TextToDisplay:
+				'''
+				圣洁使徒
+				亵渎守卫
+				'''
+			ProfanedTempleIntroScreen.TextToDisplay:
+				'''
+				圣洁之地
+				亵渎花园
+				'''
+
+			ProvidenceIntroScreen: {
+				TextToDisplay:
+					'''
+					圣洁之焰
+					亵渎天神 普罗维登斯
+					'''
+				EnragedTextToDisplay:
+					'''
+					赦罪之焰
+					亵渎天神 普罗维登斯
+					'''
+			}
+
+			QueenBeeIntroScreen.TextToDisplay:
+				'''
+				蜂群女王
+				蜂王
+				'''
+			QueenSlimeIntroScreen.TextToDisplay:
+				'''
+				神圣聚群
+				史莱姆皇后
+				'''
+			RavagerIntroScreen.TextToDisplay:
+				'''
+				血肉堡垒
+				毁灭魔像
+				'''
+			SCalIntroScreen.TextToDisplay:
+				'''
+				硫火女巫
+				至尊灾厄
+				'''
+			SignusIntroScreen.TextToDisplay:
+				'''
+				鬼魅刺客
+				神之使徒西格纳斯
+				'''
+			SkeletronIntroScreen.TextToDisplay:
+				'''
+				耄耋厄咒
+				骷髅王
+				'''
+			SkeletronPrimeIntroScreen.TextToDisplay:
+				'''
+				恐惧之械
+				机械骷髅王
+				'''
+			SlimeGodIntroScreen.TextToDisplay:
+				'''
+				原初之构
+				史莱姆之神
+				'''
+			StormWeaverIntroScreen.TextToDisplay:
+				'''
+				大气捕食者
+				风暴编织者
+				'''
+			TerminusIntroScreen.TextToDisplay: 你找到了终末石！
+			ThanatosIntroScreen.TextToDisplay:
+				'''
+				完美歼灭者
+				塔纳托斯
+				'''
+			TwinsIntroScreen.TextToDisplay:
+				'''
+				机械观察者
+				双子魔眼
+				'''
+			WoFIntroScreen.TextToDisplay:
+				'''
+				饥饿聚合体
+				血肉墙
+				'''
+
+			YharonIntroScreen: {
+				TextToDisplay:
+					'''
+					忠诚护卫
+					重生之龙 牙戎
+					'''
+				JokeTextToDisplay:
+					'''
+					傲慢的
+					重生之龙 牙戎
+					'''
+			}
 		}
 
 		Projectiles: {
@@ -45,19 +354,19 @@ Mods: {
 			EidolistElectricOrb2.DisplayName: Electric Orb
 			EidolistIce.DisplayName: Abyssal Ice
 			EidolistIceBomb.DisplayName: Abyssal Ice
-			EidolistLightning.DisplayName: Lightning Bolt
+			EidolistLightning.DisplayName: 闪电
 			EidolistRitual.DisplayName: Ritual
-			ElectricPulse.DisplayName: Electric Pulse
-			InkBlob.DisplayName: Ink Blob
-			InkBolt.DisplayName: Ink
-			MiniReaperShark.DisplayName: Reaper Shark
-			ReaperSharkIceBreath.DisplayName: Ice Breath
+			ElectricPulse.DisplayName: 电脉冲
+			InkBlob.DisplayName: 墨汁球
+			InkBolt.DisplayName: 墨汁
+			MiniReaperShark.DisplayName: 猎魂鲨
+			ReaperSharkIceBreath.DisplayName: 冰息
 			SimpleAbyssalSoul.DisplayName: Abyssal Spirit
 			AbyssalSoul.DisplayName: Abyssal Spirit
 			AbyssalSoulTelegraph.DisplayName: Abyssal Telegraph
 			AEWIllusionTelegraphLine.DisplayName: Telegraph
-			AEWNightmareWyrm.DisplayName: Eidolon Wyrm
-			AEWSplitForm.DisplayName: Adult Eidolon Wyrm
+			AEWNightmareWyrm.DisplayName: 幻海妖龙
+			AEWSplitForm.DisplayName: 始源妖龙
 			AEWTelegraphLine.DisplayName: Telegraph
 			CircleCenterTelegraph.DisplayName: Telegraph
 			ConvergingLumenylCrystal.DisplayName: Divine Lumenyl
@@ -69,25 +378,25 @@ Mods: {
 			PsychicBlast.DisplayName: Psychic Blast
 			TerminusDeathray.DisplayName: Primordial Light
 			AcceleratingArcingAcid.DisplayName: Acid
-			AcidBubble.DisplayName: Acid Bubble
+			AcidBubble.DisplayName: 酸性气泡
 			AquaticScourgeBodySpike.DisplayName: Irradiated Spike
 			AquaticScourgeGore.DisplayName: Gore
 			FallingAcid.DisplayName: Acid
 			LeechFeeder.DisplayName: Feeder
-			RadiationPulse.DisplayName: Radiation Pulse
-			SulphuricGas.DisplayName: Sulphuric Acid Gas
-			SulphuricGasDebuff.DisplayName: Sulphuric Acid Gas
+			RadiationPulse.DisplayName: 辐射脉冲
+			SulphuricGas.DisplayName: 硫酸气体
+			SulphuricGasDebuff.DisplayName: 硫酸气体
 			SulphuricTornado.DisplayName: Sulphuric Typhoon
 			SulphurousRockRubble.DisplayName: Sulphuric Rubble
-			WaterClearingBubble.DisplayName: Acid Bubble
+			WaterClearingBubble.DisplayName: 酸性气泡
 			AstralBlueComet.DisplayName: Astral Comet
 			AstralLaserInfernum.DisplayName: Astral Laser Volley
-			AstralMissile.DisplayName: Astral Missile
-			BlueLaserbeam.DisplayName: Astral Deathray
+			AstralMissile.DisplayName: 星辉导弹
+			BlueLaserbeam.DisplayName: 星辉死亡射线
 			MissileTelegraphLine.DisplayName: Telegraph
-			OrangeLaserbeam.DisplayName: Astral Deathray
-			AstralBlackHole.DisplayName: Astral Black Hole
-			AstralConstellation.DisplayName: Star
+			OrangeLaserbeam.DisplayName: 星辉死亡射线
+			AstralBlackHole.DisplayName: 星辉黑洞
+			AstralConstellation.DisplayName: 星星
 			AstralCrystal.DisplayName: Astral Crystal
 			AstralFlame2.DisplayName: Astral Flame
 			AstralPlasmaFireball.DisplayName: Astral Plasma Flame
@@ -104,19 +413,19 @@ Mods: {
 			IchorSpit.DisplayName: Ichor
 			PsionicLightningBolt.DisplayName: Psionic Lightning Bolt
 			PsionicOrb.DisplayName: Psychic Energy
-			Brimrose.DisplayName: Brimrose
-			BrimstoneDeathray.DisplayName: Brimstone Deathray
-			BrimstoneFireball.DisplayName: Brimstone Flame
+			Brimrose.DisplayName: 硫火玫瑰
+			BrimstoneDeathray.DisplayName: 硫火射线
+			BrimstoneFireball.DisplayName: 硫磺火球
 			BrimstonePetal.DisplayName: Brimstone Petal
 			BrimstonePetal2.DisplayName: Brimstone Petal
-			BrimstoneRose.DisplayName: Brimstone Rose
+			BrimstoneRose.DisplayName: 硫火玫瑰
 			BrimstoneSkull.DisplayName: Brimstone Skull
 			BrimstoneTelegraphRay.DisplayName: Brimstone Deathray
 			HomingBrimstoneSkull.DisplayName: Brimstone Hellblast
 			RedFlameTelegraph.DisplayName: Fuck you nobody is going to ever see this name
 			AccentuationHexProj.DisplayName: Calamitous Hex
 			ArcingBrimstoneDart.DisplayName: Brimstone Dart
-			BrimstoneBomb.DisplayName: Brimstone Bomb
+			BrimstoneBomb.DisplayName: 硫火炸弹
 			BrimstoneBoomExplosion.DisplayName: Explosion
 			BrimstoneLightning.DisplayName: Brimstone Lightning Bolt
 			BrimstoneMeteor.DisplayName: Brimstone Meteor
@@ -128,32 +437,32 @@ Mods: {
 			DarkMagicFlame.DisplayName: Dark Magic Flame
 			EntropyBeam.DisplayName: Entropic Beam
 			HauntingSoulSeeker.DisplayName: Soul Seeker
-			HomingBrimstoneBurst.DisplayName: Brimstone Flame
+			HomingBrimstoneBurst.DisplayName: 硫磺火焰
 			IndignationHexProj.DisplayName: Calamitous Hex
 			LargeDarkFireOrb.DisplayName: Dark Fire Orb
 			LingeringBrimstoneFlames.DisplayName: Brimstone Fire Cloud
-			RisingBrimstoneFireball.DisplayName: Brimstone Bomb
+			RisingBrimstoneFireball.DisplayName: 硫火炸弹
 			ShadowBlob.DisplayName: Shadow Blob
 			SoulSeekerResurrectionBeam.DisplayName: Necromantic Beam
 			ThinBrimstoneSlash.DisplayName: Brimstone Slash
 			WeaknessHexProj.DisplayName: Calamitous Hex
 			ZealHexProj.DisplayName: Calamitous Hex
-			AcceleratingDarkEnergy.DisplayName: Dark Energy
-			CeaselessEnergyPulse.DisplayName: Ceaseless Energy Pulse
+			AcceleratingDarkEnergy.DisplayName: 暗能量
+			CeaselessEnergyPulse.DisplayName: 无尽能量脉冲
 			CeaselessVoidLineTelegraph.DisplayName: Line Telegraph
 			CeaselessVoidShell.DisplayName: Metal Shell
 			CeaselessVortex.DisplayName: Ceaseless Vortex
 			CeaselessVortexTear.DisplayName: Ceaseless Tear
 			ConvergingDungeonRubble.DisplayName: Energized Rubble
-			EnergyTelegraph.DisplayName: Dark Energy Shard
+			EnergyTelegraph.DisplayName: 暗能量碎片
 			GammaBurstLineTelegraph.DisplayName: Line Telegraph
 			OtherworldlyBolt.DisplayName: Otherwordly Bolt
 			RealitySlice.DisplayName: Reality Tear
-			SpinningDarkEnergy.DisplayName: Dark Energy
+			SpinningDarkEnergy.DisplayName: 暗能量
 			TelegraphedOtherwordlyBolt.DisplayName: Otherwordly Bolt
 			HomingSpore.DisplayName: Spore
 			MushroomPillar.DisplayName: Mushroom Column
-			SporeCloud.DisplayName: Spore Gas
+			SporeCloud.DisplayName: 孢子气体
 			AimedIcicleSpike.DisplayName: Icicle Spike
 			AuroraSpirit.DisplayName: Aurora Spirit
 			AuroraSpirit2.DisplayName: Aurora Spirit
@@ -195,11 +504,11 @@ Mods: {
 			EnergySpark2.DisplayName: Red Spark
 			AcceleratingDoGBurst.DisplayName: Death Fire
 			DoGChargeGate.DisplayName: Portal
-			DoGDeathInfernum.DisplayName: Death Beam
+			DoGDeathInfernum.DisplayName: 死亡光束
 			DoGPhase2IntroPortalGate.DisplayName: Portal
-			DoGSpawnBoom.DisplayName: Explosion
+			DoGSpawnBoom.DisplayName: 爆炸
 			RealityBreakPortalLaserWall.DisplayName: Portal
-			RoDFailPulse.DisplayName: Explosion
+			RoDFailPulse.DisplayName: 爆炸
 			AresBeamExplosion.DisplayName: Exoburst Explosion
 			AresBeamTelegraph.DisplayName: Gamma Disintegration Beam Telegraph
 			AresCannonLaser.DisplayName: Exo Flame Laser
@@ -208,7 +517,7 @@ Mods: {
 			AresEnergyDeathrayTelegraph.DisplayName: Exo Energy Burst Telegraph
 			AresEnergySlash.DisplayName: Exo Energy Slash
 			AresLaserDeathray.DisplayName: Laser Deathray
-			AresLaughBoom.DisplayName: Explosion
+			AresLaughBoom.DisplayName: 爆炸
 			AresPlasmaFireball.DisplayName: Volatile Plasma Blast
 			AresPrecisionBlast.DisplayName: Precision Blast
 			AresPulseBlast.DisplayName: Exopulse Energy Burst
@@ -244,23 +553,23 @@ Mods: {
 			ExolaserSpark.DisplayName: Exolaser Spark
 			LightOverloadRay.DisplayName: Prismatic Overload Beam
 			LightRayTelegraph.DisplayName: Prismatic Light
-			OverloadBoom.DisplayName: Explosion
+			OverloadBoom.DisplayName: 爆炸
 			RefractionRotor.DisplayName: Refraction Rotor
 			ThanatosAresComboLaser.DisplayName: Exo Flame Laser
-			BigFollyFeather.DisplayName: Feather
+			BigFollyFeather.DisplayName: 羽毛
 			BirbThunderAuraFlare.DisplayName: Draconic Aura Flare
 			ExplodingEnergyOrb.DisplayName: Plasma Orb
-			FollyFeather.DisplayName: Feather
-			LightningCloud.DisplayName: Lightning
-			LightningCloud2.DisplayName: Lightning
+			FollyFeather.DisplayName: 羽毛
+			LightningCloud.DisplayName: 闪电
+			LightningCloud2.DisplayName: 闪电
 			LightningSuperchargeTelegraph.DisplayName: Charge Telegraph
-			RedLightningRedirectingFeather.DisplayName: Lightning Feather
-			RedLightningSnipeFeather.DisplayName: Lightning Feather
-			RedSpark.DisplayName: Lightning Feather
-			VolatileLightning.DisplayName: Lightning Cloud
-			BloodBolt.DisplayName: Blood Bolt
-			BloodShot2.DisplayName: Blood
-			GoreSpike.DisplayName: Spike
+			RedLightningRedirectingFeather.DisplayName: 闪电羽毛
+			RedLightningSnipeFeather.DisplayName: 闪电羽毛
+			RedSpark.DisplayName: 闪电羽毛
+			VolatileLightning.DisplayName: 雷云
+			BloodBolt.DisplayName: 血箭
+			BloodShot2.DisplayName: 血
+			GoreSpike.DisplayName: 尖刺
 			GoreSpitBall.DisplayName: Gore Spit Ball
 			SanguineBat.DisplayName: Sanguine Bat
 			ChargeTyphoon.DisplayName: Typhoon
@@ -270,9 +579,9 @@ Mods: {
 			Tornado.DisplayName: Tornado
 			TyphoonBlade.DisplayName: Typhoon Blade
 			AcceleratingPrismaticBolt.DisplayName: Prismatic Bolt
-			ArcingLightBolt.DisplayName: Light Bolt
+			ArcingLightBolt.DisplayName: 光箭
 			EmpressAurora.DisplayName: Aurora
-			EmpressExplosion.DisplayName: Explosion
+			EmpressExplosion.DisplayName: 爆炸
 			EmpressPrism.DisplayName: Prism
 			EmpressSparkle.DisplayName: Majestic Sparkle
 			EmpressSword.DisplayName: Empress Blade
@@ -289,9 +598,9 @@ Mods: {
 			CursedBullet.DisplayName: Cursed Shot
 			CursedFlameBomb.DisplayName: Cursed Flame Bomb
 			ShadowOrb.DisplayName: Shadow Orb
-			BloodShot.DisplayName: Blood
-			EoCTooth.DisplayName: Tooth
-			EoCTooth2.DisplayName: Tooth
+			BloodShot.DisplayName: 血
+			EoCTooth.DisplayName: 牙齿
+			EoCTooth2.DisplayName: 牙齿
 			SittingBlood.DisplayName: Tooth Ball
 			FistBullet.DisplayName: Fist Bullet
 			FistBulletTelegraph.DisplayName: Telegraph
@@ -317,10 +626,10 @@ Mods: {
 			WaterSpear.DisplayName: Water Spear
 			WaterTorrentBeam.DisplayName: Water Torrent
 			BlobProjectile.DisplayName: Hive Blob
-			EaterOfSouls.DisplayName: Eater of Souls
-			HiveMindWave.DisplayName: Explosion
-			ShadeFire.DisplayName: Fire
-			DeathSlash.DisplayName: Ninja Slice
+			EaterOfSouls.DisplayName: 灵魂吞噬者
+			HiveMindWave.DisplayName: 爆炸
+			ShadeFire.DisplayName: 火
+			DeathSlash.DisplayName: 快刀忍者
 			JewelBeam.DisplayName: Beam
 			Shuriken.DisplayName: Shuriken
 			AnahitaWaterIllusion.DisplayName: Anahita Illusion
@@ -329,27 +638,27 @@ Mods: {
 			AtlantisSpear2.DisplayName: Atlantis Spear
 			HeavenlyLullaby.DisplayName: Heavenly Lullaby
 			LeviathanMeteor.DisplayName: Leviathan Meteor
-			LeviathanSpawner.DisplayName: Water
+			LeviathanSpawner.DisplayName: 水
 			LeviathanSpawnWave.DisplayName: Wave
 			LeviathanVomit.DisplayName: Leviathan Vomit
-			RedirectingWaterBolt.DisplayName: Water Spear
-			WaterBolt.DisplayName: Water Spear
+			RedirectingWaterBolt.DisplayName: 水矛
+			WaterBolt.DisplayName: 水矛
 			LunarAsteroid.DisplayName: Lunar Flame
 			LunarFireball.DisplayName: Lunar Flame
 			LunarFlare.DisplayName: Phantasmal Flare
 			LunarFlareTelegraph.DisplayName: Telegraph
-			MoonLordDeathAnimationHandler.DisplayName: Death Animation
+			MoonLordDeathAnimationHandler.DisplayName: 死亡动画
 			MoonLordDeathBloodBlob.DisplayName: Ichor Blob
-			MoonLordExplosion.DisplayName: Explosion
+			MoonLordExplosion.DisplayName: 爆炸
 			MoonLordExplosionCinder.DisplayName: Cinder
-			MoonLordWave.DisplayName: Explosion
+			MoonLordWave.DisplayName: 爆炸
 			NonHomingPhantasmalEye.DisplayName: Phantasmal Eye
 			PhantasmalDeathray.DisplayName: Phantasmal Deathray
 			PhantasmalOrb.DisplayName: Phantasmal Orb
 			PressurePhantasmalDeathray.DisplayName: Phantasmal Deathray
 			StardustConstellation.DisplayName: Star
 			TrueEyeChargeTelegraph.DisplayName: Charge Telegraph
-			VoidBlackHole.DisplayName: Void
+			VoidBlackHole.DisplayName: 虚空
 			HomingAcid.DisplayName: Acid
 			OldDukeTooth.DisplayName: Rotten Tooth
 			SharkSummonVortex.DisplayName: Sulphurous Vortex
@@ -378,8 +687,8 @@ Mods: {
 			ExplodingFlower.DisplayName: Flower
 			NettlevineArenaSeparator.DisplayName: Nettlevine
 			Petal.DisplayName: Petal
-			SporeFlower.DisplayName: Flower
-			SporeGas.DisplayName: Spore Gas
+			SporeFlower.DisplayName: 花
+			SporeGas.DisplayName: 孢子气体
 			ArcingSoul.DisplayName: Soul
 			CirclingEctoplasm.DisplayName: Ectoplasm Wisp
 			EctoplasmShot.DisplayName: Ectoplasm Blast
@@ -387,29 +696,29 @@ Mods: {
 			Light.DisplayName: Light
 			NonReturningSoul.DisplayName: Soul
 			NotSpecialSoul.DisplayName: Soul
-			PolterghastWave.DisplayName: Explosion
+			PolterghastWave.DisplayName: 爆炸
 			SoulTelegraphLine.DisplayName: Telegraph
 			SpinningSoul.DisplayName: Soul
 			WavySoul.DisplayName: Soul
-			EvenlySpreadPrimeLaserRay.DisplayName: Deathray
-			LightningStrike.DisplayName: Lightning
+			EvenlySpreadPrimeLaserRay.DisplayName: 死亡射线
+			LightningStrike.DisplayName: 闪电
 			MetallicSpike.DisplayName: Metal Spike
-			PrimeMissile.DisplayName: Missile
+			PrimeMissile.DisplayName: 导弹
 			PrimeShield.DisplayName: Shield
-			PrimeSmallLaser.DisplayName: Laser
+			PrimeSmallLaser.DisplayName: 激光
 			SawSpark.DisplayName: Saw Spark
 			SmallElectricGasGloud.DisplayName: Electric Cloud
-			TeslaBomb.DisplayName: Tesla Bomb
-			CommanderSpear.DisplayName: Holy Spear
-			CommanderSpearThrown.DisplayName: Profaned Spear
+			TeslaBomb.DisplayName: 特斯拉炸弹
+			CommanderSpear.DisplayName: 神圣长矛
+			CommanderSpearThrown.DisplayName: 亵渎长矛
 			DefenderShield.DisplayName: Rock Shield
-			GuardiansRodFailPulse.DisplayName: Explosion
+			GuardiansRodFailPulse.DisplayName: 爆炸
 			HolyAimedDeathray.DisplayName: Flame Beam
 			HolyAimedDeathrayTelegraph.DisplayName: Telegraph
-			HolyDogmaFireball.DisplayName: Large Fireball
+			HolyDogmaFireball.DisplayName: 巨大火球
 			HolyFireRift.DisplayName: Fire Rift
-			HolyFireWall.DisplayName: Fire Wall
-			HolyPushbackWall.DisplayName: Fire Wall
+			HolyFireWall.DisplayName: 火墙
+			HolyPushbackWall.DisplayName: 火墙
 			HolySineSpear.DisplayName: Profaned Spear
 			HolySpinningFireBeam.DisplayName: Holy Fire Beam
 			LavaEruptionPillar.DisplayName: Lava Geyser
@@ -420,12 +729,12 @@ Mods: {
 			ProfanedCrack.DisplayName: Profaned Cracks
 			ProfanedField.DisplayName: Profaned Defender Field
 			ProfanedRock.DisplayName: Profaned Rock
-			ProfanedSpearInfernum.DisplayName: Profaned Spear
-			TelegraphedProfanedSpearInfernum.DisplayName: Profaned Spear
-			AcceleratingCrystalShard.DisplayName: Holy Crystal Shard
+			ProfanedSpearInfernum.DisplayName: 亵渎长矛
+			TelegraphedProfanedSpearInfernum.DisplayName: 亵渎长矛
+			AcceleratingCrystalShard.DisplayName: 神圣水晶碎片
 			AcceleratingMagicProfanedRock.DisplayName: Profaned Rock
 			CleansingFireball.DisplayName: Cleansing Fireball
-			CommanderSpear2.DisplayName: Holy Spear
+			CommanderSpear2.DisplayName: 神圣长矛
 			CrystalTelegraphLine.DisplayName: Telegraph
 			DyingSun.DisplayName: Dying Sun
 			FallingCrystalShard.DisplayName: Holy Crystal Shard
@@ -438,19 +747,19 @@ Mods: {
 			HolyRitual.DisplayName: Holy Ritual
 			HolySpear.DisplayName: Holy Spear
 			HolySpearFirePillar.DisplayName: Lava Geyser
-			HolySunExplosion.DisplayName: Holy Explosion
+			HolySunExplosion.DisplayName: 神圣爆炸
 			ProfanedLava.DisplayName: Searing Lava of Atonement
 			ProfanedLavaBlob.DisplayName: Lava Blob
-			ProvBoomDeath.DisplayName: Explosion
+			ProvBoomDeath.DisplayName: 爆炸
 			ProvidenceArenaBorder.DisplayName: Border
-			ProvidenceWave.DisplayName: Explosion
+			ProvidenceWave.DisplayName: 爆炸
 			ProvSummonFlameExplosion.DisplayName: Hyperthermal Explosion
 			StrongProfanedCrack.DisplayName: Profaned Cracks
-			BeeWave.DisplayName: Explosion
+			BeeWave.DisplayName: 爆炸
 			ConvergingHornet.DisplayName: Hornet
 			HoneyBlast.DisplayName: Honey Blast
 			HornetHive.DisplayName: Hive
-			TinyBee.DisplayName: Bee
+			TinyBee.DisplayName: 蜜蜂
 			BouncingSlimeProj.DisplayName: Bouncy Slime
 			FallingCrystal.DisplayName: Hallow Crystal
 			FallingGel.DisplayName: Falling Gel
@@ -459,10 +768,10 @@ Mods: {
 			HallowBladeLaserbeam.DisplayName: Hallow Blade Deathray
 			HallowCrystalSpike.DisplayName: Crystal Spike
 			HallowLaserbeam.DisplayName: Hallow Deathray
-			QueenJewelBeam.DisplayName: Beam
+			QueenJewelBeam.DisplayName: 宝石
 			QueenSlimeCrown.DisplayName: Queen Slime's Crown
 			QueenSlimeCrystalSpike.DisplayName: Crystal Spike
-			QueenSlimeLightWave.DisplayName: Explosion
+			QueenSlimeLightWave.DisplayName: 爆炸
 			QueenSlimeSplitFormProj.DisplayName: Heavenly Slime
 			SpinningLaserCrystal.DisplayName: Hallow Crystal
 			DarkFlamePillar.DisplayName: Dark Flame Pillar
@@ -611,8 +920,8 @@ Mods: {
 			MiniSandShark.DisplayName: Mini Sand Shark
 			ShadowIllusion.DisplayName: Lens Flare
 			ShadowTendril.DisplayName: Shadow Tendril
-			EggGoldProjectile.DisplayName: Golden Egg
-			EggProjectile.DisplayName: Egg
+			EggGoldProjectile.DisplayName: 金蛋
+			EggProjectile.DisplayName: 蛋
 			MyrindaelBonkProjectile.DisplayName: Myrindael
 			MyrindaelLightning.DisplayName: Myrndael Lightning Bolt
 			MyrindaelSpark.DisplayName: Myrindael Spark
@@ -631,10 +940,10 @@ Mods: {
 			StormMaidensRetributionProj.DisplayName: Storm Maiden's Retribution
 			StormMaidensRetributionWorldProj.DisplayName: Storm Maiden's Retribution
 			WanderersShellProj.DisplayName: Wanderer's Shell
-			WayfinderGate.DisplayName: Wayfinder Gate
-			WayfinderHoldout.DisplayName: Wayfinder
-			WayfinderItemProjectile.DisplayName: Wayfinder
-			WayfinderSymbol.DisplayName: Wayfinder Gate Symbol
+			WayfinderGate.DisplayName: 寻路者魔法门
+			WayfinderHoldout.DisplayName: 寻路者
+			WayfinderItemProjectile.DisplayName: 寻路者
+			WayfinderSymbol.DisplayName: 寻路者魔法门
 		}
 
 		NPCs: {
@@ -766,6 +1075,19 @@ Mods: {
 		}
 
 		Items: {
+			Lore: {
+				KnowledgeBereftVassal: {
+					Lore:
+						'''
+						源于孤独的非凡友情。
+						阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。
+						他藏身于这些神秘的废墟中，默默见证着时间的流逝，没有任何目的，直到你的到来。
+						他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。
+						'''
+					DisplayName: 无邦封臣和旱海狂鲨
+				}
+			}
+
 			CherishedSealocket: {
 				DisplayName: 珍海吊坠
 				Tooltip:
@@ -807,7 +1129,7 @@ Mods: {
 			}
 
 			BrimstoneCrescentStaff: {
-				DisplayName: B硫火新月法杖
+				DisplayName: 硫火新月法杖
 				Tooltip:
 					'''
 					使用法杖可生成一个强大的立场，其会提供独立的66%伤害减免
@@ -1383,19 +1705,6 @@ Mods: {
 				}
 			}
 
-			Lore: {
-				KnowledgeBereftVassal: {
-					DisplayName: 无邦封臣和旱海狂鲨
-					Lore:
-						'''
-						源于孤独的非凡友情。
-						阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。
-						他藏身于这些神秘的废墟中，默默见证着时间的流逝，没有任何目的，直到你的到来。
-						他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。
-						'''
-				}
-			}
-
 			NuclearTerrorRelic: {
 				DisplayName: 辐核骇兽孽狱圣物
 				Tooltip: ""
@@ -1408,14 +1717,13 @@ Mods: {
 
 			Weapons: {
 				Rogue: {
-					Dreamtastic: {
-						DisplayName: 梦幻
+					WanderersShell: {
+						DisplayName: 流浪者之壳
 						Tooltip:
 							'''
-							召唤两个笨蛋向敌人发射能量球
-							这本书本身也会释放能量
-							里面有限的页数，记录了两个梦幻之星他们丰富的冒险故事
-							你是个笨蛋
+							向敌人投掷贝壳，在它们反弹并停留在地上之前，这些贝壳会追踪敌人
+							潜伏攻击会将所有停留在地上的贝壳炸成会攻击附近敌人的水柱
+							开口边缘太锋利了，没法靠近耳朵
 							'''
 					}
 
@@ -1430,13 +1738,14 @@ Mods: {
 							'''
 					}
 
-					WanderersShell: {
-						DisplayName: 流浪者之壳
+					Dreamtastic: {
+						DisplayName: 梦幻
 						Tooltip:
 							'''
-							向敌人投掷贝壳，在它们反弹并停留在地上之前，这些贝壳会追踪敌人
-							潜伏攻击会将所有停留在地上的贝壳炸成会攻击附近敌人的水柱
-							开口边缘太锋利了，没法靠近耳朵
+							召唤两个笨蛋向敌人发射能量球
+							这本书本身也会释放能量
+							里面有限的页数，记录了两个梦幻之星他们丰富的冒险故事
+							你是个笨蛋
 							'''
 					}
 				}
@@ -1485,8 +1794,8 @@ Mods: {
 				}
 
 				CreditsRecordings: {
-					Label: Boss Footage Credits Recording
-					Tooltip: Enables boss footage recordings for the playback during the credits.
+					Label: Boss记录回放
+					Tooltip: 启用Boss记录以便在制作人名单期间播放
 				}
 			}
 		}

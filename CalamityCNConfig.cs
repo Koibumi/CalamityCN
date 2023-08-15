@@ -23,11 +23,6 @@ namespace CalamityCN
         */
         [ReloadRequired]
         [Header("CNinfernum")]
-        [DefaultValue(false)]
-        public bool InfernumCNFont;
-
-        [ReloadRequired]
-        [DefaultValue(true)]
         public bool InfernumCN;
 
     }

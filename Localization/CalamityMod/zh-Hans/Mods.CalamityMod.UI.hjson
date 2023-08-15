@@ -3,7 +3,7 @@ SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
 Adrenaline: 肾上腺素条
 Nanomachines: 纳米机器条
 Rage: 怒气条
-Flight: {0} 剩余飞行时间
+Flight: "{0} 剩余飞行时间"
 Charge: 当前充能
 DefenseDamage: 防御损伤
 SulphurousWater: 硫磺海水腐蚀条

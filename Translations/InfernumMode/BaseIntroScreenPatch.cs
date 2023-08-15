@@ -13,7 +13,7 @@ namespace CalamityCN.Translations.InfernumMode
 		{
 			get
 			{
-				return ModsCall.Infernum != null && ModsCall.Calamity != null && ModsCall.IsCN && CalamityCNConfig.Instance.InfernumCNFont;
+				return ModsCall.Infernum != null && ModsCall.Calamity != null && ModsCall.IsCN;
 			}
 		}
 

@@ -33,7 +33,7 @@ namespace CalamityCN.Translations.InfernumMode
 
 			ItemHelper.TranslateTooltip(tooltips, (TooltipLine l) => l.Mod == "InfernumMode" && l.Name == "Developer", delegate (TooltipLine tooltip)
 			{
-				tooltip.Text = "开发者物品";
+				tooltips.ReplaceText("Developer Item", "开发者物品");
 			});
 			
 

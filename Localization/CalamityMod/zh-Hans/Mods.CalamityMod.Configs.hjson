@@ -185,7 +185,7 @@ CalamityConfig: {
 	}
 
 	FlightBarPosY: {
-		Label: "[i:LaserRuler] Flight Bar Y Position"
+		Label: "[i:LaserRuler] 飞行时间条Y轴坐标"
 		Tooltip:
 			'''
 			飞行时间条的 Y 坐标位置，以屏幕宽度的百分比度量。

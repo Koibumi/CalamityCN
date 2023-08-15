@@ -260,8 +260,8 @@ VictideHeadRanged: {
 VictideHeadRogue: {
 	DisplayName: 胜潮蟹盔
 	Tooltip: 增加5%盗贼伤害
-	SetBonus: 
-	    '''
+	SetBonus:
+		'''
 		增加60点最大潜行值
 		在水中时增加3点生命再生速度和10%盗贼伤害
 		'''

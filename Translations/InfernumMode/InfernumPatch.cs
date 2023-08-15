@@ -4,20 +4,20 @@ using InfernumMode.Content.Achievements;
 using InfernumMode.Content.Achievements.DevWishes;
 using InfernumMode.Content.Achievements.InfernumAchievements;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist;
-using InfernumMode.Content.BossIntroScreens;
 using InfernumMode.Content.Items.Accessories;
 using InfernumMode.Content.Items.Misc;
 using InfernumMode.Content.Items.Weapons.Magic;
 using InfernumMode.Content.Projectiles;
+using InfernumMode.Content.Tiles.Profaned;
 using InfernumMode.Content.UI;
 using InfernumMode.Core.GlobalInstances.Players;
 using InfernumMode.Core.GlobalInstances.Systems;
 using InfernumMode.Core.ILEditingStuff;
+using InfernumModeMusic.Projectiles;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
-//using InfernumModeMusic.Projectiles;
 
 namespace CalamityCN.Translations.InfernumMode
 {
@@ -28,6 +28,10 @@ namespace CalamityCN.Translations.InfernumMode
         public static void Load()
         {
             ILHooksI = new List<ILHook>();
+
+            //1.9.28进入提示
+            QuickTranslate(typeof(UIPlayer), "OnEnterWorld", "[c/b90000:Infernum Mod: You have the ", "[c/b90000:炼狱模组： 你启用了");
+            QuickTranslate(typeof(UIPlayer), "OnEnterWorld", " mod(s) enabled, these may cause some boss fights to crash.]\n[c/b90000:A fix is being worked on, but for the meantime disabling the mod(s) will fix the crashing.]", "模组，它可能造成一些Boss战斗报错。]\n[c/b90000:修复工作还在进行，但你可以禁用该模组暂时解决报错。]");
 
             //成就
             QuickTranslate(typeof(Achievement), "OnCompletion", "Achievement Completed! [c/ff884d:", "成就完成 [c/ff884d:");
@@ -104,73 +108,6 @@ namespace CalamityCN.Translations.InfernumMode
             //Relic
             QuickTranslate(typeof(Utilities), "get_InfernalRelicText", "Imbued with the infernal flames of a defeated foe", "以殁者之火铸其形，其焰猩赫");
 
-            //Intro
-            if (CalamityCNConfig.Instance.InfernumCNFont)
-            {
-                QuickTranslate(typeof(AnahitaIntroScreen), "get_TextToDisplay", "Forgotten Deity\nAnahita", "遗忘精灵\n阿娜希塔");
-                QuickTranslate(typeof(AquaticScourgeIntroScreen), "get_TextToDisplay", "Sulphuric Serpent\nThe Aquatic Scourge", "硫磺巨蟒\n渊海灾虫");
-                QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "Prediction Game Master\nAres", "预判游戏大师\n阿瑞斯");
-                QuickTranslate(typeof(AresIntroScreen), "get_TextToDisplay", "The Ultimate War Machine\nAres", "终极战争机器\n阿瑞斯");
-                QuickTranslate(typeof(ArtemisAndApolloIntroScreen), "get_TextToDisplay", "The Supreme Hunters\nArtemis and Apollo", "终极猎手\n阿尔忒弥斯和阿波罗");
-                QuickTranslate(typeof(AstrumAureusIntroScreen), "get_TextToDisplay", "The Infected Stomper\nAstrum Aureus", "感染践踏者\n白金星舰");
-                QuickTranslate(typeof(AstrumDeusIntroScreen), "get_TextToDisplay", "The Star Weaver\nAstrum Deus", "织星者\n星神游龙");
-                QuickTranslate(typeof(BetsyIntroScreen), "get_TextToDisplay", "Mother of Wyverns\nBetsy", "飞龙之母\n双足翼龙");
-                QuickTranslate(typeof(BereftVassalIntroScreen), "get_TextToDisplay", "Argus\nThe Bereft Vassal", "阿尔戈斯\n无邦封臣");
-                QuickTranslate(typeof(BrainOfCthulhuIntroScreen), "get_TextToDisplay", "Eldritch Mind\nThe Brain of Cthulhu", "邪神思维\n克苏鲁之脑");
-                QuickTranslate(typeof(BrimstoneElementalIntroScreen), "get_TextToDisplay", "Scarred Numen\nThe Brimstone Elemental", "受创守护神\n硫磺火元素");
-                QuickTranslate(typeof(CalamitasShadowIntroScreen), "get_TextToDisplay", "False Witch\nCalamitas' Shadow", "欺诈魔女\n灾厄之影");
-                QuickTranslate(typeof(CeaselessVoidIntroScreen), "get_TextToDisplay", "The Never-Ending\nCeaseless Void", "无止之噬\n无尽虚空");
-                QuickTranslate(typeof(CrabulonIntroScreen), "get_TextToDisplay", "The Reanimated Carcass\nCrabulon", "复生死尸\n菌生蟹");
-                QuickTranslate(typeof(CryogenIntroScreen), "get_TextToDisplay", "The Unstable Prison\nCryogen", "崩摧监牢\n极地之灵");
-                QuickTranslate(typeof(CultistIntroScreen), "get_TextToDisplay", "Ancient Doomsayer\nThe Lunatic Cultist", "远古末日预言者\n拜月教邪教徒");
-                QuickTranslate(typeof(DeerclopsIntroScreen), "get_TextToDisplay", "Winter Beast\nThe Deerclops", "冬日凶兽\n独眼巨鹿 ");
-                QuickTranslate(typeof(DesertScourgeIntroScreen), "get_TextToDisplay", "Dried Glutton\nThe Desert Scourge", "干缩饕餮\n荒漠灾虫");
-                QuickTranslate(typeof(DestroyerIntroScreen), "get_TextToDisplay", "World Excavator\nThe Destroyer", "世界挖掘者\n毁灭者");
-                QuickTranslate(typeof(DoGIntroScreen), "get_TextToDisplay", "The Conceited\nDevourer of Gods", "自命不凡的\n神明吞噬者");
-                QuickTranslate(typeof(DraedonIntroScreen), "get_TextToDisplay", "The Cosmic Engineer\nDraedon", "寰宇神匠\n嘉登");
-                QuickTranslate(typeof(DragonfollyIntroScreen), "get_TextToDisplay", "False Offspring\nThe Dragonfolly", "混血龙裔\n痴愚金龙");
-                QuickTranslate(typeof(DreadnautilusIntroScreen), "get_TextToDisplay", "Nightmare of the Blood Moon\nDreadnautilus", "血月之魇\n恐惧鹦鹉螺");
-                QuickTranslate(typeof(DukeFishronIntroScreen), "get_TextToDisplay", "Terror of the Seas\nDuke Fishron", "海洋之惧\n猪龙鱼公爵");
-                QuickTranslate(typeof(EaterOfWorldsIntroScreen), "get_TextToDisplay", "Terror of the Corruption\nThe Eater of Worlds", "腐化之惧\n世界吞噬者");
-                QuickTranslate(typeof(EmpressOfLightIntroScreen), "get_TextToDisplay", "Prismatic Fae\nThe Empress of Light", "虹棱辐辉\n光之女皇");
-                QuickTranslate(typeof(EyeOfCthulhuIntroScreen), "get_TextToDisplay", "Demonic Seer\nThe Eye of Cthulhu", "恶魔凝视者\n克苏鲁之眼");
-                //QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "NUMBER ! SALSMAN\n[Circa 1997]", "");
-                QuickTranslate(typeof(GreatSandSharkIntroScreen), "get_TextToDisplay", "Taurus\nThe Great Sand Shark", "托勒斯\n旱海狂鲨");
-                QuickTranslate(typeof(GolemIntroScreen), "get_TextToDisplay", "The Ancient Idol\nGolem", "古代神像\n石巨人");
-                QuickTranslate(typeof(HiveMindIntroScreen), "get_TextToDisplay", "Collective Growth\nThe Hive Mind", "群生恶瘤\n腐巢意志");
-                QuickTranslate(typeof(KingSlimeIntroScreen), "get_TextToDisplay", "Monarch of the Gelatinous\nKing Slime", "凝胶君主\n史莱姆王");
-                QuickTranslate(typeof(LeviathanIntroScreen), "get_TextToDisplay", "Timeworn Beast\nThe Leviathan", "远古野兽\n利维坦");
-                QuickTranslate(typeof(MoonLordIntroScreen), "get_TextToDisplay", "Eldritch Remains\nThe Moon Lord", "不可名状之遗骸\n月亮领主");
-                QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Speed Demon\nThe Old Duke", "冲刺恶魔\n硫海遗爵");
-                QuickTranslate(typeof(OldDukeIntroScreen), "get_TextToDisplay", "Sulphuric Terror\nThe Old Duke", "硫海之惧\n硫海遗爵");
-                QuickTranslate(typeof(PBGIntroScreen), "get_TextToDisplay", "Biomechanical Colossus\nThe Plaguebringer Goliath", "生物巨械\n瘟疫使者歌莉娅");
-                QuickTranslate(typeof(PerforatorHiveIntroScreen), "get_TextToDisplay", "Bloodied Parasites\nThe Perforators", "血殁寄生者\n血肉宿主");
-                QuickTranslate(typeof(PlanteraIntroScreen), "get_TextToDisplay", "The Overgrowth\nPlantera", "繁茂丛生的\n世纪之花");
-                QuickTranslate(typeof(PolterghastIntroScreen), "get_TextToDisplay", "Wrathful Coalescence\nThe Polterghast", "怨念融合体\n噬魂幽花");
-                QuickTranslate(typeof(ProfanedGuardiansIntroScreen), "get_TextToDisplay", "Disciples of Purity\nThe Profaned Guardians", "圣洁使徒\n亵渎守卫");
-                QuickTranslate(typeof(ProfanedTempleIntroScreen), "get_TextToDisplay", "Cleansed Site\nThe Profaned Garden", "圣洁之地\n亵渎花园");
-                QuickTranslate(typeof(ProvidenceIntroScreen), "get_TextToDisplay", "The Blaze of Purity\nProvidence", "圣洁之焰\n亵渎天神 普罗维登斯");
-                QuickTranslate(typeof(ProvidenceIntroScreen), "get_TextToDisplay", "The Blaze of Absolution\nProvidence", "赦罪之焰\n亵渎天神 普罗维登斯");
-                QuickTranslate(typeof(QueenBeeIntroScreen), "get_TextToDisplay", "Hive Matriarch\nQueen Bee", "蜂群女王\n蜂王");
-                QuickTranslate(typeof(QueenSlimeIntroScreen), "get_TextToDisplay", "Hallowed Mass\nThe Queen Slime", "神圣聚群\n史莱姆皇后");
-                QuickTranslate(typeof(RavagerIntroScreen), "get_TextToDisplay", "The Fortress of Flesh\nRavager", "血肉堡垒\n毁灭魔像");
-                QuickTranslate(typeof(SCalIntroScreen), "get_TextToDisplay", "The Brimstone Witch\nCalamitas", "硫火女巫\n至尊灾厄");
-                QuickTranslate(typeof(SignusIntroScreen), "get_TextToDisplay", "The Fathomless Assassin\nSignus", "鬼魅刺客\n神之使徒西格纳斯");
-                QuickTranslate(typeof(SkeletronIntroScreen), "get_TextToDisplay", "The Old Man's Curse\nSkeletron", "耄耋厄咒\n骷髅王");
-                QuickTranslate(typeof(SkeletronPrimeIntroScreen), "get_TextToDisplay", "Contraption of Dread\nSkeletron Prime", "恐惧之械\n机械骷髅王");
-                QuickTranslate(typeof(SlimeGodIntroScreen), "get_TextToDisplay", "Primordial Formation\nThe Slime God", "原初之构\n史莱姆之神");
-                QuickTranslate(typeof(StormWeaverIntroScreen), "get_TextToDisplay", "Atmospheric Predator\nThe Storm Weaver", "大气捕食者\n风暴编织者");
-                QuickTranslate(typeof(ThanatosIntroScreen), "get_TextToDisplay", "The Perfect Annihilator\nThanatos", "完美歼灭者\n塔纳托斯");
-                QuickTranslate(typeof(TwinsIntroScreen), "get_TextToDisplay", "Mechanical Observers\nThe Twins", "机械观察者\n双子魔眼");
-                QuickTranslate(typeof(WoFIntroScreen), "get_TextToDisplay", "Hungering Conglomeration\nThe Wall of Flesh", "饥饿聚合体\n血肉墙");
-                //当前字体文件没“犽”字，悲
-                QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Grand\nYharon", "傲慢的\n重生之龙 牙戎");
-                QuickTranslate(typeof(YharonIntroScreen), "get_TextToDisplay", "Unwavering Guardian\nYharon", "忠诚护卫\n重生之龙 牙戎");
-                //成年幻海妖龙
-                QuickTranslate(typeof(AEWIntroScreen), "get_TextToDisplay", "Primeval Warden\nThe Eidolon Wyrm", "始渊守卫\n成年幻海妖龙");
-                QuickTranslate(typeof(TerminusIntroScreen), "get_TextToDisplay", "You found the Terminus!", "你找到了终末石！");
-            }
-
             //特效Tooltip?翻译随手贴的可以再改改
             QuickTranslate(typeof(IllusionersReverie), "PreDrawTooltipLine", "An ", "一本");
             QuickTranslate(typeof(IllusionersReverie), "PreDrawTooltipLine", "incomprehensibly ", "令人费解的");
@@ -225,22 +162,6 @@ namespace CalamityCN.Translations.InfernumMode
                     return;
                 cursor.Index++;
                 cursor.EmitDelegate<Func<string, string>>((eng) => trans);
-            })));
-        }
-        private static void QuickTranslate(Type type, string methodName, string origin, string trans, int times)
-        {
-            ILHooksI.Add(new ILHook(
-            type.GetCachedMethod(methodName),
-            new ILContext.Manipulator(il =>
-            {
-                var cursor = new ILCursor(il);
-                for (int i = 0; i < times; i++)
-                {
-                    if (!cursor.TryGotoNext(i => i.MatchLdstr(origin)))
-                        return;
-                    cursor.Index++;
-                    cursor.EmitDelegate<Func<string, string>>((eng) => trans);
-                }
             })));
         }
     }
