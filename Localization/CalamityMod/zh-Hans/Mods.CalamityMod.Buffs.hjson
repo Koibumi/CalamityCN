@@ -1487,7 +1487,7 @@ GreenJellyRegen: {
 }
 
 AbsorberRegen: {
-	DisplayName: Regeneraga
+	DisplayName: 新生律动
 	Description:
 		'''
 		你被顶尖的自然力量所祝福
@@ -1496,6 +1496,6 @@ AbsorberRegen: {
 }
 
 AbsorberAffliction: {
-	DisplayName: Absorber Affliction
+	DisplayName: 吸尽之痛
 	Description: 该死的大自然，你真可怕！
 }
