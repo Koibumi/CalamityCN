@@ -997,7 +997,7 @@ LeviathanAmbergris: {
 }
 
 LifeJelly: {
-	DisplayName: 生命果胶
+	DisplayName: 生命胶质
 	Tooltip:
 		'''
 		使用治疗药水后会产生一个滞留光环
@@ -1035,7 +1035,7 @@ LuxorsGift: {
 }
 
 CleansingJelly: {
-	DisplayName: 纯净果胶
+	DisplayName: 纯净胶质
 	Tooltip:
 		'''
 		使用治疗药水后会产生一个纯净光环
@@ -1871,7 +1871,7 @@ VeneratedLocket: {
 }
 
 VitalJelly: {
-	DisplayName: 活力果胶
+	DisplayName: 活力胶质
 	Tooltip: 提高10%移动速度和跳跃速度
 }
 
