@@ -332,7 +332,7 @@ Screwdriver: {
 }
 
 StarBeamRye: {
-	DisplayName: 星流黑麦威士忌
+	DisplayName: 星界黑麦威士忌
 	Tooltip:
 		'''
 		增加50点最大魔力值和8%魔法伤害
@@ -383,7 +383,7 @@ Whiskey: {
 }
 
 WhiteWine: {
-	DisplayName: 白酒
+	DisplayName: 白葡萄酒
 	Tooltip:
 		'''
 		增加8%魔法伤害
