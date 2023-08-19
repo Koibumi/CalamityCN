@@ -1477,12 +1477,12 @@ WulfrumDroidBuff: {
 }
 
 PinkJellyRegen: {
-	DisplayName: 粉果胶再生
+	DisplayName: 粉胶质再生
 	Description: 粘液的力量使你神清气爽，生命再生速度增加4
 }
 
 GreenJellyRegen: {
-	DisplayName: 绿果胶再生
+	DisplayName: 绿胶质再生
 	Description: 再生粘液增幅着你，生命再生速度增加6
 }
 
