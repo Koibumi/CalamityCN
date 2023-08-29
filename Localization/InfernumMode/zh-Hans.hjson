@@ -25,7 +25,9 @@ Mods: {
 		UI: {
 			NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
 			AchievementsHeader: 死亡祈愿
+			// AchievementsHeader: Death Wishes
 			WishesHeader: 开发者祈愿
+			// WishesHoverTextButton: Open Death Wishes
 		}
 
 		IntroScreen: {
@@ -336,13 +338,188 @@ Mods: {
 				TextToDisplay:
 					'''
 					忠诚护卫
-					重生之龙 牙戎
+					重生之龙 犽戎
 					'''
 				JokeTextToDisplay:
 					'''
 					傲慢的
-					重生之龙 牙戎
+					重生之龙 犽戎
 					'''
+			}
+		}
+
+        Achievements: {
+			BabysFirstAchievement: {
+				DisplayName: First Of Many
+				Description:
+					'''
+					The higher the count, the more you've learnt
+					[c/777777:Die to an Infernum boss]
+					'''
+			}
+
+			BereftVassalAchievement: {
+				DisplayName: Forgotten Sands
+				Description:
+					'''
+					Best the Bereft Vassal in combat, in the far reaches of the desert's dunes
+					[c/777777:Defeat the Bereft Vassal]
+					'''
+			}
+
+			ExoPathAchievement: {
+				DisplayName: Lab Rat
+				Description:
+					'''
+					Become Draedon's favorite test subject
+					[c/777777:Beat all Infernum Exo Mech combinations]
+					'''
+			}
+
+			InfernalChaliceAchievement: {
+				DisplayName: Baptized By Hellfire
+				Description:
+					'''
+					Complete the final challenge, and earn your reward
+					[c/777777:Obtain the Infernal Chalice]
+					'''
+			}
+
+			KillAllBossesAchievement: {
+				DisplayName: Infer-it-all!
+				Description:
+					'''
+					Rip and tear, until it is done
+					[c/777777:Beat every Infernum Boss]
+					'''
+			}
+
+			KillAllMinibossesAchievement: {
+				DisplayName: Mini-Meany!
+				Description:
+					'''
+					Defeat the various minor threats across the world!
+					[c/777777:Beat every Infernum Miniboss]
+					'''
+			}
+
+			MechaMayhemAchievement: {
+				DisplayName: Malicious Machinery
+				Description:
+					'''
+					Decommission the Maniacal Mechanical trio in one fell swoop!
+					[c/777777:Beat Infernum Mecha-Mayhem]
+					'''
+			}
+
+			NightProviAchievement: {
+				DisplayName: Night Knight
+				Description:
+					'''
+					Challenge the Profaned Goddess under the gaze of the stars
+					[c/777777:Beat Infernum Night Providence]
+					'''
+			}
+
+			RamlessDoGAchievement: {
+				DisplayName: Rampage
+				Description:
+					'''
+					Best the Devourer at his own game: without a ram!
+					[c/777777:Beat the Infernum Devourer of Gods without using a ram dash]
+					'''
+			}
+
+			Wishes: {
+				BlahajWish: {
+					DisplayName: Benevolent Force
+					Description:
+						'''
+						Warm hugs
+						[c/777777:Defeat Infernum Duke Fishron in under 1 minute]
+						'''
+				}
+
+				CrescentWish: {
+					DisplayName: Post-apocalyptic
+					Description:
+						'''
+						The witch's sins could never be fully atoned
+						[c/777777:Defeat the Forgotten Shadow of Calamitas in the underworld]
+						'''
+				}
+
+				EggWish: {
+					DisplayName: The Chosen One
+					Description:
+						'''
+						Legends tell of a mighty warrior who will venture into the world and find the legendary blade hidden within
+						[c/777777:Find an egg sword shrine after defeating Golem]
+						'''
+				}
+
+				MatrixWish: {
+					DisplayName: The Scientific Method
+					Description:
+						'''
+						To experiment is to fail. To fail is to learn. To learn is to advance
+						[c/777777:Defeat every single boss and Exo Mech combination]
+						'''
+				}
+
+				NightmareWish: {
+					DisplayName: It Awakens
+					Description:
+						'''
+						It demands a sacrifice. You seem like a good choice
+						[c/777777:Sleep in the brimstone crags for {0} seconds]
+						'''
+				}
+
+				PurityWish: {
+					DisplayName: The Tanning Starseed
+					Description:
+						'''
+						It feels like solar winds, and solar chimes
+						[c/777777:Defeat Infernum Night Providence in under 3.5 minutes]
+						'''
+				}
+
+				SakuraWish: {
+					DisplayName: Innocent Breeze
+					Description:
+						'''
+						One hundred whimsical spirits, dancing playfully
+						[c/777777:Find a Sakura Bud]
+						'''
+				}
+
+				StormMaidenWish: {
+					DisplayName: Lamentation
+					Description:
+						'''
+						Their tears blend with the raindrops, mourning over all that couldn't be
+						[c/777777:Defeat the Exo Mechs and Calamitas and find the spear near your spawn point during the rain]
+						'''
+				}
+
+				TabletWish: {
+					DisplayName: Unsullied
+					Description:
+						'''
+						Not all beasts are monsters
+						[c/777777:Defeat the Aquatic Scourge without ever letting the acid meter exceed 50% during the battle]
+						'''
+				}
+
+				TophatWish: {
+					DisplayName: Amazingly Asinine Assistant
+					Description:
+						'''
+						You're improving with every failure! Keep going!
+						[c/777777:Have 3 deaths in a row to a boss]
+						'''
+				}
 			}
 		}
 
@@ -944,6 +1121,7 @@ Mods: {
 			WayfinderHoldout.DisplayName: 寻路者
 			WayfinderItemProjectile.DisplayName: 寻路者
 			WayfinderSymbol.DisplayName: 寻路者魔法门
+			MushBombInfernum.DisplayName: Mush Bomb Infernum
 		}
 
 		NPCs: {
@@ -1843,7 +2021,7 @@ Mods: {
 			ExoMechDesperationTwins2: 阿波罗-03：准备启用“热核闪击”互毁协定。
 			ExoMechDesperationThanatos1: 塔纳托斯-05：星流炮塔在不稳定能量水平下燃烧，即将自毁。
 			ExoMechDesperationThanatos2: 塔纳托斯-05：准备启用“极限过载冲击”互毁协定。
-			DraedonDefeat1: 有趣，十分有趣。
+			DraedonDefeat1: 有趣，十分有趣。死亡
 			DraedonDefeat2: 我引以为傲的杰作，彻底失败了。
 			DraedonDefeat2HyperplaneMatrix: 你是个优秀的测试对象。
 			DraedonDefeat3: 这也非是我预期中的结果。
