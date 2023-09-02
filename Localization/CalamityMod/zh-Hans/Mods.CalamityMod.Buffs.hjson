@@ -139,8 +139,8 @@ CrushDepth: {
 }
 
 RiptideDebuff: {
-	// DisplayName: Riptide
-	// Description: Lashed at by powerful waters
+	DisplayName: 激流
+	Description: 被强力水浪鞭打
 }
 
 Dragonfire: {
@@ -865,8 +865,8 @@ ArmorCrunch: {
 }
 
 Crumbling: {
-	// DisplayName: Crumbling
-	// Description: Your armor is damaged
+	DisplayName: 粉碎
+	Description: 你的护甲损伤了
 }
 
 Clamity: {
@@ -1322,9 +1322,9 @@ PoleWarperBuff: {
 }
 
 ProfanedSoulGuardians: {
-	// DisplayName: The Profaned Soul
-	// Description: The Profaned Soul Guardians will fight for and defend you!
-	// VanityDescription: The Profaned Soul Guardians will accompany you!
+	DisplayName: 亵渎之魂
+	Description: 亵渎灵魂守卫会为你而战！
+	VanityDescription: 亵渎灵魂守卫会伴你同行！
 }
 
 PuffWarriorBuff: {

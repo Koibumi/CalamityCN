@@ -82,7 +82,7 @@ BloodflareBodyArmor: {
 		'''
 	CommonSetBonus:
 		'''
-		// Greatly increased life regen, equivalent to Crimson armor
+		大幅增加生命再生，等同于猩红盔甲
 		击中一个生命值低于50%的敌人会掉落红心
 		这个效果有5秒冷却时间
 		'''
@@ -163,7 +163,7 @@ DemonshadeBreastplate: {
 		增加25%近战攻速、15%伤害和暴击率
 		与你接触的敌人会受到鬼魔伤害
 		增加200点最大生命值和最大魔力值
-		// Standing still absorbs shadows to grant exponentially accelerating life regen
+		站立不动时吸收暗影以获取指数加速的生命再生
 		'''
 }
 
@@ -233,7 +233,7 @@ FearmongerGreathelm: {
 		增加20%召唤伤害和2仆从栏
 		手持非召唤武器时仆从造成的伤害不再降低
 		免疫一切霜，火相关的减益
-		// Minion attacks grant +3.5 HP/s life regen and massively accelerate life regen
+		仆从攻击会提供3.5 HP/s生命再生并大幅加速生命再生
 		在南瓜月和霜月事件期间获得15%伤害减免
 		这15%伤害减免无视减伤率软上限
 		'''
@@ -288,11 +288,11 @@ GemTechHeadgear: {
 	GreenGemInfo: "[i:Emerald] 绿色宝石增加远程属性，并召唤飞镖弹快速向被远程弹幕击中的敌人飞去"
 	BlueGemInfo: "[i:Sapphire] 蓝色宝石给予{0}最大仆从栏，增加召唤伤害，并取消手持非召唤武器的召唤伤害降低惩罚"
 	PurpleGemInfo: "[i:Amethyst] 紫色宝石给予{0}最大魔力，增加魔法属性，并在你手持非魔法武器时为你快速回复魔力"
-	// PinkGemInfo: "[i:Diamond] The pink base gem grants {0} extra defense, extra damage reduction, increased movement speed, jump speed, and +{1} HP/s life regen"
+	PinkGemInfo: "[i:Diamond] 粉色基础宝石给予{0}防御，增加伤害减免、移动速度和跳跃速度，以及{1}HP/s生命再生
 	GemBonusInfo:
 		'''
-		// When all gems exist simultaneously, hitting a target with any weapon grants you +{0} HP/s life regen for {1} seconds
-		// This is increased to +{2} HP/s life regen if a weapon of another class is used during that {1} second period for {3} seconds
+		如果所有宝石同时存在，用任何武器击中敌人会提供持续{0}秒的{1}HP/s生命再生
+		如果在这{1}秒内，你使用了另一职业的武器超过{3}秒，增加的生命再生会变成{2}HP/s
 		'''
 }
 
@@ -554,8 +554,8 @@ TarragonHeadRogue: {
 	SetBonus:
 		'''
 		增加115点最大潜行值
-	    // After every 50 rogue critical hits you will gain 2.5 seconds of damage immunity
-		// This effect has a cooldown of 25 seconds
+	    使用盗贼武器暴击敌人50次时你会获得2.5秒无敌时间
+		此效果有25秒冷却
 		若你受到减益影响，则提升10%盗贼伤害
 		'''
 }
