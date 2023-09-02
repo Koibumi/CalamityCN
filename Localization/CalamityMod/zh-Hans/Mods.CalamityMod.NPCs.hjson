@@ -31,7 +31,7 @@ CragmawMire: {
 			在渊海灾虫被击败后的酸雨事件中生成。
 			用[i:CalamityMod/CausticTear]开始酸雨事件
 			'''
-		DespawnMessage: "[c/F0E68C:峭咽潭把自己埋回了沙子里……]"
+		DespawnMessage: "[c/F0E68C:峭咽潭埋进了沙子里……]"
 	}
 }
 
@@ -48,7 +48,7 @@ Mauler: {
 			在噬魂幽花被击败后的酸雨事件中生成。
 			用[i:CalamityMod/CausticTear]开始酸雨事件
 			'''
-		DespawnMessage: "[c/F0E68C:渊海狂鲨转而寻找其他攻击目标。]"
+		DespawnMessage: "[c/F0E68C:残暴的巨鲨去寻找下一个受害者了。]"
 	}
 }
 
@@ -61,7 +61,7 @@ NuclearTerror: {
 			在噬魂幽花被击败后的酸雨事件中生成.
 			用[i:CalamityMod/CausticTear]开始酸雨事件
 			'''
-		DespawnMessage: "[c/F0E68C:辐射异形在病态的光芒中逐渐消逝。]"
+		DespawnMessage: "[c/F0E68C:辐射骇兽在令人头晕目眩的光线中淡去了身影。]"
 	}
 }
 
@@ -77,7 +77,7 @@ AquaticScourgeHead: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在硫磺海使用 [i:CalamityMod/Seafood] 或等待其自然生成
-		DespawnMessage: "[c/F0E68C:渊海灾虫游回了宁静开阔的海洋。]"
+		DespawnMessage: "[c/F0E68C:剧毒的灾虫游回了宁静的汪洋中。]"
 		EntryName: 渊海灾虫
 	}
 }
@@ -104,7 +104,7 @@ AstrumAureus: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在夜晚的星辉瘟疫使用 [i:CalamityMod/AstralChunk]
-		DespawnMessage: "[c/FFD700:白金星舰已消除所有威胁，恢复执行侦察任务。]"
+		DespawnMessage: "[c/FFD700:白金星舰已解决所有威胁。恢复到侦察模式。]"
 	}
 }
 
@@ -115,7 +115,7 @@ AstrumDeusHead: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在夜晚使用 [i:CalamityMod/TitanHeart] 或者 [i:CalamityMod/Starcore] 于 [i:CalamityMod/AstralBeaconItem] 处右键召唤
-		DespawnMessage: "[c/FFD700:被污染的神明退回了天堂.]"
+		DespawnMessage: "[c/FFD700:被污染的神明退回了天界。]"
 		EntryName: 星神游龙
 	}
 }
@@ -127,7 +127,7 @@ BrimstoneElemental: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在硫火之崖使用[i:CalamityMod/CharredIdol]
-		DespawnMessage: "[c/DC143C:元素之灵继续阴沉地守望着阿萨福勒……]"
+		DespawnMessage: "[c/DC143C:元素之灵永恒而阴郁地守望着阿萨福勒……]"
 	}
 }
 
@@ -139,7 +139,7 @@ Bumblefuck: {
 	BossChecklistIntegration: {
 		EntryName: 痴愚金龙
 		SpawnInfo: 在丛林生物群落使用[i:CalamityMod/ExoticPheromones]
-		DespawnMessage: "[c/FFD700:金龙回到了它僻静的栖息地。]"
+		DespawnMessage: "[c/FFD700:痴愚金龙返回了它隐蔽的巢穴。]"
 	}
 }
 
@@ -151,7 +151,7 @@ CalamitasClone: {
 	BossChecklistIntegration: {
 		EntryName: 灾厄之影
 		SpawnInfo: 在夜晚使用[i:CalamityMod/EyeofDesolation]
-		DespawnMessage: "[c/FFA500:灾厄之影失望地吐了一口血，消失在黑夜里。]"
+		DespawnMessage: "[c/FFA500:女巫的克隆体失望地吐了口血，随即隐去身形。]"
 	}
 }
 
@@ -164,7 +164,7 @@ CeaselessVoid: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在地牢使用[i:CalamityMod/RuneofKos]
-		DespawnMessage: "[c/4B0082:远古的空间裂隙飘向了未知的地方。]"
+		DespawnMessage: "[c/4B0082:古老的空间裂缝穿梭去无人所知之地了。]"
 		EntryName: 无尽虚空
 	}
 }
@@ -195,7 +195,7 @@ Cryogen: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在雪原生物群落使用[i:CalamityMod/CryoKey]
-		DespawnMessage: "[c/00FFFF:极地之灵消失在刺骨的暴风雪中。]"
+		DespawnMessage: "[c/00FFFF:极地之灵在凌冽的暴雪中消失无踪。]"
 	}
 }
 
@@ -209,7 +209,7 @@ DesertScourgeHead: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在沙漠生物群落使用[i:CalamityMod/DesertMedallion]
-		DespawnMessage: "[c/EEE8AA:荒漠灾虫回到了沙子里。]"
+		DespawnMessage: "[c/EEE8AA:荒漠灾虫潜入旱海之中。]"
 		EntryName: 荒漠灾虫
 	}
 }
@@ -237,7 +237,7 @@ Apollo: {
 	BossChecklistIntegration: {
 		EntryName: 星流巨械
 		SpawnInfo: 点击安装了金源量子冷却电池的密码破译器
-		DespawnMessage: "[c/7FFFD4:终究是不完美的，真是遗憾……]"
+		DespawnMessage: "[c/7FFFD4:毕竟不是完美造物……真是可惜……]"
 	}
 }
 
@@ -283,7 +283,7 @@ GreatSandShark: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在击败世纪之花后的沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore]
-		DespawnMessage: "[c/DAA520:沙漠顶级掠食者消失在沙丘之中。]"
+		DespawnMessage: "[c/DAA520:大漠中的顶级掠食者消失于沙丘之间。]"
 	}
 }
 
@@ -311,7 +311,7 @@ Leviathan: {
 	BossChecklistIntegration: {
 		EntryName: 利维坦
 		SpawnInfo: 在海洋环境击杀一个未知的生物
-		DespawnMessage: "[c/7FFFD4:流浪的水生生物继续孤独的相互陪伴。]"
+		DespawnMessage: "[c/7FFFD4:海中弃儿们回归到孤独的相伴之中。]"
 	}
 }
 
@@ -371,7 +371,7 @@ OldDuke: {
 	BossChecklistIntegration: {
 		EntryName: 硫海遗爵
 		SpawnInfo: 在击败噬魂幽花后完成酸雨事件或使用 [i:CalamityMod/BloodwormItem] 为鱼饵在硫磺海钓鱼
-		DespawnMessage: "[c/F0E68C:硫海遗爵退回了酸雨中。]"
+		DespawnMessage: "[c/F0E68C:硫海遗爵退回无边的酸雨中。]"
 	}
 }
 
@@ -407,7 +407,7 @@ PlaguebringerGoliath: {
 	BossChecklistIntegration: {
 		EntryName: 瘟疫使者歌莉娅
 		SpawnInfo: 在丛林生物群落使用 [i:CalamityMod/Abombination]
-		DespawnMessage: "[c/00FF00:样本安乐死已执行，战斗终止。]"
+		DespawnMessage: "[c/00FF00:目 标 已 被 安 乐 死 。 战 斗 协 议 停 止 运 行 。]"
 	}
 }
 
@@ -426,7 +426,7 @@ Polterghast: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 击杀30个幻魂或在地牢使用 [i:CalamityMod/NecroplasmicBeacon]
-		DespawnMessage: "[c/B0E0E6:变幻无常的幽魂在回荡的哀嚎声下无影无踪。]"
+		DespawnMessage: "[c/B0E0E6:变幻无常的幽魂在回荡的哀号声下无影无踪。]"
 		EntryName: 噬魂幽花
 	}
 }
@@ -445,7 +445,7 @@ ProfanedGuardianCommander: {
 	BossChecklistIntegration: {
 		EntryName: 亵渎守卫
 		SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedShard]
-		DespawnMessage: "[c/FFA500:守卫们被召回了他们的女神身边。]"
+		DespawnMessage: "[c/FFA500:亵渎守卫们被召回女神身边。]"
 	}
 }
 
@@ -473,7 +473,7 @@ RavagerBody: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 使用 [i:CalamityMod/DeathWhistle]
-		DespawnMessage: "[c/B22222:毁灭魔像又开始了它漫无目的地恐怖肆虐。]"
+		DespawnMessage: "[c/B22222:毁灭魔像又开始了漫无目的的狂暴横行。]"
 		EntryName: 毁灭魔像
 	}
 }
@@ -488,7 +488,7 @@ Signus: {
 	BossChecklistIntegration: {
 		EntryName: 神之使徒，西格纳斯
 		SpawnInfo: 在地狱使用 [i:CalamityMod/RuneofKos]
-		DespawnMessage: "[c/BA55D3:西格纳斯以难以理解的方式原地消失。]"
+		DespawnMessage: "[c/BA55D3:西格纳斯以难以理解的能力原地消失。]"
 	}
 }
 
@@ -503,7 +503,7 @@ SlimeGodCore: {
 	BossChecklistIntegration: {
 		EntryName: 史莱姆之神
 		SpawnInfo: 使用 [i:CalamityMod/OverloadedSludge]
-		DespawnMessage: "[c/BA5533:狰狞的凝胶神明跳着离开了，它的复仇已经完成。]"
+		DespawnMessage: "[c/BA5533:污秽的凝胶之神雀跃离开，它已成功复仇。]"
 	}
 }
 
@@ -539,7 +539,7 @@ GiantClam: {
 
 	BossChecklistIntegration: {
 		SpawnInfo: 在沉沦之海自然生成
-		DespawnMessage: "[c/7FFFD4:巨像蛤回到了它藏身的洞穴。]"
+		DespawnMessage: "[c/7FFFD4:巨像蛤重返水下岩窟之中。]"
 	}
 }
 
@@ -572,7 +572,7 @@ Yharon: {
 	BossChecklistIntegration: {
 		EntryName: 重生之龙，犽戎
 		SpawnInfo: 使用 [i:CalamityMod/YharonEgg]
-		DespawnMessage: "[c/FFA500:犽戎飞离了视野，它完成了任务。]"
+		DespawnMessage: "[c/FFA500:犽戎腾空而起，振翅于视界之外，他的任务已然完成。]"
 	}
 }
 
