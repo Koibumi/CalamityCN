@@ -105,7 +105,7 @@ PestilentSlime: 病毒会瞄准任何活体的伤口，从中进行再编程以�
 PlaguebringerMiniboss: 没有什么能逃过瘟疫的魔爪：要么被同化，要么被抹杀。蜂后就是一个例子。尽管它们可以轻松碾碎瘟疫生物，但随着自己的子嗣被瘟疫感染，它们往往会被迫放弃自己的巢穴，这就给了纳米病毒可乘之机。用不了多久，一个瘟疫使者就会诞生。
 PlagueCharger: 瘟疫使者的子嗣，它们出生之时就已被嘉登的纳米机器所控制。纳米机器通过加速它们的新陈代谢速度来让它们在数个小时内成年。尽管这同样也意味着它们的生命周期只有数日，但这也正是让它们成为完美的一次性士兵的原因。
 Plagueshell: 龟壳与神经系统紧密相连，因此巨型陆龟成为了瘟疫的理想目标。龟壳中一切撕心裂肺的疼痛都会很快被麻痹，取而代之的是被控制的陆龟对命令的绝对服从。
-Viruling: 和用口器在其它生物身上吸血的跳跳兽不同，毒飞虫的口器是用来直接注射病毒的。除了瘟疫使者本身，没有生物能比它们更快感染野生生物。
+// Viruling: Unlike derplings, who use their proboscis to drain the blood of other creatures, virulings use theirs to inject the plague directly into their victims. Aside from the plaguebringers themselves, no creature is nearly as efficient at contaminating the local wildlife.
 //Sulphur Sea Enemies
 AnthozoanCrab: 尽管它们平时会伪装成简单的石头，但它们同样也能轻而易举地向生物投掷一整块巨石，在被接近时也能迅速后退。拥有如此力量的生物在别处恐怕是相当兴盛，但在如此一个充满恶意的环境，这样的技能充其量只够生存。
 AquaticUrchin: 渊海海胆和海胆有着千丝万缕的联系，它们被迫适应了酸水与辐射废物。它们的毒刺在通常情况下足以吓退掠食者，但在它所生存的这个环境里，再难吃的肉也是肉，这片海域可容不下挑食的生物。

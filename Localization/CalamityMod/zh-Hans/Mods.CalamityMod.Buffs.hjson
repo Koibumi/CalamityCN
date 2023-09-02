@@ -138,6 +138,11 @@ CrushDepth: {
 	Description: 被深海水压粉碎
 }
 
+RiptideDebuff: {
+	// DisplayName: Riptide
+	// Description: Lashed at by powerful waters
+}
+
 Dragonfire: {
 	DisplayName: 龙焰
 	Description: 被熊熊火焰吞没
@@ -702,11 +707,6 @@ DivineBless: {
 	Description: 生命再生速度增加，仆从攻击会造成放逐之火减益
 }
 
-ElysianGuard: {
-	DisplayName: 极乐守护
-	Description: 移动速度降低，其他属性增加
-}
-
 EmpyreanRage: {
 	DisplayName: 皇天之愤怒
 	Description: 皇天之愤怒
@@ -754,7 +754,7 @@ KamiBuff: {
 
 Mushy: {
 	DisplayName: 与菇共生
-	Description: 增加6点防御和2点生命再生速度
+	Description: 增加6点防御和每秒1点生命再生
 }
 
 PhantomicEmpowerment: {
@@ -862,6 +862,11 @@ AndromedaCripple: {
 ArmorCrunch: {
 	DisplayName: 碎甲
 	Description: 你的护甲被撕裂了
+}
+
+Crumbling: {
+	// DisplayName: Crumbling
+	// Description: Your armor is damaged
 }
 
 Clamity: {
@@ -1316,10 +1321,10 @@ PoleWarperBuff: {
 	Description: 你吸引着这些磁场模块
 }
 
-ProfanedBabs: {
-	DisplayName: 亵渎之魂
-	Description: 亵渎守卫全员会为你而战！
-	VanityDescription: 亵渎守卫全员会伴你同行！
+ProfanedSoulGuardians: {
+	// DisplayName: The Profaned Soul
+	// Description: The Profaned Soul Guardians will fight for and defend you!
+	// VanityDescription: The Profaned Soul Guardians will accompany you!
 }
 
 PuffWarriorBuff: {
@@ -1478,12 +1483,12 @@ WulfrumDroidBuff: {
 
 PinkJellyRegen: {
 	DisplayName: 粉胶质再生
-	Description: 粘液的力量使你神清气爽，生命再生速度增加4
+	Description: 粘液的力量使你神清气爽，增加每秒2点生命再生
 }
 
 GreenJellyRegen: {
 	DisplayName: 绿胶质再生
-	Description: 再生粘液增幅着你，生命再生速度增加6
+	Description: 再生粘液增幅着你，增加每秒2.5点生命再生
 }
 
 AbsorberRegen: {
@@ -1491,7 +1496,7 @@ AbsorberRegen: {
 	Description:
 		'''
 		你被顶尖的自然力量所祝福
-		增加7点生命再生速度，10%伤害和7%伤害减免
+		增加每秒3点生命再生，8%伤害和5%伤害减免
 		'''
 }
 

@@ -172,7 +172,7 @@ FathomSwarmerBreastplate: {
 		'''
 		增加6%伤害减免
 		增加6%召唤伤害
-		浸没在液体中时增加防御和生命再生速度
+		//Increases defense by 10 and grants +2.5 HP/s life regen while submerged in liquid
 		降低深渊造成的防御削减效果
 		'''
 }
@@ -324,9 +324,10 @@ LunicCorpsHelmet: {
 	SetBonus:
 		'''
 		“结束这场战争”
-		提供一面可以抵挡70点伤害的能量盾牌
-		盾牌会在被破坏后需要10秒充能
-		充能期间被攻击会重置充能进程
+		//Projects a bubble shield that absorbs up to 50 damage
+		//The shield starts recharging 5 seconds after being hit
+		//Recharging from zero to full charge takes 2 seconds
+		//Being hit again while recharging restarts the charge timer
 		增加10%子弹伤害
 		增加10%特殊远程伤害
 		这是指发射器、飞镖枪和其他一切不发射子弹或弓箭的武器
@@ -487,11 +488,11 @@ ReaverHeadTank: {
 		'''
 		增加15%伤害减免，但降低30%伤害
 		增加50点最大生命值
-		每秒被动恢复一点生命值
+		//Restores 1 HP every second, this applies separately from life regen
 		'''
 	SetBonus:
 		'''
-		+10防御力并+3生命再生速度
+		//+10 defense and +1.5 HP/s life regen
 		敌人更有可能以你为目标
 		受到持续性伤害减益时的生命恢复损失降低20%
 		你的任何攻击都有小概率具有生命偷取效果并且增加生命恢复速度

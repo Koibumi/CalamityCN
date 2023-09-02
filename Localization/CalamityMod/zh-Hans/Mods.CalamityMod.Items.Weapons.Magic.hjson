@@ -728,13 +728,14 @@ StormSpray: {
 
 SubsumingVortex: {
 	DisplayName: 归元漩涡
-	Tooltip:
+	/* Tooltip:
 		'''
 		左键释放一连串会冲向敌人的漩涡
 		右键在你的前方投射一个偏向光标位置的巨大旋涡
 		当漩涡的附近有敌人时，漩涡会向敌人发射多个快速移动的小漩涡
-		大漩涡会在一段时间后停止发射，并且松开右键时会将大漩涡向光标方向释放
-		'''
+		Releasing <right> fires the vortex towards the mouse if enough time has passed
+		Damage scales based on how long the vortex was held out
+		''' */
 }
 
 TacticiansTrumpCard: {

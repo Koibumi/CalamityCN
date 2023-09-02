@@ -238,7 +238,7 @@ VictideGreaves: {
 VictideHeadMagic: {
 	DisplayName: 胜潮隐帽
 	Tooltip: 增加5%魔法伤害
-	SetBonus: 在水中时增加3点生命再生速度和10%魔法伤害
+	SetBonus: 在水中时增加1.5HP/s点生命再生速度和10%魔法伤害
 }
 
 VictideHeadMelee: {
@@ -247,14 +247,14 @@ VictideHeadMelee: {
 	SetBonus:
 		'''
 		敌人更有可能以你为目标
-		在水中时增加3点生命再生速度和10%近战伤害
+		在水中时增加1.5HP/s点生命再生速度和10%近战伤害
 		'''
 }
 
 VictideHeadRanged: {
 	DisplayName: 胜潮瑚巾
 	Tooltip: 增加5%远程伤害
-	SetBonus: 在水中时增加3点生命再生速度和10%远程伤害
+	SetBonus: 在水中时增加1.5HP/s点生命再生速度和10%远程伤害
 }
 
 VictideHeadRogue: {
@@ -263,7 +263,7 @@ VictideHeadRogue: {
 	SetBonus:
 		'''
 		增加60点最大潜行值
-		在水中时增加3点生命再生速度和10%盗贼伤害
+		在水中时增加1.5HP/s点生命再生速度和10%盗贼伤害
 		'''
 }
 
@@ -274,7 +274,7 @@ VictideHeadSummon: {
 		'''
 		增加1仆从栏
 		召唤一只海蜗牛保护你
-		在水中时增加3点生命再生速度和10%召唤伤害
+		在水中时增加1.5HP/s点生命再生速度和10%召唤伤害
 		'''
 }
 

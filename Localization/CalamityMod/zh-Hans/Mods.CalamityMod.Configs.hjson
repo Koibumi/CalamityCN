@@ -65,12 +65,22 @@ CalamityConfig: {
 			'''
 	}
 
+    DefaultDashEnabled: {
+		// Label: "[i:Tabi] Default Dash"
+		/* Tooltip:
+			'''
+			Gives the player a very weak dash by default that requires no equipment or items to use.
+			This dash will be replaced by any other available dash, including those from other mods.
+			''' */
+	}
+
 	BossZen: {
 		Label: "[i:CalamityMod/ZenPotion] Boss大幅降低敌怪生成率"
 		Tooltip:
 			'''
 			所有存活的Boss都会大幅降低常规敌怪的生成率。
 			这也可以防止Boss存活时发生史莱姆雨。
+			Calamity is balanced around this setting being enabled.
 			'''
 	}
 
@@ -172,7 +182,12 @@ CalamityConfig: {
 
 	FlightBar: {
 		Label: "[i:CalamityMod/DrewsWings] 显示飞行时间条"
-		Tooltip: 启用飞行时间UI条，显示玩家的飞行能力
+		Tooltip:
+			'''
+			Enables the Flight Bar UI, which shows the player's remaining wing flight time.
+			This bar will also indicate if maximum flight time is decreased by a debuff.
+			It glows bright blue if the player's maximum flight time is currently unlimited.
+			'''
 	}
 
 	FlightBarPosX: {
@@ -213,11 +228,11 @@ CalamityConfig: {
 
 	MeterPosLock: {
 		Label: "[i:GemLockTopaz] 属性条位置锁定"
-		Tooltip:
+		/* Tooltip:
 			'''
-			固定潜行条、充能条、怒气条和肾上腺素条。
+			Prevents clicking on Calamity's various Meters on the screen.
 			开启后防止它们被鼠标拖动。
-			'''
+			''' */
 	}
 
 	NerfExpertDebuffs: {
@@ -396,11 +411,11 @@ CalamityConfig: {
 
 	VanillaCooldownDisplay: {
 		Label: "[i:HealingPotion] 原版冷却显示"
-		Tooltip:
+		/* Tooltip:
 			'''
 			为混沌状态和药水疾病添加特定冷却图标。 
-			这不会将它们从你的减益栏移除，但可以你更容易看到它们。
-			'''
+			The debuffs will still appear in the buffs array, but this may help make them more visible.
+			''' */
 	}
 
 	WikiStatusMessage: {

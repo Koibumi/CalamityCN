@@ -72,7 +72,7 @@ DeepSeaDumbbell3.DisplayName: 渊海哑铃
 DeepSeaDumbbellWeight.DisplayName: 渊海哑铃
 DeepWounderProjectile.DisplayName: 重伤战斧
 DeepWounderWater.DisplayName: 水滴
-DeificThunderboltProj.DisplayName: 圣雷天劫
+TwistingThunderProj.DisplayName: 圣雷天劫
 DesecratedBubble.DisplayName: 泡泡
 DesecratedWaterProj.DisplayName: 渎神水流
 DestructionBolt.DisplayName: 毁灭弹
@@ -91,6 +91,7 @@ EclipseMirrorBurst.DisplayName: 暗日之光
 EclipsesFallMain.DisplayName: 日蚀之陨
 EclipsesSmol.DisplayName: 蚀日之矛
 EclipsesStealth.DisplayName: 日蚀之陨
+//EclipseStealthBoom.DisplayName: Eclipse Blast
 EGloveSpark.DisplayName: 火花
 ElementalDiskProj.DisplayName: 元素飞盘
 ElementalDiskSplit.DisplayName: 元素飞盘

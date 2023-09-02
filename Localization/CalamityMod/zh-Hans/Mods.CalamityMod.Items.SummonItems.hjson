@@ -81,12 +81,12 @@ CryoKey: {
 
 DeathWhistle: {
 	DisplayName: 唤死笛哨
-	Tooltip:
+	/* Tooltip:
 		'''
 		召唤毁灭魔像
 		不消耗
-		非常老旧的神庙笛哨
-		'''
+		A whistle soaked in blood
+		''' */
 }
 
 DecapoditaSprout: {
@@ -125,7 +125,7 @@ ExoticPheromones: {
 		在丛林使用以召唤痴愚金龙
 		在丛林外狂暴
 		不消耗
-		专为吸引巨龙亚种而制
+		// Specifically formulated to attract draconic offshoots
 		'''
 }
 
@@ -137,7 +137,6 @@ EyeofDesolation: {
 		在夜晚使用以召唤灾厄之影[GFB]
 		在白天时狂暴
 		不消耗
-		“今晚将会是一个恐怖的夜晚……”
 		'''
 	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
@@ -233,14 +232,14 @@ ProfanedShard: {
 
 RuneofKos: {
 	DisplayName: 宇宙符文
-	Tooltip:
+	/* Tooltip:
 		'''
-		封印着神之仆从的无情力量
+		An ornate sigil of the Profaned Flame
+		Hatred yet burns upon its brow
 		[SPAWN]
 		不消耗
-		亵渎圣焰的遗物
-		'''
-	SpawnInfo: 在不同地区使用以解开他们的封印
+		''' */
+	// SpawnInfo: Such power attracts otherworldly beings
 	SpawnVoid:
 		'''
 		召唤无尽虚空

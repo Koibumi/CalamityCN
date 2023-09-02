@@ -90,8 +90,8 @@ Cooldowns: {
 	InkBomb: 墨水炸弹冷却
 	LifeSteal: 吸血冷却
 	LionHeartShield: 能量庇护冷却
-	MasterChefShieldDurability: 能量庇护中
-	MasterChefShieldRecharge: 能量庇护充能
+	//MasterChefShieldDurability: MJOLNIR Shield Level
+	//MasterChefShieldRecharge: MJOLNIR Shield Recharge
 	NebulousCore: 星云之核冷却
 	OldDukeScalesFatigue: 耐力
 	OmegaBlueActive: 深渊狂乱
@@ -100,13 +100,16 @@ Cooldowns: {
 	PlagueBlackout: 瘟疫爆发冷却
 	PotionSickness: 治疗冷却
 	PrismaticLaser: 光棱冷却
-	ProfanedSoulArtifact: 灼伤
+	//ProfanedSoulShieldDurability: Profaned Soul Shield Durability
+	//ProfanedSoulShieldRecharge: Profaned Soul Shield Recharge
 	RelicOfResilience: 塑魂冷却
 	RogueBooster: 悖论增幅器冷却
 	SandCloak: 沙尘斗篷冷却
 	SandsmokeBombActive: 使用沙尘覆盖
 	SandsmokeBombCooldown: 沙尘覆盖冷却
 	SilvaRevive: 始源林海复活冷却
+	//SpongeDurability: Sponge Barrier Durability
+	//SpongeRecharge: Sponge Barrier Recharge
 	TarragonCloak: 龙蒿披风冷却
 	TarragonImmunity: 龙蒿无敌冷却
 	UniverseSplitter: 渊宇天基炮冷却

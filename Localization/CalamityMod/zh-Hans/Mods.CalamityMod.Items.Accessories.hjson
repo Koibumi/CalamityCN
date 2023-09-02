@@ -5,12 +5,12 @@ Abaddon: {
 
 AbyssalAmulet: {
 	DisplayName: 深渊护身符
-	Tooltip:
+	/* Tooltip:
 		'''
-		攻击会造成深渊水压减益
-		使你免疫深渊水压减益
-		处于深渊时增加10%最大生命值
-		'''
+		Attacks inflict the Riptide debuff
+		Grants immunity to the Riptide debuff
+		While in the abyss you gain 10% increased max life
+		''' */
 }
 
 AbyssalDivingGear: {
@@ -74,7 +74,7 @@ Affliction: {
 	DisplayName: 灾劫之尖啸
 	Tooltip:
 		'''
-		为你和你附近的队友增加1点生命再生速度、
+		为你和你附近的队友增加每秒0.5点生命再生、
 		10%最大生命值、7%伤害减免、13点防御和10%伤害
 		'''
 }
@@ -113,12 +113,15 @@ AmalgamatedBrain: {
 
 AmbrosialAmpoule: {
 	DisplayName: 百草天香瓶
-	Tooltip:
+	/* Tooltip:
 		'''
-		你会散发光芒
-		增加5%伤害减免和生命再生速度
-		使你免疫冰冻、冷冻、霜冻、诅咒狱火和血液沸腾减益
-		'''
+		+70 max life
+		Grants +2 to +6 HP/s life regen based on missing health
+		Provides life regeneration equivalent to standing in Honey
+		Standing still grants extremely powerful regen
+		Halves how long you are afflicted with fire and sickness debuffs
+		You emit yellow light if visibility is enabled
+		''' */
 }
 
 AmidiasPendant: {
@@ -147,18 +150,18 @@ AnechoicPlating: {
 
 AngelicAlliance: {
 	DisplayName: 圣天誓盟
-	Tooltip:
+	/* Tooltip:
 		'''
 		召唤圣天之力，强化你的攻击和仆从
 		勇气注入双拳，启迪充盈脑海，祝福映于身后，这一切使你拥有无穷之力，使你能对眼前的敌人做出最终审判
 		增加2格最大仆从栏位、15%召唤伤害和8%其他职业伤害
-		跳跃时会增加生命再生速度
+		+2 HP/s life regen while airborne using wings
 		按下 [KEY] 键获得15秒神之祝福
 		拥有圣天祝福增益时，你每拥有一个仆从，便会出现一个圣天使助你一臂之力
 		每出现一个圣天使都会使你回复2点生命值
 		所有仆从的攻击都会造成放逐之火减益，并使你获得不受其他效果影响的4点生命再生速度加成
 		此效果有1分钟冷却时间
-		'''
+		''' */
 }
 
 AngelTreads: {
@@ -218,7 +221,7 @@ AsgardianAegis: {
 		'''
 		使你免疫击退
 		使你免疫大多数减益
-		增加40点最大生命值和生命再生速度
+		增加40点最大生命值和每秒0.5点生命再生
 		使你获得宇宙狱火冲刺能力，可以在不受伤害的情况下猛击敌人
 		可以用于撞击敌人
 		浸没在液体中时增加20点防御
@@ -234,17 +237,6 @@ AsgardsValor: {
 		浸没在液体中时增加16点防御
 		增加20点最大生命值
 		使你获得圣火冲刺能力，可以在不受伤害的情况下猛击敌人
-		'''
-}
-
-AstralArcanum: {
-	DisplayName: 星辉秘术
-	Tooltip:
-		'''
-		使你免疫幻星感染减益
-		即便是在受到伤害性减益的影响时也会增加生命再生速度
-		受到伤害性减益的影响时增加15点防御
-		没有Boss存活时按下 [KEY] 键可以打开传送UI
 		'''
 }
 
@@ -314,14 +306,15 @@ BloodyWormTooth: {
 
 BloomStone: {
 	DisplayName: 绽花石
-	Tooltip:
+	/* Tooltip:
 		'''
-		在地面上时你会快速地恢复生命值
-		在白天时会强化此效果
-		你走过的草地会百花齐放
-		站在无草泥土上时有几率长出随机的染料植物
-		远古遗物之一
-		'''
+		Grants between +1 HP/s and +3 HP/s life regen depending on time of day
+		Accelerates life regen based on time of day
+		Both of these effects are maximized from noon to sunset
+		Flowers grow if you are standing on grass
+		Random dye plants will grow while standing on grassless dirt
+		One of the ancient relics
+		''' */
 }
 
 BlunderBooster: {
@@ -344,16 +337,6 @@ Calamity: {
 		光环会对与其接触的敌人造成巨额伤害和孱弱巫咒减益
 		装备在时装栏中时仅会改变光标的颜色，且不会造成伤害
 		这些改动在与彩虹光标同时使用时也会生效
-		'''
-}
-
-CelestialJewel: {
-	DisplayName: 天魔星石
-	Tooltip:
-		'''
-		即便是在受到伤害性减益的影响时也会增加生命再生速度
-		受到伤害性减益的影响时增加11点防御
-		没有Boss存活时按下 [KEY] 键进行随机传送
 		'''
 }
 
@@ -419,20 +402,20 @@ CounterScarf: {
 
 CrawCarapace: {
 	DisplayName: 蟹爪壳
-	Tooltip:
+	/* Tooltip:
 		'''
-		增加5%伤害
-		击中你的敌怪会受到伤害以及碎甲减益
-		'''
+		5% increased damage
+		Enemies that hit you take damage and are inflicted with Crumbling
+		''' */
 }
 
 Baroclaw: {
 	DisplayName: 潜渊爪
-	Tooltip:
+	/* Tooltip:
 		'''
-		增加8%伤害
-		击中你的敌怪会受到高伤害以及长时间的碎甲减益
-		'''
+		10% increased damage
+		Enemies that hit you take high damage and are inflicted with Armor Crunch and Crush Depth
+		''' */
 }
 
 CrimsonFlask: {
@@ -446,11 +429,12 @@ CrimsonFlask: {
 
 CrownJewel: {
 	DisplayName: 王冠宝石
-	Tooltip:
+	/* Tooltip:
 		'''
-		即便是在受到伤害性减益的影响时也会增加生命再生速度
-		受到伤害性减益的影响时增加8点防御
-		'''
+		+1 HP/s life regen
+		You gain an additional +1.5 HP/s life regen while afflicted with any debuff
+		Massively boosts natural life regen while afflicted with any debuff
+		''' */
 }
 
 CryoStone: {
@@ -480,8 +464,8 @@ DaawnlightSpiritOrigin: {
 		'''
 }
 
-DarkGodsSheath: {
-	DisplayName: 暗神之剑鞘
+DarkMatterSheath: {
+	// DisplayName: Dark Matter Sheath
 	Tooltip:
 		'''
 		增加10点最大潜行值
@@ -496,11 +480,11 @@ DarkSunRing: {
 	Tooltip:
 		'''
 		增加12%伤害
-		增加1点生命再生速度和2格最大仆从栏位
+		增加每秒0.5点生命再生速度和2格最大仆从栏位
 		增加仆从击退
-		在白天时增加4点生命再生速度
+		在白天时增加每秒2点生命再生
 		在夜晚时增加20点防御
-		在日食时增加2点生命再生速度和10点防御
+		在日食时增加每秒1点生命再生和10点防御
 		“蕴含着日蚀之阴的力量”
 		'''
 }
@@ -525,11 +509,12 @@ DeepDiver: {
 
 DeificAmulet: {
 	DisplayName: 神圣护符
-	Tooltip:
+	/* Tooltip:
 		'''
-		受到伤害时会召唤星星从天而降并延长受伤后无敌时间
-		提供生命再生并缩短治疗药水的冷却时间
-		'''
+		Causes stars to fall and grants increased immune time when damaged
+		+0.5 HP/s life regen
+		Reduces the cooldown of healing potions
+		''' */
 }
 
 DepthCharm: {
@@ -781,7 +766,7 @@ FungalSymbiote: {
 	Tooltip:
 		'''
 		你走过的草地会长出蘑菇
-		食用蘑菇会使你获得与菇共生增益，增加6点防御和2点生命再生速度
+		食用蘑菇会使你获得与菇共生增益，增加6点防御和每秒1点生命再生
 		所有蘑菇武器都会额外造成10%伤害并发射非伤害性蘑菇
 		'''
 }
@@ -861,7 +846,7 @@ GrandGelatin: {
 		增加10%移动速度和跳跃速度
 		使用治疗药水后会产生一个纯净光环
 		首次进入光环会净化所有减益并移除防御损伤
-		光环内所有玩家的生命再生速度提升，持续8秒
+		光环内提供每秒2.5点生命再生，持续8秒
 		'''
 }
 
@@ -932,13 +917,13 @@ HideofAstrumDeus: {
 
 HoneyDew: {
 	DisplayName: 蜂蜜露珠
-	Tooltip:
+	/* Tooltip:
 		'''
-		处于丛林时增加5%伤害减免、9点防御和生命再生速度
-		使你免疫中毒和酸性毒液减益
-		生命再生速度加成类似于蜂蜜增益，但不会降低玩家移动速度
-		大多数蜜蜂、黄蜂以及它们的弹幕只会对你造成75%伤害
-		'''
+		+30 max life
+		Provides life regeneration equivalent to standing in Honey
+		Standing still in Honey grants extremely powerful regen
+		Halves how long you are afflicted with sickness debuffs
+		''' */
 }
 
 HowlsHeart: {
@@ -948,6 +933,20 @@ HowlsHeart: {
 		召唤哈尔为你而战，卡西法会照亮你的道路，小萝卜头会跟随着你
 		把该饰品放在时装栏位里也能召唤出三人组，但是没有战斗或探索功能
 		'''
+}
+
+InfectedJewel: {
+	// DisplayName: Infected Jewel
+	/* Tooltip:
+		'''
+		+1 HP/s life regen
+		Grants 16 defense and +2 HP/s life regen while afflicted with any debuff
+		Massively boosts natural life regen while afflicted with any debuff
+		Granted defense fades away quickly when not afflicted with any debuffs
+		Each debuff beyond the first grants 5 additional defense
+		Makes the Astral Infection debuff harmless
+		'A beautiful gemstone tarnished by spaceborne rot'
+		''' */
 }
 
 InkBomb: {
@@ -1001,17 +1000,19 @@ LifeJelly: {
 	Tooltip:
 		'''
 		使用治疗药水后会产生一个滞留光环
-		光环内所有玩家的生命再生速度提升，持续5秒
+		光环内提供每秒2点生命再生，持续5秒
 		'''
 }
 
 LivingDew: {
 	DisplayName: 生命露珠
-	Tooltip:
+	/* Tooltip:
 		'''
-		处于丛林时增加5%伤害减免、5点防御和生命再生速度
-		使你免疫中毒减益
-		'''
+		+50 max life
+		Provides life regeneration equivalent to standing in Honey
+		Standing still in Honey grants extremely powerful regen
+		Halves how long you are afflicted with fire and sickness debuffs
+		''' */
 }
 
 LumenousAmulet: {
@@ -1217,14 +1218,14 @@ PearlofEnthrallment: {
 
 PermafrostsConcoction: {
 	DisplayName: 永冻秘药
-	Tooltip:
+	/* Tooltip:
 		'''
-		增加50点最大魔力值并降低15%魔力消耗
-		你的生命再生速度会随着生命值的降低而增加
-		受到任意火系减益的影响时增加生命再生速度
-		受到致死伤害时会复活并将生命值回复至30%，此效果有3分钟冷却
-		复活后的3秒内你会被禁锢在寒冰屏障中
-		'''
+		Increases maximum mana by 50 and reduces mana cost by 15%
+		+0.5 HP/s life regen below half health, +1 HP/s when below 25% health and +2 HP/s when below 10% health
+		+3 HP/s life regen while afflicted with any fire debuff
+		You will survive fatal damage and revive with 30% life on a 3 minute cooldown
+		You are encased in an ice barrier for 3 seconds when revived
+		''' */
 }
 
 PhantomicArtifact: {
@@ -1262,14 +1263,18 @@ PlagueHive: {
 
 ProfanedSoulArtifact: {
 	DisplayName: 渎魂神物
-	Tooltip:
+	/* Tooltip:
 		'''
-		召唤治疗守卫，每几秒治疗一定的生命值
-		召唤防御守卫，增加你的移动速度和伤害减免
-		召唤进攻守卫，增加最大仆从栏位
-		被击中时会使守卫的大部分效果失效5秒
-		圣洁
-		'''
+		Summons a healer guardian, which heals for 15 health every few seconds
+		Summons a defensive guardian, which provides a weak shield reinforced by profaned rocks
+		Upon being depleted, the barrier implodes sending the profaned rocks hurtling outwards
+		The barrier starts recharging 5 seconds after being hit
+		Recharging from zero to full charge takes 2 seconds
+		Being hit again while recharging restarts the charge timer
+		Summons an offensive guardian, which boosts your minion slots by 1
+		The offensive guardian will occasionally fire spears on hit
+		Purity
+		''' */
 }
 
 ProfanedSoulCrystal: {
@@ -1298,6 +1303,25 @@ ProfanedSoulCrystal: {
 		'''
 }
 
+Purity: {
+	// DisplayName: Purity
+	/* Tooltip:
+		'''
+		+100 max life
+		Grants +3 to +7 HP/s life regen based on missing health
+		Provides life regeneration equivalent to standing in Honey
+		Standing still grants extremely powerful regen
+		Grants 20 defense and continuous healing while afflicted with any debuff
+		The healing eventually slows down if debuffed for an extended period of time
+		Massively boosts natural life regen while afflicted with any debuff
+		Each debuff beyond the first grants 8 additional defense
+		Granted defense fades away slowly when not afflicted with any debuffs
+		Makes weak damage over time debuffs harmless and halves the duration of all but the strongest debuffs
+		You emit shining blue light if visibility is enabled
+		'A once putrid crystal, now glimmering with immaculate purity'
+		''' */
+}
+
 QuiverofNihility: {
 	DisplayName: 虚无箭袋
 	Tooltip:
@@ -1311,7 +1335,11 @@ QuiverofNihility: {
 
 RadiantOoze: {
 	DisplayName: 光泥
-	Tooltip: 你会散发光芒，在夜晚时增加生命再生速度
+	/* Tooltip:
+		'''
+		Grants +2 to +6 HP/s life regen based on missing health
+		You emit yellow light if visibility is enabled
+		''' */
 }
 
 RaidersTalisman: {
@@ -1328,7 +1356,7 @@ RampartofDeities: {
 	Tooltip:
 		'''
 		受到伤害时会召唤星星从天而降并延长受伤后无敌时间
-		提供生命再生并缩短治疗药水的冷却时间
+		提供每秒0.5点生命再生并缩短治疗药水的冷却时间
 		吸收团队中其他玩家所受伤害的25%
 		此效果仅会在你的生命值高于25%时生效
 		使你免疫击退
@@ -1348,11 +1376,11 @@ ReaperToothNecklace: {
 
 Regenator: {
 	DisplayName: 再生护符
-	Tooltip:
+	/* Tooltip:
 		'''
-		大幅度增加生命再生速度
-		但你的生命值无法超过最大生命值的50%
-		'''
+		+6 HP/s life regen and massively accelerated natural life regen
+		However, your health cannot exceed 50% of its maximum
+		''' */
 }
 
 RogueEmblem: {
@@ -1381,18 +1409,21 @@ RottenBrain: {
 
 RottenDogtooth: {
 	DisplayName: 腐烂犬齿
-	Tooltip: 潜伏攻击会造成碎甲减益并额外造成8%伤害
+	// Tooltip: Makes Stealth strikes inflict Crumbling and deal 8% more damage
 }
 
 RoverDrive: {
 	DisplayName: 钨钢屏障生成仪
 	Tooltip:
+		/* Tooltip:
 		'''
-		激活一个可以吸收40点伤害并增加10点防御的保护矩阵
-		但系统变化无常且护盾需要10秒来完全充能
-		在护盾充能期间被攻击会导致充能进度归零
-		也可以通过提炼机进行拆分
-		'''
+		Projects an energy shield that absorbs up to 20 damage
+		The shield grants 10 defense while active
+		After the shield is broken, it takes 10 seconds to charge back up
+		Being hit again while recharging restarts the charge timer
+		The shield's color will change to match your team selection as needed
+		Can also be scrapped at an extractinator
+		''' */
 }
 
 RuinMedallion: {
@@ -1418,7 +1449,7 @@ SandCloak: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		按下 [KEY] 消耗10%最大潜行值，召唤一个围绕你的破坏性沙漠龙卷持续15秒，并提供6点防御和+2生命恢复
+		按下 [KEY] 消耗10%最大潜行值，召唤一个围绕你的破坏性沙漠龙卷持续15秒，并提供6点防御和每秒1点生命恢复
 		此效果有30秒冷却时间
 		'''
 }
@@ -1446,7 +1477,7 @@ ShatteredCommunity: {
 	Tooltip:
 		'''
 		“幻灭于不可知的仇恨中，它仍然包含着归一心元石大部分的力量……”
-		增加10%伤害和5%暴击率
+		增加10%伤害和5%暴击率和每秒1点生命再生
 		增加10%最大生命值、5%伤害减免、10点防御和2点生命再生速度
 		增加10%移动速度和20%飞行时间
 		[RAGEDESC]
@@ -1463,6 +1494,7 @@ ShatteredCommunity: {
 		越靠近敌怪，怒气条充能速度越快
 		当怒气条填满时，可以按下{0}键获得短暂的伤害提升
 		'''
+	// LevelUpText: The Community cracks...
 	RageModified: 你的怒气值会持续充能，即便是脱离战斗后怒气值也不会流失
 }
 
@@ -1485,7 +1517,7 @@ ShieldoftheOcean: {
 	Tooltip:
 		'''
 		浸没在液体中时增加5点防御
-		当你穿着胜潮套装时，增加移动速度和生命再生速度
+		当你穿着胜潮套装时，增加10%移动速度和每秒1点生命再生
 		'''
 }
 
@@ -1728,6 +1760,7 @@ TheBee: {
 		'''
 		在生命值全满时基于你的伤害减免增加伤害
 		在生命值全满时受到的伤害减半
+		//If you have any energy shields, they must also be full for these effects to work
 		减半伤害的效果有10秒冷却时间
 		'''
 }
@@ -1758,7 +1791,7 @@ TheCommunity: {
 		'''
 		提升 {0}% 伤害和 {1}% 暴击率
 		增加 {2}% 最大生命值，{3}% 伤害减免以及 {4} 防御力
-		受到伤害性减益时，生命再生速度增加 {5}
+		//+{5} HP/s life regen while suffering from damage over time debuffs
 		增加 {6}% 移动速度和 {7}% 飞行时间
 		随着你击败诸多Boss会变得更加强力(已解锁 {8}%)
 		'''
@@ -1771,7 +1804,7 @@ TheEvolution: {
 		你会反弹来犯的弹幕
 		被反弹的弹幕不会对你造成伤害
 		反弹弹幕的能力有90秒冷却时间，并且该反弹与其他的闪避或反弹效果共享冷却时间
-		此效果触发后会使你获得持续5秒的生命再生加成
+		//After reflecting something, grants +1 HP/s life regen and accelerated life regen for 5 seconds
 		再次被相同弹幕击中时，此弹幕对你造成的伤害降低15%
 		'''
 }
@@ -1816,7 +1849,7 @@ TrinketofChi: {
 	Tooltip:
 		'''
 		在未受到伤害15秒后会获得10%伤害减免，此效果会在你被击中时消失
-		为你和附近的队友提供2点生命再生速度
+		为你和队友提供每秒1点生命再生
 		'''
 }
 
@@ -1857,6 +1890,16 @@ Popo: {
 		将装备者变成雪人
 		“不要让恶魔抢走你的鼻子！”
 		'''
+}
+
+HapuFruit: {
+	// DisplayName: Ha-pu Fruit
+	// Tooltip: "'A fruit that calms your nerves (may have unintended side effects)'"
+}
+
+RedBow: {
+	// DisplayName: Red Bow
+	// Tooltip: "'Pelusa's favorite bow'"
 }
 
 VeneratedLocket: {

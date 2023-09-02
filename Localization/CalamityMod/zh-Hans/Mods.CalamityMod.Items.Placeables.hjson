@@ -932,7 +932,7 @@ BrimstoneElementalRelic: {
 
 CalamitasCloneRelic: {
 	DisplayName: 灾厄之影圣物
-	Tooltip: 对其可能的未来的一瞥……
+	Tooltip: ""
 }
 
 CalamitasRelic: {
@@ -957,7 +957,7 @@ CragmawMireRelic: {
 
 CryogenRelic: {
 	DisplayName: 极地之灵圣物
-	Tooltip: 对其可能的未来的一瞥……
+	Tooltip: ""
 }
 
 DesertScourgeRelic: {
@@ -1242,7 +1242,7 @@ ResilientCandle: {
 	DisplayName: 恢复蜡烛
 	Tooltip:
 		'''
-		放置后，附近玩家的防御能够额外格挡5%伤害
+		放置后，附近玩家的防御能够额外格挡15%伤害
 		“狂风骤雨也无法熄灭这倔强的火苗”
 		'''
 }
@@ -3930,70 +3930,98 @@ HardenedEutrophicSand: {
 
 FireTurret: {
 	DisplayName: 火焰喷射炮塔
-	Tooltip: ""
+	/* Tooltip:
+		'''
+		Roasts nearby enemies with a flamethrower at full blast
+		Cannot attack while a boss is alive
+		''' */
 }
 
 HostileFireTurret: {
 	DisplayName: 敌对火焰喷射炮塔
-	Tooltip: ""
+	// Tooltip: Roasts nearby players with a flamethrower at full blast
 }
 
 HostileIceTurret: {
 	DisplayName: 敌对冰球炮塔
-	Tooltip: ""
+	// Tooltip: Lobs fragile ice mist bombs at nearby players
 }
 
 HostileLabTurret: {
 	DisplayName: 敌对实验室炮塔
-	Tooltip: ""
+	// Tooltip: Shoots laser beams at nearby players
 }
 
 HostileLaserTurret: {
 	DisplayName: 敌对激光炮塔
-	Tooltip: ""
+	// Tooltip: Blasts nearby players with lightning-fast laser beams
 }
 
 HostileOnyxTurret: {
 	DisplayName: 敌对玛瑙炮塔
-	Tooltip: ""
+	// Tooltip: Shoots a shotgun spread of bullets at nearby players
 }
 
 HostilePlagueTurret: {
 	DisplayName: 敌对瘟疫爆弹炮塔
-	Tooltip: ""
+	// Tooltip: Ejects homing plague missiles towards nearby players
 }
 
 HostileWaterTurret: {
 	DisplayName: 敌对水流炮塔
-	Tooltip: ""
+	// Tooltip: Shoots high-speed water blasts at nearby players
 }
 
 IceTurret: {
 	DisplayName: 冰球炮塔
-	Tooltip: ""
+	/* Tooltip:
+		'''
+		Lobs fragile ice mist bombs at nearby enemies
+		Cannot attack while a boss is alive
+		''' */
 }
 
 LabTurret: {
 	DisplayName: 实验室炮塔
-	Tooltip: ""
+	/* Tooltip:
+		'''
+		Shoots laser beams at nearby enemies
+		Cannot attack while a boss is alive
+		''' */
 }
 
 LaserTurret: {
 	DisplayName: 激光炮塔
-	Tooltip: ""
+	/* Tooltip:
+		'''
+		Blasts nearby enemies with lightning-fast laser beams
+		Cannot attack while a boss is alive
+		''' */
 }
 
 OnyxTurret: {
 	DisplayName: 玛瑙炮塔
-	Tooltip: ""
+	/* Tooltip:
+		'''
+		Shoots a shotgun spread of bullets at nearby enemies
+		Cannot attack while a boss is alive
+		''' */
 }
 
 PlagueTurret: {
 	DisplayName: 瘟疫爆弹炮塔
-	Tooltip: ""
+	/* Tooltip:
+		'''
+		Ejects homing plague missiles towards nearby enemies
+		Cannot attack while a boss is alive
+		''' */
 }
 
 WaterTurret: {
 	DisplayName: 水流炮塔
-	Tooltip: ""
+	/* Tooltip:
+		'''
+		Shoots high-speed water blasts at nearby enemies
+		Cannot attack while a boss is alive
+		''' */
 }

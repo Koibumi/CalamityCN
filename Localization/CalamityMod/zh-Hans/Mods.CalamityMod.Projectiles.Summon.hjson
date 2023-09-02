@@ -167,6 +167,7 @@ MidnightSunUFO.DisplayName: 极昼UFO
 MiniGuardianAttack.DisplayName: 进攻守卫
 MiniGuardianDefense.DisplayName: 防御守卫
 MiniGuardianHealer.DisplayName: 治疗守卫
+//MiniGuardianRock.DisplayName: Rocky Road
 MiniGuardianSpear.DisplayName: 守卫者之矛
 MiniSandShark.DisplayName: 迷你沙鲨
 MK2FlaskSummon.DisplayName: 疫毒瓶

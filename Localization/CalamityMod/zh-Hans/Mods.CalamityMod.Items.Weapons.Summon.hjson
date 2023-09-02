@@ -403,11 +403,6 @@ GlacialEmbrace: {
 		'''
 }
 
-GodspawnHelixStaff: {
-	DisplayName: 星神圣护
-	Tooltip: 召唤幻星探测器来保护你
-}
-
 GuidelightofOblivion: {
 	DisplayName: 遗境魂灯
 	Tooltip:
@@ -481,6 +476,21 @@ Metastasis: {
 MidnightSunBeacon: {
 	DisplayName: 极昼信标
 	Tooltip: 召唤一个UFO来蒸发你的敌人
+}
+
+MirrorofKalandra: {
+	DisplayName: 卡兰德的魔镜
+	Tooltip:
+		'''
+		召唤五把上古神兵来消灭你的敌人
+		每种武器只能召唤一个
+		[c/BD7F59:阿兹里的刑刃会毫不留情地劈开敌人]
+		[c/E7A7FF:塑星者会撕裂敌人并且偶尔会以敌人为中心造成爆炸]
+		[c/868B8F:悖论会传送到敌人面前并且如闪电一般贯穿敌人]
+		[c/EBC3A5:裂风会向敌人射出一根快速并且强而有力的箭矢]
+		[c/9B6856:破灭之希射出一根能分裂成三份并且穿透敌人两次的箭矢]
+		“不可超越，不可估量，不可言明”
+		'''
 }
 
 OrthoceraShell: {
@@ -628,18 +638,14 @@ StaffoftheMechworm: {
 	Tooltip: 召唤星宇护卫为你而战
 }
 
+StarspawnHelixStaff: {
+	// DisplayName: Starspawn Helix Staff
+	// Tooltip: Summons astral probes to protect you
+}
+
 StormjawStaff: {
 	DisplayName: 风暴蚁狮杖
 	Tooltip: 召唤风暴蚁狮宝宝为你而战
-}
-
-SunGodStaff: {
-	DisplayName: 太阳神法杖
-	Tooltip:
-		'''
-		召唤一个太阳神灵来保护你
-		同时只能存在至多一个太阳神灵
-		'''
 }
 
 SunSpiritStaff: {
@@ -700,6 +706,15 @@ UniverseSplitter: {
 		[c/BB57FF:“一个来自上个时代的古老人造物体，它等待着你的命令。]
 		[c/BB57FF:这真是个糟糕的想法，但无论如何它不是你的……对吗？”]
 		'''
+}
+
+VengefulSunStaff: {
+	// DisplayName: Vengeful Sun Staff
+	/* Tooltip:
+		'''
+		Summons a solar god spirit to protect you
+		There can only be one spirit at a time
+		''' */
 }
 
 Vigilance: {
@@ -777,22 +792,4 @@ YharonsKindleStaff: {
 		'''
 }
 
-MirrorofKalandra: {
-	DisplayName: 卡兰德的魔镜
-	Tooltip:
-		'''
-		召唤五把上古神兵来消灭你的敌人
-		每种武器只能召唤一个
-		[c/BD7F59:阿兹里的刑刃会毫不留情地劈开敌人]
-		[c/E7A7FF:塑星者会撕裂敌人并且偶尔会以敌人为中心造成爆炸]
-		[c/868B8F:悖论会传送到敌人面前并且如闪电一般贯穿敌人]
-		[c/EBC3A5:裂风会向敌人射出一根快速并且强而有力的箭矢]
-		[c/9B6856:破灭之希射出一根能分裂成三份并且穿透敌人两次的箭矢]
-		“不可超越，不可估量，不可言明”
-		'''
-}
 
-StellarTorusStaff: {
-	DisplayName: 星环召唤杖
-	Tooltip: 召唤一个星环轨道，用间断的激光束灼烧敌人
-}
