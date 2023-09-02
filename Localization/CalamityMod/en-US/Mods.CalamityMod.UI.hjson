@@ -90,8 +90,8 @@ Cooldowns: {
 	InkBomb: Ink Bomb Cooldown
 	LifeSteal: Life Steal Cooldown
 	LionHeartShield: Energy Shell Cooldown
-	MasterChefShieldDurability: Energy Shield Durability
-	MasterChefShieldRecharge: Energy Shield Recharge
+	MasterChefShieldDurability: MJOLNIR Shield Level
+	MasterChefShieldRecharge: MJOLNIR Shield Recharge
 	NebulousCore: Nebulous Core Cooldown
 	OldDukeScalesFatigue: Stamina
 	OmegaBlueActive: Abyssal Madness
@@ -100,13 +100,16 @@ Cooldowns: {
 	PlagueBlackout: Plague Blackout Cooldown
 	PotionSickness: Healing Cooldown
 	PrismaticLaser: Prismatic Laser Barrage Cooldown
-	ProfanedSoulArtifact: Profaned Soul Artifact Burnout
+	ProfanedSoulShieldDurability: Profaned Soul Shield Durability
+	ProfanedSoulShieldRecharge: Profaned Soul Shield Recharge
 	RelicOfResilience: Relic of Resilience Cooldown
 	RogueBooster: Rogue Booster Cooldown
 	SandCloak: Sand Cloak Cooldown
 	SandsmokeBombActive: Sandsmoke Bomb Duration
 	SandsmokeBombCooldown: Sandsmoke Bomb Cooldown
 	SilvaRevive: Silva Revive Cooldown
+	SpongeDurability: Sponge Barrier Durability
+	SpongeRecharge: Sponge Barrier Recharge
 	TarragonCloak: Tarragon Cloak Cooldown
 	TarragonImmunity: Tarragon Immunity Cooldown
 	UniverseSplitter: Universe Splitter Cooldown

@@ -120,11 +120,7 @@ ArkoftheElements: {
 		You can parry projectiles to make them deal 100 less damage for a short period
 		Parrying will empower the next 10 swings of the sword, letting you use both blades at once
 		'''
-	BlastInfo:
-		'''
-		Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
-		If more than 5 charges were used, you can dash across the rip by holding UP
-		'''
+	BlastInfo: Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
 }
 
 AstralBlade: {
@@ -318,8 +314,7 @@ DepthCrusher: {
 	DisplayName: Depth Crusher
 	Tooltip:
 		'''
-		Hitting enemies will inflict the crush depth debuff
-		The lower the enemies' defense, the more damage they take from this debuff
+		Hitting enemies will inflict the Riptide debuff
 		Press <right> to use without hammering down walls
 		'''
 }
@@ -792,7 +787,6 @@ NeptunesBounty: {
 		'''
 		Fires a trident that rains additional tridents as it travels
 		Hitting enemies will inflict the crush depth debuff
-		The lower the enemies' defense, the more damage they take from this debuff
 		'''
 }
 

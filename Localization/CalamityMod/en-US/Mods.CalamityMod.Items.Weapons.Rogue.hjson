@@ -282,17 +282,6 @@ DefectiveSphere: {
 		'''
 }
 
-DeificThunderbolt: {
-	DisplayName: Deific Thunderbolt
-	Tooltip:
-		'''
-		Fires a lightning bolt to electrocute enemies
-		The lightning bolt travels faster while it is raining
-		Summons lightning from the sky on impact
-		Stealth strikes summon more lightning and travel faster
-		'''
-}
-
 DesecratedWater: {
 	DisplayName: Desecrated Water
 	Tooltip:
@@ -843,7 +832,7 @@ OrichalcumSpikedGemstone: {
 
 PalladiumJavelin: {
 	DisplayName: Palladium Javelin
-	Tooltip: Stealth strikes split into more javelins and boost life regeneration on hits
+	Tooltip: Stealth strikes split into more javelins and boost natural life regeneration on hits
 }
 
 Penumbra: {
@@ -1328,6 +1317,17 @@ Turbulance: {
 		'''
 }
 
+TwistingThunder: {
+	DisplayName: Twisting Thunder
+	Tooltip:
+		'''
+		Fires a lightning bolt to electrocute enemies
+		The lightning bolt travels faster while it is raining
+		Summons lightning from the sky on impact
+		Stealth strikes summon more lightning and travel faster
+		'''
+}
+
 UrchinStinger: {
 	DisplayName: Urchin Stinger
 	Tooltip: Stealth strikes stick to enemies while releasing sulphuric bubbles
@@ -1337,7 +1337,7 @@ UtensilPoker: {
 	DisplayName: Utensil Poker
 	Tooltip:
 		'''
-		Fires random utensils in bursts of three
+		Fires utensils in bursts of three
 		Stealth strikes replace any utensil with a powerful butcher knife
 		'Space chickens, that is all'
 		'''

@@ -72,7 +72,7 @@ DeepSeaDumbbell3.DisplayName: Deep Sea Dumbbell
 DeepSeaDumbbellWeight.DisplayName: Deep Sea Dumbbell
 DeepWounderProjectile.DisplayName: Deep Wounder Projectile
 DeepWounderWater.DisplayName: Water Droplet
-DeificThunderboltProj.DisplayName: Deific Thunderbolt
+TwistingThunderProj.DisplayName: Deific Thunderbolt
 DesecratedBubble.DisplayName: Bubble
 DesecratedWaterProj.DisplayName: Desecrated Water
 DestructionBolt.DisplayName: Destruction Bolt
@@ -91,6 +91,7 @@ EclipseMirrorBurst.DisplayName: Eclipse Mirror Flash
 EclipsesFallMain.DisplayName: Eclipse's Fall
 EclipsesSmol.DisplayName: Eclipse's Small
 EclipsesStealth.DisplayName: Eclipse's Fall
+EclipseStealthBoom.DisplayName: Eclipse Blast
 EGloveSpark.DisplayName: Spark
 ElementalDiskProj.DisplayName: Elemental Disk
 ElementalDiskSplit.DisplayName: Elemental Disk
