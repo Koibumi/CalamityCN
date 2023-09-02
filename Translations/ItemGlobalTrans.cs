@@ -557,7 +557,7 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Deals double damage to enemies above 75% life", "对75%生命值以上的敌怪造成双倍伤害");
                 }
 
-                if (item.type == 46 || item.type == 273 || item.type == 675 || item.type == 162 || item.type == 3279)
+                if (item.type == 46 || item.type == 162 || item.type == 3279)
                 {
                     tooltips.ReplaceText("Inflicts Shadowflame on hit", "命中造成暗影焰减益");
                 }
@@ -584,7 +584,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == 1185 || item.type == 1186)
                 {
-                    tooltips.ReplaceText("Increases life regen on hit", "命中时增加生命恢复速度");
+                    tooltips.ReplaceText("Increases natural life regen on hit", "命中时增加自然生命恢复速度");
                 }
 
                 if (item.type == 484 || item.type == 390)
@@ -652,14 +652,18 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("Throws a mixture of slime and sparkling crystals\nSlimed enemies take more damage from fire-based debuffs", "投掷粘液和闪亮晶体的混合物\n史莱姆类敌人会受到更多来自火系减益的伤害");
                 }
+                if (item.type == ItemID.SlimeGun)
+                {
+                    tooltips.ReplaceText("Slimed enemies take more damage from fire-based debuffs", "史莱姆类敌人会受到更多来自火系减益的伤害");
+                }
                 if (item.type == ItemID.TerrasparkBoots)
                 {
                     tooltips.ReplaceText("Immunity to the On Fire! debuff", "免疫着火了减益");
                 }
                 if (item.type == ItemID.Magiluminescence)
                 {
-                    tooltips.ReplaceText("Increases movement acceleration and deceleration by 1.25x", "移动加速度和减速度增加1.25倍");
-                    tooltips.ReplaceText("Increases movement speed by 1.05x. This bonus applies to running boot accessories", "移动速度增加1.05倍。该效果适用于移动饰品");
+                    tooltips.ReplaceText("Increases movement acceleration and deceleration by 1.75x", "移动加速度和减速度增加1.75倍");
+                    tooltips.ReplaceText("Increases movement speed by 1.15x. This bonus applies to running boot accessories", "移动速度增加1.15倍。该效果适用于移动饰品");
                 }
 
                 if (item.type == ItemID.YoYoGlove || item.type == ItemID.YoyoBag)
@@ -775,7 +779,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.FairyBoots)
                 {
                     tooltips.ReplaceText("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
-                    tooltips.ReplaceText("Nearby fairies grant increased life regen, defense and movement speed", "靠近仙灵获得生命恢复，防御与移动速度");
+                    tooltips.ReplaceText("Nearby fairies grant +2 HP/s life regen, 10 defense and  10% movement speed", "附近仙灵会提供2HP/s生命再生，10点防御与10%移动速度");
                     tooltips.ReplaceText("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
                 }
 
@@ -796,7 +800,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.AngelWings)
                 {
-                    tooltips.ReplaceText("+20 max life, +10 defense and +2 life regen", "+20最大生命值，+10防御力和2点生命恢复");
+                    tooltips.ReplaceText("+20 max life, +10 defense and +1 HP/s life regen", "+20最大生命值，+10防御力和1HP/s生命恢复");
                 }
 
                 if (item.type == ItemID.LeafWings)
@@ -958,7 +962,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.SilverHelmet || item.type == 82 || item.type == 78)
                 {
                     tooltips.ReplaceText("5% increased critical strike chance", "暴击率增加5%");
-                    tooltips.ReplaceText("+2 life regen", "生命再生增加2点");
+                    tooltips.ReplaceText("+1 HP/s life regen", "生命再生增加1HP/s");
                     tooltips.ReplaceText("8% increased movement speed", "移动速度增加8%");
                 }
                 if (item.type == ItemID.AncientIronHelmet || item.type == 90 || item.type == 81 || item.type == 77)
@@ -974,7 +978,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.TinHelmet || item.type == 688 || item.type == 689)
                 {
                     tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
-                    tooltips.ReplaceText("+1 life regen", "生命再生增加1点");
+                    tooltips.ReplaceText("+0.5 HP/s life regen", "生命再生增加0.5HP/s");
                     tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
                 }
                 if (item.type == ItemID.LeadHelmet || item.type == 691 || item.type == 692)
@@ -984,7 +988,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.TungstenHelmet || item.type == 694 || item.type == 695)
                 {
                     tooltips.ReplaceText("7% increased damage", "伤害增加7%");
-                    tooltips.ReplaceText("+1 life regen", "生命再生增加1点");
+                    tooltips.ReplaceText("+0.5 HP/s life regen", "生命再生增加0.5HP/s");
                     tooltips.ReplaceText("8% increased movement speed", "移速增加8%");
                 }
                 if (item.type == ItemID.PlatinumHelmet || item.type == 697 || item.type == 698)

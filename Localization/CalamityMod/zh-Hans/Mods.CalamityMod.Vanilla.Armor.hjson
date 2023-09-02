@@ -77,13 +77,13 @@ Iron:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier1}
 	增加6%伤害减免
-	增加2点生命再生
+	增加1HP/s生命再生
 	'''
 Lead:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
 	所受伤害减少3%
-	+1生命再生
+	增加0.5HP/s生命再生
 	'''
 Meteor: "{$LegacyTooltip.48} 减少太空枪50%魔力消耗"
 Molten:
@@ -124,14 +124,14 @@ Obsidian:
 Platinum:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.Platinum}
-	每15点防御力增加1生命再生和1%暴击率
-	上限45点防御力
+	每10点防御力增加0.5HP/s生命再生，1%伤害和1%暴击率
+	上限40点防御力
 	'''
 Shadow: "{$LegacyTooltip.48} 最大移动速度和加速度提高15%"
 Silver:
 	'''
 	{$LegacyTooltip.48} {$ArmorSetBonus.MetalTier2}
-	+1生命再生
+	增加0.5HP/s生命再生
 	受到20点以上的伤害两秒后，你会恢复10点生命
 	如果期间再受到伤害会重新计时2秒
 	'''
