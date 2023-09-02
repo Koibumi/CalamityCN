@@ -348,8 +348,8 @@ DarkechoGreatbow: {
 }
 
 DeadSunsWind: {
-	// DisplayName: Dead Sun's Wind
-	// Tooltip: 70% chance to save ammo
+	DisplayName: 湮阳暝风
+	Tooltip: 70%几率节省弹药
 }
 
 Deathwind: {
@@ -481,7 +481,7 @@ FlarewingBow: {
 	Tooltip:
 		'''
 		一次发射三支箭
-		// Wooden arrows are converted into obsidian bats which home in after piercing once
+		木箭会被转化为穿透一次后追踪的黑曜石蝙蝠
 		'''
 }
 

@@ -3930,98 +3930,98 @@ HardenedEutrophicSand: {
 
 FireTurret: {
 	DisplayName: 火焰喷射炮塔
-	/* Tooltip:
+	Tooltip:
 		'''
-		Roasts nearby enemies with a flamethrower at full blast
-		Cannot attack while a boss is alive
-		''' */
+		用最大功率的喷火器烤熟附近敌怪
+		有Boss存活时无法攻击
+		'''
 }
 
 HostileFireTurret: {
 	DisplayName: 敌对火焰喷射炮塔
-	// Tooltip: Roasts nearby players with a flamethrower at full blast
+	Tooltip: 用最大功率的喷火器烤熟附近玩家
 }
 
 HostileIceTurret: {
 	DisplayName: 敌对冰球炮塔
-	// Tooltip: Lobs fragile ice mist bombs at nearby players
+	Tooltip: 向附近玩家投掷易碎的冰雾炸弹
 }
 
 HostileLabTurret: {
 	DisplayName: 敌对实验室炮塔
-	// Tooltip: Shoots laser beams at nearby players
+	Tooltip: 向附近玩家发射激光
 }
 
 HostileLaserTurret: {
 	DisplayName: 敌对激光炮塔
-	// Tooltip: Blasts nearby players with lightning-fast laser beams
+	Tooltip: 用闪电般快速的激光轰击附近玩家
 }
 
 HostileOnyxTurret: {
 	DisplayName: 敌对玛瑙炮塔
-	// Tooltip: Shoots a shotgun spread of bullets at nearby players
+	Tooltip: 以霰弹枪的方式向附近的玩家发射子弹
 }
 
 HostilePlagueTurret: {
 	DisplayName: 敌对瘟疫爆弹炮塔
-	// Tooltip: Ejects homing plague missiles towards nearby players
+	Tooltip: 向附近的玩家发射追踪瘟疫导弹
 }
 
 HostileWaterTurret: {
 	DisplayName: 敌对水流炮塔
-	// Tooltip: Shoots high-speed water blasts at nearby players
+	Tooltip: 向附近的玩家喷射高速水流
 }
 
 IceTurret: {
 	DisplayName: 冰球炮塔
-	/* Tooltip:
+	Tooltip:
 		'''
-		Lobs fragile ice mist bombs at nearby enemies
-		Cannot attack while a boss is alive
-		''' */
+		向附近敌怪投掷易碎的冰雾炸弹
+		有Boss存活时无法攻击
+		'''
 }
 
 LabTurret: {
 	DisplayName: 实验室炮塔
-	/* Tooltip:
+	Tooltip:
 		'''
-		Shoots laser beams at nearby enemies
-		Cannot attack while a boss is alive
-		''' */
+		向附近敌怪发射激光
+		有Boss存活时无法攻击
+		'''
 }
 
 LaserTurret: {
 	DisplayName: 激光炮塔
-	/* Tooltip:
+	Tooltip:
 		'''
-		Blasts nearby enemies with lightning-fast laser beams
-		Cannot attack while a boss is alive
-		''' */
+		用闪电般快速的激光轰击附近敌怪
+		有Boss存活时无法攻击
+		'''
 }
 
 OnyxTurret: {
 	DisplayName: 玛瑙炮塔
-	/* Tooltip:
+	Tooltip:
 		'''
-		Shoots a shotgun spread of bullets at nearby enemies
-		Cannot attack while a boss is alive
-		''' */
+		以霰弹枪的方式向附近的敌怪发射子弹
+		有Boss存活时无法攻击
+		'''
 }
 
 PlagueTurret: {
 	DisplayName: 瘟疫爆弹炮塔
-	/* Tooltip:
+	Tooltip:
 		'''
-		Ejects homing plague missiles towards nearby enemies
-		Cannot attack while a boss is alive
-		''' */
+		向附近的敌怪发射追踪瘟疫导弹
+		有Boss存活时无法攻击
+		'''
 }
 
 WaterTurret: {
 	DisplayName: 水流炮塔
-	/* Tooltip:
+	Tooltip:
 		'''
-		Shoots high-speed water blasts at nearby enemies
-		Cannot attack while a boss is alive
-		''' */
+		向附近的敌怪喷射高速水流
+		有Boss存活时无法攻击
+		'''
 }

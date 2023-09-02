@@ -66,12 +66,12 @@ CalamityConfig: {
 	}
 
     DefaultDashEnabled: {
-		// Label: "[i:Tabi] Default Dash"
-		/* Tooltip:
+		Label: "[i:Tabi] 默认冲刺"
+		Tooltip:
 			'''
-			Gives the player a very weak dash by default that requires no equipment or items to use.
-			This dash will be replaced by any other available dash, including those from other mods.
-			''' */
+			不需要任何装备或使用物品的情况下默认给予玩家一个很弱的冲刺。
+			此冲刺会被其他可以冲刺所替代，这也包括其他模组的。
+			'''
 	}
 
 	BossZen: {
@@ -80,7 +80,7 @@ CalamityConfig: {
 			'''
 			所有存活的Boss都会大幅降低常规敌怪的生成率。
 			这也可以防止Boss存活时发生史莱姆雨。
-			Calamity is balanced around this setting being enabled.
+			灾厄平衡设定是在启用此配置的基础上进行的。
 			'''
 	}
 
@@ -184,9 +184,9 @@ CalamityConfig: {
 		Label: "[i:CalamityMod/DrewsWings] 显示飞行时间条"
 		Tooltip:
 			'''
-			Enables the Flight Bar UI, which shows the player's remaining wing flight time.
-			This bar will also indicate if maximum flight time is decreased by a debuff.
-			It glows bright blue if the player's maximum flight time is currently unlimited.
+			启用飞行时间UI条，显示玩家翅膀的剩余飞行时间。
+			如果受到降低飞行时间的减益影响它也会指示。
+			玩家当前的飞行时间无限时它会呈亮蓝色。
 			'''
 	}
 
@@ -228,11 +228,11 @@ CalamityConfig: {
 
 	MeterPosLock: {
 		Label: "[i:GemLockTopaz] 属性条位置锁定"
-		/* Tooltip:
+		Tooltip:
 			'''
-			Prevents clicking on Calamity's various Meters on the screen.
+			无法点击屏幕上的各种灾厄属性条。
 			开启后防止它们被鼠标拖动。
-			''' */
+			'''
 	}
 
 	NerfExpertDebuffs: {
@@ -411,11 +411,11 @@ CalamityConfig: {
 
 	VanillaCooldownDisplay: {
 		Label: "[i:HealingPotion] 原版冷却显示"
-		/* Tooltip:
+		Tooltip:
 			'''
 			为混沌状态和药水疾病添加特定冷却图标。 
-			The debuffs will still appear in the buffs array, but this may help make them more visible.
-			''' */
+			减益仍会出现在增益栏中，但这会让它们更容易被看见。
+			'''
 	}
 
 	WikiStatusMessage: {

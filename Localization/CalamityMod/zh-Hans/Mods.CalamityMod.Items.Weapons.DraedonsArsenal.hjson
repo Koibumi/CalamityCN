@@ -162,14 +162,14 @@ PulseTurretRemote: {
 
 SnakeEyes: {
 	DisplayName: 蛇眼
-	/* Tooltip:
+	Tooltip:
 		'''
-		Summons a levitating drone which fires piercing, highly calibrated energy bolts
-		If a bolt hits, the drone will teleport into its path and reflect the bolt
-		Reflected bolts home in and explode on impact
-		[c/1FFBFF:'Equipped with high-end sensors, little can evade them. Even less are able to escape their ever watchful eyes.]
-		[c/1FFBFF:An excellent bridge between my experiments with the sight-based soul powered machines and my latest project.']
-		''' */
+		召唤一架悬空无人机发射穿透且高度校准的能量矢
+		如果能量矢击中敌怪，无人机会传送到能量矢的路径上并反弹能量矢
+		被反弹的能量矢会追踪并在接触敌怪时爆炸
+		[c/1FFBFF:“装备有高端的传感器，几乎无人可以避开它们。能逃脱它们目光的则更少了。]
+		[c/1FFBFF:在我基于视觉灵魂的动力机器实验和我最新的项目之间的一座优秀桥梁。”]
+		'''
 }
 
 StarSwallowerContainmentUnit: {

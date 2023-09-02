@@ -835,7 +835,7 @@ OrichalcumSpikedGemstone: {
 
 PalladiumJavelin: {
 	DisplayName: 钯金投矛
-	// Tooltip: Stealth strikes split into more javelins and boost natural life regeneration on hits
+	Tooltip: 潜伏攻击分裂成更多投矛，并且在击中敌人时强化自然生命再生速度
 }
 
 Penumbra: {
@@ -1321,14 +1321,14 @@ Turbulance: {
 }
 
 TwistingThunder: {
-	// DisplayName: Twisting Thunder
-	/* Tooltip:
+	DisplayName: 雷劫
+	Tooltip:
 		'''
-		Fires a lightning bolt to electrocute enemies
-		The lightning bolt travels faster while it is raining
-		Summons lightning from the sky on impact
-		Stealth strikes summon more lightning and travel faster
-		''' */
+		发射圣雷天劫电击周围敌人
+		下雨时增加弹幕飞行速度
+		弹幕击中敌人时从天上降下闪电
+		潜伏攻击召唤更多闪电且弹幕移动速度提高
+		'''
 }
 
 UrchinStinger: {
@@ -1340,7 +1340,7 @@ UtensilPoker: {
 	DisplayName: 百变餐叉
 	Tooltip:
 		'''
-		// Fires utensils in bursts of three
+		发射三把餐具
 		潜伏攻击会发射强大的回旋屠刀
 		“太空鸡，就是它了”
 		'''

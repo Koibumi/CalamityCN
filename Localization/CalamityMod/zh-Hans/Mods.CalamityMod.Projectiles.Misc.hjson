@@ -45,7 +45,7 @@ UnstableMatter.DisplayName: 不稳定物质
 VoltageStream.DisplayName: 高压电流
 WavePounderBoom.DisplayName: 震荡波
 WavePounderProjectile.DisplayName: 震波炸弹
-//SnakeEyesProjectile.DisplayName: Inescapable Bolt
+SnakeEyesProjectile.DisplayName: 无法逃避的能量矢
 // Environmental
 AcidDrop.DisplayName: 酸液滴
 BrimstoneGeyser.DisplayName: 烟

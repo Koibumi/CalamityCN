@@ -81,12 +81,12 @@ CryoKey: {
 
 DeathWhistle: {
 	DisplayName: 唤死笛哨
-	/* Tooltip:
+	Tooltip:
 		'''
 		召唤毁灭魔像
 		不消耗
-		A whistle soaked in blood
-		''' */
+		浸透鲜血的哨子
+		'''
 }
 
 DecapoditaSprout: {
@@ -125,7 +125,7 @@ ExoticPheromones: {
 		在丛林使用以召唤痴愚金龙
 		在丛林外狂暴
 		不消耗
-		// Specifically formulated to attract draconic offshoots
+		专为吸引巨龙分支而制
 		'''
 }
 
@@ -232,14 +232,14 @@ ProfanedShard: {
 
 RuneofKos: {
 	DisplayName: 宇宙符文
-	/* Tooltip:
+	Tooltip:
 		'''
-		An ornate sigil of the Profaned Flame
-		Hatred yet burns upon its brow
+		亵渎火焰的华贵符文
+		仇恨还在它的顶部燃烧
 		[SPAWN]
 		不消耗
-		''' */
-	// SpawnInfo: Such power attracts otherworldly beings
+		'''
+	SpawnInfo: 这种能力会吸引异界存在
 	SpawnVoid:
 		'''
 		召唤无尽虚空

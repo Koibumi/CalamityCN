@@ -314,7 +314,7 @@ DepthCrusher: {
 	DisplayName: 深渊碾碎者
 	Tooltip:
 		'''
-		// Hitting enemies will inflict the Riptide debuff
+		击中敌怪时施加激流减益
 		右键使用时无锤类工具的效果
 		'''
 }

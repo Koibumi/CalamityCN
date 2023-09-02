@@ -639,8 +639,13 @@ StaffoftheMechworm: {
 }
 
 StarspawnHelixStaff: {
-	// DisplayName: Starspawn Helix Staff
-	// Tooltip: Summons astral probes to protect you
+	DisplayName: 唤星螺旋
+	Tooltip: 召唤幻星探测器来保护你
+}
+
+StellarTorusStaff: {
+	DisplayName: 星环召唤杖
+	Tooltip: 召唤一个星环轨道，用间断的激光束灼烧敌人
 }
 
 StormjawStaff: {
@@ -709,12 +714,12 @@ UniverseSplitter: {
 }
 
 VengefulSunStaff: {
-	// DisplayName: Vengeful Sun Staff
-	/* Tooltip:
+	DisplayName: 复仇之阳法杖
+	Tooltip:
 		'''
-		Summons a solar god spirit to protect you
-		There can only be one spirit at a time
-		''' */
+		召唤一个太阳神灵来保护你
+		同时只能存在至多一个太阳神灵
+		'''
 }
 
 Vigilance: {

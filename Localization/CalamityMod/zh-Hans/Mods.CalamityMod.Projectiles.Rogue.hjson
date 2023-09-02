@@ -39,8 +39,8 @@ ButcherKnife.DisplayName: 屠刀
 CarvingFork.DisplayName: 雕刻叉
 CelestialReaperAfterimage.DisplayName: 神宇魔星刃
 CelestialReaperProjectile.DisplayName: 神宇魔星刃
-// CelestusMiniScythe.DisplayName: Celestus
-// CelestusProj.DisplayName: Celestus
+CelestusMiniScythe.DisplayName: 星神之杀
+CelestusProj.DisplayName: 星神之杀
 CinquedeaProj.DisplayName: 五指剑
 CircletMark.DisplayName: 标记
 CircletTornado.DisplayName: 旋涡
@@ -91,7 +91,7 @@ EclipseMirrorBurst.DisplayName: 暗日之光
 EclipsesFallMain.DisplayName: 日蚀之陨
 EclipsesSmol.DisplayName: 蚀日之矛
 EclipsesStealth.DisplayName: 日蚀之陨
-//EclipseStealthBoom.DisplayName: Eclipse Blast
+EclipseStealthBoom.DisplayName: 日蚀爆炸
 EGloveSpark.DisplayName: 火花
 ElementalDiskProj.DisplayName: 元素飞盘
 ElementalDiskSplit.DisplayName: 元素飞盘
