@@ -105,7 +105,7 @@ BloodflareHeadMagic: {
 
 BloodflareHeadMelee: {
 	DisplayName: 血碾溃阵盔
-	Tooltip: 增加10%近战伤害
+	Tooltip: 增加10%近战伤害和5%近战暴击率
 	SetBonus:
 		'''
 		增加18%近战攻速

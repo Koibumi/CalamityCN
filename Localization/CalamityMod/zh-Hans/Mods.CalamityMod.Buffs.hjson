@@ -1407,8 +1407,8 @@ SnakeEyesBuff: {
 }
 
 SolarGodSpiritBuff: {
-	DisplayName: 太阳神之灵
-	Description: 太阳神之灵会保护你
+	DisplayName: 复仇之阳之灵
+	Description: 暴怒的太阳之灵准备好保护你了
 }
 
 SolarSpirit: {
