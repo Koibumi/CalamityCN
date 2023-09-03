@@ -950,8 +950,8 @@ WyvernsCall: {
 }
 
 YharimsCrystal: {
-	DisplayName: 魔君水晶
-	GFBName: 摸君水晶
+	DisplayName: 亚利姆水晶
+	GFBName: 压力木水晶
 	Tooltip: "[GFB]"
 	TooltipNormal: 发射猛烈的破坏死光
 	TooltipGFB: ……仍一跟累管
