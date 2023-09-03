@@ -2002,7 +2002,7 @@ WulfrumBattery: {
 }
 
 YharimsGift: {
-	DisplayName: 魔君的礼物
+	DisplayName: 寻神者之礼
 	Tooltip:
 		'''
 		被击中时会使燃火流星从天而降
@@ -2013,7 +2013,7 @@ YharimsGift: {
 }
 
 YharimsInsignia: {
-	DisplayName: 魔君之证章
+	DisplayName: 寻神者证章
 	Tooltip:
 		'''
 		生命值低于50%时增加10%伤害
