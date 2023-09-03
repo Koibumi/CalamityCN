@@ -71,8 +71,8 @@ FlaskOfBrimstone: {
 }
 
 FlaskOfCrumbling: {
-	DisplayName: 碎甲瓶
-	// Tooltip: Melee, Whip, and Rogue attacks inflict Crumbling on enemies
+	DisplayName: 粉碎瓶
+	Tooltip: 近战、鞭子和盗贼攻击会造成粉碎减益
 }
 
 FlaskOfHolyFlames: {

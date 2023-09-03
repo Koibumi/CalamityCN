@@ -578,7 +578,7 @@ WeaponImbueBrimstone: {
 }
 
 WeaponImbueCrumbling: {
-	DisplayName: 武器灌注：碎甲
+	DisplayName: 武器灌注：粉碎
 	Description: 近战、鞭子和盗贼攻击会降低敌人的伤害减免
 }
 
@@ -1407,7 +1407,7 @@ SnakeEyesBuff: {
 }
 
 SolarGodSpiritBuff: {
-	DisplayName: 复仇之阳之灵
+	DisplayName: 复仇太阳之灵
 	Description: 暴怒的太阳之灵准备好保护你了
 }
 
