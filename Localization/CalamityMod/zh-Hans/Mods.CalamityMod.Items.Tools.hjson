@@ -143,7 +143,7 @@ MarniteObliterator: {
 	DisplayName: 合成岩抹除器
 	Tooltip:
 		'''
-		它利用钻石聚焦出一束长距离的挖掘光束
+		利用钻石聚焦出一束长距离的挖掘光束
 		无视敌人5点防御力
 		'''
 }

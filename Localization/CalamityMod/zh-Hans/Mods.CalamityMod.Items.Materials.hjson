@@ -90,7 +90,7 @@ CorrodedFossil: {
 
 CosmiliteBar: {
 	DisplayName: 宇宙锭
-	Tooltip: 一块坚硬而柔韧的宇宙金属
+	Tooltip: 一块耐用而柔韧的宇宙金属
 }
 
 CryonicBar: {
@@ -150,7 +150,7 @@ EssenceofEleum: {
 
 EssenceofHavoc: {
 	DisplayName: 混乱精华
-	Tooltip: 混沌生物之精华
+	Tooltip: 荒芜生物之精华
 }
 
 EssenceofSunlight: {
@@ -319,7 +319,7 @@ SuspiciousScrap: {
 
 TitanHeart: {
 	DisplayName: 泰坦之心
-	Tooltip: 可在星辉信标处使用
+	Tooltip: 可在星辉信标处供奉
 }
 
 TrapperBulb: {

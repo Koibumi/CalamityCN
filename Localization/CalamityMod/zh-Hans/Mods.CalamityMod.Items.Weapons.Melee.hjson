@@ -388,7 +388,7 @@ EarthenPike: {
 	DisplayName: 磐石地元叉
 	Tooltip:
 		'''
-		喷射化石碎片
+		挥舞时喷射化石碎片
 		击碎敌人的防御
 		'''
 }
@@ -1054,7 +1054,7 @@ SpineOfThanatos: {
 
 StarnightLance: {
 	DisplayName: 星夜长枪
-	Tooltip: 发射星夜光矛
+	Tooltip: 发射寒冷的星夜光矛
 }
 
 StellarContempt: {
@@ -1153,7 +1153,7 @@ TenebreusTides: {
 
 TerraLance: {
 	DisplayName: 泰拉长枪
-	Tooltip: 发射出泰拉之矛弹幕
+	Tooltip: 发射出泰拉能量弹幕
 }
 
 Terratomere: {

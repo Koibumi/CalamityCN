@@ -266,7 +266,7 @@ ElementalRay: {
 	Tooltip:
 		'''
 		发射四道天体射线
-		日耀射线在击中敌人时会爆炸
+		日耀射线在击中敌人时会爆炸成火焰
 		星云射线会小幅度扫射
 		星旋射线会造成带电减益
 		星尘射线在击中敌人敌怪时会生成追踪流星
@@ -548,7 +548,7 @@ NuclearFury: {
 
 ParasiticSceptor: {
 	DisplayName: 寄生权杖
-	Tooltip: 发射一阵会吸附敌人的水蛭，造成可叠加的持续伤害
+	Tooltip: 发射一群会吸附在敌人身上的辐射性水蛭，每只水蛭造成的伤害随时间增加
 }
 
 PhantasmalFury: {
@@ -907,7 +907,7 @@ VoltaicClimax: {
 
 Waywasher: {
 	DisplayName: 清道夫
-	Tooltip: 发射并不精准的水束
+	Tooltip: 发射大量并不精准的水束
 }
 
 Wingman: {
