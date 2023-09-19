@@ -348,7 +348,7 @@ Mods: {
 			}
 		}
 
-        Achievements: {
+		Achievements: {
 			BabysFirstAchievement: {
 				DisplayName: 死海无涯
 				Description:

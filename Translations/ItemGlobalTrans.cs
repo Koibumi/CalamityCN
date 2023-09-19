@@ -490,13 +490,6 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Donor Item", "捐赠者物品");
                 }
 
-                if (item.accessory && !item.social && item.prefix > 0)
-                {
-                    tooltips.ReplaceText("damage reduction", "伤害减免");
-                    tooltips.ReplaceText("stealth generation", "潜行值恢复速度");
-                    tooltips.ReplaceText("luck", "运气值");
-                }
-
                 if (item.CountsAsClass(DamageClass.Melee))
                 {
                     tooltips.ReplaceText("true melee damage", "真近战伤害");
@@ -867,7 +860,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.GhostWings)
                 {
-                    tooltips.ReplaceText("+10 defense and 5% increased 伤害减免 while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%伤害减免");
+                    tooltips.ReplaceText("+10 defense and 5% increased damage reduction while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%减伤");
                     tooltips.ReplaceText("5% increased magic damage and critical strike chance while wearing the Spectre Mask set", "穿着幽灵盔甲配幽灵面具时提高5%魔法伤害和魔法暴击率");
                 }
 
@@ -1175,7 +1168,15 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("近战和鞭子", "所有");
                 }
 
-                #endregion
+            #endregion
+
+            //放后面
+            if (item.accessory && !item.social && item.prefix > 0)
+            {
+                tooltips.ReplaceText("damage reduction", "伤害减免");
+                tooltips.ReplaceText("stealth generation", "潜行值恢复速度");
+                tooltips.ReplaceText("luck", "运气值");
+            }
         }
     }
 }

@@ -1,15 +1,19 @@
 using CalamityCN.Utils;
 using InfernumMode;
 using InfernumMode.Content.Achievements;
+using InfernumMode.Content.Achievements.DevWishes;
+using InfernumMode.Content.Achievements.InfernumAchievements;
 using InfernumMode.Content.BehaviorOverrides.BossAIs.Cultist;
 using InfernumMode.Content.Items.Accessories;
 using InfernumMode.Content.Items.Misc;
 using InfernumMode.Content.Items.Weapons.Magic;
 using InfernumMode.Content.Projectiles;
+using InfernumMode.Content.Tiles.Profaned;
 using InfernumMode.Content.UI;
 using InfernumMode.Core.GlobalInstances.Players;
 using InfernumMode.Core.GlobalInstances.Systems;
-//using InfernumModeMusic.Projectiles;
+using InfernumMode.Core.ILEditingStuff;
+using InfernumModeMusic.Projectiles;
 using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 using System;
@@ -25,18 +29,16 @@ namespace CalamityCN.Translations.InfernumMode
         {
             ILHooksI = new List<ILHook>();
 
-            //1.9.28进入提示
-            QuickTranslate(typeof(UIPlayer), "OnEnterWorld", "[c/b90000:Infernum Mod: You have the ", "[c/b90000:炼狱模组： 你启用了");
-            QuickTranslate(typeof(UIPlayer), "OnEnterWorld", " mod(s) enabled, these may cause some boss fights to crash.]\n[c/b90000:A fix is being worked on, but for the meantime disabling the mod(s) will fix the crashing.]", "模组，它可能造成一些Boss战斗报错。]\n[c/b90000:修复工作还在进行，但你可以禁用该模组暂时解决报错。]");
-
             //成就
             QuickTranslate(typeof(Achievement), "OnCompletion", "Achievement Completed! [c/ff884d:", "成就完成 [c/ff884d:");
             QuickTranslate(typeof(Achievement), "WishCompletionEffects", "Dev Wish Completed! [c/ff884d:", "开发者祈愿完成 [c/ff884d:");
+            QuickTranslate(typeof(AchievementUIManager), "InitializePage", "Death Wishes", "死亡祈愿");
+            QuickTranslate(typeof(WishesUIManager), "InitializePage", "Dev Wishes", "开发者祈愿");
 
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "The Twins", "双子魔眼");
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Moon Lord", "月亮领主");
             QuickTranslate(typeof(InfernumUIAchievementListItem), "DrawSelf", "Profaned Guardians", "亵渎守卫");
-
+            
             //嘉登
             QuickTranslate(typeof(CustomExoMechSelectionSystem), "DrawWrapper", "Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.", "选择两台巨械。选择的第一台巨械一开始会单独作战\n当它受到一定的伤害后，选择的第二台巨械将会出现并协同战斗");
             QuickTranslate(typeof(CustomExoMechSelectionSystem), "HandleInteractionWithButton", "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.", "塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。");
