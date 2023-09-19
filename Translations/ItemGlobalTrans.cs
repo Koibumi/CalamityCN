@@ -860,7 +860,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.GhostWings)
                 {
-                    tooltips.ReplaceText("+10 defense and 5% increased damage reduction while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%减伤");
+                    tooltips.ReplaceText("+10 defense and 5% increased damage reduction while wearing the Spectre Hood set", "穿着幽灵盔甲配幽灵兜帽时提高10防御力和5%伤害减免");
                     tooltips.ReplaceText("5% increased magic damage and critical strike chance while wearing the Spectre Mask set", "穿着幽灵盔甲配幽灵面具时提高5%魔法伤害和魔法暴击率");
                 }
 
