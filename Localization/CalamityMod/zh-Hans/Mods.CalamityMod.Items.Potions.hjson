@@ -48,7 +48,7 @@ CeaselessHungerPotion: {
 }
 
 DeliciousMeat: {
-	DisplayName: 水晶冻肉
+	DisplayName: 美味冻肉
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
