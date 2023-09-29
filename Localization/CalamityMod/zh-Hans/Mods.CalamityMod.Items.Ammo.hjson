@@ -65,7 +65,7 @@ FlashRound: {
 }
 
 GodSlayerSlug: {
-	DisplayName: 弑神者弹
+	DisplayName: 弑神弹
 	Tooltip:
 		'''
 		具有无限穿透能力的重型弹药，其威力足以撕裂时空
@@ -151,7 +151,7 @@ TerraBullet: {
 }
 
 VanquisherArrow: {
-	DisplayName: 湮灭之箭
+	DisplayName: 征戮箭
 	Tooltip:
 		'''
 		穿透物块
