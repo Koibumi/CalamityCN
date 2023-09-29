@@ -67,7 +67,7 @@ NuclearTerror: {
 
 NuclearToad.DisplayName: 辐核蟾蜍
 Orthocera.DisplayName: 直角石
-Radiator.DisplayName: 辐射海参
+Radiator.DisplayName: 辐射海蛞蝓
 Skyfin.DisplayName: 天鳍鱼
 SulphurousSkater.DisplayName: 硫海爬虫
 Trilobite.DisplayName: 三叶虫
@@ -89,7 +89,7 @@ AstralSeekerSpit.DisplayName: 跟踪液
 AstralSlime.DisplayName: 幻星史莱姆
 Atlas.DisplayName: 擎星者
 FusionFeeder.DisplayName: 融食鲨
-Hadarian.DisplayName: 哈德安翼龙
+Hadarian.DisplayName: 哈达尔星鹫
 HiveEnemy.DisplayName: 星幻巢
 Hiveling.DisplayName: 星幻蜂
 Mantis.DisplayName: 星幻螳螂
@@ -186,8 +186,8 @@ RenegadeWarlock.DisplayName: 叛徒术士
 DespairStone.DisplayName: 绝望之石
 HeatSpirit.DisplayName: 热能之魂
 InfernalCongealment.DisplayName: 狱火凝结物
-Scryllar.DisplayName: 恶魔仆从
-ScryllarRage.DisplayName: 恶魔仆从
+Scryllar.DisplayName: 殒命妖灵
+ScryllarRage.DisplayName: 殒命妖灵
 SoulSlurper.DisplayName: 灵魂饮食者
 
 Cryogen: {
@@ -338,7 +338,7 @@ EbonianBlightSlime.DisplayName: 黑檀枯萎史莱姆
 Eidolist.DisplayName: 幻妖灵巫
 FearlessGoldfishWarrior.DisplayName: 无畏金鱼战士
 Frogfish.DisplayName: 躄鱼
-Horse.DisplayName: 地元魔魂
+Horse.DisplayName: 大地元素
 IceClasper.DisplayName: 食魂冰虫
 ImpiousImmolator.DisplayName: 亵渎献祭者
 KingSlimeJewel.DisplayName: 王冠宝石
