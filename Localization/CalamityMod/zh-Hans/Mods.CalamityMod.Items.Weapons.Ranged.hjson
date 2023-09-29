@@ -74,7 +74,7 @@ Archerfish: {
 }
 
 ArterialAssault: {
-	DisplayName: 血星陨弓
+	DisplayName: 血陨
 	Tooltip:
 		'''
 		自天空中发射五支箭
@@ -93,7 +93,7 @@ AstralRepeater: {
 }
 
 AstrealDefeat: {
-	DisplayName: 星界
+	DisplayName: 灵星寂灭
 	Tooltip: 将所有箭矢转化为星能之箭，飞行时生成追踪的魂灵星炎
 }
 
@@ -452,7 +452,7 @@ FetidEmesis: {
 }
 
 FirestormCannon: {
-	DisplayName: 信号机关枪
+	DisplayName: 烈焰风暴
 	Tooltip:
 		'''
 		持续释放武器化的信号弹
@@ -619,7 +619,7 @@ Hydra: {
 }
 
 Infinity: {
-	DisplayName: 无限解离者
+	DisplayName: 无穷
 	Tooltip:
 		'''
 		发射一团会分裂弹射的能量子弹
@@ -1010,7 +1010,7 @@ Shadethrower: {
 }
 
 Shellshooter: {
-	DisplayName: 贝壳刃弓
+	DisplayName: 螺壳重弓
 	Tooltip:
 		'''
 		发射缓慢而锋利的箭矢
