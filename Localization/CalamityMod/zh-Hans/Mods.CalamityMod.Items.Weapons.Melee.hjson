@@ -251,7 +251,7 @@ TaintedBlade: {
 }
 
 CelestialClaymore: {
-	DisplayName: 天神之剑
+	DisplayName: 星宙阔剑
 	Tooltip: 在玩家周围生成会爆炸的宇宙能量之火
 }
 
