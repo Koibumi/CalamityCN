@@ -793,12 +793,12 @@ LaboratoryPanels: {
 }
 
 LaboratoryPipePlating: {
-	DisplayName: 实验室电镀管道
+	DisplayName: 实验室金属管道
 	Tooltip: ""
 }
 
 LaboratoryPlating: {
-	DisplayName: 实验室搁板
+	DisplayName: 实验室镀板
 	Tooltip: ""
 }
 
