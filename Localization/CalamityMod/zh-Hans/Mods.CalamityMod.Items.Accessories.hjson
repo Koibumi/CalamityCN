@@ -140,7 +140,7 @@ AncientFossil: {
 }
 
 AnechoicPlating: {
-	DisplayName: 吸音金属
+	DisplayName: 吸音隔板
 	Tooltip:
 		'''
 		削减深渊生物的探测能力
@@ -1714,7 +1714,7 @@ StressPills: {
 }
 
 SupremeBaitTackleBoxFishingStation: {
-	DisplayName: 万圣钓鱼台
+	DisplayName: 万能渔具包
 	Tooltip:
 		'''
 		增加80点渔力
@@ -1723,6 +1723,7 @@ SupremeBaitTackleBoxFishingStation: {
 		可以在熔岩中钓鱼
 		使你获得声呐药水的效果
 		终极钓鱼饰品
+                “水中鱼的噩梦，钓鱼者的最爱，泰拉人的希望，至尊渔具背包镀鱼台！”
 		'''
 }
 
@@ -1900,8 +1901,8 @@ Popo: {
 }
 
 HapuFruit: {
-	DisplayName: Ha-pu果
-	Tooltip: "“一种舒缓神经的水果（可能产生意想不到的副作用）”"
+	DisplayName: 心跳果
+	Tooltip: "“一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”"
 }
 
 RedBow: {
