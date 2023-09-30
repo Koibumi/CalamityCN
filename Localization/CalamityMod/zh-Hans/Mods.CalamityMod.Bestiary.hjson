@@ -1,7 +1,9 @@
 //Abyss Enemies
+BabyCannonballJellyfish: These creatures have been hunted for centuries now. They are widely used as ammunition in ships or even as normal bombs. Despite this, they never truly vanish, as if an external power kept this species alive.
 Bloatfish: 地质特性大于生物特性的肿胀翻车鱼拥有一层覆盖着虚空石身体的胶状皮肤。尽管这很好地保护了它们免受掠食者的威胁，其巨大的质量也把它们沉入了深渊的最深层。
 BobbitWorm: 完美利用了深渊黑暗的波比特虫会躲藏于虚空中的最黑暗角落，以袭击粗心大意的猎物。一个生物想要在这个世界最极端的环境下生存，它要么有着绝对的力量，要么学会利用环境生存，要么二者兼备。
 BoxJellyfish: 这些执着的生物比一般水母要更大，且它们的螫拥有惊人的力道。尽管它们存在于绝大多数大型水体中，但自硫磺火女巫将她的巫术施加于伊尔梅里斯之后，王国的周围已经不再能见到它们了。
+CannonballJellyfish: These jellyfishes help keep the Abyss clean from the sulphuric poisoning. Unlike most hard-skinned creatures in the Sulphurous Sea, they instead use their stingers to drain the acid near them to later use it for self-defense.
 ChaoticPuffer: 这些生物在充气时会吸入水中的微量熔渣，从而急剧加热体内的液体。在这个状态下足以将铁融化的它们会借此在接触到的生物身上造成可怕的烫伤，而试图吞噬它们的猎食者也会从内到外被沸蒸。
 ColossalSquid: 席尔瓦精华的影响让这个乌贼族群在体型和力量上都变得极大。由于它们曾经的食草特性，它们能直接消化她所造成的植物过度生长，因此在它们周围游动的生命要远多于其它任何深渊生物。
 Cuttlefish: 红乌贼天生的伪装不仅可以用来躲避更大的掠食者，在狩猎毫无防备的猎物时，它们会耐心潜伏在地上等待突袭的时机。一旦受惊它们就会无休止地追逐其它生物，其凶猛足以吓跑任何潜在的掠食者。
@@ -108,7 +110,7 @@ Plagueshell: 龟壳与神经系统紧密相连，因此巨型陆龟成为了瘟�
 Viruling: 和用口器在其它生物身上吸血的跳跳兽不同，毒飞虫的是用来直接注射病毒的。除了瘟疫使者本身，没有生物能比它们更快感染野生生物。
 //Sulphur Sea Enemies
 AnthozoanCrab: 尽管它们平时会伪装成简单的石头，但它们同样也能轻而易举地向生物投掷一整块巨石，在被接近时也能迅速后退。拥有如此力量的生物在别处恐怕是相当兴盛，但在如此一个充满恶意的环境，这样的技能充其量只够生存。
-AquaticUrchin: 渊海海胆和海胆有着千丝万缕的联系，它们被迫适应了酸水与辐射废物。它们的毒刺在通常情况下足以吓退掠食者，但在它所生存的这个环境里，再难吃的肉也是肉，这片海域可容不下挑食的生物。
+AquaticUrchin: 渊海海胆和海胆有着千丝万缕的联系，它们被迫适应了酸水与辐射废物。它们的毒刺足以吓退掠食者，但在它所生存的这个环境里，再难吃的肉也是肉，这片海域可容不下挑食的生物。
 BelchingCoral: 尽管在某种程度上，所有珊瑚都是活物，但这个物种还是表现出来远超一般的智力水平。它们可以在其它生物试图接近并吞噬它们时喷射高压硫磺蒸汽以抵御它们。这个过程发出的声响有时也会像音乐一样。
 Gnasher: 尽管噬咬龟相当缓慢，但这些变异的鳄龟拥有的外壳却异常坚固。其恐怖的咬合力和足以轻易刺穿血肉的带刺壳能伤害绝大多数试图杀死或吞噬它们的生物。
 Sulflounder: 硫磺比目鱼是某些深海生物的近亲，是其进化过程中的一个分支。它们的外表脆弱，但这也使得它们不会沉入深渊的底部。不过它们的肉体只能勉强抵御酸水。

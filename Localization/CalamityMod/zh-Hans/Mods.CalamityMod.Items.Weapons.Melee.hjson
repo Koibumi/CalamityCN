@@ -1285,7 +1285,7 @@ TrueCausticEdge: {
 	Tooltip:
 		'''
 		发出弹射绝望光束
-		造成中毒和酸性毒液减益
+		Inflicts venom on enemy hits
 		'''
 }
 

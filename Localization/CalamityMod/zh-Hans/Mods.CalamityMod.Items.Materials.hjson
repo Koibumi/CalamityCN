@@ -28,6 +28,11 @@ AshesofCalamity: {
 	Tooltip: ""
 }
 
+AstralBar: {
+	DisplayName: Astral Bar
+	Tooltip: ""
+}
+
 AuricBar: {
 	DisplayName: 圣金源锭
 	Tooltip: 散发出无限的能量

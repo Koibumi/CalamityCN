@@ -502,11 +502,6 @@ MadAlchemistsCocktailGlove: {
 		'''
 }
 
-MagnaCannon: {
-	DisplayName: 麦格纳炮
-	Tooltip: 发射一束能量冲击波
-}
-
 MagneticMeltdown: {
 	DisplayName: 磁场之融
 	Tooltip: 发射菱形十字排列的磁球

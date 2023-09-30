@@ -1,3 +1,6 @@
+FormattedBannerName: "{0} Banner"
+FormattedBannerTooltip: "{$CommonItemTooltip.BannerBonus}{0}"
+
 AstralPylon: {
 	DisplayName: 星辉地晶塔
 	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
@@ -35,11 +38,6 @@ Acidwood: {
 
 AerialiteBrick: {
 	DisplayName: 天蓝砖
-	Tooltip: ""
-}
-
-AstralBar: {
-	DisplayName: 炫星锭
 	Tooltip: ""
 }
 
@@ -91,581 +89,6 @@ AstralSnow: {
 AstralStone: {
 	DisplayName: 星幻石块
 	Tooltip: ""
-}
-
-AcidEelBanner: {
-	DisplayName: 酸水鳗旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}酸水鳗"
-}
-
-AeroSlimeBanner: {
-	DisplayName: 天蓝史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}天蓝史莱姆"
-}
-
-AmberCrawlerBanner: {
-	DisplayName: 琥珀爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}琥珀爬虫"
-}
-
-AmethystCrawlerBanner: {
-	DisplayName: 紫水晶爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}紫水晶爬虫"
-}
-
-AndroombaBanner: {
-	DisplayName: 仙女座扫除机旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}仙女座扫除机"
-}
-
-AnthozoanCrabBanner: {
-	DisplayName: 珊瑚蟹旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}珊瑚蟹"
-}
-
-AquaticUrchinBanner: {
-	DisplayName: 渊海海胆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}渊海海胆"
-}
-
-AriesBanner: {
-	DisplayName: 白羊座旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}白羊座"
-}
-
-ArmoredDiggerBanner: {
-	DisplayName: 装甲掘地虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}装甲掘地虫"
-}
-
-AstralachneaBanner: {
-	DisplayName: 星幻蛛旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}星幻蛛"
-}
-
-AstralProbeBanner: {
-	DisplayName: 幻星探测器旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}幻星探测器"
-}
-
-AstralSlimeBanner: {
-	DisplayName: 幻星史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}幻星史莱姆"
-}
-
-AtlasBanner: {
-	DisplayName: 擎星者旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}擎星者"
-}
-
-BabyFlakCrabBanner: {
-	DisplayName: 小高口蟹旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}小高口蟹"
-}
-
-BabyGhostBellBanner: {
-	DisplayName: 小鬼铃水母旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}小鬼铃水母"
-}
-
-BelchingCoralBanner: {
-	DisplayName: 喷嗝珊瑚旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}喷嗝珊瑚"
-}
-
-SightseerSpitterBanner: {
-	DisplayName: 射能观星眼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}射能观星眼"
-}
-
-BlindedAnglerBanner: {
-	DisplayName: 盲鮟鱇旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}盲鮟鱇"
-}
-
-BloatfishBanner: {
-	DisplayName: 肿胀翻车鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}肿胀翻车鱼"
-}
-
-BloomSlimeBanner: {
-	DisplayName: 龙蒿史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}龙蒿史莱姆"
-}
-
-BobbitWormBanner: {
-	DisplayName: 博比特虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}博比特虫"
-}
-
-BohldohrBanner: {
-	DisplayName: 神庙滚石旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}神庙滚石"
-}
-
-BoxJellyfishBanner: {
-	DisplayName: 灯水母旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}灯水母"
-}
-
-CalamityEyeBanner: {
-	DisplayName: 灾厄眼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}小灾厄眼"
-}
-
-ChaoticPufferBanner: {
-	DisplayName: 混乱河豚旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}混乱河豚"
-}
-
-ClamBanner: {
-	DisplayName: 蛤旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}蛤"
-}
-
-CloudElementalBanner: {
-	DisplayName: 雨云元素旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}雨云元素"
-}
-
-CnidrionBanner: {
-	DisplayName: 卧龙海马旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}卧龙海马"
-}
-
-ColossalSquidBanner: {
-	DisplayName: 巨像乌贼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}巨像乌贼"
-}
-
-CrimulanBlightSlimeBanner: {
-	DisplayName: 血腥枯萎史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}血腥枯萎史莱姆"
-}
-
-CryonBanner: {
-	DisplayName: 冰人旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}冰人"
-}
-
-CryoSlimeBanner: {
-	DisplayName: 寒元史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}寒元史莱姆"
-}
-
-CrystalCrawlerBanner: {
-	DisplayName: 水晶爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}水晶爬虫"
-}
-
-RenegadeWarlockBanner: {
-	DisplayName: 叛徒术士旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}叛徒术士"
-}
-
-CuttlefishBanner: {
-	DisplayName: 红乌贼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}红乌贼"
-}
-
-DespairStoneBanner: {
-	DisplayName: 绝望之石旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}绝望之石"
-}
-
-DevilFishBanner: {
-	DisplayName: 魔鬼鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}魔鬼鱼"
-}
-
-DiamondCrawlerBanner: {
-	DisplayName: 钻石爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}钻石爬虫"
-}
-
-EarthElementalBanner: {
-	DisplayName: 地元魔魂旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}地元魔魂"
-}
-
-EbonianBlightSlimeBanner: {
-	DisplayName: 黑檀枯萎史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}黑檀枯萎史莱姆"
-}
-
-EidolistBanner: {
-	DisplayName: 幻妖灵巫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}幻妖灵巫"
-}
-
-EidolonWyrmJuvenileBanner: {
-	DisplayName: 幻海妖龙旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}幻海妖龙"
-}
-
-EmeraldCrawlerBanner: {
-	DisplayName: 绿宝石爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}绿宝石爬虫"
-}
-
-EutrophicRayBanner: {
-	DisplayName: 富养鳐鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}富养鳐鱼"
-}
-
-FearlessGoldfishWarriorBanner: {
-	DisplayName: 无畏金鱼战士旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}无畏金鱼战士"
-}
-
-FlakCrabBanner: {
-	DisplayName: 高口蟹旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}高口蟹"
-}
-
-FrogfishBanner: {
-	DisplayName: 躄鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}躄鱼"
-}
-
-FusionFeederBanner: {
-	DisplayName: 融食鲨旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}融食鲨"
-}
-
-GammaSlimeBanner: {
-	DisplayName: 伽马史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}伽马史莱姆"
-}
-
-GhostBellBanner: {
-	DisplayName: 鬼铃水母旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}鬼铃水母"
-}
-
-GiantSquidBanner: {
-	DisplayName: 巨大乌贼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}巨大乌贼"
-}
-
-GnasherBanner: {
-	DisplayName: 噬咬龟旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}噬咬龟"
-}
-
-GulperEelBanner: {
-	DisplayName: 大嘴鳗旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}大嘴鳗"
-}
-
-HadarianBanner: {
-	DisplayName: 哈德安翼龙旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}哈德安翼龙"
-}
-
-HeatSpiritBanner: {
-	DisplayName: 热能之魂旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}热能之魂"
-}
-
-HiveBanner: {
-	DisplayName: 星幻巢旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}星幻巢"
-}
-
-IceClasperBanner: {
-	DisplayName: 噬魂冰虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}噬魂冰虫"
-}
-
-ImpiousImmolatorBanner: {
-	DisplayName: 亵渎献祭者旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}亵渎献祭者"
-}
-
-InfernalCongealmentBanner: {
-	DisplayName: 狱火凝结物旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}狱火凝结物"
-}
-
-IrradiatedSlimeBanner: {
-	DisplayName: 辐射史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}辐射史莱姆"
-}
-
-LaserfishBanner: {
-	DisplayName: 激光鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}激光鱼"
-}
-
-LuminousCorvinaBanner: {
-	DisplayName: 流光石首鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}流光石首鱼"
-}
-
-MantisBanner: {
-	DisplayName: 星幻螳螂旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}星幻螳螂"
-}
-
-MantisShrimpBanner: {
-	DisplayName: 螳螂虾旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}螳螂虾"
-}
-
-MelterBanner: {
-	DisplayName: 蚀化者旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}蚀化者"
-}
-
-MirageJellyBanner: {
-	DisplayName: 幻海水母旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}幻海水母"
-}
-
-MorayEelBanner: {
-	DisplayName: 海鳝旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}海鳝"
-}
-
-NovaBanner: {
-	DisplayName: 新星旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}新星"
-}
-
-NuclearToadBanner: {
-	DisplayName: 辐核蟾蜍旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}辐核蟾蜍"
-}
-
-OarfishBanner: {
-	DisplayName: 桨鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}桨鱼"
-}
-
-OrthoceraBanner: {
-	DisplayName: 直角石旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}直角石"
-}
-
-OverloadedSoldierBanner: {
-	DisplayName: 过载装甲骷髅旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}过载装甲骷髅"
-}
-
-PerennialSlimeBanner: {
-	DisplayName: 永恒史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}永恒史莱姆"
-}
-
-PestilentSlimeBanner: {
-	DisplayName: 疫病史莱姆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}疫病史莱姆"
-}
-
-PhantomSpiritBanner: {
-	DisplayName: 幻魂旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}幻魂"
-}
-
-PiggyBanner: {
-	DisplayName: 小猪猪旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}小猪猪"
-}
-
-PlaguebringerBanner: {
-	DisplayName: 瘟疫使者旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}瘟疫使者"
-}
-
-PlagueChargerBanner: {
-	DisplayName: 瘟疫蜜蜂旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}瘟疫蜜蜂"
-}
-
-PlagueshellBanner: {
-	DisplayName: 瘟疫龟旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}瘟疫龟"
-}
-
-PrismBackBanner: {
-	DisplayName: 棱晶背龟旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}棱晶背龟"
-}
-
-ProfanedEnergyBanner: {
-	DisplayName: 亵渎能量旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}亵渎能量"
-}
-
-RadiatorBanner: {
-	DisplayName: 辐射海参旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}辐射海参"
-}
-
-ReaperSharkBanner: {
-	DisplayName: 猎魂鲨旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}猎魂鲨"
-}
-
-RepairUnitBanner: {
-	DisplayName: 修复机器人旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}修复机器人"
-}
-
-RimehoundBanner: {
-	DisplayName: 雾凇猎犬旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}雾凇猎犬"
-}
-
-RotdogBanner: {
-	DisplayName: 血犬旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}血犬"
-}
-
-RubyCrawlerBanner: {
-	DisplayName: 红宝石爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}红宝石爬虫"
-}
-
-SapphireCrawlerBanner: {
-	DisplayName: 蓝宝石爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}蓝宝石爬虫"
-}
-
-ScornEaterBanner: {
-	DisplayName: 吞食魔旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}吞食魔"
-}
-
-ScryllarBanner: {
-	DisplayName: 恶魔仆从旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}恶魔仆从"
-}
-
-SeaFloatyBanner: {
-	DisplayName: 海蜉蝣旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}海蜉蝣"
-}
-
-SeaMinnowBanner: {
-	DisplayName: 海洋米诺鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}海洋米诺鱼"
-}
-
-SeaSerpentBanner: {
-	DisplayName: 深海巨蛇旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}深海巨蛇"
-}
-
-SeaUrchinBanner: {
-	DisplayName: 海胆旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}海胆"
-}
-
-ShockstormShuttleBanner: {
-	DisplayName: 风暴飞碟旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}风暴飞碟"
-}
-
-SkyfinBanner: {
-	DisplayName: 天鳍鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}天鳍鱼"
-}
-
-SightseerColliderBanner: {
-	DisplayName: 对撞观星眼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}对撞观星眼"
-}
-
-SoulSlurperBanner: {
-	DisplayName: 灵魂饮食者旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}灵魂饮食者"
-}
-
-StellarCulexBanner: {
-	DisplayName: 星幻蚊旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}星幻蚊"
-}
-
-StormlionBanner: {
-	DisplayName: 风暴蚁狮旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}风暴蚁狮"
-}
-
-SulflounderBanner: {
-	DisplayName: 硫磺比目鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}硫磺比目鱼"
-}
-
-SulphurousSkaterBanner: {
-	DisplayName: 硫海爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}硫海爬虫"
-}
-
-SunskaterBanner: {
-	DisplayName: 寻阳鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}寻阳鱼"
-}
-
-TopazCrawlerBanner: {
-	DisplayName: 黄玉爬虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}黄玉爬虫"
-}
-
-ToxicatfishBanner: {
-	DisplayName: 剧毒鲶鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}剧毒鲶鱼"
-}
-
-ToxicMinnowBanner: {
-	DisplayName: 剧毒米诺鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}剧毒米诺鱼"
-}
-
-TrasherBanner: {
-	DisplayName: 捣鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}捣鱼"
-}
-
-TrilobiteBanner: {
-	DisplayName: 三叶虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}三叶虫"
-}
-
-ViperfishBanner: {
-	DisplayName: 蝰蛇鱼旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}蝰蛇鱼"
-}
-
-VirulingBanner: {
-	DisplayName: 毒飞虫旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}毒飞虫"
-}
-
-WulfrumAmplifierBanner: {
-	DisplayName: 钨钢增幅器旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}钨钢增幅器"
-}
-
-WulfrumDroneBanner: {
-	DisplayName: 钨钢无人机旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}钨钢无人机"
-}
-
-WulfrumGyratorBanner: {
-	DisplayName: 钨钢回转器旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}钨钢回转器"
-}
-
-WulfrumHovercraftBanner: {
-	DisplayName: 钨钢悬浮坦克旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}钨钢悬浮坦克"
-}
-
-WulfrumRoverBanner: {
-	DisplayName: 钨钢漫步者旗
-	Tooltip: "{$CommonItemTooltip.BannerBonus}钨钢漫步者"
 }
 
 BrimstoneSlab: {
@@ -900,6 +323,11 @@ AuricToilet: {
 		'''
 }
 
+BabyCannonballJellyfishBowl: {
+	DisplayName: Baby Cannonball Jellyfish Bowl
+	Tooltip: ""
+}
+
 BabyFlakCrabCage: {
 	DisplayName: 小高口蟹笼
 	Tooltip: ""
@@ -1124,6 +552,11 @@ DraedonsForge: {
 		'''
 }
 
+EffulgentManipulator: {
+	DisplayName: Effulgent Manipulator
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
 EutrophicShelf: {
 	DisplayName: 富养制造架
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
@@ -1141,11 +574,6 @@ PlagueInfuser: {
 
 ProfanedCrucible: {
 	DisplayName: 亵渎坩埚
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-SilvaBasin: {
-	DisplayName: 闪耀操纵机
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
@@ -2349,7 +1777,7 @@ ExoToilet: {
 	Tooltip: ""
 }
 
-ExoWorkbench: {
+ExoWorkBench: {
 	DisplayName: 星流工作台
 	Tooltip: ""
 }
@@ -2759,7 +2187,7 @@ ProfanedTable: {
 	Tooltip: ""
 }
 
-ProfanedWorkbench: {
+ProfanedWorkBench: {
 	DisplayName: 渎神工作台
 	Tooltip: ""
 }
@@ -3198,7 +2626,7 @@ StratusTable: {
 	Tooltip: ""
 }
 
-StratusWorkbench: {
+StratusWorkBench: {
 	DisplayName: 幻云工作台
 	Tooltip: ""
 }
@@ -3303,7 +2731,7 @@ VoidTable: {
 	Tooltip: ""
 }
 
-VoidWorkbench: {
+VoidWorkBench: {
 	DisplayName: 虚空工作台
 	Tooltip: ""
 }

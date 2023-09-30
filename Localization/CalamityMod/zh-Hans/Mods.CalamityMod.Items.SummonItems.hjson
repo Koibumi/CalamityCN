@@ -5,6 +5,7 @@ Abombination: {
 		在丛林使用以召唤瘟疫使者歌莉娅
 		在丛林外狂暴
 		不消耗
+		'Radio capable of emitting a frequency recognized by the Plague nanovirus.'
 		'''
 }
 
@@ -15,6 +16,7 @@ AstralChunk: {
 		在星辉瘟疫使用以召唤白金星舰
 		白天时在星辉瘟疫外狂暴
 		不消耗
+		'The Infection’s fortress has found another target.'
 		'''
 }
 
@@ -34,6 +36,7 @@ BloodyWormFood: {
 		在猩红之地使用以召唤血肉宿主
 		在地下猩红之地外狂暴
 		不消耗
+		'Do not play with your food, they won’t play with theirs.'
 		'''
 }
 
@@ -43,6 +46,7 @@ CeremonialUrn: {
 		'''
 		在诅咒祭坛处使用以召唤至尊女巫，灾厄
 		不消耗
+		'The Witch will not allow it to happen once again.'
 		'''
 }
 
@@ -53,7 +57,7 @@ CharredIdol: {
 		在硫火之崖使用以召唤硫磺火元素
 		在硫火之崖外狂暴
 		不消耗
-		“后果自负”
+		“Anything under her gaze shall be scorched beyond recognition.”
 		'''
 }
 
@@ -63,6 +67,7 @@ CosmicWorm: {
 		'''
 		召唤神明吞噬者
 		不消耗
+		'The Nameless Serpent has set out for you.'
 		'''
 }
 
@@ -74,6 +79,7 @@ CryoKey: {
 		[SPAWN]
 		在苔原外狂暴
 		不消耗
+		'A key for a glacial prison.'
 		'''
 	SpawnNormal: 在苔原使用以召唤极地之灵
 	SpawnGFB: 在苔原使用以召唤极地之灵……？
@@ -85,7 +91,7 @@ DeathWhistle: {
 		'''
 		召唤毁灭魔像
 		不消耗
-		浸透鲜血的哨子
+		'One of the few sounds the flesh golem still recognizes.'
 		'''
 }
 
@@ -96,6 +102,7 @@ DecapoditaSprout: {
 		在发光蘑菇生物群落使用以召唤菌生蟹
 		在地下发光蘑菇生物群落外狂暴
 		不消耗
+		'Bristling with the spores of a unique, parasitic strain.'
 		'''
 }
 
@@ -106,6 +113,7 @@ DesertMedallion: {
 		在沙漠使用以召唤荒漠灾虫
 		在沙漠外狂暴
 		不消耗
+		'The Scourge seeks for another meal.'
 		'''
 }
 
@@ -115,6 +123,7 @@ EidolonTablet: {
 		'''
 		召唤拜月教邪教徒
 		不消耗
+		'An aged artifact venerated by the Dragon Cult.'
 		'''
 }
 
@@ -125,7 +134,7 @@ ExoticPheromones: {
 		在丛林使用以召唤痴愚金龙
 		在丛林外狂暴
 		不消耗
-		专为吸引巨龙分支而制
+		'Pheromones used for hunting Draconic Offshoots.'
 		'''
 }
 
@@ -137,6 +146,7 @@ EyeofDesolation: {
 		在夜晚使用以召唤灾厄之影[GFB]
 		在白天时狂暴
 		不消耗
+		'She is here.'
 		'''
 	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
@@ -166,7 +176,7 @@ NecroplasmicBeacon: {
 		在地牢使用以召唤噬魂幽花
 		处于巨大空旷的区域时狂暴
 		不消耗
-		“毛骨悚然”
+		“The wails of the spirits disturbed something far more terrifying.”
 		'''
 }
 
@@ -191,7 +201,7 @@ OverloadedSludge: {
 		'''
 		召唤史莱姆之神
 		不消耗
-		“它看起来有点被腐化了”
+		“Writhing and bloated with the pus of Gods long dead.”
 		'''
 }
 
@@ -213,7 +223,7 @@ ProfanedCore: {
 		在不同的群落与其战斗会掉落不同的战利品
 		在夜晚时狂暴
 		不消耗
-		不洁火焰的核心
+		'The heart of Her Guardians, Her wicked wrath shall burn upon whoever now wields it.'
 		'''
 }
 
@@ -224,7 +234,7 @@ ProfanedShard: {
 		[SPAWN]
 		在神圣之地外或地狱外狂暴
 		不消耗
-		自亵渎之火衍生出的碎片
+		'Her Guardians seek the holder of such vast stolen power.'
 		'''
 	SpawnNormal: 白天时在地狱或神圣之地使用以召唤亵渎守卫
 	SpawnRemix: 在地狱或神圣之地使用以召唤亵渎守卫
@@ -265,6 +275,7 @@ Seafood: {
 		在硫磺海使用以召唤渊海灾虫
 		在硫磺海外狂暴
 		不消耗
+		'Large bait for a large catch. Beware the monsters of the seas.'
 		'''
 }
 
@@ -285,6 +296,7 @@ Teratoma: {
 		在腐化之地使用以召唤腐巢意志
 		在地下腐化之地外狂暴
 		不消耗
+		'An exquisitely hideous tumor for those diseased in the head.'
 		'''
 }
 
@@ -305,6 +317,6 @@ YharonEgg: {
 		召唤重生之龙，犽戎
 		在火墙外狂暴
 		不消耗
-		一颗烬昭龙蛋的雕像，用于祭祀
+		'A symbol of the Dragon watching over and waiting for you.'
 		'''
 }

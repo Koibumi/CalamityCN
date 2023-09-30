@@ -249,8 +249,8 @@ CursedDagger: {
 	DisplayName: 咒焰匕首
 	Tooltip:
 		'''
-		投掷弹跳匕首
-		潜伏攻击会使咒焰匕首释放咒焰火球
+		Throws a fast cursed dagger and two inaccurate weaker daggers
+		Stealth strikes throw a single dagger that bursts into a vortex of cursed flames
 		'''
 }
 
@@ -599,8 +599,8 @@ IchorSpear: {
 	DisplayName: 腐脓标枪
 	Tooltip:
 		'''
-		扔出一个灵液三叉戟
-		潜伏攻击将释放灵液
+		Throws a high-velocity ichor tipped javelin that pierces through enemies
+		Stealth strikes impale enemies and deal repeated damage
 		'''
 }
 
@@ -696,14 +696,12 @@ Lionfish: {
 		'''
 }
 
-LuminousStriker: {
-	DisplayName: 月影投矛
+RealityRupture: {
+	DisplayName: Reality Rupture
 	Tooltip:
 		'''
-		投掷星尘标枪，飞行轨迹上生成上升的星尘碎片
-		命中爆炸后产生额外的星尘碎片
-		潜伏攻击生成的星尘碎片会跟着标枪而不是上升
-		“将星辰送回属于它们的地方”
+		Cycles between throwing 3 small homing spears and throwing a single piercing lance
+		Stealth Strikes throw a high-velocity reality shattering lance that explodes on hit
 		'''
 }
 
@@ -842,7 +840,7 @@ Penumbra: {
 	DisplayName: 半影飞弹
 	Tooltip:
 		'''
-		扔出暗影，命中后爆炸形成追踪幽魂
+		Throws a shadow bomb that explodes into homing souls and flames
 		潜伏攻击在光标处召唤暗影并立刻爆炸成为幽魂
 		'''
 }
@@ -851,9 +849,8 @@ PhantasmalRuin: {
 	DisplayName: 幻魂归墟
 	Tooltip:
 		'''
-		发射巨大的幽灵长矛，在飞行轨迹召唤迷失幽灵
-		命中后爆出幻魂
-		潜伏攻击会将迷失幽灵替换成长矛的克隆幽灵
+		Fires a large ghost lance that explodes into spirits on enemy hits
+		Stealth strikes pierce and summon many spirits from the depths on enemy hits
 		'''
 }
 
@@ -1119,8 +1116,8 @@ SpearofDestiny: {
 	DisplayName: 命运之矛
 	Tooltip:
 		'''
-		投掷三把投矛，其中两支拥有追踪能力
-		潜伏攻击会使三支矛都能追踪、穿透物块并穿透更多目标
+		Cycles between throwing 3 small homing spears and throwing a single piercing lance
+		Stealth Strikes throw a high-velocity holy lance that explodes on hit
 		'''
 }
 
@@ -1244,7 +1241,7 @@ TheOldReaper: {
 	Tooltip:
 		'''
 		扔出一把追踪死神镰刀切碎敌人
-		潜伏攻击会一次性扔出4把飞镰
+		潜伏攻击会一次性扔出3把飞镰
 		“切成碎片”
 		'''
 }

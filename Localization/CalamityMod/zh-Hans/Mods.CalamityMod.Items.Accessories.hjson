@@ -1,6 +1,11 @@
 Abaddon: {
 	DisplayName: 魔鬼之庇护
-	Tooltip: 使你免疫硫磺火和硫焰灼烧减益
+	Tooltip:
+		'''
+		10% increased critical strike chance
+		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
+		Greatly reduces the damage taken by the Brimstone Flames debuff
+		'''
 }
 
 AbyssalAmulet: {
@@ -65,8 +70,9 @@ AeroStone: {
 	DisplayName: 天蓝石
 	Tooltip:
 		'''
-		增加10%飞行时间、移动速度和跳跃高度
-		远古遗物之一
+		Provides an additional 35 flight time
+		You slowly recover flight time while in the air if you are not flying or gliding
+		'One of the ancient relics'
 		'''
 }
 
@@ -254,7 +260,7 @@ BlazingCore: {
 	Tooltip:
 		'''
 		亵渎天神的炽热之心
-		按下 [KEY] 键会激活极乐守护，将你包裹在发光的亵渎水晶之中
+		Pressing [KEY] will activate a parry, encasing you in luminous profaned crystal
 		包裹后短时间内受击会使水晶破碎
 		水晶破碎时，几波神圣之星会向外螺旋扩散且你受到的伤害降低为1
 		破碎后，此伤害减免效果将进入冷却
@@ -313,7 +319,7 @@ BloomStone: {
 		两种效果都会在午后至日落期间达到最大
 		你走过的草地会百花齐放
 		站在无草泥土上时有几率长出随机的染料植物
-		远古遗物之一
+		'One of the ancient relics'
 		'''
 }
 
@@ -347,7 +353,7 @@ ChaosStone: {
 		饮用魔力药水时会使你获得魔力烧蚀减益而非魔力疾病减益
 		魔力烧蚀会持续对你造成伤害，伤害与减益的强度相关
 		此减益不会降低你的魔法伤害
-		远古遗物之一
+		'One of the ancient relics'
 		'''
 }
 
@@ -386,7 +392,7 @@ CorruptFlask: {
 	Tooltip:
 		'''
 		处于腐化之地时增加4%伤害减免和6点防御
-		使你免疫诅咒狱火减益
+		Grants immunity to the Brain Rot debuff
 		'''
 }
 
@@ -441,9 +447,9 @@ CryoStone: {
 	DisplayName: 冰川石
 	Tooltip:
 		'''
-		远古遗物之一
 		所有冷系减益的伤害倍率乘以1.5
 		创造一个环绕着你的冰盾，冰盾会伤害并减速与其接触的敌人
+		'One of the ancient relics'
 		'''
 }
 
@@ -531,8 +537,7 @@ DimensionalSoulArtifact: {
 	Tooltip:
 		'''
 		力量
-		增加25%伤害，但是要付出什么代价？
-		增加15%所受到的伤害
+		Boosts all damage by 25%, but at the cost of increasing damage taken by 15%
 		'''
 }
 
@@ -715,10 +720,12 @@ FlameLickedShell: {
 	DisplayName: 舐火甲壳
 	Tooltip:
 		'''
-		降低35%移动速度
-		攻击你的敌人也会受到伤害
-		受到伤害后会增加移动速度，但减少18点防御，持续3秒
-		使你免疫熔岩和碎甲减益
+		Pressing [KEY] will activate a parry, encasing you in rocks
+		Being hit shortly after encasement will implode the rocks
+		Upon implosion, a spread of brimstone hellfire is launched outwards and you receive 90% DR for that hit
+		After imploding, this damage reduction effect goes on cooldown
+		If another encasement is shattered whilst on cooldown, a weaker spread of brimstone hellfire is launched
+		The damage of a hit is not reduced whilst on cooldown
 		'''
 }
 
@@ -771,11 +778,6 @@ FungalSymbiote: {
 		'''
 }
 
-Gehenna: {
-	DisplayName: 焦热地狱
-	Tooltip: 时不时会有硫磺火球从天而降
-}
-
 GiantPearl: {
 	DisplayName: 大珍珠
 	Tooltip:
@@ -801,7 +803,7 @@ GiantTortoiseShell: {
 	Tooltip:
 		'''
 		增加5%伤害减免
-		降低15%冲刺速度
+		降低10%冲刺速度
 		受击后会移除冲刺惩罚并降低防御和伤害减免，持续5秒
 		'''
 }
@@ -817,14 +819,14 @@ GladiatorsLocket: {
 
 GloveOfPrecision: {
 	DisplayName: 精准手套
-	Tooltip: 降低15%盗贼攻速，但增加13%盗贼伤害、15%盗贼暴击率和25%盗贼弹幕速度
+	Tooltip: 降低15%盗贼攻速，但增加10%盗贼伤害、15%盗贼暴击率和15%盗贼弹幕速度
 }
 
 GloveOfRecklessness: {
 	DisplayName: 鲁莽手套
 	Tooltip:
 		'''
-		增加15%盗贼攻速，但降低13%盗贼伤害
+		增加15%盗贼攻速，但降低10%盗贼伤害
 		增加15%潜行值恢复速度
 		盗贼武器的弹幕更不精准
 		'''
@@ -843,7 +845,7 @@ GrandGelatin: {
 	DisplayName: 绚彩明胶
 	Tooltip:
 		'''
-		增加10%移动速度和跳跃速度
+		增加12%移动速度和跳跃速度
 		使用治疗药水后会产生一个纯净光环
 		首次进入光环会净化所有减益并移除防御损伤
 		光环内提供每秒2.5点生命再生，持续8秒
@@ -988,10 +990,9 @@ LeviathanAmbergris: {
 	DisplayName: 利维坦龙涎香
 	Tooltip:
 		'''
-		移动时会在身后留下有毒海水
-		浸没在液体中时增加30%移动速度、10%伤害和10点防御
-		浸没在液体中受到伤害时会获得一个短暂的伤害光环
-		未浸没在液体中时增加5%伤害和伤害减免
+		15% increased dash velocity
+		You gain 5% damage reduction while dashing
+		Your dashes are empowered by water, knocking back and damaging nearby enemies with viscous currents
 		'''
 }
 
@@ -1019,8 +1020,8 @@ LumenousAmulet: {
 	DisplayName: 流明护身符
 	Tooltip:
 		'''
-		攻击会造成深渊水压减益
-		使你免疫深渊水压减益
+		Attacks inflict the Crush Depth debuff
+		Grants immunity to the Riptide and Crush Depth debuffs
 		处于深渊时增加25%最大生命值
 		在深渊中提供适量光照
 		'''
@@ -1082,15 +1083,6 @@ MoonstoneCrown: {
 		增加15%盗贼弹幕速度
 		潜伏攻击在击中敌人时会召唤月球耀斑从天而降
 		盗贼武器的弹幕偶尔会在其飞行轨迹上召唤月球符文
-		'''
-}
-
-MutatedTruffle: {
-	DisplayName: 突变松露
-	Tooltip:
-		'''
-		召唤一个年轻的硫海公爵为你而战
-		生命值低于50%时，硫海公爵移动的更快
 		'''
 }
 
@@ -1289,14 +1281,15 @@ ProfanedSoulCrystal: {
 	Reject: 商人会拒绝收购这样一个被玷污的魂魄
 	FullTooltip:
 		'''
-		需要 10 个仆从栏位以启用以下所有效果：
+		Requires {0} minion slots to use in order to grant the following effects
 		所有非召唤攻击都被转换为强力的召唤变种
-		生命值低于 50% 会强化这些攻击
+		Having no other minions will empower these attacks
 		[c/F05A5A:将近战攻击转换为一波投矛]
-		[c/3A83E4:将魔法攻击转换为强力分裂火球，每次消耗{0}点魔力值]
+		[c/3A83E4:Transforms Magic attacks into a powerful splitting fireball for {1} mana per cast]
 		[c/85E092:将远程攻击转换为一阵火球与陨石]
 		[c/E94571:将盗贼攻击转换为死亡水晶螺旋]
-		召唤并强化三个亵渎守卫为你而战
+		[c/E299FF:Transforms Whip attacks into an empowering profaned crystal whip]
+		Summons and empowers the profaned soul guardians to fight alongside you
 		基于所处的时间给予增益
 		我的人生平淡无奇
 		[c/FFBF49:现在我们以纯化之名将其焚尽]
@@ -1328,7 +1321,7 @@ QuiverofNihility: {
 		'''
 		增加5%远程暴击率
 		召唤四个虚空力场环绕你
-		穿过力场的箭矢会获得100%的伤害加成且速度翻倍
+		穿过力场的箭矢会获得75%的伤害加成且速度翻倍
 		“充满比夜空更暗的物质”
 		'''
 }
@@ -1393,7 +1386,7 @@ RoseStone: {
 	Tooltip:
 		'''
 		召唤硫磺火元素为你而战
-		远古遗物之一
+		'One of the ancient relics'
 		'''
 }
 
@@ -1533,6 +1526,15 @@ SigilofCalamitas: {
 SilencingSheath: {
 	DisplayName: 寂静刀鞘
 	Tooltip: 增加10点最大潜行值
+}
+
+SlagsplitterPauldron: {
+	DisplayName: Slagsplitter Pauldron
+	Tooltip:
+		'''
+		You gain 5% damage reduction while dashing
+		Your dashes are empowered by fire, shredding enemies near you with violent explosions
+		'''
 }
 
 SpectralVeil: {
@@ -1731,7 +1733,7 @@ TheAbsorber: {
 	DisplayName: 阴阳吸星石
 	Tooltip:
 		'''
-		增加10%移动速度和跳跃速度
+		增加12%移动速度和跳跃速度
 		击中你的敌怪会受到极高伤害以及一个显著降低伤害减免的伤害性疾病减益
 		使用治疗药水后会产生一个纯净光环
 		首次进入光环会净化所有减益并移除防御损伤
@@ -1823,7 +1825,7 @@ TheSponge: {
 	Tooltip:
 		'''
 		投影一个至多吸收180点伤害的量子泡沫屏障
-		屏障激活时会提供30点防御并降低30%所受伤害
+		屏障激活时会提供30点防御并降低10%所受伤害
 		屏障会在受击后9秒开始重新充能
 		从0重新充能到满需要花费6秒
 		重新充能期间受击会重置充能计时器
@@ -1879,37 +1881,6 @@ VampiricTalisman: {
 		'''
 }
 
-AbandonedWulfrumHelmet: {
-	DisplayName: 废弃钨钢头盔
-	Tooltip:
-		'''
-		一个磨损生锈的头盔，看起来像是老式的钨钢头盔
-		装备在饰品栏可将持有者变成钨钢机器人
-		也可以像普通头盔一样穿戴在头盔栏和对应的时装栏里
-		[c/83B87E:“拾荒者和劫掠者常常穿着这种脆弱的盔甲]
-		[c/83B87E:其丰富的功能性以及通用性让它也能作为一种货币在交易中使用”]
-		'''
-}
-
-Popo: {
-	DisplayName: 魔法围巾帽
-	Tooltip:
-		'''
-		将装备者变成雪人
-		“不要让恶魔抢走你的鼻子！”
-		'''
-}
-
-HapuFruit: {
-	DisplayName: 心跳果
-	Tooltip: "“一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”"
-}
-
-RedBow: {
-	DisplayName: 红蝴蝶结
-	Tooltip: "“Pelusa最喜欢的蝴蝶结”"
-}
-
 VeneratedLocket: {
 	DisplayName: 敬天神盗盒
 	Tooltip:
@@ -1923,7 +1894,7 @@ VeneratedLocket: {
 
 VitalJelly: {
 	DisplayName: 活力胶质
-	Tooltip: 提高10%移动速度和跳跃速度
+	Tooltip: 提高12%移动速度和跳跃速度
 }
 
 VoidofCalamity: {
@@ -1939,11 +1910,9 @@ VoidofExtinction: {
 	DisplayName: 终结虚空
 	Tooltip:
 		'''
-		时不时会有硫磺火球从天而降
-		增加12%伤害
-		所有攻击都会造成硫磺火减益
-		被击中时会使硫磺火雨从天而降
-		使你免疫熔岩、燃烧、着火了！、硫磺火和硫焰灼烧减益
+		16% increased critical strike chance
+		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
+		Greatly reduces the damage taken by the Brimstone Flames debuff
 		'''
 }
 
@@ -2022,4 +1991,41 @@ YharimsInsignia: {
 		所有近战攻击会造成神圣之火减益
 		增加近战击退
 		'''
+}
+
+// Vanity Accessories
+AbandonedWulfrumHelmet: {
+	DisplayName: 废弃钨钢头盔
+	Tooltip:
+		'''
+		一个磨损生锈的头盔，看起来像是老式的钨钢头盔
+		装备在饰品栏可将持有者变成钨钢机器人
+		也可以像普通头盔一样穿戴在头盔栏和对应的时装栏里
+		[c/83B87E:“拾荒者和劫掠者常常穿着这种脆弱的盔甲]
+		[c/83B87E:其丰富的功能性以及通用性让它也能作为一种货币在交易中使用”]
+		'''
+}
+
+HapuFruit: {
+	DisplayName: 心跳果
+	Tooltip: "“一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”"
+}
+
+OracleHeadphones: {
+	DisplayName: Oracle Headphones
+	Tooltip: "'Hey game's over!'"
+}
+
+Popo: {
+	DisplayName: 魔法围巾帽
+	Tooltip:
+		'''
+		将装备者变成雪人
+		“不要让恶魔抢走你的鼻子！”
+		'''
+}
+
+RedBow: {
+	DisplayName: 红蝴蝶结
+	Tooltip: "“Pelusa最喜欢的蝴蝶结”"
 }
