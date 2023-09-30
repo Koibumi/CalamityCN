@@ -1,6 +1,11 @@
 Abaddon: {
 	DisplayName: Abaddon
-	Tooltip: Grants immunity to Brimstone Flames and Searing Lava
+	Tooltip:
+		'''
+		10% increased critical strike chance
+		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
+		Greatly reduces the damage taken by the Brimstone Flames debuff
+		'''
 }
 
 AbyssalAmulet: {
@@ -65,8 +70,9 @@ AeroStone: {
 	DisplayName: Aero Stone
 	Tooltip:
 		'''
-		Increases flight time, movement speed and jump speed by 10%
-		One of the ancient relics
+		Provides an additional 35 flight time
+		You slowly recover flight time while in the air if you are not flying or gliding
+		'One of the ancient relics'
 		'''
 }
 
@@ -254,7 +260,7 @@ BlazingCore: {
 	Tooltip:
 		'''
 		The searing core of the Profaned Goddess
-		Pressing [KEY] will activate Elysian Guard, encasing you in luminous profaned crystal
+		Pressing [KEY] will activate a parry, encasing you in luminous profaned crystal
 		Being hit shortly after encasement will shatter the crystal
 		Upon shattering, waves of holy stars spiral outwards and the damage you would have taken is reduced to 1
 		After shattering, this damage reduction effect goes on cooldown
@@ -313,7 +319,7 @@ BloomStone: {
 		Both of these effects are maximized from noon to sunset
 		Flowers grow if you are standing on grass
 		Random dye plants will grow while standing on grassless dirt
-		One of the ancient relics
+		'One of the ancient relics'
 		'''
 }
 
@@ -347,7 +353,7 @@ ChaosStone: {
 		Mana Sickness from drinking mana potions is replaced by Mana Burn
 		Mana Burn deals damage over time relative to the intensity of the debuff
 		This debuff does not reduce your magic damage
-		One of the ancient relics
+		'One of the ancient relics'
 		'''
 }
 
@@ -386,7 +392,7 @@ CorruptFlask: {
 	Tooltip:
 		'''
 		4% increased damage reduction and +6 defense while in the corruption
-		Grants immunity to the Cursed Inferno debuff
+		Grants immunity to the Brain Rot debuff
 		'''
 }
 
@@ -441,9 +447,9 @@ CryoStone: {
 	DisplayName: Cryo Stone
 	Tooltip:
 		'''
-		One of the ancient relics
 		Multiplies all cold-based debuff damage by 1.5
 		Creates a rotating ice shield around you that damages and slows down enemies on contact
+		'One of the ancient relics'
 		'''
 }
 
@@ -531,8 +537,7 @@ DimensionalSoulArtifact: {
 	Tooltip:
 		'''
 		Power
-		Boosts all damage by 25%, but at what cost?
-		Increases all damage taken by 15%
+		Boosts all damage by 25%, but at the cost of increasing damage taken by 15%
 		'''
 }
 
@@ -715,10 +720,12 @@ FlameLickedShell: {
 	DisplayName: Flame-Licked Shell
 	Tooltip:
 		'''
-		35% decreased movement speed
-		Enemies take damage when they hit you
-		You move faster and lose 18 defense for 3 seconds if you take damage
-		Grants immunity to lava and Armor Crunch
+		Pressing [KEY] will activate a parry, encasing you in rocks
+		Being hit shortly after encasement will implode the rocks
+		Upon implosion, a spread of brimstone hellfire is launched outwards and you receive 90% DR for that hit
+		After imploding, this damage reduction effect goes on cooldown
+		If another encasement is shattered whilst on cooldown, a weaker spread of brimstone hellfire is launched
+		The damage of a hit is not reduced whilst on cooldown
 		'''
 }
 
@@ -771,11 +778,6 @@ FungalSymbiote: {
 		'''
 }
 
-Gehenna: {
-	DisplayName: Gehenna
-	Tooltip: Drops brimstone fireballs from the sky occasionally
-}
-
 GiantPearl: {
 	DisplayName: Giant Pearl
 	Tooltip:
@@ -801,7 +803,7 @@ GiantTortoiseShell: {
 	Tooltip:
 		'''
 		5% increased damage reduction
-		15% reduced dash velocity
+		10% reduced dash velocity
 		Taking a hit will remove the dash penalty and reduce defense and damage reduction for 5 seconds
 		'''
 }
@@ -817,14 +819,14 @@ GladiatorsLocket: {
 
 GloveOfPrecision: {
 	DisplayName: Glove of Precision
-	Tooltip: Decreases rogue attack speed by 15% but increases damage by 13%, crit by 15% and velocity by 25%
+	Tooltip: Decreases rogue attack speed by 15%, but increases damage by 10%, crit by 15% and velocity by 15%
 }
 
 GloveOfRecklessness: {
 	DisplayName: Glove of Recklessness
 	Tooltip:
 		'''
-		Increases rogue attack speed by 15% but decreases damage by 13%
+		Increases rogue attack speed by 15%, but decreases damage by 10% and crit by 10%
 		15% increased stealth regeneration
 		Adds inaccuracy to rogue weapons
 		'''
@@ -843,7 +845,7 @@ GrandGelatin: {
 	DisplayName: Grand Gelatin
 	Tooltip:
 		'''
-		10% increased movement speed and jump speed
+		12% increased movement speed and jump speed
 		Using a healing potion will spawn a cleansing aura
 		Walking into the aura removes all debuffs and defense damage one time
 		The aura grants +2.5 HP/s life regen for all players inside for 8 seconds
@@ -988,10 +990,9 @@ LeviathanAmbergris: {
 	DisplayName: Leviathan Ambergris
 	Tooltip:
 		'''
-		You leave behind poisonous seawater as you move
-		30% increased movement speed, 10% increase to all damage and plus 10 defense while submerged in liquid
-		If you are damaged while submerged in liquid you will gain a damaging aura for a short time
-		Being outside of liquid increases all damage by 5% and increases damage reduction by 5%
+		15% increased dash velocity
+		You gain 5% damage reduction while dashing
+		Your dashes are empowered by water, knocking back and damaging nearby enemies with viscous currents
 		'''
 }
 
@@ -1020,7 +1021,7 @@ LumenousAmulet: {
 	Tooltip:
 		'''
 		Attacks inflict the Crush Depth debuff
-		Grants immunity to the Crush Depth debuff
+		Grants immunity to the Riptide and Crush Depth debuffs
 		While in the abyss you gain 25% increased max life
 		Provides a moderate amount of light in the abyss
 		'''
@@ -1082,15 +1083,6 @@ MoonstoneCrown: {
 		15% increased rogue projectile velocity
 		Stealth strikes summon lunar flares on enemy hits
 		Rogue projectiles very occasionally summon moon sigils behind them
-		'''
-}
-
-MutatedTruffle: {
-	DisplayName: Mutated Truffle
-	Tooltip:
-		'''
-		Summons a small Old Duke to fight for you
-		When below 50% life, it moves much faster
 		'''
 }
 
@@ -1289,14 +1281,15 @@ ProfanedSoulCrystal: {
 	Reject: Merchants will reject a defiled soul such as this.
 	FullTooltip:
 		'''
-		Requires 10 minion slots to use in order to grant the following effects
+		Requires {0} minion slots to use in order to grant the following effects
 		All non-summon weapons are converted into powerful summon variations
-		Falling below 50% life will empower these attacks
+		Having no other minions will empower these attacks
 		[c/F05A5A:Transforms Melee attacks into a barrage of spears]
-		[c/3A83E4:Transforms Magic attacks into a powerful splitting fireball for {0} mana per cast]
+		[c/3A83E4:Transforms Magic attacks into a powerful splitting fireball for {1} mana per cast]
 		[c/85E092:Transforms Ranged attacks into a flurry of fireballs and meteors]
 		[c/E94571:Transforms Rogue attacks into a deadly crystalline spiral]
-		Summons and empowers the profaned babs to fight alongside you
+		[c/E299FF:Transforms Whip attacks into an empowering profaned crystal whip]
+		Summons and empowers the profaned soul guardians to fight alongside you
 		Provides buffs depending on the time of day
 		Thinking back, it was a boring life
 		[c/FFBF49:And so we burn it all in the name of purity]
@@ -1328,7 +1321,7 @@ QuiverofNihility: {
 		'''
 		5% increased ranged critical strike chance
 		Summons a ring of four void fields to orbit you
-		Arrows that pass through these fields gain a 100% damage boost and double the speed
+		Arrows that pass through these fields gain a 75% damage boost and double the speed
 		'Filled with a substance darker than the night sky'
 		'''
 }
@@ -1393,7 +1386,7 @@ RoseStone: {
 	Tooltip:
 		'''
 		Summons a Brimstone Elemental to fight for you
-		One of the ancient relics
+		'One of the ancient relics'
 		'''
 }
 
@@ -1533,6 +1526,15 @@ SigilofCalamitas: {
 SilencingSheath: {
 	DisplayName: Silencing Sheath
 	Tooltip: +10 maximum stealth
+}
+
+SlagsplitterPauldron: {
+	DisplayName: Slagsplitter Pauldron
+	Tooltip:
+		'''
+		You gain 5% damage reduction while dashing
+		Your dashes are empowered by fire, shredding enemies near you with violent explosions
+		'''
 }
 
 SpectralVeil: {
@@ -1730,8 +1732,8 @@ TheAbsorber: {
 	DisplayName: The Absorber
 	Tooltip:
 		'''
-		10% increased movement and jump speed
-		Enemies take immense damage when they touch you and are afflicted with a damaging sickeness debuff that reduces damage reduction significantly
+		12% increased movement and jump speed
+		Enemies take immense damage when they touch you and are afflicted with a damaging sickness debuff that reduces damage reduction significantly
 		Using a healing potion will spawn a cleansing aura
 		Walking into the aura removes all debuffs and defense damage one time
 		The aura grants +3 HP/s life regen, +8% damage, and +5% damage reduction for all players inside for 10 seconds
@@ -1821,7 +1823,7 @@ TheSponge: {
 	Tooltip:
 		'''
 		Projects a quantum foam barrier that absorbs up to 180 damage
-		The barrier grants 30 defense and reduces damage taken by 30% while active
+		The barrier grants 30 defense and reduces damage taken by 10% while active
 		The barrier starts recharging 9 seconds after being hit
 		Recharging from zero to full charge takes 6 seconds
 		Being hit again while recharging restarts the charge timer
@@ -1877,37 +1879,6 @@ VampiricTalisman: {
 		'''
 }
 
-AbandonedWulfrumHelmet: {
-	DisplayName: Abandoned Wulfrum Helmet
-	Tooltip:
-		'''
-		A worn and rusty helmet resembling older models of wulfrum armor
-		Transforms the holder into a wulfrum robot
-		Can also be worn in the helmet slot as a regular helm
-		[c/83B87E:'This rather flimsy armor was commonly worn by scavengers and looters.]
-		[c/83B87E:Its versatility and common nature led it to be used as currency in trades.']
-		'''
-}
-
-HapuFruit: {
-	DisplayName: Ha-pu Fruit
-	Tooltip: "'A fruit that calms your nerves (may have unintended side effects)'"
-}
-
-RedBow: {
-	DisplayName: Red Bow
-	Tooltip: "'Pelusa's favorite bow'"
-}
-
-Popo: {
-	DisplayName: Magic Scarf and Hat
-	Tooltip:
-		'''
-		Transforms the holder into a snowman
-		'Don't let the demons steal your nose'
-		'''
-}
-
 VeneratedLocket: {
 	DisplayName: Venerated Locket
 	Tooltip:
@@ -1921,7 +1892,7 @@ VeneratedLocket: {
 
 VitalJelly: {
 	DisplayName: Vital Jelly
-	Tooltip: 10% increased movement and jump speed
+	Tooltip: 12% increased movement and jump speed
 }
 
 VoidofCalamity: {
@@ -1937,11 +1908,9 @@ VoidofExtinction: {
 	DisplayName: Void of Extinction
 	Tooltip:
 		'''
-		Drops brimstone fireballs from the sky occasionally
-		12% increase to all damage
-		All attacks inflict Brimstone Flames
-		Brimstone fire rains down after getting hit
-		Grants immunity to lava, Burning, On Fire!, Brimstone Flames and Searing Lava
+		16% increased critical strike chance
+		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
+		Greatly reduces the damage taken by the Brimstone Flames debuff
 		'''
 }
 
@@ -2020,4 +1989,41 @@ YharimsInsignia: {
 		All melee attacks inflict Holy Flames
 		Increased melee knockback
 		'''
+}
+
+// Vanity Accessories
+AbandonedWulfrumHelmet: {
+	DisplayName: Abandoned Wulfrum Helmet
+	Tooltip:
+		'''
+		A worn and rusty helmet resembling older models of wulfrum armor
+		Transforms the holder into a wulfrum robot
+		Can also be worn in the helmet slot as a regular helm
+		[c/83B87E:'This rather flimsy armor was commonly worn by scavengers and looters.]
+		[c/83B87E:Its versatility and common nature led it to be used as currency in trades.']
+		'''
+}
+
+HapuFruit: {
+	DisplayName: Ha-pu Fruit
+	Tooltip: "'A fruit that calms your nerves (may have unintended side effects)'"
+}
+
+OracleHeadphones: {
+	DisplayName: Oracle Headphones
+	Tooltip: "'Hey game's over!'"
+}
+
+Popo: {
+	DisplayName: Magic Scarf and Hat
+	Tooltip:
+		'''
+		Transforms the holder into a snowman
+		'Don't let the demons steal your nose'
+		'''
+}
+
+RedBow: {
+	DisplayName: Red Bow
+	Tooltip: "'Pelusa's favorite bow'"
 }
