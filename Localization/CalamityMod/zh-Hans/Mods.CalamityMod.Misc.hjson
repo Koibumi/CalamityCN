@@ -19,9 +19,9 @@ RecipeGroup: {
 }
 
 // Status
-WikiStatus1: "[i:Book] [c/EE4939:Note: The Fandom wiki is no longer supported by Calamity.] [i:Book]"
-WikiStatus2: "[i:Book] [c/EE4939:Check out the Official Calamity Mod Wiki at ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
-MusicModReminder: "[i:MusicBoxMartians] [c/71DFF5:Remember to also install the Calamity Music Mod to experience our soundtrack!] [i:MusicBoxMartians]"
+WikiStatus1: "[i:Book] [c/EE4939:Note: Fandom wiki已经不再支持灾厄Mod。] [i:Book]"
+WikiStatus2: "[i:Book] [c/EE4939:若想查看灾厄wiki，请前往 ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
+MusicModReminder: "[i:MusicBoxMartians] [c/71DFF5:还请记得加载灾厄音乐Mod来体验我们的音乐！] [i:MusicBoxMartians]"
 // Recipe Conditions
 Tier1ArsenalRecipeCondition: 获得沉沦之海原型图
 Tier2ArsenalRecipeCondition: 破译小行星加密原型图
@@ -40,8 +40,8 @@ CragmawVibeCheck: 感觉如何？
 AutocannonHot: 我焯！好烫！
 NoComputer: 未安装解密计算机
 ArkParry: 格挡！
-ClockworkTick: 嘀嗒
-ClockworkTock: 嘀嗒
+ClockworkTick: 嘀
+ClockworkTock: 嗒
 SevensJackpot: 正中彩头！！！
 SevensBust: 破产！
 SevensDoubles: 双倍！
@@ -50,12 +50,12 @@ StylishHammerHit: 亻尔女子
 ThirdSageBlessingText: 你已被第三贤者祝福！
 ThirdSageBlessingText2: 第三贤者收回了它的祝福……
 GenericConsumedText: "[c/8A8A8A:你已经使用过这个]"
-BloodOrangeText: You have already consumed a Blood Orange. Eating any more would make your blood too thick to flow.
-MiracleFruitText: You have already consumed a Miracle Fruit. It would take a miracle to put you back together if you ate another.
-ElderberryText: You have already consumed an Elderberry. Your body would become dust if you ate more than one.
-DragonfruitText: You have already consumed a Dragonfruit. Any more draconic power and you'd be rejected.
-CometShardText: You have already used a Comet Shard. Your neurons would die if you used another.
-EtherealCoreText: You have already used an Ethereal Core. Your brain would escape your head if you dared to use it a second time.
-PhantomHeartText: You have already used a Phantom Heart. The voices are telling you it's a bad idea to use it again.
+BloodOrangeText: 你已经吃了一个血橙了。再多吃你的血液会粘稠得无法流动。
+MiracleFruitText: 你已经吃了一个奇迹之果了。如果你再吃一个的话，就只能靠奇迹把你拼回来了
+ElderberryText: 你已经吃了一个旧神浆果了。你多吃一个身体会化为齑粉的。
+DragonfruitText: 你已经吃了一个龙果了。一身可容不下二龙。
+CometShardText: 你已经使用了一个彗星碎片。再用一个的话神经元会坏死的。
+EtherealCoreText: 你已经使用一个飘渺之核了。再用的话会让你的脑子离你而去。
+PhantomHeartText: 你已经使用一个幻影之心了。它们低语告诉你再用一个是个坏主意。
 SulphurSwitchLeft: 硫磺海现在位于世界左侧。
 SulphurSwitchRight: 硫磺海现在位于世界右侧。
