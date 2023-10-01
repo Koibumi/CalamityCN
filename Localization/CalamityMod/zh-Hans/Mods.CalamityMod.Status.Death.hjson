@@ -13,9 +13,9 @@ AstralInjection: "{0} 的血管由于药物过量爆裂了。"
 AuricRejection: "{0} 不配。"
 BloodBoiler1: "{0} 因重度贫血而四分五裂。"
 BloodBoiler2: "{0} 没能及时完成输血。"
-//BrainRot1: "{0} 终止运行。"
-//BrainRot2: "{0} 失去了最后的神经元。"
-//BrainRot3: "{0} 奔赴时间尽头的每一角落。”
+BrainRot1: "{0} 终止运行。"
+BrainRot2: "{0} 失去了最后的神经元。"
+BrainRot3: "{0} 奔赴时间尽头的每一角落。”
 BrimstoneFlames1: "{0} 被漆黑的烈焰燃尽。"
 BrimstoneFlames2: "{0} 被硫磺烈焰烧焦了。"
 BrimstoneFlames3: "{0} 的灵魂被烧成一团余烬。"
