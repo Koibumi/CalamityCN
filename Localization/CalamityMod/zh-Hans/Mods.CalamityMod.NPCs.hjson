@@ -1,6 +1,8 @@
+//BabyCannonballJellyfish.DisplayName: Baby Cannonball Jellyfish
 Bloatfish.DisplayName: 肿胀翻车鱼
 BobbitWormHead.DisplayName: 博比特虫
 BoxJellyfish.DisplayName: 灯水母
+//CannonballJellyfish.DisplayName: Cannonball Jellyfish
 ChaoticPuffer.DisplayName: 混乱刺鲀
 ColossalSquid.DisplayName: 巨像乌贼
 TinySquid: 小乌贼
@@ -21,67 +23,19 @@ Viperfish.DisplayName: 蝰蛇鱼
 AcidEel.DisplayName: 酸水鳗
 BabyFlakCrab.DisplayName: 小高口蟹
 BloodwormNormal.DisplayName: 血蠕虫
-
-CragmawMire: {
-	DisplayName: 峭咽潭
-
-	BossChecklistIntegration: {
-		SpawnInfo:
-			'''
-			在渊海灾虫被击败后的酸雨事件中生成。
-			用[i:CalamityMod/CausticTear]开始酸雨事件
-			'''
-		DespawnMessage: "[c/F0E68C:峭咽潭埋进了沙子里……]"
-	}
-}
-
+CragmawMire.DisplayName: 峭咽潭
 FlakCrab.DisplayName: 高口蟹
 GammaSlime.DisplayName: 伽马史莱姆
 IrradiatedSlime.DisplayName: 辐射史莱姆
-
-Mauler: {
-	DisplayName: 渊海狂鲨
-
-	BossChecklistIntegration: {
-		SpawnInfo:
-			'''
-			在噬魂幽花被击败后的酸雨事件中生成。
-			用[i:CalamityMod/CausticTear]开始酸雨事件
-			'''
-		DespawnMessage: "[c/F0E68C:残暴的巨鲨去寻找下一个受害者了。]"
-	}
-}
-
-NuclearTerror: {
-	DisplayName: 辐核骇兽
-
-	BossChecklistIntegration: {
-		SpawnInfo:
-			'''
-			在噬魂幽花被击败后的酸雨事件中生成.
-			用[i:CalamityMod/CausticTear]开始酸雨事件
-			'''
-		DespawnMessage: "[c/F0E68C:辐射骇兽在令人头晕目眩的光线中淡去了身影。]"
-	}
-}
-
+Mauler.DisplayName: 渊海狂鲨
+NuclearTerror.DisplayName: 辐射骇兽
 NuclearToad.DisplayName: 辐核蟾蜍
 Orthocera.DisplayName: 直角石
 Radiator.DisplayName: 辐射海蛞蝓
 Skyfin.DisplayName: 天鳍鱼
 SulphurousSkater.DisplayName: 硫海爬虫
 Trilobite.DisplayName: 三叶虫
-
-AquaticScourgeHead: {
-	DisplayName: 渊海灾虫
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在硫磺海使用 [i:CalamityMod/Seafood] 或等待其自然生成
-		DespawnMessage: "[c/F0E68C:剧毒的灾虫游回了宁静的汪洋中。]"
-		EntryName: 渊海灾虫
-	}
-}
-
+AquaticScourgeHead.DisplayName: 渊海灾虫
 Aries.DisplayName: 白羊座
 AstralachneaGround.DisplayName: 星幻蛛
 AstralProbe.DisplayName: 幻星探测器
@@ -98,89 +52,22 @@ SightseerCollider.DisplayName: 对撞观星眼
 SightseerSpitter.DisplayName: 射能观星眼
 StellarCulex.DisplayName: 星幻蚊
 Twinkler.DisplayName: 星幻萤火虫
-
-AstrumAureus: {
-	DisplayName: 白金星舰
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在夜晚的星辉瘟疫使用 [i:CalamityMod/AstralChunk]
-		DespawnMessage: "[c/FFD700:白金星舰已解决所有威胁。恢复到侦察模式。]"
-	}
-}
-
+AstrumAureus.DisplayName: 白金星舰
 AureusSpawn.DisplayName: 小白星
-
-AstrumDeusHead: {
-	DisplayName: 星神游龙
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在夜晚使用 [i:CalamityMod/TitanHeart] 或者 [i:CalamityMod/Starcore] 于 [i:CalamityMod/AstralBeaconItem] 处右键召唤
-		DespawnMessage: "[c/FFD700:被污染的神明退回了天界。]"
-		EntryName: 星神游龙
-	}
-}
-
+AstrumDeusHead.DisplayName: 星神游龙
 Brimling.DisplayName: 小硫火灵
-
-BrimstoneElemental: {
-	DisplayName: 硫磺火元素
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在硫火之崖使用[i:CalamityMod/CharredIdol]
-		DespawnMessage: "[c/DC143C:元素之灵永恒而阴郁地守望着阿萨福勒……]"
-	}
-}
-
+BrimstoneElemental.DisplayName: 硫磺火元素
 Bumblebirb: 癫痫鸟
-
-Bumblefuck: {
-	DisplayName: 痴愚金龙
-
-	BossChecklistIntegration: {
-		EntryName: 痴愚金龙
-		SpawnInfo: 在丛林生物群落使用[i:CalamityMod/ExoticPheromones]
-		DespawnMessage: "[c/FFD700:痴愚金龙返回了它隐蔽的巢穴。]"
-	}
-}
-
+Bumblefuck.DisplayName: 痴愚金龙
 Bumblefuck2.DisplayName: 癫狂龙裔
-
-CalamitasClone: {
-	DisplayName: 灾厄之影
-
-	BossChecklistIntegration: {
-		EntryName: 灾厄之影
-		SpawnInfo: 在夜晚使用[i:CalamityMod/EyeofDesolation]
-		DespawnMessage: "[c/FFA500:女巫的克隆体失望地吐了口血，随即隐去身形。]"
-	}
-}
-
+CalamitasClone.DisplayName: 灾厄之影
 Cataclysm.DisplayName: 灾祸构造体
 Catastrophe.DisplayName: 灾难构造体
 SoulSeeker.DisplayName: 探魂者
-
-CeaselessVoid: {
-	DisplayName: 无尽虚空
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在地牢使用[i:CalamityMod/RuneofKos]
-		DespawnMessage: "[c/4B0082:古老的空间裂缝穿梭去无人所知之地了。]"
-		EntryName: 无尽虚空
-	}
-}
-
+CeaselessVoid.DisplayName: 无尽虚空
 DarkEnergy.DisplayName: 暗能量
 CrabShroom.DisplayName: 真菌孢子
-
-Crabulon: {
-	DisplayName: 菌生蟹
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在发光蘑菇生物群落使用[i:CalamityMod/DecapoditaSprout]
-		DespawnMessage: "[c/6495ED:菌生怪蟹爬走了……]"
-	}
-}
-
+Crabulon.DisplayName: 菌生蟹
 CalamityEye.DisplayName: 灾厄眼
 RenegadeWarlock.DisplayName: 叛徒术士
 DespairStone.DisplayName: 绝望之石
@@ -189,43 +76,14 @@ InfernalCongealment.DisplayName: 狱火凝结物
 Scryllar.DisplayName: 殒命妖灵
 ScryllarRage.DisplayName: 殒命妖灵
 SoulSlurper.DisplayName: 灵魂饮食者
-
-Cryogen: {
-	DisplayName: 极地之灵
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在雪原生物群落使用[i:CalamityMod/CryoKey]
-		DespawnMessage: "[c/00FFFF:极地之灵在凌冽的暴雪中消失无踪。]"
-	}
-}
-
+Cryogen.DisplayName: 极地之灵
 Pyrogen: 赤道之灵
 CryogenShield.DisplayName: 冰川护盾
 PyrogenShield: 赤道护盾
 DesertNuisanceHead.DisplayName: 黄沙恶虫
-
-DesertScourgeHead: {
-	DisplayName: 荒漠灾虫
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在沙漠生物群落使用[i:CalamityMod/DesertMedallion]
-		DespawnMessage: "[c/EEE8AA:荒漠灾虫潜入旱海之中。]"
-		EntryName: 荒漠灾虫
-	}
-}
-
+DesertScourgeHead.DisplayName: 荒漠灾虫
 CosmicGuardianHead.DisplayName: 星宇护卫
-
-DevourerofGodsHead: {
-	DisplayName: 神明吞噬者
-
-	BossChecklistIntegration: {
-		EntryName: 神明吞噬者
-		SpawnInfo: 使用[i:CalamityMod/CosmicWorm]
-		DespawnMessage: "[c/00FFFF:神明吞噬者傲慢地回到了扭曲维度深处。]"
-	}
-}
-
+DevourerofGodsHead.DisplayName: 神明吞噬者
 Androomba.DisplayName: 仙女座扫除机
 Nanodroid.DisplayName: 纳米机器人
 RepairUnitCritter.DisplayName: 修复机器人
@@ -233,12 +91,6 @@ RepairUnitCritter.DisplayName: 修复机器人
 Apollo: {
 	DisplayName: XS-03 “阿波罗”
 	HekateName: XB-∞ “赫卡忒”的腐蚀之眼
-
-	BossChecklistIntegration: {
-		EntryName: 星流巨械
-		SpawnInfo: 点击安装了金源量子冷却电池的密码破译器
-		DespawnMessage: "[c/7FFFD4:毕竟不是完美造物……真是可惜……]"
-	}
 }
 
 AresBody: {
@@ -278,43 +130,16 @@ ThanatosHead: {
 	HekateName: XB-∞ “赫卡忒”的脊柱
 }
 
-GreatSandShark: {
-	DisplayName: 旱海狂鲨
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在击败世纪之花后的沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore]
-		DespawnMessage: "[c/DAA520:大漠中的顶级掠食者消失于沙丘之间。]"
-	}
-}
-
+GreatSandShark.DisplayName: 旱海狂鲨
 DankCreeper.DisplayName: 沼泽之眼
 DarkHeart.DisplayName: 暗之心
 HiveBlob.DisplayName: 腐化球
-
-HiveMind: {
-	DisplayName: 腐巢意志
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在腐化之地击杀腐化肿瘤或在腐化之地使用 [i:CalamityMod/Teratoma]
-		DespawnMessage: "[c/9400D3:腐巢意志掠过此地，另寻他处繁殖。]"
-	}
-}
-
+HiveMind.DisplayName: 腐巢意志
 HiveTumor.DisplayName: 腐化肿瘤
 Anahita.DisplayName: 阿娜希塔
 AnahitasIceShield.DisplayName: 冰护盾
 AquaticAberration.DisplayName: 深海吞食者
-
-Leviathan: {
-	DisplayName: 利维坦
-
-	BossChecklistIntegration: {
-		EntryName: 利维坦
-		SpawnInfo: 在海洋环境击杀一个未知的生物
-		DespawnMessage: "[c/7FFFD4:海中弃儿们回归到孤独的相伴之中。]"
-	}
-}
-
+Leviathan.DisplayName: 利维坦
 LeviathanStart.DisplayName: ？？？
 AeroSlime.DisplayName: 天蓝史莱姆
 ArmoredDiggerHead.DisplayName: 装甲掘地虫
@@ -364,17 +189,7 @@ WulfrumDrone.DisplayName: 钨钢无人机
 WulfrumGyrator.DisplayName: 钨钢回转器
 WulfrumHovercraft.DisplayName: 钨钢悬浮坦克
 WulfrumRover.DisplayName: 钨钢漫步者
-
-OldDuke: {
-	DisplayName: 硫海遗爵
-
-	BossChecklistIntegration: {
-		EntryName: 硫海遗爵
-		SpawnInfo: 在击败噬魂幽花后完成酸雨事件或使用 [i:CalamityMod/BloodwormItem] 为鱼饵在硫磺海钓鱼
-		DespawnMessage: "[c/F0E68C:硫海遗爵退回无边的酸雨中。]"
-	}
-}
-
+OldDuke.DisplayName: 硫海遗爵
 BoomerDuke: 老核弹
 OldDukeToothBall.DisplayName: 鲨牙刺球
 SulphurousSharkron.DisplayName: 硫海龙鲨
@@ -390,27 +205,8 @@ PerforatorHeadMedium.DisplayName: 血肉寄生者
 PerforatorMedium: 中型血肉寄生者
 PerforatorHeadSmall.DisplayName: 血肉寄生者
 PerforatorSmall: 小型血肉寄生者
-
-PerforatorHive: {
-	DisplayName: 血肉宿主
-
-	BossChecklistIntegration: {
-		EntryName: 血肉宿主
-		SpawnInfo: 在猩红之地击杀血肉囊或在猩红之地使用 [i:CalamityMod/BloodyWormFood]
-		DespawnMessage: "[c/DC143C:血肉寄生者们去寻找更多的猎物来大快朵颐。]"
-	}
-}
-
-PlaguebringerGoliath: {
-	DisplayName: 瘟疫使者歌莉娅
-
-	BossChecklistIntegration: {
-		EntryName: 瘟疫使者歌莉娅
-		SpawnInfo: 在丛林生物群落使用 [i:CalamityMod/Abombination]
-		DespawnMessage: "[c/00FF00:目 标 已 被 安 乐 死 。 战 斗 协 议 停 止 运 行 。]"
-	}
-}
-
+PerforatorHive.DisplayName: 血肉宿主
+PlaguebringerGoliath.DisplayName: 瘟疫使者歌莉娅
 PlagueHomingMissile.DisplayName: 制导瘟疫飞弹
 PlagueMine.DisplayName: 瘟疫之雷
 Melter.DisplayName: 蚀化者
@@ -420,17 +216,7 @@ PlagueCharger.DisplayName: 瘟疫蜜蜂
 Plagueshell.DisplayName: 瘟疫龟
 Viruling.DisplayName: 毒飞虫
 PhantomFuckYou.DisplayName: 幽花之灵
-
-Polterghast: {
-	DisplayName: 噬魂幽花
-
-	BossChecklistIntegration: {
-		SpawnInfo: 击杀30个幻魂或在地牢使用 [i:CalamityMod/NecroplasmicBeacon]
-		DespawnMessage: "[c/B0E0E6:变幻无常的幽魂在回荡的哀号声下无影无踪。]"
-		EntryName: 噬魂幽花
-	}
-}
-
+Polterghast.DisplayName: 噬魂幽花
 Necroghast: 噬魂幽花
 Necroplasm: 噬魂幽花
 Polterplasm: 幽花克隆体
@@ -438,88 +224,28 @@ PolterghastHook.DisplayName: 幽花触爪
 PolterPhantom.DisplayName: 噬魂幽花
 PrimordialWyrmHead.DisplayName: 始源妖龙
 Jared: Jared
-
-ProfanedGuardianCommander: {
-	DisplayName: 统御守卫
-
-	BossChecklistIntegration: {
-		EntryName: 亵渎守卫
-		SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedShard]
-		DespawnMessage: "[c/FFA500:亵渎守卫们被召回女神身边。]"
-	}
-}
-
+ProfanedGuardianCommander.DisplayName: 统御守卫
 ProfanedGuardianDefender.DisplayName: 神石守卫
 ProfanedGuardianHealer.DisplayName: 圣晶守卫
 ProfanedRocks.DisplayName: 亵渎岩
-
-Providence: {
-	DisplayName: 亵渎天神，普罗维登斯
-
-	BossChecklistIntegration: {
-		EntryName: 亵渎天神，普罗维登斯
-		SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedCore]
-		DespawnMessage: "[c/FFA500:亵渎女神隐匿在纯净的烈焰中，只留下一团灰烬……]"
-	}
-}
-
+Providence.DisplayName: 亵渎天神，普罗维登斯 
 ProvSpawnDefense.DisplayName: 圣御守卫
 ProvSpawnHealer.DisplayName: 天术守卫
 ProvSpawnOffense.DisplayName: 神攻守卫
 FlamePillar.DisplayName: 火柱
-
-RavagerBody: {
-	DisplayName: 毁灭魔像
-
-	BossChecklistIntegration: {
-		SpawnInfo: 使用 [i:CalamityMod/DeathWhistle]
-		DespawnMessage: "[c/B22222:毁灭魔像又开始了漫无目的的狂暴横行。]"
-		EntryName: 毁灭魔像
-	}
-}
-
+RavagerBody.DisplayName: 毁灭魔像
 RockPillar.DisplayName: 石柱
 CosmicLantern.DisplayName: 无限灯笼
 CosmicMine.DisplayName: 星界雷
-
-Signus: {
-	DisplayName: 神之使徒，西格纳斯
-
-	BossChecklistIntegration: {
-		EntryName: 神之使徒，西格纳斯
-		SpawnInfo: 在地狱使用 [i:CalamityMod/RuneofKos]
-		DespawnMessage: "[c/BA55D3:西格纳斯以难以理解的能力原地消失。]"
-	}
-}
-
+Signus.DisplayName: 神之使徒，西格纳斯
 CorruptSlimeSpawn.DisplayName: 腐化史莱姆
 CrimsonSlimeSpawn.DisplayName: 血腥史莱姆
 CrimulanPaladin.DisplayName: 血化圣卫
 EbonianPaladin.DisplayName: 黑檀圣卫
-
-SlimeGodCore: {
-	DisplayName: 史莱姆之神
-
-	BossChecklistIntegration: {
-		EntryName: 史莱姆之神
-		SpawnInfo: 使用 [i:CalamityMod/OverloadedSludge]
-		DespawnMessage: "[c/BA5533:污秽的凝胶之神雀跃离开，它已成功复仇。]"
-	}
-}
-
+SlimeGodCore.DisplayName: 史莱姆之神
 SplitCrimulanPaladin.DisplayName: 小血化圣卫
 SplitEbonianPaladin.DisplayName: 小黑檀圣卫
-
-StormWeaverHead: {
-	DisplayName: 风暴编织者
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在太空使用 [i:CalamityMod/RuneofKos]
-		DespawnMessage: "[c/EE82EE:风暴编织者将自身藏于翻涌的雷雨云中。]"
-		EntryName: 风暴编织者
-	}
-}
-
+StormWeaverHead.DisplayName: 风暴编织者
 AnthozoanCrab.DisplayName: 珊瑚蟹
 AquaticUrchin.DisplayName: 渊海海胆
 BelchingCoral.DisplayName: 喷嗝珊瑚
@@ -533,16 +259,7 @@ BlindedAngler.DisplayName: 盲鮟鱇
 Clam.DisplayName: 蛤
 EutrophicRay.DisplayName: 富养鳐鱼
 GhostBell.DisplayName: 鬼铃水母
-
-GiantClam: {
-	DisplayName: 巨像蛤
-
-	BossChecklistIntegration: {
-		SpawnInfo: 在沉沦之海自然生成
-		DespawnMessage: "[c/7FFFD4:巨像蛤重返水下岩窟之中。]"
-	}
-}
-
+GiantClam.DisplayName: 巨像蛤
 Clamitas: 灾蛤之影
 SupremeClamitas: 至尊巨蛤，蛤拉米塔斯
 PrismBack.DisplayName: 棱晶背龟
@@ -552,30 +269,11 @@ SeaSerpent1.DisplayName: 深海巨蛇
 BrimstoneHeart.DisplayName: 硫磺火心
 SepulcherHead.DisplayName: 灾坟魔物
 SoulSeekerSupreme.DisplayName: 至尊探魂者
-
-SupremeCalamitas: {
-	DisplayName: 至尊女巫，灾厄
-
-	BossChecklistIntegration: {
-		SpawnInfo: 使用 [i:CalamityMod/AshesofCalamity] 或 [i:CalamityMod/CeremonialUrn] 供奉 [i:CalamityMod/AltarOfTheAccursedItem]
-		DespawnMessage: "[c/FFA500:别浪费我的时间了。]"
-	}
-}
-
+SupremeCalamitas.DisplayName: 至尊女巫，灾厄
 SupremeCirrus: 至尊炼金术士，大山猪
 SupremeCataclysm.DisplayName: 至尊灾祸
 SupremeCatastrophe.DisplayName: 至尊灾难
-
-Yharon: {
-	DisplayName: 重生之龙，犽戎
-
-	BossChecklistIntegration: {
-		EntryName: 重生之龙，犽戎
-		SpawnInfo: 使用 [i:CalamityMod/YharonEgg]
-		DespawnMessage: "[c/FFA500:犽戎腾空而起，振翅于视界之外，他的任务已然完成。]"
-	}
-}
-
+Yharon.DisplayName: 重生之龙，犽戎
 YharonPhase2: 璀璨华焰，犽戎
 // Town NPCs, Pets, etc
 AndroombaFriendly.DisplayName: 仙女座扫除机老友
