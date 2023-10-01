@@ -1,4 +1,4 @@
-//AbaddonCrit.DisplayName: Brimstone Blast
+AbaddonCrit.DisplayName: 硫火爆破
 AeroExplosive.DisplayName: 天蓝爆炸
 AllianceTriangle.DisplayName: 圣天三角
 ArcZap.DisplayName: 电弧
@@ -51,8 +51,8 @@ EmpyreanStellarDetritus.DisplayName: 皇天星源碎屑
 EnergyShell.DisplayName: 能量庇护
 EutrophicSandBallGun.DisplayName: 富营养沙
 FeralDoubleBobber.DisplayName: 野性浮漂
-//FlameLickedBarrage.DisplayName: Flame Licked Barrage
-//FlameLickedHellblast.DisplayName: Flame Licked Hellblast
+FlameLickedBarrage.DisplayName: 舐火散弹
+FlameLickedHellblast.DisplayName: 舐火狱燃爆
 FuckYou.DisplayName: 爆炸
 FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
@@ -73,7 +73,7 @@ HydrothermicFlareRogue.DisplayName: 渊泉之火
 HydrothermicSphere.DisplayName: 渊泉球体
 JewelSpike.DisplayName: 宝石尖刺
 KelvinCatalystStar.DisplayName: 冰灵旋刃碎冰星
-//LeviAmberDash.DisplayName: Riptide Slam
+LeviAmberDash.DisplayName: 激流猛冲
 LunicBeam.DisplayName: 激光
 MageHammerBoom.DisplayName: 爆炸
 MagnusBeam.DisplayName: 磁振子束
@@ -86,14 +86,14 @@ NebulaStar.DisplayName: 星云
 NobodyKnows.DisplayName: 虚无
 OmegaBlueTentacle.DisplayName: 欧米茄蓝色触手
 OnyxLabSeeker.DisplayName: 实验室定位仪
-//PauldronDash.DisplayName: Pauldron Dash
-//PauldronExplosion.DisplayName: Pauldron Explosion
+PauldronDash.DisplayName: 肩甲冲刺
+PauldronExplosion.DisplayName: 肩甲爆炸
 PendantProjectile1.DisplayName: 棱镜碎片
 PendantProjectile2.DisplayName: 棱镜碎片
 PendantProjectile3.DisplayName: 棱镜碎片
 PoisonousSeawater.DisplayName: 海水
-//PscTransformAnimation.DisplayName: Psc Transform Animation
-//PscTransformRocks.DisplayName: Psc Transform Rocks
+PscTransformAnimation.DisplayName: 渎神魂晶转换动画
+PscTransformRocks.DisplayName: 渎神魂晶转换陨石
 ReaverOrb.DisplayName: 掠夺者宝珠
 ReaverThornBase.DisplayName: 荆棘
 ReaverThornTip.DisplayName: 荆棘
