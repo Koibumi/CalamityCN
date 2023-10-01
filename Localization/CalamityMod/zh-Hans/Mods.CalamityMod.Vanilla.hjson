@@ -1,6 +1,6 @@
 // Buff Descriptions
 BuffDescription: {
-	//Banner: You have increased damage and defense against the following:
+	//Banner: 你对以下敌人的防御与伤害提升了：
 	BeetleMight: 近战伤害和攻速分别提升 {0}% 和 {1}%
 	ChaosState: 混沌传送杖暂时无法传送
 	LeafCrystal: 释放强大的生命光流攻击附近敌人
@@ -22,32 +22,32 @@ ArmsDealerChat: {
 	MentionQuadBarrel: 那老头临终前留了把破枪。你明白我的意思了吗?
 	HasQuadBarrel: 哈！看看那生锈的老玩意。它看起来是70年代的！
 	DoGDefeated: 是我越来越小，还是你的武器越来越大？
-	//Eclipse: I thought moths went for light, what is one doing here?! You gonna need more than a boomstick if you want to kill that!
+	//Eclipse: 我一直以为蛾子会向往光明，但是那一只在干什么？ ！你想杀它的话一杆火枪可不够！
 }
 
 ClothierChat: {
-	//PolterghastDefeated: The voices have ceased... I don't want to know what you did there, but thank you.
+	//PolterghastDefeated: 那些声音停下来了...我不想知道你在那里做了什么，但还是谢谢你了。
 	MoonLordDefeated1: 你想叫谁？
 	MoonLordDefeated2: 那些尖叫……不知道为什么，但我觉得一种莫名的恐惧已经在我的心中醒来。
-	//MoonLordDefeated3: The voices I always kept hearing while in the Dungeon are back... There must be something behind them, I know when it's just my head.
+	//MoonLordDefeated3: 我过去一直在地牢听到的那些声音回来了...我肯定这背后藏了什么，虽然这只是我的一家之言。
 	MoonLordPresent: 休斯顿，我们遇上麻烦了。
 }
 
 CyborgChat: {
 	MoonLordDefeated1: 总是朝月亮开枪！很明显，这以前起过作用。
-	//MoonLordDefeated2: The guy who made these upgrades on me said he wanted to best him. But I never cared about that, I just wanted to shoot lasers from my eyes.
-	//MentionPlague: Those big green roaches in the Jungle don't threaten me, but all of the animals it has consumed... Please, do me a favor and protect them.
+	//MoonLordDefeated2: 将我升级的人说想做最好的自己。但我不在乎，我只想让我的眼睛也能发射激光。
+	//MentionPlague: 丛林那些绿色的大蟑螂丝毫没有威胁到我，但它们威胁了所有动物...请帮我个忙，保护好它们。
 	Rain: 这一切都终将湮灭在时间的长河之中，就像雨中的…………泪滴。
 }
 
 DemolitionistChat.DoGDefeated: 弑神者雷管？我喜欢那声音！
 
 DryadChat: {
-	//DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。What's up with moths getting stronger as you do too?
+	//DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。为啥这些蛾子会像你一样越来越强？
 	Hardmode: 那星辉瘟疫像水泡一样存在于这片土地上。难道世界上还有更多邪恶地形吗
 	DrunkPrincessShroom: "{0}让我来。"
 	Mushroom: 我才不想呆在这！我在这是为了捡蘑菇，呃，留着以后用。
-	//SulphurSea: My Goddess is resting deep below this sea. If you may excuse me, I wish to pay my respects to her alone.
+	//SulphurSea: 我的女神在沉寂在海底中。请准许我对她致以我个人的敬意。
 }
 
 DyeTraderChat: {
@@ -61,12 +61,11 @@ GoblinTinkererChat: {
 }
 
 GuideChat: {
-	//ProvidenceDefeated1: Killing a Goddess would obviously make her essence seep into the land, you can probably use the remnants of her power to make even more powerful gear!
-	//ProvidenceDefeated2: I've heard the Dragon Cult has something locked in the Dungeon they use to power their hexes, apparently messing with it can lead you to another world...
-	//MoonLordDefeated: I've seen members of the Dragon Cult outside of the Dungeon far more often than before... I think you should check what could be causing their displacement.
+	//ProvidenceDefeated1: 杀死一个女神显然会让她的精元渗入大地，你或许可以用她力量的残响去制造更强的装备！
+	//ProvidenceDefeated2: 我听说巨龙教在地牢里面偷偷封锁了一些东西，用以给他们的仪式供给能量，看起来扰乱它会把你带向另一个世界...
+	//MoonLordDefeated: 相比过去，我在地牢外见到巨龙教教徒的次数多太多了...我认为你应该探究一下是什么导致他们流离失所。
 	Hardmode1: 你能不能发点好心，额……帮我查一下地狱……？我把一个我关心的人留在下面了。
-	//Hardmode2: That earthquake wasn't natural, something must have caused it... Beware when exploring, whatever caused it must be a powerful entity, perhaps even otherworldly.。
-}
+	//Hardmode2: 这场地震绝不是自然发生的，一定有东西造成了它...探索时务必小心，无论真相是什么，这背后都一定有一个强大甚至无与伦比的存在。
 
 MechanicChat: {
 	MoonLordDefeated: 你说你的机关没成功是什么意思？和我没关系！
@@ -76,7 +75,7 @@ MechanicChat: {
 }
 
 MerchantChat: {
-	//MoonLordDefeated: Every night seems more tense than the last. I feel unspeakable horrors are watching over us.
+	//MoonLordDefeated: 每天晚上似乎都比上一个晚上更加吓人。我感觉一些不可名状的恐惧在向我们蔓延。
 	Eclipse: 你制杖吗？！快把那些破灯关掉！
 	AcidRain: 如果这场酸雨持续下去，很快就会出现土块短缺的情况！
 	Bandit: 我现在拥有好几个天使雕像，那可真是稀世珍品啊！你要来一个吗？
@@ -142,7 +141,7 @@ TavernkeepChat: {
 
 TaxCollectorChat: {
 	DoGDefeated: 你说什么吞噬者？资金吞噬者，如果它的工资能是任何东西！
-	//PreBrimmy: So those punks on Azafure think they can live for free on my lands? Tell you what, do my job there and I might give you a bonus.
+	//PreBrimmy: 那些阿萨福勒上的朋克以为他们可以在我的领地免费住下？我告诉你，在那里处理好我的工作，不然别想领钱。
 	HasSlickCane: 我的天！那根拐杖太装逼了！
 	Has500Plat: 这些钱你到底是怎么弄来的？
 	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
@@ -157,11 +156,11 @@ TruffleChat: {
 
 WitchDoctorChat: {
 	BloodMoon: 这是一个很好的时间来挑选最好的药水成分。
-	//PrePlantera: I remember hearing some rumours about some villagers that were creating a monster to defend their village, maybe their magic can be of use to you?
-	//Jungle: I wonder how my relatives are doing, last time I checked on them they were too busy praising the... Sun, I think.
+	//PrePlantera: 有传闻一些村民在制造怪物来保卫他们的村庄，也许他们的魔法会对你而言会有些用？
+	//Jungle: 我想知道我的亲戚们过得怎么样，上次我看望他们的时候，他们正忙于赞颂...太阳吧，我想。
 }
 
 WizardChat: {
 	Hardmode: 这空间太小了，让人感到难受
-	//MentionRoD: I saw some teleporting pink apparitions in the Hallow. If you let me live nearby, I should be able to channel their magic into a special staff for you.
+	//MentionRoD: 我在神圣之地里看到了一些不断传送的粉色幻影。如果能住在那附近，我想我能运用他们的魔法给你制造一根特殊的法杖。
 }
