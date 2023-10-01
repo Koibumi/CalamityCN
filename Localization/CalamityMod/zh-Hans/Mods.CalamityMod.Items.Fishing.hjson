@@ -316,3 +316,9 @@ WulfrumRod: {
 	DisplayName: 钨钢钓竿
 	Tooltip: “这玩意儿质量很差，但总比没有好”
 }
+
+// Bait
+GrandMarquisBait: {
+	DisplayName: Grand Marquis Bait
+	Tooltip: ""
+}

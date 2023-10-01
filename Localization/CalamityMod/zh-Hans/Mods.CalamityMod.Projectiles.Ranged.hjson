@@ -10,7 +10,6 @@ Aquashard.DisplayName: 碎水弹
 AquashardSplit.DisplayName: 碎水弹
 ArcherfishRing.DisplayName: 水之环
 ArcherfishShot.DisplayName: 水之境
-ArcNovaDiffuserHoldout.DisplayName: 漫散弧星
 ArcticArrowProj.DisplayName: 北极箭
 AstralCannonProjectile.DisplayName: 星辉水晶
 AstralRound.DisplayName: 星体环
@@ -124,9 +123,7 @@ LunarBolt.DisplayName: 飞弹
 LunarBolt2.DisplayName: 飞弹
 LuxorsGiftRanged.DisplayName: 卢克索的礼物
 MaelstromHoldout.DisplayName: 幽漩风暴
-MagnaCannonHoldout.DisplayName: 麦格纳加农炮
 MagnaShot.DisplayName: 麦格纳飞弹
-MagnaStrike.DisplayName: 麦格纳冲击波
 MagnomalyAura.DisplayName: 磁暴
 MagnomalyBeam.DisplayName: 光束
 MagnomalyExplosion.DisplayName: 爆炸
@@ -146,7 +143,7 @@ NeedlerProj.DisplayName: 针
 NorfleetCannon.DisplayName: 诺弗利特
 NorfleetComet.DisplayName: 彗星
 NorfleetExplosion.DisplayName: 爆炸
-NovaChargeShot.DisplayName: 新星冲击波
+NovaChargedShot.DisplayName: 新星冲击波
 NovaShot.DisplayName: 新星矢
 Nuke.DisplayName: 核弹
 NullShot.DisplayName: 空弹
@@ -154,7 +151,6 @@ NullShot2.DisplayName: 空弹
 OnyxSharkBomb.DisplayName: 玛瑙鲨鱼
 OpalChargedStrike.DisplayName: 充能水晶矢
 OpalStrike.DisplayName: 热能矢
-OpalStrikerHoldout.DisplayName: 热能冲击
 PhangasmBow.DisplayName: 幻魔
 PiercingBullet.DisplayName: 穿甲弹
 PlagueArrow.DisplayName: 瘟疫箭

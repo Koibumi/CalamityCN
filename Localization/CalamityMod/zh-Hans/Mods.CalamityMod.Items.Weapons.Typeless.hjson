@@ -76,8 +76,8 @@ YanmeisKnife: {
 	DisplayName: Yanmei的刀
 	Tooltip:
 		'''
-		当击中Boss、迷你Boss或其召唤的敌怪时，你会削弱敌人
-		你还会获得10秒的移动速度和伤害提升
+		Enemies you hit are crippled
+		Hits will also give you enhanced movement speed and damage for 10 seconds
 		“一把来自未知世界的刀
 		拥有一个内心纯洁的主人
 		荣誉相随的钢铁雄心”
