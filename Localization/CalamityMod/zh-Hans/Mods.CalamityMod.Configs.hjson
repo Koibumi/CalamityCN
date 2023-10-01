@@ -236,11 +236,11 @@ CalamityConfig: {
 	}
 
 	MusicModReminderMessage: {
-		Label: "[i:MusicBoxMartians] Music Mod Reminder Message"
+		Label: "[i:MusicBoxMartians] 音乐模组提示讯息"
 		Tooltip:
 			'''
-			Enable or disable the status message which reminds users to install the Calamity Music Mod.
-			This message plays on world entry.
+			开启或关闭提醒玩家装载灾厄音乐模组（Calamity Music Mod）的状态讯息。
+			这条状态讯息会在玩家进入世界时出现。
 			'''
 	}
 
