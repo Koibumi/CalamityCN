@@ -10,7 +10,7 @@ Aquashard.DisplayName: 碎水弹
 AquashardSplit.DisplayName: 碎水弹
 ArcherfishRing.DisplayName: 水之环
 ArcherfishShot.DisplayName: 水之境
-//ArcNovaDiffuserHoldout.DisplayName: Arc Nova Diffuser
+ArcNovaDiffuserHoldout.DisplayName: 漫散弧星
 ArcticArrowProj.DisplayName: 北极箭
 AstralCannonProjectile.DisplayName: 星辉水晶
 AstralRound.DisplayName: 星体环
@@ -57,7 +57,7 @@ ContagionArrow.DisplayName: 疫毒箭
 ContagionBall.DisplayName: 疫病球
 ContagionBow.DisplayName: 疫毒
 CorinthPrimeAirburst.DisplayName: 空爆
-CorinthPrimeAirburstGrenade.DisplayName: 科林斯Prime空爆射击
+CorinthPrimeAirburstGrenade.DisplayName: 科林斯Prime空爆弹
 CorossiveFlames.DisplayName: 瘟疫火焰
 CorrodedShell.DisplayName: 酸蚀外壳
 CosmicFire.DisplayName: 宙炎
@@ -146,21 +146,21 @@ NeedlerProj.DisplayName: 针
 NorfleetCannon.DisplayName: 诺弗利特
 NorfleetComet.DisplayName: 彗星
 NorfleetExplosion.DisplayName: 爆炸
-//NovaChargeShot.DisplayName: Charged Nova Blast
-//NovaShot.DisplayName: Nova Bolt
+NovaChargeShot.DisplayName: 新星冲击波
+NovaShot.DisplayName: 新星矢
 Nuke.DisplayName: 核弹
 NullShot.DisplayName: 空弹
 NullShot2.DisplayName: 空弹
-//OnyxSharkBomb.DisplayName: Onyx Shark
-//OpalChargedStrike.DisplayName: Charged Plasma Bolt
-//OpalStrike.DisplayName: Heated Bolt
-//OpalStrikerHoldout.DisplayName: Opal Striker
+OnyxSharkBomb.DisplayName: 玛瑙鲨鱼
+OpalChargedStrike.DisplayName: 充能水晶矢
+OpalStrike.DisplayName: 热能矢
+OpalStrikerHoldout.DisplayName: 热能冲击
 PhangasmBow.DisplayName: 幻魔
 PiercingBullet.DisplayName: 穿甲弹
 PlagueArrow.DisplayName: 瘟疫箭
 PlagueExplosionFriendly.DisplayName: 爆炸
 PlagueTaintedProjectile.DisplayName: 玷疫子弹
-// PlagueTaintedDrone.DisplayName: Plague Tainted Drone
+PlagueTaintedDrone.DisplayName: 玷疫无人机
 PlanarRipperBolt.DisplayName: 位面猎魂弹
 PlanarRipperExplosion.DisplayName: 位面肃清
 PlanetaryAnnihilationProj.DisplayName: 行星球
@@ -217,10 +217,10 @@ SlagRound.DisplayName: 抗药性光环
 SlimeBolt.DisplayName: 史莱姆喷溅
 SmallCoral.DisplayName: 小珊瑚
 SparkSpreaderFire.DisplayName: 火焰
-//SpeedBlasterShot.DisplayName: Splatter Shot
-//SporeBomb.DisplayName: Spore Bomb
-//SputterComet.DisplayName: Sputter Comet
-//SputterCometBig.DisplayName: Sputter Comet
+SpeedBlasterShot.DisplayName: 飞溅彩弹
+SporeBomb.DisplayName: 孢子炸弹
+SputterComet.DisplayName: 飞溅彗星
+SputterCometBig.DisplayName: 飞溅彗星
 SpykerProj.DisplayName: 叶针霰弹炮
 StarfleetMK2Gun.DisplayName: 群星大炮
 StarmageddonBinaryStarCenter.DisplayName: 双星中心
