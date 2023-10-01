@@ -1,3 +1,4 @@
+//AbaddonCrit.DisplayName: Brimstone Blast
 AeroExplosive.DisplayName: 天蓝爆炸
 AllianceTriangle.DisplayName: 圣天三角
 ArcZap.DisplayName: 电弧
@@ -13,6 +14,8 @@ AstralSandBallGun.DisplayName: 星环沙块
 AstralSpray.DisplayName: 星体喷流
 AstralStar.DisplayName: 彗星
 BallisticPoisonCloud.DisplayName: 云
+BlazingStarHeal.DisplayName: 治愈神圣之星
+BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
 BlazingSun.DisplayName: 烈日
 BlazingSun2.DisplayName: 烈日
 BlissfulBombardierDustProjectile.DisplayName: 尘埃
@@ -48,6 +51,8 @@ EmpyreanStellarDetritus.DisplayName: 皇天星源碎屑
 EnergyShell.DisplayName: 能量庇护
 EutrophicSandBallGun.DisplayName: 富营养沙
 FeralDoubleBobber.DisplayName: 野性浮漂
+//FlameLickedBarrage.DisplayName: Flame Licked Barrage
+//FlameLickedHellblast.DisplayName: Flame Licked Hellblast
 FuckYou.DisplayName: 爆炸
 FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
@@ -68,6 +73,7 @@ HydrothermicFlareRogue.DisplayName: 渊泉之火
 HydrothermicSphere.DisplayName: 渊泉球体
 JewelSpike.DisplayName: 宝石尖刺
 KelvinCatalystStar.DisplayName: 冰灵旋刃碎冰星
+//LeviAmberDash.DisplayName: Riptide Slam
 LunicBeam.DisplayName: 激光
 MageHammerBoom.DisplayName: 爆炸
 MagnusBeam.DisplayName: 磁振子束
@@ -80,10 +86,14 @@ NebulaStar.DisplayName: 星云
 NobodyKnows.DisplayName: 虚无
 OmegaBlueTentacle.DisplayName: 欧米茄蓝色触手
 OnyxLabSeeker.DisplayName: 实验室定位仪
+//PauldronDash.DisplayName: Pauldron Dash
+//PauldronExplosion.DisplayName: Pauldron Explosion
 PendantProjectile1.DisplayName: 棱镜碎片
 PendantProjectile2.DisplayName: 棱镜碎片
 PendantProjectile3.DisplayName: 棱镜碎片
 PoisonousSeawater.DisplayName: 海水
+//PscTransformAnimation.DisplayName: Psc Transform Animation
+//PscTransformRocks.DisplayName: Psc Transform Rocks
 ReaverOrb.DisplayName: 掠夺者宝珠
 ReaverThornBase.DisplayName: 荆棘
 ReaverThornTip.DisplayName: 荆棘
@@ -111,6 +121,7 @@ SuicideBomberDemon.DisplayName: 恶魔
 SulphuricAcidBubbleFriendly.DisplayName: 酸性气泡
 SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
+TarragonAura.DisplayName: 龙蒿光环
 TerminusHoldout.DisplayName: 终焉反抗
 TeslaAura.DisplayName: 磁暴
 VanquisherArrowSplit.DisplayName: 湮灭箭
@@ -126,6 +137,3 @@ WulfrumLureSignal.DisplayName: 信号
 WulfrumScaffoldKitHoldout.DisplayName: 钨钢云梯工具包
 YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
-TarragonAura.DisplayName: 龙蒿光环
-BlazingStarHeal.DisplayName: 治愈神圣之星
-BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
