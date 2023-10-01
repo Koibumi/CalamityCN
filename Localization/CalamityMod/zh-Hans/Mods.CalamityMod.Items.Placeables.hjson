@@ -324,7 +324,7 @@ AuricToilet: {
 }
 
 BabyCannonballJellyfishBowl: {
-	DisplayName: Baby Cannonball Jellyfish Bowl
+	DisplayName: 小炮弹水母碗
 	Tooltip: ""
 }
 
@@ -553,7 +553,7 @@ DraedonsForge: {
 }
 
 EffulgentManipulator: {
-	DisplayName: Effulgent Manipulator
+	DisplayName: 闪耀操纵机
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
