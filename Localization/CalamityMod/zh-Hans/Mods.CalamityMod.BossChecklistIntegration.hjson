@@ -14,18 +14,19 @@ AcidRainT3: {
 }
 
 AquaticScourge: {
-	EntryName: Aquatic Scourge
+	EntryName: 渊海灾虫
 	SpawnInfo: Use a [i:CalamityMod/Seafood] in the Sulphurous Sea, or wait for it to spawn naturally in the Sulphurous Sea.
 	DespawnMessage: "[c/F0E68C:The poisoned scourge swims back to the tranquil, open ocean.]"
 }
 
 AstrumAureus: {
+	EntryName: 白金星舰
 	SpawnInfo: Use an [i:CalamityMod/AstralChunk] at night in the Astral Infection.
 	DespawnMessage: "[c/FFD700:Aureus has neutralized all threats. Resume prior reconnaissance.]"
 }
 
 AstrumDeus: {
-	EntryName: Astrum Deus
+	EntryName: 星神游龙
 	SpawnInfo: Use a [i:CalamityMod/TitanHeart] or [i:CalamityMod/Starcore] as offering at an [i:CalamityMod/AstralBeaconItem].
 	DespawnMessage: "[c/FFD700:The infected deity retreats to the heavens.]"
 }
@@ -41,23 +42,25 @@ BrimstoneElemental: {
 }
 
 Calamitas: {
-	EntryName: Supreme Witch, Calamitas
+	EntryName: 至尊女巫，灾厄
 	SpawnInfo: Use [i:CalamityMod/AshesofCalamity] or a [i:CalamityMod/CeremonialUrn] as offering at an [i:CalamityMod/AltarOfTheAccursedItem].
 	DespawnMessage: "[c/FFA500:The Witch vanishes, leaving nothing but stifling heat in her wake.]"
 }
 
 CalamitasClone: {
+	EntryName: 灾厄之影
 	SpawnInfo: Use an [i:CalamityMod/EyeofDesolation] at night.
 	DespawnMessage: "[c/FFA500:The clone spits a bit of blood in disgust and vanishes.]"
 }
 
 CeaselessVoid: {
-	EntryName: Ceaseless Void
+	EntryName: 无尽虚空
 	SpawnInfo: Use a [i:CalamityMod/RuneofKos] in the dungeon.
 	DespawnMessage: "[c/4B0082:The ancient spatial rift slips away to places unknown.]"
 }
 
 Crabulon: {
+	EntryName: 菌生蟹
 	SpawnInfo: Use a [i:CalamityMod/DecapoditaSprout] in a Glowing Mushroom biome.
 	DespawnMessage: "[c/6495ED:The monstrous mycelial crab shuffles away…]"
 }
@@ -72,50 +75,54 @@ CragmawMire: {
 }
 
 Cryogen: {
+	EntryName: 极地之灵
 	SpawnInfo: Use a [i:CalamityMod/CryoKey] in the tundra.
 	DespawnMessage: "[c/00FFFF:Cryogen disappears amidst the biting winds of the blizzard.]"
 }
 
 DesertScourge: {
-	EntryName: Desert Scourge
+	EntryName: 荒漠灾虫
 	SpawnInfo: Use a [i:CalamityMod/DesertMedallion] in the desert.
 	DespawnMessage: "[c/EEE8AA:The scourge of the desert delves back into the sand.]"
 }
 
 DevourerofGods: {
-	EntryName: Devourer of Gods
+	EntryName: 神明吞噬者
 	SpawnInfo: Use a [i:CalamityMod/CosmicWorm].
 	DespawnMessage: "[c/00FFFF:The Devourer of Gods haughtily returns to the depths of the Distortion.]"
 }
 
 Dragonfolly: {
+	EntryName: 痴愚金龙
 	SpawnInfo: Use [i:CalamityMod/ExoticPheromones] in the jungle.
 	DespawnMessage: "[c/FFD700:The folly returns to its secluded roost.]"
 }
 
 ExoMechs: {
-	EntryName: The Exo Mechs
+	EntryName: 星流巨械
 	SpawnInfo: Use a fully-powered Codebreaker to contact Draedon…
 	DespawnMessage: "[c/7FFFD4:An imperfection after all… what a shame.]"
 }
 
 GiantClam: {
-	SpawnInfo: Spawns naturally underwater in the Sunken Sea.
+	SpawnInfo: 在沉沦之海水下自然生成
 	DespawnMessage: "[c/7FFFD4:The Giant Clam returns into hiding in its grotto.]"
 }
 
 GreatSandShark: {
+	EntryName: 旱海狂鲨
 	SpawnInfo: Kill 10 Sand Sharks after defeating Plantera or use a [i:CalamityMod/SandstormsCore] in the desert.
 	DespawnMessage: "[c/DAA520:The apex predator of the sands disappears between the dunes.]"
 }
 
 HiveMind: {
+	EntryName: 腐巢意志
 	SpawnInfo: Kill a Hive Tumor in the Corruption or use a [i:CalamityMod/Teratoma] in the Corruption.
 	DespawnMessage: "[c/9400D3:The Hive Mind flits away to brood elsewhere.]"
 }
 
 Leviathan: {
-	EntryName: Anahita & The Leviathan
+	EntryName: 阿娜希塔和利维坦
 	SpawnInfo: Defeat an elusive singer in the ocean…
 	DespawnMessage: "[c/7FFFD4:The aquatic outcasts return to their lonesome company.]"
 }
@@ -139,65 +146,67 @@ NuclearTerror: {
 }
 
 OldDuke: {
-	EntryName: Old Duke
+	EntryName: 硫海遗爵
 	SpawnInfo: Finish the Tier 3 Acid Rain event, or fish using a [i:CalamityMod/BloodwormItem] as bait in the Sulphurous Sea.
 	DespawnMessage: "[c/F0E68C:The old duke retreats further into the acidic downpour.]"
 }
 
 Perforators: {
-	EntryName: The Perforators
+	EntryName: 血肉宿主
 	SpawnInfo: Kill a Perforator Cyst in the Crimson or use a [i:CalamityMod/BloodyWormFood] in the Crimson.
 	DespawnMessage: "[c/DC143C:The Perforators search for more hosts to gorge themselves on.]"
 }
 
 PlaguebringerGoliath: {
+	EntryName: 瘟疫使者歌莉娅
 	SpawnInfo: Use an [i:CalamityMod/Abombination] in the jungle.
 	DespawnMessage: "[c/00FF00:SPECIMENS EUTHANIZED. EXITING COMBAT PROTOCOL.]"
 }
 
 Polterghast: {
-	EntryName: Polterghast
+	EntryName: 噬魂幽花
 	SpawnInfo: Kill 30 Phantom Spirits or use a [i:CalamityMod/NecroplasmicBeacon] in the dungeon.
 	DespawnMessage: "[c/B0E0E6:The volatile phantasm disperses in an echoing wail.]"
 }
 
 ProfanedGuardians: {
-	EntryName: Profaned Guardians
+	EntryName: 亵渎守卫
 	SpawnInfo: Use a [i:CalamityMod/ProfanedShard] in the hallow or in the underworld.
 	DespawnMessage: "[c/FFA500:The Guardians are recalled to their Goddess' side.]"
 }
 
 Providence: {
+	EntryName: 亵渎天神
 	SpawnInfo: Use a [i:CalamityMod/ProfanedCore] in the hallow or in the underworld.
 	DespawnMessage: "[c/FFA500:The Profaned Goddess veils herself in purifying flame, leaving only ashes behind…]"
 }
 
 Ravager: {
-	EntryName: Ravager
+	EntryName: 毁灭魔像
 	SpawnInfo: Use a [i:CalamityMod/DeathWhistle].
 	DespawnMessage: "[c/B22222:The Ravager resumes its aimless, horrific rampage.]"
 }
 
 Signus: {
-	EntryName: Signus
+	EntryName: 神之使徒西格纳斯
 	SpawnInfo: Use a [i:CalamityMod/RuneofKos] in the underworld.
 	DespawnMessage: "[c/BA55D3:Signus inexplicably ceases to be where he once was.]"
 }
 
 SlimeGod: {
-	EntryName: The Slime God
+	EntryName: 史莱姆之神
 	SpawnInfo: Use an [i:CalamityMod/OverloadedSludge].
 	DespawnMessage: "[c/BA5533:The grimy, gelatinous God hops away, its vengeance achieved.]"
 }
 
 StormWeaver: {
-	EntryName: Storm Weaver
+	EntryName: 风暴编织者
 	SpawnInfo: Use a [i:CalamityMod/RuneofKos] high in the sky or in space.
 	DespawnMessage: "[c/EE82EE:Storm Weaver hides itself within the fierce anvilhead clouds.]"
 }
 
 Yharon: {
-	EntryName: Yharon
+	EntryName: 重生之龙，犽戎
 	SpawnInfo: Use a [i:CalamityMod/YharonEgg].
 	DespawnMessage: "[c/FFA500:Yharon soars out of sight, his task fulfilled.]"
 }

@@ -34,7 +34,7 @@ namespace CalamityCN.Translations
         //重命名
         public override void SetDefaults(Item item)
         {
-            if (item.type == ModContent.ItemType<WulfrumWorkbench>())
+            if (item.type == ModContent.ItemType<WulfrumWorkBench>())
             {
                 item.SetNameOverride("钨钢工作台");
             }
@@ -119,7 +119,7 @@ namespace CalamityCN.Translations
             {
                 item.SetNameOverride("星流马桶");
             }
-            if (item.type == ModContent.ItemType<ExoWorkbench>())
+            if (item.type == ModContent.ItemType<ExoWorkBench>())
             {
                 item.SetNameOverride("星流工作台");
             }
@@ -367,7 +367,7 @@ namespace CalamityCN.Translations
             {
                 item.SetNameOverride("虚空钟");
             }
-            if (item.type == ModContent.ItemType<VoidWorkbench>())
+            if (item.type == ModContent.ItemType<VoidWorkBench>())
             {
                 item.SetNameOverride("虚空工作台");
             }
@@ -411,7 +411,7 @@ namespace CalamityCN.Translations
             {
                 item.SetNameOverride("斯塔提斯浴缸");
             }
-            if (item.type == ModContent.ItemType<StatigelWorkbench>())
+            if (item.type == ModContent.ItemType<StatigelWorkBench>())
             {
                 item.SetNameOverride("斯塔提斯工作台");
             }
@@ -419,7 +419,7 @@ namespace CalamityCN.Translations
             {
                 item.SetNameOverride("渎神浴缸");
             }
-            if (item.type == ModContent.ItemType<ProfanedWorkbench>())
+            if (item.type == ModContent.ItemType<ProfanedWorkBench>())
             {
                 item.SetNameOverride("渎神工作台");
             }
@@ -431,7 +431,7 @@ namespace CalamityCN.Translations
             {
                 item.SetNameOverride("宇宙工作台");
             }
-            if (item.type == ModContent.ItemType<StratusWorkbench>())
+            if (item.type == ModContent.ItemType<StratusWorkBench>())
             {
                 item.SetNameOverride("幻云工作台");
             }
@@ -451,7 +451,7 @@ namespace CalamityCN.Translations
             {
                 item.SetNameOverride("亵渎坩埚");
             }
-            if (item.type == ModContent.ItemType<SilvaBasin>())
+            if (item.type == ModContent.ItemType<EffulgentManipulator>())
             {
                 item.SetNameOverride("闪耀操纵机");
             }
@@ -698,17 +698,17 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.SunStone)
                 {
-                    tooltips.ReplaceText("Grants immunity to Holy Flames", "免疫神圣之火减益");
+                    tooltips.ReplaceText("Reduces the damage of the Holy Flames debuff", "减少受到神圣之火减益的伤害");
                 }
 
                 if (item.type == ItemID.MoonStone)
                 {
-                    tooltips.ReplaceText("Grants immunity to Nightwither", "免疫夜魇减益");
+                    tooltips.ReplaceText("Reduces the damage of the Nightwither debuff", "减少受到夜魇减益的伤害");
                 }
 
                 if (item.type == ItemID.CelestialStone || item.type == ItemID.CelestialShell)
                 {
-                    tooltips.ReplaceText("Grants immunity to Nightwither and Holy Flames", "免疫夜魇和神圣之火减益");
+                    tooltips.ReplaceText("Reduces the damage of the Nightwither and Holy Flames debuffs", "减少受到夜魇和神圣之火减益的伤害");
                 }
 
                 if (item.type == ItemID.DivingHelmet || item.type == ItemID.ArcticDivingGear || item.type == ItemID.CelestialShell)
