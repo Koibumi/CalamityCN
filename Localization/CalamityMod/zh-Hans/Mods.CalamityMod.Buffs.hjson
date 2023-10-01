@@ -633,10 +633,10 @@ Afflicted: {
 }
 
 AmidiasBlessing: {
-	DisplayName: 海神祝福
+	DisplayName: 海王祝福
 	Description:
 		'''
-		你被海神祝福了
+		你被海王祝福了
 		使你获得水下呼吸能力，在深渊中也生效！
 		小心别受伤……
 		'''
