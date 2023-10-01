@@ -25,7 +25,7 @@ AuricQuantumCoolingCell: {
 		能放置在密码破译器基站上，作为其最后的元件
 		大大缩短解密原型图的时间
 		完成密码破译器后，你能够与它的创造者直接对话
-		[c/8B00000:Its creator is ready, and he hopes you are too.]
+		[c/8B00000:它的创造者已经准备就绪，希望你也如此。]
 		'''
 }
 
