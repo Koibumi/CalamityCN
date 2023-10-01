@@ -2,9 +2,9 @@ Abaddon: {
 	DisplayName: 魔鬼之庇护
 	Tooltip:
 		'''
-		10% increased critical strike chance
-		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
-		Greatly reduces the damage taken by the Brimstone Flames debuff
+		增加10%的暴击率
+		暴击会产生爆炸，并将附近的敌人用硫磺火引燃
+		大幅减少硫磺火减益造成的伤害
 		'''
 }
 
@@ -70,9 +70,9 @@ AeroStone: {
 	DisplayName: 天蓝石
 	Tooltip:
 		'''
-		Provides an additional 35 flight time
-		You slowly recover flight time while in the air if you are not flying or gliding
-		'One of the ancient relics'
+		提供35的额外飞行时间
+		当你处于空中并且没有处于飞行或滑翔状态时，你的飞行时间会缓慢恢复
+		“远古遗物之一”
 		'''
 }
 
@@ -260,7 +260,7 @@ BlazingCore: {
 	Tooltip:
 		'''
 		亵渎天神的炽热之心
-		Pressing [KEY] will activate a parry, encasing you in luminous profaned crystal
+		按下[KEY]会将你包裹在发光的亵渎水晶中，并激活一次格挡
 		包裹后短时间内受击会使水晶破碎
 		水晶破碎时，几波神圣之星会向外螺旋扩散且你受到的伤害降低为1
 		破碎后，此伤害减免效果将进入冷却
@@ -319,7 +319,7 @@ BloomStone: {
 		两种效果都会在午后至日落期间达到最大
 		你走过的草地会百花齐放
 		站在无草泥土上时有几率长出随机的染料植物
-		'One of the ancient relics'
+		“远古遗物之一”
 		'''
 }
 
@@ -353,7 +353,7 @@ ChaosStone: {
 		饮用魔力药水时会使你获得魔力烧蚀减益而非魔力疾病减益
 		魔力烧蚀会持续对你造成伤害，伤害与减益的强度相关
 		此减益不会降低你的魔法伤害
-		'One of the ancient relics'
+		“远古遗物之一”
 		'''
 }
 
@@ -392,7 +392,7 @@ CorruptFlask: {
 	Tooltip:
 		'''
 		处于腐化之地时增加4%伤害减免和6点防御
-		Grants immunity to the Brain Rot debuff
+		使你免疫大脑溃烂减益
 		'''
 }
 
@@ -449,7 +449,7 @@ CryoStone: {
 		'''
 		所有冷系减益的伤害倍率乘以1.5
 		创造一个环绕着你的冰盾，冰盾会伤害并减速与其接触的敌人
-		'One of the ancient relics'
+		“远古遗物之一”
 		'''
 }
 
@@ -537,7 +537,7 @@ DimensionalSoulArtifact: {
 	Tooltip:
 		'''
 		力量
-		Boosts all damage by 25%, but at the cost of increasing damage taken by 15%
+		提升25%伤害，代价是所受伤害增加15%
 		'''
 }
 
@@ -720,12 +720,12 @@ FlameLickedShell: {
 	DisplayName: 舐火甲壳
 	Tooltip:
 		'''
-		Pressing [KEY] will activate a parry, encasing you in rocks
-		Being hit shortly after encasement will implode the rocks
-		Upon implosion, a spread of brimstone hellfire is launched outwards and you receive 90% DR for that hit
-		After imploding, this damage reduction effect goes on cooldown
-		If another encasement is shattered whilst on cooldown, a weaker spread of brimstone hellfire is launched
-		The damage of a hit is not reduced whilst on cooldown
+		按下[KEY]会将你包裹在焦岩之中，并激活一次格挡
+		包裹后短时间内受击会使焦岩内爆
+		焦岩内爆时，硫磺狱火向外扩散，并且让你对此次伤害有90%的伤害减免
+		内爆后，此伤害减免效果将进入冷却
+		处于冷却期间焦岩再被击破，会扩散一些更弱的硫磺狱火
+		处于冷却期间时受击伤害不会降低
 		'''
 }
 
@@ -990,9 +990,9 @@ LeviathanAmbergris: {
 	DisplayName: 利维坦龙涎香
 	Tooltip:
 		'''
-		15% increased dash velocity
-		You gain 5% damage reduction while dashing
-		Your dashes are empowered by water, knocking back and damaging nearby enemies with viscous currents
+		增加15%的冲刺速度
+		冲刺期间获得5%的伤害减免
+		你的冲刺会被水赋能，使用粘稠水流击退并伤害附近的敌人
 		'''
 }
 
@@ -1020,8 +1020,8 @@ LumenousAmulet: {
 	DisplayName: 流明护身符
 	Tooltip:
 		'''
-		Attacks inflict the Crush Depth debuff
-		Grants immunity to the Riptide and Crush Depth debuffs
+		攻击造成深渊水压减益
+		使你免疫激流与深渊水压减益
 		处于深渊时增加25%最大生命值
 		在深渊中提供适量光照
 		'''
@@ -1281,15 +1281,15 @@ ProfanedSoulCrystal: {
 	Reject: 商人会拒绝收购这样一个被玷污的魂魄
 	FullTooltip:
 		'''
-		Requires {0} minion slots to use in order to grant the following effects
+		需要使用{0}个仆从栏位才能获得以下效果
 		所有非召唤攻击都被转换为强力的召唤变种
-		Having no other minions will empower these attacks
+		没有其他仆从的话，这些攻击将被增强
 		[c/F05A5A:将近战攻击转换为一波投矛]
-		[c/3A83E4:Transforms Magic attacks into a powerful splitting fireball for {1} mana per cast]
+		[c/3A83E4:将魔法攻击转换为强大的的分裂火球，每次使用消耗{1}的魔力]
 		[c/85E092:将远程攻击转换为一阵火球与陨石]
 		[c/E94571:将盗贼攻击转换为死亡水晶螺旋]
-		[c/E299FF:Transforms Whip attacks into an empowering profaned crystal whip]
-		Summons and empowers the profaned soul guardians to fight alongside you
+		[c/E299FF:将鞭子攻击转换为被赐能的渎神晶鞭]
+		召唤并强化渎魂守卫为你而战
 		基于所处的时间给予增益
 		我的人生平淡无奇
 		[c/FFBF49:现在我们以纯化之名将其焚尽]
@@ -1386,7 +1386,7 @@ RoseStone: {
 	Tooltip:
 		'''
 		召唤硫磺火元素为你而战
-		'One of the ancient relics'
+		“远古遗物之一”
 		'''
 }
 
@@ -1532,8 +1532,8 @@ SlagsplitterPauldron: {
 	DisplayName: Slagsplitter Pauldron
 	Tooltip:
 		'''
-		You gain 5% damage reduction while dashing
-		Your dashes are empowered by fire, shredding enemies near you with violent explosions
+		冲刺期间获得5%的伤害减免
+		你的冲刺会被火赋能，使用猛烈爆炸摧毁附近的敌人
 		'''
 }
 
@@ -1910,9 +1910,9 @@ VoidofExtinction: {
 	DisplayName: 终结虚空
 	Tooltip:
 		'''
-		16% increased critical strike chance
-		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
-		Greatly reduces the damage taken by the Brimstone Flames debuff
+		增加16%的暴击率
+		暴击会产生爆炸，并将附近的敌人用硫磺火引燃
+		大幅减少硫磺火减益造成的伤害
 		'''
 }
 
@@ -2012,8 +2012,8 @@ HapuFruit: {
 }
 
 OracleHeadphones: {
-	DisplayName: Oracle Headphones
-	Tooltip: "'Hey game's over!'"
+	DisplayName: 神谕耳机
+	Tooltip: "“嘿，游戏结束！”"
 }
 
 Popo: {
