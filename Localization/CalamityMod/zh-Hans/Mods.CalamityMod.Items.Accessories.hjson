@@ -1529,7 +1529,7 @@ SilencingSheath: {
 }
 
 SlagsplitterPauldron: {
-	DisplayName: Slagsplitter Pauldron
+	DisplayName: 熔火碎矿肩甲
 	Tooltip:
 		'''
 		冲刺期间获得5%的伤害减免
