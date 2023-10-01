@@ -44,16 +44,16 @@ AtlasMunitionsBeacon: {
 	DisplayName: 擎天军用信标
 	Tooltip:
 		'''
-		[c/F2B629:Brings forth an exo-powered, stationary cannon]
-		[c/F2B629:The cannon will fire at enemies within its range]
-		[c/F27049:If an enemy is in close proximity, it will enter Overdrive]
-		[c/F27049:When in Overdrive the cannon uses its full power to bring down any foe]
-		[c/F27049:While in Overdrive, the cannon will build up heat, eventually overheating]
-		[c/69F0DC:Press right click while holding this item to pick up the cannon and use it yourself]
-		[c/69F0DC:When held, the cannon will always be in Overdrive]
-		[c/69F0DC:If the cannon overheats while you hold it, you will be forced to drop it]
-		[c/9AA4AE:Pressing <right> allows you to drop it manually]
-		[c/9AA4AE:If dropped near the base, it will re-attach automatically]
+		[c/F2B629:向前放置一台星流能量驱动、固定的巨炮]
+		[c/F2B629:巨炮会向在它攻击范围内的敌人开火]
+		[c/F27049:如果敌人距离过近，它会进入过载模式]
+		[c/F27049:过载模式下的巨炮会用它发挥它所有的力量去摧毁敌人]
+		[c/F27049:在过载模式下，巨炮会不断积聚热量，直至过热]
+		[c/69F0DC:拿着此物品时右键巨炮可以将其抬起，并自主使用]
+		[c/69F0DC:手持状态下，巨炮将始终处于过载模式]
+		[c/69F0DC:当巨炮在你手持时进入过热状态，那么你将不得不放下它]
+		[c/9AA4AE:按下<right>可以主动放下巨炮]
+		[c/9AA4AE:如果落在底座附近，它会自动重新与底座连接]
 		“令人惊讶的是，它很容易被拾起”
 		'''
 }
@@ -98,11 +98,11 @@ CalamarisLament: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Summons a miniature squid that viciously inks enemies
-		At long distance, the squid will fire aggressively homing ink volleys
-		At close range, the squid will latch onto enemies and deal increased damage
-		'In the Abyss, all kinds of resources are scarce.
-		Every species is solitary. There simply is not enough to share.'
+		召唤一只小乌贼使用恶毒墨汁攻击敌人
+		在远距离，乌贼会进行攻击性跟踪墨汁齐射
+		在近距离，乌贼会抓住敌人并造成更高的伤害
+		“深渊之中，任何资源都是稀缺的，
+                每个物种都孤苦伶仃，仅是因为它们根本没有可共享的资源。”
 		'''
 	TooltipGFB: "'Woomy!'"
 }
@@ -521,8 +521,8 @@ PlantationStaff: {
 	DisplayName: 苍华之庭
 	Tooltip:
 		'''
-		Summons a minature Plantera to devastate enemies with floral fury
-		Occupies 3 minion slots and there can only be one Mini Plantera at a time
+		召唤一只世纪小花以花之怒摧毁敌人
+		占用3个仆从栏位并且只能同时存在一朵世纪小花
 		'''
 }
 
@@ -724,7 +724,7 @@ VengefulSunStaff: {
 	DisplayName: 复仇之阳法杖
 	Tooltip:
 		'''
-		Summons a vengeful solar spirit to protect you
+		召唤一个复仇太阳之灵保护你
 		同时只能存在至多一个太阳神灵
 		'''
 }
@@ -805,12 +805,12 @@ YharonsKindleStaff: {
 }
 
 MutatedTruffle: {
-	DisplayName: Mutated Truffle
+	DisplayName: 突变松露
 	Tooltip:
 		'''
-		Summons a younger fishron to irradiate your foes
-		The fishron will cycle between charging, projectiles, and a typhoon
-		Requires 3 minion slots to be used
-		There can only be one minion
+		召唤一只年轻猪龙鱼辐射你的敌人
+		猪龙鱼会在冲刺、释放弹幕和释放台风的攻击方式间循环
+		需要3个仆从栏位
+		只能召唤1只
 		'''
 }
