@@ -134,8 +134,8 @@ BurningBlood: {
 }
 
 BrainRot: {
-	DisplayName: Brain Rot
-	Description: Your neurons are popping like corn kernels
+	DisplayName: 大脑溃烂
+	Description: 你的神经元像玉米粒一样爆裂。
 }
 
 CrushDepth: {
@@ -763,7 +763,7 @@ Mushy: {
 }
 
 PhantomicEmpowerment: {
-	DisplayName: 幻魂神力
+	DisplayName: 幻魂之力
 	Description: 增加10%召唤伤害
 }
 
@@ -791,16 +791,16 @@ ProfanedCrystalBuff: {
 	Description: 你现在是亵渎天神的神使了！
 	Offense: "{0}增强着你的进攻能力"
 	Lava: 熔岩之热
-	Day: light of day
+	Day: 白昼之耀
 	Defense: "{0}你的烈焰，增强你的防守能力"
 	Water: 泉水之冽冷却着
 	Honey: 蜂蜜之滋冷却着
 	Night: 夜幕之暗冷却着
-	Enrage: In the absence of the day's warmth, your flames burn brighter
+	Enrage: 缺乏白昼之温，你的火焰猛烈燃烧
 	Empowered:
 		'''
-		By forgoing any additional minion support, your full potential has been unleashed
-		[c/F05A5A:You are the last ace, in the lost hand of this campaign.]
+		通过放弃额外的仆从支持，你的潜力尽数爆发
+		[c/F05A5A:在这场秽色革命之中，你是最后一张王牌。]
 		'''
 	LockedSlots: 你的亵渎之魂受到召唤能力的限制
 	LockedExos: 这块水晶中的魂魄被危险的机械造物发出的能量波干扰了
@@ -808,14 +808,14 @@ ProfanedCrystalBuff: {
 }
 
 ProfanedCrystalWhipDebuff: {
-	DisplayName: Profaned Crystal Whip Debuff
-	Description: Your flesh has been torn asunder by a profaned crystalline whip!
+	DisplayName: 渎魂鞭笞
+	Description: 你的血肉为亵渎晶鞭所撕裂！
 }
 
 ProfanedCrystalWhipBuff: {
-	DisplayName: Profaned Crystal Whip Empowerment
-	Description: The guardians have been empowered by the profaned crystal whip!
-	Empowered: Their full potential has been unleashed, and nobody is safe from their wrath
+	DisplayName: 渎魂鞭佑
+	Description: 你的防御为亵渎晶鞭所增幅！
+	Empowered: 她们的潜力尽数爆发，无人可免于她们的怒火
 }
 
 RageMode: {
@@ -1007,12 +1007,12 @@ WitherDebuff: {
 
 AbandonedSlimeBuff: {
 	DisplayName: 末世星凝胶
-	Description: Back from the heavens just to protect you!
+	Description: 从天堂回归只为保护你！
 }
 
 AncientMineralSharkBuff: {
 	DisplayName: 远古岩鲨
-	Description: So ancient yet just as powerful
+	Description: 来自远古，强大无比
 }
 
 AquaticStar: {
@@ -1071,8 +1071,8 @@ BrittleStar: {
 }
 
 CalamarisLamentBuff: {
-	DisplayName: Calamari
-	Description: Time to transport all of your foes to stupid squid jail!
+	DisplayName: 乌贼
+	Description: 是时候把你所有仇敌都送进愚蠢的鱿鱼监狱了！
 }
 
 CausticStaffBuff: {
@@ -1292,12 +1292,12 @@ MidnightSunBuff: {
 
 MiniatureEyeofCthulhu: {
 	DisplayName: 微型克苏鲁之眼
-	Description: It's giving you the death stare
+	Description: 它死亡凝视着你
 }
 
 MutatedTruffleBuff: {
-	DisplayName: Baby Boomer
-	Description: The mutated fishron will intoxicate your foes
+	DisplayName: 小核弹
+	Description: 这只突变猪鱼龙会让你的敌人恶疾缠身
 }
 
 MiniPlaguebringerBuff: {
@@ -1525,6 +1525,6 @@ AbsorberAffliction: {
 }
 
 YoungDukeBuff: {
-	DisplayName: Young Duke Buff
+	DisplayName: 硫海新爵
 	Description: Mods.CalamityMod.Buffs.YoungDukeBuff.Description
 }
