@@ -8,7 +8,9 @@ AquaBlast.DisplayName: 澄净喷流
 AquaBlastToxic.DisplayName: 剧毒喷流
 Aquashard.DisplayName: 碎水弹
 AquashardSplit.DisplayName: 碎水弹
+ArcherfishRing.DisplayName: 水之环
 ArcherfishShot.DisplayName: 水之境
+//ArcNovaDiffuserHoldout.DisplayName: Arc Nova Diffuser
 ArcticArrowProj.DisplayName: 北极箭
 AstralCannonProjectile.DisplayName: 星辉水晶
 AstralRound.DisplayName: 星体环
@@ -27,7 +29,7 @@ BloodClotFriendly.DisplayName: 血凝块
 BloodfireArrowProj.DisplayName: 血炎箭
 BloodfireBulletProj.DisplayName: 血炎弹
 BloodflareSoul.DisplayName: 血灵
-Bolt.DisplayName: 箭
+Bolt.DisplayName: 风暴
 BoltArrow.DisplayName: 闪电箭
 BouncingShotgunPellet.DisplayName: 霰弹枪子弹
 BrimstoneBolt.DisplayName: 硫火飞弹
@@ -56,7 +58,7 @@ ContagionBall.DisplayName: 疫病球
 ContagionBow.DisplayName: 疫毒
 CorinthPrimeAirburst.DisplayName: 空爆
 CorinthPrimeAirburstGrenade.DisplayName: 科林斯Prime空爆射击
-CorossiveFlames.DisplayName: 火焰
+CorossiveFlames.DisplayName: 瘟疫火焰
 CorrodedShell.DisplayName: 酸蚀外壳
 CosmicFire.DisplayName: 宙炎
 DaemonsFlameArrow.DisplayName: 鬼炎箭
@@ -69,10 +71,11 @@ DrizzlefishFire.DisplayName: 龙雨鱼之火
 DrizzlefishFireball.DisplayName: 龙雨鱼炎弹
 DrizzlefishFireSplit.DisplayName: 龙雨鱼息
 DWArrow.DisplayName: 死亡之箭
-ElysianArrowProj.DisplayName: 箭矢
+ElementalFire.DisplayName: 元素之火
+ElysianArrowProj.DisplayName: 极乐箭
 EmesisGore.DisplayName: 腐败血迹
 EnhancedNanoRoundProj.DisplayName: 注魔纳米弹
-EssenceFire.DisplayName: 火焰
+EssenceFire.DisplayName: 神弑者之怒焰
 ExoCrystalArrow.DisplayName: 星流水晶
 ExoFire.DisplayName: 星流火焰
 ExoFlare.DisplayName: 星流烈焰
@@ -103,8 +106,8 @@ HalleysComet.DisplayName: 哈雷彗星
 HandheldTankShell.DisplayName: 坚硬外壳
 HeavenlyGaleProj.DisplayName: 天堂之风
 HighExplosivePeanutShell.DisplayName: 高爆花生
-HiveBomb.DisplayName: 爆炸
-HiveMissile.DisplayName: 爆炸
+HiveBomb.DisplayName: 蜂巢爆炸
+HiveMissile.DisplayName: 蜂巢爆炸
 HolyFireBulletProj.DisplayName: 圣火弹
 HydraHead.DisplayName: 九头蛇
 HydraHeadLaunch.DisplayName: 九头蛇
@@ -121,6 +124,8 @@ LunarBolt.DisplayName: 飞弹
 LunarBolt2.DisplayName: 飞弹
 LuxorsGiftRanged.DisplayName: 卢克索的礼物
 MaelstromHoldout.DisplayName: 幽漩风暴
+MagnaCannonHoldout.DisplayName: 麦格纳加农炮
+MagnaShot.DisplayName: 麦格纳飞弹
 MagnaStrike.DisplayName: 麦格纳冲击波
 MagnomalyAura.DisplayName: 磁暴
 MagnomalyBeam.DisplayName: 光束
@@ -128,35 +133,39 @@ MagnomalyExplosion.DisplayName: 爆炸
 MagnomalyRocket.DisplayName: 核弹
 MarksmanShot.DisplayName: 神射手射击
 MechanicalBarracuda.DisplayName: 梭鱼
-MeowFire.DisplayName: 火焰
-MeowFire2.DisplayName: 火焰
+MeowFire.DisplayName: 彩虹喵火焰
+MeowFire2.DisplayName: 彩虹喵火焰
 MiniatureFolly.DisplayName: 迷你痴愚金龙
 MiniRocket.DisplayName: 火箭
 MiniSharkron.DisplayName: 迷你鲨鱼龙
-MistArrow.DisplayName: 箭
+MistArrow.DisplayName: 冰雾箭
 MortarRoundProj.DisplayName: 炮弹
-Nanomachine.DisplayName: 子弹
-NapalmArrowProj.DisplayName: 箭
+Nanomachine.DisplayName: 纳米子弹
+NapalmArrowProj.DisplayName: 汽油箭
 NeedlerProj.DisplayName: 针
 NorfleetCannon.DisplayName: 诺弗利特
 NorfleetComet.DisplayName: 彗星
 NorfleetExplosion.DisplayName: 爆炸
+//NovaChargeShot.DisplayName: Charged Nova Blast
+//NovaShot.DisplayName: Nova Bolt
 Nuke.DisplayName: 核弹
 NullShot.DisplayName: 空弹
 NullShot2.DisplayName: 空弹
-OnyxSharkBomb.DisplayName: 鲨鱼
-OpalStrike.DisplayName: 冲撞
+//OnyxSharkBomb.DisplayName: Onyx Shark
+//OpalChargedStrike.DisplayName: Charged Plasma Bolt
+//OpalStrike.DisplayName: Heated Bolt
+//OpalStrikerHoldout.DisplayName: Opal Striker
 PhangasmBow.DisplayName: 幻魔
 PiercingBullet.DisplayName: 穿甲弹
-PlagueArrow.DisplayName: 箭
+PlagueArrow.DisplayName: 瘟疫箭
 PlagueExplosionFriendly.DisplayName: 爆炸
 PlagueTaintedProjectile.DisplayName: 玷疫子弹
 // PlagueTaintedDrone.DisplayName: Plague Tainted Drone
 PlanarRipperBolt.DisplayName: 位面猎魂弹
 PlanarRipperExplosion.DisplayName: 位面肃清
-PlanetaryAnnihilationProj.DisplayName: 行星的毁灭
+PlanetaryAnnihilationProj.DisplayName: 行星球
 PlasmaBlast.DisplayName: 爆炸波
-PlasmaExplosion.DisplayName: 爆炸
+PlasmaExplosion.DisplayName: 等离子爆炸
 PolarStar.DisplayName: 北极星
 PrecisionBolt.DisplayName: 精准之箭
 PressurizedBubbleStream.DisplayName: 增压泡泡流
@@ -167,7 +176,7 @@ PrismExplosionLarge.DisplayName: 爆炸
 PrismExplosionSmall.DisplayName: 爆炸
 PrismMine.DisplayName: 雷
 PristineFire.DisplayName: 原初之火
-PristineSecondary.DisplayName: 火焰
+PristineSecondary.DisplayName: 原初残焰
 PumplerGrenade.DisplayName: 南瓜壳
 PumplerHoldout.DisplayName: 气泵枪
 RainbowBlast.DisplayName: 爆炸波
@@ -176,12 +185,13 @@ RainbowTrail.DisplayName: 彩虹
 RealmRavagerBullet.DisplayName: 爆炸性弹头
 RicoshotCoin.DisplayName: 钱币
 RocketFire.DisplayName: 火焰
-RubberMortarRoundProj.DisplayName: 光环
+RubberMortarRoundProj.DisplayName: 橡胶迫击炮
 SandstormBullet.DisplayName: 沙尘暴
 SandyWaifuShark.DisplayName: 瀚海狂鲨
 ScorchedEarthBlast.DisplayName: 炽焦大地
 ScorchedEarthClusterBomb.DisplayName: 集束炸弹
 ScorchedEarthRocket.DisplayName: 火箭
+SeaDragonMuzzleBlast.DisplayName: 海龙火舌
 SeaDragonRocket.DisplayName: 海龙爆炎弹
 SeasSearingBubble.DisplayName: 灼热泡泡
 SeasSearingSecondary.DisplayName: 海浴
@@ -195,7 +205,7 @@ SevensStrikerGrape.DisplayName: 葡萄
 SevensStrikerHoldout.DisplayName: 头彩7
 SevensStrikerOrange.DisplayName: 橙子
 SevensStrikerPlatinumCoin.DisplayName: 铂金钱币
-ShadeFire.DisplayName: 火焰
+ShadeFire.DisplayName: 暗影火焰
 Shell.DisplayName: 贝壳箭
 Shockblast.DisplayName: 震爆冲击波
 ShockblastRound.DisplayName: 震爆冲击波
@@ -207,9 +217,10 @@ SlagRound.DisplayName: 抗药性光环
 SlimeBolt.DisplayName: 史莱姆喷溅
 SmallCoral.DisplayName: 小珊瑚
 SparkSpreaderFire.DisplayName: 火焰
-SporeBomb.DisplayName: 毒气弹
-SputterComet.DisplayName: 彗星
-SputterCometBig.DisplayName: 彗星
+//SpeedBlasterShot.DisplayName: Splatter Shot
+//SporeBomb.DisplayName: Spore Bomb
+//SputterComet.DisplayName: Sputter Comet
+//SputterCometBig.DisplayName: Sputter Comet
 SpykerProj.DisplayName: 叶针霰弹炮
 StarfleetMK2Gun.DisplayName: 群星大炮
 StarmageddonBinaryStarCenter.DisplayName: 双星中心
@@ -234,7 +245,7 @@ ThePackMissile.DisplayName: 集束火箭
 TitaniumRailgunScope.DisplayName: 钛金示波器
 TitaniumRailgunShot.DisplayName: 钛金滤波器
 TorrentialArrow.DisplayName: 洪流箭
-ToxicannonDrop.DisplayName: 酸
+ToxicannonDrop.DisplayName: 酸流
 ToxicannonShot.DisplayName: 硫酸炮弹
 ToxicArrow.DisplayName: 硫毒弓
 TyphoonArrow.DisplayName: 台风箭
