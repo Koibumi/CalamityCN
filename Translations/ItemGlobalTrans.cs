@@ -1176,11 +1176,12 @@ namespace CalamityCN.Translations
             #endregion
 
             //放后面
-            if (item.accessory && !item.social && item.prefix > 0)
+            if (item.CountsAsClass<RogueDamageClass>() || item.accessory && !item.social && item.prefix > 0)
             {
                 tooltips.ReplaceText("damage reduction", "伤害减免");
                 tooltips.ReplaceText("stealth generation", "潜行值恢复速度");
                 tooltips.ReplaceText("luck", "运气值");
+                tooltips.ReplaceText("stealth strike damage", "潜伏攻击伤害");
             }
         }
     }
