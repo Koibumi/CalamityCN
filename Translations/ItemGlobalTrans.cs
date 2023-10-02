@@ -1167,6 +1167,11 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("近战和鞭子", "所有");
                 }
+                if (item.type == ItemID.FeatherfallPotion)
+                {
+                    tooltips.ReplaceText("Slows falling speed", "减缓坠落速度");
+                    tooltips.ReplaceText("Disables all airborne flight recovery", "禁止在空中时的飞行时间恢复");
+                }
 
             #endregion
 

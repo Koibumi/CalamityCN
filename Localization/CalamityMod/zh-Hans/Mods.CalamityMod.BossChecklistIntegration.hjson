@@ -90,11 +90,12 @@ DesertScourge: {
 DevourerofGods: {
 	EntryName: 神明吞噬者
 	SpawnInfo: 使用[i:CalamityMod/CosmicWorm]。
+}
+
 Dragonfolly: {
 	EntryName: 痴愚金龙
 	SpawnInfo: Use [i:CalamityMod/ExoticPheromones] in the jungle.
 	DespawnMessage: "[c/FFD700:The folly returns to its secluded roost.]"
-=======
 	SpawnInfo: 在丛林生物群落使用[i:CalamityMod/ExoticPheromones]。
 	DespawnMessage: "[c/FFD700:痴愚金龙返回了它隐蔽的巢穴。]"
 }
