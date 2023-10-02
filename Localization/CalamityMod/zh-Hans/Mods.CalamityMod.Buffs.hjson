@@ -1292,7 +1292,7 @@ MidnightSunBuff: {
 
 MiniatureEyeofCthulhu: {
 	DisplayName: 微型克苏鲁之眼
-	Description: 它死亡凝视着你
+	Description: 它如死亡一般凝视着你
 }
 
 MutatedTruffleBuff: {
