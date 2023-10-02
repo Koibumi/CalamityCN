@@ -1,212 +1,215 @@
 AcidRainT1: {
 	EntryName: 酸雨
-	SpawnInfo: SpawnInfo: Use a [i:CalamityMod/CausticTear] or wait for an acidic downpour to occur naturally after the Eye of Cthulhu is defeated.
+	SpawnInfo: 在击败克苏鲁之眼后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
 }
 
 AcidRainT2: {
 	EntryName: 酸雨 (阶段 2)
-	SpawnInfo: Use a [i:CalamityMod/CausticTear] or wait for an acidic downpour to occur naturally after the Aquatic Scourge is defeated.
+	SpawnInfo: 在击败渊海灾虫后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
 }
 
 AcidRainT3: {
 	EntryName: 酸雨 (阶段 3)
-	SpawnInfo: Use a [i:CalamityMod/CausticTear] or wait for an acidic downpour to occur naturally after Polterghast is defeated.
+	SpawnInfo: 在击败噬魂幽花后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
 }
 
 AquaticScourge: {
 	EntryName: 渊海灾虫
-	SpawnInfo: Use a [i:CalamityMod/Seafood] in the Sulphurous Sea, or wait for it to spawn naturally in the Sulphurous Sea.
-	DespawnMessage: "[c/F0E68C:The poisoned scourge swims back to the tranquil, open ocean.]"
+	SpawnInfo: 在硫磺海使用 [i:CalamityMod/Seafood] 或等待其自然生成。
+	DespawnMessage: "[c/F0E68C:剧毒的灾虫游回了宁静的汪洋中。]"
 }
 
 AstrumAureus: {
 	EntryName: 白金星舰
-	SpawnInfo: Use an [i:CalamityMod/AstralChunk] at night in the Astral Infection.
-	DespawnMessage: "[c/FFD700:Aureus has neutralized all threats. Resume prior reconnaissance.]"
+	SpawnInfo: 在夜晚的星辉瘟疫使用 [i:CalamityMod/AstralChunk]。
+	DespawnMessage: "[c/FFD700:白金星舰已解决所有威胁。恢复到侦察模式。]"
 }
 
 AstrumDeus: {
 	EntryName: 星神游龙
-	SpawnInfo: Use a [i:CalamityMod/TitanHeart] or [i:CalamityMod/Starcore] as offering at an [i:CalamityMod/AstralBeaconItem].
-	DespawnMessage: "[c/FFD700:The infected deity retreats to the heavens.]"
+	SpawnInfo: 在夜晚使用 [i:CalamityMod/TitanHeart] 或者 [i:CalamityMod/Starcore] 于 [i:CalamityMod/AstralBeaconItem] 处右键召唤。
+	DespawnMessage: "[c/FFD700:被污染的神明退回了天界。]"
 }
 
 BossRush: {
 	EntryName: Boss Rush
-	SpawnInfo: Use the [i:CalamityMod/Terminus] found at the bottom of the Abyss.
+	SpawnInfo: 使用在深渊底部找到的[i:CalamityMod/Terminus]。
 }
 
 BrimstoneElemental: {
-	SpawnInfo: Use a [i:CalamityMod/CharredIdol] in the Brimstone Crags or Azafure.
-	DespawnMessage: "[c/DC143C:The elemental ever maintains her somber vigil over Azafure…]"
+	EntryName: 硫磺火元素
+	SpawnInfo: 在硫火之崖或阿萨福勒使用[i:CalamityMod/CharredIdol]。
+	DespawnMessage: "[c/DC143C:元素之灵永恒而阴郁地守望着阿萨福勒……]"
 }
 
 Calamitas: {
 	EntryName: 至尊女巫，灾厄
-	SpawnInfo: Use [i:CalamityMod/AshesofCalamity] or a [i:CalamityMod/CeremonialUrn] as offering at an [i:CalamityMod/AltarOfTheAccursedItem].
+	SpawnInfo: 使用 [i:CalamityMod/AshesofCalamity] 或 [i:CalamityMod/CeremonialUrn] 供奉 [i:CalamityMod/AltarOfTheAccursedItem]。
 	DespawnMessage: "[c/FFA500:The Witch vanishes, leaving nothing but stifling heat in her wake.]"
 }
 
 CalamitasClone: {
 	EntryName: 灾厄之影
-	SpawnInfo: Use an [i:CalamityMod/EyeofDesolation] at night.
-	DespawnMessage: "[c/FFA500:The clone spits a bit of blood in disgust and vanishes.]"
+	SpawnInfo: 在夜晚使用[i:CalamityMod/EyeofDesolation]。
+	DespawnMessage: "[c/FFA500:女巫的克隆体失望地吐了口血，随即隐去身形。]"
 }
 
 CeaselessVoid: {
 	EntryName: 无尽虚空
-	SpawnInfo: Use a [i:CalamityMod/RuneofKos] in the dungeon.
-	DespawnMessage: "[c/4B0082:The ancient spatial rift slips away to places unknown.]"
+	SpawnInfo: 在地牢使用[i:CalamityMod/RuneofKos]。
+	DespawnMessage: "[c/4B0082:古老的空间裂缝穿梭去无人所知之地了。]"
 }
 
 Crabulon: {
 	EntryName: 菌生蟹
-	SpawnInfo: Use a [i:CalamityMod/DecapoditaSprout] in a Glowing Mushroom biome.
-	DespawnMessage: "[c/6495ED:The monstrous mycelial crab shuffles away…]"
+	SpawnInfo: 在发光蘑菇生物群落使用[i:CalamityMod/DecapoditaSprout]。
+	DespawnMessage: "[c/6495ED:菌生怪蟹爬走了……]"
 }
 
 CragmawMire: {
 	SpawnInfo:
 		'''
-		Spawns during the Acid Rain event after the Aquatic Scourge has been defeated.
-		Start an acidic downpour with a [i:CalamityMod/CausticTear] or wait for one to occur naturally.
+		在渊海灾虫被击败后的酸雨事件中生成。
+		用[i:CalamityMod/CausticTear]开始酸雨事件
 		'''
-	DespawnMessage: "[c/F0E68C:The Cragmaw Mire buries itself within the sand.]"
+	DespawnMessage: "[c/F0E68C:峭咽潭埋进了沙子里……]"
 }
 
 Cryogen: {
 	EntryName: 极地之灵
-	SpawnInfo: Use a [i:CalamityMod/CryoKey] in the tundra.
-	DespawnMessage: "[c/00FFFF:Cryogen disappears amidst the biting winds of the blizzard.]"
+	SpawnInfo: 在雪原生物群落使用[i:CalamityMod/CryoKey]。
+	DespawnMessage: "[c/00FFFF:极地之灵在凌冽的暴雪中消失无踪。]"
 }
 
 DesertScourge: {
 	EntryName: 荒漠灾虫
-	SpawnInfo: Use a [i:CalamityMod/DesertMedallion] in the desert.
-	DespawnMessage: "[c/EEE8AA:The scourge of the desert delves back into the sand.]"
+	SpawnInfo: 在沙漠生物群落使用[i:CalamityMod/DesertMedallion]。
+	DespawnMessage: "[c/EEE8AA:荒漠灾虫潜入旱海之中。]"
 }
 
 DevourerofGods: {
 	EntryName: 神明吞噬者
-	SpawnInfo: Use a [i:CalamityMod/CosmicWorm].
-	DespawnMessage: "[c/00FFFF:The Devourer of Gods haughtily returns to the depths of the Distortion.]"
+	SpawnInfo: 使用[i:CalamityMod/CosmicWorm]。
 }
 
 Dragonfolly: {
 	EntryName: 痴愚金龙
 	SpawnInfo: Use [i:CalamityMod/ExoticPheromones] in the jungle.
 	DespawnMessage: "[c/FFD700:The folly returns to its secluded roost.]"
+	SpawnInfo: 在丛林生物群落使用[i:CalamityMod/ExoticPheromones]。
+	DespawnMessage: "[c/FFD700:痴愚金龙返回了它隐蔽的巢穴。]"
 }
 
 ExoMechs: {
 	EntryName: 星流巨械
-	SpawnInfo: Use a fully-powered Codebreaker to contact Draedon…
-	DespawnMessage: "[c/7FFFD4:An imperfection after all… what a shame.]"
+	SpawnInfo: 点击安装了金源量子冷却电池的密码破译器。
+	DespawnMessage: "[c/7FFFD4:毕竟不是完美造物……真是可惜……]"
 }
 
 GiantClam: {
-	SpawnInfo: 在沉沦之海水下自然生成
-	DespawnMessage: "[c/7FFFD4:The Giant Clam returns into hiding in its grotto.]"
+	EntryName: 巨像蛤
+	SpawnInfo: 在沉沦之海自然生成。
+	DespawnMessage: "[c/7FFFD4:巨像蛤重返水下岩窟之中。]"
 }
 
 GreatSandShark: {
 	EntryName: 旱海狂鲨
-	SpawnInfo: Kill 10 Sand Sharks after defeating Plantera or use a [i:CalamityMod/SandstormsCore] in the desert.
-	DespawnMessage: "[c/DAA520:The apex predator of the sands disappears between the dunes.]"
+	SpawnInfo: 在击败世纪之花后的沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore]。
+	DespawnMessage: "[c/DAA520:大漠中的顶级掠食者消失于沙丘之间。]"
 }
 
 HiveMind: {
 	EntryName: 腐巢意志
-	SpawnInfo: Kill a Hive Tumor in the Corruption or use a [i:CalamityMod/Teratoma] in the Corruption.
-	DespawnMessage: "[c/9400D3:The Hive Mind flits away to brood elsewhere.]"
+	SpawnInfo: 在腐化之地击杀腐化肿瘤或在腐化之地使用 [i:CalamityMod/Teratoma]。
+	DespawnMessage: "[c/9400D3:腐巢意志掠过此地，另寻他处繁殖。]"
 }
 
 Leviathan: {
 	EntryName: 阿娜希塔和利维坦
-	SpawnInfo: Defeat an elusive singer in the ocean…
-	DespawnMessage: "[c/7FFFD4:The aquatic outcasts return to their lonesome company.]"
+	SpawnInfo: 在海洋环境击杀一个未知的生物。
+	DespawnMessage: "[c/7FFFD4:海中弃儿们回归到孤独的相伴之中。]"
 }
 
 Mauler: {
 	SpawnInfo:
 		'''
-		Spawns during the Acid Rain event after Polterghast has been defeated.
-		Start an acidic downpour with a [i:CalamityMod/CausticTear] or wait for one to occur naturally.
+		在噬魂幽花被击败后的酸雨事件中生成。
+		用[i:CalamityMod/CausticTear]开始酸雨事件。
 		'''
-	DespawnMessage: "[c/F0E68C:The brutish shark looks elsewhere to turn its aggression.]"
+	DespawnMessage: "[c/F0E68C:残暴的巨鲨去寻找下一个受害者了。]"
 }
 
 NuclearTerror: {
 	SpawnInfo:
 		'''
-		Spawns during the Acid Rain event after Polterghast has been defeated.
-		Start an acidic downpour with a [i:CalamityMod/CausticTear] or wait for one to occur naturally.
+		在噬魂幽花被击败后的酸雨事件中生成.
+		用[i:CalamityMod/CausticTear]开始酸雨事件。
 		'''
-	DespawnMessage: "[c/F0E68C:The radioactive aberration fades away in a sickly light.]"
+	DespawnMessage: "[c/F0E68C:辐射骇兽在令人头晕目眩的光线中淡去了身影。]"
 }
 
 OldDuke: {
 	EntryName: 硫海遗爵
-	SpawnInfo: Finish the Tier 3 Acid Rain event, or fish using a [i:CalamityMod/BloodwormItem] as bait in the Sulphurous Sea.
-	DespawnMessage: "[c/F0E68C:The old duke retreats further into the acidic downpour.]"
+	SpawnInfo: 在击败噬魂幽花后完成酸雨事件或使用 [i:CalamityMod/BloodwormItem] 为鱼饵在硫磺海钓鱼。
+	DespawnMessage: "[c/F0E68C:硫海遗爵退回无边的酸雨中。]"
 }
 
 Perforators: {
 	EntryName: 血肉宿主
-	SpawnInfo: Kill a Perforator Cyst in the Crimson or use a [i:CalamityMod/BloodyWormFood] in the Crimson.
-	DespawnMessage: "[c/DC143C:The Perforators search for more hosts to gorge themselves on.]"
+	SpawnInfo: 在猩红之地击杀血肉囊或在猩红之地使用 [i:CalamityMod/BloodyWormFood]。
+	DespawnMessage: "[c/DC143C:血肉寄生者们去寻找更多的猎物来大快朵颐。]"
 }
 
 PlaguebringerGoliath: {
 	EntryName: 瘟疫使者歌莉娅
-	SpawnInfo: Use an [i:CalamityMod/Abombination] in the jungle.
-	DespawnMessage: "[c/00FF00:SPECIMENS EUTHANIZED. EXITING COMBAT PROTOCOL.]"
+	SpawnInfo: 在丛林生物群落使用 [i:CalamityMod/Abombination]。
+	DespawnMessage: "[c/00FF00:目 标 已 被 安 乐 死 。 战 斗 协 议 停 止 运 行 。]"
 }
 
 Polterghast: {
 	EntryName: 噬魂幽花
-	SpawnInfo: Kill 30 Phantom Spirits or use a [i:CalamityMod/NecroplasmicBeacon] in the dungeon.
-	DespawnMessage: "[c/B0E0E6:The volatile phantasm disperses in an echoing wail.]"
+	SpawnInfo: 击杀30个幻魂或在地牢使用 [i:CalamityMod/NecroplasmicBeacon]。
+	DespawnMessage: "[c/B0E0E6:变幻无常的幽魂在回荡的哀号声下无影无踪。]"
 }
 
 ProfanedGuardians: {
 	EntryName: 亵渎守卫
-	SpawnInfo: Use a [i:CalamityMod/ProfanedShard] in the hallow or in the underworld.
-	DespawnMessage: "[c/FFA500:The Guardians are recalled to their Goddess' side.]"
+	SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedShard]。
+	DespawnMessage: "[c/FFA500:亵渎守卫们被召回女神身边。]"
 }
 
 Providence: {
-	EntryName: 亵渎天神
-	SpawnInfo: Use a [i:CalamityMod/ProfanedCore] in the hallow or in the underworld.
-	DespawnMessage: "[c/FFA500:The Profaned Goddess veils herself in purifying flame, leaving only ashes behind…]"
+	EntryName: 亵渎天神，普罗维登斯
+	SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedCore]。
+	DespawnMessage: "[c/FFA500:亵渎女神隐匿在纯净的烈焰中，只留下一团灰烬……]"
 }
 
 Ravager: {
 	EntryName: 毁灭魔像
-	SpawnInfo: Use a [i:CalamityMod/DeathWhistle].
-	DespawnMessage: "[c/B22222:The Ravager resumes its aimless, horrific rampage.]"
+	SpawnInfo: 使用 [i:CalamityMod/DeathWhistle]。
+	DespawnMessage: "[c/B22222:毁灭魔像又开始了漫无目的的狂暴横行。]"
 }
 
 Signus: {
-	EntryName: 神之使徒西格纳斯
-	SpawnInfo: Use a [i:CalamityMod/RuneofKos] in the underworld.
-	DespawnMessage: "[c/BA55D3:Signus inexplicably ceases to be where he once was.]"
+	EntryName: 神之使徒，西格纳斯
+	SpawnInfo: 在地狱使用 [i:CalamityMod/RuneofKos]。
+	DespawnMessage: "[c/BA55D3:西格纳斯以难以理解的能力原地消失。]"
 }
 
 SlimeGod: {
 	EntryName: 史莱姆之神
-	SpawnInfo: Use an [i:CalamityMod/OverloadedSludge].
-	DespawnMessage: "[c/BA5533:The grimy, gelatinous God hops away, its vengeance achieved.]"
+	SpawnInfo: 使用 [i:CalamityMod/OverloadedSludge]。
+	DespawnMessage: "[c/BA5533:污秽的凝胶之神雀跃离开，它已成功复仇。]"
 }
 
 StormWeaver: {
 	EntryName: 风暴编织者
-	SpawnInfo: Use a [i:CalamityMod/RuneofKos] high in the sky or in space.
-	DespawnMessage: "[c/EE82EE:Storm Weaver hides itself within the fierce anvilhead clouds.]"
+	SpawnInfo: 在太空使用 [i:CalamityMod/RuneofKos]。
+	DespawnMessage: "[c/EE82EE:风暴编织者将自身藏于翻涌的雷雨云中。]"
 }
 
 Yharon: {
 	EntryName: 重生之龙，犽戎
-	SpawnInfo: Use a [i:CalamityMod/YharonEgg].
-	DespawnMessage: "[c/FFA500:Yharon soars out of sight, his task fulfilled.]"
+	SpawnInfo: 使用 [i:CalamityMod/YharonEgg]。
+	DespawnMessage: "[c/FFA500:犽戎腾空而起，振翅于视界之外，他的任务已然完成。]"
 }

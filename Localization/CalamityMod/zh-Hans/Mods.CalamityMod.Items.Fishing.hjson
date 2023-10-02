@@ -319,6 +319,6 @@ WulfrumRod: {
 
 // Bait
 GrandMarquisBait: {
-	DisplayName: Grand Marquis Bait
+	DisplayName: 尊爵鱼饵
 	Tooltip: ""
 }
