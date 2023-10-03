@@ -16,7 +16,7 @@ namespace CalamityCN.Translations.InfernumMode
 
 		public override void ModifyTypeName(NPC npc, ref string typeName)
 		{
-			if (WorldSaveSystem.InfernumMode)
+			if (WorldSaveSystem.InfernumModeEnabled)
 			{
 				if (npc.type == ModContent.NPCType<GreatSandShark>())
 				{
