@@ -2,7 +2,7 @@ Abaddon: {
 	DisplayName: Abaddon
 	Tooltip:
 		'''
-		10% increased critical strike chance
+		8% increased critical strike chance
 		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
 		Greatly reduces the damage taken by the Brimstone Flames debuff
 		'''
@@ -70,7 +70,7 @@ AeroStone: {
 	DisplayName: Aero Stone
 	Tooltip:
 		'''
-		Provides an additional 35 flight time
+		Provides an additional 25 flight time
 		You slowly recover flight time while in the air if you are not flying or gliding
 		'One of the ancient relics'
 		'''
@@ -1908,7 +1908,7 @@ VoidofExtinction: {
 	DisplayName: Void of Extinction
 	Tooltip:
 		'''
-		16% increased critical strike chance
+		13% increased critical strike chance
 		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
 		Greatly reduces the damage taken by the Brimstone Flames debuff
 		'''
@@ -2002,6 +2002,11 @@ AbandonedWulfrumHelmet: {
 		[c/83B87E:'This rather flimsy armor was commonly worn by scavengers and looters.]
 		[c/83B87E:Its versatility and common nature led it to be used as currency in trades.']
 		'''
+}
+
+CocosFeather: {
+	DisplayName: Coco's Feather
+	Tooltip: ""
 }
 
 HapuFruit: {
