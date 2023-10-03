@@ -4,7 +4,6 @@ AcidicReed.DisplayName: 酸化芦苇
 AcidicSaxBubble.DisplayName: 酸性气泡
 AcidicSaxMist.DisplayName: 酸雾
 AetherBeam.DisplayName: 以太射线
-AetherfluxCannonHoldout.DisplayName: 以太流光炮
 AnahitasArpeggioNote.DisplayName: 阿娜希塔之音
 Ancient.DisplayName: 亘古之尘
 Ancient2.DisplayName: 亘古之尘
@@ -12,7 +11,6 @@ ApotheosisEnergy.DisplayName: 圣神能量
 ApotheosisWorm.DisplayName: 打人不疼的神明吞噬者
 AquamarineBolt.DisplayName: 海耀
 ArcticBearPawProj.DisplayName: 北极熊爪
-ArtAttackHoldout.DisplayName: 艺术之击
 ArtAttackStar.DisplayName: 幻星
 ArtAttackStrike.DisplayName: 艺术攻击
 Asteroid.DisplayName: 小行星
@@ -48,7 +46,6 @@ ClamorNoctusWyvern.DisplayName: 星龙
 ClimaxBeam.DisplayName: 光伏射线
 ClimaxProj.DisplayName: 光伏磁球
 CoralSpike.DisplayName: 珊瑚刺
-CoralSpoutHoldout.DisplayName: 珊瑚喷口
 CosmicTentacle.DisplayName: 次元之触
 CryoBlast.DisplayName: 霜寒爆裂
 DarkSparkBeam.DisplayName: 寂虚之光
@@ -61,7 +58,6 @@ EidolicWailSoundwave.DisplayName: 哀怨之声
 EldritchTentacle.DisplayName: 哀怨之触
 ElementTentacle.DisplayName: 元素之须
 EnormousConsumingVortex.DisplayName: 归元漩涡
-EternityBook.DisplayName: 永恒
 EternityCircle.DisplayName: 永恒
 EternityCrystal.DisplayName: 永恒魔晶
 EternityHex.DisplayName: 永恒
@@ -86,14 +82,10 @@ GhastlyBlast.DisplayName: 幽魂能量球
 GhastlyExplosion.DisplayName: 幽魂爆炸
 GhastlyExplosionShard.DisplayName: 幽魂闪电
 GhastlySubBlast.DisplayName: 幽魂能量球
-GhastlyVisageProj.DisplayName: 鬼之形
 GleamingBolt.DisplayName: 闪光箭
 GleamingBolt2.DisplayName: 闪光箭
-GrandStaffoftheNebulaMage_Held.DisplayName: 星云法师之圣杖
 GraniteEnergy.DisplayName: 花岗岩能量
 GranitePulse.DisplayName: 花岗岩脉冲
-GruesomeEminenceHoldout.DisplayName: 腥邪诡灵
-HadalUrnHoldout.DisplayName: 奈落瓮
 HadalUrnIsopod.DisplayName: 深渊等足类动物
 HadalUrnJellyfish.DisplayName: 幻影水母
 HadalUrnLamprey.DisplayName: 七鳃鳗
@@ -102,7 +94,6 @@ HadalUrnStarfishShard.DisplayName: 海星碎块
 HeliumFlashBlast.DisplayName: 氦闪
 HellfireExplosionFriendly.DisplayName: 狱火炎爆
 HellwingPillar.DisplayName: 狱岩之柱
-HeresyProj.DisplayName: 异端
 HolyFlame.DisplayName: 圣火
 HolyLaser.DisplayName: 圣光聚束
 IceBarrageMain.DisplayName: 寒冰弹幕
@@ -136,7 +127,6 @@ MadAlchemistsCocktailGreen.DisplayName: 炼金狂人的绿色烧瓶
 MadAlchemistsCocktailPurple.DisplayName: 炼金狂人的紫色烧瓶
 MadAlchemistsCocktailRed.DisplayName: 炼金狂人的红色烧瓶
 MadAlchemistsCocktailShrapnel.DisplayName: 炼金狂人的弹片
-MagnaBlast.DisplayName: 麦格纳冲击波
 MagneticBeam.DisplayName: 磁场
 MagneticOrb.DisplayName: 磁电球
 ManaBolt.DisplayName: 魔法飞弹
@@ -150,7 +140,6 @@ MelterNote2.DisplayName: 熔融之音
 MeteorStar.DisplayName: 流星
 MeteorStarExplosion.DisplayName: 爆破
 MiasmaGas.DisplayName: 瘴气
-NanoPurgeHoldout.DisplayName: 纳米净化
 NanoPurgeLaser.DisplayName: 纳米光束
 NebulaCloud.DisplayName: 星云
 NebulaCloudCore.DisplayName: 星云之核
@@ -175,11 +164,9 @@ PoseidonTyphoon.DisplayName: 海神之台风
 PrinceFlameLarge.DisplayName: 神圣火球
 PrinceFlameSmall.DisplayName: 圣火
 RainbowComet.DisplayName: 陨星
-RainbowPartyCannonProjectile.DisplayName: 彩虹派对加农炮
 RainbowRocket.DisplayName: 彩虹火箭
 RancorArm.DisplayName: 怨戾之手
 RancorFog.DisplayName: 将临之雾
-RancorHoldout.DisplayName: 怨戾
 RancorLargeCinder.DisplayName: 熔岩
 RancorLaserbeam.DisplayName: 怨戾激光
 RancorMagicCircle.DisplayName: 怨戾魔法阵
@@ -239,7 +226,6 @@ ValkyrieRayStaff.DisplayName: 女武神杖
 VeeringWindAirWave.DisplayName: 环形风浪
 VeeringWindFrostWave.DisplayName: 霜波环流
 Vehemence.DisplayName: 狞桀爆炸
-VehemenceHoldout.DisplayName: 狞桀
 VehemenceSkull.DisplayName: 狞桀骷髅
 VenusianBolt.DisplayName: 金星飞弹
 VenusianExplosion.DisplayName: 金星火焰

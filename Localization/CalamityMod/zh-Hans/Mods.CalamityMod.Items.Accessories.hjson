@@ -2,7 +2,7 @@ Abaddon: {
 	DisplayName: 魔鬼之庇护
 	Tooltip:
 		'''
-		增加10%的暴击率
+		增加8%的暴击率
 		暴击会产生爆炸，并将附近的敌人用硫磺火引燃
 		大幅减少硫磺火减益造成的伤害
 		'''
@@ -70,7 +70,7 @@ AeroStone: {
 	DisplayName: 天蓝石
 	Tooltip:
 		'''
-		提供35的额外飞行时间
+		提供25的额外飞行时间
 		当你处于空中并且没有处于飞行或滑翔状态时，你的飞行时间会缓慢恢复
 		“远古遗物之一”
 		'''
@@ -1910,7 +1910,7 @@ VoidofExtinction: {
 	DisplayName: 终结虚空
 	Tooltip:
 		'''
-		增加16%的暴击率
+		增加13%的暴击率
 		暴击会产生爆炸，并将附近的敌人用硫磺火引燃
 		大幅减少硫磺火减益造成的伤害
 		'''
@@ -2004,6 +2004,11 @@ AbandonedWulfrumHelmet: {
 		[c/83B87E:“拾荒者和劫掠者常常穿着这种脆弱的盔甲]
 		[c/83B87E:其丰富的功能性以及通用性让它也能作为一种货币在交易中使用”]
 		'''
+}
+
+CocosFeather: {
+	DisplayName: Coco's Feather
+	Tooltip: ""
 }
 
 HapuFruit: {

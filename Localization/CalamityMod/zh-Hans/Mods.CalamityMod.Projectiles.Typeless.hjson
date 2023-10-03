@@ -97,8 +97,6 @@ PscTransformRocks.DisplayName: 渎神魂晶转换陨石
 ReaverOrb.DisplayName: 掠夺者宝珠
 ReaverThornBase.DisplayName: 荆棘
 RedLabSeeker.DisplayName: 实验室定位仪
-RelicOfConvergenceCrystal.DisplayName: 聚魂神晶
-RelicOfDeliveranceSpear.DisplayName: 渡魂圣物
 RiftReelerBobber.DisplayName: 混乱浮标
 SabatonBoom.DisplayName: 萨巴顿爆炸
 SabatonSlam.DisplayName: 萨巴顿猛击
@@ -121,7 +119,6 @@ SulphuricAcidBubbleFriendly.DisplayName: 酸性气泡
 SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
 TarragonAura.DisplayName: 龙蒿光环
-TerminusHoldout.DisplayName: 终焉反抗
 TeslaAura.DisplayName: 磁暴
 VanquisherArrowSplit.DisplayName: 湮灭箭
 VerstaltiteBobber.DisplayName: 极寒浮标
@@ -130,9 +127,7 @@ WaterConvertor.DisplayName: 净水器
 WhiteLabSeeker.DisplayName: 实验室定位仪
 WulfrumBobber.DisplayName: 钨钢浮标
 WulfrumDiggingTurtleProjectile.DisplayName: 掘地机械龟
-WulfrumDrillProj.DisplayName: 钻头
 WulfrumHook.DisplayName: 钨钢弹弓
 WulfrumLureSignal.DisplayName: 信号
-WulfrumScaffoldKitHoldout.DisplayName: 钨钢云梯工具包
 YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪

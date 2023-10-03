@@ -111,7 +111,10 @@ AstralStaff: {
 
 Atlantis: {
 	DisplayName: 亚特兰蒂斯
-	Tooltip: 创造会在移动时分裂的海之矛
+	Tooltip: "[GFB]"
+	TooltipNormal: Casts aquatic spears that split as they travel
+	TooltipGFB: A cosmic serpent prevents this weapon's true potential from shining...
+	TooltipGFBDoG: Take good care of my weapon, or else... -CIT
 }
 
 AuguroftheElements: {
