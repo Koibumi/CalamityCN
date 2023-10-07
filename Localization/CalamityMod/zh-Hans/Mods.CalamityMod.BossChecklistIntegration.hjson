@@ -21,13 +21,13 @@ AquaticScourge: {
 
 AstrumAureus: {
 	EntryName: 白金星舰
-	SpawnInfo: 在夜晚的星辉瘟疫使用 [i:CalamityMod/AstralChunk]。
+	SpawnInfo: 在夜晚的星辉瘟疫使用[i:CalamityMod/AstralChunk]。
 	DespawnMessage: "[c/FFD700:白金星舰已解决所有威胁。恢复到侦察模式。]"
 }
 
 AstrumDeus: {
 	EntryName: 星神游龙
-	SpawnInfo: 在夜晚使用 [i:CalamityMod/TitanHeart] 或者 [i:CalamityMod/Starcore] 于 [i:CalamityMod/AstralBeaconItem] 处右键召唤。
+	SpawnInfo: 在夜晚使用[i:CalamityMod/TitanHeart]或者[i:CalamityMod/Starcore]于[i:CalamityMod/AstralBeaconItem]处右键召唤。
 	DespawnMessage: "[c/FFD700:被污染的神明退回了天界。]"
 }
 
@@ -44,8 +44,8 @@ BrimstoneElemental: {
 
 Calamitas: {
 	EntryName: 至尊女巫，灾厄
-	SpawnInfo: 使用 [i:CalamityMod/AshesofCalamity] 或 [i:CalamityMod/CeremonialUrn] 供奉 [i:CalamityMod/AltarOfTheAccursedItem]。
-	DespawnMessage: "[c/FFA500:The Witch vanishes, leaving nothing but stifling heat in her wake.]"
+	SpawnInfo: 使用[i:CalamityMod/AshesofCalamity]或[i:CalamityMod/CeremonialUrn]供奉[i:CalamityMod/AltarOfTheAccursedItem]。
+	DespawnMessage: "[c/FFA500:女巫消失了，只留下令人窒息的燥热。]"
 }
 
 CalamitasClone: {
@@ -94,8 +94,6 @@ DevourerofGods: {
 
 Dragonfolly: {
 	EntryName: 痴愚金龙
-	SpawnInfo: Use [i:CalamityMod/ExoticPheromones] in the jungle.
-	DespawnMessage: "[c/FFD700:The folly returns to its secluded roost.]"
 	SpawnInfo: 在丛林生物群落使用[i:CalamityMod/ExoticPheromones]。
 	DespawnMessage: "[c/FFD700:痴愚金龙返回了它隐蔽的巢穴。]"
 }
@@ -114,13 +112,13 @@ GiantClam: {
 
 GreatSandShark: {
 	EntryName: 旱海狂鲨
-	SpawnInfo: 在击败世纪之花后的沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用 [i:CalamityMod/SandstormsCore]。
+	SpawnInfo: 在击败世纪之花后的沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用[i:CalamityMod/SandstormsCore]。
 	DespawnMessage: "[c/DAA520:大漠中的顶级掠食者消失于沙丘之间。]"
 }
 
 HiveMind: {
 	EntryName: 腐巢意志
-	SpawnInfo: 在腐化之地击杀腐化肿瘤或在腐化之地使用 [i:CalamityMod/Teratoma]。
+	SpawnInfo: 在腐化之地击杀腐化肿瘤或在腐化之地使用[i:CalamityMod/Teratoma]。
 	DespawnMessage: "[c/9400D3:腐巢意志掠过此地，另寻他处繁殖。]"
 }
 
@@ -150,66 +148,66 @@ NuclearTerror: {
 
 OldDuke: {
 	EntryName: 硫海遗爵
-	SpawnInfo: 在击败噬魂幽花后完成酸雨事件或使用 [i:CalamityMod/BloodwormItem] 为鱼饵在硫磺海钓鱼。
+	SpawnInfo: 在击败噬魂幽花后完成酸雨事件或使用[i:CalamityMod/BloodwormItem]为鱼饵在硫磺海钓鱼。
 	DespawnMessage: "[c/F0E68C:硫海遗爵退回无边的酸雨中。]"
 }
 
 Perforators: {
 	EntryName: 血肉宿主
-	SpawnInfo: 在猩红之地击杀血肉囊或在猩红之地使用 [i:CalamityMod/BloodyWormFood]。
+	SpawnInfo: 在猩红之地击杀血肉囊或在猩红之地使用[i:CalamityMod/BloodyWormFood]。
 	DespawnMessage: "[c/DC143C:血肉寄生者们去寻找更多的猎物来大快朵颐。]"
 }
 
 PlaguebringerGoliath: {
 	EntryName: 瘟疫使者歌莉娅
-	SpawnInfo: 在丛林生物群落使用 [i:CalamityMod/Abombination]。
+	SpawnInfo: 在丛林生物群落使用[i:CalamityMod/Abombination]。
 	DespawnMessage: "[c/00FF00:目 标 已 被 安 乐 死 。 战 斗 协 议 停 止 运 行 。]"
 }
 
 Polterghast: {
 	EntryName: 噬魂幽花
-	SpawnInfo: 击杀30个幻魂或在地牢使用 [i:CalamityMod/NecroplasmicBeacon]。
+	SpawnInfo: 击杀30个幻魂或在地牢使用[i:CalamityMod/NecroplasmicBeacon]。
 	DespawnMessage: "[c/B0E0E6:变幻无常的幽魂在回荡的哀号声下无影无踪。]"
 }
 
 ProfanedGuardians: {
 	EntryName: 亵渎守卫
-	SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedShard]。
+	SpawnInfo: 在神圣之地或地狱使用[i:CalamityMod/ProfanedShard]。
 	DespawnMessage: "[c/FFA500:亵渎守卫们被召回女神身边。]"
 }
 
 Providence: {
 	EntryName: 亵渎天神，普罗维登斯
-	SpawnInfo: 在神圣之地或地狱使用 [i:CalamityMod/ProfanedCore]。
+	SpawnInfo: 在神圣之地或地狱使用[i:CalamityMod/ProfanedCore]。
 	DespawnMessage: "[c/FFA500:亵渎女神隐匿在纯净的烈焰中，只留下一团灰烬……]"
 }
 
 Ravager: {
 	EntryName: 毁灭魔像
-	SpawnInfo: 使用 [i:CalamityMod/DeathWhistle]。
+	SpawnInfo: 使用[i:CalamityMod/DeathWhistle]。
 	DespawnMessage: "[c/B22222:毁灭魔像又开始了漫无目的的狂暴横行。]"
 }
 
 Signus: {
 	EntryName: 神之使徒，西格纳斯
-	SpawnInfo: 在地狱使用 [i:CalamityMod/RuneofKos]。
+	SpawnInfo: 在地狱使用[i:CalamityMod/RuneofKos]。
 	DespawnMessage: "[c/BA55D3:西格纳斯以难以理解的能力原地消失。]"
 }
 
 SlimeGod: {
 	EntryName: 史莱姆之神
-	SpawnInfo: 使用 [i:CalamityMod/OverloadedSludge]。
+	SpawnInfo: 使用[i:CalamityMod/OverloadedSludge]。
 	DespawnMessage: "[c/BA5533:污秽的凝胶之神雀跃离开，它已成功复仇。]"
 }
 
 StormWeaver: {
 	EntryName: 风暴编织者
-	SpawnInfo: 在太空使用 [i:CalamityMod/RuneofKos]。
+	SpawnInfo: 在太空使用[i:CalamityMod/RuneofKos]。
 	DespawnMessage: "[c/EE82EE:风暴编织者将自身藏于翻涌的雷雨云中。]"
 }
 
 Yharon: {
 	EntryName: 重生之龙，犽戎
-	SpawnInfo: 使用 [i:CalamityMod/YharonEgg]。
+	SpawnInfo: 使用[i:CalamityMod/YharonEgg]。
 	DespawnMessage: "[c/FFA500:犽戎腾空而起，振翅于视界之外，他的任务已然完成。]"
 }
