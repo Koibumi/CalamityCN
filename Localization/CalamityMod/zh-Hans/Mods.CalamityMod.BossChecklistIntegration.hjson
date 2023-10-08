@@ -21,7 +21,7 @@ AquaticScourge: {
 
 AstrumAureus: {
 	EntryName: 白金星舰
-	SpawnInfo: 在夜晚的星辉瘟疫使用[i:CalamityMod/AstralChunk]。
+	SpawnInfo: 在星辉瘟疫使用[i:CalamityMod/AstralChunk]。
 	DespawnMessage: "[c/FFD700:白金星舰已解决所有威胁。恢复到侦察模式。]"
 }
 
