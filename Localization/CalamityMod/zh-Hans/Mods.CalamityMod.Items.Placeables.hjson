@@ -1,4 +1,4 @@
-FormattedBannerName: "{0} Banner"
+FormattedBannerName: "{0}旗帜"
 FormattedBannerTooltip: "{$CommonItemTooltip.BannerBonus}{0}"
 
 AstralPylon: {
