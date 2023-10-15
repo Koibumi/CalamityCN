@@ -1932,7 +1932,7 @@ Mods: {
 			}
 
 			ProfanedGardenLocationSetter: {
-				DisplayName: Profaned Garden Location Setter
+				DisplayName: 亵渎花园位置设置器
 				Tooltip:
 				'''
 				Use this to fix the profaned garden not functioning properly.
@@ -1992,7 +1992,7 @@ Mods: {
 		}
 
 		Status: {
-			AchievementCompletionText: Achievement Completed!
+			AchievementCompletionText: 成就完成！
 			InfernumDisallowedInWeirdDifficulties: 炼狱模式无法在大师模式或For the Worthy或Get fixed boi种子下启用。
 			EternityModeWarning: 如果存在冲突，永恒模式的BossAI将被炼狱覆盖。
 			CyberneticImmortalityEnabled: 无敌已启用。
@@ -2035,7 +2035,7 @@ Mods: {
 			ExoMechDesperationTwins2: 阿波罗-03：准备启用“热核闪击”互毁协定。
 			ExoMechDesperationThanatos1: 塔纳托斯-05：星流炮塔在不稳定能量水平下燃烧，即将自毁。
 			ExoMechDesperationThanatos2: 塔纳托斯-05：准备启用“极限过载冲击”互毁协定。
-			DraedonDefeat1: 有趣，十分有趣。死亡
+			DraedonDefeat1: 有趣，十分有趣。
 			DraedonDefeat2: 我引以为傲的杰作，彻底失败了。
 			DraedonDefeat2HyperplaneMatrix: 你是个优秀的测试对象。
 			DraedonDefeat3: 这也非是我预期中的结果。
