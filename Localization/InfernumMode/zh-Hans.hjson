@@ -176,10 +176,10 @@ Mods: {
 		}
 
 		Bestiary: {
-			BereftVassal: A vigilant guardian, once wandering without a purpose. Having learned that his king lives on, it'd seem that he has started to regain his will to live. He looks forward to fighting you again.
-			DepthFeeder: Even in the overwhelmingly hostile environment of the Abyss, ecosystems may flourish.
-			Herring: Unusually hardy, these creatures somehow flourish in the toxic upper abyssal caverns. Regardless, they are at the bottom of the food chain.
-			Lionfish: These rugged fish are seldom hunted in their natural habitats, relying heavily on their venomous spines for both offense and defense.
+			BereftVassal: 一位曾漫无目的流浪的警惕守护者。在得知他的国王还活着后，他似乎已重新燃起了他生存的意志。他期待着再次与你战斗。
+			DepthFeeder: 即使是在深渊这一极其恶劣的环境中，生态系统仍然有可能蓬勃发展。
+			Herring: 源于不寻常的顽强，这种生物得以在剧毒的深渊上层的洞穴中繁衍生息。但无论如何，它们仍处于食物链的底端。
+			Lionfish: 这些畸形的鱼在它们的自然栖息地很少被捕食，这在很大程度上归功于它们那攻守兼备的毒刺。
 		}
 
 		Biomes: {
@@ -202,7 +202,7 @@ Mods: {
 
 			AsterPetBuff: {
 				DisplayName: 星状体
-				Description: 他
+				Description: 是他
 			}
 
 			BlahajBuff: {
@@ -344,32 +344,32 @@ Mods: {
 		}
 
 		Cooldowns: {
-			SealocketForcefieldCooldown: Forcefield Cooldown
-			InfiniteFlightCooldown: Infinite Flight
+			SealocketForcefieldCooldown: 力场冷却
+			InfiniteFlightCooldown: 无限飞行
 		}
 
 		DifficultyUI: {
-			Name: Infernum
+			Name: 炼狱
 			ShortDescription:
 				'''
-				[c/B32E81:A distinct challenge for those who seek something vastly different yet also more demanding than Death mode.]
-				[c/B32E81:This mode does not work with Master or the For the Worthy seed.]
+				[c/B32E81:对于那些追求比死亡模式更高难度人而言，这是一个独特的挑战。]
+				[c/B32E81:该模式无法在大师模式下或For the Worthy种子中运行。]
 				'''
 			ExpandedDescription:
 				'''
-				 [c/B32E81:Many major foes will be different, having more challenging AI.]
-				 [c/B32E81:Adrenaline takes considerably longer to charge.]
-				 [c/FF0055:Adaptability is imperative.]
+				 [c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。]
+				 [c/B32E81:肾上腺素充能时间变长。]
+				 [c/FF0055:适应力必不可少。]
 				'''
-			InfernumText: Good luck.
-			InfernumText2: Very well, then.
+			InfernumText: 炼狱模式已开启，祝你好运。
+			InfernumText2: 炼狱模式已关闭，很好，继续吧。
 		}
 
 		ExoMechsFight: {
 			PickTwoText: Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.
-			ThanatosDesc: Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.
-			AresDesc: Ares, a heavyweight, diabolical monstrosity with six Exo superweapons.
-			ArtemisApolloDesc: Artemis and Apollo, a pair of extremely agile destroyers with unstable energy reserves.
+			ThanatosDesc: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。
+			AresDesc: 阿瑞斯，一个搭载着六台超级星流武器的庞然巨物。
+			ArtemisApolloDesc: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。
 		}
 
 		Projectiles: {
