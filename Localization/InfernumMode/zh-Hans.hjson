@@ -1,359 +1,11 @@
 Mods: {
 	InfernumMode: {
-		Cooldowns: {
-			SealocketForcefieldCooldown: 力场冷却
-			InfiniteFlightCooldown: 无限飞行
-		}
-
-		DifficultyUI: {
-			Name: 炼狱
-			ShortDescription:
-				'''
-				[c/B32E81:对于追求比死亡模式更高难度人来说，这是一个独特的挑战。]
-				[c/B32E81:此模式不适用于大师模式或For The Worth种子]
-				'''
-			ExpandedDescription:
-				'''
-				 [c/B32E81:大部分敌人变得不同，拥有更具挑战的AI。]
-				 [c/B32E81:肾上腺素充能时间变长。]
-				 [c/FF0055:适应力必不可少!]
-				'''
-			InfernumText: 炼狱模式已开启，祝你好运。
-			InfernumText2: 炼狱模式已关闭，很好，继续吧。
-		}
-
-		UI: {
-			NotExpertWarning: "[c/ff00000:只能在专家模式下启用炼狱模式]"
-			AchievementsHeader: 死亡祈愿
-			AchievementsLabelText: 下一个
-			WishesHeader: 开发者祈愿
-			WishesHoverTextButton: 打开死亡祈愿
-		}
-
-		IntroScreen: {
-			AEWIntroScreen.TextToDisplay:
-				'''
-				始渊守卫
-				始源妖龙
-				'''
-			AnahitaIntroScreen.TextToDisplay:
-				'''
-				遗忘精灵
-				阿娜希塔
-				'''
-			AquaticScourgeIntroScreen.TextToDisplay:
-				'''
-				硫磺巨蟒
-				渊海灾虫
-				'''
-
-			AresIntroScreen: {
-				TextToDisplay:
-					'''
-					终极战争机器
-					阿瑞斯
-					'''
-				JokeTextToDisplay:
-					'''
-					预判游戏大师
-					阿瑞斯
-					'''
-			}
-
-			ArtemisAndApolloIntroScreen.TextToDisplay:
-				'''
-				终极猎手
-				阿尔忒弥斯和阿波罗
-				'''
-			AstrumAureusIntroScreen.TextToDisplay:
-				'''
-				感染践踏者
-				白金星舰
-				'''
-			AstrumDeusIntroScreen.TextToDisplay:
-				'''
-				织星者
-				星神游龙
-				'''
-			BereftVassalIntroScreen.TextToDisplay:
-				'''
-				阿尔戈斯
-				无邦封臣
-				'''
-			BetsyIntroScreen.TextToDisplay:
-				'''
-				飞龙之母
-				双足翼龙
-				'''
-			BrainOfCthulhuIntroScreen.TextToDisplay:
-				'''
-				邪神思维
-				克苏鲁之脑
-				'''
-			BrimstoneElementalIntroScreen.TextToDisplay:
-				'''
-				受创守护神
-				硫磺火元素
-				'''
-			CalamitasShadowIntroScreen.TextToDisplay:
-				'''
-				欺诈魔女
-				灾厄之影
-				'''
-			CeaselessVoidIntroScreen.TextToDisplay:
-				'''
-				无止之噬
-				无尽虚空
-				'''
-			CrabulonIntroScreen.TextToDisplay:
-				'''
-				复生死尸
-				菌生蟹
-				'''
-			CryogenIntroScreen.TextToDisplay:
-				'''
-				崩摧监牢
-				极地之灵
-				'''
-			CultistIntroScreen.TextToDisplay:
-				'''
-				远古末日预言者
-				拜月教邪教徒
-				'''
-			DeerclopsIntroScreen.TextToDisplay:
-				'''
-				冬日凶兽
-				独眼巨鹿
-				'''
-			DesertScourgeIntroScreen.TextToDisplay:
-				'''
-				干缩饕餮
-				荒漠灾虫
-				'''
-			DestroyerIntroScreen.TextToDisplay:
-				'''
-				世界挖掘者
-				毁灭者
-				'''
-			DoGIntroScreen.TextToDisplay:
-				'''
-				自命不凡的
-				神明吞噬者
-				'''
-			DraedonIntroScreen.TextToDisplay:
-				'''
-				寰宇神匠
-				嘉登
-				'''
-			DragonfollyIntroScreen.TextToDisplay:
-				'''
-				混血龙裔
-				痴愚金龙
-				'''
-			DreadnautilusIntroScreen.TextToDisplay:
-				'''
-				血月之魇
-				恐惧鹦鹉螺
-				'''
-			DukeFishronIntroScreen.TextToDisplay:
-				'''
-				海洋之惧
-				猪龙鱼公爵
-				'''
-			EaterOfWorldsIntroScreen.TextToDisplay:
-				'''
-				腐化之惧
-				世界吞噬者
-				'''
-			EmpressOfLightIntroScreen.TextToDisplay:
-				'''
-				虹棱辐辉
-				光之女皇
-				'''
-			EyeOfCthulhuIntroScreen.TextToDisplay:
-				'''
-				恶魔凝视者
-				克苏鲁之眼
-				'''
-
-			GolemIntroScreen: {
-				TextToDisplay:
-					'''
-					古代神像
-					石巨人
-					'''
-				JokeTextToDisplay:
-					'''
-					NUMBER ! SALSMAN
-					[Circa 1997]
-					'''
-			}
-
-			GreatSandSharkIntroScreen.TextToDisplay:
-				'''
-				托勒斯
-				旱海狂鲨
-				'''
-			HiveMindIntroScreen.TextToDisplay:
-				'''
-				群生恶瘤
-				腐巢意志
-				'''
-			KingSlimeIntroScreen.TextToDisplay:
-				'''
-				凝胶君主
-				史莱姆王
-				'''
-			LeviathanIntroScreen.TextToDisplay:
-				'''
-				远古野兽
-				利维坦
-				'''
-			MoonLordIntroScreen.TextToDisplay:
-				'''
-				不可名状之遗骸
-				月亮领主
-				'''
-
-			OldDukeIntroScreen: {
-				TextToDisplay:
-					'''
-					硫海之惧
-					硫海遗爵
-					'''
-				JokeTextToDisplay:
-					'''
-					冲刺恶魔
-					硫海遗爵
-					'''
-			}
-
-			PBGIntroScreen.TextToDisplay:
-				'''
-				生物巨械
-				瘟疫使者歌莉娅
-				'''
-			PerforatorHiveIntroScreen.TextToDisplay:
-				'''
-				血殁寄生者
-				血肉宿主
-				'''
-			PlanteraIntroScreen.TextToDisplay:
-				'''
-				繁茂丛生的
-				世纪之花
-				'''
-			PolterghastIntroScreen.TextToDisplay:
-				'''
-				怨念融合体
-				噬魂幽花
-				'''
-			ProfanedGuardiansIntroScreen.TextToDisplay:
-				'''
-				圣洁使徒
-				亵渎守卫
-				'''
-			ProfanedTempleIntroScreen.TextToDisplay:
-				'''
-				圣洁之地
-				亵渎花园
-				'''
-
-			ProvidenceIntroScreen: {
-				TextToDisplay:
-					'''
-					圣洁之焰
-					亵渎天神 普罗维登斯
-					'''
-				EnragedTextToDisplay:
-					'''
-					赦罪之焰
-					亵渎天神 普罗维登斯
-					'''
-			}
-
-			QueenBeeIntroScreen.TextToDisplay:
-				'''
-				蜂群女王
-				蜂王
-				'''
-			QueenSlimeIntroScreen.TextToDisplay:
-				'''
-				神圣聚群
-				史莱姆皇后
-				'''
-			RavagerIntroScreen.TextToDisplay:
-				'''
-				血肉堡垒
-				毁灭魔像
-				'''
-			SCalIntroScreen.TextToDisplay:
-				'''
-				硫火女巫
-				至尊灾厄
-				'''
-			SignusIntroScreen.TextToDisplay:
-				'''
-				鬼魅刺客
-				神之使徒西格纳斯
-				'''
-			SkeletronIntroScreen.TextToDisplay:
-				'''
-				耄耋厄咒
-				骷髅王
-				'''
-			SkeletronPrimeIntroScreen.TextToDisplay:
-				'''
-				恐惧之械
-				机械骷髅王
-				'''
-			SlimeGodIntroScreen.TextToDisplay:
-				'''
-				原初之构
-				史莱姆之神
-				'''
-			StormWeaverIntroScreen.TextToDisplay:
-				'''
-				大气捕食者
-				风暴编织者
-				'''
-			TerminusIntroScreen.TextToDisplay: 你找到了终末石！
-			ThanatosIntroScreen.TextToDisplay:
-				'''
-				完美歼灭者
-				塔纳托斯
-				'''
-			TwinsIntroScreen.TextToDisplay:
-				'''
-				机械观察者
-				双子魔眼
-				'''
-			WoFIntroScreen.TextToDisplay:
-				'''
-				饥饿聚合体
-				血肉墙
-				'''
-
-			YharonIntroScreen: {
-				TextToDisplay:
-					'''
-					忠诚护卫
-					重生之龙 牙戎
-					'''
-				JokeTextToDisplay:
-					'''
-					傲慢的
-					重生之龙 牙戎
-					'''
-			}
-		}
-
 		Achievements: {
 			BabysFirstAchievement: {
 				DisplayName: 死海无涯
 				Description:
-					'''
-					死的越多，懂得越多
+				    '''
+			        死的越多，懂得越多
 					[c/777777:在炼狱模式中死于任意一个Boss]
 					'''
 			}
@@ -516,11 +168,208 @@ Mods: {
 					DisplayName: 著名的铸币助手
 					Description:
 						'''
-						每一次失败都让你进步!继续前进!
+						每一次失败都让你进步！继续前进！
 						[c/777777:在任意Boss战累计死亡3次]
 						'''
 				}
 			}
+		}
+
+		Bestiary: {
+			BereftVassal: A vigilant guardian, once wandering without a purpose. Having learned that his king lives on, it'd seem that he has started to regain his will to live. He looks forward to fighting you again.
+			DepthFeeder: Even in the overwhelmingly hostile environment of the Abyss, ecosystems may flourish.
+			Herring: Unusually hardy, these creatures somehow flourish in the toxic upper abyssal caverns. Regardless, they are at the bottom of the food chain.
+			Lionfish: These rugged fish are seldom hunted in their natural habitats, relying heavily on their venomous spines for both offense and defense.
+		}
+
+		Biomes: {
+			LostColosseumBiome: {
+				DisplayName: 失落竞技场
+				TownNPCDialogueName: 失落竞技场
+			}
+
+			ProfanedTempleBiome: {
+				DisplayName: 亵渎神庙
+				TownNPCDialogueName: 亵渎神庙
+			}
+		}
+
+		Buffs: {
+			AccentuationHex: {
+				DisplayName: 引魔巫咒
+				Description: 你对手的魔法将会追踪你
+			}
+
+			AsterPetBuff: {
+				DisplayName: 星状体
+				Description: 他
+			}
+
+			BlahajBuff: {
+				DisplayName: 蓝鲨
+				Description: 舒适的朋友
+			}
+
+			BrimstoneBarrier: {
+				DisplayName: 硫火屏障
+				Description: 你的魔法将以削弱武器为代价创造一个强大的魔法屏障
+			}
+
+			BrimstoneExhaustion: {
+				DisplayName: 硫火之疲倦
+				Description: 你不能再召唤出硫火新月法杖的立场
+			}
+
+			BronzePetBuff: {
+				DisplayName: 2018年灾厄的嗡嗡蜂鸟
+				Description: 你知道你能在泰拉瑞亚中抚摸一只蜂鸟吗？
+			}
+
+			CatharsisHex: {
+				DisplayName: 泄怒巫咒
+				Description: 自然生命再生被禁用，愤怒灵魂从你体内喷涌而出
+			}
+
+			DarkFlames: {
+				DisplayName: 黑暗火焰
+				Description: 你的身体被遗忘之火吞噬，你的防御力降低了
+			}
+
+			HatGirlBuff: {
+				DisplayName: 礼帽女孩
+				Description: 芳心纵火犯
+			}
+
+			IndignationHex: {
+				DisplayName: 愤慨巫咒
+				Description: 一个探魂者将以你作为目标
+			}
+
+			Madness: {
+				DisplayName: 精神失常
+				Description: 要疯了……
+			}
+
+			ShadowflameInferno: {
+				DisplayName: 暗影狱火
+				Description: 快速流失生命值
+			}
+
+			SheepGodBuff: {
+				DisplayName: 羔羊之神
+				Description: 羊也会数羊吗
+			}
+
+			Sleepy: {
+				DisplayName: 困倦
+				Description: 你快睡着了
+			}
+
+			WeaknessHex: {
+				DisplayName: 羸弱巫咒
+				Description: 你的防御力和伤害减免被大幅度削弱了
+			}
+
+			ZealHex: {
+				DisplayName: 狂化巫咒
+				Description: 你对手的魔法将会大幅度加速
+			}
+		}
+
+		Configs: {
+			InfernumConfig: {
+				DisplayName: 配置
+
+				BossIntroductionAnimationsAreAllowed: {
+					Label: Boss介绍动画
+					Tooltip: 开启Boss介绍动画，仅在炼狱模式启用时有效。
+				}
+
+				DisplayTipsInChat: {
+					Label: 爆炸礼帽提示聊天栏显示
+					Tooltip: 确认爆炸礼帽宠物是否在聊天栏中显示其提示。
+				}
+
+				ReducedGraphicsConfig: {
+					Label: 减少图形运算量设置
+					Tooltip: 启用减少图形运算量模式。如果你有卡顿问题，请启用此选项。
+				}
+
+				FlashbangOverlays: {
+					Label: 屏幕覆盖层
+					Tooltip: 启用屏幕覆盖层的“闪光弹”效果。此设置不会直接影响游戏机制。
+				}
+
+				CreditsRecordings: {
+					Label: Boss记录回放
+					Tooltip: 启用Boss记录以便在制作人名单期间播放
+				}
+			}
+		}
+
+		Configs: {
+			InfernumConfig: {
+				DisplayName: 配置
+
+				BossIntroductionAnimationsAreAllowed: {
+					Label: Boss介绍动画
+					Tooltip: 开启Boss介绍动画，仅在炼狱模式启用时有效。
+				}
+
+				DisplayTipsInChat: {
+					Label: 爆炸礼帽提示聊天栏显示
+					Tooltip: 确认爆炸礼帽宠物是否在聊天栏中显示其提示。
+				}
+
+				ReducedGraphicsConfig: {
+					Label: 减少图形运算量设置
+					Tooltip: 启用减少图形运算量模式。如果你有卡顿问题，请启用此选项。
+				}
+
+				SaturationBloomIntensity: {
+					Label: 饱和Bloom强度
+					Tooltip: 设置颜色饱和Bloom的强度。值为0时禁用此类效果。
+				}
+
+				FlashbangOverlays: {
+					Label: 屏幕覆盖层
+					Tooltip: 启用屏幕覆盖层的“闪光弹”效果。此设置不会直接影响游戏机制。
+				}
+
+				CreditsRecordings: {
+					Label: Boss记录回放
+					Tooltip: 启用Boss记录以便在制作人名单期间播放
+				}
+			}
+		}
+
+		Cooldowns: {
+			SealocketForcefieldCooldown: Forcefield Cooldown
+			InfiniteFlightCooldown: Infinite Flight
+		}
+
+		DifficultyUI: {
+			Name: Infernum
+			ShortDescription:
+				'''
+				[c/B32E81:A distinct challenge for those who seek something vastly different yet also more demanding than Death mode.]
+				[c/B32E81:This mode does not work with Master or the For the Worthy seed.]
+				'''
+			ExpandedDescription:
+				'''
+				 [c/B32E81:Many major foes will be different, having more challenging AI.]
+				 [c/B32E81:Adrenaline takes considerably longer to charge.]
+				 [c/FF0055:Adaptability is imperative.]
+				'''
+			InfernumText: Good luck.
+			InfernumText2: Very well, then.
+		}
+
+		ExoMechsFight: {
+			PickTwoText: Pick two. The first mech will be fought alone. Once sufficiently damaged, the second mech will be summoned and the two will fight together.
+			ThanatosDesc: Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.
+			AresDesc: Ares, a heavyweight, diabolical monstrosity with six Exo superweapons.
+			ArtemisApolloDesc: Artemis and Apollo, a pair of extremely agile destroyers with unstable energy reserves.
 		}
 
 		Projectiles: {
@@ -1160,17 +1009,7 @@ Mods: {
 			GolemArenaPlatform.DisplayName: 石巨人战斗平台
 		}
 
-		Biomes: {
-			LostColosseumBiome: {
-				DisplayName: 失落竞技场
-				TownNPCDialogueName: 失落竞技场
-			}
-
-			ProfanedTempleBiome: {
-				DisplayName: 亵渎神庙
-				TownNPCDialogueName: 亵渎神庙
-			}
-		}
+		
 
 		Buffs: {
 			AccentuationHex: {
