@@ -307,42 +307,6 @@ Mods: {
 			}
 		}
 
-		Configs: {
-			InfernumConfig: {
-				DisplayName: 配置
-
-				BossIntroductionAnimationsAreAllowed: {
-					Label: Boss介绍动画
-					Tooltip: 开启Boss介绍动画，仅在炼狱模式启用时有效。
-				}
-
-				DisplayTipsInChat: {
-					Label: 爆炸礼帽提示聊天栏显示
-					Tooltip: 确认爆炸礼帽宠物是否在聊天栏中显示其提示。
-				}
-
-				ReducedGraphicsConfig: {
-					Label: 减少图形运算量设置
-					Tooltip: 启用减少图形运算量模式。如果你有卡顿问题，请启用此选项。
-				}
-
-				SaturationBloomIntensity: {
-					Label: 饱和Bloom强度
-					Tooltip: 设置颜色饱和Bloom的强度。值为0时禁用此类效果。
-				}
-
-				FlashbangOverlays: {
-					Label: 屏幕覆盖层
-					Tooltip: 启用屏幕覆盖层的“闪光弹”效果。此设置不会直接影响游戏机制。
-				}
-
-				CreditsRecordings: {
-					Label: Boss记录回放
-					Tooltip: 启用Boss记录以便在制作人名单期间播放
-				}
-			}
-		}
-
 		Cooldowns: {
 			SealocketForcefieldCooldown: 力场冷却
 			InfiniteFlightCooldown: 无限飞行
@@ -370,6 +334,1175 @@ Mods: {
 			ThanatosDesc: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。
 			AresDesc: 阿瑞斯，一个搭载着六台超级星流武器的庞然巨物。
 			ArtemisApolloDesc: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。
+		}
+
+		IntroScreen: {
+			AEWIntroScreen.TextToDisplay:
+				'''
+				始渊守卫
+				始源妖龙
+				'''
+			AnahitaIntroScreen.TextToDisplay:
+				'''
+				遗忘精灵
+				阿娜希塔
+				'''
+			AquaticScourgeIntroScreen.TextToDisplay:
+				'''
+				硫磺巨蟒
+				渊海灾虫
+				'''
+
+			AresIntroScreen: {
+				TextToDisplay:
+					'''
+					终极战争机器
+					阿瑞斯
+					'''
+				JokeTextToDisplay:
+					'''
+					预判游戏大师
+					阿瑞斯
+					'''
+			}
+
+			ArtemisAndApolloIntroScreen.TextToDisplay:
+				'''
+				终极猎手
+				阿尔忒弥斯和阿波罗
+				'''
+			AstrumAureusIntroScreen.TextToDisplay:
+				'''
+				感染践踏者
+				白金星舰
+				'''
+			AstrumDeusIntroScreen.TextToDisplay:
+				'''
+				织星者
+				星神游龙
+				'''
+			BereftVassalIntroScreen.TextToDisplay:
+				'''
+				阿尔戈斯
+				无邦封臣
+				'''
+			BetsyIntroScreen.TextToDisplay:
+				'''
+				飞龙之母
+				双足翼龙
+				'''
+			BrainOfCthulhuIntroScreen.TextToDisplay:
+				'''
+				邪神思维
+				克苏鲁之脑
+				'''
+			BrimstoneElementalIntroScreen.TextToDisplay:
+				'''
+				受创守护神
+				硫磺火元素
+				'''
+			CalamitasShadowIntroScreen.TextToDisplay:
+				'''
+				欺诈魔女
+				灾厄之影
+				'''
+			CeaselessVoidIntroScreen.TextToDisplay:
+				'''
+				无止之噬
+				无尽虚空
+				'''
+			CrabulonIntroScreen.TextToDisplay:
+				'''
+				复生死尸
+				菌生蟹
+				'''
+			CryogenIntroScreen.TextToDisplay:
+				'''
+				崩摧监牢
+				极地之灵
+				'''
+			CultistIntroScreen.TextToDisplay:
+				'''
+				远古末日预言者
+				拜月教邪教徒
+				'''
+			DeerclopsIntroScreen.TextToDisplay:
+				'''
+				冬日凶兽
+				独眼巨鹿
+				'''
+			DesertScourgeIntroScreen.TextToDisplay:
+				'''
+				干缩饕餮
+				荒漠灾虫
+				'''
+			DestroyerIntroScreen.TextToDisplay:
+				'''
+				世界挖掘者
+				毁灭者
+				'''
+			DoGIntroScreen.TextToDisplay:
+				'''
+				自命不凡的
+				神明吞噬者
+				'''
+			DraedonIntroScreen.TextToDisplay:
+				'''
+				寰宇神匠
+				嘉登
+				'''
+			DragonfollyIntroScreen.TextToDisplay:
+				'''
+				混血龙裔
+				痴愚金龙
+				'''
+			DreadnautilusIntroScreen.TextToDisplay:
+				'''
+				血月之魇
+				恐惧鹦鹉螺
+				'''
+			DukeFishronIntroScreen.TextToDisplay:
+				'''
+				海洋之惧
+				猪龙鱼公爵
+				'''
+			EaterOfWorldsIntroScreen.TextToDisplay:
+				'''
+				腐化之惧
+				世界吞噬者
+				'''
+			EmpressOfLightIntroScreen.TextToDisplay:
+				'''
+				虹棱辐辉
+				光之女皇
+				'''
+			EyeOfCthulhuIntroScreen.TextToDisplay:
+				'''
+				恶魔凝视者
+				克苏鲁之眼
+				'''
+
+			GolemIntroScreen: {
+				TextToDisplay:
+					'''
+					古代神像
+					石巨人
+					'''
+				JokeTextToDisplay:
+					'''
+					NUMBER ! SALSMAN
+					[Circa 1997]
+					'''
+			}
+
+			GreatSandSharkIntroScreen.TextToDisplay:
+				'''
+				托勒斯
+				旱海狂鲨
+				'''
+			HiveMindIntroScreen.TextToDisplay:
+				'''
+				群生恶瘤
+				腐巢意志
+				'''
+			KingSlimeIntroScreen.TextToDisplay:
+				'''
+				凝胶君主
+				史莱姆王
+				'''
+			LeviathanIntroScreen.TextToDisplay:
+				'''
+				远古野兽
+				利维坦
+				'''
+			MoonLordIntroScreen.TextToDisplay:
+				'''
+				不可名状之遗骸
+				月亮领主
+				'''
+
+			OldDukeIntroScreen: {
+				TextToDisplay:
+					'''
+					硫海之惧
+					硫海遗爵
+					'''
+				JokeTextToDisplay:
+					'''
+					冲刺恶魔
+					硫海遗爵
+					'''
+			}
+
+			PBGIntroScreen.TextToDisplay:
+				'''
+				生物巨械
+				瘟疫使者歌莉娅
+				'''
+			PerforatorHiveIntroScreen.TextToDisplay:
+				'''
+				血殁寄生者
+				血肉宿主
+				'''
+			PlanteraIntroScreen.TextToDisplay:
+				'''
+				繁茂丛生的
+				世纪之花
+				'''
+			PolterghastIntroScreen.TextToDisplay:
+				'''
+				怨念融合体
+				噬魂幽花
+				'''
+			ProfanedGuardiansIntroScreen.TextToDisplay:
+				'''
+				圣洁使徒
+				亵渎守卫
+				'''
+			ProfanedTempleIntroScreen.TextToDisplay:
+				'''
+				圣洁之地
+				亵渎花园
+				'''
+
+			ProvidenceIntroScreen: {
+				TextToDisplay:
+					'''
+					圣洁之焰
+					亵渎天神 普罗维登斯
+					'''
+				EnragedTextToDisplay:
+					'''
+					赦罪之焰
+					亵渎天神 普罗维登斯
+					'''
+			}
+
+			QueenBeeIntroScreen.TextToDisplay:
+				'''
+				蜂群女王
+				蜂王
+				'''
+			QueenSlimeIntroScreen.TextToDisplay:
+				'''
+				神圣聚群
+				史莱姆皇后
+				'''
+			RavagerIntroScreen.TextToDisplay:
+				'''
+				血肉堡垒
+				毁灭魔像
+				'''
+			SCalIntroScreen.TextToDisplay:
+				'''
+				硫火女巫
+				至尊灾厄
+				'''
+			SignusIntroScreen.TextToDisplay:
+				'''
+				鬼魅刺客
+				神之使徒西格纳斯
+				'''
+			SkeletronIntroScreen.TextToDisplay:
+				'''
+				耄耋厄咒
+				骷髅王
+				'''
+			SkeletronPrimeIntroScreen.TextToDisplay:
+				'''
+				恐惧之械
+				机械骷髅王
+				'''
+			SlimeGodIntroScreen.TextToDisplay:
+				'''
+				原初之构
+				史莱姆之神
+				'''
+			StormWeaverIntroScreen.TextToDisplay:
+				'''
+				大气捕食者
+				风暴编织者
+				'''
+			TerminusIntroScreen.TextToDisplay: 你找到了终末石！
+			ThanatosIntroScreen.TextToDisplay:
+				'''
+				完美歼灭者
+				塔纳托斯
+				'''
+			TwinsIntroScreen.TextToDisplay:
+				'''
+				机械观察者
+				双子魔眼
+				'''
+			WoFIntroScreen.TextToDisplay:
+				'''
+				饥饿聚合体
+				血肉墙
+				'''
+
+			YharonIntroScreen: {
+				TextToDisplay:
+					'''
+					忠诚护卫
+					重生之龙 牙戎
+					'''
+				JokeTextToDisplay:
+					'''
+					傲慢的
+					重生之龙 牙戎
+					'''
+			}
+		}
+
+		Items: {
+			// Beware translators, this line must match the "enrage" word in the tooltip of your language
+			EnrageTooltip: enrage
+			DeveloperItem: "[c/{0}:~ Developer Item ~]"
+			InfernalRelicText: Imbued with the infernal flames of a defeated foe
+
+			Lore: {
+				KnowledgeBereftVassal: {
+					Lore:
+						'''
+						源于孤独的非凡友情。
+						阿尔戈斯曾是一位声名显赫的战士，他似乎是少数从伊尔梅里斯废墟中走出来的幸存者之一。
+						他藏身于这些神秘的废墟中，默默见证着时间的流逝，没有任何目的，直到你的到来。
+						他的命运是个人正义误入歧途所结出的果实。不要为了远大理想而遭受无意义的苦痛。
+						'''
+					DisplayName: 无邦封臣和旱海狂鲨
+				}
+			}
+
+			CelestialSigil.SummoningText:
+				'''
+				Summons the Moon Lord immediately
+				Creates an arena at the player's position
+				Not consumable
+				'''
+
+			ProfanedShard: {
+				SummoningText: Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld during day
+				GardenWarning:
+					'''
+					Your world does not currently have a Profaned Garden. Kill the Moon Lord again to generate it
+					Be sure to grab the Hell schematic first if you do this, as the garden might destroy the lab
+					'''
+			}
+
+			EyeofDesolation.SummoningText: Summons the {0} when used during nighttime
+			ProfanedCore.SummoningText: Summons Providence when used at the altar in the profaned temple at the far right of the underworld
+			RuneofKos.DeveloperText: The Ceaseless Void can only be fought in the Archives
+
+			SandstormsCore: {
+				PortalDetail: Opens a portal to the Lost Colosseum
+				GatewayWarning: Your world does not currently have a Lost Gateway. Kill the Lunatic Cultist again to generate it.
+			}
+
+			LihzahrdPowerCell.SummoningText:
+				'''
+				Summons Golem when used at the Lihzhard Altar
+				Golem summons a rectangular arena around the altar
+				If the altar is inside of the temple solid tiles within the arena are broken
+				'''
+
+			CherishedSealocket: {
+				DisplayName: 珍海吊坠
+				Tooltip:
+					'''
+					生成一个受击2次后消散的水波立场
+					当立场存在时，受到的伤害会减少60%，你会获得12%的伤害加成
+					立场会在90秒后再次生成
+					'''
+			}
+
+			FlowerOfTheOcean: {
+				DisplayName: 海之花
+				Tooltip: 
+					'''
+					大幅提高水下能见度
+					Creates an underwater visual
+					'''
+			}
+
+			Purity: {
+				DisplayName: 纯净
+				Tooltip:
+					'''
+					增加30%伤害和攻击速度
+					免疫夜魇
+					[c/ff5d5d:你会变得不幸（无法暴击）]
+					[c/59aae7:这听起来就像两兄弟在阳光下追逐玻璃青蛙]
+					'''
+			}
+
+			// Important: Don't translate this tooltip, currently is being used for the tooltip effect
+			SakuraBloom: {
+				DisplayName: Sakura Bloom
+				Tooltip:
+					'''
+					A symbol of how beautiful love is when in bloom, and how easily it can wither away whyyyy
+					Temporary
+					'''
+
+				TooltipEffect: {
+					FirstText: "A symbol of how beautiful "
+					SecondText: love
+					ThirdText: " is when it’s in bloom, and yet how easily it can wither away"
+					FourthText: "Maybe with this, we can hold onto the "
+					FifthText: memories
+					SixthText: ?
+				}
+			}
+
+			BereftVassalBossBag: {
+				DisplayName: 宝藏袋（无邦封臣）
+				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			rimstoneCrescentStaff: {
+				DisplayName: 硫火新月法杖
+				Tooltip:
+					'''
+					使用法杖可生成一个强大的立场，其会提供独立的66%伤害减免
+					立场存在时，受击将会触发强力的爆炸以伤害敌人
+					立场存在期间和消失后15秒内，你的伤害减少67%
+					立场在三次受击后破碎。破碎后15秒内无法再次生成立场
+					'''
+			}
+
+			DemonicChaliceOfInfernum: {
+				DisplayName: 炼狱圣杯
+				Tooltip: ""
+			}
+
+			ProfanedCrystalDye.DisplayName: 渎神结晶染料
+
+			ElysianRose: {
+				DisplayName: 极乐玫瑰
+				Tooltip: 它向往深渊的最深处……
+			}
+
+			HyperplaneMatrix: {
+				DisplayName: 超平面矩阵
+				Tooltip:
+					'''
+					一个难以计算的复杂装置，其中蕴含着无限的力量
+					使用以打开一个面板，其能够授予你各种扭曲现实的能力
+					在遥远的天体上，一个名为嘉登的存在诞生了
+					生来为创造与改进
+					一个目标，一个循环
+					电量充足，日夜运转
+					电量不足，机械休眠
+					一切早已安排
+					一切毫无区别
+					'''
+			}
+
+			KnowledgeBereftVassal: {
+				DisplayName: 无邦封臣和旱海狂鲨
+				Tooltip:
+					'''
+					[c/e3af40:寄宿其上的低语流入你的耳中……]
+					[c/bebebe:按住“左Shift”仔细聆听]
+					'''
+			}
+
+			LunarCoin: {
+				DisplayName: 月之币章
+				Tooltip: ""
+			}
+
+			Blahaj: {
+				DisplayName: 蓝鲨抱枕
+				Tooltip: 召唤一只宜家毛绒玩具宠物
+			}
+
+			BlastedTophat: {
+				DisplayName: 爆炸礼帽
+				Tooltip: 召唤一个小小的礼帽女孩在你与Boss战斗时给予你建议
+			}
+
+			DisenchantedTablet: {
+				DisplayName: 未注魔的石碑
+				Tooltip:
+					'''
+					其容纳着被锁定的错综复杂的记忆之网
+					可以在地表某处的石碑祭坛上被附魔
+					'''
+			}
+
+			NightmareCatcher: {
+				DisplayName: 噩梦捕手
+				Tooltip:
+					'''
+					召唤羔羊之主跟着你
+					当我轻轻的进入梦乡，它便自黑暗之中诞生
+					'''
+			}
+
+			RisingWarriorsSoulstone: {
+				DisplayName: Rising Warrior的魂石
+				Tooltip:
+					'''
+					召唤一个狼星孩……“帮助”你?
+					这块石碑与强大的遗物产生了共鸣
+					'''
+			}
+
+			SuspiciouslyRoundFeather: {
+				DisplayName: 可疑的圆羽毛
+				Tooltip: 召唤一个老朋友
+			}
+
+			AquaticScourgeSkull: {
+				DisplayName: 渊海灾虫的头骨
+				Tooltip: ""
+			}
+
+			BereftVassalTrophy: {
+				DisplayName: 无邦封臣纪念章
+				Tooltip: ""
+			}
+
+			CosmicMonolithItem: {
+				DisplayName: 寰宇之石
+				Tooltip: ""
+			}
+
+			CreditPainting: {
+				DisplayName: 你应得的荣誉
+				Tooltip: ""
+			}
+
+			GrandStatueItem: {
+				DisplayName: 狂鲨雕像
+				Tooltip: ""
+			}
+
+			ProfanedFountainItem: {
+				DisplayName: 亵渎岩浆喷泉
+				Tooltip: ""
+			}
+
+			ProvidenceSpawnerItem: {
+				DisplayName: 亵渎祭坛Debug物品
+				Tooltip: 用亵渎晶核在其上右键以召唤亵渎天神
+			}
+
+			TabletPedestal: {
+				DisplayName: 石碑基座
+				Tooltip: 可用于附魔一块特殊的未注魔的石碑
+			}
+
+			AEWRelic: {
+				DisplayName: 成年幻海妖龙孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			AquaticScourgeRelic: {
+				DisplayName: 渊海灾虫孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			AstrumAureusRelic: {
+				DisplayName: 白金星舰孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			AstrumDeusRelic: {
+				DisplayName: 星神游龙孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			BereftVassalRelic: {
+				DisplayName: 无邦封臣孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			BetsyRelic: {
+				DisplayName: 双足翼龙孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			BrainOfCthulhuRelic: {
+				DisplayName: 克苏鲁之脑孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			BrimstoneElementalRelic: {
+				DisplayName: 硫磺火元素孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			CeaselessVoidRelic: {
+				DisplayName: 无尽虚空孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			CrabulonRelic: {
+				DisplayName: 菌生蟹孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			CryogenRelic: {
+				DisplayName: 极地之灵孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			DarkMageRelic: {
+				DisplayName: 暗黑魔法师孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			DeerclopsRelic: {
+				DisplayName: 独眼巨鹿孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			DesertScourgeRelic: {
+				DisplayName: 荒漠灾虫孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			DestroyerRelic: {
+				DisplayName: 毁灭者孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			DevourerOfGodsRelic: {
+				DisplayName: 神明吞噬者孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage:
+					'''
+					Sometimes pure reaction skill is the most valuable thing to cultivate.
+					You are in the final stretch. Your determination has proven invaluable up to this point.
+					May it guide you through the last challenges.
+					'''
+			}
+
+			DraedonRelic: {
+				DisplayName: 嘉登孽狱圣物
+				Tooltip: GetsChanged
+
+				PersonalMessage: {
+					DefaultMessage:
+						'''
+						You have done phenomenally. There is only one challenge left now-
+						Face the Witch.
+						'''
+					DownedCalamitasMessage:
+						'''
+						Spectacular work. You have conquered all of the major obstacles.
+						Take pride in this accomplishment, for you are considerably stronger than you were when you began.
+						'''
+				}
+			}
+
+			DragonfollyRelic: {
+				DisplayName: 痴愚金龙孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			DreadnautilusRelic: {
+				DisplayName: 恐惧鹦鹉螺孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			DukeFishronRelic: {
+				DisplayName: 猪龙鱼公爵孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			EaterOfWorldsRelic: {
+				DisplayName: 世界吞噬怪孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			EmpressOfLightRelic: {
+				DisplayName: 光之女皇孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage: The optional foes may at times be the most formidable. So too may they yield the greatest rewards.
+			}
+
+			EyeOfCthulhuRelic: {
+				DisplayName: 克苏鲁之眼孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage:
+					'''
+					Remember to not force yourself too much in the pursuit of victory. Take breaks if you need to.
+					The most important thing is fun.
+					'''
+			}
+
+			ForgottenShadowOfCalamitasRelic: {
+				DisplayName: 遗落灾影孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			GiantClamRelic: {
+				DisplayName: 巨像蛤孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			GolemRelic: {
+				DisplayName: 石巨人孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage: Simple methodical planning goes a long way. It will be invaluable against future obstacles.
+			}
+
+			HiveMindRelic: {
+				DisplayName: 腐巢意志孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			KingSlimeRelic: {
+				DisplayName: 史莱姆王孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage: Even seasoned players may struggle somewhat in the face of something new and unfamiliar. Adaptability is key.
+			}
+
+			LeviathanRelic: {
+				DisplayName: 阿娜希塔和利维坦孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			LunaticCultistRelic: {
+				DisplayName: 拜月教邪教徒孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			MoonLordRelic: {
+				DisplayName: 月亮领主孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage:
+					'''
+					You have done very well thus far.
+					May your tenacity guide you through the remaining challenges.
+					'''
+			}
+
+			OgreRelic: {
+				DisplayName: 食人魔孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			OldDukeRelic: {
+				DisplayName: 硫海遗爵孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage:
+					'''
+					Difficult as the fight may be, you were wise to endure and overcome the challenge it brings.
+					You will find that the mechanics it tested will be relevant again soon.
+					'''
+			}
+
+			PerforatorsRelic: {
+				DisplayName: 血肉宿主孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			PlaguebringerGoliathRelic: {
+				DisplayName: 瘟疫使者歌莉娅孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			PlanteraRelic: {
+				DisplayName: 世纪之花孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage:
+					'''
+					Be proud of your death count!
+					The more you die, the more you're learning. Keep going!
+					'''
+			}
+
+			PolterghastRelic: {
+				DisplayName: 噬魂幽花孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			ProfanedGuardiansRelic: {
+				DisplayName: 亵渎守卫孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			ProvidenceRelic: {
+				DisplayName: 亵渎天神孽狱圣物
+				Tooltip: GetsChanged
+
+				PersonalMessage: {
+					DefaultMessage:
+						'''
+						The first major hurdle following the defeat of the Moon Lord. Your triumph over her was by no means a small feat.
+						Perhaps consider fighting her again during the night for a special challenge?
+						'''
+					HasBeatenInfernumNightProvBeforeDayMessage:
+						'''
+						Bruh? What the heck? Are you OK?
+						            You were supposed to fight her at night AFTER beating her during the day first!
+						'''
+				}
+			}
+
+			QueenBeeRelic: {
+				DisplayName: 蜂王孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			QueenSlimeRelic: {
+				DisplayName: 史莱姆皇后孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			RavagerRelic: {
+				DisplayName: 毁灭魔像孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			SignusRelic: {
+				DisplayName: 神之使徒西格纳斯孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			SkeletronPrimeRelic: {
+				DisplayName: 机械骷髅王孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			SkeletronRelic: {
+				DisplayName: 骷髅王孽狱圣物
+				Tooltip: GetsChanged
+				PersonalMessage: The first major roadblock. You are better now than before you faced it. Did you have fun learning its patterns?
+			}
+
+			SlimeGodRelic: {
+				DisplayName: 史莱姆之神孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			StormWeaverRelic: {
+				DisplayName: 风暴编织者孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			SupremeCalamitasRelic: {
+				DisplayName: 至尊灾厄孽狱圣物
+				Tooltip: GetsChanged
+
+				PersonalMessage: {
+					DefaultMessage:
+						'''
+						You have done phenomenally. There is only one challenge left now-
+						Face the Cosmic Engineer.
+						'''
+					DownedExoMechsMessage:
+						'''
+						Spectacular work. You have conquered all of the major obstacles.
+						Take pride in this accomplishment, for you are considerably stronger than you were when you began.
+						'''
+				}
+			}
+
+			TwinsRelic: {
+				DisplayName: 双子魔眼孽狱圣物
+				Tooltip: GetsChanged
+
+				TooltipEffect: {
+					FirstText: "You feel a "
+					SecondText: guiding spirit
+					ThirdText: " trying to lead you the bloom’s home"
+					FourthText: "The spirit is trying to draw your attention to the "
+					FifthText: water
+					SixthText: Maybe you should follow its call?
+				}
+			}
+
+			WallOfFleshRelic: {
+				DisplayName: 血肉墙孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			YharonRelic: {
+				DisplayName: 犽戎孽狱圣物
+				Tooltip: GetsChanged
+			}
+
+			SakuraBud: {
+				DisplayName: Sakura Bud
+				Tooltip:
+					'''
+					A delicate, fragile sakura bud, just about to bloom
+					You feel a guiding spirit trying to lead you the bloom’s home
+					Maybe you should follow its call?
+					'''
+
+				TooltipEffect: {
+					FirstText: You feel a
+					SecondText: " guiding spirit "
+					ThirdText: trying to lead you the bloom’s home
+				}
+			}
+
+			BloodwormPlatter: {
+				DisplayName: Bloodworm Platter
+				Tooltip:
+					'''
+					Summons the Old Duke
+					Can only be used in the Sulphurous Sea
+					Not consumable
+					'''
+			}
+
+			DungeonsCurse: {
+				DisplayName: Dungeon's Curse
+				Tooltip:
+					'''
+					Summons Skeletron
+					Skeletron enrages during daytime
+					It becomes nighttime if this item is used during daytime
+					Not consumable
+					'''
+			}
+
+			EvokingSearune: {
+				DisplayName: Evoking Searune
+				Tooltip:
+					'''
+					Summons the Adult Eidolon Wyrm in the deepest layer of the Abyss
+					A primordial artifact said to have been formed by the First God, it is capable of summoning a guarding apparition
+					Not consumable
+					'''
+			}
+
+			FleshChunk: {
+				DisplayName: Flesh Chunk
+				Tooltip:
+					'''
+					Summons the Wall of Flesh
+					Can only be used in the underworld
+					Not consumable
+					'''
+			}
+
+			LeviathanDetector: {
+				DisplayName: Leviathan Detector
+				Tooltip:
+					'''
+					Summons Anahita
+					Not consumable
+					'''
+			}
+
+			RadiantCrystal: {
+				DisplayName: Radiant Crystal
+				Tooltip:
+					'''
+					Summons the Empress of Light
+					Does not need to be used in the Hallow
+					The Empress enrages during daytime
+					Not consumable
+					'''
+			}
+
+			RedBait: {
+				DisplayName: Red Bait
+				Tooltip:
+					'''
+					Summons the Dreadnautilus
+					Can only be used at night
+					Not consumable
+					'''
+			}
+
+			SparklingTunaCan: {
+				DisplayName: Sparkling Mollusk Can
+				Tooltip:
+					'''
+					Summons the Giant Clam
+					Can only be used in the sunken sea
+					Not consumable
+					'''
+			}
+
+			TrufflePlatter: {
+				DisplayName: Truffle Worm Platter
+				Tooltip:
+					'''
+					Summons Duke Fishron
+					Can only be used at the Ocean
+					Not consumable
+					'''
+			}
+
+			WaterglassToken: {
+				DisplayName: Waterglass Token
+				Tooltip:
+					'''
+					Teleports you to the Lost Colosseum and back
+					This item cannot be used when being held by the mouse and must be in the hotbar
+					'''
+			}
+
+			Wayfinder: {
+				DisplayName: The Wayfinder
+				Tooltip:
+					'''
+					Creates a magical gate that allows you to fast travel to it
+					Does not work when a boss is alive
+					ModifedInModifyTooltips
+					'''
+				TooltipEffect:
+					'''
+					Hold LMB to teleport to the gate
+					Hold LMB and {0} to set the gate to your position
+					Hold LMB and {1} to remove the gate
+					'''
+			}
+
+			AridBattlecry: {
+				DisplayName: Arid Battlecry
+				Tooltip: Summons sharks below the cursor that fly towards enemies
+			}
+
+			EyeOfMadness: {
+				DisplayName: Eye of Madness
+				Tooltip:
+					'''
+					Releases barrages of shadow tendrils that ensnare enemies within their range
+					A sacred artifact once used by the Eidolists. Somehow, it contains within it knowledge of aeons past
+					Unfortunately, the full extent of its contents are beyond your understanding, but it would seem that you have an affinity for its
+					arcane powers, even if usage of them costs a little bit of your sanity
+					'''
+			}
+
+			IllusionersReverie: {
+				DisplayName: Illusioner's Reverie
+				Tooltip:
+					'''
+					Casts shadow illusions of yourself that hunt down nearby enemies before dispersing into clouds of dark magic
+					You shouldn't see this
+					Its existence compels one to wonder what knowledge has been lost to the mysterious, watery depths
+					'''
+
+				TooltipEffect: {
+					FirstText: "An "
+					SecondText: "incomprehensibly "
+					ThirdText: old tome. Somehow, in spite of its supposed age, it appears to be completely unscathed
+				}
+			}
+
+			Kevin: {
+				DisplayName: kevin
+				Tooltip:
+					'''
+					A part of a greater whole, incomprehensible to the layperson
+					It stands for 'Kinetic Electroplasma Voltage Infuser'
+					'''
+			}
+
+			CallUponTheEggs: {
+				DisplayName: Call Upon The Eggs
+				Tooltip: "[c/f0ad56:This weapon is to be wielded by only those who shall take upon the task of watching over the weak ones]"
+			}
+
+			Myrindael: {
+				DisplayName: Myrindael
+				Tooltip:
+					'''
+					Holding left click spins the spear before throwing it. After being thrown, enemy hits release lightning and sparks towards enemies
+					Right clicks perform a powerful lunge that releases lightning from the sky on enemy hits
+					[c/6fc8ff:To fight, to destroy, is to take away from the world]
+					[c/6fc8ff:And yet, when the world itself clashes against you, what else can you do?]
+					'''
+			}
+
+			TheGlassmaker: {
+				DisplayName: The Glassmaker
+				Tooltip:
+					'''
+					90% chance to not consume gel
+					Sometimes releases hot glass shards that home in on nearby targets
+					'''
+			}
+
+			Dyes: {
+				ProfanedCrystalDye: {
+					DisplayName: Profaned Crystal Dye
+					Tooltip: ""
+				}
+			}
+
+			NuclearTerrorRelic: {
+				DisplayName: Nuclear Terror Relic
+				Tooltip: ""
+			}
+
+			SakuraTreetop: {
+				DisplayName: Sakura Treetop
+				Tooltip: ""
+			}
+
+			Weapons: {
+				Rogue: {
+					WanderersShell: {
+						DisplayName: Wanderer's Shell
+						Tooltip:
+							'''
+							Throws a spread of sea shells that home in on enemies before bouncing off of them and lingering on the ground
+							Stealth strikes cause all lingering shells to explode into water geysers that target nearby enemies
+							The open edge is too sharp to put near your ear
+							'''
+					}
+
+					StormMaidensRetribution: {
+						DisplayName: Storm Maiden's Retribution
+						Tooltip:
+							'''
+							Fires a spear that releases torrents of red lightning once fired
+							Stealth strikes release three spears upon firing that home in on enemies and release lightning from above when colliding with something
+							A divine spear wielded by a storm goddess, tempered by her vast abilities
+							The weapon itself seems to echo with perpetual misery, regret, and mourning
+							'''
+					}
+
+					Dreamtastic: {
+						DisplayName: Dreamtastic
+						Tooltip:
+							'''
+							Summons two dorks that fire energy bolts at enemies
+							The book also releases energy bolts of its own
+							Contains a finite number of pages, documenting the stories of the two Dreamtastic Stars and their bountiful adventures
+							You are a dork
+							'''
+					}
+				}
+			}
+
+			ProfanedGardenLocationSetter: {
+				DisplayName: Profaned Garden Location Setter
+				Tooltip:
+					'''
+					Use this to fix the profaned garden not functioning properly.
+					Left click the bottom-center of the Profaned Plaque tile in the middle of the garden.
+					This will center the garden position around that point correctly.
+					You can right click to revert the position to the previous one.
+					'''
+			}
+
+			DeusMonolithItem: {
+				DisplayName: Astral Dimension Monolith
+				Tooltip: ""
+			}
+
+			ForbiddenArchivesLocationSetter: {
+				DisplayName: Forbidden Archives Location Setter
+				Tooltip:
+					'''
+					Use this if your archives were destroyed by the abyss.
+					Left click the center of your dungeon arena to allow Ceaseless Void to naturally spawn.
+					You can right click to revert the position to the previous one.
+					'''
+			}
 		}
 
 		Projectiles: {
