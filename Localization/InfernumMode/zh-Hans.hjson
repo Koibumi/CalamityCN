@@ -403,7 +403,7 @@ Mods: {
 				'''
 			CalamitasShadowIntroScreen.TextToDisplay:
 				'''
-				欺诈魔女
+				虚假女巫
 				灾厄之影
 				'''
 			CeaselessVoidIntroScreen.TextToDisplay:
@@ -490,8 +490,8 @@ Mods: {
 					'''
 				JokeTextToDisplay:
 					'''
-					NUMBER ! SALSMAN
-					[Circa 1997]
+					号码 ! 年度推销员
+					【1997】
 					'''
 			}
 
@@ -648,7 +648,7 @@ Mods: {
 					'''
 				JokeTextToDisplay:
 					'''
-					傲慢的
+					超级无敌大大大的
 					重生之龙 牙戎
 					'''
 			}
@@ -675,9 +675,9 @@ Mods: {
 
 			CelestialSigil.SummoningText:
 				'''
-				Summons the Moon Lord immediately
-				Creates an arena at the player's position
-				Not consumable
+				立刻召唤月亮领主
+				在玩家所在的位置周围创造一圈战斗场地
+				不消耗
 				'''
 
 			ProfanedShard: {
@@ -1490,7 +1490,7 @@ Mods: {
 			}
 
 			DeusMonolithItem: {
-				DisplayName: Astral Dimension Monolith
+				DisplayName: 星辉维度石
 				Tooltip: ""
 			}
 
@@ -1512,12 +1512,12 @@ Mods: {
 
 		MusicDisplay: {
 			ForgottenWinds: {
-				DisplayName: Forgotten Winds
+				DisplayName: 遗忘之风
 				Author: by Toasty
 			}
 
 			UnholySanctuary: {
-				DisplayName: Unholy Sanctuary
+				DisplayName: 秽色圣所
 				Author: by Toasty
 			}
 
@@ -1798,22 +1798,22 @@ Mods: {
 		}
 
 		Projectiles: {
-			AbyssalIce.DisplayName: Abyssal Ice
-			BoxJellyZap.DisplayName: Jelly Zap
-			DevilfishExplosion.DisplayName: Devilburst
-			EidolistElectricOrb.DisplayName: Electric Orb
-			EidolistElectricOrb2.DisplayName: Electric Orb
-			EidolistIce.DisplayName: Abyssal Ice
-			EidolistIceBomb.DisplayName: Abyssal Ice
+			AbyssalIce.DisplayName: 深渊幻冰
+			BoxJellyZap.DisplayName: 水母电击
+			DevilfishExplosion.DisplayName: 魔鬼爆破
+			EidolistElectricOrb.DisplayName: 电球
+			EidolistElectricOrb2.DisplayName: 电球
+			EidolistIce.DisplayName: 深渊幻冰
+			EidolistIceBomb.DisplayName: 深渊幻冰
 			EidolistLightning.DisplayName: 闪电
-			EidolistRitual.DisplayName: Ritual
+			EidolistRitual.DisplayName: 仪式
 			ElectricPulse.DisplayName: 电脉冲
 			InkBlob.DisplayName: 墨汁球
 			InkBolt.DisplayName: 墨汁
 			MiniReaperShark.DisplayName: 猎魂鲨
 			ReaperSharkIceBreath.DisplayName: 冰息
-			SimpleAbyssalSoul.DisplayName: Abyssal Spirit
-			AbyssalSoul.DisplayName: Abyssal Spirit
+			SimpleAbyssalSoul.DisplayName: 深渊之魂
+			AbyssalSoul.DisplayName: 深渊之魂
 			AbyssalSoulTelegraph.DisplayName: Abyssal Telegraph
 			AEWIllusionTelegraphLine.DisplayName: Telegraph
 			AEWNightmareWyrm.DisplayName: 幻海妖龙
