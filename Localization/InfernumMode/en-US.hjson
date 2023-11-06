@@ -2508,7 +2508,7 @@ Mods: {
 				Godmode: Toggle cybernetic immortality
 				NoClip: Toggle physics defiance flying
 				TimeSetMorning: Accelerate time until sunrise
-				TimeSetNoon: Accelerate time until noon"
+				TimeSetNoon: Accelerate time until noon
 				TimeSetDusk: Accelerate time until sunset
 				Butcher: Atomize every single hostile NPC
 			}
