@@ -368,7 +368,7 @@ Mods: {
 
 			ArtemisAndApolloIntroScreen.TextToDisplay:
 				'''
-				终极猎手
+				至尊猎手
 				阿尔忒弥斯和阿波罗
 				'''
 			AstrumAureusIntroScreen.TextToDisplay:
@@ -490,8 +490,8 @@ Mods: {
 					'''
 				JokeTextToDisplay:
 					'''
-					号码 ! 年度推销员
-					【1997】
+					号码【链接已屏蔽】
+					【推销员1997】
 					'''
 			}
 
@@ -730,7 +730,7 @@ Mods: {
 					'''
 					增加30%伤害和攻击速度
 					免疫夜魇
-					[c/ff5d5d:你会变得不幸（无法暴击）]
+					[c/ff5d5d:你无法暴击]
 					[c/59aae7:这听起来就像两兄弟在阳光下追逐玻璃青蛙]
 					'''
 			}
@@ -1344,7 +1344,7 @@ Mods: {
 			}
 
 			Wayfinder: {
-				DisplayName: The Wayfinder
+				DisplayName: 寻路者
 				Tooltip:
 					'''
 					Creates a magical gate that allows you to fast travel to it
@@ -2488,8 +2488,8 @@ Mods: {
 			GuardiansPlaqueUI: {
 				HoverText: Read
 				// !! Beware translators: The "ancient artifact" string must be the same as the one in the SpecialText
-				PlaqueText: Three disciples. One mind. One deity. One purpose. Tempered by the holy flames of Providence, an ancient artifact is crystalized, with the sole purpose of initiating the Ritual at the cliff of this Temple.
-				SpecialText: ancient artifact
+				PlaqueText: 三位圣徒。同一思想，同一神性，同一目标。在亵渎圣火的淬炼下，一个远古圣器结晶而出，其唯一的目的是在这座神庙的悬崖上开启仪式。
+				SpecialText: 远古圣器
 			}
 
 			// Enrage tooltips
