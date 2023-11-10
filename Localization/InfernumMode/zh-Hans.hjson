@@ -5,7 +5,7 @@ Mods: {
 				DisplayName: 死海无涯
 				Description:
 				    '''
-			        死的越多，懂得越多
+					死的越多，懂得越多
 					[c/777777:在炼狱模式中死于任意一个Boss]
 					'''
 			}
@@ -176,7 +176,7 @@ Mods: {
 		}
 
 		Bestiary: {
-			BereftVassal: 一位曾漫无目的流浪的警惕守护者。在得知他的国王还活着后，他似乎已重新燃起了他生存的意志。他期待着再次与你战斗。
+			BereftVassal: 一位警惕的守护者，他曾漫无目的地流浪。在得知他的国王还活着后，他似乎已重新燃起了生存的意志。他期待着再次与你战斗。
 			DepthFeeder: 即使是在深渊这一极其恶劣的环境中，生态系统仍然有可能蓬勃发展。
 			Herring: 源于不寻常的顽强，这种生物得以在剧毒的深渊上层的洞穴中繁衍生息。但无论如何，它们仍处于食物链的底端。
 			Lionfish: 这些畸形的鱼在它们的自然栖息地很少被捕食，这在很大程度上归功于它们那攻守兼备的毒刺。
@@ -344,7 +344,7 @@ Mods: {
 				'''
 			AnahitaIntroScreen.TextToDisplay:
 				'''
-				遗忘精灵
+				遗忘元素
 				阿娜希塔
 				'''
 			AquaticScourgeIntroScreen.TextToDisplay:
@@ -398,7 +398,7 @@ Mods: {
 				'''
 			BrimstoneElementalIntroScreen.TextToDisplay:
 				'''
-				受创守护神
+				残殇之灵
 				硫磺火元素
 				'''
 			CalamitasShadowIntroScreen.TextToDisplay:
@@ -463,12 +463,12 @@ Mods: {
 				'''
 			DukeFishronIntroScreen.TextToDisplay:
 				'''
-				海洋之惧
+				渊洋骇兽
 				猪龙鱼公爵
 				'''
 			EaterOfWorldsIntroScreen.TextToDisplay:
 				'''
-				腐化之惧
+				腐化惧魇
 				世界吞噬者
 				'''
 			EmpressOfLightIntroScreen.TextToDisplay:
@@ -720,7 +720,7 @@ Mods: {
 				Tooltip: 
 					'''
 					大幅提高水下能见度
-					Creates an underwater visual
+					创造一种水下视觉效果
 					'''
 			}
 
@@ -895,82 +895,82 @@ Mods: {
 			}
 
 			AEWRelic: {
-				DisplayName: 成年幻海妖龙孽狱圣物
+				DisplayName: 始源妖龙炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			AquaticScourgeRelic: {
-				DisplayName: 渊海灾虫孽狱圣物
+				DisplayName: 渊海灾虫炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			AstrumAureusRelic: {
-				DisplayName: 白金星舰孽狱圣物
+				DisplayName: 白金星舰炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			AstrumDeusRelic: {
-				DisplayName: 星神游龙孽狱圣物
+				DisplayName: 星神游龙炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			BereftVassalRelic: {
-				DisplayName: 无邦封臣孽狱圣物
+				DisplayName: 无邦封臣炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			BetsyRelic: {
-				DisplayName: 双足翼龙孽狱圣物
+				DisplayName: 双足翼龙炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			BrainOfCthulhuRelic: {
-				DisplayName: 克苏鲁之脑孽狱圣物
+				DisplayName: 克苏鲁之脑炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			BrimstoneElementalRelic: {
-				DisplayName: 硫磺火元素孽狱圣物
+				DisplayName: 硫磺火元素炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			CeaselessVoidRelic: {
-				DisplayName: 无尽虚空孽狱圣物
+				DisplayName: 无尽虚空炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			CrabulonRelic: {
-				DisplayName: 菌生蟹孽狱圣物
+				DisplayName: 菌生蟹炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			CryogenRelic: {
-				DisplayName: 极地之灵孽狱圣物
+				DisplayName: 极地之灵炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			DarkMageRelic: {
-				DisplayName: 暗黑魔法师孽狱圣物
+				DisplayName: 暗黑魔法师炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			DeerclopsRelic: {
-				DisplayName: 独眼巨鹿孽狱圣物
+				DisplayName: 独眼巨鹿炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			DesertScourgeRelic: {
-				DisplayName: 荒漠灾虫孽狱圣物
+				DisplayName: 荒漠灾虫炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			DestroyerRelic: {
-				DisplayName: 毁灭者孽狱圣物
+				DisplayName: 毁灭者炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			DevourerOfGodsRelic: {
-				DisplayName: 神明吞噬者孽狱圣物
+				DisplayName: 神明吞噬者炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
@@ -981,7 +981,7 @@ Mods: {
 			}
 
 			DraedonRelic: {
-				DisplayName: 嘉登孽狱圣物
+				DisplayName: 嘉登炼狱圣物
 				Tooltip: GetsChanged
 
 				PersonalMessage: {
@@ -999,33 +999,33 @@ Mods: {
 			}
 
 			DragonfollyRelic: {
-				DisplayName: 痴愚金龙孽狱圣物
+				DisplayName: 痴愚金龙炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			DreadnautilusRelic: {
-				DisplayName: 恐惧鹦鹉螺孽狱圣物
+				DisplayName: 恐惧鹦鹉螺炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			DukeFishronRelic: {
-				DisplayName: 猪龙鱼公爵孽狱圣物
+				DisplayName: 猪龙鱼公爵炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			EaterOfWorldsRelic: {
-				DisplayName: 世界吞噬怪孽狱圣物
+				DisplayName: 世界吞噬怪炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			EmpressOfLightRelic: {
-				DisplayName: 光之女皇孽狱圣物
+				DisplayName: 光之女皇炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage: The optional foes may at times be the most formidable. So too may they yield the greatest rewards.
 			}
 
 			EyeOfCthulhuRelic: {
-				DisplayName: 克苏鲁之眼孽狱圣物
+				DisplayName: 克苏鲁之眼炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
@@ -1035,44 +1035,44 @@ Mods: {
 			}
 
 			ForgottenShadowOfCalamitasRelic: {
-				DisplayName: 遗落灾影孽狱圣物
+				DisplayName: 遗落灾影炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			GiantClamRelic: {
-				DisplayName: 巨像蛤孽狱圣物
+				DisplayName: 巨像蛤炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			GolemRelic: {
-				DisplayName: 石巨人孽狱圣物
+				DisplayName: 石巨人炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage: Simple methodical planning goes a long way. It will be invaluable against future obstacles.
 			}
 
 			HiveMindRelic: {
-				DisplayName: 腐巢意志孽狱圣物
+				DisplayName: 腐巢意志炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			KingSlimeRelic: {
-				DisplayName: 史莱姆王孽狱圣物
+				DisplayName: 史莱姆王炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage: Even seasoned players may struggle somewhat in the face of something new and unfamiliar. Adaptability is key.
 			}
 
 			LeviathanRelic: {
-				DisplayName: 阿娜希塔和利维坦孽狱圣物
+				DisplayName: 利维坦和阿娜希塔炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			LunaticCultistRelic: {
-				DisplayName: 拜月教邪教徒孽狱圣物
+				DisplayName: 拜月教邪教徒炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			MoonLordRelic: {
-				DisplayName: 月亮领主孽狱圣物
+				DisplayName: 月亮领主炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
@@ -1082,12 +1082,12 @@ Mods: {
 			}
 
 			OgreRelic: {
-				DisplayName: 食人魔孽狱圣物
+				DisplayName: 食人魔炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			OldDukeRelic: {
-				DisplayName: 硫海遗爵孽狱圣物
+				DisplayName: 硫海遗爵炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
@@ -1097,17 +1097,17 @@ Mods: {
 			}
 
 			PerforatorsRelic: {
-				DisplayName: 血肉宿主孽狱圣物
+				DisplayName: 血肉宿主炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			PlaguebringerGoliathRelic: {
-				DisplayName: 瘟疫使者歌莉娅孽狱圣物
+				DisplayName: 瘟疫使者歌莉娅炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			PlanteraRelic: {
-				DisplayName: 世纪之花孽狱圣物
+				DisplayName: 世纪之花炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
@@ -1117,17 +1117,17 @@ Mods: {
 			}
 
 			PolterghastRelic: {
-				DisplayName: 噬魂幽花孽狱圣物
+				DisplayName: 噬魂幽花炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			ProfanedGuardiansRelic: {
-				DisplayName: 亵渎守卫孽狱圣物
+				DisplayName: 亵渎守卫炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			ProvidenceRelic: {
-				DisplayName: 亵渎天神孽狱圣物
+				DisplayName: 亵渎天神炼狱圣物
 				Tooltip: GetsChanged
 
 				PersonalMessage: {
@@ -1145,48 +1145,48 @@ Mods: {
 			}
 
 			QueenBeeRelic: {
-				DisplayName: 蜂王孽狱圣物
+				DisplayName: 蜂王炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			QueenSlimeRelic: {
-				DisplayName: 史莱姆皇后孽狱圣物
+				DisplayName: 史莱姆皇后炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			RavagerRelic: {
-				DisplayName: 毁灭魔像孽狱圣物
+				DisplayName: 毁灭魔像炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			SignusRelic: {
-				DisplayName: 神之使徒西格纳斯孽狱圣物
+				DisplayName: 西格纳斯炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			SkeletronPrimeRelic: {
-				DisplayName: 机械骷髅王孽狱圣物
+				DisplayName: 机械骷髅王炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			SkeletronRelic: {
-				DisplayName: 骷髅王孽狱圣物
+				DisplayName: 骷髅王炼狱圣物
 				Tooltip: GetsChanged
 				PersonalMessage: The first major roadblock. You are better now than before you faced it. Did you have fun learning its patterns?
 			}
 
 			SlimeGodRelic: {
-				DisplayName: 史莱姆之神孽狱圣物
+				DisplayName: 史莱姆之神炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			StormWeaverRelic: {
-				DisplayName: 风暴编织者孽狱圣物
+				DisplayName: 风暴编织者炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			SupremeCalamitasRelic: {
-				DisplayName: 至尊灾厄孽狱圣物
+				DisplayName: 至尊女巫，灾厄炼狱圣物
 				Tooltip: GetsChanged
 
 				PersonalMessage: {
@@ -1204,7 +1204,7 @@ Mods: {
 			}
 
 			TwinsRelic: {
-				DisplayName: 双子魔眼孽狱圣物
+				DisplayName: 双子魔眼炼狱圣物
 				Tooltip: GetsChanged
 
 				TooltipEffect: {
@@ -1218,12 +1218,12 @@ Mods: {
 			}
 
 			WallOfFleshRelic: {
-				DisplayName: 血肉墙孽狱圣物
+				DisplayName: 血肉墙炼狱圣物
 				Tooltip: GetsChanged
 			}
 
 			YharonRelic: {
-				DisplayName: 犽戎孽狱圣物
+				DisplayName: 犽戎炼狱圣物
 				Tooltip: GetsChanged
 			}
 
