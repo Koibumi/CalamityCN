@@ -16,18 +16,18 @@ Mods: {
 
 		Configs: {
 			InfernumMusicConfig: {
-				DisplayName: Config
+				DisplayName: 配置
 
 				OverrideCalTheme: {
-					Label: Override Calamitas' Theme
-					Tooltip: Determines whether Calamitas' track is overridden. If disabled, Stained Brutal Calamity will play instead, assuming Calamity's Music Mod is enabled.
+					Label: 覆盖至尊女巫，灾厄的主题曲
+					Tooltip: 决定是否覆盖至尊女巫，灾厄的音乐。如果禁用，在启用灾厄音乐包时将会播放“玷残之灾”。
 				}
 			}
 		}
 
 		MusicDisplay: {
 			AdultEidolonWyrm: {
-				DisplayName: Vocitus Terminus
+				DisplayName: 始源之末
 				Author: by PinpinNeon
 			}
 
