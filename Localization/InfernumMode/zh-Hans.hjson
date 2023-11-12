@@ -681,28 +681,28 @@ Mods: {
 				'''
 
 			ProfanedShard: {
-				SummoningText: Summons the Profaned Guardians when used on the cliff in the profaned garden at the far right of the underworld during day
+				SummoningText: 在白天地狱最右侧亵渎花园的悬崖上使用，召唤亵渎守卫
 				GardenWarning:
 					'''
-					Your world does not currently have a Profaned Garden. Kill the Moon Lord again to generate it
-					Be sure to grab the Hell schematic first if you do this, as the garden might destroy the lab
+					你的世界目前没有亵渎神庙，击杀一次月亮领主以生成它
+					如果你要这样做的话，请确保已经拿到了地狱原型图，因为花园可能会摧毁实验室
 					'''
 			}
 
-			EyeofDesolation.SummoningText: Summons the {0} when used during nighttime
-			ProfanedCore.SummoningText: Summons Providence when used at the altar in the profaned temple at the far right of the underworld
-			RuneofKos.DeveloperText: The Ceaseless Void can only be fought in the Archives
+			EyeofDesolation.SummoningText: 在夜晚使用时召唤{0}
+			ProfanedCore.SummoningText: 在地狱最右侧亵渎神庙中的圣坛使用，召唤亵渎天神
+			RuneofKos.DeveloperText: 无尽虚空只能在废弃档案室中战斗
 
 			SandstormsCore: {
-				PortalDetail: Opens a portal to the Lost Colosseum
-				GatewayWarning: Your world does not currently have a Lost Gateway. Kill the Lunatic Cultist again to generate it.
+				PortalDetail: 开启前往失落竞技场的入口
+				GatewayWarning: 你的世界目前没有失落之门，杀死拜月教邪教徒以生成它。
 			}
 
 			LihzahrdPowerCell.SummoningText:
 				'''
-				Summons Golem when used at the Lihzhard Altar
-				Golem summons a rectangular arena around the altar
-				If the altar is inside of the temple solid tiles within the arena are broken
+				在丛林蜥蜴祭坛使用，召唤石巨人
+				石巨人将会在祭坛周围创建一个矩形战斗场地
+				如果祭坛在神庙内，则场地内神庙方块会被破坏
 				'''
 
 			CherishedSealocket: {
@@ -737,20 +737,20 @@ Mods: {
 
 			// Important: Don't translate this tooltip, currently is being used for the tooltip effect
 			SakuraBloom: {
-				DisplayName: Sakura Bloom
+				DisplayName: 盛开的樱花
 				Tooltip:
 					'''
-					A symbol of how beautiful love is when in bloom, and how easily it can wither away whyyyy
-					Temporary
+					这象征着爱情在盛开时是多么美丽，而它又多么容易枯萎
+					短暂的
 					'''
 
 				TooltipEffect: {
-					FirstText: "A symbol of how beautiful "
-					SecondText: love
-					ThirdText: " is when it’s in bloom, and yet how easily it can wither away"
-					FourthText: "Maybe with this, we can hold onto the "
-					FifthText: memories
-					SixthText: ?
+					FirstText: "这象征着"
+					SecondText: 爱情
+					ThirdText: "在盛开时是多么美丽，而它又多么容易枯萎"
+					FourthText: "也许有了这个，我们就能保存"
+					FifthText: 记忆
+					SixthText: ？
 				}
 			}
 
@@ -974,9 +974,9 @@ Mods: {
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
-					Sometimes pure reaction skill is the most valuable thing to cultivate.
-					You are in the final stretch. Your determination has proven invaluable up to this point.
-					May it guide you through the last challenges.
+					有些时候，纯粹的反应能力是最值得去培养的。
+					你已经到了最终的阶段。目前为止，你已经证明了你那无价的决心。
+					愿它指引你完成最后的挑战。
 					'''
 			}
 
@@ -987,13 +987,13 @@ Mods: {
 				PersonalMessage: {
 					DefaultMessage:
 						'''
-						You have done phenomenally. There is only one challenge left now-
-						Face the Witch.
+						你做的很好。现在，只剩下一个挑战了-
+						面对那位女巫。
 						'''
 					DownedCalamitasMessage:
 						'''
-						Spectacular work. You have conquered all of the major obstacles.
-						Take pride in this accomplishment, for you are considerably stronger than you were when you began.
+						令人赞叹，你已经战胜了所有的困难。
+						为这些成就感到骄傲吧，因为你已经比最初的时候更加强大了。
 						'''
 				}
 			}
@@ -1021,7 +1021,7 @@ Mods: {
 			EmpressOfLightRelic: {
 				DisplayName: 光之女皇炼狱圣物
 				Tooltip: GetsChanged
-				PersonalMessage: The optional foes may at times be the most formidable. So too may they yield the greatest rewards.
+				PersonalMessage: 那些可选性的敌人有时可能很难对付，击败他们也可能会拥有很高的收益。
 			}
 
 			EyeOfCthulhuRelic: {
@@ -1029,8 +1029,8 @@ Mods: {
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
-					Remember to not force yourself too much in the pursuit of victory. Take breaks if you need to.
-					The most important thing is fun.
+					记住，你没有必要一直强迫自己取得胜利，有必要的话小憩一下也未尝不可。
+					最重要的是享受游戏的乐趣。
 					'''
 			}
 
@@ -1047,7 +1047,7 @@ Mods: {
 			GolemRelic: {
 				DisplayName: 石巨人炼狱圣物
 				Tooltip: GetsChanged
-				PersonalMessage: Simple methodical planning goes a long way. It will be invaluable against future obstacles.
+				PersonalMessage: 还有很长的路要走，有条不紊的计划将有助于克服未来的障碍。
 			}
 
 			HiveMindRelic: {
@@ -1058,7 +1058,7 @@ Mods: {
 			KingSlimeRelic: {
 				DisplayName: 史莱姆王炼狱圣物
 				Tooltip: GetsChanged
-				PersonalMessage: Even seasoned players may struggle somewhat in the face of something new and unfamiliar. Adaptability is key.
+				PersonalMessage: 即使是经验再丰富的玩家，面对陌生的挑战也会有些吃力。适应力是关键。
 			}
 
 			LeviathanRelic: {
@@ -1076,8 +1076,8 @@ Mods: {
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
-					You have done very well thus far.
-					May your tenacity guide you through the remaining challenges.
+					到目前为止，你做得很好。
+					但愿你的坚韧不拔能指引你完成剩下的挑战。
 					'''
 			}
 
@@ -1091,8 +1091,8 @@ Mods: {
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
-					Difficult as the fight may be, you were wise to endure and overcome the challenge it brings.
-					You will find that the mechanics it tested will be relevant again soon.
+					这也许是场困难的战斗，但你十分明智的忍受并克服了它所带来的挑战。
+					你会发现它所测试你的机制将很快就会再次出现。
 					'''
 			}
 
@@ -1111,8 +1111,8 @@ Mods: {
 				Tooltip: GetsChanged
 				PersonalMessage:
 					'''
-					Be proud of your death count!
-					The more you die, the more you're learning. Keep going!
+					为死亡而感到骄傲吧！
+					死亡次数越多，你的经验便越丰富。继续加油！
 					'''
 			}
 
@@ -1133,13 +1133,13 @@ Mods: {
 				PersonalMessage: {
 					DefaultMessage:
 						'''
-						The first major hurdle following the defeat of the Moon Lord. Your triumph over her was by no means a small feat.
-						Perhaps consider fighting her again during the night for a special challenge?
+						这是在你击败月球领主后遇到的第一个阻碍，战胜她绝非易事。
+						也许你可以试试在晚上与她来一场特别的战斗？
 						'''
 					HasBeatenInfernumNightProvBeforeDayMessage:
 						'''
-						Bruh? What the heck? Are you OK?
-						            You were supposed to fight her at night AFTER beating her during the day first!
+						老兄？你在干什么？你还好吗？
+						你应该先在白天击败过她一次后再在晚上与她战斗的！
 						'''
 				}
 			}
@@ -1172,7 +1172,7 @@ Mods: {
 			SkeletronRelic: {
 				DisplayName: 骷髅王炼狱圣物
 				Tooltip: GetsChanged
-				PersonalMessage: The first major roadblock. You are better now than before you faced it. Did you have fun learning its patterns?
+				PersonalMessage: 流程第一个阻碍，你现在比之前面对它时更加熟练了，你享受熟练它攻击模式的过程吗？
 			}
 
 			SlimeGodRelic: {
@@ -1192,13 +1192,13 @@ Mods: {
 				PersonalMessage: {
 					DefaultMessage:
 						'''
-						You have done phenomenally. There is only one challenge left now-
-						Face the Cosmic Engineer.
+						你做的很好。现在，只剩下一个挑战了-
+						面对那位神匠。
 						'''
 					DownedExoMechsMessage:
 						'''
-						Spectacular work. You have conquered all of the major obstacles.
-						Take pride in this accomplishment, for you are considerably stronger than you were when you began.
+						令人赞叹，你已经战胜了所有的困难。
+						为这些成就感到骄傲吧，因为你已经比最初的时候更加强大了。
 						'''
 				}
 			}
@@ -1228,7 +1228,7 @@ Mods: {
 			}
 
 			SakuraBud: {
-				DisplayName: Sakura Bud
+				DisplayName: 樱花花苞
 				Tooltip:
 					'''
 					A delicate, fragile sakura bud, just about to bloom
@@ -1376,18 +1376,18 @@ Mods: {
 			}
 
 			IllusionersReverie: {
-				DisplayName: Illusioner's Reverie
+				DisplayName: 幻迷之念
 				Tooltip:
 					'''
-					Casts shadow illusions of yourself that hunt down nearby enemies before dispersing into clouds of dark magic
-					You shouldn't see this
-					Its existence compels one to wonder what knowledge has been lost to the mysterious, watery depths
+					发射你的暗影幻象追踪攻击附近的敌怪，然后幻象会分散成黑魔法云
+					你不应该看见这个
+					它的存在让人不禁想知道，究竟是什么知识被神秘的深海淹没了
 					'''
 
 				TooltipEffect: {
-					FirstText: "An "
-					SecondText: "incomprehensibly "
-					ThirdText: old tome. Somehow, in spite of its supposed age, it appears to be completely unscathed
+					FirstText: "一本"
+					SecondText: "令人费解的"
+					ThirdText: 古老巨著。不知何故，尽管它的年代久远，但它似乎仍然完好无损
 				}
 			}
 
@@ -1482,10 +1482,10 @@ Mods: {
 				DisplayName: 亵渎花园位置设置器
 				Tooltip:
 				'''
-				Use this to fix the profaned garden not functioning properly.
-				Left click the bottom-center of the Profaned Plaque tile in the middle of the garden.
-				This will center the garden position around that point correctly.
-				You can right click to revert the position to the previous one.
+				用它来修复亵渎花园功能异常的问题。
+				左键单击花园中间亵渎碑文的物块底部中心。
+				这可以让花园的位置正确的绕该点居中。
+				你可以右键单击将位置恢复到上一次设置的位置。
 				'''
 			}
 
@@ -1495,12 +1495,12 @@ Mods: {
 			}
 
 			ForbiddenArchivesLocationSetter: {
-				DisplayName: Forbidden Archives Location Setter
+				DisplayName: 废弃档案室位置设置器
 				Tooltip:
 					'''
-					Use this if your archives were destroyed by the abyss.
-					Left click the center of your dungeon arena to allow Ceaseless Void to naturally spawn.
-					You can right click to revert the position to the previous one.
+					如果你的档案室被深渊摧毁了的话，请使用这个。
+					左键单击你的地牢场地中心，让无尽虚空自然生成。
+					你可以右键单击将位置恢复到上一次设置的位置。
 					'''
 			}
 		}
@@ -1552,7 +1552,7 @@ Mods: {
 				DisplayName: 无邦封臣，阿尔戈斯
 
 				BossChecklistIntegration: {
-					SpawnInfo: Use a [i:7119] at the pedestal in the heart of the desert.
+					SpawnInfo: 在沙漠中心的基座上使用[i:7119]。
 					EntryName: 无邦封臣
 				}
 			}
@@ -1625,25 +1625,25 @@ Mods: {
 			BoCTip3: 当那些飞眼怪开始用灵液给你洗澡时，试着经常改变方向，这也许会给你一些回旋余地！
 			CalShadowTip1: 那个浮在你身边的魔法戒指在干什么？注意它可能造成的影响！
 			CalShadowBrosTip: 缓慢移动会有助于你躲避灾厄之影的兄弟们的攻击！
-			CalShadowFinalPhaseTip: She’s pulling out all the stops… but her hexes are gone! Now you can focus on her alone!
-			CalShadowJokeTip1: I'd be mad but, look at her! such a small bean.
+			CalShadowFinalPhaseTip: 她正在使出全力......但她的巫术已经消失了！现在你可以把注意力集中在她身上了！
+			CalShadowJokeTip1: 我都要生气了但是，看看她！像是个小豆子。
 			CVTip1: 战斗开始时尽量不要随意移动，找到安定点才是关键！
 			CVTip2: 无尽虚空的大部分攻击都需要高机动性才能躲避，务必注意屏幕上的任何射弹！
 			CVPortalTip: 那些传送门在准备些什么！快靠近无尽虚空！快！
 			CVEnergyBurstTip: 那些东西释放了大量能量！尝试靠近边缘并上下移动来穿过它！
-			CVEnergyBurstTip2: Those blobs seem to spin in a spiral! Spin with them!
+			CVEnergyBurstTip2: 那些小东西好像在盘旋！跟它们一起转起来！
 			CVEnergyBurstTip3: 保持冷静！兜圈子！抓住重点！
 			CVEnergyChainsTip: 那些锁链撑不了多久了！振作起来！
 			CrabulonTip1: 菌生蟹只会在每第三次跳跃时发射孢子。最好数着点！
-			CrabulonTip2: Try focusing on those Crab Shrooms. They'll overwhelm you if you leave them alone!
+			CrabulonTip2: 试着把注意力集中在真菌孢子上。如果你不管它们，它们有可能把你压到！
 			CrabulonTip3: Staying leveled with Crabulon might be helpful, better than catching multiple types of bacterial diseases in the air above...
 			CrabulonTip4: That crab isn't so foolish. the higher you try to go, the higher he'll jump up to catch you!
 			CrabulonClawTip: Crabulon gets protective when it exposes its insides - maybe you can push it back if you need more space!
 			CrabulonJokeTip1: There isnt Mushroom for the three of us, and I can tell who won the roullete.
 			CryogenTip1: Move as little as possible while it's above you. That should calm down its spastic jittering!
 			CryogenTip2: The Ice pillars break down into Ice daggers as well, watch out from the sides!
-			CryogenJokeTip1: Man, that was totally uncool!
-			CryogenJokeTip2: This thing has zero chill!
+			CryogenJokeTip1: 老兄，那太不“冷”酷了！
+			CryogenJokeTip2: 这东西可毫无寒意！
 			CryogenBlizzardTip: The blizzard is picking up Aurora Spirits from both sides, beware running to the sides!
 			CultistTip1: That guy was quite a lunatic, You might want extra mobility!
 			CultistIceBurstTip: Try to get between those lines, before the ice barrages explode!
@@ -1772,7 +1772,7 @@ Mods: {
 			SkeletronTip1: Contrary to what you may think, running into the shadowflame walls will not work, take it slow!
 			SkeletronTip2: Don't panic when Skeletron does his barrages of hand fireballs! Just jump and stay calm!
 			SkeletronTip3: The homing skulls take a long while to turn around, so it's possibly better to stay in a general spot rather than run far!
-			SkeletronJokeTip1: Geeettttttt DUNKED ON!!!
+			SkeletronJokeTip1: 花式吊打！！！
 			SlimeGodTip1: They dont seem very intelligent, maybe you could trick them to jump higher if you do aswell?
 			SlimeGodTip2: That was a little overwhelming! I wonder if mirroring its moves could work in your favor?
 			StormWeaverTip1: Those cloud barrages can take you by surprise! Stay focused - that storm scourge only seems to be focused on summoning attacks, not ramming you!
@@ -1789,12 +1789,12 @@ Mods: {
 			WoFTip2: These detached eyes are rather intimidating, Good thing they only shoot at very specific points!
 			WoFTip3: Yuck, Those grotesque mouths break off and fly?! Wish I could just burn them in an Inferno myself…
 			WoFJokeTip1: Welp, that one was a bust! Nothing beats having more opportunities to bully the Guide though!
-			YharonPreHealTip: You're almost there! Yharon is surely at the end of his rope now!
-			YharonPostHealTip: Oh..
-			YharonSpeedTip: Try and remember when Yharon starts hyper-dashing, or he’ll catch you off guard!
-			YharonFlashbangTip: Don't let the flashbang faze you! Keep your eyes peeled for where the embers are!
-			YharonCarpetBombTip: Better stay near the edges of the arena during those carpet bomb flames, That should keep them out of the way!
-			YharonJokeTip1: AND IF I SHOULD DIE BEFORE YOU CONTINUEE, YOU SHALL HAV-... Wait, you died? Come on, I was on a roll here!
+			YharonPreHealTip: 你快做到了！犽戎现在肯定已是穷途末路了！
+			YharonPostHealTip: 啊？
+			YharonSpeedTip: 试着记住犽戎什么时候会疯狂冲刺，否则它会打你个措手不及！
+			YharonFlashbangTip: 不要让闪光吓到你！留意那些余烬在哪！
+			YharonCarpetBombTip: 在那些地毯式的爆炸火焰中，你最好待在战斗场地边缘，这样它们就不会影响走位了！
+			YharonJokeTip1: “如果我在你的伟业继续之前而死，你会......”等等，你死了？来吧，我在这里玩的很开心！
 		}
 
 		Projectiles: {
