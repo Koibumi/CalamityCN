@@ -28,117 +28,117 @@ Mods: {
 		MusicDisplay: {
 			AdultEidolonWyrm: {
 				DisplayName: 始源之末
-				Author: by PinpinNeon
+				Author: 作曲：PinpinNeon
 			}
 
 			BrainOfCthulhu: {
-				DisplayName: Intellect of the Crimson
-				Author: by PinpinNeon
+				DisplayName: 猩红遗智
+				Author: 作曲：PinpinNeon
 			}
 
 			Calamitas: {
-				DisplayName: Scars of Calamity
-				Author: by PinpinNeon
+				DisplayName: 灾之痂痕
+				Author: 作曲：PinpinNeon
 			}
 
 			LunaticCultist: {
-				DisplayName: Eidolic Ancestry
-				Author: by PinpinNeon
+				DisplayName: 幻海血脉
+				Author: 作曲：PinpinNeon
 			}
 
 			DukeFishron: {
-				DisplayName: Razorblade Monsoon
-				Author: by PinpinNeon
+				DisplayName: 利刃台风
+				Author: 作曲：PinpinNeon
 			}
 
 			EaterOfWorlds: {
-				DisplayName: Maw of the Corruption
-				Author: by PinpinNeon
+				DisplayName: 腐化胃咽
+				Author: 作曲：PinpinNeon
 			}
 
 			EmpressOfLight: {
-				DisplayName: Shining Kaleidoscope ~ Prismatic Radiance
-				Author: by PinpinNeon
+				DisplayName: 曜天万華鏡~ Prismatic Radiance
+				Author: 作曲：PinpinNeon
 			}
 
 			EyeOfCthulhu: {
-				DisplayName: Seer of the Night
-				Author: by PinpinNeon
+				DisplayName: 夜幕凝视
+				Author: 作曲：PinpinNeon
 			}
 
 			Golem: {
-				DisplayName: Icon of the Sun
-				Author: by PinpinNeon
+				DisplayName: 艳阳之证
+				Author: 作曲：PinpinNeon
 			}
 
 			KingSlime: {
-				DisplayName: Gelatinous Dynasty
-				Author: by PinpinNeon
+				DisplayName: 凝元王朝
+				Author: 作曲：PinpinNeon
 			}
 
 			MechBosses: {
-				DisplayName: Inferior Fabrications
-				Author: by PinpinNeon
+				DisplayName: 劣等造物
+				Author: 作曲：PinpinNeon
 			}
 
 			Minibosses: {
-				DisplayName: Misanthropic Encounters
-				Author: by PinpinNeon
+				DisplayName: 极恶强敌
+				Author: 作曲：PinpinNeon
 			}
 
 			MoonLord: {
-				DisplayName: The End Of An Olden Era
-				Author: by PinpinNeon
+				DisplayName: 旧世之终
+				Author: 作曲：PinpinNeon
 			}
 
 			Plantera: {
-				DisplayName: Floral Animosity
-				Author: by PinpinNeon
+				DisplayName: 花卉暴憎
+				Author: 作曲：PinpinNeon
 			}
 
 			QueenBee: {
-				DisplayName: Royal Retaliation
-				Author: by PinpinNeon
+				DisplayName: 皇后的复仇
+				Author: 作曲：PinpinNeon
 			}
 
 			QueenSlime: {
-				DisplayName: Crowned Before One's End
-				Author: by PinpinNeon
+				DisplayName: 神赐末王
+				Author: 作曲：PinpinNeon
 			}
 
 			Skeletron: {
-				DisplayName: Warden of the Damned
-				Author: by PinpinNeon
+				DisplayName: 诅咒守门人
+				Author: 作曲：PinpinNeon
 			}
 
 			WallOfFlesh: {
-				DisplayName: One's Ending, Another's Beginning
-				Author: by PinpinNeon
+				DisplayName: 终亦是始
+				Author: 作曲：PinpinNeon
 			}
 
 			Draedon: {
-				DisplayName: Their Fabricator
-				Author: by PinpinNeon
+				DisplayName: 它们的造物主
+				Author: 作曲：PinpinNeon
 			}
 
 			ExoMechBosses: {
-				DisplayName: Catastrophic Fabrications
-				Author: by PinpinNeon
+				DisplayName: 铸灾神械
+				Author: 作曲：PinpinNeon
 			}
 
 			ZenithFabrications: {
-				DisplayName: Zenith Fabrications
-				Author: by PinpinNeon
+				DisplayName: 天穹魔械
+				Author: 作曲：PinpinNeon
 			}
 
 			TitleScreen: {
-				DisplayName: Sky After Rain
-				Author: by PinpinNeon
+				DisplayName: 雨后的天空
+				Author: 作曲：PinpinNeon
 			}
 
 			StormBeforeDawn: {
-				DisplayName: Storm Before Dawn
-				Author: by PinpinNeon
+				DisplayName: 黎明前的风暴
+				Author: 作曲：PinpinNeon
 			}
 		}
 	}
