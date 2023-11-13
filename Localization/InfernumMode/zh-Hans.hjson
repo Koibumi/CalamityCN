@@ -1667,12 +1667,12 @@ Mods: {
 			DoGChargeTip: Don't feel intimidated, face fear in the eyes and dash directly into the Devourer's maw!
 			DoGDashTip: A dashing accessory would be reeaaaally helpful here...
 			DoGBashTip: Being able to face it head on with a ram sounds like a good idea, don't you think?
-			DoGJokeTip1: What the DoG doin'?
-			ExoMechComboTip: Seems like they are combining efforts, beware!
-			DraedonChooseTip1: Better choose well!
-			DraedonChooseTip2: If a certain starting combo isnt working too well, maybe experiment with another one?
+			DoGJokeTip1: 神长在干什么？
+			ExoMechComboTip: 看起来它们正在进行组合攻击，当心！
+			DraedonChooseTip1: 悠着点选！
+			DraedonChooseTip2: 如果一开始选的组合效果不太理想，也许你可以试试另一种组合？
 			AresTip1: Best to keep close during these Exo Overload attacks, otherwise you may have trouble keeping up with the spin!
-			AresTip2: Ares has one hell of a supercomputer, those arms are super predictive! Maybe you can use that to your advantage?
+			AresTip2: 阿瑞斯有一台超级计算机，他的手臂具有极强的预判能力！但也许你可以利用这一机制？
 			ExoTwinsTip1: The Exo-Twins are magnificently in-sync, try finding a rhythm to outsmart them?
 			ThanatosChargeTip: Don't fret, face fear in the eyes and dash directly into Thanatos' face-plates!
 			DragonfollyTip1: The Dragonfolly wants you to think it’s chaotic, but it really isn’t! Slow down a little and analyze things!
@@ -1695,7 +1695,7 @@ Mods: {
 			EoCTip1: Stay near those tooth balls! The teeth they fire are aimed far away from them!
 			EoCTip2: Don’t bother trying to kill the servants, they’ll be out of your eye before they die!
 			EoCJokeTip1: Eye can’t believe you got blind-sided by that!
-			EoCJokeTip2: Eye ay ay! what a way to die...
+			EoCJokeTip2: 哎呀呀！这又是什么样的死法了……
 			GolemTip1: Golem's eye color will change depending on it's attack. Keep your own eyes peeled!
 			GolemTip2: if you find it hard to get onto platforms, just know that you can hook onto walls to regain your flight time!
 			GolemJokeTip1: You're gonna have a bad time...
@@ -1785,7 +1785,7 @@ Mods: {
 			TwinsFinalOptionTip: Each one of the Twins has their own special last resort procedure, if one is giving you a hard time; try focusing on the other first!
 			TwinsTip1: Having trouble dodging during the spin? Three can play at that game, Spin!
 			TwinsFinalPhaseTip: Watch out, that last twin is gonna hit you with everything it's got! Don't let up!
-			WoFTip1: Be sure to run the opposite direction!
+			WoFTip1: 你一定要朝反方向跑！
 			WoFTip2: These detached eyes are rather intimidating, Good thing they only shoot at very specific points!
 			WoFTip3: Yuck, Those grotesque mouths break off and fly?! Wish I could just burn them in an Inferno myself…
 			WoFJokeTip1: Welp, that one was a bust! Nothing beats having more opportunities to bully the Guide though!
@@ -1814,14 +1814,14 @@ Mods: {
 			ReaperSharkIceBreath.DisplayName: 冰息
 			SimpleAbyssalSoul.DisplayName: 深渊之魂
 			AbyssalSoul.DisplayName: 深渊之魂
-			AbyssalSoulTelegraph.DisplayName: Abyssal Telegraph
-			AEWIllusionTelegraphLine.DisplayName: Telegraph
+			AbyssalSoulTelegraph.DisplayName: 深渊预警线
+			AEWIllusionTelegraphLine.DisplayName: 预警线
 			AEWNightmareWyrm.DisplayName: 幻海妖龙
 			AEWSplitForm.DisplayName: 始源妖龙
-			AEWTelegraphLine.DisplayName: Telegraph
-			CircleCenterTelegraph.DisplayName: Telegraph
-			ConvergingLumenylCrystal.DisplayName: Divine Lumenyl
-			DivineLightBolt.DisplayName: Divine Light Bolt
+			AEWTelegraphLine.DisplayName: 预警线
+			CircleCenterTelegraph.DisplayName: 预警线
+			ConvergingLumenylCrystal.DisplayName: 圣洁晶体
+			DivineLightBolt.DisplayName: 圣洁光弹
 			DivineLightLaserbeam.DisplayName: Divine Light Deathray
 			DivineLightOrb.DisplayName: Divine Light Orb
 			HorizontalRayTerminus.DisplayName: Horizontal Ray Terminus
