@@ -1235,7 +1235,6 @@ Mods: {
 					FifthText: 水中
 					SixthText: 也许你应该跟随它的指引？
 				}
-				}
 			}
 
 			BloodwormPlatter: {
@@ -1817,117 +1816,117 @@ Mods: {
 			CircleCenterTelegraph.DisplayName: 预警线
 			ConvergingLumenylCrystal.DisplayName: 圣洁晶体
 			DivineLightBolt.DisplayName: 圣洁光弹
-			DivineLightLaserbeam.DisplayName: Divine Light Deathray
-			DivineLightOrb.DisplayName: Divine Light Orb
-			HorizontalRayTerminus.DisplayName: Horizontal Ray Terminus
-			LightCleaveTelegraph.DisplayName: Telegraph
-			PsychicBlast.DisplayName: Psychic Blast
-			TerminusDeathray.DisplayName: Primordial Light
-			AcceleratingArcingAcid.DisplayName: Acid
+			DivineLightLaserbeam.DisplayName: 圣洁死光
+			DivineLightOrb.DisplayName: 圣洁光球
+			HorizontalRayTerminus.DisplayName: 水平终末射线
+			LightCleaveTelegraph.DisplayName: 预警线
+			PsychicBlast.DisplayName: 心灵冲击
+			TerminusDeathray.DisplayName: 原始之光
+			AcceleratingArcingAcid.DisplayName: 酸
 			AcidBubble.DisplayName: 酸性气泡
-			AquaticScourgeBodySpike.DisplayName: Irradiated Spike
-			AquaticScourgeGore.DisplayName: Gore
-			FallingAcid.DisplayName: Acid
-			LeechFeeder.DisplayName: Feeder
+			AquaticScourgeBodySpike.DisplayName: 辐射毒牙
+			AquaticScourgeGore.DisplayName: 渊海凝块
+			FallingAcid.DisplayName: 酸
+			LeechFeeder.DisplayName: 水蛭
 			RadiationPulse.DisplayName: 辐射脉冲
 			SulphuricGas.DisplayName: 硫酸气体
 			SulphuricGasDebuff.DisplayName: 硫酸气体
-			SulphuricTornado.DisplayName: Sulphuric Typhoon
-			SulphurousRockRubble.DisplayName: Sulphuric Rubble
+			SulphuricTornado.DisplayName: 硫酸龙卷
+			SulphurousRockRubble.DisplayName: 硫酸泡泡
 			WaterClearingBubble.DisplayName: 酸性气泡
-			AstralBlueComet.DisplayName: Astral Comet
-			AstralLaserInfernum.DisplayName: Astral Laser Volley
+			AstralBlueComet.DisplayName: 星辉彗星
+			AstralLaserInfernum.DisplayName: 星界激光
 			AstralMissile.DisplayName: 星辉导弹
 			BlueLaserbeam.DisplayName: 星辉死亡射线
-			MissileTelegraphLine.DisplayName: Telegraph
+			MissileTelegraphLine.DisplayName: 预警线
 			OrangeLaserbeam.DisplayName: 星辉死亡射线
 			AstralBlackHole.DisplayName: 星辉黑洞
 			AstralConstellation.DisplayName: 星星
-			AstralCrystal.DisplayName: Astral Crystal
-			AstralFlame2.DisplayName: Astral Flame
-			AstralPlasmaFireball.DisplayName: Astral Plasma Flame
-			AstralPlasmaSpark.DisplayName: Astral Plasma Spark
-			AstralRubble.DisplayName: Astral Rubble
-			AstralSparkle.DisplayName: Astral Sparkle
-			AstralTelegraphLine.DisplayName: Telegraph
-			AstralVortex.DisplayName: Consumed Vortex
-			DarkGodLaser.DisplayName: Antimatter Deathray
-			DarkStar.DisplayName: Dark Star
-			InfectionGlob.DisplayName: Infection Glob
-			MassiveInfectedStar.DisplayName: Consumed Star
-			BloodGeyser2.DisplayName: Ichor Geyser
-			IchorSpit.DisplayName: Ichor
-			PsionicLightningBolt.DisplayName: Psionic Lightning Bolt
-			PsionicOrb.DisplayName: Psychic Energy
+			AstralCrystal.DisplayName: 星辉水晶
+			AstralFlame2.DisplayName: 星辉火焰
+			AstralPlasmaFireball.DisplayName: 星辉等离子火焰
+			AstralPlasmaSpark.DisplayName: 星辉等离子火花
+			AstralRubble.DisplayName: 星辉巨石
+			AstralSparkle.DisplayName: 星辉火花
+			AstralTelegraphLine.DisplayName: 预警线
+			AstralVortex.DisplayName: 消亡漩涡
+			DarkGodLaser.DisplayName: 反物质死亡射线
+			DarkStar.DisplayName: 暗星
+			InfectionGlob.DisplayName: 感染球
+			MassiveInfectedStar.DisplayName: 消亡之星
+			BloodGeyser2.DisplayName: 灵液间歇泉
+			IchorSpit.DisplayName: 灵液
+			PsionicLightningBolt.DisplayName: 灵能闪电
+			PsionicOrb.DisplayName: 灵能球
 			Brimrose.DisplayName: 硫火玫瑰
 			BrimstoneDeathray.DisplayName: 硫火射线
 			BrimstoneFireball.DisplayName: 硫磺火球
-			BrimstonePetal.DisplayName: Brimstone Petal
-			BrimstonePetal2.DisplayName: Brimstone Petal
+			BrimstonePetal.DisplayName: 硫火花瓣
+			BrimstonePetal2.DisplayName: 硫火花瓣
 			BrimstoneRose.DisplayName: 硫火玫瑰
-			BrimstoneSkull.DisplayName: Brimstone Skull
-			BrimstoneTelegraphRay.DisplayName: Brimstone Deathray
-			HomingBrimstoneSkull.DisplayName: Brimstone Hellblast
-			RedFlameTelegraph.DisplayName: Fuck you nobody is going to ever see this name
-			AccentuationHexProj.DisplayName: Calamitous Hex
-			ArcingBrimstoneDart.DisplayName: Brimstone Dart
+			BrimstoneSkull.DisplayName: 硫火之颅
+			BrimstoneTelegraphRay.DisplayName: 硫火死亡射线
+			HomingBrimstoneSkull.DisplayName: 硫火地狱冲击波
+			RedFlameTelegraph.DisplayName: 咦嘿嘿嘿嘿（fxxk），没人会看到这个名字
+			AccentuationHexProj.DisplayName: 灾厄巫咒
+			ArcingBrimstoneDart.DisplayName: 硫火飞镖
 			BrimstoneBomb.DisplayName: 硫火炸弹
-			BrimstoneBoomExplosion.DisplayName: Explosion
-			BrimstoneLightning.DisplayName: Brimstone Lightning Bolt
-			BrimstoneMeteor.DisplayName: Brimstone Meteor
-			BrimstoneSlash.DisplayName: Brimstone Slash
-			CatharsisHexProj.DisplayName: Calamitous Hex
-			CatharsisSoul.DisplayName: Burning Soul of Catharsis
-			CharredWand.DisplayName: Charred Wand
-			ConvergingShadowSpark.DisplayName: Shadow Spark
-			DarkMagicFlame.DisplayName: Dark Magic Flame
-			EntropyBeam.DisplayName: Entropic Beam
-			HauntingSoulSeeker.DisplayName: Soul Seeker
+			BrimstoneBoomExplosion.DisplayName: 爆炸
+			BrimstoneLightning.DisplayName: 硫火闪电
+			BrimstoneMeteor.DisplayName: 硫火流星
+			BrimstoneSlash.DisplayName: 硫火冲刺
+			CatharsisHexProj.DisplayName: 灾厄巫咒
+			CatharsisSoul.DisplayName: 宣泄的燃烧之魂
+			CharredWand.DisplayName: 焦黑魔杖
+			ConvergingShadowSpark.DisplayName: 暗影火花
+			DarkMagicFlame.DisplayName: 暗黑魔法火焰
+			EntropyBeam.DisplayName: 暗熵光束
+			HauntingSoulSeeker.DisplayName: 探魂者
 			HomingBrimstoneBurst.DisplayName: 硫磺火焰
-			IndignationHexProj.DisplayName: Calamitous Hex
-			LargeDarkFireOrb.DisplayName: Dark Fire Orb
-			LingeringBrimstoneFlames.DisplayName: Brimstone Fire Cloud
+			IndignationHexProj.DisplayName: 灾厄巫咒
+			LargeDarkFireOrb.DisplayName: 暗影火球
+			LingeringBrimstoneFlames.DisplayName: 硫火云
 			RisingBrimstoneFireball.DisplayName: 硫火炸弹
-			ShadowBlob.DisplayName: Shadow Blob
-			SoulSeekerResurrectionBeam.DisplayName: Necromantic Beam
-			ThinBrimstoneSlash.DisplayName: Brimstone Slash
-			WeaknessHexProj.DisplayName: Calamitous Hex
-			ZealHexProj.DisplayName: Calamitous Hex
+			ShadowBlob.DisplayName: 暗影斑点
+			SoulSeekerResurrectionBeam.DisplayName: 死灵光束
+			ThinBrimstoneSlash.DisplayName: 硫火冲刺
+			WeaknessHexProj.DisplayName: 灾厄巫咒
+			ZealHexProj.DisplayName: 灾厄巫咒
 			AcceleratingDarkEnergy.DisplayName: 暗能量
 			CeaselessEnergyPulse.DisplayName: 无尽能量脉冲
-			CeaselessVoidLineTelegraph.DisplayName: Line Telegraph
-			CeaselessVoidShell.DisplayName: Metal Shell
-			CeaselessVortex.DisplayName: Ceaseless Vortex
-			CeaselessVortexTear.DisplayName: Ceaseless Tear
-			ConvergingDungeonRubble.DisplayName: Energized Rubble
+			CeaselessVoidLineTelegraph.DisplayName: 预警线
+			CeaselessVoidShell.DisplayName: 金属外壳
+			CeaselessVortex.DisplayName: 无尽漩涡
+			CeaselessVortexTear.DisplayName: 无尽裂
+			ConvergingDungeonRubble.DisplayName: 充能碎石
 			EnergyTelegraph.DisplayName: 暗能量碎片
-			GammaBurstLineTelegraph.DisplayName: Line Telegraph
-			OtherworldlyBolt.DisplayName: Otherwordly Bolt
-			RealitySlice.DisplayName: Reality Tear
+			GammaBurstLineTelegraph.DisplayName: 预警线
+			OtherworldlyBolt.DisplayName: 虚空射线
+			RealitySlice.DisplayName: 现实撕裂者
 			SpinningDarkEnergy.DisplayName: 暗能量
 			TelegraphedOtherwordlyBolt.DisplayName: Otherwordly Bolt
-			HomingSpore.DisplayName: Spore
-			MushroomPillar.DisplayName: Mushroom Column
+			HomingSpore.DisplayName: 孢子
+			MushroomPillar.DisplayName: 蘑菇柱
 			SporeCloud.DisplayName: 孢子气体
-			AimedIcicleSpike.DisplayName: Icicle Spike
-			AuroraSpirit.DisplayName: Aurora Spirit
-			AuroraSpirit2.DisplayName: Aurora Spirit
-			IceBomb2.DisplayName: Ice Bomb
-			IcePillar.DisplayName: Ice Pillar
-			IceRain2.DisplayName: Ice Rain
-			IcicleSpike.DisplayName: Icicle Spike
-			AncientDoom.DisplayName: Doomer
-			CultistFireBeamTelegraph.DisplayName: Telegraph
-			CultistRitual.DisplayName: Ritual
-			DarkBolt.DisplayName: Dark Bolt
-			DarkBoltLarge.DisplayName: Dark Bolt
-			DarkPulse.DisplayName: Dark Pulse
-			DeathExplosion.DisplayName: Explosion
-			DoomBeam.DisplayName: Death Beam
-			FireballLineTelegraph.DisplayName: Telegraph
-			FireBeam.DisplayName: Flame Beam
-			IceMass.DisplayName: Ice Mass
-			IceShard.DisplayName: Ice Shard
+			AimedIcicleSpike.DisplayName: 冰柱尖刺
+			AuroraSpirit.DisplayName: 极光尖刺
+			AuroraSpirit2.DisplayName: 极光尖刺
+			IceBomb2.DisplayName: 寒冰炸弹
+			IcePillar.DisplayName: 冰柱
+			IceRain2.DisplayName: 冰炸弹
+			IcicleSpike.DisplayName: 冰柱尖刺
+			AncientDoom.DisplayName: 光明妖
+			CultistFireBeamTelegraph.DisplayName: 预警线
+			CultistRitual.DisplayName: 仪式
+			DarkBolt.DisplayName: 熵离子球
+			DarkBoltLarge.DisplayName: 熵离子球
+			DarkPulse.DisplayName: 暗影脉冲
+			DeathExplosion.DisplayName: 爆炸
+			DoomBeam.DisplayName: 死亡射线
+			FireballLineTelegraph.DisplayName: 预警线
+			FireBeam.DisplayName: 火焰光束
+			IceMass.DisplayName: 冰块
+			IceShard.DisplayName: 冰碎片
 			LightBeam.DisplayName: Beam
 			LightBurst.DisplayName: Light Burst
 			TeleportTelegraph.DisplayName: Telegraph
