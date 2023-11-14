@@ -716,7 +716,7 @@ StaffofBlushie: {
 
 StarShower: {
 	DisplayName: 流星雨
-	Tooltip: 向光标方向发射幻星
+	Tooltip: 从光标处降下幻星雨
 }
 
 StormSpray: {
