@@ -656,7 +656,7 @@ Mods: {
 
 		Items: {
 			// Beware translators, this line must match the "enrage" word in the tooltip of your language
-			EnrageTooltip: enrage
+			EnrageTooltip: 狂暴
 			DeveloperItem: "[c/{0}:~ 开发者物品 ~]"
 			InfernalRelicText: 以殁者之火铸其形，其焰猩赫
 
@@ -1206,15 +1206,6 @@ Mods: {
 			TwinsRelic: {
 				DisplayName: 双子魔眼炼狱圣物
 				Tooltip: GetsChanged
-
-				TooltipEffect: {
-					FirstText: "You feel a "
-					SecondText: guiding spirit
-					ThirdText: " trying to lead you the bloom’s home"
-					FourthText: "The spirit is trying to draw your attention to the "
-					FifthText: water
-					SixthText: Maybe you should follow its call?
-				}
 			}
 
 			WallOfFleshRelic: {
@@ -1231,15 +1222,19 @@ Mods: {
 				DisplayName: 樱花花苞
 				Tooltip:
 					'''
-					A delicate, fragile sakura bud, just about to bloom
-					You feel a guiding spirit trying to lead you the bloom’s home
-					Maybe you should follow its call?
+					一朵娇嫩脆弱的樱花花苞，含苞待放
+					你感觉一只精灵尝试指引你去往花苞的家
+					也许你应该跟随它的指引？
 					'''
 
 				TooltipEffect: {
 					FirstText: 你感觉一只
-					SecondText: " 精灵尝试指引 "
+					SecondText: "精灵尝试指引"
 					ThirdText: 你去往花苞的家
+					FourthText: "精灵尝试吸引你的注意力到"
+					FifthText: 水中
+					SixthText: 也许你应该跟随它的指引？
+				}
 				}
 			}
 
