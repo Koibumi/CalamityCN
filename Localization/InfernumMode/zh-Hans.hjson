@@ -1897,14 +1897,14 @@ Mods: {
 			CeaselessVoidLineTelegraph.DisplayName: 预警线
 			CeaselessVoidShell.DisplayName: 金属外壳
 			CeaselessVortex.DisplayName: 无尽漩涡
-			CeaselessVortexTear.DisplayName: 无尽裂
+			CeaselessVortexTear.DisplayName: 无尽撕裂
 			ConvergingDungeonRubble.DisplayName: 充能碎石
 			EnergyTelegraph.DisplayName: 暗能量碎片
 			GammaBurstLineTelegraph.DisplayName: 预警线
 			OtherworldlyBolt.DisplayName: 虚空射线
 			RealitySlice.DisplayName: 现实撕裂者
 			SpinningDarkEnergy.DisplayName: 暗能量
-			TelegraphedOtherwordlyBolt.DisplayName: Otherwordly Bolt
+			TelegraphedOtherwordlyBolt.DisplayName: 超凡飞弹
 			HomingSpore.DisplayName: 孢子
 			MushroomPillar.DisplayName: 蘑菇柱
 			SporeCloud.DisplayName: 孢子气体
@@ -1927,87 +1927,87 @@ Mods: {
 			FireBeam.DisplayName: 火焰光束
 			IceMass.DisplayName: 冰块
 			IceShard.DisplayName: 冰碎片
-			LightBeam.DisplayName: Beam
-			LightBurst.DisplayName: Light Burst
-			TeleportTelegraph.DisplayName: Telegraph
-			AcceleratingShadowHand.DisplayName: Shadow Hand
-			ArenaIcicle.DisplayName: Long Icicle
-			DeathAnimationShadowHand.DisplayName: Shadow Hand
-			DeerclopsEyeLaserbeam.DisplayName: Firebeam
-			DeerclopsP2Wave.DisplayName: Explosion
-			GroundIcicleSpike.DisplayName: Ice Spike
-			ShadowHandArena.DisplayName: Shadow Hand
-			SpinningShadowHand.DisplayName: Shadow Hand
-			SandBlastInfernum.DisplayName: Sand Blast
-			Sandnado.DisplayName: Sand Tornado
-			SandstormBlast.DisplayName: Sand Blast
-			DestroyerBomb.DisplayName: Explosion
-			DestroyerPierceLaser.DisplayName: Flame Laser
-			DestroyerPierceLaserTelegraph.DisplayName: Telegraph
-			EnergyBlast2.DisplayName: Energy Blast
-			EnergySpark.DisplayName: Red Spark
-			EnergySpark2.DisplayName: Red Spark
-			AcceleratingDoGBurst.DisplayName: Death Fire
-			DoGChargeGate.DisplayName: Portal
+			LightBeam.DisplayName: 光束
+			LightBurst.DisplayName: 光爆
+			TeleportTelegraph.DisplayName: 预警线
+			AcceleratingShadowHand.DisplayName: 暗影之手
+			ArenaIcicle.DisplayName: 长冰柱
+			DeathAnimationShadowHand.DisplayName: 暗影之手
+			DeerclopsEyeLaserbeam.DisplayName: 火焰光束
+			DeerclopsP2Wave.DisplayName: 爆炸
+			GroundIcicleSpike.DisplayName: 冰刺
+			ShadowHandArena.DisplayName: 暗影之手
+			SpinningShadowHand.DisplayName: 暗影之手
+			SandBlastInfernum.DisplayName: 沙尘喷吐
+			Sandnado.DisplayName: 沙龙卷
+			SandstormBlast.DisplayName: 沙尘喷吐
+			DestroyerBomb.DisplayName: 爆炸
+			DestroyerPierceLaser.DisplayName: 火焰激光
+			DestroyerPierceLaserTelegraph.DisplayName: 预警线
+			EnergyBlast2.DisplayName: 能量冲击波
+			EnergySpark.DisplayName: 红色火花
+			EnergySpark2.DisplayName: 红色火花
+			AcceleratingDoGBurst.DisplayName: 死亡之火
+			DoGChargeGate.DisplayName: 传送门
 			DoGDeathInfernum.DisplayName: 死亡光束
-			DoGPhase2IntroPortalGate.DisplayName: Portal
+			DoGPhase2IntroPortalGate.DisplayName: 传送门
 			DoGSpawnBoom.DisplayName: 爆炸
-			RealityBreakPortalLaserWall.DisplayName: Portal
+			RealityBreakPortalLaserWall.DisplayName: 传送门
 			RoDFailPulse.DisplayName: 爆炸
-			AresBeamExplosion.DisplayName: Exoburst Explosion
-			AresBeamTelegraph.DisplayName: Gamma Disintegration Beam Telegraph
-			AresCannonLaser.DisplayName: Exo Flame Laser
-			AresDeathBeamTelegraph.DisplayName: Exo Overload Telegraph
-			AresEnergyDeathray.DisplayName: Exo Energy Burst
-			AresEnergyDeathrayTelegraph.DisplayName: Exo Energy Burst Telegraph
-			AresEnergySlash.DisplayName: Exo Energy Slash
-			AresLaserDeathray.DisplayName: Laser Deathray
+			AresBeamExplosion.DisplayName: 星流爆炸
+			AresBeamTelegraph.DisplayName: 伽马分裂束预警线
+			AresCannonLaser.DisplayName: 星流火焰激光
+			AresDeathBeamTelegraph.DisplayName: 星流过载预警线
+			AresEnergyDeathray.DisplayName: 星流能量爆发
+			AresEnergyDeathrayTelegraph.DisplayName: 星流能量爆发预警线
+			AresEnergySlash.DisplayName: 星流能量冲刺
+			AresLaserDeathray.DisplayName: 激射死光
 			AresLaughBoom.DisplayName: 爆炸
-			AresPlasmaFireball.DisplayName: Volatile Plasma Blast
-			AresPrecisionBlast.DisplayName: Precision Blast
-			AresPulseBlast.DisplayName: Exopulse Energy Burst
-			AresPulseDeathray.DisplayName: Pulse Deathray
-			AresSpinningDeathBeam.DisplayName: Exo Overload Beam
-			AresSpinningRedDeathray.DisplayName: Exothermal Disintegration Deathray
-			AresTeslaGasField.DisplayName: Electric Cloud
-			AresTeslaOrb.DisplayName: Tesla Sphere
-			AresTeslaSpark.DisplayName: Tesla Spark
-			ExoburstSpark.DisplayName: Exoburst Spark
-			HotMetal.DisplayName: Superheated Metal
-			PlasmaGas.DisplayName: Plasma
-			SmallPlasmaSpark.DisplayName: Plasma Spark
-			ApolloAcceleratingPlasmaSpark.DisplayName: Plasma Spark
-			ApolloFallingPlasmaSpark.DisplayName: Plasma Spark
-			ApolloFlamethrower.DisplayName: Exoplasma Flamethrower
-			ApolloPlasmaFireball.DisplayName: Volatile Plasma Blast
-			ApolloRocketInfernum.DisplayName: High Explosive Plasma Rocket
-			ArtemisBasicShotLaser.DisplayName: Exo Flame Laser
-			ArtemisGasFireballBlast.DisplayName: Volatile Fireball Blast
-			ArtemisGatlingLaser.DisplayName: Exo Flame Laser
-			ArtemisLaser.DisplayName: Exo Flame Laser
-			ArtemisLaserbeamTelegraph.DisplayName: Laserbeam Telegraph
-			ArtemisSpinLaser.DisplayName: Ohio Beam
-			ArtemisSweepLaserbeam.DisplayName: Ohio Beam
-			ExoplasmaBomb.DisplayName: Exoplasma Bomb
-			ExoplasmaExplosion.DisplayName: Exoplasma Explosion
-			PlasmaChargeTelegraph.DisplayName: Charge Telegraph
-			SuperheatedExofireGas.DisplayName: Superheated Fire
-			ThermonuclearDeathOrb.DisplayName: Thermonuclear Death Orb
-			DetatchedThanatosLaser.DisplayName: Exo Flame Laser
-			ExolaserBomb.DisplayName: Exolaser Bomb
-			ExolaserSpark.DisplayName: Exolaser Spark
-			LightOverloadRay.DisplayName: Prismatic Overload Beam
-			LightRayTelegraph.DisplayName: Prismatic Light
+			AresPlasmaFireball.DisplayName: 挥发性等离子爆炸
+			AresPrecisionBlast.DisplayName: 精确爆发
+			AresPulseBlast.DisplayName: 星流脉冲能量爆发
+			AresPulseDeathray.DisplayName: 脉冲死光
+			AresSpinningDeathBeam.DisplayName: 星流过载射线
+			AresSpinningRedDeathray.DisplayName: 星流热能崩解死光
+			AresTeslaGasField.DisplayName: 电能云
+			AresTeslaOrb.DisplayName: 特斯拉球
+			AresTeslaSpark.DisplayName: 特斯拉火花
+			ExoburstSpark.DisplayName: 星流爆发火花
+			HotMetal.DisplayName: 过热金属
+			PlasmaGas.DisplayName: 等离子体
+			SmallPlasmaSpark.DisplayName: 等离子火花
+			ApolloAcceleratingPlasmaSpark.DisplayName: 等离子火花
+			ApolloFallingPlasmaSpark.DisplayName: 等离子火花
+			ApolloFlamethrower.DisplayName: 星流等离子火焰喷射器
+			ApolloPlasmaFireball.DisplayName: 挥发性等离子爆炸
+			ApolloRocketInfernum.DisplayName: 高爆等离子火箭
+			ArtemisBasicShotLaser.DisplayName: 星流火焰激光
+			ArtemisGasFireballBlast.DisplayName: 挥发性火球爆炸
+			ArtemisGatlingLaser.DisplayName: 星流火焰激光
+			ArtemisLaser.DisplayName: 星流火焰激光
+			ArtemisLaserbeamTelegraph.DisplayName: 激光预警线
+			ArtemisSpinLaser.DisplayName: 终末激光
+			ArtemisSweepLaserbeam.DisplayName: 终末激光
+			ExoplasmaBomb.DisplayName: 星流等离子炸弹
+			ExoplasmaExplosion.DisplayName: 星流等离子爆炸
+			PlasmaChargeTelegraph.DisplayName: 冲刺预警线
+			SuperheatedExofireGas.DisplayName: 过热火焰
+			ThermonuclearDeathOrb.DisplayName: 热核死亡光球
+			DetatchedThanatosLaser.DisplayName: 星流火焰激光
+			ExolaserBomb.DisplayName: 星流激光炸弹
+			ExolaserSpark.DisplayName: 星流激光火花
+			LightOverloadRay.DisplayName: 棱形过载激光
+			LightRayTelegraph.DisplayName: 棱形激光
 			OverloadBoom.DisplayName: 爆炸
-			RefractionRotor.DisplayName: Refraction Rotor
-			ThanatosAresComboLaser.DisplayName: Exo Flame Laser
+			RefractionRotor.DisplayName: 折射转子
+			ThanatosAresComboLaser.DisplayName: 星流火焰激光
 			BigFollyFeather.DisplayName: 羽毛
-			BirbThunderAuraFlare.DisplayName: Draconic Aura Flare
-			ExplodingEnergyOrb.DisplayName: Plasma Orb
+			BirbThunderAuraFlare.DisplayName: 龙语光环闪
+			ExplodingEnergyOrb.DisplayName: 等离子球
 			FollyFeather.DisplayName: 羽毛
 			LightningCloud.DisplayName: 闪电
 			LightningCloud2.DisplayName: 闪电
-			LightningSuperchargeTelegraph.DisplayName: Charge Telegraph
+			LightningSuperchargeTelegraph.DisplayName: 冲刺预警线
 			RedLightningRedirectingFeather.DisplayName: 闪电羽毛
 			RedLightningSnipeFeather.DisplayName: 闪电羽毛
 			RedSpark.DisplayName: 闪电羽毛
@@ -2015,41 +2015,41 @@ Mods: {
 			BloodBolt.DisplayName: 血箭
 			BloodShot2.DisplayName: 血
 			GoreSpike.DisplayName: 尖刺
-			GoreSpitBall.DisplayName: Gore Spit Ball
-			SanguineBat.DisplayName: Sanguine Bat
-			ChargeTyphoon.DisplayName: Typhoon
-			SharkSummoner.DisplayName: Summon Thing
-			SmallWave.DisplayName: Wave
-			TidalWave.DisplayName: Tidal Wave
-			Tornado.DisplayName: Tornado
-			TyphoonBlade.DisplayName: Typhoon Blade
-			AcceleratingPrismaticBolt.DisplayName: Prismatic Bolt
+			GoreSpitBall.DisplayName: 血块喷吐球
+			SanguineBat.DisplayName: 血红蝙蝠
+			ChargeTyphoon.DisplayName: 台风
+			SharkSummoner.DisplayName: 召唤物
+			SmallWave.DisplayName: 波
+			TidalWave.DisplayName: 潮汐波
+			Tornado.DisplayName: 龙卷风
+			TyphoonBlade.DisplayName: 台风之刃
+			AcceleratingPrismaticBolt.DisplayName: 棱形光箭
 			ArcingLightBolt.DisplayName: 光箭
-			EmpressAurora.DisplayName: Aurora
+			EmpressAurora.DisplayName: 极光
 			EmpressExplosion.DisplayName: 爆炸
-			EmpressPrism.DisplayName: Prism
-			EmpressSparkle.DisplayName: Majestic Sparkle
-			EmpressSword.DisplayName: Empress Blade
-			EtherealLance.DisplayName: Ethereal Lance
-			LanceCreatingSword.DisplayName: Empress Blade
-			LightOverloadBeam.DisplayName: Prismatic Overload Ray
-			PrismaticBolt.DisplayName: Prismatic Bolt
-			PrismLaserbeam.DisplayName: Prismatic Ray
-			ShimmeringLightWave.DisplayName: Explosion
-			SpinningPrismLaserbeam.DisplayName: Prismatic Ray
-			StarBolt.DisplayName: Star Bolt
-			StolenCelestialObject.DisplayName: Big Stolen Celestial Object
-			CorruptThorn.DisplayName: Corrupt Thorn
-			CursedBullet.DisplayName: Cursed Shot
-			CursedFlameBomb.DisplayName: Cursed Flame Bomb
-			ShadowOrb.DisplayName: Shadow Orb
+			EmpressPrism.DisplayName: 棱镜
+			EmpressSparkle.DisplayName: 雄伟之光
+			EmpressSword.DisplayName: 女皇之刃
+			EtherealLance.DisplayName: 空灵长枪
+			LanceCreatingSword.DisplayName: 女皇之刃
+			LightOverloadBeam.DisplayName: 棱晶过载射线
+			PrismaticBolt.DisplayName: 棱形光箭
+			PrismLaserbeam.DisplayName: 棱晶射线
+			ShimmeringLightWave.DisplayName: 爆炸
+			SpinningPrismLaserbeam.DisplayName: 棱晶射线
+			StarBolt.DisplayName: 星形射线
+			StolenCelestialObject.DisplayName: 被盗的巨大天体
+			CorruptThorn.DisplayName: 腐化荆棘
+			CursedBullet.DisplayName: 诅咒射击
+			CursedFlameBomb.DisplayName: 诅咒火焰炸弹
+			ShadowOrb.DisplayName: 暗影宝珠
 			BloodShot.DisplayName: 血
 			EoCTooth.DisplayName: 牙齿
 			EoCTooth2.DisplayName: 牙齿
-			SittingBlood.DisplayName: Tooth Ball
-			FistBullet.DisplayName: Fist Bullet
-			FistBulletTelegraph.DisplayName: Telegraph
-			GolemEyeLaserRay.DisplayName: Heat Ray
+			SittingBlood.DisplayName: 牙球
+			FistBullet.DisplayName: 拳头子弹
+			FistBulletTelegraph.DisplayName: 预警线
+			GolemEyeLaserRay.DisplayName: 热射线
 			GolemLaser.DisplayName: Heat Laser
 			GroundFireCrystal.DisplayName: Fire Crystal
 			SpikeTrap.DisplayName: Spike Trap
@@ -2063,7 +2063,7 @@ Mods: {
 			GroundSlamWave.DisplayName: Wave
 			PressureSandnado.DisplayName: Sand Tornado
 			SandBlob.DisplayName: Sand Blob
-			SparkTelegraphLine.DisplayName: Telegraph
+			SparkTelegraphLine.DisplayName: 预警线
 			TorrentWave.DisplayName: Wave
 			VassalLightning.DisplayName: Myrndael Lightning Bolt
 			VassalSpark.DisplayName: Spark
@@ -2091,7 +2091,7 @@ Mods: {
 			LunarAsteroid.DisplayName: Lunar Flame
 			LunarFireball.DisplayName: Lunar Flame
 			LunarFlare.DisplayName: Phantasmal Flare
-			LunarFlareTelegraph.DisplayName: Telegraph
+			LunarFlareTelegraph.DisplayName: 预警线
 			MoonLordDeathAnimationHandler.DisplayName: 死亡动画
 			MoonLordDeathBloodBlob.DisplayName: Ichor Blob
 			MoonLordExplosion.DisplayName: 爆炸
@@ -2102,7 +2102,7 @@ Mods: {
 			PhantasmalOrb.DisplayName: Phantasmal Orb
 			PressurePhantasmalDeathray.DisplayName: Phantasmal Deathray
 			StardustConstellation.DisplayName: Star
-			TrueEyeChargeTelegraph.DisplayName: Charge Telegraph
+			TrueEyeChargeTelegraph.DisplayName: Charge 预警线
 			VoidBlackHole.DisplayName: 虚空
 			HomingAcid.DisplayName: Acid
 			OldDukeTooth.DisplayName: Rotten Tooth
@@ -2117,7 +2117,7 @@ Mods: {
 			IchorBolt.DisplayName: Ichor Spit
 			PerforatorWave.DisplayName: Explosion
 			ToothBall.DisplayName: Tooth Ball
-			BombingTelegraph.DisplayName: Telegraph
+			BombingTelegraph.DisplayName: 预警线
 			HostilePlagueSeeker.DisplayName: Plague Seeker
 			LargePlagueExplosion.DisplayName: Explosion
 			PlagueCloud.DisplayName: Plague Cloud
@@ -2142,7 +2142,7 @@ Mods: {
 			NonReturningSoul.DisplayName: Soul
 			NotSpecialSoul.DisplayName: Soul
 			PolterghastWave.DisplayName: 爆炸
-			SoulTelegraphLine.DisplayName: Telegraph
+			SoulTelegraphLine.DisplayName: 预警线
 			SpinningSoul.DisplayName: Soul
 			WavySoul.DisplayName: Soul
 			EvenlySpreadPrimeLaserRay.DisplayName: 死亡射线
@@ -2159,7 +2159,7 @@ Mods: {
 			DefenderShield.DisplayName: Rock Shield
 			GuardiansRodFailPulse.DisplayName: 爆炸
 			HolyAimedDeathray.DisplayName: Flame Beam
-			HolyAimedDeathrayTelegraph.DisplayName: Telegraph
+			HolyAimedDeathrayTelegraph.DisplayName: 预警线
 			HolyDogmaFireball.DisplayName: 巨大火球
 			HolyFireRift.DisplayName: Fire Rift
 			HolyFireWall.DisplayName: 火墙
@@ -2180,7 +2180,7 @@ Mods: {
 			AcceleratingMagicProfanedRock.DisplayName: Profaned Rock
 			CleansingFireball.DisplayName: Cleansing Fireball
 			CommanderSpear2.DisplayName: 神圣长矛
-			CrystalTelegraphLine.DisplayName: Telegraph
+			CrystalTelegraphLine.DisplayName: 预警线
 			DyingSun.DisplayName: Dying Sun
 			FallingCrystalShard.DisplayName: Holy Crystal Shard
 			HolyBasicFireball.DisplayName: Holy Fireball
@@ -2220,7 +2220,7 @@ Mods: {
 			QueenSlimeSplitFormProj.DisplayName: Heavenly Slime
 			SpinningLaserCrystal.DisplayName: Hallow Crystal
 			DarkFlamePillar.DisplayName: Dark Flame Pillar
-			DarkFlamePillarTelegraph.DisplayName: Telegraph
+			DarkFlamePillarTelegraph.DisplayName: 预警线
 			DarkMagicCinder.DisplayName: Dark Magic Cinder
 			DarkMagicFireball.DisplayName: Dark Magic Fireball
 			GroundBloodSpike.DisplayName: Blood Spike
@@ -2234,7 +2234,7 @@ Mods: {
 			CosmicMine.DisplayName: Cosmic Mine
 			DarkCosmicBomb.DisplayName: Cosmic Bomb
 			EldritchScythe.DisplayName: Scythe
-			ShadowDashTelegraph.DisplayName: Telegraph
+			ShadowDashTelegraph.DisplayName: 预警线
 			ShadowSlash.DisplayName: Shadow Slash
 			AcceleratingSkull.DisplayName: Skull
 			NonHomingSkull.DisplayName: Skull
@@ -2250,7 +2250,7 @@ Mods: {
 			BrimstoneDemonSummonExplosion.DisplayName: Brimstone Explosion
 			BrimstoneFlameOrb.DisplayName: Brimstone Flame Orb
 			BrimstoneFlamePillar.DisplayName: Brimstone Flame Pillar
-			BrimstoneFlamePillarTelegraph.DisplayName: Telegraph
+			BrimstoneFlamePillarTelegraph.DisplayName: 预警线
 			BrimstoneJewelProj.DisplayName: Brimstone Jewel
 			BrimstoneLaserbeam.DisplayName: Brimstone Deathray
 			CatastropheSlash.DisplayName: Resonance Slash
@@ -2259,7 +2259,7 @@ Mods: {
 			CalamitasCutsceneProj.DisplayName: Calamitas
 			DemonicBomb.DisplayName: Demonic Bomb
 			DemonicExplosion.DisplayName: Demonic Explosion
-			DemonicTelegraphLine.DisplayName: Telegraph
+			DemonicTelegraphLine.DisplayName: 预警线
 			FlameOverloadBeam.DisplayName: Brimstone Flame Overload Ray
 			HeresyProjSCal.DisplayName: Heresy
 			InfernumBrimstoneGigablast.DisplayName: Brimstone Gigablast
@@ -2283,10 +2283,10 @@ Mods: {
 			CursedCinder.DisplayName: Cursed Cinder
 			CursedFireballBomb.DisplayName: Cursed Fireball Bomb
 			CursedFlameBurst.DisplayName: Cursed Flame
-			CursedFlameBurstTelegraph.DisplayName: Telegraph
+			CursedFlameBurstTelegraph.DisplayName: 预警线
 			HomingCursedFlameBurst.DisplayName: Cursed Flame
 			LaserGroundShock.DisplayName: Ground Shock
-			LightningTelegraph.DisplayName: Telegraph Ray
+			LightningTelegraph.DisplayName: 预警线 Ray
 			RedLightning.DisplayName: Lightning
 			RetinazerAimedDeathray.DisplayName: Deathray
 			RetinazerAimedDeathray2.DisplayName: Deathray
@@ -2298,7 +2298,7 @@ Mods: {
 			TwinsShield.DisplayName: Shield
 			TwinsSpriteExplosion.DisplayName: Twins Sprite Explosion
 			CursedSoul.DisplayName: Soul
-			FireBeamTelegraph.DisplayName: Telegraph
+			FireBeamTelegraph.DisplayName: 预警线
 			FireBeamWoF.DisplayName: Flame Beam
 			TileTentacle.DisplayName: Tentacle
 			DraconicBlossomPetal.DisplayName: Draconic Blossom Petal
@@ -2310,7 +2310,7 @@ Mods: {
 			MajesticSparkleBig.DisplayName: Majestic Sparkle
 			RedirectingYharonMeteor.DisplayName: Dragon Fireball
 			VortexOfFlame.DisplayName: Vortex of Flame
-			VortexTelegraphBeam.DisplayName: Flame Beam Telegraph
+			VortexTelegraphBeam.DisplayName: Flame Beam 预警线
 			YharonBoom.DisplayName: Boom
 			YharonFlameExplosion.DisplayName: Hyperthermal Explosion
 			YharonFlamethrower.DisplayName: Draconic Flame Breath
