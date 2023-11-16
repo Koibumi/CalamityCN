@@ -1904,7 +1904,7 @@ Mods: {
 			OtherworldlyBolt.DisplayName: 虚空射线
 			RealitySlice.DisplayName: 现实撕裂者
 			SpinningDarkEnergy.DisplayName: 暗能量
-			TelegraphedOtherwordlyBolt.DisplayName: 超凡飞弹
+			TelegraphedOtherwordlyBolt.DisplayName: 超凡之矢
 			HomingSpore.DisplayName: 孢子
 			MushroomPillar.DisplayName: 蘑菇柱
 			SporeCloud.DisplayName: 孢子气体
@@ -2023,8 +2023,8 @@ Mods: {
 			TidalWave.DisplayName: 潮汐波
 			Tornado.DisplayName: 龙卷风
 			TyphoonBlade.DisplayName: 台风之刃
-			AcceleratingPrismaticBolt.DisplayName: 棱形光箭
-			ArcingLightBolt.DisplayName: 光箭
+			AcceleratingPrismaticBolt.DisplayName: 七彩矢
+			ArcingLightBolt.DisplayName: 光矢
 			EmpressAurora.DisplayName: 极光
 			EmpressExplosion.DisplayName: 爆炸
 			EmpressPrism.DisplayName: 棱镜
@@ -2033,7 +2033,7 @@ Mods: {
 			EtherealLance.DisplayName: 空灵长枪
 			LanceCreatingSword.DisplayName: 女皇之刃
 			LightOverloadBeam.DisplayName: 棱晶过载射线
-			PrismaticBolt.DisplayName: 棱形光箭
+			PrismaticBolt.DisplayName: 七彩矢
 			PrismLaserbeam.DisplayName: 棱晶射线
 			ShimmeringLightWave.DisplayName: 爆炸
 			SpinningPrismLaserbeam.DisplayName: 棱晶射线
@@ -2046,315 +2046,315 @@ Mods: {
 			BloodShot.DisplayName: 血
 			EoCTooth.DisplayName: 牙齿
 			EoCTooth2.DisplayName: 牙齿
-			SittingBlood.DisplayName: 牙球
+			SittingBlood.DisplayName: 血腥凝刺
 			FistBullet.DisplayName: 拳头子弹
 			FistBulletTelegraph.DisplayName: 预警线
 			GolemEyeLaserRay.DisplayName: 热射线
-			GolemLaser.DisplayName: Heat Laser
-			GroundFireCrystal.DisplayName: Fire Crystal
-			SpikeTrap.DisplayName: Spike Trap
-			StationarySpikeTrap.DisplayName: Spike Trap
-			ThermalDeathray.DisplayName: Thermal Deathray
-			BereftVassalBigBoom.DisplayName: Explosion
-			BereftVassalSpear.DisplayName: Myrindael
-			BereftVassalTeleportBoom.DisplayName: Explosion
-			DustDevil.DisplayName: Dust Devil
-			GreatSandBlast.DisplayName: Sand Blast
-			GroundSlamWave.DisplayName: Wave
-			PressureSandnado.DisplayName: Sand Tornado
-			SandBlob.DisplayName: Sand Blob
+			GolemLaser.DisplayName: 热能激光
+			GroundFireCrystal.DisplayName: 火焰水晶
+			SpikeTrap.DisplayName: 尖刺陷阱
+			StationarySpikeTrap.DisplayName: 尖刺陷阱
+			ThermalDeathray.DisplayName: 热能死光
+			BereftVassalBigBoom.DisplayName: 爆炸
+			BereftVassalSpear.DisplayName: 颤沙霆戟
+			BereftVassalTeleportBoom.DisplayName: 爆炸
+			DustDevil.DisplayName: 沙龙卷
+			GreatSandBlast.DisplayName: 沙尘吐息
+			GroundSlamWave.DisplayName: 波
+			PressureSandnado.DisplayName: 沙龙卷
+			SandBlob.DisplayName: 沙块
 			SparkTelegraphLine.DisplayName: 预警线
-			TorrentWave.DisplayName: Wave
-			VassalLightning.DisplayName: Myrndael Lightning Bolt
-			VassalSpark.DisplayName: Spark
-			WaterSlice.DisplayName: Water Tear
-			WaterSpear.DisplayName: Water Spear
-			WaterTorrentBeam.DisplayName: Water Torrent
-			BlobProjectile.DisplayName: Hive Blob
+			TorrentWave.DisplayName: 波
+			VassalLightning.DisplayName: 颤沙霆戟闪电
+			VassalSpark.DisplayName: 火花
+			WaterSlice.DisplayName: 水之泪
+			WaterSpear.DisplayName: 水之泪
+			WaterTorrentBeam.DisplayName: 水流
+			BlobProjectile.DisplayName: 沼泽之眼
 			EaterOfSouls.DisplayName: 灵魂吞噬者
 			HiveMindWave.DisplayName: 爆炸
 			ShadeFire.DisplayName: 火
 			DeathSlash.DisplayName: 快刀忍者
-			JewelBeam.DisplayName: Beam
-			Shuriken.DisplayName: Shuriken
-			AnahitaWaterIllusion.DisplayName: Anahita Illusion
-			AquaticAberrationProj.DisplayName: Aquatic Aberration
-			AtlantisSpear.DisplayName: Atlantis Spear
-			AtlantisSpear2.DisplayName: Atlantis Spear
-			HeavenlyLullaby.DisplayName: Heavenly Lullaby
-			LeviathanMeteor.DisplayName: Leviathan Meteor
+			JewelBeam.DisplayName: 射线
+			Shuriken.DisplayName: 手里剑
+			AnahitaWaterIllusion.DisplayName: 阿娜希塔幻象
+			AquaticAberrationProj.DisplayName: 深海吞食者
+			AtlantisSpear.DisplayName: 亚特兰蒂斯之矛
+			AtlantisSpear2.DisplayName: 亚特兰蒂斯之矛
+			HeavenlyLullaby.DisplayName: 天堂摇篮曲
+			LeviathanMeteor.DisplayName: 流陨倾泻
 			LeviathanSpawner.DisplayName: 水
-			LeviathanSpawnWave.DisplayName: Wave
-			LeviathanVomit.DisplayName: Leviathan Vomit
+			LeviathanSpawnWave.DisplayName: 波
+			LeviathanVomit.DisplayName: 利维坦之蚀
 			RedirectingWaterBolt.DisplayName: 水矛
 			WaterBolt.DisplayName: 水矛
-			LunarAsteroid.DisplayName: Lunar Flame
-			LunarFireball.DisplayName: Lunar Flame
-			LunarFlare.DisplayName: Phantasmal Flare
+			LunarAsteroid.DisplayName: 月之火
+			LunarFireball.DisplayName: 月之火
+			LunarFlare.DisplayName: 幻影耀斑
 			LunarFlareTelegraph.DisplayName: 预警线
 			MoonLordDeathAnimationHandler.DisplayName: 死亡动画
-			MoonLordDeathBloodBlob.DisplayName: Ichor Blob
+			MoonLordDeathBloodBlob.DisplayName: 灵液块
 			MoonLordExplosion.DisplayName: 爆炸
-			MoonLordExplosionCinder.DisplayName: Cinder
+			MoonLordExplosionCinder.DisplayName: 火花
 			MoonLordWave.DisplayName: 爆炸
-			NonHomingPhantasmalEye.DisplayName: Phantasmal Eye
-			PhantasmalDeathray.DisplayName: Phantasmal Deathray
-			PhantasmalOrb.DisplayName: Phantasmal Orb
-			PressurePhantasmalDeathray.DisplayName: Phantasmal Deathray
-			StardustConstellation.DisplayName: Star
-			TrueEyeChargeTelegraph.DisplayName: Charge 预警线
+			NonHomingPhantasmalEye.DisplayName: 幻影之眼
+			PhantasmalDeathray.DisplayName: 幻影破灭光
+			PhantasmalOrb.DisplayName: 幻影球
+			PressurePhantasmalDeathray.DisplayName: 幻影破灭光
+			StardustConstellation.DisplayName: 星星
+			TrueEyeChargeTelegraph.DisplayName: 冲刺预警线
 			VoidBlackHole.DisplayName: 虚空
-			HomingAcid.DisplayName: Acid
-			OldDukeTooth.DisplayName: Rotten Tooth
-			SharkSummonVortex.DisplayName: Sulphurous Vortex
-			SulphuricBlob.DisplayName: Sulphuric Blob
-			BloodGlob.DisplayName: Blood Glob
-			Crimera.DisplayName: Crimera
-			FallingIchor.DisplayName: Ichor
-			FallingIchorBlast.DisplayName: Ichor Blob
-			FlyingIchor.DisplayName: Ichor
-			IchorBlast.DisplayName: Ichor Blast
-			IchorBolt.DisplayName: Ichor Spit
-			PerforatorWave.DisplayName: Explosion
-			ToothBall.DisplayName: Tooth Ball
+			HomingAcid.DisplayName: 酸
+			OldDukeTooth.DisplayName: 腐烂之牙
+			SharkSummonVortex.DisplayName: 硫海漩涡
+			SulphuricBlob.DisplayName: 硫海凝块
+			BloodGlob.DisplayName: 血腥凝块
+			Crimera.DisplayName: 克里米亚//芭知道叫啥了
+			FallingIchor.DisplayName: 灵液
+			FallingIchorBlast.DisplayName: 灵液块
+			FlyingIchor.DisplayName: 灵液
+			IchorBlast.DisplayName: 灵液冲击
+			IchorBolt.DisplayName: 灵液喷吐
+			PerforatorWave.DisplayName: 爆炸
+			ToothBall.DisplayName: 血猩凝刺
 			BombingTelegraph.DisplayName: 预警线
-			HostilePlagueSeeker.DisplayName: Plague Seeker
-			LargePlagueExplosion.DisplayName: Explosion
-			PlagueCloud.DisplayName: Plague Cloud
-			PlagueDeathray.DisplayName: Plague Ray
-			PlagueMissile.DisplayName: Missile
-			PlagueMissile2.DisplayName: Missile
-			PlagueNuclearExplosion.DisplayName: Explosion
-			PlagueVomit.DisplayName: Plague Vomit
-			PlagueWave.DisplayName: Explosion
-			RedirectingPlagueMissile.DisplayName: Missile
-			BouncingPetal.DisplayName: Petal
-			ExplodingFlower.DisplayName: Flower
-			NettlevineArenaSeparator.DisplayName: Nettlevine
-			Petal.DisplayName: Petal
+			HostilePlagueSeeker.DisplayName: 瘟疫搜寻者
+			LargePlagueExplosion.DisplayName: 爆炸
+			PlagueCloud.DisplayName: 瘟疫毒云
+			PlagueDeathray.DisplayName: 瘟疫射线
+			PlagueMissile.DisplayName: 火箭
+			PlagueMissile2.DisplayName: 火箭
+			PlagueNuclearExplosion.DisplayName: 爆炸
+			PlagueVomit.DisplayName: 瘟疫喷发
+			PlagueWave.DisplayName: 爆炸
+			RedirectingPlagueMissile.DisplayName: 火箭
+			BouncingPetal.DisplayName: 花瓣
+			ExplodingFlower.DisplayName: 花
+			NettlevineArenaSeparator.DisplayName: 荨麻
+			Petal.DisplayName: 花瓣
 			SporeFlower.DisplayName: 花
 			SporeGas.DisplayName: 孢子气体
-			ArcingSoul.DisplayName: Soul
-			CirclingEctoplasm.DisplayName: Ectoplasm Wisp
-			EctoplasmShot.DisplayName: Ectoplasm Blast
-			GhostlyVortex.DisplayName: Phantoplasm Vortex
-			Light.DisplayName: Light
-			NonReturningSoul.DisplayName: Soul
-			NotSpecialSoul.DisplayName: Soul
+			ArcingSoul.DisplayName: 幻魂
+			CirclingEctoplasm.DisplayName: 幻灵
+			EctoplasmShot.DisplayName: 幻灵爆炸
+			GhostlyVortex.DisplayName: 幻魂漩涡
+			Light.DisplayName: 光
+			NonReturningSoul.DisplayName: 幻灵
+			NotSpecialSoul.DisplayName: 幻灵
 			PolterghastWave.DisplayName: 爆炸
 			SoulTelegraphLine.DisplayName: 预警线
-			SpinningSoul.DisplayName: Soul
-			WavySoul.DisplayName: Soul
+			SpinningSoul.DisplayName: 幻灵
+			WavySoul.DisplayName: 幻灵
 			EvenlySpreadPrimeLaserRay.DisplayName: 死亡射线
 			LightningStrike.DisplayName: 闪电
-			MetallicSpike.DisplayName: Metal Spike
+			MetallicSpike.DisplayName: 金属钉
 			PrimeMissile.DisplayName: 导弹
-			PrimeShield.DisplayName: Shield
+			PrimeShield.DisplayName: 盾
 			PrimeSmallLaser.DisplayName: 激光
-			SawSpark.DisplayName: Saw Spark
-			SmallElectricGasGloud.DisplayName: Electric Cloud
+			SawSpark.DisplayName: 电锯火花
+			SmallElectricGasGloud.DisplayName: 电能云
 			TeslaBomb.DisplayName: 特斯拉炸弹
 			CommanderSpear.DisplayName: 神圣长矛
 			CommanderSpearThrown.DisplayName: 亵渎长矛
-			DefenderShield.DisplayName: Rock Shield
+			DefenderShield.DisplayName: 岩盾
 			GuardiansRodFailPulse.DisplayName: 爆炸
-			HolyAimedDeathray.DisplayName: Flame Beam
+			HolyAimedDeathray.DisplayName: 火焰光束
 			HolyAimedDeathrayTelegraph.DisplayName: 预警线
 			HolyDogmaFireball.DisplayName: 巨大火球
-			HolyFireRift.DisplayName: Fire Rift
+			HolyFireRift.DisplayName: 火焰裂隙
 			HolyFireWall.DisplayName: 火墙
 			HolyPushbackWall.DisplayName: 火墙
-			HolySineSpear.DisplayName: Profaned Spear
-			HolySpinningFireBeam.DisplayName: Holy Fire Beam
-			LavaEruptionPillar.DisplayName: Lava Geyser
-			LingeringHolyFire.DisplayName: Holy Fire
-			MagicCrystalShot.DisplayName: Crystalline Light
-			MagicSpiralCrystalShot.DisplayName: Crystalline Light
-			ProfanedCirclingRock.DisplayName: Profaned Rock
-			ProfanedCrack.DisplayName: Profaned Cracks
-			ProfanedField.DisplayName: Profaned Defender Field
-			ProfanedRock.DisplayName: Profaned Rock
+			HolySineSpear.DisplayName: 亵渎之矛
+			HolySpinningFireBeam.DisplayName: 圣火光束
+			LavaEruptionPillar.DisplayName: 熔岩间歇泉
+			LingeringHolyFire.DisplayName: 圣火
+			MagicCrystalShot.DisplayName: 水晶之光
+			MagicSpiralCrystalShot.DisplayName: 水晶之光
+			ProfanedCirclingRock.DisplayName: 亵渎岩
+			ProfanedCrack.DisplayName: 亵渎裂缝
+			ProfanedField.DisplayName: 亵渎防御盾牌
+			ProfanedRock.DisplayName: 亵渎岩
 			ProfanedSpearInfernum.DisplayName: 亵渎长矛
 			TelegraphedProfanedSpearInfernum.DisplayName: 亵渎长矛
 			AcceleratingCrystalShard.DisplayName: 神圣水晶碎片
-			AcceleratingMagicProfanedRock.DisplayName: Profaned Rock
-			CleansingFireball.DisplayName: Cleansing Fireball
+			AcceleratingMagicProfanedRock.DisplayName: 亵渎岩
+			CleansingFireball.DisplayName: 净化火球
 			CommanderSpear2.DisplayName: 神圣长矛
 			CrystalTelegraphLine.DisplayName: 预警线
-			DyingSun.DisplayName: Dying Sun
-			FallingCrystalShard.DisplayName: Holy Crystal Shard
-			HolyBasicFireball.DisplayName: Holy Fireball
-			HolyBomb.DisplayName: Holy Bomb
-			HolyCinder.DisplayName: Holy Cinder
-			HolyCross.DisplayName: Holy Symbol
-			HolyCrystalSpike.DisplayName: Crystal Spike
-			HolyMagicLaserbeam.DisplayName: Holy Disintegration Deathray
-			HolyRitual.DisplayName: Holy Ritual
-			HolySpear.DisplayName: Holy Spear
-			HolySpearFirePillar.DisplayName: Lava Geyser
+			DyingSun.DisplayName: 凋亡之阳
+			FallingCrystalShard.DisplayName: 圣晶碎片
+			HolyBasicFireball.DisplayName: 神圣火球
+			HolyBomb.DisplayName: 圣火炸弹
+			HolyCinder.DisplayName: 圣之烁光
+			HolyCross.DisplayName: 圣徽
+			HolyCrystalSpike.DisplayName: 水晶尖刺
+			HolyMagicLaserbeam.DisplayName: 圣火崩解死光
+			HolyRitual.DisplayName: 神圣仪式
+			HolySpear.DisplayName: 神圣长矛
+			HolySpearFirePillar.DisplayName: 熔岩间歇泉
 			HolySunExplosion.DisplayName: 神圣爆炸
-			ProfanedLava.DisplayName: Searing Lava of Atonement
-			ProfanedLavaBlob.DisplayName: Lava Blob
+			ProfanedLava.DisplayName: 赎罪灼热熔岩
+			ProfanedLavaBlob.DisplayName: 熔岩球
 			ProvBoomDeath.DisplayName: 爆炸
-			ProvidenceArenaBorder.DisplayName: Border
+			ProvidenceArenaBorder.DisplayName: 边界
 			ProvidenceWave.DisplayName: 爆炸
-			ProvSummonFlameExplosion.DisplayName: Hyperthermal Explosion
-			StrongProfanedCrack.DisplayName: Profaned Cracks
+			ProvSummonFlameExplosion.DisplayName: 高温爆炸
+			StrongProfanedCrack.DisplayName: 亵渎裂缝
 			BeeWave.DisplayName: 爆炸
-			ConvergingHornet.DisplayName: Hornet
-			HoneyBlast.DisplayName: Honey Blast
-			HornetHive.DisplayName: Hive
+			ConvergingHornet.DisplayName: 大黄蜂
+			HoneyBlast.DisplayName: 蜂蜜爆炸
+			HornetHive.DisplayName: 主巢
 			TinyBee.DisplayName: 蜜蜂
-			BouncingSlimeProj.DisplayName: Bouncy Slime
-			FallingCrystal.DisplayName: Hallow Crystal
-			FallingGel.DisplayName: Falling Gel
-			FallingSpikeSlimeProj.DisplayName: Crystal Slime
-			HallowBlade.DisplayName: Hallow Blade
-			HallowBladeLaserbeam.DisplayName: Hallow Blade Deathray
-			HallowCrystalSpike.DisplayName: Crystal Spike
-			HallowLaserbeam.DisplayName: Hallow Deathray
+			BouncingSlimeProj.DisplayName: 弹力史莱姆
+			FallingCrystal.DisplayName: 神圣水晶
+			FallingGel.DisplayName: 飘落凝胶
+			FallingSpikeSlimeProj.DisplayName: 水晶史莱姆
+			HallowBlade.DisplayName: 神圣之刃
+			HallowBladeLaserbeam.DisplayName: 神圣之刃死亡射线
+			HallowCrystalSpike.DisplayName: 水晶尖刺
+			HallowLaserbeam.DisplayName: 神圣死光
 			QueenJewelBeam.DisplayName: 宝石
-			QueenSlimeCrown.DisplayName: Queen Slime's Crown
-			QueenSlimeCrystalSpike.DisplayName: Crystal Spike
+			QueenSlimeCrown.DisplayName: 史莱姆皇后的王冠
+			QueenSlimeCrystalSpike.DisplayName: 水晶尖刺
 			QueenSlimeLightWave.DisplayName: 爆炸
-			QueenSlimeSplitFormProj.DisplayName: Heavenly Slime
-			SpinningLaserCrystal.DisplayName: Hallow Crystal
-			DarkFlamePillar.DisplayName: Dark Flame Pillar
+			QueenSlimeSplitFormProj.DisplayName: 天堂史莱姆
+			SpinningLaserCrystal.DisplayName: 神圣水晶
+			DarkFlamePillar.DisplayName: 暗黑火柱
 			DarkFlamePillarTelegraph.DisplayName: 预警线
-			DarkMagicCinder.DisplayName: Dark Magic Cinder
-			DarkMagicFireball.DisplayName: Dark Magic Fireball
-			GroundBloodSpike.DisplayName: Blood Spike
-			GroundBloodSpikeCreator.DisplayName: Blood Spike Creator
-			RitualFlame.DisplayName: Blue Flame
-			SlammingRockPillar.DisplayName: Rock Pillar
-			StompShockwave.DisplayName: Shockwave
-			UnholyBloodGlob.DisplayName: Ungodly Blood
-			CosmicExplosion.DisplayName: Cosmic Explosion
-			CosmicKunai.DisplayName: Cosmic Kunai
-			CosmicMine.DisplayName: Cosmic Mine
-			DarkCosmicBomb.DisplayName: Cosmic Bomb
-			EldritchScythe.DisplayName: Scythe
+			DarkMagicCinder.DisplayName: 黑魔法火花
+			DarkMagicFireball.DisplayName: 黑魔法火球
+			GroundBloodSpike.DisplayName: 血刺
+			GroundBloodSpikeCreator.DisplayName: 血刺创造者
+			RitualFlame.DisplayName: 蓝色火焰
+			SlammingRockPillar.DisplayName: 岩柱
+			StompShockwave.DisplayName: 冲击波
+			UnholyBloodGlob.DisplayName: 不虔之血
+			CosmicExplosion.DisplayName: 寰宇爆炸
+			CosmicKunai.DisplayName: 星界苦无
+			CosmicMine.DisplayName: 星界雷
+			DarkCosmicBomb.DisplayName: 星界雷
+			EldritchScythe.DisplayName: 鬼镰
 			ShadowDashTelegraph.DisplayName: 预警线
-			ShadowSlash.DisplayName: Shadow Slash
-			AcceleratingSkull.DisplayName: Skull
-			NonHomingSkull.DisplayName: Skull
-			ShadowflameFireball.DisplayName: Shadowflame Bomb
-			SpinningFireball.DisplayName: Shadowflame Fireball
-			DeceleratingCrimulanGlob.DisplayName: Unstable Crimulan Glob
-			DeceleratingEbonianGlob.DisplayName: Unstable Ebonian Glob
-			GroundSlimeGlob.DisplayName: Unstable Slime Glob
-			HomingWeaverSpark.DisplayName: Spark
-			WeaverSpark.DisplayName: Spark
-			WindGust.DisplayName: Wind Gust
-			AcceleratingDarkMagicFlame.DisplayName: Dark Magic Flame
-			BrimstoneDemonSummonExplosion.DisplayName: Brimstone Explosion
-			BrimstoneFlameOrb.DisplayName: Brimstone Flame Orb
-			BrimstoneFlamePillar.DisplayName: Brimstone Flame Pillar
+			ShadowSlash.DisplayName: 暗影斩
+			AcceleratingSkull.DisplayName: 颅骨
+			NonHomingSkull.DisplayName: 颅骨
+			ShadowflameFireball.DisplayName: 暗影焰炸弹
+			SpinningFireball.DisplayName: 暗影焰火球
+			DeceleratingCrimulanGlob.DisplayName: 不稳定的血猩球
+			DeceleratingEbonianGlob.DisplayName: 不稳定的腐化球
+			GroundSlimeGlob.DisplayName: 不稳定的史莱姆球
+			HomingWeaverSpark.DisplayName: 火花
+			WeaverSpark.DisplayName: 火花
+			WindGust.DisplayName: 阵风
+			AcceleratingDarkMagicFlame.DisplayName: 黑魔法火焰
+			BrimstoneDemonSummonExplosion.DisplayName: 硫火爆炸
+			BrimstoneFlameOrb.DisplayName: 硫火球
+			BrimstoneFlamePillar.DisplayName: 硫火柱
 			BrimstoneFlamePillarTelegraph.DisplayName: 预警线
-			BrimstoneJewelProj.DisplayName: Brimstone Jewel
-			BrimstoneLaserbeam.DisplayName: Brimstone Deathray
-			CatastropheSlash.DisplayName: Resonance Slash
-			CondemnationArrowSCal.DisplayName: Dark Arrow
-			CondemnationProj.DisplayName: Condemnation
-			CalamitasCutsceneProj.DisplayName: Calamitas
-			DemonicBomb.DisplayName: Demonic Bomb
-			DemonicExplosion.DisplayName: Demonic Explosion
+			BrimstoneJewelProj.DisplayName: 硫火宝珠
+			BrimstoneLaserbeam.DisplayName: 硫火死亡射线
+			CatastropheSlash.DisplayName: 共鸣斩
+			CondemnationArrowSCal.DisplayName: 诘责之矢
+			CondemnationProj.DisplayName: 诘责
+			CalamitasCutsceneProj.DisplayName: 灾厄
+			DemonicBomb.DisplayName: 深渊炙炎
+			DemonicExplosion.DisplayName: 深渊炙炎
 			DemonicTelegraphLine.DisplayName: 预警线
-			FlameOverloadBeam.DisplayName: Brimstone Flame Overload Ray
-			HeresyProjSCal.DisplayName: Heresy
-			InfernumBrimstoneGigablast.DisplayName: Brimstone Gigablast
-			LostSoulProj.DisplayName: Burning Soul
-			RedirectingDarkSoul.DisplayName: Dark Soul
-			RedirectingHellfireSCal.DisplayName: Brimstone Hellfire
-			RedirectingLostSoulProj.DisplayName: Burning Soul
-			RitualBrimstoneHeart.DisplayName: Brimstone Heart
-			SepulcherBone.DisplayName: Occult Bone
-			SepulcherSoulBomb.DisplayName: Wrathful Spirits
-			ShadowBolt.DisplayName: Shadow Bolt
-			ShadowFlameBlast.DisplayName: Shadow Blast
-			ShadowGigablast.DisplayName: Shadow Gigablast
-			ShadowSpark.DisplayName: Shadow Spark
-			SuicideBomberDemonExplosion.DisplayName: Explosion
-			SuicideBomberDemonHostile.DisplayName: Demon
-			SuicideBomberRitual.DisplayName: Ritual
-			SupremeCalamitasBrotherPortal.DisplayName: Dark Portal
-			SCalSymbol.DisplayName: Alchemical Symbol
-			VigilanceProj.DisplayName: Vigilance
-			CursedCinder.DisplayName: Cursed Cinder
-			CursedFireballBomb.DisplayName: Cursed Fireball Bomb
-			CursedFlameBurst.DisplayName: Cursed Flame
+			FlameOverloadBeam.DisplayName: 硫火过载射线
+			HeresyProjSCal.DisplayName: 异端
+			InfernumBrimstoneGigablast.DisplayName: 硫火聚爆
+			LostSoulProj.DisplayName: 灼烧之灵
+			RedirectingDarkSoul.DisplayName: 复仇之灵
+			RedirectingHellfireSCal.DisplayName: 硫磺地狱火
+			RedirectingLostSoulProj.DisplayName: 灼烧之灵
+			RitualBrimstoneHeart.DisplayName: 硫磺之心
+			SepulcherBone.DisplayName: 魔物之骨
+			SepulcherSoulBomb.DisplayName: 愤怒之灵
+			ShadowBolt.DisplayName: 暗影箭
+			ShadowFlameBlast.DisplayName: 暗影冲击
+			ShadowGigablast.DisplayName: 暗影聚爆
+			ShadowSpark.DisplayName: 暗影火花
+			SuicideBomberDemonExplosion.DisplayName: 爆炸
+			SuicideBomberDemonHostile.DisplayName: 恶魔
+			SuicideBomberRitual.DisplayName: 仪式
+			SupremeCalamitasBrotherPortal.DisplayName: 黑暗之门
+			SCalSymbol.DisplayName: 炼金术符号
+			VigilanceProj.DisplayName: 警觉
+			CursedCinder.DisplayName: 诅咒火花
+			CursedFireballBomb.DisplayName: 诅咒火球炸弹
+			CursedFlameBurst.DisplayName: 诅咒焰
 			CursedFlameBurstTelegraph.DisplayName: 预警线
-			HomingCursedFlameBurst.DisplayName: Cursed Flame
-			LaserGroundShock.DisplayName: Ground Shock
-			LightningTelegraph.DisplayName: 预警线 Ray
-			RedLightning.DisplayName: Lightning
-			RetinazerAimedDeathray.DisplayName: Deathray
-			RetinazerAimedDeathray2.DisplayName: Deathray
-			RetinazerGroundDeathray.DisplayName: Deathray
-			RetinazerLaser.DisplayName: Death Laser
-			SpazmatismFlamethrower.DisplayName: Cursed Flamethrower
-			TwinsEnergyExplosion.DisplayName: Boom
-			TwinsLensFlare.DisplayName: Lens Flare
-			TwinsShield.DisplayName: Shield
-			TwinsSpriteExplosion.DisplayName: Twins Sprite Explosion
-			CursedSoul.DisplayName: Soul
+			HomingCursedFlameBurst.DisplayName: 诅咒焰
+			LaserGroundShock.DisplayName: 地面震动
+			LightningTelegraph.DisplayName: 预警射线
+			RedLightning.DisplayName: 闪电
+			RetinazerAimedDeathray.DisplayName: 死亡射线
+			RetinazerAimedDeathray2.DisplayName: 死亡射线
+			RetinazerGroundDeathray.DisplayName: 死亡射线
+			RetinazerLaser.DisplayName: 死亡激光
+			SpazmatismFlamethrower.DisplayName: 诅咒焰喷射器
+			TwinsEnergyExplosion.DisplayName: 爆炸
+			TwinsLensFlare.DisplayName: 镜头光晕
+			TwinsShield.DisplayName: 盾
+			TwinsSpriteExplosion.DisplayName: 双子精灵爆炸
+			CursedSoul.DisplayName: 幻魂
 			FireBeamTelegraph.DisplayName: 预警线
-			FireBeamWoF.DisplayName: Flame Beam
-			TileTentacle.DisplayName: Tentacle
-			DraconicBlossomPetal.DisplayName: Draconic Blossom Petal
-			DraconicInfernado.DisplayName: Draconic Infernado
-			DragonFireball.DisplayName: Fireball
-			HomingFireball.DisplayName: Homing Fireball
-			InfernadoSpawner.DisplayName: Big Flare
-			LingeringDragonFlames.DisplayName: Dragonfire
-			MajesticSparkleBig.DisplayName: Majestic Sparkle
-			RedirectingYharonMeteor.DisplayName: Dragon Fireball
-			VortexOfFlame.DisplayName: Vortex of Flame
-			VortexTelegraphBeam.DisplayName: Flame Beam 预警线
-			YharonBoom.DisplayName: Boom
-			YharonFlameExplosion.DisplayName: Hyperthermal Explosion
-			YharonFlamethrower.DisplayName: Draconic Flame Breath
-			YharonHeatFlashFireball.DisplayName: Fire
-			YharonMajesticSparkle.DisplayName: Majestic Sparkle
-			DraconicBurst.DisplayName: Draconic Burst
-			ExplodingWyvern.DisplayName: Wyvern
-			MeteorCinder.DisplayName: Cinder
-			MoltenMeteor.DisplayName: Meteor
-			CloudLightning.DisplayName: Cloud Lightning
-			LargeCloud.DisplayName: Large Cloud
-			LargeHail.DisplayName: Large Hail
-			SmallHail.DisplayName: Small Hail
-			ChainGuillotine.DisplayName: Chain Guillotine
-			CursedDart.DisplayName: Cursed Flame Dart
-			CursedFlamePillar.DisplayName: Cursed Flame Pillar
-			FetidBaghnakhs.DisplayName: Fetid Baghnakhs
-			IchorDart.DisplayName: Ichor Dart
-			LifeDrainingField.DisplayName: Life-Draining Field
-			DarkMagicCircle.DisplayName: Dark Magic
-			RedirectingWeakDarkMagicFlame.DisplayName: Dark Flame
-			PearlSwirl.DisplayName: Pearl Swirl
-			CrystalShard.DisplayName: Crystal Shard
-			FlyingKnife.DisplayName: Flying Knife
-			HolyStar.DisplayName: Holy Star
-			PiercingCrystalShard.DisplayName: Crystal Shard
-			ConvergingGammaEnergy.DisplayName: Gamma Cinder
-			GammaRain.DisplayName: Gamma Rain
-			GammaSuperDeathray.DisplayName: Gamma Deathray
-			BouncingSpitBall.DisplayName: Spit Ball
-			RisingFireball.DisplayName: Fireball
-			SandFlameBall.DisplayName: Sand Ball
-			Sandnado2.DisplayName: Sand Tornado
-			WanderersShellWater.DisplayName: Water Torrent
-			BrimstoneCrescentStaffProj.DisplayName: Brimstone Crescent Staff
-			BrimstoneForcefieldExplosion.DisplayName: Brimstone Explosion
-			CherryBlossomPetal.DisplayName: Cherry Blossom Petal
-			DisenchantedTabletProj.DisplayName: Disenchanted Tablet
-			GuardiansSummonerProjectile.DisplayName: Guardians Summoner Projectile
-			HydrothermalSmoke.DisplayName: Steam
-			PortalLensFlare.DisplayName: Lens Flare
-			ProvidenceSummonerProjectile.DisplayName: Providence Summoner Projectile
-			ScreenShakeProj.DisplayName: Screen Shake
-			TerminusAnimationProj.DisplayName: Terminus Animation Proj
+			FireBeamWoF.DisplayName: 火焰光束
+			TileTentacle.DisplayName: 触手
+			DraconicBlossomPetal.DisplayName: 龙焱余烬
+			DraconicInfernado.DisplayName: 火焰龙卷
+			DragonFireball.DisplayName: 火球
+			HomingFireball.DisplayName: 追踪火球
+			InfernadoSpawner.DisplayName: 大耀斑
+			LingeringDragonFlames.DisplayName: 龙焰
+			MajesticSparkleBig.DisplayName: 耀目之光
+			RedirectingYharonMeteor.DisplayName: 龙炎弹
+			VortexOfFlame.DisplayName: 火焰漩涡
+			VortexTelegraphBeam.DisplayName: 火焰光束预警线
+			YharonBoom.DisplayName: 爆炸
+			YharonFlameExplosion.DisplayName: 高温聚爆
+			YharonFlamethrower.DisplayName: 龙焰吐息
+			YharonHeatFlashFireball.DisplayName: 火焰
+			YharonMajesticSparkle.DisplayName: 耀目火花
+			DraconicBurst.DisplayName: 龙炎飞弹
+			ExplodingWyvern.DisplayName: 飞龙
+			MeteorCinder.DisplayName: 火花
+			MoltenMeteor.DisplayName: 流星
+			CloudLightning.DisplayName: 云层闪电
+			LargeCloud.DisplayName: 超大的云
+			LargeHail.DisplayName: 大冰雹
+			SmallHail.DisplayName: 小冰雹
+			ChainGuillotine.DisplayName: 链式断头台
+			CursedDart.DisplayName: 诅咒焰镖
+			CursedFlamePillar.DisplayName: 诅咒火柱
+			FetidBaghnakhs.DisplayName: 臭虎爪
+			IchorDart.DisplayName: 灵液镖
+			LifeDrainingField.DisplayName: 夺命场
+			DarkMagicCircle.DisplayName: 黑魔法
+			RedirectingWeakDarkMagicFlame.DisplayName: 黑暗火焰
+			PearlSwirl.DisplayName: 珍珠漩涡
+			CrystalShard.DisplayName: 水晶碎片
+			FlyingKnife.DisplayName: 飞刀
+			HolyStar.DisplayName: 神圣之星
+			PiercingCrystalShard.DisplayName: 水晶碎片
+			ConvergingGammaEnergy.DisplayName: 伽马火花
+			GammaRain.DisplayName: 伽马雨
+			GammaSuperDeathray.DisplayName: 伽马死亡射线
+			BouncingSpitBall.DisplayName: 喷吐球
+			RisingFireball.DisplayName: 火球
+			SandFlameBall.DisplayName: 沙球
+			Sandnado2.DisplayName: 沙龙卷
+			WanderersShellWater.DisplayName: 水流
+			BrimstoneCrescentStaffProj.DisplayName: 硫火新月法杖
+			BrimstoneForcefieldExplosion.DisplayName: 硫火爆炸
+			CherryBlossomPetal.DisplayName: 樱花花瓣
+			DisenchantedTabletProj.DisplayName: 未注魔的石碑基座
+			GuardiansSummonerProjectile.DisplayName: 守卫召唤弹幕
+			HydrothermalSmoke.DisplayName: 蒸汽
+			PortalLensFlare.DisplayName: 镜头光晕
+			ProvidenceSummonerProjectile.DisplayName: 亵渎天神召唤弹幕
+			ScreenShakeProj.DisplayName: 屏幕抖动
+			TerminusAnimationProj.DisplayName: 终末石动画弹幕
 			WaterglassTokenProjectile.DisplayName: Waterglass Token
 			HyperplaneMatrixProjectile.DisplayName: Hyperplane Matrix
 			AridBattlecryProjectile.DisplayName: Arid Battlecry
