@@ -1630,66 +1630,66 @@ Mods: {
 			CVEnergyChainsTip: 那些锁链撑不了多久了！振作起来！
 			CrabulonTip1: 菌生蟹只会在每第三次跳跃时发射孢子。最好数着点！
 			CrabulonTip2: 试着把注意力集中在真菌孢子上。如果你不管它们，它们有可能把你压到！
-			CrabulonTip3: Staying leveled with Crabulon might be helpful, better than catching multiple types of bacterial diseases in the air above...
-			CrabulonTip4: That crab isn't so foolish. the higher you try to go, the higher he'll jump up to catch you!
-			CrabulonClawTip: Crabulon gets protective when it exposes its insides - maybe you can push it back if you need more space!
-			CrabulonJokeTip1: There isnt Mushroom for the three of us, and I can tell who won the roullete.
-			CryogenTip1: Move as little as possible while it's above you. That should calm down its spastic jittering!
-			CryogenTip2: The Ice pillars break down into Ice daggers as well, watch out from the sides!
+			CrabulonTip3: 与菌生蟹的距离保持一种微妙的平衡可能会对你有所帮助，这总比在天上碰到一大堆孢子要好……
+			CrabulonTip4: 那只螃蟹可不傻。你的位置越高，他就跳得越高来够到你！
+			CrabulonClawTip: 菌生蟹暴露它的内部时将会保护自己——也许你可以往后撤，如果你需要更多的空间的话！
+			CrabulonJokeTip1: 我们三个中有一个身上有蘑菇，我没有，你也没有。
+			CryogenTip1: 当它在你上方时移动幅度尽量小些，这应该能够平息它那多动症般的晃动！
+			CryogenTip2: 冰柱同样会分裂成寒冰匕首，当心侧面！
 			CryogenJokeTip1: 老兄，那太不“冷”酷了！
 			CryogenJokeTip2: 这东西可毫无寒意！
-			CryogenBlizzardTip: The blizzard is picking up Aurora Spirits from both sides, beware running to the sides!
-			CultistTip1: That guy was quite a lunatic, You might want extra mobility!
-			CultistIceBurstTip: Try to get between those lines, before the ice barrages explode!
-			CultistLightningTip: Lightning is going to aim ahead of you! Try to bait it!
-			DeerclopsTip1: Deerclops are Myopic, so they will force you to stay close, dont let them corner you!
-			DeerclopsTip2: Deerclops attack in a set pattern, study their behaviour and kite their attacks!
-			DeerclopsTip3: Space management is key!
-			DeerclopsCharlieTip: If you let these shadows gather around Deerclops' eye, it's light will not be strong enough to keep the dark away, ward 
-			DeerclopsJokeTip1: Deer god...
-			DeerclopsDefeatTip: Looks like it's the end of the act!
-			DestroyerTip1: Prepare for it's final stand! Watch for red laser telegraphs and prepare to dash to safety!
-			DestroyerTip2: That debris falls really fast, huh? Try going up with the Destroyer so you can see it better!
-			DestroyerTip3: Its charges are quite powerful, a form of Ram or method to quickly get out of the way will prove helpful!
-			DSTip1: I’ve noticed the Scourge sends an audible roar before whipping up those massive dust pillars, how considerate!
-			DSTip2: Skill with a grappling hook will prove very useful to get out of the Scourge’s way.
-			DSFinalPhaseTip: I think these vultures are going to earn a meal here, one way or another...
-			DSJokeTip1: Really served yourself as a dessert course right there...
-			DoGTip1: The Devourer has a rythem to it's madness, find that rythem and fight along!
-			DoGLaserTip: Oh man, theres so many lasers! Slow and precise movements seem like your best bet here...
-			DoGRoDTip: It seems as if it is manipulating telelocational magic, your Rod of Discord is of no use here!
-			DoGChargeTip: Don't feel intimidated, face fear in the eyes and dash directly into the Devourer's maw!
-			DoGDashTip: A dashing accessory would be reeaaaally helpful here...
-			DoGBashTip: Being able to face it head on with a ram sounds like a good idea, don't you think?
+			CryogenBlizzardTip: 极光之灵正在从暴风雪中夹击你，往侧面跑的时候要小心！
+			CultistTip1: 那家伙可真是个疯子，你也许需要额外的机动性！
+			CultistIceBurstTip: 试着在冰雪雾爆炸之前钻进这些线里！
+			CultistLightningTip: 闪电会瞄准你的前方！试着诱导它的位置！
+			DeerclopsTip1: 独眼巨鹿是个大近视，因此它会不断逼近你，不要让它把你逼入绝境！
+			DeerclopsTip2: 独眼巨鹿有固定的攻击模式，研究它们的行为，然后用放风筝打法！
+			DeerclopsTip3: 空间规划至关重要！
+			DeerclopsCharlieTip: 如果你让这些暗影聚集在独眼巨鹿的眼睛周围，它发出的光线将不足以抵挡黑暗！
+			DeerclopsJokeTip1: 我敬皑的上帝啊……
+			DeerclopsDefeatTip: 看起来演出要结束了！
+			DestroyerTip1: 为它的最后一次向上冲刺做好准备！注意红色激光预判线并准备好冲向安全地带！
+			DestroyerTip2: 那碎片掉得真快，不是吗？试着和毁灭者一起上去，这样你能看得更清楚！
+			DestroyerTip3: 它的冲刺十分强大，一种冲刺或者快速逃脱的方式将会非常有用！
+			DSTip1: 我注意到灾虫在掀起那些巨大的沙尘柱前会发出一声很容易听见的咆哮，它可太体贴了！
+			DSTip2: 使用钩爪技巧来摆脱这只灾虫将会是十分有用的。
+			DSFinalPhaseTip: 我想这些秃鹫会在这里蹭到一顿饭的，不论结果如何……
+			DSJokeTip1: 你真把自己当成了个沙漠里的点心……
+			DoGTip1: 神明吞噬者拥有着疯狂的节奏，找到这一节奏并与其战斗！
+			DoGLaserTip: 哦天哪，这么多的激光！缓慢而精确的移动似乎是你最好的选择……
+			DoGRoDTip: 看起来它正在使用空间操纵术，你的混沌传送杖无法使用了！
+			DoGChargeTip: 不要害怕，直面那双恐惧的眼睛并直接冲向神明吞噬者的嘴！
+			DoGDashTip: 一个冲刺饰品在这场战斗中肯定会非常非常有用……
+			DoGBashTip: 用冲刺来面对它的头部听起来是个不错的主意，你觉得呢？
 			DoGJokeTip1: 神长在干什么？
 			ExoMechComboTip: 看起来它们正在进行组合攻击，当心！
-			DraedonChooseTip1: 悠着点选！
+			DraedonChooseTip1: 你可得悠着点选！
 			DraedonChooseTip2: 如果一开始选的组合效果不太理想，也许你可以试试另一种组合？
-			AresTip1: Best to keep close during these Exo Overload attacks, otherwise you may have trouble keeping up with the spin!
+			AresTip1: 在星流过载攻击期间最好与其接近，不然你可能会跟不上他的旋转！
 			AresTip2: 阿瑞斯有一台超级计算机，他的手臂具有极强的预判能力！但也许你可以利用这一机制？
-			ExoTwinsTip1: The Exo-Twins are magnificently in-sync, try finding a rhythm to outsmart them?
-			ThanatosChargeTip: Don't fret, face fear in the eyes and dash directly into Thanatos' face-plates!
-			DragonfollyTip1: The Dragonfolly wants you to think it’s chaotic, but it really isn’t! Slow down a little and analyze things!
-			DragonfollyTip2: Those large red lightning pillars can be negated by flying below them!
-			Dragonfollytip3: Watch for when it turns red - if it can’t close in, it’ll jump you from behind!
-			DragonfollyBoltTip: Static bolts seem to be flying towards you! Be wary of them, and don't get trapped by the lightning telegraphs!
-			DreadnautilusSummonItemTip: I've heared somewhere that Dreadnautilus' cannot resist the call of a special Red Bait! Do you happen to have one?
-			DreadnautilusTip1: Those bats are really out for you, but they aren't very agile. Try juking them out!
-			DreadnautilusJokeTip1: Considering how much you die now, I dread your future...
-			DreadnautilusJokeTip2: Seems like you failed again, but dreadnaut! you will eventually defeat the terror!
-			DukeFishronRazorbladeTip: Try your best to weave through the razorblades and brace youself!
-			DukeFishronTidalWaveTip: Keep track of where the long charge stops! You might get swept up by a tidal wave!
-			EoLTip1: Most attacks don’t really require a lot of movement, keep your movement on the low!
-			EoLMoonTip: Stay close! You're fighting the light of moon, you can't run away!
-			EoLJokeTip1: You know, I was already quite partial to rainbows, but this things attacks have killer looks- oh. Poor choice of words, then.
-			EoWTip1: Many layered platforms can help greatly to avoid the exploding Cursed Flames!
-			EoWTip2: If the Eater slows to a crawl, do the same or you’ll run right into a vilethorn!
-			EoWRainTip: The Eaters will get slow and drifty when they start spawning the clouds! Watch for that and keep track of space.
-			EoWJokeTip1: I guess it eats more than just worlds.
-			EoCTip1: Stay near those tooth balls! The teeth they fire are aimed far away from them!
-			EoCTip2: Don’t bother trying to kill the servants, they’ll be out of your eye before they die!
-			EoCJokeTip1: Eye can’t believe you got blind-sided by that!
-			EoCJokeTip2: 哎呀呀！这又是什么样的死法了……
+			ExoTwinsTip1: 星流双子的攻击十分的协调，试着靠找到一个节奏来击败它们？
+			ThanatosChargeTip: 别担心，面对这双恐惧的眼睛并直接冲向塔纳托斯的脸！
+			DragonfollyTip1: 痴愚金龙想让你认为它的攻击杂乱无章，但事实并非如此！慢一些并分析一下战斗！
+			DragonfollyTip2: 那些巨大的红色闪电柱可以靠从下面飞过去来无视它们！
+			Dragonfollytip3: 注意它变红的时候—如果它无法接近你，它会直接从你背后跳过来！
+			DragonfollyBoltTip: 静电球似乎朝你飞过来了！小心它们并且不要被那些闪电预警线困住！
+			DreadnautilusSummonItemTip: 我听说在某个地方，恐惧鹦鹉螺可以被一种特殊的“赤饵”召唤，它们无法抗拒这玩意！你有吗？
+			DreadnautilusTip1: 那些蝙蝠真的很想干掉你，但它们不是很敏捷。试着跟它们绕圈子！
+			DreadnautilusJokeTip1: 考虑到你现在已经死了很多次，我很恐惧你的未来……
+			DreadnautilusJokeTip2: 看起来你又失败了，但是不要害怕！你终将战胜这个恐惧！
+			DukeFishronRazorbladeTip: 做好准备，尽你最大的努力穿过这些刀片！
+			DukeFishronTidalWaveTip: 注意它在哪停留了很久！你可能会被海啸卷走！
+			EoLTip1: 大部分攻击并不需要大幅度的移动，保持慢速移动！
+			EoLMoonTip: 别跑远了！你正在与月光战斗，你跑不掉的！
+			EoLJokeTip1: 你知道的，我很喜欢彩虹，但这东西的攻击有种杀手的样子-哦，我有些比喻不当。
+			EoWTip1: 多层平台有助于躲避爆炸的咒火！
+			EoWTip2: 如果世界吞噬者减速移动，跟它做同样的事，不然你可能会撞到魔刺上！
+			EoWRainTip: 吞噬者们将要生成雨云时会变慢并且飞到天上！注意这一点并规划好空间。
+			EoWJokeTip1: 我猜它吃的不仅仅是世界……
+			EoCTip1: 待在那些尖牙球附近！这些牙齿会瞄准的很远！
+			EoCTip2: 别费心去杀克苏鲁之仆了，只要它们没死就会从你的眼睛里钻出来！
+			EoCJokeTip1: 我的眼睛不敢相信你就这样被它干瞎了。
+			EoCJokeTip2: 哎呀！我的眼睛好痛……
 			GolemTip1: Golem's eye color will change depending on it's attack. Keep your own eyes peeled!
 			GolemTip2: if you find it hard to get onto platforms, just know that you can hook onto walls to regain your flight time!
 			GolemJokeTip1: You're gonna have a bad time...
