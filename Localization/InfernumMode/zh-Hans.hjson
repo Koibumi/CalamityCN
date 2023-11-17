@@ -1690,21 +1690,21 @@ Mods: {
 			EoCTip2: 别费心去杀克苏鲁之仆了，只要它们没死就会从你的眼睛里钻出来！
 			EoCJokeTip1: 我的眼睛不敢相信你就这样被它干瞎了。
 			EoCJokeTip2: 哎呀！我的眼睛好痛……
-			GolemTip1: Golem's eye color will change depending on it's attack. Keep your own eyes peeled!
-			GolemTip2: if you find it hard to get onto platforms, just know that you can hook onto walls to regain your flight time!
-			GolemJokeTip1: You're gonna have a bad time...
-			HiveMindTip1: This is the time you would want to learn the opponents moves, use their tells to get the upper hand!
-			HiveMindTip2: Try to push his Rain Charge away by running towards the Hive Mind, this can help keep your arena clean!
-			HiveMindTip3: The Hive Mind begins its next attack early if you attack it; wait until it's on cooldown before you shoot!
-			HiveMindFinalPhaseTip: It's still going?!
-			HiveMindJokeTip1: That didn't work, but dont worry! Hive got a plan!
-			HiveMindJokeTip2: I would make a snarky comment right now, but I probably should Mind my own business...
-			KingSlimeTip1: Try to learn King Slime’s jump cycle! It could help you plan your actions ahead of time.
-			KingSlimeTip2: With a jump that high, I wonder if you could duck beneath him?
-			KingSlimeJewelTip: That Crown Jewel sure is dangerous! Keep in mind that it shoots at the same rate all the time, so time yourself accordingly!
-			KingSlimeNinjaTip: The ninja shoots more shurikens the farther you are, so don't go too far!
-			KingSlimeJokeTip1: Quite a sticky situation you had to deal with...
-			KingSlimeDefeatTip: And that's a Goo’d bye!
+			GolemTip1: 石巨人的眼睛会随着攻击改变颜色，睁大你的眼睛！
+			GolemTip2: 如果你觉得登上平台太难了，你可以钩在墙上重置飞行时间！
+			GolemJokeTip1: 你将会有一段坏时光......
+			HiveMindTip1: 如果你想了解对手的移动行为，可以利用它们的前摇来占上风！
+			HiveMindTip2: 试着远离腐巢意志来拉开与雨云的距离，这可以让你的战斗场地更干净！
+			HiveMindTip3: 如果你攻击腐巢意志，它会提前开始下一次攻击；等它冷却完了再开火！
+			HiveMindFinalPhaseTip: 还没完吗？！
+			HiveMindJokeTip1: 那没啥用，但是别担心！我的意志十分坚定！
+			HiveMindJokeTip2: 我打算发表一些刻薄的评论，但我也许应该控制一下我的意志......
+			KingSlimeTip1: 试着理解史莱姆王的跳跃攻击！这有助于提前帮助你计划好你的走位。
+			KingSlimeTip2: 跳得挺高，但我想知道你能不能从下面越过去？
+			KingSlimeJewelTip: 那颗王冠宝石很危险！记住，它总是以相同频率射击，所以可以自己默数！
+			KingSlimeNinjaTip: 离得越远，忍者射出的飞镖就越多，所以别跑太远！
+			KingSlimeJokeTip1: 你不得不面对一个相当“黏”手的局面......
+			KingSlimeDefeatTip: 它已经史到临头了！
 			AnahitaTip1: If you lead Anahita’s movement well enough, she’ll leave gaps in the clefs to dodge through!
 			AnahitaFinalPhaseTip: Home stretch! Do the same as you did before!
 			LeviathanTip1: The meteors all split in the same way; use this to your advantage!
