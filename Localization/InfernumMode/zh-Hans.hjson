@@ -1341,15 +1341,15 @@ Mods: {
 				DisplayName: 寻路者
 				Tooltip:
 					'''
-					Creates a magical gate that allows you to fast travel to it
-					Does not work when a boss is alive
+					创造一扇魔法门让你快速到达那里
+					有boss存活时无法使用
 					ModifedInModifyTooltips
 					'''
 				TooltipEffect:
 					'''
-					Hold LMB to teleport to the gate
-					Hold LMB and {0} to set the gate to your position
-					Hold LMB and {1} to remove the gate
+					长按鼠标左键来传送到魔法门
+					长按鼠标左键的同时按{0}在你的位置创造一个魔法门
+				 长按鼠标左键的同时按{1}来移除魔法门
 					'''
 			}
 
