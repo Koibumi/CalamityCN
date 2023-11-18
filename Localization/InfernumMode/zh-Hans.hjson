@@ -644,12 +644,12 @@ Mods: {
 				TextToDisplay:
 					'''
 					忠诚护卫
-					重生之龙 牙戎
+					重生之龙 亚戎
 					'''
 				JokeTextToDisplay:
 					'''
 					超级无敌大大大的
-					重生之龙 牙戎
+					重生之龙 亚戎
 					'''
 			}
 		}
@@ -1507,22 +1507,22 @@ Mods: {
 		MusicDisplay: {
 			ForgottenWinds: {
 				DisplayName: 遗忘之风
-				Author: by Toasty
+				Author: 作者：Toasty
 			}
 
 			UnholySanctuary: {
 				DisplayName: 秽色圣所
-				Author: by Toasty
+				Author: 作者：Toasty
 			}
 
 			SignusAmbience: {
 				DisplayName: ???
-				Author: by Dominic
+				Author: 作者：Dominic
 			}
 		}
 
 		// Will use the CalamitasShadowClone.DisplayName field
-		NameOverrides.CalamitasShadowClone.EntryName: The {0}
+		NameOverrides.CalamitasShadowClone.EntryName: {0}
 
 		NPCs: {
 			ColossalSquidTentacle.DisplayName: 触手
@@ -1780,8 +1780,8 @@ Mods: {
 			TwinsFinalPhaseTip: 当心，最后的魔眼会不顾一切攻击你！不要松懈！
 			WoFTip1: 你一定要朝反方向跑！
 			WoFTip2: 那些眼睛太吓人了，好在它们只会在特定的位置射击！
-			WoFTip3: Yuck, Those grotesque mouths break off and fly?! Wish I could just burn them in an Inferno myself…
-			WoFJokeTip1: Welp, that one was a bust! Nothing beats having more opportunities to bully the Guide though!
+			WoFTip3: 哎呀，那些奇怪的嘴折断并且飞起来了？！我真希望我能用自己的狱火把它们烧掉......
+			WoFJokeTip1: 哇，你的巫毒娃娃浪费了！没有什么比有更多的机会欺负向导更好了！
 			YharonPreHealTip: 你快做到了！犽戎现在肯定已是穷途末路了！
 			YharonPostHealTip: 啊？
 			YharonSpeedTip: 试着记住犽戎什么时候会疯狂冲刺，否则它会打你个措手不及！
@@ -2454,7 +2454,7 @@ Mods: {
 			DraedonDefeat9: 但现在，我得把注意力放回到我的机械上了。如果你想再次面对我的造物，就使用密码破译器吧。
 			DraedonDefeat10: 至此，我向你道别，祝你的未来一路顺风。
 			SCalCongratulations: ……恭喜你。
-			MultiplayerWarning: 炼狱模式：不支持多人模式，预期中有些东西可能会损坏，并且mod不能完全运行。不要上报多人bug。
+			MultiplayerWarning: 炼狱模式：不支持多人模式，预期中有些东西可能会损坏，并且mod不能完全运行。不要去上报多人bug。
 
 			Death: {
 				RedElectrified: "{0}无法承受住红色闪电的洗礼。"
