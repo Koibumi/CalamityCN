@@ -1750,11 +1750,11 @@ Mods: {
 			ProvidenceTip2: 专注于躲避，你没必要一直攻击！如果你不能活着看到这场战斗的结束，那还有什么意义呢？
 			ProvidenceExplosionTip: 那些火球似乎只有在撞击岩浆时才会产生爆炸，你可以把它们引走！
 			ProvidenceFinalPhaseTip: 普罗维登斯看起来在准备些什么！
-			QueenBeeTip1: Those Honey Shots sure are bouncy, don't move too fast else they will splatter everywhere!
-			QueenBeeTip2: Getting rid of those extra hornets should be your top priority!
-			QueenBeeTip3: Y'know, this poison is quite sickening; maybe you should search for a Bezoar?
-			QueenBeeJokeTip1: I can't Bee-lieve that, totally uncalled for!
-			QueenBeeJokeTip2: Oof, that mustve Stung...
+			QueenBeeTip1: 那些蜂蜜弹会反弹，不要移到太快，不然它们会弹的到处都是！
+			QueenBeeTip2: 除掉那些额外的黄蜂是你的首要任务！
+			QueenBeeTip3: 你知道的，这种毒令人作呕；你也许应该找一块牛黄？
+			QueenBeeJokeTip1: 那完全没必要，为什么要奴役蜜蜂？
+			QueenBeeJokeTip2: 哦，那一定跟被蜜蜂蜇了一样......
 			QueenSlimeTip1: If it feels like you can’t run, then don’t! Moving less will help a lot!
 			QueenSlimeBladeBeamTip: What is THAT?! Get away from it! I don’t want to get atomized today!
 			QueenSlimeCrystalTip: Those crystals are equally spaced... seems like you can dodge them the same way consistently!
@@ -1766,7 +1766,7 @@ Mods: {
 			SkeletronTip1: Contrary to what you may think, running into the shadowflame walls will not work, take it slow!
 			SkeletronTip2: Don't panic when Skeletron does his barrages of hand fireballs! Just jump and stay calm!
 			SkeletronTip3: The homing skulls take a long while to turn around, so it's possibly better to stay in a general spot rather than run far!
-			SkeletronJokeTip1: 花式吊打！！！
+			SkeletronJokeTip1: 花~~~~~~~~式吊打！！！
 			SlimeGodTip1: They dont seem very intelligent, maybe you could trick them to jump higher if you do aswell?
 			SlimeGodTip2: That was a little overwhelming! I wonder if mirroring its moves could work in your favor?
 			StormWeaverTip1: Those cloud barrages can take you by surprise! Stay focused - that storm scourge only seems to be focused on summoning attacks, not ramming you!
