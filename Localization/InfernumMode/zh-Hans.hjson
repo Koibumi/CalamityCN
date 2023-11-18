@@ -1705,51 +1705,51 @@ Mods: {
 			KingSlimeNinjaTip: 离得越远，忍者射出的飞镖就越多，所以别跑太远！
 			KingSlimeJokeTip1: 你不得不面对一个相当“黏”手的局面......
 			KingSlimeDefeatTip: 它已经史到临头了！
-			AnahitaTip1: If you lead Anahita’s movement well enough, she’ll leave gaps in the clefs to dodge through!
-			AnahitaFinalPhaseTip: Home stretch! Do the same as you did before!
-			LeviathanTip1: The meteors all split in the same way; use this to your advantage!
-			LeviathanFinalPhaseTip: Home stretch! try focusing on yourself more than the boss!
-			MoonLordTip1: Those eyeballs perform attacks that require a lot of weaving! Make sure to not panic when they happen!
-			MoonLordLaserTip: Brace yourself! A barrage of slow bolts are going to be released!
-			MoonLordTip2: Remember to manage your space, or you might get cornered!
-			MoonLordBlackHoleTip: The Moon Lord seems angry! Try to dodge the side projectiles, and don't touch that black hole!
+			AnahitaTip1: 如果你把阿娜希塔的位置诱导的足够好，她会在音符间留下一些空隙以便于你躲避！
+			AnahitaFinalPhaseTip: 最后的阶段了！像你以前那样做！
+			LeviathanTip1: 这些流星都以同样的方式分裂，利用好这个优势！
+			LeviathanFinalPhaseTip: 最后的阶段了！试着更多的注意自己而不是boss！
+			MoonLordTip1: 那些眼球的攻击需要大量的时间来完成！当它们出现时不要惊慌！
+			MoonLordLaserTip: 打起精神来！一连串缓慢的球将要释放了！
+			MoonLordTip2: 记得管理好你的空间，不然你可能会走投无路！
+			MoonLordBlackHoleTip: 月亮领主似乎发怒了！试着多开侧面的弹幕，不要碰那个黑洞！
 			MoonLordJokeTip1: Squib emoji
-			OldDukeTip1: Be sure to remember if any sharkrons or tooth balls appear, so that their remains don't surprise you later!
-			OldDukeTip2: Movement speed is gonna matter a lot against that fish!
-			OldDukeFinalPhaseTip: Keep a mental counter of when he teleports, or he’ll catch you by surprise!
-			OldDukeRealFinalPhaseTip: Just ramming won’t work, but neither will just dodging… Try doing both at once!
-			OldDukeDashTip1: Are you really sure you don't want to use a dash for that fish?
-			OldDukeDashTip2: A dashing accessory would be reeaaally helpful here...
-			PBGDroneJailTip: Those drones are building a jail around you, destroying one will give you an opening!
-			PBGDroneBuildTip: Destroy those builder drones before the whole jungle goes kablooey!
-			PerforatorsTip1: The Hive spews out a ton of lingering ichor, so space management is key!
-			PerforatorsWorm1Tip: The small perforator's projectiles accelerate quite a bit as they fall, watch out for any surprises!
-			PerforatorsWorm2Tip: This perforator doesn't seem as offensive as its pals, Maybe let it coil around you instead?
-			PerforatorsProjectilesTip: Staying calm and still will help dodge the slow projectiles!
-			PerforatorsFinalPhaseTip: It's still going?!
-			PlanteraTip1: During the tentacle spreads, look for the blind spot!
-			PlanteraPlanteraTip: Manage those clouds carefully. You'll need to weave through them to find the gap in her tentacles!
-			PlanteraFinalPhaseTip: Plantera isn't keeping anything back, watch out!
-			PlanteraJokeTip1: A bit embarassing, dying to a plant.
-			PlanteraJokeTip2: From what I can tell, Plantera is winning - but who's keeping spore?
-			PolterghastTip1: A dash of sorts helps a lot with the spinning ring attack, since it lets you quickly reach the opening!
-			PolterghastTip2: If one of the Polterghast's legs turn red, quickly back away; it's going to swipe at you and release accelerating projectiles!
-			PolterghastDesperationPhaseTip: Polterghast's spirits have been released! But they don't seem very happy with us...
-			ProvidenceDawnWarningTip: Make sure it doesn't become dawn if you fight Providence again!
-			ProvidenceDuskWarningTip: Make sure it doesn't become dusk if you fight Providence again!
-			PrimeTip1: His arms seem to be aiming towards where you’re heading, a direction change last second will surely throw off those calculations…
-			PrimeTeslaTip: Those blue tesla mines are going to explode into gas; take cover!
-			PrimeJokeTip1: Now this is a prime example of what NOT to do..
-			ProfanedRoDTip: The profaned magic seems to be blocking your Rod of Discord!
-			ProfanedDefenderTip: Ohhh, he's really mad now! Stay on your toes!
-			ProfanedFlappyBirdTip: They've holed themselves up on the right, but if you get there you can probably breach their defenses!
-			ProfanedFlappyJokeTip: That onslaught of fire walls reminds me of a certain game, but the players could only jump in the air! Good thing you have wings, right?
-			ProfanedFlappyBirdEndTip: They're a really good team! You'll want to manage everything at once, taking it slow is your best shot!
-			ProfanedHealerDeathTip: It's getting physical now! Don't let one distract you from the other!
-			ProvidenceTip1: Her attack cycle is similar to the music cycle, try using the music as a way to guide you through the fight!
-			ProvidenceTip2: Focus on dodging, You don't have to keep attacking at all times! What worth is there to damage if you dont live to see the end of it?
-			ProvidenceExplosionTip: Those fireballs seem to only explode if they hit lava, you should probably bait them away!
-			ProvidenceFinalPhaseTip: It looks like Providence is preparing something!
+			OldDukeTip1: 确保你记住了鲨鱼龙和鲨牙刺球的位置，这样它们分裂出的残骸就不会惊到你！
+			OldDukeTip2: 移动速度对于战胜那条鱼很重要！
+			OldDukeFinalPhaseTip: 当他传送时你可以在心里默数冲刺次数，不然他可能会打你个出其不意！
+			OldDukeRealFinalPhaseTip: 仅仅使用对冲是行不通的，但也不能仅仅躲避......试着同时做这两件事！
+			OldDukeDashTip1: 你确定你不想用冲刺应对那条鱼吗？
+			OldDukeDashTip2: 一个冲刺饰品在这场战斗中肯定会非常非常有用……
+			PBGDroneJailTip: 那些无人机正在你的身边建造一个囚笼，摧毁一架以打开它！
+			PBGDroneBuildTip: 在整座丛林被核爆之前摧毁那些建构无人机！
+			PerforatorsTip1: 宿主会喷射大量的滞留灵液，空间管理至关重要！
+			PerforatorsWorm1Tip: 小型血肉寄生者的弹幕在下落时会加速，当心意外！
+			PerforatorsWorm2Tip: 这条血肉寄生者似乎不像它的朋友那样令人反感，也许就让它在你周围绕圈吧？
+			PerforatorsProjectilesTip: 保持冷静与静止在原地有助于你躲避慢速弹幕！
+			PerforatorsFinalPhaseTip: 还没完吗？！
+			PlanteraTip1: 在触手伸长的时候寻找盲区！
+			PlanteraPlanteraTip: 小心那些云。只有穿过它们你才能找到她触手的缺口！
+			PlanteraFinalPhaseTip: 世纪之花将不留余力地攻击你，小心！
+			PlanteraJokeTip1: 死于一棵植物还是挺尴尬的。
+			PlanteraJokeTip2: 我可以告诉你的是，世纪之花赢了——但是谁在培养孢子？
+			PolterghastTip1: 冲刺对于转环攻击很有帮助，因为它可以帮你快速到达开口！
+			PolterghastTip2: 如果噬魂幽花的一条腿变红了，赶紧后退；它会扫你并释放加速弹幕！
+			PolterghastDesperationPhaseTip: 噬魂幽花体内的灵魂被释放了！但它们似乎对我们并不是很友善......
+			ProvidenceDawnWarningTip: 如果再一次跟普罗维登斯战斗，确保不会打一半到了白天！
+			ProvidenceDuskWarningTip: 如果再一次跟普罗维登斯战斗，确保不会打一半到了夜晚！
+			PrimeTip1: 他的手臂似乎对准了你将要移动的地方，最后一秒改变方向肯定会打乱它们的计算......
+			PrimeTeslaTip: 那些蓝色特斯拉电球将会爆炸成气体，躲起来！
+			PrimeJokeTip1: 你最好像一个机械一样什么都不做......
+			ProfanedRoDTip: 亵渎魔法似乎锁定了你的混沌传送杖！
+			ProfanedDefenderTip: 哦，他现在真的疯了！保持警觉！
+			ProfanedFlappyBirdTip: 它们把自己隐藏在右边，但如果你过去了的话就可以突破它们的防御！
+			ProfanedFlappyJokeTip: 那个火墙让我想到了个游戏，但玩家只能在空中跳跃！幸好你有翅膀，不是吗？
+			ProfanedFlappyBirdEndTip: 它们是一支很好的团队！你可能想着一次性解决所有的事情，但是慢慢来才是你最好的办法！
+			ProfanedHealerDeathTip: 它现在更强了！别让另一个分散了你对其中一个的注意力！
+			ProvidenceTip1: 她的攻击循环与音乐循环相似，试着让音乐引导你完成这场战斗！
+			ProvidenceTip2: 专注于躲避，你没必要一直攻击！如果你不能活着看到这场战斗的结束，那还有什么意义呢？
+			ProvidenceExplosionTip: 那些火球似乎只有在撞击岩浆时才会产生爆炸，你可以把它们引走！
+			ProvidenceFinalPhaseTip: 普罗维登斯看起来在准备些什么！
 			QueenBeeTip1: Those Honey Shots sure are bouncy, don't move too fast else they will splatter everywhere!
 			QueenBeeTip2: Getting rid of those extra hornets should be your top priority!
 			QueenBeeTip3: Y'know, this poison is quite sickening; maybe you should search for a Bezoar?
@@ -2372,10 +2372,10 @@ Mods: {
 			MyrindaelSpark.DisplayName: Myrindael Spark
 			MyrindaelSpinProjectile.DisplayName: Myrindael
 			AsterPetProj.DisplayName: Aster
-			BlahajProj.DisplayName: Blahaj
-			BronzePetProj.DisplayName: Yharn
-			HatGirl.DisplayName: Hat Girl
-			SheepGod.DisplayName: Sheep God
+			BlahajProj.DisplayName: 蓝鲨
+			BronzePetProj.DisplayName: 鸭绒
+			HatGirl.DisplayName: 礼帽女孩
+			SheepGod.DisplayName: 羔羊之神
 			GlassmakerFire.DisplayName: Glass Flames
 			GlassmakerHoldout.DisplayName: Glassmaker
 			GlassPiece.DisplayName: Glass Piece
@@ -2455,7 +2455,7 @@ Mods: {
 			DraedonDefeat9: 但现在，我得把注意力放回到我的机械上了。如果你想再次面对我的造物，就使用密码破译器吧。
 			DraedonDefeat10: 至此，我向你道别，祝你的未来一路顺风。
 			SCalCongratulations: ……恭喜你。
-			MultiplayerWarning: InfernumMode: Multiplayer is NOT supported, expect things to break and the mod not be fully playable. Do not report MP bugs.
+			MultiplayerWarning: 炼狱模式：不支持多人模式，预期中有些东西可能会损坏，并且mod不能完全运行。不要上报多人bug。
 
 			Death: {
 				RedElectrified: "{0}无法承受住红色闪电的洗礼。"
@@ -2480,7 +2480,7 @@ Mods: {
 			WishesHoverTextButton: 打开死亡祈愿
 
 			GuardiansPlaqueUI: {
-				HoverText: Read
+				HoverText: 阅读
 				// !! Beware translators: The "ancient artifact" string must be the same as the one in the SpecialText
 				PlaqueText: 三位圣徒。同一思想，同一神性，同一目标。在亵渎圣火的淬炼下，一个远古圣器结晶而出，其唯一的目的是在这座神庙的悬崖上开启仪式。
 				SpecialText: 远古圣器
@@ -2488,14 +2488,14 @@ Mods: {
 
 			// Enrage tooltips
 			EnrageTooltipReplacements: {
-				DecapoditaSprout: Enrages outside of the Mushroom biome
+				DecapoditaSprout: 在发光蘑菇生物群落外狂暴
 				WormFood: 在腐化外狂暴
 				BloodySpine: 在猩红外狂暴
 				Teratoma: 在腐化外狂暴
 				BloodyWormFood: 在猩红外狂暴
-				Seafood: Enrages outside of the waters of the Sulphurous Sea
+				Seafood: 在硫磺海的水外狂暴
 				Abombination: 在地下丛林外狂暴
-				NecroplasmicBeacon: Enrages outside of the Underground
+				NecroplasmicBeacon: 在地下外狂暴
 			}
 
 			HyperplaneMatrixUI: {
