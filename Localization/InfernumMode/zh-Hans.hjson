@@ -1775,12 +1775,11 @@ Mods: {
 			SCalSkullTip: 好多头骨，但它们似乎没有直接瞄准你！试着从中间穿过去！
 			SCalDesperationTip: 即使一切都失控了，你也要专心躲避！
 			SCalFireChargeTip: 那些爆弹占据了很大的空间！试着诱导她在你容易躲开的地方发射它们！
-			TwinsTip1: Having trouble dodging during the spin? Three can play at that game, Spin along!
-			TwinsFinalOptionTip: Each one of the Twins has their own special last resort procedure, if one is giving you a hard time; try focusing on the other first!
-			TwinsTip1: Having trouble dodging during the spin? Three can play at that game, Spin!
-			TwinsFinalPhaseTip: Watch out, that last twin is gonna hit you with everything it's got! Don't let up!
+			TwinsTip1: 靠旋转来躲避很困难吗？三个人可以玩那个游戏，一起旋转！
+			TwinsFinalOptionTip: 双子魔眼中的每一个都有独特的最终程序，如果它们中的一个给你带来困扰，可以试着专注于另一个！
+			TwinsFinalPhaseTip: 当心，最后的魔眼会不顾一切攻击你！不要松懈！
 			WoFTip1: 你一定要朝反方向跑！
-			WoFTip2: These detached eyes are rather intimidating, Good thing they only shoot at very specific points!
+			WoFTip2: 那些眼睛太吓人了，好在它们只会在特定的位置射击！
 			WoFTip3: Yuck, Those grotesque mouths break off and fly?! Wish I could just burn them in an Inferno myself…
 			WoFJokeTip1: Welp, that one was a bust! Nothing beats having more opportunities to bully the Guide though!
 			YharonPreHealTip: 你快做到了！犽戎现在肯定已是穷途末路了！
