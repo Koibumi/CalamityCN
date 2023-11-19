@@ -74,7 +74,7 @@ ScrewdriverBuff: {
 }
 
 StarBeamRyeBuff: {
-	DisplayName: 星流黑麦威士忌
+	DisplayName: 星界黑麦威士忌
 	Description: 最大魔力值和魔法伤害增加且魔力消耗降低，但防御力和生命再生速度降低
 }
 
