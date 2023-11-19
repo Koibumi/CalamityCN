@@ -2354,44 +2354,44 @@ Mods: {
 			ProvidenceSummonerProjectile.DisplayName: 亵渎天神召唤弹幕
 			ScreenShakeProj.DisplayName: 屏幕抖动
 			TerminusAnimationProj.DisplayName: 终末石动画弹幕
-			WaterglassTokenProjectile.DisplayName: Waterglass Token
-			HyperplaneMatrixProjectile.DisplayName: Hyperplane Matrix
-			AridBattlecryProjectile.DisplayName: Arid Battlecry
-			EyeOfMadnessProj.DisplayName: Eye of Madness
-			IllusionersReverieProj.DisplayName: Illusioner's Reverie
+			WaterglassTokenProjectile.DisplayName: 水琉璃之赠
+			HyperplaneMatrixProjectile.DisplayName: 超平面矩阵
+			AridBattlecryProjectile.DisplayName: 干旱之吼
+			EyeOfMadnessProj.DisplayName: 癫狂魔眼
+			IllusionersReverieProj.DisplayName: 幻迷之念
 			KevinProjectile.DisplayName: Kevin
-			LingeringSandSkull.DisplayName: Sand Skull
-			MiniSandShark.DisplayName: Mini Sand Shark
-			ShadowIllusion.DisplayName: Lens Flare
-			ShadowTendril.DisplayName: Shadow Tendril
+			LingeringSandSkull.DisplayName: 沙之颅
+			MiniSandShark.DisplayName: 迷你沙鲨
+			ShadowIllusion.DisplayName: 镜头光晕
+			ShadowTendril.DisplayName: 暗影卷须
 			EggGoldProjectile.DisplayName: 金蛋
 			EggProjectile.DisplayName: 蛋
-			MyrindaelBonkProjectile.DisplayName: Myrindael
-			MyrindaelLightning.DisplayName: Myrndael Lightning Bolt
-			MyrindaelSpark.DisplayName: Myrindael Spark
-			MyrindaelSpinProjectile.DisplayName: Myrindael
-			AsterPetProj.DisplayName: Aster
+			MyrindaelBonkProjectile.DisplayName: 颤沙霆戟
+			MyrindaelLightning.DisplayName: 颤沙霆戟闪电
+			MyrindaelSpark.DisplayName: 颤沙霆戟火花
+			MyrindaelSpinProjectile.DisplayName: 颤沙霆戟
+			AsterPetProj.DisplayName: 星
 			BlahajProj.DisplayName: 蓝鲨
-			BronzePetProj.DisplayName: 鸭绒
-			HatGirl.DisplayName: 礼帽女孩
+			BronzePetProj.DisplayName: 癫痫鸟
+			HatGirl.DisplayName: 礼帽女孩 
 			SheepGod.DisplayName: 羔羊之神
-			GlassmakerFire.DisplayName: Glass Flames
-			GlassmakerHoldout.DisplayName: Glassmaker
-			GlassPiece.DisplayName: Glass Piece
-			DreamtasticEnergyBolt.DisplayName: Dreamer's Energy Bolt
-			DreamtasticProj.DisplayName: Dreamtastic
-			StormMaidensLightning.DisplayName: Storm Maiden Lightning Bolt
-			StormMaidensRetributionProj.DisplayName: Storm Maiden's Retribution
-			StormMaidensRetributionWorldProj.DisplayName: Storm Maiden's Retribution
-			WanderersShellProj.DisplayName: Wanderer's Shell
+			GlassmakerFire.DisplayName: 熔璃之火
+			GlassmakerHoldout.DisplayName: 熔璃化匠
+			GlassPiece.DisplayName: 玻璃碎片
+			DreamtasticEnergyBolt.DisplayName: 梦幻之能
+			DreamtasticProj.DisplayName: 梦幻
+			StormMaidensLightning.DisplayName: 风暴少女之闪电
+			StormMaidensRetributionProj.DisplayName: 风暴少女之复仇
+			StormMaidensRetributionWorldProj.DisplayName: 风暴少女之复仇
+			WanderersShellProj.DisplayName: 流浪者之壳
 			WayfinderGate.DisplayName: 寻路者魔法门
 			WayfinderHoldout.DisplayName: 寻路者
 			WayfinderItemProjectile.DisplayName: 寻路者
 			WayfinderSymbol.DisplayName: 寻路者魔法门
-			MushBombInfernum.DisplayName: Mush Bomb Infernum
-			DoGProviCutsceneInitialPortal.DisplayName: Do G Provi Cutscene Initial Portal
-			DoGProviCutsceneProjectile.DisplayName: Do G Provi Cutscene Projectile
-			ProviBurnPulseRing.DisplayName: Provi Burn Pulse Ring
+			MushBombInfernum.DisplayName: 炼狱蘑菇炸弹
+			DoGProviCutsceneInitialPortal.DisplayName: 神吞和亵渎过场动画初始传送门
+			DoGProviCutsceneProjectile.DisplayName: 神吞和亵渎过场动画弹幕
+			ProviBurnPulseRing.DisplayName: 亵渎之火脉冲环
 		}
 
 		Status: {
