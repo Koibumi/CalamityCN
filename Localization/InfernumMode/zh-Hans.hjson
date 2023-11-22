@@ -1522,7 +1522,7 @@ Mods: {
 		}
 
 		// Will use the CalamitasShadowClone.DisplayName field
-		NameOverrides.CalamitasShadowClone.EntryName: {0}
+		NameOverrides.CalamitasShadowClone.EntryName: "{0}"
 
 		NPCs: {
 			ColossalSquidTentacle.DisplayName: 触手
