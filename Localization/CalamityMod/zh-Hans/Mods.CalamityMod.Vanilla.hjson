@@ -69,13 +69,13 @@ GuideChat: {
 }
 
 HerbTooltips: {
-	Daybloom: "[C/FFEB8A:A cheerful herb which blooms under daylight]"
-	Moonglow: "[C/8AFFFF:A radiant herb which blossoms under moonlight]"
-	Waterleaf: "[C/8AFFAF:A tenacious herb that blossoms in the rain]"
-	Blinkroot: "[C/FFC28A:A fickle herb, whose blooming is unpredictable]"
-	Shiverthorn: "[C/AADEFA:A frigid herb that blooms slowly and permanently]"
-	Deathweed: "[C/A98AFF:A foul herb, blossoming under the Full or Blood Moon]"
-	Fireblossom: "[C/FF8063:A vibrant herb, blossoming in the sunset hours]"
+	Daybloom: "[C/FFEB8A:一种在白天盛开的充满活力的草药]"
+	Moonglow: "[C/8AFFFF:一种在月光下绽放光辉的草药]"
+	Waterleaf: "[C/8AFFAF:一种顽强的在雨中绽放的草药]"
+	Blinkroot: "[C/FFC28A:一种无法预测开花时间的变幻莫测的草药]"
+	Shiverthorn: "[C/AADEFA:一种花期长久的在寒冷中坚毅生长的草药]"
+	Deathweed: "[C/A98AFF:一种在满月或血月下绽放的邪恶草药]"
+	Fireblossom: "[C/FF8063:一种在日落时分斩风的生机勃勃的草药]"
 }
 
 MechanicChat: {
