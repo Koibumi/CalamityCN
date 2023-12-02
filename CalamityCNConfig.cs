@@ -21,9 +21,6 @@ namespace CalamityCN
         [DefaultValue(0)]
         public Systems.zhCNLang Lang;
         */
-        [ReloadRequired]
-        [Header("CNinfernum")]
-        public bool InfernumCN;
 
     }
 }
