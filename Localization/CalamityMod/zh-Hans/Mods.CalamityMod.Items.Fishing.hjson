@@ -83,11 +83,20 @@ CragBullhead: {
 
 DragoonDrizzlefish: {
 	DisplayName: 硫火喷吐鱼
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		发射并不精确的扩散火球
+		发射各种狱炎和硫磺火球
+		有时会发射更大的分裂火球
 		它的硫磺火囊里似乎装有燃料
 		“当即复仇的滋味最为甜美”
+		'''
+	TooltipGFB:
+		'''
+		发射各种狱炎和硫磺火球
+		有时会发射更大的分裂火球
+		Right click to feed the little boy some tasty gel
+		'He is a hungry boy'
 		'''
 }
 

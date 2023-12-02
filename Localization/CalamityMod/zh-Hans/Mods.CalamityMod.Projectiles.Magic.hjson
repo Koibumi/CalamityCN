@@ -178,6 +178,8 @@ RedirectingVengefulSoul.DisplayName: 灵魂
 RougeSlashLarge.DisplayName: 绯红利刃
 RougeSlashMedium.DisplayName: 绯红利刃
 RougeSlashSmall.DisplayName: 绯红利刃
+Sandstream.DisplayName: Sandstream
+SandstreamScepterExplosion.DisplayName: Sandstream Blast
 SanguineFlareProj.DisplayName: 血斑
 SeethingDischargeBrimstoneBarrage.DisplayName: 迸裂硫火
 SeethingDischargeBrimstoneHellblast.DisplayName: 狱炎风暴
@@ -243,8 +245,6 @@ VoidVortexProj.DisplayName: 虚空漩涡
 VolatileStarcore.DisplayName: 挥发性星核
 VortexElementalBeam.DisplayName: 闪电
 WaterLeechProj.DisplayName: 水蛭
-WaterStream.DisplayName: 水流
-WaterStream2.DisplayName: 水流
 WaywasherProj.DisplayName: 清道夫弹幕
 WulfrumBolt.DisplayName: 钨钢杖飞弹
 WulfrumManaDrain.DisplayName: 魔力汲取

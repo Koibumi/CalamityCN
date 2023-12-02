@@ -58,6 +58,11 @@ MoscowMuleBuff: {
 	Description: 伤害、暴击率和击退增加，但生命再生速度降低
 }
 
+OldFashionedBuff: {
+	DisplayName: Old Fashioned
+	Description: Accessory and set bonus damage multiplied, damage reduced
+}
+
 RedWineBuff: {
 	DisplayName: 红葡萄酒
 	Description: 生命再生速度降低
@@ -136,6 +141,11 @@ BurningBlood: {
 BrainRot: {
 	DisplayName: 大脑溃烂
 	Description: 你的神经元像玉米粒一样爆裂。
+}
+
+ElementalMix: {
+	DisplayName: Elemental Mix
+	Description: A beautiful elemental symphony is flaying you alive
 }
 
 CrushDepth: {
@@ -662,15 +672,6 @@ BloodflareBloodFrenzy: {
 	Description: 敌人的接触伤害降低，你的近战属性大幅度增加
 }
 
-BloodyBoost: {
-	DisplayName: 血腥激励
-	Description:
-		'''
-		增强攻击和防御属性
-		治疗药水会回复更多生命值
-		'''
-}
-
 BossEffects: {
 	DisplayName: Boss效果
 	Description:
@@ -685,6 +686,11 @@ BossEffects: {
 BrimflameFrenzyBuff: {
 	DisplayName: 硫火狂怒
 	Description: 以生命为代价，黑魔法大大增强了你的力量
+}
+
+BrutalCarnage: {
+	DisplayName: Brutal Carnage
+	Description: 25% increased melee damage and 10% increased melee crit chance
 }
 
 ChiBuff: {
@@ -828,11 +834,6 @@ ReaverRage: {
 	Description: 爷怒了
 }
 
-ShellBoost: {
-	DisplayName: 甲壳提速
-	Description: 移动速度增加
-}
-
 SilvaRevival: {
 	DisplayName: 始源林海无敌
 	Description: 你处于无敌状态并免疫大多数减益
@@ -866,11 +867,6 @@ TarragonImmunity: {
 TarraLifeRegen: {
 	DisplayName: 生命涌流
 	Description: 快速再生生命
-}
-
-TyrantsFury: {
-	DisplayName: 暴君之怒
-	Description: 增加30%近战伤害和10%近战暴击率
 }
 
 AndromedaCripple: {

@@ -980,8 +980,8 @@ ScourgeoftheDesert: {
 	DisplayName: 沙漠之灾
 	Tooltip:
 		'''
-		持续加速
-		潜伏攻击会使沙漠之灾基于命中敌人的次数增加伤害
+		A javelin that will burrow through the ground and launch itself at enemies
+		Stealth strikes throw three javelins that will burrow multiple times
 		'''
 }
 

@@ -368,11 +368,6 @@ GloriousEnd: {
 		'''
 }
 
-GrandStaffoftheNebulaMage: {
-	DisplayName: 星云法师圣杖
-	Tooltip: “你的手中掌握着星云法师真正的力量……”
-}
-
 GruesomeEminence: {
 	DisplayName: 异端僭越
 	Tooltip:
@@ -530,6 +525,11 @@ NanoPurge: {
 	Tooltip: 发射纳米激光弹幕
 }
 
+NebulousCataclysm: {
+	DisplayName: Nebulous Cataclysm
+	Tooltip: “你的手中掌握着星云法师真正的力量……”
+}
+
 NightsRay: {
 	DisplayName: 永夜射线
 	Tooltip:
@@ -643,6 +643,15 @@ RougeSlash: {
 	Tooltip: 一次发射3道空气斩
 }
 
+SandstreamScepter: {
+	DisplayName: Sandstream Scepter
+	Tooltip:
+		'''
+		Fires an explosive stream of sand that falls after hitting an enemy
+		The explosion only occurs when the projectile expires
+		'''
+}
+
 SanguineFlare: {
 	DisplayName: 猩红烈焰
 	Tooltip: 发射一阵从敌人身上吸取生命的猩红火焰
@@ -655,7 +664,11 @@ SeethingDischarge: {
 
 Serpentine: {
 	DisplayName: 海蟒咒书
-	Tooltip: 召唤一条跟随光标移动的海蟒蛇
+	Tooltip:
+		'''
+		Casts a serpent that follows the mouse cursor
+		Ignores 15 points of enemy Defense
+		'''
 }
 
 ShadecrystalTome: {
@@ -717,11 +730,6 @@ StaffofBlushie: {
 StarShower: {
 	DisplayName: 流星雨
 	Tooltip: 从光标处降下幻星雨
-}
-
-StormSpray: {
-	DisplayName: 水流喷射
-	Tooltip: 发射一个会额外溅射的水柱
 }
 
 SubsumingVortex: {

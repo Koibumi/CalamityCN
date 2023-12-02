@@ -68,6 +68,16 @@ GuideChat: {
 	Hardmode2: 这场地震绝不是自然发生的，一定有东西造成了它...探索时务必小心，无论真相是什么，这背后都一定有一个强大甚至无与伦比的存在。
 }
 
+HerbTooltips: {
+	Daybloom: "[C/FFEB8A:A cheerful herb which blooms under daylight]"
+	Moonglow: "[C/8AFFFF:A radiant herb which blossoms under moonlight]"
+	Waterleaf: "[C/8AFFAF:A tenacious herb that blossoms in the rain]"
+	Blinkroot: "[C/FFC28A:A fickle herb, whose blooming is unpredictable]"
+	Shiverthorn: "[C/AADEFA:A frigid herb that blooms slowly and permanently]"
+	Deathweed: "[C/A98AFF:A foul herb, blossoming under the Full or Blood Moon]"
+	Fireblossom: "[C/FF8063:A vibrant herb, blossoming in the sunset hours]"
+}
+
 MechanicChat: {
 	MoonLordDefeated: 你说你的机关没成功是什么意思？和我没关系！
 	Eclipse: 呃……我的夜灯需要开着吗？
@@ -115,6 +125,16 @@ PirateChat: {
 	Ocean: 现在这一幕我可以随时欣赏！但我觉得好像有什么东西在看着我。
 	SulphurSea1: 虽然表面上一片死寂，但在这些水域里仍然有生命。
 	SulphurSea2: 我的船可能会因为酸性而沉没。
+}
+
+SeedTooltips: {
+	Daybloom: "[C/FFEB8A:Must be planted in regular Grass]"
+	Moonglow: "[C/8AFFFF:Must be planted in Jungle Grass]"
+	Waterleaf: "[C/8AFFAF:Must be placed in Sand]"
+	Blinkroot: "[C/FFC28A:Must be sown in Dirt or Mud]"
+	Shiverthorn: "[C/AADEFA:Must be placed in Snow or Ice]"
+	Deathweed: "[C/A98AFF:Must be buried in Evil Grass or Evil Stone]"
+	Fireblossom: "[C/FF8063:Must be buried in Ash]"
 }
 
 SkeletonMerchantChat.Normal: 你买啥？

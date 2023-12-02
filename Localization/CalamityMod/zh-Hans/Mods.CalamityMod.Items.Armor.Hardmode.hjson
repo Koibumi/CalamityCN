@@ -382,7 +382,7 @@ PlaguebringerCarapace: {
 	Tooltip:
 		'''
 		使你免疫瘟疫减益
-		增加12%召唤伤害
+		增加15%召唤伤害
 		友方蜜蜂会造成瘟疫减益
 		'''
 }
@@ -391,9 +391,8 @@ PlaguebringerPistons: {
 	DisplayName: 瘟疫使者推进靴
 	Tooltip:
 		'''
-		增加13%召唤伤害和15%移动速度
+		增加15%召唤伤害和15%移动速度
 		你走过的草地会百花齐放，站在无草泥土上时有几率长出随机的染料植物
-		奔跑或冲刺时会释放蜜蜂
 		'''
 }
 
@@ -407,7 +406,7 @@ PlaguebringerVisor: {
 	SetBonus:
 		'''
 		获得瘟疫冲刺，使敌怪被瘟疫折磨
-		召唤一个小瘟疫使者来保护你，并增强附近的召唤物
+		Summons a lil' plaguebringer which swarms your foes with little bees
 		增加3仆从栏
 		'''
 }

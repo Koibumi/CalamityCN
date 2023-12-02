@@ -66,6 +66,17 @@ AbyssalMirror: {
 		'''
 }
 
+AscendantInsignia: {
+	DisplayName: Ascendant Insignia
+	Tooltip:
+		'''
+		Increases wing flight time by 30%
+		Increases movement and jump speed by 10% and acceleration by 1.1x
+		Pressing [KEY] will give you the power of ascension, providing infinite flight time for 4 seconds
+		Ascension has a 40 second cooldown
+		'''
+}
+
 AeroStone: {
 	DisplayName: 天蓝石
 	Tooltip:
@@ -229,7 +240,6 @@ AsgardianAegis: {
 		使你免疫大多数减益
 		增加40点最大生命值和每秒0.5点生命再生
 		使你获得宇宙狱火冲刺能力，可以在不受伤害的情况下猛击敌人
-		可以用于撞击敌人
 		浸没在液体中时增加20点防御
 		'''
 }
@@ -274,9 +284,9 @@ BloodflareCore: {
 	DisplayName: 血炎晶核
 	Tooltip:
 		'''
-		受到伤害时会损失至多一半的防御
-		损失的防御会随着时间流逝而逐渐恢复
-		每恢复1点防御便为你回复1点生命值
+		Taking defense damage heals you over time
+		You gain 1 health for every 1 defense damage recovered
+		Taking damage always deals at least half of your total defense in defense damage
 		'''
 }
 
@@ -284,10 +294,8 @@ BloodPact: {
 	DisplayName: 血契
 	Tooltip:
 		'''
-		使你的最大生命值翻倍
-		你有25%的几率受到暴击
-		受到暴击后会使你获得持续10秒的多种增益效果
-		此期间消耗的治疗药水的治疗量会增加50%
+		Increases max HP by 25%
+		Healing Potions are 25% more effective
 		'''
 }
 
@@ -346,6 +354,19 @@ Calamity: {
 		'''
 }
 
+ChaliceOfTheBloodGod: {
+	DisplayName: Chalice of the Blood God
+	Tooltip:
+		'''
+		Increases max HP by 25%
+		Taking more than 5 damage converts the hit into a damage over time bleed debuff
+		This bleeding does not interfere with life regeneration
+		Drinking a Healing Potion removes half of the remaining bleed damage
+		Unequipping this accessory while bleeding inflicts the remaining damage instantly
+		'All that for a drop of blood...'
+		'''
+}
+
 ChaosStone: {
 	DisplayName: 混乱石
 	Tooltip:
@@ -363,17 +384,6 @@ CoinofDeceit: {
 		'''
 		潜伏攻击只会消耗85%潜行值
 		增加6%盗贼暴击率
-		'''
-}
-
-CoreOfTheBloodGod: {
-	DisplayName: 血神核心
-	Tooltip:
-		'''
-		增加15%最大生命值
-		增加25%治疗药水的治疗量
-		减半敌人的接触伤害
-		减半接触伤害的效果有20秒冷却时间
 		'''
 }
 
@@ -537,7 +547,7 @@ DimensionalSoulArtifact: {
 	Tooltip:
 		'''
 		力量
-		提升25%伤害，代价是所受伤害增加15%
+		Multiplies all damage by 1.2x, but at the cost of increasing damage taken by 15%
 		'''
 }
 
@@ -627,12 +637,9 @@ ElementalGauntlet: {
 	DisplayName: 元素之握
 	Tooltip:
 		'''
-		近战攻击和弹幕会造成狱炎减益
-		增加15%近战攻速、近战伤害和5%近战暴击率
-		增加20%真近战伤害
-		增加近战击退
-		允许近战武器自动挥舞
-		增加近战武器尺寸
+		Melee attacks and projectiles inflict Elemental Mix
+		15% increased melee damage and 5% increased melee critical strike chance
+		15% increased melee speed, does not stack with downgrades
 		'''
 }
 
@@ -653,7 +660,6 @@ ElysianAegis: {
 		使你免疫击退、燃烧、着火了！和神圣之火减益
 		增加30点最大生命值
 		使你获得加强圣火冲刺能力，可以在不受伤害的情况下猛击敌人
-		可以用于撞击敌人
 		被亵渎之火所祝福的盾牌
 		'''
 }
@@ -826,7 +832,7 @@ GloveOfRecklessness: {
 	DisplayName: 鲁莽手套
 	Tooltip:
 		'''
-		增加15%盗贼攻速，但降低10%盗贼伤害
+		增加15%盗贼攻速，但降低10%盗贼伤害和5%盗贼暴击率
 		增加15%潜行值恢复速度
 		盗贼武器的弹幕更不精准
 		'''
@@ -990,8 +996,8 @@ LeviathanAmbergris: {
 	DisplayName: 利维坦龙涎香
 	Tooltip:
 		'''
-		增加15%的冲刺速度
-		冲刺期间获得5%的伤害减免
+		增加20%的冲刺速度
+		Delay after dashing is reduced by 33%
 		你的冲刺会被水赋能，使用粘稠水流击退并伤害附近的敌人
 		'''
 }
@@ -1160,7 +1166,11 @@ OccultSkullCrown: {
 
 OceanCrest: {
 	DisplayName: 海波项链
-	Tooltip: 大多数海洋敌人变得友好并使你获得水下呼吸能力
+	Tooltip: 
+		'''
+		You recover air while standing still underwater
+		15% increased mining speed while wet
+		'''
 }
 
 OldDie: {
@@ -1532,8 +1542,8 @@ SlagsplitterPauldron: {
 	DisplayName: 熔火碎矿肩甲
 	Tooltip:
 		'''
-		冲刺期间获得5%的伤害减免
-		你的冲刺会被火赋能，使用猛烈爆炸摧毁附近的敌人
+		You gain 10% damage reduction while dashing
+		Enemies you dash through are afflicted with Armor Crunch
 		'''
 }
 
@@ -1858,7 +1868,7 @@ TrinketofChi: {
 	DisplayName: 气功念珠
 	Tooltip:
 		'''
-		在未受到伤害15秒后会获得10%伤害减免，此效果会在你被击中时消失
+		在未受到伤害5秒后会获得4%伤害减免，此效果会在你被击中时消失
 		为你和队友提供每秒1点生命再生
 		'''
 }
@@ -1964,7 +1974,7 @@ WulfrumBattery: {
 	DisplayName: 钨钢电池
 	Tooltip:
 		'''
-		用钨钢能量强化你的仆从，让它们散发光芒
+		用钨钢能量强化你的仆从，如果启用饰品可见性，它们会散发光芒
 		增加7%召唤伤害
 		击杀钨钢机器人时有50%几率获得额外的碎片
 		也可以通过提炼机进行拆分
@@ -1979,17 +1989,6 @@ YharimsGift: {
 		移动时会在身后留下爆裂龙尘
 		增加15%伤害和移动速度
 		神的力量蕴藏于其中
-		'''
-}
-
-YharimsInsignia: {
-	DisplayName: 寻神者证章
-	Tooltip:
-		'''
-		生命值低于50%时增加10%伤害
-		增加15%近战伤害和真近战伤害
-		所有近战攻击会造成神圣之火减益
-		增加近战击退
 		'''
 }
 

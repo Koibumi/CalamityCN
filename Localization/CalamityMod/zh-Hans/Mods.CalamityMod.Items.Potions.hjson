@@ -302,6 +302,16 @@ OddMushroom: {
 		'''
 }
 
+OldFashioned: {
+	DisplayName: Old Fashioned
+	Tooltip:
+		'''
+		Multiplies all accessory and set bonus damage by 1.5x
+		Decreases all damage by 25%
+		[c/B00BA5:'An old favorite of mine.']
+		'''
+}
+
 RedWine: {
 	DisplayName: 红葡萄酒
 	Tooltip:

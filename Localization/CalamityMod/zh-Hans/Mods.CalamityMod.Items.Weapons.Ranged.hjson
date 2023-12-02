@@ -115,14 +115,14 @@ AuroraBlazer: {
 	DisplayName: 极光烈焰
 	Tooltip:
 		'''
-		喷发以星形轨迹运动的星辉烈焰
-		60%几率节省弹药
+		Spews a nebula stream which forms a star shaped pattern
+		Uses gel for ammo
 		'''
 }
 
 Barinade: {
 	DisplayName: 巴淋内德
-	Tooltip: 将木箭转化为爆炸闪电箭
+	Tooltip: Fires two converging high-velocity fin arrows that easily soar through the air
 }
 
 Barinautical: {
@@ -142,7 +142,12 @@ BladedgeGreatbow: {
 
 BlightSpewer: {
 	DisplayName: 枯萎散播者
-	Tooltip: ""
+	Tooltip:
+		'''
+		Fires clouds of plague nanomachines that stick to tiles
+		Nanomachines aggressively lock onto nearby enemies
+		40% chance to save ammo
+		'''
 }
 
 BlissfulBombardier: {
@@ -158,9 +163,8 @@ BloodBoiler: {
 	DisplayName: 血祸沸炉
 	Tooltip:
 		'''
-		射出一股生命血火
+		Fires twin streams of life stealing bloodfire that returns to you
 		消耗你的生命作为弹药
-		25%几率节省弹药
 		'''
 }
 
@@ -222,7 +226,11 @@ ClaretCannon: {
 
 CleansingBlaze: {
 	DisplayName: 净化怒焰
-	Tooltip: 90%几率节省弹药
+	Tooltip:
+		'''
+		Unleashes a torrent of flames which can pass through tiles
+		Uses gel for ammo
+		'''
 }
 
 ClockGatlignum: {
@@ -274,7 +282,7 @@ ContinentalGreatbow: {
 		'''
 		木箭会被火焰点燃
 		一次发射三支箭矢
-		额外发射两支诅咒、狱炎或灵液箭
+		Fires 2 additional hellfire or ichor arrows
 		'''
 }
 
@@ -349,7 +357,13 @@ DarkechoGreatbow: {
 
 DeadSunsWind: {
 	DisplayName: 湮阳暝风
-	Tooltip: 70%几率节省弹药
+	Tooltip:
+		'''
+		Fires a concentrated blast of superheated cosmic plasma that explodes and can ricochet off blocks
+		Shots aggressively home in on enemies after being ricocheted
+		Consecutive hits cause larger explosions
+		Uses gel for ammo
+		'''
 }
 
 Deathwind: {
@@ -393,12 +407,11 @@ DragonsBreath: {
 	DisplayName: 巨龙之息
 	Tooltip:
 		'''
-		左键发射两束散弹
-		第一束为六发火枪子弹
-		第二束为六发密集龙息弹
-		右键全自动发射两种子弹，但伤害降低20%
-		该武器弹幕散布没有随机性
-		66%几率节省弹药
+		Fires dragon fireballs at an accelerating pace
+		Upon firing for long enough, you will begin using a cartridge of energy
+		While using a cartridge you will shoot a draconic beam of fire that doesn't consume ammo
+		Once a cartridge has been ejected you will return to the original fire rate
+		80% chance to save ammo
 		'''
 }
 
@@ -427,8 +440,9 @@ ElementalEruption: {
 	DisplayName: 元素喷射器
 	Tooltip:
 		'''
-		发射彩虹烈焰
-		90%几率节省弹药
+		Charges up to spew rainbow flames and pairs of homing elemental flares
+		Uses gel for ammo
+		70% chance to save ammo
 		'''
 }
 
@@ -549,8 +563,9 @@ HalleysInferno: {
 	DisplayName: 哈雷彗星炮
 	Tooltip:
 		'''
-		发射一颗燃烧的蓝色彗星
+		Fires a burst of intensely concentrated lunar fire jets
 		右键以扩大视野
+		Uses gel for ammo
 		50%几率节省弹药
 		“哈雷彗星比想象中来得早”
 		'''
@@ -563,7 +578,11 @@ HandheldTank: {
 
 HavocsBreath: {
 	DisplayName: 混乱之息
-	Tooltip: 50%几率节省弹药
+	Tooltip:
+		'''
+		Projects cone-shaped blasts of scorching brimstone fire
+		Uses gel for ammo
+		'''
 }
 
 HeavenlyGale: {
@@ -698,8 +717,9 @@ Meowthrower: {
 	DisplayName: 彩虹喵喷射器
 	Tooltip:
 		'''
-		发射蓝焰或粉焰，击中敌人时释放彩虹喵
-		85%几率节省弹药
+		Cooks your foes to purrfection with catty smoke
+		Occasionally launches homing feline entities
+		Uses gel for ammo
 		'''
 }
 
@@ -722,12 +742,19 @@ MidasPrime: {
 
 MineralMortar: {
 	DisplayName: 岩鲨发射器
-	Tooltip: 发射一个玛瑙火箭弹，爆炸时生成沙鲨
+	Tooltip: Shoots an onyx bomb that explodes into huge area damage
 }
 
-Minigun: {
-	DisplayName: 迷你加特林
-	Tooltip: 80%几率节省弹药
+Kingsbane: {
+	DisplayName: Kingsbane
+	Tooltip:
+		'''
+		After revving up, rapidly fire bullets
+		When you stop firing you will release a barrage of auric bullets
+		Auric bullets aggressively home in on enemies and ignore 50 points of defense
+		Constantly consumes ammo while in use
+		90% chance to save ammo
+		'''
 }
 
 MolecularManipulator: {
@@ -807,8 +834,11 @@ OverloadedBlaster: {
 	DisplayName: 过载凝胶发射器
 	Tooltip:
 		'''
-		发射一大片反弹凝胶
-		33%几率节省弹药
+		Converts gel into a spread of energized slime pearls that overload when they come to a stop
+		Overloaded slime pearls deal double damage but no longer pierce
+		Slime pearls bounce off of walls at very high speed
+		Uses gel for ammo
+		25% chance to save ammo
 		'''
 }
 
@@ -816,8 +846,9 @@ P90: {
 	DisplayName: P90
 	Tooltip:
 		'''
-		以难以置信的速度发射子弹
-		50%几率节省弹药
+		Unleashes a stream of armor-piercing rounds at an incredible rate
+		Armor-piercing rounds ignore 15 defense
+		75% chance to save ammo
 		“这是根子弹管”
 		'''
 }
@@ -850,9 +881,10 @@ Photoviscerator: {
 	DisplayName: 星火解离者
 	Tooltip:
 		'''
-		发射一束嘉登火焰和星焱，星焱会爆炸成追踪火星
-		右键发射追踪星焱，附着于敌人并将其焚化
-		90%几率节省弹药
+		Emits a continuous beam of exo radiation that disintegrates everything
+		Press <right> to fire homing exo flares which stick to and incinerate enemies
+		Uses gel for ammo
+		95% chance to save ammo
 		'''
 }
 
@@ -862,7 +894,7 @@ PlagueTaintedSMG: {
 		'''
 		发射瘟疫子弹，在暴击时生成瘟疫自爆无人机
 		敌怪越近，子弹的伤害和击退更高
-		无人机击中有瘟疫减益的敌怪时会暴击
+		Drones have a much higher crit chance upon hitting a plagued enemy
 		右键发射无人机群
 		'''
 }
@@ -904,8 +936,9 @@ PristineFury: {
 	DisplayName: 纯元怒焰
 	Tooltip:
 		'''
-		射出一束猛烈的烈焰螺旋，爆炸成一列火柱
-		右击发射一团短程余晖烈焰
+		Fires an intense helix of flames that explode into a column of smoke
+		Press <right> to disperse intense clouds of profaned heat
+		Uses gel for ammo
 		'''
 }
 
@@ -1011,7 +1044,11 @@ SepticSkewer: {
 
 Shadethrower: {
 	DisplayName: 影流喷射器
-	Tooltip: 66%几率节省弹药
+	Tooltip:
+		'''
+		Spits clouds of shade which afflict enemies with brain rot
+		Uses gel for ammo
+		'''
 }
 
 Shellshooter: {
@@ -1058,7 +1095,11 @@ SomaPrime: {
 
 SparkSpreader: {
 	DisplayName: 火花喷射器
-	Tooltip: 70%几率节省弹药
+	Tooltip:
+		'''
+		Ignites your foe with flaming sparks
+		Uses gel for ammo
+		'''
 }
 
 SpectralstormCannon: {
@@ -1075,7 +1116,7 @@ SpeedBlaster: {
 	Tooltip:
 		'''
 		快速发射磷光彩弹
-		右键发射一颗强大彩球，在你移动时推进你
+		Press <right> to eject a powerful glob which propels you while moving
 		这个技能有{0}秒冷却时间
 		冷却期间，你可以更快、更精准地射击
 		'''
@@ -1169,7 +1210,12 @@ TelluricGlare: {
 
 TerraFlameburster: {
 	DisplayName: 泰拉喷火器
-	Tooltip: 80%几率节省弹药
+	Tooltip:
+		'''
+		Charges up to emit a stream of energized flames and pairs of homing terra flares
+		Uses gel for ammo
+		50% chance to save ammo
+		'''
 }
 
 TheBallista: {

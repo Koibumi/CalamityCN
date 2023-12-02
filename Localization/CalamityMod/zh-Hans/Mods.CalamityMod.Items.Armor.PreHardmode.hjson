@@ -59,7 +59,7 @@ DesertProwlerHat: {
 	DisplayName: 沙漠巡游者帽
 	Tooltip: 增加4%远程暴击率和20%不消耗弹药的几率
 	SetBonus: 远程攻击额外造成{0}点伤害
-	AbilityBrief: 沙尘覆盖-双击下键将自己笼罩在一小片沙尘之中
+	AbilityBrief: 沙尘覆盖-双击{0}键将自己笼罩在一小片沙尘之中
 	AbilityDescription:
 		'''
 		当在沙尘之中，获得更高的机动性，但防御力大大降低
@@ -296,7 +296,7 @@ WulfrumHat: {
 		自带假发
 		'''
 	SetBonus: 增加1仆从栏
-	AbilityBrief: 钨钢阵线-不在坐骑上时双击下键以装备钨钢能量装甲
+	AbilityBrief: 钨钢阵线-不在坐骑上时双击{0}键以装备钨钢能量装甲
 	AbilityDescription:
 		'''
 		当能量装甲激活时，你只能使用聚变炮，但防御力提升
