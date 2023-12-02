@@ -128,13 +128,13 @@ PirateChat: {
 }
 
 SeedTooltips: {
-	Daybloom: "[C/FFEB8A:Must be planted in regular Grass]"
-	Moonglow: "[C/8AFFFF:Must be planted in Jungle Grass]"
-	Waterleaf: "[C/8AFFAF:Must be placed in Sand]"
-	Blinkroot: "[C/FFC28A:Must be sown in Dirt or Mud]"
-	Shiverthorn: "[C/AADEFA:Must be placed in Snow or Ice]"
-	Deathweed: "[C/A98AFF:Must be buried in Evil Grass or Evil Stone]"
-	Fireblossom: "[C/FF8063:Must be buried in Ash]"
+	Daybloom: "[C/FFEB8A:必须种植在普通草地上]"
+	Moonglow: "[C/8AFFFF:必须种植在丛林草地上]"
+	Waterleaf: "[C/8AFFAF:必须种植在沙地上]"
+	Blinkroot: "[C/FFC28A:必须种植在泥土或泥地上]"
+	Shiverthorn: "[C/AADEFA:必须种植在雪地或冰块上]"
+	Deathweed: "[C/A98AFF:必须种植在邪恶的草地上或埋在邪恶的石头中]"
+	Fireblossom: "[C/FF8063:必须埋在灰烬中]"
 }
 
 SkeletonMerchantChat.Normal: 你买啥？
