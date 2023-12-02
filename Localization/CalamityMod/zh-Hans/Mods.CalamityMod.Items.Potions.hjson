@@ -303,12 +303,12 @@ OddMushroom: {
 }
 
 OldFashioned: {
-	DisplayName: Old Fashioned
+	DisplayName: 古典酒
 	Tooltip:
 		'''
-		Multiplies all accessory and set bonus damage by 1.5x
-		Decreases all damage by 25%
-		[c/B00BA5:'An old favorite of mine.']
+		所有饰品与套装奖励的伤害增加至1.5倍
+		所有伤害降低25%
+		[c/B00BA5:“我的旧爱”]
 		'''
 }
 

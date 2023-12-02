@@ -315,7 +315,7 @@ DepthCrusher: {
 }
 
 Devastation: {
-	DisplayName: 破坏重剑
+	DisplayName: 破灭剑
 	Tooltip: 发射宇宙爆炸
 }
 
@@ -544,7 +544,7 @@ GaelsGreatsword: {
 		低于50%生命值时挥动时在身后留下血之轨迹
 		低于50%生命值时偶尔会召唤闪电从天而降
 		激活暴怒模式时释放出大群骷髅
-		This attack has a 30 second cooldown
+		此攻击有30秒冷却时间
 		“来，快给我——把你的黑暗灵魂给我。”
 		'''
 }
@@ -752,7 +752,7 @@ Murasama: {
 	Tooltip:
 		'''
 		一把高频剑，即使是最强大的怪物也能干净利落地切碎
-		Every third swing deals immense damage
+		第三段斩击会造成巨量伤害
 		杀死神明吞噬者来证明你的价值才能拔出此剑
 		[c/F41A31:“鲜血四溅！”]
 		'''
@@ -797,7 +797,7 @@ Oblivion: {
 }
 
 OldLordClaymore: {
-	DisplayName: 旧神阔剑
+	DisplayName: 殒爵阔剑
 	Tooltip:
 		'''
 		长按右键以快速将能量吸收进刀刃中，直至充能完毕
@@ -961,9 +961,9 @@ Roxcalibur: {
 	// The WOF tag generates a new line above when placed at the start of a line
 	Tooltip:
 		'''
-		[WOF]Hold <left> to charge up a strike
-		Release with the cursor above you to swing normally, releasing rock shards
-		Release with the cursor below you to dive downwards and bounce off enemies
+		[WOF]按住左键蓄力，释放强力的打击
+		光标位于你上方时释放攻击会正常挥剑，射出岩石碎片
+		光标位于你下方时释放攻击会向下砸落并在敌怪身上反弹
 		落到物块上时释放一圈冲击波
 		你没法把它从石头里拔出来，你就带着石头一起用了！
 		'''
@@ -974,9 +974,9 @@ SaharaSlicers: {
 	DisplayName: Sahara Slicers
 	Tooltip:
 		'''
-		A pair of dual daggers with short range
-		Hitting enemies with the daggers will give you two bolts for each hit, up to 10
-		Pressing <right> will allow you to toss collected bolts at enemies
+		一对攻击距离较短的双匕首
+		每次使用双匕首攻击敌人会使你获得两把飞刀，至多储存10把
+		按下右键可以将储存的飞刀射向敌人
 		'''
 }
 
@@ -1302,7 +1302,7 @@ DefiledGreatsword: {
 	Tooltip:
 		'''
 		发射烈火、至高和日炎剑气
-		击中敌人时给予玩家Brutal Carnage增益
+		击中敌人时给予玩家残暴屠杀增益
 		这个增益会增加玩家25%近战伤害和10%近战暴击率
 		'''
 }
@@ -1322,7 +1322,7 @@ BlightedCleaver: {
 	Tooltip:
 		'''
 		发射追踪剑气
-		剑身击中敌人时给予玩家Brutal Carnage增益
+		剑身击中敌人时给予玩家残暴屠杀增益
 		这个增益会增加玩家25%近战伤害和10%近战暴击率
 		'''
 }

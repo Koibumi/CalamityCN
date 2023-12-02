@@ -526,7 +526,7 @@ NanoPurge: {
 }
 
 NebulousCataclysm: {
-	DisplayName: Nebulous Cataclysm
+	DisplayName: 星云灾变
 	Tooltip: “你的手中掌握着星云法师真正的力量……”
 }
 
@@ -647,8 +647,8 @@ SandstreamScepter: {
 	DisplayName: Sandstream Scepter
 	Tooltip:
 		'''
-		Fires an explosive stream of sand that falls after hitting an enemy
-		The explosion only occurs when the projectile expires
+		发射一束爆炸性的沙碎片，命中敌人后坠落
+		仅当沙碎片消失时才会引发爆炸
 		'''
 }
 
@@ -666,8 +666,8 @@ Serpentine: {
 	DisplayName: 海蟒咒书
 	Tooltip:
 		'''
-		Casts a serpent that follows the mouse cursor
-		Ignores 15 points of enemy Defense
+		召唤一条跟随光标移动的海蟒蛇
+		忽略敌人15点防御力
 		'''
 }
 
