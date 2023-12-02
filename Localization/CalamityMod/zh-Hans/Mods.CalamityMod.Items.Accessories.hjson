@@ -355,7 +355,7 @@ Calamity: {
 }
 
 ChaliceOfTheBloodGod: {
-	DisplayName: Chalice of the Blood God
+	DisplayName: 血神圣杯
 	Tooltip:
 		'''
 		增加25%最大生命值
