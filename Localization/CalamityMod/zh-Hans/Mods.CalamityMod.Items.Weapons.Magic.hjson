@@ -644,7 +644,7 @@ RougeSlash: {
 }
 
 SandstreamScepter: {
-	DisplayName: Sandstream Scepter
+	DisplayName: 流沙权杖
 	Tooltip:
 		'''
 		发射一束爆炸性的沙碎片，命中敌人后坠落
