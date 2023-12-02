@@ -406,7 +406,7 @@ PlaguebringerVisor: {
 	SetBonus:
 		'''
 		获得瘟疫冲刺，使敌怪被瘟疫折磨
-		Summons a lil' plaguebringer which swarms your foes with little bees
+		召唤一只小小的瘟疫使者，释放蜂群追杀你的敌人
 		增加3仆从栏
 		'''
 }
