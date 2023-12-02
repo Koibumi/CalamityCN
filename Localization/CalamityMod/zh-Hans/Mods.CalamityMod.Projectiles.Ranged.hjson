@@ -66,7 +66,7 @@ DrizzlefishFireball.DisplayName: 龙雨鱼炎弹
 DrizzlefishFireSplit.DisplayName: 龙雨鱼息
 DWArrow.DisplayName: 死亡之箭
 ElementalFire.DisplayName: 元素之火
-ElementalFlare.DisplayName: Elemental Flare
+ElementalFlare.DisplayName: 元素火簇
 ElysianArrowProj.DisplayName: 极乐箭
 EmesisGore.DisplayName: 腐败血迹
 EnhancedNanoRoundProj.DisplayName: 注魔纳米弹
@@ -128,7 +128,7 @@ MagnomalyRocket.DisplayName: 核弹
 MarksmanShot.DisplayName: 神射手射击
 MechanicalBarracuda.DisplayName: 梭鱼
 MeowFire.DisplayName: 彩虹喵火焰
-MineralMortarProjectile.DisplayName: Onyx Bomb
+MineralMortarProjectile.DisplayName: 玛瑙炸弹
 MiniatureFolly.DisplayName: 迷你痴愚金龙
 MiniRocket.DisplayName: 火箭
 MiniSharkron.DisplayName: 迷你鲨鱼龙
@@ -171,7 +171,7 @@ PristineFire.DisplayName: 原初之火
 PristineSecondary.DisplayName: 原初残焰
 PumplerGrenade.DisplayName: 南瓜壳
 PumplerHoldout.DisplayName: 气泵枪
-P90Round.DisplayName: Armor-piercing Round
+P90Round.DisplayName: 穿甲弹
 RainbowBlast.DisplayName: 爆炸波
 RainbowFront.DisplayName: 彩虹
 RainbowTrail.DisplayName: 彩虹
