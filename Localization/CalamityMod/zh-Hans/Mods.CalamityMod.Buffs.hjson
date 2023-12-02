@@ -59,8 +59,8 @@ MoscowMuleBuff: {
 }
 
 OldFashionedBuff: {
-	DisplayName: Old Fashioned
-	Description: Accessory and set bonus damage multiplied, damage reduced
+	DisplayName: 古典酒
+	Description: 饰品和套装奖励伤害增加，减少所有伤害
 }
 
 RedWineBuff: {
@@ -144,8 +144,8 @@ BrainRot: {
 }
 
 ElementalMix: {
-	DisplayName: Elemental Mix
-	Description: A beautiful elemental symphony is flaying you alive
+	DisplayName: 元素谐鸣
+	Description: 美妙的元素交响乐正在活剥你
 }
 
 CrushDepth: {
@@ -689,8 +689,8 @@ BrimflameFrenzyBuff: {
 }
 
 BrutalCarnage: {
-	DisplayName: Brutal Carnage
-	Description: 25% increased melee damage and 10% increased melee crit chance
+	DisplayName: 残暴屠杀
+	Description: 增加25%近战伤害和10%近战暴击率
 }
 
 ChiBuff: {

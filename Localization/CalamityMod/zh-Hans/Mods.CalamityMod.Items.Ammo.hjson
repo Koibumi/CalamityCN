@@ -115,8 +115,8 @@ MortarRound: {
 	DisplayName: 迫击炮弹
 	Tooltip:
 		'''
-		Specialized high explosive rounds with a large blast radius
-		Will destroy tiles
+		专用高爆弹，爆炸范围大
+		会摧毁物块
 		可由普通枪械使用
 		'''
 }
@@ -130,7 +130,7 @@ RubberMortarRound: {
 	DisplayName: 橡胶迫击炮炮弹
 	Tooltip:
 		'''
-		Specialized high explosive rounds with a large blast radius
+		专用高爆弹，爆炸范围大
 		每次反弹时都会摧毁物块
 		可由普通枪械使用
 		'''

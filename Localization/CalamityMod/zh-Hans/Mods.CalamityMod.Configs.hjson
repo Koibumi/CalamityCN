@@ -260,7 +260,7 @@ CalamityConfig: {
 			设定同时存在的最大粒子数。 
 			粒子和溅血效果是分开的。 
 			调低以提升性能。 
-			[c/F05A5A:Turning this below 300 may cause some things to not display correctly.]
+			[c/F05A5A:将其调至300以下可能会导致某些内容无法正确显示。]
 			'''
 	}
 

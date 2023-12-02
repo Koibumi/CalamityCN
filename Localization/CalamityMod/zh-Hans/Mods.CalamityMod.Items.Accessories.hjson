@@ -67,13 +67,13 @@ AbyssalMirror: {
 }
 
 AscendantInsignia: {
-	DisplayName: Ascendant Insignia
+	DisplayName: 进升证章
 	Tooltip:
 		'''
-		Increases wing flight time by 30%
-		Increases movement and jump speed by 10% and acceleration by 1.1x
-		Pressing [KEY] will give you the power of ascension, providing infinite flight time for 4 seconds
-		Ascension has a 40 second cooldown
+		飞行时间增加30%
+		移动速度和跳跃速度提高10%，加速度提高1.1倍
+		按下[KEY]键会给予你飞升之力，提供4秒的无限飞行时间
+		飞升有40秒冷却时间
 		'''
 }
 
@@ -284,9 +284,9 @@ BloodflareCore: {
 	DisplayName: 血炎晶核
 	Tooltip:
 		'''
-		Taking defense damage heals you over time
-		You gain 1 health for every 1 defense damage recovered
-		Taking damage always deals at least half of your total defense in defense damage
+		受到防御损伤时会缓慢治疗你
+		每恢复1点防御便为你回复1点生命值
+		受到伤害时会损失至多一半的防御
 		'''
 }
 
@@ -294,8 +294,8 @@ BloodPact: {
 	DisplayName: 血契
 	Tooltip:
 		'''
-		Increases max HP by 25%
-		Healing Potions are 25% more effective
+		增加25%最大生命值
+		增加25%治疗药水的治疗量
 		'''
 }
 
@@ -358,12 +358,12 @@ ChaliceOfTheBloodGod: {
 	DisplayName: Chalice of the Blood God
 	Tooltip:
 		'''
-		Increases max HP by 25%
-		Taking more than 5 damage converts the hit into a damage over time bleed debuff
-		This bleeding does not interfere with life regeneration
-		Drinking a Healing Potion removes half of the remaining bleed damage
-		Unequipping this accessory while bleeding inflicts the remaining damage instantly
-		'All that for a drop of blood...'
+		增加25%最大生命值
+		受到5点以上伤害时，将超出的部分转化为流血效果
+		这种效果不会影响生命恢复
+		使用治疗药水会移除一半剩余的流血伤害
+		在流血时解除装备将会立即造成剩余伤害
+		“竟然为了一滴血付出了这么多”
 		'''
 }
 
@@ -547,7 +547,7 @@ DimensionalSoulArtifact: {
 	Tooltip:
 		'''
 		力量
-		Multiplies all damage by 1.2x, but at the cost of increasing damage taken by 15%
+		所有伤害乘1.2倍，代价是所受伤害增加15%
 		'''
 }
 
@@ -637,9 +637,9 @@ ElementalGauntlet: {
 	DisplayName: 元素之握
 	Tooltip:
 		'''
-		Melee attacks and projectiles inflict Elemental Mix
-		15% increased melee damage and 5% increased melee critical strike chance
-		15% increased melee speed, does not stack with downgrades
+		近战攻击和弹幕会造成元素谐鸣减益
+		增加15%近战伤害和5%近战暴击率
+		增加15%近战攻速，不与其下位叠加
 		'''
 }
 
@@ -997,7 +997,7 @@ LeviathanAmbergris: {
 	Tooltip:
 		'''
 		增加20%的冲刺速度
-		Delay after dashing is reduced by 33%
+		冲刺间隔减少33%
 		你的冲刺会被水赋能，使用粘稠水流击退并伤害附近的敌人
 		'''
 }
@@ -1168,8 +1168,8 @@ OceanCrest: {
 	DisplayName: 海波项链
 	Tooltip: 
 		'''
-		You recover air while standing still underwater
-		15% increased mining speed while wet
+		在水下静止不动时可恢复氧气
+		潮湿时挖掘速度提高15%
 		'''
 }
 
@@ -1542,8 +1542,8 @@ SlagsplitterPauldron: {
 	DisplayName: 熔火碎矿肩甲
 	Tooltip:
 		'''
-		You gain 10% damage reduction while dashing
-		Enemies you dash through are afflicted with Armor Crunch
+		冲刺期间获得10%的伤害减免
+		冲刺经过的敌人会受到碎甲减益
 		'''
 }
 
