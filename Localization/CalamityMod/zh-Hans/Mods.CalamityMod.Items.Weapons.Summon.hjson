@@ -89,13 +89,13 @@ BorealisBomber: {
 }
 
 BrittleStarStaff: {
-	DisplayName: Brittle Star Staff
+	DisplayName: 海蛇尾召唤杖
 	Tooltip:
 		'''
-		Summons a small brittle starfish that will dash through enemies until it shatters
-		Starfish will quickly regenerate after shattering
-		Holding right click will swap starfish between dashing and circling you
-		When the starfish are circling, each one provides you with 3 defense
+		召唤一只会冲向敌人的脆弱的海蛇尾
+		海蛇尾会一直攻击敌人直到其破碎，其破碎后会迅速再生
+		按住右键可以切换海蛇尾的冲刺或环绕的状态
+		当海蛇尾处于环绕状态时，每只海蛇尾会为玩家提供3点防御
 		'''
 }
 
