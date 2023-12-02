@@ -1,5 +1,5 @@
 SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
-// Main UI Elements
+// 主要UI
 Adrenaline: 肾上腺素条
 Nanomachines: 纳米机器条
 Rage: 怒气条
@@ -18,7 +18,7 @@ StealthInfoText:
 	更高的潜行恢复速度会略微降低潜伏伤害
 	但这可以通过更加频繁地使用潜伏攻击来抵消其伤害降低的负面影响
 	'''
-// Difficulty UI
+// 难度UI
 DifficultyStatusText: "{0}已{1}。"
 ModeAppend: " 模式"
 Active: 开启
@@ -55,7 +55,7 @@ DeathExpandedInfo:
 	'''
 DeathActivate: 死亡模式已开启，享受吧！
 DeathDeactivate: 死亡模式已关闭，你还不够享受吗？
-// Calamity Health Bar
+// 灾厄血条
 ExoTwinsNameNormal: XS-01 “阿尔忒弥斯”和 XS-03 “阿波罗”
 ExoTwinsNameHekate: XB-∞ “赫卡忒”之眼
 ExtensionDisplay: （{0} 剩余： {1}）
@@ -71,7 +71,7 @@ ExtensionName: {
 	BodyParts: 身体部位
 }
 
-// Cooldowns
+// 冷却
 Cooldowns: {
 	AquaticHeartIceShield: 冰盾冷却
 	AscendEffect: 进升冷却
@@ -121,9 +121,9 @@ Cooldowns: {
 	WulfrumRoverDriveRecharge: 保护矩阵充能
 }
 
-// Enchantment + Draedon UI
+// 附魔+嘉登UI
 Cost: 花费：
-// Draedon UI
+// 嘉登UI
 Contact: 联络
 Summon: 召唤
 Evoke: 唤醒
@@ -134,7 +134,7 @@ ThanatosIcon: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关
 AresIcon: 阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。
 ArtemisApolloIcon: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。
 
-// Hologram Texts
+// 全息投影文本
 Hologram: {
 	Text1: 请每一位在实验室工作的人员随时佩戴你们那块钢制的刻字铭牌。若由于个人原因未佩戴铭牌而导致事故后无法辨别尸体身份，实验室有权拒绝向你的家人发放体恤金。
 	Text2: 实验就是失败，失败就是学习，学习就是进步。
@@ -151,7 +151,7 @@ Hologram: {
 	EasterEgg: 别光顾着看啊，帮我一下，我被这个该死的全息图像机器卡住了。
 }
 
-// Enchantments
+// 附魔
 Exhumed: {
 	DisplayName: 死灵炼注
 	Description: 将该物品转化为更加强大的物品
@@ -234,38 +234,38 @@ Lecherous: {
 }
 
 Disenchant: 祛魔
-// Worldgen Tasks
-EvilIslandCorrupt: 生成一个腐化浮空岛
-EvilIslandCrimson: 生成一个猩红浮空岛
-AstralChest: 放置一个星幻箱
+// 世界生成
+EvilIslandCorrupt: 正在生成一个腐化浮岛
+EvilIslandCrimson: 正在生成一个猩红浮岛
+AstralChest: 正在放置一个星幻箱
 BetterJungleTemple: 正在建造更大的丛林神庙
 JungleTempleAltar: 正在放置丛林蜥蜴祭坛
 GiantBeehive: 正在建造巨大蜂巢
-MechanicShed: 正在建立机械师的废弃棚屋
-VernalPass: 使丛林更加繁茂（建立常春回廊）
-SunkenSea: 淹没一部分过大的沙漠
-GemAdjustment: 小心翼翼地调整宝石的深度
-DungeonArchive: 掩埋废弃档案室
+MechanicShed: 正在放置机械师的棚屋
+VernalPass: 正在赐福一片繁茂的丛林小道
+SunkenSea: 正在淹没一片惨败的沙漠
+GemAdjustment: 正在小心翼翼地调整宝石的深度
+DungeonArchive: 正在掩埋废弃档案室
 SulphurSea: 正在污染一侧的海洋
-BrimstoneCrags: 焚烧阿萨福勒
-HiddenShrines: 掩埋禁忌的神龛
-CrimsonShrine: 杀死复仇之神（建立猩红神龛）
-CorruptShrine: 腐烂神的坟墓（建立腐化神龛）
-DesertShrine: 挖掘奥西里斯的宝物（建立沙漠神龛）
-GraniteShrine: 于深蓝色的洞穴里结晶（建立花岗岩神龛）
-IceShrine: 隐藏起一位驯兽师的雪屋（建立冰雪神龛）
-MarbleShrine: 重建帕特农神庙的一角（建立大理石神龛）
-MushroomShrine: 种植富含菌丝的蘑菇（建立蘑菇神龛）
-SurfaceShrine: 建立忍者的藏身之处（建立地表神龛）
-Aerialite: 将飞龙的宝藏在众目下隐藏
-DraedonLabs: 嗅到了铁锈与灰尘
-HellLab: 以地狱之火锻造
-SunkenLab: 研究海洋的生物
-IceLab: 以过冷的量子建造
-PlagueLab: 开发令人憎恶的生物武器
-CavernLab: 开采露天的矿物
+BrimstoneCrags: 正在焚烧阿萨福勒
+HiddenShrines: 正在掩埋禁忌的神龛
+CrimsonShrine: 正在杀死一位复仇的神明
+CorruptShrine: 正在腐烂一位神明的坟墓
+DesertShrine: 正在挖掘奥西里斯的宝物
+GraniteShrine: 正在结晶于深蓝色的洞穴里
+IceShrine: 正在隐藏一位驯兽师的雪屋
+MarbleShrine: 正在重建帕特农神庙的一角
+MushroomShrine: 正在种植富含菌丝的蘑菇
+SurfaceShrine: 正在建立忍者的藏身之处
+Aerialite: 正在将飞龙的黄金隐藏于显眼之处
+DraedonLabs: 锈蚀与尘埃
+HellLab: 正在以地狱之火锻造
+SunkenLab: 正在研究海洋的生物
+IceLab: 正在以过冷的量子建造
+PlagueLab: 正在开发令人憎恶的生物武器
+CavernLab: 开采露天矿物
 DraedonWorkshop: 遗弃的工程项目
 DraedonFacility: 另一个研究中心
-Abyss: 处理"源初"的遗迹
-SulphurSea2: 辐射已污染的海洋
+Abyss: 正在处理席尔瓦的遗体
+SulphurSea2: 正在辐射一侧的海洋
 Roxcalibur: 渴望摇动的剑柄发出呼唤
