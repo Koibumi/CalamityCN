@@ -2,142 +2,142 @@ SetBonus: {
 	Adamantite: {
 		$parentVal:
 			'''
-			Half of your current DR is added to your critical strike chance
-			Continuously doing damage makes you gradually gain more and more defense, up to a maximum of {0}
-			When not doing damage, this bonus gradually decays
-			This added defense can be broken by defense damage
+			基于伤害减免的一半增加暴击率
+			持续造成伤害会提升防御，至多{0}点
+			如果不造成伤害，增加的防御会降低
+			也受防御损伤的影响
 			'''
-		Melee: 15% increased melee speed and 20% increased movement speed
+		Melee: 增加15%的近战速度和20%的移速
 	}
 
 	Chlorophyte:
 		'''
-		Summons a powerful leaf crystal to shoot pulses of life every {0} seconds
-		The pulses do a base damage of {1} to enemies within its range
-		The pulses also provide a {2} health boost to you and all players on your team
-		Players healed by pulses cannot be healed by another pulse until {3} seconds have passed
-		Both the health boost and the damage scale based on your strongest class
+		召唤叶状水晶，每{0}秒发射一次生命脉冲
+		脉冲对范围内的敌人造成{1}基础伤害
+		并治疗范围内的友军{2}点生命
+		每{3}内玩家只会受到一个水晶的治疗
+		伤害和治疗值均受玩家最强职业加成
 		'''
 
 	Cobalt: {
 		$parentVal:
 			'''
-			{0}% increased max speed and acceleration
-			You gain a damage and critical strike chance boost relative to your current movement speed, up to {0}%
+			最大移速和加速度提高{0}% 
+			基于移速提高伤害和暴击率，上限{0}%
 			'''
-		Melee: 10% increased melee damage
+		Melee: 增加10%近战速度
 	}
 
-	Copper: Increases all damage by 2
+	Copper: 所有伤害增加2点
 	Eskimo:
 		'''
-		Multiplies all cold-based debuff damage by 1.25
-		Cold enemies will deal reduced contact damage to the player
-		Provides immunity to the Chilled, Frozen, Frostburn and Glacial State debuffs
+		所有冷系减益对敌人多造成25%的伤害
+		冷系敌人对玩家造成的伤害减少
+		免疫冷冻，冰冻，霜冻和冰河时代减益
 		'''
 	Frost:
 		'''
-		Melee and ranged attacks inflict Frostbite
-		{0}% increased damage which scales based on how far the target is from you
-		Closer range grants melee damage, while farther range grants ranged damage
+		近战和远程伤害会附加霜冻减益
+		基于与目标的距离增加{0}%的伤害
+		近距离造成近战伤害，远距离造成远程伤害
 		'''
 	Gladiator:
 		'''
-		+3 defense
-		+60 maximum stealth
-		5% increased rogue damage and 10% increased velocity
+		+3 防御力
+		增加60点最大潜行值
+		增加5%盗贼伤害和10%盗贼弹幕速度
 		'''
 	Gold:
 		'''
-		All enemies have a 4% chance to drop 1 gold. All bosses killed drop 3 gold
-		You gain 1% critical strike chance for every 5 gold in your inventory, capped at 10%
+		所有敌人有4%几率掉落1金币，Boss掉落3金币
+		背包中每有5金币增加1%暴击率，上限为10%
 		'''
 	Iron:
 		'''
-		Increases damage reduction by 6%
-		+1 HP/s life regen
+		所受伤害减少6%
+		+1HP/s生命再生
 		'''
 	Lead:
 		'''
-		Increases damage reduction by 3%
-		+0.5 HP/s life regen
-		Grants immunity to knockback
+		所受伤害减少3%
+		+0.5HP/s生命再生
+		免疫击退
 		'''
-	Meteor: Space Gun costs 50% mana
-	Mining: Mining ore will sometimes have additional yield
+	Meteor: 减少太空枪50%魔力消耗
+	Mining: 开采矿石有几率获得额外收益
 	Molten:
 		'''
-		20% extra true melee damage
-		Grants immunity to fire blocks and temporary immunity to lava
+		增加20%额外真近战伤害
+		免疫火块和短暂免疫岩浆
 		'''
 	MonkTier2:
 		'''
-		10% increased melee speed, crit, and damage
-		15% increased minion damage
+		增加10%近战攻速，暴击率和伤害
+		增加15%召唤伤害
 		'''
 	Mythril:
 		'''
-		Enemy hits release mythril flares, which home in on enemies after a short delay
-		Once a flare is created, there is a {0} frame delay before another one can appear
+		击败敌怪时时释放秘银火焰，一段时间后会追踪敌怪
+		秘银火焰生成间隔为{0}帧
 		'''
 	Necro:
 		'''
-		Allows you to temporarily survive fatal damage
-		Grants up to {0} seconds of life before imminent death
+		允许你再受到致命伤害后暂时存活一段时间
+		在即将死亡之前，最多会提供{0}秒的生命
 		'''
 	Obsidian:
 		'''
-		Increases whip range by 50% and speed by 35%
-		Increases minion damage by 15%
-		Grants immunity to fire blocks and temporary immunity to lava
+		增加30%的鞭子范围和35%的攻速
+		仆从的伤害提高15%
+		免疫火块和短暂免疫岩浆
 		'''
 	Platinum:
 		'''
-		Every 10 defense gives you +0.5 HP/s life regen, 1% increased damage and 1% increased critical strike chance
-		These effects cap at 40 defense
+		每10点防御力增加0.5HP/s生命再生和1%暴击率
+		上限40点防御力
 		'''
-	Shadow: 15% increased max movement speed and acceleration
+	Shadow: 最大移速和加速度提高15%
 	Silver:
 		'''
-		+0.5 HP/s life regen
-		Two seconds after getting hit for 20 or more damage, you heal for 10
-		Getting hit again resets the timer, delaying the heal
+		+0.5生命再生
+		受到20点以上的伤害两秒后，你会恢复10点生命
+		如果期间再受到伤害会重新计时2秒
 		'''
-	Tin: Increases armor penetration by 5
+	Tin: 增加5点护甲穿透
 	Tungsten:
 		'''
-		Increases your critical strike chance by 100% of the knockback of your held weapon
-		This effect caps at Insane knockback, which gives 10% increased critical strike chance
-		Increases all knockback by 33%, this counts for the above boost
-		Current bonus: {0}% critical strike chance from {1} knockback
+		增加你持有武器的击退效果100%的暴击率，该效果在疯狂击退效果时达到上限
+		这个效果会增加10%的暴击率
+		提高33%的所有击退效果，该击退增益效果包含在上述加成之中
+		当前加成：{0}%的暴击率来自{1}的击退效果
 		'''
 	CrystalAssassin:
 		'''
-		Allows the ability to dash
-		10% increased damage and critical strike chance
+		获得冲刺能力
+		增加10%的伤害和暴击率
 		'''
 	SquireTier2:
 		'''
-		Increases your life regeneration
-		15% increased minion damage and 10% increased melee critical strike chance
+		增加生命再生速度
+		增加15%召唤伤害和10%近战暴击率
 		'''
-	HuntressTier2: 10% increased minion and ranged damage
-	ApprenticeTier2: 5% increased minion damage and 15% increased magic critical strike chance
+	HuntressTier2: 增加10%召唤和远程伤害
+	ApprenticeTier2: 增加5%召唤伤害和15%魔法暴击率
 	MonkTier3:
 		'''
-		10% increased melee damage, melee critical strike chance and melee speed
-		30% increased minion damage
+		增加10%近战攻速，暴击率和伤害
+		增加30%召唤伤害
 		'''
 	SquireTier3:
 		'''
-		Massively increased life regeneration
-		10% increased minion damage and melee critical strike chance
+		大幅提高生命再生速度
+		增加10%召唤伤害和近战暴击率
 		'''
-	HuntressTier3: 10% increased minion and ranged damage
-	ApprenticeTier3: 10% increased minion damage and 15% increased magic critical strike chance
+	HuntressTier3: 增加10%召唤和远程伤害
+	ApprenticeTier3: 增加10%召唤伤害和15%魔法暴击率
 	SpectreHealing:
 		'''
-		Reduces Magic damage by 20% and converts it to healing force
-		Magic damage done to enemies heals the player with lowest health
+		魔法伤害减少20%并将其转化为治愈力
+		对敌人造成的魔法伤害将治疗生命值最低的玩家
 		'''
 }

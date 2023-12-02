@@ -1,4 +1,4 @@
-using System.ComponentModel;
+          using System.ComponentModel;
 using Terraria.ModLoader.Config;
 
 namespace CalamityCN
@@ -21,6 +21,8 @@ namespace CalamityCN
         [DefaultValue(0)]
         public Systems.zhCNLang Lang;
         */
-
+        [ReloadRequired]
+        [Header("CNinfernum")]
+        public bool InfernumCN;
     }
 }

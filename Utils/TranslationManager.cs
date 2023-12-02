@@ -13,8 +13,15 @@ namespace CalamityCN.Utils
         }
         public override void Load()
         {
+            if (Main.dedServ)
+            {
+                return;
+            };
             BossLoot.Load();
-
+            if (ModsCall.Infernum != null && CalamityCNConfig.Instance.InfernumCN)
+            {
+                InfernumPatch.Load();
+            }
         }
         public override void Unload()
         {
