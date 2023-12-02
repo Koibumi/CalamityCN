@@ -980,8 +980,8 @@ ScourgeoftheDesert: {
 	DisplayName: 沙漠之灾
 	Tooltip:
 		'''
-		A javelin that will burrow through the ground and launch itself at enemies
-		Stealth strikes throw three javelins that will burrow multiple times
+		扔出一把会钻入地下，并从地下钻出攻击敌人的标枪
+		潜伏攻击会扔出三把能够连续多次钻进地下的标枪
 		'''
 }
 
