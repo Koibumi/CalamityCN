@@ -74,7 +74,7 @@ ExtensionName: {
 // Cooldowns
 Cooldowns: {
 	AquaticHeartIceShield: 冰盾冷却
-	AscendEffect: Ascension Cooldown
+	AscendEffect: 进升冷却
 	BloodflareFrenzy: 鲜血狂怒冷却
 	BloodflareRangedSet: 幽火游魂冷却
 	BrimflameFrenzy: 硫火狂怒冷却
@@ -86,7 +86,7 @@ Cooldowns: {
 	ParryCooldown: 格挡冷却
 	EvasionScarf: 闪避围巾冷却
 	FleshTotem: 血肉图腾冷却
-	GaelsRage: Gael's Greatsword Rage Cooldown
+	GaelsRage: 盖尔大剑怒气冷却
 	GlobalDodge: 深渊影遁冷却
 	GodSlayerDash: 神弑者之停息
 	InkBomb: 墨水炸弹冷却
@@ -237,7 +237,7 @@ Disenchant: 祛魔
 // Worldgen Tasks
 EvilIslandCorrupt: 生成一个腐化浮空岛
 EvilIslandCrimson: 生成一个猩红浮空岛
-AstralChest: Placing an astral chest
+AstralChest: 放置一个星幻箱
 BetterJungleTemple: 正在建造更大的丛林神庙
 JungleTempleAltar: 正在放置丛林蜥蜴祭坛
 GiantBeehive: 正在建造巨大蜂巢
