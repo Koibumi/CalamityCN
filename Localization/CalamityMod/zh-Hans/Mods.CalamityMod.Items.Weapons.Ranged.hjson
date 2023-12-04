@@ -746,7 +746,7 @@ MineralMortar: {
 }
 
 Kingsbane: {
-	DisplayName: 君祸
+	DisplayName: 弑君
 	Tooltip:
 		'''
 		启动完毕后，迅速发射子弹
