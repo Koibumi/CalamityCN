@@ -315,7 +315,7 @@ DepthCrusher: {
 }
 
 Devastation: {
-	DisplayName: 破灭剑
+	DisplayName: 破坏重剑
 	Tooltip: 发射宇宙爆炸
 }
 
