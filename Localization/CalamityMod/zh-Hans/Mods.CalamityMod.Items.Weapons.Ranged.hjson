@@ -448,7 +448,7 @@ ElementalEruption: {
 
 EternalBlizzard: {
 	DisplayName: 恒吹雪
-	Tooltip: 额外发射一支命中后碎裂的冰坠箭
+	Tooltip: 额外发射一支命中后碎裂的冰锥箭
 }
 
 Eviscerator: {
