@@ -89,7 +89,7 @@ HyperiusBullet: {
 }
 
 IcicleArrow: {
-	DisplayName: 冰坠箭
+	DisplayName: 冰锥箭
 	Tooltip: 命中时碎裂
 }
 
