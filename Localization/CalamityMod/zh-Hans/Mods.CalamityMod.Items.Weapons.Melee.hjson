@@ -797,7 +797,7 @@ Oblivion: {
 }
 
 OldLordClaymore: {
-	DisplayName: 殒爵阔剑
+	DisplayName: 旧神阔剑
 	Tooltip:
 		'''
 		长按右键以快速将能量吸收进刀刃中，直至充能完毕
