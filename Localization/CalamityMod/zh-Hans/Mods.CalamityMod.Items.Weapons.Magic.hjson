@@ -444,7 +444,7 @@ IcicleStaff: {
 }
 
 IcicleTrident: {
-	DisplayName: 冰坠三叉戟
+	DisplayName: 冰锥三叉戟
 	Tooltip: 发射穿透冰柱
 }
 
