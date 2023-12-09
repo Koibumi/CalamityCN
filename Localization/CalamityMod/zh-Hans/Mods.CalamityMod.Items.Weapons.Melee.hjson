@@ -1314,7 +1314,11 @@ Tumbleweed: {
 
 TyphonsGreed: {
 	DisplayName: 提丰之贪婪
-	Tooltip: 使用时召唤水之精灵
+	Tooltip:
+		'''
+		使用时召唤水之精灵
+		这些水之精灵移动向玩家后会追踪敌怪
+		'''
 }
 
 BlightedCleaver: {
