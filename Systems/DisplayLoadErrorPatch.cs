@@ -1,4 +1,4 @@
-﻿using CalamityCN.Utils;
+﻿/*using CalamityCN.Utils;
 using MonoMod.RuntimeDetour;
 using Steamworks;
 using System;
@@ -46,4 +46,4 @@ namespace CalamityCN.Systems
             orig.Invoke(msg, e, fatal, continueIsRetry);
         }
     }
-}
+}*/
