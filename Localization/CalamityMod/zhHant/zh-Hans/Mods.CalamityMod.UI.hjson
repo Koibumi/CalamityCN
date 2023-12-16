@@ -1,0 +1,271 @@
+SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
+// 主要UI
+Adrenaline: 肾上腺素条
+Nanomachines: 纳米机器条
+Rage: 怒气条
+Flight: "{0} 剩余飞行时间"
+Charge: 当前充能
+DefenseDamage: 防御损伤
+SulphurousWater: 硫磺海水腐蚀条
+Stealth: 潜行槽
+StealthShiftText: 按住Shift以获取更多盗贼潜行值信息
+StealthInfoText:
+	'''
+	当你不攻击时，盗贼潜行值就会增加，如果玩家保持静止则增加更快
+	当潜行值达到上限时，你使用盗贼武器进行攻击时将触发一些额外的效果，称为潜伏攻击
+	盗贼潜行值只会在你攻击的时候减少，移动不会降低潜行值
+	盗贼伤害和暴击率会随着盗贼潜行值的提高而提高
+	更高的潜行恢复速度会略微降低潜伏伤害
+	但这可以通过更加频繁地使用潜伏攻击来抵消其伤害降低的负面影响
+	'''
+// 难度UI
+DifficultyStatusText: "{0}已{1}。"
+ModeAppend: " 模式"
+Active: 开启
+NotActive: 关闭
+DifficultyShiftText: "[c/737373:按住“Shift”以获取更多信息]"
+CurrentlySelected: 当前选择的难度：{0}
+DifficultyClickText: "[c/919191:点击选择难度]"
+ExpertDifficultyLock: "[c/919191:只能在专家模式及以上时开启更高难度]"
+ChangingTheRules: "[c/919191:你现在无法改变规则]"
+NoDifficulty: 无
+NoDifficultyInfo: 没有开启任何灾厄难度的泰拉之旅
+Revengeance: 复仇
+RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！]"
+RevengeanceExpandedInfo:
+	'''
+	[c/B55362:开启] [c/85FFE9:肾上腺素] [c/B55362:机制。 对战Boss时可积攒肾上腺素条，受击时肾上腺素条归零。]
+	[c/B55362:    当肾上腺素条满时，按下] {1} [c/B55362:提升大量伤害]
+	[c/B55362:开启] [c/FF8B54:怒气] [c/B55362:机制。接近敌怪或使用特定物品时会积攒怒气条。]
+	[c/B55362:    当怒气条满时，按下] {0} [c/B55362:获得暂时的伤害提升]
+	[c/B55362:大多数敌怪属性提升并且有着更具攻击性的AI]
+	[c/B55362:Boss们拥有新的AI和阶段，会掉落大师模式专属物品。敌怪生成更频繁。]
+	[c/F7342A:本模式比专家模式难度更高。准备好迎接挑战就开启吧。]
+	'''
+RevengeanceActivate: 复仇模式已开启。
+RevengeanceDeactivate: 复仇模式已关闭
+Death: 死亡
+DeathShortInfo: "[c/C82DF7:对更有经验的，想复仇模式更进一步的玩家的更强挑战]"
+DeathExpandedInfo:
+	'''
+	[c/B834E0:所有敌怪有着更具攻击性的AI，造成的伤害更高。]
+	[c/B834E0:Boss们的AI变得更难，敌人多到可以淹没你]
+	[c/B834E0:减益更致命，深渊更危险]
+	[c/E945FF:保持警惕，坚韧不拔至关重要]
+	'''
+DeathActivate: 死亡模式已开启，享受吧！
+DeathDeactivate: 死亡模式已关闭，你还不够享受吗？
+// 灾厄血条
+ExoTwinsNameNormal: XS-01 “阿尔忒弥斯”和 XS-03 “阿波罗”
+ExoTwinsNameHekate: XB-∞ “赫卡忒”之眼
+ExtensionDisplay: （{0} 剩余： {1}）
+
+ExtensionName: {
+	Segments: 体节
+	Creepers: 飞眼怪
+	Hands: 手
+	Arms: 肢体
+	Guns: 枪械
+	Cannons: 大炮
+	DarkEnergy: 暗能量
+	BodyParts: 身体部位
+}
+
+// 冷却
+Cooldowns: {
+	AquaticHeartIceShield: 冰盾冷却
+	AscendEffect: 进升冷却
+	BloodflareFrenzy: 鲜血狂怒冷却
+	BloodflareRangedSet: 幽火游魂冷却
+	BrimflameFrenzy: 硫火狂怒冷却
+	ChaosState: 传送冷却
+	CounterScarf: 围巾冷却
+	DivineBless: 圣天祝福充能
+	DivingPlatesBreaking: 深渊潜游服耐久
+	DivingPlatesBroken: 深渊潜游服外壳破损
+	ParryCooldown: 格挡冷却
+	EvasionScarf: 闪避围巾冷却
+	FleshTotem: 血肉图腾冷却
+	GaelsRage: 盖尔大剑怒气冷却
+	GlobalDodge: 深渊影遁冷却
+	GodSlayerDash: 神弑者之停息
+	InkBomb: 墨水炸弹冷却
+	LifeSteal: 吸血冷却
+	LionHeartShield: 能量庇护冷却
+	MasterChefShieldDurability: 雷神护盾等级
+	MasterChefShieldRecharge: 雷神护盾充能
+	NebulousCore: 星云之核冷却
+	OldDukeScalesFatigue: 耐力
+	OmegaBlueActive: 深渊狂乱
+	OmegaBlueCooldown: 深渊狂乱冷却
+	PermafrostConcoction: 秘药冷却
+	PlagueBlackout: 瘟疫爆发冷却
+	PotionSickness: 治疗冷却
+	PrismaticLaser: 光棱冷却
+	ProfanedSoulShieldDurability: 亵渎灵魂护盾耐久
+	ProfanedSoulShieldRecharge: 亵渎灵魂护盾充能
+	RelicOfResilience: 塑魂冷却
+	RogueBooster: 悖论增幅器冷却
+	SandCloak: 沙尘斗篷冷却
+	SandsmokeBombActive: 使用沙尘覆盖
+	SandsmokeBombCooldown: 沙尘覆盖冷却
+	SilvaRevive: 始源林海复活冷却
+	SpongeDurability: 海绵屏障耐久
+	SpongeRecharge: 海绵屏障充能
+	TarragonCloak: 龙蒿披风冷却
+	TarragonImmunity: 龙蒿无敌冷却
+	UniverseSplitter: 渊宇天基炮冷却
+	WulfrumBastionActive: 钨钢转换中
+	WulfrumBastionCooldown: 钨钢转换冷却
+	WulfrumRoverDriveDurability: 矩阵保护中
+	WulfrumRoverDriveRecharge: 保护矩阵充能
+}
+
+// 附魔+嘉登UI
+Cost: 花费：
+// 嘉登UI
+Contact: 联络
+Summon: 召唤
+Evoke: 唤醒
+Communicate: 对话
+ConfirmationText: 你确定么？
+UpgradesRequired: 解密失败：需升级密码破译器。
+ThanatosIcon: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关炮的恐怖巨蟒。
+AresIcon: 阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。
+ArtemisApolloIcon: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。
+
+// 全息投影文本
+Hologram: {
+	Text1: 请每一位在实验室工作的人员随时佩戴你们那块钢制的刻字铭牌。若由于个人原因未佩戴铭牌而导致事故后无法辨别尸体身份，实验室有权拒绝向你的家人发放体恤金。
+	Text2: 实验就是失败，失败就是学习，学习就是进步。
+	Text3: 如果研究过程中出现了任何明显的致命危险，请不要恐慌，这仅是增强实验经验的一环。
+	Text4: 所有的激光类原型武器极度危险。一旦出现在报告厅内使用激光类原型武器的情况，相关人员将在按照相关规定处罚后被用作于该原型下次实验的活体标靶。
+	Text5: 高能等离子体的排放对肉体和金属均会产生不利影响。本实验室拒绝补偿由于试图独自处理排放的等离子体而产生的任何肉体与精神上的伤害。
+	Text6: 军用设备的电击理应致命。因此如果你在这种电击中幸存下来，请如实向你的上级进行报告。我们会对相关设备或者没有向上级报告的你实施销毁以保证此类武器的100%致死率。
+	Text7: 特此通知：所有雇员均需要为高斯武器的射击（包括在批准的测试演习期间内）所造成的任何附带损害承担全部责任。附带损害包括但不限于：使实验器材电流紊乱、误伤其他工作人员，和震坏装有热可可的咖啡杯。
+	Text8: 安保力场生成器将蒸发所有未经授权的设备和人员。请将你的个人物品安置在场外指定的储物柜中，也不要带任何未经认证的家属或宠物进行参观。因违反本规定而造成的器材损坏和尸体处理将由涉事人员亲自承担责任。
+	Text9: 如果有人设法闯入受限制的测试设施，至少要记录下任何意外的烧伤、撕裂伤、瘀伤、骨折... ...外伤、冲击伤或其它伤害（无论伤口来源于何种人员）。感谢各位的合作。
+	Text10: 电力系统已被......严重破坏。放弃研究，前往位于......的紧急出口，并迅速离开。
+	Text11: 如果与当地任何有攻击性的生物发生接触，请立即通知安保部门。我们优质的安保机器人会在第一时间对此类物种进行灭绝。
+	PostCultistText: 传感器已在时空连续体中检测到一个十分明显的扭曲。
+	EasterEgg: 别光顾着看啊，帮我一下，我被这个该死的全息图像机器卡住了。
+}
+
+// 附魔
+Exhumed: {
+	DisplayName: 死灵炼注
+	Description: 将该物品转化为更加强大的物品
+}
+
+Indignant: {
+	DisplayName: 愤慨
+	Description: 使用时召唤一个恶魔攻击你，但恶魔死亡后会掉落治疗物品治愈你。
+}
+
+Aflame: {
+	DisplayName: 魔焱
+	Description: 击中敌怪时以至尊女巫之力点燃它们，但手持该物品时会受到伤害性减益。
+}
+
+Oblatory: {
+	DisplayName: 献奉
+	Description: 减少魔力消耗并大幅增加伤害，但使用该物品偶尔会消耗你的生命值。
+}
+
+Resentful: {
+	DisplayName: 憎懣
+	Description: 使弹幕的伤害取决于目标与你的距离，距离越远，伤害越高。反之亦然。
+}
+
+Bloodthirsty: {
+	DisplayName: 嗜血
+	Description: 使弹幕的伤害取决于目标与你的距离，距离越近，伤害越高。反之亦然。
+}
+
+Ephemeral: {
+	DisplayName: 须臾
+	Description:
+		'''
+		连续使用时伤害会持续降低。
+		停止使用时，伤害会逐渐恢复。刚开始使用时它会造成比正常情况下高得多的伤害。
+		'''
+}
+
+Hellbound: {
+	DisplayName: 狱使
+	Description:
+		'''
+		召唤物会在生成40秒后产生剧烈爆炸并消失。
+		在这40秒内，召唤物存在时间越久，造成的伤害越高，并且会随机产生小范围爆炸。
+		'''
+}
+
+Tainted: {
+	DisplayName: 邪染
+	Description: 取消该物品的弹幕，在挥舞武器时，两只额外的骷髅手臂会与你一起挥舞武器。
+}
+
+Traitorous: {
+	DisplayName: 背叛
+	Description: 当你的魔力值低于25%时，使用该武器会立刻消耗你的全部魔力值并生成一个无差别攻击一切生物的怪物。
+}
+
+Withering: {
+	DisplayName: 凋零
+	Description:
+		'''
+		当你受伤，会根据之前累计造成的伤害恢复一定比例的生命值，最高可达100%。
+		随后，你会持续受到减益伤害，但你造成的伤害会上升。
+		'''
+}
+
+Persecuted: {
+	DisplayName: 压迫
+	Description:
+		'''
+		当攻击时，或随着时间推移，你的附近会生成一个恶魔之门，并在一小段时间后生成恶魔。
+		如果恶魔出现之前传送门被严重破坏，恶魔们会选择攻击敌怪；否则，当传送门消失后，恶魔们就会选择攻击玩家。
+		'''
+}
+
+Lecherous: {
+	DisplayName: 淫欲
+	Description: 生成一个硫磺怪物处于你和你的鼠标中间，干扰你的武器发射的弹幕。硫磺怪物死亡后会释放很多红心。
+}
+
+Disenchant: 祛魔
+// 世界生成
+EvilIslandCorrupt: 正在生成一个腐化浮岛
+EvilIslandCrimson: 正在生成一个猩红浮岛
+AstralChest: 正在放置一个星幻箱
+BetterJungleTemple: 正在建造更大的丛林神庙
+JungleTempleAltar: 正在放置丛林蜥蜴祭坛
+GiantBeehive: 正在建造巨大蜂巢
+MechanicShed: 正在放置机械师的棚屋
+VernalPass: 正在赐福一片繁茂的丛林小道
+SunkenSea: 正在淹没一片惨败的沙漠
+GemAdjustment: 正在小心翼翼地调整宝石的深度
+DungeonArchive: 正在掩埋废弃档案室
+SulphurSea: 正在污染一侧的海洋
+BrimstoneCrags: 正在焚烧阿萨福勒
+HiddenShrines: 正在掩埋禁忌的神龛
+CrimsonShrine: 正在杀死一位复仇的神明
+CorruptShrine: 正在腐烂一位神明的坟墓
+DesertShrine: 正在挖掘奥西里斯的宝物
+GraniteShrine: 正在结晶于深蓝色的洞穴里
+IceShrine: 正在隐藏一位驯兽师的雪屋
+MarbleShrine: 正在重建帕特农神庙的一角
+MushroomShrine: 正在种植富含菌丝的蘑菇
+SurfaceShrine: 正在建立忍者的藏身之处
+Aerialite: 正在将飞龙的黄金隐藏于显眼之处
+DraedonLabs: 锈蚀与尘埃
+HellLab: 正在以地狱之火锻造
+SunkenLab: 正在研究海洋的生物
+IceLab: 正在以过冷的量子建造
+PlagueLab: 正在开发令人憎恶的生物武器
+CavernLab: 开采露天矿物
+DraedonWorkshop: 遗弃的工程项目
+DraedonFacility: 另一个研究中心
+Abyss: 正在处理席尔瓦的遗体
+SulphurSea2: 正在辐射一侧的海洋
+Roxcalibur: 渴望摇动的剑柄发出呼唤

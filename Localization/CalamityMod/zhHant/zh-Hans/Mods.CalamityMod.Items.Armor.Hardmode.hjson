@@ -1,0 +1,566 @@
+AstralBreastplate: {
+	DisplayName: 星幻胸甲
+	Tooltip:
+		'''
+		增加80点最大魔力值和20点最大生命值
+		能够侦测生物
+		'''
+}
+
+AstralHelm: {
+	DisplayName: 星幻头盔
+	Tooltip: 能够侦测危险
+	SetBonus:
+		'''
+		增加5%移动速度和3个仆从栏位
+		增加35%伤害和25%暴击率
+		每当你对敌怪造成暴击，就会降下落星
+		该效果有1秒冷却时间
+		'''
+}
+
+AstralLeggings: {
+	DisplayName: 星幻护胫
+	Tooltip:
+		'''
+		增加10%移动速度
+		能够侦测宝藏和矿石
+		'''
+}
+
+BrimflameBoots: {
+	DisplayName: 硫火靴子
+	Tooltip:
+		'''
+		增加5%魔法伤害
+		增加5%移动速度
+		'''
+}
+
+BrimflameRobes: {
+	DisplayName: 硫火长袍
+	Tooltip: 增加5%魔法伤害和魔法暴击率
+}
+
+BrimflameScowl: {
+	DisplayName: 硫火兜帽
+	Tooltip:
+		'''
+		增加5%魔法伤害和魔法暴击率
+		增加70点最大魔力值并降低10%魔力消耗
+		使你免疫着火了！、硫磺火和霜冻减益
+		'''
+	SetBonus:
+		'''
+		额外增加15%魔法伤害和暴击率
+		按下{0}键以进入硫火狂暴模式
+		此模式下，你造成的魔法伤害会额外增加40%
+		然而这是以快速的生命流失和魔力再生速度归零为代价的
+		此状态可以手动关闭, 硫火狂暴有30秒冷却时间
+		'''
+}
+
+CirrusDress: {
+	DisplayName: 醉仙女的小裙子
+	Tooltip:
+		'''
+		增加5%魔法伤害和魔法暴击率
+		降低20%移动速度，最大下落速度增加到61mph
+		[c/B00BA5:“来，穿上它，这个可以让你喝的比平常更多！”]
+		“你醉了……”
+		'''
+}
+
+DaedalusBreastplate: {
+	DisplayName: 代达罗斯胸甲
+	Tooltip: 增加3%伤害和暴击率
+}
+
+DaedalusHeadMagic: {
+	DisplayName: 代达罗斯兜帽
+	Tooltip:
+		'''
+		增加13%魔法伤害和7%魔法暴击率
+		降低10%魔力消耗并增加60点最大魔力值
+		'''
+	SetBonus:
+		'''
+		增加5%魔法伤害
+		你有10%的几率吸收一次物理伤害或者弹幕
+		当你成功吸收了一次攻击后，你将恢复相当于那次攻击的1/2的生命值
+		'''
+}
+
+DaedalusHeadMelee: {
+	DisplayName: 代达罗斯战盔
+	Tooltip:
+		'''
+		增加15%近战伤害
+		增加10%近战暴击率
+		'''
+	SetBonus:
+		'''
+		增加10%近战攻速
+		敌人更有可能以你为目标
+		你能够反弹弹幕
+		被反弹的弹幕只会对你造成50%的伤害
+		此反弹效果有90秒冷却时间，该冷却时间与其他具有闪避和反弹效果的物品共享
+		'''
+}
+
+DaedalusHeadRanged: {
+	DisplayName: 代达罗斯头饰
+	Tooltip:
+		'''
+		增加13%远程伤害和7%远程暴击率
+		降低20%弹药消耗率
+		'''
+	SetBonus:
+		'''
+		增加5%远程伤害
+		当你被击中时释放水晶碎片	
+		'''
+}
+
+DaedalusHeadRogue: {
+	DisplayName: 代达罗斯头罩
+	Tooltip:
+		'''
+		增加13%盗贼伤害和7%盗贼暴击率
+		增加15%盗贼弹幕速度和5%移动速度
+		'''
+	SetBonus:
+		'''
+		增加5%盗贼伤害
+		增加105最大潜行值
+		盗贼弹幕飞行时释放水晶碎片
+		'''
+}
+
+DaedalusHeadSummon: {
+	DisplayName: 代达罗斯面具
+	Tooltip: 增加5%召唤伤害
+	SetBonus:
+		'''
+		增加20%召唤伤害和2仆从栏
+		悬浮在你头顶的代达罗斯水晶会保护你
+		'''
+}
+
+DaedalusLeggings: {
+	DisplayName: 代达罗斯护胫
+	Tooltip:
+		'''
+		增加3%暴击率
+		增加10%移动速度
+		'''
+}
+
+FathomSwarmerBoots: {
+	DisplayName: 幻渊鱼群护胫
+	Tooltip:
+		'''
+		增加4%召唤伤害
+		使你获得游泳能力
+		浸没在液体中时增加40%移动速度
+		'''
+}
+
+FathomSwarmerBreastplate: {
+	DisplayName: 幻渊鱼群胸甲
+	Tooltip:
+		'''
+		增加6%伤害减免
+		增加6%召唤伤害
+		浸没在液体中时增加10点防御和2.5 HP/s生命再生
+		降低深渊造成的防御削减效果
+		'''
+}
+
+FathomSwarmerVisage: {
+	DisplayName: 幻渊鱼群面罩
+	Tooltip:
+		'''
+		增加5%召唤伤害
+		提供水下呼吸能力和光照
+		'''
+	SetBonus:
+		'''
+		增加10%召唤伤害和2仆从栏
+		获得爬墙的能力
+		浸没在液体中时增加30%召唤伤害
+		在深渊提供适量光照，并适度减少深渊中的氧气损耗	
+		'''
+}
+
+ForbiddenCirclet: {
+	DisplayName: 禁戒金箍
+	Tooltip: 增加10%召唤伤害和15%盗贼弹幕速度
+	SetBonus:
+		'''
+		增加40最大潜行值
+		按下{0}键在光标位置召唤一个远古风暴
+		远古风暴消耗{1}魔力值并受召唤伤害和盗贼伤害的加成
+		潜伏攻击会在命中的敌怪身上产生追踪的禁戒吞噬者
+		盗贼和召唤攻击会随着更高的加成而减少
+		'''
+}
+
+HydrothermicArmor: {
+	DisplayName: 渊泉盔甲
+	Tooltip:
+		'''
+		增加20点最大生命值
+		增加8%伤害和4%暴击率
+		'''
+	CommonSetBonus:
+		'''
+		生命值低于50%时获得狱火药水效果
+		你受伤时会在原地产生一场烈焰爆炸
+		'''
+}
+
+HydrothermicHeadMagic: {
+	DisplayName: 渊泉面具
+	Tooltip:
+		'''
+		增加12%魔法伤害、100点最大魔力值和10%魔法暴击率
+		免疫火焰和熔岩
+		'''
+	SetBonus:
+		'''
+		增加5%魔法伤害，减少15%魔力消耗
+		魔法攻击击中时召唤伤害火球和治疗火球
+		'''
+}
+
+HydrothermicHeadMelee: {
+	DisplayName: 渊泉战盔
+	Tooltip:
+		'''
+		增加17%近战伤害和10%近战暴击率
+		近战攻击及其弹幕会造成着火了！减益
+		免疫火焰和熔岩
+		'''
+	SetBonus:
+		'''
+		提升15%近战攻速
+		敌人更有可能以你为目标
+		近战攻击和弹幕在击中敌人时喷发出混沌火焰
+		'''
+}
+
+HydrothermicHeadRanged: {
+	DisplayName: 渊泉头饰
+	Tooltip:
+		'''
+		增加12%远程伤害和10%远程暴击率
+		降低25%弹药消耗率
+		免疫火焰和熔岩
+		'''
+	SetBonus:
+		'''
+		提升5%远程伤害
+		使用远程武器时每0.33秒发射一团追踪的混沌火焰
+		'''
+}
+
+HydrothermicHeadRogue: {
+	DisplayName: 渊泉兜帽
+	Tooltip:
+		'''
+		增加12%盗贼伤害和10%盗贼暴击率
+		50%几率不消耗盗贼武器并增加5%移动速度
+		免疫火焰和熔岩
+		'''
+	SetBonus:
+		'''
+		提升5%盗贼伤害
+		增加110点最大潜行值
+		使用盗贼武器攻击时每2秒会在你周围召唤8团追踪敌人的混沌火焰
+		'''
+}
+
+HydrothermicHeadSummon: {
+	DisplayName: 渊泉头盔
+	Tooltip:
+		'''
+		增加5%召唤伤害和仆从击退
+		免疫火焰和熔岩
+		'''
+	SetBonus:
+		'''
+		增加40%召唤伤害和2仆从栏
+		召唤沸腾渊泉保护你
+		'''
+}
+
+HydrothermicSubligar: {
+	DisplayName: 渊泉战裙
+	Tooltip:
+		'''
+		增加5%暴击率
+		增加10%移动速度
+		'''
+}
+
+LunicCorpsBoots: {
+	DisplayName: 雷神之锤靴子
+	Tooltip:
+		'''
+		增加15%移动速度
+		增加4%远程暴击率
+		增加10%最大速度和加速度
+		'''
+}
+
+LunicCorpsHelmet: {
+	DisplayName: 雷神之锤头盔
+	Tooltip:
+		'''
+		增加12%远程伤害
+		给予夜视和生物探测效果
+		'''
+	SetBonus:
+		'''
+		“结束这场战争”
+		投影一个至多吸收50点伤害的泡泡护盾
+		受击后5秒护盾开始重新充能
+		重新从0到充满需要花费2秒
+		重新充能期间被击中会重置充能计时器
+		增加10%子弹伤害
+		增加10%特殊远程伤害
+		这是指发射器、飞镖枪和其他一切不发射子弹或弓箭的武器
+		增加20%跳跃速度
+		'''
+}
+
+LunicCorpsVest: {
+	DisplayName: 雷神之锤胸甲
+	Tooltip:
+		'''
+		增加3%远程伤害
+		增加11%远程暴击率
+		'''
+}
+
+MolluskShelleggings: {
+	DisplayName: 软壳护胫
+	Tooltip:
+		'''
+		增加12%伤害和4%暴击率
+		降低7%移动速度
+		'''
+}
+
+MolluskShellmet: {
+	DisplayName: 软壳贝盔
+	Tooltip:
+		'''
+		增加5%伤害和4%暴击率
+		在液体中行动不受阻碍
+		'''
+	SetBonus:
+		'''
+		两只贝壳会在战斗中助你一臂之力
+		增加10%伤害
+		水平移动速度降低		
+		'''
+}
+
+MolluskShellplate: {
+	DisplayName: 软壳贝甲
+	Tooltip:
+		'''
+		增加10%伤害和6%暴击率
+		降低15%移动速度
+		'''
+}
+
+PlaguebringerCarapace: {
+	DisplayName: 瘟疫使者铠甲
+	Tooltip:
+		'''
+		使你免疫瘟疫减益
+		增加15%召唤伤害
+		友方蜜蜂会造成瘟疫减益
+		'''
+}
+
+PlaguebringerPistons: {
+	DisplayName: 瘟疫使者推进靴
+	Tooltip:
+		'''
+		增加15%召唤伤害和15%移动速度
+		你走过的草地会百花齐放，站在无草泥土上时有几率长出随机的染料植物
+		'''
+}
+
+PlaguebringerVisor: {
+	DisplayName: 瘟疫使者面甲
+	Tooltip:
+		'''
+		增加15%召唤伤害
+		增加20点最大生命值
+		'''
+	SetBonus:
+		'''
+		获得瘟疫冲刺，使敌怪被瘟疫折磨
+		召唤一只小小的瘟疫使者，释放蜂群追杀你的敌人
+		增加3仆从栏
+		'''
+}
+
+PlagueReaperMask: {
+	DisplayName: 瘟疫死神面具
+	Tooltip: 增加10%远程伤害和8%远程暴击率
+	SetBonus:
+		'''
+		减少25%弹药消耗，增加5%飞行时间
+		远程弹幕会对受瘟疫减益作用的敌人额外造成10%伤害
+		受到伤害会使瘟疫残渣从天而降
+		按{0}键使自己在5秒内失去视野，但是极大幅度提升远程伤害
+		此效果有25秒冷却时间
+		'''
+}
+
+PlagueReaperStriders: {
+	DisplayName: 瘟疫死神长靴
+	Tooltip:
+		'''
+		增加3%远程暴击率
+		增加15%移动速度
+		'''
+}
+
+PlagueReaperVest: {
+	DisplayName: 瘟疫死神夹克
+	Tooltip:
+		'''
+		使你免疫瘟疫减益
+		增加15%远程伤害和5%远程暴击率
+		'''
+}
+
+ReaverCuisses: {
+	DisplayName: 掠夺者护胫
+	Tooltip:
+		'''
+		增加5%暴击率
+		增加12%移动速度
+		'''
+}
+
+ReaverHeadExplore: {
+	DisplayName: 掠夺者头饰
+	Tooltip:
+		'''
+		增加20%挖掘速度和物块/墙的放置速度
+		免疫熔岩并且在液体中行动不受阻碍
+		'''
+	SetBonus:
+		'''
+		高亮附近的所有宝藏
+		提升物品拾取距离和物块放置距离
+		在水下挖掘物块时恢复氧气
+		召唤一个掠夺者毒球照亮周围区域
+		降低敌人的攻击性，即便身处深渊
+		在深渊中提供微量光照		
+		'''
+}
+
+ReaverHeadMobility: {
+	DisplayName: 掠夺者面罩
+	Tooltip: 增加10%跳跃速度和15%移动速度
+	SetBonus:
+		'''
+		免疫摔落伤害并允许连续跳跃
+		增加10%飞行时间和水平飞行速度
+		钩爪的射速和牵引速度增加10%
+		降低冲刺类效果的冷却时间		
+		'''
+}
+
+ReaverHeadTank: {
+	DisplayName: 掠夺者战盔
+	Tooltip:
+		'''
+		增加15%伤害减免，但降低30%伤害
+		增加50点最大生命值
+		每秒回复1点生命值，这与生命再生分开计算
+		'''
+	SetBonus:
+		'''
+		增加10点防御和1.5 HP/s生命再生
+		敌人更有可能以你为目标
+		受到持续性伤害减益时的生命恢复损失降低20%
+		你的任何攻击都有小概率具有生命偷取效果并且增加生命恢复速度
+		减少20%的移动速度与飞行时间
+		敌人会受到你的反伤，并且你被击中时召唤一束荆棘伤害敌人
+		当你受伤时有25%的几率获得掠夺者之怒增益		
+		'''
+}
+
+ReaverScaleMail: {
+	DisplayName: 掠夺者鳞甲
+	Tooltip:
+		'''
+		增加9%伤害和4%暴击率
+		增加20点最大生命值
+		'''
+}
+
+TitanHeartBoots: {
+	DisplayName: 泰坦之心靴子
+	Tooltip: 增加4%盗贼伤害、10%盗贼弹幕速度和5%盗贼击退
+}
+
+TitanHeartMantle: {
+	DisplayName: 泰坦之心斗篷
+	Tooltip:
+		'''
+		45%几率不消耗盗贼武器
+		增加5%击退，但降低15%盗贼攻击速度
+		'''
+}
+
+TitanHeartMask: {
+	DisplayName: 泰坦之心面具
+	Tooltip:
+		'''
+		增加5%盗贼伤害和盗贼击退
+		盗贼武器会造成幻星感染
+		'''
+	SetBonus:
+		'''
+		增加15%盗贼伤害和击退
+		增加100点潜行值
+		潜伏攻击会造成两倍的击退并产生幻星爆炸
+		免疫击退
+		'''
+}
+
+UmbraphileBoots: {
+	DisplayName: 日影靴子
+	Tooltip:
+		'''
+		增加9%盗贼伤害和6%盗贼暴击率
+		增加20%移动速度
+		'''
+}
+
+UmbraphileHood: {
+	DisplayName: 日影兜帽
+	Tooltip: 增加8%盗贼伤害和10%盗贼弹幕速度
+	SetBonus:
+		'''
+		增加110点潜行值
+		盗贼武器击中敌人时概率产生爆炸
+		潜伏攻击总是产生爆炸
+		'''
+}
+
+UmbraphileRegalia: {
+	DisplayName: 日影斗篷
+	Tooltip: 增加10%盗贼伤害和盗贼暴击率
+}
