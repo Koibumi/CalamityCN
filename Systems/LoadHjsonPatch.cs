@@ -40,7 +40,7 @@ namespace CalamityCN.Systems
                 {
                     (GameCulture culture1, string prefix) = LocalizationLoader.GetCultureAndPrefixFromPath(entry.Name);
                     if (culture1 == GameCulture.FromCultureName(GameCulture.CultureName.Chinese) &&
-                        culture1 == culture && entry.Name.Contains("CalamityMod") && entry.Name.Contains(GetLangIdentifier()))
+                        culture1 == culture && entry.Name.Contains("CalamityMod") ? entry.Name.Contains(GetLangIdentifier()) : true)
                     {
                         #region FromDecompile
                         using (Stream stream = GetFile(mod).GetStream(entry))
