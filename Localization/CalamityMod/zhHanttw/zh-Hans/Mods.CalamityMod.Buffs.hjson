@@ -1,0 +1,1526 @@
+AlcoholPoisoning: {
+	DisplayName: 酒精中毒
+	Description: 你饮酒过量，代谢紊乱，气息奄奄
+}
+
+BloodyMaryBuff: {
+	DisplayName: 血腥玛丽
+	Description: 在血月期间伤害和移动速度增加，但生命再生速度和防御力降低
+}
+
+CaribbeanRumBuff: {
+	DisplayName: 加勒比朗姆酒
+	Description: 生命再生速度、移动速度和飞行时间增加，但你漂浮不定且防御力降低
+}
+
+CinnamonRollBuff: {
+	DisplayName: 肉桂威士忌
+	Description: 魔力再生速率和火系减益的伤害增加，但防御力降低
+}
+
+EverclearBuff: {
+	DisplayName: 谷酒
+	Description: 伤害增加，但防御力和生命再生速度降低
+}
+
+EvergreenGinBuff: {
+	DisplayName: 常青松子酒
+	Description: 疫病和水系减益的伤害增加，但生命再生速度降低
+}
+
+FabsolVodkaBuff: {
+	DisplayName: Fabsol伏特加
+	Description: 你感受到了一种难以置信的美妙
+}
+
+FireballBuff: {
+	DisplayName: 火龙酒
+	Description: 火系减益的伤害增加，但生命再生速度降低
+}
+
+GrapeBeerBuff: {
+	DisplayName: 葡萄啤酒
+	Description: 防御力降低
+}
+
+MargaritaBuff: {
+	DisplayName: 玛格丽塔酒
+	Description: 大部分减益的持续时间缩短，但防御力和生命再生速度降低
+}
+
+MoonshineBuff: {
+	DisplayName: 摩闪酒
+	Description: 防御力和伤害减免增加，但生命再生速度降低
+}
+
+MoscowMuleBuff: {
+	DisplayName: 莫斯科骡子
+	Description: 伤害、暴击率和击退增加，但生命再生速度降低
+}
+
+OldFashionedBuff: {
+	DisplayName: 古典酒
+	Description: 饰品和套装奖励伤害增加，减少所有伤害
+}
+
+RedWineBuff: {
+	DisplayName: 红葡萄酒
+	Description: 生命再生速度降低
+}
+
+RumBuff: {
+	DisplayName: 朗姆酒
+	Description: 移动速度和生命再生速度增加，但防御力降低
+}
+
+ScrewdriverBuff: {
+	DisplayName: 螺丝起子
+	Description: 穿透类弹幕的伤害增加，但生命再生速度降低
+}
+
+StarBeamRyeBuff: {
+	DisplayName: 星界黑麦威士忌
+	Description: 最大魔力值和魔法伤害增加且魔力消耗降低，但防御力和生命再生速度降低
+}
+
+TequilaBuff: {
+	DisplayName: 龙舌兰酒
+	Description: 在白天时暴击率、防御力和击退增加，但生命再生速度降低
+}
+
+TequilaSunriseBuff: {
+	DisplayName: 龙舌兰日出
+	Description: 在白天时暴击率、防御力和击退增加，但生命再生速度降低
+}
+
+Trippy: {
+	DisplayName: 幻菇中毒
+	Description: 你看到了世界的本质……同时增加50%伤害
+}
+
+VodkaBuff: {
+	DisplayName: 伏特加
+	Description: 伤害和暴击率增加，但防御力和生命再生速度降低
+}
+
+WhiskeyBuff: {
+	DisplayName: 威士忌
+	Description: 伤害、暴击率和击退增加，但防御力降低
+}
+
+WhiteWineBuff: {
+	DisplayName: 白酒
+	Description: 魔法伤害增加，但生命再生速度和防御力降低
+}
+
+Withered: {
+	DisplayName: 凋零
+	Description: 手持凋零的武器会让你渐渐枯萎，但也会让你的武器变得强大
+}
+
+AstralInfectionDebuff: {
+	DisplayName: 幻星感染
+	Description: 你的血肉正在被幻星熔蚀
+}
+
+BanishingFire: {
+	DisplayName: 放逐之火
+	Description: 你的罪孽不会被宽赦
+}
+
+BrimstoneFlames: {
+	DisplayName: 硫磺火
+	Description: 焚烧身心
+}
+
+BurningBlood: {
+	DisplayName: 血液沸腾
+	Description: 你的血液沸腾了
+}
+
+BrainRot: {
+	DisplayName: 大脑溃烂
+	Description: 你的神经元像玉米粒一样爆裂。
+}
+
+ElementalMix: {
+	DisplayName: 元素谐鸣
+	Description: 美妙的元素交响乐正在活剥你
+}
+
+CrushDepth: {
+	DisplayName: 深渊水压
+	Description: 被深海水压粉碎
+}
+
+RiptideDebuff: {
+	DisplayName: 激流
+	Description: 被强力水浪鞭打
+}
+
+Dragonfire: {
+	DisplayName: 龙焰
+	Description: 被熊熊火焰吞没
+}
+
+GodSlayerInferno: {
+	DisplayName: 弑神怒焰
+	Description: 你的血肉在燃烧
+}
+
+HolyFlames: {
+	DisplayName: 神圣之火
+	Description: 神圣之光将你焚化
+}
+
+HolyInferno: {
+	DisplayName: 圣狱神火
+	Description: 你离亵渎天神太远了！
+}
+
+ManaBurn: {
+	DisplayName: 魔力烧蚀
+	Description: 过多的魔力正在烧蚀你的身心
+}
+
+MiracleBlight: {
+	DisplayName: 超位崩解
+	Description: 星流共振撕碎了组成你身体的物质
+}
+
+Nightwither: {
+	DisplayName: 夜魇
+	Description: 被月之射线瓦解
+}
+
+Plague: {
+	DisplayName: 瘟疫
+	Description: 从内部腐烂
+}
+
+SagePoison: {
+	DisplayName: 鼠尾草中毒
+	Description: 中毒
+}
+
+SearingLava: {
+	DisplayName: 硫焰灼烧
+	Description: 硫火岩浆烧灼着你的血肉
+}
+
+ShellfishClaps: {
+	DisplayName: 贝壳痛咬
+	Description: 大快朵颐
+}
+
+Shred: {
+	DisplayName: 解离
+	Description: 有人造了十把三尖匕首……
+}
+
+SnapClamDebuff: {
+	DisplayName: 扇贝轻夹
+	Description: 被扇贝夹住
+}
+
+SulphuricPoisoning: {
+	DisplayName: 硫磺海剧毒
+	Description: 酸性海水正在烧灼你的血肉
+}
+
+Vaporfied: {
+	DisplayName: 蒸汽波
+	Description: 蒸汽波是极美的
+}
+
+VulnerabilityHex: {
+	DisplayName: 孱弱巫咒
+	Description: 你的精神毅力正在消散
+}
+
+WeakBrimstoneFlames: {
+	DisplayName: 较弱的硫磺火
+	Description: 使用至尊女巫的能力会使你受苦，但会让你的武器更强大
+}
+
+AlicornBuff: {
+	DisplayName: 彩虹小马
+	Description: 你喝高了还打败了神长直，心朗气清，足以畅叙幽情！
+}
+
+AndromedaBuff: {
+	DisplayName: 仙女座机甲
+	Description: 你操控着历史长河中的一部分
+}
+
+AndromedaSmallBuff: {
+	DisplayName: 仙女座机甲
+	Description: 你操控着历史长河中的一小部分
+}
+
+BrimroseMount: {
+	DisplayName: 硫火玫瑰坐骑
+	Description: 坐着温暖舒适。那就足够了
+}
+
+BumbledogeMount: {
+	DisplayName: 癫痫Doge
+	Description: 你骑在癫痫鸟上……不对劲
+}
+
+DraedonGamerChairBuff: {
+	DisplayName: 星流飞椅
+	Description: 坐在一把挑战物理的游戏椅上
+}
+
+GazeOfCrysthamyrBuff: {
+	DisplayName: 克里斯塔米尔的凝视
+	Description: 你骑着一只暗影飞龙
+}
+
+MarniteLiftBuff: {
+	DisplayName: 合成岩悬浮平台
+	Description: 你甚至……？
+}
+
+OnyxExcavatorBuff: {
+	DisplayName: 玛瑙挖掘钻
+	Description: 钻钻钻！
+}
+
+RimehoundBuff: {
+	DisplayName: 雾凇猎犬
+	Description: 你正驾驭着愤怒雪狗
+}
+
+SquishyBeanBuff: {
+	DisplayName: 可疑果冻豆
+	Description: BEAN MAN. BEAN DO T H E  B EA N IS HER E
+}
+
+TheCartofGodsBuff: {
+	DisplayName: 神明矿车
+	Description: 驾驭星宇所恐惧之物
+}
+
+AkatoBuff: {
+	DisplayName: 阿卡托
+	Description: 看起来你现在应该好好照顾这只小龙
+}
+
+ArcherofLunamoon: {
+	DisplayName: 皎月之弓兵
+	Description: 现在你有了属于自己的观察员
+}
+
+AstrophageBuff: {
+	DisplayName: 噬星体
+	Description: 小小的幻星机器
+}
+
+BabyGhostBellBuff: {
+	DisplayName: 小鬼铃水母
+	Description: 小心不要戳破那个泡泡
+}
+
+BearBuff: {
+	DisplayName: 小熊
+	Description: 守护天使正跟着你
+}
+
+BloodBound: {
+	DisplayName: 血肉羁绊
+	Description: 有它在身边陪伴，你一定很沮丧
+}
+
+BrimlingBuff: {
+	DisplayName: 小硫火灵
+	Description: 保护她或迎接苦难的折磨，二选一
+}
+
+ChibiiDoGBuff: {
+	DisplayName: 迷你神长直
+	Description: 什么？你期待还能召唤出谁？
+}
+
+ClassicSCalPetBuff: {
+	DisplayName: 迷你至尊灾厄眼
+	Description: 她的至尊之力永远不会被遗忘
+}
+
+DannyDevito: {
+	DisplayName: 丹尼·德维托
+	Description: 垃圾男正跟着你
+}
+
+Dreamfog: {
+	DisplayName: 梦境幼龙
+	Description: 祂相信伱
+}
+
+EidolonSnailBuff: {
+	DisplayName: 幻海灵蜗
+	Description: 多么可爱的史前小蜗牛
+}
+
+ElectricTroublemaker: {
+	DisplayName: 电鬼洛托姆
+	Description: 闪电从不会两次击中同一个地方
+}
+
+FlakHermitBuff: {
+	DisplayName: 酸丘寄居蟹
+	Description: 淘气的小酸虫
+}
+
+FoxPetBuff: {
+	DisplayName: 狐狸宠物
+	Description: 狐狸宠物？狐 狸 宠 物
+}
+
+FurtasticDuoBuff: {
+	DisplayName: 毛茸茸的伙伴们
+	Description: 它们做到了！毛茸茸的伙伴们围在你周围
+}
+
+GoldieBuff: {
+	DisplayName: 金制硬币
+	Description: 是金子总会发光
+}
+
+Kendra: {
+	DisplayName: 肯德拉
+	Description: 一位忠诚的朋友陪在你身旁
+}
+
+LadBuff: {
+	DisplayName: 老爹
+	Description: 啊哈哈哈，你爹来咯
+}
+
+LeviBuff: {
+	DisplayName: 利维
+	Description: 小而可爱
+}
+
+LittleLightBuff: {
+	DisplayName: 机灵
+	Description: 小东西长得真别致
+}
+
+MiniMindBuff: {
+	DisplayName: 腐巢宝宝
+	Description: 它知晓一切
+}
+
+OceanSpiritBuff: {
+	DisplayName: 海洋之灵
+	Description: 音轻体柔，小巧玲珑
+}
+
+PineappleBuff: {
+	DisplayName: 菠萝
+	Description: 它闻起来像披萨……
+}
+
+PlaguebringerBabBuff: {
+	DisplayName: 瘟疫使者宝宝
+	Description: 瘟疫使者宝宝将你视为它们的女王
+}
+
+RadiatorBuff: {
+	DisplayName: 辐射海参
+	Description: 具放射性的可爱生物
+}
+
+ReaverOrbBuff: {
+	DisplayName: 掠夺者
+	Description: 掠夺者宝珠会照亮你的前路
+}
+
+SparksBuff: {
+	DisplayName: 溅花闪蜓
+	Description: 这东西吃蝴蝶
+}
+
+ThirdSageBuff: {
+	DisplayName: 第三贤者
+	Description: 额，这不可能是鬼
+}
+
+YharonSonBuff: {
+	DisplayName: 犽戎之子
+	Description: 你最好别不小心把他的晚餐吃了
+}
+
+ChaosCandleBuff: {
+	DisplayName: 混乱蜡烛
+	Description: 蜡烛周围的刷怪率增加！
+}
+
+CirrusBlueCandleBuff: {
+	DisplayName: 敏捷
+	Description: 飘浮的火焰振奋着你的灵魂
+}
+
+CirrusPinkCandleBuff: {
+	DisplayName: 活力
+	Description: 它耀眼的光芒给周围的人带来了希望
+}
+
+CirrusPurpleCandleBuff: {
+	DisplayName: 执念
+	Description: 暴风骤雨也无法熄灭这不灭的火
+}
+
+CirrusYellowCandleBuff: {
+	DisplayName: 恶毒
+	Description: 它那惹人厌的火光只会激起愤怒
+}
+
+CorruptionEffigyBuff: {
+	DisplayName: 腐化雕像
+	Description: 腐化之地的力量灌注双拳
+}
+
+CrimsonEffigyBuff: {
+	DisplayName: 血腥雕像
+	Description: 猩红之地的力量充盈于身
+}
+
+EffigyOfDecayBuff: {
+	DisplayName: 腐朽雕像
+	Description: 硫海之水给予你力量
+}
+
+TranquilityCandleBuff: {
+	DisplayName: 宁静蜡烛
+	Description: 蜡烛周围的刷怪率降低！
+}
+
+PopoBuff: {
+	DisplayName: 雪宝
+	Description: 你现在是个雪人了！
+}
+
+PopoNoselessBuff: {
+	DisplayName: 没鼻子的雪宝
+	Description: 你的鼻子被别人偷走了！
+}
+
+AnechoicCoatingBuff: {
+	DisplayName: 吸音涂层
+	Description: 深渊生物的探测范围缩小
+}
+
+AstralInjectionBuff: {
+	DisplayName: 幻星注射剂
+	Description: 极致的魔力再生速度
+}
+
+BaguetteBuff: {
+	DisplayName: 法棍
+	Description: "[c/B00BA5:“如果只有我知道……” ~醉仙女]"
+}
+
+BloodfinBoost: {
+	DisplayName: 血鳍之助
+	Description: 不要让血液冲昏头脑
+}
+
+BoundingBuff: {
+	DisplayName: 弹跳助力
+	Description: 跳跃高度、跳跃速度和摔落伤害抗性增加
+}
+
+CalciumBuff: {
+	DisplayName: 钙质补充
+	Description: 你免疫摔落伤害
+}
+
+CeaselessHunger: {
+	DisplayName: 无尽空虚
+	Description: 你吸收着世界上所有的物品
+}
+
+GravityNormalizerBuff: {
+	DisplayName: 重力复原
+	Description: 在太空中恢复正常重力作用，你免疫扭曲减益
+}
+
+Omniscience: {
+	DisplayName: 全知
+	Description: 你能看透世间万物
+}
+
+PhotosynthesisBuff: {
+	DisplayName: 光合作用
+	Description: 强化生命再生，此效果在白天时会进一步增加，掉落的红心会回复更多生命值
+}
+
+ShadowBuff: {
+	DisplayName: 匿影
+	Description:
+		'''
+		你成为了一个暗影
+		盗贼武器在击中敌人时会生成弹幕
+		增加8%潜行值恢复速度
+		'''
+}
+
+Soaring: {
+	DisplayName: 翱翔
+	Description:
+		'''
+		飞行速度和飞行时间增加10%
+		真近战击中敌人后会恢复你的一小部分飞行时间
+		'''
+}
+
+SulphurskinBuff: {
+	DisplayName: 硫磺皮肤
+	Description: 硫海之水对你的影响效果降低
+}
+
+TeslaBuff: {
+	DisplayName: 特斯拉电球
+	Description: 召唤一个电流光环
+}
+
+WeaponImbueBrimstone: {
+	DisplayName: 武器灌注：硫火
+	Description: 近战、鞭子和盗贼攻击会用硫磺火焰点燃敌人
+}
+
+WeaponImbueCrumbling: {
+	DisplayName: 武器灌注：粉碎
+	Description: 近战、鞭子和盗贼攻击会降低敌人的伤害减免
+}
+
+WeaponImbueHolyFlames: {
+	DisplayName: 武器灌注：圣火
+	Description: 近战、鞭子和盗贼攻击会用神圣火焰焚化敌人
+}
+
+Zen: {
+	DisplayName: 禅定
+	Description: 刷怪率大幅度降低
+}
+
+Zerg: {
+	DisplayName: 虫潮
+	Description: 刷怪率大幅度增加
+}
+
+RancorBurn: {
+	DisplayName: 仇怨焚烧
+	Description: 燃烧
+}
+
+AbyssalDivingSuitBuff: {
+	DisplayName: 深渊潜游服
+	Description: 你是铁打的
+}
+
+AbyssalDivingSuitPlates: {
+	DisplayName: 深渊潜游服金属外壳
+	Description: 增加15%伤害减免
+}
+
+AbyssalMadness: {
+	DisplayName: 深渊狂乱
+	Description: 伤害、暴击率以及深渊触手的攻击距离和攻击性增加
+}
+
+AdrenalineMode: {
+	DisplayName: 肾上腺素
+	Description: 总伤害翻3倍。可通过使用其他物品来使该加成增加至3.45倍。
+}
+
+Afflicted: {
+	DisplayName: 灾劫之尖啸
+	Description: 被异界之魂祝福
+}
+
+AmidiasBlessing: {
+	DisplayName: 海王祝福
+	Description:
+		'''
+		你被海王祝福了
+		使你获得水下呼吸能力，在深渊中也生效！
+		小心别受伤……
+		'''
+}
+
+AquaticHeartBuff: {
+	DisplayName: 水元素
+	Description: 女装有趣吗？
+}
+
+AquaticHeartWaterSpeed: {
+	DisplayName: 海洋之佑
+	Description: 增加15%最大速度和加速度
+}
+
+AvertorBonus: {
+	DisplayName: 憎恶血刃之助
+	Description: 伤害与生命再生速度增加
+}
+
+BloodflareBloodFrenzy: {
+	DisplayName: 鲜血狂怒
+	Description: 敌人的接触伤害降低，你的近战属性大幅度增加
+}
+
+BossEffects: {
+	DisplayName: Boss效果
+	Description:
+		'''
+		附近的Boss会：
+		护士的治疗价格增加400%
+		禁用训练傀儡和大草人的碰撞箱
+		'''
+	ZenDescription: 大幅降低敌怪生成率
+}
+
+BrimflameFrenzyBuff: {
+	DisplayName: 硫火狂怒
+	Description: 以生命为代价，黑魔法大大增强了你的力量
+}
+
+BrutalCarnage: {
+	DisplayName: 残暴屠杀
+	Description: 增加25%近战伤害和10%近战暴击率
+}
+
+ChiBuff: {
+	DisplayName: 气
+	Description: 你更有适应性
+}
+
+ChiRegenBuff: {
+	DisplayName: 气
+	Description: 生命再生速度增加
+}
+
+CoralSymbiosis: {
+	DisplayName: 珊瑚共生
+	Description: 珊瑚泥充能加快，多造成2点伤害
+}
+
+CosmicFreeze: {
+	DisplayName: 宙宇冰封
+	Description: 寒气逼人，犹如身于宙域
+}
+
+DivineBless: {
+	DisplayName: 圣天祝福
+	Description: 生命再生速度增加，仆从攻击会造成放逐之火减益
+}
+
+EmpyreanRage: {
+	DisplayName: 皇天之愤怒
+	Description: 皇天之愤怒
+}
+
+EmpyreanWrath: {
+	DisplayName: 皇天之暴怒
+	Description: 皇天之暴怒
+}
+
+Encased: {
+	DisplayName: 冰固免死
+	Description: 增加30点防御和30%伤害减免，但……
+}
+
+GraxBoost: {
+	DisplayName: 格拉克斯之助
+	Description: 防御力增加，你的肌肉更加强壮
+}
+
+HallowedRuneDefense: {
+	DisplayName: 神圣之佑
+	Description: 增加8点防御和4%伤害减免
+}
+
+HallowedRunePower: {
+	DisplayName: 神圣之力
+	Description: 增加10%召唤伤害
+}
+
+HallowedRuneRegeneration: {
+	DisplayName: 神圣之辉
+	Description: 再生生命
+}
+
+IceShieldBuff: {
+	DisplayName: 冰盾
+	Description: 吸收下次攻击伤害的20%，随后破碎
+}
+
+KamiBuff: {
+	DisplayName: Kami之佑
+	Description: 最大移动速度、加速度和伤害增加15%
+}
+
+Mushy: {
+	DisplayName: 与菇共生
+	Description: 增加6点防御和每秒1点生命再生
+}
+
+PhantomicEmpowerment: {
+	DisplayName: 幻魂之力
+	Description: 增加10%召唤伤害
+}
+
+PhantomicRegen: {
+	DisplayName: 幻魂还生
+	Description: 再生生命
+}
+
+PhantomicShield: {
+	DisplayName: 幻魂坚盾
+	Description:
+		'''
+		增加10点防御和5%伤害减免
+		幻魂壁垒保护着你
+		'''
+}
+
+PolarisBuff: {
+	DisplayName: 极星之护
+	Description: 北极星强化了你的生命再生
+}
+
+ProfanedCrystalBuff: {
+	DisplayName: 忠诚
+	Description: 你现在是亵渎天神的神使了！
+	Offense: "{0}增强着你的进攻能力"
+	Lava: 熔岩之热
+	Day: 白昼之耀
+	Defense: "{0}你的烈焰，增强你的防守能力"
+	Water: 泉水之冽冷却着
+	Honey: 蜂蜜之滋冷却着
+	Night: 夜幕之暗冷却着
+	Enrage: 缺乏白昼之温，你的火焰猛烈燃烧
+	Empowered:
+		'''
+		通过放弃额外的仆从支持，你的潜力尽数爆发
+		[c/F05A5A:在这场秽色革命之中，你是最后一张王牌。]
+		'''
+	LockedSlots: 你的亵渎之魂受到召唤能力的限制
+	LockedExos: 这块水晶中的魂魄被危险的机械造物发出的能量波干扰了
+	LockedSCal: 亵渎之魂被一位强大女巫的魔法所玷污
+}
+
+ProfanedCrystalWhipDebuff: {
+	DisplayName: 渎魂鞭笞
+	Description: 你的血肉为亵渎晶鞭所撕裂！
+}
+
+ProfanedCrystalWhipBuff: {
+	DisplayName: 渎魂鞭佑
+	Description: 你的防御为亵渎晶鞭所增幅！
+	Empowered: 她们的潜力尽数爆发，无人可免于她们的怒火
+}
+
+RageMode: {
+	DisplayName: 暴怒模式
+	Description: 总伤害乘以1.35
+}
+
+ReaverRage: {
+	DisplayName: 掠夺者之怒
+	Description: 爷怒了
+}
+
+SilvaRevival: {
+	DisplayName: 始源林海无敌
+	Description: 你处于无敌状态并免疫大多数减益
+}
+
+SpiritDefense: {
+	DisplayName: 灵魂防御
+	Description: 增加6点防御和3%伤害减免
+}
+
+SpiritPower: {
+	DisplayName: 灵魂力量
+	Description: 增加10%召唤伤害
+}
+
+SpiritRegen: {
+	DisplayName: 灵魂恢复
+	Description: 再生生命
+}
+
+TarragonCloak: {
+	DisplayName: 龙蒿披风
+	Description: 接触伤害降低50%
+}
+
+TarragonImmunity: {
+	DisplayName: 龙蒿无敌
+	Description: 你现在无敌了
+}
+
+TarraLifeRegen: {
+	DisplayName: 生命涌流
+	Description: 快速再生生命
+}
+
+AndromedaCripple: {
+	DisplayName: 战甲破损
+	Description: 你变慢了
+}
+
+ArmorCrunch: {
+	DisplayName: 碎甲
+	Description: 你的护甲被撕裂了
+}
+
+Crumbling: {
+	DisplayName: 粉碎
+	Description: 你的护甲损伤了
+}
+
+Clamity: {
+	DisplayName: 灾蛤之力
+	Description: 远古巨蛤怒了！
+}
+
+DoGExtremeGravity: {
+	DisplayName: 极限重力
+	Description:
+		'''
+		飞行时间降低25%
+		无限飞行失效
+		'''
+}
+
+Enraged: {
+	DisplayName: 激怒
+	Description: 总伤害乘以2.25，但你受到1.25倍伤害
+}
+
+Eutrophication: {
+	DisplayName: 富营养化
+	Description: 过多的营养物质拖慢了你的步伐
+}
+
+ExoFreeze: {
+	DisplayName: 星宇冰寒
+	Description: 无法移动
+}
+
+FishAlert: {
+	DisplayName: 鱼饵标注
+	Description: 深渊生物发现你了！
+}
+
+FrozenLungs: {
+	DisplayName: 肺部冻伤
+	Description: 冰冷的水使你无法呼吸
+}
+
+GalvanicCorrosion: {
+	DisplayName: 电偶腐蚀
+	Description: 你的四肢正被腐蚀
+}
+
+GlacialState: {
+	DisplayName: 冰河时代
+	Description: 无法移动
+}
+
+IcarusFolly: {
+	DisplayName: 伊卡洛斯之愚
+	Description:
+		'''
+		飞行时间降低33%
+		无限飞行失效
+		'''
+}
+
+Irradiated: {
+	DisplayName: 辐射
+	Description: 你的皮肤正被侵蚀
+}
+
+KamiFlu: {
+	DisplayName: Kami之疫
+	Description: 手无寸铁，奄奄一息
+}
+
+MarkedforDeath: {
+	DisplayName: 死亡标记
+	Description: 伤害减免降低
+}
+
+PearlAura: {
+	DisplayName: 珍珠光环
+	Description: 减速
+}
+
+ProfanedWeakness: {
+	DisplayName: 亵渎之疲弱
+	Description: 你造成的伤害降低
+}
+
+TemporalSadness: {
+	DisplayName: 莫名的悲伤
+	Description: 蓝瘦香菇
+}
+
+TimeDistortion: {
+	DisplayName: 时间扭曲
+	Description: 时间流逝减缓
+}
+
+Warped: {
+	DisplayName: 空间翘曲
+	Description: 移动被空间翘曲影响
+}
+
+WeakPetrification: {
+	DisplayName: 略微石化
+	Description: 垂直移动能力弱化
+}
+
+WhisperingDeath: {
+	DisplayName: 死亡低语
+	Description: 死亡临近；攻击力和生命再生速度降低
+}
+
+WitherDebuff: {
+	DisplayName: 枯萎
+	Description:
+		'''
+		枯萎了……
+		防御降低20点
+		'''
+}
+
+AbandonedSlimeBuff: {
+	DisplayName: 末世星凝胶
+	Description: 从天堂回归只为保护你！
+}
+
+AncientMineralSharkBuff: {
+	DisplayName: 远古岩鲨
+	Description: 来自远古，强大无比
+}
+
+AquaticStar: {
+	DisplayName: 深海之星
+	Description: 深海之星会保护你
+}
+
+AstralProbeBuff: {
+	DisplayName: 幻星探测器
+	Description: 幻星探测器会保护你
+}
+
+BabyBloodCrawlerBuff: {
+	DisplayName: 血爬虫宝宝
+	Description: 血爬虫宝宝将保护你
+}
+
+BabySlimeGodBuff: {
+	DisplayName: 史莱姆神宝宝
+	Description: 史莱姆之神会保护你
+}
+
+BabyStormlionBuff: {
+	DisplayName: 风暴蚁狮宝宝
+	Description: 风暴蚁狮宝宝将保护你
+}
+
+BelladonnaSpiritBuff: {
+	DisplayName: 颠茄之灵
+	Description: 可爱的森林精灵正跟着你
+}
+
+BlackHawkBuff: {
+	DisplayName: 黑鹰战斗机
+	Description: 喷气战斗机会保护你
+}
+
+BloodClot: {
+	DisplayName: 血块
+	Description: 血块会保护你
+}
+
+BrimseekerBuff: {
+	DisplayName: 硫火搜寻者
+	Description: 它是不是想从你身上索取些什么？
+}
+
+BrimstoneWaifu: {
+	DisplayName: 硫磺火元素
+	Description: 硫磺火元素会保护你
+}
+
+BrittleStar: {
+	DisplayName: 脆弱之星
+	Description: 脆弱海星会保护你
+}
+
+CalamarisLamentBuff: {
+	DisplayName: 乌贼
+	Description: 是时候把你所有仇敌都送进愚蠢的鱿鱼监狱了！
+}
+
+CausticStaffBuff: {
+	DisplayName: 蚀骨之龙
+	Description: 迷你丛林之龙正跟着你
+}
+
+CinderBlossomBuff: {
+	DisplayName: 烬之英
+	Description: 一朵灼热的花不舒服地飘在你身边
+}
+
+CloudyWaifu: {
+	DisplayName: 雨云元素
+	Description: 雨云元素会保护你
+}
+
+GlacialEmbraceBuff: {
+	DisplayName: 冰川之拥
+	Description: 古老冰霜城堡的魔法会帮助你
+}
+
+Corroslime: {
+	DisplayName: 腐化史莱姆
+	Description: 腐化史莱姆会保护你
+}
+
+CorvidHarbringerBuff: {
+	DisplayName: 渡鸦
+	Description: 强大的渡鸦会保护你
+}
+
+CosmicEnergy: {
+	DisplayName: 归虚之灵
+	Description: 归虚之灵会保护你
+}
+
+CosmicViperEngineBuff: {
+	DisplayName: 宙极蝰蛇
+	Description: 宇宙武装战机会保护你
+}
+
+CosmilampBuff: {
+	DisplayName: 无尽之灯
+	Description: 无尽之灯会保护你
+}
+
+Crimslime: {
+	DisplayName: 血腥史莱姆
+	Description: 血腥史莱姆会保护你
+}
+
+DaedalusCrystalBuff: {
+	DisplayName: 代达罗斯水晶
+	Description: 代达罗斯水晶会保护你
+}
+
+DaedalusGolemBuff: {
+	DisplayName: 代达罗斯守卫
+	Description: 一个水晶傀儡正跟着你
+}
+
+DankCreeperBuff: {
+	DisplayName: 沼泽之眼
+	Description: 沼泽之眼会保护你
+}
+
+DazzlingStabberBuff: {
+	DisplayName: 耀目穿刺者
+	Description: 时刻戒护
+}
+
+DemonshadeSetDevilBuff: {
+	DisplayName: 赤红恶魔
+	Description: 赤红恶魔会保护你
+}
+
+ElementalAxeBuff: {
+	DisplayName: 元素之斧
+	Description: 元素之斧会保护你
+}
+
+EndoCooperBuff: {
+	DisplayName: 源生寒晶
+	Description: 寒古宙以来冰封的晶体会保护你
+}
+
+EndoHydraBuff: {
+	DisplayName: 冰洋九头龙
+	Description: 冰洋九头蛇会保护你……出于某些原因
+}
+
+EntropysVigilBuff: {
+	DisplayName: 混乱之祈祷
+	Description: 灾厄之影永远替你警戒着周围
+}
+
+ExoskeletonCannons: {
+	DisplayName: 阿瑞斯外骨骼
+	Description: 内不含脉冲加农
+}
+
+EyeOfNightBuff: {
+	DisplayName: 永夜之眼
+	Description: 它诡异地注视着一切
+}
+
+FieryDraconidBuff: {
+	DisplayName: 炽焰天龙
+	Description: 炽焰天龙会保护你
+}
+
+FleshBallBuff: {
+	DisplayName: 血肉之球
+	Description: 为什么这玩意在跟着你？
+}
+
+FlowersOfMortalityBuff: {
+	DisplayName: 告死之花
+	Description: 天界之花环绕在你的身边
+}
+
+FrostBlossomBuff: {
+	DisplayName: 霜之华
+	Description: 一朵冰冷多刺的花不舒服地飘在你身边
+}
+
+FungalClumpBuff: {
+	DisplayName: 真菌块
+	Description: 真菌块会保护你
+}
+
+GammaHydraBuff: {
+	DisplayName: 伽马共生体
+	Description: ……
+}
+
+GastricAberrationBuff: {
+	DisplayName: 畸变吞食者
+	Description: 深海吞食者会保护你
+}
+
+HauntedDishesBuff: {
+	DisplayName: 缠怨鬼碟
+	Description: 缠怨鬼碟会保护你
+}
+
+HermitCrab: {
+	DisplayName: 寄居蟹
+	Description: 寄居蟹会保护你
+}
+
+Herring: {
+	DisplayName: 鲱鱼
+	Description: 鲱鱼群会保护你
+}
+
+HotE: {
+	DisplayName: 元灵之心
+	Description: 所有的元素之灵会保护你
+}
+
+HowlTrio: {
+	DisplayName: 哈尔之心
+	Description: 哈尔会保护你，卡西法会照亮你的道路，小萝卜头会跟着你
+}
+
+HydrothermicVentBuff: {
+	DisplayName: 沸腾渊泉
+	Description: 沸腾渊泉会保护你
+}
+
+IceClasperBuff: {
+	DisplayName: 食魂冰虫
+	Description: 食魂冰虫会保护你
+}
+
+IgneousExaltationBuff: {
+	DisplayName: 淬焰古刀
+	Description: 淬焰古刀环绕在你的身边
+}
+
+KalandraMirrorBuff: {
+	DisplayName: 卡兰德的魔镜
+	Description: 五把古老的武器会消灭你的敌人
+}
+
+KingofConstellationsBuff: {
+	DisplayName: 天龙
+	Description: 天龙会保护你
+}
+
+LilPlaguebringerBuff: {
+	DisplayName: 小型瘟疫使者
+	Description: 瘟疫使者会保护你
+}
+
+LordeBuff: {
+	DisplayName: Lil'orde
+	Description: 转↺转↻转⟳
+}
+
+MagicHatBuff: {
+	DisplayName: 魔法礼帽
+	Description: 我会一直留着你的灵魂当人质，但你找到的东西都得留下！
+}
+
+Mechworm: {
+	DisplayName: 星宇神卫
+	Description: 星宇神卫会保护你
+}
+
+MidnightSunBuff: {
+	DisplayName: 极昼飞行物
+	Description: 一个奇怪的UFO在观察你，这令你很不舒服
+}
+
+MiniatureEyeofCthulhu: {
+	DisplayName: 微型克苏鲁之眼
+	Description: 它如死亡一般凝视着你
+}
+
+MutatedTruffleBuff: {
+	DisplayName: 小核弹
+	Description: 这只突变猪鱼龙会让你的敌人恶疾缠身
+}
+
+MiniPlaguebringerBuff: {
+	DisplayName: 迷你瘟疫使者
+	Description: 一只小瘟疫蜂正跟着你
+}
+
+MoonFistBuff: {
+	DisplayName: 月亮之拳
+	Description: 准备好用这些手去打一架了吗？
+}
+
+MountedScannerBuff: {
+	DisplayName: 架式扫射机
+	Description: 强大的机械环绕在你的身边
+}
+
+NOU: {
+	DisplayName: NO U
+	Description: 装备失效
+}
+
+PerditionBuff: {
+	DisplayName: 永劫信标
+	Description: 永劫不复
+}
+
+Phantom: {
+	DisplayName: 花灵
+	Description: 花灵会保护你
+}
+
+PlantationStaffBuff: {
+	DisplayName: 世纪之花
+	Description: 迷你世纪之花会保护你
+}
+
+PoleWarperBuff: {
+	DisplayName: 电极解离机
+	Description: 你吸引着这些磁场模块
+}
+
+ProfanedSoulGuardians: {
+	DisplayName: 亵渎之魂
+	Description: 亵渎灵魂守卫会为你而战！
+	VanityDescription: 亵渎灵魂守卫会伴你同行！
+}
+
+PuffWarriorBuff: {
+	DisplayName: 蓬松战士
+	Description: 它自信且兴奋地保护着你
+}
+
+ResurrectionButterflyBuff: {
+	DisplayName: 反魂蝶
+	Description:
+		'''
+		回归于花下好了，春之亡灵！
+		沉眠于花下好了，红白之蝶！
+		'''
+}
+
+SageSpiritBuff: {
+	DisplayName: 鼠尾草之灵
+	Description: 靠的太近了，很不舒服
+}
+
+Sandnado: {
+	DisplayName: 沙龙卷
+	Description: 沙龙卷会保护你
+}
+
+SandyHealingWaifu: {
+	DisplayName: 稀有沙元素
+	Description: 沙元素会治疗你
+}
+
+SandyWaifu: {
+	DisplayName: 沙元素
+	Description: 沙元素会保护你
+}
+
+SarosPossessionBuff: {
+	DisplayName: 掌控星律
+	Description: 闪熠的流光日环保护着你
+}
+
+SeaSnailBuff: {
+	DisplayName: 海蜗牛
+	Description: 喵？
+}
+
+SepulcherMinionBuff: {
+	DisplayName: 灾坟魔物
+	Description: 它并非带着善意而来……
+}
+
+ShellfishBuff: {
+	DisplayName: 沉沦之贝
+	Description: 沉沦之贝会保护你
+}
+
+SilvaCrystalBuff: {
+	DisplayName: 始源林海水晶
+	Description: 始源林海水晶会保护你
+}
+
+SiriusBuff: {
+	DisplayName: 天狼星
+	Description: 有点太亮了，但它会帮助你
+}
+
+SkeletalDragonsBuff: {
+	DisplayName: 血炎骨龙
+	Description: 幸福大家庭
+}
+
+SmallSkeletonBuff: {
+	DisplayName: 小骷髅
+	Description: 骷髅在注视着你
+}
+
+SnakeEyesBuff: {
+	DisplayName: 蛇眼
+	Description: 永远注视着……
+}
+
+SolarGodSpiritBuff: {
+	DisplayName: 复仇太阳之灵
+	Description: 暴怒的太阳之灵准备好保护你了
+}
+
+SolarSpirit: {
+	DisplayName: 太阳之灵
+	Description: 太阳之灵会保护你
+}
+
+SoulSeekerBuff: {
+	DisplayName: 摄魂魔
+	Description: 它渴望汝所拥有之物……
+}
+
+StarSwallowerBuff: {
+	DisplayName: 噬星者
+	Description: 并不能吞噬星星
+}
+
+StellarTorusBuff: {
+	DisplayName: 星环
+	Description: 召唤一个环形轨道烤熟你的敌人
+}
+
+TacticalPlagueEngineBuff: {
+	DisplayName: 战术瘟疫引擎
+	Description: 一架瘟疫喷气战机正跟着你
+}
+
+TundraFlameBlossomsBuff: {
+	DisplayName: 永冻之焱华
+	Description: 均衡与美丽的完美和谐
+}
+
+ValkyrieBuff: {
+	DisplayName: 天武神
+	Description: 天武神会保护你
+}
+
+VileFeederBuff: {
+	DisplayName: 腐化吞噬者
+	Description: 噬魂者宝宝会保护你
+}
+
+ViridVanguardBuff: {
+	DisplayName: 葱茏之锋
+	Description: 完美的和谐之风环绕在你的身边
+}
+
+ViriliBuff: {
+	DisplayName: 瘟疫雌蜂
+	Description: 不幸的是，她的传染性很强
+}
+
+VoidConcentrationBuff: {
+	DisplayName: 虚空统御
+	Description: 无尽之虚空渴望着更多……
+}
+
+WaterWaifu: {
+	DisplayName: 阿娜希塔
+	Description: 阿娜希塔会保护你
+}
+
+WitherBlossomsBuff: {
+	DisplayName: 凋零枯花
+	Description: 瘟疫之蕾环绕在你的身边
+}
+
+WulfrumDroidBuff: {
+	DisplayName: 钨钢无人机
+	Description: 钨钢无人机会保护你
+}
+
+PinkJellyRegen: {
+	DisplayName: 粉胶质再生
+	Description: 粘液的力量使你神清气爽，增加每秒2点生命再生
+}
+
+GreenJellyRegen: {
+	DisplayName: 绿胶质再生
+	Description: 再生粘液增幅着你，增加每秒2.5点生命再生
+}
+
+AbsorberRegen: {
+	DisplayName: 新生律动
+	Description:
+		'''
+		你被顶尖的自然力量所祝福
+		增加每秒3点生命再生，8%伤害和5%伤害减免
+		'''
+}
+
+AbsorberAffliction: {
+	DisplayName: 吸尽之痛
+	Description: 该死的大自然，你真可怕！
+}
+
+YoungDukeBuff: {
+	DisplayName: 硫海新爵
+	Description: Mods.CalamityMod.Buffs.YoungDukeBuff.Description
+}

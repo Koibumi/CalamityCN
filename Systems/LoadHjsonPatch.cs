@@ -143,8 +143,8 @@ namespace CalamityCN.Systems
             return CalamityCNConfig.Instance.Lang switch
             {
                 zhLang.zh => "zhHans",
-                zhLang.hk => "zhHant",
-                zhLang.tw => "zhHant",
+                zhLang.hk => "zhHanthk",
+                zhLang.tw => "zhHanttw",
                 _ => "zhHans"
             };
         }

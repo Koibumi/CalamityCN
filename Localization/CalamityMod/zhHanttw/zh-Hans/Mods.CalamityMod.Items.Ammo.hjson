@@ -1,0 +1,170 @@
+AccelerationRound: {
+	DisplayName: 加速弹
+	Tooltip: 速度会逐渐加快
+}
+
+ArcticArrow: {
+	DisplayName: 北极箭
+	Tooltip: 短暂冻结敌人
+}
+
+AstralSolution: {
+	DisplayName: 星源溶剂
+	Tooltip:
+		'''
+		可由环境改造枪使用
+		蔓延星辉瘟疫
+		'''
+}
+
+BloodfireArrow: {
+	DisplayName: 血炎箭
+	Tooltip: 击中敌人时会治疗你
+}
+
+BloodfireBullet: {
+	DisplayName: 血炎弹
+	Tooltip:
+		'''
+		击中敌人时加快你的生命再生速度
+		基于你的生命再生速度造成额外的伤害
+		'''
+}
+
+BloodRune: {
+	DisplayName: 血之符文
+	Tooltip:
+		'''
+		可由寒冰弹幕使用
+		在某些类似符文的壁画上发现的
+		'''
+}
+
+BubonicRound: {
+	DisplayName: 鼠疫弹
+	Tooltip:
+		'''
+		击中敌人时会爆裂出致命瘟疫
+		无视敌人25%防御
+		'''
+}
+
+ElysianArrow: {
+	DisplayName: 极乐之箭
+	Tooltip: 在消失时会使陨石从天而降
+}
+
+EnhancedNanoRound: {
+	DisplayName: 注魔纳米弹
+	Tooltip: 击中敌人时会造成困惑减益，并使其在死亡时释放纳米云
+}
+
+FlashRound: {
+	DisplayName: 眩晕弹
+	Tooltip: 发射大范围震荡冲击，击中敌人时会造成短暂的困惑减益
+}
+
+GodSlayerSlug: {
+	DisplayName: 弑神弹
+	Tooltip:
+		'''
+		具有无限穿透能力的重型弹药，其威力足以撕裂时空
+		在击中一名敌人后，如果击中墙壁或在飞行一段时间后，
+		会扭曲时空并从玩家后方加速射出，在命中时产生爆炸
+		'''
+}
+
+HolyFireBullet: {
+	DisplayName: 圣火弹
+	Tooltip: 会爆炸的神圣子弹
+}
+
+HyperiusBullet: {
+	DisplayName: 海伯里斯弹
+	Tooltip:
+		'''
+		你的敌人不会好过了
+		击中敌人时会产生额外的子弹
+		'''
+}
+
+IcicleArrow: {
+	DisplayName: 冰锥箭
+	Tooltip: 命中时碎裂
+}
+
+IcyBullet: {
+	DisplayName: 冰砾弹
+	Tooltip:
+		'''
+		可以命中至多三次
+		第三次命中时会分裂成碎冰
+		'''
+}
+
+MarksmanRound: {
+	DisplayName: 神射手弹
+	Tooltip:
+		'''
+		一种精心制作的子弹，可以在半空中的钱币上反弹
+		这允许其他枪械可以利用神枪手柯尔特或迈达斯统帅抛出的硬币
+		'''
+}
+
+MortarRound: {
+	DisplayName: 迫击炮弹
+	Tooltip:
+		'''
+		专用高爆弹，爆炸范围大
+		会摧毁物块
+		可由普通枪械使用
+		'''
+}
+
+NapalmArrow: {
+	DisplayName: 汽油箭
+	Tooltip: 爆裂出火星子
+}
+
+RubberMortarRound: {
+	DisplayName: 橡胶迫击炮炮弹
+	Tooltip:
+		'''
+		专用高爆弹，爆炸范围大
+		每次反弹时都会摧毁物块
+		可由普通枪械使用
+		'''
+}
+
+SuperballBullet: {
+	DisplayName: 弹球弹
+	Tooltip: 快速反弹
+}
+
+TerraArrow: {
+	DisplayName: 泰拉箭
+	Tooltip: 高速移动并在达到一定的距离时分裂成更多箭矢
+}
+
+TerraBullet: {
+	DisplayName: 泰拉弹
+	Tooltip: 在消失时会爆炸并分裂出能够追踪的泰拉裂片
+}
+
+VanquisherArrow: {
+	DisplayName: 征戮箭
+	Tooltip:
+		'''
+		穿透物块
+		移动时会分裂出额外的追踪箭矢
+		'''
+}
+
+VeriumBullet: {
+	DisplayName: 钫弹
+	Tooltip:
+		'''
+		你逃不掉了！
+		在击中一名敌人后会获得追踪能力
+		'''
+}
