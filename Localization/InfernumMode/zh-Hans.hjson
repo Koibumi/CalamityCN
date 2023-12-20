@@ -4,7 +4,7 @@ Mods: {
 			BabysFirstAchievement: {
 				DisplayName: 死海无涯
 				Description:
-				    '''
+					'''
 					死的越多，懂得越多
 					[c/777777:在炼狱模式中死于任意一个Boss]
 					'''

@@ -65,7 +65,7 @@ CalamityConfig: {
 			'''
 	}
 
-    DefaultDashEnabled: {
+	DefaultDashEnabled: {
 		Label: "[i:Tabi] 默认冲刺"
 		Tooltip:
 			'''
