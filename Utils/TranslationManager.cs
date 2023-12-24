@@ -1,5 +1,4 @@
-﻿using CalamityCN.Translations.InfernumMode;
-using CalamityCN.Translations.Patch;
+﻿using CalamityCN.Translations.Patch;
 using Terraria;
 using Terraria.ModLoader;
 
