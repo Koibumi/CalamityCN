@@ -1,0 +1,198 @@
+AbyssShellFossil: {
+	DisplayName: 深渊贝壳化石
+	Tooltip:
+		'''
+		一种史前生物的化石，被遗忘在深渊的深处
+		召唤一只幻海灵蜗宠物跟着你
+		小幅度削减深渊生物的探测能力
+		'''
+}
+
+BearsEye: {
+	DisplayName: 猫眼石
+	Tooltip: 召唤守护天使宠物
+}
+
+BloodyVein: {
+	DisplayName: 血管碎块
+	Tooltip: 召唤一堆聚合的血肉
+}
+
+BrimstoneJewel: {
+	DisplayName: 硫火宝珠
+	Tooltip:
+		'''
+		“打败这难以置信的怪物后获得的终极奖励……
+		但谁会知道原来她这么可爱！”
+		'''
+}
+
+CharredRelic: {
+	DisplayName: 厄古炭钩
+	Tooltip: 包含一些硫磺火石
+}
+
+ChromaticOrb: {
+	DisplayName: 彩球
+	Tooltip:
+		'''
+		召唤古老的龙光宠物，可以显示敌人和危险源
+		在深渊中提供少量光照
+		“它在你的手上散发温暖的光芒”
+		'''
+}
+
+CosmicPlushie: {
+	DisplayName: 星际毛绒娃娃
+	Tooltip:
+		'''
+		召唤宇宙的吞食者……？
+		魔影套装的赤红恶魔不会出现
+		“可能装有锋利物件”
+		'''
+}
+
+EnchantedButterfly: {
+	DisplayName: 附魔蝴蝶
+	Tooltip:
+		'''
+		召唤一只神秘的发光蜻蜓宠物
+		在深渊中提供少量光照
+		“给它投喂蝴蝶，让它茁壮成长！”
+		'''
+}
+
+ForgottenDragonEgg: {
+	DisplayName: 被遗忘的龙蛋
+	Tooltip: 把犽戎之子，阿卡托呼唤到你身边
+}
+
+FoxDrive: {
+	DisplayName: 狐盘
+	Tooltip:
+		'''
+		它只包含一个文件：
+		“Fox.cs”
+		'''
+}
+
+GeyserShell: {
+	DisplayName: 间歇泉贝壳
+	Tooltip: 召唤小酸丘寄居蟹
+}
+
+HermitsBoxofOneHundredMedicines: {
+	DisplayName: 华扇的百药枡
+	Tooltip:
+		'''
+		召唤第三贤者
+		在快捷栏中右键此物品以切换第三贤者的祝福是否生效
+		第三贤者的祝福会使玩家在重生时以满血重生，而不是一半
+		“气霁风梳新柳发
+		冰消波洗旧苔须
+		欢迎回来，搭档”
+		'''
+}
+
+JoyfulHeart: {
+	DisplayName: 欢愉之心
+	Tooltip: 奇怪的暖和。可吸引……大老爹！
+}
+
+Levi: {
+	DisplayName: 利维
+	Tooltip: 召唤利维坦宝宝
+}
+
+LittleLight: {
+	DisplayName: 机灵
+	Tooltip:
+		'''
+		召唤一个小型构造体跟着你，并提供大量光照
+		在深渊中提供大量光照
+		“它已经看着你很长时间了”
+		'''
+}
+
+McNuggets: {
+	DisplayName: 金拱门炸鸡块
+	Tooltip: “这些鸡块不能给你吃！！”
+}
+
+PineapplePet: {
+	DisplayName: 菠萝
+	Tooltip: 召唤一个菠萝
+}
+
+PlagueCaller: {
+	DisplayName: 瘟疫呼机
+	Tooltip: 召唤一个瘟疫使者宝宝宠物
+}
+
+PrimroseKeepsake: {
+	DisplayName: 报春花纪念品
+	Tooltip: 它们刚刚是不是……
+}
+
+RadiatingCrystal: {
+	DisplayName: 辐射水晶
+	Tooltip:
+		'''
+		召唤发光的辐射海参宠物
+		在深渊中提供少量光照
+		“这块水晶含有痕量的海参毒素”
+		'''
+}
+
+RomajedaOrchid: {
+	DisplayName: Romajeda之兰
+	Tooltip: 召唤一位从未被遗忘的伙伴
+}
+
+RottingEyeball: {
+	DisplayName: 腐烂眼球
+	Tooltip: 召唤一个腐化聚合物
+}
+
+StrangeOrb: {
+	DisplayName: 奇光球
+	Tooltip:
+		'''
+		召唤一个迷你海洋之灵照明宠物
+		在深渊中提供大量光照
+		'''
+}
+
+SuspiciousLookingNOU: {
+	DisplayName: 可疑的NO U
+	Tooltip:
+		'''
+		召唤一个Lil Lorde提供照明
+		“它活了！”
+		'''
+}
+
+TheEtomer: {
+	DisplayName: 摩擦发光遥控器
+	Tooltip:
+		'''
+		召唤电鬼洛托姆
+		这有张小纸条：
+		“谢谢你，Aloe！非常感谢 来自：Ben”
+		'''
+}
+
+ThiefsDime: {
+	DisplayName: 盗贼铸币
+	Tooltip:
+		'''
+		召唤金制硬币收集附近的钱币并照亮你的道路
+		在深渊中提供少量光照
+		“曾经一文不值的财宝，现在是见证窃贼之间的友情的遗物”
+		'''
+}
+
+TrashmanTrashcan: {
+	DisplayName: 垃圾罐
+	Tooltip: 召唤垃圾男！
+}

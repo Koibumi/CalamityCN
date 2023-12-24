@@ -18,10 +18,7 @@ namespace CalamityCN.Utils
                 return;
             };
             BossLoot.Load();
-            if (ModsCall.Infernum != null && CalamityCNConfig.Instance.InfernumCN)
-            {
-                InfernumPatch.Load();
-            }
+
         }
         public override void Unload()
         {

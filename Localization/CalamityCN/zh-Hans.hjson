@@ -3,12 +3,23 @@ Mods: {
 		Configs: {
 			CalamityCNConfig: {
 				DisplayName: 汉化配置
-				Headers.CNinfernum: 炼狱部分配置
 
-				InfernumCN: {
-					Label: 特殊部分汉化
-					Tooltip: 默认启用，如炼狱更新或其他情况报错尝试关闭这个选项
+				Headers: {
+					Conversion: 简繁转换
+					
 				}
+
+				Lang: {
+					Label: 将大部分简体转化为繁体（仅包含灾厄本体）
+					Tooltip: 在简体中文-繁體中文（香港）-繁体中文（台灣）之间切换
+				}
+
+			}
+
+			zhLang: {
+				zh.Label: 简体中文
+				hk.Label: 繁體中文（香港）
+				tw.Label: 繁体中文（台灣）
 			}
 		}
 	}

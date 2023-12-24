@@ -3,12 +3,23 @@ Mods: {
 		Configs: {
 			CalamityCNConfig: {
 				DisplayName: Config
-				Headers.CNinfernum: InfernumCN Config
 
-				InfernumCN: {
-					Label: Special IL
-					Tooltip: Default enabled, If error, close it.
+				Headers: {
+					Conversion: Conversion between simplified and traditional Chinese
+					
 				}
+
+				Lang: {
+					Label: Converts most Simplified Chinese into Traditional Chinese
+					Tooltip: Switch between Simplified Chinese - Traditional Chinese (Hong Kong) - Traditional Chinese (Taiwan)
+				}
+
+			}
+
+			zhLang: {
+				zh.Label: Simplified Chinese
+				hk.Label: Traditional Chinese (Hong Kong)
+				tw.Label: Traditional Chinese (Taiwan)
 			}
 		}
 	}

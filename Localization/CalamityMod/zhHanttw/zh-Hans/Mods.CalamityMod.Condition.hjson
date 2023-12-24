@@ -1,0 +1,98 @@
+// Drop conditions
+Drops: {
+	Cynosure: 当你首次击败星流巨械与至尊女巫，灾厄两者后掉落
+	DownedKS: 击败史莱姆王掉落
+	DownedDS: 击败荒漠灾虫掉落
+	DownedEoC: 击败克苏鲁之眼掉落
+	DownedCrab: 击败菌生蟹掉落
+	DownedEoW: 击败世界吞噬怪掉落
+	DownedBoC: 击败克苏鲁之脑掉落
+	DownedHM: 击败腐巢意志掉落
+	DownedPerfs: 击败血肉宿主掉落
+	DownedQB: 击败蜂王掉落
+	DownedDeer: 击败鹿角怪掉落
+	DownedSkele: 击败骷髅王掉落
+	DownedSG: 击败史莱姆之神掉落
+	Hardmode: 进入困难模式掉落
+	DownedQS: 击败史莱姆皇后掉落
+	DownedCryo: 击败极地之灵掉落
+	DownedAS: 击败渊海灾虫掉落
+	DownedBrim: 击败硫磺火元素掉落
+	DownedDest: 击败毁灭者掉落
+	DownedTwins: 击败双子魔眼掉落
+	DownedSP: 击败机械骷髅王掉落
+	Downed1Mech: 击败任意机械Boss掉落
+	Downed3Mechs: 击败全部机械Boss后掉落
+	DownedCal: 击败灾厄之影掉落
+	DownedPlant: 击败世纪之花掉落
+	DownedCalPlant: 击败灾厄之影或世纪之花掉落
+	DownedLevi: 击败利维坦和阿娜希塔掉落
+	DownedAureus: 击败白金星舰掉落
+	DownedGolem: 击败石巨人掉落
+	DownedPBG: 击败瘟疫使者歌莉娅掉落
+	DownedEoL: 击败光之女皇掉落
+	DownedFish: 击败猪龙鱼公爵掉落
+	DownedRav: 击败毁灭魔像掉落
+	DownedLC: 击败拜月教邪教徒掉落
+	DownedAD: 击败星神游龙掉落
+	DownedML: 击败月亮领主掉落
+	DownedGuard: 击败亵渎守卫掉落
+	DownedBirb: 击败痴愚金龙掉落
+	DownedProv: 击败亵渎天神掉落
+	DownedSig: 击败西格纳斯掉落
+	DownedSW: 击败风暴编织者掉落
+	DownedCV: 击败无尽虚空掉落
+	DownedPolter: 击败噬魂幽花掉落
+	DownedOD: 击败硫海遗爵掉落
+	DownedDoG: 击败神明吞噬者掉落
+	DownedYharon: 击败犽戎掉落
+	DownedExos: 击败星流巨械掉落
+	DownedSCal: 击败至尊女巫，灾厄掉落
+	DownedAEW: 击败始源妖龙掉落
+	DownedClam: 击败巨像蛤掉落
+	DownedClamHM: 在困难模式击败巨像蛤掉落
+	DownedGSS: 击败旱海狂鲨掉落
+	DownedBetsy: 击败双足翼龙掉落
+	DownedT1AR: 完成第一阶段酸雨掉落
+	DownedT2AR: 完成第二阶段酸雨掉落
+	FirstKill: 仅在首次击败时掉落
+	IsGFB: 这是在天顶种子世界中的掉落概率
+	IsRev: 这是复仇模式下的掉落概率
+	IsDeath: 这是死亡模式下的掉落概率
+	MechBoss: 首次击败机械三王中最后一位时掉落
+	ProvidenceHallow:
+		'''
+		当亵渎天神在神圣召唤时掉落
+		或是当亵渎天神全程在夜晚受击并被击败时掉落
+		'''
+	ProvidenceUnderworld:
+		'''
+		当亵渎天神在地狱召唤时掉落
+		或是当亵渎天神全程在夜晚受击并被击败时掉落
+		'''
+	ProvidenceNight: 仅当亵渎天神全程在夜晚受击并被击败时掉落
+	ProvidenceChallenge:
+		'''
+		当玩家仅使用[i:CalamityMod/ProfanedSoulArtifact]渎魂神物击败亵渎天神时掉落
+		{$Bestiary_ItemDropConditions.IsExpert}
+		'''
+	TrasherKill: 被喂给捣鱼时掉落
+}
+
+// Other conditions
+PotionConfig: 当城镇NPC出售药水配置选项启用时
+HasFlareGun: 手持任意信号枪上位时
+HasRogueArmor: 装备全套盗贼盔甲时
+HasWings: 佩戴任意翅膀时
+InAstral: 身处星辉瘟疫时
+InCrag: 身处硫火之崖时
+InSulph: 身处硫磺海时
+InSunken: 身处沉沦之海时
+InRev: 在复仇模式中
+AlcoholPoison: 当玩家带有酒精中毒减益时
+PostCal: 在灾厄之影被击败后
+PostAureus: 在白金星舰被击败后
+PostPolter: 在噬魂幽花被击败后
+PostOD: 在硫海遗爵被击败后
+PostDoG: 在神明吞噬者被击败后
+PostYharon: 在犽戎被击败后

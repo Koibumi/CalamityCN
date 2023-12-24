@@ -3,127 +3,161 @@ using System.Reflection;
 using System;
 using Terraria.ModLoader;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using Terraria.Localization;
+using Terraria.ModLoader.Core;
 using Hjson;
 using Newtonsoft.Json.Linq;
-using System.IO;
 using System.Text;
-using Terraria.Localization;
-using Terraria.ModLoader.Config;
-using Terraria.ModLoader.Core;
+using Terraria;
 
 namespace CalamityCN.Systems
 {
-    /*TODO
+
     public class LoadHjsonPatch : OnPatcher
     {
-        
-        public override bool AutoLoad => true;
 
-        public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).GetCachedMethod("AutoloadTranslations");
+        public override bool AutoLoad => false;
 
-        public override Delegate Delegate => new Action<AutoloadTranslationsPatch, Mod, Dictionary<string, LocalizedText>>(AutoloadTranslations);
+        public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).GetCachedMethod("LoadTranslations");
 
-        private static void AutoloadTranslations(AutoloadTranslationsPatch orig, Mod mod, Dictionary<string, LocalizedText> modTranslationDictionary)
+        public override Delegate Delegate => new Func<LoadTranslationsPatch, Mod, GameCulture, List<(string key, string value)>>(LoadTranslationsOverride);
+
+        private static List<(string key, string value)> LoadTranslationsOverride(LoadTranslationsPatch orig, Mod mod, GameCulture culture)
         {
-            if (mod.Name != "CalamityCN")
+            if (GetFile(mod) == null)
+                return new List<(string key, string value)>();
+            try
             {
-                orig.Invoke(mod, modTranslationDictionary);
-                return;
-            }
-            foreach (TmodFile.FileEntry translationFile in GetFile(mod))
-            {
-                if (Path.GetExtension(translationFile.Name) == ".hjson")
+                if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Chinese) || mod.Name != nameof(CalamityCN))
+                    return orig.Invoke(mod, culture);
+
+                List<(string, string)> valueTupleList = new List<(string, string)>();
+                foreach (TmodFile.FileEntry entry in GetFile(mod)
+                             .Where<TmodFile.FileEntry>((Func<TmodFile.FileEntry, bool>)(entry =>
+                                 Path.GetExtension(entry.Name) == ".hjson")))
                 {
-                    string pathName = translationFile.Name;
-                    GameCulture culture = FromPathOverride(ref pathName);
-                    using Stream stream = GetFile(mod).GetStream(pathName);
-                    using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
-                    string hjsonString = streamReader.ReadToEnd();
-                    JToken jtoken = JObject.Parse(HjsonValue.Parse(hjsonString).ToString());
-                    Dictionary<string, string> flattened = new Dictionary<string, string>();
-                    foreach (JToken t in jtoken.SelectTokens("$..*"))
+                    (GameCulture culture1, string prefix) = LocalizationLoader.GetCultureAndPrefixFromPath(entry.Name);
+                    if (culture1 == GameCulture.FromCultureName(GameCulture.CultureName.Chinese) &&
+                        culture1 == culture && (!entry.Name.Contains("CalamityMod") || entry.Name.Contains(GetLangIdentifier())))
                     {
-                        if (!t.HasValues)
+                        #region FromDecompile
+                        using (Stream stream = GetFile(mod).GetStream(entry))
                         {
-                            string path = "";
-                            JToken current = t;
-                            for (JToken parent = t.Parent; parent != null; parent = parent.Parent)
+                            using (StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true))
                             {
-                                JProperty property = parent as JProperty;
-                                string text;
-                                if (property == null)
+                                string hjsonString = streamReader.ReadToEnd();
+                                string path2 = Path.Combine(mod.Name, entry.Name).Replace('/', '\\');
+                                if ((typeof(LocalizationLoader)
+                                        .GetField("changedFiles", BindingFlags.Static | BindingFlags.NonPublic)
+                                        .GetValue(null) as HashSet<(string Mod, string fileName)>)
+                                    .Select(x => Path.Join(x.Mod, x.fileName)).Contains(path2))
                                 {
-                                    JArray array = parent as JArray;
-                                    if (array == null)
+                                    string path =
+                                        Path.Combine(
+                                            typeof(Main).Assembly.GetTypes().First(t => t.Name == "ModCompile")
+                                                .GetField("ModSourcePath", BindingFlags.Static | BindingFlags.Public)
+                                                .GetValue(null) as string, path2);
+                                    if (File.Exists(path))
                                     {
-                                        text = path;
+                                        try
+                                        {
+                                            hjsonString = File.ReadAllText(path);
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                        }
                                     }
-                                    else
-                                    {
-                                        text = array.IndexOf(current).ToString() + ((path == string.Empty) ? string.Empty : ("." + path));
-                                    }
-                                }
-                                else
-                                {
-                                    text = property.Name + ((path == string.Empty) ? string.Empty : ("." + path));
                                 }
 
-                                path = text;
-                                current = parent;
+                                string json;
+                                try
+                                {
+                                    json = HjsonValue.Parse(hjsonString).ToString();
+                                }
+                                catch (Exception ex)
+                                {
+                                    throw new Exception(
+                                        "The localization file \"" + entry.Name +
+                                        "\" is malformed and failed to load: ", ex);
+                                }
+
+                                foreach (JToken selectToken in JObject.Parse(json).SelectTokens("$..*"))
+                                {
+                                    if (!selectToken.HasValues &&
+                                        (!(selectToken is JObject jobject) || jobject.Count != 0))
+                                    {
+                                        string str1 = "";
+                                        JToken jtoken = selectToken;
+                                        JToken parent = (JToken)selectToken.Parent;
+                                        while (true)
+                                        {
+                                            string str2;
+                                            switch (parent)
+                                            {
+                                                case null:
+                                                    goto label_23;
+                                                case JProperty jproperty:
+                                                    str2 = jproperty.Name +
+                                                           (str1 == string.Empty ? string.Empty : "." + str1);
+                                                    break;
+                                                case JArray jarray:
+                                                    str2 = jarray.IndexOf(jtoken).ToString() +
+                                                           (str1 == string.Empty ? string.Empty : "." + str1);
+                                                    break;
+                                                default:
+                                                    str2 = str1;
+                                                    break;
+                                            }
+
+                                            str1 = str2;
+                                            jtoken = parent;
+                                            parent = (JToken)parent.Parent;
+                                        }
+
+                                    label_23:
+                                        string str3 = str1.Replace(".$parentVal", "");
+                                        if (!string.IsNullOrWhiteSpace(prefix))
+                                            str3 = prefix + "." + str3;
+                                        valueTupleList.Add((str3, selectToken.ToString()));
+                                    }
+                                }
                             }
-
-                            flattened.Add(path, t.ToString());
                         }
-                    }
-
-                    foreach (KeyValuePair<string, string> keyValuePair in flattened)
-                    {
-                        string text;
-                        string text2;
-                        keyValuePair.Deconstruct(out text, out text2);
-                        string text3 = text;
-                        string value = text2;
-                        string effectiveKey = text3.Replace(".$parentVal", "");
-                        LocalizedText mt;
-                        if (!modTranslationDictionary.TryGetValue(effectiveKey, out mt))
-                        {
-                            //mt = (modTranslationDictionary[effectiveKey] = LocalizationLoader.CreateTranslation(effectiveKey));
-                        }
-
-                        //mt.AddTranslation(culture, value);
+                        #endregion
                     }
                 }
+
+                return valueTupleList;
+            }
+            catch (Exception ex)
+            {
+                ex.Data[(object)nameof(mod)] = (object)mod.Name;
+                throw;
             }
         }
 
-        private delegate void AutoloadTranslationsPatch(Mod mod, Dictionary<string, LocalizedText> modTranslationDictionary);
-
+        private static string GetLangIdentifier()
+        {
+            return CalamityCNConfig.Instance.Lang switch
+            {
+                zhLang.zh => "zhHans",
+                zhLang.hk => "zhHanthk",
+                zhLang.tw => "zhHanttw",
+                _ => "zhHans"
+            };
+        }
         private static TmodFile GetFile(Mod mod) => mod.GetType().GetProperty("File", BindingFlags.Instance | BindingFlags.NonPublic)!.GetValue(mod) as TmodFile;
 
-        private static GameCulture FromPathOverride(ref string path)
-        {
-            if (!path.Contains("Localization/CalamityMod/zh"))
-                //return GameCulture.FromPath(path);
-
-            path = CalamityCNConfig.Instance.Lang switch
-            {
-                zhCNLang.zh => "Localization/CalamityMod/zh-Hans-zh.hjson",
-                zhCNLang.hk => "Localization/CalamityMod/zh-Hant-hk.hjson",
-                zhCNLang.tw => "Localization/CalamityMod/zh-Hant-tw.hjson",
-                _ => path
-            };
-            return GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
-        }
+        private delegate List<(string key, string value)> LoadTranslationsPatch(Mod mod, GameCulture culture);
     }
 
-    public enum zhCNLang
+    public enum zhLang
     {
-        [Label("简体中文")]
         zh,
-        [Label("繁体中文（香港）")]
         hk,
-        [Label("繁体中文（台灣）")]
         tw
     }
-    */
+
 }
