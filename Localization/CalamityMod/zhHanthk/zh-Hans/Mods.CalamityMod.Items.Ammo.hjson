@@ -55,7 +55,7 @@ ElysianArrow: {
 }
 
 EnhancedNanoRound: {
-	DisplayName: 注魔纳米弹
+	DisplayName: 注能纳米弹
 	Tooltip: 击中敌人时会造成困惑减益，并使其在死亡时释放纳米云
 }
 
