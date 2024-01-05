@@ -22,6 +22,11 @@ RecipeGroup: {
 WikiStatus1: "[i:Book] [c/EE4939:备注: Fandom wiki已经不再支持灾厄Mod。] [i:Book]"
 WikiStatus2: "[i:Book] [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:calamity.huijiwiki.com][c/EE4939:!] [i:Book]"
 MusicModReminder: "[i:MusicBoxMartians] [c/71DFF5:还请记得加载灾厄音乐Mod来体验我们的音乐！] [i:MusicBoxMartians]"
+GimmeSwagPlushieCampaign:
+	'''
+
+	[i:GreenPresent] [c/3BE022:限时活动！报名参加灾厄毛绒玩具活动] [c/3989FF:calamitymod.com/plush] [i:GreenPresent]
+	'''
 // Recipe Conditions
 Tier1ArsenalRecipeCondition: 获得沉沦之海原型图
 Tier2ArsenalRecipeCondition: 破译小行星加密原型图
