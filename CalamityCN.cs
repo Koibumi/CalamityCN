@@ -23,7 +23,8 @@ namespace CalamityCN
             ModLoader.TryGetMod("Wikithis", out Mod wikithis);
             if (wikithis != null && !Main.dedServ)
             {
-                wikithis.Call(0, Calamity, "calamity.huijiwiki.com", GameCulture.CultureName.Chinese);
+                wikithis.Call("AddModURL", Calamity, "https://calamity.huijiwiki.com/wiki/{}", GameCulture.CultureName.Chinese);
+                wikithis.Call(0, Calamity, "https://calamity.huijiwiki.com/wiki/{}", GameCulture.CultureName.Chinese);
             }
         }
         public override void Load()

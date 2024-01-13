@@ -29,18 +29,6 @@ namespace CalamityCN
 			}
 		}
 
-		internal static Mod Infernum
-		{
-            get
-            {
-				if(ModLoader.TryGetMod("InfernumMode", out Mod infernum))
-                {
-					return infernum;
-                }
-				return null;
-            }
-        }
-
 		public static bool IsCN
 		{
 			get
