@@ -1,9 +1,9 @@
 displayName = 灾厄Mod-汉化补丁
 author = Kcovin&灾厄维基汉化组
-version = 3.7.1
+version = 3.8.3
 modReferences = CalamityMod
-weakReferences =  CalamityModMusic, InfernumMode, InfernumModeMusic
+weakReferences =  CalamityModMusic
 hideCode = true
-buildIgnore = *.csproj, compile_temp\*, obj\*, bin\*, .vs\*
+buildIgnore = *.csproj, compile_temp\*, obj\*, bin\*, .vs\*. lib\*
 side=client
 translationMod = true

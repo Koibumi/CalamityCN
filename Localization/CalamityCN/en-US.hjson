@@ -6,7 +6,7 @@ Mods: {
 
 				Headers: {
 					Conversion: Conversion between simplified and traditional Chinese
-					CNinfernum: InfernumCN Config
+					
 				}
 
 				Lang: {
@@ -14,10 +14,12 @@ Mods: {
 					Tooltip: Switch between Simplified Chinese - Traditional Chinese (Hong Kong) - Traditional Chinese (Taiwan)
 				}
 
-				InfernumCN: {
-					Label: Special IL
-					Tooltip: Default enabled, If error, close it.
-				}
+			}
+
+			zhLang: {
+				zh.Label: Simplified Chinese
+				hk.Label: Traditional Chinese (Hong Kong)
+				tw.Label: Traditional Chinese (Taiwan)
 			}
 
 			zhLang: {

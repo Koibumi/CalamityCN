@@ -14,10 +14,10 @@ using Terraria;
 
 namespace CalamityCN.Systems
 {
-    
+
     public class LoadHjsonPatch : OnPatcher
     {
-        
+
         public override bool AutoLoad => false;
 
         public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).GetCachedMethod("LoadTranslations");
@@ -116,7 +116,7 @@ namespace CalamityCN.Systems
                                             parent = (JToken)parent.Parent;
                                         }
 
-                                        label_23:
+                                    label_23:
                                         string str3 = str1.Replace(".$parentVal", "");
                                         if (!string.IsNullOrWhiteSpace(prefix))
                                             str3 = prefix + "." + str3;
@@ -159,5 +159,5 @@ namespace CalamityCN.Systems
         hk,
         tw
     }
-    
+
 }

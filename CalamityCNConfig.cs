@@ -1,6 +1,6 @@
-          using System.ComponentModel;
-          using CalamityCN.Systems;
-          using Terraria.ModLoader.Config;
+using System.ComponentModel;
+using CalamityCN.Systems;
+using Terraria.ModLoader.Config;
 
 namespace CalamityCN
 {
@@ -14,14 +14,9 @@ namespace CalamityCN
         {
             Instance = this;
         }
-        
         [ReloadRequired]
         [Header("Conversion")]
         [DefaultValue(zhLang.zh)]
         public zhLang Lang;
-        
-        [ReloadRequired]
-        [Header("CNinfernum")]
-        public bool InfernumCN;
     }
 }
