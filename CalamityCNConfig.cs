@@ -18,6 +18,5 @@ namespace CalamityCN
         [Header("Conversion")]
         [DefaultValue(zhLang.zh)]
         public zhLang Lang;
-
     }
 }
