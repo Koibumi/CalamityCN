@@ -167,7 +167,7 @@ AgedSecurityChest: {
 }
 
 ChargingStationItem: {
-	DisplayName: 充能台
+	DisplayName: 充能站
 	Tooltip:
 		'''
 		使用能源电池以对嘉登造物进行充能

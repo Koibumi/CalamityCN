@@ -16,6 +16,7 @@ namespace CalamityCN
         public CalamityCN() { CalamityCN.Instance = this; base.PreJITFilter = new DisableJIT(); }
         internal static CalamityCN Instance;
         private List<Hook> _onHooks;
+        public DynamicSpriteFont BossIntroScreensFont;
 
         public override void PostSetupContent()
         {

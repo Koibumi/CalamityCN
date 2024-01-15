@@ -688,14 +688,11 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.PowerGlove || item.type == ItemID.TitanGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
                 {
                     tooltips.ReplaceText("10% increased true melee damage", "真近战伤害增加10%");
-                    tooltips.ReplaceText("12% increased melee damage", "近战伤害增加12%");
-                    tooltips.ReplaceText("12% increased melee speed, does not stack with downgrades, does not stack with downgrades", "近战攻速增加12%，该效果不会与其下位合成材料叠加");
                 }
 
                 if (item.type == ItemID.FireGauntlet)
                 {
-                    tooltips.ReplaceText("14% increased melee damage", "近战伤害增加14%");
-                    tooltips.ReplaceText("14% increased melee speed, does not stack with downgrades", "近战攻速增加14%，该效果不会与其下位合成材料叠加");
+                    tooltips.ReplaceText("14% increased melee damage and speed", "近战伤害和攻速增加14%");
                     tooltips.ReplaceText("10% increased true melee damage", "真近战伤害增加10%");
                 }
 
