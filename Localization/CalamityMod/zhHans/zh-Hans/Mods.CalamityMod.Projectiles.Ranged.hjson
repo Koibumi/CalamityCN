@@ -137,7 +137,7 @@ MortarRoundProj.DisplayName: 炮弹
 Nanomachine.DisplayName: 纳米子弹
 NapalmArrowProj.DisplayName: 汽油箭
 NeedlerProj.DisplayName: 针
-NorfleetCannon.DisplayName: 诺弗利特
+NorfleetCannon.DisplayName: 诺法雷
 NorfleetComet.DisplayName: 彗星
 NorfleetExplosion.DisplayName: 爆炸
 NovaChargedShot.DisplayName: 新星冲击波
@@ -180,7 +180,7 @@ RicoshotCoin.DisplayName: 钱币
 RocketFire.DisplayName: 火焰
 RubberMortarRoundProj.DisplayName: 橡胶迫击炮
 SandstormBullet.DisplayName: 沙尘暴
-ScorchedEarthBlast.DisplayName: 炽焦大地
+ScorchedEarthBlast.DisplayName: 焦土
 ScorchedEarthClusterBomb.DisplayName: 集束炸弹
 ScorchedEarthRocket.DisplayName: 火箭
 SeaDragonMuzzleBlast.DisplayName: 海龙火舌
@@ -228,8 +228,8 @@ TerraArrowMain.DisplayName: 泰拉箭
 TerraArrowSplit.DisplayName: 泰拉箭
 TerraBulletMain.DisplayName: 泰拉弹
 TerraBulletSplit.DisplayName: 泰拉子弹
-TerraFire.DisplayName: Terra Fire
-TerraFlare.DisplayName: Terra Flare
+TerraFire.DisplayName: 泰拉耀焰
+TerraFlare.DisplayName: 泰拉璨炎
 TheMaelstromExplosion.DisplayName: 爆炸
 TheMaelstromShark.DisplayName: 猎魂鲨
 ThePackMinissile.DisplayName: 集束迷你火箭
