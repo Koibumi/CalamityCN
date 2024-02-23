@@ -434,7 +434,7 @@ MaulerRelic: {
 }
 
 NuclearTerrorRelic: {
-	DisplayName: 辐射骇兽圣物
+	DisplayName: 辐核骇兽圣物
 	Tooltip: ""
 }
 
