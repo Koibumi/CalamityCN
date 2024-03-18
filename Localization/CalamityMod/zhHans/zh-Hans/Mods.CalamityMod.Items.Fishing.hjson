@@ -73,7 +73,7 @@ CharredLasher: {
 
 CoastalDemonfish: {
 	DisplayName: 海岸恶魔鱼
-	Tooltip: 它的角将诅咒触碰任何它的人
+	Tooltip: 它的角将诅咒任何触碰它的人
 }
 
 CragBullhead: {
