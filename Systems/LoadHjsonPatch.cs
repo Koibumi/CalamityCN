@@ -38,7 +38,7 @@ namespace CalamityCN.Systems
                              .Where<TmodFile.FileEntry>((Func<TmodFile.FileEntry, bool>)(entry =>
                                  Path.GetExtension(entry.Name) == ".hjson")))
                 {
-                    (GameCulture culture1, string prefix) = LocalizationLoader.GetCultureAndPrefixFromPath(entry.Name);
+	                (GameCulture culture1, string prefix) = LocalizationLoader.TryGetCultureAndPrefixFromPath(entry.Name, out culture, out prefix) ? (culture, prefix) : (GameCulture.DefaultCulture, string.Empty);
                     if (culture1 == GameCulture.FromCultureName(GameCulture.CultureName.Chinese) &&
                         culture1 == culture && (!entry.Name.Contains("CalamityMod") || entry.Name.Contains(GetLangIdentifier())))
                     {
