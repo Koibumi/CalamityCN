@@ -512,7 +512,7 @@ ManaRose: {
 
 Miasma: {
 	DisplayName: 瘴气
-	Tooltip: 释放出静止不动并在一段时间后爆炸的气体云
+	Tooltip: 发射一团瘴气云，命中敌人后会减速
 }
 
 Mistlestorm: {

@@ -19,9 +19,5 @@ namespace CalamityCN
         [Header("Conversion")]
         [DefaultValue(zhLang.zh)]
         public zhLang Lang;
-        
-        [ReloadRequired]
-        [Header("CNinfernum")]
-        public bool InfernumCN;
     }
 }

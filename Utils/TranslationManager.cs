@@ -1,5 +1,4 @@
-﻿using CalamityCN.Translations.InfernumMode;
-using CalamityCN.Translations.Patch;
+﻿using CalamityCN.Translations.Patch;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -18,10 +17,6 @@ namespace CalamityCN.Utils
                 return;
             };
             BossLoot.Load();
-            if (ModsCall.Infernum != null && CalamityCNConfig.Instance.InfernumCN)
-            {
-                InfernumPatch.Load();
-            }
         }
         public override void Unload()
         {

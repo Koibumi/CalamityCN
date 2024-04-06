@@ -55,7 +55,7 @@ DevourerofGodsBag: {
 }
 
 DraedonBag: {
-	DisplayName: 宝藏保险箱（星流巨械）
+	DisplayName: 宝藏盒（星流巨械）
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
