@@ -719,7 +719,7 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难");
                 }
 
-                if (item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
+                if (item.type == itemID.UltrabrightHelmet || item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
                 {
                     tooltips.ReplaceText("Provides a small amount of light in the abyss", "在深渊中提供少量光照");
                 }
@@ -971,9 +971,15 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Increases damage reduction by 5%", "伤害减免增加5%");
                     tooltips.ReplaceText("10% increased movement speed", "移速增加10%");
                 }
-                if (item.type == ItemID.TinHelmet || item.type == 688 || item.type == 689)
+                if (item.type == 688 || item.type == 689)
                 {
                     tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
+                    tooltips.ReplaceText("+0.5 HP/s life regen", "生命再生增加0.5HP/s");
+                    tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
+                }
+                if (item.type == ItemID.TinHelmet)
+                {
+                    tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加4%");
                     tooltips.ReplaceText("+0.5 HP/s life regen", "生命再生增加0.5HP/s");
                     tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
                 }
@@ -1069,9 +1075,13 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("15% increased minion and ranged damage and 20% chance to not consume ammo", "增加15%召唤和远程伤害,20%几率不消耗弹药");
                 }
-                if (item.type == ItemID.ApprenticeAltHead || item.type == 3875 || item.type == 3876)
+                if (item.type == ItemID.ApprenticeAltHead || item.type == 3875)
                 {
                     tooltips.ReplaceText("10% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
+                }
+                if (item.type == ItemID.ApprenticeAltPants)
+                {
+                    tooltips.ReplaceText("10% increased minion damage and magic critical strike chance", "增加10%召唤伤害和魔法暴击率");
                 }
                 #endregion
 
