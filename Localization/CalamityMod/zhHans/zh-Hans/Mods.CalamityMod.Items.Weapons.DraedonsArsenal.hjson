@@ -34,7 +34,7 @@ GaussDagger: {
 	Tooltip:
 		'''
 		切割敌人时会释放涡旋能量撕裂周围的敌人
-		Striking foes envelops them in a damaging magnetic flux
+		暴击时会将敌人包裹在极具破坏性的磁通量中
 		'''
 }
 
@@ -68,7 +68,7 @@ HydraulicVoltCrasher: {
 	Tooltip:
 		'''
 		一种带电的手提钻，在击中时能震慑附近的敌人
-		Press <right> to use without hammering down walls
+		右键使用以避免破坏墙壁
 		[c/1FFBFF:“一种用电冲压金属板并瞬间熔化它们的设备。]
 		[c/1FFBFF:自然也能作为一把毁灭性武器。”]
 		'''
@@ -146,9 +146,9 @@ PulseRifle: {
 	DisplayName: 脉冲步枪
 	Tooltip:
 		'''
-		Fires an enhanced pulse beam that dissipates into 4 high-frequency pulse orbs on hit
-		Pulse orbs aggressively track nearby targets and track faster the more they hit
-		Pulse orb pierce will not decrease when killing enemies or dealing low damage
+		发射一束充能脉冲束，在命中时分裂成四枚高频脉冲球
+		脉冲球会迅速追踪附近目标，并且命中次数越多追踪速度越快
+		脉冲球击杀敌怪或造成伤害过低时不会消耗穿透次数
 		[c/1FFBFF:“我的私人武器，用来清除失败的创造物。]
 		[c/1FFBFF:我已经备份了原件被摧毁时的原型图。”]
 		'''
@@ -227,8 +227,8 @@ TrackingDisk: {
 	Tooltip:
 		'''
 		扔出一个会向周围敌人发射激光的飞盘
-		This disk gains acceleration as it returns to the player
-		Stealth strikes fire lasers at a faster rate and distance, and can fire at multiple different targets
+		飞盘在返回玩家时会获得额外的加速度
+		潜伏攻击会以更高的频率倾泻激光，激光攻击距离更远并且可以同时攻击多个目标
 		'''
 }
 
