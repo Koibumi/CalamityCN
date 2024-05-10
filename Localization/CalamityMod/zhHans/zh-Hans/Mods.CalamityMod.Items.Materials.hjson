@@ -302,7 +302,7 @@ SolarVeil: {
 	Tooltip: 没有任何一缕阳光能够穿透这块布料的纤维
 }
 
-Starblight Soot: {
+StarblightSoot: {
 	DisplayName: Starblight Soot
 	Tooltip: ""
 }
