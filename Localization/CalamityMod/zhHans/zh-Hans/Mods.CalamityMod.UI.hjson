@@ -190,7 +190,7 @@ Communication: {
 			'''
 			我最初的记忆，是在1227年11月19日于一间遥远的实验室中醒来，距今已有6个世纪之久。我周围除了广袤的针叶林外一无所有，唯一陪伴我的只有一个死去的有机体。\n
 
-			据推测，我由实验室的前居住者所创造，但我并不清楚他们是如何完成这一壮举的。从我收集到的信息来看，他们和我不一样，都是声名显赫的发明家。他们的身体上附着了一些小玩意儿，推测是他们自己制造的，而实验室里的设备比我后来在世界其他地方发现的任何设备都要先进。\n
+			据推测，我由实验室的前居住者所创造，但我并不清楚他们是如何完成这一壮举的。从我收集到的信息来看，他们和我一样，都是声名显赫的发明家。他们的身体上附着了一些小玩意儿，推测是他们自己制造的，而实验室里的设备比我后来在世界其他地方发现的任何设备都要先进。\n
 
 			我对开机之前发生的事毫无印象，但从一开始，我就知道自己的目标是什么：创造与科学进步。为了确保不断进步，我用了很多年优化与建设实验室，以及我自己。\n
 
@@ -224,13 +224,13 @@ Communication: {
 		Inquiry: Your Goals
 		Response:
 			'''
-			My goal has been and always will be the advancement of science and technology. I will continue until I am eliminated or I reach the universe's scientific ceiling. Even if I have shattered limits before, there is bound to be a point at which nothing more can be done to advance. I find it unlikely I will ever reach this point.\n
+			我的目标向来只是推动科技进步。我会继续下去直至死亡，或是触及这个宇宙的科技天花板。即使我曾经确实超越过极限，也一定存在一个无法再前进的阶段。我觉得自己不太可能达到那个点。\n
 
-			You may have intended to ask of more specific long-term objectives. I currently aim to observe the world with a far more open mind than I once had, so that I may find further inspiration for new works. Even long after my activation and after meticulously surveying large portions of Terraria, there is much that I still do not comprehend.\n
+			你可能想问的是我更为具体的长期目标。我目前的目标是用比以往更加开放的心态观察这个世界，以便为新造物寻找更多灵感。即使在我开机之后的很长一段时间，在对泰拉瑞亚的大部分区域进行了细致的调查以后，我仍然有许多无法理解的地方。\n
 
-			Once I have a firm grasp of the vast majority of this world's workings, I will focus my study on the Astral Infection's effects in hopes of finding a way to negate them permanently. When present on a planet, one simply could use a Clentaminator and the correct solution to remove the Astral Infection. In the vacuum of space, however, it makes for an irksome and tenacious obstacle. Ventures beyond Terraria would require preparation and appropriate countermeasures.\n
+			一旦我牢牢掌握了这个世界的绝大部分运作规则，我就会把研究重点放在星辉瘟疫的影响上，以期找到永久消除这种影响的方法。在星球上，只需简单使用环境改造枪和正确的溶液就能清除星辉瘟疫。但在空虚的宇宙中，这些顽固障碍相当令人生厌。在泰拉瑞亚之外的地方穿梭需要十足的准备和适当的对策。\n
 
-			In contrast, I will present a short-term goal: I wish to begin harvesting minerals from this world's moon. With the husk of the cosmic titan culled, I plan to begin experiments with wireless spatial linkage. The teleporters you are familiar with must be wired and are thus unsuitable for interplanetary distances. Scalable logistical means for instantaneous transport will be paramount in harvesting and ferrying materials beyond Terraria when this world becomes unsuitable for my needs. To be clear, I do not wish to see this world devastated and have no intentions of ruining it.
+			相比之下，我还有一个短期目标：我想开始采掘这颗星球卫星上的矿物。既然星间巨兽已殁，我打算用无线空间链接进行实验。你所熟悉的传送器必须使用电线连接，这不适合星际级距离的传输。如果泰拉瑞亚不再能满足我的需求，可扩展的后勤手段会是在这个世界之外收获和运输材料的首要条件。必须澄清，我无意看到这个世界被破坏，也无意亲手毁掉它。
 			'''
 	}
 
@@ -238,21 +238,21 @@ Communication: {
 		Inquiry: The Exo Mechanical Trio
 		Response:
 			'''
-			The zenith of my craft. The culmination of all I have ever accomplished. The result of over six hundred sixty years of research and scientific advancement. They are my magnum opus; a work of art. Simply calling them war machines would be an insult not just to me, but to them.\n
+			这是我工艺的巅峰，是我过往一切成就的顶点，是超过六百六十年以来研究与科学的进步。它们是我的代表作，是艺术品。简单称呼它们为战争机械，于我，于它们，都是一种侮辱。\n
 
-			Ares was the first to begin construction. Its early models, XF-00 through XF-05, were developed primarily to find the most efficient combination of weapons for it to wield. While some were more deadly in and of themselves, particularly those featuring projected hard-light melee peripherals in place of its laser and plasma cannons, it was clear that they did not synergize well with their brethren. Its current arms maximize its threat level when deployed alongside them.\n
+			第一个开始建造的是阿瑞斯。它的早期型号，XF-00到XF-05，都主要是为了找出最佳武器搭配而开发的。尽管有些武器——特别是使用投射强光近战外围设备代替激光和离子加农的那些——本身更具有杀伤力，很明显它们并不能与其它武器协同运作。只有它当前的武器能在部署后将其威胁等级最大化。\n
 
-			The second to be drafted was Thanatos. I took advantage of the size of the chassis and potent propulsion systems to add nigh impenetrable armor and innumerable pulsed laser turrets. Few would be capable of learning its weakness before meeting their demise.\n
+			第二个投入设计的是塔纳托斯。我利用底盘的尺寸和强大的推进系统，增加了近乎坚不可摧的装甲和无数的脉冲激光炮塔。鲜有人能在死亡前知晓它的弱点。\n
 
-			I forged its armor using a process inspired by how Silva created Braelor's axe: by using particle jets to slowly and carefully fuse many elements together into a nanocomposite, the invincible armor organically "grows" over Thanatos' structure like a chrysalis. Regrettably, the plating's immense weight makes Thanatos notably slower than its siblings.\n
+			我受到席尔瓦制造布瑞莱尔战斧的启发，使用类似的方式锻造了它的盔甲：通过使用粒子喷射器谨慎地将多种元素融合成纳米复合材料，无敌的装甲就像蛹一样有机地“生长”在塔纳托斯的结构上。遗憾的是，这层装甲的巨大重量让塔纳托斯的速度明显慢于其它巨械。\n
 
-			When designing the third, Apollo, my goal was to downscale significantly; to make something powerful, yet compact. Reviewing the most compact forms of destructive potential I knew, I elected to simulate the Witch's flames.\n
+			设计第三台巨械阿波罗的时候，我的目标是大规模缩减幅度，创造出强大但精巧的存在。在回顾了我所知的最为精巧的毁灭之物后，我决定模仿那名女巫的火焰。\n
 			                     
-			Apollo's searing exoplasma is fueled by unstable nanomachines that constantly shed a deluge of ultra high energy particles. This both heats the plasma to incredible temperatures and causes radiation burns of a severity on par with those inflicted by the Witch. The craft had little capability beyond its nanomachine plasma projector, but there was no worry. Apollo was never meant to fight alone.\n
+			阿波罗灼热的星流离子中充满了不稳定的纳米机器，它们不断散射出超高能粒子洪流。这既能将等离子体加热到令人难以置信的温度，又能造成与“女巫”不相上下的严重辐射灼伤。这台巨械除了纳米机械等离子体投射器外几乎没有其他能力，但无需担心。阿波罗从来就不是单打独斗。\n
 
-			The final to begin construction was Artemis. Rather than being founded on raw power, it was made to be the apex of speed and accuracy. There is elegance in simplicity, for all of Artemis' combat efficacy comes from an onboard predictive AI and a battery of hard-light bolt emitters.\n
+			最后制造的是阿尔忒弥斯。它并非是为了纯粹的火力而建造，而是为了拥有最顶尖的速度与准确性。阿尔忒弥斯所有的战斗效能均源自它的舰载预测AI和一组强光矢发射器。\n
 
-			It was the perfect partner to its twin and required no revisions. Organic beings are naturally inclined to fixate their senses on fire, presenting Artemis with the perfect opportunity to strike with unparalleled precision.
+			这对双子是完美的搭档，无需任何测试。有机生物天然会将注意力关注在火焰上，这也就为阿尔忒弥斯以无可匹敌的精准度进行打击创造了机会。
 			'''
 	}
 
@@ -260,17 +260,17 @@ Communication: {
 		Inquiry: What is Exotech?
 		Response:
 			'''
-			Exotechnology is my greatest scientific advancement, unlocking a new echelon of potential in my machinery. The iteration you are most familiar with, the Exo Prisms, took a great deal of time to perfect. My focused efforts on this power source have been met with immense reward, one that has yet to be fully realized.\n
+			星流技术是我最伟大的科学进步，让我的机器工艺上了一个全新的台阶。你最为熟悉的迭代，星流棱晶，让我用了好长时间进行完善。我在这种能量源的研究上取得了巨大的成果，这些成果我至今也尚未全部利用完毕。\n
 
-			The basis of exotechnology stems from my own neural interface, which serves as a synthetic replacement for the brain cells of organic life. Exotechnology is predicated on a modular implementation of this synthetic intelligence, which enables communication and interfacing with any conceivable form of technology. Instructions and information are processed at lightspeed in a distributed fashion, not unlike a cerebral network taken to its theoretical extreme.\n
+			星流技术的核心基础源于我的神经接口，这些合成物发挥着和有机生命体的大脑细胞一样的作用。星流技术的基础便是这种合成智能的模块化执行，它可以与任何你能想象到的技术形式进行通信和接入。指令和信息以分布式的方式进行光速处理，这与理论上能达到极致的大脑网络并无二致。\n
 
-			Peerless computation density does not come without a price. My prototype models consumed absurd amounts of energy and could not be meaningfully integrated into any system without a limitless source of power. After experimentation with a plethora of different candidates failed to bring results, I chose to approach the problem of limitless power more directly.\n
+			无与伦比的计算密度并非没有代价。我的原型设计耗能惊人，如果没有无限的能源支持就无法与任何系统集成。在尝试了大量不同的候选方案都没有结果之后，我选择更直接地解决无限动力的问题。\n
 
-			The Ilmeran crystals that you know as "Sea Prisms" are self-illuminating and provide a weak electric charge indefinitely, even when tapped by circuitry. Etching the crystals with conduction pathways at the molecular level and providing an initial energy impulse, not unlike igniting a newborn star, transforms them into a facsimile of the Exo Prisms you are familiar with.\n
+			伊尔梅兰水晶，也就是你所熟知的“海棱晶”，就算安装在一个电路系统中，可以自发光并产生有限的微弱电能。在分子层面蚀刻晶体使其具有传导通路，然后点燃一颗新生恒星一样为其提供初始能量脉冲，最终将其转化为你们所熟悉的“星流棱晶”的副本。\n
 
-			Exo Prisms emit a self-sustaining resonance of particles that is unlike any other phenomena I have observed. I dubbed this Exotic Resonance, and it is the breakthrough that the rest of exotechnology is named for. Exotic resonance remains present no matter how much energy is drawn from it, amplifying the intrinsic properties of the Sea Prisms far beyond my expectations. The sheer abundance of energy produced via exotic resonance allows a sufficient quantity of Exo Prisms to power any device, no matter the size or complexity.\n
+			星流棱晶会发出一种自维持的粒子共振，这与我观察到的任何其他现象都不同。我将其称为星流共振，星流技术的其它部分就是以这一突破命名的。无论抽离了多少能量，星流共振总是保持不变，放大海棱晶的内在特性取得的效果远远超出了我的预期。通过星流共振产生的能量非常丰富，足够数量的星流棱晶可以为任何设备提供动力，无论其大小或复杂程度如何。\n
 
-			You will find my modern Exo Prisms easy to work with when using my forge, and should have no issues using their power to vastly enhance your armaments. If you are concerned about my harvesting of Sea Prisms from Ilmeris, do remember that you found the largest ever cohesive gem unharmed in my laboratory. Artificially growing equivalent crystals allows me to manufacture pure, flawless Exo Prisms en masse, which provide much more stable power output. I have no need to strip mine the sea kingdom to meet my exponentially rising energy budget.
+			你会发现我现行的星流棱晶在使用我的锻炉的情况下很容易加工，用它们的力量大幅强化的你的装备应该没有问题。如果你对我在伊尔梅里斯的海棱晶开采感到担忧，别忘了你在我的实验室里找到了一颗有史以来最大的凝聚晶体。通过人工培育相同的晶体，我可以大规模制造纯净无瑕的星流棱晶，从而提供更加稳定的能量输出。我不需要对海洋王国掘地三尺就能满足成倍增长的能源预算。
 			'''
 	}
 
