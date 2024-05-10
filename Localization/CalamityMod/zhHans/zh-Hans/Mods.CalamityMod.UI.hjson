@@ -31,8 +31,8 @@ ChangingTheRules: "[c/919191:你现在无法改变规则]"
 NoDifficulty: 无
 NoDifficultyInfo: 没有开启任何灾厄难度的泰拉之旅
 Revengeance: 复仇
-RevMaster: Rev+Master
-RevLegend: Rev+Legend
+RevMaster: 复仇+大师
+RevLegend: 复仇+传奇
 RevengeanceEnabled: Revengeance Mode is enabled
 RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！]"
 RevengeanceExpandedInfo:
@@ -48,8 +48,8 @@ RevengeanceExpandedInfo:
 RevengeanceActivate: 复仇模式已开启。
 RevengeanceDeactivate: 复仇模式已关闭
 Death: 死亡
-DeathMaster: Death+Master
-DeathLegend: Death+Legend
+DeathMaster: 死亡+大师
+DeathLegend: 死亡+传奇
 DeathEnabled: Death Mode is enabled
 DeathShortInfo: "[c/C82DF7:对更有经验的，想复仇模式更进一步的玩家的更强挑战]"
 DeathExpandedInfo:
@@ -134,7 +134,7 @@ Cost: 花费：
 Contact: 联络
 Summon: 召唤
 Evoke: 唤醒
-Exit: Exit
+Exit: 退出
 Communicate: 对话
 ConfirmationText: 你确定么？
 UpgradesRequired: 解密失败：需升级密码破译器。
@@ -142,7 +142,7 @@ ThanatosIcon: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关
 AresIcon: 阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。
 ArtemisApolloIcon: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。
 
-// Debuff System
+// Debuff系统
 DebuffSystem: {
 	Title: Debuff Resistances
 	Description: NPCs take increased or decreased damage from certain debuff types
