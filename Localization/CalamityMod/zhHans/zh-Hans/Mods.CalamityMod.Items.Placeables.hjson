@@ -1398,62 +1398,62 @@ SmoothBrimstoneSlag: {
 }
 
 ActivatedAuricPanel: {
-	DisplayName: Activated Auric Panel
+	DisplayName: 激活的金源面板
 	Tooltip: ""
 }
 
 AuricAbsorber: {
-	DisplayName: Auric Absorber
+	DisplayName: 金源精华块
 	Tooltip: ""
 }
 
 AuricConsole: {
-	DisplayName: Auric Console
+	DisplayName: 金源控制台
 	Tooltip: ""
 }
 
 AuricDisplay: {
-	DisplayName: Auric Display
+	DisplayName: 金源展柜
 	Tooltip: ""
 }
 
 AuricPanel: {
-	DisplayName: Auric Panel
+	DisplayName: 金源面板
 	Tooltip: ""
 }
 
 AuricPlatform: {
-	DisplayName: Auric Platform
+	DisplayName: 金源平台
 	Tooltip: ""
 }
 
 AuricReinforcedCrate: {
-	DisplayName: Auric Reinforced Crate
+	DisplayName: 金源加固匣
 	Tooltip: ""
 }
 
 AuricRepulserPanel: {
-	DisplayName: Auric Repulser Panel
-	Tooltip: Repels players that come in contact with it
+	DisplayName: 失效的金源面板
+	Tooltip: 击退与其接触的玩家
 }
 
 AuricScreen: {
-	DisplayName: Auric Screen
+	DisplayName: 金源荧幕
 	Tooltip: ""
 }
 
 AuricServer: {
-	DisplayName: Auric Server
+	DisplayName: 金源服务器
 	Tooltip: ""
 }
 
 AuricTerminal: {
-	DisplayName: Auric Terminal
+	DisplayName: 金源终端
 	Tooltip: ""
 }
 
 ExoAuricPanel: {
-	DisplayName: Exo-Auric Panel
+	DisplayName: 星流-金源面板
 	Tooltip: ""
 }
 
