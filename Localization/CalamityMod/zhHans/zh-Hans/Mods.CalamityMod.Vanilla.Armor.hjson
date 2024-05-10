@@ -31,9 +31,9 @@ SetBonus: {
 	Copper: 所有伤害增加2点
 	Crimson:
 		'''
-		Greatly increased natural life regen
-		Life regen is further increased the longer you avoid taking damage
-		Standing still also greatly amplifies life regen
+		大幅提升生命再生
+		当你长时间未受到伤害后，生命再生速度会再次提升
+		静立不动同样会大幅提升生命再生
 		'''
 	Eskimo:
 		'''
@@ -63,19 +63,19 @@ SetBonus: {
 		所受伤害减少6%
 		+1HP/s生命再生
 		'''
-	Jungle: 10% reduced mana costs
+	Jungle: 减少10%魔力消耗
 	Lead:
 		'''
 		所受伤害减少4%
 		+0.5HP/s生命再生
 		免疫击退
 		'''
-	Meteor: All magic guns cost 33% mana
+	Meteor: 所有魔法枪只消耗33%魔力
 	Mining: 开采矿石有几率获得额外收益
 	Molten:
 		'''
-		7% extra melee damage, cannot be set on fire
-		10% extra true melee damage
+		增加7%近战伤害，且不会着火
+		增加10%真近战伤害
 		免疫火块和短暂免疫岩浆
 		'''
 	MonkTier2:
@@ -99,12 +99,12 @@ SetBonus: {
 		仆从的伤害提高15%
 		免疫火块和短暂免疫岩浆
 		'''
-	PlatinumChainmail: 3% increased critical strike chance
+	PlatinumChainmail: 提高3%暴击率
 	Platinum:
 		'''
-		Every 10 extra defense gives you 1% increased damage and 1% increased critical strike chance
-		The 20 defense from the Platinum Armor itself does not contribute to this effect
-		Bonus damage and critical strike chance cap at 40 extra defense
+		每额外10点防御将提高1%的伤害和1%的暴击率
+		铂金套本身所有的20点防御不计入此效果
+		对伤害和暴击率的加成上限为40点防御
 		'''
 	Silver:
 		'''
@@ -120,8 +120,8 @@ SetBonus: {
 		提高33%的所有击退效果，该击退增益效果包含在上述加成之中
 		当前加成：{0}%的暴击率来自{1}的击退效果
 		'''
-	MagicHat: Increases maximum mana by 40
-	Wizard: 4% increased magic critical strike chance
+	MagicHat: 最大魔力值增加40
+	Wizard: 增加4%魔法暴击率
 	CrystalAssassin:
 		'''
 		获得冲刺能力
@@ -131,7 +131,7 @@ SetBonus: {
 		'''
 		增加生命再生速度
 		增加15%召唤伤害和10%近战暴击率
-		Negates the summon damage penalty while wielding non-summon weapons
+		手持非召唤武器时，无视召唤伤害惩罚
 		'''
 	HuntressTier2: 增加10%召唤和远程伤害
 	ApprenticeTier2: 增加5%召唤伤害和15%魔法暴击率
@@ -149,7 +149,7 @@ SetBonus: {
 	ApprenticeTier3: 增加10%召唤伤害和15%魔法暴击率
 	SpectreHealing:
 		'''
-		Converts magic damage to healing force
+		将魔法伤害转化为治疗能量
 		对敌人造成的魔法伤害将治疗生命值最低的玩家
 		'''
 }
