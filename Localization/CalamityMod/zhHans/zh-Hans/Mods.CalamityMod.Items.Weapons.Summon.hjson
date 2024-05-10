@@ -151,7 +151,6 @@ CindersOfLament: {
 		路径上的敌怪和玩家都会受到伤害
 		[c/c61b40:“女巫是罪人，自己的罪人，她将自己拖入无尽的因果苦海。]
 		[c/c61b40:念想中的恶魔一直安静着，等待着，直到终结。”]
-
 		'''
 }
 
@@ -561,7 +560,7 @@ RustyBeaconPrototype: {
 	Tooltip:
 		'''
 		召唤一架废弃已久的无人机来支援你
-		The drone hovers in place and releases toxic waves that irradiate hit enemies
+		无人机会在指定地点徘徊并释放会造成辐射减益的剧毒波
 		'''
 }
 
@@ -589,11 +588,6 @@ SarosPossession: {
 ScabRipper: {
 	DisplayName: 疤痕撕裂者
 	Tooltip: 召唤血腥爬虫宝宝来保护你
-}
-
-SeaboundStaff: {
-	DisplayName: 海星召唤杖
-	Tooltip: 召唤脆弱海星为你而战
 }
 
 ShellfishStaff: {
@@ -826,13 +820,13 @@ MutatedTruffle: {
 }
 
 HarvestStaff: {
-	DisplayName: Harvest Staff
+	DisplayName: 丰收
 	Tooltip:
 		'''
-		Grows a pumpkin patch that sprouts pumpkins nearby
-		Pumpkins will hop out when approached by nearby creatures or players
-		Once out, they will aggressively tackle enemies, exploding on hit
-		'No thoughts behind those eyes'
+		种下一片南瓜地，在附近长出南瓜
+		生物或玩家接近时南瓜会蹦出来
+		一旦南瓜蹦了出来，它便会积极地阻截敌人，在撞击敌人时爆炸
+		“眼中没有任何想法”
 		'''
 }
 
@@ -840,8 +834,8 @@ LiliesOfFinality: {
 	DisplayName: Lilies of Finality
 	Tooltip:
 		'''
-		Requires 2 minion slots to use
-		Can only be summoned once
-		'Wake up'
+		需要2个仆从栏才能使用
+		只能召唤一次
+		“苏醒”
 		'''
 }
