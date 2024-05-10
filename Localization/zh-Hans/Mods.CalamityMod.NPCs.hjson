@@ -1,0 +1,625 @@
+BabyCannonballJellyfish.DisplayName: 小炮弹水母
+Bloatfish.DisplayName: 肿胀翻车鱼
+BobbitWormHead.DisplayName: 博比特虫
+BoxJellyfish.DisplayName: 灯水母
+CannonballJellyfish.DisplayName: 炮弹水母
+ChaoticPuffer.DisplayName: 混乱刺鲀
+ColossalSquid.DisplayName: 巨像乌贼
+TinySquid: 小乌贼
+Cuttlefish.DisplayName: 红乌贼
+DevilFish.DisplayName: 魔鬼鱼
+DevilFishAlt.DisplayName: 魔鬼鱼
+EidolonWyrmHead.DisplayName: 幻海妖龙
+GiantSquid.DisplayName: 巨大乌贼
+GulperEelHead.DisplayName: 大嘴鳗
+Laserfish.DisplayName: 激光鱼
+LuminousCorvina.DisplayName: 流光石首鱼
+MirageJelly.DisplayName: 幻海水母
+MorayEel.DisplayName: 海鳝
+OarfishHead.DisplayName: 桨鱼
+ReaperShark.DisplayName: 猎魂鲨
+SlabCrab.DisplayName: Slab Crab
+ToxicMinnow.DisplayName: 剧毒米诺鱼
+Viperfish.DisplayName: 蝰蛇鱼
+AcidEel.DisplayName: 酸水鳗
+BabyFlakCrab.DisplayName: 小高口蟹
+BloodwormNormal.DisplayName: 血蠕虫
+CragmawMire.DisplayName: 峭咽潭
+FlakCrab.DisplayName: 高口蟹
+GammaSlime.DisplayName: 伽马史莱姆
+IrradiatedSlime.DisplayName: 辐射史莱姆
+Mauler.DisplayName: 渊海狂鲨
+NuclearTerror.DisplayName: 辐核骇兽
+NuclearToad.DisplayName: 辐核蟾蜍
+Orthocera.DisplayName: 直角石
+Radiator.DisplayName: 辐射海蛞蝓
+Skyfin.DisplayName: 天鳍鱼
+SulphurousSkater.DisplayName: 硫海爬虫
+Trilobite.DisplayName: 三叶虫
+AquaticScourgeHead.DisplayName: 渊海灾虫
+Aries.DisplayName: 白羊座
+AstralachneaGround.DisplayName: 星幻蛛
+AstralProbe.DisplayName: 幻星探测器
+AstralSeekerSpit.DisplayName: 跟踪液
+AstralSlime.DisplayName: 幻星史莱姆
+Atlas.DisplayName: 擎星者
+FusionFeeder.DisplayName: 融食鲨
+Hadarian.DisplayName: 哈达尔星鹫
+HiveEnemy.DisplayName: 星幻巢
+Hiveling.DisplayName: 星幻蜂
+Mantis.DisplayName: 星幻螳螂
+Nova.DisplayName: 新星
+SightseerCollider.DisplayName: 对撞观星眼
+SightseerSpitter.DisplayName: 射能观星眼
+StellarCulex.DisplayName: 星幻蚊
+Twinkler.DisplayName: 星幻萤火虫
+AstrumAureus.DisplayName: 白金星舰
+AureusSpawn.DisplayName: 小白星
+AstrumDeusHead.DisplayName: 星神游龙
+Brimling.DisplayName: 小硫火灵
+BrimstoneElemental.DisplayName: 硫磺火元素
+Bumblebirb: 癫痫鸟
+Bumblefuck.DisplayName: 痴愚金龙
+Bumblefuck2.DisplayName: 癫狂龙裔
+CalamitasClone.DisplayName: 灾厄之影
+Cataclysm.DisplayName: 灾祸构造体
+Catastrophe.DisplayName: 灾难构造体
+SoulSeeker.DisplayName: 探魂者
+CeaselessVoid.DisplayName: 无尽虚空
+DarkEnergy.DisplayName: 暗能量
+CrabShroom.DisplayName: 真菌孢子
+Crabulon.DisplayName: 菌生蟹
+CalamityEye.DisplayName: 灾厄眼
+RenegadeWarlock.DisplayName: 叛徒术士
+DespairStone.DisplayName: 绝望之石
+HeatSpirit.DisplayName: 热能之魂
+InfernalCongealment.DisplayName: 狱火凝结物
+Scryllar.DisplayName: 殒命妖灵
+ScryllarRage.DisplayName: 殒命妖灵
+SoulSlurper.DisplayName: 灵魂饮食者
+Cryogen.DisplayName: 极地之灵
+Pyrogen: 赤道之灵
+CryogenShield.DisplayName: 冰川护盾
+PyrogenShield: 赤道护盾
+DesertNuisanceHead.DisplayName: 黄沙恶虫
+DesertNuisanceHeadYoung.DisplayName: Desert Nuisance
+DesertScourgeHead.DisplayName: 荒漠灾虫
+CosmicGuardianHead.DisplayName: 星宇护卫
+DevourerofGodsHead.DisplayName: 神明吞噬者
+Androomba.DisplayName: 仙女座扫除机
+Nanodroid.DisplayName: 纳米机器人
+RepairUnitCritter.DisplayName: 修复机器人
+
+Apollo: {
+	DisplayName: XS-03 “阿波罗”
+	HekateName: XB-∞ “赫卡忒”的腐蚀之眼
+}
+
+AresBody: {
+	DisplayName: XF-09 “阿瑞斯”
+	HekateName: XB-∞ “赫卡忒”
+}
+
+AresGaussNuke: {
+	DisplayName: XF-09 “阿瑞斯”高斯核弹发射井
+	HekateName: XB-∞ “赫卡忒”高斯核弹发射井
+}
+
+AresLaserCannon: {
+	DisplayName: XF-09 “阿瑞斯”镭射加农炮
+	HekateName: XB-∞ “赫卡忒”镭射加农炮
+}
+
+AresPlasmaFlamethrower: {
+	DisplayName: XF-09 “阿瑞斯”离子加农炮
+	HekateName: XB-∞ “赫卡忒”离子加农炮
+}
+
+AresTeslaCannon: {
+	DisplayName: XF-09 “阿瑞斯”特斯拉加农炮
+	HekateName: XB-∞ “赫卡忒”特斯拉加农炮
+}
+
+Artemis: {
+	DisplayName: XS-01 “阿尔忒弥斯”
+	HekateName: XB-∞ “赫卡忒”的灼烧之眼
+}
+
+Draedon.DisplayName: 嘉登
+
+ThanatosHead: {
+	DisplayName: XM-05 “塔纳托斯”
+	HekateName: XB-∞ “赫卡忒”的脊柱
+}
+
+GreatSandShark.DisplayName: 旱海狂鲨
+DankCreeper.DisplayName: 沼泽之眼
+DarkHeart.DisplayName: 暗之心
+HiveBlob.DisplayName: 腐化球
+HiveMind.DisplayName: 腐巢意志
+HiveTumor.DisplayName: 腐化肿瘤
+Anahita.DisplayName: 阿娜希塔
+AnahitasIceShield.DisplayName: 冰护盾
+AquaticAberration.DisplayName: 深海吞食者
+Leviathan.DisplayName: 利维坦
+LeviathanStart.DisplayName: ？？？
+AeroSlime.DisplayName: 天蓝史莱姆
+ArmoredDiggerHead.DisplayName: 装甲掘地虫
+MechanizedSerpent: 机械巨蟒
+AuroraSpirit.DisplayName: 极光之灵
+BloodlettingServant.DisplayName: Bloodletting Servant
+BloomSlime.DisplayName: 龙蒿史莱姆
+Bohldohr.DisplayName: 神庙滚石
+Cnidrion.DisplayName: 卧龙海马
+CrawlerAmber.DisplayName: 琥珀爬虫
+CrawlerAmethyst.DisplayName: 紫水晶爬虫
+CrawlerCrystal.DisplayName: 水晶爬虫
+CrawlerDiamond.DisplayName: 钻石爬虫
+CrawlerEmerald.DisplayName: 绿宝石爬虫
+CrawlerRuby.DisplayName: 红宝石爬虫
+CrawlerSapphire.DisplayName: 蓝宝石爬虫
+CrawlerTopaz.DisplayName: 黄玉爬虫
+CrimulanBlightSlime.DisplayName: 血腥枯萎史莱姆
+Cryon.DisplayName: 冰人
+CryoSlime.DisplayName: 寒元史莱姆
+EbonianBlightSlime.DisplayName: 黑檀枯萎史莱姆
+Eidolist.DisplayName: 幻妖灵巫
+FearlessGoldfishWarrior.DisplayName: 无畏金鱼战士
+Frogfish.DisplayName: 躄鱼
+Horse.DisplayName: 大地元素
+IceClasper.DisplayName: 食魂冰虫
+ImpiousImmolator.DisplayName: 亵渎献祭者
+KingSlimeJewel.DisplayName: 王冠宝石
+KingSlimeJewel2.DisplayName: Sapphire Jewel
+KingSlimeJewel3.DisplayName: Emerald Jewel
+LavaSlimeNoLavaDrop.DisplayName: Lava Slime
+MantisShrimp.DisplayName: 螳螂虾
+OverloadedSoldier.DisplayName: 过载装甲骷髅
+PerennialSlime.DisplayName: 永恒史莱姆
+PhantomSpirit.DisplayName: 幻影幽灵
+Piggy.DisplayName: 小猪猪
+PlanterasFreeTentacle.DisplayName: 世纪之花触手
+ProfanedEnergyBody.DisplayName: 亵渎能量
+Rimehound.DisplayName: 雾凇猎犬
+Rotdog.DisplayName: 血犬
+ScornEater.DisplayName: 吞食魔
+SeaUrchin.DisplayName: 海胆
+ShockstormShuttle.DisplayName: 风暴飞碟
+SkeletronPrime2.DisplayName: Skeletron Prime
+Stormlion.DisplayName: 风暴蚁狮
+Sunskater.DisplayName: 寻阳鱼
+SuperDummyNPC.DisplayName: 大草人
+ThiccWaifu.DisplayName: 雨云元素
+WildBumblefuck.DisplayName: 癫狂龙裔
+WulfrumAmplifier.DisplayName: 钨钢增幅器
+WulfrumDrone.DisplayName: 钨钢无人机
+WulfrumGyrator.DisplayName: 钨钢回转器
+WulfrumHovercraft.DisplayName: 钨钢悬浮坦克
+WulfrumRover.DisplayName: 钨钢漫步者
+OldDuke.DisplayName: 硫海遗爵
+BoomerDuke: 老核弹
+OldDukeToothBall.DisplayName: 鲨牙刺球
+SulphurousSharkron.DisplayName: 硫海龙鲨
+CalamitasEnchantDemon.DisplayName: 恶魔
+DemonPortal.DisplayName: 神秘传送门
+ExhumedHeart.DisplayName: 死灵硫火心
+LecherousOrb.DisplayName: 淫欲之眼
+THELORDE.DisplayName: THE LORDE
+PerforatorCyst.DisplayName: 血肉囊
+PerforatorHeadLarge.DisplayName: 血肉寄生者
+PerforatorLarge: 大型血肉寄生者
+PerforatorHeadMedium.DisplayName: 血肉寄生者
+PerforatorMedium: 中型血肉寄生者
+PerforatorHeadSmall.DisplayName: 血肉寄生者
+PerforatorSmall: 小型血肉寄生者
+PerforatorHive.DisplayName: 血肉宿主
+PlaguebringerGoliath.DisplayName: 瘟疫使者歌莉娅
+PlagueHomingMissile.DisplayName: 制导瘟疫飞弹
+PlagueMine.DisplayName: 瘟疫之雷
+Melter.DisplayName: 蚀化者
+PestilentSlime.DisplayName: 疫病史莱姆
+PlaguebringerMiniboss.DisplayName: 瘟疫使者
+PlagueCharger.DisplayName: 瘟疫蜜蜂
+Plagueshell.DisplayName: 瘟疫龟
+Viruling.DisplayName: 毒飞虫
+PhantomFuckYou.DisplayName: 幽花之灵
+Polterghast.DisplayName: 噬魂幽花
+PolterghastHook.DisplayName: 幽花触爪
+PolterPhantom.DisplayName: 噬魂幽花
+PrimordialWyrmHead.DisplayName: 始源妖龙
+Jared: Jared
+ProfanedGuardianCommander.DisplayName: 统御守卫
+ProfanedGuardianDefender.DisplayName: 神石守卫
+ProfanedGuardianHealer.DisplayName: 圣晶守卫
+ProfanedRocks.DisplayName: 亵渎岩
+Providence.DisplayName: 亵渎天神，普罗维登斯
+ProvSpawnDefense.DisplayName: 圣御守卫
+ProvSpawnHealer.DisplayName: 天术守卫
+ProvSpawnOffense.DisplayName: 神攻守卫
+FlamePillar.DisplayName: 火柱
+RavagerBody.DisplayName: 毁灭魔像
+RockPillar.DisplayName: 石柱
+CosmicLantern.DisplayName: 无限灯笼
+CosmicMine.DisplayName: 星界雷
+Signus.DisplayName: 神之使徒，西格纳斯
+CorruptSlimeSpawn.DisplayName: 腐化史莱姆
+CrimsonSlimeSpawn.DisplayName: 血腥史莱姆
+CrimulanPaladin.DisplayName: 血化圣卫
+EbonianPaladin.DisplayName: 黑檀圣卫
+SlimeGodCore.DisplayName: 史莱姆之神
+SplitCrimulanPaladin.DisplayName: 小血化圣卫
+SplitEbonianPaladin.DisplayName: 小黑檀圣卫
+StormWeaverHead.DisplayName: 风暴编织者
+AnthozoanCrab.DisplayName: 珊瑚蟹
+AquaticUrchin.DisplayName: 渊海海胆
+BelchingCoral.DisplayName: 喷嗝珊瑚
+Gnasher.DisplayName: 噬咬龟
+MicrobialCluster.DisplayName: 微生物群
+Sulflounder.DisplayName: 硫磺比目鱼
+Toxicatfish.DisplayName: 剧毒鲶鱼
+Trasher.DisplayName: 捣碎鳄
+BabyGhostBell.DisplayName: 小鬼铃水母
+BlindedAngler.DisplayName: 盲鮟鱇
+Clam.DisplayName: 蛤
+EutrophicRay.DisplayName: 富养鳐鱼
+GhostBell.DisplayName: 鬼铃水母
+GiantClam.DisplayName: 巨像蛤
+Clamitas: 灾蛤之影
+SupremeClamitas: 至尊巨蛤，蛤拉米塔斯
+PrismBack.DisplayName: 棱晶背龟
+SeaFloaty.DisplayName: 海蜉蝣
+SeaMinnow.DisplayName: 海洋米诺鱼
+SeaSerpent1.DisplayName: 深海巨蛇
+BrimstoneHeart.DisplayName: 硫磺火心
+SepulcherHead.DisplayName: 灾坟魔物
+SoulSeekerSupreme.DisplayName: 至尊探魂者
+SupremeCalamitas.DisplayName: 至尊女巫，灾厄
+SupremeCirrus: 至尊炼金术士，大山猪
+SupremeCataclysm.DisplayName: 至尊灾祸
+SupremeCatastrophe.DisplayName: 至尊灾难
+Yharon.DisplayName: 重生之龙，犽戎
+YharonPhase2: 璀璨华焰，犽戎
+// Town NPCs, Pets, etc
+AndroombaFriendly.DisplayName: 仙女座扫除机老友
+
+DILF: {
+	DisplayName: 大法师
+	Census.SpawnCondition: 击败极地之灵
+	Name.Permafrost: 永冻
+
+	Chat: {
+		Homeless1: 我非常感谢你把我从冰冻的城堡里解救出来。已经过去很多年了……
+		Homeless2: 我已经很久没有见过这样的天空的。你究竟是谁？你是怎么敢如此明目张胆地反抗那个魔君的？
+		Normal1: 如果你找我有事儿，那就赶紧说。我正在准备一个新的咒语，这需要极高的专注度。
+		Normal2: 你很有法师的天赋和气质啊。告诉我，你觉得冰魔法怎么样？
+		Normal3: 花卉和其它类似的东西根本无法与变化万象的冰的美丽相提并论。
+		Day1: 阳光猛烈地照耀在大地上。如果你愿意的话，我可以时不时地召唤一场暴风雪……
+		Day2: 我必须承认，我不太习惯这种天气。这对我来说实在是过于暖和了……
+		Night1: 黄昏时分是练习魔法的好时机。我们魔法师经常依靠天体以及它们的碎片来增强我们的法力。
+		Night2: 我从来都不会对死灵魔法这种东西感兴趣。既然你可以利用更加优雅的冰块为你服务，那么为什么还要用腐烂的尸体呢？
+		Party: 有时候……我觉得在这些活动中我能做的就是做冰块和冰泥。
+		BloodMoon1: 如果你的血液完全冻结，那将会致命。
+		BloodMoon2: 今晚夜里游荡的亡灵依然是血肉与内脏组成的，但它们看上去似乎是……新鲜的？
+		MoonLordDefeated1: 看到你走了这么长的路，真令人震撼啊。祝你在今后的努力中取得好运。
+		MoonLordDefeated2: 你，战胜了那么多人，甚至是众神，我想知道我是否还有什么可以帮到你的。
+	}
+
+	TownNPCMood: {
+		Content: 今天天气很凉爽。
+		NoHome: 没有地方休息，我就无法继续研究魔法。你能给我提供住所吗？我不想再用冰魔法造房子。
+		LoveSpace: 人太多会扰乱魔力的流动，我更喜欢这里有喘息的空间。
+		FarFromHome: 我的方向感……不太好。我不想承认，但我不愿意经常外出冒险。
+		DislikeCrowded: 我的咒语很精密，不能被打扰，我需要更多的空间来练习它们。
+		HateCrowded: 我不想你的朋友被我的魔法冻住，可惜，这里人太多无法避免。
+		LikeBiome: 这儿的温度让我能保存魔力，因为我的作品不会在严寒中融化。
+		DislikeBiome: 这儿的太阳太毒辣啦！请立刻让我搬到别处去！
+		HateBiome: 这里太邪恶了，不适合我！
+		LikeNPC: "{NPCName} 学识渊博，还是个很受尊敬的法师。"
+		DislikeNPC: 我不喜欢{NPCName}的公然漠视魔法，我没有指责他的意思，但他非常愚昧。
+		LikeNPC_Princess: "{NPCName}会一些非常古老的咒语，尤其她这年纪的人让我印象深刻。"
+		Princess_LovesNPC: 我喜欢{NPCName}.
+	}
+}
+
+FAP: {
+	DisplayName: 醉仙女
+	Census.SpawnCondition: 困难模式下，玩家的物品栏中有{$Mods.CalamityMod.Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka]
+	Name.Cirrus: Cirrus
+
+	Chat: {
+		BossAlive: 你为什么在跟我说话？你难道不应该到处瞎折腾，然后成为我的娱乐而惨死吗？
+		Homeless1: 我在几英里外闻到我的伏特加味！
+		Homeless2: 有空房吗？最好是点着蜡烛有很多很多酒的。
+		BloodMoon1: 嘿！晚安。我要做一些血腥玛丽，加芹菜的。要来一杯吗？
+		BloodMoon2: 如果你无法顺利炼药，试试血珠。血液就是药材，笨蛋。
+		BloodMoon3: 今晚我会尽量控制自己不发脾气，但其他人都不闭嘴的话，恐怕很难办到。
+		BloodMoonSlap: 对不起，现在的我没有道德底线。
+		Normal1: 我讨厌沃尔玛！……先不说这个，这次你想要什么？
+		Normal2: 喝一点可以让你变成神奇的飞行独角兽的东西，你就可以变得跟我一样了。
+		Normal3: 交易这么好，我会[$$!$]我自己！……抱歉，我只是中风了！
+		Normal4: 有人告诉过你有钱会引起痛苦吗？嗯，他们是对的。
+		Archmage: "{0}可以随时和我一起喝一杯！……也许不行，我不确定他那颗沧桑的心能否承受。"
+		BrimstoneWitch: "{0}经历了我难以想象的苦难。我想要给她一杯酒，但我想她可能不会喜欢。"
+		Tavernkeep1: 我的酒可比{0}的好多了，关于这个事实没人说服得了我。
+		Tavernkeep2: 告诉{0}别再找我了，他不合我的口味
+		Tavernkeep3: 我不得不多次告诉那个秃头我的眼睛在哪儿，我都数不清我说了多少次了。
+		Stylist1: 自从{0}搬进来后，我就没有以前喝的那么多了……这种感觉很奇怪，但是我并不反感。
+		Stylist2: 你不能阻止我和{0}同居。
+		Stylist3: 我非常享受{0}的手沾上了那些黏黏的浓稠的……发蜡的样子。
+		Day1: 我现在简直是喝得烂醉如泥，你想要什么？
+		Day2: 我要么是因为喝醉了大笑，要么是因为我疯了，又也许两者都有。
+		Day3: 当我喝醉的时候，我会更快乐…至少是话痨开始在我耳边嗡嗡叫之前。
+		Day4: 我应该在喝醉的时候重新编程整个游戏，然后把它送回测试人员那里。
+		DayStylist1: "{0}帮助我学会了接受我的过去。虽然这个过程坎坷，但我想我正走在正确的道路上。"
+		DayStylist2: 以后可以和{0}出去慢跑了。那会是美好的一天。
+		DayDrunk1: 我喝酒是为了忘记一些事情……你可能会问“什么事情啊”，但重点是忘记它们，忘记，懂吗？
+		DayDrunk2: 多么美好的一天，可能我喝得太多了，我又中毒了。
+		Night1: 一个完美的夜晚，就要点一些蜡烛，喝一点酒，尽情放松。
+		Night2: 来点挑战……每次你不得不看wiki的时候就扎自己一针。哦等等，这样你会死的。
+		Night3: 是的，所有人都知道机械蠕虫是神经病。好吧，现在不是了，但不完全不是。
+		Night4: 你是打输了还是怎么了？我不介意有人陪着，但我更愿意晚上一个人待着。
+		Night5: 你确定你21岁了？……好吧，好吧，但别告诉任何人我卖给你这个。
+		NightStylist: 今晚我应该会和{0}看电影。你也可以来，前提是你得给我们带点零食。
+		Party: 你总是会在涉及到喝酒的聚会上找到我……嗯，你也总是会在我参加聚会的地方找到酒精！
+		AcidRain: 我要融化了！在它毁掉我的头发之前，赶紧停止这种恶劣的天气！
+		Martians: 也许你应该先搞定那些外星人再考虑其他的，无论如何。
+		CryogenDefeated: 天哪，我等不及要搞点冰了！……当然，是为了饮料。
+		LeviathanDefeated: 你怎么忍心杀害这么漂亮的生物？……是性感的蓝色的那个，而不是那个肥胖的黄瓜。
+		MoonLordDefeated: 为什么一个生物需要那么多触手……事实上，不要回答这个问题。
+		PolterghastDefeated: 有一次我在家乡的旧铁轨上看到一个鬼魂疯狂地拍打着睡莲的叶子...那真是一个可怕的回忆。
+		DoGDefeated: I hear it's amazing when the famous purple-stuffed worm out in flap-jaw space with the tuning fork does a raw blink on Hara-kiri rock. I need scissors! 61!（这是个梗）
+		HasChibii: 这是什么鬼东西？看上去像我5岁的时候玩的玩具。
+		HasAnahitaTrans: 这鳞片真好看……这房间里很热吗？还是说只有我这样觉得？
+		HasVodka: 哦，是的，现在你喝的是好东西！你喜欢吗？我把仙尘、水晶和其他魔法物质混合在一起创造了这个配方。
+		HasAlicorn1: 所以说……你找到了我特别的瓶子。希望你能喜欢它，反正我挺享受的。
+		HasAlicorn2: 我累的时候你一定要让我身上下来让我休息会。而且，如果你一直骑着我的话我会宰了你-我的意思是那样的话我就不给你提供其他地方找不到的好交易了。
+		HasAlicorn3: 在你提问之前，不，我人类形态的屁股上没有爱心。不要质疑我的嗜好！
+	}
+
+	// Death Count stuffs
+	DeathCountButton: 死亡计数及捐赠者名单
+	DeathCount: 你已经死亡了{0}次。
+	Death10000: 恭喜！你现在正式成为泰拉瑞亚历史上最大的loser！谁是第二？鬼才知道。
+	Death5000: 我不知道这次我该说什么了。你很糟糕，并且应该感觉到自己很糟糕？然而这已经是众所周知的事情了。
+	Death2500: 祝福你。即使我喝高了，我也躲的比你好。
+	Death1000: 据说泰拉人的平均寿命大约是两分钟，或者更少。……嗯，可能不准确，但我感觉你是那部分人。
+	Death500: 你甚至无法规避最基本的攻击。这让我很震惊。
+	Death250: 我敬佩你不屈不挠的精神。坚持下去，你的敌人正在绞尽脑汁地想怎么对付你！
+	Death100: 考虑降低难度吧。如果这句话让你感到恼火，那太好了。
+	DonorShoutout: 嘿！ {0}， {1}， {2}, {3}， {4}， {5}， {6}， {7}， {8}， {9}， {10}， {11}， {12}， {13}， {14}， {15}， {16}， {17}， {18}， {19}， {20}， {21}， {22}， {23} 还有 {24}！ 你们真的都很棒！
+
+	TownNPCMood: {
+		Content: 总有一个地方是五点钟。
+		NoHome: 我需要一个地方休息！我的饮品也需要冰镇服务！
+		LoveSpace: 终于有了片刻宁静，人太多会惹毛我。
+		FarFromHome: 我虽然习惯了离家出走，但这还是有点离谱。
+		DislikeCrowded: 如果再有人说'现在是特价时间'以此想要打折，我就打折他！
+		HateCrowded: 再多的酒精也无法淹没这些人的噪音！
+		LoveBiome: 另一种独角兽？没想到我会看到这一天！这个地方太棒了！
+		LikeBiome: 一阵清风可以让头脑清醒一下，对于喝多的顾客就这么处理！
+		DislikeBiome: 这种干燥的空气和高温对我的头发和饮料都不好。
+		HateBiome: 你指望我能用魔法友谊彩虹来收拾这烂摊子吗？它不是拿来干这个的，傻X！赶紧把我带出去！
+		LoveNPC_Stylist: "{NPCName} 护理我的头发很有一手…除此之外，呵呵。"
+		LoveNPC_BestiaryGirl: "{NPCName} 是多么毛茸茸，她还说我的独角形状'非常棒'。"
+		LikeNPC_Truffle: "{NPCName} 让我好饿……我想知道他会给我多棒的幻觉……"
+		LikeNPC_PartyGirl: "{NPCName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！"
+		DislikeNPC_DD2Bartender: "{NPCName} 太秃了。"
+		DislikeNPC_TaxCollector: "{NPCName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。"
+		HateNPC_GoblinTinkerer: "{NPCName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难道你喜欢看我重温他给我的压力吗？"
+		HateNPC_Angler: "{NPCName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！"
+		LikeNPC_Princess: 你以为我会不喜欢 {NPCName} 只因我们太不同了？恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。
+		Princess_LovesNPC: 我喜欢 {NPCName}。
+		HateNPC: 我讨厌 {NPCName}。
+		DislikeNPC: 我不喜欢 {NPCName}。
+		LikeNPC: 我喜欢{NPCName}。
+		LoveNPC: 我爱{NPCName}。
+	}
+}
+
+SEAHOE: {
+	DisplayName: 海王
+	Census.SpawnCondition: 在击败荒漠灾虫后杀死巨像蛤
+	Name.Amidias: 阿米迪亚斯
+
+	Chat: {
+		Homeless1: 这个世界还有多少地方沦为废墟？甚至是暴君的帝国……
+		Homeless2: 谢谢你的款待，孩子，但是我现在恐怕没有家了。
+		Day1: 我的家园已经毁灭，我的子民也都死了……但为了缅怀它们，我会协助你的。
+		Day2: 多么稀奇啊，你们人类会把那些尚未出生的人类幼崽留给雌性。而在我们这儿是雄性照看蛋卵，直到它们孵化。
+		Day3: 我为什么在陆地上生存？啊，那是个秘密。不，事实上……我可以像你一样呼吸空气！
+		Day4: 啊，如果你能看到海底王国的美丽就好了。光线透过海水照射到我们居住的珊瑚中，多么美丽啊……
+		Night1: 有一些可怕的生物潜伏在我们的家园附近的阴暗中。你要当心。
+		Night2: 经过这么多年的黑暗，我的眼睛已经不太适应明亮的灯光了。宁静的夜晚是值得期待的。
+		Night3: 哦，我？我不睡觉，这是我天生的。
+		Angler1: 今晚在{0}的房子见我。我们一起去把他丢去喂捣鱼。
+		Angler2: 我不确定{0}在硫酸海中徘徊了这么久现在有没有被烤熟和消化。或许只剩头了。
+		BrimstoneWitch: 我承认，至尊女巫的存在让我很不安。但已经过去这么多年了，况且她也遭受了很多苦难。
+		DrunkPrincess: 传言{0}为了忘记她过去的烦恼而喝酒。
+		PartyGirl: "{0}问我的鼻子是否可以当呜呜祖拉。什么是呜呜祖拉？"
+		BloodMoon1: 自古以来，人们就说神明会导致天文事件的发生。那么是哪一个导致了这次事件的发生呢？
+		BloodMoon2: 我从不喜欢这些夜晚。这太暴力了。
+		Hardmode1: 你的存在已经为很多东西所熟知了。他们可不会像我一样对你这么友好。
+		Hardmode2: 嗯……帷幕已经拉下，世界开始展现它的真面目了。我希望你会踏向正义之路，尽管我不知道你可能要面对什么。
+		MoonLordDefeated1: 这几天，夜空给人的感觉……少了一点点压迫感。
+		MoonLordDefeated2: 这些生物中有一些我以前认为只是传说。目睹他们的尊荣后……多么可怕的力量啊。
+		DoGDefeated: 看到暴君的蛇挣脱了枷锁，这让我不寒而栗。
+	}
+
+	Help: {
+		YharonDefeated1: 想要使用金源之力，要么与巨龙调谐，要么与夺来的巨龙灵魂进行虚假的调谐。但是，金源之力足以颠覆海山，在任何情况下使用金源之力都会引起神明的警觉。
+		YharonDefeated2: 黄金的异端，亚利姆，可能拥有超越一切神明的力量。在你面对他之前，你务必要为这场宿命之战做好充足的准备。
+		YharonDefeated3: 嘉登并非一位前线作战的士兵，他是一名科学家和一位发明家。比起与你正面交战，他更可能会派出他的那些造物与你交战。面对那些渎神巨械时你务必得万分小心。
+		DoGDefeated1: 吞噬者的盔甲由嘉登定制，那套盔甲尺寸巨大，高度耐用还及其灵活，或许算是嘉登所有造物中最令人印象深刻的那一批了。如果他的研究继续下去，他到底会制造出什么样的怪物……光是想想就让我不寒而栗。
+		DoGDefeated2: 有了宇宙锭，你可以将许多武器改造得更为强大。
+		DoGDefeated3: 吞噬者的身上确实存在很多谜团，有的人说它甚至根本就不是来自这个世界。我们只知道，他是一个可以完全吞噬神明精元，不留下任何东西的存在。难怪亚利姆会招募那个怪物。
+		PolterghastDefeated1: 深渊中潜藏的诸多秘密，随着时间流逝而逐渐浮现出来。再去探索一次，也许会有新收获。
+		PolterghastDefeated2: 啊……我感觉到天气强烈变化。你不妨趁着雨天再去硫磺海看看会发生什么。
+		ProvidenceDefeated1: 宇宙符文散发着亵渎天神核心能量，掩盖了其他物品的光芒。在某些地方激活它会……造成危险的后果。
+		ProvidenceDefeated2: 我真的很好奇布瑞耶尔和斯塔提斯身上到底发生了什么，最近我很少了解到关于他们的消息。在我的时代，这两位对敬仰神明的人们而言都是伟大的英雄。他们是被杀了？抓住了？还是只是纯粹躲起来了呢？
+		MoonLordDefeated1: 看来你在丛林的探险比较频繁。考虑到痴愚金龙和它有如虫潮的后代在丛林肆意发展，你最好在它们数量失控前将它们尽数消灭。
+		MoonLordDefeated2: 亵渎生物潜伏在神圣之地和地狱里。如果你将它们的精华聚集起来，就能引起亵渎守卫的注意。
+		MoonLordDefeated3: 亵渎守卫会为普罗维登斯鞠躬尽瘁，她是为数不多就连我也唾弃的神明。那些守卫会先发制人消除任何对天神造成威胁的存在，而他们的下一个目标很可能就是你。
+		MoonLordDefeated4: 利用普罗维登斯的守卫留下的遗物，很容易就能把普罗维登斯骗出来交战。我在想……为什么亚利姆并没有挑战她？他现在就这么疏忽大意吗？
+		MoonLordDefeated5: 普罗维登斯对亚利姆与他的军队而言曾是一个巨大的威胁。她有一次从看似稀薄的空气中突然出现，造成了大量的破坏与混乱，而后又在军队重整旗鼓前突然消失。或许她的自负只有在区区一位勇士挑战她的时候才会让她吃到苦头。
+		GolemDefeated1: 人们正在地牢前举行一个仪式，企图将月亮领主关在监狱里。然而，为了引起亚利姆的注意，你可能需要打败他们。
+		GolemDefeated2: 深渊变得更加活跃了。你可以去那开采一些火山碎岩。
+		GolemDefeated3: 丛林中这场瘟疫的本质让我感到不安，它肯定不是一般的感染。从远处看，它们似乎并没有什么问题；然而在近处，很明显，被感染的生物都配备有探照灯与金属镀层。不管这个瘟疫是什么，它肯定并非自然产生。
+		Hardmode1: 我建议你将不用的物品保存起来，也许哪天你可以将它们改造成更强大的武器。
+		Hardmode2: 如果你携带玩偶去硫火之崖，你就可能窥视到阴影中的潜匿之物。
+		Hardmode3: 阿萨福勒，在硫火之崖的创立城市。那儿是最早支持亚利姆战争的地方之一。现在，那里除了遗迹什么都没剩下……那里到底发生了什么？
+		Hardmode4: 在你集齐了用于驱动那些机械造物的魂魄之后，你应再次前往丛林。那里沉睡着一个强大的敌人，等待着同你一战，一旦击败它将释放出丛林的全部能量，小心为好！
+		Hardmode5: 打败世纪之花和石巨人后，你在丛林探索时需要多留个神。你随时会遭遇不速之客的袭击，最好想办法摆平它。
+		Hardmode6: 探索丛林神庙时要小心，你可不想惊扰丛林蜥蜴的巨像，那便是具有着毁灭性力量的石巨人。
+		Hardmode7: 你听说过大法师永冻吗？他曾是亚利姆的顾问，直到后来有一天他突然消失，而灾厄也弃亚利姆而去。据我所知，永冻对灾厄而言就像一位父亲。也许，如果她与永冻的失踪有所联系，他或许还活着……？
+		PreHardmode1: 传闻许多矿石被古老的封印掩藏。当你击败对应的Boss时，它们的封印就会解除。
+		PreHardmode2: 你听说过硫火之崖上的城市吗？它位于地狱，建造在深渊的下方。它曾是这个世界上最古老最宏伟的城市，但看起来现在那里除了危险什么也没剩下。避开那里才是明智之选。
+		PreHardmode3: 提到深渊，那里到处都是强大的生物，他们能在一瞬间吞噬你。如果是我，我会先探索地牢。
+		PreHardmode4: 硫磺海很危险，那儿的毒水会灼伤你的皮肤。如果你能够忍耐灼烧的痛苦，你就能潜入深渊，那里秘藏着强大的武器，却险象环生。
+		PreHardmode5: 硫磺海早在一个世纪以前就已经形成，但直到最近几十年它才变成了这样一个让人难以忍受的地方。都是那个天杀的机器人嘉登的错，他一直都在往里面倾倒垃圾和废弃品。多亏了他，这地方才变成了你现在看到的这鬼样。
+		PreHardmode6: 腐化之地/猩红之地是最近才出现在这个世界上的，它象征着是亚利姆这场惨绝人寰的战争的起始。它的蔓延本可以被阻止，但从来没有人有对其源头采取过任何措施。
+		PreHardmode7: 世界各地散布着供奉神灵的神龛。神龛中放置着强大的装备，它们会为你的冒险带来有力的帮助。
+		PreHardmode8: 我猜你应该听说过传说忍者斯塔提斯？他和他的氏族崇拜着一位因为十分善于逃跑而在战争中幸免于难的神明，史莱姆之神。
+		PreHardmode9: "{0}之力原本处于大自然的管控之中。 然而，最近爆发的战争和污染破坏了大自然的保护与修复能力，打破了亘古的自然平衡。"
+		PreHardmode10: 世界各地仍留存着由嘉登一手建造的数个研究设施。尽管陈旧的防御系统可能还能运转，但其中的物品也许值得你去扫荡一番。
+	}
+
+	TownNPCMood: {
+		Content: 我很满意。
+		NoHome: 谢谢你的招待，但是我现在恐怕无家可归。
+		LoveSpace: 啊，我很喜欢独处的宁静。
+		FarFromHome: 我的鳞片变得干燥，我离家太远了。
+		DislikeCrowded: 这里的生活条件很拥挤，不是吗？
+		HateCrowded: 我不想利用我的地位，但我还是皇室成员时，我更习惯周围人少点。
+		LikeBiome: 靠近大海，苦乐参半。但我还是忍不住喜欢它。
+		DislikeBiome: 阳光太刺眼了，我不喜欢这里的干旱气候。
+		HateBiome: 这就不是能住的地方，快放我走！
+		LikeNPC: "{NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！"
+		DislikeNPC: 我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。
+		HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！"
+		LikeNPC_Princess: "{NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。"
+		Princess_LovesNPC: 我喜欢{NPCName}.
+	}
+}
+
+THIEF: {
+	DisplayName: 强盗
+	Census.SpawnCondition: 骷髅王被击败后，玩家物品栏里有1{$ItemName.PlatinumCoin} [i:PlatinumCoin]
+
+	Name: {
+		Laura: Laura
+		Mie: Mie
+		Bonnie: Bonnie
+		Sarah: Sarah
+		Diane: Diane
+		Kate: Kate
+		Penelope: Penelope
+		Marisa: Marisa
+		Maribel: Maribel
+		Valerie: Valerie
+		Jessica: Jessica
+		Rowan: Rowan
+		Jessie: Jessie
+		Jade: Jade
+		Hearn: Hearn
+		Amber: Amber
+		Anne: Anne
+		Indiana: Indiana
+	}
+
+	Chat: {
+		BloodMoon1: 嘿，走路瞧着点，我的飞镖可不长眼睛！
+		BloodMoon2: 你站在那肯定是想被扎成刺猬，是吧？
+		BloodMoon3: 你站在那肯定是想被扎成刺猬，是吧？
+		BloodMoon4: 嘿，别靠近那边！我刚刚做了点手脚，踏错一步你下一秒可能就躺地板上了。
+		Normal1: 只要够大力，任何物品都能当作武器。
+		Normal2: 就凭你这小胳膊也想投掷武器？去健健身吧。
+		Normal3: 看好了，全靠手腕的巧劲，巧劲！哦，就当无事发生过。
+		Normal4: 你知道我是做什么的；劫富济贫。当然，中饱私囊。
+		Normal5: 啊，蛇，为什么总是蛇？
+		Normal6: 你知道，拥有你想要的一切事物是超级好的，有些人从来没有过这种奢华的体验。
+		Normal7: 这才不是偷！我只不过是借，死的时候再还！
+		Night1: 呃，今晚的星星太亮了，这让偷偷摸摸变得更加困难。
+		Night2: 你觉得时不时从天上掉下来的那些落星会不会是很好的投掷武器？
+		BrimstoneWitch: 嘿，嘿，灾厄真的搬进来和我们一起住了吗？为什么？为什么？？？
+		DrunkPrincess: 我从不敢偷{0}的饮料。她不是很喜欢我，好了，我得继续回去躲着了。
+		Merchant: 别告诉{0}我把他的一些货物换成天使雕像了。
+		NurseArmsDealer: 别告诉{0}其实{0}身上那么多伤口我也有责任。
+		NamedLaura: 别告诉[护士的名字]其实[军火商的名字]身上那么多伤口我也有责任。
+		NamedPenelope: 想象一下，要是多几只手那得能扔的多快啊！
+		NamedValerie: 你没钱的话，给点吃的也行。
+		NamedRowan: 通常来说动物只是食物或者活靶子，但龙是个例外。
+		Jungle: 早知道我就不来这的。这地方氛围很糟糕你知道吗？我想起了一些不愉快的回忆。"
+		Party: 我的派对帽去哪了？对，就是我偷来的那顶。
+		Hardmode1: 各种新型武器被发现和抢夺。你去搞一点过来，我也会分享一些我的收藏品的！
+		Hardmode2: 这片土地周围有很多废弃物，其中有一些贵重的零件，这让你不禁思考谁会负把它们到处乱扔的责任。
+		Hardmode3: 墓穴，坟场，地牢，这些对我来说都只是宝库。那些死人已经死了，跟这些宝藏无关。
+		MoonLordDefeated1: 如果你发现了一些很酷的东西，一定要拿过来让我瞧瞧，我保证会把手从那东西上面拿开的。
+		MoonLordDefeated2: 这么多新的东西要偷，我都不知道哪一个开始了
+		MoonLordDefeated3: 如果我最终惹恼了一些神明或者什么的，你介意为我负责吗？
+		HasBoneGlove: 我也不是第一次拿骸骨当武器了。
+		HasValediction: 哦老兄，你把这玩意从鲨鱼身上扯下来了！？现在它是一把武器了！
+	}
+
+	RefundButton: 资金返还
+	Refund1: 想听点秘密？既然{0}每次都拿走你那么多钱，我其实早就盯上他了。这件事我要你保密，给，拿着。
+	Refund2: 嘿，既然政府的人能收税，为什么我就不能？什么？你说我们完全没有可比性？
+	NoRefund: 抱歉，我什么也给不了你。或许你可以尝试重铸一些东西，然后再来找我……
+
+	TownNPCMood: {
+		Content: 一切都很顺利！
+		NoHome: 你有地方睡吗？睡地上让我浑身酸痛。
+		LoveSpace: 人越少就越容易逃脱某些事情。
+		FarFromHome: 我得回到我的秘密储藏室，万一有人趁我不在拿我宝贝怎么办。
+		DislikeCrowded: 我不喜欢这里，目击者太多了。
+		HateCrowded: 和这么多人在一起让我觉得我会被偷。
+		LikeBiome: 我知道许多富商会穿过沙漠，这是个偷他们东西的好地方。
+		DislikeBiome: 太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。
+		HateBiome: 这里没人住，为什么要住这里？！这里简直是个垃圾场！
+		LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
+		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
+		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
+		Princess_LovesNPC: 我喜欢 {NPCName}。
+	}
+}
+
+WITCH: {
+	DisplayName: 硫火女巫
+	Census.SpawnCondition: 击败至尊女巫，灾厄
+	Name.Calamitas: 灾厄
+
+	Chat: {
+		EasterEgg: Mrrp is cringe。
+		Homeless1: 抱歉，我什么也给不了你。或许你可以尝试重铸一些东西，然后再来找我……
+		Homeless2: 我现在肯定不能再回魔君哪儿去了。你这儿有地方住吗？
+		Normal1: 我付不起房租，但如果你有什么已逝的亲人想让我试试……什么，你不想？
+		Normal2: 有一天，我想用地狱旧都的花建一个花园。清晨的硫磺火散发的味道令我沉醉。
+		Normal3: 我想我已经安顿好了，非常感谢。
+		Normal4: 自从我第一次与魔君见面以来四季轮转，岁月变迁，直到现在我才挣脱了束缚。希望我能够更加坚强……
+		Normal5: 如果你想要驱散什么诅咒的话……那你就找错人了。
+		BloodMoon1: 这非自然的血红夜幕啊。一点也不如我硫磺火焰的颜色。
+		BloodMoon2: 我无法在这样的夜晚工作。星星似乎都因为恐惧而缩小了。
+		Night1: 那些亡灵生物太可怕了，我简直无法直视它们。为什么会有人对这样的兼职感到满意呢？
+		Night2: 我一点儿也不觉得说占星术是无稽之谈是夸大其词……但我曾经是一个占星爱好者。
+		DrunkPrincess: 考虑到{0}的衣着如此暴露，我想知道，她是否觉得冷过。也许她应该多穿一点。
+		SeaKing: 我无法理解海王。他似乎并不希望让我死。我无法理解他对我有如此深的同情。
+		Party: 那个老冰男……即使你忽视我们的魔法类型和老盟友，我也会怀疑我是否能和他和睦相处。
+	}
+
+	EnchantButton: 咒术炼注
+
+	TownNPCMood: {
+		Content: 我真的没什么可抱怨的。
+		NoHome: 不论哪里都比一个没有床和照明的山洞要好。
+		LoveSpace: 越安静越好，这里就很好。
+		FarFromHome: 才刚刚习惯有人在身边的日子没多久，我又失去它了。
+		DislikeCrowded: 我不太喜欢有人和我这么熟。
+		HateCrowded: 周围人太多了，压力好大，头好痛。
+		LikeBiome: 我以前从来没有机会住在这样的地方。有树木和鸟鸣……我很喜欢。
+		DislikeBiome: 这是一个残酷的笑话？我无法忍受在这里待着，我已经试着赎罪了。
+		HateBiome: 这里的灵魂不安宁，这种感觉真的不好。
+		LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。"
+		DislikeNPC: 太吵了！ {NPCName} 只会每天制造噪音！我受不了她！
+		LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。"
+		Princess_LovesNPC: 我喜欢 {NPCName}。
+	}
+}

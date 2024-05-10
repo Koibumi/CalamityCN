@@ -15,8 +15,12 @@ Mods: {
 				}
 
 				InfernumCN: {
-					Label: 特殊部分汉化
-					Tooltip: 默认启用，如炼狱更新或其他情况报错尝试关闭这个选项
+					Label: 标题字体转换
+					Tooltip:
+						'''
+						启用后炼狱模式下BOSS介绍标题字体将使用中文格式
+						注意：需要启用下方特殊部分才有效！
+						'''
 				}
 			}
 
@@ -24,6 +28,7 @@ Mods: {
 				zh.Label: 简体中文
 				hk.Label: 繁體中文（香港）
 				tw.Label: 繁体中文（台灣）
+				// Tooltip: ""
 			}
 		}
 	}
