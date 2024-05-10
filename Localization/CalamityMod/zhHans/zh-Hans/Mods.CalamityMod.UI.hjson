@@ -278,13 +278,13 @@ Communication: {
 		Inquiry: Miracle Matter
 		Response:
 			'''
-			Is that really what you have chosen to name it? How nonsensical. There is nothing miraculous about what you hold in your hands; it is the culmination of decades of research and a testament to the truly unlimited potential of science. Though, as you were the one to be able to stabilize it, I will begrudgingly refer to it as that.\n
+			你真的打算这么叫它？真是不可理喻。你手中的东西和奇迹毫无联系；它是数十年研究的结晶，是科学真正无限潜力的证明。尽管如此，既然是你稳定住了它，我也勉为其难如此称呼它吧。\n
 
-			The particles contained within Exotic Resonance are capable of breaking down nearby matter when exposed to enough external energy. You have already experienced this phenomenon whilst fighting against my machines. The power surges from the ongoing battle caused some of the Exo Prisms within to actuate, melting down some of the internal components into an unstable slurry of this so-called Miracle Matter. The altered resonance enhanced their attacks with a prismatic blight that disintegrates anything, organic or otherwise.\n
+			星流共振中的粒子在暴露给足量的外部能源后会破坏周围的物质，你在和我的机器战斗时已经体验过这个现象。战斗的能量激活了部分星流棱晶，将内部组件熔化为了不稳定的电浆体，也就是所谓的奇迹物质。改变后的共振增强了它们的攻击力，晶化灼伤能瓦解一切有机或无机物。\n
 
-			The various materials that you exposed to the exotic particles melded together in such a perfect way to create a stable substance. Harnessing the combined force of draconic wrath, the life essence of the planet, energies and spirits alike, and the strength of the cosmos, what you now possess has limitless potential.\n
+			你暴露给星流离子的多种物质以一种如此完美的方式融合成了一种稳定的物质。有着巨龙的愤怒、星球的生命精华、能量与灵魂，还有宇宙的力量，你现在所持有的这个物体具有无限的潜力。\n
 
-			Hypothetically, your stabilized Miracle Matter should be able to unmake some of your weaponry and reshape their essence into something infinitely more destructive, capable of annihilating any obstacle in your path.
+			假设无误的话，你稳定的奇迹物质应该能够解构你的一些武器装备，并将它们重塑为具有无限破坏力的东西，足以歼灭你前进道路上的任何障碍。
 			'''
 	}
 
@@ -292,15 +292,15 @@ Communication: {
 		Inquiry: Your Forge
 		Response:
 			'''
-			I mentioned the first time we communicated through your "Code Breaker" that I had other reasons for giving you the blueprints for this forge. Notably, I wish for you and Yharim to be on even footing when you inevitably clash. There are three primary reasons for this.\n
+			在我们第一次通过你的“密码破译器”交流时，我就提到过我把这个锻炉的蓝图交给你还有其他原因。特别是，我希望当你不可避免地与亚利姆发生冲突时，你们二者能处于平衡的立场上。这主要有三个原因。\n
 
-			Firstly, I wish to witness such a battle. Secondly, you are far too valuable for me to allow you to throw away your life in combat with the Godseeker. Thirdly and most importantly, I am interested in how society as a whole would react to the Godseeker's defeat. Such a scenario is not easily replicable, nor do I expect another appropriate challenger to rise before his natural passing.\n
+			首先，我想要见证这样的战斗。其次，你在我看来有着很高的价值，我不能放任你毫无准备就和寻神者战斗。而最重要的是，我很好奇整个世界会如何回应亚利姆的战败。这样的场景再现起来可不简单，我也不觉得在他自然死亡前还能出现另一个旗鼓相当的挑战者。\n
 
-			Providing access to my forge is how I am assisting you in reaching the heights of power Yharim possesses. Though you are surely aware of how to utilize it by now, you may benefit from understanding the minutiae of its inner workings.\n
+			允许你访问我的锻炉，就是我帮助你达到拥有和寻神者一样力量的高度的手段。虽然你现在肯定已经知道如何使用它，但了解其内部运作的细枝末节或许也更有帮助\n
 
-			The forge's core mechanisms operate upon both the raw energy output and connective properties of Exo Prisms. The exoparticles physically dissociate a multitude of other potent crafting stations, letting them all exist and function simultaneously in the same enclosure. From there, the embedded exotechnology allows them to work collectively as one workshop, providing a single interface for the entire forge. The blueprints for the exterior structure are embedded in the prisms. You need only provide the requisite materials.\n
+			锻炉的核心机制依靠星流棱晶的原始能量输出和连接特性来运行。星流粒子会物理上地解离为其它有用的合成站，让它们能在同一件物体中同时存在和运作。接着，内置的星流技术允许它们像一个工坊一样共同运作，整个锻炉只需要一个单一的界面。外部结构的蓝图已经内置在了晶体中，你只需要提供对应的材料。\n
 
-			Once fully constructed, the Exotic Resonance field containing the superimposed workstations is controlled by a computation matrix which comes preinstalled with all my data on the fundamental building blocks of our universe. Using the universal compatibility of exotechnology, my forge can interface with and disassemble any kind of matter you present to it, and output any desired result.
+			一旦完全建成，包含叠加工作站的星流共振场会由一个计算矩阵控制，上面预装了我对我们宇宙的基础理解的所有数据。利用星流技术的全局兼容性，我的锻炉可以对你所提供的一切物质进行连接和分解，并输出任何想要的结果。
 			'''
 	}
 
