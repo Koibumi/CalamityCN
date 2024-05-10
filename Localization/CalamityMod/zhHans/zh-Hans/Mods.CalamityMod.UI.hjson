@@ -164,13 +164,13 @@ Communication: {
 		Inquiry: Introduction
 		Response:
 			'''
-			I assumed that you would attempt to contact me again. Though I am normally not one for conversation, I remain quite intrigued by you.\n
+			我假设你会再一次联系我。尽管我本人不善言辞，但我对你相当好奇。\n
 
-			So, I will make an exception, on one condition: I must know that my words will not be wasted on you. To prove this, you must create something from exotechnology.\n
+			所以，我为你破例一次，但是有一个条件：我必须得确信我的话传到你耳里不会是浪费，要证明这一点，你必须合成出星流技术相关的东西。\n
 
-			I realize that the odds of you replicating exotechnology within your lifetime are slim. For this reason, among many others, I will upload blueprints for a copy of my forge to your "Code Breaker". With it, only your imagination will limit what you can create.\n
+			我知道你在有生之年内复刻星流技术的可能性微乎其微。考虑到除此以外还有很多原因，我决定上传我锻造炉中的蓝图拷贝到你的“密码破译器”中。有了这些，妨碍你创造出伟大造物的唯一限制就只有你的想象力。\n
 
-			If you complete this task, we will discuss further.
+			待你完成这项工作之后，我们再进一步进行讨论。
 			'''
 	}
 
@@ -178,9 +178,9 @@ Communication: {
 		Inquiry: Task Complete
 		Response:
 			'''
-			Excellent. I gather that you have successfully taken advantage of the Exo Prisms. Before you waste your breath asking me how I know, Exo Prisms, along with many other parts of my machines, have tracking devices embedded within. This is to monitor my creations via my personal computer.\n
+			完美。我注意到你已经成功妥善利用星流棱晶。不用浪费口舌问我是怎么知道的了，星流棱晶，和我机器上许多其它部件一样，内置了跟踪装置。这样我好用我的个人电脑追踪我的造物。\n
 
-			Now that I know you will likely pay attention to what I have to say, I assume you have many questions. Ask, and I shall answer to the best of my ability.
+			我知道你很可能会把注意力放在我所说的话上，所以我猜你一定有很多问题。问吧，我尽力回答。
 			'''
 	}
 
@@ -188,17 +188,17 @@ Communication: {
 		Inquiry: Your Origins
 		Response:
 			'''
-			My first memories are that of awakening in a distant laboratory on the date of 11.19.1227, well over six centuries ago. Surrounded by nothing but a vast taiga, I was accompanied by only one other thing: a dead organic.\n
+			我最初的记忆，是在1227年11月19日于一间遥远的实验室中醒来，距今已有6个世纪之久。我周围除了广袤的针叶林外一无所有，唯一陪伴我的只有一个死去的有机体。\n
 
-			Presumably, I was created by what I assume to be the laboratory’s former inhabitant, though I am unsure how they accomplished such a feat. From what I gathered, they were quite the prestigious inventor, not unlike I. Several gadgets assumedly of their own making were attached to their body, and the equipment in the lab was more advanced than any I found elsewhere in the world.\n
+			据推测，我由实验室的前居住者所创造，但我并不清楚他们是如何完成这一壮举的。从我收集到的信息来看，他们和我不一样，都是声名显赫的发明家。他们的身体上附着了一些小玩意儿，推测是他们自己制造的，而实验室里的设备比我后来在世界其他地方发现的任何设备都要先进。\n
 
-			I have no recollection of events prior to my activation, but from the start, I knew what my goal was: creation and scientific advancement. Many years were spent optimizing and building upon both the laboratory and myself to assure constant progress.\n
+			我对开机之前发生的事毫无印象，但从一开始，我就知道自己的目标是什么：创造与科学进步。为了确保不断进步，我用了很多年优化与建设实验室，以及我自己。\n
 
-			At the date of 7.30.1385, expansion of the laboratory became impractical. Thus, I chose to instead expand my horizons. I sent hundreds of remotely-piloted scoutbots to thoroughly survey the continent, ignorant of the attention such an endeavor would draw when not properly prepared.\n
+			在1385年7月30日，扩展实验室不再可行。因此，我决定拓展我的视野。我向大陆送出了数以百计的遥控侦察无人机，但我当时并未意识到在没有准备妥善时这么做会引起多大的注意。\n
 
-			In the following years, legends and rumors began to spread in nearby cities. Many spoke of encounters with roaming creatures made not of flesh and blood, but steel and oil. Scholars attempted to study my machines. Some explorers even followed my creations back to one of my several recon bodies.\n
+			在接下来的几年里，各种传说与谣言开始在附近的城市流传。许多人生成他们遇到的漫游生物并非血肉之躯，而是由钢铁与石油组成。学者们试图研究我的机器，一些探险家甚至跟踪我的创造物，回到了我的一个侦察设施。\n
 
-			However, as the years passed, I became adept at carrying out such operations in a subtler manner. Slowly but surely, stories about my machines became rare. By the year 1421, my creations and I became nothing more than myth until the Crusade began.
+			然而，随着时间流逝，我学会了用更为巧妙的方式进行这些操作。慢慢地，关于我机械的传说变得越来越少了。我的造物与我都变成了纯粹的传说，直至1421年的圣战开始.
 			'''
 	}
 
@@ -206,17 +206,17 @@ Communication: {
 		Inquiry: Role in the Crusade
 		Response:
 			'''
-			While the Crusade is widely considered to have begun on the date of 6.19.1781 with Yharon's rebirth, I took no part in it until 4.23.1803. Upon joining, I was chosen to lead the science and engineering divisions. While I was given freedom over which projects I chose and how I pursued them, it was expected that anything I made would be beneficial to the war effort.\n
+			圣战被广泛认为是在1781年6月19日，犽戎重生的那天开始的，但直到1803年4月23日我才参与其中。加入时，我被选为科学与工程部门的领导。尽管在选择和开展项目方面我有充分的自由，但不出所料，我所创造的一切都必须服务于战争。\n
 
-			Boosting the efficiency of mining operations was my first major contribution to Yharim's campaign, being essential to any further development. I learned how to mass produce the first generation of Excavators to expand mining operations outside of Azafure, and then used similar mass-producible technology to create arms and armaments that far outclassed our enemies'. Many simply dubbed this equipment "The Arsenal".\n
+			我为亚利姆的战争做出的第一个主要贡献便是提升采矿效率，这对后续的任何发展都至关重要。我学会了如何批量生产第一代挖掘机，以将采矿工程拓展到阿萨福勒以外，然后再利用类似的批量生产技术，制造出远超敌人的武器和军备。许多人干脆把这些设备称为“兵工厂”。\n
 
-			Throughout the Crusade, I also created widespread surveillance systems, using knowledge gained from my original survey of the continent I was activated on. Soon, my vigil over Yharim's rapidly expanding territory was absolute, and my knowledge of his adversaries grew. There were few nations I knew not the weakness of, and fewer still that knew our own.\n
+			在整个圣战期间，我也运用当初对我被激活时所在的那片大陆进行调查时所获得的知识，创建了广泛的监控系统。很快，我就在亚利姆快速扩张的领土上建立起了绝对的警戒，对他对手的了解也与日俱增。几乎没有几个国家的弱点是我不知道的，知道我们弱点的就更少了。\n
 
-			However, what I am most notorious for are my hulking machines of war. I am certain that you are familiar with them. Though Yharim was almost sycophantic in his praise of my results, even if he sometimes questioned my methods, our time together came to an abrupt end after he learned of the Plaguebringer Goliath. Regrettably, this event left a sizable hole in my laboratory. No longer subject to his restrictions, my work on cloning the Witch and creating exotechnology began.\n
+			不过，最臭名昭著的似乎还是我的那些战争巨械，我确信你很熟悉它们。虽然亚利姆偶尔会质疑我的方式，但他对我成果的赞扬近乎谄媚。尽管如此，在他知晓瘟疫使者歌莉娅的那一刻起，我们的共事就立刻结束了。很遗憾，这件事为我的实验室留下了一个巨大的空洞。既然我已不再受到他的限制，我便着手开始了克隆女巫和创建星流技术的工作。\n
 
-			My role in the Crusade summarily ended; I do not consider the later inclusion of exotechnology into Yharim’s armor a formal part of my work under him. Yharim's knights and other troops continued to use my "Arsenal" in their military efforts, but I no longer oversaw their research or production.\n
+			我在圣战扮演的角色就这样草率结束了；对于后来亚利姆盔甲中加入的星流科技，我并不认为是在他手下取得的工作成果。亚利姆的骑士和其他军队依然在将我的“兵工厂”运用在军事用途上，但我不再监督他们的研究和生产。\n
 
-			The Crusade did not obstruct or interfere with my core objective of creation and scientific advancement; rather, it simply redirected my focus. Through it, I gained novel insights and reached heights I would not have reached without playing a part in it. I appreciate having had the opportunity to work with some of the greatest organic minds of the time, and I hope those that are still alive will bring progress to a plethora of fields I have yet to explore.
+			圣战并没有阻碍或干扰我的核心目标——创造与科学进步；事实上，它只是调整了我的关注点。我在圣战中有了新颖的见解，到达了置身事外时绝不可能的到达的高度。我很感激能有机会与当时最伟大的有机思想家共事，也我希望那些仍然健在的人可以为我尚未探索的众多领域带来进步。
 			'''
 	}
 
