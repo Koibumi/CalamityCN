@@ -9,7 +9,7 @@ AcidicRainBarrel: {
 
 AdamantiteThrowingAxe: {
 	DisplayName: 精金投斧
-	Tooltip: Stealth strikes ignore gravity and rain down lightning on enemy hits
+	Tooltip: 潜伏攻击无视重力，并在击中敌人时降下闪电
 }
 
 AlphaVirus: {
@@ -55,8 +55,8 @@ BallisticPoisonBomb: {
 	DisplayName: 渊毒子母雷
 	Tooltip:
 		'''
-		Throws a sticky bomb that explodes into spikes and venomous clouds
-		Stealth strikes erupt into more clouds with a longer lasting venom
+		丢出一个黏性炸弹，爆出尖刺和毒云
+		潜伏攻击会爆出更多的云，造成更持久的毒液
 		'''
 }
 
@@ -205,7 +205,7 @@ CosmicKunai: {
 	Tooltip:
 		'''
 		发射鬼畜的短程苦无
-		Stealth strikes make kunai pierce foes, travel farther, and spawn 5 homing scythes
+		潜伏攻击使苦无能够刺穿敌人，飞得更远，并产生5把追踪镰刀
 		'''
 }
 
@@ -394,8 +394,8 @@ Exorcism: {
 	DisplayName: 驱魔十字架
 	Tooltip:
 		'''
-		Throws a hallowed cross which explodes into a flash of light that damages nearby enemies
-		Stealth strikes create larger flashes and rain stars infused with holy light
+		扔出一个神圣十字架，能爆炸并发出闪光，对附近的敌人造成伤害
+		潜伏攻击会产生更大的闪光，以及充满神圣之光的流星
 		'''
 }
 
@@ -532,7 +532,7 @@ HardenedHoneycomb: {
 	Tooltip:
 		'''
 		扔出会碎裂的蜂巢
-		Stealth strikes grant the honey buff on hit and spawn bees
+		潜伏攻击在命中时获得蜂蜜buff并生成蜜蜂
 		'''
 }
 
@@ -541,8 +541,8 @@ HeavenfallenStardisk: {
 	Tooltip:
 		'''
 		发射一个星盘，先向上飞行一小段距离后飞向光标位置
-		Explodes into a star of astral bolts on hit
-		Stealth strikes throw three disks that rain astral energy bolts from the sky
+		命中时爆出由星辉螺弹构成的星体
+		潜伏攻击发射出三个星盘，从天空降下星辉能量螺弹
 		'''
 }
 
@@ -622,7 +622,7 @@ JawsOfOblivion: {
 	Tooltip:
 		'''
 		扔出六颗会黏在敌人身上的毒牙
-		This venom can stack when more teeth are stuck in an enemy
+		当更多牙齿黏在同一敌人身上时将会积累毒液
 		潜伏攻击命中会产生冲击波
 		“你将需要一艘更大的船”
 		'''
@@ -1188,10 +1188,10 @@ Supernova: {
 	DisplayName: 超新星
 	Tooltip:
 		'''
-		Tosses a smart bomb that locks onto and tracks targets
-		If no target is found it will return to you
-		Each bomb creates a miniature supernova that drags in weak enemies and chases strong enemies
-		Stealth strikes create a blast that shakes the foundations of reality itself
+		投出一颗会锁定并追踪目标的智能炸弹
+		如果未找到目标，它会返回到你身上
+		每颗炸弹都会产生一颗微型超新星，它会牵引弱小的敌人，并追逐强大的敌人
+		潜伏攻击将会产生一道撼动现实本身基础的冲击波
 		'''
 }
 
