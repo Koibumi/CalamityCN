@@ -2,8 +2,8 @@ AbsoluteZero: {
 	DisplayName: 绝对零度
 	Tooltip:
 		'''
-		Tosses a spinning abyssal sword that slices through enemies and releases water energy upon hitting a tile
-		The sword will fly towards enemies after a ricochet, dealing 2x damage
+		掷出一柄旋转的深渊之剑，可以穿透敌怪并在击中物块时释放水能量
+		深渊之剑会在反弹后飞向敌怪，造成2倍伤害
 		'''
 }
 
@@ -169,7 +169,7 @@ BansheeHook: {
 
 Basher: {
 	DisplayName: 痛击者
-	Tooltip:  Swings a rotten club that poisons and irradiates enemies on hit
+	Tooltip:  挥舞一根腐朽的木棍，在击中敌怪时施加中毒和辐射减益
 }
 
 BladecrestOathsword: {
@@ -178,12 +178,12 @@ BladecrestOathsword: {
 }
 
 BlightedCleaver: {
-	DisplayName: Blighted Cleaver
+	DisplayName: 凋亡屠刀
 	Tooltip:
 		'''
-		Fires homing blazing blades
-		Gives the player the Brutal Carnage buff on enemy hits
-		This buff increases melee damage by 20%
+		发射追踪的燃烧剑气
+		击中敌怪时给予玩家残暴屠杀增益
+		此增益会增加20%近战伤害
 		'''
 }
 
@@ -194,7 +194,7 @@ Bonebreaker: {
 
 BotanicPiercer: {
 	DisplayName: Botanic Piercer
-	Tooltip: Fires a botanic energy beam
+	Tooltip: 发射一束植物能量束
 }
 
 Brimlance: {
@@ -243,8 +243,8 @@ BurningRevelation: {
 	DisplayName: Burning Revelation
 	Tooltip:
 		'''
-		Emits large holy explosions on hit
-		An exceptionally agile yoyo
+		命中时产生巨大的神圣爆炸
+		一只超级灵活的悠悠球
 		'''
 }
 
@@ -265,7 +265,7 @@ CatastropheClaymore: {
 
 CelestialClaymore: {
 	DisplayName: 星宙阔剑
-	Tooltip: Spawns cosmic energy stars near the cursor that inflict several debuffs
+	Tooltip: 在光标附近生成会爆炸的宇宙能量之星，可以施加多种减益
 }
 
 ChronomancersScythe: {
