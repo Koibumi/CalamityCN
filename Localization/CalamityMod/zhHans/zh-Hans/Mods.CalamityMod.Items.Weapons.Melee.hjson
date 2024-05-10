@@ -243,7 +243,7 @@ BurningRevelation: {
 	DisplayName: Burning Revelation
 	Tooltip:
 		'''
-		命中时产生巨大的神圣爆炸
+		击中敌人时产生强大的圣火爆炸
 		一只超级灵活的悠悠球
 		'''
 }
@@ -272,11 +272,11 @@ ChronomancersScythe: {
 	DisplayName: Chronomancer's Scythe
 	Tooltip:
 		'''
-		Rapidly fires icicles
-		Press <right> to swing the scythe around you, creating a clock pattern of homing icicles
-		Direct hits with the scythe have a chance to spawn clocks
-		Collecting the clocks increases movement speed and acceleration by 5% for each clock collected
-		This stacks up to 3 times and each level wears off after 5 seconds
+		迅速发射冰锥
+		按住右键环绕自身挥舞镰刀，释放一圈钟形排列的追踪冰锥
+		直接用镰刀击中敌人有概率生成一个时钟
+		接触时钟会提升移动速度与加速度，每个时钟提升5%
+		此加成至多叠加3次，每过5秒便会降低一级
 		'''
 }
 
@@ -307,9 +307,9 @@ CosmicShiv: {
 	DisplayName: 宇宙短剑
 	Tooltip:
 		'''
-		Fires a cosmic star that homes in on enemies
-		Upon hitting an enemy, a barrage of blades will persistently strike
-		Landing more stars causes more blades to strike
+		发射一颗追踪敌人的宇宙之星
+		命中敌人后，一连串剑刃会反复穿刺目标
+		连续命中多颗星星会使更多剑刃穿刺攻击
 		'''
 }
 
@@ -324,7 +324,7 @@ CrescentMoon: {
 
 DarklightGreatsword: {
 	DisplayName: 巨剑“夜光”
-	Tooltip: Fires darklight blades that slice through enemies, creating additional slashes
+	Tooltip: 发射能穿透敌人的夜光之刃，命中时进行额外的斩击攻击
 }
 
 DeathsAscension: {
@@ -337,12 +337,12 @@ DeathsAscension: {
 }
 
 DefiledGreatsword: {
-	DisplayName: Defiled Greatsword
+	DisplayName: 神殇巨剑
 	Tooltip:
 		'''
-		Fires blazing, hyper, and sunlight blades
-		Gives the player the Brutal Carnage buff on enemy hits
-		This buff increases melee damage by 20%
+		发射烈火、至高和日炎剑气
+		击中敌人时给予玩家残暴屠杀增益
+		此增益会为玩家增加20%近战伤害
 		'''
 }
 
@@ -350,8 +350,8 @@ DepthCrusher: {
 	DisplayName: 深渊碾碎者
 	Tooltip:
 		'''
-		Tosses a heavy abyssal crusher that releases water energy upon hitting a tile
-		The crusher will ricochet off of tiles and enemies
+		掷出一个沉重的深渊碾碎者，在与物块碰撞时释放水能量
+		深渊碾碎者会在物块和敌人身上弹跳
 		'''
 }
 
@@ -496,8 +496,8 @@ Exoblade: {
 		左键释放大量能量光束追踪并在命中时斩击敌人
 		右键使你向光标方向冲刺并斩击
 		冲刺过程中命中敌人会造成巨量伤害并反弹自己
-		Press <left> immediately after a rebound to perform a powerful slash
-		Powerful slashes are larger, heal you, and create a large explosion
+		反弹后立即按下左键可挥出一道强力斩击
+		强力斩击范围更大，会治疗你并引发一次大爆炸
 		'''
 }
 
@@ -521,7 +521,7 @@ FaultLine: {
 
 FeralthornClaymore: {
 	DisplayName: 荆棘长刃
-	Tooltip: Sprouts thorns from enemies on hit
+	Tooltip: 被击中的敌人身上会长出荆棘
 }
 
 FlarefrostBlade: {
@@ -652,7 +652,7 @@ GreatswordofJudgement: {
 	DisplayName: 制裁大剑
 	Tooltip:
 		'''
-		Fires a white orb that emits white rain from where it dissipates for a time
+		发射一个白色光球，在消失后一段时间内落下白色追踪雨滴
 		遗忘之土的白色长剑
 		你可以听到这把剑传出的虚弱而带安抚的耳语
 		“无论何地，你都不会孤身一人
@@ -662,7 +662,7 @@ GreatswordofJudgement: {
 
 Greentide: {
 	DisplayName: 翡翠之潮
-	Tooltip: Summons teeth to chomp your foes on hit
+	Tooltip: 剑刃击中时召唤尖牙痛咬你的敌人
 }
 
 HellfireFlamberge: {
@@ -702,14 +702,14 @@ IllustriousKnives: {
 
 InsidiousImpaler: {
 	DisplayName: 阴险穿刺者
-	Tooltip: Fires infected harpoons that stick to enemies and explode
+	Tooltip: 发射一柄感染鱼叉，黏附于敌人并产生爆炸
 }
 
 IridescentExcalibur: {
 	DisplayName: 绚辉圣剑
 	Tooltip:
 		'''
-		True melee strikes freeze enemies
+		真近战攻击命中时冻结敌人
 		发射彩虹光束，效果取决于它们的颜色
 		右击施展真近战攻击
 		'''
@@ -823,8 +823,8 @@ NeptunesBounty: {
 	DisplayName: 海神之馈赠
 	Tooltip:
 		'''
-		Tosses a spinning abyssal sword which constantly sprays water energy
-		Once the blade begins falling, it will redirect itself towards enemies with increased velocity and 2x damage
+		掷出一柄旋转的剑刃，持续向附近的敌人发射水能量
+		一旦剑刃开始下坠，它便会加速斩向最近的敌人并造成2倍伤害
 		'''
 }
 
@@ -876,7 +876,7 @@ Orderbringer: {
 	DisplayName: 携序之剑
 	Tooltip:
 		'''
-		Fires a rainbow blade that emits rainbow rain from where it dissipated for a time
+		发射一个彩虹剑刃，消失后短时间内持续落下彩虹雨滴
 		遗忘之土的白色长剑
 		你可以听到这把剑传出的虚弱而带安抚的耳语
 		“无论何地，你都不会孤身一人
@@ -914,7 +914,7 @@ PhotonRipper: {
 		'''
 		以急速投影出定向撕裂空间的光子链锯齿
 		这把武器和它的投影会破坏树木
-		Press <right> to use without chopping down trees
+		按住右键使用以避免砍伐树木
 		'''
 }
 
@@ -1101,7 +1101,7 @@ StormRuler: {
 	DisplayName: 风暴管束者
 	Tooltip:
 		'''
-		Fires beams that generate tornadoes where they strike
+		发射剑气，命中时生成龙卷风暴
 		龙卷风暴会将敌怪吸入
 		“只有风暴才能击倒大树”
 		'''
@@ -1162,8 +1162,8 @@ Swordsplosion: {
 }
 
 TaintedBlade: {
-	DisplayName: Tainted Blade
-	Tooltip: Inflicts poison on enemy hits
+	DisplayName: 污浊之刃
+	Tooltip: 击中敌人时施加中毒减益
 }
 
 TeardropCleaver: {
@@ -1186,8 +1186,8 @@ Terratomere: {
 	Tooltip:
 		'''
 		真近战攻击击中敌人时会治愈玩家
-		Fires several piercing energy bolts that rapidly seek targets
-		On hit, explodes and repeatedly slashes the target
+		发射数道迅速追踪敌人的穿透能量矢
+		能量矢命中时爆炸并反复斩切目标
 		“与泰拉瑞亚世界之精华相连”
 		'''
 }
@@ -1214,13 +1214,13 @@ TheDarkMaster: {
 	DisplayName: The Dark Master
 	Tooltip:
 		'''
-		Fires red echo slash projectiles at full health
-		Projectile damage increases for every point of HP above 400
-		Press <right> to spawn three shadow clones in a Delta formation
-		The clones will mirror your sword swings and release projectiles
-		The clones will always fire projectiles regardless of your own HP
-		The clones may only exist while holding this weapon
-		'The blade by which the shadows levy their foes with a terrible fate'
+		当生命值为满时发射红色旋转剑气
+		生命值高于400点时每一点高出的生命值都会增加剑气伤害
+		按下右键以三角阵型召唤三只暗影克隆体
+		克隆体会复制你挥剑的动作并一同发射剑气弹幕
+		无论你的生命值是否为满，克隆体总会发射剑气弹幕
+		仅当手持此武器时克隆体才能存在
+		“暗影以可怖命运惩戒异己之剑”
 		'''
 }
 
@@ -1270,7 +1270,7 @@ TheObliterator: {
 		以死亡激光抹除周围敌人的存在
 		一只超级灵活的悠悠球
 		'''
-	TooltipGFB: just a slight bit of dust spam on this weapon im afraid
+	TooltipGFB: 恐怕这件武器上只沾染了一点微不足道的灰尘
 }
 
 TheOracle: {
@@ -1338,7 +1338,7 @@ TrueCausticEdge: {
 	Tooltip:
 		'''
 		发出弹射绝望光束
-		Inflicts acid venom and slows down on enemy hits
+		命中敌人时施加酸性毒液减益并减速
 		'''
 }
 
@@ -1390,8 +1390,8 @@ VoidEdge: {
 	DisplayName: Void Edge
 	Tooltip:
 		'''
-		Fires the ghastly souls of long-deceased abyss dwellers
-		Striking with the blade summons additional souls from below
+		发射早已逝去的深渊居民的可怖鬼魂
+		用剑刃击中敌人会从下方召唤额外的鬼魂
 		'''
 }
 
