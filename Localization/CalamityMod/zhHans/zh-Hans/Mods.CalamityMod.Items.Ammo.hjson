@@ -11,9 +11,9 @@ BloodfireArrow: {
 	DisplayName: 血炎箭
 	Tooltip:
 		'''
-		High-velocity arrows with a blood soaked tip
-		Firing these arrows will drain your health
-		Accelerates your natural life regen and heals you on hit
+		尖端浸透鲜血的高速箭矢
+		射出这些箭矢会消耗你的生命值
+		命中时加快自然生命再生并为你回复生命值
 		'''
 }
 
@@ -30,9 +30,9 @@ BloodRune: {
 	DisplayName: 血之符文
 	Tooltip:
 		'''
-		Passes through tiles and accelerates your natural life regen on hit
-		Deals bonus damage based on your current life regen and natural life regen
-		This damage caps at 25
+		可以穿过物块，并在命中时加快你的自然生命再生
+		基于你当前的生命再生与自然生命再生造成额外伤害
+		此伤害上限为25
 		'''
 }
 
@@ -40,22 +40,22 @@ BubonicRound: {
 	DisplayName: 鼠疫弹
 	Tooltip:
 		'''
-		Spreads the plague on hit
-		Ignores 10% of enemy defense
+		命中时散播瘟疫
+		无视敌人10%防御
 		'''
 }
 
 CinderArrow: {
 	DisplayName: Cinder Arrow
-	Tooltip: Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames
+	Tooltip: 爆裂出燃烧碎片的爆炸性箭矢，燃烧碎片会施加硫磺火减益
 }
 
 ElysianArrow: {
-	DisplayName: Elysian Arrow
+	DisplayName: 极乐之箭
 	Tooltip:
 		'''
-		Arrows carrying profaned energy
-		Summons purifying light from above and below on impact
+		携带亵渎能量的箭矢
+		撞击时从上方和下方召唤净化之光
 		'''
 }
 
@@ -78,8 +78,8 @@ HallowPointRound: {
 	DisplayName: Hallow-Point Round
 	Tooltip:
 		'''
-		Gallant light deals 6 bonus damage on hit
-		This effect does not occur if the bullets are converted by special guns
+		神圣耀光命中时造成6点额外伤害
+		如果弹药被特殊枪械转化，则此效果不生效。
 		'''
 }
 
@@ -87,8 +87,8 @@ HolyFireBullet: {
 	DisplayName: 圣火弹
 	Tooltip:
 		'''
-		Explosive holy bullets
-		Explosions are larger right when the bullets are fired
+		会爆炸的神圣子弹
+		子弹出膛之时爆炸尤为猛烈
 		'''
 }
 
@@ -96,9 +96,9 @@ HailstormBullet: {
 	DisplayName: Hailstorm Bullet
 	Tooltip:
 		'''
-		Bullets imbued with potent ice magic
-		These bullets rapidly decelerate after being fired
-		Critical hits cause a flash freeze, dealing additional damage
+		灌注了强力冰魔法的子弹
+		这些子弹发射后速度会快速衰减
+		暴击会引发霜爆，造成额外伤害
 		'''
 }
 
@@ -106,23 +106,18 @@ HyperiusBullet: {
 	DisplayName: 海伯里斯弹
 	Tooltip:
 		'''
-		Powerful multicolor bullets
-		Bullets split into swirling lights on impact
+		强大的彩色子弹
+		子弹撞击时分裂出闪烁的色彩漩涡
 		'''
 }
 
 IcicleArrow: {
 	DisplayName: 冰锥箭
-	Tooltip: 命中时碎裂
-}
-
-IcyBullet: {
-	DisplayName: 冰砾弹
 	Tooltip:
 		'''
-		Ice arrows with an enchanted tip
-		These arrows quickly freeze into falling icicles that deal increased damage
-		Hitting enemies or tiles before being frozen causes the arrow to fly upwards
+		拥有附魔箭头的冰箭
+		这些箭会迅速冻结转化为坠落的冰锥，造成更高伤害
+		在箭矢冻结前击中敌怪或物块会使其向上飞行
 		'''
 }
 
@@ -159,22 +154,22 @@ SproutingArrow: {
 	DisplayName: Sprouting Arrow
 	Tooltip:
 		'''
-		Fires an energy arrow that quickly splits into two arrows
-		These arrows ignore 8 points of defense
+		射出一支迅速一分为二的能量箭矢
+		这些箭矢无视8点防御
 		'''
 }
 
 DryadsTear: {
 	DisplayName: Dryad's Tear
-	Tooltip: Explodes and splits into homing nature shards on impact
+	Tooltip: 撞击时爆炸并分裂出追踪的自然碎片
 }
 
 VanquisherArrow: {
 	DisplayName: 征戮箭
 	Tooltip:
 		'''
-		Powerful arrows forged with cosmic steel
-		Pierces through tiles and homes in on enemies
+		由寰宇之钢打造的强力箭矢
+		可以穿过物块并能追踪敌怪
 		'''
 }
 
@@ -182,8 +177,8 @@ VeriumBolt: {
 	DisplayName: VeriumBolt
 	Tooltip:
 		'''
-		Marks enemies on hit, dealing extra damage after a short time
-		This damage stacks based on how many bolts hit the enemy
-		'There is no escape...
+		命中时标记敌人，短时间后造成额外伤害
+		此伤害随命中箭矢数量增加而逐步叠加
+		'已经扎满了……
 		'''
 }
