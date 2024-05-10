@@ -25,7 +25,7 @@ AstrophageItem: {
 }
 
 MonolithCrate: {
-	DisplayName: Monolith Crate
+	DisplayName: 星石匣
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -116,7 +116,7 @@ Shadowfish: {
 }
 
 SlagCrate: {
-	DisplayName: Slag Crate
+	DisplayName: 焦炭匣
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -127,7 +127,7 @@ Slurpfish: {
 
 // Sunken Sea Catches
 EutrophicCrate: {
-	DisplayName: Eutrophic Crate
+	DisplayName: 富养匣
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -142,7 +142,7 @@ GreenwaveLoach: {
 }
 
 PrismCrate: {
-	DisplayName: Prism Crate
+	DisplayName: 棱晶匣
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -236,7 +236,7 @@ Gorecodile: {
 }
 
 HydrothermalCrate: {
-	DisplayName: Hydrothermal Crate
+	DisplayName: 渊泉匣
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
