@@ -90,9 +90,9 @@ InSulph: 身处硫磺海时
 InSunken: 身处沉沦之海时
 InRev: 在复仇模式中
 AlcoholPoison: 当玩家带有酒精中毒减益时
-DownedHM: After the Hive Mind has been defeated
-DownedPerfs: After the Perforator Hive has been defeated
-DownedEvil2Boss: After the Hive Mind or the Perforators have been defeated
+DownedHM: 在腐巢意志被击败后
+DownedPerfs: 在血肉宿主被击败后
+DownedEvil2Boss: 在腐巢意志或血肉宿主被击败后
 PostCal: 在灾厄之影被击败后
 PostAureus: 在白金星舰被击败后
 PostPolter: 在噬魂幽花被击败后
