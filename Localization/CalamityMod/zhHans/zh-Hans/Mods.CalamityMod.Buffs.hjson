@@ -755,7 +755,7 @@ HallowedRuneRegeneration: {
 
 Haste: {
 	DisplayName: Haste
-	Description: Increased movement speed and acceleration
+	Description: 移动速度与加速度提升
 }
 
 IceShieldBuff: {
@@ -1521,11 +1521,11 @@ AbsorberAffliction: {
 }
 
 YoungDukeBuff: {
-	DisplayName: Baby Boomer
-	Description: The mutated fishron will intoxicate your foes
+	DisplayName: 硫海新爵
+	Description: 突变猪龙鱼会使你的敌人身中剧毒
 }
 
 LiliesOfFinalityBuff: {
 	DisplayName: Finality
-	Description: Remember our promise
+	Description: 铭记我们的诺言
 }
