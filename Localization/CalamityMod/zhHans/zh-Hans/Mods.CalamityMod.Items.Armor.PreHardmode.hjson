@@ -13,8 +13,8 @@ AerospecHat: {
 	Tooltip: 增加10%魔法伤害和30点最大魔力值
 	SetBonus:
 		'''
-		8% reduced mana cost
-		5% increased movement speed and magic critical strike chance
+		降低8%魔力消耗
+		增加5%移动速度与魔法暴击率
 		'''
 }
 
