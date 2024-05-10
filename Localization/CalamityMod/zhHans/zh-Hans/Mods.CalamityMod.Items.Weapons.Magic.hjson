@@ -230,8 +230,8 @@ Downpour: {
 	DisplayName: 水灌
 	Tooltip:
 		'''
-		Fires an explosive stream of sand that falls after hitting an enemy
-		The explosion only occurs when the projectile expires
+		射出一束爆炸性沙弹，沙弹命中敌怪后会下坠
+		沙弹只会在消失时爆炸
 		'''
 }
 
@@ -323,7 +323,7 @@ FlareBolt: {
 
 ForbiddenSun: {
 	DisplayName: 禁忌之阳
-	Tooltip: Casts a fire orb that emits a gigantic explosion on hit
+	Tooltip: 投掷一枚火球，命中时发生剧烈爆炸
 }
 
 FrigidflashBolt: {
@@ -340,9 +340,9 @@ Genisis: {
 	DisplayName: 源
 	Tooltip:
 		'''
-		Fire an array of lasers that decreases in spread for each shot
-		Every sixth shot fires a splitting Genesis Beam and resets the spread of the weapon
-		Hitting an enemy where the Genesis Beam splits deals increased damage
+		发射一组激光束，每次射击都会使散布降低
+		每射击六次便会发射一束分裂的源能量束，并重置此武器的散布。
+		源能量束分裂处命中敌怪会造成更高伤害
 		'''
 }
 
@@ -545,13 +545,13 @@ NuclearFury: {
 }
 
 Omicron: {
-	DisplayName: Omicron
+	DisplayName: 奥密克戎
 	Tooltip:
 		'''
-		Fires a continuous array of lasers and spawns two Wingmen which orbit you and fire lasers at your cursor
-		Press <right> when firing to shoot an Omicron Beam that splits upon hitting an enemy
-		After firing an Omicron Beam your Wingmen will launch a pair of grenades
-		Hitting an enemy with an Omicron Beam right as it is fired will increase the damage done substantially and stop it from splitting
+		发射一组连续激光并召唤两只侧翼，侧翼会环绕玩家旋转并向光标位置发射激光
+		射击时按下右键可发射一束奥密克戎光束，光束在命中敌怪时会分裂
+		发射奥密克戎光束后你的侧翼会发射一对榴弹
+		当敌人被激光集火时使用奥密克戎光束命中敌人会巨幅提高光束的伤害，并阻止光束分裂
 		'''
 }
 
@@ -578,8 +578,8 @@ Photosynthesis: {
 	DisplayName: Photosynthesis
 	Tooltip:
 		'''
-		Casts a brilliant ray that dissolves into energy on enemy hits
-		More energy is created the farther along the ray the hit enemy is
+		发射一条明亮的光束，在命中敌人时转化为能量
+		命中时敌人距离越远生成的能量越多
 		'''
 }
 
@@ -692,8 +692,8 @@ Serpentine: {
 }
 
 ShadecrystalBarrage: {
-	DisplayName: ShadecrystalBarrage
-	Tooltip: Summons bursts of shadecrystals that can home in on enemies
+	DisplayName: 暗晶风暴
+	Tooltip: 发射大量追踪敌人的暗晶碎片
 }
 
 ShaderainStaff: {
@@ -736,8 +736,8 @@ SnowstormStaff: {
 	DisplayName: 冰晶风暴
 	Tooltip:
 		'''
-		Fires snowflakes that follows the mouse cursor
-		Snowflakes split into ice stars on enemy hits
+		发射跟随鼠标的雪花
+		雪花在命中敌人时会碎裂成冰碎片
 		'''
 }
 
@@ -753,7 +753,7 @@ StaffofBlushie: {
 
 StarShower: {
 	DisplayName: 流星雨
-	Tooltip: Casts a spread of astral stars from the sky that converge at the cursor
+	Tooltip: 从天空中召唤数个幻星，向光标位置汇聚
 }
 
 SubsumingVortex: {
@@ -786,11 +786,11 @@ Teslastaff: {
 	DisplayName: Teslastaff
 	Tooltip:
 		'''
-		Fires a channeled beam of pinpoint-accurate lightning
-		The beam has limited turning speed capability
-		Each successive hit on the same enemy increases damage per hit
-		The damage increases 10% per hit to a maximum of 500% damage
-		This damage will rapidly decrease after the enemy stops being hit
+		发射一束可控的闪电光束
+		光束的转向速度有限
+		每命中同一个敌怪一次便会使伤害提升一次
+		每次命中提升10%伤害，最多提升至500%伤害
+		若未能命中该敌怪则伤害加成会迅速降低
 		'''
 }
 
@@ -907,9 +907,9 @@ Viscera: {
 	DisplayName: 心泵血杖
 	Tooltip:
 		'''
-		Fires a rapid barrage of piercing blood beams that heal you on enemy hit
-		Each successive beam in the barrage deals more damage
-		The last beam of the barrage instead explodes upon hitting an enemy
+		迅速发射一组穿透鲜血束，在命中敌怪时治疗你
+		每组连续发射的鲜血束伤害会逐步提升
+		每组的最后一道鲜血束不再穿透，而是在命中敌怪时爆炸
 		'''
 }
 
@@ -931,12 +931,12 @@ VividClarity: {
 
 VoidVortex: {
 	DisplayName: 虚空漩涡
-	Tooltip: Conjures a swirling vortex of supercharged magnet spheres around the cursor that explodes into a storm of homing mini spheres
+	Tooltip: 在光标处召唤一个由磁暴球体组成的漩涡，漩涡会爆炸生成巨量追踪的微型球体
 }
 
 VoltaicClimax: {
 	DisplayName: 极点光伏
-	Tooltip: Conjures a ring of supercharged magnet spheres around the cursor
+	Tooltip: 在光标处召唤一圈高压电磁球
 }
 
 Waywasher: {
@@ -948,9 +948,9 @@ Wingman: {
 	DisplayName: 侧翼
 	Tooltip:
 		'''
-		Spawns two Wingmen which orbit you and fire lasers at your cursor
-		Press <right> while firing to order the Wingmen to launch grenades
-		Grenades have a cooldown which is shortened if the Wingmen are fully revved up
+		召唤两只环绕你旋转的侧翼，向光标位置发射激光
+		射击时按下右键可命令侧翼发射榴弹
+		发射榴弹有冷却间隔，当侧翼达到最高速度时冷却会缩短
 		'''
 }
 
