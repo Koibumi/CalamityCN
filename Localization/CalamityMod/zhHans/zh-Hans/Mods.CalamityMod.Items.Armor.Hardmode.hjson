@@ -66,7 +66,7 @@ CirrusDress: {
 		'''
 		增加5%魔法伤害和魔法暴击率
 		降低20%移动速度，最大下落速度增加到61mph
-		Allows for drinking 5 alcohols before your liver is poisoned
+		你连喝五杯酒都不会肝中毒，但要是再贪杯……
 		[c/B00BA5:“来，穿上它，这个可以让你喝的比平常更多！”]
 		“你醉了……”
 		'''
@@ -105,9 +105,9 @@ DaedalusHeadMelee: {
 		敌人更有可能以你为目标
 		你能够反弹弹幕
 		被反弹的弹幕只会对你造成50%的伤害
-		Projectiles that deal less than 5% of your max life in damage will not be reflected
-		The reflect has a cooldown that ranges between 15 and 90 seconds depending on the reflected projectile's damage
-		This cooldown is shared with all other dodges and reflects
+		伤害低于5%最大生命值的弹幕不会被反弹
+		反弹效果的冷却时间取决于反弹弹幕的伤害量，在15秒至90秒之间线性变化
+		该反弹与其他的闪避或反弹效果共享冷却时间
 		'''
 }
 
@@ -174,8 +174,8 @@ FathomSwarmerBreastplate: {
 	Tooltip:
 		'''
 		增加6%伤害减免
-		Increases your max number of minions by 1
-		10% increased summon damage
+		增加1仆从栏位
+		增加10%召唤伤害
 		降低深渊造成的防御削减效果
 		'''
 }
@@ -184,15 +184,15 @@ FathomSwarmerVisage: {
 	DisplayName: 幻渊鱼群面罩
 	Tooltip:
 		'''
-		Increases your max number of minions by 1
-		8% increased summon damage
-		Provides breathing and light underwater
+		增加1仆从栏位
+		增加8%召唤伤害
+		提供水下呼吸与照明效果
 		'''
 	SetBonus:
 		'''
 		增加10%召唤伤害和2仆从栏
 		获得爬墙的能力
-		20% increased summon damage, +10 defense and +2.5 HP/s life regen while underwater
+		浸没在液体中时增加20%召唤伤害，10点防御和 2.5  HP/秒生命再生
 		在深渊提供适量光照，并适度减少深渊中的氧气损耗	
 		'''
 }
@@ -337,7 +337,7 @@ LunicCorpsHelmet: {
 		这是指发射器、飞镖枪和其他一切不发射子弹或弓箭的武器
 		增加20%跳跃速度
 		'''
-	ShieldAdren: Halves Adrenaline lost on hit if the shield fully absorbs the hit
+	ShieldAdren: 如果护盾抵挡了所有伤害，则受击损失的肾上腺素减半
 }
 
 LunicCorpsVest: {
@@ -499,10 +499,10 @@ ReaverHeadTank: {
 		增加10点防御和1.5 HP/s生命再生
 		敌人更有可能以你为目标
 		受到持续性伤害减益时的生命恢复损失降低20%
-		All attacks steal life and speed up the rate of life regen
+		所有攻击均能偷取生命并提升自身生命恢复速度
 		减少30%的移动速度与飞行时间
 		敌人会受到你的反伤，并且你被击中时召唤一束荆棘伤害敌人
-		Reaver Rage activates when you are damaged
+		受伤时获得掠夺者之怒
 		'''
 }
 
