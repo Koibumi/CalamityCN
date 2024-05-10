@@ -130,8 +130,8 @@ GhostlyMine.DisplayName: 幽魂雷
 GiantIbanRobotOfDoom.DisplayName: 仙女座
 GlacialEmbracePointyThing.DisplayName: 冰垒碎晶
 HallowedStarSummon.DisplayName: 神圣之星
-HarvestStaffMinion.DisplayName: Pumpoem
-HarvestStaffSentry.DisplayName: Pumpoem Nest
+HarvestStaffMinion.DisplayName: 南瓜之诗
+HarvestStaffSentry.DisplayName: 南瓜地
 HauntedDishes.DisplayName: 闹鬼餐碟
 HermitCrabMinion.DisplayName: 寄居蟹
 HerringAI.DisplayName: 鲱鱼
@@ -157,12 +157,12 @@ IgneousBladeStrike.DisplayName: 淬焰之刃
 IrradiatedAura.DisplayName: 辐射光环
 LanternFlame.DisplayName: 魂灯之火
 LanternSoul.DisplayName: 灯笼
-LiliesOfFinalityAoE.DisplayName: Bioresonance Aura
-LiliesOfFinalityAriane.DisplayName: Ariane
-LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
-LiliesOfFinalityBolt.DisplayName: Bioresonance Bolt
-LiliesOfFinalityElster.DisplayName: Elster
-LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
+LiliesOfFinalityAoE.DisplayName: 生物共振光环
+LiliesOfFinalityAriane.DisplayName: 阿丽亚娜
+LiliesOfFinalityBullet.DisplayName: 独角子弹
+LiliesOfFinalityBolt.DisplayName: 生物共振光束
+LiliesOfFinalityElster.DisplayName: 灵鹊
+LiliesOfEternityBullet.DisplayName: 永恒百合子弹
 LostSoulGiant.DisplayName: 灵魂
 LostSoulGold.DisplayName: 黄金灵魂
 LostSoulLarge.DisplayName: 灵魂
@@ -256,7 +256,7 @@ SiriusMinion.DisplayName: 天狼星
 SkeletalDragonChild.DisplayName: 骨龙之子
 SkeletalDragonMother.DisplayName: 骨龙之母
 SlimePuppet.DisplayName: 史莱姆傀儡
-StormjawSpark.DisplayName: Spark
+StormjawSpark.DisplayName: 火花
 CannonLaserbeam.DisplayName: 终灭激光
 ExoskeletonGaussNukeCannon.DisplayName: 高斯核弹
 ExoskeletonLaserCannon.DisplayName: 镭射加农炮
