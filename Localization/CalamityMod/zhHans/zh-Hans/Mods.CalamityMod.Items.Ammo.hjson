@@ -46,7 +46,7 @@ BubonicRound: {
 }
 
 CinderArrow: {
-	DisplayName: Cinder Arrow
+	DisplayName: 余烬箭
 	Tooltip: 爆裂出燃烧碎片的爆炸性箭矢，燃烧碎片会施加硫磺火减益
 }
 
@@ -75,7 +75,7 @@ GodSlayerSlug: {
 }
 
 HallowPointRound: {
-	DisplayName: Hallow-Point Round
+	DisplayName: 神圣空尖弹 
 	Tooltip:
 		'''
 		神圣耀光命中时造成6点额外伤害
@@ -160,7 +160,7 @@ SproutingArrow: {
 }
 
 DryadsTear: {
-	DisplayName: Dryad's Tear
+	DisplayName: 树妖之泪
 	Tooltip: 撞击时爆炸并分裂出追踪的自然碎片
 }
 
@@ -174,11 +174,11 @@ VanquisherArrow: {
 }
 
 VeriumBolt: {
-	DisplayName: VeriumBolt
+	DisplayName: 煦春弓
 	Tooltip:
 		'''
 		命中时标记敌人，短时间后造成额外伤害
 		此伤害随命中箭矢数量增加而逐步叠加
-		'已经扎满了……
+		已经扎满了……
 		'''
 }
