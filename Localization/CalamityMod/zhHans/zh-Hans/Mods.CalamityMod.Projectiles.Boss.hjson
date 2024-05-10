@@ -29,7 +29,7 @@ BrimstoneFire.DisplayName: 炼狱硫火
 BrimstoneHellblast.DisplayName: 深渊亡魂
 BrimstoneHellblast2.DisplayName: 深渊亡魂
 BrimstoneHellfireball.DisplayName: 炼狱硫火球
-BrimstoneMonster.DisplayName: 猩红圆月
+BrimstoneMonster.DisplayName: Whispering Maelstrom
 BrimstoneRay.DisplayName: 狱火永燃射线
 BrimstoneTargetRay.DisplayName: 狱火锁魂射线
 BrimstoneWave.DisplayName: 深渊炙颅
@@ -43,6 +43,8 @@ CirrusVolatileVodkaBottle.DisplayName: 挥发伏特加瓶
 DarkEnergyBall.DisplayName: 暗能量
 DarkEnergyBall2.DisplayName: 暗能量
 DarkOrb.DisplayName: 暗之球
+DesertScourgeDiveSplash.DisplayName: Desert Scourge Dive Splash
+DesertScourgeSpit.DisplayName: Scourge Spit
 DestroyerCursedLaser.DisplayName: 诅咒激光
 DestroyerElectricLaser.DisplayName: 带电激光
 DeusMine.DisplayName: 幻星雷
@@ -155,3 +157,4 @@ WaterSpear.DisplayName: 水之枪
 YharonBulletHellVortex.DisplayName: 子弹地狱旋涡
 YharonFireball.DisplayName: 龙炎弹
 YharonFireball2.DisplayName: 龙炎弹
+THanosSideLaser.DisplayName: T Hanos Side Laser

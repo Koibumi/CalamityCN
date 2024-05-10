@@ -232,6 +232,11 @@ MysteriousCircuitry: {
 	Tooltip: ""
 }
 
+Necroplasm: {
+	DisplayName: Necroplasm
+	Tooltip: 可怖恶意涌动不已
+}
+
 NightmareFuel: {
 	DisplayName: 梦魇魔能
 	Tooltip: 会搅乱你的心智
@@ -245,11 +250,6 @@ PearlShard: {
 PerennialBar: {
 	DisplayName: 永恒锭
 	Tooltip: ""
-}
-
-Polterplasm: {
-	DisplayName: 灵质
-	Tooltip: 可怖恶意涌动不已
 }
 
 PlagueCellCanister: {
@@ -302,8 +302,8 @@ SolarVeil: {
 	Tooltip: 没有任何一缕阳光能够穿透这块布料的纤维
 }
 
-Stardust: {
-	DisplayName: 星尘
+Starblight Soot: {
+	DisplayName: Starblight Soot
 	Tooltip: ""
 }
 

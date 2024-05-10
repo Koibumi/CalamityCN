@@ -29,18 +29,25 @@ AngelicShotgun: {
 	Tooltip:
 		'''
 		每次发射子弹的同时天空都会发射辐射光束
-		将火枪子弹转化为光爆弹
+		Converts musket balls into hallow-point rounds
 		“战斗直到胜利”
 		'''
 }
 
 Animosity: {
 	DisplayName: 憎恨
-	Tooltip:
+	GFBName: Shotgun Full of Hate
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		发射一发强大的狙击弹
-		右键以发射一连串子弹
-		50%几率节省弹药
+		Fires a shotgun blast with a tight spread which is imbued with Brimstone Flames
+		Press Right Click to fire a powerful brimstone round that inflicts Whispering Death
+		'''
+	TooltipGFB:
+		'''
+		[c/9c0b0b:Fires a shotgun blast full of hatred... among other things]
+		[c/ac14ba:Press Right Click to use a hexing rifle round instead]
+		[c/454545:By Cthulhu Eye, Yharon tooth...]
 		'''
 }
 
@@ -73,6 +80,15 @@ Archerfish: {
 	Tooltip: 将火枪子弹转化为一束水流
 }
 
+Arietes41: {
+	DisplayName: Arietes 41
+	Tooltip:
+		'''
+		Alternates between firing bullets imbued with lifesteal and electricity
+		Electric imbued bullets create a small shockblast on impact, dealing additional damage to the enemy they hit
+		'''
+}
+
 ArterialAssault: {
 	DisplayName: 血陨
 	Tooltip:
@@ -87,7 +103,7 @@ AstralBlaster: {
 	Tooltip: 将火枪子弹转化为追踪幻星弹
 }
 
-AstralRepeater: {
+AstralBow: {
 	DisplayName: 幻星弓
 	Tooltip: 一次发射三支箭
 }
@@ -135,9 +151,11 @@ BarracudaGun: {
 	Tooltip: 发射两只梭鱼咬住敌人并撕碎它们
 }
 
-BladedgeGreatbow: {
-	DisplayName: 锋叶十字弩
-	Tooltip: 一次发射四支箭和两片锋叶
+BladedgeRailbow: {
+	DisplayName: BladedgeRailbow
+	Tooltip: "[GFB]"
+	TooltipNormal: Fires a spread of 4 arrows and 2 leaves at once
+	TooltipGFB: Fires a spread of 4 arrows... along with other various things
 }
 
 BlightSpewer: {
@@ -296,18 +314,6 @@ CoralCannon: {
 		'''
 }
 
-CorinthPrime: {
-	DisplayName: 科林斯Prime
-	Tooltip:
-		'''
-		发射6发密集高速子弹
-		右键发射一颗榴弹
-		如果榴弹在2秒内未接触到任何东西，那么会产生巨大的爆炸
-		否则，榴弹只会产生极其微弱的爆炸
-		将火枪子弹转化为高速爆炸弹
-		'''
-}
-
 CorrodedCaustibow: {
 	DisplayName: 酸腐弓
 	Tooltip: 将木箭转换为缓慢但强力的毒箭，毒箭会留下辐射光环
@@ -329,13 +335,8 @@ CrackshotColt: {
 		右键将一枚铜币抛向空中
 		击中硬币的子弹会向着最近的敌人瞄准
 		至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
-		反弹的子弹必定暴击
+		Coins guarantee a critical strike after a short delay
 		'''
-}
-
-CursedCapper: {
-	DisplayName: 诅咒手枪
-	Tooltip: 发射诅咒弹
 }
 
 DaemonsFlame: {
@@ -373,6 +374,7 @@ Deathwind: {
 		'''
 		一次发射四支箭矢
 		将木箭转化为星云箭
+		Nebula arrows deal more damage and inflict god slayer inferno
 		'''
 }
 
@@ -380,7 +382,7 @@ DeepcoreGK2: {
 	DisplayName: 深核GK2
 	Tooltip:
 		'''
-		子弹大小变为原来的两倍，忽略敌怪15点防御
+		子弹大小变为原来的两倍，忽略敌怪10点防御
 		"挖到手软，赚到盆满！"
 		'''
 }
@@ -449,7 +451,7 @@ ElementalEruption: {
 
 EternalBlizzard: {
 	DisplayName: 恒吹雪
-	Tooltip: 额外发射一支命中后碎裂的冰锥箭
+	Tooltip: Fires an additional icicle arrow that freezes into a falling icicle
 }
 
 Eviscerator: {
@@ -478,16 +480,21 @@ FirestormCannon: {
 
 FlakKraken: {
 	DisplayName: 海妖克拉肯
-	Tooltip: 发射一个随时间流逝而更加强大的能量十字纹
+	Tooltip:
+		'''
+		Fires pairs of abyssal flak shells that explode into wide cones of ink shrapnel
+		Abyssal flak shells burst when they reach the cursor's position
+		Direct hits with the flak shell will deal reduced shrapnel damage
+		'''
 }
 
 FlakToxicannon: {
 	DisplayName: 剧毒高射炮
 	Tooltip:
 		'''
-		以一定的角度向光标处射击
-		仅能朝着玩家头顶的一定仰角范围内开火
-		“要求：智商高”
+		Fires a toxic shell that explodes into a cone of radioactive sludge
+		Toxic shells burst when they reach the cursor's position
+		Direct hits with the toxic shell will reduce the damage dealt by the sludge
 		'''
 }
 
@@ -530,7 +537,7 @@ FrostbiteBlaster: {
 
 Fungicide: {
 	DisplayName: 真菌枪
-	Tooltip: 将火枪子弹转化为命中后分裂的真菌弹
+	Tooltip: Converts musket balls into fungal rounds that split upon impact
 }
 
 Galeforce: {
@@ -622,7 +629,7 @@ HoarfrostBow: {
 	Tooltip:
 		'''
 		一次性发射两支箭矢
-		将木箭转换为霜雾箭
+		Converts wooden arrows into mist arrows that spread frost mist on collision
 		'''
 }
 
@@ -674,6 +681,16 @@ ArcNovaDiffuser: {
 		充能并快速发射新星能量矢
 		一级充能可以提升能量矢发射速率
 		二级充能会将冲击波替换为毁灭性的新星冲击波
+		'''
+}
+
+MagnaCannon: {
+	DisplayName: Magna Cannon
+	Tooltip:
+		'''
+		Charges up a rapid fire burst of crystal bolts
+		Charging for longer increases the number of bolts fired
+		Fully charged shots fire an even longer and more rapid burst
 		'''
 }
 
@@ -731,7 +748,7 @@ MidasPrime: {
 		右键将一枚金币或银币抛向空中
 		击中硬币的子弹会向着最近的敌人瞄准
 		至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
-		反弹的子弹必定暴击，并且会基于反弹的次数增加伤害
+		Coins guarantee a critical strike after a short delay and bullets do bonus damage based on coins used
 		'''
 	UltrakillEasterEgg:
 		'''
@@ -790,12 +807,22 @@ NettlevineGreatbow: {
 		'''
 }
 
-Norfleet: {
-	DisplayName: 诺法雷
-	Tooltip: 发射万物！
+NitroExpressRifle: {
+	DisplayName: Nitro Express Rifle
+	Tooltip: "[c/88354B:'The recoil feels strong enough to break your shoulder...']"
 }
 
-NullificationRifle: {
+Norfleet: {
+	DisplayName: 诺法雷
+	Tooltip:
+		'''
+		Fires a cluster of erratic energy spheres that each contain a different element
+		Every three shots the weapon must recharge its energy to reload
+		[c/FF9900:'Blows up everything!']
+		'''
+}
+
+NullificationPistol: {
 	DisplayName: 空
 	Tooltip:
 		'''
@@ -836,7 +863,7 @@ OverloadedBlaster: {
 	Tooltip:
 		'''
 		将凝胶转化为一串活性凝胶珍珠，它们会在静止时过载
-		过载的凝胶珍珠造成175%伤害，但不再穿透
+		Overloaded slime pearls deal 60% more damage but no longer pierce
 		凝胶珍珠在接触到物块后会高速反弹
 		使用凝胶作为弹药
 		25%几率节省弹药
@@ -848,7 +875,7 @@ P90: {
 	Tooltip:
 		'''
 		以极高的频率释放一连串穿甲弹
-		穿甲弹无视15点防御
+		穿甲弹无视30点防御
 		75%几率节省弹药
 		“这是根子弹管”
 		'''
@@ -858,9 +885,8 @@ PearlGod: {
 	DisplayName: 珍珠之神
 	Tooltip:
 		'''
-		发射吸血的震爆弹和火枪子弹
-		每七次射击发射一枚强力冲击波子弹
-		“汝命归我……”
+		Alternates between firing a bullet imbued with lifesteal and 3 bullets imbued with pearlescence
+		Pearlescent imbued bullets create a radiant flash on impact, dealing additional damage to the enemy they hit
 		'''
 }
 
@@ -911,11 +937,19 @@ PlanetaryAnnihilation: {
 
 PolarisParrotfish: {
 	DisplayName: 北辰鹦哥鱼
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		弹幕击中敌人给予武器增幅
-		受到伤害时此增益消失
+		Rapidly fires an array of colorful star shots that bounce off tiles
+		However, only two shots can exist at once
 		“它带有北极星的标记”
+		'''
+	TooltipGFB:
+		'''
+		Rapidly fires an array of colorful star shots that bounce off tiles
+		However, only two shots can exist at once
+		Right click to give the little girl some attention
+		'She is a happy girl'
 		'''
 }
 
@@ -1000,9 +1034,10 @@ Scorpio: {
 	DisplayName: 天蝎座
 	Tooltip:
 		'''
-		右键发射核弹
-		使用可摧毁物块的弹药时火箭会破坏物块
-		“BOOM”
+		Hold <left> to fire a barrage of homing nano missiles and charge energy
+		Maximum charge is reached after firing 3 barrages
+		<right> while holding <left> at max charge to launch a nano nuke
+		Nano nukes deal massive damage and reset the cooldown of missile barrages
 		'''
 }
 
@@ -1078,7 +1113,7 @@ Shroomer: {
 
 SlagMagnum: {
 	DisplayName: 熔渣马格南
-	Tooltip: 将火枪子弹转化为化石碎片，命中后生成额外的化石碎片
+	Tooltip: Converts musket balls into fossil shards that split into additional shards on impact
 }
 
 SomaPrime: {
@@ -1209,16 +1244,6 @@ TelluricGlare: {
 	Tooltip: 发射四支可穿透物块的爆炸辐射箭
 }
 
-TerraFlameburster: {
-	DisplayName: 泰拉喷火器
-	Tooltip:
-		'''
-		充能发射一束活性火焰和成对的追踪泰拉火球
-		使用凝胶作为弹药
-		50%几率节省弹药
-		'''
-}
-
 TheBallista: {
 	DisplayName: 破城巨弓
 	Tooltip: 将木箭转化为能击碎敌人的护甲并且会碎裂为化石碎片的破城巨箭
@@ -1228,8 +1253,9 @@ TheHive: {
 	DisplayName: 蜂巢发射器
 	Tooltip:
 		'''
-		发射多种瘟疫火箭，爆炸时会生成友好的蜜蜂
-		当使用可摧毁物块的弹药时火箭会破坏物块
+		Launches a wide spread of 4 missiles that explode on contact with enemies and tiles
+		Charging the launcher decreases the spread and increases the velocity of the missile barrage
+		Fully charging the launcher will cause it to fire a nuke to decimate a massive area on impact
 		'''
 }
 
@@ -1246,6 +1272,15 @@ TheMaelstrom: {
 ThePack: {
 	DisplayName: 集束火箭
 	Tooltip: 发射一个大的追踪火箭，接近敌人时爆炸出小的追踪火箭
+}
+
+ThermoclineBlaster: {
+	DisplayName: Thermocline Blaster
+	Tooltip:
+		'''
+		Alternates between firing bullets imbued with fire and ice
+		Any bullet type can be imbued when fired from this gun
+		'''
 }
 
 TheSevensStriker: {
@@ -1318,6 +1353,15 @@ UniversalGenesis: {
 		'''
 }
 
+VernalBolter: {
+	DisplayName: Vernal Bolter
+	Tooltip:
+		'''
+		Fires a tight column of three arrows
+		Converts wooden arrows into sliding energy bolts
+		'''
+}
+
 Voidragon: {
 	DisplayName: 太虚星龙炮
 	Tooltip:
@@ -1333,6 +1377,16 @@ Vortexpopper: {
 	Tooltip: 从各个方向发射泡泡，爆炸时产生子弹
 }
 
+WildfireBloom: {
+	DisplayName: Wildfire Bloom
+	Tooltip:
+		'''
+		Charges up to emit a stream of energized flames and pairs of homing wildfire flares
+		Uses gel for ammo
+		50% chance to save ammo
+		'''
+}
+
 WulfrumBlunderbuss: {
 	DisplayName: 钨钢火铳
 	Tooltip:
@@ -1342,15 +1396,5 @@ WulfrumBlunderbuss: {
 		无视敌人3点防御力
 		[c/83B87E:“钨钢的好处是虽然随便就碎了，但它可以很快就二次利用]
 		[c/83B87E:事实上，机器人停工后即刻变成弹药是很常见的”]
-		'''
-}
-
-MagnaCannon: {
-	DisplayName: 麦格纳炮
-	Tooltip:
-		'''
-		充能发射一阵快速的水晶矢冲击波
-        随着充能时间的增长，会提升发射的水晶矢数量
-        满充能会发射一阵持续时间更长，速度更快的冲击波
 		'''
 }

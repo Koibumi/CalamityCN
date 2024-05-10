@@ -16,11 +16,11 @@ HardmodeOreTier4Text: 神圣之地已得到神之金属的祝福！
 IceOreText: 寒晶能量从冰之洞穴中迸发而出。
 // Aquatic Scourge
 WetWormBossText: 硫磺海的天空变暗了……
-// Cal Clone
-PlantBossText: 海洋的深处传来震动。
 // Plantera
 PlantOreText: 富含能量的植物物质已在地下形成。
 SandSharkText3: 沙漠正在剧烈动荡！
+// Leviathan
+AbyssDropsText: 海洋的深处传来震动。
 // Astrum Aureus
 AstralText: 一颗明星从天堂中坠陨！
 AureusBossText: 星幻敌人得到了增强！
@@ -31,9 +31,8 @@ BabyBossText: 一场瘟疫席卷了丛林。
 AstralBossText: 幻星的封印已破碎！你可以挖掘炫星矿了。
 // Moon Lord
 MoonBossText: 亵渎之火猛烈燃烧！
-MoonBossText2: 宇宙的恐惧正注着这一切……
 FutureOreText: 冷黯的能量散布至宇宙之间。
-ProfanedBossText2: 尖叫声回荡于地牢之中。
+ProfanedBossText2: 尖叫声回荡于地牢之中……
 // Providence
 TreeOreText: 石化树皮正在丛林的淤泥中爆发。
 ProfanedBossText3: 灾厄造物已被血石洗礼。

@@ -690,7 +690,7 @@ BrimflameFrenzyBuff: {
 
 BrutalCarnage: {
 	DisplayName: 残暴屠杀
-	Description: 增加25%近战伤害和10%近战暴击率
+	Description: 增加20%近战伤害
 }
 
 ChiBuff: {
@@ -753,6 +753,11 @@ HallowedRuneRegeneration: {
 	Description: 再生生命
 }
 
+Haste: {
+	DisplayName: Haste
+	Description: Increased movement speed and acceleration
+}
+
 IceShieldBuff: {
 	DisplayName: 冰盾
 	Description: 吸收下次攻击伤害的20%，随后破碎
@@ -785,11 +790,6 @@ PhantomicShield: {
 		增加10点防御和5%伤害减免
 		幻魂壁垒保护着你
 		'''
-}
-
-PolarisBuff: {
-	DisplayName: 极星之护
-	Description: 北极星强化了你的生命再生
 }
 
 ProfanedCrystalBuff: {
@@ -1521,6 +1521,11 @@ AbsorberAffliction: {
 }
 
 YoungDukeBuff: {
-	DisplayName: 硫海新爵
-	Description: Mods.CalamityMod.Buffs.YoungDukeBuff.Description
+	DisplayName: Baby Boomer
+	Description: The mutated fishron will intoxicate your foes
+}
+
+LiliesOfFinalityBuff: {
+	DisplayName: Finality
+	Description: Remember our promise
 }

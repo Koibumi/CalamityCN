@@ -1,13 +1,3 @@
-AccelerationRound: {
-	DisplayName: 加速弹
-	Tooltip: 速度会逐渐加快
-}
-
-ArcticArrow: {
-	DisplayName: 北极箭
-	Tooltip: 短暂冻结敌人
-}
-
 AstralSolution: {
 	DisplayName: 星源溶液
 	Tooltip:
@@ -19,7 +9,12 @@ AstralSolution: {
 
 BloodfireArrow: {
 	DisplayName: 血炎箭
-	Tooltip: 击中敌人时会治疗你
+	Tooltip:
+		'''
+		High-velocity arrows with a blood soaked tip
+		Firing these arrows will drain your health
+		Accelerates your natural life regen and heals you on hit
+		'''
 }
 
 BloodfireBullet: {
@@ -35,8 +30,9 @@ BloodRune: {
 	DisplayName: 血之符文
 	Tooltip:
 		'''
-		可由寒冰弹幕使用
-		在某些类似符文的壁画上发现的
+		Passes through tiles and accelerates your natural life regen on hit
+		Deals bonus damage based on your current life regen and natural life regen
+		This damage caps at 25
 		'''
 }
 
@@ -44,19 +40,23 @@ BubonicRound: {
 	DisplayName: 鼠疫弹
 	Tooltip:
 		'''
-		击中敌人时会爆裂出致命瘟疫
-		无视敌人25%防御
+		Spreads the plague on hit
+		Ignores 10% of enemy defense
 		'''
 }
 
-ElysianArrow: {
-	DisplayName: 极乐之箭
-	Tooltip: 在消失时会使陨石从天而降
+CinderArrow: {
+	DisplayName: Cinder Arrow
+	Tooltip: Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames
 }
 
-EnhancedNanoRound: {
-	DisplayName: 注魔纳米弹
-	Tooltip: 击中敌人时会造成困惑减益，并使其在死亡时释放纳米云
+ElysianArrow: {
+	DisplayName: Elysian Arrow
+	Tooltip:
+		'''
+		Arrows carrying profaned energy
+		Summons purifying light from above and below on impact
+		'''
 }
 
 FlashRound: {
@@ -74,17 +74,40 @@ GodSlayerSlug: {
 		'''
 }
 
+HallowPointRound: {
+	DisplayName: Hallow-Point Round
+	Tooltip:
+		'''
+		Gallant light deals 6 bonus damage on hit
+		This effect does not occur if the bullets are converted by special guns
+		'''
+}
+
 HolyFireBullet: {
 	DisplayName: 圣火弹
-	Tooltip: 会爆炸的神圣子弹
+	Tooltip:
+		'''
+		Explosive holy bullets
+		Explosions are larger right when the bullets are fired
+		'''
+}
+
+HailstormBullet: {
+	DisplayName: Hailstorm Bullet
+	Tooltip:
+		'''
+		Bullets imbued with potent ice magic
+		These bullets rapidly decelerate after being fired
+		Critical hits cause a flash freeze, dealing additional damage
+		'''
 }
 
 HyperiusBullet: {
 	DisplayName: 海伯里斯弹
 	Tooltip:
 		'''
-		你的敌人不会好过了
-		击中敌人时会产生额外的子弹
+		Powerful multicolor bullets
+		Bullets split into swirling lights on impact
 		'''
 }
 
@@ -97,8 +120,9 @@ IcyBullet: {
 	DisplayName: 冰砾弹
 	Tooltip:
 		'''
-		可以命中至多三次
-		第三次命中时会分裂成碎冰
+		Ice arrows with an enchanted tip
+		These arrows quickly freeze into falling icicles that deal increased damage
+		Hitting enemies or tiles before being frozen causes the arrow to fly upwards
 		'''
 }
 
@@ -121,11 +145,6 @@ MortarRound: {
 		'''
 }
 
-NapalmArrow: {
-	DisplayName: 汽油箭
-	Tooltip: 爆裂出火星子
-}
-
 RubberMortarRound: {
 	DisplayName: 橡胶迫击炮炮弹
 	Tooltip:
@@ -136,35 +155,35 @@ RubberMortarRound: {
 		'''
 }
 
-SuperballBullet: {
-	DisplayName: 弹球弹
-	Tooltip: 快速反弹
+SproutingArrow: {
+	DisplayName: Sprouting Arrow
+	Tooltip:
+		'''
+		Fires an energy arrow that quickly splits into two arrows
+		These arrows ignore 8 points of defense
+		'''
 }
 
-TerraArrow: {
-	DisplayName: 泰拉箭
-	Tooltip: 高速移动并在达到一定的距离时分裂成更多箭矢
-}
-
-TerraBullet: {
-	DisplayName: 泰拉弹
-	Tooltip: 在消失时会爆炸并分裂出能够追踪的泰拉裂片
+DryadsTear: {
+	DisplayName: Dryad's Tear
+	Tooltip: Explodes and splits into homing nature shards on impact
 }
 
 VanquisherArrow: {
 	DisplayName: 征戮箭
 	Tooltip:
 		'''
-		穿透物块
-		移动时会分裂出额外的追踪箭矢
+		Powerful arrows forged with cosmic steel
+		Pierces through tiles and homes in on enemies
 		'''
 }
 
-VeriumBullet: {
-	DisplayName: 钫弹
+VeriumBolt: {
+	DisplayName: VeriumBolt
 	Tooltip:
 		'''
-		你逃不掉了！
-		在击中一名敌人后会获得追踪能力
+		Marks enemies on hit, dealing extra damage after a short time
+		This damage stacks based on how many bolts hit the enemy
+		'There is no escape...
 		'''
 }

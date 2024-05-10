@@ -46,7 +46,7 @@ AbyssalDivingSuit: {
 		提供水下光照以及在冰面上获得额外的机动性
 		在深渊中提供适量光照
 		大幅度减缓在深渊中时的氧气消耗速度
-		削减深渊生物的探测能力
+		Makes it more difficult for abyss creatures to detect you
 		降低深渊的防御削减效果
 		使你免疫硫磺海水的效果
 		允许你在液体中更快地下潜
@@ -60,7 +60,9 @@ AbyssalMirror: {
 		大幅度降低敌人的攻击性，即便是在深渊中亦是如此
 		站定不动时增加25%潜行值恢复速度，移动时增加12%潜行值恢复速度
 		使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
-		闪避攻击时会使你获得大量的潜行值，闪避攻击的能力有90秒冷却时间
+		Attacks that deal less than 5% of your max life in damage will not be evaded
+		The evade has a cooldown that ranges between 15 and 90 seconds depending on the evaded attack's damage
+		Evading an attack grants a lot of stealth
 		该闪避与其他的闪避或反弹效果共享冷却时间
 		“光无法到达海洋深处”
 		'''
@@ -81,7 +83,7 @@ AeroStone: {
 	DisplayName: 天蓝石
 	Tooltip:
 		'''
-		提供25的额外飞行时间
+		提供50的额外飞行时间
 		当你处于空中并且没有处于飞行或滑翔状态时，你的飞行时间会缓慢恢复
 		“远古遗物之一”
 		'''
@@ -122,7 +124,9 @@ AmalgamatedBrain: {
 		增加10%伤害
 		被击中时会使阴影之雨从天而降
 		使你获得闪避攻击的能力
-		闪避攻击的能力有90秒冷却时间且该闪避与其他的闪避或反弹效果共享冷却时间
+		Attacks that deal less than 5% of your max life in damage will not be dodged
+		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
+		This cooldown is shared with all other dodges and reflects
 		闪避攻击后会使你获得暴击率和召唤伤害加成
 		受到攻击时会对附近的敌人造成困惑减益
 		'''
@@ -160,7 +164,7 @@ AnechoicPlating: {
 	DisplayName: 吸音隔板
 	Tooltip:
 		'''
-		削减深渊生物的探测能力
+		Makes it more difficult for abyss creatures to detect you
 		降低深渊的防御削减效果
 		'''
 }
@@ -254,6 +258,15 @@ AsgardsValor: {
 		'''
 }
 
+AuricSoulArtifact: {
+	DisplayName: Auric Soul Artifact
+	Tooltip:
+		'''
+		For each Fiery Draconid you have summoned, you gain 1 minion slot
+		Loyalty
+		'''
+}
+
 BadgeofBravery: {
 	DisplayName: 勇气勋章
 	Tooltip:
@@ -304,11 +317,7 @@ BloodstainedGlove: {
 
 BloodyWormScarf: {
 	DisplayName: 血蠕虫围巾
-	Tooltip:
-		'''
-		增加7%伤害减免
-		增加10%近战伤害
-		'''
+	Tooltip: 10% increased damage reduction and melee damage
 }
 
 BloodyWormTooth: {
@@ -357,9 +366,10 @@ ChaliceOfTheBloodGod: {
 	Tooltip:
 		'''
 		增加25%最大生命值
+		+2 HP/s life regen and reduces the cooldown of healing potions by 25%
 		受到5点以上伤害时，将超出的部分转化为流血效果
 		这种效果不会影响生命恢复
-		使用治疗药水会移除一半剩余的流血伤害
+		Drinking a healing potion cancels up to 50% of its heal value of remaining bleed damage
 		在流血时解除装备将会立即造成剩余伤害
 		“竟然为了一滴血付出了这么多”
 		'''
@@ -390,7 +400,7 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		所有的盗贼武器在击中敌人时都会造成中毒减益并生成辐射毒云
+		All rogue weapons inflict poison and spawn poisoned clouds on enemy hits
 		受到伤害时会释放大量毒云
 		'''
 }
@@ -516,8 +526,9 @@ DeepDiver: {
 	DisplayName: 深潜者
 	Tooltip:
 		'''
-		在水下时增加15%伤害、移动速度和15点防御
-		在水下时使你获得长距离冲刺能力
+		Allows the ability to do a short ram dash
+		This dash can slam through enemies without taking damage and can be used quickly in succession
+		Provides greatly improved water mobility
 		'''
 }
 
@@ -525,9 +536,9 @@ DeificAmulet: {
 	DisplayName: 神圣护符
 	Tooltip:
 		'''
-		受到伤害时会召唤星星从天而降并延长受伤后无敌时间
-		增加 0.5 HP/秒生命再生
-		缩短治疗药水的冷却时间
+		Causes stars to fall and increases length of invincibility after taking damage
+		Grants bonus invincibility frames based on your missing health
+		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
 		'''
 }
 
@@ -544,8 +555,8 @@ DimensionalSoulArtifact: {
 	DisplayName: 维魂神物
 	Tooltip:
 		'''
-		力量
 		所有伤害乘1.2倍，代价是所受伤害增加15%
+		力量
 		'''
 }
 
@@ -577,7 +588,7 @@ DragonScales: {
 	Tooltip:
 		'''
 		盗贼武器的弹幕在飞行时会生成缓慢移动的火球
-		潜伏攻击弹幕消失后会生成地狱龙卷
+		Stealth strikes create infernados where they hit
 		增加10%移动速度和加速度
 		使你免疫龙焰减益
 		只有真龙才能拥有真正的宝藏
@@ -588,9 +599,9 @@ DynamoStemCells: {
 	DisplayName: 痴愚金龙干细胞
 	Tooltip:
 		'''
-		增加10%移动速度
-		远程武器有几率发射迷你龙裔
-		使你免疫龙焰和带电减益
+		10% increased ranged damage and movement speed
+		Ranged weapons fire a powerful mini swarmer every 3 seconds
+		Reduces the damage of the Dragonfire and Electrified debuff
 		'''
 }
 
@@ -605,7 +616,9 @@ EclipseMirror: {
 		移动但不攻击时增加潜行值恢复速度
 		潜伏攻击只会消耗50%潜行值
 		在黑日之光的聚爆之中，你能够闪避一次攻击，聚爆会在大范围内造成很高的伤害
-		闪避攻击时会使你的潜行值回复至满，闪避攻击的能力有90秒冷却时间
+		Attacks that deal less than 5% of your max life in damage will not be evaded
+		The evade has a cooldown that ranges between 15 and 90 seconds depending on the evaded attack's damage
+		Evading an attack grants a lot of stealth
 		该闪避与其他的闪避或反弹效果共享冷却时间
 		“它所映出的只有无边黑暗”
 		'''
@@ -675,7 +688,7 @@ EtherealExtorter: {
 	DisplayName: 虚空掠夺者
 	Tooltip:
 		'''
-		盗贼武器的弹幕在消失时会爆炸成追踪灵魂
+		Rogue projectiles explode into homing souls on hit
 		增加8%盗贼伤害和5点最大潜行值
 		'''
 }
@@ -746,8 +759,8 @@ FrostBarrier: {
 	DisplayName: 寒冰屏障
 	Tooltip:
 		'''
-		受到攻击时会冻结周围的敌人
-		使你免疫冷冻减益
+		You will freeze nearby enemies when you are struck
+		Grants immunity to Chilled and Frostburn
 		'''
 }
 
@@ -757,8 +770,8 @@ FrostFlare: {
 		'''
 		所有攻击和弹幕都会造成霜冻减益
 		使你免疫霜冻、冷冻和冰冻减益
-		生命值高于75%时增加10%伤害
-		生命值低于25%时增加20点防御、15%最大移动速度和加速度
+		生命值高于50%时增加10%伤害
+		生命值低于50%时增加20点防御、15%最大移动速度和加速度
 		使你获得对冷系攻击的抗性
 		'''
 }
@@ -806,6 +819,7 @@ GiantTortoiseShell: {
 	DisplayName: 巨大龟壳
 	Tooltip:
 		'''
+		使你免疫击退
 		增加5%伤害减免
 		降低10%冲刺速度
 		受击后会移除冲刺惩罚并降低防御和伤害减免，持续5秒
@@ -833,15 +847,6 @@ GloveOfRecklessness: {
 		增加15%盗贼攻速，但降低10%盗贼伤害和5%盗贼暴击率
 		增加15%潜行值恢复速度
 		盗贼武器的弹幕更不精准
-		'''
-}
-
-GodlySoulArtifact: {
-	DisplayName: 圣魂神物
-	Tooltip:
-		'''
-		你每召唤一只炽焰天龙，便会获得一格仆从栏位
-		忠诚
 		'''
 }
 
@@ -1086,7 +1091,7 @@ MoonstoneCrown: {
 		'''
 		增加15%盗贼弹幕速度
 		潜伏攻击在击中敌人时会召唤月球耀斑从天而降
-		盗贼武器的弹幕偶尔会在其飞行轨迹上召唤月球符文
+		Rogue projectiles summon homing moon sigils as they travel
 		'''
 }
 
@@ -1268,6 +1273,7 @@ ProfanedSoulArtifact: {
 		'''
 		召唤治疗守卫，每几秒治疗15点生命值
 		召唤防御守卫，提供一个由亵渎岩加固的薄弱护盾
+		[ADREN]
 		护盾破碎后，屏障内爆并将亵渎岩向外送出
 		受击后5秒屏障开始重新充能
 		从0到充能满需要花费2秒
@@ -1276,6 +1282,7 @@ ProfanedSoulArtifact: {
 		进攻守卫会偶尔发射圣矛
 		圣洁
 		'''
+	ShieldAdren: Halves Adrenaline lost on hit if the shield fully absorbs the hit
 }
 
 ProfanedSoulCrystal: {
@@ -1305,8 +1312,19 @@ ProfanedSoulCrystal: {
 		'''
 }
 
-Purity: {
-	DisplayName: 无瑕粹魂晶
+QuiverofNihility: {
+	DisplayName: Quiver of Nihility
+	Tooltip:
+		'''
+		5% increased ranged critical strike chance
+		Summons a ring of four void fields to orbit you
+		Arrows that pass through these fields gain a 75% damage boost and double the speed
+		'Filled with a substance darker than the night sky'
+		'''
+}
+
+Radiance: {
+	DisplayName: Radiance
 	Tooltip:
 		'''
 		增加100点最大生命值
@@ -1321,17 +1339,6 @@ Purity: {
 		使随时间造成伤害的弱减益无害化并减半除最强减益外的其他减益的持续时间
 		饰品可见性开启时你会发出闪耀的蓝光
 		“一块曾经腐烂的水晶，现在闪烁着无瑕的纯净”
-		'''
-}
-
-QuiverofNihility: {
-	DisplayName: 虚无箭袋
-	Tooltip:
-		'''
-		增加5%远程暴击率
-		召唤四个虚空力场环绕你
-		穿过力场的箭矢会获得75%的伤害加成且速度翻倍
-		“充满比夜空更暗的物质”
 		'''
 }
 
@@ -1357,12 +1364,13 @@ RampartofDeities: {
 	DisplayName: 神之壁垒
 	Tooltip:
 		'''
-		受到伤害时会召唤星星从天而降并延长受伤后无敌时间
-		提供每秒0.5点生命再生并缩短治疗药水的冷却时间
-		吸收团队中其他玩家所受伤害的15%
-		此效果仅会在你的生命值高于25%时生效
+		Causes stars to fall and increases length of invincibility after taking damage
+		Grants bonus invincibility frames based on your missing health
+		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
+		Being struck for over 200 damage grants 30 additional invincibility frames
 		使你免疫击退
 		生命低于50%时会在你的周围生成能够降低所受伤害的护盾
+		Absorbs 25% of damage done to players on your team when above 25% life
 		'''
 }
 
@@ -1419,11 +1427,13 @@ RoverDrive: {
 	Tooltip:
 		'''
 		投影一个至多吸收20点伤害的护盾
+		[ADREN]
 		护盾激活时会提供10点防御
 		护盾破碎后，它需要10秒的时间重新生成
 		重新充能期间再次受击会重置充能计时器
 		也可通过提炼机进行拆分
 		'''
+	ShieldAdren: Halves Adrenaline lost on hit if the shield fully absorbs the hit
 }
 
 RuinMedallion: {
@@ -1449,7 +1459,8 @@ SandCloak: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		按下 [KEY] 消耗10%最大潜行值，召唤一个围绕你的破坏性沙漠龙卷持续15秒，并提供6点防御和每秒1点生命恢复
+		Press [KEY] to consume 10% of your maximum stealth to create a protective dust veil which damages and knocks back enemies
+		While inside the veil, you are given +6 defense and +1 HP/s life regen
 		此效果有30秒冷却时间
 		'''
 }
@@ -1621,11 +1632,12 @@ StatisNinjaBelt: {
 	DisplayName: 斯塔提斯的忍者腰带
 	Tooltip:
 		'''
-		增加6%跳跃高度并允许自动跳跃
+		增加32%跳跃高度并允许自动跳跃
 		使你获得水下游泳能力
 		增加35格摔落伤害抗性
 		可以攀爬、冲刺和闪避攻击
-		闪避攻击的能力有90秒冷却时间
+		Attacks that deal less than 5% of your max life in damage will not be dodged
+		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
 		该闪避与其他的闪避或反弹效果共享冷却时间
 		'''
 }
@@ -1634,10 +1646,11 @@ StatisVoidSash: {
 	DisplayName: 斯塔提斯的虚空饰带
 	Tooltip:
 		'''
-		增加12%跳跃速度并允许自动跳跃
+		增加32%跳跃速度并允许自动跳跃
 		使你免疫摔落伤害
 		可以攀爬、冲刺和闪避攻击
-		闪避攻击的能力有90秒冷却时间
+		Attacks that deal less than 5% of your max life in damage will not be dodged
+		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
 		该闪避与其他的闪避或反弹效果共享冷却时间
 		冲刺时会在轨迹上留下追踪镰刀
 		'''
@@ -1746,6 +1759,7 @@ TheAbsorber: {
 	Tooltip:
 		'''
 		增加12%移动速度和跳跃速度
+		使你免疫击退
 		击中你的敌怪会受到极高伤害以及一个显著降低伤害减免的伤害性疾病减益
 		使用治疗药水后会产生一个纯净光环
 		首次进入光环会净化所有减益并移除防御损伤
@@ -1762,7 +1776,9 @@ TheAmalgam: {
 		增加15%伤害
 		被击中时会使阴影之雨从天而降
 		使你获得闪避攻击的能力
-		闪避攻击的能力有90秒冷却时间，并且该闪避与其他的闪避或反弹效果共享冷却时间
+		Attacks that deal less than 5% of your max life in damage will not be dodged
+		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
+		This cooldown is shared with all other dodges and reflects
 		闪避攻击后会暂短增加暴击率和召唤伤害
 		被击中时会对附近的敌人造成多种疫病相关减益
 		'''
@@ -1817,7 +1833,9 @@ TheEvolution: {
 		'''
 		你会反弹来犯的弹幕
 		被反弹的弹幕不会对你造成伤害
-		反弹弹幕的能力有90秒冷却时间，并且该反弹与其他的闪避或反弹效果共享冷却时间
+		Projectiles that deal less than 5% of your max life in damage will not be reflected
+		The reflect has a cooldown that ranges between 15 and 90 seconds depending on the reflected projectile's damage
+		This cooldown is shared with all other dodges and reflects
 		反弹东西后，你会获得 1 HP/秒生命再生和生命再生加速效果，持续5秒
 		再次被相同弹幕击中时，此弹幕对你造成的伤害降低15%
 		'''
@@ -1837,11 +1855,13 @@ TheSponge: {
 	Tooltip:
 		'''
 		投影一个至多吸收180点伤害的量子泡沫屏障
+		[ADREN]
 		屏障激活时会提供30点防御并降低10%所受伤害
 		屏障会在受击后9秒开始重新充能
 		从0重新充能到满需要花费6秒
 		重新充能期间受击会重置充能计时器
 		'''
+	ShieldAdren: Halves Adrenaline lost on hit if the barrier fully absorbs the hit
 }
 
 TheTransformer: {
@@ -2005,6 +2025,12 @@ AbandonedWulfrumHelmet: {
 		[c/83B87E:其丰富的功能性以及通用性让它也能作为一种货币在交易中使用”]
 		'''
 }
+
+CrystalHeartVodka: {
+	DisplayName: Crystal Heart Vodka
+	Tooltip: "'Tastes like strawberry cream liqueur (and estrogen)'"
+}
+
 
 CocosFeather: {
 	DisplayName: Coco的羽毛

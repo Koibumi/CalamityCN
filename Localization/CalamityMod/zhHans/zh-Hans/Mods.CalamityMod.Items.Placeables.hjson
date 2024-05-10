@@ -289,6 +289,11 @@ EutrophicSand: {
 	Tooltip: ""
 }
 
+HardenedEutrophicSand: {
+	DisplayName: Hardened Eutrophic Sand
+	Tooltip: ""
+}
+
 AbyssTreasureChest: {
 	DisplayName: 远古宝藏箱
 	Tooltip: ""
@@ -336,6 +341,11 @@ BabyFlakCrabCage: {
 BabyGhostBellJar: {
 	DisplayName: 小鬼铃水母罐
 	Tooltip: ""
+}
+
+CirrusCouch: {
+	DisplayName: Cirrus Couch
+	Tooltip: This shouldn't exist...
 }
 
 AquaticScourgeRelic: {
@@ -390,7 +400,7 @@ CryogenRelic: {
 
 DesertScourgeRelic: {
 	DisplayName: 荒漠灾虫圣物
-	Tooltip: 对其可能的未来的一瞥……
+	Tooltip: ""
 }
 
 DevourerOfGodsRelic: {
@@ -631,6 +641,11 @@ AstralFountainItem: {
 	Tooltip: ""
 }
 
+BrimstoneLavaFountainItem: {
+	DisplayName: Brimstone Lava Fountain
+	Tooltip: ""
+}
+
 SulphurousFountainItem: {
 	DisplayName: 硫磺喷泉
 	Tooltip: ""
@@ -649,6 +664,51 @@ GloomTorch: {
 LanternCenter: {
 	DisplayName: 灯笼中枢
 	Tooltip: 用庆典灯笼点亮夜空
+}
+
+AstralProjector: {
+	DisplayName: Astral Projector
+	Tooltip: "'Control a small portion of the Astral Infection's influence.'"
+}
+
+BlueDistortedMonolith: {
+	DisplayName: Blue Distorted Monolith
+	Tooltip: "'Create a localized rupture in the fabric of reality.'"
+}
+
+BossRushMonolith: {
+	DisplayName: Boss Rush Monolith
+	Tooltip: "'Bring forth the end.'"
+}
+
+DeepSeaAnchor: {
+	DisplayName: Deep Sea Anchor
+	Tooltip: "'Dampen the air with heavy amounts of brine.'"
+}
+
+DraconicIncense: {
+	DisplayName: Draconic Incense
+	Tooltip: "'Ignite the air with dragonfire.'"
+}
+
+ExoObelisk: {
+	DisplayName: Exo Obelisk
+	Tooltip: "'Energize the atmosphere with exo energy.'"
+}
+
+FrigidMonolith: {
+	DisplayName: Frigid Monolith
+	Tooltip: "'Enchant the sky with frosty auroras.'"
+}
+
+PlagueHumidifier: {
+	DisplayName: Plague Humidifier
+	Tooltip: "'Spread light amounts of the plague through the air.'"
+}
+
+PurpleDistortedMonolith: {
+	DisplayName: Purple Distorted Monolith
+	Tooltip: "'Create a localized rupture in the fabric of reality.'"
 }
 
 NavyPrismTorch: {
@@ -1334,6 +1394,66 @@ AshenWorkBench: {
 
 SmoothBrimstoneSlag: {
 	DisplayName: 平滑硫火石
+	Tooltip: ""
+}
+
+ActivatedAuricPanel: {
+	DisplayName: Activated Auric Panel
+	Tooltip: ""
+}
+
+AuricAbsorber: {
+	DisplayName: Auric Absorber
+	Tooltip: ""
+}
+
+AuricConsole: {
+	DisplayName: Auric Console
+	Tooltip: ""
+}
+
+AuricDisplay: {
+	DisplayName: Auric Display
+	Tooltip: ""
+}
+
+AuricPanel: {
+	DisplayName: Auric Panel
+	Tooltip: ""
+}
+
+AuricPlatform: {
+	DisplayName: Auric Platform
+	Tooltip: ""
+}
+
+AuricReinforcedCrate: {
+	DisplayName: Auric Reinforced Crate
+	Tooltip: ""
+}
+
+AuricRepulserPanel: {
+	DisplayName: Auric Repulser Panel
+	Tooltip: Repels players that come in contact with it
+}
+
+AuricScreen: {
+	DisplayName: Auric Screen
+	Tooltip: ""
+}
+
+AuricServer: {
+	DisplayName: Auric Server
+	Tooltip: ""
+}
+
+AuricTerminal: {
+	DisplayName: Auric Terminal
+	Tooltip: ""
+}
+
+ExoAuricPanel: {
+	DisplayName: Exo-Auric Panel
 	Tooltip: ""
 }
 
@@ -2851,9 +2971,14 @@ LivingHolyFireBlock: {
 	Tooltip: ""
 }
 
-DraedonsAmbienceMusicBox: {
-	DisplayName: 音乐盒（嘉登的格调）
-	Tooltip: 播放由PinpinNeon制作的高科技情调
+DraedonExoSelectMusicBox: {
+	DisplayName: Music Box (Exo Mech Selection)
+	Tooltip: Plays 'Signal Received' by CDMusic
+}
+
+DraedonTalkMusicBox: {
+	DisplayName: Music Box (Codebreaker)
+	Tooltip: Plays a variant of 'Signal Received' by CDMusic
 }
 
 Navystone: {
@@ -3351,8 +3476,8 @@ VoidstoneWall: {
 	Tooltip: ""
 }
 
-HardenedEutrophicSand: {
-	DisplayName: 硬化富营养沙
+WulfrumPlatingWall: {
+	DisplayName: Wulfrum Plating Wall
 	Tooltip: ""
 }
 

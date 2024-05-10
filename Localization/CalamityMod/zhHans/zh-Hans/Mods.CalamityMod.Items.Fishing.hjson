@@ -24,6 +24,11 @@ AstrophageItem: {
 	Tooltip: 召唤一只跟随你的噬星体
 }
 
+MonolithCrate: {
+	DisplayName: Monolith Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
 ProcyonidPrawn: {
 	DisplayName: 南河三明虾
 	Tooltip: ""
@@ -110,12 +115,22 @@ Shadowfish: {
 	Tooltip: 黑暗蔓延
 }
 
+SlagCrate: {
+	DisplayName: Slag Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
 Slurpfish: {
 	DisplayName: 饮食者鱼
 	QuestDescription: 我知道我知道，要你去远古地狱遗迹的岩浆里钓鱼简直是不讲道理。我正准备这样做。还不快去？鱼可不会自己上钩！
 }
 
 // Sunken Sea Catches
+EutrophicCrate: {
+	DisplayName: Eutrophic Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
 EutrophicSandfish: {
 	DisplayName: 富养沙地鱼
 	QuestDescription: 你知道沙漠里的蜥蜴往地下钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。 你，现在就去把它抓来，这样我就有新的宠物了！
@@ -124,6 +139,11 @@ EutrophicSandfish: {
 GreenwaveLoach: {
 	DisplayName: 绿波泥鳅
 	Tooltip: 一种濒危的鱼，应该会有人出高价买下它
+}
+
+PrismCrate: {
+	DisplayName: Prism Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 PrismaticGuppy: {
@@ -163,11 +183,6 @@ SparklingEmpress: {
 		发射一道聚焦激光来歼灭你的敌人
 		被击杀的敌人会爆出棱晶碎片
 		'''
-}
-
-SunkenCrate: {
-	DisplayName: 沉沦匣
-	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SunkenSailfish: {
@@ -218,6 +233,11 @@ GlimmeringGemfish: {
 Gorecodile: {
 	DisplayName: 血鳄
 	Tooltip: 右键以提取血珠
+}
+
+HydrothermalCrate: {
+	DisplayName: Hydrothermal Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 Spadefish: {

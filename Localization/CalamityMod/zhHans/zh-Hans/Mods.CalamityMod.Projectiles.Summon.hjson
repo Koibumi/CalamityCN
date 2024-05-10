@@ -21,6 +21,7 @@ AtlasMunitionsDropPod.DisplayName: 空投舱
 AtlasMunitionsDropPodUpper.DisplayName: 空投舱
 AtlasMunitionsLaser.DisplayName: 星流脉冲激光
 AtlasMunitionsLaserOverdrive.DisplayName: 星流脉冲激光
+AtzirisDisfavor.DisplayName: Atziri's Disfavor
 AureusBomber.DisplayName: 星幻炸弹
 BabyBloodCrawler.DisplayName: 小血蛭
 BabyPlaguebringer.DisplayName: 小瘟疫使者
@@ -129,6 +130,8 @@ GhostlyMine.DisplayName: 幽魂雷
 GiantIbanRobotOfDoom.DisplayName: 仙女座
 GlacialEmbracePointyThing.DisplayName: 冰垒碎晶
 HallowedStarSummon.DisplayName: 神圣之星
+HarvestStaffMinion.DisplayName: Pumpoem
+HarvestStaffSentry.DisplayName: Pumpoem Nest
 HauntedDishes.DisplayName: 闹鬼餐碟
 HermitCrabMinion.DisplayName: 寄居蟹
 HerringAI.DisplayName: 鲱鱼
@@ -136,6 +139,9 @@ HerringMinion.DisplayName: 鲱鱼
 Hive.DisplayName: 蜂巢
 Hiveling.DisplayName: 蜂群
 HomingGammaBullet.DisplayName: 伽马子弹
+HopeShredder.DisplayName: Hope Shredder
+HopeShredderArrow.DisplayName: Hope Shredder Arrow
+HopeShredderArrowSplit.DisplayName: Hope Shredder Split Arrow
 HowlsHeartCalcifer.DisplayName: 卡西法
 HowlsHeartFireball.DisplayName: 冥光之火
 HowlsHeartHowl.DisplayName: 哈尔
@@ -151,6 +157,12 @@ IgneousBladeStrike.DisplayName: 淬焰之刃
 IrradiatedAura.DisplayName: 辐射光环
 LanternFlame.DisplayName: 魂灯之火
 LanternSoul.DisplayName: 灯笼
+LiliesOfFinalityAoE.DisplayName: Bioresonance Aura
+LiliesOfFinalityAriane.DisplayName: Ariane
+LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
+LiliesOfFinalityBolt.DisplayName: Bioresonance Bolt
+LiliesOfFinalityElster.DisplayName: Elster
+LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
 LostSoulGiant.DisplayName: 灵魂
 LostSoulGold.DisplayName: 黄金灵魂
 LostSoulLarge.DisplayName: 灵魂
@@ -188,6 +200,7 @@ MutatedTruffleToothballSpike.DisplayName: 小核弹牙球刺
 MutatedTruffleVortex.DisplayName:小核弹漩涡
 OldDukeHeadCorpse.DisplayName: 遗爵大猪头
 OldDukeSharkVomit.DisplayName: 呕吐物
+Paradoxica.DisplayName: Paradoxica
 PerditionBeacon.DisplayName: 永劫信标
 PhantomGuy.DisplayName: 幻影
 PhantomicDagger.DisplayName: 幻魂之匕
@@ -243,6 +256,7 @@ SiriusMinion.DisplayName: 天狼星
 SkeletalDragonChild.DisplayName: 骨龙之子
 SkeletalDragonMother.DisplayName: 骨龙之母
 SlimePuppet.DisplayName: 史莱姆傀儡
+StormjawSpark.DisplayName: Spark
 CannonLaserbeam.DisplayName: 终灭激光
 ExoskeletonGaussNukeCannon.DisplayName: 高斯核弹
 ExoskeletonLaserCannon.DisplayName: 镭射加农炮
@@ -268,6 +282,8 @@ Spikecrag.DisplayName: 地刺王
 SpikecragSpike.DisplayName: 地刺王之刺
 SquirrelSquireAcorn.DisplayName: 松鼠橡子
 SquirrelSquireMinion.DisplayName: 松鼠护卫
+Starforge.DisplayName: Starforge
+StarforgeBlast.DisplayName: Starforge Blast
 StellarTorusBeam.DisplayName: 星环激光
 StellarTorusSummon.DisplayName: 星环召唤物
 StormjawBaby.DisplayName: 风暴蚁狮
@@ -307,18 +323,11 @@ WaterSpearFriendly.DisplayName: 水矛
 WhiteDragonBody.DisplayName: 天界白龙（身体）
 WhiteDragonHead.DisplayName: 天界白龙（头）
 WhiteDragonTail.DisplayName: 天界白龙（尾巴）
+WindRipper.DisplayName: Wind Ripper
+WindRipperArrow.DisplayName: Wind Ripper Arrow
 WitherBlossom.DisplayName: 凋零枯花
 WitherBolt.DisplayName: 凋零花弹
 WulfrumDroid.DisplayName: 钨钢机器人
 WulfrumEnergyBurst.DisplayName: 钨钢能量束
 WulfrumFusionBolt.DisplayName: 融合束
 YharonMinionFireball.DisplayName: 龙崽火球
-AtzirisDisfavor.DisplayName: 阿兹里的刑刃
-Starforge.DisplayName: 塑星者
-Paradoxica.DisplayName: 悖论
-StarforgeBlast.DisplayName: 塑星爆炸
-WindRipper.DisplayName: 裂风
-WindRipperArrow.DisplayName: 裂风箭
-HopeShredder.DisplayName: 破灭之希
-HopeShredderArrow.DisplayName: 破灭之箭
-HopeShredderArrowSplit.DisplayName: 破灭之希分裂箭

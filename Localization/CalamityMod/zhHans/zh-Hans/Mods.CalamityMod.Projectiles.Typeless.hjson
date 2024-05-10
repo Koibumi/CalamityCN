@@ -8,12 +8,14 @@ ArtifactOfResilienceShard3.DisplayName: 灵之形碎块
 ArtifactOfResilienceShard4.DisplayName: 灵之形碎块
 ArtifactOfResilienceShard5.DisplayName: 灵之形碎块
 ArtifactOfResilienceShard6.DisplayName: 灵之形碎块
+AscendantAura.DisplayName: Ascendant Aura
 AstralFallingSand.DisplayName: 幻星陨砂
 AstralSandBallFalling.DisplayName: 星幻沙块
 AstralSandBallGun.DisplayName: 星环沙块
 AstralSpray.DisplayName: 星体喷流
 AstralStar.DisplayName: 彗星
 BallisticPoisonCloud.DisplayName: 云
+BasicPlagueBee.DisplayName: Basic Plague Bee
 BlazingStarHeal.DisplayName: 治愈神圣之星
 BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
 BlazingSun.DisplayName: 烈日
@@ -30,8 +32,10 @@ BossRushTierAnimation.DisplayName: Boss Rush 级别动画
 BrimstoneHellfireballFriendly2.DisplayName: 地狱火
 ChaoticGeyser.DisplayName: 混沌间歇泉
 ChlorophyteLifePulse.DisplayName: 生命脉冲
+ChronoClock.DisplayName: Chrono Clock
 CoralBubble.DisplayName: 泡泡
 CoralBubbleSmall.DisplayName: 泡泡
+CosmicDashExplosion.DisplayName: Cosmic Dash Explosion
 CryonicShield.DisplayName: 冰盾
 CursorProj.DisplayName: 蒸汽波水晶
 CursorProjSplit.DisplayName: 蒸汽波水晶
@@ -58,13 +62,12 @@ FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
 GhostlyBolt.DisplayName: 闪电
 GodKiller.DisplayName: 神杀
-GodSlayerBlaze.DisplayName: 烈火
 GodSlayerShrapnel.DisplayName: 火焰
 GodSlayerShrapnelRound.DisplayName: 弑神者光环
-GoldenGunProj.DisplayName: 黄金光环
 GreenLabSeeker.DisplayName: 实验室定位仪
 HellfireExplosionFriendly2.DisplayName: 狱火炎爆
 HeronBobber.DisplayName: 苍鹭浮标
+HideOfAstrumDeusExplosion.DisplayName: Explosion
 HolyExplosion.DisplayName: 爆炸
 HolyExplosionSupreme.DisplayName: 爆炸
 HydrothermalSmoke.DisplayName: 水热烟雾
@@ -120,7 +123,6 @@ SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
 TarragonAura.DisplayName: 龙蒿光环
 TeslaAura.DisplayName: 磁暴
-VanquisherArrowSplit.DisplayName: 征戮箭
 VerstaltiteBobber.DisplayName: 极寒浮标
 VoidFieldGenerator.DisplayName: 虚空力场生成器
 WaterConvertor.DisplayName: 净水器
@@ -131,5 +133,3 @@ WulfrumHook.DisplayName: 钨钢弹弓
 WulfrumLureSignal.DisplayName: 信号
 YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
-AscendantAura.DisplayName: 进升之息
-CosmicDashExplosion.DisplayName: 宇宙冲刺爆炸

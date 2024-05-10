@@ -18,6 +18,7 @@ MirageJelly.DisplayName: 幻海水母
 MorayEel.DisplayName: 海鳝
 OarfishHead.DisplayName: 桨鱼
 ReaperShark.DisplayName: 猎魂鲨
+SlabCrab.DisplayName: Slab Crab
 ToxicMinnow.DisplayName: 剧毒米诺鱼
 Viperfish.DisplayName: 蝰蛇鱼
 AcidEel.DisplayName: 酸水鳗
@@ -81,6 +82,7 @@ Pyrogen: 赤道之灵
 CryogenShield.DisplayName: 冰川护盾
 PyrogenShield: 赤道护盾
 DesertNuisanceHead.DisplayName: 黄沙恶虫
+DesertNuisanceHeadYoung.DisplayName: Desert Nuisance
 DesertScourgeHead.DisplayName: 荒漠灾虫
 CosmicGuardianHead.DisplayName: 星宇护卫
 DevourerofGodsHead.DisplayName: 神明吞噬者
@@ -145,6 +147,7 @@ AeroSlime.DisplayName: 天蓝史莱姆
 ArmoredDiggerHead.DisplayName: 装甲掘地虫
 MechanizedSerpent: 机械巨蟒
 AuroraSpirit.DisplayName: 极光之灵
+BloodlettingServant.DisplayName: Bloodletting Servant
 BloomSlime.DisplayName: 龙蒿史莱姆
 Bohldohr.DisplayName: 神庙滚石
 Cnidrion.DisplayName: 卧龙海马
@@ -166,7 +169,10 @@ Frogfish.DisplayName: 躄鱼
 Horse.DisplayName: 大地元素
 IceClasper.DisplayName: 食魂冰虫
 ImpiousImmolator.DisplayName: 亵渎献祭者
-KingSlimeJewel.DisplayName: 王冠宝石
+KingSlimeJewel.DisplayName: Ruby Jewel
+KingSlimeJewel2.DisplayName: Sapphire Jewel
+KingSlimeJewel3.DisplayName: Emerald Jewel
+LavaSlimeNoLavaDrop.DisplayName: Lava Slime
 MantisShrimp.DisplayName: 螳螂虾
 OverloadedSoldier.DisplayName: 过载装甲骷髅
 PerennialSlime.DisplayName: 永恒史莱姆
@@ -179,6 +185,7 @@ Rotdog.DisplayName: 血犬
 ScornEater.DisplayName: 吞食魔
 SeaUrchin.DisplayName: 海胆
 ShockstormShuttle.DisplayName: 风暴飞碟
+SkeletronPrime2.DisplayName: Skeletron Prime
 Stormlion.DisplayName: 风暴蚁狮
 Sunskater.DisplayName: 寻阳鱼
 SuperDummyNPC.DisplayName: 大草人
@@ -217,9 +224,6 @@ Plagueshell.DisplayName: 瘟疫龟
 Viruling.DisplayName: 毒飞虫
 PhantomFuckYou.DisplayName: 幽花之灵
 Polterghast.DisplayName: 噬魂幽花
-Necroghast: 噬魂幽花
-Necroplasm: 噬魂幽花
-Polterplasm: 幽花克隆体
 PolterghastHook.DisplayName: 幽花触爪
 PolterPhantom.DisplayName: 噬魂幽花
 PrimordialWyrmHead.DisplayName: 始源妖龙
@@ -313,7 +317,7 @@ DILF: {
 		LikeNPC: "{NPCName} 学识渊博，还是个很受尊敬的法师。"
 		DislikeNPC: 我不喜欢{NPCName}的公然漠视魔法，我没有指责他的意思，但他非常愚昧。
 		LikeNPC_Princess: "{NPCName}会一些非常古老的咒语，尤其她这年纪的人让我印象深刻。"
-		Princess_LovesNPC: 我喜欢{NPCName}.
+		Princess_LovesNPC: "{NPCName} makes the best ice cream I've ever tasted, it's so good!"
 	}
 }
 
@@ -404,7 +408,7 @@ FAP: {
 		HateNPC_GoblinTinkerer: "{NPCName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难道你喜欢看我重温他给我的压力吗？"
 		HateNPC_Angler: "{NPCName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！"
 		LikeNPC_Princess: 你以为我会不喜欢 {NPCName} 只因我们太不同了？恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。
-		Princess_LovesNPC: 我喜欢 {NPCName}。
+		Princess_LovesNPC: "{NPCName} has really interesting stories to tell, I've learned a lot from her already!"
 		HateNPC: 我讨厌 {NPCName}。
 		DislikeNPC: 我不喜欢 {NPCName}。
 		LikeNPC: 我喜欢{NPCName}。
@@ -493,7 +497,7 @@ SEAHOE: {
 		DislikeNPC: 我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。
 		HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！"
 		LikeNPC_Princess: "{NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。"
-		Princess_LovesNPC: 我喜欢{NPCName}.
+		Princess_LovesNPC: "{NPCName} always smiles when I'm nearby, I like being around him just for that!"
 	}
 }
 
@@ -574,7 +578,7 @@ THIEF: {
 		LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
 		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
 		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
-		Princess_LovesNPC: 我喜欢 {NPCName}。
+		Princess_LovesNPC: "{NPCName} gifts me with nice exact replicas of other's things, I wonder how she does it!"
 	}
 }
 
@@ -616,6 +620,6 @@ WITCH: {
 		LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。"
 		DislikeNPC: 太吵了！ {NPCName} 只会每天制造噪音！我受不了她！
 		LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。"
-		Princess_LovesNPC: 我喜欢 {NPCName}。
+		Princess_LovesNPC: "{NPCName} is always lonely, it's why I want to hang out with her, no one should be left alone like that!"
 	}
 }

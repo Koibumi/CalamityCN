@@ -136,8 +136,8 @@ CalamityConfig: {
 			'''
 			破坏邪恶祭坛不再生成矿石和邪恶/神圣石块。 
 			首次击杀血肉墙会使钯金矿和钴矿在世界中生成。 
-			第一个战斗的机械boss血量和伤害降低20%，首次击败时会使秘银矿和山铜矿在世界中生成。 
-			第二个战斗的机械boss血量和伤害降低10%，首次击败时会使钛金矿和精金矿在世界中生成。 
+			第一个战斗的机械boss血量和伤害降低20%(10% in Expert and Master)，首次击败时会使秘银矿和山铜矿在世界中生成。 
+			第二个战斗的机械boss血量和伤害降低10%(5% in Expert and Master)，首次击败时会使钛金矿和精金矿在世界中生成。 
 			首次击败第三个机械boss会使神圣矿在世界中生成。 
 			'''
 	}
@@ -253,6 +253,15 @@ CalamityConfig: {
 			'''
 	}
 
+	NewVanillaTextures: {
+		Label: "[i:Paintbrush] New Vanilla Textures"
+		Tooltip:
+			'''
+			Enable or disable new vanilla textures.
+			Disable this for compatibility with texture packs.
+			'''
+	}
+
 	ParticleLimit: {
 		Label: "[i:FragmentStardust] 最大粒子数"
 		Tooltip:
@@ -260,7 +269,7 @@ CalamityConfig: {
 			设定同时存在的最大粒子数。 
 			粒子和溅血效果是分开的。 
 			调低以提升性能。 
-			[c/F05A5A:将其调至300以下可能会导致某些内容无法正确显示。]
+			[c/F05A5A:将其调至1000以下可能会导致某些内容无法正确显示。]
 			'''
 	}
 
@@ -282,6 +291,11 @@ CalamityConfig: {
 			'''
 	}
 
+	RemoveLavaDropsFromLavaSlimes: {
+		Label: "[i:LavaWaders] Remove Lava Drops From Lava Slimes"
+		Tooltip: When enabled, Lava Slimes will be replaced with a new Lava Slime that no longer drops lava.
+	}
+
 	RemoveReforgeRNG: {
 		Label: "[i:TinHammer] 移除重铸随机性"
 		Tooltip:
@@ -300,9 +314,15 @@ CalamityConfig: {
 			'''
 	}
 
-	Screenshake: {
-		Label: "[i:CalamityMod/WavePounder] 屏幕震动"
-		Tooltip: 开启或关闭所有屏幕抖动效果。
+	ScreenshakePower: {
+		Label: "[i:CalamityMod/WavePounder] Screenshake Power"
+		Tooltip:
+			'''
+			How intense screen-shaking effects are.
+			Set to zero to disable screen-shaking entirely.
+			[c/FF232C:All screen-shake visuals are balanced around a value of 1.]
+			[c/FF232C:Higher values may be nauseating or otherwise bad for some.]
+			'''
 	}
 
 	ShopNewAlert: {

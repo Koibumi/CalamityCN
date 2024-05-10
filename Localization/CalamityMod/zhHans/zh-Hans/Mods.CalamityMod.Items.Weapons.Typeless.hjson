@@ -17,11 +17,6 @@ EyeofMagnus: {
 		'''
 }
 
-GoldenGun: {
-	DisplayName: 灵液枪
-	Tooltip: 发射一束以直线飞行的灵液
-}
-
 LunicEye: {
 	DisplayName: 星光之眼
 	Tooltip:

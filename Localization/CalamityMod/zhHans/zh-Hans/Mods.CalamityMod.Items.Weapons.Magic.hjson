@@ -27,15 +27,6 @@ AethersWhisper: {
 		'''
 }
 
-AlphaRay: {
-	DisplayName: 阿尔法射线
-	Tooltip:
-		'''
-		以三发齐射的激光能量蒸发一切
-		右键发射Y形毁灭光束和一道激光
-		'''
-}
-
 AlulaAustralis: {
 	DisplayName: 南极光羽
 	Tooltip: 发射优美的极光，路径上会降下星辰
@@ -237,7 +228,11 @@ DivineRetribution: {
 
 Downpour: {
 	DisplayName: 水灌
-	Tooltip: 发射会额外溅射的水柱
+	Tooltip:
+		'''
+		Fires an explosive stream of sand that falls after hitting an enemy
+		The explosion only occurs when the projectile expires
+		'''
 }
 
 Effervescence: {
@@ -328,7 +323,7 @@ FlareBolt: {
 
 ForbiddenSun: {
 	DisplayName: 禁忌之阳
-	Tooltip: 发射一颗在消失时会产生巨型爆炸的火球
+	Tooltip: Casts a fire orb that emits a gigantic explosion on hit
 }
 
 FrigidflashBolt: {
@@ -343,7 +338,12 @@ FrostBolt: {
 
 Genisis: {
 	DisplayName: 源
-	Tooltip: 发射Y形毁灭能量束和一簇激光
+	Tooltip:
+		'''
+		Fire an array of lasers that decreases in spread for each shot
+		Every sixth shot fires a splitting Genesis Beam and resets the spread of the weapon
+		Hitting an enemy where the Genesis Beam splits deals increased damage
+		'''
 }
 
 GhastlyVisage: {
@@ -544,6 +544,17 @@ NuclearFury: {
 	Tooltip: 发射高能台风
 }
 
+Omicron: {
+	DisplayName: Omicron
+	Tooltip:
+		'''
+		Fires a continuous array of lasers and spawns two Wingmen which orbit you and fire lasers at your cursor
+		Press <right> when firing to shoot an Omicron Beam that splits upon hitting an enemy
+		After firing an Omicron Beam your Wingmen will launch a pair of grenades
+		Hitting an enemy with an Omicron Beam right as it is fired will increase the damage done substantially and stop it from splitting
+		'''
+}
+
 ParasiticSceptor: {
 	DisplayName: 寄生权杖
 	Tooltip: 发射一群会吸附在敌人身上的辐射性水蛭，每只水蛭造成的伤害随时间增加
@@ -560,6 +571,15 @@ PhoenixFlameBarrage: {
 		'''
 		召唤火幕从天而降
 		“圣火洗礼”
+		'''
+}
+
+Photosynthesis: {
+	DisplayName: Photosynthesis
+	Tooltip:
+		'''
+		Casts a brilliant ray that dissolves into energy on enemy hits
+		More energy is created the farther along the ray the hit enemy is
 		'''
 }
 
@@ -671,9 +691,9 @@ Serpentine: {
 		'''
 }
 
-ShadecrystalTome: {
-	DisplayName: 暗晶风暴
-	Tooltip: 发射大量暗晶碎片，一次能发射两个
+ShadecrystalBarrage: {
+	DisplayName: ShadecrystalBarrage
+	Tooltip: Summons bursts of shadecrystals that can home in on enemies
 }
 
 ShaderainStaff: {
@@ -714,7 +734,11 @@ SlitheringEels: {
 
 SnowstormStaff: {
 	DisplayName: 冰晶风暴
-	Tooltip: 发射一个冰晶跟随你的鼠标攻击敌人
+	Tooltip:
+		'''
+		Fires snowflakes that follows the mouse cursor
+		Snowflakes split into ice stars on enemy hits
+		'''
 }
 
 SoulPiercer: {
@@ -729,7 +753,7 @@ StaffofBlushie: {
 
 StarShower: {
 	DisplayName: 流星雨
-	Tooltip: 从光标处降下幻星雨
+	Tooltip: Casts a spread of astral stars from the sky that converge at the cursor
 }
 
 SubsumingVortex: {
@@ -758,12 +782,15 @@ TearsofHeaven: {
 	Tooltip: 发射缓慢移动的神圣光团
 }
 
-TerraRay: {
-	DisplayName: 泰拉射线
+Teslastaff: {
+	DisplayName: Teslastaff
 	Tooltip:
 		'''
-		发射能量射线，击中敌人后分解为自然能量
-		敌人距离越远，自然能量越多
+		Fires a channeled beam of pinpoint-accurate lightning
+		The beam has limited turning speed capability
+		Each successive hit on the same enemy increases damage per hit
+		The damage increases 10% per hit to a maximum of 500% damage
+		This damage will rapidly decrease after the enemy stops being hit
 		'''
 }
 
@@ -880,8 +907,9 @@ Viscera: {
 	DisplayName: 心泵血杖
 	Tooltip:
 		'''
-		发射血炎束，命中敌怪后治疗自己
-		反弹次数和穿过的敌人数量越多，治疗量越大
+		Fires a rapid barrage of piercing blood beams that heal you on enemy hit
+		Each successive beam in the barrage deals more damage
+		The last beam of the barrage instead explodes upon hitting an enemy
 		'''
 }
 
@@ -903,12 +931,12 @@ VividClarity: {
 
 VoidVortex: {
 	DisplayName: 虚空漩涡
-	Tooltip: 在光标位置召唤呈环形分布的磁暴球体
+	Tooltip: Conjures a swirling vortex of supercharged magnet spheres around the cursor that explodes into a storm of homing mini spheres
 }
 
 VoltaicClimax: {
 	DisplayName: 极点光伏
-	Tooltip: 光标位置圆形散射出电磁球
+	Tooltip: Conjures a ring of supercharged magnet spheres around the cursor
 }
 
 Waywasher: {
@@ -918,7 +946,12 @@ Waywasher: {
 
 Wingman: {
 	DisplayName: 侧翼
-	Tooltip: 发射集中的激光束
+	Tooltip:
+		'''
+		Spawns two Wingmen which orbit you and fire lasers at your cursor
+		Press <right> while firing to order the Wingmen to launch grenades
+		Grenades have a cooldown which is shortened if the Wingmen are fully revved up
+		'''
 }
 
 WintersFury: {

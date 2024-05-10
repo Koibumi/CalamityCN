@@ -113,13 +113,13 @@ WingTimeHairDye: {
 	Tooltip: ""
 }
 
-NightmareDye: {
-	DisplayName: 万圣梦魇染料
+NecroplasmicDye: {
+	DisplayName: Necroplasmic Dye
 	Tooltip: ""
 }
 
-PolterplasmDye: {
-	DisplayName: 幽喑灵质染料
+NightmareDye: {
+	DisplayName: 万圣梦魇染料
 	Tooltip: ""
 }
 

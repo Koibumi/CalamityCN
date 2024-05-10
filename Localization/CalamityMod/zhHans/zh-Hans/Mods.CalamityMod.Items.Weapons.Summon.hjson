@@ -187,7 +187,6 @@ CosmicImmaterializer: {
 		召唤一个宇宙之灵为你而战
 		宇宙之灵在探测到敌人时会发射大量的跟踪能源箭
 		需要至少10格仆从栏位才能使用并且同时只能存在至多一个宇宙之灵
-		如果没有召唤师套装的加成，宇宙之灵造成的伤害会降低
 		'''
 }
 
@@ -562,7 +561,7 @@ RustyBeaconPrototype: {
 	Tooltip:
 		'''
 		召唤一架废弃已久的无人机来支援你
-		无人机会在指定地点徘徊并释放会造成辐射和中毒减益的剧毒波
+		The drone hovers in place and releases toxic waves that irradiate hit enemies
 		'''
 }
 
@@ -823,5 +822,26 @@ MutatedTruffle: {
 		猪龙鱼会在冲刺、释放弹幕和释放台风的攻击方式间循环
 		需要3个仆从栏位
 		只能召唤1只
+		'''
+}
+
+HarvestStaff: {
+	DisplayName: Harvest Staff
+	Tooltip:
+		'''
+		Grows a pumpkin patch that sprouts pumpkins nearby
+		Pumpkins will hop out when approached by nearby creatures or players
+		Once out, they will aggressively tackle enemies, exploding on hit
+		'No thoughts behind those eyes'
+		'''
+}
+
+LiliesOfFinality: {
+	DisplayName: Lilies of Finality
+	Tooltip:
+		'''
+		Requires 2 minion slots to use
+		Can only be summoned once
+		'Wake up'
 		'''
 }

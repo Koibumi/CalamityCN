@@ -231,6 +231,8 @@ RegulusEnergy.DisplayName: 星神游龙之灵
 RegulusRiotProj.DisplayName: 星神游龙之混沌
 RotBallProjectile.DisplayName: 腐烂之球
 SacrificeProjectile.DisplayName: 牺牲之匕
+SamsaraSlicerProjectile.DisplayName: Samsara Slicer
+SamsaraSlicerSmallDisk.DisplayName: Samsara Slicer
 SandDollarProj.DisplayName: 沙币
 SandDollarStealth.DisplayName: 沙币
 SandslasherProj.DisplayName: 瀚漠之刃
@@ -288,16 +290,13 @@ Stormfrontspark.DisplayName: 风暴火花
 SubductionFlameburst.DisplayName: 火柱
 SubductionSlicerProj.DisplayName: 板块斩切者
 SulphuricNukesplosion.DisplayName: 核弹
-SupernovaBomb.DisplayName: 超新星爆炸
-SupernovaBoom.DisplayName: 超新星爆炸
-SupernovaHoming.DisplayName: 超新星能量
+SupernovaBoom.DisplayName: Micro Supernova
+SupernovaStealthBoom.DisplayName: Exo Supernova
 SupernovaSpike.DisplayName: 尖刺
 TalonLargeProj.DisplayName: 巨型恐惧鹰爪
 TalonSmallProj.DisplayName: 恐惧鹰爪
 TarragonThrowingDartProjectile.DisplayName: 龙蒿投镖
 TarraThornRight.DisplayName: 龙蒿荆棘
-TerraDiskProjectile.DisplayName: 泰拉飞盘
-TerraDiskProjectile2.DisplayName: 泰拉飞盘
 TheAtomSplitterDuplicate.DisplayName: 量子劫裂者
 TheAtomSplitterProjectile.DisplayName: 微元劫裂者
 TheSyringeCinder.DisplayName: 注射器碎片
