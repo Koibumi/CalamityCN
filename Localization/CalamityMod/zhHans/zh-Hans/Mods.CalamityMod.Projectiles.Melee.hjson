@@ -1,5 +1,5 @@
-AbyssBladeProjectile.DisplayName: Abyss Blade
-AbyssBladeSplitProjectile.DisplayName: Abyss Blade Jet
+AbyssBladeProjectile.DisplayName: 深渊之刃
+AbyssBladeSplitProjectile.DisplayName: 深渊之刃喷流
 AegisBeam.DisplayName: 庇护之光
 AegisBlast.DisplayName: 宙斯爆怒
 AegisBlast2.DisplayName: 宙斯低语
@@ -43,7 +43,7 @@ BloodExplosion.DisplayName: 血爆
 BloodScythe.DisplayName: 鲜血之镰
 BonebreakerFragment1.DisplayName: 碎骨弹片
 BonebreakerProjectile.DisplayName: 碎骨者
-BotanicSpear.DisplayName: Botanic Spear
+BotanicSpear.DisplayName: 翠芒刺枪
 Brimblast.DisplayName: 硫火爆焱
 BrimlanceHellfireExplosion.DisplayName: 硫狱炎爆
 BrimlanceStandingFire.DisplayName: 硫火
@@ -58,21 +58,21 @@ BrinyTyphoonBubble.DisplayName: 泡泡
 BrokenBiomeBladeHoldout.DisplayName: 环境断刃
 BurningMeteor.DisplayName: 流星
 CatastropheClaymoreSparkle.DisplayName: 灾难火花
-CausticEdgeProjectile.DisplayName: Caustic Edge
+CausticEdgeProjectile.DisplayName: 绝望之刃
 ChainedMeatHook.DisplayName: 附魔肉钩
-ChronoIcicleLarge.DisplayName: Chrono Icicle
-ChronoIcicleSmall.DisplayName: Chrono Icicle
-ChronomancersScytheHoldout.DisplayName: Chronomancer's Scythe
+ChronoIcicleLarge.DisplayName: 时之冰锥
+ChronoIcicleSmall.DisplayName: 时之冰锥
+ChronomancersScytheHoldout.DisplayName: 时空术士之镰
 ClamCrusherFlail.DisplayName: 碎蛤者
 CometQuasherMeteor.DisplayName: 流坠陨星
 CosmicBolt.DisplayName: 宙能箭
 CosmicDischargeFlail.DisplayName: 寒宙弹刃
 CosmicIceBurst.DisplayName: 寒宙魔冰
 CosmicOrb.DisplayName: 宙能球
-CosmicShivAura.DisplayName: Cosmic Shiv Aura
+CosmicShivAura.DisplayName: 宇宙短剑光环
 CosmicShivBall.DisplayName: 宇宙能量
 CosmicShivBlade.DisplayName: 宇宙射线
-CosmicShivTrail.DisplayName: Cosmic Shiv Trail
+CosmicShivTrail.DisplayName: 宇宙短剑尾迹
 CosmicSpiritBomb1.DisplayName: 宙能聚爆
 CosmicSpiritBomb2.DisplayName: 宙能聚爆
 CosmicSpiritBomb3.DisplayName: 宙能聚爆
@@ -83,16 +83,16 @@ Cyclone.DisplayName: 旋风
 DarkBall.DisplayName: 暗影球
 DarkBeam.DisplayName: 暗影射线
 DarkIceZero.DisplayName: 暗冰
-DarklightGreatswordSlash.DisplayName: Darklight Greatsword Slash
-DarklightGreatswordSlashCreator.DisplayName: Darklight Greatsword Slash Creator
-DarkMasterBeam.DisplayName: Dark Master Beam
-DarkMasterClone.DisplayName: Dark Terrarian
+DarklightGreatswordSlash.DisplayName: 巨剑“夜光”之斩
+DarklightGreatswordSlashCreator.DisplayName: 巨剑“夜光”斩之主r
+DarkMasterBeam.DisplayName: 黑暗大师射线
+DarkMasterClone.DisplayName: 暗之泰拉人
 DeathsAscensionProjectile.DisplayName: 擢升镰刀
 DecaysRetort.DisplayName: 腐化之复仇
 DecaysRetortDash.DisplayName: 除脏猛冲
 DemonBlast.DisplayName: 恶魔三叉戟
-DepthCrusherProjectile.DisplayName: Depth Crusher
-DepthCrusherSplitProjectile.DisplayName: Depth Crusher Jet
+DepthCrusherProjectile.DisplayName: 深渊碾碎者
+DepthCrusherSplitProjectile.DisplayName: 深渊碾碎者喷流
 DepthOrb.DisplayName: 深渊三叉戟
 DepthOrb2.DisplayName: 海王三叉戟
 DevilsSunriseCyclone.DisplayName: 邪锋黎明
@@ -134,7 +134,7 @@ FallenPaladinsHammerEcho.DisplayName: 堕落圣骑士之锤
 FallenPaladinsHammerProj.DisplayName: 堕落圣骑士之锤
 Feather.DisplayName: 羽毛
 Flarefrost.DisplayName: 霜炎
-FloodtideShark.DisplayName: SHORK
+FloodtideShark.DisplayName: 潮鲨
 ForbiddenOathbladeProjectile.DisplayName: 誓约与禁忌之弹幕
 GaelExplosion.DisplayName: 盖尔震击
 GaelSkull.DisplayName: 盖尔鲜血头颅
@@ -167,9 +167,9 @@ GrovetendersEntanglingVines.DisplayName: 缠绕疯长
 GrovetendersTouch.DisplayName: 树妖之触
 HeavensMight.DisplayName: 极乐之威
 HellionSpike.DisplayName: 爆发尖刺
-IridescentExcaliburSlash.DisplayName: Iridescent Excalibur Slash
-IridescentExcaliburSlash2.DisplayName: Iridescent Excalibur Slash
-IridescentExcaliburSlash3.DisplayName: Iridescent Excalibur Slash
+IridescentExcaliburSlash.DisplayName: 绚辉圣斩
+IridescentExcaliburSlash2.DisplayName: 绚辉圣斩
+IridescentExcaliburSlash3.DisplayName: 绚辉圣斩
 HolyColliderHolyFire.DisplayName: 集束焰火
 IceBombFriendly.DisplayName: 冰炸弹
 IllustriousKnife.DisplayName: 圣光飞刀

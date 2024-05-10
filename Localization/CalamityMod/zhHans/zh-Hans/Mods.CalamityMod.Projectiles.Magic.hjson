@@ -78,7 +78,7 @@ ForbiddenSunProjectile.DisplayName: 禁忌之阳
 FrigidflashBoltProjectile.DisplayName: 冰火矢
 FrostBoltProjectile.DisplayName: 冰矢
 GammaLaser.DisplayName: 射命之光
-GenesisBeam.DisplayName: Genesis Beam
+GenesisBeam.DisplayName: 起源射线
 GhastlyBlast.DisplayName: 幽魂能量球
 GhastlyExplosion.DisplayName: 幽魂爆炸
 GhastlyExplosionShard.DisplayName: 幽魂闪电
@@ -94,7 +94,7 @@ HadalUrnStarfish.DisplayName: 马里亚纳海星
 HadalUrnStarfishShard.DisplayName: 海星碎块
 HeliumFlashBlast.DisplayName: 氦闪
 HellfireExplosionFriendly.DisplayName: 狱火炎爆
-HellwingBat.DisplayName: Ashen Hellwing
+HellwingBat.DisplayName: 狱烬蝙蝠
 HolyFlame.DisplayName: 圣火
 HolyLaser.DisplayName: 圣光聚束
 IceBarrageMain.DisplayName: 寒冰弹幕
@@ -151,13 +151,13 @@ NightBolt.DisplayName: 夜明弹
 NightOrb.DisplayName: 夜明球
 NightsRayBeam.DisplayName: 夜光
 NuclearFuryProjectile.DisplayName: 原子暴怒
-OmicronBeam.DisplayName: Omicron Beam
+OmicronBeam.DisplayName: 奥密克戎射线
 PartySparkle.DisplayName: 漂亮火花
 PhantasmalFuryProj.DisplayName: 亡魂之怒
 Phantom.DisplayName: 幻魂
 PhasedGodRay.DisplayName: 神之射线
-PhotosyntheticShard.DisplayName: Photosynthetic Shard
-PhotosyntheticSolarBeam.DisplayName: Solar Beam
+PhotosyntheticShard.DisplayName: 光合裂片
+PhotosyntheticSolarBeam.DisplayName: 阳光射线
 PlagueFang.DisplayName: 瘟疫之牙
 PlasmaBolt.DisplayName: 等离子弹
 PlasmaRay.DisplayName: 等离子射线
@@ -203,7 +203,7 @@ SlitheringEelProjectile.DisplayName: 蜿蜒酸鳗
 SmallSpirit.DisplayName: 愤怒灵魂
 Snowball.DisplayName: 雪球
 Snowflake.DisplayName: 雪花
-SnowflakeIceStar.DisplayName: Ice Star
+SnowflakeIceStar.DisplayName: 冰晶之星
 SolarElementalBeam.DisplayName: 日耀光束
 SoulPiercerBeam.DisplayName: 灵魂穿刺
 SoulPiercerBolt.DisplayName: 灵魂穿刺
@@ -219,7 +219,7 @@ SupremeDustProjectile.DisplayName: 至尊之尘
 TacticiansElectricBoom.DisplayName: 电流爆裂
 TacticiansTrumpCardProj.DisplayName: 王牌光束
 TearsofHeavenProjectile.DisplayName: 天堂之泪
-Teslabeam.DisplayName: Teslabeam
+Teslabeam.DisplayName: 特斯拉光束
 ThunderstormShot.DisplayName: 雷电风暴
 ThunderstormShotSplit.DisplayName: 雷电风暴
 TradewindsProjectile.DisplayName: 信风羽
@@ -236,22 +236,22 @@ VenusianBolt.DisplayName: 金星飞弹
 VenusianExplosion.DisplayName: 金星火焰
 VenusianFlame.DisplayName: 金耀余烬
 VisceraBeam.DisplayName: 酸蚀内脏
-VisceraBoom.DisplayName: Viscera Boom
+VisceraBoom.DisplayName: 酸蚀爆炸
 VitriolicViperFang.DisplayName: 酸蚀尖牙
 VitriolicViperSpit.DisplayName: 酸蚀唾液
 VividBeam.DisplayName: 耀界光束
 VividBolt.DisplayName: 耀界飞弹
 VividClarityBeam.DisplayName: 耀界光束
 VividExplosion.DisplayName: 耀界爆炸
-VividLaser2.DisplayName: Vivid Laser
+VividLaser2.DisplayName: 耀界之光
 VividOrb.DisplayName: 光耀球
 VoidVortexProj.DisplayName: 虚空漩涡
 VolatileStarcore.DisplayName: 挥发性星核
 VortexElementalBeam.DisplayName: 闪电
 WaterLeechProj.DisplayName: 水蛭
 WaywasherProj.DisplayName: 清道夫弹幕
-WingmanShot.DisplayName: Mana Shot
-WingmanGrenade.DisplayName: Mana Grenade
+WingmanShot.DisplayName: 魔能子弹
+WingmanGrenade.DisplayName: 魔能榴弹
 WulfrumBolt.DisplayName: 钨钢杖飞弹
 WulfrumManaDrain.DisplayName: 魔力汲取
 WyvernFeatherGreen.DisplayName: 绿色星龙羽
