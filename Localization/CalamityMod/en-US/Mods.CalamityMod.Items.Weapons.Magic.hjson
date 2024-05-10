@@ -27,15 +27,6 @@ AethersWhisper: {
 		'''
 }
 
-AlphaRay: {
-	DisplayName: Alpha Ray
-	Tooltip:
-		'''
-		Disintegrates everything with a tri-beam of energy and lasers
-		Press <right> to fire a Y-shaped beam of destructive energy and a spread of lasers
-		'''
-}
-
 AlulaAustralis: {
 	DisplayName: Alula Australis
 	Tooltip: Fires a beautiful aurora trailed by a star shower
@@ -237,7 +228,11 @@ DivineRetribution: {
 
 Downpour: {
 	DisplayName: Downpour
-	Tooltip: Fires a spray of water that drips extra trails of water
+	Tooltip:
+		'''
+		Fires an explosive stream of sand that falls after hitting an enemy
+		The explosion only occurs when the projectile expires
+		'''
 }
 
 Effervescence: {
@@ -328,7 +323,7 @@ FlareBolt: {
 
 ForbiddenSun: {
 	DisplayName: Forbidden Sun
-	Tooltip: Casts a fire orb that emits a gigantic explosion on death
+	Tooltip: Casts a fire orb that emits a gigantic explosion on hit
 }
 
 FrigidflashBolt: {
@@ -341,9 +336,14 @@ FrostBolt: {
 	Tooltip: Casts a slow-moving ball of frost
 }
 
-Genisis: {
-	DisplayName: Genisis
-	Tooltip: Fires a Y-shaped beam of destructive energy and a spread of lasers
+Genesis: {
+	DisplayName: Genesis
+	Tooltip:
+		'''
+		Fire an array of lasers that decreases in spread for each shot
+		Every sixth shot fires a splitting Genesis Beam and resets the spread of the weapon
+		Hitting an enemy where the Genesis Beam splits deals increased damage
+		'''
 }
 
 GhastlyVisage: {
@@ -544,6 +544,17 @@ NuclearFury: {
 	Tooltip: Casts a torrent of cosmic typhoons
 }
 
+Omicron: {
+	DisplayName: Omicron
+	Tooltip:
+		'''
+		Fires a continuous array of lasers and spawns two Wingmen which orbit you and fire lasers at your cursor
+		Press <right> when firing to shoot an Omicron Beam that splits upon hitting an enemy
+		After firing an Omicron Beam your Wingmen will launch a pair of grenades
+		Hitting an enemy with an Omicron Beam right as it is fired will increase the damage done substantially and stop it from splitting
+		'''
+}
+
 ParasiticSceptor: {
 	DisplayName: Parasitic Scepter
 	Tooltip: Fires a spread of radioactive water leeches that latch onto enemies, increasing damage over time per leech
@@ -560,6 +571,15 @@ PhoenixFlameBarrage: {
 		'''
 		Casts a barrage of fire from the sky
 		'Baptism by draconic fire'
+		'''
+}
+
+Photosynthesis: {
+	DisplayName: Photosynthesis
+	Tooltip:
+		'''
+		Casts a brilliant ray that dissolves into energy on enemy hits
+		More energy is created the farther along the ray the hit enemy is
 		'''
 }
 
@@ -671,9 +691,9 @@ Serpentine: {
 		'''
 }
 
-ShadecrystalTome: {
+ShadecrystalBarrage: {
 	DisplayName: Shadecrystal Barrage
-	Tooltip: Summons rapid fire shadecrystals, can shoot two crystals at once
+	Tooltip: Summons bursts of shadecrystals that can home in on enemies
 }
 
 ShaderainStaff: {
@@ -714,7 +734,11 @@ SlitheringEels: {
 
 SnowstormStaff: {
 	DisplayName: Snowstorm Staff
-	Tooltip: Fires a snowflake that follows the mouse cursor
+	Tooltip:
+		'''
+		Fires snowflakes that follows the mouse cursor
+		Snowflakes split into ice stars on enemy hits
+		'''
 }
 
 SoulPiercer: {
@@ -729,7 +753,7 @@ StaffofBlushie: {
 
 StarShower: {
 	DisplayName: Star Shower
-	Tooltip: Casts a spread of astral stars at the mouse cursor
+	Tooltip: Casts a spread of astral stars from the sky that converge at the cursor
 }
 
 SubsumingVortex: {
@@ -758,12 +782,15 @@ TearsofHeaven: {
 	Tooltip: Casts slow-moving homing balls of heavenly light
 }
 
-TerraRay: {
-	DisplayName: Terra Ray
+Teslastaff: {
+	DisplayName: Teslastaff
 	Tooltip:
 		'''
-		Casts a brilliant ray that dissolves into energy on enemy hits
-		More energy is created the farther along the ray the hit enemy is
+		Fires a channeled beam of pinpoint-accurate lightning
+		The beam has limited turning speed capability
+		Each successive hit on the same enemy increases damage per hit
+		The damage increases 10% per hit to a maximum of 500% damage
+		This damage will rapidly decrease after the enemy stops being hit
 		'''
 }
 
@@ -880,8 +907,9 @@ Viscera: {
 	DisplayName: Viscera
 	Tooltip:
 		'''
-		Fires a blood beam that heals you on enemy hits
-		The more tiles and enemies the beam bounces off of or travels through the more healing the beam does
+		Fires a rapid barrage of piercing blood beams that heal you on enemy hit
+		Each successive beam in the barrage deals more damage
+		The last beam of the barrage instead explodes upon hitting an enemy
 		'''
 }
 
@@ -903,12 +931,12 @@ VividClarity: {
 
 VoidVortex: {
 	DisplayName: Void Vortex
-	Tooltip: Conjures a swirling vortex of supercharged magnet spheres around the cursor
+	Tooltip: Conjures a swirling vortex of supercharged magnet spheres around the cursor that explodes into a storm of homing mini spheres
 }
 
 VoltaicClimax: {
 	DisplayName: Voltaic Climax
-	Tooltip: Conjures an octagon of supercharged magnet spheres around the cursor
+	Tooltip: Conjures a ring of supercharged magnet spheres around the cursor
 }
 
 Waywasher: {
@@ -918,7 +946,12 @@ Waywasher: {
 
 Wingman: {
 	DisplayName: Wingman
-	Tooltip: Fires a concentrated laser beam
+	Tooltip:
+		'''
+		Spawns two Wingmen which orbit you and fire lasers at your cursor
+		Press <right> while firing to order the Wingmen to launch grenades
+		Grenades have a cooldown which is shortened if the Wingmen are fully revved up
+		'''
 }
 
 WintersFury: {

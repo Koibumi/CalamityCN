@@ -17,11 +17,6 @@ EyeofMagnus: {
 		'''
 }
 
-GoldenGun: {
-	DisplayName: Golden Gun
-	Tooltip: Shoots a straight line of pure ichor
-}
-
 LunicEye: {
 	DisplayName: Lunic Eye
 	Tooltip:

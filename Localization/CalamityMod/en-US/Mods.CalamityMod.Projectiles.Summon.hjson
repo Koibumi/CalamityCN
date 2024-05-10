@@ -21,6 +21,7 @@ AtlasMunitionsDropPod.DisplayName: Drop Pod
 AtlasMunitionsDropPodUpper.DisplayName: Drop Pod Cover
 AtlasMunitionsLaser.DisplayName: Exo Pulse Laser
 AtlasMunitionsLaserOverdrive.DisplayName: Exo Pulse Laser
+AtzirisDisfavor.DisplayName: Atziri's Disfavor
 AureusBomber.DisplayName: Aureus Bomber
 BabyBloodCrawler.DisplayName: Baby Blood Crawler
 BabyPlaguebringer.DisplayName: Baby Plaguebringer
@@ -129,6 +130,8 @@ GhostlyMine.DisplayName: Mine
 GiantIbanRobotOfDoom.DisplayName: Andromeda
 GlacialEmbracePointyThing.DisplayName: Ice Castle Shard
 HallowedStarSummon.DisplayName: Hallowed Star
+HarvestStaffMinion.DisplayName: Pumpoem
+HarvestStaffSentry.DisplayName: Pumpoem Nest
 HauntedDishes.DisplayName: Haunted Dishes
 HermitCrabMinion.DisplayName: Hermit Crab
 HerringAI.DisplayName: Herring School
@@ -136,6 +139,9 @@ HerringMinion.DisplayName: Herring
 Hive.DisplayName: Hive
 Hiveling.DisplayName: Hiveling
 HomingGammaBullet.DisplayName: Gamma Bullet
+HopeShredder.DisplayName: Hope Shredder
+HopeShredderArrow.DisplayName: Hope Shredder Arrow
+HopeShredderArrowSplit.DisplayName: Hope Shredder Split Arrow
 HowlsHeartCalcifer.DisplayName: Calcifer
 HowlsHeartFireball.DisplayName: Fireball
 HowlsHeartHowl.DisplayName: Howl
@@ -151,6 +157,12 @@ IgneousBladeStrike.DisplayName: Igneous Blade
 IrradiatedAura.DisplayName: Irradiated Aura
 LanternFlame.DisplayName: Lantern Flame
 LanternSoul.DisplayName: Lantern
+LiliesOfFinalityAoE.DisplayName: Bioresonance Aura
+LiliesOfFinalityAriane.DisplayName: Ariane
+LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
+LiliesOfFinalityBolt.DisplayName: Bioresonance Bolt
+LiliesOfFinalityElster.DisplayName: Elster
+LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
 LostSoulGiant.DisplayName: Soul
 LostSoulGold.DisplayName: Gold Soul
 LostSoulLarge.DisplayName: Soul
@@ -188,6 +200,7 @@ MutatedTruffleToothballSpike.DisplayName: Baby Boomer's Toothball Spike
 MutatedTruffleVortex.DisplayName: Baby Boomer's Vortex
 OldDukeHeadCorpse.DisplayName: Absolutely Disgusting Shark Puker
 OldDukeSharkVomit.DisplayName: Puke
+Paradoxica.DisplayName: Paradoxica
 PerditionBeacon.DisplayName: Perdition Beacon
 PhantomGuy.DisplayName: Phantom
 PhantomicDagger.DisplayName: Phantom Dagger
@@ -236,13 +249,14 @@ SeekerSummonProj.DisplayName: Soul Seeker
 SepulcherMinion.DisplayName: Sepulcher
 Shellfish.DisplayName: Shellfish
 SilvaCrystal.DisplayName: Silva Crystal
-SilvaCrystalExplosion.DisplayName: Explosion
+SilvaCrystalExplosion.DisplayName: Silva Explosion
 SiriusBeam.DisplayName: Sirius Beam
 SiriusExplosion.DisplayName: Sirius Explosion
 SiriusMinion.DisplayName: Sirius
 SkeletalDragonChild.DisplayName: Skeletal Child
 SkeletalDragonMother.DisplayName: Skeletal Mother
 SlimePuppet.DisplayName: Slime Puppet
+StormjawSpark.DisplayName: Spark
 CannonLaserbeam.DisplayName: Exothermal Deathray
 ExoskeletonGaussNukeCannon.DisplayName: Gauss Nuke
 ExoskeletonLaserCannon.DisplayName: Laser Cannon
@@ -268,6 +282,8 @@ Spikecrag.DisplayName: Spikecrag
 SpikecragSpike.DisplayName: Spikecrag Spike
 SquirrelSquireAcorn.DisplayName: Squirrel Acorn
 SquirrelSquireMinion.DisplayName: Squirrel Squire
+Starforge.DisplayName: Starforge
+StarforgeBlast.DisplayName: Starforge Blast
 StellarTorusBeam.DisplayName: Stellar Torus Beam
 StellarTorusSummon.DisplayName: Stellar Torus Summon
 StormjawBaby.DisplayName: Stormjaw Baby
@@ -307,18 +323,11 @@ WaterSpearFriendly.DisplayName: Water Spear
 WhiteDragonBody.DisplayName: White Celestial Dragon
 WhiteDragonHead.DisplayName: White Celestial Dragon
 WhiteDragonTail.DisplayName: White Celestial Dragon
+WindRipper.DisplayName: Wind Ripper
+WindRipperArrow.DisplayName: Wind Ripper Arrow
 WitherBlossom.DisplayName: Wither Blossom
 WitherBolt.DisplayName: Wither Bolt
 WulfrumDroid.DisplayName: Wulfrum Droid
 WulfrumEnergyBurst.DisplayName: Wulfrum Bolt
 WulfrumFusionBolt.DisplayName: Fusion Bolt
 YharonMinionFireball.DisplayName: Dragon Fireball
-AtzirisDisfavor.DisplayName: Atziri's Disfavor
-Starforge.DisplayName: Starforge
-Paradoxica.DisplayName: Paradoxica
-StarforgeBlast.DisplayName: Starforge Blast
-WindRipper.DisplayName: Wind Ripper
-WindRipperArrow.DisplayName: Wind Ripper Arrow
-HopeShredder.DisplayName: Hope Shredder
-HopeShredderArrow.DisplayName: Hope Shredder Arrow
-HopeShredderArrowSplit.DisplayName: Hope Shredder Split Arrow

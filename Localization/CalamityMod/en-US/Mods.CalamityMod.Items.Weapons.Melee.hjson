@@ -12,9 +12,8 @@ AbyssBlade: {
 	DisplayName: Abyss Blade
 	Tooltip:
 		'''
-		Fires short-range tridents
-		Hitting enemies will inflict the crush depth debuff
-		The lower the enemies' defense, the more damage they take from this debuff
+		Tosses a spinning abyssal sword that slices through enemies and releases water energy upon hitting a tile
+		The sword will fly towards enemies after a ricochet, dealing 2x damage
 		'''
 }
 
@@ -85,7 +84,7 @@ ArkoftheCosmos: {
 		<right> to snip out the scissor blades in front of you
 		Hitting an enemy with it will parry them, granting you brief invulnerability
 		You can parry projectiles to make them deal 160 less damage for a short period
-		Parrying anything will empower the next 10 swings of the sword
+		Parrying anything will empower the next 15 swings of the sword
 		'''
 	BlastInfo:
 		'''
@@ -106,7 +105,7 @@ ArkoftheElements: {
 	ComboInfo:
 		'''
 		<left> to perform a 5-swing combo that ends by throwing the blade
-		Releasing while the blade is out will deal extra damage and give 2 charges
+		Releasing while the blade is out will deal extra damage
 		'''
 	ParryInfo:
 		'''
@@ -125,7 +124,7 @@ AstralBlade: {
 
 AstralPike: {
 	DisplayName: Astral Pike
-	Tooltip: Summons astral star swarms on critical hits
+	Tooltip: Summons astral star swarms on hit
 }
 
 AstralScythe: {
@@ -170,7 +169,7 @@ BansheeHook: {
 
 Basher: {
 	DisplayName: Basher
-	Tooltip: Inflicts irradiated on enemy hits
+	Tooltip: Swings a rotten club that poisons and irradiates enemies on hit
 }
 
 BladecrestOathsword: {
@@ -178,9 +177,24 @@ BladecrestOathsword: {
 	Tooltip: Fires bursts of demonic blades that exponentially decelerate and explode
 }
 
+BlightedCleaver: {
+	DisplayName: Blighted Cleaver
+	Tooltip:
+		'''
+		Fires homing blazing blades
+		Gives the player the Brutal Carnage buff on enemy hits
+		This buff increases melee damage by 20%
+		'''
+}
+
 Bonebreaker: {
 	DisplayName: Bonebreaker
 	Tooltip: Fires javelins that stick to enemies before bursting into shrapnel
+}
+
+BotanicPiercer: {
+	DisplayName: Botanic Piercer
+	Tooltip: Fires a botanic energy beam
 }
 
 Brimlance: {
@@ -190,7 +204,7 @@ Brimlance: {
 
 Brimlash: {
 	DisplayName: Brimlash
-	Tooltip: Fires a brimstone bolt that explodes into more bolts on death
+	Tooltip: Fires a brimstone bolt that explodes into more bolts on hit
 }
 
 BrimstoneSword: {
@@ -225,6 +239,15 @@ BrokenBiomeBlade: {
 	DefaultFunction: Does nothing... yet
 }
 
+BurningRevelation: {
+	DisplayName: Burning Revelation
+	Tooltip:
+		'''
+		Emits large holy explosions on hit
+		An exceptionally agile yoyo
+		'''
+}
+
 BurntSienna: {
 	DisplayName: Burnt Sienna
 	Tooltip: Causes enemies to erupt into healing projectiles on death
@@ -240,14 +263,21 @@ CatastropheClaymore: {
 	Tooltip: Fires sparkles which inflict Frostbite, Hellfire, or Ichor
 }
 
-TaintedBlade: {
-	DisplayName: Tainted Blade
-	Tooltip: Inflicts poison on enemy hits
-}
-
 CelestialClaymore: {
 	DisplayName: Celestial Claymore
-	Tooltip: Spawns cosmic energy flames near the player that generate large explosions
+	Tooltip: Spawns cosmic energy stars near the cursor that inflict several debuffs
+}
+
+ChronomancersScythe: {
+	DisplayName: Chronomancer's Scythe
+	Tooltip:
+		'''
+		Rapidly fires icicles
+		Press <right> to swing the scythe around you, creating a clock pattern of homing icicles
+		Direct hits with the scythe have a chance to spawn clocks
+		Collecting the clocks increases movement speed and acceleration by 5% for each clock collected
+		This stacks up to 3 times and each level wears off after 5 seconds
+		'''
 }
 
 ClamCrusher: {
@@ -277,8 +307,9 @@ CosmicShiv: {
 	DisplayName: Cosmic Shiv
 	Tooltip:
 		'''
-		Fires a cosmic beam that homes in on enemies
-		Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars
+		Fires a cosmic star that homes in on enemies
+		Upon hitting an enemy, a barrage of blades will persistently strike
+		Landing more stars causes more blades to strike
 		'''
 }
 
@@ -293,7 +324,7 @@ CrescentMoon: {
 
 DarklightGreatsword: {
 	DisplayName: Darklight Greatsword
-	Tooltip: Fires darklight blades that split on death
+	Tooltip: Fires darklight blades that slice through enemies, creating additional slashes
 }
 
 DeathsAscension: {
@@ -305,12 +336,22 @@ DeathsAscension: {
 		'''
 }
 
+DefiledGreatsword: {
+	DisplayName: Defiled Greatsword
+	Tooltip:
+		'''
+		Fires blazing, hyper, and sunlight blades
+		Gives the player the Brutal Carnage buff on enemy hits
+		This buff increases melee damage by 20%
+		'''
+}
+
 DepthCrusher: {
 	DisplayName: Depth Crusher
 	Tooltip:
 		'''
-		Hitting enemies will inflict the Riptide debuff
-		Press <right> to use without hammering down walls
+		Tosses a heavy abyssal crusher that releases water energy upon hitting a tile
+		The crusher will ricochet off of tiles and enemies
 		'''
 }
 
@@ -455,7 +496,8 @@ Exoblade: {
 		Press <left> to release multiple energy beams that home in on enemies and slice them on hit
 		Press <right> to dash in the direction of the cursor with the blade
 		Enemy hits from the blade during the dash result in massive damage and a rebound
-		Press <left> immediately after a rebound to perform a powerful slash that explodes on enemy hits
+		Press <left> immediately after a rebound to perform a powerful slash
+		Powerful slashes are larger, heal you, and create a large explosion
 		'''
 }
 
@@ -479,7 +521,7 @@ FaultLine: {
 
 FeralthornClaymore: {
 	DisplayName: Feralthorn Claymore
-	Tooltip: Summons thorns on enemy hits
+	Tooltip: Sprouts thorns from enemies on hit
 }
 
 FlarefrostBlade: {
@@ -610,7 +652,7 @@ GreatswordofJudgement: {
 	DisplayName: Greatsword of Judgement
 	Tooltip:
 		'''
-		Fires a white orb that emits white rain on death for a time
+		Fires a white orb that emits white rain from where it dissipates for a time
 		A pale white sword from a forgotten land
 		You can hear faint yet comforting whispers emanating from the blade
 		'No matter where you may be you are never alone
@@ -620,7 +662,7 @@ GreatswordofJudgement: {
 
 Greentide: {
 	DisplayName: Greentide
-	Tooltip: Summons teeth from the sky on hit
+	Tooltip: Summons teeth to chomp your foes on hit
 }
 
 HellfireFlamberge: {
@@ -660,14 +702,14 @@ IllustriousKnives: {
 
 InsidiousImpaler: {
 	DisplayName: Insidious Impaler
-	Tooltip: Fires a harpoon that sticks to enemies and explodes
+	Tooltip: Fires infected harpoons that stick to enemies and explode
 }
 
 IridescentExcalibur: {
 	DisplayName: Iridescent Excalibur
 	Tooltip:
 		'''
-		Freezes enemies and heals the player on hit
+		True melee strikes freeze enemies
 		Fires rainbow beams that change their behavior based on their color
 		Press <right> for true melee
 		'''
@@ -685,7 +727,7 @@ Lacerator: {
 	TooltipGFB: May be a viable weapon against DoG...
 }
 
-LifefruitScythe: {
+LifehuntScythe: {
 	DisplayName: Lifehunt Scythe
 	Tooltip: Heals you on hit and shoots an energy scythe
 }
@@ -704,7 +746,6 @@ Lucrecia: {
 	DisplayName: Lucrecia
 	Tooltip:
 		'''
-		Striking an enemy makes you immune for a short time
 		Fires a DNA chain
 		Finesse
 		'''
@@ -782,8 +823,8 @@ NeptunesBounty: {
 	DisplayName: Neptune's Bounty
 	Tooltip:
 		'''
-		Fires a trident that rains additional tridents as it travels
-		Hitting enemies will inflict the crush depth debuff
+		Tosses a spinning abyssal sword which constantly sprays water energy
+		Once the blade begins falling, it will redirect itself towards enemies with increased velocity and 2x damage
 		'''
 }
 
@@ -831,22 +872,11 @@ Omniblade: {
 	Tooltip: An ancient blade forged by the legendary Omnir
 }
 
-Oracle: {
-	DisplayName: The Oracle
-	Tooltip:
-		'''
-		Emits an aura of red lightning which charges up when hitting enemies
-		Fires auric orbs when supercharged
-		An exceptionally agile yoyo
-		'Gaze into the past, the present, the future... and the circumstances of your inevitable demise'
-		'''
-}
-
 Orderbringer: {
 	DisplayName: Orderbringer
 	Tooltip:
 		'''
-		Fires a rainbow blade that emits rainbow rain on death for a time
+		Fires a rainbow blade that emits rainbow rain from where it dissipated for a time
 		A pale white sword from a forgotten land
 		You can hear faint yet comforting whispers emanating from the blade
 		'No matter where you may be you are never alone
@@ -884,6 +914,7 @@ PhotonRipper: {
 		'''
 		Projects a directed stream of hardlight teeth at ultra high velocity
 		This weapon and its projectiles function as a chainsaw
+		Press <right> to use without chopping down trees
 		'''
 }
 
@@ -987,7 +1018,7 @@ SausageMaker: {
 
 ScourgeoftheCosmos: {
 	DisplayName: Scourge of the Cosmos
-	Tooltip: Throws a bouncing cosmic scourge that emits tiny homing cosmic scourges on death and tile hits
+	Tooltip: Throws a bouncing cosmic scourge that emits tiny homing cosmic scourges on enemy and tile hits
 }
 
 SeashineSword: {
@@ -1018,15 +1049,6 @@ SmokingComet: {
 	Tooltip: Rains stars from the sky
 }
 
-SolarFlare: {
-	DisplayName: Solar Flare
-	Tooltip:
-		'''
-		Emits large holy explosions on hit
-		An exceptionally agile yoyo
-		'''
-}
-
 SolsticeClaymore: {
 	DisplayName: Solstice Claymore
 	Tooltip:
@@ -1034,11 +1056,6 @@ SolsticeClaymore: {
 		Changes projectile color based on the time of year
 		Inflicts daybroken during the day and nightwither during the night
 		'''
-}
-
-SoulEdge: {
-	DisplayName: Soul Edge
-	Tooltip: Fires the ghastly souls of long-deceased abyss dwellers
 }
 
 SoulHarvester: {
@@ -1084,7 +1101,7 @@ StormRuler: {
 	DisplayName: Storm Ruler
 	Tooltip:
 		'''
-		Fires beams that generate tornadoes on death
+		Fires beams that generate tornadoes where they strike
 		Tornadoes suck enemies in
 		'Only a storm can fell a greatwood'
 		'''
@@ -1144,6 +1161,11 @@ Swordsplosion: {
 		'''
 }
 
+TaintedBlade: {
+	DisplayName: Tainted Blade
+	Tooltip: Inflicts poison on enemy hits
+}
+
 TeardropCleaver: {
 	DisplayName: Teardrop Cleaver
 	Tooltip: Makes your enemies cry
@@ -1159,17 +1181,13 @@ TenebreusTides: {
 		'''
 }
 
-TerraLance: {
-	DisplayName: Terra Lance
-	Tooltip: Fires a terra energy beam
-}
-
 Terratomere: {
 	DisplayName: Terratomere
 	Tooltip:
 		'''
 		Heals the player on true melee hits
-		Fires a piercing energy bolt that causes hit targets to explode and be slashed
+		Fires several piercing energy bolts that rapidly seek targets
+		On hit, explodes and repeatedly slashes the target
 		'Linked to the essence of Terraria'
 		'''
 }
@@ -1189,6 +1207,20 @@ TheBurningSky: {
 		'''
 		Rains down a stream of draconic fire at the cursor
 		'Hold the blade to the sky, and witness Armageddon'
+		'''
+}
+
+TheDarkMaster: {
+	DisplayName: The Dark Master
+	Tooltip:
+		'''
+		Fires red echo slash projectiles at full health
+		Projectile damage increases for every point of HP above 400
+		Press <right> to spawn three shadow clones in a Delta formation
+		The clones will mirror your sword swings and release projectiles
+		The clones will always fire projectiles regardless of your own HP
+		The clones may only exist while holding this weapon
+		'The blade by which the shadows levy their foes with a terrible fate'
 		'''
 }
 
@@ -1232,10 +1264,23 @@ TheMutilator: {
 
 TheObliterator: {
 	DisplayName: The Obliterator
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
 		Ruins nearby enemies with death lasers
 		An exceptionally agile yoyo
+		'''
+	TooltipGFB: just a slight bit of dust spam on this weapon im afraid
+}
+
+TheOracle: {
+	DisplayName: The Oracle
+	Tooltip:
+		'''
+		Emits an aura of red lightning which charges up when hitting enemies
+		Fires auric orbs when supercharged
+		An exceptionally agile yoyo
+		'Gaze into the past, the present, the future... and the circumstances of your inevitable demise'
 		'''
 }
 
@@ -1293,17 +1338,7 @@ TrueCausticEdge: {
 	Tooltip:
 		'''
 		Fires a bouncing caustic beam
-		Inflicts venom on enemy hits
-		'''
-}
-
-DefiledGreatsword: {
-	DisplayName: Defiled Greatsword
-	Tooltip:
-		'''
-		Fires blazing, hyper, and sunlight blades
-		Gives the player the Brutal Carnage buff on enemy hits
-		This buff increases melee damage by 25% and melee crit chance by 10%
+		Inflicts acid venom and slows down on enemy hits
 		'''
 }
 
@@ -1318,16 +1353,6 @@ TyphonsGreed: {
 		'''
 		Summons water spirits while in use
 		These water spirits will home in on enemies after traveling towards the player
-		'''
-}
-
-BlightedCleaver: {
-	DisplayName: Blighted Cleaver
-	Tooltip:
-		'''
-		Fires homing blazing blades
-		Gives the player the Brutal Carnage buff on enemy hits
-		This buff increases melee damage by 25% and melee crit chance by 10%
 		'''
 }
 
@@ -1359,6 +1384,15 @@ Violence: {
 Virulence: {
 	DisplayName: Virulence
 	Tooltip: Fires a plague cloud
+}
+
+VoidEdge: {
+	DisplayName: Void Edge
+	Tooltip:
+		'''
+		Fires the ghastly souls of long-deceased abyss dwellers
+		Striking with the blade summons additional souls from below
+		'''
 }
 
 VulcaniteLance: {

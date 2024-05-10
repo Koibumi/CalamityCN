@@ -136,8 +136,8 @@ CalamityConfig: {
 			'''
 			Demon Altars no longer spawn ores and crimson/corruption blocks when broken.
 			Wall of Flesh spawns Cobalt and Palladium ore on first kill.
-			The first mech boss you fight has 20% less HP and damage and spawns Mythril and Orichalcum ore on first kill.
-			The second mech boss you fight has 10% less HP and damage and spawns Adamantite and Titanium ore on first kill.
+			The first mech boss you fight has 20% (10% in Expert and Master) less HP and damage and spawns Mythril and Orichalcum ore on first kill.
+			The second mech boss you fight has 10% (5% in Expert and Master) less HP and damage and spawns Adamantite and Titanium ore on first kill.
 			The third mech boss spawns Hallowed Ore on first kill.
 			'''
 	}
@@ -253,6 +253,15 @@ CalamityConfig: {
 			'''
 	}
 
+	NewVanillaTextures: {
+		Label: "[i:Paintbrush] New Vanilla Textures"
+		Tooltip:
+			'''
+			Enable or disable new vanilla textures.
+			Disable this for compatibility with texture packs.
+			'''
+	}
+
 	ParticleLimit: {
 		Label: "[i:FragmentStardust] Max Particle Limit"
 		Tooltip:
@@ -260,7 +269,7 @@ CalamityConfig: {
 			Sets the maximum of particle effects that can exist at once.
 			Particles are separate from dust and gores.
 			Turn down to improve performance.
-			[c/F05A5A:Turning this below 300 may cause some things to not display correctly.]
+			[c/F05A5A:Turning this below 1000 may cause some things to not display correctly.]
 			'''
 	}
 
@@ -282,6 +291,11 @@ CalamityConfig: {
 			'''
 	}
 
+	RemoveLavaDropsFromLavaSlimes: {
+		Label: "[i:LavaWaders] Remove Lava Drops From Lava Slimes"
+		Tooltip: When enabled, Lava Slimes will be replaced with a new Lava Slime that no longer drops lava.
+	}
+
 	RemoveReforgeRNG: {
 		Label: "[i:TinHammer] Remove Reforge RNG"
 		Tooltip:
@@ -300,9 +314,15 @@ CalamityConfig: {
 			'''
 	}
 
-	Screenshake: {
-		Label: "[i:CalamityMod/WavePounder] Screenshake"
-		Tooltip: Enable or disable all screen-shaking effects.
+	ScreenshakePower: {
+		Label: "[i:CalamityMod/WavePounder] Screenshake Power"
+		Tooltip:
+			'''
+			How intense screen-shaking effects are.
+			Set to zero to disable screen-shaking entirely.
+			[c/FF232C:All screen-shake visuals are balanced around a value of 1.]
+			[c/FF232C:Higher values may be nauseating or otherwise bad for some.]
+			'''
 	}
 
 	ShopNewAlert: {

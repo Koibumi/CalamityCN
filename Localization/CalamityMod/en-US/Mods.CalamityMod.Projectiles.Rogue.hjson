@@ -231,6 +231,8 @@ RegulusEnergy.DisplayName: Regulus Energy
 RegulusRiotProj.DisplayName: Regulus Riot
 RotBallProjectile.DisplayName: Rot Ball
 SacrificeProjectile.DisplayName: Sacrificial Dagger
+SamsaraSlicerProjectile.DisplayName: Samsara Slicer
+SamsaraSlicerSmallDisk.DisplayName: Samsara Slicer
 SandDollarProj.DisplayName: Sand Dollar
 SandDollarStealth.DisplayName: Sand Dollar
 SandslasherProj.DisplayName: Sandslasher
@@ -288,15 +290,12 @@ SubductionFlameburst.DisplayName: Flame Pillar
 SubductionSlicerProj.DisplayName: Subduction Slicer
 SulphuricNukesplosion.DisplayName: Nuke
 SupernovaBomb.DisplayName: Supernova Bomb
-SupernovaBoom.DisplayName: Explosion
-SupernovaHoming.DisplayName: Supernova Energy
-SupernovaSpike.DisplayName: Spike
+SupernovaBoom.DisplayName: Micro Supernova
+SupernovaStealthBoom.DisplayName: Exo Supernova
 TalonLargeProj.DisplayName: Huge Terror Talon
 TalonSmallProj.DisplayName: Terror Talon
 TarragonThrowingDartProjectile.DisplayName: Tarragon Throwing Dart
 TarraThornRight.DisplayName: Tarragon Thorn
-TerraDiskProjectile.DisplayName: Terra Disk
-TerraDiskProjectile2.DisplayName: Terra Disk
 TheAtomSplitterDuplicate.DisplayName: Atom Splitter
 TheAtomSplitterProjectile.DisplayName: Atom Splitter
 TheSyringeCinder.DisplayName: Syringe Cinder

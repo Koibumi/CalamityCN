@@ -29,7 +29,7 @@ BrimstoneFire.DisplayName: Brimstone Fire
 BrimstoneHellblast.DisplayName: Brimstone Hellblast
 BrimstoneHellblast2.DisplayName: Brimstone Hellblast
 BrimstoneHellfireball.DisplayName: Brimstone Hellfireball
-BrimstoneMonster.DisplayName: Brimstone Monster
+BrimstoneMonster.DisplayName: Whispering Maelstrom
 BrimstoneRay.DisplayName: Brimstone Ray
 BrimstoneTargetRay.DisplayName: Brimstone Target Ray
 BrimstoneWave.DisplayName: Brimstone Flame Skull
@@ -43,6 +43,8 @@ CirrusVolatileVodkaBottle.DisplayName: Volatile Vodka Bottle
 DarkEnergyBall.DisplayName: Dark Energy
 DarkEnergyBall2.DisplayName: Dark Energy
 DarkOrb.DisplayName: Dark Orb
+DesertScourgeDiveSplash.DisplayName: Desert Scourge Dive Splash
+DesertScourgeSpit.DisplayName: Scourge Spit
 DestroyerCursedLaser.DisplayName: Cursed Laser
 DestroyerElectricLaser.DisplayName: Electric Laser
 DeusMine.DisplayName: Astral Mine
@@ -155,3 +157,4 @@ WaterSpear.DisplayName: Water Spear
 YharonBulletHellVortex.DisplayName: Bullet Hell Vortex
 YharonFireball.DisplayName: Dragon Fireball
 YharonFireball2.DisplayName: Dragon Fireball
+THanosSideLaser.DisplayName: T Hanos Side Laser

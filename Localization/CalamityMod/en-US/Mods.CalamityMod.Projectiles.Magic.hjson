@@ -78,6 +78,7 @@ ForbiddenSunProjectile.DisplayName: Forbidden Sun
 FrigidflashBoltProjectile.DisplayName: Frigidflash Bolt
 FrostBoltProjectile.DisplayName: Frost Ball
 GammaLaser.DisplayName: Gamma Laser
+GenesisBeam.DisplayName: Genesis Beam
 GhastlyBlast.DisplayName: Ghast Blast
 GhastlyExplosion.DisplayName: Ghastly Explosion
 GhastlyExplosionShard.DisplayName: Ghastly Fragment
@@ -93,7 +94,7 @@ HadalUrnStarfish.DisplayName: Marianan Starfish
 HadalUrnStarfishShard.DisplayName: Starfish Shard
 HeliumFlashBlast.DisplayName: Helium Flash
 HellfireExplosionFriendly.DisplayName: Explosion
-HellwingPillar.DisplayName: Pillar
+HellwingBat.DisplayName: Ashen Hellwing
 HolyFlame.DisplayName: Holy Flame
 HolyLaser.DisplayName: Holy Laser
 IceBarrageMain.DisplayName: Ice Barrage
@@ -150,11 +151,13 @@ NightBolt.DisplayName: Night's Bolt
 NightOrb.DisplayName: Night's Orb
 NightsRayBeam.DisplayName: Night's Ray
 NuclearFuryProjectile.DisplayName: Nuclear Fury
-ParticleBeamofDoom.DisplayName: Doom
+OmicronBeam.DisplayName: Omicron Beam
 PartySparkle.DisplayName: Pretty Sparkle
 PhantasmalFuryProj.DisplayName: Phantasmal Fury
 Phantom.DisplayName: Phantom
 PhasedGodRay.DisplayName: Phased God Ray
+PhotosyntheticShard.DisplayName: Photosynthetic Shard
+PhotosyntheticSolarBeam.DisplayName: Solar Beam
 PlagueFang.DisplayName: Plague Fang
 PlasmaBolt.DisplayName: Plasma Bolt
 PlasmaRay.DisplayName: Plasma Ray
@@ -200,6 +203,7 @@ SlitheringEelProjectile.DisplayName: Slithering Eel
 SmallSpirit.DisplayName: Small Angry Spirit
 Snowball.DisplayName: Snowball
 Snowflake.DisplayName: Snowflake
+SnowflakeIceStar.DisplayName: Ice Star
 SolarElementalBeam.DisplayName: Solar Beam
 SoulPiercerBeam.DisplayName: Soul Piercer
 SoulPiercerBolt.DisplayName: Soul Piercer
@@ -215,8 +219,7 @@ SupremeDustProjectile.DisplayName: Earthy Dust
 TacticiansElectricBoom.DisplayName: Electric Explosion
 TacticiansTrumpCardProj.DisplayName: Trump Beam
 TearsofHeavenProjectile.DisplayName: Tears of Heaven
-TerraBeam.DisplayName: Terra Beam
-TerraShard.DisplayName: Terra Shard
+Teslabeam.DisplayName: Teslabeam
 ThunderstormShot.DisplayName: Thunderous Shot
 ThunderstormShotSplit.DisplayName: Thunderous Shot
 TradewindsProjectile.DisplayName: Tradewinds Feather
@@ -233,19 +236,22 @@ VenusianBolt.DisplayName: Venusian Bolt
 VenusianExplosion.DisplayName: Venusian Explosion
 VenusianFlame.DisplayName: Venusian Cinder
 VisceraBeam.DisplayName: Viscera
+VisceraBoom.DisplayName: Viscera Boom
 VitriolicViperFang.DisplayName: Vitriolic Fang
 VitriolicViperSpit.DisplayName: Vitriolic Spit
 VividBeam.DisplayName: Vivid Beam
 VividBolt.DisplayName: Vivid Bolt
 VividClarityBeam.DisplayName: Vivid Ray
 VividExplosion.DisplayName: Vivid Explosion
-VividLaser2.DisplayName: Vivid Bolt
+VividLaser2.DisplayName: Vivid Laser
 VividOrb.DisplayName: Vivid Orb
 VoidVortexProj.DisplayName: Void Vortex
 VolatileStarcore.DisplayName: Volatile Starcore
 VortexElementalBeam.DisplayName: Vortex Lightning
 WaterLeechProj.DisplayName: Water Leech
 WaywasherProj.DisplayName: Waywasher Blast
+WingmanShot.DisplayName: Mana Shot
+WingmanGrenade.DisplayName: Mana Grenade
 WulfrumBolt.DisplayName: Wulfrum Bolt
 WulfrumManaDrain.DisplayName: Mana Drain
 WyvernFeatherGreen.DisplayName: Feather

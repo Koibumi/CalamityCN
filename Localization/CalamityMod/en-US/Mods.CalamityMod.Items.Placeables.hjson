@@ -289,6 +289,11 @@ EutrophicSand: {
 	Tooltip: ""
 }
 
+HardenedEutrophicSand: {
+	DisplayName: Hardened Eutrophic Sand
+	Tooltip: ""
+}
+
 AbyssTreasureChest: {
 	DisplayName: Ancient Treasure Chest
 	Tooltip: ""
@@ -336,6 +341,11 @@ BabyFlakCrabCage: {
 BabyGhostBellJar: {
 	DisplayName: Baby Ghost Bell Jar
 	Tooltip: ""
+}
+
+CirrusCouch: {
+	DisplayName: Cirrus Couch
+	Tooltip: This shouldn't exist...
 }
 
 AquaticScourgeRelic: {
@@ -390,7 +400,7 @@ CryogenRelic: {
 
 DesertScourgeRelic: {
 	DisplayName: Desert Scourge Relic
-	Tooltip: A glimpse into what could have been...
+	Tooltip: ""
 }
 
 DevourerOfGodsRelic: {
@@ -420,7 +430,7 @@ GreatSandSharkRelic: {
 
 HiveMindRelic: {
 	DisplayName: Hive Mind Relic
-	Tooltip: A glimpse into what could have been...
+	Tooltip: ""
 }
 
 LeviathanAnahitaRelic: {
@@ -445,7 +455,7 @@ OldDukeRelic: {
 
 PerforatorsRelic: {
 	DisplayName: Perforators Relic
-	Tooltip: A glimpse into what could have been...
+	Tooltip: ""
 }
 
 PlaguebringerGoliathRelic: {
@@ -631,6 +641,11 @@ AstralFountainItem: {
 	Tooltip: ""
 }
 
+BrimstoneLavaFountainItem: {
+	DisplayName: Brimstone Lava Fountain
+	Tooltip: ""
+}
+
 SulphurousFountainItem: {
 	DisplayName: Sulphuric Water Fountain
 	Tooltip: ""
@@ -649,6 +664,51 @@ GloomTorch: {
 LanternCenter: {
 	DisplayName: Lantern Center
 	Tooltip: Lights up the night sky with celebratory lanterns
+}
+
+AstralProjector: {
+	DisplayName: Astral Projector
+	Tooltip: "'Control a small portion of the Astral Infection's influence.'"
+}
+
+BlueDistortedMonolith: {
+	DisplayName: Blue Distorted Monolith
+	Tooltip: "'Create a localized rupture in the fabric of reality.'"
+}
+
+BossRushMonolith: {
+	DisplayName: Boss Rush Monolith
+	Tooltip: "'Bring forth the end.'"
+}
+
+DeepSeaAnchor: {
+	DisplayName: Deep Sea Anchor
+	Tooltip: "'Dampen the air with heavy amounts of brine.'"
+}
+
+DraconicIncense: {
+	DisplayName: Draconic Incense
+	Tooltip: "'Ignite the air with dragonfire.'"
+}
+
+ExoObelisk: {
+	DisplayName: Exo Obelisk
+	Tooltip: "'Energize the atmosphere with exo energy.'"
+}
+
+FrigidMonolith: {
+	DisplayName: Frigid Monolith
+	Tooltip: "'Enchant the sky with frosty auroras.'"
+}
+
+PlagueHumidifier: {
+	DisplayName: Plague Humidifier
+	Tooltip: "'Spread light amounts of the plague through the air.'"
+}
+
+PurpleDistortedMonolith: {
+	DisplayName: Purple Distorted Monolith
+	Tooltip: "'Create a localized rupture in the fabric of reality.'"
 }
 
 NavyPrismTorch: {
@@ -1334,6 +1394,66 @@ AshenWorkBench: {
 
 SmoothBrimstoneSlag: {
 	DisplayName: Smooth Brimstone Slag
+	Tooltip: ""
+}
+
+ActivatedAuricPanel: {
+	DisplayName: Activated Auric Panel
+	Tooltip: ""
+}
+
+AuricAbsorber: {
+	DisplayName: Auric Absorber
+	Tooltip: ""
+}
+
+AuricConsole: {
+	DisplayName: Auric Console
+	Tooltip: ""
+}
+
+AuricDisplay: {
+	DisplayName: Auric Display
+	Tooltip: ""
+}
+
+AuricPanel: {
+	DisplayName: Auric Panel
+	Tooltip: ""
+}
+
+AuricPlatform: {
+	DisplayName: Auric Platform
+	Tooltip: ""
+}
+
+AuricReinforcedCrate: {
+	DisplayName: Auric Reinforced Crate
+	Tooltip: ""
+}
+
+AuricRepulserPanel: {
+	DisplayName: Auric Repulser Panel
+	Tooltip: Repels players that come in contact with it
+}
+
+AuricScreen: {
+	DisplayName: Auric Screen
+	Tooltip: ""
+}
+
+AuricServer: {
+	DisplayName: Auric Server
+	Tooltip: ""
+}
+
+AuricTerminal: {
+	DisplayName: Auric Terminal
+	Tooltip: ""
+}
+
+ExoAuricPanel: {
+	DisplayName: Exo-Auric Panel
 	Tooltip: ""
 }
 
@@ -2851,9 +2971,14 @@ LivingHolyFireBlock: {
 	Tooltip: ""
 }
 
-DraedonsAmbienceMusicBox: {
-	DisplayName: Music Box (Draedon's Ambience)
-	Tooltip: Plays high tech ambience by PinpinNeon
+DraedonExoSelectMusicBox: {
+	DisplayName: Music Box (Exo Mech Selection)
+	Tooltip: Plays 'Signal Received' by CDMusic
+}
+
+DraedonTalkMusicBox: {
+	DisplayName: Music Box (Codebreaker)
+	Tooltip: Plays a variant of 'Signal Received' by CDMusic
 }
 
 Navystone: {
@@ -3351,8 +3476,8 @@ VoidstoneWall: {
 	Tooltip: ""
 }
 
-HardenedEutrophicSand: {
-	DisplayName: Hardened Eutrophic Sand
+WulfrumPlatingWall: {
+	DisplayName: Wulfrum Plating Wall
 	Tooltip: ""
 }
 

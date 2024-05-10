@@ -16,11 +16,11 @@ HardmodeOreTier4Text: The underground Hallow has been blessed with consecrated s
 IceOreText: The ice caves are crackling with frigid energy.
 // Aquatic Scourge
 WetWormBossText: The sulphuric sky darkens...
-// Cal Clone
-PlantBossText: The Sulphurous Sea's depths are trembling.
 // Plantera
 PlantOreText: Energized plant matter has formed in the underground.
 SandSharkText3: The desert sand shifts intensely!
+// Leviathan
+AbyssDropsText: The Sulphurous Sea's depths are trembling.
 // Astrum Aureus
 AstralText: A star has fallen from the heavens!
 AureusBossText: The astral enemies have been empowered!
@@ -31,9 +31,8 @@ BabyBossText: A plague has befallen the Jungle.
 AstralBossText: The seal of the stars has been broken! You can now mine Astral Ore.
 // Moon Lord
 MoonBossText: The profaned flame blazes fiercely!
-MoonBossText2: Cosmic terrors are watching...
 FutureOreText: A cold and dark energy has materialized in space.
-ProfanedBossText2: Shrieks are echoing from the dungeon.
+ProfanedBossText2: Shrieks are echoing from the dungeon...
 // Providence
 TreeOreText: Fossilized tree bark is bursting through the jungle's mud.
 ProfanedBossText3: The calamitous beings have been inundated with bloodstone.

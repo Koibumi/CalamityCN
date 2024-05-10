@@ -113,13 +113,13 @@ WingTimeHairDye: {
 	Tooltip: ""
 }
 
-NightmareDye: {
-	DisplayName: Nightmare Dye
+NecroplasmicDye: {
+	DisplayName: Necroplasmic Dye
 	Tooltip: ""
 }
 
-PolterplasmDye: {
-	DisplayName: Polterplasm Dye
+NightmareDye: {
+	DisplayName: Nightmare Dye
 	Tooltip: ""
 }
 

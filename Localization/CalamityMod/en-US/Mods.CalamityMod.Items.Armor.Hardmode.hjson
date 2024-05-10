@@ -66,6 +66,7 @@ CirrusDress: {
 		'''
 		5% increased magic damage and critical strike chance
 		20% decreased movement speed and increases maximum fall speed to 61 mph
+		Allows for drinking 5 alcohols before your liver is poisoned
 		[c/B00BA5:'Here, this should help you drink a lot more than usual!']
 		'You feel thick...'
 		'''
@@ -104,7 +105,9 @@ DaedalusHeadMelee: {
 		Enemies are more likely to target you
 		You reflect projectiles back at enemies
 		Reflected projectiles deal 50% less damage to you
-		This reflect has a 90 second cooldown which is shared with all other dodges and reflects
+		Projectiles that deal less than 5% of your max life in damage will not be reflected
+		The reflect has a cooldown that ranges between 15 and 90 seconds depending on the reflected projectile's damage
+		This cooldown is shared with all other dodges and reflects
 		'''
 }
 
@@ -160,7 +163,7 @@ FathomSwarmerBoots: {
 	DisplayName: Fathom Swarmer Greaves
 	Tooltip:
 		'''
-		4% increased summon damage
+		8% increased summon damage
 		Grants the ability to swim
 		Movement speed increased by 40% while submerged in liquid
 		'''
@@ -171,8 +174,8 @@ FathomSwarmerBreastplate: {
 	Tooltip:
 		'''
 		6% increased damage reduction
-		6% increased summon damage
-		Increases defense by 10 and grants +2.5 HP/s life regen while submerged in liquid
+		Increases your max number of minions by 1
+		10% increased summon damage
 		Reduces defense loss within the Abyss
 		'''
 }
@@ -181,14 +184,15 @@ FathomSwarmerVisage: {
 	DisplayName: Fathom Swarmer Visage
 	Tooltip:
 		'''
-		5% increased summon damage
+		Increases your max number of minions by 1
+		8% increased summon damage
 		Provides breathing and light underwater
 		'''
 	SetBonus:
 		'''
 		10% increased summon damage and +2 max minions
 		Grants the ability to climb walls
-		30% increased summon damage while submerged in liquid
+		20% increased summon damage, +10 defense and +2.5 HP/s life regen while underwater
 		Provides a moderate amount of light and moderately reduces breath loss in the abyss
 		'''
 }
@@ -324,7 +328,7 @@ LunicCorpsHelmet: {
 	SetBonus:
 		'''
 		'Finish the fight'
-		Projects a bubble shield that absorbs up to 50 damage
+		Projects a bubble shield that absorbs up to 50 damage {0}
 		The shield starts recharging 5 seconds after being hit
 		Recharging from zero to full charge takes 2 seconds
 		Being hit again while recharging restarts the charge timer
@@ -333,6 +337,7 @@ LunicCorpsHelmet: {
 		These are launchers, dartguns, or anything else that doesn't shoot arrows/bullets
 		20% increased jump speed
 		'''
+	ShieldAdren: Halves Adrenaline lost on hit if the shield fully absorbs the hit
 }
 
 LunicCorpsVest: {
@@ -494,10 +499,10 @@ ReaverHeadTank: {
 		+10 defense and +1.5 HP/s life regen
 		Enemies are more likely to target you
 		Reduces the life regen lost from damage over time debuffs by 20%
-		All attacks have a small chance to steal life and speed up the rate of life regen
-		20% decreased movement speed and flight time
+		All attacks steal life and speed up the rate of life regen
+		30% decreased movement speed and flight time
 		Enemy damage is reflected and summons a thorn spike
-		Reaver Rage has a 25% chance to activate when you are damaged
+		Reaver Rage activates when you are damaged
 		'''
 }
 

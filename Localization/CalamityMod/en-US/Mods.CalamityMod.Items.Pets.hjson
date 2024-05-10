@@ -2,7 +2,6 @@ AbyssShellFossil: {
 	DisplayName: Abyss Shell Fossil
 	Tooltip:
 		'''
-		A fossil of a prehistoric creature, long forgotten in the deep abyss
 		Summons a pet Escargidolon Snail to follow you
 		Slightly reduces creatures' ability to detect you in the abyss while equipped
 		'''
@@ -86,8 +85,6 @@ HermitsBoxofOneHundredMedicines: {
 	Tooltip:
 		'''
 		Summons the Third Sage
-		Use the item by pressing <right> in the hotbar to toggle the Third Sage's blessing
-		With the blessing, the player will spawn with full health rather than half
 		'As the ice melts in the springs
 		And waves wash the old moss' hair...
 		Thank you, Goodbye'

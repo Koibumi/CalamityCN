@@ -24,6 +24,11 @@ AstrophageItem: {
 	Tooltip: Summons an astrophage to follow you around
 }
 
+MonolithCrate: {
+	DisplayName: Monolith Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
 ProcyonidPrawn: {
 	DisplayName: Procyonid Prawn
 	Tooltip: ""
@@ -110,12 +115,22 @@ Shadowfish: {
 	Tooltip: Darkness spreads
 }
 
+SlagCrate: {
+	DisplayName: Slag Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
 Slurpfish: {
 	DisplayName: Slurpfish
 	QuestDescription: Y'know, it'd be an absolute calamity if I sent you to the ancient ruins in the depths of hell to catch a fish. And I plan to do just that. Now scram! The fish isn't going to catch itself.
 }
 
 // Sunken Sea Catches
+EutrophicCrate: {
+	DisplayName: Eutrophic Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
 EutrophicSandfish: {
 	DisplayName: Eutrophic Sandfish
 	QuestDescription: You ever get to see what would happen if a lizard that lived in the desert scurried too deep underground? I did, and they sure are cool! But it's way too slippery for me to get my hands on it now. You go and get it so I can keep it as a pet!
@@ -124,6 +139,11 @@ EutrophicSandfish: {
 GreenwaveLoach: {
 	DisplayName: Greenwave Loach
 	Tooltip: An endangered fish that is highly prized in the market
+}
+
+PrismCrate: {
+	DisplayName: Prism Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 PrismaticGuppy: {
@@ -163,11 +183,6 @@ SparklingEmpress: {
 		Fires a concentrated laser to annihilate your foes
 		Defeated enemies explode into prism shards
 		'''
-}
-
-SunkenCrate: {
-	DisplayName: Sunken Crate
-	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SunkenSailfish: {
@@ -218,6 +233,11 @@ GlimmeringGemfish: {
 Gorecodile: {
 	DisplayName: Gorecodile
 	Tooltip: Press <right> to extract blood orbs
+}
+
+HydrothermalCrate: {
+	DisplayName: Hydrothermal Crate
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 Spadefish: {

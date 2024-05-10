@@ -1,6 +1,6 @@
 AerospecBreastplate: {
 	DisplayName: Aerospec Breastplate
-	Tooltip: 3% increased critical strike chance
+	Tooltip: 3% increased damage and critical strike chance
 	CommonSetBonus:
 		'''
 		Taking over 25 damage in one hit will cause a spread of homing feathers to fall
@@ -10,13 +10,17 @@ AerospecBreastplate: {
 
 AerospecHat: {
 	DisplayName: Aerospec Hat
-	Tooltip: 8% increased magic damage and +20 max mana
-	SetBonus: 5% increased movement speed and magic critical strike chance
+	Tooltip: 10% increased magic damage and +30 max mana
+	SetBonus:
+		'''
+		8% reduced mana cost
+		5% increased movement speed and magic critical strike chance
+		'''
 }
 
 AerospecHeadgear: {
 	DisplayName: Aerospec Headgear
-	Tooltip: 8% increased rogue damage and 5% increased movement speed
+	Tooltip: 10% increased rogue damage and 5% increased movement speed
 	SetBonus:
 		'''
 		5% increased movement speed and rogue critical strike chance
@@ -26,7 +30,7 @@ AerospecHeadgear: {
 
 AerospecHelm: {
 	DisplayName: Aerospec Helm
-	Tooltip: 8% increased melee damage
+	Tooltip: 10% increased melee damage
 	SetBonus:
 		'''
 		5% increased movement speed and melee critical strike chance
@@ -36,7 +40,7 @@ AerospecHelm: {
 
 AerospecHelmet: {
 	DisplayName: Aerospec Helmet
-	Tooltip: 5% increased movement speed and summon damage
+	Tooltip: 10% increased summon damage and 5% increased movement speed
 	SetBonus:
 		'''
 		11% increased summon damage and +1 max minion
@@ -46,7 +50,7 @@ AerospecHelmet: {
 
 AerospecHood: {
 	DisplayName: Aerospec Hood
-	Tooltip: 8% increased ranged damage
+	Tooltip: 10% increased ranged damage
 	SetBonus: 5% increased movement speed and ranged critical strike chance
 }
 
@@ -136,8 +140,8 @@ StatigelHeadMagic: {
 	DisplayName: Statigel Cap
 	Tooltip:
 		'''
-		10% increased magic damage and 10% reduced mana usage
-		7% increased magic critical strike chance and +30 max mana
+		10% increased magic damage and 10% reduced mana cost
+		7% increased magic critical strike chance and +40 max mana
 		'''
 }
 

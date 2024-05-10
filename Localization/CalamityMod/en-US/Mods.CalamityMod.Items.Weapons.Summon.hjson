@@ -186,7 +186,6 @@ CosmicImmaterializer: {
 		Summons a cosmic energy spiral to fight for you
 		The orb will fire swarms of homing energy bolts when enemies are detected by it
 		Requires 10 minion slots to use and there can only be one energy spiral
-		Without a summoner armor set bonus this minion will deal less damage
 		'''
 }
 
@@ -561,7 +560,7 @@ RustyBeaconPrototype: {
 	Tooltip:
 		'''
 		Summons a long-abandoned drone to support you
-		The drone hovers in place and releases toxic waves that inflict irradiated and poisoned
+		The drone hovers in place and releases toxic waves that irradiate hit enemies
 		'''
 }
 
@@ -817,5 +816,26 @@ MutatedTruffle: {
 		The fishron will cycle between charging, projectiles, and a typhoon
 		Requires 3 minion slots to be used
 		There can only be one minion
+		'''
+}
+
+HarvestStaff: {
+	DisplayName: Harvest Staff
+	Tooltip:
+		'''
+		Grows a pumpkin patch that sprouts pumpkins nearby
+		Pumpkins will hop out when approached by nearby creatures or players
+		Once out, they will aggressively tackle enemies, exploding on hit
+		'No thoughts behind those eyes'
+		'''
+}
+
+LiliesOfFinality: {
+	DisplayName: Lilies of Finality
+	Tooltip:
+		'''
+		Requires 2 minion slots to use
+		Can only be summoned once
+		'Wake up'
 		'''
 }

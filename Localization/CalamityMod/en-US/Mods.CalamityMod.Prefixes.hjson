@@ -1,23 +1,27 @@
-Atrocious.DisplayName: Atrocious
-Blunt.DisplayName: Blunt
-Camouflaged.DisplayName: Camouflaged
-Cloaked.DisplayName: Cloaked
-Feathered.DisplayName: Feathered
-Flawless.DisplayName: Flawless
-Flimsy.DisplayName: Flimsy
-Glorious.DisplayName: Glorious
-Hefty.DisplayName: Hefty
-Lethal.DisplayName: Lethal
-Mighty.DisplayName: Mighty
-Pointy.DisplayName: Pointy
-Quiet.DisplayName: Quiet
-Radical.DisplayName: Radical
-Serrated.DisplayName: Serrated
-Sharp.DisplayName: Sharp
-Silent.DisplayName: Silent
-Sleek.DisplayName: Sleek
-Unbalanced.DisplayName: Unbalanced
-Vicious.DisplayName: Vicious
-// Why this is here is beyond me
-RogueAccessoryPrefix.DisplayName: Rogue Accessory Prefix
-RogueWeaponPrefix.DisplayName: Rogue Weapon Prefix
+Accessory: {
+	Cloaked.DisplayName: Cloaked
+	Silent.DisplayName: Silent
+	// New modifier effects (this is only positive)
+	StealthGenTooltip: +{0}% stealth generation
+}
+
+Weapon: {
+	Atrocious.DisplayName: Atrocious
+	Blunt.DisplayName: Blunt
+	Feathered.DisplayName: Feathered
+	Flawless.DisplayName: Flawless
+	Flimsy.DisplayName: Flimsy
+	Glorious.DisplayName: Glorious
+	Hefty.DisplayName: Hefty
+	Lethal.DisplayName: Lethal
+	Mighty.DisplayName: Mighty
+	Pointy.DisplayName: Pointy
+	Radical.DisplayName: Radical
+	Serrated.DisplayName: Serrated
+	Sharp.DisplayName: Sharp
+	Sleek.DisplayName: Sleek
+	Unbalanced.DisplayName: Unbalanced
+	Vicious.DisplayName: Vicious
+	// New modifier effects (plus sign added in-code)
+	StealthDamageTooltip: "{0}% stealth strike damage"
+}

@@ -690,7 +690,7 @@ BrimflameFrenzyBuff: {
 
 BrutalCarnage: {
 	DisplayName: Brutal Carnage
-	Description: 25% increased melee damage and 10% increased melee crit chance
+	Description: 20% increased melee damage
 }
 
 ChiBuff: {
@@ -753,6 +753,11 @@ HallowedRuneRegeneration: {
 	Description: Regenerating life
 }
 
+Haste: {
+	DisplayName: Haste
+	Description: Increased movement speed and acceleration
+}
+
 IceShieldBuff: {
 	DisplayName: Ice Shield
 	Description: Absorbs 20% damage from the next hit you take, then shatters
@@ -785,11 +790,6 @@ PhantomicShield: {
 		Defense increased by 10 and damage reduction increased by 5%
 		An ephemeral bulwark protects you
 		'''
-}
-
-PolarisBuff: {
-	DisplayName: Polaris Boost
-	Description: The Northern Star empowers your life regeneration
 }
 
 ProfanedCrystalBuff: {
@@ -1517,6 +1517,11 @@ AbsorberAffliction: {
 }
 
 YoungDukeBuff: {
-	DisplayName: Young Duke Buff
-	Description: Mods.CalamityMod.Buffs.YoungDukeBuff.Description
+	DisplayName: Baby Boomer
+	Description: The mutated fishron will intoxicate your foes
+}
+
+LiliesOfFinalityBuff: {
+	DisplayName: Finality
+	Description: Remember our promise
 }

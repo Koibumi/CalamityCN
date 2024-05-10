@@ -18,6 +18,7 @@ MirageJelly.DisplayName: Mirage Jelly
 MorayEel.DisplayName: Moray Eel
 OarfishHead.DisplayName: Oarfish
 ReaperShark.DisplayName: Reaper Shark
+SlabCrab.DisplayName: Slab Crab
 ToxicMinnow.DisplayName: Toxic Minnow
 Viperfish.DisplayName: Viperfish
 AcidEel.DisplayName: Acid Eel
@@ -81,6 +82,7 @@ Pyrogen: Pyrogen
 CryogenShield.DisplayName: Cryogen's Shield
 PyrogenShield: Pyrogen's Shield
 DesertNuisanceHead.DisplayName: Desert Nuisance
+DesertNuisanceHeadYoung.DisplayName: Desert Nuisance
 DesertScourgeHead.DisplayName: Desert Scourge
 CosmicGuardianHead.DisplayName: Cosmic Guardian
 DevourerofGodsHead.DisplayName: The Devourer of Gods
@@ -145,6 +147,7 @@ AeroSlime.DisplayName: Aero Slime
 ArmoredDiggerHead.DisplayName: Armored Digger
 MechanizedSerpent: Mechanized Serpent
 AuroraSpirit.DisplayName: Aurora Spirit
+BloodlettingServant.DisplayName: Bloodletting Servant
 BloomSlime.DisplayName: Bloom Slime
 Bohldohr.DisplayName: Bohldohr
 Cnidrion.DisplayName: Cnidrion
@@ -166,7 +169,10 @@ Frogfish.DisplayName: Frogfish
 Horse.DisplayName: Earth Elemental
 IceClasper.DisplayName: Ice Clasper
 ImpiousImmolator.DisplayName: Impious Immolator
-KingSlimeJewel.DisplayName: Crown Jewel
+KingSlimeJewel.DisplayName: Ruby Jewel
+KingSlimeJewel2.DisplayName: Sapphire Jewel
+KingSlimeJewel3.DisplayName: Emerald Jewel
+LavaSlimeNoLavaDrop.DisplayName: Lava Slime
 MantisShrimp.DisplayName: Mantis Shrimp
 OverloadedSoldier.DisplayName: Overloaded Soldier
 PerennialSlime.DisplayName: Perennial Slime
@@ -179,6 +185,7 @@ Rotdog.DisplayName: Rotdog
 ScornEater.DisplayName: Scorn Eater
 SeaUrchin.DisplayName: Sea Urchin
 ShockstormShuttle.DisplayName: Shockstorm Shuttle
+SkeletronPrime2.DisplayName: Skeletron Prime
 Stormlion.DisplayName: Stormlion
 Sunskater.DisplayName: Sunskater
 SuperDummyNPC.DisplayName: Super Dummy
@@ -217,9 +224,6 @@ Plagueshell.DisplayName: Plagueshell
 Viruling.DisplayName: Viruling
 PhantomFuckYou.DisplayName: Phantom
 Polterghast.DisplayName: Polterghast
-Necroghast: Necroghast
-Necroplasm: Necroplasm
-Polterplasm: Polterplasm
 PolterghastHook.DisplayName: Polterghast Hook
 PolterPhantom.DisplayName: Polterghast
 PrimordialWyrmHead.DisplayName: Primordial Wyrm
@@ -313,7 +317,7 @@ DILF: {
 		LikeNPC: "{NPCName} is well learned, and quite a respectable mage himself!"
 		DislikeNPC: I dislike {NPCName}'s blatant disregard of magic. I cannot blame his functions, but he is quite ignorant.
 		LikeNPC_Princess: "{NPCName} has some very quaint spells. I'm quite impressed, for someone of her age."
-		Princess_LovesNPC: I like {NPCName}.
+		Princess_LovesNPC: "{NPCName} makes the best ice cream I've ever tasted, it's so good!"
 	}
 }
 
@@ -404,7 +408,7 @@ FAP: {
 		HateNPC_GoblinTinkerer: "{NPCName} was so terrible that I had to FORCE him to have a better reforge system. Why would you house me next to him? Do you enjoy watching me relive the stress he gave me!?"
 		HateNPC_Angler: "{NPCName} never stops blabbering about his inane fishing quests. Get me away from him before I stomp him into the ground!"
 		LikeNPC_Princess: You think I'd dislike {NPCName} because we're too different? Quite the contrary, there's a lot we like to talk about, over non-alcoholic drinks of course.
-		Princess_LovesNPC: I like {NPCName}.
+		Princess_LovesNPC: "{NPCName} has really interesting stories to tell, I've learned a lot from her already!"
 		HateNPC: I hate {NPCName}.
 		DislikeNPC: I dislike {NPCName}.
 		LikeNPC: I like {NPCName}.
@@ -493,7 +497,7 @@ SEAHOE: {
 		DislikeNPC: I've had quite enough carnage for one lifetime thank you! {NPCName}'s destructive tendencies are a bit insensitive.
 		HateNPC: "{NPCName} is just a child, but his attitude towards marine life is unacceptable! Absolutely unacceptable!"
 		LikeNPC_Princess: That child, {NPCName}. She is an innocent soul. Let us hope the horrors of war never reach her.
-		Princess_LovesNPC: I like {NPCName}.
+		Princess_LovesNPC: "{NPCName} always smiles when I'm nearby, I like being around him just for that!"
 	}
 }
 
@@ -574,7 +578,7 @@ THIEF: {
 		LikeNPC: "{NPCName} doesn't only keep spiky balls in his pockets, he keeps a ton of cash! He's too absentminded to notice I'm stealing from him too! I like that a lot!"
 		DislikeNPC: What a goody two shoes, {NPCName} is! I dislike her out of principle! …And because she has almost no material goods.
 		LikeNPC_Princess: I couldn't bear to steal anything from {NPCName}, she's so cute!
-		Princess_LovesNPC: I like {NPCName}.
+		Princess_LovesNPC: "{NPCName} gifts me with nice exact replicas of other's things, I wonder how she does it!"
 	}
 }
 
@@ -616,6 +620,6 @@ WITCH: {
 		LikeNPC: "{NPCName} is someone who's had a terrible experience being cursed. He's put up with it quite well all that time, it's quite impressive honestly."
 		DislikeNPC: Such a racket! All {NPCName} does is make noise, day in and day out! I can't stand her!
 		LikeNPC_Princess: What a strangely pleasant kid {NPCName} is to be around.
-		Princess_LovesNPC: I like {NPCName}.
+		Princess_LovesNPC: "{NPCName} is always lonely, it's why I want to hang out with her, no one should be left alone like that!"
 	}
 }

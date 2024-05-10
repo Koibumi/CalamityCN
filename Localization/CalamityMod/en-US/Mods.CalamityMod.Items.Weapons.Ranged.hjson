@@ -29,18 +29,25 @@ AngelicShotgun: {
 	Tooltip:
 		'''
 		Each shot casts a radiant beam of holy light from the sky
-		Converts musket balls into illuminated bullets
+		Converts musket balls into hallow-point rounds
 		'Fighting 'til the war's won'
 		'''
 }
 
 Animosity: {
 	DisplayName: Animosity
-	Tooltip:
+	GFBName: Shotgun Full of Hate
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		Fires a powerful sniper round
-		Press <right> to fire a burst of bullets
-		50% chance to save ammo
+		Fires a shotgun blast with a tight spread which is imbued with Brimstone Flames
+		Press Right Click to fire a powerful brimstone round that inflicts Whispering Death
+		'''
+	TooltipGFB:
+		'''
+		[c/9c0b0b:Fires a shotgun blast full of hatred... among other things]
+		[c/ac14ba:Press Right Click to use a hexing rifle round instead]
+		[c/454545:By Cthulhu Eye, Yharon tooth...]
 		'''
 }
 
@@ -73,6 +80,15 @@ Archerfish: {
 	Tooltip: Converts musket balls into streams of water
 }
 
+Arietes41: {
+	DisplayName: Arietes 41
+	Tooltip:
+		'''
+		Alternates between firing bullets imbued with lifesteal and electricity
+		Electric imbued bullets create a small shockblast on impact, dealing additional damage to the enemy they hit
+		'''
+}
+
 ArterialAssault: {
 	DisplayName: Arterial Assault
 	Tooltip:
@@ -87,7 +103,7 @@ AstralBlaster: {
 	Tooltip: Converts musket balls into homing astral rounds
 }
 
-AstralRepeater: {
+AstralBow: {
 	DisplayName: Astral Bow
 	Tooltip: Fires a burst of three arrows
 }
@@ -135,9 +151,11 @@ BarracudaGun: {
 	Tooltip: Fires two barracudas that latch onto enemies and shred them
 }
 
-BladedgeGreatbow: {
+BladedgeRailbow: {
 	DisplayName: Bladedge Railbow
-	Tooltip: Fires a spread of 4 arrows and 2 leaves at once
+	Tooltip: "[GFB]"
+	TooltipNormal: Fires a spread of 4 arrows and 2 leaves at once
+	TooltipGFB: Fires a spread of 4 arrows... along with other various things
 }
 
 BlightSpewer: {
@@ -313,15 +331,6 @@ CorrodedCaustibow: {
 	Tooltip: Converts wooden arrows into slow, powerful shells that trail an irradiated aura
 }
 
-CosmicBolter: {
-	DisplayName: Cosmic Bolter
-	Tooltip:
-		'''
-		Fires a tight column of three arrows
-		Converts wooden arrows into sliding energy bolts
-		'''
-}
-
 CrackshotColt: {
 	DisplayName: Crackshot Colt
 	Tooltip:
@@ -329,13 +338,8 @@ CrackshotColt: {
 		Press <right> to toss a Copper Coin in the air
 		Striking a coin with a bullet causes it to ricochet into the nearest enemy
 		Up to 4 coins can be tossed simultaneously, and shots will ricochet off multiple coins if possible
-		Ricocheted bullets always critically strike
+		Coins guarantee a critical strike after a short delay
 		'''
-}
-
-CursedCapper: {
-	DisplayName: Cursed Capper
-	Tooltip: Fires cursed bullets
 }
 
 DaemonsFlame: {
@@ -373,6 +377,7 @@ Deathwind: {
 		'''
 		Fires a spread of 4 arrows
 		Wooden arrows are converted into nebula arrows
+		Nebula arrows deal more damage and inflict god slayer inferno
 		'''
 }
 
@@ -380,7 +385,7 @@ DeepcoreGK2: {
 	DisplayName: Deepcore GK2
 	Tooltip:
 		'''
-		Bullets are twice as large and ignores 15 points of enemy defense
+		Bullets are twice as large and ignore 10 points of enemy defense
 		'For rock and stone!'
 		'''
 }
@@ -449,7 +454,7 @@ ElementalEruption: {
 
 EternalBlizzard: {
 	DisplayName: Eternal Blizzard
-	Tooltip: Fires an additional icicle arrow that shatters on impact
+	Tooltip: Fires an additional icicle arrow that freezes into a falling icicle
 }
 
 Eviscerator: {
@@ -470,7 +475,7 @@ FirestormCannon: {
 	DisplayName: Firestorm Cannon
 	Tooltip:
 		'''
-		Releases an constant stream of weaponized flares
+		Releases a constant stream of weaponized flares
 		Press <right> to fire a condensed spread of flares
 		70% chance to save ammo
 		'''
@@ -478,16 +483,21 @@ FirestormCannon: {
 
 FlakKraken: {
 	DisplayName: Flak Kraken
-	Tooltip: Fires an energy reticle that becomes more powerful over time
+	Tooltip:
+		'''
+		Fires pairs of abyssal flak shells that explode into wide cones of ink shrapnel
+		Abyssal flak shells burst when they reach the cursor's position
+		Direct hits with the flak shell will deal reduced shrapnel damage
+		'''
 }
 
 FlakToxicannon: {
 	DisplayName: Flak Toxicannon
 	Tooltip:
 		'''
-		Fires angled shots in the direction of the cursor
-		Can only be shot in a wide cone above the player
-		'High IQ required'
+		Fires a toxic shell that explodes into a cone of radioactive sludge
+		Toxic shells burst when they reach the cursor's position
+		Direct hits with the toxic shell will reduce the damage dealt by the sludge
 		'''
 }
 
@@ -530,7 +540,7 @@ FrostbiteBlaster: {
 
 Fungicide: {
 	DisplayName: Fungicide
-	Tooltip: Converts musket balls into fungal rounds that split on death
+	Tooltip: Converts musket balls into fungal rounds that split upon impact
 }
 
 Galeforce: {
@@ -622,7 +632,7 @@ HoarfrostBow: {
 	Tooltip:
 		'''
 		Fires two arrows at once
-		Converts wooden arrows into mist arrows
+		Converts wooden arrows into mist arrows that spread frost mist on collision
 		'''
 }
 
@@ -677,6 +687,16 @@ ArcNovaDiffuser: {
 		'''
 }
 
+MagnaCannon: {
+	DisplayName: Magna Cannon
+	Tooltip:
+		'''
+		Charges up a rapid fire burst of crystal bolts
+		Charging for longer increases the number of bolts fired
+		Fully charged shots fire an even longer and more rapid burst
+		'''
+}
+
 MagnomalyCannon: {
 	DisplayName: Magnomaly Cannon
 	Tooltip:
@@ -692,7 +712,7 @@ Malevolence: {
 	Tooltip:
 		'''
 		Fires two arrows at once
-		Converts wooden arrows into plague arrows that explode into bees on death
+		Converts wooden arrows into plague arrows that explode into bees
 		'''
 }
 
@@ -731,7 +751,7 @@ MidasPrime: {
 		Press <right> to toss a Gold Coin or Silver Coin in the air
 		Striking a coin with a bullet causes it to ricochet into the nearest enemy
 		Up to 4 coins can be tossed simultaneously, and shots will ricochet off multiple coins if possible
-		Ricocheted bullets always critically strike and do bonus damage based on the coins used
+		Coins guarantee a critical strike after a short delay and bullets do bonus damage based on coins used
 		'''
 	UltrakillEasterEgg:
 		'''
@@ -790,12 +810,22 @@ NettlevineGreatbow: {
 		'''
 }
 
-Norfleet: {
-	DisplayName: Norfleet
-	Tooltip: Fire everything!
+NitroExpressRifle: {
+	DisplayName: Nitro Express Rifle
+	Tooltip: "[c/88354B:'The recoil feels strong enough to break your shoulder...']"
 }
 
-NullificationRifle: {
+Norfleet: {
+	DisplayName: Norfleet
+	Tooltip:
+		'''
+		Fires a cluster of erratic energy spheres that each contain a different element
+		Every three shots the weapon must recharge its energy to reload
+		[c/FF9900:'Blows up everything!']
+		'''
+}
+
+NullificationPistol: {
 	DisplayName: Nullification Pistol
 	Tooltip:
 		'''
@@ -836,7 +866,7 @@ OverloadedBlaster: {
 	Tooltip:
 		'''
 		Converts gel into a spread of energized slime pearls that overload when they come to a stop
-		Overloaded slime pearls deal 175% damage but no longer pierce
+		Overloaded slime pearls deal 60% more damage but no longer pierce
 		Slime pearls bounce off of walls at very high speed
 		Uses gel for ammo
 		25% chance to save ammo
@@ -848,7 +878,7 @@ P90: {
 	Tooltip:
 		'''
 		Unleashes a stream of armor-piercing rounds at an incredible rate
-		Armor-piercing rounds ignore 15 defense
+		Armor-piercing rounds ignore 30 defense
 		75% chance to save ammo
 		'It's a bullet hose'
 		'''
@@ -858,15 +888,14 @@ PearlGod: {
 	DisplayName: Pearl God
 	Tooltip:
 		'''
-		Fires shockblast rounds that emit massive explosions and steal enemy life as well as additional bullets
-		Every seventh shot fires a massive shockblast
-		'Your life is mine...'
+		Alternates between firing a bullet imbued with lifesteal and 3 bullets imbued with pearlescence
+		Pearlescent imbued bullets create a radiant flash on impact, dealing additional damage to the enemy they hit
 		'''
 }
 
 PestilentDefiler: {
 	DisplayName: Pestilent Defiler
-	Tooltip: Converts musket balls into plague rounds that explode and split apart on death
+	Tooltip: Converts musket balls into plague rounds that explode and split apart on hit
 }
 
 Phangasm: {
@@ -911,11 +940,19 @@ PlanetaryAnnihilation: {
 
 PolarisParrotfish: {
 	DisplayName: Polaris Parrotfish
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		Projectile hits grant buffs to the weapon
-		Buffs are removed on hit
+		Rapidly fires an array of colorful star shots that bounce off tiles
+		However, only two shots can exist at once
 		'It carries the mark of the Northern Star'
+		'''
+	TooltipGFB:
+		'''
+		Rapidly fires an array of colorful star shots that bounce off tiles
+		However, only two shots can exist at once
+		Right click to give the little girl some attention
+		'She is a happy girl'
 		'''
 }
 
@@ -1000,9 +1037,10 @@ Scorpio: {
 	DisplayName: Scorpio
 	Tooltip:
 		'''
-		Press <right> to fire a nuke
-		Rockets will destroy tiles with tile-destroying ammo
-		'BOOM'
+		Hold <left> to fire a barrage of homing nano missiles and charge energy
+		Maximum charge is reached after firing 3 barrages
+		<right> while holding <left> at max charge to launch a nano nuke
+		Nano nukes deal massive damage and reset the cooldown of missile barrages
 		'''
 }
 
@@ -1078,7 +1116,7 @@ Shroomer: {
 
 SlagMagnum: {
 	DisplayName: Slag Magnum
-	Tooltip: Converts musket balls into fossil shards that split into additional shards on death
+	Tooltip: Converts musket balls into fossil shards that split into additional shards on impact
 }
 
 SomaPrime: {
@@ -1209,16 +1247,6 @@ TelluricGlare: {
 	Tooltip: Fires volleys of four colossal radiant arrows which can pass through walls
 }
 
-TerraFlameburster: {
-	DisplayName: Terra Flameburster
-	Tooltip:
-		'''
-		Charges up to emit a stream of energized flames and pairs of homing terra flares
-		Uses gel for ammo
-		50% chance to save ammo
-		'''
-}
-
 TheBallista: {
 	DisplayName: The Ballista
 	Tooltip: Converts wooden arrows into greatarrows that crush enemy armor and break into shards
@@ -1228,8 +1256,9 @@ TheHive: {
 	DisplayName: The Hive
 	Tooltip:
 		'''
-		Launches a variety of rockets that explode into friendly bees
-		Rockets will destroy tiles with tile-destroying ammo
+		Launches a wide spread of 4 missiles that explode on contact with enemies and tiles
+		Charging the launcher decreases the spread and increases the velocity of the missile barrage
+		Fully charging the launcher will cause it to fire a nuke to decimate a massive area on impact
 		'''
 }
 
@@ -1246,6 +1275,15 @@ TheMaelstrom: {
 ThePack: {
 	DisplayName: The Pack
 	Tooltip: Fires large homing rockets that explode into more homing mini rockets when in proximity to an enemy
+}
+
+ThermoclineBlaster: {
+	DisplayName: Thermocline Blaster
+	Tooltip:
+		'''
+		Alternates between firing bullets imbued with fire and ice
+		Any bullet type can be imbued when fired from this gun
+		'''
 }
 
 TheSevensStriker: {
@@ -1318,6 +1356,15 @@ UniversalGenesis: {
 		'''
 }
 
+VernalBolter: {
+	DisplayName: Vernal Bolter
+	Tooltip:
+		'''
+		Fires a tight column of three arrows
+		Converts wooden arrows into sliding energy bolts
+		'''
+}
+
 Voidragon: {
 	DisplayName: Voidragon
 	Tooltip:
@@ -1333,6 +1380,16 @@ Vortexpopper: {
 	Tooltip: Fires bubbles everywhere that pop into bullets
 }
 
+WildfireBloom: {
+	DisplayName: Wildfire Bloom
+	Tooltip:
+		'''
+		Charges up to emit a stream of energized flames and pairs of homing wildfire flares
+		Uses gel for ammo
+		50% chance to save ammo
+		'''
+}
+
 WulfrumBlunderbuss: {
 	DisplayName: Wulfrum Blunderbuss
 	Tooltip:
@@ -1342,15 +1399,5 @@ WulfrumBlunderbuss: {
 		Ignores 3 points of enemy Defense
 		[c/83B87E:'The good thing about Wulfrum is that while it breaks fast, it can be reused even faster.]
 		[c/83B87E:In fact, it is quite common for a robot to be turned into ammo right after it stops functioning.']
-		'''
-}
-
-MagnaCannon: {
-	DisplayName: Magna Cannon
-	Tooltip:
-		'''
-		Charges up a rapid fire burst of crystal bolts
-		Charging for longer increases the number of bolts fired
-		Fully charged shots fire an even longer and more rapid burst
 		'''
 }

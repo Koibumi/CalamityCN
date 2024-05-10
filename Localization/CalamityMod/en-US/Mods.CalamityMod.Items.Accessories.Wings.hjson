@@ -83,7 +83,7 @@ MOAB: {
 		Acceleration multiplier: 1.0
 		Good vertical speed
 		Flight time: 75
-		10% increased jump speed and allows constant jumping
+		32% increased jump speed and allows constant jumping
 		Grants the player cloud, blizzard, and sandstorm mid-air jumps
 		'The Mother Of All Balloons'
 		'''
@@ -123,7 +123,6 @@ SoulofCryogen: {
 		Average vertical speed
 		Flight time: 120
 		7% increase to all damage
-		All melee attacks and projectiles inflict frostburn
 		Icicles rain down as you fly
 		'''
 }
@@ -198,7 +197,6 @@ TracersSeraph: {
 		50% increased running acceleration and greater mobility on ice
 		Provides the ability to walk on water, honey, and lava
 		Grants immunity to fire, lava, and harmful block effects
-		Being hit for over 200 damage will make you immune for an extended period of time
 		'Taking speed EVEN FURTHER BEYOND!'
 		'''
 }

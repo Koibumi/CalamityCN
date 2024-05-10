@@ -29,6 +29,12 @@ SetBonus: {
 	}
 
 	Copper: Increases all damage by 2
+	Crimson:
+		'''
+		Greatly increased natural life regen
+		Life regen is further increased the longer you avoid taking damage
+		Standing still also greatly amplifies life regen
+		'''
 	Eskimo:
 		'''
 		Multiplies all cold-based debuff damage by 1.25
@@ -49,25 +55,27 @@ SetBonus: {
 		'''
 	Gold:
 		'''
-		All enemies have a 4% chance to drop 1 gold. All bosses killed drop 3 gold
-		You gain 1% critical strike chance for every 5 gold in your inventory, capped at 10%
+		All enemies have a 2% chance to drop 1 gold. All bosses killed drop 3 gold
+		You gain 1% critical strike chance for every 10 gold in your inventory, capped at 9%
 		'''
 	Iron:
 		'''
 		Increases damage reduction by 6%
 		+1 HP/s life regen
 		'''
+	Jungle: 10% reduced mana costs
 	Lead:
 		'''
-		Increases damage reduction by 3%
+		Increases damage reduction by 4%
 		+0.5 HP/s life regen
 		Grants immunity to knockback
 		'''
-	Meteor: Space Gun costs 50% mana
+	Meteor: All magic guns cost 33% mana
 	Mining: Mining ore will sometimes have additional yield
 	Molten:
 		'''
-		20% extra true melee damage
+		7% extra melee damage, cannot be set on fire
+		10% extra true melee damage
 		Grants immunity to fire blocks and temporary immunity to lava
 		'''
 	MonkTier2:
@@ -91,12 +99,13 @@ SetBonus: {
 		Increases minion damage by 15%
 		Grants immunity to fire blocks and temporary immunity to lava
 		'''
+	PlatinumChainmail: 3% increased critical strike chance
 	Platinum:
 		'''
-		Every 10 defense gives you +0.5 HP/s life regen, 1% increased damage and 1% increased critical strike chance
-		These effects cap at 40 defense
+		Every 10 extra defense gives you 1% increased damage and 1% increased critical strike chance
+		The 20 defense from the Platinum Armor itself does not contribute to this effect
+		Bonus damage and critical strike chance cap at 40 extra defense
 		'''
-	Shadow: 15% increased max movement speed and acceleration
 	Silver:
 		'''
 		+0.5 HP/s life regen
@@ -111,6 +120,8 @@ SetBonus: {
 		Increases all knockback by 33%, this counts for the above boost
 		Current bonus: {0}% critical strike chance from {1} knockback
 		'''
+	MagicHat: Increases maximum mana by 40
+	Wizard: 4% increased magic critical strike chance
 	CrystalAssassin:
 		'''
 		Allows the ability to dash
@@ -120,6 +131,7 @@ SetBonus: {
 		'''
 		Increases your life regeneration
 		15% increased minion damage and 10% increased melee critical strike chance
+		Negates the summon damage penalty while wielding non-summon weapons
 		'''
 	HuntressTier2: 10% increased minion and ranged damage
 	ApprenticeTier2: 5% increased minion damage and 15% increased magic critical strike chance
@@ -137,7 +149,7 @@ SetBonus: {
 	ApprenticeTier3: 10% increased minion damage and 15% increased magic critical strike chance
 	SpectreHealing:
 		'''
-		Reduces Magic damage by 20% and converts it to healing force
+		Converts magic damage to healing force
 		Magic damage done to enemies heals the player with lowest health
 		'''
 }

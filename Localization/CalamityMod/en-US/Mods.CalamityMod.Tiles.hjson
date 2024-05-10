@@ -1,4 +1,5 @@
 // Ambient Objects
+GiantBulb: Giant Plantera Bulb
 Fossil: Fossil
 Column: Column
 Ribs: Ribs
@@ -7,6 +8,7 @@ Stalactite: Stalactite
 PirateCrate: Abandoned Crate
 // Basic Calamity Furniture
 Basin: Basin
+LavaFountain: Lava Fountain
 PipeOrgan: Pipe Organ
 Sconce: Sconce
 // Draedon Lab Furniture

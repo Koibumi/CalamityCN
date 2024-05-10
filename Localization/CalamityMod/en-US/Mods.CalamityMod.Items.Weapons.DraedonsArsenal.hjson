@@ -34,7 +34,7 @@ GaussDagger: {
 	Tooltip:
 		'''
 		Slices through foes with turbulent magnetic force
-		Repeated strikes envelop foes in a damaging magnetic flux
+		Striking foes envelops them in a damaging magnetic flux
 		'''
 }
 
@@ -68,6 +68,7 @@ HydraulicVoltCrasher: {
 	Tooltip:
 		'''
 		An electrically charged jackhammer which shocks all nearby foes on hit
+		Press <right> to use without hammering down walls
 		[c/1FFBFF:'A device made to electrically stamp metal plates, instantly fusing them.]
 		[c/1FFBFF:Naturally, it can also function as a devastating weapon.']
 		'''
@@ -145,7 +146,9 @@ PulseRifle: {
 	DisplayName: Pulse Rifle
 	Tooltip:
 		'''
-		Fires an enhanced pulse that arcs to a new target on enemy hits
+		Fires an enhanced pulse beam that dissipates into 4 high-frequency pulse orbs on hit
+		Pulse orbs aggressively track nearby targets and track faster the more they hit
+		Pulse orb pierce will not decrease when killing enemies or dealing low damage
 		[c/1FFBFF:'My own personal weapon, used to stamp out failed creations.]
 		[c/1FFBFF:I have backed up the schematics in the event of the original's destruction.']
 		'''
@@ -224,7 +227,8 @@ TrackingDisk: {
 	Tooltip:
 		'''
 		Releases a flying disk that fires lasers at nearby enemies
-		Stealth strikes allow the disk to fire multiple larger lasers at different targets
+		This disk gains acceleration as it returns to the player
+		Stealth strikes fire lasers at a faster rate and distance, and can fire at multiple different targets
 		'''
 }
 

@@ -8,12 +8,14 @@ ArtifactOfResilienceShard3.DisplayName: Artifact Shard
 ArtifactOfResilienceShard4.DisplayName: Artifact Shard
 ArtifactOfResilienceShard5.DisplayName: Artifact Shard
 ArtifactOfResilienceShard6.DisplayName: Artifact Shard
+AscendantAura.DisplayName: Ascendant Aura
 AstralFallingSand.DisplayName: Astral Falling Sand
 AstralSandBallFalling.DisplayName: Astral Sand
 AstralSandBallGun.DisplayName: Astral Sand
 AstralSpray.DisplayName: Astral Spray
 AstralStar.DisplayName: Star
 BallisticPoisonCloud.DisplayName: Ballistic Cloud
+BasicPlagueBee.DisplayName: Basic Plague Bee
 BlazingStarHeal.DisplayName: Blazing Star Heal
 BlazingStarThatDoesNotHeal.DisplayName: Blazing Star That Does Not Heal
 BlazingSun.DisplayName: Blazing Sun
@@ -30,8 +32,10 @@ BossRushTierAnimation.DisplayName: Boss Rush Tier Animation
 BrimstoneHellfireballFriendly2.DisplayName: Hellfire
 ChaoticGeyser.DisplayName: Chaotic Geyser
 ChlorophyteLifePulse.DisplayName: Life Pulse
+ChronoClock.DisplayName: Chrono Clock
 CoralBubble.DisplayName: Bubble
 CoralBubbleSmall.DisplayName: Bubble
+CosmicDashExplosion.DisplayName: Cosmic Dash Explosion
 CryonicShield.DisplayName: Cryonic Shield
 CursorProj.DisplayName: Aestheticus Crystal
 CursorProjSplit.DisplayName: Aestheticus Crystal
@@ -58,13 +62,12 @@ FungalClumpMinion.DisplayName: Fungal Clump
 GemTechArmorGem.DisplayName: Trireme's Gem
 GhostlyBolt.DisplayName: Bolt
 GodKiller.DisplayName: God Killer
-GodSlayerBlaze.DisplayName: Blaze
 GodSlayerShrapnel.DisplayName: Flame
 GodSlayerShrapnelRound.DisplayName: Round
-GoldenGunProj.DisplayName: Golden Round
 GreenLabSeeker.DisplayName: Seeking Mechanism
 HellfireExplosionFriendly2.DisplayName: Explosion
 HeronBobber.DisplayName: Heron Bobber
+HideOfAstrumDeusExplosion.DisplayName: Explosion
 HolyExplosion.DisplayName: Explosion
 HolyExplosionSupreme.DisplayName: Explosion
 HydrothermalSmoke.DisplayName: Smoke
@@ -120,7 +123,6 @@ SulphurousSandBallGun.DisplayName: Sulphurous Sand
 TarraEnergy.DisplayName: Tarra Energy
 TarragonAura.DisplayName: Tarragon Aura
 TeslaAura.DisplayName: Tesla's Electricity
-VanquisherArrowSplit.DisplayName: Arrow
 VerstaltiteBobber.DisplayName: Verstaltite Bobber
 VoidFieldGenerator.DisplayName: Void Field Generator
 WaterConvertor.DisplayName: Water Convertor
@@ -131,5 +133,3 @@ WulfrumHook.DisplayName: Wulfrum Slingshot
 WulfrumLureSignal.DisplayName: Signal
 YanmeisKnifeSlash.DisplayName: Yanmei's Knife
 YellowLabSeeker.DisplayName: Seeking Mechanism
-AscendantAura.DisplayName: Ascendant Aura
-CosmicDashExplosion.DisplayName: Cosmic Dash Explosion

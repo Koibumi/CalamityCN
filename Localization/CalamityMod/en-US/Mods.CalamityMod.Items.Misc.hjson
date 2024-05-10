@@ -107,7 +107,7 @@ Ectoheart: {
 	DisplayName: Ectoheart
 	Tooltip:
 		'''
-		Permanently increases Adrenaline Mode damage by 15% and damage reduction by 5%
+		Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
 		Revengeance drop
 		'''
 }
@@ -126,7 +126,7 @@ ElectrolyteGelPack: {
 	DisplayName: Electrolyte Gel Pack
 	Tooltip:
 		'''
-		Permanently increases Adrenaline Mode damage by 15% and damage reduction by 5%
+		Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
 		Revengeance drop
 		'''
 }
@@ -190,7 +190,7 @@ StarlightFuelCell: {
 	DisplayName: Starlight Fuel Cell
 	Tooltip:
 		'''
-		Permanently increases Adrenaline Mode damage by 15% and damage reduction by 5%
+		Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
 		Revengeance drop
 		'''
 }
