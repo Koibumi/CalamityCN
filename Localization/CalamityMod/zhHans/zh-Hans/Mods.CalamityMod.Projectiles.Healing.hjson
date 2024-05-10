@@ -9,7 +9,7 @@ FungalHeal.DisplayName: 治愈
 GladiatorHealOrb.DisplayName: 治疗
 GodSlayerHealOrb.DisplayName: 弑神者治愈球
 HydrothermicHealOrb.DisplayName: 渊泉回生
-IridescentExcaliburHeal.DisplayName: Iridescent Excalibur Heal
+IridescentExcaliburHeal.DisplayName: 绚辉治愈之剑
 ManaPolarizerHealOrb.DisplayName: 魔能谐振仪治疗珠
 PhantomicHeart.DisplayName: 幻魂之心
 RainHeal.DisplayName: 治愈
@@ -22,4 +22,4 @@ AbsorberAura.DisplayName: 吸星石光环
 BlueJellyAura.DisplayName: 蓝果胶光环
 GreenJellyAura.DisplayName: 绿果胶光环
 PinkJellyAura.DisplayName: 粉果胶光环
-AltTransfusionTrail.DisplayName: Alt Transfusion Trail
+AltTransfusionTrail.DisplayName: 白羊座吸血弹
