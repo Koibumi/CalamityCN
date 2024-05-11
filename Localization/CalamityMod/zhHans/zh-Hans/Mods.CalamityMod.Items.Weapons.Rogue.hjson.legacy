@@ -56,7 +56,7 @@ BallisticPoisonBomb: {
 	Tooltip:
 		'''
 		丢出一个黏性炸弹，爆出尖刺和毒云
-		潜伏攻击会爆出更多的云，造成更持久的毒液
+		潜伏攻击会爆出更多的云，施加更持久的酸性毒液减益
 		'''
 }
 
@@ -670,8 +670,8 @@ LeviathanTeeth: {
 	Tooltip:
 		'''
 		迅速投掷各种会黏在敌怪身上的毒牙
-		This venom can stack when more teeth are stuck in an enemy
-		Stealth strikes cause 6 very fast teeth to be thrown, ignoring gravity and spawning water blasts on hit
+		敌人身上的毒牙越多，毒液减益效果越强
+		潜伏攻击会掷出6枚高速毒牙，无视重力并且会在命中时产生水爆炸
 		'''
 }
 
@@ -679,9 +679,9 @@ Lionfish: {
 	DisplayName: 狮子鱼
 	Tooltip:
 		'''
-		Sticks to enemies and injects a potent venom
-		This venom can stack when more lionfish are stuck in an enemy
-		Stealth strikes spawn homing urchin spikes as they travel
+		附着在敌人身上并注射一种强大的毒素
+		敌人身上的狮子鱼越多，这种毒素的效果越强
+		潜伏攻击会使狮子鱼在飞行时释放追踪海胆蛰
 		'''
 }
 
@@ -839,7 +839,7 @@ PhantasmalRuin: {
 	Tooltip:
 		'''
 		发射巨大的幽魂投矛，命中敌人时会爆炸并放出幽魂
-		Stealth strikes pierce twice and summon many spirits from the depths on the first hit
+		潜伏攻击可以穿透两次，并且会在首次击中敌人时从下方召唤数个幽魂
 		'''
 }
 
@@ -875,7 +875,7 @@ ProfanedPartisan: {
 	DisplayName: 渎神投矛
 	Tooltip:
 		'''
-		Fires an unholy spear that explodes on enemy hits
+		发射一支会在命中时爆炸的不洁之矛
 		潜伏攻击会在飞行轨迹上生成小的长矛克隆体
 		'''
 }
@@ -928,8 +928,8 @@ SamsaraSlicer: {
 	DisplayName: Samsara Slicer
 	Tooltip:
 		'''
-		Throws a disk that has a chance to generate several disks if enemies are near it
-		Stealth strikes travel slower and are rapidly orbited by the smaller disks
+		掷出泰拉飞盘，有敌人在附近时有几率分裂出新的飞盘
+		潜伏攻击会投掷速度较慢但被小飞盘环绕的泰拉飞盘
 		'''
 }
 
@@ -976,8 +976,8 @@ ScourgeoftheSeas: {
 	DisplayName: 渊海之灾
 	Tooltip:
 		'''
-		Snaps apart into irradiated clouds upon striking an enemy
-		Stealth strikes irradiate for longer and are additionally coated with venomous toxins
+		标枪在命中敌人时会爆成辐射毒云
+		潜伏攻击会使辐射持续更久，并且标枪被致命的毒素环绕
 		'''
 }
 
@@ -986,14 +986,14 @@ SeafoamBomb: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Throws a bomb that explodes into a bubble which deals extra damage to enemies
-		Stealth strikes are faster and explode into 5 bubbles
+		投掷一颗会在爆炸时产生泡泡的炸弹，泡泡会对敌人造成额外伤害
+		潜伏攻击会使炸弹飞的更快并且在爆炸时生成五个泡泡
 		'''
 	TooltipGFB:
 		'''
 		投掷一颗会在爆炸时产生泡泡的炸弹，泡泡会对敌人造成额外伤害
 		潜伏攻击会使炸弹飞的更快并且在爆炸时生成五个泡泡
-		[c/256b93:'Right back in S tier!']
+		[c/256b93:“重回巅峰！”]
 		'''
 }
 
@@ -1191,7 +1191,7 @@ Supernova: {
 		投出一颗会锁定并追踪目标的智能炸弹
 		如果未找到目标，它会返回到你身上
 		每颗炸弹都会产生一颗微型超新星，它会牵引弱小的敌人，并追逐强大的敌人
-		潜伏攻击将会产生一道撼动现实本身基础的冲击波
+		潜伏攻击将会产生一道撼动现实基础的冲击波
 		'''
 }
 
@@ -1223,14 +1223,14 @@ TheAtomSplitter: {
 }
 
 TheFinalDawn: {
-	DisplayName: The Final Dawn
+	DisplayName:  终曲黎明
 	Tooltip:
 		'''
-		Attack enemies with a giant scythe swing to replenish stealth
-		Press up and attack to throw the scythe 
-		Stealth strikes perform a horizontal swing that leaves a lingering fire aura
-		Stealth strikes performed while pressing up fling yourself at the enemy and slice through them, causing homing fireballs to emerge
-		'We shall ride into the sunrise once more'
+		使用镰刀击中敌人时会恢复潜行值
+		同时按住上键和攻击键会将镰刀扔出
+		潜伏攻击会横向挥舞镰刀，留下持续烧伤敌人的烈焰之域
+		按住上键时进行潜伏攻击会使你冲向敌人同时此状态下穿过敌人时会释放追踪火球
+		“我们必将再度拥抱黎明”
 		'''
 }
 
