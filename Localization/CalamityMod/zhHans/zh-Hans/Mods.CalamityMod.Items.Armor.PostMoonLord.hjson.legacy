@@ -1,0 +1,579 @@
+AuricTeslaBodyArmor: {
+	DisplayName: 古圣金源盔甲
+	Tooltip:
+		'''
+		增加100点最大生命值
+		增加8%伤害和5%暴击率
+		'''
+}
+
+AuricTeslaCuisses: {
+	DisplayName: 古圣金源腿甲
+	Tooltip:
+		'''
+		增加10%移动速度
+		增加12%伤害和5%暴击率
+		使你获得魔毯的效果
+		'''
+}
+
+AuricTeslaHoodedFacemask: {
+	DisplayName: 金兜铁面盔
+	Tooltip: 增加30%远程伤害和远程暴击率
+	SetBonus: 龙蒿套装、血炎套装和弑神者套装的套装奖励
+}
+
+AuricTeslaPlumedHelm: {
+	DisplayName: 金羽十杀盔
+	Tooltip:
+		'''
+		增加20%盗贼伤害和盗贼暴击率
+		增加5%移动速度
+		'''
+	SetBonus:
+		'''
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		增加130点最大潜行值
+		'''
+}
+
+AuricTeslaRoyalHelm: {
+	DisplayName: 金源耀日盔
+	Tooltip:
+		'''
+		增加20%近战伤害
+		增加10%近战暴击率
+		'''
+	SetBonus:
+		'''
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		敌人更有可能以你为目标
+		增加28%近战攻速
+		'''
+}
+
+AuricTeslaSpaceHelmet: {
+	DisplayName: 金宇星界盔
+	Tooltip: 增加15%召唤伤害
+	SetBonus:
+		'''
+		龙蒿套装、血炎套装和始源林海套装的套装奖励
+		最大速度和加速度增加5%
+		增加6仆从栏和75%召唤伤害
+		'''
+}
+
+AuricTeslaWireHemmedVisage: {
+	DisplayName: 金虚万象盔
+	Tooltip: 增加30%魔法伤害、20%魔法暴击率和100点最大魔力值并降低20%魔力消耗
+	SetBonus:
+		'''
+		龙蒿套装、血炎套装和始源林海套装的套装奖励
+		最大速度和加速度增加5%
+		'''
+}
+
+BloodflareBodyArmor: {
+	DisplayName: 血炎铠甲
+	Tooltip:
+		'''
+		增加12%伤害和8%暴击率
+		增加40点最大生命值
+		'''
+	CommonSetBonus:
+		'''
+		大幅增加生命再生，等同于猩红盔甲
+		击中一个生命值低于50%的敌人会掉落红心
+		这个效果有5秒冷却时间
+		'''
+}
+
+BloodflareCuisses: {
+	DisplayName: 血炎护胫
+	Tooltip: 增加17%移动速度、10%伤害和7%暴击率
+}
+
+BloodflareHeadMagic: {
+	DisplayName: 血魇九头盔
+	Tooltip: 增加20%魔法伤害、10%魔法暴击率和100点最大魔力值并降低17%魔力消耗
+	SetBonus:
+		'''
+		魔法武器每1.67秒会发射一个灵魂弹幕
+		魔法武器暴击每2秒会产生火焰爆炸
+		'''
+}
+
+BloodflareHeadMelee: {
+	DisplayName: 血碾溃阵盔
+	Tooltip: 增加10%近战伤害和5%近战暴击率
+	SetBonus:
+		'''
+		增加18%近战攻速
+		敌人更有可能以你为目标
+		真近战攻击会治疗你
+		使用真近战武器打击敌人15次进入鲜血狂怒状态，持续5秒
+		此期间近战伤害和暴击率提升25%，来自敌人的接触伤害减半
+		此效果有30秒冷却时间
+		'''
+}
+
+BloodflareHeadRanged: {
+	DisplayName: 血弑曲角盔
+	Tooltip: 增加10%远程伤害和远程暴击率
+	SetBonus:
+		'''
+		按下{0}释放噬魂幽花的冤魂摧毁你的敌人
+		此效果有30秒冷却时间
+		远程武器每2.5秒发射出一个爆炸血炎珠
+		'''
+}
+
+BloodflareHeadRogue: {
+	DisplayName: 血饮魔精盔
+	Tooltip:
+		'''
+		增加10%盗贼伤害和盗贼暴击率
+		增加5%移动速度
+		'''
+	SetBonus:
+		'''
+		增加120点最大潜行值
+		高于80%生命值时增加30点防御和5%盗贼暴击率
+		低于80%生命值时增加10%盗贼伤害
+		盗贼武器暴击会治疗你
+		'''
+}
+
+BloodflareHeadSummon: {
+	DisplayName: 血戮狂龙盔
+	Tooltip: 增加5%召唤伤害
+	SetBonus:
+		'''
+		增加50%召唤伤害和3仆从栏
+		召唤噬魂幽花地雷环绕你
+		90%生命值及以上时获得10%召唤伤害
+		50%生命值及以下时获得20点防御和1HP/s点生命恢复
+		'''
+}
+
+DemonshadeBreastplate: {
+	DisplayName: 魔影装甲
+	Tooltip:
+		'''
+		增加25%近战攻速、15%伤害和暴击率
+		与你接触的敌人会受到鬼魔伤害
+		增加200点最大生命值和最大魔力值
+		站立不动时吸收暗影以获取指数加速的生命再生
+		'''
+}
+
+DemonshadeGreaves: {
+	DisplayName: 魔影护胫
+	Tooltip: 魔影极速
+}
+
+DemonshadeHelm: {
+	DisplayName: 魔影头盔
+	Tooltip: 增加30%伤害和15%暴击率
+	SetBonus:
+		'''
+		增加100%召唤伤害和10仆从栏
+		受伤时发射暗影射线和恶魔镰刀
+		召唤一只友善的红恶魔为你战斗
+		按{0}以黑魔法咒语激怒周围的敌人10秒
+		这道咒语使它们受到2.25倍的伤害，同时它们对你造成1.25倍伤害
+		'''
+}
+
+EmpyreanCloak: {
+	DisplayName: 皇天斗篷
+	Tooltip:
+		'''
+		诸天寰宇之庇护
+		增加20点最大生命值
+		增加7%盗贼伤害和盗贼暴击率
+		'''
+}
+
+EmpyreanCuisses: {
+	DisplayName: 皇天腿甲
+	Tooltip:
+		'''
+		增加5%盗贼伤害和盗贼暴击率
+		增加15%移动速度
+		'''
+}
+
+EmpyreanMask: {
+	DisplayName: 皇天面具
+	Tooltip:
+		'''
+		增加11%盗贼伤害和盗贼暴击率
+		增加5%移动速度
+		'''
+	SetBonus:
+		'''
+		提高9%盗贼伤害和弹幕速度
+		增加115点最大潜行值
+		盗贼弹幕击中敌人产生特殊效果
+		受伤时受到来自宇宙的怒火加持
+		'''
+}
+
+FearmongerGreathelm: {
+	DisplayName: 神惧者头盔
+	Tooltip:
+		'''
+		你的双眼迸发出纯粹的恐惧之源
+		增加60点最大魔力值并降低10%魔力消耗
+		增加10%召唤伤害
+		'''
+	SetBonus:
+		'''
+		增加20%召唤伤害和2仆从栏
+		手持非召唤武器时仆从造成的伤害不再降低
+		免疫一切霜，火相关的减益
+		仆从攻击会提供3.5 HP/s生命再生并大幅加速生命再生
+		在南瓜月和霜月事件期间获得15%伤害减免
+		这15%伤害减免无视减伤率软上限
+		'''
+}
+
+FearmongerGreaves: {
+	DisplayName: 神惧者护胫
+	Tooltip:
+		'''
+		增加6%伤害
+		增加50%仆从击退
+		增加10%移动速度
+		受到伤害后会在4秒内增加40%移动速度
+		'''
+}
+
+FearmongerPlateMail: {
+	DisplayName: 神惧者板甲
+	Tooltip:
+		'''
+		增加100点最大生命值和8%伤害减免
+		增加5%伤害和暴击率
+		'''
+}
+
+GemTechBodyArmor: {
+	DisplayName: 天钻胸甲
+	Tooltip: “你怎么可以如此堕落！先前的作战方案都让你喂猪了吗？”
+}
+
+GemTechHeadgear: {
+	DisplayName: 天钻头饰
+	Tooltip: “恶魔说：好了你赢了，收拾东西滚蛋吧”
+	AbilityBrief: 六个宝石碎片缓缓绕着你旋转；其中五个对应五个职业，还有一个基础宝石
+	AbilityDescription:
+		'''
+		每一个激活的宝石都会给对应职业极大的加成，防御宝石则提供对防御的提升
+		强大的敌人会破坏宝石，宝石会射出并对最近的敌人造成大量伤害
+		破碎的宝石会在一段时间后重新凝聚
+		失去的宝石对应你使用的武器的职业，所以最好准备一些武器来切换！
+		'''
+	GeneralGemInfo:
+		'''
+		如果一次受到超过{0}的伤害，你会损失一个宝石
+		失去的宝石与你最近一次使用的武器职业相对应
+		如果你已经损失了那个宝石，那么这次失去的将会是基础宝石
+		宝石在损失时会破碎，并向最近的敌人或Boss飞去，造成{1}基础伤害
+		破碎的宝石需要{2}秒来重新凝聚
+		'''
+	RedGemInfo: "[i:Ruby] 红色宝石给予{0}最大潜行值，增加盗贼属性，并让非盗贼武器不消耗潜行值"
+	YellowGemInfo: "[i:Topaz] 黄色宝石增加近战属性，让近战攻击释放宝石碎片。真近战攻击释放宝石碎片的冷却时间更少"
+	GreenGemInfo: "[i:Emerald] 绿色宝石增加远程属性，并召唤飞镖弹快速向被远程弹幕击中的敌人飞去"
+	BlueGemInfo: "[i:Sapphire] 蓝色宝石给予{0}最大仆从栏，增加召唤伤害，并取消手持非召唤武器的召唤伤害降低惩罚"
+	PurpleGemInfo: "[i:Amethyst] 紫色宝石给予{0}最大魔力，增加魔法属性，并在你手持非魔法武器时为你快速回复魔力"
+	PinkGemInfo: "[i:Diamond] 粉色基础宝石给予{0}防御，增加伤害减免、移动速度和跳跃速度，以及{1}HP/s生命再生"
+	GemBonusInfo:
+		'''
+		如果所有宝石同时存在，用任何武器击中敌人会提供持续{0}秒的{1}HP/s生命再生
+		如果在这{1}秒内，你使用了另一职业的武器超过{3}秒，增加的生命再生会变成{2}HP/s
+		'''
+}
+
+GemTechSchynbaulds: {
+	DisplayName: 天钻战裙
+	Tooltip: “以眼还眼，以牙还牙”
+}
+
+GodSlayerChestplate: {
+	DisplayName: 弑神者胸甲
+	Tooltip:
+		'''
+		增加60点最大生命值
+		攻击你的敌人也会受到伤害
+		增加11%伤害和6%暴击率
+		'''
+	CommonSetBonus:
+		'''
+		允许你进行一次距离极长的能够选择八个方向的冲刺
+		在按着控制角色移动的按键的同时按下{0}就能进行指定方向的冲刺
+		被冲刺撞到的敌人会受到极高的伤害
+		在冲刺过程中你免疫绝大多数减益
+		弑神者冲刺有{1}秒冷却时间
+		'''
+}
+
+GodSlayerHeadMelee: {
+	DisplayName: 弑神者头盔
+	Tooltip:
+		'''
+		增加14%近战伤害
+		增加7%近战暴击率
+		'''
+	SetBonus:
+		'''
+		增加20%近战攻速
+		敌人更有可能以你为目标
+		一次性受到超过80点伤害使你放出一群高伤害的弑神飞镖
+		敌人碰到你时受到大量伤害
+		'''
+}
+
+GodSlayerHeadRanged: {
+	DisplayName: 弑神者头套
+	Tooltip: 增加14%远程伤害和远程暴击率
+	SetBonus: 你的远程武器射击时每2.5秒发射一枚弑神榴霰弹
+}
+
+GodSlayerHeadRogue: {
+	DisplayName: 弑神者面具
+	Tooltip:
+		'''
+		增加14%盗贼伤害和盗贼暴击率
+		增加5%移动速度
+		'''
+	SetBonus:
+		'''
+		增加120点最大潜行值
+		生命值全满时所有盗贼属性增加10%
+		如果一次攻击对你造成了超过80伤害，你获得额外的无敌帧
+		'''
+}
+
+GodSlayerLeggings: {
+	DisplayName: 弑神者护胫
+	Tooltip:
+		'''
+		增加5%移动速度
+		增加10%伤害和暴击率
+		'''
+}
+
+OmegaBlueChestplate: {
+	DisplayName: 蓝色欧米茄胸甲
+	Tooltip:
+		'''
+		增加12%伤害和8%暴击率
+		你的攻击会造成深渊水压减益
+		生命再生速度归零
+		'''
+}
+
+OmegaBlueHelmet: {
+	DisplayName: 蓝色欧米茄头盔
+	Tooltip:
+		'''
+		在液体中行动不受阻碍
+		增加12%伤害和8%暴击率
+		'''
+	SetBonus:
+		'''
+		增加15点护甲穿透
+		增加10%伤害和暴击率以及2仆从栏
+		触手会攻击附近的敌人，偷取生命值治疗你
+		按{0}进入深渊狂乱状态5秒
+		深渊狂乱提升你的伤害和暴击率，同时触手的攻击欲望和攻击范围都会增加
+		此效果有25秒冷却时间
+		'''
+}
+
+OmegaBlueTentacles: {
+	DisplayName: 蓝色欧米茄触手
+	Tooltip:
+		'''
+		增加12%移动速度
+		增加12%伤害和暴击率
+		'''
+}
+
+PrismaticGreaves: {
+	DisplayName: 光棱护胫
+	Tooltip:
+		'''
+		增加10%魔法伤害和12%魔法暴击率
+		降低20%非魔法伤害
+		增加10%飞行时间和2%跳跃速度
+		'''
+}
+
+PrismaticHelmet: {
+	DisplayName: 光棱头盔
+	Tooltip:
+		'''
+		增加18%魔法伤害和12%魔法暴击率
+		降低20%非魔法伤害
+		生命值低于500的敌人不会造成接触伤害
+		此效果在Boss存活时失效
+		'''
+	SetBonus:
+		'''
+		最大魔力值增加40，魔力消耗减少15%
+		提高魔力再生速度
+		按{0}在鼠标位置召唤一轮死亡激光，持续5秒
+		这个技能有30秒冷却
+		'''
+}
+
+PrismaticRegalia: {
+	DisplayName: 光棱斗篷
+	Tooltip:
+		'''
+		增加12%魔法伤害和15%魔法暴击率
+		降低20%非魔法伤害
+		增加20点最大生命值和40点最大魔力值
+		魔法攻击偶尔会发射一对追踪火箭
+		'''
+}
+
+SilvaArmor: {
+	DisplayName: 始源林海盔甲
+	Tooltip:
+		'''
+		增加80点最大生命值
+		增加12%伤害和8%暴击率
+		'''
+	CommonSetBonus:
+		'''
+		所有弹幕击中敌人时生成能治疗的林海光球
+		最大速度和加速度增加5%
+		如果降低到1点生命值，你将获得始源林海无敌增益，8秒内不会死亡
+		这个效果有5分钟冷却时间，冷却时间不会在Boss存在或事件期间计时
+		'''
+}
+
+SilvaHeadMagic: {
+	DisplayName: 始源林海兜帽
+	Tooltip:
+		'''
+		增加23%魔法伤害和13%魔法暴击率
+		增加100点最大魔力值并降低19%魔力消耗
+		'''
+	SetBonus: 不能穿透的魔法弹幕击中敌人后有几率产生强大的自然能量爆炸
+}
+
+SilvaHeadSummon: {
+	DisplayName: 始源林海头盔
+	Tooltip: 增加10%召唤伤害
+	SetBonus:
+		'''
+		增加65%召唤伤害和5仆从栏
+		召唤用生命能量攻击敌人的远古叶片水晶
+		'''
+}
+
+SilvaLeggings: {
+	DisplayName: 始源林海护胫
+	Tooltip:
+		'''
+		增加10%移动速度
+		增加12%伤害和暴击率
+		'''
+}
+
+TarragonBreastplate: {
+	DisplayName: 龙蒿胸甲
+	Tooltip:
+		'''
+		增加10%伤害和5%暴击率
+		增加1.5HP/s点生命再生速度和40点最大生命值
+		'''
+	CommonSetBonus:
+		'''
+		降低敌怪生成率
+		增加红心拾取范围
+		敌人死亡时有几率额外掉落红心
+		'''
+}
+
+TarragonHeadMagic: {
+	DisplayName: 龙蒿面具
+	Tooltip:
+		'''
+		增加15%魔法伤害和10%魔法暴击率
+		增加10%伤害减免、100点最大魔力值并降低15%魔力消耗
+		'''
+	SetBonus:
+		'''
+		每五次暴击时发射叶片风暴
+		魔法弹幕击中敌人时有50%的几率治疗你
+		治疗量取决于弹幕伤害
+		'''
+}
+
+TarragonHeadMelee: {
+	DisplayName: 龙蒿战盔
+	Tooltip:
+		'''
+		增加12%近战伤害和近战暴击率		
+		增加10%伤害减免
+		'''
+	SetBonus:
+		'''
+		增加15%近战攻速
+		敌人更有可能以你为目标
+		受到伤害时你会获得生命恢复的增益
+		按下{0}将自已以生命能量包裹，大大降低你受到的接触伤害，持续10秒
+		此效果有30秒冷却时间
+		'''
+}
+
+TarragonHeadRanged: {
+	DisplayName: 龙蒿面罩
+	Tooltip:
+		'''
+		增加10%远程伤害和远程暴击率
+		增加10%伤害减免
+		'''
+	SetBonus: 远程弹幕消失时分裂为追踪敌人的生命能量
+}
+
+TarragonHeadRogue: {
+	DisplayName: 龙蒿头盔
+	Tooltip:
+		'''
+		增加10%盗贼伤害和盗贼暴击率
+		增加10%伤害减免和5%移动速度
+		'''
+	SetBonus:
+		'''
+		增加115点最大潜行值
+	    使用盗贼武器暴击敌人50次时你会获得2.5秒无敌时间
+		此效果有25秒冷却
+		若你受到减益影响，则提升10%盗贼伤害
+		'''
+}
+
+TarragonHeadSummon: {
+	DisplayName: 龙蒿角盔
+	Tooltip: 增加10%伤害减免和5%召唤伤害
+	SetBonus:
+		'''
+		增加50%召唤伤害和3仆从栏
+		召唤围绕你的生命光环，对敌人造成伤害
+		'''
+}
+
+TarragonLeggings: {
+	DisplayName: 龙蒿护胫
+	Tooltip:
+		'''
+		增加10%移动速度
+		增加8%伤害和暴击率
+		'''
+}

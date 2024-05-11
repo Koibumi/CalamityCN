@@ -1,0 +1,187 @@
+// Buff Descriptions
+BuffDescription: {
+	Banner: 你对以下敌人的防御与伤害提升了：
+	BeetleMight: 近战伤害和攻速分别提升 {0}% 和 {1}%
+	ChaosState: 混沌传送杖暂时无法传送
+	LeafCrystal: 释放强大的生命光流攻击附近敌人
+	WarmthExtra: 免疫冷冻、冰冻和冰河时代减益
+	WeaponImbueConfetti: 所有攻击喷出彩纸
+	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
+	WeaponImbueFire: 近战、鞭子和盗贼攻击会使敌人着火
+	WeaponImbueGold: 近战、鞭子和盗贼攻击会使敌人掉落更多钱
+	WeaponImbueIchor: 近战、鞭子和盗贼攻击会降低敌人防御
+	WeaponImbueNanites: 近战、鞭子和盗贼攻击会使敌人困惑
+	WeaponImbuePoison: 近战、鞭子和盗贼攻击会使敌人中毒
+	WeaponImbueVenom: 近战、鞭子和盗贼攻击会对敌人造成酸性毒液
+}
+
+// Vanilla NPC dialogues added by Calamity
+AnglerChat.SeaKing: 有人说{0}想把我赶出镇子，那是不存在的。
+
+ArmsDealerChat: {
+	MentionQuadBarrel: 那老头临终前留了把破枪。你明白我的意思了吗?
+	HasQuadBarrel: 哈！看看那生锈的老玩意。它看起来是70年代的！
+	DoGDefeated: 是我越来越小，还是你的武器越来越大？
+	Eclipse: 我一直以为蛾子会向往光明，但是那一只在干什么？ ！你想杀它的话一杆火枪可不够！
+}
+
+ClothierChat: {
+	PolterghastDefeated: 那些声音停下来了...我不想知道你在那里做了什么，但还是谢谢你了。
+	MoonLordDefeated1: 你想叫谁？
+	MoonLordDefeated2: 那些尖叫……不知道为什么，但我觉得一种莫名的恐惧已经在我的心中醒来。
+	MoonLordDefeated3: 我过去一直在地牢听到的那些声音回来了...我肯定这背后藏了什么，虽然这只是我的一家之言。
+	MoonLordPresent: 休斯顿，我们遇上麻烦了。
+}
+
+CyborgChat: {
+	MoonLordDefeated1: 总是朝月亮开枪！很明显，这以前起过作用。
+	MoonLordDefeated2: 将我升级的人说想做最好的自己。但我不在乎，我只想让我的眼睛也能发射激光。
+	MentionPlague: 丛林那些绿色的大蟑螂丝毫没有威胁到我，但它们威胁了所有动物...请帮我个忙，保护好它们。
+	Rain: 这一切都终将湮灭在时间的长河之中，就像雨中的…………泪滴。
+}
+
+DemolitionistChat.DoGDefeated: 弑神者雷管？我喜欢那声音！
+
+DryadChat: {
+	DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。为啥这些蛾子会像你一样越来越强？
+	Hardmode: 那星辉瘟疫像水泡一样存在于这片土地上。难道世界上还有更多邪恶地形吗
+	DrunkPrincessShroom: "{0}让我来。"
+	Mushroom: 我才不想呆在这！我在这是为了捡蘑菇，呃，留着以后用。
+	SulphurSea: 我的女神在沉寂在海底中。请准许我对她致以我个人的敬意。
+}
+
+DyeTraderChat: {
+	Normal: 你看到洞穴里那些宝石生物了吗？它们的颜色简直令人叹为观止！
+	Archmage: 你认为{0}知道怎样“随它吧”？
+}
+
+GoblinTinkererChat: {
+	Bandit: 嘿，是我减肥了，还是我的钱包在{0}到达后变轻了？
+	MoonLordDefeated: 你知道……我们已经有一段时间没有入侵了……
+}
+
+GuideChat: {
+	ProvidenceDefeated1: 杀死一个女神显然会让她的精元渗入大地，你或许可以用她力量的残响去制造更强的装备！
+	ProvidenceDefeated2: 我听说巨龙教在地牢里面偷偷封锁了一些东西，用以给他们的仪式供给能量，看起来扰乱它会把你带向另一个世界...
+	MoonLordDefeated: 相比过去，我在地牢外见到巨龙教教徒的次数多太多了...我认为你应该探究一下是什么导致他们流离失所。
+	Hardmode1: 你能不能发点好心，额……帮我查一下地狱……？我把一个我关心的人留在下面了。
+	Hardmode2: 这场地震绝不是自然发生的，一定有东西造成了它...探索时务必小心，无论真相是什么，这背后都一定有一个强大甚至无与伦比的存在。
+}
+
+HerbTooltips: {
+	Daybloom: "[C/FFEB8A:一种在白天盛开的充满活力的草药]"
+	Moonglow: "[C/8AFFFF:一种在月光下绽放光辉的草药]"
+	Waterleaf: "[C/8AFFAF:一种顽强的在雨中绽放的草药]"
+	Blinkroot: "[C/FFC28A:一种无法预测开花时间的变幻莫测的草药]"
+	Shiverthorn: "[C/AADEFA:一种花期长久的在寒冷中坚毅生长的草药]"
+	Deathweed: "[C/A98AFF:一种在满月或血月下绽放的邪恶草药]"
+	Fireblossom: "[C/FF8063:一种在日落时分绽放的生机勃勃的草药]"
+}
+
+MechanicChat: {
+	MoonLordDefeated: 你说你的机关没成功是什么意思？和我没关系！
+	Eclipse: 呃……我的夜灯需要开着吗？
+	AcidRain: 也许我应该给我的小玩意儿加入防水功能……它们已经开始被腐蚀了。
+	DrunkPrincess: 嗯，我喜欢{0}，但是我，呃……心里已有他人
+}
+
+MerchantChat: {
+	MoonLordDefeated: 每天晚上似乎都比上一个晚上更加吓人。我感觉一些不可名状的恐惧在向我们蔓延。
+	Eclipse: 你制杖吗？！快把那些破灯关掉！
+	AcidRain: 如果这场酸雨持续下去，很快就会出现土块短缺的情况！
+	Bandit: 我现在拥有好几个天使雕像，那可真是稀世珍品啊！你要来一个吗？
+}
+
+NurseChat.HealNotAllowed: 现在不是治疗的时候！
+
+PainterChat: {
+	Corruption: 一点点的不舒服无法阻止我身为画家的工作！
+	Crimson: 这个地区有一种惊人的艺术。这种感觉令人感到震撼。它鼓舞了我！
+	Archmage: 以为{0}会让我把他画得像个法国女孩？！
+	Tundra: 我不适应这种寒冷的天气。不过，看起来还是挺漂亮的。
+	Desert: 我讨厌沙子。它很不平滑，很粗糙，会沾到我的油漆里。
+	Hallow: 你认为独角兽的血可以用作一种好的颜料色素吗？不，我不会自己去找的。
+	Space: 我无法在这种环境下工作。我所有的油漆都掉了。
+	Jungle: 在静物画中画乌龟不太好。
+	Astral: 如果水果长腿跑路了，我就不能画静物画了。
+	Underworld1: 在画布上，任何时候东西都会被加热，就像环境一样！
+	Underworld2: 不好意思，水彩画脱销了，它们总是在被热卖。
+	Crags: 玫瑰，是吗？那画起来确实很难。
+	SulphurSea: 有趣的事实！硫磺曾经被用作颜料！还是朱砂来着？
+	Abyss: 这是我这辈子画过的最简单的风景画。
+}
+
+PartyGirlChat: {
+	DrunkPrincess: 我有种感觉我们会在{0}周围举办非常棒的派对！
+	Eclipse1: 我想我的灯光变成了个意料之外的机器。但至少，怪物们会喜欢它的。
+	Eclipse2: 哦！我爱这样每个人都穿着奇服异装的派对！
+}
+
+PirateChat: {
+	PreLeviathan: 是的，我听说有一种神秘的海洋生物，用迷人的声音唱歌。在外面钓鱼时要小心。
+	WetScourgeDefeated: 我要再次感谢你们照顾那条海蛇。或者那是另一条……
+	DrunkPrincess: 二十九瓶啤酒在墙上……
+	SeaKing: 我记得关于{0}的传说，不过他不是很明白那些故事是怎么出来的。
+	Ocean: 现在这一幕我可以随时欣赏！但我觉得好像有什么东西在看着我。
+	SulphurSea1: 虽然表面上一片死寂，但在这些水域里仍然有生命。
+	SulphurSea2: 我的船可能会因为酸性而沉没。
+}
+
+SeedTooltips: {
+	Daybloom: "[C/FFEB8A:必须种植在普通草地上]"
+	Moonglow: "[C/8AFFFF:必须种植在丛林草地上]"
+	Waterleaf: "[C/8AFFAF:必须种植在沙地上]"
+	Blinkroot: "[C/FFC28A:必须种植在泥土或泥地上]"
+	Shiverthorn: "[C/AADEFA:必须种植在雪地或冰块上]"
+	Deathweed: "[C/A98AFF:必须种植在邪恶的草地上或埋在邪恶的石头中]"
+	Fireblossom: "[C/FF8063:必须埋在灰烬中]"
+}
+
+SkeletonMerchantChat.Normal: 你买啥？
+
+SteampunkerChat: {
+	HasPortalGun: 那是什么玩意儿？它使我的传送机看起来像个儿童玩具！
+	MoonLordDefeated: 是的！我现在也在考虑当一名太空大盗。
+	Astral: 由于星辉瘟疫，我的一些机器开始出故障。我可能本不该在这里修建的。
+	Hallow: 对不起，我这里真的没有独角兽保护技术，你自己来吧。
+}
+
+StylistChat: {
+	Hardmode: 请不要抓太空虱子，或者{0}虱子，或者仅仅是普通的虱子。
+	DrunkPrincess1: "{0}总是想让我心情愉快……即使，我知道她的内心深处很伤心。"
+	DrunkPrincess2: 有时我发现{0}从我背后偷偷跟上来。
+	ProfanedSoulCrystal1: 它们看上去如此可爱，然而一靠近它们，我就能感受到它们恐怖的力量。你怎么看？
+	ProfanedSoulCrystal2: 我不想打发你走，但是你的头发确实不需要剪，也没有发型。嗯。
+	ProfanedDonuts: 哇偶，它们太可爱了，你为它们起名字了吗？
+}
+
+TavernkeepChat: {
+	FullMoon: 想要一些私酿吗？
+	DrunkPrincess: 先生，{0}有那么点无情，不是吗？我从来没有声称自己是除了啤酒以外的任何东西的专家！
+}
+
+TaxCollectorChat: {
+	DoGDefeated: 你说什么吞噬者？资金吞噬者，如果它的工资能是任何东西！
+	PreBrimmy: 那些阿萨福勒上的朋克以为他们可以在我的领地免费住下？我告诉你，在那里处理好我的工作，不然别想领钱。
+	HasSlickCane: 我的天！那根拐杖太装逼了！
+	Has500Plat: 这些钱你到底是怎么弄来的？
+	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
+}
+
+TravellingMerchantChat.DrunkPrincessMerchant: 去告诉{0}，我会接受她的建议并且会和她在{1}的房子那儿见面。
+
+TruffleChat: {
+	Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
+	DrunkPrincess: 有时，{0} 只看着我很有趣而我不知道我对此有何感受。
+}
+
+WitchDoctorChat: {
+	BloodMoon: 这是一个很好的时间来挑选最好的药水成分。
+	PrePlantera: 有传闻一些村民在制造怪物来保卫他们的村庄，也许他们的魔法会对你而言会有些用？
+	Jungle: 我想知道我的亲戚们过得怎么样，上次我看望他们的时候，他们正忙于赞颂...太阳吧，我想。
+}
+
+WizardChat: {
+	Hardmode: 这空间太小了，让人感到难受
+	MentionRoD: 我在神圣之地里看到了一些不断传送的粉色幻影。如果能住在那附近，我想我能运用他们的魔法给你制造一根特殊的法杖。
+}
