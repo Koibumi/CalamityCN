@@ -233,7 +233,7 @@ MysteriousCircuitry: {
 }
 
 Necroplasm: {
-	DisplayName: Necroplasm
+	DisplayName: 灵质
 	Tooltip: 可怖恶意涌动不已
 }
 
@@ -303,7 +303,7 @@ SolarVeil: {
 }
 
 StarblightSoot: {
-	DisplayName: Starblight Soot
+	DisplayName: 调星微尘
 	Tooltip: ""
 }
 
