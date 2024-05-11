@@ -160,8 +160,8 @@ DebuffSystem: {
 // Draedon Contact UI. Repeated newlines indicate pauses in Draedon's speaking. As a result, newline characters may be explicitly defined.
 // The code that interprets these strings will transform them.
 // CommunicationStartInitial: ...
-// CommunicationStartNoForge: Craft something using my Forge, then return.
-// CommunicationStartNormal: State your inquiry.
+// CommunicationStartNoForge: 用我的锻炉造点东西，再回来。
+// CommunicationStartNormal: 陈述你的问题。
 
 Communication: {
 	WhoAreYou: {
@@ -402,15 +402,15 @@ Communication: {
 		Inquiry: The Mechanical Trio
 		Response:
 			'''
-			The "Mechanical Trio", as most call them, are what you annoyingly refer to as The Destroyer, Retinazer & Spazmatism, and, though it pains me to call it this, "Skeletron Prime". While you may be an exceptional individual, I question your naming capabilities. For your information, their formal designations are HM-03, HSx-00, HSy-01, and HF-04 respectively.\n
+			“钢铁巨械”，如大部分人所称呼的那样，正是被你蔑称为毁灭者、激光眼&魔焰眼，以及——虽然我极不情愿如此称呼——“机械骷髅王”。或许你确实是一个能力出众的人，但我相当怀疑你的命名品味。作为参考，它们的正式编号分别为HM-03、HSx-00、HSy-01以及HF-04。\n
 
-			They were a rudimentary but potent start to my experimentation with engines of war. In search of inspiration, I turned to study the gods and their purportedly unmatched might. While each deity wielded a unique worldly aspect, all drew their strength from an identical source: the soul of an Auric dragon.\n
+			它们是我在战争引擎实验上基础而重要的开端。为了寻求灵感，我转向研究诸神和祂们号称无与伦比的力量。尽管每个神祇掌握的力量都千差万别，祂们力量的来源却毫无二致：金源之龙的灵魂。\n
 
-			As acquiring an Auric soul was and still is infeasible, experiments with more mundane souls soon began. I was initially discouraged upon discovering that individual souls held a paltry amount of spiritual power, but their potential when coalesced far surpassed my predictions.\n
+			获取金源魄直到现在也不切实际，于是我开始使用凡人的灵魂进行试验。起初在我发现单个个体的灵魂所具有的灵魂力量微不足道时，我相当气馁，但它们聚集在一起后爆发出的潜能远超我的预期。\n
 
-			Upon further research, I confirmed that a soul's strength is defined by its intense emotions or resolve. Here, Yharim's unrivaled charisma and skill at evoking passion within the hearts of others was key. Not only was finding a source of emblazoned souls trivial, but many of his most stalwart troops even directly consented to having their souls embedded in my machines after their demise at the hands of the enemy.\n
+			经过进一步研究，我确信灵魂的力量受其强烈的情感或决心所左右。至此，亚利姆无与伦比的个人魅力和唤起他人内心激情的技巧就成了关键。别说需不需要担心能否找到符合条件的灵魂，他的许多最为忠诚的士兵甚至直接同意我在他们陨于敌手后将他们的灵魂嵌入我的机器中。\n
 
-			Fueled by the loyalty of the Godseeker's fallen soldiers, my machines were fearsome and ruthless. Harnessing the meshed combat experience of a thousand lifetimes, their battlefield prowess was self-evident. However, this same source of strength proved to be a flaw, as the unified will that gave them their might also made them volatile and not subject to my commands. While Yharim thoroughly approved, I sought to remove this imperfection from my designs via future projects.
+			我的机器以寻神者陨落士兵的忠诚为燃料，强大而无情。集千百个一生的战斗经验于一体，它们在战场上的威力不言而喻。然而，相同的力量根源也成为了缺陷，赋予它们强大力量的统一意志令它们很不稳定，违背我的指令。虽然亚利姆非常认可这些机器，但我还是意图在未来的项目将这一缺陷从我的设计中根除。
 			'''
 	}
 
@@ -418,21 +418,21 @@ Communication: {
 		Inquiry: The Plague
 		Response:
 			'''
-			Before you ask: I am aware that my nanomachines currently plague the jungle. I created a failsafe in case this happened, and have no intent of causing uncontrollable mass destruction. If it begins to threaten biodiversity or otherwise encroach upon my learning of Terraria, I will deactivate it myself.\n
+			在你发问前我先提前声明：我知道我的纳米机器现在正在感染丛林。为此，我之前就已经创建了一个故障安全系统。我无意引发不可控的物质毁坏。如果它开始威胁生物多样性，或是干扰我对泰拉瑞亚的研究，我会亲手关闭它。\n
 
-			My research into applied nanotechnology began as a means to match the ever rising heights of power organic beings such as the Witch, Braelor, Statis, and Yharim himself were achieving. Living things cannot be externally ordered or controlled, and are prone to fits of emotion and, in rare cases, rebellion.\n
+			我研究纳米科技的应用起初是为了达到和女巫、布瑞莱尔、斯塔提斯，乃至亚利姆本人等强大有机体不断攀升的高度。有生命的个体无法通过外部命令或控制，很容易受感情左右，以及在极少情况下——会反叛。\n
 
-			I aimed to create a weapon which could control, subdue, or eliminate any organic entity, given enough time. I was well aware of the tenacity and adaptability of life, and quickly realized such a weapon would itself need to be alive to overpower and dominate any known organism.\n
+			我的目标是创造这样一种武器，只要给予足够的时间，它就能控制、制服或消灭任何有机体。我深知生命的顽强和适应性，很快我就意识到这种武器本身需要具备生命，才能碾压和支配任何已知的有机体。\n
 
-			It was through my observation of the growth of such powerful beings, however, that I had an epiphany: there was no need for my machinery to surpass organic life. Not when that very same life could be improved upon and then harnessed as a tool or weapon.\n
+			然而正是通过对这些强大有机体成长的观察，我顿悟了：我的机械没有必要超越有机生命，对生命进行改良，然后将其作为一种工具或武器就足够了。\n
 
-			I saw then the banality of my efforts to simply control and replace life. I stood before the near limitless possibilities of enhancing it further.\n
+			我意识到自己此前试图简单地控制和取代生命的作为是多么陈腐。我彼时就站在近乎无限的可能性面前，只为进一步增强它。\n
 
-			Even when I deemed that I had plateaued in the field of cybernetics, the limitations of my methodology were ever present. The bodies of most jungle creatures were too frail to handle the prerequisite cybernetic enhancements. A Queen Bee was the optimal choice to host the nanomachines. Born to rule, such beings are resilient enough to survive the augmentation, but still weak enough to be subdued if or when necessary.\n
+			即使我认为自己在控制领域已经达到了顶峰，我的方法也始终存在局限性。大多数丛林生物的身体都过于弱小，无法承受作为先决条件的机械强化。蜂后是储存纳米机械的最佳选择，它们生来就是为了统治。它们有足够的韧性在强化后存活下来，但也没有强大到在必要时无法被制服。\n
 
-			Something about this research in particular incensed the Godseeker. Upon witnessing my progress, he flew into a rage. He blasted out a sizable chunk of the genomic laboratory and intentionally allowed my first, unfinished specimen to escape. In no uncertain words, he terminated his agreement with me and stormed off. I do not know what line was crossed, but he has made no further moves to antagonize me, so I shall continue my research in peace.\n
+			这项研究中显然有什么地方触怒了寻神者。在见识到我的成果后，他勃然大怒。他在我的基因实验室炸了一个相当大的窟窿，有意让我的第一个，同样也是未完成的样本逃了出去。他毫不含糊地终止了与我的协议，愤然离去。我并不知道我触碰了哪条底线，但他也没有进一步和我敌对，所以我安安静静地继续我的研究。\n
 
-			Regardless. There is a unique allure to setting loose a synthesized mimicry of prokaryotic life. It continues to evolve incomprehensibly rapidly, even as we speak, providing endless opportunities for analysis.
+			无论如何，这种原核生命的合成模拟物于我有一种独特的魅力。就在我们交谈的此时此刻，它仍在以难以理解的速度进化，为我提供无尽的分析机会。
 			'''
 	}
 
