@@ -2641,9 +2641,9 @@ StatigelTable: {
 	Tooltip: ""
 }
 
-StatigelWorkBench: {
-	// DisplayName: Statigel Work Bench
-	// Tooltip: ""
+StatigelWorkbench: {
+	DisplayName: 斯塔提斯工作台
+	Tooltip: ""
 }
 
 StratusBathtub: {
@@ -2941,9 +2941,9 @@ WulfrumToilet: {
 	Tooltip: ""
 }
 
-WulfrumWorkBench: {
-	// DisplayName: Wulfrum Work Bench
-	// Tooltip: ""
+WulfrumWorkbench: {
+	DisplayName: 钨钢工作台
+	Tooltip: ""
 }
 
 HardenedAstralSand: {

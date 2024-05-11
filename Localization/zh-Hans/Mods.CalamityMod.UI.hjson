@@ -1,5 +1,5 @@
 SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
-// Main UI Elements
+// 主要UI
 Adrenaline: 肾上腺素条
 Nanomachines: 纳米机器条
 Rage: 怒气条
@@ -18,7 +18,7 @@ StealthInfoText:
 	更高的潜行恢复速度会略微降低潜伏伤害
 	但这可以通过更加频繁地使用潜伏攻击来抵消其伤害降低的负面影响
 	'''
-// Difficulty UI
+// 难度UI
 DifficultyStatusText: "{0}已{1}。"
 ModeAppend: " 模式"
 Active: 开启
@@ -61,7 +61,7 @@ DeathExpandedInfo:
 	'''
 DeathActivate: 死亡模式已开启，享受吧！
 DeathDeactivate: 死亡模式已关闭，你还不够享受吗？
-// Calamity Health Bar
+// 灾厄血条
 ExoTwinsNameNormal: XS-01 “阿尔忒弥斯”和 XS-03 “阿波罗”
 ExoTwinsNameHekate: XB-∞ “赫卡忒”之眼
 ExtensionDisplay: （{0} 剩余： {1}）
@@ -77,7 +77,7 @@ ExtensionName: {
 	BodyParts: 身体部位
 }
 
-// Cooldowns
+// 冷却
 Cooldowns: {
 	AquaticHeartIceShield: 冰盾冷却
 	AscendEffect: 进升冷却
@@ -128,9 +128,9 @@ Cooldowns: {
 	WulfrumRoverDriveRecharge: 保护矩阵充能
 }
 
-// Enchantment + Draedon UI
+// 附魔+嘉登UI
 Cost: 花费：
-// Draedon UI
+// 嘉登UI
 Contact: 联络
 Summon: 召唤
 Evoke: 唤醒
@@ -142,7 +142,7 @@ ThanatosIcon: 塔纳托斯，一条装备着厚重铠甲、搭载了无数机关
 AresIcon: 阿瑞斯，一个搭载着四台超级星流武器的庞然巨物。
 ArtemisApolloIcon: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳定的超耐久自动机器。
 
-// Debuff System
+// Debuff系统
 DebuffSystem: {
 	Title: Debuff Resistances
 	Description: NPCs take increased or decreased damage from certain debuff types
@@ -159,9 +159,9 @@ DebuffSystem: {
 
 // Draedon Contact UI. Repeated newlines indicate pauses in Draedon's speaking. As a result, newline characters may be explicitly defined.
 // The code that interprets these strings will transform them.
-// CommunicationStartInitial: ...
-// CommunicationStartNoForge: 用我的锻炉造点东西，再回来。
-// CommunicationStartNormal: 陈述你的问题。
+CommunicationStartInitial: ...
+CommunicationStartNoForge: 用我的锻炉造点东西，再回来。
+CommunicationStartNormal: 陈述你的问题。
 
 Communication: {
 	WhoAreYou: {
@@ -475,7 +475,7 @@ Communication: {
 	}
 }
 
-// Hologram Texts
+// 全息投影文本
 Hologram: {
 	Text1: 请每一位在实验室工作的人员随时佩戴你们那块钢制的刻字铭牌。若由于个人原因未佩戴铭牌而导致事故后无法辨别尸体身份，实验室有权拒绝向你的家人发放体恤金。
 	Text2: 实验就是失败，失败就是学习，学习就是进步。
@@ -492,7 +492,7 @@ Hologram: {
 	EasterEgg: 别光顾着看啊，帮我一下，我被这个该死的全息图像机器卡住了。
 }
 
-// Enchantments
+// 附魔
 Exhumed: {
 	DisplayName: 死灵炼注
 	Description: 将该物品转化为更加强大的物品
@@ -575,7 +575,7 @@ Lecherous: {
 }
 
 Disenchant: 祛魔
-// Worldgen Tasks
+// 世界生成
 EvilIslandCorrupt: 正在生成一个腐化浮岛
 EvilIslandCrimson: 正在生成一个猩红浮岛
 AstralChest: 正在放置一个星幻箱

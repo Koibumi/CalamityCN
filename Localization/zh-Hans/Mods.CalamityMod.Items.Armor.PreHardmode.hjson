@@ -1,6 +1,6 @@
 AerospecBreastplate: {
 	DisplayName: 天蓝胸甲
-	Tooltip: 增加3%暴击率
+	Tooltip: 增加3%伤害和暴击率
 	CommonSetBonus:
 		'''
 		一次性受到超过25点伤害会召唤追踪羽毛从天而降
@@ -10,13 +10,17 @@ AerospecBreastplate: {
 
 AerospecHat: {
 	DisplayName: 天蓝帽
-	Tooltip: 增加8%魔法伤害和20点最大魔力值
-	SetBonus: 增加5%移动速度和魔法暴击率
+	Tooltip: 增加10%魔法伤害和30点最大魔力值
+	SetBonus:
+		'''
+		降低8%魔力消耗
+		增加5%移动速度与魔法暴击率
+		'''
 }
 
 AerospecHeadgear: {
 	DisplayName: 天蓝头套
-	Tooltip: 增加8%盗贼伤害和5%移动速度
+	Tooltip: 增加10%盗贼伤害和5%移动速度
 	SetBonus:
 		'''
 		增加5%移动速度和盗贼暴击率
@@ -26,7 +30,7 @@ AerospecHeadgear: {
 
 AerospecHelm: {
 	DisplayName: 天蓝战盔
-	Tooltip: 增加8%近战伤害
+	Tooltip: 增加10%近战伤害
 	SetBonus:
 		'''
 		增加5%移动速度和近战暴击率
@@ -36,7 +40,7 @@ AerospecHelm: {
 
 AerospecHelmet: {
 	DisplayName: 天蓝头盔
-	Tooltip: 增加5%移动速度和召唤伤害
+	Tooltip: 增加10%召唤伤害和5%移动速度
 	SetBonus:
 		'''
 		增加11%召唤伤害和1仆从栏
@@ -46,7 +50,7 @@ AerospecHelmet: {
 
 AerospecHood: {
 	DisplayName: 天蓝兜帽
-	Tooltip: 增加8%远程伤害
+	Tooltip: 增加10%远程伤害
 	SetBonus: 增加5%移动速度和远程暴击率
 }
 
@@ -137,7 +141,7 @@ StatigelHeadMagic: {
 	Tooltip:
 		'''
 		增加10%魔法伤害并降低10%魔力消耗
-		增加7%魔法暴击率和30点最大魔力值
+		增加7%魔法暴击率和40点最大魔力值
 		'''
 }
 

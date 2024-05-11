@@ -20,6 +20,7 @@ AquaticScourge: {
 }
 
 AstrumAureus: {
+	EntryName: 白金星舰
 	SpawnInfo: 在星辉瘟疫使用[i:CalamityMod/AstralChunk]。
 	DespawnMessage: "[c/FFD700:白金星舰已解决所有威胁。恢复到侦察模式。]"
 }
@@ -36,6 +37,7 @@ BossRush: {
 }
 
 BrimstoneElemental: {
+	EntryName: 硫磺火元素
 	SpawnInfo: 在硫火之崖或阿萨福勒使用[i:CalamityMod/CharredIdol]。
 	DespawnMessage: "[c/DC143C:元素之灵永恒而阴郁地守望着阿萨福勒……]"
 }
@@ -47,6 +49,7 @@ Calamitas: {
 }
 
 CalamitasClone: {
+	EntryName: 灾厄之影
 	SpawnInfo: 在夜晚使用[i:CalamityMod/EyeofDesolation]。
 	DespawnMessage: "[c/FFA500:女巫的克隆体失望地吐了口血，随即隐去身形。]"
 }
@@ -58,6 +61,7 @@ CeaselessVoid: {
 }
 
 Crabulon: {
+	EntryName: 菌生蟹
 	SpawnInfo: 在发光蘑菇生物群落使用[i:CalamityMod/DecapoditaSprout]。
 	DespawnMessage: "[c/6495ED:菌生怪蟹爬走了……]"
 }
@@ -72,6 +76,7 @@ CragmawMire: {
 }
 
 Cryogen: {
+	EntryName: 极地之灵
 	SpawnInfo: 在雪原生物群落使用[i:CalamityMod/CryoKey]。
 	DespawnMessage: "[c/00FFFF:极地之灵在凌冽的暴雪中消失无踪。]"
 }
@@ -89,6 +94,7 @@ DevourerofGods: {
 }
 
 Dragonfolly: {
+	EntryName: 痴愚金龙
 	SpawnInfo: 在丛林生物群落使用[i:CalamityMod/ExoticPheromones]。
 	DespawnMessage: "[c/FFD700:痴愚金龙返回了它隐蔽的巢穴。]"
 }
@@ -100,16 +106,19 @@ ExoMechs: {
 }
 
 GiantClam: {
+	EntryName: 巨像蛤
 	SpawnInfo: 在沉沦之海自然生成。
 	DespawnMessage: "[c/7FFFD4:巨像蛤重返水下岩窟之中。]"
 }
 
 GreatSandShark: {
+	EntryName: 旱海狂鲨
 	SpawnInfo: 在击败世纪之花后的沙尘暴期间击杀10只沙鲨后生成或在沙漠中使用[i:CalamityMod/SandstormsCore]。
 	DespawnMessage: "[c/DAA520:大漠中的顶级掠食者消失于沙丘之间。]"
 }
 
 HiveMind: {
+	EntryName: 腐巢意志
 	SpawnInfo: 在腐化之地击杀腐化肿瘤或在腐化之地使用[i:CalamityMod/Teratoma]。
 	DespawnMessage: "[c/9400D3:腐巢意志掠过此地，另寻他处繁殖。]"
 }
@@ -151,6 +160,7 @@ Perforators: {
 }
 
 PlaguebringerGoliath: {
+	EntryName: 瘟疫使者歌莉娅
 	SpawnInfo: 在丛林生物群落使用[i:CalamityMod/Abombination]。
 	DespawnMessage: "[c/00FF00:目 标 已 被 安 乐 死 。 战 斗 协 议 停 止 运 行 。]"
 }
@@ -168,6 +178,7 @@ ProfanedGuardians: {
 }
 
 Providence: {
+	EntryName: 亵渎天神，普罗维登斯
 	SpawnInfo: 在神圣之地或地狱使用[i:CalamityMod/ProfanedCore]。
 	DespawnMessage: "[c/FFA500:亵渎女神隐匿在纯净的烈焰中，只留下一团灰烬……]"
 }

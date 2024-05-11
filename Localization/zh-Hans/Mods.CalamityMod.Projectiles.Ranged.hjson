@@ -8,7 +8,7 @@ AquaBlast.DisplayName: 澄净喷流
 AquaBlastToxic.DisplayName: 剧毒喷流
 Aquashard.DisplayName: 碎水弹
 AquashardSplit.DisplayName: 碎水弹
-ArcherfishRing.DisplayName: 水环
+ArcherfishRing.DisplayName: 水之环
 ArcherfishShot.DisplayName: 水之境
 AstralCannonProjectile.DisplayName: 星辉水晶
 AstralRound.DisplayName: 星体环
@@ -58,8 +58,8 @@ CorrodedShell.DisplayName: 酸蚀外壳
 CosmicFire.DisplayName: 宙炎
 DaemonsFlameArrow.DisplayName: 鬼炎箭
 DeadSunExplosion.DisplayName: 殉日爆弹
-DragonsBreathFlames.DisplayName: 龙焱
-DragonsBreathMag.DisplayName: 龙息弹
+DragonsBreathFlames.DisplayName: 龙息之焰
+DragonsBreathMag.DisplayName: 龙息弹匣
 DragonsBreathRound.DisplayName: 龙息弹
 DrataliornusExoArrow.DisplayName: 炎龙崩啸
 DrataliornusFlame.DisplayName: 赤陨霸龙弓
@@ -124,11 +124,11 @@ LuxorsGiftRanged.DisplayName: 卢克索的礼物
 MagnaShot.DisplayName: 麦格纳飞弹
 MagnomalyAura.DisplayName: 磁暴
 MagnomalyBeam.DisplayName: 光束
+MeowCreature.DisplayName: 喵喵喵:3
 MagnomalyExplosion.DisplayName: 爆炸
 MagnomalyRocket.DisplayName: 核弹
 MarksmanShot.DisplayName: 神射手射击
 MechanicalBarracuda.DisplayName: 梭鱼
-MeowCreature.DisplayName: 喵喵喵:3
 MeowFire.DisplayName: 彩虹喵火焰
 MineralMortarProjectile.DisplayName: 玛瑙炸弹
 MiniatureFolly.DisplayName: 迷你痴愚金龙
@@ -156,7 +156,7 @@ PlanarRipperExplosion.DisplayName: 位面肃清
 PlanetaryAnnihilationProj.DisplayName: 行星球
 PlasmaBlast.DisplayName: 爆炸波
 PlasmaExplosion.DisplayName: 等离子爆炸
-PolarStar.DisplayName: 北极星
+PolarStar.DisplayName: 北辰之矢
 PrecisionBolt.DisplayName: 精准之箭
 PressurizedBubbleStream.DisplayName: 增压泡泡流
 PrismaticEnergyBlast.DisplayName: 能量束
@@ -182,7 +182,7 @@ ScorchedEarthClusterBomb.DisplayName: 集束炸弹
 ScorchedEarthRocket.DisplayName: 火箭
 ScorpioRocket.DisplayName: 纳米导弹
 ScorpioLargeRocket.DisplayName: 纳米核弹
-SeaDragonMuzzleBlast.DisplayName: 枪口爆炸
+SeaDragonMuzzleBlast.DisplayName: 海龙火舌
 SeaDragonRocket.DisplayName: 海龙爆炎弹
 SeasSearingBubble.DisplayName: 灼热泡泡
 SeasSearingSecondary.DisplayName: 海浴

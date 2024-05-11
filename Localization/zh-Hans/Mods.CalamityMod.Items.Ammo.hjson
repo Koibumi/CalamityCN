@@ -9,7 +9,12 @@ AstralSolution: {
 
 BloodfireArrow: {
 	DisplayName: 血炎箭
-	Tooltip: 击中敌人时会治疗你
+	Tooltip:
+		'''
+		尖端浸透鲜血的高速箭矢
+		射出这些箭矢会消耗你的生命值
+		命中时加快自然生命再生并为你回复生命值
+		'''
 }
 
 BloodfireBullet: {
@@ -25,8 +30,9 @@ BloodRune: {
 	DisplayName: 血之符文
 	Tooltip:
 		'''
-		可由寒冰弹幕使用
-		在某些类似符文的壁画上发现的
+		可以穿过物块，并在命中时加快你的自然生命再生
+		基于你当前的生命再生与自然生命再生造成额外伤害
+		此伤害上限为25
 		'''
 }
 
@@ -34,8 +40,8 @@ BubonicRound: {
 	DisplayName: 鼠疫弹
 	Tooltip:
 		'''
-		击中敌人时会爆裂出致命瘟疫
-		无视敌人25%防御
+		命中时散播瘟疫
+		无视敌人10%防御
 		'''
 }
 
@@ -46,7 +52,11 @@ CinderArrow: {
 
 ElysianArrow: {
 	DisplayName: 极乐之箭
-	Tooltip: 在消失时会使陨石从天而降
+	Tooltip:
+		'''
+		携带亵渎能量的箭矢
+		撞击时从上方和下方召唤净化之光
+		'''
 }
 
 FlashRound: {
@@ -65,7 +75,7 @@ GodSlayerSlug: {
 }
 
 HallowPointRound: {
-	DisplayName: 神圣空尖弹
+	DisplayName: 神圣空尖弹 
 	Tooltip:
 		'''
 		神圣耀光命中时造成6点额外伤害
@@ -75,7 +85,11 @@ HallowPointRound: {
 
 HolyFireBullet: {
 	DisplayName: 圣火弹
-	Tooltip: 会爆炸的神圣子弹
+	Tooltip:
+		'''
+		会爆炸的神圣子弹
+		子弹出膛之时爆炸尤为猛烈
+		'''
 }
 
 HailstormBullet: {
@@ -92,14 +106,19 @@ HyperiusBullet: {
 	DisplayName: 海伯里斯弹
 	Tooltip:
 		'''
-		你的敌人不会好过了
-		击中敌人时会产生额外的子弹
+		强大的彩色子弹
+		子弹撞击时分裂出闪烁的色彩漩涡
 		'''
 }
 
 IcicleArrow: {
 	DisplayName: 冰锥箭
-	Tooltip: 命中时碎裂
+	Tooltip:
+		'''
+		拥有附魔箭头的冰箭
+		这些箭会迅速冻结转化为坠落的冰锥，造成更高伤害
+		在箭矢冻结前击中敌怪或物块会使其向上飞行
+		'''
 }
 
 MarksmanRound: {
@@ -149,8 +168,8 @@ VanquisherArrow: {
 	DisplayName: 征戮箭
 	Tooltip:
 		'''
-		穿透物块
-		移动时会分裂出额外的追踪箭矢
+		由寰宇之钢打造的强力箭矢
+		可以穿过物块并能追踪敌怪
 		'''
 }
 

@@ -29,7 +29,7 @@ AngelicShotgun: {
 	Tooltip:
 		'''
 		每次发射子弹的同时天空都会发射辐射光束
-		将火枪子弹转化为光爆弹
+		将火枪子弹转化为神圣空尖弹
 		“战斗直到胜利”
 		'''
 }
@@ -37,16 +37,11 @@ AngelicShotgun: {
 Animosity: {
 	DisplayName: 憎恨
 	GFBName: Shotgun Full of Hate
-	Tooltip:
-		'''
-		发射一发强大的狙击弹
-		右键以发射一连串子弹
-		50%几率节省弹药
-		'''
+	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Fires a shotgun blast with a tight spread which is imbued with Brimstone Flames
-		Press Right Click to fire a powerful brimstone round that inflicts Whispering Death
+		发射一片低散布的硫磺火霰弹
+		按下右键发射一发威力强大的硫磺火炮弹，命中时施加死亡低语减益
 		'''
 	TooltipGFB:
 		'''
@@ -62,8 +57,7 @@ AntiMaterielRifle: {
 		'''
 		将火枪子弹转化为.50口径的狙击子弹，撕裂敌人的防御和伤害减免
 		暴击会在敌人两侧释放第二轮含有5发子弹的弹雨
-		      
-		'''
+        '''
 }
 
 AquashardShotgun: {
@@ -87,11 +81,11 @@ Archerfish: {
 }
 
 Arietes41: {
-	DisplayName: Arietes 41
+	DisplayName: 白羊座 41
 	Tooltip:
 		'''
-		Alternates between firing bullets imbued with lifesteal and electricity
-		Electric imbued bullets create a small shockblast on impact, dealing additional damage to the enemy they hit
+		交替发射生命偷取子弹和电能子弹
+		电能子弹碰撞时会释放小型冲击波，对命中的敌人造成额外伤害
 		'''
 }
 
@@ -160,8 +154,8 @@ BarracudaGun: {
 BladedgeRailbow: {
 	DisplayName: BladedgeRailbow
 	Tooltip: "[GFB]"
-	TooltipNormal: Fires a spread of 4 arrows and 2 leaves at once
-	TooltipGFB: Fires a spread of 4 arrows... along with other various things
+	TooltipNormal: 一次发射四支箭与两片锋叶
+	TooltipGFB: 发射四支箭……和一些其他乱七八糟的东西
 }
 
 BlightSpewer: {
@@ -320,21 +314,18 @@ CoralCannon: {
 		'''
 }
 
-CorinthPrime: {
-	DisplayName: 科林斯Prime
-	Tooltip:
-		'''
-		发射6发密集高速子弹
-		右键发射一颗榴弹
-		如果榴弹在2秒内未接触到任何东西，那么会产生巨大的爆炸
-		否则，榴弹只会产生极其微弱的爆炸
-		将火枪子弹转化为高速爆炸弹
-		'''
-}
-
 CorrodedCaustibow: {
 	DisplayName: 酸腐弓
 	Tooltip: 将木箭转换为缓慢但强力的毒箭，毒箭会留下辐射光环
+}
+
+CosmicBolter: {
+	DisplayName: 宇束弓
+	Tooltip:
+		'''
+		发射一列紧密的三发箭矢
+		将木箭转化为可以在物块表面滑行的能量束
+		'''
 }
 
 CrackshotColt: {
@@ -344,7 +335,7 @@ CrackshotColt: {
 		右键将一枚铜币抛向空中
 		击中硬币的子弹会向着最近的敌人瞄准
 		至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
-		反弹的子弹必定暴击
+		子弹击中短暂滞空的硬币后必定暴击
 		'''
 }
 
@@ -383,6 +374,7 @@ Deathwind: {
 		'''
 		一次发射四支箭矢
 		将木箭转化为星云箭
+		星云箭造成更多伤害并且会施加弑神怒焰减益
 		'''
 }
 
@@ -390,7 +382,7 @@ DeepcoreGK2: {
 	DisplayName: 深核GK2
 	Tooltip:
 		'''
-		子弹大小变为原来的两倍，忽略敌怪15点防御
+		子弹大小变为原来的两倍，忽略敌怪10点防御
 		"挖到手软，赚到盆满！"
 		'''
 }
@@ -459,7 +451,7 @@ ElementalEruption: {
 
 EternalBlizzard: {
 	DisplayName: 恒吹雪
-	Tooltip: 额外发射一支命中后碎裂的冰锥箭
+	Tooltip: 额外发射一支冰锥箭，冻结后转化为坠落的冰锥
 }
 
 Eviscerator: {
@@ -488,16 +480,21 @@ FirestormCannon: {
 
 FlakKraken: {
 	DisplayName: 海妖克拉肯
-	Tooltip: 发射一个随时间流逝而更加强大的能量十字纹
+	Tooltip:
+		'''
+		发射一对深渊高射炮弹，炮弹会爆炸产生数个锥形散布的墨水弹片
+		深渊高射炮弹会在抵达光标位置时爆炸
+		炮弹直接命中会使弹片伤害降低
+		'''
 }
 
 FlakToxicannon: {
 	DisplayName: 剧毒高射炮
 	Tooltip:
 		'''
-		以一定的角度向光标处射击
-		仅能朝着玩家头顶的一定仰角范围内开火
-		“要求：智商高”
+		发射一个剧毒炮弹，炮弹爆炸会产生数个锥形散布的放射性污泥
+		剧毒炮弹会在抵达光标位置时爆炸
+		炮弹直接命中会使污泥伤害降低
 		'''
 }
 
@@ -632,7 +629,7 @@ HoarfrostBow: {
 	Tooltip:
 		'''
 		一次性发射两支箭矢
-		将木箭转换为霜雾箭
+		将木箭转换为命中后生成冰雾的霜雾箭
 		'''
 }
 
@@ -692,8 +689,8 @@ MagnaCannon: {
 	Tooltip:
 		'''
 		充能发射一阵快速的水晶矢冲击波
-		      随着充能时间的增长，会提升发射的水晶矢数量
-		      满充能会发射一阵持续时间更长，速度更快的冲击波
+		随着充能时间的增长，会提升发射的水晶矢数量
+		满充能会发射一阵持续时间更长，速度更快的冲击波
 		'''
 }
 
@@ -751,7 +748,7 @@ MidasPrime: {
 		右键将一枚金币或银币抛向空中
 		击中硬币的子弹会向着最近的敌人瞄准
 		至多可抛出4枚硬币，在可能的情况下，子弹会在多枚硬币之间反弹
-		反弹的子弹必定暴击，并且会基于反弹的次数增加伤害
+		子弹击中短暂滞空的硬币后必定暴击，根据使用的硬币种类提供伤害加成
 		'''
 	UltrakillEasterEgg:
 		'''
@@ -812,12 +809,17 @@ NettlevineGreatbow: {
 
 NitroExpressRifle: {
 	DisplayName: Nitro Express Rifle
-	Tooltip: "[c/88354B:'The recoil feels strong enough to break your shoulder...']"
+	Tooltip: "[c/88354B:“后坐力大到足以震碎你的肩膀……”]"
 }
 
 Norfleet: {
 	DisplayName: 诺法雷
-	Tooltip: 发射万物！
+	Tooltip:
+		'''
+		发射一簇不稳定的能量球体，每个球体都包含了不同的元素
+		这把武器每射击三次就必须重新充能装弹
+		[c/FF9900:“炸毁万物！”]
+		'''
 }
 
 NullificationPistol: {
@@ -852,7 +854,7 @@ OpalStriker: {
 	Tooltip:
 		'''
 		发射可充能的穿透热能矢
-		      满充能会造成额外伤害并且有更快的飞行速度
+        满充能会造成额外伤害并且有更快的飞行速度
 		'''
 }
 
@@ -861,7 +863,7 @@ OverloadedBlaster: {
 	Tooltip:
 		'''
 		将凝胶转化为一串活性凝胶珍珠，它们会在静止时过载
-		过载的凝胶珍珠造成175%伤害，但不再穿透
+		过载的凝胶珍珠额外造成60%伤害，但不再穿透
 		凝胶珍珠在接触到物块后会高速反弹
 		使用凝胶作为弹药
 		25%几率节省弹药
@@ -873,7 +875,7 @@ P90: {
 	Tooltip:
 		'''
 		以极高的频率释放一连串穿甲弹
-		穿甲弹无视15点防御
+		穿甲弹无视30点防御
 		75%几率节省弹药
 		“这是根子弹管”
 		'''
@@ -883,9 +885,8 @@ PearlGod: {
 	DisplayName: 珍珠之神
 	Tooltip:
 		'''
-		发射吸血的震爆弹和火枪子弹
-		每七次射击发射一枚强力冲击波子弹
-		“汝命归我……”
+		交替发射一发生命偷取子弹和三发珍珠注能子弹
+		珍珠注能子弹在碰撞时会释放小型冲击波，对命中的敌人造成额外伤害
 		'''
 }
 
@@ -936,24 +937,19 @@ PlanetaryAnnihilation: {
 
 PolarisParrotfish: {
 	DisplayName: 北辰鹦哥鱼
-	Tooltip:
-		'''
-		弹幕击中敌人给予武器增幅
-		受到伤害时此增益消失
-		“它带有北极星的标记”
-		'''
+	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Rapidly fires an array of colorful star shots that bounce off tiles
-		However, only two shots can exist at once
+		迅速发射一串在物块上反弹的彩色星星
+		然而同一时间至多存在两颗星星
 		“它带有北极星的标记”
 		'''
 	TooltipGFB:
 		'''
-		Rapidly fires an array of colorful star shots that bounce off tiles
-		However, only two shots can exist at once
-		Right click to give the little girl some attention
-		'She is a happy girl'
+		迅速发射一串在物块上反弹的彩色星星
+		然而同一时间至多存在两颗星星
+		右键给这个小女孩一点关照
+		'她是个快乐的女孩'
 		'''
 }
 
@@ -1038,9 +1034,10 @@ Scorpio: {
 	DisplayName: 天蝎座
 	Tooltip:
 		'''
-		右键发射核弹
-		使用可摧毁物块的弹药时火箭会破坏物块
-		“BOOM”
+		按住左键发射一组追踪纳米导弹，并为武器充能
+		发射三组导弹后达到满充能状态
+		在满充能状态下按住左键时点击右键，发射一颗纳米核弹
+		纳米核弹会造成巨量伤害，并且会重置导弹组的射击冷却
 		'''
 }
 
@@ -1116,7 +1113,7 @@ Shroomer: {
 
 SlagMagnum: {
 	DisplayName: 熔渣马格南
-	Tooltip: 将火枪子弹转化为化石碎片，命中后生成额外的化石碎片
+	Tooltip: 将火枪子弹转化为化石碎片，命中后生成额外的碎片
 }
 
 SomaPrime: {
@@ -1256,8 +1253,9 @@ TheHive: {
 	DisplayName: 蜂巢发射器
 	Tooltip:
 		'''
-		发射多种瘟疫火箭，爆炸时会生成友好的蜜蜂
-		当使用可摧毁物块的弹药时火箭会破坏物块
+		以较高的散布发射四发导弹，命中敌人或物块时爆炸
+		蓄力发射会降低武器散布，并且会提高导弹的弹速
+		发射器蓄力至满后会发射一颗爆炸范围极大的核弹
 		'''
 }
 
@@ -1280,8 +1278,8 @@ ThermoclineBlaster: {
 	DisplayName: Thermocline Blaster
 	Tooltip:
 		'''
-		Alternates between firing bullets imbued with fire and ice
-		Any bullet type can be imbued when fired from this gun
+		交替发射烈焰子弹与寒霜子弹
+		这把枪可以使任何类型的子弹附带烈焰与寒霜效果
 		'''
 }
 
@@ -1359,8 +1357,8 @@ VernalBolter: {
 	DisplayName: Vernal Bolter
 	Tooltip:
 		'''
-		Fires a tight column of three arrows
-		Converts wooden arrows into sliding energy bolts
+		射出一列三支箭矢
+		将木箭转化为在物块表面滑行的能量箭矢
 		'''
 }
 
@@ -1383,9 +1381,9 @@ WildfireBloom: {
 	DisplayName: Wildfire Bloom
 	Tooltip:
 		'''
-		Charges up to emit a stream of energized flames and pairs of homing wildfire flares
-		Uses gel for ammo
-		50% chance to save ammo
+		蓄力发射一簇能量之火和两片追踪的野火
+		使用凝胶作为弹药
+		50% 几率节省弹药
 		'''
 }
 

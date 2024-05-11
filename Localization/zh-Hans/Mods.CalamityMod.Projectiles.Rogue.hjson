@@ -231,8 +231,8 @@ RegulusEnergy.DisplayName: 星神游龙之灵
 RegulusRiotProj.DisplayName: 星神游龙之混沌
 RotBallProjectile.DisplayName: 腐烂之球
 SacrificeProjectile.DisplayName: 牺牲之匕
-SamsaraSlicerProjectile.DisplayName: 回春环刃
-SamsaraSlicerSmallDisk.DisplayName: 回春环刃
+SamsaraSlicerProjectile.DisplayName: Samsara Slicer
+SamsaraSlicerSmallDisk.DisplayName: Samsara Slicer
 SandDollarProj.DisplayName: 沙币
 SandDollarStealth.DisplayName: 沙币
 SandslasherProj.DisplayName: 瀚漠之刃
@@ -265,6 +265,7 @@ ShroomerangSpore.DisplayName: 真菌孢子
 SkyBomberGas.DisplayName: 辐射云
 SkyfinNuke.DisplayName: 天翼核弹
 SkyStabberProj.DisplayName: 天羽尖钉球
+SlickCaneProjectile.DisplayName: 盗贼手杖
 SludgeSplotchProj1.DisplayName: 污泥斑点
 SludgeSplotchProj2.DisplayName: 污泥斑点
 SnapClamProj.DisplayName: 夹贝

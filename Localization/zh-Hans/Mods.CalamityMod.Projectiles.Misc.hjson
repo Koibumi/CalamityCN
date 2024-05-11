@@ -8,17 +8,21 @@ AnomalysNanogunMPFBDevastator.DisplayName: MPFB毁灭仪
 AnomalysNanogunPlasmaBeam.DisplayName: 离子光束
 FrequencyManipulatorEnergy.DisplayName: 脉冲能量
 FrequencyManipulatorProjectile.DisplayName: 变频器
+GalvanizingGlaiveProjectile.DisplayName: 磁能分割刀
+GatlingLaserProj.DisplayName: 多管激光枪
 GatlingLaserShot.DisplayName: 多管机关枪
 GaussEnergy.DisplayName: 高斯能量
 GaussFlux.DisplayName: 高斯流能
 GaussPistolShot.DisplayName: 高斯电能弹
 GaussRifleBlast.DisplayName: 电泳冲击波
 GaussRifleExplosion.DisplayName: 电磁暴
+HydraulicVoltCrasherProjectile.DisplayName: 液压伏冲器
 LaserRifleShot.DisplayName: 激光步枪
 MassivePlasmaExplosion.DisplayName: 等离子爆炸
 MountedScannerLaser.DisplayName: 红色死光
 MountedScannerSummon.DisplayName: 架式扫射机
 PhaseslayerBeam.DisplayName: 热熔光刃
+PhaseslayerProjectile.DisplayName: 相位剑
 PlasmaCasterShot.DisplayName: 血浆束
 PlasmaGrenadeProjectile.DisplayName: 等离子手雷
 PlasmaGrenadeSmallExplosion.DisplayName: 等离子爆炸
@@ -29,7 +33,6 @@ PulseRifleShot.DisplayName: 脉冲束
 PulseTurret.DisplayName: 脉冲炮塔
 PulseTurretShot.DisplayName: 脉冲弹
 SnakeEyesSummon.DisplayName: 蛇眼
-SnakeEyesProjectile.DisplayName: 无法逃避的能量矢
 StarSwallowerAcid.DisplayName: 酸
 StarSwallowerSummon.DisplayName: 宠物青蛙
 SystemBaneLightning.DisplayName: 电磁束
@@ -42,6 +45,7 @@ UnstableMatter.DisplayName: 不稳定物质
 VoltageStream.DisplayName: 高压电流
 WavePounderBoom.DisplayName: 震荡波
 WavePounderProjectile.DisplayName: 震波炸弹
+SnakeEyesProjectile.DisplayName: 无法逃避的能量矢
 // Environmental
 AcidDrop.DisplayName: 酸液滴
 BrimstoneGeyser.DisplayName: 烟
