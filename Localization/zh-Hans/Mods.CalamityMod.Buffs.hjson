@@ -634,7 +634,7 @@ AbyssalMadness: {
 
 AdrenalineMode: {
 	DisplayName: 肾上腺素
-	Description: 总伤害翻3倍。可通过使用其他物品来使该加成增加至3.45倍。
+	Description: 总伤害翻2.5倍。可通过使用其他物品来使该加成增加至3.1倍。
 }
 
 Afflicted: {
@@ -754,7 +754,7 @@ HallowedRuneRegeneration: {
 }
 
 Haste: {
-	DisplayName: Haste
+	DisplayName: 时空提速
 	Description: 移动速度与加速度提升
 }
 
