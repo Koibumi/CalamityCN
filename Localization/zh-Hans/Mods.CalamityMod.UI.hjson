@@ -332,13 +332,13 @@ Communication: {
 		Inquiry: Dragon Aerie
 		Response:
 			'''
-			我对巨龙天巢了解甚少，亚利姆坚决要保护它。在最近的历史中，只有他和亚狨踏入过那里，而他们两个无一愿意分享天巢的细节。\n
+			我对巨龙天巢了解甚少，亚利姆坚决要保护它。在最近的历史中，只有他和犽戎踏入过那里，而他们两个无一愿意分享天巢的细节。\n
 
 			哪怕我胆敢承受亚利姆的怒火，我也没法调查天巢。为了定位它的位置，我已经检索了这个世界的大地和天空一遍又一遍。或许它可以避开观测，用某种伪装方式什么的。它也有可能只是存在于传统空间之外，比如某种袖珍空间。但无论是哪种情况，用我目前的方法探测它的难度都会大大增加。\n
 
 			但我确实知道的是，巨龙天巢是一座大的不同寻常的空岛，是金源巨龙神圣的家乡。作为某种宗教场所或圣地，鲜有他人被允许踏上那块土地。\n
 			             
-			那儿也是金源巨龙安息的地方，为亚狨复活他们做准备。考虑到金源巨龙在天巢复生的事是早在历史诞生之时就被广泛认可的事实，那座空岛至少有2000岁，亚狨本龙差不多也是这个年龄。\n
+			那儿也是金源巨龙安息的地方，为犽戎复活他们做准备。考虑到金源巨龙在天巢复生的事是早在历史诞生之时就被广泛认可的事实，那座空岛至少有2000岁，犽戎本龙差不多也是这个年龄。\n
 
 			考虑到金源巨龙非凡的力量和巨龙天巢的神圣性，我不禁陷入了沉思：是巨龙天巢让金源巨龙强大，还是巨龙天巢因为金源巨龙的长期存在而变得充满力量？也许更重要的是，到底是什么东西让它们在同类被追杀时依然选择离开本该安全的巨龙天巢？我热切地期待着揭开这些谜团。
 			'''
@@ -348,19 +348,19 @@ Communication: {
 		Inquiry: The Brimstone Witch
 		Response:
 			'''
-			The Witch was an unexpected ally in the final stages of the Crusade. For most of the campaign, I was undoubtedly Yharim's greatest asset, but that changed when she arrived. Her flames burned hotter than my most powerful furnace, and her desire to torch the Godseeker's enemies surpassed even my passion for creation.\n
+			女巫在圣战最后阶段才加入，是个未曾预料的盟友。在战争的大部分时候，我都无疑是亚利姆最重要的资产，但这一点在她到来后就变了。她的火焰比我最强大的熔炉还要炽热，而她焚尽寻神者之敌的渴望也远超我对创造的热情。\n
 
-			The Archmage was firmly opposed to her fighting, though Yharim would often send her on covert missions while Permafrost attended to other matters. Between these excursions, however, he attempted to act as a guardian and teach the young Witch how to control her magic. These sessions were the most perplexing and simultaneously the most fascinating portions to observe.\n
+			大法师坚决反对教她如何战斗，但亚利姆时常会在大法师无暇从其它事务中抽身时向她派发隐秘任务。但抛去这些干预不谈，他一直在扮演一名守护者的角色，教导年幼的女巫如何控制她的魔法。这段时间最令人困惑，但同样，也最令人着迷。\n
 
-			Calamitas was shown to only have a slightly above average grasp on the principles of magic, being unable to cast complex spells without them overloading and bursting into flame. Yet when wielding the brimstone fires of the underworld, she commanded power that rivaled Yharim's. My surveillance over Azafure never signaled anyone who lived there having such power, and a mere child certainly could not hide it. Furthermore, she was no goddess, or Yharim would have slain her at any cost.\n
+			灾厄对魔法原理展现出的理解只比平均水平高出那么一点，她无法施放复杂的法术，否则法术就会过载并化作火焰。可在她舞弄地狱的硫磺火时，她所控制的力量足以匹敌亚利姆。在我监视阿萨福勒的时间里，我从未发现过有谁拥有如此强大的力量，何况一个纯粹的孩童根本不可能将之隐藏。再者，她不是神明，不然亚利姆会不计一切代价杀死她。\n
 
-			I therefore hypothesized that she was not born with this power. After combing the archives for records of similar magics, I eventually traced it back to the Brimstone Elemental herself. The arcane signatures were nigh identical, with a few key differences.\n
+			因此，我假设她的力量并非与生俱来。在仔细检索了类似魔法的记录档案后，我的线索最终落在了硫磺火元素身上。二者的奥术表征高度相同，但又有几处关键区别。\n
 
-			After the Incineration, however, my research came to an abrupt and unplanned end. The Archmage had already chosen to desert Yharim, and Calamitas followed in his footsteps shortly thereafter. It was then I would get my final official order from Yharim: replicate the Witch's power. My focus at the time was the Plague, so initially I made minimal progress. Soon after, the Godseeker and I went our separate ways.\n
+			然而我的研究最后随着大蒸发戛然而止。大法师早已选择抛弃亚利姆，而灾厄没过多久也决定随其后。也就是在那时亚利姆向我发布了最后一个正式命令：复制女巫的力量。当时我的研究重心是瘟疫，所以我基本没有取得什么成果。没过多久，我和寻神者就分道扬镳了。\n
 
-			Some years later, even without Yharim to order me, I returned to the project in an attempt to create a flame that burned hot enough for an early prototype of my forge. In order to directly replicate her power, I began work on making a clone of the witch made from traces of her DNA I had gathered over the years. Though the clone was a technical success, it showed no signs of being able to wield Calamitas' signature magic.\n
+			之后的几年，哪怕亚利姆没有命令我，我还是转而创造起温度能与我锻炉的早期原型相媲美的火焰。为了复制她的力量，我使用多年来从女巫那儿收集的DNA来创造一个克隆体。尽管克隆体取得了技术上的成功，它丝毫没有可以使用灾厄标志性魔法的迹象。\n
 
-			While this did prove that the Witch's power was not natural, I had no means of tracking its source. Soon after the project's underwhelming conclusion, security reports indicated that Calamitas herself broke into the laboratory that the clone was stored in and released it. Interestingly, it became capable of wielding a tiny fraction of her very own brimstone magic soon after. To this day, I ponder the implications of these events.
+			尽管这确实证明女巫的力量并非天生，我也没有手段进行溯源了。项目以失败告终后不久，我在一份安保报告中发现灾厄本人闯入了储存克隆体的实验室，释放了它。有趣的是，不久后它就可以释放出灾厄本人硫磺火魔法的极小部分。时至今日，我依然在思索这些事件的关联。
 			'''
 	}
 
@@ -368,19 +368,19 @@ Communication: {
 		Inquiry: The Devourer of Gods
 		Response:
 			'''
-			No being I have seen is as enigmatic as the Nameless Serpent. Nothing in our world even vaguely resembled his body structure, genome, or phylogenetic tree. I began many studies on his nature, all of which quickly failed for lack of a familiar aspect to make comparisons to. Even his basic biological functions proved to be near-incomprehensible.\n
+			我从未见过比无名巨蛇还要神秘的存在。无论是他的身体结构、基因组，还是进化树，都与我们世界中的一切大相径庭。我对他的特征开展了许多研究，但所有研究都由于缺乏与熟知指标的对照而很快以失败告终。就连他的基础生物功能都近乎是无法理解的。\n
 
-			It did not help that many of his claims about himself were unfounded. Creating such a stable portal like the one in the Dungeon is a particularly absurd example, as none of his portals have ever been so stable even with my aid.\n
+			他对自己的描述也是毫无根据，起不到一点作用。创造出和地牢里那扇一样稳定的传送门就是一个典型的荒谬例子。就算有我的帮助，他创造出的传送门也从来没有能和那扇一样稳定的。\n
 
-			Some number of years after the Serpent joined Yharim's forces, an even more confusing addition to the equation was detected: the other, smaller serpent that you refer to as the Storm Weaver. You may have heard the claim that it is of the same species as the Devourer. Any level of in-depth inspection reveals that to be false.\n
+			巨蛇加入亚利姆军队的几年后，又出现了一个新的混沌因素了：另一条更小的，被你称作风暴编织者的蛇。你或许听说过它和吞噬者属于同一物种，但只要稍微深入研究一下就知道那根本是无稽之谈。\n
 
-			Setting aside the similar body shape, basic x-rays proved that their endoskeletons were entirely different, and the difference in size tells all else needed. In fact, from what little I have grasped about both Serpents' biology, the Storm Weaver may have been older than the Devourer despite the sheer difference in power and size. However, I am not confident enough in this conjecture to state it as fact.\n
+			基础的X光扫描显示，二者只是有着相似的身体结构，它们的内骨骼完全不同，尺寸的差异说明了一切。事实上，就我对两条巨蛇生物学特征的浅薄了解，就算二者的力量和大小完全不同，风暴编织者可能比吞噬者更加年长。不过，我还没有将这个猜想作为事实陈述的自信。\n
 
-			Despite my issues with the Serpent, his assistance on the battlefield and with resource acquisition was welcome. One of the few unquestionable truths about him was the grandeur of his title. I still make use of smelted Cosmilite to this day in numerous applications, and I utilize the raw material as a metallurgical component of various alloys such as the Exo Mechanical Trio's plating.\n
+			抛却我对巨蛇的疑惑不谈，他在战场上的表现和取得资源的能力确实帮了大忙。他名副其实的崇高头衔，是他身上为数不多无需怀疑的事实。时至今日我依然将冶炼过的宇宙锭应用于多种场合，将这种原材料作为多种合金的冶金成分，比如星流巨械的装甲板。\n
 
-			Yet the most profound mystery remains: the means via which the Devourer's body processed or disposed of godly essence. The energy is not absorbed or entirely converted, but scans for traces of the essence showed that it was not stored inside him for other purposes. All signs indicated that godly essence simply vanished shortly after he consumed it.\n
+			但是，最为深奥的谜团依然存在：吞噬者的身体到底是通过何种方式处理或清除神明精华的。能量并没有被吸收或是彻底转化，但对精华痕迹的扫描显示，他也没有为了其它什么目的而将精华储存在体内。一切迹象表明，他吞噬了神明精华后，这些精华就凭空消失了。\n
 
-			Unless he blatantly defied the laws of thermodynamics, which is most unlikely, the mass-energy must have been transferred elsewhere. Where to, I am not sure. I doubt this matter will ever be resolved now that the Devourer has been culled.
+			除非他毫不遮掩地违反了热力学定律（这绝无可能），不然这么庞大的能量肯定是被转移到了别的地方。至于是什么地方。我不确定。在吞噬者已殁的当下，这个不解之谜可能永远也不会有定论了。
 			'''
 	}
 
@@ -388,13 +388,13 @@ Communication: {
 		Inquiry: Distortion
 		Response:
 			'''
-			Despite my efforts to gain information from the Devourer when forging his armor, I know very little about the Distortion. What knowledge I do possess was still seemingly deemed to be too much by the serpent. He was fiercely suspicious of my questioning, yet did not interfere with my own limited attempts to probe the dimension myself.\n
+			尽管我在锻造吞噬者的盔甲时努力从他那里获取信息，但我确实对扭曲了解甚少。我知道的东西在那条巨蛇看来似乎太多了，他对我的提问抱有高度警戒，却并不干涉我本人对那个维度的有限探查。\n
 
-			All inorganic material in the Distortion is extraordinarily old, with radiometric dating failing on all 116 samples collected. Given the formations that are present, it is a safe assumption that most matter in the Distortion has existed for far longer than life on this world.\n
+			根据对所有116份收集到的样本进行放射性测年法得到的结果来看，扭曲的一切无机物都出奇古老。从已知的组成物来看，我大胆推测扭曲扭曲的绝大部分物质的存在时间都远超这个世界的生命。\n
 
-			Despite most of the local life forms displaying behavior similar to highly intelligent creatures on our own planet, electroscopy and dissection of the few collected specimens revealed that none of them possess neural structures of a caliber needed for independent sapience. This evidence, along with observations of similar behavioral patterns between different species, leads me to theorize that the bulk of the creatures of the Distortion merely express intelligence because they serve as limbs of a central hive mind.\n
+			尽管大多数本土生物的行为表现与我们星球上的高智商生命所相似，但对收集到的少数标本进行电镜检查和解剖后发现，它们的神经结构大小都不足以发展出独立智慧。根据这些证据，再加上对不同物种之间类似行为模式的观察，我作出了一个推测：大部分扭曲生物之所以能表现出智慧，只是因为它们充当了某些中央蜂巢思维的肢体。\n
 
-			Quite how this is the case is not clear to me. It should not be possible to remotely grant thought capacity to an otherwise simplistic organism. Doubly so when one considers this effect applies to an unknowable number of creatures, all expressing intelligence simultaneously and working in concert with each other to some undisclosed goal.
+			我不清楚这是怎么一回事。给一个极度简单的生物赋予思维本该是无稽之谈。而如果我们再考虑到这种效应发生在了数量未知的生物身上，令它们同时表现出智慧，相互协作，以达到某种无可言说的目标，那就更不可能了。
 			'''
 	}
 
