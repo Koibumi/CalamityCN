@@ -93,7 +93,7 @@ HolyFireBullet: {
 }
 
 HailstormBullet: {
-	DisplayName: Hailstorm Bullet
+	DisplayName: 冰雹风暴弹
 	Tooltip:
 		'''
 		灌注了强力冰魔法的子弹
@@ -151,7 +151,7 @@ RubberMortarRound: {
 }
 
 SproutingArrow: {
-	DisplayName: Sprouting Arrow
+	DisplayName: 春芽箭
 	Tooltip:
 		'''
 		射出一支迅速一分为二的能量箭矢
@@ -174,7 +174,7 @@ VanquisherArrow: {
 }
 
 VeriumBolt: {
-	DisplayName: 煦春弓
+	DisplayName: 钫箭
 	Tooltip:
 		'''
 		命中时标记敌人，短时间后造成额外伤害
