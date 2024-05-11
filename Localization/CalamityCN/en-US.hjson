@@ -24,6 +24,7 @@ Mods: {
 				zh.Label: Simplified Chinese
 				hk.Label: Traditional Chinese (Hong Kong)
 				tw.Label: Traditional Chinese (Taiwan)
+				Tooltip: ""
 			}
 		}
 	}

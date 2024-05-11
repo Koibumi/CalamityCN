@@ -719,7 +719,7 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Moderately reduces breath loss in the abyss", "适当缓解深渊造成的呼吸困难");
                 }
 
-                if (item.type == itemID.UltrabrightHelmet || item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
+                if (item.type == ItemID.UltrabrightHelmet || item.type == ItemID.JellyfishNecklace || item.type == ItemID.JellyfishDivingGear || item.type == ItemID.ArcticDivingGear || item.type == ItemID.ShadowOrb || item.type == ItemID.CrimsonHeart || item.type == ItemID.MagicLantern || item.type == ItemID.Magiluminescence || item.type == ItemID.MiningHelmet)
                 {
                     tooltips.ReplaceText("Provides a small amount of light in the abyss", "在深渊中提供少量光照");
                 }

@@ -1,0 +1,315 @@
+// Critters
+AndroombaItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
+	Tooltip:
+		'''
+		右键扫除机以嵌入溶液
+		当嵌入溶液后，扫除机会开始传播其所含物
+		'''
+}
+
+BabyCannonballJellyfishItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName}"
+	Tooltip: ""
+}
+
+BabyFlakCrabItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName}"
+	Tooltip: ""
+}
+
+BabyGhostBellItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName}"
+	Tooltip: ""
+}
+
+NanodroidDysfunctionalItem: {
+	DisplayName: 功能失调的纳米机器人
+	Tooltip: ""
+}
+
+NanodroidItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName}"
+	Tooltip: ""
+}
+
+NanodroidPlagueGreenItem: {
+	DisplayName: 绿色瘟疫纳米机器人
+	Tooltip: ""
+}
+
+NanodroidPlagueRedItem: {
+	DisplayName: 红色瘟疫纳米机器人
+	Tooltip: ""
+}
+
+PiggyItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
+	Tooltip: ""
+}
+
+RepairUnitItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName}"
+	Tooltip: ""
+}
+
+SeaMinnowItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName}"
+	Tooltip: ""
+}
+
+TwinklerItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
+	Tooltip: ""
+}
+
+// Permanent Boosters
+BloodOrange: {
+	DisplayName: 血橙
+	Tooltip:
+		'''
+		永久增加{0}点最大生命值
+		在消耗最大数量生命果后方可使用且仅能使用一次
+		它很甜，也很香
+		'''
+}
+
+CelestialOnion: {
+	DisplayName: 天体洋葱
+	Tooltip:
+		'''
+		永久增加1格饰品栏
+		在大师模式下使用此物品没有任何效果
+		外星的力量激荡在它的层叠之中
+		'''
+}
+
+CometShard: {
+	DisplayName: 彗星碎片
+	Tooltip:
+		'''
+		永久增加{0}点最大魔力值
+		在消耗最大数量魔力水晶后方可使用且仅能使用一次
+		'''
+}
+
+Dragonfruit: {
+	DisplayName: 龙果
+	Tooltip:
+		'''
+		永久增加{0}点最大生命值
+		在消耗最大数量生命果后方可使用且仅能使用一次
+		尽管味道有些寡淡，但这味道绝对堪称是种全新的体验
+		'''
+}
+
+Ectoheart: {
+	DisplayName: 幽魂之心
+	Tooltip:
+		'''
+		永久增加肾上腺素模式20%伤害和5%伤害减免
+		复仇模式掉落
+		'''
+}
+
+Elderberry: {
+	DisplayName: 旧神浆果
+	Tooltip:
+		'''
+		永久增加{0}点最大生命值
+		在消耗最大数量生命果后方可使用且仅能使用一次
+		摸上去像是土做的，尝起来酸甜香浓
+		'''
+}
+
+ElectrolyteGelPack: {
+	DisplayName: 电磁凝胶包
+	Tooltip:
+		'''
+		永久增加肾上腺素模式20%伤害和5%伤害减免
+		复仇模式掉落
+		'''
+}
+
+EtherealCore: {
+	DisplayName: 飘渺之核
+	Tooltip:
+		'''
+		永久增加{0}点最大魔力值
+		在消耗最大数量魔力水晶后方可使用且仅能使用一次
+		'''
+}
+
+InfernalBlood: {
+	DisplayName: 地狱之血
+	Tooltip:
+		'''
+		永久增加1秒暴怒模式持续时间
+		复仇模式掉落
+		'''
+}
+
+MiracleFruit: {
+	DisplayName: 奇迹之果
+	Tooltip:
+		'''
+		永久增加{0}点最大生命值
+		在消耗最大数量生命果后方可使用且仅能使用一次
+		令人神清气爽，甚至好像略带薄荷的香气
+		'''
+}
+
+MushroomPlasmaRoot: {
+	DisplayName: 蘑菇根质
+	Tooltip:
+		'''
+		永久增加1秒暴怒模式持续时间
+		复仇模式掉落
+		'''
+}
+
+PhantomHeart: {
+	DisplayName: 幻影之心
+	Tooltip:
+		'''
+		永久增加{0}点最大魔力值
+		在消耗最大数量魔力水晶后方可使用且仅能使用一次
+		'''
+}
+
+RedLightningContainer: {
+	DisplayName: 电刑之容
+	Tooltip:
+		'''
+		永久增加1秒暴怒模式持续时间
+		复仇模式掉落
+		'''
+}
+
+StarlightFuelCell: {
+	DisplayName: 星光能量核心
+	Tooltip:
+		'''
+		永久增加肾上腺素模式20%伤害和5%伤害减免
+		复仇模式掉落
+		'''
+}
+
+// Spawn Blockers
+AntiCystOintment: {
+	DisplayName: 抗囊肿药膏
+	Tooltip: 标记为收藏后，可使血肉囊不再生成
+}
+
+AntiTumorOintment: {
+	DisplayName: 抗肿瘤药膏
+	Tooltip: 标记为收藏后，可使腐化肿瘤不再生成
+}
+
+BleachBall: {
+	DisplayName: 白色水球
+	Tooltip: 标记为收藏后，可使渊海灾虫不再自然生成
+}
+
+BrokenWaterFilter: {
+	DisplayName: 破损净水器
+	Tooltip: 标记为收藏后，可使酸雨事件不再自然生成
+}
+
+SirenproofEarMuffs: {
+	DisplayName: 防海妖耳塞
+	Tooltip: 标记为收藏后，可使阿娜希塔不再生成
+}
+
+VoodooDemonVoodooDoll: {
+	DisplayName: 巫毒恶魔的巫毒娃娃
+	Tooltip: 标记为收藏后，可使巫毒恶魔不再生成
+}
+
+// Uncategorized
+AlicornonaStick: {
+	DisplayName: 棒棒天角兽
+	Tooltip: “恭喜！你赢了！这是一根有我头的棍子”
+}
+
+BallAndChain: {
+	DisplayName: 球镣
+	Tooltip:
+		'''
+		标记为收藏后，可使你的所有冲刺效果无效化
+		“不堪重负……”
+		'''
+}
+
+BrimstoneLocus: {
+	DisplayName: 硫火魔珠
+	Tooltip:
+		'''
+		[c/C61B40:“我不仅可以用强大的魔法增强你的装备，还可以引出某些物品真正的死灵之力，]
+		[c/C61B40:将它们转化为全新的形态。]
+		[c/C61B40:当该物品被放在你的背包中时，能够进行死灵灌注的武器装备会被标出。”]
+		'''
+}
+
+MomentumCapacitor: {
+	DisplayName: 动量电容器
+	Tooltip:
+		'''
+		当使用动量电容器时，
+		你的最高速度会持续且不可控的增加
+		此效果在Boss存活时失效
+		'''
+}
+
+NormalityRelocator: {
+	DisplayName: 常态定位器
+	Tooltip:
+		'''
+		按下 [KEY] 传送至鼠标位置
+		传送后的30帧内会使下落速度翻倍
+		受到混沌状态减益的影响时无法进行传送
+		放在物品栏中时仍然有效
+		“眨眼即至！”
+		'''
+}
+
+RelicOfConvergence: {
+	DisplayName: 聚魂圣物
+	Tooltip:
+		'''
+		创造一块亵渎水晶并充能
+		充能时会减速玩家
+		充能完成后会治疗玩家70点生命值
+		'''
+}
+
+Rock: {
+	DisplayName: 古恒石
+	Tooltip:
+		'''
+		战斗已然结束，而尘埃尚未落定
+		在一个足以抹灭坚石的古恒之地，静坐着一位僧侣
+		他敢于质问过去，他敢于直面命运
+		“让过去成为永恒的真正代价到底是什么？为何我们永远受困于我们自己的未来？”
+		'''
+}
+
+SulphurousSeaWorldSideChanger: {
+	DisplayName: 硫海世界选边转换器
+	Tooltip:
+		'''
+		如果你的海洋被视为硫磺海，请生成并使用这个
+		当深渊损坏时也可以使用该物品修复
+		'''
+}
+
+SuperDummy: {
+	DisplayName: 大草人
+	Tooltip:
+		'''
+		生成一个大草人
+		每秒恢复百万生命值
+		受到造成持续伤害的减益时也不会死亡
+		右键点击灭杀所有大草人
+		'''
+}

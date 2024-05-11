@@ -1,0 +1,3580 @@
+FormattedBannerName: "{0}旗帜"
+FormattedBannerTooltip: "{$CommonItemTooltip.BannerBonus}{0}"
+
+AstralPylon: {
+	DisplayName: 星辉地晶塔
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+CragsPylon: {
+	DisplayName: 硫火崖晶塔
+	Tooltip:
+		'''
+		可以传送至另一个晶塔
+		硫火之崖的地理环境使得附近没有村民时玩家依然能够传送至此晶塔
+		只能在匹配的生物群落中放置且每个类型只能放置一个
+		'''
+}
+
+SulphurPylon: {
+	DisplayName: 硫磺海晶塔
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+SunkenPylon: {
+	DisplayName: 沉沦海晶塔
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+AbyssGravel: {
+	DisplayName: 深渊砾石
+	Tooltip: ""
+}
+
+Acidwood: {
+	DisplayName: 酸蚀木
+	Tooltip: ""
+}
+
+AerialiteBrick: {
+	DisplayName: 天蓝砖
+	Tooltip: ""
+}
+
+AstralBrick: {
+	DisplayName: 炫星砖
+	Tooltip: ""
+}
+
+AstralClay: {
+	DisplayName: 星幻粘土
+	Tooltip: ""
+}
+
+AstralDirt: {
+	DisplayName: 星幻土块
+	Tooltip: ""
+}
+
+AstralGrassSeeds: {
+	DisplayName: 星辉草种子
+	Tooltip: 在星幻土块上种植星辉草
+}
+
+AstralIce: {
+	DisplayName: 星幻冰雪块
+	Tooltip: ""
+}
+
+AstralMonolith: {
+	DisplayName: 星幻木材
+	Tooltip: ""
+}
+
+AstralSand: {
+	DisplayName: 星幻沙
+	Tooltip: ""
+}
+
+AstralSandstone: {
+	DisplayName: 星幻沙岩
+	Tooltip: ""
+}
+
+AstralSnow: {
+	DisplayName: 星幻雪块
+	Tooltip: ""
+}
+
+AstralStone: {
+	DisplayName: 星幻石块
+	Tooltip: ""
+}
+
+BrimstoneSlab: {
+	DisplayName: 硫火石板
+	Tooltip: ""
+}
+
+BrimstoneSlag: {
+	DisplayName: 硫磺火石砖
+	Tooltip: ""
+}
+
+CelestialRemains: {
+	DisplayName: 星界残骸
+	Tooltip: ""
+}
+
+CinderBlossomSeeds: {
+	DisplayName: 烬英草种子
+	Tooltip: 在焦灼遗骸上种植烬英草
+}
+
+CryonicBrick: {
+	DisplayName: 寒元砖
+	Tooltip: ""
+}
+
+AgedLaboratoryConsoleItem: {
+	DisplayName: 老旧实验室控制台
+	Tooltip: ""
+}
+
+AgedLaboratoryContainmentBoxItem: {
+	DisplayName: 老旧实验室密封箱
+	Tooltip: ""
+}
+
+AgedLaboratoryDisplayItem: {
+	DisplayName: 老旧实验室展柜
+	Tooltip: ""
+}
+
+AgedLaboratoryDoorItem: {
+	DisplayName: 老旧实验室大门
+	Tooltip: ""
+}
+
+AgedLaboratoryElectricPanelItem: {
+	DisplayName: 老旧实验室配电盘
+	Tooltip: ""
+}
+
+AgedLaboratoryScreenItem: {
+	DisplayName: 老旧实验室荧幕
+	Tooltip: ""
+}
+
+AgedLaboratoryServerItem: {
+	DisplayName: 老旧实验室服务器
+	Tooltip: ""
+}
+
+AgedLaboratoryTerminalItem: {
+	DisplayName: 老旧实验室终端机
+	Tooltip: ""
+}
+
+AgedReinforcedCrateItem: {
+	DisplayName: 老旧实验室板条箱
+	Tooltip: ""
+}
+
+AgedSecurityChest: {
+	DisplayName: 老旧安全箱
+	Tooltip: ""
+}
+
+ChargingStationItem: {
+	DisplayName: 充能站
+	Tooltip:
+		'''
+		使用能源电池以对嘉登造物进行充能
+		将物品和能源电池一起放入充能站中以进行充能
+		'''
+}
+
+HazardChevronPanels: {
+	DisplayName: 警示面板
+	Tooltip: ""
+}
+
+LabHologramProjectorItem: {
+	DisplayName: 实验室全息投影仪
+	Tooltip: ""
+}
+
+LaboratoryConsoleItem: {
+	DisplayName: 实验室控制台
+	Tooltip: ""
+}
+
+LaboratoryContainmentBoxItem: {
+	DisplayName: 实验室密封箱
+	Tooltip: ""
+}
+
+LaboratoryDisplayItem: {
+	DisplayName: 实验室展柜
+	Tooltip: ""
+}
+
+LaboratoryDoorItem: {
+	DisplayName: 实验室大门
+	Tooltip: ""
+}
+
+LaboratoryElectricPanelItem: {
+	DisplayName: 实验室配电盘
+	Tooltip: ""
+}
+
+LaboratoryPanels: {
+	DisplayName: 实验室板块
+	Tooltip: ""
+}
+
+LaboratoryPipePlating: {
+	DisplayName: 实验室金属管道
+	Tooltip: ""
+}
+
+LaboratoryPlating: {
+	DisplayName: 实验室镀板
+	Tooltip: ""
+}
+
+LaboratoryScreenItem: {
+	DisplayName: 实验室荧幕
+	Tooltip: ""
+}
+
+LaboratoryServerItem: {
+	DisplayName: 实验室服务器
+	Tooltip: ""
+}
+
+LaboratoryShelf: {
+	DisplayName: 实验室架
+	Tooltip: ""
+}
+
+LaboratoryTerminalItem: {
+	DisplayName: 实验室终端机
+	Tooltip: ""
+}
+
+PowerCellFactoryItem: {
+	DisplayName: 能源电池工厂
+	Tooltip:
+		'''
+		持续产出嘉登能源电池
+		每15秒产出一枚电池
+		'''
+}
+
+ReinforcedCrateItem: {
+	DisplayName: 加固板条箱
+	Tooltip: ""
+}
+
+RustedPipes: {
+	DisplayName: 生锈管道
+	Tooltip: ""
+}
+
+RustedPlating: {
+	DisplayName: 生锈镀层
+	Tooltip: ""
+}
+
+RustedShelf: {
+	DisplayName: 生锈架
+	Tooltip: ""
+}
+
+SecurityChest: {
+	DisplayName: 安全箱
+	Tooltip: ""
+}
+
+EutrophicGlass: {
+	DisplayName: 富养玻璃
+	Tooltip: ""
+}
+
+EutrophicSand: {
+	DisplayName: 富营养沙
+	Tooltip: ""
+}
+
+HardenedEutrophicSand: {
+	DisplayName: Hardened Eutrophic Sand
+	Tooltip: ""
+}
+
+AbyssTreasureChest: {
+	DisplayName: 远古宝藏箱
+	Tooltip: ""
+}
+
+AlgalPrismTorch: {
+	DisplayName: 藻类棱晶火把
+	Tooltip: 可放置于水中
+}
+
+AstralBeaconItem: {
+	DisplayName: 星辉信标
+	Tooltip: 以特殊的祭品召唤星神游龙
+}
+
+AstralChest: {
+	DisplayName: 星幻箱
+	Tooltip: ""
+}
+
+AstralTorch: {
+	DisplayName: 星辉火把
+	Tooltip: ""
+}
+
+AuricToilet: {
+	DisplayName: 圣金马桶
+	Tooltip:
+		'''
+		曾为神明所用
+		对所有人来说坐在这上面就是奇耻大辱
+		'''
+}
+
+BabyCannonballJellyfishBowl: {
+	DisplayName: 小炮弹水母碗
+	Tooltip: ""
+}
+
+BabyFlakCrabCage: {
+	DisplayName: 小高口蟹笼
+	Tooltip: ""
+}
+
+BabyGhostBellJar: {
+	DisplayName: 小鬼铃水母罐
+	Tooltip: ""
+}
+
+CirrusCouch: {
+	DisplayName: Cirrus Couch
+	Tooltip: This shouldn't exist...
+}
+
+AquaticScourgeRelic: {
+	DisplayName: 渊海灾虫圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+AstrumAureusRelic: {
+	DisplayName: 白金星舰圣物
+	Tooltip: ""
+}
+
+AstrumDeusRelic: {
+	DisplayName: 星神游龙圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+BrimstoneElementalRelic: {
+	DisplayName: 硫磺火元素圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+CalamitasCloneRelic: {
+	DisplayName: 灾厄之影圣物
+	Tooltip: ""
+}
+
+CalamitasRelic: {
+	DisplayName: 灾厄圣物
+	Tooltip: ""
+}
+
+CeaselessVoidRelic: {
+	DisplayName: 无尽虚空圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+CrabulonRelic: {
+	DisplayName: 菌生蟹圣物
+	Tooltip: ""
+}
+
+CragmawMireRelic: {
+	DisplayName: 峭咽潭圣物
+	Tooltip: ""
+}
+
+CryogenRelic: {
+	DisplayName: 极地之灵圣物
+	Tooltip: ""
+}
+
+DesertScourgeRelic: {
+	DisplayName: 荒漠灾虫圣物
+	Tooltip: ""
+}
+
+DevourerOfGodsRelic: {
+	DisplayName: 神明吞噬者圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+DraedonRelic: {
+	DisplayName: 嘉登圣物
+	Tooltip: ""
+}
+
+DragonfollyRelic: {
+	DisplayName: 痴愚金龙圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+GiantClamRelic: {
+	DisplayName: 巨像蛤圣物
+	Tooltip: ""
+}
+
+GreatSandSharkRelic: {
+	DisplayName: 旱海狂鲨圣物
+	Tooltip: ""
+}
+
+HiveMindRelic: {
+	DisplayName: 腐巢意志圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+LeviathanAnahitaRelic: {
+	DisplayName: 利维坦和阿娜希塔圣物
+	Tooltip: ""
+}
+
+MaulerRelic: {
+	DisplayName: 渊海狂鲨圣物
+	Tooltip: ""
+}
+
+NuclearTerrorRelic: {
+	DisplayName: 辐核骇兽圣物
+	Tooltip: ""
+}
+
+OldDukeRelic: {
+	DisplayName: 硫海遗爵圣物
+	Tooltip: ""
+}
+
+PerforatorsRelic: {
+	DisplayName: 血肉宿主圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+PlaguebringerGoliathRelic: {
+	DisplayName: 瘟疫使者歌莉娅圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+PolterghastRelic: {
+	DisplayName: 噬魂幽花圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+ProfanedGuardiansRelic: {
+	DisplayName: 亵渎守卫圣物
+	Tooltip: ""
+}
+
+ProvidenceRelic: {
+	DisplayName: 亵渎天神圣物
+	Tooltip: ""
+}
+
+RavagerRelic: {
+	DisplayName: 毁灭魔像圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+SignusRelic: {
+	DisplayName: 神之使徒，西格纳斯圣物
+	Tooltip: 对其未来的模样的一瞥……
+}
+
+SlimeGodRelic: {
+	DisplayName: 史莱姆之神圣物
+	Tooltip: ""
+}
+
+StormWeaverRelic: {
+	DisplayName: 风暴编织者圣物
+	Tooltip: 对其可能的未来的一瞥……
+}
+
+YharonRelic: {
+	DisplayName: 犽戎圣物
+	Tooltip: 对其未来的模样的一瞥……
+}
+
+ChaosCandle: {
+	DisplayName: 混乱蜡烛
+	Tooltip: 这个蜡烛的存在大大激怒了附近的敌人
+}
+
+CorruptionEffigy: {
+	DisplayName: 腐化雕像
+	Tooltip:
+		'''
+		放置后，使附近的玩家获得10%移动速度和暴击率加成
+		附近的玩家同时会损失5%伤害减免
+		'''
+}
+
+AltarOfTheAccursedItem: {
+	DisplayName: 诅咒祭坛
+	Tooltip:
+		'''
+		在其上使用灾厄尘以召唤硫火女巫
+		以祭坛为中心创造一个大型方型场地
+		在整场战斗中，拾取红心只会回复一半的生命值
+		离开场地会使女巫狂暴
+		{$CommonItemTooltip.SpecialCrafting}
+		'''
+}
+
+AncientAltar: {
+	DisplayName: 远古祭坛
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+AshenAltar: {
+	DisplayName: 灰烬祭坛
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+BotanicPlanter: {
+	DisplayName: 植物培养器
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+CosmicAnvilItem: {
+	DisplayName: 星宇砧
+	Tooltip:
+		'''
+		超凡之砧，能够承受恒星崩塌的压力
+		具有之前所有等级的砧的功能
+		'''
+}
+
+DraedonsForge: {
+	DisplayName: 嘉登熔炉
+	Tooltip:
+		'''
+		由无尽星流能源驱动的脉冲格纳米锻造厂
+		具有大部分主要制作站的功能
+		'''
+}
+
+EffulgentManipulator: {
+	DisplayName: 闪耀操纵机
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+EutrophicShelf: {
+	DisplayName: 富养制造架
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+MonolithAmalgam: {
+	DisplayName: 星幻柱综合体
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+PlagueInfuser: {
+	DisplayName: 瘟疫灌注器
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+ProfanedCrucible: {
+	DisplayName: 亵渎坩埚
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+StaticRefiner: {
+	DisplayName: 静电精炼机
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+VoidCondenser: {
+	DisplayName: 虚空压缩机
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+WulfrumLabstationItem: {
+	DisplayName: 钨钢实验桌
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+CrimsonEffigy: {
+	DisplayName: 血腥雕像
+	Tooltip:
+		'''
+		放置后，使附近的玩家获得15%伤害和10点防御加成
+		附近的玩家同时会损失10%最大生命值
+		'''
+}
+
+ThankYouPainting: {
+	DisplayName: Thank You
+	Tooltip:
+		'''
+		感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！
+		这幅画的大小无法容纳整个团队
+		长按SHIFT键可以查看以前和当前的开发者
+		'''
+}
+
+EffigyOfDecay: {
+	DisplayName: 腐朽雕像
+	Tooltip:
+		'''
+		放置后，使附近的玩家获得水下呼吸能力
+		此效果在深渊中时失效
+		附近的玩家免疫硫磺海剧毒
+		'''
+}
+
+AbyssFountainItem: {
+	DisplayName: 深渊喷泉
+	Tooltip: ""
+}
+
+AstralFountainItem: {
+	DisplayName: 星辉喷泉
+	Tooltip: ""
+}
+
+BrimstoneLavaFountainItem: {
+	DisplayName: Brimstone Lava Fountain
+	Tooltip: ""
+}
+
+SulphurousFountainItem: {
+	DisplayName: 硫磺喷泉
+	Tooltip: ""
+}
+
+SunkenSeaFountain: {
+	DisplayName: 沉沦喷泉
+	Tooltip: ""
+}
+
+GloomTorch: {
+	DisplayName: 幽匿火把
+	Tooltip: ""
+}
+
+LanternCenter: {
+	DisplayName: 灯笼中枢
+	Tooltip: 用庆典灯笼点亮夜空
+}
+
+AstralProjector: {
+	DisplayName: Astral Projector
+	Tooltip: "'Control a small portion of the Astral Infection's influence.'"
+}
+
+BlueDistortedMonolith: {
+	DisplayName: Blue Distorted Monolith
+	Tooltip: "'Create a localized rupture in the fabric of reality.'"
+}
+
+BossRushMonolith: {
+	DisplayName: Boss Rush Monolith
+	Tooltip: "'Bring forth the end.'"
+}
+
+DeepSeaAnchor: {
+	DisplayName: Deep Sea Anchor
+	Tooltip: "'Dampen the air with heavy amounts of brine.'"
+}
+
+DraconicIncense: {
+	DisplayName: Draconic Incense
+	Tooltip: "'Ignite the air with dragonfire.'"
+}
+
+ExoObelisk: {
+	DisplayName: Exo Obelisk
+	Tooltip: "'Energize the atmosphere with exo energy.'"
+}
+
+FrigidMonolith: {
+	DisplayName: Frigid Monolith
+	Tooltip: "'Enchant the sky with frosty auroras.'"
+}
+
+PlagueHumidifier: {
+	DisplayName: Plague Humidifier
+	Tooltip: "'Spread light amounts of the plague through the air.'"
+}
+
+PurpleDistortedMonolith: {
+	DisplayName: Purple Distorted Monolith
+	Tooltip: "'Create a localized rupture in the fabric of reality.'"
+}
+
+NavyPrismTorch: {
+	DisplayName: 富营养棱晶火把
+	Tooltip: 可放置于水中
+}
+
+PiggyCage: {
+	DisplayName: 猪猪笼
+	Tooltip: ""
+}
+
+RefractivePrismTorch: {
+	DisplayName: 异光棱晶火把
+	Tooltip: 可放置于水中
+}
+
+ResilientCandle: {
+	DisplayName: 恢复蜡烛
+	Tooltip:
+		'''
+		放置后，附近玩家的防御能够额外格挡15%伤害
+		“狂风骤雨也无法熄灭这倔强的火苗”
+		'''
+}
+
+RustyChest: {
+	DisplayName: 锈蚀箱
+	Tooltip: ""
+}
+
+SeaMinnowJar: {
+	DisplayName: 海洋米诺鱼缸
+	Tooltip: ""
+}
+
+SpitefulCandle: {
+	DisplayName: 恶念蜡烛
+	Tooltip:
+		'''
+		放置后，使附近的敌人额外受到5%伤害
+		这些额外伤害无视敌人的防御和伤害减免效果
+		“它闪耀着充满怒火的可憎光芒”
+		'''
+}
+
+SulphurousTorch: {
+	DisplayName: 硫海火把
+	Tooltip: 可放置于水中
+}
+
+ThaumaticChair: {
+	DisplayName: 奇迹之椅
+	Tooltip: 克洛伊最好的创造物之一
+}
+
+TranquilityCandle: {
+	DisplayName: 宁静蜡烛
+	Tooltip: 这支蜡烛仅仅是出现就能使周围的敌人冷静下来
+}
+
+AnahitaTrophy: {
+	DisplayName: 阿娜希塔纪念章
+	Tooltip: ""
+}
+
+ApolloTrophy: {
+	DisplayName: 阿波罗纪念章
+	Tooltip: ""
+}
+
+AquaticScourgeTrophy: {
+	DisplayName: 渊海灾虫纪念章
+	Tooltip: ""
+}
+
+AresTrophy: {
+	DisplayName: 阿瑞斯纪念章
+	Tooltip: ""
+}
+
+ArtemisTrophy: {
+	DisplayName: 阿尔忒弥斯纪念章
+	Tooltip: ""
+}
+
+AstrumAureusTrophy: {
+	DisplayName: 白金星舰纪念章
+	Tooltip: ""
+}
+
+AstrumDeusTrophy: {
+	DisplayName: 星神游龙纪念章
+	Tooltip: ""
+}
+
+BrimstoneElementalTrophy: {
+	DisplayName: 硫磺火元素纪念章
+	Tooltip: ""
+}
+
+CalamitasCloneTrophy: {
+	DisplayName: 灾厄之影纪念章
+	Tooltip: ""
+}
+
+CataclysmTrophy: {
+	DisplayName: 灾祸构造体纪念章
+	Tooltip: ""
+}
+
+CatastropheTrophy: {
+	DisplayName: 灾难构造体纪念章
+	Tooltip: ""
+}
+
+CeaselessVoidTrophy: {
+	DisplayName: 无尽虚空纪念章
+	Tooltip: ""
+}
+
+CrabulonTrophy: {
+	DisplayName: 菌生蟹纪念章
+	Tooltip: ""
+}
+
+CragmawMireTrophy: {
+	DisplayName: 峭咽潭纪念章
+	Tooltip: ""
+}
+
+CryogenTrophy: {
+	DisplayName: 极地之灵纪念章
+	Tooltip: ""
+}
+
+DesertScourgeTrophy: {
+	DisplayName: 荒漠灾虫纪念章
+	Tooltip: ""
+}
+
+DevourerofGodsTrophy: {
+	DisplayName: 神明吞噬者纪念章
+	Tooltip: ""
+}
+
+DragonfollyTrophy: {
+	DisplayName: 痴愚金龙纪念章
+	Tooltip: ""
+}
+
+GiantClamTrophy: {
+	DisplayName: 巨像蛤纪念章
+	Tooltip: ""
+}
+
+GreatSandSharkTrophy: {
+	DisplayName: 旱海狂鲨纪念章
+	Tooltip: ""
+}
+
+HiveMindTrophy: {
+	DisplayName: 腐巢意志纪念章
+	Tooltip: ""
+}
+
+LeviathanTrophy: {
+	DisplayName: 利维坦纪念章
+	Tooltip: ""
+}
+
+MaulerTrophy: {
+	DisplayName: 渊海狂鲨纪念章
+	Tooltip: ""
+}
+
+NuclearTerrorTrophy: {
+	DisplayName: 辐核骇兽纪念章
+	Tooltip: ""
+}
+
+OldDukeTrophy: {
+	DisplayName: 硫海遗爵纪念章
+	Tooltip: ""
+}
+
+PerforatorTrophy: {
+	DisplayName: 血肉宿主纪念章
+	Tooltip: ""
+}
+
+PlaguebringerGoliathTrophy: {
+	DisplayName: 瘟疫使者歌莉娅纪念章
+	Tooltip: ""
+}
+
+PolterghastTrophy: {
+	DisplayName: 噬魂幽花纪念章
+	Tooltip: ""
+}
+
+ProfanedGuardianTrophy: {
+	DisplayName: 亵渎守卫纪念章
+	Tooltip: ""
+}
+
+ProvidenceTrophy: {
+	DisplayName: 亵渎天神纪念章
+	Tooltip: ""
+}
+
+RavagerTrophy: {
+	DisplayName: 毁灭魔像纪念章
+	Tooltip: ""
+}
+
+SignusTrophy: {
+	DisplayName: 西格纳斯纪念章
+	Tooltip: ""
+}
+
+SlimeGodTrophy: {
+	DisplayName: 史莱姆之神纪念章
+	Tooltip: ""
+}
+
+SupremeCalamitasTrophy: {
+	DisplayName: 灾厄纪念章
+	Tooltip: ""
+}
+
+SupremeCataclysmTrophy: {
+	DisplayName: 至尊灾祸纪念章
+	Tooltip: ""
+}
+
+SupremeCatastropheTrophy: {
+	DisplayName: 至尊灾难纪念章
+	Tooltip: ""
+}
+
+ThanatosTrophy: {
+	DisplayName: 塔纳托斯纪念章
+	Tooltip: ""
+}
+
+WeaverTrophy: {
+	DisplayName: 风暴编织者纪念章
+	Tooltip: ""
+}
+
+YharonTrophy: {
+	DisplayName: 犽戎纪念章
+	Tooltip: ""
+}
+
+TwinklerInABottle: {
+	DisplayName: 星幻萤火虫瓶
+	Tooltip: ""
+}
+
+VigorousCandle: {
+	DisplayName: 活力蜡烛
+	Tooltip:
+		'''
+		放置后，使附近的玩家每秒恢复最大生命值0.4%的生命值
+		即便是在移动时亦是如此，并且不受复仇模式的生命再生速度上限影响
+		“它明亮的光使周围的人充满希望”
+		'''
+}
+
+WeightlessCandle: {
+	DisplayName: 失重蜡烛
+	Tooltip:
+		'''
+		放置后，使附近的玩家获得10%移动速度、飞行时间和5%加速度加成
+		“跃动的火焰似乎使你的精神获得升华”
+		'''
+}
+
+WulfrumLureItem: {
+	DisplayName: 钨钢诱扰器
+	Tooltip:
+		'''
+		消耗[i:CalamityMod/EnergyCore]能源核心以发出钨钢信号来引诱钨钢生物出现
+		信号持续30秒
+		'''
+}
+
+AbyssBathtub: {
+	DisplayName: 深渊浴缸
+	Tooltip: ""
+}
+
+AbyssBed: {
+	DisplayName: 深渊床
+	Tooltip: ""
+}
+
+AbyssBookcase: {
+	DisplayName: 深渊书架
+	Tooltip: ""
+}
+
+AbyssCandelabra: {
+	DisplayName: 深渊烛台
+	Tooltip: ""
+}
+
+AbyssCandle: {
+	DisplayName: 深渊蜡烛
+	Tooltip: ""
+}
+
+AbyssChair: {
+	DisplayName: 深渊椅
+	Tooltip: ""
+}
+
+AbyssChandelier: {
+	DisplayName: 深渊吊灯
+	Tooltip: ""
+}
+
+AbyssChest: {
+	DisplayName: 深渊箱
+	Tooltip: ""
+}
+
+AbyssClock: {
+	DisplayName: 深渊钟
+	Tooltip: ""
+}
+
+AbyssDoor: {
+	DisplayName: 深渊门
+	Tooltip: ""
+}
+
+AbyssDresser: {
+	DisplayName: 深渊梳妆台
+	Tooltip: ""
+}
+
+AbyssLamp: {
+	DisplayName: 深渊灯
+	Tooltip: ""
+}
+
+AbyssLantern: {
+	DisplayName: 深渊灯笼
+	Tooltip: ""
+}
+
+AbyssSink: {
+	DisplayName: 深渊水槽
+	Tooltip: 视为水源
+}
+
+AbyssSofa: {
+	DisplayName: 深渊沙发
+	Tooltip: ""
+}
+
+AbyssSynth: {
+	DisplayName: 深渊钢琴
+	Tooltip: ""
+}
+
+AbyssTable: {
+	DisplayName: 深渊桌
+	Tooltip: ""
+}
+
+AbyssTorch: {
+	DisplayName: 深渊火把
+	Tooltip: 可放置于水中
+}
+
+AbyssWorkBench: {
+	DisplayName: 深渊工作台
+	Tooltip: ""
+}
+
+SmoothAbyssGravel: {
+	DisplayName: 平滑深渊石
+	Tooltip: ""
+}
+
+SmoothAbyssGravelPlatform: {
+	DisplayName: 平滑深渊砾石平台
+	Tooltip: ""
+}
+
+AcidwoodBathtub: {
+	DisplayName: 酸腐木浴缸
+	Tooltip: ""
+}
+
+AcidwoodBed: {
+	DisplayName: 酸腐木床
+	Tooltip: ""
+}
+
+AcidwoodBench: {
+	DisplayName: 酸腐木长凳
+	Tooltip: ""
+}
+
+AcidwoodBookcase: {
+	DisplayName: 酸腐木书架
+	Tooltip: ""
+}
+
+AcidwoodCandelabra: {
+	DisplayName: 酸腐木烛台
+	Tooltip: ""
+}
+
+AcidwoodCandle: {
+	DisplayName: 酸腐木蜡烛
+	Tooltip: ""
+}
+
+AcidwoodChair: {
+	DisplayName: 酸腐木椅子
+	Tooltip: ""
+}
+
+AcidwoodChandelier: {
+	DisplayName: 酸腐木吊灯
+	Tooltip: ""
+}
+
+AcidwoodChest: {
+	DisplayName: 酸腐木箱
+	Tooltip: ""
+}
+
+AcidwoodClock: {
+	DisplayName: 酸腐木钟
+	Tooltip: ""
+}
+
+AcidwoodDoor: {
+	DisplayName: 酸腐木门
+	Tooltip: ""
+}
+
+AcidwoodDresser: {
+	DisplayName: 酸腐木梳妆台
+	Tooltip: ""
+}
+
+AcidwoodLamp: {
+	DisplayName: 酸腐木灯
+	Tooltip: ""
+}
+
+AcidwoodLantern: {
+	DisplayName: 酸腐木灯笼
+	Tooltip: ""
+}
+
+AcidwoodPiano: {
+	DisplayName: 酸腐木钢琴
+	Tooltip: ""
+}
+
+AcidwoodPlatform: {
+	DisplayName: 酸腐木平台
+	Tooltip: ""
+}
+
+AcidwoodSink: {
+	DisplayName: 酸腐木水槽
+	Tooltip: 视为水源
+}
+
+AcidwoodTable: {
+	DisplayName: 酸腐木桌子
+	Tooltip: ""
+}
+
+AcidwoodWorkBench: {
+	DisplayName: 酸腐木工作台
+	Tooltip: ""
+}
+
+AncientBasin: {
+	DisplayName: 远古火盆
+	Tooltip: ""
+}
+
+AncientBathtub: {
+	DisplayName: 远古浴缸
+	Tooltip: ""
+}
+
+AncientBed: {
+	DisplayName: 远古床
+	Tooltip: ""
+}
+
+AncientBookcase: {
+	DisplayName: 远古书架
+	Tooltip: ""
+}
+
+AncientChair: {
+	DisplayName: 远古椅
+	Tooltip: ""
+}
+
+AncientChandelier: {
+	DisplayName: 远古烛台
+	Tooltip: ""
+}
+
+AncientDoor: {
+	DisplayName: 远古门
+	Tooltip: ""
+}
+
+AncientDresser: {
+	DisplayName: 远古梳妆台
+	Tooltip: ""
+}
+
+AncientLamp: {
+	DisplayName: 远古灯
+	Tooltip: ""
+}
+
+AncientLantern: {
+	DisplayName: 远古灯笼
+	Tooltip: ""
+}
+
+AncientMonolith: {
+	DisplayName: 远古石柱
+	Tooltip: ""
+}
+
+AncientPipeOrgan: {
+	DisplayName: 远古管风琴
+	Tooltip: ""
+}
+
+AncientSink: {
+	DisplayName: 远古水槽
+	Tooltip: 视为岩浆源
+}
+
+AncientSofa: {
+	DisplayName: 远古沙发
+	Tooltip: ""
+}
+
+AncientTable: {
+	DisplayName: 远古桌
+	Tooltip: ""
+}
+
+AncientWorkBench: {
+	DisplayName: 远古工作台
+	Tooltip: ""
+}
+
+AshenAccentSlab: {
+	DisplayName: 灰烬板材
+	Tooltip:
+		'''
+		另一种版本的灰烬石板，和临近物块的融合方式有所不同
+		“深受高级建造者青睐”
+		'''
+}
+
+AshenBasin: {
+	DisplayName: 灰烬火盆
+	Tooltip: ""
+}
+
+AshenBathtub: {
+	DisplayName: 灰烬浴缸
+	Tooltip: ""
+}
+
+AshenBed: {
+	DisplayName: 灰烬床
+	Tooltip: ""
+}
+
+AshenBookcase: {
+	DisplayName: 灰烬书架
+	Tooltip: ""
+}
+
+AshenCandelabra: {
+	DisplayName: 灰烬烛台
+	Tooltip: ""
+}
+
+AshenCandle: {
+	DisplayName: 灰烬蜡烛
+	Tooltip: ""
+}
+
+AshenChair: {
+	DisplayName: 灰烬椅
+	Tooltip: ""
+}
+
+AshenChandelier: {
+	DisplayName: 灰烬吊灯
+	Tooltip: ""
+}
+
+AshenChest: {
+	DisplayName: 灰烬箱
+	Tooltip: ""
+}
+
+AshenDoor: {
+	DisplayName: 灰烬门
+	Tooltip: ""
+}
+
+AshenDresser: {
+	DisplayName: 灰烬梳妆台
+	Tooltip: ""
+}
+
+AshenLamp: {
+	DisplayName: 灰烬灯
+	Tooltip: ""
+}
+
+AshenLantern: {
+	DisplayName: 灰烬灯笼
+	Tooltip: ""
+}
+
+AshenMonolith: {
+	DisplayName: 灰烬柱
+	Tooltip: ""
+}
+
+AshenPipeOrgan: {
+	DisplayName: 灰烬管风琴
+	Tooltip: ""
+}
+
+AshenPlatform: {
+	DisplayName: 灰烬平台
+	Tooltip: ""
+}
+
+AshenSink: {
+	DisplayName: 灰烬水槽
+	Tooltip: 视为岩浆源
+}
+
+AshenSlab: {
+	DisplayName: 灰烬石板
+	Tooltip: ""
+}
+
+AshenSofa: {
+	DisplayName: 灰烬沙发
+	Tooltip: ""
+}
+
+AshenTable: {
+	DisplayName: 灰烬桌
+	Tooltip: ""
+}
+
+AshenWorkBench: {
+	DisplayName: 灰烬工作台
+	Tooltip: ""
+}
+
+SmoothBrimstoneSlag: {
+	DisplayName: 平滑硫火石
+	Tooltip: ""
+}
+
+ActivatedAuricPanel: {
+	DisplayName: 激活的金源面板
+	Tooltip: ""
+}
+
+AuricAbsorber: {
+	DisplayName: 金源精华块
+	Tooltip: ""
+}
+
+AuricConsole: {
+	DisplayName: 金源控制台
+	Tooltip: ""
+}
+
+AuricDisplay: {
+	DisplayName: 金源展柜
+	Tooltip: ""
+}
+
+AuricPanel: {
+	DisplayName: 金源面板
+	Tooltip: ""
+}
+
+AuricPlatform: {
+	DisplayName: 金源平台
+	Tooltip: ""
+}
+
+AuricReinforcedCrate: {
+	DisplayName: 金源加固匣
+	Tooltip: ""
+}
+
+AuricRepulserPanel: {
+	DisplayName: 失效的金源面板
+	Tooltip: 击退与其接触的玩家
+}
+
+AuricScreen: {
+	DisplayName: 金源荧幕
+	Tooltip: ""
+}
+
+AuricServer: {
+	DisplayName: 金源服务器
+	Tooltip: ""
+}
+
+AuricTerminal: {
+	DisplayName: 金源终端
+	Tooltip: ""
+}
+
+ExoAuricPanel: {
+	DisplayName: 星流-金源面板
+	Tooltip: ""
+}
+
+BotanicBathtub: {
+	DisplayName: 植物浴缸
+	Tooltip: ""
+}
+
+BotanicBed: {
+	DisplayName: 植物床
+	Tooltip: ""
+}
+
+BotanicBench: {
+	DisplayName: 植物长凳
+	Tooltip: ""
+}
+
+BotanicBookcase: {
+	DisplayName: 植物书架
+	Tooltip: ""
+}
+
+BotanicCandelabra: {
+	DisplayName: 植物烛台
+	Tooltip: ""
+}
+
+BotanicCandle: {
+	DisplayName: 植物蜡烛
+	Tooltip: ""
+}
+
+BotanicChair: {
+	DisplayName: 植物椅
+	Tooltip: ""
+}
+
+BotanicChandelier: {
+	DisplayName: 植物吊灯
+	Tooltip: ""
+}
+
+BotanicChest: {
+	DisplayName: 植物箱
+	Tooltip: ""
+}
+
+BotanicClock: {
+	DisplayName: 植物钟
+	Tooltip: ""
+}
+
+BotanicDoor: {
+	DisplayName: 植物门
+	Tooltip: ""
+}
+
+BotanicDresser: {
+	DisplayName: 植物梳妆台
+	Tooltip: ""
+}
+
+BotanicLamp: {
+	DisplayName: 植物灯
+	Tooltip: ""
+}
+
+BotanicLantern: {
+	DisplayName: 植物灯笼
+	Tooltip: ""
+}
+
+BotanicPiano: {
+	DisplayName: 植物钢琴
+	Tooltip: ""
+}
+
+BotanicPlatform: {
+	DisplayName: 植物平台
+	Tooltip: ""
+}
+
+BotanicSink: {
+	DisplayName: 植物水槽
+	Tooltip: 视为蜂蜜源
+}
+
+BotanicTable: {
+	DisplayName: 植物桌
+	Tooltip: ""
+}
+
+BotanicWorkBench: {
+	DisplayName: 植物工作台
+	Tooltip: ""
+}
+
+CosmiliteBasin: {
+	DisplayName: 宇宙火盆
+	Tooltip: ""
+}
+
+CosmiliteBathtub: {
+	DisplayName: 宇宙浴缸
+	Tooltip: ""
+}
+
+CosmiliteBed: {
+	DisplayName: 宇宙床
+	Tooltip: ""
+}
+
+CosmiliteBookcase: {
+	DisplayName: 宇宙书架
+	Tooltip: ""
+}
+
+CosmiliteBrick: {
+	DisplayName: 宇宙砖
+	Tooltip: ""
+}
+
+CosmiliteCandelabra: {
+	DisplayName: 宇宙烛台
+	Tooltip: ""
+}
+
+CosmiliteCandle: {
+	DisplayName: 宇宙蜡烛
+	Tooltip: ""
+}
+
+CosmiliteChair: {
+	DisplayName: 宇宙椅
+	Tooltip: ""
+}
+
+CosmiliteChandelier: {
+	DisplayName: 宇宙吊灯
+	Tooltip: ""
+}
+
+CosmiliteChest: {
+	DisplayName: 宇宙箱
+	Tooltip: ""
+}
+
+CosmiliteClock: {
+	DisplayName: 宇宙钟
+	Tooltip: ""
+}
+
+CosmiliteDoor: {
+	DisplayName: 宇宙门
+	Tooltip: ""
+}
+
+CosmiliteDresser: {
+	DisplayName: 宇宙梳妆台
+	Tooltip: ""
+}
+
+CosmiliteLamp: {
+	DisplayName: 宇宙灯
+	Tooltip: ""
+}
+
+CosmiliteLantern: {
+	DisplayName: 宇宙灯笼
+	Tooltip: ""
+}
+
+CosmilitePiano: {
+	DisplayName: 宇宙钢琴
+	Tooltip: ""
+}
+
+CosmilitePlatform: {
+	DisplayName: 宇宙砖平台
+	Tooltip: ""
+}
+
+CosmiliteSconce: {
+	DisplayName: 宇宙壁灯
+	Tooltip: ""
+}
+
+CosmiliteSink: {
+	DisplayName: 宇宙水槽
+	Tooltip: 视为水源
+}
+
+CosmiliteSofa: {
+	DisplayName: 宇宙沙发
+	Tooltip: ""
+}
+
+CosmiliteTable: {
+	DisplayName: 宇宙桌
+	Tooltip: ""
+}
+
+CosmiliteWorkBench: {
+	DisplayName: 宇宙工作台
+	Tooltip: ""
+}
+
+EutrophicBathtub: {
+	DisplayName: 富养浴缸
+	Tooltip: ""
+}
+
+EutrophicBed: {
+	DisplayName: 富养床
+	Tooltip: ""
+}
+
+EutrophicBench: {
+	DisplayName: 富养长凳
+	Tooltip: ""
+}
+
+EutrophicBookcase: {
+	DisplayName: 富养书架
+	Tooltip: ""
+}
+
+EutrophicCandelabra: {
+	DisplayName: 富养烛台
+	Tooltip: ""
+}
+
+EutrophicCandle: {
+	DisplayName: 富养蜡烛
+	Tooltip: ""
+}
+
+EutrophicChair: {
+	DisplayName: 富养椅
+	Tooltip: ""
+}
+
+EutrophicChandelier: {
+	DisplayName: 富养吊灯
+	Tooltip: ""
+}
+
+EutrophicChest: {
+	DisplayName: 富养箱
+	Tooltip: ""
+}
+
+EutrophicClock: {
+	DisplayName: 富养钟
+	Tooltip: ""
+}
+
+EutrophicDoor: {
+	DisplayName: 富养门
+	Tooltip: ""
+}
+
+EutrophicDresser: {
+	DisplayName: 富养梳妆台
+	Tooltip: ""
+}
+
+EutrophicLamp: {
+	DisplayName: 富养灯
+	Tooltip: ""
+}
+
+EutrophicLantern: {
+	DisplayName: 富养灯笼
+	Tooltip: ""
+}
+
+EutrophicPiano: {
+	DisplayName: 富养钢琴
+	Tooltip: ""
+}
+
+EutrophicPlatform: {
+	DisplayName: 富养平台
+	Tooltip: ""
+}
+
+EutrophicSink: {
+	DisplayName: 富养水槽
+	Tooltip: 视为水源
+}
+
+EutrophicTable: {
+	DisplayName: 富养桌
+	Tooltip: ""
+}
+
+EutrophicWorkBench: {
+	DisplayName: 富养工作台
+	Tooltip: ""
+}
+
+SmoothNavystone: {
+	DisplayName: 平滑沉沦渊石
+	Tooltip: ""
+}
+
+ExoBathtub: {
+	DisplayName: 星流浴缸
+	Tooltip: ""
+}
+
+ExoBed: {
+	DisplayName: 星流床
+	Tooltip: ""
+}
+
+ExoBookcase: {
+	DisplayName: 星流书架
+	Tooltip: ""
+}
+
+ExoCandelabra: {
+	DisplayName: 星流烛台
+	Tooltip: ""
+}
+
+ExoCandle: {
+	DisplayName: 星流蜡烛
+	Tooltip: ""
+}
+
+ExoChair: {
+	DisplayName: 星流椅
+	Tooltip: ""
+}
+
+ExoChandelier: {
+	DisplayName: 星流吊灯
+	Tooltip: ""
+}
+
+ExoChest: {
+	DisplayName: 星流箱
+	Tooltip: ""
+}
+
+ExoClock: {
+	DisplayName: 星流钟
+	Tooltip: ""
+}
+
+ExoConsole: {
+	DisplayName: 星流控制台
+	Tooltip: ""
+}
+
+ExoDisplay: {
+	DisplayName: 星流展柜
+	Tooltip: ""
+}
+
+ExoDoor: {
+	DisplayName: 星流门
+	Tooltip: ""
+}
+
+ExoDresser: {
+	DisplayName: 星流梳妆台
+	Tooltip: ""
+}
+
+ExoKeyboard: {
+	DisplayName: 星流键盘
+	Tooltip: ""
+}
+
+ExoLamp: {
+	DisplayName: 星流灯
+	Tooltip: ""
+}
+
+ExoLantern: {
+	DisplayName: 星流灯笼
+	Tooltip: ""
+}
+
+ExoPlatform: {
+	DisplayName: 星流平台
+	Tooltip: ""
+}
+
+ExoPlating: {
+	DisplayName: 星流镶板
+	Tooltip: ""
+}
+
+ExoPrismPanel: {
+	DisplayName: 星流棱晶镶板
+	Tooltip: ""
+}
+
+ExoPrismPlatform: {
+	DisplayName: 星流棱晶平台
+	Tooltip: ""
+}
+
+ExoScreen: {
+	DisplayName: 星流荧幕
+	Tooltip: ""
+}
+
+ExoServer: {
+	DisplayName: 星流服务器
+	Tooltip: ""
+}
+
+ExoSink: {
+	DisplayName: 星流水槽
+	Tooltip: 视为水、岩浆和蜂蜜源
+}
+
+ExoSofa: {
+	DisplayName: 星流沙发
+	Tooltip: ""
+}
+
+ExoTable: {
+	DisplayName: 星流桌
+	Tooltip: ""
+}
+
+ExoTerminal: {
+	DisplayName: 星流终端机
+	Tooltip: ""
+}
+
+ExoToilet: {
+	DisplayName: 星流马桶
+	Tooltip: ""
+}
+
+ExoWorkBench: {
+	DisplayName: 星流工作台
+	Tooltip: ""
+}
+
+MonolithBathtub: {
+	DisplayName: 星石浴缸
+	Tooltip: ""
+}
+
+MonolithBed: {
+	DisplayName: 星石床
+	Tooltip: ""
+}
+
+MonolithBench: {
+	DisplayName: 星石长凳
+	Tooltip: ""
+}
+
+MonolithBookcase: {
+	DisplayName: 星石书架
+	Tooltip: ""
+}
+
+MonolithCandelabra: {
+	DisplayName: 星石烛台
+	Tooltip: ""
+}
+
+MonolithCandle: {
+	DisplayName: 星石蜡烛
+	Tooltip: ""
+}
+
+MonolithChair: {
+	DisplayName: 星石椅
+	Tooltip: ""
+}
+
+MonolithChandelier: {
+	DisplayName: 星石吊灯
+	Tooltip: ""
+}
+
+MonolithChest: {
+	DisplayName: 星石箱
+	Tooltip: ""
+}
+
+MonolithClock: {
+	DisplayName: 星石钟
+	Tooltip: ""
+}
+
+MonolithDoor: {
+	DisplayName: 星石门
+	Tooltip: ""
+}
+
+MonolithDresser: {
+	DisplayName: 星石梳妆台
+	Tooltip: ""
+}
+
+MonolithLamp: {
+	DisplayName: 星石灯
+	Tooltip: ""
+}
+
+MonolithLantern: {
+	DisplayName: 星石灯笼
+	Tooltip: ""
+}
+
+MonolithPiano: {
+	DisplayName: 星石钢琴
+	Tooltip: ""
+}
+
+MonolithPlatform: {
+	DisplayName: 星石平台
+	Tooltip: ""
+}
+
+MonolithSink: {
+	DisplayName: 星石水槽
+	Tooltip: 视为水源
+}
+
+MonolithTable: {
+	DisplayName: 星石桌
+	Tooltip: ""
+}
+
+MonolithWorkBench: {
+	DisplayName: 星石工作台
+	Tooltip: ""
+}
+
+OtherworldlyBathtub: {
+	DisplayName: 异域浴缸
+	Tooltip: ""
+}
+
+OtherworldlyBed: {
+	DisplayName: 异域床
+	Tooltip: ""
+}
+
+OtherworldlyBookcase: {
+	DisplayName: 异域书架
+	Tooltip: ""
+}
+
+OtherworldlyCandelabra: {
+	DisplayName: 异域烛台
+	Tooltip: ""
+}
+
+OtherworldlyCandle: {
+	DisplayName: 异域蜡烛
+	Tooltip: ""
+}
+
+OtherworldlyChair: {
+	DisplayName: 异域椅
+	Tooltip: ""
+}
+
+OtherworldlyChandelier: {
+	DisplayName: 异域烛台
+	Tooltip: ""
+}
+
+OtherworldlyChest: {
+	DisplayName: 异域箱
+	Tooltip: ""
+}
+
+OtherworldlyClock: {
+	DisplayName: 异域钟
+	Tooltip: ""
+}
+
+OtherworldlyDoor: {
+	DisplayName: 异域门
+	Tooltip: ""
+}
+
+OtherworldlyDresser: {
+	DisplayName: 异域梳妆台
+	Tooltip: ""
+}
+
+OtherworldlyLamp: {
+	DisplayName: 异域灯
+	Tooltip: ""
+}
+
+OtherworldlyLantern: {
+	DisplayName: 异域灯笼
+	Tooltip: ""
+}
+
+OtherworldlyPiano: {
+	DisplayName: 异域钢琴
+	Tooltip: ""
+}
+
+OtherworldlyPlatform: {
+	DisplayName: 异域平台
+	Tooltip: ""
+}
+
+OtherworldlySink: {
+	DisplayName: 异域水槽
+	Tooltip: 视为水源
+}
+
+OtherworldlySofa: {
+	DisplayName: 异域沙发
+	Tooltip: ""
+}
+
+OtherworldlyStone: {
+	DisplayName: 异域石
+	Tooltip: ""
+}
+
+OtherworldlyTable: {
+	DisplayName: 异域桌
+	Tooltip: ""
+}
+
+OtherworldlyWorkBench: {
+	DisplayName: 异域工作台
+	Tooltip: ""
+}
+
+BrokenPlaguedBed: {
+	DisplayName: 破损瘟疫“床”
+	Tooltip: ""
+}
+
+PlaguedContainmentBrick: {
+	DisplayName: 瘟疫密封砖
+	Tooltip: ""
+}
+
+PlaguedPlateBathtub: {
+	DisplayName: 瘟疫浴缸
+	Tooltip: ""
+}
+
+PlaguedPlateBed: {
+	DisplayName: 瘟疫“床”
+	Tooltip: 视为床
+}
+
+PlaguedPlateBookcase: {
+	DisplayName: 瘟疫书架
+	Tooltip: ""
+}
+
+PlaguedPlateCandelabra: {
+	DisplayName: 瘟疫烛台
+	Tooltip: ""
+}
+
+PlaguedPlateCandle: {
+	DisplayName: 瘟疫蜡烛
+	Tooltip: ""
+}
+
+PlaguedPlateChair: {
+	DisplayName: 瘟疫椅
+	Tooltip: ""
+}
+
+PlaguedPlateChandelier: {
+	DisplayName: 瘟疫吊灯
+	Tooltip: ""
+}
+
+PlaguedPlateChest: {
+	DisplayName: 瘟疫箱
+	Tooltip: ""
+}
+
+PlaguedPlateClock: {
+	DisplayName: 瘟疫钟
+	Tooltip: ""
+}
+
+PlaguedPlateDoor: {
+	DisplayName: 瘟疫门
+	Tooltip: ""
+}
+
+PlaguedPlateDresser: {
+	DisplayName: 瘟疫梳妆台
+	Tooltip: ""
+}
+
+PlaguedPlateLamp: {
+	DisplayName: 瘟疫灯
+	Tooltip: ""
+}
+
+PlaguedPlateLantern: {
+	DisplayName: 瘟疫灯笼
+	Tooltip: ""
+}
+
+PlaguedPlatePiano: {
+	DisplayName: 瘟疫钢琴
+	Tooltip: ""
+}
+
+PlaguedPlatePlatform: {
+	DisplayName: 瘟疫架
+	Tooltip: ""
+}
+
+PlaguedPlateSink: {
+	DisplayName: 瘟疫水槽
+	Tooltip: 视为水源
+}
+
+PlaguedPlateSofa: {
+	DisplayName: 瘟疫沙发
+	Tooltip: ""
+}
+
+PlaguedPlateTable: {
+	DisplayName: 瘟疫桌
+	Tooltip: ""
+}
+
+PlaguedWorkBench: {
+	DisplayName: 瘟疫工作台
+	Tooltip: ""
+}
+
+ProfanedBathtub: {
+	DisplayName: 渎神浴缸
+	Tooltip: ""
+}
+
+ProfanedBed: {
+	DisplayName: 渎神床
+	Tooltip: ""
+}
+
+ProfanedBench: {
+	DisplayName: 渎神长凳
+	Tooltip: ""
+}
+
+ProfanedBookcase: {
+	DisplayName: 渎神书架
+	Tooltip: ""
+}
+
+ProfanedCandelabra: {
+	DisplayName: 渎神烛台
+	Tooltip: ""
+}
+
+ProfanedCandle: {
+	DisplayName: 渎神蜡烛
+	Tooltip: ""
+}
+
+ProfanedChair: {
+	DisplayName: 渎神椅
+	Tooltip: ""
+}
+
+ProfanedChandelier: {
+	DisplayName: 渎神吊灯
+	Tooltip: ""
+}
+
+ProfanedChest: {
+	DisplayName: 渎神箱
+	Tooltip: ""
+}
+
+ProfanedClock: {
+	DisplayName: 渎神钟
+	Tooltip: ""
+}
+
+ProfanedCrystal: {
+	DisplayName: 渎神结晶
+	Tooltip: ""
+}
+
+ProfanedDoor: {
+	DisplayName: 渎神门
+	Tooltip: ""
+}
+
+ProfanedDresser: {
+	DisplayName: 渎神梳妆台
+	Tooltip: ""
+}
+
+ProfanedLamp: {
+	DisplayName: 渎神灯
+	Tooltip: ""
+}
+
+ProfanedLantern: {
+	DisplayName: 渎神灯笼
+	Tooltip: ""
+}
+
+ProfanedPiano: {
+	DisplayName: 渎神钢琴
+	Tooltip: ""
+}
+
+ProfanedPlatform: {
+	DisplayName: 渎神平台
+	Tooltip: ""
+}
+
+ProfanedRock: {
+	DisplayName: 渎神石块
+	Tooltip: ""
+}
+
+ProfanedSink: {
+	DisplayName: 渎神水槽
+	Tooltip: 视为岩浆源
+}
+
+ProfanedSlab: {
+	DisplayName: 渎神石板
+	Tooltip: ""
+}
+
+ProfanedTable: {
+	DisplayName: 渎神桌
+	Tooltip: ""
+}
+
+ProfanedWorkBench: {
+	DisplayName: 渎神工作台
+	Tooltip: ""
+}
+
+RunicProfanedBrick: {
+	DisplayName: 渎神符文砖
+	Tooltip: ""
+}
+
+EyeOfTheAccursedBanner: {
+	DisplayName: 诅咒之眼旗
+	Tooltip: ""
+}
+
+LargeRitualCandle: {
+	DisplayName: 大型仪式蜡烛
+	Tooltip: 按右键以另一种风格放置
+}
+
+MonolithOfTheAccursed: {
+	DisplayName: 诅咒石柱
+	Tooltip:
+		'''
+		以烈焰将苍天尽染炽红
+		石柱有两种不同的模式
+		'''
+}
+
+OccultBrickItem: {
+	DisplayName: 玄秘砖
+	Tooltip: ""
+}
+
+OccultLegionnaireBanner: {
+	DisplayName: 玄秘军团旗
+	Tooltip: ""
+}
+
+OccultPlatformItem: {
+	DisplayName: 玄秘平台
+	Tooltip: ""
+}
+
+RitualCandle: {
+	DisplayName: 仪式蜡烛
+	Tooltip: 按右键以另一种风格放置
+}
+
+SacrilegiousBathtub: {
+	DisplayName: 渎圣浴缸
+	Tooltip: ""
+}
+
+SacrilegiousBed: {
+	DisplayName: 渎圣床
+	Tooltip: ""
+}
+
+SacrilegiousBench: {
+	DisplayName: 渎圣长凳
+	Tooltip: ""
+}
+
+SacrilegiousBookcase: {
+	DisplayName: 渎圣书架
+	Tooltip: ""
+}
+
+SacrilegiousCandelabra: {
+	DisplayName: 渎圣烛台
+	Tooltip: ""
+}
+
+SacrilegiousCandle: {
+	DisplayName: 渎圣蜡烛
+	Tooltip: ""
+}
+
+SacrilegiousChair: {
+	DisplayName: 渎圣椅
+	Tooltip: ""
+}
+
+SacrilegiousChandelier: {
+	DisplayName: 渎圣大吊灯
+	Tooltip: ""
+}
+
+SacrilegiousChest: {
+	DisplayName: 渎圣箱
+	Tooltip: ""
+}
+
+SacrilegiousClock: {
+	DisplayName: 渎圣钟
+	Tooltip: ""
+}
+
+SacrilegiousDoor: {
+	DisplayName: 渎圣门
+	Tooltip: ""
+}
+
+SacrilegiousDresser: {
+	DisplayName: 渎圣梳妆台
+	Tooltip: ""
+}
+
+SacrilegiousLamp: {
+	DisplayName: 渎圣灯
+	Tooltip: ""
+}
+
+SacrilegiousLantern: {
+	DisplayName: 渎圣灯笼
+	Tooltip: ""
+}
+
+SacrilegiousOrgan: {
+	DisplayName: 渎圣钢琴
+	Tooltip: ""
+}
+
+SacrilegiousSink: {
+	DisplayName: 渎圣水槽
+	Tooltip: 视为水、蜂蜜和岩浆源
+}
+
+SacrilegiousTable: {
+	DisplayName: 渎圣桌
+	Tooltip: ""
+}
+
+SacrilegiousWorkBench: {
+	DisplayName: 渎圣工作台
+	Tooltip: ""
+}
+
+SilvaBathtub: {
+	DisplayName: 始源林海浴缸
+	Tooltip: ""
+}
+
+SilvaBed: {
+	DisplayName: 始源林海床
+	Tooltip: ""
+}
+
+SilvaBench: {
+	DisplayName: 始源林海长凳
+	Tooltip: ""
+}
+
+SilvaBookcase: {
+	DisplayName: 始源林海书架
+	Tooltip: ""
+}
+
+SilvaCandelabra: {
+	DisplayName: 始源林海烛台
+	Tooltip: ""
+}
+
+SilvaCandle: {
+	DisplayName: 始源林海蜡烛
+	Tooltip: ""
+}
+
+SilvaChair: {
+	DisplayName: 始源林海椅
+	Tooltip: ""
+}
+
+SilvaChandelier: {
+	DisplayName: 始源林海吊灯
+	Tooltip: ""
+}
+
+SilvaChest: {
+	DisplayName: 始源林海箱
+	Tooltip: ""
+}
+
+SilvaClock: {
+	DisplayName: 始源林海钟
+	Tooltip: ""
+}
+
+SilvaCrystal: {
+	DisplayName: 始源林海晶块
+	Tooltip: ""
+}
+
+SilvaDoor: {
+	DisplayName: 始源林海门
+	Tooltip: ""
+}
+
+SilvaDresser: {
+	DisplayName: 始源林海梳妆台
+	Tooltip: ""
+}
+
+SilvaLamp: {
+	DisplayName: 始源林海灯
+	Tooltip: ""
+}
+
+SilvaLantern: {
+	DisplayName: 始源林海灯笼
+	Tooltip: ""
+}
+
+SilvaPiano: {
+	DisplayName: 始源林海钢琴
+	Tooltip: ""
+}
+
+SilvaPlatform: {
+	DisplayName: 始源林海平台
+	Tooltip: ""
+}
+
+SilvaSink: {
+	DisplayName: 始源林海水槽
+	Tooltip: 视为水源
+}
+
+SilvaTable: {
+	DisplayName: 始源林海桌
+	Tooltip: ""
+}
+
+SilvaWorkBench: {
+	DisplayName: 始源林海工作台
+	Tooltip: ""
+}
+
+StatigelBathtub: {
+	DisplayName: 斯塔提斯浴缸
+	Tooltip: ""
+}
+
+StatigelBed: {
+	DisplayName: 斯塔提斯床
+	Tooltip: ""
+}
+
+StatigelBlock: {
+	DisplayName: 斯塔提斯块
+	Tooltip: ""
+}
+
+StatigelBookcase: {
+	DisplayName: 斯塔提斯书架
+	Tooltip: ""
+}
+
+StatigelCandelabra: {
+	DisplayName: 斯塔提斯烛台
+	Tooltip: ""
+}
+
+StatigelCandle: {
+	DisplayName: 斯塔提斯蜡烛
+	Tooltip: ""
+}
+
+StatigelChair: {
+	DisplayName: 斯塔提斯椅
+	Tooltip: ""
+}
+
+StatigelChandelier: {
+	DisplayName: 斯塔提斯吊灯
+	Tooltip: ""
+}
+
+StatigelChest: {
+	DisplayName: 斯塔提斯箱
+	Tooltip: ""
+}
+
+StatigelClock: {
+	DisplayName: 斯塔提斯钟
+	Tooltip: ""
+}
+
+StatigelDoor: {
+	DisplayName: 斯塔提斯门
+	Tooltip: ""
+}
+
+StatigelDresser: {
+	DisplayName: 斯塔提斯梳妆台
+	Tooltip: ""
+}
+
+StatigelLamp: {
+	DisplayName: 斯塔提斯灯
+	Tooltip: ""
+}
+
+StatigelLantern: {
+	DisplayName: 斯塔提斯灯笼
+	Tooltip: ""
+}
+
+StatigelPiano: {
+	DisplayName: 斯塔提斯钢琴
+	Tooltip: ""
+}
+
+StatigelPlatform: {
+	DisplayName: 斯塔提斯平台
+	Tooltip: ""
+}
+
+StatigelSink: {
+	DisplayName: 斯塔提斯水槽
+	Tooltip: 视为水源
+}
+
+StatigelSofa: {
+	DisplayName: 斯塔提斯沙发
+	Tooltip: ""
+}
+
+StatigelTable: {
+	DisplayName: 斯塔提斯桌
+	Tooltip: ""
+}
+
+StatigelWorkbench: {
+	DisplayName: 斯塔提斯工作台
+	Tooltip: ""
+}
+
+StratusBathtub: {
+	DisplayName: 幻云浴缸
+	Tooltip: ""
+}
+
+StratusBed: {
+	DisplayName: 幻云床
+	Tooltip: ""
+}
+
+StratusBookcase: {
+	DisplayName: 幻云书架
+	Tooltip: ""
+}
+
+StratusBricks: {
+	DisplayName: 幻云砖块
+	Tooltip: ""
+}
+
+StratusCandelabra: {
+	DisplayName: 幻云烛台
+	Tooltip: ""
+}
+
+StratusCandle: {
+	DisplayName: 幻云蜡烛
+	Tooltip: ""
+}
+
+StratusChair: {
+	DisplayName: 幻云椅
+	Tooltip: ""
+}
+
+StratusChandelier: {
+	DisplayName: 幻云吊灯
+	Tooltip: ""
+}
+
+StratusChest: {
+	DisplayName: 幻云箱
+	Tooltip: ""
+}
+
+StratusClock: {
+	DisplayName: 幻云钟
+	Tooltip: ""
+}
+
+StratusDoor: {
+	DisplayName: 幻云门
+	Tooltip: ""
+}
+
+StratusDresser: {
+	DisplayName: 幻云梳妆台
+	Tooltip: ""
+}
+
+StratusLamp: {
+	DisplayName: 幻云灯
+	Tooltip: ""
+}
+
+StratusLantern: {
+	DisplayName: 幻云灯笼
+	Tooltip: ""
+}
+
+StratusPiano: {
+	DisplayName: 幻云钢琴
+	Tooltip: ""
+}
+
+StratusPlatform: {
+	DisplayName: 幻云平台
+	Tooltip: ""
+}
+
+StratusSink: {
+	DisplayName: 幻云水槽
+	Tooltip: 视为水源
+}
+
+StratusSofa: {
+	DisplayName: 幻云沙发
+	Tooltip: ""
+}
+
+StratusStarPlatformItem: {
+	DisplayName: 天星平台
+	Tooltip: ""
+}
+
+StratusTable: {
+	DisplayName: 幻云桌
+	Tooltip: ""
+}
+
+StratusWorkBench: {
+	DisplayName: 幻云工作台
+	Tooltip: ""
+}
+
+SmoothVoidstone: {
+	DisplayName: 平滑虚空石
+	Tooltip: ""
+}
+
+SmoothVoidstonePlatform: {
+	DisplayName: 平滑虚空石平台
+	Tooltip: ""
+}
+
+VoidBathtub: {
+	DisplayName: 虚空浴缸
+	Tooltip: ""
+}
+
+VoidBed: {
+	DisplayName: 虚空床
+	Tooltip: ""
+}
+
+VoidBookcase: {
+	DisplayName: 虚空书架
+	Tooltip: ""
+}
+
+VoidCandelabra: {
+	DisplayName: 虚空烛台
+	Tooltip: ""
+}
+
+VoidCandle: {
+	DisplayName: 虚空蜡烛
+	Tooltip: ""
+}
+
+VoidChair: {
+	DisplayName: 虚空椅
+	Tooltip: ""
+}
+
+VoidChandelier: {
+	DisplayName: 虚空吊灯
+	Tooltip: ""
+}
+
+VoidChest: {
+	DisplayName: 虚空箱
+	Tooltip: ""
+}
+
+VoidDoor: {
+	DisplayName: 虚空门
+	Tooltip: ""
+}
+
+VoidDresser: {
+	DisplayName: 虚空梳妆台
+	Tooltip: ""
+}
+
+VoidLamp: {
+	DisplayName: 虚空灯
+	Tooltip: ""
+}
+
+VoidLantern: {
+	DisplayName: 虚空灯笼
+	Tooltip: ""
+}
+
+VoidObelisk: {
+	DisplayName: 虚空钟
+	Tooltip: ""
+}
+
+VoidPiano: {
+	DisplayName: 虚空钢琴
+	Tooltip: ""
+}
+
+VoidSink: {
+	DisplayName: 虚空水槽
+	Tooltip: 视为水源
+}
+
+VoidSofa: {
+	DisplayName: 虚空沙发
+	Tooltip: ""
+}
+
+VoidstoneSlab: {
+	DisplayName: 虚空石板
+	Tooltip: ""
+}
+
+VoidTable: {
+	DisplayName: 虚空桌
+	Tooltip: ""
+}
+
+VoidWorkBench: {
+	DisplayName: 虚空工作台
+	Tooltip: ""
+}
+
+WulfrumBathtub: {
+	DisplayName: 钨钢浴缸
+	Tooltip: ""
+}
+
+WulfrumBed: {
+	DisplayName: 钨钢床
+	Tooltip: ""
+}
+
+WulfrumBookcase: {
+	DisplayName: 钨钢书架
+	Tooltip: ""
+}
+
+WulfrumCandelabra: {
+	DisplayName: 钨钢烛台
+	Tooltip: ""
+}
+
+WulfrumCandle: {
+	DisplayName: 钨钢蜡烛
+	Tooltip: ""
+}
+
+WulfrumChair: {
+	DisplayName: 钨钢椅
+	Tooltip: ""
+}
+
+WulfrumChandelier: {
+	DisplayName: 钨钢吊灯
+	Tooltip: ""
+}
+
+WulfrumClock: {
+	DisplayName: 钨钢钟
+	Tooltip: ""
+}
+
+WulfrumDresser: {
+	DisplayName: 钨钢梳妆台
+	Tooltip: ""
+}
+
+WulfrumLamp: {
+	DisplayName: 钨钢灯
+	Tooltip: ""
+}
+
+WulfrumLantern: {
+	DisplayName: 钨钢灯笼
+	Tooltip: ""
+}
+
+WulfrumPiano: {
+	DisplayName: 钨钢钢琴
+	Tooltip: ""
+}
+
+WulfrumPlating: {
+	DisplayName: 钨钢镀砖
+	Tooltip: ""
+}
+
+WulfrumSink: {
+	DisplayName: 钨钢水槽
+	Tooltip: ""
+}
+
+WulfrumSofa: {
+	DisplayName: 钨钢沙发
+	Tooltip: ""
+}
+
+WulfrumTable: {
+	DisplayName: 钨钢桌
+	Tooltip: ""
+}
+
+WulfrumToilet: {
+	DisplayName: 钨钢马桶
+	Tooltip: ""
+}
+
+WulfrumWorkbench: {
+	DisplayName: 钨钢工作台
+	Tooltip: ""
+}
+
+HardenedAstralSand: {
+	DisplayName: 硬化星幻沙
+	Tooltip: ""
+}
+
+HardenedSulphurousSandstone: {
+	DisplayName: 硬化硫磺沙岩
+	Tooltip: ""
+}
+
+LivingBrimstoneFireBlock: {
+	DisplayName: 永燃硫磺火
+	Tooltip: ""
+}
+
+LivingGodSlayerFireBlock: {
+	DisplayName: 永燃弑神火
+	Tooltip: ""
+}
+
+LivingHolyFireBlock: {
+	DisplayName: 永燃圣火
+	Tooltip: ""
+}
+
+DraedonExoSelectMusicBox: {
+	DisplayName: Music Box (Exo Mech Selection)
+	Tooltip: Plays 'Signal Received' by CDMusic
+}
+
+DraedonTalkMusicBox: {
+	DisplayName: Music Box (Codebreaker)
+	Tooltip: Plays a variant of 'Signal Received' by CDMusic
+}
+
+Navystone: {
+	DisplayName: 沉沦渊石
+	Tooltip: ""
+}
+
+NovaeSlag: {
+	DisplayName: 新星熔渣
+	Tooltip: ""
+}
+
+AerialiteOre: {
+	DisplayName: 天蓝矿
+	Tooltip: ""
+}
+
+AerialiteOreDisenchanted: {
+	DisplayName: 未注魔的天蓝矿
+	Tooltip: ""
+}
+
+AstralOre: {
+	DisplayName: 炫星矿
+	Tooltip: ""
+}
+
+AuricOre: {
+	DisplayName: 圣金源矿
+	Tooltip: 蕴含着上古巨龙的力量
+}
+
+CryonicOre: {
+	DisplayName: 寒元矿
+	Tooltip: ""
+}
+
+ExodiumCluster: {
+	DisplayName: 起源之簇
+	Tooltip: 来自未知的冰冷奇物
+}
+
+HallowedOre: {
+	DisplayName: 神圣矿
+	Tooltip: ""
+}
+
+InfernalSuevite: {
+	DisplayName: 地狱角砾岩
+	Tooltip: ""
+}
+
+PerennialOre: {
+	DisplayName: 永恒矿
+	Tooltip: ""
+}
+
+ScoriaOre: {
+	DisplayName: 熔渣矿
+	Tooltip: ""
+}
+
+UelibloomOre: {
+	DisplayName: 龙蒿矿
+	Tooltip: ""
+}
+
+PerennialBrick: {
+	DisplayName: 永恒砖
+	Tooltip: ""
+}
+
+PlantyMush: {
+	DisplayName: 植物混融块
+	Tooltip: ""
+}
+
+Cinderplate: {
+	DisplayName: 狱烬石
+	Tooltip: 其上回响着异界之能量
+}
+
+Elumplate: {
+	DisplayName: 永冻石
+	Tooltip: 其上回响着异界之能量
+}
+
+Havocplate: {
+	DisplayName: 混沌石
+	Tooltip: 其上回响着异界之能量
+}
+
+Navyplate: {
+	DisplayName: 沉沦石
+	Tooltip: 其上回响着异界之能量
+}
+
+Onyxplate: {
+	DisplayName: 玛瑙石
+	Tooltip: 其上回响着异界之能量
+}
+
+Plagueplate: {
+	DisplayName: 疫病石
+	Tooltip: 其上回响着异界之能量
+}
+
+PrismShard: {
+	DisplayName: 棱晶碎片
+	Tooltip: 在水下时会更加明亮
+}
+
+PyreMantle: {
+	DisplayName: 热泉焦岩
+	Tooltip: ""
+}
+
+PyreMantleMolten: {
+	DisplayName: 熔融热泉焦岩
+	Tooltip: ""
+}
+
+ScorchedBone: {
+	DisplayName: 焦灼脊骨
+	Tooltip: ""
+}
+
+ScorchedRemains: {
+	DisplayName: 焦灼遗土
+	Tooltip: ""
+}
+
+ScoriaBrick: {
+	DisplayName: 熔渣砖
+	Tooltip: ""
+}
+
+SeaPrism: {
+	DisplayName: 海棱晶
+	Tooltip: ""
+}
+
+SeaPrismBrick: {
+	DisplayName: 海晶砖
+	Tooltip: ""
+}
+
+SpineSapling: {
+	DisplayName: 小型脊椎
+	Tooltip: 在硫磺火石砖上种植巨型脊骨树树苗
+}
+
+SulphurousSand: {
+	DisplayName: 硫磺沙
+	Tooltip: ""
+}
+
+SulphurousSandstone: {
+	DisplayName: 硫磺沙岩
+	Tooltip: ""
+}
+
+SulphurousShale: {
+	DisplayName: 硫海页岩
+	Tooltip: ""
+}
+
+UelibloomBrick: {
+	DisplayName: 龙蒿砖
+	Tooltip: ""
+}
+
+VernalSoil: {
+	DisplayName: 春盎沃土
+	Tooltip: ""
+}
+
+Voidstone: {
+	DisplayName: 虚空石
+	Tooltip: ""
+}
+
+AbyssGravelWallItem: {
+	DisplayName: 深渊砾石墙
+	Tooltip: ""
+}
+
+AcidwoodWallItem: {
+	DisplayName: 酸蚀木墙
+	Tooltip: ""
+}
+
+AerialiteBrickWall: {
+	DisplayName: 天蓝砖墙
+	Tooltip: ""
+}
+
+AshenSlabWall: {
+	DisplayName: 灰烬石板墙
+	Tooltip: ""
+}
+
+AstralBrickWall: {
+	DisplayName: 星幻砖墙
+	Tooltip: ""
+}
+
+AstralDirtWall: {
+	DisplayName: 星幻土墙
+	Tooltip: ""
+}
+
+AstralGrassWall: {
+	DisplayName: 星幻草墙
+	Tooltip: ""
+}
+
+AstralIceWall: {
+	DisplayName: 星幻冰晶墙
+	Tooltip: ""
+}
+
+AstralMonolithWall: {
+	DisplayName: 星幻木墙
+	Tooltip: ""
+}
+
+AstralSandstoneWall: {
+	DisplayName: 星幻沙岩墙
+	Tooltip: ""
+}
+
+AstralSnowWall: {
+	DisplayName: 星幻雪墙
+	Tooltip: ""
+}
+
+AstralStoneWall: {
+	DisplayName: 星幻石墙
+	Tooltip: ""
+}
+
+BrimstoneSlabWall: {
+	DisplayName: 硫火石板墙
+	Tooltip: ""
+}
+
+BrimstoneSlagWall: {
+	DisplayName: 硫火板墙
+	Tooltip: ""
+}
+
+CelestialRemainsWall: {
+	DisplayName: 星界残骸墙
+	Tooltip: ""
+}
+
+CinderplateWall: {
+	DisplayName: 狱烬石墙
+	Tooltip: ""
+}
+
+CosmiliteBrickWall: {
+	DisplayName: 宇宙砖墙
+	Tooltip: ""
+}
+
+CryonicBrickWall: {
+	DisplayName: 寒元砖墙
+	Tooltip: ""
+}
+
+HazardChevronWall: {
+	DisplayName: 警戒墙
+	Tooltip: ""
+}
+
+LaboratoryPanelWall: {
+	DisplayName: 实验室板块墙
+	Tooltip: ""
+}
+
+LaboratoryPlateBeam: {
+	DisplayName: 实验室板梁
+	Tooltip: ""
+}
+
+LaboratoryPlatePillar: {
+	DisplayName: 实验室板柱
+	Tooltip: ""
+}
+
+LaboratoryPlatingWall: {
+	DisplayName: 实验室板墙
+	Tooltip: ""
+}
+
+RustedPlateBeam: {
+	DisplayName: 生锈板梁
+	Tooltip: ""
+}
+
+RustedPlatePillar: {
+	DisplayName: 生锈板柱
+	Tooltip: ""
+}
+
+RustedPlatingWall: {
+	DisplayName: 生锈板墙
+	Tooltip: ""
+}
+
+ElumplateWall: {
+	DisplayName: 永冻石墙
+	Tooltip: ""
+}
+
+EutrophicSandWall: {
+	DisplayName: 危险富营养沙墙
+	Tooltip: ""
+}
+
+EutrophicSandWallSafe: {
+	DisplayName: 富营养沙墙
+	Tooltip: ""
+}
+
+ExoPlatingWallItem: {
+	DisplayName: 星流镶板墙
+	Tooltip: ""
+}
+
+ExoPrismPanelWallItem: {
+	DisplayName: 星流棱晶镶板墙
+	Tooltip: ""
+}
+
+FloralWall: {
+	DisplayName: 繁花墙
+	Tooltip: ""
+}
+
+HardenedAstralSandWall: {
+	DisplayName: 硬化星幻沙墙
+	Tooltip: ""
+}
+
+HardenedSulphurousSandstoneWall: {
+	DisplayName: 硬化硫磺沙岩墙
+	Tooltip: ""
+}
+
+HavocplateWall: {
+	DisplayName: 混沌石墙
+	Tooltip: ""
+}
+
+NavyplateWall: {
+	DisplayName: 沉沦石墙
+	Tooltip: ""
+}
+
+NavystoneWall: {
+	DisplayName: 危险沉沦渊石墙
+	Tooltip: ""
+}
+
+NavystoneWallSafe: {
+	DisplayName: 沉沦渊石墙
+	Tooltip: ""
+}
+
+OccultBrickWallItem: {
+	DisplayName: 玄秘砖墙
+	Tooltip: ""
+}
+
+OnyxplateWall: {
+	DisplayName: 玛瑙石墙
+	Tooltip: ""
+}
+
+OtherworldlyStoneWall: {
+	DisplayName: 异域石墙
+	Tooltip: ""
+}
+
+PerennialBrickWall: {
+	DisplayName: 永恒砖墙
+	Tooltip: ""
+}
+
+PlagueContainmentCellsWall: {
+	DisplayName: 疫病石墙
+	Tooltip: ""
+}
+
+PlaguedPlateWall: {
+	DisplayName: 瘟疫密封墙
+	Tooltip: ""
+}
+
+ProfanedCrystalWall: {
+	DisplayName: 渎神结晶墙
+	Tooltip: ""
+}
+
+ProfanedRockWall: {
+	DisplayName: 渎神石墙
+	Tooltip: ""
+}
+
+ProfanedSlabWall: {
+	DisplayName: 渎神石板墙
+	Tooltip: ""
+}
+
+RunicProfanedBrickWall: {
+	DisplayName: 渎神符文砖墙
+	Tooltip: ""
+}
+
+ScorchedBoneWall: {
+	DisplayName: 焦灼脊骨墙
+	Tooltip: ""
+}
+
+ScoriaBrickWall: {
+	DisplayName: 熔渣砖墙
+	Tooltip: ""
+}
+
+SilvaWall: {
+	DisplayName: 始源林海墙
+	Tooltip: ""
+}
+
+SmoothAbyssGravelWall: {
+	DisplayName: 平滑深渊砾石墙
+	Tooltip: ""
+}
+
+SmoothBrimstoneSlagWall: {
+	DisplayName: 平滑硫火石板墙
+	Tooltip: ""
+}
+
+SmoothNavystoneWall: {
+	DisplayName: 平滑沉沦渊石墙
+	Tooltip: ""
+}
+
+SmoothVoidstoneWall: {
+	DisplayName: 平滑虚空石墙
+	Tooltip: ""
+}
+
+StatigelWall: {
+	DisplayName: 斯塔提斯墙
+	Tooltip: ""
+}
+
+StratusWall: {
+	DisplayName: 幻云墙
+	Tooltip: ""
+}
+
+SulphurousSandstoneWall: {
+	DisplayName: 硫磺沙岩墙
+	Tooltip: ""
+}
+
+SulphurousSandWall: {
+	DisplayName: 硫磺沙墙
+	Tooltip: ""
+}
+
+SulphurousShaleWall: {
+	DisplayName: 硫海页岩墙
+	Tooltip: ""
+}
+
+UelibloomBrickWall: {
+	DisplayName: 龙蒿砖墙
+	Tooltip: ""
+}
+
+VoidstoneSlabWall: {
+	DisplayName: 虚空石板墙
+	Tooltip: ""
+}
+
+VoidstoneWall: {
+	DisplayName: 虚空石墙
+	Tooltip: ""
+}
+
+WulfrumPlatingWall: {
+	DisplayName: Wulfrum Plating Wall
+	Tooltip: ""
+}
+
+FireTurret: {
+	DisplayName: 火焰喷射炮塔
+	Tooltip:
+		'''
+		用最大功率的喷火器烤熟附近敌怪
+		有Boss存活时无法攻击
+		'''
+}
+
+HostileFireTurret: {
+	DisplayName: 敌对火焰喷射炮塔
+	Tooltip: 用最大功率的喷火器烤熟附近玩家
+}
+
+HostileIceTurret: {
+	DisplayName: 敌对冰球炮塔
+	Tooltip: 向附近玩家投掷易碎的冰雾炸弹
+}
+
+HostileLabTurret: {
+	DisplayName: 敌对实验室炮塔
+	Tooltip: 向附近玩家发射激光
+}
+
+HostileLaserTurret: {
+	DisplayName: 敌对激光炮塔
+	Tooltip: 用闪电般快速的激光轰击附近玩家
+}
+
+HostileOnyxTurret: {
+	DisplayName: 敌对玛瑙炮塔
+	Tooltip: 以霰弹枪的方式向附近的玩家发射子弹
+}
+
+HostilePlagueTurret: {
+	DisplayName: 敌对瘟疫爆弹炮塔
+	Tooltip: 向附近的玩家发射追踪瘟疫导弹
+}
+
+HostileWaterTurret: {
+	DisplayName: 敌对水流炮塔
+	Tooltip: 向附近的玩家喷射高速水流
+}
+
+IceTurret: {
+	DisplayName: 冰球炮塔
+	Tooltip:
+		'''
+		向附近敌怪投掷易碎的冰雾炸弹
+		有Boss存活时无法攻击
+		'''
+}
+
+LabTurret: {
+	DisplayName: 实验室炮塔
+	Tooltip:
+		'''
+		向附近敌怪发射激光
+		有Boss存活时无法攻击
+		'''
+}
+
+LaserTurret: {
+	DisplayName: 激光炮塔
+	Tooltip:
+		'''
+		用闪电般快速的激光轰击附近敌怪
+		有Boss存活时无法攻击
+		'''
+}
+
+OnyxTurret: {
+	DisplayName: 玛瑙炮塔
+	Tooltip:
+		'''
+		以霰弹枪的方式向附近的敌怪发射子弹
+		有Boss存活时无法攻击
+		'''
+}
+
+PlagueTurret: {
+	DisplayName: 瘟疫爆弹炮塔
+	Tooltip:
+		'''
+		向附近的敌怪发射追踪瘟疫导弹
+		有Boss存活时无法攻击
+		'''
+}
+
+WaterTurret: {
+	DisplayName: 水流炮塔
+	Tooltip:
+		'''
+		向附近的敌怪喷射高速水流
+		有Boss存活时无法攻击
+		'''
+}
