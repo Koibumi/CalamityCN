@@ -165,7 +165,7 @@ DebuffSystem: {
 
 Communication: {
 	WhoAreYou: {
-		Inquiry: Introduction
+		Inquiry: 引入
 		Response:
 			'''
 			我假设你会再一次联系我。尽管我本人不善言辞，但我对你相当好奇。\n
@@ -179,7 +179,7 @@ Communication: {
 	}
 
 	WhoAreYouPart2: {
-		Inquiry: Task Complete
+		Inquiry: 任务完成
 		Response:
 			'''
 			完美。我注意到你已经成功妥善利用星流棱晶。不用浪费口舌问我是怎么知道的了，星流棱晶，和我机器上许多其它部件一样，内置了跟踪装置。这样我好用我的个人电脑追踪我的造物。\n
@@ -207,7 +207,7 @@ Communication: {
 	}
 
 	Crusade: {
-		Inquiry: Role in the Crusade
+		Inquiry: 圣战中的身份
 		Response:
 			'''
 			圣战被广泛认为是在1781年6月19日，犽戎重生的那天开始的，但直到1803年4月23日我才参与其中。加入时，我被选为科学与工程部门的领导。尽管在选择和开展项目方面我有充分的自由，但不出所料，我所创造的一切都必须服务于战争。\n
@@ -225,7 +225,7 @@ Communication: {
 	}
 
 	Goals: {
-		Inquiry: Your Goals
+		Inquiry: 你的目标
 		Response:
 			'''
 			我的目标向来只是推动科技进步。我会继续下去直至死亡，或是触及这个宇宙的科技天花板。即使我曾经确实超越过极限，也一定存在一个无法再前进的阶段。我觉得自己不太可能达到那个点。\n
@@ -239,7 +239,7 @@ Communication: {
 	}
 
 	ExoMechs: {
-		Inquiry: The Exo Mechanical Trio
+		Inquiry: 星流巨械
 		Response:
 			'''
 			这是我工艺的巅峰，是我过往一切成就的顶点，是超过六百六十年以来研究与科学的进步。它们是我的代表作，是艺术品。简单称呼它们为战争机械，于我，于它们，都是一种侮辱。\n
@@ -261,7 +261,7 @@ Communication: {
 	}
 
 	Exotech: {
-		Inquiry: What is Exotech?
+		Inquiry: 星流科技是什么？
 		Response:
 			'''
 			星流技术是我最伟大的科学进步，让我的机器工艺上了一个全新的台阶。你最为熟悉的迭代，星流棱晶，让我用了好长时间进行完善。我在这种能量源的研究上取得了巨大的成果，这些成果我至今也尚未全部利用完毕。\n
@@ -279,10 +279,10 @@ Communication: {
 	}
 
 	MiracleMatter: {
-		Inquiry: Miracle Matter
+		Inquiry: 奇迹物质
 		Response:
 			'''
-			你真的打算这么叫它？真是不可理喻。你手中的东西和奇迹毫无联系；它是数十年研究的结晶，是科学真正无限潜力的证明。尽管如此，既然是你稳定住了它，我也勉为其难如此称呼它吧。\n
+			你真的打算这么叫它？真是不可理喻。你手中的东西和奇迹毫无关联；它是数十年研究的结晶，是科学真正无限潜力的证明。尽管如此，既然是你稳定住了它，我也勉为其难如此称呼它吧。\n
 
 			星流共振中的粒子在暴露给足量的外部能源后会破坏周围的物质，你在和我的机器战斗时已经体验过这个现象。战斗的能量激活了部分星流棱晶，将内部组件熔化为了不稳定的电浆体，也就是所谓的奇迹物质。改变后的共振增强了它们的攻击力，晶化灼伤能瓦解一切有机或无机物。\n
 
@@ -293,7 +293,7 @@ Communication: {
 	}
 
 	Forge: {
-		Inquiry: Your Forge
+		Inquiry: 你的锻炉
 		Response:
 			'''
 			在我们第一次通过你的“密码破译器”交流时，我就提到过我把这个锻炉的蓝图交给你还有其他原因。特别是，我希望当你不可避免地与亚利姆发生冲突时，你们二者能处于平衡的立场上。这主要有三个原因。\n
@@ -309,7 +309,7 @@ Communication: {
 	}
 
 	Yharim: {
-		Inquiry: Yharim
+		Inquiry: 亚利姆
 		Response:
 			'''
 			寻神者。他曾经对我的好奇程度就和如今的你一样，而你们都是一个新时代不可预测的推动者。我第一次听说他和他的圣战，来自圣战开始二十二年后我的侦察无人机向我作出的汇报。尽管关于亚利姆本人和他意图征服我所在大陆的一座城市的战争计划的传言让我着迷，但真正抓住我注意力的是另一则传言。他似乎有一条金源巨龙作伴，而它催生着所有金源巨龙的重生。\n
@@ -329,7 +329,7 @@ Communication: {
 	}
 
 	Aerie: {
-		Inquiry: Dragon Aerie
+		Inquiry: 巨龙天巢
 		Response:
 			'''
 			我对巨龙天巢了解甚少，亚利姆坚决要保护它。在最近的历史中，只有他和犽戎踏入过那里，而他们两个无一愿意分享天巢的细节。\n
@@ -345,7 +345,7 @@ Communication: {
 	}
 
 	Calamitas: {
-		Inquiry: The Brimstone Witch
+		Inquiry: 硫火女巫
 		Response:
 			'''
 			女巫在圣战最后阶段才加入，是个未曾预料的盟友。在战争的大部分时候，我都无疑是亚利姆最重要的资产，但这一点在她到来后就变了。她的火焰比我最强大的熔炉还要炽热，而她焚尽寻神者之敌的渴望也远超我对创造的热情。\n
@@ -365,7 +365,7 @@ Communication: {
 	}
 
 	Dog: {
-		Inquiry: The Devourer of Gods
+		Inquiry: 神明吞噬者
 		Response:
 			'''
 			我从未见过比无名巨蛇还要神秘的存在。无论是他的身体结构、基因组，还是进化树，都与我们世界中的一切大相径庭。我对他的特征开展了许多研究，但所有研究都由于缺乏与熟知指标的对照而很快以失败告终。就连他的基础生物功能都近乎是无法理解的。\n
@@ -385,7 +385,7 @@ Communication: {
 	}
 
 	Distortion: {
-		Inquiry: Distortion
+		Inquiry: 扭曲
 		Response:
 			'''
 			尽管我在锻造吞噬者的盔甲时努力从他那里获取信息，但我确实对扭曲了解甚少。我知道的东西在那条巨蛇看来似乎太多了，他对我的提问抱有高度警戒，却并不干涉我本人对那个维度的有限探查。\n
@@ -399,7 +399,7 @@ Communication: {
 	}
 
 	Mechs: {
-		Inquiry: The Mechanical Trio
+		Inquiry: 钢铁巨械
 		Response:
 			'''
 			“钢铁巨械”，如大部分人所称呼的那样，正是被你蔑称为毁灭者、激光眼&魔焰眼，以及——虽然我极不情愿如此称呼——“机械骷髅王”。或许你确实是一个能力出众的人，但我相当怀疑你的命名品味。作为参考，它们的正式编号分别为HM-03、HSx-00、HSy-01以及HF-04。\n
@@ -415,7 +415,7 @@ Communication: {
 	}
 
 	Plague: {
-		Inquiry: The Plague
+		Inquiry: 纳米机器瘟疫
 		Response:
 			'''
 			在你发问前我先提前声明：我知道我的纳米机器现在正在感染丛林。为此，我之前就已经创建了一个故障安全系统。我无意引发不可控的物质毁坏。如果它开始威胁生物多样性，或是干扰我对泰拉瑞亚的研究，我会亲手关闭它。\n
@@ -437,22 +437,22 @@ Communication: {
 	}
 
 	Astral: {
-		Inquiry: Astral Infection
+		Inquiry: 星辉瘟疫
 		Response:
 			'''
-			The Infection has beguiled me since its surge upon this world. To study it, I retrofitted an Aureus reconnaissance model with armor intended to nullify its effects. In the end, all the protection I could muster only delayed Aureus' fall to the starborne rot. Observing your trials, I understood why it was overtaken: the lack of a thinking brain.\n
+			自星辉瘟疫出现在这个世界时，它就一直困扰着我。为了研究它，我给白金勘察机假装了护甲，意图抵消它的影响。最后，我能做到的一切保护只是在推迟白金被星瘟同化的时间。通过对你的观察，我理解了它被控制的原因：它缺乏思考的大脑。\n
 
-			Attempts at studying it on my own failed; a body was built for the task, but the chassis fell short, even if my mind remained. Using an alternative approach, I sent hired mercenaries into the infection. Few returned, but those who did provided me with enough intel.\n
+			我亲自研究它的尝试也以失败告终。我为此制作过一具机体，但哪怕我的思维尚存，机体也没能撑过去。此外，我也派遣过雇佣兵进入感染区，回来的人寥寥无几，但他们也带回了足够的情报。\n
 
-			What interested me the most were the reports of an infected Astrum Deus patrolling the Infection. Until the rot afflicted it fully, the closest it had ever been spotted was in Terraria's higher atmosphere. Further analysis pointed towards it being the catalyst for the infection's arrival on the surface. Though I have not found a concrete reason as to why and how this happened, I do have a hypothesis.\n
+			最令我感兴趣的，是有报告称一只被感染的星神游龙正在星辉瘟疫处巡逻。它被完全侵蚀前的最后一次目击报告是在泰拉瑞亚的上层大气中。进一步分析表明它就是瘟疫来到地表的催化剂。尽管我并没有找到这是出于何种理由，又是如何发生的确切理由，但我有一个假设。\n
 
-			As you may know, stars are concentrations of magic that form over countless years of ambient mana gathering together in deep space. With the mana having nothing to gravitate towards but itself, it condenses until it becomes a brilliant star. Stars that grow too large begin to collapse, degenerating and forming clots of Astral Infection. Throughout the cosmos at large, this is a rare occurrence, as Astrum Deus intermittently devours large stars for sustenance.\n
+			你可能知道，群星是无数年以来魔力在深空中聚集的魔力集合体。由于魔力不会被自身以外的东西所吸引，所以它会不断凝聚，直至变成一颗璀璨的恒星。过大的恒心会坍塌、衰退，直至凝结成星辉瘟疫。但哪怕是在这么大的宇宙里，这也是一种十分罕见的情况，因为星神游龙会间歇吞噬巨大的恒星，以维持自身的存续。\n
 
-			However, space is unfathomably large. If Astrum Deus were to vanish from space for even a brief time, some number of stars should visibly degenerate into Astral Infection, observable via telescope. Yet such observations show no significant increase in the quantity of collapsed stars. Furthermore, I know from my calculations that the observable universe is far, far too large to support a scenario where Astrum Deus disappears.\n
+			但是宇宙太大了。大到哪怕星神游龙只是从太空中消失一小会儿，也会有数量相当可观的恒星衰退成星辉瘟疫，为望远镜所观测到。但观测结果表明崩溃的恒星数量并没有显著增加。此外，根据我的计算，可观测宇宙实在是太大太大了，大到根本不可能存在没有星神游龙的情景。\n
 
-			It is therefore almost certain the Astrum Deus we know is simply one of many. Anything further I say on this matter is speculation.\n
+			所以几乎可以确定，我们所知晓的星神游龙只是众多个体中的一只，但任何在此之上的一切都只能是推测。\n
 
-			The infected Astrum Deus near our world may be a juvenile. This would explain why it could struggle to devour a star or fail to identify an infected star as a potential hazard. It then grew sick and crashed onto the nearest planet. As there are presumably many others of its kind, space on the whole is largely unaffected. I welcome any other hypotheses you may have.
+			我们世界附近那条被感染的星神游龙可能只是只幼年个体。这或许能解释为什么它难以吞噬一颗恒星，或是未能将其识别为潜在的威胁，直至病入膏肓，落到最近的星球。考虑到还有很多像它这样的个体，宇宙整体应该没有受到太大影响。如果你有任何其它假设，欢迎提出。
 			'''
 	}
 
@@ -460,17 +460,17 @@ Communication: {
 		Inquiry: Sulphurous Sea
 		Response:
 			'''
-			Even before I used the sea as a disposal site for nuclear waste, it was never a pleasant place for your kind. Sulphuric fumes from Azafure's industry rose through the Abyss and came to pollute the sea far above. Most of the calm, docile life that once flourished here was utterly demolished by such a hostile change.\n
+			早在我将那片大海作为核废料填埋处之前，那地方就已经不适合你们这些生物了。源自阿萨福勒工业活动的硫化气体穿过深渊，污染了上方的海洋。曾经在这里繁衍生息的平静、温顺的生物，大多也都被这种充满恶意的变化彻底毁灭了。\n
 
-			The new life that emerged many years later via mutation and other adaptation allowed for studying how life can adjust to such harsh conditions, including ever-increasing levels of radiation. Though I did not value such data at first, familiarizing myself with the increased tolerances of adapted organic beings proved to be essential at several points during my development of the Plague.\n
+			通过对后续几年由于变异和其他适应方式而出现的新生命的研究，让我了解了生命是如何适应包括不断增加的辐射水平在内的恶劣条件的。尽管一开始我并不重视这些数据，但在我后来开发瘟疫的过程中，我意识到我应当了解这些适应了新环境的有机生命是如何提高耐受性的，这在很多时候都至关重要。\n
 
-			If you are concerned about the sea's current state, you are far from the first. You may put your worries to rest, as I have no plans to further irradiate the area for the foreseeable future. Indeed, my actions have already been met with scathing criticism and uproar.\n
+			如果你对大海的现状感到担忧，你绝不是第一个。把你的担忧先放一边吧，在可预见的未来中我还没有进一步辐射这块区域的计划。事实上，我的所作所为此前遭到了严厉的批评和抨击。\n
 
-			The Godseeker's bureaucrats would frequently remind me of how the public had organized to revolt against my advancement of science. From what they knew, they were justified. They feared what calamities further science could wreak upon Terraria, due to the destruction brought upon the Sulphurous Sea.\n
+			寻神者的官僚不止一次提醒我公众是如何组织起来抗议我对科学作出的进步的。就他们的认知出发，他们的确是正义的。藉于硫磺海遭到的破坏，他们相当害怕更进一步的科学会将多么可怕的灾厄带到泰拉瑞亚。\n
 
-			I thought such retaliation to be absurd, but it appears not all can see reason. Despite my infamy and legacy, technological advancements continue to be made by many other scientists across Terraria, even if the subject continues to provoke unfounded fear mongering.\n
+			这种报复毫无意义，可惜并非所有人都能理解其中缘由。哪怕我声名狼藉，遗臭万年，全泰拉瑞亚数不胜数的其他科学家也依然会推进科技的进步，无论这个话题会引发多少毫无根据的恐慌。\n
 
-			Regardless, if I deem it necessary, I possess the means to simply rebuild the Sulphur Sea from the bedrock up. Restoring it to its pristine status would be a trivial matter and a testament to science's creative potential.
+			无论如何，如果我认为有必要，我确实有办法从基岩开始重塑硫磺海。将它恢复到初始状态只是一件微不足道的小事，但也能充当科学创造潜力的有力证明。
 			'''
 	}
 }
