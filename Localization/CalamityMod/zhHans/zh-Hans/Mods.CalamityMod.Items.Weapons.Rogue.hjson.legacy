@@ -1223,7 +1223,7 @@ TheAtomSplitter: {
 }
 
 TheFinalDawn: {
-	DisplayName:  终曲黎明
+	DisplayName: 终曲黎明
 	Tooltip:
 		'''
 		使用镰刀击中敌人时会恢复潜行值
