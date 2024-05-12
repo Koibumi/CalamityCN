@@ -36,7 +36,7 @@ AngelicShotgun: {
 
 Animosity: {
 	DisplayName: 憎恨
-	GFBName: Shotgun Full of Hate
+	GFBName: 憎恨恨恨
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
@@ -45,9 +45,9 @@ Animosity: {
 		'''
 	TooltipGFB:
 		'''
-		[c/9c0b0b:Fires a shotgun blast full of hatred... among other things]
-		[c/ac14ba:Press Right Click to use a hexing rifle round instead]
-		[c/454545:By Cthulhu Eye, Yharon tooth...]
+		[c/9c0b0b:发射一片憎恨之霰弹……还有一些其他东西]
+		[c/ac14ba:按下右键发射一颗特殊的咒术弹药]
+		[c/454545:以克苏鲁之眼，还犽戎之牙……]
 		'''
 }
 
@@ -152,7 +152,7 @@ BarracudaGun: {
 }
 
 BladedgeRailbow: {
-	DisplayName: BladedgeRailbow
+	DisplayName: 锋叶十字弩
 	Tooltip: "[GFB]"
 	TooltipNormal: 一次发射四支箭与两片锋叶
 	TooltipGFB: 发射四支箭……和一些其他乱七八糟的东西
@@ -808,7 +808,7 @@ NettlevineGreatbow: {
 }
 
 NitroExpressRifle: {
-	DisplayName: Nitro Express Rifle
+	DisplayName: NE猎枪
 	Tooltip: "[c/88354B:“后坐力大到足以震碎你的肩膀……”]"
 }
 
@@ -1275,7 +1275,7 @@ ThePack: {
 }
 
 ThermoclineBlaster: {
-	DisplayName: Thermocline Blaster
+	DisplayName: 霜炎爆破枪
 	Tooltip:
 		'''
 		交替发射烈焰子弹与寒霜子弹
@@ -1354,7 +1354,7 @@ UniversalGenesis: {
 }
 
 VernalBolter: {
-	DisplayName: Vernal Bolter
+	DisplayName: 熙春弓
 	Tooltip:
 		'''
 		射出一列三支箭矢
@@ -1378,7 +1378,7 @@ Vortexpopper: {
 }
 
 WildfireBloom: {
-	DisplayName: Wildfire Bloom
+	DisplayName: 野火绽华
 	Tooltip:
 		'''
 		蓄力发射一簇能量之火和两片追踪的野火
