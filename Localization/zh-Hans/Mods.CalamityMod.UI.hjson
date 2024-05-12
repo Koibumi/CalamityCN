@@ -33,7 +33,7 @@ NoDifficultyInfo: 没有开启任何灾厄难度的泰拉之旅
 Revengeance: 复仇
 RevMaster: 复仇+大师
 RevLegend: 复仇+传奇
-RevengeanceEnabled: Revengeance Mode is enabled
+RevengeanceEnabled: 复仇模式已开启
 RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！]"
 RevengeanceExpandedInfo:
 	'''
@@ -45,12 +45,12 @@ RevengeanceExpandedInfo:
 	[c/B55362:Boss们拥有新的AI和阶段，会掉落大师模式专属物品。敌怪生成更频繁。]
 	[c/F7342A:本模式比专家模式难度更高。准备好迎接挑战就开启吧。]
 	'''
-RevengeanceActivate: 复仇模式已开启。
+RevengeanceActivate: 复仇模式已开启
 RevengeanceDeactivate: 复仇模式已关闭
 Death: 死亡
 DeathMaster: 死亡+大师
 DeathLegend: 死亡+传奇
-DeathEnabled: Death Mode is enabled
+DeathEnabled: 死亡模式已开启
 DeathShortInfo: "[c/C82DF7:对更有经验的，想复仇模式更进一步的玩家的更强挑战]"
 DeathExpandedInfo:
 	'''
@@ -116,7 +116,7 @@ Cooldowns: {
 	SandsmokeBombActive: 使用沙尘覆盖
 	SandsmokeBombCooldown: 沙尘覆盖冷却
 	SilvaRevive: 始源林海复活冷却
-	SpeedBlasterBoost: Speed Blaster Boost
+	SpeedBlasterBoost: 彩蛋冲锋枪右键冷却
 	SpongeDurability: 海绵屏障耐久
 	SpongeRecharge: 海绵屏障充能
 	TarragonCloak: 龙蒿披风冷却
@@ -144,17 +144,17 @@ ArtemisApolloIcon: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳�
 
 // Debuff系统
 DebuffSystem: {
-	Title: Debuff Resistances
-	Description: NPCs take increased or decreased damage from certain debuff types
-	Heat: Heat
-	Cold: Cold
-	Sickness: Sickness
-	Water: Water
-	Electricity: Electricity
-	To: to
-	Weak: Weak
-	Neutral: Neutral
-	Resistant: Resistant
+	Title: 减益抗性
+	Description: 怪物对特定减益伤害抗性高或低
+	Heat: 火系减益
+	Cold: 冷系减益
+	Sickness: 疾病系减益
+	Water: 水系减益
+	Electricity: 电系减益
+	To: 于
+	Weak: 弱抗
+	Neutral: 常抗
+	Resistant: 强抗
 }
 
 // Draedon Contact UI. Repeated newlines indicate pauses in Draedon's speaking. As a result, newline characters may be explicitly defined.
@@ -189,7 +189,7 @@ Communication: {
 	}
 
 	Origins: {
-		Inquiry: Your Origins
+		Inquiry: 你的起源
 		Response:
 			'''
 			我最初的记忆，是在1227年11月19日于一间遥远的实验室中醒来，距今已有6个世纪之久。我周围除了广袤的针叶林外一无所有，唯一陪伴我的只有一个死去的有机体。\n
@@ -457,7 +457,7 @@ Communication: {
 	}
 
 	Sulphur: {
-		Inquiry: Sulphurous Sea
+		Inquiry: 硫磺海
 		Response:
 			'''
 			早在我将那片大海作为核废料填埋处之前，那地方就已经不适合你们这些生物了。源自阿萨福勒工业活动的硫化气体穿过深渊，污染了上方的海洋。曾经在这里繁衍生息的平静、温顺的生物，大多也都被这种充满恶意的变化彻底毁灭了。\n
