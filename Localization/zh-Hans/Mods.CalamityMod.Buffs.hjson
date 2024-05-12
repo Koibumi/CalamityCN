@@ -1526,6 +1526,6 @@ YoungDukeBuff: {
 }
 
 LiliesOfFinalityBuff: {
-	DisplayName: Finality
+	DisplayName: 终焉
 	Description: 铭记我们的诺言
 }
