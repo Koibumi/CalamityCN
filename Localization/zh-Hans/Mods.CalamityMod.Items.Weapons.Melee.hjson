@@ -193,7 +193,7 @@ Bonebreaker: {
 }
 
 BotanicPiercer: {
-	DisplayName: Botanic Piercer
+	DisplayName: 翠芒尖枪
 	Tooltip: 发射一束植物能量束
 }
 
@@ -240,7 +240,7 @@ BrokenBiomeBlade: {
 }
 
 BurningRevelation: {
-	DisplayName: Burning Revelation
+	DisplayName: 渎焚天启
 	Tooltip:
 		'''
 		击中敌人时产生强大的圣火爆炸
@@ -269,7 +269,7 @@ CelestialClaymore: {
 }
 
 ChronomancersScythe: {
-	DisplayName: Chronomancer's Scythe
+	DisplayName: 时空术士之镰
 	Tooltip:
 		'''
 		迅速发射冰锥
@@ -1211,7 +1211,7 @@ TheBurningSky: {
 }
 
 TheDarkMaster: {
-	DisplayName: The Dark Master
+	DisplayName: 黑暗大师之剑
 	Tooltip:
 		'''
 		当生命值为满时发射红色旋转剑气
@@ -1387,7 +1387,7 @@ Virulence: {
 }
 
 VoidEdge: {
-	DisplayName: Void Edge
+	DisplayName: 虚渊之锋
 	Tooltip:
 		'''
 		发射早已逝去的深渊居民的可怖鬼魂
