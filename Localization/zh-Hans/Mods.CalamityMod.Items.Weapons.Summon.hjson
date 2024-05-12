@@ -831,7 +831,7 @@ HarvestStaff: {
 }
 
 LiliesOfFinality: {
-	DisplayName: Lilies of Finality
+	DisplayName: 终焉百合
 	Tooltip:
 		'''
 		需要2个仆从栏才能使用
