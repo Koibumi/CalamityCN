@@ -5,12 +5,12 @@ AlcoholPoisoning: {
 
 BloodyMaryBuff: {
 	DisplayName: 血腥玛丽
-	Description: 在血月期间伤害和移动速度增加，但生命再生速度和防御力降低
+	Description: 在血月期间伤害和移动速度增加，但生命再生和防御力降低
 }
 
 CaribbeanRumBuff: {
 	DisplayName: 加勒比朗姆酒
-	Description: 生命再生速度、移动速度和飞行时间增加，但你漂浮不定且防御力降低
+	Description: 生命再生、移动速度和飞行时间增加，但你漂浮不定且防御力降低
 }
 
 CinnamonRollBuff: {
@@ -20,12 +20,12 @@ CinnamonRollBuff: {
 
 EverclearBuff: {
 	DisplayName: 谷酒
-	Description: 伤害增加，但防御力和生命再生速度降低
+	Description: 伤害增加，但防御力和生命再生降低
 }
 
 EvergreenGinBuff: {
 	DisplayName: 常青松子酒
-	Description: 疫病和水系减益的伤害增加，但生命再生速度降低
+	Description: 疫病和水系减益的伤害增加，但生命再生降低
 }
 
 FabsolVodkaBuff: {
@@ -35,7 +35,7 @@ FabsolVodkaBuff: {
 
 FireballBuff: {
 	DisplayName: 火龙酒
-	Description: 火系减益的伤害增加，但生命再生速度降低
+	Description: 火系减益的伤害增加，但生命再生降低
 }
 
 GrapeBeerBuff: {
@@ -45,17 +45,17 @@ GrapeBeerBuff: {
 
 MargaritaBuff: {
 	DisplayName: 玛格丽塔酒
-	Description: 大部分减益的持续时间缩短，但防御力和生命再生速度降低
+	Description: 大部分减益的持续时间缩短，但防御力和生命再生降低
 }
 
 MoonshineBuff: {
 	DisplayName: 摩闪酒
-	Description: 防御力和伤害减免增加，但生命再生速度降低
+	Description: 防御力和伤害减免增加，但生命再生降低
 }
 
 MoscowMuleBuff: {
 	DisplayName: 莫斯科骡子
-	Description: 伤害、暴击率和击退增加，但生命再生速度降低
+	Description: 伤害、暴击率和击退增加，但生命再生降低
 }
 
 OldFashionedBuff: {
@@ -65,32 +65,32 @@ OldFashionedBuff: {
 
 RedWineBuff: {
 	DisplayName: 红葡萄酒
-	Description: 生命再生速度降低
+	Description: 生命再生降低
 }
 
 RumBuff: {
 	DisplayName: 朗姆酒
-	Description: 移动速度和生命再生速度增加，但防御力降低
+	Description: 移动速度和生命再生增加，但防御力降低
 }
 
 ScrewdriverBuff: {
 	DisplayName: 螺丝起子
-	Description: 穿透类弹幕的伤害增加，但生命再生速度降低
+	Description: 穿透类弹幕的伤害增加，但生命再生降低
 }
 
 StarBeamRyeBuff: {
 	DisplayName: 星界黑麦威士忌
-	Description: 最大魔力值和魔法伤害增加且魔力消耗降低，但防御力和生命再生速度降低
+	Description: 最大魔力值和魔法伤害增加且魔力消耗降低，但防御力和生命再生降低
 }
 
 TequilaBuff: {
 	DisplayName: 龙舌兰酒
-	Description: 在白天时暴击率、防御力和击退增加，但生命再生速度降低
+	Description: 在白天时暴击率、防御力和击退增加，但生命再生降低
 }
 
 TequilaSunriseBuff: {
 	DisplayName: 龙舌兰日出
-	Description: 在白天时暴击率、防御力和击退增加，但生命再生速度降低
+	Description: 在白天时暴击率、防御力和击退增加，但生命再生降低
 }
 
 Trippy: {
@@ -100,7 +100,7 @@ Trippy: {
 
 VodkaBuff: {
 	DisplayName: 伏特加
-	Description: 伤害和暴击率增加，但防御力和生命再生速度降低
+	Description: 伤害和暴击率增加，但防御力和生命再生降低
 }
 
 WhiskeyBuff: {
@@ -110,7 +110,7 @@ WhiskeyBuff: {
 
 WhiteWineBuff: {
 	DisplayName: 白酒
-	Description: 魔法伤害增加，但生命再生速度和防御力降低
+	Description: 魔法伤害增加，但生命再生和防御力降低
 }
 
 Withered: {
@@ -664,7 +664,7 @@ AquaticHeartWaterSpeed: {
 
 AvertorBonus: {
 	DisplayName: 憎恶血刃之助
-	Description: 伤害与生命再生速度增加
+	Description: 伤害与生命再生增加
 }
 
 BloodflareBloodFrenzy: {
@@ -700,7 +700,7 @@ ChiBuff: {
 
 ChiRegenBuff: {
 	DisplayName: 气
-	Description: 生命再生速度增加
+	Description: 生命再生增加
 }
 
 CoralSymbiosis: {
@@ -715,7 +715,7 @@ CosmicFreeze: {
 
 DivineBless: {
 	DisplayName: 圣天祝福
-	Description: 生命再生速度增加，仆从攻击会造成放逐之火减益
+	Description: 生命再生增加，仆从攻击会造成放逐之火减益
 }
 
 EmpyreanRage: {
@@ -770,7 +770,7 @@ KamiBuff: {
 
 Mushy: {
 	DisplayName: 与菇共生
-	Description: 增加6点防御和每秒1点生命再生
+	Description: 增加6点防御和+1HP/s生命再生
 }
 
 PhantomicEmpowerment: {
@@ -989,7 +989,7 @@ WeakPetrification: {
 
 WhisperingDeath: {
 	DisplayName: 死亡低语
-	Description: 死亡临近；攻击力和生命再生速度降低
+	Description: 死亡临近；攻击力和生命再生降低
 }
 
 WitherDebuff: {
@@ -1498,12 +1498,12 @@ WulfrumDroidBuff: {
 
 PinkJellyRegen: {
 	DisplayName: 粉胶质再生
-	Description: 粘液的力量使你神清气爽，增加每秒2点生命再生
+	Description: 粘液的力量使你神清气爽，+2HP/s生命再生
 }
 
 GreenJellyRegen: {
 	DisplayName: 绿胶质再生
-	Description: 再生粘液增幅着你，增加每秒2.5点生命再生
+	Description: 再生粘液增幅着你，+2.5HP/s生命再生
 }
 
 AbsorberRegen: {
@@ -1511,7 +1511,7 @@ AbsorberRegen: {
 	Description:
 		'''
 		你被顶尖的自然力量所祝福
-		增加每秒3点生命再生，8%伤害和5%伤害减免
+		+3HP/s生命再生，8%伤害和5%伤害减免
 		'''
 }
 

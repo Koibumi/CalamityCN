@@ -763,7 +763,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.HandWarmer)
                 {
-                    tooltips.ReplaceText("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外提升2点生命再生速度");
+                    tooltips.ReplaceText("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外+1HP/s生命再生");
                 }
 
                 if (item.type == ItemID.HellfireTreads)
@@ -775,7 +775,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.FairyBoots)
                 {
                     tooltips.ReplaceText("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
-                    tooltips.ReplaceText("Nearby fairies grant +2 HP/s life regen, 10 defense and  10% movement speed", "附近仙灵会提供2HP/s生命再生，10点防御与10%移动速度");
+                    tooltips.ReplaceText("Nearby fairies grant +2 HP/s life regen, 10 defense and  10% movement speed", "附近仙灵会提供+2HP/s生命再生，10点防御与10%移动速度");
                     tooltips.ReplaceText("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
                 }
 
@@ -958,7 +958,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.SilverHelmet || item.type == 82 || item.type == 78)
                 {
                     tooltips.ReplaceText("5% increased critical strike chance", "暴击率增加5%");
-                    tooltips.ReplaceText("+1 HP/s life regen", "生命再生增加1HP/s");
+                    tooltips.ReplaceText("+1 HP/s life regen", "+1HP/s生命再生");
                     tooltips.ReplaceText("8% increased movement speed", "移动速度增加8%");
                 }
                 if (item.type == ItemID.AncientIronHelmet || item.type == 90 || item.type == 81 || item.type == 77)
@@ -974,13 +974,13 @@ namespace CalamityCN.Translations
                 if (item.type == 688 || item.type == 689)
                 {
                     tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
-                    tooltips.ReplaceText("+0.5 HP/s life regen", "生命再生增加0.5HP/s");
+                    tooltips.ReplaceText("+0.5 HP/s life regen", "+0.5HP/s生命再生");
                     tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
                 }
                 if (item.type == ItemID.TinHelmet)
                 {
                     tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加4%");
-                    tooltips.ReplaceText("+0.5 HP/s life regen", "生命再生增加0.5HP/s");
+                    tooltips.ReplaceText("+0.5 HP/s life regen", "+0.5HP/s生命再生");
                     tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
                 }
                 if (item.type == ItemID.LeadHelmet || item.type == 691 || item.type == 692)
@@ -990,7 +990,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.TungstenHelmet || item.type == 694 || item.type == 695)
                 {
                     tooltips.ReplaceText("7% increased damage", "伤害增加7%");
-                    tooltips.ReplaceText("+0.5 HP/s life regen", "生命再生增加0.5HP/s");
+                    tooltips.ReplaceText("+0.5 HP/s life regen", "+0.5HP/s生命再生");
                     tooltips.ReplaceText("8% increased movement speed", "移速增加8%");
                 }
                 if (item.type == ItemID.PlatinumHelmet || item.type == 697 || item.type == 698)
@@ -1060,7 +1060,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.SquireAltHead || item.type == 3872 || item.type == 3873)
                 {
-                    tooltips.ReplaceText("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生速度");
+                    tooltips.ReplaceText("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生");
                     tooltips.ReplaceText("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
                     tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
                 }
