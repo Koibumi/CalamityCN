@@ -575,7 +575,7 @@ PhoenixFlameBarrage: {
 }
 
 Photosynthesis: {
-	DisplayName: Photosynthesis
+	DisplayName: 光合射线
 	Tooltip:
 		'''
 		发射一条明亮的光束，在命中敌人时转化为能量
@@ -783,7 +783,7 @@ TearsofHeaven: {
 }
 
 Teslastaff: {
-	DisplayName: Teslastaff
+	DisplayName: 特斯拉杖
 	Tooltip:
 		'''
 		发射一束精准可控的闪电光束
