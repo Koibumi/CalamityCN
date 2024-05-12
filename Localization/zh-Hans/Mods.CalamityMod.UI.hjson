@@ -146,15 +146,15 @@ ArtemisApolloIcon: 阿尔忒弥斯和阿波罗，一对能量储备十分不稳�
 DebuffSystem: {
 	Title: 减益抗性
 	Description: 怪物对特定减益伤害抗性高或低
-	Heat: 火系减益
-	Cold: 冷系减益
-	Sickness: 疾病系减益
-	Water: 水系减益
-	Electricity: 电系减益
-	To: 于
-	Weak: 弱抗
-	Neutral: 常抗
-	Resistant: 强抗
+	Heat: 火系伤害
+	Cold: 冷系伤害
+	Sickness: 疾病系伤害
+	Water: 水系伤害
+	Electricity: 电系伤害
+	To: ""
+	Weak: 受较高
+	Neutral: 受较低
+	Resistant: 受正常
 }
 
 // Draedon Contact UI. Repeated newlines indicate pauses in Draedon's speaking. As a result, newline characters may be explicitly defined.
