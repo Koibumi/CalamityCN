@@ -290,7 +290,7 @@ EutrophicSand: {
 }
 
 HardenedEutrophicSand: {
-	DisplayName: Hardened Eutrophic Sand
+	DisplayName: 硬化富营养沙
 	Tooltip: ""
 }
 
@@ -344,8 +344,8 @@ BabyGhostBellJar: {
 }
 
 CirrusCouch: {
-	DisplayName: Cirrus Couch
-	Tooltip: This shouldn't exist...
+	DisplayName: Cirrus沙发
+	Tooltip: 它不该存在……
 }
 
 AquaticScourgeRelic: {
@@ -642,7 +642,7 @@ AstralFountainItem: {
 }
 
 BrimstoneLavaFountainItem: {
-	DisplayName: Brimstone Lava Fountain
+	DisplayName: 硫磺熔岩喷泉
 	Tooltip: ""
 }
 
