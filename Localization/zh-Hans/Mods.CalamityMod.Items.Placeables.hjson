@@ -344,7 +344,7 @@ BabyGhostBellJar: {
 }
 
 CirrusCouch: {
-	DisplayName: Cirrus沙发
+	DisplayName: 醉仙女沙发
 	Tooltip: 它不该存在……
 }
 
@@ -667,48 +667,48 @@ LanternCenter: {
 }
 
 AstralProjector: {
-	DisplayName: Astral Projector
-	Tooltip: "'Control a small portion of the Astral Infection's influence.'"
+	DisplayName: 星辉投影仪
+	Tooltip: "“控制星辉瘟疫现象的一小部分”"
 }
 
 BlueDistortedMonolith: {
-	DisplayName: Blue Distorted Monolith
-	Tooltip: "'Create a localized rupture in the fabric of reality.'"
+	DisplayName: 扭曲幽蓝天塔柱
+	Tooltip: "“在现实幕布上划开一道裂缝”"
 }
 
 BossRushMonolith: {
-	DisplayName: Boss Rush Monolith
-	Tooltip: "'Bring forth the end.'"
+	DisplayName: Boss Rush天塔柱
+	Tooltip: "“带来终结”"
 }
 
 DeepSeaAnchor: {
-	DisplayName: Deep Sea Anchor
-	Tooltip: "'Dampen the air with heavy amounts of brine.'"
+	DisplayName: 深海之锚
+	Tooltip: "“在你的空气里加了亿点点盐水”"
 }
 
 DraconicIncense: {
-	DisplayName: Draconic Incense
-	Tooltip: "'Ignite the air with dragonfire.'"
+	DisplayName: 龙焚香
+	Tooltip: "“龙火在空气中冉冉升起”"
 }
 
 ExoObelisk: {
-	DisplayName: Exo Obelisk
-	Tooltip: "'Energize the atmosphere with exo energy.'"
+	DisplayName: 星流方尖碑
+	Tooltip: "“星流能量渗入大气之中”"
 }
 
 FrigidMonolith: {
-	DisplayName: Frigid Monolith
-	Tooltip: "'Enchant the sky with frosty auroras.'"
+	DisplayName: 霜冻天塔柱
+	Tooltip: "“天边染上一抹冷冽的极光”"
 }
 
 PlagueHumidifier: {
-	DisplayName: Plague Humidifier
-	Tooltip: "'Spread light amounts of the plague through the air.'"
+	DisplayName: 瘟疫加湿器
+	Tooltip: "“在空气中散播一点点瘟疫”"
 }
 
 PurpleDistortedMonolith: {
-	DisplayName: Purple Distorted Monolith
-	Tooltip: "'Create a localized rupture in the fabric of reality.'"
+	DisplayName: 扭曲魇紫天塔柱
+	Tooltip: "“在现实幕布上划开一道裂缝”"
 }
 
 NavyPrismTorch: {
@@ -2972,12 +2972,12 @@ LivingHolyFireBlock: {
 }
 
 DraedonExoSelectMusicBox: {
-	DisplayName: Music Box (Exo Mech Selection)
+	DisplayName: 音乐盒（星流巨械的选择）
 	Tooltip: Plays 'Signal Received' by CDMusic
 }
 
 DraedonTalkMusicBox: {
-	DisplayName: Music Box (Codebreaker)
+	DisplayName: 音乐盒（密码破译器）
 	Tooltip: Plays a variant of 'Signal Received' by CDMusic
 }
 
@@ -3477,7 +3477,7 @@ VoidstoneWall: {
 }
 
 WulfrumPlatingWall: {
-	DisplayName: Wulfrum Plating Wall
+	DisplayName: 	钨钢镀墙
 	Tooltip: ""
 }
 
