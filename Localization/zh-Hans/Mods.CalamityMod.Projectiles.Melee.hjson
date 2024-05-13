@@ -193,6 +193,8 @@ Nebudust.DisplayName: 星云余烬
 NebulashFlail.DisplayName: 星云鞭
 NebulaShot.DisplayName: 子弹
 NeptuneOrb.DisplayName: 渊海三叉戟
+// NeptunesBountyProjectile.DisplayName: Neptune's Bounty
+// NeptunesBountySplitProjectile.DisplayName: Neptune's Bounty Jet
 Oathblade.DisplayName: 禁忌之刃
 OathswordFlame.DisplayName: 禁忌火焰
 Orbacle.DisplayName: 圣金源光球
@@ -259,7 +261,6 @@ StygianShieldAttack.DisplayName: 冲刺
 StygianShieldThrown.DisplayName: 混沌之盾
 SulphurousGrabberBubble.DisplayName: 黏性气泡
 SulphurousGrabberBubble2.DisplayName: 黏性气泡
-SunlightBlade.DisplayName: 日炎剑
 SwordsmithsPride.DisplayName: 剑匠之傲
 SwordsmithsPrideBeam.DisplayName: 剑匠之影
 SwordsplosionBlue.DisplayName: 爆破剑

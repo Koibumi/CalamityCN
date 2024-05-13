@@ -232,7 +232,7 @@ ProfanedGuardianCommander.DisplayName: 统御守卫
 ProfanedGuardianDefender.DisplayName: 神石守卫
 ProfanedGuardianHealer.DisplayName: 圣晶守卫
 ProfanedRocks.DisplayName: 亵渎岩
-Providence.DisplayName: 亵渎天神，普罗维登斯 
+Providence.DisplayName: 亵渎天神，普罗维登斯
 ProvSpawnDefense.DisplayName: 圣御守卫
 ProvSpawnHealer.DisplayName: 天术守卫
 ProvSpawnOffense.DisplayName: 神攻守卫
@@ -497,7 +497,7 @@ SEAHOE: {
 		DislikeNPC: 我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。
 		HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！"
 		LikeNPC_Princess: "{NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。"
-		Princess_LovesNPC: "当我在{NPCName}附近的时候，他总是报以微笑，为此我喜欢待在他身边！"
+		Princess_LovesNPC: 当我在{NPCName}附近的时候，他总是报以微笑，为此我喜欢待在他身边！
 	}
 }
 

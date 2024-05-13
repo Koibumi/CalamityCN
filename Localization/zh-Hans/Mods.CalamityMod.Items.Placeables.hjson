@@ -668,47 +668,47 @@ LanternCenter: {
 
 AstralProjector: {
 	DisplayName: 星辉投影仪
-	Tooltip: "“控制星辉瘟疫现象的一小部分”"
+	Tooltip: “控制星辉瘟疫现象的一小部分”
 }
 
 BlueDistortedMonolith: {
 	DisplayName: 扭曲幽蓝天塔柱
-	Tooltip: "“在现实幕布上划开一道裂缝”"
+	Tooltip: “在现实幕布上划开一道裂缝”
 }
 
 BossRushMonolith: {
 	DisplayName: Boss Rush天塔柱
-	Tooltip: "“带来终结”"
+	Tooltip: “带来终结”
 }
 
 DeepSeaAnchor: {
 	DisplayName: 深海之锚
-	Tooltip: "“在你的空气里加了亿点点盐水”"
+	Tooltip: “在你的空气里加了亿点点盐水”
 }
 
 DraconicIncense: {
 	DisplayName: 龙焚香
-	Tooltip: "“龙火在空气中冉冉升起”"
+	Tooltip: “龙火在空气中冉冉升起”
 }
 
 ExoObelisk: {
 	DisplayName: 星流方尖碑
-	Tooltip: "“星流能量渗入大气之中”"
+	Tooltip: “星流能量渗入大气之中”
 }
 
 FrigidMonolith: {
 	DisplayName: 霜冻天塔柱
-	Tooltip: "“天边染上一抹冷冽的极光”"
+	Tooltip: “天边染上一抹冷冽的极光”
 }
 
 PlagueHumidifier: {
 	DisplayName: 瘟疫加湿器
-	Tooltip: "“在空气中散播一点点瘟疫”"
+	Tooltip: “在空气中散播一点点瘟疫”
 }
 
 PurpleDistortedMonolith: {
 	DisplayName: 扭曲魇紫天塔柱
-	Tooltip: "“在现实幕布上划开一道裂缝”"
+	Tooltip: “在现实幕布上划开一道裂缝”
 }
 
 NavyPrismTorch: {
@@ -2641,9 +2641,9 @@ StatigelTable: {
 	Tooltip: ""
 }
 
-StatigelWorkbench: {
-	DisplayName: 斯塔提斯工作台
-	Tooltip: ""
+StatigelWorkBench: {
+	// DisplayName: Statigel Work Bench
+	// Tooltip: ""
 }
 
 StratusBathtub: {
@@ -2941,9 +2941,9 @@ WulfrumToilet: {
 	Tooltip: ""
 }
 
-WulfrumWorkbench: {
-	DisplayName: 钨钢工作台
-	Tooltip: ""
+WulfrumWorkBench: {
+	// DisplayName: Wulfrum Work Bench
+	// Tooltip: ""
 }
 
 HardenedAstralSand: {
@@ -3477,7 +3477,7 @@ VoidstoneWall: {
 }
 
 WulfrumPlatingWall: {
-	DisplayName: 	钨钢镀墙
+	DisplayName: 钨钢镀墙
 	Tooltip: ""
 }
 

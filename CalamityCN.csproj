@@ -6,8 +6,6 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="CalamityMod">
       <HintPath>..\lib\CalamityMod.dll</HintPath>
     </Reference>

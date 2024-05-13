@@ -75,7 +75,7 @@ GodSlayerSlug: {
 }
 
 HallowPointRound: {
-	DisplayName: 神圣空尖弹 
+	DisplayName: 神圣空尖弹
 	Tooltip:
 		'''
 		神圣耀光命中时造成6点额外伤害

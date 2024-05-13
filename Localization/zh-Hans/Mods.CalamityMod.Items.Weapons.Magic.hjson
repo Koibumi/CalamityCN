@@ -336,14 +336,14 @@ FrostBolt: {
 	Tooltip: 发射缓慢飞行的冰矢
 }
 
-Genisis: {
-	DisplayName: 源
-	Tooltip:
+Genesis: {
+	// DisplayName: Genesis
+	/* Tooltip:
 		'''
-		发射一组激光束，每次射击都会使散布降低
-		每射击六次便会发射一束分裂的源能量束，并重置此武器的散布。
-		源能量束分裂处命中敌怪会造成更高伤害
-		'''
+		Fire an array of lasers that decreases in spread for each shot
+		Every sixth shot fires a splitting Genesis Beam and resets the spread of the weapon
+		Hitting an enemy where the Genesis Beam splits deals increased damage
+		''' */
 }
 
 GhastlyVisage: {

@@ -57,7 +57,8 @@ AntiMaterielRifle: {
 		'''
 		将火枪子弹转化为.50口径的狙击子弹，撕裂敌人的防御和伤害减免
 		暴击会在敌人两侧释放第二轮含有5发子弹的弹雨
-        '''
+		      
+		'''
 }
 
 AquashardShotgun: {
@@ -314,18 +315,21 @@ CoralCannon: {
 		'''
 }
 
+CorinthPrime: {
+	// DisplayName: Corinth Prime
+	/* Tooltip:
+		'''
+		Shoots a tight burst of 6 high velocity bullets
+		Press <right> to fire a grenade
+		The grenade emits a massive explosion if it doesn't touch anything for 2 seconds
+		Otherwise, the grenade emits an extremely weak explosion
+		Converts musket balls into high velocity explosive bullets
+		''' */
+}
+
 CorrodedCaustibow: {
 	DisplayName: 酸腐弓
 	Tooltip: 将木箭转换为缓慢但强力的毒箭，毒箭会留下辐射光环
-}
-
-CosmicBolter: {
-	DisplayName: 宇束弓
-	Tooltip:
-		'''
-		发射一列紧密的三发箭矢
-		将木箭转化为可以在物块表面滑行的能量束
-		'''
 }
 
 CrackshotColt: {
@@ -854,7 +858,7 @@ OpalStriker: {
 	Tooltip:
 		'''
 		发射可充能的穿透热能矢
-        满充能会造成额外伤害并且有更快的飞行速度
+		      满充能会造成额外伤害并且有更快的飞行速度
 		'''
 }
 
