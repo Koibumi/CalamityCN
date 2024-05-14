@@ -316,15 +316,15 @@ CoralCannon: {
 }
 
 CorinthPrime: {
-	// DisplayName: Corinth Prime
-	/* Tooltip:
+	DisplayName: 科林斯Prime
+	Tooltip:
 		'''
-		Shoots a tight burst of 6 high velocity bullets
-		Press <right> to fire a grenade
-		The grenade emits a massive explosion if it doesn't touch anything for 2 seconds
-		Otherwise, the grenade emits an extremely weak explosion
-		Converts musket balls into high velocity explosive bullets
-		''' */
+		发射6发密集高速子弹
+		右键发射一颗榴弹
+		如果榴弹在2秒内未接触到任何东西，那么会产生巨大的爆炸
+		否则，榴弹只会产生极其微弱的爆炸
+		将火枪子弹转化为高速爆炸弹
+		'''
 }
 
 CorrodedCaustibow: {

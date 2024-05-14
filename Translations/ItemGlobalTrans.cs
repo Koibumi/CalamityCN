@@ -18,6 +18,7 @@ using Terraria.ModLoader;
 using CalamityMod.Items.Placeables.Furniture.CraftingStations;
 using CalamityMod.Items.Placeables.Walls;
 using CalamityMod.Items.Placeables.FurnitureWulfrum;
+using CalamityMod.Items.Weapons.Summon;
 using CalamityCN.Utils;
 using System.Runtime.CompilerServices;
 using Terraria.Localization;
@@ -516,6 +517,11 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText(" or Revengeance", "或者复仇");
                 }
 
+                 if (item.type == ModContent.ItemType<LiliesOfFinality>())
+                {
+                    tooltips.ReplaceText(" summon damage", "召唤伤害");
+                }
+
 
             //-原版物品-
             if (item.type == 3110 || item.type == 1865 || item.type == 899 || item.type == 900)
@@ -535,7 +541,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == 2275)
                 {
-                    tooltips.ReplaceText("5% increased magic damage and critical strike chance", "魔法伤害和魔法暴击率提高5%");
+                    tooltips.ReplaceText("6% increased magic critical strike chance", "魔法暴击率提高6%");
                 }
 
                 #region 武器
@@ -572,7 +578,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == 483 || item.type == 537)
                 {
-                    tooltips.ReplaceText("Decreases enemy defense by 25% on hit", "命中时减少敌人25%防御");
+                    tooltips.ReplaceText("Permanently decreases enemy defense by 25% on hit", "命中时永久减少敌人25%防御");
                 }
 
                 if (item.type == 1185 || item.type == 1186)
@@ -582,7 +588,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == 484 || item.type == 390)
                 {
-                    tooltips.ReplaceText("Decreases enemy contact damage by 10% on hit", "命中时减少敌人10%接触伤害");
+                    tooltips.ReplaceText("Permanently decreases enemy contact damage by 10% on hit", "命中时永久减少敌人10%接触伤害");
                 }
 
                 if (item.type == 1192 || item.type == 1193)
@@ -629,7 +635,7 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Can mine Scoria Ore located in the Abyss", "可开采深渊中的熔渣矿");
                 }
 
-                if (item.type == ItemID.VortexPickaxe || item.type == ItemID.NebulaPickaxe || item.type == ItemID.SolarFlarePickaxe || item.type == ItemID.StardustPickaxe)
+                if (item.type == ItemID.VortexPickaxe || item.type == ItemID.NebulaPickaxe || item.type == ItemID.SolarFlarePickaxe || item.type == ItemID.StardustPickaxe || item.type == ItemID.VortexDrill || item.type == ItemID.NebulaDrill || item.type == ItemID.SolarFlareDrill || item.type == ItemID.StardustDrill)
                 {
                     tooltips.ReplaceText("Can mine Uelibloom Ore", "可开采龙蒿矿");
                 }
@@ -664,11 +670,6 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Secondary yoyos will do 50% less damage", "第二个悠悠球伤害减少50%");
                 }
 
-                if (item.type == ItemID.ArmorPolish || item.type == ItemID.ArmorBracing)
-                {
-                    tooltips.ReplaceText("and Armor Crunch", "免疫碎甲减益");
-                }
-
                 if (item.type == ItemID.AnkhShield)
                 {
                     tooltips.ReplaceText("including Mighty Wind", "包括强风");
@@ -677,7 +678,9 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.BlackBelt || item.type == ItemID.MasterNinjaGear || item.type == ItemID.BrainOfConfusion)
                 {
                     tooltips.ReplaceText("Grants the ability to dodge attacks", "获得闪避能力");
-                    tooltips.ReplaceText("The dodge has a 90 second cooldown which is shared with all other dodges and reflects", "闪避有90秒冷却，且与其他闪避和反弹效果共享冷却");
+                    tooltips.ReplaceText("Attacks that deal less than 5% of your max life in damage will not be dodged", "低于最大生命值5%伤害的攻击不会触发闪避");
+                    tooltips.ReplaceText("The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage", "根据被闪避的攻击伤害，闪避有15到90秒的冷却时间");
+                    tooltips.ReplaceText("The cooldown is shared with all other dodges and reflects", "该冷却时间与其他的闪避或反弹效果共享");
                 }
 
                 if (item.type == ItemID.FleshKnuckles || item.type == ItemID.BerserkerGlove || item.type == ItemID.HeroShield)
@@ -685,18 +688,27 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Max life increased by 45", "最大生命增加45");
                 }
 
-                if (item.type == ItemID.PowerGlove || item.type == ItemID.TitanGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove)
+                if (item.type == ItemID.PowerGlove || item.type == ItemID.TitanGlove || item.type == ItemID.MechanicalGlove || item.type == ItemID.BerserkerGlove || item.type == ItemID.FireGauntlet)
                 {
 	                tooltips.ReplaceText("10% increased true melee damage", "真近战伤害增加10%");
+                }
+
+                if (item.type == ItemID.PowerGlove)
+                {
+	                tooltips.ReplaceText("近战速度提高12%", "近战攻速增加10%，该效果不会与其下位合成材料叠加");
+                }
+
+                if (item.type == ItemID.MechanicalGlove)
+                {
 	                tooltips.ReplaceText("12% increased melee damage", "近战伤害增加12%");
-	                tooltips.ReplaceText("12% increased melee speed, does not stack with downgrades, does not stack with downgrades", "近战攻速增加12%，该效果不会与其下位合成材料叠加");
+	                tooltips.ReplaceText("12% increased melee speed, does not stack with downgrades", "近战攻速增加12%，该效果不会与其下位合成材料叠加");
                 }
 
                 if (item.type == ItemID.FireGauntlet)
                 {
+                    tooltips.ReplaceText("火焰伤害", "狱炎减益");
 	                tooltips.ReplaceText("14% increased melee damage", "近战伤害增加14%");
 	                tooltips.ReplaceText("14% increased melee speed, does not stack with downgrades", "近战攻速增加14%，该效果不会与其下位合成材料叠加");
-	                tooltips.ReplaceText("10% increased true melee damage", "真近战伤害增加10%");
                 }
                 
                 if (item.type == ItemID.SunStone)
@@ -740,9 +752,19 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高1.1倍");
                 }
 
-                if (item.type == ItemID.ArcaneFlower || item.type == ItemID.MagnetFlower)
+                if (item.type == ItemID.MagnetFlower)
                 {
-                    tooltips.ReplaceText("12% reduced mana usage", "减少12%魔力消耗");
+                    tooltips.ReplaceText("10% reduced mana cost", "减少10%魔力消耗");
+                }
+
+                if (item.type == ItemID.ArcaneFlower || item.type == ItemID.ManaCloak)
+                {
+                    tooltips.ReplaceText("12% reduced mana cost", "减少12%魔力消耗");
+                }
+
+                if (item.type == ItemID.ArcaneFlower)
+                {
+                    tooltips.ReplaceText("5% increased magic damage", "增加5%魔法伤害");
                 }
 
                 if (item.type == ItemID.MagicQuiver)
@@ -761,6 +783,16 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("7% increased ranged damage and critical strike chance", "提高7%远程伤害和暴击率");
                 }
 
+                if (item.type == ItemID.RifleScope)
+                {
+                    tooltips.ReplaceText("Increase view range for guns (Right click to zoom out)", "扩大枪的视野范围（右键点击可拉远视野）");
+                }
+
+                if (item.type == ItemID.SniperScope || item.type == ItemID.RifleScope || item.type == ItemID.ReconScope)
+                {
+                    tooltips.ReplaceText("The scope effect can be toggled with visibility", "扩大视野效果可通过可见性开启或关闭");
+                }
+
                 if (item.type == ItemID.HandWarmer)
                 {
                     tooltips.ReplaceText("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外+1HP/s生命再生");
@@ -768,7 +800,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.HellfireTreads)
                 {
-                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘于1.5");
+                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘以1.5");
                     tooltips.ReplaceText("All attacks inflict Hellfire", "所有攻击造成狱炎减益");
                 }
 
@@ -996,7 +1028,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.PlatinumHelmet || item.type == 697 || item.type == 698)
                 {
                     tooltips.ReplaceText("6% increased damage", "伤害增加6%");
-                    tooltips.ReplaceText("5% increased critical strike chance", "暴击率增加5%");
+                    tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
                     tooltips.ReplaceText("10% increased movement speed", "移速增加10%");
                 }
                 if (item.type == ItemID.AncientShadowHelmet || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
@@ -1119,14 +1151,12 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.Ale || item.type == ItemID.Sake)
                 {
                     tooltips.ReplaceText("Increases melee damage and speed by 10% and reduces defense by 10%", "增加10%近战伤害和攻速，减少10%防御");
+                    tooltips.ReplaceText("Counts as an alcohol for Alcohol Poisoning", "在酒精中毒效果中被视为一种酒");
+                    tooltips.ReplaceText("Drinking more than 3 different alcohols might not end well with your liver", "饮用三种以上的酒或许对你的肝脏不太好");
                 }
                 if (item.type == ItemID.GillsPotion)
                 {
                     tooltips.ReplaceText("Greatly reduces breath loss in the abyss", "大大缓解深渊造成的呼吸困难");
-                }
-                if (item.type == ItemID.BottledHoney)
-                {
-                    tooltips.ReplaceText("Grants the Honey buff for 2 minutes", "给予2分钟蜂蜜增益");
                 }
                 if (item.type == ItemID.ArcheryPotion)
                 {
@@ -1151,10 +1181,6 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.RodofDiscord)
                 {
                     tooltips.ReplaceText("Teleportation is disabled while Chaos State is active", "混沌状态下禁用传送");
-                }
-                if (item.type == ItemID.EmptyBucket || item.type == ItemID.SuperAbsorbantSponge)
-                {
-                    tooltips.ReplaceText("Cannot be used in the Abyss", "无法在深渊使用");
                 }
                 if (item.type == ItemID.DD2ElderCrystal)
                 {

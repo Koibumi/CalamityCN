@@ -193,8 +193,8 @@ Nebudust.DisplayName: 星云余烬
 NebulashFlail.DisplayName: 星云鞭
 NebulaShot.DisplayName: 子弹
 NeptuneOrb.DisplayName: 渊海三叉戟
-// NeptunesBountyProjectile.DisplayName: Neptune's Bounty
-// NeptunesBountySplitProjectile.DisplayName: Neptune's Bounty Jet
+NeptunesBountyProjectile.DisplayName: 海神之馈赠
+NeptunesBountySplitProjectile.DisplayName: 海神之馈赠喷流
 Oathblade.DisplayName: 禁忌之刃
 OathswordFlame.DisplayName: 禁忌火焰
 Orbacle.DisplayName: 圣金源光球

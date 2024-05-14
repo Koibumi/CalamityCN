@@ -2,7 +2,7 @@ Mods: {
 	CalamityModMusic: {
 		Items: {
 			AbyssLayer1MusicBox: {
-				DisplayName: Music Box (Abyss - Layer 1)
+				DisplayName: 音乐盒（硫海深处）
 				Tooltip: Plays 'hesitation' by Heart Plus Up!
 			}
 
@@ -207,7 +207,7 @@ Mods: {
 			}
 
 			PrimordialWyrmMusicBox: {
-				DisplayName: 音乐盒（始源幻海妖龙）
+				DisplayName: 音乐盒（始源妖龙）
 				Tooltip: Plays 'Threats of the Ocean Floor' by DM DOKURO
 			}
 

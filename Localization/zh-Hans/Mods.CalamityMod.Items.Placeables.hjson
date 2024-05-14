@@ -1,4 +1,4 @@
-FormattedBannerName: "{0}旗帜"
+FormattedBannerName: "{0}旗"
 FormattedBannerTooltip: "{$CommonItemTooltip.BannerBonus}{0}"
 
 AstralPylon: {
@@ -430,7 +430,7 @@ GreatSandSharkRelic: {
 
 HiveMindRelic: {
 	DisplayName: 腐巢意志圣物
-	Tooltip: 对其可能的未来的一瞥……
+	Tooltip: ""
 }
 
 LeviathanAnahitaRelic: {
@@ -455,7 +455,7 @@ OldDukeRelic: {
 
 PerforatorsRelic: {
 	DisplayName: 血肉宿主圣物
-	Tooltip: 对其可能的未来的一瞥……
+	Tooltip: ""
 }
 
 PlaguebringerGoliathRelic: {
@@ -2972,7 +2972,7 @@ LivingHolyFireBlock: {
 }
 
 DraedonExoSelectMusicBox: {
-	DisplayName: 音乐盒（星流巨械的选择）
+	DisplayName: 音乐盒（选择星流巨械）
 	Tooltip: Plays 'Signal Received' by CDMusic
 }
 
