@@ -1,76 +1,78 @@
 // Broken Biome Blade
 DefaultAttunement: {
-	// Name: Pure Clarity
-	// Function: Fires a weak projectile that crushes enemy defenses
+	Name: 澄澈之纯净
+	Function: 发射能够破坏敌人防御的剑气
 }
 
 HotAttunement: {
-	// Name: Arid Grandeur
-	/* Function:
+	Name: 伟岸之枯涸
+	Function:
 		'''
-		Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies
-		The blades can also be used to bounce off tiles when in the air
-		''' */
+		长按左键，将在前方幻化出灼热的剑刃，击中敌怪的次数越多，剑刃将越发庞大与锋利
+		当你在半空中时，也可用剑刃打击物块来进行跳跃
+		'''
 }
 
 ColdAttunement: {
-	// Name: Biting Embrace
-	// Function: Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second
+	Name: 拥怀之凛冽
+	Function: 以冰川为脊，以寒风为刃，凝聚剑身，释放三连剑击。最后一击将冻结敌怪
 }
 
 TropicalAttunement: {
-	// Name: Grovetender's Touch
-	/* Function:
+	Name: 林妖之轻抚
+	Function:
 		'''
-		Throw out the blade using a vine whip
-		Striking enemies with the tip of the whip as it cracks guarantees a critical hit
-		The whip will also propel you towards struck tiles
-		''' */
+		将剑刃绑在藤蔓一端，挥舞藤鞭进行攻击
+		剑尖击中敌怪必定暴击，当剑尖击中物块时会将玩家拉向目标物块
+		'''
 }
 
 EvilAttunement: {
-	// Name: Decay's Retort
-	/* Function:
+	Name: 反抗之衰朽
+	Function:
 		'''
-		Lunge forward using a ghostly rapier projection that leeches life on enemy hits
-		You will bounce away from struck targets
-		''' */
+		化身为鬼魅般的剑影，向前方冲刺，并汲取击中敌怪的生命
+		击中目标将会从其身上弹开
+		'''
 }
 
 // Mended Biome Blade
 TrueDefaultAttunement: {
-	// Name: Pure Clarity
-	/* Function:
+	Name: 澄澈之纯净
+	Function:
 		'''
-		Fires a weak projectile that crushes enemy defenses
-		Landing true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes
-		''' */
+		发射能够破坏敌人防御的剑气
+		当剑刃本体击中敌怪，将会为其施加纯净之符，被标记者将无法逃开剑气的追踪
+		'''
 }
 
 TrueHotAttunement: {
-	// Name: Arid Grandeur
-	/* Function:
+	Name: 伟岸之枯涸
+	Function:
 		'''
-		Hold <left> to conjure searing blades in front of you that get larger and stronger the more you hit enemies
-		The blades can also be used to bounce off tiles when in the air
-		Releasing after the blades are fully charged sends them hurtling forwards to shred your foes
-		''' */
+		于前方幻化出多把灼热的剑刃，击中敌怪的次数越多，剑刃将越发庞大与锋利
+		当你在半空中时，也可用剑刃打击物块来进行跳跃
+		当剑刃蓄力达到极致，解开其束缚，其将如野兽般向前冲锋，撕碎前方阻碍之敌
+		'''
 }
 
 TrueColdAttunement: {
-	// Name: Biting Embrace
-	/* Function:
+	Name: 拥怀之凛冽
+	Function:
 		'''
-		Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second
-		Lingering glacial mist is released on each swing, dealing damage to enemies wandering into it
-		''' */
+		以冰川为脊，以寒风为刃，凝聚剑身，释放三连剑击。最后一击将冻结敌怪
+		当此剑于常世中舞动，极寒之雾伴随其身，来犯者，当受永冻之罚
+		'''
 }
 
 TrueTropicalAttunement: {
-	// Name: Grovetender's Touch
-	/* Function:
+	Name: 林妖之轻抚
+	Function:
 		'''
-		Throw out the blade using a vine whip.
+		将剑刃绑在藤蔓一端，挥舞藤鞭进行攻击
+		剑尖击中敌怪必定暴击，当剑尖击中物块时会将玩家拉向目标物块
+		暴击将会使藤蔓蔓延，其最多可以击中三个目标
+		'''
 }
 
 TrueEvilAttunement: {
