@@ -923,7 +923,7 @@ Sacrifice: {
 }
 
 SamsaraSlicer: {
-	DisplayName: Samsara Slicer
+	DisplayName: 回春环刃
 	Tooltip:
 		'''
 		掷出泰拉飞盘，有敌人在附近时有几率分裂出新的飞盘
