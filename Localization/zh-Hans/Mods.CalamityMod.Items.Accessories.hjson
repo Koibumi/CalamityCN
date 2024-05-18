@@ -924,7 +924,7 @@ HideofAstrumDeus: {
 		'''
 		受到伤害或使用真近战武器击中敌人时会令许多幻星从天而降
 		受到伤害后增加30%真近战伤害
-		Boost duration scales with the amount of damage you took, up to 10 seconds
+		增幅的持续时间基于你受到的伤害值，至多持续10秒
 		使你免疫幻星感染、诅咒狱火、着火了！和霜冻减益
 		攻击你的敌人也会受到伤害并且会受到幻星感染减益
 		'''
