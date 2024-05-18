@@ -196,15 +196,15 @@ StarlightFuelCell: {
 }
 
 // Spawn Blockers
-SpawnBlockersOn: Currently enabled
-SpawnBlockersOff: Currently disabled
+SpawnBlockersOn: 当前启用
+SpawnBlockersOff: 当前禁用
 
 AntiCystOintment: {
 	DisplayName: 抗囊肿药膏
 	Tooltip:
 		'''
-		Toggle this item to prevent hive cysts from spawning near you
-		Press <right> to toggle
+		切换此物品的状态可阻止腐化肿瘤在你附近生成
+		按下右键切换
 		[STATE]
 		'''
 }
@@ -213,8 +213,8 @@ AntiTumorOintment: {
 	DisplayName: 抗肿瘤药膏
 	Tooltip:
 		'''
-		Toggle this item to prevent hive tumors from spawning near you
-		Press <right> to toggle
+		切换此物品的状态可阻止血肉囊在你附近生成
+		按下右键切换
 		[STATE]
 		'''
 }
@@ -223,8 +223,8 @@ BleachBall: {
 	DisplayName: 白色水球
 	Tooltip:
 		'''
-		Toggle this item to prevent Aquatic Scourge from spawning
-		Press <right> to toggle
+		切换此物品的状态可阻止渊海灾虫自然生成
+		按下右键切换
 		[STATE]
 		'''
 }
@@ -233,8 +233,8 @@ BrokenWaterFilter: {
 	DisplayName: 破损净水器
 	Tooltip:
 		'''
-		Toggle this item to prevent Acid Rain from occurring
-		Press <right> to toggle
+		切换此物品的状态可阻止酸雨自然生成
+		按下右键切换
 		[STATE]
 		'''
 }
@@ -243,8 +243,8 @@ SirenproofEarMuffs: {
 	DisplayName: 防海妖耳塞
 	Tooltip:
 		'''
-		Toggle this item to prevent Anahita from spawning
-		Press <right> to toggle
+		切换此物品的状态可阻止阿娜希塔生成
+		按下右键切换
 		[STATE]
 		'''
 }
@@ -253,8 +253,8 @@ VoodooDemonVoodooDoll: {
 	DisplayName: 巫毒恶魔的巫毒娃娃
 	Tooltip:
 		'''
-		Toggle this item to prevent voodoo demons from spawning near you
-		Press <right> to toggle
+		切换此物品的状态可阻止巫毒恶魔在你附近生成
+		按下右键切换
 		[STATE]
 		'''
 }
