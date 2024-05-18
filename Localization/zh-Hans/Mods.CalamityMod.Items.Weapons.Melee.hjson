@@ -268,18 +268,6 @@ CelestialClaymore: {
 	Tooltip: 在光标附近生成会爆炸的宇宙能量之星，可以施加多种减益
 }
 
-ChronomancersScythe: {
-	DisplayName: 时空术士之镰
-	Tooltip:
-		'''
-		迅速发射冰锥
-		按住右键环绕自身挥舞镰刀，释放一圈钟形排列的追踪冰锥
-		直接用镰刀击中敌人有概率生成一个时钟
-		接触时钟会提升移动速度与加速度，每个时钟提升5%
-		此加成至多叠加3次，每过5秒便会降低一级
-		'''
-}
-
 ClamCrusher: {
 	DisplayName: 海蚌锤
 	Tooltip:

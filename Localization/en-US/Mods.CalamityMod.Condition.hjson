@@ -1,64 +1,43 @@
 // Drop conditions
 Drops: {
-	Cynosure: Drops once you have defeated both Draedon and Calamitas
-	DownedKS: Drops after defeating King Slime
-	DownedDS: Drops after defeating the Desert Scourge
-	DownedEoC: Drops after defeating the Eye of Cthulhu
-	DownedCrab: Drops after defeating Crabulon
-	DownedEoW: Drops after defeating the Eater of Worlds
-	DownedBoC: Drops after defeating the Brain of Cthulhu
-	DownedHM: Drops after defeating the Hive Mind
-	DownedPerfs: Drops after defeating the Perforators
-	DownedQB: Drops after defeating the Queen Bee
-	DownedDeer: Drops after defeating Deerclops
-	DownedSkele: Drops after defeating Skeletron
-	DownedSG: Drops after defeating the Slime God
-	Hardmode: Drops in Hardmode
-	DownedQS: Drops after defeating Queen Slime
-	DownedCryo: Drops after defeating Cryogen
-	DownedAS: Drops after defeating the Aquatic Scourge
-	DownedBrim: Drops after defeating the Brimstone Elemental
-	DownedDest: Drops after defeating the Destroyer
-	DownedTwins: Drops after defeating the Twins
-	DownedSP: Drops after defeating Skeletron Prime
-	Downed1Mech: Drops after defeating a Mechanical Boss
-	Downed3Mechs: Drops after defeating all three Mechanical Bosses
-	DownedCal: Drops after defeating Calamitas Clone
-	DownedPlant: Drops after defeating Plantera
-	DownedCalPlant: Drops after defeating Calamitas or Plantera
-	DownedLevi: Drops after defeating the Leviathan and Anahita
-	DownedAureus: Drops after defeating Astrum Aureus
-	DownedGolem: Drops after defeating Golem
-	DownedPBG: Drops after defeating the Plaguebringer Goliath
-	DownedEoL: Drops after defeating the Empress of Light
-	DownedFish: Drops after defeating Duke Fishron
-	DownedRav: Drops after defeating the Ravager
-	DownedLC: Drops after defeating the Lunatic Cultist
-	DownedAD: Drops after defeating Astrum Deus
-	DownedML: Drops after defeating the Moon Lord
-	DownedGuard: Drops after defeating the Profaned Guardians
-	DownedBirb: Drops after defeating the Dragonfolly
-	DownedProv: Drops after defeating Providence
-	DownedSig: Drops after defeating Signus
-	DownedSW: Drops after defeating the Storm Weaver
-	DownedCV: Drops after defeating the Ceaseless Void
-	DownedPolter: Drops after defeating the Polterghast
-	DownedOD: Drops after defeating the Old Duke
-	DownedDoG: Drops after defeating the Devourer of Gods
-	DownedYharon: Drops after defeating Yharon
-	DownedExos: Drops after defeating the Exo Mechs
-	DownedSCal: Drops after defeating Calamitas
-	DownedAEW: Drops after defeating the Primordial Wyrm
-	DownedClam: Drops after defeating the Giant Clam
-	DownedClamHM: Drops after defeating the Giant Clam in Hardmode
-	DownedGSS: Drops after defeating the Great Sand Shark
-	DownedBetsy: Drops after defeating Betsy
-	DownedT1AR: Drops after defeating the first tier of Acid Rain
-	DownedT2AR: Drops after defeating the second tier of Acid Rain
+	Cynosure: After defeating both Draedon and Calamitas
+	DownedDS: After defeating the Desert Scourge
+	DownedCrab: After defeating Crabulon
+	DownedHM: After defeating the Hive Mind
+	DownedPerfs: After defeating the Perforators
+	DownedHMOrPerfs: After defeating the Hive Mind or the Perforators
+	DownedSG: After defeating the Slime God
+	DownedCryo: After defeating Cryogen
+	DownedAS: After defeating the Aquatic Scourge
+	DownedBrim: After defeating the Brimstone Elemental
+	DownedDest: After defeating the Destroyer
+	DownedCal: After defeating Calamitas Clone
+	DownedCalPlant: After defeating Calamitas or Plantera
+	DownedLevi: After defeating the Leviathan and Anahita
+	DownedAureus: After defeating Astrum Aureus
+	DownedPBG: After defeating the Plaguebringer Goliath
+	DownedRav: After defeating the Ravager
+	DownedAD: After defeating Astrum Deus
+	DownedGuard: After defeating the Profaned Guardians
+	DownedBirb: After defeating the Dragonfolly
+	DownedProv: After defeating Providence
+	DownedSig: After defeating Signus
+	DownedSW: After defeating the Storm Weaver
+	DownedCV: After defeating the Ceaseless Void
+	DownedPolter: After defeating the Polterghast
+	DownedOD: After defeating the Old Duke
+	DownedDoG: After defeating the Devourer of Gods
+	DownedYharon: After defeating Yharon
+	DownedExos: After defeating the Exo Mechs
+	DownedSCal: After defeating Calamitas
+	DownedAEW: After defeating the Primordial Wyrm
+	DownedClam: After defeating the Giant Clam
+	DownedClamHM: After defeating the Giant Clam in Hardmode
+	DownedGSS: After defeating the Great Sand Shark
+	DownedBetsy: After defeating Betsy
+	DownedT1AR: After defeating the first tier of Acid Rain
+	DownedT2AR: After defeating the second tier of Acid Rain
 	FirstKill: Drops only on the first kill
-	IsGFB: This is an Everything Seed drop rate
-	IsRev: This is a Revengeance Mode drop rate
-	IsDeath: This is a Death Mode drop rate
 	MechBoss: Drops on the first kill of the final Mechanical Boss
 	ProvidenceHallow:
 		'''
@@ -84,18 +63,16 @@ PotionConfig: While the Town NPC Potion Selling configuration option is enabled
 HasFlareGun: While holding a Flare Gun upgrade
 HasRogueArmor: While wearing rogue armor
 HasWings: While wearing wings
-InAstral: While in the Astral Infection
-InCrag: While in the Brimstone Crags
-InSulph: While in the Sulphurous Sea
-InSunken: While in the Sunken Sea
+InAstral: In the Astral Infection
+InCrag: In the Brimstone Crags
+InSulph: In the Sulphurous Sea
+InSunken: In the Sunken Sea
 InRev: In Revengeance Mode
+IsRevOrMM: In Revengeance Mode or in Master Mode
 AlcoholPoison: While inflicted with Alcohol Poisoning
-DownedHM: After the Hive Mind has been defeated
-DownedPerfs: After the Perforator Hive has been defeated
-DownedEvil2Boss: After the Hive Mind or the Perforators have been defeated
-PostCal: After Calamitas Clone has been defeated
-PostAureus: After Astrum Aureus has been defeated
-PostPolter: After Polterghast has been defeated
-PostOD: After the Old Duke has been defeated
-PostDoG: After the Devourer of Gods has been defeated
-PostYharon: After Yharon has been defeated
+PostCal: After defeating Calamitas Clone
+PostAureus: After defeating Astrum Aureus
+PostPolter: After defeating Polterghast
+PostOD: After defeating the Old Duke
+PostDoG: After defeating the Devourer of Gods
+PostYharon: After defeating Yharon

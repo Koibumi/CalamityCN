@@ -147,12 +147,15 @@ BurningSea: {
 	Tooltip: 发射弹跳硫磺火球，与水接触时会分裂成追踪火球
 }
 
-CarnageRay: {
-	DisplayName: 屠杀射线
+ChronomancersScythe: {
+	DisplayName: 时空术士之镰
 	Tooltip:
 		'''
-		发射血射线
-		被击中的敌人离你越远，射线造成的伤害越高
+		迅速发射冰锥
+		按住右键环绕自身挥舞镰刀，释放一圈钟形排列的追踪冰锥
+		直接用镰刀击中敌人有概率生成一个时钟
+		接触时钟会提升移动速度与加速度，每个时钟提升5%
+		此加成至多叠加3次，每过5秒便会降低一级
 		'''
 }
 
@@ -342,7 +345,7 @@ Genesis: {
 		'''
 		发射一组激光束，每次射击都会使散布降低
 		每射击六次便会发射一束分裂的源能量束，并重置此武器的散布。
-		源能量束分裂处命中敌怪会造成更高伤害
+		源能量束分裂前命中敌怪会造成更高伤害
 		'''
 }
 
@@ -858,11 +861,7 @@ Tradewinds: {
 
 UltraLiquidator: {
 	DisplayName: 终结裂空戟
-	Tooltip:
-		'''
-		召唤终结三叉戟，击中敌人时产生更多三叉戟
-		三叉戟会造成灵液、诅咒狱火和硫磺火减益
-		'''
+	Tooltip: Summons liquidation blades that summon more blades on enemy hits
 }
 
 UndinesRetribution: {

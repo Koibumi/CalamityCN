@@ -860,7 +860,7 @@ GrandGelatin: {
 		'''
 		12% increased movement speed and jump speed
 		Using a healing potion will spawn a cleansing aura
-		Walking into the aura removes all debuffs and defense damage one time
+		Walking into the aura removes all debuffs one time
 		The aura grants +2.5 HP/s life regen for all players inside for 8 seconds
 		'''
 }
@@ -923,8 +923,8 @@ HideofAstrumDeus: {
 	Tooltip:
 		'''
 		Taking damage, or inflicting a true melee strike, drops an immense amount of astral stars from the sky
-		Taking damage boosts true melee damage by 50%
-		Boost duration is based on the amount of damage you took, the higher the damage the longer the boost
+		Taking damage boosts true melee damage by 30%
+		Boost duration scales with the amount of damage you took, up to 10 seconds
 		Provides immunity to the astral infection, cursed inferno, on fire, and frostburn debuffs
 		Enemies take damage when they hit you and are inflicted with the astral infection debuff
 		'''
@@ -1053,8 +1053,8 @@ CleansingJelly: {
 	DisplayName: Cleansing Jelly
 	Tooltip:
 		'''
-		Using a healing potion will spawn a cleansing aura 
-		Walking into the aura removes all debuffs and defense damage one time
+		Using a healing potion will spawn a cleansing aura
+		Walking into the aura removes all debuffs one time
 		'''
 }
 
@@ -1766,7 +1766,7 @@ TheAbsorber: {
 		Grants immunity to knockback
 		Enemies take immense damage when they touch you and are afflicted with a damaging sickness debuff that reduces damage reduction significantly
 		Using a healing potion will spawn a cleansing aura
-		Walking into the aura removes all debuffs and defense damage one time
+		Walking into the aura removes all debuffs one time
 		The aura grants +3 HP/s life regen, +8% damage, and +5% damage reduction for all players inside for 10 seconds
 		5% of the damage from enemy attacks is absorbed and converted into healing
 		'''

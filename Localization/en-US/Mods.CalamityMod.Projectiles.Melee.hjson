@@ -60,9 +60,6 @@ BurningMeteor.DisplayName: Meteor
 CatastropheClaymoreSparkle.DisplayName: Catastrophe Sparkle
 CausticEdgeProjectile.DisplayName: Caustic Edge
 ChainedMeatHook.DisplayName: Enchanted Meat Hook
-ChronoIcicleLarge.DisplayName: Chrono Icicle
-ChronoIcicleSmall.DisplayName: Chrono Icicle
-ChronomancersScytheHoldout.DisplayName: Chronomancer's Scythe
 ClamCrusherFlail.DisplayName: Clam Crusher
 CometQuasherMeteor.DisplayName: Comet Quasher Meteor
 CosmicBolt.DisplayName: Cosmic Bolt
@@ -271,8 +268,8 @@ TaintedBladeSlasher.DisplayName: Tainted Blade
 TenebreusTidesWaterProjectile.DisplayName: Water Spear
 TenebreusTidesWaterSpear.DisplayName: Tenebreus Tides Water Spear
 TenebreusTidesWaterSword.DisplayName: Tenebreus Tides Water Sword
-TerratomereBeam.DisplayName: Terra Slash Beam
-TerratomereBigSlash.DisplayName: Terratomere Slash
+TerratomereMeleeSlash.DisplayName: Terratomere Slash
+TerratomereSwordBeam.DisplayName: Terra Slash Beam
 TerratomereExplosion.DisplayName: Terratomere Explosion
 TerratomereHoldoutProj.DisplayName: Terratomere
 TerratomereSlash.DisplayName: Terratomere Slash

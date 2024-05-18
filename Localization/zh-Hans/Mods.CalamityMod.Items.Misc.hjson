@@ -196,34 +196,67 @@ StarlightFuelCell: {
 }
 
 // Spawn Blockers
+SpawnBlockersOn: Currently enabled
+SpawnBlockersOff: Currently disabled
+
 AntiCystOintment: {
 	DisplayName: 抗囊肿药膏
-	Tooltip: 标记为收藏后，可使血肉囊不再生成
+	Tooltip:
+		'''
+		Toggle this item to prevent hive cysts from spawning near you
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 AntiTumorOintment: {
 	DisplayName: 抗肿瘤药膏
-	Tooltip: 标记为收藏后，可使腐化肿瘤不再生成
+	Tooltip:
+		'''
+		Toggle this item to prevent hive tumors from spawning near you
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 BleachBall: {
 	DisplayName: 白色水球
-	Tooltip: 标记为收藏后，可使渊海灾虫不再自然生成
+	Tooltip:
+		'''
+		Toggle this item to prevent Aquatic Scourge from spawning
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 BrokenWaterFilter: {
 	DisplayName: 破损净水器
-	Tooltip: 标记为收藏后，可使酸雨事件不再自然生成
+	Tooltip:
+		'''
+		Toggle this item to prevent Acid Rain from occurring
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 SirenproofEarMuffs: {
 	DisplayName: 防海妖耳塞
-	Tooltip: 标记为收藏后，可使阿娜希塔不再生成
+	Tooltip:
+		'''
+		Toggle this item to prevent Anahita from spawning
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 VoodooDemonVoodooDoll: {
 	DisplayName: 巫毒恶魔的巫毒娃娃
-	Tooltip: 标记为收藏后，可使巫毒恶魔不再生成
+	Tooltip:
+		'''
+		Toggle this item to prevent voodoo demons from spawning near you
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 // Uncategorized

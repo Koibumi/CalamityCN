@@ -147,12 +147,15 @@ BurningSea: {
 	Tooltip: Fires a bouncing brimstone fireball that splits into homing fireballs upon collision with water
 }
 
-CarnageRay: {
-	DisplayName: Carnage Ray
+ChronomancersScythe: {
+	DisplayName: Chronomancer's Scythe
 	Tooltip:
 		'''
-		Fires a wretched, bloody ray
-		The farther along the ray hit enemies are, the more damage they take
+		Rapidly fires icicles
+		Press <right> to swing the scythe around you, creating a clock pattern of homing icicles
+		Direct hits with the scythe have a chance to spawn clocks
+		Collecting the clocks increases movement speed and acceleration by 5% for each clock collected
+		This stacks up to 3 times and each level wears off after 5 seconds
 		'''
 }
 
@@ -342,7 +345,7 @@ Genesis: {
 		'''
 		Fire an array of lasers that decreases in spread for each shot
 		Every sixth shot fires a splitting Genesis Beam and resets the spread of the weapon
-		Hitting an enemy where the Genesis Beam splits deals increased damage
+		Hitting an enemy before the Genesis Beam splits deals increased damage
 		'''
 }
 
@@ -858,11 +861,7 @@ Tradewinds: {
 
 UltraLiquidator: {
 	DisplayName: Ultra Liquidator
-	Tooltip:
-		'''
-		Summons liquidation blades that summon more blades on enemy hits
-		The blades inflict ichor, cursed inferno and brimstone flames
-		'''
+	Tooltip: Summons liquidation blades that summon more blades on enemy hits
 }
 
 UndinesRetribution: {

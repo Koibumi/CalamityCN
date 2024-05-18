@@ -1,29 +1,28 @@
 // For general uses
 Abyss: 深渊
 AstralInfection: 星辉瘟疫
-AstralDesert: 星幻沙漠
 AstralSnow: 星幻雪地
 BrimstoneCrags: 硫火之崖
 SulphurousSea: 硫磺海
 SunkenSea: 沉沦之海
 
-AbovegroundAstralBiome: {
-	DisplayName: 星疫迷雾
+AstralDesert: {
+	DisplayName: Astral Desert Surface
+	TownNPCDialogueName: Astral Desert
+}
+
+AstralBiome: {
+	DisplayName: Astral Infection
 	TownNPCDialogueName: 星辉瘟疫
 }
 
-AbovegroundAstralBiomeSurface: {
-	DisplayName: 星辉瘟疫地表
-	TownNPCDialogueName: 星辉瘟疫
+AstralInfectionBiome: {
+	DisplayName: Astral Infection
+	TownNPCDialogueName: Astral Infection
 }
 
-AbovegroundAstralDesertBiome: {
-	DisplayName: 星幻沙漠
-	TownNPCDialogueName: 星幻沙漠
-}
-
-AbovegroundAstralSnowBiome: {
-	DisplayName: 星幻雪地
+AstralIce: {
+	DisplayName: Astral Ice
 	TownNPCDialogueName: 星幻雪地
 }
 
@@ -72,7 +71,12 @@ SunkenSeaBiome: {
 	TownNPCDialogueName: 沉沦之海
 }
 
-UndergroundAstralBiome: {
+AstralUnderground: {
 	DisplayName: 星辉瘟疫地下
 	TownNPCDialogueName: 星辉瘟疫地下
+}
+
+AstralCaveDesert: {
+	DisplayName: Astral Cave Desert
+	TownNPCDialogueName: the Astral Cave Desert
 }

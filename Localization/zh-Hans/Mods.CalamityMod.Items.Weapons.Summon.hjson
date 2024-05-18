@@ -73,11 +73,6 @@ BlackHawkRemote: {
 		'''
 }
 
-BloodClotStaff: {
-	DisplayName: 血块法杖
-	Tooltip: 召唤血块为你而战
-}
-
 BorealisBomber: {
 	DisplayName: 极光爆破
 	Tooltip:

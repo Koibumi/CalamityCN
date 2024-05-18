@@ -498,6 +498,7 @@ FlakToxicannon: {
 		Fires a toxic shell that explodes into a cone of radioactive sludge
 		Toxic shells burst when they reach the cursor's position
 		Direct hits with the toxic shell will reduce the damage dealt by the sludge
+		Uses rockets for ammo
 		'''
 }
 
@@ -763,7 +764,11 @@ MidasPrime: {
 
 MineralMortar: {
 	DisplayName: Mineral Mortar
-	Tooltip: Shoots an onyx bomb that explodes into huge area damage
+	Tooltip:
+		'''
+		Shoots an onyx bomb that explodes into huge area damage
+		Uses rockets for ammo
+		'''
 }
 
 Kingsbane: {

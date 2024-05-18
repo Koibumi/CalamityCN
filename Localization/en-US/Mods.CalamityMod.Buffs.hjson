@@ -634,7 +634,7 @@ AbyssalMadness: {
 
 AdrenalineMode: {
 	DisplayName: Adrenaline Mode
-	Description: Total damage multiplied by 3x. Can be boosted by other items up to 3.45x
+	Description: Total damage multiplied by 2.5x. Can be boosted by other items up to 3.1x
 }
 
 Afflicted: {
@@ -1044,11 +1044,6 @@ BelladonnaSpiritBuff: {
 BlackHawkBuff: {
 	DisplayName: Black Hawk
 	Description: The fighter jet will protect you
-}
-
-BloodClot: {
-	DisplayName: Blood Clot
-	Description: The blood clot will protect you
 }
 
 BrimseekerBuff: {

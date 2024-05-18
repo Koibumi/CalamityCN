@@ -60,9 +60,6 @@ BurningMeteor.DisplayName: 流星
 CatastropheClaymoreSparkle.DisplayName: 灾难火花
 CausticEdgeProjectile.DisplayName: 绝望之刃
 ChainedMeatHook.DisplayName: 附魔肉钩
-ChronoIcicleLarge.DisplayName: 时之冰锥
-ChronoIcicleSmall.DisplayName: 时之冰锥
-ChronomancersScytheHoldout.DisplayName: 时空术士之镰
 ClamCrusherFlail.DisplayName: 碎蛤者
 CometQuasherMeteor.DisplayName: 流坠陨星
 CosmicBolt.DisplayName: 宙能箭
@@ -271,8 +268,8 @@ TaintedBladeSlasher.DisplayName: 剑刃邪风
 TenebreusTidesWaterProjectile.DisplayName: 凝水长枪
 TenebreusTidesWaterSpear.DisplayName: 凝水长枪
 TenebreusTidesWaterSword.DisplayName: 凝水之刃
-TerratomereBeam.DisplayName: 泰拉斩击束
-TerratomereBigSlash.DisplayName: 泰拉阔剑斩
+TerratomereMeleeSlash.DisplayName: 泰拉阔剑斩
+TerratomereSwordBeam.DisplayName: 泰拉斩击束
 TerratomereExplosion.DisplayName: 泰拉阔剑爆炸
 TerratomereHoldoutProj.DisplayName: 泰拉阔剑
 TerratomereSlash.DisplayName: 泰拉阔剑斩

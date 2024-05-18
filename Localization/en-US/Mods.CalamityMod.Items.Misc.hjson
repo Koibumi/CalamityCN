@@ -196,34 +196,67 @@ StarlightFuelCell: {
 }
 
 // Spawn Blockers
+SpawnBlockersOn: Currently enabled
+SpawnBlockersOff: Currently disabled
+
 AntiCystOintment: {
 	DisplayName: Anti-Cyst Ointment
-	Tooltip: Favorite this item to prevent perforator cysts from spawning near you
+	Tooltip:
+		'''
+		Toggle this item to prevent hive cysts from spawning near you
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 AntiTumorOintment: {
 	DisplayName: Anti-Tumor Ointment
-	Tooltip: Favorite this item to prevent hive tumors from spawning near you
+	Tooltip:
+		'''
+		Toggle this item to prevent hive tumors from spawning near you
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 BleachBall: {
 	DisplayName: Bleach Ball
-	Tooltip: Favorite this item to prevent the Aquatic Scourge from naturally spawning near you
+	Tooltip:
+		'''
+		Toggle this item to prevent Aquatic Scourge from spawning
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 BrokenWaterFilter: {
 	DisplayName: Broken Water Filter
-	Tooltip: Favorite this item to disable natural Acid Rain spawns
+	Tooltip:
+		'''
+		Toggle this item to prevent Acid Rain from occurring
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 SirenproofEarMuffs: {
 	DisplayName: Sirenproof Earmuffs
-	Tooltip: Favorite this item to prevent Anahita from spawning near you
+	Tooltip:
+		'''
+		Toggle this item to prevent Anahita from spawning
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 VoodooDemonVoodooDoll: {
 	DisplayName: Voodoo Demon Voodoo Doll
-	Tooltip: Favorite this item to prevent voodoo demons from spawning near you
+	Tooltip:
+		'''
+		Toggle this item to prevent voodoo demons from spawning near you
+		Press <right> to toggle
+		[STATE]
+		'''
 }
 
 // Uncategorized

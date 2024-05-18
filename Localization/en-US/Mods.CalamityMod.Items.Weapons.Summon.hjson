@@ -73,11 +73,6 @@ BlackHawkRemote: {
 		'''
 }
 
-BloodClotStaff: {
-	DisplayName: Blood Clot Staff
-	Tooltip: Summons a blood clot to fight for you
-}
-
 BorealisBomber: {
 	DisplayName: Borealis Bomber
 	Tooltip:

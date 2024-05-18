@@ -1085,7 +1085,8 @@ SlickCane: {
 	Tooltip:
 		'''
 		挥动可以偷取敌人钱币的手杖
-		潜伏攻击使敌怪受击时有1/15几率掉落1-3金币
+		潜伏攻击使敌怪受击时有1/20几率掉落1-3金币
+		Stealth strikes' damage increases in proportion to money in the inventory (up to 2 platinum)
 		“最佳经济来源”
 		'''
 }
