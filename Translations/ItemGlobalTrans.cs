@@ -550,6 +550,11 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Inflicts Whispering Death on hit", "命中造成死亡低语减益");
                 }
 
+                if (item.type == ItemID.CandyCaneSword || item.type == ItemID.FruitcakeChakram)
+                {
+                    tooltips.ReplaceText("Heals you on hit", "命中时治疗你");
+                }
+
                 if (item.type == ItemID.Excalibur || item.type == ItemID.TrueExcalibur || item.type == ItemID.Gungnir)
                 {
                     tooltips.ReplaceText("Inflicts Holy Flames", "命中造成神圣之火减益");
@@ -578,7 +583,8 @@ namespace CalamityCN.Translations
 
                 if (item.type == 483 || item.type == 537)
                 {
-                    tooltips.ReplaceText("Permanently decreases enemy defense by 25% on hit", "命中时永久减少敌人25%防御");
+                    tooltips.ReplaceText("Decreases enemy defense by 25% on hit", "命中时减少敌人25%防御");
+                    tooltips.ReplaceText("This effect lasts for 10 seconds", "此效果持续10秒");
                 }
 
                 if (item.type == 1185 || item.type == 1186)
@@ -588,7 +594,8 @@ namespace CalamityCN.Translations
 
                 if (item.type == 484 || item.type == 390)
                 {
-                    tooltips.ReplaceText("Permanently decreases enemy contact damage by 10% on hit", "命中时永久减少敌人10%接触伤害");
+                    tooltips.ReplaceText("Decreases enemy contact damage by 10% on hit", "命中时减少敌人10%接触伤害");
+                    tooltips.ReplaceText("This effect lasts for 10 seconds", "此效果持续10秒");
                 }
 
                 if (item.type == 1192 || item.type == 1193)
@@ -852,7 +859,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.BeeWings)
                 {
-                    tooltips.ReplaceText("Permanently gives the Honey buff", "任何时候都会给予蜂蜜buff");
+                    tooltips.ReplaceText("Permanently gives the Honey buff", "任何时候都会给予蜂蜜增益");
                 }
 
                 if (item.type == ItemID.ButterflyWings)
@@ -1199,7 +1206,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.Tombstone || item.type == ItemID.GraveMarker || item.type == ItemID.CrossGraveMarker || item.type == ItemID.Headstone || item.type == ItemID.Gravestone || item.type == ItemID.Obelisk || item.type == ItemID.RichGravestone1 || item.type == ItemID.RichGravestone2 || item.type == ItemID.RichGravestone3 || item.type == ItemID.RichGravestone4 || item.type == ItemID.RichGravestone5)
                 {
-                    tooltips.ReplaceText("20 of any tombstone turns the surrounding area into a graveyard\nGraveyards have various new item sales and recipes", "20个各种墓碑会将周围环境变为墓地\n墓地会有各种新物品出售以及新的配方");
+                    tooltips.ReplaceText("13 of any tombstone turns the surrounding area into a graveyard\nGraveyards have various new item sales and recipes", "13个各种墓碑会将周围环境变为墓地\n墓地会有各种新物品出售以及新的配方");
                 }
                 if (item.type == ItemID.Ale || item.type == ItemID.Sake)
                 {
