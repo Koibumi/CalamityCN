@@ -85,7 +85,7 @@ DesertScourge: {
 DevourerofGods: {
 	EntryName: 神明吞噬者
 	SpawnInfo: 使用[i:CalamityMod/CosmicWorm]。
-	// DespawnMessage: "[c/00FFFF:The Devourer of Gods haughtily returns to the depths of the Distortion.]"
+	DespawnMessage: "[c/00FFFF:神明吞噬者傲慢地回归至扭曲深处。]"
 }
 
 Dragonfolly: {
