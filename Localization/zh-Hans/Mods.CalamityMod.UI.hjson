@@ -147,8 +147,8 @@ DebuffSystem: {
 	Title: 减益抗性
 	Description:
 		'''
-		NPCs take 2x damage from vulnerable debuff types,
-		and 0.5x damage from resisted debuff types
+		NPC受到弱性减益类型的伤害时，会受到2倍的伤害；
+                当他们受到抗性减益类型的伤害时，只会受到原有伤害的0.5倍
 		'''
 	Heat: 火系伤害
 	Cold: 冷系伤害
