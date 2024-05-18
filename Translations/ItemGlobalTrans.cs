@@ -802,7 +802,7 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.25", "所有火焰类减益伤害乘以1.25");
                     tooltips.ReplaceText("All attacks light enemies on fire", "所有攻击造成着火了！减益");
-                    tooltips.ReplaceText("'Never get cold feet again'", "“”");
+                    tooltips.ReplaceText("'Never get cold feet again'", "“再也不会如履薄冰了”");
                 }
 
                 if (item.type == ItemID.HellfireTreads)
