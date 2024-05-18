@@ -798,9 +798,16 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Provides a regeneration boost while wearing the Snow armor", "穿着全套的防雪盔甲时额外+1HP/s生命再生");
                 }
 
+                if (item.type == ItemID.FlameWakerBoots)
+                {
+                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.25", "所有火焰类减益伤害乘以1.25");
+                    tooltips.ReplaceText("All attacks light enemies on fire", "所有攻击造成着火了！减益");
+                    tooltips.ReplaceText("'Never get cold feet again'", "“”");
+                }
+
                 if (item.type == ItemID.HellfireTreads)
                 {
-                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.5", "所有火焰类减益伤害乘以1.5");
+                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.5, does not stack with downgrades", "所有火焰类减益伤害乘以1.5，该效果不会与其下位合成材料叠加");
                     tooltips.ReplaceText("All attacks inflict Hellfire", "所有攻击造成狱炎减益");
                 }
 
