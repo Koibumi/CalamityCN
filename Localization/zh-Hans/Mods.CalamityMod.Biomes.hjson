@@ -7,22 +7,22 @@ SulphurousSea: 硫磺海
 SunkenSea: 沉沦之海
 
 AstralDesert: {
-	DisplayName: Astral Desert Surface
+	DisplayName: 星幻沙漠地表
 	TownNPCDialogueName: 星幻沙漠
 }
 
 AstralBiome: {
-	DisplayName: Astral Infection
+	DisplayName: 星辉瘟疫
 	TownNPCDialogueName: 星辉瘟疫
 }
 
 AstralInfectionBiome: {
-	DisplayName: Astral Infection
-	TownNPCDialogueName: 星幻感染
+	DisplayName: 星辉瘟疫
+	TownNPCDialogueName: 星辉瘟疫
 }
 
 AstralIce: {
-	DisplayName: Astral Ice
+	DisplayName: 星幻冰雪地
 	TownNPCDialogueName: 星幻雪地
 }
 
@@ -77,6 +77,6 @@ AstralUnderground: {
 }
 
 AstralCaveDesert: {
-	DisplayName: Astral Cave Desert
+	DisplayName: 星幻沙漠洞穴
 	TownNPCDialogueName: 星幻沙漠洞穴
 }

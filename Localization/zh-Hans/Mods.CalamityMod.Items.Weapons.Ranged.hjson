@@ -499,7 +499,7 @@ FlakToxicannon: {
 		发射一个剧毒炮弹，炮弹爆炸会产生数个锥形散布的放射性污泥
 		剧毒炮弹会在抵达光标位置时爆炸
 		炮弹直接命中会使污泥伤害降低
-		Uses rockets for ammo
+		使用火箭作为弹药
 		'''
 }
 
@@ -767,8 +767,8 @@ MineralMortar: {
 	DisplayName: 岩鲨发射器
 	Tooltip:
 		'''
-		Shoots an onyx bomb that explodes into huge area damage
-		Uses rockets for ammo
+		发射一个玛瑙火箭，爆炸时造成大范围杀伤
+		使用火箭作为弹药
 		'''
 }
 

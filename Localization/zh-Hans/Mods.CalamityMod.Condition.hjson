@@ -1,42 +1,42 @@
 // Drop conditions
 Drops: {
-	Cynosure: After defeating both Draedon and Calamitas
-	DownedDS: After defeating the Desert Scourge
-	DownedCrab: After defeating Crabulon
-	DownedHM: After defeating the Hive Mind
-	DownedPerfs: After defeating the Perforators
-	DownedHMOrPerfs: After defeating the Hive Mind or the Perforators
-	DownedSG: After defeating the Slime God
-	DownedCryo: After defeating Cryogen
-	DownedAS: After defeating the Aquatic Scourge
-	DownedBrim: After defeating the Brimstone Elemental
-	DownedDest: After defeating the Destroyer
-	DownedCal: After defeating Calamitas Clone
-	DownedCalPlant: After defeating Calamitas or Plantera
-	DownedLevi: After defeating the Leviathan and Anahita
-	DownedAureus: After defeating Astrum Aureus
-	DownedPBG: After defeating the Plaguebringer Goliath
-	DownedRav: After defeating the Ravager
-	DownedAD: After defeating Astrum Deus
-	DownedGuard: After defeating the Profaned Guardians
-	DownedBirb: After defeating the Dragonfolly
-	DownedProv: After defeating Providence
-	DownedSig: After defeating Signus
-	DownedSW: After defeating the Storm Weaver
-	DownedCV: After defeating the Ceaseless Void
-	DownedPolter: After defeating the Polterghast
-	DownedOD: After defeating the Old Duke
-	DownedDoG: After defeating the Devourer of Gods
-	DownedYharon: After defeating Yharon
-	DownedExos: After defeating the Exo Mechs
-	DownedSCal: After defeating Calamitas
-	DownedAEW: After defeating the Primordial Wyrm
-	DownedClam: After defeating the Giant Clam
-	DownedClamHM: After defeating the Giant Clam in Hardmode
-	DownedGSS: After defeating the Great Sand Shark
-	DownedBetsy: After defeating Betsy
-	DownedT1AR: After defeating the first tier of Acid Rain
-	DownedT2AR: After defeating the second tier of Acid Rain
+	Cynosure: 在击败星流巨械和至尊女巫，灾厄后
+	DownedDS: 在击败荒漠灾虫后
+	DownedCrab: 在击败菌生蟹后
+	DownedHM: 在击败腐巢意志后
+	DownedPerfs: 在击败血肉宿主后
+	DownedHMOrPerfs: 在击败腐巢意志或血肉宿主后
+	DownedSG: 在击败史莱姆之神后
+	DownedCryo: 在击败极地之灵后
+	DownedAS: 在击败渊海灾虫后
+	DownedBrim: 在击败硫磺火元素后
+	DownedDest: 在击败毁灭者后
+	DownedCal: 在击败灾厄之影后
+	DownedCalPlant: 在击败灾厄之影或世纪之花后
+	DownedLevi: 在击败利维坦和阿娜希塔后
+	DownedAureus: 在击败白金星舰后
+	DownedPBG: 在击败瘟疫使者歌莉娅后
+	DownedRav: 在击败毁灭魔像后
+	DownedAD: 在击败星神游龙后
+	DownedGuard: 在击败亵渎守卫后
+	DownedBirb: 在击败痴愚金龙后
+	DownedProv: 在击败亵渎天神后
+	DownedSig: 在击败西格纳斯后
+	DownedSW: 在击败风暴编织者后
+	DownedCV: 在击败无尽虚空后
+	DownedPolter: 在击败噬魂幽花后
+	DownedOD: 在击败硫海遗爵后
+	DownedDoG: 在击败神明吞噬者后
+	DownedYharon: 在击败犽戎后
+	DownedExos: 在击败星流巨械后
+	DownedSCal: 在击败至尊女巫，灾厄后
+	DownedAEW: 在击败始源妖龙后
+	DownedClam: 在击败巨像蛤后
+	DownedClamHM: 在击败困难模式的巨像蛤后
+	DownedGSS: 在击败旱海狂鲨后
+	DownedBetsy: 在击败双足翼龙后
+	DownedT1AR: 在完成一阶段酸雨后
+	DownedT2AR: 在完成二阶段酸雨后
 	FirstKill: 仅在首次击败时掉落
 	MechBoss: 首次击败机械三王中最后一位时掉落
 	ProvidenceHallow:
@@ -63,16 +63,16 @@ PotionConfig: 当城镇NPC出售药水配置选项启用时
 HasFlareGun: 手持任意信号枪上位时
 HasRogueArmor: 装备全套盗贼盔甲时
 HasWings: 佩戴任意翅膀时
-InAstral: In the Astral Infection
-InCrag: In the Brimstone Crags
-InSulph: In the Sulphurous Sea
-InSunken: In the Sunken Sea
+InAstral: 身处星辉瘟疫时
+InCrag: 身处硫火之崖时
+InSulph: 身处硫磺海时
+InSunken: 身处沉沦之海时
 InRev: 在复仇模式中
-IsRevOrMM: In Revengeance Mode or in Master Mode
+IsRevOrMM: 在复仇模式或大师模式中
 AlcoholPoison: 当玩家带有酒精中毒减益时
-PostCal: After defeating Calamitas Clone
-PostAureus: After defeating Astrum Aureus
-PostPolter: After defeating Polterghast
-PostOD: After defeating the Old Duke
-PostDoG: After defeating the Devourer of Gods
-PostYharon: After defeating Yharon
+PostCal: 在灾厄之影被击败后
+PostAureus: 在白金星舰被击败后
+PostPolter: 在噬魂幽花被击败后
+PostOD: 在硫海遗爵被击败后
+PostDoG: 在神明吞噬者被击败后
+PostYharon: 在犽戎被击败后
