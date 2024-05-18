@@ -720,7 +720,7 @@ SHPC: {
 	TooltipNormal:
 		'''
 		发射会停留在空中并引发巨大爆炸的相位激光球
-		<right>发射强大的能量束
+		右键发射强大的能量束
 		'''
 	TooltipGFB: 传奇武器归来！:)
 }
@@ -861,7 +861,7 @@ Tradewinds: {
 
 UltraLiquidator: {
 	DisplayName: 终结裂空戟
-	Tooltip: Summons liquidation blades that summon more blades on enemy hits
+	Tooltip: 召唤终结三叉戟，击中敌人时产生更多三叉戟
 }
 
 UndinesRetribution: {
