@@ -8,7 +8,7 @@ SunkenSea: 沉沦之海
 
 AstralDesert: {
 	DisplayName: Astral Desert Surface
-	TownNPCDialogueName: Astral Desert
+	TownNPCDialogueName: 星幻沙漠
 }
 
 AstralBiome: {
@@ -18,7 +18,7 @@ AstralBiome: {
 
 AstralInfectionBiome: {
 	DisplayName: Astral Infection
-	TownNPCDialogueName: Astral Infection
+	TownNPCDialogueName: 星幻感染
 }
 
 AstralIce: {
@@ -78,5 +78,5 @@ AstralUnderground: {
 
 AstralCaveDesert: {
 	DisplayName: Astral Cave Desert
-	TownNPCDialogueName: the Astral Cave Desert
+	TownNPCDialogueName: 星幻沙漠洞穴
 }
