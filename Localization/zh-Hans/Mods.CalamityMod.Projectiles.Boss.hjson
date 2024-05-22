@@ -29,7 +29,7 @@ BrimstoneFire.DisplayName: 炼狱硫火
 BrimstoneHellblast.DisplayName: 深渊亡魂
 BrimstoneHellblast2.DisplayName: 深渊亡魂
 BrimstoneHellfireball.DisplayName: 炼狱硫火球
-BrimstoneMonster.DisplayName: 低语狂漩
+BrimstoneMonster.DisplayName: 喑哑魔涡
 BrimstoneRay.DisplayName: 狱火永燃射线
 BrimstoneTargetRay.DisplayName: 狱火锁魂射线
 BrimstoneWave.DisplayName: 深渊炙颅
@@ -127,8 +127,8 @@ SandBlast.DisplayName: 沙尘暴
 SandPoisonCloud.DisplayName: 疫毒之云
 SandPoisonCloudOldDuke.DisplayName: 毒云
 SandTooth.DisplayName: 瀚漠之牙
-SCalBrimstoneFireblast.DisplayName: 硫火冲击
-SCalBrimstoneGigablast.DisplayName: 硫火大冲击
+SCalBrimstoneFireblast.DisplayName: 无际裂变
+SCalBrimstoneGigablast.DisplayName: 深渊炙炎
 SCalRitualDrama.DisplayName: 至尊灾厄
 ScavengerLaser.DisplayName: 回旋镖
 ScavengerNuke.DisplayName: 制导核导弹
@@ -142,8 +142,8 @@ SkyFlare.DisplayName: 天界之火
 SkyFlareRevenge.DisplayName: 天界之火
 SporeGasPlantera.DisplayName: 毒气孢子
 StormWeaverFrostWaveTelegraph.DisplayName: 霜浪脉冲
-SupremeCataclysmFist.DisplayName: 愤怒之拳
-SupremeCatastropheSlash.DisplayName: 共振之波
+SupremeCataclysmFist.DisplayName: 硫火碎魂拳
+SupremeCatastropheSlash.DisplayName: 斩魂幻锋
 SwirlingFire.DisplayName: 炽焰
 ThanatosBeamStart.DisplayName: 黑 金棱镜蛇的激光
 ThanatosBeamTelegraph.DisplayName: 伽马瓦解射线
