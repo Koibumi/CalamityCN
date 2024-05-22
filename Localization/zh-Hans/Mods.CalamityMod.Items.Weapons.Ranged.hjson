@@ -764,7 +764,7 @@ MidasPrime: {
 }
 
 MineralMortar: {
-	DisplayName: 岩鲨发射器
+	DisplayName: 矿砂碎岩炮
 	Tooltip:
 		'''
 		发射一个玛瑙火箭，爆炸时造成大范围杀伤
