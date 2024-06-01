@@ -88,7 +88,7 @@ Mods: {
 
 			BossRushTier4MusicBox: {
 				DisplayName: 音乐盒（Boss Rush第四阶段）
-				Tooltip: This music box is unfinished and does not work
+				Tooltip: Plays 'Trial of the Insane' by CDMusic
 			}
 
 			BossRushTier5MusicBox: {
@@ -327,6 +327,7 @@ Mods: {
 					YharonLegacy: Infernal Catharsis
 					YharonPhase1: Infernal Catharsis (Rebirth)
 					YharonPhase2: Roar of the Jungle Dragon
+					BossRushTier4: Trial of the Insane
 				}
 
 				Authors: {

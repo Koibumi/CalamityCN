@@ -1046,11 +1046,6 @@ BlackHawkBuff: {
 	Description: 喷气战斗机会保护你
 }
 
-BloodClot: {
-	DisplayName: 血块
-	Description: 血块会保护你
-}
-
 BrimseekerBuff: {
 	DisplayName: 硫火搜寻者
 	Description: 它是不是想从你身上索取些什么？

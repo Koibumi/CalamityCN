@@ -1081,6 +1081,15 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("10% increased critical strike chance", "暴击率增加10%");
                 }
+                if (item.type == ItemID.AncientBattleArmorHat || item.type == 3777 || item.type == 3778)
+                {
+                    tooltips.ReplaceText("Minions no longer deal less damage while wielding magic weapons", "手持魔法武器时仆从造成的伤害不再降低");
+                }
+                if (item.type == ItemID.ApprenticeHat || item.type == 3798 || item.type == 3799)
+                {
+                    tooltips.ReplaceText("5% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
+                    tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
+                }
                 if (item.type == ItemID.SquireGreatHelm || item.type == 3801 || item.type == 3802)
                 {
                     tooltips.ReplaceText("10% increased minion and melee damage", "增加10%召唤和近战伤害");
@@ -1097,11 +1106,6 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Increases your max number of sentries by 1 and increases melee attack speed by 10%", "增加1最大哨兵栏，增加10%近战攻速");
                     tooltips.ReplaceText("10% increased minion and melee damage", "增加10%召唤和近战伤害");
                     tooltips.ReplaceText("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
-                    tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
-                }
-                if (item.type == ItemID.ApprenticeHat || item.type == 3798 || item.type == 3799)
-                {
-                    tooltips.ReplaceText("5% increased minion damage and magic critical strike chance", "增加5%召唤伤害和魔法暴击率");
                     tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
                 }
                 if (item.type == ItemID.SquireAltHead || item.type == 3872 || item.type == 3873)
