@@ -1246,7 +1246,7 @@ PhantomicArtifact: {
 		仆从攻击会使你获得一个随机幻魂增益，该效果不会与其下位合成材料叠加
 		幻魂之力会增加10%召唤伤害并使仆从攻击击中时生成幻魂之刃
 		幻魂坚盾会增加10点防御和5%伤害减免并生成一个幻魂壁垒，吸收下次接触其弹幕的20%伤害
-		幻魂还生会提供2HP/s生命再生并生成一个幻魂之心，接触时额外获得2HP/s生命再生
+		幻魂还生会提供+2HP/s生命再生并生成一个幻魂之心，接触时额外获得+2HP/s生命再生
 		'''
 }
 
@@ -1874,9 +1874,9 @@ ToxicHeart: {
 	DisplayName: 毒疫之心
 	Tooltip:
 		'''
-		Causes your heart to beat with powerful plague pulses, inflicting all nearby enemies with the Plague
-		The rate of these pulses scales with how low your life regen is
-		Pulses that kill targets create additional pulses and heal you
+		为你带来强劲的瘟疫心跳脉冲，让周围的敌人染上瘟疫
+		你的生命再生越慢，脉冲的频率就越高
+		被脉冲击杀的敌人会发出额外脉冲来治愈你
 		所有疫病减益的伤害倍率乘以1.5
 		'''
 }
