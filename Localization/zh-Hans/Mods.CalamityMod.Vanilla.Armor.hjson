@@ -90,9 +90,9 @@ SetBonus: {
 		'''
 	Nebula:
 		'''
-		Pink damage boosters grant 7.5% damage per stack
-		Orange life boosters grant +2 HP/s life regen per stack
-		Blue mana boosters grant +5 MP/s mana regen per stack
+		粉色伤害强化焰每层增加7.5%伤害
+		橙色生命强化焰每层给予+2HP/s生命再生
+		蓝色魔力强化焰每层给予+5MP/s魔力再生
 		'''
 	Necro:
 		'''
@@ -107,8 +107,8 @@ SetBonus: {
 		'''
 	Palladium:
 		'''
-		Grants +2 HP/s life regeneration after striking an enemy
-		This life regeneration bypasses negative life regeneration
+		在击中敌人后给予+2HP/s生命再生
+		此效果无视负生命再生
 		'''
 	PlatinumChainmail: 提高3%暴击率
 	Platinum:
