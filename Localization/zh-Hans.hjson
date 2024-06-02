@@ -156,6 +156,11 @@ Mods: {
 				Tooltip: Plays 'Guardian of the Former Seas' by DM DOKURO
 			}
 
+			DevourerofGodsEulogyMusicBox: {
+				DisplayName: Music Box (Devourer of Gods - Eulogy)
+				Tooltip: Plays 'Scourge of the Universe (Eulogy for the Ego)' by DM DOKURO
+			}
+
 			DevourerofGodsPhase1MusicBox: {
 				DisplayName: 音乐盒（神明吞噬者一阶段）
 				Tooltip: Plays 'Scourge of the Universe' by DM DOKURO
@@ -179,6 +184,21 @@ Mods: {
 			HiveMindMusicBox: {
 				DisplayName: 音乐盒（腐巢意志）
 				Tooltip: Plays 'The Filthy Mind' by DM DOKURO and SixteenInMono
+			}
+
+			Interlude1MusicBox: {
+				DisplayName: Music Box (Interlude 1)
+				Tooltip: Plays 'Silence before the storms' by DM DOKURO
+			}
+
+			Interlude2MusicBox: {
+				DisplayName: Music Box (Interlude 2)
+				Tooltip: Plays 'Storms before the catastrophes' by DM DOKURO
+			}
+
+			Interlude3MusicBox: {
+				DisplayName: Music Box (Interlude 3)
+				Tooltip: Plays 'Catastrophes before the calamity' by DM DOKURO
 			}
 
 			LeviathanMusicBox: {
@@ -292,9 +312,11 @@ Mods: {
 					BossRushTier1: Ensemble of Fools
 					BossRushTier2: Onslaught of Beasts
 					BossRushTier3: Reign of Lords
+					BossRushTier4: Trial of the Insane
 					BrimstoneCrags: The Step Below Hell
 					BrimstoneElemental: Left Alone
 					CalamitasClone: Raw, Unfiltered Calamity
+					CalamitasDefeat_LongFade: Stained, Brutal Calamity (Acceptance)
 					CalamitasDefeat: Stained, Brutal Calamity (Acceptance)
 					CalamitasPhase1: Stained, Brutal Calamity (Grief)
 					CalamitasPhase2: Stained, Brutal Calamity (Lament)
@@ -304,11 +326,15 @@ Mods: {
 					Crabulon: Infestation
 					Cryogen: Antarctic Reinforcement
 					DesertScourge: Guardian of the Former Seas
+					DevourerofGodsEulogy: Scourge of the Universe (Eulogy for the Ego)
 					DevourerofGodsPhase1: Scourge of the Universe
 					DevourerofGodsPhase2: Universal Collapse
 					Dragonfolly: Murderswarm
 					ExoMechs: Inferior Fabrications
 					HiveMind: The Filthy Mind
+					Interlude1: Silence before the storms
+					Interlude2: Storms before the catastrophes
+					Interlude3: Catastrophes before the calamity
 					Leviathan: Forbidden Lullaby
 					OldDuke: Toxic Wisdom
 					Perforators: Blood Coagulant
@@ -327,7 +353,6 @@ Mods: {
 					YharonLegacy: Infernal Catharsis
 					YharonPhase1: Infernal Catharsis (Rebirth)
 					YharonPhase2: Roar of the Jungle Dragon
-					BossRushTier4: Trial of the Insane
 				}
 
 				Authors: {
