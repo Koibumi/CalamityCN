@@ -104,8 +104,8 @@ PhotosynthesisPotion: {
 	DisplayName: 光合药水
 	Tooltip:
 		'''
-		+0.5HP/s life regen and accelerates natural life regen while not moving
-		This natural life regen effect is five times as strong during daytime
+		+0.5HP/s生命再生并在站定不动时大幅增加自然生命再生
+		这一自然生命再生效果会在白天加强为5倍
 		掉落的红心会回复更多生命值
 		'''
 }
