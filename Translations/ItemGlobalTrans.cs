@@ -623,6 +623,18 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("Ignores 100% of enemy defense", "无视敌怪100%的防御力");
                 }
+
+                if (item.type == ItemID.SoulDrain)
+                {
+                    tooltips.ReplaceText("This grants +1.5 HP/s life regen and accelerates natural life regen", "这会提供+1.5HP/s生命再生并加速自然生命再生");
+                    tooltips.ReplaceText("Life drain stacks based on the number of enemies being hit", "生命偷取会基于被击中敌怪的数量叠加");
+                }
+
+                if (item.type == ItemID.HamBat)
+                {
+                    tooltips.ReplaceText("Defeating enemies temporarily grants +3 HP/s life regen", "击败敌怪会暂时提供+3HP/s生命再生");
+                }
+
                 #endregion
 
                 #region 工具
@@ -835,6 +847,21 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Puts a shell around the owner when below 50% life that reduces damage by 15%", "生命值低于50%时在穿戴者周围产生一个降低15%所受伤害的外壳");
                 }
 
+                if (item.type == ItemID.ShinyStone)
+                {
+                    tooltips.ReplaceText("Grants +2 HP/s life regen and accelerates natural life regen when not moving", "不移动时提供+2HP/s生命再生并加速自然生命再生");
+                }
+
+                if (item.type == ItemID.BandofRegeneration)
+                {
+                    tooltips.ReplaceText("Grants +1 HP/s life regeneration", "提供+1HP/s生命再生");
+                }
+
+                if (item.type == ItemID.CharmofMyths)
+                {
+                    tooltips.ReplaceText("Grants +1 HP/s life regeneration and reduces the cooldown of healing potions by 25%", "提供+1HP/s生命再生并降低治疗药水25%冷却");
+                }
+
                 if (item.type == ItemID.DemonWings)
                 {
                     tooltips.ReplaceText("5% increased damage and critical strike chance", "提高5%伤害和暴击率");
@@ -1045,10 +1072,6 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
                     tooltips.ReplaceText("10% increased movement speed", "移速增加10%");
                 }
-                if (item.type == ItemID.AncientShadowHelmet || item.type == 957 || item.type == 958 || item.type == 102 || item.type == 101 || item.type == 100)
-                {
-                    tooltips.ReplaceText("5% increased damage and 7% increased jump speed", "增加5%伤害和7%跳跃速度");
-                }
                 if (item.type == ItemID.CrimsonHelmet || item.type == 793 || item.type == 794)
                 {
                     tooltips.ReplaceText("life regen", "生命再生");
@@ -1092,6 +1115,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.SquireGreatHelm || item.type == 3801 || item.type == 3802)
                 {
+                    tooltips.ReplaceText("Increases your max number of sentries by 1 and grants +2 HP/s life regen", "增加1最大哨兵栏并提供+2HP/s生命再生");
                     tooltips.ReplaceText("10% increased minion and melee damage", "增加10%召唤和近战伤害");
                     tooltips.ReplaceText("5% increased minion damage and melee critical strike chance", "增加5%召唤伤害和近战暴击率");
                     tooltips.ReplaceText("15% increased movement speed", "移速增加15%");
@@ -1110,7 +1134,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.SquireAltHead || item.type == 3872 || item.type == 3873)
                 {
-                    tooltips.ReplaceText("30% increased minion damage and increased life regeneration", "增加30%召唤伤害，提高生命再生");
+                    tooltips.ReplaceText("30% increased minion damage and grants +4 HP/s life regen", "增加30%召唤伤害并提供+4HP/s生命再生");
                     tooltips.ReplaceText("10% increased minion damage and melee critical strike chance", "增加10%召唤伤害和近战暴击率");
                     tooltips.ReplaceText("20% increased movement speed", "移速增加20%");
                 }
@@ -1132,6 +1156,10 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.ApprenticeAltPants)
                 {
                     tooltips.ReplaceText("10% increased minion damage and magic critical strike chance", "增加10%召唤伤害和魔法暴击率");
+                }
+                if (item.type == ItemID.SolarFlareHelmet || item.type == 2764 || item.type == 2765)
+                {
+                    tooltips.ReplaceText("Grants +1 HP/s life regeneration", "提供+1HP/s生命再生");
                 }
                 #endregion
 
@@ -1194,7 +1222,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.WarmthPotion)
                 {
-                    tooltips.ReplaceText("Grants immunity to Chilled, Frozen and Glacial State", "免疫冷冻、冰冻和冰河时代减益");
+                    tooltips.ReplaceText("Greatly reduces the duration of Chilled, Frozen, and Glacial State", "大幅降低冷冻、冰冻和冰河时代减益的持续时间");
                 }
                 if (item.type == ItemID.RodofDiscord)
                 {
@@ -1229,6 +1257,30 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Slows falling speed", "减缓坠落速度");
                     tooltips.ReplaceText("Disables all airborne flight recovery", "禁止在空中时的飞行时间恢复");
                 }
+                if (item.type == ItemID.AegisCrystal)
+                {
+                    tooltips.ReplaceText("Permanently boosts natural life regeneration", "永久提升自然生命再生");
+                }
+                if (item.type == ItemID.RegenerationPotion)
+                {
+                    tooltips.ReplaceText("Provides +2 HP/s life regeneration", "提供+2HP/s生命再生");
+                }
+                if (item.type == ItemID.BottledHoney)
+                {
+                    tooltips.ReplaceText("Grants +1 HP/s life regen for a short time", "短时间内提供+1HP/s生命再生");
+                    tooltips.ReplaceText("Grants an additional +1 HP/s life regen while inflicted with a damaging debuff", "受到伤害性减益时会额外提供+1HP/s生命再生");
+                }
+                if (item.type == ItemID.HeartLantern)
+                {
+                    tooltips.ReplaceText("Grants +1 HP/s life regeneration when placed nearby", "放置在附近时提供+1HP/s生命再生");
+                }
+
+                List<int> campfire = new List<int>() { 966, 3046, 3047, 3048, 3049, 3050, 3723, 3724, 4689, 4690, 4691, 4692, 4693, 4694, 5299, 5357 };
+                if (campfire.Contains(item.type))
+                {
+                    tooltips.ReplaceText("Life regen is increased by 0.5 HP/s when near a campfire", "在篝火附近时生命再生增加0.5HP/s");
+                }
+
 
             #endregion
 
