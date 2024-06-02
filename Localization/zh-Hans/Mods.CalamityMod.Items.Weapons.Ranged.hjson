@@ -654,7 +654,7 @@ Infinity: {
 	DisplayName: 无穷
 	Tooltip:
 		'''
-		发射一团会分裂弹射的能量子弹
+		Fires a twin stream of energy bolts that split
 		右键发射一团火枪子弹
 		“只要你把它握在手中，无限的解离就不会停止”
 		'''
@@ -995,7 +995,7 @@ RealmRavager: {
 	DisplayName: 灭域者
 	Tooltip:
 		'''
-		一次发射三到四颗子弹
+		一次发射四颗子弹
 		将火枪子弹转化为爆炸弹
 		'''
 }
@@ -1243,8 +1243,9 @@ Svantechnical: {
 	DisplayName: 斯万科技枪
 	Tooltip:
 		'''
-		发射出巨量子弹
-		右击以扩大视野
+		Fires a trinity of energy bolts that split into beams that track your cursor
+		Press <right> to fire a barrage of normal bullets
+		'The age old balance of trading damage for frames'
 		'''
 }
 

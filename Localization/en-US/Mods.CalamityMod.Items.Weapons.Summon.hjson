@@ -789,7 +789,7 @@ WulfrumController: {
 		Summons a wulfrum droid to fight for you
 		Hold right click while holding the remote to switch all of your drones into supercharge mode
 		Supercharged droids will stop attacking and focus wulfrum energy onto you
-		The beam provides extra regeneration and defense
+		Supercharged droids provide +0.5 HP/s life regen and 3 defense per droid
 		Can also be used to heal other players by keeping your mouse cursor close enough to them
 		'''
 }

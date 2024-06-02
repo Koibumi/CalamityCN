@@ -1,5 +1,6 @@
 AverageDamageClass.DisplayName: 无职业伤害
+MeleeRangedHybridDamageClass.DisplayName: 近战/远程伤害
 RogueDamageClass.DisplayName: 盗贼伤害
+StealthDamageClass.DisplayName: 潜伏伤害
 TrueMeleeDamageClass.DisplayName: 真近战伤害
 TrueMeleeNoSpeedDamageClass.DisplayName: 真近战伤害
-StealthDamageClass.DisplayName: 潜伏伤害

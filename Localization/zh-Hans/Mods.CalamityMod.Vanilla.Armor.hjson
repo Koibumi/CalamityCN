@@ -88,6 +88,12 @@ SetBonus: {
 		击败敌怪时时释放秘银火焰，一段时间后会追踪敌怪
 		秘银火焰生成间隔为{0}帧
 		'''
+	Nebula:
+		'''
+		Pink damage boosters grant 7.5% damage per stack
+		Orange life boosters grant +2 HP/s life regen per stack
+		Blue mana boosters grant +5 MP/s mana regen per stack
+		'''
 	Necro:
 		'''
 		允许你在受到致命伤害后暂时存活一段时间
@@ -98,6 +104,11 @@ SetBonus: {
 		增加30%的鞭子范围和15%的攻速
 		仆从的伤害提高15%
 		免疫火块和短暂免疫岩浆
+		'''
+	Palladium:
+		'''
+		Grants +2 HP/s life regeneration after striking an enemy
+		This life regeneration bypasses negative life regeneration
 		'''
 	PlatinumChainmail: 提高3%暴击率
 	Platinum:

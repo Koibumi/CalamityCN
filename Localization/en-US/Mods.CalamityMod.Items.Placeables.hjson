@@ -360,7 +360,7 @@ AstrumAureusRelic: {
 
 AstrumDeusRelic: {
 	DisplayName: Astrum Deus Relic
-	Tooltip: A glimpse into what could have been...
+	Tooltip: ""
 }
 
 BrimstoneElementalRelic: {
@@ -523,7 +523,6 @@ AltarOfTheAccursedItem: {
 		'''
 		Offer Ashes of Calamity at this altar to summon the Witch
 		Doing so will create a square arena of blocks, with the altar at its center
-		During the battle, heart pickups only heal for half as much
 		The Witch enrages while you are outside of the arena
 		{$CommonItemTooltip.SpecialCrafting}
 		'''
@@ -730,7 +729,9 @@ ResilientCandle: {
 	DisplayName: Resilient Candle
 	Tooltip:
 		'''
-		When placed, nearby players' defense blocks 15% more damage
+		<right> when placed to make defense block 10% more damage
+		(60% in Classic, 85% in Expert, and 110% in Master)
+		This cannot be stacked with other Cirrus Candle buffs
 		'Neither rain nor wind can snuff its undying flame'
 		'''
 }
@@ -749,8 +750,9 @@ SpitefulCandle: {
 	DisplayName: Spiteful Candle
 	Tooltip:
 		'''
-		When placed, nearby enemies take 5% more damage.
-		This extra damage bypasses enemy damage reduction and defense
+		<right> when placed to deal 1.07x damage to all enemies
+		The extra 0.07x damage bypasses enemy defense and damage reduction
+		This cannot be stacked with other Cirrus Candle buffs
 		'Its hateful glow flickers with ire'
 		'''
 }
@@ -974,8 +976,9 @@ VigorousCandle: {
 	DisplayName: Vigorous Candle
 	Tooltip:
 		'''
-		When placed, nearby players regenerate 0.4% of their maximum health per second
+		<right> when placed to regenerate 0.4% of your maximum health per second
 		This regeneration is at full power even while moving and bypasses Revengeance Mode caps
+		This cannot be stacked with other Cirrus Candle buffs
 		'Its brilliant light suffuses those nearby with hope'
 		'''
 }
@@ -984,7 +987,8 @@ WeightlessCandle: {
 	DisplayName: Weightless Candle
 	Tooltip:
 		'''
-		When placed, nearby players gain 10% movement speed, 10% wing time and 5% acceleration
+		<right> when placed to gain 10% increased movement speed, wing time and acceleration
+		This cannot be stacked with other Cirrus Candle buffs
 		'The floating flame seems to uplift your very spirit'
 		'''
 }

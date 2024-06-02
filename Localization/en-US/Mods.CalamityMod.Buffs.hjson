@@ -465,17 +465,17 @@ CirrusBlueCandleBuff: {
 
 CirrusPinkCandleBuff: {
 	DisplayName: Vigor
-	Description: Its brilliant light suffuses those nearby with hope
+	Description: The brilliant light suffuses you with hope
 }
 
 CirrusPurpleCandleBuff: {
 	DisplayName: Resilience
-	Description: Neither rain nor wind can snuff its undying flame
+	Description: Neither rain nor wind can snuff your undying flame
 }
 
 CirrusYellowCandleBuff: {
 	DisplayName: Spite
-	Description: Its hateful glow flickers with ire
+	Description: The hateful, flickering glow fuels your ire
 }
 
 CorruptionEffigyBuff: {

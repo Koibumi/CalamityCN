@@ -88,6 +88,12 @@ SetBonus: {
 		Enemy hits release mythril flares, which home in on enemies after a short delay
 		Once a flare is created, there is a {0} frame delay before another one can appear
 		'''
+	Nebula:
+		'''
+		Pink damage boosters grant 7.5% damage per stack
+		Orange life boosters grant +2 HP/s life regen per stack
+		Blue mana boosters grant +5 MP/s mana regen per stack
+		'''
 	Necro:
 		'''
 		Allows you to temporarily survive fatal damage
@@ -98,6 +104,11 @@ SetBonus: {
 		Increases whip range by 50% and speed by 35%
 		Increases minion damage by 15%
 		Grants immunity to fire blocks and temporary immunity to lava
+		'''
+	Palladium:
+		'''
+		Grants +2 HP/s life regeneration after striking an enemy
+		This life regeneration bypasses negative life regeneration
 		'''
 	PlatinumChainmail: 3% increased critical strike chance
 	Platinum:

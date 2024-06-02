@@ -54,8 +54,8 @@ Bloodfin: {
 	DisplayName: Bloodfin
 	Tooltip:
 		'''
-		Grants a buff that boosts life regen for 10 seconds
-		The life regen boost is stronger if below 75% health
+		Grants a buff that grants +2.5 HP/s life regen
+		This buff directly restores HP if below 75% health
 		10 second duration
 		'The wonders of angiogenesis'
 		'''

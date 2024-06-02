@@ -18,7 +18,7 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
-		增强红葡萄酒的效果
+		红葡萄酒会回复250生命值但降低2HP/s生命再生
 		[c/FCE391:“我骑上去了！”]
 		'''
 }
@@ -104,7 +104,8 @@ PhotosynthesisPotion: {
 	DisplayName: 光合药水
 	Tooltip:
 		'''
-		站定不动时你会快速的恢复生命值，此效果在白天时会变为5倍
+		+0.5HP/s life regen and accelerates natural life regen while not moving
+		This natural life regen effect is five times as strong during daytime
 		掉落的红心会回复更多生命值
 		'''
 }

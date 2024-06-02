@@ -8,6 +8,7 @@ CalamityConfig: {
 		Revengeance: 复仇模式改动
 		UI: UI改动
 		BaseBoosts: 基础属性加成
+		MusicEvents: 音乐事件
 	}
 
 	AdrenalineMeterPosX: {
@@ -130,6 +131,11 @@ CalamityConfig: {
 		Tooltip: 在所有Boss和迷你Boss上方添加一排图标，显示当前受到的减益。
 	}
 
+	DevourerofGodsEulogy: {
+		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
+		Tooltip: Plays Calamity Mod OST - "Scourge of The Universe (Eulogy for The Ego)", after The Devourer of Gods has been defeated.
+	}
+
 	EarlyHardmodeProgressionRework: {
 		Label: "[i:Pwnhammer] 困难模式早期流程重做"
 		Tooltip:
@@ -224,6 +230,21 @@ CalamityConfig: {
 			提高10%玩家的基础跳跃高度，因此可以跳跃7图格。
 			灾厄平衡设定是在启用此配置的基础上进行的。 
 			'''
+	}
+
+	Interlude1: {
+		Label: "[i:CalamityModMusic/Interlude1MusicBox] Interlude 1"
+		Tooltip: Plays Calamity Mod OST - Interlude 1, "Silence before the storms", after Calamitas Clone has been defeated.
+	}
+
+	Interlude2: {
+		Label: "[i:CalamityModMusic/Interlude2MusicBox] Interlude 2"
+		Tooltip: Plays Calamity Mod OST - Interlude 2, "Storms before the catastrophes", after Moon Lord has been defeated.
+	}
+
+	Interlude3: {
+		Label: "[i:CalamityModMusic/Interlude3MusicBox] Interlude 3"
+		Tooltip: Plays Calamity Mod OST - Interlude 3, "Catastrophes before the calamity", after Yharon has been defeated.
 	}
 
 	MeterPosLock: {

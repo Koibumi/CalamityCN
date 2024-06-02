@@ -231,11 +231,14 @@ ProfanedShard: {
 	Tooltip:
 		'''
 		[SPAWN]
-		Enrage when not in the Hallow or Underworld
 		Not consumable
 		'Her Guardians seek the holder of such vast stolen power.'
 		'''
-	SpawnNormal: Summons the Profaned Guardians when used in the Hallow or Underworld during daytime
+	SpawnNormal:
+		'''
+		Summons the Profaned Guardians when used in the Hallow or Underworld
+		Enrages when fought during nighttime
+		'''
 	SpawnRemix: Summons the Profaned Guardians when used in the Hallow or Underworld
 }
 
@@ -302,11 +305,7 @@ Teratoma: {
 Terminus: {
 	DisplayName: Terminus
 	GFBName: Ogscule
-	Tooltip:
-		'''
-		Activates Boss Rush Mode, using it again will deactivate Boss Rush Mode
-		During the Boss Rush, all wires and wired devices will be disabled
-		'''
+	Tooltip: Activates Boss Rush Mode, using it again will deactivate Boss Rush Mode
 }
 
 YharonEgg: {

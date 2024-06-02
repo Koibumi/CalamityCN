@@ -8,6 +8,7 @@ CalamityConfig: {
 		Revengeance: Revengeance Mode Changes
 		UI: UI Changes
 		BaseBoosts: Base Stat Boosts
+		MusicEvents: Music Events
 	}
 
 	AdrenalineMeterPosX: {
@@ -130,6 +131,11 @@ CalamityConfig: {
 		Tooltip: Adds an array of debuff icons above all bosses and minibosses.
 	}
 
+	DevourerofGodsEulogy: {
+		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
+		Tooltip: Plays Calamity Mod OST - "Scourge of The Universe (Eulogy for The Ego)", after The Devourer of Gods has been defeated.
+	}
+
 	EarlyHardmodeProgressionRework: {
 		Label: "[i:Pwnhammer] Early Hardmode Progression Rework"
 		Tooltip:
@@ -224,6 +230,21 @@ CalamityConfig: {
 			Increases the player's base jump height by 10% so that they can jump 7 tiles.
 			Calamity is balanced around this setting being enabled.
 			'''
+	}
+
+	Interlude1: {
+		Label: "[i:CalamityModMusic/Interlude1MusicBox] Interlude 1"
+		Tooltip: Plays Calamity Mod OST - Interlude 1, "Silence before the storms", after Calamitas Clone has been defeated.
+	}
+
+	Interlude2: {
+		Label: "[i:CalamityModMusic/Interlude2MusicBox] Interlude 2"
+		Tooltip: Plays Calamity Mod OST - Interlude 2, "Storms before the catastrophes", after Moon Lord has been defeated.
+	}
+
+	Interlude3: {
+		Label: "[i:CalamityModMusic/Interlude3MusicBox] Interlude 3"
+		Tooltip: Plays Calamity Mod OST - Interlude 3, "Catastrophes before the calamity", after Yharon has been defeated.
 	}
 
 	MeterPosLock: {

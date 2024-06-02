@@ -102,8 +102,9 @@ AlchemicalFlask: {
 	DisplayName: Alchemical Flask
 	Tooltip:
 		'''
-		All attacks inflict the Plague and grants immunity to the Plague
+		All attacks inflict the Plague and reduces damage taken from the Plague
 		Projectiles spawn plague seekers on enemy hits
+		Releases plague bees when damaged and douses you in honey
 		'''
 }
 
@@ -136,10 +137,10 @@ AmbrosialAmpoule: {
 	DisplayName: Ambrosial Ampoule
 	Tooltip:
 		'''
-		+70 max life
+		+50 max life
 		Grants +2 to +6 HP/s life regen based on missing health
-		Provides life regeneration equivalent to standing in Honey
-		Standing still grants extremely powerful regen
+		Grants +1 HP/s life regen and an additional 1 HP/s life regen when inflicted with a damage debuff
+		Standing still grants +1.5 HP/s life regen
 		Halves how long you are afflicted with fire and sickness debuffs
 		You emit yellow light if visibility is enabled
 		'''
@@ -428,7 +429,7 @@ CrawCarapace: {
 	DisplayName: Craw Carapace
 	Tooltip:
 		'''
-		5% increased damage
+		7% increased damage
 		Enemies that hit you take damage and are inflicted with Crumbling
 		'''
 }
@@ -437,7 +438,7 @@ Baroclaw: {
 	DisplayName: Baroclaw
 	Tooltip:
 		'''
-		10% increased damage
+		10% increased damage and 5% increased damage reduction
 		Enemies that hit you take high damage and are inflicted with Armor Crunch and Crush Depth
 		'''
 }
@@ -885,8 +886,9 @@ HallowedRune: {
 	Tooltip:
 		'''
 		Whenever your minions hit an enemy you will gain a random buff, does not stack with downgrades
-		These buffs will either boost your defense, summon damage, or life regen for a while
-		If you have the offensive boost, enemies hit by minions will sometimes be hit by stars
+		Hallowed Power increases summon damage by 10% and makes minion hits rain stars
+		Hallowed Defense increases defense by 8 and DR by 4%
+		Hallowed Regen grants +1.5 HP/s life regeneration
 		'''
 }
 
@@ -935,8 +937,8 @@ HoneyDew: {
 	Tooltip:
 		'''
 		+30 max life
-		Provides life regeneration equivalent to standing in Honey
-		Standing still in Honey grants extremely powerful regen
+		Grants +1 HP/s life regen and an additional 1 HP/s life regen when inflicted with a damage debuff
+		Standing still in Honey grants +1.5 HP/s life regen
 		Halves how long you are afflicted with sickness debuffs
 		'''
 }
@@ -1023,8 +1025,8 @@ LivingDew: {
 	Tooltip:
 		'''
 		+50 max life
-		Provides life regeneration equivalent to standing in Honey
-		Standing still in Honey grants extremely powerful regen
+		Grants +1 HP/s life regen and an additional 1 HP/s life regen when inflicted with a damage debuff
+		Standing still in Honey grants +1.5 HP/s life regen
 		Halves how long you are afflicted with fire and sickness debuffs
 		'''
 }
@@ -1064,8 +1066,7 @@ ManaPolarizer: {
 		'''
 		Increases max mana by 50 and magic damage by 6%
 		-1.5 HP/s life regen if mana is above 50% of its maximum
-		Grants spectre healing, the amount healed scales with your mana
-		The healing only works while holding a magic weapon
+		Magic projectiles give lifesteal while holding a magic weapon
 		The more mana you have, the more you heal
 		'''
 }
@@ -1243,10 +1244,9 @@ PhantomicArtifact: {
 	Tooltip:
 		'''
 		Whenever your minions hit an enemy you will gain a random phantomic buff, does not stack with downgrades
-		These buffs will either boost your defense, summon damage, or life regen for a while
-		If you have the offensive boost, enemies hit by minions will sometimes be hit by phantomic knives
-		If you have the regenerative boost, a phantomic heart will occasionally materialise granting massive health regen
-		If you have the defensive boost, a phantomic bulwark will absorb 20% of the next projectile's damage that hits the bulwark, shattering it
+		Phantomic Empowerment increases summon damage by 10% and makes minion hits spawn phantomic knives
+		Phantomic Shield increases defense by 10 and DR by 5% and spawns a phantomic bulwark which absorbs 20% of the next projectile's damage that touches it
+		Phantomic Regen grants +2 HP/s life regen and spawns a phantomic heart which grants an additional 2 HP/s life regen when touched
 		'''
 }
 
@@ -1258,16 +1258,6 @@ PlaguedFuelPack: {
 		Stealth generates 10% faster
 		Press [KEY] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds
 		This effect has a 1 second cooldown before it can be used again
-		'''
-}
-
-PlagueHive: {
-	DisplayName: Plague Hive
-	Tooltip:
-		'''
-		All attacks inflict the Plague and grants immunity to the Plague
-		Releases bees when damaged that inflict the Plague
-		Projectiles spawn plague seekers on enemy hits
 		'''
 }
 
@@ -1331,10 +1321,10 @@ Radiance: {
 	DisplayName: Radiance
 	Tooltip:
 		'''
-		+100 max life
-		Grants +3 to +7 HP/s life regen based on missing health
-		Provides life regeneration equivalent to standing in Honey
-		Standing still grants extremely powerful regen
+		+70 max life
+		Grants +2 to +6 HP/s life regen based on missing health
+		Grants +1 HP/s life regen and an additional 1 HP/s life regen when inflicted with a damage debuff
+		Standing still grants +2 HP/s life regen
 		Grants 20 defense and continuous healing while afflicted with any debuff
 		The healing eventually slows down if debuffed for an extended period of time
 		Massively boosts natural life regen while afflicted with any debuff
@@ -1587,7 +1577,9 @@ SpiritGlyph: {
 	Tooltip:
 		'''
 		Whenever your minions hit an enemy you will gain a random buff
-		These buffs will either boost your defense, summon damage, or life regen for a while
+		Spirit Power increases summon damage by 10%
+		Spirit Defense increases defense by 6 and DR by 3%
+		Spirit Regen grants +1 HP/s life regeneration
 		'''
 }
 
@@ -1615,9 +1607,8 @@ StatisBlessing: {
 	DisplayName: Statis' Blessing
 	Tooltip:
 		'''
-		Increased max minions by 2 and 10% increased summon damage
+		Increased max minions by 2 and 12% increased summon damage
 		Increased minion knockback
-		Minions inflict holy flames on hit
 		'''
 }
 
@@ -1626,9 +1617,9 @@ StatisCurse: {
 	Tooltip:
 		'''
 		Increases max minions by 3, does not stack with downgrades
-		10% increased summon damage
+		12% increased summon damage
 		Increased minion knockback
-		Minions inflict holy flames and shadowflames on hit
+		Minions inflict shadowflames on hit
 		Grants immunity to Shadowflame
 		'''
 }
@@ -1720,7 +1711,7 @@ StatMeter: {
 	// Other stats
 	GenericStats:
 		'''
-		Defense: {0} | DR: {1}% | Life Regen: {2}
+		Defense: {0} | DR: {1}% | Life Regen: {2} HP/s
 		Move Speed: {3}% | Jump Boost: {4}%
 		'''
 	FlightTime: " | Wing Flight Time: {0} seconds"
@@ -1882,8 +1873,9 @@ ToxicHeart: {
 	DisplayName: Toxic Heart
 	Tooltip:
 		'''
-		Summons a plague aura around you that damages nearby enemies
-		Makes you immune to the Plague debuff
+		Causes your heart to beat with powerful plague pulses, inflicting all nearby enemies with the Plague
+		The rate of these pulses scales with how low your life regen is
+		Pulses that kill targets create additional pulses and heal you
 		Multiplies all sickness-based debuff damage by 1.5
 		'''
 }

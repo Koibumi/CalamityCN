@@ -653,7 +653,7 @@ Infinity: {
 	DisplayName: Infinity
 	Tooltip:
 		'''
-		Fires a barrage of energy bolts that split and bounce
+		Fires a twin stream of energy bolts that split
 		Press <right> to fire a barrage of normal bullets
 		'They say infinity is neverending, yet you hold it in your hands'
 		'''
@@ -994,7 +994,7 @@ RealmRavager: {
 	DisplayName: Realm Ravager
 	Tooltip:
 		'''
-		Shoots a burst of 3 to 4 bullets
+		Shoots a burst of 4 bullets
 		Converts musket balls into explosive bullets
 		'''
 }
@@ -1242,8 +1242,9 @@ Svantechnical: {
 	DisplayName: Svantechnical
 	Tooltip:
 		'''
-		Fires several barrages of bullets
-		Press <right> to zoom out
+		Fires a trinity of energy bolts that split into beams that track your cursor
+		Press <right> to fire a barrage of normal bullets
+		'The age old balance of trading damage for frames'
 		'''
 }
 

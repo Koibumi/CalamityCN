@@ -465,17 +465,17 @@ CirrusBlueCandleBuff: {
 
 CirrusPinkCandleBuff: {
 	DisplayName: 活力
-	Description: 它耀眼的光芒给周围的人带来了希望
+	Description: 耀眼的光芒给你带来了希望
 }
 
 CirrusPurpleCandleBuff: {
 	DisplayName: 执念
-	Description: 暴风骤雨也无法熄灭这不灭的火
+	Description: 暴风骤雨也无法熄灭你不灭的火
 }
 
 CirrusYellowCandleBuff: {
 	DisplayName: 恶毒
-	Description: 它那惹人厌的火光只会激起愤怒
+	Description: 那惹人厌的闪烁火光只会激起你的愤怒
 }
 
 CorruptionEffigyBuff: {

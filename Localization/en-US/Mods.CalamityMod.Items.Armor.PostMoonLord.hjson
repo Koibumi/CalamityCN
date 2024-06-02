@@ -232,7 +232,7 @@ FearmongerGreathelm: {
 		'''
 		20% increased summon damage and +2 max minions
 		Minions no longer deal less damage while wielding non-summoner weapons
-		Immunity to all forms of frost and flame
+		Immunity to all but the strongest forms of frost and flame
 		Minion attacks grant +3.5 HP/s life regen and massively accelerate life regen
 		15% increased damage reduction during the Pumpkin and Frost Moons
 		This extra damage reduction ignores the soft cap
@@ -527,7 +527,7 @@ TarragonHeadMelee: {
 		'''
 		15% increased melee speed
 		Enemies are more likely to target you
-		You gain a life regen buff when you take damage
+		Taking damage gives the Tarra Life buff, which grants +1.5 HP/s life regen
 		Press {0} to cloak yourself in life energy that heavily reduces enemy contact damage for 10 seconds
 		This has a 30 second cooldown
 		'''

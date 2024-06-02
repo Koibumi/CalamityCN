@@ -18,7 +18,7 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
-		Boosts the effects of Red Wine
+		Red Wine heals 250 HP, but reduces life regen by 2 HP/s
 		[c/FCE391:'je suis Monte']
 		'''
 }
@@ -104,7 +104,8 @@ PhotosynthesisPotion: {
 	DisplayName: Photosynthesis Potion
 	Tooltip:
 		'''
-		You regen life quickly while not moving, this effect is five times as strong during daytime
+		Grants +0.5 HP/s life regen and accelerates natural life regen while not moving
+		This natural life regen effect is five times as strong during daytime
 		Dropped hearts heal more HP
 		'''
 }

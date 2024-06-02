@@ -287,7 +287,7 @@ CosmicDischarge: {
 	Tooltip:
 		'''
 		用能引发冰川爆破的弹鞭击打敌人并使玩家获得寒宙增益
-		此增益会令玩家在站定不动时增加生命再生并冻结周围敌人
+		此增益会令玩家在站定不动时增加2HP/s生命再生并冻结周围敌人
 		'''
 }
 
@@ -707,7 +707,7 @@ Lacerator: {
 	DisplayName: 裂魔
 	Tooltip:
 		'''
-		接近这个悠悠球的敌人的生命会被汲取
+		用悠悠球击中敌人会加速自然生命再生
 		一只超级灵活的悠悠球
 		[GFB]
 		'''
@@ -967,6 +967,16 @@ RemsRevenge: {
 		'''
 		击中敌人时迸发出血花，降低其防御
 		由最勇敢的战士使用
+		'''
+}
+
+Respiteblock: {
+	DisplayName: Respiteblock
+	Tooltip:
+		'''
+		A glistening white chainsaw that spews green and purple blood all over
+		Hitting enemies with the blade will heal you and deal immense damage
+		[c/0e8401:'It's Ok To Be Dangerous']
 		'''
 }
 

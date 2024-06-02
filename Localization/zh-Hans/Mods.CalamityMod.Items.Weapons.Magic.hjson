@@ -392,11 +392,6 @@ HadalUrn: {
 		'''
 }
 
-HarvestStaff: {
-	DisplayName: 丰收
-	Tooltip: 丢出燃烧的南瓜
-}
-
 HeliumFlash: {
 	DisplayName: 氦闪
 	Tooltip:
@@ -794,6 +789,16 @@ Teslastaff: {
 		连续命中同一个敌怪会使伤害提升
 		每次命中提升10%伤害，最多提升至500%伤害
 		若未能命中该敌怪则伤害加成会迅速降低
+		'''
+}
+
+TheCauldron: {
+	DisplayName: The Cauldron
+	Tooltip:
+		'''
+		Launches lava bombs which explode into more lava bombs
+		80% reduced mana usage while submerged in lava or while in the underworld
+		'Believe it or not, its original wielder was only a few centimeters tall!'
 		'''
 }
 

@@ -231,11 +231,14 @@ ProfanedShard: {
 	Tooltip:
 		'''
 		[SPAWN]
-		在神圣之地外或地狱外狂暴
 		不消耗
 		“她的守护者正在搜寻如此浩瀚能量的盗取者。”
 		'''
-	SpawnNormal: 白天时在地狱或神圣之地使用以召唤亵渎守卫
+	SpawnNormal:
+		'''
+		在地狱或神圣之地使用以召唤亵渎守卫
+		在夜晚战斗时狂暴
+		'''
 	SpawnRemix: 在地狱或神圣之地使用以召唤亵渎守卫
 }
 
@@ -302,11 +305,7 @@ Teratoma: {
 Terminus: {
 	DisplayName: 终末石
 	GFBName: 终末杖
-	Tooltip:
-		'''
-		激活Boss Rush模式，再次使用以退出Boss Rush模式
-		在Boss Rush模式中，所有的电路设备会被禁用
-		'''
+	Tooltip: 激活Boss Rush模式，再次使用以退出Boss Rush模式
 }
 
 YharonEgg: {

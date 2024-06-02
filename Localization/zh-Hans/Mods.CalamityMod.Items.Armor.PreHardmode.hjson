@@ -186,7 +186,7 @@ StatigelHeadSummon: {
 
 SulphurousBreastplate: {
 	DisplayName: 硫磺胸甲
-	Tooltip: 增加8%盗贼伤害和5%盗贼暴击率
+	Tooltip: 增加6%盗贼伤害和4%盗贼暴击率
 }
 
 SulphurousHelmet: {
@@ -199,7 +199,7 @@ SulphurousHelmet: {
 		'''
 	SetBonus:
 		'''
-		增加70点最大潜行值
+		增加65点最大潜行值
 		攻击敌人或被敌人攻击时对其造成中毒减益
 		获得一段额外跳跃，跳跃时生成硫磺泡泡
 		增加水下移动力，降低硫磺海水的威胁性

@@ -392,11 +392,6 @@ HadalUrn: {
 		'''
 }
 
-HarvestStaff: {
-	DisplayName: Harvest Staff
-	Tooltip: Casts flaming pumpkins
-}
-
 HeliumFlash: {
 	DisplayName: Helium Flash
 	Tooltip:
@@ -794,6 +789,16 @@ Teslastaff: {
 		Each successive hit on the same enemy increases damage per hit
 		The damage increases 10% per hit to a maximum of 500% damage
 		This damage will rapidly decrease after the enemy stops being hit
+		'''
+}
+
+TheCauldron: {
+	DisplayName: The Cauldron
+	Tooltip:
+		'''
+		Launches lava bombs which explode into more lava bombs
+		80% reduced mana usage while submerged in lava or while in the underworld
+		'Believe it or not, its original wielder was only a few centimeters tall!'
 		'''
 }
 

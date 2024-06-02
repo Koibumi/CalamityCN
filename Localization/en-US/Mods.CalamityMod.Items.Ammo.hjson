@@ -50,6 +50,11 @@ CinderArrow: {
 	Tooltip: Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames
 }
 
+DryadsTear: {
+	DisplayName: Dryad's Tear
+	Tooltip: Explodes and splits into homing nature shards on impact
+}
+
 ElysianArrow: {
 	DisplayName: Elysian Arrow
 	Tooltip:
@@ -98,7 +103,7 @@ HailstormBullet: {
 		'''
 		Bullets imbued with potent ice magic
 		These bullets rapidly decelerate after being fired
-		Critical hits cause a flash freeze, dealing additional damage
+		Critical hits cause a flash freeze, dealing additional damage and freezing normal enemies
 		'''
 }
 
@@ -157,11 +162,6 @@ SproutingArrow: {
 		Fires an energy arrow that quickly splits into two arrows
 		These arrows ignore 8 points of defense
 		'''
-}
-
-DryadsTear: {
-	DisplayName: Dryad's Tear
-	Tooltip: Explodes and splits into homing nature shards on impact
 }
 
 VanquisherArrow: {

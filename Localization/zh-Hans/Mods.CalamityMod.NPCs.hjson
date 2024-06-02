@@ -623,3 +623,7 @@ WITCH: {
 		Princess_LovesNPC: "{NPCName}总是很孤独，这就是我想和她一起玩的原因，谁都不该那样孤单！"
 	}
 }
+
+KingSlimeJewelEmerald.DisplayName: King Slime Jewel Emerald
+KingSlimeJewelRuby.DisplayName: King Slime Jewel Ruby
+KingSlimeJewelSapphire.DisplayName: King Slime Jewel Sapphire

@@ -50,6 +50,11 @@ CinderArrow: {
 	Tooltip: 爆裂出燃烧碎片的爆炸性箭矢，燃烧碎片会施加硫磺火减益
 }
 
+DryadsTear: {
+	DisplayName: 树妖之泪
+	Tooltip: 撞击时爆炸并分裂出追踪的自然碎片
+}
+
 ElysianArrow: {
 	DisplayName: 极乐之箭
 	Tooltip:
@@ -98,7 +103,7 @@ HailstormBullet: {
 		'''
 		灌注了强力冰魔法的子弹
 		这些子弹发射后速度会快速衰减
-		暴击会引发霜爆，造成额外伤害
+		暴击会引发霜爆，造成额外伤害并冻结普通敌怪
 		'''
 }
 
@@ -157,11 +162,6 @@ SproutingArrow: {
 		射出一支迅速一分为二的能量箭矢
 		这些箭矢无视8点防御
 		'''
-}
-
-DryadsTear: {
-	DisplayName: 树妖之泪
-	Tooltip: 撞击时爆炸并分裂出追踪的自然碎片
 }
 
 VanquisherArrow: {

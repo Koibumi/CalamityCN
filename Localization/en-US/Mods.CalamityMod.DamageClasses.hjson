@@ -1,5 +1,6 @@
 AverageDamageClass.DisplayName: average damage
+MeleeRangedHybridDamageClass.DisplayName: melee/ranged damage
 RogueDamageClass.DisplayName: rogue damage
+StealthDamageClass.DisplayName: stealth damage
 TrueMeleeDamageClass.DisplayName: true melee damage
 TrueMeleeNoSpeedDamageClass.DisplayName: true melee damage
-StealthDamageClass.DisplayName: Stealth Damage Class

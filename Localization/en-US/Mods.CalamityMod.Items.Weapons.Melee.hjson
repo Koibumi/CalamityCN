@@ -287,7 +287,7 @@ CosmicDischarge: {
 	Tooltip:
 		'''
 		Striking an enemy with the whip causes glacial explosions and grants the player the cosmic freeze buff
-		This buff gives the player increased life regen while standing still and freezes enemies near the player
+		This buff gives the player +2 HP/s life regen while standing still and freezes enemies near the player
 		'''
 }
 
@@ -707,7 +707,7 @@ Lacerator: {
 	DisplayName: Lacerator
 	Tooltip:
 		'''
-		Enemies that are hit by the yoyo will have their life drained
+		Accelerates natural life regeneration on hits with the yoyo
 		An exceptionally agile yoyo
 		[GFB]
 		'''
@@ -967,6 +967,16 @@ RemsRevenge: {
 		'''
 		Summons blood explosions and lowers enemy defense on hit
 		Wielded by the most powerful fighter
+		'''
+}
+
+Respiteblock: {
+	DisplayName: Respiteblock
+	Tooltip:
+		'''
+		A glistening white chainsaw that spews green and purple blood all over
+		Hitting enemies with the blade will heal you and deal immense damage
+		[c/0e8401:'It's Ok To Be Dangerous']
 		'''
 }
 
