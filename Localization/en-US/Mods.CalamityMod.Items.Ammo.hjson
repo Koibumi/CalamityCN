@@ -52,7 +52,7 @@ CinderArrow: {
 
 DryadsTear: {
 	DisplayName: Dryad's Tear
-	Tooltip: Explodes and splits into homing nature shards on impact
+	Tooltip: Splits into homing nature shards on impact which ignore enemy defense
 }
 
 ElysianArrow: {

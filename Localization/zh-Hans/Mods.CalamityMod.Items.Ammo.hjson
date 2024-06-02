@@ -52,7 +52,7 @@ CinderArrow: {
 
 DryadsTear: {
 	DisplayName: 树妖之泪
-	Tooltip: 撞击时爆炸并分裂出追踪的自然碎片
+	Tooltip: 撞击时分裂出无视敌怪防御的追踪自然碎片
 }
 
 ElysianArrow: {
