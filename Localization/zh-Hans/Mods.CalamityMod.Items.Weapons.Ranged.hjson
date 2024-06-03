@@ -654,7 +654,7 @@ Infinity: {
 	DisplayName: 无穷
 	Tooltip:
 		'''
-		Fires a twin stream of energy bolts that split
+		发射一对分裂的能量束
 		右键发射一团火枪子弹
 		“只要你把它握在手中，无限的解离就不会停止”
 		'''
@@ -1243,9 +1243,9 @@ Svantechnical: {
 	DisplayName: 斯万科技枪
 	Tooltip:
 		'''
-		Fires a trinity of energy bolts that split into beams that track your cursor
-		Press <right> to fire a barrage of normal bullets
-		'The age old balance of trading damage for frames'
+		发射三股能量束，能量束会分裂成追踪光标位置的光束
+		按下右键发射一团普通子弹
+		'以构造换取伤害的古老平衡'
 		'''
 }
 

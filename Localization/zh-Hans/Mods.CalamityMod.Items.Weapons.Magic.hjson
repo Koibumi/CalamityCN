@@ -793,12 +793,12 @@ Teslastaff: {
 }
 
 TheCauldron: {
-	DisplayName: The Cauldron
+	DisplayName: 火山锅
 	Tooltip:
 		'''
-		Launches lava bombs which explode into more lava bombs
-		80% reduced mana usage while submerged in lava or while in the underworld
-		'Believe it or not, its original wielder was only a few centimeters tall!'
+		发射熔岩炸弹，爆炸时会分裂出更多熔岩炸弹
+		在岩浆中或地狱使用时魔力消耗降低80%。
+		'信不信由你，它最初的使用者只有几厘米高！'
 		'''
 }
 

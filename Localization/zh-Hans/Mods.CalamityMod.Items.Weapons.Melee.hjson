@@ -971,12 +971,12 @@ RemsRevenge: {
 }
 
 Respiteblock: {
-	DisplayName: Respiteblock
+	DisplayName: 喘息匣
 	Tooltip:
 		'''
-		A glistening white chainsaw that spews green and purple blood all over
-		Hitting enemies with the blade will heal you and deal immense damage
-		[c/0e8401:'It's Ok To Be Dangerous']
+		一把闪闪发光的白色电锯，溅出绿色和紫色的鲜血
+		用锯刃命中敌人会造成巨量伤害并治疗你
+		[c/0e8401:'危险一点也没关系']
 		'''
 }
 
