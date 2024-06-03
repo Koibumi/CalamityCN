@@ -157,7 +157,7 @@ Mods: {
 			}
 
 			DevourerofGodsEulogyMusicBox: {
-				DisplayName: Music Box (Devourer of Gods - Eulogy)
+				DisplayName: 音乐盒（神明吞噬者——Eulogy）
 				Tooltip: Plays 'Scourge of the Universe (Eulogy for the Ego)' by DM DOKURO
 			}
 
@@ -187,17 +187,17 @@ Mods: {
 			}
 
 			Interlude1MusicBox: {
-				DisplayName: Music Box (Interlude 1)
+				DisplayName: 音乐盒（插曲1）
 				Tooltip: Plays 'Silence before the storms' by DM DOKURO
 			}
 
 			Interlude2MusicBox: {
-				DisplayName: Music Box (Interlude 2)
+				DisplayName: 音乐盒（插曲2）
 				Tooltip: Plays 'Storms before the catastrophes' by DM DOKURO
 			}
 
 			Interlude3MusicBox: {
-				DisplayName: Music Box (Interlude 3)
+				DisplayName: 音乐盒（插曲3）
 				Tooltip: Plays 'Catastrophes before the calamity' by DM DOKURO
 			}
 
