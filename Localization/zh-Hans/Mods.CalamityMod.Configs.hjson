@@ -133,7 +133,7 @@ CalamityConfig: {
 
 	DevourerofGodsEulogy: {
 		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
-		Tooltip: Plays Calamity Mod OST - "Scourge of The Universe (Eulogy for The Ego)", after The Devourer of Gods has been defeated.
+		Tooltip: 在神明吞噬者被击败后播放灾厄OST——“Scourge of The Universe (Eulogy for The Ego)”。
 	}
 
 	EarlyHardmodeProgressionRework: {
@@ -233,18 +233,18 @@ CalamityConfig: {
 	}
 
 	Interlude1: {
-		Label: "[i:CalamityModMusic/Interlude1MusicBox] Interlude 1"
-		Tooltip: Plays Calamity Mod OST - Interlude 1, "Silence before the storms", after Calamitas Clone has been defeated.
+		Label: "[i:CalamityModMusic/Interlude1MusicBox] 插曲1"
+		Tooltip: 在灾厄之影被击败后播放灾厄OST——插曲1，“Silence before the storms”。
 	}
 
 	Interlude2: {
-		Label: "[i:CalamityModMusic/Interlude2MusicBox] Interlude 2"
-		Tooltip: Plays Calamity Mod OST - Interlude 2, "Storms before the catastrophes", after Moon Lord has been defeated.
+		Label: "[i:CalamityModMusic/Interlude2MusicBox] 插曲2"
+		Tooltip: 在月亮领主被击败后播放灾厄OST——插曲2，“Storms before the catastrophes”。
 	}
 
 	Interlude3: {
-		Label: "[i:CalamityModMusic/Interlude3MusicBox] Interlude 3"
-		Tooltip: Plays Calamity Mod OST - Interlude 3, "Catastrophes before the calamity", after Yharon has been defeated.
+		Label: "[i:CalamityModMusic/Interlude3MusicBox] 插曲3"
+		Tooltip: 在犽戎被击败后播放灾厄OST——插曲3，“Catastrophes before the calamity”。
 	}
 
 	MeterPosLock: {
