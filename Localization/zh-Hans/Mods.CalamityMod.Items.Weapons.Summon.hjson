@@ -110,7 +110,7 @@ CalamarisLament: {
 		“深渊之中，任何资源都是稀缺的，
 		每个物种都孤苦伶仃，仅是因为它们根本没有可共享的资源。”
 		'''
-	TooltipGFB: "'Woomy!'"
+	TooltipGFB: "“Woomy!”"
 }
 
 CausticCroakerStaff: {
