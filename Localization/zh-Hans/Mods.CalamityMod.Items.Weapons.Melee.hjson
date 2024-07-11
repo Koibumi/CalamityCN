@@ -675,7 +675,7 @@ Hellkite: {
 		击中敌人时召唤火焰喷泉
 		包含一只远古恶龙的力量
 		'''
-	TooltipGFB: "“我的最爱<3”"
+	TooltipGFB: “我的最爱<3”
 }
 
 HolyCollider: {
