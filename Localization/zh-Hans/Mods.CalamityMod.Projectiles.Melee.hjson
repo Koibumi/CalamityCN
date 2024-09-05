@@ -29,7 +29,6 @@ AtaraxiaMain.DisplayName: 非凡之刃
 AtaraxiaSide.DisplayName: 并非凡刃
 AtaraxiaSplit.DisplayName: 仍非凡刃
 BalefulHarvesterProjectile.DisplayName: 南瓜头骨
-BallOFuguProj.DisplayName: 河豚链球
 BansheeHookBoom.DisplayName: 鬼爪爆炸
 BansheeHookScythe.DisplayName: 女妖鬼爪
 BiomeBladeHoldout.DisplayName: 已修复的环境之刃
@@ -39,7 +38,6 @@ BlazingPhantomBlade.DisplayName: 炽炎幻影刃
 Blood.DisplayName: 屠戮之血
 Blood2.DisplayName: 血
 BloodBall.DisplayName: 血球
-BloodExplosion.DisplayName: 血爆
 BloodScythe.DisplayName: 鲜血之镰
 BonebreakerFragment1.DisplayName: 碎骨弹片
 BonebreakerProjectile.DisplayName: 碎骨者
@@ -50,7 +48,6 @@ BrimlanceStandingFire.DisplayName: 硫火
 Brimlash2.DisplayName: 硫火鞭挞
 BrimlashProj.DisplayName: 硫火鞭挞
 BrimstoneBoom.DisplayName: 硫火爆焱
-BrimstoneLaserFriendly.DisplayName: 硫火死光
 BrimstoneSwordExplosion.DisplayName: 硫火爆炎
 BrimstoneSwordProj.DisplayName: 硫火剑
 BrinySpout.DisplayName: 盐水浴
@@ -70,9 +67,7 @@ CosmicShivAura.DisplayName: 宇宙短剑光环
 CosmicShivBall.DisplayName: 宇宙能量
 CosmicShivBlade.DisplayName: 宇宙射线
 CosmicShivTrail.DisplayName: 宇宙短剑尾迹
-CosmicSpiritBomb1.DisplayName: 宙能聚爆
-CosmicSpiritBomb2.DisplayName: 宙能聚爆
-CosmicSpiritBomb3.DisplayName: 宙能聚爆
+CosmicSpiritBomb.DisplayName: 宙能聚爆
 CrescentMoonFlail.DisplayName: 新月
 CrescentMoonProj.DisplayName: 新月
 CrystylCrusherRay.DisplayName: 晶体碾碎射线
@@ -100,22 +95,15 @@ DracoBeam2.DisplayName: 天龙座射线
 DraconicSpark.DisplayName: 暴风灼焱
 DragonPowFlail.DisplayName: 龙啸波
 DragonRageFireball.DisplayName: 龙怒火球
-Earth2.DisplayName: 无限大地
-Earth3.DisplayName: 无限大地
-Earth4.DisplayName: 无限大地
-EarthProj.DisplayName: 无限大地
+EarthBoom.DisplayName: Earth's Judgement
+EarthMeteor.DisplayName: Gaia Meteor
 ElementalGlassStar.DisplayName: 玻璃之星
 ElementBall.DisplayName: 元素球
-ElementBallShiv.DisplayName: 元素短剑
 EmpyreanKnife.DisplayName: 苍穹飞刀
 EntropicFlechette.DisplayName: 熵弹
-EntropicFlechetteLarge.DisplayName: 熵弹
-EntropicFlechetteSmall.DisplayName: 熵弹
 EonBolt.DisplayName: 永恒之雷
 EssenceFlame2.DisplayName: 精元火焰
 EssenceScythe.DisplayName: 精元镰刀
-EutrophicScimitarProj.DisplayName: 水华弯刀
-EutrophicSpark.DisplayName: 电火星
 ExcelsusBlue.DisplayName: 宙魔之纹
 ExcelsusMain.DisplayName: 宙魔之纹
 ExcelsusPink.DisplayName: 宙魔之纹
@@ -123,7 +111,6 @@ Exobeam.DisplayName: 星流光束
 ExobeamSlash.DisplayName: 星流光束斩
 ExobeamSlashCreator.DisplayName: 星流之刃
 Exoboom.DisplayName: 星流聚爆
-Exocomet.DisplayName: 星流
 ExtantAbhorrence.DisplayName: 犹存之憎
 ExtantAbhorrenceMonolith.DisplayName: 憎恶巨石
 FallenBlast.DisplayName: 堕落圣骑士之怒
@@ -147,7 +134,6 @@ GalaxySmasherBlast.DisplayName: 星系爆炸
 GalaxySmasherEcho.DisplayName: 银河溃灭者
 GalaxySmasherHammer.DisplayName: 银河溃灭者
 GalaxySmasherMini.DisplayName: 银河溃灭者
-GalaxyStar.DisplayName: 银河陨星
 GalileosMoon.DisplayName: 新月
 GalileosPlanet.DisplayName: 伽利略行星
 GayBeam.DisplayName: 虹色光束
@@ -159,18 +145,19 @@ GhastlyChain.DisplayName: 惊惧魂锁
 GhastlySoulLarge.DisplayName: 惧魂
 GhastlySoulMedium.DisplayName: 惧魂
 GhastlySoulSmall.DisplayName: 惧魂
+GrandGuardianBoom.DisplayName: Cosmic Burst
 GreenWater.DisplayName: 毒牙
 GrovetendersEntanglingVines.DisplayName: 缠绕疯长
 GrovetendersTouch.DisplayName: 树妖之触
 HeavensMight.DisplayName: 极乐之威
 HellionSpike.DisplayName: 爆发尖刺
-IridescentExcaliburSlash.DisplayName: 绚辉圣斩
-IridescentExcaliburSlash2.DisplayName: 绚辉圣斩
-IridescentExcaliburSlash3.DisplayName: 绚辉圣斩
 HolyColliderHolyFire.DisplayName: 集束焰火
 IceBombFriendly.DisplayName: 冰炸弹
 IllustriousKnife.DisplayName: 圣光飞刀
 InsidiousHarpoon.DisplayName: 阴险鱼叉
+IridescentExcaliburSlash.DisplayName: 绚辉圣斩
+IridescentExcaliburSlash2.DisplayName: 绚辉圣斩
+IridescentExcaliburSlash3.DisplayName: 绚辉圣斩
 JudgementProj.DisplayName: 裁决
 LamentationsOfTheChained.DisplayName: 羁系者之哀歌
 LaserFountain.DisplayName: 射线喷井
@@ -178,6 +165,9 @@ LifeScythe.DisplayName: 猎命之镰
 LightBeam.DisplayName: 光束
 LightningThing.DisplayName: 电光
 LuxorsGiftMelee.DisplayName: 卢克索的礼物
+MantisClawHoldout.DisplayName: Mantis Claw
+MantisClawJet.DisplayName: Mantis Claw Jet
+MantisClawSlash.DisplayName: Mantis Claw Slash
 MercurialTides.DisplayName: 幻变潮汐
 MercurialTidesBlast.DisplayName: 幽鬼爆破
 MercurialTidesMonolith.DisplayName: 活化巨石
@@ -195,10 +185,8 @@ NeptunesBountySplitProjectile.DisplayName: 海神之馈赠喷流
 Oathblade.DisplayName: 禁忌之刃
 OathswordFlame.DisplayName: 禁忌火焰
 Orbacle.DisplayName: 圣金源光球
-OrderbringerAura.DisplayName: 光环
 OrderbringerBeam.DisplayName: 携序光束
-OrderbringerRain.DisplayName: 雨滴
-OrderbringerWhiteOrb.DisplayName: 携序光球
+OrderbringerWaveProj.DisplayName: Order-bringing Wave
 PhoenixsPride.DisplayName: 鳯傲
 PhosphorescentGauntletPunches.DisplayName: 重拳出击！
 PhotonRipperProjectile.DisplayName: 垃圾链锯，不用了
@@ -213,16 +201,16 @@ PrismTooth.DisplayName: 光子撕裂者
 PurityProjection.DisplayName: 纯化投弹
 PurityProjectionSigil.DisplayName: 纯元魔符
 PwnagehammerEcho.DisplayName: 幽灵战锤
-PwnagehammerExplosionSmall.DisplayName: 神圣能量爆炸
 PwnagehammerExplosionBig.DisplayName: 神圣能量爆炸
+PwnagehammerExplosionSmall.DisplayName: 神圣能量爆炸
 PwnagehammerProj.DisplayName: 圣时之锤
-PwnagehammerSmallExplosion.DisplayName: 神圣能量爆炸
-RainBolt.DisplayName: 雨滴
 RainbowBoom.DisplayName: 爆炸
 Razorwind.DisplayName: 水刃龙卷
 RedtideWhirlpool.DisplayName: 归元漩涡
-RemsRevengeProj.DisplayName: 雷姆的复仇
+RemsRevengeExplosion.DisplayName: Blood Explosion
 RendingNeedle.DisplayName: 撕裂之针
+RespiteblockBlood.DisplayName: 喘息区鲜血
+RespiteblockHoldout.DisplayName: 喘息区
 Rox1.DisplayName: 石之约
 RoxcaliburProj.DisplayName: 石约与胜利之剑
 RSSolarFlare.DisplayName: 灼烧
@@ -235,18 +223,19 @@ SanguineFuryWheel.DisplayName: 血腥轮刃
 ScourgeoftheCosmosMini.DisplayName: 宇宙劫难
 ScourgeoftheCosmosProj.DisplayName: 宇宙灾祸
 SeashineSwordProj.DisplayName: 海耀剑气
-SHIV.DisplayName: 短剑
 SolarNeedle.DisplayName: 日针
 SolsticeBeam.DisplayName: 近日点光束
 SoulScythe.DisplayName: 灵魂之镰
 SoulScytheExplosion.DisplayName: 影镰崩
-Spark.DisplayName: 光
 SpatialSpear.DisplayName: 元素长枪
 SpatialSpear2.DisplayName: 元素长枪
 SpatialSpear3.DisplayName: 元素长枪
 SpatialSpear4.DisplayName: 元素长枪
 SpineOfThanatosProjectile.DisplayName: 塔纳托斯的脊柱
+StarburstBeam.DisplayName: Star Shiv
+StarburstSHIV.DisplayName: SHIV
 StarnightBeam.DisplayName: 夜之星光
+StarofJudgement.DisplayName: Star of Judgement
 StellarContemptBlast.DisplayName: 星体爆炸
 StellarContemptEcho.DisplayName: 星体击碎者
 StellarContemptHammer.DisplayName: 星体击碎者
@@ -268,12 +257,12 @@ TaintedBladeSlasher.DisplayName: 剑刃邪风
 TenebreusTidesWaterProjectile.DisplayName: 凝水长枪
 TenebreusTidesWaterSpear.DisplayName: 凝水长枪
 TenebreusTidesWaterSword.DisplayName: 凝水之刃
-TerratomereMeleeSlash.DisplayName: 泰拉阔剑斩
-TerratomereSwordBeam.DisplayName: 泰拉斩击束
 TerratomereExplosion.DisplayName: 泰拉阔剑爆炸
 TerratomereHoldoutProj.DisplayName: 泰拉阔剑
+TerratomereMeleeSlash.DisplayName: 泰拉阔剑斩
 TerratomereSlash.DisplayName: 泰拉阔剑斩
 TerratomereSlashCreator.DisplayName: 动画剑效果
+TerratomereSwordBeam.DisplayName: 泰拉斩击束
 TerrorBeam.DisplayName: 恐惧光束
 TerrorBlast.DisplayName: 惊惧爆炸
 ThanatosBoom.DisplayName: 混乱爆炸
@@ -281,6 +270,8 @@ ThornBase.DisplayName: 荆棘
 TinyCrystal.DisplayName: 小水晶
 TinyFlare.DisplayName: 小耀斑
 Tornado.DisplayName: 飓风
+TriactisHammerExplosion.DisplayName: The Great Collapse
+TriactisHammerFlare.DisplayName: Prismatic Light Flare
 TriactisHammerProj.DisplayName: 真·泰阿克提斯之圣骑士魔锤
 TrueAncientBeam.DisplayName: 真远古之光
 TrueAncientBlast.DisplayName: 远古能量爆
@@ -293,12 +284,9 @@ TrueBitingEmbrace.DisplayName: 啮咬之拥
 TrueDecaysRetort.DisplayName: 腐化之复仇
 TrueGrovetendersTouch.DisplayName: 树妖之触
 TruePurityProjection.DisplayName: 纯化投弹
-TumbleweedFlail.DisplayName: 风滚草
-TumbleweedRolling.DisplayName: 风滚草
+TumbleweedRolling.DisplayName: Rolling Tumbleweed
 TyphonsGreedBubble.DisplayName: 提丰之贪婪
 UltimusCleaverDust.DisplayName: 终焉余焰
-UrchinBall.DisplayName: 海胆球
-UrchinBallSpike.DisplayName: 海胆刺
 UrchinMaceProjectile.DisplayName: 海胆链枷
 UrchinSpikeFugu.DisplayName: 海胆刺
 VirulentBeeWave.DisplayName: 病毒蜜蜂波
@@ -308,13 +296,7 @@ VoidTentacle.DisplayName: 虚空精华
 VolcanicFireball.DisplayName: 火山火球
 VolcanicFireballLarge.DisplayName: 火山火球
 Waterfall.DisplayName: 光束
-WhiteBoltAura.DisplayName: 苍白光圈
-WhiteOrb.DisplayName: 苍白球
-Whiterain.DisplayName: 苍白雨
 WulfrumScrew.DisplayName: 钨钢螺丝钉
 WulfrumScrewdriverProj.DisplayName: 钨钢螺丝刀
-YateveoBloomProj.DisplayName: 玫瑰之盛放
 YinYoDark.DisplayName: 黑暗碎块
 YinYoLight.DisplayName: 光明碎块
-RespiteblockHoldout.DisplayName: 喘息区
-RespiteblockBlood.DisplayName: 喘息区鲜血

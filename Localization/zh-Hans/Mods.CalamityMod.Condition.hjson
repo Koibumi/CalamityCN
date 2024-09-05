@@ -1,5 +1,7 @@
 // Drop conditions
 Drops: {
+	CataclysmKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Catastrophe.DisplayName}
+	CatastropheKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Cataclysm.DisplayName}
 	Cynosure: 在击败星流巨械和至尊女巫，灾厄后
 	DownedDS: 在击败荒漠灾虫后
 	DownedCrab: 在击败菌生蟹后
@@ -39,16 +41,6 @@ Drops: {
 	DownedT2AR: 在完成二阶段酸雨后
 	FirstKill: 仅在首次击败时掉落
 	MechBoss: 首次击败机械三王中最后一位时掉落
-	ProvidenceHallow:
-		'''
-		当亵渎天神在神圣召唤时掉落
-		或是当亵渎天神全程在夜晚受击并被击败时掉落
-		'''
-	ProvidenceUnderworld:
-		'''
-		当亵渎天神在地狱召唤时掉落
-		或是当亵渎天神全程在夜晚受击并被击败时掉落
-		'''
 	ProvidenceNight: 仅当亵渎天神全程在夜晚受击并被击败时掉落
 	ProvidenceChallenge:
 		'''
@@ -68,7 +60,7 @@ InCrag: 身处硫火之崖时
 InSulph: 身处硫磺海时
 InSunken: 身处沉沦之海时
 InRev: 在复仇模式中
-IsRevOrMM: 在复仇模式或大师模式中
+InRevOrMM: 在复仇模式或大师模式中
 AlcoholPoison: 当玩家带有酒精中毒减益时
 PostCal: 在灾厄之影被击败后
 PostAureus: 在白金星舰被击败后

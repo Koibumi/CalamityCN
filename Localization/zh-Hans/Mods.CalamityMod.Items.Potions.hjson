@@ -155,16 +155,6 @@ SupremeManaPotion: {
 	Tooltip: ""
 }
 
-TeslaPotion: {
-	DisplayName: 特斯拉药水
-	Tooltip:
-		'''
-		召唤一个会电击并减速敌人的电场
-		电场对Boss造成更少的伤害
-		缩短带电减益的持续时间
-		'''
-}
-
 ZenPotion: {
 	DisplayName: 禅定药水
 	Tooltip: 大幅度降低敌怪生成率

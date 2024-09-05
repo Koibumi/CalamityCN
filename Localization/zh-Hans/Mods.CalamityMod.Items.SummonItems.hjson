@@ -40,6 +40,15 @@ BloodyWormFood: {
 		'''
 }
 
+CausticTear: {
+	DisplayName: 腐蚀之泪
+	Tooltip:
+		'''
+		让酸雨在硫磺海上方倾盆而下
+		不消耗
+		'''
+}
+
 CeremonialUrn: {
 	DisplayName: 祭魂瓮
 	Tooltip:
@@ -151,13 +160,23 @@ EyeofDesolation: {
 	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
 
-CausticTear: {
-	DisplayName: 腐蚀之泪
+MarkofProvidence: {
+	DisplayName: Mark of Providence
 	Tooltip:
 		'''
-		让酸雨在硫磺海上方倾盆而下
+		亵渎火焰的华贵符文
+		仇恨还在它的顶部燃烧
+		[SPAWN]
 		不消耗
 		'''
+	SpawnInfo: 这种能力会吸引异界存在
+	SpawnVoid:
+		'''
+		召唤无尽虚空
+		在地表狂暴
+		'''
+	SpawnSignus: 召唤神之使徒，西格纳斯
+	SpawnWeaver: 召唤风暴编织者
 }
 
 MartianDistressRemote: {
@@ -240,25 +259,6 @@ ProfanedShard: {
 		在夜晚战斗时狂暴
 		'''
 	SpawnRemix: 在地狱或神圣之地使用以召唤亵渎守卫
-}
-
-RuneofKos: {
-	DisplayName: 宇宙符文
-	Tooltip:
-		'''
-		亵渎火焰的华贵符文
-		仇恨还在它的顶部燃烧
-		[SPAWN]
-		不消耗
-		'''
-	SpawnInfo: 这种能力会吸引异界存在
-	SpawnVoid:
-		'''
-		召唤无尽虚空
-		在地表狂暴
-		'''
-	SpawnSignus: 召唤神之使徒，西格纳斯
-	SpawnWeaver: 召唤风暴编织者
 }
 
 SandstormsCore: {

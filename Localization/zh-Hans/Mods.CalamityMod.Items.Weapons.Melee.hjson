@@ -17,6 +17,11 @@ AbyssBlade: {
 		'''
 }
 
+AcidwoodSword: {
+	DisplayName: Acidwood Sword
+	Tooltip: ""
+}
+
 AegisBlade: {
 	DisplayName: 庇护之刃
 	Tooltip:
@@ -159,7 +164,12 @@ BalefulHarvester: {
 
 BallOFugu: {
 	DisplayName: 河豚链球
-	Tooltip: 投出一条会吐出追踪尖刺的鱼
+	Tooltip:
+		'''
+		Throws a flailing abyssal pufferfish
+		Builds up poisonous spikes as it spins
+		Spikes blow out of the fish as it retracts
+		'''
 }
 
 BansheeHook: {
@@ -169,7 +179,11 @@ BansheeHook: {
 
 Basher: {
 	DisplayName: 痛击者
-	Tooltip: 挥舞一根腐朽的木棍，在击中敌怪时施加中毒和辐射减益
+	Tooltip:
+		'''
+		挥舞一根腐朽的木棍，在击中敌怪时施加中毒和辐射减益
+		Holding <right> while swinging will increase the club's damage, but will also knock you back on hit
+		'''
 }
 
 BladecrestOathsword: {
@@ -395,16 +409,19 @@ DragonRage: {
 		'''
 }
 
+DriftwoodSword: {
+	DisplayName: Driftwood Sword
+	Tooltip: This sword is stronger while you are wet
+}
+
 Earth: {
 	DisplayName: 无限大地
 	Tooltip:
 		'''
-		每次命中降低敌怪1点防御
-		你的攻击会大幅治疗你
-		击中敌人后召唤会分裂为更多陨石的红绿蓝陨石
-		冰陨石冻结敌怪
-		火陨石会爆炸
-		绿陨石生成治疗球
+		A beautiful prismatic blade with unrivaled close combat proficiency
+		Heals you greatly on hit
+		Every other swing will summon three Gaia meteors to fall upon nearby enemies
+		'All its spawn shall know the beauty and wrath of their creator'
 		'''
 }
 
@@ -417,20 +434,6 @@ EarthenPike: {
 		'''
 }
 
-ElementalLance: {
-	DisplayName: 元素长枪
-	Tooltip:
-		'''
-		发射一只元素之矛，飞行过程中会分裂数次
-		“撕裂宇宙！”
-		'''
-}
-
-ElementalShiv: {
-	DisplayName: 元素短剑
-	Tooltip: 发射彩虹短剑，击中敌人后会生成额外的短剑弹幕
-}
-
 EmpyreanKnives: {
 	DisplayName: 苍穹飞刀
 	Tooltip: 投出一簇能够弹射并治疗玩家的飞刀
@@ -438,17 +441,25 @@ EmpyreanKnives: {
 
 EntropicClaymore: {
 	DisplayName: 熵阔剑
-	Tooltip: 发射数个追踪离子球
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Fires a spread of living plasma that swims though the air
+		Plasma will track your cursor or enemies near it, prioritizing which is closest
+		The plasma pierces, but will stop tracking after hitting the first enemy
+		'''
+	TooltipGFB:
+		'''
+		Fires a spread of dead tapeworms that swim throuh the air
+		Tapeworms will track your cursor or enemies near it, prioritizing which is closest
+		The tapeworms pierce, but will stop tracking after hitting the first enemy
+		[c/FF0000:'Go my tapeworms, make their balls itch']
+		'''
 }
 
 EssenceFlayer: {
 	DisplayName: 精元劫掠者
 	Tooltip: 发射精元镰刀，击杀敌人时会释放治愈光线
-}
-
-EutrophicScimitar: {
-	DisplayName: 水华弯刀
-	Tooltip: 挥舞时发射两道激光弹幕，会晕眩敌人
 }
 
 EvilSmasher: {
@@ -624,28 +635,40 @@ GoldplumeSpear: {
 	Tooltip: 发射落羽
 }
 
+GrandDad: {
+	DisplayName: Grand Dad
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		An unfathomably heavy blade that rips through enemies using its sheer mass
+		Heals you on hit
+		Striking weaker enemies will launch them with incredible force
+		Launched enemies take immense damage when colliding with walls and floors
+		Holding <right> while swinging will heavily reduce the damage of the blade and increase its launch damage and velocity
+		[c/00B8DF:'How are you swinging something that has half the mass of a star?']
+		'''
+	TooltipGFB:
+		'''
+		A high quality blade that rips through enemies
+		Striking weaker enemies will yeet them with incredible force, often leaving them Stuck Inside tiles
+		Yeeted enemies will turn to JAM when SLAMMED into walls and floors
+		Holding <right> while swinging will heavily reduce the damage of the blade and increase its yeet damage and velocity, nice >:]
+		[c/00B8DF:'Please read the weapon description.']
+		'''
+}
+
 GrandGuardian: {
 	DisplayName: 大守卫者
 	Tooltip:
 		'''
-		每次击中时降低敌人1防御
-		如果敌人防御低于0，造成伤害会治疗你
-		击中敌人造成大幅爆炸
-		击中低于半血的敌人会释放彩虹弹幕
-		敌人死亡时生成治疗球
+		An ornate winged blade that easily cuts through enemies
+		Creates cosmic explosions and heals you slightly on hit
 		'''
 }
 
 GreatswordofJudgement: {
 	DisplayName: 制裁大剑
-	Tooltip:
-		'''
-		发射一个白色光球，在消失后一段时间内落下白色追踪雨滴
-		遗忘之土的白色长剑
-		你可以听到这把剑传出的虚弱而带安抚的耳语
-		“无论何地，你都不会孤身一人
-		我会永远陪伴在你身边，我的王”
-		'''
+	Tooltip: Fires a piercing energy wave that releases homing stars as it flies
 }
 
 Greentide: {
@@ -672,10 +695,20 @@ Hellkite: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		击中敌人时召唤火焰喷泉
-		包含一只远古恶龙的力量
+		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
+		Swings a slow and heavy blade with powerful knockback
+		Holding <right> will begin charging a strengthened swing
+		Releasing <right> while fully charged will unleash a devastating slash
+		[c/E1B65F:'Feel the strength of a blade forged through passion']
 		'''
-	TooltipGFB: “我的最爱<3”
+	TooltipGFB:
+		'''
+		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
+		Swings a slow and heavy blade with powerful knockback
+		Holding <right> while swinging will begin charging a strengthened swing
+		Releasing <right> while fully charged will unleash a devastating slash
+		[c/0C507F:“我的最爱<3”-Xyk]
+		'''
 }
 
 HolyCollider: {
@@ -690,7 +723,11 @@ IllustriousKnives: {
 
 InsidiousImpaler: {
 	DisplayName: 阴险穿刺者
-	Tooltip: 发射一柄感染鱼叉，黏附于敌人并产生爆炸
+	Tooltip:
+		'''
+		Throws self-propelling radioactive harpoons which chase foes
+		Harpoons ricochet at close range for additional hits
+		'''
 }
 
 IridescentExcalibur: {
@@ -743,8 +780,8 @@ MajesticGuard: {
 	DisplayName: 雄伟之护
 	Tooltip:
 		'''
-		每次命中时降低敌怪1防御
-		当敌人的防御值小于等于0时会治疗玩家
+		An intricate blade, heavy enough to crush anything it wouldn't cut
+		Strongly knocks back enemies and heals you slightly on hit
 		'''
 }
 
@@ -752,7 +789,9 @@ MantisClaws: {
 	DisplayName: 螳螂爪
 	Tooltip:
 		'''
-		击中敌人时产生爆炸
+		Rapidly swing a mantis claw which slashes foes in short range
+		Press <right> to form a pressurized bubble in front of you
+		Once fully formed, the bubble is instantly snapped down on, blasting foes with a water jet
 		“三虾五除二的事”
 		'''
 }
@@ -764,6 +803,11 @@ MirrorBlade: {
 		被攻击的敌人的接触伤害会被添加到此剑的伤害之上
 		你必须用剑身击中敌人才能触发此效果
 		'''
+}
+
+MonolithSword: {
+	DisplayName: Monolith Sword
+	Tooltip: ""
 }
 
 MonstrousKnives: {
@@ -820,7 +864,7 @@ Oblivion: {
 	DisplayName: 遗殇
 	Tooltip:
 		'''
-		有敌人在附近时发射硫磺火激光
+		有敌人在附近时发射硫磺火飞镖
 		一只十分灵活的悠悠球
 		'''
 }
@@ -864,11 +908,10 @@ Orderbringer: {
 	DisplayName: 携序之剑
 	Tooltip:
 		'''
-		发射一个彩虹剑刃，消失后短时间内持续落下彩虹雨滴
-		遗忘之土的白色长剑
-		你可以听到这把剑传出的虚弱而带安抚的耳语
-		“无论何地，你都不会孤身一人
-		我会永远陪伴在你身边，我的王”
+		Fires piercing energy waves and summons four homing stars near your cursor
+		Energy waves deal more damage with each consecutive hit
+		Hits with the blade summon two beams from the sky
+		“无论何地，你都不会孤身一人”
 		'''
 }
 
@@ -877,7 +920,7 @@ Pandemic: {
 	Tooltip:
 		'''
 		有敌人在附近时发射瘟疫搜寻者
-		一只十分灵活的悠悠球 
+		一只十分灵活的悠悠球
 		'''
 }
 
@@ -966,7 +1009,7 @@ RemsRevenge: {
 	Tooltip:
 		'''
 		击中敌人时迸发出血花，降低其防御
-		由最勇敢的战士使用
+		'A deadly morning star befitting its demonic owner'
 		'''
 }
 
@@ -1073,6 +1116,11 @@ SpineOfThanatos: {
 		三条鞭子撞击在一起时会发射出棱晶光
 		如果有敌怪在撞击的视线范围内，光束会射向它们
 		'''
+}
+
+StarburstShiv: {
+	DisplayName: Starburst Shiv
+	Tooltip: 发射彩虹短剑，击中敌人后会生成额外的短剑弹幕
 }
 
 StarnightLance: {
@@ -1212,11 +1260,11 @@ TheDarkMaster: {
 	DisplayName: 黑暗大师之剑
 	Tooltip:
 		'''
-		当生命值为满时发射红色旋转剑气
-		生命值高于400点时每一点高出的生命值都会增加剑气伤害
+		当生命值高于75%时发射红色旋转剑气
+		生命值高于400点时每点高出的生命值都会增加剑气伤害
 		按下右键以三角阵型召唤三只暗影克隆体
 		克隆体会复制你挥剑的动作并一同发射剑气弹幕
-		无论你的生命值是否为满，克隆体总会发射剑气弹幕
+		无论你的生命值是否为满，克隆体总会发射剑气弹幕，但造成的伤害降低
 		仅当手持此武器时克隆体才能存在
 		“暗影以可怖命运惩戒异己之剑”
 		'''
@@ -1275,7 +1323,7 @@ TheOracle: {
 	DisplayName: 神谕
 	Tooltip:
 		'''
-		发出红色闪电光圈，在击中敌人时充能
+		发出闪电光圈，在击中敌人时充能
 		充能完全时发射圣金源珠
 		一只超级灵活的悠悠球
 		“我看到了过去，当下，将来……还有你的死期”
@@ -1291,9 +1339,15 @@ TitanArm: {
 		'''
 }
 
-TriactisTruePaladinianMageHammerofMightMelee: {
+TriactisTruePaladinianMageHammerofMight: {
 	DisplayName: 真·泰阿克提斯之圣骑士魔锤
-	Tooltip: 击中敌人时发生爆炸
+	Tooltip:
+		'''
+		Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
+		Enemy hits release prismatic light flares which orbit around the struck foe
+		Instead of returning, the fourth hit transforms flares into hardlight hammers
+		These hammers converge and form a universe-collapsing explosion
+		'''
 }
 
 TrueArkoftheAncients: {
@@ -1342,7 +1396,12 @@ TrueCausticEdge: {
 
 Tumbleweed: {
 	DisplayName: 风滚草
-	Tooltip: 击中敌人时释放滚动的风滚草
+	Tooltip:
+		'''
+		Throws a tumbleweed flail
+		Spinning tumbleweeds brew a localized dust storm
+		Launched tumbleweeds detach from their chain upon striking an enemy and roll forwards
+		'''
 }
 
 TyphonsGreed: {
@@ -1367,6 +1426,15 @@ UrchinFlail: {
 UrchinMace: {
 	DisplayName: 海胆链枷
 	Tooltip: 充能完毕时掷出一股赤潮涡流
+}
+
+VanishingPoint: {
+	DisplayName: Vanishing Point
+	Tooltip:
+		'''
+		发射一只元素之矛，飞行过程中会分裂数次
+		“撕裂宇宙！”
+		'''
 }
 
 VeinBurster: {

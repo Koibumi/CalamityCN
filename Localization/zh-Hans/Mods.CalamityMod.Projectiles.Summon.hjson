@@ -47,8 +47,8 @@ BrimstoneFireballMinion.DisplayName: 硫磺火球
 BrimstoneFireSummon.DisplayName: 硫磺火
 BrimstoneLaserSummon.DisplayName: 硫火激光
 BrittleStarMinion.DisplayName: 蛇尾海星
-CalamarisLamentProjectile.DisplayName: 乌贼墨水
 CalamarisLamentMinion.DisplayName: 乌贼
+CalamarisLamentProjectile.DisplayName: 乌贼墨水
 Calamitamini.DisplayName: 小灾厄
 Cataclymini.DisplayName: 小灾祸
 CataclysmSummon.DisplayName: 灾祸
@@ -56,6 +56,7 @@ Catastromini.DisplayName: 小灾难
 CatastropheSummon.DisplayName: 灾难
 CausticStaffProjectile.DisplayName: 荆棘
 CausticStaffSummon.DisplayName: 蚀骨之龙
+CelestialAxeMinion.DisplayName: Celestial Axe
 Cinder.DisplayName: 余烬
 CinderBlossom.DisplayName: 余烬之花
 CloudElementalMinion.DisplayName: 云之灵
@@ -89,15 +90,14 @@ DormantBrimseekerBab.DisplayName: 沉眠寻焰者
 DormantBrimseekerSummoner.DisplayName: 沉眠寻焰者
 Dreadmine.DisplayName: 惧魂雷
 DreadmineTurret.DisplayName: 恐惧炮塔
-ElementalAxeMinion.DisplayName: 元素斧
 EndoBeam.DisplayName: 源生射线
 EndoCooperBody.DisplayName: 源生冰灵
 EndoCooperLimbs.DisplayName: 源生冰灵
 EndoFire.DisplayName: 源生冰焰
 EndoHydraBody.DisplayName: 九头蛇身
 EndoHydraHead.DisplayName: 九头蛇首
+EndoHydraRay.DisplayName: 冰洋光束
 EndoIceShard.DisplayName: 源生冰片
-EndoRay.DisplayName: 冰洋光束
 EnergyOrb.DisplayName: 能量球
 EXPLODINGFROG.DisplayName: 蟾血炸弹
 EyeOfNightCell.DisplayName: 永夜细胞
@@ -156,12 +156,12 @@ IgneousBladeStrike.DisplayName: 淬焰之刃
 IrradiatedAura.DisplayName: 辐射光环
 LanternFlame.DisplayName: 魂灯之火
 LanternSoul.DisplayName: 灯笼
+LiliesOfEternityBullet.DisplayName: 永恒百合弹
 LiliesOfFinalityAoE.DisplayName: 生物共振力场
 LiliesOfFinalityAriane.DisplayName: 阿丽亚娜
-LiliesOfFinalityBullet.DisplayName: 独角弹
 LiliesOfFinalityBolt.DisplayName: 生物共振光束
+LiliesOfFinalityBullet.DisplayName: 独角弹
 LiliesOfFinalityElster.DisplayName: 灵鹊
-LiliesOfEternityBullet.DisplayName: 永恒百合弹
 LostSoulGiant.DisplayName: 灵魂
 LostSoulGold.DisplayName: 黄金灵魂
 LostSoulLarge.DisplayName: 灵魂

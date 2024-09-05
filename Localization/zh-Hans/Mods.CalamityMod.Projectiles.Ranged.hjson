@@ -1,4 +1,3 @@
-AccelerationRoundProj.DisplayName: 加速弹
 AdamAcceleratorBeam.DisplayName: 精金粒子光束
 AMR2.DisplayName: AMR
 AMRShot.DisplayName: AMR
@@ -20,8 +19,6 @@ AuricBullet.DisplayName: 金源弹
 AuroraFire.DisplayName: 极光
 BallistaGreatArrow.DisplayName: 破城巨箭
 BarinadeArrow.DisplayName: 利鳍之箭
-BeeRPG.DisplayName: 蜜蜂火箭筒
-BigCoral.DisplayName: 巨型珊瑚
 BlightFlames.DisplayName: 枯萎之火
 BlissfulBombardierDustProjectile.DisplayName: 尘埃
 BloodBoilerFire.DisplayName: 沸腾之血
@@ -35,15 +32,18 @@ BouncingShotgunPellet.DisplayName: 霰弹枪子弹
 BrimstoneBolt.DisplayName: 硫火飞弹
 BrimstoneFireFriendly.DisplayName: 硫火
 BubonicRoundProj.DisplayName: 鼠疫弹
+BuzzkillSaw.DisplayName: Buzzsaw
 CardClub.DisplayName: 梅花牌
 CardClubSplit.DisplayName: 分裂梅花牌
 CardDiamond.DisplayName: 方块牌
 CardHeart.DisplayName: 红心牌
 CardSpade.DisplayName: 黑桃牌
 ChargedBlast.DisplayName: 爆炸
-ChargedBlast2.DisplayName: 爆炸
+ChargedBlastSplit.DisplayName: 分裂能量束
 ChickenExplosion.DisplayName: 肯德炸鸡
 ChickenRocket.DisplayName: 小鸡火箭
+ChromaticFire.DisplayName: Chromatic Fire
+ChromaticFlare.DisplayName: Chromatic Flare
 CinderArrowProj.DisplayName: 余烬箭
 ClamorRifleProj.DisplayName: 聚能弹
 ClamorRifleProjSplit.DisplayName: 聚能弹
@@ -58,6 +58,7 @@ CorrodedShell.DisplayName: 酸蚀外壳
 CosmicFire.DisplayName: 宙炎
 DaemonsFlameArrow.DisplayName: 鬼炎箭
 DeadSunExplosion.DisplayName: 殉日爆弹
+DragonsBreathBurst.DisplayName: Draconic Burst
 DragonsBreathFlames.DisplayName: 龙息之焰
 DragonsBreathMag.DisplayName: 龙息弹匣
 DragonsBreathRound.DisplayName: 龙息弹
@@ -69,8 +70,6 @@ DrizzlefishFireSplit.DisplayName: 龙雨鱼息
 DryadsTearMain.DisplayName: 树妖之泪
 DryadsTearSplit.DisplayName: 树妖之泪
 DWArrow.DisplayName: 死亡之箭
-ElementalFire.DisplayName: 元素之火
-ElementalFlare.DisplayName: 元素火簇
 ElysianArrowProj.DisplayName: 极乐箭
 ElysianArrowRain.DisplayName: 极乐之光
 EmesisGore.DisplayName: 腐败血迹
@@ -85,7 +84,6 @@ ExoSpark.DisplayName: 神圣花火
 FallenStarProj.DisplayName: 陨星
 FeatherLarge.DisplayName: 羽毛
 FishronRPG.DisplayName: SDFMG水龙卷弹
-FlakKrakenProj.DisplayName: 海妖之焰
 FlakKrakenProjectile.DisplayName: 海妖克拉肯
 FlakToxicannonProjectile.DisplayName: 剧毒高射炮
 FlareBat.DisplayName: 黑翼蝙蝠
@@ -99,12 +97,10 @@ FungiOrb.DisplayName: 真菌块
 FungiOrb2.DisplayName: 真菌块
 GemTechGreenFlechette.DisplayName: 星流天钻飞镖弹
 GodSlayerSlugProj.DisplayName: 弑神弹
-GoliathRocket.DisplayName: 瘟疫导弹
 HalleysComet.DisplayName: 哈雷彗星
 HandheldTankShell.DisplayName: 坚硬外壳
 HeavenlyGaleProj.DisplayName: 天堂之风
 HighExplosivePeanutShell.DisplayName: 高爆花生
-HiveBomb.DisplayName: 蜂巢爆炸
 HiveMissile.DisplayName: 蜂巢爆炸
 HiveNuke.DisplayName: 蜂巢核弹
 HolyFireBulletProj.DisplayName: 圣火弹
@@ -137,6 +133,7 @@ MistArrow.DisplayName: 冰雾箭
 MistArrowFrostMist.DisplayName: 冰雾
 MortarRoundProj.DisplayName: 炮弹
 NeedlerProj.DisplayName: 针
+NitroShot.DisplayName: 硝化弹
 NorfleetComet.DisplayName: 彗星
 NorfleetExplosion.DisplayName: 爆炸
 NovaChargedShot.DisplayName: 新星冲击波
@@ -169,14 +166,13 @@ PristineFire.DisplayName: 原初之火
 PristineSecondary.DisplayName: 原初残焰
 PumplerGrenade.DisplayName: 南瓜壳
 P90Round.DisplayName: 穿甲弹
-RainbowBlast.DisplayName: 爆炸波
 RainbowFront.DisplayName: 彩虹
 RainbowTrail.DisplayName: 彩虹
 RealmRavagerBullet.DisplayName: 爆炸性弹头
 RicoshotCoin.DisplayName: 钱币
 RocketFire.DisplayName: 火焰
 RubberMortarRoundProj.DisplayName: 橡胶迫击炮
-SandstormBullet.DisplayName: 沙尘暴
+SandblasterBullet.DisplayName: 沙尘暴
 ScorchedEarthBlast.DisplayName: 焦土
 ScorchedEarthClusterBomb.DisplayName: 集束炸弹
 ScorchedEarthRocket.DisplayName: 火箭
@@ -187,7 +183,7 @@ SeaDragonRocket.DisplayName: 海龙爆炎弹
 SeasSearingBubble.DisplayName: 灼热泡泡
 SeasSearingSecondary.DisplayName: 海浴
 SeasSearingSpout.DisplayName: 海灼龙卷
-SepticSkewerBacteria.DisplayName: 剧毒细胞
+SepticSkewerBacteria.DisplayName: Septic Gore
 SepticSkewerHarpoon.DisplayName: 剧毒叉枪
 SevensStrikerBrick.DisplayName: 砖块
 SevensStrikerCherry.DisplayName: 樱桃
@@ -219,7 +215,9 @@ StarmageddonStar.DisplayName: 橙星
 StarmageddonStar2.DisplayName: 蓝星
 StormSurgeTornado.DisplayName: 潮涌
 SulphuricBlast.DisplayName: 硫磺酸风
-SuperballBulletProj.DisplayName: 弹球弹
+SuperradiantBolt.DisplayName: Superradiant Bolt
+SuperradiantSaw.DisplayName: Superradiant Saw
+SuperradiantSawLingering.DisplayName: Ultraradiant Saw
 TelluricGlareArrow.DisplayName: 辐光之箭
 TheMaelstromExplosion.DisplayName: 爆炸
 TheMaelstromShark.DisplayName: 猎魂鲨
@@ -228,8 +226,6 @@ ThePackMissile.DisplayName: 集束火箭
 TitaniumRailgunScope.DisplayName: 钛金指示
 TitaniumRailgunShot.DisplayName: 钛金灭却光
 TorrentialArrow.DisplayName: 洪流箭
-ToxicannonDrop.DisplayName: 酸流
-ToxicannonShot.DisplayName: 硫酸炮弹
 ToxicArrow.DisplayName: 硫毒弓
 TyphoonArrow.DisplayName: 台风箭
 TyphoonBubble.DisplayName: 台风泡泡
@@ -248,5 +244,5 @@ WaterSpout.DisplayName: 激流
 WildfireBloomFire.DisplayName: 野火
 WildfireBloomFlare.DisplayName: 野火爆焰
 WulfrumScrapBullet.DisplayName: 高速废料
-NitroShot.DisplayName: 硝化弹
-ChargedBlastSplit.DisplayName: 分裂能量束
+HellbornProj.DisplayName: Hell-born Gunblast
+HellbornShell.DisplayName: Hell's Shell

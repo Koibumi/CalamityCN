@@ -80,6 +80,7 @@ ExtensionName: {
 // Cooldowns
 Cooldowns: {
 	AquaticHeartIceShield: 冰盾冷却
+	ArsenalPower: Arsenal Cooldown
 	AscendEffect: 进升冷却
 	BloodflareFrenzy: 鲜血狂怒冷却
 	BloodflareRangedSet: 幽火游魂冷却
@@ -119,6 +120,7 @@ Cooldowns: {
 	SpeedBlasterBoost: 彩蛋冲锋枪右键冷却
 	SpongeDurability: 海绵屏障耐久
 	SpongeRecharge: 海绵屏障充能
+	SuperradiantSawBoost: Superradiant Saw Boost
 	TarragonCloak: 龙蒿披风冷却
 	TarragonImmunity: 龙蒿无敌冷却
 	UniverseSplitter: 渊宇天基炮冷却
@@ -614,3 +616,10 @@ DraedonFacility: 另一个研究中心
 Abyss: 正在处理席尔瓦的遗体
 SulphurSea2: 正在辐射一侧的海洋
 Roxcalibur: 渴望摇动的剑柄发出呼唤
+AuricLandMines: 正在放置弑神陷阱
+// Hold Shift tooltip default
+HoldShiftTooltipExtensionIndicator: 长按“左 Shift”键以了解更多
+HoldShiftTooltipReplacementIndicator: 长按“左 Shift”键以了解详细信息
+// Dev and Donor Items
+DevItemTooltip: - 开发者物品 -
+DonorItemTooltip: - 捐赠者物品 -

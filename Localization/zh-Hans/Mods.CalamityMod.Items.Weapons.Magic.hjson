@@ -34,7 +34,26 @@ AlulaAustralis: {
 
 AnahitasArpeggio: {
 	DisplayName: 阿娜希塔琶音
-	Tooltip: 发射缓慢移动的高音音符诱惑敌人
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Holding <left> casts up to 6 treble clefs that orbit the player
+		Releasing <left> causes the treble clefs to fade away, then converge at the cursor
+		'''
+	TooltipGFB:
+		'''
+		"NOOOOOOOO! You're supposed to obey me!!!!"
+		The seven treble clef souls:
+		'''
+}
+
+Apathanull: {
+	DisplayName: Apathanull
+	Tooltip:
+		'''
+		Casts a spread of dark cosmic tentacles to skewer your enemies
+		Tentacles will aim at your cursor and lash out three times before disappearing
+		'''
 }
 
 ApoctosisArray: {
@@ -108,8 +127,8 @@ Atlantis: {
 	TooltipGFBDoG: 保管好我的武器，否则的话…… -CIT
 }
 
-AuguroftheElements: {
-	DisplayName: 先兆元素
+AuguroftheVoid: {
+	DisplayName: Augur of the Void
 	Tooltip: 创造元素触手戳刺你的敌人
 }
 
@@ -144,7 +163,12 @@ BrimroseStaff: {
 
 BurningSea: {
 	DisplayName: 蒸海硫火
-	Tooltip: 发射弹跳硫磺火球，与水接触时会分裂成追踪火球
+	Tooltip:
+		'''
+		Conjures a massive brimstone fireball that hovers near you and incinerates foes
+		Holding the fireball for too long causes it to burn out
+		This burns you with Brimstone Flames and gives a long delay before another can be cast
+		'''
 }
 
 ChronomancersScythe: {
@@ -221,7 +245,12 @@ DeathhailStaff: {
 
 DeathValleyDuster: {
 	DisplayName: 死亡之尘
-	Tooltip: 丢出一团巨大的粉尘
+	Tooltip:
+		'''
+		Casts an enchanted blast of sand that passes through enemies and tiles
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
+		The Sand's Wind Buff increases your defense by 10 and damage by 12%
+		'''
 }
 
 DivineRetribution: {
@@ -247,7 +276,7 @@ EidolicWail: {
 	DisplayName: 幻妖龙吟
 	Tooltip:
 		'''
-		发射一串弹射声波，移动距离越远威力越强
+		Fires a string of bouncing sound waves that slow down on enemy hits
 		贯耳魔音
 		'''
 }
@@ -260,18 +289,6 @@ EidolonStaff: {
 EldritchTome: {
 	DisplayName: 诡触之书
 	Tooltip: 释放邪恶的触手攻击敌人
-}
-
-ElementalRay: {
-	DisplayName: 元素射线
-	Tooltip:
-		'''
-		发射四道天体射线
-		日耀射线在击中敌人时会爆炸成火焰
-		星云射线会小幅度扫射
-		星旋射线会造成带电减益
-		星尘射线在击中敌人敌怪时会生成追踪流星
-		'''
 }
 
 Eternity: {
@@ -375,11 +392,14 @@ GruesomeEminence: {
 	DisplayName: 异端僭越
 	Tooltip:
 		'''
-		在光标旁召唤一团腥邪诡灵
-		起初，诡灵会随意飞行，此时它对敌人和玩家都会造成伤害
-		随着时间流逝，诡灵会逐渐汇聚成一个可控制的巨灵
-		[c/c61b40:“聚合成那地牢怪物的灵魂永远无法进入他们所期望的来世，]
-		[c/c61b40:被愤怒玷污、融化，他们终将如此。”]
+		Summons a gaseous conglomeration of spirits near the cursor that fly around wildly
+		Over time, the spirits accumulate to create a single, controllable monstrosity
+		'''
+	Calamitas:
+		'''
+		'Many will tell you that Yharim fell from grace as his Crusade went on, but that's far from the truth.
+		Sure, he was a good man when he was killing assassins drunk on power, but even as he dethroned dictators, entire kingdoms were leveled alongside.
+		I wish more people could bear witness to this "Polterghast". Maybe then, they would understand the pain he caused for the world.'
 		'''
 }
 
@@ -472,7 +492,11 @@ Keelhaul: {
 
 LashesofChaos: {
 	DisplayName: 混乱火鞭
-	Tooltip: “静看着整个世界的燃烧……”
+	Tooltip:
+		'''
+		Alternates between exploding hellfireballs and piercing hellblasts
+		“静看着整个世界的燃烧……”
+		'''
 }
 
 Lazhar: {
@@ -490,7 +514,7 @@ MadAlchemistsCocktailGlove: {
 	Tooltip:
 		'''
 		以高速投掷具有多种效果的烧瓶
-		右键投掷会造成多种减益的烧瓶
+		右键投掷会造成元素谐鸣的烧瓶
 		红色烧瓶会爆炸
 		蓝色烧瓶爆裂成毒云
 		绿色烧瓶产生月炎射线
@@ -520,7 +544,11 @@ Mistlestorm: {
 
 NanoPurge: {
 	DisplayName: 纳米净化
-	Tooltip: 发射纳米激光弹幕
+	Tooltip:
+		'''
+		发射纳米激光弹幕
+		Bounces towards the nearest enemy after hitting a wall
+		'''
 }
 
 NebulousCataclysm: {
@@ -542,6 +570,18 @@ NuclearFury: {
 	Tooltip: 发射高能台风
 }
 
+Nucleosynthesis: {
+	DisplayName: Nucleosynthesis
+	Tooltip:
+		'''
+		发射四道天体射线
+		日耀射线在击中敌人时会爆炸成火焰
+		星云射线会小幅度扫射
+		星旋射线会造成带电减益
+		星尘射线在击中敌人敌怪时会生成追踪流星
+		'''
+}
+
 Omicron: {
 	DisplayName: 奥密克戎
 	Tooltip:
@@ -560,7 +600,7 @@ ParasiticSceptor: {
 
 PhantasmalFury: {
 	DisplayName: 幻象之怒
-	Tooltip: 释放会分裂的幻象球
+	Tooltip: Casts a vortex of homing souls around you that repels enemies and will fly towards your cursor after a few seconds
 }
 
 PhoenixFlameBarrage: {
@@ -612,12 +652,22 @@ Poseidon: {
 
 PrimordialAncient: {
 	DisplayName: 始源之遗
-	Tooltip: 丢出一团巨大的粉尘
+	Tooltip:
+		'''
+		Casts five primordial sand blasts that converge at your cursor after a moment and create a giant explosion
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Aeolian Earth Buff
+		The Aeolian Earth Buff increases your damage reduction by 8% and damage by 18%
+		'''
 }
 
 PrimordialEarth: {
 	DisplayName: 始源之尘
-	Tooltip: 丢出一团巨大的粉尘
+	Tooltip:
+		'''
+		Casts two enchanted blasts of sand that coverge with each other and explode
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
+		The Sand's Wind Buff increases your defense by 10 and damage by 12%
+		'''
 }
 
 PurgeGuzzler: {
@@ -636,9 +686,13 @@ Rancor: {
 	Tooltip:
 		'''
 		召唤一个圆形法阵，法阵会逐渐蓄力，最终会发射出一束强大的怨戾激光
-		被激光照射的物块会迸发出岩浆，随后出现亡魂之手
-		[c/c61b40:“当被原谅之人尚未能饶恕自身时，]
-		[c/c61b40:得到宽恕所带来的安慰也仅限于此了。”]
+		The laser causes arms and searing lava to appear on surfaces it touches
+		'''
+	Calamitas:
+		'''
+		'Yharim told me it was Otonilou who unleashed the Brimstone Elemental unto Azafure.
+		I believed him at the time, being a child looking for someone to blame for all her woes.
+		So I unleashed upon them all the fury and scorn I thought they deserved, and only once it was too late did I see through his lies.'
 		'''
 }
 
@@ -677,7 +731,11 @@ SanguineFlare: {
 
 SeethingDischarge: {
 	DisplayName: 沸腾之火
-	Tooltip: 发射一团硫磺火烈焰
+	Tooltip:
+		'''
+		Fires an accelerating arc of brimstone hellblasts
+		Every third attack spawns a brimstone dart ring which chases after foes
+		'''
 }
 
 Serpentine: {
@@ -701,7 +759,7 @@ ShaderainStaff: {
 
 ShadowboltStaff: {
 	DisplayName: 影流法杖
-	Tooltip: 弹射的次数越多，穿透的敌人越多，伤害越高
+	Tooltip: Fires a shadow beam that creates a platform to redirect itself back at enemies for increased damage
 }
 
 ShiftingSands: {
@@ -841,21 +899,12 @@ ThornBlossom: {
 		'''
 }
 
-Thunderstorm: {
-	DisplayName: 雷暴雨
+Thunderbolt: {
+	DisplayName: Thunderbolt
 	Tooltip:
 		'''
 		发射一束爆炸性绿色等离子子弹，同时召唤额外的等离子子弹从天而降
 		“暴雨倾盆”
-		'''
-}
-
-TomeofFates: {
-	DisplayName: 命运之手
-	Tooltip:
-		'''
-		创造元素触手戳刺你的敌人
-		随机产生的红色触手会造成更大的伤害
 		'''
 }
 
@@ -919,7 +968,11 @@ Viscera: {
 
 VitriolicViper: {
 	DisplayName: 酸蚀毒蝰
-	Tooltip: 释放一束毒牙和喷吐物
+	Tooltip:
+		'''
+		Charges up and fires a slithering beam of radiation
+		If fully charged, instead fires a huge spread of short range fangs which quickly vanish
+		'''
 }
 
 VividClarity: {

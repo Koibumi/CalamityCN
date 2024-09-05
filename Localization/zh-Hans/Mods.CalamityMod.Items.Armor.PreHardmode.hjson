@@ -96,7 +96,7 @@ MarniteArchitectHeadgear: {
 
 MarniteArchitectToga: {
 	DisplayName: 合成岩建筑师长袍
-	Tooltip: 增加50%图格放置速度
+	Tooltip: 增加50%物块和墙的放置速度
 }
 
 SnowRuffianChestplate: {

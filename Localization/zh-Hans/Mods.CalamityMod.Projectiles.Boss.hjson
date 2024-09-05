@@ -81,7 +81,7 @@ HolyFlare.DisplayName: 圣之烁光
 HolyLight.DisplayName: 神圣之光
 HolySpear.DisplayName: 神圣之矛
 HomingGasBulb.DisplayName: 追踪孢子
-HomingGasBulbSporeGas.DisplayName: 孢子尾气
+HomingGasBulbSporeGas.DisplayName: Spore Bulb Gas
 IceBlast.DisplayName: 冰霜爆
 IceBomb.DisplayName: 冰锥
 IceRain.DisplayName: 冰晶雨
@@ -130,7 +130,7 @@ SandTooth.DisplayName: 瀚漠之牙
 SCalBrimstoneFireblast.DisplayName: 无际裂变
 SCalBrimstoneGigablast.DisplayName: 深渊炙炎
 SCalRitualDrama.DisplayName: 至尊灾厄
-ScavengerLaser.DisplayName: 回旋镖
+HomingLaserDart.DisplayName: 回旋镖
 ScavengerNuke.DisplayName: 制导核导弹
 ShadeNimbusHostile.DisplayName: 乌云
 ShaderainHostile.DisplayName: 阴影之雨
@@ -148,6 +148,7 @@ SwirlingFire.DisplayName: 炽焰
 ThanatosBeamStart.DisplayName: 黑 金棱镜蛇的激光
 ThanatosBeamTelegraph.DisplayName: 伽马瓦解射线
 ThanatosLaser.DisplayName: 星流脉冲激光
+THanosSideLaser.DisplayName: 星流脉冲激光
 ThornBallSpike.DisplayName: 刺球尖刺
 ToxicCloud.DisplayName: 毒云
 UnstableCrimulanGlob.DisplayName: 不稳定的血腥球
@@ -157,4 +158,3 @@ WaterSpear.DisplayName: 水之枪
 YharonBulletHellVortex.DisplayName: 子弹地狱旋涡
 YharonFireball.DisplayName: 龙炎弹
 YharonFireball2.DisplayName: 龙炎弹
-THanosSideLaser.DisplayName: 星流脉冲激光

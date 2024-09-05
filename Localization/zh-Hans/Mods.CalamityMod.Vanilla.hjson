@@ -40,7 +40,10 @@ CyborgChat: {
 	Rain: 这一切都终将湮灭在时间的长河之中，就像雨中的…………泪滴。
 }
 
-DemolitionistChat.DoGDefeated: 弑神者雷管？我喜欢那声音！
+DemolitionistChat: {
+	MentionSkynamite: Tired of blowing your legs off with dynamite? Not my problem, but if you aren't fond of it you could try throwing them into a Sky Mill to see if they fly.
+	DoGDefeated: 弑神者雷管？我喜欢那声音！
+}
 
 DryadChat: {
 	DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。为啥这些蛾子会像你一样越来越强？
@@ -79,6 +82,7 @@ HerbTooltips: {
 }
 
 MechanicChat: {
+	HasPortalGun: 那是什么玩意儿？它使我的传送机看起来像个儿童玩具！
 	MoonLordDefeated: 你说你的机关没成功是什么意思？和我没关系！
 	Eclipse: 呃……我的夜灯需要开着吗？
 	AcidRain: 也许我应该给我的小玩意儿加入防水功能……它们已经开始被腐蚀了。
@@ -140,7 +144,6 @@ SeedTooltips: {
 SkeletonMerchantChat.Normal: 你买啥？
 
 SteampunkerChat: {
-	HasPortalGun: 那是什么玩意儿？它使我的传送机看起来像个儿童玩具！
 	MoonLordDefeated: 是的！我现在也在考虑当一名太空大盗。
 	Astral: 由于星辉瘟疫，我的一些机器开始出故障。我可能本不该在这里修建的。
 	Hallow: 对不起，我这里真的没有独角兽保护技术，你自己来吧。

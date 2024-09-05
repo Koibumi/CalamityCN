@@ -225,6 +225,28 @@ CrushsawCrasher: {
 		投掷可以弹跳的硫火飞爪
 		潜伏攻击可以一次投掷五个
 		'''
+	GFBFirstWord1: Crushsaw
+	GFBFirstWord2: Crashsaw
+	GFBFirstWord3: Crushclaw
+	GFBFirstWord4: Crashclaw
+	GFBFirstWord5: Crushcaw
+	GFBFirstWord6: Crushaw
+	GFBFirstWord7: Crushmaw
+	GFBFirstWord8: Crashmaw
+	GFBFirstWord9: Crawshaw
+	GFBFirstWord10: Coleslaw
+	GFBFirstWord11: Cashew
+	GFBFirstWord12: Cawcaw
+	GFBLastWord1: Crasher
+	GFBLastWord2: Crusher
+	GFBLastWord3: Clasher
+	GFBLastWord4: Casher
+	GFBLastWord5: Clacker
+	GFBLastWord6: Catcher
+	GFBLastWord7: Trasher
+	GFBLastWord8: Rasher
+	GFBLastWord9: Cracker
+	GFBLastWord10: Cackler
 }
 
 Crystalline: {
@@ -567,7 +589,11 @@ Hypothermia: {
 
 Icebreaker: {
 	DisplayName: 破冰者
-	Tooltip: 潜伏攻击产生冰霜爆炸并冻结周围的敌人
+	Tooltip:
+		'''
+		Throws an icy hammer that magically returns to the player
+		潜伏攻击产生冰霜爆炸并在命中时冻结周围的敌人
+		'''
 }
 
 IceStar: {
@@ -683,15 +709,6 @@ Lionfish: {
 		'''
 }
 
-RealityRupture: {
-	DisplayName: 裂世投矛
-	Tooltip:
-		'''
-		在投掷三支小型跟踪矛与一支穿透矛的攻击方式间循环
-		潜伏攻击会投掷一发割裂现实的高速投矛，命中造成爆炸
-		'''
-}
-
 LunarKunai: {
 	DisplayName: 月明苦无
 	Tooltip:
@@ -776,8 +793,15 @@ NanoblackReaper: {
 		释放纳米黑能量刀刃风暴
 		刀刃永远优先以Boss为目标
 		潜伏攻击会导致镰刃产生大量自动追踪的残像，而不是能量刀刃
-		“生灵在她的无尽仇恨中溺亡”
 		'''
+	HoldShiftTooltip:
+		'''
+		'He who picks up the pen writes the script.
+		She has no intention of ever putting it down.
+		Her design eclipses your countable stars.
+		The gleam She exudes will put them all to shame.'
+		'''
+	FlavorTooltip: "“生灵在她的无尽仇恨中溺亡”"
 }
 
 NastyCholla: {
@@ -884,6 +908,15 @@ RadiantStar: {
 		'''
 		投掷一个会在短时间后爆炸并分裂的匕首
 		潜伏攻击会分裂更多匕首并产生更强的爆炸并且爆炸会牵引敌人
+		'''
+}
+
+RealityRupture: {
+	DisplayName: 裂世投矛
+	Tooltip:
+		'''
+		在投掷三支小型跟踪矛与一支穿透矛的攻击方式间循环
+		潜伏攻击会投掷一发割裂现实的高速投矛，命中造成爆炸
 		'''
 }
 
@@ -1030,7 +1063,12 @@ Seraphim: {
 
 ShardofAntumbra: {
 	DisplayName: 半影裂片
-	Tooltip: 潜伏攻击会使半影裂片在飞行时留下追踪星星
+	Tooltip:
+		'''
+		Throws a cosmic javelin that sticks into enemies and tiles, creating a small rift nearby on enemy hits
+		After hitting a target, it will charge with energy and teleport to the rift, aiming itself at the nearest target
+		Stealth strikes create a multitude of rifts to spawn additional javelins upon teleporting
+		'''
 }
 
 ShatteredSun: {
@@ -1139,9 +1177,10 @@ StarofDestruction: {
 	DisplayName: 毁灭之星
 	Tooltip:
 		'''
-		发射巨大的毁灭地雷，爆炸形成追踪子母炸弹
-		最多生成16个子母炸弹
-		潜伏攻击总是会生成最大数量的子母炸弹
+		Throws a fan of cosmic bolts that meld together into a star of destruction
+		The explosive star will slowly follow your cursor until it expires or hits an enemy
+		      Upon running out of time, the star will burst into a huge explosion that deals increased damage
+		Stealth strikes throw additional bolts that converge into faster star that can pierce, exploding on every hit
 		'''
 }
 
@@ -1237,9 +1276,10 @@ TheOldReaper: {
 	DisplayName: 死神遗镰
 	Tooltip:
 		'''
-		扔出一把追踪死神镰刀切碎敌人
-		潜伏攻击会一次性扔出3把飞镰
-		“切成碎片”
+		Throws an irradiated scythe that cuts through enemies
+		Deposits unstable isotopes on hit, which create delayed nuclear explosions when they decay
+		Stealth strikes are thrown into the sky and fall upon enemies a few seconds later
+		On hit, stealth strikes create a focused deluge of acid rain
 		'''
 }
 
@@ -1298,9 +1338,8 @@ ToxicantTwister: {
 	DisplayName: 剧毒旋风
 	Tooltip:
 		'''
-		投掷一个缓慢移动的回旋镖
-		发射一段时间后，环刃选择一个目标并快速追踪敌人
-		潜伏攻击会投掷追踪速度更快的环刃并释放沙子
+		Throws a fan of four spinning disks that swirl around your cursor
+		Stealth strikes swirl in a wider range and create a vortex of toxic raindrops that home in on enemies
 		'''
 }
 
@@ -1309,7 +1348,7 @@ Turbulance: {
 	Tooltip:
 		'''
 		发射一支会在命中时产生旋风的穿云标枪
-		标枪在暴击时会使旋风追踪
+		Wind slashes occasionally home, and always home if the javelin crits
 		潜伏攻击会在飞行轨迹上生成追踪旋风
 		'''
 }

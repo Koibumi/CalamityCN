@@ -1,4 +1,14 @@
 // Critters
+AlphaSeaMinnowItem: {
+	DisplayName: Alpha Sea Minnow
+	Tooltip: ""
+}
+
+AlphaSeaMinnowGoldItem: {
+	DisplayName: Gold Alpha Sea Minnow
+	Tooltip: ""
+}
+
 AndroombaItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
 	Tooltip:
@@ -19,7 +29,27 @@ BabyFlakCrabItem: {
 }
 
 BabyGhostBellItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName}"
+	DisplayName: Blue Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellGoldItem: {
+	DisplayName: Gold Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellGreenItem: {
+	DisplayName: Green Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellRadiantItem: {
+	DisplayName: Radiant Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellRedItem: {
+	DisplayName: Red Baby Ghost Bell
 	Tooltip: ""
 }
 
@@ -43,6 +73,56 @@ NanodroidPlagueRedItem: {
 	Tooltip: ""
 }
 
+PearlpodBlackItem: {
+	DisplayName: Black Pearlpod
+	Tooltip: ""
+}
+
+PearlpodItem: {
+	DisplayName: White Pearlpod
+	Tooltip: ""
+}
+
+PearlpodGoldItem: {
+	DisplayName: Gold Pearlpod
+	Tooltip: ""
+}
+
+PearlpodPinkItem: {
+	DisplayName: Pink Pearlpod
+	Tooltip: ""
+}
+
+PolypPanaseaGoldItem: {
+	DisplayName: Gold Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaGreenItem: {
+	DisplayName: Green Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaItem: {
+	DisplayName: Red Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaPurpleItem: {
+	DisplayName: Purple Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaRadiantItem: {
+	DisplayName: Radiant Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaTurquoiseItem: {
+	DisplayName: Turquoise Polyp Panasea
+	Tooltip: ""
+}
+
 PiggyItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
 	Tooltip: ""
@@ -58,22 +138,17 @@ SeaMinnowItem: {
 	Tooltip: ""
 }
 
+SeaMinnowGoldItem: {
+	DisplayName: Gold Sea Minnow
+	Tooltip: ""
+}
+
 TwinklerItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
 	Tooltip: ""
 }
 
 // Permanent Boosters
-BloodOrange: {
-	DisplayName: 血橙
-	Tooltip:
-		'''
-		永久增加{0}点最大生命值
-		在消耗最大数量生命果后方可使用且仅能使用一次
-		它很甜，也很香
-		'''
-}
-
 CelestialOnion: {
 	DisplayName: 天体洋葱
 	Tooltip:
@@ -93,42 +168,14 @@ CometShard: {
 		'''
 }
 
-Dragonfruit: {
-	DisplayName: 龙果
-	Tooltip:
-		'''
-		永久增加{0}点最大生命值
-		在消耗最大数量生命果后方可使用且仅能使用一次
-		尽管味道有些寡淡，但这味道绝对堪称是种全新的体验
-		'''
-}
-
 Ectoheart: {
 	DisplayName: 幽魂之心
-	Tooltip:
-		'''
-		永久增加肾上腺素模式20%伤害和5%伤害减免
-		复仇模式掉落
-		'''
-}
-
-Elderberry: {
-	DisplayName: 旧神浆果
-	Tooltip:
-		'''
-		永久增加{0}点最大生命值
-		在消耗最大数量生命果后方可使用且仅能使用一次
-		摸上去像是土做的，尝起来酸甜香浓
-		'''
+	Tooltip: 永久增加肾上腺素模式20%伤害和5%伤害减免
 }
 
 ElectrolyteGelPack: {
 	DisplayName: 电磁凝胶包
-	Tooltip:
-		'''
-		永久增加肾上腺素模式20%伤害和5%伤害减免
-		复仇模式掉落
-		'''
+	Tooltip: 永久增加肾上腺素模式20%伤害和5%伤害减免
 }
 
 EtherealCore: {
@@ -142,11 +189,7 @@ EtherealCore: {
 
 InfernalBlood: {
 	DisplayName: 地狱之血
-	Tooltip:
-		'''
-		永久增加1秒暴怒模式持续时间
-		复仇模式掉落
-		'''
+	Tooltip: 永久增加1秒暴怒模式持续时间
 }
 
 MiracleFruit: {
@@ -161,11 +204,7 @@ MiracleFruit: {
 
 MushroomPlasmaRoot: {
 	DisplayName: 蘑菇根质
-	Tooltip:
-		'''
-		永久增加1秒暴怒模式持续时间
-		复仇模式掉落
-		'''
+	Tooltip: 永久增加1秒暴怒模式持续时间
 }
 
 PhantomHeart: {
@@ -179,19 +218,41 @@ PhantomHeart: {
 
 RedLightningContainer: {
 	DisplayName: 电刑之容
+	Tooltip: 永久增加1秒暴怒模式持续时间
+}
+
+SacredStrawberry: {
+	DisplayName: Sacred Strawberry
 	Tooltip:
 		'''
-		永久增加1秒暴怒模式持续时间
-		复仇模式掉落
+		永久增加{0}点最大生命值
+		在消耗最大数量生命果后方可使用且仅能使用一次
+		尽管味道有些寡淡，但这味道绝对堪称是种全新的体验
+		'''
+}
+
+SanguineTangerine: {
+	DisplayName: Sanguine Tangerine
+	Tooltip:
+		'''
+		永久增加{0}点最大生命值
+		在消耗最大数量生命果后方可使用且仅能使用一次
+		它很甜，也很香
 		'''
 }
 
 StarlightFuelCell: {
 	DisplayName: 星光能量核心
+	Tooltip: 永久增加肾上腺素模式20%伤害和5%伤害减免
+}
+
+TaintedCloudberry: {
+	DisplayName: Tainted Cloudberry
 	Tooltip:
 		'''
-		永久增加肾上腺素模式20%伤害和5%伤害减免
-		复仇模式掉落
+		永久增加{0}点最大生命值
+		在消耗最大数量生命果后方可使用且仅能使用一次
+		摸上去像是土做的，尝起来酸甜香浓
 		'''
 }
 
@@ -260,6 +321,12 @@ VoodooDemonVoodooDoll: {
 }
 
 // Uncategorized
+ExhumeShortTooltip:
+	'''
+	[c/C61B40:'Ah, are you curious what I saw within this item?']
+	[c/BABABA:Press "Left Shift" to listen]
+	'''
+
 AlicornonaStick: {
 	DisplayName: 棒棒天角兽
 	Tooltip: “恭喜！你赢了！这是一根有我头的棍子”
@@ -344,5 +411,15 @@ SuperDummy: {
 		每秒恢复百万生命值
 		受到造成持续伤害的减益时也不会死亡
 		右键点击灭杀所有大草人
+		'''
+}
+
+NimbleBounder: {
+	DisplayName: Nimble Bounder
+	Tooltip:
+		'''
+		Permanently increases movement and jump speed by 5%
+		Permanently increases acceleration by 10%
+		[c/842593:'Might be useful for speedrunning']
 		'''
 }

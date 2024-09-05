@@ -14,7 +14,7 @@ AstralSandBallFalling.DisplayName: 星幻沙块
 AstralSandBallGun.DisplayName: 星环沙块
 AstralSpray.DisplayName: 星体喷流
 AstralStar.DisplayName: 彗星
-BallisticPoisonCloud.DisplayName: 云
+AuricLandMineExplosion.DisplayName: Auric Land Mine Explosion
 BasicPlagueBee.DisplayName: 基础瘟疫蜜蜂
 BlazingStarHeal.DisplayName: 治愈神圣之星
 BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
@@ -29,7 +29,6 @@ BossRushEffectThing.DisplayName: Boss Rush 开始提示语言
 BossRushEndEffectThing.DisplayName: Boss Rush 结束提示语言
 BossRushFailureEffectThing.DisplayName: Boss Rush 失败提示语言
 BossRushTierAnimation.DisplayName: Boss Rush 级别动画
-BrimstoneHellfireballFriendly2.DisplayName: 地狱火
 ChaoticGeyser.DisplayName: 混沌间歇泉
 ChlorophyteLifePulse.DisplayName: 生命脉冲
 ChronoClock.DisplayName: 时之钟
@@ -60,15 +59,14 @@ FlameLickedHellblast.DisplayName: 舐火狱燃爆
 FuckYou.DisplayName: 爆炸
 FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
+GenericElectricSpark.DisplayName: Electric Spark
 GhostlyBolt.DisplayName: 闪电
 GodKiller.DisplayName: 神杀
 GodSlayerShrapnel.DisplayName: 火焰
 GodSlayerShrapnelRound.DisplayName: 弑神者光环
 GreenLabSeeker.DisplayName: 实验室定位仪
-HellfireExplosionFriendly2.DisplayName: 狱火炎爆
 HeronBobber.DisplayName: 苍鹭浮标
 HideOfAstrumDeusExplosion.DisplayName: 隐壳爆炸
-HolyExplosion.DisplayName: 爆炸
 HolyExplosionSupreme.DisplayName: 爆炸
 HydrothermalSmoke.DisplayName: 水热烟雾
 HydrothermicFlare.DisplayName: 渊泉之火
@@ -78,7 +76,6 @@ JewelSpike.DisplayName: 宝石尖刺
 KelvinCatalystStar.DisplayName: 冰灵旋刃碎冰星
 LeviAmberDash.DisplayName: 激流猛冲
 LunicBeam.DisplayName: 激光
-MageHammerBoom.DisplayName: 爆炸
 MagnusBeam.DisplayName: 磁振子束
 MythrilFlare.DisplayName: 秘银火花
 NanoFlare.DisplayName: 纳米耀斑
@@ -91,9 +88,7 @@ OmegaBlueTentacle.DisplayName: 欧米茄蓝色触手
 OnyxLabSeeker.DisplayName: 实验室定位仪
 PauldronDash.DisplayName: 肩甲冲刺
 PauldronExplosion.DisplayName: 肩甲爆炸
-PendantProjectile1.DisplayName: 棱镜碎片
-PendantProjectile2.DisplayName: 棱镜碎片
-PendantProjectile3.DisplayName: 棱镜碎片
+PearlAuraShard.DisplayName: 棱镜碎片
 PlaguePulse.DisplayName: 毒疫脉冲
 PoisonousSeawater.DisplayName: 海水
 PscTransformAnimation.DisplayName: 渎神魂晶转换动画
@@ -102,13 +97,14 @@ ReaverOrb.DisplayName: 掠夺者宝珠
 ReaverThornBase.DisplayName: 荆棘
 RedLabSeeker.DisplayName: 实验室定位仪
 RiftReelerBobber.DisplayName: 混乱浮标
-SabatonBoom.DisplayName: 萨巴顿爆炸
-SabatonSlam.DisplayName: 萨巴顿猛击
 SandCloakVeil.DisplayName: 沙尘龙卷
 SandExplosion.DisplayName: 流沙
 Seashell.DisplayName: 贝壳
 SepulcherSoul.DisplayName: 折磨之魂
 SerpentsBiteHook.DisplayName: 巨蟒之咬
+ShadeNimbus.DisplayName: 暗影乌云
+ShadeNimbusRain.DisplayName: Shade Rain
+ShadeNimbusSpawner.DisplayName: Dank Creeper
 ShadowflameExplosion.DisplayName: 暗影炎爆
 ShadowflameExplosionBig.DisplayName: 暗影炎爆
 SkyFlareFriendly.DisplayName: 烈焰
@@ -118,12 +114,15 @@ SpiritOriginBullseye.DisplayName: 靶心
 StandingFire.DisplayName: 火焰
 StarStruckWaterBottle.DisplayName: 星水瓶
 StickyFeatherAero.DisplayName: 羽毛
+StomperSlam.DisplayName: Stomper Slam
 SuicideBomberDemon.DisplayName: 恶魔
 SulphuricAcidBubbleFriendly.DisplayName: 酸性气泡
 SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
 TarragonAura.DisplayName: 龙蒿光环
 TeslaAura.DisplayName: 磁暴
+TitanHeartBoom.DisplayName: Titan Heart Boom
+UrsaSlash.DisplayName: Ursa Slash
 VerstaltiteBobber.DisplayName: 极寒浮标
 VoidFieldGenerator.DisplayName: 虚空力场生成器
 WaterConvertor.DisplayName: 净水器

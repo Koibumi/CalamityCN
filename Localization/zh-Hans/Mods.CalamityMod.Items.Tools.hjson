@@ -3,9 +3,34 @@ AbyssalWarhammer: {
 	Tooltip: ""
 }
 
+AcidwoodAxe: {
+	DisplayName: Acidwood Axe
+	Tooltip: ""
+}
+
+AcidwoodHammer: {
+	DisplayName: Acidwood Hammer
+	Tooltip: ""
+}
+
+AcidwoodPickaxe: {
+	DisplayName: Acidwood Pickaxe
+	Tooltip: ""
+}
+
 AerialHamaxe: {
 	DisplayName: 天蓝锤斧
 	Tooltip: ""
+}
+
+AridArtifact: {
+	DisplayName: 干旱生成器
+	Tooltip:
+		'''
+		召唤沙尘暴
+		使用后，沙尘暴会在一段时间后开始
+		若在沙尘暴期间使用，沙尘暴会在一段时间后停止
+		'''
 }
 
 AstralHamaxe: {
@@ -54,32 +79,12 @@ BobbitHook: {
 		'''
 }
 
-AridArtifact: {
-	DisplayName: 干旱生成器
-	Tooltip:
-		'''
-		召唤沙尘暴
-		使用后，沙尘暴会在一段时间后开始
-		若在沙尘暴期间使用，沙尘暴会在一段时间后停止
-		'''
-}
-
 Cosmolight: {
 	DisplayName: 宇宙之光
 	Tooltip:
 		'''
 		把时间立刻加速至下个黎明、正午、黄昏和午夜
 		此效果在Boss存活时失效
-		'''
-}
-
-TorrentialTear: {
-	DisplayName: 洪流之泪
-	Tooltip:
-		'''
-		召唤滂沱大雨
-		使用后，大雨会在一段时间后开始
-		若在下雨期间使用，雨会在一段时间后停止
 		'''
 }
 
@@ -90,6 +95,21 @@ CrystylCrusher: {
 		按住右键发射一道晶体光束，光束顶部的箭头可以破坏任何物块
 		“更快，更深！”
 		'''
+}
+
+DriftwoodAxe: {
+	DisplayName: Driftwood Axe
+	Tooltip: Improved efficiency while you are wet
+}
+
+DriftwoodHammer: {
+	DisplayName: Driftwood Hammer
+	Tooltip: Improved efficiency while you are wet
+}
+
+DriftwoodPickaxe: {
+	DisplayName: Driftwood Pickaxe
+	Tooltip: Improved efficiency while you are wet
 }
 
 FellerofEvergreens: {
@@ -111,7 +131,7 @@ Grax: {
 	DisplayName: 格拉克斯
 	Tooltip:
 		'''
-		击中敌人后会在短时间内大幅度增加你的防御、近战伤害和近战暴击率
+		击中敌人后会在短时间内大幅度增加你的伤害、防御和伤害减免
 		右键使用时不会破坏墙壁或砍伐树木
 		'''
 }
@@ -148,6 +168,21 @@ MarniteObliterator: {
 		'''
 }
 
+MonolithAxe: {
+	DisplayName: Monolith Axe
+	Tooltip: ""
+}
+
+MonolithHammer: {
+	DisplayName: Monolith Hammer
+	Tooltip: ""
+}
+
+MonolithPickaxe: {
+	DisplayName: Monolith Pickaxe
+	Tooltip: ""
+}
+
 ReefclawHamaxe: {
 	DisplayName: 礁爪锤斧
 	Tooltip: ""
@@ -176,6 +211,16 @@ SkyfringePickaxe: {
 TectonicTruncator: {
 	DisplayName: 地壳斧正者
 	Tooltip: ""
+}
+
+TorrentialTear: {
+	DisplayName: 洪流之泪
+	Tooltip:
+		'''
+		召唤滂沱大雨
+		使用后，大雨会在一段时间后开始
+		若在下雨期间使用，雨会在一段时间后停止
+		'''
 }
 
 WulfrumDiggingTurtle: {

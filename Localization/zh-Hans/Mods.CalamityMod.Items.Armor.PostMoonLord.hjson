@@ -99,7 +99,7 @@ BloodflareHeadMagic: {
 	SetBonus:
 		'''
 		魔法武器每1.67秒会发射一个灵魂弹幕
-		魔法武器暴击每2秒会产生火焰爆炸
+		魔法武器暴击每2秒会产生血爆
 		'''
 }
 
@@ -311,8 +311,7 @@ GodSlayerChestplate: {
 		'''
 	CommonSetBonus:
 		'''
-		允许你进行一次距离极长的能够选择八个方向的冲刺
-		在按着控制角色移动的按键的同时按下{0}就能进行指定方向的冲刺
+		Pressing {0} allows you to dash towards your cursor for 2.5 seconds
 		被冲刺撞到的敌人会受到极高的伤害
 		在冲刺过程中你免疫绝大多数减益
 		弑神者冲刺有{1}秒冷却时间
@@ -452,7 +451,7 @@ SilvaArmor: {
 		'''
 		所有弹幕击中敌人时生成能治疗的林海光球
 		最大速度和加速度增加5%
-		如果降低到1点生命值，你将获得始源林海无敌增益，8秒内不会死亡
+		Taking fatal damage will revive you and make you invulnerable to all damage for 5 seconds
 		这个效果有5分钟冷却时间，冷却时间不会在Boss存在或事件期间计时
 		'''
 }

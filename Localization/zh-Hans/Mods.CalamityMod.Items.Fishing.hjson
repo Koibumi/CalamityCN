@@ -43,9 +43,10 @@ UrsaSergeant: {
 	DisplayName: 大熊座雀鲷
 	Tooltip:
 		'''
-		降低15%移动速度
-		使你免疫幻星感染和野性咬噬减益
-		生命值较低时增加生命再生
+		Attacks maul enemies with astral claw swipes
+		Taking damage reduces the cooldown, but inflicts you with Astral Infection
+		Enemy kills also reduce the cooldown
+		Swipes will be translucent and silent if visibility is disabled
 		'''
 }
 

@@ -163,6 +163,16 @@ Dragonfire: {
 	Description: 被熊熊火焰吞没
 }
 
+VermillionFlux: {
+	DisplayName: Vermillion Flux
+	Description: Sharp arcs of scarlet course through you
+}
+
+StaticDischarge: {
+	DisplayName: Static Discharge
+	Description: Shocked by static electricity
+}
+
 GodSlayerInferno: {
 	DisplayName: 弑神怒焰
 	Description: 你的血肉在燃烧
@@ -176,6 +186,11 @@ HolyFlames: {
 HolyInferno: {
 	DisplayName: 圣狱神火
 	Description: 你离亵渎天神太远了！
+}
+
+Laceration: {
+	DisplayName: Laceration
+	Description: You're a bloody mess
 }
 
 ManaBurn: {
@@ -226,6 +241,11 @@ SnapClamDebuff: {
 SulphuricPoisoning: {
 	DisplayName: 硫磺海剧毒
 	Description: 酸性海水正在烧灼你的血肉
+}
+
+TrueVulnerabilityHex: {
+	DisplayName: True Vulnerability Hex
+	Description: The end has come
 }
 
 Vaporfied: {
@@ -360,7 +380,7 @@ Dreamfog: {
 
 EidolonSnailBuff: {
 	DisplayName: 幻海灵蜗
-	Description: 多么可爱的史前小蜗牛
+	Description: 多么可爱的小蜗牛
 }
 
 ElectricTroublemaker: {
@@ -582,11 +602,6 @@ SulphurskinBuff: {
 	Description: 硫海之水对你的影响效果降低
 }
 
-TeslaBuff: {
-	DisplayName: 特斯拉电球
-	Description: 召唤一个电流光环
-}
-
 WeaponImbueBrimstone: {
 	DisplayName: 武器灌注：硫火
 	Description: 近战、鞭子和盗贼攻击会用硫磺火焰点燃敌人
@@ -610,11 +625,6 @@ Zen: {
 Zerg: {
 	DisplayName: 虫潮
 	Description: 刷怪率大幅度增加
-}
-
-RancorBurn: {
-	DisplayName: 仇怨焚烧
-	Description: 燃烧
 }
 
 AbyssalDivingSuitBuff: {
@@ -770,7 +780,7 @@ KamiBuff: {
 
 Mushy: {
 	DisplayName: 与菇共生
-	Description: 增加6点防御和+1HP/s生命再生
+	Description: 增加8点防御和+1HP/s生命再生
 }
 
 PhantomicEmpowerment: {
@@ -831,12 +841,16 @@ RageMode: {
 
 ReaverRage: {
 	DisplayName: 掠夺者之怒
-	Description: 爷怒了
+	Description:
+		'''
+		Rage of the earth
+		Defense increased by 5 and damage increased by 10%
+		'''
 }
 
 SilvaRevival: {
 	DisplayName: 始源林海无敌
-	Description: 你处于无敌状态并免疫大多数减益
+	Description: Silva's blessing makes you invulnerable and immune to most debuffs
 }
 
 SpiritDefense: {
@@ -1141,9 +1155,9 @@ DemonshadeSetDevilBuff: {
 	Description: 赤红恶魔会保护你
 }
 
-ElementalAxeBuff: {
-	DisplayName: 元素之斧
-	Description: 元素之斧会保护你
+LegionofCelestiaBuff: {
+	DisplayName: Celestial Axe
+	Description: If only it was this good at chopping trees...
 }
 
 EndoCooperBuff: {
@@ -1523,4 +1537,32 @@ YoungDukeBuff: {
 LiliesOfFinalityBuff: {
 	DisplayName: 终焉
 	Description: 铭记我们的诺言
+}
+
+AuricRebuke: {
+	DisplayName: Auric Rebuke
+	Description: Your cells are violently bouncing off each other
+}
+
+SandsWindBuff: {
+	DisplayName: Sand's Wind
+	Description:
+		'''
+		You are strengthened by the powers of sand
+		Defense increased by 10, damage increased by 12%
+		'''
+}
+
+AeolianEarthBuff: {
+	DisplayName: Aeolian Earth
+	Description:
+		'''
+		You are strengthened by primordial powers
+		Damage reduction increased by 8%, damage increased by 18%
+		'''
+}
+
+Voidfrost: {
+	DisplayName: Voidfrost
+	Description: The emptiness of space devours all warmth and life
 }

@@ -5,7 +5,6 @@ AcidicSaxBubble.DisplayName: 酸性气泡
 AcidicSaxMist.DisplayName: 酸雾
 AetherBeam.DisplayName: 以太射线
 AnahitasArpeggioNote.DisplayName: 阿娜希塔之音
-Ancient.DisplayName: 亘古之尘
 Ancient2.DisplayName: 亘古之尘
 ApotheosisEnergy.DisplayName: 圣神能量
 ApotheosisWorm.DisplayName: 打人不疼的神明吞噬者
@@ -20,14 +19,12 @@ AstralCrystal.DisplayName: 星幻凝晶
 AstralCrystalInvisibleExplosion.DisplayName: 星体晶影爆
 AstralStarMagic.DisplayName: 寰星奥秘
 AtlantisSpear.DisplayName: 亚特兰蒂斯之枪
-AuraRain.DisplayName: 光环雨
+AugurTentacle.DisplayName: 元素之须
 AuroraAustralis.DisplayName: 极光
 BeamingBolt.DisplayName: 光斑
 BeamingBolt2.DisplayName: 光斑
 BeamStar.DisplayName: 星尘
 BeastScythe.DisplayName: 狂野之镰
-BigBeamofDeath.DisplayName: 巨型死光束
-BigBeamofDeath2.DisplayName: 巨型死光束
 BlackAnurianBubble.DisplayName: 黑尿鱼泡泡
 BlackAnurianPlankton.DisplayName: 黑尿鱼浮游生物
 BlindingLight.DisplayName: 致盲之光
@@ -37,10 +34,7 @@ BloodRay.DisplayName: 猩红射线
 BlueBubble.DisplayName: 蓝泡泡
 BlushieStaffProj.DisplayName: 蓝炼魂法杖
 BrimroseBeam.DisplayName: 硫火玫瑰光束
-BrimstoneFireball.DisplayName: 硫火球
 BrimstoneHellfireballFriendly.DisplayName: 狱炎球
-BrimstoneHomer.DisplayName: 硫火追踪弹
-BrimstoneTentacle.DisplayName: 硫火之触
 CauldronProj.DisplayName: 熔岩炸弹
 CauldronProjSmall.DisplayName: 熔岩溅滴
 ChronoIcicleLarge.DisplayName: 时之冰锥
@@ -56,12 +50,11 @@ CryoBlast.DisplayName: 霜寒爆裂
 DarkSparkBeam.DisplayName: 寂虚之光
 DarkSparkPrism.DisplayName: 寂虚之光
 DeathhailBeam.DisplayName: 死亡冰雹
+DeathValleyDusterProjectile.DisplayName: 死亡之尘
 DivineRetributionSpear.DisplayName: 神罚
-DustProjectile.DisplayName: 死亡之尘
 EelDrop.DisplayName: 酸鳗液滴
 EidolicWailSoundwave.DisplayName: 哀怨之声
 EldritchTentacle.DisplayName: 哀怨之触
-ElementTentacle.DisplayName: 元素之须
 EnormousConsumingVortex.DisplayName: 归元漩涡
 EternityCircle.DisplayName: 永恒
 EternityCrystal.DisplayName: 永恒魔晶
@@ -75,7 +68,6 @@ ExoVortex2.DisplayName: 归元旋涡
 FabBolt.DisplayName: 原体斑
 FabRay.DisplayName: 原体射线
 FatesRevealFlame.DisplayName: 幽灵魂火
-FlamingPumpkin.DisplayName: 南瓜
 FlareBoltProjectile.DisplayName: 耀斑
 ForbiddenAxeBlade.DisplayName: 禁忌斧刃
 ForbiddenSunburst.DisplayName: 禁忌阳炎爆
@@ -108,6 +100,7 @@ IceBlockIcicle.DisplayName: 寒冰弹幕
 IceCluster.DisplayName: 冰簇
 Icicle.DisplayName: 冰锥
 IcicleStaffProj.DisplayName: 高速冰柱
+IncineratingFireball.DisplayName: Incinerating Fireball
 InfernadoFriendly.DisplayName: 烈焰龙卷
 InfernadoMarkFriendly.DisplayName: 火龙卷标记
 InfernalBlade.DisplayName: 烈刃龙卷
@@ -169,6 +162,10 @@ PlasmaRay.DisplayName: 等离子射线
 PlasmaRay2.DisplayName: 等离子射线
 PlasmaShot.DisplayName: 等离子喷丸
 PoseidonTyphoon.DisplayName: 海神之台风
+PrimordialAncientExplosion.DisplayName: Primordial Ancient
+PrimordialAncientProjectile.DisplayName: Primordial Ancient
+PrimordialEarthExplosion.DisplayName: Primordial Earth
+PrimordialEarthProjectile.DisplayName: Primordial Earth
 PrinceFlameLarge.DisplayName: 神圣火球
 PrinceFlameSmall.DisplayName: 圣火
 RainbowComet.DisplayName: 陨星
@@ -195,7 +192,6 @@ SerpentineBody.DisplayName: 海蟒之身
 SerpentineHead.DisplayName: 海蟒之头
 SerpentineTail.DisplayName: 海蟒之尾
 ShadecrystalProjectile.DisplayName: 暗影水晶
-ShadeNimbus.DisplayName: 暗影乌云
 ShadeNimbusCloud.DisplayName: 暗影乌云
 Shaderain.DisplayName: 暗影之雨
 Shadowbolt.DisplayName: 幽影箭
@@ -219,14 +215,12 @@ SpiritDust.DisplayName: 灵魂之尘
 Starblast.DisplayName: 星爆
 StardustElementalBeam.DisplayName: 星尘光束
 StickyFeather.DisplayName: 粘性羽毛
-SupremeDustFlakProjectile.DisplayName: 至尊之尘
-SupremeDustProjectile.DisplayName: 至尊之尘
 TacticiansElectricBoom.DisplayName: 电流爆裂
 TacticiansTrumpCardProj.DisplayName: 王牌光束
 TearsofHeavenProjectile.DisplayName: 天堂之泪
 Teslabeam.DisplayName: 特斯拉光束
-ThunderstormShot.DisplayName: 雷电风暴
-ThunderstormShotSplit.DisplayName: 雷电风暴
+ThunderboltShot.DisplayName: 雷电风暴
+ThunderboltShotSplit.DisplayName: 雷电风暴
 TradewindsProjectile.DisplayName: 信风羽
 TridentIcicle.DisplayName: 寒冰三叉戟
 UberBubble.DisplayName: 泡泡
@@ -255,8 +249,8 @@ VolatileStarcore.DisplayName: 挥发性星核
 VortexElementalBeam.DisplayName: 闪电
 WaterLeechProj.DisplayName: 水蛭
 WaywasherProj.DisplayName: 清道夫弹幕
-WingmanShot.DisplayName: 魔能子弹
 WingmanGrenade.DisplayName: 魔能榴弹
+WingmanShot.DisplayName: 魔能子弹
 WulfrumBolt.DisplayName: 钨钢杖飞弹
 WulfrumManaDrain.DisplayName: 魔力汲取
 WyvernFeatherGreen.DisplayName: 绿色星龙羽

@@ -15,9 +15,12 @@ FlameBurstHostile.DisplayName: 炙炎
 GammaAcid.DisplayName: 酸
 GammaBeam.DisplayName: 伽马射线
 GammaRayBurst.DisplayName: 伽马燃料光束
+HorsPoisonBlast.DisplayName: Poisonous Spit
 HorsWaterBlast.DisplayName: 水
+IceClasperEnemyProjectile.DisplayName: 冰块
 InkBombHostile.DisplayName: 墨水炸弹
 InkPoisonCloud.DisplayName: 墨水云雾
+JellyghoulBolt.DisplayName: Jellyghoul Bolt
 LightningCloud.DisplayName: 云
 MantisRing.DisplayName: 幻星螳螂
 MaulerAcidBubble.DisplayName: 强酸泡泡
@@ -29,10 +32,10 @@ OrthoceraStream.DisplayName: 酸液流
 PearlBurst.DisplayName: 爆裂珍珠
 PearlRain.DisplayName: 珍珠雨
 PufferExplosion.DisplayName: 刺豚爆炸
+SharkoonExplosion.DisplayName: Sharkoon Explosion
 StormMarkHostile.DisplayName: 暴风铭印
 SulphuricAcidBubble.DisplayName: 酸性气泡
 SulphuricAcidMist.DisplayName: 酸雾
 TornadoHostile.DisplayName: 龙卷风
 ToxicMinnowCloud.DisplayName: 剧毒云雾
 TrilobiteSpike.DisplayName: 三叶虫刺
-IceClasperEnemyProjectile.DisplayName: 冰块

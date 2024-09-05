@@ -460,17 +460,17 @@ ReaverHeadExplore: {
 	DisplayName: 掠夺者头饰
 	Tooltip:
 		'''
-		增加20%挖掘速度和物块/墙的放置速度
+		增加20%挖掘速度
+		增加50%物块和墙的放置速度
 		免疫熔岩并且在液体中行动不受阻碍
 		'''
 	SetBonus:
 		'''
-		高亮附近的所有宝藏
-		提升物品拾取距离和物块放置距离
-		在水下挖掘物块时恢复氧气
-		召唤一个掠夺者毒球照亮周围区域
-		降低敌人的攻击性，即便身处深渊
-		在深渊中提供微量光照		
+		Summons an orb which highlights nearby treasure and provides light
+		Grants underwater breathing and reduced enemy aggression
+		These have a moderate effect while in the Abyss
+		Increased block placement & tool range by 7
+		Increases pickup range for items
 		'''
 }
 
