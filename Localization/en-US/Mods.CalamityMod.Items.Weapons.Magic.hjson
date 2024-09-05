@@ -34,7 +34,26 @@ AlulaAustralis: {
 
 AnahitasArpeggio: {
 	DisplayName: Anahita's Arpeggio
-	Tooltip: Casts slow-moving treble clefs that confuse enemies
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Holding <left> casts up to 6 treble clefs that orbit the player
+		Releasing <left> causes the treble clefs to fade away, then converge at the cursor
+		'''
+	TooltipGFB:
+		'''
+		"NOOOOOOOO! You're supposed to obey me!!!!"
+		The seven treble clef souls:
+		'''
+}
+
+Apathanull: {
+	DisplayName: Apathanull
+	Tooltip:
+		'''
+		Casts a spread of dark cosmic tentacles to skewer your enemies
+		Tentacles will aim at your cursor and lash out three times before disappearing
+		'''
 }
 
 ApoctosisArray: {
@@ -108,8 +127,8 @@ Atlantis: {
 	TooltipGFBDoG: Take good care of my weapon, or else... -CIT
 }
 
-AuguroftheElements: {
-	DisplayName: Augur of the Elements
+AuguroftheVoid: {
+	DisplayName: Augur of the Void
 	Tooltip: Casts a burst of elemental tentacles to spear your enemies
 }
 
@@ -144,7 +163,12 @@ BrimroseStaff: {
 
 BurningSea: {
 	DisplayName: Burning Sea
-	Tooltip: Fires a bouncing brimstone fireball that splits into homing fireballs upon collision with water
+	Tooltip:
+		'''
+		Conjures a massive brimstone fireball that hovers near you and incinerates foes
+		Holding the fireball for too long causes it to burn out
+		This burns you with Brimstone Flames and gives a long delay before another can be cast
+		'''
 }
 
 ChronomancersScythe: {
@@ -221,7 +245,12 @@ DeathhailStaff: {
 
 DeathValleyDuster: {
 	DisplayName: Death Valley Duster
-	Tooltip: Casts a large blast of dust
+	Tooltip:
+		'''
+		Casts an enchanted blast of sand that passes through enemies and tiles
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
+		The Sand's Wind Buff increases your defense by 10 and damage by 12%
+		'''
 }
 
 DivineRetribution: {
@@ -247,7 +276,7 @@ EidolicWail: {
 	DisplayName: Eidolic Wail
 	Tooltip:
 		'''
-		Fires a string of bouncing sound waves that become stronger as they travel
+		Fires a string of bouncing sound waves that slow down on enemy hits
 		RIP headphone users
 		'''
 }
@@ -260,18 +289,6 @@ EidolonStaff: {
 EldritchTome: {
 	DisplayName: Eldritch Tome
 	Tooltip: Casts eldritch tentacles to spear your enemies
-}
-
-ElementalRay: {
-	DisplayName: Elemental Ray
-	Tooltip:
-		'''
-		Casts four celestial beams near the player
-		Solar beams explode into fire on enemy hits
-		Nebula beams sweep a little bit over time
-		Vortex beams act like fast lightning and electrify enemies on hit
-		Stardust beams release small stars that home on enemy hits
-		'''
 }
 
 Eternity: {
@@ -375,11 +392,14 @@ GruesomeEminence: {
 	DisplayName: Gruesome Eminence
 	Tooltip:
 		'''
-		Summons a gaseous conglomeration of spirits near the cursor
-		At first, the spirits will fly wildly. This can hurt enemies and players
-		However, over time they will begin to accumulate to create a single, controllable monstrosity
-		[c/C61B40:'The spirits of the amalgam could never pass on to their desired afterlife,]
-		[c/C61B40:Tainted and melded by rage as they were.']
+		Summons a gaseous conglomeration of spirits near the cursor that fly around wildly
+		Over time, the spirits accumulate to create a single, controllable monstrosity
+		'''
+	Calamitas:
+		'''
+		'Many will tell you that Yharim fell from grace as his Crusade went on, but that's far from the truth.
+		Sure, he was a good man when he was killing assassins drunk on power, but even as he dethroned dictators, entire kingdoms were leveled alongside.
+		I wish more people could bear witness to this "Polterghast". Maybe then, they would understand the pain he caused for the world.'
 		'''
 }
 
@@ -472,7 +492,11 @@ Keelhaul: {
 
 LashesofChaos: {
 	DisplayName: Lashes of Chaos
-	Tooltip: "'Watch the world burn...'"
+	Tooltip:
+		'''
+		Alternates between exploding hellfireballs and piercing hellblasts
+		'Watch the world burn...'
+		'''
 }
 
 Lazhar: {
@@ -490,7 +514,7 @@ MadAlchemistsCocktailGlove: {
 	Tooltip:
 		'''
 		Fires a variety of high-velocity flasks
-		Press <right> to throw a prismatic flask that inflicts many debuffs
+		Press <right> to throw a prismatic flask that inflicts Elemental Mix
 		Red flasks explode violently
 		Blue flasks contain poison gas
 		Green flasks summon lunar flares
@@ -520,7 +544,11 @@ Mistlestorm: {
 
 NanoPurge: {
 	DisplayName: Nano Purge
-	Tooltip: Fires a barrage of nano lasers
+	Tooltip:
+		'''
+		Fires a barrage of nano lasers
+		Bounces towards the nearest enemy after hitting a wall
+		'''
 }
 
 NebulousCataclysm: {
@@ -542,6 +570,18 @@ NuclearFury: {
 	Tooltip: Casts a torrent of cosmic typhoons
 }
 
+Nucleosynthesis: {
+	DisplayName: Nucleosynthesis
+	Tooltip:
+		'''
+		Casts four celestial beams near the player
+		Solar beams explode into fire on enemy hits
+		Nebula beams sweep a little bit over time
+		Vortex beams act like fast lightning and electrify enemies on hit
+		Stardust beams release small stars that home on enemy hits
+		'''
+}
+
 Omicron: {
 	DisplayName: Omicron
 	Tooltip:
@@ -560,7 +600,7 @@ ParasiticSceptor: {
 
 PhantasmalFury: {
 	DisplayName: Phantasmal Fury
-	Tooltip: Casts a phantasmal bolt that explodes into more bolts
+	Tooltip: Casts a vortex of homing souls around you that repels enemies and will fly towards your cursor after a few seconds
 }
 
 PhoenixFlameBarrage: {
@@ -612,12 +652,22 @@ Poseidon: {
 
 PrimordialAncient: {
 	DisplayName: Primordial Ancient
-	Tooltip: Casts a gigantic blast of dust
+	Tooltip:
+		'''
+		Casts five primordial sand blasts that converge at your cursor after a moment and create a giant explosion
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Aeolian Earth Buff
+		The Aeolian Earth Buff increases your damage reduction by 8% and damage by 18%
+		'''
 }
 
 PrimordialEarth: {
 	DisplayName: Primordial Earth
-	Tooltip: Casts a large blast of dust
+	Tooltip:
+		'''
+		Casts two enchanted blasts of sand that coverge with each other and explode
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
+		The Sand's Wind Buff increases your defense by 10 and damage by 12%
+		'''
 }
 
 PurgeGuzzler: {
@@ -636,9 +686,13 @@ Rancor: {
 	Tooltip:
 		'''
 		Casts a magic circle that charges energy and eventually releases a powerful laser burst of controlled maleficent magic
-		The laser causes arms and searing lava to appear on surfaces it touches which harm both you and enemies
-		[c/C61B40:'Forgiveness can only heal so much,]
-		[c/C61B40:If the recipient has not yet forgiven themselves.']
+		The laser causes arms and searing lava to appear on surfaces it touches
+		'''
+	Calamitas:
+		'''
+		'Yharim told me it was Otonilou who unleashed the Brimstone Elemental unto Azafure.
+		I believed him at the time, being a child looking for someone to blame for all her woes.
+		So I unleashed upon them all the fury and scorn I thought they deserved, and only once it was too late did I see through his lies.'
 		'''
 }
 
@@ -677,7 +731,11 @@ SanguineFlare: {
 
 SeethingDischarge: {
 	DisplayName: Seething Discharge
-	Tooltip: Fires a barrage of brimstone blasts
+	Tooltip:
+		'''
+		Fires an accelerating arc of brimstone hellblasts
+		Every third attack spawns a brimstone dart ring which chases after foes
+		'''
 }
 
 Serpentine: {
@@ -701,7 +759,7 @@ ShaderainStaff: {
 
 ShadowboltStaff: {
 	DisplayName: Shadowbolt Staff
-	Tooltip: The more tiles and enemies the beam bounces off of or travels through the more damage the beam does
+	Tooltip: Fires a shadow beam that creates a platform to redirect itself back at enemies for increased damage
 }
 
 ShiftingSands: {
@@ -841,21 +899,12 @@ ThornBlossom: {
 		'''
 }
 
-Thunderstorm: {
-	DisplayName: Thunderstorm
+Thunderbolt: {
+	DisplayName: Thunderbolt
 	Tooltip:
 		'''
 		Fires a stream of exploding green plasma bullets that rain down additional plasma from the sky
 		'Make it rain'
-		'''
-}
-
-TomeofFates: {
-	DisplayName: Tome of Fates
-	Tooltip:
-		'''
-		Casts cosmic tentacles to spear your enemies
-		Can randomly fire a red tentacle for immense damage
 		'''
 }
 
@@ -919,7 +968,11 @@ Viscera: {
 
 VitriolicViper: {
 	DisplayName: Vitriolic Viper
-	Tooltip: Releases a volley of venomous fangs and spit
+	Tooltip:
+		'''
+		Charges up and fires a slithering beam of radiation
+		If fully charged, instead fires a huge spread of short range fangs which quickly vanish
+		'''
 }
 
 VividClarity: {

@@ -1,5 +1,7 @@
 // Drop conditions
 Drops: {
+	CataclysmKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Catastrophe.DisplayName}
+	CatastropheKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Cataclysm.DisplayName}
 	Cynosure: After defeating both Draedon and Calamitas
 	DownedDS: After defeating the Desert Scourge
 	DownedCrab: After defeating Crabulon
@@ -39,16 +41,6 @@ Drops: {
 	DownedT2AR: After defeating the second tier of Acid Rain
 	FirstKill: Drops only on the first kill
 	MechBoss: Drops on the first kill of the final Mechanical Boss
-	ProvidenceHallow:
-		'''
-		Drops if Providence was summoned in the Hallow
-		or if Providence is only attacked during nighttime
-		'''
-	ProvidenceUnderworld:
-		'''
-		Drops if Providence was summoned in the Underworld
-		or if Providence is only attacked during nighttime
-		'''
 	ProvidenceNight: Drops if Providence is only attacked during nighttime
 	ProvidenceChallenge:
 		'''
@@ -68,7 +60,7 @@ InCrag: In the Brimstone Crags
 InSulph: In the Sulphurous Sea
 InSunken: In the Sunken Sea
 InRev: In Revengeance Mode
-IsRevOrMM: In Revengeance Mode or in Master Mode
+InRevOrMM: In Revengeance Mode or in Master Mode
 AlcoholPoison: While inflicted with Alcohol Poisoning
 PostCal: After defeating Calamitas Clone
 PostAureus: After defeating Astrum Aureus

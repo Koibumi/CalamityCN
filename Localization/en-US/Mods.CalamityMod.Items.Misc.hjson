@@ -1,4 +1,14 @@
 // Critters
+AlphaSeaMinnowItem: {
+	DisplayName: Alpha Sea Minnow
+	Tooltip: ""
+}
+
+AlphaSeaMinnowGoldItem: {
+	DisplayName: Gold Alpha Sea Minnow
+	Tooltip: ""
+}
+
 AndroombaItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
 	Tooltip:
@@ -19,7 +29,27 @@ BabyFlakCrabItem: {
 }
 
 BabyGhostBellItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName}"
+	DisplayName: Blue Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellGoldItem: {
+	DisplayName: Gold Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellGreenItem: {
+	DisplayName: Green Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellRadiantItem: {
+	DisplayName: Radiant Baby Ghost Bell
+	Tooltip: ""
+}
+
+BabyGhostBellRedItem: {
+	DisplayName: Red Baby Ghost Bell
 	Tooltip: ""
 }
 
@@ -43,6 +73,56 @@ NanodroidPlagueRedItem: {
 	Tooltip: ""
 }
 
+PearlpodBlackItem: {
+	DisplayName: Black Pearlpod
+	Tooltip: ""
+}
+
+PearlpodItem: {
+	DisplayName: White Pearlpod
+	Tooltip: ""
+}
+
+PearlpodGoldItem: {
+	DisplayName: Gold Pearlpod
+	Tooltip: ""
+}
+
+PearlpodPinkItem: {
+	DisplayName: Pink Pearlpod
+	Tooltip: ""
+}
+
+PolypPanaseaGoldItem: {
+	DisplayName: Gold Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaGreenItem: {
+	DisplayName: Green Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaItem: {
+	DisplayName: Red Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaPurpleItem: {
+	DisplayName: Purple Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaRadiantItem: {
+	DisplayName: Radiant Polyp Panasea
+	Tooltip: ""
+}
+
+PolypPanaseaTurquoiseItem: {
+	DisplayName: Turquoise Polyp Panasea
+	Tooltip: ""
+}
+
 PiggyItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
 	Tooltip: ""
@@ -58,22 +138,17 @@ SeaMinnowItem: {
 	Tooltip: ""
 }
 
+SeaMinnowGoldItem: {
+	DisplayName: Gold Sea Minnow
+	Tooltip: ""
+}
+
 TwinklerItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
 	Tooltip: ""
 }
 
 // Permanent Boosters
-BloodOrange: {
-	DisplayName: Blood Orange
-	Tooltip:
-		'''
-		Permanently increases maximum life by {0}
-		Can only be used once and requires the max amount of Life Fruits consumed
-		It has a distinctly sweet flavor and a strong aroma
-		'''
-}
-
 CelestialOnion: {
 	DisplayName: Celestial Onion
 	Tooltip:
@@ -93,42 +168,14 @@ CometShard: {
 		'''
 }
 
-Dragonfruit: {
-	DisplayName: Dragonfruit
-	Tooltip:
-		'''
-		Permanently increases maximum life by {0}
-		Can only be used once and requires the max amount of Life Fruits consumed
-		Though somewhat bland, what taste can be described is unlike any other experienced
-		'''
-}
-
 Ectoheart: {
 	DisplayName: Ectoheart
-	Tooltip:
-		'''
-		Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
-		Revengeance drop
-		'''
-}
-
-Elderberry: {
-	DisplayName: Elderberry
-	Tooltip:
-		'''
-		Permanently increases maximum life by {0}
-		Can only be used once and requires the max amount of Life Fruits consumed
-		A tangy, tart flavor with a somewhat earthen touch
-		'''
+	Tooltip: Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
 }
 
 ElectrolyteGelPack: {
 	DisplayName: Electrolyte Gel Pack
-	Tooltip:
-		'''
-		Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
-		Revengeance drop
-		'''
+	Tooltip: Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
 }
 
 EtherealCore: {
@@ -142,11 +189,7 @@ EtherealCore: {
 
 InfernalBlood: {
 	DisplayName: Infernal Blood
-	Tooltip:
-		'''
-		Permanently increases the duration of Rage Mode by 1 second
-		Revengeance drop
-		'''
+	Tooltip: Permanently increases the duration of Rage Mode by 1 second
 }
 
 MiracleFruit: {
@@ -161,11 +204,7 @@ MiracleFruit: {
 
 MushroomPlasmaRoot: {
 	DisplayName: Mushroom Plasma Root
-	Tooltip:
-		'''
-		Permanently increases the duration of Rage Mode by 1 second
-		Revengeance drop
-		'''
+	Tooltip: Permanently increases the duration of Rage Mode by 1 second
 }
 
 PhantomHeart: {
@@ -179,19 +218,41 @@ PhantomHeart: {
 
 RedLightningContainer: {
 	DisplayName: Red Lightning Container
+	Tooltip: Permanently increases the duration of Rage Mode by 1 second
+}
+
+SacredStrawberry: {
+	DisplayName: Sacred Strawberry
 	Tooltip:
 		'''
-		Permanently increases the duration of Rage Mode by 1 second
-		Revengeance drop
+		Permanently increases maximum life by {0}
+		Can only be used once and requires the max amount of Life Fruits consumed
+		Though somewhat bland, what taste can be described is unlike any other experienced
+		'''
+}
+
+SanguineTangerine: {
+	DisplayName: Sanguine Tangerine
+	Tooltip:
+		'''
+		Permanently increases maximum life by {0}
+		Can only be used once and requires the max amount of Life Fruits consumed
+		It has a distinctly sweet flavor and a strong aroma
 		'''
 }
 
 StarlightFuelCell: {
 	DisplayName: Starlight Fuel Cell
+	Tooltip: Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
+}
+
+TaintedCloudberry: {
+	DisplayName: Tainted Cloudberry
 	Tooltip:
 		'''
-		Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
-		Revengeance drop
+		Permanently increases maximum life by {0}
+		Can only be used once and requires the max amount of Life Fruits consumed
+		A tangy, tart flavor with a somewhat earthen touch
 		'''
 }
 
@@ -260,6 +321,12 @@ VoodooDemonVoodooDoll: {
 }
 
 // Uncategorized
+ExhumeShortTooltip:
+	'''
+	[c/C61B40:'Ah, are you curious what I saw within this item?']
+	[c/BABABA:Press "Left Shift" to listen]
+	'''
+
 AlicornonaStick: {
 	DisplayName: Alicorn on a Stick
 	Tooltip: "'Congratulations, you're winner! Here's my head on a stick.'"
@@ -345,5 +412,15 @@ SuperDummy: {
 		Regenerates 1 million life per second
 		Will not die when taking damage over time from debuffs
 		Right click to kill all super dummies
+		'''
+}
+
+NimbleBounder: {
+	DisplayName: Nimble Bounder
+	Tooltip:
+		'''
+		Permanently increases movement and jump speed by 5%
+		Permanently increases acceleration by 10%
+		[c/842593:'Might be useful for speedrunning']
 		'''
 }

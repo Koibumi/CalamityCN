@@ -17,6 +17,7 @@ LoreAbyss: {
 		Her great roots continue to thrash and tear at the impossibly dense stone, growing uncontrollably.
 		She will soon remake it in her image. I can think of no worse fate for this accursed, hadal domain.
 		'''
+	Tooltip: ""
 }
 
 LoreAquaticScourge: {
@@ -29,6 +30,7 @@ LoreAquaticScourge: {
 		What a stark contrast to the rest of the ecosystem. Nearly every other creature in the Sulphur Sea is hostile.
 		A shame that its last bastion of tranquility has fallen.
 		'''
+	Tooltip: ""
 }
 
 LoreArchmage: {
@@ -42,6 +44,7 @@ LoreArchmage: {
 		As my crusade evolved and my ambitions grew, he expressed vehement disapproval.
 		Where justice was once seen, tyranny had blinded it. He departed along with the Witch not long after. 
 		'''
+	Tooltip: ""
 }
 
 LoreAstralInfection: {
@@ -57,6 +60,7 @@ LoreAstralInfection: {
 		Those whose minds can grasp the true form of the universe are largely immune.
 		They cannot be starstruck by a supposed higher truth, let alone one preached by a pustule.
 		'''
+	Tooltip: ""
 }
 
 LoreAstrumAureus: {
@@ -70,6 +74,7 @@ LoreAstrumAureus: {
 		However… even the finest silicon is not beyond its reach. Draedon prefers his creations to serve after all.
 		With this experiment concluded, he will certainly be examining you next. Watch yourself.
 		'''
+	Tooltip: ""
 }
 
 LoreAstrumDeus: {
@@ -83,6 +88,7 @@ LoreAstrumDeus: {
 		Thankfully, such a grandiose being that walks amongst the stars is likely not truly dead.
 		While the land has paid a terrible price, the price of a wrongful conviction is higher still.
 		'''
+	Tooltip: ""
 }
 
 LoreAwakening: {
@@ -95,6 +101,7 @@ LoreAwakening: {
 		Look upon my works, as they are… Ruined. None would dare seek me out; tread my path.
 		Naught awaits them in this cruel world.
 		'''
+	Tooltip: ""
 }
 
 LoreAzafure: {
@@ -107,6 +114,7 @@ LoreAzafure: {
 		It pains me to say this even in hindsight, but their own artisanry paved the downfall of the entire city.
 		For the Witch and I… the air here will forever be laden with regret. There is nothing to be done.
 		'''
+	Tooltip: ""
 }
 
 LoreBloodMoon: {
@@ -119,6 +127,7 @@ LoreBloodMoon: {
 		Those with fire in their veins may strike out on their own, to revel in the slaughter.
 		That is how I remember the sleepless nights from my younger days… Knee deep in corpses.
 		'''
+	Tooltip: ""
 }
 
 LoreBrainofCthulhu: {
@@ -130,6 +139,7 @@ LoreBrainofCthulhu: {
 		My decimation of the falsely divine left many old horrors unconstrained, with new ones birthed every year.
 		Now, they are your stepping stones.
 		'''
+	Tooltip: ""
 }
 
 LoreBrimstoneElemental: {
@@ -145,6 +155,7 @@ LoreBrimstoneElemental: {
 		They fought to a standstill, fire against fire.
 		Neither were victorious, with the city razed by flames despite her intentions.
 		'''
+	Tooltip: ""
 }
 
 LoreCalamitas: {
@@ -163,6 +174,7 @@ LoreCalamitas: {
 		The weight of her deeds haunts her to this day. She despises me, and I cannot blame her.
 		Please, if you would... show her respect where I did not.
 		'''
+	Tooltip: ""
 }
 
 LoreCalamitasClone: {
@@ -175,6 +187,7 @@ LoreCalamitasClone: {
 		Surely Calamitas would want nothing to do with such a project.
 		I know not how it wields her brimstone magic. Perhaps some day one of us may find answers.
 		'''
+	Tooltip: ""
 }
 
 LoreCeaselessVoid: {
@@ -190,6 +203,7 @@ LoreCeaselessVoid: {
 		Its eerie persistence gnawed at my mind. It did not just threaten me. It threatened everyone. Everything.
 		Even when faced with blatant lies and harrowing danger, I simply walked away and did not return….
 		'''
+	Tooltip: ""
 }
 
 LoreCorruption: {
@@ -200,6 +214,7 @@ LoreCorruption: {
 		Having slain my first Gods, I turned a blind eye as corrupt essence gushed from their rent forms and burrowed into the bowels of Terraria.
 		The mere existence of this putrid place proves that the Gods of old were beyond redemption.
 		'''
+	Tooltip: ""
 }
 
 LoreCrabulon: {
@@ -210,6 +225,7 @@ LoreCrabulon: {
 		These mushrooms possess a disturbing amount of tenacity. Nothing that lays down to die in their domain is left to rest.
 		It is this sort of ghastly, forceful exertion of control over the unwilling that led me down my path.
 		'''
+	Tooltip: ""
 }
 
 LoreCrimson: {
@@ -220,6 +236,7 @@ LoreCrimson: {
 		The essence of a God does not simply vanish when the body dies. It must be properly disposed of or destroyed entirely.
 		Essence of a pious God could never fester into a mire as dreadful as this.
 		'''
+	Tooltip: ""
 }
 
 LoreCynosure: {
@@ -236,6 +253,7 @@ LoreCynosure: {
 		When you are prepared: seek the grave of the Light, at the summit of the Dragon Aerie.
 		I await your challenge.
 		'''
+	Tooltip: ""
 }
 
 LoreDesertScourge: {
@@ -246,6 +264,7 @@ LoreDesertScourge: {
 		After Ilmeris was incinerated, it became familiar with the hunt. To survive, it quickly learned to seek greater prey.
 		Unfortunately for the scourge, it seems that it too was prey in the end. After all, there is always a bigger fish in the sea.
 		'''
+	Tooltip: ""
 }
 
 LoreDestroyer: {
@@ -259,6 +278,7 @@ LoreDestroyer: {
 		Draedon understood well and granted them these massive forms. Bristling with weaponry and interlocked armor forged of blessed metal.
 		While in truth it was repurposed mining equipment, their sheer presence on the battlefield was immense.
 		'''
+	Tooltip: ""
 }
 
 LoreDevourerofGods: {
@@ -275,6 +295,7 @@ LoreDevourerofGods: {
 		The Devourer's alien capabilities and domineering tactics hint that his allegiance lay elsewhere.
 		Is he but one soldier, a mere pawn of a malevolence far beyond…?
 		'''
+	Tooltip: ""
 }
 
 LoreDragonfolly: {
@@ -289,6 +310,7 @@ LoreDragonfolly: {
 		It is known that Fishrons, Follies, and the Abyssal Wyrms survived the purging hunts of the Deific Era.
 		Notably, they now are all reclusive or exceedingly violent. It is tragic how they evolved to be that way.
 		'''
+	Tooltip: ""
 }
 
 LoreDukeFishron: {
@@ -301,6 +323,7 @@ LoreDukeFishron: {
 		While there are many such tales of creatures hailing from draconic descent, this case is factual.
 		Genetic heritage or not: the Fishrons lack Dragonblood and Auric souls. I would well know.
 		'''
+	Tooltip: ""
 }
 
 LoreEaterofWorlds: {
@@ -312,6 +335,7 @@ LoreEaterofWorlds: {
 		One will not need to search long for examples. We are all surrounded by rampant superstition and assumption.
 		I myself have been subjected to a litany of baseless boasts and accusations in my time.
 		'''
+	Tooltip: ""
 }
 
 LoreEmpressofLight: {
@@ -325,6 +349,7 @@ LoreEmpressofLight: {
 		It made her sickeningly obedient. Dependent, but willingly so as they enabled her to slake her base thirst.
 		I had deigned to slay her myself for her treachery, but she was a notoriously evasive mark.
 		'''
+	Tooltip: ""
 }
 
 LoreExoMechs: {
@@ -341,6 +366,7 @@ LoreExoMechs: {
 		Were he to lose his temper: if he even has one, all of life's hopes would be smothered in an instant, silenced by a torrent of silicon.
 		Though, perhaps you may leverage his unimaginable craft to your advantage, and seek insight from him.
 		'''
+	Tooltip: ""
 }
 
 LoreEyeofCthulhu: {
@@ -351,6 +377,7 @@ LoreEyeofCthulhu: {
 		Now they run rampant, spawning from vile influences left unchecked. They blend well with the horrific injustice of their forebears.
 		Slaying one merely paves the way for a dozen more. Surely this does not concern you, either.
 		'''
+	Tooltip: ""
 }
 
 LoreGolem: {
@@ -364,6 +391,7 @@ LoreGolem: {
 		While I believe this insignificant construct deserves no mention, the Lihzahrds revere it unflinchingly.
 		I see no need to intervene in affairs beneath me and my people.
 		'''
+	Tooltip: ""
 }
 
 LoreHiveMind: {
@@ -375,6 +403,7 @@ LoreHiveMind: {
 		Fortunately for us, the futility of this effort is unmatched. The biomass obeys; even though nothing is accomplished. 
 		Divine power is known to be rooted in faith. Gods are forged of their own strength, and the mindless spread of corruption is its own foul reverence.
 		'''
+	Tooltip: ""
 }
 
 LoreKingSlime: {
@@ -385,6 +414,7 @@ LoreKingSlime: {
 		There is little need to worry about this. Naturally, slimes are nearly mindless and amass only by chance.
 		Though it appears they are capable of absorbing knowledge, if only in rudimentary form.
 		'''
+	Tooltip: ""
 }
 
 LoreLeviathanAnahita: {
@@ -398,6 +428,7 @@ LoreLeviathanAnahita: {
 		Regardless of what you believe, they are inseparable even in death.
 		Such stalwart loyalty! It reminds me of Yharon.
 		'''
+	Tooltip: ""
 }
 
 LoreMechs: {
@@ -411,6 +442,7 @@ LoreMechs: {
 		I dismissed them from duty, yet they linger here still. Scouring the land for evidence of the divine.
 		Unfortunately for you that puts you in their crosshairs. Give them a battle worth dying in.
 		'''
+	Tooltip: ""
 }
 
 LoreOldDuke: {
@@ -424,6 +456,7 @@ LoreOldDuke: {
 		This particular Duke's guile is self-evident: It evaded centuries of hunting, and until now had survived a most thorough poisoning.
 		Above almost all others, this creature was a living fable. One must wonder what goes through the mind of a fading legend….
 		'''
+	Tooltip: ""
 }
 
 LorePerforators: {
@@ -433,8 +466,9 @@ LorePerforators: {
 		These creatures were unique. They wielded the slain Gods' power as purely as possible, veins flowing with spilt ichor. 
 		All that exists in the Crimson is truly the divine turned inside out; their gore now glistens with perverse treachery for all to bear witness.
 		The mire reeks of centuries of vile manipulation and callous domination of the hapless. 
-		Judgment has long passed and only extinction is left waiting.
+		Judgement has long passed and only extinction is left waiting.
 		'''
+	Tooltip: ""
 }
 
 LorePlaguebringerGoliath: {
@@ -449,6 +483,7 @@ LorePlaguebringerGoliath: {
 		In my later days I was far from virtuous. But I would never shackle a creature to fight in my name.
 		That would make me no better than the divine scoundrels I pursued.
 		'''
+	Tooltip: ""
 }
 
 LorePlantera: {
@@ -463,6 +498,7 @@ LorePlantera: {
 		Now that you have slain it, more disorderly spiritual energies are flooding the lands.
 		The village's ignorance was shameful in its own right, but this is worse still.
 		'''
+	Tooltip: ""
 }
 
 LorePolterghast: {
@@ -478,6 +514,7 @@ LorePolterghast: {
 		The dragon cult was furious, their leader demanding I put the haunt down myself.
 		I did not answer. I had long since become deaf to the world outside my crusade. Do not fall as I have.
 		'''
+	Tooltip: ""
 }
 
 LorePrelude: {
@@ -493,6 +530,7 @@ LorePrelude: {
 		Zeratros himself was gravely injured. It seemed his power, along with his life, would be lost forever.
 		One mortal, sworn to the service of the Dragons, rose in determination to save their virtuous King.
 		'''
+	Tooltip: ""
 }
 
 LoreProfanedGuardians: {
@@ -505,6 +543,7 @@ LoreProfanedGuardians: {
 		After all, it was you that finished off the star-spawned horror that catalyzed the downfall of the Dragons.
 		Draw her out from hiding. Have no mercy, for the Profaned Goddess shows none herself.
 		'''
+	Tooltip: ""
 }
 
 LoreProvidence: {
@@ -519,6 +558,7 @@ LoreProvidence: {
 		Those devoted to her were weak-willed, yet she reigned as one of the mightiest Gods.
 		Perhaps it was their easily-swayed nature that let her draw so much power from them….
 		'''
+	Tooltip: ""
 }
 
 LoreQueenBee: {
@@ -530,6 +570,7 @@ LoreQueenBee: {
 		Though its death is understandable given the circumstances, I do feel pity for these majestic beings.
 		Fate was cruel to many of their kind. 
 		'''
+	Tooltip: ""
 }
 
 LoreQueenSlime: {
@@ -541,6 +582,7 @@ LoreQueenSlime: {
 		Or perhaps it was overcome by desperation for survival. 
 		A glorious hunt, a fine foe. Now you know that you must chase them to the ends of Terraria.
 		'''
+	Tooltip: ""
 }
 
 LoreRavager: {
@@ -555,6 +597,7 @@ LoreRavager: {
 		Now caked in fresh blood, it hungered for more, setting off on an aimless rampage.
 		I suppose its brutality serves as a reminder to be careful what you believe.
 		'''
+	Tooltip: ""
 }
 
 LoreRequiem: {
@@ -571,6 +614,7 @@ LoreRequiem: {
 		Wherever your journey may lead, whether you are with me or against…. May fortune favor you.
 		For nothing else will.
 		'''
+	Tooltip: ""
 }
 
 LoreSignus: {
@@ -585,6 +629,7 @@ LoreSignus: {
 		The serpent ensnared both my assailants in a dimensional vortex. Assuring me they were as good as dead.
 		Yet, Statis must have struck a bargain with Signus. He escaped his banishment unscathed.
 		'''
+	Tooltip: ""
 }
 
 LoreSkeletron: {
@@ -596,6 +641,7 @@ LoreSkeletron: {
 		The very walls of that place are cursed further still. The magic has long since faded as the soldiers rotted within.
 		Do not expect to learn much from those tarnished tomes. They were penned with misguided zeal. 
 		'''
+	Tooltip: ""
 }
 
 LoreSkeletronPrime: {
@@ -608,6 +654,7 @@ LoreSkeletronPrime: {
 		Leveling places of worship and torching those falsely devout, their expertise lay in unmaking faith with flame.
 		Draedon understood this well. For them he crafted a visage so grim, it evoked oblivion itself.
 		'''
+	Tooltip: ""
 }
 
 LoreSlimeGod: {
@@ -620,6 +667,7 @@ LoreSlimeGod: {
 		Alas, the Slime god is wise enough to be cowardly. Fleeing battles it cannot win when its servants are vanquished. 
 		Perhaps fortune will aid you if you catch it unaware.
 		'''
+	Tooltip: ""
 }
 
 LoreStormWeaver: {
@@ -634,6 +682,7 @@ LoreStormWeaver: {
 		In his mind, the lesser serpent's similar powers could lead it to be too threatening for him to let live.
 		Little does he know, he has forever stood in a similar position. He thinks himself invincible after all.
 		'''
+	Tooltip: ""
 }
 
 LoreSulphurSea: {
@@ -646,6 +695,7 @@ LoreSulphurSea: {
 		Long considered uninhabitable, its further deterioration led Draedon to designate it as a dumping ground.
 		Years of careless waste disposal has now left the coast's transformation irreversible.
 		'''
+	Tooltip: ""
 }
 
 LoreTwins: {
@@ -659,6 +709,7 @@ LoreTwins: {
 		His assistance was infallible, his calculus cold and cruel.
 		Not even the most evasive target stood a chance.
 		'''
+	Tooltip: ""
 }
 
 LoreUnderworld: {
@@ -671,6 +722,7 @@ LoreUnderworld: {
 		Yet despite being surrounded by magma, Azafure simply burned when their wishes were not met.
 		Such is the unfortunate price of war, though I have no regrets fighting for my people.
 		'''
+	Tooltip: ""
 }
 
 LoreWallofFlesh: {
@@ -684,6 +736,7 @@ LoreWallofFlesh: {
 		My methods have since evolved. I need not contain such essences, when they can be devoured.
 		May you channel my valor in combating the resulting outpour of energies.
 		'''
+	Tooltip: ""
 }
 
 LoreYharon: {
@@ -705,4 +758,5 @@ LoreYharon: {
 		Now, that hope is long withered. I am but a husk of the hero I once was, and this is the ultimate proof.
 		Yharon may yet return, as he does, but he… he has bade me farewell.
 		'''
+	Tooltip: ""
 }

@@ -15,9 +15,12 @@ FlameBurstHostile.DisplayName: Burst
 GammaAcid.DisplayName: Acid
 GammaBeam.DisplayName: Gamma Ray
 GammaRayBurst.DisplayName: G-FUEL BEAM
+HorsPoisonBlast.DisplayName: Poisonous Spit
 HorsWaterBlast.DisplayName: Water
+IceClasperEnemyProjectile.DisplayName: Ice Shard
 InkBombHostile.DisplayName: Ink Bomb
 InkPoisonCloud.DisplayName: Ink Cloud
+JellyghoulBolt.DisplayName: Jellyghoul Bolt
 LightningCloud.DisplayName: Cloud
 MantisRing.DisplayName: Mantis Ring
 MaulerAcidBubble.DisplayName: Acid Bubble
@@ -29,10 +32,10 @@ OrthoceraStream.DisplayName: Acid Stream
 PearlBurst.DisplayName: Pearl Burst
 PearlRain.DisplayName: Pearl Rain
 PufferExplosion.DisplayName: Explosion
+SharkoonExplosion.DisplayName: Sharkoon Explosion
 StormMarkHostile.DisplayName: Mark
 SulphuricAcidBubble.DisplayName: Acid Bubble
 SulphuricAcidMist.DisplayName: Acid Mist
 TornadoHostile.DisplayName: Tornado
 ToxicMinnowCloud.DisplayName: Toxic Cloud
 TrilobiteSpike.DisplayName: Spike
-IceClasperEnemyProjectile.DisplayName: Ice Shard

@@ -99,7 +99,7 @@ BloodflareHeadMagic: {
 	SetBonus:
 		'''
 		Magic weapons fire ghostly bolts every 1.67 seconds
-		Magic critical strikes cause flame explosions every 2 seconds
+		Magic critical strikes cause blood explosions every 2 seconds
 		'''
 }
 
@@ -311,8 +311,7 @@ GodSlayerChestplate: {
 		'''
 	CommonSetBonus:
 		'''
-		Allows you to dash for an immense distance in 8 directions
-		Press {0} while holding down the movement keys in the direction you want to dash
+		Pressing {0} allows you to dash towards your cursor for 2.5 seconds
 		Enemies you dash through take massive damage
 		During the dash you are immune to most debuffs
 		The dash has a {1} second cooldown
@@ -452,8 +451,8 @@ SilvaArmor: {
 		'''
 		All projectiles spawn healing leaf orbs on enemy hits
 		Max run speed and acceleration boosted by 5%
-		If you are reduced to 1 HP you will not die from any further damage for 8 seconds
-		This effect has a 5 minute cooldown. The cooldown does not decrement if any bosses or events are active.
+		Taking fatal damage will revive you and make you invulnerable to all damage for 5 seconds
+		This effect has a 5 minute cooldown, which does not decrement if any bosses or events are active
 		'''
 }
 

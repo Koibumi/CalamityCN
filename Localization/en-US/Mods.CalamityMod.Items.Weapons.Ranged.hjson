@@ -10,6 +10,11 @@ AcesHigh: {
 		'''
 }
 
+AcidwoodBow: {
+	DisplayName: Acidwood Bow
+	Tooltip: ""
+}
+
 AdamantiteParticleAccelerator: {
 	DisplayName: Adamantite Particle Accelerator
 	Tooltip: Charges and fires 2 beams of opposite polarities. Hitting with the opposite polarity increases the damage
@@ -80,6 +85,16 @@ Archerfish: {
 	Tooltip: Converts musket balls into streams of water
 }
 
+ArcNovaDiffuser: {
+	DisplayName: Arc Nova Diffuser
+	Tooltip:
+		'''
+		Charges and fires a rapid burst of nova bolts
+		The first charging stage increases the fire rate of the burst
+		The second charging stage replaces the rapid burst with a devastating nova blast
+		'''
+}
+
 Arietes41: {
 	DisplayName: Arietes 41
 	Tooltip:
@@ -148,7 +163,7 @@ Barinautical: {
 
 BarracudaGun: {
 	DisplayName: Barracuda Gun
-	Tooltip: Fires two barracudas that latch onto enemies and shred them
+	Tooltip: Fires four barracudas that latch onto enemies and shred them
 }
 
 BladedgeRailbow: {
@@ -211,21 +226,29 @@ BulletFilledShotgun: {
 		'''
 }
 
-Butcher: {
-	DisplayName: Butcher
+Buzzkill: {
+	DisplayName: Buzzkill
 	Tooltip:
 		'''
-		Fires bullets faster and more accurately the longer you hold the trigger
-		25% chance to save ammo
+		Hold <left> to rev up a buzzsaw that deals close-range damage
+		Release to fire the buzzsaw, which bounces off tiles and lacerates foes
+		Revving up the saws increases their damage and allows them to pierce more enemies
+		'Not to be confused with the Sawed-On Shotgun'
 		'''
 }
 
 ChickenCannon: {
 	DisplayName: Chicken Cannon
+	Tooltip: Fires chicken flares which create enormous incendiary explosions
+}
+
+ChromaticEruption: {
+	DisplayName: Chromatic Eruption
 	Tooltip:
 		'''
-		Fires chicken flares which create enormous incendiary explosions
-		Press <right> to detonate all airborne rockets
+		Charges up to spew rainbow flames and pairs of homing chromatic flares
+		Uses gel for ammo
+		70% chance to save ammo
 		'''
 }
 
@@ -302,15 +325,6 @@ ContinentalGreatbow: {
 		Wooden arrows are set alight with fire
 		Fires 3 arrows at once
 		Fires 2 additional hellfire or ichor arrows
-		'''
-}
-
-CoralCannon: {
-	DisplayName: Coral Cannon
-	Tooltip:
-		'''
-		Has a 20% chance to shoot a big coral that stuns enemies
-		Does not consume ammo
 		'''
 }
 
@@ -433,23 +447,9 @@ Drataliornus: {
 		'''
 }
 
-ElementalBlaster: {
-	DisplayName: Elemental Blaster
-	Tooltip:
-		'''
-		Fires a storm of rainbow blasts
-		Does not consume ammo
-		'''
-}
-
-ElementalEruption: {
-	DisplayName: Elemental Eruption
-	Tooltip:
-		'''
-		Charges up to spew rainbow flames and pairs of homing elemental flares
-		Uses gel for ammo
-		70% chance to save ammo
-		'''
+DriftwoodBow: {
+	DisplayName: Driftwood Bow
+	Tooltip: This bow is stronger while you are wet
 }
 
 EternalBlizzard: {
@@ -466,8 +466,10 @@ FetidEmesis: {
 	DisplayName: Fetid Emesis
 	Tooltip:
 		'''
-		Has a chance to release rotten chunks instead of bullets
-		40% chance to save ammo
+		Fires an accelerating stream of bullets until the barrel overheats
+		When the barrel overheats, a spread of fetid chunks is vomited out
+		After firing, the gun must cool back down before it can be used again
+		75% chance to save ammo
 		'''
 }
 
@@ -611,11 +613,11 @@ Hellborn: {
 	DisplayName: Hellborn
 	Tooltip:
 		'''
-		Fires a spread of 3 bullets
-		Enemies that touch the gun while it's being fired trigger a massive explosion
-		After the explosion, this gun gains a massive boost to damage, fire rate and knockback for 10 seconds
-		These stat bonuses slowly decay over time
-		Converts musket balls into explosive bullets
+		An ornate firearm created during the Draconic Era by Azafure's finest forgemaster
+		Hold <left> to twirl the gun in your hand, rapidly hitting nearby enemies
+		Hits with the gun itself add rounds to the gun, up to a max of 8
+		At the cost of one round, hold <right> to fire a giant energy sphere with potent recoil
+		[c/E1B65F:'Know the grace of a gun forged through beauteous inspiration']
 		'''
 }
 
@@ -664,6 +666,18 @@ Karasawa: {
 	Tooltip: ...This is heavy... too heavy
 }
 
+Kingsbane: {
+	DisplayName: Kingsbane
+	Tooltip:
+		'''
+		After revving up, rapidly fire bullets
+		When you stop firing you will release a barrage of auric bullets
+		Auric bullets aggressively home in on enemies and ignore 50 points of defense
+		Constantly consumes ammo while in use
+		90% chance to save ammo
+		'''
+}
+
 Leviatitan: {
 	DisplayName: Leviatitan
 	Tooltip: Converts musket balls into toxic and normal water blasts
@@ -675,16 +689,6 @@ LunarianBow: {
 		'''
 		Fires two arrows at once
 		Converts wooden arrows into sliding energy bolts
-		'''
-}
-
-ArcNovaDiffuser: {
-	DisplayName: Arc Nova Diffuser
-	Tooltip:
-		'''
-		Charges and fires a rapid burst of nova bolts
-		The first charging stage increases the fire rate of the burst
-		The second charging stage replaces the rapid burst with a devastating nova blast
 		'''
 }
 
@@ -771,18 +775,6 @@ MineralMortar: {
 		'''
 }
 
-Kingsbane: {
-	DisplayName: Kingsbane
-	Tooltip:
-		'''
-		After revving up, rapidly fire bullets
-		When you stop firing you will release a barrage of auric bullets
-		Auric bullets aggressively home in on enemies and ignore 50 points of defense
-		Constantly consumes ammo while in use
-		90% chance to save ammo
-		'''
-}
-
 MolecularManipulator: {
 	DisplayName: Molecular Manipulator
 	Tooltip:
@@ -790,6 +782,11 @@ MolecularManipulator: {
 		Fires a fast null bullet that distorts NPC stats
 		'Is it nullable or not? Let's find out!'
 		'''
+}
+
+MonolithBow: {
+	DisplayName: Monolith Bow
+	Tooltip: ""
 }
 
 Monsoon: {
@@ -903,15 +900,6 @@ PestilentDefiler: {
 	Tooltip: Converts musket balls into plague rounds that explode and split apart on hit
 }
 
-Phangasm: {
-	DisplayName: Phangasm
-	Tooltip:
-		'''
-		Fires a spread of 5 arrows and emits phantom arrows on enemy hits
-		66% chance to save ammo
-		'''
-}
-
 Photoviscerator: {
 	DisplayName: Photoviscerator
 	Tooltip:
@@ -1009,6 +997,15 @@ ReedBlowgun: {
 		'''
 }
 
+Riftburst: {
+	DisplayName: Riftburst
+	Tooltip:
+		'''
+		Fires a spread of 5 arrows and emits phantom arrows on enemy hits
+		66% chance to save ammo
+		'''
+}
+
 RubicoPrime: {
 	DisplayName: Rubico Prime
 	Tooltip:
@@ -1018,8 +1015,8 @@ RubicoPrime: {
 		'''
 }
 
-SandstormGun: {
-	DisplayName: Sandstorm
+Sandblaster: {
+	DisplayName: Sandblaster
 	Tooltip:
 		'''
 		Fires sand bullets that explode and slow enemies on hit
@@ -1081,8 +1078,12 @@ SepticSkewer: {
 	DisplayName: Septic Skewer
 	Tooltip:
 		'''
-		Launches a spiky harpoon infested with toxins
-		Releases bacteria when returning to the player
+		Launches a vile chained harpoon infested with toxins
+		Harpoons stick into enemies and inflict Sulphuric Poisoning for a long time
+		After being impaled for one second, harpoons rip themselves back out and spray damaging gores
+		Press <right> to manually rip out all harpoons, dealing bonus damage
+		Enemies close to death are dragged back with returning harpoons and executed when they reach you
+		Executions heal you for 25 health and launch an additional harpoon automatically
 		'''
 }
 
@@ -1160,9 +1161,10 @@ SpeedBlaster: {
 	Tooltip:
 		'''
 		Rapidly fires phosphorescent paintball shots
-		Press <right> to eject a powerful glob which propels you while moving
-		This ability has a cooldown of {0} seconds
-		While under cooldown, you fire more rapidly with greater accuracy
+		Press <right> to eject a powerful paint stream of a different color
+		Using this ability rapidly propels you in the direction you are moving
+		This ability has a {0} second cooldown
+		During this cooldown, you fire more rapidly with greater accuracy
 		'''
 }
 
@@ -1227,6 +1229,31 @@ StormSurge: {
 SulphuricAcidCannon: {
 	DisplayName: Sulphuric Acid Cannon
 	Tooltip: Fires an acidic shot that sticks to enemies and dissolves them
+}
+
+SuperradiantSlaughterer: {
+	DisplayName: Superradiant Slaughterer
+	Tooltip:
+		'''
+		[MAIN]
+		[ALT]
+		[c/ad1717:'No one knows how it turns blood into rainbows...']
+		'''
+	MainInfo:
+		'''
+		Hold <left> to rev up an elemental buzzsaw that deals close-range damage
+		Release <left> to fire the buzzsaw to pierce through and lacerate foes
+		Fired buzzsaws bounce off tiles and return to the player after winding down
+		When returning, the saws release extra homing bolts depending on the number of enemy and tile hits
+		Revving up the saws increases their damage and allows them to pierce more enemies
+		'''
+	AltInfo:
+		'''
+		Press <right> to eject a lingering buzzsaw towards the cursor that fires homing bolts
+		Using this ability rapidly propels you in the direction you are moving
+		This ability has a {0} second cooldown
+		During this cooldown, buzzsaws home to the cursor and constantly release homing bolts while returning
+		'''
 }
 
 SurgeDriver: {
@@ -1303,6 +1330,7 @@ TheSevensStriker: {
 		'A gun given to a great gunslinger
 		Forged by the arms of a man given no name'
 		'''
+	HoldShiftTooltip: "[c/ADD8E6:'LET'S GO GAMBLING!']"
 }
 
 TheStorm: {

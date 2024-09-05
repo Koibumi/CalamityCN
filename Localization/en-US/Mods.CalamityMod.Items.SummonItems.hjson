@@ -40,6 +40,15 @@ BloodyWormFood: {
 		'''
 }
 
+CausticTear: {
+	DisplayName: Caustic Tear
+	Tooltip:
+		'''
+		Causes an acidic downpour in the Sulphurous Sea
+		Not consumable
+		'''
+}
+
 CeremonialUrn: {
 	DisplayName: Ceremonial Urn
 	Tooltip:
@@ -151,13 +160,23 @@ EyeofDesolation: {
 	GFBInfo: Creates a square arena of blocks, with you at its center
 }
 
-CausticTear: {
-	DisplayName: Caustic Tear
+MarkofProvidence: {
+	DisplayName: Mark of Providence
 	Tooltip:
 		'''
-		Causes an acidic downpour in the Sulphurous Sea
+		An ornate sigil of the Profaned Flame
+		Hatred yet burns upon its brow
+		[SPAWN]
 		Not consumable
 		'''
+	SpawnInfo: Such power attracts otherworldly beings
+	SpawnVoid:
+		'''
+		Summons the Ceaseless Void
+		Enrages on the surface
+		'''
+	SpawnSignus: Summons Signus, Envoy of the Devourer
+	SpawnWeaver: Summons the Storm Weaver
 }
 
 MartianDistressRemote: {
@@ -240,25 +259,6 @@ ProfanedShard: {
 		Enrages when fought during nighttime
 		'''
 	SpawnRemix: Summons the Profaned Guardians when used in the Hallow or Underworld
-}
-
-RuneofKos: {
-	DisplayName: Rune of Kos
-	Tooltip:
-		'''
-		An ornate sigil of the Profaned Flame
-		Hatred yet burns upon its brow
-		[SPAWN]
-		Not consumable
-		'''
-	SpawnInfo: Such power attracts otherworldly beings
-	SpawnVoid:
-		'''
-		Summons the Ceaseless Void
-		Enrages on the surface
-		'''
-	SpawnSignus: Summons Signus, Envoy of the Devourer
-	SpawnWeaver: Summons the Storm Weaver
 }
 
 SandstormsCore: {

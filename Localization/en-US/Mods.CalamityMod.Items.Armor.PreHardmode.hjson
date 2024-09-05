@@ -96,7 +96,7 @@ MarniteArchitectHeadgear: {
 
 MarniteArchitectToga: {
 	DisplayName: Marnite Architect Toga
-	Tooltip: Increases tile placement speed by 50%
+	Tooltip: Increases block & wall placement speed by 50%
 }
 
 SnowRuffianChestplate: {

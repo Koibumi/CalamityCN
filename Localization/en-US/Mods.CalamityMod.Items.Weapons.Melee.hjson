@@ -17,6 +17,11 @@ AbyssBlade: {
 		'''
 }
 
+AcidwoodSword: {
+	DisplayName: Acidwood Sword
+	Tooltip: ""
+}
+
 AegisBlade: {
 	DisplayName: Aegis Blade
 	Tooltip:
@@ -159,7 +164,12 @@ BalefulHarvester: {
 
 BallOFugu: {
 	DisplayName: Ball O' Fugu
-	Tooltip: Throws a fish that spews homing spikes
+	Tooltip:
+		'''
+		Throws a flailing abyssal pufferfish
+		Builds up poisonous spikes as it spins
+		Spikes blow out of the fish as it retracts
+		'''
 }
 
 BansheeHook: {
@@ -169,7 +179,11 @@ BansheeHook: {
 
 Basher: {
 	DisplayName: Basher
-	Tooltip: Swings a rotten club that poisons and irradiates enemies on hit
+	Tooltip:
+		'''
+		Swings a rotten club that poisons and irradiates enemies on hit
+		Holding <right> while swinging will increase the club's damage, but will also knock you back on hit
+		'''
 }
 
 BladecrestOathsword: {
@@ -395,16 +409,19 @@ DragonRage: {
 		'''
 }
 
+DriftwoodSword: {
+	DisplayName: Driftwood Sword
+	Tooltip: This sword is stronger while you are wet
+}
+
 Earth: {
 	DisplayName: Earth
 	Tooltip:
 		'''
-		Lowers enemy defense by 1 with every strike
-		Your attacks will heal you a lot
-		Rains RGB meteors that explode into more meteors after a short time on enemy hits
-		Ice meteors freeze enemies
-		Flame meteors explode
-		Green meteors spawn healing orbs
+		A beautiful prismatic blade with unrivaled close combat proficiency
+		Heals you greatly on hit
+		Every other swing will summon three Gaia meteors to fall upon nearby enemies
+		'All its spawn shall know the beauty and wrath of their creator'
 		'''
 }
 
@@ -417,20 +434,6 @@ EarthenPike: {
 		'''
 }
 
-ElementalLance: {
-	DisplayName: Elemental Lance
-	Tooltip:
-		'''
-		Fires a lance beam that splits multiple times as it travels
-		'Rend the cosmos asunder!'
-		'''
-}
-
-ElementalShiv: {
-	DisplayName: Elemental Shiv
-	Tooltip: Shoots a rainbow shiv that spawns additional shivs on hit
-}
-
 EmpyreanKnives: {
 	DisplayName: Empyrean Knives
 	Tooltip: Throws a flurry of bouncing knives that can heal the user
@@ -438,17 +441,25 @@ EmpyreanKnives: {
 
 EntropicClaymore: {
 	DisplayName: Entropic Claymore
-	Tooltip: Fires a spread of homing plasma balls
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Fires a spread of living plasma that swims though the air
+		Plasma will track your cursor or enemies near it, prioritizing which is closest
+		The plasma pierces, but will stop tracking after hitting the first enemy
+		'''
+	TooltipGFB:
+		'''
+		Fires a spread of dead tapeworms that swim throuh the air
+		Tapeworms will track your cursor or enemies near it, prioritizing which is closest
+		The tapeworms pierce, but will stop tracking after hitting the first enemy
+		[c/FF0000:'Go my tapeworms, make their balls itch']
+		'''
 }
 
 EssenceFlayer: {
 	DisplayName: Essence Flayer
 	Tooltip: Shoots an essence scythe that generates healing spirits on enemy kills
-}
-
-EutrophicScimitar: {
-	DisplayName: Eutrophic Scimitar
-	Tooltip: Fires two beams that stun enemies
 }
 
 EvilSmasher: {
@@ -624,28 +635,40 @@ GoldplumeSpear: {
 	Tooltip: Shoots falling feathers
 }
 
+GrandDad: {
+	DisplayName: Grand Dad
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		An unfathomably heavy blade that rips through enemies using its sheer mass
+		Heals you on hit
+		Striking weaker enemies will launch them with incredible force
+		Launched enemies take immense damage when colliding with walls and floors
+		Holding <right> while swinging will heavily reduce the damage of the blade and increase its launch damage and velocity
+		[c/00B8DF:'How are you swinging something that has half the mass of a star?']
+		'''
+	TooltipGFB:
+		'''
+		A high quality blade that rips through enemies
+		Striking weaker enemies will yeet them with incredible force, often leaving them Stuck Inside tiles
+		Yeeted enemies will turn to JAM when SLAMMED into walls and floors
+		Holding <right> while swinging will heavily reduce the damage of the blade and increase its yeet damage and velocity, nice >:]
+		[c/00B8DF:'Please read the weapon description.']
+		'''
+}
+
 GrandGuardian: {
 	DisplayName: Grand Guardian
 	Tooltip:
 		'''
-		Lowers enemy defense by 1 with every strike
-		If enemy defense is 0 or below your attacks will heal you
-		Striking enemies causes a large explosion
-		Striking enemies that are under half life will cause them to release rainbow bolts
-		Enemies spawn healing orbs on death
+		An ornate winged blade that easily cuts through enemies
+		Creates cosmic explosions and heals you slightly on hit
 		'''
 }
 
 GreatswordofJudgement: {
 	DisplayName: Greatsword of Judgement
-	Tooltip:
-		'''
-		Fires a white orb that emits white rain from where it dissipates for a time
-		A pale white sword from a forgotten land
-		You can hear faint yet comforting whispers emanating from the blade
-		'No matter where you may be you are never alone
-		I shall always be at your side, my lord'
-		'''
+	Tooltip: Fires a piercing energy wave that releases homing stars as it flies
 }
 
 Greentide: {
@@ -672,10 +695,20 @@ Hellkite: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Summons flame geyser explosions on enemy hits
-		Contains the power of an ancient drake
+		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
+		Swings a slow and heavy blade with powerful knockback
+		Holding <right> will begin charging a strengthened swing
+		Releasing <right> while fully charged will unleash a devastating slash
+		[c/E1B65F:'Feel the strength of a blade forged through passion']
 		'''
-	TooltipGFB: "'My Beloved <3'"
+	TooltipGFB:
+		'''
+		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
+		Swings a slow and heavy blade with powerful knockback
+		Holding <right> while swinging will begin charging a strengthened swing
+		Releasing <right> while fully charged will unleash a devastating slash
+		[c/0C507F:'My beloved <3' -Xyk]
+		'''
 }
 
 HolyCollider: {
@@ -690,7 +723,11 @@ IllustriousKnives: {
 
 InsidiousImpaler: {
 	DisplayName: Insidious Impaler
-	Tooltip: Fires infected harpoons that stick to enemies and explode
+	Tooltip:
+		'''
+		Throws self-propelling radioactive harpoons which chase foes
+		Harpoons ricochet at close range for additional hits
+		'''
 }
 
 IridescentExcalibur: {
@@ -743,8 +780,8 @@ MajesticGuard: {
 	DisplayName: Majestic Guard
 	Tooltip:
 		'''
-		Lowers enemy defense by 1 with every strike
-		If enemy defense is 0 or below your attacks will heal you
+		An intricate blade, heavy enough to crush anything it wouldn't cut
+		Strongly knocks back enemies and heals you slightly on hit
 		'''
 }
 
@@ -752,7 +789,9 @@ MantisClaws: {
 	DisplayName: Mantis Claws
 	Tooltip:
 		'''
-		Explodes on enemy hits
+		Rapidly swing a mantis claw which slashes foes in short range
+		Press <right> to form a pressurized bubble in front of you
+		Once fully formed, the bubble is instantly snapped down on, blasting foes with a water jet
 		'It's just that shrimple'
 		'''
 }
@@ -764,6 +803,11 @@ MirrorBlade: {
 		The amount of contact damage an enemy does is added to this weapons' damage
 		You must hit an enemy with the blade to trigger this effect
 		'''
+}
+
+MonolithSword: {
+	DisplayName: Monolith Sword
+	Tooltip: ""
 }
 
 MonstrousKnives: {
@@ -820,7 +864,7 @@ Oblivion: {
 	DisplayName: Oblivion
 	Tooltip:
 		'''
-		Fires brimstone lasers when enemies are near
+		Fires brimstone darts when enemies are near
 		A very agile yoyo
 		'''
 }
@@ -864,11 +908,10 @@ Orderbringer: {
 	DisplayName: Orderbringer
 	Tooltip:
 		'''
-		Fires a rainbow blade that emits rainbow rain from where it dissipated for a time
-		A pale white sword from a forgotten land
-		You can hear faint yet comforting whispers emanating from the blade
-		'No matter where you may be you are never alone
-		I shall always be at your side, my lord'
+		Fires piercing energy waves and summons four homing stars near your cursor
+		Energy waves deal more damage with each consecutive hit
+		Hits with the blade summon two beams from the sky
+		'No matter where you may be you are never alone'
 		'''
 }
 
@@ -966,7 +1009,7 @@ RemsRevenge: {
 	Tooltip:
 		'''
 		Summons blood explosions and lowers enemy defense on hit
-		Wielded by the most powerful fighter
+		'A deadly morning star befitting its demonic owner'
 		'''
 }
 
@@ -1073,6 +1116,11 @@ SpineOfThanatos: {
 		Once all three collide, a prism of light is shot outward
 		If an enemy is within the line of sight of the whips on collision, the light will fire towards it
 		'''
+}
+
+StarburstShiv: {
+	DisplayName: Starburst Shiv
+	Tooltip: Shoots a rainbow shiv that spawns additional shivs on hit
 }
 
 StarnightLance: {
@@ -1212,11 +1260,11 @@ TheDarkMaster: {
 	DisplayName: The Dark Master
 	Tooltip:
 		'''
-		Fires red echo slash projectiles at full health
-		Projectile damage increases for every point of HP above 400
+		Fires red echo slash projectiles when above 75% health
+		Projectile damage increases for every HP above 400
 		Press <right> to spawn three shadow clones in a Delta formation
 		The clones will mirror your sword swings and release projectiles
-		The clones will always fire projectiles regardless of your own HP
+		Projectiles are fired regardless of your own HP, but deal less damage
 		The clones may only exist while holding this weapon
 		'The blade by which the shadows levy their foes with a terrible fate'
 		'''
@@ -1275,7 +1323,7 @@ TheOracle: {
 	DisplayName: The Oracle
 	Tooltip:
 		'''
-		Emits an aura of red lightning which charges up when hitting enemies
+		Emits an aura of lightning which charges up when hitting enemies
 		Fires auric orbs when supercharged
 		An exceptionally agile yoyo
 		'Gaze into the past, the present, the future... and the circumstances of your inevitable demise'
@@ -1291,9 +1339,15 @@ TitanArm: {
 		'''
 }
 
-TriactisTruePaladinianMageHammerofMightMelee: {
+TriactisTruePaladinianMageHammerofMight: {
 	DisplayName: Triactis' True Paladinian Mage-Hammer of Might
-	Tooltip: Explodes on enemy hits
+	Tooltip:
+		'''
+		Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
+		Enemy hits release prismatic light flares which orbit around the struck foe
+		Instead of returning, the fourth hit transforms flares into hardlight hammers
+		These hammers converge and form a universe-collapsing explosion
+		'''
 }
 
 TrueArkoftheAncients: {
@@ -1342,7 +1396,12 @@ TrueCausticEdge: {
 
 Tumbleweed: {
 	DisplayName: Tumbleweed
-	Tooltip: Releases a rolling tumbleweed on hit
+	Tooltip:
+		'''
+		Throws a tumbleweed flail
+		Spinning tumbleweeds brew a localized dust storm
+		Launched tumbleweeds detach from their chain upon striking an enemy and roll forwards
+		'''
 }
 
 TyphonsGreed: {
@@ -1367,6 +1426,15 @@ UrchinFlail: {
 UrchinMace: {
 	DisplayName: Urchin Mace
 	Tooltip: Throws out a whirlpool when released at full charge
+}
+
+VanishingPoint: {
+	DisplayName: Vanishing Point
+	Tooltip:
+		'''
+		Fires a lance beam that splits multiple times as it travels
+		'Rend the cosmos asunder!'
+		'''
 }
 
 VeinBurster: {

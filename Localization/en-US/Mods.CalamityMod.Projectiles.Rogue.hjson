@@ -14,6 +14,7 @@ AuroradicalSplitter.DisplayName: Auroradical Star
 AuroradicalStar.DisplayName: Auroradical Star
 BallisticPoisonBombProj.DisplayName: Poison Bomb
 BallisticPoisonBombSpike.DisplayName: Poison Spike
+BallisticPoisonCloud.DisplayName: Ballistic Cloud
 BarrelShrapnel.DisplayName: Barrel Shrapnel
 BettyExplosion.DisplayName: Betty Explosion
 BileExplosion.DisplayName: Bile
@@ -75,14 +76,15 @@ DeepWounderWater.DisplayName: Water Droplet
 DesecratedBubble.DisplayName: Desecrated Bubble
 DesecratedWaterProj.DisplayName: Desecrated Water
 DestructionBolt.DisplayName: Destruction Bolt
+DestructionExplosion.DisplayName: Destruction Explosion
 DestructionStar.DisplayName: Star of Destruction
+DragonScalesInfernado.DisplayName: Infernado
 DragonShit.DisplayName: Fire
 DukesDecapitatorBubble.DisplayName: Duke Bubble
 DukesDecapitatorProj.DisplayName: Duke's Decapitator
 DuststormCloud.DisplayName: Dust Cloud
 DuststormCloudHitbox.DisplayName: Duststorm Cloud
 DuststormInABottleProj.DisplayName: Duststorm Bottle
-DragonScalesInfernado.DisplayName: Infernado
 DynamicPursuerElectricity.DisplayName: Dynamic Electricity
 DynamicPursuerLaser.DisplayName: Dynamic Laser
 DynamicPursuerProjectile.DisplayName: Dynamic Pursuer
@@ -309,8 +311,8 @@ TotalityFire.DisplayName: Totality Fire
 TotalityFlask.DisplayName: Totality Flask
 TotalityTar.DisplayName: Totality Tar
 TotalMeltdown.DisplayName: Explosion
-ToxicantTwisterDust.DisplayName: Toxicant Dust
-ToxicantTwisterTwoPointZero.DisplayName: Toxicant Twister
+ToxicantTwisterDust.DisplayName: Toxicant Raindrop
+ToxicantTwisterProj.DisplayName: Toxicant Twister
 TurbulanceProjectile.DisplayName: Turbulance
 TurbulanceWindSlash.DisplayName: Wind Slash
 TwistingThunderProj.DisplayName: Twisting Thunder
@@ -327,3 +329,5 @@ WrathwingCinder.DisplayName: Wrathwing Eruption
 WrathwingFireball.DisplayName: Wrathwing Fireball
 WrathwingSpear.DisplayName: Wrathwing
 WulfrumKnifeProj.DisplayName: Wulfrum Knife
+RadiationBurst.DisplayName: Radiation Burst
+RadiationRain.DisplayName: Radiation Rain

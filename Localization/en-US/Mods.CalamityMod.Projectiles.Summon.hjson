@@ -47,8 +47,8 @@ BrimstoneFireballMinion.DisplayName: Brimstone Fireball
 BrimstoneFireSummon.DisplayName: Brimstone Fire
 BrimstoneLaserSummon.DisplayName: Brimstone Laser
 BrittleStarMinion.DisplayName: Brittle Star
-CalamarisLamentProjectile.DisplayName: Calamari Ink
 CalamarisLamentMinion.DisplayName: Calamari
+CalamarisLamentProjectile.DisplayName: Calamari Ink
 Calamitamini.DisplayName: Calamitamini
 Cataclymini.DisplayName: Cataclymini
 CataclysmSummon.DisplayName: Cataclysm
@@ -56,6 +56,7 @@ Catastromini.DisplayName: Catastromini
 CatastropheSummon.DisplayName: Catastrophe
 CausticStaffProjectile.DisplayName: Thorn
 CausticStaffSummon.DisplayName: Caustic Dragon
+CelestialAxeMinion.DisplayName: Celestial Axe
 Cinder.DisplayName: Cinder
 CinderBlossom.DisplayName: Cinder Blossom
 CloudElementalMinion.DisplayName: Cloudy Waifu
@@ -89,15 +90,14 @@ DormantBrimseekerBab.DisplayName: Dormant Brimseeker
 DormantBrimseekerSummoner.DisplayName: Dormant Brimseeker
 Dreadmine.DisplayName: Dreadmine
 DreadmineTurret.DisplayName: Dreadmine Turret
-ElementalAxeMinion.DisplayName: Elemental Axe
 EndoBeam.DisplayName: Endo Beam
 EndoCooperBody.DisplayName: Ascened Cooper
 EndoCooperLimbs.DisplayName: Ascened Cooper
 EndoFire.DisplayName: Endo Fire
 EndoHydraBody.DisplayName: Hydra Body
 EndoHydraHead.DisplayName: Hydra Head
+EndoHydraRay.DisplayName: Endo Ray
 EndoIceShard.DisplayName: Endo Ice Shard
-EndoRay.DisplayName: Endo Ray
 EnergyOrb.DisplayName: Energy Orb
 EXPLODINGFROG.DisplayName: A not frog of the explosive variety
 EyeOfNightCell.DisplayName: Night Cell
@@ -156,12 +156,12 @@ IgneousBladeStrike.DisplayName: Igneous Blade
 IrradiatedAura.DisplayName: Irradiated Aura
 LanternFlame.DisplayName: Lantern Flame
 LanternSoul.DisplayName: Lantern
+LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
 LiliesOfFinalityAoE.DisplayName: Bioresonance Aura
 LiliesOfFinalityAriane.DisplayName: Ariane
-LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
 LiliesOfFinalityBolt.DisplayName: Bioresonance Bolt
+LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
 LiliesOfFinalityElster.DisplayName: Elster
-LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
 LostSoulGiant.DisplayName: Soul
 LostSoulGold.DisplayName: Gold Soul
 LostSoulLarge.DisplayName: Soul

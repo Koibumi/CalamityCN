@@ -40,7 +40,10 @@ CyborgChat: {
 	Rain: All these moments will be lost in time. Like tears... in the rain.
 }
 
-DemolitionistChat.DoGDefeated: God Slayer Dynamite? Boy do I like the sound of that!
+DemolitionistChat: {
+	MentionSkynamite: Tired of blowing your legs off with dynamite? Not my problem, but if you aren't fond of it you could try throwing them into a Sky Mill to see if they fly.
+	DoGDefeated: God Slayer Dynamite? Boy do I like the sound of that!
+}
 
 DryadChat: {
 	DarksunEclipse: There's a dark solar energy emanating from the moths that appear during this time. What's up with moths getting stronger as you do too?
@@ -79,6 +82,7 @@ HerbTooltips: {
 }
 
 MechanicChat: {
+	HasPortalGun: Just what is that contraption? It makes my Teleporters look like child's play!
 	MoonLordDefeated: What do you mean your traps aren't making the cut? Don't look at me!
 	Eclipse: Um... should my nightlight be on?
 	AcidRain: Maybe I should've waterproofed my gadgets... They're starting to corrode.
@@ -140,7 +144,6 @@ SeedTooltips: {
 SkeletonMerchantChat.Normal: What'dya buyin'?
 
 SteampunkerChat: {
-	HasPortalGun: Just what is that contraption? It makes my Teleporters look like child's play!
 	MoonLordDefeated: Yep! I'm also considering being a space pirate now.
 	Astral: Some of my machines are starting to go haywire thanks to this Astral Infection. I probably shouldn't have built them here.
 	Hallow: I'm sorry I really don't have any Unicorn proof tech here, you're on your own.

@@ -155,16 +155,6 @@ SupremeManaPotion: {
 	Tooltip: ""
 }
 
-TeslaPotion: {
-	DisplayName: Tesla Potion
-	Tooltip:
-		'''
-		Summons an aura of electricity that electrifies and slows enemies
-		Aura damage is reduced on bosses
-		Reduces the duration of the Electrified debuff
-		'''
-}
-
 ZenPotion: {
 	DisplayName: Zen Potion
 	Tooltip: Vastly decreases enemy spawn rate

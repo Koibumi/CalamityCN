@@ -1,6 +1,6 @@
 // Damageable
-MarniteRepulsionHitbox.DisplayName: Repulsion Matrix
 ArtifactOfResilienceBulwark.DisplayName: Artifact of Resilience
+MarniteRepulsionHitbox.DisplayName: Repulsion Matrix
 // Draedon's Arsenal
 AnomalysNanogunHoldout.DisplayName: The Anomaly's Nanogun
 AnomalysNanogunMPFBBoom.DisplayName: MPFB Explosion
@@ -48,9 +48,11 @@ BrimstoneGeyser.DisplayName: Smoke
 GeyserTelegraph.DisplayName: Geyser
 HotSteam.DisplayName: Steam
 LavaChunk.DisplayName: Lava Chunk
+Lilyglow.DisplayName: Lilyglow
 MurkySteam.DisplayName: Steam
 SmokeTelegraph.DisplayName: Smoke
 ThermalSteam.DisplayName: Steam
+WaterAlgae.DisplayName: Water Algae
 // Turrets
 DraedonLaser.DisplayName: Draedon Laser
 DraedonLaserBuffer.DisplayName: Draedon Laser

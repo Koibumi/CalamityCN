@@ -5,7 +5,6 @@ AcidicSaxBubble.DisplayName: Acid Bubble
 AcidicSaxMist.DisplayName: Acid Mist
 AetherBeam.DisplayName: Aether Beam
 AnahitasArpeggioNote.DisplayName: Anahita's Song
-Ancient.DisplayName: Ancient Dust
 Ancient2.DisplayName: Ancient Dust
 ApotheosisEnergy.DisplayName: Apotheosis Energy
 ApotheosisWorm.DisplayName: The Devourer of Gods
@@ -20,14 +19,12 @@ AstralCrystal.DisplayName: Astral Crystal
 AstralCrystalInvisibleExplosion.DisplayName: Astral Crystal Invisible Explosion
 AstralStarMagic.DisplayName: Astral Star
 AtlantisSpear.DisplayName: Atlantis Spear
-AuraRain.DisplayName: Aura Rain
+AugurTentacle.DisplayName: Elemental Tentacle
 AuroraAustralis.DisplayName: Aurora Australis
 BeamingBolt.DisplayName: Beaming Bolt
 BeamingBolt2.DisplayName: Beaming Bolt
 BeamStar.DisplayName: Stardust Star
 BeastScythe.DisplayName: Beast Scythe
-BigBeamofDeath.DisplayName: Big Beam of Death
-BigBeamofDeath2.DisplayName: Big Beam of Death
 BlackAnurianBubble.DisplayName: Anurian Bubble
 BlackAnurianPlankton.DisplayName: Anurian Plankton
 BlindingLight.DisplayName: Blinding Light
@@ -37,10 +34,7 @@ BloodRay.DisplayName: Blood Ray
 BlueBubble.DisplayName: Bubble
 BlushieStaffProj.DisplayName: Staff of Blushie
 BrimroseBeam.DisplayName: Brimrose Beam
-BrimstoneFireball.DisplayName: Brimstone Fireball
 BrimstoneHellfireballFriendly.DisplayName: Hellfireball
-BrimstoneHomer.DisplayName: Brimstone Homer
-BrimstoneTentacle.DisplayName: Brimstone Tentacle
 CauldronProj.DisplayName: Smauldron
 CauldronProjSmall.DisplayName: Smaullerdron
 ChronoIcicleLarge.DisplayName: Chrono Icicle
@@ -56,12 +50,11 @@ CryoBlast.DisplayName: Cryo Blast
 DarkSparkBeam.DisplayName: Dark Spark Beam
 DarkSparkPrism.DisplayName: Dark Crystal
 DeathhailBeam.DisplayName: Deathhail
+DeathValleyDusterProjectile.DisplayName: Death Valley Duster
 DivineRetributionSpear.DisplayName: Divine Retribution
-DustProjectile.DisplayName: Death Valley Dust
 EelDrop.DisplayName: Acid Eel Drop
 EidolicWailSoundwave.DisplayName: Eidolic Wail
 EldritchTentacle.DisplayName: Eldritch Tentacle
-ElementTentacle.DisplayName: Elemental Tentacle
 EnormousConsumingVortex.DisplayName: Subsuming Vortex
 EternityCircle.DisplayName: Eternity
 EternityCrystal.DisplayName: Crystal
@@ -75,7 +68,6 @@ ExoVortex2.DisplayName: Subsuming Vortex
 FabBolt.DisplayName: Fab Bolt
 FabRay.DisplayName: Fab Ray
 FatesRevealFlame.DisplayName: Fate's Reveal
-FlamingPumpkin.DisplayName: Pumpkin
 FlareBoltProjectile.DisplayName: Flare Bolt
 ForbiddenAxeBlade.DisplayName: Ruin Blade
 ForbiddenSunburst.DisplayName: Sunburst
@@ -108,6 +100,7 @@ IceBlockIcicle.DisplayName: Ice Barrage
 IceCluster.DisplayName: Ice Cluster
 Icicle.DisplayName: Icicle
 IcicleStaffProj.DisplayName: Furious Icicle
+IncineratingFireball.DisplayName: Incinerating Fireball
 InfernadoFriendly.DisplayName: Infernado
 InfernadoMarkFriendly.DisplayName: Infernado Mark
 InfernalBlade.DisplayName: Infernal Blade
@@ -169,6 +162,10 @@ PlasmaRay.DisplayName: Plasma Ray
 PlasmaRay2.DisplayName: Plasma Ray
 PlasmaShot.DisplayName: Plasma Shot
 PoseidonTyphoon.DisplayName: Poseidon Typhoon
+PrimordialAncientExplosion.DisplayName: Primordial Ancient
+PrimordialAncientProjectile.DisplayName: Primordial Ancient
+PrimordialEarthExplosion.DisplayName: Primordial Earth
+PrimordialEarthProjectile.DisplayName: Primordial Earth
 PrinceFlameLarge.DisplayName: Holy Fireball
 PrinceFlameSmall.DisplayName: Holy Fire
 RainbowComet.DisplayName: Comet
@@ -195,7 +192,6 @@ SerpentineBody.DisplayName: Serpentine
 SerpentineHead.DisplayName: Serpentine
 SerpentineTail.DisplayName: Serpentine
 ShadecrystalProjectile.DisplayName: Shadecrystal
-ShadeNimbus.DisplayName: Shade Nimbus
 ShadeNimbusCloud.DisplayName: Shade Nimbus
 Shaderain.DisplayName: Shaderain
 Shadowbolt.DisplayName: Shadowbolt
@@ -219,14 +215,12 @@ SpiritDust.DisplayName: Spirit Dust
 Starblast.DisplayName: Star
 StardustElementalBeam.DisplayName: Stardust Beam
 StickyFeather.DisplayName: Feather
-SupremeDustFlakProjectile.DisplayName: Earthy Dust
-SupremeDustProjectile.DisplayName: Earthy Dust
 TacticiansElectricBoom.DisplayName: Electric Explosion
 TacticiansTrumpCardProj.DisplayName: Trump Beam
 TearsofHeavenProjectile.DisplayName: Tears of Heaven
 Teslabeam.DisplayName: Teslabeam
-ThunderstormShot.DisplayName: Thunderous Shot
-ThunderstormShotSplit.DisplayName: Thunderous Shot
+ThunderboltShot.DisplayName: Thunderous Shot
+ThunderboltShotSplit.DisplayName: Thunderous Shot
 TradewindsProjectile.DisplayName: Tradewinds Feather
 TridentIcicle.DisplayName: Trident Icicle
 UberBubble.DisplayName: Bubble
@@ -255,8 +249,8 @@ VolatileStarcore.DisplayName: Volatile Starcore
 VortexElementalBeam.DisplayName: Vortex Lightning
 WaterLeechProj.DisplayName: Water Leech
 WaywasherProj.DisplayName: Waywasher Blast
-WingmanShot.DisplayName: Mana Shot
 WingmanGrenade.DisplayName: Mana Grenade
+WingmanShot.DisplayName: Mana Shot
 WulfrumBolt.DisplayName: Wulfrum Bolt
 WulfrumManaDrain.DisplayName: Mana Drain
 WyvernFeatherGreen.DisplayName: Feather

@@ -43,9 +43,10 @@ UrsaSergeant: {
 	DisplayName: Ursa Sergeant
 	Tooltip:
 		'''
-		Decreased movement speed by 15%
-		Immune to Astral Infection and Feral Bite
-		Increased regeneration at lower health
+		Attacks maul enemies with astral claw swipes
+		Taking damage reduces the cooldown, but inflicts you with Astral Infection
+		Enemy kills also reduce the cooldown
+		Swipes will be translucent and silent if visibility is disabled
 		'''
 }
 

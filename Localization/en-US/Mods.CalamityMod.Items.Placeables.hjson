@@ -762,6 +762,11 @@ SulphurousTorch: {
 	Tooltip: Can be placed in water
 }
 
+SunkenIdol: {
+	DisplayName: Sunken Idol
+	Tooltip: ""
+}
+
 ThaumaticChair: {
 	DisplayName: Thaumatic Chair
 	Tooltip: One of Chloe's finest creations
@@ -1421,6 +1426,11 @@ AuricDisplay: {
 	Tooltip: ""
 }
 
+AuricLandMine: {
+	DisplayName: Auric Land Mine
+	Tooltip: Explodes when stepped on...
+}
+
 AuricPanel: {
 	DisplayName: Auric Panel
 	Tooltip: ""
@@ -1903,6 +1913,121 @@ ExoToilet: {
 
 ExoWorkBench: {
 	DisplayName: Exo Work Bench
+	Tooltip: ""
+}
+
+MarniteChest: {
+	DisplayName: Marnite Chest
+	Tooltip: ""
+}
+
+MarniteDresser: {
+	DisplayName: Marnite Dresser
+	Tooltip: ""
+}
+
+MarniteBathtub: {
+	DisplayName: Marnite Bathtub
+	Tooltip: ""
+}
+
+MarniteBed: {
+	DisplayName: Marnite Bed
+	Tooltip: ""
+}
+
+MarniteBookcase: {
+	DisplayName: Marnite Bookcase
+	Tooltip: ""
+}
+
+MarniteCandelabra: {
+	DisplayName: Marnite Candelabra
+	Tooltip: ""
+}
+
+MarniteCandle: {
+	DisplayName: Marnite Candle
+	Tooltip: ""
+}
+
+MarniteChair: {
+	DisplayName: Marnite Chair
+	Tooltip: ""
+}
+
+MarniteChandelier: {
+	DisplayName: Marnite Chandelier
+	Tooltip: ""
+}
+
+MarniteClock: {
+	DisplayName: Marnite Clock
+	Tooltip: ""
+}
+
+MarniteDoor: {
+	DisplayName: Marnite Door
+	Tooltip: ""
+}
+
+MarniteLamp: {
+	DisplayName: Marnite Lamp
+	Tooltip: ""
+}
+
+MarniteLantern: {
+	DisplayName: Marnite Lantern
+	Tooltip: ""
+}
+
+MarniteLight: {
+	DisplayName: Marnite Light
+	Tooltip: ""
+}
+
+MarniteOrgan: {
+	DisplayName: Marnite Organ
+	Tooltip: ""
+}
+
+MarniteSink: {
+	DisplayName: Marnite Sink
+	Tooltip: ""
+}
+
+MarniteSofa: {
+	DisplayName: Marnite Sofa
+	Tooltip: ""
+}
+
+MarniteTable: {
+	DisplayName: Marnite Table
+	Tooltip: ""
+}
+
+MarniteToilet: {
+	DisplayName: Marnite Toilet
+	Tooltip: ""
+}
+
+MarniteWorkBench: {
+	DisplayName: Marnite Work Bench
+	Tooltip: ""
+}
+
+PolishedMarniteBlock: {
+	DisplayName: Polished Marnite Block
+	Tooltip: ""
+}
+
+PolishedMarnitePlatform: {
+	DisplayName: Polished Marnite Platform
+	Tooltip: ""
+}
+
+PolishedMarniteWall: {
+	DisplayName: Polished Marnite Wall
 	Tooltip: ""
 }
 
@@ -2975,6 +3100,11 @@ LivingHolyFireBlock: {
 	Tooltip: ""
 }
 
+LivingPlagueFireBlock: {
+	DisplayName: Living Plague Fire Block
+	Tooltip: ""
+}
+
 DraedonExoSelectMusicBox: {
 	DisplayName: Music Box (Exo Mech Selection)
 	Tooltip: Plays 'Signal Received' by CDMusic
@@ -2985,8 +3115,48 @@ DraedonTalkMusicBox: {
 	Tooltip: Plays a variant of 'Signal Received' by CDMusic
 }
 
+Basalt: {
+	DisplayName: Basalt
+	Tooltip: ""
+}
+
+Driftwood: {
+	DisplayName: Driftwood
+	Tooltip: ""
+}
+
 Navystone: {
 	DisplayName: Navystone
+	Tooltip: ""
+}
+
+Shellstone: {
+	DisplayName: Shellstone
+	Tooltip: ""
+}
+
+PolishedNavystoneBrick: {
+	DisplayName: Polished Navystone Brick
+	Tooltip: ""
+}
+
+ShellstoneSlab: {
+	DisplayName: Shellstone Slab
+	Tooltip: ""
+}
+
+BlackPearlPile: {
+	DisplayName: Black Pearl Pile
+	Tooltip: ""
+}
+
+PinkPearlPile: {
+	DisplayName: Pink Pearl Pile
+	Tooltip: ""
+}
+
+WhitePearlPile: {
+	DisplayName: White Pearl Pile
 	Tooltip: ""
 }
 
@@ -3415,6 +3585,16 @@ ScoriaBrickWall: {
 	Tooltip: ""
 }
 
+ShellstoneSlabWall: {
+	DisplayName: Shellstone Slab Wall
+	Tooltip: ""
+}
+
+ShellstoneWall: {
+	DisplayName: Shellstone Wall
+	Tooltip: ""
+}
+
 SilvaWall: {
 	DisplayName: Silva Wall
 	Tooltip: ""
@@ -3581,4 +3761,84 @@ WaterTurret: {
 		Shoots high-speed water blasts at nearby enemies
 		Cannot attack while a boss is alive
 		'''
+}
+
+CyanCoral: {
+	DisplayName: Cyan Coral
+	Tooltip: ""
+}
+
+MagentaCoral: {
+	DisplayName: Magenta Coral
+	Tooltip: ""
+}
+
+OrangeCoral: {
+	DisplayName: Orange Coral
+	Tooltip: ""
+}
+
+LimeCoral: {
+	DisplayName: Lime Coral
+	Tooltip: ""
+}
+
+YellowCoral: {
+	DisplayName: Yellow Coral
+	Tooltip: ""
+}
+
+Runestone: {
+	DisplayName: Runestone
+	Tooltip: ""
+}
+
+RuneSand: {
+	DisplayName: Runesand
+	Tooltip: ""
+}
+
+Limestone: {
+	DisplayName: Limestone
+	Tooltip: ""
+}
+
+PolypSand: {
+	DisplayName: Polyp Sand
+	Tooltip: ""
+}
+
+VolcanicSand: {
+	DisplayName: Volcanic Sand
+	Tooltip: ""
+}
+
+DriftwoodWall: {
+	DisplayName: Driftwood Wall
+	Tooltip: ""
+}
+
+AlgalSlateItem: {
+	DisplayName: Algal Slate
+	Tooltip: ""
+}
+
+PeatItem: {
+	DisplayName: Peat
+	Tooltip: ""
+}
+
+PeatMossItem: {
+	DisplayName: Peat Moss
+	Tooltip: ""
+}
+
+ScintillatingBloom: {
+	DisplayName: Scintillating Bloom
+	Tooltip: ""
+}
+
+PyreMantleWall: {
+	DisplayName: Pyre Mantle Wall
+	Tooltip: ""
 }

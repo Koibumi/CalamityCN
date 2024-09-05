@@ -76,7 +76,32 @@ AstralUnderground: {
 	TownNPCDialogueName: Underground Astral Infection
 }
 
+SunkenSeaBurrowsBiome: {
+	DisplayName: Sunken Sea Burrows Biome
+	TownNPCDialogueName: the Sunken Sea Burrows Biome
+}
+
+SunkenSeaPolypBiome: {
+	DisplayName: Sunken Sea Polyp Biome
+	TownNPCDialogueName: the Sunken Sea Polyp Biome
+}
+
+SunkenSeaReefsBiome: {
+	DisplayName: Sunken Sea Reefs Biome
+	TownNPCDialogueName: the Sunken Sea Reefs Biome
+}
+
+SunkenSeaShoresBiome: {
+	DisplayName: Sunken Sea Shores Biome
+	TownNPCDialogueName: the Sunken Sea Shores Biome
+}
+
 AstralCaveDesert: {
 	DisplayName: Astral Cave Desert
 	TownNPCDialogueName: the Astral Cave Desert
+}
+
+FloralParadiseBiome: {
+	DisplayName: Floral Paradise
+	TownNPCDialogueName: the Floral Paradise
 }

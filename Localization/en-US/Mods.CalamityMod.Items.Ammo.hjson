@@ -23,7 +23,7 @@ BloodfireBullet: {
 		'''
 		Passes through tiles and accelerates your natural life regen on hit
 		Deals bonus damage based on your current life regen and natural life regen
-		This damage caps at 25
+		This damage caps at 35
 		'''
 }
 
@@ -31,42 +31,34 @@ BloodRune: {
 	DisplayName: Blood Rune
 	Tooltip:
 		'''
-		Used with the Ice Barrage 
-		Found in some sort of runic landscape
+		Used by the Ice Barrage 
+		'Found in some sort of runic landscape'
 		'''
 }
 
 BubonicRound: {
 	DisplayName: Bubonic Round
-	Tooltip:
-		'''
-		Spreads the plague on hit
-		Ignores 10% of enemy defense
-		'''
+	Tooltip: Spreads the plague on hit and ignores 10% of enemy defense
 }
 
 CinderArrow: {
 	DisplayName: Cinder Arrow
-	Tooltip: Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames
+	Tooltip: Explosive arrows that burst into weak flaming Brimstone Shards
 }
 
 DryadsTear: {
 	DisplayName: Dryad's Tear
-	Tooltip: Splits into homing nature shards on impact which ignore enemy defense
+	Tooltip: Splits into homing shards on impact which ignore 10 points of enemy defense
 }
 
 ElysianArrow: {
 	DisplayName: Elysian Arrow
-	Tooltip:
-		'''
-		Arrows carrying profaned energy
-		Summons purifying light from above and below on impact
-		'''
+	Tooltip: On impact, summons purifying light from above and below at the nearest enemy
 }
 
 FlashRound: {
 	DisplayName: Flash Round
-	Tooltip: Gives off a concussive blast that confuses enemies in a large area for a short time
+	Tooltip: Emits a wide-reaching concussive blast which briefly confuses enemies
 }
 
 GodSlayerSlug: {
@@ -74,8 +66,16 @@ GodSlayerSlug: {
 	Tooltip:
 		'''
 		Heavy ammunition with unlimited piercing that tears through spacetime
-		After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,
-		it warps backwards through space and supercharges, exploding on impact
+		Slugs that strike a target will warp back and supercharge, shattering on hit
+		'''
+}
+
+HailstormBullet: {
+	DisplayName: Hailstorm Bullet
+	Tooltip:
+		'''
+		Once shot, bullets rapidly decelerate
+		Critical hits cause a flash freeze, dealing additional damage and freezing non-boss enemies
 		'''
 }
 
@@ -83,7 +83,7 @@ HallowPointRound: {
 	DisplayName: Hallow-Point Round
 	Tooltip:
 		'''
-		Gallant light deals 6 bonus damage on hit
+		Releases anointed light on hit that increases the bullet's base damage to [DAMAGE]
 		This effect does not occur if the bullets are converted by special guns
 		'''
 }
@@ -92,37 +92,22 @@ HolyFireBullet: {
 	DisplayName: Holy Fire Bullet
 	Tooltip:
 		'''
-		Explosive holy bullets
-		Explosions are larger right when the bullets are fired
-		'''
-}
-
-HailstormBullet: {
-	DisplayName: Hailstorm Bullet
-	Tooltip:
-		'''
-		Bullets imbued with potent ice magic
-		These bullets rapidly decelerate after being fired
-		Critical hits cause a flash freeze, dealing additional damage and freezing normal enemies
+		Profaned bullets that explode on impact, dealing extra damage
+		The explosion grows weaker the further the bullet travels
 		'''
 }
 
 HyperiusBullet: {
 	DisplayName: Hyperius Bullet
-	Tooltip:
-		'''
-		Powerful multicolor bullets
-		Bullets split into swirling lights on impact
-		'''
+	Tooltip: Dazzling multicolor bullets that split into swirling lights on impact
 }
 
 IcicleArrow: {
 	DisplayName: Icicle Arrow
 	Tooltip:
 		'''
-		Ice arrows with an enchanted tip
-		These arrows quickly freeze into falling icicles that deal increased damage
-		Hitting enemies or tiles before being frozen causes the arrow to fly upwards
+		Once shot, arrows quickly freeze into falling icicles
+		Hitting enemies or tiles before the arrow fully freezes causes it to bounce upwards
 		'''
 }
 
@@ -130,8 +115,8 @@ MarksmanRound: {
 	DisplayName: Marksman Round
 	Tooltip:
 		'''
-		A carefully crafted round which can be ricocheted off of midair coins
-		This allows other guns to utilize the coins tossed by Crackshot Colt and Midas Prime
+		A carefully crafted round which can ricochet off of coins
+		This allows other guns to utilize coins tossed by Crackshot Colt and Midas Prime
 		'''
 }
 
@@ -139,8 +124,8 @@ MortarRound: {
 	DisplayName: Mortar Round
 	Tooltip:
 		'''
-		Specialized high explosive rounds with a large blast radius
-		Will destroy tiles
+		Specialized high explosive rounds
+		Large blast radius. Will destroy tiles
 		Used by normal guns
 		'''
 }
@@ -149,8 +134,8 @@ RubberMortarRound: {
 	DisplayName: Rubber Mortar Round
 	Tooltip:
 		'''
-		Specialized high explosive rounds with a large blast radius
-		Will destroy tiles on each bounce
+		Specialized high explosive rounds
+		Large blast radius. Will destroy tiles on each bounce
 		Used by normal guns
 		'''
 }
@@ -168,8 +153,8 @@ VanquisherArrow: {
 	DisplayName: Vanquisher Arrow
 	Tooltip:
 		'''
-		Powerful arrows forged with cosmic steel
 		Pierces through tiles and homes in on enemies
+		Tears a rift in space on enemy hits
 		'''
 }
 

@@ -30,7 +30,7 @@ ElysianWings: {
 		Acceleration multiplier: 2.7
 		Great vertical speed
 		Flight time: 240
-		Temporary immunity to lava and 10% increased movement speed
+		Immunity to lava and 10% increased movement speed
 		Blessed by the Profaned Flame
 		'''
 }
@@ -83,7 +83,7 @@ MOAB: {
 		Acceleration multiplier: 1.0
 		Good vertical speed
 		Flight time: 75
-		32% increased jump speed and allows constant jumping
+		32% increased jump speed and allows auto-jump
 		Grants the player cloud, blizzard, and sandstorm mid-air jumps
 		'The Mother Of All Balloons'
 		'''
@@ -97,7 +97,7 @@ SilvaWings: {
 		Acceleration multiplier: 2.8
 		Excellent vertical speed
 		Flight time: 270
-		The Silva revive heals you to half health while wearing the Silva armor
+		The Silva revive heals you to 33% health while wearing the Silva armor
 		'The purest of nature'
 		'''
 }

@@ -460,17 +460,17 @@ ReaverHeadExplore: {
 	DisplayName: Reaver Headgear
 	Tooltip:
 		'''
-		20% increased mining speed and block/wall placement speed
+		20% increased mining speed
+		50% increased block & wall placement speed
 		Grants immunity to lava and can move freely through liquids
 		'''
 	SetBonus:
 		'''
-		Highlights all treasure nearby
-		Increased item grab range and block placement range
-		Mining tiles restores breath while underwater
-		Summons a reaver orb to light up the area around you
-		Reduces enemy aggression, even in the abyss
-		Provides a small amount of light in the abyss
+		Summons an orb which highlights nearby treasure and provides light
+		Grants underwater breathing and reduced enemy aggression
+		These have a moderate effect while in the Abyss
+		Increased block placement & tool range by 7
+		Increases pickup range for items
 		'''
 }
 

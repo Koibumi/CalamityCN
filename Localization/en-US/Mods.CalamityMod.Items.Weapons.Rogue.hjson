@@ -224,6 +224,28 @@ CrushsawCrasher: {
 		Throws bouncing axes
 		Stealth strikes throw five at once
 		'''
+	GFBFirstWord1: Crushsaw
+	GFBFirstWord2: Crashsaw
+	GFBFirstWord3: Crushclaw
+	GFBFirstWord4: Crashclaw
+	GFBFirstWord5: Crushcaw
+	GFBFirstWord6: Crushaw
+	GFBFirstWord7: Crushmaw
+	GFBFirstWord8: Crashmaw
+	GFBFirstWord9: Crawshaw
+	GFBFirstWord10: Coleslaw
+	GFBFirstWord11: Cashew
+	GFBFirstWord12: Cawcaw
+	GFBLastWord1: Crasher
+	GFBLastWord2: Crusher
+	GFBLastWord3: Clasher
+	GFBLastWord4: Casher
+	GFBLastWord5: Clacker
+	GFBLastWord6: Catcher
+	GFBLastWord7: Trasher
+	GFBLastWord8: Rasher
+	GFBLastWord9: Cracker
+	GFBLastWord10: Cackler
 }
 
 Crystalline: {
@@ -326,7 +348,7 @@ EclipsesFall: {
 		'''
 		Summons spears from the sky on hit
 		Stealth strikes impale enemies and summon a constant barrage of spears over time
-		'When the sun goes dark, you will know judgment'
+		'When the sun goes dark, you will know judgement'
 		'''
 }
 
@@ -566,7 +588,11 @@ Hypothermia: {
 
 Icebreaker: {
 	DisplayName: Icebreaker
-	Tooltip: Stealth strikes spawn a cosmic explosion and freeze nearby enemies on enemy hits
+	Tooltip:
+		'''
+		Throws an icy hammer that magically returns to the player
+		Stealth strikes spawn a cosmic explosion and freeze nearby enemies on hit
+		'''
 }
 
 IceStar: {
@@ -682,15 +708,6 @@ Lionfish: {
 		'''
 }
 
-RealityRupture: {
-	DisplayName: Reality Rupture
-	Tooltip:
-		'''
-		Cycles between throwing 3 small homing spears and throwing a single piercing lance
-		Stealth Strikes throw a high-velocity reality shattering lance that explodes on hit
-		'''
-}
-
 LunarKunai: {
 	DisplayName: Lunar Kunai
 	Tooltip:
@@ -775,8 +792,15 @@ NanoblackReaper: {
 		Unleashes a storm of nanoblack energy blades
 		Blades target bosses whenever possible
 		Stealth strikes cause the scythe to create a large amount of homing afterimages instead of energy blades
-		'She smothered them in Her hatred'
 		'''
+	HoldShiftTooltip:
+		'''
+		'He who picks up the pen writes the script.
+		She has no intention of ever putting it down.
+		Her design eclipses your countable stars.
+		The gleam She exudes will put them all to shame.'
+		'''
+	FlavorTooltip: "'She smothered them in Her hatred.'"
 }
 
 NastyCholla: {
@@ -883,6 +907,15 @@ RadiantStar: {
 		'''
 		Throws daggers that explode and split after a while
 		Stealth strike splits more with a devastating explosion and sucks enemies in
+		'''
+}
+
+RealityRupture: {
+	DisplayName: Reality Rupture
+	Tooltip:
+		'''
+		Cycles between throwing 3 small homing spears and throwing a single piercing lance
+		Stealth Strikes throw a high-velocity reality shattering lance that explodes on hit
 		'''
 }
 
@@ -1029,7 +1062,12 @@ Seraphim: {
 
 ShardofAntumbra: {
 	DisplayName: Shard of Antumbra
-	Tooltip: Stealth strikes leave homing stars in their wake
+	Tooltip:
+		'''
+		Throws a cosmic javelin that sticks into enemies and tiles, creating a small rift nearby on enemy hits
+		After hitting a target, it will charge with energy and teleport to the rift, aiming itself at the nearest target
+		Stealth strikes create a multitude of rifts to spawn additional javelins upon teleporting
+		'''
 }
 
 ShatteredSun: {
@@ -1138,9 +1176,10 @@ StarofDestruction: {
 	DisplayName: Star of Destruction
 	Tooltip:
 		'''
-		Fires a huge destructive mine that explodes into destruction bolts
-		Amount of bolts scales with enemies hit, up to 16
-		Stealth strikes always explode into the max amount of bolts
+		Throws a fan of cosmic bolts that meld together into a star of destruction
+		The explosive star will slowly follow your cursor until it expires or hits an enemy
+		      Upon running out of time, the star will burst into a huge explosion that deals increased damage
+		Stealth strikes throw additional bolts that converge into faster star that can pierce, exploding on every hit
 		'''
 }
 
@@ -1236,9 +1275,10 @@ TheOldReaper: {
 	DisplayName: The Old Reaper
 	Tooltip:
 		'''
-		Throws a homing reaper scythe that shreds enemies
-		Stealth strikes throw three at once
-		'Slice 'n dice'
+		Throws an irradiated scythe that cuts through enemies
+		Deposits unstable isotopes on hit, which create delayed nuclear explosions when they decay
+		Stealth strikes are thrown into the sky and fall upon enemies a few seconds later
+		On hit, stealth strikes create a focused deluge of acid rain
 		'''
 }
 
@@ -1297,9 +1337,8 @@ ToxicantTwister: {
 	DisplayName: Toxicant Twister
 	Tooltip:
 		'''
-		Throws a slow moving boomerang
-		After a few moments, the boomerang chooses a target and rapidly homes in
-		Stealth strikes home in faster and rapidly release sand
+		Throws a fan of four spinning disks that swirl around your cursor
+		Stealth strikes swirl in a wider range and create a vortex of toxic raindrops that home in on enemies
 		'''
 }
 
@@ -1308,7 +1347,7 @@ Turbulance: {
 	Tooltip:
 		'''
 		Fires a cloudy javelin that bursts into wind slashes on hit
-		Wind slashes home if the javelin crits
+		Wind slashes occasionally home, and always home if the javelin crits
 		Stealth strikes are trailed by homing wind slashes
 		'''
 }
