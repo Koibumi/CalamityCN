@@ -690,9 +690,24 @@ DraconicIncense: {
 	Tooltip: “龙火在空气中冉冉升起”
 }
 
+ForgottenNobleStatue: {
+	DisplayName: Forgotten Noble Statue
+	Tooltip: ""
+}
+
+ForgottenScholarStatue: {
+	DisplayName: Forgotten Scholar Statue
+	Tooltip: ""
+}
+
 ExoObelisk: {
 	DisplayName: 星流方尖碑
 	Tooltip: “星流能量渗入大气之中”
+}
+
+OtonilouStatue: {
+	DisplayName: Otonilou Memorial
+	Tooltip: ""
 }
 
 FrigidMonolith: {

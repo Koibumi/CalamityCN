@@ -377,11 +377,6 @@ DevilsSunrise: {
 	Tooltip: Balls? Smalls.
 }
 
-DiseasedPike: {
-	DisplayName: Diseased Pike
-	Tooltip: Fires plague seekers on hit
-}
-
 DraconicDestruction: {
 	DisplayName: Draconic Destruction
 	Tooltip:
@@ -947,11 +942,6 @@ PhotonRipper: {
 		This weapon and its projectiles function as a chainsaw
 		Press <right> to use without chopping down trees
 		'''
-}
-
-PlagueKeeper: {
-	DisplayName: Plague Keeper
-	Tooltip: Fires a plague and bee cloud
 }
 
 PrismaticBreaker: {

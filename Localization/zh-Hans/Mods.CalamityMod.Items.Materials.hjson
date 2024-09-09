@@ -327,11 +327,6 @@ TitanHeart: {
 	Tooltip: 可在星辉信标处供奉
 }
 
-TrapperBulb: {
-	DisplayName: 猎捕花苞
-	Tooltip: ""
-}
-
 TwistingNether: {
 	DisplayName: 扭曲虚空
 	Tooltip: ""

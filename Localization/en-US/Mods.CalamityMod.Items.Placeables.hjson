@@ -695,9 +695,24 @@ ExoObelisk: {
 	Tooltip: "'Energize the atmosphere with exo energy.'"
 }
 
+ForgottenNobleStatue: {
+	DisplayName: Forgotten Noble Statue
+	Tooltip: ""
+}
+
+ForgottenScholarStatue: {
+	DisplayName: Forgotten Scholar Statue
+	Tooltip: ""
+}
+
 FrigidMonolith: {
 	DisplayName: Frigid Monolith
 	Tooltip: "'Enchant the sky with frosty auroras.'"
+}
+
+OtonilouStatue: {
+	DisplayName: Otonilou Memorial
+	Tooltip: ""
 }
 
 PlagueHumidifier: {

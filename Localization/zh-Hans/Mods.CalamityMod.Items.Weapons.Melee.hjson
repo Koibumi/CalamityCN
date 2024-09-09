@@ -377,11 +377,6 @@ DevilsSunrise: {
 	Tooltip: 勇气？你真的有那玩意？
 }
 
-DiseasedPike: {
-	DisplayName: 瘟疫长枪
-	Tooltip: 击中敌人时释放瘟疫搜寻者
-}
-
 DraconicDestruction: {
 	DisplayName: 龙破斩
 	Tooltip:
@@ -947,11 +942,6 @@ PhotonRipper: {
 		这把武器和它的投影会破坏树木
 		按住右键使用以避免砍伐树木
 		'''
-}
-
-PlagueKeeper: {
-	DisplayName: 瘟疫大剑
-	Tooltip: 发射一团瘟疫和蜜蜂云
 }
 
 PrismaticBreaker: {

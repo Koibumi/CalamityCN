@@ -12,15 +12,6 @@ AdamantiteThrowingAxe: {
 	Tooltip: Stealth strikes ignore gravity and rain down lightning on enemy hits
 }
 
-AlphaVirus: {
-	DisplayName: Alpha Virus
-	Tooltip:
-		'''
-		Throws a giant plague cell with a lethal aura that explodes into 6 homing plague seekers
-		Stealth strikes cause the plague cell to move slower, accumulating an aura of swirling plague seekers as it flies
-		'''
-}
-
 Apoctolith: {
 	DisplayName: Apoctolith
 	Tooltip:
@@ -349,15 +340,6 @@ EclipsesFall: {
 		Summons spears from the sky on hit
 		Stealth strikes impale enemies and summon a constant barrage of spears over time
 		'When the sun goes dark, you will know judgement'
-		'''
-}
-
-ElementalDisk: {
-	DisplayName: Elemental Disk
-	Tooltip:
-		'''
-		Throws a disk that has a chance to generate several disks if enemies are near it
-		Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
 		'''
 }
 
@@ -916,6 +898,15 @@ RealityRupture: {
 		'''
 		Cycles between throwing 3 small homing spears and throwing a single piercing lance
 		Stealth Strikes throw a high-velocity reality shattering lance that explodes on hit
+		'''
+}
+
+ReboundingRainbow: {
+	DisplayName: Rebounding Rainbow
+	Tooltip:
+		'''
+		Throws a disk that has a chance to generate several disks if enemies are near it
+		Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
 		'''
 }
 

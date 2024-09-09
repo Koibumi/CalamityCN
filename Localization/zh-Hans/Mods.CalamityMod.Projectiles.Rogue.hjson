@@ -2,8 +2,6 @@ AbyssalMirrorProjectile.DisplayName: 流明晶
 AcidBarrelDrop.DisplayName: 酸雨桶液滴
 AcidShrapnel.DisplayName: 酸性弹片
 AdamantiteThrowingAxeProjectile.DisplayName: 精金投斧
-AlphaSeeker.DisplayName: 始源病毒搜寻者
-AlphaVirusProjectile.DisplayName: 始源病毒
 AntumbraShardProjectile.DisplayName: 黄昏之影
 ApoctolithProj.DisplayName: 末渊板砖
 ApoctolithShard.DisplayName: 石板碎片
@@ -94,8 +92,6 @@ EclipsesSmol.DisplayName: 蚀日之矛
 EclipsesStealth.DisplayName: 日蚀之陨
 EclipseStealthBoom.DisplayName: 日蚀爆炸
 EGloveSpark.DisplayName: 电火花
-ElementalDiskProj.DisplayName: 元素飞盘
-ElementalDiskSplit.DisplayName: 元素飞盘
 EnchantedAxe2.DisplayName: 附魔之斧
 EnchantedAxeProj.DisplayName: 附魔之斧
 EpidemicShredderProjectile.DisplayName: 瘟疫回旋镖
@@ -228,6 +224,8 @@ RealityRuptureLance.DisplayName: 万象崩碎矛
 RealityRuptureMini.DisplayName: 现实裂片
 RealityRuptureStealth.DisplayName: 盈虚裂片
 ReaperProjectile.DisplayName: 死神飞镰
+ReboundingRainbowProj.DisplayName: Rebounding Rainbow
+ReboundingRainbowSplit.DisplayName: Rebounding Rainbow
 RefractionRotorProjectile.DisplayName: 衍曜旋刃
 RegulusEnergy.DisplayName: 星神游龙之灵
 RegulusRiotProj.DisplayName: 星神游龙之混沌

@@ -327,11 +327,6 @@ TitanHeart: {
 	Tooltip: Can be offered up at the Astral Beacon
 }
 
-TrapperBulb: {
-	DisplayName: Trapper Bulb
-	Tooltip: ""
-}
-
 TwistingNether: {
 	DisplayName: Twisting Nether
 	Tooltip: ""

@@ -180,7 +180,7 @@ StatigelHeadSummon: {
 	SetBonus:
 		'''
 		18% increased summon damage and +1 max minion
-		Summons a mini slime god to fight for you, the type depends on what world evil you have
+		Summons a mini paladin to fight for you, the type depends on what world evil you have
 		'''
 }
 

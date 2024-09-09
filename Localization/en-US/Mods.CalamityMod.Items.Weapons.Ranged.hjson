@@ -1010,8 +1010,8 @@ RubicoPrime: {
 	DisplayName: Rubico Prime
 	Tooltip:
 		'''
-		Semi-automatic sniper that fires in 5 second bursts
-		Fires impact rounds that have an increased crit multiplier
+		A powerful sniper rifle that must reload after 5 shots
+		Fires impact rounds that deal increased critical damage
 		'''
 }
 

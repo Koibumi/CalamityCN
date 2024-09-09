@@ -12,7 +12,7 @@ AbyssalAmulet: {
 	DisplayName: 深渊护身符
 	Tooltip:
 		'''
-		攻击会造成激流减益并使你免疫激流
+		攻击会造成激流减益并对它免疫
 		处于深渊时增加10%最大生命值
 		'''
 }
@@ -34,15 +34,15 @@ AbyssalDivingSuit: {
 	Tooltip:
 		'''
 		将穿戴者变为身披重甲的潜水员：
-		在水下时增加最大移动速度和加速度但在陆地时降低
+		在水下时增加最大移动速度和加速度但在陆地上时降低
 		潜水服的板甲会增加15%伤害减免
-		Wearing this suit grants 15% damage reduction for hits under 50 damage
-		The suit can absorb up to 3 hits over 50 damage, and will take 3 minutes to regenerate
-		Reduces the damage caused by drowning in the abyss, and removes the bleed effect in the upper layers
-		Grants the ability to swim, extends underwater breathing, emits light underwater, and improves mobility on ice
-		Provides a moderate amount of light and reduces breath loss in the abyss
-		Abyss creatures are less likely to see you, mitigates the abyss' defense reduction, and lets you sink faster in liquids
-		Grants immunity to the sulphurous waters and Crush Depth's increased breath loss
+		穿着潜水服时会对低于50点伤害的攻击获得15%伤害减免
+		潜水服至多吸收3次超过50点伤害的攻击，并需要3分钟恢复
+		降低深渊中溺水所造成的伤害并移除除最底层外其他深渊层的流血效果
+		获得游泳能力，延长水下呼吸时间，可在水下发光并提升冰面上的移动力
+		在深渊中提供适量光照并大幅度减缓在深渊中时的氧气消耗速度
+		深渊生物不太可能看见你，降低深渊的防御削减效果并使你在液体中更快地下潜
+		免疫硫磺海水的效果以及深渊水压加快氧气消耗速度的效果
 		'''
 }
 
@@ -68,7 +68,7 @@ AeroStone: {
 	DisplayName: 天蓝石
 	Tooltip:
 		'''
-		提供50帧的额外飞行时间
+		提供50帧额外飞行时间
 		在空中且没有处于飞行或滑翔状态时，你的飞行时间会缓慢恢复
 		“远古遗物之一”
 		'''
@@ -83,7 +83,7 @@ AlchemicalFlask: {
 	DisplayName: 冶金烧瓶
 	Tooltip:
 		'''
-		所有的攻击都会造成瘟疫减益并降低受到瘟疫减益的伤害
+		所有的攻击都会造成瘟疫减益并降低所受瘟疫减益的伤害
 		弹幕在击中敌人时会生成瘟疫搜寻者
 		受伤时释放瘟疫蜜蜂并将你浸在蜂蜜中
 		'''
@@ -104,8 +104,8 @@ AmalgamatedBrain: {
 	Tooltip:
 		'''
 		增加5%伤害
-		Taking damage confuses nearby enemies and spawns a dank creeper
-		The dank creeper flies above you, exploding into several shaderain clouds
+		受到伤害后困惑附近敌怪并生成一只沼泽之眼
+		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
 		使你获得闪避攻击的能力
 		闪避攻击后召唤伤害和暴击率会增加10%
 		'''
@@ -134,9 +134,9 @@ AmidiasSpark: {
 	DisplayName: 阿米迪亚斯电火花石
 	Tooltip:
 		'''
-		Attacks inflict Static Discharge while underwater
-		Taking damage causes the enemy to be shocked
-		Shocked enemies constantly release sparks
+		在水下时攻击会施加Static Discharge减益
+		受到伤害后使敌怪震惊
+		被震惊的敌怪会持续释放电火花
 		'''
 }
 
@@ -177,7 +177,7 @@ AngelTreads: {
 		增加36%加速度
 		增加飞行时间并获得火箭靴的飞行能力
 		提供水上行走的能力以及冰面上的额外的机动性
-		使你免疫着火了！减益并暂时免疫熔岩
+		对着火了！免疫并暂时免疫熔岩
 		“极致的速度！”
 		'''
 }
@@ -201,15 +201,15 @@ AquaticHeart: {
 		将佩戴者变为水元素
 		[STATUS]
 		'''
-	LockedTooltip: "[c/F05A5A:The pearl's magic is suppressed by an ancient curse]"
+	LockedTooltip: "[c/F05A5A:这颗珍珠的魔法被古老的诅咒抑制了]"
 	FullTooltip:
 		'''
 		哇哦！你可以游泳了！
 		在水下时会增加15%最大速度和加速度
 		大幅度减缓氧气消耗速度并在深渊中提供少量光照
 		攻击者会被施加冰河时代减益
-		Gain a fragile ice barrier that grants 20% damage reduction for one hit
-		寒冰屏障会在碎裂30秒后再生
+		获得一个易碎的冰障，对一次攻击有20%伤害减免
+		冰障会在碎裂30秒后再生
 		'''
 }
 
@@ -243,7 +243,7 @@ AsgardianAegis: {
 		'''
 	HoldShiftTooltip:
 		'''
-		  着火了！、狱炎、冷冻,、冰冻、霜冻、冻伤、软弱、破损盔甲、
+		  着火了！、狱炎、冷冻、冰冻、霜冻、冻伤、软弱、破损盔甲、
 		  流血、中毒、酸性毒液、硫磺海剧毒、缓慢、困惑、
 		  沉默、诅咒、黑暗、被网住、强风、石化、碎甲
 		  灯火管制、大脑溃烂、血液沸腾、诅咒狱火、硫磺火、
@@ -261,7 +261,7 @@ AsgardsValor: {
 		'''
 	HoldShiftTooltip:
 		'''
-		  着火了！、狱炎、冷冻,、冰冻、霜冻、冻伤、软弱、
+		  着火了！、狱炎、冷冻、冰冻、霜冻、冻伤、软弱、
 		  破损盔甲、流血、中毒、缓慢、困惑、沉默、诅咒、
 		  黑暗、强风、石化、硫磺火、燃烧
 		'''
@@ -271,7 +271,7 @@ AuricSoulArtifact: {
 	DisplayName: 圣魂神物
 	Tooltip:
 		'''
-		你每召唤一只炽焰天龙，便会获得一格仆从栏位
+		你每召唤一只炽焰天龙，便会获得一个仆从栏位
 		忠诚
 		'''
 }
@@ -312,8 +312,8 @@ BloodflareCore: {
 	DisplayName: 血炎晶核
 	Tooltip:
 		'''
-		Recovering defense damage heals you, each defense recovered gives 1 HP
-		Taking damage converts at least half of your total defense in defense damage
+		防御损伤恢复时会治疗你，每恢复1点防御便恢复1点生命值
+		受到伤害时会将至少一半的防御转化为防御损伤
 		'''
 }
 
@@ -361,7 +361,7 @@ BlunderBooster: {
 		增加12%盗贼伤害和15%盗贼弹幕速度
 		增加10%潜行值恢复速度
 		在玩家周围召唤一个红色的闪电光环并电击附近的敌人
-		The aura has reduced opacity if visibility is disabled
+		如果关闭饰品可见性，光环会变得透明
 		按下 [KEY] 键消耗25%最大潜行值来进行向上的快速斜冲
 		此冲刺会留下红色闪电轨迹
 		此效果有1秒冷却时间
@@ -374,9 +374,9 @@ Calamity: {
 		'''
 		用女巫的硫火点燃你的光标，使光标被炽热的光环包围
 		光环会对与其接触的敌人造成巨额伤害和孱弱巫咒减益
-		Focusing an enemy for 2.5 seconds curses them, ascending Vulnerability Hex to its True form
-		Foes afflicted with True Vulnerability Hex take 1.15x damage from all sources
-		This effect is increased to 2.5x for the blazing cursor itself
+		聚焦敌怪2.5秒会诅咒它们，将孱弱巫咒进升为真正形态
+		受到真·孱弱巫咒影响的敌怪所受任何来源的伤害变为1.15倍
+		如果是炽热光标自身触发上述效果，则所受伤害变为2.5倍
 		装备在时装栏中时仅会改变光标的颜色，且不会造成伤害
 		这些改动在与彩虹光标同时使用时也会生效
 		'''
@@ -440,7 +440,7 @@ CorruptFlask: {
 	Tooltip:
 		'''
 		处于腐化之地时增加4%伤害减免和6点防御
-		使你免疫大脑溃烂减益
+		对大脑溃烂免疫
 		'''
 }
 
@@ -468,7 +468,7 @@ CrimsonFlask: {
 	Tooltip:
 		'''
 		处于猩红之地时增加4%伤害减免和6点防御
-		使你免疫血液沸腾减益
+		对血液沸腾免疫
 		'''
 }
 
@@ -496,20 +496,20 @@ DaawnlightSpiritOrigin: {
 	DisplayName: 曙旼始灵
 	Tooltip:
 		'''
-		Places bullseyes on enemies and bosses that can be hit for massive damage
-		Converts all ranged critical strike chance into critical strike damage
-		Summons a heroic spirit from another world if visibility is on or in vanity slots
+		在敌怪和Boss身上放置靶心，受击时造成大量伤害
+		将所有的远程暴击率转化为暴击伤害
+		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
 		'''
 	HoldShiftTooltip:
 		'''
 		附近的所有敌人和Boss都会被靶心标记
-		All ranged attacks that hit a bullseye critically strike and deal massive damage
-		Struck bullseyes vanish and a new one appears elsewhere
-		Explosions and large projectiles cannot hit bullseyes
-		Shots ricocheted off of tossed coins deal less bullseye damage
-		Converts all ranged critical strike chance into critical strike damage
-		Ranged weapons that are slow to use deal more bullseye damage
-		Summons a heroic spirit from another world if visibility is on or in vanity slots
+		所有命中靶心的远程攻击会暴击并造成大量伤害
+		被命中的靶心会消失而新的靶心会在别处出现
+		爆炸和大型弹幕无法击中靶心
+		从钱币反弹后命中靶心的攻击造成的伤害会降低
+		将所有的远程暴击率转化为暴击伤害
+		使用时间越长的远程武器对靶心造成的伤害越高
+		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
 		'''
 	FlavorTooltip: "“一缕失落宇宙的残烬，久久等待着她的御主”"
 }
@@ -532,7 +532,7 @@ DarkSunRing: {
 		增加12%伤害
 		+0.5HP/s生命再生和2格最大仆从栏位
 		增加仆从击退
-		Grants various buffs as the day goes on
+		随一天的时间推移获得各种增益
 		'''
 	HoldShiftTooltip:
 		'''
@@ -578,7 +578,7 @@ DepthCharm: {
 		'''
 		减少在深渊溺水时造成的伤害
 		移除上层深渊造成的生命流失效果
-		Removes the increased breath loss of Crush Depth
+		移除深渊水压加快氧气消耗速度的效果
 		'''
 }
 
@@ -620,7 +620,7 @@ DragonScales: {
 		盗贼武器的弹幕在飞行时会生成缓慢移动的火球
 		潜伏攻击弹幕击中时会生成地狱龙卷
 		增加10%移动速度和加速度
-		使你免疫龙焰减益
+		对龙焰免疫
 		只有真龙才能拥有真正的宝藏
 		'''
 }
@@ -661,7 +661,7 @@ EldritchSoulArtifact: {
 	Tooltip:
 		'''
 		增加10%近战攻速、25%远程弹幕速度、15%潜行值恢复速度、1格最大仆从栏位并降低25%魔力消耗
-		使你免疫死亡低语减益
+		对死亡低语免疫
 		知识
 		'''
 }
@@ -784,7 +784,7 @@ FrostBarrier: {
 	Tooltip:
 		'''
 		你受击时会冻结附近的敌人
-		免疫冷冻和霜冻
+		对冷冻和霜冻免疫
 		'''
 }
 
@@ -793,7 +793,7 @@ FrostFlare: {
 	Tooltip:
 		'''
 		所有攻击和弹幕都会造成霜冻减益
-		使你免疫霜冻、冷冻和冰冻减益
+		对霜冻、冷冻和冰冻免疫
 		生命值高于50%时增加10%伤害
 		生命值低于50%时增加20点防御、15%最大移动速度和加速度
 		使你获得对冷系攻击的抗性
@@ -843,7 +843,7 @@ GiantTortoiseShell: {
 	DisplayName: 巨大龟壳
 	Tooltip:
 		'''
-		使你免疫击退
+		对击退免疫
 		增加5%伤害减免但降低10%冲刺速度
 		受击后会恢复冲刺速度并降低防御和伤害减免，持续5秒
 		'''
@@ -892,9 +892,9 @@ HallowedRune: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/8ce0ff:  神圣之力][c/ccf1ff: 会增加10%召唤伤害并对敌怪降下落星]
-		[c/d08aff:  神圣之佑][c/eed4ff: 会增加8点防御和4%伤害减免]
-		[c/ff8cb5:  神圣之辉][c/ffccde: 会获得+1.5HP/s生命再生]
+		[c/8ce0ff:  神圣之力][c/ccf1ff:会增加10%召唤伤害并对敌怪降下落星]
+		[c/d08aff:  神圣之佑][c/eed4ff:会增加8点防御和4%伤害减免]
+		[c/ff8cb5:  神圣之辉][c/ffccde:会获得+1.5HP/s生命再生]
 		'''
 }
 
@@ -924,7 +924,7 @@ HideofAstrumDeus: {
 		受到伤害或使用真近战武器击中敌人时会令许多幻星从天而降
 		受到伤害后暂时增加30%真近战伤害
 		增幅的持续时间基于你受到的伤害值，至多持续10秒
-		使你免疫幻星感染、诅咒狱火、着火了！和霜冻减益
+		对幻星感染、诅咒狱火、着火了！和霜冻免疫
 		攻击者也会受到伤害并被施加幻星感染减益
 		'''
 }
@@ -1044,7 +1044,7 @@ LumenousAmulet: {
 	DisplayName: 流明护身符
 	Tooltip:
 		'''
-		攻击造成深渊水压减益并使你免疫激流与深渊水压减益
+		攻击造成深渊水压减益并对激流与深渊水压免疫
 		处于深渊时增加25%最大生命值
 		在深渊中提供适量光照
 		'''
@@ -1216,7 +1216,7 @@ OrnateShield: {
 		'''
 		获得冲刺能力
 		此冲刺可以在不受伤害的情况下撞击穿过敌怪
-		免疫冷冻，霜冻，冻伤和冰冻
+		对冷冻，霜冻，冻伤和冰冻免疫
 		'''
 }
 
@@ -1250,9 +1250,9 @@ PhantomicArtifact: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/8ce0ff:  幻魂之力][c/ccf1ff: 会增加10%召唤伤害并向敌怪投掷幻魂之刃]
-		[c/d08aff:  幻魂坚盾][c/eed4ff: 会增加10点防御和5%伤害减免以及一个20%伤害减免的幻魂壁垒]
-		[c/ff8cb5:  幻魂还生][c/ffccde: 会提供+1HP/s生命再生并偶尔掉落幻魂之心，接触时额外获得+1HP/s生命再生]
+		[c/8ce0ff:  幻魂之力][c/ccf1ff:会增加10%召唤伤害并向敌怪投掷幻魂之刃]
+		[c/d08aff:  幻魂坚盾][c/eed4ff:会增加10点防御和5%伤害减免，获得一个20%伤害减免的幻魂壁垒]
+		[c/ff8cb5:  幻魂还生][c/ffccde:会提供+1HP/s生命再生并偶尔掉落幻魂之心，接触时额外获得+1HP/s生命再生]
 		'''
 }
 
@@ -1372,7 +1372,7 @@ RampartofDeities: {
 		根据你已损失的生命值在受伤时获得额外的无敌帧
 		满血时提供10无敌帧，最高提升至25%以下血量时的40无敌帧
 		受到200点以上伤害时提供30额外无敌帧
-		使你免疫击退
+		对击退免疫
 		生命低于50%时会在你的周围生成能够降低所受伤害的护盾
 		生命值高于25%时会将团队中其他玩家所受伤害的25%转移到佩戴者身上
 		'''
@@ -1412,8 +1412,8 @@ RottenBrain: {
 	Tooltip:
 		'''
 		增加6%伤害
-		Taking damage spawns a dank creeper
-		The dank creeper flies above you, exploding into several shaderain clouds
+		受到伤害后生成一只沼泽之眼
+		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
 		'''
 }
 
@@ -1449,7 +1449,7 @@ RustyMedallion: {
 	Tooltip:
 		'''
 		让大多数远程武器攻击时在空中释放酸性液滴
-		使你免疫辐射减益
+		对辐射免疫
 		'''
 }
 
@@ -1603,7 +1603,7 @@ StarTaintedGenerator: {
 		'''
 		增加2格最大仆从栏位和7%召唤伤害
 		仆从攻击会释放星体爆炸并造成多种减益
-		使你免疫辐射减益
+		对辐射免疫
 		不与下位合成材料叠加
 		'''
 }
@@ -1758,9 +1758,9 @@ TeslasAmulet: {
 	DisplayName: Tesla's Amulet
 	Tooltip:
 		'''
-		Generates an electrifying field that slows enemies
-		The field has reduced opacity if visibility is disabled
-		Reduces the duration of the Static Discharge debuff
+		生成一个减速敌怪的电场
+		关闭饰品可见性时电场会变得透明
+		降低Static Discharge减益的持续时间
 		'''
 }
 
@@ -1769,7 +1769,7 @@ TheAbsorber: {
 	Tooltip:
 		'''
 		增加12%移动速度和跳跃速度
-		使你免疫击退
+		对击退免疫
 		攻击者会受到极高伤害以及一个残废性疾病减益
 		使用治疗药水后会产生一个持续30秒的绿色光环
 		首次进入光环会净化所有减益，光环内会提供+3HP/s生命再生，8%伤害和3%伤害减免
@@ -1783,8 +1783,8 @@ TheAmalgam: {
 		'''
 		增加15%伤害
 		大部分增益持续时间翻倍并且死亡后也仍然存在
-		Taking damage inflicts several debuffs on nearby enemies and spawns a dank creeper
-		The dank creeper flies above you, exploding into several shaderain clouds
+		受到伤害后对附近敌怪造成几种减益并生成一只沼泽之眼
+		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
 		使你获得闪避攻击的能力
 		闪避攻击后召唤伤害和暴击率会增加10%
 		'''
@@ -1856,7 +1856,7 @@ TheFirstShadowflame: {
 	Tooltip:
 		'''
 		增加1格最大仆从栏位
-		仆从攻击会造成暗影焰减益并使你免疫暗影焰
+		仆从攻击会造成暗影焰减益并对它免疫
 		'''
 }
 
@@ -1878,10 +1878,10 @@ TheTransformer: {
 	Tooltip:
 		'''
 		所有电系减益的伤害倍率乘以1.5
-		Attacks inflict Static Discharge while underwater
-		Reduces the damage of all electricity debuffs by 50%
-		Taking damage causes the enemy to be shocked
-		Shocked enemies constantly release sparks
+		在水下时攻击会施加Static Discharge减益
+		降低50%所有电系减益的伤害
+		受到伤害后使敌怪震惊
+		被震惊的敌怪会持续释放电火花
 		'''
 }
 
@@ -1889,8 +1889,8 @@ ToxicHeart: {
 	DisplayName: 毒疫之心
 	Tooltip:
 		'''
-		Your heart beats with the plague, pulsing outside of your body
-		Pulse frequency scale with regen, and pulses that kill enemies pulse again to heal you
+		你的心脏与瘟疫一同脉动，向体外释放脉冲
+		脉冲频率与生命再生相关，且击杀敌怪的脉冲会再次释放脉冲并治疗你
 		所有疫病减益的伤害倍率乘以1.5
 		'''
 }
@@ -1899,9 +1899,9 @@ TrinketofChi: {
 	DisplayName: 气功念珠
 	Tooltip:
 		'''
-		Provides 4% damage reduction 5 seconds after taking damage
-		This buff expires on hit
-		+1 HP/s life regen for teammates
+		受伤后获得4%伤害减免，持续5秒
+		此增益在受击后消失
+		为队友提供+1HP/s生命再生
 		'''
 }
 
@@ -1963,7 +1963,7 @@ VoltaicJelly: {
 	Tooltip:
 		'''
 		增加1格最大仆从栏位
-		Minion attacks inflict Static Discharge
+		仆从攻击会施加Static Discharge
 		'''
 }
 
@@ -2006,7 +2006,7 @@ WulfrumBattery: {
 	DisplayName: 钨钢电池
 	Tooltip:
 		'''
-		如果启用饰品可见性，你的召唤物会散发光芒
+		开启饰品可见性时你的召唤物会散发光芒
 		增加7%召唤伤害
 		钨钢敌怪会额外掉落碎片
 		也可以通过提炼机进行拆分

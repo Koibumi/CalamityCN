@@ -12,15 +12,6 @@ AdamantiteThrowingAxe: {
 	Tooltip: 潜伏攻击无视重力，并在击中敌人时降下闪电
 }
 
-AlphaVirus: {
-	DisplayName: 始源病毒
-	Tooltip:
-		'''
-		丢出一个带有致命光环的巨大瘟疫细胞，会爆炸成6只追踪的瘟疫搜寻者
-		潜伏攻击会使瘟疫细胞移动更慢，飞行时释放瘟疫搜寻者
-		'''
-}
-
 Apoctolith: {
 	DisplayName: 末渊石板
 	Tooltip:
@@ -350,15 +341,6 @@ EclipsesFall: {
 		击中敌人时召唤长矛从天而降
 		潜伏攻击会使长矛扎在敌人身上并持续召唤长矛
 		“当日蚀之阴降临的时候，你就会得知审判的结果”
-		'''
-}
-
-ElementalDisk: {
-	DisplayName: 元素飞盘
-	Tooltip:
-		'''
-		掷出元素飞盘，敌怪在附近时有几率生成数个新的元素飞盘
-		潜伏攻击飞行速度较慢，但飞行距离远，穿透敌怪并生成更多额外的飞盘
 		'''
 }
 
@@ -917,6 +899,15 @@ RealityRupture: {
 		'''
 		在投掷三支小型跟踪矛与一支穿透矛的攻击方式间循环
 		潜伏攻击会投掷一发割裂现实的高速投矛，命中造成爆炸
+		'''
+}
+
+ReboundingRainbow: {
+	DisplayName: Rebounding Rainbow
+	Tooltip:
+		'''
+		掷出飞盘，敌怪在附近时有几率生成数个新的飞盘
+		潜伏攻击飞行速度较慢，但飞行距离远，穿透敌怪并生成更多额外的飞盘
 		'''
 }
 

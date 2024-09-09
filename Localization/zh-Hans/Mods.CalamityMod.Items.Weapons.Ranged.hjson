@@ -1010,8 +1010,8 @@ RubicoPrime: {
 	DisplayName: 绝路Prime
 	Tooltip:
 		'''
-		半自动狙击枪，连续发射5秒弹幕
-		射出的弹药有更高的暴击倍率
+		A powerful sniper rifle that must reload after 5 shots
+		Fires impact rounds that deal increased critical damage
 		'''
 }
 

@@ -55,16 +55,6 @@ namespace CalamityCN.Translations
 
             });
 
-                if (item.Calamity().devItem)
-                {
-                    tooltips.ReplaceText("Developer Item", "开发者物品");
-                }
-
-                if (item.Calamity().donorItem)
-                {
-                    tooltips.ReplaceText("Donor Item", "捐赠者物品");
-                }
-
                 if (item.CountsAsClass(DamageClass.Melee))
                 {
                     tooltips.ReplaceText("true melee damage", "真近战伤害");
@@ -74,11 +64,6 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("Current Charge:", "当前充能：");
 
-                }
-
-                if (item.Calamity().canFirePointBlankShots)
-                {
-                    tooltips.ReplaceText("Does extra damage to enemies shot at point-blank range", "对近距离敌怪射击时造成额外伤害");
                 }
 
                 if (Main.zenithWorld)
@@ -306,7 +291,7 @@ namespace CalamityCN.Translations
                 
                 if (item.type == ItemID.SunStone)
                 {
-                    tooltips.ReplaceText("Reduces the damage of the Holy Flames debuff", "减少受到神圣之火减益的伤害");
+                    tooltips.ReplaceText("Reduces the damage of the Daybroken debuff", "减少受到破晓减益的伤害");
                 }
 
                 if (item.type == ItemID.MoonStone)
@@ -316,7 +301,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.CelestialStone || item.type == ItemID.CelestialShell)
                 {
-                    tooltips.ReplaceText("Reduces the damage of the Nightwither and Holy Flames debuffs", "减少受到夜魇和神圣之火减益的伤害");
+                    tooltips.ReplaceText("Reduces the damage of the Nightwither and Daybroken debuffs", "减少受到夜魇和破晓减益的伤害");
                 }
 
                 if (item.type == ItemID.DivingHelmet || item.type == ItemID.ArcticDivingGear || item.type == ItemID.CelestialShell)
@@ -393,21 +378,21 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.FlameWakerBoots)
                 {
-                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.25", "所有火焰类减益伤害乘以1.25");
+                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.25x", "所有火焰类减益伤害乘以1.25");
                     tooltips.ReplaceText("All attacks light enemies on fire", "所有攻击造成着火了！减益");
                     tooltips.ReplaceText("'Never get cold feet again'", "“再也不会如履薄冰了”");
                 }
 
                 if (item.type == ItemID.HellfireTreads)
                 {
-                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.5, does not stack with downgrades", "所有火焰类减益伤害乘以1.5，该效果不会与其下位合成材料叠加");
+                    tooltips.ReplaceText("Multiplies all fire-based debuff damage by 1.5x, does not stack with downgrades", "所有火焰类减益伤害乘以1.5，该效果不会与其下位合成材料叠加");
                     tooltips.ReplaceText("All attacks inflict Hellfire", "所有攻击造成狱炎减益");
                 }
 
                 if (item.type == ItemID.FairyBoots)
                 {
                     tooltips.ReplaceText("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
-                    tooltips.ReplaceText("Nearby fairies grant +2 HP/s life regen, 10 defense and  10% movement speed", "附近仙灵会提供+2HP/s生命再生，10点防御与10%移动速度");
+                    tooltips.ReplaceText("Nearby fairies grant +2 HP/s life regen, 10 defense and 10% movement speed", "附近仙灵会提供+2HP/s生命再生，10点防御与10%移动速度");
                     tooltips.ReplaceText("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
                 }
 
@@ -498,9 +483,8 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.FrozenWings)
                 {
-                    tooltips.ReplaceText("2% increased melee and ranged damage", "穿着寒霜盔甲时");
-                    tooltips.ReplaceText("and 1% increased melee and ranged critical strike chance", "提高2%近战和远程伤害");
-                    tooltips.ReplaceText("while wearing the Frost Armor", "提高1%近战和远程暴击率");
+                    tooltips.ReplaceText("4% increased melee and ranged damage", "穿着寒霜盔甲时");
+                    tooltips.ReplaceText("and multiplies all cold debuff damage by 1.25x while wearing Frost armor", "提高4%近战和远程伤害且所有冷系减益的伤害乘以1.25");
                 }
 
                 if (item.type == ItemID.FlameWings)
