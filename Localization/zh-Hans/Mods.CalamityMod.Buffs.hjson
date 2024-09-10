@@ -843,14 +843,14 @@ ReaverRage: {
 	DisplayName: 掠夺者之怒
 	Description:
 		'''
-		Rage of the earth
-		Defense increased by 5 and damage increased by 10%
+		大地之怒
+		增加5点防御和10%伤害
 		'''
 }
 
 SilvaRevival: {
 	DisplayName: 始源林海无敌
-	Description: Silva's blessing makes you invulnerable and immune to most debuffs
+	Description: 席尔瓦的祝福使你进入无敌状态并免疫大多数减益
 }
 
 SpiritDefense: {

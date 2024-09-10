@@ -309,7 +309,7 @@ CalamityClientConfig: {
 
 	VCMMStatusMessage: {
 		Label: "[i:MusicBoxMartians] VCMM Status Message"
-		Tooltip: Enable or disable the status message promoting the Vanilla Calamity Music Mod that plays on world entry.
+		Tooltip: 启用/禁用进入世界的VCMM状态讯息提示。
 	}
 
 	WikiStatusMessage: {
@@ -394,11 +394,11 @@ CalamityServerConfig: {
 	}
 
 	FasterRopeClimbSpeed: {
-		Label: "[i:Rope] Increase Rope Climb Speed"
+		Label: "[i:Rope] 更高爬绳速度"
 		Tooltip:
 			'''
-			Increases the player's rope climb speed substantially by increasing acceleration and deceleration while on a rope.
-			Calamity is balanced around this setting being enabled.
+			大幅提高玩家爬绳的速度（提高在绳上的加速度和减速度）。
+			灾厄平衡设定是在启用此配置的基础上进行的。
 			'''
 	}
 

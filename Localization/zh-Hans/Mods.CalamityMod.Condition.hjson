@@ -1,7 +1,7 @@
 // Drop conditions
 Drops: {
-	CataclysmKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Catastrophe.DisplayName}
-	CatastropheKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Cataclysm.DisplayName}
+	CataclysmKilledLast: 在{$Mods.CalamityMod.NPCs.Catastrophe.DisplayName}之后被击败时掉落
+	CatastropheKilledLast: 在{$Mods.CalamityMod.NPCs.Cataclysm.DisplayName}之后被击败时掉落
 	Cynosure: 在击败星流巨械和至尊女巫，灾厄后
 	DownedDS: 在击败荒漠灾虫后
 	DownedCrab: 在击败菌生蟹后
