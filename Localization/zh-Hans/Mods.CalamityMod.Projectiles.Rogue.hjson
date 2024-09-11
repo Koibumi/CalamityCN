@@ -12,7 +12,7 @@ AuroradicalSplitter.DisplayName: 源野之星
 AuroradicalStar.DisplayName: 天光星辰
 BallisticPoisonBombProj.DisplayName: 渊毒子母雷
 BallisticPoisonBombSpike.DisplayName: 渊毒刺
-BallisticPoisonCloud.DisplayName: Ballistic Cloud
+BallisticPoisonCloud.DisplayName: 渊毒云
 BarrelShrapnel.DisplayName: 针叶片
 BettyExplosion.DisplayName: 炸弹
 BileExplosion.DisplayName: 胆汁
@@ -74,7 +74,7 @@ DeepWounderWater.DisplayName: 水滴
 DesecratedBubble.DisplayName: 渎神泡泡
 DesecratedWaterProj.DisplayName: 渎神水流
 DestructionBolt.DisplayName: 毁灭弹
-DestructionExplosion.DisplayName: Destruction Explosion
+DestructionExplosion.DisplayName: 毁灭爆炸
 DestructionStar.DisplayName: 毁灭之星
 DragonScalesInfernado.DisplayName: 地狱龙炎
 DragonShit.DisplayName: 火焰
@@ -309,7 +309,7 @@ TotalityFire.DisplayName: 集束火焰
 TotalityFlask.DisplayName: 集束燃爆瓶
 TotalityTar.DisplayName: 浓缩焦油
 TotalMeltdown.DisplayName: 爆炸
-ToxicantTwisterDust.DisplayName: Toxicant Raindrop
+ToxicantTwisterDust.DisplayName: 剧毒雨滴 
 ToxicantTwisterProj.DisplayName: 剧毒旋风
 TurbulanceProjectile.DisplayName: 乱流长枪
 TurbulanceWindSlash.DisplayName: 风斩
@@ -327,5 +327,5 @@ WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 钨钢飞刀
-RadiationBurst.DisplayName: Radiation Burst
-RadiationRain.DisplayName: Radiation Rain
+RadiationBurst.DisplayName: 辐射爆发
+RadiationRain.DisplayName: 辐射雨

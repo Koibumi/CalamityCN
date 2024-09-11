@@ -14,7 +14,7 @@ AstralSandBallFalling.DisplayName: 星幻沙块
 AstralSandBallGun.DisplayName: 星环沙块
 AstralSpray.DisplayName: 星体喷流
 AstralStar.DisplayName: 彗星
-AuricLandMineExplosion.DisplayName: Auric Land Mine Explosion
+AuricLandMineExplosion.DisplayName: 金源地雷爆炸
 BasicPlagueBee.DisplayName: 基础瘟疫蜜蜂
 BlazingStarHeal.DisplayName: 治愈神圣之星
 BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
@@ -59,7 +59,7 @@ FlameLickedHellblast.DisplayName: 舐火狱燃爆
 FuckYou.DisplayName: 爆炸
 FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
-GenericElectricSpark.DisplayName: Electric Spark
+GenericElectricSpark.DisplayName: 电火花
 GhostlyBolt.DisplayName: 闪电
 GodKiller.DisplayName: 神杀
 GodSlayerShrapnel.DisplayName: 火焰
@@ -103,8 +103,8 @@ Seashell.DisplayName: 贝壳
 SepulcherSoul.DisplayName: 折磨之魂
 SerpentsBiteHook.DisplayName: 巨蟒之咬
 ShadeNimbus.DisplayName: 暗影乌云
-ShadeNimbusRain.DisplayName: Shade Rain
-ShadeNimbusSpawner.DisplayName: Dank Creeper
+ShadeNimbusRain.DisplayName: 暗影之雨
+ShadeNimbusSpawner.DisplayName: 沼泽之眼
 ShadowflameExplosion.DisplayName: 暗影炎爆
 ShadowflameExplosionBig.DisplayName: 暗影炎爆
 SkyFlareFriendly.DisplayName: 烈焰
@@ -121,7 +121,7 @@ SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
 TarragonAura.DisplayName: 龙蒿光环
 TeslaAura.DisplayName: 磁暴
-TitanHeartBoom.DisplayName: Titan Heart Boom
+TitanHeartBoom.DisplayName: 泰坦之心爆炸
 UrsaSlash.DisplayName: Ursa Slash
 VerstaltiteBobber.DisplayName: 极寒浮标
 VoidFieldGenerator.DisplayName: 虚空力场生成器

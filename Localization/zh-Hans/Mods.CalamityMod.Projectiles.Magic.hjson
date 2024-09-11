@@ -100,7 +100,7 @@ IceBlockIcicle.DisplayName: 寒冰弹幕
 IceCluster.DisplayName: 冰簇
 Icicle.DisplayName: 冰锥
 IcicleStaffProj.DisplayName: 高速冰柱
-IncineratingFireball.DisplayName: Incinerating Fireball
+IncineratingFireball.DisplayName: 焚海火球
 InfernadoFriendly.DisplayName: 烈焰龙卷
 InfernadoMarkFriendly.DisplayName: 火龙卷标记
 InfernalBlade.DisplayName: 烈刃龙卷
@@ -162,10 +162,10 @@ PlasmaRay.DisplayName: 等离子射线
 PlasmaRay2.DisplayName: 等离子射线
 PlasmaShot.DisplayName: 等离子喷丸
 PoseidonTyphoon.DisplayName: 海神之台风
-PrimordialAncientExplosion.DisplayName: Primordial Ancient
-PrimordialAncientProjectile.DisplayName: Primordial Ancient
-PrimordialEarthExplosion.DisplayName: Primordial Earth
-PrimordialEarthProjectile.DisplayName: Primordial Earth
+PrimordialAncientExplosion.DisplayName: 始源之遗
+PrimordialAncientProjectile.DisplayName: 始源之遗
+PrimordialEarthExplosion.DisplayName: 始源之尘
+PrimordialEarthProjectile.DisplayName: 始源之尘
 PrinceFlameLarge.DisplayName: 神圣火球
 PrinceFlameSmall.DisplayName: 圣火
 RainbowComet.DisplayName: 陨星
