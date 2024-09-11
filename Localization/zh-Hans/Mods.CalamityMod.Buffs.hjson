@@ -109,7 +109,7 @@ WhiskeyBuff: {
 }
 
 WhiteWineBuff: {
-	DisplayName: 白酒
+	DisplayName: 白葡萄酒
 	Description: 魔法伤害增加，但生命再生和防御力降低
 }
 
