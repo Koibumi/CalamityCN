@@ -229,7 +229,7 @@ CryogenicStaff: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons an ice construct to unleash the cold upon your enemies
+		召唤一个寒冰构造体，向你的敌人释放极端的寒冷
 		攻击速度和射程会随着攻击时间的增加而增加
 		'''
 }
@@ -295,7 +295,7 @@ DreadmineStaff: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a turret that swarms your enemies with sea mines
+		召唤一个炮台，用渊雷包围你的敌人
 		'''
 }
 
@@ -435,7 +435,7 @@ GuidelightofOblivion: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a lantern that swarms your enemies with flames
+		召唤一个灯笼，用火焰吞噬你的敌人
 		“无尽火焰的暗影之梦，火焰吞噬，余烬落下”
 		'''
 }
@@ -524,9 +524,9 @@ Metastasis: {
 		'''
 		召唤灾坟魔物为你而战
 		当灾坟魔物存在时，你的周围会不断出现硫磺火之心
-		When too many hearts are present, it will interrupt attacking to attack the hearts instead
-		This happens more frequently depending on how many hearts are present
-		Requires 4 minion slots to use and can only be summoned once
+		当硫磺火心过多时，灾坟魔物会中断攻击，转而攻击硫磺火心
+		硫磺火心越多，上述情况越频繁
+		需要四个仆从栏位且只能召唤一次
 		'''
 	Calamitas:
 		'''
@@ -572,7 +572,7 @@ OrthoceraShell: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a flying orthocera to spit acid streams at your enemies
+		召唤一个悬空的直角石壳，向你的敌人喷射酸液流
 		'''
 }
 
@@ -624,7 +624,7 @@ RustyBeaconPrototype: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a long-abandoned drone that passively emits irradiated waves
+		召唤一架废弃已久的无人机，被动地释放辐射波
 		'''
 }
 
@@ -633,7 +633,7 @@ SanctifiedSpark: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a friendly immolator to fire holy sparks at your enemies
+		召唤一个友好的亵渎献祭者，向你的敌人发射神圣火花
 		'''
 }
 
@@ -693,12 +693,12 @@ SpikecragStaff: {
 	TooltipNormal:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a bed of stalagmites to spray spikes at your enemies
+		召唤一片石笋，向你的敌人散布尖刺
 		'''
 	TooltipGFB:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a bed of stalagmites to spray spikes at your enemies
+		召唤一片石笋，向你的敌人散布尖刺
 		击败亵渎天神以解放它真正的力量
 		'''
 }
@@ -708,7 +708,7 @@ SquirrelSquireStaff: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a squirrel to throw acorns at your enemies
+		召唤一只松鼠，向你的敌人丢松果
 		'''
 }
 

@@ -18,7 +18,7 @@ AbyssBlade: {
 }
 
 AcidwoodSword: {
-	DisplayName: Acidwood Sword
+	DisplayName: 酸蚀木剑
 	Tooltip: ""
 }
 
@@ -406,7 +406,7 @@ DragonRage: {
 
 DriftwoodSword: {
 	DisplayName: Driftwood Sword
-	Tooltip: This sword is stronger while you are wet
+	Tooltip: 这把剑在潮湿时更强
 }
 
 Earth: {
@@ -801,7 +801,7 @@ MirrorBlade: {
 }
 
 MonolithSword: {
-	DisplayName: Monolith Sword
+	DisplayName: 星石剑
 	Tooltip: ""
 }
 

@@ -159,7 +159,7 @@ PulseTurretRemote: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a turret to fire explosive pulse blasts at your enemies
+		召唤一个炮塔，向你的敌人发射爆炸性脉冲冲击
 		同时只能存在至多一个脉冲炮塔
 		'''
 }

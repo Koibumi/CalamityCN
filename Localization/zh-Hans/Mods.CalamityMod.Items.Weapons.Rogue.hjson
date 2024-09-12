@@ -573,7 +573,7 @@ Icebreaker: {
 	DisplayName: 破冰者
 	Tooltip:
 		'''
-		Throws an icy hammer that magically returns to the player
+		丢出一个会神奇地返回玩家的冰冻之锤
 		潜伏攻击产生冰霜爆炸并在命中时冻结周围的敌人
 		'''
 }

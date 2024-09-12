@@ -4,17 +4,17 @@ AbyssalWarhammer: {
 }
 
 AcidwoodAxe: {
-	DisplayName: Acidwood Axe
+	DisplayName: 酸蚀木斧
 	Tooltip: ""
 }
 
 AcidwoodHammer: {
-	DisplayName: Acidwood Hammer
+	DisplayName: 酸蚀木锤
 	Tooltip: ""
 }
 
 AcidwoodPickaxe: {
-	DisplayName: Acidwood Pickaxe
+	DisplayName: 酸蚀木镐
 	Tooltip: ""
 }
 
@@ -99,17 +99,17 @@ CrystylCrusher: {
 
 DriftwoodAxe: {
 	DisplayName: Driftwood Axe
-	Tooltip: Improved efficiency while you are wet
+	Tooltip: 潮湿时提升效率
 }
 
 DriftwoodHammer: {
 	DisplayName: Driftwood Hammer
-	Tooltip: Improved efficiency while you are wet
+	Tooltip: 潮湿时提升效率
 }
 
 DriftwoodPickaxe: {
 	DisplayName: Driftwood Pickaxe
-	Tooltip: Improved efficiency while you are wet
+	Tooltip: 潮湿时提升效率
 }
 
 FellerofEvergreens: {
@@ -169,17 +169,17 @@ MarniteObliterator: {
 }
 
 MonolithAxe: {
-	DisplayName: Monolith Axe
+	DisplayName: 星石斧
 	Tooltip: ""
 }
 
 MonolithHammer: {
-	DisplayName: Monolith Hammer
+	DisplayName: 星石锤
 	Tooltip: ""
 }
 
 MonolithPickaxe: {
-	DisplayName: Monolith Pickaxe
+	DisplayName: 星石镐
 	Tooltip: ""
 }
 

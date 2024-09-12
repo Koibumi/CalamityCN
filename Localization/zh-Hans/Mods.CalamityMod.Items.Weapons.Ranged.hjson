@@ -11,7 +11,7 @@ AcesHigh: {
 }
 
 AcidwoodBow: {
-	DisplayName: Acidwood Bow
+	DisplayName: 酸蚀木弓
 	Tooltip: ""
 }
 
@@ -449,7 +449,7 @@ Drataliornus: {
 
 DriftwoodBow: {
 	DisplayName: Driftwood Bow
-	Tooltip: This bow is stronger while you are wet
+	Tooltip: 这把弓在潮湿时更强
 }
 
 EternalBlizzard: {
@@ -785,7 +785,7 @@ MolecularManipulator: {
 }
 
 MonolithBow: {
-	DisplayName: Monolith Bow
+	DisplayName: 星石弓
 	Tooltip: ""
 }
 
