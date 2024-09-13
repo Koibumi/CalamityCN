@@ -170,9 +170,9 @@ Frogfish.DisplayName: 躄鱼
 Horse.DisplayName: 大地元素
 IceClasper.DisplayName: 食魂冰虫
 ImpiousImmolator.DisplayName: 亵渎献祭者
-KingSlimeJewelEmerald.DisplayName: Emerald Jewel
-KingSlimeJewelRuby.DisplayName: Ruby Jewel
-KingSlimeJewelSapphire.DisplayName: Sapphire Jewel
+KingSlimeJewelEmerald.DisplayName: 王冠绿宝石
+KingSlimeJewelRuby.DisplayName: 王冠红宝石
+KingSlimeJewelSapphire.DisplayName: 王冠蓝宝石
 LavaSlimeNoLavaDrop.DisplayName: 熔岩史莱姆
 MantisShrimp.DisplayName: 螳螂虾
 OverloadedSoldier.DisplayName: 过载装甲骷髅
@@ -597,7 +597,7 @@ THIEF: {
 		LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
 		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
 		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
-		Princess_LovesNPC: "{NPCName}送给我的是其他人的东西的精致仿制品，我想知道他们是怎么做到的！"
+		Princess_LovesNPC: "{NPCName}送给我的东西，其他人好像也有一模一样的，我想知道这是怎么做到的！"
 	}
 }
 

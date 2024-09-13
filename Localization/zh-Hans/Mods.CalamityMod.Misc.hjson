@@ -21,7 +21,7 @@ RecipeGroup: {
 // Status
 WikiStatus1: "[i:Book] [c/EE4939:备注: Fandom wiki已经不再支持灾厄Mod。] [i:Book]"
 WikiStatus2: "[i:Book] [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:calamity.huijiwiki.com][c/EE4939:!] [i:Book]"
-VCMMStatus: "[i:MusicBoxMartians] [c/67F567:Check out the Vanilla Calamity Music Mod at ][c/3898FF:calamitymod.com/downloadvanillamusic][c/67F567:!] [i:MusicBoxMartians]"
+VCMMStatus: "[i:MusicBoxMartians] [c/67F567:前往][c/3898FF:calamitymod.com/downloadvanillamusic][c/67F567:获取原版灾厄音乐模组！] [i:MusicBoxMartians]"
 // Recipe Conditions
 Tier1ArsenalRecipeCondition: 获得沉沦之海原型图
 Tier2ArsenalRecipeCondition: 破译小行星加密原型图
@@ -40,8 +40,8 @@ CragmawVibeCheck: 感觉如何？
 AutocannonHot: 我焯！好烫！
 NoComputer: 未安装解密计算机
 ArkParry: 格挡！
-BurningSeaBurn: It burns...
-LightsWarning: I've gotta give you a flashing lights warning on this one
+BurningSeaBurn: 硫火焚身……
+LightsWarning: 这下可要来点光污染了嗷
 ClockworkTick: 嘀
 ClockworkTock: 嗒
 SevensJackpot: 正中彩头！！！
@@ -59,10 +59,10 @@ EtherealCoreText: 你已经使用一个飘渺之核了。再用的话会让你�
 PhantomHeartText: 你已经使用一个幻影之心了。它们低语告诉你再用一个是个坏主意。
 SulphurSwitchLeft: 硫磺海现在位于世界左侧。
 SulphurSwitchRight: 硫磺海现在位于世界右侧。
-Polaris1: You give Polaris belly rubs
-Polaris2: You give Polaris a small treat
-Polaris3: You tell Polaris she's a good girl
-Polaris4: You let Polaris cuddle your arm
-Polaris5: You pet Polaris
+Polaris1: 你摸了摸鱼鱼肚肚
+Polaris2: 你投喂了鱼鱼
+Polaris3: 你告诉鱼鱼说她真是一条好鱼
+Polaris4: 你抱了抱鱼鱼
+Polaris5: 你拍了拍鱼鱼
 // Point Blank
 PointBlank: 对近距离敌怪射击时造成额外伤害
