@@ -37,8 +37,8 @@ AnahitasArpeggio: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Holding <left> casts up to 6 treble clefs that orbit the player
-		Releasing <left> causes the treble clefs to fade away, then converge at the cursor
+		按住左键发射至多6个围绕玩家的高音音符
+		松开左键会使高音音符消失，然后在光标处汇聚
 		'''
 	TooltipGFB:
 		'''
@@ -51,8 +51,8 @@ Apathanull: {
 	DisplayName: Apathanull
 	Tooltip:
 		'''
-		Casts a spread of dark cosmic tentacles to skewer your enemies
-		Tentacles will aim at your cursor and lash out three times before disappearing
+		发射一阵暗黑宇宙触手串烧你的敌人
+		触手会瞄准你的光标并在攻击三次后消失
 		'''
 }
 
@@ -165,9 +165,9 @@ BurningSea: {
 	DisplayName: 蒸海硫火
 	Tooltip:
 		'''
-		Conjures a massive brimstone fireball that hovers near you and incinerates foes
-		Holding the fireball for too long causes it to burn out
-		This burns you with Brimstone Flames and gives a long delay before another can be cast
+		产生一个在你附近悬浮的大型硫磺火球点燃敌怪
+		按住火球太久会使它燃尽
+		这会用硫磺火点燃你并且需要经过一段很长的延迟才能再次发射
 		'''
 }
 
@@ -247,9 +247,9 @@ DeathValleyDuster: {
 	DisplayName: 死亡之尘
 	Tooltip:
 		'''
-		Casts an enchanted blast of sand that passes through enemies and tiles
-		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
-		The Sand's Wind Buff increases your defense by 10 and damage by 12%
+		发射一道可以穿过敌怪和物块的附魔沙暴
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得Sand's Wind增益
+		Sand's Wind增益会增加10点防御和12%伤害
 		'''
 }
 
@@ -276,7 +276,7 @@ EidolicWail: {
 	DisplayName: 幻妖龙吟
 	Tooltip:
 		'''
-		Fires a string of bouncing sound waves that slow down on enemy hits
+		发射一串可反弹的音波，命中敌怪后减速
 		贯耳魔音
 		'''
 }
@@ -392,8 +392,8 @@ GruesomeEminence: {
 	DisplayName: 异端僭越
 	Tooltip:
 		'''
-		Summons a gaseous conglomeration of spirits near the cursor that fly around wildly
-		Over time, the spirits accumulate to create a single, controllable monstrosity
+		在光标附近召唤一团气态的灵魂聚合体，不受控制地飞行
+		随时间推移，灵魂会聚集成单个，可控的怪物
 		'''
 	Calamitas:
 		'''
@@ -494,7 +494,7 @@ LashesofChaos: {
 	DisplayName: 混乱火鞭
 	Tooltip:
 		'''
-		Alternates between exploding hellfireballs and piercing hellblasts
+		交替发射爆炸狱火球和穿透深渊亡魂
 		“静看着整个世界的燃烧……”
 		'''
 }
@@ -547,7 +547,7 @@ NanoPurge: {
 	Tooltip:
 		'''
 		发射纳米激光弹幕
-		Bounces towards the nearest enemy after hitting a wall
+		击中墙壁后弹向最近的敌怪
 		'''
 }
 
@@ -600,7 +600,7 @@ ParasiticSceptor: {
 
 PhantasmalFury: {
 	DisplayName: 幻象之怒
-	Tooltip: Casts a vortex of homing souls around you that repels enemies and will fly towards your cursor after a few seconds
+	Tooltip: 发射一阵围绕你的追踪灵魂漩涡，击退敌怪并在几秒后飞向你的光标
 }
 
 PhoenixFlameBarrage: {
@@ -654,9 +654,9 @@ PrimordialAncient: {
 	DisplayName: 始源之遗
 	Tooltip:
 		'''
-		Casts five primordial sand blasts that converge at your cursor after a moment and create a giant explosion
-		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Aeolian Earth Buff
-		The Aeolian Earth Buff increases your damage reduction by 8% and damage by 18%
+		发射五道始源沙暴，一段时间后向你的光标汇聚并产生大爆炸
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得Aeolian Earth增益
+		Aeolian Earth增益会增加8%伤害减免和18%伤害
 		'''
 }
 
@@ -664,9 +664,9 @@ PrimordialEarth: {
 	DisplayName: 始源之尘
 	Tooltip:
 		'''
-		Casts two enchanted blasts of sand that coverge with each other and explode
-		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
-		The Sand's Wind Buff increases your defense by 10 and damage by 12%
+		发射两道相互汇聚并爆炸的附魔沙暴
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得Sand's Wind增益
+		Sand's Wind增益会增加10点防御和12%伤害
 		'''
 }
 
@@ -686,7 +686,7 @@ Rancor: {
 	Tooltip:
 		'''
 		召唤一个圆形法阵，法阵会逐渐蓄力，最终会发射出一束强大的怨戾激光
-		The laser causes arms and searing lava to appear on surfaces it touches
+		被激光接触的物块表面会出现亡魂之手和炽热岩浆
 		'''
 	Calamitas:
 		'''
@@ -733,8 +733,8 @@ SeethingDischarge: {
 	DisplayName: 沸腾之火
 	Tooltip:
 		'''
-		Fires an accelerating arc of brimstone hellblasts
-		Every third attack spawns a brimstone dart ring which chases after foes
+		发射逐渐加速的弧形深渊亡魂
+		每第三次攻击会生成一圈追逐敌人的硫火飞镖
 		'''
 }
 

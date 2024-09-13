@@ -246,7 +246,7 @@ ChromaticEruption: {
 	DisplayName: Chromatic Eruption
 	Tooltip:
 		'''
-		Charges up to spew rainbow flames and pairs of homing chromatic flares
+		蓄力喷射彩虹火焰和成对的追踪彩色耀斑
 		使用凝胶作为弹药
 		70%几率节省弹药
 		'''
@@ -449,7 +449,7 @@ Drataliornus: {
 
 DriftwoodBow: {
 	DisplayName: Driftwood Bow
-	Tooltip: 这把弓在潮湿时更强
+	Tooltip: 当你潮湿时这把弓会更强
 }
 
 EternalBlizzard: {
@@ -466,10 +466,10 @@ FetidEmesis: {
 	DisplayName: 腐臭倾泻者
 	Tooltip:
 		'''
-		Fires an accelerating stream of bullets until the barrel overheats
-		When the barrel overheats, a spread of fetid chunks is vomited out
-		After firing, the gun must cool back down before it can be used again
-		75% chance to save ammo
+		发射加速子弹流直到枪管过热
+		当枪管过热时会吐出一阵腐烂肉块
+		发射肉块后，枪必须冷却完成才可继续使用
+		75%几率节省弹药
 		'''
 }
 
@@ -1010,8 +1010,8 @@ RubicoPrime: {
 	DisplayName: 绝路Prime
 	Tooltip:
 		'''
-		A powerful sniper rifle that must reload after 5 shots
-		Fires impact rounds that deal increased critical damage
+		一把强力的狙击步枪，发射5发后必须重新装弹
+		发射暴击伤害更高的冲击弹
 		'''
 }
 
@@ -1078,12 +1078,12 @@ SepticSkewer: {
 	DisplayName: 剧毒叉枪
 	Tooltip:
 		'''
-		Launches a vile chained harpoon infested with toxins
-		Harpoons stick into enemies and inflict Sulphuric Poisoning for a long time
-		After being impaled for one second, harpoons rip themselves back out and spray damaging gores
-		Press <right> to manually rip out all harpoons, dealing bonus damage
-		Enemies close to death are dragged back with returning harpoons and executed when they reach you
-		Executions heal you for 25 health and launch an additional harpoon automatically
+		发射一把充满毒素的邪恶链式鱼叉
+		鱼叉会粘在敌怪身上并造成长时间的硫磺海剧毒
+		被刺穿1秒后，鱼叉会撕开它们并喷出伤害性血污
+		按右键手动撕出所有鱼叉，造成额外伤害
+		接近死亡的敌怪会被返回的鱼叉拖回你身边并在它们到达你后被处决
+		被处决的敌怪会治疗你25点生命值并自动发射一个额外的鱼叉
 		'''
 }
 
@@ -1161,10 +1161,10 @@ SpeedBlaster: {
 	Tooltip:
 		'''
 		快速发射磷光彩弹
-		Press <right> to eject a powerful paint stream of a different color
-		Using this ability rapidly propels you in the direction you are moving
-		This ability has a {0} second cooldown
-		During this cooldown, you fire more rapidly with greater accuracy
+		按下右键发射一束强力彩弹
+		使用此能力会快速将你推向你移动的方向
+		此能力有{0}秒的冷却
+		在冷却期间你的发射速度更快，精度更高
 		'''
 }
 
@@ -1330,7 +1330,7 @@ TheSevensStriker: {
 		“给予伟大的神射手的枪械
 		锻造自无名男子之手”
 		'''
-	HoldShiftTooltip: "[c/ADD8E6:'LET'S GO GAMBLING!']"
+	HoldShiftTooltip: "[c/ADD8E6:“一起去赌博吧！”]"
 }
 
 TheStorm: {

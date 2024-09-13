@@ -573,7 +573,7 @@ Icebreaker: {
 	DisplayName: 破冰者
 	Tooltip:
 		'''
-		丢出一个会神奇地返回玩家的冰冻之锤
+		扔出一个会神奇地返回玩家的冰锤
 		潜伏攻击产生冰霜爆炸并在命中时冻结周围的敌人
 		'''
 }
@@ -1056,9 +1056,9 @@ ShardofAntumbra: {
 	DisplayName: 半影裂片
 	Tooltip:
 		'''
-		Throws a cosmic javelin that sticks into enemies and tiles, creating a small rift nearby on enemy hits
-		After hitting a target, it will charge with energy and teleport to the rift, aiming itself at the nearest target
-		Stealth strikes create a multitude of rifts to spawn additional javelins upon teleporting
+		投掷一把会粘在敌怪和物块上的星宇标枪，击中敌怪时在其附近产生小型裂隙
+		击中目标后，它会充能并传送至裂隙处，并将自身瞄准最近的目标
+		潜伏攻击会产生多个裂隙，在传送时生成额外的标枪
 		'''
 }
 
@@ -1168,10 +1168,10 @@ StarofDestruction: {
 	DisplayName: 毁灭之星
 	Tooltip:
 		'''
-		Throws a fan of cosmic bolts that meld together into a star of destruction
-		The explosive star will slowly follow your cursor until it expires or hits an enemy
-		      Upon running out of time, the star will burst into a huge explosion that deals increased damage
-		Stealth strikes throw additional bolts that converge into faster star that can pierce, exploding on every hit
+		投掷出扇形范围的星宇矢，融合成为毁灭之星
+		毁灭之星会缓慢跟随你的光标直到它到达爆炸时间或击中敌怪
+		时间耗尽后，毁灭之星会产生伤害更高的大爆炸
+		潜伏攻击会投掷额外的星宇矢，汇聚成更快的，可穿透的，每次击中都会产生爆炸的毁灭之星
 		'''
 }
 
@@ -1267,10 +1267,10 @@ TheOldReaper: {
 	DisplayName: 死神遗镰
 	Tooltip:
 		'''
-		Throws an irradiated scythe that cuts through enemies
-		Deposits unstable isotopes on hit, which create delayed nuclear explosions when they decay
-		Stealth strikes are thrown into the sky and fall upon enemies a few seconds later
-		On hit, stealth strikes create a focused deluge of acid rain
+		投掷一把可以切过敌人的辐射镰刀
+		命中时会沉积不稳定同位素，在它们衰变时产生延迟的核爆炸
+		潜伏攻击时镰刀会被扔向天空并在几秒后落到敌人上方
+		击中时，潜伏攻击会产生集中倾泻的酸雨
 		'''
 }
 
@@ -1329,8 +1329,8 @@ ToxicantTwister: {
 	DisplayName: 剧毒旋风
 	Tooltip:
 		'''
-		Throws a fan of four spinning disks that swirl around your cursor
-		Stealth strikes swirl in a wider range and create a vortex of toxic raindrops that home in on enemies
+		扇形投掷出四把围绕你光标旋转的旋转飞盘
+		潜伏攻击会使飞盘会在更大的范围内旋转并产生漩涡状的剧毒雨滴追踪敌怪
 		'''
 }
 
@@ -1339,7 +1339,7 @@ Turbulance: {
 	Tooltip:
 		'''
 		发射一支会在命中时产生旋风的穿云标枪
-		Wind slashes occasionally home, and always home if the javelin crits
+		旋风偶尔会追踪，但标枪暴击时总会追踪
 		潜伏攻击会在飞行轨迹上生成追踪旋风
 		'''
 }

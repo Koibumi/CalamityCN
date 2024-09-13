@@ -229,7 +229,7 @@ CryogenicStaff: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一个寒冰构造体，向你的敌人释放极端的寒冷
+		召唤一个冰晶结构体，向你的敌人释放严寒
 		攻击速度和射程会随着攻击时间的增加而增加
 		'''
 }
@@ -295,7 +295,7 @@ DreadmineStaff: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一个炮台，用渊雷包围你的敌人
+		召唤一个炮塔，用渊雷包围你的敌人
 		'''
 }
 
@@ -505,7 +505,7 @@ KingofConstellationsTenryu: {
 
 LegionofCelestia: {
 	DisplayName: Legion of Celestia
-	Tooltip: Summons a possessed, celestial axe to fight for you
+	Tooltip: 召唤一把着魔的天界斧头为你战斗
 }
 
 LiliesOfFinality: {
@@ -523,10 +523,10 @@ Metastasis: {
 	Tooltip:
 		'''
 		召唤灾坟魔物为你而战
-		当灾坟魔物存在时，你的周围会不断出现硫磺火之心
+		当灾坟魔物存在时，你的周围会不断出现硫磺火心
 		当硫磺火心过多时，灾坟魔物会中断攻击，转而攻击硫磺火心
 		硫磺火心越多，上述情况越频繁
-		需要四个仆从栏位且只能召唤一次
+		需要四个仆从栏位且只能召唤一只
 		'''
 	Calamitas:
 		'''
@@ -572,7 +572,7 @@ OrthoceraShell: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一个悬空的直角石壳，向你的敌人喷射酸液流
+		召唤一个悬空的直角石，向你的敌人喷射酸液流
 		'''
 }
 
@@ -633,7 +633,7 @@ SanctifiedSpark: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一个友好的亵渎献祭者，向你的敌人发射神圣火花
+		召唤一只友好的亵渎献祭者，向你的敌人发射神圣火花
 		'''
 }
 
@@ -693,12 +693,12 @@ SpikecragStaff: {
 	TooltipNormal:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一片石笋，向你的敌人散布尖刺
+		召唤一片石笋，向你的敌人散射尖刺
 		'''
 	TooltipGFB:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一片石笋，向你的敌人散布尖刺
+		召唤一片石笋，向你的敌人散射尖刺
 		击败亵渎天神以解放它真正的力量
 		'''
 }
@@ -708,7 +708,7 @@ SquirrelSquireStaff: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一只松鼠，向你的敌人丢松果
+		召唤一只松鼠，向你的敌人投掷橡实
 		'''
 }
 
