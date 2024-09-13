@@ -106,7 +106,13 @@ ArtAttack: {
 
 AsteroidStaff: {
 	DisplayName: Asteroid Staff
-	Tooltip: Summons asteroids from the sky
+	Tooltip: "[GFB]"
+	TooltipNormal: Summons asteroids from the sky
+	TooltipGFB:
+		'''
+		Core Keeper Chaos Staff
+		bottom text
+		'''
 }
 
 AstralachneaStaff: {

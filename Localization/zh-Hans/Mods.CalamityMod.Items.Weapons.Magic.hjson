@@ -106,7 +106,13 @@ ArtAttack: {
 
 AsteroidStaff: {
 	DisplayName: 行星法杖
-	Tooltip: 召唤小行星从天而降
+	Tooltip: "[GFB]"
+	TooltipNormal: 召唤小行星从天而降
+	TooltipGFB:
+		'''
+		Core Keeper Chaos Staff
+		bottom text
+		'''
 }
 
 AstralachneaStaff: {

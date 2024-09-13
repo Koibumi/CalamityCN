@@ -468,6 +468,8 @@ FetidEmesis: {
 		'''
 		发射加速子弹流直到枪管过热
 		当枪管过热时会吐出一阵腐烂肉块
+		Holding <right> while firing will hold in the chunks
+		If held in for long enough, more chunks will be fired
 		发射肉块后，枪必须冷却完成才可继续使用
 		75%几率节省弹药
 		'''

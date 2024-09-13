@@ -149,7 +149,7 @@ Celestus: {
 
 Cinquedea: {
 	DisplayName: Cinquedea
-	Tooltip: Stealth strikes home in after hitting an enemy
+	Tooltip: Stealth strikes stick into enemies before launching forward, slicing everything
 }
 
 CobaltKunai: {
@@ -349,7 +349,7 @@ EnchantedAxe: {
 		'''
 		Throws a high velocity axe that returns to you after travelling a short distance or hitting a wall
 		At the furthest point from the player, a magical axe that travels through walls will be cast towards the nearest enemy
-		Stealth strikes make the axe fly further, throwing out many other magical axes in all directions
+		Stealth strikes make the axe fly further, casting additional homing magical axes
 		'''
 }
 
@@ -646,7 +646,7 @@ Kylie: {
 	DisplayName: Kylie
 	Tooltip:
 		'''
-		Stealth strikes throws three shorter ranged kylies instead of a single long range one
+		Stealth strikes throw a kylie that weakly seeks out your cursor
 		'Also known as Dowak'
 		'''
 }
@@ -719,8 +719,8 @@ MetalMonstrosity: {
 	DisplayName: Metal Monstrosity
 	Tooltip:
 		'''
-		Hurls a heavy metal ball that shatters on impact
-		Stealth strikes cause the ball to release spikes as it travels
+		Hurls a heavy metal ball that shatters into shards and spiky balls on impact
+		Stealth strikes cause the ball to impale hit enemies, piercing them with extra shards when it breaks
 		'This has to hurt'
 		'''
 }
