@@ -308,7 +308,7 @@ CalamityClientConfig: {
 	}
 
 	VCMMStatusMessage: {
-		Label: "[i:MusicBoxMartians] VCMM Status Message"
+		Label: "[i:MusicBoxMartians] VCMM状态讯息"
 		Tooltip: 启用/禁用进入世界的VCMM状态讯息提示。
 	}
 
@@ -394,7 +394,7 @@ CalamityServerConfig: {
 	}
 
 	FasterRopeClimbSpeed: {
-		Label: "[i:Rope] 更高爬绳速度"
+		Label: "[i:Rope] 更快爬绳速度"
 		Tooltip:
 			'''
 			大幅提高玩家爬绳的速度（提高在绳上的加速度和减速度）。

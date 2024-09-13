@@ -1443,7 +1443,7 @@ AuricDisplay: {
 
 AuricLandMine: {
 	DisplayName: Auric Land Mine
-	Tooltip: Explodes when stepped on...
+	Tooltip: 踩上后爆炸……
 }
 
 AuricPanel: {
@@ -3854,6 +3854,6 @@ ScintillatingBloom: {
 }
 
 PyreMantleWall: {
-	DisplayName: Pyre Mantle Wall
+	DisplayName: 热泉焦岩墙
 	Tooltip: ""
 }

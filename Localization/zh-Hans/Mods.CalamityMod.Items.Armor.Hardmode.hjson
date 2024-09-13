@@ -466,11 +466,11 @@ ReaverHeadExplore: {
 		'''
 	SetBonus:
 		'''
-		Summons an orb which highlights nearby treasure and provides light
-		Grants underwater breathing and reduced enemy aggression
-		These have a moderate effect while in the Abyss
-		Increased block placement & tool range by 7
-		Increases pickup range for items
+		召唤一个高亮附近宝藏并提供光照的球
+		获得水下呼吸能力并降低敌怪攻击性
+		在深渊中时会提供适量以上效果
+		增加7格物块放置及工具的范围
+		增加物品的拾取范围
 		'''
 }
 

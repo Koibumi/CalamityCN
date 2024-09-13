@@ -150,7 +150,7 @@ Celestus: {
 
 Cinquedea: {
 	DisplayName: 五指剑
-	Tooltip: Stealth strikes stick into enemies before launching forward, slicing everything
+	Tooltip: 潜伏攻击会粘在敌怪身上，接着向前发射，切碎一切
 }
 
 CobaltKunai: {
@@ -350,7 +350,7 @@ EnchantedAxe: {
 		'''
 		扔出一把高速飞斧，撞到物块或短距离飞行后返回
 		在每次飞行最远点召唤一个能穿墙和自动瞄准的魔法飞斧
-		Stealth strikes make the axe fly further, casting additional homing magical axes
+		潜伏攻击使斧头飞的更远，并发射额外的追踪魔法飞斧
 		'''
 }
 
@@ -647,7 +647,7 @@ Kylie: {
 	DisplayName: 回飞棒
 	Tooltip:
 		'''
-		Stealth strikes throw a kylie that weakly seeks out your cursor
+		潜伏攻击扔出一把略微追踪光标的回飞棒
 		“也叫作Dowak”
 		'''
 }
@@ -720,8 +720,8 @@ MetalMonstrosity: {
 	DisplayName: 易碎金属球
 	Tooltip:
 		'''
-		Hurls a heavy metal ball that shatters into shards and spiky balls on impact
-		Stealth strikes cause the ball to impale hit enemies, piercing them with extra shards when it breaks
+		投掷一个重金属球，撞击时裂成碎片和尖球
+		潜伏攻击会使金属球粘在被击中的敌怪身上，破碎时用额外的碎片穿透它们
 		“哦，那一定很疼”
 		'''
 }

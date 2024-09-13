@@ -43,7 +43,7 @@ BubonicRound: {
 
 CinderArrow: {
 	DisplayName: 余烬箭
-	Tooltip: Explosive arrows that burst into weak flaming Brimstone Shards
+	Tooltip: 爆炸成弱性燃烧硫磺火碎片的箭矢
 }
 
 DryadsTear: {
@@ -58,7 +58,7 @@ ElysianArrow: {
 
 FlashRound: {
 	DisplayName: 眩晕弹
-	Tooltip: Emits a wide-reaching concussive blast which briefly confuses enemies
+	Tooltip: 释放范围广的震荡爆炸，短暂困惑敌怪
 }
 
 GodSlayerSlug: {
@@ -66,7 +66,7 @@ GodSlayerSlug: {
 	Tooltip:
 		'''
 		具有无限穿透能力的重型弹药，其威力足以撕裂时空
-		Slugs that strike a target will warp back and supercharge, shattering on hit
+		命中目标的子弹会扭曲时空至玩家身后并超级充能，击中敌怪后碎裂
 		'''
 }
 
@@ -83,7 +83,7 @@ HallowPointRound: {
 	DisplayName: 神圣空尖弹
 	Tooltip:
 		'''
-		Releases anointed light on hit that increases the bullet's base damage to [DAMAGE]
+		命中时释放圣光，将子弹的基础伤害提升至[DAMAGE]
 		如果弹药被特殊枪械转化，则此效果不生效。
 		'''
 }
@@ -92,22 +92,22 @@ HolyFireBullet: {
 	DisplayName: 圣火弹
 	Tooltip:
 		'''
-		Profaned bullets that explode on impact, dealing extra damage
-		The explosion grows weaker the further the bullet travels
+		撞击时爆炸并造成额外伤害的亵渎子弹
+		子弹运动越远，爆炸强度越弱
 		'''
 }
 
 HyperiusBullet: {
 	DisplayName: 海伯里斯弹
-	Tooltip: Dazzling multicolor bullets that split into swirling lights on impact
+	Tooltip: 耀眼的多彩子弹，撞击时分裂出闪烁的色彩漩涡
 }
 
 IcicleArrow: {
 	DisplayName: 冰锥箭
 	Tooltip:
 		'''
-		Once shot, arrows quickly freeze into falling icicles
-		Hitting enemies or tiles before the arrow fully freezes causes it to bounce upwards
+		发射后箭矢会快速冻结为天降冰锥
+		在箭矢完全冻结前击中敌怪或物块会使它向上反弹
 		'''
 }
 
@@ -154,7 +154,7 @@ VanquisherArrow: {
 	Tooltip:
 		'''
 		可以穿过物块并能追踪敌怪
-		Tears a rift in space on enemy hits
+		击中敌怪时撕裂虚空
 		'''
 }
 

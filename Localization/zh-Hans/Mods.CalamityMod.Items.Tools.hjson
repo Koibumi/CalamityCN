@@ -99,17 +99,17 @@ CrystylCrusher: {
 
 DriftwoodAxe: {
 	DisplayName: Driftwood Axe
-	Tooltip: 潮湿时提升效率
+	Tooltip: 当你潮湿时效率提升
 }
 
 DriftwoodHammer: {
 	DisplayName: Driftwood Hammer
-	Tooltip: 潮湿时提升效率
+	Tooltip: 当你潮湿时效率提升
 }
 
 DriftwoodPickaxe: {
 	DisplayName: Driftwood Pickaxe
-	Tooltip: 潮湿时提升效率
+	Tooltip: 当你潮湿时效率提升
 }
 
 FellerofEvergreens: {

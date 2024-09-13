@@ -43,10 +43,10 @@ UrsaSergeant: {
 	DisplayName: 大熊座雀鲷
 	Tooltip:
 		'''
-		Attacks maul enemies with astral claw swipes
-		Taking damage reduces the cooldown, but inflicts you with Astral Infection
-		Enemy kills also reduce the cooldown
-		Swipes will be translucent and silent if visibility is disabled
+		用幻星之爪重击敌人
+		受到伤害会降低攻击冷却，但也会对你施加幻星感染
+		击杀敌人也会降低攻击冷却
+		如果关闭饰品可见性，重击会变得透明且安静
 		'''
 }
 

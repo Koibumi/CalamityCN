@@ -323,8 +323,8 @@ VoodooDemonVoodooDoll: {
 // Uncategorized
 ExhumeShortTooltip:
 	'''
-	[c/C61B40:'Ah, are you curious what I saw within this item?']
-	[c/BABABA:Press "Left Shift" to listen]
+	[c/C61B40:“啊，你是不是好奇我在这件东西中看到了什么？”]
+	[c/BABABA:长按“左Shift”键以聆听]
 	'''
 
 AlicornonaStick: {
@@ -418,8 +418,8 @@ NimbleBounder: {
 	DisplayName: Nimble Bounder
 	Tooltip:
 		'''
-		Permanently increases movement and jump speed by 5%
-		Permanently increases acceleration by 10%
-		[c/842593:'Might be useful for speedrunning']
+		永久增加5%移动速度和跳跃速度
+		永久增加10%加速度
+		[c/842593:“可能对速通很有用”]
 		'''
 }
