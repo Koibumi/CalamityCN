@@ -1200,7 +1200,7 @@ OldDukeScales: {
 	HoldShiftTooltip:
 		'''
 		[c/c3dfff:  Using any dash will consume 20% of your stamina]
-		[c/c3dfff:  Stamina will gradually restore after not dashing for 1 second]
+		[c/c3dfff:  Stamina will gradually restore after not dashing for 1.5 seconds]
 		[c/c3dfff:  Stamina recovers faster when you are stationary]
 		[c/c3dfff:  If your stamina reaches 0%, you become exhausted]
 		[c/e3545c:  While exhausted, this item's damage reduction and movement bonuses are negated]

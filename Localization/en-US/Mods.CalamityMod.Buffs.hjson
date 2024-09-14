@@ -1562,3 +1562,13 @@ Voidfrost: {
 	DisplayName: Voidfrost
 	Description: The emptiness of space devours all warmth and life
 }
+
+FlarebatBuff: {
+	DisplayName: Flarebat
+	Description: The construct of fire will protect you
+}
+
+FrostbatBuff: {
+	DisplayName: Frostbat
+	Description: The construct of ice will protect you
+}

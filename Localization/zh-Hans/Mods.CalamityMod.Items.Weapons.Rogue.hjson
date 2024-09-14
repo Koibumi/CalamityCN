@@ -101,15 +101,6 @@ BouncySpikyBall: {
 		'''
 }
 
-BrackishFlask: {
-	DisplayName: 咸水瓶
-	Tooltip:
-		'''
-		扔出一个爆炸成剧毒海水弹的烧瓶
-		潜伏攻击召唤咸水矛刺
-		'''
-}
-
 Brimblade: {
 	DisplayName: 硫火手里剑
 	Tooltip:
@@ -675,9 +666,9 @@ LeviathanTeeth: {
 	DisplayName: 利维坦之牙
 	Tooltip:
 		'''
-		迅速投掷各种会黏在敌怪身上的毒牙
-		敌人身上的毒牙越多，毒液减益效果越强
-		潜伏攻击会掷出6枚高速毒牙，无视重力并且会在命中时产生水爆炸
+		Rapidly throws a spread of teeth that stick into enemies
+		After sticking to an enemy, the teeth will gouge through them and shoot out the other side
+		Stealth strikes throw a single piercing tooth that creates a jawline of teeth to maul your foes
 		'''
 }
 
@@ -915,9 +906,9 @@ RefractionRotor: {
 	DisplayName: 衍曜旋刃
 	Tooltip:
 		'''
-		掷出一个巨大的棱晶手里剑
-		手里剑在命中敌人后会在短时间后会碎裂并释放出追踪火箭
-		潜伏攻击会使手里剑在碎裂时释放出更多火箭
+		Throws a huge prismatic shuriken
+		The shuriken shatters moments after impact into homing blades
+		Stealth strikes throw 3 shurikens that rapidly home on enemies
 		'''
 }
 
@@ -1394,6 +1385,18 @@ WebBall: {
 		'''
 		扔出一个布满蛛网的球，减慢敌人的速度
 		潜伏攻击会更大程度减速敌人
+		'''
+}
+
+Whitewater: {
+	DisplayName: Whitewater
+	Tooltip:
+		'''
+		Throws a flask of magic whitewater that tracks your cursor
+		After a second, the flask will glow brightly
+		Flasks that hit enemies while glowing create a temporary burst of returning water spears
+		After exploding or after being thrown for a while, the flask will return to you
+		Stealth strikes create more water spears and will make a swirling vortex of whitewater that heals any player it touches and knocks back enemies
 		'''
 }
 

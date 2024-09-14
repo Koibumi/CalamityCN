@@ -100,15 +100,6 @@ BouncySpikyBall: {
 		'''
 }
 
-BrackishFlask: {
-	DisplayName: Brackish Flask
-	Tooltip:
-		'''
-		Throws a flask that explodes into poisonous seawater blasts
-		Stealth strikes summon a brackish spear spike
-		'''
-}
-
 Brimblade: {
 	DisplayName: Brimblade
 	Tooltip:
@@ -674,9 +665,9 @@ LeviathanTeeth: {
 	DisplayName: Leviathan Teeth
 	Tooltip:
 		'''
-		Rapidly throws a spread of venomous teeth that stick to enemies
-		This venom can stack when more teeth are stuck in an enemy
-		Stealth strikes cause 6 very fast teeth to be thrown, ignoring gravity and spawning water blasts on hit
+		Rapidly throws a spread of teeth that stick into enemies
+		After sticking to an enemy, the teeth will gouge through them and shoot out the other side
+		Stealth strikes throw a single piercing tooth that creates a jawline of teeth to maul your foes
 		'''
 }
 
@@ -914,9 +905,9 @@ RefractionRotor: {
 	DisplayName: Refraction Rotor
 	Tooltip:
 		'''
-		Fires a huge prismatic disk shuriken
-		The shuriken shatters moments after impact into homing rockets
-		Stealth strikes shatter into many more rockets
+		Throws a huge prismatic shuriken
+		The shuriken shatters moments after impact into homing blades
+		Stealth strikes throw 3 shurikens that rapidly home on enemies
 		'''
 }
 
@@ -1393,6 +1384,18 @@ WebBall: {
 		'''
 		Throws a web-covered ball that covers enemies in cobwebs to slow them down
 		Stealth strikes slow enemies down longer
+		'''
+}
+
+Whitewater: {
+	DisplayName: Whitewater
+	Tooltip:
+		'''
+		Throws a flask of magic whitewater that tracks your cursor
+		After a second, the flask will glow brightly
+		Flasks that hit enemies while glowing create a temporary burst of returning water spears
+		After exploding or after being thrown for a while, the flask will return to you
+		Stealth strikes create more water spears and will make a swirling vortex of whitewater that heals any player it touches and knocks back enemies
 		'''
 }
 

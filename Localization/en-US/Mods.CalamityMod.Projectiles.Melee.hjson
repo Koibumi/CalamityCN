@@ -133,7 +133,7 @@ GalaxyBlastType3.DisplayName: Galaxy Blast
 GalaxySmasherBlast.DisplayName: Galactic Blast
 GalaxySmasherEcho.DisplayName: Galaxy Smasher Echo
 GalaxySmasherHammer.DisplayName: Galaxy Smasher
-GalaxySmasherMini.DisplayName: Galaxy Smasher
+GalaxySmasherMini.DisplayName: Cosmic Shard
 GalileosMoon.DisplayName: Crescent Moon
 GalileosPlanet.DisplayName: Planet
 GayBeam.DisplayName: Iridescent Beam
@@ -301,3 +301,4 @@ WulfrumScrew.DisplayName: Wulfrum Screw
 WulfrumScrewdriverProj.DisplayName: Wulfrum Screwdriver
 YinYoDark.DisplayName: Dark Shard
 YinYoLight.DisplayName: Light Shard
+FallenExplosionSmall.DisplayName: Fallen Hammer Blast

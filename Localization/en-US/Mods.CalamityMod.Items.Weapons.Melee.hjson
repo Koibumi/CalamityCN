@@ -144,7 +144,11 @@ Ataraxia: {
 
 Avalanche: {
 	DisplayName: Avalanche
-	Tooltip: Spawns ice bombs that explode after 3 seconds into ice shards on hit
+	Tooltip:
+		'''
+		Hitting enemies spawns orbiting ice bombs
+		After 2 seconds, ice bombs explode into gravity-affected ice shards
+		'''
 }
 
 Azathoth: {
@@ -499,7 +503,7 @@ FallenPaladinsHammer: {
 	DisplayName: Fallen Paladin's Hammer
 	Tooltip:
 		'''
-		Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
+		Throws a heavy, gravity-affected hammer that will explode and return to you after striking an enemy
 		After returning three times, a homing spectral hammer is summoned with devastating impact
 		'''
 }
@@ -599,7 +603,7 @@ GalaxySmasher: {
 	Tooltip:
 		'''
 		Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
-		Consecutive hits summon more and more cosmic hammers
+		Consecutive hits summon more and more cosmic shards
 		After hitting eight times, the hammer supercharges itself with galactic energies,
 		delivering an apocalyptic strike that reverberates through space and time
 		'''
@@ -668,7 +672,11 @@ GreatswordofJudgement: {
 
 Greentide: {
 	DisplayName: Greentide
-	Tooltip: Summons teeth to chomp your foes on hit
+	Tooltip:
+		'''
+		Launches a spread of four teeth with one stronger piercing tooth in the center
+		Hitting with the blade creates two jaws of teeth to chomp on the enemy closest to your cursor
+		'''
 }
 
 HellfireFlamberge: {

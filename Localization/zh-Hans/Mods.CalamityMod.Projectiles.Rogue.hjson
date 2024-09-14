@@ -24,10 +24,6 @@ BlunderBoosterLightning.DisplayName: 悖论闪电
 BouncingEyeballProjectile.DisplayName: 弹跳眼球
 BouncingEyeballProjectileStealthStrike.DisplayName: 弹跳眼球
 BouncyBol.DisplayName: 弹跳尖钉球
-BrackishFlaskProj.DisplayName: 盐水瓶
-BrackishSpear.DisplayName: 并非亚特兰蒂斯之矛
-BrackishWater.DisplayName: 咸水
-BrackishWaterBlast.DisplayName: 剧毒海水弹
 Brick.DisplayName: 砖
 BrickFragment.DisplayName: 砖片
 Brimblade2.DisplayName: 硫火手里剑
@@ -323,9 +319,14 @@ ValedictionBoomerang.DisplayName: 辞别飞镰
 VeneratedKnife.DisplayName: 敬天弑神刀
 WaveSkipperProjectile.DisplayName: 越浪蛟
 WebBallBol.DisplayName: 蛛网球
+WhitewaterAura.DisplayName: Whitewater Aura
+WhitewaterProj.DisplayName: Whitewater Flask
+WhitewaterSpear.DisplayName: Whitewater Spear
 WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 钨钢飞刀
 RadiationBurst.DisplayName: 辐射爆发
 RadiationRain.DisplayName: 辐射雨
+RefractionRotorSlashCreator.DisplayName: Refraction Rotor Slash Creator
+RefractionSlash.DisplayName: Refraction Slash

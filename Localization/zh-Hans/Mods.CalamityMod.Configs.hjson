@@ -7,6 +7,7 @@ CalamityClientConfig: {
 		UI: UI改动
 		MeterPositions: 属性条位置
 		MusicEvents: 游戏内音乐事件
+		Multithreading: Multi-Threading
 	}
 
 	AdrenalineMeterPosX: {
@@ -89,6 +90,15 @@ CalamityClientConfig: {
 	DevourerofGodsEulogy: {
 		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
 		Tooltip: 在神明吞噬者被击败后播放灾厄OST——“Scourge of the Universe (Eulogy for the Ego)”。
+	}
+
+	EnergyShieldOpacity: {
+		Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
+		Tooltip:
+			'''
+			Set the opacity of energy shields rendered over the player.
+			Setting this to 0 disables energy shield visuals entirely.
+			'''
 	}
 
 	FasterFallHotkey: {
@@ -315,6 +325,16 @@ CalamityClientConfig: {
 	WikiStatusMessage: {
 		Label: "[i:Book] Wiki状态讯息"
 		Tooltip: 启用/禁用进入世界的Wiki状态讯息提示。
+	}
+
+	MultiThreadingType: {
+		Label: Sunken Sea Multi-Threading Option
+		Tooltip:
+			'''
+			Option 0 will disable worldgen multi-threading.
+			Option 1 will enable ReLogic's multi-threading.
+			Option 2 will enable custom multi-threading.
+			'''
 	}
 }
 

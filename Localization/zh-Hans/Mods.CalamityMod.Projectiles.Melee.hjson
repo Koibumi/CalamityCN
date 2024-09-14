@@ -133,7 +133,7 @@ GalaxyBlastType3.DisplayName: 银河聚爆
 GalaxySmasherBlast.DisplayName: 星系爆炸
 GalaxySmasherEcho.DisplayName: 银河溃灭者
 GalaxySmasherHammer.DisplayName: 银河溃灭者
-GalaxySmasherMini.DisplayName: 银河溃灭者
+GalaxySmasherMini.DisplayName: 宇宙碎片
 GalileosMoon.DisplayName: 新月
 GalileosPlanet.DisplayName: 伽利略行星
 GayBeam.DisplayName: 虹色光束
@@ -301,3 +301,4 @@ WulfrumScrew.DisplayName: 钨钢螺丝钉
 WulfrumScrewdriverProj.DisplayName: 钨钢螺丝刀
 YinYoDark.DisplayName: 黑暗碎块
 YinYoLight.DisplayName: 光明碎块
+FallenExplosionSmall.DisplayName: Fallen Hammer Blast

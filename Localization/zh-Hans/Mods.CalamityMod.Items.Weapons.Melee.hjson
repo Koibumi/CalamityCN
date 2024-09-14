@@ -144,7 +144,11 @@ Ataraxia: {
 
 Avalanche: {
 	DisplayName: 雪崩
-	Tooltip: 生成会在接触敌人3秒钟后爆炸出冰晶的冰炸弹
+	Tooltip:
+		'''
+		Hitting enemies spawns orbiting ice bombs
+		After 2 seconds, ice bombs explode into gravity-affected ice shards
+		'''
 }
 
 Azathoth: {
@@ -499,7 +503,7 @@ FallenPaladinsHammer: {
 	DisplayName: 堕落圣骑士之锤
 	Tooltip:
 		'''
-		投掷一把沉重，受重力影响的战锤，击中敌人后会返回玩家
+		投掷一把沉重，受重力影响的战锤，击中敌人后会爆炸并返回玩家
 		返回三次后会召唤出一个追踪的幽灵战锤，对敌人进行毁灭性撞击
 		'''
 }
@@ -599,7 +603,7 @@ GalaxySmasher: {
 	Tooltip:
 		'''
 		投掷一把沉重，受重力影响的战锤，击中敌人后会返回玩家
-		连续击中敌人会召唤越来越多的宇宙战锤
+		连续击中敌人会召唤越来越多的宇宙碎片
 		击中八次后，战锤会被银河能量充能，
 		发动一次在时空不断回荡的末日攻击
 		'''
@@ -668,7 +672,11 @@ GreatswordofJudgement: {
 
 Greentide: {
 	DisplayName: 翡翠之潮
-	Tooltip: 剑刃击中时召唤尖牙痛咬你的敌人
+	Tooltip:
+		'''
+		Launches a spread of four teeth with one stronger piercing tooth in the center
+		Hitting with the blade creates two jaws of teeth to chomp on the enemy closest to your cursor
+		'''
 }
 
 HellfireFlamberge: {

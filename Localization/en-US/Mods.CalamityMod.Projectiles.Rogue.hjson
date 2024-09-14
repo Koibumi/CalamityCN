@@ -24,10 +24,6 @@ BlunderBoosterLightning.DisplayName: Blunder Bolt
 BouncingEyeballProjectile.DisplayName: Bouncy Eyeball
 BouncingEyeballProjectileStealthStrike.DisplayName: Bouncy Eyeball
 BouncyBol.DisplayName: Bouncy Ball
-BrackishFlaskProj.DisplayName: Brackish Flask
-BrackishSpear.DisplayName: Not Atlantis Spear
-BrackishWater.DisplayName: Brackish Water
-BrackishWaterBlast.DisplayName: Brackish Water
 Brick.DisplayName: Brick
 BrickFragment.DisplayName: Brick Fragment
 Brimblade2.DisplayName: Brimblade
@@ -323,9 +319,14 @@ ValedictionBoomerang.DisplayName: Valediction
 VeneratedKnife.DisplayName: Venerated Knife
 WaveSkipperProjectile.DisplayName: Wave Skipper
 WebBallBol.DisplayName: Web Ball
+WhitewaterAura.DisplayName: Whitewater Aura
+WhitewaterProj.DisplayName: Whitewater Flask
+WhitewaterSpear.DisplayName: Whitewater Spear
 WrathwingCinder.DisplayName: Wrathwing Eruption
 WrathwingFireball.DisplayName: Wrathwing Fireball
 WrathwingSpear.DisplayName: Wrathwing
 WulfrumKnifeProj.DisplayName: Wulfrum Knife
 RadiationBurst.DisplayName: Radiation Burst
 RadiationRain.DisplayName: Radiation Rain
+RefractionRotorSlashCreator.DisplayName: Refraction Rotor Slash Creator
+RefractionSlash.DisplayName: Refraction Slash
