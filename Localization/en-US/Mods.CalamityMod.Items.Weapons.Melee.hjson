@@ -338,7 +338,8 @@ DeathsAscension: {
 	Tooltip:
 		'''
 		Press <right> to launch a barrage of homing scythes
-		You can feel the hands of Death himself onto yours
+		'It feels just right in your grip...
+		[c/660066:But the hands that wield it are not yours']
 		'''
 }
 

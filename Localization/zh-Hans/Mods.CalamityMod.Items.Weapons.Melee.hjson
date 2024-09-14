@@ -338,7 +338,8 @@ DeathsAscension: {
 	Tooltip:
 		'''
 		右键发射一连串追踪镰刀
-		你感到死神之手掌控着你
+		'It feels just right in your grip...
+		[c/660066:But the hands that wield it are not yours']
 		'''
 }
 
