@@ -146,8 +146,8 @@ Avalanche: {
 	DisplayName: 雪崩
 	Tooltip:
 		'''
-		Hitting enemies spawns orbiting ice bombs
-		After 2 seconds, ice bombs explode into gravity-affected ice shards
+		击中敌怪时生成环绕冰炸弹
+		2秒后冰炸弹会爆炸成受重力影响的冰碎片
 		'''
 }
 
@@ -675,8 +675,8 @@ Greentide: {
 	DisplayName: 翡翠之潮
 	Tooltip:
 		'''
-		Launches a spread of four teeth with one stronger piercing tooth in the center
-		Hitting with the blade creates two jaws of teeth to chomp on the enemy closest to your cursor
+		发射五颗牙齿，最中间的牙齿更强且能穿透
+		用剑刃击中敌怪会产生两排牙齿，撕咬离你光标最近的敌怪
 		'''
 }
 

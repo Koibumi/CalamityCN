@@ -170,7 +170,7 @@ VermillionFlux: {
 
 StaticDischarge: {
 	DisplayName: Static Discharge
-	Description: Shocked by static electricity
+	Description: 被静电冲击
 }
 
 GodSlayerInferno: {
@@ -245,7 +245,7 @@ SulphuricPoisoning: {
 
 TrueVulnerabilityHex: {
 	DisplayName: True Vulnerability Hex
-	Description: The end has come
+	Description: 终末已至
 }
 
 Vaporfied: {
@@ -1157,7 +1157,7 @@ DemonshadeSetDevilBuff: {
 
 LegionofCelestiaBuff: {
 	DisplayName: Celestial Axe
-	Description: If only it was this good at chopping trees...
+	Description: 要是它擅长砍树就好了……
 }
 
 EndoCooperBuff: {
@@ -1541,15 +1541,15 @@ LiliesOfFinalityBuff: {
 
 AuricRebuke: {
 	DisplayName: Auric Rebuke
-	Description: Your cells are violently bouncing off each other
+	Description: 你的细胞在猛烈地相互碰撞
 }
 
 SandsWindBuff: {
 	DisplayName: Sand's Wind
 	Description:
 		'''
-		You are strengthened by the powers of sand
-		Defense increased by 10, damage increased by 12%
+		你被沙的力量增强了
+		防御增加10点，伤害增加12%
 		'''
 }
 
@@ -1557,22 +1557,22 @@ AeolianEarthBuff: {
 	DisplayName: Aeolian Earth
 	Description:
 		'''
-		You are strengthened by primordial powers
-		Damage reduction increased by 8%, damage increased by 18%
+		你被始源能量增强了
+		伤害减免增加8%，伤害增加18%
 		'''
 }
 
 Voidfrost: {
 	DisplayName: Voidfrost
-	Description: The emptiness of space devours all warmth and life
+	Description: 太空的虚无吞噬了所有的温暖与生命
 }
 
 FlarebatBuff: {
 	DisplayName: Flarebat
-	Description: The construct of fire will protect you
+	Description: 火构造体会保护你
 }
 
 FrostbatBuff: {
 	DisplayName: Frostbat
-	Description: The construct of ice will protect you
+	Description: 冰构造体会保护你
 }

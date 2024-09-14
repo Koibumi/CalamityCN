@@ -889,8 +889,8 @@ FlarebatStaff: {
 	DisplayName: Flarebat Staff
 	Tooltip:
 		'''
-		Summons a bat construct of pure fire to fight for you
-		Swoops towards foes with great haste
+		召唤一只纯火蝙蝠构造体为你战斗
+		以高速移动力攻击敌怪
 		'''
 }
 
@@ -898,7 +898,7 @@ FrostbatStaff: {
 	DisplayName: Frostbat Staff
 	Tooltip:
 		'''
-		Summons a bat construct of pure ice to fight for you
-		Swoops towards foes with slow and precise maneuvers
+		召唤一只纯冰蝙蝠构造体为你战斗
+		以缓慢而精确的机动性攻击敌怪
 		'''
 }

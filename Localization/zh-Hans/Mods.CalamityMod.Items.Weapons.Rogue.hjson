@@ -666,8 +666,8 @@ LeviathanTeeth: {
 	DisplayName: 利维坦之牙
 	Tooltip:
 		'''
-		Rapidly throws a spread of teeth that stick into enemies
-		After sticking to an enemy, the teeth will gouge through them and shoot out the other side
+		快速掷出一阵粘在敌怪身上的牙齿
+		粘上敌怪后，牙齿会穿透它们并从另一侧射出
 		Stealth strikes throw a single piercing tooth that creates a jawline of teeth to maul your foes
 		'''
 }
@@ -906,9 +906,9 @@ RefractionRotor: {
 	DisplayName: 衍曜旋刃
 	Tooltip:
 		'''
-		Throws a huge prismatic shuriken
-		The shuriken shatters moments after impact into homing blades
-		Stealth strikes throw 3 shurikens that rapidly home on enemies
+		掷出一个巨大的棱晶手里剑
+		手里剑在碰撞后不久会碎裂成追踪剑刃
+		潜伏攻击会掷出三个快速追踪敌怪的手里剑
 		'''
 }
 
@@ -1392,11 +1392,11 @@ Whitewater: {
 	DisplayName: Whitewater
 	Tooltip:
 		'''
-		Throws a flask of magic whitewater that tracks your cursor
-		After a second, the flask will glow brightly
+		掷出一个追踪光标的魔法白水烧瓶
+		1秒后烧瓶会发出亮光
 		Flasks that hit enemies while glowing create a temporary burst of returning water spears
-		After exploding or after being thrown for a while, the flask will return to you
-		Stealth strikes create more water spears and will make a swirling vortex of whitewater that heals any player it touches and knocks back enemies
+		爆炸后或被掷出一段时间后，烧瓶会返回到你身边
+		潜伏攻击会产生更多的水矛并产生一个白水漩涡，治疗接触的玩家并击退敌怪
 		'''
 }
 
