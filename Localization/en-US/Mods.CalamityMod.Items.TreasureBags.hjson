@@ -120,7 +120,7 @@ StormWeaverBag: {
 }
 
 YharonBag: {
-	DisplayName: Treasure Bag (Yharon)
+	DisplayName: Treasure Cache (Yharon)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 

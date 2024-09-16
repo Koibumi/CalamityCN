@@ -2063,3 +2063,12 @@ Popo: {
 		'Don't let the demons steal your nose'
 		'''
 }
+
+PunchCard: {
+	DisplayName: Punch Card
+	Tooltip: "[c/842593:'Please... please get world record...']"
+	// These are used to spawn the item via chat -- both must be all lower case for the detection to work
+	SpawnText1: it's late
+	SpawnText1Alt: its late
+	SpawnText2: go to bed
+}

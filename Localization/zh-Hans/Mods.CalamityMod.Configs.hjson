@@ -336,6 +336,10 @@ CalamityClientConfig: {
 			Option 2 will enable custom multi-threading.
 			'''
 	}
+	SunkenSeaMultiThreading: {
+		Label: Sunken Sea Multi Threading
+		Tooltip: ""
+	}
 }
 
 CalamityServerConfig: {

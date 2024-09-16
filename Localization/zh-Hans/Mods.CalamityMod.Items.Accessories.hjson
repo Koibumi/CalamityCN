@@ -135,8 +135,8 @@ AmidiasSpark: {
 	Tooltip:
 		'''
 		在水下时攻击会施加Static Discharge减益
-		受到伤害后使敌怪震惊
-		被震惊的敌怪会持续释放电火花
+		受到伤害后使敌怪受到冲击
+		被冲击的敌怪会持续释放电火花
 		'''
 }
 
@@ -1880,8 +1880,8 @@ TheTransformer: {
 		所有电系减益的伤害倍率乘以1.5
 		在水下时攻击会施加Static Discharge减益
 		降低50%所有电系减益的伤害
-		受到伤害后使敌怪震惊
-		被震惊的敌怪会持续释放电火花
+		受到伤害后使敌怪受到冲击
+		被冲击的敌怪会持续释放电火花
 		'''
 }
 
@@ -2064,4 +2064,13 @@ Popo: {
 		将装备者变成雪人
 		“不要让恶魔抢走你的鼻子！”
 		'''
+}
+
+PunchCard: {
+	DisplayName: Punch Card
+	Tooltip: "[c/842593:'Please... please get world record...']"
+	// These are used to spawn the item via chat -- both must be all lower case for the detection to work
+	SpawnText1: it's late
+	SpawnText1Alt: its late
+	SpawnText2: go to bed
 }

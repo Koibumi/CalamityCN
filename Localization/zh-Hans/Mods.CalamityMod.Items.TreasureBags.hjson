@@ -120,7 +120,7 @@ StormWeaverBag: {
 }
 
 YharonBag: {
-	DisplayName: 宝藏袋（犽戎）
+	DisplayName: 宝藏储存箱（犽戎）
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
