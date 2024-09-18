@@ -2070,7 +2070,7 @@ PunchCard: {
 	DisplayName: Punch Card
 	Tooltip: "[c/842593:'Please... please get world record...']"
 	// These are used to spawn the item via chat -- both must be all lower case for the detection to work
-	SpawnText1: it's late
-	SpawnText1Alt: its late
-	SpawnText2: go to bed
+	SpawnText1: 太晚了
+	SpawnText1Alt: 太晚了
+	SpawnText2: 该睡觉
 }

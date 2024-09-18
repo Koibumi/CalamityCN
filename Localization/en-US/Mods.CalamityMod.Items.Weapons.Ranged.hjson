@@ -777,15 +777,6 @@ MineralMortar: {
 		'''
 }
 
-MolecularManipulator: {
-	DisplayName: Molecular Manipulator
-	Tooltip:
-		'''
-		Fires a fast null bullet that distorts NPC stats
-		'Is it nullable or not? Let's find out!'
-		'''
-}
-
 MonolithBow: {
 	DisplayName: Monolith Bow
 	Tooltip: ""
@@ -833,8 +824,27 @@ NullificationPistol: {
 	DisplayName: Nullification Pistol
 	Tooltip:
 		'''
-		Fires a fast null bullet that distorts NPC stats
-		'Is it nullable or not? Let's find out!'
+		Fires discrete bolts of polarized energy. <right> to swap modes
+		Positive energy splits into three piercing beams
+		Negative energy shoots rapidly and homes in on enemies
+		All shots blow away enemies at close range
+		Each mode weakens with continuous use and resets to full power when swapped
+		'Weaponizing alien tech? Now that's what I like to hear!'
+		'''
+}
+
+OntologicalDespoiler: {
+	DisplayName: Ontological Despoiler
+	Tooltip:
+		'''
+		Condenses chargeable pockets of concentrated unreality. <right> to swap modes
+		Unstable condensate shots trifurcate and pierce enemies
+		Null condensate shots fire rapidly and home in on enemies
+		At 50% charge or higher, rate of fire significantly increases
+		Fully charged unstable condensate lobs a homing disruption sphere
+		Fully charged null condensate emits a hitscan null-annihilation beam
+		Each mode charges slower when used repeatedly and resets to full speed when swapped
+		'Rob them of continuity and the laws of physics they hold so dear.'
 		'''
 }
 

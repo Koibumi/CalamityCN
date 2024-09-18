@@ -139,8 +139,12 @@ NorfleetExplosion.DisplayName: 爆炸
 NovaChargedShot.DisplayName: 新星冲击波
 NovaShot.DisplayName: 新星矢
 Nuke.DisplayName: 核弹
+NullFlash.DisplayName: Null Flash
 NullShot.DisplayName: 空弹
-NullShot2.DisplayName: 空弹
+OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
+OntoligicalDespoilerBurst.DisplayName: Disruption Blast
+OntologicalDespoilerGrenade.DisplayName: Disruption Sphere
+OntologicalDespoilerShot.DisplayName: Unreality Condensate
 OpalChargedStrike.DisplayName: 充能水晶矢
 OpalStrike.DisplayName: 热能矢
 PiercingBullet.DisplayName: 穿甲弹

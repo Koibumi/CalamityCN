@@ -326,6 +326,11 @@ ExhumeShortTooltip:
 	[c/C61B40:“啊，你是不是好奇我在这件东西中看到了什么？”]
 	[c/BABABA:长按“左Shift”键以聆听]
 	'''
+LegendaryShortTooltip:
+	'''
+	[c/FF6F00:Tales of legends past radiate around you...]
+	[c/BABABA:长按“左Shift”键以仔细聆听]
+	'''
 
 AlicornonaStick: {
 	DisplayName: 棒棒天角兽

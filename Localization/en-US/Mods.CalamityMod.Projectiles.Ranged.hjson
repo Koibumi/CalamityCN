@@ -139,8 +139,12 @@ NorfleetExplosion.DisplayName: Explosion
 NovaChargedShot.DisplayName: Charged Nova Blast
 NovaShot.DisplayName: Nova Bolt
 Nuke.DisplayName: Nuke
+NullFlash.DisplayName: Null Flash
 NullShot.DisplayName: Null
-NullShot2.DisplayName: Null
+OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
+OntoligicalDespoilerBurst.DisplayName: Disruption Blast
+OntologicalDespoilerGrenade.DisplayName: Disruption Sphere
+OntologicalDespoilerShot.DisplayName: Unreality Condensate
 OpalChargedStrike.DisplayName: Charged Plasma Bolt
 OpalStrike.DisplayName: Heated Bolt
 PiercingBullet.DisplayName: Piercing Blow
