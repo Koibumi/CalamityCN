@@ -777,15 +777,6 @@ MineralMortar: {
 		'''
 }
 
-MolecularManipulator: {
-	DisplayName: 分子操纵器
-	Tooltip:
-		'''
-		发射一个“空弹”扭曲怪物的属性
-		“是否为空？一起测试吧！”
-		'''
-}
-
 MonolithBow: {
 	DisplayName: 星石弓
 	Tooltip: ""
