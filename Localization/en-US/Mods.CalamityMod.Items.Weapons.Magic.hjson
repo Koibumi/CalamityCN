@@ -636,8 +636,8 @@ PlasmaRifle: {
 	DisplayName: Plasma Rifle
 	Tooltip:
 		'''
-		Fires a plasma blast that explodes
-		Press <right> to rapidly fire plasma bolts
+		Fires an explosive plasma blast with pinpoint accuracy
+		Press <right> to rapidly fire non-explosive blasts
 		'''
 }
 

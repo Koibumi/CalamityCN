@@ -636,8 +636,8 @@ PlasmaRifle: {
 	DisplayName: 等离子步枪
 	Tooltip:
 		'''
-		发射会爆炸的离子射线
-		右键快速发射离子束
+		Fires an explosive plasma blast with pinpoint accuracy
+		Press <right> to rapidly fire non-explosive blasts
 		'''
 }
 

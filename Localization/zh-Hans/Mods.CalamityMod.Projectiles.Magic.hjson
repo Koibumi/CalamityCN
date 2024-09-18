@@ -157,10 +157,10 @@ PhasedGodRay.DisplayName: 神之射线
 PhotosyntheticShard.DisplayName: 光合裂片
 PhotosyntheticSolarBeam.DisplayName: 阳光射线
 PlagueFang.DisplayName: 瘟疫之牙
-PlasmaBolt.DisplayName: 等离子弹
 PlasmaRay.DisplayName: 等离子射线
 PlasmaRay2.DisplayName: 等离子射线
-PlasmaShot.DisplayName: 等离子喷丸
+PlasmaRifleExplosion.DisplayName: Ionizing Particle Cloud
+PlasmaRifleShot.DisplayName: Concentrated Plasma Blast
 PoseidonTyphoon.DisplayName: 海神之台风
 PrimordialAncientExplosion.DisplayName: 始源之遗
 PrimordialAncientProjectile.DisplayName: 始源之遗

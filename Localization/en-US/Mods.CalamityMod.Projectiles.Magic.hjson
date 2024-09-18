@@ -157,10 +157,10 @@ PhasedGodRay.DisplayName: Phased God Ray
 PhotosyntheticShard.DisplayName: Photosynthetic Shard
 PhotosyntheticSolarBeam.DisplayName: Solar Beam
 PlagueFang.DisplayName: Plague Fang
-PlasmaBolt.DisplayName: Plasma Bolt
 PlasmaRay.DisplayName: Plasma Ray
 PlasmaRay2.DisplayName: Plasma Ray
-PlasmaShot.DisplayName: Plasma Shot
+PlasmaRifleExplosion.DisplayName: Ionizing Particle Cloud
+PlasmaRifleShot.DisplayName: Concentrated Plasma Blast
 PoseidonTyphoon.DisplayName: Poseidon Typhoon
 PrimordialAncientExplosion.DisplayName: Primordial Ancient
 PrimordialAncientProjectile.DisplayName: Primordial Ancient
