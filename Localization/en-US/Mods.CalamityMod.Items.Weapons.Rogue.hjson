@@ -1160,7 +1160,7 @@ StarofDestruction: {
 		'''
 		Throws a fan of cosmic bolts that meld together into a star of destruction
 		The explosive star will slowly follow your cursor until it expires or hits an enemy
-		      Upon running out of time, the star will burst into a huge explosion that deals increased damage
+		Upon running out of time, the star will burst into a huge explosion that deals increased damage
 		Stealth strikes throw additional bolts that converge into faster star that can pierce, exploding on every hit
 		'''
 }

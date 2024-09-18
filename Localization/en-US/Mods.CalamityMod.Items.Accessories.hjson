@@ -438,7 +438,7 @@ CorruptFlask: {
 	DisplayName: Corrupt Flask
 	Tooltip:
 		'''
-		Incerases damage reduction by 4% and defense by 6 while in the corruption
+		Increases damage reduction by 4% and defense by 6 while in the corruption
 		Immunity to Brain Rot
 		'''
 }
