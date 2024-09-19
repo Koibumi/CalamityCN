@@ -2074,3 +2074,8 @@ PunchCard: {
 	SpawnText1Alt: 太晚了
 	SpawnText2: 该睡觉
 }
+
+SharkyPlush: {
+	DisplayName: Sharky Plush
+	Tooltip: "[c/696969:'Look around, at the sight and sound...']"
+}

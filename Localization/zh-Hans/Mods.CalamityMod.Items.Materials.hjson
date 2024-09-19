@@ -113,11 +113,6 @@ DarksunFragment: {
 	Tooltip: 曜日与皎月，两种相斥天体的能量聚合进这一块晶体中
 }
 
-DemonicBoneAsh: {
-	DisplayName: 恶魔骨灰
-	Tooltip: ""
-}
-
 DepthCells: {
 	DisplayName: 深渊细胞
 	Tooltip: 深渊生物的细胞
@@ -220,11 +215,6 @@ MiracleMatter: {
 MolluskHusk: {
 	DisplayName: 软体动物外壳
 	Tooltip: 软体动物的遗骸
-}
-
-MurkyPaste: {
-	DisplayName: 浆糊泥
-	Tooltip: ""
 }
 
 MysteriousCircuitry: {

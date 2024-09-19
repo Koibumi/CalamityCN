@@ -150,6 +150,8 @@ AuroraSpirit.DisplayName: 极光之灵
 BloodlettingServant.DisplayName: 流血仆从
 BloomSlime.DisplayName: 龙蒿史莱姆
 Bohldohr.DisplayName: 神庙滚石
+BucketZombie.DisplayName: "{$NPCName.Zombie}"
+CladCrab.DisplayName: Clad Crab
 Cnidrion.DisplayName: 卧龙海马
 CrawlerAmber.DisplayName: 琥珀爬虫
 CrawlerAmethyst.DisplayName: 紫水晶爬虫
@@ -186,6 +188,7 @@ Rotdog.DisplayName: 血犬
 ScornEater.DisplayName: 吞食魔
 SeaUrchin.DisplayName: 海胆
 ShockstormShuttle.DisplayName: 风暴飞碟
+Shroomble.DisplayName: Shroomble
 SkeletronPrime2.DisplayName: 机械骷髅王
 Stormlion.DisplayName: 风暴蚁狮
 Sunskater.DisplayName: 寻阳鱼

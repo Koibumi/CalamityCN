@@ -150,6 +150,8 @@ AuroraSpirit.DisplayName: Aurora Spirit
 BloodlettingServant.DisplayName: Bloodletting Servant
 BloomSlime.DisplayName: Bloom Slime
 Bohldohr.DisplayName: Bohldohr
+BucketZombie.DisplayName: "{$NPCName.Zombie}"
+CladCrab.DisplayName: Clad Crab
 Cnidrion.DisplayName: Cnidrion
 CrawlerAmber.DisplayName: Amber Crawler
 CrawlerAmethyst.DisplayName: Amethyst Crawler
@@ -186,6 +188,7 @@ Rotdog.DisplayName: Rotdog
 ScornEater.DisplayName: Scorn Eater
 SeaUrchin.DisplayName: Sea Urchin
 ShockstormShuttle.DisplayName: Shockstorm Shuttle
+Shroomble.DisplayName: Shroomble
 SkeletronPrime2.DisplayName: Skeletron Prime
 Stormlion.DisplayName: Stormlion
 Sunskater.DisplayName: Sunskater

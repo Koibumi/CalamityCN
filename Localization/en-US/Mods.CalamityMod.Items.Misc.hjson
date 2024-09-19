@@ -143,6 +143,11 @@ SeaMinnowGoldItem: {
 	Tooltip: ""
 }
 
+ShroombleItem: {
+	DisplayName: "{$Mods.CalamityMod.NPCs.Shroomble.DisplayName}"
+	Tooltip: ""
+}
+
 TwinklerItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
 	Tooltip: ""
