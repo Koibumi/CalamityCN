@@ -616,7 +616,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.LeadHelmet || item.type == 691 || item.type == 692)
                 {
-                    tooltips.ReplaceText("Increases damage reduction by 3%", "伤害减免增加3%");
+                    tooltips.ReplaceText("Increases damage reduction by 2%", "伤害减免增加2%");
                 }
                 if (item.type == ItemID.TungstenHelmet || item.type == 694 || item.type == 695)
                 {

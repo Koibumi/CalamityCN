@@ -682,7 +682,13 @@ Kingsbane: {
 
 Leviatitan: {
 	DisplayName: 利维坦海潮枪
-	Tooltip: 将火枪子弹转化为水弹
+	Tooltip:
+		'''
+		发射高速海潮弹
+		每六次射击释放能撕裂敌人防御的追踪吞食者
+		右键点击吐出命中时爆炸的流星
+		'The L in LMG stands for Leviathan'
+		'''
 }
 
 LunarianBow: {

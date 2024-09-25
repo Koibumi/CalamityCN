@@ -1649,7 +1649,7 @@ StatisVoidSash: {
 	Tooltip:
 		'''
 		增加32%跳跃速度，允许自动跳跃并免疫摔落伤害
-		可以攀爬、冲刺和闪避攻击
+		可以游泳、攀爬、冲刺和闪避攻击
 		'''
 	HoldShiftTooltip:
 		'''

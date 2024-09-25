@@ -955,16 +955,6 @@ SandDollar: {
 		'''
 }
 
-Sandslasher: {
-	DisplayName: 沙暴手里剑
-	Tooltip:
-		'''
-		投掷一个不受重力影响的沙暴手里剑，在水平方向缓慢加速移动
-		沙暴手里剑会基于自身的水平移动速度和飞行时间增加造成的伤害
-		潜伏攻击会使手里剑在飞行路径上生成大量沙尘
-		'''
-}
-
 ScarletDevil: {
 	DisplayName: 绯红恶魔
 	Tooltip:

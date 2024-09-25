@@ -1648,7 +1648,7 @@ StatisVoidSash: {
 	Tooltip:
 		'''
 		32% increased jump speed, allows auto-jump, and negates fall damage
-		Can climb walls, dash, and dodge attacks
+		Can swim, climb walls, dash, and dodge attacks
 		'''
 	HoldShiftTooltip:
 		'''

@@ -778,8 +778,18 @@ SHPC: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Fires plasma orbs that linger and emit massive explosions
-		Press <right> to fire powerful energy beams
+		Consumes Souls as ammo
+		Fires orbs of unstable, concentrated soulpower that linger after ejection
+		Orbs create a large explosion and emit seeking souls after collapse
+		Orbs have varying effects depending on Soul type used
+		Press Right Click to discharge all soulpower in the weapon as weak energy beams
+		'''
+	LegendaryText:
+		'''
+		[c/1FFBFF:'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.]
+		[c/1FFBFF:To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.]
+		[c/1FFBFF:Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.]
+		[c/1FFBFF:A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.']
 		'''
 	TooltipGFB: It scales again :)
 }

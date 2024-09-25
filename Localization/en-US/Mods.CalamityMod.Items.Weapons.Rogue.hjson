@@ -954,16 +954,6 @@ SandDollar: {
 		'''
 }
 
-Sandslasher: {
-	DisplayName: Sandslasher
-	Tooltip:
-		'''
-		Throws a huge shuriken made out of fused sand unaffected by gravity which slowly accelerates horizontally
-		It does more damage depending on how fast it goes horizontally and how long it has been flying for
-		Stealth strikes periodically release sand clouds
-		'''
-}
-
 ScarletDevil: {
 	DisplayName: Scarlet Devil
 	Tooltip:
