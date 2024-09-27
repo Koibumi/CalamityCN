@@ -1,0 +1,86 @@
+// Put their internal name here
+NPCName: {
+	Dryad: Dryads practice the art of Life Magic, pioneered by Silva. She is connected with nature and can analyze its purity worldwide. She sells seeds, too!
+	Mechanic: The Mechanic was imprisoned for sticking her nose where she shouldn't. She sells wiring and tools for putting together anything imaginable.
+	EmpressButterfly: These familiars conjured by the Empress draw power from their surroundings and later bring it to their master. They remind her of a lost loved one, and should one perish in the chaos of night, she shall unleash her full fury upon the attacker.
+	DemonEye: "{$CommonEntries.DemonEye}"
+	CataractEye: "{$CommonEntries.DemonEye}"
+	DialatedEye: "{$CommonEntries.DemonEye}"
+	SleepyEye: "{$CommonEntries.DemonEye}"
+	GreenEye: "{$CommonEntries.DemonEye}"
+	PurpleEye: "{$CommonEntries.DemonEye}"
+	Wraith: Souls belonging to devotees of gods were once sealed inside the Wall of Flesh. Now, they roam the night in search of vengeance.
+	BloodNautilus: The intense red glow of the Blood Moon becomes even greater in contact with water, making aquatic creatures affected more strongly than their land counterparts. This enormous shelled water demon directly feeds off that energy, responding brutally to being pestered.
+	DiggerHead: Exposure to the effects of godly magicks flowing throughout the cracks of the world causes unusual rapid growths in giant worms.
+	GraniteGolem: These strong magicked constructs were utilized in mines for carrying heavy ores and machinery. They continue to inhabit the mines deep below, even after their abandonment.
+	GreekSkeleton: Marble caves were used as arenas during the Deific Era. Fighters looking for glory flocked to them, but now only their bodies populate the area.
+	DesertBeast: Minor draconic offshoots who thrive in arid climates, the Basilisk's hardened bodies make them formidable threats.
+	DuneSplicerHead: The largest worm native to the Desert. Even strengthened by divine magicks, they fall short of the Scourge, and run amok in a hunger-induced frenzy.
+	SandShark: "{$CommonEntries.SandShark}"
+	SandsharkCorrupt: "{$CommonEntries.SandShark}"
+	SandsharkCrimson: "{$CommonEntries.SandShark}"
+	SandsharkHallow: "{$CommonEntries.SandShark}"
+	MeteorHead: When meteorites strike the surface, their fragments lay scattered for the taking. Some pieces have a higher mana density, coming to life and attacking anything nearby.
+	AngryBones: "{$CommonEntries.AngryBones}"
+	AngryBonesBig: "{$CommonEntries.AngryBones}"
+	AngryBonesBigMuscle: "{$CommonEntries.AngryBones}"
+	AngryBonesBigHelmet: "{$CommonEntries.AngryBones}"
+	BlueArmoredBones: "{$CommonEntries.BlueArmoredBones}"
+	BlueArmoredBonesMace: "{$CommonEntries.BlueArmoredBones}"
+	BlueArmoredBonesNoPants: "{$CommonEntries.BlueArmoredBones}"
+	BlueArmoredBonesSword: "{$CommonEntries.BlueArmoredBones}"
+	HellArmoredBones: "{$CommonEntries.HellArmoredBones}"
+	HellArmoredBonesSpikeShield: "{$CommonEntries.HellArmoredBones}"
+	HellArmoredBonesMace: "{$CommonEntries.HellArmoredBones}"
+	HellArmoredBonesSword: "{$CommonEntries.HellArmoredBones}"
+	RustyArmoredBonesAxe: "{$CommonEntries.RustyArmoredBones}"
+	RustyArmoredBonesFlail: "{$CommonEntries.RustyArmoredBones}"
+	RustyArmoredBonesSword: "{$CommonEntries.RustyArmoredBones}"
+	RustyArmoredBonesSwordNoArmor: "{$CommonEntries.RustyArmoredBones}"
+	SkeletonSniper: Part of Yharim's military force in their past lives, these eagle-eyed sharpshooters let nothing escape their crosshairs, even when their place of operation were these cramped halls.
+	TacticalSkeleton: Part of Yharim's military force in their past lives, with thick armor and mighty boomsticks, they were the frontline against the invader that massacred the guards in these halls.
+	SkeletonCommando: Part of Yharim's military force in their past lives, their rocket-powered rage could wipe out entire crowds of escapees had they ever once dared to step out of their cells.
+	BoneLee: This Onyx Kinsman was apprehended by Yharim's troops, and after countless failed escape attempts, used as an example to other prisoners.
+	Paladin: Several Godseeker Knights were assigned to guard the Dungeon, yet not even they could fight against, much less see, their killer. Word of the massacre that happened in these halls never got out, the wails of the dead forever silenced.
+	DiabolistRed: "{$CommonEntries.Diabolist}"
+	DiabolistWhite: "{$CommonEntries.Diabolist}"
+	Necromancer: "{$CommonEntries.Necromancer}"
+	NecromancerArmored: "{$CommonEntries.Necromancer}"
+	RaggedCaster: "{$CommonEntries.RaggedCaster}"
+	RaggedCasterOpenCoat: "{$CommonEntries.RaggedCaster}"
+	DungeonGuardian: The Old Man is cursed to never leave nor enter the Dungeon, much less die. Whoever crosses paths with him and dares to descend into those halls shall not pass!
+	BoneSerpentHead: Mighty serpents once ruled hell, but long ago shed their obsidian scales and became naught but skeletal husks. Subdued by Demons with stolen Azafurian spells, they now protect the demonic territory fiercely.
+	Demon: Despite being a primitive civilization, demons populate most of the underworld. Unlike their lesser brothers, they cast shadow magic rather than hell magic.
+	VoodooDemon: Demons have several religious practices, specially sacrifices. They worship the Wall of Flesh ever since it started roaming the underworld, using offerings to draw it closer.
+	RedDevil: Conjuring potent spears of dark magic, these elite demons look after the adventurer that destroyed their perceived deity.
+	WyvernHead: Deeply in tune with the magic of the world, these serpentine dragons guard the skyward ruins of Chrysadia on behalf of the Storm Dragon. Now, their duty calls louder as divine essence surges through the land.
+	Harpy: Winged, demi-human creatures from distant southward mountains who came to inhabit Chrysadia after its tragic downfall. They defend their new territory fiercely against invaders with their razor-sharp feathers.
+	SeekerHead: Godly magicks have unleashed the dark influences that gave birth to the Eater of Worlds, producing smaller, but just as deadly worms.
+	DesertDjinn: Buried in these caves lie cryptic artifacts older than Ilmeris, their origins swept away by the sands of time. Corrupted by divine magicks, the once friendly djinns within them now reemerge, full of hostility.
+	ChaosElemental: Manifestations of the unstable Essence of the Hallow, they erratically make chase with an uncontrollable surge of luminous power.
+	MartianSaucerCore: Following the destruction of their planet by otherworldly creatures, the Martians' military evolved at an unprecedented rate. They were prepared to fight back any future threats, and also pillage any other worlds they could find.
+	TorchGod: An unknown entity responsible for a torch's eternal flicker, however easily angered by the unsightly, ungrateful abuse of torch placement.
+	EyeofCthulhu: A gargantuan monster of unknown origins, responsible for plaguing the night with Demon Eyes. It was given the title of "Cthulhu", which means "Great Beast" in the language of dragons.
+	BrainofCthulhu: The death of a god often birthed great monsters due to the volatile nature of godly essence. The culling of such abominations used to be cause for songs and festivities, but now, they only give birth to disappointments.
+	SkeletronHead: A demonic construct that bursts out of the Old Man when necessary and the most dangerous part of the curse laid by the Dragon Cult. They hoped to stop all intruders with it, but one was too cunning even for them.
+	WallofFlesh: Originally created by Azafurian mages as a gambit to seal away godly essence, the towering wall broke free after the city's destruction. Its existence was problematic, but its demise has ushered even greater instability upon the world.
+	QueenSlimeBoss: After fleeing the initial battle, the Slime God attempted to rebuild its Paladins with the emerged energy of the Hallow. However, it was ensnared by its own creation, unable to control the vast and unstable power of it.
+	Retinazer: A pair of mechanical eyes built by Draedon for reconnaissance and assassination, Retinazer focuses its energy into firing powerful lasers.
+	Spazmatism: A pair of mechanical eyes built by Draedon for reconnaissance and assassination, Spazmatism chases at high speed, exhaling cursed flames.
+	TheDestroyer: Despite being made with repurposed mining equipment, the Destroyer was built for fighting other deities in single combat, decorated in laser-armed probes, which detach from its body when damaged.
+	SkeletronPrime: Built with the express purpose of inciting fear into the hearts of any god worshiper, this machine has more arms than ever before, and a variety of fierce weapons.
+	Plantera: A creation of the Vernal Pass meant to replace Braelor in his absence. They harnessed dead animal souls to give it life, but the span of such magic was far larger than anticipated. It didn't take long for the Plantera to grow out of control and slaughter its masters.
+	HallowBoss: Despite their parentage, children of gods do not inherit a shred of their power. The Empress chose to claim power for herself by siphoning it from other places and beings. She found a perfect candidate in the Hallow due to its unstable nature, and is now transformed into a mighty fae.
+}
+
+CommonEntries: {
+	DemonEye: That suspicious feeling of being watched may very well come true in the dark of night, when the Eye of Cthulhu's minions roam the skies.
+	SandShark: Sand Sharks lived in the shallow waters of Ilmeris, hiding beneath the sand. They were thankfully well equipped to deal with the fallout of the Incineration.
+	AngryBones: Cursed with undeath, the former prisoners of the Dungeon roam endlessly through its halls, seeking a victim for their unending fury.
+	BlueArmoredBones: Mercenaries hired by Yharim to guard the Dungeon, the Marching Bones were disciplined and relentless, sundering any escapees that decided to rise against their jailors.
+	HellArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Azafure, the fiery glow of the Molten Legion is unmistakable. If anyone ever tried to hide, their red-hot armaments would melt the hideout immediately.
+	RustyArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Underground factions, the Rusted Company's weapons are jagged and rough through use and neglect. The brutality they employed on the field was enough to make many prisoners give up on freedom.
+	Diabolist: Mages of Azafure who bear the Diabolic Sigil, wielding flames as intense as any in the underworld. They were effective at blocking passageways and at making prisoners talk.
+	Necromancer: These sorcerers were trained in Azafure and bore the Necromantic Sign. Much like they terrorized prisoners with the bodies of their friends, so do they terrorize the Dungeon now.
+	RaggedCaster: Casters directly from the Dragon Cult, their cursed magic leaves their victims helplessly lost in utter darkness. They perished attempting to contain the onslaught that happened beneath their halls.
+}

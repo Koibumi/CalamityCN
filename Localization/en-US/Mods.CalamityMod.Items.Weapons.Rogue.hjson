@@ -958,7 +958,7 @@ ScarletDevil: {
 	DisplayName: Scarlet Devil
 	Tooltip:
 		'''
-		Throws an ultra high velocity spear, which creates more projectiles that home in
+		Throws an ultra high velocity spear, which leaves a trail of homing bullets
 		The spear creates a Scarlet Blast upon hitting an enemy
 		Stealth strikes grant you lifesteal and summon a star of projectiles upon hitting an enemy
 		'Divine Spear "Spear the Gungnir"'

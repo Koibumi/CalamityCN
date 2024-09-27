@@ -3320,6 +3320,11 @@ SpineSapling: {
 	Tooltip: 在硫磺火石砖上种植巨型脊骨树树苗
 }
 
+Stohne: {
+	DisplayName: Stohne
+	Tooltip: ""
+}
+
 SulphurousSand: {
 	DisplayName: 硫磺沙
 	Tooltip: ""
