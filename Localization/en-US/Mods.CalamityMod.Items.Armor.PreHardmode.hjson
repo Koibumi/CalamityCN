@@ -211,7 +211,7 @@ SulphurousLeggings: {
 	Tooltip:
 		'''
 		Movement speed increased by 10%
-		Movement speed increased by 35% while submerged in liquid
+		Movement speed increased an additional 25% while submerged in liquid
 		'''
 }
 

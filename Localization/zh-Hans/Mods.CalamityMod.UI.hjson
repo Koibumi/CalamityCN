@@ -86,12 +86,10 @@ Cooldowns: {
 	BloodflareRangedSet: 幽火游魂冷却
 	BrimflameFrenzy: 硫火狂怒冷却
 	ChaosState: 传送冷却
-	CounterScarf: 围巾冷却
 	DivineBless: 圣天祝福充能
 	DivingPlatesBreaking: 深渊潜游服耐久
 	DivingPlatesBroken: 深渊潜游服外壳破损
 	ParryCooldown: 格挡冷却
-	EvasionScarf: 闪避围巾冷却
 	FleshTotem: 血肉图腾冷却
 	GaelsRage: 盖尔大剑怒气冷却
 	GlobalDodge: 深渊影遁冷却
@@ -116,6 +114,7 @@ Cooldowns: {
 	SandCloak: 沙尘斗篷冷却
 	SandsmokeBombActive: 使用沙尘覆盖
 	SandsmokeBombCooldown: 沙尘覆盖冷却
+	ScarfCooldown: 围巾冷却
 	SilvaRevive: 始源林海复活冷却
 	SpeedBlasterBoost: 彩蛋冲锋枪右键冷却
 	SpongeDurability: 海绵屏障耐久

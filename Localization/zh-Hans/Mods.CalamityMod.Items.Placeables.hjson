@@ -512,8 +512,9 @@ CorruptionEffigy: {
 	DisplayName: 腐化雕像
 	Tooltip:
 		'''
-		放置后，使附近的玩家获得10%移动速度和暴击率加成
-		附近的玩家同时会损失5%伤害减免
+		放置后右键点击可获得10%移动速度和暴击率加成
+		但代价是损失5%伤害减免
+		无法与血腥雕像效果叠加
 		'''
 }
 
@@ -605,8 +606,9 @@ CrimsonEffigy: {
 	DisplayName: 血腥雕像
 	Tooltip:
 		'''
-		放置后，使附近的玩家获得15%伤害和10点防御加成
-		附近的玩家同时会损失10%最大生命值
+		放置后右键点击可获得15%伤害和10点防御加成
+		但代价是损失10%最大生命值
+		无法与腐化雕像效果叠加
 		'''
 }
 
@@ -1688,6 +1690,11 @@ CosmiliteTable: {
 
 CosmiliteWorkBench: {
 	DisplayName: 宇宙工作台
+	Tooltip: ""
+}
+
+AncientSmoothNavystone: {
+	DisplayName: Ancient Smooth Navystone
 	Tooltip: ""
 }
 

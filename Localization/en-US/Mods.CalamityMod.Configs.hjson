@@ -92,6 +92,15 @@ CalamityClientConfig: {
 		Tooltip: Plays Calamity Mod OST - "Scourge of the Universe (Eulogy for the Ego)", after the Devourer of Gods has been defeated.
 	}
 
+	EnableVanillaTextureEdits: {
+		Label: "[i:Paintbrush] Enable Vanilla Texture Edits"
+		Tooltip:
+			'''
+			Enables slight edits to vanilla boss textures to improve attack telegraphs.
+			Disable this for compatibility with texture packs.
+			'''
+	}
+
 	EnergyShieldOpacity: {
 		Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
 		Tooltip:
@@ -160,15 +169,6 @@ CalamityClientConfig: {
 			'''
 			Prevents clicking on Calamity's various Meters on the screen.
 			This stops them from being dragged around with the mouse.
-			'''
-	}
-
-	NewVanillaTextures: {
-		Label: "[i:Paintbrush] New Vanilla Textures"
-		Tooltip:
-			'''
-			Enable or disable new vanilla textures.
-			Disable this for compatibility with texture packs.
 			'''
 	}
 

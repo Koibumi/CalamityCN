@@ -86,12 +86,10 @@ Cooldowns: {
 	BloodflareRangedSet: Bloodflare Soul Cooldown
 	BrimflameFrenzy: Brimflame Frenzy Cooldown
 	ChaosState: Teleportation Cooldown
-	CounterScarf: Scarf Cooldown
 	DivineBless: Divine Bless Cooldown
 	DivingPlatesBreaking: Abyssal Diving Suit Plates Durability
 	DivingPlatesBroken: Abyssal Diving Suit Broken Plates
 	ParryCooldown: Parry Ability Cooldown
-	EvasionScarf: Scarf Cooldown
 	FleshTotem: Contact Damage Halving Cooldown
 	GaelsRage: Gael's Greatsword Rage Cooldown
 	GlobalDodge: Dodge Cooldown
@@ -116,6 +114,7 @@ Cooldowns: {
 	SandCloak: Sand Cloak Cooldown
 	SandsmokeBombActive: Sandsmoke Bomb Duration
 	SandsmokeBombCooldown: Sandsmoke Bomb Cooldown
+	ScarfCooldown: Scarf Cooldown
 	SilvaRevive: Silva Revive Cooldown
 	SpeedBlasterBoost: Speed Blaster Boost
 	SpongeDurability: Sponge Barrier Durability

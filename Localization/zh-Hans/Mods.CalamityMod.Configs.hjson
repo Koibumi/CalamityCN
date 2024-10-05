@@ -92,6 +92,15 @@ CalamityClientConfig: {
 		Tooltip: 在神明吞噬者被击败后播放灾厄OST——“Scourge of the Universe (Eulogy for the Ego)”。
 	}
 
+	EnableVanillaTextureEdits: {
+		Label: "[i:Paintbrush] Enable Vanilla Texture Edits"
+		Tooltip:
+			'''
+			Enables slight edits to vanilla boss textures to improve attack telegraphs.
+			禁用此配置以适配材质包。
+			'''
+	}
+
 	EnergyShieldOpacity: {
 		Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
 		Tooltip:
@@ -160,15 +169,6 @@ CalamityClientConfig: {
 			'''
 			无法点击屏幕上的各种灾厄属性条。
 			开启后防止它们被鼠标拖动。
-			'''
-	}
-
-	NewVanillaTextures: {
-		Label: "[i:Paintbrush] 全新的原版材质"
-		Tooltip:
-			'''
-			启用或禁用新的原版材质。
-			禁用此配置以适配材质包。
 			'''
 	}
 

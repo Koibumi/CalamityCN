@@ -12,8 +12,11 @@ NPCName: {
 	Wraith: Souls belonging to devotees of gods were once sealed inside the Wall of Flesh. Now, they roam the night in search of vengeance.
 	BloodNautilus: The intense red glow of the Blood Moon becomes even greater in contact with water, making aquatic creatures affected more strongly than their land counterparts. This enormous shelled water demon directly feeds off that energy, responding brutally to being pestered.
 	DiggerHead: Exposure to the effects of godly magicks flowing throughout the cracks of the world causes unusual rapid growths in giant worms.
+	UndeadMiner: After the Crusade died down, many spelunkers attempted to take advantage of the situation. The results were less than optimal.
 	GraniteGolem: These strong magicked constructs were utilized in mines for carrying heavy ores and machinery. They continue to inhabit the mines deep below, even after their abandonment.
 	GreekSkeleton: Marble caves were used as arenas during the Deific Era. Fighters looking for glory flocked to them, but now only their bodies populate the area.
+	UndeadViking: After the Crusade left the continent in shambles, many factions attempted to conquer it. These vikings were one such group, but the icy winds of the tundra made short work of them.
+	IcyMerman: Mermen rarely stray far from the ocean, favoring the vast waters where their revered Elemental now lives in. Those that do can become lost, wander into cold caverns, and become icy undead fish men.
 	DesertBeast: Minor draconic offshoots who thrive in arid climates, the Basilisk's hardened bodies make them formidable threats.
 	DuneSplicerHead: The largest worm native to the Desert. Even strengthened by divine magicks, they fall short of the Scourge, and run amok in a hunger-induced frenzy.
 	SandShark: "{$CommonEntries.SandShark}"
@@ -49,15 +52,21 @@ NPCName: {
 	RaggedCaster: "{$CommonEntries.RaggedCaster}"
 	RaggedCasterOpenCoat: "{$CommonEntries.RaggedCaster}"
 	DungeonGuardian: The Old Man is cursed to never leave nor enter the Dungeon, much less die. Whoever crosses paths with him and dares to descend into those halls shall not pass!
-	BoneSerpentHead: Mighty serpents once ruled hell, but long ago shed their obsidian scales and became naught but skeletal husks. Subdued by Demons with stolen Azafurian spells, they now protect the demonic territory fiercely.
+	BoneSerpentHead: Mighty serpentine offshoots ruled hell since before history, later led by the exiled Flame Dragon. For such alliance, their obsidian scales were turned to Ash shortly after his demise. Reduced to skeletal husks, they were easily subdued by Demons with stolen Azafurian spells and forced to protect the demonic territory.
 	Demon: Despite being a primitive civilization, demons populate most of the underworld. Unlike their lesser brothers, they cast shadow magic rather than hell magic.
 	VoodooDemon: Demons have several religious practices, specially sacrifices. They worship the Wall of Flesh ever since it started roaming the underworld, using offerings to draw it closer.
 	RedDevil: Conjuring potent spears of dark magic, these elite demons look after the adventurer that destroyed their perceived deity.
 	WyvernHead: Deeply in tune with the magic of the world, these serpentine dragons guard the skyward ruins of Chrysadia on behalf of the Storm Dragon. Now, their duty calls louder as divine essence surges through the land.
 	Harpy: Winged, demi-human creatures from distant southward mountains who came to inhabit Chrysadia after its tragic downfall. They defend their new territory fiercely against invaders with their razor-sharp feathers.
+	Scutlix: One of the few creatures left in the Martian homeworld, these creatures function similarly to horses. That is, if horses could fire lasers from their eyes.
+	MartianProbe: Sensing growing power on the planet, otherworldly beings send space-age technology to scan for valuable resources.
 	SeekerHead: Godly magicks have unleashed the dark influences that gave birth to the Eater of Worlds, producing smaller, but just as deadly worms.
 	DesertDjinn: Buried in these caves lie cryptic artifacts older than Ilmeris, their origins swept away by the sands of time. Corrupted by divine magicks, the once friendly djinns within them now reemerge, full of hostility.
 	ChaosElemental: Manifestations of the unstable Essence of the Hallow, they erratically make chase with an uncontrollable surge of luminous power.
+	GoblinThief: Thieves forcefully conscripted in the Goblin Army in exchange for freedom, these pesky foes specialize in nimble movement and close-quarters combat.
+	GoblinSummoner: Goblins that reach such a mastery over the arcane are treated like royalty, prize jewels of their society. Warlocks in particular conjure unfathomable shadowflame ghasts through a powerful hex.
+	GoblinSorcerer: Goblins struggle to manipulate magic, only scantily capable of conjuring the simplest of spells. Those that can have the potential for manipulating magicked shadow energy through a form of hexing.
+	PirateCaptain: A pirate captain's love for riches is only rivaled by his desire to explore! Word that the Crusade had seemingly ended spread fast across the world, and abundances to plunder in this continent attracted this sea dweller and his motley crew.
 	MartianSaucerCore: Following the destruction of their planet by otherworldly creatures, the Martians' military evolved at an unprecedented rate. They were prepared to fight back any future threats, and also pillage any other worlds they could find.
 	TorchGod: An unknown entity responsible for a torch's eternal flicker, however easily angered by the unsightly, ungrateful abuse of torch placement.
 	EyeofCthulhu: A gargantuan monster of unknown origins, responsible for plaguing the night with Demon Eyes. It was given the title of "Cthulhu", which means "Great Beast" in the language of dragons.
@@ -71,6 +80,15 @@ NPCName: {
 	SkeletronPrime: Built with the express purpose of inciting fear into the hearts of any god worshiper, this machine has more arms than ever before, and a variety of fierce weapons.
 	Plantera: A creation of the Vernal Pass meant to replace Braelor in his absence. They harnessed dead animal souls to give it life, but the span of such magic was far larger than anticipated. It didn't take long for the Plantera to grow out of control and slaughter its masters.
 	HallowBoss: Despite their parentage, children of gods do not inherit a shred of their power. The Empress chose to claim power for herself by siphoning it from other places and beings. She found a perfect candidate in the Hallow due to its unstable nature, and is now transformed into a mighty fae.
+	Golem: A remarkable display of ingenuity constructed by the Lihzahrd race. Seeking light after they hid away in their temple out of shame for driving their goddess away, they built this construct. Powered by solar energy cells, it is ready to guard the Temple.
+	DukeFishron: An aquatic-evolved species which lives in isolation in the depths of the ocean. Despite their shortcomings, they still share blood with the dragons of old, claiming near complete dominion over the oceans. Legends claim it only surfaces in search of a rare, savory type of worm.
+	CultistBoss: The fanatical leader of the Dragon Cult, hell-bent on resurrecting a dragon. He upholds their sacred duty of keeping the cosmic behemoth sealed far away on the moon, an oath he swore to long ago when he pledged himself in their service.
+	CultistDevote: Utterly devoted, Lunatic Devotees are so paranoid over the prospect of their ritual failing that they stay unflinching even when threatened with death. Fear only makes them work harder.
+	LunarTowerNebula: The second pillar, created to spawn beings from beyond that filled the Minds of all with gloom. These troops specialized in disabling the enemy's intelligence, ensuring no countermeasures could be planned against the dominator.
+	LunarTowerSolar: The fourth and last pillar, created as Sunlight bled and marked doom. A miniscule shard of its power was used to make it, and yet its spawns accompanied the dominator directly in his conquest against the dragons.
+	LunarTowerVortex: The first pillar, created as black Storm clouds on the horizon loomed. While the dominator fought the mightiest of dragons, the spawns of this pillar focused on exterminating any mundane life they could find, appearing in seemingly infinite droves.
+	LunarTowerStardust: The third Pillar, created as Life rose to fight, but was given no room. Its spawns found particular utility in searching and picking off stronger beings that could pose a threat to the creatures of the Vortex.
+	MoonLordCore: The cosmic behemoth that brought Terraria to its knees 800 years ago, freed from its lunar prison in a weakened state. It had the power to siphon and dominate souls, including those possessed by dragons, permanently wounding them. It hails from an incomprehensible fissure of broken spacetime which leeches energy from our dimension to sustain itself.
 }
 
 CommonEntries: {

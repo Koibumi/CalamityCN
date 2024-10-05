@@ -512,8 +512,9 @@ CorruptionEffigy: {
 	DisplayName: Corruption Effigy
 	Tooltip:
 		'''
-		When placed down, nearby players have their movement speed and crit chance increased by 10%
-		Nearby players also suffer a 5% decrease to their damage reduction
+		<right> when placed to gain 10% increased movement speed and critical strike chance
+		However, this comes at a cost of 5% damage reduction
+		This cannot be stacked with Crimson Effigy
 		'''
 }
 
@@ -605,8 +606,9 @@ CrimsonEffigy: {
 	DisplayName: Crimson Effigy
 	Tooltip:
 		'''
-		When placed down nearby players have their damage increased by 15% and defense by 10
-		Nearby players also suffer a 10% decrease to their maximum health
+		<right> when placed to gain 15% damage and 10 defense
+		However, this comes at a cost of 10% maximum health
+		This cannot be stacked with Corruption Effigy
 		'''
 }
 
@@ -1688,6 +1690,11 @@ CosmiliteTable: {
 
 CosmiliteWorkBench: {
 	DisplayName: Cosmilite Work Bench
+	Tooltip: ""
+}
+
+AncientSmoothNavystone: {
+	DisplayName: Ancient Smooth Navystone
 	Tooltip: ""
 }
 
