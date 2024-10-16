@@ -75,8 +75,9 @@ HydrothermicSphere.DisplayName: 渊泉球体
 JewelSpike.DisplayName: 宝石尖刺
 KelvinCatalystStar.DisplayName: 冰灵旋刃碎冰星
 LeviAmberDash.DisplayName: 激流猛冲
-LunicBeam.DisplayName: 激光
-MagnusBeam.DisplayName: 磁振子束
+LunicBeam.DisplayName: Lunic Seeker
+MagnusBeam.DisplayName: Magnus Seeker
+MagnusBoom.DisplayName: Nebula Blast
 MythrilFlare.DisplayName: 秘银火花
 NanoFlare.DisplayName: 纳米耀斑
 Nanotech.DisplayName: 纳米刃
@@ -134,3 +135,4 @@ WulfrumLureSignal.DisplayName: 信号
 YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
 VoidofExtinctionCrit.DisplayName: 终结虚空暴击
+XykDeathAnim.DisplayName: Xyk Death Animation

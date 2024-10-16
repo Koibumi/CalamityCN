@@ -421,7 +421,7 @@ Earth: {
 		一把绚丽的棱晶剑，有着无与伦比的近战能力
 		命中时大幅治疗你
 		每隔一次挥舞会从天上召唤三道盖亚陨石打击附近敌怪
-		'All its spawn shall know the beauty and wrath of their creator'
+		'All Its spawn shall know the beauty and wrath of their creator'
 		'''
 }
 
@@ -957,9 +957,9 @@ PrismaticBreaker: {
 	DisplayName: 光棱破碎者
 	Tooltip:
 		'''
-		充能发射一束彩虹光炮
-		右键挥舞此剑，释放虹光剑气
-		这把剑同时受到近战和远程的伤害加成影响
+		Fires several bursts of magic stars as the weapon charges up
+		After charging up, a massive rainbow laser is unleashed to devastate your foes
+		这把武器同时受到近战和远程的伤害加成影响
 		看上去属于一位魔法少女。辐射出强烈的宇宙魔能
 		'''
 }

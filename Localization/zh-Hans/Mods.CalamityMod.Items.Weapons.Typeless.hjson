@@ -11,9 +11,9 @@ EyeofMagnus: {
 	DisplayName: 马格努斯之眼
 	Tooltip:
 		'''
-		发射能够削减敌人防护能力的星光射线
-		击中敌人时会回复生命值和魔力值
-		受所有的伤害属性加成
+		Fires seeking cosmic masses that restore health and mana on hit
+		Explodes into a nebula cloud which reduces enemy protection
+		This weapon scales with the average of all your damage stats
 		'''
 }
 
@@ -21,8 +21,8 @@ LunicEye: {
 	DisplayName: 星光之眼
 	Tooltip:
 		'''
-		发射能够削减敌人防护能力的星光射线
-		受所有的伤害属性加成
+		Fires seeking energy bolts that reduce enemy protection
+		This weapon scales with the average of all your damage stats
 		'''
 }
 

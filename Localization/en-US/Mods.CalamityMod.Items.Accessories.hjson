@@ -495,19 +495,20 @@ DaawnlightSpiritOrigin: {
 	DisplayName: Daawnlight Spirit Origin
 	Tooltip:
 		'''
-		Places bullseyes on enemies and bosses that can be hit for massive damage
-		Converts all ranged critical strike chance into critical strike damage
+		All ranged weapons can supercrit when critical strike chance is over 100%
+		Marks enemies and bosses with bullseyes which boost critical strike chance when hit
+		Extra critical strike chance quickly fades over time
 		Summons a heroic spirit from another world if visibility is on or in vanity slots
 		'''
 	HoldShiftTooltip:
 		'''
-		All nearby enemies and bosses are marked with bullseyes
-		All ranged attacks that hit a bullseye critically strike and deal massive damage
-		Struck bullseyes vanish and a new one appears elsewhere
-		Explosions and large projectiles cannot hit bullseyes
-		Shots ricocheted off of tossed coins deal less bullseye damage
-		Converts all ranged critical strike chance into critical strike damage
-		Ranged weapons that are slow to use deal more bullseye damage
+		All ranged weapons can supercrit when critical strike chance is over 100%
+		Marks nearby enemies and bosses with bullseyes which disappear shortly after being hit
+		Ranged attacks which strike bullseyes boost critical strike chance
+		Large projectiles and explosions cannot strike bullseyes
+		Slower weapons give a larger critical strike chance boost on hit
+		Extra critical strike chance quickly fades over time
+		The higher the boost, the more quickly it fades away
 		Summons a heroic spirit from another world if visibility is on or in vanity slots
 		'''
 	FlavorTooltip: "'A strand of a lost cosmos remains, waiting for its master'"
@@ -2076,4 +2077,26 @@ PunchCard: {
 SharkyPlush: {
 	DisplayName: Sharky Plush
 	Tooltip: "[c/696969:'Look around, at the sight and sound...']"
+}
+
+XyksBlessingBlue: {
+	DisplayName: Xyk's Blessing (Blue)
+	Tooltip:
+		'''
+		Applies visual effects to your dashes and deaths
+		<right> to transform
+		'It's simply too much to turn back now; passion and time have long since stained it.
+		[c/5f8ae1:Have I always been so selfish?']
+		'''
+}
+
+XyksBlessingOrange: {
+	DisplayName: Xyk's Blessing (Orange)
+	Tooltip:
+		'''
+		Applies visual effects to your dashes and deaths
+		<right> to transform
+		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
+		[c/E1B65F:Prove that it was never a waste.']
+		'''
 }

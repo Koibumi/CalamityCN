@@ -914,7 +914,7 @@ DoGExtremeGravity: {
 
 Enraged: {
 	DisplayName: Enraged
-	Description: Total damage multiplied by 2.25x, but you take 1.25x damage
+	Description: Total damage multiplied by 1.65x, but you take 1.25x damage
 }
 
 Eutrophication: {
@@ -1571,4 +1571,9 @@ FlarebatBuff: {
 FrostbatBuff: {
 	DisplayName: Frostbat
 	Description: The construct of ice will protect you
+}
+
+AmphibiansGuitarBuff: {
+	DisplayName: Amphibian's Guitars
+	Description: Worthless human...
 }

@@ -203,16 +203,6 @@ NO: {
 	Tooltip: U
 }
 
-OldPowerCell: {
-	DisplayName: Old Power Cell
-	Tooltip:
-		'''
-		Summons the Golem when used in the Jungle Temple
-		Enrages outside the Jungle Temple
-		Not consumable
-		'''
-}
-
 OverloadedSludge: {
 	DisplayName: Overloaded Sludge
 	Tooltip:

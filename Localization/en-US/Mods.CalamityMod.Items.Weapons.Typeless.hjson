@@ -11,9 +11,9 @@ EyeofMagnus: {
 	DisplayName: Eye of Magnus
 	Tooltip:
 		'''
-		Fires powerful homing beams that reduce enemy protection
-		Heals mana and health on hit
-		This weapon scales with all your damage stats at once
+		Fires seeking cosmic masses that restore health and mana on hit
+		Explodes into a nebula cloud which reduces enemy protection
+		This weapon scales with the average of all your damage stats
 		'''
 }
 
@@ -21,8 +21,8 @@ LunicEye: {
 	DisplayName: Lunic Eye
 	Tooltip:
 		'''
-		Fires homing lunic beams that reduce enemy protection
-		This weapon scales with all your damage stats at once
+		Fires seeking energy bolts that reduce enemy protection
+		This weapon scales with the average of all your damage stats
 		'''
 }
 

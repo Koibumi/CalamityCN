@@ -219,7 +219,7 @@ CoralSpout: {
 
 CosmicRainbow: {
 	DisplayName: Cosmic Rainbow
-	Tooltip: Launches a barrage of rainbows
+	Tooltip: Launches a barrage of rainbows and homing sparkles
 }
 
 Cryophobia: {

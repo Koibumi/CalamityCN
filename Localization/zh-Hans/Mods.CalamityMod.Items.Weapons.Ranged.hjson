@@ -1293,6 +1293,18 @@ Svantechnical: {
 		'''
 }
 
+TauCannon: {
+	DisplayName: Tau Cannon
+	Tooltip:
+		'''
+		A bulky assault rifle with three charge levels that fires astral energy
+		Charge level one fires a burst of bolts
+		Charge level two fires a beam of energy that quickly fizzles out
+		Charge level three fires a massive laser and creates astral portals around you
+		'This weapon is very ethically questionable'
+		'''
+}
+
 TelluricGlare: {
 	DisplayName: 地核之炎
 	Tooltip: 发射四支可穿透物块的爆炸辐射箭

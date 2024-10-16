@@ -219,7 +219,7 @@ CoralSpout: {
 
 CosmicRainbow: {
 	DisplayName: 宙虹
-	Tooltip: 发射大量的彩虹！
+	Tooltip: Launches a barrage of rainbows and homing sparkles
 }
 
 Cryophobia: {

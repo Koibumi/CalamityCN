@@ -421,7 +421,7 @@ Earth: {
 		A beautiful prismatic blade with unrivaled close combat proficiency
 		Heals you greatly on hit
 		Every other swing will summon three Gaia meteors to fall upon nearby enemies
-		'All its spawn shall know the beauty and wrath of their creator'
+		'All Its spawn shall know the beauty and wrath of their creator'
 		'''
 }
 
@@ -709,7 +709,7 @@ Hellkite: {
 		'''
 		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
 		Swings a slow and heavy blade with powerful knockback
-		Holding <right> while swinging will begin charging a strengthened swing
+		Holding <right> will begin charging a strengthened swing
 		Releasing <right> while fully charged will unleash a devastating slash
 		[c/0C507F:'My beloved <3' -Xyk]
 		'''
@@ -957,9 +957,9 @@ PrismaticBreaker: {
 	DisplayName: Prismatic Breaker
 	Tooltip:
 		'''
-		Fire to charge for a powerful rainbow laser
-		Press <right> to instead swing the sword and fire rainbow colored waves
-		The sword is boosted by both melee and ranged damage
+		Fires several bursts of magic stars as the weapon charges up
+		After charging up, a massive rainbow laser is unleashed to devastate your foes
+		This weapon is boosted by both melee and ranged damage
 		Seems to belong to a certain magical girl. Radiates with intense cosmic energy
 		'''
 }

@@ -203,16 +203,6 @@ NO: {
 	Tooltip: U
 }
 
-OldPowerCell: {
-	DisplayName: 陈旧的能源之核
-	Tooltip:
-		'''
-		在神庙使用以召唤石巨人
-		在丛林神庙外狂暴
-		不消耗
-		'''
-}
-
 OverloadedSludge: {
 	DisplayName: 过载淤泥
 	Tooltip:

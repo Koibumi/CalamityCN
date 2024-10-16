@@ -914,7 +914,7 @@ DoGExtremeGravity: {
 
 Enraged: {
 	DisplayName: 激怒
-	Description: 总伤害乘以2.25，但你受到1.25倍伤害
+	Description: 总伤害乘以1.65，但你受到1.25倍伤害
 }
 
 Eutrophication: {
@@ -1575,4 +1575,9 @@ FlarebatBuff: {
 FrostbatBuff: {
 	DisplayName: Frostbat
 	Description: 冰构造体会保护你
+}
+
+AmphibiansGuitarBuff: {
+	DisplayName: Amphibian's Guitars
+	Description: Worthless human...
 }

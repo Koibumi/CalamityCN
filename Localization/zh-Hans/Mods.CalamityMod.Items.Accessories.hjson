@@ -496,19 +496,20 @@ DaawnlightSpiritOrigin: {
 	DisplayName: 曙旼始灵
 	Tooltip:
 		'''
-		在敌怪和Boss身上放置靶心，受击时造成大量伤害
-		将所有的远程暴击率转化为暴击伤害
+		All ranged weapons can supercrit when critical strike chance is over 100%
+		Marks enemies and bosses with bullseyes which boost critical strike chance when hit
+		Extra critical strike chance quickly fades over time
 		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
 		'''
 	HoldShiftTooltip:
 		'''
-		附近的所有敌人和Boss都会被靶心标记
-		所有命中靶心的远程攻击会暴击并造成大量伤害
-		被命中的靶心会消失而新的靶心会在别处出现
-		爆炸和大型弹幕无法击中靶心
-		从钱币反弹后命中靶心的攻击造成的伤害会降低
-		将所有的远程暴击率转化为暴击伤害
-		使用时间越长的远程武器对靶心造成的伤害越高
+		All ranged weapons can supercrit when critical strike chance is over 100%
+		Marks nearby enemies and bosses with bullseyes which disappear shortly after being hit
+		Ranged attacks which strike bullseyes boost critical strike chance
+		Large projectiles and explosions cannot strike bullseyes
+		Slower weapons give a larger critical strike chance boost on hit
+		Extra critical strike chance quickly fades over time
+		The higher the boost, the more quickly it fades away
 		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
 		'''
 	FlavorTooltip: "“一缕失落宇宙的残烬，久久等待着她的御主”"
@@ -2078,4 +2079,26 @@ PunchCard: {
 SharkyPlush: {
 	DisplayName: Sharky Plush
 	Tooltip: "[c/696969:'Look around, at the sight and sound...']"
+}
+
+XyksBlessingBlue: {
+	DisplayName: Xyk's Blessing (Blue)
+	Tooltip:
+		'''
+		Applies visual effects to your dashes and deaths
+		<right> to transform
+		'It's simply too much to turn back now; passion and time have long since stained it.
+		[c/5f8ae1:Have I always been so selfish?']
+		'''
+}
+
+XyksBlessingOrange: {
+	DisplayName: Xyk's Blessing (Orange)
+	Tooltip:
+		'''
+		Applies visual effects to your dashes and deaths
+		<right> to transform
+		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
+		[c/E1B65F:Prove that it was never a waste.']
+		'''
 }

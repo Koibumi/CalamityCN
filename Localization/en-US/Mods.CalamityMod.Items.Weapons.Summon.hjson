@@ -902,3 +902,13 @@ FrostbatStaff: {
 		Swoops towards foes with slow and precise maneuvers
 		'''
 }
+
+AmphibiansGuitar: {
+	DisplayName: Amphibian's Guitar
+	Tooltip:
+		'''
+		Summons up to 8 guitars that spin around you and shoot notes at the target, ocasianally firing spread shots
+		If all 8 guitars are present some notes become empowered dealing extra damage
+		"I'll show you suffering!"
+		'''
+}
