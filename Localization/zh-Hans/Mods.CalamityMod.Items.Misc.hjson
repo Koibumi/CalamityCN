@@ -269,7 +269,7 @@ AntiCystOintment: {
 	DisplayName: 抗囊肿药膏
 	Tooltip:
 		'''
-		切换此物品的状态可阻止腐化肿瘤在你附近生成
+		切换此物品的状态可阻止血肉囊在你附近生成
 		按下右键切换
 		[STATE]
 		'''
@@ -279,7 +279,7 @@ AntiTumorOintment: {
 	DisplayName: 抗肿瘤药膏
 	Tooltip:
 		'''
-		切换此物品的状态可阻止血肉囊在你附近生成
+		切换此物品的状态可阻止腐化肿瘤在你附近生成
 		按下右键切换
 		[STATE]
 		'''
