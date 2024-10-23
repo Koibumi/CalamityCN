@@ -310,8 +310,8 @@ OldFashioned: {
 	DisplayName: 古典酒
 	Tooltip:
 		'''
-		所有饰品与套装奖励的伤害增加至1.5倍
-		所有伤害降低25%
+		Multiplies most non-weapon, non-debuff damage by {0}x
+		Multiplies all weapon damage by {1}x
 		饮用三种以上的酒或许对你的肝脏不太好
 		[c/B00BA5:“我的旧爱”]
 		'''

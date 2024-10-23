@@ -303,8 +303,8 @@ OldFashioned: {
 	DisplayName: Old Fashioned
 	Tooltip:
 		'''
-		Multiplies all accessory and set bonus damage by 1.5x
-		Decreases all damage by 25%
+		Multiplies most non-weapon, non-debuff damage by {0}x
+		Multiplies all weapon damage by {1}x
 		Drinking more than 3 different alcohols might not end well with your liver
 		[c/B00BA5:'An old favorite of mine.']
 		'''

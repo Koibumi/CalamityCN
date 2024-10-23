@@ -742,6 +742,11 @@ RefractivePrismTorch: {
 	Tooltip: Can be placed in water
 }
 
+RepairUnitCage: {
+	DisplayName: Repair Unit Cage
+	Tooltip: ""
+}
+
 ResilientCandle: {
 	DisplayName: Resilient Candle
 	Tooltip:

@@ -83,22 +83,22 @@ namespace CalamityCN.Translations
 
 
             //-原版物品-
-            if (item.type == 3110 || item.type == 1865 || item.type == 899 || item.type == 900)
+            if (item.type == ItemID.CelestialShell || item.type == ItemID.CelestialStone || item.type == ItemID.SunStone || item.type == ItemID.MoonStone)
                 {
                     tooltips.ReplaceText("近战速度、", "");
                 }
 
-                if (item.type == 3992)
+                if (item.type == ItemID.BerserkerGlove)
                 {
                     tooltips.ReplaceText("近战速度提高12%", "真近战伤害提高10%");
                 }
 
-                if (item.type == 2277)
+                if (item.type == ItemID.Gi)
                 {
-                    tooltips.ReplaceText("近战", "跳跃速度");
+                    tooltips.ReplaceText("近战", "跳跃");
                 }
 
-                if (item.type == 2275)
+                if (item.type == ItemID.MagicHat)
                 {
                     tooltips.ReplaceText("6% increased magic critical strike chance", "魔法暴击率提高6%");
                 }
@@ -109,78 +109,14 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Inflicts Whispering Death on hit", "命中造成死亡低语减益");
                 }
 
-                if (item.type == ItemID.CandyCaneSword || item.type == ItemID.FruitcakeChakram)
-                {
-                    tooltips.ReplaceText("Heals you on hit", "命中时治疗你");
-                }
-
-                if (item.type == ItemID.Excalibur || item.type == ItemID.TrueExcalibur || item.type == ItemID.Gungnir)
-                {
-                    tooltips.ReplaceText("Inflicts Holy Flames", "命中造成神圣之火减益");
-                    tooltips.ReplaceText("Deals double damage to enemies above 75% life", "对75%生命值以上的敌怪造成双倍伤害");
-                }
-
-                if (item.type == 46 || item.type == 162 || item.type == 3279)
-                {
-                    tooltips.ReplaceText("Inflicts Shadowflame on hit", "命中造成暗影焰减益");
-                }
-
-                if (item.type == 2608)
+                if (item.type == ItemID.FalconBlade)
                 {
                     tooltips.ReplaceText("Holding this item grants +20% increased movement speed", "手持此物品时会获得20%移动速度加成");
                 }
 
-                if (item.type == 426 || item.type == 1166 || item.type == 3772)
-                {
-                    tooltips.ReplaceText("Ignores 50% of enemy defense", "无视敌怪50%的防御力");
-                }
-
-                if (item.type == 795 || item.type == 801 || item.type == 802 || item.type == 3280)
-                {
-                    tooltips.ReplaceText("Inflicts Burning Blood on hit", "命中造成沸腾之血减益");
-                }
-
-                if (item.type == 483 || item.type == 537)
-                {
-                    tooltips.ReplaceText("Decreases enemy defense by 25% on hit", "命中时减少敌人25%防御");
-                    tooltips.ReplaceText("This effect lasts for 10 seconds", "此效果持续10秒");
-                }
-
-                if (item.type == 1185 || item.type == 1186)
-                {
-                    tooltips.ReplaceText("Increases natural life regen on hit", "命中时增加自然生命恢复速度");
-                }
-
-                if (item.type == 484 || item.type == 390)
-                {
-                    tooltips.ReplaceText("Decreases enemy contact damage by 10% on hit", "命中时减少敌人10%接触伤害");
-                    tooltips.ReplaceText("This effect lasts for 10 seconds", "此效果持续10秒");
-                }
-
-                if (item.type == 1192 || item.type == 1193)
-                {
-                    tooltips.ReplaceText("Increases how frequently the Orichalcum set bonus triggers on hit", "命中时增加山铜套触发效果");
-                }
-
-                if (item.type == 406 || item.type == 482)
-                {
-                    tooltips.ReplaceText("Slows enemies on hit", "命中时减速敌人");
-                }
-
-                if (item.type == 3859)
+                if (item.type == ItemID.DD2BetsyBow)
                 {
                     tooltips.ReplaceText("Shoots splitting arrows", "射出分裂的箭");
-                }
-
-                if (item.type == 1199 || item.type == 1200)
-                {
-                    tooltips.ReplaceText("Deals increased damage to enemies with high knockback resistance", "对高击退抗性的敌人造成更多伤害");
-                }
-
-                List<int> i100ed = new List<int>() { 3352, 198, 199, 200, 201, 202, 203, 3764, 3765, 3766, 3767, 3768, 3769, 4258, 4259 };
-                if (i100ed.Contains(item.type))
-                {
-                    tooltips.ReplaceText("Ignores 100% of enemy defense", "无视敌怪100%的防御力");
                 }
 
                 if (item.type == ItemID.SoulDrain)
@@ -235,7 +171,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.TerrasparkBoots)
                 {
-                    tooltips.ReplaceText("Immunity to the On Fire! debuff", "免疫着火了减益");
+                    tooltips.ReplaceText("Immunity to the On Fire! debuff", "免疫着火了！减益");
                 }
                 if (item.type == ItemID.Magiluminescence)
                 {
@@ -250,7 +186,7 @@ namespace CalamityCN.Translations
 
                 if (item.type == ItemID.AnkhShield)
                 {
-                    tooltips.ReplaceText("including Mighty Wind", "包括强风");
+                    tooltips.ReplaceText(", including Mighty Wind", "，包括强风");
                 }
 
                 if (item.type == ItemID.BlackBelt || item.type == ItemID.MasterNinjaGear || item.type == ItemID.BrainOfConfusion)
@@ -288,7 +224,8 @@ namespace CalamityCN.Translations
 	                tooltips.ReplaceText("14% increased melee damage", "近战伤害增加14%");
 	                tooltips.ReplaceText("14% increased melee speed, does not stack with downgrades", "近战攻速增加14%，该效果不会与其下位合成材料叠加");
                 }
-                
+
+                //太阳石，月亮石，天界石（壳）这三句在官方wiki语言包下不生效
                 if (item.type == ItemID.SunStone)
                 {
                     tooltips.ReplaceText("Reduces the damage of the Daybroken debuff", "减少受到破晓减益的伤害");
@@ -396,9 +333,10 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
                 }
 
-                if (item.type == ItemID.AncientChisel)
+                if (item.type == ItemID.FrogLeg || item.type == ItemID.FrogFlipper || item.type == ItemID.FrogWebbing || item.type == ItemID.FrogGear || item.type == ItemID.AmphibianBoots)
                 {
-                    tooltips.ReplaceText("Increases mining speed by 15%", "提高15%挖矿速度");
+                    tooltips.ReplaceText("Increases jump speed by ", "提高");
+                    tooltips.ReplaceText("% and allows auto-jump", "%跳跃速度并可自动跳跃");
                 }
 
                 if (item.type == ItemID.FrozenTurtleShell || item.type == ItemID.FrozenShield)
@@ -602,15 +540,9 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Increases damage reduction by 5%", "伤害减免增加5%");
                     tooltips.ReplaceText("10% increased movement speed", "移速增加10%");
                 }
-                if (item.type == 688 || item.type == 689)
+                if (item.type == ItemID.TinHelmet || item.type == 688 || item.type == 689)
                 {
                     tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加3%");
-                    tooltips.ReplaceText("+0.5 HP/s life regen", "+0.5HP/s生命再生");
-                    tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
-                }
-                if (item.type == ItemID.TinHelmet)
-                {
-                    tooltips.ReplaceText("3% increased critical strike chance", "暴击率增加4%");
                     tooltips.ReplaceText("+0.5 HP/s life regen", "+0.5HP/s生命再生");
                     tooltips.ReplaceText("5% increased movement speed", "移速增加5%");
                 }
@@ -754,7 +686,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.Ale || item.type == ItemID.Sake)
                 {
-                    tooltips.ReplaceText("Increases melee damage and speed by 10% and reduces defense by 10%", "增加10%近战伤害和攻速，减少10%防御");
+                    tooltips.ReplaceText("Increases melee damage by 10% and reduces defense by 5%", "提高10%近战伤害但降低5%防御");
                     tooltips.ReplaceText("Counts as an alcohol for Alcohol Poisoning", "在酒精中毒效果中被视为一种酒");
                     tooltips.ReplaceText("Drinking more than 3 different alcohols might not end well with your liver", "饮用三种以上的酒或许对你的肝脏不太好");
                 }
@@ -798,10 +730,6 @@ namespace CalamityCN.Translations
                 {
                     tooltips.ReplaceText("13 of any tombstone turns the surrounding area into a graveyard\nGraveyards have various new item sales and recipes", "13个各种墓碑会将周围环境变为墓地\n墓地会有各种新物品出售以及新的配方");
                 }
-                if (item.type == ItemID.Ale || item.type == ItemID.Sake)
-                {
-                    tooltips.ReplaceText("Increases melee damage by 10% and reduces defense by 5%", "提高10%近战伤害但降低5%防御");
-                }
                 if (item.type == ItemID.FlaskofCursedFlames || item.type == ItemID.FlaskofFire || item.type == ItemID.FlaskofGold || item.type == ItemID.FlaskofIchor || item.type == ItemID.FlaskofNanites || item.type == ItemID.FlaskofPoison || item.type == ItemID.FlaskofVenom)
                 {
                     tooltips.ReplaceText("近战和鞭子", "近战，鞭子和盗贼");
@@ -843,7 +771,7 @@ namespace CalamityCN.Translations
             #endregion
 
             //放后面
-            if (item.CountsAsClass<RogueDamageClass>() || item.accessory && !item.social && item.prefix > 0)
+            if (item.CountsAsClass<RogueDamageClass>() || item.accessory && item.prefix > 0)
             {
                 tooltips.ReplaceText("damage reduction", "伤害减免");
                 tooltips.ReplaceText("stealth generation", "潜行值恢复速度");
