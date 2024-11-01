@@ -21,7 +21,7 @@ RecipeGroup: {
 // Status
 WikiStatus1: "[i:Book] [c/EE4939:备注: Fandom wiki已经不再支持灾厄Mod。] [i:Book]"
 WikiStatus2: "[i:Book] [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:calamity.huijiwiki.com][c/EE4939:!] [i:Book]"
-GimmeSwagPlushieCampaign: "[i:GreenPresent] [c/3BE022:NOW AVAILABLE! Yharon Plushie!] [c/3989FF:calamitymod.com/plush] [i:GreenPresent]"
+GimmeSwagPlushieCampaign: "[i:GreenPresent] [c/3BE022:犽戎玩偶现已开放预定！] [c/3989FF:calamitymod.com/plush] [i:GreenPresent]"
 // Recipe Conditions
 Tier1ArsenalRecipeCondition: 获得沉沦之海原型图
 Tier2ArsenalRecipeCondition: 破译小行星加密原型图
