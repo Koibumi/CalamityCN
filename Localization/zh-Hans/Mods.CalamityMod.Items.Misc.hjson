@@ -162,7 +162,7 @@ CelestialOnion: {
 	Tooltip:
 		'''
 		永久增加1格饰品栏
-		Enables Demon Heart's accessory slot instead in Master Mode
+		在大师模式下会启用恶魔之心的饰品栏
 		外星的力量激荡在它的层叠之中
 		'''
 }

@@ -98,11 +98,6 @@ DarksunFragment: {
 	Tooltip: An impacted crystal suffused with opposing celestial energies
 }
 
-DemonicBoneAsh: {
-	DisplayName: Demonic Bone Ash
-	Tooltip: ""
-}
-
 DepthCells: {
 	DisplayName: Depth Cells
 	Tooltip: The cells of abyssal creatures
@@ -205,11 +200,6 @@ MiracleMatter: {
 MolluskHusk: {
 	DisplayName: Mollusk Husk
 	Tooltip: The remains of a mollusk
-}
-
-MurkyPaste: {
-	DisplayName: Murky Paste
-	Tooltip: ""
 }
 
 MysteriousCircuitry: {

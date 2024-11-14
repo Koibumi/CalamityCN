@@ -7,7 +7,7 @@ CalamityClientConfig: {
 		UI: UI改动
 		MeterPositions: 属性条位置
 		MusicEvents: 游戏内音乐事件
-		Multithreading: Multi-Threading
+		Multithreading: 多线程优化
 	}
 
 	AdrenalineMeterPosX: {
@@ -93,20 +93,20 @@ CalamityClientConfig: {
 	}
 
 	EnableVanillaTextureEdits: {
-		Label: "[i:Paintbrush] Enable Vanilla Texture Edits"
+		Label: "[i:Paintbrush] 启用原版材质更改"
 		Tooltip:
 			'''
-			Enables slight edits to vanilla boss textures to improve attack telegraphs.
+			启用对原版Boss材质的细微修改，以改善攻击预警效果。
 			禁用此配置以适配材质包。
 			'''
 	}
 
 	EnergyShieldOpacity: {
-		Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
+		Label: "[i:CalamityMod/TheSponge] 能量护盾透明度"
 		Tooltip:
 			'''
-			Set the opacity of energy shields rendered over the player.
-			Setting this to 0 disables energy shield visuals entirely.
+			设置在玩家上方渲染的能量护盾的不透明度。
+			将此项设置为0以完全禁用能量护盾视觉效果。
 			'''
 	}
 
@@ -328,17 +328,17 @@ CalamityClientConfig: {
 	}
 
 	MultiThreadingType: {
-		Label: Sunken Sea Multi-Threading Option
+		Label: 沉沦海多线程优化选项
 		Tooltip:
 			'''
-			Option 0 will disable worldgen multi-threading.
-			Option 1 will enable ReLogic's multi-threading.
-			Option 2 will enable custom multi-threading.
+			选择0以禁用世界生成时的多线程优化。
+			选择1以启用ReLogic的多线程优化。
+			选择2以启用灾厄的自定义多线程优化。
 			'''
 	}
 
 	SunkenSeaMultiThreading: {
-		Label: Sunken Sea Multi Threading
+		Label: 沉沦海多线程优化
 		Tooltip: ""
 	}
 }

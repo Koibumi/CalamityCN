@@ -96,8 +96,8 @@ SilvaWings: {
 		加速倍率：2.8
 		绝佳的垂直飞行速度
 		飞行时间：270
-		Grants a scaling life regeneration boost while you remain in the air without resetting flight time
-		This boost caps at 8 HP/s after 15 seconds
+		当你保持在空中且不重置飞行时间时，获得递增的生命再生加成
+		生命再生加成在15秒后提升至上限，为8HP/s
 		“纯粹的自然之力”
 		'''
 }

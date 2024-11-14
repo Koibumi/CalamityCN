@@ -14,7 +14,7 @@ AstralInjection: {
 
 AureusCell: {
 	DisplayName: Aureus Cell
-	Tooltip: Tooltip: Grants the {$BuffName.MagicPower} and {$BuffName.ManaRegeneration} buffs
+	Tooltip: Grants the {$BuffName.MagicPower} and {$BuffName.ManaRegeneration} buffs
 }
 
 Baguette: {

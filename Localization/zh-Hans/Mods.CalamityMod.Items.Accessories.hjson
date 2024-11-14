@@ -1974,9 +1974,9 @@ WarbanneroftheRighteous: {
 	DisplayName: Warbanner of the Righteous
 	Tooltip:
 		'''
-		Damage is increased by 20% when close to enemies, but decreased by 60% when none are nearby
-		Emit a blazing aura that burns and repels nearby enemies
-		Enemies take increasing damage the closer they are to you and the longer they are near you
+		当你接近敌人时提升20%伤害，附近没有敌人时降低60%伤害。
+		迸发炽烈的光环，伤害并击退周围的敌怪
+		敌怪离你越近，接近时间越长，受到的伤害越高
 		Effects are transparent and silent if visibility is disabled
 		'''
 }
@@ -2099,8 +2099,8 @@ XyksBlessingBlue: {
 	DisplayName: Xyk's Blessing (Blue)
 	Tooltip:
 		'''
-		Applies visual effects to your dashes and deaths
-		<right> to transform
+		为你的冲刺和死亡添加视觉效果
+		<right> 以改变形态
 		'It's simply too much to turn back now; passion and time have long since stained it.
 		[c/5f8ae1:Have I always been so selfish?']
 		'''
@@ -2110,8 +2110,8 @@ XyksBlessingOrange: {
 	DisplayName: Xyk's Blessing (Orange)
 	Tooltip:
 		'''
-		Applies visual effects to your dashes and deaths
-		<right> to transform
+		为你的冲刺和死亡添加视觉效果
+		<right> 以改变形态
 		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
 		[c/E1B65F:Prove that it was never a waste.']
 		'''
