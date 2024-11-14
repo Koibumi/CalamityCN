@@ -8,9 +8,9 @@ AlcoholWarning: 饮用三种以上的酒或许对你的肝脏不太好
 ArmorPenetration: 无视敌怪{0}点防御
 CanMineUelibloom: 可开采龙蒿矿
 NotConsumable: 不消耗
-RogueDamage: "增加{0}%盗贼伤害"
-RogueCrit: "增加{0}%盗贼暴击率"
-RogueVelocity: "增加{0}%盗贼弹幕速度"
+RogueDamage: 增加{0}%盗贼伤害
+RogueCrit: 增加{0}%盗贼暴击率
+RogueVelocity: 增加{0}%盗贼弹幕速度
 GrappleStats:
 	'''
 	长度：{0}格

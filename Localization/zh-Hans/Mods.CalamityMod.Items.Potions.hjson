@@ -38,7 +38,7 @@ BlasphemousDonut: {
 
 BoundingPotion: {
 	DisplayName: 弹跳药水
-	Tooltip: "增加{0}%跳跃速度和{1}%跳跃高度"
+	Tooltip: 增加{0}%跳跃速度和{1}%跳跃高度
 }
 
 CalciumPotion: {
@@ -130,7 +130,7 @@ ShadowPotion: {
 
 SoaringPotion: {
 	DisplayName: 腾飞药水
-	Tooltip: "增加{0}%飞行时间和水平飞行速度"
+	Tooltip: 增加{0}%飞行时间和水平飞行速度
 }
 
 SulphurskinPotion: {

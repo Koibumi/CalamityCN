@@ -510,7 +510,7 @@ DaawnlightSpiritOrigin: {
 		暴击率提升越多，消散速度越快
 		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
 		'''
-	FlavorTooltip: "“一缕失落宇宙的残烬，久久等待着她的御主”"
+	FlavorTooltip: “一缕失落宇宙的残烬，久久等待着她的御主”
 }
 
 DarkMatterSheath: {
@@ -539,7 +539,7 @@ DarkSunRing: {
 		在夜晚时增加20点防御
 		在日食时+1HP/s生命再生和10点防御
 		'''
-	FlavorTooltip: "“蕴含着日蚀之阴的力量”"
+	FlavorTooltip: “蕴含着日蚀之阴的力量”
 }
 
 DeadshotBrooch: {
@@ -652,7 +652,7 @@ EclipseMirror: {
 		闪避攻击时会使你获得大量的潜行值
 		该冷却时间与其他的闪避或反弹效果共享
 		'''
-	FlavorTooltip: "“它所映出的只有无边黑暗”"
+	FlavorTooltip: “它所映出的只有无边黑暗”
 }
 
 EldritchSoulArtifact: {
@@ -700,7 +700,7 @@ ElysianAegis: {
 		  着火了！、狱炎、诅咒狱火、暗影焰、破晓
 		  神圣之火、硫磺火、燃烧
 		'''
-	FlavorTooltip: "“被亵渎之火所祝福”"
+	FlavorTooltip: “被亵渎之火所祝福”
 }
 
 EnchantedPearl: {
@@ -1173,7 +1173,7 @@ OccultSkullCrown: {
 		  受影响的减益: 黑暗、灯火管制、困惑、缓慢、软弱、
 		  破损盔甲、碎甲、冷冻、灵液和阻塞
 		'''
-	FlavorTooltip: "“只有打不过史莱姆王的人才戴这破烂……”"
+	FlavorTooltip: “只有打不过史莱姆王的人才戴这破烂……”
 }
 
 OceanCrest: {
@@ -1529,7 +1529,7 @@ ShieldoftheHighRuler: {
 		  剧毒、缓慢、困惑、沉默、诅咒、黑暗
 		  强风、石化、燃烧
 		'''
-	FlavorTooltip: "“为了王国的命运”"
+	FlavorTooltip: “为了王国的命运”
 }
 
 ShieldoftheOcean: {

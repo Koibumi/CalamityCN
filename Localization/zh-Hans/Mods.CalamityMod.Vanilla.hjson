@@ -34,6 +34,7 @@ AddedTooltip: {
 		13个各种墓碑会将周围环境变为墓地
 		墓地会有各种新物品出售以及新的配方
 		'''
+	// DD2ElderCrystal: <right> while the wave is complete to skip the timer
 	DeathSickle: 命中造成死亡低语减益
 	HellfireTreads:
 		'''

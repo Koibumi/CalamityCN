@@ -596,7 +596,7 @@ ShadowBuff: {
 
 Soaring: {
 	DisplayName: 翱翔
-	Description: "飞行时间和飞行速度增加{0}%"
+	Description: 飞行时间和飞行速度增加{0}%
 }
 
 SulphurskinBuff: {
@@ -721,7 +721,7 @@ BrimflameFrenzyBuff: {
 
 BrutalCarnage: {
 	DisplayName: 残暴屠杀
-	Description: "增加{0}%近战伤害"
+	Description: 增加{0}%近战伤害
 }
 
 ChiBuff: {
@@ -801,7 +801,7 @@ IceShieldBuff: {
 
 KamiBuff: {
 	DisplayName: Kami之佑
-	Description: "最大移动速度、加速度和伤害增加{0}%"
+	Description: 最大移动速度、加速度和伤害增加{0}%
 }
 
 Mushy: {
@@ -910,7 +910,7 @@ SpiritRegen: {
 
 TarragonCloak: {
 	DisplayName: 龙蒿披风
-	Description: "接触伤害降低{0}%"
+	Description: 接触伤害降低{0}%
 }
 
 TarragonImmunity: {

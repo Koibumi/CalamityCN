@@ -720,6 +720,11 @@ DraconicIncense: {
 	Tooltip: “龙火在空气中冉冉升起”
 }
 
+ExoObelisk: {
+	DisplayName: 星流方尖碑
+	Tooltip: “星流能量渗入大气之中”
+}
+
 ForgottenNobleStatue: {
 	DisplayName: Forgotten Noble Statue
 	Tooltip: ""
@@ -730,19 +735,14 @@ ForgottenScholarStatue: {
 	Tooltip: ""
 }
 
-ExoObelisk: {
-	DisplayName: 星流方尖碑
-	Tooltip: “星流能量渗入大气之中”
+FrigidMonolith: {
+	DisplayName: 霜冻天塔柱
+	Tooltip: “天边染上一抹冷冽的极光”
 }
 
 OtonilouStatue: {
 	DisplayName: Otonilou Memorial
 	Tooltip: ""
-}
-
-FrigidMonolith: {
-	DisplayName: 霜冻天塔柱
-	Tooltip: “天边染上一抹冷冽的极光”
 }
 
 PlagueHumidifier: {
