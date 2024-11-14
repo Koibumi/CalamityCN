@@ -5,12 +5,16 @@ AnechoicCoating: {
 
 AstralInjection: {
 	DisplayName: Astral Injection
-	Tooltip: Gives mana sickness and hurts you when used, but you regenerate mana extremely quickly even while moving or casting spells
+	Tooltip:
+		'''
+		Restores {0} mana per second
+		Lower your health by {1} and inflicts {$BuffName.ManaSickness} when used
+		'''
 }
 
 AureusCell: {
 	DisplayName: Aureus Cell
-	Tooltip: Grants increased mana regeneration and magic power
+	Tooltip: Tooltip: Grants the {$BuffName.MagicPower} and {$BuffName.ManaRegeneration} buffs
 }
 
 Baguette: {
@@ -18,7 +22,7 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
-		Red Wine heals 250 HP, but reduces life regen by 2 HP/s
+		{$Potions.RedWine.DisplayName} heals {0} HP, but reduces life regen by {1} HP/s
 		[c/FCE391:'je suis Monte']
 		'''
 }
@@ -34,12 +38,12 @@ BlasphemousDonut: {
 
 BoundingPotion: {
 	DisplayName: Bounding Potion
-	Tooltip: 5% increased jump speed, 25 extra blocks of fall damage resistance, and increased jump height
+	Tooltip: "{0}% increased jump speed and {1}% increased jump height"
 }
 
 CalciumPotion: {
 	DisplayName: Calcium Potion
-	Tooltip: Grants immunity to fall damage
+	Tooltip: Grants {0}% knockback resistance
 }
 
 CeaselessHungerPotion: {
@@ -67,29 +71,29 @@ Fabsoup: {
 
 FlaskOfBrimstone: {
 	DisplayName: Flask of Brimstone
-	Tooltip: Melee, Whip, and Rogue attacks inflict Brimstone Flames
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.BrimstoneFlames.DisplayName}
 }
 
 FlaskOfCrumbling: {
 	DisplayName: Flask of Crumbling
-	Tooltip: Melee, Whip, and Rogue attacks inflict Crumbling on enemies
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.Crumbling.DisplayName}
 }
 
 FlaskOfHolyFlames: {
 	DisplayName: Flask of Holy Flames
-	Tooltip: Melee, Whip, and Rogue attacks inflict Holy Flames
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.HolyFlames.DisplayName}
 }
 
 GravityNormalizerPotion: {
 	DisplayName: Gravity Normalizer Potion
-	Tooltip: Disables the low gravity of space and grants immunity to the distorted debuff
+	Tooltip: Disables the low gravity of space and grants immunity to the {$BuffName.VortexDebuff} debuff
 }
 
 HadalStew: {
 	DisplayName: Hadal Stew
 	Tooltip:
 		'''
-		Only gives [S] seconds of Potion Sickness
+		Only gives [S] seconds of {$BuffName.PotionSickness}
 		{$CommonItemTooltip.MediumStats}
 		{$CommonItemTooltip.MinuteDuration}
 		'''
@@ -102,12 +106,7 @@ OmegaHealingPotion: {
 
 PhotosynthesisPotion: {
 	DisplayName: Photosynthesis Potion
-	Tooltip:
-		'''
-		Grants +0.5 HP/s life regen and accelerates natural life regen while not moving
-		This natural life regen effect is five times as strong during daytime
-		Dropped hearts heal more HP
-		'''
+	Tooltip: Dropped hearts heal {0} more HP
 }
 
 PotionofOmniscience: {
@@ -123,21 +122,15 @@ ShadowPotion: {
 	DisplayName: Shadow Potion
 	Tooltip:
 		'''
+		{0}% increased stealth generation
 		Turns the player into a shadow with glowing eyes
-		Rogue weapons spawn projectiles on hit
-		8% increased stealth generation
 		Visual effects can be disabled with the Stealth Invisibility config
 		'''
 }
 
 SoaringPotion: {
 	DisplayName: Soaring Potion
-	Tooltip:
-		'''
-		10% increased flight time and horizontal flight speed
-		Restores a fraction of your wing flight time after a true melee strike
-		The amount of flight time restored scales with your melee stats and weapon swing speed
-		'''
+	Tooltip: "{0}% increased flight time and horizontal flight speed"
 }
 
 SulphurskinPotion: {
@@ -170,9 +163,9 @@ BloodyMary: {
 	DisplayName: Bloody Mary
 	Tooltip:
 		'''
-		10% increased damage and movement speed during a Blood Moon
-		Reduces life regen by 2 HP/s and defense by 4%
-		Drinking more than 3 different alcohols might not end well with your liver
+		{0}% increased damage and movement speed during a Blood Moon
+		Reduces life regen by {1} HP/s and defense by {2}%
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'Extra spicy... and bloody!']
 		'''
 }
@@ -181,9 +174,9 @@ CaribbeanRum: {
 	DisplayName: Caribbean Rum
 	Tooltip:
 		'''
-		Increases life regen by 1 HP/s, movement speed by 10% and wing flight time by 20%
-		Makes you floaty and reduces defense by 10%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases life regen by {0} HP/s, movement speed by {1}%
+		Makes you floaty and reduces defense by {2}%
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'Why is the rum gone?']
 		'''
 }
@@ -192,9 +185,9 @@ CinnamonRoll: {
 	DisplayName: Cinnamon Roll
 	Tooltip:
 		'''
-		Increases mana regeneration rate and multiplies all fire-based debuff damage by 1.5x
-		Reduces defense by 10%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Multiplies all fire-based debuff damage by {0}x and increases mana regeneration
+		Reduces defense by {1}%
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'A great-tasting cinnamon whiskey with a touch of cream soda.']
 		'''
 }
@@ -203,10 +196,10 @@ Everclear: {
 	DisplayName: Everclear
 	Tooltip:
 		'''
-		25% increased damage
-		Reduces life regen by 5 HP/s and defense by 30%
-		Counts as 2 alcohols for Alcohol Poisoning
-		Drinking more than 3 different alcohols might not end well with your liver
+		{0}% increased damage
+		Reduces life regen by {1} HP/s and defense by {2}%
+		Counts as 2 alcohols for {$Buffs.AlcoholPoisoning.DisplayName}
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'This is the most potent booze I have, be careful with it.']
 		'''
 }
@@ -215,9 +208,9 @@ EvergreenGin: {
 	DisplayName: Evergreen Gin
 	Tooltip:
 		'''
-		Multiplies all sickness and water-related debuff damage by 1.25x
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Multiplies all sickness and water-related debuff damage by {0}x
+		Reduces life regen by {1} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'It tastes like a Christmas tree, if you can imagine that.']
 		'''
 }
@@ -226,9 +219,9 @@ FabsolsVodka: {
 	DisplayName: Fabsol's Vodka
 	Tooltip:
 		'''
-		8% increased damage, but lowers defense by 5%
+		{0}% increased damage, but lowers defense by {1}%
 		Increases immune time after being struck
-		Drinking more than 3 different alcohols might not end well with your liver
+		{$Common.AlcoholWarning}
 		This magical liquor is highly sought by those with a refined palate
 		'''
 }
@@ -237,9 +230,9 @@ Fireball: {
 	DisplayName: Fireball
 	Tooltip:
 		'''
-		Multiplies all fire-based debuff damage by 1.25x
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Multiplies all fire-based debuff damage by {0}x
+		Reduces life regen by {1} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'A great-tasting cinnamon whiskey.']
 		'''
 }
@@ -248,8 +241,8 @@ GrapeBeer: {
 	DisplayName: Grape Beer
 	Tooltip:
 		'''
-		Reduces defense by 3% for 15 seconds
-		Drinking more than 3 different alcohols might not end well with your liver
+		Reduces defense by {0}% for {1} seconds
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'This crap is abhorrent, but you might like it.']
 		'''
 }
@@ -259,10 +252,10 @@ Margarita: {
 	Tooltip:
 		'''
 		Halves the duration of most harmful debuffs
-		Reduces defense by 6% and life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		3 minute duration
+		Reduces defense by {0}% and life regen by {1} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'One of the best drinks ever created, enjoy it while it lasts.']
+		{$CommonItemTooltip.MinuteDuration@2}
 		'''
 }
 
@@ -270,9 +263,9 @@ Moonshine: {
 	DisplayName: Moonshine
 	Tooltip:
 		'''
-		Increases defense by 10 and damage reduction by 3%
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases defense by {0} and damage reduction by {1}%
+		Reduces life regen by {2} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'This stuff is pretty strong, but I'm sure you can handle it.']
 		'''
 }
@@ -281,9 +274,9 @@ MoscowMule: {
 	DisplayName: Moscow Mule
 	Tooltip:
 		'''
-		Increases damage by 9%, knockback by 50% and critical strike chance by 3%
-		Reduces life regen by 2 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases damage by {0}%, knockback by {1}% and critical strike chance by {2}%
+		Reduces life regen by {3} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'I once heard the copper mug can be toxic and I told 'em, 'listen, dummy, I'm already poisoning myself!'']
 		'''
 }
@@ -305,7 +298,7 @@ OldFashioned: {
 		'''
 		Multiplies most non-weapon, non-debuff damage by {0}x
 		Multiplies all weapon damage by {1}x
-		Drinking more than 3 different alcohols might not end well with your liver
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'An old favorite of mine.']
 		'''
 }
@@ -314,8 +307,8 @@ RedWine: {
 	DisplayName: Red Wine
 	Tooltip:
 		'''
-		Reduces life regen by 0.5 HP/s for 15 seconds
-		Drinking more than 3 different alcohols might not end well with your liver
+		Reduces life regen by {0} HP/s for {1} seconds
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'Too dry for my taste.']
 		'''
 }
@@ -324,9 +317,9 @@ Rum: {
 	DisplayName: Rum
 	Tooltip:
 		'''
-		Increases life regen by 1 HP/s and movement speed by 10%
-		Reduces defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases life regen by {0} HP/s and movement speed by {1}%
+		Reduces defense by {2}%
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'Sweet and potent, just how I like it.']
 		'''
 }
@@ -335,9 +328,9 @@ Screwdriver: {
 	DisplayName: Screwdriver
 	Tooltip:
 		'''
-		Multiplies piercing projectile damage by 1.05x
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Multiplies piercing projectile damage by {0}x
+		Reduces life regen by {1} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'Do you have a screw loose?']
 		'''
 }
@@ -346,10 +339,10 @@ StarBeamRye: {
 	DisplayName: Star Beam Rye
 	Tooltip:
 		'''
-		Increases max mana by 50, magic damage by 8%,
-		and reduces mana usage by 10%
-		Reduces defense by 6% and life regen by 1 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases max mana by {0}, magic damage by {1}%,
+		and reduces mana usage by {2}%
+		Reduces defense by {3}% and life regen by {4} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'Made from some stuff I found near the Astral Meteor crash site. Don't worry, it's safe, trust me...']
 		'''
 }
@@ -358,9 +351,9 @@ Tequila: {
 	DisplayName: Tequila
 	Tooltip:
 		'''
-		Increases knockback by 10%, crit chance by 4% and defense by 5 during daytime
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases knockback by {0}%, crit chance by {1}% and defense by {2} during daytime
+		Reduces life regen by {3} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'Great for mixing up daytime drinks.']
 		'''
 }
@@ -369,9 +362,9 @@ TequilaSunrise: {
 	DisplayName: Tequila Sunrise
 	Tooltip:
 		'''
-		Increases knockback by 20%, crit chance by 8% and defense by 10 during daytime
-		Reduces life regen by 1 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases knockback by {0}%, crit chance by {1}% and defense by {2} during daytime
+		Reduces life regen by {3} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'The greatest daytime drink I've ever had.']
 		'''
 }
@@ -380,9 +373,9 @@ Vodka: {
 	DisplayName: Vodka
 	Tooltip:
 		'''
-		Increases damage by 6% and critical strike chance by 2%
-		Reduces life regen by 0.5 HP/s and defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases damage by {0}% and critical strike chance by {1}%
+		Reduces life regen by {2} HP/s and defense by {3}%
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'The number one alcohol for creating great mixed drinks.']
 		'''
 }
@@ -391,9 +384,9 @@ Whiskey: {
 	DisplayName: Whiskey
 	Tooltip:
 		'''
-		Increases damage by 4%, knockback by 20% and critical strike chance by 2%
-		Reduces defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases damage by {0}%, knockback by {1}% and critical strike chance by {2}%
+		Reduces defense by {3}%
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'The burning sensation makes it tastier.']
 		'''
 }
@@ -402,9 +395,9 @@ WhiteWine: {
 	DisplayName: White Wine
 	Tooltip:
 		'''
-		Increases magic damage by 8%
-		Reduces defense by 6% and life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases magic damage by {0}%
+		Reduces defense by {1}% and life regen by {2} HP/s
+		{$Common.AlcoholWarning}
 		[c/B00BA5:'I drank a full barrel of this stuff once in one night, I couldn't remember who I was the next day.']
 		'''
 }

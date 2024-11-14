@@ -11,7 +11,7 @@ AldebaranAlewife: {
 
 ArcturusAstroidean: {
 	DisplayName: 大角海星
-	Tooltip: 处于星辉瘟疫或硫磺海时增加渔力
+	Tooltip: 处于星辉瘟疫或硫磺海时渔力提高{0}倍
 }
 
 AstralCrate: {
@@ -44,7 +44,7 @@ UrsaSergeant: {
 	Tooltip:
 		'''
 		用幻星之爪重击敌人
-		受到伤害会降低攻击冷却，但也会对你施加幻星感染
+		受到伤害会降低攻击冷却，但也会对你施加{$Buffs.AstralInfectionDebuff.DisplayName}
 		击杀敌人也会降低攻击冷却
 		如果关闭饰品可见性，重击会变得透明且安静
 		'''
@@ -55,9 +55,10 @@ Bloodfin: {
 	DisplayName: 血鳍
 	Tooltip:
 		'''
-		获得提供+2.5HP/s生命再生的增益
-		如果生命值低于75%此增益直接回复生命值
-		10秒持续时间
+		提供大幅增加自然生命再生的增益并且+{0}HP/s生命再生
+		受到伤害性减益影响时生命再生会提升至+{1}HP/s
+		如果生命值低于{3}%此增益会每{2}秒直接回复生命值
+		{$CommonItemTooltip.SecondDuration@4}
 		“血管新生的奇迹”
 		'''
 }
@@ -108,7 +109,7 @@ DragoonDrizzlefish: {
 
 Havocfish: {
 	DisplayName: 混乱鱼
-	Tooltip: 右键以提取精华
+	Tooltip: 右键以提取[i:CalamityMod/EssenceofHavoc]精华
 }
 
 Shadowfish: {
@@ -163,13 +164,7 @@ RustedJingleBell: {
 
 SerpentsBite: {
 	DisplayName: 巨蛇之咬
-	Tooltip:
-		'''
-		长度：28.125格
-		发射速度：18
-		回收速度：14
-		牵引速度：12
-		'''
+	Tooltip: "{$Common.GrappleStats}"
 }
 
 Serpentuna: {
@@ -208,32 +203,32 @@ EnchantedStarfish: {
 
 FishofEleum: {
 	DisplayName: 冰川鱼
-	Tooltip: 右键以提取精华
+	Tooltip: 右键以提取[i:CalamityMod/EssenceofEleum]精华
 }
 
 FishofFlight: {
 	DisplayName: 飞翔之鱼
-	Tooltip: 右键以提取灵魂
+	Tooltip: 右键以提取[i:SoulofFlight]灵魂
 }
 
 FishofLight: {
 	DisplayName: 光明之鱼
-	Tooltip: 右键以提取灵魂
+	Tooltip: 右键以提取[i:SoulofLight]灵魂
 }
 
 FishofNight: {
 	DisplayName: 暗影之鱼
-	Tooltip: 右键以提取灵魂
+	Tooltip: 右键以提取[i:SoulofNight]灵魂
 }
 
 GlimmeringGemfish: {
 	DisplayName: 闪光宝石鱼
-	Tooltip: 右键以提取宝石
+	Tooltip: 右键以提取[ITEMS]宝石
 }
 
 Gorecodile: {
 	DisplayName: 血鳄
-	Tooltip: 右键以提取血珠
+	Tooltip: 右键以提取[i:CalamityMod/BloodOrb]血珠
 }
 
 HydrothermalCrate: {
@@ -252,7 +247,7 @@ Spadefish: {
 
 StuffedFish: {
 	DisplayName: 填充草药鱼
-	Tooltip: 右键以提取草药和种子
+	Tooltip: 右键以提取[HERBS]草药和[SEEDS]种子
 }
 
 SulphurousCrate: {
@@ -262,7 +257,7 @@ SulphurousCrate: {
 
 SunbeamFish: {
 	DisplayName: 日光鱼
-	Tooltip: 右键以提取精华
+	Tooltip: 右键以提取[i:CalamityMod/EssenceofSunlight]精华
 }
 
 // Fishing Rods
@@ -288,7 +283,7 @@ HeronRod: {
 	DisplayName: 白鹭钓竿
 	Tooltip:
 		'''
-		处于太空时增加渔力
+		处于太空时渔力提高{0}倍
 		“突然鹭的一截不声不响的头嘴戳下来，朝着鱼头一嘴攫去，
 		接着那嘴甲就开始吞噬起那小鱼，而鱼尾巴这时还在发狂地摆动着。”
 		'''
@@ -298,7 +293,7 @@ NavyFishingRod: {
 	DisplayName: 沉沦渊石钓竿
 	Tooltip:
 		'''
-		手持这把钓竿时缓慢电击周围敌人。
+		手持这把钓竿时缓慢电击周围敌人
 		“大海是座城市。
 		就在我脚下，在我身边，我从未察觉到的是高速公路、林荫大道、大街和绕道，海下的车辆行人熙熙攘攘。”
 		'''
@@ -319,7 +314,7 @@ SlurperPole: {
 	DisplayName: 饮食者钓竿
 	Tooltip:
 		'''
-		可以在熔岩中钓鱼。
+		可以在熔岩中钓鱼
 		“我们的灵魂中蕴藏着一个熔炉，这熔炉是一座充满着悲痛与哀伤的火山。”
 		'''
 }
@@ -337,7 +332,7 @@ VerstaltiteFishingRod: {
 	DisplayName: 寒元钓竿
 	Tooltip:
 		'''
-		处于苔原时增加渔力
+		处于苔原时渔力提高{0}倍
 		这种远古合金反射出的多彩光泽非常适合吸引鱼儿
 		'''
 }

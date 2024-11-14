@@ -33,6 +33,23 @@ PlanetoidSchematicRecipeCondition: 背包中至少放置一次小行星原型图
 JungleSchematicRecipeCondition: 背包中至少放置一次丛林原型图
 UnderworldSchematicRecipeCondition: 背包中至少放置一次地狱原型图
 IceSchematicRecipeCondition: 背包中至少放置一次雪原原型图
+// Schematic Knowledge tooltips
+SchematicKnowledgeTooltip: 你没有足够的知识去制作这个
+SchematicKnowledgeTooltip2: 必须先破译特定的原型图
+Tier1KnowledgeTooltip: 需要先获取沉沦之海原型图
+Tier2KnowledgeTooltip: 需要先破译小行星原型图
+Tier3KnowledgeTooltip: 需要先破译丛林原型图
+Tier4KnowledgeTooltip: 需要先破译地狱原型图
+Tier5KnowledgeTooltip: 需要先破译雪原原型图
+// Wing Tooltips and related string
+VertSpeedQuality1: 糟糕的垂直飞行速度
+VertSpeedQuality2: 普通的垂直飞行速度
+VertSpeedQuality3: 不错的垂直飞行速度
+VertSpeedQuality4: 较强的垂直飞行速度
+VertSpeedQuality5: 优异的垂直飞行速度
+HorizSpeed: 水平飞行速度：{0}
+AccelMult: 加速倍率：{0}
+FlightTime: 飞行时间：{0}
 // Other CombatText uses and Item Messages
 ShiftToExpand: 按住SHIFT键查看更多描述
 LearnedSchematic: 你学会了如何制作新的东西！
@@ -42,6 +59,7 @@ NoComputer: 未安装解密计算机
 ArkParry: 格挡！
 BurningSeaBurn: 硫火焚身……
 LightsWarning: 这下可要来点光污染了嗷
+NotSafe: 你 现 在 很 危 险 ！ ！ ！
 HecBoop: boop!
 ClockworkTick: 嘀
 ClockworkTock: 嗒
@@ -67,3 +85,5 @@ Polaris4: 你抱了抱鱼鱼
 Polaris5: 你拍了拍鱼鱼
 // Point Blank
 PointBlank: 对近距离敌怪射击时造成额外伤害
+// Charge
+Charge: 当前充能：{0}%

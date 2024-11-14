@@ -2,12 +2,7 @@ AbaddonCrit.DisplayName: Brimstone Blast
 AeroExplosive.DisplayName: Aeroboom
 AllianceTriangle.DisplayName: Alliance Triangle
 ArcZap.DisplayName: Arc Zap
-ArtifactOfResilienceShard1.DisplayName: Artifact Shard
-ArtifactOfResilienceShard2.DisplayName: Artifact Shard
-ArtifactOfResilienceShard3.DisplayName: Artifact Shard
-ArtifactOfResilienceShard4.DisplayName: Artifact Shard
-ArtifactOfResilienceShard5.DisplayName: Artifact Shard
-ArtifactOfResilienceShard6.DisplayName: Artifact Shard
+ArtifactOfResilienceShards.DisplayName: Artifact Shard
 AscendantAura.DisplayName: Ascendant Aura
 AstralFallingSand.DisplayName: Astral Falling Sand
 AstralSandBallFalling.DisplayName: Astral Sand
@@ -68,6 +63,7 @@ GreenLabSeeker.DisplayName: Seeking Mechanism
 HeronBobber.DisplayName: Heron Bobber
 HideOfAstrumDeusExplosion.DisplayName: Explosion
 HolyExplosionSupreme.DisplayName: Explosion
+HolyStarDamage.DisplayName: Holy Star
 HydrothermalSmoke.DisplayName: Smoke
 HydrothermicFlare.DisplayName: Hydrothermic Flare
 HydrothermicFlareRogue.DisplayName: Hydrothermic Flare
@@ -121,11 +117,14 @@ SulphuricAcidBubbleFriendly.DisplayName: Acid Bubble
 SulphurousSandBallGun.DisplayName: Sulphurous Sand
 TarraEnergy.DisplayName: Tarra Energy
 TarragonAura.DisplayName: Tarragon Aura
+TatteredFairyDust.DisplayName: Tattered Fairy Dust
 TeslaAura.DisplayName: Tesla's Electricity
 TitanHeartBoom.DisplayName: Titan Heart Boom
 UrsaSlash.DisplayName: Ursa Slash
 VerstaltiteBobber.DisplayName: Verstaltite Bobber
 VoidFieldGenerator.DisplayName: Void Field Generator
+WarbannerDamage.DisplayName: The Unmatched Power of the Sun
+WarbannerLight.DisplayName: Warbanner Light
 WaterConvertor.DisplayName: Water Convertor
 WhiteLabSeeker.DisplayName: Seeking Mechanism
 WulfrumBobber.DisplayName: Wulfrum Bobber
@@ -136,3 +135,4 @@ YanmeisKnifeSlash.DisplayName: Yanmei's Knife
 YellowLabSeeker.DisplayName: Seeking Mechanism
 VoidofExtinctionCrit.DisplayName: Void of Extinction Crit
 XykDeathAnim.DisplayName: Xyk Death Animation
+RelicGuard.DisplayName: Relic Guard

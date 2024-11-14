@@ -20,7 +20,7 @@ AuroraFire.DisplayName: Aurora Blaze
 BallistaGreatArrow.DisplayName: Ballista Great Arrow
 BarinadeArrow.DisplayName: Fin Arrow
 BlightFlames.DisplayName: Blight Flames
-BlissfulBombardierDustProjectile.DisplayName: Holy Flare Dust
+BlissfulBombardierSplitProjectile.DisplayName: Profaned Mini-Rocket
 BloodBoilerFire.DisplayName: Blood Fire
 BloodClotFriendly.DisplayName: Blood Clot
 BloodfireArrowProj.DisplayName: Bloodfire Arrow
@@ -138,7 +138,7 @@ NorfleetComet.DisplayName: Comet
 NorfleetExplosion.DisplayName: Explosion
 NovaChargedShot.DisplayName: Charged Nova Blast
 NovaShot.DisplayName: Nova Bolt
-Nuke.DisplayName: Nuke
+NukeOfBliss.DisplayName: Profaned Nuke
 NullFlash.DisplayName: Null Flash
 NullShot.DisplayName: Null
 OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
@@ -255,6 +255,9 @@ HellbornProj.DisplayName: Hell-born Gunblast
 HellbornShell.DisplayName: Hell's Shell
 RubicoPrimeMag.DisplayName: Rubico Prime Mag
 MegalodonShot.DisplayName: Megalodon Shot
+SulphuricAcidCannonExplosion.DisplayName: Sulphuric Acid Cannon Explosion
 LeviatitanAberration.DisplayName: Leviatitan Aberration
 LeviatitanMeteor.DisplayName: Leviatitan Meteor
 LeviatitanExplosion.DisplayName: Leviatitan Explosion
+SulphuricDrop.DisplayName: Sulphuric Drop
+AcidRocket.DisplayName: Acid Rocket

@@ -41,6 +41,11 @@ SetBonus: {
 		冷系敌人对玩家造成的伤害减少
 		免疫冷冻，冰冻，霜冻和冰河时代减益
 		'''
+	Forbidden:
+		'''
+		{$LegacyTooltip.48} {$ArmorSetBonus.Forbidden}
+		手持魔法武器时仆从造成的伤害不再降低
+		'''
 	Frost:
 		'''
 		近战和远程伤害会附加霜冻减益

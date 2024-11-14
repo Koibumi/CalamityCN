@@ -5,12 +5,16 @@ AnechoicCoating: {
 
 AstralInjection: {
 	DisplayName: 星幻注射剂
-	Tooltip: 对你造成伤害并使你获得魔力疾病减益，但即便是在移动或施法时，你也能快速恢复魔力值
+	Tooltip:
+		'''
+		每秒恢复{0}魔力
+		使用时生命值降低{1}且被施加{$BuffName.ManaSickness}减益
+		'''
 }
 
 AureusCell: {
 	DisplayName: 星舰电池
-	Tooltip: 使你获得魔力再生和魔能增益
+	Tooltip: 使你获得{$BuffName.MagicPower}和{$BuffName.ManaRegeneration}增益
 }
 
 Baguette: {
@@ -18,7 +22,7 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
-		红葡萄酒会回复250生命值但降低2HP/s生命再生
+		{$Potions.RedWine.DisplayName}会回复{0}生命值但降低{1}HP/s生命再生
 		[c/FCE391:“我骑上去了！”]
 		'''
 }
@@ -34,12 +38,12 @@ BlasphemousDonut: {
 
 BoundingPotion: {
 	DisplayName: 弹跳药水
-	Tooltip: 增加5%跳跃速度、25格摔落伤害抗性和跳跃高度
+	Tooltip: "增加{0}%跳跃速度和{1}%跳跃高度"
 }
 
 CalciumPotion: {
 	DisplayName: 钙质药水
-	Tooltip: 使你免疫摔落伤害
+	Tooltip: 获得{0}%击退抗性
 }
 
 CeaselessHungerPotion: {
@@ -67,29 +71,29 @@ Fabsoup: {
 
 FlaskOfBrimstone: {
 	DisplayName: 硫火瓶
-	Tooltip: 近战、鞭子和盗贼攻击会造成硫磺火减益
+	Tooltip: 近战、鞭子和盗贼攻击会造成{$Buffs.BrimstoneFlames.DisplayName}减益
 }
 
 FlaskOfCrumbling: {
 	DisplayName: 粉碎瓶
-	Tooltip: 近战、鞭子和盗贼攻击会造成粉碎减益
+	Tooltip: 近战、鞭子和盗贼攻击会造成{$Buffs.Crumbling.DisplayName}减益
 }
 
 FlaskOfHolyFlames: {
 	DisplayName: 圣火瓶
-	Tooltip: 近战、鞭子和盗贼攻击会造成神圣之火减益
+	Tooltip: 近战、鞭子和盗贼攻击会造成{$Buffs.HolyFlames.DisplayName}减益
 }
 
 GravityNormalizerPotion: {
 	DisplayName: 重力复原药水
-	Tooltip: 使你不受太空低重力环境的影响并免疫扭曲减益
+	Tooltip: 使你不受太空低重力环境的影响并免疫{$BuffName.VortexDebuff}减益
 }
 
 HadalStew: {
 	DisplayName: 乱渊炖
 	Tooltip:
 		'''
-		只造成[S]秒药水疾病
+		只造成[S]秒{$BuffName.PotionSickness}
 		{$CommonItemTooltip.MediumStats}
 		{$CommonItemTooltip.MinuteDuration}
 		'''
@@ -102,12 +106,7 @@ OmegaHealingPotion: {
 
 PhotosynthesisPotion: {
 	DisplayName: 光合药水
-	Tooltip:
-		'''
-		+0.5HP/s生命再生并在站定不动时大幅增加自然生命再生
-		这一自然生命再生效果会在白天加强为5倍
-		掉落的红心会回复更多生命值
-		'''
+	Tooltip: 掉落的红心会多回复{0}生命值
 }
 
 PotionofOmniscience: {
@@ -123,21 +122,15 @@ ShadowPotion: {
 	DisplayName: 暗影药剂
 	Tooltip:
 		'''
+		增加{0}%潜行值恢复速度
 		将你转化为一个眼睛发光的暗影
-		盗贼武器在击中敌人时会生成弹幕
-		增加8%潜行值恢复速度
 		可通过配置“潜行不可见性”来禁用视觉效果
 		'''
 }
 
 SoaringPotion: {
 	DisplayName: 腾飞药水
-	Tooltip:
-		'''
-		增加10%飞行时间和水平飞行速度
-		真近战击中敌人后会恢复你的一小部分飞行时间
-		以此法恢复的飞行时间受到来自你近战属性和近战攻速的加成
-		'''
+	Tooltip: "增加{0}%飞行时间和水平飞行速度"
 }
 
 SulphurskinPotion: {
@@ -170,9 +163,9 @@ BloodyMary: {
 	DisplayName: 血腥玛丽
 	Tooltip:
 		'''
-		在血月期间增加10%伤害和移动速度
-		降低2HP/s生命再生和4%防御
-		饮用三种以上的酒或许对你的肝脏不太好
+		在血月期间增加{0}%伤害和移动速度
+		降低{1}HP/s生命再生和{2}%防御
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“辣而血腥！”]
 		'''
 }
@@ -181,9 +174,9 @@ CaribbeanRum: {
 	DisplayName: 加勒比朗姆酒
 	Tooltip:
 		'''
-		+1HP/s生命再生、增加10%移速和20%飞行时间
-		令你变得飘飘若仙并降低10%防御
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}HP/s生命再生和{1}%移动速度
+		令你变得飘飘若仙并降低{2}%防御
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“咦？酒怎么突然没了？”]
 		'''
 }
@@ -192,9 +185,9 @@ CinnamonRoll: {
 	DisplayName: 肉桂威士忌
 	Tooltip:
 		'''
-		魔力再生速率和所有火系减益的伤害倍率乘以1.5
-		降低10%防御
-		饮用三种以上的酒或许对你的肝脏不太好
+		所有火系减益的伤害倍率乘以{0}并增加魔力再生速率
+		降低{1}%防御
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“肉桂威士忌，品起来就如奶油苏打一样，啊，绝赞美味”]
 		'''
 }
@@ -203,10 +196,10 @@ Everclear: {
 	DisplayName: 谷酒
 	Tooltip:
 		'''
-		增加25%伤害
-		降低5HP/s生命再生和30%防御
-		在酒精中毒效果中被视为两种酒
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}%伤害
+		降低{1}HP/s生命再生和{2}%防御
+		在{$Buffs.AlcoholPoisoning.DisplayName}效果中被视为两种酒
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“这是我这里最劲爆的好酒了，小心点儿！”]
 		'''
 }
@@ -215,9 +208,9 @@ EvergreenGin: {
 	DisplayName: 常青松子酒
 	Tooltip:
 		'''
-		所有疫病和水系减益的伤害倍率乘以1.25
-		-0.5HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		所有疫病和水系减益的伤害倍率乘以{0}
+		-{1}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“圣诞树的味道~，如果你能想象到的话”]
 		'''
 }
@@ -226,9 +219,9 @@ FabsolsVodka: {
 	DisplayName: Fabsol伏特加
 	Tooltip:
 		'''
-		增加8%伤害，但降低5%防御
+		增加{0}%伤害，但降低{1}%防御
 		延长受伤后无敌时间
-		饮用三种以上的酒或许对你的肝脏不太好
+		{$Common.AlcoholWarning}
 		这种神奇的酒深受口味高雅人士的喜爱
 		'''
 }
@@ -237,9 +230,9 @@ Fireball: {
 	DisplayName: 火龙酒
 	Tooltip:
 		'''
-		所有火系减益的伤害倍率乘以1.25
-		-0.5HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		所有火系减益的伤害倍率乘以{0}
+		-{1}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“清爽可口的肉桂威士忌酒”]
 		'''
 }
@@ -248,8 +241,8 @@ GrapeBeer: {
 	DisplayName: 葡萄啤酒
 	Tooltip:
 		'''
-		降低3%防御，持续15秒
-		饮用三种以上的酒或许对你的肝脏不太好
+		降低{0}%防御，持续{1}秒
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“这鬼玩意真恶心，不过你或许会喜欢”]
 		'''
 }
@@ -259,10 +252,10 @@ Margarita: {
 	Tooltip:
 		'''
 		减半大多数减益的持续时间
-		降低6%防御和0.5HP/s生命再生
-		3分钟持续时间
-		饮用三种以上的酒或许对你的肝脏不太好
+		降低{0}%防御和{1}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“有史以来最可口的饮品，在它还有时细细品尝吧”]
+		{$CommonItemTooltip.MinuteDuration@2}
 		'''
 }
 
@@ -270,9 +263,9 @@ Moonshine: {
 	DisplayName: 摩闪酒
 	Tooltip:
 		'''
-		增加10点防御和3%伤害减免
-		-0.5HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}点防御和{1}%伤害减免
+		-{2}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“这酒很烈，但我相信你没问题的”]
 		'''
 }
@@ -281,9 +274,9 @@ MoscowMule: {
 	DisplayName: 莫斯科骡子
 	Tooltip:
 		'''
-		增加9%伤害、50%击退和3%暴击率
-		-2HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}%伤害、{1}%击退和{2}%暴击率
+		-{3}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“我曾听说铜马克杯有毒，然后我就跟他们说：“嘿，蠢货，那么我早就毒翻自己啦””]
 		'''
 }
@@ -310,9 +303,9 @@ OldFashioned: {
 	DisplayName: 古典酒
 	Tooltip:
 		'''
-		Multiplies most non-weapon, non-debuff damage by {0}x
-		Multiplies all weapon damage by {1}x
-		饮用三种以上的酒或许对你的肝脏不太好
+		大多数非武器，非减益的伤害乘以{0}
+		所有武器的伤害乘以{1}
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“我的旧爱”]
 		'''
 }
@@ -321,8 +314,8 @@ RedWine: {
 	DisplayName: 红葡萄酒
 	Tooltip:
 		'''
-		-0.5HP/s生命再生，持续15秒
-		饮用三种以上的酒或许对你的肝脏不太好
+		-{0}HP/s生命再生，持续{1}秒
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“对我来说太干了”]
 		'''
 }
@@ -331,9 +324,9 @@ Rum: {
 	DisplayName: 朗姆酒
 	Tooltip:
 		'''
-		+1HP/s生命再生和10%移动速度
-		降低5%防御
-		饮用三种以上的酒或许对你的肝脏不太好
+		+{0}HP/s生命再生和{1}%移动速度
+		降低{2}%防御
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“甜美劲爆，爱它不需要别的理由”]
 		'''
 }
@@ -342,9 +335,9 @@ Screwdriver: {
 	DisplayName: 螺丝起子
 	Tooltip:
 		'''
-		穿透类弹幕的伤害倍率乘以1.05
-		-0.5HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		穿透类弹幕的伤害倍率乘以{0}
+		-{1}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“你……耍酒疯吗？”]
 		'''
 }
@@ -353,10 +346,10 @@ StarBeamRye: {
 	DisplayName: 星界黑麦威士忌
 	Tooltip:
 		'''
-		增加50点最大魔力值和8%魔法伤害
-		降低10%魔力消耗
-		降低6%防御和1HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}点最大魔力值和{1}%魔法伤害
+		降低{2}%魔力消耗
+		降低{3}%防御和{4}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“我在星辉陨石坑附近找到了些材料，调制成了这酒，哈哈别担心，它很安全，相信我。”]
 		'''
 }
@@ -365,9 +358,9 @@ Tequila: {
 	DisplayName: 龙舌兰酒
 	Tooltip:
 		'''
-		在白天时增加10%击退、4%暴击率和5点防御
-		-0.5HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		在白天时增加{0}%击退、{1}%暴击率和{2}点防御
+		-{3}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“在白天畅饮的绝佳鸡尾酒”]
 		'''
 }
@@ -376,9 +369,9 @@ TequilaSunrise: {
 	DisplayName: 龙舌兰日出
 	Tooltip:
 		'''
-		在白天时增加20%击退、8%暴击率和10点防御
-		-1HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		在白天时增加{0}%击退、{1}%暴击率和{2}点防御
+		-{3}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“我尝过的最棒的日间饮品”]
 		'''
 }
@@ -387,9 +380,9 @@ Vodka: {
 	DisplayName: 伏特加
 	Tooltip:
 		'''
-		增加6%伤害和2%暴击率
-		降低0.5HP/s生命再生和5%防御
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}%伤害和{1}%暴击率
+		降低{2}HP/s生命再生和{3}%防御
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“调制美味鸡尾酒的不二选择”]
 		'''
 }
@@ -398,9 +391,9 @@ Whiskey: {
 	DisplayName: 威士忌
 	Tooltip:
 		'''
-		增加4%伤害、20%击退和2%暴击率
-		降低5%防御
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}%伤害、{1}%击退和{2}%暴击率
+		降低{3}%防御
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“那种燃烧的错觉让其美味更甚！”]
 		'''
 }
@@ -409,9 +402,9 @@ WhiteWine: {
 	DisplayName: 白葡萄酒
 	Tooltip:
 		'''
-		增加8%魔法伤害
-		降低6%防御和0.5HP/s生命再生
-		饮用三种以上的酒或许对你的肝脏不太好
+		增加{0}%魔法伤害
+		降低{1}%防御和{2}HP/s生命再生
+		{$Common.AlcoholWarning}
 		[c/B00BA5:“曾有一晚，我喝了一桶这酒，第二天我连我是谁都忘了。”]
 		'''
 }

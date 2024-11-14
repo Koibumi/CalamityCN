@@ -181,7 +181,7 @@ DemonshadeHelm: {
 		Shadowbeams and demon scythes will fire down when you are hit
 		A friendly red devil follows you around
 		Press {0} to enrage nearby enemies with a dark magic spell for 10 seconds
-		This makes them take 1.65x total damage, but they will deal 1.25x damage to you
+		This makes them take {1}x total damage, but they will deal {2}x damage to you
 		'''
 }
 

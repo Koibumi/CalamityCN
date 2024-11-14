@@ -11,7 +11,7 @@ AldebaranAlewife: {
 
 ArcturusAstroidean: {
 	DisplayName: Arcturus Astroidean
-	Tooltip: Increases fishing power if used in the Astral Infection or Sulphurous Sea
+	Tooltip: Increases fishing power by {0}x when in the Astral Infection or Sulphurous Sea
 }
 
 AstralCrate: {
@@ -44,7 +44,7 @@ UrsaSergeant: {
 	Tooltip:
 		'''
 		Attacks maul enemies with astral claw swipes
-		Taking damage reduces the cooldown, but inflicts you with Astral Infection
+		Taking damage reduces the cooldown, but inflicts you with {$Buffs.AstralInfectionDebuff.DisplayName}
 		Enemy kills also reduce the cooldown
 		Swipes will be translucent and silent if visibility is disabled
 		'''
@@ -55,9 +55,10 @@ Bloodfin: {
 	DisplayName: Bloodfin
 	Tooltip:
 		'''
-		Grants a buff that grants +2.5 HP/s life regen
-		This buff directly restores HP if below 75% health
-		10 second duration
+		Grants a buff that massively boosts natural life regen and grants +{0} HP/s life regen
+		This increases to +{1} HP/s while suffering from damage over time debuffs
+		This buff also directly restores HP every {2} seconds if below {3}% health
+		{$CommonItemTooltip.SecondDuration@4}
 		'The wonders of angiogenesis'
 		'''
 }
@@ -108,7 +109,7 @@ DragoonDrizzlefish: {
 
 Havocfish: {
 	DisplayName: Havocfish
-	Tooltip: Press <right> to extract essence
+	Tooltip: Press <right> to extract [i:CalamityMod/EssenceofHavoc] essence
 }
 
 Shadowfish: {
@@ -163,13 +164,7 @@ RustedJingleBell: {
 
 SerpentsBite: {
 	DisplayName: Serpent's Bite
-	Tooltip:
-		'''
-		Reach: 28.125
-		Launch Velocity: 18
-		Reelback Velocity: 14
-		Pull Velocity: 12
-		'''
+	Tooltip: "{$Common.GrappleStats}"
 }
 
 Serpentuna: {
@@ -208,32 +203,32 @@ EnchantedStarfish: {
 
 FishofEleum: {
 	DisplayName: Fish of Eleum
-	Tooltip: Press <right> to extract essence
+	Tooltip: Press <right> to extract [i:CalamityMod/EssenceofEleum] essence
 }
 
 FishofFlight: {
 	DisplayName: Fish of Flight
-	Tooltip: Press <right> to extract souls
+	Tooltip: Press <right> to extract [i:SoulofFlight] souls
 }
 
 FishofLight: {
 	DisplayName: Fish of Light
-	Tooltip: Press <right> to extract souls
+	Tooltip: Press <right> to extract [i:SoulofLight] souls
 }
 
 FishofNight: {
 	DisplayName: Fish of Night
-	Tooltip: Press <right> to extract souls
+	Tooltip: Press <right> to extract [i:SoulofNight] souls
 }
 
 GlimmeringGemfish: {
 	DisplayName: Glimmering Gemfish
-	Tooltip: Press <right> to extract gems
+	Tooltip: Press <right> to extract [ITEMS] gems
 }
 
 Gorecodile: {
 	DisplayName: Gorecodile
-	Tooltip: Press <right> to extract blood orbs
+	Tooltip: Press <right> to extract [i:CalamityMod/BloodOrb] blood orbs
 }
 
 HydrothermalCrate: {
@@ -252,7 +247,7 @@ Spadefish: {
 
 StuffedFish: {
 	DisplayName: Stuffed Fish
-	Tooltip: Press <right> to extract herbs and seeds
+	Tooltip: Press <right> to extract [HERBS] herbs and [SEEDS] seeds
 }
 
 SulphurousCrate: {
@@ -262,7 +257,7 @@ SulphurousCrate: {
 
 SunbeamFish: {
 	DisplayName: Sunbeam Fish
-	Tooltip: Press <right> to extract essence
+	Tooltip: Press <right> to extract [i:CalamityMod/EssenceofSunlight] essence
 }
 
 // Fishing Rods
@@ -288,7 +283,7 @@ HeronRod: {
 	DisplayName: Heron Rod
 	Tooltip:
 		'''
-		Increased fishing power in space
+		Increases fishing power by {0}x when in space
 		'A silent head and beak lanced down and plucked it out by the head,
 		and the beak swallowed the little fish while its tail waved frantically.'
 		'''
@@ -337,7 +332,7 @@ VerstaltiteFishingRod: {
 	DisplayName: Verstaltite Fishing Rod
 	Tooltip:
 		'''
-		Increased fishing power when in the tundra
+		Increases fishing power by {0}x when in the tundra
 		The ancient alloy's prismatic qualities are perfect for attracting fish
 		'''
 }

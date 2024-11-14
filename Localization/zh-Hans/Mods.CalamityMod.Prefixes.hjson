@@ -2,7 +2,7 @@ Accessory: {
 	Cloaked.DisplayName: 隐蔽
 	Silent.DisplayName: 寂静
 	// New modifier effects (this is only positive)
-	StealthGenTooltip: 增加{0}%潜行值恢复速度
+	StealthGenTooltip: +{0}%潜行值恢复速度
 }
 
 Weapon: {

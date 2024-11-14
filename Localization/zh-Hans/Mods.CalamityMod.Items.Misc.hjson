@@ -10,7 +10,7 @@ AlphaSeaMinnowGoldItem: {
 }
 
 AndroombaItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
+	DisplayName: "{$NPCs.Androomba.DisplayName}"
 	Tooltip:
 		'''
 		右键扫除机以嵌入溶液
@@ -19,12 +19,12 @@ AndroombaItem: {
 }
 
 BabyCannonballJellyfishItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName}"
+	DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
 	Tooltip: ""
 }
 
 BabyFlakCrabItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName}"
+	DisplayName: "{$NPCs.BabyFlakCrab.DisplayName}"
 	Tooltip: ""
 }
 
@@ -59,7 +59,7 @@ NanodroidDysfunctionalItem: {
 }
 
 NanodroidItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName}"
+	DisplayName: "{$NPCs.Nanodroid.DisplayName}"
 	Tooltip: ""
 }
 
@@ -124,17 +124,17 @@ PolypPanaseaTurquoiseItem: {
 }
 
 PiggyItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
+	DisplayName: "{$NPCs.Piggy.DisplayName}"
 	Tooltip: ""
 }
 
 RepairUnitItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName}"
+	DisplayName: "{$NPCs.RepairUnitCritter.DisplayName}"
 	Tooltip: ""
 }
 
 SeaMinnowItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName}"
+	DisplayName: "{$NPCs.SeaMinnow.DisplayName}"
 	Tooltip: ""
 }
 
@@ -144,22 +144,25 @@ SeaMinnowGoldItem: {
 }
 
 ShroombleItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Shroomble.DisplayName}"
+	DisplayName: "{$NPCs.Shroomble.DisplayName}"
 	Tooltip: ""
 }
 
 TwinklerItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
+	DisplayName: "{$NPCs.Twinkler.DisplayName}"
 	Tooltip: ""
 }
 
 // Permanent Boosters
+AdrenalineBoosterTooltip: 永久增加{$Buffs.AdrenalineMode.DisplayName}{0}%伤害和{1}%伤害减免
+RageBoosterTooltip: 永久增加{0}秒{$Buffs.RageMode.DisplayName}持续时间
+
 CelestialOnion: {
 	DisplayName: 天体洋葱
 	Tooltip:
 		'''
 		永久增加1格饰品栏
-		在大师模式下使用此物品没有任何效果
+		Enables Demon Heart's accessory slot instead in Master Mode
 		外星的力量激荡在它的层叠之中
 		'''
 }
@@ -173,15 +176,8 @@ CometShard: {
 		'''
 }
 
-Ectoheart: {
-	DisplayName: 幽魂之心
-	Tooltip: 永久增加肾上腺素模式20%伤害和5%伤害减免
-}
-
-ElectrolyteGelPack: {
-	DisplayName: 电磁凝胶包
-	Tooltip: 永久增加肾上腺素模式20%伤害和5%伤害减免
-}
+Ectoheart.DisplayName: 幽魂之心
+ElectrolyteGelPack.DisplayName: 电磁凝胶包
 
 EtherealCore: {
 	DisplayName: 飘渺之核
@@ -192,10 +188,7 @@ EtherealCore: {
 		'''
 }
 
-InfernalBlood: {
-	DisplayName: 地狱之血
-	Tooltip: 永久增加1秒暴怒模式持续时间
-}
+InfernalBlood.DisplayName: 地狱之血
 
 MiracleFruit: {
 	DisplayName: 奇迹之果
@@ -207,9 +200,16 @@ MiracleFruit: {
 		'''
 }
 
-MushroomPlasmaRoot: {
-	DisplayName: 蘑菇根质
-	Tooltip: 永久增加1秒暴怒模式持续时间
+MushroomPlasmaRoot.DisplayName: 蘑菇根质
+
+NimbleBounder: {
+	DisplayName: Nimble Bounder
+	Tooltip:
+		'''
+		永久增加{0}%移动速度和跳跃速度
+		永久增加{1}%加速度
+		[c/842593:“可能对速通很有用”]
+		'''
 }
 
 PhantomHeart: {
@@ -221,10 +221,7 @@ PhantomHeart: {
 		'''
 }
 
-RedLightningContainer: {
-	DisplayName: 电刑之容
-	Tooltip: 永久增加1秒暴怒模式持续时间
-}
+RedLightningContainer.DisplayName: 电刑之容
 
 SacredStrawberry: {
 	DisplayName: Sacred Strawberry
@@ -246,10 +243,7 @@ SanguineTangerine: {
 		'''
 }
 
-StarlightFuelCell: {
-	DisplayName: 星光能量核心
-	Tooltip: 永久增加肾上腺素模式20%伤害和5%伤害减免
-}
+StarlightFuelCell.DisplayName: 星光能量核心
 
 TaintedCloudberry: {
 	DisplayName: Tainted Cloudberry
@@ -333,7 +327,7 @@ ExhumeShortTooltip:
 	'''
 LegendaryShortTooltip:
 	'''
-	[c/FF6F00:Tales of legends past radiate around you...]
+	[c/FF6F00:过去的传奇故事从你周围向外辐射……]
 	[c/BABABA:长按“左Shift”键以仔细聆听]
 	'''
 
@@ -363,10 +357,19 @@ BrimstoneLocus: {
 
 MomentumCapacitor: {
 	DisplayName: 动量电容器
-	Tooltip:
+	GFBName: 解脱樊笼
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
 		当使用动量电容器时，
 		你的最高速度会持续且不可控的增加
+		此效果在Boss存活时失效
+		'''
+	TooltipGFB:
+		'''
+		欢乐的时光
+		更快
+		警告：可能有灾难性的后果
 		此效果在Boss存活时失效
 		'''
 }
@@ -376,7 +379,7 @@ NormalityRelocator: {
 	Tooltip:
 		'''
 		按下 [KEY] 传送至鼠标位置
-		传送后的30帧内会使下落速度翻倍
+		传送后的0.5秒内会使下落速度翻倍
 		受到混沌状态减益的影响时无法进行传送
 		放在物品栏中时仍然有效
 		“眨眼即至！”
@@ -387,9 +390,10 @@ RelicOfConvergence: {
 	DisplayName: 聚魂圣物
 	Tooltip:
 		'''
-		创造一块亵渎水晶并充能
-		充能时会减速玩家
-		充能完成后会治疗玩家70点生命值
+		Creates a profaned crystal at the cursor that channels a healing aura before shattering
+		All players within the area of effect are healed for {0} HP
+		Allies gain 50% extra healing
+		Holding out the crystal heavily reduces the damage of all summons
 		'''
 }
 
@@ -424,12 +428,14 @@ SuperDummy: {
 		'''
 }
 
-NimbleBounder: {
-	DisplayName: Nimble Bounder
+RelicOfResilience: {
+	DisplayName: Relic Of Resilience
 	Tooltip:
 		'''
-		永久增加5%移动速度和跳跃速度
-		永久增加10%加速度
-		[c/842593:“可能对速通很有用”]
+		Holding this item creates orbiting rock shards around you and nearby allies
+		While they orbit you, your minimum defense is set to 150 and minimum damage reduction to 10%
+		Taking a hit or pressing <right> will pull in the shards, then blast them outward, crippling hit enemies
+		This effect has a 10 second cooldown after taking a hit
+		Holding out the shield heavily reduces the damage of all summons while rocks are active, only for you
 		'''
 }

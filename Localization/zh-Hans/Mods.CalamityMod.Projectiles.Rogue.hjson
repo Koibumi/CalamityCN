@@ -14,7 +14,6 @@ BallisticPoisonBombProj.DisplayName: 渊毒子母雷
 BallisticPoisonBombSpike.DisplayName: 渊毒刺
 BallisticPoisonCloud.DisplayName: 渊毒云
 BarrelShrapnel.DisplayName: 针叶片
-BettyExplosion.DisplayName: 炸弹
 BileExplosion.DisplayName: 胆汁
 BlastBarrelProjectile.DisplayName: 爆炸桶
 BlazingStarProj.DisplayName: 烈火之星
@@ -100,7 +99,6 @@ ExecutionersBladeStealthProj.DisplayName: 终结追魂刃
 ExorcismProj.DisplayName: 驱魔十字架
 ExorcismShockwave.DisplayName: 驱魔波
 ExorcismStar.DisplayName: 神圣流星
-ExplosiveSun.DisplayName: 圣阳
 FantasyTalismanProj.DisplayName: 符咒
 FantasyTalismanStealth.DisplayName: 符咒
 FeatherKnifeProjectile.DisplayName: 飞羽刀
@@ -133,7 +131,6 @@ GrimreaverBat.DisplayName: 掠墓蝙蝠
 GrimreaverSkull.DisplayName: 掠墓颅骨
 HeavenfallenEnergy.DisplayName: 天陨魔能
 HeavenfallenStardiskBoomerang.DisplayName: 天陨星盘
-HellsSunProj.DisplayName: 地狱之阳
 Honeycomb.DisplayName: 蜂巢
 HoneycombFragment.DisplayName: 蜂巢碎片
 HypothermiaChunk.DisplayName: 冰块

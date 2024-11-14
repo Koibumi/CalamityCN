@@ -34,7 +34,7 @@ AngelicShotgun: {
 	Tooltip:
 		'''
 		Each shot casts a radiant beam of holy light from the sky
-		Converts musket balls into hallow-point rounds
+		Musket balls convert into hallow-point rounds which also empower the beam
 		'Fighting 'til the war's won'
 		'''
 }
@@ -187,8 +187,8 @@ BlissfulBombardier: {
 	DisplayName: Blissful Bombardier
 	Tooltip:
 		'''
-		Fires flare rockets
-		Rockets will destroy tiles with tile-destroying ammo
+		Launches a crystalline missile high into the sky, raining holy fire on the cursor
+		The missile relentlessly seeks out a target before bursting into a massive explosion
 		'''
 }
 
@@ -985,10 +985,21 @@ PristineFury: {
 	DisplayName: Pristine Fury
 	Tooltip:
 		'''
-		Fires an intense helix of flames that explode into a column of smoke
-		Press <right> to disperse intense clouds of profaned heat
+		Fires an intense helix of flames that burst into a column of smoke
+		<right> to disperse flammable crystalline powder
+		Powder can be ignited, causuing it to explode for extra damage
+		Both helix flames and other nearby explosions can ignite the powder
 		Uses gel for ammo
 		'''
+	LegendaryText:
+		'''
+		Many had lost everything in what could only be described as this world's darkest hour.
+		Indescribable monsters came from the heavens, heralded by a cosmic behemoth of unimaginable might.
+		One warrior's home and family were torn from Her by these invaders, mankind's supposed protectors having abandoned them.
+		And thus did She swear an oath that one day, the light of her resplendent might would surpass even the late dragon king's sun;
+		That one day, this cruel world would see nothing less than Her perfect fury.
+		'''
+
 }
 
 Pumpler: {
@@ -1246,7 +1257,11 @@ StormSurge: {
 
 SulphuricAcidCannon: {
 	DisplayName: Sulphuric Acid Cannon
-	Tooltip: Fires an acidic shot that sticks to enemies and dissolves them
+	Tooltip:
+		'''
+		Fires homing Acid Rockets
+		Acid Rockets stick to enemies and explode into toxic mist after a short delay
+		'''
 }
 
 SuperradiantSlaughterer: {
@@ -1307,7 +1322,13 @@ TauCannon: {
 
 TelluricGlare: {
 	DisplayName: Telluric Glare
-	Tooltip: Fires volleys of four colossal radiant arrows which can pass through walls
+	Tooltip:
+		'''
+		Rapidly fires volleys of arrows
+		Every other arrow is converted into radiant greatarrows which pierce but quicky dissapear after striking
+		Wooden arrows are converted into more powerful greatarrows that deal increased damage
+		75% chance to save ammo
+		'''
 }
 
 TheBallista: {
@@ -1460,7 +1481,7 @@ WulfrumBlunderbuss: {
 		'''
 		Consumes wulfrum scrap or silver coins to fire
 		The shot's spread can be diminished by aiming further away, at the cost of less damage
-		Ignores 3 points of enemy Defense
+		{$Common.ArmorPenetration}
 		[c/83B87E:'The good thing about Wulfrum is that while it breaks fast, it can be reused even faster.]
 		[c/83B87E:In fact, it is quite common for a robot to be turned into ammo right after it stops functioning.']
 		'''

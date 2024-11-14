@@ -41,6 +41,11 @@ SetBonus: {
 		Cold enemies will deal reduced contact damage to the player
 		Provides immunity to the Chilled, Frozen, Frostburn and Glacial State debuffs
 		'''
+	Forbidden:
+		'''
+		{$LegacyTooltip.48} {$ArmorSetBonus.Forbidden}
+		Minions no longer deal less damage while wielding magic weapons
+		'''
 	Frost:
 		'''
 		Melee and ranged attacks inflict Frostbite

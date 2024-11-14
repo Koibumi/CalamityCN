@@ -287,7 +287,7 @@ WulfrumFusionCannon: {
 	Tooltip:
 		'''
 		Fires quick bursts of medium-range pellets
-		Ignores 10 points of enemy Defense
+		{$Common.ArmorPenetration}
 		[c/878787:'Who needs whips when you can simply become the summon yourself?']
 		'''
 }

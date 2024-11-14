@@ -11,9 +11,9 @@ EyeofMagnus: {
 	DisplayName: 马格努斯之眼
 	Tooltip:
 		'''
-		Fires seeking cosmic masses that restore health and mana on hit
-		Explodes into a nebula cloud which reduces enemy protection
-		This weapon scales with the average of all your damage stats
+		发射追踪宇宙物质，命中时恢复生命和魔力
+		爆炸成削弱敌怪防护能力的星云
+		受所有伤害属性的平均值加成
 		'''
 }
 
@@ -21,8 +21,8 @@ LunicEye: {
 	DisplayName: 星光之眼
 	Tooltip:
 		'''
-		Fires seeking energy bolts that reduce enemy protection
-		This weapon scales with the average of all your damage stats
+		发射能够削弱敌怪防护能力的追踪能量矢
+		受所有伤害属性的平均值加成
 		'''
 }
 
@@ -30,26 +30,13 @@ RelicOfDeliverance: {
 	DisplayName: 渡魂圣物
 	Tooltip:
 		'''
-		按住左键充能一次长矛猛冲攻击
-		再次按住左键释放充能并向光标位置猛冲
-		猛冲时按住左键会将猛冲方向重定向为光标方向
-		手持任何其他物品会取消充能
-		'''
-}
-
-RelicOfResilience: {
-	DisplayName: 塑魂圣物
-	Tooltip:
-		'''
-		在光标位置召唤一个堡垒
-		堡垒会受到来自敌人和所有弹幕的伤害
-		堡垒在死亡时会炸裂成碎片
-		如果敌人在碎片区域，那么敌人的下次攻击造成的伤害会被削减45%。
-		此效果有冷却时间
-		5秒后碎片会自动聚合并重新生成堡垒
-		这种聚合在重新召唤堡垒前只能发生3次
-		当你召唤新的壁垒时，你会获得5秒的冷却时间
-		如果堡垒或碎片已经存在，那么再次使用此物品时会将其重新定位到光标处
+		Using <left> mounts you on the spear; holding <left> revvs the spear, slowing you down
+		Release to launch yourself at high speeds, halved while a boss is alive
+		Losing too much speed while charging will bust the charge, resetting your speed
+		The dash allows you to ram through enemies and travel through tiles
+		Being inside tiles for too long will warp you back to where you entered
+		Press <right> to dismount
+		Holding out the spear heavily reduces the damage of all summons
 		'''
 }
 
@@ -72,7 +59,7 @@ YanmeisKnife: {
 	Tooltip:
 		'''
 		命中敌人，让他们残废
-		还会赋予你10秒移动速度与伤害的提升
+		还会提升你{0}%移动速度和伤害，持续{1}秒
 		“一把来自未知世界的刀
 		拥有一个内心纯洁的主人
 		荣誉相随的钢铁雄心”

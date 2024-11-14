@@ -47,8 +47,8 @@ AxeofPurity: {
 	DisplayName: Axe of Purity
 	Tooltip:
 		'''
-		Left click to use as a tool
-		Right click to cleanse evil
+		<left> to use as a tool
+		<right> to cleanse evil
 		'''
 }
 
@@ -72,10 +72,7 @@ BobbitHook: {
 	Tooltip:
 		'''
 		Retracts upon attaching to a tile with extreme speeds
-		Reach: 40
-		Launch Velocity: 25
-		Reelback Velocity: 28
-		Pull Velocity: 24
+		{$Common.GrappleStats}
 		'''
 }
 
@@ -124,7 +121,7 @@ Gelpick: {
 
 GenesisPickaxe: {
 	DisplayName: Genesis Pickaxe
-	Tooltip: Can mine Uelibloom Ore
+	Tooltip: "{$Common.CanMineUelibloom}"
 }
 
 Grax: {
@@ -155,7 +152,7 @@ MarniteDeconstructor: {
 	Tooltip:
 		'''
 		Its engine generates hardlight rays capable of excavating walls from a long distance
-		Ignores 10 points of enemy Defense
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -164,7 +161,7 @@ MarniteObliterator: {
 	Tooltip:
 		'''
 		Uses a diamond focus to project a long-range digging beam of light
-		Ignores 5 points of enemy Defense
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -241,7 +238,7 @@ WulfrumScaffoldKit: {
 	DisplayName: Wulfrum Scaffold Kit
 	Tooltip:
 		'''
-		Places down temporary metal scaffolding. Uses up one wulfrum metal scrap for 40 tiles built
+		Places down temporary metal scaffolding. Uses up [i:CalamityMod/WulfrumMetalScrap] {$Items.Materials.WulfrumMetalScrap.DisplayName} for {0} tiles built
 		Scaffold needs to be adjacent to a solid tile to be placed down
 		'For when you need something built fast and don't need it to last.'
 		'''

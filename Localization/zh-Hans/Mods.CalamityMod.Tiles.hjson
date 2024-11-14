@@ -48,13 +48,13 @@ UelibloomOre.MapEntry: 龙蒿矿
 ArenaTile.MapEntry: 战斗场地
 
 AshenChest: {
-	MapEntry0: "{$Mods.CalamityMod.Items.Placeables.AshenChest.DisplayName}"
-	MapEntry1: 上锁的{$Mods.CalamityMod.Items.Placeables.AshenChest.DisplayName}
+	MapEntry0: "{$Items.Placeables.AshenChest.DisplayName}"
+	MapEntry1: 上锁的{$Items.Placeables.AshenChest.DisplayName}
 }
 
 AstralChestLocked: {
-	MapEntry0: "{$Mods.CalamityMod.Items.Placeables.AstralChest.DisplayName}"
-	MapEntry1: 上锁的{$Mods.CalamityMod.Items.Placeables.AstralChest.DisplayName}
+	MapEntry0: "{$Items.Placeables.AstralChest.DisplayName}"
+	MapEntry1: 上锁的{$Items.Placeables.AstralChest.DisplayName}
 }
 
 PlaguedPlateBed.MapEntry: “床”

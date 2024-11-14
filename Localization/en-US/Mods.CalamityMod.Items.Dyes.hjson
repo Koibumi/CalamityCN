@@ -1,3 +1,8 @@
+AcidRainDye: {
+	DisplayName: Acid Rain Dye
+	Tooltip: ""
+}
+
 AerialiteDye: {
 	DisplayName: Aerialite Dye
 	Tooltip: ""
@@ -68,6 +73,11 @@ CryonicDye: {
 	Tooltip: ""
 }
 
+DaedalusDye: {
+	DisplayName: Daedalus Dye
+	Tooltip: ""
+}
+
 DefiledFlameDye: {
 	DisplayName: Defiled Flame Dye
 	Tooltip: ""
@@ -113,6 +123,21 @@ WingTimeHairDye: {
 	Tooltip: ""
 }
 
+LivingShardDye: {
+	DisplayName: Living Shard Dye
+	Tooltip: ""
+}
+
+MeldDye: {
+	DisplayName: Meld Dye
+	Tooltip: ""
+}
+
+NecromanticDye: {
+	DisplayName: Necromantic Dye
+	Tooltip: ""
+}
+
 NecroplasmicDye: {
 	DisplayName: Necroplasmic Dye
 	Tooltip: ""
@@ -133,6 +158,21 @@ PinkStatigelDye: {
 	Tooltip: ""
 }
 
+PlagueGooDye: {
+	DisplayName: Plague Goo Dye
+	Tooltip: ""
+}
+
+PlaguePlateDye: {
+	DisplayName: Plague Plate Dye
+	Tooltip: ""
+}
+
+ProfanedCrystalDye: {
+	DisplayName: Profaned Crystal Dye
+	Tooltip: ""
+}
+
 ProfanedFlameDye: {
 	DisplayName: Profaned Flame Dye
 	Tooltip: ""
@@ -143,13 +183,28 @@ ProfanedMoonlightDye: {
 	Tooltip: ""
 }
 
+ProfanedRockDye: {
+	DisplayName: Profaned Rock Dye
+	Tooltip: ""
+}
+
 ReaverDye: {
 	DisplayName: Reaver Dye
 	Tooltip: ""
 }
 
+ScoriaDye: {
+	DisplayName: Scoria Dye
+	Tooltip: ""
+}
+
 ShadowspecDye: {
 	DisplayName: Shadowspec Dye
+	Tooltip: ""
+}
+
+SilvaDye: {
+	DisplayName: Silva Dye
 	Tooltip: ""
 }
 
@@ -165,5 +220,15 @@ StratusDye: {
 
 SwirlingCosmicFlameDye: {
 	DisplayName: Swirling Cosmic Flame Dye
+	Tooltip: ""
+}
+
+TarragonDye: {
+	DisplayName: Tarragon Dye
+	Tooltip: ""
+}
+
+WulfrumDye: {
+	DisplayName: Wulfrum Dye
 	Tooltip: ""
 }

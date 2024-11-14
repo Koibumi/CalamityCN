@@ -89,13 +89,13 @@ Cooldowns: {
 	DivineBless: 圣天祝福充能
 	DivingPlatesBreaking: 深渊潜游服耐久
 	DivingPlatesBroken: 深渊潜游服外壳破损
-	DSOCritCooldown: Extra Critical Strike Chance
+	DSOCritCooldown: 额外暴击率
 	ParryCooldown: 格挡冷却
 	FleshTotem: 血肉图腾冷却
 	GaelsRage: 盖尔大剑怒气冷却
 	GlobalDodge: 深渊影遁冷却
 	GodSlayerDash: 神弑者之停息
-	HellbornShots: Hellborn Shots
+	HellbornShots: 地狱降临子弹数
 	InkBomb: 墨水炸弹冷却
 	LifeSteal: 吸血冷却
 	LionHeartShield: 能量庇护冷却
@@ -111,7 +111,7 @@ Cooldowns: {
 	PrismaticLaser: 光棱冷却
 	ProfanedSoulShieldDurability: 亵渎灵魂护盾耐久
 	ProfanedSoulShieldRecharge: 亵渎灵魂护盾充能
-	RelicOfResilience: 塑魂冷却
+	RelicOfResilienceCooldown: 塑魂冷却
 	RogueBooster: 悖论增幅器冷却
 	SandCloak: 沙尘斗篷冷却
 	SandsmokeBombActive: 使用沙尘覆盖
@@ -125,6 +125,7 @@ Cooldowns: {
 	TarragonCloak: 龙蒿披风冷却
 	TarragonImmunity: 龙蒿无敌冷却
 	UniverseSplitter: 渊宇天基炮冷却
+	WarbanneroftheRighteousBuff: Warbanner Strength
 	WulfrumBastionActive: 钨钢转换中
 	WulfrumBastionCooldown: 钨钢转换冷却
 	WulfrumRoverDriveDurability: 矩阵保护中

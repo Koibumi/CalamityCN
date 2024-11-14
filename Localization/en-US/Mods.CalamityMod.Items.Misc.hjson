@@ -10,7 +10,7 @@ AlphaSeaMinnowGoldItem: {
 }
 
 AndroombaItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
+	DisplayName: "{$NPCs.Androomba.DisplayName}"
 	Tooltip:
 		'''
 		Press <right> on the roomba with a solution to insert it
@@ -19,12 +19,12 @@ AndroombaItem: {
 }
 
 BabyCannonballJellyfishItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName}"
+	DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
 	Tooltip: ""
 }
 
 BabyFlakCrabItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName}"
+	DisplayName: "{$NPCs.BabyFlakCrab.DisplayName}"
 	Tooltip: ""
 }
 
@@ -59,7 +59,7 @@ NanodroidDysfunctionalItem: {
 }
 
 NanodroidItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName}"
+	DisplayName: "{$NPCs.Nanodroid.DisplayName}"
 	Tooltip: ""
 }
 
@@ -124,17 +124,17 @@ PolypPanaseaTurquoiseItem: {
 }
 
 PiggyItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
+	DisplayName: "{$NPCs.Piggy.DisplayName}"
 	Tooltip: ""
 }
 
 RepairUnitItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName}"
+	DisplayName: "{$NPCs.RepairUnitCritter.DisplayName}"
 	Tooltip: ""
 }
 
 SeaMinnowItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName}"
+	DisplayName: "{$NPCs.SeaMinnow.DisplayName}"
 	Tooltip: ""
 }
 
@@ -144,22 +144,25 @@ SeaMinnowGoldItem: {
 }
 
 ShroombleItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Shroomble.DisplayName}"
+	DisplayName: "{$NPCs.Shroomble.DisplayName}"
 	Tooltip: ""
 }
 
 TwinklerItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
+	DisplayName: "{$NPCs.Twinkler.DisplayName}"
 	Tooltip: ""
 }
 
 // Permanent Boosters
+AdrenalineBoosterTooltip: Permanently increases {$Buffs.AdrenalineMode.DisplayName} damage by {0}% and damage reduction by {1}%
+RageBoosterTooltip: Permanently increases the duration of {$Buffs.RageMode.DisplayName} by {0} second
+
 CelestialOnion: {
 	DisplayName: Celestial Onion
 	Tooltip:
 		'''
 		Permanently increases the number of accessory slots
-		This item does nothing in Master Mode
+		Enables Demon Heart's accessory slot instead in Master Mode
 		Alien power pulses inside its layers
 		'''
 }
@@ -173,15 +176,8 @@ CometShard: {
 		'''
 }
 
-Ectoheart: {
-	DisplayName: Ectoheart
-	Tooltip: Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
-}
-
-ElectrolyteGelPack: {
-	DisplayName: Electrolyte Gel Pack
-	Tooltip: Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
-}
+Ectoheart.DisplayName: Ectoheart
+ElectrolyteGelPack.DisplayName: Electrolyte Gel Pack
 
 EtherealCore: {
 	DisplayName: Ethereal Core
@@ -192,10 +188,7 @@ EtherealCore: {
 		'''
 }
 
-InfernalBlood: {
-	DisplayName: Infernal Blood
-	Tooltip: Permanently increases the duration of Rage Mode by 1 second
-}
+InfernalBlood.DisplayName: Infernal Blood
 
 MiracleFruit: {
 	DisplayName: Miracle Fruit
@@ -207,9 +200,16 @@ MiracleFruit: {
 		'''
 }
 
-MushroomPlasmaRoot: {
-	DisplayName: Mushroom Plasma Root
-	Tooltip: Permanently increases the duration of Rage Mode by 1 second
+MushroomPlasmaRoot.DisplayName: Mushroom Plasma Root
+
+NimbleBounder: {
+	DisplayName: Nimble Bounder
+	Tooltip:
+		'''
+		Permanently increases movement and jump speed by {0}%
+		Permanently increases acceleration by {1}%
+		[c/842593:'Might be useful for speedrunning']
+		'''
 }
 
 PhantomHeart: {
@@ -221,10 +221,7 @@ PhantomHeart: {
 		'''
 }
 
-RedLightningContainer: {
-	DisplayName: Red Lightning Container
-	Tooltip: Permanently increases the duration of Rage Mode by 1 second
-}
+RedLightningContainer.DisplayName: Red Lightning Container
 
 SacredStrawberry: {
 	DisplayName: Sacred Strawberry
@@ -246,10 +243,7 @@ SanguineTangerine: {
 		'''
 }
 
-StarlightFuelCell: {
-	DisplayName: Starlight Fuel Cell
-	Tooltip: Permanently increases Adrenaline Mode damage by 20% and damage reduction by 5%
-}
+StarlightFuelCell.DisplayName: Starlight Fuel Cell
 
 TaintedCloudberry: {
 	DisplayName: Tainted Cloudberry
@@ -363,11 +357,20 @@ BrimstoneLocus: {
 
 MomentumCapacitor: {
 	DisplayName: Momentum Capacitor
-	Tooltip:
+	GFBName: Burden Breaker
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
 		While using the Momentum Capacitor,
 		your top speed will continuously and uncontrollably increase
 		This effect only works if there are no bosses alive
+		'''
+	TooltipGFB:
+		'''
+		The good time
+		Go fast
+		WARNING: May have disastrous results
+		Only works if there are no bosses alive
 		'''
 }
 
@@ -376,7 +379,7 @@ NormalityRelocator: {
 	Tooltip:
 		'''
 		Press [KEY] to teleport to the position of the mouse
-		Fall speed is doubled for 30 frames after teleporting
+		Fall speed is doubled for 0.5 seconds after teleporting
 		Teleportation is disabled while Chaos State is active
 		Works while in the inventory
 		'I'll be there in the blink of an eye'
@@ -387,9 +390,10 @@ RelicOfConvergence: {
 	DisplayName: Relic of Convergence
 	Tooltip:
 		'''
-		Creates a profaned crystal that charges power
-		Holding out the crystal slows the player down
-		At the end of its life, the crystal heals the player for 70 HP
+		Creates a profaned crystal at the cursor that channels a healing aura before shattering
+		All players within the area of effect are healed for {0} HP
+		Allies gain 50% extra healing
+		Holding out the crystal heavily reduces the damage of all summons
 		'''
 }
 
@@ -425,12 +429,14 @@ SuperDummy: {
 		'''
 }
 
-NimbleBounder: {
-	DisplayName: Nimble Bounder
+RelicOfResilience: {
+	DisplayName: Relic Of Resilience
 	Tooltip:
 		'''
-		Permanently increases movement and jump speed by 5%
-		Permanently increases acceleration by 10%
-		[c/842593:'Might be useful for speedrunning']
+		Holding this item creates orbiting rock shards around you and nearby allies
+		While they orbit you, your minimum defense is set to 150 and minimum damage reduction to 10%
+		Taking a hit or pressing <right> will pull in the shards, then blast them outward, crippling hit enemies
+		This effect has a 10 second cooldown after taking a hit
+		Holding out the shield heavily reduces the damage of all summons while rocks are active, only for you
 		'''
 }

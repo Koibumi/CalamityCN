@@ -53,6 +53,7 @@ BrimstoneSwordProj.DisplayName: Brimstone Sword
 BrinySpout.DisplayName: Briny Spout
 BrinyTyphoonBubble.DisplayName: Bubble
 BrokenBiomeBladeHoldout.DisplayName: Broken Biome Blade
+BurningHolyBlast.DisplayName: Profaned Blast
 BurningMeteor.DisplayName: Meteor
 CatastropheClaymoreSparkle.DisplayName: Catastrophe Sparkle
 CausticEdgeProjectile.DisplayName: Caustic Edge
@@ -80,15 +81,13 @@ DarklightGreatswordSlashCreator.DisplayName: Darklight Greatsword Slash Creator
 DarkMasterBeam.DisplayName: Dark Master Beam
 DarkMasterClone.DisplayName: Dark Terrarian
 DeathsAscensionProjectile.DisplayName: Ascended Scythe
+DeathsAscensionRift.DisplayName: Rift
 DecaysRetort.DisplayName: Decay's Retort
 DecaysRetortDash.DisplayName: Evisceration Lunge
 DemonBlast.DisplayName: Devil Fork
 DepthCrusherProjectile.DisplayName: Depth Crusher
 DepthCrusherSplitProjectile.DisplayName: Depth Crusher Jet
-DepthOrb.DisplayName: Depth Trident
-DepthOrb2.DisplayName: Neptune's Trident
 DevilsSunriseCyclone.DisplayName: Devil's Sunrise
-DivineHatchetBoomerang.DisplayName: Scorching Seeker
 DNA.DisplayName: DNA
 DracoBeam.DisplayName: Draconic Beam
 DracoBeam2.DisplayName: Draconic Beam
@@ -98,7 +97,6 @@ DragonRageFireball.DisplayName: Dragon Rage Fireball
 EarthBoom.DisplayName: Earth's Judgement
 EarthMeteor.DisplayName: Gaia Meteor
 ElementalGlassStar.DisplayName: Glass Star
-ElementBall.DisplayName: Elemental Ball
 EmpyreanKnife.DisplayName: Empyrean Knife
 EntropicFlechette.DisplayName: Entropic Flechette
 EonBolt.DisplayName: Eon Bolt
@@ -114,6 +112,7 @@ Exoboom.DisplayName: Exoplasma Explosion
 ExtantAbhorrence.DisplayName: Extant Abhorrence
 ExtantAbhorrenceMonolith.DisplayName: Abhorrent Monolith
 FallenBlast.DisplayName: Fallen Paladin's Wrath
+FallenExplosionSmall.DisplayName: Fallen Hammer Blast
 FallenPaladinsHammerEcho.DisplayName: Fallen Paladin's Hammer Echo
 FallenPaladinsHammerProj.DisplayName: Fallen Paladin's Hammer
 Feather.DisplayName: Feather
@@ -222,9 +221,11 @@ SandFire.DisplayName: Fire
 SanguineFury.DisplayName: Sanguine Fury
 SanguineFuryDash.DisplayName: Shredding Lunge
 SanguineFuryWheel.DisplayName: Sanguine Bladewheel
+ScorcherExplosion.DisplayName: Scorching Crystal Blast
 ScourgeoftheCosmosMini.DisplayName: Miniature Cosmic Scourge
 ScourgeoftheCosmosProj.DisplayName: Cosmic Scourge
 SeashineSwordProj.DisplayName: Seashine Beam
+SeekingScorcherProj.DisplayName: Scorching Seeker
 SolarNeedle.DisplayName: Solar Needle
 SolsticeBeam.DisplayName: Solstice Beam
 SoulScythe.DisplayName: Soul Scythe
@@ -303,4 +304,3 @@ WulfrumScrew.DisplayName: Wulfrum Screw
 WulfrumScrewdriverProj.DisplayName: Wulfrum Screwdriver
 YinYoDark.DisplayName: Dark Shard
 YinYoLight.DisplayName: Light Shard
-FallenExplosionSmall.DisplayName: Fallen Hammer Blast

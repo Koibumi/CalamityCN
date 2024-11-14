@@ -14,7 +14,6 @@ BallisticPoisonBombProj.DisplayName: Poison Bomb
 BallisticPoisonBombSpike.DisplayName: Poison Spike
 BallisticPoisonCloud.DisplayName: Ballistic Cloud
 BarrelShrapnel.DisplayName: Barrel Shrapnel
-BettyExplosion.DisplayName: Betty Explosion
 BileExplosion.DisplayName: Bile
 BlastBarrelProjectile.DisplayName: Blast Barrel
 BlazingStarProj.DisplayName: Blazing Star
@@ -100,7 +99,6 @@ ExecutionersBladeStealthProj.DisplayName: Executioner's Blade
 ExorcismProj.DisplayName: Exorcism
 ExorcismShockwave.DisplayName: Exorcism Shockwave
 ExorcismStar.DisplayName: Exorcism Star
-ExplosiveSun.DisplayName: Explosive Sun
 FantasyTalismanProj.DisplayName: Talisman
 FantasyTalismanStealth.DisplayName: Talisman
 FeatherKnifeProjectile.DisplayName: Feather Knife
@@ -133,7 +131,6 @@ GrimreaverBat.DisplayName: Grim Bat
 GrimreaverSkull.DisplayName: Grim Skull
 HeavenfallenEnergy.DisplayName: Heavenfallen Energy
 HeavenfallenStardiskBoomerang.DisplayName: Heavenfallen Stardisk
-HellsSunProj.DisplayName: Hell's Sun
 Honeycomb.DisplayName: Honeycomb
 HoneycombFragment.DisplayName: Honeycomb Fragment
 HypothermiaChunk.DisplayName: Ice Chunk

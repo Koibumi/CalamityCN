@@ -250,7 +250,14 @@ DankStaff: {
 
 DazzlingStabberStaff: {
 	DisplayName: 耀目穿刺者杖
-	Tooltip: 召唤圣刃为你而战
+	Tooltip:
+		'''
+		Summons three holy daggers made of profaned materials to fight for you
+		Holy flame daggers gallantly turn all that oppose them to ashes
+		Crystalline daggers gracefully carve foes to ribbons
+		Profane daggers brutishtly splinter and reform eternally
+		'Ever onward, towards Her future'
+		'''
 }
 
 DeathstareRod: {
@@ -633,7 +640,10 @@ SanctifiedSpark: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一只友好的亵渎献祭者，向你的敌人发射神圣火花
+		Summons a friendly immolator that will float towards you
+		Immolators rapidly fire homing flares at nearby enemies, before continuing to float near you again
+		After firing, Immolators will fire one healing bolt at you for every 4 summon slots you have
+		'They might be a bit clingy, but at least they're warm'
 		'''
 }
 
@@ -907,8 +917,8 @@ AmphibiansGuitar: {
 	DisplayName: Amphibian's Guitar
 	Tooltip:
 		'''
-		Summons up to 8 guitars that spin around you and shoot notes at the target, ocasianally firing spread shots
-		If all 8 guitars are present some notes become empowered dealing extra damage
+		召唤至多8把环绕你旋转的吉他，吉他会朝目标发射音符，偶尔散射
+		如果8把吉他全部出现，一些音符会被增幅并造成额外伤害
 		"I'll show you suffering!"
 		'''
 }

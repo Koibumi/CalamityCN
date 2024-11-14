@@ -12,7 +12,7 @@ AbyssalAmulet: {
 	DisplayName: 深渊护身符
 	Tooltip:
 		'''
-		攻击会造成激流减益并对它免疫
+		攻击会造成激流减益并使你对激流免疫
 		处于深渊时增加10%最大生命值
 		'''
 }
@@ -93,8 +93,7 @@ AlluringBait: {
 	DisplayName: 诱惑鱼饵
 	Tooltip:
 		'''
-		增加30点渔力
-		大幅度增加捕获药水材料鱼的几率
+		增加10点渔力
 		增加钓到的药水材料鱼的数量
 		'''
 }
@@ -226,8 +225,7 @@ AscendantInsignia: {
 	DisplayName: 进升证章
 	Tooltip:
 		'''
-		飞行时间增加30%
-		移动速度和跳跃速度提高10%，加速度提高1.1倍
+		飞行时间增加50%，移动速度和跳跃速度提高10%，加速度提高1.5倍
 		按下[KEY]键会给予你飞升之力，提供4秒的无限飞行时间
 		飞升有40秒冷却时间
 		'''
@@ -304,7 +302,7 @@ BlazingCore: {
 		水晶破碎时，神圣之星会向外螺旋扩散且你仅会受到1点伤害
 		破碎后，此伤害减免效果将进入冷却
 		处于冷却期间时触发格挡会召唤额外的治愈之星，但受击伤害不会降低
-		在深渊中提供适量光照
+		{$Common.AbyssLightLevel2}
 		'''
 }
 
@@ -411,7 +409,7 @@ CleansingJelly: {
 	DisplayName: 纯净胶质
 	Tooltip:
 		'''
-		使用治疗药水后会产生一个持续30秒的蓝色光环
+		使用治疗药水后会产生一个持续{0}秒的蓝色光环
 		首次进入光环会净化所有减益
 		'''
 }
@@ -449,7 +447,7 @@ CounterScarf: {
 	Tooltip:
 		'''
 		增加10%真近战伤害
-		使你获得双击方向键冲刺能力；冲刺时受伤会闪避这次伤害
+		使你获得双击方向键冲刺能力，冲刺时受伤会闪避这次伤害
 		闪避效果有30秒冷却时间，期间你仍然可以进行冲刺
 		'''
 }
@@ -496,20 +494,20 @@ DaawnlightSpiritOrigin: {
 	DisplayName: 曙旼始灵
 	Tooltip:
 		'''
-		All ranged weapons can supercrit when critical strike chance is over 100%
-		Marks enemies and bosses with bullseyes which boost critical strike chance when hit
-		Extra critical strike chance quickly fades over time
+		暴击率高于100%时所有远程武器可以造成超暴击
+		用靶心标记敌怪和Boss，命中靶心时提升暴击率
+		额外暴击率会随时间快速消散
 		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
 		'''
 	HoldShiftTooltip:
 		'''
-		All ranged weapons can supercrit when critical strike chance is over 100%
-		Marks nearby enemies and bosses with bullseyes which disappear shortly after being hit
-		Ranged attacks which strike bullseyes boost critical strike chance
-		Large projectiles and explosions cannot strike bullseyes
-		Slower weapons give a larger critical strike chance boost on hit
-		Extra critical strike chance quickly fades over time
-		The higher the boost, the more quickly it fades away
+		暴击率高于100%时所有远程武器可以造成超暴击
+		用靶心标记附近敌怪和Boss，被命中后靶心短暂消失
+		命中靶心的远程攻击会提升暴击率
+		大型弹幕和爆炸无法命中靶心
+		使用时间越长的武器命中靶心时提升的暴击率更多
+		额外暴击率会随时间快速消散
+		暴击率提升越多，消散速度越快
 		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
 		'''
 	FlavorTooltip: "“一缕失落宇宙的残烬，久久等待着她的御主”"
@@ -707,7 +705,12 @@ ElysianAegis: {
 
 EnchantedPearl: {
 	DisplayName: 附魔珍珠
-	Tooltip: 增加10点渔力和10%钓到宝匣的概率
+	Tooltip:
+		'''
+		增加10点渔力
+		增加15%钓到宝匣和包含战利品的鱼的概率
+		宝匣有25%概率变为更高品质
+		'''
 }
 
 EtherealExtorter: {
@@ -827,7 +830,7 @@ GiantPearl: {
 		光明之环环绕身周
 		减速被光环笼罩的敌人
 		当敌怪被减速时你会释放追踪棱晶碎块
-		在深渊中提供少量光照
+		{$Common.AbyssLightLevel1}
 		'''
 }
 
@@ -878,9 +881,9 @@ GrandGelatin: {
 	DisplayName: 绚彩明胶
 	Tooltip:
 		'''
-		增加12%移动速度和跳跃速度
-		使用治疗药水后会产生一个持续30秒的纯净光环
-		首次进入光环会净化所有减益，光环内会提供+2.5HP/s生命再生
+		增加{0}%移动速度和跳跃速度
+		使用治疗药水后会产生一个持续{1}秒的纯净光环
+		首次进入光环会净化所有减益，光环内会提供+{2}HP/s生命再生
 		'''
 }
 
@@ -998,7 +1001,7 @@ JellyChargedBattery: {
 	Tooltip:
 		'''
 		增加1格最大仆从栏位和7%召唤伤害
-		Minion attacks create orbs of static discharge
+		仆从攻击会产生静电球
 		'''
 }
 
@@ -1025,8 +1028,8 @@ LifeJelly: {
 	DisplayName: 生命胶质
 	Tooltip:
 		'''
-		使用治疗药水后会产生一个持续30秒的粉色光环
-		光环内提供+2HP/s生命再生
+		使用治疗药水后会产生一个持续{0}秒的粉色光环
+		光环内提供+{1}HP/s生命再生
 		'''
 }
 
@@ -1047,7 +1050,7 @@ LumenousAmulet: {
 		'''
 		攻击造成深渊水压减益并对激流与深渊水压免疫
 		处于深渊时增加25%最大生命值
-		在深渊中提供适量光照
+		{$Common.AbyssLightLevel2}
 		'''
 }
 
@@ -1310,6 +1313,7 @@ ProfanedSoulCrystal: {
 	FullTooltip:
 		'''
 		基于一天中的时间给予被动增益
+		大幅增强亵渎守卫掉落的圣物的力量
 		如果你拥有{0}个仆从栏位可获得额外效果
 		召唤你自己的守卫与你一同战斗
 		所有非召唤攻击都被转换，且在没有仆从存在时效果会增强
@@ -1412,7 +1416,7 @@ RottenBrain: {
 	DisplayName: 腐烂之脑
 	Tooltip:
 		'''
-		增加6%伤害
+		增加5%伤害
 		受到伤害后生成一只沼泽之眼
 		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
 		'''
@@ -1633,9 +1637,8 @@ StatisNinjaBelt: {
 	DisplayName: 斯塔提斯的忍者腰带
 	Tooltip:
 		'''
-		增加32%跳跃高度并允许自动跳跃
-		增加35格摔落伤害抗性
-		使你获得游泳能力，可以攀爬、冲刺和闪避攻击
+		增加32%跳跃速度，允许自动跳跃并免疫摔落伤害
+		可以游泳、攀爬、冲刺和闪避攻击
 		'''
 	HoldShiftTooltip:
 		'''
@@ -1651,6 +1654,7 @@ StatisVoidSash: {
 		'''
 		增加32%跳跃速度，允许自动跳跃并免疫摔落伤害
 		可以游泳、攀爬、冲刺和闪避攻击
+		冲刺时会在路径上留下追踪镰刀
 		'''
 	HoldShiftTooltip:
 		'''
@@ -1747,11 +1751,9 @@ SupremeBaitTackleBoxFishingStation: {
 	DisplayName: 万能渔具包
 	Tooltip:
 		'''
-		增加80点渔力和10%钓到宝匣的概率
+		增加50点渔力
 		钓鱼线永远都不会断，降低鱼饵消耗率
-		可以在熔岩中钓鱼
-		使你获得声呐药水的效果
-		终极钓鱼饰品
+		可以在熔岩中钓鱼并探测到上钩的鱼
 		'''
 }
 
@@ -1769,12 +1771,12 @@ TheAbsorber: {
 	DisplayName: 阴阳吸星石
 	Tooltip:
 		'''
-		增加12%移动速度和跳跃速度
+		增加{0}%移动速度和跳跃速度
 		对击退免疫
 		攻击者会受到极高伤害以及一个残废性疾病减益
-		使用治疗药水后会产生一个持续30秒的绿色光环
-		首次进入光环会净化所有减益，光环内会提供+3HP/s生命再生，8%伤害和3%伤害减免
-		敌人攻击5%的伤害会被转化为对你的治疗
+		使用治疗药水后会产生一个持续{1}秒的绿色光环
+		首次进入光环会净化所有减益，光环内会提供+{2}HP/s生命再生，{3}%伤害和{4}%伤害减免
+		敌人攻击{5}%的伤害会被转化为对你的治疗
 		'''
 }
 
@@ -1815,7 +1817,7 @@ TheCamper: {
 		除非站定不动，否则降低90%造成的伤害
 		站定不动时基于手持的武器给予增益并在你周为生成伤害光环
 		移动时会像站定不动时再生生命
-		在深渊中提供少量光照
+		{$Common.AbyssLightLevel1}
 		“只有休息好才能取得战斗的胜利”
 		'''
 }
@@ -1857,7 +1859,7 @@ TheFirstShadowflame: {
 	Tooltip:
 		'''
 		增加1格最大仆从栏位
-		仆从攻击会造成暗影焰减益并对它免疫
+		仆从攻击会造成暗影焰减益并使你对暗影焰免疫
 		'''
 }
 
@@ -1968,12 +1970,14 @@ VoltaicJelly: {
 		'''
 }
 
-WarbanneroftheSun: {
-	DisplayName: 阳炎战旗
+WarbanneroftheRighteous: {
+	DisplayName: Warbanner of the Righteous
 	Tooltip:
 		'''
-		当你接近敌人时会增加近战伤害、真近战伤害和近战攻速
-		这些属性至多增加20%
+		Damage is increased by 20% when close to enemies, but decreased by 60% when none are nearby
+		Emit a blazing aura that burns and repels nearby enemies
+		Enemies take increasing damage the closer they are to you and the longer they are near you
+		Effects are transparent and silent if visibility is disabled
 		'''
 }
 
@@ -2079,6 +2083,16 @@ PunchCard: {
 SharkyPlush: {
 	DisplayName: Sharky Plush
 	Tooltip: "[c/696969:'Look around, at the sight and sound...']"
+}
+
+TheComb: {
+	DisplayName: The Comb
+	Tooltip:
+		'''
+		Gives the wearer's hair a lustrous finish
+		Sparkles are attracted to nearby chests
+		'We ain't found shit!'
+		'''
 }
 
 XyksBlessingBlue: {

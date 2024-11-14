@@ -73,21 +73,6 @@ CoreofCalamity: {
 	Tooltip: ""
 }
 
-CoreofEleum: {
-	DisplayName: 冰川核心
-	Tooltip: ""
-}
-
-CoreofHavoc: {
-	DisplayName: 混乱核心
-	Tooltip: ""
-}
-
-CoreofSunlight: {
-	DisplayName: 日光核心
-	Tooltip: ""
-}
-
 CorrodedFossil: {
 	DisplayName: 酸腐化石
 	Tooltip: 它非常坚固

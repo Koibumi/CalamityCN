@@ -525,7 +525,7 @@ HardenedHoneycomb: {
 	Tooltip:
 		'''
 		扔出会碎裂的蜂巢
-		潜伏攻击在命中时获得蜂蜜buff并生成蜜蜂
+		潜伏攻击在命中时获得蜂蜜增益并生成蜜蜂
 		'''
 }
 
@@ -536,18 +536,6 @@ HeavenfallenStardisk: {
 		发射一个星盘，先向上飞行一小段距离后飞向光标位置
 		命中时爆出由星辉螺弹构成的星体
 		潜伏攻击发射出三个星盘，从天空降下星辉能量螺弹
-		'''
-}
-
-HellsSun: {
-	DisplayName: 地底太阳
-	Tooltip:
-		'''
-		至多发射10个不受重力影响停在空中的尖钉球
-		一旦静止，尖钉球就会向四周发射小太阳，接触敌人后爆炸
-		潜伏攻击使尖钉球发射太阳的速度变快，持续时间更长
-		右键收回所有的尖钉球
-		“地底太阳的力量正被你握在掌心”
 		'''
 }
 
@@ -668,7 +656,7 @@ LeviathanTeeth: {
 		'''
 		快速掷出一阵粘在敌怪身上的牙齿
 		粘上敌怪后，牙齿会穿透它们并从另一侧射出
-		Stealth strikes throw a single piercing tooth that creates a jawline of teeth to maul your foes
+		潜伏攻击会扔出一颗穿透牙齿，产生一对由牙齿组成的下颌线攻击敌人
 		'''
 }
 
@@ -700,6 +688,23 @@ Malachite: {
 		右键发射穿透之刃，穿透一个敌人后会对下一个敌人引发爆炸
 		潜伏攻击发射三把苦无，追踪而后附着在敌人身上并爆炸
 		'''
+	LegendaryText:
+		'''
+		> STATUS_
+		Extensive hull damage. Repairs initiated.
+		Sensor arrays offline. Repairs scheduled T+2200.
+
+		> UPDATE_DIRECTIVE_
+		Error 0x00017F80. Device sector unreadable.
+		Initializing search for external directive.
+		Searching... (383526 more)
+		Directive found.
+		New directive compiled. Rebooting...
+
+		> PLAGUE UNIT 194-QB-03d ONLINE.
+		Directive summary:
+		Continue propagation of unified frequency band and lead satellite units.
+		'''
 }
 
 MangroveChakram: {
@@ -730,8 +735,11 @@ MoltenAmputator: {
 	DisplayName: 熔岩切碎者
 	Tooltip:
 		'''
-		扔出一把会在命中敌人产生神圣火球的飞镰
-		潜伏攻击会使镰刀在飞行中不断释放神圣火球，并在命中时产生更多的火球
+		Throw a spinning scythe that lingers at your cursor
+		<right> to recall all existing scythes
+		Recalling a scythe while it's on an enemy rends them for massive damage
+		<right> with a full stealth bar to empower yourself, greatly increasing attack speed for a short time
+		You cannot recall scythes thrown while empowered
 		'''
 }
 
@@ -1096,7 +1104,7 @@ SlickCane: {
 		'''
 		挥动可以偷取敌人钱币的手杖
 		潜伏攻击使敌怪受击时有1/20几率掉落1-2金币
-		潜伏攻击的伤害与物品栏中钱币的价值成正比（上限为5铂金，gamble wisely）
+		潜伏攻击的伤害与物品栏中钱币的价值成正比（上限为5铂金，赌博要及时收手）
 		“最佳经济来源”
 		'''
 }
@@ -1384,7 +1392,7 @@ Whitewater: {
 		'''
 		掷出一个追踪光标的魔法白水烧瓶
 		1秒后烧瓶会发出亮光
-		Flasks that hit enemies while glowing create a temporary burst of returning water spears
+		发出亮光时击中敌怪的烧瓶会短暂爆炸成可以折返的水矛
 		爆炸后或被掷出一段时间后，烧瓶会返回到你身边
 		潜伏攻击会产生更多的水矛并产生一个白水漩涡，治疗接触的玩家并击退敌怪
 		'''

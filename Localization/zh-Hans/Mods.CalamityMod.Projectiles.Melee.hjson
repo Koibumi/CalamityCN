@@ -53,6 +53,7 @@ BrimstoneSwordProj.DisplayName: 硫火剑
 BrinySpout.DisplayName: 盐水浴
 BrinyTyphoonBubble.DisplayName: 泡泡
 BrokenBiomeBladeHoldout.DisplayName: 环境断刃
+BurningHolyBlast.DisplayName: Profaned Blast
 BurningMeteor.DisplayName: 流星
 CatastropheClaymoreSparkle.DisplayName: 灾难火花
 CausticEdgeProjectile.DisplayName: 绝望之刃
@@ -80,15 +81,13 @@ DarklightGreatswordSlashCreator.DisplayName: 巨剑“夜光”
 DarkMasterBeam.DisplayName: 黑暗大师射线
 DarkMasterClone.DisplayName: 暗之泰拉人
 DeathsAscensionProjectile.DisplayName: 擢升镰刀
+DeathsAscensionRift.DisplayName: Rift
 DecaysRetort.DisplayName: 腐化之复仇
 DecaysRetortDash.DisplayName: 除脏猛冲
 DemonBlast.DisplayName: 恶魔三叉戟
 DepthCrusherProjectile.DisplayName: 深渊碾碎者
 DepthCrusherSplitProjectile.DisplayName: 深渊碾碎者喷流
-DepthOrb.DisplayName: 深渊三叉戟
-DepthOrb2.DisplayName: 海王三叉戟
 DevilsSunriseCyclone.DisplayName: 邪锋黎明
-DivineHatchetBoomerang.DisplayName: 炽炎焚罪者
 DNA.DisplayName: 卢克雷西亚剑气
 DracoBeam.DisplayName: 天龙座射线
 DracoBeam2.DisplayName: 天龙座射线
@@ -98,7 +97,6 @@ DragonRageFireball.DisplayName: 龙怒火球
 EarthBoom.DisplayName: 大地裁决
 EarthMeteor.DisplayName: 盖亚流星
 ElementalGlassStar.DisplayName: 玻璃之星
-ElementBall.DisplayName: 元素球
 EmpyreanKnife.DisplayName: 苍穹飞刀
 EntropicFlechette.DisplayName: 熵弹
 EonBolt.DisplayName: 永恒之雷
@@ -114,6 +112,7 @@ Exoboom.DisplayName: 星流聚爆
 ExtantAbhorrence.DisplayName: 犹存之憎
 ExtantAbhorrenceMonolith.DisplayName: 憎恶巨石
 FallenBlast.DisplayName: 堕落圣骑士之怒
+FallenExplosionSmall.DisplayName: Fallen Hammer Blast
 FallenPaladinsHammerEcho.DisplayName: 堕落圣骑士之锤
 FallenPaladinsHammerProj.DisplayName: 堕落圣骑士之锤
 Feather.DisplayName: 羽毛
@@ -222,9 +221,11 @@ SandFire.DisplayName: 瀚漠焦火
 SanguineFury.DisplayName: 血色之怒
 SanguineFuryDash.DisplayName: 撕毁之跃
 SanguineFuryWheel.DisplayName: 血腥轮刃
+ScorcherExplosion.DisplayName: Scorching Crystal Blast
 ScourgeoftheCosmosMini.DisplayName: 宇宙劫难
 ScourgeoftheCosmosProj.DisplayName: 宇宙灾祸
 SeashineSwordProj.DisplayName: 海耀剑气
+SeekingScorcherProj.DisplayName: 炽炎焚罪者
 SolarNeedle.DisplayName: 日针
 SolsticeBeam.DisplayName: 近日点光束
 SoulScythe.DisplayName: 灵魂之镰
@@ -303,4 +304,3 @@ WulfrumScrew.DisplayName: 钨钢螺丝钉
 WulfrumScrewdriverProj.DisplayName: 钨钢螺丝刀
 YinYoDark.DisplayName: 黑暗碎块
 YinYoLight.DisplayName: 光明碎块
-FallenExplosionSmall.DisplayName: Fallen Hammer Blast

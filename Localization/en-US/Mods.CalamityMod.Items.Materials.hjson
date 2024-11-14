@@ -73,21 +73,6 @@ CoreofCalamity: {
 	Tooltip: ""
 }
 
-CoreofEleum: {
-	DisplayName: Core of Eleum
-	Tooltip: ""
-}
-
-CoreofHavoc: {
-	DisplayName: Core of Havoc
-	Tooltip: ""
-}
-
-CoreofSunlight: {
-	DisplayName: Core of Sunlight
-	Tooltip: ""
-}
-
 CorrodedFossil: {
 	DisplayName: Corroded Fossil
 	Tooltip: It's very sturdy

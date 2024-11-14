@@ -345,7 +345,7 @@ DILF: {
 
 FAP: {
 	DisplayName: 醉仙女
-	Census.SpawnCondition: 困难模式下，玩家的物品栏中有{$Mods.CalamityMod.Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka]
+	Census.SpawnCondition: 困难模式下，玩家的物品栏中有{$Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka]
 	Name.Cirrus: Cirrus
 
 	Chat: {

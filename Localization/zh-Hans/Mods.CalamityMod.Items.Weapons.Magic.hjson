@@ -219,7 +219,7 @@ CoralSpout: {
 
 CosmicRainbow: {
 	DisplayName: 宙虹
-	Tooltip: Launches a barrage of rainbows and homing sparkles
+	Tooltip: 发射一连串彩虹和追踪光焰
 }
 
 Cryophobia: {
@@ -636,8 +636,8 @@ PlasmaRifle: {
 	DisplayName: 等离子步枪
 	Tooltip:
 		'''
-		Fires an explosive plasma blast with pinpoint accuracy
-		Press <right> to rapidly fire non-explosive blasts
+		发射一道高精度的爆炸等离子束
+		<right>会快速发射非爆炸性等离子束
 		'''
 }
 
@@ -661,8 +661,8 @@ PrimordialAncient: {
 	Tooltip:
 		'''
 		发射五道始源沙暴，一段时间后向你的光标汇聚并产生大爆炸
-		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得Aeolian Earth增益
-		Aeolian Earth增益会增加8%伤害减免和18%伤害
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得{$Buffs.AeolianEarthBuff.DisplayName}增益
+		{$Buffs.AeolianEarthBuff.DisplayName}增益会增加{0}%伤害减免和{1}%伤害
 		'''
 }
 
@@ -671,14 +671,18 @@ PrimordialEarth: {
 	Tooltip:
 		'''
 		发射两道相互汇聚并爆炸的附魔沙暴
-		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得Sand's Wind增益
-		Sand's Wind增益会增加10点防御和12%伤害
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得{$Buffs.SandsWindBuff.DisplayName}增益
+		{$Buffs.SandsWindBuff.DisplayName}增益会增加{0}点防御和{1}%伤害
 		'''
 }
 
 PurgeGuzzler: {
 	DisplayName: 净化激光炮
-	Tooltip: 发射三束密集的神圣能量射线
+	Tooltip:
+		'''
+		Fires a barrage of holy rays that converge into two massive sweeping beams
+		'Baptism by holy fire'
+		'''
 }
 
 RainbowPartyCannon: {
@@ -749,7 +753,7 @@ Serpentine: {
 	Tooltip:
 		'''
 		召唤一条跟随光标移动的海蟒蛇
-		忽略敌人15点防御力
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -778,18 +782,18 @@ SHPC: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Consumes Souls as ammo
-		Fires orbs of unstable, concentrated soulpower that linger after ejection
-		Orbs create a large explosion and emit seeking souls after collapse
-		Orbs have varying effects depending on Soul type used
-		Press Right Click to discharge all soulpower in the weapon as weak energy beams
+		消耗魂作为弹药
+		发射不稳定的，浓缩魂力的光球，光球射出后会滞留
+		碰撞后光球会产生大爆炸并释放追踪灵魂
+		光球的效果会基于使用魂的种类而改变
+		右键会发射弱能量激光来释放武器内所有的魂力
 		'''
 	LegendaryText:
 		'''
-		[c/1FFBFF:'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.]
-		[c/1FFBFF:To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.]
-		[c/1FFBFF:Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.]
-		[c/1FFBFF:A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.']
+		'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.
+		To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.
+		Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.
+		A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.'
 		'''
 	TooltipGFB: 传奇武器归来！:)
 }
@@ -889,7 +893,7 @@ ThePrince: {
 	DisplayName: 王子
 	Tooltip:
 		'''
-		发射一枚会爆炸成6个火焰的神圣火球
+		发射一枚会爆炸成6个追踪火焰的神圣火球
 		“所以现在你告诉我王子爆炸了，变成了一朵花？”
 		-Dain
 		'''
@@ -919,8 +923,8 @@ Thunderbolt: {
 	DisplayName: Thunderbolt
 	Tooltip:
 		'''
-		Discharges a high-voltage stream which bursts into 5 balls of lightning on hit
-		Each ball lightning emits two additional lightning bolts before exploding
+		释放一道高压电流，命中时炸成5颗球状闪电
+		每颗球状闪电爆炸前会额外释放两道闪电
 		'''
 }
 

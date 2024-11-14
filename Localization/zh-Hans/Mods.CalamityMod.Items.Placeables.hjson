@@ -116,6 +116,8 @@ CryonicBrick: {
 	Tooltip: ""
 }
 
+//  Draedon Structures
+
 AgedLaboratoryConsoleItem: {
 	DisplayName: 老旧实验室控制台
 	Tooltip: ""
@@ -170,7 +172,7 @@ ChargingStationItem: {
 	DisplayName: 充能站
 	Tooltip:
 		'''
-		使用能源电池以对嘉登造物进行充能
+		使用[i:CalamityMod/DraedonPowerCell]嘉登能源电池以对嘉登造物进行充能
 		将物品和能源电池一起放入充能站中以进行充能
 		'''
 }
@@ -249,8 +251,8 @@ PowerCellFactoryItem: {
 	DisplayName: 能源电池工厂
 	Tooltip:
 		'''
-		持续产出嘉登能源电池
-		每15秒产出一枚电池
+		持续产出[i:CalamityMod/DraedonPowerCell]嘉登能源电池
+		每{0}秒产出一枚电池
 		'''
 }
 
@@ -279,6 +281,8 @@ SecurityChest: {
 	Tooltip: ""
 }
 
+// End of Draedon Structures
+
 EutrophicGlass: {
 	DisplayName: 富养玻璃
 	Tooltip: ""
@@ -293,6 +297,30 @@ HardenedEutrophicSand: {
 	DisplayName: 硬化富营养沙
 	Tooltip: ""
 }
+
+// Floral Paradise
+
+AlgalSlateItem: {
+	DisplayName: Algal Slate
+	Tooltip: ""
+}
+
+PeatItem: {
+	DisplayName: Peat
+	Tooltip: ""
+}
+
+PeatMossItem: {
+	DisplayName: Peat Moss
+	Tooltip: ""
+}
+
+ScintillatingBloom: {
+	DisplayName: Scintillating Bloom
+	Tooltip: ""
+}
+
+// End of Floral Paradise
 
 AbyssTreasureChest: {
 	DisplayName: 远古宝藏箱
@@ -512,8 +540,8 @@ CorruptionEffigy: {
 	DisplayName: 腐化雕像
 	Tooltip:
 		'''
-		放置后右键点击可获得10%移动速度和暴击率加成
-		但代价是损失5%伤害减免
+		放置后右键点击可获得{0}%移动速度和暴击率加成
+		但代价是损失{1}%伤害减免
 		无法与血腥雕像效果叠加
 		'''
 }
@@ -522,7 +550,7 @@ AltarOfTheAccursedItem: {
 	DisplayName: 诅咒祭坛
 	Tooltip:
 		'''
-		在其上使用灾厄尘以召唤硫火女巫
+		在其上使用[i:CalamityMod/AshesofCalamity] {$Items.Materials.AshesofCalamity.DisplayName}以召唤硫火女巫
 		以祭坛为中心创造一个大型方型场地
 		离开场地会使女巫狂暴
 		{$CommonItemTooltip.SpecialCrafting}
@@ -606,8 +634,8 @@ CrimsonEffigy: {
 	DisplayName: 血腥雕像
 	Tooltip:
 		'''
-		放置后右键点击可获得15%伤害和10点防御加成
-		但代价是损失10%最大生命值
+		放置后右键点击可获得{0}%伤害和{1}点防御加成
+		但代价是损失{2}%最大生命值
 		无法与腐化雕像效果叠加
 		'''
 }
@@ -628,7 +656,7 @@ EffigyOfDecay: {
 		'''
 		放置后，使附近的玩家获得水下呼吸能力
 		此效果在深渊中时失效
-		附近的玩家免疫硫磺海剧毒
+		附近的玩家免疫{$Buffs.SulphuricPoisoning.DisplayName}
 		'''
 }
 
@@ -751,8 +779,8 @@ ResilientCandle: {
 	DisplayName: 恢复蜡烛
 	Tooltip:
 		'''
-		放置后<right>以让防御能够额外抵挡10%伤害
-		（即经典模式下防御能抵挡60%伤害，专家模式下85%，大师模式下110%）
+		放置后<right>以让防御能够额外抵挡{0}%伤害
+		（即经典模式下防御能抵挡{1}%伤害，专家模式下{2}%，大师模式下{3}%）
 		不能与其他醉仙女的蜡烛增益叠加
 		“狂风骤雨也无法熄灭这倔强的火苗”
 		'''
@@ -772,8 +800,8 @@ SpitefulCandle: {
 	DisplayName: 恶念蜡烛
 	Tooltip:
 		'''
-		放置后<right>以对附近的敌人造成1.07倍伤害
-		这额外的0.07倍伤害无视敌人的防御和伤害减免效果
+		放置后<right>以对附近的敌人造成{0}倍伤害
+		这额外的{1}倍伤害无视敌人的防御和伤害减免效果
 		不能与其他醉仙女的蜡烛增益叠加
 		“它闪耀着充满怒火的可憎光芒”
 		'''
@@ -1003,7 +1031,7 @@ VigorousCandle: {
 	DisplayName: 活力蜡烛
 	Tooltip:
 		'''
-		放置后<right>使你每秒恢复最大生命值0.4%的生命值
+		放置后<right>使你每秒恢复最大生命值{0}%的生命值
 		即便是在移动时亦是如此，并且不受复仇模式的生命再生上限影响
 		不能与其他醉仙女的蜡烛增益叠加
 		“它明亮的光使周围的人充满希望”
@@ -1014,7 +1042,7 @@ WeightlessCandle: {
 	DisplayName: 失重蜡烛
 	Tooltip:
 		'''
-		放置后<right>可获得10%移动速度、飞行时间和加速度加成
+		放置后<right>可获得{0}%移动速度、飞行时间和加速度加成
 		不能与其他醉仙女的蜡烛增益叠加
 		“跃动的火焰似乎使你的精神获得升华”
 		'''
@@ -1025,7 +1053,7 @@ WulfrumLureItem: {
 	Tooltip:
 		'''
 		消耗[i:CalamityMod/EnergyCore]能源核心以发出钨钢信号来引诱钨钢生物出现
-		信号持续30秒
+		信号持续{0}秒
 		'''
 }
 
@@ -3132,6 +3160,8 @@ LivingPlagueFireBlock: {
 	Tooltip: ""
 }
 
+// Music Boxes
+
 DraedonExoSelectMusicBox: {
 	DisplayName: 音乐盒（选择星流巨械）
 	Tooltip: Plays 'Signal Received' by CDMusic
@@ -3140,51 +3170,6 @@ DraedonExoSelectMusicBox: {
 DraedonTalkMusicBox: {
 	DisplayName: 音乐盒（密码破译器）
 	Tooltip: Plays a variant of 'Signal Received' by CDMusic
-}
-
-Basalt: {
-	DisplayName: Basalt
-	Tooltip: ""
-}
-
-Driftwood: {
-	DisplayName: Driftwood
-	Tooltip: ""
-}
-
-Navystone: {
-	DisplayName: 沉沦渊石
-	Tooltip: ""
-}
-
-Shellstone: {
-	DisplayName: Shellstone
-	Tooltip: ""
-}
-
-PolishedNavystoneBrick: {
-	DisplayName: Polished Navystone Brick
-	Tooltip: ""
-}
-
-ShellstoneSlab: {
-	DisplayName: Shellstone Slab
-	Tooltip: ""
-}
-
-BlackPearlPile: {
-	DisplayName: Black Pearl Pile
-	Tooltip: ""
-}
-
-PinkPearlPile: {
-	DisplayName: Pink Pearl Pile
-	Tooltip: ""
-}
-
-WhitePearlPile: {
-	DisplayName: White Pearl Pile
-	Tooltip: ""
 }
 
 NovaeSlag: {
@@ -3352,6 +3337,105 @@ SulphurousShale: {
 	Tooltip: ""
 }
 
+// Sunken Sea
+
+Basalt: {
+	DisplayName: Basalt
+	Tooltip: ""
+}
+
+Driftwood: {
+	DisplayName: Driftwood
+	Tooltip: ""
+}
+
+Navystone: {
+	DisplayName: 沉沦渊石
+	Tooltip: ""
+}
+
+Shellstone: {
+	DisplayName: Shellstone
+	Tooltip: ""
+}
+
+PolishedNavystoneBrick: {
+	DisplayName: Polished Navystone Brick
+	Tooltip: ""
+}
+
+ShellstoneSlab: {
+	DisplayName: Shellstone Slab
+	Tooltip: ""
+}
+
+BlackPearlPile: {
+	DisplayName: Black Pearl Pile
+	Tooltip: ""
+}
+
+PinkPearlPile: {
+	DisplayName: Pink Pearl Pile
+	Tooltip: ""
+}
+
+WhitePearlPile: {
+	DisplayName: White Pearl Pile
+	Tooltip: ""
+}
+
+CyanCoral: {
+	DisplayName: Cyan Coral
+	Tooltip: ""
+}
+
+MagentaCoral: {
+	DisplayName: Magenta Coral
+	Tooltip: ""
+}
+
+OrangeCoral: {
+	DisplayName: Orange Coral
+	Tooltip: ""
+}
+
+LimeCoral: {
+	DisplayName: Lime Coral
+	Tooltip: ""
+}
+
+YellowCoral: {
+	DisplayName: Yellow Coral
+	Tooltip: ""
+}
+
+Runestone: {
+	DisplayName: Runestone
+	Tooltip: ""
+}
+
+RuneSand: {
+	DisplayName: Runesand
+	Tooltip: ""
+}
+
+Limestone: {
+	DisplayName: Limestone
+	Tooltip: ""
+}
+
+PolypSand: {
+	DisplayName: Polyp Sand
+	Tooltip: ""
+}
+
+VolcanicSand: {
+	DisplayName: Volcanic Sand
+	Tooltip: ""
+}
+
+// End of Sunken Sea
+
 UelibloomBrick: {
 	DisplayName: 龙蒿砖
 	Tooltip: ""
@@ -3457,6 +3541,8 @@ CryonicBrickWall: {
 	Tooltip: ""
 }
 
+// Draedon
+
 HazardChevronWall: {
 	DisplayName: 警戒墙
 	Tooltip: ""
@@ -3494,6 +3580,13 @@ RustedPlatePillar: {
 
 RustedPlatingWall: {
 	DisplayName: 生锈板墙
+	Tooltip: ""
+}
+
+// End of Draedon
+
+DriftwoodWall: {
+	DisplayName: Driftwood Wall
 	Tooltip: ""
 }
 
@@ -3599,6 +3692,11 @@ ProfanedRockWall: {
 
 ProfanedSlabWall: {
 	DisplayName: 渎神石板墙
+	Tooltip: ""
+}
+
+PyreMantleWall: {
+	DisplayName: 热泉焦岩墙
 	Tooltip: ""
 }
 
@@ -3793,84 +3891,4 @@ WaterTurret: {
 		向附近的敌怪喷射高速水流
 		有Boss存活时无法攻击
 		'''
-}
-
-CyanCoral: {
-	DisplayName: Cyan Coral
-	Tooltip: ""
-}
-
-MagentaCoral: {
-	DisplayName: Magenta Coral
-	Tooltip: ""
-}
-
-OrangeCoral: {
-	DisplayName: Orange Coral
-	Tooltip: ""
-}
-
-LimeCoral: {
-	DisplayName: Lime Coral
-	Tooltip: ""
-}
-
-YellowCoral: {
-	DisplayName: Yellow Coral
-	Tooltip: ""
-}
-
-Runestone: {
-	DisplayName: Runestone
-	Tooltip: ""
-}
-
-RuneSand: {
-	DisplayName: Runesand
-	Tooltip: ""
-}
-
-Limestone: {
-	DisplayName: Limestone
-	Tooltip: ""
-}
-
-PolypSand: {
-	DisplayName: Polyp Sand
-	Tooltip: ""
-}
-
-VolcanicSand: {
-	DisplayName: Volcanic Sand
-	Tooltip: ""
-}
-
-DriftwoodWall: {
-	DisplayName: Driftwood Wall
-	Tooltip: ""
-}
-
-AlgalSlateItem: {
-	DisplayName: Algal Slate
-	Tooltip: ""
-}
-
-PeatItem: {
-	DisplayName: Peat
-	Tooltip: ""
-}
-
-PeatMossItem: {
-	DisplayName: Peat Moss
-	Tooltip: ""
-}
-
-ScintillatingBloom: {
-	DisplayName: Scintillating Bloom
-	Tooltip: ""
-}
-
-PyreMantleWall: {
-	DisplayName: 热泉焦岩墙
-	Tooltip: ""
 }

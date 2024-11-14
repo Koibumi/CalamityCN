@@ -1,3 +1,4 @@
+// Alcohols (including Odd Mushroom)
 AlcoholPoisoning: {
 	DisplayName: 酒精中毒
 	Description: 你饮酒过量，代谢紊乱，气息奄奄
@@ -10,7 +11,7 @@ BloodyMaryBuff: {
 
 CaribbeanRumBuff: {
 	DisplayName: 加勒比朗姆酒
-	Description: 生命再生、移动速度和飞行时间增加，但你漂浮不定且防御力降低
+	Description: 生命再生和移动速度增加，但你漂浮不定且防御力降低
 }
 
 CinnamonRollBuff: {
@@ -60,7 +61,7 @@ MoscowMuleBuff: {
 
 OldFashionedBuff: {
 	DisplayName: 古典酒
-	Description: 饰品和套装奖励伤害增加，减少所有伤害
+	Description: 非武器伤害增加，武器伤害降低
 }
 
 RedWineBuff: {
@@ -95,7 +96,7 @@ TequilaSunriseBuff: {
 
 Trippy: {
 	DisplayName: 幻菇中毒
-	Description: 你看到了世界的本质……同时增加50%伤害
+	Description: 你看到了世界的本质……同时增加{0}%伤害
 }
 
 VodkaBuff: {
@@ -113,14 +114,21 @@ WhiteWineBuff: {
 	Description: 魔法伤害增加，但生命再生和防御力降低
 }
 
+// Cooldowns
 Withered: {
 	DisplayName: 凋零
 	Description: 手持凋零的武器会让你渐渐枯萎，但也会让你的武器变得强大
 }
 
+// Damage over time
 AstralInfectionDebuff: {
 	DisplayName: 幻星感染
 	Description: 你的血肉正在被幻星熔蚀
+}
+
+AuricRebuke: {
+	DisplayName: Auric Rebuke
+	Description: 你的细胞正在猛烈地相互碰撞
 }
 
 BanishingFire: {
@@ -161,16 +169,6 @@ RiptideDebuff: {
 Dragonfire: {
 	DisplayName: 龙焰
 	Description: 被熊熊火焰吞没
-}
-
-VermillionFlux: {
-	DisplayName: Vermillion Flux
-	Description: Sharp arcs of scarlet course through you
-}
-
-StaticDischarge: {
-	DisplayName: Static Discharge
-	Description: 被静电冲击
 }
 
 GodSlayerInferno: {
@@ -238,19 +236,34 @@ SnapClamDebuff: {
 	Description: 被扇贝夹住
 }
 
+StaticDischarge: {
+	DisplayName: Static Discharge
+	Description: 被静电冲击
+}
+
 SulphuricPoisoning: {
 	DisplayName: 硫磺海剧毒
 	Description: 酸性海水正在烧灼你的血肉
 }
 
 TrueVulnerabilityHex: {
-	DisplayName: True Vulnerability Hex
+	DisplayName: 真·孱弱巫咒
 	Description: 终末已至
 }
 
 Vaporfied: {
 	DisplayName: 蒸汽波
 	Description: 蒸汽波是极美的
+}
+
+VermillionFlux: {
+	DisplayName: Vermillion Flux
+	Description: Sharp arcs of scarlet course through you
+}
+
+Voidfrost: {
+	DisplayName: Voidfrost
+	Description: 太空的虚无吞噬了所有的温暖与生命
 }
 
 VulnerabilityHex: {
@@ -263,6 +276,7 @@ WeakBrimstoneFlames: {
 	Description: 使用至尊女巫的能力会使你受苦，但会让你的武器更强大
 }
 
+// Mounts
 AlicornBuff: {
 	DisplayName: 彩虹小马
 	Description: 你喝高了还打败了神长直，心朗气清，足以畅叙幽情！
@@ -323,6 +337,7 @@ TheCartofGodsBuff: {
 	Description: 驾驭星宇所恐惧之物
 }
 
+// Pets
 AkatoBuff: {
 	DisplayName: 阿卡托
 	Description: 看起来你现在应该好好照顾这只小龙
@@ -473,6 +488,7 @@ YharonSonBuff: {
 	Description: 你最好别不小心把他的晚餐吃了
 }
 
+// Placeables
 ChaosCandleBuff: {
 	DisplayName: 混乱蜡烛
 	Description: 蜡烛周围的刷怪率增加！
@@ -518,16 +534,7 @@ TranquilityCandleBuff: {
 	Description: 蜡烛周围的刷怪率降低！
 }
 
-PopoBuff: {
-	DisplayName: 雪宝
-	Description: 你现在是个雪人了！
-}
-
-PopoNoselessBuff: {
-	DisplayName: 没鼻子的雪宝
-	Description: 你的鼻子被别人偷走了！
-}
-
+// Potions
 AnechoicCoatingBuff: {
 	DisplayName: 吸音涂层
 	Description: 深渊生物的探测范围缩小
@@ -550,12 +557,12 @@ BloodfinBoost: {
 
 BoundingBuff: {
 	DisplayName: 弹跳助力
-	Description: 跳跃高度、跳跃速度和摔落伤害抗性增加
+	Description: 跳跃速度和跳跃高度增加
 }
 
 CalciumBuff: {
 	DisplayName: 钙质补充
-	Description: 你免疫摔落伤害
+	Description: 你受到的击退降低{0}%
 }
 
 CeaselessHunger: {
@@ -565,7 +572,7 @@ CeaselessHunger: {
 
 GravityNormalizerBuff: {
 	DisplayName: 重力复原
-	Description: 在太空中恢复正常重力作用，你免疫扭曲减益
+	Description: 在太空中恢复正常重力作用，你免疫{$BuffName.VortexDebuff}减益
 }
 
 Omniscience: {
@@ -575,7 +582,7 @@ Omniscience: {
 
 PhotosynthesisBuff: {
 	DisplayName: 光合作用
-	Description: 强化生命再生，此效果在白天时会进一步增加，掉落的红心会回复更多生命值
+	Description: 掉落的红心会多回复{0}生命值
 }
 
 ShadowBuff: {
@@ -583,18 +590,13 @@ ShadowBuff: {
 	Description:
 		'''
 		你成为了一个暗影
-		盗贼武器在击中敌人时会生成弹幕
-		增加8%潜行值恢复速度
+		增加{0}%潜行值恢复速度
 		'''
 }
 
 Soaring: {
 	DisplayName: 翱翔
-	Description:
-		'''
-		飞行速度和飞行时间增加10%
-		真近战击中敌人后会恢复你的一小部分飞行时间
-		'''
+	Description: "飞行时间和飞行速度增加{0}%"
 }
 
 SulphurskinBuff: {
@@ -627,6 +629,16 @@ Zerg: {
 	Description: 刷怪率大幅度增加
 }
 
+// Stat buffs
+AbsorberRegen: {
+	DisplayName: 新生律动
+	Description:
+		'''
+		你被顶尖的自然力量所祝福
+		+{0}HP/s生命再生，{1}%伤害和{2}%伤害减免
+		'''
+}
+
 AbyssalDivingSuitBuff: {
 	DisplayName: 深渊潜游服
 	Description: 你是铁打的
@@ -644,7 +656,16 @@ AbyssalMadness: {
 
 AdrenalineMode: {
 	DisplayName: 肾上腺素
-	Description: 总伤害翻2.5倍。可通过使用其他物品来使该加成增加至3.1倍。
+	Description: 总伤害翻{0}倍
+}
+
+AeolianEarthBuff: {
+	DisplayName: Aeolian Earth
+	Description:
+		'''
+		你被始源能量增强了
+		伤害减免增加{0}%，伤害增加{1}%
+		'''
 }
 
 Afflicted: {
@@ -700,7 +721,7 @@ BrimflameFrenzyBuff: {
 
 BrutalCarnage: {
 	DisplayName: 残暴屠杀
-	Description: 增加20%近战伤害
+	Description: "增加{0}%近战伤害"
 }
 
 ChiBuff: {
@@ -748,6 +769,11 @@ GraxBoost: {
 	Description: 防御力增加，你的肌肉更加强壮
 }
 
+GreenJellyRegen: {
+	DisplayName: 绿胶质再生
+	Description: 再生粘液增幅着你，+{0}HP/s生命再生
+}
+
 HallowedRuneDefense: {
 	DisplayName: 神圣之佑
 	Description: 增加8点防御和4%伤害减免
@@ -775,12 +801,12 @@ IceShieldBuff: {
 
 KamiBuff: {
 	DisplayName: Kami之佑
-	Description: 最大移动速度、加速度和伤害增加15%
+	Description: "最大移动速度、加速度和伤害增加{0}%"
 }
 
 Mushy: {
 	DisplayName: 与菇共生
-	Description: 增加8点防御和+1HP/s生命再生
+	Description: 增加{0}点防御和+{1}HP/s生命再生
 }
 
 PhantomicEmpowerment: {
@@ -800,6 +826,11 @@ PhantomicShield: {
 		增加10点防御和5%伤害减免
 		幻魂壁垒保护着你
 		'''
+}
+
+PinkJellyRegen: {
+	DisplayName: 粉胶质再生
+	Description: 粘液的力量使你神清气爽，+{0}HP/s生命再生
 }
 
 ProfanedCrystalBuff: {
@@ -836,7 +867,7 @@ ProfanedCrystalWhipBuff: {
 
 RageMode: {
 	DisplayName: 暴怒模式
-	Description: 总伤害乘以1.35
+	Description: 总伤害乘以{0}
 }
 
 ReaverRage: {
@@ -845,6 +876,15 @@ ReaverRage: {
 		'''
 		大地之怒
 		增加5点防御和10%伤害
+		'''
+}
+
+SandsWindBuff: {
+	DisplayName: Sand's Wind
+	Description:
+		'''
+		你被沙之力量增强了
+		防御增加{0}点，伤害增加{1}%
 		'''
 }
 
@@ -870,7 +910,7 @@ SpiritRegen: {
 
 TarragonCloak: {
 	DisplayName: 龙蒿披风
-	Description: 接触伤害降低50%
+	Description: "接触伤害降低{0}%"
 }
 
 TarragonImmunity: {
@@ -881,6 +921,12 @@ TarragonImmunity: {
 TarraLifeRegen: {
 	DisplayName: 生命涌流
 	Description: 快速再生生命
+}
+
+// Stat debuffs
+AbsorberAffliction: {
+	DisplayName: 吸尽之痛
+	Description: 该死的大自然，你真可怕！
 }
 
 AndromedaCripple: {
@@ -907,14 +953,14 @@ DoGExtremeGravity: {
 	DisplayName: 极限重力
 	Description:
 		'''
-		飞行时间降低25%
+		飞行时间降低{0}%
 		无限飞行失效
 		'''
 }
 
 Enraged: {
 	DisplayName: 激怒
-	Description: 总伤害乘以1.65，但你受到1.25倍伤害
+	Description: 总伤害乘以1.5，但你受到1.25倍伤害
 }
 
 Eutrophication: {
@@ -951,7 +997,7 @@ IcarusFolly: {
 	DisplayName: 伊卡洛斯之愚
 	Description:
 		'''
-		飞行时间降低33%
+		飞行时间降低{0}%
 		无限飞行失效
 		'''
 }
@@ -978,7 +1024,7 @@ PearlAura: {
 
 ProfanedWeakness: {
 	DisplayName: 亵渎之疲弱
-	Description: 你造成的伤害降低
+	Description: 你受到的伤害增加
 }
 
 TemporalSadness: {
@@ -1011,13 +1057,19 @@ WitherDebuff: {
 	Description:
 		'''
 		枯萎了……
-		防御降低20点
+		防御降低{0}点
 		'''
 }
 
+// Summons
 AbandonedSlimeBuff: {
 	DisplayName: 末世星凝胶
 	Description: 从天堂回归只为保护你！
+}
+
+AmphibiansGuitarBuff: {
+	DisplayName: Amphibian's Guitars
+	Description: Worthless human...
 }
 
 AncientMineralSharkBuff: {
@@ -1190,6 +1242,11 @@ FieryDraconidBuff: {
 	Description: 炽焰天龙会保护你
 }
 
+FlarebatBuff: {
+	DisplayName: Flarebat
+	Description: 火构造体会保护你
+}
+
 FleshBallBuff: {
 	DisplayName: 血肉之球
 	Description: 为什么这玩意在跟着你？
@@ -1198,6 +1255,11 @@ FleshBallBuff: {
 FlowersOfMortalityBuff: {
 	DisplayName: 告死之花
 	Description: 天界之花环绕在你的身边
+}
+
+FrostbatBuff: {
+	DisplayName: Frostbat
+	Description: 冰构造体会保护你
 }
 
 FrostBlossomBuff: {
@@ -1268,6 +1330,11 @@ KalandraMirrorBuff: {
 KingofConstellationsBuff: {
 	DisplayName: 天龙
 	Description: 天龙会保护你
+}
+
+LiliesOfFinalityBuff: {
+	DisplayName: 终焉
+	Description: 铭记我们的诺言
 }
 
 LilPlaguebringerBuff: {
@@ -1505,79 +1572,18 @@ WulfrumDroidBuff: {
 	Description: 钨钢无人机会保护你
 }
 
-PinkJellyRegen: {
-	DisplayName: 粉胶质再生
-	Description: 粘液的力量使你神清气爽，+2HP/s生命再生
-}
-
-GreenJellyRegen: {
-	DisplayName: 绿胶质再生
-	Description: 再生粘液增幅着你，+2.5HP/s生命再生
-}
-
-AbsorberRegen: {
-	DisplayName: 新生律动
-	Description:
-		'''
-		你被顶尖的自然力量所祝福
-		+3HP/s生命再生，8%伤害和5%伤害减免
-		'''
-}
-
-AbsorberAffliction: {
-	DisplayName: 吸尽之痛
-	Description: 该死的大自然，你真可怕！
-}
-
 YoungDukeBuff: {
 	DisplayName: 硫海新爵
 	Description: 突变猪龙鱼会使你的敌人身中剧毒
 }
 
-LiliesOfFinalityBuff: {
-	DisplayName: 终焉
-	Description: 铭记我们的诺言
+// Misc
+PopoBuff: {
+	DisplayName: 雪宝
+	Description: 你现在是个雪人了！
 }
 
-AuricRebuke: {
-	DisplayName: Auric Rebuke
-	Description: 你的细胞在猛烈地相互碰撞
-}
-
-SandsWindBuff: {
-	DisplayName: Sand's Wind
-	Description:
-		'''
-		你被沙的力量增强了
-		防御增加10点，伤害增加12%
-		'''
-}
-
-AeolianEarthBuff: {
-	DisplayName: Aeolian Earth
-	Description:
-		'''
-		你被始源能量增强了
-		伤害减免增加8%，伤害增加18%
-		'''
-}
-
-Voidfrost: {
-	DisplayName: Voidfrost
-	Description: 太空的虚无吞噬了所有的温暖与生命
-}
-
-FlarebatBuff: {
-	DisplayName: Flarebat
-	Description: 火构造体会保护你
-}
-
-FrostbatBuff: {
-	DisplayName: Frostbat
-	Description: 冰构造体会保护你
-}
-
-AmphibiansGuitarBuff: {
-	DisplayName: Amphibian's Guitars
-	Description: Worthless human...
+PopoNoselessBuff: {
+	DisplayName: 没鼻子的雪宝
+	Description: 你的鼻子被别人偷走了！
 }

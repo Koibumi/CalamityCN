@@ -33,6 +33,23 @@ PlanetoidSchematicRecipeCondition: Place a schematic from the lab in the large p
 JungleSchematicRecipeCondition: Place a schematic from the lab deep within the jungle in your inventory at least once
 UnderworldSchematicRecipeCondition: Place a schematic from the lab near the edges of the underworld in your inventory at least once
 IceSchematicRecipeCondition: Place a schematic from the lab within the frozen caverns in your inventory at least once
+// Schematic Knowledge tooltips
+SchematicKnowledgeTooltip: You don't have sufficient knowledge to create this yet
+SchematicKnowledgeTooltip2: A specific schematic must be deciphered first
+Tier1KnowledgeTooltip: The Sunken Sea schematic must be deciphered first
+Tier2KnowledgeTooltip: The Planetoid schematic must be deciphered first
+Tier3KnowledgeTooltip: The Jungle schematic must be deciphered first
+Tier4KnowledgeTooltip: The Underworld schematic must be deciphered first
+Tier5KnowledgeTooltip: The Ice biome schematic must be deciphered first
+// Wing Tooltips and related string
+VertSpeedQuality1: Bad vertical speed
+VertSpeedQuality2: Average vertical speed
+VertSpeedQuality3: Good vertical speed
+VertSpeedQuality4: Great vertical speed
+VertSpeedQuality5: Excellent vertical speed
+HorizSpeed: Horizontal speed: {0}
+AccelMult: Acceleration multiplier: {0}
+FlightTime: Flight time: {0}
 // Other CombatText uses and Item Messages
 ShiftToExpand: Hold SHIFT to see an expanded description
 LearnedSchematic: You learned how to create new things!
@@ -42,6 +59,7 @@ NoComputer: No decryption computer installed
 ArkParry: Parry!
 BurningSeaBurn: It burns...
 LightsWarning: I've gotta give you a flashing lights warning on this one
+NotSafe: Y O U  A R E  N O T  S A F E
 HecBoop: boop!
 ClockworkTick: Tick
 ClockworkTock: Tock
@@ -67,3 +85,5 @@ Polaris4: You let Polaris cuddle your arm
 Polaris5: You pet Polaris
 // Point Blank
 PointBlank: Does extra damage to enemies shot at point-blank range
+// Charge
+Charge: Current Charge: {0}%

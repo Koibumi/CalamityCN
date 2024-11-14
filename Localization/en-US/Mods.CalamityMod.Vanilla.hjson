@@ -1,3 +1,274 @@
+DodgeInfo:
+	'''
+	Grants the ability to dodge attacks
+	Attacks that deal less than 5% of your max life in damage will not be dodged
+	The dodge has a cooldown that ranges between {0} and {1} seconds depending on the dodged attack's damage
+	The cooldown is shared with all other dodges and reflects
+	'''
+
+AddedTooltip: {
+	TruffleWorm:
+		'''
+		Summons Duke Fishron if used as bait in the Ocean
+		Enrages outside the Ocean
+		'''
+	SlimeGun: Slimed enemies take more damage from fire-based debuffs
+	FleshKnucklesLine: Max life increased by 45
+	RodofDiscord: Teleportation is disabled while Chaos State is active
+	Pwnhammer:
+		'''
+		Demon Altars now drop Souls of Night instead of generating ores when destroyed
+		Hardmode ores now generate after defeating Mechanical Bosses for the first time
+		'''
+	// Life Drain
+	SoulDrain:
+		'''
+		This grants +1.5 HP/s life regen and accelerates natural life regen
+		Life drain stacks based on the number of enemies being hit
+		'''
+	WarmthPotion: Greatly reduces the duration of Chilled, Frozen, and Glacial State
+	HandWarmer: Provides a regeneration boost while wearing the Snow armor
+	GoldenFishingRod: Its fishing line will never break
+	Tombstones:
+		'''
+		13 of any tombstone turns the surrounding area into a graveyard
+		Graveyards have various new item sales and recipes
+		'''
+	DD2ElderCrystal: <right> while the wave is complete to skip the timer
+	DeathSickle: Inflicts Whispering Death on hit
+	HellfireTreads:
+		'''
+		Multiplies all fire-based debuff damage by 1.5x, does not stack with downgrades
+		All attacks inflict Hellfire
+		'''
+	FairyBoots:
+		'''
+		Fairies can spawn at any time on the surface and spawn far more frequently
+		Nearby fairies grant +2 HP/s life regen, 10 defense and 10% movement speed
+		Fairies are immune to damage and will no longer flee
+		'''
+	MoonStone: Reduces the damage of the Nightwither debuff
+	SunStone: Reduces the damage of the Daybroken debuff
+	CelestialStone: Reduces the damage of the Nightwither and Daybroken debuffs
+	ArcaneFlower: 5% increased magic damage
+	RifleScope: The scope effect can be toggled with visibility
+	FeatherfallPotion: Disables all airborne flight recovery
+	TitanGloveLine: 10% increased true melee damage
+	YoyoGlove: Secondary yoyos will do 50% less damage
+	DefensePrefix: +{0}% damage reduction
+	LuckyPrefix: +0.05 luck
+	/*
+	Armor
+	*/
+	CopperHelmet: 5% increased damage
+	CopperChainmail: 3% increased critical strike chance
+	CopperGreaves: 5% increased movement speed
+	TinHelmet: 3% increased critical strike chance
+	TinChainmail: +0.5 HP/s life regen
+	TinGreaves: 5% increased movement speed
+	IronPieces: Increases damage reduction by 3%
+	LeadPieces: Increases damage reduction by 2%
+	SilverHelmet: 5% increased critical strike chance
+	SilverChainmail: +1 HP/s life regen
+	SilverGreaves: 8% increased movement speed
+	TungstenHelmet: 7% increased damage
+	TungstenChainmail: +0.5 HP/s life regen
+	TungstenGreaves: 8% increased movement speed
+	GoldHelmet: 6% increased damage
+	GoldChainmail: Increases damage reduction by 5%
+	GoldGreaves: 10% increased movement speed
+	PlatinumHelmet: 6% increased damage
+	PlatinumChainmail: 3% increased critical strike chance
+	PlatinumGreaves: 10% increased movement speed
+	CrimsonBreastplate: +1 HP/s life regen
+	CrimsonOtherPieces: +0.5 HP/s life regen
+	SolarFlarePieces: Grants +1 HP/s life regeneration
+	Picksaw: Can mine Scoria Ore located in the Abyss
+}
+
+EditedTooltip: {
+	/*
+	Boss Summons
+	*/
+	Abeemination:
+		'''
+		Summons the Queen Bee when used in the Jungle
+		Enrages outside the Underground Jungle
+		'''
+	BloodySpine:
+		'''
+		Summons the Brain of Cthulhu when used in the Crimson
+		Enrages outside the Underground Crimson
+		'''
+	ClothierVoodooDoll:
+		'''
+		While equipped, summons Skeletron when the Clothier is killed during nighttime
+		Enrages during the day
+		'You are a terrible person'
+		'''
+	DeerThing: Summons Deerclops when used in the Snow or Ice biome
+	GuideVoodooDoll:
+		'''
+		Summons the Wall of Flesh if thrown into lava in the underworld while the Guide is alive
+		'You are a terrible person'
+		'''
+	LihzahrdPowerCell:
+		'''
+		Summons the Golem when used at the Lihzahrd Altar
+		Enrages outside the Jungle Temple
+		'''
+	MechanicalEye:
+		'''
+		Summons The Twins when used during nighttime
+		Enrages during the day
+		'''
+	MechanicalSkull:
+		'''
+		Summons Skeletron Prime when used during nighttime
+		Enrages during the day
+		'''
+	MechanicalWorm:
+		'''
+		Summons The Destroyer when used during nighttime
+		Enrages during the day
+		'''
+	QueenSlimeCrystal: Summons Queen Slime when used in the Hallow
+	SuspiciousLookingEye:
+		'''
+		Summons the Eye of Cthulhu when used during nighttime
+		Enrages during the day
+		'''
+	WormFood:
+		'''
+		Summons the Eater of Worlds when used in the Corruption
+		Enrages outside the Underground Corruption
+		'''
+	MasterExclusive: Master or Revengeance
+	// Sparkle Slime Balloon
+	GelBalloon:
+		'''
+		Throws a mixture of slime and sparkling crystals
+		Slimed enemies take more damage from fire-based debuffs
+		'''
+	AnkhShield1: Grants immunity to knockback
+	AnkhShield2: Grants immunity to most debuffs, including Mighty Wind
+	Campfires: Life regen is increased by 0.5 HP/s when near a campfire
+	HeartLantern: Grants +1 HP/s life regeneration when placed nearby
+	BottledHoney:
+		'''
+		Grants +1 HP/s life regen for a short time
+		Grants an additional +1 HP/s life regen while inflicted with a damaging debuff
+		'''
+	ShinyStone: Grants +2 HP/s life regen and accelerates natural life regen when not moving
+	BandofRegeneration: Grants +1 HP/s life regeneration
+	CharmofMyths: Grants +1 HP/s life regeneration and reduces the cooldown of healing potions by 25%
+	RegenerationPotion: Provides +2 HP/s life regeneration
+	HamBat: Defeating enemies temporarily grants +3 HP/s life regen
+	// Arcane Crystal
+	AegisCrystal: Permanently boosts natural life regeneration
+	ArcheryPotion: 20% increased arrow speed and 5% increased arrow damage
+	IronskinPotion: Increase defense by {0}
+	// Aerial Bane
+	DD2BetsyBow: Shoots a tight spread of 6 splitting arrows
+	AleSake:
+		'''
+		Increases melee damage by 10% and reduces defense by 5%
+		Counts as an alcohol for Alcohol Poisoning
+		{$Common.AlcoholWarning}
+		'''
+	FlameWakerBoots:
+		'''
+		Multiplies all fire-based debuff damage by 1.25x
+		All attacks light enemies on fire
+		'Never get cold feet again'
+		'''
+	SunMoonStones: critical strike chance, life regeneration,
+	CelestialStoneShell: Minor increase to damage,
+	MagnetFlower: 10% reduced mana cost
+	ArcaneFlowerManaCloak: 12% reduced mana cost
+	Magiluminescence:
+		'''
+		Increases movement acceleration and deceleration by 1.75x
+		Increases movement speed by 1.15x. This bonus applies to running boot accessories
+		'''
+	FrogLeg: Increases jump speed by {0}% and allows auto-jump
+	// Soaring Insignia
+	EmpressFlightBooster1: Increases wing flight time by 30%
+	EmpressFlightBooster2: Increases movement and jump speed by 10% and acceleration by 1.25x
+	RifleScope1: Increase view range for guns (Right click to zoom out)
+	RifleScope2: The scope effect can be toggled with visibility
+	SniperScope: 7% increased ranged damage and critical strike chance
+	MagicQuiver: Increases arrow damage by 5% and greatly increases arrow speed
+	MoltenQuiver1: Increases arrow damage by 7% and greatly increases arrow speed
+	MoltenQuiver2: Lights wooden arrows ablaze and all arrows inflict Hellfire
+	MagicPowerPotion: 10% increased magic damage
+	MagicHat: 6% increased magic critical strike chance
+	PowerGlove: 10% increased melee speed, does not stack with downgrades
+	BerserkerGlove: 10% increased true melee damage
+	MechanicalGlove:
+		'''
+		12% increased melee damage
+		12% increased melee speed, does not stack with downgrades
+		'''
+	FireGauntlet1: Increases melee knockback and melee attacks inflict Hellfire
+	FireGauntlet2:
+		'''
+		14% increased melee damage
+		14% increased melee speed, does not stack with downgrades
+		'''
+	ObsidianSkullLine: Grants immunity to the Burning and On Fire! debuffs
+	LavaWaders: Grants immunity to the Burning and On Fire! debuffs, and 7 seconds of immunity to lava
+	Gi: 10% increased movement and jump speed
+	GoldPickaxe: Can mine Demonite, Crimtane, Meteorite, Sea Prisms, and Sea Prism Crystals
+	FlaskofCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames
+	FlaskofFire: Melee, Whip, and Rogue attacks set enemies on fire
+	FlaskofGold: Melee, Whip, and Rogue attacks make enemies drop more gold
+	FlaskofIchor: Melee, Whip, and Rogue attacks decrease enemies defense
+	FlaskofNanites: Melee, Whip, and Rogue attacks confuse enemies
+	FlaskofParty: All attacks cause confetti to appear
+	FlaskofPoison: Melee, Whip, and Rogue attacks poison enemies
+	FlaskofVenom: Melee, Whip, and Rogue attacks inflict Acid Venom on enemies
+	/*
+	OOA sets
+	*/
+	SquireGreatHelm: Increases your max number of sentries by 1 and grants +2 HP/s life regen
+	SquirePlating: 10% increased summon damage and 15% increased melee damage
+	SquireGreaves:
+		'''
+		5% increased summon damage and melee critical strike chance
+		15% increased movement speed
+		'''
+	MonkBrows: Increases your max number of sentries by 1 and increases melee attack speed by 10%
+	MonkShirt: 10% increased summon and melee damage
+	MonkPants1: 5% increased summon damage and melee critical strike chance
+	MonkPants2: 20% increased movement speed
+	// Valhalla Knight
+	SquireAltShirt: 30% increased summon damage and grants +4 HP/s life regen
+	SquireAltPants: 10% increased summon damage and melee critical strike chance
+	HuntressJerkin:
+		'''
+		10% increased summon and ranged damage
+		10% chance to not consume ammo
+		'''
+	ApprenticeTrousers:
+		'''
+		5% increased summon damage and magic critical strike chance
+		20% increased movement speed
+		'''
+	// Shinobi Infiltrator
+	MonkAltHead:
+		'''
+		Increases your max number of sentries by 2
+		10% increased melee and summon damage
+		'''
+	MonkAltShirt: 10% increased summon damage and melee speed
+	MonkAltPants: 10% increased summon damage and melee critical strike chance
+	// Red Riding
+	HuntressAltShirt: 15% increased summon and ranged damage and 20% chance to not consume ammo
+	// Dark Artist
+	ApprenticeAltPants: 10% increased summon damage and magic critical strike chance
+}
+
 // Buff Descriptions
 BuffDescription: {
 	Banner: You have increased damage and defense against the following:

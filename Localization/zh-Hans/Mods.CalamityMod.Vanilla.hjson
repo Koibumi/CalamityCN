@@ -1,3 +1,273 @@
+DodgeInfo:
+	'''
+	获得闪避能力
+	低于最大生命值5%伤害的攻击不会触发闪避
+	根据被闪避的攻击伤害，闪避有15到90秒的冷却时间
+	该冷却时间与其他的闪避或反弹效果共享
+	'''
+
+AddedTooltip: {
+	TruffleWorm:
+		'''
+		在海洋钓一条猪鲨
+		海洋群系外会狂暴
+		'''
+	SlimeGun: 史莱姆类敌人会受到更多来自火系减益的伤害
+	FleshKnucklesLine: 最大生命增加45
+	RodofDiscord: 混沌状态下禁用传送
+	Pwnhammer:
+		'''
+		摧毁恶魔祭坛现在掉落暗影之魂而不是生成新三矿
+		新三矿仅在击败每个机械Boss后生成
+		'''
+	// Life Drain
+	SoulDrain:
+		'''
+		这会提供+1.5HP/s生命再生并加速自然生命再生
+		生命汲取会基于被击中敌怪的数量叠加
+		'''
+	WarmthPotion: 大幅降低冷冻、冰冻和冰河时代减益的持续时间
+	HandWarmer: 穿着全套的防雪盔甲时额外提供生命再生
+	GoldenFishingRod: 鱼线永远不会断裂
+	Tombstones:
+		'''
+		13个各种墓碑会将周围环境变为墓地
+		墓地会有各种新物品出售以及新的配方
+		'''
+	DeathSickle: 命中造成死亡低语减益
+	HellfireTreads:
+		'''
+		所有火焰类减益伤害乘以1.5，该效果不会与其下位合成材料叠加
+		所有攻击造成狱炎减益
+		'''
+	FairyBoots:
+		'''
+		大幅度提升仙灵的生成概率，在白天地表也能自然生成
+		附近仙灵会提供+2HP/s生命再生，10点防御与10%移动速度
+		仙灵免疫敌怪的伤害并能跟随你
+		'''
+	MoonStone: 减少受到夜魇减益的伤害
+	SunStone: 减少受到破晓减益的伤害
+	CelestialStone: 减少受到夜魇和破晓减益的伤害
+	ArcaneFlower: 增加5%魔法伤害
+	RifleScope: 扩大视野效果可通过可见性开启或关闭
+	FeatherfallPotion: 禁止在空中时的飞行时间恢复
+	TitanGloveLine: 真近战伤害增加10%
+	YoyoGlove: 第二个悠悠球伤害减少50%
+	DefensePrefix: +{0}% 伤害减免
+	LuckyPrefix: +0.05 运气值
+	/*
+	Armor
+	*/
+	CopperHelmet: 伤害增加5%
+	CopperChainmail: 暴击率增加3%
+	CopperGreaves: 移动速度增加5%
+	TinHelmet: 暴击率增加3%
+	TinChainmail: +0.5HP/s生命再生
+	TinGreaves: 移动速度增加5%
+	IronPieces: 伤害减免增加3%
+	LeadPieces: 伤害减免增加2%
+	SilverHelmet: 暴击率增加5%
+	SilverChainmail: +1HP/s生命再生
+	SilverGreaves: 移动速度增加8%
+	TungstenHelmet: 伤害增加7%
+	TungstenChainmail: +0.5HP/s生命再生
+	TungstenGreaves: 移动速度增加8%
+	GoldHelmet: 伤害增加6%
+	GoldChainmail: 伤害减免增加5%
+	GoldGreaves: 移动速度增加10%
+	PlatinumHelmet: 伤害增加6%
+	PlatinumChainmail: 暴击率增加3%
+	PlatinumGreaves: 移动速度增加10%
+	CrimsonBreastplate: +1HP/s生命再生
+	CrimsonOtherPieces: +0.5HP/s生命再生
+	SolarFlarePieces: 提供+1HP/s生命再生
+	Picksaw: 可开采深渊中的熔渣矿
+}
+
+EditedTooltip: {
+	/*
+	Boss Summons
+	*/
+	Abeemination:
+		'''
+		在丛林使用召唤蜂王
+		在地下丛林外会狂暴
+		'''
+	BloodySpine:
+		'''
+		在血腥之地使用召唤克苏鲁之脑
+		在地下血腥外会狂暴
+		'''
+	ClothierVoodooDoll:
+		'''
+		装备后在夜晚杀死服装商召唤骷髅王
+		白天会狂暴
+		“你这人真可怕”
+		'''
+	DeerThing: 在雪原群系使用召唤独眼巨鹿
+	GuideVoodooDoll:
+		'''
+		向导存活时将娃娃扔进地狱的岩浆中召唤血肉墙
+		“你这人真可怕”
+		'''
+	LihzahrdPowerCell:
+		'''
+		在丛林蜥蜴祭坛上使用召唤石巨人
+		在丛林神庙外会狂暴
+		'''
+	MechanicalEye:
+		'''
+		在夜晚使用召唤双子魔眼
+		白天会狂暴
+		'''
+	MechanicalSkull:
+		'''
+		在夜晚使用召唤机械骷髅王
+		白天会狂暴
+		'''
+	MechanicalWorm:
+		'''
+		在夜晚使用召唤毁灭者
+		白天会狂暴
+		'''
+	QueenSlimeCrystal: 在神圣之地使用召唤史莱姆皇后
+	SuspiciousLookingEye:
+		'''
+		在夜晚使用召唤克苏鲁之眼
+		白天会狂暴
+		'''
+	WormFood:
+		'''
+		在腐化之地使用召唤世界吞噬怪
+		在地下腐化外会狂暴
+		'''
+	MasterExclusive: 大师或者复仇
+	// Sparkle Slime Balloon
+	GelBalloon:
+		'''
+		投掷粘液和闪亮晶体的混合物
+		史莱姆类敌人会受到更多来自火系减益的伤害
+		'''
+	AnkhShield1: 对击退免疫
+	AnkhShield2: 对大多数减益免疫，包括强风
+	Campfires: 在篝火附近时生命再生增加0.5HP/s
+	HeartLantern: 放置在附近时提供+1HP/s生命再生
+	BottledHoney:
+		'''
+		短时间内提供+1HP/s生命再生
+		受到伤害性减益时会额外提供+1HP/s生命再生
+		'''
+	ShinyStone: 不移动时提供+2HP/s生命再生并加速自然生命再生
+	BandofRegeneration: 提供+1HP/s生命再生
+	CharmofMyths: 提供+1HP/s生命再生并降低治疗药水25%冷却
+	RegenerationPotion: 提供+2HP/s生命再生
+	HamBat: 击败敌怪会暂时提供+3HP/s生命再生
+	// Arcane Crystal
+	AegisCrystal: 永久提升自然生命再生
+	ArcheryPotion: 增加20%箭矢速度和5%箭矢伤害
+	IronskinPotion: 防御力增加{0}
+	// Aerial Bane
+	DD2BetsyBow: 发射紧密分布的6支分裂箭
+	AleSake:
+		'''
+		提高10%近战伤害但降低5%防御
+		在酒精中毒效果中被视为一种酒
+		{$Common.AlcoholWarning}
+		'''
+	FlameWakerBoots:
+		'''
+		所有火焰类减益伤害乘以1.25
+		所有攻击造成着火了！减益
+		“再也不会如履薄冰了”
+		'''
+	SunMoonStones: 暴击率、生命再生、
+	CelestialStoneShell: 小幅提高伤害、
+	MagnetFlower: 减少10%魔力消耗
+	ArcaneFlowerManaCloak: 减少12%魔力消耗
+	Magiluminescence:
+		'''
+		移动加速度和减速度增加1.75倍
+		移动速度增加1.15倍。该效果适用于移动饰品
+		'''
+	FrogLeg: 提高{0}%跳跃速度并可自动跳跃
+	// Soaring Insignia
+	EmpressFlightBooster1: 翅膀飞行时间增加30%
+	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提高1.25倍
+	RifleScope1: 扩大枪的视野范围（右键点击可拉远视野）
+	RifleScope2: 扩大视野效果可通过可见性开启或关闭
+	SniperScope: 提高7%远程伤害和暴击率
+	MagicQuiver: 增加5%的箭矢伤害，并大幅提高箭矢速度
+	MoltenQuiver1: 增加7%的箭矢伤害，并大幅提高箭矢速度
+	MoltenQuiver2: 点燃木箭且所有箭矢造成狱炎减益
+	MagicPowerPotion: 增加10%魔法伤害
+	MagicHat: 提高6%魔法暴击率
+	PowerGlove: 近战攻速增加10%，该效果不会与其下位合成材料叠加
+	BerserkerGlove: 真近战伤害增加10%
+	MechanicalGlove:
+		'''
+		近战伤害增加12%
+		近战攻速增加12%，该效果不会与其下位合成材料叠加
+		'''
+	FireGauntlet1: 提高近战击退力，近战攻击造成狱炎减益
+	FireGauntlet2:
+		'''
+		近战伤害增加14%
+		近战攻速增加14%，该效果不会与其下位合成材料叠加
+		'''
+	ObsidianSkullLine: 对燃烧和着火了！减益免疫
+	LavaWaders: 对燃烧和着火了！减益免疫并在7秒内对熔岩免疫
+	Gi: 移动速度和跳跃速度各提高10%
+	GoldPickaxe: 可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片
+	FlaskofCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
+	FlaskofFire: 近战、鞭子和盗贼攻击会使敌人着火
+	FlaskofGold: 近战、鞭子和盗贼攻击会使敌人掉落更多金子
+	FlaskofIchor: 近战、鞭子和盗贼攻击会降低敌人防御力
+	FlaskofNanites: 近战、鞭子和盗贼攻击会让敌人进入困惑状态
+	FlaskofParty: 所有攻击都会喷撒彩纸
+	FlaskofPoison: 近战、鞭子和盗贼攻击会使敌人中毒
+	FlaskofVenom: 近战、鞭子和盗贼攻击会对敌人施放酸性毒液
+	/*
+	OOA sets
+	*/
+	SquireGreatHelm: 增加1最大哨兵栏并提供+2HP/s生命再生
+	SquirePlating: 增加10%召唤伤害和15%近战伤害
+	SquireGreaves:
+		'''
+		增加5%召唤伤害和近战暴击率
+		移动速度增加15%
+		'''
+	MonkBrows: 增加1最大哨兵栏和10%近战攻速
+	MonkShirt: 增加10%召唤和近战伤害
+	MonkPants1: 增加5%召唤伤害和近战暴击率
+	MonkPants2: 移动速度增加20%
+	// Valhalla Knight
+	SquireAltShirt: 增加30%召唤伤害并提供+4HP/s生命再生
+	SquireAltPants: 增加10%召唤伤害和近战暴击率
+	HuntressJerkin:
+		'''
+		增加10%召唤和远程伤害
+		10%几率不消耗弹药
+		'''
+	ApprenticeTrousers:
+		'''
+		增加5%召唤伤害和魔法暴击率
+		移动速度增加20%
+		'''
+	// Shinobi Infiltrator
+	MonkAltHead:
+		'''
+		增加2最大哨兵栏
+		增加10%近战和召唤伤害
+		'''
+	MonkAltShirt: 增加10%召唤伤害和近战攻速
+	MonkAltPants: 增加10%召唤伤害和近战暴击率
+	// Red Riding
+	HuntressAltShirt: 增加15%召唤和远程伤害，20%几率不消耗弹药
+	// Dark Artist
+	ApprenticeAltPants: 增加10%召唤伤害和魔法暴击率
+}
+
 // Buff Descriptions
 BuffDescription: {
 	Banner: 你对以下敌人的防御与伤害提升了：

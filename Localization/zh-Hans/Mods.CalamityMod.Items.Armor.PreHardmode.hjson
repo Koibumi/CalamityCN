@@ -287,7 +287,7 @@ WulfrumFusionCannon: {
 	Tooltip:
 		'''
 		发射快速的中射程弹幕
-		无视敌人10点防御力
+		{$Common.ArmorPenetration}
 		[c/878787:“自己变成召唤物后，谁还需要一根鞭子呢？”]
 		'''
 }

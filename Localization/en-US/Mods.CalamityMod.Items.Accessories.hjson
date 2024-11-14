@@ -93,9 +93,8 @@ AlluringBait: {
 	DisplayName: Alluring Bait
 	Tooltip:
 		'''
-		Increases fishing power by 30
-		Greatly increases chance of catching potion ingredient fish
-		Potion ingredient fish yield is increased
+		Increases fishing power by 10
+		Increases the yield of potion ingredient fish
 		'''
 }
 
@@ -226,7 +225,7 @@ AscendantInsignia: {
 	DisplayName: Ascendant Insignia
 	Tooltip:
 		'''
-		Increases wing flight time by 30%, movement and jump speed by 10%, and acceleration by 1.1x
+		Increases wing flight time by 50%, movement and jump speed by 10%, and acceleration by 1.5x
 		Pressing [KEY] will give you the power of ascension, providing infinite flight time for 4 seconds
 		Ascension has a 40 second cooldown
 		'''
@@ -303,7 +302,7 @@ BlazingCore: {
 		Upon shattering, holy stars spiral outwards and you only take 1 damage
 		After shattering, this damage reduction effect goes on cooldown
 		Damage parried whilst on cooldown summons additional healing stars, and will not be reduced
-		Provides a moderate amount of light in the Abyss
+		{$Common.AbyssLightLevel2}
 		'''
 }
 
@@ -410,7 +409,7 @@ CleansingJelly: {
 	DisplayName: Cleansing Jelly
 	Tooltip:
 		'''
-		Using a healing potion spawns a blue aura that lasts for 30 seconds
+		Using a healing potion spawns a blue aura that lasts for {0} seconds
 		Walking into the aura removes all debuffs one time
 		'''
 }
@@ -706,7 +705,12 @@ ElysianAegis: {
 
 EnchantedPearl: {
 	DisplayName: Enchanted Pearl
-	Tooltip: Increases fishing power by 10 and crate catch chance by 10%
+	Tooltip:
+		'''
+		Increases fishing power by 10
+		Increases chance to catch crates and loot-containing fish by 15%
+		Crates are 25% more likely to be higher quality
+		'''
 }
 
 EtherealExtorter: {
@@ -826,7 +830,7 @@ GiantPearl: {
 		You have a light aura around you
 		Enemies within the aura are slowed down
 		You release homing prism shards while an enemy is slowed
-		Provides a small amount of light in the abyss
+		{$Common.AbyssLightLevel1}
 		'''
 }
 
@@ -877,9 +881,9 @@ GrandGelatin: {
 	DisplayName: Grand Gelatin
 	Tooltip:
 		'''
-		12% increased movement speed and jump speed
-		Using a healing potion creates a cleansing aura which lasts for 30 seconds
-		Entering the aura removes all debuffs one time and grants +2.5 HP/s life regen
+		{0}% increased movement speed and jump speed
+		Using a healing potion creates a cleansing aura which lasts for {1} seconds
+		Entering the aura removes all debuffs one time and grants +{2} HP/s life regen
 		'''
 }
 
@@ -1024,8 +1028,8 @@ LifeJelly: {
 	DisplayName: Life Jelly
 	Tooltip:
 		'''
-		Using a healing potion spawns a pink aura that lasts for 30 seconds
-		The aura grants +2 HP/s life regen
+		Using a healing potion spawns a pink aura that lasts for {0} seconds
+		The aura grants +{1} HP/s life regen
 		'''
 }
 
@@ -1046,7 +1050,7 @@ LumenousAmulet: {
 		'''
 		Attacks inflict Crush Depth and you are immune to it and Riptide
 		While in the abyss you gain 25% increased max life
-		Provides a moderate amount of light in the abyss
+		{$Common.AbyssLightLevel2}
 		'''
 }
 
@@ -1309,6 +1313,7 @@ ProfanedSoulCrystal: {
 	FullTooltip:
 		'''
 		Provides passive buffs depending on the time of day
+		Greatly boosts the power of the Guardian's relics
 		Grants additional effects if you have {0} minion slots
 		Summons your own personal Guardians to fight alongside you
 		All non-summon attacks are transformed, and are empowered if no minions are active
@@ -1411,7 +1416,7 @@ RottenBrain: {
 	DisplayName: Rotten Brain
 	Tooltip:
 		'''
-		6% increased damage
+		5% increased damage
 		Taking damage spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds
 		'''
@@ -1632,8 +1637,7 @@ StatisNinjaBelt: {
 	DisplayName: Statis' Ninja Belt
 	Tooltip:
 		'''
-		32% increased jump speed and allows auto-jump
-		Increased fall damage resistance by 35 blocks
+		32% increased jump speed, allows auto-jump, and negates fall damage
 		Grants the ability to swim, climb walls, dash, and dodge attacks
 		'''
 	HoldShiftTooltip:
@@ -1649,7 +1653,8 @@ StatisVoidSash: {
 	Tooltip:
 		'''
 		32% increased jump speed, allows auto-jump, and negates fall damage
-		Can swim, climb walls, dash, and dodge attacks
+		Grants the ability to swim, climb walls, dash, and dodge attacks
+		Dashes leave homing scythes in your wake
 		'''
 	HoldShiftTooltip:
 		'''
@@ -1746,11 +1751,9 @@ SupremeBaitTackleBoxFishingStation: {
 	DisplayName: Supreme Bait Tackle Box Fishing Station
 	Tooltip:
 		'''
-		Increases fishing skill by 80, and crate catch chance by 10%
+		Increases fishing power by 50
 		Fishing line will never break and decreases chance of bait consumption
-		Allows fishing in lava
-		Sonar potion effect
-		The ultimate fishing accessory
+		Allows fishing in lava and detects hooked fish
 		'''
 }
 
@@ -1768,12 +1771,12 @@ TheAbsorber: {
 	DisplayName: The Absorber
 	Tooltip:
 		'''
-		12% increased movement and jump speed
+		{0}% increased movement and jump speed
 		Grants immunity to knockback
 		Attackers take immense damage and are afflicted with a crippling sickness debuff
-		Using a healing potion will spawn a green aura that lasts for 30 seconds
-		Walking into the aura removes all debuffs once and grants 3 HP/s regen, 8% damage, and 5% damage reduction
-		5% of the damage from enemy attacks is converted into healing
+		Using a healing potion will spawn a green aura that lasts for {1} seconds
+		Walking into the aura removes all debuffs once and grants {2} HP/s regen, {3}% damage, and {4}% damage reduction
+		{5}% of the damage from enemy attacks is converted into healing
 		'''
 }
 
@@ -1814,7 +1817,7 @@ TheCamper: {
 		You deal 90% less damage unless stationary
 		Standing still grants buffs depending on held item, and creates a damaging aura around you
 		While moving, you regenerate health as if standing still
-		Provides a small amount of light in the Abyss
+		{$Common.AbyssLightLevel1}
 		'In rest may we find victory'
 		'''
 }
@@ -1966,12 +1969,14 @@ VoltaicJelly: {
 		'''
 }
 
-WarbanneroftheSun: {
-	DisplayName: Warbanner of the Sun
+WarbanneroftheRighteous: {
+	DisplayName: Warbanner of the Righteous
 	Tooltip:
 		'''
-		Increases melee damage, true melee damage and melee speed the closer you are to enemies
-		These stat boosts max out at 20%
+		Damage is increased by 20% when close to enemies, but decreased by 60% when none are nearby
+		Emit a blazing aura that burns and repels nearby enemies
+		Enemies take increasing damage the closer they are to you and the longer they are near you
+		Effects are transparent and silent if visibility is disabled
 		'''
 }
 
@@ -2077,6 +2082,16 @@ PunchCard: {
 SharkyPlush: {
 	DisplayName: Sharky Plush
 	Tooltip: "[c/696969:'Look around, at the sight and sound...']"
+}
+
+TheComb: {
+	DisplayName: The Comb
+	Tooltip:
+		'''
+		Gives the wearer's hair a lustrous finish
+		Sparkles are attracted to nearby chests
+		'We ain't found shit!'
+		'''
 }
 
 XyksBlessingBlue: {

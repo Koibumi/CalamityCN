@@ -72,10 +72,7 @@ BobbitHook: {
 	Tooltip:
 		'''
 		以极致的速度将你拉向物块
-		长度：40格
-		发射速度：25
-		回收速度：28
-		牵引速度：24
+		{$Common.GrappleStats}
 		'''
 }
 
@@ -124,7 +121,7 @@ Gelpick: {
 
 GenesisPickaxe: {
 	DisplayName: 创世镐
-	Tooltip: 可开采龙蒿矿
+	Tooltip: "{$Common.CanMineUelibloom}"
 }
 
 Grax: {
@@ -155,7 +152,7 @@ MarniteDeconstructor: {
 	Tooltip:
 		'''
 		它的引擎产生的强光射线能够远距离挖掘墙壁
-		无视敌人10点防御力
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -164,7 +161,7 @@ MarniteObliterator: {
 	Tooltip:
 		'''
 		利用钻石聚焦出一束长距离的挖掘光束
-		无视敌人5点防御力
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -241,7 +238,7 @@ WulfrumScaffoldKit: {
 	DisplayName: 钨钢云梯工具包
 	Tooltip:
 		'''
-		放置临时金属脚手架。每建造40块便会消耗一块钨钢金属废料
+		放置临时金属脚手架。每建造{0}块便会消耗一块[i:CalamityMod/WulfrumMetalScrap]{$Items.Materials.WulfrumMetalScrap.DisplayName}
 		脚手架需要从实心物块开始放置
 		“为你需要速建而不需要持续效果的东西而存在”
 		'''

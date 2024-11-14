@@ -4,7 +4,7 @@ Abombination: {
 		'''
 		在丛林使用以召唤瘟疫使者歌莉娅
 		在丛林外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“能够发射达到瘟疫纳米病毒识别频率的无线电信号。”
 		'''
 }
@@ -15,13 +15,13 @@ AstralChunk: {
 		'''
 		在星辉瘟疫使用以召唤白金星舰
 		白天时在星辉瘟疫外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“星辉瘟疫的要塞找到了另一个目标。”
 		'''
 }
 
 BloodwormItem: {
-	DisplayName: 血蠕虫
+	DisplayName: "{$NPCs.BloodwormNormal.DisplayName}"
 	Tooltip:
 		'''
 		作为鱼饵在硫磺海钓鱼来召唤硫海遗爵
@@ -35,7 +35,7 @@ BloodyWormFood: {
 		'''
 		在猩红之地使用以召唤血肉宿主
 		在地下猩红之地外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“不要玩弄食物，它们就不会玩弄自己的食物。”
 		'''
 }
@@ -45,7 +45,7 @@ CausticTear: {
 	Tooltip:
 		'''
 		让酸雨在硫磺海上方倾盆而下
-		不消耗
+		{$Common.NotConsumable}
 		'''
 }
 
@@ -54,7 +54,7 @@ CeremonialUrn: {
 	Tooltip:
 		'''
 		在诅咒祭坛处使用以召唤至尊女巫，灾厄
-		不消耗
+		{$Common.NotConsumable}
 		“女巫不会允许这种事情再次发生。”
 		'''
 }
@@ -65,7 +65,7 @@ CharredIdol: {
 		'''
 		在硫火之崖使用以召唤硫磺火元素
 		在硫火之崖外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“在她的注视下，万物都会被焚毁得面目全非。”
 		'''
 }
@@ -75,7 +75,7 @@ CosmicWorm: {
 	Tooltip:
 		'''
 		召唤神明吞噬者
-		不消耗
+		{$Common.NotConsumable}
 		“无名的巨蟒已经准备对你动手了。”
 		'''
 }
@@ -87,7 +87,7 @@ CryoKey: {
 		'''
 		[SPAWN]
 		在苔原外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“一把极寒囚牢的钥匙。”
 		'''
 	SpawnNormal: 在苔原使用以召唤极地之灵
@@ -99,7 +99,7 @@ DeathWhistle: {
 	Tooltip:
 		'''
 		召唤毁灭魔像
-		不消耗
+		{$Common.NotConsumable}
 		“这是血肉傀儡为数不多仍能识别的的声音之一。”
 		'''
 }
@@ -110,7 +110,7 @@ DecapoditaSprout: {
 		'''
 		在发光蘑菇生物群落使用以召唤菌生蟹
 		在地下发光蘑菇生物群落外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“长满了一种独特寄生菌的芽孢。”
 		'''
 }
@@ -121,7 +121,7 @@ DesertMedallion: {
 		'''
 		在沙漠使用以召唤荒漠灾虫
 		在沙漠外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“灾蟒在为了下一顿饱餐觅食。”
 		'''
 }
@@ -131,7 +131,7 @@ EidolonTablet: {
 	Tooltip:
 		'''
 		召唤拜月教邪教徒
-		不消耗
+		{$Common.NotConsumable}
 		“一块为巨龙教所崇敬的古老文物。”
 		'''
 }
@@ -142,7 +142,7 @@ ExoticPheromones: {
 		'''
 		在丛林使用以召唤痴愚金龙
 		在丛林外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“用以狩猎巨龙分支的信息素。”
 		'''
 }
@@ -154,7 +154,7 @@ EyeofDesolation: {
 		'''
 		在夜晚使用以召唤灾厄之影[GFB]
 		在白天时狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“她在这里。”
 		'''
 	GFBInfo: 以你为中心，创建一个方形战斗场地
@@ -167,7 +167,7 @@ MarkofProvidence: {
 		亵渎火焰的华贵符文
 		仇恨还在它的顶部燃烧
 		[SPAWN]
-		不消耗
+		{$Common.NotConsumable}
 		'''
 	SpawnInfo: 这种能力会吸引异界存在
 	SpawnVoid:
@@ -184,7 +184,7 @@ MartianDistressRemote: {
 	Tooltip:
 		'''
 		召唤火星暴乱
-		不消耗
+		{$Common.NotConsumable}
 		'''
 }
 
@@ -193,7 +193,7 @@ NecroplasmicBeacon: {
 	Tooltip:
 		'''
 		在地牢使用以召唤噬魂幽花
-		不消耗
+		{$Common.NotConsumable}
 		“幽魂的哀嚎惊动了更可怕的东西。”
 		'''
 }
@@ -208,7 +208,7 @@ OverloadedSludge: {
 	Tooltip:
 		'''
 		召唤史莱姆之神
-		不消耗
+		{$Common.NotConsumable}
 		“被旧日已死之神的脓血充盈、缠绕。”
 		'''
 }
@@ -219,7 +219,7 @@ Portabulb: {
 		'''
 		在丛林使用以召唤世纪之花
 		在地下丛林外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		'''
 }
 
@@ -230,7 +230,7 @@ ProfanedCore: {
 		在神圣之地或地狱使用以召唤亵渎天神
 		在不同的群落与其战斗会掉落不同的战利品
 		在夜晚时狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“她的守卫的心脏，她将会用污亵的烈焰焚尽现在正掌控它的人。”
 		'''
 }
@@ -240,7 +240,7 @@ ProfanedShard: {
 	Tooltip:
 		'''
 		[SPAWN]
-		不消耗
+		{$Common.NotConsumable}
 		“她的守护者正在搜寻如此浩瀚能量的盗取者。”
 		'''
 	SpawnNormal:
@@ -256,7 +256,7 @@ SandstormsCore: {
 	Tooltip:
 		'''
 		在[BIOME]使用以召唤旱海狂鲨
-		不消耗
+		{$Common.NotConsumable}
 		'''
 }
 
@@ -266,7 +266,7 @@ Seafood: {
 		'''
 		在硫磺海使用以召唤渊海灾虫
 		在硫磺海外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“大鱼饵钓大鱼，不过要小心海里的怪物。”
 		'''
 }
@@ -287,7 +287,7 @@ Teratoma: {
 		'''
 		在腐化之地使用以召唤腐巢意志
 		在地下腐化之地外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“对那些脑袋有大病的人来说，这是很可怕的一个肿瘤。”
 		'''
 }
@@ -304,7 +304,7 @@ YharonEgg: {
 		'''
 		召唤重生之龙，犽戎
 		在火墙外狂暴
-		不消耗
+		{$Common.NotConsumable}
 		“巨龙正在监视与等候你的象征。”
 		'''
 }

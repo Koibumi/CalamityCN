@@ -1,0 +1,20 @@
+AbyssLightLevel1: 在深渊中提供少量光照
+AbyssLightLevel2: 在深渊中提供适量光照
+AbyssLightLevel3: 在深渊中提供大量光照
+AbyssBreathLevel1: 略微缓解深渊造成的呼吸困难
+AbyssBreathLevel2: 适当缓解深渊造成的呼吸困难
+AbyssBreathLevel3: 大大缓解深渊造成的呼吸困难
+AlcoholWarning: 饮用三种以上的酒或许对你的肝脏不太好
+ArmorPenetration: 无视敌怪{0}点防御
+CanMineUelibloom: 可开采龙蒿矿
+NotConsumable: 不消耗
+RogueDamage: "增加{0}%盗贼伤害"
+RogueCrit: "增加{0}%盗贼暴击率"
+RogueVelocity: "增加{0}%盗贼弹幕速度"
+GrappleStats:
+	'''
+	长度：{0}格
+	发射速度：{1}
+	回收速度：{2}
+	牵引速度：{3}
+	'''

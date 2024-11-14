@@ -661,8 +661,8 @@ PrimordialAncient: {
 	Tooltip:
 		'''
 		Casts five primordial sand blasts that converge at your cursor after a moment and create a giant explosion
-		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Aeolian Earth Buff
-		The Aeolian Earth Buff increases your damage reduction by 8% and damage by 18%
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the {$Buffs.AeolianEarthBuff.DisplayName} buff
+		The {$Buffs.AeolianEarthBuff.DisplayName} buff increases your damage reduction by {0}% and damage by {1}%
 		'''
 }
 
@@ -671,14 +671,18 @@ PrimordialEarth: {
 	Tooltip:
 		'''
 		Casts two enchanted blasts of sand that coverge with each other and explode
-		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
-		The Sand's Wind Buff increases your defense by 10 and damage by 12%
+		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the {$Buffs.SandsWindBuff.DisplayName} buff
+		The {$Buffs.SandsWindBuff.DisplayName} buff increases your defense by {0} and damage by {1}%
 		'''
 }
 
 PurgeGuzzler: {
 	DisplayName: Purge Guzzler
-	Tooltip: Emits three beams of holy energy in a tight spread
+	Tooltip:
+		'''
+		Fires a barrage of holy rays that converge into two massive sweeping beams
+		'Baptism by holy fire'
+		'''
 }
 
 RainbowPartyCannon: {
@@ -749,7 +753,7 @@ Serpentine: {
 	Tooltip:
 		'''
 		Casts a serpent that follows the mouse cursor
-		Ignores 15 points of enemy Defense
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -786,10 +790,10 @@ SHPC: {
 		'''
 	LegendaryText:
 		'''
-		[c/1FFBFF:'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.]
-		[c/1FFBFF:To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.]
-		[c/1FFBFF:Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.]
-		[c/1FFBFF:A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.']
+		'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.
+		To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.
+		Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.
+		A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.'
 		'''
 	TooltipGFB: It scales again :)
 }
@@ -889,7 +893,7 @@ ThePrince: {
 	DisplayName: The Prince
 	Tooltip:
 		'''
-		Casts a holy fireball that explodes into 6 flames
+		Casts a holy fireball that explodes into six homing flames
 		'So you're telling me that the prince exploded, and then turned into a flower?'
 		-Dain, the sailor druid
 		'''

@@ -32,7 +32,7 @@ GazeOfCrysthamyr: {
 	Tooltip:
 		'''
 		召唤一条暗影巨龙
-		长按W键加快上升速度
+		长按Up加快上升速度
 		'''
 }
 

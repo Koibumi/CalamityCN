@@ -1,3 +1,8 @@
+AcidRainDye: {
+	DisplayName: Acid Rain Dye
+	Tooltip: ""
+}
+
 AerialiteDye: {
 	DisplayName: 苍青辉蓝染料
 	Tooltip: ""
@@ -68,6 +73,11 @@ CryonicDye: {
 	Tooltip: ""
 }
 
+DaedalusDye: {
+	DisplayName: Daedalus Dye
+	Tooltip: ""
+}
+
 DefiledFlameDye: {
 	DisplayName: 神殇烈焰染料
 	Tooltip: ""
@@ -113,6 +123,21 @@ WingTimeHairDye: {
 	Tooltip: ""
 }
 
+LivingShardDye: {
+	DisplayName: Living Shard Dye
+	Tooltip: ""
+}
+
+MeldDye: {
+	DisplayName: Meld Dye
+	Tooltip: ""
+}
+
+NecromanticDye: {
+	DisplayName: Necromantic Dye
+	Tooltip: ""
+}
+
 NecroplasmicDye: {
 	DisplayName: 幽喑灵质染料
 	Tooltip: ""
@@ -133,6 +158,21 @@ PinkStatigelDye: {
 	Tooltip: ""
 }
 
+PlagueGooDye: {
+	DisplayName: Plague Goo Dye
+	Tooltip: ""
+}
+
+PlaguePlateDye: {
+	DisplayName: Plague Plate Dye
+	Tooltip: ""
+}
+
+ProfanedCrystalDye: {
+	DisplayName: Profaned Crystal Dye
+	Tooltip: ""
+}
+
 ProfanedFlameDye: {
 	DisplayName: 渎神圣火染料
 	Tooltip: ""
@@ -143,13 +183,28 @@ ProfanedMoonlightDye: {
 	Tooltip: ""
 }
 
+ProfanedRockDye: {
+	DisplayName: Profaned Rock Dye
+	Tooltip: ""
+}
+
 ReaverDye: {
 	DisplayName: 掠夺之恒染料
 	Tooltip: ""
 }
 
+ScoriaDye: {
+	DisplayName: Scoria Dye
+	Tooltip: ""
+}
+
 ShadowspecDye: {
 	DisplayName: 灾劫魔影染料
+	Tooltip: ""
+}
+
+SilvaDye: {
+	DisplayName: Silva Dye
 	Tooltip: ""
 }
 
@@ -165,5 +220,15 @@ StratusDye: {
 
 SwirlingCosmicFlameDye: {
 	DisplayName: 宙宇潆焰染料
+	Tooltip: ""
+}
+
+TarragonDye: {
+	DisplayName: Tarragon Dye
+	Tooltip: ""
+}
+
+WulfrumDye: {
+	DisplayName: Wulfrum Dye
 	Tooltip: ""
 }

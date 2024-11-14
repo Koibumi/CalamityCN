@@ -250,7 +250,14 @@ DankStaff: {
 
 DazzlingStabberStaff: {
 	DisplayName: Dazzling Stabber Staff
-	Tooltip: Summons a holy blade to fight for you
+	Tooltip:
+		'''
+		Summons three holy daggers made of profaned materials to fight for you
+		Holy flame daggers gallantly turn all that oppose them to ashes
+		Crystalline daggers gracefully carve foes to ribbons
+		Profane daggers brutishtly splinter and reform eternally
+		'Ever onward, towards Her future'
+		'''
 }
 
 DeathstareRod: {
@@ -633,7 +640,10 @@ SanctifiedSpark: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons a friendly immolator to fire holy sparks at your enemies
+		Summons a friendly immolator that will float towards you
+		Immolators rapidly fire homing flares at nearby enemies, before continuing to float near you again
+		After firing, Immolators will fire one healing bolt at you for every 4 summon slots you have
+		'They might be a bit clingy, but at least they're warm'
 		'''
 }
 

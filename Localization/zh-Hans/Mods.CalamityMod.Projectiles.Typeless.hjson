@@ -2,12 +2,7 @@ AbaddonCrit.DisplayName: 硫火爆破
 AeroExplosive.DisplayName: 天蓝爆炸
 AllianceTriangle.DisplayName: 圣天三角
 ArcZap.DisplayName: 电弧
-ArtifactOfResilienceShard1.DisplayName: 灵之形碎块
-ArtifactOfResilienceShard2.DisplayName: 灵之形碎块
-ArtifactOfResilienceShard3.DisplayName: 灵之形碎块
-ArtifactOfResilienceShard4.DisplayName: 灵之形碎块
-ArtifactOfResilienceShard5.DisplayName: 灵之形碎块
-ArtifactOfResilienceShard6.DisplayName: 灵之形碎块
+ArtifactOfResilienceShards.DisplayName: 灵之形碎块
 AscendantAura.DisplayName: 进升之息
 AstralFallingSand.DisplayName: 幻星陨砂
 AstralSandBallFalling.DisplayName: 星幻沙块
@@ -68,6 +63,7 @@ GreenLabSeeker.DisplayName: 实验室定位仪
 HeronBobber.DisplayName: 苍鹭浮标
 HideOfAstrumDeusExplosion.DisplayName: 隐壳爆炸
 HolyExplosionSupreme.DisplayName: 爆炸
+HolyStarDamage.DisplayName: Holy Star
 HydrothermalSmoke.DisplayName: 水热烟雾
 HydrothermicFlare.DisplayName: 渊泉之火
 HydrothermicFlareRogue.DisplayName: 渊泉之火
@@ -121,11 +117,14 @@ SulphuricAcidBubbleFriendly.DisplayName: 酸性气泡
 SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
 TarragonAura.DisplayName: 龙蒿光环
+TatteredFairyDust.DisplayName: Tattered Fairy Dust
 TeslaAura.DisplayName: 磁暴
 TitanHeartBoom.DisplayName: 泰坦之心爆炸
 UrsaSlash.DisplayName: Ursa Slash
 VerstaltiteBobber.DisplayName: 极寒浮标
 VoidFieldGenerator.DisplayName: 虚空力场生成器
+WarbannerDamage.DisplayName: The Unmatched Power of the Sun
+WarbannerLight.DisplayName: Warbanner Light
 WaterConvertor.DisplayName: 净水器
 WhiteLabSeeker.DisplayName: 实验室定位仪
 WulfrumBobber.DisplayName: 钨钢浮标
@@ -136,3 +135,4 @@ YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
 VoidofExtinctionCrit.DisplayName: 终结虚空暴击
 XykDeathAnim.DisplayName: Xyk Death Animation
+RelicGuard.DisplayName: Relic Guard

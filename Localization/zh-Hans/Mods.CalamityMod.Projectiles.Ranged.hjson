@@ -20,7 +20,7 @@ AuroraFire.DisplayName: 极光
 BallistaGreatArrow.DisplayName: 破城巨箭
 BarinadeArrow.DisplayName: 利鳍之箭
 BlightFlames.DisplayName: 枯萎之火
-BlissfulBombardierDustProjectile.DisplayName: 尘埃
+BlissfulBombardierSplitProjectile.DisplayName: Profaned Mini-Rocket
 BloodBoilerFire.DisplayName: 沸腾之血
 BloodClotFriendly.DisplayName: 血凝块
 BloodfireArrowProj.DisplayName: 血炎箭
@@ -138,7 +138,7 @@ NorfleetComet.DisplayName: 彗星
 NorfleetExplosion.DisplayName: 爆炸
 NovaChargedShot.DisplayName: 新星冲击波
 NovaShot.DisplayName: 新星矢
-Nuke.DisplayName: 核弹
+NukeOfBliss.DisplayName: Profaned Nuke
 NullFlash.DisplayName: Null Flash
 NullShot.DisplayName: 空弹
 OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
@@ -255,6 +255,9 @@ HellbornProj.DisplayName: Hell-born Gunblast
 HellbornShell.DisplayName: Hell's Shell
 RubicoPrimeMag.DisplayName: 绝路Prime弹匣
 MegalodonShot.DisplayName: Megalodon Shot
+SulphuricAcidCannonExplosion.DisplayName: Sulphuric Acid Cannon Explosion
 LeviatitanAberration.DisplayName: Leviatitan Aberration
 LeviatitanMeteor.DisplayName: Leviatitan Meteor
 LeviatitanExplosion.DisplayName: Leviatitan Explosion
+SulphuricDrop.DisplayName: Sulphuric Drop
+AcidRocket.DisplayName: Acid Rocket

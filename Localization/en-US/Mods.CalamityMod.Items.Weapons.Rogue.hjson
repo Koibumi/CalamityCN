@@ -538,18 +538,6 @@ HeavenfallenStardisk: {
 		'''
 }
 
-HellsSun: {
-	DisplayName: Hell's Sun
-	Tooltip:
-		'''
-		Hurls up to 10 gravity-defying spiky balls
-		Once stationary, periodically emit small suns that explode on hit
-		Stealth strikes emit suns at a faster rate and last for a longer amount of time
-		Press <right> to delete all existing spiky balls
-		'The Subterranean Sun in the palm of your hand'
-		'''
-}
-
 Hypothermia: {
 	DisplayName: Hypothermia
 	Tooltip:
@@ -699,6 +687,23 @@ Malachite: {
 		Press <right> to throw a single kunai that pierces, after piercing an enemy it emits a massive explosion on the next enemy hit
 		Stealth strikes fire three kunai that home in, stick to enemies, and explode
 		'''
+	LegendaryText:
+		'''
+		> STATUS_
+		Extensive hull damage. Repairs initiated.
+		Sensor arrays offline. Repairs scheduled T+2200.
+
+		> UPDATE_DIRECTIVE_
+		Error 0x00017F80. Device sector unreadable.
+		Initializing search for external directive.
+		Searching... (383526 more)
+		Directive found.
+		New directive compiled. Rebooting...
+
+		> PLAGUE UNIT 194-QB-03d ONLINE.
+		Directive summary:
+		Continue propagation of unified frequency band and lead satellite units.
+		'''
 }
 
 MangroveChakram: {
@@ -729,8 +734,11 @@ MoltenAmputator: {
 	DisplayName: Molten Amputator
 	Tooltip:
 		'''
-		Throws a scythe that emits molten globs on enemy hits
-		Stealth strikes spawn molten globs periodically in flight and more on-hit
+		Throw a spinning scythe that lingers at your cursor
+		<right> to recall all existing scythes
+		Recalling a scythe while it's on an enemy rends them for massive damage
+		<right> with a full stealth bar to empower yourself, greatly increasing attack speed for a short time
+		You cannot recall scythes thrown while empowered
 		'''
 }
 

@@ -32,7 +32,7 @@ GazeOfCrysthamyr: {
 	Tooltip:
 		'''
 		Summons a shadow dragon
-		Hold W to ascend faster
+		Hold Up to ascend faster
 		'''
 }
 
@@ -46,8 +46,8 @@ OnyxExcavatorKey: {
 	Tooltip:
 		'''
 		Summons a drill to drill through the world so you can destroy all the neat world generation
-		with complete disregard for all the creatures that inhabit these lands. I am sure the EPA and PETA would like
-		to have a word with you afterwards.
+		with complete disregard for all the creatures that inhabit these lands
+		I am sure the EPA and PETA would like to have a word with you afterwards
 		The power of the destruction scales with the highest powered pickaxe in your inventory
 		'''
 }

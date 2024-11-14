@@ -261,8 +261,11 @@ BurningRevelation: {
 	DisplayName: 渎焚天启
 	Tooltip:
 		'''
-		击中敌人时产生强大的圣火爆炸
-		一只超级灵活的悠悠球
+		An ever burning yoyo that constantly charges power
+		Direct hits greatly increase the charge and release profaned energy that scales with charge level
+		At maximum charge, the yoyo unleashes a volley of homing stars that gain damage the farther they travel
+		Stars with maximum damage let off an additional explosion on hit
+		'It burns, but you hold it close to your heart. Clarity and purpose fill your soul'
 		'''
 }
 
@@ -717,7 +720,14 @@ Hellkite: {
 
 HolyCollider: {
 	DisplayName: 圣火之刃
-	Tooltip: 击中敌人时使其被圣火点燃并爆炸
+	Tooltip:
+		'''
+		Swings a holy greatsword that can be charged for higher damage
+		Charged swings create four lingering flares that float around the point of impact
+		Striking a flare with an uncharged strike will push it around and extend its lifetime
+		Charged swings can empower flares, turning them into massive fireballs on hit and launching them to your cursor
+		Holding <right> while swinging will repeatedly do uncharged slashes that create a spread of flames on hit
+		'''
 }
 
 IllustriousKnives: {
@@ -957,8 +967,8 @@ PrismaticBreaker: {
 	DisplayName: 光棱破碎者
 	Tooltip:
 		'''
-		Fires several bursts of magic stars as the weapon charges up
-		After charging up, a massive rainbow laser is unleashed to devastate your foes
+		武器充能过程中会发射几阵魔法星星
+		充能完毕后会发射一道巨大的彩虹激光毁灭你的敌人
 		这把武器同时受到近战和远程的伤害加成影响
 		看上去属于一位魔法少女。辐射出强烈的宇宙魔能
 		'''
@@ -1007,7 +1017,7 @@ RemsRevenge: {
 	DisplayName: 雷姆的复仇
 	Tooltip:
 		'''
-		击中敌人时迸发出血花，降低其防御
+		击中敌人时迸发出血花，降低其{0}点防御
 		'A deadly morning star befitting its demonic owner'
 		'''
 }
@@ -1070,7 +1080,10 @@ SeekingScorcher: {
 	DisplayName: 焚罪飞斧
 	Tooltip:
 		'''
-		扔出一把神圣飞斧，追踪并攻击至多三个目标然后返回
+		Throws a massive crystalline axe which bounces to three additional targets after hitting
+		Crystallizes in place if all bounces have not been exhausted
+		Crystallized hatchets can be shattered by another axe
+		Doing so empowers the hatchet based on the amount shattered but prevents it from crystallizing
 		“你的敌人将连同他们的罪孽一起在地狱中焚烧殆尽”
 		'''
 }

@@ -1,7 +1,7 @@
 // Drop conditions
 Drops: {
-	CataclysmKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Catastrophe.DisplayName}
-	CatastropheKilledLast: Drops if defeated after {$Mods.CalamityMod.NPCs.Cataclysm.DisplayName}
+	CataclysmKilledLast: Drops if defeated after {$NPCs.Catastrophe.DisplayName}
+	CatastropheKilledLast: Drops if defeated after {$NPCs.Cataclysm.DisplayName}
 	Cynosure: After defeating both Draedon and Calamitas
 	DownedDS: After defeating the Desert Scourge
 	DownedCrab: After defeating Crabulon

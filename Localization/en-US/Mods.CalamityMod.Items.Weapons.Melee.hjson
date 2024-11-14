@@ -261,8 +261,11 @@ BurningRevelation: {
 	DisplayName: Burning Revelation
 	Tooltip:
 		'''
-		Emits large holy explosions on hit
-		An exceptionally agile yoyo
+		An ever burning yoyo that constantly charges power
+		Direct hits greatly increase the charge and release profaned energy that scales with charge level
+		At maximum charge, the yoyo unleashes a volley of homing stars that gain damage the farther they travel
+		Stars with maximum damage let off an additional explosion on hit
+		'It burns, but you hold it close to your heart. Clarity and purpose fill your soul'
 		'''
 }
 
@@ -717,7 +720,14 @@ Hellkite: {
 
 HolyCollider: {
 	DisplayName: Holy Collider
-	Tooltip: Striking enemies will cause them to explode into holy fire
+	Tooltip:
+		'''
+		Swings a holy greatsword that can be charged for higher damage
+		Charged swings create four lingering flares that float around the point of impact
+		Striking a flare with an uncharged strike will push it around and extend its lifetime
+		Charged swings can empower flares, turning them into massive fireballs on hit and launching them to your cursor
+		Holding <right> while swinging will repeatedly do uncharged slashes that create a spread of flames on hit
+		'''
 }
 
 IllustriousKnives: {
@@ -1007,7 +1017,7 @@ RemsRevenge: {
 	DisplayName: Rem's Revenge
 	Tooltip:
 		'''
-		Summons blood explosions and lowers enemy defense on hit
+		Summons blood explosions and lowers enemy defense by {0} on hit
 		'A deadly morning star befitting its demonic owner'
 		'''
 }
@@ -1070,7 +1080,10 @@ SeekingScorcher: {
 	DisplayName: Seeking Scorcher
 	Tooltip:
 		'''
-		Throws a holy boomerang that seeks out up to four enemies before returning to the player
+		Throws a massive crystalline axe which bounces to three additional targets after hitting
+		Crystallizes in place if all bounces have not been exhausted
+		Crystallized hatchets can be shattered by another axe
+		Doing so empowers the hatchet based on the amount shattered but prevents it from crystallizing
 		'May your enemies burn in hell for the sins they have committed'
 		'''
 }

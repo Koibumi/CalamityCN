@@ -1,1 +1,23 @@
-
+BatWings: Improved vision
+BeeWings: Permanently gives the Honey buff
+BoneWings: Halves flight time when taking a hit
+ButterflyWings: Increases mana regeneration rate
+FestiveWings: Homing ornaments rain down as you fly
+FinWings:
+	'''
+	Gills effect and you can move freely through liquids
+	You fall faster while submerged in liquid
+	'''
+FlameWings: Multiplies all heat debuff damage by 1.25x
+FrozenWings: Multiplies all cold debuff damage by 1.25x
+HarpyWings:
+	'''
+	10% increased movement speed
+	With Harpy Ring or Angel Treads equipped, most attacks sometimes launch feathers
+	'''
+LeafWings: +10 defense and permanent Dryad's Blessing
+WingsNebula: Increases the pickup range of Nebula armor's nebula boosters
+WingsSolar: Increases Solar Flare armor's dash velocity by 25%
+WingsStardust: Greatly increases Stardust armor's stardust guardian damage and attack range
+TatteredFairyWings: You leave a trail of fairy dust as you fly
+WingsVortex: Prevents dashes from disabling Vortex armor's stealth ability

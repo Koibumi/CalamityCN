@@ -1,1 +1,23 @@
-
+BatWings: 改善视野
+BeeWings: 永久给予蜂蜜增益
+BoneWings: 受击时飞行时间减半
+ButterflyWings: 提高魔力再生速率
+FestiveWings: 飞行时掉落追踪装饰品
+FinWings:
+	'''
+	具有鱼鳃效果且允许在液体中快速移动
+	液体中下落速度加快
+	'''
+FlameWings: 所有火系减益的伤害乘以1.25
+FrozenWings: 所有冷系减益的伤害乘以1.25
+HarpyWings:
+	'''
+	提高10%移动速度
+	在装备女妖指环或天使之靴时大多数攻击会偶尔释放羽毛
+	'''
+LeafWings: 提高10点防御并永久获得树妖祝福
+WingsNebula: 提高星云盔甲的星云强化焰的拾取距离
+WingsSolar: 耀斑盔甲的冲刺速度提高25%
+WingsStardust: 大幅提高星尘盔甲召唤的星尘守卫的伤害和攻击距离
+TatteredFairyWings: 飞行时留下一道仙尘轨迹
+WingsVortex: 冲刺不会打断星旋盔甲的隐身状态

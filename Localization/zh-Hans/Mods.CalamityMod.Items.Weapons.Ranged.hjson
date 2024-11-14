@@ -34,7 +34,7 @@ AngelicShotgun: {
 	Tooltip:
 		'''
 		每次发射子弹的同时天空都会发射辐射光束
-		将火枪子弹转化为神圣空尖弹
+		Musket balls convert into hallow-point rounds which also empower the beam
 		“战斗直到胜利”
 		'''
 }
@@ -187,8 +187,8 @@ BlissfulBombardier: {
 	DisplayName: 极乐升天炮
 	Tooltip:
 		'''
-		发射圣火火箭
-		使用可摧毁物块的弹药时火箭会破坏物块
+		Launches a crystalline missile high into the sky, raining holy fire on the cursor
+		The missile relentlessly seeks out a target before bursting into a massive explosion
 		'''
 }
 
@@ -230,9 +230,9 @@ Buzzkill: {
 	DisplayName: Buzzkill
 	Tooltip:
 		'''
-		Hold <left> to rev up a buzzsaw that deals close-range damage
-		Release to fire the buzzsaw, which bounces off tiles and lacerates foes
-		Revving up the saws increases their damage and allows them to pierce more enemies
+		<left>加速旋转一把造成近程伤害的圆锯
+		释放左键会发射圆锯，可以在物块上反弹并撕裂敌人
+		加速圆锯会增加它们的伤害并允许它们穿透更多的敌怪
 		'Not to be confused with the Sawed-On Shotgun'
 		'''
 }
@@ -616,9 +616,9 @@ Hellborn: {
 	Tooltip:
 		'''
 		An ornate firearm created during the Draconic Era by Azafure's finest forgemaster
-		Hold <left> to twirl the gun in your hand, rapidly hitting nearby enemies
-		Hits with the gun itself add rounds to the gun, up to a max of 8
-		At the cost of one round, hold <right> to fire a giant energy sphere with potent recoil
+		<left>将枪在手中旋转，快速击打附近敌怪
+		用枪自身命中敌怪时会给枪装填子弹，至多8发
+		<right>时消耗一发子弹发射具有强后坐力的巨大能量球
 		[c/E1B65F:'Know the grace of a gun forged through beauteous inspiration']
 		'''
 }
@@ -830,11 +830,11 @@ NullificationPistol: {
 	DisplayName: 空
 	Tooltip:
 		'''
-		Fires discrete bolts of polarized energy. <right> to swap modes
-		Positive energy splits into three piercing beams
-		Negative energy shoots rapidly and homes in on enemies
-		All shots blow away enemies at close range
-		Each mode weakens with continuous use and resets to full power when swapped
+		发射离散的极化能量矢。<right>切换模式
+		正能量会分裂为三道穿透光束
+		负能量射速快且会追踪敌怪
+		近距离时所有射击都会击退敌怪
+		每种模式都会随持续使用而衰弱，切换模式时重置到满状态
 		'Weaponizing alien tech? Now that's what I like to hear!'
 		'''
 }
@@ -843,13 +843,13 @@ OntologicalDespoiler: {
 	DisplayName: Ontological Despoiler
 	Tooltip:
 		'''
-		Condenses chargeable pockets of concentrated unreality. <right> to swap modes
+		Condenses chargeable pockets of concentrated unreality. <right>切换模式
 		Unstable condensate shots trifurcate and pierce enemies
 		Null condensate shots fire rapidly and home in on enemies
-		At 50% charge or higher, rate of fire significantly increases
+		充能50%及以上时发射速度大幅提升
 		Fully charged unstable condensate lobs a homing disruption sphere
 		Fully charged null condensate emits a hitscan null-annihilation beam
-		Each mode charges slower when used repeatedly and resets to full speed when swapped
+		每种模式重复使用后充能速度降低，切换模式时重置到正常速度
 		'Rob them of continuity and the laws of physics they hold so dear.'
 		'''
 }
@@ -985,9 +985,19 @@ PristineFury: {
 	DisplayName: 纯元怒焰
 	Tooltip:
 		'''
-		射出一束猛烈的烈焰螺旋，爆炸成一列火柱
-		右键发射一团短程余晖烈焰
+		Fires an intense helix of flames that burst into a column of smoke
+		<right> to disperse flammable crystalline powder
+		Powder can be ignited, causuing it to explode for extra damage
+		Both helix flames and other nearby explosions can ignite the powder
 		使用凝胶作为弹药
+		'''
+	LegendaryText:
+		'''
+		Many had lost everything in what could only be described as this world's darkest hour.
+		Indescribable monsters came from the heavens, heralded by a cosmic behemoth of unimaginable might.
+		One warrior's home and family were torn from Her by these invaders, mankind's supposed protectors having abandoned them.
+		And thus did She swear an oath that one day, the light of her resplendent might would surpass even the late dragon king's sun;
+		That one day, this cruel world would see nothing less than Her perfect fury.
 		'''
 }
 
@@ -1149,7 +1159,7 @@ SomaPrime: {
 		'''
 		如果这把武器的暴击率超过了100%，它可以造成超暴击
 		所有发射的弹幕都会造成解离和可堆叠的流血减益
-		解离减益每秒造成150点伤害，该伤害受到你远程属性的影响。
+		解离减益每秒造成150点伤害，该伤害受到你远程属性的影响
 		解离减益每次造成伤害时，都有几率触发暴击或者超暴击
 		将火枪子弹转化为高速子弹
 		80%几率节省弹药
@@ -1246,7 +1256,11 @@ StormSurge: {
 
 SulphuricAcidCannon: {
 	DisplayName: 硫酸炮
-	Tooltip: 发射一个能黏在敌人身上的硫酸弹幕并溶解它们
+	Tooltip:
+		'''
+		Fires homing Acid Rockets
+		Acid Rockets stick to enemies and explode into toxic mist after a short delay
+		'''
 }
 
 SuperradiantSlaughterer: {
@@ -1259,18 +1273,18 @@ SuperradiantSlaughterer: {
 		'''
 	MainInfo:
 		'''
-		Hold <left> to rev up an elemental buzzsaw that deals close-range damage
-		Release <left> to fire the buzzsaw to pierce through and lacerate foes
-		Fired buzzsaws bounce off tiles and return to the player after winding down
-		When returning, the saws release extra homing bolts depending on the number of enemy and tile hits
-		Revving up the saws increases their damage and allows them to pierce more enemies
+		<left>加速旋转一把造成近程伤害的元素圆锯
+		释放左键会发射圆锯，可以穿透和撕裂敌人
+		发射的圆锯可以在物块上反弹并在停止时返回玩家
+		返回时，圆锯会根据命中敌怪和反弹物块的次数额外释放追踪矢
+		加速圆锯会增加它们的伤害并允许它们穿透更多的敌怪
 		'''
 	AltInfo:
 		'''
-		Press <right> to eject a lingering buzzsaw towards the cursor that fires homing bolts
-		Using this ability rapidly propels you in the direction you are moving
-		This ability has a {0} second cooldown
-		During this cooldown, buzzsaws home to the cursor and constantly release homing bolts while returning
+		<right>向光标处发射一个滞留的圆锯，圆锯会发射追踪矢
+		使用此能力会快速将你推向正在移动的方向
+		此能力有{0}秒冷却
+		冷却期间，圆锯会在返回时追踪光标并持续释放追踪矢
 		'''
 }
 
@@ -1297,17 +1311,23 @@ TauCannon: {
 	DisplayName: Tau Cannon
 	Tooltip:
 		'''
-		A bulky assault rifle with three charge levels that fires astral energy
-		Charge level one fires a burst of bolts
-		Charge level two fires a beam of energy that quickly fizzles out
-		Charge level three fires a massive laser and creates astral portals around you
+		一把发射星幻能量的笨重突击步枪，拥有三级充能
+		一级充能发射一阵小激光
+		二级充能发射一道快速消失的能量光束
+		三级充能发射一道大激光并在你周围产生星幻传送门
 		'This weapon is very ethically questionable'
 		'''
 }
 
 TelluricGlare: {
 	DisplayName: 地核之炎
-	Tooltip: 发射四支可穿透物块的爆炸辐射箭
+	Tooltip:
+		'''
+		Rapidly fires volleys of arrows
+		Every other arrow is converted into radiant greatarrows which pierce but quicky dissapear after striking
+		Wooden arrows are converted into more powerful greatarrows that deal increased damage
+		75% chance to save ammo
+		'''
 }
 
 TheBallista: {
@@ -1415,7 +1435,7 @@ UniversalGenesis: {
 		'''
 		从枪口发射一簇子弹，令一簇坠星朝鼠标位置降落
 		将火枪子弹转化为击中后召唤额外坠星的唤星弹
-		50%概率节省弹药
+		50%几率节省弹药
 		“令星空坠落到敌人头上”
 		'''
 }
@@ -1450,7 +1470,7 @@ WildfireBloom: {
 		'''
 		蓄力发射一簇能量之火和两片追踪的野火
 		使用凝胶作为弹药
-		50% 几率节省弹药
+		50%几率节省弹药
 		'''
 }
 
@@ -1460,7 +1480,7 @@ WulfrumBlunderbuss: {
 		'''
 		消耗钨钢金属废料开火
 		射击的扩散可以通过瞄准更远的地方来减少，但代价是伤害减少
-		无视敌人3点防御力
+		{$Common.ArmorPenetration}
 		[c/83B87E:“钨钢的好处是虽然随便就碎了，但它可以很快就二次利用]
 		[c/83B87E:事实上，机器人停工后即刻变成弹药是很常见的”]
 		'''
