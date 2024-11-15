@@ -1974,10 +1974,10 @@ WarbanneroftheRighteous: {
 	DisplayName: Warbanner of the Righteous
 	Tooltip:
 		'''
-		当你接近敌人时提升20%伤害，附近没有敌人时降低60%伤害。
+		当你接近敌人时提升20%伤害，附近没有敌人时降低60%伤害
 		迸发炽烈的光环，伤害并击退周围的敌怪
 		敌怪离你越近，接近时间越长，受到的伤害越高
-		Effects are transparent and silent if visibility is disabled
+		如果关闭饰品可见性，视觉效果会变得透明，且不会播放音效
 		'''
 }
 

@@ -771,7 +771,7 @@ RefractivePrismTorch: {
 }
 
 RepairUnitCage: {
-	DisplayName: Repair Unit Cage
+	DisplayName: 修复机器人笼
 	Tooltip: ""
 }
 
@@ -1972,102 +1972,102 @@ ExoWorkBench: {
 }
 
 MarniteChest: {
-	DisplayName: Marnite Chest
+	DisplayName: 合成岩箱
 	Tooltip: ""
 }
 
 MarniteDresser: {
-	DisplayName: Marnite Dresser
+	DisplayName: 合成岩梳妆台
 	Tooltip: ""
 }
 
 MarniteBathtub: {
-	DisplayName: Marnite Bathtub
+	DisplayName: 合成岩浴缸
 	Tooltip: ""
 }
 
 MarniteBed: {
-	DisplayName: Marnite Bed
+	DisplayName: 合成岩床
 	Tooltip: ""
 }
 
 MarniteBookcase: {
-	DisplayName: Marnite Bookcase
+	DisplayName: 合成岩书架
 	Tooltip: ""
 }
 
 MarniteCandelabra: {
-	DisplayName: Marnite Candelabra
+	DisplayName: 合成岩烛台
 	Tooltip: ""
 }
 
 MarniteCandle: {
-	DisplayName: Marnite Candle
+	DisplayName: 合成岩蜡烛
 	Tooltip: ""
 }
 
 MarniteChair: {
-	DisplayName: Marnite Chair
+	DisplayName: 合成岩椅
 	Tooltip: ""
 }
 
 MarniteChandelier: {
-	DisplayName: Marnite Chandelier
+	DisplayName: 合成岩吊灯
 	Tooltip: ""
 }
 
 MarniteClock: {
-	DisplayName: Marnite Clock
+	DisplayName: 合成岩钟
 	Tooltip: ""
 }
 
 MarniteDoor: {
-	DisplayName: Marnite Door
+	DisplayName: 合成岩门
 	Tooltip: ""
 }
 
 MarniteLamp: {
-	DisplayName: Marnite Lamp
+	DisplayName: 合成岩灯
 	Tooltip: ""
 }
 
 MarniteLantern: {
-	DisplayName: Marnite Lantern
+	DisplayName: 合成岩灯笼
 	Tooltip: ""
 }
 
 MarniteLight: {
-	DisplayName: Marnite Light
+	DisplayName: 合成岩火把
 	Tooltip: ""
 }
 
 MarniteOrgan: {
-	DisplayName: Marnite Organ
+	DisplayName: 合成岩钢琴
 	Tooltip: ""
 }
 
 MarniteSink: {
-	DisplayName: Marnite Sink
+	DisplayName: 合成岩水槽
 	Tooltip: ""
 }
 
 MarniteSofa: {
-	DisplayName: Marnite Sofa
+	DisplayName: 合成岩长凳
 	Tooltip: ""
 }
 
 MarniteTable: {
-	DisplayName: Marnite Table
+	DisplayName: 合成岩桌
 	Tooltip: ""
 }
 
 MarniteToilet: {
-	DisplayName: Marnite Toilet
+	DisplayName: 合成岩马桶
 	Tooltip: ""
 }
 
 MarniteWorkBench: {
-	DisplayName: Marnite Work Bench
+	DisplayName: 合成岩工作台
 	Tooltip: ""
 }
 
@@ -3156,7 +3156,7 @@ LivingHolyFireBlock: {
 }
 
 LivingPlagueFireBlock: {
-	DisplayName: Living Plague Fire Block
+	DisplayName: 永燃瘟疫火
 	Tooltip: ""
 }
 

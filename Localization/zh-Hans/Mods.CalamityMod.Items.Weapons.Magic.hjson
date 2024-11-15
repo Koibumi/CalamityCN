@@ -680,7 +680,7 @@ PurgeGuzzler: {
 	DisplayName: 净化激光炮
 	Tooltip:
 		'''
-		Fires a barrage of holy rays that converge into two massive sweeping beams
+		连续发射一阵神圣光束，这些光束汇聚成两道强力的扫射光束
 		'Baptism by holy fire'
 		'''
 }

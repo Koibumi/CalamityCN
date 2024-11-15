@@ -261,10 +261,10 @@ BurningRevelation: {
 	DisplayName: 渎焚天启
 	Tooltip:
 		'''
-		An ever burning yoyo that constantly charges power
-		Direct hits greatly increase the charge and release profaned energy that scales with charge level
-		At maximum charge, the yoyo unleashes a volley of homing stars that gain damage the farther they travel
-		Stars with maximum damage let off an additional explosion on hit
+		一只永燃的悠悠球，不断地积蓄着能量
+		直接命中敌怪将大幅提升充能，并释放出随充能等级变强的亵渎能量
+		当充能达到最大时，将会释放出一连串追踪新星，新星随飞行距离提升伤害
+		伤害达到最高的新星命中敌怪时，还将额外引发一次爆炸
 		'It burns, but you hold it close to your heart. Clarity and purpose fill your soul'
 		'''
 }
@@ -340,7 +340,9 @@ DeathsAscension: {
 	DisplayName: 死神擢升
 	Tooltip:
 		'''
-		右键发射一连串追踪镰刀
+		Performs powerful soul-infused swings that creates a rift orbited by scythes on enemy hits
+		<right>发射一连串追踪镰刀
+		The rift will fire scythes along with you
 		'It feels just right in your grip...
 		[c/660066:But the hands that wield it are not yours']
 		'''

@@ -390,10 +390,10 @@ RelicOfConvergence: {
 	DisplayName: 聚魂圣物
 	Tooltip:
 		'''
-		Creates a profaned crystal at the cursor that channels a healing aura before shattering
-		All players within the area of effect are healed for {0} HP
-		Allies gain 50% extra healing
-		Holding out the crystal heavily reduces the damage of all summons
+		在光标位置创造一块亵渎水晶，水晶会释放治愈光环，随后破碎
+		所有在作用范围内的玩家会被治疗{0}点生命值
+		队友受到额外50%治疗
+		举起这块水晶会大幅降低所有召唤物的伤害
 		'''
 }
 
@@ -432,10 +432,10 @@ RelicOfResilience: {
 	DisplayName: Relic Of Resilience
 	Tooltip:
 		'''
-		Holding this item creates orbiting rock shards around you and nearby allies
-		While they orbit you, your minimum defense is set to 150 and minimum damage reduction to 10%
-		Taking a hit or pressing <right> will pull in the shards, then blast them outward, crippling hit enemies
-		This effect has a 10 second cooldown after taking a hit
-		Holding out the shield heavily reduces the damage of all summons while rocks are active, only for you
+		手持这件物品会使亵渎碎岩环绕你和附近队友旋转
+		环绕的碎岩将你的最低防御设置为150，最低伤害减免设置为10%
+		受击或按下<right>吸收碎片，随即炸裂开来，削弱命中的敌人
+		在受击后，这个效果有10秒的冷却时间
+		举起护盾且亵渎碎岩处于激活状态时，大幅降低所有召唤物的伤害，仅对手持这件物品的玩家生效
 		'''
 }
