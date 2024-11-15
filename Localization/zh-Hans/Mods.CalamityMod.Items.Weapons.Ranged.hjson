@@ -34,7 +34,7 @@ AngelicShotgun: {
 	Tooltip:
 		'''
 		每次发射子弹的同时天空都会发射辐射光束
-		Musket balls convert into hallow-point rounds which also empower the beam
+		将火枪子弹转化为神圣空尖弹，同时增强辐射光束
 		“战斗直到胜利”
 		'''
 }
@@ -187,8 +187,8 @@ BlissfulBombardier: {
 	DisplayName: 极乐升天炮
 	Tooltip:
 		'''
-		Launches a crystalline missile high into the sky, raining holy fire on the cursor
-		The missile relentlessly seeks out a target before bursting into a massive explosion
+		向高空发射一发圣晶导弹，向光标处倾泻圣火
+		导弹将持续追踪目标，最终化为巨大的爆炸
 		'''
 }
 
@@ -985,10 +985,10 @@ PristineFury: {
 	DisplayName: 纯元怒焰
 	Tooltip:
 		'''
-		Fires an intense helix of flames that burst into a column of smoke
-		<right> to disperse flammable crystalline powder
-		Powder can be ignited, causuing it to explode for extra damage
-		Both helix flames and other nearby explosions can ignite the powder
+		射出一束猛烈的烈焰螺旋，爆裂成一列火柱
+		<right>来散布可燃性圣晶粉末
+		点燃粉末能造成爆炸，并造成额外伤害
+		烈焰螺旋和附近的其他爆炸都能点燃粉末
 		使用凝胶作为弹药
 		'''
 	LegendaryText:
@@ -1258,8 +1258,8 @@ SulphuricAcidCannon: {
 	DisplayName: 硫酸炮
 	Tooltip:
 		'''
-		Fires homing Acid Rockets
-		Acid Rockets stick to enemies and explode into toxic mist after a short delay
+		发射追踪的酸性火箭
+		酸性火箭将黏在敌人身上，短暂的延迟后爆炸成剧毒烟雾
 		'''
 }
 
@@ -1323,10 +1323,10 @@ TelluricGlare: {
 	DisplayName: 地核之炎
 	Tooltip:
 		'''
-		Rapidly fires volleys of arrows
-		Every other arrow is converted into radiant greatarrows which pierce but quicky dissapear after striking
-		Wooden arrows are converted into more powerful greatarrows that deal increased damage
-		75% chance to save ammo
+		迅速发射一连串箭矢
+		每隔一箭，将箭矢转化为能够穿透的光耀巨箭，但在击中后迅速消失
+		将木箭转化为更强力的巨箭，造成更高伤害
+		75%几率节省弹药
 		'''
 }
 

@@ -30,13 +30,13 @@ RelicOfDeliverance: {
 	DisplayName: 渡魂圣物
 	Tooltip:
 		'''
-		Using <left> mounts you on the spear; holding <left> revvs the spear, slowing you down
-		Release to launch yourself at high speeds, halved while a boss is alive
-		Losing too much speed while charging will bust the charge, resetting your speed
-		The dash allows you to ram through enemies and travel through tiles
-		Being inside tiles for too long will warp you back to where you entered
-		Press <right> to dismount
-		Holding out the spear heavily reduces the damage of all summons
+		使用<left>使你骑乘在矛上；长按<left>进一步驱动长矛，并使你减速
+		释放将你以高速发射出去，但在有boss存活时减半
+		蓄力时失去太多速度将终止蓄力，并重置你的速度
+		这种冲刺能使你撞击穿过敌怪，也能穿过物块
+		滞留在物块中过久会将你传送回进入物块的位置
+		按下<right>来脱离长矛
+		举起这柄长矛会大幅降低所有召唤物的伤害
 		'''
 }
 
