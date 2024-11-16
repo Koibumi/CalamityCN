@@ -843,13 +843,13 @@ OntologicalDespoiler: {
 	DisplayName: Ontological Despoiler
 	Tooltip:
 		'''
-		Condenses chargeable pockets of concentrated unreality. <right>切换模式
-		Unstable condensate shots trifurcate and pierce enemies
-		Null condensate shots fire rapidly and home in on enemies
-		充能50%及以上时发射速度大幅提升
-		Fully charged unstable condensate lobs a homing disruption sphere
-		Fully charged null condensate emits a hitscan null-annihilation beam
-		每种模式重复使用后充能速度降低，切换模式时重置到正常速度
+		能量槽中凝集了浓缩的虚妄，可进行充能。右键可以切换模式。
+		失序精华会以三分叉的轨迹发射并穿透敌人
+		空无精华以火焰形式快速发射，并跟踪敌人
+		达到50%或更高的充能进度，攻击频率会显著提升
+		完全充能的失序精华会抛射一团跟踪的阻断能量球
+		空无精华则会投射一道空无湮灭射线束
+		反复使用同一种模式会降低充能速度，切换模式后会恢复原速度
 		'Rob them of continuity and the laws of physics they hold so dear.'
 		'''
 }
