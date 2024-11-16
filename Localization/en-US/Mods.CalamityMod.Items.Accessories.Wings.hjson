@@ -159,7 +159,7 @@ TracersCelestial: {
 		Horizontal speed: 9.00
 		Acceleration multiplier: 2.6
 		Good vertical speed
-		Flight time: 140
+		Flight time: 160
 		24% increased running acceleration and greater mobility on ice
 		Provides the ability to walk on water, honey, and lava
 		Grants immunity to fire and lava
@@ -175,7 +175,7 @@ TracersElysian: {
 		Horizontal speed: 10.00
 		Acceleration multiplier: 2.7
 		Great vertical speed
-		Flight time: 180
+		Flight time: 220
 		36% increased running acceleration and greater mobility on ice
 		Provides the ability to walk on water, honey, and lava
 		Grants immunity to fire and lava

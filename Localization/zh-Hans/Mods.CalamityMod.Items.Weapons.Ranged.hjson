@@ -1387,8 +1387,9 @@ TheStorm: {
 	DisplayName: 风暴
 	Tooltip:
 		'''
-		发射巨量从天而降的箭矢
-		将木箭转化为能源箭矢
+		Fires a spread of homing lightning bolts and arrows from the sky
+		Converts wooden arrows into powerful electric beams
+		95%几率节省弹药
 		'''
 }
 

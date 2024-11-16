@@ -519,7 +519,7 @@ TarragonHeadMelee: {
 	DisplayName: 龙蒿战盔
 	Tooltip:
 		'''
-		增加12%近战伤害和近战暴击率		
+		增加12%近战伤害和7%近战暴击率		
 		增加10%伤害减免
 		'''
 	SetBonus:

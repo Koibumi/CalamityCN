@@ -26,7 +26,6 @@ BloodClotFriendly.DisplayName: 血凝块
 BloodfireArrowProj.DisplayName: 血炎箭
 BloodfireBulletProj.DisplayName: 血炎弹
 BloodflareSoul.DisplayName: 血灵
-Bolt.DisplayName: 风暴
 BoltArrow.DisplayName: 闪电箭
 BouncingShotgunPellet.DisplayName: 霰弹枪子弹
 BrimstoneBolt.DisplayName: 硫火飞弹
@@ -230,6 +229,7 @@ TheMaelstromExplosion.DisplayName: 爆炸
 TheMaelstromShark.DisplayName: 猎魂鲨
 ThePackMinissile.DisplayName: 集束迷你火箭
 ThePackMissile.DisplayName: 集束火箭
+TheStormLightningShot.DisplayName: 风暴
 TitaniumRailgunScope.DisplayName: 钛金指示
 TitaniumRailgunShot.DisplayName: 钛金灭却光
 TorrentialArrow.DisplayName: 洪流箭

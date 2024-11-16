@@ -26,7 +26,6 @@ BloodClotFriendly.DisplayName: Blood Clot
 BloodfireArrowProj.DisplayName: Bloodfire Arrow
 BloodfireBulletProj.DisplayName: Bloodfire Bullet
 BloodflareSoul.DisplayName: Blood Soul
-Bolt.DisplayName: Storm Bolt
 BoltArrow.DisplayName: Bolt Arrow
 BouncingShotgunPellet.DisplayName: Shotgun Pellet
 BrimstoneBolt.DisplayName: Brimstone Bolt
@@ -230,6 +229,7 @@ TheMaelstromExplosion.DisplayName: Reaper Explosion
 TheMaelstromShark.DisplayName: Reaper Shark
 ThePackMinissile.DisplayName: Pack Minissile
 ThePackMissile.DisplayName: Pack Missile
+TheStormLightningShot.DisplayName: Storm Bolt
 TitaniumRailgunScope.DisplayName: Titanium Scope
 TitaniumRailgunShot.DisplayName: Titanium Decimator
 TorrentialArrow.DisplayName: Torrential Arrow

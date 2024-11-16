@@ -1387,8 +1387,9 @@ TheStorm: {
 	DisplayName: The Storm
 	Tooltip:
 		'''
-		Fires a spread of arrows from the sky
-		Converts wooden arrows into lightning bolts
+		Fires a spread of homing lightning bolts and arrows from the sky
+		Converts wooden arrows into powerful electric beams
+		95% chance to save ammo
 		'''
 }
 
