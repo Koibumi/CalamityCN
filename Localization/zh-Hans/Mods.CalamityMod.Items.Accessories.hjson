@@ -216,10 +216,10 @@ ArcFlashRing: {
 	DisplayName: Arc Flash Ring
 	Tooltip:
 		'''
-		Attacks have a 6% chance to call down a lightning bolt for 4x damage
-		The chance is reduced for each enemy an attack hits
-		The bolt's damage is based on non-crit damage, but can itself crit 
-		Bolts are transparent and silent if visibility is disabled
+		你的攻击有6%几率召唤从天而降的闪电，造成4倍伤害
+		每击中一个敌怪，这次攻击召唤闪电的概率就会降低
+		闪电的伤害基于非暴击伤害，但能够暴击
+		如果关闭饰品可见性，闪电效果会变得透明且安静
 		'''
 }
 

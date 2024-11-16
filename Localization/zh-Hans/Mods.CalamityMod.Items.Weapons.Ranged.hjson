@@ -843,7 +843,7 @@ OntologicalDespoiler: {
 	DisplayName: Ontological Despoiler
 	Tooltip:
 		'''
-		能量槽中凝集了浓缩的虚妄，可进行充能。右键可以切换模式。
+		能量槽中凝集了浓缩的虚妄，可进行充能。<right>切换模式。
 		失序精华会以三分叉的轨迹发射并穿透敌人
 		空无精华以火焰形式快速发射，并跟踪敌人
 		达到50%或更高的充能进度，攻击频率会显著提升
