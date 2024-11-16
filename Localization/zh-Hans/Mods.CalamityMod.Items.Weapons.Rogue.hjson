@@ -735,11 +735,11 @@ MoltenAmputator: {
 	DisplayName: 熔岩切碎者
 	Tooltip:
 		'''
-		Throw a spinning scythe that lingers at your cursor
-		<right> to recall all existing scythes
-		Recalling a scythe while it's on an enemy rends them for massive damage
-		<right> with a full stealth bar to empower yourself, greatly increasing attack speed for a short time
-		You cannot recall scythes thrown while empowered
+		扔出一个旋转的镰刀，在光标处停留一段时间
+		<right>以召回所有存在的镰刀
+		召回正在攻击敌怪的镰刀将会撕裂敌怪，造成巨额伤害
+		在满潜伏槽时<right>能够强化你自己，在短时间内大幅提升攻击速度
+		在强化期间，你不能召回扔出去的镰刀
 		'''
 }
 

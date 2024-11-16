@@ -340,9 +340,9 @@ DeathsAscension: {
 	DisplayName: 死神擢升
 	Tooltip:
 		'''
-		Performs powerful soul-infused swings that creates a rift orbited by scythes on enemy hits
+		进行强力的灵魂斩击，在命中敌人时产生被镰刀环绕的时空裂隙
 		<right>发射一连串追踪镰刀
-		The rift will fire scythes along with you
+		裂隙会与你一起发射镰刀
 		'It feels just right in your grip...
 		[c/660066:But the hands that wield it are not yours']
 		'''
@@ -724,11 +724,11 @@ HolyCollider: {
 	DisplayName: 圣火之刃
 	Tooltip:
 		'''
-		Swings a holy greatsword that can be charged for higher damage
-		Charged swings create four lingering flares that float around the point of impact
-		Striking a flare with an uncharged strike will push it around and extend its lifetime
-		Charged swings can empower flares, turning them into massive fireballs on hit and launching them to your cursor
-		Holding <right> while swinging will repeatedly do uncharged slashes that create a spread of flames on hit
+		挥舞一把神圣的巨剑，能够蓄力以提升伤害
+		蓄力挥击会在命中位置周围生成神圣之火
+		用未蓄力的挥击击中神圣之火会推动圣火，并延长其持续时间
+		蓄力挥击能为圣火注能，击中时将其转化为圣之爆焱，并发射向你的光标
+		在挥舞时按住<right>会重复进行未蓄力的挥击，在命中时散布神圣之火
 		'''
 }
 
@@ -1082,10 +1082,10 @@ SeekingScorcher: {
 	DisplayName: 焚罪飞斧
 	Tooltip:
 		'''
-		Throws a massive crystalline axe which bounces to three additional targets after hitting
-		Crystallizes in place if all bounces have not been exhausted
-		Crystallized hatchets can be shattered by another axe
-		Doing so empowers the hatchet based on the amount shattered but prevents it from crystallizing
+		投掷巨大的圣晶飞斧，命中后至多弹射向三个额外目标
+		如果弹射次数没有耗尽，飞斧将在消失处化为圣晶
+		圣晶化的飞斧能被另一发飞斧击碎
+		这发飞斧会根据击碎圣晶的数量获得强化，但不再能化为圣晶
 		“你的敌人将连同他们的罪孽一起在地狱中焚烧殆尽”
 		'''
 }
