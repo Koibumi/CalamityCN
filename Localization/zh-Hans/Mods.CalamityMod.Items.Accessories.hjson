@@ -53,7 +53,6 @@ AbyssalMirror: {
 		敌怪不太可能瞄准你，即便是在深渊中亦是如此
 		潜行值恢复速度在站定不动时增加25%，在移动时增加12%
 		使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
-		“光无法到达海洋深处”
 		'''
 	HoldShiftTooltip:
 		'''
@@ -62,6 +61,7 @@ AbyssalMirror: {
 		该冷却时间与其他的闪避或反弹效果共享
 		闪避攻击时会使你获得潜行值
 		'''
+	FlavorTooltip: “光无法到达海洋深处”
 }
 
 AeroStone: {
@@ -1975,9 +1975,9 @@ WarbanneroftheRighteous: {
 	Tooltip:
 		'''
 		当你接近敌人时提升20%伤害，附近没有敌人时降低60%伤害
-		迸发炽烈的光环，伤害并击退周围的敌怪
+		迸发炽烈的光环，灼烧并击退周围的敌怪
 		敌怪离你越近，接近时间越长，受到的伤害越高
-		如果关闭饰品可见性，视觉效果会变得透明，且不会播放音效
+		如果关闭饰品可见性，饰品效果会变得透明且安静
 		'''
 }
 
@@ -2025,7 +2025,7 @@ YharimsGift: {
 		被击中时会使燃火流星从天而降
 		移动时会在身后留下爆裂龙尘
 		增加15%伤害和移动速度
-		神的力量蕴藏于其中
+		[c/FCA92B:“神的力量蕴藏于其中”]
 		'''
 }
 
@@ -2100,7 +2100,7 @@ XyksBlessingBlue: {
 	Tooltip:
 		'''
 		为你的冲刺和死亡添加视觉效果
-		<right> 以改变形态
+		<right>以改变形态
 		'It's simply too much to turn back now; passion and time have long since stained it.
 		[c/5f8ae1:Have I always been so selfish?']
 		'''
@@ -2111,7 +2111,7 @@ XyksBlessingOrange: {
 	Tooltip:
 		'''
 		为你的冲刺和死亡添加视觉效果
-		<right> 以改变形态
+		<right>以改变形态
 		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
 		[c/E1B65F:Prove that it was never a waste.']
 		'''

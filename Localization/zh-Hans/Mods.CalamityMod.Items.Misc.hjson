@@ -429,7 +429,7 @@ SuperDummy: {
 }
 
 RelicOfResilience: {
-	DisplayName: Relic Of Resilience
+	DisplayName: 塑魂圣物
 	Tooltip:
 		'''
 		手持这件物品会使亵渎碎岩环绕你和附近队友旋转

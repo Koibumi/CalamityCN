@@ -53,7 +53,6 @@ AbyssalMirror: {
 		Enemies are less likely to target you, even in the abyss
 		Generate stealth 25% faster when standing still and 12% faster while moving
 		Grants the ability to dodge attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies
-		'Light does not reach the depths of the ocean'
 		'''
 	HoldShiftTooltip:
 		'''
@@ -62,6 +61,7 @@ AbyssalMirror: {
 		This cooldown is shared with all other dodges and reflects
 		Dodging an attack gives stealth
 		'''
+	FlavorTooltip: "'Light does not reach the depths of the ocean'"
 }
 
 AeroStone: {
@@ -2024,7 +2024,7 @@ YharimsGift: {
 		Flaming meteors rain down after getting hit
 		Volatile dragon dust trails behind you
 		Increases damage and movement speed by 15%
-		The power to kill a god pulses from within this artifact
+		[c/FCA92B:'The power to kill a god pulses from within this artifact']
 		'''
 }
 
