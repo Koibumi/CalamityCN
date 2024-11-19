@@ -1235,15 +1235,6 @@ StellarCannon: {
 	Tooltip: Launches an explosive astral crystal
 }
 
-StormDragoon: {
-	DisplayName: Storm Dragoon
-	Tooltip:
-		'''
-		Fires a spray of bullets
-		90% chance to save ammo
-		'''
-}
-
 StormSurge: {
 	DisplayName: Storm Surge
 	Tooltip:

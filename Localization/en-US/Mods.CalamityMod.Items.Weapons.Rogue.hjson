@@ -90,16 +90,6 @@ BouncingEyeball: {
 		'''
 }
 
-BouncySpikyBall: {
-	DisplayName: Bouncy Spiky Ball
-	Tooltip:
-		'''
-		Throws a very bouncy ball that ricochets off walls and enemies
-		Receives a small boost in damage and velocity after bouncing off an enemy
-		Stealth strikes throw four at once
-		'''
-}
-
 Brimblade: {
 	DisplayName: Brimblade
 	Tooltip:
@@ -396,8 +386,9 @@ FantasyTalisman: {
 	Tooltip:
 		'''
 		Fires high velocity talismans that ignore gravity
-		Talismans attach to enemies, causing them to release lost souls
-		Stealth strikes release more souls and leave behind souls as they travel
+		Talismans attach to enemies, releasing vengeful souls that chase them down
+		Stealth strikes release more souls and erupt into lost souls on death
+		'Good thing I didn't bet against you!'
 		'''
 }
 
@@ -742,15 +733,6 @@ MoltenAmputator: {
 		'''
 }
 
-MonkeyDarts: {
-	DisplayName: Monkey Darts
-	Tooltip:
-		'''
-		Stealth strikes throw 3 bouncing darts at high speed
-		'Perfect for popping'
-		'''
-}
-
 Mycoroot: {
 	DisplayName: Mycoroot
 	Tooltip:
@@ -851,16 +833,6 @@ Plaguenade: {
 		'''
 		Releases a swarm of angry plague bees
 		Stealth strikes spawn more bees and generate a larger explosion
-		'''
-}
-
-PoisonPack: {
-	DisplayName: Poison Pack
-	Tooltip:
-		'''
-		Throws up to 3 poisonous spiky balls
-		Stealth strikes cause the balls to release spore clouds
-		Press <right> to delete all existing spiky balls
 		'''
 }
 
@@ -1173,15 +1145,6 @@ StellarKnife: {
 		'''
 }
 
-StickySpikyBall: {
-	DisplayName: Sticky Spiky Ball
-	Tooltip:
-		'''
-		Throws a spiky ball that sticks to everything
-		Stealth strikes throw four at once and last a lot longer
-		'''
-}
-
 StormfrontRazor: {
 	DisplayName: Stormfront Razor
 	Tooltip:
@@ -1412,6 +1375,5 @@ WulfrumKnife: {
 		'''
 		Fires wulfrum knives in bursts of 3
 		Stealth strikes make the knife fly further and hit several times at once
-		Hold <right> to magnetize all nearby fallen knives back to you
 		'''
 }

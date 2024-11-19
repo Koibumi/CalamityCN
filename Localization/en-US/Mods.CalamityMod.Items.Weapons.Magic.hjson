@@ -344,7 +344,11 @@ FatesReveal: {
 
 FlareBolt: {
 	DisplayName: Flare Bolt
-	Tooltip: Casts a slow-moving ball of flame
+	Tooltip:
+		'''
+		Casts a ball of flame
+		Balls of flame collapse into a swirling backdraft which pulls in enemies
+		'''
 }
 
 ForbiddenSun: {
@@ -354,12 +358,22 @@ ForbiddenSun: {
 
 FrigidflashBolt: {
 	DisplayName: Frigidflash Bolt
-	Tooltip: Casts a slow-moving ball of flash-freezing magma
+	Tooltip:
+		'''
+		Casts a fast ball of flash-freezing magma that bounces off tiles
+		When hitting a tile, a flarefrost burst is produced
+		Press <right> to cast an empowered ball that creates a collapsing flarefrost vortex which explodes
+		'''
 }
 
 FrostBolt: {
 	DisplayName: Frost Bolt
-	Tooltip: Casts a slow-moving ball of frost
+	Tooltip:
+		'''
+		Casts a ball of frost that bounces off tiles
+		When hitting a tile, a small frost burst is produced
+		Frost projectiles will fall to the ground after enough time has passed
+		'''
 }
 
 Genesis: {

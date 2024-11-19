@@ -168,7 +168,7 @@ StatigelHeadRogue: {
 	DisplayName: Statigel Mask
 	Tooltip:
 		'''
-		10% increased rogue damage and 34% chance to not consume rogue items
+		10% increased rogue damage
 		7% increased rogue critical strike chance and 5% increased movement speed
 		'''
 	SetBonus: +90 maximum stealth

@@ -1235,15 +1235,6 @@ StellarCannon: {
 	Tooltip: 发射一个爆炸幻星水晶
 }
 
-StormDragoon: {
-	DisplayName: 风暴龙骑士
-	Tooltip:
-		'''
-		发射数颗子弹
-		90%几率节省弹药
-		'''
-}
-
 StormSurge: {
 	DisplayName: 旋风发射器
 	Tooltip:

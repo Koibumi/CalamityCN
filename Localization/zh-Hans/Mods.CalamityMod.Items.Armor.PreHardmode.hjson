@@ -168,7 +168,7 @@ StatigelHeadRogue: {
 	DisplayName: 斯塔提斯面具
 	Tooltip:
 		'''
-		增加10%盗贼伤害，34%几率不消耗盗贼武器
+		增加10%盗贼伤害
 		增加7%盗贼暴击率和5%移动速度
 		'''
 	SetBonus: 增加90点最大潜行值

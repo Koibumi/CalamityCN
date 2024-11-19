@@ -1,13 +1,22 @@
 Brimrose: {
 	DisplayName: Brimrose
-	Tooltip: Summons a brimrose mount
+	Tooltip: Summons a rideable Brimrose mount
+}
+
+ExoArmamentsKit: {
+	DisplayName: Exo Armaments Kit
+	Tooltip:
+		'''
+		Summons a rideable war machine
+		'A superweapon just right for your stature'
+		'''
 }
 
 ExoThrone: {
 	DisplayName: Exo Box
 	Tooltip:
 		'''
-		Materializes a quite cozy and extremely nimble flying Exo throne
+		Materializes a quite cozy and extremely nimble flying Exo Throne mount
 		Hold [KEY] while sitting in the throne to move slower for more precision
 		'A comfortable gamer is a dangerous gamer'
 		'''
@@ -24,14 +33,14 @@ Fabsol: {
 
 FollyFeed: {
 	DisplayName: Folly Feed
-	Tooltip: Summons a monstrosity
+	Tooltip: Summons a rideable monstrosity
 }
 
 GazeOfCrysthamyr: {
 	DisplayName: Gaze of Crysthamyr
 	Tooltip:
 		'''
-		Summons a shadow dragon
+		Summons a rideable shadow dragon mount
 		Hold Up to ascend faster
 		'''
 }
@@ -45,7 +54,8 @@ OnyxExcavatorKey: {
 	DisplayName: Onyx Excavator Key
 	Tooltip:
 		'''
-		Summons a drill to drill through the world so you can destroy all the neat world generation
+		Summons a rideable Onyx Drill mount
+		<left> to mine blocks in front of you so you can destroy all the neat world generation
 		with complete disregard for all the creatures that inhabit these lands
 		I am sure the EPA and PETA would like to have a word with you afterwards
 		The power of the destruction scales with the highest powered pickaxe in your inventory
@@ -59,5 +69,5 @@ SuspiciousLookingJellyBean: {
 
 TundraLeash: {
 	DisplayName: Tundra Leash
-	Tooltip: Summons a Rimehound mount
+	Tooltip: Summons a rideable Rimehound mount
 }

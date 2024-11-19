@@ -91,16 +91,6 @@ BouncingEyeball: {
 		'''
 }
 
-BouncySpikyBall: {
-	DisplayName: 弹跳尖钉球
-	Tooltip:
-		'''
-		丢出在墙和敌怪之间反弹的弹球
-		每弹一次，伤害和弹跳速度都会小幅增加
-		潜伏攻击会同时丢出4个弹跳尖钉球
-		'''
-}
-
 Brimblade: {
 	DisplayName: 硫火手里剑
 	Tooltip:
@@ -397,8 +387,9 @@ FantasyTalisman: {
 	Tooltip:
 		'''
 		发射不受重力影响的高速符札
-		符札会黏在敌人身上，使它们不断释放追踪的失落灵魂
-		潜伏攻击会释放更多的灵魂并在飞行轨迹上也释放灵魂
+		Talismans attach to enemies, releasing vengeful souls that chase them down
+		Stealth strikes release more souls and erupt into lost souls on death
+		'Good thing I didn't bet against you!'
 		'''
 }
 
@@ -743,15 +734,6 @@ MoltenAmputator: {
 		'''
 }
 
-MonkeyDarts: {
-	DisplayName: 猴子飞镖
-	Tooltip:
-		'''
-		潜伏攻击扔出三把高速弹跳飞刀
-		“非常适合用来扎破气球”
-		'''
-}
-
 Mycoroot: {
 	DisplayName: 狂菌根系
 	Tooltip:
@@ -852,16 +834,6 @@ Plaguenade: {
 		'''
 		释放大量瘟疫蜜蜂
 		潜伏攻击会产生一次大爆炸并生成更多的蜜蜂
-		'''
-}
-
-PoisonPack: {
-	DisplayName: 剧毒尖钉球
-	Tooltip:
-		'''
-		扔出至多3个剧毒尖钉球
-		潜伏攻击会使尖钉球释放毒云
-		右键收回所有尖钉球
 		'''
 }
 
@@ -1174,15 +1146,6 @@ StellarKnife: {
 		'''
 }
 
-StickySpikyBall: {
-	DisplayName: 粘性尖钉球
-	Tooltip:
-		'''
-		投掷可以黏住一切的尖钉球
-		潜伏攻击会一次性扔出4尖钉球个并延长持续时间
-		'''
-}
-
 StormfrontRazor: {
 	DisplayName: 风暴剃刃
 	Tooltip:
@@ -1413,6 +1376,5 @@ WulfrumKnife: {
 		'''
 		以三连发的方式发射钨钢飞刀
 		潜伏攻击会使飞刀飞得更远并一次性造成多次命中伤害
-		长按右键以磁化并收回附近所有的飞刀
 		'''
 }

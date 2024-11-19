@@ -307,6 +307,11 @@ DraedonGamerChairBuff: {
 	Description: 坐在一把挑战物理的游戏椅上
 }
 
+ExoTankBuff: {
+	DisplayName: Rainbow Road Roller
+	Description: Your foes shall fall within your calculations
+}
+
 GazeOfCrysthamyrBuff: {
 	DisplayName: 克里斯塔米尔的凝视
 	Description: 你骑着一只暗影飞龙

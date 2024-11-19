@@ -275,7 +275,7 @@ HydrothermicHeadRogue: {
 	Tooltip:
 		'''
 		12% increased rogue damage and 10% increased rogue critical strike chance
-		50% chance to not consume rogue items and 5% increased movement speed
+		5% increased movement speed
 		Grants immunity to fire and lava
 		'''
 	SetBonus:
@@ -523,11 +523,7 @@ TitanHeartBoots: {
 
 TitanHeartMantle: {
 	DisplayName: Titan Heart Mantle
-	Tooltip:
-		'''
-		45% chance to not consume rogue items
-		5% boosted rogue knockback but 15% lowered rogue attack speed
-		'''
+	Tooltip: 5% boosted rogue knockback but 15% lowered rogue attack speed
 }
 
 TitanHeartMask: {

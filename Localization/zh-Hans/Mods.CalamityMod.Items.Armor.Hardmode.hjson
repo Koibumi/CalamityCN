@@ -275,7 +275,7 @@ HydrothermicHeadRogue: {
 	Tooltip:
 		'''
 		增加12%盗贼伤害和10%盗贼暴击率
-		50%几率不消耗盗贼武器并增加5%移动速度
+		增加5%移动速度
 		免疫火焰和熔岩
 		'''
 	SetBonus:
@@ -523,11 +523,7 @@ TitanHeartBoots: {
 
 TitanHeartMantle: {
 	DisplayName: 泰坦之心斗篷
-	Tooltip:
-		'''
-		45%几率不消耗盗贼武器
-		增加5%击退，但降低15%盗贼攻击速度
-		'''
+	Tooltip: 增加5%击退，但降低15%盗贼攻击速度
 }
 
 TitanHeartMask: {

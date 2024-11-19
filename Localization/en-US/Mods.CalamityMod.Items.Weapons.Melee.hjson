@@ -1099,6 +1099,16 @@ Shimmerspark: {
 		'''
 }
 
+SkytideDragoon: {
+	DisplayName: Skytide Dragoon
+	Tooltip:
+		'''
+		Calls down a thunderbolt to strike and charge the tip of the spear
+		Press <left> to discharge the electricity as a spread of bolts that narrows as you spend the energy
+		Hold <right> when the spear catches the thunderbolt to redirect it to the cursor
+		'''
+}
+
 SmokingComet: {
 	DisplayName: Smoking Comet
 	Tooltip: Rains stars from the sky

@@ -307,6 +307,11 @@ DraedonGamerChairBuff: {
 	Description: Riding a physics defying gamer chair
 }
 
+ExoTankBuff: {
+	DisplayName: Rainbow Road Roller
+	Description: Your foes shall fall within your calculations
+}
+
 GazeOfCrysthamyrBuff: {
 	DisplayName: Gaze of Crysthamyr
 	Description: You are riding a shadow dragon
