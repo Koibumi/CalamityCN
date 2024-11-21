@@ -387,8 +387,8 @@ FantasyTalisman: {
 	Tooltip:
 		'''
 		发射不受重力影响的高速符札
-		Talismans attach to enemies, releasing vengeful souls that chase them down
-		Stealth strikes release more souls and erupt into lost souls on death
+		符札会黏在敌人身上，释放追逐它们的复仇灵魂
+		潜伏攻击会释放更多的灵魂并在消失时爆出失落灵魂
 		'Good thing I didn't bet against you!'
 		'''
 }
@@ -726,10 +726,10 @@ MoltenAmputator: {
 	DisplayName: 熔岩切碎者
 	Tooltip:
 		'''
-		扔出一个旋转的镰刀，在光标处停留一段时间
-		<right>以召回所有存在的镰刀
+		扔出一把在光标处滞留的旋转镰刀
+		<right>召回所有存在的镰刀
 		召回正在攻击敌怪的镰刀将会撕裂敌怪，造成巨额伤害
-		在满潜伏槽时<right>能够强化你自己，在短时间内大幅提升攻击速度
+		在满潜伏条时<right>能够强化自身，在短时间内大幅提升攻击速度
 		在强化期间，你不能召回扔出去的镰刀
 		'''
 }

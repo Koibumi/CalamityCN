@@ -7,7 +7,7 @@ ExoArmamentsKit: {
 	DisplayName: Exo Armaments Kit
 	Tooltip:
 		'''
-		Summons a rideable war machine
+		召唤一台可骑乘的战争机器
 		'A superweapon just right for your stature'
 		'''
 }

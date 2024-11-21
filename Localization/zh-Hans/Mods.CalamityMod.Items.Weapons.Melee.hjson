@@ -261,7 +261,7 @@ BurningRevelation: {
 	DisplayName: 渎焚天启
 	Tooltip:
 		'''
-		一只永燃的悠悠球，不断地积蓄着能量
+		一只不断积蓄能量的永燃悠悠球
 		直接命中敌怪将大幅提升充能，并释放出随充能等级变强的亵渎能量
 		当充能达到最大时，将会释放出一连串追踪新星，新星随飞行距离提升伤害
 		伤害达到最高的新星命中敌怪时，还将额外引发一次爆炸
@@ -340,7 +340,7 @@ DeathsAscension: {
 	DisplayName: 死神擢升
 	Tooltip:
 		'''
-		进行强力的灵魂斩击，在命中敌人时产生被镰刀环绕的时空裂隙
+		进行强力的灵魂斩击，命中敌人时产生被镰刀环绕的时空裂隙
 		<right>发射一连串追踪镰刀
 		裂隙会与你一起发射镰刀
 		'It feels just right in your grip...
@@ -724,11 +724,11 @@ HolyCollider: {
 	DisplayName: 圣火之刃
 	Tooltip:
 		'''
-		挥舞一把神圣的巨剑，能够蓄力以提升伤害
-		蓄力挥击会在命中位置周围生成神圣之火
-		用未蓄力的挥击击中神圣之火会推动圣火，并延长其持续时间
-		蓄力挥击能为圣火注能，击中时将其转化为圣之爆焱，并发射向你的光标
-		在挥舞时按住<right>会重复进行未蓄力的挥击，在命中时散布神圣之火
+		挥舞一把可通过蓄力提升伤害的神圣巨剑
+		蓄力挥击会在撞击点周围漂浮四道滞留的圣火
+		用未蓄力的挥击击中圣火会将其推动，并延长其存在时间
+		蓄力挥击为圣火注能，击中时将其转化为圣之爆焱，并发射向你的光标
+		挥舞时按住<right>会重复进行未蓄力的挥击，命中时散布神圣之火
 		'''
 }
 
@@ -1082,10 +1082,10 @@ SeekingScorcher: {
 	DisplayName: 焚罪飞斧
 	Tooltip:
 		'''
-		投掷巨大的圣晶飞斧，命中后至多弹射向三个额外目标
-		如果弹射次数没有耗尽，飞斧将在消失处化为圣晶
-		圣晶化的飞斧能被另一发飞斧击碎
-		这发飞斧会根据击碎圣晶的数量获得强化，但不再能化为圣晶
+		投掷一把巨大的圣晶飞斧，命中后至多弹射向三个额外目标
+		如果弹射次数没有耗尽，飞斧将在消失处圣晶化
+		圣晶化的飞斧能被另一把飞斧击碎
+		这把飞斧会根据击碎圣晶化飞斧的数量获得强化，但自身无法圣晶化
 		“你的敌人将连同他们的罪孽一起在地狱中焚烧殆尽”
 		'''
 }
@@ -1103,9 +1103,9 @@ SkytideDragoon: {
 	DisplayName: Skytide Dragoon
 	Tooltip:
 		'''
-		Calls down a thunderbolt to strike and charge the tip of the spear
-		Press <left> to discharge the electricity as a spread of bolts that narrows as you spend the energy
-		Hold <right> when the spear catches the thunderbolt to redirect it to the cursor
+		降下一道闪电打击敌怪并为矛尖蓄能
+		左键发射闪电矢放电，随能量的消耗闪电矢会变窄
+		矛尖捕获闪电时按住<right>会将其重定向至光标处
 		'''
 }
 

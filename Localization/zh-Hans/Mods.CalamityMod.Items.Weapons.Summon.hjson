@@ -252,10 +252,10 @@ DazzlingStabberStaff: {
 	DisplayName: 耀目穿刺者杖
 	Tooltip:
 		'''
-		召唤三个由亵渎材料制成的神圣匕首为你而战
-		Holy flame daggers gallantly turn all that oppose them to ashes
-		Crystalline daggers gracefully carve foes to ribbons
-		Profane daggers brutishtly splinter and reform eternally
+		召唤三把由亵渎材料制成的神圣匕首为你而战
+		圣焰匕首会英勇地将所有反对它们的东西化为灰烬
+		水晶匕首会优雅地将敌人雕刻成丝带
+		亵渎匕首会野蛮地，永久地进行分裂与改革
 		'Ever onward, towards Her future'
 		'''
 }
@@ -640,9 +640,9 @@ SanctifiedSpark: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一个友好的亵渎献祭者，会向你飘来
-		献祭者迅速向附近的敌怪发射追踪火焰，随后再次向你飘来
-		在开火后，你每有4个召唤栏，献祭者就会向你发射一束治疗束
+		召唤一只友好的献祭者向你飘来
+		献祭者会迅速向附近的敌怪发射追踪火焰，随后再次向你飘来
+		攻击完后，你每拥有4个召唤栏，献祭者就会向你发射一道治疗束
 		'They might be a bit clingy, but at least they're warm'
 		'''
 }

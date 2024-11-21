@@ -346,8 +346,8 @@ FlareBolt: {
 	DisplayName: 火矢
 	Tooltip:
 		'''
-		Casts a ball of flame
-		Balls of flame collapse into a swirling backdraft which pulls in enemies
+		发射一颗火球
+		火球会坍缩成吸引敌怪的回流漩涡
 		'''
 }
 
@@ -360,9 +360,9 @@ FrigidflashBolt: {
 	DisplayName: 冰火矢
 	Tooltip:
 		'''
-		Casts a fast ball of flash-freezing magma that bounces off tiles
-		When hitting a tile, a flarefrost burst is produced
-		Press <right> to cast an empowered ball that creates a collapsing flarefrost vortex which explodes
+		发射一颗快速的闪冻熔岩球，可以在物块上反弹
+		击中物块时会产生炎霜爆
+		<right>发射一颗强化球，生成可爆炸的坍缩性炎霜漩涡
 		'''
 }
 
@@ -370,9 +370,9 @@ FrostBolt: {
 	DisplayName: 冰矢
 	Tooltip:
 		'''
-		Casts a ball of frost that bounces off tiles
-		When hitting a tile, a small frost burst is produced
-		Frost projectiles will fall to the ground after enough time has passed
+		发射可以在物块上反弹的霜冻球
+		击中物块时会产生小型霜爆
+		经过足够长时间后霜冻弹幕最终会落到地面上
 		'''
 }
 
@@ -694,7 +694,7 @@ PurgeGuzzler: {
 	DisplayName: 净化激光炮
 	Tooltip:
 		'''
-		连续发射一阵神圣光束，这些光束汇聚成两道强力的扫射光束
+		发射一阵神圣射线，随后汇聚成两道巨大的扫射光束
 		'Baptism by holy fire'
 		'''
 }

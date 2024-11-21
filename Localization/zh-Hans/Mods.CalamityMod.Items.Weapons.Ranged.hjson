@@ -187,7 +187,7 @@ BlissfulBombardier: {
 	DisplayName: 极乐升天炮
 	Tooltip:
 		'''
-		向高空发射一发圣晶导弹，向光标处倾泻圣火
+		朝高空发射一枚圣晶导弹，向光标处倾泻圣火
 		导弹将持续追踪目标，最终化为巨大的爆炸
 		'''
 }
@@ -843,7 +843,7 @@ OntologicalDespoiler: {
 	DisplayName: Ontological Despoiler
 	Tooltip:
 		'''
-		能量槽中凝集了浓缩的虚妄，可进行充能。<right>切换模式。
+		能量槽中凝集了浓缩的虚妄，可进行充能。<right>切换模式
 		失序精华会以三分叉的轨迹发射并穿透敌人
 		空无精华以火焰形式快速发射，并跟踪敌人
 		达到50%或更高的充能进度，攻击频率会显著提升
@@ -985,10 +985,10 @@ PristineFury: {
 	DisplayName: 纯元怒焰
 	Tooltip:
 		'''
-		射出一束猛烈的烈焰螺旋，爆裂成一列火柱
-		<right>来散布可燃性圣晶粉末
-		点燃粉末能造成爆炸，并造成额外伤害
-		烈焰螺旋和附近的其他爆炸都能点燃粉末
+		发射一股猛烈的螺旋烈焰，爆裂成一阵烟雾
+		<right>散布易燃圣晶粉尘
+		粉尘可被点燃，会使其爆炸造成额外伤害
+		螺旋烈焰和附近的其他爆炸都能点燃粉尘
 		使用凝胶作为弹药
 		'''
 	LegendaryText:
@@ -1378,8 +1378,8 @@ TheStorm: {
 	DisplayName: 风暴
 	Tooltip:
 		'''
-		Fires a spread of homing lightning bolts and arrows from the sky
-		Converts wooden arrows into powerful electric beams
+		从天而降一阵追踪闪电和箭矢
+		将木箭转化为强力的电光
 		95%几率节省弹药
 		'''
 }

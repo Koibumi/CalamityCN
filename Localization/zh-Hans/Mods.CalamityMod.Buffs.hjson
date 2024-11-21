@@ -651,7 +651,7 @@ AbyssalDivingSuitBuff: {
 
 AbyssalDivingSuitPlates: {
 	DisplayName: 深渊潜游服金属外壳
-	Description: 增加15%伤害减免
+	Description: 增加{0}%伤害减免
 }
 
 AbyssalMadness: {
@@ -695,7 +695,7 @@ AquaticHeartBuff: {
 
 AquaticHeartWaterSpeed: {
 	DisplayName: 海洋之佑
-	Description: 增加15%最大速度和加速度
+	Description: 增加{0}%最大速度和加速度
 }
 
 AvertorBonus: {
@@ -741,7 +741,7 @@ ChiRegenBuff: {
 
 CoralSymbiosis: {
 	DisplayName: 珊瑚共生
-	Description: 珊瑚泥充能加快，多造成2点伤害
+	Description: 珊瑚泥充能加快，多造成{0}点伤害
 }
 
 CosmicFreeze: {
@@ -766,7 +766,7 @@ EmpyreanWrath: {
 
 Encased: {
 	DisplayName: 冰固免死
-	Description: 增加30点防御和30%伤害减免，但……
+	Description: 增加{0}点防御和{1}%伤害减免，但……
 }
 
 GraxBoost: {
@@ -781,12 +781,12 @@ GreenJellyRegen: {
 
 HallowedRuneDefense: {
 	DisplayName: 神圣之佑
-	Description: 增加8点防御和4%伤害减免
+	Description: 增加{0}点防御和{1}%伤害减免
 }
 
 HallowedRunePower: {
 	DisplayName: 神圣之力
-	Description: 增加10%召唤伤害
+	Description: 增加{0}%召唤伤害
 }
 
 HallowedRuneRegeneration: {
@@ -801,7 +801,7 @@ Haste: {
 
 IceShieldBuff: {
 	DisplayName: 冰盾
-	Description: 吸收下次攻击伤害的20%，随后破碎
+	Description: 吸收下次攻击伤害的{0}%，随后破碎
 }
 
 KamiBuff: {
@@ -816,7 +816,7 @@ Mushy: {
 
 PhantomicEmpowerment: {
 	DisplayName: 幻魂之力
-	Description: 增加10%召唤伤害
+	Description: 增加{0}%召唤伤害
 }
 
 PhantomicRegen: {
@@ -828,7 +828,7 @@ PhantomicShield: {
 	DisplayName: 幻魂坚盾
 	Description:
 		'''
-		增加10点防御和5%伤害减免
+		增加{0}点防御和{1}%伤害减免
 		幻魂壁垒保护着你
 		'''
 }
@@ -880,7 +880,7 @@ ReaverRage: {
 	Description:
 		'''
 		大地之怒
-		增加5点防御和10%伤害
+		增加{0}点防御和{1}%伤害
 		'''
 }
 
@@ -900,12 +900,12 @@ SilvaRevival: {
 
 SpiritDefense: {
 	DisplayName: 灵魂防御
-	Description: 增加6点防御和3%伤害减免
+	Description: 增加{0}点防御和{1}%伤害减免
 }
 
 SpiritPower: {
 	DisplayName: 灵魂力量
-	Description: 增加10%召唤伤害
+	Description: 增加{0}%召唤伤害
 }
 
 SpiritRegen: {
