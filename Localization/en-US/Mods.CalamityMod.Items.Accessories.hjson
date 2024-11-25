@@ -1905,6 +1905,7 @@ ToxicHeart: {
 		Your heart beats with the plague, pulsing outside of your body
 		Pulse frequency scale with regen, and pulses that kill enemies pulse again to heal you
 		Multiplies all sickness debuff damage by 1.5x
+		Effects are transparent and silent if visibility is disabled
 		'''
 }
 
