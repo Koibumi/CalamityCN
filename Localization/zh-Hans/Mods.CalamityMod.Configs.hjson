@@ -454,15 +454,6 @@ CalamityServerConfig: {
 			'''
 	}
 
-	HigherJumpHeight: {
-		Label: "[i:ShinyRedBalloon] 更高基础跳跃高度"
-		Tooltip:
-			'''
-			提高10%玩家的基础跳跃高度，因此可以跳跃7图格。
-			灾厄平衡设定是在启用此配置的基础上进行的。
-			'''
-	}
-
 	NerfExpertDebuffs: {
 		Label: "[i:AnkhCharm] 减益持续时间增幅移除"
 		Tooltip:

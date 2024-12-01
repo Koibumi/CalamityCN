@@ -18,3 +18,22 @@ GrappleStats:
 	Reelback Velocity: {2}
 	Pull Velocity: {3}
 	'''
+WingStats:
+	'''
+	Flight time: {0} seconds
+	Max horizontal speed: {1} mph
+	Max vertical speed: {2} mph
+	'''
+WingStatsAcceleration:
+	'''
+	Horizontal acceleration: {0} mph/s
+	Vertical acceleration:
+	{1} mph/s
+	{2} mph/s if ascending slower than {3} mph
+	{4} mph/s if ascending while falling
+	'''
+WingStatsHover:
+	'''
+	Max hover speed: {0} mph
+	Hover acceleration: {1} mph/s
+	'''

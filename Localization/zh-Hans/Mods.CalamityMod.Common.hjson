@@ -18,3 +18,22 @@ GrappleStats:
 	回收速度：{2}
 	牵引速度：{3}
 	'''
+WingStats:
+	'''
+	飞行时间：{0} 秒
+	最高水平速度：{1} mph
+	最高竖直速度：{2} mph
+	'''
+WingStatsAcceleration:
+	'''
+	水平加速度：{0} mph每秒
+	竖直加速度：
+	{1} mph每秒
+	当上升速度低于{3} mph时：{2} mph每秒
+	在下降期间重新上升时：{4} mph每秒
+	'''
+WingStatsHover:
+	'''
+	最大悬浮速度：{0} mph
+	悬浮加速度：{1} mph每秒
+	'''

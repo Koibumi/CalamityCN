@@ -2,10 +2,7 @@ AureateBooster: {
 	DisplayName: Aureate Booster
 	Tooltip:
 		'''
-		Horizontal speed: 8.00
-		Acceleration multiplier: 1.5
-		Good vertical speed
-		Flight time: 120
+		{$CommonItemTooltip.FlightAndSlowfall}
 		'Mach speed with style!'
 		'''
 }
@@ -14,10 +11,7 @@ DrewsWings: {
 	DisplayName: Drew's Wings
 	Tooltip:
 		'''
-		Horizontal speed: 11.50
-		Acceleration multiplier: 2.9
-		Excellent vertical speed
-		Flight time: 361
+		{$CommonItemTooltip.FlightAndSlowfall}
 		'Absolutely Fabulous'
 		'''
 }
@@ -26,10 +20,7 @@ ElysianWings: {
 	DisplayName: Elysian Wings
 	Tooltip:
 		'''
-		Horizontal speed: 9.50
-		Acceleration multiplier: 2.7
-		Great vertical speed
-		Flight time: 240
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Immunity to lava and 10% increased movement speed
 		Blessed by the Profaned Flame
 		'''
@@ -39,10 +30,7 @@ ExodusWings: {
 	DisplayName: Exodus Wings
 	Tooltip:
 		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Grants permanent Empyrean Wrath and Empyrean Rage while wearing the Empyrean armor
 		Pulsing with an alien heartbeat
 		'''
@@ -52,10 +40,7 @@ HadalMantle: {
 	DisplayName: Hadal Mantle
 	Tooltip:
 		'''
-		Horizontal speed: 7.75
-		Acceleration multiplier: 1.5
-		Average vertical speed
-		Flight time: 180
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Fueled by the fury of the depths
 		'''
 }
@@ -64,10 +49,7 @@ HadarianWings: {
 	DisplayName: Hadarian Wings
 	Tooltip:
 		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 1.75
-		Good vertical speed
-		Flight time: 90
+		{$CommonItemTooltip.FlightAndSlowfall}
 		{$CommonItemTooltip.PressDownToHover}
 		Powered by the Astral Infection
 		'''
@@ -77,11 +59,7 @@ MOAB: {
 	DisplayName: MOAB
 	Tooltip:
 		'''
-		Counts as wings
-		Horizontal speed: 6.50
-		Acceleration multiplier: 1.0
-		Good vertical speed
-		Flight time: 75
+		{$CommonItemTooltip.FlightAndSlowfall}
 		32% increased jump speed and allows auto-jump
 		Grants the player cloud, blizzard, and sandstorm mid-air jumps
 		'The Mother Of All Balloons'
@@ -92,10 +70,7 @@ SilvaWings: {
 	DisplayName: Silva Wings
 	Tooltip:
 		'''
-		Horizontal speed: 10.50
-		Acceleration multiplier: 2.8
-		Excellent vertical speed
-		Flight time: 270
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Grants a scaling life regeneration boost while you remain in the air without resetting flight time
 		This boost caps at 8 HP/s after 15 seconds
 		'The purest of nature'
@@ -104,24 +79,14 @@ SilvaWings: {
 
 SkylineWings: {
 	DisplayName: Skyline Wings
-	Tooltip:
-		'''
-		Horizontal speed: 6.25
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 80
-		'''
+	Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 }
 
 SoulofCryogen: {
 	DisplayName: Soul of Cryogen
 	Tooltip:
 		'''
-		Counts as wings
-		Horizontal speed: 6.25
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 120
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Icicles rain down as you fly
 		'''
 }
@@ -130,10 +95,7 @@ StarlightWings: {
 	DisplayName: Starlight Wings
 	Tooltip:
 		'''
-		Horizontal speed: 7.50
-		Acceleration multiplier: 1.5
-		Average vertical speed
-		Flight time: 160
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Wings of the Nightingale
 		'''
 }
@@ -142,10 +104,7 @@ TarragonWings: {
 	DisplayName: Tarragon Wings
 	Tooltip:
 		'''
-		Horizontal speed: 9.50
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 250
+		{$CommonItemTooltip.FlightAndSlowfall}
 		+15 defense and +1 HP/s life regen
 		'Born of the jungle'
 		'''
@@ -155,11 +114,7 @@ TracersCelestial: {
 	DisplayName: Celestial Tracers
 	Tooltip:
 		'''
-		Counts as wings
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.6
-		Good vertical speed
-		Flight time: 160
+		{$CommonItemTooltip.FlightAndSlowfall}
 		24% increased running acceleration and greater mobility on ice
 		Provides the ability to walk on water, honey, and lava
 		Grants immunity to fire and lava
@@ -171,11 +126,7 @@ TracersElysian: {
 	DisplayName: Elysian Tracers
 	Tooltip:
 		'''
-		Counts as wings
-		Horizontal speed: 10.00
-		Acceleration multiplier: 2.7
-		Great vertical speed
-		Flight time: 220
+		{$CommonItemTooltip.FlightAndSlowfall}
 		36% increased running acceleration and greater mobility on ice
 		Provides the ability to walk on water, honey, and lava
 		Grants immunity to fire and lava
@@ -187,11 +138,7 @@ TracersSeraph: {
 	DisplayName: Seraph Tracers
 	Tooltip:
 		'''
-		Counts as wings
-		Horizontal speed: 11.00
-		Acceleration multiplier: 2.8
-		Excellent vertical speed
-		Flight time: 250
+		{$CommonItemTooltip.FlightAndSlowfall}
 		50% increased running acceleration and greater mobility on ice
 		Provides the ability to walk on water, honey, and lava
 		Grants immunity to fire, lava, and harmful block effects

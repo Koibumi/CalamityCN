@@ -454,15 +454,6 @@ CalamityServerConfig: {
 			'''
 	}
 
-	HigherJumpHeight: {
-		Label: "[i:ShinyRedBalloon] Increase Base Jump Height"
-		Tooltip:
-			'''
-			Increases the player's base jump height by 10% so that they can jump 7 tiles.
-			Calamity is balanced around this setting being enabled.
-			'''
-	}
-
 	NerfExpertDebuffs: {
 		Label: "[i:AnkhCharm] Remove Increased Debuff Duration"
 		Tooltip:

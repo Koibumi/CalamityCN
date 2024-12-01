@@ -41,15 +41,6 @@ Tier2KnowledgeTooltip: 需要先破译小行星原型图
 Tier3KnowledgeTooltip: 需要先破译丛林原型图
 Tier4KnowledgeTooltip: 需要先破译地狱原型图
 Tier5KnowledgeTooltip: 需要先破译雪原原型图
-// Wing Tooltips and related string
-VertSpeedQuality1: 糟糕的垂直飞行速度
-VertSpeedQuality2: 普通的垂直飞行速度
-VertSpeedQuality3: 不错的垂直飞行速度
-VertSpeedQuality4: 较强的垂直飞行速度
-VertSpeedQuality5: 优异的垂直飞行速度
-HorizSpeed: 水平飞行速度：{0}
-AccelMult: 加速倍率：{0}
-FlightTime: 飞行时间：{0}
 // Other CombatText uses and Item Messages
 ShiftToExpand: 按住SHIFT键查看更多描述
 LearnedSchematic: 你学会了如何制作新的东西！
