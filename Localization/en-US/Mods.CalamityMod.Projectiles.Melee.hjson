@@ -98,6 +98,11 @@ DragoonBigBolt.DisplayName: Dragoon Lightning
 DragoonSmallBolt.DisplayName: Dragoon Bolt
 EarthBoom.DisplayName: Earth's Judgement
 EarthMeteor.DisplayName: Gaia Meteor
+EarthenTides.DisplayName: Earthen Tides
+EarthenTidesBeam.DisplayName: Earthen Projection
+EarthenTidesBlast.DisplayName: Earthen Tides Blast
+EarthenTidesBlastSpawner.DisplayName: Blast Spawner
+EarthenTidesShockwave.DisplayName: Earthen Tides Shockwave
 ElementalGlassStar.DisplayName: Glass Star
 EmpyreanKnife.DisplayName: Empyrean Knife
 EntropicFlechette.DisplayName: Entropic Flechette
@@ -112,7 +117,6 @@ ExobeamSlash.DisplayName: Exobeam Slash
 ExobeamSlashCreator.DisplayName: Anime Sword Effect
 Exoboom.DisplayName: Exoplasma Explosion
 ExtantAbhorrence.DisplayName: Extant Abhorrence
-ExtantAbhorrenceMonolith.DisplayName: Abhorrent Monolith
 FallenBlast.DisplayName: Fallen Paladin's Wrath
 FallenExplosionSmall.DisplayName: Fallen Hammer Blast
 FallenPaladinsHammerEcho.DisplayName: Fallen Paladin's Hammer Echo
@@ -127,7 +131,6 @@ GaelSkull2.DisplayName: No Longer Ark of the Cosmos' Superior Cousin
 GalacticaComet.DisplayName: Galactus Comet
 GalaxiaBolt.DisplayName: Galaxia Bolt
 GalaxiaHoldout.DisplayName: Galactic Formation
-GalaxiaTropicRing.DisplayName: Star Ring
 GalaxyBlast.DisplayName: Galaxy Blast
 GalaxyBlastType2.DisplayName: Galaxy Blast
 GalaxyBlastType3.DisplayName: Galaxy Blast
@@ -151,6 +154,7 @@ GreenWater.DisplayName: Greentide Tooth
 GrovetendersEntanglingVines.DisplayName: Entangling Growth
 GrovetendersTouch.DisplayName: Grovetender's Touch
 HeavensMight.DisplayName: Heaven's Might
+HeavensMonolith.DisplayName: Heaven's Monolith
 HellionSpike.DisplayName: Hellion Spike
 HolyColliderHolyFire.DisplayName: Holy Collider Fire
 IceBombFriendly.DisplayName: Ice Bomb
@@ -169,9 +173,6 @@ LuxorsGiftMelee.DisplayName: Luxor's Melee
 MantisClawHoldout.DisplayName: Mantis Claw
 MantisClawJet.DisplayName: Mantis Claw Jet
 MantisClawSlash.DisplayName: Mantis Claw Slash
-MercurialTides.DisplayName: Mercurial Tides
-MercurialTidesBlast.DisplayName: Mercurial Blast
-MercurialTidesMonolith.DisplayName: Mercurial Monolith
 MicrowaveAura.DisplayName: Microwave Radiation
 MirrorBlast.DisplayName: Mirror Blade
 MonstrousKnife.DisplayName: Monstrous Knife
@@ -189,6 +190,7 @@ Orbacle.DisplayName: Auric Orb
 OrderbringerBeam.DisplayName: Orderbringer Beam
 OrderbringerWaveProj.DisplayName: Order-bringing Wave
 PhoenixsPride.DisplayName: Phoenix's Pride
+PhoenixsPrideFirewall.DisplayName: Phoenix's Pride Flame Pillar
 PhosphorescentGauntletPunches.DisplayName: Gauntlet Punch
 PhotonRipperProjectile.DisplayName: Extraordinarily Cost-Inefficient Chainsaw
 PlagueSeeker.DisplayName: Plague Seeker
@@ -201,6 +203,7 @@ PrismaticMagicCircle.DisplayName: Magic Circle
 PrismaticRay.DisplayName: Prismatic Master Spark
 PrismRay.DisplayName: Prismatic Light
 PrismTooth.DisplayName: Photon Ripper
+PureClarity.DisplayName: Pure Clarity
 PurityProjection.DisplayName: Purity Projection
 PurityProjectionSigil.DisplayName: Purity Sigil
 PwnagehammerEcho.DisplayName: Pwnagehammer Echo
@@ -254,7 +257,9 @@ StygianShieldThrown.DisplayName: Shield of Chaos
 SulphurousGrabberBubble.DisplayName: Grabber Bubble
 SulphurousGrabberBubble2.DisplayName: Grabber Bubble
 SwordsmithsPride.DisplayName: Swordsmith's Pride
-SwordsmithsPrideBeam.DisplayName: Swordsmith's Projection
+SwordsmithsPrideAstralBomber.DisplayName: Swordsmith's Astral Bomber
+SwordsmithsPrideAstralEnergy.DisplayName: Swordsmith's Astral Energy
+SwordsmithsPrideMonolith.DisplayName: Swordsmiths Pride Monolith
 SwordsplosionBlue.DisplayName: Blue Sword
 SwordsplosionGreen.DisplayName: Green Sword
 SwordsplosionPurple.DisplayName: Purple Sword
@@ -289,6 +294,7 @@ TrueBiomeBladeHoldout.DisplayName: True Biome Blade
 TrueBitingEmbrace.DisplayName: Biting Embrace
 TrueDecaysRetort.DisplayName: Decay's Retort
 TrueGrovetendersTouch.DisplayName: Grovetender's Touch
+TruePureClarity.DisplayName: Pure Clarity
 TruePurityProjection.DisplayName: Purity Projection
 TumbleweedRolling.DisplayName: Rolling Tumbleweed
 TyphonsGreedBubble.DisplayName: Typhon's Greed

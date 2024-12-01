@@ -89,13 +89,9 @@ ArkoftheCosmos: {
 		<right> to snip out the scissor blades in front of you
 		Hitting an enemy with it will parry them, granting you brief invulnerability
 		You can parry projectiles to make them deal 160 less damage for a short period
-		Parrying anything will empower the next 15 swings of the sword
+		Parrying will empower the next 15 swings of the sword
 		'''
-	BlastInfo:
-		'''
-		Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
-		If more than 5 charges were used, you can dash across the rip by holding UP
-		'''
+	BlastInfo: Pressing <right> while on parry cooldown with empowered charges will provoke a Big Rip in spacetime and use all charges
 }
 
 ArkoftheElements: {
@@ -104,7 +100,6 @@ ArkoftheElements: {
 		'''
 		[COMBO]
 		[PARRY]
-		[BLAST]
 		A heavenly pair of blades infused with the essence of Terraria, powerful enough to cut through the fabric of reality
 		'''
 	ComboInfo:
@@ -119,7 +114,6 @@ ArkoftheElements: {
 		You can parry projectiles to make them deal 100 less damage for a short period
 		Parrying will empower the next 10 swings of the sword, letting you use both blades at once
 		'''
-	BlastInfo: Pressing <right> while holding UP with empowered charges will provoke a Big Rip in spacetime and use all charges
 }
 
 AstralBlade: {
@@ -163,7 +157,11 @@ Azathoth: {
 
 BalefulHarvester: {
 	DisplayName: Baleful Harvester
-	Tooltip: Summons flaming pumpkins and skulls that split into homing fire orbs on enemy hits
+	Tooltip:
+		'''
+		A flaming scythe which is rapidly swung around three times in succession
+		Enemy hits summon flaming skulls that split into homing fire orbs
+		'''
 }
 
 BallOFugu: {
@@ -554,12 +552,10 @@ FourSeasonsGalaxia: {
 	Tooltip:
 		'''
 		[FUNC]
-		[PASS]
 		Freed from earthly shackles and coursing with cosmic power
 		Has access to all of the attunements at all times
 		Press <right> to cycle the sword's attunement depending on the cursor's position
 		Active Attunement : [ATT]
-		Passive Blessing : [BLE]
 		'''
 }
 
@@ -574,7 +570,6 @@ FracturedArk: {
 		'''
 		<right> to extend the Ark out in front of you
 		Hitting an enemy with it will parry them, granting you a small window of invulnerability
-		You can also parry projectiles and temporarily make them deal 50 less damage
 		Parrying empowers the next 10 swings of the sword, boosting damage and letting them throw projectiles
 		'''
 }
@@ -1385,9 +1380,8 @@ TrueArkoftheAncients: {
 		'''
 		<right> to extend the Ark out in front of you
 		Hitting an enemy with it will parry them, granting you brief invulnerability
+		Parrying an enemy empowers the next 10 swings of the sword, letting them throw stronger projectiles
 		You can also parry projectiles to make them deal 80 less damage for a short period
-		Parrying empowers the next 10 swings of the sword, letting them throw stronger projectiles
-		Pressing <right> while holding UP will release all empowered charges in a powerful burst of energy
 		'''
 }
 

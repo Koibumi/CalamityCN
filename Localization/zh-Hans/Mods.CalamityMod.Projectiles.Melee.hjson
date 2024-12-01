@@ -98,6 +98,11 @@ DragoonBigBolt.DisplayName: Dragoon Lightning
 DragoonSmallBolt.DisplayName: Dragoon Bolt
 EarthBoom.DisplayName: 大地裁决
 EarthMeteor.DisplayName: 盖亚流星
+EarthenTides.DisplayName: Earthen Tides
+EarthenTidesBeam.DisplayName: Earthen Projection
+EarthenTidesBlast.DisplayName: Earthen Tides Blast
+EarthenTidesBlastSpawner.DisplayName: Blast Spawner
+EarthenTidesShockwave.DisplayName: Earthen Tides Shockwave
 ElementalGlassStar.DisplayName: 玻璃之星
 EmpyreanKnife.DisplayName: 苍穹飞刀
 EntropicFlechette.DisplayName: 熵弹
@@ -112,7 +117,6 @@ ExobeamSlash.DisplayName: 星流光束斩
 ExobeamSlashCreator.DisplayName: 星流之刃
 Exoboom.DisplayName: 星流聚爆
 ExtantAbhorrence.DisplayName: 犹存之憎
-ExtantAbhorrenceMonolith.DisplayName: 憎恶巨石
 FallenBlast.DisplayName: 堕落圣骑士之怒
 FallenExplosionSmall.DisplayName: Fallen Hammer Blast
 FallenPaladinsHammerEcho.DisplayName: 堕落圣骑士之锤
@@ -127,7 +131,6 @@ GaelSkull2.DisplayName: 盖尔鲜血头颅
 GalacticaComet.DisplayName: 星河彗星
 GalaxiaBolt.DisplayName: 星河霍闪
 GalaxiaHoldout.DisplayName: 星河之构
-GalaxiaTropicRing.DisplayName: 星环
 GalaxyBlast.DisplayName: 银河聚爆
 GalaxyBlastType2.DisplayName: 银河聚爆
 GalaxyBlastType3.DisplayName: 银河聚爆
@@ -151,6 +154,7 @@ GreenWater.DisplayName: 毒牙
 GrovetendersEntanglingVines.DisplayName: 缠绕疯长
 GrovetendersTouch.DisplayName: 树妖之触
 HeavensMight.DisplayName: 极乐之威
+HeavensMonolith.DisplayName: Heaven's Monolith
 HellionSpike.DisplayName: 爆发尖刺
 HolyColliderHolyFire.DisplayName: 集束焰火
 IceBombFriendly.DisplayName: 冰炸弹
@@ -169,9 +173,6 @@ LuxorsGiftMelee.DisplayName: 卢克索的礼物
 MantisClawHoldout.DisplayName: 螳螂爪
 MantisClawJet.DisplayName: 螳螂爪喷流
 MantisClawSlash.DisplayName: 螳螂爪快斩
-MercurialTides.DisplayName: 幻变潮汐
-MercurialTidesBlast.DisplayName: 幽鬼爆破
-MercurialTidesMonolith.DisplayName: 活化巨石
 MicrowaveAura.DisplayName: 微波辐照
 MirrorBlast.DisplayName: 镜之刃
 MonstrousKnife.DisplayName: 畸变飞刀
@@ -189,6 +190,7 @@ Orbacle.DisplayName: 圣金源光球
 OrderbringerBeam.DisplayName: 携序光束
 OrderbringerWaveProj.DisplayName: 携序剑气
 PhoenixsPride.DisplayName: 鳯傲
+PhoenixsPrideFirewall.DisplayName: Phoenix's Pride Flame Pillar
 PhosphorescentGauntletPunches.DisplayName: 重拳出击！
 PhotonRipperProjectile.DisplayName: 垃圾链锯，不用了
 PlagueSeeker.DisplayName: 瘟疫探寻者
@@ -201,6 +203,7 @@ PrismaticMagicCircle.DisplayName: Magic Circle
 PrismaticRay.DisplayName: Prismatic Master Spark
 PrismRay.DisplayName: 彩虹棱光
 PrismTooth.DisplayName: 光子撕裂者
+PureClarity.DisplayName: Pure Clarity
 PurityProjection.DisplayName: 纯化投弹
 PurityProjectionSigil.DisplayName: 纯元魔符
 PwnagehammerEcho.DisplayName: 幽灵战锤
@@ -254,7 +257,9 @@ StygianShieldThrown.DisplayName: 混沌之盾
 SulphurousGrabberBubble.DisplayName: 黏性气泡
 SulphurousGrabberBubble2.DisplayName: 黏性气泡
 SwordsmithsPride.DisplayName: 剑匠之傲
-SwordsmithsPrideBeam.DisplayName: 剑匠之影
+SwordsmithsPrideAstralBomber.DisplayName: Swordsmith's Astral Bomber
+SwordsmithsPrideAstralEnergy.DisplayName: Swordsmith's Astral Energy
+SwordsmithsPrideMonolith.DisplayName: Swordsmiths Pride Monolith
 SwordsplosionBlue.DisplayName: 爆破剑
 SwordsplosionGreen.DisplayName: 爆破剑
 SwordsplosionPurple.DisplayName: 爆破剑
@@ -289,6 +294,7 @@ TrueBiomeBladeHoldout.DisplayName: 真环境之刃
 TrueBitingEmbrace.DisplayName: 啮咬之拥
 TrueDecaysRetort.DisplayName: 腐化之复仇
 TrueGrovetendersTouch.DisplayName: 树妖之触
+TruePureClarity.DisplayName: Pure Clarity
 TruePurityProjection.DisplayName: 纯化投弹
 TumbleweedRolling.DisplayName: 风滚草
 TyphonsGreedBubble.DisplayName: 提丰之贪婪

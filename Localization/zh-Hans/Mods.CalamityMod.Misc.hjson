@@ -78,3 +78,8 @@ Polaris5: 你拍了拍鱼鱼
 PointBlank: 对近距离敌怪射击时造成额外伤害
 // Charge
 Charge: 当前充能：{0}%
+//GFB Rogue Keys
+GFBRogueUppercase: 盗贼
+GFBRougeUppercase: 盗贱
+GFBRogueLowercase: 盗贼
+GFBRougeLowercase: 盗贱

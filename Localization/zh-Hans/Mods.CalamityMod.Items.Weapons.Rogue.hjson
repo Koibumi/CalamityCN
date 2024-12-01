@@ -154,8 +154,8 @@ ContaminatedBile: {
 	DisplayName: 污秽胆汁
 	Tooltip:
 		'''
-		丢出一瓶恶心的、充满辐射的绿色胆汁，撞击后爆炸
-		潜伏攻击会使爆炸更加强烈
+		Throws a flask of irradiated bile which shatters and lingers in a cloud
+		Stealth strikes cause sulphuric bubbles to quickly rise from the cloud
 		'''
 }
 
@@ -1122,6 +1122,15 @@ SpentFuelContainer: {
 		如果下面没有物块，则爆炸不会发生
 		潜伏攻击会使爆炸后的区域留下辐射
 		“战争从未改变”
+		'''
+}
+
+SporeKnife: {
+	DisplayName: Spore Knife
+	Tooltip:
+		'''
+		Throws an overgrown dagger that bursts into a cloud of poisonous spores
+		Stealth strikes erupt into hungry homing buds that stick to enemies and gnaw them
 		'''
 }
 

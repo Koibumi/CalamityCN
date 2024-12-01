@@ -78,3 +78,8 @@ Polaris5: You pet Polaris
 PointBlank: Does extra damage to enemies shot at point-blank range
 // Charge
 Charge: Current Charge: {0}%
+//GFB Rogue Keys
+GFBRogueUppercase: Rogue
+GFBRougeUppercase: Rouge
+GFBRogueLowercase: rogue
+GFBRougeLowercase: rouge

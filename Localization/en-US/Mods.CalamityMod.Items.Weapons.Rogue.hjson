@@ -153,8 +153,8 @@ ContaminatedBile: {
 	DisplayName: Contaminated Bile
 	Tooltip:
 		'''
-		Throws a flask of sickly green, irradiated bile which explodes on collision
-		Stealth strikes make the explosion much more violent and powerful
+		Throws a flask of irradiated bile which shatters and lingers in a cloud
+		Stealth strikes cause sulphuric bubbles to quickly rise from the cloud
 		'''
 }
 
@@ -1121,6 +1121,15 @@ SpentFuelContainer: {
 		The explosion does not occur if there are no tiles below it
 		Stealth strikes leave a lingering irradiated zone after the explosion dissipates
 		'War Never Changes'
+		'''
+}
+
+SporeKnife: {
+	DisplayName: Spore Knife
+	Tooltip:
+		'''
+		Throws an overgrown dagger that bursts into a cloud of poisonous spores
+		Stealth strikes erupt into hungry homing buds that stick to enemies and gnaw them
 		'''
 }
 
