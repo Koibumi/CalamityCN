@@ -154,8 +154,8 @@ ContaminatedBile: {
 	DisplayName: 污秽胆汁
 	Tooltip:
 		'''
-		Throws a flask of irradiated bile which shatters and lingers in a cloud
-		Stealth strikes cause sulphuric bubbles to quickly rise from the cloud
+		丢出一瓶充满辐射的胆汁，瓶子破碎后留下持续的毒云
+		潜伏攻击使得硫磺气泡从毒云中喷涌而出
 		'''
 }
 
@@ -1129,8 +1129,8 @@ SporeKnife: {
 	DisplayName: Spore Knife
 	Tooltip:
 		'''
-		Throws an overgrown dagger that bursts into a cloud of poisonous spores
-		Stealth strikes erupt into hungry homing buds that stick to enemies and gnaw them
+		投掷一把长满藤蔓的匕首，爆裂成一片毒性孢子云
+		潜伏攻击爆裂成追踪的饥饿芽孢，黏住并不断啃咬敌怪
 		'''
 }
 
