@@ -161,8 +161,6 @@ BalefulHarvester: {
 		'''
 		一把燃烧的镰刀，使用时快速挥舞三次
 		击中敌人时，召唤燃烧的头骨，会分裂成追踪的火球
-		A flaming scythe which is rapidly swung around three times in succession
-		Enemy hits summon flaming skulls that split into homing fire orbs
 		'''
 }
 
