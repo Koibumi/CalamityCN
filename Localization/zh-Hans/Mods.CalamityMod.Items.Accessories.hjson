@@ -1649,7 +1649,11 @@ StatisNinjaBelt: {
 	Tooltip:
 		'''
 		增加32%跳跃速度，允许自动跳跃并免疫摔落伤害
+		将移动加速度和减速度提升为1.75倍
+		将移动速度提升为1.15倍，对跑鞋饰品也生效
 		可以游泳、攀爬、冲刺和闪避攻击
+		穿戴时提供光照
+		{$Common.AbyssLightLevel1}
 		'''
 	HoldShiftTooltip:
 		'''
@@ -1664,8 +1668,12 @@ StatisVoidSash: {
 	Tooltip:
 		'''
 		增加32%跳跃速度，允许自动跳跃并免疫摔落伤害
+		将移动加速度和减速度提升为1.75倍
+		将移动速度提升为1.15倍，对跑鞋饰品也生效
 		可以游泳、攀爬、冲刺和闪避攻击
 		冲刺时会在路径上留下追踪镰刀
+		穿戴时提供光照
+		{$Common.AbyssLightLevel1}
 		'''
 	HoldShiftTooltip:
 		'''

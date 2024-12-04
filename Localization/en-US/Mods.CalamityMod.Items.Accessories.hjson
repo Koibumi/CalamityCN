@@ -1649,7 +1649,11 @@ StatisNinjaBelt: {
 	Tooltip:
 		'''
 		32% increased jump speed, allows auto-jump, and negates fall damage
+		Increases movement acceleration and deceleration by 1.75x
+		Increases movement speed by 1.15x. This bonus applies to running boot accessories
 		Grants the ability to swim, climb walls, dash, and dodge attacks
+		Provides light when worn
+		{$Common.AbyssLightLevel1}
 		'''
 	HoldShiftTooltip:
 		'''
@@ -1664,8 +1668,12 @@ StatisVoidSash: {
 	Tooltip:
 		'''
 		32% increased jump speed, allows auto-jump, and negates fall damage
+		Increases movement acceleration and deceleration by 1.75x
+		Increases movement speed by 1.15x. This bonus applies to running boot accessories
 		Grants the ability to swim, climb walls, dash, and dodge attacks
 		Dashes leave homing scythes in your wake
+		Provides light when worn
+		{$Common.AbyssLightLevel1}
 		'''
 	HoldShiftTooltip:
 		'''
