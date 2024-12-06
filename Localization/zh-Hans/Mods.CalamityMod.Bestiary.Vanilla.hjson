@@ -1,28 +1,28 @@
 // Put their internal name here
 NPCName: {
-	Guide: Once tasked with shepherding the Wall of Flesh, the Guide is a godlike figure in Demon folklore. However, the former warlock apprentice now savors a humble life, mentoring adventurers with his sharp intuition.
-	Dryad: Dryads practice the art of Life Magic, pioneered by Silva. She is connected with nature and can analyze its purity worldwide. She sells seeds, too!
-	Mechanic: The Mechanic was imprisoned for sticking her nose where she shouldn't. She sells wiring and tools for putting together anything imaginable.
-	EmpressButterfly: These familiars conjured by the Empress draw power from their surroundings and later bring it to their master. They remind her of a lost loved one, and should one perish in the chaos of night, she shall unleash her full fury upon the attacker.
+	Guide: 当接下掌管血肉墙的大任之后，向导在恶魔的传说里就成了神一般的人物。然而，这位曾经的术士学徒如今却在品味平凡的生活，并以其尖锐的洞见为冒险者提供指导。
+	Dryad: 树妖是席尔瓦所开创的生命魔法的践行者。她与大自然紧密相连，可以分析世界各地的自然纯洁度。她还售卖种子！
+	Mechanic: 机械师因试图探听她不该知道的消息而被监禁。她出售可以组装任何东西的电线和工具。
+	EmpressButterfly: 这些女皇的使魔会从周围的环境汲取力量并传递给它们的主人。它们酷似女皇已逝的爱人，如果其中一只在混乱的夜晚死去，她将以最最猛烈的暴怒回敬凶手。
 	DemonEye: "{$CommonEntries.DemonEye}"
 	CataractEye: "{$CommonEntries.DemonEye}"
 	DialatedEye: "{$CommonEntries.DemonEye}"
 	SleepyEye: "{$CommonEntries.DemonEye}"
 	GreenEye: "{$CommonEntries.DemonEye}"
 	PurpleEye: "{$CommonEntries.DemonEye}"
-	Wraith: Souls belonging to devotees of gods were once sealed inside the Wall of Flesh. Now, they roam the night in search of vengeance.
-	BloodNautilus: The intense red glow of the Blood Moon becomes even greater in contact with water, making aquatic creatures affected more strongly than their land counterparts. This enormous shelled water demon directly feeds off that energy, responding brutally to being pestered.
-	DiggerHead: Exposure to the effects of godly magicks flowing throughout the cracks of the world causes unusual rapid growths in giant worms.
-	UndeadMiner: After the Crusade died down, many spelunkers attempted to take advantage of the situation. The results were less than optimal.
-	GraniteGolem: These strong magicked constructs were utilized in mines for carrying heavy ores and machinery. They continue to inhabit the mines deep below, even after their abandonment.
-	GraniteFlyer: The Earth Elemental manifests through many forms by taking on the properties of different materials, such as this hardy granite.
-	GreekSkeleton: Marble caves were used as arenas during the Deific Era. Fighters looking for glory flocked to them, but now only their bodies populate the area.
-	UndeadViking: After the Crusade left the continent in shambles, many factions attempted to conquer it. These vikings were one such group, but the icy winds of the tundra made short work of them.
-	IcyMerman: Mermen rarely stray far from the ocean, favoring the vast waters where their revered Elemental now lives in. Those that do can become lost, wander into cold caverns, and become icy undead fish men.
-	IceElemental: Unclaimed fragments of the Water Elemental, Anahita, scattered across the world. Their frosty shards freeze all.
-	DesertBeast: Minor draconic offshoots who thrive in arid climates, the Basilisk's hardened bodies make them formidable threats.
-	DuneSplicerHead: The largest worm native to the Desert. Even strengthened by divine magicks, they fall short of the Scourge, and run amok in a hunger-induced frenzy.
-	SandElemental: The most powerful manifestation of the fragmented Earth Elemental, taking many forms through the properties of different materials. With this feminine form, her tornadoes tear all asunder.
+	Wraith: 侍奉神明者的灵魂，曾经被封存在血肉墙中。现在，它们会在夜间游荡，以寻找复仇的机会。
+	BloodNautilus: 血月的灼眼血光在接触水时会被进一步强化，对水生生物造成比陆生生物更多的影响。这种巨大的有壳水怪，就直接以这种能量为食。被缠住时会予以残酷反击。
+	DiggerHead: 由于受遍布世界裂缝的神明魔法的影响，巨型蠕虫异常快速地生长。
+	UndeadMiner: 在圣战平息之后，洞穴探险者曾经试图利用这一处境，不过收效甚微。
+	GraniteGolem: 这些强大的魔法造物是矿场中用来搬运矿物和机械的。即使现在已经被废弃，它们也仍然栖息在地下深处的矿道中。
+	GraniteFlyer: 大地元素通过利用不同材料（例如这种坚硬的花岗岩）的特性来呈现出多种形态。
+	GreekSkeleton: 大理石洞穴在神攫时代会被用作竞技场。追求荣誉的斗士曾蜂拥而至，但如今满眼所见只有他们的躯壳。
+	UndeadViking: 圣战过后，天下割据，群雄四起。维京人就是其中之一，但他们还是太轻易败给了苔原的寒风。
+	IcyMerman: 人鱼很少会远离海洋，那里有丰沛的海水，而且是他们所崇敬的元素之灵如今的居所。这样做可能会迷路走到寒冷的洞穴里，变成冰冷的不死鱼人。
+	IceElemental: 水元素阿娜希塔失落的碎片四散在世界各处。它们冰冷的碎片能冻结一切。
+	DesertBeast: 作为扎根旱地的巨龙分支，蛇蜥怪坚硬的躯体使其成为强大的威胁。
+	DuneSplicerHead: 沙漠中体型最大的普通蠕虫。即使在神圣魔法的加持下，它们也仍旧弱于灾虫，只会被饥饿裹挟，癫狂奔行。
+	SandElemental: 破碎的大地元素通过利用不同材料的特性所呈现出的最强大的一种形态。作为一种柔媚的形态，她召唤出来的龙卷风能撕毁一切。
 	SandShark: "{$CommonEntries.SandShark}"
 	SandsharkCorrupt: "{$CommonEntries.SandShark}"
 	SandsharkCrimson: "{$CommonEntries.SandShark}"
