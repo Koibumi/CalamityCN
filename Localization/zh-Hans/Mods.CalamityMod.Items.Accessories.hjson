@@ -310,7 +310,7 @@ BlazingCore: {
 		亵渎天神的炽热之心
 		按下[KEY]会将你包裹在发光的亵渎水晶中，并激活一次格挡
 		包裹后短时间内受击会使水晶破碎
-		水晶破碎时，神圣之星会向外螺旋扩散且你仅会受到1点伤害
+		水晶破碎时，神圣之星会向外螺旋扩散且受到的伤害会被抵消
 		破碎后，此伤害减免效果将进入冷却
 		处于冷却期间时触发格挡会召唤额外的治愈之星，但受击伤害不会降低
 		{$Common.AbyssLightLevel2}
@@ -840,7 +840,7 @@ GiantPearl: {
 		'''
 		光明之环环绕身周
 		减速被光环笼罩的敌人
-		当敌怪被减速时你会释放追踪棱晶碎块
+		处于光环范围内的敌怪将受到追踪棱晶碎块的轰炸
 		{$Common.AbyssLightLevel1}
 		'''
 }
@@ -1864,7 +1864,7 @@ TheEvolution: {
 	DisplayName: 进化者
 	Tooltip:
 		'''
-		被反弹的弹幕击中你后伤害降低为1，对敌怪造成10倍伤害
+		反弹击中你的弹幕，抵消其伤害并对敌怪造成10倍伤害
 		低于最大生命值5%伤害的弹幕不会被反弹
 		根据被反弹的弹幕伤害，反弹有15到90秒的冷却时间
 		该冷却时间与其他的闪避或反弹效果共享
@@ -2109,8 +2109,8 @@ TheComb: {
 	DisplayName: The Comb
 	Tooltip:
 		'''
-		Gives the wearer's hair a lustrous finish
-		Sparkles are attracted to nearby chests
+		使穿戴者的头发光泽耀人
+		闪光粒子会被附近的宝箱吸引
 		'We ain't found shit!'
 		'''
 }

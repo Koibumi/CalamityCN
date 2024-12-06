@@ -310,7 +310,7 @@ BlazingCore: {
 		The searing core of the Profaned Goddess
 		Pressing [KEY] will activate a parry, encasing you in luminous profaned crystal
 		Being hit shortly after encasement will shatter the crystal
-		Upon shattering, holy stars spiral outwards and you only take 1 damage
+		Upon shattering, holy stars spiral outwards and damage taken is negated
 		After shattering, this damage reduction effect goes on cooldown
 		Damage parried whilst on cooldown summons additional healing stars, and will not be reduced
 		{$Common.AbyssLightLevel2}
@@ -840,7 +840,7 @@ GiantPearl: {
 		'''
 		You have a light aura around you
 		Enemies within the aura are slowed down
-		You release homing prism shards while an enemy is slowed
+		Enemies that remain within the aura are bombarded by homing prism shards
 		{$Common.AbyssLightLevel1}
 		'''
 }
@@ -1863,7 +1863,7 @@ TheEvolution: {
 	DisplayName: The Evolution
 	Tooltip:
 		'''
-		Reflects projectiles that hit you, reducing their damage to 1 and dealing 10x damage to enemies
+		Reflects projectiles that hit you, negating their damage and dealing 10x damage to enemies
 		Projectiles that deal less than 5% of your max life in damage will not be reflected
 		The reflect has a cooldown that ranges between 15 and 90 seconds depending on the reflected projectile's damage
 		This cooldown is shared with all other dodges and reflects
