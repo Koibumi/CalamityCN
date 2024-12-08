@@ -1054,11 +1054,6 @@ WintersFury: {
 		'''
 }
 
-WrathoftheAncients: {
-	DisplayName: Wrath of the Ancients
-	Tooltip: Summons an energy pulse at the cursor to periodically summon homing spirits
-}
-
 WulfrumProsthesis: {
 	DisplayName: Wulfrum Prosthesis
 	Tooltip:

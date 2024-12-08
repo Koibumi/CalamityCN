@@ -1057,6 +1057,11 @@ WulfrumLureItem: {
 		'''
 }
 
+ZenithThrone: {
+	DisplayName: Zenith Throne
+	Tooltip: "'There will be no games, only damage per second...'"
+}
+
 AbyssBathtub: {
 	DisplayName: 深渊浴缸
 	Tooltip: ""

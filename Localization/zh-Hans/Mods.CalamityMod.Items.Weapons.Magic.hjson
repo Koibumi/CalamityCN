@@ -1054,11 +1054,6 @@ WintersFury: {
 		'''
 }
 
-WrathoftheAncients: {
-	DisplayName: 远古之怒
-	Tooltip: 在光标处召唤能量脉冲，周期性散发追踪灵气
-}
-
 WulfrumProsthesis: {
 	DisplayName: 钨钢义肢
 	Tooltip:

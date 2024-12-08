@@ -998,18 +998,6 @@ RedSun: {
 		'''
 }
 
-RedtideSpear: {
-	DisplayName: Redtide Spear
-	Tooltip:
-		'''
-		Poisons enemies on hit
-		Aiming the spear in front of you while running holds it down with increased knockback
-		Releasing the attack button after the charge makes an upwards slash, sending enemies flying into the air
-		[c/5C95A1:'The people of the sea were adept hunters, but they abhorred unnecessary violence.]
-		[c/5C95A1:Unfortunately, neighboring nations were brutish, so they fashioned their tools for war.']
-		'''
-}
-
 RemsRevenge: {
 	DisplayName: Rem's Revenge
 	Tooltip:
