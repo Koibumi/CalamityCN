@@ -1732,7 +1732,6 @@ StatMeter: {
 		最大潜行值：{0} | 站定恢复速度：{1} / 秒 | 移动时恢复速度：{2} / 秒
 		盗贼弹幕飞行速度提升：{3}%
 		'''
-	RogueConsumption: " | 盗贼消耗性武器消耗率：{0}%"
 	// Utility stats
 	ToolRange: 工具范围加成：({0}, {1})
 	MiningSpeed: " | 挖掘速度加成：{0}%"

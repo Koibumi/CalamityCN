@@ -371,6 +371,19 @@ BabyGhostBellJar: {
 	Tooltip: ""
 }
 
+CalamityCanvas: {
+	DisplayName: Calamity Canvas
+	Tooltip:
+		'''
+		<right> when placed to open a UI which allows customizing the focus of the painting
+		<left> to make the focus follow the cursor, <left> again to set it
+		Arrow keys can also be used to manually adjust the focus point
+		The scroll wheel zooms the focus in and out
+		Hold SHIFT to hide the UI without closing it
+		'Embrace chaos'
+		'''
+}
+
 CirrusCouch: {
 	DisplayName: 醉仙女沙发
 	Tooltip: 它不该存在……

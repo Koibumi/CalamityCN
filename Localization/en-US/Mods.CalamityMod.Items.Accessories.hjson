@@ -1732,7 +1732,6 @@ StatMeter: {
 		Max Stealth: {0} | Standing Regen: {1} / sec | Moving Regen: {2} / sec
 		Rogue Velocity Boost: {3}%
 		'''
-	RogueConsumption: " | Rogue Weapon Consumption Chance: {0}%"
 	// Utility stats
 	ToolRange: Tool Range Bonus: ({0}, {1})
 	MiningSpeed: " | Mining Speed: {0}%"

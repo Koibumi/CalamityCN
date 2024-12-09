@@ -10,6 +10,7 @@ AstralSandBallGun.DisplayName: Astral Sand
 AstralSpray.DisplayName: Astral Spray
 AstralStar.DisplayName: Star
 AuricLandMineExplosion.DisplayName: Auric Land Mine Explosion
+BabyCannonballProjectile.DisplayName: Baby Cannonball Projectile
 BasicBurst.DisplayName: Nondescript Damaging Explosion
 BasicPlagueBee.DisplayName: Basic Plague Bee
 BlazingStarHeal.DisplayName: Blazing Star Heal
@@ -99,6 +100,7 @@ PscTransformRocks.DisplayName: Psc Transform Rocks
 ReaverOrb.DisplayName: Reaver Orb
 ReaverThornBase.DisplayName: Thorn
 RedLabSeeker.DisplayName: Seeking Mechanism
+RelicGuard.DisplayName: Relic Guard
 RiftReelerBobber.DisplayName: Chaotic Bobber
 SandCloakVeil.DisplayName: Dust Veil
 SandExplosion.DisplayName: Sand
@@ -141,4 +143,3 @@ YanmeisKnifeSlash.DisplayName: Yanmei's Knife
 YellowLabSeeker.DisplayName: Seeking Mechanism
 VoidofExtinctionCrit.DisplayName: Void of Extinction Crit
 XykDeathAnim.DisplayName: Xyk Death Animation
-RelicGuard.DisplayName: Relic Guard

@@ -238,6 +238,21 @@ ThanatosMask: {
 	Tooltip: ""
 }
 
+TheCommandersCap: {
+	DisplayName: The Commanders Cap
+	Tooltip: Part of The High-Flying Finery
+}
+
+TheFormalFootwear: {
+	DisplayName: The Formal Footwear
+	Tooltip: Part of The High-Flying Finery
+}
+
+TheGrandGarment: {
+	DisplayName: The Grand Garment
+	Tooltip: Part of The High-Flying Finery
+}
+
 YharonMask: {
 	DisplayName: 犽戎面具
 	Tooltip: ""

@@ -10,6 +10,7 @@ AstralSandBallGun.DisplayName: 星环沙块
 AstralSpray.DisplayName: 星体喷流
 AstralStar.DisplayName: 彗星
 AuricLandMineExplosion.DisplayName: 金源地雷爆炸
+BabyCannonballProjectile.DisplayName: Baby Cannonball Projectile
 BasicBurst.DisplayName: Nondescript Damaging Explosion
 BasicPlagueBee.DisplayName: 基础瘟疫蜜蜂
 BlazingStarHeal.DisplayName: 治愈神圣之星
@@ -99,6 +100,7 @@ PscTransformRocks.DisplayName: 渎神魂晶转换陨石
 ReaverOrb.DisplayName: 掠夺者宝珠
 ReaverThornBase.DisplayName: 荆棘
 RedLabSeeker.DisplayName: 实验室定位仪
+RelicGuard.DisplayName: Relic Guard
 RiftReelerBobber.DisplayName: 混乱浮标
 SandCloakVeil.DisplayName: 沙尘龙卷
 SandExplosion.DisplayName: 流沙
@@ -141,4 +143,3 @@ YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
 VoidofExtinctionCrit.DisplayName: 终结虚空暴击
 XykDeathAnim.DisplayName: Xyk Death Animation
-RelicGuard.DisplayName: Relic Guard
