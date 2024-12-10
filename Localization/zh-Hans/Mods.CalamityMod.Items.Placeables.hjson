@@ -375,11 +375,11 @@ CalamityCanvas: {
 	DisplayName: Calamity Canvas
 	Tooltip:
 		'''
-		<right> when placed to open a UI which allows customizing the focus of the painting
-		<left> to make the focus follow the cursor, <left> again to set it
-		Arrow keys can also be used to manually adjust the focus point
-		The scroll wheel zooms the focus in and out
-		Hold SHIFT to hide the UI without closing it
+		当放置时，<right>来打开一个UI，允许你自定义画作的焦点
+		<left>使焦点跟随鼠标，再次<left>来设置焦点
+		也可以使用方向键来手动调整焦点位置
+		使用滚轮可放大或缩小焦点
+		按住SHIFT来隐藏UI，但不关闭它
 		'Embrace chaos'
 		'''
 }

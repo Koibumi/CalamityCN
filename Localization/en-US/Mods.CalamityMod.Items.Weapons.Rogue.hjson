@@ -1075,7 +1075,7 @@ SlickCane: {
 		'''
 		Swipes a cane that steals money from enemies
 		Stealth strikes give a 1 in 20 chance for enemies to drop 1-2 gold coins when hit
-		Stealth strikes' damage increases in proportion to money in the inventory (up to 5 platinum, gamble wisely)
+		Stealth strikes boost damage in proportion to money in the inventory, up to 1 Platinum
 		'Economy at its finest'
 		'''
 }

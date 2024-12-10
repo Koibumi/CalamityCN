@@ -20,7 +20,7 @@ AndroombaItem: {
 
 BabyCannonballJellyfishItem: {
 	DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
-	Tooltip: Can be fired out of cannons
+	Tooltip: 可以被大炮发射
 }
 
 BabyFlakCrabItem: {
