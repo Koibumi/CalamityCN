@@ -262,7 +262,8 @@ DeepWounder: {
 	Tooltip:
 		'''
 		Throws an abyssal hatchet that inflicts Armor Crunch and Crush Depth to the enemies it hits
-		Stealth strikes cause the hatchet to be thrown faster and trail water, inflicting Marked for Death in addition to the other debuffs
+		Stealth strikes cause the hatchet to stick to struck enemies, inflicting Laceration and spawning a burst of water projectiles
+		Water projectiles launch at the closest enemy after a brief delay
 		'''
 }
 

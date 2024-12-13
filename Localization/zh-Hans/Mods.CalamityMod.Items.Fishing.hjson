@@ -177,16 +177,16 @@ SparklingEmpress: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Fires a stream of erratic magic
-		After firing for long enough, the fish will shine
-		Ceasing use of the fish while it shines will restore some of your mana and life
+		发射一股不稳定魔法水流
+		发射一段时间后，鱼身会开始闪光
+		在闪光状态下停止使用将恢复少量魔力和生命值
 		'An beautiful fish that seems to feed on mana'
 		'''
 	TooltipGFB:
 		'''
-		Fires a stream of erratic magic
-		After firing for long enough, the fish will shine
-		Ceasing use of the fish while it shines will restore some of your mana and life
+		发射一股不稳定魔法水流
+		发射一段时间后，鱼身会开始闪光
+		在闪光状态下停止使用将恢复少量魔力和生命值
 		'Hello there, you seem to be an unfamiliar face around here.
 		Perhaps you are surprised a fish like me is able to speak?
 		No need for worry, I have no intention of any foul play.
