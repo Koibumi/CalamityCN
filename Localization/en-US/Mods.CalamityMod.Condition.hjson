@@ -41,7 +41,7 @@ Drops: {
 	DownedT2AR: After defeating the second tier of Acid Rain
 	FirstKill: Drops only on the first kill
 	MechBoss: Drops on the first kill of the final Mechanical Boss
-	ProvidenceNight: Drops if Providence is only attacked during nighttime
+	ProvidenceEnraged: Drops if Providence has been enraged
 	ProvidenceChallenge:
 		'''
 		Drops if Providence was defeated only with the [i:CalamityMod/ProfanedSoulArtifact] Profaned Soul Artifact

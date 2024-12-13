@@ -176,6 +176,11 @@ GodSlayerInferno: {
 	Description: Your flesh is burning off
 }
 
+HeavyBleeding: {
+	DisplayName: Heavy Bleeding
+	Description: That's gonna need stitches
+}
+
 HolyFlames: {
 	DisplayName: Holy Flames
 	Description: Dissolving from holy light

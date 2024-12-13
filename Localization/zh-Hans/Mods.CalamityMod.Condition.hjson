@@ -41,7 +41,7 @@ Drops: {
 	DownedT2AR: 在完成二阶段酸雨后
 	FirstKill: 仅在首次击败时掉落
 	MechBoss: 首次击败机械三王中最后一位时掉落
-	ProvidenceNight: 仅当亵渎天神全程在夜晚受击并被击败时掉落
+	ProvidenceEnraged: Drops if Providence has been enraged
 	ProvidenceChallenge:
 		'''
 		当玩家仅使用[i:CalamityMod/ProfanedSoulArtifact]渎魂神物击败亵渎天神时掉落

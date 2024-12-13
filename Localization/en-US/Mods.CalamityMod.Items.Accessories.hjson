@@ -252,11 +252,11 @@ AsgardianAegis: {
 		'''
 	HoldShiftTooltip:
 		'''
-		  On Fire!, Hellfire, Chilled, Frozen, Frostburn, Frostbite, Weak, Broken Armor,
-		  Bleeding, Poisoned, Acid Venom, Sulphuric Poisoning, Slow, Confused,
-		  Silenced, Cursed, Darkness, Webbed, Mighty Wind, Stoned, Armor Crunch,
-		  Blackout, Brain Rot, Burning Blood, Cursed Inferno, Brimstone Flames,
-		  Shadowflame, Daybroken, Nightwither, Holy Flames, Voidfrost, God Slayer Inferno, Burning
+		  On Fire!, Hellfire, Burning, Chilled, Frozen, Frostburn, Frostbite, Weak,
+		  Broken Armor, Bleeding, Poisoned, Acid Venom, Sulphuric Poisoning, Slow, Confused,
+		  Silenced, Cursed, Darkness, Webbed, Mighty Wind, Stoned, Armor Crunch, Blackout,
+		  Brain Rot, Burning Blood, Heavy Bleeding, Laceration, Cursed Inferno, Brimstone Flames,
+		  Shadowflame, Daybroken, Nightwither, Holy Flames, Voidfrost, God Slayer Inferno
 		'''
 }
 
@@ -331,6 +331,7 @@ BloodPact: {
 	Tooltip:
 		'''
 		Increases max HP by 25%
+		Immunity to Bleeding, Burning Blood and Heavy Bleeding
 		Healing Potions are 25% more effective
 		'''
 }
@@ -396,6 +397,7 @@ ChaliceOfTheBloodGod: {
 	Tooltip:
 		'''
 		Increases max HP by 25%
+		Immunity to Bleeding, Burning Blood, Heavy Bleeding and Laceration
 		+2 HP/s life regen and reduces the cooldown of healing potions by 25%
 		Taking more than 5 damage converts the hit into a damage over time bleed debuff
 		This bleeding does not interfere with life regeneration

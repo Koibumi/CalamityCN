@@ -228,8 +228,7 @@ ProfanedCore: {
 	Tooltip:
 		'''
 		在神圣之地或地狱使用以召唤亵渎天神
-		在不同的群落与其战斗会掉落不同的战利品
-		在夜晚时狂暴
+		Use again while Providence is at high health to unleash Her perfect fury
 		{$Common.NotConsumable}
 		“她的守卫的心脏，她将会用污亵的烈焰焚尽现在正掌控它的人。”
 		'''
@@ -239,16 +238,10 @@ ProfanedShard: {
 	DisplayName: 亵渎碎片
 	Tooltip:
 		'''
-		[SPAWN]
+		在地狱或神圣之地使用以召唤亵渎守卫
 		{$Common.NotConsumable}
 		“她的守护者正在搜寻如此浩瀚能量的盗取者。”
 		'''
-	SpawnNormal:
-		'''
-		在地狱或神圣之地使用以召唤亵渎守卫
-		在夜晚战斗时狂暴
-		'''
-	SpawnRemix: 在地狱或神圣之地使用以召唤亵渎守卫
 }
 
 SandstormsCore: {

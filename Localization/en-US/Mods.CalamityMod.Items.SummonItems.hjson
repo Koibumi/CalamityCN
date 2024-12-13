@@ -228,8 +228,7 @@ ProfanedCore: {
 	Tooltip:
 		'''
 		Summons Providence when used in the Hallow or Underworld
-		Unique drop changes depending on the biome fought in
-		Enrages when fought during nighttime
+		Use again while Providence is at high health to unleash Her perfect fury
 		{$Common.NotConsumable}
 		'The heart of Her Guardians, Her wicked wrath shall burn upon whoever now wields it.'
 		'''
@@ -239,16 +238,10 @@ ProfanedShard: {
 	DisplayName: Profaned Shard
 	Tooltip:
 		'''
-		[SPAWN]
+		Summons the Profaned Guardians when used in the Hallow or Underworld
 		{$Common.NotConsumable}
 		'Her Guardians seek the holder of such vast stolen power.'
 		'''
-	SpawnNormal:
-		'''
-		Summons the Profaned Guardians when used in the Hallow or Underworld
-		Enrages when fought during nighttime
-		'''
-	SpawnRemix: Summons the Profaned Guardians when used in the Hallow or Underworld
 }
 
 SandstormsCore: {

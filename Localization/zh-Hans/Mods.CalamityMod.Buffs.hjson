@@ -176,6 +176,11 @@ GodSlayerInferno: {
 	Description: 你的血肉在燃烧
 }
 
+HeavyBleeding: {
+	DisplayName: Heavy Bleeding
+	Description: That's gonna need stitches
+}
+
 HolyFlames: {
 	DisplayName: 神圣之火
 	Description: 神圣之光将你焚化
