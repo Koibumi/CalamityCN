@@ -1200,7 +1200,7 @@ TerrorTalons: {
 	Tooltip:
 		'''
 		发射小飞爪
-		潜伏攻击会发射一个巨大且高速的穿透飞爪
+		Stealth strikes launch a large, high speed claw which slashes multiple times
 		'''
 }
 

@@ -441,8 +441,9 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		5% increased movement speed
-		All rogue weapons inflict poison and spawn poisoned clouds on enemy hits
-		You release a ton of clouds everywhere on hit
+		Multiplies all sickness and water-related debuff damage by 1.25x
+		All attacks irradiate enemies and reduces the severity of the sulphuric waters
+		You burst into radioactive clouds when struck
 		'''
 }
 

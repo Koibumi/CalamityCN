@@ -1199,7 +1199,7 @@ TerrorTalons: {
 	Tooltip:
 		'''
 		Fires small wavering claws
-		Stealth strikes launch a large, high speed claw which pierces
+		Stealth strikes launch a large, high speed claw which slashes multiple times
 		'''
 }
 

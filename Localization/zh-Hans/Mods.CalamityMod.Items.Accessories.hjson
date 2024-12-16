@@ -441,8 +441,9 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		所有盗贼武器都会在击中敌人时施加中毒减益并生成毒云
-		受到伤害时会释放大量毒云
+		Multiplies all sickness and water-related debuff damage by 1.25x
+		All attacks irradiate enemies and reduces the severity of the sulphuric waters
+		You burst into radioactive clouds when struck
 		'''
 }
 
