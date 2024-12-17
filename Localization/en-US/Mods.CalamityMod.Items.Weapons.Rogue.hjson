@@ -717,8 +717,8 @@ MeteorFist: {
 	DisplayName: Meteor Fist
 	Tooltip:
 		'''
-		Fires a rocket fist that explodes forcefully
-		Stealth strikes make the fist ricochet between enemies up to 4 times
+		Fires a wired-guided rocket fist that seeks the cursor and accelerates over time
+		Stealth strikes immediately start accelerating and drop a meteorite on the struck enemy
 		'''
 }
 

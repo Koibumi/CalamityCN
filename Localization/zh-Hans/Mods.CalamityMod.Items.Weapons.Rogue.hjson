@@ -718,8 +718,8 @@ MeteorFist: {
 	DisplayName: 陨星拳套
 	Tooltip:
 		'''
-		发射激烈爆炸的火箭拳
-		潜伏攻击会使拳头在敌人间来回反弹，至多4次
+		发射一只有线制导的火箭拳，追踪光标并随时间加速
+		潜伏攻击使火箭拳立即开始加速，并在击中敌怪时从天降下一颗陨星
 		'''
 }
 
@@ -1200,7 +1200,7 @@ TerrorTalons: {
 	Tooltip:
 		'''
 		发射小飞爪
-		Stealth strikes launch a large, high speed claw which slashes multiple times
+		潜伏攻击发射一个大型高速飞爪，进行多次斩击
 		'''
 }
 

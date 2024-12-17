@@ -441,9 +441,9 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		Multiplies all sickness and water-related debuff damage by 1.25x
-		All attacks irradiate enemies and reduces the severity of the sulphuric waters
-		You burst into radioactive clouds when struck
+		所有疾病系和水系减益的伤害乘以1.25
+		所有攻击都将辐射敌怪，降低硫磺海水的威胁性
+		受击时爆炸成辐射毒云
 		'''
 }
 
