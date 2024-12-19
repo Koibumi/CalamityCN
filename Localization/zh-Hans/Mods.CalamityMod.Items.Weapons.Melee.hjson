@@ -1424,14 +1424,9 @@ UltimusCleaver: {
 	Tooltip: 发射会追踪的蓝焰火花，击中敌人时爆炸
 }
 
-UrchinFlail: {
-	DisplayName: 海胆链球
-	Tooltip: 甩出海胆链球，击中敌人时发射海胆刺
-}
-
 UrchinMace: {
 	DisplayName: 海胆链枷
-	Tooltip: 充能完毕时掷出一股赤潮涡流
+	Tooltip: 掷出一股赤潮涡流
 }
 
 VanishingPoint: {

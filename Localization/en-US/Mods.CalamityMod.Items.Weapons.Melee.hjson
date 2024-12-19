@@ -1424,14 +1424,9 @@ UltimusCleaver: {
 	Tooltip: Launches damaging homing sparks and explodes on enemy hits
 }
 
-UrchinFlail: {
-	DisplayName: Urchin Flail
-	Tooltip: Launch an urchin ball, which shoots a spike on contact with an enemy
-}
-
 UrchinMace: {
 	DisplayName: Urchin Mace
-	Tooltip: Throws out a whirlpool when released at full charge
+	Tooltip: Throws out a whirlpool when released
 }
 
 VanishingPoint: {
