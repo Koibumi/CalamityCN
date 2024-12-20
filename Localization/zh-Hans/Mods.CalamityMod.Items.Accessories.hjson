@@ -723,7 +723,7 @@ EnchantedPearl: {
 		'''
 		增加10点渔力
 		增加15%钓到宝匣和包含战利品的鱼的概率
-		Crate catches emit pearls and are 25% more likely to be higher quality
+		钓到宝匣时会释放珍珠粒子，且宝匣有25%概率变为更高品质
 		'''
 }
 
