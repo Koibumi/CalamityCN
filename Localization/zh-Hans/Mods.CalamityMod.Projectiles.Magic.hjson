@@ -96,8 +96,8 @@ HellwingBat.DisplayName: 狱烬蝙蝠
 HolyFlame.DisplayName: 圣火
 HolyLaser.DisplayName: 圣光聚束
 IceBarrageMain.DisplayName: 寒冰弹幕
-IceBlock.DisplayName: 寒冰弹幕
-IceBlockIcicle.DisplayName: 寒冰弹幕
+IceBlock.DisplayName: Ice Barrage Block
+IceBlockIcicle.DisplayName: Ice Barrage Icicle
 IceCluster.DisplayName: 冰簇
 Icicle.DisplayName: 冰锥
 IcicleStaffProj.DisplayName: 高速冰柱

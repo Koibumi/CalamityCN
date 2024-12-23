@@ -96,8 +96,8 @@ HellwingBat.DisplayName: Ashen Hellwing
 HolyFlame.DisplayName: Holy Flame
 HolyLaser.DisplayName: Holy Laser
 IceBarrageMain.DisplayName: Ice Barrage
-IceBlock.DisplayName: Ice Barrage
-IceBlockIcicle.DisplayName: Ice Barrage
+IceBlock.DisplayName: Ice Barrage Block
+IceBlockIcicle.DisplayName: Ice Barrage Icicle
 IceCluster.DisplayName: Ice Cluster
 Icicle.DisplayName: Icicle
 IcicleStaffProj.DisplayName: Furious Icicle

@@ -163,11 +163,10 @@ CorpusAvertor: {
 	DisplayName: 憎恶血刃
 	Tooltip:
 		'''
-		基于造成的伤害吸取生命
-		你的生命值越低，这把武器的伤害和吸血效果越高
-		潜伏攻击会掷出彩虹匕首
-		命中时，你的队友会提高10%伤害和+2HP/s生命再生
-		然而，它有小几率使你的生命值减半
+		Throws a spinning dagger that spawns a rebounding clone
+		Deals more damage the lower your health, and grants lifesteal
+		Stealth strikes throw a piercing rainbow dagger which spawns an extra slash in its wake, with a blood cost
+		This dagger grants players on your team 10% damage and +2 HP/s life regen on hit, and heals them for a portion of damage dealt
 		“似乎随时间的流逝而逐渐崩解”
 		'''
 }
@@ -263,7 +262,7 @@ DeepWounder: {
 	Tooltip:
 		'''
 		投掷一把深渊战斧，造成碎甲和深渊水压减益
-		潜伏攻击会使斧头粘在敌怪身上，造成Laceration减益并迸发出一股水弹
+		潜伏攻击会使斧头粘在敌怪身上，造成Heavy Bleeding减益并迸发出一股水弹
 		水弹在短时间后向最近的敌怪发射
 		'''
 }

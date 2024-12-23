@@ -162,11 +162,10 @@ CorpusAvertor: {
 	DisplayName: Corpus Avertor
 	Tooltip:
 		'''
-		Attacks grant lifesteal based on damage dealt
-		The lower your HP the more damage this weapon does and heals the player on enemy hits
-		Stealth strikes throw a single rainbow outlined dagger
-		On enemy hits, this dagger grants 10% damage and +2 HP/s life regen to all members of your team
-		However, there is a small chance it will cut your health in half instead
+		Throws a spinning dagger that spawns a rebounding clone
+		Deals more damage the lower your health, and grants lifesteal
+		Stealth strikes throw a piercing rainbow dagger which spawns an extra slash in its wake, with a blood cost
+		This dagger grants players on your team 10% damage and +2 HP/s life regen on hit, and heals them for a portion of damage dealt
 		'Seems like it has worn down over time'
 		'''
 }
@@ -262,7 +261,7 @@ DeepWounder: {
 	Tooltip:
 		'''
 		Throws an abyssal hatchet that inflicts Armor Crunch and Crush Depth to the enemies it hits
-		Stealth strikes cause the hatchet to stick to struck enemies, inflicting Laceration and spawning a burst of water projectiles
+		Stealth strikes cause the hatchet to stick to struck enemies, causing Heavy Bleeding and spawning a burst of water projectiles
 		Water projectiles launch at the closest enemy after a brief delay
 		'''
 }
