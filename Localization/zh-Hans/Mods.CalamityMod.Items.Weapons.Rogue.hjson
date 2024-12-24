@@ -163,10 +163,10 @@ CorpusAvertor: {
 	DisplayName: 憎恶血刃
 	Tooltip:
 		'''
-		Throws a spinning dagger that spawns a rebounding clone
-		Deals more damage the lower your health, and grants lifesteal
-		Stealth strikes throw a piercing rainbow dagger which spawns an extra slash in its wake, with a blood cost
-		This dagger grants players on your team 10% damage and +2 HP/s life regen on hit, and heals them for a portion of damage dealt
+		扔出一把旋转匕首，生成在敌怪身上不断反弹的复制体
+		造成的伤害随你的生命值降低而升高，并提供生命偷取
+		潜伏攻击以生命为代价扔出一把穿透性彩虹匕首，在其路径上生成一道额外斩击
+		命中时，这把匕首为你的队友提供10%伤害加成和每秒2点生命再生，并为他们恢复造成伤害一定比例的生命
 		“似乎随时间的流逝而逐渐崩解”
 		'''
 }
