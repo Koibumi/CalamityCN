@@ -56,9 +56,7 @@ AbyssalMirror: {
 		'''
 	HoldShiftTooltip:
 		'''
-		低于最大生命值5%伤害的攻击不会触发闪避
-		根据被闪避的攻击伤害，闪避有15到90秒的冷却时间
-		该冷却时间与其他的闪避或反弹效果共享
+		{$Common.DodgeInformation}
 		闪避攻击时会使你获得潜行值
 		'''
 	FlavorTooltip: “光无法到达海洋深处”
@@ -108,12 +106,7 @@ AmalgamatedBrain: {
 		使你获得闪避攻击的能力
 		闪避攻击后召唤伤害和暴击率会增加10%
 		'''
-	HoldShiftTooltip:
-		'''
-		低于最大生命值5%伤害的攻击不会触发闪避
-		根据被闪避的攻击伤害，闪避有15到90秒的冷却时间
-		该冷却时间与其他的闪避或反弹效果共享
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 AmbrosialAmpoule: {
@@ -661,10 +654,8 @@ EclipseMirror: {
 		'''
 	HoldShiftTooltip:
 		'''
-		低于最大生命值5%伤害的攻击不会触发闪避
-		根据被闪避的攻击伤害，闪避有15到90秒的冷却时间
+		{$Common.DodgeInformation}
 		闪避攻击时会使你获得大量的潜行值
-		该冷却时间与其他的闪避或反弹效果共享
 		'''
 	FlavorTooltip: “它所映出的只有无边黑暗”
 }
@@ -1658,12 +1649,7 @@ StatisNinjaBelt: {
 		穿戴时提供光照
 		{$Common.AbyssLightLevel1}
 		'''
-	HoldShiftTooltip:
-		'''
-		低于最大生命值5%伤害的攻击不会触发闪避
-		根据被闪避的攻击伤害，闪避有15到90秒的冷却时间
-		该冷却时间与其他的闪避或反弹效果共享
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 StatisVoidSash: {
@@ -1678,12 +1664,7 @@ StatisVoidSash: {
 		穿戴时提供光照
 		{$Common.AbyssLightLevel1}
 		'''
-	HoldShiftTooltip:
-		'''
-		低于最大生命值5%伤害的攻击不会触发闪避
-		根据被闪避的攻击伤害，闪避有15到90秒的冷却时间
-		该冷却时间与其他的闪避或反弹效果共享
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 // Be warned translators, this thing fucking sucks
@@ -1812,12 +1793,7 @@ TheAmalgam: {
 		使你获得闪避攻击的能力
 		闪避攻击后召唤伤害和暴击率会增加10%
 		'''
-	HoldShiftTooltip:
-		'''
-		低于最大生命值5%伤害的攻击不会触发闪避
-		根据被闪避的攻击伤害，闪避有15到90秒的冷却时间
-		该冷却时间与其他的闪避或反弹效果共享
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 TheBee: {
@@ -1867,9 +1843,7 @@ TheEvolution: {
 	Tooltip:
 		'''
 		反弹击中你的弹幕，抵消其伤害并对敌怪造成10倍伤害
-		低于最大生命值5%伤害的弹幕不会被反弹
-		根据被反弹的弹幕伤害，反弹有15到90秒的冷却时间
-		该冷却时间与其他的闪避或反弹效果共享
+		{$Common.ReflectInformation}
 		反弹一道弹幕后，你会获得+6HP/s生命再生，持续5秒，并获得最高的自然生命再生
 		冷却期间再次被相同弹幕击中时，此弹幕对你造成的伤害降低25%
 		'''

@@ -56,9 +56,7 @@ AbyssalMirror: {
 		'''
 	HoldShiftTooltip:
 		'''
-		Attacks that deal less than 5% of your max life in damage will not be dodged
-		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
-		This cooldown is shared with all other dodges and reflects
+		{$Common.DodgeInformation}
 		Dodging an attack gives stealth
 		'''
 	FlavorTooltip: "'Light does not reach the depths of the ocean'"
@@ -108,12 +106,7 @@ AmalgamatedBrain: {
 		Grants the ability to dodge attacks
 		After dodging, summon damage and crit chance are boosted by 10%
 		'''
-	HoldShiftTooltip:
-		'''
-		Attacks that deal less than 5% of your max life in damage will not be dodged
-		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
-		This cooldown is shared with all other dodges and reflects
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 AmbrosialAmpoule: {
@@ -661,10 +654,8 @@ EclipseMirror: {
 		'''
 	HoldShiftTooltip:
 		'''
-		Attacks that deal less than 5% of your max life in damage will not be dodged
-		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
+		{$Common.DodgeInformation}
 		Dodging an attack grants a lot of stealth
-		This cooldown is shared with all other dodges and reflects
 		'''
 	FlavorTooltip: "'Its reflection shows naught but darkness'"
 }
@@ -1658,12 +1649,7 @@ StatisNinjaBelt: {
 		Provides light when worn
 		{$Common.AbyssLightLevel1}
 		'''
-	HoldShiftTooltip:
-		'''
-		Attacks that deal less than 5% of your max life in damage will not be dodged
-		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
-		This cooldown is shared with all other dodges and reflects
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 StatisVoidSash: {
@@ -1678,12 +1664,7 @@ StatisVoidSash: {
 		Provides light when worn
 		{$Common.AbyssLightLevel1}
 		'''
-	HoldShiftTooltip:
-		'''
-		Attacks that deal less than 5% of your max life in damage will not be dodged
-		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
-		This cooldown is shared with all other dodges and reflects
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 // Be warned translators, this thing fucking sucks
@@ -1812,12 +1793,7 @@ TheAmalgam: {
 		Grants the ability to dodge attacks
 		After dodging, summon damage and crit chance are boosted by 10%
 		'''
-	HoldShiftTooltip:
-		'''
-		Attacks that deal less than 5% of your max life in damage will not be dodged
-		The dodge has a cooldown that ranges between 15 and 90 seconds depending on the dodged attack's damage
-		This cooldown is shared with all other dodges and reflects
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 TheBee: {
@@ -1866,9 +1842,7 @@ TheEvolution: {
 	Tooltip:
 		'''
 		Reflects projectiles that hit you, negating their damage and dealing 10x damage to enemies
-		Projectiles that deal less than 5% of your max life in damage will not be reflected
-		The reflect has a cooldown that ranges between 15 and 90 seconds depending on the reflected projectile's damage
-		This cooldown is shared with all other dodges and reflects
+		{$Common.ReflectInformation}
 		Reflecting a projectile grants +6 HP/s life regen for 5 seconds and grants maximum natural life regen
 		Getting hit by the same enemy projectile type during cooldown will resist its damage by 25%
 		'''

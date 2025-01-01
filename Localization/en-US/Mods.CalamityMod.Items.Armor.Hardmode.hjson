@@ -106,9 +106,7 @@ DaedalusHeadMelee: {
 		Enemies are more likely to target you
 		You reflect projectiles back at enemies
 		Reflected projectiles deal 50% less damage to you
-		Projectiles that deal less than 5% of your max life in damage will not be reflected
-		The reflect has a cooldown that ranges between 15 and 90 seconds depending on the reflected projectile's damage
-		This cooldown is shared with all other dodges and reflects
+		{$Common.ReflectInformation}
 		'''
 }
 

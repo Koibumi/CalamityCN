@@ -11,6 +11,18 @@ NotConsumable: Not consumable
 RogueDamage: "{0}% increased rogue damage"
 RogueCrit: "{0}% increased rogue critical strike chance"
 RogueVelocity: "{0}% increased rogue velocity"
+DodgeInformation:
+	'''
+	Attacks that deal less than 5% of your max life in damage will not be dodged
+	The dodge has a cooldown that ranges between 20 and 90 seconds depending on the dodged attack's damage
+	This cooldown is shared with all other dodges and reflects
+	'''
+ReflectInformation:
+	'''
+	Projectiles that deal less than 5% of your max life in damage will not be reflected
+	The reflect has a cooldown that ranges between 20 and 90 seconds depending on the reflected projectile's damage
+	This cooldown is shared with all other dodges and reflects
+	'''
 GrappleStats:
 	'''
 	Reach: {0} tiles
