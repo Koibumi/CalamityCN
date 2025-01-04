@@ -313,8 +313,8 @@ DraedonGamerChairBuff: {
 }
 
 ExoTankBuff: {
-	DisplayName: Rainbow Road Roller
-	Description: Your foes shall fall within your calculations
+	DisplayName: 彩虹压路机
+	Description: 敌人尽在你的计算之中
 }
 
 GazeOfCrysthamyrBuff: {

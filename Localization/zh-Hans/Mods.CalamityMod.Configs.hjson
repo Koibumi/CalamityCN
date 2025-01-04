@@ -205,8 +205,8 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/RedLightningContainer] 怒气与肾上腺素条震动"
 		Tooltip:
 			'''
-			开启怒气与肾上腺素时，条的振动幅度。
-			设为0完全禁用振动。
+			开启怒气与肾上腺素时，条的震动幅度。
+			设为0完全禁用震动。
 			'''
 	}
 
