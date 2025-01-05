@@ -371,8 +371,8 @@ BabyGhostBellJar: {
 	Tooltip: ""
 }
 
-CalamityCanvas: {
-	DisplayName: Calamity Canvas
+CalamityCanvas2023: {
+	DisplayName: Calamity Canvas 2023
 	Tooltip:
 		'''
 		<right> when placed to open a UI which allows customizing the focus of the painting
@@ -381,6 +381,19 @@ CalamityCanvas: {
 		The scroll wheel zooms the focus in and out
 		Hold SHIFT to hide the UI without closing it
 		'Embrace chaos'
+		'''
+}
+
+CalamityCanvas2024: {
+	DisplayName: Calamity Canvas 2024
+	Tooltip:
+		'''
+		<right> when placed to open a UI which allows customizing the focus of the painting
+		<left> to make the focus follow the cursor, <left> again to set it
+		Arrow keys can also be used to manually adjust the focus point
+		The scroll wheel zooms the focus in and out
+		Hold SHIFT to hide the UI without closing it
+		'Embrace havoc'
 		'''
 }
 

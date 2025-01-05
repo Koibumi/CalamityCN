@@ -371,8 +371,8 @@ BabyGhostBellJar: {
 	Tooltip: ""
 }
 
-CalamityCanvas: {
-	DisplayName: Calamity Canvas
+CalamityCanvas2023: {
+	DisplayName: Calamity Canvas 2023
 	Tooltip:
 		'''
 		当放置时，<right>来打开一个UI，允许你自定义画作的焦点
@@ -381,6 +381,19 @@ CalamityCanvas: {
 		使用滚轮可放大或缩小焦点
 		按住SHIFT来隐藏UI，但不关闭它
 		'Embrace chaos'
+		'''
+}
+
+CalamityCanvas2024: {
+	DisplayName: Calamity Canvas 2024
+	Tooltip:
+		'''
+		当放置时，<right>来打开一个UI，允许你自定义画作的焦点
+		<left>使焦点跟随鼠标，再次<left>来设置焦点
+		也可以使用方向键来手动调整焦点位置
+		使用滚轮可放大或缩小焦点
+		按住SHIFT来隐藏UI，但不关闭它
+		'Embrace havoc'
 		'''
 }
 
