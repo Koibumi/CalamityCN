@@ -183,8 +183,8 @@ CraniumSmasher: {
 	DisplayName: Cranium Smasher
 	Tooltip:
 		'''
-		Throws disks that roll on the ground, occasionally launches an explosive disk
-		Stealth strikes launch an explosive disk that can pierce several enemies
+		Alternates between throwing piercing, rolling disks and explosive disks
+		Stealth strikes embed into the hit foe, exploding multiple times
 		'''
 }
 
@@ -415,8 +415,9 @@ FrostcrushValari: {
 	DisplayName: Frostcrush Valari
 	Tooltip:
 		'''
-		Fires a long ranged boomerang that explodes into icicles on hit
-		Stealth strikes throw three shorter ranged boomerangs that freeze along with a spread of icicles
+		Fires a long ranged frosty boomerang that chips off homing icicles on hit
+		Stealth strikes throw a boomerang which follows the cursor
+		This boomerang creates a freezing blast and chips off homing icicles on every hit
 		'''
 }
 

@@ -81,7 +81,6 @@ AddedTooltip: {
 	PlatinumGreaves: 10% increased movement speed
 	CrimsonBreastplate: +1 HP/s life regen
 	CrimsonOtherPieces: +0.5 HP/s life regen
-	SolarFlarePieces: Grants +1 HP/s life regeneration
 	Picksaw: Can mine Scoria Ore located in the Abyss
 }
 
@@ -192,7 +191,7 @@ EditedTooltip: {
 		'''
 	FrogLeg: Increases jump speed by {0}% and allows auto-jump
 	// Soaring Insignia
-	EmpressFlightBooster1: Increases wing flight time by 30%
+	EmpressFlightBooster1: Increases wing flight time by 33%
 	EmpressFlightBooster2: Increases movement and jump speed by 10% and acceleration by 1.25x
 	RifleScope1: Increase view range for guns (Right click to zoom out)
 	RifleScope2: The scope effect can be toggled with visibility
@@ -227,6 +226,7 @@ EditedTooltip: {
 	FlaskofParty: All attacks cause confetti to appear
 	FlaskofPoison: Melee, Whip, and Rogue attacks poison enemies
 	FlaskofVenom: Melee, Whip, and Rogue attacks inflict Acid Venom on enemies
+	SolarFlarePieces: Grants +1 HP/s life regeneration
 	/*
 	OOA sets
 	*/

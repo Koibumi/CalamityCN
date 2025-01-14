@@ -184,8 +184,8 @@ CraniumSmasher: {
 	DisplayName: 碎颅飞盘
 	Tooltip:
 		'''
-		投掷在地面滚动的飞盘,偶尔会投掷爆炸飞盘
-		潜伏攻击发射能穿透的爆炸飞盘
+		交替投掷滚动的穿透飞盘和爆炸飞盘
+		潜伏攻击嵌入被击中的敌怪体内，造成多次爆炸
 		'''
 }
 
@@ -416,8 +416,10 @@ FrostcrushValari: {
 	DisplayName: 霜碎回旋镖
 	Tooltip:
 		'''
-		发射长距离回旋镖，接触敌人时碎成冰锥
-		潜伏攻击会扔出三把飞行距离较短的冰冻回旋镖以及散射冰锥
+		This boomerang creates a freezing blast and chips off homing icicles on every hit
+		发射长距离霜冻回旋镖，接触敌人时释放追踪冰锥
+		潜伏攻击会扔出一把跟随光标的回旋镖
+		每次击中敌怪时都将产生冰冻冲击，并释放追踪冰锥
 		'''
 }
 

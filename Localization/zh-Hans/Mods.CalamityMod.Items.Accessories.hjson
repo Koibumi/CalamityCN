@@ -1845,7 +1845,7 @@ TheEvolution: {
 		反弹击中你的弹幕，抵消其伤害并对敌怪造成10倍伤害
 		{$Common.ReflectInformation}
 		反弹一道弹幕后，你会获得+6HP/s生命再生，持续5秒，并获得最高的自然生命再生
-		冷却期间再次被相同弹幕击中时，此弹幕对你造成的伤害降低25%
+		冷却期间再次被相同弹幕击中时，此弹幕对你造成的伤害降低20%
 		'''
 }
 
@@ -2078,7 +2078,7 @@ PunchCard: {
 
 SharkyPlush: {
 	DisplayName: Sharky Plush
-	Tooltip: "[c/696969:'Look around, at the sight and sound...']"
+	Tooltip: "[c/696969:'Look out, for the force without form...']"
 }
 
 TheComb: {
