@@ -394,6 +394,9 @@ RelicOfConvergence: {
 		所有在作用范围内的玩家会被治疗{0}点生命值
 		队友会获得50%额外治疗
 		举起这块水晶会大幅降低所有召唤物的伤害
+		[c/FF8C00:Never once had I known kindness. Neither my peers or family had a shred of compassion for me.]
+		[c/FF8C00:I wished for someone I could confide. A presence that cleansed me of anxiety.]
+		[c/FF8C00:And when I saw Her radiant smile when we met, I knew I had finally found it.]
 		'''
 }
 
@@ -437,5 +440,8 @@ RelicOfResilience: {
 		受击或按下<right>吸收碎岩，随即向外炸开，削弱命中的敌人
 		此效果在受击后有10秒的冷却时间
 		举起护盾且亵渎碎岩处于激活状态时，大幅降低所有召唤物的伤害，仅对手持这件物品的玩家生效
+		[c/FF8C00:I saw a massacre and did nothing to stop it. My vow broken, I was shunned.]
+		[c/FF8C00:My will to forge ahead vanished. My final wish was simply to not die alone.]
+		[c/FF8C00:But when She put faith in my shield, I would never again let it falter.]
 		'''
 }

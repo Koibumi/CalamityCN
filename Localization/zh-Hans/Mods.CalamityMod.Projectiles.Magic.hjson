@@ -221,8 +221,6 @@ TacticiansElectricBoom.DisplayName: 电流爆裂
 TacticiansTrumpCardProj.DisplayName: 王牌光束
 TearsofHeavenProjectile.DisplayName: 天堂之泪
 Teslabeam.DisplayName: 特斯拉光束
-ThunderboltShot.DisplayName: Ultracharged Filament
-ThunderboltOrb.DisplayName: Unstable Ball Lightning
 TradewindsProjectile.DisplayName: 信风羽
 TridentIcicle.DisplayName: 寒冰三叉戟
 UberBubble.DisplayName: 泡泡
@@ -232,6 +230,7 @@ ValkyrieRayStaff.DisplayName: 女武神杖
 VeeringWindAirWave.DisplayName: 环形风浪
 VeeringWindFrostWave.DisplayName: 霜波环流
 Vehemence.DisplayName: 狞桀爆炸
+VehemenceBolt.DisplayName: Vehemence Bolt
 VehemenceSkull.DisplayName: 狞桀骷髅
 VenusianBolt.DisplayName: 金星飞弹
 VenusianExplosion.DisplayName: 金星火焰
@@ -248,6 +247,8 @@ VividLaser2.DisplayName: 耀界之光
 VividOrb.DisplayName: 光耀球
 VoidVortexProj.DisplayName: 虚空漩涡
 VolatileStarcore.DisplayName: 挥发性星核
+VolterionOrb.DisplayName: Unstable Ball Lightning
+VolterionShot.DisplayName: Ultracharged Filament
 VortexElementalBeam.DisplayName: 闪电
 WaterLeechProj.DisplayName: 水蛭
 WaywasherProj.DisplayName: 清道夫水波
@@ -261,4 +262,3 @@ WyvernFeatherPurple.DisplayName: 紫色星龙羽
 WyvernProjectile.DisplayName: 星龙
 YharimsCrystalBeam.DisplayName: 亚利姆水晶聚焦射线
 YharimsCrystalPrism.DisplayName: 爆菌水京
-VehemenceBolt.DisplayName: Vehemence Bolt

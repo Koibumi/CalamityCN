@@ -933,15 +933,6 @@ ThornBlossom: {
 		'''
 }
 
-Thunderbolt: {
-	DisplayName: Thunderbolt
-	Tooltip:
-		'''
-		Discharges a high-voltage stream which bursts into 5 balls of lightning on hit
-		Each ball lightning emits two additional lightning bolts before exploding
-		'''
-}
-
 Tradewinds: {
 	DisplayName: Tradewinds
 	Tooltip: Casts fast moving sunlight feathers
@@ -1028,6 +1019,15 @@ VoidVortex: {
 VoltaicClimax: {
 	DisplayName: Voltaic Climax
 	Tooltip: Conjures a ring of supercharged magnet spheres around the cursor
+}
+
+Volterion: {
+	DisplayName: Volterion
+	Tooltip:
+		'''
+		Discharges a high-voltage stream which bursts into 5 balls of lightning on hit
+		Each ball lightning emits two additional lightning bolts before exploding
+		'''
 }
 
 Waywasher: {

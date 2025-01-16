@@ -221,8 +221,6 @@ TacticiansElectricBoom.DisplayName: Electric Explosion
 TacticiansTrumpCardProj.DisplayName: Trump Beam
 TearsofHeavenProjectile.DisplayName: Tears of Heaven
 Teslabeam.DisplayName: Teslabeam
-ThunderboltShot.DisplayName: Ultracharged Filament
-ThunderboltOrb.DisplayName: Unstable Ball Lightning
 TradewindsProjectile.DisplayName: Tradewinds Feather
 TridentIcicle.DisplayName: Trident Icicle
 UberBubble.DisplayName: Bubble
@@ -232,6 +230,7 @@ ValkyrieRayStaff.DisplayName: Valkyrie Ray
 VeeringWindAirWave.DisplayName: Veering Wind Air Wave
 VeeringWindFrostWave.DisplayName: Veering Wind Frost Wave
 Vehemence.DisplayName: Blast of Vehemence
+VehemenceBolt.DisplayName: Vehemence Bolt
 VehemenceSkull.DisplayName: Vehement Skull
 VenusianBolt.DisplayName: Venusian Bolt
 VenusianExplosion.DisplayName: Venusian Explosion
@@ -248,6 +247,8 @@ VividLaser2.DisplayName: Vivid Laser
 VividOrb.DisplayName: Vivid Orb
 VoidVortexProj.DisplayName: Void Vortex
 VolatileStarcore.DisplayName: Volatile Starcore
+VolterionOrb.DisplayName: Unstable Ball Lightning
+VolterionShot.DisplayName: Ultracharged Filament
 VortexElementalBeam.DisplayName: Vortex Lightning
 WaterLeechProj.DisplayName: Water Leech
 WaywasherProj.DisplayName: Waywasher Wave
@@ -261,4 +262,3 @@ WyvernFeatherPurple.DisplayName: Feather
 WyvernProjectile.DisplayName: Wyvern
 YharimsCrystalBeam.DisplayName: Yharim's Beam
 YharimsCrystalPrism.DisplayName: Yermes Christal
-VehemenceBolt.DisplayName: Vehemence Bolt

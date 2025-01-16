@@ -933,15 +933,6 @@ ThornBlossom: {
 		'''
 }
 
-Thunderbolt: {
-	DisplayName: Thunderbolt
-	Tooltip:
-		'''
-		释放一道高压电流，命中时炸成5颗球状闪电
-		每颗球状闪电爆炸前会额外释放两道闪电
-		'''
-}
-
 Tradewinds: {
 	DisplayName: 信风
 	Tooltip: 发射飞快而锋利的羽毛
@@ -1028,6 +1019,15 @@ VoidVortex: {
 VoltaicClimax: {
 	DisplayName: 极点光伏
 	Tooltip: 在光标处召唤一圈高压电磁球
+}
+
+Volterion: {
+	DisplayName: Volterion
+	Tooltip:
+		'''
+		释放一道高压电流，命中时炸成5颗球状闪电
+		每颗球状闪电爆炸前会额外释放两道闪电
+		'''
 }
 
 Waywasher: {

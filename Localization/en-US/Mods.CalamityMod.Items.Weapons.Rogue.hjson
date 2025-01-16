@@ -103,8 +103,8 @@ BurningStrife: {
 	DisplayName: Burning Strife
 	Tooltip:
 		'''
-		Throws a shadowflame spiky ball that bursts into flames
-		Stealth strikes make the ball linger and explode more violently
+		Throws a shadowflame spiky ball that explodes into flames
+		Stealth strikes make the ball erupt into tentacles on hit
 		'Definitely not pocket safe'
 		'''
 }
@@ -444,9 +444,8 @@ GelDart: {
 	DisplayName: Gel Dart
 	Tooltip:
 		'''
-		Throws bouncing gel darts
-		Stealth strikes ignore gravity and bounce more vigorously
-		They additionally leak slime and cover enemies in dark sludge
+		Throws bouncing gel darts that cover struck enemies in slime
+		Stealth strikes ignore gravity, bounce more vigorously, and constantly leak slime
 		'''
 }
 
@@ -667,7 +666,7 @@ LunarKunai: {
 		'''
 		Throws out a set of three kunai that ignore gravity and slightly home in on enemies
 		After traveling enough distance, the kunai supercharge with lunar energy, homing in far more aggressively and exploding on impact
-		Stealth strikes instantly throw nine supercharged Kunai
+		Stealth strikes instantly throw ten supercharged Kunai
 		'''
 }
 
