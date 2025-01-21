@@ -55,7 +55,7 @@ BlastBarrel: {
 	Tooltip:
 		'''
 		Throws a rolling barrel that explodes on wall collision
-		Stealth strikes makes the barrel bounce twice before disappearing with varied effects after each bounce
+		Stealth strikes make the barrel bounce twice before disappearing with varied effects after each bounce
 		'Some people used to jump over these'
 		'''
 }
@@ -397,7 +397,7 @@ FeatherKnife: {
 	Tooltip:
 		'''
 		Throws a knife which summons homing feathers
-		Stealth strike throws a volley of knives
+		Stealth strikes throw a volley of knives
 		'''
 }
 
@@ -728,7 +728,7 @@ MoltenAmputator: {
 		Throw a spinning scythe that lingers at your cursor
 		<right> to recall all existing scythes
 		Recalling a scythe while it's on an enemy rends them for massive damage
-		<right> with a full stealth bar to empower yourself, greatly increasing attack speed for a short time
+		<right> with sufficient stealth to empower yourself, greatly increasing attack speed for a short time
 		You cannot recall scythes thrown while empowered
 		'''
 }
@@ -739,7 +739,7 @@ Mycoroot: {
 		'''
 		Fires a stream of short-range fungal roots
 		Stealth strikes spawn an explosion of fungi spores
-		and grant you and all other players the Mushy buff for 15 seconds
+		This grants you and nearby players on your team the Mushy buff for 15 seconds
 		'''
 }
 
@@ -859,7 +859,7 @@ RadiantStar: {
 	Tooltip:
 		'''
 		Throws daggers that explode and split after a while
-		Stealth strike splits more with a devastating explosion and sucks enemies in
+		Stealth strikes split more with a devastating explosion that sucks enemies in
 		'''
 }
 
@@ -868,7 +868,7 @@ RealityRupture: {
 	Tooltip:
 		'''
 		Cycles between throwing 3 small homing spears and throwing a single piercing lance
-		Stealth Strikes throw a high-velocity reality shattering lance that explodes on hit
+		Stealth strikes throw a high-velocity reality shattering lance that explodes on hit
 		'''
 }
 
@@ -1022,8 +1022,8 @@ ShardofAntumbra: {
 		'''
 }
 
-ShatteredSun: {
-	DisplayName: Shattered Sun
+ShatteredDawn: {
+	DisplayName: Shattered Dawn
 	Tooltip:
 		'''
 		Throws daggers that split into scorching homing daggers
@@ -1099,7 +1099,7 @@ SpearofDestiny: {
 	Tooltip:
 		'''
 		Cycles between throwing 3 small homing spears and throwing a single piercing lance
-		Stealth Strikes throw a high-velocity holy lance that explodes on hit
+		Stealth strikes throw a high-velocity holy lance that explodes on hit
 		'''
 }
 
@@ -1140,7 +1140,7 @@ StarofDestruction: {
 		Throws a fan of cosmic bolts that meld together into a star of destruction
 		The explosive star will slowly follow your cursor until it expires or hits an enemy
 		Upon running out of time, the star will burst into a huge explosion that deals increased damage
-		Stealth strikes throw additional bolts that converge into faster star that can pierce, exploding on every hit
+		Stealth strikes throw additional bolts that converge into a faster star that can pierce, exploding on every hit
 		'''
 }
 
@@ -1188,7 +1188,7 @@ TarragonThrowingDart: {
 	DisplayName: Tarragon Throwing Dart
 	Tooltip:
 		'''
-		Fires a piercing dart with reduced immunity frames
+		Fires a piercing dart
 		Stealth strikes erupt into thorns on enemy hits
 		'''
 }

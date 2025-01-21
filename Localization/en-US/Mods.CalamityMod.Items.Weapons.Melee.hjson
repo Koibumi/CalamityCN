@@ -40,8 +40,8 @@ AirSpinner: {
 	DisplayName: Air Spinner
 	Tooltip:
 		'''
+		{$Common.YoyoStats}
 		Fires feathers when enemies are near
-		A very agile yoyo
 		'''
 }
 
@@ -64,8 +64,8 @@ Aorta: {
 	DisplayName: Aorta
 	Tooltip:
 		'''
+		{$Common.YoyoStats}
 		Fires homing blood when enemies are near
-		A very agile yoyo
 		'''
 }
 
@@ -149,8 +149,8 @@ Azathoth: {
 	DisplayName: Azathoth
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fires cosmic orbs that blast nearby enemies with lasers
-		An exceptionally agile yoyo
 		'Destroy the universe in the blink of an eye'
 		'''
 }
@@ -259,6 +259,7 @@ BurningRevelation: {
 	DisplayName: Burning Revelation
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		An ever burning yoyo that constantly charges power
 		Direct hits greatly increase the charge and release profaned energy that scales with charge level
 		At maximum charge, the yoyo unleashes a volley of homing stars that gain damage the farther they travel
@@ -516,8 +517,8 @@ FaultLine: {
 	DisplayName: Fault Line
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Explodes on enemy hits
-		A very agile yoyo
 		'''
 }
 
@@ -755,8 +756,8 @@ Lacerator: {
 	DisplayName: Lacerator
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Accelerates natural life regeneration on hits with the yoyo
-		An exceptionally agile yoyo
 		[GFB]
 		'''
 	TooltipNormal: Someone thought this was a viable weapon against DoG at one point lol
@@ -875,8 +876,8 @@ Oblivion: {
 	DisplayName: Oblivion
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fires brimstone darts when enemies are near
-		A very agile yoyo
 		'''
 }
 
@@ -930,8 +931,8 @@ Pandemic: {
 	DisplayName: Pandemic
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fires plague seekers when enemies are near
-		A very agile yoyo
 		'''
 }
 
@@ -984,8 +985,8 @@ Quagmire: {
 	DisplayName: Quagmire
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fires spore clouds
-		A very agile yoyo
 		'''
 }
 
@@ -1019,7 +1020,11 @@ Respiteblock: {
 
 Riptide: {
 	DisplayName: Riptide
-	Tooltip: Sprays a spiral of aqua streams
+	Tooltip:
+		'''
+		{$Common.YoyoStats}
+		Sprays a spiral of aqua streams
+		'''
 }
 
 Roxcalibur: {
@@ -1077,8 +1082,8 @@ Shimmerspark: {
 	DisplayName: Shimmerspark
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fires stars when enemies are near
-		A very agile yoyo
 		'''
 }
 
@@ -1094,7 +1099,11 @@ SkytideDragoon: {
 
 SmokingComet: {
 	DisplayName: Smoking Comet
-	Tooltip: Rains stars from the sky
+	Tooltip:
+		'''
+		{$Common.YoyoStats}
+		Rains stars from the sky
+		'''
 }
 
 SolsticeClaymore: {
@@ -1199,9 +1208,9 @@ SulphurousGrabber: {
 	DisplayName: Sulphurous Grabber
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Occasionally releases a ring of colored bubbles
 		The yoyo powers up after touching a green bubble
-		A very agile yoyo
 		'''
 }
 
@@ -1286,8 +1295,8 @@ TheGodsGambit: {
 	DisplayName: The God's Gambit
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fires a stream of slime when enemies are near
-		A very agile yoyo
 		'''
 }
 
@@ -1300,8 +1309,8 @@ TheMicrowave: {
 	DisplayName: The Microwave
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fries nearby enemies with radiation
-		An exceptionally agile yoyo
 		'Cooking, Astral Infection style'
 		'''
 }
@@ -1317,12 +1326,12 @@ TheMutilator: {
 
 TheObliterator: {
 	DisplayName: The Obliterator
-	Tooltip: "[GFB]"
-	TooltipNormal:
+	Tooltip:
 		'''
-		Ruins nearby enemies with death lasers
-		An exceptionally agile yoyo
+		{$Common.YoyoStatsInfinite}
+		[GFB]
 		'''
+	TooltipNormal: Ruins nearby enemies with death lasers
 	TooltipGFB: just a slight bit of dust spam on this weapon im afraid
 }
 
@@ -1330,9 +1339,9 @@ TheOracle: {
 	DisplayName: The Oracle
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Emits an aura of lightning which charges up when hitting enemies
 		Fires auric orbs when supercharged
-		An exceptionally agile yoyo
 		'Gaze into the past, the present, the future... and the circumstances of your inevitable demise'
 		'''
 }
@@ -1499,8 +1508,8 @@ YinYo: {
 	DisplayName: Yin-Yo
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Fires light or dark shards when enemies are near
 		Shards fly back and forth
-		A very agile yoyo
 		'''
 }

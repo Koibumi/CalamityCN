@@ -3,6 +3,7 @@ AcidBarrelDrop.DisplayName: 酸雨桶液滴
 AcidShrapnel.DisplayName: 酸性弹片
 AdamantiteThrowingAxeProjectile.DisplayName: 精金投斧
 AntumbraShardProjectile.DisplayName: 黄昏之影
+ApoctolithExplosion.DisplayName: 石板爆炸
 ApoctolithProj.DisplayName: 末渊板砖
 ApoctolithShard.DisplayName: 石板碎片
 AshenStalactiteDebris.DisplayName: 灰烬残骸
@@ -243,9 +244,9 @@ SeraphimAngelicLight2.DisplayName: 光球
 SeraphimBeamLarge.DisplayName: 神圣之光
 SeraphimDagger.DisplayName: 六翼天使
 SeraphimProjectile.DisplayName: 六翼天使
-ShatteredExplosion.DisplayName: 裂阳爆炸
-ShatteredSunKnife.DisplayName: 裂阳
-ShatteredSunScorchedBlade.DisplayName: 裂阳
+ShatteredExplosion.DisplayName: Shattered Dawn Blast
+ShatteredDawnKnife.DisplayName: Shattered Dawn
+ShatteredDawnScorchedBlade.DisplayName: Scorched Blade
 ShinobiBladeProjectile.DisplayName: 忍者之刃
 ShockGrenadeBolt.DisplayName: 震爆弹闪电
 ShockGrenadeExplosion.DisplayName: 震爆

@@ -477,15 +477,6 @@ CalamityServerConfig: {
 			'''
 	}
 
-	PotionSelling: {
-		Label: "[i:SpelunkerPotion] Town NPC Potion Selling"
-		Tooltip:
-			'''
-			Allows town NPCs to sell various potions.
-			Certain potions are sold after specific bosses have been defeated.
-			'''
-	}
-
 	PlayerRespawnTime_BossAlive: {
 		Label: "[i:Stopwatch] Boss Fight Player Respawn Time"
 		Tooltip:

@@ -40,8 +40,8 @@ AirSpinner: {
 	DisplayName: 空旋
 	Tooltip:
 		'''
+		{$Common.YoyoStats}
 		有敌人在附近时发射羽毛
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -64,8 +64,8 @@ Aorta: {
 	DisplayName: 大动脉
 	Tooltip:
 		'''
+		{$Common.YoyoStats}
 		向周围敌人射出追踪鲜血
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -149,8 +149,8 @@ Azathoth: {
 	DisplayName: 阿撒托斯
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		发射能爆裂出死亡射线的寰宇之球攻击敌人
-		一只超级灵活的悠悠球
 		“眨眼之间摧毁宇宙”
 		'''
 }
@@ -259,6 +259,7 @@ BurningRevelation: {
 	DisplayName: 渎焚天启
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		一只不断积蓄能量的永燃悠悠球
 		直接命中敌怪将大幅提升充能，并释放出随充能等级变强的亵渎能量
 		当充能达到最大时，将会释放出一连串追踪新星，新星随飞行距离提升伤害
@@ -516,8 +517,8 @@ FaultLine: {
 	DisplayName: 断层
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		击中敌人时爆炸
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -755,8 +756,8 @@ Lacerator: {
 	DisplayName: 裂魔
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		用悠悠球击中敌人会加速自然生命再生
-		一只超级灵活的悠悠球
 		[GFB]
 		'''
 	TooltipNormal: 竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑
@@ -875,8 +876,8 @@ Oblivion: {
 	DisplayName: 遗殇
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		有敌人在附近时发射硫磺火飞镖
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -930,8 +931,8 @@ Pandemic: {
 	DisplayName: 瘟疫狂潮
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		有敌人在附近时发射瘟疫搜寻者
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -984,8 +985,8 @@ Quagmire: {
 	DisplayName: 泥潭
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		发射孢子云
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -1019,7 +1020,11 @@ Respiteblock: {
 
 Riptide: {
 	DisplayName: 涡旋
-	Tooltip: 发射水流
+	Tooltip:
+		'''
+		{$Common.YoyoStats}
+		发射水流
+		'''
 }
 
 Roxcalibur: {
@@ -1077,8 +1082,8 @@ Shimmerspark: {
 	DisplayName: 烁光
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		有敌人在附近时发射星星
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -1094,7 +1099,11 @@ SkytideDragoon: {
 
 SmokingComet: {
 	DisplayName: 烟陨彗星
-	Tooltip: 召唤星星从天而降
+	Tooltip:
+		'''
+		{$Common.YoyoStats}
+		召唤星星从天而降
+		'''
 }
 
 SolsticeClaymore: {
@@ -1199,9 +1208,9 @@ SulphurousGrabber: {
 	DisplayName: 硫磺掠夺者
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		偶尔释放一圈泡泡
 		触碰绿色泡泡后悠悠球会增强
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -1286,8 +1295,8 @@ TheGodsGambit: {
 	DisplayName: 神旨
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		有敌人在附近时发射凝胶束
-		一只十分灵活的悠悠球
 		'''
 }
 
@@ -1300,8 +1309,8 @@ TheMicrowave: {
 	DisplayName: 微波辐照
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		以辐射破坏附近敌人的生物组织和机械原件
-		一只超级灵活的悠悠球
 		“用幻星的传统方式料理你的敌人，是舌尖上的灾厄的著名菜点”
 		'''
 }
@@ -1317,12 +1326,12 @@ TheMutilator: {
 
 TheObliterator: {
 	DisplayName: 混沌射线
-	Tooltip: "[GFB]"
-	TooltipNormal:
+	Tooltip: 
 		'''
-		以死亡激光抹除周围敌人的存在
-		一只超级灵活的悠悠球
+		{$Common.YoyoStatsInfinite}
+		[GFB]
 		'''
+	TooltipNormal: 以死亡激光抹除周围敌人的存在
 	TooltipGFB: 恐怕这件武器上只沾染了一点微不足道的灰尘
 }
 
@@ -1330,9 +1339,9 @@ TheOracle: {
 	DisplayName: 神谕
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		发出闪电光圈，在击中敌人时充能
 		充能完全时发射圣金源珠
-		一只超级灵活的悠悠球
 		“我看到了过去，当下，将来……还有你的死期”
 		'''
 }
@@ -1499,8 +1508,8 @@ YinYo: {
 	DisplayName: 阴阳
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		敌人在附近时发射光明或黑暗碎块
 		碎块会来回运动
-		一只十分灵活的悠悠球
 		'''
 }

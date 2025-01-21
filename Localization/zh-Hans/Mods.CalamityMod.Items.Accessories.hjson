@@ -2048,6 +2048,11 @@ GhostBracelet: {
 	Tooltip: Wow.... It looks at me with its hollow eyes full of curiosity
 }
 
+GoldenBomb: {
+	DisplayName: Golden Bomb
+	Tooltip: "'El Pene betraying the human body to become an item of Terraria Calamity Mod'"
+}
+
 HapuFruit: {
 	DisplayName: 心跳果
 	Tooltip: “一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”

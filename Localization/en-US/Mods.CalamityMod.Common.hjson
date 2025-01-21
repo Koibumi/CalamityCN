@@ -49,3 +49,15 @@ WingStatsHover:
 	Max hover speed: {0} mph
 	Hover acceleration: {1} mph/s
 	'''
+YoyoStats:
+	'''
+	Reach: {0} tiles
+	Speed: {1}
+	Duration: {2} seconds
+	'''
+YoyoStatsInfinite:
+	'''
+	Reach: {0} tiles
+	Speed: {1}
+	Infinite throw duration
+	'''

@@ -477,15 +477,6 @@ CalamityServerConfig: {
 			'''
 	}
 
-	PotionSelling: {
-		Label: "[i:SpelunkerPotion] 城镇NPC出售药水"
-		Tooltip:
-			'''
-			允许城镇NPC出售各种药水。
-			某些药剂在特定Boss被击败后出售。
-			'''
-	}
-
 	PlayerRespawnTime_BossAlive: {
 		Label: "[i:Stopwatch] Boss战玩家重生时间"
 		Tooltip:
