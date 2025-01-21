@@ -1326,7 +1326,7 @@ TheMutilator: {
 
 TheObliterator: {
 	DisplayName: 混沌射线
-	Tooltip: 
+	Tooltip:
 		'''
 		{$Common.YoyoStatsInfinite}
 		[GFB]
