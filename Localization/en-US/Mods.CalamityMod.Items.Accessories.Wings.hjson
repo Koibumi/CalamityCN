@@ -21,7 +21,7 @@ ElysianWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		Immunity to lava and 10% increased movement speed
+		10% increased movement speed and grants immunity to lava
 		Blessed by the Profaned Flame
 		'''
 }

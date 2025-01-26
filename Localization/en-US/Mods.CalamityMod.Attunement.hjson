@@ -8,7 +8,7 @@ HotAttunement: {
 	Name: Arid Grandeur
 	Function:
 		'''
-		Conjure searing blades in front of you that get larger and stronger with enemy hits
+		Conjure searing blades in front of you that get larger with enemy hits
 		The blades will bounce you off of tiles while in the air
 		'''
 }
@@ -38,7 +38,7 @@ TrueHotAttunement: {
 	Name: Arid Grandeur
 	Function:
 		'''
-		Conjure searing blades in front of you that get larger and stronger with enemy hits
+		Conjure searing blades in front of you that get larger with enemy hits
 		The blades will bounce you off of tiles while in the air
 		Releasing after the blades are fully charged sends them hurtling forwards to shred your foes
 		'''
@@ -99,7 +99,8 @@ FlailBladeAttunement: {
 	Name: Lamentations of the Chained
 	Function:
 		'''
-		Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit
+		Lash out with a flurry of chained blades
+		Striking enemies with the tip of the blades guarantees a critical strike
 		Critical strikes send out extra phantom chains which latch onto multiple targets
 		'''
 	PassiveDesc: An enchanted chain hook floats near you which spins and freezes enemies while dealing damage
@@ -109,10 +110,10 @@ SuperPogoAttunement: {
 	Name: Sanguine Fury
 	Function:
 		'''
-		Conjure molten blades in front of you that get larger and stronger with enemy hits
+		Conjure molten blades in front of you that get larger with enemy hits
 		The blades will bounce you off of tiles while in the air
 		Releasing sends the charged blades hurtling forwards like a wheel
-		Attacking immediately after throwing the blade launches you toward it, damaging enemies and healing you
+		Attacking immediately after throwing the blade launches you toward it, slicing through enemies and healing you
 		'''
 	PassiveDesc: Striking enemies will rarely heal you
 }

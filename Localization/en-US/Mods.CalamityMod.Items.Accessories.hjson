@@ -12,7 +12,7 @@ AbyssalAmulet: {
 	DisplayName: Abyssal Amulet
 	Tooltip:
 		'''
-		Attacks inflict Riptide and you are immune to it
+		Attacks inflict Riptide, and grants immunity to Riptide
 		While in the abyss you gain 10% increased max life
 		'''
 }
@@ -81,7 +81,7 @@ AlchemicalFlask: {
 	DisplayName: Alchemical Flask
 	Tooltip:
 		'''
-		All attacks inflict the Plague and lessens damage taken from the Plague
+		All attacks inflict the Plague and reduces damage taken from the Plague
 		Projectiles spawn plague seekers on enemy hits
 		Releases plague bees when damaged and douses you in honey 
 		'''
@@ -169,7 +169,7 @@ AngelTreads: {
 		36% increased running acceleration
 		Increased flight time and grants rocket flight
 		Provides water walking and extra mobility on ice
-		Immunity to On Fire! and temporary immunity to lava
+		Grants immunity to On Fire! and temporary immunity to lava
 		'Extreme speed!'
 		'''
 }
@@ -324,7 +324,7 @@ BloodPact: {
 	Tooltip:
 		'''
 		Increases max HP by 25%
-		Immunity to Bleeding, Burning Blood and Heavy Bleeding
+		Grants immunity to Bleeding, Burning Blood and Heavy Bleeding
 		Healing Potions are 25% more effective
 		'''
 }
@@ -390,7 +390,7 @@ ChaliceOfTheBloodGod: {
 	Tooltip:
 		'''
 		Increases max HP by 25%
-		Immunity to Bleeding, Burning Blood, Heavy Bleeding and Laceration
+		Grants immunity to Bleeding, Burning Blood, Heavy Bleeding and Laceration
 		+2 HP/s life regen and reduces the cooldown of healing potions by 25%
 		Taking more than 5 damage converts the hit into a damage over time bleed debuff
 		This bleeding does not interfere with life regeneration
@@ -445,7 +445,7 @@ CorruptFlask: {
 	Tooltip:
 		'''
 		Increases damage reduction by 4% and defense by 6 while in the corruption
-		Immunity to Brain Rot
+		Grants immunity to Brain Rot
 		'''
 }
 
@@ -473,7 +473,7 @@ CrimsonFlask: {
 	Tooltip:
 		'''
 		Increases damage reduction by 4% and defense by 6 while in the crimson
-		Immunity to Burning Blood
+		Grants immunity to Burning Blood
 		'''
 }
 
@@ -535,7 +535,7 @@ DarkSunRing: {
 	DisplayName: Dark Sun Ring
 	Tooltip:
 		'''
-		12% increase to damage
+		12% increased damage
 		+0.5 HP/s life regen and +2 max minions
 		Increased minion knockback
 		Grants various buffs as the day goes on
@@ -551,11 +551,7 @@ DarkSunRing: {
 
 DeadshotBrooch: {
 	DisplayName: Deadshot Brooch
-	Tooltip:
-		'''
-		10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage
-		Greatly increases all ranged projectile velocity
-		'''
+	Tooltip: 10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage
 }
 
 DeepDiver: {
@@ -626,7 +622,7 @@ DragonScales: {
 		Rogue projectiles spawn slow fireballs as they travel
 		Stealth strikes create infernados where they hit
 		+10% max run speed and acceleration
-		Immunity to Dragonfire
+		Grants immunity to Dragonfire
 		'Only a living dragon holds true treasure'
 		'''
 }
@@ -665,7 +661,7 @@ EldritchSoulArtifact: {
 	Tooltip:
 		'''
 		Boosts melee speed by 10%, ranged velocity by 25%, rogue stealth regen by 15%, max minions by 1 and reduces mana cost by 25%
-		Immunity to Whispering Death
+		Grants immunity to Whispering Death
 		Knowledge
 		'''
 }
@@ -675,7 +671,7 @@ ElectriciansGlove: {
 	Tooltip:
 		'''
 		Stealth strikes summon sparks on enemy hits and heal you for 2 HP
-		Stealth strikes also have +8 armor penetration, deal 8% more damage
+		Stealth strikes also have +8 armor penetration and deal 8% more damage
 		'''
 }
 
@@ -793,7 +789,7 @@ FrostBarrier: {
 	Tooltip:
 		'''
 		You will freeze nearby enemies when you are struck
-		Immunity to Chilled and Frostburn
+		Grants immunity to Chilled and Frostburn
 		'''
 }
 
@@ -802,7 +798,7 @@ FrostFlare: {
 	Tooltip:
 		'''
 		All attacks and projectiles inflict Frostbite
-		Immunity to Frostburn, Chilled and Frozen
+		Grants immunity to Frostburn, Chilled and Frozen
 		Being above 50% life grants 10% increased damage
 		Being below 50% life grants 20 defense and 15% increased max movement speed and acceleration
 		Grants resistance against cold attacks
@@ -931,10 +927,10 @@ HideofAstrumDeus: {
 	Tooltip:
 		'''
 		Taking damage or inflicting true melee strikes drops an immense amount of astral stars from the sky
-		Taking damage temporarily boosts true melee damage by 30%
+		Taking damage temporarily increases true melee damage by 30%
 		Boost duration scales with the amount of damage you took, up to 10 seconds
-		Immunity to Astral Infection, Cursed Inferno, On Fire!, and Frostburn
 		Attackers take damage and are inflicted with Astral Infection
+		Nullifies the Astral Infection debuff
 		'''
 }
 
@@ -1053,7 +1049,7 @@ LumenousAmulet: {
 	DisplayName: Lumenous Amulet
 	Tooltip:
 		'''
-		Attacks inflict Crush Depth and you are immune to it and Riptide
+		Attacks inflict Crush Depth, and grants immunity to Crush Depth and Riptide
 		While in the abyss you gain 25% increased max life
 		{$Common.AbyssLightLevel2}
 		'''
@@ -1147,7 +1143,7 @@ NuclearFuelRod: {
 		'''
 		Increases your max number of minions by 1
 		Minions release an irradiated aura on enemy hits
-		Immunity to Irradiated
+		Grants immunity to Irradiated
 		'''
 }
 
@@ -1156,7 +1152,7 @@ Nucleogenesis: {
 	Tooltip:
 		'''
 		Increases your max number of mininons by 4
-		Immunity to Shadowflame and Irradiated
+		Grants immunity to Shadowflame and Irradiated
 		15% increased summon damage, and increased minion knockback
 		Minions inflict a variety of debuffs
 		Minions spawn damaging sparks on enemy hits
@@ -1225,7 +1221,7 @@ OrnateShield: {
 		'''
 		Allows the ability to dash
 		This dash can ram through enemies without taking damage
-		Immunity to Chilled, Frostburn, Frostbite, and Frozen
+		Grants immunity to Chilled, Frostburn, Frostbite, and Frozen
 		'''
 }
 
@@ -1459,7 +1455,7 @@ RustyMedallion: {
 	Tooltip:
 		'''
 		Causes most ranged weapons to release acid droplets from the sky
-		Immunity to Irradiated
+		Grants immunity to Irradiated
 		'''
 }
 
@@ -1613,7 +1609,7 @@ StarTaintedGenerator: {
 		'''
 		Increases your max number of minions by 2, and summon damage by 7%
 		Minion attacks spawn astral explosions and inflict several debuffs
-		Immunity to Irradiated
+		Grants immunity to Irradiated
 		Does not stack with downgrades
 		'''
 }
@@ -1633,7 +1629,7 @@ StatisCurse: {
 		'''
 		Increases your max number of minions by 3, and summon damage by 12%
 		Increased minion knockback
-		Minion attacks inflict Shadowflame and you are immune to it
+		Minion attacks inflict Shadowflame, and grants immunity to Shadowflame
 		Does not stack with downgrades
 		'''
 }
@@ -1853,7 +1849,7 @@ TheFirstShadowflame: {
 	Tooltip:
 		'''
 		Increases your max number of minions by 1
-		Minion attacks inflict Shadowflame and you are immune to it
+		Minion attacks inflict Shadowflame, and grants immunity to Shadowflame
 		'''
 }
 
@@ -1897,7 +1893,7 @@ TrinketofChi: {
 	DisplayName: Trinket of Chi
 	Tooltip:
 		'''
-		Provides 4% damage reduction 5 seconds after taking damage
+		Increases damage reduction by 4% if you avoid taking damage for 5 seconds
 		This buff expires on hit
 		+1 HP/s life regen for teammates
 		'''
@@ -1941,7 +1937,7 @@ VoidofCalamity: {
 	DisplayName: Void of Calamity
 	Tooltip:
 		'''
-		12% increase to all damage
+		12% increased damage
 		Brimstone fire rains down after getting hit
 		'''
 }

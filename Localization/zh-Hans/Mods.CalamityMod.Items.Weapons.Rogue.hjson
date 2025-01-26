@@ -789,18 +789,6 @@ NightsGaze: {
 		'''
 }
 
-Nychthemeron: {
-	DisplayName: 昼夜
-	Tooltip:
-		'''
-		扔出不受重力影响的尖钉球并在周围召唤光暗球
-		尖钉球一旦消失，光暗球就会立刻追踪附近的敌人
-		至多同时存在10个尖钉球
-		潜伏攻击可以一次释放所有尖钉球和光暗球
-		右键收回所有尖钉球
-		'''
-}
-
 OrichalcumSpikedGemstone: {
 	DisplayName: 山铜宝石钉
 	Tooltip: 潜伏攻击持续时间更久，击中敌人召唤花瓣

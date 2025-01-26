@@ -21,7 +21,7 @@ ElysianWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		免疫熔岩并增加10%移动速度
+		增加10%移动速度并免疫熔岩
 		被亵渎之火祝福
 		'''
 }
