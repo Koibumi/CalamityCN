@@ -416,7 +416,6 @@ FrostcrushValari: {
 	DisplayName: 霜碎回旋镖
 	Tooltip:
 		'''
-		This boomerang creates a freezing blast and chips off homing icicles on every hit
 		发射长距离霜冻回旋镖，接触敌人时释放追踪冰锥
 		潜伏攻击会扔出一把跟随光标的回旋镖
 		每次击中敌怪时都将产生冰冻冲击，并释放追踪冰锥
