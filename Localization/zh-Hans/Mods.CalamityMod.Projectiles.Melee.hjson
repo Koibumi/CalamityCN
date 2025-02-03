@@ -10,7 +10,6 @@ AncientBeam.DisplayName: 远古之光
 AncientStar.DisplayName: 远古之星
 AndromedasStride.DisplayName: 仙女座之跃
 AndromedasStrideBoltSpawner.DisplayName: 仙女座震击
-AquaStream.DisplayName: 澄净之水
 AridGrandeur.DisplayName: 旱瘠之伟
 AriesWrath.DisplayName: 白羊座之怒
 AriesWrathConstellation.DisplayName: 星座之击
@@ -217,6 +216,7 @@ RemsRevengeExplosion.DisplayName: 鲜血爆裂
 RendingNeedle.DisplayName: 撕裂之针
 RespiteblockBlood.DisplayName: 喘息区鲜血
 RespiteblockHoldout.DisplayName: 喘息区
+RiptideWave.DisplayName: 激波
 Rox1.DisplayName: 石之约
 RoxcaliburProj.DisplayName: 石约与胜利之剑
 RSSolarFlare.DisplayName: 灼烧

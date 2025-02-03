@@ -1873,13 +1873,22 @@ TheSponge: {
 
 TheTransformer: {
 	DisplayName: 变压器
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		所有电系减益的伤害倍率乘以1.5
-		在水下时攻击会施加Static Discharge减益
-		降低50%所有电系减益的伤害
-		受到伤害后使敌怪受到冲击
-		被冲击的敌怪会持续释放电火花
+		在你周围生成转换圈，当有弹幕穿过时，转换圈会生成不断变形的液态金属滴
+		液态金属滴将会环绕你，对命中的敌人造成少量伤害和击退
+		圈中至多同时容纳30个液态金属滴
+		按下[KEY]将所有液态金属滴转换为针状，并向你的光标发射
+		'How did this come out of the junk you cobbled together? You're lucky it doesn't transform you'
+		'''
+	TooltipGFB:
+		'''
+		在你周围生成转换圈，当有弹幕穿过时，转换圈会生成不断变形的液态金属滴
+		液态金属滴将会环绕你，对命中的敌人造成少量伤害和击退
+		圈中能够容纳的液态金属滴没有上限，但你的电脑可能有
+		按下[KEY]将所有液态金属滴转换为针状，并向你的光标发射
+		'It's like catch and release if the release was a particle accelerator'
 		'''
 }
 

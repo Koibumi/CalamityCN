@@ -383,7 +383,14 @@ DevilsDevastation: {
 
 DevilsSunrise: {
 	DisplayName: Devil's Sunrise
-	Tooltip: Balls? Smalls.
+	Tooltip:
+		'''
+		Unleashes a devilish flurry of swipes
+		Hellish energy charges in the blades over time, which is accelerated by striking foes
+		Press <right> while swinging the blades with full energy to throw the spinning blades to your cursor
+		The spinning blades lodge into and repeatedly slice the first foe they meet, stealing their life
+		'Balls? Smalls.'
+		'''
 }
 
 DraconicDestruction: {
@@ -1020,11 +1027,7 @@ Respiteblock: {
 
 Riptide: {
 	DisplayName: Riptide
-	Tooltip:
-		'''
-		{$Common.YoyoStats}
-		Sprays a spiral of aqua streams
-		'''
+	Tooltip: Occasionally pulses a riptide wave with heavy knockback
 }
 
 Roxcalibur: {

@@ -12,6 +12,16 @@ AdamantiteThrowingAxe: {
 	Tooltip: Stealth strikes ignore gravity and rain down lightning on enemy hits
 }
 
+AntlionSkewer: {
+	DisplayName: Antlion Skewer
+	Tooltip:
+		'''
+		Throws living, skewered Antlions that fire sand blasts
+		Stealth strikes spew a mess of sand balls and gust
+		Sand clouds temporarily lower enemy contact damage
+		'''
+}
+
 Apoctolith: {
 	DisplayName: Apoctolith
 	Tooltip:

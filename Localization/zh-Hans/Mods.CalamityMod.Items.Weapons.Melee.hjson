@@ -383,7 +383,14 @@ DevilsDevastation: {
 
 DevilsSunrise: {
 	DisplayName: 邪锋破晓
-	Tooltip: 勇气？你真的有那玩意？
+	Tooltip:
+		'''
+		释放恶魔般的疾风连击
+		地狱能量随时间在剑锋中累积，命中敌怪会加快累积速度
+		能量蓄满后，在挥舞剑锋的同时按下<right>，将旋转的剑锋掷向你的光标
+		旋转的剑锋附着在第一个命中的敌怪身上，将其千刀万剐并偷取其生命
+		“勇气？你真的有那玩意？”
+		'''
 }
 
 DraconicDestruction: {
@@ -1023,7 +1030,7 @@ Riptide: {
 	Tooltip:
 		'''
 		{$Common.YoyoStats}
-		发射水流
+		偶尔迸发出激流，造成强力击退
 		'''
 }
 

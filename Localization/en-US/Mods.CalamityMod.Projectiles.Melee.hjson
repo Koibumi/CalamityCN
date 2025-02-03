@@ -10,7 +10,6 @@ AncientBeam.DisplayName: Ancient Beam
 AncientStar.DisplayName: Ancient Star
 AndromedasStride.DisplayName: Andromeda's Stride
 AndromedasStrideBoltSpawner.DisplayName: Andromeda Shock
-AquaStream.DisplayName: Aqua Stream
 AridGrandeur.DisplayName: Arid Grandeur
 AriesWrath.DisplayName: Aries's Wrath
 AriesWrathConstellation.DisplayName: Constellation
@@ -217,6 +216,7 @@ RemsRevengeExplosion.DisplayName: Blood Explosion
 RendingNeedle.DisplayName: Rending Needle
 RespiteblockBlood.DisplayName: Respiteblock Blood
 RespiteblockHoldout.DisplayName: Respiteblock
+RiptideWave.DisplayName: Wave
 Rox1.DisplayName: Rock
 RoxcaliburProj.DisplayName: Roxcalibur
 RSSolarFlare.DisplayName: Flare

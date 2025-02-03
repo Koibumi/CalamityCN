@@ -12,6 +12,16 @@ AdamantiteThrowingAxe: {
 	Tooltip: 潜伏攻击无视重力，并在击中敌人时降下闪电
 }
 
+AntlionSkewer: {
+	DisplayName: Antlion Skewer
+	Tooltip:
+		'''
+		掷出被活活串起来的蚁狮，向前方发射沙爆弹
+		潜伏攻击会喷吐大量沙球和一阵沙尘
+		沙尘会暂时降低敌人的接触伤害
+		'''
+}
+
 Apoctolith: {
 	DisplayName: 末渊石板
 	Tooltip:

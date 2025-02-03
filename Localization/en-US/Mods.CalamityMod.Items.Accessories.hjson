@@ -1868,13 +1868,22 @@ TheSponge: {
 
 TheTransformer: {
 	DisplayName: The Transformer
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		Multiplies all electricity debuff damage by 1.5x
-		Attacks inflict Static Discharge while underwater
-		Reduces the damage of all electricity debuffs by 50%
-		Taking damage causes the enemy to be shocked
-		Shocked enemies constantly release sparks
+		Generates an aura around you that creates morphing globs when projectiles pass through it
+		The globs encircle you and deal low damage and knockback to enemies they collide with
+		The circle can contain up to 30 globs at once
+		Press [KEY] to transform all globs into needles and launch them at your cursor
+		'How did this come out of the junk you cobbled together? You're lucky it doesn't transform you'
+		'''
+	TooltipGFB:
+		'''
+		Generates an aura around you that creates morphing globs when projectiles pass through it
+		The globs encircle you and deal low damage and knockback to enemies they collide with
+		The circle has no limit to the number of globs it can hold, but your PC might
+		Press [KEY] to transform all globs into needles and launch them at your cursor
+		'It's like catch and release if the release was a particle accelerator'
 		'''
 }
 
