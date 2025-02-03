@@ -16,11 +16,11 @@ AstrealArrow.DisplayName: 彗星箭
 AstrealFlame.DisplayName: 星辉病
 AuralisBullet.DisplayName: 极光弹
 AuricBullet.DisplayName: 金源弹
-AuroraFire.DisplayName: 极光
+AuroraFire.DisplayName: 烈焰极光
 BallistaGreatArrow.DisplayName: 破城巨箭
 BarinadeArrow.DisplayName: 利鳍之箭
 BlightFlames.DisplayName: 枯萎之火
-BlissfulBombardierSplitProjectile.DisplayName: Profaned Mini-Rocket
+BlissfulBombardierSplitProjectile.DisplayName: 亵渎迷你火箭
 BloodBoilerFire.DisplayName: 沸腾之血
 BloodClotFriendly.DisplayName: 血凝块
 BloodfireArrowProj.DisplayName: 血炎箭
@@ -37,7 +37,7 @@ CardClubSplit.DisplayName: 分裂梅花牌
 CardDiamond.DisplayName: 方块牌
 CardHeart.DisplayName: 红心牌
 CardSpade.DisplayName: 黑桃牌
-ChargedBlast.DisplayName: 爆炸
+ChargedBlast.DisplayName: 能量束
 ChargedBlastSplit.DisplayName: 分裂能量束
 ChickenExplosion.DisplayName: 肯德炸鸡
 ChickenRocket.DisplayName: 小鸡火箭
@@ -92,8 +92,8 @@ FlurrystormIceChunk.DisplayName: 冰块
 FlurrystormIceShard.DisplayName: 碎冰
 FossilShard.DisplayName: 化石碎片
 FreedomStarBeam.DisplayName: 自由之星光束
-FungiOrb.DisplayName: 真菌块
-FungiOrb2.DisplayName: 真菌块
+FungiOrb.DisplayName: 真菌弹
+FungiOrb2.DisplayName: 真菌弹
 GemTechGreenFlechette.DisplayName: 星流天钻飞镖弹
 GodSlayerSlugProj.DisplayName: 弑神弹
 HalleysComet.DisplayName: 哈雷彗星
@@ -114,13 +114,13 @@ HallowPointRoundProj.DisplayName: 神圣空尖弹
 ImpactRound.DisplayName: 冲击波
 KarasawaShot.DisplayName: 卡拉萨瓦炮弹
 LeafArrow.DisplayName: 叶之箭
-LunarBolt.DisplayName: 飞弹
-LuxorsGiftRanged.DisplayName: 卢克索的礼物
+LunarBolt.DisplayName: 月光束
+LuxorsGiftRanged.DisplayName: 卢克索之远礼
 MagnaShot.DisplayName: 麦格纳飞弹
 MagnomalyAura.DisplayName: 磁暴
-MagnomalyBeam.DisplayName: 光束
-MagnomalyExplosion.DisplayName: 爆炸
-MagnomalyRocket.DisplayName: 核弹
+MagnomalyBeam.DisplayName: 磁极光束
+MagnomalyExplosion.DisplayName: 磁极爆炸
+MagnomalyRocket.DisplayName: 磁极核弹
 MarksmanShot.DisplayName: 神射手射击
 MechanicalBarracuda.DisplayName: 梭鱼
 MeowCreature.DisplayName: 喵喵喵:3
@@ -129,15 +129,15 @@ MineralMortarProjectile.DisplayName: 玛瑙炸弹
 MiniatureFolly.DisplayName: 迷你痴愚金龙
 MiniSharkron.DisplayName: 迷你鲨鱼龙
 MistArrow.DisplayName: 冰雾箭
-MistArrowFrostMist.DisplayName: 冰雾
-MortarRoundProj.DisplayName: 炮弹
-NeedlerProj.DisplayName: 针
+MistArrowFrostMist.DisplayName: 冻结冰雾
+MortarRoundProj.DisplayName: 迫击炮弹
+NeedlerProj.DisplayName: 针叶
 NitroShot.DisplayName: 硝化弹
 NorfleetComet.DisplayName: 彗星
 NorfleetExplosion.DisplayName: 爆炸
 NovaChargedShot.DisplayName: 新星冲击波
 NovaShot.DisplayName: 新星矢
-NukeOfBliss.DisplayName: Profaned Nuke
+NukeOfBliss.DisplayName: 亵渎核弹
 NullFlash.DisplayName: Null Flash
 NullShot.DisplayName: 空弹
 OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
@@ -148,7 +148,7 @@ OpalChargedStrike.DisplayName: 充能水晶矢
 OpalStrike.DisplayName: 热能矢
 PiercingBullet.DisplayName: 穿甲弹
 PlagueArrow.DisplayName: 瘟疫箭
-PlagueExplosionFriendly.DisplayName: 爆炸
+PlagueExplosionFriendly.DisplayName: 瘟疫爆炸
 PlagueTaintedProjectile.DisplayName: 玷疫子弹
 PlagueTaintedDrone.DisplayName: 玷疫无人机
 PlanarRipperBolt.DisplayName: 位面猎魂弹
@@ -162,9 +162,9 @@ PressurizedBubbleStream.DisplayName: 增压泡泡流
 PrismaticEnergyBlast.DisplayName: 能量束
 PrismComet.DisplayName: 陨石
 PrismEnergyBullet.DisplayName: 棱晶火箭
-PrismExplosionLarge.DisplayName: 爆炸
-PrismExplosionSmall.DisplayName: 爆炸
-PrismMine.DisplayName: 雷
+PrismExplosionLarge.DisplayName: 棱晶爆炸
+PrismExplosionSmall.DisplayName: 棱晶爆炸
+PrismMine.DisplayName: 星雷
 PristineFire.DisplayName: 原初之火
 PristineSecondary.DisplayName: 原初残焰
 PumplerGrenade.DisplayName: 南瓜壳
@@ -173,7 +173,7 @@ RainbowFront.DisplayName: 彩虹
 RainbowTrail.DisplayName: 彩虹
 RealmRavagerBullet.DisplayName: 爆炸性弹头
 RicoshotCoin.DisplayName: 钱币
-RocketFire.DisplayName: 火焰
+RocketFire.DisplayName: 火箭残片
 RubberMortarRoundProj.DisplayName: 橡胶迫击炮
 SandblasterBullet.DisplayName: 沙尘暴
 ScorchedEarthBlast.DisplayName: 焦土
@@ -199,20 +199,20 @@ Shell.DisplayName: 贝壳箭
 Shockblast.DisplayName: 震爆冲击波
 ShockblastRound.DisplayName: 震爆冲击波
 Shroom.DisplayName: 真菌
-Sickness.DisplayName: 抗药性
-SicknessRound.DisplayName: 抗药性光环
-SicknessRound2.DisplayName: 抗药性光环
-SlagRound.DisplayName: 抗药性光环
+Sickness.DisplayName: 疫病
+SicknessRound.DisplayName: 瘟疫子弹
+SicknessRound2.DisplayName: 瘟疫子弹
+SlagRound.DisplayName: 熔渣子弹
 SlimeBolt.DisplayName: 史莱姆喷溅
 SmallCoral.DisplayName: 小珊瑚
-SparkSpreaderFire.DisplayName: 火焰
+SparkSpreaderFire.DisplayName: 爆裂火花
 SpeedBlasterShot.DisplayName: 飞溅彩弹
 SporeBomb.DisplayName: 孢子炸弹
 SproutingArrowMain.DisplayName: 春芽箭
 SproutingArrowSplit.DisplayName: 春芽箭
 SputterComet.DisplayName: 飞溅彗星
 SputterCometBig.DisplayName: 飞溅彗星
-SpykerProj.DisplayName: 叶针霰弹炮
+SpykerProj.DisplayName: 叶针
 StarmageddonBinaryStarCenter.DisplayName: 双星中心
 StarmageddonStar.DisplayName: 橙星
 StarmageddonStar2.DisplayName: 蓝星
@@ -225,11 +225,11 @@ TauCannonBeam.DisplayName: Tau Cannon Beam
 TauCannonBolt.DisplayName: Tau Cannon Bolt
 TauCannonPortal.DisplayName: Tau Cannon Portal
 TelluricGlareArrow.DisplayName: 辐光之箭
-TheMaelstromExplosion.DisplayName: 爆炸
+TheMaelstromExplosion.DisplayName: 猎魂爆炸
 TheMaelstromShark.DisplayName: 猎魂鲨
 ThePackMinissile.DisplayName: 集束迷你火箭
 ThePackMissile.DisplayName: 集束火箭
-TheStormLightningShot.DisplayName: 风暴
+TheStormLightningShot.DisplayName: 风暴箭矢
 TitaniumRailgunScope.DisplayName: 钛金指示
 TitaniumRailgunShot.DisplayName: 钛金灭却光
 TorrentialArrow.DisplayName: 洪流箭
@@ -239,7 +239,7 @@ TyphoonBubble.DisplayName: 台风泡泡
 UltimaBolt.DisplayName: 创世之光
 UltimaRay.DisplayName: 创世射线
 UltimaSpark.DisplayName: 创世花火
-UniversalGenesisStar.DisplayName: 星辰
+UniversalGenesisStar.DisplayName: 始源之星
 UniversalGenesisStarcaller.DisplayName: 唤星者之射击
 VanquisherArrowMain.DisplayName: 征戮箭
 VanquisherArrowProj.DisplayName: 征戮箭
@@ -251,13 +251,13 @@ WaterSpout.DisplayName: 激流
 WildfireBloomFire.DisplayName: 野火
 WildfireBloomFlare.DisplayName: 野火爆焰
 WulfrumScrapBullet.DisplayName: 高速废料
-HellbornProj.DisplayName: Hell-born Gunblast
-HellbornShell.DisplayName: Hell's Shell
+HellbornProj.DisplayName: 地狱枪爆
+HellbornShell.DisplayName: 地狱弹壳
 RubicoPrimeMag.DisplayName: 绝路Prime弹匣
-MegalodonShot.DisplayName: Megalodon Shot
-SulphuricAcidCannonExplosion.DisplayName: Sulphuric Acid Cannon Explosion
-LeviatitanAberration.DisplayName: Leviatitan Aberration
-LeviatitanMeteor.DisplayName: Leviatitan Meteor
-LeviatitanExplosion.DisplayName: Leviatitan Explosion
-SulphuricDrop.DisplayName: Sulphuric Drop
-AcidRocket.DisplayName: Acid Rocket
+MegalodonShot.DisplayName: 巨舰喷流
+SulphuricAcidCannonExplosion.DisplayName: 硫酸炮爆炸
+LeviatitanAberration.DisplayName: 海潮吞食者
+LeviatitanMeteor.DisplayName: 海潮流星
+LeviatitanExplosion.DisplayName: 海潮爆炸
+SulphuricDrop.DisplayName: 硫酸液滴
+AcidRocket.DisplayName: 酸性导弹

@@ -43,17 +43,17 @@ BonebreakerProjectile.DisplayName: 碎骨者
 BotanicSpear.DisplayName: 翠芒刺枪
 Brimblast.DisplayName: 硫火爆焱
 BrimlanceHellfireExplosion.DisplayName: 硫狱炎爆
-BrimlanceStandingFire.DisplayName: 硫火
+BrimlanceStandingFire.DisplayName: 硫火残焰
 Brimlash2.DisplayName: 硫火鞭挞
 BrimlashProj.DisplayName: 硫火鞭挞
 BrimstoneBoom.DisplayName: 硫火爆焱
 BrimstoneSwordExplosion.DisplayName: 硫火爆炎
 BrimstoneSwordProj.DisplayName: 硫火剑
 BrinySpout.DisplayName: 盐水浴
-BrinyTyphoonBubble.DisplayName: 泡泡
+BrinyTyphoonBubble.DisplayName: 台风泡泡
 BrokenBiomeBladeHoldout.DisplayName: 环境断刃
-BurningHolyBlast.DisplayName: Profaned Blast
-BurningMeteor.DisplayName: 流星
+BurningHolyBlast.DisplayName: 亵渎爆裂
+BurningMeteor.DisplayName: 焚天陨星
 CatastropheClaymoreSparkle.DisplayName: 灾难火花
 CausticEdgeProjectile.DisplayName: 绝望之刃
 ChainedMeatHook.DisplayName: 附魔肉钩
@@ -80,7 +80,7 @@ DarklightGreatswordSlashCreator.DisplayName: 巨剑“夜光”
 DarkMasterBeam.DisplayName: 黑暗大师射线
 DarkMasterClone.DisplayName: 暗之泰拉人
 DeathsAscensionProjectile.DisplayName: 擢升镰刀
-DeathsAscensionRift.DisplayName: Rift
+DeathsAscensionRift.DisplayName: 时空裂隙
 DecaysRetort.DisplayName: 腐化之复仇
 DecaysRetortDash.DisplayName: 除脏猛冲
 DemonBlast.DisplayName: 恶魔三叉戟
@@ -117,8 +117,8 @@ ExobeamSlashCreator.DisplayName: 星流之刃
 Exoboom.DisplayName: 星流聚爆
 ExtantAbhorrence.DisplayName: 犹存之憎
 FallenBlast.DisplayName: 堕落圣骑士之怒
-FallenExplosionSmall.DisplayName: Fallen Hammer Blast
-FallenPaladinsHammerEcho.DisplayName: 堕落圣骑士之锤
+FallenExplosionSmall.DisplayName: 堕落之锤爆炸
+FallenPaladinsHammerEcho.DisplayName: 堕落圣骑士之幽灵战锤
 FallenPaladinsHammerProj.DisplayName: 堕落圣骑士之锤
 Feather.DisplayName: 羽毛
 Flarefrost.DisplayName: 霜炎
@@ -168,7 +168,7 @@ LaserFountain.DisplayName: 射线喷井
 LifeScythe.DisplayName: 猎命之镰
 LightBeam.DisplayName: 光束
 LightningThing.DisplayName: 电光
-LuxorsGiftMelee.DisplayName: 卢克索的礼物
+LuxorsGiftMelee.DisplayName: 卢克索之狂礼
 MantisClawHoldout.DisplayName: 螳螂爪
 MantisClawJet.DisplayName: 螳螂爪喷流
 MantisClawSlash.DisplayName: 螳螂爪快斩
@@ -198,14 +198,14 @@ PolarisGazeDash.DisplayName: 北辰冲刺
 PolarisGazeStar.DisplayName: 北极星
 PrismaticBeam.DisplayName: 彩虹光束
 PrismaticWave.DisplayName: 虹光剑气
-PrismaticMagicCircle.DisplayName: Magic Circle
-PrismaticRay.DisplayName: Prismatic Master Spark
+PrismaticMagicCircle.DisplayName: 虹光法阵
+PrismaticRay.DisplayName: 恋符 「Master Spark」
 PrismRay.DisplayName: 彩虹棱光
 PrismTooth.DisplayName: 光子撕裂者
 PureClarity.DisplayName: Pure Clarity
 PurityProjection.DisplayName: 纯化投弹
 PurityProjectionSigil.DisplayName: 纯元魔符
-PwnagehammerEcho.DisplayName: 幽灵战锤
+PwnagehammerEcho.DisplayName: 幽灵圣锤
 PwnagehammerExplosionBig.DisplayName: 神圣能量爆炸
 PwnagehammerExplosionSmall.DisplayName: 神圣能量爆炸
 PwnagehammerProj.DisplayName: 圣时之锤
@@ -219,14 +219,14 @@ RespiteblockHoldout.DisplayName: 喘息区
 RiptideWave.DisplayName: 激波
 Rox1.DisplayName: 石之约
 RoxcaliburProj.DisplayName: 石约与胜利之剑
-RSSolarFlare.DisplayName: 灼烧
+RSSolarFlare.DisplayName: 红日之炎
 SaharaSlicersBolt.DisplayName: 短兵之刺
 SandBlade.DisplayName: 瀚漠之刃
 SandFire.DisplayName: 瀚漠焦火
 SanguineFury.DisplayName: 血色之怒
 SanguineFuryDash.DisplayName: 撕毁之跃
 SanguineFuryWheel.DisplayName: 血腥轮刃
-ScorcherExplosion.DisplayName: Scorching Crystal Blast
+ScorcherExplosion.DisplayName: 焚罪水晶爆裂
 ScourgeoftheCosmosMini.DisplayName: 宇宙劫难
 ScourgeoftheCosmosProj.DisplayName: 宇宙灾祸
 SeashineSwordProj.DisplayName: 海耀剑气
@@ -245,11 +245,11 @@ StarburstSHIV.DisplayName: 短 剑
 StarnightBeam.DisplayName: 夜之星光
 StarofJudgement.DisplayName: 制裁之星
 StellarContemptBlast.DisplayName: 星体爆炸
-StellarContemptEcho.DisplayName: 星体击碎者
+StellarContemptEcho.DisplayName: 幽灵星体击碎者
 StellarContemptHammer.DisplayName: 星体击碎者
-StellarStrikerMeteor.DisplayName: 星体击碎者流星
-StormBeam.DisplayName: 死光
-StormMark.DisplayName: 死亡标记
+StellarStrikerMeteor.DisplayName: 月炎流星
+StormBeam.DisplayName: 风暴光束
+StormMark.DisplayName: 风暴印记
 StormRulerProj.DisplayName: 风暴管束者
 StreamGougePortal.DisplayName: 宇宙暗流传送门
 StygianShieldAttack.DisplayName: 冲刺
@@ -260,10 +260,10 @@ SwordsmithsPride.DisplayName: 剑匠之傲
 SwordsmithsPrideAstralBomber.DisplayName: Swordsmith's Astral Bomber
 SwordsmithsPrideAstralEnergy.DisplayName: Swordsmith's Astral Energy
 SwordsmithsPrideMonolith.DisplayName: Swordsmiths Pride Monolith
-SwordsplosionBlue.DisplayName: 爆破剑
-SwordsplosionGreen.DisplayName: 爆破剑
-SwordsplosionPurple.DisplayName: 爆破剑
-SwordsplosionRed.DisplayName: 爆破剑
+SwordsplosionBlue.DisplayName: 爆破蓝剑
+SwordsplosionGreen.DisplayName: 爆破绿剑
+SwordsplosionPurple.DisplayName: 爆破紫剑
+SwordsplosionRed.DisplayName: 爆破红剑
 TaintedBladeSlasher.DisplayName: 剑刃邪风
 TenebreusTidesWaterProjectile.DisplayName: 凝水长枪
 TenebreusTidesWaterSpear.DisplayName: 凝水长枪
@@ -303,10 +303,10 @@ UrchinSpikeFugu.DisplayName: 海胆刺
 VirulentBeeWave.DisplayName: 病毒蜜蜂波
 VirulentWave.DisplayName: 病毒波
 VoidEssence.DisplayName: 虚空精华
-VoidTentacle.DisplayName: 虚空精华
+VoidTentacle.DisplayName: 虚空触手
 VolcanicFireball.DisplayName: 火山火球
 VolcanicFireballLarge.DisplayName: 火山火球
-Waterfall.DisplayName: 光束
+Waterfall.DisplayName: 水箭倾泻
 WulfrumScrew.DisplayName: 钨钢螺丝钉
 WulfrumScrewdriverProj.DisplayName: 钨钢螺丝刀
 YinYoDark.DisplayName: 黑暗碎块
