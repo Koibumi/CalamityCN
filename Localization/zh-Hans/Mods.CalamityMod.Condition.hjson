@@ -47,7 +47,7 @@ Drops: {
 		当玩家仅使用[i:CalamityMod/ProfanedSoulArtifact]渎魂神物击败亵渎天神时掉落
 		{$Bestiary_ItemDropConditions.IsExpert}
 		'''
-	TrasherKill: 被喂给捣鱼时掉落
+	TrasherKill: 被喂给捣碎鳄时掉落
 }
 
 // Other conditions

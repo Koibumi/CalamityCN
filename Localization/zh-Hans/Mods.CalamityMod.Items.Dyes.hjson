@@ -1,5 +1,5 @@
 AcidRainDye: {
-	DisplayName: Acid Rain Dye
+	DisplayName: 酸雨染料
 	Tooltip: ""
 }
 
@@ -74,7 +74,7 @@ CryonicDye: {
 }
 
 DaedalusDye: {
-	DisplayName: Daedalus Dye
+	DisplayName: 代达罗斯染料
 	Tooltip: ""
 }
 
@@ -229,6 +229,6 @@ TarragonDye: {
 }
 
 WulfrumDye: {
-	DisplayName: Wulfrum Dye
+	DisplayName: 钨钢染料
 	Tooltip: ""
 }
