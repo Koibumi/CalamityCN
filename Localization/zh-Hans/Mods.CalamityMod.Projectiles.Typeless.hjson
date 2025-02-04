@@ -8,18 +8,18 @@ AstralFallingSand.DisplayName: 幻星陨砂
 AstralSandBallFalling.DisplayName: 星幻沙块
 AstralSandBallGun.DisplayName: 星环沙块
 AstralSpray.DisplayName: 星体喷流
-AstralStar.DisplayName: 彗星
+AstralStar.DisplayName: 幻星
 AuricLandMineExplosion.DisplayName: 金源地雷爆炸
-BabyCannonballProjectile.DisplayName: Baby Cannonball Projectile
-BasicBurst.DisplayName: Nondescript Damaging Explosion
+BabyCannonballProjectile.DisplayName: 小炮弹水母
+BasicBurst.DisplayName: 难以形容的破坏性爆炸
 BasicPlagueBee.DisplayName: 基础瘟疫蜜蜂
 BlazingStarHeal.DisplayName: 治愈神圣之星
 BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
 BlazingSun.DisplayName: 烈日
 BlazingSun2.DisplayName: 烈日
-BlissfulBombardierDustProjectile.DisplayName: 尘埃
-BloodBomb.DisplayName: 炸弹
-BloodBombExplosion.DisplayName: 爆炸
+BlissfulBombardierDustProjectile.DisplayName: 极乐之尘
+BloodBomb.DisplayName: 血炎炸弹
+BloodBombExplosion.DisplayName: 血炎爆炸
 BlunderBoosterAura.DisplayName: 悖论电场
 BobbitHead.DisplayName: 博比特之首
 BossRushEffectThing.DisplayName: Boss Rush 开始提示语言
@@ -29,8 +29,8 @@ BossRushTierAnimation.DisplayName: Boss Rush 级别动画
 ChaoticGeyser.DisplayName: 混沌间歇泉
 ChlorophyteLifePulse.DisplayName: 生命脉冲
 ChronoClock.DisplayName: 时之钟
-CoralBubble.DisplayName: 泡泡
-CoralBubbleSmall.DisplayName: 泡泡
+CoralBubble.DisplayName: 珊瑚泡泡
+CoralBubbleSmall.DisplayName: 珊瑚泡泡
 CosmicDashExplosion.DisplayName: 宇宙冲刺爆炸
 CryonicShield.DisplayName: 冰盾
 CursorProj.DisplayName: 蒸汽波水晶
@@ -50,10 +50,10 @@ EmpyreanMarble.DisplayName: 皇天大理石
 EmpyreanStellarDetritus.DisplayName: 皇天星源碎屑
 EnergyShell.DisplayName: 能量庇护
 EutrophicSandBallGun.DisplayName: 富营养沙
-ExoTankHoverThrust.DisplayName: Exo Thrust
-ExoTankLaser.DisplayName: Mini Exo Pulse Laser
-ExoTankMissile.DisplayName: Miracle Missile
-ExoTankMuzzleFlash.DisplayName: Mini Exo Flash
+ExoTankHoverThrust.DisplayName: 星流助推
+ExoTankLaser.DisplayName: 迷你星流脉冲激光
+ExoTankMissile.DisplayName: 奇迹导弹
+ExoTankMuzzleFlash.DisplayName: 迷你星流闪光
 FeralDoubleBobber.DisplayName: 野性浮漂
 FlameLickedBarrage.DisplayName: 舐火散弹
 FlameLickedHellblast.DisplayName: 舐火狱燃爆
@@ -62,15 +62,15 @@ FuckYou.DisplayName: 爆炸
 FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
 GenericElectricSpark.DisplayName: 电火花
-GhostlyBolt.DisplayName: 闪电
+GhostlyBolt.DisplayName: 血炎灵魂
 GodKiller.DisplayName: 神杀
-GodSlayerShrapnel.DisplayName: 火焰
+GodSlayerShrapnel.DisplayName: 弑神者火焰
 GodSlayerShrapnelRound.DisplayName: 弑神者光环
 GreenLabSeeker.DisplayName: 实验室定位仪
 HeronBobber.DisplayName: 苍鹭浮标
 HideOfAstrumDeusExplosion.DisplayName: 隐壳爆炸
-HolyExplosionSupreme.DisplayName: 爆炸
-HolyStarDamage.DisplayName: Holy Star
+HolyExplosionSupreme.DisplayName: 极乐爆炸
+HolyStarDamage.DisplayName: 神圣之星
 HydrothermalSmoke.DisplayName: 水热烟雾
 HydrothermicFlare.DisplayName: 渊泉之火
 HydrothermicFlareRogue.DisplayName: 渊泉之火
@@ -78,15 +78,15 @@ HydrothermicSphere.DisplayName: 渊泉球体
 JewelSpike.DisplayName: 宝石尖刺
 KelvinCatalystStar.DisplayName: 冰灵旋刃碎冰星
 LeviAmberDash.DisplayName: 激流猛冲
-LunicBeam.DisplayName: Lunic Seeker
-MagnusBeam.DisplayName: Magnus Seeker
-MagnusBoom.DisplayName: Nebula Blast
+LunicBeam.DisplayName: 星光射线
+MagnusBeam.DisplayName: 马格努斯射线
+MagnusBoom.DisplayName: 马格努斯爆炸
 MythrilFlare.DisplayName: 秘银火花
 NanoFlare.DisplayName: 纳米耀斑
 Nanotech.DisplayName: 纳米刃
 NavyBobber.DisplayName: 沉沦渊海钓竿浮标
-NebulaDust.DisplayName: 星尘
-NebulaStar.DisplayName: 星云
+NebulaDust.DisplayName: 星云之尘
+NebulaStar.DisplayName: 星云之星
 NobodyKnows.DisplayName: 虚无
 OmegaBlueTentacle.DisplayName: 欧米茄蓝色触手
 OnyxLabSeeker.DisplayName: 实验室定位仪
@@ -123,12 +123,12 @@ SulphuricAcidBubbleFriendly.DisplayName: 酸性气泡
 SulphurousSandBallGun.DisplayName: 硫磺沙
 TarraEnergy.DisplayName: 泰拉能量
 TarragonAura.DisplayName: 龙蒿光环
-TatteredFairyDust.DisplayName: Tattered Fairy Dust
+TatteredFairyDust.DisplayName: 褴褛仙灵之尘
 TeslaAura.DisplayName: 磁暴
 TitanHeartBoom.DisplayName: 泰坦之心爆炸
 TransformerAura.DisplayName: 变压器光环
 TransformerBlob.DisplayName: 变压器裂片
-UrsaSlash.DisplayName: Ursa Slash
+UrsaSlash.DisplayName: 大熊座斩击
 VerstaltiteBobber.DisplayName: 极寒浮标
 VoidFieldGenerator.DisplayName: 虚空力场生成器
 WarbannerDamage.DisplayName: The Unmatched Power of the Sun

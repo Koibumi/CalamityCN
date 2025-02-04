@@ -61,7 +61,7 @@ CraniumSmasherStealth.DisplayName: 碎颅飞盘
 Crushax.DisplayName: 十字军
 Crystalline2.DisplayName: 结晶体
 CrystallineProj.DisplayName: 结晶体
-CrystalPiercerProjectile.DisplayName: 穿星者
+CrystalPiercerProjectile.DisplayName: 穿刺水晶
 CrystalPiercerShard.DisplayName: 水晶碎块
 CursedDaggerBlastHitbox.DisplayName: 咒焰旋涡
 CursedDaggerProj.DisplayName: 诅咒匕首
@@ -76,8 +76,8 @@ DesecratedWaterProj.DisplayName: 渎神水流
 DestructionBolt.DisplayName: 毁灭弹
 DestructionExplosion.DisplayName: 毁灭爆炸
 DestructionStar.DisplayName: 毁灭之星
-DragonScalesInfernado.DisplayName: 地狱龙炎
-DragonShit.DisplayName: 火焰
+DragonScalesInfernado.DisplayName: 地狱龙卷
+DragonShit.DisplayName: 龙炎
 DukesDecapitatorBubble.DisplayName: 公爵泡泡
 DukesDecapitatorProj.DisplayName: 公爵斩首者
 DuststormCloud.DisplayName: 粉尘云
@@ -98,7 +98,7 @@ EpidemicShredderProjectile.DisplayName: 瘟疫回旋镖
 EquanimityDarkShard.DisplayName: 阴极
 EquanimityLightShard.DisplayName: 阳极
 EquanimityProj.DisplayName: 寂静回旋镖
-EradicatorProjectile.DisplayName: 寂静回旋镖
+EradicatorProjectile.DisplayName: 湮灭飞盘
 ExecutionersBladeProj.DisplayName: 终结者之刃
 ExecutionersBladeStealthProj.DisplayName: 终结追魂刃
 ExorcismProj.DisplayName: 驱魔十字架
@@ -138,7 +138,7 @@ HeavenfallenEnergy.DisplayName: 天陨魔能
 HeavenfallenStardiskBoomerang.DisplayName: 天陨星盘
 Honeycomb.DisplayName: 蜂巢
 HoneycombFragment.DisplayName: 蜂巢碎片
-HypothermiaChunk.DisplayName: 冰块
+HypothermiaChunk.DisplayName: 冰晶
 HypothermiaShard.DisplayName: 碎冰片
 IcebreakerHammer.DisplayName: 破冰者
 IceStarProjectile.DisplayName: 冰星
@@ -147,10 +147,10 @@ InfernalKrisCinder.DisplayName: 狱炎余烬
 InfernalKrisExplosion.DisplayName: 狱炎爆
 InfernalKrisProjectile.DisplayName: 炼狱克里斯
 InfestedClawmerangProj.DisplayName: 蘑菇回旋镖
-InkBombProjectile.DisplayName: 乌云
-InkCloud.DisplayName: 乌云
-InkCloud2.DisplayName: 乌云
-InkCloud3.DisplayName: 乌云
+InkBombProjectile.DisplayName: 乌墨爆弹
+InkCloud.DisplayName: 乌墨云雾
+InkCloud2.DisplayName: 乌墨云雾
+InkCloud3.DisplayName: 乌墨云雾
 IronFranciscaProj.DisplayName: 铁质飞斧
 JawsProjectile.DisplayName: 猎魂鲨之牙
 JawsShockwave.DisplayName: 猎魂鲨牙冲击波
@@ -198,7 +198,7 @@ PartisanExplosion.DisplayName: 圣火爆焱
 PenumbraBomb.DisplayName: 半影爆炸
 PenumbraSoul.DisplayName: 半影之魂
 PhantasmalRuinProj.DisplayName: 幻灵归墟
-PhantasmalSoul.DisplayName: 幻魂
+PhantasmalSoul.DisplayName: 幻灵之魂
 PhantasmalSoulBlue.DisplayName: 蓝色灵魂
 PlaguedFuelPackCloud.DisplayName: 瘟疫云
 PlaguenadeBee.DisplayName: 疫病毒蜂
@@ -240,8 +240,8 @@ SealedSingularityBlackhole.DisplayName: 密封奇点黑洞
 SealedSingularityGore.DisplayName: 秘封奇点裂片
 SealedSingularityProj.DisplayName: 秘封奇点
 SearedPanProjectile.DisplayName: 平底锅
-SeraphimAngelicLight.DisplayName: 光球
-SeraphimAngelicLight2.DisplayName: 光球
+SeraphimAngelicLight.DisplayName: 炽天使光球
+SeraphimAngelicLight2.DisplayName: 炽天使光球
 SeraphimBeamLarge.DisplayName: 神圣之光
 SeraphimDagger.DisplayName: 六翼天使
 SeraphimProjectile.DisplayName: 六翼天使
@@ -293,13 +293,13 @@ TheSyringeCinder.DisplayName: 注射器碎片
 TheSyringeProj.DisplayName: 瘟疫注射器
 TheSyringeS1.DisplayName: 瘟疫弹片
 TimeBoltKnife.DisplayName: 时空交叉刃
-TitaniumClone.DisplayName: 回旋镖
+TitaniumClone.DisplayName: 复制手里剑
 TitaniumShurikenProjectile.DisplayName: 手里剑
 ToothBallProjectile.DisplayName: 尖牙球
 TotalityFire.DisplayName: 集束火焰
 TotalityFlask.DisplayName: 集束燃爆瓶
 TotalityTar.DisplayName: 浓缩焦油
-TotalMeltdown.DisplayName: 爆炸
+TotalMeltdown.DisplayName: 焦油爆炸
 ToxicantTwisterDust.DisplayName: 剧毒雨滴
 ToxicantTwisterProj.DisplayName: 剧毒旋风
 TurbulanceProjectile.DisplayName: 乱流长枪
@@ -308,8 +308,8 @@ TwistingThunderProj.DisplayName: 雷劫
 UmbraphileBoom.DisplayName: 本影爆破
 UrchinStingerProj.DisplayName: 海胆刺
 ValariBoomerang.DisplayName: 霜碎回力标
-Valaricicle.DisplayName: 碎冰
-Valaricicle2.DisplayName: 碎冰
+Valaricicle.DisplayName: 碎霜
+Valaricicle2.DisplayName: 碎霜
 ValedictionBoomerang.DisplayName: 辞别飞镰
 VeneratedKnife.DisplayName: 敬天弑神刀
 WaveSkipperProjectile.DisplayName: 越浪蛟
@@ -323,7 +323,7 @@ WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 钨钢飞刀
 RadiationBurst.DisplayName: 辐射爆发
 RadiationRain.DisplayName: 辐射雨
-RefractionRotorSlashCreator.DisplayName: Refraction Rotor Slash Creator
-RefractionSlash.DisplayName: Refraction Slash
+RefractionRotorSlashCreator.DisplayName: 衍曜斩切生成器
+RefractionSlash.DisplayName: 衍曜斩切
 SporeKnifeProj.DisplayName: Spore Knife
 SporeKnifeBud.DisplayName: Spore Knife Bud
