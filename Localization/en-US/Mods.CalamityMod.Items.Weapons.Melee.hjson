@@ -1027,7 +1027,11 @@ Respiteblock: {
 
 Riptide: {
 	DisplayName: Riptide
-	Tooltip: Occasionally pulses a riptide wave with heavy knockback
+	Tooltip:
+		'''
+		{$Common.YoyoStats}
+		Occasionally pulses a riptide wave with heavy knockback
+		'''
 }
 
 Roxcalibur: {

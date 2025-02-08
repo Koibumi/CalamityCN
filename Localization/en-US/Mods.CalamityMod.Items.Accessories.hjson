@@ -1398,8 +1398,11 @@ Regenator: {
 	DisplayName: Regenator
 	Tooltip:
 		'''
-		+6 HP/s life regen and massively accelerated natural life regen
-		However, your health cannot exceed 50% of its maximum
+		Your health cannot exceed 50% of its maximum
+		Increases length of invincibility after taking damage
+		Provides powerful special life regen to heal you for 8.5 HP/s
+		All normal life regen is negated and converted into damage 
+		Current damage boost: [DAMAGE]%
 		'''
 }
 

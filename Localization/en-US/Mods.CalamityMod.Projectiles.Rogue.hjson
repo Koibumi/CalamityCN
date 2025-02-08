@@ -149,8 +149,6 @@ InfernalKrisProjectile.DisplayName: Infernal Kris
 InfestedClawmerangProj.DisplayName: Shroomerang
 InkBombProjectile.DisplayName: Ink Bomb
 InkCloud.DisplayName: Ink Cloud
-InkCloud2.DisplayName: Ink Cloud
-InkCloud3.DisplayName: Ink Cloud
 IronFranciscaProj.DisplayName: Iron Francisca
 JawsProjectile.DisplayName: Reaper Tooth
 JawsShockwave.DisplayName: Reaper Tooth Shockwave
@@ -249,9 +247,9 @@ ShatteredExplosion.DisplayName: Shattered Dawn Blast
 ShatteredDawnKnife.DisplayName: Shattered Dawn
 ShatteredDawnScorchedBlade.DisplayName: Scorched Blade
 ShinobiBladeProjectile.DisplayName: Shinobi Blade
-ShockGrenadeBolt.DisplayName: Shock Grenade Bolt
-ShockGrenadeExplosion.DisplayName: Shock Grenade Explosion
-ShockGrenadeProjectile.DisplayName: Shock Grenade
+ShockBolt.DisplayName: Shock Bolt
+ShockExplosion.DisplayName: Shock Explosion
+DoomsdayDeviceProjectile.DisplayName: Doomsday Device
 ShockTeslaAura.DisplayName: Electrifying Aura
 ShroomerangSpore.DisplayName: Infested Spore
 SkyBomberGas.DisplayName: Irradiated Cloud

@@ -149,8 +149,6 @@ InfernalKrisProjectile.DisplayName: 炼狱克里斯
 InfestedClawmerangProj.DisplayName: 蘑菇回旋镖
 InkBombProjectile.DisplayName: 乌墨爆弹
 InkCloud.DisplayName: 乌墨云雾
-InkCloud2.DisplayName: 乌墨云雾
-InkCloud3.DisplayName: 乌墨云雾
 IronFranciscaProj.DisplayName: 铁质飞斧
 JawsProjectile.DisplayName: 猎魂鲨之牙
 JawsShockwave.DisplayName: 猎魂鲨牙冲击波
@@ -249,9 +247,9 @@ ShatteredExplosion.DisplayName: Shattered Dawn Blast
 ShatteredDawnKnife.DisplayName: Shattered Dawn
 ShatteredDawnScorchedBlade.DisplayName: Scorched Blade
 ShinobiBladeProjectile.DisplayName: 忍者之刃
-ShockGrenadeBolt.DisplayName: 震爆弹闪电
-ShockGrenadeExplosion.DisplayName: 震爆
-ShockGrenadeProjectile.DisplayName: 震爆弹
+ShockBolt.DisplayName: 震爆闪电
+ShockExplosion.DisplayName: 震爆
+DoomsdayDeviceProjectile.DisplayName: Doomsday Device
 ShockTeslaAura.DisplayName: 闪电光环
 ShroomerangSpore.DisplayName: 真菌孢子
 SkyBomberGas.DisplayName: 辐射云

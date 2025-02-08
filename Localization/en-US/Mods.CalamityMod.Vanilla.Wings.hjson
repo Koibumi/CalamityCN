@@ -20,4 +20,4 @@ WingsNebula: Increases the pickup range of Nebula armor's nebula boosters
 WingsSolar: Increases Solar Flare armor's dash velocity by 25%
 WingsStardust: Greatly increases Stardust armor's stardust guardian damage and attack range
 TatteredFairyWings: You leave a trail of fairy dust as you fly
-WingsVortex: Prevents dashes from disabling Vortex armor's stealth ability
+WingsVortex: Vortex armor's stealth ability is automatically reactivated 1 second after dashing

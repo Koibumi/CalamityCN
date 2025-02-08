@@ -1,4 +1,5 @@
-ApolloChargeTelegraph.DisplayName: 阿波罗
+AnahitaTelegraph.DisplayName: 阿娜希塔预警
+ApolloChargeTelegraph.DisplayName: 阿波罗冲刺预警
 ApolloFireball.DisplayName: 挥发性等离子光球
 ApolloRocket.DisplayName: 高爆等离子火箭
 AresDeathBeamStart.DisplayName: 过载星流死光
@@ -10,7 +11,7 @@ AresLaserBeamStart.DisplayName: 星流热能激光
 AresPlasmaBolt.DisplayName: 星流等离子束
 AresPlasmaFireball.DisplayName: 挥发性等离子光球
 AresTeslaOrb.DisplayName: 特斯拉球状闪电
-ArtemisChargeTelegraph.DisplayName: 阿尔忒弥斯冲刺
+ArtemisChargeTelegraph.DisplayName: 阿尔忒弥斯冲刺预警
 ArtemisDeathrayTelegraph.DisplayName: 阿尔忒弥斯星流热能光束
 ArtemisLaser.DisplayName: 星流脉冲激光
 ArtemisSpinLaserbeam.DisplayName: 俄亥俄光束
