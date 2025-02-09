@@ -966,13 +966,17 @@ SeafoamBomb: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Throws a bomb that explodes into a bubble which deals extra damage to enemies
-		Stealth strikes are faster and explode into 5 bubbles
+		Hurls a lightweight bomb which bursts into a foam bubble
+		Foam bubbles combine in pairs to form huge bubbles
+		Huge bubbles pop into small homing suds after a delay
+		Stealth strikes are cluster bombs that release eight normal bombs
 		'''
 	TooltipGFB:
 		'''
-		Throws a bomb that explodes into a bubble which deals extra damage to enemies
-		Stealth strikes are faster and explode into 5 bubbles
+		Rapidly hurls a lightweight bomb which bursts into a foam bubble
+		Foam bubbles combine in pairs to form huge bubbles
+		Huge bubbles pop into small homing suds after a delay
+		Stealth strikes are cluster bombs that release 38 normal bombs
 		[c/256b93:'Right back in S tier!']
 		'''
 }

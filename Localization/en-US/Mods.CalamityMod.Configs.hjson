@@ -312,7 +312,7 @@ CalamityClientConfig: {
 		Label: "[i:HealingPotion] Display Vanilla Cooldowns"
 		Tooltip:
 			'''
-			Adds the vanilla debuffs Potion Sickness and Chaos State to the Cooldown Rack.
+			Adds the vanilla effects Potion Sickness, Chaos State, and Holy Protection to the Cooldown Rack.
 			The debuffs will still appear in the buffs array, but this may help make them more visible.
 			'''
 	}
