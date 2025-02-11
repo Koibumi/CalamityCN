@@ -1199,7 +1199,7 @@ OldDukeScales: {
 		增加25%冲刺速度和距离
 		在冷却栏中出现一个耐力指示器
 		使用任何冲刺会消耗20%耐力
-		不进行冲刺后1秒，耐力会逐渐恢复到100%
+		不进行冲刺后1.5秒，耐力会逐渐恢复到100%
 		静止时耐力恢复地更快
 		如果耐力降到0%，你会进入疲惫状态
 		[c/CE0E18:处于疲惫状态时，该物品的伤害减免和移动速度加成失效]
@@ -2025,11 +2025,6 @@ AbandonedWulfrumHelmet: {
 CrystalHeartVodka: {
 	DisplayName: 水晶之心伏特加
 	Tooltip: “味道就像（女孩子的）草莓奶油利口酒”
-}
-
-CocosFeather: {
-	DisplayName: Coco的羽毛
-	Tooltip: ""
 }
 
 HapuFruit: {

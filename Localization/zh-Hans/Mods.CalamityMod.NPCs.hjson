@@ -169,9 +169,9 @@ Frogfish.DisplayName: 躄鱼
 Horse.DisplayName: 大地元素
 IceClasper.DisplayName: 食魂冰虫
 ImpiousImmolator.DisplayName: 亵渎献祭者
-KingSlimeJewel.DisplayName: 王冠红宝石
-KingSlimeJewel2.DisplayName: 王冠蓝宝石
-KingSlimeJewel3.DisplayName: 王冠绿宝石
+KingSlimeJewelEmerald.DisplayName: 王冠绿宝石
+KingSlimeJewelRuby.DisplayName: 王冠红宝石
+KingSlimeJewelSapphire.DisplayName: 王冠蓝宝石
 LavaSlimeNoLavaDrop.DisplayName: 熔岩史莱姆
 MantisShrimp.DisplayName: 螳螂虾
 OverloadedSoldier.DisplayName: 过载装甲骷髅
@@ -623,7 +623,3 @@ WITCH: {
 		Princess_LovesNPC: "{NPCName}总是很孤独，这就是我想和她一起玩的原因，谁都不该那样孤单！"
 	}
 }
-
-KingSlimeJewelEmerald.DisplayName: 王冠绿宝石
-KingSlimeJewelRuby.DisplayName: 王冠红宝石
-KingSlimeJewelSapphire.DisplayName: 王冠蓝宝石

@@ -101,8 +101,7 @@ SetBonus: {
 		'''
 	Obsidian:
 		'''
-		增加30%的鞭子范围和15%的攻速
-		仆从的伤害提高15%
+		{$ArmorSetBonus.ObsidianOutlaw}
 		免疫火块和短暂免疫岩浆
 		'''
 	Palladium:
