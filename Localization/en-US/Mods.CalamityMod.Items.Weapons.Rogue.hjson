@@ -295,6 +295,20 @@ DesecratedWater: {
 		'''
 }
 
+DoomsdayDevice: {
+	DisplayName: Doomsday Device
+	Tooltip:
+		'''
+		A high-tech Martian explosive with devastating explosive power
+		...Unfortunately you can't figure out how to arm it
+		At least you can throw it really hard!
+		Direct hits from the weapon build stealth
+		Stealth is not consumed if it is thrown while fully charged
+		Holding the charge beyond its limit rapidly drains your stealth
+		Stealth strikes ricochet between multiple enemies, ending in a strong impact when none are left
+		'''
+}
+
 DukesDecapitator: {
 	DisplayName: Duke's Decapitator
 	Tooltip:
@@ -1039,20 +1053,6 @@ ShinobiBlade: {
 		'''
 		Throws a fast blade that spawns healing orbs when it kills an enemy
 		Stealth strikes repeatedly stab the struck enemy from random directions
-		'''
-}
-
-DoomsdayDevice: {
-	DisplayName: Doomsday Device
-	Tooltip:
-		'''
-		A high-tech Martian explosive with devastating explosive power
-		...Unfortunately you can't figure out how to arm it
-		At least you can throw it really hard!
-		Direct hits from the weapon build stealth
-		Stealth is not consumed if it is thrown while fully charged
-		Holding the charge beyond it's limit rapidly drains your stealth
-		Stealth strikes ricochet between multiple enemies, ending in a strong impact when none are left
 		'''
 }
 

@@ -8,15 +8,6 @@ Abaddon: {
 		'''
 }
 
-AbyssalAmulet: {
-	DisplayName: Abyssal Amulet
-	Tooltip:
-		'''
-		Attacks inflict Riptide, and grants immunity to Riptide
-		While in the abyss you gain 10% increased max life
-		'''
-}
-
 AbyssalDivingGear: {
 	DisplayName: Abyssal Diving Gear
 	Tooltip:
@@ -392,9 +383,9 @@ ChaliceOfTheBloodGod: {
 		Increases max HP by 25%
 		Grants immunity to Bleeding, Burning Blood, Heavy Bleeding and Laceration
 		+2 HP/s life regen and reduces the cooldown of healing potions by 25%
-		Taking more than 5 damage converts the hit into a damage over time bleed debuff
+		Taking more than 5 damage converts the hit into a damage over time bleed effect
 		This bleeding does not interfere with life regeneration
-		Drinking a healing potion cancels up to 50% of its heal value in remaining bleed damage
+		Drinking a healing potion removes some of the remaining bleed, up to 50% of its heal value
 		Unequipping this accessory while bleeding inflicts the remaining damage instantly
 		'All that for a drop of blood...'
 		'''
@@ -1488,6 +1479,18 @@ ScuttlersJewel: {
 		'''
 		Stealth strike projectiles spawn a jewel spike when destroyed
 		Can also be broken down at an extractinator
+		'''
+}
+
+SeaSpiritAmulet: {
+	DisplayName: Sea Spirit Amulet
+	Tooltip:
+		'''
+		Slowly accumulate up to eight spirit orbs that follow you
+		Spirits disperse when dashing
+		If below 50% life, they will heal you, otherwise they will attack nearby enemies
+		Multiplies all water debuff damage by 1.35x
+		Spirit orbs are transparent and silent if visibility is disabled
 		'''
 }
 

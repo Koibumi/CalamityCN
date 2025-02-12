@@ -183,6 +183,16 @@ CalamityClientConfig: {
 			'''
 	}
 
+	Photosensitivity: {
+		Label: "[i:DiscoBall] Photosensitivity Mode"
+		Tooltip:
+			'''
+			Reduces or disables the brightness and/or flashiness of certain visual effects.
+			Also disables all screenshake effects.
+			Highly recommended if you are photosensitive.
+			'''
+	}
+
 	RageMeterPosX: {
 		Label: "[i:LaserRuler] 怒气条X轴坐标"
 		Tooltip:

@@ -8,15 +8,6 @@ Abaddon: {
 		'''
 }
 
-AbyssalAmulet: {
-	DisplayName: 深渊护身符
-	Tooltip:
-		'''
-		攻击会造成激流减益并使你对激流免疫
-		处于深渊时增加10%最大生命值
-		'''
-}
-
 AbyssalDivingGear: {
 	DisplayName: 深渊潜游装
 	Tooltip:
@@ -394,7 +385,7 @@ ChaliceOfTheBloodGod: {
 		+2HP/s生命再生并缩短25%的治疗药水冷却时间
 		受到5点以上伤害时，将超出的部分转化为流血效果
 		这种效果不会影响生命恢复
-		使用治疗药水能够抵消至多50%药水治疗量的流血伤害
+		使用治疗药水能够抵消部分流血伤害，至多50%其治疗量
 		在流血时解除装备将会立即造成剩余伤害
 		“竟然为了一滴血付出了这么多”
 		'''
@@ -1492,6 +1483,18 @@ ScuttlersJewel: {
 		'''
 		潜伏攻击的弹幕在被摧毁时会生成宝石钉
 		也可以通过提炼机进行拆分
+		'''
+}
+
+SeaSpiritAmulet: {
+	DisplayName: Sea Spirit Amulet
+	Tooltip:
+		'''
+		Slowly accumulate up to eight spirit orbs that follow you
+		Spirits disperse when dashing
+		If below 50% life, they will heal you, otherwise they will attack nearby enemies
+		Multiplies all water debuff damage by 1.35x
+		Spirit orbs are transparent and silent if visibility is disabled
 		'''
 }
 
