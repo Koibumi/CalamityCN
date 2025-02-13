@@ -515,10 +515,9 @@ GodsParanoia: {
 	DisplayName: Gods' Paranoia
 	Tooltip:
 		'''
-		Hurls up to 10 speedy homing spiky balls
-		Attaches to enemies and summons a localized storm of god slayer kunai
-		Stealth strikes home in faster and summon kunai at a faster rate
-		Press <right> to delete all existing spiky balls
+		Hurls homing spiky balls which attach to enemies
+		Attached spiky balls summon a localized storm of god slayer kunai on each hit
+		Stealth strikes home in faster and hit at a faster rate
 		'''
 }
 

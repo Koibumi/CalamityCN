@@ -207,7 +207,15 @@ BlossomFlux: {
 	Tooltip:
 		'''
 		发射如水流般密集的叶之箭
-		右键发射会散发毒云的孢子球
+		<right>发射会散发毒云的孢子球
+		'''
+	LegendaryText:
+		'''
+		'...I see... So unsettled by the Godseeker were my children they chose to defile death for a protector in my image.
+		I am sorry. I could not gaze unto your hearts, I did not foresee the despair it would inflict upon you to take away your guardian. You shan't be neglected any longer.
+		Heed me, floral beast, on my authority. Defile this place no longer, stand guard of the home and memories of the people who were once housed here.
+		With all the might of the jungle, from the dead within you to the living who cross these caves, no Godseeker, lowly or high, shall be allowed within this settlement.
+		Defend it till the last rays of the sun, so my hero shall yet have a home.'
 		'''
 }
 

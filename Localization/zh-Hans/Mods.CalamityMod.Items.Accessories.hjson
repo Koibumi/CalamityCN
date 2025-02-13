@@ -1490,11 +1490,11 @@ SeaSpiritAmulet: {
 	DisplayName: Sea Spirit Amulet
 	Tooltip:
 		'''
-		Slowly accumulate up to eight spirit orbs that follow you
-		Spirits disperse when dashing
-		If below 50% life, they will heal you, otherwise they will attack nearby enemies
-		Multiplies all water debuff damage by 1.35x
-		Spirit orbs are transparent and silent if visibility is disabled
+		缓慢积攒跟随你的灵魂珠，至多8个
+		当冲刺时，灵魂四散
+		如果生命值低于50%，灵魂会治疗你，否则会攻击附近的敌怪
+		所有水系减益的伤害乘以1.35
+		如果关闭饰品可见性，灵魂珠会变得透明且安静
 		'''
 }
 

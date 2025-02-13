@@ -184,12 +184,12 @@ CalamityClientConfig: {
 	}
 
 	Photosensitivity: {
-		Label: "[i:DiscoBall] Photosensitivity Mode"
+		Label: "[i:DiscoBall] 光敏模式"
 		Tooltip:
 			'''
-			Reduces or disables the brightness and/or flashiness of certain visual effects.
-			Also disables all screenshake effects.
-			Highly recommended if you are photosensitive.
+			降低或禁用某些视觉效果的亮度和/或炫目程度。
+			也会禁用所有屏幕震动效果。
+			强烈建议光敏人士使用此模式。
 			'''
 	}
 
