@@ -65,7 +65,7 @@ Bloodfin: {
 
 Brimlish: {
 	DisplayName: 小硫火鱼
-	QuestDescription: 在你击败硫磺火元素后，她的孩子们掉进了地狱的岩浆中。据说他们都化作了鱼，现在我要你给我搞到一条，这样我新准备的岩浆鱼缸就能派上用场了！
+	QuestDescription: Did you really defeat that big fire lady? Well, I heard that her children fled into the lava, and one of them mutated into a fish! I'm not burning my hands though, so you catch it and bring it to me for my lava-filled tank!
 }
 
 BrimstoneCrate: {
@@ -124,7 +124,7 @@ SlagCrate: {
 
 Slurpfish: {
 	DisplayName: 饮食者鱼
-	QuestDescription: 我知道我知道，要你去远古地狱遗迹的岩浆里钓鱼简直是不讲道理。我正准备这样做。还不快去？鱼可不会自己上钩！
+	QuestDescription: Hey {0}, wouldn't it be absolutely calamitous if I sent you to those ruins in the depths of hell? Well, I heard of a scary fish that can slurp the souls out of people! I want to keep my soul, so scram! The fish isn't going to catch itself!
 }
 
 // Sunken Sea Catches
@@ -135,7 +135,7 @@ EutrophicCrate: {
 
 EutrophicSandfish: {
 	DisplayName: 富养沙地鱼
-	QuestDescription: 你知道沙漠里的蜥蜴往地下钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。 你，现在就去把它抓来，这样我就有新的宠物了！
+	QuestDescription: You ever wondered what would happen if a lizard that lived in the desert wandered too deep into those old Ilmeran areas? Well I know, and it looks super cool! But it's way too slippery for me to get my hands on, so you go and get it so I can keep it as a pet!
 }
 
 GreenwaveLoach: {
@@ -169,7 +169,7 @@ SerpentsBite: {
 
 Serpentuna: {
 	DisplayName: 巨蛇金枪鱼
-	QuestDescription: 海蛇其实还是很漂亮的，只要你不贸然侵入他们的领地。现在我命令你给我抓一条来作为给我的惊喜，限你一天之内完成！
+	QuestDescription: I'm tired of always losing my allowance to those serpents in the Ilmeran water! I wanna fish up all the baby serpents, and I need YOUR help to do it! ...What? No, I'm not trying to steal money from others...
 }
 
 SparklingEmpress: {
@@ -209,7 +209,7 @@ SunkenSailfish: {
 
 SurfClam: {
 	DisplayName: 碎浪蛤
-	QuestDescription: 你知道蛤很美味吗？流言说沙漠地下住着一大群蛤，光是说说就觉得饿了。给我抓一只来，让我练习练习烹饪技巧，也顺便解解馋。
+	QuestDescription: Rumor has it that a massive swarm of clams has taken over that sea under the desert! Clams are a delicacy, so just hearing that makes me hungry! Will you help me curb my hunger? Of course you will! Just make sure my clam and you make it back in one piece!
 }
 
 // Other Catches

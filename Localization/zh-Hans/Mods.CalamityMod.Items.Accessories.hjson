@@ -1003,11 +1003,15 @@ JellyChargedBattery: {
 
 Laudanum: {
 	DisplayName: 鸦片酊
-	Tooltip: 将某些减益转化为正面增益并延长其持续时间
+	Tooltip:
+		'''
+		将某些减益转化为正面增益并延长其持续时间
+		如果你对这些减益免疫，还会移除这些免疫效果
+		'''
 	HoldShiftTooltip:
 		'''
-		  受影响的减益: 黑暗、灯火管制、困惑、缓慢、软弱、
-		  破损盔甲、碎甲、冷冻、灵液和阻塞
+		  受影响的减益：{$Buffs.ArmorCrunch.DisplayName}、{$BuffName.Blackout}、{$BuffName.Bleeding}、{$BuffName.BrokenArmor}、{$BuffName.Chilled}、{$BuffName.Confused}、
+		  {$BuffName.Cursed}、{$BuffName.Darkness}、{$BuffName.VortexDebuff}、{$BuffName.Ichor}、{$BuffName.Silenced}、{$BuffName.Slow}、{$BuffName.Weak}和{$Buffs.WhisperingDeath.DisplayName}
 		'''
 }
 
@@ -1461,10 +1465,10 @@ SandCloak: {
 	DisplayName: 沙尘披风
 	Tooltip:
 		'''
-		增加5%移动速度
-		按下 [KEY] 产生一个保护性沙漠龙卷，伤害其中的敌人
-		身处龙卷中时你获得6点防御和3%暴击率
-		此效果有20秒冷却时间
+		冲刺产生一个大型保护性沙尘龙卷，伤害其中的敌人
+		沙尘龙卷持续15秒，但如果你再次冲刺将会提前消散
+		身处龙卷中时你获得10点防御，且加速度提升为1.75倍
+		龙卷消散后，有15秒冷却时间
 		'''
 }
 

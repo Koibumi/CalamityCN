@@ -1323,7 +1323,12 @@ TwistingThunder: {
 
 UrchinStinger: {
 	DisplayName: Urchin Stinger
-	Tooltip: Stealth strikes stick to enemies while releasing sulphuric bubbles
+	Tooltip:
+		'''
+		Sticks into enemies and injects an extremely potent poison
+		Stealth strikes stick into and poison enemies for longer
+		Sticking seven stingers in an enemy with a stealth strike stuck in it spawns an irradiated blast
+		'''
 }
 
 UtensilPoker: {

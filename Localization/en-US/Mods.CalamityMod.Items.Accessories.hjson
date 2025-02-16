@@ -999,11 +999,15 @@ JellyChargedBattery: {
 
 Laudanum: {
 	DisplayName: Laudanum
-	Tooltip: Converts certain debuffs into buffs and extends their durations
+	Tooltip:
+		'''
+		Converts certain debuffs into buffs and extends their durations
+		This also removes debuff immunities if you have them
+		'''
 	HoldShiftTooltip:
 		'''
-		  Debuffs affected: Darkness, Blackout, Confused, Slow, Weak,
-		  Broken Armor, Armor Crunch, Chilled, Ichor, and Obstructed
+		  Debuffs affected: Armor Crunch, Blackout, Bleeding, Broken Armor, Chilled, Confused,
+		  Cursed, Darkness, Distorted, Ichor, Silenced, Slow, Weak, and Whispering Death
 		'''
 }
 
@@ -1457,10 +1461,10 @@ SandCloak: {
 	DisplayName: Sand Cloak
 	Tooltip:
 		'''
-		5% increased movement speed
-		Press [KEY] to create a protective sand veil which damages enemies inside it
-		While inside the veil, you gain 6 defense and 3% critical strike chance
-		This effect has a 20 second cooldown before it can be used again
+		Dashing creates a large protective sand veil which damages enemies inside it
+		The sand veil lasts 15 seconds, but dissipates early if you dash again
+		While inside the veil, you gain 10 defense and 1.75x acceleration
+		After dissipating, the sand veil has a 15 second cooldown before it can be used again
 		'''
 }
 

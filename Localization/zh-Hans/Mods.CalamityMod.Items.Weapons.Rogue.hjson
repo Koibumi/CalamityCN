@@ -1324,7 +1324,12 @@ TwistingThunder: {
 
 UrchinStinger: {
 	DisplayName: 深渊海胆蛰
-	Tooltip: 潜伏攻击会黏住敌人并释放毒气泡
+	Tooltip:
+		'''
+		扎进敌怪体内并向它们注射致命毒药
+		潜伏攻击延长在敌怪体内的持续时间
+		当敌怪体内有7根毒刺，且有潜伏攻击卡在体内时将产生辐射冲击
+		'''
 }
 
 UtensilPoker: {

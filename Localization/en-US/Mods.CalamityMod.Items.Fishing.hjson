@@ -65,7 +65,7 @@ Bloodfin: {
 
 Brimlish: {
 	DisplayName: Brimlish
-	QuestDescription: When you defeated the Brimstone Elemental, her children fell in the lava as a result of the aftermath. Rumors say they mutated a fish, and I'd love if you fetched one for my new lava-filled fish tank.
+	QuestDescription: Did you really defeat that big fire lady? Well, I heard that her children fled into the lava, and one of them mutated into a fish! I'm not burning my hands though, so you catch it and bring it to me for my lava-filled tank!
 }
 
 BrimstoneCrate: {
@@ -124,7 +124,7 @@ SlagCrate: {
 
 Slurpfish: {
 	DisplayName: Slurpfish
-	QuestDescription: Y'know, it'd be an absolute calamity if I sent you to the ancient ruins in the depths of hell to catch a fish. And I plan to do just that. Now scram! The fish isn't going to catch itself.
+	QuestDescription: Hey {0}, wouldn't it be absolutely calamitous if I sent you to those ruins in the depths of hell? Well, I heard of a scary fish that can slurp the souls out of people! I want to keep my soul, so scram! The fish isn't going to catch itself!
 }
 
 // Sunken Sea Catches
@@ -135,7 +135,7 @@ EutrophicCrate: {
 
 EutrophicSandfish: {
 	DisplayName: Eutrophic Sandfish
-	QuestDescription: You ever get to see what would happen if a lizard that lived in the desert scurried too deep underground? I did, and they sure are cool! But it's way too slippery for me to get my hands on it now. You go and get it so I can keep it as a pet!
+	QuestDescription: You ever wondered what would happen if a lizard that lived in the desert wandered too deep into those old Ilmeran areas? Well I know, and it looks super cool! But it's way too slippery for me to get my hands on, so you go and get it so I can keep it as a pet!
 }
 
 GreenwaveLoach: {
@@ -169,7 +169,7 @@ SerpentsBite: {
 
 Serpentuna: {
 	DisplayName: Serpentuna
-	QuestDescription: Sea serpents are pretty but not as pretty as the look on someone's face when they find one in their chair. I need you to fetch me the props for my next big scare, and the deadline is tomorrow.
+	QuestDescription: I'm tired of always losing my allowance to those serpents in the Ilmeran water! I wanna fish up all the baby serpents, and I need YOUR help to do it! ...What? No, I'm not trying to steal money from others...
 }
 
 SparklingEmpress: {
@@ -209,7 +209,7 @@ SunkenSailfish: {
 
 SurfClam: {
 	DisplayName: Surf Clam
-	QuestDescription: Did you know that clams are a delicacy? Rumor has it that a big colony lives beneath the Desert. Just talking about them makes me hungry. I need you to fetch one for me, so I can practice my culinary skills and curb my hunger.
+	QuestDescription: Rumor has it that a massive swarm of clams has taken over that sea under the desert! Clams are a delicacy, so just hearing that makes me hungry! Will you help me curb my hunger? Of course you will! Just make sure my clam and you make it back in one piece!
 }
 
 // Other Catches
