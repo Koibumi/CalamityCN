@@ -407,7 +407,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.FairyBoots)
                 {
                     tooltips.ReplaceText("Fairies can spawn at any time on the surface and spawn far more frequently", "大幅度提升仙灵的生成概率，在白天地表也能自然生成");
-                    tooltips.ReplaceText("Nearby fairies grant +2 HP/s life regen, 10 defense and  10% movement speed", "附近仙灵会提供+2HP/s生命再生，10点防御与10%移动速度");
+                    tooltips.ReplaceText("Nearby fairies grant +2 HP/s life regen, 10 defense and 10% movement speed", "附近仙灵会提供+2HP/s生命再生，10点防御与10%移动速度");
                     tooltips.ReplaceText("Fairies are immune to damage and will no longer flee", "仙灵免疫敌怪的伤害并能跟随你");
                 }
 
@@ -632,7 +632,7 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.LeadHelmet || item.type == 691 || item.type == 692)
                 {
-                    tooltips.ReplaceText("Increases damage reduction by 3%", "伤害减免增加3%");
+                    tooltips.ReplaceText("Increases damage reduction by 2%", "伤害减免增加2%");
                 }
                 if (item.type == ItemID.TungstenHelmet || item.type == 694 || item.type == 695)
                 {
