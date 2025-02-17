@@ -105,7 +105,7 @@ PhotosynthesisPotion: {
 	Tooltip:
 		'''
 		Grants +0.5 HP/s life regen and accelerates natural life regen while not moving
-		This natural life regen effect is five times as strong during daytime
+		      This natural life regen effect is five times as strong during daytime
 		Dropped hearts heal more HP
 		'''
 }

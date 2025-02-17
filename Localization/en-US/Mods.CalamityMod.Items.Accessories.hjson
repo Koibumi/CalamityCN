@@ -104,7 +104,7 @@ AlchemicalFlask: {
 		'''
 		All attacks inflict the Plague and reduces damage taken from the Plague
 		Projectiles spawn plague seekers on enemy hits
-		Releases plague bees when damaged and douses you in honey
+		Releases plague bees when damaged and douses you in honey 
 		'''
 }
 
