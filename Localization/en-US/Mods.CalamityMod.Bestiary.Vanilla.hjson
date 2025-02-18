@@ -19,7 +19,7 @@ NPCName: {
 	GreekSkeleton: Marble caves were used as arenas during the Deific Era. Fighters looking for glory flocked to them, but now only their bodies populate the area.
 	UndeadViking: After the Crusade left the continent in shambles, many factions attempted to conquer it. These vikings were one such group, but the icy winds of the tundra made short work of them.
 	IcyMerman: Mermen rarely stray far from the ocean, favoring the vast waters where their revered Elemental now lives in. Those that do can become lost, wander into cold caverns, and become icy undead fish men.
-	IceElemental: Unclaimed fragments of the Water Elemental, Anahita, scattered across the world. Their frosty shards freeze all.
+	IceElemental: After splitting, the fragments of an Elemental may become stranded and inaccessible. Ice Elementals were once part of Anahita, left behind during her journey to the Ocean. Their frosty shards freeze all.
 	DesertBeast: Minor draconic offshoots who thrive in arid climates, the Basilisk's hardened bodies make them formidable threats.
 	DuneSplicerHead: The largest worm native to the Desert. Even strengthened by divine magicks, they fall short of the Scourge, and run amok in a hunger-induced frenzy.
 	SandElemental: The most powerful manifestation of the fragmented Earth Elemental, taking many forms through the properties of different materials. With this feminine form, her tornadoes tear all asunder.
@@ -99,10 +99,10 @@ CommonEntries: {
 	DemonEye: That suspicious feeling of being watched may very well come true in the dark of night, when the Eye of Cthulhu's minions roam the skies.
 	SandShark: Sand Sharks lived in the shallow waters of Ilmeris, hiding beneath the sand. They were thankfully well equipped to deal with the fallout of the Incineration.
 	AngryBones: Cursed with undeath, the former prisoners of the Dungeon roam endlessly through its halls, seeking a victim for their unending fury.
-	BlueArmoredBones: Mercenaries hired by Yharim to guard the Dungeon, the Marching Bones were disciplined and relentless, sundering any escapees that decided to rise against their jailors.
+	BlueArmoredBones: Mercenaries hired by Yharim to guard the Dungeon, the Marching Blues were disciplined and relentless, sundering any escapees that decided to rise against their jailors.
 	HellArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Azafure, the fiery glow of the Molten Legion is unmistakable. If anyone ever tried to hide, their red-hot armaments would melt the hideout immediately.
 	RustyArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Underground factions, the Rusted Company's weapons are jagged and rough through use and neglect. The brutality they employed on the field was enough to make many prisoners give up on freedom.
-	Diabolist: Mages of Azafure who bear the Diabolic Sigil, wielding flames as intense as any in the underworld. They were effective at blocking passageways and at making prisoners talk.
-	Necromancer: These sorcerers were trained in Azafure and bore the Necromantic Sign. Much like they terrorized prisoners with the bodies of their friends, so do they terrorize the Dungeon now.
+	Diabolist: Mages of Azafure who bear the Diabolic Sigil, a certificate of their prowess, wielding flames as intense as any in the underworld. They were effective at blocking passageways and at making prisoners talk.
+	Necromancer: These sorcerers were trained in Azafure and bore the Necromantic Sign, a certificate of their prowess. Much like they terrorized prisoners with the bodies of their friends, so do they terrorize the Dungeon now.
 	RaggedCaster: Casters directly from the Dragon Cult, their cursed magic leaves their victims helplessly lost in utter darkness. They perished attempting to contain the onslaught that happened beneath their halls.
 }

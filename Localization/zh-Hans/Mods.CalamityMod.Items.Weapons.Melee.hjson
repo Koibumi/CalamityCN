@@ -190,7 +190,17 @@ Basher: {
 
 BladecrestOathsword: {
 	DisplayName: 剑锋之誓约
-	Tooltip: 发射一连串飞行速度会迅速降低的爆炸性恶魔之刃
+	Tooltip:
+		'''
+		投掷一把利刃，能插在敌怪身上并减速它们
+		至多3把利刃能够插在同一个敌怪身上
+		前3把之后的命中将弹出之前插的利刃
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/df0049:A ritual blade used by Demons for sacrifices.]
+		[c/df0049:The more blood taints the edge, the sharper it becomes.]
+		'''
 }
 
 BlightedCleaver: {
@@ -278,11 +288,6 @@ Carnage: {
 	Tooltip: 敌人死亡时释放追踪血球
 }
 
-CatastropheClaymore: {
-	DisplayName: 灾难巨剑
-	Tooltip: 发射会造成冻伤、狱炎或灵液减益的火花
-}
-
 CelestialClaymore: {
 	DisplayName: 星宙阔剑
 	Tooltip: 在光标附近生成会爆炸的宇宙能量之星，可以施加多种减益
@@ -366,18 +371,24 @@ DepthCrusher: {
 		'''
 }
 
-Devastation: {
-	DisplayName: 破坏重剑
-	Tooltip: 发射宇宙爆炸
-}
-
 DevilsDevastation: {
 	DisplayName: 破灭魔王剑
 	Tooltip:
 		'''
-		发射数个恶魔镰刀
-		召唤火叉从地狱中升起，穿透你的敌人
-		暴击时造成暗影焰爆炸
+		投掷一把恶魔之刃，能插在敌怪身上，焚烧并减速它们
+		至多5把利刃能够插在同一个敌怪身上，之后的命中将弹出之前插的利刃
+		<right>进入杀戮姿态，此模式下你能<left>释放巨大的破灭斩击
+		杀戮姿态给予你生命再生和飞行时间恢复效果，并降低你的冲刺冷却
+		使用破灭斩击后需要重新充能
+		使用破灭斩击击中被刺穿的敌怪将弹出所有利刃，并允许你再进行一次斩击
+		破灭斩切在击中的最后一个敌人身上留下死灭印记
+		当你退出杀戮姿态时，死灭印记将爆炸，并造成巨大伤害
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/d13ca2:The perfect blade of the Underworld, wielding the power of Brimstone directly.]
+		[c/d13ca2:Humans understand this force as Havoc, the inevitable sundering of all order in fire.]
+		[c/d13ca2:Perhaps this is why the Brimstone Elemental had strength unrivaled by her sisters.]	
 		'''
 }
 
@@ -487,7 +498,22 @@ EvilSmasher: {
 
 ExaltedOathblade: {
 	DisplayName: 崇高誓约之剑
-	Tooltip: 发射三个向外飞出的恶魔镰刀，暴击时造成暗影焰爆炸
+	Tooltip:
+		'''
+		投掷一把扭曲之刃，能插在敌怪身上，焚烧并减速它们
+		至多4把利刃能够插在同一个敌怪身上，之后的命中将弹出之前插的利刃
+		<right>进入杀戮姿态，此模式下你能<left>释放破灭斩击
+		杀戮姿态给予你生命再生和飞行时间恢复效果，并降低你的冲刺冷却
+		使用破灭斩击后需要重新充能
+		使用破灭斩击击中被刺穿的敌怪将弹出所有利刃，并允许你再进行一次斩击
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:A sword fashioned from the legend of the Last Demon Lord.]
+		[c/b63cd1:Crowned through his overwhelming might, his sword bathed in the blood of Demons and the fires of hell.]
+		[c/b63cd1:Even long after his passing, none have dared to take the seat.]
+		[c/b63cd1:Demonkind has not known unity since.]
+		'''
 }
 
 Excelsus: {
@@ -546,7 +572,20 @@ Floodtide: {
 
 ForbiddenOathblade: {
 	DisplayName: 誓约与禁忌之刃
-	Tooltip: 发射一只恶魔镰刀，暴击时造成暗影焰爆炸
+	Tooltip:
+		'''
+		投掷一把利刃，能插在敌怪身上，焚烧并减速它们
+		至多3把利刃能够插在同一个敌怪身上，之后的命中将弹出之前插的利刃
+		<right>进入杀戮姿态，此模式下你能<left>释放强力斩击
+		使用强力斩击后需要重新充能
+		使用强力斩击击中被刺穿的敌怪将弹出所有利刃，并允许你再进行一次斩击
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:A blade forged in the likeness of that granted to the Demon Lord.]
+		[c/b63cd1:The title was coveted by all demonkind. Only one may exist at a time.]
+		[c/b63cd1:Any claimant who seeks the throne has a simple goal: the head of the former Lord.]
+		'''
 }
 
 ForsakenSaber: {
@@ -890,11 +929,11 @@ Oblivion: {
 
 OldLordClaymore: {
 	DisplayName: 旧神阔剑
-	Tooltip:
+	Tooltip: 一把缓慢但强大的剑，能点燃敌人并具有强大的击退
+	HoldShiftTooltip:
 		'''
-		长按右键以快速将能量吸收进刀刃中，直至充能完毕
-		充能时点击左键可向光标位置飞去
-		使用猛冲会将充能重置为零
+		[c/df4420:A gift to outstanding Demons, a replica of the sword used by the greatest of all Demon Lords.]
+		[c/df4420:The prosperity he brought to their kind is unmatched even now that they alone rule the Undeworld.]
 		'''
 }
 

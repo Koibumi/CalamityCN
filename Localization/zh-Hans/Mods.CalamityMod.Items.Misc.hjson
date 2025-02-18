@@ -400,6 +400,21 @@ RelicOfConvergence: {
 		'''
 }
 
+RelicOfResilience: {
+	DisplayName: 塑魂圣物
+	Tooltip:
+		'''
+		手持这件物品会使亵渎碎岩环绕你和附近队友旋转
+		亵渎碎岩环绕你时，你的最低防御被设置为150，最低伤害减免被设置为10%
+		受击或按下<right>吸收碎岩，随即向外炸开，削弱命中的敌人
+		此效果在受击后有10秒的冷却时间
+		举起护盾且亵渎碎岩处于激活状态时，大幅降低所有召唤物的伤害，仅对手持这件物品的玩家生效
+		[c/FF8C00:I saw a massacre and did nothing to stop it. My vow broken, I was shunned.]
+		[c/FF8C00:My will to forge ahead vanished. My final wish was simply to not die alone.]
+		[c/FF8C00:But when She put faith in my shield, I would never again let it falter.]
+		'''
+}
+
 Rock: {
 	DisplayName: 古恒石
 	Tooltip:
@@ -428,20 +443,5 @@ SuperDummy: {
 		每秒恢复百万生命值
 		受到造成持续伤害的减益时也不会死亡
 		右键点击灭杀所有大草人
-		'''
-}
-
-RelicOfResilience: {
-	DisplayName: 塑魂圣物
-	Tooltip:
-		'''
-		手持这件物品会使亵渎碎岩环绕你和附近队友旋转
-		亵渎碎岩环绕你时，你的最低防御被设置为150，最低伤害减免被设置为10%
-		受击或按下<right>吸收碎岩，随即向外炸开，削弱命中的敌人
-		此效果在受击后有10秒的冷却时间
-		举起护盾且亵渎碎岩处于激活状态时，大幅降低所有召唤物的伤害，仅对手持这件物品的玩家生效
-		[c/FF8C00:I saw a massacre and did nothing to stop it. My vow broken, I was shunned.]
-		[c/FF8C00:My will to forge ahead vanished. My final wish was simply to not die alone.]
-		[c/FF8C00:But when She put faith in my shield, I would never again let it falter.]
 		'''
 }

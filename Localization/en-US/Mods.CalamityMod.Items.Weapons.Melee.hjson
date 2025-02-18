@@ -190,7 +190,17 @@ Basher: {
 
 BladecrestOathsword: {
 	DisplayName: Bladecrest Oathsword
-	Tooltip: Fires bursts of demonic blades that exponentially decelerate and explode
+	Tooltip:
+		'''
+		Throw a sharp blade that impales and slows enemies
+		Up to three blades can impale an enemy at a time
+		Consecutive hits past the first three will launch out the previous impaled blades
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/df0049:A ritual blade used by Demons for sacrifices.]
+		[c/df0049:The more blood taints the edge, the sharper it becomes.]
+		'''
 }
 
 BlightedCleaver: {
@@ -278,11 +288,6 @@ Carnage: {
 	Tooltip: Enemies explode into homing blood on death
 }
 
-CatastropheClaymore: {
-	DisplayName: Catastrophe Claymore
-	Tooltip: Fires sparkles which inflict Frostbite, Hellfire, or Ichor
-}
-
 CelestialClaymore: {
 	DisplayName: Celestial Claymore
 	Tooltip: Spawns cosmic energy stars near the cursor that inflict several debuffs
@@ -366,18 +371,24 @@ DepthCrusher: {
 		'''
 }
 
-Devastation: {
-	DisplayName: Devastation
-	Tooltip: Fires galaxy blasts that explode
-}
-
 DevilsDevastation: {
 	DisplayName: Devil's Devastation
 	Tooltip:
 		'''
-		Fires a spread of demonic scythes
-		Pitchforks rise from the underworld to skewer your foes
-		Critical hits cause shadowflame explosions
+		Throw a demonic blade that impales, immolates, and slows enemies
+		Up to five blades can impale an enemy at a time, with further hits launching the previous impaled blades
+		Press <right> to enter a stance where you can use <left> to perform a colossal, devastating slash
+		While in the stance, you gain life and flight time regeneration and your dashes have a shorter cooldown
+		The devastating slash must recharge after being used
+		Striking an impaled enemy with the devastating slash launches all blades and readies another slash
+		The final enemy hit with a devastating slash has a death mark applied to them
+		When you exit the stance, the death mark explodes for massive damage
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/d13ca2:The perfect blade of the Underworld, wielding the power of Brimstone directly.]
+		[c/d13ca2:Humans understand this force as Havoc, the inevitable sundering of all order in fire.]
+		[c/d13ca2:Perhaps this is why the Brimstone Elemental had strength unrivaled by her sisters.]	
 		'''
 }
 
@@ -487,7 +498,22 @@ EvilSmasher: {
 
 ExaltedOathblade: {
 	DisplayName: Exalted Oathblade
-	Tooltip: Fires a spread of demonic scythes and critical hits cause shadowflame explosions
+	Tooltip:
+		'''
+		Throw a twisted blade that impales, immolates, and slows enemies
+		Up to four blades can impale an enemy at a time, with further hits launching the previous impaled blades
+		Press <right> to enter a stance where you can use <left> to perform a devastating slash
+		While in the stance, you gain life and flight time regeneration and your dashes have a shorter cooldown
+		The devastating slash must recharge after being used
+		Striking an impaled enemy with the devastating slash launches all blades and readies another slash
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:A sword fashioned from the legend of the Last Demon Lord.]
+		[c/b63cd1:Crowned through his overwhelming might, his sword bathed in the blood of Demons and the fires of hell.]
+		[c/b63cd1:Even long after his passing, none have dared to take the seat.]
+		[c/b63cd1:Demonkind has not known unity since.]
+		'''
 }
 
 Excelsus: {
@@ -546,7 +572,20 @@ Floodtide: {
 
 ForbiddenOathblade: {
 	DisplayName: Forbidden Oathblade
-	Tooltip: Fires a demonic scythe and critical hits cause shadowflame explosions
+	Tooltip:
+		'''
+		Throw a sharp blade that impales, burns, and slows enemies
+		Up to three blades can impale an enemy at a time, with further hits launching the previous impaled blades
+		Press <right> to enter a stance where you can use <left> to perform a powerful slash
+		The powerful slash must recharge after being used
+		Striking an impaled enemy with the powerful slash launches all blades and readies another slash
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:A blade forged in the likeness of that granted to the Demon Lord.]
+		[c/b63cd1:The title was coveted by all demonkind. Only one may exist at a time.]
+		[c/b63cd1:Any claimant who seeks the throne has a simple goal: the head of the former Lord.]
+		'''
 }
 
 ForsakenSaber: {
@@ -890,11 +929,11 @@ Oblivion: {
 
 OldLordClaymore: {
 	DisplayName: Old Lord Claymore
-	Tooltip:
+	Tooltip: A slow but powerful blade that sets enemies ablaze and has substantial knockback
+	HoldShiftTooltip:
 		'''
-		Holding <right> rapidly absorbs energy into the blade until it is charged
-		Press <left> while charged to fly in the direction of the cursor
-		Using the lunge resets the blade's charge to zero
+		[c/df4420:A gift to outstanding Demons, a replica of the sword used by the greatest of all Demon Lords.]
+		[c/df4420:The prosperity he brought to their kind is unmatched even now that they alone rule the Undeworld.]
 		'''
 }
 

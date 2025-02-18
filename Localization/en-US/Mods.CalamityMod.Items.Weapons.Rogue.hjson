@@ -299,13 +299,12 @@ DoomsdayDevice: {
 	DisplayName: Doomsday Device
 	Tooltip:
 		'''
-		A high-tech Martian explosive with devastating explosive power
-		...Unfortunately you can't figure out how to arm it
-		At least you can throw it really hard!
-		Direct hits from the weapon build stealth
-		Stealth is not consumed if it is thrown while fully charged
-		Holding the charge beyond its limit rapidly drains your stealth
-		Stealth strikes ricochet between multiple enemies, ending in a strong impact when none are left
+		Direct hits from the weapon grants stealth
+		Non-stealth strikes do not consume stealth when fully charged
+		Holding a stealth strike charge beyond its limit rapidly drains stealth
+		Stealth strikes ricochet between multiple enemies, ending in a strong impact
+		'A high-tech explosive with devastating power... If only you could figure out how to arm it'
+		'At least you can throw it really hard!'
 		'''
 }
 

@@ -1002,7 +1002,7 @@ Laudanum: {
 	Tooltip:
 		'''
 		Converts certain debuffs into buffs and extends their durations
-		This also removes debuff immunities if you have them
+		This also removes immunities to these debuffs if you have them
 		'''
 	HoldShiftTooltip:
 		'''
@@ -1161,13 +1161,14 @@ OccultSkullCrown: {
 		'''
 		You constantly gain rage over time, and rage does not fade when out of combat
 		Converts certain debuffs into buffs and extends their durations
+		This also removes immunities to these debuffs if you have them
 		Adrenaline charges 20% faster
 		Increases your max movement speed and acceleration by 5%
 		'''
 	HoldShiftTooltip:
 		'''
-		  Debuffs affected: Darkness, Blackout, Confused, Slow, Weak,
-		  Broken Armor, Armor Crunch, Chilled, Ichor and Obstructed
+		  Debuffs affected: Armor Crunch, Blackout, Bleeding, Broken Armor, Chilled, Confused,
+		  Cursed, Darkness, Distorted, Ichor, Silenced, Slow, Weak, and Whispering Death
 		'''
 	FlavorTooltip: "'Only a fool would ever wear this...'"
 }

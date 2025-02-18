@@ -1165,13 +1165,14 @@ OccultSkullCrown: {
 		'''
 		你的怒气值会持续充能，即便是脱离战斗后怒气值也不会流失
 		将某些减益转化为正面增益并延长其持续时间
+		如果你对这些减益免疫，还会移除这些免疫效果
 		增加20%肾上腺素充能效率
 		增加5%最大移动速度和加速度
 		'''
 	HoldShiftTooltip:
 		'''
-		  受影响的减益: 黑暗、灯火管制、困惑、缓慢、软弱、
-		  破损盔甲、碎甲、冷冻、灵液和阻塞
+		  受影响的减益：{$Buffs.ArmorCrunch.DisplayName}、{$BuffName.Blackout}、{$BuffName.Bleeding}、{$BuffName.BrokenArmor}、{$BuffName.Chilled}、{$BuffName.Confused}、
+		  {$BuffName.Cursed}、{$BuffName.Darkness}、{$BuffName.VortexDebuff}、{$BuffName.Ichor}、{$BuffName.Silenced}、{$BuffName.Slow}、{$BuffName.Weak}和{$Buffs.WhisperingDeath.DisplayName}
 		'''
 	FlavorTooltip: “只有打不过史莱姆王的人才戴这破烂……”
 }

@@ -33,11 +33,11 @@ BansheeHookScythe.DisplayName: 女妖鬼爪
 BiomeBladeHoldout.DisplayName: 已修复的环境之刃
 BitingEmbrace.DisplayName: 啮咬之拥
 BitingEmbraceMist.DisplayName: 冰雾
+BladecrestOathswordThrownBlade.DisplayName: 誓约之掷刃
 BlazingPhantomBlade.DisplayName: 炽炎幻影刃
 Blood.DisplayName: 屠戮之血
 Blood2.DisplayName: 血
 BloodBall.DisplayName: 血球
-BloodScythe.DisplayName: 鲜血之镰
 BonebreakerFragment1.DisplayName: 碎骨弹片
 BonebreakerProjectile.DisplayName: 碎骨者
 BotanicSpear.DisplayName: 翠芒刺枪
@@ -54,7 +54,6 @@ BrinyTyphoonBubble.DisplayName: 台风泡泡
 BrokenBiomeBladeHoldout.DisplayName: 环境断刃
 BurningHolyBlast.DisplayName: 亵渎爆裂
 BurningMeteor.DisplayName: 焚天陨星
-CatastropheClaymoreSparkle.DisplayName: 灾难火花
 CausticEdgeProjectile.DisplayName: 绝望之刃
 ChainedMeatHook.DisplayName: 附魔肉钩
 ClamCrusherFlail.DisplayName: 碎蛤者
@@ -83,9 +82,9 @@ DeathsAscensionProjectile.DisplayName: 擢升镰刀
 DeathsAscensionRift.DisplayName: 时空裂隙
 DecaysRetort.DisplayName: 腐化之复仇
 DecaysRetortDash.DisplayName: 除脏猛冲
-DemonBlast.DisplayName: 恶魔三叉戟
 DepthCrusherProjectile.DisplayName: 深渊碾碎者
 DepthCrusherSplitProjectile.DisplayName: 深渊碾碎者喷流
+DevilsDevastationThrownBlade.DisplayName: 破灭之掷刃
 DevilsSunriseCyclone.DisplayName: 邪锋黎明
 DNA.DisplayName: 卢克雷西亚剑气
 DracoBeam.DisplayName: 天龙座射线
@@ -108,6 +107,7 @@ EntropicFlechette.DisplayName: 熵弹
 EonBolt.DisplayName: 永恒之雷
 EssenceFlame2.DisplayName: 精元火焰
 EssenceScythe.DisplayName: 精元镰刀
+ExaltedOathbladeThrownBlade.DisplayName: 崇高之掷刃
 ExcelsusBlue.DisplayName: 宙魔之纹
 ExcelsusMain.DisplayName: 宙魔之纹
 ExcelsusPink.DisplayName: 宙魔之纹
@@ -123,16 +123,13 @@ FallenPaladinsHammerProj.DisplayName: 堕落圣骑士之锤
 Feather.DisplayName: 羽毛
 Flarefrost.DisplayName: 霜炎
 FloodtideShark.DisplayName: 潮鲨
-ForbiddenOathbladeProjectile.DisplayName: 誓约与禁忌之弹幕
+ForbiddenOathbladeThrownBlade.DisplayName: 禁忌之掷刃
 GaelExplosion.DisplayName: 盖尔震击
 GaelSkull.DisplayName: 盖尔鲜血头颅
 GaelSkull2.DisplayName: 盖尔鲜血头颅
 GalacticaComet.DisplayName: 星河彗星
 GalaxiaBolt.DisplayName: 星河霍闪
 GalaxiaHoldout.DisplayName: 星河之构
-GalaxyBlast.DisplayName: 银河聚爆
-GalaxyBlastType2.DisplayName: 银河聚爆
-GalaxyBlastType3.DisplayName: 银河聚爆
 GalaxySmasherBlast.DisplayName: 星系爆炸
 GalaxySmasherEcho.DisplayName: 银河溃灭者
 GalaxySmasherHammer.DisplayName: 银河溃灭者
@@ -183,7 +180,6 @@ NebulaShot.DisplayName: 子弹
 NeptuneOrb.DisplayName: 渊海三叉戟
 NeptunesBountyProjectile.DisplayName: 海神之馈赠
 NeptunesBountySplitProjectile.DisplayName: 海神之馈赠喷流
-Oathblade.DisplayName: 禁忌之刃
 OathswordFlame.DisplayName: 禁忌火焰
 Orbacle.DisplayName: 圣金源光球
 OrderbringerBeam.DisplayName: 携序光束

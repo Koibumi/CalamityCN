@@ -300,13 +300,12 @@ DoomsdayDevice: {
 	DisplayName: Doomsday Device
 	Tooltip:
 		'''
-		一个高科技火星炸弹，具有毁灭性的爆炸威力
-		……不幸的是，你不知道该如何引爆它
-		至少你可以用力把它扔出去！
-		使用这把武器直接命中会积攒潜伏值
-		如果在完全充能时投掷，将不会消耗潜伏值
-		超出充能上限后继续充能将会快速耗尽你的潜伏值
+		使用这把武器直接命中会积攒潜行值
+		当完全充能时，非潜伏攻击不会消耗潜行值
+		超出充能上限后继续为潜伏攻击充能将会快速耗尽你的潜行值
 		潜伏攻击会在多个敌人之间弹射，最终爆炸成强力冲击
+		'A high-tech explosive with devastating power... If only you could figure out how to arm it'
+		'At least you can throw it really hard!'
 		'''
 }
 
@@ -752,7 +751,7 @@ MoltenAmputator: {
 		扔出一把在光标处滞留的旋转镰刀
 		<right>召回所有存在的镰刀
 		召回正在攻击敌怪的镰刀将会撕裂敌怪，造成巨额伤害
-		在有足够潜伏值时<right>能够强化自身，在短时间内大幅提升攻击速度
+		在有足够潜行值时<right>能够强化自身，在短时间内大幅提升攻击速度
 		在强化期间，你不能召回扔出去的镰刀
 		'''
 }

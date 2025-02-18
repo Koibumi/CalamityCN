@@ -19,7 +19,7 @@ NPCName: {
 	GreekSkeleton: 大理石洞穴在神攫时代会被用作竞技场。追求荣誉的斗士曾蜂拥而至，但如今满眼所见只有他们的躯壳。
 	UndeadViking: 圣战过后，天下割据，群雄四起。维京人就是其中之一，但他们还是太轻易败给了苔原的寒风。
 	IcyMerman: 人鱼很少会远离海洋，那里有丰沛的海水，而且是他们所崇敬的元素之灵如今的居所。这样做可能会迷路走到寒冷的洞穴里，变成冰冷的不死鱼人。
-	IceElemental: 水元素阿娜希塔失落的碎片四散在世界各处。它们冰冷的碎片能冻结一切。
+	IceElemental: After splitting, the fragments of an Elemental may become stranded and inaccessible. Ice Elementals were once part of Anahita, left behind during her journey to the Ocean. 它们冰冷的碎片能冻结一切。
 	DesertBeast: 作为扎根旱地的巨龙分支，蛇蜥怪坚硬的躯体使其成为强大的威胁。
 	DuneSplicerHead: 沙漠中体型最大的普通蠕虫。即使在神圣魔法的加持下，它们也仍旧弱于灾虫，只会被饥饿裹挟，癫狂奔行。
 	SandElemental: 破碎的大地元素通过利用不同材料的特性所呈现出的最强大的一种形态。作为一种柔媚的形态，她召唤出来的龙卷风能撕毁一切。
@@ -99,10 +99,10 @@ CommonEntries: {
 	DemonEye: That suspicious feeling of being watched may very well come true in the dark of night, when the Eye of Cthulhu's minions roam the skies.
 	SandShark: Sand Sharks lived in the shallow waters of Ilmeris, hiding beneath the sand. They were thankfully well equipped to deal with the fallout of the Incineration.
 	AngryBones: Cursed with undeath, the former prisoners of the Dungeon roam endlessly through its halls, seeking a victim for their unending fury.
-	BlueArmoredBones: Mercenaries hired by Yharim to guard the Dungeon, the Marching Bones were disciplined and relentless, sundering any escapees that decided to rise against their jailors.
+	BlueArmoredBones: Mercenaries hired by Yharim to guard the Dungeon, the Marching Blues were disciplined and relentless, sundering any escapees that decided to rise against their jailors.
 	HellArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Azafure, the fiery glow of the Molten Legion is unmistakable. If anyone ever tried to hide, their red-hot armaments would melt the hideout immediately.
 	RustyArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Underground factions, the Rusted Company's weapons are jagged and rough through use and neglect. The brutality they employed on the field was enough to make many prisoners give up on freedom.
-	Diabolist: Mages of Azafure who bear the Diabolic Sigil, wielding flames as intense as any in the underworld. They were effective at blocking passageways and at making prisoners talk.
-	Necromancer: These sorcerers were trained in Azafure and bore the Necromantic Sign. Much like they terrorized prisoners with the bodies of their friends, so do they terrorize the Dungeon now.
+	Diabolist: Mages of Azafure who bear the Diabolic Sigil, a certificate of their prowess, wielding flames as intense as any in the underworld. They were effective at blocking passageways and at making prisoners talk.
+	Necromancer: These sorcerers were trained in Azafure and bore the Necromantic Sign, a certificate of their prowess. Much like they terrorized prisoners with the bodies of their friends, so do they terrorize the Dungeon now.
 	RaggedCaster: Casters directly from the Dragon Cult, their cursed magic leaves their victims helplessly lost in utter darkness. They perished attempting to contain the onslaught that happened beneath their halls.
 }

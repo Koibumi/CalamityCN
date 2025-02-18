@@ -4043,3 +4043,145 @@ WaterTurret: {
 		有Boss存活时无法攻击
 		'''
 }
+
+// Draedon lab lights
+
+CagedLablightItem: {
+	DisplayName: Caged Lablight
+	Tooltip: ""
+}
+
+AgedLablightItem: {
+	DisplayName: Aged Lablight
+	Tooltip: ""
+}
+
+MiniCagedLablightItem: {
+	DisplayName: Mini Caged Lablight
+	Tooltip: ""
+}
+
+MiniAgedLablightItem: {
+	DisplayName: Mini Aged Lablight
+	Tooltip: ""
+}
+
+CagedCinderlightItem: {
+	DisplayName: Caged Cinderlight
+	Tooltip: ""
+}
+
+AgedCinderlightItem: {
+	DisplayName: Aged Cinderlight
+	Tooltip: ""
+}
+
+MiniCagedCinderlightItem: {
+	DisplayName: Mini Caged Cinderlight
+	Tooltip: ""
+}
+
+MiniAgedCinderlightItem: {
+	DisplayName: Mini Aged Cinderlight
+	Tooltip: ""
+}
+
+CagedFlamelightItem: {
+	DisplayName: Caged Flamelight
+	Tooltip: ""
+}
+
+AgedFlamelightItem: {
+	DisplayName: Aged Flamelight
+	Tooltip: ""
+}
+
+MiniCagedFlamelightItem: {
+	DisplayName: Mini Caged Flamelight
+	Tooltip: ""
+}
+
+MiniAgedFlamelightItem: {
+	DisplayName: Mini Aged Flamelight
+	Tooltip: ""
+}
+
+CagedFrostlightItem: {
+	DisplayName: Caged Frostlight
+	Tooltip: ""
+}
+
+AgedFrostlightItem: {
+	DisplayName: Aged Frostlight
+	Tooltip: ""
+}
+
+MiniCagedFrostlightItem: {
+	DisplayName: Mini Caged Frostlight
+	Tooltip: ""
+}
+
+MiniAgedFrostlightItem: {
+	DisplayName: Mini Aged Frostlight
+	Tooltip: ""
+}
+
+CagedBiolightItem: {
+	DisplayName: Caged Biolight
+	Tooltip: ""
+}
+
+AgedBiolightItem: {
+	DisplayName: Aged Biolight
+	Tooltip: ""
+}
+
+MiniCagedBiolightItem: {
+	DisplayName: Mini Caged Biolight
+	Tooltip: ""
+}
+
+MiniAgedBiolightItem: {
+	DisplayName: Mini Aged Biolight
+	Tooltip: ""
+}
+
+CagedBlacklightItem: {
+	DisplayName: Caged Blacklight
+	Tooltip: ""
+}
+
+AgedBlacklightItem: {
+	DisplayName: Aged Blacklight
+	Tooltip: ""
+}
+
+MiniCagedBlacklightItem: {
+	DisplayName: Mini Caged Blacklight
+	Tooltip: ""
+}
+
+MiniAgedBlacklightItem: {
+	DisplayName: Mini Aged Blacklight
+	Tooltip: ""
+}
+
+CagedFloodlightItem: {
+	DisplayName: Caged Floodlight
+	Tooltip: ""
+}
+
+AgedFloodlightItem: {
+	DisplayName: Aged Floodlight
+	Tooltip: ""
+}
+
+MiniCagedFloodlightItem: {
+	DisplayName: Mini Caged Floodlight
+	Tooltip: ""
+}
+
+MiniAgedFloodlightItem: {
+	DisplayName: Mini Aged Floodlight
+	Tooltip: ""
+}

@@ -151,6 +151,11 @@ BrainRot: {
 	Description: Your neurons are popping like corn kernels
 }
 
+DemonicFlames: {
+	DisplayName: Demonic Flames
+	Description: Immolating flames sear your soul
+}
+
 ElementalMix: {
 	DisplayName: Elemental Mix
 	Description: A beautiful elemental symphony is flaying you alive

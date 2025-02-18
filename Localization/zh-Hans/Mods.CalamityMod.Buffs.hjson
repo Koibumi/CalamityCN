@@ -148,7 +148,12 @@ BurningBlood: {
 
 BrainRot: {
 	DisplayName: 大脑溃烂
-	Description: 你的神经元像玉米粒一样爆裂。
+	Description: 你的神经元像玉米粒一样爆裂
+}
+
+DemonicFlames: {
+	DisplayName: Demonic Flames
+	Description: Immolating flames sear your soul
 }
 
 ElementalMix: {
