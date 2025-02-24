@@ -160,6 +160,17 @@ EyeofDesolation: {
 	GFBInfo: Creates a square arena of blocks, with you at its center
 }
 
+NaiadsWarhorn: {
+	DisplayName: Naiad's Warhorn
+	Tooltip:
+		'''
+		Summons Anahita when used in the Ocean
+		Enrages outside the Ocean
+		{$Common.NotConsumable}
+		'An instrument used by mermen to call upon Anahita. Its melody is oddly alluring.'
+		'''
+}
+
 MarkofProvidence: {
 	DisplayName: Mark of Providence
 	Tooltip:

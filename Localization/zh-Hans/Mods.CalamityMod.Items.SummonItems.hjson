@@ -160,6 +160,17 @@ EyeofDesolation: {
 	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
 
+NaiadsWarhorn: {
+	DisplayName: Naiad's Warhorn
+	Tooltip:
+		'''
+		在海洋使用以召唤阿娜希塔
+		在海洋以外狂暴
+		{$Common.NotConsumable}
+		'An instrument used by mermen to call upon Anahita. Its melody is oddly alluring.'
+		'''
+}
+
 MarkofProvidence: {
 	DisplayName: Mark of Providence
 	Tooltip:

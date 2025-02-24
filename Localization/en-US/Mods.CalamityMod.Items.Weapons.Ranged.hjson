@@ -413,16 +413,6 @@ DeepcoreGK2: {
 		'''
 }
 
-Disseminator: {
-	DisplayName: Disseminator
-	Tooltip:
-		'''
-		Fires a tight spread of bullets that call a great number of bullets from the sky
-		50% chance to save ammo
-		[c/768EE6:@everyone]
-		'''
-}
-
 DodusHandcannon: {
 	DisplayName: Dodu's Handcannon
 	Tooltip:

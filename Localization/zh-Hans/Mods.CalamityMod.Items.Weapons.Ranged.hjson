@@ -413,16 +413,6 @@ DeepcoreGK2: {
 		'''
 }
 
-Disseminator: {
-	DisplayName: 散播者
-	Tooltip:
-		'''
-		发射密集的子弹，同时从空中召唤大量子弹
-		50%几率节省弹药
-		[c/768EE6:@全体成员]
-		'''
-}
-
 DodusHandcannon: {
 	DisplayName: Dodu的手炮
 	Tooltip:

@@ -218,6 +218,10 @@ CrushsawCrasher: {
 	GFBFirstWord10: Coleslaw
 	GFBFirstWord11: Cashew
 	GFBFirstWord12: Cawcaw
+	GFBFirstWord13: Crabshaw
+	GFBFirstWord14: Castle
+	GFBFirstWord15: Catshaw
+	GFBFirstWord16: Catspaw
 	GFBLastWord1: Crasher
 	GFBLastWord2: Crusher
 	GFBLastWord3: Clasher
@@ -228,6 +232,9 @@ CrushsawCrasher: {
 	GFBLastWord8: Rasher
 	GFBLastWord9: Cracker
 	GFBLastWord10: Cackler
+	GFBLastWord11: Checker
+	GFBLastWord12: Clicker
+	GFBLastWord13: Catsher
 }
 
 Crystalline: {

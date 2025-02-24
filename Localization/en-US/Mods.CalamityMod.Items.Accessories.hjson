@@ -1517,7 +1517,7 @@ ShatteredCommunity: {
 		'''
 	RageAdd:
 		'''
-		Adds the Rage meter, which generates over time
+		Adds the Rage meter, which fills over time
 		Rage generates faster when in proximity of enemies
 		When Rage is maxed, press {0} for a temporary damage boost
 		'''
