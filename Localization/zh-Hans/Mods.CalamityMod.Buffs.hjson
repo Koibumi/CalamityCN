@@ -1607,8 +1607,3 @@ PopoNoselessBuff: {
 	DisplayName: 没鼻子的雪宝
 	Description: 你的鼻子被别人偷走了！
 }
-
-HadopelagicPressure: {
-	// DisplayName: Hadopelagic Pressure
-	// Description: Rapidly sinking to a watery grave
-}
