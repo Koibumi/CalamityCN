@@ -206,35 +206,44 @@ CrushsawCrasher: {
 		投掷可以弹跳的硫火飞爪
 		潜伏攻击可以一次投掷五个
 		'''
-	GFBFirstWord1: Crushsaw
-	GFBFirstWord2: Crashsaw
-	GFBFirstWord3: Crushclaw
-	GFBFirstWord4: Crashclaw
-	GFBFirstWord5: Crushcaw
-	GFBFirstWord6: Crushaw
-	GFBFirstWord7: Crushmaw
-	GFBFirstWord8: Crashmaw
-	GFBFirstWord9: Crawshaw
-	GFBFirstWord10: Coleslaw
-	GFBFirstWord11: Cashew
-	GFBFirstWord12: Cawcaw
-	GFBFirstWord13: Crabshaw
-	GFBFirstWord14: Castle
-	GFBFirstWord15: Catshaw
-	GFBFirstWord16: Catspaw
-	GFBLastWord1: Crasher
-	GFBLastWord2: Crusher
-	GFBLastWord3: Clasher
-	GFBLastWord4: Casher
-	GFBLastWord5: Clacker
-	GFBLastWord6: Catcher
-	GFBLastWord7: Trasher
-	GFBLastWord8: Rasher
-	GFBLastWord9: Cracker
-	GFBLastWord10: Cackler
-	GFBLastWord11: Checker
-	GFBLastWord12: Clicker
-	GFBLastWord13: Catsher
+	// 致接手这一部分的人：
+	// 这些词可以是任意多个，不需要全部翻译出来
+	GFBFirstWords:
+		'''
+		Crushsaw
+		Crashsaw
+		Crushclaw
+		Crashclaw
+		Crushcaw
+		Crushaw
+		Crushmaw
+		Crashmaw
+		Crawshaw
+		Coleslaw
+		Cashew
+		Cawcaw
+		Crabshaw
+		Castle
+		Catshaw
+		Catspaw
+		'''
+	GFBLastWords:
+		'''
+		Crasher
+		Crusher
+		Clasher
+		Casher
+		Clacker
+		Catcher
+		Trasher
+		Rasher
+		Cracker
+		Cackler
+		Checker
+		Clicker
+		Catsher
+		'''
+	GFBWordSeparator: ""
 }
 
 Crystalline: {
@@ -1379,11 +1388,10 @@ Whitewater: {
 	DisplayName: Whitewater
 	Tooltip:
 		'''
-		掷出一个追踪光标的魔法白水烧瓶
-		1秒后烧瓶会发出亮光
-		发出亮光时击中敌怪的烧瓶会短暂爆炸成可以折返的水矛
-		爆炸后或被掷出一段时间后，烧瓶会返回到你身边
-		潜伏攻击会产生更多的水矛并产生一个白水漩涡，治疗接触的玩家并击退敌怪
+		掷出一个魔法白水烧瓶，短暂延迟后开始发光
+		发出亮光时击中敌怪的烧瓶会产生四发水矛，水矛会折返回烧瓶位置
+		命中敌怪或被掷出太远后，烧瓶会返回到你身边
+		潜伏攻击会产生八发水矛并产生一个白水漩涡，治疗接触的玩家并击退敌怪
 		'''
 }
 

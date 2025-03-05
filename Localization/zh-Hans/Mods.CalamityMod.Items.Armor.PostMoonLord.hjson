@@ -369,7 +369,7 @@ OmegaBlueChestplate: {
 	Tooltip:
 		'''
 		增加12%伤害和8%暴击率
-		你的攻击会造成深渊水压减益
+		你的攻击会造成Hadopelagic Pressure减益
 		生命再生归零
 		'''
 }

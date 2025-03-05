@@ -120,6 +120,8 @@ WulfrumDroneBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 WulfrumGyratorBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 WulfrumHovercraftBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 WulfrumRoverBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+ProbesnoutBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+SharkoonBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 
 AstralPylon: {
 	DisplayName: 星辉地晶塔

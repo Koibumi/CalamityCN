@@ -73,7 +73,7 @@ AddedTooltip: {
 	TungstenHelmet: 伤害增加7%
 	TungstenChainmail: +0.5HP/s生命再生
 	TungstenGreaves: 移动速度增加8%
-	GoldHelmet: 伤害增加6%
+	GoldHelmet: 伤害增加5%
 	GoldChainmail: 伤害减免增加5%
 	GoldGreaves: 移动速度增加10%
 	PlatinumHelmet: 伤害增加6%
@@ -230,25 +230,28 @@ EditedTooltip: {
 	/*
 	OOA sets
 	*/
-	SquireGreatHelm: 增加1最大哨兵栏并提供+2HP/s生命再生
-	SquirePlating: 增加10%召唤伤害和15%近战伤害
+	SquireGreatHelm: 增加1最大哨兵栏并提供+0.5HP/s生命再生
+	SquirePlating: 增加5%召唤伤害和15%近战伤害
 	SquireGreaves:
 		'''
 		增加5%召唤伤害和近战暴击率
 		移动速度增加15%
 		'''
 	MonkBrows: 增加1最大哨兵栏和10%近战攻速
-	MonkShirt: 增加10%召唤和近战伤害
+	MonkShirt: 增加5%召唤和近战伤害
 	MonkPants1: 增加5%召唤伤害和近战暴击率
 	MonkPants2: 移动速度增加20%
 	// Valhalla Knight
-	SquireAltShirt: 增加30%召唤伤害并提供+4HP/s生命再生
+	SquireAltShirt: 增加30%召唤伤害并提供+1HP/s生命再生
 	SquireAltPants: 增加10%召唤伤害和近战暴击率
 	HuntressJerkin:
 		'''
-		增加10%召唤和远程伤害
+		增加10%召唤，5%远程伤害和暴击率
 		10%几率不消耗弹药
 		'''
+	HuntressPants: 增加5%召唤伤害和20%移动速度
+	ApprenticeHat: 增加1最大哨兵栏和5%魔法伤害，降低10%魔力消耗
+	ApprenticeRobe: 增加10%召唤和魔法伤害
 	ApprenticeTrousers:
 		'''
 		增加5%召唤伤害和魔法暴击率

@@ -458,7 +458,7 @@ EarthenPike: {
 
 EmpyreanKnives: {
 	DisplayName: 苍穹飞刀
-	Tooltip: 投出一簇能够弹射并治疗玩家的飞刀
+	Tooltip: 投出一簇追踪飞刀，能够在物块上弹射并治疗玩家
 }
 
 EntropicClaymore: {
@@ -776,7 +776,7 @@ HolyCollider: {
 
 IllustriousKnives: {
 	DisplayName: 圣光飞刀
-	Tooltip: 投出数扇圣光飞刀，追踪敌人并治疗玩家
+	Tooltip: 投出数扇快速移动的圣光飞刀，追踪敌人并治疗玩家
 }
 
 InsidiousImpaler: {
@@ -870,7 +870,7 @@ MonolithSword: {
 
 MonstrousKnives: {
 	DisplayName: 畸变飞刀
-	Tooltip: 扔出一阵可以吸血的飞刀
+	Tooltip: 扔出一阵短射程飞刀，有几率治疗玩家
 }
 
 Mourningstar: {
@@ -899,7 +899,6 @@ Nadir: {
 	Tooltip:
 		'''
 		发射虚空精华，伸出触手掠夺敌人的血肉
-		无视无敌帧
 		“深渊凝视你良久，如今它将声震人间，不再低语似缄”
 		'''
 }

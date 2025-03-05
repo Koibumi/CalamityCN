@@ -1008,6 +1008,11 @@ GlacialState: {
 	Description: Cannot move
 }
 
+HadopelagicPressure: {
+	DisplayName: Hadopelagic Pressure
+	Description: Rapidly sinking to a watery grave
+}
+
 IcarusFolly: {
 	DisplayName: Icarus' Folly
 	Description:

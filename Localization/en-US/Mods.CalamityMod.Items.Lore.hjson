@@ -232,7 +232,7 @@ LoreCrimson: {
 	DisplayName: The Crimson
 	Lore:
 		'''
-		The foul air, the morbid fauna, the disgusting terrain… Here lies my first mistake of my crusade.
+		The foul air, the morbid fauna, the disgusting terrain… Here lies the first mistake of my crusade.
 		The essence of a God does not simply vanish when the body dies. It must be properly disposed of or destroyed entirely.
 		Essence of a pious God could never fester into a mire as dreadful as this.
 		'''
@@ -320,8 +320,8 @@ LoreDukeFishron: {
 		Outlandish as they may seem, this species is the single mightiest of the seas.
 		They are relentless hunters and can easily spend significant time out of the water.
 		Folklore holds that the Fishrons claim heritage from the true Dragons; countless years back.
-		While there are many such tales of creatures hailing from draconic descent, this case is factual.
-		Genetic heritage or not: the Fishrons lack Dragonblood and Auric souls. I would well know.
+		While there are many such tales of creatures hailing draconic descent, this case is factual.
+		Genetic heritage or not: the Fishrons lack Auric souls. I would know well.
 		'''
 	Tooltip: ""
 }
@@ -490,13 +490,13 @@ LorePlantera: {
 	DisplayName: Plantera
 	Lore:
 		'''
-		This floral aberration is another example of the volatile power of harnessed souls.
-		Taking their mastery of agriculture to new heights, the Jungle settlers bred a special sprout.
-		Through ritual blessing of the soil, it was fed legions of souls.
-		Elders of the village wished this to bring forth a new age of botanical prosperity.
-		Indeed, the plant was awe inspiring. But it was wild and untamed, with a will of its own.
-		Now that you have slain it, more disorderly spiritual energies are flooding the lands.
-		The village's ignorance was shameful in its own right, but this is worse still.
+		That floral beast hailed from a grove known as the Vernal Pass, home of Silva's champion Braelor.
+		Once I learned of his origins, I sought the Pass myself. Alas, it seemed the very grass I tread on kept me from finding it.
+		I gave up my pursuit, but the hubris of the Pass's citizens was ultimately their own downfall.
+		So intimidated were they by my search that they fashioned themselves an appalling guardian.
+		Shackling the souls of once free creatures could only have one result. The revolt of this floral beast was well justified.
+		Now that you have slain it, even greater disorderly spirits have taken root in the lands.
+		The village's shortsightedness was shameful in its own right, but the consequences of this may be worse still.
 		'''
 	Tooltip: ""
 }
@@ -537,11 +537,11 @@ LoreProfanedGuardians: {
 	DisplayName: The Profaned Guardians
 	Lore:
 		'''
-		The Guardians are rather simple constructs, extensions of the Profaned Goddess' power.
-		They are given partial autonomy to hunt down threats and are rarely seen outside of temples sanctified in her name.
-		She has been attempting to expand her domain, it is of no surprise she sees you as her largest threat to that.
-		After all, it was you that finished off the star-spawned horror that catalyzed the downfall of the Dragons.
-		Draw her out from hiding. Have no mercy, for the Profaned Goddess shows none herself.
+		The Guardians are foul extensions of the Profaned Goddess' power, wielders of the same wicked flame.
+		They were given partial autonomy to hunt down threats, rarely spotted outside of temples sanctified in her name.
+		She has been expanding her iniquitous domain, and she believes you to be her largest threat.
+		After all, it was you that finished off the voidborn horror that catalyzed the downfall of the Dragons.
+		Draw her out from hiding. Have no mercy; the Profaned Goddess shows none herself.
 		'''
 	Tooltip: ""
 }
@@ -589,13 +589,13 @@ LoreRavager: {
 	DisplayName: The Ravager
 	Lore:
 		'''
-		A sickening flesh golem built for the sole purpose of savage, relentless destruction.
-		The monstrosity was a desperate gambit to turn the tides against my God-seeking armies.
-		I could scarcely believe it myself, it was born of a ritual of great sacrifice, performed in ardent faith.
-		The ritual condemned and fused the bodies and souls of their fallen allies into this hideous thing.
-		When the warlocks pledged their very lives to it as an offering, it awoke and effortlessly massacred them.
-		Now caked in fresh blood, it hungered for more, setting off on an aimless rampage.
-		I suppose its brutality serves as a reminder to be careful what you believe.
+		A sickening flesh titan built for the sole purpose of savage, relentless destruction.
+		This monstrosity was a desperate gambit to turn the tides against my mighty paladins.
+		I stormed their cathedral not long after executing their deity, but despite my efforts I could not fully prevent its conception.
+		Their ritual entombed the bodies and souls of their fallen allies into this hideous thing.
+		When the warlocks pledged their very lives to it as an offering, it awoke. I cut it down then and there, reducing it to naught but paste.
+		I know not how it survived my blade, but it seems its flesh no longer listens to whatever mind was still there.
+		Its unfettered brutality should serve as a reminder to be careful what you believe.
 		'''
 	Tooltip: ""
 }
@@ -674,13 +674,15 @@ LoreStormWeaver: {
 	DisplayName: Storm Weaver
 	Lore:
 		'''
-		This beast while of lesser stature than the Devourer, is a great danger in its own right.
-		They are clearly of the same species. Even this serpent was known to devour Wyverns whole.
-		Very little is known about the realm or space that the Great Devourer hails from.
-		Even Draedon and his obsessive research has been unable to discern its true nature.
-		The Weaver slipped through a rift from this place opened by the Devourer, and he has monitored it since.
-		In his mind, the lesser serpent's similar powers could lead it to be too threatening for him to let live.
-		Little does he know, he has forever stood in a similar position. He thinks himself invincible after all.
+		This beast, while of lesser stature than the Devourer, is a great danger in its own right.
+		Chrysadia held it in notable infamy; it was said to devour Wyverns whole.
+		It arrived in our realm through a rift opened by the Devourer. He immediately set out on the hunt, but I intervened.
+		He claimed the lesser serpent was too great a threat to let live. This proved to be little more than another lie.
+		It is strange, however. To this very day, I know not why he feigned such worry.
+		Then again, little is known of the Serpent or his home. Even Draedon's obsessive research yields little results.
+		Regardless, I did not see it fit for the Devourer to take the Weaver's life on suspicion alone.
+		He has monitored the Weaver since then. Little does he know, he has forever stood in the same position.
+		He thinks himself untouchable, after all.
 		'''
 	Tooltip: ""
 }

@@ -458,7 +458,7 @@ EarthenPike: {
 
 EmpyreanKnives: {
 	DisplayName: Empyrean Knives
-	Tooltip: Throws a flurry of bouncing knives that can heal the user
+	Tooltip: Throws a flurry of homing knives that bounce off of tiles and heal the user
 }
 
 EntropicClaymore: {
@@ -776,7 +776,7 @@ HolyCollider: {
 
 IllustriousKnives: {
 	DisplayName: Illustrious Knives
-	Tooltip: Throws a flurry of homing knives that can heal the user
+	Tooltip: Throws a barrage of fast-moving homing knives that heal the user
 }
 
 InsidiousImpaler: {
@@ -870,7 +870,7 @@ MonolithSword: {
 
 MonstrousKnives: {
 	DisplayName: Monstrous Knives
-	Tooltip: Throws a spread of knives that can heal the user
+	Tooltip: Throws a spread of short-range knives that have a chance to heal the user
 }
 
 Mourningstar: {
@@ -899,7 +899,6 @@ Nadir: {
 	Tooltip:
 		'''
 		Fires void essences which flay nearby enemies with tentacles
-		Ignores immunity frames
 		'The abyss has stared back at you long enough. It now speaks, and it does not speak softly'
 		'''
 }

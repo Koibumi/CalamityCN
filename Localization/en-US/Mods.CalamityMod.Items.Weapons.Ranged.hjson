@@ -4,7 +4,7 @@ AcesHigh: {
 		'''
 		Fires a string of cards with varying effects based on card type
 		Hearts grant lifesteal 
-		Spades pierce and ignore immunity frames
+		Spades pierce enemies
 		Diamonds violently explode 
 		Clubs split into three
 		'''

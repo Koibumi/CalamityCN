@@ -116,7 +116,7 @@ HiveMind: {
 
 Leviathan: {
 	EntryName: Anahita & The Leviathan
-	SpawnInfo: Defeat an elusive singer in the ocean…
+	SpawnInfo: Defeat an elusive singer in the ocean or use a [i:CalamityMod/NaiadsWarhorn] in the ocean.
 	DespawnMessage: "[c/7FFFD4:The aquatic outcasts return to their lonesome company.]"
 }
 

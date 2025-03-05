@@ -73,7 +73,7 @@ AddedTooltip: {
 	TungstenHelmet: 7% increased damage
 	TungstenChainmail: +0.5 HP/s life regen
 	TungstenGreaves: 8% increased movement speed
-	GoldHelmet: 6% increased damage
+	GoldHelmet: 5% increased damage
 	GoldChainmail: Increases damage reduction by 5%
 	GoldGreaves: 10% increased movement speed
 	PlatinumHelmet: 6% increased damage
@@ -230,25 +230,28 @@ EditedTooltip: {
 	/*
 	OOA sets
 	*/
-	SquireGreatHelm: Increases your max number of sentries by 1 and grants +2 HP/s life regen
-	SquirePlating: 10% increased summon damage and 15% increased melee damage
+	SquireGreatHelm: Increases your max number of sentries by 1 and grants +0.5 HP/s life regen
+	SquirePlating: 5% increased summon damage and 15% increased melee damage
 	SquireGreaves:
 		'''
 		5% increased summon damage and melee critical strike chance
 		15% increased movement speed
 		'''
 	MonkBrows: Increases your max number of sentries by 1 and increases melee attack speed by 10%
-	MonkShirt: 10% increased summon and melee damage
+	MonkShirt: 5% increased summon and melee damage
 	MonkPants1: 5% increased summon damage and melee critical strike chance
 	MonkPants2: 20% increased movement speed
 	// Valhalla Knight
-	SquireAltShirt: 30% increased summon damage and grants +4 HP/s life regen
+	SquireAltShirt: 30% increased summon damage and grants +1 HP/s life regen
 	SquireAltPants: 10% increased summon damage and melee critical strike chance
 	HuntressJerkin:
 		'''
-		10% increased summon and ranged damage
+		10% increased summon damage and 5% increased ranged damage and critical strike chance
 		10% chance to not consume ammo
 		'''
+	HuntressPants: 5% increased summon damage and 20% increased movement speed
+	ApprenticeHat: Increases your max number of sentries by 1, 5% increased magic damage and 10% reduced mana cost
+	ApprenticeRobe: 10% increased summon and magic damage
 	ApprenticeTrousers:
 		'''
 		5% increased summon damage and magic critical strike chance

@@ -34,6 +34,7 @@ AbyssalDivingSuit: {
 		Provides a moderate amount of light and reduces breath loss in the abyss
 		Abyss creatures are less likely to see you, mitigates the abyss' defense reduction, and lets you sink faster in liquids
 		Grants immunity to the sulphurous waters and Crush Depth's increased breath loss
+		Grants resistance to the increased breath loss caused by Hadopelagic Pressure
 		'''
 }
 
@@ -701,7 +702,7 @@ EnchantedPearl: {
 		'''
 		Increases fishing power by 10
 		Increases chance to catch crates and loot-containing fish by 15%
-		Crate catches emit pearls and are 25% more likely to be higher quality
+		Crate catches are 25% more likely to be higher quality, accompanied by visual pearls
 		'''
 }
 
@@ -831,7 +832,7 @@ GiantShell: {
 	Tooltip:
 		'''
 		10% reduced dash velocity
-		Taking a hit restores dash velocity and reduces defense for 5 seconds
+		Taking a hit restores dash velocity and reduces defense for 3 seconds
 		'''
 }
 
@@ -841,7 +842,7 @@ GiantTortoiseShell: {
 		'''
 		Grants immunity to knockback
 		5% increased damage reduction and 10% reduced dash velocity
-		Taking a hit restores dash velocity and reduces defense and damage reduction for 5 seconds
+		Taking a hit restores dash velocity and reduces defense and damage reduction for 3 seconds
 		'''
 }
 
@@ -1384,7 +1385,7 @@ ReaperToothNecklace: {
 	DisplayName: Reaper Tooth Necklace
 	Tooltip:
 		'''
-		15% increased damage
+		20% increased damage
 		Increases armor penetration by 15
 		'A grisly trophy from the ultimate predator'
 		'''
@@ -1464,7 +1465,7 @@ SandCloak: {
 		'''
 		Dashing creates a large protective sand veil which damages enemies inside it
 		The sand veil lasts 15 seconds, but dissipates early if you dash again
-		While inside the veil, you gain 10 defense and 1.75x acceleration
+		The veil slowly follows you, and any player inside it gains 10 defense and 1.75x acceleration
 		After dissipating, the sand veil has a 15 second cooldown before it can be used again
 		'''
 }
@@ -1810,7 +1811,7 @@ TheBee: {
 		When at full HP, your damage is increased based on your damage reduction
 		Damage taken at full HP is halved
 		Any energy shields must be fully charged for this effect to apply
-		This has a 10 second cooldown
+		This has a 6 second cooldown
 		'''
 }
 
@@ -1882,7 +1883,7 @@ TheTransformer: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Generates an aura around you that creates morphing globs when projectiles pass through it
+		Generates an aura around you that creates morphing globs when projectiles pass through it or when enemies are killed
 		The globs encircle you and deal low damage and knockback to enemies they collide with
 		The circle can contain up to 30 globs at once
 		Press [KEY] to transform all globs into needles and launch them at your cursor
@@ -1890,11 +1891,11 @@ TheTransformer: {
 		'''
 	TooltipGFB:
 		'''
-		Generates an aura around you that creates morphing globs when projectiles pass through it
+		Generates an aura around you that creates morphing globs when projectiles pass through it or when enemies are killed
 		The globs encircle you and deal low damage and knockback to enemies they collide with
 		The circle has no limit to the number of globs it can hold, but your PC might
 		Press [KEY] to transform all globs into needles and launch them at your cursor
-		'It's like catch and release if the release was a particle accelerator'
+		'It's no Beeftank Doctrine, but it sure feels breakthrough!'
 		'''
 }
 

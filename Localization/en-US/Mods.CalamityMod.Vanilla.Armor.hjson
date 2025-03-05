@@ -41,6 +41,12 @@ SetBonus: {
 		Cold enemies will deal reduced contact damage to the player
 		Provides immunity to the Chilled, Frozen, Frostburn and Glacial State debuffs
 		'''
+	Rain:
+		'''
+		24% increased jump speed and allows auto-jump
+		Jumping creates a puddle splash that damages and knocks back enemies
+		This splash is stronger if it is raining
+		'''
 	Forbidden:
 		'''
 		{$LegacyTooltip.48} {$ArmorSetBonus.Forbidden}
@@ -60,8 +66,8 @@ SetBonus: {
 		'''
 	Gold:
 		'''
-		All enemies have a 2% chance to drop 1 gold. All bosses killed drop 3 gold
-		You gain 1% critical strike chance for every 10 gold in your inventory, capped at 9%
+		All enemies have a 2% chance to drop 1 gold; bosses killed drop 3 gold
+		You gain 1% critical strike chance for every 10 gold in your inventory, capped at 7%
 		'''
 	Iron:
 		'''
@@ -85,8 +91,8 @@ SetBonus: {
 		'''
 	MonkTier2:
 		'''
-		10% increased melee speed, crit, and damage
-		15% increased minion damage
+		10% increased melee damage and critical strike chance
+		15% increased summon damage
 		'''
 	Mythril:
 		'''
@@ -117,9 +123,9 @@ SetBonus: {
 	PlatinumChainmail: 3% increased critical strike chance
 	Platinum:
 		'''
-		Every 10 extra defense gives you 1% increased damage and 1% increased critical strike chance
+		Every 10 extra defense gives you 1% increased damage
 		The 20 defense from the Platinum Armor itself does not contribute to this effect
-		Bonus damage and critical strike chance cap at 40 extra defense
+		Bonus damage caps at 50 extra defense
 		'''
 	Silver:
 		'''
@@ -145,23 +151,23 @@ SetBonus: {
 		'''
 	SquireTier2:
 		'''
-		Increases your life regeneration
-		15% increased minion damage and 10% increased melee critical strike chance
+		Grants +1.5 HP/s life regen
+		15% increased summon damage and 10% increased melee critical strike chance
 		'''
-	HuntressTier2: 10% increased minion and ranged damage
-	ApprenticeTier2: 5% increased minion damage and 15% increased magic critical strike chance
+	HuntressTier2: 10% increased summon and ranged damage
+	ApprenticeTier2: 10% increased summon damage and magic critical strike chance
 	MonkTier3:
 		'''
 		10% increased melee damage, melee critical strike chance and melee speed
-		30% increased minion damage
+		30% increased summon damage
 		'''
 	SquireTier3:
 		'''
-		Massively increased life regeneration
-		10% increased minion damage and melee critical strike chance
+		Grants +3 HP/s life regen
+		10% increased summon damage and melee critical strike chance
 		'''
-	HuntressTier3: 10% increased minion and ranged damage
-	ApprenticeTier3: 10% increased minion damage and 15% increased magic critical strike chance
+	HuntressTier3: 10% increased summon and ranged damage
+	ApprenticeTier3: 10% increased summon damage and 15% increased magic critical strike chance
 	SpectreHealing:
 		'''
 		Converts magic damage to healing force

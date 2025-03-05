@@ -116,7 +116,7 @@ HiveMind: {
 
 Leviathan: {
 	EntryName: 利维坦和阿娜希塔
-	SpawnInfo: 在海洋环境击杀一个未知的生物。
+	SpawnInfo: 在海洋环境击杀一个未知的生物或在海洋使用[i:CalamityMod/NaiadsWarhorn]。
 	DespawnMessage: "[c/7FFFD4:海中弃儿们回归到孤独的相伴之中。]"
 }
 

@@ -1008,6 +1008,11 @@ GlacialState: {
 	Description: 无法移动
 }
 
+HadopelagicPressure: {
+	DisplayName: Hadopelagic Pressure
+	Description: 急速沉入深海之棺
+}
+
 IcarusFolly: {
 	DisplayName: 伊卡洛斯之愚
 	Description:
@@ -1601,4 +1606,9 @@ PopoBuff: {
 PopoNoselessBuff: {
 	DisplayName: 没鼻子的雪宝
 	Description: 你的鼻子被别人偷走了！
+}
+
+HadopelagicPressure: {
+	// DisplayName: Hadopelagic Pressure
+	// Description: Rapidly sinking to a watery grave
 }
