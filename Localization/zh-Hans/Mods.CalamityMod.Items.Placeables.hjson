@@ -4188,3 +4188,13 @@ MiniAgedFloodlightItem: {
 
 ProbesnoutBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SharkoonBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+
+LimestoneWall: {
+	DisplayName: Limestone Wall
+	Tooltip: ""
+}
+
+RunestoneWall: {
+	DisplayName: Runestone Wall
+	Tooltip: ""
+}

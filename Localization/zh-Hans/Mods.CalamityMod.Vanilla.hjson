@@ -242,8 +242,9 @@ EditedTooltip: {
 	MonkPants1: 增加5%召唤伤害和近战暴击率
 	MonkPants2: 移动速度增加20%
 	// Valhalla Knight
-	SquireAltShirt: 增加30%召唤伤害并提供+1HP/s生命再生
-	SquireAltPants: 增加10%召唤伤害和近战暴击率
+	SquireAltHead: 增加2最大哨兵栏，15%召唤伤害和近战伤害
+	SquireAltShirt: 增加15%召唤伤害并提供+1HP/s生命再生
+	SquireAltPants: 增加10%召唤伤害
 	HuntressJerkin:
 		'''
 		增加10%召唤，5%远程伤害和暴击率
@@ -266,9 +267,12 @@ EditedTooltip: {
 	MonkAltShirt: 增加10%召唤伤害和近战攻速
 	MonkAltPants: 增加10%召唤伤害和近战暴击率
 	// Red Riding
-	HuntressAltShirt: 增加15%召唤和远程伤害，20%几率不消耗弹药
+	HuntressAltShirt: 增加10%召唤和远程伤害，20%几率不消耗弹药
+	HuntressAltPants: 增加20%召唤伤害和5%远程暴击率
 	// Dark Artist
-	ApprenticeAltPants: 增加10%召唤伤害和魔法暴击率
+	ApprenticeAltHead: 增加10%召唤伤害和魔法伤害
+	ApprenticeAltShirt: 增加15%召唤伤害和10%魔法伤害
+	ApprenticeAltPants: 增加10%召唤伤害
 }
 
 // Buff Descriptions

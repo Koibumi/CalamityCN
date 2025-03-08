@@ -22,15 +22,6 @@ ExoThrone: {
 		'''
 }
 
-Fabsol: {
-	DisplayName: 瓶中公主灵
-	Tooltip:
-		'''
-		召唤醉仙女独角兽形态的灵体
-		骑乘时醉仙女会离开，取消骑乘后会唤她归来
-		'''
-}
-
 FollyFeed: {
 	DisplayName: 痴愚饲料
 	Tooltip: 召唤可骑乘的恐怖畸变物种
@@ -59,6 +50,15 @@ OnyxExcavatorKey: {
 		丝毫不顾及栖息在这片土地上的任何生物
 		环保局和善待动物组织的人事后肯定会找你喝茶
 		挖掘能力取决于你物品栏中最高镐力的镐子
+		'''
+}
+
+PrincessSpiritinaBottle: {
+	DisplayName: 瓶中公主灵
+	Tooltip:
+		'''
+		召唤醉仙女独角兽形态的灵体
+		骑乘时醉仙女会离开，取消骑乘后会唤她归来
 		'''
 }
 

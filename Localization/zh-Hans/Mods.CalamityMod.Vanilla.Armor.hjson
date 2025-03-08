@@ -156,18 +156,14 @@ SetBonus: {
 		'''
 	HuntressTier2: 增加10%召唤和远程伤害
 	ApprenticeTier2: 增加10%召唤伤害和魔法暴击率
-	MonkTier3:
-		'''
-		增加10%近战攻速，暴击率和伤害
-		增加30%召唤伤害
-		'''
+	MonkTier3: 增加10%近战攻速和20%召唤伤害
 	SquireTier3:
 		'''
 		+3HP/s生命再生
-		增加10%召唤伤害和近战暴击率
+		增加10%召唤伤害和15%近战暴击率
 		'''
 	HuntressTier3: 增加10%召唤和远程伤害
-	ApprenticeTier3: 增加10%召唤伤害和15%魔法暴击率
+	ApprenticeTier3: 增加15%召唤伤害和魔法暴击率
 	SpectreHealing:
 		'''
 		将魔法伤害转化为治疗能量

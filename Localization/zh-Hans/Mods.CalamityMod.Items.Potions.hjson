@@ -192,6 +192,17 @@ CinnamonRoll: {
 		'''
 }
 
+CirrusVodka: {
+	DisplayName: Cirrus伏特加
+	Tooltip:
+		'''
+		增加{0}%伤害，但降低{1}%防御
+		延长受伤后无敌时间
+		{$Common.AlcoholWarning}
+		这种神奇的酒深受口味高雅人士的喜爱
+		'''
+}
+
 Everclear: {
 	DisplayName: 谷酒
 	Tooltip:
@@ -212,17 +223,6 @@ EvergreenGin: {
 		-{1}HP/s生命再生
 		{$Common.AlcoholWarning}
 		[c/B00BA5:“圣诞树的味道~，如果你能想象到的话”]
-		'''
-}
-
-FabsolsVodka: {
-	DisplayName: Fabsol伏特加
-	Tooltip:
-		'''
-		增加{0}%伤害，但降低{1}%防御
-		延长受伤后无敌时间
-		{$Common.AlcoholWarning}
-		这种神奇的酒深受口味高雅人士的喜爱
 		'''
 }
 

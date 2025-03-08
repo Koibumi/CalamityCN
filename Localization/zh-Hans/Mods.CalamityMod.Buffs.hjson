@@ -19,6 +19,11 @@ CinnamonRollBuff: {
 	Description: 魔力再生速率和火系减益的伤害增加，但防御力降低
 }
 
+CirrusVodkaBuff: {
+	DisplayName: Fabsol伏特加
+	Description: 你感受到了一种难以置信的美妙
+}
+
 EverclearBuff: {
 	DisplayName: 谷酒
 	Description: 伤害增加，但防御力和生命再生降低
@@ -27,11 +32,6 @@ EverclearBuff: {
 EvergreenGinBuff: {
 	DisplayName: 常青松子酒
 	Description: 疫病和水系减益的伤害增加，但生命再生降低
-}
-
-FabsolVodkaBuff: {
-	DisplayName: Fabsol伏特加
-	Description: 你感受到了一种难以置信的美妙
 }
 
 FireballBuff: {

@@ -14,6 +14,7 @@ AuricLandMineExplosion.DisplayName: 金源地雷爆炸
 BabyCannonballProjectile.DisplayName: 小炮弹水母
 BasicBurst.DisplayName: 难以形容的破坏性爆炸
 BasicPlagueBee.DisplayName: 基础瘟疫蜜蜂
+BlackGlassBandProjectile.DisplayName: 黑曜石冲击
 BlazingStarHeal.DisplayName: 治愈神圣之星
 BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
 BlazingSun.DisplayName: 烈日
@@ -80,6 +81,8 @@ JewelSpike.DisplayName: 宝石尖刺
 KelvinCatalystStar.DisplayName: 冰灵旋刃碎冰星
 LeviAmberDash.DisplayName: 激流猛冲
 LunicBeam.DisplayName: 星光射线
+Luxor.DisplayName: 卢克索
+LuxorsGiftClassless.DisplayName: 卢克索之无职业符文
 MagnusBeam.DisplayName: 马格努斯射线
 MagnusBoom.DisplayName: 马格努斯爆炸
 MythrilFlare.DisplayName: 秘银火花
@@ -98,6 +101,7 @@ PlaguePulse.DisplayName: 毒疫脉冲
 PoisonousSeawater.DisplayName: 海水
 PscTransformAnimation.DisplayName: 渎神魂晶转换动画
 PscTransformRocks.DisplayName: 渎神魂晶转换陨石
+PuddleSplash.DisplayName: 泥坑水花
 ReaverOrb.DisplayName: 掠夺者宝珠
 ReaverThornBase.DisplayName: 荆棘
 RedLabSeeker.DisplayName: 实验室定位仪
@@ -145,4 +149,3 @@ YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
 VoidofExtinctionCrit.DisplayName: 终结虚空暴击
 XykDeathAnim.DisplayName: Xyk死亡动画
-PuddleSplash.DisplayName: 泥坑水花

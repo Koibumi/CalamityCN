@@ -48,16 +48,16 @@ BrimflameScowl: {
 	Tooltip:
 		'''
 		5% increased magic damage and critical strike chance
-		Increases maximum mana by 70 and reduces mana usage by 10%
+		Increases maximum mana by 80 and reduces mana usage by 10%
 		Immunity to On Fire!, Brimstone Flames and Frostburn
 		'''
 	SetBonus:
 		'''
-		Grants an additional 15% increased magic damage and crit
+		Grants an additional 15% increased magic damage and critical strike chance
 		Press {0} to trigger a brimflame frenzy effect
 		While under this effect, you get an additional 40% increase to magic damage
-		However, this comes at the cost of rapid life loss and no mana regeneration
-		This can be toggled off, however, a brimflame frenzy has a 30 second cooldown
+		However, this inflicts rapid life loss and disables mana regeneration and mana potions
+		This can be toggled off, however, brimflame frenzy has a 30 second cooldown
 		'''
 }
 

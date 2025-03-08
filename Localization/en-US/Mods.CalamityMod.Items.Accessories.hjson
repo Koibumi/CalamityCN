@@ -288,6 +288,15 @@ Baroclaw: {
 		'''
 }
 
+BlackGlassBand: {
+	DisplayName: Black Glass Band
+	Tooltip:
+		'''
+Enemy hits create an obsidian blast that always critically strikes
+This effect has a 7 second cooldown, but is halved if the blast kills an enemy
+		'''
+}
+
 BlazingCore: {
 	DisplayName: Blazing Core
 	Tooltip:
@@ -1055,8 +1064,10 @@ LuxorsGift: {
 	DisplayName: Luxor's Gift
 	Tooltip:
 		'''
-		Weapons fire unique projectiles based on their damage type
-		Some weapons are unable to receive this bonus
+		Summons a scarab launcher that follows you closely
+		The scarab fires different projectiles at enemies depending on what class the held weapon belongs to
+		Held item class is not updated when holding a tool
+		When not in use, the scarab will condense itself into a small orb of light
 		'''
 }
 
@@ -2066,7 +2077,7 @@ GhostBracelet: {
 
 GoldenBomb: {
 	DisplayName: Golden Bomb
-	Tooltip: "'El Pene betraying the human body to become an item of Terraria Calamity Mod'"
+	Tooltip: "'I AM THE BOMB'"
 }
 
 HapuFruit: {

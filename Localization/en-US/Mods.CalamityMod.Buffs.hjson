@@ -19,6 +19,11 @@ CinnamonRollBuff: {
 	Description: Mana regen rate and fire debuff damage increased, defense reduced
 }
 
+CirrusVodkaBuff: {
+	DisplayName: Fab
+	Description: You feel fabulous
+}
+
 EverclearBuff: {
 	DisplayName: Everclear
 	Description: Damage increased, life regen and defense reduced
@@ -27,11 +32,6 @@ EverclearBuff: {
 EvergreenGinBuff: {
 	DisplayName: Evergreen Gin
 	Description: Sickness and water debuff damage increased, life regen reduced
-}
-
-FabsolVodkaBuff: {
-	DisplayName: Fab
-	Description: You feel fabulous
 }
 
 FireballBuff: {

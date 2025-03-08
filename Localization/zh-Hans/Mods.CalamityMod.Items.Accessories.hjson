@@ -288,6 +288,15 @@ Baroclaw: {
 		'''
 }
 
+BlackGlassBand: {
+	DisplayName: Black Glass Band
+	Tooltip:
+		'''
+		命中敌怪会生成必定暴击的黑曜石冲击
+		此效果具有7秒冷却，但如果冲击杀死了敌怪，将会减半冷却时间
+		'''
+}
+
 BlazingCore: {
 	DisplayName: 渎火核心
 	Tooltip:
@@ -1055,8 +1064,10 @@ LuxorsGift: {
 	DisplayName: 卢克索的礼物
 	Tooltip:
 		'''
-		攻击时根据武器类型释放不同种类的额外弹幕
-		有些武器不会受到这个加成
+		召唤一个紧跟着你的圣甲虫发射器
+		根据你手持武器类型，圣甲虫向敌怪发射不同种类的射弹
+		手持工具时，武器类型不会更新
+		不使用时，圣甲虫会自动压缩成一个小光球
 		'''
 }
 
@@ -2067,7 +2078,7 @@ GhostBracelet: {
 
 GoldenBomb: {
 	DisplayName: Golden Bomb
-	Tooltip: "'El Pene betraying the human body to become an item of Terraria Calamity Mod'"
+	Tooltip: "'I AM THE BOMB'"
 }
 
 HapuFruit: {

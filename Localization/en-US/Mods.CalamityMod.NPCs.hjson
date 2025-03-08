@@ -343,7 +343,7 @@ DILF: {
 
 FAP: {
 	DisplayName: Drunk Princess
-	Census.SpawnCondition: Have {$Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka] in your inventory in Hardmode
+	Census.SpawnCondition: Have {$Items.Potions.CirrusVodka.DisplayName} [i:CalamityMod/CirrusVodka] in your inventory in Hardmode or defeat Calamitas Clone/Plantera
 	Name.Cirrus: Cirrus
 
 	Chat: {
@@ -353,19 +353,27 @@ FAP: {
 		BloodMoon1: I'm gonna make some Bloody Marys to relax, celery included. Want one?
 		BloodMoon2: If you're too lazy to craft potions normally, try Blood Orbs. Blood is fuel, dumbass.
 		BloodMoon3: I'm trying to not be bitchy tonight, but it's hard when everyone else won't shut up.
-		BloodMoonSlap: Sorry, I have no moral compass at the moment.
-		Normal1: I HATE WALMART! ...Anyway, what do you want this time?
-		Normal2: Drink something that turns you into a magical flying unicorn so you can be just like me.
-		Normal3: Deals so good I'll [$$!$] myself! ...Sorry, just had a minor stroke!
+		BloodMoonSlap1: Sorry, I have no moral compass at the moment.
+        BloodMoonSlap2: I could slap you... but you've done more for me than most. What do you need?
+		Normal1: What do you want this time? I have an appointment to get my nails done in 5 minutes, make it quick.
+        Normal1Alt: Whaddya need? I have candles and alcohols galore!
+		Normal2: Maybe you should drink something that turns you into a magical flying unicorn, so you can be just like me.
+        Normal2Alt: Sometimes I think about returning to nature for a while to escape from all of this chaos.
+		Normal3: Deals so good I'll [$$!$] myself! ...Sorry, I may have just had a minor stroke!
+        Normal3Alt: I've been thinking more about the future lately. I can't say I'm not worried, but I'll be trying my best to make it better.
 		Normal4: Did anyone ever tell you that large assets cause back pain? Well, they were right.
+        Normal4Alt: Do you have any idea how much extra money I make so {0} can afford her super fancy hair products? The back pain is worth it.
 		Archmage: "{0} can share a drink with me any time! ...Or maybe not, I'm not sure his old heart could take it."
 		BrimstoneWitch: The abuse {0} went through is something I can hardly comprehend. I'd offer her a drink, but I don't think she'd enjoy it.
 		Tavernkeep1: My booze will always be better than {0}'s, and nobody can convince me otherwise.
 		Tavernkeep2: Tell {0} to stop calling me. He's not wanted.
 		Tavernkeep3: I've had to tell baldie where my eyes are so many times that I've lost count.
-		Stylist1: Ever since {0} moved in I haven't been drinking as much... a strange but not unwelcome feeling.
+		Stylist1: Ever since {0} moved in I haven't been drinking as much... a strange, but not unwelcome, feeling.
+        Stylist1Alt: I've stopped drinking almost entirely, thanks to {0} and... you. Thank you, for making this world a safer place.
 		Stylist2: You can't stop me from trying to move in with {0}.
+        Stylist2Alt: If you have {0} and I housed in one of those so-called 'NPC prisons'... we WILL find you, and we WILL bring the scissors...
 		Stylist3: I love it when {0}'s hands get sticky from all that... wax.
+        Stylist3Alt: "{0} and I will be building wax figures tonight. And no, there's nothing weird about that."
 		Day1: I'm literally balls drunk off my sass right now, what do you want?
 		Day2: I'm either laughing because I'm drunk or because I've lost my mind, probably both.
 		Day3: When I'm drunk I'm way happier... at least until the talking worms start to appear.
@@ -399,10 +407,10 @@ FAP: {
 	// Death Count stuffs
 	DeathCountButton: Death Count + Donors
 	DeathCount: You have failed {0} {^0:time;times}.
-	Death10000: Congratulations! You are now, officially, the biggest loser in Terraria's history! Who was number two? Hell if I know.
-	Death5000: I'm not sure what to say this time. That you're bad and should feel bad? That much was known already.
-	Death2500: Bless your heart. I could dodge better than you even if I were drunk high.
-	Death1000: It is said the average Terrarian has a lifespan of 2 minutes or less. ...Well, not really, but I feel like you'd be part of that statistic.
+	Death10000: Congratulations! You are now, officially, the biggest loser in Terraria's history!
+	Death5000: I'm not sure what to say this time... perhaps, that you're bad and should feel bad?
+	Death2500: I could dodge better than you even if I was blackout drunk.
+	Death1000: It is said that the average Terrarian has a lifespan of 2 minutes or less... well, not really, but I feel like you'd be part of that statistic.
 	Death500: Your inability to avoid dying to even the most basic of attacks is astonishing to me.
 	Death250: I admire your tenacity. Keep it up, your enemies are racking up quite the kill count!
 	Death100: Consider lowering the difficulty. If you found that statement irritating, good.

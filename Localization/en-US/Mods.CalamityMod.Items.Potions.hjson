@@ -192,6 +192,17 @@ CinnamonRoll: {
 		'''
 }
 
+CirrusVodka: {
+	DisplayName: Cirrus' Vodka
+	Tooltip:
+		'''
+		{0}% increased damage, but lowers defense by {1}%
+		Increases immune time after being struck
+		{$Common.AlcoholWarning}
+		This magical liquor is highly sought by those with a refined palate
+		'''
+}
+
 Everclear: {
 	DisplayName: Everclear
 	Tooltip:
@@ -212,17 +223,6 @@ EvergreenGin: {
 		Reduces life regen by {1} HP/s
 		{$Common.AlcoholWarning}
 		[c/B00BA5:'It tastes like a Christmas tree, if you can imagine that.']
-		'''
-}
-
-FabsolsVodka: {
-	DisplayName: Fabsol's Vodka
-	Tooltip:
-		'''
-		{0}% increased damage, but lowers defense by {1}%
-		Increases immune time after being struck
-		{$Common.AlcoholWarning}
-		This magical liquor is highly sought by those with a refined palate
 		'''
 }
 

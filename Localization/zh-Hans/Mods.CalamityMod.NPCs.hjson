@@ -343,7 +343,7 @@ DILF: {
 
 FAP: {
 	DisplayName: 醉仙女
-	Census.SpawnCondition: 困难模式下，玩家的物品栏中有{$Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka]
+	Census.SpawnCondition: 困难模式下，玩家的物品栏中有{$Items.Potions.CirrusVodka.DisplayName} [i:CalamityMod/CirrusVodka]，或者已击败灾厄之影或世纪之花
 	Name.Cirrus: Cirrus
 
 	Chat: {
@@ -353,19 +353,27 @@ FAP: {
 		BloodMoon1: 嘿！晚安。我要做一些血腥玛丽，加芹菜的。要来一杯吗？
 		BloodMoon2: 如果你无法顺利炼药，试试血珠。血液就是药材，笨蛋。
 		BloodMoon3: 今晚我会尽量控制自己不发脾气，但其他人都不闭嘴的话，恐怕很难办到。
-		BloodMoonSlap: 对不起，现在的我没有道德底线。
-		Normal1: 我讨厌沃尔玛！……先不说这个，这次你想要什么？
-		Normal2: 喝一点可以让你变成神奇的飞行独角兽的东西，你就可以变得跟我一样了。
-		Normal3: 交易这么好，我会[$$!$]我自己！……抱歉，我只是中风了！
+		BloodMoonSlap1: 对不起，现在的我没有道德底线。
+		BloodMoonSlap2: I could slap you... but you've done more for me than most. What do you need?
+		Normal1: What do you want this time? I have an appointment to get my nails done in 5 minutes, make it quick.
+		Normal1Alt: Whaddya need? I have candles and alcohols galore!
+		Normal2: 或许你可以喝一点可以让你变成神奇的飞行独角兽的东西，你就可以变得跟我一样了。
+		Normal2Alt: Sometimes I think about returning to nature for a while to escape from all of this chaos.
+		Normal3: 交易这么好，我会[$$!$]我自己！……抱歉，我大概只是中风了！
+		Normal3Alt: I've been thinking more about the future lately. I can't say I'm not worried, but I'll be trying my best to make it better.
 		Normal4: 有人告诉过你有钱会引起痛苦吗？嗯，他们是对的。
+		Normal4Alt: Do you have any idea how much extra money I make so {0} can afford her super fancy hair products? The back pain is worth it.
 		Archmage: "{0}可以随时和我一起喝一杯！……也许不行，我不确定他那颗沧桑的心能否承受。"
 		BrimstoneWitch: "{0}经历了我难以想象的苦难。我想要给她一杯酒，但我想她可能不会喜欢。"
 		Tavernkeep1: 我的酒可比{0}的好多了，关于这个事实没人说服得了我。
 		Tavernkeep2: 告诉{0}别再找我了，他不合我的口味
 		Tavernkeep3: 我不得不多次告诉那个秃头我的眼睛在哪儿，我都数不清我说了多少次了。
 		Stylist1: 自从{0}搬进来后，我就没有以前喝的那么多了……这种感觉很奇怪，但是我并不反感。
+		Stylist1Alt: I've stopped drinking almost entirely, thanks to {0} and... you. Thank you, for making this world a safer place.
 		Stylist2: 你不能阻止我和{0}同居。
+		Stylist2Alt: If you have {0} and I housed in one of those so-called 'NPC prisons'... we WILL find you, and we WILL bring the scissors...
 		Stylist3: 我非常享受{0}的手沾上了那些黏黏的浓稠的……发蜡的样子。
+		Stylist3Alt: "{0} and I will be building wax figures tonight. And no, there's nothing weird about that."
 		Day1: 我现在简直是喝得烂醉如泥，你想要什么？
 		Day2: 我要么是因为喝醉了大笑，要么是因为我疯了，又也许两者都有。
 		Day3: 当我喝醉的时候，我会更快乐…至少是话痨开始在我耳边嗡嗡叫之前。
@@ -399,9 +407,9 @@ FAP: {
 	// Death Count stuffs
 	DeathCountButton: 死亡计数及捐赠者名单
 	DeathCount: 你已经死亡了{0}次。
-	Death10000: 恭喜！你现在正式成为泰拉瑞亚历史上最大的loser！谁是第二？鬼才知道。
-	Death5000: 我不知道这次我该说什么了。你很糟糕，并且应该感觉到自己很糟糕？然而这已经是众所周知的事情了。
-	Death2500: 祝福你。即使我喝高了，我也躲的比你好。
+	Death10000: 恭喜！你现在正式成为泰拉瑞亚历史上最大的loser！
+	Death5000: 我不知道这次我该说什么了。也许你很糟糕，并且应该感觉到自己很糟糕？
+	Death2500: 即使我喝高了，我也躲的比你好。
 	Death1000: 据说泰拉人的平均寿命大约是两分钟，或者更少。……嗯，可能不准确，但我感觉你是那部分人。
 	Death500: 你甚至无法规避最基本的攻击。这让我很震惊。
 	Death250: 我敬佩你不屈不挠的精神。坚持下去，你的敌人正在绞尽脑汁地想怎么对付你！

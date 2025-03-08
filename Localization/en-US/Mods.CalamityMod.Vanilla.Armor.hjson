@@ -156,18 +156,14 @@ SetBonus: {
 		'''
 	HuntressTier2: 10% increased summon and ranged damage
 	ApprenticeTier2: 10% increased summon damage and magic critical strike chance
-	MonkTier3:
-		'''
-		10% increased melee damage, melee critical strike chance and melee speed
-		30% increased summon damage
-		'''
+	MonkTier3: 10% increased melee damage and 20% increased summon damage
 	SquireTier3:
 		'''
 		Grants +3 HP/s life regen
-		10% increased summon damage and melee critical strike chance
+		10% increased summon damage and 15% increased melee critical strike chance
 		'''
 	HuntressTier3: 10% increased summon and ranged damage
-	ApprenticeTier3: 10% increased summon damage and 15% increased magic critical strike chance
+	ApprenticeTier3: 15% increased summon damage and magic critical strike chance
 	SpectreHealing:
 		'''
 		Converts magic damage to healing force

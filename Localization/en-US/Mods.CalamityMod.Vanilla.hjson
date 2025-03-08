@@ -242,8 +242,9 @@ EditedTooltip: {
 	MonkPants1: 5% increased summon damage and melee critical strike chance
 	MonkPants2: 20% increased movement speed
 	// Valhalla Knight
-	SquireAltShirt: 30% increased summon damage and grants +1 HP/s life regen
-	SquireAltPants: 10% increased summon damage and melee critical strike chance
+	SquireAltHead: Increases your max number of sentries by 2 and increases summon and melee damage by 15%
+	SquireAltShirt: 15% increased summon damage and grants +1 HP/s life regen
+	SquireAltPants: 10% increased summon damage
 	HuntressJerkin:
 		'''
 		10% increased summon damage and 5% increased ranged damage and critical strike chance
@@ -266,9 +267,12 @@ EditedTooltip: {
 	MonkAltShirt: 10% increased summon damage and melee speed
 	MonkAltPants: 10% increased summon damage and melee critical strike chance
 	// Red Riding
-	HuntressAltShirt: 15% increased summon and ranged damage and 20% chance to not consume ammo
+	HuntressAltShirt: 10% increased summon and ranged damage and 20% chance to not consume ammo
+	HuntressAltPants: 20% increased summon damage and 5% increased ranged critical strike chance
 	// Dark Artist
-	ApprenticeAltPants: 10% increased summon damage and magic critical strike chance
+	ApprenticeAltHead: 10% increased summon & magic damage
+	ApprenticeAltShirt: 15% increased summon damage and 10% increased magic damage
+	ApprenticeAltPants: 10% increased summon damage
 }
 
 // Buff Descriptions
