@@ -377,20 +377,20 @@ FAP: {
 		Day1: I'm literally balls drunk off my sass right now, what do you want?
 		Day1Alt: A nice day for a walk in the woods, don't you think? Anyway, what do you need?
 		Day2: I'm either laughing because I'm drunk or because I've lost my mind, probably both.
-        Day2Alt: Some people ask me whether it's 'unicorn', 'pegacorn', 'alicorn', 'pegasus'... whatever, all of them suit me.
+		Day2Alt: Some people ask me whether it's 'unicorn', 'pegacorn', 'alicorn', 'pegasus'... whatever, all of them suit me.
 		Day3: When I'm drunk I'm way happier... at least until the talking worms start to appear.
 		Day3Alt: Did you know that certain worms can speak? Neither did I, until I flew to outer space.
 		Day4: I should go fishing... while drunk, and jump into the ocean to spare myself {0}'s annoying naivety...
-        Day4Alt: I may be a 'hater' and a 'gatekeeper', but I'm also Dionysus' favorite princess, and the most fabulous girl in the world.
+		Day4Alt: I may be a 'hater' and a 'gatekeeper', but I'm also Dionysus' favorite princess, and the most fabulous girl in the world.
 		DayStylist1: "{0} helped me accept my past. It's been tough, but I think I'm on the right path now."
 		DayStylist2: Might go out for a jog later with {0}. Nice day for it.
 		DayDrunk1: I drink to forget... What am I trying to forget, you might ask? Well, the point is to FORGET, not RECALL, isn't it?
 		DayDrunk2: What a great day! Might just drink so much that I get poisoned again.
 		Night1: A perfect night to light some candles, drink some wine, and relax.
 		Night2: Here's a challenge, take a shot for every time you've had to use the wiki. Oh wait, you'd die.
-        Night2Alt: There's more to life than challenge, y'know. Be sure to sit back and treat yourself once in a while.
+		Night2Alt: There's more to life than challenge, y'know. Be sure to sit back and treat yourself once in a while.
 		Night3: You lost or something? I don't mind company, but I'd rather be left alone at night.
-        Night3Alt: I do love gazing at the stars. You could join me, if you like.
+		Night3Alt: I do love gazing at the stars. You could join me, if you like.
 		Night4: Are you sure you're 21? ...Alright, fine, but don't tell anyone I sold you these.
 		NightStylist: I should watch some movies with {0} tonight. You could come too, but only if you bring snacks for us.
 		Party: You'll always find me at parties where booze is involved... well, you'll always find BOOZE where I'M involved!
