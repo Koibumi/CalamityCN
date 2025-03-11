@@ -114,16 +114,6 @@ AmbrosialAmpoule: {
 		'''
 }
 
-AmidiasSpark: {
-	DisplayName: 阿米迪亚斯电火花石
-	Tooltip:
-		'''
-		在水下时攻击会施加Static Discharge减益
-		受到伤害后使敌怪受到冲击
-		被冲击的敌怪会持续释放电火花
-		'''
-}
-
 AncientFossil: {
 	DisplayName: 远古化石
 	Tooltip: 增加10%挖掘速度
@@ -952,6 +942,16 @@ HowlsHeart: {
 		'''
 		召唤哈尔为你而战，卡西法会照亮你的道路，小萝卜头会跟随着你
 		把该饰品放在时装栏位里也能召唤出三人组，但是没有战斗或探索功能
+		'''
+}
+
+IlmerisSpark: {
+	DisplayName: 伊尔梅里斯电火花石
+	Tooltip:
+		'''
+		在水下时攻击会施加Static Discharge减益
+		受到伤害后使敌怪受到冲击
+		被冲击的敌怪会持续释放电火花
 		'''
 }
 

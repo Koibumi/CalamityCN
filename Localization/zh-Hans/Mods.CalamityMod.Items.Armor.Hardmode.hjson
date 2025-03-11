@@ -2,14 +2,14 @@ AstralBreastplate: {
 	DisplayName: 星幻胸甲
 	Tooltip:
 		'''
-		增加10%伤害
+		增加7%伤害
 		增加80点最大魔力值和20点最大生命值
 		'''
 }
 
 AstralHelm: {
 	DisplayName: 星幻头盔
-	Tooltip: 增加5%伤害和15%暴击率
+	Tooltip: 增加5%伤害和10%暴击率
 	SetBonus:
 		'''
 		增加3个仆从栏位
@@ -24,7 +24,7 @@ AstralLeggings: {
 	DisplayName: 星幻护胫
 	Tooltip:
 		'''
-		增加10%伤害
+		增加5%伤害
 		增加15%移动速度
 		'''
 }
@@ -353,8 +353,8 @@ MolluskShelleggings: {
 	DisplayName: 软壳护胫
 	Tooltip:
 		'''
-		增加12%伤害和4%暴击率
-		降低7%移动速度
+		增加6%伤害和4%暴击率
+		降低你的水平移动速度
 		'''
 }
 
@@ -364,12 +364,12 @@ MolluskShellmet: {
 		'''
 		增加5%伤害和4%暴击率
 		在液体中行动不受阻碍
+		降低你的水平移动速度
 		'''
 	SetBonus:
 		'''
 		两只贝壳会在战斗中助你一臂之力
-		增加10%伤害
-		水平移动速度降低
+		增加10%伤害减免
 		'''
 }
 
@@ -377,8 +377,8 @@ MolluskShellplate: {
 	DisplayName: 软壳贝甲
 	Tooltip:
 		'''
-		增加10%伤害和6%暴击率
-		降低15%移动速度
+		增加6%伤害和5%暴击率
+		降低你的水平移动速度
 		'''
 }
 
@@ -522,7 +522,7 @@ TitanHeartBoots: {
 
 TitanHeartMantle: {
 	DisplayName: 泰坦之心斗篷
-	Tooltip: 增加5%击退，但降低15%盗贼攻击速度
+	Tooltip: 增加5%盗贼伤害和击退
 }
 
 TitanHeartMask: {
@@ -534,7 +534,7 @@ TitanHeartMask: {
 		'''
 	SetBonus:
 		'''
-		增加15%盗贼伤害和击退
+		增加10%盗贼伤害和20%击退
 		增加100点潜行值
 		潜伏攻击会造成两倍的击退并产生幻星爆炸
 		免疫击退

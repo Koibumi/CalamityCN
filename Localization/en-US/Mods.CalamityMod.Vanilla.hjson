@@ -237,9 +237,9 @@ EditedTooltip: {
 		5% increased summon damage and melee critical strike chance
 		15% increased movement speed
 		'''
-	MonkBrows: Increases your max number of sentries by 1 and increases melee attack speed by 10%
-	MonkShirt: 5% increased summon and melee damage
-	MonkPants1: 5% increased summon damage and melee critical strike chance
+	MonkBrows: Increases your max number of sentries by 1 and increases rogue velocity by 10%
+	MonkShirt: 5% increased summon and rogue damage
+	MonkPants1: 5% increased summon damage and rogue critical strike chance
 	MonkPants2: 20% increased movement speed
 	// Valhalla Knight
 	SquireAltHead: Increases your max number of sentries by 2 and increases summon and melee damage by 15%
@@ -262,10 +262,11 @@ EditedTooltip: {
 	MonkAltHead:
 		'''
 		Increases your max number of sentries by 2
-		10% increased melee and summon damage
+		10% increased summon and rogue damage
 		'''
-	MonkAltShirt: 10% increased summon damage and melee speed
-	MonkAltPants: 10% increased summon damage and melee critical strike chance
+	MonkAltShirt0: 10% increased summon damage and 15% increased rogue velocity
+	MonkAltShirt1: 5% increased rogue critical strike chance
+	MonkAltPants: 10% increased summon damage and rogue critical strike chance
 	// Red Riding
 	HuntressAltShirt: 10% increased summon and ranged damage and 20% chance to not consume ammo
 	HuntressAltPants: 20% increased summon damage and 5% increased ranged critical strike chance

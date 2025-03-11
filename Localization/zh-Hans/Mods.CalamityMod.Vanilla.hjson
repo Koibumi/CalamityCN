@@ -237,9 +237,9 @@ EditedTooltip: {
 		增加5%召唤伤害和近战暴击率
 		移动速度增加15%
 		'''
-	MonkBrows: 增加1最大哨兵栏和10%近战攻速
-	MonkShirt: 增加5%召唤和近战伤害
-	MonkPants1: 增加5%召唤伤害和近战暴击率
+	MonkBrows: 增加1最大哨兵栏和10%盗贼弹幕速度
+	MonkShirt: 增加5%召唤和盗贼伤害
+	MonkPants1: 增加5%召唤伤害和盗贼暴击率
 	MonkPants2: 移动速度增加20%
 	// Valhalla Knight
 	SquireAltHead: 增加2最大哨兵栏，15%召唤伤害和近战伤害
@@ -262,10 +262,11 @@ EditedTooltip: {
 	MonkAltHead:
 		'''
 		增加2最大哨兵栏
-		增加10%近战和召唤伤害
+		增加10%召唤和盗贼伤害
 		'''
-	MonkAltShirt: 增加10%召唤伤害和近战攻速
-	MonkAltPants: 增加10%召唤伤害和近战暴击率
+	MonkAltShirt0: 增加10%召唤伤害和15%盗贼弹幕速度
+	MonkAltShirt1: 增加5%盗贼暴击率
+	MonkAltPants: 增加10%召唤伤害和盗贼暴击率
 	// Red Riding
 	HuntressAltShirt: 增加10%召唤和远程伤害，20%几率不消耗弹药
 	HuntressAltPants: 增加20%召唤伤害和5%远程暴击率

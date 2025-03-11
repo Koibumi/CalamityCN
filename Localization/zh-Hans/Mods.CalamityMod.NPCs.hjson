@@ -375,18 +375,23 @@ FAP: {
 		Stylist3: 我非常享受{0}的手沾上了那些黏黏的浓稠的……发蜡的样子。
 		Stylist3Alt: "{0} and I will be building wax figures tonight. And no, there's nothing weird about that."
 		Day1: 我现在简直是喝得烂醉如泥，你想要什么？
+		Day1Alt: A nice day for a walk in the woods, don't you think? Anyway, what do you need?
 		Day2: 我要么是因为喝醉了大笑，要么是因为我疯了，又也许两者都有。
+		Day2Alt: Some people ask me whether it's 'unicorn', 'pegacorn', 'alicorn', 'pegasus'... whatever, all of them suit me.
 		Day3: 当我喝醉的时候，我会更快乐…至少是话痨开始在我耳边嗡嗡叫之前。
-		Day4: 我应该在喝醉的时候重新编程整个游戏，然后把它送回测试人员那里。
-		DayStylist1: "{0}帮助我学会了接受我的过去。虽然这个过程坎坷，但我想我正走在正确的道路上。"
+		Day3Alt: Did you know that certain worms can speak? Neither did I, until I flew to outer space.
+		Day4: I should go fishing... while drunk, and jump into the ocean to spare myself {0}'s annoying naivety...
+        Day4Alt: I may be a 'hater' and a 'gatekeeper', but I'm also Dionysus' favorite princess, and the most fabulous girl in the world.
+		DayStylist1: "{0}帮助我接受我的过去。虽然这个过程坎坷，但我想我正走在正确的道路上。"
 		DayStylist2: 以后可以和{0}出去慢跑了。那会是美好的一天。
-		DayDrunk1: 我喝酒是为了忘记一些事情……你可能会问“什么事情啊”，但重点是忘记它们，忘记，懂吗？
+		DayDrunk1: 我喝酒是为了遗忘……你可能会问“什么事情啊”，但重点是忘记它们，而不是回忆，懂吗？
 		DayDrunk2: 多么美好的一天，可能我喝得太多了，我又中毒了。
 		Night1: 一个完美的夜晚，就要点一些蜡烛，喝一点酒，尽情放松。
-		Night2: 来点挑战……每次你不得不看wiki的时候就扎自己一针。哦等等，这样你会死的。
-		Night3: 是的，所有人都知道机械蠕虫是神经病。好吧，现在不是了，但不完全不是。
-		Night4: 你是打输了还是怎么了？我不介意有人陪着，但我更愿意晚上一个人待着。
-		Night5: 你确定你21岁了？……好吧，好吧，但别告诉任何人我卖给你这个。
+		Night2: 来点挑战，每次你不得不用wiki的时候就扎自己一针。哦等等，这样你会死的。
+		Night2Alt: There's more to life than challenge, y'know. Be sure to sit back and treat yourself once in a while.
+		Night3: 你是打输了还是怎么了？我不介意有人陪着，但我更愿意晚上一个人待着。
+		Night3Alt: I do love gazing at the stars. You could join me, if you like.
+		Night4: 你确定你21岁了？……好吧，好吧，但别告诉任何人我卖给你这个。
 		NightStylist: 今晚我应该会和{0}看电影。你也可以来，前提是你得给我们带点零食。
 		Party: 你总是会在涉及到喝酒的聚会上找到我……嗯，你也总是会在我参加聚会的地方找到酒精！
 		AcidRain: 我要融化了！在它毁掉我的头发之前，赶紧停止这种恶劣的天气！

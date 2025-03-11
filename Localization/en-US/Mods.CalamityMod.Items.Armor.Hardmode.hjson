@@ -2,14 +2,14 @@ AstralBreastplate: {
 	DisplayName: Astral Breastplate
 	Tooltip:
 		'''
-		10% increased damage
+		7% increased damage
 		+80 max mana and +20 max life
 		'''
 }
 
 AstralHelm: {
 	DisplayName: Astral Helm
-	Tooltip: 5% increased damage and 15% increased critical strike chance
+	Tooltip: 5% increased damage and 10% increased critical strike chance
 	SetBonus:
 		'''
 		+3 max minions
@@ -24,7 +24,7 @@ AstralLeggings: {
 	DisplayName: Astral Leggings
 	Tooltip:
 		'''
-		10% increased damage
+		5% increased damage
 		15% increased movement speed
 		'''
 }
@@ -353,8 +353,8 @@ MolluskShelleggings: {
 	DisplayName: Mollusk Shelleggings
 	Tooltip:
 		'''
-		12% increased damage and 4% increased critical strike chance
-		7% decreased movement speed
+		6% increased damage and 4% increased critical strike chance
+		Your horizontal movement is slowed
 		'''
 }
 
@@ -364,12 +364,12 @@ MolluskShellmet: {
 		'''
 		5% increased damage and 4% increased critical strike chance
 		You can move freely through liquids
+		Your horizontal movement is slowed
 		'''
 	SetBonus:
 		'''
 		Two shellfishes aid you in combat
-		10% increased damage
-		Your horizontal movement is slowed
+		10% increased damage reduction
 		'''
 }
 
@@ -377,8 +377,8 @@ MolluskShellplate: {
 	DisplayName: Mollusk Shellplate
 	Tooltip:
 		'''
-		10% increased damage and 6% increased critical strike chance
-		15% decreased movement speed
+		6% increased damage and 5% increased critical strike chance
+		Your horizontal movement is slowed
 		'''
 }
 
@@ -522,7 +522,7 @@ TitanHeartBoots: {
 
 TitanHeartMantle: {
 	DisplayName: Titan Heart Mantle
-	Tooltip: 5% boosted rogue knockback but 15% lowered rogue attack speed
+	Tooltip: 5% boosted rogue damage and knockback
 }
 
 TitanHeartMask: {
@@ -534,7 +534,7 @@ TitanHeartMask: {
 		'''
 	SetBonus:
 		'''
-		15% increased rogue damage and knockback
+		10% increased rogue damage and 20% increased rogue knockback
 		+100 maximum stealth
 		Stealth strikes deal double knockback and cause an astral explosion
 		Grants immunity to knockback

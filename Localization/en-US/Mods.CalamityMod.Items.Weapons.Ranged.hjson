@@ -1157,9 +1157,10 @@ SomaPrime: {
 	Tooltip:
 		'''
 		This weapon can supercrit if its crit chance is over 100%
-		All bullets fired inflict Shred, a stacking bleed debuff
-		Shred deals 150 DPS per stack and scales with your ranged stats
-		Damage ticks of Shred can also critically strike or supercrit
+		All bullets fired have a 5% chance to inflict Shred, a stacking bleed debuff
+		Critical strikes deal 3x damage instead of 2x by default and have a 30% chance to inflict Shred
+		Shred deals 600 DPS per stack and scales with your ranged stats
+		Damage ticks of Shred can critically strike for 3x damage and can supercrit
 		Replaces musket balls with enhanced High Velocity Bullets
 		80% chance to save ammo
 		'''

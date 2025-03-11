@@ -354,39 +354,44 @@ FAP: {
 		BloodMoon2: If you're too lazy to craft potions normally, try Blood Orbs. Blood is fuel, dumbass.
 		BloodMoon3: I'm trying to not be bitchy tonight, but it's hard when everyone else won't shut up.
 		BloodMoonSlap1: Sorry, I have no moral compass at the moment.
-        BloodMoonSlap2: I could slap you... but you've done more for me than most. What do you need?
+		BloodMoonSlap2: I could slap you... but you've done more for me than most. What do you need?
 		Normal1: What do you want this time? I have an appointment to get my nails done in 5 minutes, make it quick.
-        Normal1Alt: Whaddya need? I have candles and alcohols galore!
+		Normal1Alt: Whaddya need? I have candles and alcohols galore!
 		Normal2: Maybe you should drink something that turns you into a magical flying unicorn, so you can be just like me.
-        Normal2Alt: Sometimes I think about returning to nature for a while to escape from all of this chaos.
+		Normal2Alt: Sometimes I think about returning to nature for a while to escape from all of this chaos.
 		Normal3: Deals so good I'll [$$!$] myself! ...Sorry, I may have just had a minor stroke!
-        Normal3Alt: I've been thinking more about the future lately. I can't say I'm not worried, but I'll be trying my best to make it better.
+		Normal3Alt: I've been thinking more about the future lately. I can't say I'm not worried, but I'll be trying my best to make it better.
 		Normal4: Did anyone ever tell you that large assets cause back pain? Well, they were right.
-        Normal4Alt: Do you have any idea how much extra money I make so {0} can afford her super fancy hair products? The back pain is worth it.
+		Normal4Alt: Do you have any idea how much extra money I make so {0} can afford her super fancy hair products? The back pain is worth it.
 		Archmage: "{0} can share a drink with me any time! ...Or maybe not, I'm not sure his old heart could take it."
 		BrimstoneWitch: The abuse {0} went through is something I can hardly comprehend. I'd offer her a drink, but I don't think she'd enjoy it.
 		Tavernkeep1: My booze will always be better than {0}'s, and nobody can convince me otherwise.
 		Tavernkeep2: Tell {0} to stop calling me. He's not wanted.
 		Tavernkeep3: I've had to tell baldie where my eyes are so many times that I've lost count.
 		Stylist1: Ever since {0} moved in I haven't been drinking as much... a strange, but not unwelcome, feeling.
-        Stylist1Alt: I've stopped drinking almost entirely, thanks to {0} and... you. Thank you, for making this world a safer place.
+		Stylist1Alt: I've stopped drinking almost entirely, thanks to {0} and... you. Thank you, for making this world a safer place.
 		Stylist2: You can't stop me from trying to move in with {0}.
-        Stylist2Alt: If you have {0} and I housed in one of those so-called 'NPC prisons'... we WILL find you, and we WILL bring the scissors...
+		Stylist2Alt: If you have {0} and I housed in one of those so-called 'NPC prisons'... we WILL find you, and we WILL bring the scissors...
 		Stylist3: I love it when {0}'s hands get sticky from all that... wax.
-        Stylist3Alt: "{0} and I will be building wax figures tonight. And no, there's nothing weird about that."
+		Stylist3Alt: "{0} and I will be building wax figures tonight. And no, there's nothing weird about that."
 		Day1: I'm literally balls drunk off my sass right now, what do you want?
+		Day1Alt: A nice day for a walk in the woods, don't you think? Anyway, what do you need?
 		Day2: I'm either laughing because I'm drunk or because I've lost my mind, probably both.
+        Day2Alt: Some people ask me whether it's 'unicorn', 'pegacorn', 'alicorn', 'pegasus'... whatever, all of them suit me.
 		Day3: When I'm drunk I'm way happier... at least until the talking worms start to appear.
-		Day4: I should reprogram the whole mod, while drunk, then send it back to the testers.
-		DayStylist1: "{0} helped me learn to accept my past. It's been rough, but I think I'm on the right track now."
+		Day3Alt: Did you know that certain worms can speak? Neither did I, until I flew to outer space.
+		Day4: I should go fishing... while drunk, and jump into the ocean to spare myself {0}'s annoying naivety...
+        Day4Alt: I may be a 'hater' and a 'gatekeeper', but I'm also Dionysus' favorite princess, and the most fabulous girl in the world.
+		DayStylist1: "{0} helped me accept my past. It's been tough, but I think I'm on the right path now."
 		DayStylist2: Might go out for a jog later with {0}. Nice day for it.
-		DayDrunk1: I drink to forget certain... things. What things, you might ask? Well, the point is to forget them, isn't it?
+		DayDrunk1: I drink to forget... What am I trying to forget, you might ask? Well, the point is to FORGET, not RECALL, isn't it?
 		DayDrunk2: What a great day! Might just drink so much that I get poisoned again.
-		Night1: A perfect night to light some candles, drink some wine and relax.
-		Night2: Here's a challenge... take a shot for every time you've had to look at the wiki. Oh wait, you'd die.
-		Night3: Yes, everyone knows the mechworm is buggy. Well, not anymore, but still.
-		Night4: You lost or something? I don't mind company, but I'd rather be left alone at night.
-		Night5: Are you sure you're 21? ...Alright, fine, but don't tell anyone I sold you these.
+		Night1: A perfect night to light some candles, drink some wine, and relax.
+		Night2: Here's a challenge, take a shot for every time you've had to use the wiki. Oh wait, you'd die.
+        Night2Alt: There's more to life than challenge, y'know. Be sure to sit back and treat yourself once in a while.
+		Night3: You lost or something? I don't mind company, but I'd rather be left alone at night.
+        Night3Alt: I do love gazing at the stars. You could join me, if you like.
+		Night4: Are you sure you're 21? ...Alright, fine, but don't tell anyone I sold you these.
 		NightStylist: I should watch some movies with {0} tonight. You could come too, but only if you bring snacks for us.
 		Party: You'll always find me at parties where booze is involved... well, you'll always find BOOZE where I'M involved!
 		AcidRain: I'm melting! Put a stop to this inclement weather this instant before it ruins my hair!

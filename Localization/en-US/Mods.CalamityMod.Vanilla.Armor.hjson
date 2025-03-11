@@ -91,8 +91,14 @@ SetBonus: {
 		'''
 	MonkTier2:
 		'''
-		10% increased melee damage and critical strike chance
+		10% increased rogue damage and critical strike chance
 		15% increased summon damage
+		+90 maximum stealth
+		'''
+	MonkTier3:
+		'''
+		10% increased rogue damage and 20% increased summon damage
+		+100 maximum stealth
 		'''
 	Mythril:
 		'''
@@ -156,7 +162,6 @@ SetBonus: {
 		'''
 	HuntressTier2: 10% increased summon and ranged damage
 	ApprenticeTier2: 10% increased summon damage and magic critical strike chance
-	MonkTier3: 10% increased melee damage and 20% increased summon damage
 	SquireTier3:
 		'''
 		Grants +3 HP/s life regen

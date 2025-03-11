@@ -385,9 +385,9 @@ Equanimity: {
 	DisplayName: Equanimity
 	Tooltip:
 		'''
-		Throws a boomerang born of light and darkness that confuses enemies
-		The boomerang will create light shards upon hitting enemies when thrown out, and will fire homing dark shards when returning
-		Stealth strikes cause the boomerang to create both dark and light shards whenever one type would be created
+		Throws a confusing boomerang that ricochets between enemies
+		Enemy hits alternate summoning homing light shards or piercing dark shards
+		Stealth strikes cause an alternating explosion of light or dark on every ricochet, empowering the opposite color of shard
 		'''
 }
 
@@ -413,8 +413,10 @@ Exorcism: {
 	DisplayName: Exorcism
 	Tooltip:
 		'''
-		Throws a hallowed cross which explodes into a flash of light that damages nearby enemies
-		Stealth strikes create larger flashes and rain stars infused with holy light
+		Throws a gigantic hallowed cross to the heavens, which will fall at your cursor a moment later
+		Enemies hit as it falls are impaled and repeatedly seared with holy light
+		Upon experation a cross shaped explosion is created
+		Stealth strikes twirl and throw the cross, ending in a stronger explosion at your cursor
 		'''
 }
 
@@ -442,7 +444,8 @@ FishboneBoomerang: {
 	DisplayName: Fishbone Boomerang
 	Tooltip:
 		'''
-		Stealth strikes make the boomerang ricochet between enemies
+		Ricochets between up to three enemies
+		Stealth strikes release rotting bone shards with every ricochet
 		[c/5C95A1:Though the evaporating Sea Kingdom fought a losing battle, its proud inhabitants did not go down easily.]
 		[c/5C95A1:As a last resort, they had to fashion weapons from the skeletons of dead animals.]
 		'''

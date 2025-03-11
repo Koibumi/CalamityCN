@@ -114,16 +114,6 @@ AmbrosialAmpoule: {
 		'''
 }
 
-AmidiasSpark: {
-	DisplayName: Amidias' Spark
-	Tooltip:
-		'''
-		Attacks inflict Static Discharge while underwater
-		Taking damage causes the enemy to be shocked
-		Shocked enemies constantly release sparks
-		'''
-}
-
 AncientFossil: {
 	DisplayName: Ancient Fossil
 	Tooltip: Increases mining speed by 10%
@@ -292,8 +282,8 @@ BlackGlassBand: {
 	DisplayName: Black Glass Band
 	Tooltip:
 		'''
-Enemy hits create an obsidian blast that always critically strikes
-This effect has a 7 second cooldown, but is halved if the blast kills an enemy
+		Enemy hits create an obsidian blast that always critically strikes
+		This effect has a 7 second cooldown, but is halved if the blast kills an enemy
 		'''
 }
 
@@ -952,6 +942,16 @@ HowlsHeart: {
 		'''
 		Summons Howl to fight for you, Calcifer to light your way, and Turnip-Head to follow you around
 		Placing this accessory in vanity slots will summon the trio without the combat or exploration utilities
+		'''
+}
+
+IlmerisSpark: {
+	DisplayName: Ilmeris' Spark
+	Tooltip:
+		'''
+		Attacks inflict Static Discharge while underwater
+		Taking damage causes the enemy to be shocked
+		Shocked enemies constantly release sparks
 		'''
 }
 
