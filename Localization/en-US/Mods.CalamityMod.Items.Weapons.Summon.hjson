@@ -669,6 +669,17 @@ ScabRipper: {
 	Tooltip: Summons a baby blood crawler to protect you
 }
 
+SeashineSword: {
+	DisplayName: Seashine Sword
+	Tooltip:
+		'''
+		Summons a brilliant sea prism blade to slice your enemies
+		Blades will charge up while you hold this item
+		Pressing <right> will order all fully charged blades to swipe at your cursor
+		Each sword only consumes half a minion slot
+		'''
+}
+
 ShellfishStaff: {
 	DisplayName: Shellfish Staff
 	Tooltip:

@@ -1560,8 +1560,12 @@ ShieldoftheOcean: {
 	DisplayName: Shield of the Ocean
 	Tooltip:
 		'''
-		Increased defense by 5 when submerged in liquid
-		10% increased movement speed and +1 HP/s life regen while wearing Victide armor
+		Pressing [KEY] will activate a parry, encasing you in a bubble
+		Being hit shortly after encasement will pop the bubble, granting 60% DR for that hit
+		Upon popping, nearby enemies are violently launched away from you, and will be damaged if they collide with tiles
+		Enemies which cannot be launched instead directly take large damage
+		After popping, the damage reducing effect goes on a 20 second cooldown
+		Damage parried whilst on cooldown will not be reduced, and will not deal collision damage to launched enemies
 		'''
 }
 

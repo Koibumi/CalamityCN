@@ -16,8 +16,8 @@ HarpyWings:
 	在装备女妖指环或天使之靴时大多数攻击会偶尔释放羽毛
 	'''
 LeafWings: 提高10点防御并永久获得树妖祝福
-WingsNebula: 提高星云盔甲的星云强化焰的拾取距离
-WingsSolar: 耀斑盔甲的冲刺速度提高25%
-WingsStardust: 大幅提高星尘盔甲召唤的星尘守卫的伤害和攻击距离
 TatteredFairyWings: 飞行时留下一道仙尘轨迹
+WingsNebula: 提高星云盔甲的星云强化焰的拾取距离
+WingsSolar: 即使没有充能层数，也能进行耀斑冲刺
+WingsStardust: 大幅提高星尘盔甲召唤的星尘守卫的伤害和攻击距离
 WingsVortex: 冲刺后1秒，星旋盔甲的隐身状态将被自动重新激活

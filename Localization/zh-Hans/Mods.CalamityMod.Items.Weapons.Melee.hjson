@@ -1106,11 +1106,6 @@ ScourgeoftheCosmos: {
 	Tooltip: 掷出一个宇宙灾虫，击中敌人和方块时反弹并释放出追踪的小宇宙灾虫
 }
 
-SeashineSword: {
-	DisplayName: 海耀之刃
-	Tooltip: 发射水刃剑气
-}
-
 SeekingScorcher: {
 	DisplayName: 焚罪飞斧
 	Tooltip:

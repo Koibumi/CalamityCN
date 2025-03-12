@@ -1477,6 +1477,11 @@ SarosPossessionBuff: {
 	Description: 闪熠的流光日环保护着你
 }
 
+SeashineSwordBuff: {
+	DisplayName: 海耀之剑
+	Description: 绝美的晶体剑刃之舞……
+}
+
 SeaSnailBuff: {
 	DisplayName: 海蜗牛
 	Description: 喵？

@@ -1106,11 +1106,6 @@ ScourgeoftheCosmos: {
 	Tooltip: Throws a bouncing cosmic scourge that emits tiny homing cosmic scourges on enemy and tile hits
 }
 
-SeashineSword: {
-	DisplayName: Seashine Sword
-	Tooltip: Shoots an aqua sword beam
-}
-
 SeekingScorcher: {
 	DisplayName: Seeking Scorcher
 	Tooltip:

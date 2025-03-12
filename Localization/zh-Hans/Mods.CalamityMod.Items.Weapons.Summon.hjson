@@ -669,6 +669,17 @@ ScabRipper: {
 	Tooltip: 召唤血腥爬虫宝宝来保护你
 }
 
+SeashineSword: {
+	DisplayName: 海耀之刃
+	Tooltip:
+		'''
+		召唤一柄闪亮的海棱晶之刃来切割你的敌人
+		当你手持这把武器时，剑刃会充能
+		按下<right>会命令所有完全充能的剑刃向光标位置斩击
+		每把剑只消耗半个仆从栏位
+		'''
+}
+
 ShellfishStaff: {
 	DisplayName: 海贝法杖
 	Tooltip:
