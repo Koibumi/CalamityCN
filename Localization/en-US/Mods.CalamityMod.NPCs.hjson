@@ -341,13 +341,14 @@ DILF: {
 	}
 }
 
-FAP: {
+Cirrus: {
 	DisplayName: Drunk Princess
 	Census.SpawnCondition: Have {$Items.Potions.CirrusVodka.DisplayName} [i:CalamityMod/CirrusVodka] in your inventory in Hardmode or defeat Calamitas Clone/Plantera
 	Name.Cirrus: Cirrus
 
 	Chat: {
-		BossAlive: Why are you talking to me right now? Shouldn't you be bumbling around and dying for my amusement?
+		BossAlive: Why are you talking to me right now? Shouldn't you be bumbling about and dying for my amusement?
+		BossAliveAlt: You must be joking! Get back out there and FINISH THE FIGHT!
 		Homeless1: I could smell my vodka from MILES away!
 		Homeless2: Have any spare rooms available? Preferably candle-lit with a hefty supply of booze?
 		BloodMoon1: I'm gonna make some Bloody Marys to relax, celery included. Want one?
@@ -358,13 +359,13 @@ FAP: {
 		Normal1: What do you want this time? I have an appointment to get my nails done in 5 minutes, make it quick.
 		Normal1Alt: Whaddya need? I have candles and alcohols galore!
 		Normal2: Maybe you should drink something that turns you into a magical flying unicorn, so you can be just like me.
-		Normal2Alt: Sometimes I think about returning to nature for a while to escape from all of this chaos.
+		Normal2Alt: Sometimes, I think about returning to nature for a while, to escape from all of this chaos.
 		Normal3: Deals so good I'll [$$!$] myself! ...Sorry, I may have just had a minor stroke!
 		Normal3Alt: I've been thinking more about the future lately. I can't say I'm not worried, but I'll be trying my best to make it better.
 		Normal4: Did anyone ever tell you that large assets cause back pain? Well, they were right.
-		Normal4Alt: Do you have any idea how much extra money I make so {0} can afford her super fancy hair products? The back pain is worth it.
+		Normal4Alt: Do you have any idea how much extra money I make so {0} can afford her super-fancy hair products? Heh, the back pain is worth it.
 		Archmage: "{0} can share a drink with me any time! ...Or maybe not, I'm not sure his old heart could take it."
-		BrimstoneWitch: The abuse {0} went through is something I can hardly comprehend. I'd offer her a drink, but I don't think she'd enjoy it.
+		BrimstoneWitch: The abuse {0} endured is something I can scarcely comprehend. I'd offer her a drink, but I don't think she'd enjoy it.
 		Tavernkeep1: My booze will always be better than {0}'s, and nobody can convince me otherwise.
 		Tavernkeep2: Tell {0} to stop calling me. He's not wanted.
 		Tavernkeep3: I've had to tell baldie where my eyes are so many times that I've lost count.
@@ -392,20 +393,22 @@ FAP: {
 		Night3: You lost or something? I don't mind company, but I'd rather be left alone at night.
 		Night3Alt: I do love gazing at the stars. You could join me, if you like.
 		Night4: Are you sure you're 21? ...Alright, fine, but don't tell anyone I sold you these.
-		NightStylist: I should watch some movies with {0} tonight. You could come too, but only if you bring snacks for us.
+		NightStylist: I should watch some movies with {0} tonight. You could come too, but only if you bring snacks.
 		Party: You'll always find me at parties where booze is involved... well, you'll always find BOOZE where I'M involved!
-		AcidRain: I'm melting! Put a stop to this inclement weather this instant before it ruins my hair!
-		Martians: You should probably deal with those ayy lmaos before anything else, but whatever.
-		CryogenDefeated: God I can't wait to smash some ice again! ...For drinks, of course.
+		PartyAlt: Y'know... this is fun and all, but I can't wait for the festivities to be over.
+		AcidRain: I'm melting! Put a stop to this inclement weather before it ruins my hair!
+		Martians: You should probably deal with those 'ayy lmaos' before doing anything else, but whatever.
+		CryogenDefeated: God, I can't wait to smash some ice again! ...For drinks, of course.
 		LeviathanDefeated: How could you murder such a beautiful creature!? ...The blue one, not the obese cucumber.
-		MoonLordDefeated: Ever wondered why the Moon Lord needed so many tentacles? Uh... on second thought, I won't answer that.
+		MoonLordDefeated: Ever wondered why the Moon Lord needed so many tentacles? Uhm... on second thought, I won't answer that.
 		PolterghastDefeated: I saw a ghost down by the old train tracks back at my homeland once, flailing wildly at the lily pads... frightening times those were.
 		DoGDefeated: I hear it's amazing when the famous Devourer of Gods out in flap-jaw space, with the tuning fork, does a raw blink on Hara-kiri rock. I need scissors! 61!
 		HasChibii: The hell is that? Looks like something I'd carry around if I was 5 years old.
-		HasAnahitaTrans: Nice scales... is it hot in here or is it just me?
-		HasVodka: Do you like my vodka? I created it by mixing fairy dust, crystallized cave sweat and other magical crap.
+		HasChibiiAlt: I won't judge you for having that creature in tow... but keep it the hell away from me.
+		HasAnahitaTrans: Nice scales... Is it hot in here, or is it just me?
+		HasVodka: Do you like my vodka? I created it by mixing fairy dust, crystallized cave sweat, and other magical crap.
 		HasAlicorn1: So... you found my special bottle. Hope you enjoy it, I know I will.
-		HasAlicorn2: Be sure to dismount me once in a while, I get tired. And besides, I can't rip you off-I mean offer you excellent deals you won't find anywhere else if you're riding me 24/7.
+		HasAlicorn2: Be sure to dismount me once in a while, I get tired. And besides, I can't rip you off-I mean, offer you excellent deals you won't find anywhere else, if you're riding me 24/7.
 		HasAlicorn3: Before you ask, no, I do NOT have a heart on my butt while in human form. Don't question my transformation preferences!
 	}
 

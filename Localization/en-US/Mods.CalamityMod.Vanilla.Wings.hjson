@@ -10,11 +10,7 @@ FinWings:
 	'''
 FlameWings: Multiplies all heat debuff damage by 1.25x
 FrozenWings: Multiplies all cold debuff damage by 1.25x
-HarpyWings:
-	'''
-	10% increased movement speed
-	With Harpy Ring or Angel Treads equipped, most attacks sometimes launch feathers
-	'''
+HarpyWings: 10% increased movement speed
 LeafWings: +10 defense and permanent Dryad's Blessing
 TatteredFairyWings: You leave a trail of fairy dust as you fly
 WingsNebula: Increases the pickup range of Nebula armor's nebula boosters

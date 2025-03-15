@@ -341,72 +341,75 @@ DILF: {
 	}
 }
 
-FAP: {
+Cirrus: {
 	DisplayName: 醉仙女
 	Census.SpawnCondition: 困难模式下，玩家的物品栏中有{$Items.Potions.CirrusVodka.DisplayName} [i:CalamityMod/CirrusVodka]，或者已击败灾厄之影或世纪之花
 	Name.Cirrus: Cirrus
 
 	Chat: {
 		BossAlive: 你为什么在跟我说话？你难道不应该到处瞎折腾，然后成为我的娱乐而惨死吗？
+		BossAliveAlt: 你在开玩笑吧！滚出去，继续你的战斗！
 		Homeless1: 我在几英里外闻到我的伏特加味！
 		Homeless2: 有空房吗？最好是点着蜡烛有很多很多酒的。
 		BloodMoon1: 嘿！晚安。我要做一些血腥玛丽，加芹菜的。要来一杯吗？
-		BloodMoon2: 如果你无法顺利炼药，试试血珠。血液就是药材，笨蛋。
+		BloodMoon2: 如果你懒到连正常炼药都不肯，试试血珠。血液就是药材，笨蛋。
 		BloodMoon3: 今晚我会尽量控制自己不发脾气，但其他人都不闭嘴的话，恐怕很难办到。
 		BloodMoonSlap1: 对不起，现在的我没有道德底线。
-		BloodMoonSlap2: I could slap you... but you've done more for me than most. What do you need?
-		Normal1: What do you want this time? I have an appointment to get my nails done in 5 minutes, make it quick.
-		Normal1Alt: Whaddya need? I have candles and alcohols galore!
+		BloodMoonSlap2: 我本来想痛扇你一巴掌……但是你帮我的比大多数人都多。你想要点什么？
+		Normal1: 这次你想要什么？我约了5分钟后去做指甲，快点。
+		Normal1Alt: 泥要啥？蜡烛有的是，酒更是管够！
 		Normal2: 或许你可以喝一点可以让你变成神奇的飞行独角兽的东西，你就可以变得跟我一样了。
-		Normal2Alt: Sometimes I think about returning to nature for a while to escape from all of this chaos.
+		Normal2Alt: 有时候，我会想回归大自然一段时间，来逃离这一切的混乱。
 		Normal3: 交易这么好，我会[$$!$]我自己！……抱歉，我大概只是中风了！
-		Normal3Alt: I've been thinking more about the future lately. I can't say I'm not worried, but I'll be trying my best to make it better.
-		Normal4: 有人告诉过你有钱会引起痛苦吗？嗯，他们是对的。
-		Normal4Alt: Do you have any idea how much extra money I make so {0} can afford her super fancy hair products? The back pain is worth it.
+		Normal3Alt: 最近我越来越常思考未来。不能说我毫不担心，但我会尽力让它变得更好。
+		Normal4: 有人告诉过你，家底太丰厚会让人背痛吗？嗯，他们是对的。
+		Normal4Alt: 你知道为了让{0}买得起她那些超花哨的美发产品，我赚了多少外快吗？呵，背痛也值了。
 		Archmage: "{0}可以随时和我一起喝一杯！……也许不行，我不确定他那颗沧桑的心能否承受。"
-		BrimstoneWitch: "{0}经历了我难以想象的苦难。我想要给她一杯酒，但我想她可能不会喜欢。"
+		BrimstoneWitch: "{0}承受了我难以想象的苦难。我想要给她一杯酒，但我想她可能不会喜欢。"
 		Tavernkeep1: 我的酒可比{0}的好多了，关于这个事实没人说服得了我。
 		Tavernkeep2: 告诉{0}别再找我了，他不合我的口味
 		Tavernkeep3: 我不得不多次告诉那个秃头我的眼睛在哪儿，我都数不清我说了多少次了。
 		Stylist1: 自从{0}搬进来后，我就没有以前喝的那么多了……这种感觉很奇怪，但是我并不反感。
-		Stylist1Alt: I've stopped drinking almost entirely, thanks to {0} and... you. Thank you, for making this world a safer place.
+		Stylist1Alt: 我几乎彻底戒酒了，多亏了{0}和……你。谢谢你，让这个世界变得更加安全了。
 		Stylist2: 你不能阻止我和{0}同居。
-		Stylist2Alt: If you have {0} and I housed in one of those so-called 'NPC prisons'... we WILL find you, and we WILL bring the scissors...
+		Stylist2Alt: 如果你把{0}和我关进一间所谓的“NPC监狱”里……我们会找到你的，我们还会带上剪刀……
 		Stylist3: 我非常享受{0}的手沾上了那些黏黏的浓稠的……发蜡的样子。
-		Stylist3Alt: "{0} and I will be building wax figures tonight. And no, there's nothing weird about that."
+		Stylist3Alt: "{0}和我今晚要制作蜡像。不，这没什么可奇怪的。"
 		Day1: 我现在简直是喝得烂醉如泥，你想要什么？
-		Day1Alt: A nice day for a walk in the woods, don't you think? Anyway, what do you need?
+		Day1Alt: 今天是在林中散步的好日子，你不觉得吗？无论如何，你需要什么？
 		Day2: 我要么是因为喝醉了大笑，要么是因为我疯了，又也许两者都有。
-		Day2Alt: Some people ask me whether it's 'unicorn', 'pegacorn', 'alicorn', 'pegasus'... whatever, all of them suit me.
-		Day3: 当我喝醉的时候，我会更快乐…至少是话痨开始在我耳边嗡嗡叫之前。
-		Day3Alt: Did you know that certain worms can speak? Neither did I, until I flew to outer space.
-		Day4: I should go fishing... while drunk, and jump into the ocean to spare myself {0}'s annoying naivety...
-		Day4Alt: I may be a 'hater' and a 'gatekeeper', but I'm also Dionysus' favorite princess, and the most fabulous girl in the world.
+		Day2Alt: 有人问我到底是“独角兽”，“独角天马”，“天角兽”，“天马”……不管哪个，这些词描述我都很合适。
+		Day3: 当我喝醉的时候，我会更快乐…至少是唠叨“虫”开始在我耳边口若悬“蛇”之前。
+		Day3Alt: 你知道有的蠕虫会说话吗？我以前也不知道，直到我飞进了外太空。
+		Day4: 我应该去钓鱼……喝醉了再去，然后一头扎进海里，免得被{0}恼人的幼稚所困扰……
+		Day4Alt: 我也许是一个“愤世嫉俗者”，或者是一个“精英主义者”。但我也是酒神狄奥尼索斯最宠爱的公主，世界上最耀眼的女孩。
 		DayStylist1: "{0}帮助我接受我的过去。虽然这个过程坎坷，但我想我正走在正确的道路上。"
 		DayStylist2: 以后可以和{0}出去慢跑了。那会是美好的一天。
 		DayDrunk1: 我喝酒是为了遗忘……你可能会问“什么事情啊”，但重点是忘记它们，而不是回忆，懂吗？
 		DayDrunk2: 多么美好的一天，可能我喝得太多了，我又中毒了。
 		Night1: 一个完美的夜晚，就要点一些蜡烛，喝一点酒，尽情放松。
 		Night2: 来点挑战，每次你不得不用wiki的时候就扎自己一针。哦等等，这样你会死的。
-		Night2Alt: There's more to life than challenge, y'know. Be sure to sit back and treat yourself once in a while.
+		Night2Alt: 你要知道，生活中绝不仅仅是挑战。一定要偶尔放松一下，好好犒劳自己。
 		Night3: 你是打输了还是怎么了？我不介意有人陪着，但我更愿意晚上一个人待着。
-		Night3Alt: I do love gazing at the stars. You could join me, if you like.
+		Night3Alt: 我很喜欢仰望星空，久久沉浸在星光之中。如果你愿意，可以和我一起。
 		Night4: 你确定你21岁了？……好吧，好吧，但别告诉任何人我卖给你这个。
-		NightStylist: 今晚我应该会和{0}看电影。你也可以来，前提是你得给我们带点零食。
+		NightStylist: 今晚我应该会和{0}看电影。你也可以来，前提是你得带点零食。
 		Party: 你总是会在涉及到喝酒的聚会上找到我……嗯，你也总是会在我参加聚会的地方找到酒精！
+		PartyAlt: 你知道吗……这确实挺有趣的，但我已经等不及庆典的结束了。
 		AcidRain: 我要融化了！在它毁掉我的头发之前，赶紧停止这种恶劣的天气！
-		Martians: 也许你应该先搞定那些外星人再考虑其他的，无论如何。
+		Martians: 也许你应该先搞定那些“外星人”再考虑其他的，不过随便你了。
 		CryogenDefeated: 天哪，我等不及要搞点冰了！……当然，是为了饮料。
 		LeviathanDefeated: 你怎么忍心杀害这么漂亮的生物？……是性感的蓝色的那个，而不是那个肥胖的黄瓜。
-		MoonLordDefeated: 为什么一个生物需要那么多触手……事实上，不要回答这个问题。
+		MoonLordDefeated: 你想过为什么月亮领主会需要这么多触手吗？嗯……算了，我还是不要回答这个问题了。
 		PolterghastDefeated: 有一次我在家乡的旧铁轨上看到一个鬼魂疯狂地拍打着睡莲的叶子...那真是一个可怕的回忆。
 		DoGDefeated: I hear it's amazing when the famous Devourer of Gods out in flap-jaw space, with the tuning fork, does a raw blink on Hara-kiri rock. I need scissors! 61!（这是个梗）
 		HasChibii: 这是什么鬼东西？看上去像我5岁的时候玩的玩具。
+		HasChibiiAlt: 我不会因为你带着这个生物而责怪你……但让它离我远点。
 		HasAnahitaTrans: 这鳞片真好看……这房间里很热吗？还是说只有我这样觉得？
 		HasVodka: 哦，是的，现在你喝的是好东西！你喜欢吗？我把仙尘、水晶和其他魔法物质混合在一起创造了这个配方。
 		HasAlicorn1: 所以说……你找到了我特别的瓶子。希望你能喜欢它，反正我挺享受的。
-		HasAlicorn2: 我累的时候你一定要让我身上下来让我休息会。而且，如果你一直骑着我的话我会宰了你-我的意思是那样的话我就不给你提供其他地方找不到的好交易了。
-		HasAlicorn3: 在你提问之前，不，我人类形态的屁股上没有爱心。不要质疑我的嗜好！
+		HasAlicorn2: 记得时不时从我身上下来，我也会累的。而且，如果你一直骑着我的话，我就没法对你漫天要-我是说，向你提供世间绝无仅有的美妙交易了。
+		HasAlicorn3: 你先别问，不，我人类形态的屁股上没有爱心。不要质疑我的嗜好！
 	}
 
 	// Death Count stuffs

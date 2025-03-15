@@ -211,7 +211,7 @@ AscendantInsignia: {
 	DisplayName: Ascendant Insignia
 	Tooltip:
 		'''
-		Increases wing flight time by 50%, movement and jump speed by 10%, and acceleration by 1.5x
+		Increases wing flight time by 50%, movement and jump speed by 15%, and acceleration by 1.5x
 		Pressing [KEY] grants you the power of ascension, providing infinite flight time for 4 seconds
 		Ascension has a 40 second cooldown
 		'''
@@ -542,7 +542,12 @@ DarkSunRing: {
 
 DeadshotBrooch: {
 	DisplayName: Deadshot Brooch
-	Tooltip: 10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage
+	Tooltip:
+		'''
+		12% increased ranged damage, 7% increased ranged critical strike chance and 20% reduced ammo usage
+		Pressing [KEY] will automatically swap the order of ammos in your ammo slots
+		The ammo type swapped depends on the ammo of the weapon you are holding
+		'''
 }
 
 DeepDiver: {
@@ -850,7 +855,7 @@ GladiatorsLocket: {
 	Tooltip:
 		'''
 		Enemies drop a healing orb on kill
-		Gain an increase to your damage and movement speed the lower your health is, up to 20%
+		Gain an increase to your damage and movement speed the lower your health is, up to 20% at 50% life or below
 		'''
 }
 
@@ -1287,7 +1292,8 @@ PlanebreakersPouch: {
 		'''
 		15% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage
 		Grants a 20% chance to not consume arrows
-		Greatly increases all ranged projectile velocity
+		Pressing [KEY] will automatically swap the ammos in your ammo slots
+		The ammo type swapped depends on the ammo of the weapon you are holding
 		'''
 }
 

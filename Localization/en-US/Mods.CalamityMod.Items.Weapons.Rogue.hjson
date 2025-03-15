@@ -1392,6 +1392,7 @@ Whitewater: {
 		Flasks that hit enemies while glowing release four water spears that converge back on the flask's position
 		If the flask hits an enemy or gets too far, it will return to the owner
 		Stealth strikes create eight water spears and summon a swirling whitewater vortex that heals players and knocks back enemies
+		Allies that enter the vortex will heal for twice as long
 		'''
 }
 

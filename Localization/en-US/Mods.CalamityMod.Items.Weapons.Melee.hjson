@@ -749,7 +749,7 @@ Hellkite: {
 		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
 		Swings a slow and heavy blade with powerful knockback
 		Holding <right> will begin charging a strengthened swing
-		Releasing <right> while fully charged will unleash a devastating slash
+		Releasing <right> while fully charged will unleash a devastating slash that always critically strikes
 		[c/E1B65F:'Feel the strength of a blade forged through passion']
 		'''
 	TooltipGFB:
@@ -757,7 +757,7 @@ Hellkite: {
 		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
 		Swings a slow and heavy blade with powerful knockback
 		Holding <right> will begin charging a strengthened swing
-		Releasing <right> while fully charged will unleash a devastating slash
+		Releasing <right> while fully charged will unleash a devastating slash that always critically strikes
 		[c/0C507F:'My beloved <3' -Xyk]
 		'''
 }

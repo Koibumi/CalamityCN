@@ -1,5 +1,6 @@
 ActivateAccessoryParry.DisplayName: Activate Accessory Parry
 AdrenalineMode.DisplayName: Adrenaline Mode
+AmmoCycle.DisplayName: Ammo Cycle Hotkey
 AngelicAllianceBlessing.DisplayName: Angelic Alliance Blessing
 ArmorSetBonus.DisplayName: Armor Set Bonus
 AscendantInsigniaHotKey.DisplayName: Ascendant Insignia Flight
@@ -7,9 +8,8 @@ BoosterDash.DisplayName: Booster Dash
 DashDoubleTapOverride.DisplayName: Dash Double Tap Override
 ExoChairSlowDown.DisplayName: Exo Chair Slow Down
 GodSlayerDash.DisplayName: God Slayer Dash
-GravistarSabatonHotkey.DisplayName: Gravistar Sabaton Slam
+GravistarSabatonHotkey.DisplayName: Interstellar Stompers Slam
 NormalityRelocator.DisplayName: Normality Relocator
 RageMode.DisplayName: Rage Mode
-SandCloakEffect.DisplayName: Sand Cloak Effect
 SpectralVeilTeleport.DisplayName: Spectral Veil Teleport
 TransformerHotKey.DisplayName: Transformer Hot Key

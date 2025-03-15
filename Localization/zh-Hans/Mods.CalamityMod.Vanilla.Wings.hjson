@@ -10,11 +10,7 @@ FinWings:
 	'''
 FlameWings: 所有火系减益的伤害乘以1.25
 FrozenWings: 所有冷系减益的伤害乘以1.25
-HarpyWings:
-	'''
-	提高10%移动速度
-	在装备女妖指环或天使之靴时大多数攻击会偶尔释放羽毛
-	'''
+HarpyWings: 提高10%移动速度
 LeafWings: 提高10点防御并永久获得树妖祝福
 TatteredFairyWings: 飞行时留下一道仙尘轨迹
 WingsNebula: 提高星云盔甲的星云强化焰的拾取距离

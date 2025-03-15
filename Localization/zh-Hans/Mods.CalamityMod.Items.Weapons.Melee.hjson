@@ -749,7 +749,7 @@ Hellkite: {
 		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
 		挥舞一把带强力击退的缓慢重剑
 		按住右键会开始充能一次加强型挥舞
-		满充能时松开右键会释放一次毁灭斩切
+		满充能时松开右键会释放一次必定暴击的毁灭斩切
 		[c/E1B65F:'Feel the strength of a blade forged through passion']
 		'''
 	TooltipGFB:
@@ -757,7 +757,7 @@ Hellkite: {
 		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
 		挥舞一把带强力击退的缓慢重剑
 		按住右键会开始充能一次加强型挥舞
-		满充能时松开右键会释放一次毁灭斩切
+		满充能时松开右键会释放一次必定暴击的毁灭斩切
 		[c/0C507F:“我的最爱<3”-Xyk]
 		'''
 }
