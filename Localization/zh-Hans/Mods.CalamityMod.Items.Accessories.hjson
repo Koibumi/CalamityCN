@@ -542,7 +542,7 @@ DarkSunRing: {
 
 DeadshotBrooch: {
 	DisplayName: 神射手胸针
-	Tooltip: 
+	Tooltip:
 		'''
 		增加12%远程伤害、7%远程暴击率并降低20%弹药消耗率
 		按下[KEY]会自动交换弹药槽中弹药的顺序

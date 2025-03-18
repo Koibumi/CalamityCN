@@ -65,7 +65,7 @@ HolofiberImmolator: {
 		'''
 		发射三个受到重力影响的等离子球，融解并穿过敌怪
 		按住<left>将弓快速充能，发射一支追踪等离子箭
-		等离子箭在碰撞后爆炸，如果与物块碰撞，爆炸将会更加猛烈
+		等离子箭在碰撞后起爆，如果与物块碰撞，爆炸将会更加猛烈
 		按住<right>连续发射未充能的等离子球
 		[c/1FFBFF:'The elegance of holofibre is unmatched.]
 		[c/1FFBFF:However, mechanical tension may have produced more consistent results.']
@@ -141,7 +141,7 @@ PulsePistol: {
 	DisplayName: 脉冲手枪
 	Tooltip:
 		'''
-		发射一道脉冲，追踪附近的敌人
+		发射一道脉冲，瞄准附近的敌人
 		命中敌怪后，脉冲会一分为二
 		如果杀死了敌怪，脉冲的穿透数不会减少
 		'''
@@ -173,8 +173,8 @@ ScattershotSkewer: {
 	DisplayName: Scattershot Skewer
 	Tooltip:
 		'''
-		发射一串激光
-		按住<left>将武器充能，使武器能够向前刺出，用能量矛刺穿敌人
+		发射一扇激光
+		按住<left>充能，使武器能够向前刺出，用能量矛刺穿敌人
 		充能攻击有一个较短的冷却时间
 		按住<right>连续发射未充能的激光
 		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
