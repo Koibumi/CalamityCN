@@ -14,6 +14,9 @@ GaussFlux.DisplayName: Gauss Flux
 GaussPistolShot.DisplayName: Gauss Shot
 GaussRifleBlast.DisplayName: Gauss Blast
 GaussRifleExplosion.DisplayName: Gauss Explosion
+ImmolationArrow.DisplayName: Immolation Arrow
+ImmolationBurst.DisplayName: Immolation Burst
+ImmolationSpray.DisplayName: Immolation Spray
 LaserRifleShot.DisplayName: Laser Rifle
 MassivePlasmaExplosion.DisplayName: Plasma Explosion
 MountedScannerLaser.DisplayName: Deathray
@@ -28,6 +31,8 @@ PulsePistolShot.DisplayName: Pulse Bolt
 PulseRifleShot.DisplayName: Pulse Bolt
 PulseTurret.DisplayName: Pulse Turret
 PulseTurretShot.DisplayName: Pulse Bolt
+ScattershotLance.DisplayName: Laser Lance
+ScattershotLaser.DisplayName: Scattershot Laser
 SnakeEyesSummon.DisplayName: Snake Eyes
 SnakeEyesProjectile.DisplayName: Inescapable Bolt
 StarSwallowerAcid.DisplayName: Acid

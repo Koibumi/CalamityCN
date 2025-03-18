@@ -71,6 +71,7 @@ AuroraSpirit: 曾被认为只存在于老太太口中故事的极光之灵，在
 BloomSlime: 这些被注入了亵渎能量的史莱姆渴望看到它们的痛苦能同世界一起焚为灰烬。然而，对那位已死女神而言，将自身的意志完全施加于这些形态简单的生物是相当困难的一件事。
 Bohldohr: 在伟大蜥蜴王朝的晚期，使用古代岩石为原材料，并用魔力为其注入生命的神庙滚石被制造出来以侍奉蜥蜴人们。但阳光平等照耀着每个文明，一旦它们的神明抛弃了它们，它们就只能自食其力。
 CladCrab: Strong enough to carry an entire mound, these land crustaceans were hard pressed for survival during the Crusade. With no other option, they added rock and stone to their list of protections, allowing them to continue thriving.
+CloudElemental: 相当特立独行的元素之灵，除了她的领域达到极盛的那段时期，她很少现身。阿萨福勒陨落后，亚利姆军队的残余势力为了抓捕她用过许多方法。只有战争早以结束的现在，弱小的元素才胆敢归来。
 GemCrawler: 伊尔梅兰海棱晶背龟的近亲。这些水生动物离开了荒野，成为了宠物。由于没有足够的营养供给背上的棱晶，它们开始在背上长出第二好的东西——珍贵的宝石。
 BlightSlime: 这些史莱姆吸收了少量病变的神明精华。参杂了杂质的它们现在身上比起凝胶拥有更多的腐烂血肉，以至于看起来随时都会炸裂。但和大多数只有相对基础智能的史莱姆不同，它们似乎会处于某种目的收集物质。
 Cryon: 大法师永冻经历了十分痛苦的思想斗争后才决定不亲自参加战斗，因此他创造出冰人作为自己的随身护卫。和许多其他生物一样，它们也注意到了神明精华的扩散，因此从沉睡状态中苏醒过来，与任何跟神明精华有关的事物作战以保卫自己的主人。
@@ -93,7 +94,6 @@ ScornEater: 意志的薄弱不代表体格的薄弱。这些强大的个体造�
 ShockstormShuttle: 来自一个失落已久世界文明的挖掘与探测装置，它们现在在寻找邻近星球上残留的一切资源，而或许这颗星球甚至还能替代它们已经毁灭的故土。
 Shroomble: Mushrooms offer surprisingly effective regenerative agents to human bodies. This is commonly attributed to their abundance of Life, and visibly, "abundance" is often an understatement.
 Sunskater: 对于那些居住在云层之上的文明来说，寻阳鱼是一个好兆头。这些生物会为看到它们的人带来希望，因为只要太阳的光辉还沐浴着世界，他们的文明就能永世长存。
-ThiccWaifu: 相当特立独行的元素之灵，除了她的领域达到极盛的那段时期，她很少现身。阿萨福勒陨落后，亚利姆军队的残余势力为了抓捕她用过许多方法。只有战争早以结束的现在，弱小的元素才胆敢归来。
 WildBumblefuck: 就算只是尚未成年的痴愚金龙，也足以对周边的一切造成威胁。它们是依靠大量繁殖和隐居，以及进化出的高度攻击性才活过了那场对巨龙的大清洗。
 WulfrumAmplifier: 这些增幅器会通过及其先进的特斯拉力场来强化其它钨钢机器。尽管力场本身不会对有机体造成任何不良影响，钨钢机器却能在其中得到足以让它们功率全开的能量。
 WulfrumDrone: 只需通过无人机，我们就可以清楚了解钨钢机器所想达到目的：骚扰亚利姆军队的基本部队。尽管它们的激光攻击在完全启动后会非常致命，但它们的威胁性并不足以成为他们的优先攻击目标。
@@ -137,11 +137,11 @@ Sharkoon: The bulbous Sharkoon wanders the reefs on the outskirts of the Sunken 
 Stormlion: Some Ilmerian survivors claim that enough magical lightning surged through the sea during its final days that there existed not a single drop of water without levin coursing through it. Even now, electricity remains buried in the sands, with several antlion species having learned to channel the former kingdom's power.
 //Town NPCs
 AndroombaFriendly: 经过逆向工程改造的仙女座扫除机，翻新后不再清理地上的灰尘和垃圾，而是喷洒蒸汽朋克人的溶液。它们可以被用于净化这个世界——或者，如果有人愿意的话，毁掉它。
-DILF: 这个世界最重要的魔学理论专家之一，他凭借自己的奥术技艺声名远扬。在和亚利姆同行的日子里，由于他身份的特殊性和不愿积极参加战斗，他担任起了那位寻神者的顾问。
+Archmage: 这个世界最重要的魔学理论专家之一，他凭借自己的奥术技艺声名远扬。在和亚利姆同行的日子里，由于他身份的特殊性和不愿积极参加战斗，他担任起了那位寻神者的顾问。
+Bandit: 强盗有一个坏习惯，就是在战场上劫掠和拿走不属于他们的东西，但他们的行为主要是出于对坐拥不义之财者的憎恨。他们的手段或许比较肮脏，但他们总能很好地完成工作。
+BrimstoneWitch: 她在战争的晚期被招募进亚利姆的军队。她的魔力如此强大，以至于她很大程度上无法释放一般的法术。但尽管灾厄有着如此强大的力量，她更倾向于不使用这股力量，因为那会严重损害她的精神。
 Cirrus: 一块未知大陆的公主，她不断地饮酒以试图遗忘自己的过去，但在几乎已经免疫酒精的情况下这只是徒劳的尝试罢了。她以出售自己的混合物、酒和炼金物来赚钱。
-SEAHOE: 自伊尔梅兰海的众多部族在雷霆女神欧托尼露与神秘海神的号召下统一以来，伊尔梅里斯君主立宪国的统治者之位传到他手中已是第十七任。唉，统治者不能没有臣民，尽管那些反抗寻神者亚利姆的人依然很尊敬他，但他自己的王国已经彻底消失了。
-THIEF: 强盗有一个坏习惯，就是在战场上劫掠和拿走不属于他们的东西，但他们的行为主要是出于对坐拥不义之财者的憎恨。他们的手段或许比较肮脏，但他们总能很好地完成工作。
-WITCH: 她在战争的晚期被招募进亚利姆的军队。她的魔力如此强大，以至于她很大程度上无法释放一般的法术。但尽管灾厄有着如此强大的力量，她更倾向于不使用这股力量，因为那会严重损害她的精神。
+SeaKing: 自伊尔梅兰海的众多部族在雷霆女神欧托尼露与神秘海神的号召下统一以来，伊尔梅里斯君主立宪国的统治者之位传到他手中已是第十七任。唉，统治者不能没有臣民，尽管那些反抗寻神者亚利姆的人依然很尊敬他，但他自己的王国已经彻底消失了。
 //Boss Minions
 Brimling: 硫磺火元素自身的延申，也是她本体的一部分。她和她的小硫火灵都只有一个思维，因此她天然会关心她们，就像关心自己一样。当受到严重伤害时，她们会缩进壳中保护自己免受更多的伤害。
 SoulSeeker: 灾厄克隆体将罪恶的灵魂武器化的尝试，它们和阿萨福勒的近亲们相比只多了些许自主权。然而，鉴于它们和克隆体的外壳极其相似，可以说它们和阿萨福勒废墟中的那些人相比和灾厄目前的探魂者差别更大。

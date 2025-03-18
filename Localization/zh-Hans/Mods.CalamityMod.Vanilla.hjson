@@ -431,6 +431,7 @@ StylistChat: {
 	Hardmode: 请不要抓太空虱子，或者{0}虱子，或者仅仅是普通的虱子。
 	DrunkPrincess1: "{0}总是想让我心情愉快……即使，我知道她的内心深处很伤心。"
 	DrunkPrincess2: 有时我发现{0}从我背后偷偷跟上来。
+	DrunkPrincess3: "{0}最近笑得更多了，就算没有喝酒也是。我想，多多少少，我应该为此感谢你"
 	ProfanedSoulCrystal1: 它们看上去如此可爱，然而一靠近它们，我就能感受到它们恐怖的力量。你怎么看？
 	ProfanedSoulCrystal2: 我不想打发你走，但是你的头发确实不需要剪，也没有发型。嗯。
 	ProfanedDonuts: 哇偶，它们太可爱了，你为它们起名字了吗？
@@ -449,11 +450,11 @@ TaxCollectorChat: {
 	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
 }
 
-TravellingMerchantChat.DrunkPrincessMerchant: 去告诉{0}，我会接受她的建议并且会和她在{1}的房子那儿见面。
+TravellingMerchantChat.DrunkPrincessMerchant: 去告诉{0}，我会接受她的建议并和她在{1}的房子那儿见面。
 
 TruffleChat: {
 	Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
-	DrunkPrincess: 有时，{0} 只看着我很有趣而我不知道我对此有何感受。
+	DrunkPrincess: 有时，{0}只是饶有兴味地看着我，而我说不清楚我对此有何感受。
 }
 
 WitchDoctorChat: {

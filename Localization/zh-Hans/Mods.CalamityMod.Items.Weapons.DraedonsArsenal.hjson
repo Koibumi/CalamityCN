@@ -50,16 +50,25 @@ GaussPistol: {
 
 GaussRifle: {
 	DisplayName: 高斯来复枪
-	Tooltip: 发射毁灭性的荒谬击退的高速冲击波
-}
-
-HeavyLaserRifle: {
-	DisplayName: 重型激光步枪
 	Tooltip:
 		'''
-		发射一对极其精确的毁灭激光束
-		[c/1FFBFF:“尽管寻神者骑士通常是野蛮的，但并不是所有人都喜欢近身搏斗。]
-		[c/1FFBFF:因此，亚利姆个人要求我制造重型武器，尽管数量很少。”]
+		一把发射穿透能量束的磁能步枪，在命中时产生吸引较弱敌人的磁能内爆
+		内爆只会在光束的首次命中时生成
+		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
+		[c/1FFBFF:This rifle has reliably pulled in skeptics of its crushing efficiency.']
+		'''
+}
+
+HolofiberImmolator: {
+	DisplayName: Holofiber Immolator
+	Tooltip:
+		'''
+		发射三个受到重力影响的等离子球，融解并穿过敌怪
+		按住<left>将弓快速充能，发射一支追踪等离子箭
+		等离子箭在碰撞后爆炸，如果与物块碰撞，爆炸将会更加猛烈
+		按住<right>连续发射未充能的等离子球
+		[c/1FFBFF:'The elegance of holofibre is unmatched.]
+		[c/1FFBFF:However, mechanical tension may have produced more consistent results.']
 		'''
 }
 
@@ -71,15 +80,6 @@ HydraulicVoltCrasher: {
 		右键使用以避免破坏墙壁
 		[c/1FFBFF:“一种用电冲压金属板并瞬间熔化它们的设备。]
 		[c/1FFBFF:自然也能作为一把毁灭性武器。”]
-		'''
-}
-
-MatterModulator: {
-	DisplayName: 物质调谐器
-	Tooltip:
-		'''
-		发射不稳定物质，可以无限穿透敌怪但造成的伤害极低
-		撞击物块后物质能造成更多伤害但无法穿透
 		'''
 }
 
@@ -139,7 +139,12 @@ PulseDragon: {
 
 PulsePistol: {
 	DisplayName: 脉冲手枪
-	Tooltip: 发射一道脉冲，击中敌人后会弧向附近的新目标
+	Tooltip:
+		'''
+		发射一道脉冲，追踪附近的敌人
+		命中敌怪后，脉冲会一分为二
+		如果杀死了敌怪，脉冲的穿透数不会减少
+		'''
 }
 
 PulseRifle: {
@@ -161,6 +166,19 @@ PulseTurretRemote: {
 		{$CommonItemTooltip.Sentry}
 		召唤一个炮塔，向你的敌人发射爆炸性脉冲冲击
 		同时只能存在至多一个脉冲炮塔
+		'''
+}
+
+ScattershotSkewer: {
+	DisplayName: Scattershot Skewer
+	Tooltip:
+		'''
+		发射一串激光
+		按住<left>将武器充能，使武器能够向前刺出，用能量矛刺穿敌人
+		充能攻击有一个较短的冷却时间
+		按住<right>连续发射未充能的激光
+		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
+		[c/1FFBFF:A laser lance with which to gore their foes was met with thunderous applause.']
 		'''
 }
 
@@ -199,8 +217,8 @@ Taser: {
 	DisplayName: 泰瑟枪
 	Tooltip:
 		'''
-		发射会吸附在敌人身上的钩爪，在返回前持续电击敌人
-		一把缓慢，简单的电磁武器，只配给那些低等级的护卫
+		发射会吸附在敌人身上的钩爪，在返回前快速电击敌人
+		在电击一个敌人足够多次后，钩爪将会造成一次巨大的电流冲击
 		'''
 }
 
@@ -228,6 +246,8 @@ TrackingDisk: {
 	Tooltip:
 		'''
 		扔出一个会向周围敌人发射激光的飞盘
+		激光不会直接伤害敌怪，而是会造成可堆叠的激光灼烧效果
+		当被足够多的激光击中，或经过足够长的时间后，激光灼烧会造成直接伤害
 		飞盘在返回玩家时会获得额外的加速度
 		潜伏攻击会以更高的频率倾泻激光，激光攻击距离更远并且可以同时攻击多个目标
 		'''

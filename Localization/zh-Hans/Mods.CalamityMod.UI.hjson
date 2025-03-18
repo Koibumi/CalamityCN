@@ -36,7 +36,7 @@ Revengeance: 复仇
 RevMaster: 复仇+大师
 RevLegend: 复仇+传奇
 RevengeanceEnabled: 复仇模式已开启
-RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！]"
+RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！只能在专家模式开启！]"
 RevengeanceExpandedInfo:
 	'''
 	[c/B55362:开启] [c/85FFE9:肾上腺素] [c/B55362:机制。 对战Boss时可积攒肾上腺素条，受击时肾上腺素条归零。]
@@ -53,7 +53,7 @@ Death: 死亡
 DeathMaster: 死亡+大师
 DeathLegend: 死亡+传奇
 DeathEnabled: 死亡模式已开启
-DeathShortInfo: "[c/C82DF7:对更有经验的，想复仇模式更进一步的玩家的更强挑战]"
+DeathShortInfo: "[c/C82DF7:远比复仇模式更困难的挑战！只能在大师模式开启！]"
 DeathExpandedInfo:
 	'''
 	[c/B834E0:所有敌怪有着更具攻击性的AI，造成的伤害更高。]

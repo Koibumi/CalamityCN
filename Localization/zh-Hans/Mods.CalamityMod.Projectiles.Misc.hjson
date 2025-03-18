@@ -14,6 +14,9 @@ GaussFlux.DisplayName: 高斯流能
 GaussPistolShot.DisplayName: 高斯电能弹
 GaussRifleBlast.DisplayName: 电泳冲击波
 GaussRifleExplosion.DisplayName: 电磁暴
+ImmolationArrow.DisplayName: Immolation Arrow
+ImmolationBurst.DisplayName: Immolation Burst
+ImmolationSpray.DisplayName: Immolation Spray
 LaserRifleShot.DisplayName: 激光步枪
 MassivePlasmaExplosion.DisplayName: 等离子爆炸
 MountedScannerLaser.DisplayName: 红色死光
@@ -28,6 +31,8 @@ PulsePistolShot.DisplayName: 聚能脉冲弹
 PulseRifleShot.DisplayName: 脉冲束
 PulseTurret.DisplayName: 脉冲炮塔
 PulseTurretShot.DisplayName: 脉冲弹
+ScattershotLance.DisplayName: Laser Lance
+ScattershotLaser.DisplayName: Scattershot Laser
 SnakeEyesSummon.DisplayName: 蛇眼
 SnakeEyesProjectile.DisplayName: 无法逃避的能量矢
 StarSwallowerAcid.DisplayName: 酸

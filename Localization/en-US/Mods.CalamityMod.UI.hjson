@@ -36,7 +36,7 @@ Revengeance: Revengeance
 RevMaster: Rev+Master
 RevLegend: Rev+Legend
 RevengeanceEnabled: Revengeance Mode is enabled
-RevengeanceShortInfo: "[c/F54254:The intended Calamity experience!]"
+RevengeanceShortInfo: "[c/F54254:The intended Calamity experience! Can only be enabled in Expert Mode!]"
 RevengeanceExpandedInfo:
 	'''
 	[c/B55362:Enables the] [c/85FFE9:Adrenaline] [c/B55362:mechanic. You gain Adrenaline while fighting bosses. Getting hit drops Adrenaline back to 0]
@@ -53,7 +53,7 @@ Death: Death
 DeathMaster: Death+Master
 DeathLegend: Death+Legend
 DeathEnabled: Death Mode is enabled
-DeathShortInfo: "[c/C82DF7:A tougher challenge for the more experienced, or for those that want a step up from Revengeance Mode]"
+DeathShortInfo: "[c/C82DF7:A far more difficult challenge than Revengeance Mode! Can only be enabled in Master Mode!]"
 DeathExpandedInfo:
 	'''
 	[c/B834E0:All foes will pose a much larger threat with highly aggressive AIs and increased damage]

@@ -60,9 +60,10 @@ ApoctosisArray: {
 	DisplayName: Apoctosis Array
 	Tooltip:
 		'''
-		Fires ion blasts that speed up and then explode
-		Damage scales with how full your mana is
-		Using Astral Injection reduces the effectiveness of the mana boost
+		Rapidly fires an array of ion blasts with heavy armor penetration that accelerate and explode
+		Press <right> to charge the blaster, restoring your mana until it reaches max
+		The more mana you restore, the stronger the arrow is when you release it
+		Charging for 90% of your max mana or more will reach max power
 		'''
 }
 
@@ -495,9 +496,10 @@ IonBlaster: {
 	DisplayName: Ion Blaster
 	Tooltip:
 		'''
-		Fires ion blasts that speed up and then explode
-		Damage scales with how full your mana is
-		Using Astral Injection reduces the effectiveness of the mana boost
+		Rapidly fires ion blasts with heavy armor penetration that accelerate and explode
+		Press <right> to charge the blaster, restoring your mana until it reaches max
+		The more mana you restore, the stronger the burst is when you release it
+		Charging for 90% of your max mana or more will reach max power
 		'''
 }
 
@@ -517,11 +519,6 @@ LashesofChaos: {
 		Alternates between exploding hellfireballs and piercing hellblasts
 		'Watch the world burn...'
 		'''
-}
-
-Lazhar: {
-	DisplayName: Lazhar
-	Tooltip: Fires a highly volatile concentrated solar beam
 }
 
 LightGodsBrilliance: {

@@ -152,6 +152,7 @@ BloomSlime.DisplayName: 龙蒿史莱姆
 Bohldohr.DisplayName: 神庙滚石
 BucketZombie.DisplayName: "{$NPCName.Zombie}"
 CladCrab.DisplayName: Clad Crab
+CloudElemental.DisplayName: 雨云元素
 Cnidrion.DisplayName: 卧龙海马
 CrawlerAmber.DisplayName: 琥珀爬虫
 CrawlerAmethyst.DisplayName: 紫水晶爬虫
@@ -192,7 +193,6 @@ SkeletronPrime2.DisplayName: 机械骷髅王
 Stormlion.DisplayName: 风暴蚁狮
 Sunskater.DisplayName: 寻阳鱼
 SuperDummyNPC.DisplayName: 大草人
-ThiccWaifu.DisplayName: 雨云元素
 WildBumblefuck.DisplayName: 癫狂龙裔
 WulfrumAmplifier.DisplayName: 钨钢增幅器
 WulfrumDrone.DisplayName: 钨钢无人机
@@ -302,7 +302,7 @@ YharonPhase2: 璀璨华焰，犽戎
 // Town NPCs, Pets, etc
 AndroombaFriendly.DisplayName: 仙女座扫除机老友
 
-DILF: {
+Archmage: {
 	DisplayName: 大法师
 	Census.SpawnCondition: 击败极地之灵
 	Name.Permafrost: 永冻
@@ -338,6 +338,129 @@ DILF: {
 		DislikeNPC: 我不喜欢{NPCName}的公然漠视魔法，我没有指责他的意思，但他非常愚昧。
 		LikeNPC_Princess: "{NPCName}会一些非常古老的咒语，尤其她这年纪的人让我印象深刻。"
 		Princess_LovesNPC: "{NPCName}做的冰淇淋是我尝过的最好吃的冰淇淋，太赞了！"
+	}
+}
+
+Bandit: {
+	DisplayName: 强盗
+	Census.SpawnCondition: 骷髅王被击败后，玩家物品栏里有1{$ItemName.PlatinumCoin} [i:PlatinumCoin]
+
+	Name: {
+		Laura: Laura
+		Mie: Mie
+		Bonnie: Bonnie
+		Sarah: Sarah
+		Diane: Diane
+		Kate: Kate
+		Penelope: Penelope
+		Marisa: Marisa
+		Maribel: Maribel
+		Valerie: Valerie
+		Jessica: Jessica
+		Rowan: Rowan
+		Jessie: Jessie
+		Jade: Jade
+		Hearn: Hearn
+		Amber: Amber
+		Anne: Anne
+		Indiana: Indiana
+	}
+
+	Chat: {
+		BloodMoon1: 嘿，走路瞧着点，我的飞镖可不长眼睛！
+		BloodMoon2: 你站在那肯定是想被扎成刺猬，是吧？
+		BloodMoon3: 僵尸们不擅长躲闪。或许你比它们强些。
+		BloodMoon4: 嘿，别靠近那边！我刚刚做了点手脚，踏错一步你下一秒可能就躺地板上了。
+		Normal1: 只要够大力，任何物品都能当作武器。
+		Normal2: 就凭你这小胳膊也想投掷武器？去健健身吧。
+		Normal3: 看好了，全靠手腕的巧劲，巧劲！哦，就当无事发生过。
+		Normal4: 你知道我是做什么的；劫富济贫。当然，中饱私囊。
+		Normal5: 啊，蛇，为什么总是蛇？
+		Normal6: 你知道，拥有你想要的一切事物是超级好的，有些人从来没有过这种奢华的体验。
+		Normal7: 这才不是偷！我只不过是借，死的时候再还！
+		Night1: 呃，今晚的星星太亮了，这让偷偷摸摸变得更加困难。
+		Night2: 你觉得时不时从天上掉下来的那些落星会不会是很好的投掷武器？
+		BrimstoneWitch: 嘿，嘿，灾厄真的搬进来和我们一起住了吗？为什么？为什么？？？
+		DrunkPrincess: 我从不敢偷{0}的饮料。她不是很喜欢我，好了，我得继续回去躲着了。
+		Merchant: 别告诉{0}我把他的一些货物换成天使雕像了。
+		NurseArmsDealer: 别告诉{0}其实{0}身上那么多伤口我也有责任。
+		NamedLaura: 别告诉[护士的名字]其实[军火商的名字]身上那么多伤口我也有责任。
+		NamedPenelope: 想象一下，要是多几只手那得能扔的多快啊！
+		NamedValerie: 你没钱的话，给点吃的也行。
+		NamedRowan: 通常来说动物只是食物或者活靶子，但龙是个例外。
+		Jungle: 早知道我就不来这的。这地方氛围很糟糕你知道吗？我想起了一些不愉快的回忆。"
+		Party: 我的派对帽去哪了？对，就是我偷来的那顶。
+		Hardmode1: 各种新型武器被发现和抢夺。你去搞一点过来，我也会分享一些我的收藏品的！
+		Hardmode2: 这片土地周围有很多废弃物，其中有一些贵重的零件，这让你不禁思考谁会负把它们到处乱扔的责任。
+		Hardmode3: 墓穴，坟场，地牢，这些对我来说都只是宝库。那些死人已经死了，跟这些宝藏无关。
+		MoonLordDefeated1: 如果你发现了一些很酷的东西，一定要拿过来让我瞧瞧，我保证会把手从那东西上面拿开的。
+		MoonLordDefeated2: 这么多新的东西要偷，我都不知道哪一个开始了
+		MoonLordDefeated3: 如果我最终惹恼了一些神明或者什么的，你介意为我负责吗？
+		HasBoneGlove: 我也不是第一次拿骸骨当武器了。
+		HasValediction: 哦老兄，你把这玩意从鲨鱼身上扯下来了！？现在它是一把武器了！
+	}
+
+	RefundButton: 资金返还
+	Refund1: 想听点秘密？既然{0}每次都拿走你那么多钱，我其实早就盯上他了。这件事我要你保密，给，拿着。
+	Refund2: 嘿，既然政府的人能收税，为什么我就不能？什么？你说我们完全没有可比性？
+	NoRefund: 抱歉，我什么也给不了你。或许你可以尝试重铸一些东西，然后再来找我……
+
+	TownNPCMood: {
+		Content: 一切都很顺利！
+		NoHome: 你有地方睡吗？睡地上让我浑身酸痛。
+		LoveSpace: 人越少就越容易逃脱某些事情。
+		FarFromHome: 我得回到我的秘密储藏室，万一有人趁我不在拿我宝贝怎么办。
+		DislikeCrowded: 我不喜欢这里，目击者太多了。
+		HateCrowded: 和这么多人在一起让我觉得我会被偷。
+		LikeBiome: 我知道许多富商会穿过沙漠，这是个偷他们东西的好地方。
+		DislikeBiome: 太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。
+		HateBiome: 这里没人住，为什么要住这里？！这里简直是个垃圾场！
+		LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
+		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
+		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
+		Princess_LovesNPC: "{NPCName}送给我的东西，其他人好像也有一模一样的，我想知道这是怎么做到的！"
+	}
+}
+
+BrimstoneWitch: {
+	DisplayName: 硫火女巫
+	Census.SpawnCondition: 击败至尊女巫，灾厄
+	Name.Calamitas: 灾厄
+
+	Chat: {
+		EasterEgg: Mrrp is cringe。
+		Homeless1: 抱歉，我什么也给不了你。或许你可以尝试重铸一些东西，然后再来找我……
+		Homeless2: 我现在肯定不能再回魔君哪儿去了。你这儿有地方住吗？
+		Normal1: 我付不起房租，但如果你有什么已逝的亲人想让我试试……什么，你不想？
+		Normal2: 有一天，我想用地狱旧都的花建一个花园。清晨的硫磺火散发的味道令我沉醉。
+		Normal3: 我想我已经安顿好了，非常感谢。
+		Normal4: 自从我第一次与魔君见面以来四季轮转，岁月变迁，直到现在我才挣脱了束缚。希望我能够更加坚强……
+		Normal5: 如果你想要驱散什么诅咒的话……那你就找错人了。
+		BloodMoon1: 这非自然的血红夜幕啊。一点也不如我硫磺火焰的颜色。
+		BloodMoon2: 我无法在这样的夜晚工作。星星似乎都因为恐惧而缩小了。
+		Night1: 那些亡灵生物太可怕了，我简直无法直视它们。为什么会有人对这样的兼职感到满意呢？
+		Night2: 我一点儿也不觉得说占星术是无稽之谈是夸大其词……但我曾经是一个占星爱好者。
+		DrunkPrincess: 考虑到{0}的衣着如此暴露，我想知道，她是否觉得冷过。也许她应该多穿一点。
+		SeaKing: 我无法理解海王。他似乎并不希望让我死。我无法理解他对我有如此深的同情。
+		Party: 如果有人来邀我共舞一曲，我会点燃他们的帽子。
+	}
+
+	EnchantButton: 咒术炼注
+
+	TownNPCMood: {
+		Content: 我真的没什么可抱怨的。
+		NoHome: 不论哪里都比一个没有床和照明的山洞要好。
+		LoveSpace: 越安静越好，这里就很好。
+		FarFromHome: 才刚刚习惯有人在身边的日子没多久，我又失去它了。
+		DislikeCrowded: 我不太喜欢有人和我这么熟。
+		HateCrowded: 周围人太多了，压力好大，头好痛。
+		LikeBiome: 我以前从来没有机会住在这样的地方。有树木和鸟鸣……我很喜欢。
+		DislikeBiome: 这是一个残酷的笑话？我无法忍受在这里待着，我已经试着赎罪了。
+		HateBiome: 这里的灵魂不安宁，这种感觉真的不好。
+		LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。"
+		DislikeNPC: 太吵了！ {NPCName} 只会每天制造噪音！我受不了她！
+		LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。"
+		Princess_LovesNPC: "{NPCName}总是很孤独，这就是我想和她一起玩的原因，谁都不该那样孤单！"
 	}
 }
 
@@ -410,6 +533,7 @@ Cirrus: {
 		HasAlicorn1: 所以说……你找到了我特别的瓶子。希望你能喜欢它，反正我挺享受的。
 		HasAlicorn2: 记得时不时从我身上下来，我也会累的。而且，如果你一直骑着我的话，我就没法对你漫天要-我是说，向你提供世间绝无仅有的美妙交易了。
 		HasAlicorn3: 你先别问，不，我人类形态的屁股上没有爱心。不要质疑我的嗜好！
+		NewOutfit: 终于穿上新衣服的感觉真是令人耳目一新。当然，我还是很喜欢我的小裙子，但它对于锻炼来说不是那么理想。
 	}
 
 	// Death Count stuffs
@@ -428,23 +552,23 @@ Cirrus: {
 		Content: 总有一个地方是五点钟。
 		NoHome: 我需要一个地方休息！我的饮品也需要冰镇服务！
 		LoveSpace: 终于有了片刻宁静，人太多会惹毛我。
-		FarFromHome: 我虽然习惯了离家出走，但这还是有点离谱。
-		DislikeCrowded: 如果再有人说'现在是特价时间'以此想要打折，我就打折他！
+		FarFromHome: 别误解我，我虽然习惯了离家出走，但这还是有点离谱。
+		DislikeCrowded: 如果再有人说'现在是特价时间'，我就打折他！
 		HateCrowded: 再多的酒精也无法淹没这些人的噪音！
 		LoveBiome: 另一种独角兽？没想到我会看到这一天！这个地方太棒了！
-		LikeBiome: 一阵清风可以让头脑清醒一下，对于喝多的顾客就这么处理！
+		LikeBiome: 啊，一阵舒缓的微风和一片美丽的景色，一个平息越来越多“难缠”捐赠者的好去处。
 		DislikeBiome: 这种干燥的空气和高温对我的头发和饮料都不好。
-		HateBiome: 你指望我能用魔法友谊彩虹来收拾这烂摊子吗？它不是拿来干这个的，傻X！赶紧把我带出去！
+		HateBiome: 你指望我能用魔法友谊彩虹来收拾这烂摊子吗？它不是拿来干这个的！赶紧把我带出去！
 		LoveNPC_Stylist: "{NPCName} 护理我的头发很有一手…除此之外，呵呵。"
 		LoveNPC_BestiaryGirl: "{NPCName} 是多么毛茸茸，她还说我的独角形状'非常棒'。"
-		LikeNPC_Truffle: "{NPCName} 让我好饿……我想知道他会给我多棒的幻觉……"
+		LikeNPC_DyeTrader: 不久前我尝试邀请{NPCName} 来喝一杯，但他看起来不感兴趣……算了，这是他的损失。
 		LikeNPC_PartyGirl: "{NPCName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！"
-		DislikeNPC_DD2Bartender: "{NPCName} 太秃了。"
+		DislikeNPC_DD2Bartender: "{NPCName} 太秃了。他头顶上的反光真的能把人闪瞎，你看，哦老天"
 		DislikeNPC_TaxCollector: "{NPCName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。"
-		HateNPC_GoblinTinkerer: "{NPCName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难道你喜欢看我重温他给我的压力吗？"
-		HateNPC_Angler: "{NPCName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！"
+		HateNPC_GoblinTinkerer: "{NPCName} 太糟糕了，我不得不强迫他停止打劫顾客……你为什么让我住在他旁边？"
+		HateNPC_Angler: "{NPCName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踹进硫磺海之前给我把他弄走！"
 		LikeNPC_Princess: 你以为我会不喜欢 {NPCName} 只因我们太不同了？恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。
-		Princess_LovesNPC: "{NPCName}会讲非常有趣的故事，我已经从她身上学到了很多！"
+		Princess_LovesNPC: "{NPCName} 会讲非常引人入胜的故事，我已经从她身上学到了很多。"
 		HateNPC: 我讨厌 {NPCName}。
 		DislikeNPC: 我不喜欢 {NPCName}。
 		LikeNPC: 我喜欢{NPCName}。
@@ -452,7 +576,7 @@ Cirrus: {
 	}
 }
 
-SEAHOE: {
+SeaKing: {
 	DisplayName: 海王
 	Census.SpawnCondition: 在击败荒漠灾虫后杀死巨像蛤
 	Name.Amidias: 阿米迪亚斯
@@ -537,125 +661,3 @@ SEAHOE: {
 	}
 }
 
-THIEF: {
-	DisplayName: 强盗
-	Census.SpawnCondition: 骷髅王被击败后，玩家物品栏里有1{$ItemName.PlatinumCoin} [i:PlatinumCoin]
-
-	Name: {
-		Laura: Laura
-		Mie: Mie
-		Bonnie: Bonnie
-		Sarah: Sarah
-		Diane: Diane
-		Kate: Kate
-		Penelope: Penelope
-		Marisa: Marisa
-		Maribel: Maribel
-		Valerie: Valerie
-		Jessica: Jessica
-		Rowan: Rowan
-		Jessie: Jessie
-		Jade: Jade
-		Hearn: Hearn
-		Amber: Amber
-		Anne: Anne
-		Indiana: Indiana
-	}
-
-	Chat: {
-		BloodMoon1: 嘿，走路瞧着点，我的飞镖可不长眼睛！
-		BloodMoon2: 你站在那肯定是想被扎成刺猬，是吧？
-		BloodMoon3: 僵尸们不擅长躲闪。或许你比它们强些。
-		BloodMoon4: 嘿，别靠近那边！我刚刚做了点手脚，踏错一步你下一秒可能就躺地板上了。
-		Normal1: 只要够大力，任何物品都能当作武器。
-		Normal2: 就凭你这小胳膊也想投掷武器？去健健身吧。
-		Normal3: 看好了，全靠手腕的巧劲，巧劲！哦，就当无事发生过。
-		Normal4: 你知道我是做什么的；劫富济贫。当然，中饱私囊。
-		Normal5: 啊，蛇，为什么总是蛇？
-		Normal6: 你知道，拥有你想要的一切事物是超级好的，有些人从来没有过这种奢华的体验。
-		Normal7: 这才不是偷！我只不过是借，死的时候再还！
-		Night1: 呃，今晚的星星太亮了，这让偷偷摸摸变得更加困难。
-		Night2: 你觉得时不时从天上掉下来的那些落星会不会是很好的投掷武器？
-		BrimstoneWitch: 嘿，嘿，灾厄真的搬进来和我们一起住了吗？为什么？为什么？？？
-		DrunkPrincess: 我从不敢偷{0}的饮料。她不是很喜欢我，好了，我得继续回去躲着了。
-		Merchant: 别告诉{0}我把他的一些货物换成天使雕像了。
-		NurseArmsDealer: 别告诉{0}其实{0}身上那么多伤口我也有责任。
-		NamedLaura: 别告诉[护士的名字]其实[军火商的名字]身上那么多伤口我也有责任。
-		NamedPenelope: 想象一下，要是多几只手那得能扔的多快啊！
-		NamedValerie: 你没钱的话，给点吃的也行。
-		NamedRowan: 通常来说动物只是食物或者活靶子，但龙是个例外。
-		Jungle: 早知道我就不来这的。这地方氛围很糟糕你知道吗？我想起了一些不愉快的回忆。"
-		Party: 我的派对帽去哪了？对，就是我偷来的那顶。
-		Hardmode1: 各种新型武器被发现和抢夺。你去搞一点过来，我也会分享一些我的收藏品的！
-		Hardmode2: 这片土地周围有很多废弃物，其中有一些贵重的零件，这让你不禁思考谁会负把它们到处乱扔的责任。
-		Hardmode3: 墓穴，坟场，地牢，这些对我来说都只是宝库。那些死人已经死了，跟这些宝藏无关。
-		MoonLordDefeated1: 如果你发现了一些很酷的东西，一定要拿过来让我瞧瞧，我保证会把手从那东西上面拿开的。
-		MoonLordDefeated2: 这么多新的东西要偷，我都不知道哪一个开始了
-		MoonLordDefeated3: 如果我最终惹恼了一些神明或者什么的，你介意为我负责吗？
-		HasBoneGlove: 我也不是第一次拿骸骨当武器了。
-		HasValediction: 哦老兄，你把这玩意从鲨鱼身上扯下来了！？现在它是一把武器了！
-	}
-
-	RefundButton: 资金返还
-	Refund1: 想听点秘密？既然{0}每次都拿走你那么多钱，我其实早就盯上他了。这件事我要你保密，给，拿着。
-	Refund2: 嘿，既然政府的人能收税，为什么我就不能？什么？你说我们完全没有可比性？
-	NoRefund: 抱歉，我什么也给不了你。或许你可以尝试重铸一些东西，然后再来找我……
-
-	TownNPCMood: {
-		Content: 一切都很顺利！
-		NoHome: 你有地方睡吗？睡地上让我浑身酸痛。
-		LoveSpace: 人越少就越容易逃脱某些事情。
-		FarFromHome: 我得回到我的秘密储藏室，万一有人趁我不在拿我宝贝怎么办。
-		DislikeCrowded: 我不喜欢这里，目击者太多了。
-		HateCrowded: 和这么多人在一起让我觉得我会被偷。
-		LikeBiome: 我知道许多富商会穿过沙漠，这是个偷他们东西的好地方。
-		DislikeBiome: 太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。
-		HateBiome: 这里没人住，为什么要住这里？！这里简直是个垃圾场！
-		LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
-		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
-		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
-		Princess_LovesNPC: "{NPCName}送给我的东西，其他人好像也有一模一样的，我想知道这是怎么做到的！"
-	}
-}
-
-WITCH: {
-	DisplayName: 硫火女巫
-	Census.SpawnCondition: 击败至尊女巫，灾厄
-	Name.Calamitas: 灾厄
-
-	Chat: {
-		EasterEgg: Mrrp is cringe。
-		Homeless1: 抱歉，我什么也给不了你。或许你可以尝试重铸一些东西，然后再来找我……
-		Homeless2: 我现在肯定不能再回魔君哪儿去了。你这儿有地方住吗？
-		Normal1: 我付不起房租，但如果你有什么已逝的亲人想让我试试……什么，你不想？
-		Normal2: 有一天，我想用地狱旧都的花建一个花园。清晨的硫磺火散发的味道令我沉醉。
-		Normal3: 我想我已经安顿好了，非常感谢。
-		Normal4: 自从我第一次与魔君见面以来四季轮转，岁月变迁，直到现在我才挣脱了束缚。希望我能够更加坚强……
-		Normal5: 如果你想要驱散什么诅咒的话……那你就找错人了。
-		BloodMoon1: 这非自然的血红夜幕啊。一点也不如我硫磺火焰的颜色。
-		BloodMoon2: 我无法在这样的夜晚工作。星星似乎都因为恐惧而缩小了。
-		Night1: 那些亡灵生物太可怕了，我简直无法直视它们。为什么会有人对这样的兼职感到满意呢？
-		Night2: 我一点儿也不觉得说占星术是无稽之谈是夸大其词……但我曾经是一个占星爱好者。
-		DrunkPrincess: 考虑到{0}的衣着如此暴露，我想知道，她是否觉得冷过。也许她应该多穿一点。
-		SeaKing: 我无法理解海王。他似乎并不希望让我死。我无法理解他对我有如此深的同情。
-		Party: 如果有人来邀我共舞一曲，我会点燃他们的帽子。
-	}
-
-	EnchantButton: 咒术炼注
-
-	TownNPCMood: {
-		Content: 我真的没什么可抱怨的。
-		NoHome: 不论哪里都比一个没有床和照明的山洞要好。
-		LoveSpace: 越安静越好，这里就很好。
-		FarFromHome: 才刚刚习惯有人在身边的日子没多久，我又失去它了。
-		DislikeCrowded: 我不太喜欢有人和我这么熟。
-		HateCrowded: 周围人太多了，压力好大，头好痛。
-		LikeBiome: 我以前从来没有机会住在这样的地方。有树木和鸟鸣……我很喜欢。
-		DislikeBiome: 这是一个残酷的笑话？我无法忍受在这里待着，我已经试着赎罪了。
-		HateBiome: 这里的灵魂不安宁，这种感觉真的不好。
-		LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。"
-		DislikeNPC: 太吵了！ {NPCName} 只会每天制造噪音！我受不了她！
-		LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。"
-		Princess_LovesNPC: "{NPCName}总是很孤独，这就是我想和她一起玩的原因，谁都不该那样孤单！"
-	}
-}

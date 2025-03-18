@@ -152,6 +152,7 @@ BloomSlime.DisplayName: Bloom Slime
 Bohldohr.DisplayName: Bohldohr
 BucketZombie.DisplayName: "{$NPCName.Zombie}"
 CladCrab.DisplayName: Clad Crab
+CloudElemental.DisplayName: Cloud Elemental
 Cnidrion.DisplayName: Cnidrion
 CrawlerAmber.DisplayName: Amber Crawler
 CrawlerAmethyst.DisplayName: Amethyst Crawler
@@ -192,7 +193,6 @@ SkeletronPrime2.DisplayName: Skeletron Prime
 Stormlion.DisplayName: Stormlion
 Sunskater.DisplayName: Sunskater
 SuperDummyNPC.DisplayName: Super Dummy
-ThiccWaifu.DisplayName: Cloud Elemental
 WildBumblefuck.DisplayName: Draconic Swarmer
 WulfrumAmplifier.DisplayName: Wulfrum Amplifier
 WulfrumDrone.DisplayName: Wulfrum Drone
@@ -302,7 +302,7 @@ YharonPhase2: Yharon, Resplendent Phoenix
 // Town NPCs, Pets, etc
 AndroombaFriendly.DisplayName: Androomba Pal
 
-DILF: {
+Archmage: {
 	DisplayName: Archmage
 	Census.SpawnCondition: Defeat Cryogen
 	Name.Permafrost: Permafrost
@@ -338,6 +338,129 @@ DILF: {
 		DislikeNPC: I dislike {NPCName}'s blatant disregard of magic. I cannot blame his functions, but he is quite ignorant.
 		LikeNPC_Princess: "{NPCName} has some very quaint spells. I'm quite impressed, for someone of her age."
 		Princess_LovesNPC: "{NPCName} makes the best ice cream I've ever tasted, it's so good!"
+	}
+}
+
+Bandit: {
+	DisplayName: Bandit
+	Census.SpawnCondition: Have a {$ItemName.PlatinumCoin} [i:PlatinumCoin] in your inventory after defeating Skeletron
+
+	Name: {
+		Laura: Laura
+		Mie: Mie
+		Bonnie: Bonnie
+		Sarah: Sarah
+		Diane: Diane
+		Kate: Kate
+		Penelope: Penelope
+		Marisa: Marisa
+		Maribel: Maribel
+		Valerie: Valerie
+		Jessica: Jessica
+		Rowan: Rowan
+		Jessie: Jessie
+		Jade: Jade
+		Hearn: Hearn
+		Amber: Amber
+		Anne: Anne
+		Indiana: Indiana
+	}
+
+	Chat: {
+		BloodMoon1: Oy, watch where you're going or I might just use you for dart practice.
+		BloodMoon2: Bet you'd look good as a pincushion, amiright?
+		BloodMoon3: Zombies don't dodge very well. Maybe you'll do a bit better.
+		BloodMoon4: Hey, careful over there. I've rigged the place. One wrong step and you're going to get a knife in your forehead.
+		Normal1: Anything is a weapon if you throw it hard enough.
+		Normal2: That's your chucking arm? You need to work out more.
+		Normal3: Listen here. It's all in the wrist, the wrist! Oh, forget it.
+		Normal4: Eh you know how it goes; steal from the rich, give to the poor, but I do take a cut of the profit.
+		Normal5: Snakes! Why does it always have to be snakes!
+		Normal6: It's super nice you know, to just have everything you want. Some people never got that luxury.
+		Normal7: It's not stealing! I'm just borrowing it until I die!
+		Night1: Hm, the stars are too bright tonight. Makes sneaking around a little more difficult.
+		Night2: You think those stars that fall occasionally would make good throwing weapons?
+		BrimstoneWitch: Hey, hey, has {0} seriously moved in here with us? Why???
+		DrunkPrincess: I learned never to steal {0}'s drinks. She doesn't appreciate me right now, so I'll go back to hiding.
+		Merchant: Don't tell {0}, but I took some of his stuff and replaced it with Angel Statues.
+		NurseArmsDealer: Don't tell {0} that I was responsible for {1}'s injuries.
+		NamedLaura: The nice thing about maps is I can track anything that has fallen.
+		NamedPenelope: Imagine how fast you could throw if you just had more hands.
+		NamedValerie: I also take food for currency.
+		NamedRowan: Usually I only think of animals as food or target practice, but dragons are an exception.
+		Jungle: I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories.
+		Party: Where is my party hat? Well, I stole it of course.
+		Hardmode1: All sorts of new weapons to be found and looted. Get to that, and I'll share some of my collection too!
+		Hardmode2: There's so much scrap around this land with valuable parts to them. Makes you wonder who could afford to leave em all around.
+		Hardmode3: Crypts, tombs, dungeons, those're all just treasure troves to me. The dead are dead, they've got nothing to do with it.
+		MoonLordDefeated1: If you find anything cool, make sure to drop by and show it to me, I promise I'll keep my hands off it.
+		MoonLordDefeated2: So many new things to steal, I can't think of where to start!
+		MoonLordDefeated3: If I end up angering some deities or whatever, would you mind taking the blame for me?
+		HasBoneGlove: Wouldn't be the first time I used remains as weapons.
+		HasValediction: Oh man, did you rip that off a shark!? Now that's a weapon!
+	}
+
+	RefundButton: Refund
+	Refund1: Want in on a little secret? Since {0} always gets so much cash from you, I've been stealing some of it as we go. I need you to keep quiet about it, so here.
+	Refund2: Hey, if government officials can get tax, why can't I? The heck do you mean that these two things are nothing alike?
+	NoRefund: Sorry, I got nothing. Perhaps you could reforge something and come back later...
+
+	TownNPCMood: {
+		Content: It's been going well!
+		NoHome: You have a place to bunk? Sleeping on the ground makes me stiff and sore.
+		LoveSpace: Less people makes getting away with certain things easier.
+		FarFromHome: I need to get back to my secret cache! What if someone got their hands on it while I was away!?
+		DislikeCrowded: I don't like this, too many possible eyewitnesses.
+		HateCrowded: Being around this many people makes me think I'M going to be robbed.
+		LikeBiome: I know that a lot of wealthy traders come through the desert at times. Makes it a great spot to nick their goods.
+		DislikeBiome: Too stifling, too humid. I get sluggish in these conditions, no good.
+		HateBiome: No one lives here, and why would they?! This place is a dump!
+		LikeNPC: "{NPCName} doesn't only keep spiky balls in his pockets, he keeps a ton of cash! He's too absentminded to notice I'm stealing from him too! I like that a lot!"
+		DislikeNPC: What a goody two shoes, {NPCName} is! I dislike her out of principle! …And because she has almost no material goods.
+		LikeNPC_Princess: I couldn't bear to steal anything from {NPCName}, she's so cute!
+		Princess_LovesNPC: "{NPCName} gifts me with nice exact replicas of other's things, I wonder how they do it!"
+	}
+}
+
+BrimstoneWitch: {
+	DisplayName: Brimstone Witch
+	Census.SpawnCondition: Defeat Supreme Witch, Calamitas
+	Name.Calamitas: Calamitas
+
+	Chat: {
+		EasterEgg: Mrrp is cringe.
+		Homeless1: I'm considering moving back to that old cave of mine.
+		Homeless2: I certainly can't return to Yharim's old dwellings now, have you got any places to stay?
+		Normal1: I can't pay rent, but if you've got any dead relative you want me to try and... what? You don't?
+		Normal2: One of these days, I was thinking of starting a garden with the flowers from the old capitol of hell. I love the smell of brimstone in the morning.
+		Normal3: I think I've settled comfortably, thank you very much.
+		Normal4: Many seasons have gone by since I first met with the Tyrant, and only now did I break free. I wish I'd been stronger...
+		Normal5: If you've got any curses you want dispelled... well I'm not your person.
+		BloodMoon1: Such an unnatural shade of red. Nothing like my brimstone flames.
+		BloodMoon2: I can't work with nights like these. The stars seem to have shrunk away in fear.
+		Night1: These undead are horrific, I can't stand to look at them. How could anyone be satisfied with such amateur work?
+		Night2: I don't think it's a stretch to say that astrology is utter nonsense... but it was a hobby of mine once.
+		DrunkPrincess: I wonder if {0} ever feels cold given how revealing her dress is. Perhaps she should cover up a bit more.
+		SeaKing: I cannot understand the Sea King. He does not seem to want me dead. That amount of compassion I just can't understand.
+		Party: If another person asks me if I can dance or not, I will light their hat on fire.
+	}
+
+	EnchantButton: Enchant
+
+	TownNPCMood: {
+		Content: I can't complain, really.
+		NoHome: Anywhere would be better than a cave with no bed or lighting.
+		LoveSpace: The quieter, the better. This is good.
+		FarFromHome: After being used to having people around for a bit, I miss it again.
+		DislikeCrowded: I really don't like how familiar some of these people are getting with me.
+		HateCrowded: I'm getting a headache from the pressure of having so many people around.
+		LikeBiome: I've never had the chance to live somewhere like this before. The trees and the songbirds… I quite like it.
+		DislikeBiome: Is this a sick joke? I can't bear to be here any longer, I've already tried to atone for my sins.
+		HateBiome: The spirits are unrestful here. It's really not a good feeling.
+		LikeNPC: "{NPCName} is someone who's had a terrible experience being cursed. He's put up with it quite well all that time, it's quite impressive honestly."
+		DislikeNPC: Such a racket! All {NPCName} does is make noise, day in and day out! I can't stand her!
+		LikeNPC_Princess: What a strangely pleasant kid {NPCName} is to be around.
+		Princess_LovesNPC: "{NPCName} is always lonely, it's why I want to hang out with her, no one should be left alone like that!"
 	}
 }
 
@@ -410,6 +533,7 @@ Cirrus: {
 		HasAlicorn1: So... you found my special bottle. Hope you enjoy it, I know I will.
 		HasAlicorn2: Be sure to dismount me once in a while, I get tired. And besides, I can't rip you off-I mean, offer you excellent deals you won't find anywhere else, if you're riding me 24/7.
 		HasAlicorn3: Before you ask, no, I do NOT have a heart on my butt while in human form. Don't question my transformation preferences!
+		NewOutfit: It's so refreshing to finally wear something else. I still love my dress, of course, but it's not exactly ideal for exercising.
 	}
 
 	// Death Count stuffs
@@ -426,25 +550,25 @@ Cirrus: {
 
 	TownNPCMood: {
 		Content: It's 5 o'clock somewhere.
-		NoHome: I need a place to crash! My drinks need to be properly cooled before they can be served!
+		NoHome: I need a place to crash! My drinks MUST be properly cooled before they can be served!
 		LoveSpace: Finally, some peace and quiet. Large quantities of people tend to piss me off.
-		FarFromHome: I'm used to running away from home, but this is a little ridiculous.
-		DislikeCrowded: If one more person tells me 'it's happy hour somewhere' to try and get a discount, I'm going to snap!
+		FarFromHome: Don't get me wrong, I'm used to running away from home, but this is a little ridiculous.
+		DislikeCrowded: If one more person tells me 'it's happy hour somewhere', I'm going to snap!
 		HateCrowded: No amount of alcohol can drown out the noise these people make!
-		LoveBiome: Other unicorns? Never thought I'd see the day! This place is incredible!
-		LikeBiome: A good breeze to cool some heads, that's the way to deal with customers who've had a few too many drinks!
+		LoveBiome: Other unicorns? I never thought I'd see the day... this place is incredible!
+		LikeBiome: Ah, a soothing breeze and a gorgeous view; a great way to calm some of my more 'unpleasant' patrons.
 		DislikeBiome: This dry air and heat isn't good for my hair, or my drinks.
-		HateBiome: You think I can fix this mess with a magical friendship rainbow? That's not how it works, dumbass! Get me out of here already!
+		HateBiome: You think I can fix this place with a magical friendship rainbow? That's not how it works, so get me out of here already!
 		LoveNPC_Stylist: "{NPCName} works wonders for my hair... among other things, hehe."
 		LoveNPC_BestiaryGirl: "{NPCName} is so fluffy and squishy! She also says my alicorn form is 'mega rad'."
-		LikeNPC_Truffle: "{NPCName} makes me so hungry... I wonder how great of a trip he'd give..."
+		LikeNPC_DyeTrader: I tried inviting {NPCName} over for drinks a while back, but he didn't seem interested... oh well, his loss.
 		LikeNPC_PartyGirl: "{NPCName} would make for a great bartender some day. She really knows how to liven the mood!"
-		DislikeNPC_DD2Bartender: "{NPCName} is so bald."
+		DislikeNPC_DD2Bartender: "{NPCName} is so bald. The sheen reflecting off his dome could legit blind someone, like, oh my god."
 		DislikeNPC_TaxCollector: "{NPCName} had best keep his distance... he wouldn't want to wake up one morning with a pipe bomb in his mailbox."
-		HateNPC_GoblinTinkerer: "{NPCName} was so terrible that I had to FORCE him to have a better reforge system. Why would you house me next to him? Do you enjoy watching me relive the stress he gave me!?"
-		HateNPC_Angler: "{NPCName} never stops blabbering about his inane fishing quests. Get me away from him before I stomp him into the ground!"
-		LikeNPC_Princess: You think I'd dislike {NPCName} because we're too different? Quite the contrary, there's a lot we like to talk about, over non-alcoholic drinks of course.
-		Princess_LovesNPC: "{NPCName} has really interesting stories to tell, I've learned a lot from her already!"
+		HateNPC_GoblinTinkerer: "{NPCName} was so terrible that I had to FORCE him to stop ripping off his customers... why would you house me next to him!?"
+		HateNPC_Angler: "{NPCName} never stops blabbering about his inane fishing quests. Get me away from him before I punt him into the sulphurous sea!"
+		LikeNPC_Princess: You think I'd dislike {NPCName} because we're too different? Quite the contrary, there's a lot we like to talk about, over non-alcoholic drinks, of course.
+		Princess_LovesNPC: "{NPCName} has some fascinating stories to tell, I've learned quite a lot from her already."
 		HateNPC: I hate {NPCName}.
 		DislikeNPC: I dislike {NPCName}.
 		LikeNPC: I like {NPCName}.
@@ -452,7 +576,7 @@ Cirrus: {
 	}
 }
 
-SEAHOE: {
+SeaKing: {
 	DisplayName: Sea King
 	Census.SpawnCondition: Defeat a Giant Clam after defeating the Desert Scourge
 	Name.Amidias: Amidias
@@ -534,128 +658,5 @@ SEAHOE: {
 		HateNPC: "{NPCName} is just a child, but his attitude towards marine life is unacceptable! Absolutely unacceptable!"
 		LikeNPC_Princess: That child, {NPCName}. She is an innocent soul. Let us hope the horrors of war never reach her.
 		Princess_LovesNPC: "{NPCName} always smiles when I'm nearby, I like being around him just for that!"
-	}
-}
-
-THIEF: {
-	DisplayName: Bandit
-	Census.SpawnCondition: Have a {$ItemName.PlatinumCoin} [i:PlatinumCoin] in your inventory after defeating Skeletron
-
-	Name: {
-		Laura: Laura
-		Mie: Mie
-		Bonnie: Bonnie
-		Sarah: Sarah
-		Diane: Diane
-		Kate: Kate
-		Penelope: Penelope
-		Marisa: Marisa
-		Maribel: Maribel
-		Valerie: Valerie
-		Jessica: Jessica
-		Rowan: Rowan
-		Jessie: Jessie
-		Jade: Jade
-		Hearn: Hearn
-		Amber: Amber
-		Anne: Anne
-		Indiana: Indiana
-	}
-
-	Chat: {
-		BloodMoon1: Oy, watch where you're going or I might just use you for dart practice.
-		BloodMoon2: Bet you'd look good as a pincushion, amiright?
-		BloodMoon3: Zombies don't dodge very well. Maybe you'll do a bit better.
-		BloodMoon4: Hey, careful over there. I've rigged the place. One wrong step and you're going to get a knife in your forehead.
-		Normal1: Anything is a weapon if you throw it hard enough.
-		Normal2: That's your chucking arm? You need to work out more.
-		Normal3: Listen here. It's all in the wrist, the wrist! Oh, forget it.
-		Normal4: Eh you know how it goes; steal from the rich, give to the poor, but I do take a cut of the profit.
-		Normal5: Snakes! Why does it always have to be snakes!
-		Normal6: It's super nice you know, to just have everything you want. Some people never got that luxury.
-		Normal7: It's not stealing! I'm just borrowing it until I die!
-		Night1: Hm, the stars are too bright tonight. Makes sneaking around a little more difficult.
-		Night2: You think those stars that fall occasionally would make good throwing weapons?
-		BrimstoneWitch: Hey, hey, has {0} seriously moved in here with us? Why???
-		DrunkPrincess: I learned never to steal {0}'s drinks. She doesn't appreciate me right now, so I'll go back to hiding.
-		Merchant: Don't tell {0}, but I took some of his stuff and replaced it with Angel Statues.
-		NurseArmsDealer: Don't tell {0} that I was responsible for {1}'s injuries.
-		NamedLaura: The nice thing about maps is I can track anything that has fallen.
-		NamedPenelope: Imagine how fast you could throw if you just had more hands.
-		NamedValerie: I also take food for currency.
-		NamedRowan: Usually I only think of animals as food or target practice, but dragons are an exception.
-		Jungle: I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories.
-		Party: Where is my party hat? Well, I stole it of course.
-		Hardmode1: All sorts of new weapons to be found and looted. Get to that, and I'll share some of my collection too!
-		Hardmode2: There's so much scrap around this land with valuable parts to them. Makes you wonder who could afford to leave em all around.
-		Hardmode3: Crypts, tombs, dungeons, those're all just treasure troves to me. The dead are dead, they've got nothing to do with it.
-		MoonLordDefeated1: If you find anything cool, make sure to drop by and show it to me, I promise I'll keep my hands off it.
-		MoonLordDefeated2: So many new things to steal, I can't think of where to start!
-		MoonLordDefeated3: If I end up angering some deities or whatever, would you mind taking the blame for me?
-		HasBoneGlove: Wouldn't be the first time I used remains as weapons.
-		HasValediction: Oh man, did you rip that off a shark!? Now that's a weapon!
-	}
-
-	RefundButton: Refund
-	Refund1: Want in on a little secret? Since {0} always gets so much cash from you, I've been stealing some of it as we go. I need you to keep quiet about it, so here.
-	Refund2: Hey, if government officials can get tax, why can't I? The heck do you mean that these two things are nothing alike?
-	NoRefund: Sorry, I got nothing. Perhaps you could reforge something and come back later...
-
-	TownNPCMood: {
-		Content: It's been going well!
-		NoHome: You have a place to bunk? Sleeping on the ground makes me stiff and sore.
-		LoveSpace: Less people makes getting away with certain things easier.
-		FarFromHome: I need to get back to my secret cache! What if someone got their hands on it while I was away!?
-		DislikeCrowded: I don't like this, too many possible eyewitnesses.
-		HateCrowded: Being around this many people makes me think I'M going to be robbed.
-		LikeBiome: I know that a lot of wealthy traders come through the desert at times. Makes it a great spot to nick their goods.
-		DislikeBiome: Too stifling, too humid. I get sluggish in these conditions, no good.
-		HateBiome: No one lives here, and why would they?! This place is a dump!
-		LikeNPC: "{NPCName} doesn't only keep spiky balls in his pockets, he keeps a ton of cash! He's too absentminded to notice I'm stealing from him too! I like that a lot!"
-		DislikeNPC: What a goody two shoes, {NPCName} is! I dislike her out of principle! …And because she has almost no material goods.
-		LikeNPC_Princess: I couldn't bear to steal anything from {NPCName}, she's so cute!
-		Princess_LovesNPC: "{NPCName} gifts me with nice exact replicas of other's things, I wonder how they do it!"
-	}
-}
-
-WITCH: {
-	DisplayName: Brimstone Witch
-	Census.SpawnCondition: Defeat Supreme Witch, Calamitas
-	Name.Calamitas: Calamitas
-
-	Chat: {
-		EasterEgg: Mrrp is cringe.
-		Homeless1: I'm considering moving back to that old cave of mine.
-		Homeless2: I certainly can't return to Yharim's old dwellings now, have you got any places to stay?
-		Normal1: I can't pay rent, but if you've got any dead relative you want me to try and... what? You don't?
-		Normal2: One of these days, I was thinking of starting a garden with the flowers from the old capitol of hell. I love the smell of brimstone in the morning.
-		Normal3: I think I've settled comfortably, thank you very much.
-		Normal4: Many seasons have gone by since I first met with the Tyrant, and only now did I break free. I wish I'd been stronger...
-		Normal5: If you've got any curses you want dispelled... well I'm not your person.
-		BloodMoon1: Such an unnatural shade of red. Nothing like my brimstone flames.
-		BloodMoon2: I can't work with nights like these. The stars seem to have shrunk away in fear.
-		Night1: These undead are horrific, I can't stand to look at them. How could anyone be satisfied with such amateur work?
-		Night2: I don't think it's a stretch to say that astrology is utter nonsense... but it was a hobby of mine once.
-		DrunkPrincess: I wonder if {0} ever feels cold given how revealing her dress is. Perhaps she should cover up a bit more.
-		SeaKing: I cannot understand the Sea King. He does not seem to want me dead. That amount of compassion I just can't understand.
-		Party: If another person asks me if I can dance or not, I will light their hat on fire.
-	}
-
-	EnchantButton: Enchant
-
-	TownNPCMood: {
-		Content: I can't complain, really.
-		NoHome: Anywhere would be better than a cave with no bed or lighting.
-		LoveSpace: The quieter, the better. This is good.
-		FarFromHome: After being used to having people around for a bit, I miss it again.
-		DislikeCrowded: I really don't like how familiar some of these people are getting with me.
-		HateCrowded: I'm getting a headache from the pressure of having so many people around.
-		LikeBiome: I've never had the chance to live somewhere like this before. The trees and the songbirds… I quite like it.
-		DislikeBiome: Is this a sick joke? I can't bear to be here any longer, I've already tried to atone for my sins.
-		HateBiome: The spirits are unrestful here. It's really not a good feeling.
-		LikeNPC: "{NPCName} is someone who's had a terrible experience being cursed. He's put up with it quite well all that time, it's quite impressive honestly."
-		DislikeNPC: Such a racket! All {NPCName} does is make noise, day in and day out! I can't stand her!
-		LikeNPC_Princess: What a strangely pleasant kid {NPCName} is to be around.
-		Princess_LovesNPC: "{NPCName} is always lonely, it's why I want to hang out with her, no one should be left alone like that!"
 	}
 }

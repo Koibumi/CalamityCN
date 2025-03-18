@@ -50,16 +50,25 @@ GaussPistol: {
 
 GaussRifle: {
 	DisplayName: Gauss Rifle
-	Tooltip: Fires a devastating powerful high-velocity blast with absurd knockback
-}
-
-HeavyLaserRifle: {
-	DisplayName: Heavy Laser Rifle
 	Tooltip:
 		'''
-		Fires an incredibly accurate pair of destructive laser beams
-		[c/1FFBFF:'Though Godseeker Knights are often brutish, not all prefer close quarters melee combat.]
-		[c/1FFBFF:As such, Yharim personally requested that I create heavy weaponry for them despite being few in number.']
+		A magnet powered energy rifle that fires piercing shots, creating magnetic implosions that pull in weak enemies on hit
+		Implosions only spawn on the first enemy hit by the beam
+		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
+		[c/1FFBFF:This rifle has reliably pulled in skeptics of its crushing efficiency.']
+		'''
+}
+
+HolofiberImmolator: {
+	DisplayName: Holofiber Immolator
+	Tooltip:
+		'''
+		Fires three gravity-affected plasma drops which dissolve through foes
+		Holding <left> quickly charges the bow, firing a homing plasma arrow
+		Plasma arrows will detonate after impact, creating stronger explosions if stuck into tiles
+		Holding <right> will repeatedly fire uncharged shots
+		[c/1FFBFF:'The elegance of holofibre is unmatched.]
+		[c/1FFBFF:However, mechanical tension may have produced more consistent results.']
 		'''
 }
 
@@ -71,15 +80,6 @@ HydraulicVoltCrasher: {
 		Press <right> to use without hammering down walls
 		[c/1FFBFF:'A device made to electrically stamp metal plates, instantly fusing them.]
 		[c/1FFBFF:Naturally, it can also function as a devastating weapon.']
-		'''
-}
-
-MatterModulator: {
-	DisplayName: Matter Modulator
-	Tooltip:
-		'''
-		Fires a burst of unstable matter that pierces infinitely but deals little damage
-		After striking a tile, the matter will gain enhanced damage and no longer pierce
 		'''
 }
 
@@ -139,7 +139,12 @@ PulseDragon: {
 
 PulsePistol: {
 	DisplayName: Pulse Pistol
-	Tooltip: Fires a pulse that arcs to a new target on enemy hits
+	Tooltip:
+		'''
+		Fires a pulse orb that tracks nearby targets
+		After hitting an enemy, the pulse orb will split in two
+		Pulse orb pierce will not decrease when killing enemies
+		'''
 }
 
 PulseRifle: {
@@ -161,6 +166,19 @@ PulseTurretRemote: {
 		{$CommonItemTooltip.Sentry}
 		Summons a turret to fire explosive pulse blasts at your enemies
 		Only one pulse turret may exist at a time
+		'''
+}
+
+ScattershotSkewer: {
+	DisplayName: Scattershot Skewer
+	Tooltip:
+		'''
+		Fires a spread of lasers
+		Holding <left> charges the weapon, allowing it to thrust forward and impale enemies with an energy spear
+		Using the charged attack has a short cooldown
+		Holding <right> will repeatedly fire uncharged shots
+		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
+		[c/1FFBFF:A laser lance with which to gore their foes was met with thunderous applause.']
 		'''
 }
 
@@ -199,8 +217,8 @@ Taser: {
 	DisplayName: Taser
 	Tooltip:
 		'''
-		Shoots a hook that attaches to enemies and electrocutes them before returning
-		A slow, simple electric weapon, meant only for low ranking guards
+		Shoots a hook that attaches to enemies and rapidly electrocutes them before returning
+		After electrocuting an enemy enough, the hook will create a large electric burst on it
 		'''
 }
 
@@ -228,7 +246,9 @@ TrackingDisk: {
 	Tooltip:
 		'''
 		Releases a flying disk that fires lasers at nearby enemies
-		This disk gains acceleration as it returns to the player
+		Lasers do not directly damage enemies, but instead apply a stacking laser burn effect
+		Once hit by enough lasers or sufficient time has passed, laser burn will deal direct damage
+		The disk gains acceleration as it returns to the player
 		Stealth strikes fire lasers at a faster rate and distance, and can fire at multiple different targets
 		'''
 }
