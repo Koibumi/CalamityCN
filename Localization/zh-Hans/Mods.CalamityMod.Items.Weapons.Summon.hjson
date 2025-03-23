@@ -669,8 +669,8 @@ ScabRipper: {
 	Tooltip: 召唤血腥爬虫宝宝来保护你
 }
 
-SeashineSword: {
-	DisplayName: 海耀之刃
+SeashineHilt: {
+	DisplayName: SeashineHilt
 	Tooltip:
 		'''
 		召唤一柄闪亮的海棱晶之刃来切割你的敌人

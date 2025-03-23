@@ -64,6 +64,7 @@ ApoctosisArray: {
 		Press <right> to charge the blaster, restoring your mana until it reaches max
 		The more mana you restore, the stronger the arrow is when you release it
 		Charging for 90% of your max mana or more will reach max power
+		Holding this weapon disables the pickup of stars
 		'''
 }
 
@@ -500,6 +501,7 @@ IonBlaster: {
 		Press <right> to charge the blaster, restoring your mana until it reaches max
 		The more mana you restore, the stronger the burst is when you release it
 		Charging for 90% of your max mana or more will reach max power
+		Holding this weapon disables the pickup of stars
 		'''
 }
 

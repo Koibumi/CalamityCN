@@ -116,7 +116,11 @@ AmbrosialAmpoule: {
 
 AncientFossil: {
 	DisplayName: Ancient Fossil
-	Tooltip: Increases mining speed by 10%
+	Tooltip:
+		'''
+		Increases mining speed by 10%
+		Provides immunity to damage from falling blocks
+		'''
 }
 
 AnechoicPlating: {
@@ -202,8 +206,10 @@ ArchaicPowder: {
 	DisplayName: Archaic Powder
 	Tooltip:
 		'''
-		Increases mining speed by 15%
-		5% increased damage reduction and +10 defense while underground or in the underworld
+		Increases mining speed by 30%
+		Provides immunity to damage from falling blocks and dart traps
+		65% resistance to all damage from traps
+		Does not stack with downgrades
 		'''
 }
 
@@ -1000,7 +1006,13 @@ InterstellarStompers: {
 
 IronBoots: {
 	DisplayName: Iron Boots
-	Tooltip: Allows you to sink faster through liquids
+	Tooltip:
+		'''
+		Hold DOWN to increase your maximum fall speed, even in water
+		Upon hitting the ground, a shockwave is created at your feet 
+		The shockwave scales in both damage and size the longer you fall for
+		Negates fall damage
+		'''
 }
 
 JellyChargedBattery: {
@@ -2007,7 +2019,7 @@ WarbanneroftheRighteous: {
 	DisplayName: Warbanner of the Righteous
 	Tooltip:
 		'''
-		Damage is increased by 20% when close to enemies, but decreased by 60% when none are nearby
+		Damage is increased by 20% when close to enemies, but decreased by 40% when none are nearby
 		Emit a blazing aura that burns and repels nearby enemies
 		Enemies take increasing damage the closer they are to you and the longer they are near you
 		Effects are transparent and silent if visibility is disabled

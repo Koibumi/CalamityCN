@@ -467,9 +467,8 @@ FetidEmesis: {
 		'''
 		Fires an accelerating stream of bullets until the barrel overheats
 		When the barrel overheats, a spread of fetid chunks is vomited out
-		Holding <right> while firing will hold in the chunks
-		If held in for long enough, more chunks will be fired
 		After firing, the gun must cool back down before it can be used again
+		Pressing <right> while firing will instantly launch the chunks
 		75% chance to save ammo
 		'''
 }

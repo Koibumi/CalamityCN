@@ -249,7 +249,7 @@ TrackingDisk: {
 		Lasers do not directly damage enemies, but instead apply a stacking laser burn effect
 		Once hit by enough lasers or sufficient time has passed, laser burn will deal direct damage
 		The disk gains acceleration as it returns to the player
-		Stealth strikes fire lasers at a faster rate and distance, and can fire at multiple different targets
+		Stealth strikes fire lasers at a faster rate and distance, can fire at multiple different targets, and lasers deal small amounts of damage
 		'''
 }
 

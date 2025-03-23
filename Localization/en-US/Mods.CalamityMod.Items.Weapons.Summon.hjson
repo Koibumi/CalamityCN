@@ -669,8 +669,8 @@ ScabRipper: {
 	Tooltip: Summons a baby blood crawler to protect you
 }
 
-SeashineSword: {
-	DisplayName: Seashine Sword
+SeashineHilt: {
+	DisplayName: Seashine Hilt
 	Tooltip:
 		'''
 		Summons a brilliant sea prism blade to slice your enemies

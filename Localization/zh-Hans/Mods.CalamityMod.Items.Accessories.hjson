@@ -116,7 +116,11 @@ AmbrosialAmpoule: {
 
 AncientFossil: {
 	DisplayName: 远古化石
-	Tooltip: 增加10%挖掘速度
+	Tooltip: 
+		'''
+		增加10%挖掘速度
+		提供对来自下落方块的伤害免疫
+		'''
 }
 
 AnechoicPlating: {
@@ -202,8 +206,10 @@ ArchaicPowder: {
 	DisplayName: 古元粉末
 	Tooltip:
 		'''
-		增加15%挖掘速度
-		处于地下或地狱时增加5%伤害减免和10点防御
+		增加30%挖掘速度
+		提供对来自下落方块和飞镖陷阱的伤害免疫
+		提供对所有陷阱65%的伤害减免
+		不与下位叠加
 		'''
 }
 
@@ -1000,7 +1006,13 @@ InterstellarStompers: {
 
 IronBoots: {
 	DisplayName: 铁靴
-	Tooltip: 允许你在液体中更快地下潜
+	Tooltip: 
+		'''
+		按住下降键提高最大下落速度，即使在水中也是如此
+		当击中地面时，在你的脚边释放一个冲击波
+		冲击波的伤害和大小随你下落的时间提升
+		免疫摔落伤害
+		'''
 }
 
 JellyChargedBattery: {
@@ -2008,7 +2020,7 @@ WarbanneroftheRighteous: {
 	DisplayName: Warbanner of the Righteous
 	Tooltip:
 		'''
-		当你接近敌人时提升20%伤害，附近没有敌人时降低60%伤害
+		当你接近敌人时提升20%伤害，附近没有敌人时降低40%伤害
 		迸发炽烈的光环，灼烧并击退周围的敌怪
 		敌怪离你越近，接近时间越长，受到的伤害越高
 		如果关闭饰品可见性，饰品效果会变得透明且安静
