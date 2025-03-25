@@ -62,8 +62,8 @@ DeathExpandedInfo:
 DeathActivate: 死亡模式已开启，享受吧！
 DeathDeactivate: 死亡模式已关闭，你还不够享受吗？
 // Calamity Health Bar
-ExoTwinsNameNormal: XS-01 “阿尔忒弥斯”和 XS-03 “阿波罗”
-ExoTwinsNameHekate: XB-∞ “赫卡忒”之眼
+ExoTwinsNameNormal: XS-01 阿尔忒弥斯和 XS-03 阿波罗
+ExoTwinsNameHekate: XB-∞ 赫卡忒之眼
 ExtensionDisplay: （{0} 剩余： {1}）
 
 ExtensionName: {
