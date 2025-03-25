@@ -91,45 +91,45 @@ Nanodroid.DisplayName: 纳米机器人
 RepairUnitCritter.DisplayName: 修复机器人
 
 Apollo: {
-	DisplayName: XS-03 “阿波罗”
-	HekateName: XB-∞ “赫卡忒”的腐蚀之眼
+	DisplayName: XS-03 阿波罗
+	HekateName: XB-∞ 赫卡忒的腐蚀之眼
 }
 
 AresBody: {
-	DisplayName: XF-09 “阿瑞斯”
-	HekateName: XB-∞ “赫卡忒”
+	DisplayName: XF-09 阿瑞斯
+	HekateName: XB-∞ 赫卡忒
 }
 
 AresGaussNuke: {
-	DisplayName: XF-09 “阿瑞斯”高斯核弹发射井
-	HekateName: XB-∞ “赫卡忒”高斯核弹发射井
+	DisplayName: XF-09 阿瑞斯 高斯核弹发射井
+	HekateName: XB-∞ 赫卡忒 高斯核弹发射井
 }
 
 AresLaserCannon: {
-	DisplayName: XF-09 “阿瑞斯”镭射加农炮
-	HekateName: XB-∞ “赫卡忒”镭射加农炮
+	DisplayName: XF-09 阿瑞斯 镭射加农炮
+	HekateName: XB-∞ 赫卡忒 镭射加农炮
 }
 
 AresPlasmaFlamethrower: {
-	DisplayName: XF-09 “阿瑞斯”离子加农炮
-	HekateName: XB-∞ “赫卡忒”离子加农炮
+	DisplayName: XF-09 阿瑞斯 离子加农炮
+	HekateName: XB-∞ 赫卡忒 离子加农炮
 }
 
 AresTeslaCannon: {
-	DisplayName: XF-09 “阿瑞斯”特斯拉加农炮
-	HekateName: XB-∞ “赫卡忒”特斯拉加农炮
+	DisplayName: XF-09 阿瑞斯 特斯拉加农炮
+	HekateName: XB-∞ 赫卡忒 特斯拉加农炮
 }
 
 Artemis: {
-	DisplayName: XS-01 “阿尔忒弥斯”
-	HekateName: XB-∞ “赫卡忒”的灼烧之眼
+	DisplayName: XS-01 阿尔忒弥斯
+	HekateName: XB-∞ 赫卡忒的灼烧之眼
 }
 
 Draedon.DisplayName: 嘉登
 
 ThanatosHead: {
-	DisplayName: XM-05 “塔纳托斯”
-	HekateName: XB-∞ “赫卡忒”的脊柱
+	DisplayName: XM-05 塔纳托斯
+	HekateName: XB-∞ 赫卡忒的脊柱
 }
 
 GreatSandShark.DisplayName: 旱海狂鲨
