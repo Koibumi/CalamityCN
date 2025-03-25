@@ -254,8 +254,8 @@ namespace CalamityCN.Translations
                 }
                 if (item.type == ItemID.Magiluminescence)
                 {
-                    tooltips.ReplaceText("Increases movement acceleration and deceleration by 1.75x", "移动加速度和减速度增加1.75倍");
-                    tooltips.ReplaceText("Increases movement speed by 1.15x. This bonus applies to running boot accessories", "移动速度增加1.15倍。该效果适用于移动饰品");
+                    tooltips.ReplaceText("Increases movement acceleration and deceleration by 1.75x", "移动加速度和减速度增加至1.75倍");
+                    tooltips.ReplaceText("Increases movement speed by 1.15x. This bonus applies to running boot accessories", "移动速度增加至1.15倍。该效果适用于移动饰品");
                 }
 
                 if (item.type == ItemID.YoYoGlove || item.type == ItemID.YoyoBag)
@@ -342,7 +342,7 @@ namespace CalamityCN.Translations
                 if (item.type == ItemID.EmpressFlightBooster)
                 {
                     tooltips.ReplaceText("Increases wing flight time by 25%", "翅膀飞行时间增加25%");
-                    tooltips.ReplaceText("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高1.1倍");
+                    tooltips.ReplaceText("Increases movement and jump speed by 10% and acceleration by 1.1x", "移动和跳跃速度提高10%，加速度提高至1.1倍");
                 }
 
                 if (item.type == ItemID.MagnetFlower)
