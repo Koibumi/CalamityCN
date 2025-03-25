@@ -186,13 +186,13 @@ EditedTooltip: {
 	ArcaneFlowerManaCloak: 减少12%魔力消耗
 	Magiluminescence:
 		'''
-		移动加速度和减速度增加1.75倍
-		移动速度增加1.15倍。该效果适用于移动饰品
+		移动加速度和减速度提升为1.75倍
+		移动速度提升为1.15倍。该效果适用于移动饰品
 		'''
 	FrogLeg: 提高{0}%跳跃速度并可自动跳跃
 	// Soaring Insignia
 	EmpressFlightBooster1: 翅膀飞行时间增加33%
-	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提高1.25倍
+	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提升为1.25倍
 	RifleScope1: 扩大枪的视野范围（右键点击可拉远视野）
 	RifleScope2: 扩大视野效果可通过可见性开启或关闭
 	SniperScope: 提高7%远程伤害和暴击率
