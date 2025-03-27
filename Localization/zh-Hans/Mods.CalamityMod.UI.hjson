@@ -80,7 +80,7 @@ ExtensionName: {
 // Cooldowns
 Cooldowns: {
 	AquaticHeartIceShield: 冰盾冷却
-	ArsenalPower: Arsenal Cooldown
+	ArsenalPower: 嘉登军械冷却
 	AscendEffect: 进升冷却
 	BloodflareFrenzy: 鲜血狂怒冷却
 	BloodflareRangedSet: 幽火游魂冷却

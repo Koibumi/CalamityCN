@@ -64,9 +64,9 @@ HolofiberImmolator: {
 	Tooltip:
 		'''
 		Fires three gravity-affected plasma drops which dissolve through foes
-		Holding <left> quickly charges the bow, firing a homing plasma arrow
+		Holding <left> quickly charges the bow, firing a high-speed plasma arrow
 		Plasma arrows will detonate after impact, creating stronger explosions if stuck into tiles
-		Holding <right> will repeatedly fire uncharged shots
+		Holding <right> while firing will repeatedly fire uncharged shots
 		[c/1FFBFF:'The elegance of holofibre is unmatched.]
 		[c/1FFBFF:However, mechanical tension may have produced more consistent results.']
 		'''
@@ -142,8 +142,8 @@ PulsePistol: {
 	Tooltip:
 		'''
 		Fires a pulse orb that tracks nearby targets
-		After hitting an enemy, the pulse orb will split in two
-		Pulse orb pierce will not decrease when killing enemies
+		After hitting an enemy twice, the pulse orb will split in two
+		Pulse orb pierce will increase when killing enemies
 		'''
 }
 
@@ -174,9 +174,9 @@ ScattershotSkewer: {
 	Tooltip:
 		'''
 		Fires a spread of lasers
-		Holding <left> charges the weapon, allowing it to thrust forward and impale enemies with an energy spear
+		Holding <right> charges the weapon, allowing it to thrust forward and impale enemies with an energy spear
+		Holding <left> when firing the charge attack will launch you forward at high speeds and deal extra damage
 		Using the charged attack has a short cooldown
-		Holding <right> will repeatedly fire uncharged shots
 		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
 		[c/1FFBFF:A laser lance with which to gore their foes was met with thunderous applause.']
 		'''
@@ -217,8 +217,10 @@ Taser: {
 	DisplayName: Taser
 	Tooltip:
 		'''
-		Shoots a hook that attaches to enemies and rapidly electrocutes them before returning
-		After electrocuting an enemy enough, the hook will create a large electric burst on it
+		Press <left> to rapidly fire stunning bolts with high knockback
+		Press <right> to shoot a hook that attaches to enemies and rapidly electrocutes them
+		After electrocuting an enemy enough, the hook will create a shock explosion before returning to you
+		Successful hook attacks have a short cooldown that is applied unless the hook kills an enemy
 		'''
 }
 

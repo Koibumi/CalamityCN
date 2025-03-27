@@ -116,7 +116,7 @@ AmbrosialAmpoule: {
 
 AncientFossil: {
 	DisplayName: 远古化石
-	Tooltip: 
+	Tooltip:
 		'''
 		增加10%挖掘速度
 		提供对来自下落方块的伤害免疫
@@ -1006,7 +1006,7 @@ InterstellarStompers: {
 
 IronBoots: {
 	DisplayName: 铁靴
-	Tooltip: 
+	Tooltip:
 		'''
 		按住下降键提高最大下落速度，即使在水中也是如此
 		当击中地面时，在你的脚边释放一个冲击波
