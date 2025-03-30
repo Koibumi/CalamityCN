@@ -1068,7 +1068,7 @@ Riptide: {
 	Tooltip:
 		'''
 		{$Common.YoyoStats}
-		Occasionally pulses a riptide wave with heavy knockback
+		Rapidly pulses riptide waves which get larger the more hits landed by the yoyo
 		'''
 }
 

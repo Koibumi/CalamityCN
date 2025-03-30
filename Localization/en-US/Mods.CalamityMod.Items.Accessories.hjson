@@ -1947,7 +1947,7 @@ TrinketofChi: {
 	DisplayName: Trinket of Chi
 	Tooltip:
 		'''
-		Increases damage reduction by 4% if you avoid taking damage for 5 seconds
+		Increases damage reduction by 8% if you avoid taking damage for 10 seconds
 		This buff expires on hit
 		+1 HP/s life regen for teammates
 		'''
