@@ -82,7 +82,11 @@ Arbalest: {
 
 Archerfish: {
 	DisplayName: Archerfish
-	Tooltip: Converts musket balls into streams of water
+	Tooltip:
+		'''
+		Converts musket balls into streams of water
+		33% chance to save ammo
+		'''
 }
 
 ArcNovaDiffuser: {

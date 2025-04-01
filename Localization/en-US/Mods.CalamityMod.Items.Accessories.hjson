@@ -106,9 +106,9 @@ AmbrosialAmpoule: {
 	Tooltip:
 		'''
 		+50 max life
-		Grants +1 HP/s life regen
-		Grants +2 to +6 HP/s life regen based on missing health
+		Grants +2 to +5 HP/s life regen based on missing health
 		Standing still grants +1.5 HP/s life regen and +1 HP/s life regen when inflicted with a damage debuff
+		Current boost: +[REGEN] HP/s
 		Fire and sickness debuff durations are halved
 		You emit yellow light if visibility is enabled
 		'''
@@ -1042,8 +1042,9 @@ LeviathanAmbergris: {
 	DisplayName: Leviathan Ambergris
 	Tooltip:
 		'''
-		20% increased dash velocity, and dash cooldown is 33% faster
+		200% increased initial dash velocity, 33% faster dash cooldown, and greatly increased dash deceleration
 		Your dashes are empowered by water, knocking back and damaging nearby enemies with viscous currents
+		Visual effects are reduced if visibility is disabled
 		'''
 }
 
@@ -1155,8 +1156,9 @@ NecklaceofVexation: {
 	DisplayName: Necklace of Vexation
 	Tooltip:
 		'''
-		20% increased damage when under 50% life
-		All attacks inflict acid venom while wearing Reaver armor
+		Up to 30% increased damage the lower your life is
+		Current boost: [DAMAGE]%
+		All attacks inflict acid venom
 		Revenge
 		'''
 }
@@ -1370,15 +1372,21 @@ Radiance: {
 	Tooltip:
 		'''
 		+70 max life
-		Increases life regen based on missing health
-		Grants +1 HP/s life regen, and +1 HP/s life regen when inflicted with a damaging debuff
-		Each additional debuff grants 8 defense, which slowly decays while not debuffed
-		Standing still grants +2 HP/s life regen
-		Grants 20 defense and stronger regeneration while afflicted with any debuff
-		The healing eventually slows down if debuffed for an extended period of time
-		Weaker DoT debuffs are harmless and halves the duration of most other debuffs
+		Provides greatly improved life regen, increasing with lost health
+		Gain increased defense from debuffs inflicted on you, and greatly reduces their effectiveness
+		Current boosts: +[REGEN] HP/s and [DEFENSE] defense.
 		You emit shining blue light if visibility is enabled
 		'A once putrid crystal, now glimmering with immaculate purity'
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/CDF69C:Grants +2 to +5 HP/s life regen based on missing health]
+		[c/CDF69C:Recover an additional 6 HP/s while inflicted with a debuff]
+		[c/CDF69C:This eventually slows to 1.33 HP/s when debuffed for an extended time period]
+		[c/CDF69C:Standing still provides +2 HP/s life regen and faster natural regen recovery]
+		[c/CDF69C:+20 defense and faster natural regen recovery while afflicted with any debuff]
+		[c/CDF69C:Each additional debuff grants 8 defense, which slowly decays while not debuffed]
+		[c/CDF69C:Weak damaging debuffs are harmless and halves the duration of most other debuffs]
 		'''
 }
 
@@ -1387,6 +1395,7 @@ RadiantOoze: {
 	Tooltip:
 		'''
 		Grants +2 to +6 HP/s life regen based on missing health
+		Current boost: +[REGEN] HP/s
 		You emit yellow light if visibility is enabled
 		'''
 }
@@ -1608,6 +1617,7 @@ SlagsplitterPauldron: {
 		'''
 		You gain 10% damage reduction while dashing, and enemies are inflicted with Armor Crunch
 		Your dashes are empowered by fire, shredding enemies near you with violent explosions
+		Visual effects are reduced if visibility is disabled
 		'''
 }
 
@@ -1683,12 +1693,10 @@ StatisNinjaBelt: {
 	DisplayName: Statis' Ninja Belt
 	Tooltip:
 		'''
-		32% increased jump speed, allows auto-jump, and negates fall damage
-		Increases movement acceleration and deceleration by 1.75x
-		Increases movement speed by 1.15x. This bonus applies to running boot accessories
-		Grants the ability to swim, climb walls, dash, and dodge attacks
-		Provides light when worn
-		{$Common.AbyssLightLevel1}
+		Provides a high-speed dash that scales with your movement speed
+		10% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
+		Increases movement acceleration and deceleration by 1.6x
+		Grants the ability to swim, climb walls, and dodge attacks
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
@@ -1697,13 +1705,11 @@ StatisVoidSash: {
 	DisplayName: Statis' Void Sash
 	Tooltip:
 		'''
-		32% increased jump speed, allows auto-jump, and negates fall damage
-		Increases movement acceleration and deceleration by 1.75x
-		Increases movement speed by 1.15x. This bonus applies to running boot accessories
-		Grants the ability to swim, climb walls, dash, and dodge attacks
-		Dashes leave homing scythes in your wake
-		Provides light when worn
-		{$Common.AbyssLightLevel1}
+		Provides a high-speed dash that scales with your movement speed
+		20% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
+		Increases movement acceleration and deceleration by 1.85x
+		Grants the ability to swim, climb walls, and dodge attacks
+		Visual effects are reduced if visibility is disabled
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }

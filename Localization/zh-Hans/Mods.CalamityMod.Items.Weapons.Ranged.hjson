@@ -82,7 +82,11 @@ Arbalest: {
 
 Archerfish: {
 	DisplayName: 射水鱼
-	Tooltip: 将火枪子弹转化为一束水流
+	Tooltip: 
+		'''
+		将火枪子弹转化为一束水流
+		33%几率节省弹药
+		'''
 }
 
 ArcNovaDiffuser: {
