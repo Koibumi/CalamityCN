@@ -331,3 +331,8 @@ YharonSoulFragment: {
 	DisplayName: Yharon Soul Fragment
 	Tooltip: A shard of a draconic Auric Soul
 }
+
+AnodizedWulfrumMetal: {
+	DisplayName: Anodized Wulfrum Metal
+	Tooltip: ""
+}

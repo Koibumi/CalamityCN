@@ -619,7 +619,7 @@ Hellborn: {
 		'''
 		An ornate firearm created during the Draconic Era by Azafure's finest forgemaster
 		Hold <left> to twirl the gun in your hand, rapidly hitting nearby enemies
-		Hits with the gun itself add rounds to the gun, up to a max of 8
+		Hits with the gun itself add rounds to the gun, up to a max of 12
 		At the cost of one round, hold <right> to fire a giant energy sphere with potent recoil
 		[c/E1B65F:'Know the grace of a gun forged through beauteous inspiration']
 		'''

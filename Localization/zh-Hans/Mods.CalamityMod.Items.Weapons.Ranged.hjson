@@ -82,7 +82,7 @@ Arbalest: {
 
 Archerfish: {
 	DisplayName: 射水鱼
-	Tooltip: 
+	Tooltip:
 		'''
 		将火枪子弹转化为一束水流
 		33%几率节省弹药
@@ -619,7 +619,7 @@ Hellborn: {
 		'''
 		An ornate firearm created during the Draconic Era by Azafure's finest forgemaster
 		<left>将枪在手中旋转，快速击打附近敌怪
-		用枪自身命中敌怪时会给枪装填子弹，至多8发
+		用枪自身命中敌怪时会给枪装填子弹，至多12发
 		<right>时消耗一发子弹发射具有强后坐力的巨大能量球
 		[c/E1B65F:'Know the grace of a gun forged through beauteous inspiration']
 		'''

@@ -1513,7 +1513,7 @@ SandSharkToothNecklace: {
 	Tooltip:
 		'''
 		Increases armor penetration by 10
-		6% increased damage
+		10% increased damage
 		'''
 }
 
@@ -1697,6 +1697,7 @@ StatisNinjaBelt: {
 		10% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
 		Increases movement acceleration and deceleration by 1.6x
 		Grants the ability to swim, climb walls, and dodge attacks
+Consecutive dashes in the same direction reduce dash speed
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
@@ -1710,6 +1711,7 @@ StatisVoidSash: {
 		Increases movement acceleration and deceleration by 1.85x
 		Grants the ability to swim, climb walls, and dodge attacks
 		Visual effects are reduced if visibility is disabled
+Consecutive dashes in the same direction reduce dash speed
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
@@ -1890,8 +1892,8 @@ TheEvolution: {
 		'''
 		Reflects projectiles that hit you, negating their damage and dealing 10x damage to enemies
 		{$Common.ReflectInformation}
-		Reflecting a projectile grants +6 HP/s life regen for 5 seconds and grants maximum natural life regen
-		Getting hit by the same enemy projectile type during cooldown will resist its damage by 20%
+		Reflecting a projectile grants maximum natural life regen for 10 seconds
+		Getting hit by the same enemy projectile type during cooldown will resist its damage by 25%
 		'''
 }
 

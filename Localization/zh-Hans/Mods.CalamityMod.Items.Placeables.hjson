@@ -4223,3 +4223,23 @@ ChargedWulfrumEnergyBarrierWall: {
 	DisplayName: Charged Wulfrum Energy Barrier Wall
 	Tooltip: ""
 }
+
+WulfrumPlatform: {
+	DisplayName: Wulfrum Platform
+	Tooltip: ""
+}
+
+WulfrumSheets: {
+	DisplayName: Wulfrum Sheets
+	Tooltip: ""
+}
+
+WulfrumSiding: {
+	DisplayName: Wulfrum Siding
+	Tooltip: ""
+}
+
+WulfrumPillar: {
+	DisplayName: Wulfrum Pillar
+	Tooltip: ""
+}

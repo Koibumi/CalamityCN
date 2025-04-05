@@ -331,3 +331,8 @@ YharonSoulFragment: {
 	DisplayName: 龙魂碎片
 	Tooltip: 巨龙的金源魄碎片
 }
+
+AnodizedWulfrumMetal: {
+	DisplayName: Anodized Wulfrum Metal
+	Tooltip: ""
+}
