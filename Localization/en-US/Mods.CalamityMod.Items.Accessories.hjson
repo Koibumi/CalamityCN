@@ -270,7 +270,7 @@ BadgeofBravery: {
 	DisplayName: Badge of Bravery
 	Tooltip:
 		'''
-		Increases melee damage and melee crit by 10%
+		Increases melee damage and critical strike chance by 10%
 		Increases melee armor penetration by 5
 		'''
 }
@@ -1697,7 +1697,7 @@ StatisNinjaBelt: {
 		10% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
 		Increases movement acceleration and deceleration by 1.6x
 		Grants the ability to swim, climb walls, and dodge attacks
-Consecutive dashes in the same direction reduce dash speed
+		Consecutive dashes in the same direction reduce dash speed
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
@@ -1711,7 +1711,7 @@ StatisVoidSash: {
 		Increases movement acceleration and deceleration by 1.85x
 		Grants the ability to swim, climb walls, and dodge attacks
 		Visual effects are reduced if visibility is disabled
-Consecutive dashes in the same direction reduce dash speed
+		Consecutive dashes in the same direction reduce dash speed
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
@@ -2052,8 +2052,10 @@ WulfrumAcrobaticsPack: {
 	DisplayName: Wulfrum Acrobatics Pack
 	Tooltip:
 		'''
-		Transforms equipped hooks into a wulfrum slingshot
+		Provides a wulfrum slingshot grappling hook
+		This slingshot's stats scale with your equipped hook
 		The slingshot allows for advanced rope-swinging physics
+		Hold UP or DOWN to retract or extend the slingshot's rope
 		Automatically grapples nearby walls if a lethal fall is detected
 		This safety feature won't activate if DOWN is held
 		8% increased movement speed

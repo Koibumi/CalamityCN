@@ -4243,3 +4243,43 @@ WulfrumPillar: {
 	DisplayName: Wulfrum Pillar
 	Tooltip: ""
 }
+
+WulfrumComplexPanelWall: {
+	DisplayName: Wulfrum Complex Panel Wall
+	Tooltip: ""
+}
+
+AnodizedWulfrumPlatform: {
+	DisplayName: Anodized Wulfrum Platform
+	Tooltip: ""
+}
+
+AnodizedWulfrumTrim: {
+	DisplayName: Anodized Wulfrum Trim
+	Tooltip: ""
+}
+
+RoundedAnodizedWulfrumPanels: {
+	DisplayName: Rounded Anodized Wulfrum Panels
+	Tooltip: ""
+}
+
+AnodizedWulfrumTrimWall: {
+	DisplayName: Anodized Wulfrum Trim Wall
+	Tooltip: ""
+}
+
+RoundedAnodizedWulfrumPanelWall: {
+	DisplayName: Rounded Anodized Wulfrum Panel Wall
+	Tooltip: ""
+}
+
+AnodizedWulfrumPanels: {
+	DisplayName: Anodized Wulfrum Panels
+	Tooltip: ""
+}
+
+WulfrumPanelWall: {
+	DisplayName: Wulfrum Panel Wall
+	Tooltip: ""
+}

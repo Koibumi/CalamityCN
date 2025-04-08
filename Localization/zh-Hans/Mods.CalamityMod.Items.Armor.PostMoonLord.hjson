@@ -20,7 +20,29 @@ AuricTeslaCuisses: {
 AuricTeslaHoodedFacemask: {
 	DisplayName: 金兜铁面盔
 	Tooltip: 增加30%远程伤害和远程暴击率
-	SetBonus: 龙蒿套装、血炎套装和弑神者套装的套装奖励
+	SetBonus:
+		'''
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadRanged.SetBonusEffect}
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadRanged.SetBonusEffect}
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
+	SetBonus3:
+		'''
+		继承自弑神者套装的套装奖励：
+		{$GodSlayerHeadRanged.SetBonusEffect}
+		{$GodSlayerChestplate.CommonSetBonus}
+		'''
 }
 
 AuricTeslaPlumedHelm: {
@@ -32,8 +54,27 @@ AuricTeslaPlumedHelm: {
 		'''
 	SetBonus:
 		'''
-		龙蒿套装、血炎套装和弑神者套装的套装奖励
 		增加130点最大潜行值
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadRogue.SetBonusEffect}
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadRogue.SetBonusEffect}
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
+	SetBonus3:
+		'''
+		继承自弑神者套装的套装奖励：
+		{$GodSlayerHeadRogue.SetBonusEffect}
+		{$GodSlayerChestplate.CommonSetBonus}
 		'''
 }
 
@@ -46,9 +87,28 @@ AuricTeslaRoyalHelm: {
 		'''
 	SetBonus:
 		'''
-		龙蒿套装、血炎套装和弑神者套装的套装奖励
 		敌人更有可能以你为目标
 		增加28%近战攻速
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadMelee.SetBonusEffect}
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadMelee.SetBonusEffect}
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
+	SetBonus3:
+		'''
+		继承自弑神者套装的套装奖励：
+		{$GodSlayerHeadMelee.SetBonusEffect}
+		{$GodSlayerChestplate.CommonSetBonus}
 		'''
 }
 
@@ -57,9 +117,28 @@ AuricTeslaSpaceHelmet: {
 	Tooltip: 增加15%召唤伤害
 	SetBonus:
 		'''
-		龙蒿套装、血炎套装和始源林海套装的套装奖励
 		最大速度和加速度增加5%
 		增加6仆从栏和75%召唤伤害
+		龙蒿套装、血炎套装和始源林海套装的套装奖励
+		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadSummon.SetBonusEffect}
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadSummon.SetBonusEffect}
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
+	SetBonus3:
+		'''
+		继承自始源林海套装的套装奖励：
+		{$SilvaHeadSummon.SetBonusEffect}
+		{$SilvaArmor.CommonSetBonus}
 		'''
 }
 
@@ -68,8 +147,27 @@ AuricTeslaWireHemmedVisage: {
 	Tooltip: 增加30%魔法伤害、20%魔法暴击率和100点最大魔力值并降低20%魔力消耗
 	SetBonus:
 		'''
-		龙蒿套装、血炎套装和始源林海套装的套装奖励
 		最大速度和加速度增加5%
+		龙蒿套装、血炎套装和始源林海套装的套装奖励
+		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadMagic.SetBonusEffect}
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadMagic.SetBonusEffect}
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
+	SetBonus3:
+		'''
+		继承自始源林海套装的套装奖励：
+		{$SilvaHeadMagic.SetBonusEffect}
+		{$SilvaArmor.CommonSetBonus}
 		'''
 }
 
@@ -96,7 +194,8 @@ BloodflareCuisses: {
 BloodflareHeadMagic: {
 	DisplayName: 血魇九头盔
 	Tooltip: 增加20%魔法伤害、10%魔法暴击率和100点最大魔力值并降低17%魔力消耗
-	SetBonus:
+	SetBonus: "{$BloodflareHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
 		'''
 		魔法武器每1.67秒会发射一个灵魂弹幕
 		魔法武器暴击每2秒会产生血爆
@@ -110,6 +209,10 @@ BloodflareHeadMelee: {
 		'''
 		增加18%近战攻速
 		敌人更有可能以你为目标
+		{$BloodflareHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		真近战攻击会治疗你
 		使用真近战武器打击敌人15次进入鲜血狂怒状态，持续5秒
 		此期间近战伤害和暴击率提升25%，来自敌人的接触伤害减半
@@ -120,7 +223,8 @@ BloodflareHeadMelee: {
 BloodflareHeadRanged: {
 	DisplayName: 血弑曲角盔
 	Tooltip: 增加10%远程伤害和远程暴击率
-	SetBonus:
+	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
 		'''
 		按下{0}释放噬魂幽花的冤魂摧毁你的敌人
 		此效果有30秒冷却时间
@@ -138,6 +242,10 @@ BloodflareHeadRogue: {
 	SetBonus:
 		'''
 		增加120点最大潜行值
+		{$BloodflareHeadRogue.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		高于80%生命值时增加30点防御和5%盗贼暴击率
 		低于80%生命值时增加10%盗贼伤害
 		盗贼武器暴击会治疗你
@@ -150,6 +258,10 @@ BloodflareHeadSummon: {
 	SetBonus:
 		'''
 		增加50%召唤伤害和3仆从栏
+		{$BloodflareHeadSummon.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		召唤噬魂幽花地雷环绕你
 		90%生命值及以上时获得10%召唤伤害
 		50%生命值及以下时获得20点防御和1HP/s生命再生
@@ -329,6 +441,10 @@ GodSlayerHeadMelee: {
 		'''
 		增加20%近战攻速
 		敌人更有可能以你为目标
+		{$GodSlayerHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		一次性受到超过80点伤害使你放出一群高伤害的弑神飞镖
 		敌人碰到你时受到大量伤害
 		'''
@@ -337,7 +453,8 @@ GodSlayerHeadMelee: {
 GodSlayerHeadRanged: {
 	DisplayName: 弑神者头套
 	Tooltip: 增加14%远程伤害和远程暴击率
-	SetBonus: 你的远程武器射击时每2.5秒发射一枚弑神榴霰弹
+	SetBonus: "{$GodSlayerHeadRanged.SetBonusEffect}"
+	SetBonusEffect: 你的远程武器射击时每2.5秒发射一枚弑神榴霰弹
 }
 
 GodSlayerHeadRogue: {
@@ -350,6 +467,10 @@ GodSlayerHeadRogue: {
 	SetBonus:
 		'''
 		增加120点最大潜行值
+		{$GodSlayerHeadRogue.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		生命值全满时所有盗贼属性增加10%
 		如果一次攻击对你造成了超过80伤害，你获得额外的无敌帧
 		'''
@@ -463,7 +584,8 @@ SilvaHeadMagic: {
 		增加23%魔法伤害和13%魔法暴击率
 		增加100点最大魔力值并降低19%魔力消耗
 		'''
-	SetBonus: 不能穿透的魔法弹幕击中敌人后有几率产生强大的自然能量爆炸
+	SetBonus: "{$SilvaHeadMagic.SetBonusEffect}"
+	SetBonusEffect: 不能穿透的魔法弹幕击中敌人后有几率产生强大的自然能量爆炸
 }
 
 SilvaHeadSummon: {
@@ -472,8 +594,9 @@ SilvaHeadSummon: {
 	SetBonus:
 		'''
 		增加65%召唤伤害和5仆从栏
-		召唤用生命能量攻击敌人的远古叶片水晶
+		{$SilvaHeadSummon.SetBonusEffect}
 		'''
+	SetBonusEffect: 召唤用生命能量攻击敌人的远古叶片水晶
 }
 
 SilvaLeggings: {
@@ -507,7 +630,8 @@ TarragonHeadMagic: {
 		增加15%魔法伤害和10%魔法暴击率
 		增加10%伤害减免、100点最大魔力值并降低15%魔力消耗
 		'''
-	SetBonus:
+	SetBonus: "{$TarragonHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
 		'''
 		每五次暴击时发射叶片风暴
 		魔法弹幕击中敌人时有50%的几率治疗你
@@ -526,6 +650,10 @@ TarragonHeadMelee: {
 		'''
 		增加15%近战攻速
 		敌人更有可能以你为目标
+		{$TarragonHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		受到伤害时你会获得生命涌流增益，提供+1.5HP/s生命再生
 		按下{0}将自已以生命能量包裹，大大降低你受到的接触伤害，持续10秒
 		此效果有30秒冷却时间
@@ -539,7 +667,8 @@ TarragonHeadRanged: {
 		增加10%远程伤害和远程暴击率
 		增加10%伤害减免
 		'''
-	SetBonus: 远程弹幕消失时分裂为追踪敌人的生命能量
+	SetBonus: "{$TarragonHeadRanged.SetBonusEffect}"
+	SetBonusEffect: 远程弹幕消失时分裂为追踪敌人的生命能量
 }
 
 TarragonHeadRogue: {
@@ -552,6 +681,10 @@ TarragonHeadRogue: {
 	SetBonus:
 		'''
 		增加115点最大潜行值
+		{$TarragonHeadRogue.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		使用盗贼武器暴击敌人50次时你会获得2.5秒无敌时间
 		此效果有25秒冷却
 		若你受到减益影响，则提升10%盗贼伤害
@@ -564,8 +697,9 @@ TarragonHeadSummon: {
 	SetBonus:
 		'''
 		增加50%召唤伤害和3仆从栏
-		召唤围绕你的生命光环，对敌人造成伤害
+		{$TarragonHeadSummon.SetBonusEffect}
 		'''
+	SetBonusEffect: 召唤围绕你的生命光环，对敌人造成伤害
 }
 
 TarragonLeggings: {
