@@ -1911,9 +1911,9 @@ TheSponge: {
 	Tooltip:
 		'''
 		Gain a barrier with 180 health
-		The barrier grants 30 defense and 10% damage reduction while active
+		The barrier grants 20 defense and 10% damage reduction while active
 		[ADREN]
-		Once depleted, the barrier will regenerate 9 seconds after being hit
+		The barrier will regenerate 8 seconds after being hit, taking 10 seconds to completely regenerate
 		Getting hit resets the timer
 		'''
 	ShieldAdren: Halved Adrenaline loss if all damage is absorbed

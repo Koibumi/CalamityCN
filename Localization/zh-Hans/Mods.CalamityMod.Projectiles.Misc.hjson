@@ -12,8 +12,8 @@ GatlingLaserShot.DisplayName: 多管机关枪
 GaussEnergy.DisplayName: 高斯能量
 GaussFlux.DisplayName: 高斯流能
 GaussPistolShot.DisplayName: 高斯电能弹
-GaussRifleBlast.DisplayName: 电泳冲击波
-GaussRifleExplosion.DisplayName: 电磁暴
+GaussRailgunBlast.DisplayName: 电泳冲击波
+GaussRailgunExplosion.DisplayName: 电磁暴
 ImmolationArrow.DisplayName: Immolation Arrow
 ImmolationBurst.DisplayName: Immolation Burst
 ImmolationSpray.DisplayName: Immolation Spray
@@ -75,3 +75,4 @@ PlagueShot.DisplayName: 瘟疫爆弹
 PlagueShotBuffer.DisplayName: 瘟疫爆弹
 WaterShot.DisplayName: 水流
 WaterShotBuffer.DisplayName: 水流
+GaussRailgunBigShot.DisplayName: 高斯轨道炮终末一击

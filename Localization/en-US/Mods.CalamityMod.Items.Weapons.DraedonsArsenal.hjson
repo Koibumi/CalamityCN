@@ -1,3 +1,16 @@
+CompactRailgun: {
+	DisplayName: Compact Railgun
+	Tooltip:
+		'''
+		A magnet powered energy railgun that fires rapidly, creating lingering magnetic implosions that pull in weak enemies on hit
+		Only one implosion can exist at a time
+		Press <right> to begin charging a devastating energy beam that always crits and will fire once ready
+		This charge attack can not be interrupted once started and has a long cooldown
+		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
+		[c/1FFBFF:This railgun has reliably pulled in skeptics of its crushing efficiency.']
+		'''
+}
+
 FrequencyManipulator: {
 	DisplayName: Frequency Manipulator
 	Tooltip:
@@ -45,17 +58,6 @@ GaussPistol: {
 		Fires a devastating high-velocity blast with extreme knockback
 		[c/1FFBFF:'Though this arcane pistol may seem mundane, it is deceivingly powerful.]
 		[c/1FFBFF:One of the many advantages of magical firearms is that size does not equal power.']
-		'''
-}
-
-GaussRifle: {
-	DisplayName: Gauss Rifle
-	Tooltip:
-		'''
-		A magnet powered energy rifle that fires piercing shots, creating magnetic implosions that pull in weak enemies on hit
-		Implosions only spawn on the first enemy hit by the beam
-		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
-		[c/1FFBFF:This rifle has reliably pulled in skeptics of its crushing efficiency.']
 		'''
 }
 

@@ -1,3 +1,16 @@
+CompactRailgun: {
+	DisplayName: Compact Railgun
+	Tooltip:
+		'''
+		一把能够快速开火的磁能轨道枪，在命中时产生持续牵引较弱敌人的磁能内爆
+		同时只能存在一个内爆
+		按下<right>开始为一束毁灭性能量束充能，能量束一旦充能完成就会发射，且必定暴击
+		充能攻击一旦开始就不能被打断，且具有较长的冷却时间
+		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
+		[c/1FFBFF:This rifle has reliably pulled in skeptics of its crushing efficiency.']
+		'''
+}
+
 FrequencyManipulator: {
 	DisplayName: 变频器
 	Tooltip:
@@ -45,17 +58,6 @@ GaussPistol: {
 		发射毁灭性的极强击退的高速冲击波
 		[c/1FFBFF:“尽管这把神秘的手枪看起来很平凡，但它却是难以置信地强力。]
 		[c/1FFBFF:魔法枪的优点之一是尺寸不等于威力。”]
-		'''
-}
-
-GaussRifle: {
-	DisplayName: 高斯来复枪
-	Tooltip:
-		'''
-		一把发射穿透能量束的磁能步枪，在命中时产生吸引较弱敌人的磁能内爆
-		内爆只会在光束的首次命中时生成
-		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
-		[c/1FFBFF:This rifle has reliably pulled in skeptics of its crushing efficiency.']
 		'''
 }
 

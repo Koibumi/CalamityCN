@@ -12,8 +12,8 @@ GatlingLaserShot.DisplayName: Gatling Laser
 GaussEnergy.DisplayName: Gauss Energy
 GaussFlux.DisplayName: Gauss Flux
 GaussPistolShot.DisplayName: Gauss Shot
-GaussRifleBlast.DisplayName: Gauss Blast
-GaussRifleExplosion.DisplayName: Gauss Explosion
+GaussRailgunBlast.DisplayName: Gauss Beam
+GaussRailgunExplosion.DisplayName: Gauss Explosion
 ImmolationArrow.DisplayName: Immolation Arrow
 ImmolationBurst.DisplayName: Immolation Burst
 ImmolationSpray.DisplayName: Immolation Spray
@@ -75,3 +75,4 @@ PlagueShot.DisplayName: Plague Shot
 PlagueShotBuffer.DisplayName: Plague Shot
 WaterShot.DisplayName: Water Shot
 WaterShotBuffer.DisplayName: Water Shot
+GaussRailgunBigShot.DisplayName: Gauss Railgun Big Shot

@@ -46,6 +46,15 @@ CalamityClientConfig: {
 			'''
 	}
 
+	CalamityArmorSetBonusDoubleTap: {
+		Label: "[i:CalamityMod/DesertProwlerHat] 允许原版热键触发灾厄套装奖励"
+		Tooltip:
+			'''
+			当启用时，允许灾厄套装奖励被原版的双击DOWN或UP热键触发。
+			同时允许原版套装奖励被灾厄的套装奖励热键触发。
+			'''
+	}
+
 	ChargeMeter: {
 		Label: "[i:CalamityMod/DraedonPowerCell] 显示充能条"
 		Tooltip:

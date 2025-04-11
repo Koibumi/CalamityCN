@@ -46,6 +46,15 @@ CalamityClientConfig: {
 			'''
 	}
 
+	CalamityArmorSetBonusDoubleTap: {
+		Label: "[i:CalamityMod/DesertProwlerHat] Calamity Armor Set Bonuses Can Use Vanilla Hotkey"
+		Tooltip:
+			'''
+			When enabled, allows Calamity armor set bonuses to be triggered by the vanilla double-tap DOWN hotkey (or UP depending on your settings).
+			Also allows vanilla armor set bonuses to be triggered by Calamity's armor set bonus hotkey.
+			'''
+	}
+
 	ChargeMeter: {
 		Label: "[i:CalamityMod/DraedonPowerCell] Display Charge Meter"
 		Tooltip:
