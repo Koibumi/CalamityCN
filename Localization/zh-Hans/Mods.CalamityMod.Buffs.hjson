@@ -153,7 +153,7 @@ BrainRot: {
 
 DemonicFlames: {
 	DisplayName: Demonic Flames
-	Description: Immolating flames sear your soul
+	Description: 献祭之火正在灼烧你的灵魂
 }
 
 ElementalMix: {
@@ -183,7 +183,7 @@ GodSlayerInferno: {
 
 HeavyBleeding: {
 	DisplayName: Heavy Bleeding
-	Description: That's gonna need stitches
+	Description: 你需要缝针
 }
 
 HolyFlames: {
@@ -198,7 +198,7 @@ HolyInferno: {
 
 Laceration: {
 	DisplayName: Laceration
-	Description: You're a bloody mess
+	Description: 你血流如注
 }
 
 ManaBurn: {
@@ -268,7 +268,7 @@ Vaporfied: {
 
 VermillionFlux: {
 	DisplayName: Vermillion Flux
-	Description: Sharp arcs of scarlet course through you
+	Description: 猩红色的尖锐电弧贯穿了你的全身
 }
 
 Voidfrost: {
@@ -1089,7 +1089,7 @@ AbandonedSlimeBuff: {
 
 AmphibiansGuitarBuff: {
 	DisplayName: Amphibian's Guitars
-	Description: Worthless human...
+	Description: 毫无价值的人类……
 }
 
 AncientMineralSharkBuff: {

@@ -124,17 +124,17 @@ WingTimeHairDye: {
 }
 
 LivingShardDye: {
-	DisplayName: Living Shard Dye
+	DisplayName: 生命碎片染料
 	Tooltip: ""
 }
 
 MeldDye: {
-	DisplayName: Meld Dye
+	DisplayName: 冥思染料
 	Tooltip: ""
 }
 
 NecromanticDye: {
-	DisplayName: Necromantic Dye
+	DisplayName: 祭献血肉染料
 	Tooltip: ""
 }
 
@@ -159,17 +159,17 @@ PinkStatigelDye: {
 }
 
 PlagueGooDye: {
-	DisplayName: Plague Goo Dye
+	DisplayName: 瘟疫细胞染料
 	Tooltip: ""
 }
 
 PlaguePlateDye: {
-	DisplayName: Plague Plate Dye
+	DisplayName: 瘟疫镀层染料
 	Tooltip: ""
 }
 
 ProfanedCrystalDye: {
-	DisplayName: Profaned Crystal Dye
+	DisplayName: 渎神结晶染料
 	Tooltip: ""
 }
 
@@ -184,7 +184,7 @@ ProfanedMoonlightDye: {
 }
 
 ProfanedRockDye: {
-	DisplayName: Profaned Rock Dye
+	DisplayName: 渎神石块染料
 	Tooltip: ""
 }
 
@@ -194,7 +194,7 @@ ReaverDye: {
 }
 
 ScoriaDye: {
-	DisplayName: Scoria Dye
+	DisplayName: 熔渣染料
 	Tooltip: ""
 }
 
@@ -204,7 +204,7 @@ ShadowspecDye: {
 }
 
 SilvaDye: {
-	DisplayName: Silva Dye
+	DisplayName: 始源林海染料
 	Tooltip: ""
 }
 
@@ -224,7 +224,7 @@ SwirlingCosmicFlameDye: {
 }
 
 TarragonDye: {
-	DisplayName: Tarragon Dye
+	DisplayName: 龙蒿染料
 	Tooltip: ""
 }
 

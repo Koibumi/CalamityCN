@@ -1929,7 +1929,7 @@ TheTransformer: {
 		液态金属滴将会环绕你，对命中的敌人造成少量伤害和击退
 		圈中至多同时容纳30个液态金属滴
 		按下[KEY]将所有液态金属滴转换为针状，并向你的光标发射
-		'How did this come out of the junk you cobbled together? You're lucky it doesn't transform you'
+		“你是怎么从废料里拼出来这玩意的？它没把你也转换了真是谢天谢地”
 		'''
 	TooltipGFB:
 		'''
@@ -1937,7 +1937,7 @@ TheTransformer: {
 		液态金属滴将会环绕你，对命中的敌人造成少量伤害和击退
 		圈中能够容纳的液态金属滴没有上限，但你的电脑可能有
 		按下[KEY]将所有液态金属滴转换为针状，并向你的光标发射
-		'It's no Beeftank Doctrine, but it sure feels breakthrough!'
+		“这不是牛肉坦克学说，但感觉绝对有“突破”级强度！”
 		'''
 }
 
@@ -2152,7 +2152,7 @@ TheComb: {
 		'''
 		使穿戴者的头发光泽耀人
 		闪光粒子会被附近的宝箱吸引
-		'We ain't found shit!'
+		“我们可不找屎”
 		'''
 }
 
