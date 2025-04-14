@@ -420,7 +420,7 @@ Cometfruit: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
-		'Tastes stellar!'
+		“星级美味！”
 		'''
 }
 
@@ -439,7 +439,7 @@ Mangosteen: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
-		'Queen of fruits'
+		“果中皇后”
 		'''
 }
 
@@ -453,6 +453,6 @@ ShroomBowl: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
-		'He has been grounded'
+		“他已经落地生根”
 		'''
 }

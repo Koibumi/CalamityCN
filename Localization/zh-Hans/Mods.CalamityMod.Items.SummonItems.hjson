@@ -167,7 +167,7 @@ NaiadsWarhorn: {
 		在海洋使用以召唤阿娜希塔
 		在海洋以外狂暴
 		{$Common.NotConsumable}
-		'An instrument used by mermen to call upon Anahita. Its melody is oddly alluring.'
+		“人鱼用来呼唤阿娜希塔的乐器。它的旋律充满着奇异的诱惑。”
 		'''
 }
 
@@ -239,7 +239,7 @@ ProfanedCore: {
 	Tooltip:
 		'''
 		在神圣之地或地狱使用以召唤亵渎天神
-		Use again while Providence is at high health to unleash Her perfect fury
+		当亵渎天神生命值较高时再次使用以释放她的全部怒火
 		{$Common.NotConsumable}
 		“她的守卫的心脏，她将会用污亵的烈焰焚尽现在正掌控它的人。”
 		'''

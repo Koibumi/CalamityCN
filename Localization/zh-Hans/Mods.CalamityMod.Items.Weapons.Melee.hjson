@@ -198,8 +198,8 @@ BladecrestOathsword: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/df0049:A ritual blade used by Demons for sacrifices.]
-		[c/df0049:The more blood taints the edge, the sharper it becomes.]
+		[c/df0049:恶魔用作献祭的仪式之刃。]
+		[c/df0049:沾染的鲜血越多，刀刃就越为锋利。]
 		'''
 }
 
@@ -386,9 +386,9 @@ DevilsDevastation: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/d13ca2:The perfect blade of the Underworld, wielding the power of Brimstone directly.]
-		[c/d13ca2:Humans understand this force as Havoc, the inevitable sundering of all order in fire.]
-		[c/d13ca2:Perhaps this is why the Brimstone Elemental had strength unrivaled by her sisters.]	
+		[c/d13ca2:完美的地狱之剑，直接掌握着硫磺火之力。]
+		[c/d13ca2:人类将这种力量理解为浩劫，即一切秩序在火焰之中的必然毁灭。]
+		[c/d13ca2:或许这就是硫磺火元素掌握着她的姐妹所不能匹敌之力量的原因。]	
 		'''
 }
 
@@ -443,7 +443,7 @@ Earth: {
 		一把绚丽的棱晶剑，有着无与伦比的近战能力
 		命中时大幅治疗你
 		每隔一次挥舞会从天上召唤三道盖亚陨石打击附近敌怪
-		'All Its spawn shall know the beauty and wrath of their creator'
+		“凡属祂所生的，必晓得其造物主的荣美与烈怒。”
 		'''
 }
 
@@ -509,10 +509,10 @@ ExaltedOathblade: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/b63cd1:A sword fashioned from the legend of the Last Demon Lord.]
-		[c/b63cd1:Crowned through his overwhelming might, his sword bathed in the blood of Demons and the fires of hell.]
-		[c/b63cd1:Even long after his passing, none have dared to take the seat.]
-		[c/b63cd1:Demonkind has not known unity since.]
+		[c/b63cd1:源自末代魔王传说的剑。]
+		[c/b63cd1:他以无可匹敌之力加冕，手中之剑染满恶魔鲜血，燃烧着地狱之火。]
+		[c/b63cd1:即便他早已陨落，王座依旧空悬，无人敢越雷池半步。]
+		[c/b63cd1:自那之后，群魔再无一统之日。]
 		'''
 }
 
@@ -582,9 +582,9 @@ ForbiddenOathblade: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/b63cd1:A blade forged in the likeness of that granted to the Demon Lord.]
-		[c/b63cd1:The title was coveted by all demonkind. Only one may exist at a time.]
-		[c/b63cd1:Any claimant who seeks the throne has a simple goal: the head of the former Lord.]
+		[c/b63cd1:仿照选定魔王之剑锻造而成。]
+		[c/b63cd1:这头衔曾令群魔垂涎，唯一人得以拥有。]
+		[c/b63cd1:凡觊觎王座者，其目标唯有一项：取前任魔王之首级。]
 		'''
 }
 
@@ -746,7 +746,7 @@ Hellkite: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
+		一把巨龙时代的远古重剑，由阿萨福勒最负盛名的锻造大师打造而成。
 		挥舞一把带强力击退的缓慢重剑
 		按住右键会开始充能一次加强型挥舞
 		满充能时松开右键会释放一次必定暴击的毁灭斩切
@@ -754,7 +754,7 @@ Hellkite: {
 		'''
 	TooltipGFB:
 		'''
-		An ancient blade created during the Draconic Era by Azafure's finest forgemaster
+		一把巨龙时代的远古重剑，由阿萨福勒最负盛名的锻造大师打造而成。
 		挥舞一把带强力击退的缓慢重剑
 		按住右键会开始充能一次加强型挥舞
 		满充能时松开右键会释放一次必定暴击的毁灭斩切
@@ -931,8 +931,8 @@ OldLordClaymore: {
 	Tooltip: 一把缓慢但强大的剑，能点燃敌人并具有强大的击退
 	HoldShiftTooltip:
 		'''
-		[c/df4420:A gift to outstanding Demons, a replica of the sword used by the greatest of all Demon Lords.]
-		[c/df4420:The prosperity he brought to their kind is unmatched even now that they alone rule the Undeworld.]
+		[c/df4420:献予卓越恶魔的赠礼——那位最伟大的魔王所用之剑的复制品。]
+		[c/df4420:他曾为魔族带来空前的繁荣，即便今日魔族独掌地狱，其所成之盛依旧无人能及。]
 		'''
 }
 

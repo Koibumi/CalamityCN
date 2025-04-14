@@ -617,7 +617,7 @@ Hellborn: {
 	DisplayName: 地狱降临
 	Tooltip:
 		'''
-		An ornate firearm created during the Draconic Era by Azafure's finest forgemaster
+		一把巨龙时代的华丽枪械，由阿萨福勒最负盛名的锻造大师打造而成。
 		<left>将枪在手中旋转，快速击打附近敌怪
 		用枪自身命中敌怪时会给枪装填子弹，至多12发
 		<right>时消耗一发子弹发射具有强后坐力的巨大能量球
