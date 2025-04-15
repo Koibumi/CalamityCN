@@ -621,7 +621,7 @@ Hellborn: {
 		<left>将枪在手中旋转，快速击打附近敌怪
 		用枪自身命中敌怪时会给枪装填子弹，至多12发
 		<right>时消耗一发子弹发射具有强后坐力的巨大能量球
-		[c/E1B65F:'Know the grace of a gun forged through beauteous inspiration']
+		[c/E1B65F:“感受此灵韵所凝之铳中的优雅”]
 		'''
 }
 
@@ -689,7 +689,7 @@ Leviatitan: {
 		发射高速海潮弹
 		每六次射击释放能撕裂敌人防御的追踪吞食者
 		右键点击吐出命中时爆炸的流星
-		'The L in LMG stands for Leviathan'
+		“LMG中的L既代表轻，也代表利维坦”
 		'''
 }
 
@@ -1309,7 +1309,7 @@ TauCannon: {
 		一级充能发射一阵小激光
 		二级充能发射一道快速消失的能量光束
 		三级充能发射一道大激光并在你周围产生星幻传送门
-		'This weapon is very ethically questionable'
+		“这把武器的伦理十分可疑”
 		'''
 }
 

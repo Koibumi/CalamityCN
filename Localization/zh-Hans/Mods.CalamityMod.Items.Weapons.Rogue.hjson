@@ -318,8 +318,8 @@ DoomsdayDevice: {
 		当完全充能时，非潜伏攻击不会消耗潜行值
 		超出充能上限后继续为潜伏攻击充能将会快速耗尽你的潜行值
 		潜伏攻击会在多个敌人之间反弹，最终爆炸成强力冲击
-		'A high-tech explosive with devastating power... If only you could figure out how to arm it'
-		'At least you can throw it really hard!'
+		“具有毁灭性力量的高科技炸弹……前提是你得知道如何引爆它”
+		“至少你可以把它用力扔出去！”
 		'''
 }
 
@@ -720,20 +720,20 @@ Malachite: {
 		'''
 	LegendaryText:
 		'''
-		> STATUS_
-		Extensive hull damage. Repairs initiated.
-		Sensor arrays offline. Repairs scheduled T+2200.
+		> 状态_
+		机体严重受损。已初始化修复程序。
+		传感器阵列已下线。修复程序将于T+2200开始。
 
-		> UPDATE_DIRECTIVE_
-		Error 0x00017F80. Device sector unreadable.
-		Initializing search for external directive.
-		Searching... (383526 more)
-		Directive found.
-		New directive compiled. Rebooting...
+		> 更新_指令_
+		错误 0x00017F80。设备向量不可读。
+		正在初始化外部指令搜索程序。
+		正在检索…… (383526 个结果)
+		指令已找到。
+		新指令已编译。正在重启……
 
-		> PLAGUE UNIT 194-QB-03d ONLINE.
-		Directive summary:
-		Continue propagation of unified frequency band and lead satellite units.
+		> 瘟疫单位 194-QB-03d 已上线。
+		指令概述：
+		继续散播统一频段并领导附属部队。
 		'''
 }
 

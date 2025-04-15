@@ -41,8 +41,8 @@ CirrusBlaster.DisplayName: 山猪大飞菇
 CirrusPhotonRipperPrismTooth.DisplayName: 山猪大锯锯
 CirrusPhotonRipperProjectile.DisplayName: 山猪超级锯
 CirrusVolatileVodkaBottle.DisplayName: 挥发伏特加瓶
-CrimulanSpike.DisplayName: Crimulan Spike
-CursedFire.DisplayName: Eye Fire
+CrimulanSpike.DisplayName: 血化尖刺
+CursedFire.DisplayName: 诅咒之火
 DarkEnergyBall.DisplayName: 暗能量
 DarkEnergyBall2.DisplayName: 暗能量
 DarkOrb.DisplayName: 暗之球
@@ -59,7 +59,7 @@ DoGDeathBoom.DisplayName: 宇宙爆裂
 DoGFire.DisplayName: 死亡之火
 DoGP1EndPortal.DisplayName: 噬神者维度传送门
 DoGTeleportRift.DisplayName: 星宇裂隙
-DoGWingdings.DisplayName: Ramblings of Wing DoGster
+DoGWingdings.DisplayName: 某自命不凡者的叫嚣
 DraedonSummonLaser.DisplayName: wowowow超级xx的巨型末日死光！！
 DyingSun.DisplayName: 垂死之日
 EssenceDust.DisplayName: 寰宇灵尘
@@ -102,9 +102,9 @@ LeviathanSpawner.DisplayName: 利维坦生成物
 MajesticSparkle.DisplayName: 威严之光
 MoltenBlast.DisplayName: 熔岩陨星
 MoltenBlob.DisplayName: 熔岩陨石
-MushBomb.DisplayName: 蘑菇弹
+MushBomb.DisplayName: 蘑菇炸弹
 MushBombFall.DisplayName: 飘落蘑菇孢子
-MushBombGround.DisplayName: Mushroom Shot
+MushBombGround.DisplayName: 蘑菇弹
 OldDukeGore.DisplayName: 富硫腐尸
 OldDukeSummonDrop.DisplayName: 酸
 OldDukeToothBallSpike.DisplayName: 尖刺
