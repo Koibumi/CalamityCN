@@ -1736,7 +1736,7 @@ StatMeter: {
 		'''
 
 	ClassNameOverride: {
-		Default: 真实伤害
+		Default: 无职业伤害（不受伤害加成影响）
 		Generic: 无职业伤害
 		NoSpeed: （不受攻速加成影响）
 		SummonMeleeSpeed: （鞭子）
