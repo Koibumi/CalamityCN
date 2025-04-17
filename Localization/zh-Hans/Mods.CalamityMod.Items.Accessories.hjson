@@ -1402,7 +1402,7 @@ RadiantOoze: {
 
 RaidersTalisman: {
 	DisplayName: 掠夺者护符
-	Tooltip: 潜伏攻击会对非潜伏攻击提供10%暴击率加成，持续5秒
+	Tooltip: 潜伏攻击会对非潜伏攻击提供15%暴击率加成，持续10秒
 }
 
 RampartofDeities: {
@@ -1463,7 +1463,7 @@ RottenBrain: {
 
 RottenDogtooth: {
 	DisplayName: 腐烂犬齿
-	Tooltip: 潜伏攻击会造成粉碎减益并多造成8%伤害
+	Tooltip: 潜伏攻击会造成2.5秒粉碎减益并多造成8%伤害
 }
 
 RoverDrive: {
@@ -1976,8 +1976,11 @@ VampiricTalisman: {
 	Tooltip:
 		'''
 		盗贼暴击时会汲取敌人生命
-		增加12%盗贼伤害
+		潜伏攻击会对非潜伏攻击提供15%暴击率加成和更多的生命偷取，持续10秒
+		潜伏攻击会造成Heavy Bleeding和碎甲减益并多造成8%伤害
+		'Possessing the talisman makes you yearn for blood'
 		'''
+	YearningForBlood: THIS ENDLESS HUNGER WON'T END
 }
 
 VeneratedLocket: {

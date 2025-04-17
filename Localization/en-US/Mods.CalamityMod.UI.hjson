@@ -20,7 +20,7 @@ StealthInfoText:
 	'''
 // Difficulty UI
 DifficultyStatusText: "{0} is {1}."
-ModeAppend: " Mode"
+ModeAppend: "{0} Mode"
 Active: Active
 NotActive: Not active
 DifficultyShiftText: "[c/737373:Hold the 'Shift' key for more information]"
@@ -114,6 +114,7 @@ Cooldowns: {
 	PrismaticLaser: Prismatic Laser Barrage Cooldown
 	ProfanedSoulShieldDurability: Profaned Soul Shield Durability
 	ProfanedSoulShieldRecharge: Profaned Soul Shield Recharge
+	RaiderBoost: Extra Critical Chance
 	RelicOfResilienceCooldown: Relic of Resilience Cooldown
 	RogueBooster: Rogue Booster Cooldown
 	SandCloak: Sand Cloak Cooldown
@@ -587,6 +588,8 @@ Lecherous: {
 
 Disenchant: Disenchant
 // Worldgen Tasks
+BetterUnderworld: Creating a smoother underworld
+AshIslandLavaRemoval: Removing lava from ash island
 EvilIslandCorrupt: Adding a putrid floating island
 EvilIslandCrimson: Adding a grotesque floating island
 AstralChest: Placing an astral chest

@@ -1599,6 +1599,12 @@ YoungDukeBuff: {
 }
 
 // Misc
+
+HyperiusCollapse: {
+	DisplayName: Hyperius Collapse
+	Description: You should never see this...
+}
+
 PopoBuff: {
 	DisplayName: Popo
 	Description: You are a snowman now!

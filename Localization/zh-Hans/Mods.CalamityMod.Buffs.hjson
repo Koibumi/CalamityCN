@@ -1603,6 +1603,12 @@ YoungDukeBuff: {
 }
 
 // Misc
+
+HyperiusCollapse: {
+	DisplayName: 海伯里斯坍缩
+	Description: 你绝不该看到这个……
+}
+
 PopoBuff: {
 	DisplayName: 雪宝
 	Description: 你现在是个雪人了！

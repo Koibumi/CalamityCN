@@ -29,6 +29,7 @@ AddedTooltip: {
 	WarmthPotion: Greatly reduces the duration of Chilled, Frozen, and Glacial State
 	HandWarmer: Provides a regeneration boost while wearing the Snow armor
 	GoldenFishingRod: Its fishing line will never break
+	Stepstool: Standing on the stool grants 5% increased critical strike chance
 	Tombstones:
 		'''
 		13 of any tombstone turns the surrounding area into a graveyard
@@ -274,6 +275,12 @@ EditedTooltip: {
 	ApprenticeAltHead: 10% increased summon & magic damage
 	ApprenticeAltShirt: 15% increased summon damage and 10% increased magic damage
 	ApprenticeAltPants: 10% increased summon damage
+	GravityGlobe:
+		'''
+		Provides 32% increased jump speed and increased fall speed
+		Press UP to change gravity
+		Press DOWN to fall faster
+		'''
 }
 
 // Buff Descriptions

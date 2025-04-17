@@ -20,7 +20,7 @@ StealthInfoText:
 	'''
 // Difficulty UI
 DifficultyStatusText: "{0}已{1}。"
-ModeAppend: " 模式"
+ModeAppend: "{0} 模式"
 Active: 开启
 NotActive: 关闭
 DifficultyShiftText: "[c/737373:按住“Shift”以获取更多信息]"
@@ -114,6 +114,7 @@ Cooldowns: {
 	PrismaticLaser: 光棱冷却
 	ProfanedSoulShieldDurability: 亵渎灵魂护盾耐久
 	ProfanedSoulShieldRecharge: 亵渎灵魂护盾充能
+	RaiderBoost: 额外暴击率
 	RelicOfResilienceCooldown: 塑魂冷却
 	RogueBooster: 悖论增幅器冷却
 	SandCloak: 沙尘斗篷冷却
@@ -587,6 +588,8 @@ Lecherous: {
 
 Disenchant: 祛魔
 // Worldgen Tasks
+BetterUnderworld: 正在生成更平滑的地狱
+AshIslandLavaRemoval: 正在移除灰烬岛上的岩浆
 EvilIslandCorrupt: 正在生成一个腐化浮岛
 EvilIslandCrimson: 正在生成一个猩红浮岛
 AstralChest: 正在放置一个星幻箱

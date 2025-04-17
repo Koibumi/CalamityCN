@@ -99,7 +99,14 @@ HolyFireBullet: {
 
 HyperiusBullet: {
 	DisplayName: Hyperius Bullet
-	Tooltip: Dazzling multicolor bullets that split into swirling lights on impact
+	Tooltip:
+		'''
+		Dazzling multicolor bullets that split into swirling lights on impact
+		Damage that would be dealt from the bullets is instead stored on the target
+		As more damage is stored, it will begin to overflow, slowly releasing and damaging the enemy
+		Attacks from sources other than Hyperius Bullets will release some of the charge
+		Releasing charge in this way deals 15% more damage
+		'''
 }
 
 IcicleArrow: {

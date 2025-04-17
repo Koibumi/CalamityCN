@@ -4283,3 +4283,23 @@ WulfrumPanelWall: {
 	DisplayName: Wulfrum Panel Wall
 	Tooltip: ""
 }
+
+ChargedWulfrumWallMountedBulb: {
+	DisplayName: Mods.CalamityMod.Items.Placeables.ChargedWulfrumWallMountedBulb.DisplayName
+	Tooltip: ""
+}
+
+WulfrumWallMountedBulb: {
+	DisplayName: Mods.CalamityMod.Items.Placeables.WulfrumWallMountedBulb.DisplayName
+	Tooltip: ""
+}
+
+WulfrumSheetWall: {
+	DisplayName: Wulfrum Sheet Wall
+	Tooltip: ""
+}
+
+WulfrumSidingWall: {
+	DisplayName: Wulfrum Siding Wall
+	Tooltip: ""
+}

@@ -29,6 +29,7 @@ AddedTooltip: {
 	WarmthPotion: 大幅降低冷冻、冰冻和冰河时代减益的持续时间
 	HandWarmer: 穿着全套的防雪盔甲时额外提供生命再生
 	GoldenFishingRod: 鱼线永远不会断裂
+	Stepstool: 站在梯凳上会提升5%暴击率
 	Tombstones:
 		'''
 		13个各种墓碑会将周围环境变为墓地
@@ -274,6 +275,12 @@ EditedTooltip: {
 	ApprenticeAltHead: 增加10%召唤伤害和魔法伤害
 	ApprenticeAltShirt: 增加15%召唤伤害和10%魔法伤害
 	ApprenticeAltPants: 增加10%召唤伤害
+	GravityGlobe:
+		'''
+		提升32%跳跃速度，并提升下落速度
+		按UP反转重力
+		按DOWN加速下落
+		'''
 }
 
 // Buff Descriptions
