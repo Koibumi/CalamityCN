@@ -132,7 +132,7 @@ Mauler: {
 NuclearTerror: {
 	SpawnInfo:
 		'''
-		在噬魂幽花被击败后的酸雨事件中生成.
+		在噬魂幽花被击败后的酸雨事件中生成。
 		用[i:CalamityMod/CausticTear]开始酸雨事件。
 		'''
 	DespawnMessage: "[c/F0E68C:辐核骇兽在令人头晕目眩的光线中淡去了身影。]"

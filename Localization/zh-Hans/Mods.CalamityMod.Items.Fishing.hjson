@@ -11,7 +11,7 @@ AldebaranAlewife: {
 
 ArcturusAstroidean: {
 	DisplayName: 大角海星
-	Tooltip: 处于星辉瘟疫或硫磺海时渔力提高{0}倍
+	Tooltip: 处于星辉瘟疫或硫磺海时渔力提高至{0}倍
 }
 
 AstralCrate: {
@@ -304,7 +304,7 @@ HeronRod: {
 	DisplayName: 白鹭钓竿
 	Tooltip:
 		'''
-		处于太空时渔力提高{0}倍
+		处于太空时渔力提高至{0}倍
 		“突然鹭的一截不声不响的头嘴戳下来，朝着鱼头一嘴攫去，
 		接着那嘴甲就开始吞噬起那小鱼，而鱼尾巴这时还在发狂地摆动着。”
 		'''
@@ -353,7 +353,7 @@ VerstaltiteFishingRod: {
 	DisplayName: 寒元钓竿
 	Tooltip:
 		'''
-		处于苔原时渔力提高{0}倍
+		处于苔原时渔力提高至{0}倍
 		这种远古合金反射出的多彩光泽非常适合吸引鱼儿
 		'''
 }
