@@ -99,7 +99,7 @@ HolyFireBullet: {
 
 HyperiusBullet: {
 	DisplayName: 海伯里斯弹
-	Tooltip: 
+	Tooltip:
 		'''
 		耀眼的多彩子弹，撞击时分裂出闪烁的色彩漩涡
 		该子弹造成的伤害会被储存在目标上

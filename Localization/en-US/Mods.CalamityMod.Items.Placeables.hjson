@@ -4303,3 +4303,13 @@ WulfrumSidingWall: {
 	DisplayName: Wulfrum Siding Wall
 	Tooltip: ""
 }
+
+Dunesand: {
+	DisplayName: Dunesand
+	Tooltip: ""
+}
+
+EutrophicGlassWall: {
+	DisplayName: Eutrophic Glass Wall
+	Tooltip: ""
+}

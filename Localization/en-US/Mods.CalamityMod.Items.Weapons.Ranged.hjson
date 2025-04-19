@@ -989,7 +989,7 @@ PristineFury: {
 	Tooltip:
 		'''
 		Fires an intense helix of flames that burst into a column of smoke
-		<right> to disperse flammable crystalline powder
+		<right> to disperse a limited supply of flammable crystalline powder that restores over time
 		Powder can be ignited, causuing it to explode for extra damage
 		Both helix flames and other nearby explosions can ignite the powder
 		Uses gel for ammo
