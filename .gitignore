@@ -366,3 +366,6 @@ FodyWeavers.xsd
 
 # Ignore .vscode
 .vscode/
+
+# Ignore Script Output
+Scripts/Output/
