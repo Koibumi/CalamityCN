@@ -21,9 +21,9 @@ LaserRifleShot.DisplayName: 激光步枪
 MassivePlasmaExplosion.DisplayName: 等离子爆炸
 MountedScannerLaser.DisplayName: 红色死光
 MountedScannerSummon.DisplayName: 架式扫射机
-NidhogRailgunBigShot.DisplayName: Nidhog Railgun
-NidhogRailgunBlast.DisplayName: Nidhog Beam
-NidhogExplosion.DisplayName: Magnetic Implosion
+NidhoggRailgunBigShot.DisplayName: Nidhogg Railgun
+NidhoggRailgunBlast.DisplayName: Nidhogg Beam
+NidhoggExplosion.DisplayName: Magnetic Implosion
 PhalanxSurgeLance.DisplayName: Laser Lance
 PhalanxSurgeLaser.DisplayName: Phalanx Laser
 PhaseslayerBeam.DisplayName: 热熔光刃

@@ -21,9 +21,9 @@ LaserRifleShot.DisplayName: Laser Rifle
 MassivePlasmaExplosion.DisplayName: Plasma Explosion
 MountedScannerLaser.DisplayName: Deathray
 MountedScannerSummon.DisplayName: Mounted Scanner
-NidhogRailgunBigShot.DisplayName: Nidhog Railgun
-NidhogRailgunBlast.DisplayName: Nidhog Beam
-NidhogExplosion.DisplayName: Magnetic Implosion
+NidhoggRailgunBigShot.DisplayName: Nidhogg Railgun
+NidhoggRailgunBlast.DisplayName: Nidhogg Beam
+NidhoggExplosion.DisplayName: Magnetic Implosion
 PhalanxSurgeLance.DisplayName: Laser Lance
 PhalanxSurgeLaser.DisplayName: Phalanx Laser
 PhaseslayerBeam.DisplayName: Light Blade

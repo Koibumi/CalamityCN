@@ -89,8 +89,8 @@ MountedScanner: {
 	Tooltip: 在头顶召唤强大的扫描模块向附近的敌人发射激光
 }
 
-Nidhog: {
-	DisplayName: B-GSS: Nidhog
+Nidhogg: {
+	DisplayName: B-GSS: Nidhogg
 	Tooltip:
 		'''
 		一把能够快速开火的磁能轨道枪，在命中时产生持续牵引较弱敌人的磁能内爆
@@ -257,7 +257,6 @@ TheAnomalysNanogun: {
 		“欢迎参加狂欢，老友”
 		'''
 }
-
 
 WavePounder: {
 	DisplayName: 震波炸弹

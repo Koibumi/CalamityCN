@@ -89,8 +89,8 @@ MountedScanner: {
 	Tooltip: Summons a powerful scanner module above your head that fires lasers at nearby enemies
 }
 
-Nidhog: {
-	DisplayName: B-GSS: Nidhog
+Nidhogg: {
+	DisplayName: B-GSS: Nidhogg
 	Tooltip:
 		'''
 		A magnet powered energy railgun that fires rapidly, creating lingering magnetic implosions that pull in weak enemies on hit
