@@ -1042,7 +1042,7 @@ LeviathanAmbergris: {
 	DisplayName: Leviathan Ambergris
 	Tooltip:
 		'''
-		200% increased initial dash velocity, 33% faster dash cooldown, and greatly increased dash deceleration
+		120% increased initial dash velocity, 33% faster dash cooldown, and greatly increased dash deceleration
 		Your dashes are empowered by water, knocking back and damaging nearby enemies with viscous currents
 		Visual effects are reduced if visibility is disabled
 		'''

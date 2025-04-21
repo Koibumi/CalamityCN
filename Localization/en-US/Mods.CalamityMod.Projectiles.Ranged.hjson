@@ -198,6 +198,8 @@ ShadeFire.DisplayName: Shady Fire
 Shell.DisplayName: Shell
 Shockblast.DisplayName: Blast
 ShockblastRound.DisplayName: Round
+ShortCircuitExplosion.DisplayName: Short Circuit
+ShortCircuitShot.DisplayName: Short Circuit Shot
 Shroom.DisplayName: Shroom
 Sickness.DisplayName: Sickness
 SicknessRound.DisplayName: Round
@@ -224,7 +226,6 @@ SuperradiantSawLingering.DisplayName: Ultraradiant Saw
 TauCannonBeam.DisplayName: Tau Cannon Beam
 TauCannonBolt.DisplayName: Tau Cannon Bolt
 TauCannonPortal.DisplayName: Tau Cannon Portal
-TaserExplosion.DisplayName: Taser Explosion
 TelluricGlareArrow.DisplayName: Radiant Arrow
 TheMaelstromExplosion.DisplayName: Reaper Explosion
 TheMaelstromShark.DisplayName: Reaper Shark
@@ -262,4 +263,3 @@ LeviatitanMeteor.DisplayName: Leviatitan Meteor
 LeviatitanExplosion.DisplayName: Leviatitan Explosion
 SulphuricDrop.DisplayName: Sulphuric Drop
 AcidRocket.DisplayName: Acid Rocket
-TaserShot.DisplayName: Taser Shot

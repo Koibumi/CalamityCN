@@ -1,13 +1,12 @@
-CompactRailgun: {
-	DisplayName: Compact Railgun
+AerialTracker: {
+	DisplayName: P-LSR: Aerial Tracker
 	Tooltip:
 		'''
-		A magnet powered energy railgun that fires rapidly, creating lingering magnetic implosions that pull in weak enemies on hit
-		Only one implosion can exist at a time
-		Press <right> to begin charging a devastating energy beam that always crits and will fire once ready
-		This charge attack can not be interrupted once started and has a long cooldown
-		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
-		[c/1FFBFF:This railgun has reliably pulled in skeptics of its crushing efficiency.']
+		Releases a flying disk that fires lasers at nearby enemies
+		Lasers do not directly damage enemies, but instead apply a stacking laser burn effect
+		Once hit by enough lasers or sufficient time has passed, laser burn will deal direct damage
+		The disk gains acceleration as it returns to the player
+		Stealth strikes toss two disks that can fire at multiple different targets from farther range
 		'''
 }
 
@@ -62,7 +61,7 @@ GaussPistol: {
 }
 
 HolofiberImmolator: {
-	DisplayName: Holofiber Immolator
+	DisplayName: R-PMA: Holofiber Immolator
 	Tooltip:
 		'''
 		Fires three gravity-affected plasma drops which dissolve through foes
@@ -88,6 +87,19 @@ HydraulicVoltCrasher: {
 MountedScanner: {
 	DisplayName: Mounted Scanner
 	Tooltip: Summons a powerful scanner module above your head that fires lasers at nearby enemies
+}
+
+Nidhog: {
+	DisplayName: B-GSS: Nidhog
+	Tooltip:
+		'''
+		A magnet powered energy railgun that fires rapidly, creating lingering magnetic implosions that pull in weak enemies on hit
+		Only one implosion can exist at a time
+		Press <right> to begin charging a devastating energy beam that always crits and will fire once ready
+		This charge attack can not be interrupted once started and has a long cooldown
+		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
+		[c/1FFBFF:This railgun has reliably pulled in skeptics of its crushing efficiency.']
+		'''
 }
 
 Phaseslayer: {
@@ -140,7 +152,7 @@ PulseDragon: {
 }
 
 PulsePistol: {
-	DisplayName: Pulse Pistol
+	DisplayName: P-PLS: Pulse Pistol
 	Tooltip:
 		'''
 		Fires a pulse orb that tracks nearby targets
@@ -150,7 +162,7 @@ PulsePistol: {
 }
 
 PulseRifle: {
-	DisplayName: Pulse Rifle
+	DisplayName: A-PLS: Pulse Rifle
 	Tooltip:
 		'''
 		Fires an enhanced pulse beam that dissipates into 4 high-frequency pulse orbs on hit
@@ -171,8 +183,8 @@ PulseTurretRemote: {
 		'''
 }
 
-ScattershotSkewer: {
-	DisplayName: Scattershot Skewer
+PhalanxSurge: {
+	DisplayName: W-LSR: Phalanx Surge
 	Tooltip:
 		'''
 		Fires a spread of lasers
@@ -181,6 +193,18 @@ ScattershotSkewer: {
 		Using the charged attack has a short cooldown
 		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
 		[c/1FFBFF:A laser lance with which to gore their foes was met with thunderous applause.']
+		'''
+}
+
+ShortCircuit: {
+	DisplayName: P-TSL: Short Circuit
+	Tooltip:
+		'''
+		Press <left> to rapidly fire stunning bolts with high knockback
+		Press <right> to shoot a hook that attaches to enemies and rapidly electrocutes them
+		After electrocuting an enemy enough, the hook will create a shock explosion before returning to you
+		Successful hook attacks have a short cooldown that is applied unless the hook kills an enemy
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -215,18 +239,6 @@ SystemBane: {
 		'''
 }
 
-Taser: {
-	DisplayName: Taser
-	Tooltip:
-		'''
-		Press <left> to rapidly fire stunning bolts with high knockback
-		Press <right> to shoot a hook that attaches to enemies and rapidly electrocutes them
-		After electrocuting an enemy enough, the hook will create a shock explosion before returning to you
-		Successful hook attacks have a short cooldown that is applied unless the hook kills an enemy
-		{$Common.ArmorPenetration}
-		'''
-}
-
 TeslaCannon: {
 	DisplayName: Tesla Cannon
 	Tooltip:
@@ -243,18 +255,6 @@ TheAnomalysNanogun: {
 		Press <left> to charge up 5 rapid-fire plasma beams
 		Press <right> to launch 3 fission bombs
 		'Welcome to the party, pal'
-		'''
-}
-
-TrackingDisk: {
-	DisplayName: Tracking Disk
-	Tooltip:
-		'''
-		Releases a flying disk that fires lasers at nearby enemies
-		Lasers do not directly damage enemies, but instead apply a stacking laser burn effect
-		Once hit by enough lasers or sufficient time has passed, laser burn will deal direct damage
-		The disk gains acceleration as it returns to the player
-		Stealth strikes toss two disks that can fire at multiple different targets from farther range
 		'''
 }
 

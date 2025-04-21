@@ -198,6 +198,8 @@ ShadeFire.DisplayName: 暗影火焰
 Shell.DisplayName: 贝壳箭
 Shockblast.DisplayName: 震爆冲击波
 ShockblastRound.DisplayName: 震爆冲击波
+ShortCircuitExplosion.DisplayName: Short Circuit
+ShortCircuitShot.DisplayName: Short Circuit Shot
 Shroom.DisplayName: 真菌
 Sickness.DisplayName: 疫病
 SicknessRound.DisplayName: 瘟疫子弹
@@ -224,7 +226,6 @@ SuperradiantSawLingering.DisplayName: Ultraradiant Saw
 TauCannonBeam.DisplayName: Tau Cannon Beam
 TauCannonBolt.DisplayName: Tau Cannon Bolt
 TauCannonPortal.DisplayName: Tau Cannon Portal
-TaserExplosion.DisplayName: 泰瑟爆炸
 TelluricGlareArrow.DisplayName: 辐光之箭
 TheMaelstromExplosion.DisplayName: 猎魂爆炸
 TheMaelstromShark.DisplayName: 猎魂鲨
@@ -262,4 +263,3 @@ LeviatitanMeteor.DisplayName: 海潮流星
 LeviatitanExplosion.DisplayName: 海潮爆炸
 SulphuricDrop.DisplayName: 硫酸液滴
 AcidRocket.DisplayName: 酸性导弹
-TaserShot.DisplayName: 泰瑟弹

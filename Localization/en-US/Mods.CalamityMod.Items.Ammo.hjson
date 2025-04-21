@@ -105,7 +105,7 @@ HyperiusBullet: {
 		Damage that would be dealt from the bullets is instead stored on the target
 		As more damage is stored, it will begin to overflow, slowly releasing and damaging the enemy
 		Attacks from sources other than Hyperius Bullets will release some of the charge
-		Releasing charge in this way deals 15% more damage
+		Releasing charge in this way deals 20% more damage
 		'''
 }
 

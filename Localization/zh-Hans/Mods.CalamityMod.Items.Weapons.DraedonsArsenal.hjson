@@ -1,13 +1,12 @@
-CompactRailgun: {
-	DisplayName: Compact Railgun
+AerialTracker: {
+	DisplayName: P-LSR: Aerial Tracker
 	Tooltip:
 		'''
-		一把能够快速开火的磁能轨道枪，在命中时产生持续牵引较弱敌人的磁能内爆
-		同时只能存在一个内爆
-		按下<right>开始为一束毁灭性能量束充能，能量束一旦充能完成就会发射，且必定暴击
-		充能攻击一旦开始就不能被打断，且具有较长的冷却时间
-		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
-		[c/1FFBFF:This rifle has reliably pulled in skeptics of its crushing efficiency.']
+		扔出一个会向周围敌人发射激光的飞盘
+		激光不会直接伤害敌怪，而是会造成可堆叠的激光灼烧效果
+		当被足够多的激光击中，或经过足够长的时间后，激光灼烧会造成直接伤害
+		飞盘在返回玩家时会获得额外的加速度
+		潜伏攻击扔出两个飞盘，能从更远的距离向多个目标发射激光
 		'''
 }
 
@@ -62,7 +61,7 @@ GaussPistol: {
 }
 
 HolofiberImmolator: {
-	DisplayName: Holofiber Immolator
+	DisplayName: R-PMA: Holofiber Immolator
 	Tooltip:
 		'''
 		发射三个受到重力影响的等离子球，融解并穿过敌怪
@@ -88,6 +87,19 @@ HydraulicVoltCrasher: {
 MountedScanner: {
 	DisplayName: 架式扫射机
 	Tooltip: 在头顶召唤强大的扫描模块向附近的敌人发射激光
+}
+
+Nidhog: {
+	DisplayName: B-GSS: Nidhog
+	Tooltip:
+		'''
+		一把能够快速开火的磁能轨道枪，在命中时产生持续牵引较弱敌人的磁能内爆
+		同时只能存在一个内爆
+		按下<right>开始为一束毁灭性能量束充能，能量束一旦充能完成就会发射，且必定暴击
+		充能攻击一旦开始就不能被打断，且具有较长的冷却时间
+		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
+		[c/1FFBFF:This railgun has reliably pulled in skeptics of its crushing efficiency.']
+		'''
 }
 
 Phaseslayer: {
@@ -140,7 +152,7 @@ PulseDragon: {
 }
 
 PulsePistol: {
-	DisplayName: 脉冲手枪
+	DisplayName: P-PLS: 脉冲手枪
 	Tooltip:
 		'''
 		发射一道脉冲，瞄准附近的敌人
@@ -150,7 +162,7 @@ PulsePistol: {
 }
 
 PulseRifle: {
-	DisplayName: 脉冲步枪
+	DisplayName: A-PLS: 脉冲步枪
 	Tooltip:
 		'''
 		发射一束充能脉冲束，在命中时分裂成四枚高频脉冲球
@@ -171,8 +183,8 @@ PulseTurretRemote: {
 		'''
 }
 
-ScattershotSkewer: {
-	DisplayName: Scattershot Skewer
+PhalanxSurge: {
+	DisplayName: W-LSR: Phalanx Surge
 	Tooltip:
 		'''
 		发射一扇激光
@@ -181,6 +193,18 @@ ScattershotSkewer: {
 		充能攻击有一个较短的冷却时间
 		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
 		[c/1FFBFF:A laser lance with which to gore their foes was met with thunderous applause.']
+		'''
+}
+
+ShortCircuit: {
+	DisplayName: P-TSL: Short Circuit
+	Tooltip:
+		'''
+		按下<left>快速发射具有高击退力的眩晕电弧
+		按下<right>发射会吸附在敌人身上的钩爪，并快速电击敌人
+		在电击一个敌人足够多次后，钩爪将在返回前造成一次巨大的震颤冲击
+		成功命中的钩爪攻击具有较短的冷却时间，除非钩爪杀死了敌人
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -215,18 +239,6 @@ SystemBane: {
 		'''
 }
 
-Taser: {
-	DisplayName: 泰瑟枪
-	Tooltip:
-		'''
-		按下<left>快速发射具有高击退力的眩晕电弧
-		按下<right>发射会吸附在敌人身上的钩爪，并快速电击敌人
-		在电击一个敌人足够多次后，钩爪将在返回前造成一次巨大的震颤冲击
-		成功命中的钩爪攻击具有较短的冷却时间，除非钩爪杀死了敌人
-		{$Common.ArmorPenetration}
-		'''
-}
-
 TeslaCannon: {
 	DisplayName: 特斯拉巨炮
 	Tooltip:
@@ -246,17 +258,6 @@ TheAnomalysNanogun: {
 		'''
 }
 
-TrackingDisk: {
-	DisplayName: 逐影飞盘
-	Tooltip:
-		'''
-		扔出一个会向周围敌人发射激光的飞盘
-		激光不会直接伤害敌怪，而是会造成可堆叠的激光灼烧效果
-		当被足够多的激光击中，或经过足够长的时间后，激光灼烧会造成直接伤害
-		飞盘在返回玩家时会获得额外的加速度
-		潜伏攻击扔出两个飞盘，能从更远的距离向多个目标发射激光
-		'''
-}
 
 WavePounder: {
 	DisplayName: 震波炸弹

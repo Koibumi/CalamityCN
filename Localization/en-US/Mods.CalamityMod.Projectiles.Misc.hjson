@@ -2,6 +2,8 @@
 ArtifactOfResilienceBulwark.DisplayName: Artifact of Resilience
 MarniteRepulsionHitbox.DisplayName: Repulsion Matrix
 // Draedon's Arsenal
+AerialTrackerLaser.DisplayName: Laser
+AerialTrackerProjectile.DisplayName: Aerial Tracker
 AnomalysNanogunHoldout.DisplayName: The Anomaly's Nanogun
 AnomalysNanogunMPFBBoom.DisplayName: MPFB Explosion
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastator
@@ -12,8 +14,6 @@ GatlingLaserShot.DisplayName: Gatling Laser
 GaussEnergy.DisplayName: Gauss Energy
 GaussFlux.DisplayName: Gauss Flux
 GaussPistolShot.DisplayName: Gauss Shot
-GaussRailgunBlast.DisplayName: Gauss Beam
-GaussRailgunExplosion.DisplayName: Gauss Explosion
 ImmolationArrow.DisplayName: Immolation Arrow
 ImmolationBurst.DisplayName: Immolation Burst
 ImmolationSpray.DisplayName: Immolation Spray
@@ -21,6 +21,11 @@ LaserRifleShot.DisplayName: Laser Rifle
 MassivePlasmaExplosion.DisplayName: Plasma Explosion
 MountedScannerLaser.DisplayName: Deathray
 MountedScannerSummon.DisplayName: Mounted Scanner
+NidhogRailgunBigShot.DisplayName: Nidhog Railgun
+NidhogRailgunBlast.DisplayName: Nidhog Beam
+NidhogExplosion.DisplayName: Magnetic Implosion
+PhalanxSurgeLance.DisplayName: Laser Lance
+PhalanxSurgeLaser.DisplayName: Phalanx Laser
 PhaseslayerBeam.DisplayName: Light Blade
 PlasmaCasterShot.DisplayName: Plasma Bolt
 PlasmaGrenadeProjectile.DisplayName: Plasma Grenade
@@ -31,18 +36,14 @@ PulsePistolShot.DisplayName: Pulse Bolt
 PulseRifleShot.DisplayName: Pulse Bolt
 PulseTurret.DisplayName: Pulse Turret
 PulseTurretShot.DisplayName: Pulse Bolt
-ScattershotLance.DisplayName: Laser Lance
-ScattershotLaser.DisplayName: Scattershot Laser
+ShortCircuitHook.DisplayName: Short Circuit Hook
 SnakeEyesSummon.DisplayName: Snake Eyes
 SnakeEyesProjectile.DisplayName: Inescapable Bolt
 StarSwallowerAcid.DisplayName: Acid
 StarSwallowerSummon.DisplayName: Pet Froge
 SystemBaneLightning.DisplayName: Lightning
 SystemBaneProjectile.DisplayName: System Bane
-TaserHook.DisplayName: Taser
 TeslaCannonShot.DisplayName: Tesla Beam
-TrackingDiskLaser.DisplayName: Laser
-TrackingDiskProjectile.DisplayName: Tracking Disk
 UnstableMatter.DisplayName: Unstable Matter
 VoltageStream.DisplayName: Voltage Stream
 WavePounderBoom.DisplayName: Explosion
@@ -75,4 +76,3 @@ PlagueShot.DisplayName: Plague Shot
 PlagueShotBuffer.DisplayName: Plague Shot
 WaterShot.DisplayName: Water Shot
 WaterShotBuffer.DisplayName: Water Shot
-GaussRailgunBigShot.DisplayName: Gauss Railgun Big Shot
