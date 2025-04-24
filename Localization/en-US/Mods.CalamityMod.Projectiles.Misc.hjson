@@ -8,8 +8,6 @@ AnomalysNanogunHoldout.DisplayName: The Anomaly's Nanogun
 AnomalysNanogunMPFBBoom.DisplayName: MPFB Explosion
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastator
 AnomalysNanogunPlasmaBeam.DisplayName: Plasma Beam
-FrequencyManipulatorEnergy.DisplayName: Pulse Energy
-FrequencyManipulatorProjectile.DisplayName: Frequency Manipulator
 GatlingLaserShot.DisplayName: Gatling Laser
 GaussEnergy.DisplayName: Gauss Energy
 GaussFlux.DisplayName: Gauss Flux
@@ -32,6 +30,8 @@ PlasmaGrenadeProjectile.DisplayName: Plasma Grenade
 PlasmaGrenadeSmallExplosion.DisplayName: Plasma Explosion
 PoleWarperSummon.DisplayName: Pole Warper
 PulseDragonProjectile.DisplayName: Pulse Dragon
+PulseGrenadeProjectile.DisplayName: Pulse Grenade
+PulseGrenadeOrb.DisplayName: Pulse Orb
 PulsePistolShot.DisplayName: Pulse Bolt
 PulseRifleShot.DisplayName: Pulse Bolt
 PulseTurret.DisplayName: Pulse Turret
@@ -76,3 +76,4 @@ PlagueShot.DisplayName: Plague Shot
 PlagueShotBuffer.DisplayName: Plague Shot
 WaterShot.DisplayName: Water Shot
 WaterShotBuffer.DisplayName: Water Shot
+FrequencyManipulatorEnergy.DisplayName: Frequency Manipulator Energy

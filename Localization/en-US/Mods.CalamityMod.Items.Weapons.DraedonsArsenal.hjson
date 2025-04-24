@@ -10,17 +10,6 @@ AerialTracker: {
 		'''
 }
 
-FrequencyManipulator: {
-	DisplayName: Frequency Manipulator
-	Tooltip:
-		'''
-		Swings a spear around and then throws it
-		On collision, the spear releases a burst of homing energy
-		Stealth strikes release more energy and explode on collision
-		[c/1FFBFF:'A lengthy device originally used for mechanical tuning.']
-		'''
-}
-
 GalvanizingGlaive: {
 	DisplayName: Galvanizing Glaive
 	Tooltip:
@@ -148,6 +137,16 @@ PulseDragon: {
 		Throws two mechanical dragon heads that emit damaging electrical fields
 		[c/1FFBFF:'Yharim specifically requested this weapon to be modelled after the Dragons of old.]
 		[c/1FFBFF:How trite.']
+		'''
+}
+
+PulseGrenade: {
+	DisplayName: R-PLS: Pulse Grenade
+	Tooltip:
+		'''
+		A regenerating grenade that will track enemies and burst into 8 pulse orbs
+		Pulse orbs will return to you and reform the grenade, hitting anything in their path
+		Stealth strikes throw the grenade at high speeds and burst into twice as many orbs
 		'''
 }
 

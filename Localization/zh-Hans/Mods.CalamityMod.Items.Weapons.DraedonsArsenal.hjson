@@ -10,17 +10,6 @@ AerialTracker: {
 		'''
 }
 
-FrequencyManipulator: {
-	DisplayName: 变频器
-	Tooltip:
-		'''
-		旋转长矛然后扔出去
-		撞击时，矛会释放追踪能量体
-		潜伏攻击会使矛释放更多能量体并在撞击时爆炸
-		[c/1FFBFF:“一种很长的仪器，用来调谐……某些原始机器”]
-		'''
-}
-
 GalvanizingGlaive: {
 	DisplayName: 磁能分割刀
 	Tooltip:
@@ -148,6 +137,16 @@ PulseDragon: {
 		挥舞两个龙首，龙首会释放电场
 		[c/1FFBFF:“亚利姆特别要求此武器以古代巨龙为模型。]
 		[c/1FFBFF:多么迂腐。”]
+		'''
+}
+
+PulseGrenade: {
+	DisplayName: R-PLS: Pulse Grenade
+	Tooltip:
+		'''
+		一颗自我修复的手雷，将追踪敌人并爆炸为8块脉冲破片
+		破片碎片会回到你身边并重组为手雷，命中路径上的一切
+		潜伏攻击将手雷以高速扔出，爆炸为两倍数量的碎片
 		'''
 }
 

@@ -309,6 +309,17 @@ CalamityClientConfig: {
 			'''
 	}
 
+	StutterFix: {
+		Label: "[i:TrifoldMap] Enable Stutter Fix"
+		Tooltip:
+			'''
+			         When enabled, upon entering a world, the entire world will be loaded at once.
+			         This config causes a significant amount of lag while worlds are being loaded.
+			         Once the lag is over, you will enter the world and be able to play without random stutters.
+			         This config option is only recommended for players who can't stand random stutters while playing.
+			'''
+	}
+
 	SulphuricWaterMeterPosX: {
 		Label: "[i:LaserRuler] Sulphuric Water Poison Meter X Position"
 		Tooltip:

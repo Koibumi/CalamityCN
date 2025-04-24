@@ -309,6 +309,18 @@ CalamityClientConfig: {
 			'''
 	}
 
+	StutterFix: {
+		Label: "[i:TrifoldMap] 修复加载卡顿"
+		Tooltip:
+			'''
+			加载卡顿指玩家快速移动时，世界没来得及加载导致的卡顿
+			若启用会在进入世界时，一次性加载整个世界
+			这个功能会在加载世界时造成巨量卡顿
+			当卡顿结束后能正常进入世界，并且不再会有加载卡顿
+			只推荐无法忍受加载卡顿的玩家使用
+			'''
+	}
+
 	SulphuricWaterMeterPosX: {
 		Label: "[i:LaserRuler] 硫磺海水腐蚀条X轴坐标"
 		Tooltip:

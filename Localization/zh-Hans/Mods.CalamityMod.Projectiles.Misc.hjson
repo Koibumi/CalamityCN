@@ -8,8 +8,6 @@ AnomalysNanogunHoldout.DisplayName: 异象纳米枪
 AnomalysNanogunMPFBBoom.DisplayName: MPFB爆炸
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB毁灭仪
 AnomalysNanogunPlasmaBeam.DisplayName: 离子光束
-FrequencyManipulatorEnergy.DisplayName: 脉冲能量
-FrequencyManipulatorProjectile.DisplayName: 变频器
 GatlingLaserShot.DisplayName: 多管机关枪
 GaussEnergy.DisplayName: 高斯能量
 GaussFlux.DisplayName: 高斯流能
@@ -32,6 +30,8 @@ PlasmaGrenadeProjectile.DisplayName: 等离子手雷
 PlasmaGrenadeSmallExplosion.DisplayName: 等离子爆炸
 PoleWarperSummon.DisplayName: 电极解离机
 PulseDragonProjectile.DisplayName: 脉冲龙连枷
+PulseGrenadeProjectile.DisplayName: 脉冲手榴弹
+PulseGrenadeOrb.DisplayName: 脉冲破片
 PulsePistolShot.DisplayName: 聚能脉冲弹
 PulseRifleShot.DisplayName: 脉冲束
 PulseTurret.DisplayName: 脉冲炮塔
@@ -76,3 +76,4 @@ PlagueShot.DisplayName: 瘟疫爆弹
 PlagueShotBuffer.DisplayName: 瘟疫爆弹
 WaterShot.DisplayName: 水流
 WaterShotBuffer.DisplayName: 水流
+FrequencyManipulatorEnergy.DisplayName: 变频器能量

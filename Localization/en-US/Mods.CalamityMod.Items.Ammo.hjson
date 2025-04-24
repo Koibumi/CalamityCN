@@ -12,7 +12,7 @@ BloodfireArrow: {
 	Tooltip:
 		'''
 		High-velocity arrows with a blood soaked tip
-		Firing these arrows will drain your health
+		Firing these arrows will drain your health and boost the arrow damage by 30%
 		Accelerates your natural life regen and heals you on hit
 		'''
 }
@@ -21,9 +21,9 @@ BloodfireBullet: {
 	DisplayName: Bloodfire Bullet
 	Tooltip:
 		'''
-		Passes through tiles and accelerates your natural life regen on hit
-		Deals bonus damage based on your current life regen and natural life regen
-		This damage caps at 35
+		Passes through tiles and accelerates your natural life regen on hit based on how powerful the hit was
+		Deals bonus damage based on your current natural life regen
+		This damage caps at 1.1x
 		'''
 }
 
@@ -58,7 +58,11 @@ ElysianArrow: {
 
 FlashRound: {
 	DisplayName: Flash Round
-	Tooltip: Emits a wide-reaching concussive blast which briefly confuses enemies
+	Tooltip:
+		'''
+		A ricocheting bullet that confuses enemies when it flashes and deals more damage with each bounce
+		The damage bonus is 1.13x or +2 flat damage per bounce, depending on which is stronger
+		'''
 }
 
 GodSlayerSlug: {
@@ -92,8 +96,9 @@ HolyFireBullet: {
 	DisplayName: Holy Fire Bullet
 	Tooltip:
 		'''
-		Profaned bullets that explode on impact, dealing extra damage
-		The explosion grows weaker the further the bullet travels
+		Profaned bullets that deal 1.15x damage and explode on impact
+		The explosion is larger and the bullet deals increased damage if impact occurs immediately after firing
+		The extra damage bonus caps at 1.15x
 		'''
 }
 
