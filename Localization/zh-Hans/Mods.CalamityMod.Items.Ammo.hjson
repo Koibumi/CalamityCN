@@ -58,7 +58,7 @@ ElysianArrow: {
 
 FlashRound: {
 	DisplayName: 眩晕弹
-	Tooltip: 
+	Tooltip:
 		'''
 		具有反弹能力的子弹，闪光时将会困惑敌怪，每次反弹都将造成更多伤害
 		每次反弹的伤害加成是1.13倍和2点之间的较高者
