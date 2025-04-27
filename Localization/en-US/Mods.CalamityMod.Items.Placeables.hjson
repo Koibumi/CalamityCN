@@ -677,6 +677,11 @@ YharonRelic: {
 	Tooltip: A glimpse into what will be...
 }
 
+CausticTorch: {
+	DisplayName: Caustic Torch
+	Tooltip: Can be placed in water
+}
+
 ChaosCandle: {
 	DisplayName: Chaos Candle
 	Tooltip: The mere presence of this candle enrages surrounding enemies drastically
@@ -699,6 +704,7 @@ AltarOfTheAccursedItem: {
 		Offer [i:CalamityMod/AshesofCalamity] {$Items.Materials.AshesofCalamity.DisplayName} at this altar to summon the Witch
 		Doing so will create a square arena of blocks, with the altar at its center
 		The Witch enrages while you are outside of the arena
+		Hovering over the altar while using ruler measurements will display a temporary arena box
 		{$CommonItemTooltip.SpecialCrafting}
 		'''
 }
@@ -886,6 +892,11 @@ FrigidMonolith: {
 	Tooltip: "'Enchant the sky with frosty auroras.'"
 }
 
+KelpTorch: {
+	DisplayName: Kelp Torch
+	Tooltip: Can be placed in water
+}
+
 OtonilouStatue: {
 	DisplayName: Otonilou Memorial
 	Tooltip: ""
@@ -968,9 +979,19 @@ ThaumaticChair: {
 	Tooltip: One of Chloe's finest creations
 }
 
+ThermalTorch: {
+	DisplayName: Thermal Torch
+	Tooltip: Can be placed in water
+}
+
 TranquilityCandle: {
 	DisplayName: Tranquility Candle
 	Tooltip: The mere presence of this candle calms surrounding enemies drastically
+}
+
+VoidTorch: {
+	DisplayName: Void Torch
+	Tooltip: Can be placed in water
 }
 
 AnahitaTrophy: {
@@ -1291,11 +1312,6 @@ AbyssSynth: {
 AbyssTable: {
 	DisplayName: Abyss Table
 	Tooltip: ""
-}
-
-AbyssTorch: {
-	DisplayName: Abyss Torch
-	Tooltip: Can be placed in water
 }
 
 AbyssWorkBench: {

@@ -148,11 +148,6 @@ PrismCrate: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-PrismaticGuppy: {
-	DisplayName: 棱晶孔雀鱼
-	Tooltip: 把这玩意养在水族箱里？你肯定是疯了
-}
-
 RustedJingleBell: {
 	DisplayName: 锈蚀铃铛
 	Tooltip:

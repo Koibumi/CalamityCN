@@ -270,6 +270,7 @@ AlphaSeaMinnow.DisplayName: Alpha Sea Minnow
 AlphaSeaMinnowGold.DisplayName: Gold Alpha Sea Minnow
 MinnowPrime: Minnow Prime
 BabyGhostBell.DisplayName: Baby Ghost Bell
+CarrionSwallower.DisplayName: Carrion Swallower
 Clam.DisplayName: Clam
 EutrophicRay.DisplayName: Eutrophic Ray
 FesteringRemains.DisplayName: Festering Remains
@@ -277,24 +278,38 @@ GhostBell.DisplayName: Ghost Bell
 GiantClam.DisplayName: Giant Clam
 Clamitas: Clamitas
 SupremeClamitas: Supreme Clamitas
+GoldBabyGhostBell: Gold Baby Ghost Bell
+GoldPolypPanasea: Gold Polyp Panasea
+GoldPrismaticGuppy: Gold Prismatic Guppy
 HauntedChum.DisplayName: Haunted Chum
 Jellyghoul.DisplayName: Jellyghoul
 KelpieSeadragon.DisplayName: Kelpie Seadragon
+Leerslug.DisplayName: Leerslug
 LostShoal.DisplayName: Lost Shoal
 PearlpodBlack.DisplayName: Pearlpod
 PearlpodGold.DisplayName: Gold Pearlpod
 PearlpodPink.DisplayName: Pearlpod
 PearlpodWhite.DisplayName: Pearlpod
+PodobooKoi.DisplayName: Podoboo Koi
 PolypPanasea.DisplayName: Polyp Panasea
+Polyperil.DisplayName: Polyperil
 PrismBack.DisplayName: Prism-Back
 Probesnout.DisplayName: Probesnout
-ProbesnoutGold.DisplayName: Probesnout Gold
+ProbesnoutGold.DisplayName: Gold Probesnout
+PrismaticGuppy.DisplayName: Prismatic Guppy
+RadiantBabyGhostBell: Radiant Baby Ghost Bell
+RadiantPolypPanasea: Radiant Polyp Panasea
+RadiantPolyperil: Radiant Polyperil
+RadiantPrismaticGuppy: Radiant Prismatic Guppy
+RadiantSlugbun: Radiant Slugbun
 SandProwler.DisplayName: Sand Prowler
 SandProwlerNested.DisplayName: Sand Prowler
 SeaFloaty.DisplayName: Sea Floaty
 SeaMinnow.DisplayName: Sea Minnow
 SeaMinnowGold.DisplayName: Gold Sea Minnow
+Searslug.DisplayName: Searslug
 Sharkoon.DisplayName: Sharkoon
+Slugbun.DisplayName: Slugbun
 BrimstoneHeart.DisplayName: Brimstone Heart
 SepulcherHead.DisplayName: Sepulcher
 SoulSeekerSupreme.DisplayName: Soul Seeker

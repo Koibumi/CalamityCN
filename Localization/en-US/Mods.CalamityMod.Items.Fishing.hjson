@@ -148,11 +148,6 @@ PrismCrate: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-PrismaticGuppy: {
-	DisplayName: Prismatic Guppy
-	Tooltip: Throwing these in an aquarium would be insanity
-}
-
 RustedJingleBell: {
 	DisplayName: Rusted Jingle Bell
 	Tooltip:

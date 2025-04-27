@@ -1,5 +1,7 @@
 AstralMeteorProj.DisplayName: 星辉陨石
 BelchingCoralSpike.DisplayName: 喷涌珊瑚刺
+CarrionPus.DisplayName: Carrion Pus
+ClamBubbleBlast.DisplayName: Clam Bubble Blast
 CrabBoulder.DisplayName: 海蚀岩
 CragmawAcidDrop.DisplayName: 酸滴
 CragmawBeam.DisplayName: 伽马射线
@@ -31,6 +33,11 @@ NuclearToadGoo.DisplayName: 放射性蟾蜍分泌物
 OrthoceraStream.DisplayName: 酸液流
 PearlBurst.DisplayName: 爆裂珍珠
 PearlRain.DisplayName: 珍珠雨
+PodobooSpit.DisplayName: Podoboo Spit
+PodobooSpitHoming.DisplayName: Psychic Podoboo Spit
+PodobooSpitSplitting.DisplayName: Loose Podoboo Spit
+PodobooSpitUltima.DisplayName: Ultima Podoboo Spit
+PrismBackCrystal.DisplayName: Prism-Back Shard
 PufferExplosion.DisplayName: 刺豚爆炸
 SharkoonExplosion.DisplayName: Sharkoon Explosion
 StormMarkHostile.DisplayName: 暴风铭印

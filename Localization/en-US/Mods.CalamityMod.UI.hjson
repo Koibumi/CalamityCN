@@ -31,8 +31,6 @@ ChangingTheRules: "[c/919191:You cannot change the rules now!]"
 NoDifficulty: None
 NoDifficultyInfo: The classic Terraria experience, with no Calamity difficulty changes
 Revengeance: Revengeance
-RevMaster: Rev+Master
-RevLegend: Rev+Legend
 RevengeanceEnabled: Revengeance Mode is enabled
 RevengeanceShortInfo: "[c/F54254:The intended Calamity experience! Can only be enabled in Expert Mode!]"
 RevengeanceExpandedInfo:
@@ -48,7 +46,6 @@ RevengeanceExpandedInfo:
 RevengeanceActivate: Revengeance is active.
 RevengeanceDeactivate: Revengeance is not active.
 Death: Death
-DeathMaster: Death+Master
 DeathLegend: Death+Legend
 DeathEnabled: Death Mode is enabled
 DeathShortInfo: "[c/C82DF7:A far more difficult challenge than Revengeance Mode! Can only be enabled in Master Mode!]"

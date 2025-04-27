@@ -110,3 +110,8 @@ TimelessShoresBiome: {
 	DisplayName: Timeless Shores Biome
 	TownNPCDialogueName: the Timeless Shores Biome
 }
+
+ClamDenBiome: {
+	DisplayName: Clam Den
+	TownNPCDialogueName: the Clam Den
+}

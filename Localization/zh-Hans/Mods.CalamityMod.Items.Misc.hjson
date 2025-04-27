@@ -1,11 +1,11 @@
 // Critters
 AlphaSeaMinnowItem: {
-	DisplayName: Alpha Sea Minnow
+	DisplayName: "{$NPCs.AlphaSeaMinnow.DisplayName}"
 	Tooltip: ""
 }
 
 AlphaSeaMinnowGoldItem: {
-	DisplayName: Gold Alpha Sea Minnow
+	DisplayName: "{$NPCs.AlphaSeaMinnowGold.DisplayName}"
 	Tooltip: ""
 }
 
@@ -34,7 +34,7 @@ BabyGhostBellItem: {
 }
 
 BabyGhostBellGoldItem: {
-	DisplayName: Gold Baby Ghost Bell
+	DisplayName: "{$NPCs.GoldBabyGhostBell}"
 	Tooltip: ""
 }
 
@@ -44,7 +44,7 @@ BabyGhostBellGreenItem: {
 }
 
 BabyGhostBellRadiantItem: {
-	DisplayName: Radiant Baby Ghost Bell
+	DisplayName: "{$NPCs.RadiantBabyGhostBell}"
 	Tooltip: ""
 }
 
@@ -84,7 +84,7 @@ PearlpodItem: {
 }
 
 PearlpodGoldItem: {
-	DisplayName: Gold Pearlpod
+	DisplayName: "{$NPCs.PearlpodGold.DisplayName}"
 	Tooltip: ""
 }
 
@@ -94,7 +94,7 @@ PearlpodPinkItem: {
 }
 
 PolypPanaseaGoldItem: {
-	DisplayName: Gold Polyp Panasea
+	DisplayName: "{$NPCs.GoldPolypPanasea}"
 	Tooltip: ""
 }
 
@@ -114,7 +114,7 @@ PolypPanaseaPurpleItem: {
 }
 
 PolypPanaseaRadiantItem: {
-	DisplayName: Radiant Polyp Panasea
+	DisplayName: "{$NPCs.RadiantPolypPanasea}"
 	Tooltip: ""
 }
 
@@ -125,6 +125,41 @@ PolypPanaseaTurquoiseItem: {
 
 PiggyItem: {
 	DisplayName: "{$NPCs.Piggy.DisplayName}"
+	Tooltip: ""
+}
+
+PrismaticGuppyBlueItem: {
+	DisplayName: Blue Prismatic Guppy
+	Tooltip: ""
+}
+
+PrismaticGuppyGoldItem: {
+	DisplayName: "{$NPCs.GoldPrismaticGuppy}"
+	Tooltip: ""
+}
+
+PrismaticGuppyGreenItem: {
+	DisplayName: Green Prismatic Guppy
+	Tooltip: ""
+}
+
+PrismaticGuppyPinkItem: {
+	DisplayName: Pink Prismatic Guppy
+	Tooltip: ""
+}
+
+PrismaticGuppyRadiantItem: {
+	DisplayName: "{$NPCs.RadiantPrismaticGuppy}"
+	Tooltip: ""
+}
+
+ProbesnoutGoldItem: {
+	DisplayName: "{$NPCs.ProbesnoutGold.DisplayName}"
+	Tooltip: ""
+}
+
+ProbesnoutItem: {
+	DisplayName: "{$NPCs.Probesnout.DisplayName}"
 	Tooltip: ""
 }
 
@@ -139,12 +174,37 @@ SeaMinnowItem: {
 }
 
 SeaMinnowGoldItem: {
-	DisplayName: Gold Sea Minnow
+	DisplayName: "{$NPCs.SeaMinnowGold.DisplayName}"
+	Tooltip: ""
+}
+
+SearslugItem: {
+	DisplayName: "{$NPCs.Searslug.DisplayName}"
 	Tooltip: ""
 }
 
 ShroombleItem: {
 	DisplayName: "{$NPCs.Shroomble.DisplayName}"
+	Tooltip: ""
+}
+
+SlugbunBurrowsItem: {
+	DisplayName: Burrows Slugbun
+	Tooltip: ""
+}
+
+SlugbunItem: {
+	DisplayName: Reef Slugbun
+	Tooltip: ""
+}
+
+SlugbunPolypItem: {
+	DisplayName: Polyp Slugbun
+	Tooltip: ""
+}
+
+SlugbunRadiantItem: {
+	DisplayName: "{$NPCs.RadiantSlugbun}"
 	Tooltip: ""
 }
 

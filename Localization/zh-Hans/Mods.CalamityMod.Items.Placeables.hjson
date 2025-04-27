@@ -677,6 +677,11 @@ YharonRelic: {
 	Tooltip: 对其未来的模样的一瞥……
 }
 
+CausticTorch: {
+	DisplayName: Caustic Torch
+	Tooltip: 可放置于水中
+}
+
 ChaosCandle: {
 	DisplayName: 混乱蜡烛
 	Tooltip: 这个蜡烛的存在大大激怒了附近的敌人
@@ -699,6 +704,7 @@ AltarOfTheAccursedItem: {
 		在其上使用[i:CalamityMod/AshesofCalamity] {$Items.Materials.AshesofCalamity.DisplayName}以召唤硫火女巫
 		以祭坛为中心创造一个大型方型场地
 		离开场地会使女巫狂暴
+		将标尺测量线悬停在祭坛上会临时显示场地范围
 		{$CommonItemTooltip.SpecialCrafting}
 		'''
 }
@@ -886,6 +892,11 @@ FrigidMonolith: {
 	Tooltip: “天边染上一抹冷冽的极光”
 }
 
+KelpTorch: {
+	DisplayName: Kelp Torch
+	Tooltip: 可放置于水中
+}
+
 OtonilouStatue: {
 	DisplayName: Otonilou Memorial
 	Tooltip: ""
@@ -968,9 +979,19 @@ ThaumaticChair: {
 	Tooltip: 克洛伊最好的创造物之一
 }
 
+ThermalTorch: {
+	DisplayName: Thermal Torch
+	Tooltip: 可放置于水中
+}
+
 TranquilityCandle: {
 	DisplayName: 宁静蜡烛
 	Tooltip: 这支蜡烛仅仅是出现就能使周围的敌人冷静下来
+}
+
+VoidTorch: {
+	DisplayName: Void Torch
+	Tooltip: 可放置于水中
 }
 
 AnahitaTrophy: {
@@ -1291,11 +1312,6 @@ AbyssSynth: {
 AbyssTable: {
 	DisplayName: 深渊桌
 	Tooltip: ""
-}
-
-AbyssTorch: {
-	DisplayName: 深渊火把
-	Tooltip: 可放置于水中
 }
 
 AbyssWorkBench: {

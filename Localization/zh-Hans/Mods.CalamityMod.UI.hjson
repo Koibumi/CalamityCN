@@ -31,8 +31,6 @@ ChangingTheRules: "[c/919191:你现在无法改变规则]"
 NoDifficulty: 无
 NoDifficultyInfo: 没有开启任何灾厄难度的泰拉之旅
 Revengeance: 复仇
-RevMaster: 复仇+大师
-RevLegend: 复仇+传奇
 RevengeanceEnabled: 复仇模式已开启
 RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！只能在专家模式开启！]"
 RevengeanceExpandedInfo:
@@ -48,7 +46,6 @@ RevengeanceExpandedInfo:
 RevengeanceActivate: 复仇模式已开启
 RevengeanceDeactivate: 复仇模式已关闭
 Death: 死亡
-DeathMaster: 死亡+大师
 DeathLegend: 死亡+传奇
 DeathEnabled: 死亡模式已开启
 DeathShortInfo: "[c/C82DF7:远比复仇模式更困难的挑战！只能在大师模式开启！]"
