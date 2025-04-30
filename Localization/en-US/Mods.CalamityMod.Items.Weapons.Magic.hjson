@@ -796,11 +796,21 @@ SHPC: {
 	TooltipNormal:
 		'''
 		Consumes Souls as ammo
-		Fires orbs of unstable, concentrated soulpower that linger after ejection
-		Orbs create a large explosion and emit seeking souls after collapse
+		Ejects orbs of unstable, concentrated soulpower that linger and explode
+		Orbs emit seeking souls and lingering pickup souls after collapse
 		Orbs have varying effects depending on Soul type used
-		Press Right Click to discharge all soulpower in the weapon as weak energy beams
+		{0}
+		Press Right Click to use the machine as a vacuum, pulling in lingering souls
+		Once released, a torrent of soul lasers is discharged scaling with the number of souls pulled in
 		'''
+	// These are the soul effect descriptions, the number is the item ID of the soul
+	NoSoul: "[c/808080:There is currently no soul type injected into the weapon]"
+	SoulDesc520: "[c/F01DC4:Light-infused orbs create larger explosions]"
+	SoulDesc521: "[c/7B1DDC:Night-infused orbs create longer lasting explosions]"
+	SoulDesc575: "[c/6AF0FA:Flight-infused orbs travel faster and restore flight time on direct hits]"
+	SoulDesc548: "[c/0433DE:Might-infused orbs apply mighty knockback to enemies]"
+	SoulDesc549: "[c/4FFF7C:Sight-infused orbs seek out nearby enemies]"
+	SoulDesc547: "[c/FF6014:Fright-infused orbs deal extra flat damage with their hatred]"
 	LegendaryText:
 		'''
 		'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.

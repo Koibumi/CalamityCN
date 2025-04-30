@@ -1835,12 +1835,14 @@ TheAmalgam: {
 	DisplayName: The Amalgam
 	Tooltip:
 		'''
-		15% increased damage
+		10% increased damage
+		All attacks inflict a variety of debuffs and multiplies all elemental debuff damage by 3.5x
 		Most buffs last twice as long, and persist after dying
-		Taking damage inflicts several debuffs on nearby enemies and spawns a dank creeper
+		Taking damage confuses nearby enemies and spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds
 		Grants the ability to dodge attacks
 		After dodging, summon damage and crit chance are boosted by 10%
+		'You have no idea how it's staying together'
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }

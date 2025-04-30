@@ -470,7 +470,4 @@ WitchDoctorChat: {
 	Jungle: 我想知道我的亲戚们过得怎么样，上次我看望他们的时候，他们正忙于赞颂……太阳吧，我想。
 }
 
-WizardChat: {
-	Hardmode: 这空间太小了，让人感到难受
-	MentionRoD: 我在神圣之地里看到了一些不断传送的粉色幻影。如果能住在那附近，我想我能运用他们的魔法给你制造一根特殊的法杖。
-}
+WizardChat.Hardmode: 这空间太小了，让人感到难受

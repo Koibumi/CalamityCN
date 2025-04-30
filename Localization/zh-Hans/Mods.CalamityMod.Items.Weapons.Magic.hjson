@@ -796,11 +796,21 @@ SHPC: {
 	TooltipNormal:
 		'''
 		消耗魂作为弹药
-		发射不稳定的，浓缩魂力的光球，光球射出后会滞留
-		碰撞后光球会产生大爆炸并释放追踪灵魂
+		发射不稳定的，浓缩魂力的光球，光球会滞留并爆炸
+		光球爆炸后，会生成追踪灵魂和可被吸收的游荡灵魂
 		光球的效果会基于使用魂的种类而改变
-		<right>会发射弱能量激光来释放武器内所有的魂力
+		{0}
+		<right>将这把武器用作集魂器，吸收游荡灵魂
+		一旦释放，灵魂激光将喷涌而出，激光数量与吸入灵魂的数量成正比
 		'''
+	// These are the soul effect descriptions, the number is the item ID of the soul
+	NoSoul: "[c/808080:武器中暂未注入任何灵魂]"
+	SoulDesc520: "[c/F01DC4:被光明注能的光球造成更大的爆炸]"
+	SoulDesc521: "[c/7B1DDC:被黑暗注能的光球造成持续时间更久的爆炸]"
+	SoulDesc575: "[c/6AF0FA:被飞翔注能的光球移动速度更快，直接命中时恢复飞行时间]"
+	SoulDesc548: "[c/0433DE:被力量注能的光球对敌怪造成强大的击退]"
+	SoulDesc549: "[c/4FFF7C:被视域注能的光球追踪附近的敌怪]"
+	SoulDesc547: "[c/FF6014:被恐惧注能的光球以仇恨造成额外伤害]"
 	LegendaryText:
 		'''
 		'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.

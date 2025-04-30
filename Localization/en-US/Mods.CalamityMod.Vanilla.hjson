@@ -470,7 +470,4 @@ WitchDoctorChat: {
 	Jungle: I wonder how my relatives are doing, last time I checked on them they were too busy praising the... Sun, I think.
 }
 
-WizardChat: {
-	Hardmode: Space just got way too close for comfort.
-	MentionRoD: I saw some teleporting pink apparitions in the Hallow. If you let me live nearby, I should be able to channel their magic into a special staff for you.
-}
+WizardChat.Hardmode: Space just got way too close for comfort.
