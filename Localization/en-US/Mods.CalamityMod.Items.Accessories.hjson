@@ -1068,13 +1068,19 @@ LivingDew: {
 		'''
 }
 
-LumenousAmulet: {
-	DisplayName: Lumenous Amulet
+DiamondOfTheDeep: {
+	DisplayName: Diamond of the Deep
 	Tooltip:
 		'''
-		Attacks inflict Crush Depth, and grants immunity to Crush Depth and Riptide
-		While in the abyss you gain 25% increased max life
-		{$Common.AbyssLightLevel2}
+		Multiplies all water debuff damage by 1.75x
+		Slowly accrue up to three different abyssal spirits
+		Dash to disperse the spirits and have them attack enemies
+		When dispersed [c/CB7AD7:below 50% life], the spirits support you instead
+		The spirits appear in order and have different effects based on color:
+		[c/3CB371: Explodes on impact and inflicts Crush Depth] / [c/CB7AD7:Heals for 8 HP]
+		[c/FF4500: Pierces enemies and inflicts Hellfire] / [c/CB7AD7:Increases defense by 15 temporarily]
+		[c/1E90FF: Hits multiple times and inflicts Hadopelagic Pressure] / [c/CB7AD7:Heals 5% of max HP]
+		Spirits are transparent and silent when visibility is toggled off
 		'''
 }
 

@@ -278,6 +278,8 @@ EditedTooltip: {
 	GravityGlobe:
 		'''
 		Provides 32% increased jump speed and increased fall speed
+		Provides a gravitational boost jump, which recharges whenever gravity is flipped
+		Slightly improves wingless air movement speed
 		Press UP to change gravity
 		Press DOWN to fall faster
 		'''
