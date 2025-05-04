@@ -50,7 +50,7 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/DesertProwlerHat] Calamity Armor Set Bonuses Can Use Vanilla Hotkey"
 		Tooltip:
 			'''
-			When enabled, allows Calamity armor set bonuses to be triggered by the vanilla double-tap DOWN hotkey (or UP depending on your settings).
+			Allows Calamity armor set bonuses to be triggered by the vanilla double-tap DOWN hotkey (or UP depending on your settings).
 			Also allows vanilla armor set bonuses to be triggered by Calamity's armor set bonus hotkey.
 			'''
 	}
@@ -99,6 +99,15 @@ CalamityClientConfig: {
 	DevourerofGodsEulogy: {
 		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
 		Tooltip: Plays Calamity Mod OST - "Scourge of the Universe (Eulogy for the Ego)", after the Devourer of Gods has been defeated.
+	}
+
+	DisableGravityScreenSwap: {
+		Label: Disable Gravity Screen Flip
+		Tooltip:
+			'''
+			Disables vanilla's screen-flipping from changing gravity, flipping the player instead.
+			Enable this if the screen-flipping is distracting or induces motion sickness.
+			'''
 	}
 
 	EnableVanillaTextureEdits: {

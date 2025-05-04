@@ -4,7 +4,7 @@ Abaddon: {
 		'''
 		8% increased critical strike chance
 		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
-		Greatly reduces the damage taken by the Brimstone Flames debuff
+		Reduces the damage of the Brimstone Flames debuff by 50%
 		'''
 }
 
@@ -73,7 +73,7 @@ AlchemicalFlask: {
 	DisplayName: Alchemical Flask
 	Tooltip:
 		'''
-		All attacks inflict the Plague and reduces damage taken from the Plague
+		All attacks inflict the Plague and reduces damage taken from the Plague by 50%
 		Projectiles spawn plague seekers on enemy hits
 		Releases plague bees when damaged and douses you in honey 
 		'''
@@ -2021,7 +2021,7 @@ VoidofExtinction: {
 		'''
 		13% increased critical strike chance
 		Critical strikes explode, igniting enemies with Brimstone Flames
-		Partially resist the Brimstone Flames debuff
+		Reduces the damage of the Brimstone Flames debuff by 50%
 		'''
 }
 

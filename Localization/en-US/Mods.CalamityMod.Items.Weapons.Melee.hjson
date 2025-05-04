@@ -1359,8 +1359,9 @@ TheMutilator: {
 	DisplayName: The Mutilator
 	Tooltip:
 		'''
-		Striking an enemy below 20% life will trigger a bloodsplosion
-		Bloodsplosions cause hearts to drop that can be picked up to heal you
+		Striking enemies empowers The Mutilator, increasing its damage
+		At full charge, striking enemies causes a blood orb explosion
+		Picking up these blood orbs reduces the duration of [Potion Sickness]
 		'''
 }
 

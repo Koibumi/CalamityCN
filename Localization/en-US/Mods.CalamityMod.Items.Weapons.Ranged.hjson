@@ -113,8 +113,9 @@ ArterialAssault: {
 	DisplayName: Arterial Assault
 	Tooltip:
 		'''
-		Fires a chain of 5 arrows from the sky
-		All arrows will rapidly home in on nearby enemies
+		Fires a group of 5 homing blood arrows
+		These blood arrows burst into blood orbs upon striking an enemy
+		Picking up these blood orbs reduces the duration of [Potion Sickness]
 		'''
 }
 
@@ -201,9 +202,10 @@ BloodBoiler: {
 	DisplayName: Blood Boiler
 	Tooltip:
 		'''
-		Fires twin streams of life stealing bloodfire that returns to you
+		Fires twin streams of bloodfire that returns to you
+		Retuning bloodfire reduces [Potion Sickness] if it struck an enemy
 		Uses your health as ammo
-		40% chance to save health
+		20% chance to save health
 		'''
 }
 
@@ -269,15 +271,6 @@ ChromaticEruption: {
 ClamorRifle: {
 	DisplayName: Clamor Rifle
 	Tooltip: Converts musket balls into homing energy bolts
-}
-
-ClaretCannon: {
-	DisplayName: Claret Cannon
-	Tooltip:
-		'''
-		Fires strings of 3 bullets
-		Converts musket balls into bloody tears that drain enemy health
-		'''
 }
 
 CleansingBlaze: {

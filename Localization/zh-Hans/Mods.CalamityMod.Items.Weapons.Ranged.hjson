@@ -113,8 +113,9 @@ ArterialAssault: {
 	DisplayName: 血陨
 	Tooltip:
 		'''
-		自天空中发射五支箭
-		所有箭都将迅速跟踪附近的敌人
+		发射五支跟踪鲜血箭
+		鲜血箭命中敌怪时爆发成血球
+		捡起这些血球减少药水疾病的持续时间
 		'''
 }
 
@@ -202,8 +203,9 @@ BloodBoiler: {
 	Tooltip:
 		'''
 		发射两股会回到你身边的生命血火
+		如果命中敌怪，返回的生命血火将减少药水疾病的冷却
 		消耗你的生命作为弹药
-		40%几率节省生命
+		20%几率节省生命
 		'''
 }
 
@@ -269,15 +271,6 @@ ChromaticEruption: {
 ClamorRifle: {
 	DisplayName: 音波步枪
 	Tooltip: 将火枪子弹转化为追踪能量束
-}
-
-ClaretCannon: {
-	DisplayName: 深红手炮
-	Tooltip:
-		'''
-		一次发射三发子弹
-		将火枪子弹转化为吸血的血泪弹
-		'''
 }
 
 CleansingBlaze: {

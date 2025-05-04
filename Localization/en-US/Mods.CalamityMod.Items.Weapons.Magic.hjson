@@ -749,7 +749,12 @@ SandstreamScepter: {
 
 SanguineFlare: {
 	DisplayName: Sanguine Flare
-	Tooltip: Fires a blast of sanguine flares that drain enemy life
+	Tooltip:
+		'''
+		Charges up a sanguine flare that gains power over time
+		When striking an enemy, this flare causes a bloodsplosion and splits into blood orbs
+		Picking up these blood orbs reduces the duration of [Potion Sickness]
+		'''
 }
 
 SeethingDischarge: {
@@ -994,7 +999,9 @@ Viscera: {
 	DisplayName: Viscera
 	Tooltip:
 		'''
-		Fires a rapid barrage of piercing blood beams that heal you on enemy hit
+		Fires a rapid barrage of piercing blood beams
+		The first enemy struck by each beam will burst into blood orbs
+		Picking up these blood orbs reduces the duration of [Potion Sickness]
 		Each successive beam in the barrage deals more damage
 		The last beam of the barrage instead explodes upon hitting an enemy
 		'''

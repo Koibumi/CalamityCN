@@ -292,7 +292,8 @@ DragonbloodDisgorger: {
 	Tooltip:
 		'''
 		Summons a skeletal dragon and her two children
-		Baby spits passively heal the player
+		Baby spits burst into blood orbs upon hitting an enemy
+		Picking up these blood orbs reduces the duration of [Potion Sickness]
 		Requires 6 minion slots to be summoned
 		There can only be one family at a time
 		'''

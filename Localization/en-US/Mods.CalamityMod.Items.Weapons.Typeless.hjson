@@ -7,6 +7,19 @@ Aestheticus: {
 		'''
 }
 
+ClaretCannon: {
+	DisplayName: Claret Cannon
+	Tooltip:
+		'''
+		Fires a hypercondensed claret round
+		The round explodes upon striking an enemy and releases blood orbs
+		The explosion shreds enemies, inflicting [Laceration] and dramatically reducing their defense
+		Picking up the blood orbs will reduce [Potion Sickness] when possible
+		If you do not have [Potion Sickness], your natural regeneration will be enhanced
+		Can only fire once every 5 seconds
+		'''
+}
+
 EyeofMagnus: {
 	DisplayName: Eye of Magnus
 	Tooltip:

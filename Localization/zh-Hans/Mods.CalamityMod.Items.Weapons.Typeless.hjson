@@ -7,6 +7,19 @@ Aestheticus: {
 		'''
 }
 
+ClaretCannon: {
+	DisplayName: 深红手炮
+	Tooltip:
+		'''
+		发射一发超浓缩深红子弹
+		深红子弹在命中敌怪时爆炸，并放出血球
+		爆炸将撕碎敌怪，造成Laceration减益并巨幅降低其防御
+		捡起这些血球减少药水疾病的持续时间
+		没有药水疾病时，将会增强自然生命再生
+		每5秒钟只能发射一次
+		'''
+}
+
 EyeofMagnus: {
 	DisplayName: 马格努斯之眼
 	Tooltip:

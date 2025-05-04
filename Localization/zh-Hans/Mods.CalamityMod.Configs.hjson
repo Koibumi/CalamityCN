@@ -50,7 +50,7 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/DesertProwlerHat] 允许原版热键触发灾厄套装奖励"
 		Tooltip:
 			'''
-			当启用时，允许灾厄套装奖励被原版的双击DOWN或UP热键触发。
+			允许灾厄套装奖励被原版的双击DOWN或UP热键触发。
 			同时允许原版套装奖励被灾厄的套装奖励热键触发。
 			'''
 	}
@@ -99,6 +99,15 @@ CalamityClientConfig: {
 	DevourerofGodsEulogy: {
 		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
 		Tooltip: 在神明吞噬者被击败后播放灾厄OST——“Scourge of the Universe (Eulogy for the Ego)”。
+	}
+
+	DisableGravityScreenSwap: {
+		Label: 反转重力时不翻转屏幕
+		Tooltip:
+			'''
+			禁用原版反转重力时带来的屏幕翻转效果，以翻转玩家代之
+			如果屏幕翻转分散注意力或带来晕车感，请启用此选项
+			'''
 	}
 
 	EnableVanillaTextureEdits: {
