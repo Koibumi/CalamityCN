@@ -7,6 +7,7 @@ DodgeInfo:
 	'''
 
 AddedTooltip: {
+	EyeoftheGolem: 20% increased critical strike damage
 	TruffleWorm:
 		'''
 		Summons Duke Fishron if used as bait in the Ocean
@@ -29,7 +30,8 @@ AddedTooltip: {
 	WarmthPotion: Greatly reduces the duration of Chilled, Frozen, and Glacial State
 	HandWarmer: Provides a regeneration boost while wearing the Snow armor
 	GoldenFishingRod: Its fishing line will never break
-	Stepstool: Standing on the stool grants 5% increased critical strike chance
+	// Step Stool
+	PortableStool: Standing on the stool grants 5% increased critical strike chance
 	Tombstones:
 		'''
 		13 of any tombstone turns the surrounding area into a graveyard
@@ -149,6 +151,8 @@ EditedTooltip: {
 		Throws a mixture of slime and sparkling crystals
 		Slimed enemies take more damage from fire-based debuffs
 		'''
+	// Ancient Manipulator
+	LunarCraftingStation: Used to craft items from Lunar Fragments, Luminite, and Astral Bars
 	AnkhShield1: Grants immunity to knockback
 	AnkhShield2: Grants immunity to most debuffs, including Mighty Wind
 	Campfires: Life regen is increased by 0.5 HP/s when near a campfire
@@ -196,7 +200,7 @@ EditedTooltip: {
 	EmpressFlightBooster2: Increases movement and jump speed by 10% and acceleration by 1.25x
 	RifleScope1: Increase view range for guns (Right click to zoom out)
 	RifleScope2: The scope effect can be toggled with visibility
-	SniperScope: 7% increased ranged damage and critical strike chance
+	SniperScope: 12% increased ranged critical strike chance
 	MagicQuiver: Increases arrow damage by 5% and greatly increases arrow speed
 	MoltenQuiver1: Increases arrow damage by 7% and greatly increases arrow speed
 	MoltenQuiver2: Lights wooden arrows ablaze and all arrows inflict Hellfire

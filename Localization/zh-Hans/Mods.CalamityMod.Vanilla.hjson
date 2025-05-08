@@ -7,6 +7,7 @@ DodgeInfo:
 	'''
 
 AddedTooltip: {
+	EyeoftheGolem: 提高20%暴击伤害
 	TruffleWorm:
 		'''
 		在海洋钓一条猪鲨
@@ -29,7 +30,8 @@ AddedTooltip: {
 	WarmthPotion: 大幅降低冷冻、冰冻和冰河时代减益的持续时间
 	HandWarmer: 穿着全套的防雪盔甲时额外提供生命再生
 	GoldenFishingRod: 鱼线永远不会断裂
-	Stepstool: 站在梯凳上会提升5%暴击率
+	// Step Stool
+	PortableStool: 站在梯凳上会提升5%暴击率
 	Tombstones:
 		'''
 		13个各种墓碑会将周围环境变为墓地
@@ -149,6 +151,8 @@ EditedTooltip: {
 		投掷粘液和闪亮晶体的混合物
 		史莱姆类敌人会受到更多来自火系减益的伤害
 		'''
+	// Ancient Manipulator
+	LunarCraftingStation: 用于制作材料为月亮碎片，夜明锭和幻星锭的物品
 	AnkhShield1: 对击退免疫
 	AnkhShield2: 对大多数减益免疫，包括强风
 	Campfires: 在篝火附近时生命再生增加0.5HP/s
@@ -196,7 +200,7 @@ EditedTooltip: {
 	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提升为1.25倍
 	RifleScope1: 扩大枪的视野范围（右键点击可拉远视野）
 	RifleScope2: 扩大视野效果可通过可见性开启或关闭
-	SniperScope: 提高7%远程伤害和暴击率
+	SniperScope: 提高12%远程暴击率
 	MagicQuiver: 增加5%的箭矢伤害，并大幅提高箭矢速度
 	MoltenQuiver1: 增加7%的箭矢伤害，并大幅提高箭矢速度
 	MoltenQuiver2: 点燃木箭且所有箭矢造成狱炎减益
