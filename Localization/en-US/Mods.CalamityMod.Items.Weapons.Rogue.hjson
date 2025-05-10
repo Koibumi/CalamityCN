@@ -1,12 +1,3 @@
-AcidicRainBarrel: {
-	DisplayName: Acidic Rain Barrel
-	Tooltip:
-		'''
-		Throws a rolling barrel that explodes on wall collision
-		Stealth strikes make it rain on collision
-		'''
-}
-
 AdamantiteThrowingAxe: {
 	DisplayName: Adamantite Throwing Axe
 	Tooltip: Stealth strikes ignore gravity and rain down lightning on enemy hits
@@ -1079,16 +1070,6 @@ SkyfinBombers: {
 		Launches a skyfin nuke that homes in on enemies below it
 		Stealth strikes rapidly home in regardless of enemy position
 		'Fishy bombers inbound!'
-		'''
-}
-
-SkyStabber: {
-	DisplayName: Sky Stabber
-	Tooltip:
-		'''
-		Throws up to 4 gravity-defying spiky balls
-		Stealth strikes make the balls rain feathers onto enemies when they hit
-		Press <right> to delete all existing spiky balls
 		'''
 }
 

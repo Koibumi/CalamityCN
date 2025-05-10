@@ -3,6 +3,7 @@ AureateBooster: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressUpToBooster}
 		'Mach speed with style!'
 		'''
 }
@@ -21,7 +22,6 @@ ElysianWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		10% increased movement speed and grants immunity to lava
 		Blessed by the Profaned Flame
 		'''
 }
@@ -71,8 +71,6 @@ SilvaWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		Grants a scaling life regeneration boost while you remain in the air without resetting flight time
-		This boost caps at 8 HP/s after 15 seconds
 		'The purest of nature'
 		'''
 }
@@ -105,7 +103,6 @@ TarragonWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		+15 defense and +1 HP/s life regen
 		'Born of the jungle'
 		'''
 }

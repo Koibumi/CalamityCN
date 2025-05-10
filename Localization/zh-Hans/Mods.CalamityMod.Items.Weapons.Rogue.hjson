@@ -1,12 +1,3 @@
-AcidicRainBarrel: {
-	DisplayName: 酸雨桶
-	Tooltip:
-		'''
-		丢出一个滚动酸雨桶，路径上碰到阻挡方块时爆炸
-		潜伏攻击会使桶在碰撞时会降下酸雨
-		'''
-}
-
 AdamantiteThrowingAxe: {
 	DisplayName: 精金投斧
 	Tooltip: 潜伏攻击无视重力，并在击中敌人时降下闪电
@@ -1080,16 +1071,6 @@ SkyfinBombers: {
 		发射一枚会追踪下方敌人的天鳍核武
 		潜伏攻击会丢出无视敌人位置进行追踪的天鳍核武
 		“鱼雷母舰入境！”
-		'''
-}
-
-SkyStabber: {
-	DisplayName: 天羽尖钉球
-	Tooltip:
-		'''
-		扔出至多4个不受重力影响的尖钉球
-		潜伏攻击会在击中敌人时召唤羽毛从天而降
-		右键收回所有尖钉球
 		'''
 }
 

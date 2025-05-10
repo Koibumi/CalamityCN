@@ -124,11 +124,6 @@ AstralBlaster: {
 	Tooltip: Converts musket balls into homing astral rounds
 }
 
-AstralBow: {
-	DisplayName: Astral Bow
-	Tooltip: Fires a burst of three arrows
-}
-
 AstrealDefeat: {
 	DisplayName: Astreal Defeat
 	Tooltip: All arrows are converted to Astreal Arrows that emit flames as they travel
@@ -279,15 +274,6 @@ CleansingBlaze: {
 		'''
 		Unleashes a torrent of flames which can pass through tiles
 		Uses gel for ammo
-		'''
-}
-
-ClockGatlignum: {
-	DisplayName: Clock Gatlignum
-	Tooltip:
-		'''
-		Converts musket balls into strings of 3 high velocity bullets
-		33% chance to save ammo
 		'''
 }
 

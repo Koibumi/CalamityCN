@@ -1,6 +1,4 @@
 AbyssalMirrorProjectile.DisplayName: 流明晶
-AcidBarrelDrop.DisplayName: 酸雨桶液滴
-AcidShrapnel.DisplayName: 酸性弹片
 AdamantiteThrowingAxeProjectile.DisplayName: 精金投斧
 AntlionSkewerProj.DisplayName: 串串蚁狮
 AntlionSkewerSandBlast.DisplayName: 蚁狮沙爆
@@ -130,7 +128,6 @@ GleamingDaggerProj.DisplayName: 铂金飞刀
 GodsParanoiaDart.DisplayName: 神妄苦无
 GodsParanoiaProj.DisplayName: 神之妄论
 GraveGrimreaverProjectile.DisplayName: 幽影掠墓者
-GreenDonkeyKongReference.DisplayName: 酸蚀木桶
 GrimreaverBat.DisplayName: 掠墓蝙蝠
 GrimreaverSkull.DisplayName: 掠墓颅骨
 HeavenfallenEnergy.DisplayName: 天陨魔能
@@ -253,7 +250,6 @@ ShockTeslaAura.DisplayName: 闪电光环
 ShroomerangSpore.DisplayName: 真菌孢子
 SkyBomberGas.DisplayName: 辐射云
 SkyfinNuke.DisplayName: 天翼核弹
-SkyStabberProj.DisplayName: 天羽尖钉球
 SludgeSplotchProj1.DisplayName: 污泥斑点
 SludgeSplotchProj2.DisplayName: 污泥斑点
 SnapClamProj.DisplayName: 夹贝

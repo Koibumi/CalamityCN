@@ -3,6 +3,7 @@ AureateBooster: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressUpToBooster}
 		“优雅地音速飞行！”
 		'''
 }
@@ -21,7 +22,6 @@ ElysianWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		增加10%移动速度并免疫熔岩
 		被亵渎之火祝福
 		'''
 }
@@ -71,8 +71,6 @@ SilvaWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		当你保持在空中且不重置飞行时间时，获得递增的生命再生加成
-		生命再生加成在15秒后提升至上限，为8HP/s
 		“纯粹的自然之力”
 		'''
 }
@@ -105,7 +103,6 @@ TarragonWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		增加15点防御和+1HP/s生命再生
 		“源于丛林”
 		'''
 }

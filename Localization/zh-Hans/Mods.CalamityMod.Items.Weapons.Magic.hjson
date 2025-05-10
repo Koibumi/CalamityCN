@@ -106,17 +106,6 @@ ArtAttack: {
 		'''
 }
 
-AsteroidStaff: {
-	DisplayName: 行星法杖
-	Tooltip: "[GFB]"
-	TooltipNormal: 召唤小行星从天而降
-	TooltipGFB:
-		'''
-		地心护核者中的混沌魔杖
-		底部文本
-		'''
-}
-
 AstralachneaStaff: {
 	DisplayName: 星幻蛛法杖
 	Tooltip: 发射一排追踪星幻蛛毒牙

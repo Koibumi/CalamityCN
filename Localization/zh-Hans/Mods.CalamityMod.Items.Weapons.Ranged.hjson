@@ -124,11 +124,6 @@ AstralBlaster: {
 	Tooltip: 将火枪子弹转化为追踪幻星弹
 }
 
-AstralBow: {
-	DisplayName: 幻星弓
-	Tooltip: 一次发射三支箭
-}
-
 AstrealDefeat: {
 	DisplayName: 灵星寂灭
 	Tooltip: 将所有箭矢转化为星能之箭，飞行时生成追踪的魂灵星炎
@@ -279,15 +274,6 @@ CleansingBlaze: {
 		'''
 		释放一束可以穿过物块的火焰
 		使用凝胶作为弹药
-		'''
-}
-
-ClockGatlignum: {
-	DisplayName: 发条鳄鱼枪
-	Tooltip:
-		'''
-		将火枪子弹转化为三发高速弹
-		33%几率节省弹药
 		'''
 }
 

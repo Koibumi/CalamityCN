@@ -60,6 +60,7 @@ ExoTankLaser.DisplayName: 迷你星流脉冲激光
 ExoTankMissile.DisplayName: 奇迹导弹
 ExoTankMuzzleFlash.DisplayName: 迷你星流闪光
 FeralDoubleBobber.DisplayName: 野性浮漂
+FestiveWingsOrnament.DisplayName: 装饰品
 FlameLickedBarrage.DisplayName: 舐火散弹
 FlameLickedHellblast.DisplayName: 舐火狱燃爆
 FlashBolt.DisplayName: The Reminder
@@ -113,6 +114,7 @@ RedLabSeeker.DisplayName: 实验室定位仪
 RelicGuard.DisplayName: 圣物之护
 RetaliationProjectile.DisplayName: 复仇碎块
 RiftReelerBobber.DisplayName: 混乱浮标
+RustyMedallionDroplet.DisplayName: 酸性液滴
 SandCloakVeil.DisplayName: 沙尘龙卷
 SandExplosion.DisplayName: 流沙
 SCalAltarArenaVisual.DisplayName: Supreme Calamitas Arena Visual
@@ -155,3 +157,4 @@ YanmeisKnifeSlash.DisplayName: Yanmei斩
 YellowLabSeeker.DisplayName: 实验室定位仪
 VoidofExtinctionCrit.DisplayName: 终结虚空暴击
 XykDeathAnim.DisplayName: Xyk死亡动画
+XykWings.DisplayName: Xyk之翼

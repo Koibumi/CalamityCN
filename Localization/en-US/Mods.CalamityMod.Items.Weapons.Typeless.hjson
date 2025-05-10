@@ -16,7 +16,7 @@ ClaretCannon: {
 		The explosion shreds enemies, inflicting [Laceration] and dramatically reducing their defense
 		Picking up the blood orbs will reduce [Potion Sickness] when possible
 		If you do not have [Potion Sickness], your natural regeneration will be enhanced
-		Can only fire once every 5 seconds
+		Can only fire once every 10 seconds
 		'''
 }
 

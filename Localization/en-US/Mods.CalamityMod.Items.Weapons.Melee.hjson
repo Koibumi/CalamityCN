@@ -31,11 +31,6 @@ AegisBlade: {
 		'''
 }
 
-Aftershock: {
-	DisplayName: Aftershock
-	Tooltip: Summons boulders from the sky on enemy hits
-}
-
 AirSpinner: {
 	DisplayName: Air Spinner
 	Tooltip:
@@ -114,11 +109,6 @@ ArkoftheElements: {
 		You can parry projectiles to make them deal 100 less damage for a short period
 		Parrying will empower the next 10 swings of the sword, letting you use both blades at once
 		'''
-}
-
-AstralBlade: {
-	DisplayName: Astral Blade
-	Tooltip: Deals more damage the more life an enemy has left
 }
 
 AstralPike: {
@@ -1324,11 +1314,6 @@ TheDarkMaster: {
 		The clones may only exist while holding this weapon
 		'The blade by which the shadows levy their foes with a terrible fate'
 		'''
-}
-
-TheEnforcer: {
-	DisplayName: The Enforcer
-	Tooltip: Spawns essence flames on hit
 }
 
 TheGodsGambit: {

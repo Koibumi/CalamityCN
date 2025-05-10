@@ -1,6 +1,4 @@
 AbyssalMirrorProjectile.DisplayName: Lumenyl Fluid
-AcidBarrelDrop.DisplayName: Barrel Acid Drop
-AcidShrapnel.DisplayName: Acidic Shrapnel
 AdamantiteThrowingAxeProjectile.DisplayName: Adamantite Throwing Axe
 AntlionSkewerProj.DisplayName: Antlion on a Stick
 AntlionSkewerSandBlast.DisplayName: Antlion Blast
@@ -130,7 +128,6 @@ GleamingDaggerProj.DisplayName: Gleaming Dagger
 GodsParanoiaDart.DisplayName: God's Paranoia Dart
 GodsParanoiaProj.DisplayName: God's Paranoia
 GraveGrimreaverProjectile.DisplayName: Grave Grimreaver
-GreenDonkeyKongReference.DisplayName: Acidic Rain Barrel
 GrimreaverBat.DisplayName: Grim Bat
 GrimreaverSkull.DisplayName: Grim Skull
 HeavenfallenEnergy.DisplayName: Heavenfallen Energy
@@ -253,7 +250,6 @@ ShockTeslaAura.DisplayName: Electrifying Aura
 ShroomerangSpore.DisplayName: Infested Spore
 SkyBomberGas.DisplayName: Irradiated Cloud
 SkyfinNuke.DisplayName: Skyfin Nuke
-SkyStabberProj.DisplayName: Sky Stabber
 SludgeSplotchProj1.DisplayName: Sludge Splotch
 SludgeSplotchProj2.DisplayName: Sludge Splotch
 SnapClamProj.DisplayName: Snap Clam
