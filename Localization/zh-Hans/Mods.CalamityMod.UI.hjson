@@ -1,4 +1,7 @@
 SmallWorldWarning: "[c/ff00000:灾厄不支持小世界]"
+// Main Menu Name
+MainMenu: 灾厄主题
+MainMenuClassic: 灾厄主题 - 经典
 // Main UI Elements
 Adrenaline: 肾上腺素条
 Nanomachines: 纳米机器条
@@ -604,6 +607,7 @@ GleamingBurrows: 正在埋藏珍珠并收集闪光
 BasaltGully: 正在诱发海洋深处的火山活动
 GemAdjustment: 正在小心翼翼地调整宝石的深度
 DungeonArchive: 正在掩埋废弃档案室
+Planetoids: 正在丰富近泰拉瑞亚轨道
 SulphurSea: 正在污染一侧的海洋
 BrimstoneCrags: 正在焚烧阿萨福勒
 HiddenShrines: 正在掩埋禁忌的神龛

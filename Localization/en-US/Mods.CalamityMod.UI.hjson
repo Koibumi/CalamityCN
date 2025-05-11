@@ -1,4 +1,7 @@
 SmallWorldWarning: "[c/FF0000:SMALL WORLDS NOT SUPPORTED BY CALAMITY]"
+// Main Menu Name
+MainMenu: Calamity Style
+MainMenuClassic: Calamity Style - Classic
 // Main UI Elements
 Adrenaline: Adrenaline
 Nanomachines: Nanomachines
@@ -604,6 +607,7 @@ GleamingBurrows: Burying pearls and catching caustics
 BasaltGully: Provoking volcanic activity below the sea
 GemAdjustment: Sensibly shuffling gem depth
 DungeonArchive: Entombing occult literature
+Planetoids: Enriching low Terraria orbit
 SulphurSea: Polluting one of the oceans
 BrimstoneCrags: Incinerating Azafure
 HiddenShrines: Hiding forbidden shrines
