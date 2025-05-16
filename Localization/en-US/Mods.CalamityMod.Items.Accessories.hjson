@@ -284,12 +284,25 @@ Baroclaw: {
 		'''
 }
 
+BatholithBangle: {
+	DisplayName: Batholith Bangle
+	Tooltip:
+		'''
+		Magic enemy hits create a powerful granite flash that always critically strikes
+		This effect has a 10 second cooldown, but is halved if the flash kills an enemy
+		Visual and audio effects are reduced if visibility is disabled
+		[c/0189D7:'The solid granite radiates energy throughout your body']
+		'''
+}
+
 BlackGlassBand: {
 	DisplayName: Black Glass Band
 	Tooltip:
 		'''
-		Enemy hits create an obsidian blast that always critically strikes
-		This effect has a 7 second cooldown, but is halved if the blast kills an enemy
+		Enemy hits create an obsidian flash that always critically strikes
+		This effect has a 5 second cooldown, but is halved if the flash kills an enemy
+		Visual and audio effects are reduced if visibility is disabled
+		[c/655DC5:'A shining band with boundless potential']
 		'''
 }
 
@@ -1366,8 +1379,10 @@ ProtolithBangle: {
 	DisplayName: Protolith Bangle
 	Tooltip:
 		'''
-		Ranged enemy hits create a marble blast that always critically strikes and can hit multiple enemies
-		This effect has a 7 second cooldown, but is halved if the blast kills the first enemy it hits
+		Ranged enemy hits create a marble flash that always critically strikes and can hit multiple enemies
+		This effect has a 7 second cooldown, but is halved if the flash kills the first enemy it hits
+		Visual and audio effects are reduced if visibility is disabled
+		[c/C5B965:'The cold marble against your wrist puts your mind at ease']
 		'''
 }
 

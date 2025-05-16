@@ -23,7 +23,7 @@ StealthInfoText:
 	'''
 // Difficulty UI
 DifficultyStatusText: "{0}已{1}。"
-ModeAppend: "{0} 模式"
+ModeAppend: "{0}模式"
 Active: 开启
 NotActive: 关闭
 DifficultyShiftText: "[c/737373:按住“Shift”以获取更多信息]"
