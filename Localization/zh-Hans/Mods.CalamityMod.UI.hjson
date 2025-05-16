@@ -94,6 +94,7 @@ Cooldowns: {
 	FleshTotem: 血肉图腾冷却
 	FuryFuel: 圣晶粉尘
 	GaelsRage: 盖尔大剑怒气冷却
+	BandCooldown: Band Cooldown
 	GlobalDodge: 深渊影遁冷却
 	GodSlayerDash: 神弑者之停息
 	HellbornShots: 地狱降临子弹数
@@ -590,7 +591,10 @@ Lecherous: {
 Disenchant: 祛魔
 // Worldgen Tasks
 BetterUnderworld: 正在生成更平滑的地狱
-AshIslandLavaRemoval: 正在移除灰烬岛上的岩浆
+UnderworldStructures: 正在掩埋阿萨福勒与恶魔的战争遗迹
+UnderworldPillars: 正在建造地狱支柱
+UnderworldTreesAndGrass: 正在种植地狱植株
+UnderworldGeyserTraps: 正在添加一片地狱雷区
 EvilIslandCorrupt: 正在生成一个腐化浮岛
 EvilIslandCrimson: 正在生成一个猩红浮岛
 AstralChest: 正在放置一个星幻箱

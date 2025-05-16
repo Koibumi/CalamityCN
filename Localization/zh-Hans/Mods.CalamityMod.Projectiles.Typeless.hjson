@@ -105,6 +105,7 @@ PauldronExplosion.DisplayName: 肩甲爆炸
 PearlAuraShard.DisplayName: 棱镜碎片
 PlaguePulse.DisplayName: 毒疫脉冲
 PoisonousSeawater.DisplayName: 海水
+ProtolithBangleProjectile.DisplayName: 大理石爆破
 PscTransformAnimation.DisplayName: 渎神魂晶转换动画
 PscTransformRocks.DisplayName: 渎神魂晶转换陨石
 PuddleSplash.DisplayName: 泥坑水花
@@ -117,7 +118,7 @@ RiftReelerBobber.DisplayName: 混乱浮标
 RustyMedallionDroplet.DisplayName: 酸性液滴
 SandCloakVeil.DisplayName: 沙尘龙卷
 SandExplosion.DisplayName: 流沙
-SCalAltarArenaVisual.DisplayName: Supreme Calamitas Arena Visual
+SCalAltarArenaVisual.DisplayName: 至尊灾厄场地预览
 Seashell.DisplayName: 贝壳
 SepulcherSoul.DisplayName: 折磨之魂
 SerpentsBiteHook.DisplayName: 巨蟒之咬
