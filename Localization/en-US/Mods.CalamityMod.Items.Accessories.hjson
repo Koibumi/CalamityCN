@@ -2090,6 +2090,7 @@ WulfrumAcrobaticsPack: {
 		'''
 		Provides a wulfrum slingshot grappling hook
 		This slingshot's stats scale with your equipped hook
+		If the hook has special effects, the slingshot also benefits from them
 		The slingshot allows for advanced rope-swinging physics
 		Hold UP or DOWN to retract or extend the slingshot's rope
 		Automatically grapples nearby walls if a lethal fall is detected

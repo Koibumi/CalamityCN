@@ -137,7 +137,7 @@ Cinquedea: {
 
 CobaltKunai: {
 	DisplayName: Cobalt Kunai
-	Tooltip: Stealth strikes fire three homing cobalt energy bolts
+	Tooltip: Stealth strikes fire four homing cobalt energy bolts
 }
 
 ConsecratedWater: {
@@ -948,8 +948,9 @@ SandDollar: {
 	DisplayName: Sand Dollar
 	Tooltip:
 		'''
-		Throws up to 2 returning sand dollars
-		Stealth strikes throw 2 long ranged sand dollars that explode into coral shards on enemy hits
+		Throws gliding sand dollars which can pierce enemies or bounce off floors
+		After bouncing, sand dollars lose their pierce but split into damaging shards on impact
+		Stealth strikes linger in place after bouncing, creating a small sandstorm around them
 		'''
 }
 

@@ -1286,11 +1286,13 @@ Terratomere: {
 
 TerrorBlade: {
 	DisplayName: 惊惧魂刃
+	GFBName: TERROR BLADD4
 	Tooltip:
 		'''
 		发射惊惧剑气，击中物块时反弹
-		每次反弹或穿透怪物时发生爆炸
+		每次反弹或穿透怪物时发生爆炸[STATUS]
 		'''
+	GFB: "'Ignore my spelling.'"
 }
 
 TheBurningSky: {
@@ -1461,7 +1463,12 @@ UltimusCleaver: {
 
 UrchinMace: {
 	DisplayName: 海胆链枷
-	Tooltip: 掷出一股赤潮涡流
+	Tooltip:
+		'''
+		掷出一股赤潮涡流
+		[c/5C95A1:“大海之民善于狩猎，但他们痛恨没有意义的暴力。]
+		[c/5C95A1:不幸的是，他们的邻国一个个都野蛮无比，因此他们铸造出了战争的兵器。”]
+		'''
 }
 
 VanishingPoint: {

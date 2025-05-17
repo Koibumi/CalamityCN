@@ -1286,11 +1286,13 @@ Terratomere: {
 
 TerrorBlade: {
 	DisplayName: Terror Blade
+	GFBName: TERROR BLADD4
 	Tooltip:
 		'''
 		Fires a terror beam that bounces off tiles
-		On every bounce it emits an explosion
+		On every bounce it emits an explosion[STATUS]
 		'''
+	GFB: "'Ignore my spelling.'"
 }
 
 TheBurningSky: {
@@ -1461,7 +1463,12 @@ UltimusCleaver: {
 
 UrchinMace: {
 	DisplayName: Urchin Mace
-	Tooltip: Throws out a whirlpool when released
+	Tooltip:
+		'''
+		Throws out a whirlpool when released
+		[c/5C95A1:'The people of the sea were adept hunters, but they abhorred unnecessary violence.]
+		[c/5C95A1:Unfortunately, neighboring nations were brutish, so they fashioned their tools for war.']
+		'''
 }
 
 VanishingPoint: {

@@ -207,6 +207,8 @@ ProfanedPartisanSpear.DisplayName: 渎神之矛
 RadiantExplosion.DisplayName: 辐射爆炸
 RadiantStar2.DisplayName: 辐射星
 RadiantStarKnife.DisplayName: 辐射星
+RadiationBurst.DisplayName: 辐射爆发
+RadiationRain.DisplayName: 辐射雨
 RealityRuptureLance.DisplayName: 万象崩碎矛
 RealityRuptureMini.DisplayName: 现实裂片
 RealityRuptureStealth.DisplayName: 盈虚裂片
@@ -214,14 +216,17 @@ ReaperProjectile.DisplayName: 死神飞镰
 ReboundingRainbowProj.DisplayName: Rebounding Rainbow
 ReboundingRainbowSplit.DisplayName: Rebounding Rainbow
 RefractionRotorProjectile.DisplayName: 衍曜旋刃
+RefractionRotorSlashCreator.DisplayName: 衍曜斩切生成器
+RefractionSlash.DisplayName: 衍曜斩切
 RegulusEnergy.DisplayName: 星神游龙之灵
 RegulusRiotProj.DisplayName: 星神游龙之混沌
 RotBallProjectile.DisplayName: 腐烂之球
 SacrificeProjectile.DisplayName: 牺牲之匕
 SamsaraSlicerProjectile.DisplayName: 回春环刃
 SamsaraSlicerSmallDisk.DisplayName: 回春环刃
+SandDollarFrag.DisplayName: 沙币碎块
 SandDollarProj.DisplayName: 沙币
-SandDollarStealth.DisplayName: 沙币
+SandDollarStealth.DisplayName: 沙币沙尘暴
 ScarletBlast.DisplayName: 猩红冲击波
 ScarletDevilBullet.DisplayName: 永恒弹
 ScarletDevilProjectile.DisplayName: 冈格尼尔永恒之枪
@@ -263,6 +268,8 @@ SphereBladed.DisplayName: 致命之球
 SphereBlue.DisplayName: 蓝色致命之球
 SphereSpiked.DisplayName: 致命刺球
 SphereYellow.DisplayName: 黄色致命刺球
+SporeKnifeProj.DisplayName: Spore Knife
+SporeKnifeBud.DisplayName: Spore Knife Bud
 StealthNimbus.DisplayName: 云
 StealthNimbusCloud.DisplayName: 雨云
 StealthRain.DisplayName: 雨
@@ -315,9 +322,3 @@ WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 钨钢飞刀
-RadiationBurst.DisplayName: 辐射爆发
-RadiationRain.DisplayName: 辐射雨
-RefractionRotorSlashCreator.DisplayName: 衍曜斩切生成器
-RefractionSlash.DisplayName: 衍曜斩切
-SporeKnifeProj.DisplayName: Spore Knife
-SporeKnifeBud.DisplayName: Spore Knife Bud

@@ -138,7 +138,7 @@ Cinquedea: {
 
 CobaltKunai: {
 	DisplayName: 钴蓝苦无
-	Tooltip: 潜伏攻击发射三道追踪钴蓝能量束
+	Tooltip: 潜伏攻击发射四道追踪钴蓝能量束
 }
 
 ConsecratedWater: {
@@ -949,8 +949,9 @@ SandDollar: {
 	DisplayName: 沙钱
 	Tooltip:
 		'''
-		扔出至多2个回旋沙钱
-		潜伏攻击将同时扔出两个沙钱，击中敌人后炸成珊瑚碎片
+		掷出滑翔的沙钱，可以穿透敌人或从平地上反弹
+		反弹后，沙钱会失去穿透能力但在碰撞时分裂成伤害性碎块
+		潜伏攻击会使沙钱在反弹后滞留，并在其周围产生小型沙尘暴
 		'''
 }
 

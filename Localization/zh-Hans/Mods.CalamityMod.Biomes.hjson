@@ -72,8 +72,8 @@ SunkenSeaBiome: {
 }
 
 AstralUnderground: {
-	DisplayName: 星辉瘟疫地下
-	TownNPCDialogueName: 星辉瘟疫地下
+	DisplayName: 地下星辉瘟疫
+	TownNPCDialogueName: 地下星辉瘟疫
 }
 
 AstralCaveDesert: {

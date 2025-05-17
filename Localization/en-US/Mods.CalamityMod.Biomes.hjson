@@ -72,7 +72,7 @@ SunkenSeaBiome: {
 }
 
 AstralUnderground: {
-	DisplayName: Astral Underground
+	DisplayName: Underground Astral
 	TownNPCDialogueName: Underground Astral Infection
 }
 

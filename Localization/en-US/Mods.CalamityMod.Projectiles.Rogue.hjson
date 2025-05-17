@@ -207,6 +207,8 @@ ProfanedPartisanSpear.DisplayName: Profaned Spear
 RadiantExplosion.DisplayName: Radiant Explosion
 RadiantStar2.DisplayName: Radiant Star
 RadiantStarKnife.DisplayName: Radiant Star
+RadiationBurst.DisplayName: Radiation Burst
+RadiationRain.DisplayName: Radiation Rain
 RealityRuptureLance.DisplayName: Lance of Reality
 RealityRuptureMini.DisplayName: Reality Shard
 RealityRuptureStealth.DisplayName: Ruptured Reality
@@ -214,14 +216,17 @@ ReaperProjectile.DisplayName: The Old Reaper
 ReboundingRainbowProj.DisplayName: Rebounding Rainbow
 ReboundingRainbowSplit.DisplayName: Rebounding Rainbow
 RefractionRotorProjectile.DisplayName: Prism Shuriken
+RefractionRotorSlashCreator.DisplayName: Refraction Rotor Slash Creator
+RefractionSlash.DisplayName: Refraction Slash
 RegulusEnergy.DisplayName: Regulus Energy
 RegulusRiotProj.DisplayName: Regulus Riot
 RotBallProjectile.DisplayName: Rot Ball
 SacrificeProjectile.DisplayName: Sacrificial Dagger
 SamsaraSlicerProjectile.DisplayName: Samsara Slicer
 SamsaraSlicerSmallDisk.DisplayName: Samsara Slicer
+SandDollarFrag.DisplayName: Sand Dollar Frag
 SandDollarProj.DisplayName: Sand Dollar
-SandDollarStealth.DisplayName: Sand Dollar
+SandDollarStealth.DisplayName: Sand Dollar Duststorm
 ScarletBlast.DisplayName: Scarlet Blast
 ScarletDevilBullet.DisplayName: Gungnir Bullet
 ScarletDevilProjectile.DisplayName: Spear the Gungnir
@@ -263,6 +268,8 @@ SphereBladed.DisplayName: Bladed Sphere
 SphereBlue.DisplayName: Blue Thruster Sphere
 SphereSpiked.DisplayName: Spiked Sphere
 SphereYellow.DisplayName: Yellow Thruster Sphere
+SporeKnifeProj.DisplayName: Spore Knife
+SporeKnifeBud.DisplayName: Spore Knife Bud
 StealthNimbus.DisplayName: Nimbus
 StealthNimbusCloud.DisplayName: Nimbus
 StealthRain.DisplayName: Rain
@@ -315,9 +322,3 @@ WrathwingCinder.DisplayName: Wrathwing Eruption
 WrathwingFireball.DisplayName: Wrathwing Fireball
 WrathwingSpear.DisplayName: Wrathwing
 WulfrumKnifeProj.DisplayName: Wulfrum Knife
-RadiationBurst.DisplayName: Radiation Burst
-RadiationRain.DisplayName: Radiation Rain
-RefractionRotorSlashCreator.DisplayName: Refraction Rotor Slash Creator
-RefractionSlash.DisplayName: Refraction Slash
-SporeKnifeProj.DisplayName: Spore Knife
-SporeKnifeBud.DisplayName: Spore Knife Bud
