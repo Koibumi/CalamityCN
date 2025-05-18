@@ -1487,7 +1487,12 @@ VeinBurster: {
 
 Violence: {
 	DisplayName: Violence
-	Tooltip: Releases a blazing fork which stays near the mouse and shreds enemies
+	Tooltip:
+		'''
+		A demonic pitchfork, cursed to cause endless bloodshed
+		<left> commands the trident to follow your cursor and shred enemies with devastating speed
+		<right> throws the trident, violently tearing through enemies with immense power and inflicting Vulnerability Hex
+		'''
 }
 
 Virulence: {

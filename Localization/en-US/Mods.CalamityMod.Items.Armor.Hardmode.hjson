@@ -481,7 +481,7 @@ ReaverHeadMobility: {
 		'''
 		Grants immunity to fall damage and allows constant jumping
 		10% increased flight time and horizontal wing speed
-		Hooks fly out and retract 10% faster
+		Hooks fly out and retract 50% faster
 		Reduces the cooldown of dashes
 		'''
 }

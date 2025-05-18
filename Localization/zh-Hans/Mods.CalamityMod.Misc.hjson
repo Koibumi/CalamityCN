@@ -1,21 +1,22 @@
-// Recipe Groups
+# Recipe Groups
+# {$LegacyMisc.37} is the vanilla localization used in recipe groups, that reads "Any" in English.
 RecipeGroup: {
-	HardmodeAnvil: 任意困难模式砧
-	HardmodeForge: 任意困难模式熔炉
-	AnyLargeGem: 任意大宝石
-	AnyFood: 任意食物
-	AnyEvilBar: 任意邪恶锭
-	AnyEvilPowder: 任意邪恶粉末
-	Boss2Material: 任意邪恶组织
-	CursedFlameIchor: 任意困难模式邪恶成分
-	AnyEvilWater: 任意邪水
-	AnyEvilFlask: 任意邪恶药剂
-	AnyEvilBlock: 任意邪恶物块
-	AnyGoodBlock: 任意纯净方块
-	LunarPickaxe: 任意夜明锭镐
-	LunarHamaxe: 任意夜明锭锤斧
-	AnyQuiver: 任意箭袋
-	AnyWings: 任意翅膀
+	HardmodeAnvil: "{$LegacyMisc.37} 困难模式砧"
+	HardmodeForge: "{$LegacyMisc.37} 困难模式熔炉"
+	AnyLargeGem: "{$LegacyMisc.37} 大宝石"
+	AnyFood: "{$LegacyMisc.37} 食物"
+	AnyEvilBar: "{$LegacyMisc.37} 邪恶锭"
+	AnyEvilPowder: "{$LegacyMisc.37} 邪恶粉末"
+	Boss2Material: 任何 邪恶组织
+	CursedFlameIchor: 任何 困难模式邪恶成分
+	AnyEvilWater: "{$LegacyMisc.37} 邪水"
+	AnyEvilFlask: "{$LegacyMisc.37} 邪恶药剂"
+	AnyEvilBlock: "{$LegacyMisc.37} 邪恶物块"
+	AnyGoodBlock: "{$LegacyMisc.37} 纯净方块"
+	LunarPickaxe: "{$LegacyMisc.37} 夜明锭镐"
+	LunarHamaxe: "{$LegacyMisc.37} 夜明锭锤斧"
+	AnyQuiver: "{$LegacyMisc.37} 箭袋"
+	AnyWings: "{$LegacyMisc.37} 翅膀"
 }
 
 // Status

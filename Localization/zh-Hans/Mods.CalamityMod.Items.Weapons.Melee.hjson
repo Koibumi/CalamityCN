@@ -1487,7 +1487,12 @@ VeinBurster: {
 
 Violence: {
 	DisplayName: 恣睢
-	Tooltip: 掷出会在你鼠标附近旋转的硫火三叉戟，撕裂你的敌人
+	Tooltip:
+		'''
+		一柄恶魔三叉戟，被诅咒带来永世的血雨腥风
+		<left>令三叉戟跟随鼠标，以毁灭性的速度撕碎你的敌人
+		<right>掷出三叉戟，以恣睢之力撕裂敌人，造成Vulnerability Hex减益
+		'''
 }
 
 Virulence: {

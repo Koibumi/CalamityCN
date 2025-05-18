@@ -173,7 +173,7 @@ MetalShard.DisplayName: 金属碎片
 MeteorFistProj.DisplayName: 陨！星！之！拳！
 MeteorFistMeteorite.DisplayName: 真！星！陨！之！拳！
 MoltenAmputatorProj.DisplayName: 熔岩切碎者
-MoonSigil.DisplayName: 月球符文
+MoonSigil.DisplayName: 月亮符文
 MycorootProj.DisplayName: 蘑菇根质
 MythrilKnifeProjectile.DisplayName: 秘银飞刀
 NanoblackMain.DisplayName: 黑纳米死神
@@ -268,8 +268,8 @@ SphereBladed.DisplayName: 致命之球
 SphereBlue.DisplayName: 蓝色致命之球
 SphereSpiked.DisplayName: 致命刺球
 SphereYellow.DisplayName: 黄色致命刺球
-SporeKnifeProj.DisplayName: Spore Knife
 SporeKnifeBud.DisplayName: Spore Knife Bud
+SporeKnifeProj.DisplayName: Spore Knife
 StealthNimbus.DisplayName: 云
 StealthNimbusCloud.DisplayName: 雨云
 StealthRain.DisplayName: 雨
