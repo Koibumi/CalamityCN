@@ -310,6 +310,7 @@ BlazingCore: {
 	DisplayName: 渎火核心
 	Tooltip:
 		'''
+		对击退免疫
 		亵渎天神的炽热之心
 		按下 [KEY] 键会将你包裹在发光的亵渎水晶中，并激活一次格挡
 		包裹后短时间内受击会使水晶破碎
@@ -324,6 +325,7 @@ BloodflareCore: {
 	DisplayName: 血炎晶核
 	Tooltip:
 		'''
+		对击退免疫
 		防御损伤恢复时会治疗你，每恢复1点防御便恢复1点生命值
 		受到伤害时会将至少一半的防御转化为防御损伤
 		'''
@@ -544,6 +546,7 @@ DarkSunRing: {
 	DisplayName: 蚀日尊戒
 	Tooltip:
 		'''
+		对击退免疫
 		增加12%伤害
 		+0.5HP/s生命再生和2格最大仆从栏位
 		增加仆从击退
@@ -612,6 +615,7 @@ DraedonsHeart: {
 	Tooltip:
 		'''
 		减少敌怪{0}%接触伤害
+		对击退免疫
 		[NANODESC]
 		在完全充能时，按下 [KEY] 键会在{2}秒内逐渐回复{1}点生命值
 		回复生命值时，降低[DR]%所受伤害
@@ -1244,6 +1248,7 @@ OldDukeScales: {
 	DisplayName: 硫海遗爵之鳞
 	Tooltip:
 		'''
+		对击退免疫
 		增加10%伤害减免，最大移动速度和加速度
 		增加25%冲刺速度和距离
 		在冷却栏中加入一个耐力追踪器
@@ -1644,8 +1649,9 @@ SlagsplitterPauldron: {
 	DisplayName: 熔火碎矿肩甲
 	Tooltip:
 		'''
-		冲刺期间获得10%伤害减免，冲刺经过的敌人会受到碎甲减益
-		你的冲刺会被火赋能，使用剧烈爆炸撕碎附近的敌人
+		你的冲刺会被火焰赋能，接触敌人时爆发
+		冲刺期间对击退免疫并获得10%伤害减免
+		被冲刺击中的敌人的盔甲会粉碎
 		如果关闭饰品可见性，视觉效果会减弱
 		'''
 }
@@ -1785,8 +1791,8 @@ StatMeter: {
 	AttackSpeed: 攻速：{0}%
 	WhipMeleeInheritance: " [{0}% 继承自近战攻速]"
 	// Class stats
-	RangedStats: 弹药消耗率：{0}
-	MagicStats: 魔力值消耗：{0}% | 魔力值恢复速度：{1}
+	AmmoStats: 弹药消耗率：{0}%
+	ManaStats: 魔力值消耗：{0}% | 魔力值恢复速度：{1}
 	SummonStats: 仆从栏位数量：{0} | 哨兵栏位数量：{1}
 	WhipStats: 鞭子范围提升：{0}%
 	RogueStats:
@@ -1891,7 +1897,7 @@ TheCamper: {
 	DisplayName: 露营者
 	Tooltip:
 		'''
-		除非站定不动，否则降低90%造成的伤害
+		除非站定不动，否则降低50%造成的伤害
 		站定不动时基于手持的武器给予增益并在你周为生成伤害光环
 		移动时会像站定不动时再生生命
 		{$Common.AbyssLightLevel1}
@@ -1942,6 +1948,7 @@ TheSponge: {
 	DisplayName: 化绵留香石
 	Tooltip:
 		'''
+		对击退免疫
 		获得一个180点生命值的屏障
 		屏障激活时会提供20点防御和10%伤害减免
 		[ADREN]
@@ -2114,6 +2121,7 @@ YharimsGift: {
 	DisplayName: 寻神者之礼
 	Tooltip:
 		'''
+		对击退免疫
 		被击中时会使燃火流星从天而降
 		移动时会在身后留下爆裂龙尘
 		增加15%伤害和移动速度

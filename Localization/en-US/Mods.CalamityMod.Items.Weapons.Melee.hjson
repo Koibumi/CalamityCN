@@ -793,7 +793,11 @@ Lacerator: {
 	Tooltip:
 		'''
 		{$Common.YoyoStatsInfinite}
-		Accelerates natural life regeneration on hits with the yoyo
+		Striking enemies conjures a bloody saw to shred them
+		The saw does more damage the more often the yoyo hits, and fades away when not striking enemies
+		Enemies touching the edge of the sawblade get blood orbs torn out of them
+		Picking up these blood orbs reduces the duration of [Potion Sickness]
+		The direction of the saw's spin depends on which direction you originally threw the yoyo
 		[GFB]
 		'''
 	TooltipNormal: Someone thought this was a viable weapon against DoG at one point lol
@@ -848,8 +852,12 @@ MirrorBlade: {
 	DisplayName: Mirror Blade
 	Tooltip:
 		'''
-		The amount of contact damage an enemy does is added to this weapons' damage
-		You must hit an enemy with the blade to trigger this effect
+		Striking an enemy or a hostile projectile spawns mirror shards
+		You can have up to 10 mirror shards at once, and excess shards are launched at enemies
+		<right> to form your shards into a mirror shield
+		Each shard redues the damage of a projectile that hit the shield by 10%
+		The shield shatters after one projectile, launching the shards at enemies with increasd damage
+		With all 10 shards, you gain a brief period of invulnerability when shattering the shield
 		'''
 }
 

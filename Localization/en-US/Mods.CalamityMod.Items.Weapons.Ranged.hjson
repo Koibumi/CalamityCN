@@ -232,6 +232,7 @@ BulletFilledShotgun: {
 	Tooltip:
 		'''
 		Fires a massive spread of bouncing bullets
+		Bullets attempt to bounce towards enemies after bouncing twice
 		Consumes five bullets per-use
 		'Aim? What's that?'
 		'''
