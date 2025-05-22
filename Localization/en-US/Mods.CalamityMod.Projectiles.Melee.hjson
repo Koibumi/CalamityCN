@@ -168,7 +168,7 @@ MantisClawHoldout.DisplayName: Mantis Claw
 MantisClawJet.DisplayName: Mantis Claw Jet
 MantisClawSlash.DisplayName: Mantis Claw Slash
 MicrowaveAura.DisplayName: Microwave Radiation
-MirrorBlast.DisplayName: Mirror Blade
+MirrorBlast.DisplayName: Mirror Blast
 MonstrousKnife.DisplayName: Monstrous Knife
 MourningSkull.DisplayName: Mourning Skull
 MourningstarFlail.DisplayName: Mourningstar
@@ -306,3 +306,5 @@ YinYoDark.DisplayName: Dark Shard
 YinYoLight.DisplayName: Light Shard
 MutilatorSwordProj.DisplayName: The Mutilator
 MirrorBladeProjectile.DisplayName: Mirror Blade
+MirrorBladeSlash.DisplayName: Mirror Blade Slash
+MirrorBladeSlashCreator.DisplayName: Mirror Blade Slash Creator

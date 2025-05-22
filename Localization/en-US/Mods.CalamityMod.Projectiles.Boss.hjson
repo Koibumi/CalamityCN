@@ -130,6 +130,7 @@ QueenBeenadeBee.DisplayName: Queen Beenade Bee
 RavagerBlast.DisplayName: Ravaging Laser
 RavagerBlaster.DisplayName: Ravager Blaster
 RavagerFlame.DisplayName: Blue Flame
+RavagerNuke.DisplayName: Homing Nuke
 RedLightning.DisplayName: Red Lightning
 RedLightningFeather.DisplayName: Lightning Feather
 SandBlast.DisplayName: Sand Blast
@@ -140,7 +141,6 @@ SCalBrimstoneFireblast.DisplayName: Brimstone Fireblast
 SCalBrimstoneGigablast.DisplayName: Brimstone Gigablast
 SCalRitualDrama.DisplayName: Calamitous Ritual Drama
 HomingLaserDart.DisplayName: Homing Dart
-ScavengerNuke.DisplayName: Homing Nuke
 ShadeNimbusHostile.DisplayName: Shade Nimbus
 ShaderainHostile.DisplayName: Shade Rain
 ShadowflameFireball.DisplayName: Shadowflame Fireball

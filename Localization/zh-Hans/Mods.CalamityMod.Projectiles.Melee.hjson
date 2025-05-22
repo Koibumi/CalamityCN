@@ -168,7 +168,7 @@ MantisClawHoldout.DisplayName: 螳螂爪
 MantisClawJet.DisplayName: 螳螂爪喷流
 MantisClawSlash.DisplayName: 螳螂爪快斩
 MicrowaveAura.DisplayName: 微波辐照
-MirrorBlast.DisplayName: 镜之刃
+MirrorBlast.DisplayName: 镜之冲击
 MonstrousKnife.DisplayName: 畸变飞刀
 MourningSkull.DisplayName: 恐惧骷髅
 MourningstarFlail.DisplayName: 晨星链刃
@@ -306,3 +306,5 @@ YinYoDark.DisplayName: 黑暗碎块
 YinYoLight.DisplayName: 光明碎块
 MutilatorSwordProj.DisplayName: 斩切刃
 MirrorBladeProjectile.DisplayName: 镜之刃
+MirrorBladeSlash.DisplayName: 镜之刃斩切
+MirrorBladeSlashCreator.DisplayName: 镜之刃斩切

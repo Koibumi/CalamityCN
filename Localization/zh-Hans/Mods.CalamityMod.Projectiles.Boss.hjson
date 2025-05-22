@@ -130,6 +130,7 @@ QueenBeenadeBee.DisplayName: 蜂后手雷蜜蜂
 RavagerBlast.DisplayName: 魔像冲击波
 RavagerBlaster.DisplayName: 魔像冲击波
 RavagerFlame.DisplayName: 湛蓝火焰
+RavagerNuke.DisplayName: 制导核导弹
 RedLightning.DisplayName: 猩红闪电
 RedLightningFeather.DisplayName: 闪耀红羽
 SandBlast.DisplayName: 沙尘暴
@@ -139,8 +140,7 @@ SandTooth.DisplayName: 瀚漠之牙
 SCalBrimstoneFireblast.DisplayName: 无际裂变
 SCalBrimstoneGigablast.DisplayName: 深渊炙炎
 SCalRitualDrama.DisplayName: 至尊灾厄
-HomingLaserDart.DisplayName: 回旋镖
-ScavengerNuke.DisplayName: 制导核导弹
+HomingLaserDart.DisplayName: 追踪飞镖
 ShadeNimbusHostile.DisplayName: 乌云
 ShaderainHostile.DisplayName: 阴影之雨
 ShadowflameFireball.DisplayName: 暗影火球
