@@ -285,6 +285,7 @@ GoldPrismaticGuppy: Gold Prismatic Guppy
 HauntedChum.DisplayName: Haunted Chum
 Jellyghoul.DisplayName: Jellyghoul
 KelpieSeadragon.DisplayName: Kelpie Seadragon
+LazarusLampfish.DisplayName: Lazarus Lampfish
 Leerslug.DisplayName: Leerslug
 LostShoal.DisplayName: Lost Shoal
 PearlpodBlack.DisplayName: Pearlpod
@@ -300,7 +301,6 @@ ProbesnoutGold.DisplayName: Gold Probesnout
 PrismaticGuppy.DisplayName: Prismatic Guppy
 RadiantBabyGhostBell: Radiant Baby Ghost Bell
 RadiantPolypPanasea: Radiant Polyp Panasea
-RadiantPolyperil: Radiant Polyperil
 RadiantPrismaticGuppy: Radiant Prismatic Guppy
 RadiantSlugbun: Radiant Slugbun
 SandProwler.DisplayName: Sand Prowler
@@ -312,6 +312,7 @@ SeaMinnowGold.DisplayName: Gold Sea Minnow
 Searslug.DisplayName: Searslug
 Sharkoon.DisplayName: Sharkoon
 Slugbun.DisplayName: Slugbun
+Steampod.DisplayName: Steampod
 BrimstoneHeart.DisplayName: Brimstone Heart
 SepulcherHead.DisplayName: Sepulcher
 SoulSeekerSupreme.DisplayName: Soul Seeker

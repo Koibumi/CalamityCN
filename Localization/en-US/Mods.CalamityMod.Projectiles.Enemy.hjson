@@ -1,3 +1,4 @@
+AnglerFlash.DisplayName: Angler Flash
 AstralMeteorProj.DisplayName: Astral Meteor
 BelchingCoralSpike.DisplayName: Spike
 CarrionPus.DisplayName: Carrion Pus
@@ -17,6 +18,7 @@ FlameBurstHostile.DisplayName: Burst
 GammaAcid.DisplayName: Acid
 GammaBeam.DisplayName: Gamma Ray
 GammaRayBurst.DisplayName: G-FUEL BEAM
+GhostBellShock.DisplayName: Electrical Field
 HorsPoisonBlast.DisplayName: Poisonous Spit
 HorsWaterBlast.DisplayName: Water
 IceClasperEnemyProjectile.DisplayName: Ice Shard

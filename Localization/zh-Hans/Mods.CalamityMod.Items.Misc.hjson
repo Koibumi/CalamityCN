@@ -48,8 +48,8 @@ BabyGhostBellRadiantItem: {
 	Tooltip: ""
 }
 
-BabyGhostBellRedItem: {
-	DisplayName: Red Baby Ghost Bell
+BabyGhostBellPinkItem: {
+	DisplayName: Pink Baby Ghost Bell
 	Tooltip: ""
 }
 
@@ -165,6 +165,11 @@ ProbesnoutItem: {
 
 RepairUnitItem: {
 	DisplayName: "{$NPCs.RepairUnitCritter.DisplayName}"
+	Tooltip: ""
+}
+
+SeaFloatyItem: {
+	DisplayName: "{$NPCs.SeaFloaty.DisplayName}"
 	Tooltip: ""
 }
 
