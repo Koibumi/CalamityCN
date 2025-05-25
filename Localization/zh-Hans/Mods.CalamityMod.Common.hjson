@@ -11,6 +11,9 @@ NotConsumable: 不消耗
 RogueDamage: 增加{0}%盗贼伤害
 RogueCrit: 增加{0}%盗贼暴击率
 RogueVelocity: 增加{0}%盗贼弹幕速度
+SummonTagDamageFlat: "{0}召唤标记伤害"
+SummonTagDamageMult: "{0}倍召唤标记伤害"
+SummonTagCrit: "{0}%召唤标记暴击率"
 DodgeInformation:
 	'''
 	低于最大生命值5%伤害的攻击不会触发闪避

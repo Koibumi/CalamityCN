@@ -1013,7 +1013,7 @@ InterstellarStompers: {
 		'''
 		6% increased movement speed, 20% increased jump speed, and negates fall damage
 		Hold DOWN to increase your maximum fall speed
-		Hold [KEY] for 0.5 seconds while midair to charge up a superspeed slam
+		Pressing [KEY] while midair charges up a superspeed slam over 0.33 seconds
 		While falling, you ram through enemies and don't take contact damage
 		Once you hit the ground, you create an explosion at your feet 
 		The explosion scales in both damage and size the longer you slam for
@@ -1116,10 +1116,12 @@ ManaPolarizer: {
 	DisplayName: Mana Polarizer
 	Tooltip:
 		'''
-		Increases max mana by 50 and magic damage by 6%
-		-1.5 HP/s life regen if mana is above 50% of its maximum
+		Increases max mana by 50
+		Provides life regeneration and magic damage that scales based on how much mana you have
+		Lower mana means more life regeneration, but less magic damage
+		These scale from -2 to 2 HP/sec, and 5% to 15% damage
+		The provided regeneration is halved when under Mana Sickness
 		Magic projectiles steal enemy life while holding a magic weapon
-		The more mana you have, the more you heal
 		'''
 }
 

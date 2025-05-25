@@ -4329,3 +4329,8 @@ EutrophicGlassWall: {
 	DisplayName: Eutrophic Glass Wall
 	Tooltip: ""
 }
+
+Dreadstone: {
+	DisplayName: Dreadstone
+	Tooltip: ""
+}

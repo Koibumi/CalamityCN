@@ -83,11 +83,6 @@ PearlpodItem: {
 	Tooltip: ""
 }
 
-PearlpodGoldItem: {
-	DisplayName: "{$NPCs.PearlpodGold.DisplayName}"
-	Tooltip: ""
-}
-
 PearlpodPinkItem: {
 	DisplayName: Pink Pearlpod
 	Tooltip: ""
