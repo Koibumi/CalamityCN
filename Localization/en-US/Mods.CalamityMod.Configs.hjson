@@ -322,10 +322,10 @@ CalamityClientConfig: {
 		Label: "[i:TrifoldMap] Enable Stutter Fix"
 		Tooltip:
 			'''
-			         When enabled, upon entering a world, the entire world will be loaded at once.
-			         This config causes Terraria to stop responding while the world is being loaded, do NOT close the game while this is occurring.
-			         Once the game starts responding again, you will enter the world and be able to play without random stutters.
-			         This config option is only recommended for players who can't stand random stutters while playing.
+			When enabled, upon entering a world, the entire world will be loaded at once.
+			This config causes Terraria to stop responding while the world is being loaded, do NOT close the game while this is occurring.
+			Once the game starts responding again, you will enter the world and be able to play without random stutters.
+			This config option is only recommended for players who can't stand random stutters while playing.
 			'''
 	}
 
@@ -351,9 +351,18 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/SeaRemains] Sunken Sea Background Distortion"
 		Tooltip:
 			'''
-			Whether or not the Sunken Sea's custom backgrounds should have an additional distortion shader applied to them to give the
-			illusion of underwater distortion.         
-			[c/FF232C:Note that this will ONLY work if your "Wave Quality" setting is turned off.] 
+			Whether or not the Sunken Sea's custom backgrounds should have an additional distortion shader applied to them.
+			This will give the illusion of underwater distortion.
+			[c/FF232C:Note that this will ONLY work if your "Wave Quality" setting is turned off.]
+			'''
+	}
+
+	TextEffects: {
+		Label: "[i:LeinforsAccessory] Extra Text Effects"
+		Tooltip:
+			'''
+			When enabled, certain Calamity rarities will display extra visual effects within item names.
+			Disable if reduced visual clutter is desired.
 			'''
 	}
 

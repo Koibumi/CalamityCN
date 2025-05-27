@@ -106,7 +106,7 @@ AmbrosialAmpoule: {
 	Tooltip:
 		'''
 		+50 max life
-		Grants +2 to +5 HP/s life regen based on missing health
+		Grants +2 to +6 HP/s life regen based on missing health
 		Standing still grants +1.5 HP/s life regen and +1 HP/s life regen when inflicted with a damage debuff
 		Current boost: +[REGEN] HP/s
 		Fire and sickness debuff durations are halved
@@ -1417,7 +1417,7 @@ Radiance: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/CDF69C:Grants +2 to +5 HP/s life regen based on missing health]
+		[c/CDF69C:Grants +2 to +6 HP/s life regen based on missing health]
 		[c/CDF69C:Recover an additional 6 HP/s while inflicted with a debuff]
 		[c/CDF69C:This eventually slows to 1.33 HP/s when debuffed for an extended time period]
 		[c/CDF69C:Standing still provides +2 HP/s life regen and faster natural regen recovery]

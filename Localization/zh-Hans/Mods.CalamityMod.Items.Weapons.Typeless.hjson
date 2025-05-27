@@ -69,15 +69,3 @@ StarStruckWater: {
 	DisplayName: 星水
 	Tooltip: 向一些物块蔓延星辉瘟疫
 }
-
-YanmeisKnife: {
-	DisplayName: Yanmei的刀
-	Tooltip:
-		'''
-		命中敌人，让他们残废
-		还会提升你{0}%移动速度和伤害，持续{1}秒
-		“一把来自未知世界的刀
-		拥有一个内心纯洁的主人
-		荣誉相随的钢铁雄心”
-		'''
-}

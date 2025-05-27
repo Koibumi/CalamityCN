@@ -352,8 +352,18 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/SeaRemains] 沉沦之海背景畸变"
 		Tooltip:
 			'''
-			为沉沦之海的独特背景添加额外的畸变着色器，模拟水下的畸变效果。    
+			为沉沦之海的独特背景添加额外的畸变着色器.
+			畸变着色器模拟水下的畸变效果。    
 			[c/FF232C:注意：只有将“图像 - 水波质量”设置为关时才会生效。] 
+			'''
+	}
+
+	TextEffects: {
+		Label: "[i:LeinforsAccessory] 额外文本特效"
+		Tooltip:
+			'''
+			当启用时，某些灾厄稀有度的物品名称将会有额外视觉特效。
+			如果不希望视觉效果过于杂乱，请禁用此项。
 			'''
 	}
 
@@ -389,6 +399,15 @@ CalamityClientConfig: {
 	SunkenSeaMultiThreading: {
 		Label: 沉沦之海多线程优化
 		Tooltip: ""
+	}
+
+	TextEffects: {
+		// Label: "[i:LeinforsAccessory] Extra Text Effects"
+		/* Tooltip:
+			'''
+			When enabled, certain Calamity rarities will display extra visual effects within item names.
+			Disable if reduced visual clutter is desired.
+			''' */
 	}
 }
 

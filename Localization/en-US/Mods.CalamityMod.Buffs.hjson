@@ -814,11 +814,6 @@ IceShieldBuff: {
 	Description: Absorbs {0}% damage from the next hit you take, then shatters
 }
 
-KamiBuff: {
-	DisplayName: Kami Injection
-	Description: "{0}% increased max movement speed, acceleration and damage"
-}
-
 Mushy: {
 	DisplayName: Mushy
 	Description: Increased defense by {0} and life regen by {1} HP/s
@@ -1025,11 +1020,6 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: Irradiated
 	Description: Your skin is burning off
-}
-
-KamiFlu: {
-	DisplayName: Kami Flu
-	Description: Defenseless and dying
 }
 
 MarkedforDeath: {

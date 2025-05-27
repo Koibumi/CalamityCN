@@ -398,15 +398,6 @@ DeepcoreGK2: {
 		'''
 }
 
-DodusHandcannon: {
-	DisplayName: Dodu的手炮
-	Tooltip:
-		'''
-		发射高爆花生壳，字面意义的花生壳
-		“坚果之力被你握在手中”
-		'''
-}
-
 DragonsBreath: {
 	DisplayName: 巨龙之息
 	Tooltip:
