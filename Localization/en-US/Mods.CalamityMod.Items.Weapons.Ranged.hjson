@@ -183,7 +183,7 @@ BloodBoiler: {
 		'''
 		Fires twin streams of life stealing bloodfire that returns to you
 		Uses your health as ammo
-		40% chance to save health
+		60% chance to save health
 		'''
 }
 
@@ -397,15 +397,6 @@ Disseminator: {
 		Fires a tight spread of bullets that call a great number of bullets from the sky
 		50% chance to save ammo
 		[c/768EE6:@everyone]
-		'''
-}
-
-DodusHandcannon: {
-	DisplayName: Dodu's Handcannon
-	Tooltip:
-		'''
-		Fires high explosive peanut shells, literally
-		'The power of the nut rests in your hands'
 		'''
 }
 

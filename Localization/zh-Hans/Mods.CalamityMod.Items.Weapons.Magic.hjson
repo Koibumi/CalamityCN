@@ -224,11 +224,6 @@ DeathValleyDuster: {
 	Tooltip: 丢出一团巨大的粉尘
 }
 
-DivineRetribution: {
-	DisplayName: 神圣天罚
-	Tooltip: 法师才是盗贼大师，看，我们终于有了个捐赠武器来证明这一点！
-}
-
 Downpour: {
 	DisplayName: 水灌
 	Tooltip:

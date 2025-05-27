@@ -763,11 +763,6 @@ IceShieldBuff: {
 	Description: 吸收下次攻击伤害的20%，随后破碎
 }
 
-KamiBuff: {
-	DisplayName: Kami之佑
-	Description: 最大移动速度、加速度和伤害增加15%
-}
-
 Mushy: {
 	DisplayName: 与菇共生
 	Description: 增加6点防御和+1HP/s生命再生
@@ -945,11 +940,6 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: 辐射
 	Description: 你的皮肤正被侵蚀
-}
-
-KamiFlu: {
-	DisplayName: Kami之疫
-	Description: 手无寸铁，奄奄一息
 }
 
 MarkedforDeath: {
