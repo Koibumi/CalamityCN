@@ -20,8 +20,10 @@ using CalamityMod.Items.Placeables.Walls;
 using CalamityMod.Items.Placeables.FurnitureWulfrum;
 using CalamityMod.Items.Weapons.Summon;
 using CalamityCN.Utils;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using Terraria.Localization;
+using CalamityMod.Items.Accessories;
 
 namespace CalamityCN.Translations
 {
@@ -593,6 +595,13 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText("Reelback Velocity", "回收速度");
                     tooltips.ReplaceText("Pull Velocity", "牵引速度");
                 }
+
+                if (item.type == ModContent.ItemType<TheCommunity>())
+                {
+                    var ThankYouTooltip = tooltips.FirstOrDefault(x => x.Name == "Tooltip3" && x.Mod == "Terraria");
+                    if (ThankYouTooltip != null)
+                        ThankYouTooltip.OverrideColor = Main.DiscoColor;
+                    }
                 #endregion
 
                 #region 盔甲
