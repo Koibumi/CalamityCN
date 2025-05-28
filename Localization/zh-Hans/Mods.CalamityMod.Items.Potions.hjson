@@ -56,15 +56,6 @@ DeliciousMeat: {
 		'''
 }
 
-Fabsoup: {
-	DisplayName: 山猪胡辣汤
-	Tooltip:
-		'''
-		{$CommonItemTooltip.MajorStats}
-		'嗝~，汤'
-		'''
-}
-
 FlaskOfBrimstone: {
 	DisplayName: 硫火瓶
 	Tooltip: 近战、鞭子和盗贼攻击会造成硫磺火减益
@@ -92,6 +83,15 @@ HadalStew: {
 		只造成[S]秒药水疾病
 		{$CommonItemTooltip.MediumStats}
 		{$CommonItemTooltip.MinuteDuration}
+		'''
+}
+
+LavaChickenBroth: {
+	DisplayName: Lava Chicken Broth
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MajorStats}
+		'It's tasty as hell'
 		'''
 }
 
@@ -227,17 +227,6 @@ EvergreenGin: {
 		'''
 }
 
-FabsolsVodka: {
-	DisplayName: Fabsol伏特加
-	Tooltip:
-		'''
-		增加8%伤害，但降低5%防御
-		延长受伤后无敌时间
-		饮用三种以上的酒或许对你的肝脏不太好
-		这种神奇的酒深受口味高雅人士的喜爱
-		'''
-}
-
 Fireball: {
 	DisplayName: 火龙酒
 	Tooltip:
@@ -312,6 +301,16 @@ OldFashioned: {
 		'''
 		所有饰品与套装奖励的伤害增加至1.5倍
 		所有伤害降低25%
+		饮用三种以上的酒或许对你的肝脏不太好
+		'''
+}
+
+PurpleHaze: {
+	DisplayName: Purple Haze
+	Tooltip:
+		'''
+		增加8%伤害，但降低5%防御
+		延长受伤后无敌时间
 		饮用三种以上的酒或许对你的肝脏不太好
 		'''
 }

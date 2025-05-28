@@ -1809,7 +1809,7 @@ TheCommunity: {
 		'''
 		[STATS]
 		'The heart of (most of) the Terraria community'
-		[c/B00BA5:Thank you to all of my supporters who made this mod a reality!]
+		Thank you to all of our supporters who made this mod a reality!
 		'''
 	StatsList:
 		'''
@@ -2019,11 +2019,6 @@ AbandonedWulfrumHelmet: {
 		[c/83B87E:'This rather flimsy armor was commonly worn by scavengers and looters.]
 		[c/83B87E:Its versatility and common nature led it to be used as currency in trades.']
 		'''
-}
-
-CrystalHeartVodka: {
-	DisplayName: Crystal Heart Vodka
-	Tooltip: "'Tastes like strawberry cream liqueur (and estrogen)'"
 }
 
 HapuFruit: {

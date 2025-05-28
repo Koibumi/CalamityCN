@@ -274,9 +274,9 @@ BrimstoneHeart.DisplayName: 硫磺火心
 SepulcherHead.DisplayName: 灾坟魔物
 SoulSeekerSupreme.DisplayName: 至尊探魂者
 SupremeCalamitas.DisplayName: 至尊女巫，灾厄
-SupremeCirrus: 至尊炼金术士，大山猪
 SupremeCataclysm.DisplayName: 至尊灾祸
 SupremeCatastrophe.DisplayName: 至尊灾难
+SupremePermafrost: Supreme Ultramage, Permafrost
 Yharon.DisplayName: 重生之龙，犽戎
 YharonPhase2: 璀璨华焰，犽戎
 // Town NPCs, Pets, etc
@@ -321,101 +321,6 @@ DILF: {
 	}
 }
 
-FAP: {
-	DisplayName: 醉仙女
-	Census.SpawnCondition: 困难模式下，玩家的物品栏中有{$Mods.CalamityMod.Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka]
-	Name.Cirrus: Cirrus
-
-	Chat: {
-		BossAlive: 你为什么在跟我说话？你难道不应该到处瞎折腾，然后成为我的娱乐而惨死吗？
-		Homeless1: 我在几英里外闻到我的伏特加味！
-		Homeless2: 有空房吗？最好是点着蜡烛有很多很多酒的。
-		BloodMoon1: 嘿！晚安。我要做一些血腥玛丽，加芹菜的。要来一杯吗？
-		BloodMoon2: 如果你无法顺利炼药，试试血珠。血液就是药材，笨蛋。
-		BloodMoon3: 今晚我会尽量控制自己不发脾气，但其他人都不闭嘴的话，恐怕很难办到。
-		BloodMoonSlap: 对不起，现在的我没有道德底线。
-		Normal1: 我讨厌沃尔玛！……先不说这个，这次你想要什么？
-		Normal2: 喝一点可以让你变成神奇的飞行独角兽的东西，你就可以变得跟我一样了。
-		Normal3: 交易这么好，我会[$$!$]我自己！……抱歉，我只是中风了！
-		Normal4: 有人告诉过你有钱会引起痛苦吗？嗯，他们是对的。
-		Archmage: "{0}可以随时和我一起喝一杯！……也许不行，我不确定他那颗沧桑的心能否承受。"
-		BrimstoneWitch: "{0}经历了我难以想象的苦难。我想要给她一杯酒，但我想她可能不会喜欢。"
-		Tavernkeep1: 我的酒可比{0}的好多了，关于这个事实没人说服得了我。
-		Tavernkeep2: 告诉{0}别再找我了，他不合我的口味
-		Tavernkeep3: 我不得不多次告诉那个秃头我的眼睛在哪儿，我都数不清我说了多少次了。
-		Stylist1: 自从{0}搬进来后，我就没有以前喝的那么多了……这种感觉很奇怪，但是我并不反感。
-		Stylist2: 你不能阻止我和{0}同居。
-		Stylist3: 我非常享受{0}的手沾上了那些黏黏的浓稠的……发蜡的样子。
-		Day1: 我现在简直是喝得烂醉如泥，你想要什么？
-		Day2: 我要么是因为喝醉了大笑，要么是因为我疯了，又也许两者都有。
-		Day3: 当我喝醉的时候，我会更快乐…至少是话痨开始在我耳边嗡嗡叫之前。
-		Day4: 我应该在喝醉的时候重新编程整个游戏，然后把它送回测试人员那里。
-		DayStylist1: "{0}帮助我学会了接受我的过去。虽然这个过程坎坷，但我想我正走在正确的道路上。"
-		DayStylist2: 以后可以和{0}出去慢跑了。那会是美好的一天。
-		DayDrunk1: 我喝酒是为了忘记一些事情……你可能会问“什么事情啊”，但重点是忘记它们，忘记，懂吗？
-		DayDrunk2: 多么美好的一天，可能我喝得太多了，我又中毒了。
-		Night1: 一个完美的夜晚，就要点一些蜡烛，喝一点酒，尽情放松。
-		Night2: 来点挑战……每次你不得不看wiki的时候就扎自己一针。哦等等，这样你会死的。
-		Night3: 是的，所有人都知道机械蠕虫是神经病。好吧，现在不是了，但不完全不是。
-		Night4: 你是打输了还是怎么了？我不介意有人陪着，但我更愿意晚上一个人待着。
-		Night5: 你确定你21岁了？……好吧，好吧，但别告诉任何人我卖给你这个。
-		NightStylist: 今晚我应该会和{0}看电影。你也可以来，前提是你得给我们带点零食。
-		Party: 你总是会在涉及到喝酒的聚会上找到我……嗯，你也总是会在我参加聚会的地方找到酒精！
-		AcidRain: 我要融化了！在它毁掉我的头发之前，赶紧停止这种恶劣的天气！
-		Martians: 也许你应该先搞定那些外星人再考虑其他的，无论如何。
-		CryogenDefeated: 天哪，我等不及要搞点冰了！……当然，是为了饮料。
-		LeviathanDefeated: 你怎么忍心杀害这么漂亮的生物？……是性感的蓝色的那个，而不是那个肥胖的黄瓜。
-		MoonLordDefeated: 为什么一个生物需要那么多触手……事实上，不要回答这个问题。
-		PolterghastDefeated: 有一次我在家乡的旧铁轨上看到一个鬼魂疯狂地拍打着睡莲的叶子...那真是一个可怕的回忆。
-		DoGDefeated: I hear it's amazing when the famous Devourer of Gods out in flap-jaw space, with the tuning fork, does a raw blink on Hara-kiri rock. I need scissors! 61!（这是个梗）
-		HasChibii: 这是什么鬼东西？看上去像我5岁的时候玩的玩具。
-		HasAnahitaTrans: 这鳞片真好看……这房间里很热吗？还是说只有我这样觉得？
-		HasVodka: 哦，是的，现在你喝的是好东西！你喜欢吗？我把仙尘、水晶和其他魔法物质混合在一起创造了这个配方。
-		HasAlicorn1: 所以说……你找到了我特别的瓶子。希望你能喜欢它，反正我挺享受的。
-		HasAlicorn2: 我累的时候你一定要让我身上下来让我休息会。而且，如果你一直骑着我的话我会宰了你-我的意思是那样的话我就不给你提供其他地方找不到的好交易了。
-		HasAlicorn3: 在你提问之前，不，我人类形态的屁股上没有爱心。不要质疑我的嗜好！
-	}
-
-	// Death Count stuffs
-	DeathCountButton: 死亡计数及捐赠者名单
-	DeathCount: 你已经死亡了{0}次。
-	Death10000: 恭喜！你现在正式成为泰拉瑞亚历史上最大的loser！谁是第二？鬼才知道。
-	Death5000: 我不知道这次我该说什么了。你很糟糕，并且应该感觉到自己很糟糕？然而这已经是众所周知的事情了。
-	Death2500: 祝福你。即使我喝高了，我也躲的比你好。
-	Death1000: 据说泰拉人的平均寿命大约是两分钟，或者更少。……嗯，可能不准确，但我感觉你是那部分人。
-	Death500: 你甚至无法规避最基本的攻击。这让我很震惊。
-	Death250: 我敬佩你不屈不挠的精神。坚持下去，你的敌人正在绞尽脑汁地想怎么对付你！
-	Death100: 考虑降低难度吧。如果这句话让你感到恼火，那太好了。
-	DonorShoutout: 嘿！ {0}， {1}， {2}, {3}， {4}， {5}， {6}， {7}， {8}， {9}， {10}， {11}， {12}， {13}， {14}， {15}， {16}， {17}， {18}， {19}， {20}， {21}， {22}， {23} 还有 {24}！ 你们真的都很棒！
-
-	TownNPCMood: {
-		Content: 总有一个地方是五点钟。
-		NoHome: 我需要一个地方休息！我的饮品也需要冰镇服务！
-		LoveSpace: 终于有了片刻宁静，人太多会惹毛我。
-		FarFromHome: 我虽然习惯了离家出走，但这还是有点离谱。
-		DislikeCrowded: 如果再有人说'现在是特价时间'以此想要打折，我就打折他！
-		HateCrowded: 再多的酒精也无法淹没这些人的噪音！
-		LoveBiome: 另一种独角兽？没想到我会看到这一天！这个地方太棒了！
-		LikeBiome: 一阵清风可以让头脑清醒一下，对于喝多的顾客就这么处理！
-		DislikeBiome: 这种干燥的空气和高温对我的头发和饮料都不好。
-		HateBiome: 你指望我能用魔法友谊彩虹来收拾这烂摊子吗？它不是拿来干这个的，傻X！赶紧把我带出去！
-		LoveNPC_Stylist: "{NPCName} 护理我的头发很有一手…除此之外，呵呵。"
-		LoveNPC_BestiaryGirl: "{NPCName} 是多么毛茸茸，她还说我的独角形状'非常棒'。"
-		LikeNPC_Truffle: "{NPCName} 让我好饿……我想知道他会给我多棒的幻觉……"
-		LikeNPC_PartyGirl: "{NPCName} 总有一天会成为很棒的酒保。她真的很会活跃气氛！"
-		DislikeNPC_DD2Bartender: "{NPCName} 太秃了。"
-		DislikeNPC_TaxCollector: "{NPCName} 最好远离我……他应该不希望某天早上醒来发现信箱里有个雷管。"
-		HateNPC_GoblinTinkerer: "{NPCName} 太糟糕了，我不得不强迫他改进重铸系统。你为什么让我住在他旁边？难道你喜欢看我重温他给我的压力吗？"
-		HateNPC_Angler: "{NPCName} 总是喋喋不休地谈论他那无聊的钓鱼任务。在我把他踩在地上之前给我把他弄走！"
-		LikeNPC_Princess: 你以为我会不喜欢 {NPCName} 只因我们太不同了？恰恰相反, 我们谈论的话题很多，当然不包含酒精的饮料。
-		Princess_LovesNPC: "{NPCName}会讲非常有趣的故事，我已经从她身上学到了很多！"
-		HateNPC: 我讨厌 {NPCName}。
-		DislikeNPC: 我不喜欢 {NPCName}。
-		LikeNPC: 我喜欢{NPCName}。
-		LoveNPC: 我爱{NPCName}。
-	}
-}
-
 SEAHOE: {
 	DisplayName: 海王
 	Census.SpawnCondition: 在击败荒漠灾虫后杀死巨像蛤
@@ -434,7 +339,6 @@ SEAHOE: {
 		Angler1: 今晚在{0}的房子见我。我们一起去把他丢去喂捣鱼。
 		Angler2: 我不确定{0}在硫酸海中徘徊了这么久现在有没有被烤熟和消化。或许只剩头了。
 		BrimstoneWitch: 我承认，至尊女巫的存在让我很不安。但已经过去这么多年了，况且她也遭受了很多苦难。
-		DrunkPrincess: 传言{0}为了忘记她过去的烦恼而喝酒。
 		PartyGirl: "{0}问我的鼻子是否可以当呜呜祖拉。什么是呜呜祖拉？"
 		BloodMoon1: 自古以来，人们就说神明会导致天文事件的发生。那么是哪一个导致了这次事件的发生呢？
 		BloodMoon2: 我从不喜欢这些夜晚。这太暴力了。
@@ -541,7 +445,6 @@ THIEF: {
 		Night1: 呃，今晚的星星太亮了，这让偷偷摸摸变得更加困难。
 		Night2: 你觉得时不时从天上掉下来的那些落星会不会是很好的投掷武器？
 		BrimstoneWitch: 嘿，嘿，灾厄真的搬进来和我们一起住了吗？为什么？为什么？？？
-		DrunkPrincess: 我从不敢偷{0}的饮料。她不是很喜欢我，好了，我得继续回去躲着了。
 		Merchant: 别告诉{0}我把他的一些货物换成天使雕像了。
 		NurseArmsDealer: 别告诉{0}其实{0}身上那么多伤口我也有责任。
 		NamedLaura: 别告诉[护士的名字]其实[军火商的名字]身上那么多伤口我也有责任。
@@ -600,12 +503,13 @@ WITCH: {
 		BloodMoon2: 我无法在这样的夜晚工作。星星似乎都因为恐惧而缩小了。
 		Night1: 那些亡灵生物太可怕了，我简直无法直视它们。为什么会有人对这样的兼职感到满意呢？
 		Night2: 我一点儿也不觉得说占星术是无稽之谈是夸大其词……但我曾经是一个占星爱好者。
-		DrunkPrincess: 考虑到{0}的衣着如此暴露，我想知道，她是否觉得冷过。也许她应该多穿一点。
 		SeaKing: 我无法理解海王。他似乎并不希望让我死。我无法理解他对我有如此深的同情。
 		Party: 如果有人来邀我共舞一曲，我会点燃他们的帽子。
 	}
 
 	EnchantButton: 咒术炼注
+	DonorButton: 捐赠者名单
+	DonorShoutout: 嘿！ {0}， {1}， {2}, {3}， {4}， {5}， {6}， {7}， {8}， {9}， {10}， {11}， {12}， {13}， {14}， {15}， {16}， {17}， {18}， {19}， {20}， {21}， {22}， {23} 还有 {24}！ 你们真的都很棒！
 
 	TownNPCMood: {
 		Content: 我真的没什么可抱怨的。
