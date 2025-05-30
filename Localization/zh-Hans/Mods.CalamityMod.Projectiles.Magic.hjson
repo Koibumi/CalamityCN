@@ -71,8 +71,6 @@ EventHorizonStar.DisplayName: 事件视界行星
 EvergladeSprayProjectile.DisplayName: 常青之气
 ExoVortex.DisplayName: 归元旋涡
 ExoVortex2.DisplayName: 归元旋涡
-FabBolt.DisplayName: 原体斑
-FabRay.DisplayName: 原体射线
 FatesRevealFlame.DisplayName: 幽灵魂火
 FlamingPumpkin.DisplayName: 南瓜
 FlareBoltProjectile.DisplayName: 耀斑
@@ -220,6 +218,8 @@ StardustElementalBeam.DisplayName: 星尘光束
 StickyFeather.DisplayName: 粘性羽毛
 SupremeDustFlakProjectile.DisplayName: 至尊之尘
 SupremeDustProjectile.DisplayName: 至尊之尘
+SylvBolt.DisplayName: Sylv Bolt
+SylvRay.DisplayName: Sylv Ray
 TacticiansElectricBoom.DisplayName: 电流爆裂
 TacticiansTrumpCardProj.DisplayName: 王牌光束
 TearsofHeavenProjectile.DisplayName: 天堂之泪

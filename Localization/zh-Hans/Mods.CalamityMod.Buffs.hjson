@@ -168,6 +168,11 @@ GodSlayerInferno: {
 	Description: 你的血肉在燃烧
 }
 
+HeavyBleeding: {
+	DisplayName: Heavy Bleeding
+	Description: 你需要缝针
+}
+
 HolyFlames: {
 	DisplayName: 神圣之火
 	Description: 神圣之光将你焚化
@@ -176,6 +181,11 @@ HolyFlames: {
 HolyInferno: {
 	DisplayName: 圣狱神火
 	Description: 你离亵渎天神太远了！
+}
+
+Laceration: {
+	DisplayName: Laceration
+	Description: 你血流如注
 }
 
 ManaBurn: {

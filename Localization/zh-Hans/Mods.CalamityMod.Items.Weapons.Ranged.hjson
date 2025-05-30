@@ -211,12 +211,14 @@ BulletFilledShotgun: {
 		'''
 }
 
-Butcher: {
-	DisplayName: 屠夫
+Buzzkill: {
+	DisplayName: Buzzkill
 	Tooltip:
 		'''
-		使用时间越长，发射速度和精确度越高
-		25%几率节省弹药
+		<left>加速旋转一把造成近程伤害的圆锯
+		释放左键会发射圆锯，可以在物块上反弹并撕裂敌人
+		加速圆锯会增加它们的伤害并允许它们穿透更多的敌怪
+		'Not to be confused with the Sawed-On Shotgun'
 		'''
 }
 
@@ -421,15 +423,6 @@ Drataliornus: {
 		火球激流发动时，如果受到伤害，攻击会被打断，同时降低飞行时间
 		右键点击发射两团毁灭性的强大火球
 		“区区之事，无伤尔”
-		'''
-}
-
-ElementalBlaster: {
-	DisplayName: 元素冲击波
-	Tooltip:
-		'''
-		发射彩虹风暴
-		不消耗弹药
 		'''
 }
 
@@ -1151,9 +1144,10 @@ SpeedBlaster: {
 	Tooltip:
 		'''
 		快速发射磷光彩弹
-		按下右键发射一束强力彩弹，在移动时使用会推动你冲刺
-		这个技能有{0}秒冷却时间
-		冷却期间，你可以更快、更精准地射击
+		按下右键发射一束强力彩弹
+		使用此能力会快速将你推向你移动的方向
+		此能力有{0}秒的冷却
+		在冷却期间你的发射速度更快，精度更高
 		'''
 }
 
@@ -1218,6 +1212,31 @@ StormSurge: {
 SulphuricAcidCannon: {
 	DisplayName: 硫酸炮
 	Tooltip: 发射一个能黏在敌人身上的硫酸弹幕并溶解它们
+}
+
+SuperradiantSlaughterer: {
+	DisplayName: Superradiant Slaughterer
+	Tooltip:
+		'''
+		[MAIN]
+		[ALT]
+		[c/ad1717:'No one knows how it turns blood into rainbows...']
+		'''
+	MainInfo:
+		'''
+		<left>加速旋转一把造成近程伤害的元素圆锯
+		释放左键会发射圆锯，可以穿透和撕裂敌人
+		发射的圆锯可以在物块上反弹并在停止时返回玩家
+		返回时，圆锯会根据命中敌怪和反弹物块的次数额外释放追踪矢
+		加速圆锯会增加它们的伤害并允许它们穿透更多的敌怪
+		'''
+	AltInfo:
+		'''
+		<right>向光标处发射一个滞留的圆锯，圆锯会发射追踪矢
+		使用此能力会快速将你推向正在移动的方向
+		此能力有{0}秒冷却
+		冷却期间，圆锯会在返回时追踪光标并持续释放追踪矢
+		'''
 }
 
 SurgeDriver: {

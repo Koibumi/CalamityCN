@@ -10,15 +10,15 @@ AureateBooster: {
 		'''
 }
 
-DrewsWings: {
-	DisplayName: Drew之翼
+WingsofRebirth: {
+	DisplayName: Wings of Rebirth
 	Tooltip:
 		'''
 		水平飞行速度：11.50
 		加速倍率：2.9
 		绝佳的垂直飞行速度
-		飞行时间：361
-		“精妙绝伦”
+		飞行时间：360
+		'Resplendent to the very end'
 		'''
 }
 
