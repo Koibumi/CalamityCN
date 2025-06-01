@@ -87,11 +87,11 @@ HadalStew: {
 }
 
 LavaChickenBroth: {
-	DisplayName: Lava Chicken Broth
+	DisplayName: 熔岩鸡肉煲
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MajorStats}
-		'It's tasty as hell'
+		“真是好吃得要命”
 		'''
 }
 
@@ -306,7 +306,7 @@ OldFashioned: {
 }
 
 PurpleHaze: {
-	DisplayName: Purple Haze
+	DisplayName: 紫色阴霾
 	Tooltip:
 		'''
 		增加8%伤害，但降低5%防御

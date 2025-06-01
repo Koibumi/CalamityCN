@@ -757,7 +757,7 @@ SubsumingVortex: {
 }
 
 Sylvestaff: {
-	DisplayName: Sylvestaff
+	DisplayName: 仙子伊布法杖
 	Tooltip:
 		'''
 		发射一道在接近敌人时会自动分裂的弹射光束

@@ -169,7 +169,7 @@ GodSlayerInferno: {
 }
 
 HeavyBleeding: {
-	DisplayName: Heavy Bleeding
+	DisplayName: 重度出血
 	Description: 你需要缝针
 }
 
@@ -184,7 +184,7 @@ HolyInferno: {
 }
 
 Laceration: {
-	DisplayName: Laceration
+	DisplayName: 血管爆裂
 	Description: 你血流如注
 }
 
