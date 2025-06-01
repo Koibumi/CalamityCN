@@ -28,7 +28,7 @@ Mods: {
 
 			AcidRainTier1MusicBox: {
 				DisplayName: 音乐盒（酸性暴雨）
-				Tooltip: 
+				Tooltip:
 					'''
 					Plays 'corrosion!' by RoverdriveX
 					This music box contains a placeholder song
@@ -37,7 +37,7 @@ Mods: {
 
 			AcidRainTier3MusicBox: {
 				DisplayName: 音乐盒（硫酸季风）
-				Tooltip: 
+				Tooltip:
 					'''
 					Plays 'nuclear monsoon' by PinpinNeon
 					This music box contains a placeholder song
@@ -191,7 +191,7 @@ Mods: {
 
 			ExoMechsMusicBox: {
 				DisplayName: 音乐盒（星流巨械）
-				Tooltip: 
+				Tooltip:
 					'''
 					Plays 'Inferior Fabrications' by PinpinNeon
 					This music box contains a placeholder song
