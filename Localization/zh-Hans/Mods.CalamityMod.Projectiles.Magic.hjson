@@ -56,7 +56,6 @@ CryoBlast.DisplayName: 霜寒爆裂
 DarkSparkBeam.DisplayName: 寂虚之光
 DarkSparkPrism.DisplayName: 寂虚之光
 DeathhailBeam.DisplayName: 死亡冰雹
-DivineRetributionSpear.DisplayName: 神罚
 DustProjectile.DisplayName: 死亡之尘
 EelDrop.DisplayName: 酸鳗液滴
 EidolicWailSoundwave.DisplayName: 哀怨之声
@@ -72,8 +71,6 @@ EventHorizonStar.DisplayName: 事件视界行星
 EvergladeSprayProjectile.DisplayName: 常青之气
 ExoVortex.DisplayName: 归元旋涡
 ExoVortex2.DisplayName: 归元旋涡
-FabBolt.DisplayName: 原体斑
-FabRay.DisplayName: 原体射线
 FatesRevealFlame.DisplayName: 幽灵魂火
 FlamingPumpkin.DisplayName: 南瓜
 FlareBoltProjectile.DisplayName: 耀斑
@@ -221,6 +218,8 @@ StardustElementalBeam.DisplayName: 星尘光束
 StickyFeather.DisplayName: 粘性羽毛
 SupremeDustFlakProjectile.DisplayName: 至尊之尘
 SupremeDustProjectile.DisplayName: 至尊之尘
+SylvBolt.DisplayName: 仙子伊布光束
+SylvRay.DisplayName: 仙子伊布光线
 TacticiansElectricBoom.DisplayName: 电流爆裂
 TacticiansTrumpCardProj.DisplayName: 王牌光束
 TearsofHeavenProjectile.DisplayName: 天堂之泪

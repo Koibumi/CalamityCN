@@ -28,11 +28,6 @@ EvergreenGinBuff: {
 	Description: 疫病和水系减益的伤害增加，但生命再生降低
 }
 
-FabsolVodkaBuff: {
-	DisplayName: Fabsol伏特加
-	Description: 你感受到了一种难以置信的美妙
-}
-
 FireballBuff: {
 	DisplayName: 火龙酒
 	Description: 火系减益的伤害增加，但生命再生降低
@@ -61,6 +56,11 @@ MoscowMuleBuff: {
 OldFashionedBuff: {
 	DisplayName: 古典酒
 	Description: 饰品和套装奖励伤害增加，减少所有伤害
+}
+
+PurpleHazeBuff: {
+	DisplayName: Purple Haze
+	Description: 伤害增加，额外延长无敌帧，但防御力降低
 }
 
 RedWineBuff: {
@@ -168,6 +168,11 @@ GodSlayerInferno: {
 	Description: 你的血肉在燃烧
 }
 
+HeavyBleeding: {
+	DisplayName: 重度出血
+	Description: 你需要缝针
+}
+
 HolyFlames: {
 	DisplayName: 神圣之火
 	Description: 神圣之光将你焚化
@@ -176,6 +181,11 @@ HolyFlames: {
 HolyInferno: {
 	DisplayName: 圣狱神火
 	Description: 你离亵渎天神太远了！
+}
+
+Laceration: {
+	DisplayName: 血管爆裂
+	Description: 你血流如注
 }
 
 ManaBurn: {
@@ -241,11 +251,6 @@ VulnerabilityHex: {
 WeakBrimstoneFlames: {
 	DisplayName: 较弱的硫磺火
 	Description: 使用至尊女巫的能力会使你受苦，但会让你的武器更强大
-}
-
-AlicornBuff: {
-	DisplayName: 彩虹小马
-	Description: 你喝高了还打败了神长直，心朗气清，足以畅叙幽情！
 }
 
 AndromedaBuff: {
@@ -453,29 +458,14 @@ YharonSonBuff: {
 	Description: 你最好别不小心把他的晚餐吃了
 }
 
-ChaosCandleBuff: {
-	DisplayName: 混乱蜡烛
-	Description: 蜡烛周围的刷怪率增加！
-}
-
-CirrusBlueCandleBuff: {
+BlueCandleBuff: {
 	DisplayName: 敏捷
 	Description: 飘浮的火焰振奋着你的灵魂
 }
 
-CirrusPinkCandleBuff: {
-	DisplayName: 活力
-	Description: 耀眼的光芒给你带来了希望
-}
-
-CirrusPurpleCandleBuff: {
-	DisplayName: 执念
-	Description: 暴风骤雨也无法熄灭你不灭的火
-}
-
-CirrusYellowCandleBuff: {
-	DisplayName: 恶毒
-	Description: 那惹人厌的闪烁火光只会激起你的愤怒
+ChaosCandleBuff: {
+	DisplayName: 混乱蜡烛
+	Description: 蜡烛周围的刷怪率增加！
 }
 
 CorruptionEffigyBuff: {
@@ -493,9 +483,24 @@ EffigyOfDecayBuff: {
 	Description: 硫海之水给予你力量
 }
 
+PinkCandleBuff: {
+	DisplayName: 活力
+	Description: 耀眼的光芒给你带来了希望
+}
+
+PurpleCandleBuff: {
+	DisplayName: 执念
+	Description: 暴风骤雨也无法熄灭你不灭的火
+}
+
 TranquilityCandleBuff: {
 	DisplayName: 宁静蜡烛
 	Description: 蜡烛周围的刷怪率降低！
+}
+
+YellowCandleBuff: {
+	DisplayName: 恶毒
+	Description: 那惹人厌的闪烁火光只会激起你的愤怒
 }
 
 PopoBuff: {
@@ -520,7 +525,7 @@ AstralInjectionBuff: {
 
 BaguetteBuff: {
 	DisplayName: 法棍
-	Description: "[c/B00BA5:“如果只有我知道……” ~醉仙女]"
+	Description: 和红酒绝配
 }
 
 BloodfinBoost: {
@@ -763,11 +768,6 @@ IceShieldBuff: {
 	Description: 吸收下次攻击伤害的20%，随后破碎
 }
 
-KamiBuff: {
-	DisplayName: Kami之佑
-	Description: 最大移动速度、加速度和伤害增加15%
-}
-
 Mushy: {
 	DisplayName: 与菇共生
 	Description: 增加6点防御和+1HP/s生命再生
@@ -945,11 +945,6 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: 辐射
 	Description: 你的皮肤正被侵蚀
-}
-
-KamiFlu: {
-	DisplayName: Kami之疫
-	Description: 手无寸铁，奄奄一息
 }
 
 MarkedforDeath: {

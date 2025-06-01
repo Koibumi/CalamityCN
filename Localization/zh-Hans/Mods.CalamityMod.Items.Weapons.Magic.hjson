@@ -224,11 +224,6 @@ DeathValleyDuster: {
 	Tooltip: 丢出一团巨大的粉尘
 }
 
-DivineRetribution: {
-	DisplayName: 神圣天罚
-	Tooltip: 法师才是盗贼大师，看，我们终于有了个捐赠武器来证明这一点！
-}
-
 Downpour: {
 	DisplayName: 水灌
 	Tooltip:
@@ -297,11 +292,6 @@ EventHorizon: {
 EvergladeSpray: {
 	DisplayName: 常青之气
 	Tooltip: 发射使敌人燃烧的绿色灵液
-}
-
-Fabstaff: {
-	DisplayName: 绝学法杖
-	Tooltip: 发射一道在接近敌人时会自动分裂的弹射光束
 }
 
 FaceMelter: {
@@ -763,6 +753,15 @@ SubsumingVortex: {
 		当漩涡的附近有敌人时，漩涡会向敌人发射多个快速移动的小漩涡
 		经过足够时间后松开右键会将大漩涡向光标方向释放
 		伤害随手持漩涡时长的增加而增加
+		'''
+}
+
+Sylvestaff: {
+	DisplayName: 仙子伊布法杖
+	Tooltip:
+		'''
+		发射一道在接近敌人时会自动分裂的弹射光束
+		“又称Karma法杖！”
 		'''
 }
 
