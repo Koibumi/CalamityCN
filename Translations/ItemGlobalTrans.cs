@@ -93,12 +93,6 @@ namespace CalamityCN.Translations
                     tooltips.ReplaceText(" or Revengeance", "或者复仇");
                 }
 
-                 if (item.type == ModContent.ItemType<LiliesOfFinality>())
-                {
-                    tooltips.ReplaceText(" summon damage", "召唤伤害");
-                }
-
-
             //-原版物品-
             if (item.type == 3110 || item.type == 1865 || item.type == 899 || item.type == 900)
                 {
