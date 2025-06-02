@@ -19,9 +19,9 @@ CinnamonRollBuff: {
 	Description: 魔力再生速率和火系减益的伤害增加，但防御力降低
 }
 
-CirrusVodkaBuff: {
-	DisplayName: Fabsol伏特加
-	Description: 你感受到了一种难以置信的美妙
+PurpleHazeBuff: {
+	DisplayName: 紫色阴霾
+	Description: 伤害增加，额外延长无敌帧，但防御力降低
 }
 
 EverclearBuff: {
@@ -182,7 +182,7 @@ GodSlayerInferno: {
 }
 
 HeavyBleeding: {
-	DisplayName: Heavy Bleeding
+	DisplayName: 重度出血
 	Description: 你需要缝针
 }
 
@@ -197,7 +197,7 @@ HolyInferno: {
 }
 
 Laceration: {
-	DisplayName: Laceration
+	DisplayName: 血管爆裂
 	Description: 你血流如注
 }
 
@@ -287,10 +287,6 @@ WeakBrimstoneFlames: {
 }
 
 // Mounts
-AlicornBuff: {
-	DisplayName: 彩虹小马
-	Description: 你喝高了还打败了神长直，心朗气清，足以畅叙幽情！
-}
 
 AndromedaBuff: {
 	DisplayName: 仙女座机甲
@@ -509,22 +505,22 @@ ChaosCandleBuff: {
 	Description: 蜡烛周围的刷怪率增加！
 }
 
-CirrusBlueCandleBuff: {
+BlueCandleBuff: {
 	DisplayName: 敏捷
 	Description: 飘浮的火焰振奋着你的灵魂
 }
 
-CirrusPinkCandleBuff: {
+PinkCandleBuff: {
 	DisplayName: 活力
 	Description: 耀眼的光芒给你带来了希望
 }
 
-CirrusPurpleCandleBuff: {
+PurpleCandleBuff: {
 	DisplayName: 执念
 	Description: 暴风骤雨也无法熄灭你不灭的火
 }
 
-CirrusYellowCandleBuff: {
+YellowCandleBuff: {
 	DisplayName: 恶毒
 	Description: 那惹人厌的闪烁火光只会激起你的愤怒
 }
@@ -562,7 +558,7 @@ AstralInjectionBuff: {
 
 BaguetteBuff: {
 	DisplayName: 法棍
-	Description: "[c/B00BA5:“如果只有我知道……” ~醉仙女]"
+	Description: 和红酒绝配
 }
 
 BloodfinBoost: {
@@ -762,11 +758,6 @@ CosmicFreeze: {
 DivineBless: {
 	DisplayName: 圣天祝福
 	Description: 生命再生增加，仆从攻击会造成放逐之火减益
-}
-
-EmpyreanRage: {
-	DisplayName: 皇天之愤怒
-	Description: 皇天之愤怒
 }
 
 EmpyreanWrath: {

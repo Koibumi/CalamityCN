@@ -13,12 +13,17 @@ Mods: {
 
 			AbyssLayer3MusicBox: {
 				DisplayName: Music Box (Abyss - Layer 3)
-				Tooltip: Plays 'R'LYEH' by RoverdriveX
+				Tooltip: Plays 'hydrothermophobia' by CDMusic
 			}
 
 			AbyssLayer4MusicBox: {
 				DisplayName: Music Box (Abyss - Layer 4)
 				Tooltip: Plays 'void' by DM DOKURO
+			}
+
+			AbyssLegacyMusicBox: {
+				DisplayName: Music Box (Abyss - Legacy)
+				Tooltip: Plays 'R'LYEH' by RoverdriveX
 			}
 
 			AcidRainTier1MusicBox: {
@@ -283,6 +288,11 @@ Mods: {
 				Tooltip: Plays 'caustic tides' by Heart Plus Up!
 			}
 
+			SulphurousSeaRainMusicBox: {
+				DisplayName: Music Box (Sulphurous Sea Rain)
+				Tooltip: Plays 'septication' by Heart Plus Up!
+			}
+
 			SunkenSeaMusicBox: {
 				DisplayName: Music Box (Sunken Sea)
 				Tooltip: Plays 'sanctuary' by DM DOKURO
@@ -309,8 +319,9 @@ Mods: {
 				SongNames: {
 					AbyssLayer1: hesitation
 					AbyssLayer2: Hadopelagic Pressure
-					AbyssLayer3: R'LYEH
+					AbyssLayer3: hydrothermophobia
 					AbyssLayer4: void
+					AbyssLegacy: R'LYEH
 					AcidRainTier1: corrosion!
 					AcidRainTier3: nuclear monsoon
 					Anahita: Siren's War Cry
@@ -361,6 +372,7 @@ Mods: {
 					StormWeaver: Servants of the Scourge (Type W)
 					SulphurousSeaDay: wasteland
 					SulphurousSeaNight: caustic tides
+					SulphurousSeaRain: septication
 					SunkenSea: sanctuary
 					YharonLegacy: Infernal Catharsis
 					YharonPhase1: Infernal Catharsis (Rebirth)

@@ -8,15 +8,6 @@ AureateBooster: {
 		'''
 }
 
-DrewsWings: {
-	DisplayName: Drew之翼
-	Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		“精妙绝伦”
-		'''
-}
-
 ElysianWings: {
 	DisplayName: 极乐之翼
 	Tooltip:
@@ -31,7 +22,7 @@ ExodusWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		当你穿着皇天套装时，永久获得皇天之暴怒与皇天之愤怒增益
+		当你穿着皇天套装时，永久获得皇天之暴怒增益
 		随着异界之心的搏动而振翅
 		'''
 }
@@ -140,5 +131,14 @@ TracersSeraph: {
 		使你获得在水面，熔岩和蜂蜜上行走的能力
 		使你免疫燃烧，熔岩和来自物块的伤害
 		“更加荒诞的速度！”
+		'''
+}
+
+WingsofRebirth: {
+	DisplayName: 涅槃龙翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		“华焰璀璨，直至最终”
 		'''
 }

@@ -105,20 +105,20 @@ SCalDesparationText1Rematch: 了不起的表现，我认可你的胜利。
 SCalDesparationText2Rematch: 毫无疑问，你会遇见比我更加强大的敌人。
 SCalDesparationText3Rematch: 我相信你不会犯下和他一样的错误。
 SCalDesparationText4Rematch: 至于你的未来会变成什么样子，我很期待。
-// Cirrus (GFB)
-CirrusSummonText: 你准备好被苦心志劳筋骨饿体肤空乏身行拂乱所为了吗？
-CirrusBirbSwarmText: 那些心有点太搞人心态了，但如果把它们换成一群鸟，阁下又要如何应对呢？
-CirrusBH2Text: 感觉到口渴了吗？我来解决这个问题！
-CirrusBH3Text: 试试我新发现的这个很cooooooooooool的玩具！
-CirrusDoGText: 我跟你说过这些会说话的虫子是真的！但是你不信我！
-CirrusPhase2Text: 时间到，变身！
-CirrusBH4Text: 现在是，微笑时间！
-CirrusHallowBossSpamText: 我的朋友，超乎你的想象！
-CirrusBH5Text: 哈！你很厉害，但是我更厉害！
-CirrusSecondBirbSwarmText: 是时候放另一群鸟了！
-CirrusNonchalantText: 我累了……
-CirrusBruhText: 哒咩！该用我的大宝贝了！
-CirrusGiveUpText: 呃，无论如何，我对此有点厌倦了。
+// Permafrost (GFB)
+PermafrostSummonText: 你准备好被苦心志劳筋骨饿体肤空乏身行拂乱所为了吗？
+PermafrostBirbSwarmText: 那些心对我来说有点太残忍了，换成一群可爱的小鸟如何呢？
+PermafrostBH2Text: 打累了吧，冒险者？饿了吗？美味冻肉听起来怎么样？
+PermafrostBH3Text: 惊讶于我能与你抗衡吗？别忘了，灾厄的招可是我教的！
+PermafrostDoGText: 无名巨蛇！？怎么回事！？他来这里干什么！？又来折磨我吗！？快杀了他，冒险者！
+PermafrostPhase2Text: 哈！我想我在这场决斗中无法再保持“冷”静了！听懂了吗？
+PermafrostBH4Text: 这就想休息了？你连老头子的节奏都跟不上吗？
+PermafrostHallowBossSpamText: 你真的变强了！幸好我和灾厄重建了这玩意来帮我。
+PermafrostBH5Text: 好吧，我已经很久没有借口使用这些法术了！
+PermafrostSecondBirbSwarmText: 不得不说，前面那些小鸟真是太可爱了！再来点如何呢？
+PermafrostNonchalantText: 不得不说，岁月不饶人啊。我这把老骨头已经开始吃不消了……
+PermafrostBruhText: 哈！上当了吧！看我毁天灭地的秘密法术！
+PermafrostGiveUpText: 哎呦，我好像拉伤了！啊，好吧。看来我得认输了。打得漂亮！
 // April Fools
 AprilFools: 唯一神正在接近……
 AprilFoolsGFB: 不可言说的惊骇之物正在接近……

@@ -391,11 +391,6 @@ LegendaryShortTooltip:
 	[c/BABABA:长按“左Shift”键以仔细聆听]
 	'''
 
-AlicornonaStick: {
-	DisplayName: 棒棒天角兽
-	Tooltip: “恭喜！你赢了！这是一根有我头的棍子”
-}
-
 BallAndChain: {
 	DisplayName: 球镣
 	Tooltip:
@@ -413,6 +408,11 @@ BrimstoneLocus: {
 		[c/C61B40:将它们转化为全新的形态。]
 		[c/C61B40:当该物品被放在你的背包中时，能够进行死灵灌注的武器装备会被标出。”]
 		'''
+}
+
+ColdheartIcicle: {
+	DisplayName: 寒心冰柱
+	Tooltip: “冰之杰作”
 }
 
 MomentumCapacitor: {

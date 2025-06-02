@@ -61,18 +61,6 @@ BrimflameScowl: {
 		'''
 }
 
-CirrusDress: {
-	DisplayName: 醉仙女的小裙子
-	Tooltip:
-		'''
-		增加5%魔法伤害和魔法暴击率
-		降低20%移动速度，最大下落速度增加到61mph
-		你连喝五种酒都不会肝中毒，但要是再贪杯……
-		[c/B00BA5:“来，穿上它，这个可以让你喝的比平常更多！”]
-		“你醉了……”
-		'''
-}
-
 DaedalusBreastplate: {
 	DisplayName: 代达罗斯胸甲
 	Tooltip: 增加3%伤害和暴击率

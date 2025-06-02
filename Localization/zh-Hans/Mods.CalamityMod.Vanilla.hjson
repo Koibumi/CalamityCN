@@ -339,7 +339,6 @@ DemolitionistChat: {
 DryadChat: {
 	DarksunEclipse: 这段时间出现的飞蛾散发出一种黑暗的太阳能量。为啥这些蛾子会像你一样越来越强？
 	Hardmode: 那星辉瘟疫像水泡一样存在于这片土地上。难道世界上还有更多邪恶地形吗
-	DrunkPrincessShroom: "{0}让我来。"
 	Mushroom: 我才不想呆在这！我在这是为了捡蘑菇，呃，留着以后用。
 	SulphurSea: 我的女神在沉寂在海底中。请准许我对她致以我个人的敬意。
 }
@@ -377,7 +376,6 @@ MechanicChat: {
 	MoonLordDefeated: 你说你的机关没成功是什么意思？和我没关系！
 	Eclipse: 呃……我的夜灯需要开着吗？
 	AcidRain: 也许我应该给我的小玩意儿加入防水功能……它们已经开始被腐蚀了。
-	DrunkPrincess: 嗯，我喜欢{0}，但是我，呃……心里已有他人
 }
 
 MerchantChat: {
@@ -407,7 +405,6 @@ PainterChat: {
 }
 
 PartyGirlChat: {
-	DrunkPrincess: 我有种感觉我们会在{0}周围举办非常棒的派对！
 	Eclipse1: 我想我的灯光变成了个意料之外的机器。但至少，怪物们会喜欢它的。
 	Eclipse2: 哦！我爱这样每个人都穿着奇服异装的派对！
 }
@@ -415,7 +412,6 @@ PartyGirlChat: {
 PirateChat: {
 	PreLeviathan: 是的，我听说有一种神秘的海洋生物，用迷人的声音唱歌。在外面钓鱼时要小心。
 	WetScourgeDefeated: 我要再次感谢你们照顾那条海蛇。或者那是另一条……
-	DrunkPrincess: 二十九瓶啤酒在墙上……
 	SeaKing: 我记得关于{0}的传说，不过他不是很明白那些故事是怎么出来的。
 	Ocean: 现在这一幕我可以随时欣赏！但我觉得好像有什么东西在看着我。
 	SulphurSea1: 虽然表面上一片死寂，但在这些水域里仍然有生命。
@@ -442,18 +438,12 @@ SteampunkerChat: {
 
 StylistChat: {
 	Hardmode: 请不要抓太空虱子，或者{0}虱子，或者仅仅是普通的虱子。
-	DrunkPrincess1: "{0}总是想让我心情愉快……即使，我知道她的内心深处很伤心。"
-	DrunkPrincess2: 有时我发现{0}从我背后偷偷跟上来。
-	DrunkPrincess3: "{0}最近笑得更多了，就算没有喝酒也是。我想，多多少少，我应该为此感谢你"
 	ProfanedSoulCrystal1: 它们看上去如此可爱，然而一靠近它们，我就能感受到它们恐怖的力量。你怎么看？
 	ProfanedSoulCrystal2: 我不想打发你走，但是你的头发确实不需要剪，也没有发型。嗯。
 	ProfanedDonuts: 哇偶，它们太可爱了，你为它们起名字了吗？
 }
 
-TavernkeepChat: {
-	FullMoon: 想要一些私酿吗？
-	DrunkPrincess: 先生，{0}有那么点无情，不是吗？我从来没有声称自己是除了啤酒以外的任何东西的专家！
-}
+TavernkeepChat.FullMoon: 想要一些私酿吗？
 
 TaxCollectorChat: {
 	DoGDefeated: 你说什么吞噬者？资金吞噬者，如果它的工资能是任何东西！
@@ -463,12 +453,7 @@ TaxCollectorChat: {
 	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
 }
 
-TravellingMerchantChat.DrunkPrincessMerchant: 去告诉{0}，我会接受她的建议并和她在{1}的房子那儿见面。
-
-TruffleChat: {
-	Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
-	DrunkPrincess: 有时，{0}只是饶有兴味地看着我，而我说不清楚我对此有何感受。
-}
+TruffleChat.Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
 
 WitchDoctorChat: {
 	BloodMoon: 这是一个很好的时间来挑选最好的药水成分。

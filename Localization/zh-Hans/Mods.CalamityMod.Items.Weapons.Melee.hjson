@@ -135,16 +135,6 @@ Avalanche: {
 		'''
 }
 
-Azathoth: {
-	DisplayName: 阿撒托斯
-	Tooltip:
-		'''
-		{$Common.YoyoStatsInfinite}
-		发射能爆裂出死亡射线的寰宇之球攻击敌人
-		“眨眼之间摧毁宇宙”
-		'''
-}
-
 BalefulHarvester: {
 	DisplayName: 邪恶收割者
 	Tooltip:
@@ -971,6 +961,16 @@ Orderbringer: {
 		能量波每次连续命中会造成更多的伤害
 		剑刃直接命中时会召唤两道光束从天而降
 		“无论何地，你都不会孤身一人”
+		'''
+}
+
+Ozzathoth: {
+	DisplayName: 奥撒托斯
+	Tooltip:
+		'''
+		{$Common.YoyoStatsInfinite}
+		发射能爆裂出死亡射线的寰宇之球攻击敌人
+		“眨眼之间摧毁宇宙”
 		'''
 }
 

@@ -391,11 +391,6 @@ LegendaryShortTooltip:
 	[c/BABABA:Press "Left Shift" to listen closer]
 	'''
 
-AlicornonaStick: {
-	DisplayName: Alicorn on a Stick
-	Tooltip: "'Congratulations, you're winner! Here's my head on a stick.'"
-}
-
 BallAndChain: {
 	DisplayName: Ball and Chain
 	Tooltip:
@@ -413,6 +408,11 @@ BrimstoneLocus: {
 		[c/C61B40:I can also transcend some of your weaponry to entirely new forms.]
 		[c/C61B40:Such items are revealed while this item is in your inventory.']
 		'''
+}
+
+ColdheartIcicle: {
+	DisplayName: Coldheart Icicle
+	Tooltip: "'N(ice) work'"
 }
 
 MomentumCapacitor: {

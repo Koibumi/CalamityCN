@@ -66,8 +66,6 @@ EventHorizonStar.DisplayName: Event Horizon Star
 EvergladeSprayProjectile.DisplayName: Everglade Spray
 ExoVortex.DisplayName: Subsuming Vortex
 ExoVortex2.DisplayName: Subsuming Vortex
-FabBolt.DisplayName: Fab Bolt
-FabRay.DisplayName: Fab Ray
 FatesRevealFlame.DisplayName: Fate's Reveal
 FireImplosion.DisplayName: Swirling Backdraft
 FlareBoltProjectile.DisplayName: Flare Bolt
@@ -216,6 +214,8 @@ SpiritDust.DisplayName: Spirit Dust
 Starblast.DisplayName: Star
 StardustElementalBeam.DisplayName: Stardust Beam
 StickyFeather.DisplayName: Feather
+SylveBolt.DisplayName: Sylv Bolt
+SylveRay.DisplayName: Sylv Ray
 TacticiansElectricBoom.DisplayName: Electric Explosion
 TacticiansTrumpCardProj.DisplayName: Trump Beam
 TearsofHeavenProjectile.DisplayName: Tears of Heaven

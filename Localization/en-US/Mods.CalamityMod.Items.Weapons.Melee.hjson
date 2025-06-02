@@ -135,16 +135,6 @@ Avalanche: {
 		'''
 }
 
-Azathoth: {
-	DisplayName: Azathoth
-	Tooltip:
-		'''
-		{$Common.YoyoStatsInfinite}
-		Fires cosmic orbs that blast nearby enemies with lasers
-		'Destroy the universe in the blink of an eye'
-		'''
-}
-
 BalefulHarvester: {
 	DisplayName: Baleful Harvester
 	Tooltip:
@@ -971,6 +961,16 @@ Orderbringer: {
 		Energy waves deal more damage with each consecutive hit
 		Hits with the blade summon two beams from the sky
 		'No matter where you may be you are never alone'
+		'''
+}
+
+Ozzathoth: {
+	DisplayName: Ozzathoth
+	Tooltip:
+		'''
+		{$Common.YoyoStatsInfinite}
+		Fires cosmic orbs that blast nearby enemies with lasers
+		'Destroy the universe in the blink of an eye'
 		'''
 }
 

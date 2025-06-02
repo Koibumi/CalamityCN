@@ -36,11 +36,6 @@ BrimstoneTargetRay.DisplayName: 狱火锁魂射线
 BrimstoneWave.DisplayName: 深渊炙颅
 BrokenApolloLens.DisplayName: 光镜
 BrokenArtemisLens.DisplayName: 光镜
-CirrusBlast.DisplayName: san猪菇菇炮
-CirrusBlaster.DisplayName: 山猪大飞菇
-CirrusPhotonRipperPrismTooth.DisplayName: 山猪大锯锯
-CirrusPhotonRipperProjectile.DisplayName: 山猪超级锯
-CirrusVolatileVodkaBottle.DisplayName: 挥发伏特加瓶
 CrimulanSpike.DisplayName: 血化尖刺
 CursedFire.DisplayName: 诅咒之火
 DarkEnergyBall.DisplayName: 暗能量
@@ -106,6 +101,11 @@ MushBomb.DisplayName: 蘑菇炸弹
 MushBombFall.DisplayName: 飘落蘑菇孢子
 MushBombGround.DisplayName: 蘑菇弹
 OldDukeGore.DisplayName: 富硫腐尸
+PermafrostAbsoluteZeroProjectile.DisplayName: 超绝零度
+PermafrostBlast.DisplayName: 永冻巨爆
+PermafrostBlaster.DisplayName: 终极制冷爆炸
+PermafrostColdheartIcicle.DisplayName: 寒心冰柱
+PermafrostMeat.DisplayName: 冻肉
 OldDukeSummonDrop.DisplayName: 酸
 OldDukeToothBallSpike.DisplayName: 尖刺
 OldDukeVortex.DisplayName: 硫毒旋涡

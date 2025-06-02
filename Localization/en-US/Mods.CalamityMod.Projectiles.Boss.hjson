@@ -36,11 +36,6 @@ BrimstoneTargetRay.DisplayName: Brimstone Target Ray
 BrimstoneWave.DisplayName: Brimstone Flame Skull
 BrokenApolloLens.DisplayName: Lens
 BrokenArtemisLens.DisplayName: Lens
-CirrusBlast.DisplayName: Cirrus Mushroom Blast
-CirrusBlaster.DisplayName: Cirrus Mushroom
-CirrusPhotonRipperPrismTooth.DisplayName: Cirrus Photon Ripper Tooth
-CirrusPhotonRipperProjectile.DisplayName: Cirrus Photon Ripper
-CirrusVolatileVodkaBottle.DisplayName: Volatile Vodka Bottle
 CrimulanSpike.DisplayName: Crimulan Spike
 CursedFire.DisplayName: Eye Fire
 DarkEnergyBall.DisplayName: Dark Energy
@@ -111,6 +106,11 @@ OldDukeToothBallSpike.DisplayName: Spike
 OldDukeVortex.DisplayName: Sulphurous Vortex
 OverlyDramaticDukeSummoner.DisplayName: Old Duke Summoner
 PeanutRocket.DisplayName: High Explosive Peanut Shell
+PermafrostAbsoluteZeroProjectile.DisplayName: Absolute Ultra Zero
+PermafrostBlast.DisplayName: Permafrost's Gigablast
+PermafrostBlaster.DisplayName: Blaster of Unlimited Air Conditioning
+PermafrostColdheartIcicle.DisplayName: Coldheart Icicle
+PermafrostMeat.DisplayName: Cool Meat
 PhantomBlast.DisplayName: Phantom Blast
 PhantomBlast2.DisplayName: Potent Phantom Blast
 PhantomGhostShot.DisplayName: Potent Phantom Spirit Shot

@@ -1248,7 +1248,7 @@ SuperradiantSlaughterer: {
 	AltInfo:
 		'''
 		Press <right> to eject a lingering buzzsaw towards the cursor that fires homing bolts
-		Using this ability rapidly propels you in the direction you are moving
+		Double <right> to rapidly propel yourself in the direction you are moving
 		This ability has a {0} second cooldown
 		During this cooldown, buzzsaws home to the cursor and constantly release homing bolts while returning
 		'''

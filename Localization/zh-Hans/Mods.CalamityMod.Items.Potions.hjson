@@ -60,15 +60,6 @@ DeliciousMeat: {
 		'''
 }
 
-Fabsoup: {
-	DisplayName: 山猪胡辣汤
-	Tooltip:
-		'''
-		{$CommonItemTooltip.MajorStats}
-		'嗝~，汤'
-		'''
-}
-
 FlaskOfBrimstone: {
 	DisplayName: 硫火瓶
 	Tooltip: 近战、鞭子和盗贼攻击会造成{$Buffs.BrimstoneFlames.DisplayName}减益
@@ -96,6 +87,15 @@ HadalStew: {
 		只造成[S]秒{$BuffName.PotionSickness}
 		{$CommonItemTooltip.MediumStats}
 		{$CommonItemTooltip.MinuteDuration}
+		'''
+}
+
+LavaChickenBroth: {
+	DisplayName: 熔岩鸡肉煲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MajorStats}
+		“真是好吃得要命”
 		'''
 }
 
@@ -158,7 +158,7 @@ ZergPotion: {
 	Tooltip: 大幅度增加敌怪生成率
 }
 
-// Drunk Princess Shop Items
+// Very normal Keg crafts
 BloodyMary: {
 	DisplayName: 血腥玛丽
 	Tooltip:
@@ -166,7 +166,6 @@ BloodyMary: {
 		在血月期间增加{0}%伤害和移动速度
 		降低{1}HP/s生命再生和{2}%防御
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“辣而血腥！”]
 		'''
 }
 
@@ -177,7 +176,6 @@ CaribbeanRum: {
 		增加{0}HP/s生命再生和{1}%移动速度
 		令你变得飘飘若仙并降低{2}%防御
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“咦？酒怎么突然没了？”]
 		'''
 }
 
@@ -188,18 +186,16 @@ CinnamonRoll: {
 		所有火系减益的伤害倍率乘以{0}并增加魔力再生速率
 		降低{1}%防御
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“肉桂威士忌，品起来就如奶油苏打一样，啊，绝赞美味”]
 		'''
 }
 
-CirrusVodka: {
-	DisplayName: Cirrus伏特加
+PurpleHaze: {
+	DisplayName: 紫色阴霾
 	Tooltip:
 		'''
 		增加{0}%伤害，但降低{1}%防御
 		延长受伤后无敌时间
 		{$Common.AlcoholWarning}
-		这种神奇的酒深受口味高雅人士的喜爱
 		'''
 }
 
@@ -211,7 +207,6 @@ Everclear: {
 		降低{1}HP/s生命再生和{2}%防御
 		在{$Buffs.AlcoholPoisoning.DisplayName}效果中被视为两种酒
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“这是我这里最劲爆的好酒了，小心点儿！”]
 		'''
 }
 
@@ -222,7 +217,6 @@ EvergreenGin: {
 		所有疫病和水系减益的伤害倍率乘以{0}
 		-{1}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“圣诞树的味道~，如果你能想象到的话”]
 		'''
 }
 
@@ -233,7 +227,6 @@ Fireball: {
 		所有火系减益的伤害倍率乘以{0}
 		-{1}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“清爽可口的肉桂威士忌酒”]
 		'''
 }
 
@@ -243,7 +236,6 @@ GrapeBeer: {
 		'''
 		降低{0}%防御，持续{1}秒
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“这鬼玩意真恶心，不过你或许会喜欢”]
 		'''
 }
 
@@ -254,7 +246,6 @@ Margarita: {
 		减半大多数减益的持续时间
 		降低{0}%防御和{1}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“有史以来最可口的饮品，在它还有时细细品尝吧”]
 		{$CommonItemTooltip.MinuteDuration@2}
 		'''
 }
@@ -266,7 +257,6 @@ Moonshine: {
 		增加{0}点防御和{1}%伤害减免
 		-{2}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“这酒很烈，但我相信你没问题的”]
 		'''
 }
 
@@ -277,7 +267,6 @@ MoscowMule: {
 		增加{0}%伤害、{1}%击退和{2}%暴击率
 		-{3}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“我曾听说铜马克杯有毒，然后我就跟他们说：“嘿，蠢货，那么我早就毒翻自己啦””]
 		'''
 }
 
@@ -306,7 +295,6 @@ OldFashioned: {
 		大多数非武器，非减益的伤害乘以{0}
 		所有武器的伤害乘以{1}
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“我的旧爱”]
 		'''
 }
 
@@ -316,7 +304,6 @@ RedWine: {
 		'''
 		-{0}HP/s生命再生，持续{1}秒
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“对我来说太干了”]
 		'''
 }
 
@@ -327,7 +314,6 @@ Rum: {
 		+{0}HP/s生命再生和{1}%移动速度
 		降低{2}%防御
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“甜美劲爆，爱它不需要别的理由”]
 		'''
 }
 
@@ -338,7 +324,6 @@ Screwdriver: {
 		穿透类弹幕的伤害倍率乘以{0}
 		-{1}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“你……耍酒疯吗？”]
 		'''
 }
 
@@ -350,7 +335,6 @@ StarBeamRye: {
 		降低{2}%魔力消耗
 		降低{3}%防御和{4}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“我在星辉陨石坑附近找到了些材料，调制成了这酒，哈哈别担心，它很安全，相信我。”]
 		'''
 }
 
@@ -361,7 +345,6 @@ Tequila: {
 		在白天时增加{0}%击退、{1}%暴击率和{2}点防御
 		-{3}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“在白天畅饮的绝佳鸡尾酒”]
 		'''
 }
 
@@ -372,7 +355,6 @@ TequilaSunrise: {
 		在白天时增加{0}%击退、{1}%暴击率和{2}点防御
 		-{3}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“我尝过的最棒的日间饮品”]
 		'''
 }
 
@@ -383,7 +365,6 @@ Vodka: {
 		增加{0}%伤害和{1}%暴击率
 		降低{2}HP/s生命再生和{3}%防御
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“调制美味鸡尾酒的不二选择”]
 		'''
 }
 
@@ -394,7 +375,6 @@ Whiskey: {
 		增加{0}%伤害、{1}%击退和{2}%暴击率
 		降低{3}%防御
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“那种燃烧的错觉让其美味更甚！”]
 		'''
 }
 
@@ -405,7 +385,6 @@ WhiteWine: {
 		增加{0}%魔法伤害
 		降低{1}%防御和{2}HP/s生命再生
 		{$Common.AlcoholWarning}
-		[c/B00BA5:“曾有一晚，我喝了一桶这酒，第二天我连我是谁都忘了。”]
 		'''
 }
 

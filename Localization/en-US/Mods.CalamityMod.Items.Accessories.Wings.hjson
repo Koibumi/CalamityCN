@@ -8,15 +8,6 @@ AureateBooster: {
 		'''
 }
 
-DrewsWings: {
-	DisplayName: Drew's Wings
-	Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		'Absolutely Fabulous'
-		'''
-}
-
 ElysianWings: {
 	DisplayName: Elysian Wings
 	Tooltip:
@@ -31,7 +22,7 @@ ExodusWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		Grants permanent Empyrean Wrath and Empyrean Rage while wearing the Empyrean armor
+		Grants permanent Empyrean Wrath while wearing the Empyrean armor
 		Pulsing with an alien heartbeat
 		'''
 }
@@ -140,5 +131,14 @@ TracersSeraph: {
 		Provides the ability to walk on water, honey, and lava
 		Grants immunity to fire, lava, and harmful block effects
 		'Taking speed EVEN FURTHER BEYOND!'
+		'''
+}
+
+WingsofRebirth: {
+	DisplayName: Wings of Rebirth
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		'Resplendent to the very end'
 		'''
 }

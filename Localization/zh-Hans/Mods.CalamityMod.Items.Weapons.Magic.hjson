@@ -308,11 +308,6 @@ EvergladeSpray: {
 	Tooltip: 发射使敌人燃烧的绿色灵液
 }
 
-Fabstaff: {
-	DisplayName: 绝学法杖
-	Tooltip: 发射一道在接近敌人时会自动分裂的弹射光束
-}
-
 FaceMelter: {
 	DisplayName: 变脸熔炉
 	Tooltip:
@@ -853,6 +848,15 @@ SubsumingVortex: {
 		当漩涡的附近有敌人时，漩涡会向敌人发射多个快速移动的小漩涡
 		经过足够时间后松开右键会将大漩涡向光标方向释放
 		伤害随手持漩涡时长的增加而增加
+		'''
+}
+
+Sylvestaff: {
+	DisplayName: 仙子伊布法杖
+	Tooltip:
+		'''
+		发射一道在接近敌人时会自动分裂的弹射光束
+		“又称Karma法杖！”
 		'''
 }
 

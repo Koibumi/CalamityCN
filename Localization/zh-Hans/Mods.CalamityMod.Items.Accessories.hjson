@@ -1524,15 +1524,6 @@ RuinMedallion: {
 		'''
 }
 
-RustyMedallion: {
-	DisplayName: 锈蚀勋章
-	Tooltip:
-		'''
-		让大多数远程武器攻击时在空中释放酸性液滴
-		对辐射免疫
-		'''
-}
-
 SandCloak: {
 	DisplayName: 沙尘披风
 	Tooltip:
@@ -1559,6 +1550,17 @@ ScuttlersJewel: {
 		'''
 		潜伏攻击的弹幕在被摧毁时会生成宝石钉
 		也可以通过提炼机进行拆分
+		'''
+}
+
+ScionsCurio: {
+	DisplayName: Scions Curio
+	Tooltip:
+		'''
+		Ranged hits increase the effectiveness of the Irradiated debuff
+		Irradiated damage over time scales off of your ranged damage and crit chance
+		On kill, enemies burst, spreading Irradiated
+		Taking damage causes the curio to explode in retaliation
 		'''
 }
 
@@ -1873,7 +1875,7 @@ TheAmalgam: {
 	Tooltip:
 		'''
 		增加10%伤害
-		所有攻击都造成多种减益，并且将所有元素减益伤害提升至3.5倍
+		所有攻击都造成多种减益，并且将所有元素减益伤害提升至3倍
 		大部分增益持续时间翻倍并且死亡后也仍然存在
 		受到伤害后困惑附近敌怪并生成一只沼泽之眼
 		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
@@ -1913,8 +1915,8 @@ TheCommunity: {
 		'''
 		[STATS]
 		“广大泰拉玩家的精神结晶”
-		[c/B00BA5:感谢众多支持者的努力，让这一模组成为现实！]
-		[c/B00BA5:也感谢汉化组的各位的努力，让灾厄模组的汉化成为可能！]
+		感谢众多支持者的努力，让这一模组成为现实！
+		也感谢汉化组的各位的努力，让灾厄模组的汉化成为可能！
 		'''
 	StatsList:
 		'''
@@ -2142,11 +2144,6 @@ AbandonedWulfrumHelmet: {
 		[c/83B87E:“拾荒者和劫掠者常常穿着这种脆弱的盔甲]
 		[c/83B87E:其丰富的功能性以及通用性让它也能作为一种货币在交易中使用”]
 		'''
-}
-
-CrystalHeartVodka: {
-	DisplayName: 水晶之心伏特加
-	Tooltip: “味道就像（女孩子的）草莓奶油利口酒”
 }
 
 GhostBracelet: {

@@ -31,7 +31,7 @@ BouncingShotgunPellet.DisplayName: 霰弹枪子弹
 BrimstoneBolt.DisplayName: 硫火飞弹
 BrimstoneFireFriendly.DisplayName: 硫火
 BubonicRoundProj.DisplayName: 鼠疫弹
-BuzzkillSaw.DisplayName: Buzzsaw
+BuzzkillSaw.DisplayName: 嗡鸣圆锯
 CardClub.DisplayName: 梅花牌
 CardClubSplit.DisplayName: 分裂梅花牌
 CardDiamond.DisplayName: 方块牌
@@ -218,9 +218,9 @@ StarmageddonStar.DisplayName: 橙星
 StarmageddonStar2.DisplayName: 蓝星
 StormSurgeTornado.DisplayName: 潮涌
 SulphuricBlast.DisplayName: 硫磺酸风
-SuperradiantBolt.DisplayName: Superradiant Bolt
-SuperradiantSaw.DisplayName: Superradiant Saw
-SuperradiantSawLingering.DisplayName: Ultraradiant Saw
+SuperradiantBolt.DisplayName: 超辐矢
+SuperradiantSaw.DisplayName: 超辐圆锯
+SuperradiantSawLingering.DisplayName: 极辐圆锯
 TauCannonBeam.DisplayName: Tau Cannon Beam
 TauCannonBolt.DisplayName: Tau Cannon Bolt
 TauCannonPortal.DisplayName: Tau Cannon Portal

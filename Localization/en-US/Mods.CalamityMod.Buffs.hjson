@@ -19,9 +19,9 @@ CinnamonRollBuff: {
 	Description: Mana regen rate and fire debuff damage increased, defense reduced
 }
 
-CirrusVodkaBuff: {
-	DisplayName: Fab
-	Description: You feel fabulous
+PurpleHazeBuff: {
+	DisplayName: Purple Haze
+	Description: Damage and invulnerability frames increased, defense reduced
 }
 
 EverclearBuff: {
@@ -287,10 +287,6 @@ WeakBrimstoneFlames: {
 }
 
 // Mounts
-AlicornBuff: {
-	DisplayName: Alicorn
-	Description: You beat DoG while drunk, you are truly fabulous!
-}
 
 AndromedaBuff: {
 	DisplayName: Andromeda
@@ -509,22 +505,22 @@ ChaosCandleBuff: {
 	Description: Spawn rates around the candle are boosted!
 }
 
-CirrusBlueCandleBuff: {
+BlueCandleBuff: {
 	DisplayName: Limber
 	Description: The floating flame seems to uplift your very spirit
 }
 
-CirrusPinkCandleBuff: {
+PinkCandleBuff: {
 	DisplayName: Vigor
 	Description: The brilliant light suffuses you with hope
 }
 
-CirrusPurpleCandleBuff: {
+PurpleCandleBuff: {
 	DisplayName: Resilience
 	Description: Neither rain nor wind can snuff your undying flame
 }
 
-CirrusYellowCandleBuff: {
+YellowCandleBuff: {
 	DisplayName: Spite
 	Description: The hateful, flickering glow fuels your ire
 }
@@ -562,7 +558,7 @@ AstralInjectionBuff: {
 
 BaguetteBuff: {
 	DisplayName: Baguette
-	Description: "[c/B00BA5:'If only I knew...' ~Cirrus]"
+	Description: Goes well with Red Wine
 }
 
 BloodfinBoost: {
@@ -762,11 +758,6 @@ CosmicFreeze: {
 DivineBless: {
 	DisplayName: Divine Bless
 	Description: Increased health regen and minions inflict Banishing Fire
-}
-
-EmpyreanRage: {
-	DisplayName: Empyrean Rage
-	Description: Rage of the cosmos
 }
 
 EmpyreanWrath: {

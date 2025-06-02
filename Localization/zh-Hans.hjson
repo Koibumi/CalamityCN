@@ -13,7 +13,7 @@ Mods: {
 
 			AbyssLayer3MusicBox: {
 				DisplayName: 音乐盒（深层深渊）
-				Tooltip: Plays 'R'LYEH' by RoverdriveX
+				Tooltip: Plays 'hydrothermophobia' by CDMusic
 			}
 
 			AbyssLayer4MusicBox: {
@@ -21,14 +21,27 @@ Mods: {
 				Tooltip: Plays 'void' by DM DOKURO
 			}
 
+			AbyssLegacyMusicBox: {
+				DisplayName: 音乐盒（深渊，旧版）
+				Tooltip: Plays 'R'LYEH' by RoverdriveX
+			}
+
 			AcidRainTier1MusicBox: {
 				DisplayName: 音乐盒（酸性暴雨）
-				Tooltip: Plays 'corrosion!' by RoverdriveX
+				Tooltip:
+					'''
+					Plays 'corrosion!' by RoverdriveX
+					This music box contains a placeholder song
+					'''
 			}
 
 			AcidRainTier3MusicBox: {
 				DisplayName: 音乐盒（硫酸季风）
-				Tooltip: Plays 'nuclear monsoon' by PinpinNeon
+				Tooltip:
+					'''
+					Plays 'nuclear monsoon' by PinpinNeon
+					This music box contains a placeholder song
+					'''
 			}
 
 			AnahitaMusicBox: {
@@ -178,7 +191,11 @@ Mods: {
 
 			ExoMechsMusicBox: {
 				DisplayName: 音乐盒（星流巨械）
-				Tooltip: Plays 'Inferior Fabrications' by PinpinNeon
+				Tooltip:
+					'''
+					Plays 'Inferior Fabrications' by PinpinNeon
+					This music box contains a placeholder song
+					'''
 			}
 
 			HiveMindMusicBox: {
@@ -271,6 +288,11 @@ Mods: {
 				Tooltip: Plays 'caustic tides' by Heart Plus Up!
 			}
 
+			SulphurousSeaRainMusicBox: {
+				DisplayName: 音乐盒（硫海之雨）
+				Tooltip: Plays 'septication' by Heart Plus Up!
+			}
+
 			SunkenSeaMusicBox: {
 				DisplayName: 音乐盒（沉沦之海）
 				Tooltip: Plays 'sanctuary' by DM DOKURO
@@ -297,8 +319,9 @@ Mods: {
 				SongNames: {
 					AbyssLayer1: hesitation
 					AbyssLayer2: Hadopelagic Pressure
-					AbyssLayer3: R'LYEH
+					AbyssLayer3: hydrothermophobia
 					AbyssLayer4: void
+					AbyssLegacy: R'LYEH
 					AcidRainTier1: corrosion!
 					AcidRainTier3: nuclear monsoon
 					Anahita: Siren's War Cry
@@ -349,6 +372,7 @@ Mods: {
 					StormWeaver: Servants of the Scourge (Type W)
 					SulphurousSeaDay: wasteland
 					SulphurousSeaNight: caustic tides
+					SulphurousSeaRain: septication
 					SunkenSea: sanctuary
 					YharonLegacy: Infernal Catharsis
 					YharonPhase1: Infernal Catharsis (Rebirth)
