@@ -6,8 +6,13 @@ CalamityClientConfig: {
 		Graphics: 画面改动
 		UI: UI改动
 		MeterPositions: 属性条位置
-		MusicEvents: 游戏内音乐事件
+		MusicEvents: 音乐开关
 		Multithreading: 多线程优化
+	}
+
+	AbyssLayer3Alt: {
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] 深渊三层音乐替代"
+		Tooltip: 在深渊的热泉区域播放灾厄OST——“"R'lyehian Depths"”。
 	}
 
 	AdrenalineMeterPosX: {
@@ -139,7 +144,7 @@ CalamityClientConfig: {
 	}
 
 	FlightBar: {
-		Label: "[i:CalamityMod/DrewsWings] 显示飞行时间条"
+		Label: "[i:AngelWings] 显示飞行时间条"
 		Tooltip:
 			'''
 			启用飞行时间UI条，显示玩家翅膀的剩余飞行时间。
@@ -399,15 +404,6 @@ CalamityClientConfig: {
 	SunkenSeaMultiThreading: {
 		Label: 沉沦之海多线程优化
 		Tooltip: ""
-	}
-
-	TextEffects: {
-		// Label: "[i:LeinforsAccessory] Extra Text Effects"
-		/* Tooltip:
-			'''
-			When enabled, certain Calamity rarities will display extra visual effects within item names.
-			Disable if reduced visual clutter is desired.
-			''' */
 	}
 }
 

@@ -504,8 +504,8 @@ Glaive: {
 	DisplayName: Glaive
 	Tooltip:
 		'''
-		Tosses up to 3 sharp returning glaives
-		Stealth strikes are super fast and pierce infinitely
+		Tosses a very fast and sharp returning glaive
+		Stealth strikes are faster and can ricochet between enemies, or stick into a single enemy
 		'''
 }
 

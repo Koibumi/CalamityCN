@@ -47,7 +47,6 @@ Drops: {
 		Drops if Providence was defeated only with the [i:CalamityMod/ProfanedSoulArtifact] Profaned Soul Artifact
 		{$Bestiary_ItemDropConditions.IsExpert}
 		'''
-	TrasherKill: Drops if fed to a Trasher
 }
 
 // Other conditions

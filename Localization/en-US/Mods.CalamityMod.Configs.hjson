@@ -6,8 +6,13 @@ CalamityClientConfig: {
 		Graphics: Graphics Changes
 		UI: UI Changes
 		MeterPositions: Meter Positions
-		MusicEvents: In-Game Music Events
+		MusicToggles: Music Toggles
 		Multithreading: Multi-Threading
+	}
+
+	AbyssLayer3Alt: {
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Abyss Layer 3 Alt"
+		Tooltip: Plays Calamity Mod OST - "R'lyehian Depths", while in the Thermal Vents layer of the Abyss.
 	}
 
 	AdrenalineMeterPosX: {
@@ -139,7 +144,7 @@ CalamityClientConfig: {
 	}
 
 	FlightBar: {
-		Label: "[i:CalamityMod/DrewsWings] Display Flight Bar"
+		Label: "[i:AngelWings] Display Flight Bar"
 		Tooltip:
 			'''
 			Enables the Flight Bar UI, which shows the player's remaining wing flight time.
