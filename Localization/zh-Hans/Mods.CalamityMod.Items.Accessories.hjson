@@ -1557,10 +1557,10 @@ ScionsCurio: {
 	DisplayName: Scions Curio
 	Tooltip:
 		'''
-		Ranged hits increase the effectiveness of the Irradiated debuff
-		Irradiated damage over time scales off of your ranged damage and crit chance
-		On kill, enemies burst, spreading Irradiated
-		Taking damage causes the curio to explode in retaliation
+		远程攻击命中会提升辐射减益的效果
+		辐射的持续伤害受你的远程伤害和暴击率影响
+		击杀时，敌人会爆炸，散播辐射
+		受伤会使curio以爆炸的方式反击
 		'''
 }
 

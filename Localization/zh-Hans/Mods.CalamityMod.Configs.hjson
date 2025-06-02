@@ -6,7 +6,7 @@ CalamityClientConfig: {
 		Graphics: 画面改动
 		UI: UI改动
 		MeterPositions: 属性条位置
-		MusicEvents: 音乐开关
+		MusicEvents: 音乐切换
 		Multithreading: 多线程优化
 	}
 
