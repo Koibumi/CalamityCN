@@ -236,7 +236,7 @@ AsgardianAegis: {
 		  着火了！、狱炎、燃烧、冷冻、冰冻、霜冻、冻伤、软弱、
 		  破损盔甲、流血、中毒、酸性毒液、硫磺海剧毒、缓慢、困惑、
 		  沉默、诅咒、黑暗、被网住、强风、石化、碎甲、灯火管制、
-		  大脑溃烂、血液沸腾、Heavy Bleeding、Laceration、诅咒狱火、硫磺火、
+		  大脑溃烂、血液沸腾、重度出血、血管爆裂、诅咒狱火、硫磺火、
 		  暗影焰、破晓、夜魇、神圣之火、Voidfrost、弑神怒焰
 		'''
 }
@@ -336,7 +336,7 @@ BloodPact: {
 	Tooltip:
 		'''
 		增加25%最大生命值
-		对流血、血液沸腾和Heavy Bleeding免疫
+		对流血、血液沸腾和重度出血免疫
 		增加25%治疗药水的治疗量
 		'''
 }
@@ -401,7 +401,7 @@ ChaliceOfTheBloodGod: {
 	Tooltip:
 		'''
 		增加25%最大生命值
-		对流血、血液沸腾、Heavy Bleeding和Laceration免疫
+		对流血、血液沸腾、重度出血和血管爆裂免疫
 		+2HP/s生命再生并缩短25%的治疗药水冷却时间
 		受到5点以上伤害时，将超出的部分转化为流血效果
 		这种效果不会影响生命恢复
@@ -2019,7 +2019,7 @@ VampiricTalisman: {
 		'''
 		盗贼暴击时会汲取敌人生命
 		潜伏攻击会对非潜伏攻击提供15%暴击率加成和更多的生命偷取，持续10秒
-		潜伏攻击会造成Heavy Bleeding和碎甲减益并多造成8%伤害
+		潜伏攻击会造成重度出血和碎甲减益并多造成8%伤害
 		'Possessing the talisman makes you yearn for blood'
 		'''
 	YearningForBlood: THIS ENDLESS HUNGER WON'T END
