@@ -2161,6 +2161,11 @@ HapuFruit: {
 	Tooltip: “一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”
 }
 
+LucisSight: {
+	DisplayName: Luci's Sight
+	Tooltip: "'Fashionable glasses? In Earthia's current economy?!'"
+}
+
 OracleHeadphones: {
 	DisplayName: 神谕耳机
 	Tooltip: “嘿，游戏结束！”
@@ -2203,7 +2208,7 @@ XyksBlessingBlue: {
 	DisplayName: Xyk's Blessing (Blue)
 	Tooltip:
 		'''
-		为你的冲刺和死亡添加视觉效果
+		为你的冲刺，翅膀和死亡添加视觉效果
 		<right>以改变形态
 		'It's simply too much to turn back now; passion and time have long since stained it.
 		[c/5f8ae1:Have I always been so selfish?']
@@ -2214,7 +2219,7 @@ XyksBlessingOrange: {
 	DisplayName: Xyk's Blessing (Orange)
 	Tooltip:
 		'''
-		为你的冲刺和死亡添加视觉效果
+		为你的冲刺，翅膀和死亡添加视觉效果
 		<right>以改变形态
 		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
 		[c/E1B65F:Prove that it was never a waste.']

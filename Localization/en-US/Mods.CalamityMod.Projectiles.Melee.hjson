@@ -154,9 +154,6 @@ HolyColliderHolyFire.DisplayName: Holy Collider Fire
 IceBombFriendly.DisplayName: Ice Bomb
 IllustriousKnife.DisplayName: Illustrious Knife
 InsidiousHarpoon.DisplayName: Insidious Harpoon
-IridescentExcaliburSlash.DisplayName: Iridescent Excalibur Slash
-IridescentExcaliburSlash2.DisplayName: Iridescent Excalibur Slash
-IridescentExcaliburSlash3.DisplayName: Iridescent Excalibur Slash
 JudgementProj.DisplayName: JUDGEMENT
 LamentationsOfTheChained.DisplayName: Lamentations of the Chained
 LaserFountain.DisplayName: Laser Fountain
@@ -237,6 +234,7 @@ StarburstBeam.DisplayName: Star Shiv
 StarburstSHIV.DisplayName: SHIV
 StarnightBeam.DisplayName: Starnight Beam
 StarofJudgement.DisplayName: Star of Judgement
+StarofOrder.DisplayName: Star of Order
 StellarContemptBlast.DisplayName: Stellar Blast
 StellarContemptEcho.DisplayName: Echoes of Contempt
 StellarContemptHammer.DisplayName: Stellar Contempt

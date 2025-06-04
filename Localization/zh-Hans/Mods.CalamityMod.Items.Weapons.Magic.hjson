@@ -246,7 +246,7 @@ DeathValleyDuster: {
 		'''
 		发射一道可以穿过敌怪和物块的附魔沙暴
 		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得Sand's Wind增益
-		Sand's Wind增益会增加10点防御和12%伤害
+		Sand's Wind增益会增加10点防御和12%伤害，并大幅提升魔力再生
 		'''
 }
 
@@ -654,7 +654,7 @@ PrimordialAncient: {
 		'''
 		发射五道始源沙暴，一段时间后向你的光标汇聚并产生大爆炸
 		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得{$Buffs.AeolianEarthBuff.DisplayName}增益
-		{$Buffs.AeolianEarthBuff.DisplayName}增益会增加{0}%伤害减免和{1}%伤害
+		{$Buffs.AeolianEarthBuff.DisplayName}增益会增加{0}%伤害减免和{1}%伤害，并大幅提升魔力再生
 		'''
 }
 
@@ -664,7 +664,7 @@ PrimordialEarth: {
 		'''
 		发射两道相互汇聚并爆炸的附魔沙暴
 		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得{$Buffs.SandsWindBuff.DisplayName}增益
-		{$Buffs.SandsWindBuff.DisplayName}增益会增加{0}点防御和{1}%伤害
+		{$Buffs.SandsWindBuff.DisplayName}增益会增加{0}点防御和{1}%伤害，并大幅提升魔力再生
 		'''
 }
 

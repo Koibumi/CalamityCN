@@ -695,7 +695,11 @@ GrandGuardian: {
 
 GreatswordofJudgement: {
 	DisplayName: Greatsword of Judgement
-	Tooltip: Fires a piercing energy wave that releases homing stars as it flies
+	Tooltip:
+		'''
+		Fires a piercing energy wave that releases homing stars as it flies
+		Hits with the blade summon two stronger stars from behind you
+		'''
 }
 
 Greentide: {
@@ -765,16 +769,6 @@ InsidiousImpaler: {
 		'''
 		Throws self-propelling radioactive harpoons which chase foes
 		Harpoons ricochet at close range for additional hits
-		'''
-}
-
-IridescentExcalibur: {
-	DisplayName: Iridescent Excalibur
-	Tooltip:
-		'''
-		True melee strikes freeze enemies
-		Fires rainbow beams that change their behavior based on their color
-		Press <right> for true melee
 		'''
 }
 
@@ -958,7 +952,6 @@ Orderbringer: {
 	Tooltip:
 		'''
 		Fires piercing energy waves and summons four homing stars near your cursor
-		Energy waves deal more damage with each consecutive hit
 		Hits with the blade summon two beams from the sky
 		'No matter where you may be you are never alone'
 		'''

@@ -675,7 +675,7 @@ AeolianEarthBuff: {
 	Description:
 		'''
 		You are strengthened by primordial powers
-		Damage reduction increased by {0}%, damage increased by {1}%
+		Damage reduction increased by {0}%, damage increased by {1}%, and massively buffed mana regen
 		'''
 }
 
@@ -885,7 +885,7 @@ SandsWindBuff: {
 	Description:
 		'''
 		You are strengthened by the powers of sand
-		Defense increased by {0}, damage increased by {1}%
+		Defense increased by {0}, damage increased by {1}%, and greatly buffed mana regen 
 		'''
 }
 

@@ -1240,16 +1240,14 @@ SuperradiantSlaughterer: {
 	MainInfo:
 		'''
 		Hold <left> to rev up an elemental buzzsaw that deals close-range damage
-		Release <left> to fire the buzzsaw to lacerate foes, bouncing off tiles and returning after winding down
-		When returning, the saws release extra homing bolts depending on the number of enemy and tile hits
-		Revving up the saws increases their damage and allows them to pierce more enemies
+		Release <left> to fire the buzzsaw which bounces off tiles, releasing homing bolts when returning depending on hits
+		Revving up the saw increases its damage and allows it to pierce more enemies
 		'''
 	AltInfo:
 		'''
-		Press <right> to eject a lingering buzzsaw towards the cursor that fires homing bolts
+		Press <right> to eject a lingering buzzsaw towards the cursor on a {0} second cooldown
 		Double <right> to rapidly propel yourself in the direction you are moving
-		This ability has a {0} second cooldown
-		During this cooldown, buzzsaws home to the cursor and constantly release homing bolts while returning
+		During the cooldown, buzzsaws home to the cursor and constantly release homing bolts while returning
 		'''
 }
 

@@ -1525,15 +1525,6 @@ RuinMedallion: {
 		'''
 }
 
-RustyMedallion: {
-	DisplayName: Rusty Medallion
-	Tooltip:
-		'''
-		Causes most ranged weapons to release acid droplets from the sky
-		Grants immunity to Irradiated
-		'''
-}
-
 SandCloak: {
 	DisplayName: Sand Cloak
 	Tooltip:
@@ -2170,6 +2161,11 @@ HapuFruit: {
 	Tooltip: "'A fruit that calms your nerves (may have unintended side effects)'"
 }
 
+LucisSight: {
+	DisplayName: Luci's Sight
+	Tooltip: "'Fashionable glasses? In Earthia's current economy?!'"
+}
+
 OracleHeadphones: {
 	DisplayName: Oracle Headphones
 	Tooltip: "'Hey game's over!'"
@@ -2212,7 +2208,7 @@ XyksBlessingBlue: {
 	DisplayName: Xyk's Blessing (Blue)
 	Tooltip:
 		'''
-		Applies visual effects to your dashes and deaths
+		Applies visual effects to your dashes, wings, and deaths
 		<right> to transform
 		'It's simply too much to turn back now; passion and time have long since stained it.
 		[c/5f8ae1:Have I always been so selfish?']
@@ -2223,7 +2219,7 @@ XyksBlessingOrange: {
 	DisplayName: Xyk's Blessing (Orange)
 	Tooltip:
 		'''
-		Applies visual effects to your dashes and deaths
+		Applies visual effects to your dashes, wings, and deaths
 		<right> to transform
 		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
 		[c/E1B65F:Prove that it was never a waste.']

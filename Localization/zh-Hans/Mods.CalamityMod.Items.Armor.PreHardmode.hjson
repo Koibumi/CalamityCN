@@ -8,7 +8,7 @@ AerospecBreastplate: {
 		'''
 }
 
-AerospecHat: {
+AerospecHeadMagic: {
 	DisplayName: 天蓝帽
 	Tooltip: 增加10%魔法伤害和30点最大魔力值
 	SetBonus:
@@ -18,7 +18,7 @@ AerospecHat: {
 		'''
 }
 
-AerospecHeadgear: {
+AerospecHeadRogue: {
 	DisplayName: 天蓝头套
 	Tooltip: 增加10%盗贼伤害和5%移动速度
 	SetBonus:
@@ -28,7 +28,7 @@ AerospecHeadgear: {
 		'''
 }
 
-AerospecHelm: {
+AerospecHeadMelee: {
 	DisplayName: 天蓝战盔
 	Tooltip: 增加10%近战伤害
 	SetBonus:
@@ -38,7 +38,7 @@ AerospecHelm: {
 		'''
 }
 
-AerospecHelmet: {
+AerospecHeadSummon: {
 	DisplayName: 天蓝头盔
 	Tooltip: 增加10%召唤伤害和5%移动速度
 	SetBonus:
@@ -48,7 +48,7 @@ AerospecHelmet: {
 		'''
 }
 
-AerospecHood: {
+AerospecHeadRanged: {
 	DisplayName: 天蓝兜帽
 	Tooltip: 增加10%远程伤害
 	SetBonus: 增加5%移动速度和远程暴击率

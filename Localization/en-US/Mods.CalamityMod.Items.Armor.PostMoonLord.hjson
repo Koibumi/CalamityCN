@@ -17,7 +17,7 @@ AuricTeslaCuisses: {
 		'''
 }
 
-AuricTeslaHoodedFacemask: {
+AuricTeslaHeadRanged: {
 	DisplayName: Auric Tesla Hooded Facemask
 	Tooltip: 30% increased ranged damage and critical strike chance
 	SetBonus:
@@ -45,7 +45,7 @@ AuricTeslaHoodedFacemask: {
 		'''
 }
 
-AuricTeslaPlumedHelm: {
+AuricTeslaHeadRogue: {
 	DisplayName: Auric Tesla Plumed Helm
 	Tooltip:
 		'''
@@ -78,7 +78,7 @@ AuricTeslaPlumedHelm: {
 		'''
 }
 
-AuricTeslaRoyalHelm: {
+AuricTeslaHeadMelee: {
 	DisplayName: Auric Tesla Royal Helm
 	Tooltip:
 		'''
@@ -112,7 +112,7 @@ AuricTeslaRoyalHelm: {
 		'''
 }
 
-AuricTeslaSpaceHelmet: {
+AuricTeslaHeadSummon: {
 	DisplayName: Auric Tesla Space Helmet
 	Tooltip: 15% increased summon damage
 	SetBonus:
@@ -142,7 +142,7 @@ AuricTeslaSpaceHelmet: {
 		'''
 }
 
-AuricTeslaWireHemmedVisage: {
+AuricTeslaHeadMagic: {
 	DisplayName: Auric Tesla Wire-Hemmed Visage
 	Tooltip: 30% increased magic damage, 20% increased magic critical strike chance, +100 max mana and 20% reduced mana usage
 	SetBonus:

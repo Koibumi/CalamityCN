@@ -17,7 +17,7 @@ AuricTeslaCuisses: {
 		'''
 }
 
-AuricTeslaHoodedFacemask: {
+AuricTeslaHeadRanged: {
 	DisplayName: 金兜铁面盔
 	Tooltip: 增加30%远程伤害和远程暴击率
 	SetBonus:
@@ -45,7 +45,7 @@ AuricTeslaHoodedFacemask: {
 		'''
 }
 
-AuricTeslaPlumedHelm: {
+AuricTeslaHeadRogue: {
 	DisplayName: 金羽十杀盔
 	Tooltip:
 		'''
@@ -78,7 +78,7 @@ AuricTeslaPlumedHelm: {
 		'''
 }
 
-AuricTeslaRoyalHelm: {
+AuricTeslaHeadMelee: {
 	DisplayName: 金源耀日盔
 	Tooltip:
 		'''
@@ -112,7 +112,7 @@ AuricTeslaRoyalHelm: {
 		'''
 }
 
-AuricTeslaSpaceHelmet: {
+AuricTeslaHeadSummon: {
 	DisplayName: 金宇星界盔
 	Tooltip: 增加15%召唤伤害
 	SetBonus:
@@ -142,7 +142,7 @@ AuricTeslaSpaceHelmet: {
 		'''
 }
 
-AuricTeslaWireHemmedVisage: {
+AuricTeslaHeadMagic: {
 	DisplayName: 金虚万象盔
 	Tooltip: 增加30%魔法伤害、20%魔法暴击率和100点最大魔力值并降低20%魔力消耗
 	SetBonus:

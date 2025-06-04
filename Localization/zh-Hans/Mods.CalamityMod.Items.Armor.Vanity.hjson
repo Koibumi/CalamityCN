@@ -128,6 +128,21 @@ LeviathanMask: {
 	Tooltip: ""
 }
 
+LucisBoots: {
+	DisplayName: Luci's Boots
+	Tooltip: "'One small step a time, you can do this.'"
+}
+
+LucisHairstyle: {
+	DisplayName: Luci's Hairstyle
+	Tooltip: "'Hero of Light, Luci Skyshot.'"
+}
+
+LucisMilitaryUniform: {
+	DisplayName: Luci's Military Uniform
+	Tooltip: "'Bearing the iconic Liberation Army insignia of freedom.'"
+}
+
 OldDukeMask: {
 	DisplayName: 硫海遗爵面具
 	Tooltip: ""

@@ -154,9 +154,6 @@ HolyColliderHolyFire.DisplayName: 集束焰火
 IceBombFriendly.DisplayName: 冰炸弹
 IllustriousKnife.DisplayName: 圣光飞刀
 InsidiousHarpoon.DisplayName: 阴险鱼叉
-IridescentExcaliburSlash.DisplayName: 绚辉圣斩
-IridescentExcaliburSlash2.DisplayName: 绚辉圣斩
-IridescentExcaliburSlash3.DisplayName: 绚辉圣斩
 JudgementProj.DisplayName: 裁决
 LamentationsOfTheChained.DisplayName: 羁系者之哀歌
 LaserFountain.DisplayName: 射线喷井
@@ -237,6 +234,7 @@ StarburstBeam.DisplayName: 星光短剑
 StarburstSHIV.DisplayName: 短 剑
 StarnightBeam.DisplayName: 夜之星光
 StarofJudgement.DisplayName: 制裁之星
+StarofOrder.DisplayName: 秩序之星
 StellarContemptBlast.DisplayName: 星体爆炸
 StellarContemptEcho.DisplayName: 幽灵星体击碎者
 StellarContemptHammer.DisplayName: 星体击碎者

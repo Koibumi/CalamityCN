@@ -8,7 +8,7 @@ AerospecBreastplate: {
 		'''
 }
 
-AerospecHat: {
+AerospecHeadMagic: {
 	DisplayName: Aerospec Hat
 	Tooltip: 10% increased magic damage and +30 max mana
 	SetBonus:
@@ -18,7 +18,7 @@ AerospecHat: {
 		'''
 }
 
-AerospecHeadgear: {
+AerospecHeadRogue: {
 	DisplayName: Aerospec Headgear
 	Tooltip: 10% increased rogue damage and 5% increased movement speed
 	SetBonus:
@@ -28,7 +28,7 @@ AerospecHeadgear: {
 		'''
 }
 
-AerospecHelm: {
+AerospecHeadMelee: {
 	DisplayName: Aerospec Helm
 	Tooltip: 10% increased melee damage
 	SetBonus:
@@ -38,7 +38,7 @@ AerospecHelm: {
 		'''
 }
 
-AerospecHelmet: {
+AerospecHeadSummon: {
 	DisplayName: Aerospec Helmet
 	Tooltip: 10% increased summon damage and 5% increased movement speed
 	SetBonus:
@@ -48,7 +48,7 @@ AerospecHelmet: {
 		'''
 }
 
-AerospecHood: {
+AerospecHeadRanged: {
 	DisplayName: Aerospec Hood
 	Tooltip: 10% increased ranged damage
 	SetBonus: 5% increased movement speed and ranged critical strike chance
