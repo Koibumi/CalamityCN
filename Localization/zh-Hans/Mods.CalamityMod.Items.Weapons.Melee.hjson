@@ -695,7 +695,7 @@ GrandGuardian: {
 
 GreatswordofJudgement: {
 	DisplayName: 制裁大剑
-	Tooltip: 
+	Tooltip:
 		'''
 		发射一道穿透能量波，在飞行过程中释放追踪星星
 		剑刃直接命中时会从你背后召唤两颗更强的星星

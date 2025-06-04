@@ -443,7 +443,9 @@ StylistChat: {
 	ProfanedDonuts: 哇偶，它们太可爱了，你为它们起名字了吗？
 }
 
-TavernkeepChat.FullMoon: 想要一些私酿吗？
+TavernkeepChat: {
+	FullMoon: 想要一些私酿吗？
+}
 
 TaxCollectorChat: {
 	DoGDefeated: 你说什么吞噬者？资金吞噬者，如果它的工资能是任何东西！
@@ -453,7 +455,9 @@ TaxCollectorChat: {
 	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
 }
 
-TruffleChat.Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
+TruffleChat: {
+	Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
+}
 
 WitchDoctorChat: {
 	BloodMoon: 这是一个很好的时间来挑选最好的药水成分。

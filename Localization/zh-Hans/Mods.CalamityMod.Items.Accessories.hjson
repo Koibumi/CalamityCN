@@ -1544,15 +1544,6 @@ SandSharkToothNecklace: {
 		'''
 }
 
-ScuttlersJewel: {
-	DisplayName: 潜遁者宝石
-	Tooltip:
-		'''
-		潜伏攻击的弹幕在被摧毁时会生成宝石钉
-		也可以通过提炼机进行拆分
-		'''
-}
-
 ScionsCurio: {
 	DisplayName: Scions Curio
 	Tooltip:
@@ -1561,6 +1552,15 @@ ScionsCurio: {
 		辐射的持续伤害受你的远程伤害和暴击率影响
 		击杀时，敌人会爆炸，散播辐射
 		受伤会使curio以爆炸的方式反击
+		'''
+}
+
+ScuttlersJewel: {
+	DisplayName: 潜遁者宝石
+	Tooltip:
+		'''
+		潜伏攻击的弹幕在被摧毁时会生成宝石钉
+		也可以通过提炼机进行拆分
 		'''
 }
 

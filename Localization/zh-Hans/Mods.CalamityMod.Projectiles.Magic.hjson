@@ -214,8 +214,6 @@ SpiritDust.DisplayName: 灵魂之尘
 Starblast.DisplayName: 星爆
 StardustElementalBeam.DisplayName: 星尘光束
 StickyFeather.DisplayName: 粘性羽毛
-SylvBolt.DisplayName: 仙子伊布光束
-SylvRay.DisplayName: 仙子伊布光线
 TacticiansElectricBoom.DisplayName: 电流爆裂
 TacticiansTrumpCardProj.DisplayName: 王牌光束
 TearsofHeavenProjectile.DisplayName: 天堂之泪
@@ -261,3 +259,5 @@ WyvernFeatherPurple.DisplayName: 紫色星龙羽
 WyvernProjectile.DisplayName: 星龙
 YharimsCrystalBeam.DisplayName: 亚利姆水晶聚焦射线
 YharimsCrystalPrism.DisplayName: 爆菌水京
+SylvBolt.DisplayName: 仙子伊布光束
+SylvRay.DisplayName: 仙子伊布光线
