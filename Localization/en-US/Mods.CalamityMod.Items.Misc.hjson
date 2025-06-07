@@ -415,6 +415,17 @@ ColdheartIcicle: {
 	Tooltip: "'N(ice) work'"
 }
 
+DisgustingMeat: {
+	DisplayName: Disgusting Meat
+	Tooltip:
+		'''
+		Debug item, spawn and use to remove permanent upgrades
+		<left> will remove health and mana upgrades
+		<right> will remove rage and adrenaline upgrades, plus other miscellaneous boosters
+		Removed boosters will be vomited out of you as items
+		'''
+}
+
 MomentumCapacitor: {
 	DisplayName: Momentum Capacitor
 	GFBName: Burden Breaker

@@ -415,6 +415,18 @@ ColdheartIcicle: {
 	Tooltip: “冰之杰作”
 }
 
+DisgustingMeat: {
+	DisplayName: Disgusting Meat
+	Tooltip:
+		'''
+		我说调试物品暂不翻译你二龙吗
+		Debug item, spawn and use to remove permanent upgrades
+		<left> will remove health and mana upgrades
+		<right> will remove rage and adrenaline upgrades, plus other miscellaneous boosters
+		Removed boosters will be vomited out of you as items
+		'''
+}
+
 MomentumCapacitor: {
 	DisplayName: 动量电容器
 	GFBName: 解脱樊笼
