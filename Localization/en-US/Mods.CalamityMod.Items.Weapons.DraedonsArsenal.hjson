@@ -39,16 +39,6 @@ GaussDagger: {
 		'''
 }
 
-GaussPistol: {
-	DisplayName: Gauss Pistol
-	Tooltip:
-		'''
-		Fires a devastating high-velocity blast with extreme knockback
-		[c/1FFBFF:'Though this arcane pistol may seem mundane, it is deceivingly powerful.]
-		[c/1FFBFF:One of the many advantages of magical firearms is that size does not equal power.']
-		'''
-}
-
 HolofiberImmolator: {
 	DisplayName: R-PMA: Holofiber Immolator
 	Tooltip:
@@ -263,5 +253,18 @@ WavePounder: {
 		'''
 		Throws a bomb which explodes into a agonizingly forceful shockwave
 		Stealth strikes emit absurdly powerful shockwaves
+		'''
+}
+
+Vulcan: {
+	DisplayName: R-GSS: Vulcan
+	Tooltip:
+		'''
+		A mana-fueled Gatling cannon that fires in bursts
+		Press <right> to launch a magnetic harpoon which attracts your shots
+		Launching a harpoon makes burst fire mode last longer
+		When a harpoon expires, all magnetized shots launch at nearby enemies with increased damage
+		[c/1FFBFF:'Originally a ceiling mounted mining beam, the removal of its battery reduced its heft only marginally.]
+		[c/1FFBFF:It saw little use and many complaints from the battlemage corps.']
 		'''
 }

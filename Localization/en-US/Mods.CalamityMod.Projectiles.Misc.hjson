@@ -46,6 +46,8 @@ SystemBaneProjectile.DisplayName: System Bane
 TeslaCannonShot.DisplayName: Tesla Beam
 UnstableMatter.DisplayName: Unstable Matter
 VoltageStream.DisplayName: Voltage Stream
+VulcanProjectile.DisplayName: Vulcan Shot
+VulcanSpear.DisplayName: Vulcanite Lance
 WavePounderBoom.DisplayName: Explosion
 WavePounderProjectile.DisplayName: Wave Pounder
 // Environmental

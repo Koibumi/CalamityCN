@@ -46,6 +46,8 @@ SystemBaneProjectile.DisplayName: 神经系统紊乱装置
 TeslaCannonShot.DisplayName: 特斯拉光束
 UnstableMatter.DisplayName: 不稳定物质
 VoltageStream.DisplayName: 高压电流
+VulcanProjectile.DisplayName: Vulcan Shot
+VulcanSpear.DisplayName: Vulcanite Lance
 WavePounderBoom.DisplayName: 震荡波
 WavePounderProjectile.DisplayName: 震波炸弹
 // Environmental

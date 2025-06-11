@@ -419,11 +419,10 @@ DisgustingMeat: {
 	DisplayName: Disgusting Meat
 	Tooltip:
 		'''
-		我说调试物品暂不翻译你二龙吗
-		Debug item, spawn and use to remove permanent upgrades
-		<left> will remove health and mana upgrades
-		<right> will remove rage and adrenaline upgrades, plus other miscellaneous boosters
-		Removed boosters will be vomited out of you as items
+		调试物品，生成并使用这个物品来移除永久升级
+		<left>将移除生命和魔力值升级
+		<right>将移除怒气，肾上腺素升级和其他强化
+		被移除的强化物品会以物品形式被吐出
 		'''
 }
 

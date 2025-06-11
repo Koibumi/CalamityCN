@@ -39,16 +39,6 @@ GaussDagger: {
 		'''
 }
 
-GaussPistol: {
-	DisplayName: 高斯手枪
-	Tooltip:
-		'''
-		发射毁灭性的极强击退的高速冲击波
-		[c/1FFBFF:“尽管这把神秘的手枪看起来很平凡，但它却是难以置信地强力。]
-		[c/1FFBFF:魔法枪的优点之一是尺寸不等于威力。”]
-		'''
-}
-
 HolofiberImmolator: {
 	DisplayName: R-PMA: Holofiber Immolator
 	Tooltip:
@@ -263,5 +253,18 @@ WavePounder: {
 		'''
 		扔出一颗会爆炸出强烈震荡波的炸弹
 		潜伏攻击会使炸弹释放出更为强劲的震荡波
+		'''
+}
+
+Vulcan: {
+	DisplayName: R-GSS: Vulcan
+	Tooltip:
+		'''
+		一把魔力驱动的点放式加特林炮
+		<right>发射一把磁能鱼叉，能够吸引你发射的子弹
+		发射鱼叉使得点放模式持续的更久
+		当鱼叉消失时，所有被磁化的子弹向附近的敌人发射，并提高伤害
+		[c/1FFBFF:'Originally a ceiling mounted mining beam, the removal of its battery reduced its heft only marginally.]
+		[c/1FFBFF:It saw little use and many complaints from the battlemage corps.']
 		'''
 }
