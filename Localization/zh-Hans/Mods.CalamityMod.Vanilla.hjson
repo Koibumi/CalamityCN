@@ -295,6 +295,7 @@ BuffDescription: {
 	BeetleMight: 近战伤害和攻速分别提升 {0}% 和 {1}%
 	ChaosState: 混沌传送杖暂时无法传送
 	LeafCrystal: 释放强大的生命光流攻击附近敌人
+	Rabies: 降低生命再生，对状态造成影响
 	WarmthExtra: 降低冷冻、冰冻和冰河时代减益的持续时间
 	WeaponImbueConfetti: 所有攻击喷出彩纸
 	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰

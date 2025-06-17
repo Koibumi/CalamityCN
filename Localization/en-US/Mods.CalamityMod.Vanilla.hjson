@@ -295,6 +295,7 @@ BuffDescription: {
 	BeetleMight: Melee damage and speed increase by {0}% and {1}% respectively
 	ChaosState: Rod of Discord teleports are disabled
 	LeafCrystal: Emits powerful life pulses at nearby enemies
+	Rabies: Decreased life regen, Causes status effects
 	WarmthExtra: Reduced durations of Chilled, Frozen, and Glacial State
 	WeaponImbueConfetti: All attacks cause confetti to appear
 	WeaponImbueCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames

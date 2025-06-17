@@ -32,8 +32,34 @@ CurrentlySelected: Currently Selected : {0}
 DifficultyClickText: "[c/919191:Click to select a difficulty mode]"
 ExpertDifficultyLock: "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]"
 ChangingTheRules: "[c/919191:You cannot change the rules now!]"
-NoDifficulty: None
-NoDifficultyInfo: The classic Terraria experience, with no Calamity difficulty changes
+Classic: Classic
+ClassicEnabled: Classic Mode is enabled
+ClassicInfo: Your Adventure Begins... A far more relaxed Terraria experience
+Expert: Expert
+ExpertEnabled: Expert Mode is enabled
+ExpertShortInfo: "[c/b8860b:Fortune & Glory, Kid. For those looking for a more difficult vanilla experience]"
+ExpertExpandedInfo:
+	'''
+	[c/a87a07:Most bosses gain new attacks and more difficult attack patterns]
+	[c/a87a07:Most enemies have twice as much health, deal twice as much damage and receive 10% less knockback]
+	[c/a87a07:Certain enemies have new attacks, can inflict new debuffs or have a higher chance of inflicting debuffs they already had]
+	[c/a87a07:Enemies drop more loot, as well as having higher chances]
+	[c/a87a07:Players drop more of their coins on death]
+	'''
+ExpertActivate: Expert is active
+ExpertDeactivate: Expert is not active
+Master: Master
+MasterEnabled: Master Mode is enabled
+MasterShortInfo: "[c/556b2f:Game over man, game over! A tougher step up in stats from Expert Mode]"
+MasterExpandedInfo:
+	'''
+	[c/4d612a:Most enemies have even more health and knockback resistance added on from Expert Mode]
+	[c/4d612a:Bosses have new exclusive vanity rewards]
+	[c/4d612a:Players drop ALL their coins on death]
+	[c/4d612a:Players gain an additional accessory slot at the start of the game]
+	'''
+MasterActivate: Master is active
+MasterDeactivate: Master is not active
 Revengeance: Revengeance
 RevengeanceEnabled: Revengeance Mode is enabled
 RevengeanceShortInfo: "[c/F54254:The intended Calamity experience! Can only be enabled in Expert Mode!]"
@@ -55,7 +81,7 @@ DeathEnabled: Death Mode is enabled
 DeathShortInfo: "[c/C82DF7:A far more difficult challenge than Revengeance Mode! Can only be enabled in Master Mode!]"
 DeathExpandedInfo:
 	'''
-	[c/B834E0:All foes will pose a much larger threat with highly aggressive AIs and increased damage]
+	[c/B834E0:All foes will pose a much larger threat with highly aggressive AIs]
 	[c/B834E0:Bosses have substantially harder AI changes. Enemies are even more numerous and can easily overwhelm you]
 	[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous]
 	[c/E945FF:Vigilance and tenacity are crucial to survival]

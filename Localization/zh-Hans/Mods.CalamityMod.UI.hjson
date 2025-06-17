@@ -32,20 +32,46 @@ CurrentlySelected: 当前选择的难度：{0}
 DifficultyClickText: "[c/919191:点击选择难度]"
 ExpertDifficultyLock: "[c/919191:只能在专家模式及以上时开启更高难度]"
 ChangingTheRules: "[c/919191:你现在无法改变规则]"
-NoDifficulty: 无
-NoDifficultyInfo: 没有开启任何灾厄难度的泰拉之旅
+Classic: 经典
+ClassicEnabled: 经典模式已开启
+ClassicInfo: 冒险从这里开始……更为轻松惬意的泰拉瑞亚之旅
+Expert: 专家
+ExpertEnabled: 专家模式已开启
+ExpertShortInfo: "[c/b8860b:为财富和荣誉而战，孩子。为那些追求原版更高难度的玩家而准备]"
+ExpertExpandedInfo:
+	'''
+	[c/a87a07:大部分Boss获得了新的攻击和更复杂的攻击模式]
+	[c/a87a07:大部分敌怪拥有两倍生命值，造成两倍伤害且受到的击退降低10%]
+	[c/a87a07:一些敌怪拥有新的攻击，可以施加新的减益或有更高概率施加本就可施加的减益]
+	[c/a87a07:敌怪掉落更多的战利品，且掉落的概率更高]
+	[c/a87a07:玩家死亡时会掉落更多钱币]
+	'''
+ExpertActivate: 专家模式已开启
+ExpertDeactivate: 专家模式已关闭
+Master: 大师
+MasterEnabled: 大师模式已开启
+MasterShortInfo: "[c/556b2f:游戏结束了，伙计，游戏结束了！比专家模式数值更高的提升]"
+MasterExpandedInfo:
+	'''
+	[c/4d612a:大部分敌怪在专家模式基础上有更多的生命值和更高的击退抗性]
+	[c/4d612a:Boss们拥有新的独有装饰性奖励]
+	[c/4d612a:玩家死亡时会掉落所有钱币]
+	[c/4d612a:玩家在游戏开始时会获得一个额外饰品栏]
+	'''
+MasterActivate: 大师模式已开启
+MasterDeactivate: 大师模式已关闭
 Revengeance: 复仇
 RevengeanceEnabled: 复仇模式已开启
 RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！只能在专家模式开启！]"
 RevengeanceExpandedInfo:
 	'''
-	[c/B55362:开启] [c/85FFE9:肾上腺素] [c/B55362:机制。 对战Boss时可积攒肾上腺素条，受击时肾上腺素条归零。]
+	[c/B55362:开启] [c/85FFE9:肾上腺素] [c/B55362:机制。对战Boss时可积攒肾上腺素条，受击时肾上腺素条归零]
 	[c/B55362:    当肾上腺素条满时，按下] {1} [c/B55362:提升大量伤害]
-	[c/B55362:开启] [c/FF8B54:怒气] [c/B55362:机制。接近敌怪或使用特定物品时会积攒怒气条。]
+	[c/B55362:开启] [c/FF8B54:怒气] [c/B55362:机制。接近敌怪或使用特定物品时会积攒怒气条]
 	[c/B55362:    当怒气条满时，按下] {0} [c/B55362:获得暂时的伤害提升]
 	[c/B55362:大多数敌怪属性提升并且有着更具攻击性的AI]
-	[c/B55362:Boss们拥有新的AI和阶段，会掉落大师模式专属物品。敌怪生成更频繁。]
-	[c/F7342A:本模式比专家模式难度更高。准备好迎接挑战就开启吧。]
+	[c/B55362:Boss们拥有新的AI和阶段，会掉落大师模式专属物品。敌怪生成更频繁]
+	[c/F7342A:本模式比专家模式难度更高。准备好迎接挑战就开启吧]
 	'''
 RevengeanceActivate: 复仇模式已开启
 RevengeanceDeactivate: 复仇模式已关闭
@@ -55,7 +81,7 @@ DeathEnabled: 死亡模式已开启
 DeathShortInfo: "[c/C82DF7:远比复仇模式更困难的挑战！只能在大师模式开启！]"
 DeathExpandedInfo:
 	'''
-	[c/B834E0:所有敌怪有着更具攻击性的AI，造成的伤害更高。]
+	[c/B834E0:所有敌怪有着更具攻击性的AI]
 	[c/B834E0:Boss们的AI变得更难，敌人多到可以淹没你]
 	[c/B834E0:减益更致命，深渊更危险]
 	[c/E945FF:保持警惕，坚韧不拔至关重要]

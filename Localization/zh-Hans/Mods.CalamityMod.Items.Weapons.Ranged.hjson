@@ -453,9 +453,11 @@ FirestormCannon: {
 	DisplayName: 烈焰风暴
 	Tooltip:
 		'''
-		持续释放武器化的信号弹
-		右键以发射密集的信号弹
+		快速发射一连串照明弹，并让武器积累灼热值
+		发射过久会使武器过热，短时间内无法使用
+		按下<right>收起武器，保留其灼热值
 		70%几率节省弹药
+		'What could go wrong?'
 		'''
 }
 
@@ -1154,8 +1156,13 @@ SpectralstormCannon: {
 	DisplayName: 光谱风暴
 	Tooltip:
 		'''
-		发射失落之魂与信号弹
+		发射一连串光谱照明弹，并让武器积累灼热值
+		降温时会持续释放寻热幻灵
+		发射过久会使武器过热，短时间内无法使用
+		但是，触发过热时会释放一阵强大的灵魂并重置灼热值
+		按下<right>收起武器，保留其灼热值
 		70%几率节省弹药
+		'Ectoplasmic blast rated visor mandatory'
 		'''
 }
 
