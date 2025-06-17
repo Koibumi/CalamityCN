@@ -10,6 +10,18 @@ AerialTracker: {
 		'''
 }
 
+CountermeasureMitt: {
+	DisplayName: B-LSR: Countermeasure Mitt
+	Tooltip:
+		'''
+		一副每个指尖带有激光发射器的精密焊接手套
+		<right>让所有发射器聚焦为总是暴击的短程掌心冲击
+		掌心冲击未命中时冷却时间大幅缩短
+		[c/1FFBFF:'Most battalions prefer to either spread attacks widely, or focus on a singular target.]
+		[c/1FFBFF:This glove caters to both, though it will never bridge the gap between their strategies.']
+		'''
+}
+
 GalvanizingGlaive: {
 	DisplayName: 磁能分割刀
 	Tooltip:
@@ -18,15 +30,6 @@ GalvanizingGlaive: {
 		挥舞完毕后长矛会释放能量脉冲
 		[c/1FFBFF:“它作为工具最好的用途是能将一个东西迅速分割为两个]
 		[c/1FFBFF:这也是它被当做武器的原因”]
-		'''
-}
-
-GatlingLaser: {
-	DisplayName: 激光加特林
-	Tooltip:
-		'''
-		快速发射加速激光消灭敌人
-		[c/1FFBFF:“亚利姆舰队和基地防御部队配装的大型激光炮”]
 		'''
 }
 

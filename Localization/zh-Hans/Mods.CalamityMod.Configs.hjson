@@ -12,7 +12,7 @@ CalamityClientConfig: {
 
 	AbyssLayer3Alt: {
 		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] 深渊三层音乐替代"
-		Tooltip: 在深渊的热泉区域播放灾厄OST——“"R'lyehian Depths"”。
+		Tooltip: 在深渊的热泉区域播放灾厄OST——“R'lyehian Depths”。
 	}
 
 	AdrenalineMeterPosX: {

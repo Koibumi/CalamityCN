@@ -8,7 +8,7 @@ AnomalysNanogunHoldout.DisplayName: The Anomaly's Nanogun
 AnomalysNanogunMPFBBoom.DisplayName: MPFB Explosion
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastator
 AnomalysNanogunPlasmaBeam.DisplayName: Plasma Beam
-GatlingLaserShot.DisplayName: Gatling Laser
+CountermeasurePalmBlast.DisplayName: Palm Blast
 GaussEnergy.DisplayName: Gauss Energy
 GaussFlux.DisplayName: Gauss Flux
 GaussPistolShot.DisplayName: Gauss Shot

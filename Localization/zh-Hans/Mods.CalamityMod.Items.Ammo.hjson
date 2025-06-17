@@ -143,7 +143,7 @@ MortarRound: {
 }
 
 RubberMortarRound: {
-	DisplayName: 橡胶迫击炮炮弹
+	DisplayName: 橡胶迫击炮弹
 	Tooltip:
 		'''
 		专用高爆弹

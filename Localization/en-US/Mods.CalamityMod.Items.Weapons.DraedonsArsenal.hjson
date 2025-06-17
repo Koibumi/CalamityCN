@@ -10,6 +10,18 @@ AerialTracker: {
 		'''
 }
 
+CountermeasureMitt: {
+	DisplayName: B-LSR: Countermeasure Mitt
+	Tooltip:
+		'''
+		A precision welding glove with laser emitters in each fingertip
+		<right> to focus all emitters into a short range palm blast that always critically strikes
+		Palm blasts have a cooldown which is significantly shorter if they miss
+		[c/1FFBFF:'Most battalions prefer to either spread attacks widely, or focus on a singular target.]
+		[c/1FFBFF:This glove caters to both, though it will never bridge the gap between their strategies.']
+		'''
+}
+
 GalvanizingGlaive: {
 	DisplayName: Galvanizing Glaive
 	Tooltip:
@@ -18,15 +30,6 @@ GalvanizingGlaive: {
 		When finished, the spear discharges an extra pulse of energy
 		[c/1FFBFF:'A tool which quickly and neatly cleaves one object into two.]
 		[c/1FFBFF:Its efficiency and reliability as a weapon is unmistakable.']
-		'''
-}
-
-GatlingLaser: {
-	DisplayName: Gatling Laser
-	Tooltip:
-		'''
-		Fires a rapid barrage of accelerated lasers to annihilate foes
-		[c/1FFBFF:'Developed to be used primarily by Yharim's fleet and base defense force.']
 		'''
 }
 

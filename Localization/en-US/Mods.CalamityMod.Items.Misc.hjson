@@ -420,7 +420,7 @@ DisgustingMeat: {
 	Tooltip:
 		'''
 		Debug item, spawn and use to remove permanent upgrades
-		<left> will remove health and mana upgrades
+		<left> will remove health and mana upgrades, use with no Calamity upgrades to remove vanilla upgrades
 		<right> will remove rage and adrenaline upgrades, plus other miscellaneous boosters
 		Removed boosters will be vomited out of you as items
 		'''
