@@ -5,5 +5,5 @@ modReferences = CalamityMod
 weakReferences =  CalamityModMusic
 hideCode = true
 buildIgnore = *.csproj, compile_temp\*, obj\*, bin\*, .vs\*. lib\*
-side=client
+side=both
 translationMod = true
