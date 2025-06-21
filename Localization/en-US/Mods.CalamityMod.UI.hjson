@@ -50,13 +50,13 @@ ExpertActivate: Expert is active
 ExpertDeactivate: Expert is not active
 Master: Master
 MasterEnabled: Master Mode is enabled
-MasterShortInfo: "[c/556b2f:Game over man, game over! A tougher step up in stats from Expert Mode]"
+MasterShortInfo: "[c/00ad79:Game over man, game over! A tougher step up in stats from Expert Mode]"
 MasterExpandedInfo:
 	'''
-	[c/4d612a:Most enemies have even more health and knockback resistance added on from Expert Mode]
-	[c/4d612a:Bosses have new exclusive vanity rewards]
-	[c/4d612a:Players drop ALL their coins on death]
-	[c/4d612a:Players gain an additional accessory slot at the start of the game]
+	[c/029c6d:Most enemies have even more health and knockback resistance added on from Expert Mode]
+	[c/029c6d:Bosses have new exclusive vanity rewards]
+	[c/029c6d:Players drop ALL their coins on death]
+	[c/029c6d:Players gain an additional accessory slot at the start of the game]
 	'''
 MasterActivate: Master is active
 MasterDeactivate: Master is not active
@@ -143,7 +143,7 @@ Cooldowns: {
 	PrismaticLaser: Prismatic Laser Barrage Cooldown
 	ProfanedSoulShieldDurability: Profaned Soul Shield Durability
 	ProfanedSoulShieldRecharge: Profaned Soul Shield Recharge
-	RaiderBoost: Extra Critical Chance
+	RaidersBoost: Extra Critical Chance
 	RelicOfResilienceCooldown: Relic of Resilience Cooldown
 	RogueBooster: Rogue Booster Cooldown
 	SandCloak: Sand Cloak Cooldown

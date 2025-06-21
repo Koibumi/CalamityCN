@@ -600,8 +600,8 @@ InfernalKris: {
 	DisplayName: Infernal Kris
 	Tooltip:
 		'''
-		Throws a burning dagger that starts spinning after travelling a short distance, inflicting additional damage while spinning
-		Stealth strikes cause the dagger to be engulfed in flames, exploding on contact with walls and enemies
+		Rapidly throws burning daggers
+		Stealth strikes engulf the dagger in flames, exploding when hitting walls and enemies
 		'''
 }
 

@@ -27,7 +27,7 @@ AddedTooltip: {
 		这会提供+1.5HP/s生命再生并加速自然生命再生
 		生命汲取会基于被击中敌怪的数量叠加
 		'''
-	WarmthPotion: 大幅降低冷冻、冰冻和冰河时代减益的持续时间
+	WarmthPotion: 大幅降低冷冻和冰冻减益的持续时间
 	HandWarmer: 穿着全套的防雪盔甲时额外提供生命再生
 	GoldenFishingRod: 鱼线永远不会断裂
 	// Step Stool
@@ -296,7 +296,7 @@ BuffDescription: {
 	ChaosState: 混沌传送杖暂时无法传送
 	LeafCrystal: 释放强大的生命光流攻击附近敌人
 	Rabies: 降低生命再生，对状态造成影响
-	WarmthExtra: 降低冷冻、冰冻和冰河时代减益的持续时间
+	WarmthExtra: 降低冷冻和冰冻减益的持续时间
 	WeaponImbueConfetti: 所有攻击喷出彩纸
 	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
 	WeaponImbueFire: 近战、鞭子和盗贼攻击会使敌人着火

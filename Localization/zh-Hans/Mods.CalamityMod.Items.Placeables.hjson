@@ -4296,12 +4296,12 @@ WulfrumPanelWall: {
 }
 
 ChargedWulfrumWallMountedBulb: {
-	DisplayName: Mods.CalamityMod.Items.Placeables.ChargedWulfrumWallMountedBulb.DisplayName
+	DisplayName: Charged Wulfrum Wall Mounted Bulb
 	Tooltip: ""
 }
 
 WulfrumWallMountedBulb: {
-	DisplayName: Mods.CalamityMod.Items.Placeables.WulfrumWallMountedBulb.DisplayName
+	DisplayName: Wulfrum Wall Mounted Bulb
 	Tooltip: ""
 }
 

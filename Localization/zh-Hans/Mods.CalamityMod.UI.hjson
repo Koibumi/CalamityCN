@@ -50,13 +50,13 @@ ExpertActivate: 专家模式已开启
 ExpertDeactivate: 专家模式已关闭
 Master: 大师
 MasterEnabled: 大师模式已开启
-MasterShortInfo: "[c/556b2f:游戏结束了，伙计，游戏结束了！比专家模式数值更高的提升]"
+MasterShortInfo: "[c/00ad79:游戏结束了，伙计，游戏结束了！比专家模式数值更高的提升]"
 MasterExpandedInfo:
 	'''
-	[c/4d612a:大部分敌怪在专家模式基础上有更多的生命值和更高的击退抗性]
-	[c/4d612a:Boss们拥有新的独有装饰性奖励]
-	[c/4d612a:玩家死亡时会掉落所有钱币]
-	[c/4d612a:玩家在游戏开始时会获得一个额外饰品栏]
+	[c/029c6d:大部分敌怪在专家模式基础上有更多的生命值和更高的击退抗性]
+	[c/029c6d:Boss们拥有新的独有装饰性奖励]
+	[c/029c6d:玩家死亡时会掉落所有钱币]
+	[c/029c6d:玩家在游戏开始时会获得一个额外饰品栏]
 	'''
 MasterActivate: 大师模式已开启
 MasterDeactivate: 大师模式已关闭
@@ -143,7 +143,7 @@ Cooldowns: {
 	PrismaticLaser: 光棱冷却
 	ProfanedSoulShieldDurability: 亵渎灵魂护盾耐久
 	ProfanedSoulShieldRecharge: 亵渎灵魂护盾充能
-	RaiderBoost: 额外暴击率
+	RaidersBoost: 额外暴击率
 	RelicOfResilienceCooldown: 塑魂冷却
 	RogueBooster: 悖论增幅器冷却
 	SandCloak: 沙尘斗篷冷却
