@@ -3,14 +3,11 @@
 RecipeGroup: {
 	HardmodeAnvil: "{$LegacyMisc.37} 困难模式砧"
 	HardmodeForge: "{$LegacyMisc.37} 困难模式熔炉"
-	AnyLargeGem: "{$LegacyMisc.37} 大宝石"
 	AnyFood: "{$LegacyMisc.37} 食物"
 	AnyEvilBar: "{$LegacyMisc.37} 邪恶锭"
-	AnyEvilPowder: "{$LegacyMisc.37} 邪恶粉末"
 	Boss2Material: 任何 邪恶组织
 	CursedFlameIchor: 任何 困难模式邪恶成分
 	AnyEvilWater: "{$LegacyMisc.37} 邪水"
-	AnyEvilFlask: "{$LegacyMisc.37} 邪恶药剂"
 	AnyEvilBlock: "{$LegacyMisc.37} 邪恶物块"
 	AnyGoodBlock: "{$LegacyMisc.37} 纯净方块"
 	LunarPickaxe: "{$LegacyMisc.37} 夜明锭镐"

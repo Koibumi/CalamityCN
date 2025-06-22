@@ -84,7 +84,7 @@ ArkoftheCosmos: {
 		<right> to snip out the scissor blades in front of you
 		Hitting an enemy with it will parry them, granting you brief invulnerability
 		You can also parry projectiles to make them deal 160 less damage for a short period
-		Parrying will empower the next 15 swings of the sword
+		Parrying will empower the next 16 swings of the sword
 		'''
 	BlastInfo: Double <right> with charges available to cause a Big Rip in spacetime and consume all charges
 }

@@ -3,14 +3,11 @@
 RecipeGroup: {
 	HardmodeAnvil: "{$LegacyMisc.37} Hardmode Anvil"
 	HardmodeForge: "{$LegacyMisc.37} Hardmode Forge"
-	AnyLargeGem: "{$LegacyMisc.37} Large Gem"
 	AnyFood: "{$LegacyMisc.37} Food Item"
 	AnyEvilBar: "{$LegacyMisc.37} Evil Bar"
-	AnyEvilPowder: "{$LegacyMisc.37} Evil Powder"
 	Boss2Material: Shadow Scale or Tissue Sample
 	CursedFlameIchor: Cursed Flame or Ichor
 	AnyEvilWater: "{$LegacyMisc.37} Evil Water"
-	AnyEvilFlask: "{$LegacyMisc.37} Evil Flask"
 	AnyEvilBlock: "{$LegacyMisc.37} Evil Block"
 	AnyGoodBlock: "{$LegacyMisc.37} Good Block"
 	LunarPickaxe: "{$LegacyMisc.37} Lunar Pickaxe"

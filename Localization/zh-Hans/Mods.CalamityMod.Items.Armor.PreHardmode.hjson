@@ -61,13 +61,17 @@ AerospecLeggings: {
 
 DesertProwlerHat: {
 	DisplayName: 沙漠巡游者帽
-	Tooltip: 增加4%远程暴击率和20%不消耗弹药的几率
-	SetBonus: 远程攻击额外造成{0}点伤害
+	Tooltip: 增加4%盗贼暴击率
+	SetBonus:
+		'''
+		增加5%盗贼伤害
+		增加50点最大潜行值
+		'''
 	AbilityBrief: 沙尘覆盖-双击{0}键将自己笼罩在一小片沙尘之中
 	AbilityDescription:
 		'''
 		当在沙尘之中，获得更高的机动性，但防御力大大降低
-		使用远程攻击会立刻驱散沙尘，但会造成{0}%的超级暴击伤害
+		使用盗贼攻击会立刻驱散沙尘，但会造成{0}%的超级暴击伤害
 		超级暴击只在造成的伤害不超过{1}点时才有效
 		此次攻击击杀敌人，冷却时间缩短到{2}秒
 		'''
@@ -80,7 +84,7 @@ DesertProwlerPants: {
 
 DesertProwlerShirt: {
 	DisplayName: 沙漠巡游者衣
-	Tooltip: 增加5%远程暴击率
+	Tooltip: 增加5%盗贼暴击率
 }
 
 MarniteArchitectHeadgear: {
@@ -101,22 +105,22 @@ MarniteArchitectToga: {
 
 SnowRuffianChestplate: {
 	DisplayName: 雪境暴徒胸甲
-	Tooltip: 增加3%盗贼暴击率
+	Tooltip: 增加4%远程暴击率
 }
 
 SnowRuffianGreaves: {
 	DisplayName: 雪境暴徒护胫
-	Tooltip: 增加5%移动速度
+	Tooltip: 增加10%移动速度
 }
 
 SnowRuffianMask: {
 	DisplayName: 雪境暴徒面具
-	Tooltip: 增加2%盗贼伤害
+	Tooltip: 增加2%远程伤害
 	SetBonus:
 		'''
-		增加5%盗贼伤害
-		增加50点最大潜行值
+		增加4%远程伤害和暴击率
 		你可以缓降以消除坠落伤害
+		远程暴击对敌人施加霜冻
 		'''
 }
 

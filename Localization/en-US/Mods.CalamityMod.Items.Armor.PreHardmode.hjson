@@ -61,13 +61,17 @@ AerospecLeggings: {
 
 DesertProwlerHat: {
 	DisplayName: Desert Prowler Hat
-	Tooltip: 4% increased ranged critical strike chance and 20% chance to not consume ammo
-	SetBonus: Ranged attacks deal an extra {0} flat damage
+	Tooltip: 4% increased rogue critical strike chance
+	SetBonus:
+		'''
+		5% increased rogue damage
+		+50 maximum stealth
+		'''
 	AbilityBrief: Sandsmoke Bomb - Double tap {0} to shroud yourself in a small cloud of sand
 	AbilityDescription:
 		'''
 		While the sand cloud is active, gain increased mobility but heavily reduced defense
-		Using a ranged weapon instantly dispels the sand cloak, but guarantees a supercrit for {0}% damage
+		Using a rogue weapon instantly dispels the sand cloak, but guarantees a supercrit for {0}% damage
 		The super crit applies only as long as the resulting hit wouldn't exceed {1} damage
 		Landing the killing blow on an enemy with this shot shortens the ability's cooldown to {2} seconds
 		'''
@@ -80,7 +84,7 @@ DesertProwlerPants: {
 
 DesertProwlerShirt: {
 	DisplayName: Desert Prowler Shirt
-	Tooltip: 5% increased ranged critical strike chance
+	Tooltip: 5% increased rogue critical strike chance
 }
 
 MarniteArchitectHeadgear: {
@@ -101,22 +105,22 @@ MarniteArchitectToga: {
 
 SnowRuffianChestplate: {
 	DisplayName: Snow Ruffian Chestplate
-	Tooltip: 3% increased rogue critical strike chance
+	Tooltip: 4% increased ranged critical strike chance
 }
 
 SnowRuffianGreaves: {
 	DisplayName: Snow Ruffian Greaves
-	Tooltip: 5% increased movement speed
+	Tooltip: 10% increased movement speed
 }
 
 SnowRuffianMask: {
 	DisplayName: Snow Ruffian Mask
-	Tooltip: 2% increased rogue damage
+	Tooltip: 2% increased ranged damage
 	SetBonus:
 		'''
-		5% increased rogue damage
-		+50 maximum stealth
+		4% increased ranged damage and critical strike chance
 		You can glide to negate fall damage
+		Ranged critical strikes frostburn enemies
 		'''
 }
 
