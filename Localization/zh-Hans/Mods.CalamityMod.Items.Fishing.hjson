@@ -65,7 +65,7 @@ Bloodfin: {
 
 Brimlish: {
 	DisplayName: 小硫火鱼
-	QuestDescription: Did you really defeat that big fire lady? Well, I heard that her children fled into the lava, and one of them mutated into a fish! I'm not burning my hands though, so you catch it and bring it to me for my lava-filled tank!
+	QuestDescription: 你真的击败了那个巨大的火中女士？我听说她的孩子们逃进了岩浆里，而且其中一个化作了鱼！我才不会让岩浆烧了我的手，所以你给我搞到一条，这样我的岩浆鱼缸就能派上用场了！
 }
 
 BrimstoneCrate: {
@@ -124,7 +124,7 @@ SlagCrate: {
 
 Slurpfish: {
 	DisplayName: 饮食者鱼
-	QuestDescription: Hey {0}, wouldn't it be absolutely calamitous if I sent you to those ruins in the depths of hell? Well, I heard of a scary fish that can slurp the souls out of people! I want to keep my soul, so scram! The fish isn't going to catch itself!
+	QuestDescription: 嘿 {0}，让你去地狱遗迹的岩浆里钓鱼听起来是不是灾灾又厄厄？但我听说那里有一条会啜人心魂的恐怖怪鱼！我还要保管好自己的灵魂，所以你快去！鱼可不会自己上钩！
 }
 
 // Sunken Sea Catches
@@ -135,7 +135,7 @@ EutrophicCrate: {
 
 EutrophicSandfish: {
 	DisplayName: 富养沙地鱼
-	QuestDescription: You ever wondered what would happen if a lizard that lived in the desert wandered too deep into those old Ilmeran areas? Well I know, and it looks super cool! But it's way too slippery for me to get my hands on, so you go and get it so I can keep it as a pet!
+	QuestDescription: 你知道沙漠里的蜥蜴往伊尔梅兰旧地钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。你，现在就去把它抓来，这样我就有新的宠物了！
 }
 
 GreenwaveLoach: {
@@ -164,7 +164,7 @@ SerpentsBite: {
 
 Serpentuna: {
 	DisplayName: 巨蛇金枪鱼
-	QuestDescription: I'm tired of always losing my allowance to those serpents in the Ilmeran water! I wanna fish up all the baby serpents, and I need YOUR help to do it! ...What? No, I'm not trying to steal money from others...
+	QuestDescription: 我受够了！零花钱老是被那些伊尔梅兰水蛇偷走！我要把它们的小蛇一网打尽，而你得来帮我！……啥？我才不会用它们偷别人的钱……
 }
 
 SparklingEmpress: {
@@ -204,7 +204,7 @@ SunkenSailfish: {
 
 SurfClam: {
 	DisplayName: 碎浪蛤
-	QuestDescription: Rumor has it that a massive swarm of clams has taken over that sea under the desert! Clams are a delicacy, so just hearing that makes me hungry! Will you help me curb my hunger? Of course you will! Just make sure my clam and you make it back in one piece!
+	QuestDescription: 据说一大群蛤已经占据了沉沦之海！光是听到蛤这个字就足以让我垂涎三尺！你会帮我止住饥饿吗？你绝对会！把我的盘中餐和你自己完完整整地带回来！
 }
 
 // Other Catches

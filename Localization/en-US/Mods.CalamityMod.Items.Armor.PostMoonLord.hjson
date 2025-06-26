@@ -423,9 +423,9 @@ GodSlayerChestplate: {
 		'''
 	CommonSetBonus:
 		'''
-		Pressing {0} allows you to dash towards your cursor for 2.5 seconds
+		Pressing {0} allows you to dash towards your cursor for 2 seconds
 		Enemies you dash through take massive damage
-		During the dash you are immune to most debuffs
+		During the dash you are immune to damage and most debuffs
 		The dash has a {1} second cooldown
 		'''
 }
@@ -617,7 +617,6 @@ TarragonBreastplate: {
 		'''
 	CommonSetBonus:
 		'''
-		Reduces enemy spawn rates
 		Increased heart pickup range
 		Enemies have a chance to drop extra hearts on death
 		'''

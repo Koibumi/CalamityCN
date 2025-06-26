@@ -999,8 +999,10 @@ InkBomb: {
 	DisplayName: Ink Bomb
 	Tooltip:
 		'''
-		Throws several ink bombs when hit that explode into ink
-		Gain a lot of stealth and confuse enemies when struck
+		+10 maximum stealth
+		Stealth generates 7% faster
+		Throws several ink bombs when hit that explode into ink and confuse enemies
+		Gain a lot of stealth when struck
 		This effect has a 20 second cooldown before it can occur again
 		'''
 }
