@@ -32,7 +32,7 @@ GazeOfCrysthamyr: {
 	Tooltip:
 		'''
 		召唤一条可骑乘的暗影巨龙坐骑
-		长按Up加快上升速度
+		长按{$Key.UP}加快上升速度
 		'''
 }
 

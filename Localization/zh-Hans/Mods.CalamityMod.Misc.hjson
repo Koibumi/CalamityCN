@@ -40,7 +40,7 @@ Tier3KnowledgeTooltip: 需要先破译丛林原型图
 Tier4KnowledgeTooltip: 需要先破译地狱原型图
 Tier5KnowledgeTooltip: 需要先破译雪原原型图
 // Other CombatText uses and Item Messages
-ShiftToExpand: 按住SHIFT键查看更多描述
+ShiftToExpand: 按住Shift键查看更多描述
 LearnedSchematic: 你学会了如何制作新的东西！
 CragmawVibeCheck: 感觉如何？
 AutocannonHot: 我焯！好烫！

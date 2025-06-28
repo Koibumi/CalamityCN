@@ -23,7 +23,7 @@ AuricTeslaHeadRanged: {
 	SetBonus:
 		'''
 		Ranged Tarragon, Bloodflare and God Slayer armor effects
-		Hold SHIFT to view these set bonus details and Press SHIFT repeatedly to cycle through them
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
 		'''
 	SetBonus1:
 		'''
@@ -56,7 +56,7 @@ AuricTeslaHeadRogue: {
 		'''
 		+130 maximum stealth
 		Rogue Tarragon, Bloodflare and God Slayer armor effects
-		Hold SHIFT to view these set bonus details and Press SHIFT repeatedly to cycle through them
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
 		'''
 	SetBonus1:
 		'''
@@ -90,7 +90,7 @@ AuricTeslaHeadMelee: {
 		Enemies are more likely to target you
 		28% increased melee speed
 		Melee Tarragon, Bloodflare and God Slayer effects
-		Hold SHIFT to view these set bonus details and Press SHIFT repeatedly to cycle through them
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
 		'''
 	SetBonus1:
 		'''
@@ -120,7 +120,7 @@ AuricTeslaHeadSummon: {
 		Max run speed and acceleration boosted by 5%
 		+6 max minions and 75% increased summon damage
 		Summoner Tarragon, Bloodflare and Silva armor effects
-		Hold SHIFT to view these set bonus details and Press SHIFT repeatedly to cycle through them
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
 		'''
 	SetBonus1:
 		'''
@@ -149,7 +149,7 @@ AuricTeslaHeadMagic: {
 		'''
 		Max run speed and acceleration boosted by 5%
 		Magic Tarragon, Bloodflare and Silva armor effects
-		Hold SHIFT to view these set bonus details and Press SHIFT repeatedly to cycle through them
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
 		'''
 	SetBonus1:
 		'''

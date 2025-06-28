@@ -23,7 +23,7 @@ AuricTeslaHeadRanged: {
 	SetBonus:
 		'''
 		龙蒿套装、血炎套装和弑神者套装的套装奖励
-		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
 		'''
 	SetBonus1:
 		'''
@@ -56,7 +56,7 @@ AuricTeslaHeadRogue: {
 		'''
 		增加130点最大潜行值
 		龙蒿套装、血炎套装和弑神者套装的套装奖励
-		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
 		'''
 	SetBonus1:
 		'''
@@ -90,7 +90,7 @@ AuricTeslaHeadMelee: {
 		敌人更有可能以你为目标
 		增加28%近战攻速
 		龙蒿套装、血炎套装和弑神者套装的套装奖励
-		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
 		'''
 	SetBonus1:
 		'''
@@ -120,7 +120,7 @@ AuricTeslaHeadSummon: {
 		最大速度和加速度增加5%
 		增加6仆从栏和75%召唤伤害
 		龙蒿套装、血炎套装和始源林海套装的套装奖励
-		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
 		'''
 	SetBonus1:
 		'''
@@ -149,7 +149,7 @@ AuricTeslaHeadMagic: {
 		'''
 		最大速度和加速度增加5%
 		龙蒿套装、血炎套装和始源林海套装的套装奖励
-		按住 SHIFT 查看这些套装奖励，点按 SHIFT 切换到下一个
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
 		'''
 	SetBonus1:
 		'''

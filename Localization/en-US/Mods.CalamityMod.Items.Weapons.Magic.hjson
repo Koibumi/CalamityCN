@@ -784,7 +784,7 @@ SHPC: {
 		Orbs emit seeking souls and lingering pickup souls after collapse
 		Orbs have varying effects depending on Soul type used
 		{0}
-		Press Right Click to use the machine as a vacuum, pulling in lingering souls
+		Press <right> to use the machine as a vacuum, pulling in lingering souls
 		Once released, a torrent of soul lasers is discharged scaling with the number of souls pulled in
 		'''
 	// These are the soul effect descriptions, the number is the item ID of the soul

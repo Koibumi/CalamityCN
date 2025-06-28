@@ -1012,7 +1012,7 @@ InterstellarStompers: {
 	Tooltip:
 		'''
 		6% increased movement speed, 20% increased jump speed, and negates fall damage
-		Hold DOWN to increase your maximum fall speed
+		Hold {$Key.DOWN} to increase your maximum fall speed
 		Pressing [KEY] while midair charges up a superspeed slam over 0.33 seconds
 		While falling, you ram through enemies and don't take contact damage
 		Once you hit the ground, you create an explosion at your feet 
@@ -1025,7 +1025,7 @@ IronBoots: {
 	DisplayName: Iron Boots
 	Tooltip:
 		'''
-		Hold DOWN to increase your maximum fall speed, even in water
+		Hold {$Key.DOWN} to increase your maximum fall speed, even in water
 		Upon hitting the ground, a shockwave is created at your feet 
 		The shockwave scales in both damage and size the longer you fall for
 		Negates fall damage
@@ -2103,9 +2103,9 @@ WulfrumAcrobaticsPack: {
 		This slingshot's stats scale with your equipped hook
 		If the hook has special effects, the slingshot also benefits from them
 		The slingshot allows for advanced rope-swinging physics
-		Hold UP or DOWN to retract or extend the slingshot's rope
+		Hold {$Key.UP} or {$Key.DOWN} to retract or extend the slingshot's rope
 		Automatically grapples nearby walls if a lethal fall is detected
-		This safety feature won't activate if DOWN is held
+		This safety feature won't activate if {$Key.DOWN} is held
 		8% increased movement speed
 		'''
 }

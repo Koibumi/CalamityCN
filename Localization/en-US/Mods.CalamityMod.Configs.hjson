@@ -55,7 +55,7 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/DesertProwlerHat] Calamity Armor Set Bonuses Can Use Vanilla Hotkey"
 		Tooltip:
 			'''
-			Allows Calamity armor set bonuses to be triggered by the vanilla double-tap DOWN hotkey (or UP depending on your settings).
+			Allows Calamity armor set bonuses to be triggered by the vanilla double-tap {$Key.DOWN} hotkey (or {$Key.UP} depending on your settings).
 			Also allows vanilla armor set bonuses to be triggered by Calamity's armor set bonus hotkey.
 			'''
 	}
@@ -137,7 +137,7 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/BallAndChain] Enable Fast Falling"
 		Tooltip:
 			'''
-			When enabled, you can hold the DOWN key while in the air to accelerate downwards faster.
+			When enabled, you can hold the {$Key.DOWN} key while in the air to accelerate downwards faster.
 			This config does not increase your maximum falling speed, just how quickly you accelerate to it.
 			Calamity is balanced around this setting being enabled.
 			'''

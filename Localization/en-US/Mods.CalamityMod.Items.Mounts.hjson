@@ -32,7 +32,7 @@ GazeOfCrysthamyr: {
 	Tooltip:
 		'''
 		Summons a rideable shadow dragon mount
-		Hold Up to ascend faster
+		Hold {$Key.UP} to ascend faster
 		'''
 }
 

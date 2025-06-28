@@ -51,7 +51,7 @@ AtlasMunitionsBeacon: {
 		[c/F27049:If an enemy is in close proximity, it will enter Overdrive]
 		[c/F27049:When in Overdrive the cannon uses its full power to bring down any foe]
 		[c/F27049:While in Overdrive, the cannon will build up heat, eventually overheating]
-		[c/69F0DC:Press right click while holding this item to pick up the cannon and use it yourself]
+		[c/69F0DC:Press <right> while holding this item to pick up the cannon and use it yourself]
 		[c/69F0DC:When held, the cannon will always be in Overdrive]
 		[c/69F0DC:If the cannon overheats while you hold it, you will be forced to drop it]
 		[c/9AA4AE:Pressing <right> allows you to drop it manually]
@@ -91,7 +91,7 @@ BrittleStarStaff: {
 		'''
 		Summons a small brittle starfish that will dash through enemies until it shatters
 		Starfish will quickly regenerate after shattering
-		Holding right click will swap starfish between dashing and circling you
+		Holding <right> will swap starfish between dashing and circling you
 		When the starfish are circling, each one provides you with 4 defense
 		'''
 }
@@ -364,7 +364,7 @@ FlamsteedRing: {
 	Tooltip:
 		'''
 		Summons a colossal controllable mech
-		Right click to display the mech's control panel
+		<right> to display the mech's control panel
 		The panel has 3 configurations, selected using the brackets on the edges of the UI
 		Each bracket powers 2 out of 3 possible functions, represented by the circular icons
 		The bottom left icon miniaturizes the mech to the size of a player, but weakens its weapons
@@ -435,7 +435,7 @@ GlacialEmbrace: {
 		For each minion slot used, you will gain an additional orbiting shield spike
 		These spikes accelerate rapidly towards a nearby enemy to inflict heavy damage
 		They take some time to regenerate after launching themselves at the target, however
-		On right click, summons a duplicate ring around the targeted enemy, which slowly converges before exploding
+		On <right>, summons a duplicate ring around the targeted enemy, which slowly converges before exploding
 		'''
 }
 
@@ -485,7 +485,7 @@ IgneousExaltation: {
 	Tooltip:
 		'''
 		Summons an Igneous blade that orbits around you
-		Right click to launch all blades towards the cursor
+		<right> to launch all blades towards the cursor
 		'''
 }
 
@@ -591,7 +591,7 @@ Perdition: {
 		'''
 		{$CommonItemTooltip.Sentry}
 		Summons a beacon at the position of the mouse
-		When a target is manually selected via right click it releases torrents of souls from below onto the target
+		When a target is manually selected via <right> it releases torrents of souls from below onto the target
 		Requires one sentry slot to summon, and only one beacon may exist at a time
 		'''
 }
@@ -866,7 +866,7 @@ VoidConcentrationStaff: {
 		Minion damage is increased by 5% while the aura is active
 		Requires three minion slots to use
 		There can only be one aura at a time
-		Right click to launch a black hole that grows in size
+		<right> to launch a black hole that grows in size
 		'''
 }
 
@@ -893,7 +893,7 @@ WulfrumController: {
 	Tooltip:
 		'''
 		Summons a wulfrum droid to fight for you
-		Hold right click while holding the remote to switch all of your drones into supercharge mode
+		Hold <right> while holding the remote to switch all of your drones into supercharge mode
 		Supercharged droids will stop attacking and focus wulfrum energy onto you
 		Supercharged droids provide +0.5 HP/s life regen and 3 defense per droid
 		Can also be used to heal other players by keeping your mouse cursor close enough to them

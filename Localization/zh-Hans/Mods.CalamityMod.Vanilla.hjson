@@ -198,7 +198,7 @@ EditedTooltip: {
 	// Soaring Insignia
 	EmpressFlightBooster1: 翅膀飞行时间增加33%
 	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提升为1.25倍
-	RifleScope1: 扩大枪的视野范围（右键点击可拉远视野）
+	RifleScope1: 扩大枪的视野范围（<right>可拉远视野）
 	RifleScope2: 扩大视野效果可通过可见性开启或关闭
 	SniperScope: 提高12%远程暴击率
 	MagicQuiver: 增加5%的箭矢伤害，并大幅提高箭矢速度
@@ -284,8 +284,8 @@ EditedTooltip: {
 		提升32%跳跃速度，并提升下落速度
 		提供一次重力助推跳跃，在重力翻转时重新充能
 		略微提升未装备翅膀时的空中移动速度
-		按UP反转重力
-		按DOWN加速下落
+		按{$Key.UP}反转重力
+		按{$Key.DOWN}加速下落
 		'''
 }
 

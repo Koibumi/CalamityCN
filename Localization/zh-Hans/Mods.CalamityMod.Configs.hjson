@@ -55,7 +55,7 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/DesertProwlerHat] 允许原版热键触发灾厄套装奖励"
 		Tooltip:
 			'''
-			允许灾厄套装奖励被原版的双击DOWN或UP热键触发。
+			允许灾厄套装奖励被原版的双击{$Key.DOWN}或{$Key.UP}热键触发。
 			同时允许原版套装奖励被灾厄的套装奖励热键触发。
 			'''
 	}
@@ -137,7 +137,7 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/BallAndChain] 快速下落"
 		Tooltip:
 			'''
-			启用后，你可以在空中按住DOWN键以更快地向下降落。
+			启用后，你可以在空中按住{$Key.DOWN}以更快地向下降落。
 			此配置不会增加你的最大下降速度，只会增加加速度。
 			灾厄平衡设定是在启用此配置的基础上进行的。
 			'''

@@ -94,7 +94,7 @@ MarniteArchitectHeadgear: {
 	AbilityDescription:
 		'''
 		悬浮平台会在按下坐骑按钮时被召唤[c/D4C870:前提是没有装备任何坐骑]
-		使用上下键改变悬浮平台的高度
+		使用{$Key.DOWN}或{$Key.UP}改变悬浮平台的高度
 		'''
 }
 
@@ -310,7 +310,7 @@ WulfrumHat: {
 		当能量装甲激活时，你只能使用聚变炮，但防御力提升
 		召唤装甲消耗{0}，且装甲被击中时会更快失去耐久
 		'''
-	ShiftToExpand: 按住shift以查看聚变炮的属性
+	ShiftToExpand: 按住Shift以查看聚变炮的属性
 }
 
 WulfrumJacket: {

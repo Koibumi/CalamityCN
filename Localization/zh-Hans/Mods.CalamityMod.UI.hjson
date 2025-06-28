@@ -27,7 +27,7 @@ DifficultyStatusText: "{0}已{1}。"
 ModeAppend: "{0}模式"
 Active: 开启
 NotActive: 关闭
-DifficultyShiftText: "[c/737373:按住“Shift”以获取更多信息]"
+DifficultyShiftText: "[c/737373:按住Shift以获取更多信息]"
 CurrentlySelected: 当前选择的难度：{0}
 DifficultyClickText: "[c/919191:点击选择难度]"
 ExpertDifficultyLock: "[c/919191:只能在专家模式及以上时开启更高难度]"
@@ -666,8 +666,8 @@ SulphurSea2: 正在辐射一侧的海洋
 Roxcalibur: 渴望摇动的剑柄发出呼唤
 AuricLandMines: 正在放置弑神陷阱
 // Hold Shift tooltip default
-HoldShiftTooltipExtensionIndicator: 长按“左 Shift”键以了解更多
-HoldShiftTooltipReplacementIndicator: 长按“左 Shift”键以了解详细信息
+HoldShiftTooltipExtensionIndicator: 长按左Shift键以了解详细信息
+HoldShiftTooltipReplacementIndicator: 长按左Shift键以了解详细信息
 // Dev and Donor Items
 DevItemTooltip: - 开发者物品 -
 DonorItemTooltip: - 捐赠者物品 -

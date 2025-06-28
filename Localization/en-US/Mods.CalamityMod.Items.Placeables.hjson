@@ -499,7 +499,7 @@ CalamityCanvas2023: {
 		<left> to make the focus follow the cursor, <left> again to set it
 		Arrow keys can also be used to manually adjust the focus point
 		The scroll wheel zooms the focus in and out
-		Hold SHIFT to hide the UI without closing it
+		Hold Shift to hide the UI without closing it
 		'Embrace chaos'
 		'''
 }
@@ -512,7 +512,7 @@ CalamityCanvas2024: {
 		<left> to make the focus follow the cursor, <left> again to set it
 		Arrow keys can also be used to manually adjust the focus point
 		The scroll wheel zooms the focus in and out
-		Hold SHIFT to hide the UI without closing it
+		Hold Shift to hide the UI without closing it
 		'Embrace havoc'
 		'''
 }
@@ -793,7 +793,7 @@ ThankYouPainting: {
 		'''
 		Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!
 		The confines of this painting is not enough to fit the entire team
-		Hold SHIFT to see a list of past and current developers
+		Hold Shift to see a list of past and current developers
 		'''
 }
 

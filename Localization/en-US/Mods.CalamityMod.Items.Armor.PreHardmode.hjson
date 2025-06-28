@@ -94,7 +94,7 @@ MarniteArchitectHeadgear: {
 	AbilityDescription:
 		'''
 		The lift gets summoned when the mount hotkey gets pressed [c/D4C870:without any mounts equipped]
-		Using the Up and Down keys can change the lift's height
+		Using the {$Key.UP} and {$Key.DOWN} keys can change the lift's height
 		'''
 }
 
@@ -310,7 +310,7 @@ WulfrumHat: {
 		While the armor is active, you can only use the integrated fusion cannon, but your defensive stats are increased
 		Calling down the armor consumes one piece of {0}, and the armor will lose durability faster when hit
 		'''
-	ShiftToExpand: Hold SHIFT to see the stats of the fusion cannon
+	ShiftToExpand: Hold Shift to see the stats of the fusion cannon
 }
 
 WulfrumJacket: {

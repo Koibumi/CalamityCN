@@ -12,7 +12,7 @@ Charge: Current Charge
 DefenseDamage: Defense Damage
 SulphurousWater: Sulphuric Poisoning
 Stealth: Stealth
-StealthShiftText: Hold SHIFT for more information on Rogue stealth
+StealthShiftText: Hold Shift for more information on Rogue stealth
 StealthInfoText:
 	'''
 	Rogue stealth builds while not attacking and slower while moving
@@ -27,7 +27,7 @@ DifficultyStatusText: "{0} is {1}."
 ModeAppend: "{0} Mode"
 Active: Active
 NotActive: Not active
-DifficultyShiftText: "[c/737373:Hold the 'Shift' key for more information]"
+DifficultyShiftText: "[c/737373:Hold Shift key for more information]"
 CurrentlySelected: Currently Selected : {0}
 DifficultyClickText: "[c/919191:Click to select a difficulty mode]"
 ExpertDifficultyLock: "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]"
@@ -666,8 +666,8 @@ SulphurSea2: Irradiating one of the oceans
 Roxcalibur: I wanna rock
 AuricLandMines: Setting god killing traps
 // Hold Shift tooltip default
-HoldShiftTooltipExtensionIndicator: Hold "Left Shift" for more
-HoldShiftTooltipReplacementIndicator: Hold "Left Shift" for details
+HoldShiftTooltipExtensionIndicator: Hold Left Shift for more
+HoldShiftTooltipReplacementIndicator: Hold Left Shift for details
 // Dev and Donor Items
 DevItemTooltip: - Dev Item -
 DonorItemTooltip: - Donor Item -
