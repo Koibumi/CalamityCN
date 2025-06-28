@@ -111,7 +111,7 @@ DriftwoodPickaxe: {
 
 FellerofEvergreens: {
 	DisplayName: Feller of Evergreens
-	Tooltip: ""
+	Tooltip: Occasionally drops extra fruits from shaking trees
 }
 
 Gelpick: {

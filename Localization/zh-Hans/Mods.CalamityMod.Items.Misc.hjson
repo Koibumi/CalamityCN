@@ -383,12 +383,12 @@ VoodooDemonVoodooDoll: {
 ExhumeShortTooltip:
 	'''
 	[c/C61B40:“啊，你是不是好奇我在这件东西中看到了什么？”]
-	[c/BABABA:长按左Shift键以聆听]
+	[c/BABABA:按住Shift键以聆听]
 	'''
 LegendaryShortTooltip:
 	'''
-	[c/FF6F00:过去的传奇故事从你周围向外辐射……]
-	[c/BABABA:长按左Shift键以仔细聆听]
+	[c/FF6F00:昔日的传奇故事从你周围向外扩散……]
+	[c/BABABA:按住Shift键以仔细聆听]
 	'''
 
 BallAndChain: {

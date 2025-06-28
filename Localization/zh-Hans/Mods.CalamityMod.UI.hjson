@@ -666,8 +666,8 @@ SulphurSea2: 正在辐射一侧的海洋
 Roxcalibur: 渴望摇动的剑柄发出呼唤
 AuricLandMines: 正在放置弑神陷阱
 // Hold Shift tooltip default
-HoldShiftTooltipExtensionIndicator: 长按左Shift键以了解详细信息
-HoldShiftTooltipReplacementIndicator: 长按左Shift键以了解详细信息
+HoldShiftTooltipExtensionIndicator: 按住Shift以了解更多
+HoldShiftTooltipReplacementIndicator: 按住Shift以了解详细信息
 // Dev and Donor Items
 DevItemTooltip: - 开发者物品 -
 DonorItemTooltip: - 捐赠者物品 -

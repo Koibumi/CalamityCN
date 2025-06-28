@@ -111,7 +111,7 @@ DriftwoodPickaxe: {
 
 FellerofEvergreens: {
 	DisplayName: 翡翠斧
-	Tooltip: ""
+	Tooltip: 摇晃树时偶尔掉落额外的水果
 }
 
 Gelpick: {
