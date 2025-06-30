@@ -1,6 +1,5 @@
-          using System.ComponentModel;
-          using CalamityCN.Systems;
-          using Terraria.ModLoader.Config;
+using System.ComponentModel;
+using Terraria.ModLoader.Config;
 
 namespace CalamityCN
 {
@@ -15,9 +14,9 @@ namespace CalamityCN
             Instance = this;
         }
         
-        [ReloadRequired]
+        /*[ReloadRequired]
         [Header("Conversion")]
         [DefaultValue(zhLang.zh)]
-        public zhLang Lang;
+        public zhLang Lang;*/
     }
 }
