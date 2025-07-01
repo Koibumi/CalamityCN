@@ -11,7 +11,7 @@ using CalamityCN.Utils;
 
 namespace CalamityCN.Translations.Patch {
     public class BossLoot {
-        private static List<ILHook> ILHooksT;
+        /* private static List<ILHook> ILHooksT;
         public static void Load() {
             ILHooksT = new List<ILHook>();
 
@@ -52,6 +52,6 @@ namespace CalamityCN.Translations.Patch {
                 cursor.Index++;
                 cursor.EmitDelegate<Func<string, string>>((eng) => trans);
             })));
-        }
+        } */
     }
 }

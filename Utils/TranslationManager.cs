@@ -16,7 +16,7 @@ namespace CalamityCN.Utils
             {
                 return;
             };
-            BossLoot.Load();
+            // BossLoot.Load();
         }
         public override void Unload()
         {
