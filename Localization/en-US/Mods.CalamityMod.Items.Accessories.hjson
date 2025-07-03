@@ -1466,8 +1466,8 @@ ReaperToothNecklace: {
 		'''
 }
 
-Regenator: {
-	DisplayName: Regenator
+Regenerator: {
+	DisplayName: Regenerator
 	Tooltip:
 		'''
 		Your health cannot exceed 50% of its maximum

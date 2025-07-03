@@ -42,8 +42,8 @@ GaussDagger: {
 		'''
 }
 
-HolofiberImmolator: {
-	DisplayName: R-PMA: Holofiber Immolator
+HolofibreImmolator: {
+	DisplayName: R-PMA: Holofibre Immolator
 	Tooltip:
 		'''
 		Fires three gravity-affected plasma drops which dissolve through foes

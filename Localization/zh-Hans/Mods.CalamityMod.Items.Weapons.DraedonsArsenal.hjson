@@ -42,8 +42,8 @@ GaussDagger: {
 		'''
 }
 
-HolofiberImmolator: {
-	DisplayName: R-PMA: Holofiber Immolator
+HolofibreImmolator: {
+	DisplayName: R-PMA: Holofibre Immolator
 	Tooltip:
 		'''
 		发射三个受到重力影响的等离子球，融解并穿过敌怪
