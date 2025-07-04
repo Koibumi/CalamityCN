@@ -480,14 +480,12 @@ ReaverHeadTank: {
 		'''
 		15% increased damage reduction but 30% decreased damage
 		+50 max life
-		Restores 1 HP every second, this applies separately from life regen
 		'''
 	SetBonus:
 		'''
-		+10 defense and +1.5 HP/s life regen
+		+10 defense and +5 HP/s life regen
 		Enemies are more likely to target you
 		Reduces the life regen lost from damage over time debuffs by 20%
-		All attacks steal life and speed up the rate of life regen
 		30% decreased movement speed and flight time
 		Enemy damage is reflected and summons a thorn spike
 		Reaver Rage activates when you are damaged

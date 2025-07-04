@@ -213,7 +213,6 @@ BloodflareHeadMelee: {
 		'''
 	SetBonusEffect:
 		'''
-		True melee strikes will heal you
 		After striking an enemy 15 times with true melee you will enter a blood frenzy for 5 seconds
 		During this you will gain 25% increased melee damage, critical strike chance, and contact damage is halved
 		This effect has a 30 second cooldown
@@ -248,7 +247,8 @@ BloodflareHeadRogue: {
 		'''
 		Being over 80% life boosts your defense by 30 and rogue crit by 5%
 		Being below 80% life boosts your rogue damage by 10%
-		Rogue critical strikes heal you
+		Rogue critical strikes burst into blood orbs
+		Picking up these blood orbs reduces the duration of [Potion Sickness]
 		'''
 }
 
@@ -570,7 +570,7 @@ SilvaArmor: {
 		'''
 	CommonSetBonus:
 		'''
-		All projectiles spawn healing leaf orbs on enemy hits
+		+3 HP/s life regen
 		Max run speed and acceleration boosted by 5%
 		Taking fatal damage will revive you and make you invulnerable to all damage for 5 seconds
 		This effect has a 5 minute cooldown, which does not decrement if any bosses or events are active
@@ -630,12 +630,7 @@ TarragonHeadMagic: {
 		10% increased damage reduction, +100 max mana, and 15% reduced mana usage
 		'''
 	SetBonus: "{$TarragonHeadMagic.SetBonusEffect}"
-	SetBonusEffect:
-		'''
-		On every 5th critical strike you will fire a leaf storm
-		Magic projectiles heal you on enemy hits
-		Amount healed is based on projectile damage
-		'''
+	SetBonusEffect: On every 5th critical strike you will fire a leaf storm
 }
 
 TarragonHeadMelee: {

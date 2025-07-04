@@ -1,5 +1,6 @@
 AbsorberAura.DisplayName: Absorber Aura
 AltTransfusionTrail.DisplayName: Alt Transfusion Trail
+BloodstoneHealOrb.DisplayName: Bloodstone Heal Orb
 BlueJellyAura.DisplayName: Blue Jelly Aura
 BurntSiennaProj.DisplayName: Sienna
 CactusHealOrb.DisplayName: Heal
@@ -13,9 +14,6 @@ HydrothermicHealOrb.DisplayName: Hydrothermic Rejuvenation
 ManaPolarizerHealOrb.DisplayName: Mana Polarizer Heal Orb
 PhantomicHeart.DisplayName: Phantomic Heart
 PinkJellyAura.DisplayName: Pink Jelly Aura
-ReaverHealOrb.DisplayName: Reaver Heal Orb
 RoyalHeal.DisplayName: Heal
 ShinobiHealOrb.DisplayName: Blue Healing Orb
-SilvaOrb.DisplayName: Silva Orb
 TransfusionTrail.DisplayName: Heal
-BloodstoneHealOrb.DisplayName: Bloodstone Heal Orb

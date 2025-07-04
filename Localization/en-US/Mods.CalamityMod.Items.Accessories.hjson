@@ -342,7 +342,7 @@ BloodPact: {
 
 BloodstainedGlove: {
 	DisplayName: Bloodstained Glove
-	Tooltip: Stealth strikes have +8 armor penetration and heal for 2 HP
+	Tooltip: Stealth strikes have +8 armor penetration and heal for 5 HP
 }
 
 BloodyWormScarf: {
@@ -686,7 +686,7 @@ ElectriciansGlove: {
 	DisplayName: Electrician's Glove
 	Tooltip:
 		'''
-		Stealth strikes summon sparks on enemy hits and heal you for 2 HP
+		Stealth strikes summon sparks on enemy hits and heal you for 10 HP
 		Stealth strikes also have +8 armor penetration and deal 8% more damage
 		'''
 }

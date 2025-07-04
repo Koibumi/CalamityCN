@@ -342,7 +342,7 @@ BloodPact: {
 
 BloodstainedGlove: {
 	DisplayName: 血染手套
-	Tooltip: 潜伏攻击会附带8点护甲穿透并为你回复2点生命值
+	Tooltip: 潜伏攻击会附带8点护甲穿透并为你回复5点生命值
 }
 
 BloodyWormScarf: {
@@ -686,7 +686,7 @@ ElectriciansGlove: {
 	DisplayName: 电击手套
 	Tooltip:
 		'''
-		潜伏攻击击中敌人时会释放电火花并为你回复2点生命值
+		潜伏攻击击中敌人时会释放电火花并为你回复10点生命值
 		潜伏攻击也会附带8点护甲穿透、额外造成8%伤害
 		'''
 }
