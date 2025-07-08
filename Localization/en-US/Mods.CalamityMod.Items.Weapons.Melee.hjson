@@ -185,12 +185,7 @@ BladecrestOathsword: {
 
 BlightedCleaver: {
 	DisplayName: Blighted Cleaver
-	Tooltip:
-		'''
-		Fires homing blazing blades
-		Gives the player the Brutal Carnage buff on enemy hits
-		This buff increases melee damage by 20%
-		'''
+	Tooltip: Fires homing blazing blades
 }
 
 Bonebreaker: {
@@ -334,12 +329,7 @@ DeathsAscension: {
 
 DefiledGreatsword: {
 	DisplayName: Defiled Greatsword
-	Tooltip:
-		'''
-		Fires blazing, hyper, and sunlight blades
-		Gives the player the Brutal Carnage buff on enemy hits
-		This buff increases melee damage by 20%
-		'''
+	Tooltip: Fires blazing, hyper, and sunlight blades
 }
 
 DepthCrusher: {

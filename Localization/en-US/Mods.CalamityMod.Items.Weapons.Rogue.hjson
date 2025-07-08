@@ -195,7 +195,7 @@ CrushsawCrasher: {
 	Tooltip:
 		'''
 		Throws bouncing axes
-		Stealth strikes throw five at once
+		Stealth strikes throw six at once
 		'''
 	GFBFirstWords:
 		'''
@@ -276,8 +276,8 @@ DeepWounder: {
 	DisplayName: Deep Wounder
 	Tooltip:
 		'''
-		Throws an abyssal hatchet that inflicts Armor Crunch and Crush Depth to the enemies it hits
-		Stealth strikes cause the hatchet to stick to struck enemies, causing Heavy Bleeding and spawning a burst of water projectiles
+		Throws an abyssal hatchet that inflicts Heavy Bleeding and Crush Depth to the enemies it hits
+		Stealth strikes cause the hatchet to stick to struck enemies, releasing a barrage of water projectiles
 		Water projectiles launch at the closest enemy after a brief delay
 		'''
 }
@@ -449,7 +449,6 @@ FrostcrushValari: {
 		'''
 		Fires a long ranged frosty boomerang that chips off homing icicles on hit
 		Stealth strikes throw a boomerang which follows the cursor
-		This boomerang creates a freezing blast and chips off homing icicles on every hit
 		'''
 }
 
@@ -458,7 +457,7 @@ FrostyFlare: {
 	Tooltip:
 		'''
 		Throw a flare that sticks to enemies and rains a hailstorm on them
-		Stealth strikes trail snowflakes and summon phantom copies instead of ice shards
+		Stealth strikes summon phantom copies instead of ice shards
 		'Do not insert in flare gun'
 		'''
 }
@@ -556,7 +555,7 @@ HeavenfallenStardisk: {
 		'''
 		Throws a stardisk upwards which then launches itself towards your mouse cursor
 		Explodes into a star of astral bolts on hit
-		Stealth strikes throw three disks that rain astral energy bolts from the sky
+		Stealth strikes rain astral energy bolts from the sky
 		'''
 }
 

@@ -86,8 +86,8 @@ DeathExpandedInfo:
 	[c/B834E0:减益更致命，深渊更危险]
 	[c/E945FF:保持警惕，坚韧不拔至关重要]
 	'''
-DeathActivate: 死亡模式已开启，享受吧！
-DeathDeactivate: 死亡模式已关闭，你还不够享受吗？
+DeathActivate: 死亡模式已开启
+DeathDeactivate: 死亡模式已关闭
 // Calamity Health Bar
 ExoTwinsNameNormal: XS-01 阿尔忒弥斯和 XS-03 阿波罗
 ExoTwinsNameHekate: XB-∞ 赫卡忒之眼

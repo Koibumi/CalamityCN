@@ -730,11 +730,6 @@ BrimflameFrenzyBuff: {
 	Description: 以生命为代价，黑魔法大大增强了你的力量
 }
 
-BrutalCarnage: {
-	DisplayName: 残暴屠杀
-	Description: 增加{0}%近战伤害
-}
-
 ChiBuff: {
 	DisplayName: 气
 	Description: 你更有适应性

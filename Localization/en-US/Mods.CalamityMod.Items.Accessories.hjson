@@ -882,7 +882,11 @@ GladiatorsLocket: {
 
 GloveOfPrecision: {
 	DisplayName: Glove of Precision
-	Tooltip: Decreases rogue attack speed by 15%, but increases damage by 10%, crit by 15% and velocity by 15%
+	Tooltip:
+		'''
+		Decreases rogue attack speed by 15%
+		Increases rogue damage and critical strike chance by 10%, and velocity by 15%
+		'''
 }
 
 GloveOfRecklessness: {

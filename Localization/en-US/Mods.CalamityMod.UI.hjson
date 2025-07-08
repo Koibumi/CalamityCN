@@ -86,8 +86,8 @@ DeathExpandedInfo:
 	[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous]
 	[c/E945FF:Vigilance and tenacity are crucial to survival]
 	'''
-DeathActivate: Death is active; enjoy the fun.
-DeathDeactivate: Death is not active; not fun enough for you?
+DeathActivate: Death is active.
+DeathDeactivate: Death is not active.
 // Calamity Health Bar
 ExoTwinsNameNormal: XS-01 Artemis and XS-03 Apollo
 ExoTwinsNameHekate: Eyes of XB-∞ Hekate

@@ -1194,7 +1194,7 @@ VigorousCandle: {
 	Tooltip:
 		'''
 		<right> when placed to regenerate {0}% of your maximum health per second
-		This regeneration is at full power even while moving and bypasses Revengeance Mode caps
+		This regeneration is at full power even while moving
 		This cannot be stacked with other Candle buffs
 		'Its brilliant light suffuses those nearby with hope'
 		'''

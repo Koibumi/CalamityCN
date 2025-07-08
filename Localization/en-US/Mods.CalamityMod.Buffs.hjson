@@ -730,11 +730,6 @@ BrimflameFrenzyBuff: {
 	Description: Dark magic empowers your attacks at the cost of your life
 }
 
-BrutalCarnage: {
-	DisplayName: Brutal Carnage
-	Description: "{0}% increased melee damage"
-}
-
 ChiBuff: {
 	DisplayName: Chi
 	Description: You are more resilient

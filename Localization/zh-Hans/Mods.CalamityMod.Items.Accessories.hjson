@@ -881,7 +881,11 @@ GladiatorsLocket: {
 
 GloveOfPrecision: {
 	DisplayName: 精准手套
-	Tooltip: 降低15%盗贼攻速，但增加10%盗贼伤害、15%盗贼暴击率和15%盗贼弹幕速度
+	Tooltip:
+		'''
+		降低15%盗贼攻速
+		增加10%盗贼伤害和暴击率，15%盗贼弹幕速度
+		'''
 }
 
 GloveOfRecklessness: {

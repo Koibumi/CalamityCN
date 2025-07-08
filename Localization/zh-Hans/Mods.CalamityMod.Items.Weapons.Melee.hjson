@@ -185,12 +185,7 @@ BladecrestOathsword: {
 
 BlightedCleaver: {
 	DisplayName: 凋亡屠刀
-	Tooltip:
-		'''
-		发射追踪的燃烧剑气
-		击中敌怪时给予玩家残暴屠杀增益
-		此增益会增加20%近战伤害
-		'''
+	Tooltip: 发射追踪的燃烧剑气
 }
 
 Bonebreaker: {
@@ -334,12 +329,7 @@ DeathsAscension: {
 
 DefiledGreatsword: {
 	DisplayName: 神殇巨剑
-	Tooltip:
-		'''
-		发射烈火、至高和日炎剑气
-		击中敌人时给予玩家残暴屠杀增益
-		此增益会为玩家增加20%近战伤害
-		'''
+	Tooltip: 发射烈火、至高和日炎剑气
 }
 
 DepthCrusher: {

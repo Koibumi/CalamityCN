@@ -38,7 +38,8 @@ AnahitasArpeggio: {
 	TooltipNormal:
 		'''
 		Holding <left> casts up to 6 treble clefs that orbit the player
-		Releasing <left> causes the treble clefs to fade away, then converge at the cursor
+		Releasing <left> causes the treble clefs to converge at the cursor
+		After converging, treble clefs seek your cursor
 		'''
 	TooltipGFB:
 		'''
@@ -488,7 +489,8 @@ Keelhaul: {
 	DisplayName: Keelhaul
 	Tooltip:
 		'''
-		Summons a geyser upon hitting an enemy
+		Summons a lingering geyser upon hitting an enemy
+		Only one geyser can exist at a time
 		'Crumple 'em like paper'
 		'''
 }
