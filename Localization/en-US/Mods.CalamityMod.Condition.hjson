@@ -52,6 +52,7 @@ Drops: {
 // Other conditions
 PotionConfig: While the Town NPC Potion Selling configuration option is enabled
 HasFlareGun: While holding a Flare Gun upgrade
+LacewingBestiary: When at least 40% of the Bestiary has been completed
 HasRogueArmor: While wearing rogue armor
 HasWings: While wearing wings
 InAstral: In the Astral Infection
@@ -60,7 +61,6 @@ InSulph: In the Sulphurous Sea
 InSunken: In the Sunken Sea
 InRev: In Revengeance Mode
 InRevOrMM: In Revengeance Mode or in Master Mode
-AlcoholPoison: While inflicted with Alcohol Poisoning
 PostCal: After defeating Calamitas Clone
 PostAureus: After defeating Astrum Aureus
 PostPolter: After defeating Polterghast

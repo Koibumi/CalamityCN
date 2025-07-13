@@ -2004,7 +2004,7 @@ TrinketofChi: {
 		'''
 		Increases damage reduction by 8% if you avoid taking damage for 10 seconds
 		This buff expires on hit
-		+1 HP/s life regen for teammates
+		+1 HP/s life regen for you and your teammates
 		'''
 }
 

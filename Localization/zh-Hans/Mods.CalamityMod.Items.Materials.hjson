@@ -53,11 +53,6 @@ BloodOrb: {
 	Tooltip: ""
 }
 
-BloodSample: {
-	DisplayName: 血液样本
-	Tooltip: ""
-}
-
 Bloodstone: {
 	DisplayName: 血石
 	Tooltip: ""
@@ -245,11 +240,6 @@ PurifiedGel: {
 ReaperTooth: {
 	DisplayName: 猎魂鲨牙
 	Tooltip: 坚硬到足以斩开钻石的程度
-}
-
-RottenMatter: {
-	DisplayName: 腐烂物质
-	Tooltip: ""
 }
 
 RuinousSoul: {

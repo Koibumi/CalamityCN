@@ -52,6 +52,7 @@ Drops: {
 // Other conditions
 PotionConfig: 当城镇NPC出售药水配置选项启用时
 HasFlareGun: 手持任意信号枪上位时
+LacewingBestiary: 当完成至少40%怪物图鉴时
 HasRogueArmor: 装备全套盗贼盔甲时
 HasWings: 佩戴任意翅膀时
 InAstral: 身处星辉瘟疫时
@@ -60,7 +61,6 @@ InSulph: 身处硫磺海时
 InSunken: 身处沉沦之海时
 InRev: 在复仇模式中
 InRevOrMM: 在复仇模式或大师模式中
-AlcoholPoison: 当玩家带有酒精中毒减益时
 PostCal: 在灾厄之影被击败后
 PostAureus: 在白金星舰被击败后
 PostPolter: 在噬魂幽花被击败后

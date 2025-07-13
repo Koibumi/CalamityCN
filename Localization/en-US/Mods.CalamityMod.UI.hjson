@@ -32,34 +32,31 @@ CurrentlySelected: Currently Selected : {0}
 DifficultyClickText: "[c/919191:Click to select a difficulty mode]"
 ExpertDifficultyLock: "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]"
 ChangingTheRules: "[c/919191:You cannot change the rules now!]"
+DifficultySwitch: Difficulty changed from [c/{0}:{1}] to [c/{2}:{3}].
 Classic: Classic
 ClassicEnabled: Classic Mode is enabled
 ClassicInfo: Your Adventure Begins... A far more relaxed Terraria experience
 Expert: Expert
 ExpertEnabled: Expert Mode is enabled
-ExpertShortInfo: "[c/b8860b:Fortune & Glory, Kid. For those looking for a more difficult vanilla experience]"
+ExpertShortInfo: "[c/FFBA75:Fortune & Glory, Kid. For those looking for a more difficult vanilla experience]"
 ExpertExpandedInfo:
 	'''
-	[c/a87a07:Most bosses gain new attacks and more difficult attack patterns]
-	[c/a87a07:Most enemies have twice as much health, deal twice as much damage and receive 10% less knockback]
-	[c/a87a07:Certain enemies have new attacks, can inflict new debuffs or have a higher chance of inflicting debuffs they already had]
-	[c/a87a07:Enemies drop more loot, as well as having higher chances]
-	[c/a87a07:Players drop more of their coins on death]
+	[c/A87A07:Most bosses gain new attacks and more difficult attack patterns]
+	[c/A87A07:Most enemies have twice as much health, deal twice as much damage and receive 10% less knockback]
+	[c/A87A07:Certain enemies have new attacks, can inflict new debuffs or have a higher chance of inflicting debuffs they already had]
+	[c/A87A07:Enemies drop more loot, as well as having higher chances]
+	[c/A87A07:Players drop more of their coins on death]
 	'''
-ExpertActivate: Expert is active.
-ExpertDeactivate: Expert is not active.
 Master: Master
 MasterEnabled: Master Mode is enabled
-MasterShortInfo: "[c/00ad79:Game over man, game over! A tougher step up in stats from Expert Mode]"
+MasterShortInfo: "[c/1CFFAA:Game over man, game over! A tougher step up in stats from Expert Mode]"
 MasterExpandedInfo:
 	'''
-	[c/029c6d:Most enemies have even more health and knockback resistance added on from Expert Mode]
-	[c/029c6d:Bosses have new exclusive vanity rewards]
-	[c/029c6d:Players drop ALL their coins on death]
-	[c/029c6d:Players gain an additional accessory slot at the start of the game]
+	[c/029C6D:Most enemies have even more health and knockback resistance added on from Expert Mode]
+	[c/029C6D:Bosses have new exclusive vanity rewards]
+	[c/029C6D:Players drop ALL their coins on death]
+	[c/029C6D:Players gain an additional accessory slot at the start of the game]
 	'''
-MasterActivate: Master is active.
-MasterDeactivate: Master is not active.
 Revengeance: Revengeance
 RevengeanceEnabled: Revengeance Mode is enabled
 RevengeanceShortInfo: "[c/F54254:The intended Calamity experience! Can only be enabled in Expert Mode!]"
@@ -73,12 +70,10 @@ RevengeanceExpandedInfo:
 	[c/B55362:Bosses have new AI mechanics, new phases, and will drop Master Mode loot. Enemies spawn more frequently]
 	[c/F7342A:This mode is more difficult than Expert. Be sure to prepare for the challenge]
 	'''
-RevengeanceActivate: Revengeance is active.
-RevengeanceDeactivate: Revengeance is not active.
 Death: Death
 DeathLegend: Death+Legend
 DeathEnabled: Death Mode is enabled
-DeathShortInfo: "[c/C82DF7:A far more difficult challenge than Revengeance Mode! Can only be enabled in Master Mode!]"
+DeathShortInfo: "[c/E066F7:A far more difficult challenge than Revengeance Mode! Can only be enabled in Master Mode!]"
 DeathExpandedInfo:
 	'''
 	[c/B834E0:All foes will pose a much larger threat with highly aggressive AIs]
@@ -86,8 +81,6 @@ DeathExpandedInfo:
 	[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous]
 	[c/E945FF:Vigilance and tenacity are crucial to survival]
 	'''
-DeathActivate: Death is active.
-DeathDeactivate: Death is not active.
 // Calamity Health Bar
 ExoTwinsNameNormal: XS-01 Artemis and XS-03 Apollo
 ExoTwinsNameHekate: Eyes of XB-∞ Hekate

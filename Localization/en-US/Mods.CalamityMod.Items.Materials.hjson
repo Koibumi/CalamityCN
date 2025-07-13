@@ -53,11 +53,6 @@ BloodOrb: {
 	Tooltip: ""
 }
 
-BloodSample: {
-	DisplayName: Blood Sample
-	Tooltip: ""
-}
-
 Bloodstone: {
 	DisplayName: Bloodstone
 	Tooltip: ""
@@ -245,11 +240,6 @@ PurifiedGel: {
 ReaperTooth: {
 	DisplayName: Reaper Tooth
 	Tooltip: Sharp enough to cut diamonds
-}
-
-RottenMatter: {
-	DisplayName: Rotten Matter
-	Tooltip: ""
 }
 
 RuinousSoul: {
