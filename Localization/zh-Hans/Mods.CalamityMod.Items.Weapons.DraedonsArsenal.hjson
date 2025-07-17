@@ -16,8 +16,8 @@ Auger: {
 		'''
 		一台能产生磁能刃的腕戴式设备
 		<right>在光标处发生一次短促的磁能牵引，并强化你的下一次斩击
-		[c/1FFBFF:'Initially manufactured to serrate and separate chunks of raw material for transport.]
-		[c/1FFBFF:Keeping both hands free without compromising on power made it exceptionally ergonomic.']
+		[c/1FFBFF:“制造之初的功能是将原料锯齿化切割以备运输。]
+		[c/1FFBFF:无需牺牲能源即可解放双手，格外符合人体工程学。”]
 		'''
 }
 
@@ -28,8 +28,8 @@ CountermeasureMitt: {
 		一副每个指尖带有激光发射器的精密焊接手套
 		<right>让所有发射器聚焦为总是暴击的短程掌心冲击
 		掌心冲击未命中时冷却时间大幅缩短
-		[c/1FFBFF:'Most battalions prefer to either spread attacks widely, or focus on a singular target.]
-		[c/1FFBFF:This glove caters to both, though it will never bridge the gap between their strategies.']
+		[c/1FFBFF:“绝大多数营倾向于在面状打击和点状打击中二者择一。]
+		[c/1FFBFF:这副手套两面俱到，尽管如此，也不可能弥合两种战略之间的鸿沟。”]
 		'''
 }
 
@@ -61,8 +61,8 @@ HolofibreImmolator: {
 		按住<left>将弓快速充能，发射一支高速等离子箭
 		等离子箭在碰撞后起爆，如果与物块碰撞，爆炸将会更加猛烈
 		开火时按住<right>连续发射未充能的等离子球
-		[c/1FFBFF:'The elegance of holofibre is unmatched.]
-		[c/1FFBFF:However, mechanical tension may have produced more consistent results.']
+		[c/1FFBFF:“全息纤维的优雅无可匹敌。]
+		[c/1FFBFF:然而，机械张力产生的结果可能更为一致。”]
 		'''
 }
 
@@ -90,8 +90,8 @@ Nidhogg: {
 		同时只能存在一个内爆
 		按下<right>开始为一束毁灭性能量束充能，能量束一旦充能完成就会发射，且必定暴击
 		充能攻击一旦开始就不能被打断，且具有较长的冷却时间
-		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
-		[c/1FFBFF:This railgun has reliably pulled in skeptics of its crushing efficiency.']
+		[c/1FFBFF:“许多士兵低估了磁的毁灭性力量。]
+		[c/1FFBFF:这把轨道枪可靠地内爆了任何对其破坏效率抱有怀疑的人。”]
 		'''
 }
 
@@ -194,8 +194,8 @@ PhalanxSurge: {
 		按住<right>充能，使武器能够向前刺出，用能量矛刺穿敌人
 		发射充能攻击时按住<left>会使你高速向前飞刺并造成额外伤害
 		充能攻击有一个较短的冷却时间
-		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
-		[c/1FFBFF:A laser lance with which to gore their foes was met with thunderous applause.']
+		[c/1FFBFF:“寻神者军队中对近程武器的呼声不计其数。]
+		[c/1FFBFF:一把能刺穿敌人的激光槊自然收获了雷鸣般的掌声。”]
 		'''
 }
 
@@ -278,7 +278,7 @@ Vulcan: {
 		<right>发射一把磁能鱼叉，能够吸引你发射的子弹
 		发射鱼叉使得点放模式持续的更久
 		当鱼叉消失时，所有被磁化的子弹向附近的敌人发射，并提高伤害
-		[c/1FFBFF:'Originally a ceiling mounted mining beam, the removal of its battery reduced its heft only marginally.]
-		[c/1FFBFF:It saw little use and many complaints from the battlemage corps.']
+		[c/1FFBFF:“最初设计为顶挂式光束挖掘装置，移除电池仅略微减轻了其重量。]
+		[c/1FFBFF:鲜有用处，战斗法师部队对此怨声载道。”]
 		'''
 }
