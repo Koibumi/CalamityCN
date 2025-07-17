@@ -8,6 +8,9 @@ AnomalysNanogunHoldout.DisplayName: The Anomaly's Nanogun
 AnomalysNanogunMPFBBoom.DisplayName: MPFB Explosion
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastator
 AnomalysNanogunPlasmaBeam.DisplayName: Plasma Beam
+AugerHoldout.DisplayName: P-GSS Auger
+AugerSlash.DisplayName: Auger Slash
+AugerPull.DisplayName: Auger Pull
 CountermeasurePalmBlast.DisplayName: Palm Blast
 GaussEnergy.DisplayName: Gauss Energy
 GaussFlux.DisplayName: Gauss Flux

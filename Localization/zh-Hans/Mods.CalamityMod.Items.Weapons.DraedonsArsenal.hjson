@@ -10,6 +10,17 @@ AerialTracker: {
 		'''
 }
 
+Auger: {
+	DisplayName: P-GSS: Auger
+	Tooltip:
+		'''
+		一台能产生磁能刃的腕戴式设备
+		<right>在光标处发生一次短促的磁能牵引，并强化你的下一次斩击
+		[c/1FFBFF:'Initially manufactured to serrate and separate chunks of raw material for transport.]
+		[c/1FFBFF:Keeping both hands free without compromising on power made it exceptionally ergonomic.']
+		'''
+}
+
 CountermeasureMitt: {
 	DisplayName: B-LSR: Countermeasure Mitt
 	Tooltip:

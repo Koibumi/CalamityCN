@@ -13,7 +13,7 @@ RogueCrit: "{0}% increased rogue critical strike chance"
 RogueVelocity: "{0}% increased rogue velocity"
 SummonTagDamageFlat: "{0} summon tag damage"
 SummonTagDamageMult: "{0}x summon tag damage"
-SummonTagCrit: "{0}% summon tag critcal strike chance"
+SummonTagCrit: "{0}% summon tag critical strike chance"
 DodgeInformation:
 	'''
 	Attacks that deal less than 5% of your max life in damage will not be dodged

@@ -676,7 +676,7 @@ LeviathanTeeth: {
 		'''
 		Rapidly throws a spread of teeth that stick into enemies
 		After sticking to an enemy, the teeth will gouge through them and shoot out the other side
-		Stealth strikes throw a single piercing tooth that creates a jawline of teeth to maul your foes
+		Stealth strikes create a clamping jaw of teeth to maul your foes
 		'''
 }
 
@@ -1391,7 +1391,8 @@ WulfrumKnife: {
 	DisplayName: Wulfrum Knife
 	Tooltip:
 		'''
-		Fires wulfrum knives in bursts of 3
+		Fires wulfrum knives in bursts of 3 that stick in enemies
 		Stealth strikes make the knife fly further and hit several times at once
+		<right> to magnetize all stuck knives back to you, restoring stealth
 		'''
 }

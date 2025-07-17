@@ -10,6 +10,17 @@ AerialTracker: {
 		'''
 }
 
+Auger: {
+	DisplayName: P-GSS: Auger
+	Tooltip:
+		'''
+		A wrist-mounted device which emits a magnetic energy blade
+		<right> to create a brief magnetic pull at your cursor and amplify your next slash
+		[c/1FFBFF:'Initially manufactured to serrate and separate chunks of raw material for transport.]
+		[c/1FFBFF:Keeping both hands free without compromising on power made it exceptionally ergonomic.']
+		'''
+}
+
 CountermeasureMitt: {
 	DisplayName: B-LSR: Countermeasure Mitt
 	Tooltip:
