@@ -8,10 +8,10 @@ AnomalysNanogunHoldout.DisplayName: 异象纳米枪
 AnomalysNanogunMPFBBoom.DisplayName: MPFB爆炸
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB毁灭仪
 AnomalysNanogunPlasmaBeam.DisplayName: 离子光束
-CountermeasurePalmBlast.DisplayName: 掌心冲击
 AugerHoldout.DisplayName: P-GSS Auger
 AugerSlash.DisplayName: Auger Slash
 AugerPull.DisplayName: Auger Pull
+CountermeasurePalmBlast.DisplayName: 掌心冲击
 GaussEnergy.DisplayName: 高斯能量
 GaussFlux.DisplayName: 高斯流能
 GaussPistolShot.DisplayName: 高斯电能弹
