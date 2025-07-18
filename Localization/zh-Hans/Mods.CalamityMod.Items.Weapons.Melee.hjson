@@ -249,7 +249,7 @@ BurningRevelation: {
 		直接命中敌怪将大幅提升充能，并释放出随充能等级变强的亵渎能量
 		当充能达到最大时，将会释放出一连串追踪新星，新星随飞行距离提升伤害
 		伤害达到最高的新星命中敌怪时，还将额外引发一次爆炸
-		'It burns, but you hold it close to your heart. Clarity and purpose fill your soul'
+		“它在熊熊燃烧，但你将它紧紧贴在心上。明朗和目标感充满了你的灵魂”
 		'''
 }
 
@@ -322,8 +322,8 @@ DeathsAscension: {
 		进行强力的灵魂斩击，命中敌人时产生被镰刀环绕的时空裂隙
 		<right>发射一连串追踪镰刀
 		裂隙会与你一起发射镰刀
-		'It feels just right in your grip...
-		[c/660066:But the hands that wield it are not yours']
+		“握在手中恰到好处……
+		[c/660066:但并非是你的手在挥舞它”]
 		'''
 }
 
@@ -445,7 +445,7 @@ EntropicClaymore: {
 		发射一群在空气中游动的死亡绦虫
 		绦虫会追踪你的光标或附近的敌怪，优先考虑更接近的
 		绦虫可穿透，但击中首个敌怪后不再有追踪效果
-		[c/FF0000:'Go my tapeworms, make their balls itch']
+		[c/FF0000:“上吧我的绦虫们，让他们的蛋蛋巨痒难耐”]
 		'''
 }
 
@@ -1034,7 +1034,7 @@ RemsRevenge: {
 	Tooltip:
 		'''
 		击中敌人时迸发出血花，降低其{0}点防御
-		'A deadly morning star befitting its demonic owner'
+		“致命的晨星之锤，正适合它鬼族的使用者”
 		'''
 }
 
@@ -1287,7 +1287,7 @@ TerrorBlade: {
 		发射惊惧剑气，击中物块时反弹
 		每次反弹或穿透怪物时发生爆炸[STATUS]
 		'''
-	GFB: "'Ignore my spelling.'"
+	GFB: "“忽略我的拼写”"
 }
 
 TheBurningSky: {

@@ -799,10 +799,10 @@ SHPC: {
 	SoulDesc547: "[c/FF6014:被恐惧注能的光球以仇恨造成额外伤害]"
 	LegendaryText:
 		'''
-		'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.
-		To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.
-		Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.
-		A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.'
+		“尽管灵魂驱动的战争机器几乎失败了，但灵魂仍有作为燃料的潜能。
+		为了避免上次实验的主要缺陷，Soul-Harnessing Plasma Cannon被设计为在灵魂取得武器的控制权前就将它们射出去。
+		每种灵魂类型与基础等离子体的交互方式似乎都不同。然而，由于缺少志愿者，更多测试因为弹药不足而作罢。
+		对于一种在战场上本可以有几乎无尽弹药的武器来说，这实在是可惜。也许有一天，它的潜能能得到真正的测试。”
 		'''
 	TooltipGFB: 传奇武器归来！:)
 }

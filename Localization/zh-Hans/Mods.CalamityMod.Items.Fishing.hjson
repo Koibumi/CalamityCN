@@ -175,25 +175,25 @@ SparklingEmpress: {
 		发射一股不稳定魔法水流
 		发射一段时间后，鱼身会开始闪光
 		在闪光状态下停止使用将恢复少量魔力和生命值
-		'An beautiful fish that seems to feed on mana'
+		“一条美丽的鱼，似乎以魔力为食”
 		'''
 	TooltipGFB:
 		'''
 		发射一股不稳定魔法水流
 		发射一段时间后，鱼身会开始闪光
 		在闪光状态下停止使用将恢复少量魔力和生命值
-		'Hello there, you seem to be an unfamiliar face around here.
-		Perhaps you are surprised a fish like me is able to speak?
-		No need for worry, I have no intention of any foul play.
-		I only hope to find a delectable meal of pure mana on this fine day!
-		You have a supply of mana, yes?
-		Would you perchance be so kind as to share a bit with this small fish?
-		If it is not to your liking do not worry, for I have a compromise to make you.
-		It should be simple enough, you provide me, the fish, with your mana.
-		But, in turn I shall provide you plentiful offensive power through my art of fish magic.
-		Is this an applicable compromise?
-		Good!
-		Then let us set out and see the world beyond as I enjoy a fine feast!'
+		“你好啊，看来你是生面孔。
+		也许你很惊讶我这样一条鱼居然会说话？
+		别担心，我没有恶意。
+		这么好的天，我只是想找一顿纯粹魔力的美餐！
+		而你有很多很多魔力，对吧？
+		或许你会大发慈悲，为一只小鱼慷慨解囊？
+		如果你并非菩萨心肠，我还有一个折中之策。
+		很简单，你向我这条小鱼提供魔力。
+		而我会用我的鱼鱼魔法给你提供强大的攻击力。
+		能接受这个折中之策吗？
+		太好了！
+		那我们就去看看上面的世界吧，顺便让我享用一顿美餐！”
 		'''
 }
 
