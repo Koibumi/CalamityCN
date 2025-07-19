@@ -1221,7 +1221,7 @@ WulfrumLureItem: {
 
 ZenithThrone: {
 	DisplayName: Zenith Throne
-	Tooltip: "“不再会有游戏，只剩每秒伤害……”"
+	Tooltip: “游戏不再，唯余DPS……”
 }
 
 AbyssBathtub: {

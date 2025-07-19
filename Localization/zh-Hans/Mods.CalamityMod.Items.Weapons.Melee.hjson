@@ -1287,7 +1287,7 @@ TerrorBlade: {
 		发射惊惧剑气，击中物块时反弹
 		每次反弹或穿透怪物时发生爆炸[STATUS]
 		'''
-	GFB: "“忽略我的拼写”"
+	GFB: “忽略我的拼写”
 }
 
 TheBurningSky: {

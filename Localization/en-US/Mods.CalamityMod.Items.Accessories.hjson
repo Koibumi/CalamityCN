@@ -599,6 +599,22 @@ DepthCharm: {
 		'''
 }
 
+DiamondOfTheDeep: {
+	DisplayName: Diamond of the Deep
+	Tooltip:
+		'''
+		Multiplies all water debuff damage by 1.6x
+		Slowly accrue up to three different abyssal spirits
+		Dash to disperse the spirits and have them attack enemies
+		When dispersed [c/CB7AD7:below 50% life], the spirits support you instead
+		The spirits appear in order and have different effects based on color:
+		[c/3CB371: Explodes on impact and inflicts Crush Depth] / [c/CB7AD7:Heals for 8 HP]
+		[c/FF4500: Pierces enemies and inflicts Hellfire] / [c/CB7AD7:Increases defense by 15 temporarily]
+		[c/1E90FF: Hits multiple times and inflicts Hadopelagic Pressure] / [c/CB7AD7:Heals 5% of max HP]
+		Spirits are transparent and silent when visibility is toggled off
+		'''
+}
+
 DimensionalSoulArtifact: {
 	DisplayName: Dimensional Soul Artifact
 	Tooltip:
@@ -1086,22 +1102,6 @@ LivingDew: {
 		Grants +1 HP/s life regen and an additional 1 HP/s life regen when inflicted with a damaging debuff
 		Standing still in Honey grants +1.5 HP/s life regen
 		Fire and sickness debuff durations are halved
-		'''
-}
-
-DiamondOfTheDeep: {
-	DisplayName: Diamond of the Deep
-	Tooltip:
-		'''
-		Multiplies all water debuff damage by 1.75x
-		Slowly accrue up to three different abyssal spirits
-		Dash to disperse the spirits and have them attack enemies
-		When dispersed [c/CB7AD7:below 50% life], the spirits support you instead
-		The spirits appear in order and have different effects based on color:
-		[c/3CB371: Explodes on impact and inflicts Crush Depth] / [c/CB7AD7:Heals for 8 HP]
-		[c/FF4500: Pierces enemies and inflicts Hellfire] / [c/CB7AD7:Increases defense by 15 temporarily]
-		[c/1E90FF: Hits multiple times and inflicts Hadopelagic Pressure] / [c/CB7AD7:Heals 5% of max HP]
-		Spirits are transparent and silent when visibility is toggled off
 		'''
 }
 
