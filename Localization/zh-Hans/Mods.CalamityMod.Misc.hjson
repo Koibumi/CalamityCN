@@ -17,7 +17,7 @@ RecipeGroup: {
 }
 
 // Status
-WikiStatus1: "[i:Book] [c/EE4939:备注: Fandom wiki已经不再支持灾厄Mod。] [i:Book]"
+WikiStatus1: "[i:Book] [c/EE4939:备注: 灾厄Mod已搬离Fandom Wiki。] [i:Book]"
 WikiStatus2: "[i:Book] [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:calamity.huijiwiki.com][c/EE4939:!] [i:Book]"
 VCMMStatus: "[i:MusicBoxMartians] [c/67F567:前往][c/3898FF:calamitymod.com/downloadvanillamusic][c/67F567:获取原版灾厄音乐模组！] [i:MusicBoxMartians]"
 // Recipe Conditions
@@ -67,16 +67,16 @@ EtherealCoreText: 你已经使用一个飘渺之核了。再用的话会让你�
 PhantomHeartText: 你已经使用一个幻影之心了。它们低语告诉你再用一个是个坏主意。
 SulphurSwitchLeft: 硫磺海现在位于世界左侧。
 SulphurSwitchRight: 硫磺海现在位于世界右侧。
-Polaris0: Too much love...
+Polaris0: 被爱填满了……
 Polaris1: 你摸了摸鱼鱼肚肚
 Polaris2: 你投喂了鱼鱼
 Polaris3: 你告诉鱼鱼说她真是一条好鱼
 Polaris4: 你抱了抱鱼鱼
 Polaris5: 你拍了拍鱼鱼
-Empress1: A fine day for mana consumption.
-Empress2: That's quite enough mana...
-Empress3: OH GREAT HEAVENS!
-Empress4: A
+Empress1: 一个大吃魔力的好日子。
+Empress2: 魔力已经足够了……
+Empress3: 哦我的天哪！
+Empress4: 啊
 SwineSecret0: Hey
 SwineSecret1: You know, swine like us tend to keep our secrets.
 SwineSecret2: I once drank a gallon of molten pig iron.

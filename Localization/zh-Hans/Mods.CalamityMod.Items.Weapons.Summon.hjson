@@ -157,10 +157,10 @@ CindersOfLament: {
 		'''
 	Calamitas:
 		'''
-		'My brothers perished in Azafure. I found their bodies near the center of the city, after they left for an expedition.
-		Before my power was what it is now, they were always alongside me and didn't allow anyone to harm me. 
-		It may have been a problem sometimes, but they were surprisingly obedient.
-		And even after all that's happened, and even in death, they still look out for me. Isn't that sweet of them?'
+		“我的兄弟们殒命于阿萨福勒。在他们出发远征后，我在城市中心附近找到了他们的遗体。
+		早在我还没有如今这般力量之时，就是他们一直守护在我身边，不让任何人伤害我。
+		虽然有时候会出问题，但他们意外地听我话。
+		即使发生了这一切，即使在死亡之中，他们仍在守望着我。他们很贴心吧？”
 		'''
 }
 
@@ -257,7 +257,7 @@ DazzlingStabberStaff: {
 		圣焰匕首会英勇地将所有反对它们的东西化为灰烬
 		水晶匕首会优雅地将敌人雕刻成丝带
 		亵渎匕首会野蛮地，永久地进行分裂与改革
-		'Ever onward, towards Her future'
+		“朝着她的未来，永远前进”
 		'''
 }
 
@@ -539,9 +539,9 @@ Metastasis: {
 		'''
 	Calamitas:
 		'''
-		'When I joined Yharim's ranks, the Devourer was one of the first to greet me. He seemed kind at first, but that mask did not last long.
-		He was arrogant, disrespectful and shady. If you hadn't killed him, I would've.
-		I made my Sepulcher as a mockery of his arrogance, but it seems the insult fell flat. You can add "slime-brained" to his list of fabricated titles.'
+		“当我加入亚利姆的阵线时，吞噬者是最先欢迎我的之一。他初看起来很和善，但这种伪装没持续多久。
+		他傲慢，无礼而阴暗。如果你没杀掉他的话，我也会动手。
+		我创造灾坟魔物来嘲弄他的傲慢，但这种侮辱看来没起作用。你大可以将“史莱姆脑袋”加到他杜撰的头衔之中。”
 		'''
 }
 
@@ -646,7 +646,7 @@ SanctifiedSpark: {
 		召唤一只友好的献祭者向你飘来
 		献祭者会迅速向附近的敌怪发射追踪火焰，随后再次向你飘来
 		攻击完后，你每拥有4个召唤栏，献祭者就会向你发射一道治疗束
-		'They might be a bit clingy, but at least they're warm'
+		“他们可能有些粘人，但至少很温暖。”
 		'''
 }
 
@@ -893,7 +893,7 @@ WulfrumController: {
 	Tooltip:
 		'''
 		召唤一架钨钢无人机为你而战
-		手持遥控器时长按右键以使你的无人机在正常模式和增压模式间切换
+		手持遥控器时<right>以使你的无人机在正常模式和增压模式间切换
 		增压的无人机会停止攻击并为你聚集钨钢能量
 		每架无人机会提供+0.5HP/s生命再生和3点防御力
 		保持你的光标离其他玩家足够近的话可以治疗他们

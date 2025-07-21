@@ -333,7 +333,7 @@ CyborgChat: {
 }
 
 DemolitionistChat: {
-	MentionSkynamite: Tired of blowing your legs off with dynamite? Not my problem, but if you aren't fond of it you could try throwing them into a Sky Mill to see if they fly.
+	MentionSkynamite: 厌倦了用雷管炸飞自己的腿？这又不是我的问题，不过你要是不喜欢的话，可以试试把它们丢进天磨里，看看会不会飞起来。
 	DoGDefeated: 弑神者雷管？我喜欢那声音！
 }
 

@@ -200,38 +200,23 @@ CrushsawCrasher: {
 		'''
 	GFBFirstWords:
 		'''
-		Crushsaw
-		Crashsaw
-		Crushclaw
-		Crashclaw
-		Crushcaw
-		Crushaw
-		Crushmaw
-		Crashmaw
-		Crawshaw
-		Coleslaw
-		Cashew
-		Cawcaw
-		Crabshaw
-		Castle
-		Catshaw
-		Catspaw
+		硫火
+		流火
+		六火
+		榴火
+		流祸
+		留祸
+		硫磺
+		牛黄
 		'''
 	GFBLastWords:
 		'''
-		Crasher
-		Crusher
-		Clasher
-		Casher
-		Clacker
-		Catcher
-		Trasher
-		Rasher
-		Cracker
-		Cackler
-		Checker
-		Clicker
-		Catsher
+		飞爪
+		飞猪
+		废爪
+		吠爪
+		辉爪
+		灰爪
 		'''
 	GFBWordSeparator: ""
 }

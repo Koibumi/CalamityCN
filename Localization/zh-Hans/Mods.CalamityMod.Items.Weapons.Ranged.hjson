@@ -457,7 +457,7 @@ FirestormCannon: {
 		发射过久会使武器过热，短时间内无法使用
 		按下<right>收起武器，保留其灼热值
 		70%几率节省弹药
-		'What could go wrong?'
+		“这能出岔子我吃”
 		'''
 }
 
@@ -811,7 +811,7 @@ NullificationPistol: {
 		负能量射速快且会追踪敌怪
 		近距离时所有射击都会击退敌怪
 		每种模式都会随持续使用而衰弱，切换模式时重置到满状态
-		'Weaponizing alien tech? Now that's what I like to hear!'
+		“武器化的外星科技？我来兴趣了！”
 		'''
 }
 
@@ -826,7 +826,7 @@ OntologicalDespoiler: {
 		完全充能的失序精华会抛射一团跟踪的阻断能量球
 		空无精华则会投射一道空无湮灭射线束
 		反复使用同一种模式会降低充能速度，切换模式后会恢复原速度
-		'Rob them of continuity and the laws of physics they hold so dear.'
+		“将他们如此珍视的连续性和物理规律尽数剥夺”
 		'''
 }
 
@@ -969,11 +969,11 @@ PristineFury: {
 		'''
 	LegendaryText:
 		'''
-		'I and many others lost everything in this world's darkest hour.
-		I saw a beast descend from the heavens. A hulking cosmic monstrosity that heralded countless angels of death.
-		My family was torn from me by them, and my people forsake me. Even our supposed protectors did nothing to aid us.
-		And thus I swore to those I lost that I would do what is right, that my blaze's light would dwarf even that of Zeratros' Sun;
-		That one day, this cruel world would know nothing less than My perfect fury.'
+		“和很多人一样，我在世界的至暗之刻失去了一切。
+		我目睹一只巨兽自天堂而降。一只宇宙巨兽，紧随其后降临了无数告死天使。
+		我的家人被它们夺走，我的同族放弃了我。就连我们应允的守护者也未伸出援手。
+		因此我向我失去的所有人起誓，我之所作所为皆为正义，我的火焰将令泽拉托斯之阳黯然失色。
+		我起誓，终有一天，我的完美怒火将焚尽这残酷的世界。”
 		'''
 }
 
@@ -1162,7 +1162,7 @@ SpectralstormCannon: {
 		但是，触发过热时会释放一阵强大的灵魂并重置灼热值
 		按下<right>收起武器，保留其灼热值
 		70%几率节省弹药
-		'Ectoplasmic blast rated visor mandatory'
+		“必须佩戴灵气爆炸防护镜”
 		'''
 }
 
