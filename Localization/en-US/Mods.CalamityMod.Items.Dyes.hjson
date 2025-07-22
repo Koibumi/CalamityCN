@@ -123,6 +123,11 @@ WingTimeHairDye: {
 	Tooltip: ""
 }
 
+InvisibleDye: {
+	DisplayName: Invisible Dye
+	Tooltip: ""
+}
+
 LivingShardDye: {
 	DisplayName: Living Shard Dye
 	Tooltip: ""

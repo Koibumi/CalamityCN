@@ -76,7 +76,7 @@ HolyAttunement: {
 	Name: 天国之神威
 	Function:
 		'''
-		使用回旋斩，随按住时间而增加旋转速度和造成的伤害
+		长按<left>将剑奋力回旋，随回旋时间而增加旋转速度和造成的伤害
 		回旋足够久时，松开攻击将剑向光标猛然掷出，它会在这之后快速回到你的手中
 		回旋达到最大进度时，掷出的剑将使得异界巨石从被击中的敌怪身上爆裂而出
 		'''
@@ -87,7 +87,7 @@ WhirlwindAttunement: {
 	Name: 兵匠之傲
 	Function:
 		'''
-		长按<left>使用回旋斩，随按住时间增加旋转速度和造成的伤害
+		长按<left>将剑奋力回旋，随回旋时间而增加旋转速度和造成的伤害
 		回旋期间，追踪的星幻能量从你身上喷涌而出
 		回旋足够久时，松开攻击将剑向光标猛然掷出
 		击中敌怪时，掷出的剑将爆裂为异界巨石
@@ -119,13 +119,13 @@ SuperPogoAttunement: {
 }
 
 ShockwaveAttunement: {
-	Name: Earthen Tides
+	Name: 大地之潮
 	Function:
 		'''
-		Charge an earth-shattering lunge, release to unleash a devastating blow
-		Homing sword beams are emitted as the sword charges up
-		Striking an enemy with the lunge creates a shockwave and marks them with an armor crunching sigil that attracts sword beam homing
-		Striking the earth with the lunge will cause several blasts of dust to erupt around you
+		蓄力一次震地跃冲，松手时打出毁灭性的一击
+		蓄力时会周期性释放追踪剑气
+		跃冲命中敌人会产生一道震荡波，并为其施加碎甲之符，被标记者将无法逃开剑气的追踪
+		跃冲命中地面会在你周身引发多次尘爆
 		'''
 	PassiveDesc: 攻击时，周期性在身边释放大型冲击波
 }
@@ -138,7 +138,7 @@ PhoenixAttunement: {
 		回旋挥舞剑刃，随时间加速
 		旋转的星云将持续释放银河之雷
 		释放回旋斩时停止攻击，把剑伴随六个巨大的银河之雷向前掷出
-		The hurled sword erupts into a blazing tornado on enemy hits
+		命中敌人时，掷出的剑爆发出炽烈的火卷风
 		'''
 }
 
@@ -157,7 +157,7 @@ PolarisAttunement: {
 		'''
 		引导北极星之力，化为星环簇拥的星系能量旋涡
 		随着时间流逝或击中敌怪，旋涡将逐渐成长
-		Release to fire a powerful star directly on your cursor that bombards nearby enemies with bolts
+		松开时在光标处召唤一颗明耀之星，以银河之雷轰炸附近敌怪
 		此时立即再次攻击，你将追随北极星的步伐高速冲刺，对敌怪造成伤害
 		'''
 }
@@ -166,8 +166,8 @@ AndromedaAttunement: {
 	Name: 仙女之跃
 	Function:
 		'''
-		Charge a spatial lunge, release to unleash a galactic blow
+		蓄力一次空间跃冲，松手时打出寰宇一击
 		蓄力时会周期性释放追踪银河之雷
-		Lunging into enemies rains large homing stars from the heavens
+		跃冲命中敌人使追踪巨星如雨般自天穹而落
 		'''
 }

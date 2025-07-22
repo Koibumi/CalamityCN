@@ -123,6 +123,11 @@ WingTimeHairDye: {
 	Tooltip: ""
 }
 
+InvisibleDye: {
+	DisplayName: 隐身染料
+	Tooltip: ""
+}
+
 LivingShardDye: {
 	DisplayName: 生命碎片染料
 	Tooltip: ""
