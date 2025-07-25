@@ -14,7 +14,7 @@ AddedTooltip: {
 		海洋群系外会狂暴
 		'''
 	SlimeGun: 史莱姆类敌人会受到更多来自火系减益的伤害
-	FleshKnucklesLine: 最大生命增加45
+	FleshKnucklesLine: 最大生命增加25
 	RodofDiscord: 混沌状态下禁用传送
 	Pwnhammer:
 		'''
@@ -46,7 +46,7 @@ AddedTooltip: {
 	FairyBoots:
 		'''
 		大幅度提升仙灵的生成概率，在白天地表也能自然生成
-		附近仙灵会提供+2HP/s生命再生，10点防御与10%移动速度
+		附近仙灵会提供+2HP/s生命再生，6点防御与10%移动速度
 		仙灵免疫敌怪的伤害并能跟随你
 		'''
 	MoonStone: 减少受到夜魇减益的伤害

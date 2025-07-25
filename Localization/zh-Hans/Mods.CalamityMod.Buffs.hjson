@@ -891,7 +891,7 @@ SilvaRevival: {
 
 SpiritDefense: {
 	DisplayName: 灵魂防御
-	Description: 增加{0}点防御和{1}%伤害减免
+	Description: 增加{0}点防御
 }
 
 SpiritPower: {

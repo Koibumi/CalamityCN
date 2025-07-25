@@ -300,7 +300,7 @@ WulfrumHat: {
 	DisplayName: Wulfrum Hat & Goggles
 	Tooltip:
 		'''
-		10% increased summon damage
+		5% increased summon damage
 		Comes equipped with hair extensions
 		'''
 	SetBonus: +1 max minion
@@ -315,7 +315,7 @@ WulfrumHat: {
 
 WulfrumJacket: {
 	DisplayName: Wulfrum Jacket
-	Tooltip: 5% increased damage reduction
+	Tooltip: 5% increased summon damage
 }
 
 WulfrumOveralls: {

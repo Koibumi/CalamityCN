@@ -891,7 +891,7 @@ SilvaRevival: {
 
 SpiritDefense: {
 	DisplayName: Spirit Defense
-	Description: Defense increased by {0} and damage reduction increased by {1}%
+	Description: Defense increased by {0}
 }
 
 SpiritPower: {

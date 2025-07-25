@@ -1888,6 +1888,106 @@ CosmiliteWorkBench: {
 	Tooltip: ""
 }
 
+DriftwoodBaroqueCello: {
+	DisplayName: Driftwood Baroque Cello
+	Tooltip: ""
+}
+
+DriftwoodBathtub: {
+	DisplayName: Driftwood Bathtub
+	Tooltip: ""
+}
+
+DriftwoodBed: {
+	DisplayName: Driftwood Bed
+	Tooltip: ""
+}
+
+DriftwoodBookcase: {
+	DisplayName: Driftwood Bookcase
+	Tooltip: ""
+}
+
+DriftwoodCandelabra: {
+	DisplayName: Driftwood Candelabra
+	Tooltip: ""
+}
+
+DriftwoodCandle: {
+	DisplayName: Driftwood Candle
+	Tooltip: ""
+}
+
+DriftwoodChair: {
+	DisplayName: Driftwood Chair
+	Tooltip: ""
+}
+
+DriftwoodChandelier: {
+	DisplayName: Driftwood Chandelier
+	Tooltip: ""
+}
+
+DriftwoodChest: {
+	DisplayName: Driftwood Chest
+	Tooltip: ""
+}
+
+DriftwoodDoor: {
+	DisplayName: Driftwood Door
+	Tooltip: ""
+}
+
+DriftwoodDresser: {
+	DisplayName: Driftwood Dresser
+	Tooltip: ""
+}
+
+DriftwoodLamp: {
+	DisplayName: Driftwood Lamp
+	Tooltip: ""
+}
+
+DriftwoodLantern: {
+	DisplayName: Driftwood Lantern
+	Tooltip: ""
+}
+
+DriftwoodPlatform: {
+	DisplayName: Driftwood Platform
+	Tooltip: ""
+}
+
+DriftwoodSink: {
+	DisplayName: Driftwood Sink
+	Tooltip: Counts as a water source
+}
+
+DriftwoodSofa: {
+	DisplayName: Driftwood Sofa
+	Tooltip: ""
+}
+
+DriftwoodSundial: {
+	DisplayName: Driftwood Sundial
+	Tooltip: ""
+}
+
+DriftwoodTable: {
+	DisplayName: Driftwood Table
+	Tooltip: ""
+}
+
+DriftwoodToilet: {
+	DisplayName: Driftwood Toilet
+	Tooltip: ""
+}
+
+DriftwoodWorkBench: {
+	DisplayName: Driftwood Work Bench
+	Tooltip: ""
+}
+
 AncientSmoothNavystone: {
 	DisplayName: Ancient Smooth Navystone
 	Tooltip: ""
@@ -3269,7 +3369,7 @@ WulfrumPlating: {
 
 WulfrumSink: {
 	DisplayName: Wulfrum Sink
-	Tooltip: ""
+	Tooltip: Counts as a water source
 }
 
 WulfrumSofa: {
@@ -3289,6 +3389,91 @@ WulfrumToilet: {
 
 WulfrumWorkBench: {
 	DisplayName: Wulfrum Work Bench
+	Tooltip: ""
+}
+
+AnodizedWulfrumBathtub: {
+	DisplayName: Anodized Wulfrum Bathtub
+	Tooltip: ""
+}
+
+AnodizedWulfrumBookcase: {
+	DisplayName: Anodized Wulfrum Bookcase
+	Tooltip: ""
+}
+
+AnodizedWulfrumChair: {
+	DisplayName: Anodized Wulfrum Chair
+	Tooltip: ""
+}
+
+AnodizedWulfrumChandelier: {
+	DisplayName: Anodized Wulfrum Chandelier
+	Tooltip: ""
+}
+
+AnodizedWulfrumChest: {
+	DisplayName: Anodized Wulfrum Chest
+	Tooltip: ""
+}
+
+AnodizedWulfrumDeskLight: {
+	DisplayName: Anodized Wulfrum Desk Light
+	Tooltip: ""
+}
+
+AnodizedWulfrumDoor: {
+	DisplayName: Anodized Wulfrum Door
+	Tooltip: ""
+}
+
+AnodizedWulfrumDresser: {
+	DisplayName: Anodized Wulfrum Dresser
+	Tooltip: ""
+}
+
+AnodizedWulfrumJukebox: {
+	DisplayName: Anodized Wulfrum Jukebox
+	Tooltip: ""
+}
+
+AnodizedWulfrumLamp: {
+	DisplayName: Anodized Wulfrum Lamp
+	Tooltip: ""
+}
+
+AnodizedWulfrumLantern: {
+	DisplayName: Anodized Wulfrum Lantern
+	Tooltip: ""
+}
+
+AnodizedWulfrumSink: {
+	DisplayName: Anodized Wulfrum Sink
+	Tooltip: Counts as a water source
+}
+
+AnodizedWulfrumSleepingPod: {
+	DisplayName: Anodized Wulfrum Sleeping Pod
+	Tooltip: ""
+}
+
+AnodizedWulfrumSofa: {
+	DisplayName: Anodized Wulfrum Sofa
+	Tooltip: ""
+}
+
+AnodizedWulfrumTable: {
+	DisplayName: Anodized Wulfrum Table
+	Tooltip: ""
+}
+
+AnodizedWulfrumToilet: {
+	DisplayName: Anodized Wulfrum Toilet
+	Tooltip: ""
+}
+
+AnodizedWulfrumWorkBench: {
+	DisplayName: Anodized Wulfrum Work Bench
 	Tooltip: ""
 }
 

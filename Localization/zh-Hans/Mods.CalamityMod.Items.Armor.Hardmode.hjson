@@ -3,7 +3,7 @@ AstralBreastplate: {
 	Tooltip:
 		'''
 		增加7%伤害
-		增加80点最大魔力值和20点最大生命值
+		增加80点最大魔力值
 		'''
 }
 
@@ -160,7 +160,6 @@ FathomSwarmerBreastplate: {
 	DisplayName: 幻渊鱼群胸甲
 	Tooltip:
 		'''
-		增加6%伤害减免
 		增加1仆从栏位
 		增加10%召唤伤害
 		降低深渊造成的防御削减效果
@@ -200,11 +199,7 @@ ForbiddenCirclet: {
 
 HydrothermicArmor: {
 	DisplayName: 渊泉盔甲
-	Tooltip:
-		'''
-		增加20点最大生命值
-		增加8%伤害和4%暴击率
-		'''
+	Tooltip: 增加8%伤害和4%暴击率
 	CommonSetBonus:
 		'''
 		生命值低于50%时获得狱火药水效果
@@ -391,11 +386,7 @@ PlaguebringerPistons: {
 
 PlaguebringerVisor: {
 	DisplayName: 瘟疫使者面甲
-	Tooltip:
-		'''
-		增加15%召唤伤害
-		增加20点最大生命值
-		'''
+	Tooltip: 增加15%召唤伤害
 	SetBonus:
 		'''
 		获得瘟疫冲刺，使敌怪被瘟疫折磨
@@ -494,11 +485,7 @@ ReaverHeadTank: {
 
 ReaverScaleMail: {
 	DisplayName: 掠夺者鳞甲
-	Tooltip:
-		'''
-		增加9%伤害和4%暴击率
-		增加20点最大生命值
-		'''
+	Tooltip: 增加9%伤害和4%暴击率
 }
 
 TitanHeartBoots: {

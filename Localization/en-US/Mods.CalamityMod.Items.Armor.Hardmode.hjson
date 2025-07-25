@@ -3,7 +3,7 @@ AstralBreastplate: {
 	Tooltip:
 		'''
 		7% increased damage
-		+80 max mana and +20 max life
+		+80 max mana
 		'''
 }
 
@@ -160,7 +160,6 @@ FathomSwarmerBreastplate: {
 	DisplayName: Fathom Swarmer Breastplate
 	Tooltip:
 		'''
-		6% increased damage reduction
 		Increases your max number of minions by 1
 		10% increased summon damage
 		Reduces defense loss within the Abyss
@@ -200,11 +199,7 @@ ForbiddenCirclet: {
 
 HydrothermicArmor: {
 	DisplayName: Hydrothermic Armor
-	Tooltip:
-		'''
-		+20 max life
-		8% increased damage and 4% increased critical strike chance
-		'''
+	Tooltip: 8% increased damage and 4% increased critical strike chance
 	CommonSetBonus:
 		'''
 		Inferno effect when below 50% life
@@ -391,11 +386,7 @@ PlaguebringerPistons: {
 
 PlaguebringerVisor: {
 	DisplayName: Plaguebringer Visor
-	Tooltip:
-		'''
-		15% increased summon damage
-		+20 max life
-		'''
+	Tooltip: 15% increased summon damage
 	SetBonus:
 		'''
 		Grants a plague dash which can slam through enemies without taking damage
@@ -494,11 +485,7 @@ ReaverHeadTank: {
 
 ReaverScaleMail: {
 	DisplayName: Reaver Scale Mail
-	Tooltip:
-		'''
-		9% increased damage and 4% increased critical strike chance
-		+20 max life
-		'''
+	Tooltip: 9% increased damage and 4% increased critical strike chance
 }
 
 TitanHeartBoots: {
