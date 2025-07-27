@@ -59,29 +59,6 @@ AddedTooltip: {
 	YoyoGlove: Secondary yoyos will do 50% less damage
 	DefensePrefix: +{0}% damage reduction
 	LuckyPrefix: +0.05 luck
-	/*
-	Armor
-	*/
-	CopperHelmet: 5% increased damage
-	CopperChainmail: 3% increased critical strike chance
-	CopperGreaves: 5% increased movement speed
-	TinHelmet: 3% increased critical strike chance
-	TinChainmail: +0.5 HP/s life regen
-	TinGreaves: 5% increased movement speed
-	IronPieces: Increases damage reduction by 3%
-	LeadPieces: Increases damage reduction by 2%
-	SilverHelmet: 5% increased critical strike chance
-	SilverChainmail: +1 HP/s life regen
-	SilverGreaves: 8% increased movement speed
-	TungstenHelmet: 7% increased damage
-	TungstenChainmail: +0.5 HP/s life regen
-	TungstenGreaves: 8% increased movement speed
-	GoldHelmet: 5% increased damage
-	GoldChainmail: Increases damage reduction by 5%
-	GoldGreaves: 10% increased movement speed
-	PlatinumHelmet: 6% increased damage
-	PlatinumChainmail: 3% increased critical strike chance
-	PlatinumGreaves: 10% increased movement speed
 	CrimsonBreastplate: +1 HP/s life regen
 	CrimsonOtherPieces: +0.5 HP/s life regen
 	Picksaw: Can mine Scoria Ore located in the Abyss

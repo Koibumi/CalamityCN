@@ -1,71 +1,71 @@
 AerospecBreastplate: {
 	DisplayName: 天蓝胸甲
-	Tooltip: 增加3%伤害和暴击率
+	Tooltip: 增加{0}%伤害和暴击率
 	CommonSetBonus:
 		'''
-		一次性受到超过25点伤害会召唤追踪羽毛从天而降
+		一次性受到超过{0}点伤害会召唤追踪羽毛从天而降
 		增加下落速度，免疫摔落伤害
 		'''
 }
 
 AerospecHeadMagic: {
 	DisplayName: 天蓝帽
-	Tooltip: 增加10%魔法伤害和30点最大魔力值
+	Tooltip: 增加{0}%魔法伤害和{1}点最大魔力值
 	SetBonus:
 		'''
-		降低8%魔力消耗
-		增加5%移动速度与魔法暴击率
+		降低{0}%魔力消耗
+		增加{1}%移动速度与魔法暴击率
 		'''
 }
 
 AerospecHeadRogue: {
 	DisplayName: 天蓝头套
-	Tooltip: 增加10%盗贼伤害和5%移动速度
+	Tooltip: 增加{0}%盗贼伤害和{1}%移动速度
 	SetBonus:
 		'''
-		增加5%移动速度和盗贼暴击率
-		增加80点最大潜行值
+		增加{0}%移动速度和盗贼暴击率
+		增加{1}点最大潜行值
 		'''
 }
 
 AerospecHeadMelee: {
 	DisplayName: 天蓝战盔
-	Tooltip: 增加10%近战伤害
+	Tooltip: 增加{0}%近战伤害
 	SetBonus:
 		'''
-		增加5%移动速度和近战暴击率
+		增加{1}%移动速度和近战暴击率
 		敌人更有可能以你为目标
 		'''
 }
 
 AerospecHeadSummon: {
 	DisplayName: 天蓝头盔
-	Tooltip: 增加10%召唤伤害和5%移动速度
+	Tooltip: 增加{0}%召唤伤害和{1}%移动速度
 	SetBonus:
 		'''
-		增加11%召唤伤害和1仆从栏
+		增加{0}%召唤伤害和{1}仆从栏
 		召唤天武神保护你
 		'''
 }
 
 AerospecHeadRanged: {
 	DisplayName: 天蓝兜帽
-	Tooltip: 增加10%远程伤害
-	SetBonus: 增加5%移动速度和远程暴击率
+	Tooltip: 增加{0}%远程伤害
+	SetBonus: 增加{1}%移动速度和远程暴击率
 }
 
 AerospecLeggings: {
 	DisplayName: 天蓝护胫
-	Tooltip: 增加12%移动速度
+	Tooltip: 增加{0}%移动速度
 }
 
 DesertProwlerHat: {
 	DisplayName: 沙漠巡游者帽
-	Tooltip: 增加4%盗贼暴击率
+	Tooltip: 增加{0}%盗贼暴击率
 	SetBonus:
 		'''
-		增加5%盗贼伤害
-		增加50点最大潜行值
+		增加{0}%盗贼伤害
+		增加{1}点最大潜行值
 		'''
 	AbilityBrief: 沙尘覆盖-双击{0}键将自己笼罩在一小片沙尘之中
 	AbilityDescription:
@@ -79,17 +79,17 @@ DesertProwlerHat: {
 
 DesertProwlerPants: {
 	DisplayName: 沙漠巡游者裤
-	Tooltip: 增加10%移动速度并使你免疫强风减益
+	Tooltip: 增加{0}%移动速度并使你免疫强风减益
 }
 
 DesertProwlerShirt: {
 	DisplayName: 沙漠巡游者衣
-	Tooltip: 增加5%盗贼暴击率
+	Tooltip: 增加{0}%盗贼暴击率
 }
 
 MarniteArchitectHeadgear: {
 	DisplayName: 合成岩建筑师头饰
-	Tooltip: 增加5格物块放置和工具范围
+	Tooltip: 增加{0}格物块放置和工具范围
 	AbilityBrief: 合成岩悬浮平台 -你可以在脚下召唤一个悬浮平台以够到更高的地方
 	AbilityDescription:
 		'''
@@ -100,25 +100,25 @@ MarniteArchitectHeadgear: {
 
 MarniteArchitectToga: {
 	DisplayName: 合成岩建筑师长袍
-	Tooltip: 增加50%物块和墙的放置速度
+	Tooltip: 增加{0}%物块和墙的放置速度
 }
 
 SnowRuffianChestplate: {
 	DisplayName: 雪境暴徒胸甲
-	Tooltip: 增加4%远程暴击率
+	Tooltip: 增加{0}%远程暴击率
 }
 
 SnowRuffianGreaves: {
 	DisplayName: 雪境暴徒护胫
-	Tooltip: 增加10%移动速度
+	Tooltip: 增加{0}%移动速度
 }
 
 SnowRuffianMask: {
 	DisplayName: 雪境暴徒面具
-	Tooltip: 增加2%远程伤害
+	Tooltip: 增加{0}%远程伤害
 	SetBonus:
 		'''
-		增加4%远程伤害和暴击率
+		增加{0}%远程伤害和暴击率
 		你可以缓降以消除坠落伤害
 		远程暴击对敌人施加霜冻
 		'''
@@ -126,26 +126,26 @@ SnowRuffianMask: {
 
 StatigelArmor: {
 	DisplayName: 斯塔提斯盔甲
-	Tooltip: 增加5%暴击率
+	Tooltip: 增加{0}%暴击率
 	CommonSetBonus:
 		'''
-		当你一次性受到超过100点伤害时，获得额外的无敌帧
+		当你一次性受到超过{0}点伤害时，获得额外的无敌帧
 		获得一段额外跳跃并增加跳跃高度
-		增加12%跳跃速度
+		增加{1}%跳跃速度
 		'''
 }
 
 StatigelGreaves: {
 	DisplayName: 斯塔提斯护胫
-	Tooltip: 增加5%伤害和移动速度
+	Tooltip: 增加{0}%伤害和移动速度
 }
 
 StatigelHeadMagic: {
 	DisplayName: 斯塔提斯帽子
 	Tooltip:
 		'''
-		增加10%魔法伤害并降低10%魔力消耗
-		增加7%魔法暴击率和40点最大魔力值
+		增加{0}%魔法伤害并降低{1}%魔力消耗
+		增加{2}%魔法暴击率和{3}点最大魔力值
 		'''
 }
 
@@ -153,8 +153,8 @@ StatigelHeadMelee: {
 	DisplayName: 斯塔提斯战盔
 	Tooltip:
 		'''
-		增加10%近战伤害和近战攻速
-		增加7%近战暴击率
+		增加{0}%近战伤害和近战攻速
+		增加{1}%近战暴击率
 		'''
 	SetBonus: 敌人更有可能以你为目标
 }
@@ -163,8 +163,8 @@ StatigelHeadRanged: {
 	DisplayName: 斯塔提斯头饰
 	Tooltip:
 		'''
-		增加10%远程伤害
-		增加7%远程暴击率
+		增加{0}%远程伤害
+		增加{1}%远程暴击率
 		'''
 }
 
@@ -172,10 +172,10 @@ StatigelHeadRogue: {
 	DisplayName: 斯塔提斯面具
 	Tooltip:
 		'''
-		增加10%盗贼伤害
-		增加7%盗贼暴击率和5%移动速度
+		增加{0}%盗贼伤害
+		增加{1}%盗贼暴击率和{2}%移动速度
 		'''
-	SetBonus: 增加90点最大潜行值
+	SetBonus: 增加{0}点最大潜行值
 }
 
 StatigelHeadSummon: {
@@ -183,27 +183,27 @@ StatigelHeadSummon: {
 	Tooltip: 增加仆从击退
 	SetBonus:
 		'''
-		增加18%召唤伤害和1仆从栏
+		增加{0}%召唤伤害和{1}仆从栏
 		召唤小圣卫为你而战，它的种类取决于世界邪恶类型
 		'''
 }
 
 SulphurousBreastplate: {
 	DisplayName: 硫磺胸甲
-	Tooltip: 增加6%盗贼伤害和4%盗贼暴击率
+	Tooltip: 增加{0}%盗贼伤害和{1}%盗贼暴击率
 }
 
 SulphurousHelmet: {
 	DisplayName: 硫磺头盔
 	Tooltip:
 		'''
-		增加4%盗贼伤害
-		增加2%盗贼暴击率
+		增加{0}%盗贼伤害
+		增加{1}%盗贼暴击率
 		使你获得水下呼吸能力
 		'''
 	SetBonus:
 		'''
-		增加65点最大潜行值
+		增加{0}点最大潜行值
 		攻击敌人或被敌人攻击时对其造成中毒减益
 		获得一段额外跳跃，跳跃时生成硫磺泡泡
 		增加水下移动力，降低硫磺海水的威胁性
@@ -214,8 +214,8 @@ SulphurousLeggings: {
 	DisplayName: 硫磺护胫
 	Tooltip:
 		'''
-		增加10%移动速度
-		浸没在液体中时额外增加25%移动速度
+		增加{0}%移动速度
+		浸没在液体中时额外增加{1}%移动速度
 		'''
 }
 
@@ -300,10 +300,10 @@ WulfrumHat: {
 	DisplayName: 钨钢工程帽
 	Tooltip:
 		'''
-		增加5%召唤伤害
+		增加{0}%召唤伤害
 		自带假发
 		'''
-	SetBonus: 增加1仆从栏
+	SetBonus: 增加{0}仆从栏
 	AbilityBrief: 钨钢阵线-不在坐骑上时双击{0}键以装备钨钢能量装甲
 	AbilityDescription:
 		'''
@@ -315,10 +315,10 @@ WulfrumHat: {
 
 WulfrumJacket: {
 	DisplayName: 钨钢夹克
-	Tooltip: 增加5%召唤伤害
+	Tooltip: 增加{0}%召唤伤害
 }
 
 WulfrumOveralls: {
 	DisplayName: 钨钢工装裤
-	Tooltip: 增加5%移动速度
+	Tooltip: 增加{0}%移动速度
 }

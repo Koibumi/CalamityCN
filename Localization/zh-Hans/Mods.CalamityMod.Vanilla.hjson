@@ -59,29 +59,6 @@ AddedTooltip: {
 	YoyoGlove: 第二个悠悠球伤害减少50%
 	DefensePrefix: +{0}% 伤害减免
 	LuckyPrefix: +0.05 运气值
-	/*
-	Armor
-	*/
-	CopperHelmet: 伤害增加5%
-	CopperChainmail: 暴击率增加3%
-	CopperGreaves: 移动速度增加5%
-	TinHelmet: 暴击率增加3%
-	TinChainmail: +0.5HP/s生命再生
-	TinGreaves: 移动速度增加5%
-	IronPieces: 伤害减免增加3%
-	LeadPieces: 伤害减免增加2%
-	SilverHelmet: 暴击率增加5%
-	SilverChainmail: +1HP/s生命再生
-	SilverGreaves: 移动速度增加8%
-	TungstenHelmet: 伤害增加7%
-	TungstenChainmail: +0.5HP/s生命再生
-	TungstenGreaves: 移动速度增加8%
-	GoldHelmet: 伤害增加5%
-	GoldChainmail: 伤害减免增加5%
-	GoldGreaves: 移动速度增加10%
-	PlatinumHelmet: 伤害增加6%
-	PlatinumChainmail: 暴击率增加3%
-	PlatinumGreaves: 移动速度增加10%
 	CrimsonBreastplate: +1HP/s生命再生
 	CrimsonOtherPieces: +0.5HP/s生命再生
 	Picksaw: 可开采深渊中的熔渣矿

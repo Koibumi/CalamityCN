@@ -1,71 +1,71 @@
 AerospecBreastplate: {
 	DisplayName: Aerospec Breastplate
-	Tooltip: 3% increased damage and critical strike chance
+	Tooltip: "{0}% increased damage and critical strike chance"
 	CommonSetBonus:
 		'''
-		Taking over 25 damage in one hit will cause a spread of homing feathers to fall
+		Taking over {0} damage in one hit will cause a spread of homing feathers to fall
 		Allows you to fall more quickly and disables fall damage
 		'''
 }
 
 AerospecHeadMagic: {
 	DisplayName: Aerospec Hat
-	Tooltip: 10% increased magic damage and +30 max mana
+	Tooltip: "{0}% increased magic damage and +{1} max mana"
 	SetBonus:
 		'''
-		8% reduced mana cost
-		5% increased movement speed and magic critical strike chance
+		{0}% reduced mana cost
+		{1}% increased movement speed and magic critical strike chance
 		'''
 }
 
 AerospecHeadRogue: {
 	DisplayName: Aerospec Headgear
-	Tooltip: 10% increased rogue damage and 5% increased movement speed
+	Tooltip: "{0}% increased rogue damage and {1}% increased movement speed"
 	SetBonus:
 		'''
-		5% increased movement speed and rogue critical strike chance
-		+80 maximum stealth
+		{0}% increased movement speed and rogue critical strike chance
+		+{1} maximum stealth
 		'''
 }
 
 AerospecHeadMelee: {
 	DisplayName: Aerospec Helm
-	Tooltip: 10% increased melee damage
+	Tooltip: "{0}% increased melee damage"
 	SetBonus:
 		'''
-		5% increased movement speed and melee critical strike chance
+		{0}% increased movement speed and melee critical strike chance
 		Enemies are more likely to target you
 		'''
 }
 
 AerospecHeadSummon: {
 	DisplayName: Aerospec Helmet
-	Tooltip: 10% increased summon damage and 5% increased movement speed
+	Tooltip: "{0}% increased summon damage and {1}% increased movement speed"
 	SetBonus:
 		'''
-		11% increased summon damage and +1 max minion
+		{0}% increased summon damage and +{1} max minion
 		Summons a valkyrie to protect you
 		'''
 }
 
 AerospecHeadRanged: {
 	DisplayName: Aerospec Hood
-	Tooltip: 10% increased ranged damage
-	SetBonus: 5% increased movement speed and ranged critical strike chance
+	Tooltip: "{0}% increased ranged damage"
+	SetBonus: "{0}% increased movement speed and ranged critical strike chance"
 }
 
 AerospecLeggings: {
 	DisplayName: Aerospec Leggings
-	Tooltip: 12% increased movement speed
+	Tooltip: "{0}% increased movement speed"
 }
 
 DesertProwlerHat: {
 	DisplayName: Desert Prowler Hat
-	Tooltip: 4% increased rogue critical strike chance
+	Tooltip: "{0}% increased rogue critical strike chance"
 	SetBonus:
 		'''
-		5% increased rogue damage
-		+50 maximum stealth
+		{0}% increased rogue damage
+		+{1} maximum stealth
 		'''
 	AbilityBrief: Sandsmoke Bomb - Double tap {0} to shroud yourself in a small cloud of sand
 	AbilityDescription:
@@ -79,17 +79,17 @@ DesertProwlerHat: {
 
 DesertProwlerPants: {
 	DisplayName: Desert Prowler Pants
-	Tooltip: 10% increased movement speed and immunity to the Mighty Wind debuff
+	Tooltip: "{0}% increased movement speed and immunity to the Mighty Wind debuff"
 }
 
 DesertProwlerShirt: {
 	DisplayName: Desert Prowler Shirt
-	Tooltip: 5% increased rogue critical strike chance
+	Tooltip: "{0}% increased rogue critical strike chance"
 }
 
 MarniteArchitectHeadgear: {
 	DisplayName: Marnite Architect Headgear
-	Tooltip: Increases block placement & tool range by 5
+	Tooltip: Increases block placement & tool range by {0}
 	AbilityBrief: Marnite Lift - You can summon a lift under your feet to reach higher up
 	AbilityDescription:
 		'''
@@ -100,25 +100,25 @@ MarniteArchitectHeadgear: {
 
 MarniteArchitectToga: {
 	DisplayName: Marnite Architect Toga
-	Tooltip: Increases block & wall placement speed by 50%
+	Tooltip: Increases block & wall placement speed by {0}%
 }
 
 SnowRuffianChestplate: {
 	DisplayName: Snow Ruffian Chestplate
-	Tooltip: 4% increased ranged critical strike chance
+	Tooltip: "{0}% increased ranged critical strike chance"
 }
 
 SnowRuffianGreaves: {
 	DisplayName: Snow Ruffian Greaves
-	Tooltip: 10% increased movement speed
+	Tooltip: "{0}% increased movement speed"
 }
 
 SnowRuffianMask: {
 	DisplayName: Snow Ruffian Mask
-	Tooltip: 2% increased ranged damage
+	Tooltip: "{0}% increased ranged damage"
 	SetBonus:
 		'''
-		4% increased ranged damage and critical strike chance
+		{0}% increased ranged damage and critical strike chance
 		You can glide to negate fall damage
 		Ranged critical strikes frostburn enemies
 		'''
@@ -126,26 +126,26 @@ SnowRuffianMask: {
 
 StatigelArmor: {
 	DisplayName: Statigel Armor
-	Tooltip: 5% increased critical strike chance
+	Tooltip: "{0}% increased critical strike chance"
 	CommonSetBonus:
 		'''
-		When you take over 100 damage in one hit you become immune to damage for an extended period of time
+		When you take over {0} damage in one hit you become immune to damage for an extended period of time
 		Grants an extra jump and increased jump height
-		12% increased jump speed
+		{1}% increased jump speed
 		'''
 }
 
 StatigelGreaves: {
 	DisplayName: Statigel Greaves
-	Tooltip: 5% increased damage and movement speed
+	Tooltip: "{0}% increased damage and movement speed"
 }
 
 StatigelHeadMagic: {
 	DisplayName: Statigel Cap
 	Tooltip:
 		'''
-		10% increased magic damage and 10% reduced mana cost
-		7% increased magic critical strike chance and +40 max mana
+		{0}% increased magic damage and {1}% reduced mana cost
+		{2}% increased magic critical strike chance and +{3} max mana
 		'''
 }
 
@@ -153,8 +153,8 @@ StatigelHeadMelee: {
 	DisplayName: Statigel Helm
 	Tooltip:
 		'''
-		10% increased melee damage and melee speed
-		7% increased melee critical strike chance
+		{0}% increased melee damage and melee speed
+		{1}% increased melee critical strike chance
 		'''
 	SetBonus: Enemies are more likely to target you
 }
@@ -163,8 +163,8 @@ StatigelHeadRanged: {
 	DisplayName: Statigel Headgear
 	Tooltip:
 		'''
-		10% increased ranged damage
-		7% increased ranged critical strike chance
+		{0}% increased ranged damage
+		{1}% increased ranged critical strike chance
 		'''
 }
 
@@ -172,10 +172,10 @@ StatigelHeadRogue: {
 	DisplayName: Statigel Mask
 	Tooltip:
 		'''
-		10% increased rogue damage
-		7% increased rogue critical strike chance and 5% increased movement speed
+		{0}% increased rogue damage
+		{1}% increased rogue critical strike chance and {2}% increased movement speed
 		'''
-	SetBonus: +90 maximum stealth
+	SetBonus: +{0} maximum stealth
 }
 
 StatigelHeadSummon: {
@@ -183,27 +183,27 @@ StatigelHeadSummon: {
 	Tooltip: Increased minion knockback
 	SetBonus:
 		'''
-		18% increased summon damage and +1 max minion
+		{0}% increased summon damage and +{1} max minion
 		Summons a mini paladin to fight for you, the type depends on what world evil you have
 		'''
 }
 
 SulphurousBreastplate: {
 	DisplayName: Sulphurous Breastplate
-	Tooltip: 6% increased rogue damage and 4% increased rogue critical strike chance
+	Tooltip: "{0}% increased rogue damage and {1}% increased rogue critical strike chance"
 }
 
 SulphurousHelmet: {
 	DisplayName: Sulphurous Helmet
 	Tooltip:
 		'''
-		4% increased rogue damage
-		2% increased rogue critical strike chance
+		{0}% increased rogue damage
+		{1}% increased rogue critical strike chance
 		Grants underwater breathing
 		'''
 	SetBonus:
 		'''
-		+65 maximum stealth
+		+{0} maximum stealth
 		Attacking and being attacked by enemies inflicts poison
 		Grants an additional jump that summons a sulphurous bubble
 		Provides increased underwater mobility and reduces the severity of the sulphuric waters
@@ -214,8 +214,8 @@ SulphurousLeggings: {
 	DisplayName: Sulphurous Leggings
 	Tooltip:
 		'''
-		Movement speed increased by 10%
-		Movement speed increased an additional 25% while submerged in liquid
+		Movement speed increased by {0}%
+		Movement speed increased an additional {1}% while submerged in liquid
 		'''
 }
 
@@ -300,10 +300,10 @@ WulfrumHat: {
 	DisplayName: Wulfrum Hat & Goggles
 	Tooltip:
 		'''
-		5% increased summon damage
+		{0}% increased summon damage
 		Comes equipped with hair extensions
 		'''
-	SetBonus: +1 max minion
+	SetBonus: +{0} max minion
 	AbilityBrief: Wulfrum Bastion - Double tap {0} while dismounted to equip wulfrum power armor
 	AbilityDescription:
 		'''
@@ -315,10 +315,10 @@ WulfrumHat: {
 
 WulfrumJacket: {
 	DisplayName: Wulfrum Jacket
-	Tooltip: 5% increased summon damage
+	Tooltip: "{0}% increased summon damage"
 }
 
 WulfrumOveralls: {
 	DisplayName: Wulfrum Overalls
-	Tooltip: Movement speed increased by 5%
+	Tooltip: "{0}% increased movement speed"
 }

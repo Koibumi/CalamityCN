@@ -82,6 +82,7 @@ PlaguebringerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PlagueChargerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PlagueshellBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PrismBackBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+ProbesnoutBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ProfanedEnergyBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 RadiatorBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ReaperSharkBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -96,6 +97,7 @@ ScryllarBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SeaFloatyBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SeaMinnowBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SeaSerpentBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+SharkoonBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ShockstormShuttleBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ShroombleBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SightseerColliderBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -890,6 +892,11 @@ FrigidMonolith: {
 KelpTorch: {
 	DisplayName: Kelp Torch
 	Tooltip: Can be placed in water
+}
+
+OldDukeMonolith: {
+	DisplayName: Elden Diorama
+	Tooltip: ""
 }
 
 OtonilouStatue: {
@@ -1988,103 +1995,203 @@ DriftwoodWorkBench: {
 	Tooltip: ""
 }
 
+AncientNavystoneBathtub: {
+	DisplayName: Ancient Navystone Bathtub
+	Tooltip: ""
+}
+
+AncientNavystoneBed: {
+	DisplayName: Ancient Navystone Bed
+	Tooltip: ""
+}
+
+AncientNavystoneBench: {
+	DisplayName: Ancient Navystone Bench
+	Tooltip: ""
+}
+
+AncientNavystoneBookcase: {
+	DisplayName: Ancient Navystone Bookcase
+	Tooltip: ""
+}
+
+AncientNavystoneCandelabra: {
+	DisplayName: Ancient Navystone Candelabra
+	Tooltip: ""
+}
+
+AncientNavystoneCandle: {
+	DisplayName: Ancient Navystone Candle
+	Tooltip: ""
+}
+
+AncientNavystoneChair: {
+	DisplayName: Ancient Navystone Chair
+	Tooltip: ""
+}
+
+AncientNavystoneChandelier: {
+	DisplayName: Ancient Navystone Chandelier
+	Tooltip: ""
+}
+
+AncientNavystoneChest: {
+	DisplayName: Ancient Navystone Chest
+	Tooltip: ""
+}
+
+AncientNavystoneClock: {
+	DisplayName: Ancient Navystone Clock
+	Tooltip: ""
+}
+
+AncientNavystoneDoor: {
+	DisplayName: Ancient Navystone Door
+	Tooltip: ""
+}
+
+AncientNavystoneDresser: {
+	DisplayName: Ancient Navystone Dresser
+	Tooltip: ""
+}
+
+AncientNavystoneLamp: {
+	DisplayName: Ancient Navystone Lamp
+	Tooltip: ""
+}
+
+AncientNavystoneLantern: {
+	DisplayName: Ancient Navystone Lantern
+	Tooltip: ""
+}
+
+AncientNavystonePiano: {
+	DisplayName: Ancient Navystone Piano
+	Tooltip: ""
+}
+
+AncientNavystonePlatform: {
+	DisplayName: Ancient Navystone Platform
+	Tooltip: ""
+}
+
+AncientNavystoneSink: {
+	DisplayName: Ancient Navystone Sink
+	Tooltip: Counts as a water source
+}
+
+AncientNavystoneTable: {
+	DisplayName: Ancient Navystone Table
+	Tooltip: ""
+}
+
+AncientNavystoneWorkBench: {
+	DisplayName: Ancient Navystone Work Bench
+	Tooltip: ""
+}
+
 AncientSmoothNavystone: {
 	DisplayName: Ancient Smooth Navystone
 	Tooltip: ""
 }
 
-EutrophicBathtub: {
-	DisplayName: Eutrophic Bathtub
+NavystoneBathtub: {
+	DisplayName: Navystone Bathtub
 	Tooltip: ""
 }
 
-EutrophicBed: {
-	DisplayName: Eutrophic Bed
+NavystoneBed: {
+	DisplayName: Navystone Bed
 	Tooltip: ""
 }
 
-EutrophicBench: {
-	DisplayName: Eutrophic Bench
+NavystoneBookcase: {
+	DisplayName: Navystone Bookcase
 	Tooltip: ""
 }
 
-EutrophicBookcase: {
-	DisplayName: Eutrophic Bookcase
+NavystoneCandelabra: {
+	DisplayName: Navystone Candelabra
 	Tooltip: ""
 }
 
-EutrophicCandelabra: {
-	DisplayName: Eutrophic Candelabra
+NavystoneCandle: {
+	DisplayName: Navystone Candle
 	Tooltip: ""
 }
 
-EutrophicCandle: {
-	DisplayName: Eutrophic Candle
+NavystoneChair: {
+	DisplayName: Navystone Chair
 	Tooltip: ""
 }
 
-EutrophicChair: {
-	DisplayName: Eutrophic Chair
+NavystoneChandelier: {
+	DisplayName: Navystone Chandelier
 	Tooltip: ""
 }
 
-EutrophicChandelier: {
-	DisplayName: Eutrophic Chandelier
+NavystoneChest: {
+	DisplayName: Navystone Chest
 	Tooltip: ""
 }
 
-EutrophicChest: {
-	DisplayName: Eutrophic Chest
+NavystoneClock: {
+	DisplayName: Navystone Clock
 	Tooltip: ""
 }
 
-EutrophicClock: {
-	DisplayName: Eutrophic Clock
+NavystoneDoor: {
+	DisplayName: Navystone Door
 	Tooltip: ""
 }
 
-EutrophicDoor: {
-	DisplayName: Eutrophic Door
+NavystoneDresser: {
+	DisplayName: Navystone Dresser
 	Tooltip: ""
 }
 
-EutrophicDresser: {
-	DisplayName: Eutrophic Dresser
+NavystoneLamp: {
+	DisplayName: Navystone Lamp
 	Tooltip: ""
 }
 
-EutrophicLamp: {
-	DisplayName: Eutrophic Lamp
+NavystoneLantern: {
+	DisplayName: Navystone Lantern
 	Tooltip: ""
 }
 
-EutrophicLantern: {
-	DisplayName: Eutrophic Lantern
+NavystoneLyre: {
+	DisplayName: Navystone Lyre
 	Tooltip: ""
 }
 
-EutrophicPiano: {
-	DisplayName: Eutrophic Piano
+NavystonePlatform: {
+	DisplayName: Navystone Platform
 	Tooltip: ""
 }
 
-EutrophicPlatform: {
-	DisplayName: Eutrophic Platform
-	Tooltip: ""
-}
-
-EutrophicSink: {
-	DisplayName: Eutrophic Sink
+NavystoneSink: {
+	DisplayName: Navystone Sink
 	Tooltip: Counts as a water source
 }
 
-EutrophicTable: {
-	DisplayName: Eutrophic Table
+NavystoneTable: {
+	DisplayName: Navystone Table
 	Tooltip: ""
 }
 
-EutrophicWorkBench: {
-	DisplayName: Eutrophic Work Bench
+NavystoneToilet: {
+	DisplayName: Navystone Toilet
+	Tooltip: ""
+}
+
+NavystoneTriclinium: {
+	DisplayName: Navystone Triclinium
+	Tooltip: ""
+}
+
+NavystoneWorkBench: {
+	DisplayName: Navystone Work Bench
 	Tooltip: ""
 }
 
@@ -3302,6 +3409,16 @@ VoidWorkBench: {
 	Tooltip: ""
 }
 
+ChargedWulfrumEnergyBarrier: {
+	DisplayName: Charged Wulfrum Energy Barrier
+	Tooltip: ""
+}
+
+ChargedWulfrumWallMountedBulb: {
+	DisplayName: Charged Wulfrum Wall Mounted Bulb
+	Tooltip: ""
+}
+
 WulfrumBathtub: {
 	DisplayName: Wulfrum Bathtub
 	Tooltip: ""
@@ -3347,6 +3464,11 @@ WulfrumDresser: {
 	Tooltip: ""
 }
 
+WulfrumEnergyBarrier: {
+	DisplayName: Wulfrum Energy Barrier
+	Tooltip: ""
+}
+
 WulfrumLamp: {
 	DisplayName: Wulfrum Lamp
 	Tooltip: ""
@@ -3357,13 +3479,33 @@ WulfrumLantern: {
 	Tooltip: ""
 }
 
+WulfrumPanels: {
+	DisplayName: Wulfrum Panels
+	Tooltip: ""
+}
+
 WulfrumPiano: {
 	DisplayName: Wulfrum Piano
 	Tooltip: ""
 }
 
+WulfrumPlatform: {
+	DisplayName: Wulfrum Platform
+	Tooltip: ""
+}
+
 WulfrumPlating: {
 	DisplayName: Wulfrum Plating
+	Tooltip: ""
+}
+
+WulfrumSheets: {
+	DisplayName: Wulfrum Sheets
+	Tooltip: ""
+}
+
+WulfrumSiding: {
+	DisplayName: Wulfrum Siding
 	Tooltip: ""
 }
 
@@ -3384,6 +3526,11 @@ WulfrumTable: {
 
 WulfrumToilet: {
 	DisplayName: Wulfrum Toilet
+	Tooltip: ""
+}
+
+WulfrumWallMountedBulb: {
+	DisplayName: Wulfrum Wall Mounted Bulb
 	Tooltip: ""
 }
 
@@ -3447,6 +3594,16 @@ AnodizedWulfrumLantern: {
 	Tooltip: ""
 }
 
+AnodizedWulfrumPanels: {
+	DisplayName: Anodized Wulfrum Panels
+	Tooltip: ""
+}
+
+AnodizedWulfrumPlatform: {
+	DisplayName: Anodized Wulfrum Platform
+	Tooltip: ""
+}
+
 AnodizedWulfrumSink: {
 	DisplayName: Anodized Wulfrum Sink
 	Tooltip: Counts as a water source
@@ -3467,6 +3624,11 @@ AnodizedWulfrumTable: {
 	Tooltip: ""
 }
 
+AnodizedWulfrumTrim: {
+	DisplayName: Anodized Wulfrum Trim
+	Tooltip: ""
+}
+
 AnodizedWulfrumToilet: {
 	DisplayName: Anodized Wulfrum Toilet
 	Tooltip: ""
@@ -3474,6 +3636,11 @@ AnodizedWulfrumToilet: {
 
 AnodizedWulfrumWorkBench: {
 	DisplayName: Anodized Wulfrum Work Bench
+	Tooltip: ""
+}
+
+RoundedAnodizedWulfrumPanels: {
+	DisplayName: Rounded Anodized Wulfrum Panels
 	Tooltip: ""
 }
 
@@ -3696,6 +3863,11 @@ Driftwood: {
 	Tooltip: ""
 }
 
+Dunesand: {
+	DisplayName: Dunesand
+	Tooltip: ""
+}
+
 Navystone: {
 	DisplayName: Navystone
 	Tooltip: ""
@@ -3783,6 +3955,11 @@ VolcanicSand: {
 
 // End of Sunken Sea
 
+Dreadstone: {
+	DisplayName: Dreadstone
+	Tooltip: ""
+}
+
 UelibloomBrick: {
 	DisplayName: Uelibloom Brick
 	Tooltip: ""
@@ -3810,6 +3987,11 @@ AcidwoodWallItem: {
 
 AerialiteBrickWall: {
 	DisplayName: Aerialite Brick Wall
+	Tooltip: ""
+}
+
+AncientSmoothNavystoneWall: {
+	DisplayName: Ancient Smooth Navystone Wall
 	Tooltip: ""
 }
 
@@ -3932,6 +4114,16 @@ RustedPlatingWall: {
 
 // End of Draedon
 
+AnodizedWulfrumTrimWall: {
+	DisplayName: Anodized Wulfrum Trim Wall
+	Tooltip: ""
+}
+
+ChargedWulfrumEnergyBarrierWall: {
+	DisplayName: Charged Wulfrum Energy Barrier Wall
+	Tooltip: ""
+}
+
 DriftwoodWall: {
 	DisplayName: Driftwood Wall
 	Tooltip: ""
@@ -3939,6 +4131,11 @@ DriftwoodWall: {
 
 ElumplateWall: {
 	DisplayName: Elumplate Wall
+	Tooltip: ""
+}
+
+EutrophicGlassWall: {
+	DisplayName: Eutrophic Glass Wall
 	Tooltip: ""
 }
 
@@ -3979,6 +4176,11 @@ HardenedSulphurousSandstoneWall: {
 
 HavocplateWall: {
 	DisplayName: Havocplate Wall
+	Tooltip: ""
+}
+
+LimestoneWall: {
+	DisplayName: Limestone Wall
 	Tooltip: ""
 }
 
@@ -4044,6 +4246,16 @@ ProfanedSlabWall: {
 
 PyreMantleWall: {
 	DisplayName: Pyre Mantle Wall
+	Tooltip: ""
+}
+
+RoundedAnodizedWulfrumPanelWall: {
+	DisplayName: Rounded Anodized Wulfrum Panel Wall
+	Tooltip: ""
+}
+
+RunestoneWall: {
+	DisplayName: Runestone Wall
 	Tooltip: ""
 }
 
@@ -4137,8 +4349,38 @@ VoidstoneWall: {
 	Tooltip: ""
 }
 
+WulfrumComplexPanelWall: {
+	DisplayName: Wulfrum Complex Panel Wall
+	Tooltip: ""
+}
+
+WulfrumEnergyBarrierWall: {
+	DisplayName: Wulfrum Energy Barrier Wall
+	Tooltip: ""
+}
+
+WulfrumPanelWall: {
+	DisplayName: Wulfrum Panel Wall
+	Tooltip: ""
+}
+
+WulfrumPillar: {
+	DisplayName: Wulfrum Pillar
+	Tooltip: ""
+}
+
 WulfrumPlatingWall: {
 	DisplayName: Wulfrum Plating Wall
+	Tooltip: ""
+}
+
+WulfrumSheetWall: {
+	DisplayName: Wulfrum Sheet Wall
+	Tooltip: ""
+}
+
+WulfrumSidingWall: {
+	DisplayName: Wulfrum Siding Wall
 	Tooltip: ""
 }
 
@@ -4379,143 +4621,5 @@ MiniCagedFloodlightItem: {
 
 MiniAgedFloodlightItem: {
 	DisplayName: Mini Aged Floodlight
-	Tooltip: ""
-}
-
-ProbesnoutBanner.DisplayName: Probesnout Banner
-SharkoonBanner.DisplayName: Sharkoon Banner
-
-LimestoneWall: {
-	DisplayName: Limestone Wall
-	Tooltip: ""
-}
-
-RunestoneWall: {
-	DisplayName: Runestone Wall
-	Tooltip: ""
-}
-
-WulfrumEnergyBarrier: {
-	DisplayName: Wulfrum Energy Barrier
-	Tooltip: ""
-}
-
-WulfrumPanels: {
-	DisplayName: Wulfrum Panels
-	Tooltip: ""
-}
-
-ChargedWulfrumEnergyBarrier: {
-	DisplayName: Charged Wulfrum Energy Barrier
-	Tooltip: ""
-}
-
-WulfrumEnergyBarrierWall: {
-	DisplayName: Wulfrum Energy Barrier Wall
-	Tooltip: ""
-}
-
-ChargedWulfrumEnergyBarrierWall: {
-	DisplayName: Charged Wulfrum Energy Barrier Wall
-	Tooltip: ""
-}
-
-WulfrumPlatform: {
-	DisplayName: Wulfrum Platform
-	Tooltip: ""
-}
-
-WulfrumSheets: {
-	DisplayName: Wulfrum Sheets
-	Tooltip: ""
-}
-
-WulfrumSiding: {
-	DisplayName: Wulfrum Siding
-	Tooltip: ""
-}
-
-WulfrumPillar: {
-	DisplayName: Wulfrum Pillar
-	Tooltip: ""
-}
-
-WulfrumComplexPanelWall: {
-	DisplayName: Wulfrum Complex Panel Wall
-	Tooltip: ""
-}
-
-AnodizedWulfrumPlatform: {
-	DisplayName: Anodized Wulfrum Platform
-	Tooltip: ""
-}
-
-AnodizedWulfrumTrim: {
-	DisplayName: Anodized Wulfrum Trim
-	Tooltip: ""
-}
-
-RoundedAnodizedWulfrumPanels: {
-	DisplayName: Rounded Anodized Wulfrum Panels
-	Tooltip: ""
-}
-
-AnodizedWulfrumTrimWall: {
-	DisplayName: Anodized Wulfrum Trim Wall
-	Tooltip: ""
-}
-
-RoundedAnodizedWulfrumPanelWall: {
-	DisplayName: Rounded Anodized Wulfrum Panel Wall
-	Tooltip: ""
-}
-
-AnodizedWulfrumPanels: {
-	DisplayName: Anodized Wulfrum Panels
-	Tooltip: ""
-}
-
-WulfrumPanelWall: {
-	DisplayName: Wulfrum Panel Wall
-	Tooltip: ""
-}
-
-ChargedWulfrumWallMountedBulb: {
-	DisplayName: Charged Wulfrum Wall Mounted Bulb
-	Tooltip: ""
-}
-
-WulfrumWallMountedBulb: {
-	DisplayName: Wulfrum Wall Mounted Bulb
-	Tooltip: ""
-}
-
-WulfrumSheetWall: {
-	DisplayName: Wulfrum Sheet Wall
-	Tooltip: ""
-}
-
-WulfrumSidingWall: {
-	DisplayName: Wulfrum Siding Wall
-	Tooltip: ""
-}
-
-Dunesand: {
-	DisplayName: Dunesand
-	Tooltip: ""
-}
-
-EutrophicGlassWall: {
-	DisplayName: Eutrophic Glass Wall
-	Tooltip: ""
-}
-
-Dreadstone: {
-	DisplayName: Dreadstone
-	Tooltip: ""
-}
-
-OldDukeMonolith: {
-	DisplayName: Elden Diorama
 	Tooltip: ""
 }

@@ -7,7 +7,6 @@ CalamityClientConfig: {
 		UI: UI Changes
 		MeterPositions: Meter Positions
 		MusicToggles: Music Toggles
-		Multithreading: Multi-Threading
 	}
 
 	AbyssLayer3Alt: {
@@ -388,21 +387,6 @@ CalamityClientConfig: {
 	WikiStatusMessage: {
 		Label: "[i:Book] Wiki Status Message"
 		Tooltip: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
-	}
-
-	MultiThreadingType: {
-		Label: Sunken Sea Multi-Threading Option
-		Tooltip:
-			'''
-			Option 0 will disable worldgen multi-threading.
-			Option 1 will enable ReLogic's multi-threading.
-			Option 2 will enable custom multi-threading.
-			'''
-	}
-
-	SunkenSeaMultiThreading: {
-		Label: Sunken Sea Multi Threading
-		Tooltip: ""
 	}
 }
 

@@ -7,7 +7,6 @@ CalamityClientConfig: {
 		UI: UI改动
 		MeterPositions: 属性条位置
 		MusicToggles: 音乐切换
-		Multithreading: 多线程优化
 	}
 
 	AbyssLayer3Alt: {
@@ -389,16 +388,6 @@ CalamityClientConfig: {
 	WikiStatusMessage: {
 		Label: "[i:Book] Wiki状态讯息"
 		Tooltip: 启用/禁用进入世界的Wiki状态讯息提示。
-	}
-
-	MultiThreadingType: {
-		Label: 沉沦之海多线程优化选项
-		Tooltip:
-			'''
-			选项0：禁用世界生成时的多线程优化。
-			选项1：启用ReLogic的多线程优化。
-			选项2：启用灾厄实现的多线程优化。
-			'''
 	}
 
 	SunkenSeaMultiThreading: {
