@@ -33,11 +33,7 @@ DifficultyClickText: "[c/919191:点击选择难度]"
 ExpertDifficultyLock: "[c/919191:只能在专家模式及以上时开启更高难度]"
 ChangingTheRules: "[c/919191:你现在无法改变规则]"
 DifficultySwitch: 难度已从[c/{0}:{1}]改为[c/{2}:{3}]。
-Classic: 经典
-ClassicEnabled: 经典模式已开启
 ClassicInfo: 冒险从这里开始……更为轻松惬意的泰拉瑞亚之旅
-Expert: 专家
-ExpertEnabled: 专家模式已开启
 ExpertShortInfo: "[c/FFBA75:为财富和荣誉而战，孩子。为那些追求原版更高难度的玩家而准备]"
 ExpertExpandedInfo:
 	'''
@@ -47,8 +43,6 @@ ExpertExpandedInfo:
 	[c/A87A07:敌怪掉落更多的战利品，且掉落的概率更高]
 	[c/A87A07:玩家死亡时会掉落更多钱币]
 	'''
-Master: 大师
-MasterEnabled: 大师模式已开启
 MasterShortInfo: "[c/1CFFAA:游戏结束了，伙计，游戏结束了！比专家模式数值更高的提升]"
 MasterExpandedInfo:
 	'''
@@ -58,7 +52,6 @@ MasterExpandedInfo:
 	[c/029C6D:玩家在游戏开始时会获得一个额外饰品栏]
 	'''
 Revengeance: 复仇
-RevengeanceEnabled: 复仇模式已开启
 RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅！只能在专家模式开启！]"
 RevengeanceExpandedInfo:
 	'''
@@ -71,8 +64,6 @@ RevengeanceExpandedInfo:
 	[c/F7342A:本模式比专家模式难度更高。准备好迎接挑战就开启吧]
 	'''
 Death: 死亡
-DeathLegend: 死亡+传奇
-DeathEnabled: 死亡模式已开启
 DeathShortInfo: "[c/E066F7:远比复仇模式更困难的挑战！只能在大师模式开启！]"
 DeathExpandedInfo:
 	'''
@@ -81,6 +72,8 @@ DeathExpandedInfo:
 	[c/B834E0:减益更致命，深渊更危险]
 	[c/E945FF:保持警惕，坚韧不拔至关重要]
 	'''
+// Legendary (FTW + Master) + Death Mode
+Malice: 恶意
 // Calamity Health Bar
 ExoTwinsNameNormal: XS-01 阿尔忒弥斯和 XS-03 阿波罗
 ExoTwinsNameHekate: XB-∞ 赫卡忒之眼

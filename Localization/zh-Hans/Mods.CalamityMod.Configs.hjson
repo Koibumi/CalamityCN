@@ -389,11 +389,6 @@ CalamityClientConfig: {
 		Label: "[i:Book] Wiki状态讯息"
 		Tooltip: 启用/禁用进入世界的Wiki状态讯息提示。
 	}
-
-	SunkenSeaMultiThreading: {
-		Label: 沉沦之海多线程优化
-		Tooltip: ""
-	}
 }
 
 CalamityServerConfig: {

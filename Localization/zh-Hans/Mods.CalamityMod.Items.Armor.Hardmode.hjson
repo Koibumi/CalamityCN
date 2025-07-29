@@ -2,21 +2,21 @@ AstralBreastplate: {
 	DisplayName: 星幻胸甲
 	Tooltip:
 		'''
-		增加7%伤害
-		增加80点最大魔力值
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedDamage@1}
 		'''
 }
 
 AstralHelm: {
 	DisplayName: 星幻头盔
-	Tooltip: 增加5%伤害和10%暴击率
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}且{$CommonItemTooltip.PercentIncreasedCritChance}"
 	SetBonus:
 		'''
-		增加3个仆从栏位
-		增加10%伤害和暴击率
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
 		能够探测附近生物，敌怪弹幕，危险源和宝藏
 		每当你对敌怪造成暴击，就会降下落星
-		该效果有1秒冷却时间
+		该效果有{2}秒冷却时间
 		'''
 }
 
@@ -24,8 +24,8 @@ AstralLeggings: {
 	DisplayName: 星幻护胫
 	Tooltip:
 		'''
-		增加5%伤害
-		增加15%移动速度
+		{$CommonItemTooltip.PercentIncreasedDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 

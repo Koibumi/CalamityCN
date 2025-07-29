@@ -1,3 +1,11 @@
+// Plain stat boosts
+RogueDamage: "{0}% increased rogue damage"
+RogueCrit: "{0}% increased rogue critical strike chance"
+RogueVelocity: "{0}% increased rogue velocity"
+RogueStealth: +{0} maximum stealth
+// Miscellaneous stats/info
+AggroBoost: Enemies are more likely to target you
+AggroReduction: Enemies are less likely to target you
 AbyssLightLevel1: Provides a small amount of light in the abyss
 AbyssLightLevel2: Provides a moderate amount of light in the abyss
 AbyssLightLevel3: Provides a large amount of light in the abyss
@@ -8,9 +16,6 @@ AlcoholWarning: Drinking more than 3 different alcohols might not end well with 
 ArmorPenetration: Ignores {0} points of enemy Defense
 CanMineUelibloom: Can mine Uelibloom Ore
 NotConsumable: Not consumable
-RogueDamage: "{0}% increased rogue damage"
-RogueCrit: "{0}% increased rogue critical strike chance"
-RogueVelocity: "{0}% increased rogue velocity"
 SummonTagDamageFlat: "{0} summon tag damage"
 SummonTagDamageMult: "{0}x summon tag damage"
 SummonTagCrit: "{0}% summon tag critical strike chance"

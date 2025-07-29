@@ -706,18 +706,8 @@ AltarOfTheAccursedItem: {
 		'''
 }
 
-AncientAltar: {
-	DisplayName: 远古祭坛
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
 AshenAltar: {
 	DisplayName: 灰烬祭坛
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-BotanicPlanter: {
-	DisplayName: 植物培养器
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
@@ -739,21 +729,6 @@ DraedonsForge: {
 		'''
 }
 
-EffulgentManipulator: {
-	DisplayName: 闪耀操纵机
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-EutrophicShelf: {
-	DisplayName: 富养制造架
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-MonolithAmalgam: {
-	DisplayName: 星幻柱综合体
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
 PlagueInfuser: {
 	DisplayName: 瘟疫灌注器
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
@@ -764,18 +739,8 @@ ProfanedCrucible: {
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
-StaticRefiner: {
-	DisplayName: 静电精炼机
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
 VoidCondenser: {
 	DisplayName: 虚空压缩机
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-WulfrumLabstationItem: {
-	DisplayName: 钨钢实验桌
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
@@ -1426,6 +1391,11 @@ AcidwoodWorkBench: {
 	Tooltip: ""
 }
 
+AncientAltar: {
+	DisplayName: 远古祭坛
+	Tooltip: ""
+}
+
 AncientBasin: {
 	DisplayName: 远古火盆
 	Tooltip: ""
@@ -1765,6 +1735,11 @@ BotanicPiano: {
 	Tooltip: ""
 }
 
+BotanicPlanter: {
+	DisplayName: 植物培养器
+	Tooltip: ""
+}
+
 BotanicPlatform: {
 	DisplayName: 植物平台
 	Tooltip: ""
@@ -2092,6 +2067,11 @@ AncientNavystoneWorkBench: {
 
 AncientSmoothNavystone: {
 	DisplayName: Ancient Smooth Navystone
+	Tooltip: ""
+}
+
+EutrophicShelf: {
+	DisplayName: 富养制造架
 	Tooltip: ""
 }
 
@@ -2452,6 +2432,11 @@ PolishedMarnitePlatform: {
 
 PolishedMarniteWall: {
 	DisplayName: Polished Marnite Wall
+	Tooltip: ""
+}
+
+MonolithAmalgam: {
+	DisplayName: 星幻柱综合体
 	Tooltip: ""
 }
 
@@ -2999,6 +2984,11 @@ SacrilegiousWorkBench: {
 	Tooltip: ""
 }
 
+SilvaBasin: {
+	DisplayName: 始源林海火盆
+	Tooltip: ""
+}
+
 SilvaBathtub: {
 	DisplayName: 始源林海浴缸
 	Tooltip: ""
@@ -3096,6 +3086,11 @@ SilvaTable: {
 
 SilvaWorkBench: {
 	DisplayName: 始源林海工作台
+	Tooltip: ""
+}
+
+StaticRefiner: {
+	DisplayName: 静电精炼机
 	Tooltip: ""
 }
 
@@ -3466,6 +3461,11 @@ WulfrumDresser: {
 
 WulfrumEnergyBarrier: {
 	DisplayName: Wulfrum Energy Barrier
+	Tooltip: ""
+}
+
+WulfrumLabstationItem: {
+	DisplayName: 钨钢实验桌
 	Tooltip: ""
 }
 

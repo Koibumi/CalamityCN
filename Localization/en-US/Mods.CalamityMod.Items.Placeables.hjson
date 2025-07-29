@@ -706,18 +706,8 @@ AltarOfTheAccursedItem: {
 		'''
 }
 
-AncientAltar: {
-	DisplayName: Ancient Altar
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
 AshenAltar: {
 	DisplayName: Ashen Altar
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-BotanicPlanter: {
-	DisplayName: Botanic Planter
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
@@ -739,21 +729,6 @@ DraedonsForge: {
 		'''
 }
 
-EffulgentManipulator: {
-	DisplayName: Effulgent Manipulator
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-EutrophicShelf: {
-	DisplayName: Eutrophic Shelf
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-MonolithAmalgam: {
-	DisplayName: Monolith Amalgam
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
 PlagueInfuser: {
 	DisplayName: Plague Infuser
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
@@ -764,18 +739,8 @@ ProfanedCrucible: {
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
-StaticRefiner: {
-	DisplayName: Static Refiner
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
 VoidCondenser: {
 	DisplayName: Void Condenser
-	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
-}
-
-WulfrumLabstationItem: {
-	DisplayName: Wulfrum Labstation
 	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
 }
 
@@ -1426,6 +1391,11 @@ AcidwoodWorkBench: {
 	Tooltip: ""
 }
 
+AncientAltar: {
+	DisplayName: Ancient Altar
+	Tooltip: ""
+}
+
 AncientBasin: {
 	DisplayName: Ancient Basin
 	Tooltip: ""
@@ -1765,6 +1735,11 @@ BotanicPiano: {
 	Tooltip: ""
 }
 
+BotanicPlanter: {
+	DisplayName: Botanic Planter
+	Tooltip: ""
+}
+
 BotanicPlatform: {
 	DisplayName: Botanic Platform
 	Tooltip: ""
@@ -2092,6 +2067,11 @@ AncientNavystoneWorkBench: {
 
 AncientSmoothNavystone: {
 	DisplayName: Ancient Smooth Navystone
+	Tooltip: ""
+}
+
+EutrophicShelf: {
+	DisplayName: Eutrophic Shelf
 	Tooltip: ""
 }
 
@@ -2452,6 +2432,11 @@ PolishedMarnitePlatform: {
 
 PolishedMarniteWall: {
 	DisplayName: Polished Marnite Wall
+	Tooltip: ""
+}
+
+MonolithAmalgam: {
+	DisplayName: Monolith Amalgam
 	Tooltip: ""
 }
 
@@ -2999,6 +2984,11 @@ SacrilegiousWorkBench: {
 	Tooltip: ""
 }
 
+SilvaBasin: {
+	DisplayName: Silva Basin
+	Tooltip: ""
+}
+
 SilvaBathtub: {
 	DisplayName: Silva Bathtub
 	Tooltip: ""
@@ -3096,6 +3086,11 @@ SilvaTable: {
 
 SilvaWorkBench: {
 	DisplayName: Silva Work Bench
+	Tooltip: ""
+}
+
+StaticRefiner: {
+	DisplayName: Static Refiner
 	Tooltip: ""
 }
 
@@ -3466,6 +3461,11 @@ WulfrumDresser: {
 
 WulfrumEnergyBarrier: {
 	DisplayName: Wulfrum Energy Barrier
+	Tooltip: ""
+}
+
+WulfrumLabstationItem: {
+	DisplayName: Wulfrum Labstation
 	Tooltip: ""
 }
 

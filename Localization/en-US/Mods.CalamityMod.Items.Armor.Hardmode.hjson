@@ -2,21 +2,21 @@ AstralBreastplate: {
 	DisplayName: Astral Breastplate
 	Tooltip:
 		'''
-		7% increased damage
-		+80 max mana
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedDamage@1}
 		'''
 }
 
 AstralHelm: {
 	DisplayName: Astral Helm
-	Tooltip: 5% increased damage and 10% increased critical strike chance
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance}"
 	SetBonus:
 		'''
-		+3 max minions
-		10% increased damage and critical strike chance
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
 		Detects nearby creatures, enemy projectiles, danger sources, and treasure
 		Whenever you crit an enemy, a barrage of stars will rain down
-		This effect has a 1 second cooldown before it can trigger again
+		This effect has a {2} {^2:second;seconds} cooldown before it can trigger again
 		'''
 }
 
@@ -24,8 +24,8 @@ AstralLeggings: {
 	DisplayName: Astral Leggings
 	Tooltip:
 		'''
-		5% increased damage
-		15% increased movement speed
+		{$CommonItemTooltip.PercentIncreasedDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 

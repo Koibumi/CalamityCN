@@ -1,6 +1,6 @@
 AerospecBreastplate: {
 	DisplayName: Aerospec Breastplate
-	Tooltip: "{0}% increased damage and critical strike chance"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamageCritChance}"
 	CommonSetBonus:
 		'''
 		Taking over {0} damage in one hit will cause a spread of homing feathers to fall
@@ -10,91 +10,96 @@ AerospecBreastplate: {
 
 AerospecHeadMagic: {
 	DisplayName: Aerospec Hat
-	Tooltip: "{0}% increased magic damage and +{1} max mana"
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@1}
+		'''
 	SetBonus:
 		'''
-		{0}% reduced mana cost
+		{$CommonItemTooltip.PercentReducedManaCost}
 		{1}% increased movement speed and magic critical strike chance
 		'''
 }
 
 AerospecHeadRogue: {
 	DisplayName: Aerospec Headgear
-	Tooltip: "{0}% increased rogue damage and {1}% increased movement speed"
+	Tooltip: "{$Common.RogueDamage} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
 	SetBonus:
 		'''
-		{0}% increased movement speed and rogue critical strike chance
-		+{1} maximum stealth
+		{$Common.RogueStealth}
+		{1}% increased movement speed and rogue critical strike chance
 		'''
 }
 
 AerospecHeadMelee: {
 	DisplayName: Aerospec Helm
-	Tooltip: "{0}% increased melee damage"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMeleeDamage}"
 	SetBonus:
 		'''
 		{0}% increased movement speed and melee critical strike chance
-		Enemies are more likely to target you
+		{$Common.AggroBoost}
 		'''
 }
 
 AerospecHeadSummon: {
 	DisplayName: Aerospec Helmet
-	Tooltip: "{0}% increased summon damage and {1}% increased movement speed"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
 	SetBonus:
 		'''
-		{0}% increased summon damage and +{1} max minion
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		Summons a valkyrie to protect you
 		'''
 }
 
 AerospecHeadRanged: {
 	DisplayName: Aerospec Hood
-	Tooltip: "{0}% increased ranged damage"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
 	SetBonus: "{0}% increased movement speed and ranged critical strike chance"
 }
 
 AerospecLeggings: {
 	DisplayName: Aerospec Leggings
-	Tooltip: "{0}% increased movement speed"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
 }
 
 DesertProwlerHat: {
 	DisplayName: Desert Prowler Hat
-	Tooltip: "{0}% increased rogue critical strike chance"
+	Tooltip: "{$Common.RogueCrit}"
 	SetBonus:
 		'''
-		{0}% increased rogue damage
-		+{1} maximum stealth
-		'''
-	AbilityBrief: Sandsmoke Bomb - Double tap {0} to shroud yourself in a small cloud of sand
-	AbilityDescription:
-		'''
-		While the sand cloud is active, gain increased mobility but heavily reduced defense
-		Using a rogue weapon instantly dispels the sand cloak, but guarantees a supercrit for {0}% damage
-		The super crit applies only as long as the resulting hit wouldn't exceed {1} damage
-		Landing the killing blow on an enemy with this shot shortens the ability's cooldown to {2} seconds
+		{$Common.RogueStealth}
+		[c/{1}:Sandsmoke Bomb - Press {2} to shroud yourself in a small cloud of sand]
+		[c/CCB648:While the sand cloud is active, gain increased mobility but heavily reduced defense]
+		[c/CCB648:Using a rogue weapon instantly dispels the sand cloak, but guarantees a supercrit for {3}% damage]
+		[c/CCB648:The supercrit applies only as long as the resulting hit wouldn't exceed {4} damage]
+		[c/CCB648:Landing the killing blow on an enemy with this shot shortens the ability's cooldown to {5} {^5:second;seconds}]
 		'''
 }
 
 DesertProwlerPants: {
 	DisplayName: Desert Prowler Pants
-	Tooltip: "{0}% increased movement speed and immunity to the Mighty Wind debuff"
+	Tooltip:
+		'''
+		{$Common.RogueCrit}
+		Grants immunity to {$BuffName.WindPushed}
+		'''
 }
 
 DesertProwlerShirt: {
 	DisplayName: Desert Prowler Shirt
-	Tooltip: "{0}% increased rogue critical strike chance"
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 MarniteArchitectHeadgear: {
 	DisplayName: Marnite Architect Headgear
 	Tooltip: Increases block placement & tool range by {0}
-	AbilityBrief: Marnite Lift - You can summon a lift under your feet to reach higher up
-	AbilityDescription:
+	SetBonus:
 		'''
-		The lift gets summoned when the mount hotkey gets pressed [c/D4C870:without any mounts equipped]
-		Using the {$Key.UP} and {$Key.DOWN} keys can change the lift's height
+		[c/{0}:Marnite Lift - You can summon a lift under your feet to reach higher up]
+		[c/91C5EF:The lift gets summoned when the mount hotkey gets pressed] [c/D4C870:without any mounts equipped]
+		[c/91C5EF:Press {$Key.UP} and {$Key.DOWN} to change the lift's height, reaching up to {1} tiles above ground]
 		'''
 }
 
@@ -105,22 +110,21 @@ MarniteArchitectToga: {
 
 SnowRuffianChestplate: {
 	DisplayName: Snow Ruffian Chestplate
-	Tooltip: "{0}% increased ranged critical strike chance"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedCritChance}"
 }
 
 SnowRuffianGreaves: {
 	DisplayName: Snow Ruffian Greaves
-	Tooltip: "{0}% increased movement speed"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedCritChance}"
 }
 
 SnowRuffianMask: {
 	DisplayName: Snow Ruffian Mask
-	Tooltip: "{0}% increased ranged damage"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedCritChance}"
 	SetBonus:
 		'''
-		{0}% increased ranged damage and critical strike chance
 		You can glide to negate fall damage
-		Ranged critical strikes frostburn enemies
+		Ranged critical strikes frostburn enemies for {0} {^0:second;seconds}
 		'''
 }
 
@@ -144,8 +148,8 @@ StatigelHeadMagic: {
 	DisplayName: Statigel Cap
 	Tooltip:
 		'''
-		{0}% increased magic damage and {1}% reduced mana cost
-		{2}% increased magic critical strike chance and +{3} max mana
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
 }
 
@@ -154,17 +158,17 @@ StatigelHeadMelee: {
 	Tooltip:
 		'''
 		{0}% increased melee damage and melee speed
-		{1}% increased melee critical strike chance
+		{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 		'''
-	SetBonus: Enemies are more likely to target you
+	SetBonus: "{$Common.AggroBoost}"
 }
 
 StatigelHeadRanged: {
 	DisplayName: Statigel Headgear
 	Tooltip:
 		'''
-		{0}% increased ranged damage
-		{1}% increased ranged critical strike chance
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}
+		{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 		'''
 }
 
@@ -172,10 +176,10 @@ StatigelHeadRogue: {
 	DisplayName: Statigel Mask
 	Tooltip:
 		'''
-		{0}% increased rogue damage
-		{1}% increased rogue critical strike chance and {2}% increased movement speed
+		{$Common.RogueDamage}
+		{$Common.RogueCrit@1} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
-	SetBonus: +{0} maximum stealth
+	SetBonus: "{$Common.RogueStealth}"
 }
 
 StatigelHeadSummon: {
@@ -183,40 +187,36 @@ StatigelHeadSummon: {
 	Tooltip: Increased minion knockback
 	SetBonus:
 		'''
-		{0}% increased summon damage and +{1} max minion
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		Summons a mini paladin to fight for you, the type depends on what world evil you have
 		'''
 }
 
 SulphurousBreastplate: {
 	DisplayName: Sulphurous Breastplate
-	Tooltip: "{0}% increased rogue damage and {1}% increased rogue critical strike chance"
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 SulphurousHelmet: {
 	DisplayName: Sulphurous Helmet
 	Tooltip:
 		'''
-		{0}% increased rogue damage
-		{1}% increased rogue critical strike chance
+		{$Common.RogueCrit}
 		Grants underwater breathing
 		'''
 	SetBonus:
 		'''
-		+{0} maximum stealth
-		Attacking and being attacked by enemies inflicts poison
+		{$Common.RogueStealth}
+		Attacking and being attacked by enemies inflicts poison for {1} {^1:second;seconds}
 		Grants an additional jump that summons a sulphurous bubble
-		Provides increased underwater mobility and reduces the severity of the sulphuric waters
+		Reduces the severity of the sulphuric waters
 		'''
 }
 
 SulphurousLeggings: {
 	DisplayName: Sulphurous Leggings
-	Tooltip:
-		'''
-		Movement speed increased by {0}%
-		Movement speed increased an additional {1}% while submerged in liquid
-		'''
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 VictideBreastplate: {
@@ -300,25 +300,24 @@ WulfrumHat: {
 	DisplayName: Wulfrum Hat & Goggles
 	Tooltip:
 		'''
-		{0}% increased summon damage
+		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		Comes equipped with hair extensions
 		'''
-	SetBonus: +{0} max minion
-	AbilityBrief: Wulfrum Bastion - Double tap {0} while dismounted to equip wulfrum power armor
-	AbilityDescription:
+	SetBonus:
 		'''
-		While the armor is active, you can only use the integrated fusion cannon, but your defensive stats are increased
-		Calling down the armor consumes one piece of {0}, and the armor will lose durability faster when hit
+		[c/{0}:Wulfrum Bastion - Press {1} to equip a power armor, costing one] [i:CalamityMod/WulfrumMetalScrap] [c/{0}:{$Items.Materials.WulfrumMetalScrap.DisplayName}]
+		[c/6EC05D:While active, you can only use the integrated fusion cannon, but your defensive stats are increased]
+		[c/6EC05D:The armor lasts up to {2} {^2:second;seconds}, but each hit loses {3} {^3:second;seconds} of duration]
+		[c/BEBEBE:Hold Shift to see the stats of the fusion cannon]
 		'''
-	ShiftToExpand: Hold Shift to see the stats of the fusion cannon
 }
 
 WulfrumJacket: {
 	DisplayName: Wulfrum Jacket
-	Tooltip: "{0}% increased summon damage"
+	Tooltip: "{$CommonItemTooltip.IncreasesMaxMinionsBy}"
 }
 
 WulfrumOveralls: {
 	DisplayName: Wulfrum Overalls
-	Tooltip: "{0}% increased movement speed"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}"
 }
