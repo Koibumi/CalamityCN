@@ -50,15 +50,6 @@ CalamityClientConfig: {
 			'''
 	}
 
-	CalamityArmorSetBonusDoubleTap: {
-		Label: "[i:CalamityMod/DesertProwlerHat] Calamity Armor Set Bonuses Can Use Vanilla Hotkey"
-		Tooltip:
-			'''
-			Allows Calamity armor set bonuses to be triggered by the vanilla double-tap {$Key.DOWN} hotkey (or {$Key.UP} depending on your settings).
-			Also allows vanilla armor set bonuses to be triggered by Calamity's armor set bonus hotkey.
-			'''
-	}
-
 	ChargeMeter: {
 		Label: "[i:CalamityMod/DraedonPowerCell] Display Charge Meter"
 		Tooltip:
@@ -251,6 +242,21 @@ CalamityClientConfig: {
 			[c/FF232C:All screen-shake visuals are balanced around a value of 1.]
 			[c/FF232C:Higher values may be nauseating or otherwise bad for some.]
 			'''
+	}
+
+	SetBonusDoubleTap: {
+		Label: "[i:VortexHelmet] Allow Double Tap for Armor Set Bonuses"
+		Tooltip:
+			'''
+			Allows all armor set bonuses to be triggered by the vanilla double-tap {$Key.DOWN} hotkey (or {$Key.UP} depending on your settings).
+			Set to Auto to automatically turn off double-tap as long as Calamity's {$Keybinds.ArmorSetBonus.DisplayName} hotkey is bound.
+			'''
+
+		Options: {
+			On: Always On
+			Auto: Auto
+			Off: Always Off
+		}
 	}
 
 	ShopNewAlert: {
@@ -551,3 +557,5 @@ CalamityServerConfig: {
 			'''
 	}
 }
+
+SetBonusDoubleTapOptions.Tooltip: ""

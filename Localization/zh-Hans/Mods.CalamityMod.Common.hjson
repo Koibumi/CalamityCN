@@ -3,6 +3,11 @@ RogueDamage: 增加{0}%盗贼伤害
 RogueCrit: 增加{0}%盗贼暴击率
 RogueVelocity: 增加{0}%盗贼弹幕速度
 RogueStealth: 增加{0}点最大潜行值
+// Armor Set Bonus key states
+BothArmorSetBonusKeys: 按下{0}或双击{1}
+NoArmorSetBonusKey: 按下套装奖励键
+ArmorSetBonusKey: 按下{0}
+DoubleTapDown: 双击{0}
 // Miscellaneous stats/info
 AggroBoost: 敌人更有可能以你为目标
 AggroReduction: 敌人不太可能以你为目标

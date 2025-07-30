@@ -1455,7 +1455,7 @@ RampartofDeities: {
 		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
 		Being struck for over 200 damage grants 30 additional invincibility frames
 		Grants immunity to knockback
-		Puts a shell around the owner when below 50% life that reduces damage taken
+		Puts a shell around the owner when below 50% life that reduces damage by 25%
 		Absorbs 25% of damage done to players on your team when above 25% life
 		'''
 }

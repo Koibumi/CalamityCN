@@ -130,7 +130,7 @@ SnowRuffianMask: {
 
 StatigelArmor: {
 	DisplayName: Statigel Armor
-	Tooltip: "{0}% increased critical strike chance"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedCritChance}"
 	CommonSetBonus:
 		'''
 		When you take over {0} damage in one hit you become immune to damage for an extended period of time
@@ -305,7 +305,7 @@ WulfrumHat: {
 		'''
 	SetBonus:
 		'''
-		[c/{0}:Wulfrum Bastion - Press {1} to equip a power armor, costing one] [i:CalamityMod/WulfrumMetalScrap] [c/{0}:{$Items.Materials.WulfrumMetalScrap.DisplayName}]
+		[c/{0}:Wulfrum Bastion - {1} to equip a power armor, costing one] [i:CalamityMod/WulfrumMetalScrap] [c/{0}:{$Items.Materials.WulfrumMetalScrap.DisplayName}]
 		[c/6EC05D:While active, you can only use the integrated fusion cannon, but your defensive stats are increased]
 		[c/6EC05D:The armor lasts up to {2} {^2:second;seconds}, but each hit loses {3} {^3:second;seconds} of duration]
 		[c/BEBEBE:Hold Shift to see the stats of the fusion cannon]

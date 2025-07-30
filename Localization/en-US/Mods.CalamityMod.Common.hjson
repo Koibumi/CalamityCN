@@ -3,6 +3,11 @@ RogueDamage: "{0}% increased rogue damage"
 RogueCrit: "{0}% increased rogue critical strike chance"
 RogueVelocity: "{0}% increased rogue velocity"
 RogueStealth: +{0} maximum stealth
+// Armor Set Bonus key states
+BothArmorSetBonusKeys: Press {0} or Double tap {1}
+NoArmorSetBonusKey: Press the Armor Set Bonus key
+ArmorSetBonusKey: Press {0}
+DoubleTapDown: Double tap {0}
 // Miscellaneous stats/info
 AggroBoost: Enemies are more likely to target you
 AggroReduction: Enemies are less likely to target you
