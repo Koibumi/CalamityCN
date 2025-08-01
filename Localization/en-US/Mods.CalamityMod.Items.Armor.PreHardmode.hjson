@@ -70,7 +70,7 @@ DesertProwlerHat: {
 	SetBonus:
 		'''
 		{$Common.RogueStealth}
-		[c/{1}:Sandsmoke Bomb - Press {2} to shroud yourself in a small cloud of sand]
+		[c/{1}:Sandsmoke Bomb - {2} to shroud yourself in a small cloud of sand]
 		[c/CCB648:While the sand cloud is active, gain increased mobility but heavily reduced defense]
 		[c/CCB648:Using a rogue weapon instantly dispels the sand cloak, but guarantees a supercrit for {3}% damage]
 		[c/CCB648:The supercrit applies only as long as the resulting hit wouldn't exceed {4} damage]

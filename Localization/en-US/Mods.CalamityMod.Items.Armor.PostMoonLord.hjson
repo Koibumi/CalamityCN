@@ -225,7 +225,7 @@ BloodflareHeadRanged: {
 	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
 		'''
-		Press {0} to unleash the lost souls of polterghast to destroy your enemies
+		{0} to unleash the lost souls of polterghast to destroy your enemies
 		This effect has a 30 second cooldown
 		Ranged weapons fire bloodsplosion orbs every 2.5 seconds
 		'''
@@ -292,7 +292,7 @@ DemonshadeHelm: {
 		100% increased summon damage and +10 max minions
 		Shadowbeams and demon scythes will fire down when you are hit
 		A friendly red devil follows you around
-		Press {0} to enrage nearby enemies with a dark magic spell for 10 seconds
+		{0} to enrage nearby enemies with a dark magic spell for 10 seconds
 		This makes them take {1}x total damage, but they will deal {2}x damage to you
 		'''
 }
@@ -505,7 +505,7 @@ OmegaBlueHelmet: {
 		'''
 		10% increased damage and critical strike chance and +2 max minions
 		Short-ranged tentacles heal you by sucking enemy life
-		Press {0} to activate abyssal madness for 5 seconds
+		{0} to activate abyssal madness for 5 seconds
 		Abyssal madness increases damage and critical strike chance by 10%
 		It also increases tentacle aggression and range, and allows them to critically strike
 		This effect has a 25 second cooldown
@@ -544,7 +544,7 @@ PrismaticHelmet: {
 		'''
 		+40 max mana and 15% reduced mana cost
 		Increased mana regeneration rate
-		Press {0} to unleash a barrage of death lasers at the cursor for the next 5 seconds
+		{0} to unleash a barrage of death lasers at the cursor for the next 5 seconds
 		This has a 30 second cooldown
 		'''
 }
@@ -648,7 +648,7 @@ TarragonHeadMelee: {
 	SetBonusEffect:
 		'''
 		Taking damage gives the Tarra Life buff, which grants +1.5 HP/s life regen
-		Press {0} to cloak yourself in life energy that heavily reduces enemy contact damage for 10 seconds
+		{0} to cloak yourself in life energy that heavily reduces enemy contact damage for 10 seconds
 		This has a 30 second cooldown
 		'''
 }

@@ -49,7 +49,7 @@ SetBonus: {
 		'''
 	Forbidden:
 		'''
-		{$LegacyTooltip.48} {$ArmorSetBonus.Forbidden}
+		{$LegacyTooltip.48} {0} to call an ancient storm to the cursor location
 		Minions no longer deal less damage while wielding magic weapons
 		'''
 	Frost:
@@ -126,6 +126,11 @@ SetBonus: {
 	Tin: "{0}% increased critical strike chance"
 	Tungsten: Grappling hooks pull and retract {0}% faster
 	MagicHat: Increases maximum mana by 40
+	Vortex:
+		'''
+		{$LegacyTooltip.48} {0} to toggle stealth,
+		increasing ranged ability and reducing chance for enemies to target you but slowing movement speed
+		'''
 	Wizard: 4% increased magic critical strike chance
 	CrystalAssassin:
 		'''

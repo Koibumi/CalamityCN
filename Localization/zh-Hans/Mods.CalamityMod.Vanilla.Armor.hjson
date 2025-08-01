@@ -49,7 +49,7 @@ SetBonus: {
 		'''
 	Forbidden:
 		'''
-		{$LegacyTooltip.48} {$ArmorSetBonus.Forbidden}
+		{$LegacyTooltip.48} {0} 可将远古风暴召唤到光标位置
 		手持魔法武器时仆从造成的伤害不再降低
 		'''
 	Frost:
@@ -126,6 +126,11 @@ SetBonus: {
 	Tin: 提升{0}%暴击率
 	Tungsten: 钩爪的牵引速度提升{0}%
 	MagicHat: 最大魔力值增加40
+	Vortex:
+		'''
+		{$LegacyTooltip.48} {0} 切换隐形，
+		提高远程能力并降低敌人以你为目标的几率，但会减慢移动速度
+		'''
 	Wizard: 增加4%魔法暴击率
 	CrystalAssassin:
 		'''

@@ -1,3 +1,4 @@
+DashKey: Press {0} while facing a direction
 DodgeInfo:
 	'''
 	Grants the ability to dodge attacks
@@ -73,11 +74,7 @@ EditedTooltip: {
 		Summons the Queen Bee when used in the Jungle
 		Enrages outside the Underground Jungle
 		'''
-	BloodySpine:
-		'''
-		Summons the Brain of Cthulhu when used in the Crimson
-		Enrages outside the Underground Crimson
-		'''
+	BloodySpine: Summons the Brain of Cthulhu when used in the Crimson
 	ClothierVoodooDoll:
 		'''
 		While equipped, summons Skeletron when the Clothier is killed during nighttime
@@ -95,32 +92,16 @@ EditedTooltip: {
 		Summons the Golem when used at the Lihzahrd Altar
 		Enrages outside the Jungle Temple
 		'''
-	MechanicalEye:
-		'''
-		Summons The Twins when used during nighttime
-		Enrages during the day
-		'''
+	MechanicalEye: Summons The Twins when used during nighttime
 	MechanicalSkull:
 		'''
 		Summons Skeletron Prime when used during nighttime
 		Enrages during the day
 		'''
-	MechanicalWorm:
-		'''
-		Summons The Destroyer when used during nighttime
-		Enrages during the day
-		'''
+	MechanicalWorm: Summons The Destroyer when used during nighttime
 	QueenSlimeCrystal: Summons Queen Slime when used in the Hallow
-	SuspiciousLookingEye:
-		'''
-		Summons the Eye of Cthulhu when used during nighttime
-		Enrages during the day
-		'''
-	WormFood:
-		'''
-		Summons the Eater of Worlds when used in the Corruption
-		Enrages outside the Underground Corruption
-		'''
+	SuspiciousLookingEye: Summons the Eye of Cthulhu when used during nighttime
+	WormFood: Summons the Eater of Worlds when used in the Corruption
 	MasterExclusive: Master or Revengeance
 	// Sparkle Slime Balloon
 	GelBalloon:
@@ -147,7 +128,6 @@ EditedTooltip: {
 	// Arcane Crystal
 	AegisCrystal: Permanently boosts natural life regeneration
 	ArcheryPotion: 20% increased arrow speed and 5% increased arrow damage
-	IronskinPotion: Increase defense by {0}
 	// Aerial Bane
 	DD2BetsyBow: Shoots a tight spread of 6 splitting arrows
 	AleSake:
@@ -181,7 +161,6 @@ EditedTooltip: {
 	MagicQuiver: Increases arrow damage by 5% and greatly increases arrow speed
 	MoltenQuiver1: Increases arrow damage by 7% and greatly increases arrow speed
 	MoltenQuiver2: Lights wooden arrows ablaze and all arrows inflict Hellfire
-	MagicPowerPotion: 10% increased magic damage
 	MagicHat: 6% increased magic critical strike chance
 	PowerGlove: 10% increased melee speed, does not stack with downgrades
 	BerserkerGlove: 10% increased true melee damage
