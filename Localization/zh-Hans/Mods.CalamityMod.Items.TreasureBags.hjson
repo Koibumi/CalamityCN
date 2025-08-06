@@ -14,7 +14,7 @@ AstrumDeusBag: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BrimstoneWaifuBag: {
+BrimstoneElementalBag: {
 	DisplayName: 宝藏袋（硫磺火元素）
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }

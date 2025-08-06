@@ -14,7 +14,7 @@ AstrumDeusBag: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BrimstoneWaifuBag: {
+BrimstoneElementalBag: {
 	DisplayName: Treasure Bag (Brimstone Elemental)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }

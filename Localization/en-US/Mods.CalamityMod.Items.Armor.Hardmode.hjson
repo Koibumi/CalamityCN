@@ -33,32 +33,31 @@ BrimflameBoots: {
 	DisplayName: Brimflame Boots
 	Tooltip:
 		'''
-		5% increased magic damage
-		5% increased movement speed
+		{$CommonItemTooltip.PercentIncreasedMagicDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
+}
+
+BrimflameCowl: {
+	DisplayName: Brimflame Cowl
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance@2}
+		Immunity to On Fire!, Brimstone Flames and Frostburn
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
+		[c/{1}:Brimflame Frenzy - {2} for {3} {^3:second;seconds} of {$CommonItemTooltip.PercentIncreasedMagicDamage@4}]
+		[c/FF9173:However, this inflicts rapid life loss and disables mana regeneration and mana potions]
+		[c/FF9173:This effect can be toggled off and has a cooldown of {5} {^5:second;seconds}]
 		'''
 }
 
 BrimflameRobes: {
 	DisplayName: Brimflame Robes
-	Tooltip: 5% increased magic damage and critical strike chance
-}
-
-BrimflameScowl: {
-	DisplayName: Brimflame Cowl
-	Tooltip:
-		'''
-		5% increased magic damage and critical strike chance
-		Increases maximum mana by 80 and reduces mana usage by 10%
-		Immunity to On Fire!, Brimstone Flames and Frostburn
-		'''
-	SetBonus:
-		'''
-		Grants an additional 15% increased magic damage and critical strike chance
-		{0} to trigger a brimflame frenzy effect
-		While under this effect, you get an additional 40% increase to magic damage
-		However, this inflicts rapid life loss and disables mana regeneration and mana potions
-		This can be toggled off, however, brimflame frenzy has a 30 second cooldown
-		'''
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}"
 }
 
 DaedalusBreastplate: {

@@ -58,7 +58,7 @@ AstrumDeusMask: {
 	Tooltip: ""
 }
 
-BrimstoneWaifuMask: {
+BrimstoneElementalMask: {
 	DisplayName: Brimstone Elemental Mask
 	Tooltip: ""
 }

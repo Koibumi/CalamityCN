@@ -1,6 +1,7 @@
 // Plain stat boosts
 RogueDamage: "{0}% increased rogue damage"
 RogueCrit: "{0}% increased rogue critical strike chance"
+RogueDamageCrit: "{0}% increased rogue damage and critical strike chance"
 RogueVelocity: "{0}% increased rogue velocity"
 RogueStealth: +{0} maximum stealth
 // Armor Set Bonus key states

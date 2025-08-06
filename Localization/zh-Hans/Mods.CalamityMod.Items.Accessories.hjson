@@ -288,7 +288,7 @@ BatholithBangle: {
 	Tooltip:
 		'''
 		魔法攻击命中敌怪时生成必定暴击的强力花岗岩闪光
-		此效果具有10秒冷却，但如果闪光杀死了命中的首个敌怪，将会减半冷却时间
+		此效果具有10秒冷却
 		如果关闭饰品可见性，视觉效果和音效会减弱
 		[c/0189D7:'The solid granite radiates energy throughout your body']
 		'''
@@ -361,8 +361,8 @@ BloomStone: {
 		'''
 		增加50%治疗药水的治疗量，但治疗效果会随时间推移逐渐生效
 		钩爪的牵引速度提升50%，并且在附着点长出花朵
-		接触花朵会使其散布花粉，花粉临时提升6%伤害减免
-		在逐渐治疗期间，该伤害减免提升至12%
+		接触花朵会使其散布花粉，花粉临时提升随时间治疗速度
+		生命值为满时治疗速度大幅下降
 		“远古遗物之一”
 		'''
 }
@@ -718,6 +718,11 @@ ElementalGauntlet: {
 		允许近战武器自动挥舞并增加近战武器大小
 		不与下位合成材料叠加
 		'''
+}
+
+ElementalinaBottle: {
+	DisplayName: 元素瓶
+	Tooltip: 召唤一个沙暴元素为你而战
 }
 
 ElysianAegis: {
@@ -1390,7 +1395,7 @@ ProtolithBangle: {
 	Tooltip:
 		'''
 		远程攻击命中敌怪时生成必定暴击且能命中多个敌怪的大理石闪光
-		此效果具有7秒冷却，但如果闪光杀死了命中的首个敌怪，将会减半冷却时间
+		此效果具有7秒冷却
 		如果关闭饰品可见性，视觉效果和音效会减弱
 		[c/C5B965:'The cold marble against your wrist puts your mind at ease']
 		'''
@@ -1456,6 +1461,15 @@ RampartofDeities: {
 		对击退免疫
 		生命低于50%时会在你的周围生成能够降低25%所受伤害的护盾
 		生命值高于25%时会将团队中其他玩家所受伤害的25%转移到佩戴者身上
+		'''
+}
+
+RareElementalinaBottle: {
+	DisplayName: 稀有元素瓶
+	Tooltip:
+		'''
+		召唤一个沙暴元素来治疗你
+		;D
 		'''
 }
 
@@ -1736,11 +1750,10 @@ StatisNinjaBelt: {
 	DisplayName: 斯塔提斯的忍者腰带
 	Tooltip:
 		'''
-		获得高速冲刺的能力，随你的移动速度提升速度
+		获得高速冲刺的能力
 		增加10%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
 		将移动加速度和减速度提升为1.6倍
 		可以游泳、攀爬和闪避攻击
-		在同一方向上连续冲刺会降低冲刺速度
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
@@ -1749,12 +1762,11 @@ StatisVoidSash: {
 	DisplayName: 斯塔提斯的虚空饰带
 	Tooltip:
 		'''
-		获得高速冲刺的能力，随你的移动速度提升速度
+		获得高速冲刺的能力
 		增加20%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
 		将移动加速度和减速度提升为1.85倍
 		可以游泳、攀爬和闪避攻击
 		如果关闭饰品可见性，视觉效果会减弱
-		在同一方向上连续冲刺会降低冲刺速度
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
@@ -2082,20 +2094,6 @@ WarbanneroftheRighteous: {
 		迸发炽烈的光环，灼烧并击退周围的敌怪
 		敌怪离你越近，接近时间越长，受到的伤害越高
 		如果关闭饰品可见性，饰品效果会变得透明且安静
-		'''
-}
-
-WifeinaBottle: {
-	DisplayName: 元素瓶
-	Tooltip: 召唤一个沙暴元素为你而战
-}
-
-WifeinaBottlewithBoobs: {
-	DisplayName: 稀有元素瓶
-	Tooltip:
-		'''
-		召唤一个沙暴元素来治疗你
-		;D
 		'''
 }
 

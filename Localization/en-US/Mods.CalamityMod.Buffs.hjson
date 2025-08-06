@@ -1113,7 +1113,7 @@ BrimseekerBuff: {
 	Description: Does it want something from you?
 }
 
-BrimstoneWaifu: {
+BrimstoneElemental: {
 	DisplayName: Brimstone Elemental
 	Description: The Brimstone Elemental will protect you
 }
@@ -1138,7 +1138,7 @@ CinderBlossomBuff: {
 	Description: A hot, searing flower is floating uncomfortably close to you
 }
 
-CloudyWaifu: {
+CloudElemental: {
 	DisplayName: Cloud Elemental
 	Description: The Cloud Elemental will protect you
 }
@@ -1419,6 +1419,11 @@ PuffWarriorBuff: {
 	Description: It confidently and excitedly protects you
 }
 
+RareSandElemental: {
+	DisplayName: Rare Sand Elemental
+	Description: The Sand Elemental will heal you
+}
+
 ResurrectionButterflyBuff: {
 	DisplayName: Resurrection Butterfly
 	Description: Sleep beneath the Cherry Blossoms, Red-White Butterfly
@@ -1434,12 +1439,7 @@ Sandnado: {
 	Description: The sandnado will protect you
 }
 
-SandyHealingWaifu: {
-	DisplayName: Rare Sand Elemental
-	Description: The Sand Elemental will heal you
-}
-
-SandyWaifu: {
+SandElemental: {
 	DisplayName: Sand Elemental
 	Description: The Sand Elemental will protect you
 }
@@ -1554,7 +1554,7 @@ VoidConcentrationBuff: {
 	Description: The infinite void yearns for more...
 }
 
-WaterWaifu: {
+WaterElemental: {
 	DisplayName: Anahita
 	Description: Anahita will protect you
 }

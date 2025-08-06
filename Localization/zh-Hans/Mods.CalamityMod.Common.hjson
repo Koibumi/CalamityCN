@@ -1,6 +1,7 @@
 // Plain stat boosts
 RogueDamage: 增加{0}%盗贼伤害
 RogueCrit: 增加{0}%盗贼暴击率
+RogueDamageCrit: "增加{0}%盗贼伤害和暴击率"
 RogueVelocity: 增加{0}%盗贼弹幕速度
 RogueStealth: 增加{0}点最大潜行值
 // Armor Set Bonus key states

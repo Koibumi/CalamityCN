@@ -644,7 +644,14 @@ GeliticBlade: {
 
 GildedProboscis: {
 	DisplayName: 镀金鸟喙
-	Tooltip: 命中敌怪时治疗玩家
+	Tooltip: 
+		'''
+		根据对敌怪造成的伤害量偷取生命
+		<left>蓄力一次精准刺击
+		刺击初始较弱，随蓄力时间逐渐强化
+		<right>向前冲刺并进行强力上挑
+		冲刺的距离取决于你是否朝着冲刺方向移动
+		'''
 }
 
 GoldplumeSpear: {

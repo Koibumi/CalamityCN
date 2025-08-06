@@ -1113,7 +1113,7 @@ BrimseekerBuff: {
 	Description: 它是不是想从你身上索取些什么？
 }
 
-BrimstoneWaifu: {
+BrimstoneElemental: {
 	DisplayName: 硫磺火元素
 	Description: 硫磺火元素会保护你
 }
@@ -1138,7 +1138,7 @@ CinderBlossomBuff: {
 	Description: 一朵灼热的花不舒服地飘在你身边
 }
 
-CloudyWaifu: {
+CloudElemental: {
 	DisplayName: 雨云元素
 	Description: 雨云元素会保护你
 }
@@ -1419,6 +1419,11 @@ PuffWarriorBuff: {
 	Description: 它自信且兴奋地保护着你
 }
 
+RareSandElemental: {
+	DisplayName: 稀有沙元素
+	Description: 沙元素会治疗你
+}
+
 ResurrectionButterflyBuff: {
 	DisplayName: 反魂蝶
 	Description:
@@ -1438,12 +1443,7 @@ Sandnado: {
 	Description: 沙龙卷会保护你
 }
 
-SandyHealingWaifu: {
-	DisplayName: 稀有沙元素
-	Description: 沙元素会治疗你
-}
-
-SandyWaifu: {
+SandElemental: {
 	DisplayName: 沙元素
 	Description: 沙元素会保护你
 }
@@ -1558,7 +1558,7 @@ VoidConcentrationBuff: {
 	Description: 无尽之虚空渴望着更多……
 }
 
-WaterWaifu: {
+WaterElemental: {
 	DisplayName: 阿娜希塔
 	Description: 阿娜希塔会保护你
 }
