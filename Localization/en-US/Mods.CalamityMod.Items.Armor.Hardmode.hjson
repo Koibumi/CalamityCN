@@ -9,7 +9,7 @@ AstralBreastplate: {
 
 AstralHelm: {
 	DisplayName: Astral Helm
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance}"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}"
 	SetBonus:
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
@@ -335,7 +335,7 @@ MolluskShelleggings: {
 	DisplayName: Mollusk Shelleggings
 	Tooltip:
 		'''
-		6% increased damage and 4% increased critical strike chance
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
 		Your horizontal movement is slowed
 		'''
 }
@@ -344,14 +344,14 @@ MolluskShellmet: {
 	DisplayName: Mollusk Shellmet
 	Tooltip:
 		'''
-		5% increased damage and 4% increased critical strike chance
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
 		You can move freely through liquids
 		Your horizontal movement is slowed
 		'''
 	SetBonus:
 		'''
+		{0}% increased damage reduction
 		Two shellfishes aid you in combat
-		10% increased damage reduction
 		'''
 }
 
@@ -359,7 +359,7 @@ MolluskShellplate: {
 	DisplayName: Mollusk Shellplate
 	Tooltip:
 		'''
-		6% increased damage and 5% increased critical strike chance
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
 		Your horizontal movement is slowed
 		'''
 }
@@ -489,27 +489,26 @@ ReaverScaleMail: {
 
 TitanHeartBoots: {
 	DisplayName: Titan Heart Boots
-	Tooltip: 4% increased rogue damage, 10% increased rogue velocity, and 5% increased rogue knockback
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 TitanHeartMantle: {
 	DisplayName: Titan Heart Mantle
-	Tooltip: 5% boosted rogue damage and knockback
+	Tooltip: "{$Common.RogueDamage} and {1}% increased rogue knockback"
 }
 
 TitanHeartMask: {
 	DisplayName: Titan Heart Mask
 	Tooltip:
 		'''
-		5% increased rogue damage and knockback
+		{$Common.RogueDamage} and {$Common.RogueVelocity@1}
 		Rogue weapons inflict the Astral Infection debuff
 		'''
 	SetBonus:
 		'''
-		10% increased rogue damage and 20% increased rogue knockback
-		+100 maximum stealth
-		Stealth strikes deal double knockback and cause an astral explosion
-		Grants immunity to knockback
+		{$Common.RogueStealth}
+		Stealth strikes deal {1}x knockback and cause an astral explosion
+		{$Common.KnockbackImmunity}
 		'''
 }
 
@@ -517,17 +516,17 @@ UmbraphileBoots: {
 	DisplayName: Umbraphile Boots
 	Tooltip:
 		'''
-		9% increased rogue damage and 6% increased rogue crit
-		20% increased movement speed
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
 }
 
 UmbraphileHood: {
 	DisplayName: Umbraphile Hood
-	Tooltip: 8% increased rogue damage and 10% increased rogue velocity
+	Tooltip: "{$Common.RogueDamage} and {$Common.RogueVelocity@1}"
 	SetBonus:
 		'''
-		+110 maximum stealth
+		{$Common.RogueStealth}
 		Rogue weapons have a chance to create explosions on hit
 		Stealth strikes always create an explosion
 		'''
@@ -535,5 +534,5 @@ UmbraphileHood: {
 
 UmbraphileRegalia: {
 	DisplayName: Umbraphile Regalia
-	Tooltip: 10% increased rogue damage and 10% increased rogue crit
+	Tooltip: "{$Common.RogueDamageCrit}"
 }

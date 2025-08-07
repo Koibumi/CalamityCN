@@ -74,7 +74,11 @@ EditedTooltip: {
 		Summons the Queen Bee when used in the Jungle
 		Enrages outside the Underground Jungle
 		'''
-	BloodySpine: Summons the Brain of Cthulhu when used in the Crimson
+	BloodySpine:
+		'''
+		Summons the Brain of Cthulhu when used in the Crimson
+		Despawns outside the Crimson
+		'''
 	ClothierVoodooDoll:
 		'''
 		While equipped, summons Skeletron when the Clothier is killed during nighttime
@@ -101,7 +105,11 @@ EditedTooltip: {
 	MechanicalWorm: Summons The Destroyer when used during nighttime
 	QueenSlimeCrystal: Summons Queen Slime when used in the Hallow
 	SuspiciousLookingEye: Summons the Eye of Cthulhu when used during nighttime
-	WormFood: Summons the Eater of Worlds when used in the Corruption
+	WormFood:
+		'''
+		Summons the Eater of Worlds when used in the Corruption
+		Despawns outside the Corruption
+		'''
 	MasterExclusive: Master or Revengeance
 	// Sparkle Slime Balloon
 	GelBalloon:

@@ -74,7 +74,11 @@ EditedTooltip: {
 		在丛林使用召唤蜂王
 		在地下丛林外会狂暴
 		'''
-	BloodySpine: 在血腥之地使用召唤克苏鲁之脑
+	BloodySpine:
+		'''
+		在血腥之地使用召唤克苏鲁之脑
+		在血腥之地外消失
+		'''
 	ClothierVoodooDoll:
 		'''
 		装备后在夜晚杀死服装商召唤骷髅王
@@ -101,7 +105,11 @@ EditedTooltip: {
 	MechanicalWorm: 在夜晚使用召唤毁灭者
 	QueenSlimeCrystal: 在神圣之地使用召唤史莱姆皇后
 	SuspiciousLookingEye: 在夜晚使用召唤克苏鲁之眼
-	WormFood: 在腐化之地使用召唤世界吞噬怪
+	WormFood:
+		'''
+		在腐化之地使用召唤世界吞噬怪
+		在腐化之地外消失
+		'''
 	MasterExclusive: 大师或者复仇
 	// Sparkle Slime Balloon
 	GelBalloon:

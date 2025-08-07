@@ -9,7 +9,7 @@ AstralBreastplate: {
 
 AstralHelm: {
 	DisplayName: 星幻头盔
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}且{$CommonItemTooltip.PercentIncreasedCritChance}"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
 	SetBonus:
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
@@ -50,9 +50,9 @@ BrimflameCowl: {
 		'''
 		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
 		额外增加15%魔法伤害和暴击率
-		[c/{1}:硫火狂暴 - 按下{2}开启，持续{3} {^3:second;seconds}，期间{$CommonItemTooltip.PercentIncreasedMagicDamage@4}]
+		[c/{1}:硫火狂暴 - 按下{2}开启，持续{3}秒，期间{$CommonItemTooltip.PercentIncreasedMagicDamage@4}]
 		[c/FF9173:然而，这将带来快速的生命值流失，并禁用魔力再生和魔力药水]
-		[c/FF9173:此状态可以手动关闭, 硫火狂暴有{5} {^5:second;seconds}冷却时间]
+		[c/FF9173:此状态可以手动关闭, 硫火狂暴有{5}秒冷却时间]
 		'''
 }
 
@@ -336,7 +336,7 @@ MolluskShelleggings: {
 	DisplayName: 软壳护胫
 	Tooltip:
 		'''
-		增加6%伤害和4%暴击率
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
 		降低你的水平移动速度
 		'''
 }
@@ -345,14 +345,14 @@ MolluskShellmet: {
 	DisplayName: 软壳贝盔
 	Tooltip:
 		'''
-		增加5%伤害和4%暴击率
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
 		在液体中行动不受阻碍
 		降低你的水平移动速度
 		'''
 	SetBonus:
 		'''
+		增加{0}%伤害减免
 		两只贝壳会在战斗中助你一臂之力
-		增加10%伤害减免
 		'''
 }
 
@@ -360,7 +360,7 @@ MolluskShellplate: {
 	DisplayName: 软壳贝甲
 	Tooltip:
 		'''
-		增加6%伤害和5%暴击率
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
 		降低你的水平移动速度
 		'''
 }
@@ -490,27 +490,26 @@ ReaverScaleMail: {
 
 TitanHeartBoots: {
 	DisplayName: 泰坦之心靴子
-	Tooltip: 增加4%盗贼伤害、10%盗贼弹幕速度和5%盗贼击退
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 TitanHeartMantle: {
 	DisplayName: 泰坦之心斗篷
-	Tooltip: 增加5%盗贼伤害和击退
+	Tooltip: "{$Common.RogueDamage}和{1}%盗贼击退"
 }
 
 TitanHeartMask: {
 	DisplayName: 泰坦之心面具
 	Tooltip:
 		'''
-		增加5%盗贼伤害和盗贼击退
+		{$Common.RogueDamage}和{$Common.RogueVelocity@1}
 		盗贼武器会造成幻星感染
 		'''
 	SetBonus:
 		'''
-		增加10%盗贼伤害和20%击退
-		增加100点潜行值
-		潜伏攻击会造成两倍的击退并产生幻星爆炸
-		免疫击退
+		{$Common.RogueStealth}
+		潜伏攻击会造成{1}倍的击退并产生幻星爆炸
+		{$Common.KnockbackImmunity}
 		'''
 }
 
@@ -518,17 +517,17 @@ UmbraphileBoots: {
 	DisplayName: 日影靴子
 	Tooltip:
 		'''
-		增加9%盗贼伤害和6%盗贼暴击率
-		增加20%移动速度
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
 }
 
 UmbraphileHood: {
 	DisplayName: 日影兜帽
-	Tooltip: 增加8%盗贼伤害和10%盗贼弹幕速度
+	Tooltip: "{$Common.RogueDamage}和{$Common.RogueVelocity@1}"
 	SetBonus:
 		'''
-		增加110点潜行值
+		{$Common.RogueStealth}
 		盗贼武器击中敌人时概率产生爆炸
 		潜伏攻击总是产生爆炸
 		'''
@@ -536,5 +535,5 @@ UmbraphileHood: {
 
 UmbraphileRegalia: {
 	DisplayName: 日影斗篷
-	Tooltip: 增加10%盗贼伤害和盗贼暴击率
+	Tooltip: "{$Common.RogueDamageCrit}"
 }

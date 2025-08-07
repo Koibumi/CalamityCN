@@ -15,7 +15,7 @@ AcidRainT3: {
 
 AquaticScourge: {
 	EntryName: 渊海灾虫
-	SpawnInfo: 在硫磺海使用 [i:CalamityMod/Seafood] 或等待其自然生成。
+	SpawnInfo: 在硫磺海使用[i:CalamityMod/Seafood]或等待其自然生成。
 	DespawnMessage: "[c/F0E68C:剧毒的灾虫游回了宁静的汪洋中。]"
 }
 
@@ -26,7 +26,7 @@ AstrumAureus: {
 
 AstrumDeus: {
 	EntryName: 星神游龙
-	SpawnInfo: 在夜晚使用[i:CalamityMod/TitanHeart]或者[i:CalamityMod/Starcore]于[i:CalamityMod/AstralBeaconItem]处右键召唤。
+	SpawnInfo: 使用[i:CalamityMod/TitanHeart]或者[i:CalamityMod/Starcore]于[i:CalamityMod/AstralBeaconItem]处右键召唤。
 	DespawnMessage: "[c/FFD700:被污染的神明退回了天界。]"
 }
 
@@ -47,7 +47,7 @@ Calamitas: {
 }
 
 CalamitasClone: {
-	SpawnInfo: 在夜晚使用[i:CalamityMod/EyeofDesolation]。
+	SpawnInfo: 使用[i:CalamityMod/EyeofDesolation]。
 	DespawnMessage: "[c/FFA500:女巫的克隆体失望地吐了口血，随即隐去身形。]"
 }
 
@@ -58,7 +58,7 @@ CeaselessVoid: {
 }
 
 Crabulon: {
-	SpawnInfo: 在发光蘑菇生物群落使用[i:CalamityMod/DecapoditaSprout]。
+	SpawnInfo: 在地下发光蘑菇生物群落使用[i:CalamityMod/DecapoditaSprout]。
 	DespawnMessage: "[c/6495ED:菌生怪蟹爬走了……]"
 }
 

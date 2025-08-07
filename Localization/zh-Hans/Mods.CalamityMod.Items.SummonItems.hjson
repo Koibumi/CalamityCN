@@ -14,7 +14,6 @@ AstralChunk: {
 	Tooltip:
 		'''
 		在星辉瘟疫使用以召唤白金星舰
-		白天时在星辉瘟疫外狂暴
 		{$Common.NotConsumable}
 		“星辉瘟疫的要塞找到了另一个目标。”
 		'''
@@ -34,7 +33,7 @@ BloodyWormFood: {
 	Tooltip:
 		'''
 		在猩红之地使用以召唤血肉宿主
-		在地下猩红之地外狂暴
+		在猩红之地外消失
 		{$Common.NotConsumable}
 		“不要玩弄食物，它们就不会玩弄自己的食物。”
 		'''
@@ -86,7 +85,6 @@ CryoKey: {
 	Tooltip:
 		'''
 		[SPAWN]
-		在苔原外狂暴
 		{$Common.NotConsumable}
 		“一把极寒囚牢的钥匙。”
 		'''
@@ -108,8 +106,7 @@ DecapoditaSprout: {
 	DisplayName: 节肢动物芽孢
 	Tooltip:
 		'''
-		在发光蘑菇生物群落使用以召唤菌生蟹
-		在地下发光蘑菇生物群落外狂暴
+		在地下发光蘑菇生物群落使用以召唤菌生蟹
 		{$Common.NotConsumable}
 		“长满了一种独特寄生菌的芽孢。”
 		'''
@@ -152,8 +149,7 @@ EyeofDesolation: {
 	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
-		在夜晚使用以召唤灾厄之影[GFB]
-		在白天时狂暴
+		召唤灾厄之影[GFB]
 		{$Common.NotConsumable}
 		“她在这里。”
 		'''
@@ -184,7 +180,7 @@ MarkofProvidence: {
 	SpawnVoid:
 		'''
 		召唤无尽虚空
-		在地表狂暴
+		在地表消失
 		'''
 	SpawnSignus: 召唤神之使徒，西格纳斯
 	SpawnWeaver: 召唤风暴编织者
@@ -204,6 +200,7 @@ NecroplasmicBeacon: {
 	Tooltip:
 		'''
 		在地牢使用以召唤噬魂幽花
+		在地表消失
 		{$Common.NotConsumable}
 		“幽魂的哀嚎惊动了更可怕的东西。”
 		'''
@@ -280,7 +277,6 @@ Starcore: {
 	Tooltip:
 		'''
 		在星辉信标处使用以召唤星神游龙，不会消耗
-		在白天狂暴
 		“愿群星指引你的前路”
 		'''
 }
@@ -290,7 +286,7 @@ Teratoma: {
 	Tooltip:
 		'''
 		在腐化之地使用以召唤腐巢意志
-		在地下腐化之地外狂暴
+		在腐化之地外消失
 		{$Common.NotConsumable}
 		“对那些脑袋有大病的人来说，这是很可怕的一个肿瘤。”
 		'''

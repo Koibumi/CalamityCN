@@ -24,7 +24,7 @@ AerospecHeadMagic: {
 
 AerospecHeadRogue: {
 	DisplayName: 天蓝头套
-	Tooltip: "{$Common.RogueDamage}且{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
+	Tooltip: "{$Common.RogueDamage}和{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
 	SetBonus:
 		'''
 		{$Common.RogueStealth}
@@ -44,7 +44,7 @@ AerospecHeadMelee: {
 
 AerospecHeadSummon: {
 	DisplayName: 天蓝头盔
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}且{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}和{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
 	SetBonus:
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
@@ -148,8 +148,8 @@ StatigelHeadMagic: {
 	DisplayName: 斯塔提斯帽子
 	Tooltip:
 		'''
-		{$CommonItemTooltip.IncreasesMaxManaBy}且{$CommonItemTooltip.PercentReducedManaCost@1}
-		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}且{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
 }
 
@@ -177,7 +177,7 @@ StatigelHeadRogue: {
 	Tooltip:
 		'''
 		{$Common.RogueDamage}
-		{$Common.RogueCrit@1}且{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		{$Common.RogueCrit@1}和{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
 	SetBonus: "{$Common.RogueStealth}"
 }

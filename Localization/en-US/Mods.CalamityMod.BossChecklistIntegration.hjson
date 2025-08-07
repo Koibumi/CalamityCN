@@ -20,7 +20,7 @@ AquaticScourge: {
 }
 
 AstrumAureus: {
-	SpawnInfo: Use an [i:CalamityMod/AstralChunk] at night in the Astral Infection.
+	SpawnInfo: Use an [i:CalamityMod/AstralChunk] in the Astral Infection.
 	DespawnMessage: "[c/FFD700:Aureus has neutralized all threats. Resume prior reconnaissance.]"
 }
 
@@ -47,7 +47,7 @@ Calamitas: {
 }
 
 CalamitasClone: {
-	SpawnInfo: Use an [i:CalamityMod/EyeofDesolation] at night.
+	SpawnInfo: Use an [i:CalamityMod/EyeofDesolation].
 	DespawnMessage: "[c/FFA500:The clone spits a bit of blood in disgust and vanishes.]"
 }
 
@@ -58,7 +58,7 @@ CeaselessVoid: {
 }
 
 Crabulon: {
-	SpawnInfo: Use a [i:CalamityMod/DecapoditaSprout] in a Glowing Mushroom biome.
+	SpawnInfo: Use a [i:CalamityMod/DecapoditaSprout] in an underground Glowing Mushroom biome.
 	DespawnMessage: "[c/6495ED:The monstrous mycelial crab shuffles away…]"
 }
 

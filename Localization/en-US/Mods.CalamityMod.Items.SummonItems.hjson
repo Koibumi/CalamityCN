@@ -14,7 +14,6 @@ AstralChunk: {
 	Tooltip:
 		'''
 		Summons Astrum Aureus when used in the Astral Infection
-		Enrages during the day while outside the Astral Infection
 		{$Common.NotConsumable}
 		'The Infection's fortress has found another target.'
 		'''
@@ -34,7 +33,7 @@ BloodyWormFood: {
 	Tooltip:
 		'''
 		Summons the Perforator Hive when used in the Crimson
-		Enrages outside the Underground Crimson
+		Despawns outside the Crimson
 		{$Common.NotConsumable}
 		'Do not play with your food, they won't play with theirs.'
 		'''
@@ -86,7 +85,6 @@ CryoKey: {
 	Tooltip:
 		'''
 		[SPAWN]
-		Enrages outside the tundra
 		{$Common.NotConsumable}
 		'A key for a glacial prison.'
 		'''
@@ -108,8 +106,7 @@ DecapoditaSprout: {
 	DisplayName: Decapodita Sprout
 	Tooltip:
 		'''
-		Summons Crabulon when used in the Mushroom biome
-		Enrages outside the Underground Mushroom biome
+		Summons Crabulon when used in the Underground Mushroom biome
 		{$Common.NotConsumable}
 		'Bristling with the spores of a unique, parasitic strain.'
 		'''
@@ -152,8 +149,7 @@ EyeofDesolation: {
 	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
-		Summons the Calamitas Clone when used during nighttime[GFB]
-		Enrages during the day
+		Summons the Calamitas Clone[GFB]
 		{$Common.NotConsumable}
 		'She is here.'
 		'''
@@ -184,7 +180,7 @@ MarkofProvidence: {
 	SpawnVoid:
 		'''
 		Summons the Ceaseless Void
-		Enrages on the surface
+		Despawns on the surface
 		'''
 	SpawnSignus: Summons Signus, Envoy of the Devourer
 	SpawnWeaver: Summons the Storm Weaver
@@ -204,6 +200,7 @@ NecroplasmicBeacon: {
 	Tooltip:
 		'''
 		Summons Polterghast when used in the Dungeon
+		Despawns on the surface
 		{$Common.NotConsumable}
 		'The wails of the spirits disturbed something far more terrifying.'
 		'''
@@ -280,7 +277,6 @@ Starcore: {
 	Tooltip:
 		'''
 		Summons Astrum Deus at the Astral Beacon, but is not consumed
-		Enrages during the day
 		'May the stars guide your way'
 		'''
 }
@@ -290,7 +286,7 @@ Teratoma: {
 	Tooltip:
 		'''
 		Summons the Hive Mind when used in the Corruption
-		Enrages outside the Underground Corruption
+		Despawns outside the Corruption
 		{$Common.NotConsumable}
 		'An exquisitely hideous tumor for those diseased in the head.'
 		'''
