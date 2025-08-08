@@ -98,6 +98,8 @@ Cooldowns: {
 	BloodflareFrenzy: 鲜血狂怒冷却
 	BloodflareRangedSet: 幽火游魂冷却
 	BrimflameFrenzy: 硫火狂怒冷却
+	BubblyBurrowActive: 泡泡之穴
+	BubblyBurrowCooldown: 泡泡之穴冷却
 	ChaosState: 传送冷却
 	DivineBless: 圣天祝福充能
 	DivingPlatesBreaking: 深渊潜游服耐久
@@ -145,6 +147,7 @@ Cooldowns: {
 	TarragonImmunity: 龙蒿无敌冷却
 	UniverseSplitter: 渊宇天基炮冷却
 	WarbanneroftheRighteousBuff: 战旗强度
+	WardingWave: 护卫之潮冷却
 	WulfrumBastionActive: 钨钢转换中
 	WulfrumBastionCooldown: 钨钢转换冷却
 	WulfrumRoverDriveDurability: 矩阵保护中

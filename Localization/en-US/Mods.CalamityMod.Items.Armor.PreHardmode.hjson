@@ -221,68 +221,60 @@ SulphurousLeggings: {
 
 VictideBreastplate: {
 	DisplayName: Victide Breastplate
-	Tooltip:
-		'''
-		5% increased damage reduction and critical strike chance
-		+5 defense and 10% increased damage reduction while submerged in liquid
-		'''
-	CommonSetBonus:
-		'''
-		When using any weapon you have a 10% chance to throw a returning seashell projectile
-		This seashell does true damage and does not benefit from any damage class
-		Provides increased underwater mobility and slightly reduces breath loss in the abyss
-		'''
+	Tooltip: +{0} HP/s life regen
 }
 
 VictideGreaves: {
 	DisplayName: Victide Greaves
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+}
+
+VictideHeadBarrier: {
+	DisplayName: Victide Hermit Helmet
 	Tooltip:
 		'''
-		Movement speed increased by 8%
-		Movement speed increased by 30% while submerged in liquid
+		+{0} HP/s life regen
+		Increases movement acceleration and deceleration by {1}x
 		'''
-}
-
-VictideHeadMagic: {
-	DisplayName: Victide Hermit Helmet
-	Tooltip: 5% increased magic damage
-	SetBonus: +1.5 HP/s life regen and 10% increased magic damage while submerged in liquid
-}
-
-VictideHeadMelee: {
-	DisplayName: Victide Shellmet
-	Tooltip: 5% increased melee damage
 	SetBonus:
 		'''
-		Enemies are more likely to target you
-		+1.5 HP/s life regen and 10% increased melee damage while submerged in liquid
+		[c/{0}:Warding Wave - Forms a tidal barrier which can be exploded to launch you]
+		[c/A2D6FF:The barrier grants {1} defense and gradually heals back {2}% of taken damage]
+		[c/A2D6FF:{3} to disperse it for {4} {^4:second;seconds} and propel you in the direction of the cursor]
+		[c/A2D6FF:The resulting dash can slam through and damage enemies]
 		'''
 }
 
-VictideHeadRanged: {
-	DisplayName: Victide Coral Turban
-	Tooltip: 5% increased ranged damage
-	SetBonus: +1.5 HP/s life regen and 10% increased ranged damage while submerged in liquid
-}
-
-VictideHeadRogue: {
+VictideHeadBurrow: {
 	DisplayName: Victide Headcrab
-	Tooltip: 5% increased rogue damage
+	Tooltip:
+		'''
+		{0}% increased movement speed and acceleration
+		Grants underwater breathing and slightly reduces breath loss in the abyss
+		'''
 	SetBonus:
 		'''
-		+60 maximum stealth
-		+1.5 HP/s life regen and 10% increased rogue damage while submerged in liquid
+		Allows quick travel in water
+		[c/{0}:Bubbly Burrow - {1} to transform into an agile water spirit for a short time]
+		[c/A2D6FF:The spirit can be controlled through movement keys and can traverse through tiles]
+		[c/A2D6FF:While in spirit form, you are impervious to most damage but unable to use items]
+		[c/A2D6FF:This effect lasts {2} {^2:second;seconds} and has a cooldown of {3} {^3:second;seconds}]
 		'''
 }
 
-VictideHeadSummon: {
+VictideHeadSnail: {
 	DisplayName: Victide Mask
-	Tooltip: 10% increased summon damage
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesFishingPowerBy}
+		{$Common.AggroReduction}
+		'''
 	SetBonus:
 		'''
-		+1 max minion
-		Summons a sea snail to protect you
-		+1.5 HP/s life regen and 10% increased summon damage while submerged in liquid
+		Increases pickup range for items
+		[c/{0}:Helper Angler - Summons a sea snail to fish alongside you]
+		[c/A2D6FF:It automatically casts and reels as you are standing still and fishing]
+		[c/A2D6FF:Equipped fishing abilities and stats are inherited from its owner]
 		'''
 }
 

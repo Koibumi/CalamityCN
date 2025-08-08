@@ -221,68 +221,60 @@ SulphurousLeggings: {
 
 VictideBreastplate: {
 	DisplayName: 胜潮胸甲
-	Tooltip:
-		'''
-		增加5%伤害减免和暴击率
-		浸没在液体中时增加5点防御和10%伤害减免
-		'''
-	CommonSetBonus:
-		'''
-		使用任何武器时都有10%几率发射回旋贝壳弹幕
-		贝壳的伤害与暴击率由你当前使用的武器决定
-		提高水下机动性，稍微减缓深渊中呼吸条消耗速度
-		'''
+	Tooltip: +{0} HP/s生命再生
 }
 
 VictideGreaves: {
 	DisplayName: 胜潮护胫
-	Tooltip:
-		'''
-		增加8%移动速度
-		浸没在液体中时增加30%移动速度
-		'''
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
 }
 
-VictideHeadMagic: {
+VictideHeadBarrier: {
 	DisplayName: 胜潮隐帽
-	Tooltip: 增加5%魔法伤害
-	SetBonus: 在水中时+1.5HP/s生命再生和增加10%魔法伤害
-}
-
-VictideHeadMelee: {
-	DisplayName: 胜潮贝盔
-	Tooltip: 增加5%近战伤害
+	Tooltip: 
+		'''
+		+{0} HP/s生命再生
+		提升{1}倍移动加速度和减速度
+		'''
 	SetBonus:
 		'''
-		敌人更有可能以你为目标
-		在水中时+1.5HP/s生命再生和增加10%近战伤害
+		[c/{0}:护卫之潮 - 形成一个浪潮屏障，爆发时将你发射出去]
+		[c/A2D6FF:屏障提供{1}点防御，缓慢恢复受到伤害的{2}%]
+		[c/A2D6FF:{3}使屏障迸发{4} {^4:second;seconds}并将你向光标方向推进]
+		[c/A2D6FF:该冲刺能够穿过敌人，并对它们造成伤害]
 		'''
 }
 
-VictideHeadRanged: {
-	DisplayName: 胜潮瑚巾
-	Tooltip: 增加5%远程伤害
-	SetBonus: 在水中时+1.5HP/s生命再生和增加10%远程伤害
-}
-
-VictideHeadRogue: {
+VictideHeadBurrow: {
 	DisplayName: 胜潮蟹盔
-	Tooltip: 增加5%盗贼伤害
+	Tooltip: 
+		'''
+		提升{0}%移动速度和加速度
+		提供水下呼吸能力，略微降低在深渊中氧气流失速率
+		'''
 	SetBonus:
 		'''
-		增加60点最大潜行值
-		在水中时+1.5HP/s生命再生和增加10%盗贼伤害
+		允许在水中快速移动
+		[c/{0}:泡泡之穴 - {1} 短暂变身为迅捷的水之魂灵]
+		[c/A2D6FF:水之魂灵可以用方向键控制，能够穿过物块]
+		[c/A2D6FF:在这一形态下无视大多数伤害，但不能使用物品]
+		[c/A2D6FF:此效果持续{2} {^2:second;seconds}并有{3} {^3:second;seconds}冷却]
 		'''
 }
 
-VictideHeadSummon: {
+VictideHeadSnail: {
 	DisplayName: 胜潮面罩
-	Tooltip: 增加10%召唤伤害
+	Tooltip: 
+		'''
+		{$CommonItemTooltip.IncreasesFishingPowerBy}
+		{$Common.AggroReduction}
+		'''
 	SetBonus:
 		'''
-		增加1仆从栏
-		召唤一只海蜗牛保护你
-		在水中时+1.5HP/s生命再生和增加10%召唤伤害
+		提升物品拾取范围
+		[c/{0}:钓鱼助手 - 召唤一只海蜗牛在你附近钓鱼]
+		[c/A2D6FF:当你站定钓鱼时，海蜗牛自动抛竿收杆]
+		[c/A2D6FF:海蜗牛继承玩家的钓鱼能力和属性]
 		'''
 }
 

@@ -150,9 +150,9 @@ FathomSwarmerBoots: {
 	DisplayName: 幻渊鱼群护胫
 	Tooltip:
 		'''
-		增加8%召唤伤害
+		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		使你获得游泳能力
-		浸没在液体中时增加40%移动速度
+		浸没在液体中时{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 
@@ -160,8 +160,8 @@ FathomSwarmerBreastplate: {
 	DisplayName: 幻渊鱼群胸甲
 	Tooltip:
 		'''
-		增加1仆从栏位
-		增加10%召唤伤害
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		降低深渊造成的防御削减效果
 		'''
 }
@@ -170,27 +170,28 @@ FathomSwarmerVisage: {
 	DisplayName: 幻渊鱼群面罩
 	Tooltip:
 		'''
-		增加1仆从栏位
-		增加8%召唤伤害
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		提供水下呼吸与照明效果
 		'''
 	SetBonus:
 		'''
-		增加10%召唤伤害和2仆从栏
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		获得爬墙的能力
-		浸没在液体中时增加20%召唤伤害，10点防御和+2.5HP/s生命再生
+		浸没在液体中时{$CommonItemTooltip.PercentIncreasedSummonDamage@2}，{3}点防御和+{4}HP/s生命再生
 		在深渊提供适量光照，并适度减少深渊中的氧气损耗	
 		'''
 }
 
 ForbiddenCirclet: {
 	DisplayName: 禁戒金箍
-	Tooltip: 增加10%召唤伤害和15%盗贼弹幕速度
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}和{$Common.RogueVelocity@1}"
 	SetBonus:
 		'''
-		增加40最大潜行值
-		按下{0}键在光标位置召唤一个远古风暴
-		远古风暴消耗{1}魔力值并受召唤伤害和盗贼伤害的加成
+		{$Common.RogueStealth}
+		按下{1}键在光标位置召唤一个远古风暴
+		远古风暴消耗{2}魔力值并受召唤伤害和盗贼伤害的加成
 		潜伏攻击会在命中的敌怪身上产生追踪的禁戒吞噬者
 		盗贼和召唤攻击会随着更高的加成而减少
 		手持盗贼武器时仆从造成的伤害不再降低
@@ -295,9 +296,8 @@ LunicCorpsBoots: {
 	DisplayName: 雷神之锤靴子
 	Tooltip:
 		'''
-		增加15%移动速度
-		增加5%远程暴击率
-		增加10%最大速度和加速度
+		增加{0}%远程暴击率
+		增加{1}%速度和加速度
 		'''
 }
 
@@ -305,31 +305,24 @@ LunicCorpsHelmet: {
 	DisplayName: 雷神之锤头盔
 	Tooltip:
 		'''
-		增加15%远程伤害
+		增加{0}%弓以外的远程伤害
 		给予夜视和生物探测效果
 		'''
 	SetBonus:
 		'''
-		“结束这场战争”
-		投影一个至多吸收50点伤害的泡泡护盾 {0}
-		受击后5秒护盾开始重新充能
-		重新从0到充满需要花费2秒
-		重新充能期间被击中会重置充能计时器
-		增加15%子弹伤害
-		增加15%特殊远程伤害
-		这是指发射器、飞镖枪和其他一切不发射子弹或弓箭的武器
-		增加20%跳跃速度
+		增加{0}%跳跃速度
+		[c/{1}:雷神之锤护盾 - 投影一个至多吸收{2}点伤害的泡泡护盾]{3}
+		[c/52CBDE:受击后{4}秒护盾开始重新充能]
+		[c/52CBDE:重新从0到充满需要花费{5}秒]
+		[c/52CBDE:重新充能期间被击中会重置充能计时器]
+		[c/9EA67F:“结束这场战争”]
 		'''
 	ShieldAdren: 如果护盾抵挡了所有伤害，则受击损失的肾上腺素减半
 }
 
 LunicCorpsVest: {
 	DisplayName: 雷神之锤胸甲
-	Tooltip:
-		'''
-		增加5%远程伤害
-		增加15%远程暴击率
-		'''
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}"
 }
 
 MolluskShelleggings: {

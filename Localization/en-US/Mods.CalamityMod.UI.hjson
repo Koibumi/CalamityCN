@@ -98,6 +98,8 @@ Cooldowns: {
 	BloodflareFrenzy: Blood Frenzy Cooldown
 	BloodflareRangedSet: Bloodflare Soul Cooldown
 	BrimflameFrenzy: Brimflame Frenzy Cooldown
+	BubblyBurrowActive: Bubbly Burrow
+	BubblyBurrowCooldown: Bubbly Burrow Cooldown
 	ChaosState: Teleportation Cooldown
 	DivineBless: Divine Bless Cooldown
 	DivingPlatesBreaking: Abyssal Diving Suit Plates Durability
@@ -145,6 +147,7 @@ Cooldowns: {
 	TarragonImmunity: Tarragon Immunity Cooldown
 	UniverseSplitter: Universe Splitter Cooldown
 	WarbanneroftheRighteousBuff: Warbanner Strength
+	WardingWave: Warding Wave Cooldown
 	WulfrumBastionActive: Power Armor Durability
 	WulfrumBastionCooldown: Wulfrum Bastion Cooldown
 	WulfrumRoverDriveDurability: Protective Matrix Durability
