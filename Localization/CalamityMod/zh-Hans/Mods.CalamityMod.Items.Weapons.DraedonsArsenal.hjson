@@ -1,77 +1,242 @@
 FrequencyManipulator: {
+	DisplayName: 变频器
+	Tooltip:
+		'''
+		旋转长矛然后扔出去
+		撞击时，矛会释放追踪能量体
+		潜伏攻击会使矛释放更多能量体并在撞击时爆炸
+		[c/1FFBFF:“一种很长的仪器，用来调谐……某些原始机器”]
+		'''
 }
 
 GalvanizingGlaive: {
+	DisplayName: 磁能分割刀
+	Tooltip:
+		'''
+		挥舞一支击中敌人后能将敌人困在电场中的矛
+		挥舞完毕后长矛会释放能量脉冲
+		[c/1FFBFF:“它作为工具最好的用途是能将一个东西迅速分割为两个]
+		[c/1FFBFF:这也是它被当做武器的原因”]
+		'''
 }
 
 GatlingLaser: {
+	DisplayName: 激光加特林
+	Tooltip:
+		'''
+		快速发射加速激光消灭敌人
+		[c/1FFBFF:“亚利姆舰队和基地防御部队配装的大型激光炮”]
+		'''
 }
 
 GaussDagger: {
+	DisplayName: 高斯短匕
+	Tooltip:
+		'''
+		切割敌人时会释放涡旋能量撕裂周围的敌人
+		打击敌人时会将敌人包裹在极具破坏性的磁场中
+		'''
 }
 
 GaussPistol: {
+	DisplayName: 高斯手枪
+	Tooltip:
+		'''
+		发射毁灭性的极强击退的高速冲击波
+		[c/1FFBFF:“尽管这把神秘的手枪看起来很平凡，但它却是难以置信地强力。]
+		[c/1FFBFF:魔法枪的优点之一是尺寸不等于威力。”]
+		'''
 }
 
 GaussRifle: {
+	DisplayName: 高斯来复枪
+	Tooltip: 发射毁灭性的荒谬击退的高速冲击波
 }
 
 HeavyLaserRifle: {
+	DisplayName: 重型激光步枪
+	Tooltip:
+		'''
+		发射一对极其精确的毁灭激光束
+		[c/1FFBFF:“尽管寻神者骑士通常是野蛮的，但并不是所有人都喜欢近身搏斗。]
+		[c/1FFBFF:因此，亚利姆个人要求我制造重型武器，尽管数量很少。”]
+		'''
 }
 
 HydraulicVoltCrasher: {
+	DisplayName: 液压伏冲器
+	Tooltip:
+		'''
+		一种带电的手提钻，在击中时能震慑附近的敌人
+		右键使用以避免破坏墙壁
+		[c/1FFBFF:“一种用电冲压金属板并瞬间熔化它们的设备。]
+		[c/1FFBFF:自然也能作为一把毁灭性武器。”]
+		'''
 }
 
 MatterModulator: {
+	DisplayName: 物质调谐器
+	Tooltip:
+		'''
+		发射不稳定物质，可以无限穿透敌怪但造成的伤害极低
+		撞击物块后物质能造成更多伤害但无法穿透
+		'''
 }
 
 MountedScanner: {
+	DisplayName: 架式扫射机
+	Tooltip: 在头顶召唤强大的扫描模块向附近的敌人发射激光
 }
 
 Phaseslayer: {
+	DisplayName: 相位剑
+	Tooltip:
+		'''
+		投影一把由光标控制的巨型光束剑
+		移动光标会挥舞巨剑并撕裂敌人
+		快速挥舞时造成更高伤害，同时额外释放剑气
+		低充能状态下，光束剑将会变小，杀伤力也会降低
+		'''
 }
 
 PlasmaCaster: {
+	DisplayName: 等离子液铸器
+	Tooltip:
+		'''
+		左键发射一道大型爆炸等离子束
+		右键启用过载模式，开火速度提升但精度降低
+		'''
 }
 
 PlasmaGrenade: {
+	DisplayName: 等离子手雷
+	Tooltip:
+		'''
+		扔出一个会在撞击敌人或物块时爆炸的手雷
+		潜伏攻击会使手雷在撞击时造成更加猛烈的汽化爆炸
+		“每个手雷中都封存着高度浓缩且炽热的等离子，小心使用”
+		'''
 }
 
 PoleWarper: {
+	DisplayName: 电极解离机
+	Tooltip:
+		'''
+		召唤一对互斥的磁铁无人机，无情的撕裂敌人
+		磁力装置，可以通过将敌人对立的两极强制分离来撕裂敌人
+		'''
 }
 
 PulseDragon: {
+	DisplayName: 脉冲龙链枷
+	Tooltip:
+		'''
+		挥舞两个龙首，龙首会释放电场
+		[c/1FFBFF:“亚利姆特别要求此武器以古代巨龙为模型。]
+		[c/1FFBFF:多么迂腐。”]
+		'''
 }
 
 PulsePistol: {
+	DisplayName: 脉冲手枪
+	Tooltip: 发射一道脉冲，击中敌人后会弧向附近的新目标
 }
 
 PulseRifle: {
+	DisplayName: 脉冲步枪
+	Tooltip:
+		'''
+		发射一束充能脉冲束，在命中时分裂成四枚高频脉冲球
+		脉冲球会迅速追踪附近目标，并且命中次数越多追踪速度越快
+		脉冲球击杀敌怪或造成伤害过低时不会消耗穿透次数
+		[c/1FFBFF:“我的私人武器，用来清除失败的创造物。]
+		[c/1FFBFF:我已经备份了原件被摧毁时的原型图。”]
+		'''
 }
 
 PulseTurretRemote: {
+	DisplayName: 脉冲炮塔遥控装置
+	Tooltip:
+		'''
+		召唤一个脉冲炮塔，用聚能脉冲消灭附近的敌人
+		同时只能存在至多一个脉冲炮塔
+		'''
 }
 
 SnakeEyes: {
+	DisplayName: 蛇眼
+	Tooltip:
+		'''
+		召唤一架悬空无人机发射穿透且高度校准的能量矢
+		如果能量矢击中敌怪，无人机会传送到能量矢的路径上并反弹能量矢
+		被反弹的能量矢会追踪并在接触敌怪时爆炸
+		[c/1FFBFF:“装备有高端的传感器，几乎无人可以避开它们。能逃脱它们目光的则更少了。]
+		[c/1FFBFF:在我基于视觉灵魂的动力机器实验和我最新的项目之间的一座优秀桥梁。”]
+		'''
 }
 
 StarSwallowerContainmentUnit: {
+	DisplayName: 噬星者控制元件
+	Tooltip:
+		'''
+		召唤一个生物力学青蛙，向敌人倾吐电浆
+		[c/1FFBFF:“这些简单的生物被机械化以自主运输等离子体。]
+		[c/1FFBFF:它们比普通的有机对应物更具服务性。”]
+		'''
 }
 
 SystemBane: {
+	DisplayName: 神经系统紊乱装置
+	Tooltip:
+		'''
+		丢出一个不稳定的设备，可吸附于地面上，同时用闪电电击周围的敌人
+		潜伏攻击会使设备释放大范围的伤害性电磁脉冲力场
+		'''
 }
 
 Taser: {
+	DisplayName: 泰瑟枪
+	Tooltip:
+		'''
+		发射会吸附在敌人身上的钩爪，在返回前持续电击敌人
+		一把缓慢，简单的电磁武器，只配给那些低等级的护卫
+		'''
 }
 
 TeslaCannon: {
+	DisplayName: 特斯拉巨炮
+	Tooltip:
+		'''
+		轻型能量炮，能发射出会爆炸的强电束
+		光束可以向附近的目标发射电弧
+		'''
 }
 
 TheAnomalysNanogun: {
+	DisplayName: 异象纳米枪
+	Tooltip:
+		'''
+		左键可以充能并快速发射5道离子光束
+		右键发射3颗裂变炸弹
+		“欢迎参加狂欢，老友”
+		'''
 }
 
 TrackingDisk: {
+	DisplayName: 逐影飞盘
+	Tooltip:
+		'''
+		扔出一个会向周围敌人发射激光的飞盘
+		飞盘在返回玩家时会获得额外的加速度
+		潜伏攻击会以更高的频率倾泻激光，激光攻击距离更远并且可以同时攻击多个目标
+		'''
 }
 
 WavePounder: {
+	DisplayName: 震波炸弹
+	Tooltip:
+		'''
+		扔出一颗会爆炸出强烈震荡波的炸弹
+		潜伏攻击会使炸弹释放出更为强劲的震荡波
+		'''
 }

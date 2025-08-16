@@ -1,3 +1,59 @@
 // Recipe Groups
 RecipeGroup: {
+	HardmodeAnvil: 任何 困难模式砧
+	HardmodeForge: 任何 困难模式熔炉
+	AnyLargeGem: 任何 大宝石
+	AnyFood: 任何 食物
+	AnyEvilBar: 任何 邪恶锭
+	AnyEvilPowder: 任何 邪恶粉末
+	Boss2Material: 任何 邪恶组织
+	CursedFlameIchor: 任何 困难模式邪恶成分
+	AnyEvilWater: 任何 邪水
+	AnyEvilFlask: 任何 邪恶药剂
+	AnyEvilBlock: 任何 邪恶物块
+	AnyGoodBlock: 任何 纯净方块
+	LunarPickaxe: 任何 夜明锭镐
+	LunarHamaxe: 任何 夜明锭锤斧
+	AnyQuiver: 任何 箭袋
+	AnyWings: 任何 翅膀
 }
+
+// Status
+WikiStatus1: "[i:Book] [c/EE4939:备注: Fandom wiki已经不再支持灾厄Mod。] [i:Book]"
+WikiStatus2: "[i:Book] [c/EE4939:官方灾厄维基][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [c/EE4939:灾厄中文维基][c/3989FF:calamity.huijiwiki.com][c/EE4939:!] [i:Book]"
+GimmeSwagPlushieCampaign: "[i:GreenPresent] [c/3BE022:犽戎玩偶现已开放预定！] [c/3989FF:calamitymod.com/plush] [i:GreenPresent]"
+// Recipe Conditions
+Tier1ArsenalRecipeCondition: 获得沉沦之海原型图
+Tier2ArsenalRecipeCondition: 破译小行星加密原型图
+Tier3ArsenalRecipeCondition: 破译丛林加密原型图
+Tier4ArsenalRecipeCondition: 破译地狱加密原型图
+Tier5ArsenalRecipeCondition: 破译雪原加密原型图
+SunkenSeaSchematicRecipeCondition: 背包中至少放置一次沉沦之海原型图
+PlanetoidSchematicRecipeCondition: 背包中至少放置一次小行星原型图
+JungleSchematicRecipeCondition: 背包中至少放置一次丛林原型图
+UnderworldSchematicRecipeCondition: 背包中至少放置一次地狱原型图
+IceSchematicRecipeCondition: 背包中至少放置一次雪原原型图
+// Other CombatText uses and Item Messages
+ShiftToExpand: 按住SHIFT键查看更多描述
+LearnedSchematic: 你学会了如何制作新的东西！
+CragmawVibeCheck: 感觉如何？
+AutocannonHot: 我焯！好烫！
+NoComputer: 未安装解密计算机
+ArkParry: 格挡！
+ClockworkTick: 嘀
+ClockworkTock: 嗒
+SevensJackpot: 正中彩头！！！
+SevensBust: 破产！
+SevensDoubles: 双倍！
+SevensTriples: 三倍！
+StylishHammerHit: 亻尔女子
+GenericConsumedText: "[c/8A8A8A:你已经使用过这个]"
+BloodOrangeText: 你已经吃了一个血橙了。再多吃你的血液会粘稠得无法流动。
+MiracleFruitText: 你已经吃了一个奇迹之果了。如果你再吃一个的话，就只能靠奇迹把你拼回来了
+ElderberryText: 你已经吃了一个旧神浆果了。你多吃一个身体会化为齑粉的。
+DragonfruitText: 你已经吃了一个龙果了。一身可容不下二龙。
+CometShardText: 你已经使用了一个彗星碎片。再用一个的话神经元会坏死的。
+EtherealCoreText: 你已经使用一个飘渺之核了。再用的话会让你的脑子离你而去。
+PhantomHeartText: 你已经使用一个幻影之心了。它们低语告诉你再用一个是个坏主意。
+SulphurSwitchLeft: 硫磺海现在位于世界左侧。
+SulphurSwitchRight: 硫磺海现在位于世界右侧。

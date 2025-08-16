@@ -1,62 +1,184 @@
 AstralSolution: {
+	DisplayName: Astral Solution
+	Tooltip:
+		'''
+		Used by the Clentaminator
+		Spreads the Astral Infection
+		'''
 }
 
 BloodfireArrow: {
+	DisplayName: Bloodfire Arrow
+	Tooltip:
+		'''
+		High-velocity arrows with a blood soaked tip
+		Firing these arrows will drain your health
+		Accelerates your natural life regen and heals you on hit
+		'''
 }
 
 BloodfireBullet: {
+	DisplayName: Bloodfire Bullet
+	Tooltip:
+		'''
+		Passes through tiles and accelerates your natural life regen on hit
+		Deals bonus damage based on your current life regen and natural life regen
+		This damage caps at 35
+		'''
 }
 
 BloodRune: {
+	DisplayName: Blood Rune
+	Tooltip:
+		'''
+		Used with the Ice Barrage 
+		Found in some sort of runic landscape
+		'''
 }
 
 BubonicRound: {
+	DisplayName: Bubonic Round
+	Tooltip:
+		'''
+		Spreads the plague on hit
+		Ignores 10% of enemy defense
+		'''
 }
 
 CinderArrow: {
-}
-
-ElysianArrow: {
-}
-
-FlashRound: {
-}
-
-GodSlayerSlug: {
-}
-
-HallowPointRound: {
-}
-
-HolyFireBullet: {
-}
-
-HailstormBullet: {
-}
-
-HyperiusBullet: {
-}
-
-IcicleArrow: {
-}
-
-MarksmanRound: {
-}
-
-MortarRound: {
-}
-
-RubberMortarRound: {
-}
-
-SproutingArrow: {
+	DisplayName: Cinder Arrow
+	Tooltip: Explosive arrows that burst into weak flaming shards that inflict Brimstone Flames
 }
 
 DryadsTear: {
+	DisplayName: Dryad's Tear
+	Tooltip: Splits into homing nature shards on impact which ignore enemy defense
+}
+
+ElysianArrow: {
+	DisplayName: Elysian Arrow
+	Tooltip:
+		'''
+		Arrows carrying profaned energy
+		Summons purifying light from above and below on impact
+		'''
+}
+
+FlashRound: {
+	DisplayName: Flash Round
+	Tooltip: Gives off a concussive blast that confuses enemies in a large area for a short time
+}
+
+GodSlayerSlug: {
+	DisplayName: God Slayer Slug
+	Tooltip:
+		'''
+		Heavy ammunition with unlimited piercing that tears through spacetime
+		After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,
+		it warps backwards through space and supercharges, exploding on impact
+		'''
+}
+
+HallowPointRound: {
+	DisplayName: Hallow-Point Round
+	Tooltip:
+		'''
+		Gallant light deals 6 bonus damage on hit
+		This effect does not occur if the bullets are converted by special guns
+		'''
+}
+
+HolyFireBullet: {
+	DisplayName: Holy Fire Bullet
+	Tooltip:
+		'''
+		Explosive holy bullets
+		Explosions are larger right when the bullets are fired
+		'''
+}
+
+HailstormBullet: {
+	DisplayName: Hailstorm Bullet
+	Tooltip:
+		'''
+		Bullets imbued with potent ice magic
+		These bullets rapidly decelerate after being fired
+		Critical hits cause a flash freeze, dealing additional damage and freezing normal enemies
+		'''
+}
+
+HyperiusBullet: {
+	DisplayName: Hyperius Bullet
+	Tooltip:
+		'''
+		Powerful multicolor bullets
+		Bullets split into swirling lights on impact
+		'''
+}
+
+IcicleArrow: {
+	DisplayName: Icicle Arrow
+	Tooltip:
+		'''
+		Ice arrows with an enchanted tip
+		These arrows quickly freeze into falling icicles that deal increased damage
+		Hitting enemies or tiles before being frozen causes the arrow to fly upwards
+		'''
+}
+
+MarksmanRound: {
+	DisplayName: Marksman Round
+	Tooltip:
+		'''
+		A carefully crafted round which can be ricocheted off of midair coins
+		This allows other guns to utilize the coins tossed by Crackshot Colt and Midas Prime
+		'''
+}
+
+MortarRound: {
+	DisplayName: Mortar Round
+	Tooltip:
+		'''
+		Specialized high explosive rounds with a large blast radius
+		Will destroy tiles
+		Used by normal guns
+		'''
+}
+
+RubberMortarRound: {
+	DisplayName: Rubber Mortar Round
+	Tooltip:
+		'''
+		Specialized high explosive rounds with a large blast radius
+		Will destroy tiles on each bounce
+		Used by normal guns
+		'''
+}
+
+SproutingArrow: {
+	DisplayName: Sprouting Arrow
+	Tooltip:
+		'''
+		Fires an energy arrow that quickly splits into two arrows
+		These arrows ignore 8 points of defense
+		'''
 }
 
 VanquisherArrow: {
+	DisplayName: Vanquisher Arrow
+	Tooltip:
+		'''
+		Powerful arrows forged with cosmic steel
+		Pierces through tiles and homes in on enemies
+		'''
 }
 
 VeriumBolt: {
+	DisplayName: Verium Bolt
+	Tooltip:
+		'''
+		Marks enemies on hit, dealing extra damage after a short time
+		This damage stacks based on how many bolts hit the enemy
+		'There is no escape...'
+		'''
 }

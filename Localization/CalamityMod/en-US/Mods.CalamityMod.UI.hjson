@@ -1,112 +1,617 @@
+SmallWorldWarning: "[c/FF0000:SMALL WORLDS NOT SUPPORTED BY CALAMITY]"
+// Main UI Elements
+Adrenaline: Adrenaline
+Nanomachines: Nanomachines
+Rage: Rage
+Flight: "{0} Flight Remaining"
+Charge: Current Charge
+DefenseDamage: Defense Damage
+SulphurousWater: Sulphuric Poisoning
+Stealth: Stealth
+StealthShiftText: Hold SHIFT for more information on Rogue stealth
+StealthInfoText:
+	'''
+	Rogue stealth builds while not attacking and slower while moving
+	Once you have built max stealth, you will be able to perform a Stealth Strike
+	Rogue stealth only reduces when you attack, it does not reduce while moving
+	The higher your rogue stealth the higher your rogue damage and crit
+	Having more stealth regeneration slightly decreases the damage bonus from stealth
+	This is offset by you being able to use stealth strikes far more often
+	'''
+// Difficulty UI
+DifficultyStatusText: "{0} is {1}."
+ModeAppend: " Mode"
+Active: Active
+NotActive: Not active
+DifficultyShiftText: "[c/737373:Hold the 'Shift' key for more information]"
+CurrentlySelected: Currently Selected : {0}
+DifficultyClickText: "[c/919191:Click to select a difficulty mode]"
+ExpertDifficultyLock: "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]"
+ChangingTheRules: "[c/919191:You cannot change the rules now!]"
+NoDifficulty: None
+NoDifficultyInfo: The classic Terraria experience, with no Calamity difficulty changes
+Revengeance: Revengeance
+RevMaster: Rev+Master
+RevLegend: Rev+Legend
+RevengeanceEnabled: Revengeance Mode is enabled
+RevengeanceShortInfo: "[c/F54254:The intended Calamity experience!]"
+RevengeanceExpandedInfo:
+	'''
+	[c/B55362:Enables the] [c/85FFE9:Adrenaline] [c/B55362:mechanic. You gain Adrenaline while fighting bosses. Getting hit drops Adrenaline back to 0]
+	[c/B55362:    When Adrenaline is maxed, press] {1} [c/B55362:for a large damage boost]
+	[c/B55362:Enables the] [c/FF8B54:Rage] [c/B55362:mechanic. You gain Rage when in proximity of enemies or by using certain items]
+	[c/B55362:    When Rage is maxed, press] {0} [c/B55362:for a temporary damage boost]
+	[c/B55362:Most foes have higher stats and more aggressive AIs]
+	[c/B55362:Bosses have new AI mechanics, new phases, and will drop Master Mode loot. Enemies spawn more frequently]
+	[c/F7342A:This mode is more difficult than Expert. Be sure to prepare for the challenge]
+	'''
+RevengeanceActivate: Revengeance is active.
+RevengeanceDeactivate: Revengeance is not active.
+Death: Death
+DeathMaster: Death+Master
+DeathLegend: Death+Legend
+DeathEnabled: Death Mode is enabled
+DeathShortInfo: "[c/C82DF7:A tougher challenge for the more experienced, or for those that want a step up from Revengeance Mode]"
+DeathExpandedInfo:
+	'''
+	[c/B834E0:All foes will pose a much larger threat with highly aggressive AIs and increased damage]
+	[c/B834E0:Bosses have substantially harder AI changes. Enemies are even more numerous and can easily overwhelm you]
+	[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous]
+	[c/E945FF:Vigilance and tenacity are crucial to survival]
+	'''
+DeathActivate: Death is active; enjoy the fun.
+DeathDeactivate: Death is not active; not fun enough for you?
+// Calamity Health Bar
+ExoTwinsNameNormal: XS-01 Artemis and XS-03 Apollo
+ExoTwinsNameHekate: Eyes of XB-∞ Hekate
+ExtensionDisplay: ({0} left: {1})
+
 ExtensionName: {
+	Segments: Segments
+	Creepers: Creepers
+	Hands: Hands
+	Arms: Arms
+	Guns: Guns
+	Cannons: Cannons
+	DarkEnergy: Dark Energy
+	BodyParts: Body Parts
 }
 
 // Cooldowns
 Cooldowns: {
+	AquaticHeartIceShield: Ice Shield Cooldown
+	AscendEffect: Ascension Cooldown
+	BloodflareFrenzy: Blood Frenzy Cooldown
+	BloodflareRangedSet: Bloodflare Soul Cooldown
+	BrimflameFrenzy: Brimflame Frenzy Cooldown
+	ChaosState: Teleportation Cooldown
+	CounterScarf: Scarf Cooldown
+	DivineBless: Divine Bless Cooldown
+	DivingPlatesBreaking: Abyssal Diving Suit Plates Durability
+	DivingPlatesBroken: Abyssal Diving Suit Broken Plates
+	ParryCooldown: Parry Ability Cooldown
+	EvasionScarf: Scarf Cooldown
+	FleshTotem: Contact Damage Halving Cooldown
+	GaelsRage: Gael's Greatsword Rage Cooldown
+	GlobalDodge: Dodge Cooldown
+	GodSlayerDash: God Slayer Dash Cooldown
+	InkBomb: Ink Bomb Cooldown
+	LifeSteal: Life Steal Cooldown
+	LionHeartShield: Energy Shell Cooldown
+	MasterChefShieldDurability: MJOLNIR Shield Level
+	MasterChefShieldRecharge: MJOLNIR Shield Recharge
+	NebulousCore: Nebulous Core Cooldown
+	OldDukeScalesFatigue: Stamina
+	OmegaBlueActive: Abyssal Madness
+	OmegaBlueCooldown: Abyssal Madness Cooldown
+	PermafrostConcoction: Permafrost's Concoction Cooldown
+	PlagueBlackout: Plague Blackout Cooldown
+	PotionSickness: Healing Cooldown
+	PrismaticLaser: Prismatic Laser Barrage Cooldown
+	ProfanedSoulShieldDurability: Profaned Soul Shield Durability
+	ProfanedSoulShieldRecharge: Profaned Soul Shield Recharge
+	RelicOfResilience: Relic of Resilience Cooldown
+	RogueBooster: Rogue Booster Cooldown
+	SandCloak: Sand Cloak Cooldown
+	SandsmokeBombActive: Sandsmoke Bomb Duration
+	SandsmokeBombCooldown: Sandsmoke Bomb Cooldown
+	SilvaRevive: Silva Revive Cooldown
+	SpeedBlasterBoost: Speed Blaster Boost
+	SpongeDurability: Sponge Barrier Durability
+	SpongeRecharge: Sponge Barrier Recharge
+	SuperradiantSawBoost: Superradiant Saw Boost
+	TarragonCloak: Tarragon Cloak Cooldown
+	TarragonImmunity: Tarragon Immunity Cooldown
+	UniverseSplitter: Universe Splitter Cooldown
+	WulfrumBastionActive: Power Armor Durability
+	WulfrumBastionCooldown: Wulfrum Bastion Cooldown
+	WulfrumRoverDriveDurability: Protective Matrix Durability
+	WulfrumRoverDriveRecharge: Protective Matrix Recharge
 }
+
+// Enchantment + Draedon UI
+Cost: "Cost: "
+// Draedon UI
+Contact: Contact
+Summon: Summon
+Evoke: Evoke
+Exit: Exit
+Communicate: Communicate
+ConfirmationText: Are you sure?
+UpgradesRequired: Encryption unsolveable: Upgrades required.
+ThanatosIcon: Thanatos, a serpentine terror with impervious armor and innumerable laser turrets.
+AresIcon: Ares, a heavyweight, diabolical monstrosity with four Exo superweapons.
+ArtemisApolloIcon: Artemis and Apollo, a pair of extremely persistent automatons with unstable energy reserves.
 
 // Debuff System
 DebuffSystem: {
+	Title: Debuff Resistances
+	Description:
+		'''
+		NPCs take 2x damage from vulnerable debuff types,
+		and 0.5x damage from resisted debuff types
+		'''
+	Heat: Heat
+	Cold: Cold
+	Sickness: Sickness
+	Water: Water
+	Electricity: Electricity
+	To: to
+	Weak: Weak
+	Neutral: Neutral
+	Resistant: Resistant
 }
 
 // Draedon Contact UI. Repeated newlines indicate pauses in Draedon's speaking. As a result, newline characters may be explicitly defined.
 // The code that interprets these strings will transform them.
+CommunicationStartInitial: ...
+CommunicationStartNoForge: Craft something using my Forge, then return.
+CommunicationStartNormal: State your inquiry.
+
 Communication: {
 	WhoAreYou: {
+		Inquiry: Introduction
+		Response:
+			'''
+			I assumed that you would attempt to contact me again. Though I am normally not one for conversation, I remain quite intrigued by you.\n
+
+			So, I will make an exception, on one condition: I must know that my words will not be wasted on you. To prove this, you must create something from exotechnology.\n
+
+			I realize that the odds of you replicating exotechnology within your lifetime are slim. For this reason, among many others, I will upload blueprints for a copy of my forge to your "Code Breaker". With it, only your imagination will limit what you can create.\n
+
+			If you complete this task, we will discuss further.
+			'''
 	}
 
 	WhoAreYouPart2: {
+		Inquiry: Task Complete
+		Response:
+			'''
+			Excellent. I gather that you have successfully taken advantage of the Exo Prisms. Before you waste your breath asking me how I know, Exo Prisms, along with many other parts of my machines, have tracking devices embedded within. This is to monitor my creations via my personal computer.\n
+
+			Now that I know you will likely pay attention to what I have to say, I assume you have many questions. Ask, and I shall answer to the best of my ability.
+			'''
 	}
 
 	Origins: {
+		Inquiry: Your Origins
+		Response:
+			'''
+			My first memories are that of awakening in a distant laboratory on the date of 11.19.1227, well over six centuries ago. Surrounded by nothing but a vast taiga, I was accompanied by only one other thing: a dead organic.\n
+
+			Presumably, I was created by what I assume to be the laboratory's former inhabitant, though I am unsure how they accomplished such a feat. From what I gathered, they were quite the prestigious inventor, not unlike I. Several gadgets assumedly of their own making were attached to their body, and the equipment in the lab was more advanced than any I found elsewhere in the world.\n
+
+			I have no recollection of events prior to my activation, but from the start, I knew what my goal was: creation and scientific advancement. Many years were spent optimizing and building upon both the laboratory and myself to assure constant progress.\n
+
+			At the date of 7.30.1385, expansion of the laboratory became impractical. Thus, I chose to instead expand my horizons. I sent hundreds of remotely-piloted scoutbots to thoroughly survey the continent, ignorant of the attention such an endeavor would draw when not properly prepared.\n
+
+			In the following years, legends and rumors began to spread in nearby cities. Many spoke of encounters with roaming creatures made not of flesh and blood, but steel and oil. Scholars attempted to study my machines. Some explorers even followed my creations back to one of my several recon bodies.\n
+
+			However, as the years passed, I became adept at carrying out such operations in a subtler manner. Slowly but surely, stories about my machines became rare. By the year 1421, my creations and I became nothing more than myth until the Crusade began.
+			'''
 	}
 
 	Crusade: {
+		Inquiry: Role in the Crusade
+		Response:
+			'''
+			While the Crusade is widely considered to have begun on the date of 6.19.1781 with Yharon's rebirth, I took no part in it until 4.23.1803. Upon joining, I was chosen to lead the science and engineering divisions. While I was given freedom over which projects I chose and how I pursued them, it was expected that anything I made would be beneficial to the war effort.\n
+
+			Boosting the efficiency of mining operations was my first major contribution to Yharim's campaign, being essential to any further development. I learned how to mass produce the first generation of Excavators to expand mining operations outside of Azafure, and then used similar mass-producible technology to create arms and armaments that far outclassed our enemies'. Many simply dubbed this equipment "The Arsenal".\n
+
+			Throughout the Crusade, I also created widespread surveillance systems, using knowledge gained from my original survey of the continent I was activated on. Soon, my vigil over Yharim's rapidly expanding territory was absolute, and my knowledge of his adversaries grew. There were few nations I knew not the weakness of, and fewer still that knew our own.\n
+
+			However, what I am most notorious for are my hulking machines of war. I am certain that you are familiar with them. Though Yharim was almost sycophantic in his praise of my results, even if he sometimes questioned my methods, our time together came to an abrupt end after he learned of the Plaguebringer Goliath. Regrettably, this event left a sizable hole in my laboratory. No longer subject to his restrictions, my work on cloning the Witch and creating exotechnology began.\n
+
+			My role in the Crusade summarily ended; I do not consider the later inclusion of exotechnology into Yharim's armor a formal part of my work under him. Yharim's knights and other troops continued to use my "Arsenal" in their military efforts, but I no longer oversaw their research or production.\n
+
+			The Crusade did not obstruct or interfere with my core objective of creation and scientific advancement; rather, it simply redirected my focus. Through it, I gained novel insights and reached heights I would not have reached without playing a part in it. I appreciate having had the opportunity to work with some of the greatest organic minds of the time, and I hope those that are still alive will bring progress to a plethora of fields I have yet to explore.
+			'''
 	}
 
 	Goals: {
+		Inquiry: Your Goals
+		Response:
+			'''
+			My goal has been and always will be the advancement of science and technology. I will continue until I am eliminated or I reach the universe's scientific ceiling. Even if I have shattered limits before, there is bound to be a point at which nothing more can be done to advance. I find it unlikely I will ever reach this point.\n
+
+			You may have intended to ask of more specific long-term objectives. I currently aim to observe the world with a far more open mind than I once had, so that I may find further inspiration for new works. Even long after my activation and after meticulously surveying large portions of Terraria, there is much that I still do not comprehend.\n
+
+			Once I have a firm grasp of the vast majority of this world's workings, I will focus my study on the Astral Infection's effects in hopes of finding a way to negate them permanently. When present on a planet, one simply could use a Clentaminator and the correct solution to remove the Astral Infection. In the vacuum of space, however, it makes for an irksome and tenacious obstacle. Ventures beyond Terraria would require preparation and appropriate countermeasures.\n
+
+			In contrast, I will present a short-term goal: I wish to begin harvesting minerals from this world's moon. With the husk of the cosmic titan culled, I plan to begin experiments with wireless spatial linkage. The teleporters you are familiar with must be wired and are thus unsuitable for interplanetary distances. Scalable logistical means for instantaneous transport will be paramount in harvesting and ferrying materials beyond Terraria when this world becomes unsuitable for my needs. To be clear, I do not wish to see this world devastated and have no intentions of ruining it.
+			'''
 	}
 
 	ExoMechs: {
+		Inquiry: The Exo Mechanical Trio
+		Response:
+			'''
+			The zenith of my craft. The culmination of all I have ever accomplished. The result of over six hundred sixty years of research and scientific advancement. They are my magnum opus; a work of art. Simply calling them war machines would be an insult not just to me, but to them.\n
+
+			Ares was the first to begin construction. Its early models, XF-00 through XF-05, were developed primarily to find the most efficient combination of weapons for it to wield. While some were more deadly in and of themselves, particularly those featuring projected hard-light melee peripherals in place of its laser and plasma cannons, it was clear that they did not synergize well with their brethren. Its current arms maximize its threat level when deployed alongside them.\n
+
+			The second to be drafted was Thanatos. I took advantage of the size of the chassis and potent propulsion systems to add nigh impenetrable armor and innumerable pulsed laser turrets. Few would be capable of learning its weakness before meeting their demise.\n
+
+			I forged its armor using a process inspired by how Silva created Braelor's axe: by using particle jets to slowly and carefully fuse many elements together into a nanocomposite, the invincible armor organically "grows" over Thanatos' structure like a chrysalis. Regrettably, the plating's immense weight makes Thanatos notably slower than its siblings.\n
+
+			When designing the third, Apollo, my goal was to downscale significantly; to make something powerful, yet compact. Reviewing the most compact forms of destructive potential I knew, I elected to simulate the Witch's flames.\n
+
+			Apollo's searing exoplasma is fueled by unstable nanomachines that constantly shed a deluge of ultra high energy particles. This both heats the plasma to incredible temperatures and causes radiation burns of a severity on par with those inflicted by the Witch. The craft had little capability beyond its nanomachine plasma projector, but there was no worry. Apollo was never meant to fight alone.\n
+
+			The final to begin construction was Artemis. Rather than being founded on raw power, it was made to be the apex of speed and accuracy. There is elegance in simplicity, for all of Artemis' combat efficacy comes from an onboard predictive AI and a battery of hard-light bolt emitters.\n
+
+			It was the perfect partner to its twin and required only a single revision. Organic beings are naturally inclined to fixate their senses on fire, presenting Artemis with the perfect opportunity to strike with unparalleled precision.
+			'''
 	}
 
 	Exotech: {
+		Inquiry: What is Exotech?
+		Response:
+			'''
+			Exotechnology is my greatest scientific advancement, unlocking a new echelon of potential in my machinery. The iteration you are most familiar with, the Exo Prisms, took a great deal of time to perfect. My focused efforts on this power source have been met with immense reward, one that has yet to be fully realized.\n
+
+			The basis of exotechnology stems from my own neural interface, which serves as a synthetic replacement for the brain cells of organic life. Exotechnology is predicated on a modular implementation of this synthetic intelligence, which enables communication and interfacing with any conceivable form of technology. Instructions and information are processed at lightspeed in a distributed fashion, not unlike a cerebral network taken to its theoretical extreme.\n
+
+			Peerless computation density does not come without a price. My prototype models consumed absurd amounts of energy and could not be meaningfully integrated into any system without a limitless source of power. After experimentation with a plethora of different candidates failed to bring results, I chose to approach the problem of limitless power more directly.\n
+
+			The Ilmeran crystals that you know as "Sea Prisms" are self-illuminating and provide a weak electric charge indefinitely, even when tapped by circuitry. Etching the crystals with conduction pathways at the molecular level and providing an initial energy impulse, not unlike igniting a newborn star, transforms them into a facsimile of the Exo Prisms you are familiar with.\n
+
+			Exo Prisms emit a self-sustaining resonance of particles that is unlike any other phenomena I have observed. I dubbed this Exotic Resonance, and it is the breakthrough that the rest of exotechnology is named for. Exotic resonance remains present no matter how much energy is drawn from it, amplifying the intrinsic properties of the Sea Prisms far beyond my expectations. The sheer abundance of energy produced via exotic resonance allows a sufficient quantity of Exo Prisms to power any device, no matter the size or complexity.\n
+
+			You will find my modern Exo Prisms easy to work with when using my forge, and should have no issues using their power to vastly enhance your armaments. If you are concerned about my harvesting of Sea Prisms from Ilmeris, do remember that you found the largest ever cohesive gem unharmed in my laboratory. Artificially growing equivalent crystals allows me to manufacture pure, flawless Exo Prisms en masse, which provide much more stable power output. I have no need to strip mine the sea kingdom to meet my exponentially rising energy budget.
+			'''
 	}
 
 	MiracleMatter: {
+		Inquiry: Miracle Matter
+		Response:
+			'''
+			Is that really what you have chosen to name it? How nonsensical. There is nothing miraculous about what you hold in your hands; it is the culmination of decades of research and a testament to the truly unlimited potential of science. Though, as you were the one to be able to stabilize it, I will begrudgingly refer to it as that.\n
+
+			The particles contained within Exotic Resonance are capable of breaking down nearby matter when exposed to enough external energy. You have already experienced this phenomenon whilst fighting against my machines. The power surges from the ongoing battle caused some of the Exo Prisms within to actuate, melting down some of the internal components into an unstable slurry of this so-called Miracle Matter. The altered resonance enhanced their attacks with a prismatic blight that disintegrates anything, organic or otherwise.\n
+
+			The various materials that you exposed to the exotic particles melded together in such a perfect way to create a stable substance. Harnessing the combined force of draconic wrath, the life essence of the planet, energies and spirits alike, and the strength of the cosmos, what you now possess has limitless potential.\n
+
+			Hypothetically, your stabilized Miracle Matter should be able to unmake some of your weaponry and reshape their essence into something infinitely more destructive, capable of annihilating any obstacle in your path.
+			'''
 	}
 
 	Forge: {
+		Inquiry: Your Forge
+		Response:
+			'''
+			I mentioned the first time we communicated through your "Code Breaker" that I had other reasons for giving you the blueprints for this forge. Notably, I wish for you and Yharim to be on even footing when you inevitably clash. There are three primary reasons for this.\n
+
+			Firstly, I wish to witness such a battle. Secondly, you are far too valuable for me to allow you to throw away your life in combat with the Godseeker. Thirdly and most importantly, I am interested in how society as a whole would react to the Godseeker's defeat. Such a scenario is not easily replicable, nor do I expect another appropriate challenger to rise before his natural passing.\n
+
+			Providing access to my forge is how I am assisting you in reaching the heights of power Yharim possesses. Though you are surely aware of how to utilize it by now, you may benefit from understanding the minutiae of its inner workings.\n
+
+			The forge's core mechanisms operate upon both the raw energy output and connective properties of Exo Prisms. The exoparticles physically dissociate a multitude of other potent crafting stations, letting them all exist and function simultaneously in the same enclosure. From there, the embedded exotechnology allows them to work collectively as one workshop, providing a single interface for the entire forge. The blueprints for the exterior structure are embedded in the prisms. You need only provide the requisite materials.\n
+
+			Once fully constructed, the Exotic Resonance field containing the superimposed workstations is controlled by a computation matrix which comes preinstalled with all my data on the fundamental building blocks of our universe. Using the universal compatibility of exotechnology, my forge can interface with and disassemble any kind of matter you present to it, and output any desired result.
+			'''
 	}
 
 	Yharim: {
+		Inquiry: Yharim
+		Response:
+			'''
+			The Godseeker. He once fascinated me nearly as much as you now do, both of you being unpredictable catalysts of a new era. I first heard word of him and the Crusade via scoutbot reports twenty-two years after the crusades began. While the rumors about Yharim himself and his war plans to conquer a city on the continent I was on intrigued me, another rumor demanded my full attention. Supposedly, he was accompanied by the Auric dragon that was the catalyst for the Auric dragons' rebirth.\n
+
+			I saw this as an opportunity that could not be missed. I modified a scoutbot to enable two-way communication and dispatched it to the city that was supposedly Yharim's target. I had expected it to arrive while the city was still under siege to have an edge in negotiations, but by the time my machine arrived, the city had fallen a week prior. Such military might was beyond anything I had deemed possible at the time. It was then the Godseeker interested me just as much as the Auric dragon did.\n
+
+			Yharim was a very distinctive figure even then and it was not difficult to locate him. I found him in a charred street directing the cleanup effort. After he spotted my reconnaissance drone unexpectedly, we had a tense but brief negotiation. I discovered he had a passion for military history, as he quickly deduced that I was the source of the mysterious beings of steel and oil from centuries past. Despite the initial tension, I found him receptive to my offers after his realization. Perhaps he viewed me akin to a mythical force of nature not allied with the gods.\n
+
+			I explained our mutual situations from my perspective. I desired to create and progress, but was limited by a lack of safety. Yharim commanded a formidable army, but his great ambition could not be fulfilled unless he had an edge over his adversaries that could not be matched.\n
+
+			My proposal was a simple one. I would join his forces and focus my research onto assets that would benefit his campaign. In return, Yharim would see to my protection and provide me ample resources to pursue my work. The Godseeker was initially skeptical, but accepted after I showed him various examples of my technology. I was soon moved to the heart of Yharim's empire and made his lead engineer and scientist. While we had many disagreements that would eventually result in us parting ways, we came to a vague understanding.\n
+
+			Though I was disappointed that I had little chance to study Yharon given he was what initially drew me to Yharim, I would be presented with many other opportunities throughout the next seventy-two years: the Archmage's magic, the Devourer's realm, and the Witch's power were the most notable. The Crusade taught me that I progressed faster with external aid, even if it only served as inspiration.\n
+
+			My last interaction with Yharim was not even a year before I first observed you. He had come to me some months after his nearly fatal encounter with Braelor and Statis and requested that I enhance his Auric armor with my newly-invented exotechnology. We spoke little before he departed to the Dragon Aerie, and I believe him to still be there.
+			'''
 	}
 
 	Aerie: {
+		Inquiry: Dragon Aerie
+		Response:
+			'''
+			My knowledge of the Dragon Aerie is limited. Yharim is adamant in protecting it. In recent history, only he and Yharon have trod there, and neither were inclined to share details about it.\n
+
+			Even if I dared to evoke Yharim's wrath, I cannot survey the Aerie. My attempts at locating it have been fruitless despite having surveyed this world's surface and skies many times over. Perhaps it avoids observation, as per some manner of cloaking. It is also possible it simply exists outside of conventional space, in a pocket dimension of sorts. Either case would make detecting it via my current methods drastically more difficult.\n
+
+			What I do know is that the Dragon Aerie is an unusually large sky island that acted as the sacred home of the Auric dragons. Few others were ever allowed to tread there, as a sort of religious sanctuary or holy ground.\n
+
+			It is also where Auric dragons would be laid to rest in preparation for their revival by Yharon. As their revival on the Aerie was a commonly accepted fact even at the start of recorded history, the sky island must be at least 2,000 years old, with Yharon himself being a similar age.\n
+
+			Considering the extraordinary power of the Auric dragons and the sanctity of the Dragon Aerie, I am left to ponder: did the Aerie make the Auric dragons powerful, or is the Aerie inundated with power due to their extended presence? Perhaps more importantly, what made them leave the safety of the Aerie even as their kind were being slain? I eagerly await the uncovering of such mysteries.
+			'''
 	}
 
 	Calamitas: {
+		Inquiry: The Brimstone Witch
+		Response:
+			'''
+			The Witch was an unexpected ally in the final stages of the Crusade. For most of the campaign, I was undoubtedly Yharim's greatest asset, but that changed when she arrived. Her flames burned hotter than my most powerful furnace, and her desire to torch the Godseeker's enemies surpassed even my passion for creation.\n
+
+			The Archmage was firmly opposed to her fighting, though Yharim would often send her on covert missions while Permafrost attended to other matters. Between these excursions, however, he attempted to act as a guardian and teach the young Witch how to control her magic. These sessions were the most perplexing and simultaneously the most fascinating portions to observe.\n
+
+			Calamitas was shown to only have a slightly above average grasp on the principles of magic, being unable to cast complex spells without them overloading and bursting into flame. Yet when wielding the brimstone fires of the underworld, she commanded power that rivaled Yharim's. My surveillance over Azafure never signaled anyone who lived there having such power, and a mere child certainly could not hide it. Furthermore, she was no goddess, or Yharim would have slain her at any cost.\n
+
+			I therefore hypothesized that she was not born with this power. After combing the archives for records of similar magics, I eventually traced it back to the Brimstone Elemental herself. The arcane signatures were nigh identical, with a few key differences.\n
+
+			After the Incineration, however, my research came to an abrupt and unplanned end. The Archmage had already chosen to desert Yharim, and Calamitas followed in his footsteps shortly thereafter. It was then I would get my final official order from Yharim: replicate the Witch's power. My focus at the time was the Plague, so initially I made minimal progress. Soon after, the Godseeker and I went our separate ways.\n
+
+			Some years later, even without Yharim to order me, I returned to the project in an attempt to create a flame that burned hot enough for an early prototype of my forge. In order to directly replicate her power, I began work on making a clone of the witch made from traces of her DNA I had gathered over the years. Though the clone was a technical success, it showed no signs of being able to wield Calamitas' signature magic.\n
+
+			While this did prove that the Witch's power was not natural, I had no means of tracking its source. Soon after the project's underwhelming conclusion, security reports indicated that Calamitas herself broke into the laboratory that the clone was stored in and released it. Interestingly, it became capable of wielding a tiny fraction of her very own brimstone magic soon after. To this day, I ponder the implications of these events.
+			'''
 	}
 
 	Dog: {
+		Inquiry: The Devourer of Gods
+		Response:
+			'''
+			No being I have seen is as enigmatic as the Nameless Serpent. Nothing in our world even vaguely resembled his body structure, genome, or phylogenetic tree. I began many studies on his nature, all of which quickly failed for lack of a familiar aspect to make comparisons to. Even his basic biological functions proved to be near-incomprehensible.\n
+
+			It did not help that many of his claims about himself were unfounded. Creating such a stable portal like the one in the Dungeon is a particularly absurd example, as none of his portals have ever been so stable even with my aid.\n
+
+			Some number of years after the Serpent joined Yharim's forces, an even more confusing addition to the equation was detected: the other, smaller serpent that you refer to as the Storm Weaver. You may have heard the claim that it is of the same species as the Devourer. Any level of in-depth inspection reveals that to be false.\n
+
+			Setting aside the similar body shape, basic x-rays proved that their endoskeletons were entirely different, and the difference in size tells all else needed. In fact, from what little I have grasped about both Serpents' biology, the Storm Weaver may have been older than the Devourer despite the sheer difference in power and size. However, I am not confident enough in this conjecture to state it as fact.\n
+
+			Despite my issues with the Serpent, his assistance on the battlefield and with resource acquisition was welcome. One of the few unquestionable truths about him was the grandeur of his title. I still make use of smelted Cosmilite to this day in numerous applications, and I utilize the raw material as a metallurgical component of various alloys such as the Exo Mechanical Trio's plating.\n
+
+			Yet the most profound mystery remains: the means via which the Devourer's body processed or disposed of godly essence. The energy is not absorbed or entirely converted, but scans for traces of the essence showed that it was not stored inside him for other purposes. All signs indicated that godly essence simply vanished shortly after he consumed it.\n
+
+			Unless he blatantly defied the laws of thermodynamics, which is most unlikely, the mass-energy must have been transferred elsewhere. Where to, I am not sure. I doubt this matter will ever be resolved now that the Devourer has been culled.
+			'''
 	}
 
 	Distortion: {
+		Inquiry: Distortion
+		Response:
+			'''
+			Despite my efforts to gain information from the Devourer when forging his armor, I know very little about the Distortion. What knowledge I do possess was still seemingly deemed to be too much by the serpent. He was fiercely suspicious of my questioning, yet did not interfere with my own limited attempts to probe the dimension myself.\n
+
+			All inorganic material in the Distortion is extraordinarily old, with radiometric dating failing on all 116 samples collected. Given the formations that are present, it is a safe assumption that most matter in the Distortion has existed for far longer than life on this world.\n
+
+			Despite most of the local life forms displaying behavior similar to highly intelligent creatures on our own planet, electroscopy and dissection of the few collected specimens revealed that none of them possess neural structures of a caliber needed for independent sapience. This evidence, along with observations of similar behavioral patterns between different species, leads me to theorize that the bulk of the creatures of the Distortion merely express intelligence because they serve as limbs of a central hive mind.\n
+
+			Quite how this is the case is not clear to me. It should not be possible to remotely grant thought capacity to an otherwise simplistic organism. Doubly so when one considers this effect applies to an unknowable number of creatures, all expressing intelligence simultaneously and working in concert with each other to some undisclosed goal.
+			'''
 	}
 
 	Mechs: {
+		Inquiry: The Mechanical Trio
+		Response:
+			'''
+			The "Mechanical Trio", as most call them, are what you annoyingly refer to as The Destroyer, Retinazer & Spazmatism, and, though it pains me to call it this, "Skeletron Prime". While you may be an exceptional individual, I question your naming capabilities. For your information, their formal designations are HM-03, HSx-00, HSy-01, and HF-04 respectively.\n
+
+			They were a rudimentary but potent start to my experimentation with engines of war. In search of inspiration, I turned to study the gods and their purportedly unmatched might. While each deity wielded a unique worldly aspect, all drew their strength from an identical source: the soul of an Auric dragon.\n
+
+			As acquiring an Auric soul was and still is infeasible, experiments with more mundane souls soon began. I was initially discouraged upon discovering that individual souls held a paltry amount of spiritual power, but their potential when coalesced far surpassed my predictions.\n
+
+			Upon further research, I confirmed that a soul's strength is defined by its intense emotions or resolve. Here, Yharim's unrivaled charisma and skill at evoking passion within the hearts of others was key. Not only was finding a source of emblazoned souls trivial, but many of his most stalwart troops even directly consented to having their souls embedded in my machines after their demise at the hands of the enemy.\n
+
+			Fueled by the loyalty of the Godseeker's fallen soldiers, my machines were fearsome and ruthless. Harnessing the meshed combat experience of a thousand lifetimes, their battlefield prowess was self-evident. However, this same source of strength proved to be a flaw, as the unified will that gave them their might also made them volatile and not subject to my commands. While Yharim thoroughly approved, I sought to remove this imperfection from my designs via future projects.
+			'''
 	}
 
 	Plague: {
+		Inquiry: The Plague
+		Response:
+			'''
+			Before you ask: I am aware that my nanomachines currently plague the jungle. I created a failsafe in case this happened, and have no intent of causing uncontrollable mass destruction. If it begins to threaten biodiversity or otherwise encroach upon my learning of Terraria, I will deactivate it myself.\n
+
+			My research into applied nanotechnology began as a means to match the ever rising heights of power organic beings such as the Witch, Braelor, Statis, and Yharim himself were achieving. Living things cannot be externally ordered or controlled, and are prone to fits of emotion and, in rare cases, rebellion.\n
+
+			I aimed to create a weapon which could control, subdue, or eliminate any organic entity, given enough time. I was well aware of the tenacity and adaptability of life, and quickly realized such a weapon would itself need to be alive to overpower and dominate any known organism.\n
+
+			It was through my observation of the growth of such powerful beings, however, that I had an epiphany: there was no need for my machinery to surpass organic life. Not when that very same life could be improved upon and then harnessed as a tool or weapon.\n
+
+			I saw then the banality of my efforts to simply control and replace life. I stood before the near limitless possibilities of enhancing it further.\n
+
+			Even when I deemed that I had plateaued in the field of cybernetics, the limitations of my methodology were ever present. The bodies of most jungle creatures were too frail to handle the prerequisite cybernetic enhancements. A Queen Bee was the optimal choice to host the nanomachines. Born to rule, such beings are resilient enough to survive the augmentation, but still weak enough to be subdued if or when necessary.\n
+
+			Something about this research in particular incensed the Godseeker. Upon witnessing my progress, he flew into a rage. He blasted out a sizable chunk of the genomic laboratory and intentionally allowed my first, unfinished specimen to escape. In no uncertain words, he terminated his agreement with me and stormed off. I do not know what line was crossed, but he has made no further moves to antagonize me, so I shall continue my research in peace.\n
+
+			Regardless. There is a unique allure to setting loose a synthesized mimicry of prokaryotic life. It continues to evolve incomprehensibly rapidly, even as we speak, providing endless opportunities for analysis.
+			'''
 	}
 
 	Astral: {
+		Inquiry: Astral Infection
+		Response:
+			'''
+			The Infection has beguiled me since its surge upon this world. To study it, I retrofitted an Aureus reconnaissance model with armor intended to nullify its effects. In the end, all the protection I could muster only delayed Aureus' fall to the starborne rot. Observing your trials, I understood why it was overtaken: the lack of a thinking brain.\n
+
+			Attempts at studying it on my own failed; a body was built for the task, but the chassis fell short, even if my mind remained. Using an alternative approach, I sent hired mercenaries into the infection. Few returned, but those who did provided me with enough intel.\n
+
+			What interested me the most were the reports of an infected Astrum Deus patrolling the Infection. Until the rot afflicted it fully, the closest it had ever been spotted was in Terraria's higher atmosphere. Further analysis pointed towards it being the catalyst for the infection's arrival on the surface. Though I have not found a concrete reason as to why and how this happened, I do have a hypothesis.\n
+
+			As you may know, stars are concentrations of magic that form over countless years of ambient mana gathering together in deep space. With the mana having nothing to gravitate towards but itself, it condenses until it becomes a brilliant star. Stars that grow too large begin to collapse, degenerating and forming clots of Astral Infection. Throughout the cosmos at large, this is a rare occurrence, as Astrum Deus intermittently devours large stars for sustenance.\n
+
+			However, space is unfathomably large. If Astrum Deus were to vanish from space for even a brief time, some number of stars should visibly degenerate into Astral Infection, observable via telescope. Yet such observations show no significant increase in the quantity of collapsed stars. Furthermore, I know from my calculations that the observable universe is far, far too large to support a scenario where Astrum Deus disappears.\n
+
+			It is therefore almost certain the Astrum Deus we know is simply one of many. Anything further I say on this matter is speculation.\n
+
+			The infected Astrum Deus near our world may be a juvenile. This would explain why it could struggle to devour a star or fail to identify an infected star as a potential hazard. It then grew sick and crashed onto the nearest planet. As there are presumably many others of its kind, space on the whole is largely unaffected. I welcome any other hypotheses you may have.
+			'''
 	}
 
 	Sulphur: {
+		Inquiry: Sulphurous Sea
+		Response:
+			'''
+			Even before I used the sea as a disposal site for nuclear waste, it was never a pleasant place for your kind. Sulphuric fumes from Azafure's industry rose through the Abyss and came to pollute the sea far above. Most of the calm, docile life that once flourished here was utterly demolished by such a hostile change.\n
+
+			The new life that emerged many years later via mutation and other adaptation allowed for studying how life can adjust to such harsh conditions, including ever-increasing levels of radiation. Though I did not value such data at first, familiarizing myself with the increased tolerances of adapted organic beings proved to be essential at several points during my development of the Plague.\n
+
+			If you are concerned about the sea's current state, you are far from the first. You may put your worries to rest, as I have no plans to further irradiate the area for the foreseeable future. Indeed, my actions have already been met with scathing criticism and uproar.\n
+
+			The Godseeker's bureaucrats would frequently remind me of how the public had organized to revolt against my advancement of science. From what they knew, they were justified. They feared what calamities further science could wreak upon Terraria, due to the destruction brought upon the Sulphurous Sea.\n
+
+			I thought such retaliation to be absurd, but it appears not all can see reason. Despite my infamy and legacy, technological advancements continue to be made by many other scientists across Terraria, even if the subject continues to provoke unfounded fear mongering.\n
+
+			Regardless, if I deem it necessary, I possess the means to simply rebuild the Sulphur Sea from the bedrock up. Restoring it to its pristine status would be a trivial matter and a testament to science's creative potential.
+			'''
 	}
 }
 
 // Hologram Texts
 Hologram: {
+	Text1: To any personnel engaged in the laboratories. Please wear your steel engraved ID badge at all times. It is the easiest method to discern your body if any accidents do occur.
+	Text2: To experiment is to fail. To fail is to learn. To learn is to advance.
+	Text3: Apparent danger while researching serves only to enhance the research experience.
+	Text4: Laser-type weapon prototypes are incredibly lethal and are not to be used within presentation halls.
+	Text5: High-energy plasma emissions have adverse effects on both flesh and metal. Do not attempt to handle vented plasma.
+	Text6: Electric shocks from military equipment are intended to be fatal. If you survive such a shock, that is a clear indicator that the device is not functioning properly. Please report any such cases.
+	Text7: All employees are hereby notified that they will be held accountable for any collateral damage caused by Gauss weapon fire, even during sanctioned testing exercises.
+	Text8: Security Field Emitters will vaporize all unauthorized equipment and personnel. Please leave personal effects in the designated lockers off-site. This also means: Do not bring any family members who are not enlisted as personnel.
+	Text9: If one does manage to breach restricted testing facilities, do at least record any unexpected burns, lacerations, bruising, fractur... ...trauma, shocks and otherwise. Thank you.
+	Text10: The power grid has been... ...eavily compromised. Abort research and proceed to the emergency exits located at... ...and egress with haste.
+	Text11: Notify the Security Department of any aggressive local fauna immediately
+	PostCultistText: Sensors have detected a significant breach in the spacetime continuum.
+	EasterEgg: Please help. I'm stuck in this hologram machine.
 }
 
 // Enchantments
 Exhumed: {
+	DisplayName: Exhumed
+	Description: Transforms this item into something significantly stronger.
 }
 
 Indignant: {
+	DisplayName: Indignant
+	Description: Summons demons that harm you but drop healing items on death on item usage.
 }
 
 Aflame: {
+	DisplayName: Aflame
+	Description: Ignites enemies with the Supreme Witch's power on hit but also causes the user to take damage over time when holding this item.
 }
 
 Oblatory: {
+	DisplayName: Oblatory
+	Description: Reduces mana cost and greatly increases damage but sometimes causes this item to use your life.
 }
 
 Resentful: {
+	DisplayName: Resentful
+	Description: Makes the damage of projectiles vary based on how far the hit target is from you. The farther, the more damage, and vice versa.
 }
 
 Bloodthirsty: {
+	DisplayName: Bloodthirsty
+	Description: Makes the damage of projectiles vary based on how far the hit target is from you. The closer, the more damage, and vice versa.
 }
 
 Ephemeral: {
+	DisplayName: Ephemeral
+	Description:
+		'''
+		Causes the damage output of this item to discharge from exhaustive use.
+		Its damage returns naturally when not being used. It starts off with more damage than it normally would have.
+		'''
 }
 
 Hellbound: {
+	DisplayName: Hellbound
+	Description:
+		'''
+		Causes minions to be created with a 40 second timer.
+		Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.
+		'''
 }
 
 Tainted: {
+	DisplayName: Tainted
+	Description: Removes projectile shooting capabilities of this item. In exchange, two skeletal arms are released on use that slice at the mouse position.
 }
 
 Traitorous: {
+	DisplayName: Traitorous
+	Description: Using this item below 25% mana instantly consumes your remaining mana, unleashing a monster that harms both you and enemies.
 }
 
 Withering: {
+	DisplayName: Withering
+	Description:
+		'''
+		When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%.
+		After this, you gain a damage boost while holding this item but also take exponential damage over time the longer you hold it.
+		'''
 }
 
 Persecuted: {
+	DisplayName: Persecuted
+	Description:
+		'''
+		When attacked, or over time, demon portals appear near you.
+		If sufficiently damaged they are friendly; otherwise they attack you. They become angered if a portal is damaged.
+		'''
 }
 
 Lecherous: {
+	DisplayName: Lecherous
+	Description: Spawns a resilient brimstone monster that stays between you and your mouse that interferes with your homing weapons. It releases a bunch of hearts on death.
 }
+
+Disenchant: Disenchant
+// Worldgen Tasks
+EvilIslandCorrupt: Adding a putrid floating island
+EvilIslandCrimson: Adding a grotesque floating island
+AstralChest: Placing an astral chest
+BetterJungleTemple: Building a bigger jungle temple
+JungleTempleAltar: Placing the Lihzahrd altar
+GiantBeehive: Building a giant beehive
+MechanicShed: Placing mechanic shed
+VernalPass: Blessing a flourishing jungle grove
+SunkenSea: Partially flooding an overblown desert
+GemAdjustment: Sensibly shuffling gem depth
+DungeonArchive: Entombing occult literature
+SulphurSea: Polluting one of the oceans
+BrimstoneCrags: Incinerating Azafure
+HiddenShrines: Hiding forbidden shrines
+CrimsonShrine: Slaying a vengeful god
+CorruptShrine: Rotting a god's grave
+DesertShrine: Burrowing an artifact from Osiris
+GraniteShrine: Crystallizing a deep blue geode
+IceShrine: Hiding a beast tamer's igloo
+MarbleShrine: Recovering a piece of the Parthenon
+MushroomShrine: Planting a mushroom rich of hyphae
+SurfaceShrine: Assembling a shinobi hideout
+Aerialite: Hiding wyvern's gold in plain sight
+DraedonLabs: Rust and Dust
+HellLab: Forging with the fires of hell
+SunkenLab: Studying marine biology
+IceLab: Prototyping quantum supercooling
+PlagueLab: Developing abhorrent bioweaponry
+CavernLab: Strip mining for minerals
+DraedonWorkshop: Abandoned engineering projects
+DraedonFacility: Other minor research projects
+Abyss: Disposing of Silva's remains
+SulphurSea2: Irradiating one of the oceans
+Roxcalibur: I wanna rock

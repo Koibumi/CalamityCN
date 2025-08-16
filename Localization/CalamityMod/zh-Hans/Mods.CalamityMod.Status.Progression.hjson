@@ -1,1 +1,50 @@
-
+// Desert Scourge
+OpenSunkenSea: 地下沙漠的深处轰隆作响……
+SandstormTrigger: 沙漠里刮起了猛烈的疾风！
+// 2nd Evil Boss
+SkyOreText: 苍青色的光辉照耀着天空。
+// Skeletron
+SkeletronAbyssChestNotification: 初代树妖的藤蔓认为你配得上它们的深渊宝藏。
+// Wall of Flesh
+UglyBossText: 沉沦之海在颤动……
+HardmodeOreTier1Text: 你的世界已被钴矿和钯金矿祝福！
+// Mechanical Bosses
+HardmodeOreTier2Text: 你的世界已被秘银矿和山铜矿祝福！
+HardmodeOreTier3Text: 你的世界已被精金矿和钛金矿祝福！
+HardmodeOreTier4Text: 神圣之地已得到神之金属的祝福！
+// Cryogen
+IceOreText: 寒晶能量从冰之洞穴中迸发而出。
+// Aquatic Scourge
+WetWormBossText: 硫磺海的天空变暗了……
+// Plantera
+PlantOreText: 富含能量的植物物质已在地下形成。
+SandSharkText3: 沙漠正在剧烈动荡！
+// Leviathan
+AbyssDropsText: 海洋的深处传来震动。
+// Astrum Aureus
+AstralText: 一颗明星从天堂中坠陨！
+AureusBossText: 星幻敌人得到了增强！
+AureusBossText2: 微弱的异界之音游离在地牢中。
+// Golem
+BabyBossText: 一场瘟疫席卷了丛林。
+// Astrum Deus
+AstralBossText: 幻星的封印已破碎！你可以挖掘炫星矿了。
+// Moon Lord
+MoonBossText: 亵渎之火猛烈燃烧！
+FutureOreText: 冷黯的能量散布至宇宙之间。
+ProfanedBossText2: 尖叫声回荡于地牢之中……
+// Providence
+TreeOreText: 石化树皮正在丛林的淤泥中爆发。
+ProfanedBossText3: 灾厄造物已被血石洗礼。
+ProfanedBossText4: 亵渎天神已经认可了你对纯净的贡献！
+// Polterghast
+GhostBossText: 深渊之灵受到了威胁。
+GhostBossText4: 喷涌而出的灵魂扰乱了这场酸性风暴……
+// Polterghast (April Fools)
+AprilFools2: 老核弹在等着你……
+// Devourer of Gods
+DoGBossText: 寒霜之月散发着明洁的光辉。
+DoGBossText2: 收割之月散布着诡异的光芒。
+DargonBossText: 黑蚀之日蓄势待发。
+// Yharon
+AuricOreText: 远古巨龙的力量在洞穴中显现，交织着穿过岩石。
