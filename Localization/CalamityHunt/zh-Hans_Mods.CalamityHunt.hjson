@@ -499,7 +499,7 @@ Items: {
 
 	GoozmaBoulderItem: {
 		DisplayName: 杂色巨石
-		Tooltip: "“极度危险”"
+		Tooltip: “极度危险”
 	}
 
 	IOUASoul: {
@@ -529,16 +529,16 @@ Items: {
 
 	TrailblazerGoggles: {
 		DisplayName: 焰径虹光护目镜
-		Tooltip: "“想要引领前路，便需看清前方，而这对护目镜不让你看。”"
+		Tooltip: “想要引领前路，便需看清前方，而这对护目镜不让你看。”
 	}
 
 	TrailblazerBackpack: {
 		DisplayName: 焰径虹光战术背包
-		Tooltip: "“想要成为先驱者，便需做好准备。幸运的是，这个背包里除了燃料以外什么都没有。”"
+		Tooltip: “想要成为先驱者，便需做好准备。幸运的是，这个背包里除了燃料以外什么都没有。”
 	}
 
 	ShogunWings: {
-		Tooltip: "“让你降温的最佳选择”"
+		Tooltip: “让你降温的最佳选择”
 		DisplayName: 千折纸扇
 	}
 
