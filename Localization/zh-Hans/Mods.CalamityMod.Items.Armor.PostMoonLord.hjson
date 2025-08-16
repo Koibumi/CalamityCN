@@ -299,19 +299,15 @@ DemonshadeHelm: {
 
 EmpyreanCloak: {
 	DisplayName: 皇天斗篷
-	Tooltip:
-		'''
-		诸天寰宇之庇护
-		增加7%盗贼伤害和盗贼暴击率
-		'''
+	Tooltip: "{$Common.RogueDamage}和{$Common.RogueCrit@1}"
 }
 
 EmpyreanCuisses: {
 	DisplayName: 皇天腿甲
 	Tooltip:
 		'''
-		增加5%盗贼伤害和盗贼暴击率
-		增加15%移动速度
+		{$Common.RogueDamageCrit}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 
@@ -319,13 +315,12 @@ EmpyreanMask: {
 	DisplayName: 皇天面具
 	Tooltip:
 		'''
-		增加11%盗贼伤害和盗贼暴击率
-		增加5%移动速度
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$Common.RogueVelocity@2}
 		'''
 	SetBonus:
 		'''
-		提高9%盗贼伤害和弹幕速度
-		增加115点最大潜行值
+		{$Common.RogueStealth}
 		盗贼弹幕击中敌人产生特殊效果
 		受伤时受到来自宇宙的怒火加持
 		'''

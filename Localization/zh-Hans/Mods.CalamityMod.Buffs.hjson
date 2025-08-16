@@ -479,11 +479,6 @@ RadiatorBuff: {
 	Description: 具放射性的可爱生物
 }
 
-ReaverOrbBuff: {
-	DisplayName: 掠夺者
-	Description: 掠夺者宝珠会照亮你的前路
-}
-
 SparksBuff: {
 	DisplayName: 溅花闪蜓
 	Description: 这东西吃蝴蝶
@@ -1593,4 +1588,9 @@ PopoBuff: {
 PopoNoselessBuff: {
 	DisplayName: 没鼻子的雪宝
 	Description: 你的鼻子被别人偷走了！
+}
+
+ForbiddenStealthSummonTagBuff: {
+	DisplayName: Forbidden Stealth Summon Tag Buff
+	Description: If you're seeing this, something went horribly wrong
 }

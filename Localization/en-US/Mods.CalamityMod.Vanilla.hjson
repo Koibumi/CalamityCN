@@ -50,9 +50,6 @@ AddedTooltip: {
 		Nearby fairies grant +2 HP/s life regen, 6 defense and 10% movement speed
 		Fairies are immune to damage and will no longer flee
 		'''
-	MoonStone: Reduces the damage of the Nightwither debuff
-	SunStone: Reduces the damage of the Daybroken debuff
-	CelestialStone: Reduces the damage of the Nightwither and Daybroken debuffs
 	ArcaneFlower: 5% increased magic damage
 	RifleScope: The scope effect can be toggled with visibility
 	FeatherfallPotion: Disables all airborne flight recovery

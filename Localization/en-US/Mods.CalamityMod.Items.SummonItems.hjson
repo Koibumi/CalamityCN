@@ -41,11 +41,7 @@ BloodyWormFood: {
 
 CausticTear: {
 	DisplayName: Caustic Tear
-	Tooltip:
-		'''
-		Causes an acidic downpour in the Sulphurous Sea
-		{$Common.NotConsumable}
-		'''
+	Tooltip: Causes an acidic downpour in the Sulphurous Sea
 }
 
 CeremonialUrn: {
@@ -188,11 +184,7 @@ MarkofProvidence: {
 
 MartianDistressRemote: {
 	DisplayName: Martian Distress Remote
-	Tooltip:
-		'''
-		Summons the Martian Madness
-		{$Common.NotConsumable}
-		'''
+	Tooltip: Summons the Martian Madness
 }
 
 NecroplasmicBeacon: {

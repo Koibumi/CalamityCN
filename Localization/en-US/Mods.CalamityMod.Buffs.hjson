@@ -479,11 +479,6 @@ RadiatorBuff: {
 	Description: Radioactive but adorable
 }
 
-ReaverOrbBuff: {
-	DisplayName: Reaver Orb
-	Description: The reaver orb will light your way
-}
-
 SparksBuff: {
 	DisplayName: Sparks
 	Description: Eats butterflies
@@ -1589,4 +1584,9 @@ PopoBuff: {
 PopoNoselessBuff: {
 	DisplayName: Noseless Popo
 	Description: Your nose has been stolen!
+}
+
+ForbiddenStealthSummonTagBuff: {
+	DisplayName: Forbidden Stealth Summon Tag Buff
+	Description: If you're seeing this, something went horribly wrong
 }

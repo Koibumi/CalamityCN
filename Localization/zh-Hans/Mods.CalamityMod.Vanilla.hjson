@@ -50,9 +50,6 @@ AddedTooltip: {
 		附近仙灵会提供+2HP/s生命再生，6点防御与10%移动速度
 		仙灵免疫敌怪的伤害并能跟随你
 		'''
-	MoonStone: 减少受到夜魇减益的伤害
-	SunStone: 减少受到破晓减益的伤害
-	CelestialStone: 减少受到夜魇和破晓减益的伤害
 	ArcaneFlower: 增加5%魔法伤害
 	RifleScope: 扩大视野效果可通过可见性开启或关闭
 	FeatherfallPotion: 禁止在空中时的飞行时间恢复

@@ -1,9 +1,9 @@
 // Plain stat boosts
-RogueDamage: 增加{0}%盗贼伤害
-RogueCrit: 增加{0}%盗贼暴击率
-RogueDamageCrit: 增加{0}%盗贼伤害和暴击率
-RogueVelocity: 增加{0}%盗贼弹幕速度
-RogueStealth: 增加{0}点最大潜行值
+RogueDamage: 盗贼伤害增加{0}%
+RogueCrit: 盗贼暴击率增加{0}%
+RogueDamageCrit: 盗贼伤害和暴击率各增加{0}%
+RogueVelocity: 盗贼弹幕速度增加{0}%
+RogueStealth: 最大潜行值增加{0}点
 // Armor Set Bonus key states
 BothArmorSetBonusKeys: 按下{0}或双击{1}
 NoArmorSetBonusKey: 按下套装奖励键

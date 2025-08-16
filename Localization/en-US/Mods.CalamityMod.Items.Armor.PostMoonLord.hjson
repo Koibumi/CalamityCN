@@ -299,19 +299,15 @@ DemonshadeHelm: {
 
 EmpyreanCloak: {
 	DisplayName: Empyrean Cloak
-	Tooltip:
-		'''
-		Armor of the cosmos
-		7% increased rogue damage and critical strike chance
-		'''
+	Tooltip: "{$Common.RogueDamage} and {$Common.RogueCrit@1}"
 }
 
 EmpyreanCuisses: {
 	DisplayName: Empyrean Cuisses
 	Tooltip:
 		'''
-		5% increased rogue damage and critical strike chance
-		15% increased movement speed
+		{$Common.RogueDamageCrit}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 
@@ -319,13 +315,12 @@ EmpyreanMask: {
 	DisplayName: Empyrean Mask
 	Tooltip:
 		'''
-		11% increased rogue damage and critical strike chance
-		5% increased movement speed
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$Common.RogueVelocity@2}
 		'''
 	SetBonus:
 		'''
-		9% increased rogue damage and velocity
-		+115 maximum stealth
+		{$Common.RogueStealth}
 		Rogue projectiles have special effects on enemy hits
 		Imbued with cosmic wrath when you are damaged
 		'''

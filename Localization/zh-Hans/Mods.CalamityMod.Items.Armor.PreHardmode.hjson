@@ -70,7 +70,7 @@ DesertProwlerHat: {
 	SetBonus:
 		'''
 		{$Common.RogueStealth}
-		[c/{1}:沙尘覆盖 - 按 {2} 键将自己笼罩在一小片沙尘之中]
+		[c/{1}:沙尘覆盖 - {2}将自己笼罩在一小片沙尘之中]
 		[c/CCB648:当在沙尘之中，获得更高的机动性，但防御力大大降低]
 		[c/CCB648:使用盗贼武器会立刻驱散沙尘，但会造成{3}%的超级暴击伤害]
 		[c/CCB648:超级暴击只在造成的伤害不超过{4}点时才有效]
@@ -240,7 +240,7 @@ VictideHeadBarrier: {
 		'''
 		[c/{0}:护卫之潮 - 形成一个浪潮屏障，爆发时将你发射出去]
 		[c/A2D6FF:屏障提供{1}点防御，缓慢恢复受到伤害的{2}%]
-		[c/A2D6FF:{3}使屏障迸发{4} {^4:second;seconds}并将你向光标方向推进]
+		[c/A2D6FF:{3}使屏障迸发{4}秒并将你向光标方向推进]
 		[c/A2D6FF:该冲刺能够穿过敌人，并对它们造成伤害]
 		'''
 }
@@ -255,10 +255,10 @@ VictideHeadBurrow: {
 	SetBonus:
 		'''
 		允许在水中快速移动
-		[c/{0}:泡泡之穴 - {1} 短暂变身为迅捷的水之魂灵]
+		[c/{0}:泡泡之穴 - {1}短暂变身为迅捷的水之魂灵]
 		[c/A2D6FF:水之魂灵可以用方向键控制，能够穿过物块]
 		[c/A2D6FF:在这一形态下无视大多数伤害，但不能使用物品]
-		[c/A2D6FF:此效果持续{2} {^2:second;seconds}并有{3} {^3:second;seconds}冷却]
+		[c/A2D6FF:此效果持续{2}秒并有{3}秒冷却]
 		'''
 }
 
@@ -297,7 +297,7 @@ WulfrumHat: {
 		'''
 	SetBonus:
 		'''
-		[c/{0}:钨钢阵线 - 按下 {1} 键装备能量装甲]，这会消耗1块[i:CalamityMod/WulfrumMetalScrap] [c/{0}:{$Items.Materials.WulfrumMetalScrap.DisplayName}]
+		[c/{0}:钨钢阵线 - {1}以装备能量装甲]，这会消耗1块[i:CalamityMod/WulfrumMetalScrap][c/{0}:{$Items.Materials.WulfrumMetalScrap.DisplayName}]
 		[c/6EC05D:装甲激活时，你只能使用聚变炮，但你的防御属性提升]
 		[c/6EC05D:装甲最多持续{2}秒，但每次受击会失去{3}秒耐久]
 		[c/BEBEBE:按住Shift以查看聚变炮的属性]

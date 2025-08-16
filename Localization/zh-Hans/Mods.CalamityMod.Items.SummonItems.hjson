@@ -41,11 +41,7 @@ BloodyWormFood: {
 
 CausticTear: {
 	DisplayName: 腐蚀之泪
-	Tooltip:
-		'''
-		让酸雨在硫磺海上方倾盆而下
-		{$Common.NotConsumable}
-		'''
+	Tooltip: 让酸雨在硫磺海上方倾盆而下
 }
 
 CeremonialUrn: {
@@ -188,11 +184,7 @@ MarkofProvidence: {
 
 MartianDistressRemote: {
 	DisplayName: 火星危机遥控器
-	Tooltip:
-		'''
-		召唤火星暴乱
-		{$Common.NotConsumable}
-		'''
+	Tooltip: 召唤火星暴乱
 }
 
 NecroplasmicBeacon: {

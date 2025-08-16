@@ -488,11 +488,7 @@ ExaltedOathblade: {
 
 Excelsus: {
 	DisplayName: 宙能波纹剑
-	Tooltip:
-		'''
-		发射旋转锋刃
-		击中敌人时召唤激光束
-		'''
+	Tooltip: 发射旋转锋刃
 }
 
 Exoblade: {

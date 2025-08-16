@@ -662,7 +662,7 @@ SarosPossession: {
 		Summons a radiant aura that gives absolute control of light itself
 		The aura will annihilate enemies with orbs of radiance
 		There can only be one aura at a time
-		Requires 8 minion slots
+		Requires 6 minion slots
 		'''
 }
 

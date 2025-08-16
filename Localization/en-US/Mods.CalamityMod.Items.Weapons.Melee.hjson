@@ -488,11 +488,7 @@ ExaltedOathblade: {
 
 Excelsus: {
 	DisplayName: Excelsus
-	Tooltip:
-		'''
-		Fires a spread of spinning blades
-		Summons laser fountains on hit
-		'''
+	Tooltip: Fires a spread of spinning blades
 }
 
 Exoblade: {

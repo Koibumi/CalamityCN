@@ -414,10 +414,13 @@ ChaosStone: {
 	DisplayName: Chaos Stone
 	Tooltip:
 		'''
-		Mana Sickness from drinking mana potions is replaced by Mana Burn
-		Mana Burn deals damage over time relative to the intensity of the debuff
-		This debuff does not reduce your magic damage
-		'One of the ancient relics'
+		Disables automatic potion consumption
+		Items that consume mana can be used even without the required mana amount
+		Mana usage can overflow into negative mana, causing you to receive [Mana Burn]
+		The lower your mana, the more intense the manafire burns
+		Attacks while you have [Mana Burn] inflict [Mana Burn] on enemies
+		Every 50 negative mana increases [Mana Burn] by 1% of the attack's damage
+		Negative Mana is capped at your maximum mana amount
 		'''
 }
 
