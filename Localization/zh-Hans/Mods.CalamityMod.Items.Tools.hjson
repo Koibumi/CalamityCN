@@ -52,6 +52,17 @@ AxeofPurity: {
 		'''
 }
 
+Bakidon: {
+	DisplayName: Bakidon
+	Tooltip:
+		'''
+		一件据说可以固定苍穹的失落造物
+		<left>以短暂冻结昼夜更替
+		在天界事件期间失效
+		不使用时时间冻结能力会重新充能
+		'''
+}
+
 BeastialPickaxe: {
 	DisplayName: 野性镐
 	Tooltip: ""
@@ -80,8 +91,10 @@ Cosmolight: {
 	DisplayName: 宇宙之光
 	Tooltip:
 		'''
-		把时间立刻加速至下个黎明、正午、黄昏和午夜
-		此效果在Boss存活时失效
+		一件因接触原始宇宙能量而再次焕发的失落造物
+		按住<left>以大幅加速昼夜更替
+		<right>以永久冻结昼夜更替
+		时间冻结效果永久持续且在天界事件期间生效
 		'''
 }
 

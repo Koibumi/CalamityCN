@@ -105,7 +105,7 @@ AmbrosialAmpoule: {
 	Tooltip:
 		'''
 		+50 max life
-		Grants +2 to +6 HP/s life regen based on missing health
+		Grants +2 to +5 HP/s life regen based on missing health
 		Standing still grants +1.5 HP/s life regen and +1 HP/s life regen when inflicted with a damage debuff
 		Current boost: +[REGEN] HP/s
 		Fire and sickness debuff durations are halved
@@ -496,7 +496,6 @@ CrownJewel: {
 		'''
 		+1 HP/s life regen
 		You gain an additional +1.5 HP/s life regen while afflicted with any debuff
-		Massively boosts natural life regen while afflicted with any debuff
 		'''
 }
 
@@ -1015,7 +1014,6 @@ InfectedJewel: {
 		'''
 		Passively grants +1 HP/s life regen
 		Grants 12 defense and +2 HP/s life regen while afflicted with any debuff
-		Massively boosts natural life regen while afflicted with any debuff
 		Granted defense fades away quickly when not afflicted with any debuffs
 		Each debuff beyond the first grants 4 additional defense
 		Nullifies the Astral Infection debuff
@@ -1027,7 +1025,6 @@ InkBomb: {
 	DisplayName: Ink Bomb
 	Tooltip:
 		'''
-		+10 maximum stealth
 		Stealth generates 7% faster
 		Throws several ink bombs when hit that explode into ink and confuse enemies
 		Gain a lot of stealth when struck
@@ -1429,11 +1426,11 @@ Radiance: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/CDF69C:Grants +2 to +6 HP/s life regen based on missing health]
+		[c/CDF69C:Grants +2 to +5 HP/s life regen based on missing health]
 		[c/CDF69C:Recover an additional 6 HP/s while inflicted with a debuff]
 		[c/CDF69C:This eventually slows to 1.33 HP/s when debuffed for an extended time period]
 		[c/CDF69C:Standing still provides +2 HP/s life regen and faster natural regen recovery]
-		[c/CDF69C:+15 defense and faster natural regen recovery while afflicted with any debuff]
+		[c/CDF69C:Grants 15 defense while afflicted with any debuff]
 		[c/CDF69C:Each additional debuff grants 5 defense, which slowly decays while not debuffed]
 		[c/CDF69C:Weak damaging debuffs are harmless and halves the duration of most other debuffs]
 		'''
@@ -1443,7 +1440,7 @@ RadiantOoze: {
 	DisplayName: Radiant Ooze
 	Tooltip:
 		'''
-		Grants +2 to +6 HP/s life regen based on missing health
+		Grants +2 to +5 HP/s life regen based on missing health
 		Current boost: +[REGEN] HP/s
 		You emit yellow light if visibility is enabled
 		'''
@@ -1491,9 +1488,9 @@ Regenerator: {
 	DisplayName: Regenerator
 	Tooltip:
 		'''
-		Your health cannot exceed 50% of its maximum
+		Your health cannot exceed {0}% of its maximum
 		Increases length of invincibility after taking damage
-		Provides powerful special life regen to heal you for 8.5 HP/s
+		Provides powerful special life regen to heal you for {1} HP/s
 		All normal life regen is negated and converted into damage 
 		Current damage boost: [DAMAGE]%
 		'''
@@ -1528,9 +1525,9 @@ RoverDrive: {
 	DisplayName: Rover Drive
 	Tooltip:
 		'''
-		Gain a barrier with 20 health
+		Gain a barrier with {0} health
 		[ADREN]
-		If depleted, the barrier's health regenerates after not receiving damage for 10 seconds
+		The barrier will regenerate {1} seconds after being hit, taking {2} seconds to completely regenerate
 		Getting hit resets the timer
 		Can also be scrapped at an extractinator
 		'''
@@ -1972,10 +1969,10 @@ TheSponge: {
 	Tooltip:
 		'''
 		Grants immunity to knockback
-		Gain a barrier with 120 health
-		The barrier grants 10% damage reduction while active
+		Gain a barrier with {0} health
+		The barrier grants {1}% damage reduction while active
 		[ADREN]
-		The barrier will regenerate 8 seconds after being hit, taking 10 seconds to completely regenerate
+		The barrier will regenerate {2} seconds after being hit, taking {3} seconds to completely regenerate
 		Getting hit resets the timer
 		'''
 	ShieldAdren: Halved Adrenaline loss if all damage is absorbed

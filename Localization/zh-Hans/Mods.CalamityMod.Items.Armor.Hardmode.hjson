@@ -389,7 +389,6 @@ PlagueReaperMask: {
 		'''
 		增加{0}%飞行时间
 		远程弹幕会对受瘟疫减益作用的敌人造成{1}倍伤害
-		受到伤害会使瘟疫残渣从天而降
 		[c/{2}:瘟疫爆发 - {3}以大幅提升伤害但完全失去视野]
 		[c/009418:瘟疫爆发期间{$CommonItemTooltip.PercentIncreasedRangedDamage@4}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@5}]
 		[c/009418:此效果持续{6}秒并有{7}秒冷却]

@@ -118,8 +118,6 @@ SwineSecret37: Let me know when it's 7 PM, I've got to tweak something before so
 SwineSecret38: Thank Xeroc I don't have any of that 'Pathfinding' garbage, whatever the hell that is.
 SwineSecret39: If you think the Sulphur Sea smells bad, just wait til' you're near a nohitter!
 SwineSecret40: Did you know there's 40 of these damn things?
-// Point Blank
-PointBlank: 对近距离敌怪射击时造成额外伤害
 // Charge
 Charge: 当前充能：{0}%
 //GFB Rogue Keys

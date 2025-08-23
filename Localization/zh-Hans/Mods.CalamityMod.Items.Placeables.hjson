@@ -4643,3 +4643,8 @@ ShellTrimBrickWall: {
 	DisplayName: Shell Trim Brick Wall
 	Tooltip: ""
 }
+
+BasaltSlab: {
+	DisplayName: Basalt Slab
+	Tooltip: ""
+}

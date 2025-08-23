@@ -133,9 +133,8 @@ StatigelArmor: {
 	Tooltip: "{$CommonItemTooltip.PercentIncreasedCritChance}"
 	CommonSetBonus:
 		'''
-		When you take over {0} damage in one hit you become immune to damage for an extended period of time
 		Grants an extra jump and increased jump height
-		{1}% increased jump speed
+		{0}% increased jump speed
 		'''
 }
 
@@ -184,11 +183,14 @@ StatigelHeadRogue: {
 
 StatigelHeadSummon: {
 	DisplayName: Statigel Hood
-	Tooltip: Increased minion knockback
-	SetBonus:
+	Tooltip:
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		Summons a mini paladin to fight for you, the type depends on what world evil you have
 		'''
 }

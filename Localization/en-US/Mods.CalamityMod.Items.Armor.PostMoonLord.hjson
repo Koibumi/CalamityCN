@@ -340,8 +340,6 @@ FearmongerGreathelm: {
 		Minions no longer deal less damage while wielding non-summoner weapons
 		Immunity to all but the strongest forms of frost and flame
 		Minion attacks grant +3.5 HP/s life regen and massively accelerate life regen
-		15% increased damage reduction during the Pumpkin and Frost Moons
-		This extra damage reduction ignores the soft cap
 		'''
 }
 

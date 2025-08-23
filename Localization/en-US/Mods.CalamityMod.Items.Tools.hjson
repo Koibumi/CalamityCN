@@ -52,6 +52,17 @@ AxeofPurity: {
 		'''
 }
 
+Bakidon: {
+	DisplayName: Bakidon
+	Tooltip:
+		'''
+		A lost artifact said to pin the heavens in place
+		<left> to freeze the passage of day and night temporarily
+		This does not work during celestial anomalies
+		The time freeze recharges while not in use
+		'''
+}
+
 BeastialPickaxe: {
 	DisplayName: Beastial Pickaxe
 	Tooltip: ""
@@ -80,8 +91,10 @@ Cosmolight: {
 	DisplayName: Cosmolight
 	Tooltip:
 		'''
-		Advances time immediately to the next dawn, noon, dusk or midnight
-		Does not work while a boss is alive
+		A lost artifact freshly rekindled by exposure to raw cosmic energies
+		Hold <left> to drastically accelerate the passage of day and night
+		<right> to freeze the passage of day and night indefinitely
+		The time freeze lasts forever and works during celestial anomalies
 		'''
 }
 

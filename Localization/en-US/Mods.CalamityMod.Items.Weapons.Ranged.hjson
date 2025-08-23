@@ -676,6 +676,17 @@ LunarianBow: {
 		'''
 }
 
+M1Garand: {
+	DisplayName: M1 Garand
+	Tooltip:
+		'''
+		Shots fired only inherit the damage of the bullet used
+		Fires 8 bullets before ejecting the rifle's cartridge
+		Bullets which ricochet off coins can ricochet off cartridges too
+		'Mind your thumb'
+		'''
+}
+
 MagnaCannon: {
 	DisplayName: Magna Cannon
 	Tooltip:

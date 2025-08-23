@@ -133,9 +133,8 @@ StatigelArmor: {
 	Tooltip: "{$CommonItemTooltip.PercentIncreasedCritChance}"
 	CommonSetBonus:
 		'''
-		当你一次性受到超过{0}点伤害时，获得额外的无敌帧
 		获得一段额外跳跃并增加跳跃高度
-		增加{1}%跳跃速度
+		增加{0}%跳跃速度
 		'''
 }
 
@@ -184,11 +183,14 @@ StatigelHeadRogue: {
 
 StatigelHeadSummon: {
 	DisplayName: 斯塔提斯兜帽
-	Tooltip: 增加仆从击退
-	SetBonus:
+	Tooltip:
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		召唤小圣卫为你而战，它的种类取决于世界邪恶类型
 		'''
 }

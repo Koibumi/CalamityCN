@@ -1138,11 +1138,6 @@ CloudElemental: {
 	Description: The Cloud Elemental will protect you
 }
 
-GlacialEmbraceBuff: {
-	DisplayName: Glacial Embrace
-	Description: The magic of the ancient ice castle will aid you
-}
-
 Corroslime: {
 	DisplayName: Corroslime
 	Description: The corroslime will protect you
@@ -1196,11 +1191,6 @@ DazzlingStabberBuff: {
 DemonshadeSetDevilBuff: {
 	DisplayName: Red Devil
 	Description: The red devil will protect you
-}
-
-LegionofCelestiaBuff: {
-	DisplayName: Celestial Axe
-	Description: If only it was this good at chopping trees...
 }
 
 EndoCooperBuff: {
@@ -1273,6 +1263,11 @@ GastricAberrationBuff: {
 	Description: The aquatic aberration will protect you
 }
 
+GlacialEmbraceBuff: {
+	DisplayName: Glacial Embrace
+	Description: The magic of the ancient ice castle will aid you
+}
+
 HauntedDishesBuff: {
 	DisplayName: Haunted Dishes
 	Description: The haunted dishes will protect you
@@ -1321,6 +1316,11 @@ KalandraMirrorBuff: {
 KingofConstellationsBuff: {
 	DisplayName: Celestial Dragons
 	Description: The celestial dragons will protect you
+}
+
+LegionofCelestiaBuff: {
+	DisplayName: Celestial Axe
+	Description: If only it was this good at chopping trees...
 }
 
 LiliesOfFinalityBuff: {

@@ -676,6 +676,17 @@ LunarianBow: {
 		'''
 }
 
+M1Garand: {
+	DisplayName: M1加兰德步枪
+	Tooltip:
+		'''
+		射击仅继承使用子弹的伤害
+		发射8颗子弹后弹出步枪的弹匣
+		从硬币上反弹的子弹也可在弹匣上反弹
+		“小心你的拇指”
+		'''
+}
+
 MagnaCannon: {
 	DisplayName: 麦格纳炮
 	Tooltip:

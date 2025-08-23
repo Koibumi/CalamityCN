@@ -119,6 +119,7 @@ Cooldowns: {
 	KillModeCooldown: 杀戮姿态冷却
 	LifeSteal: 吸血冷却
 	LionHeartShield: 能量庇护冷却
+	M1GarandShots: 上膛子弹数
 	MasterChefShieldDurability: 雷神护盾等级
 	MasterChefShieldRecharge: 雷神护盾充能
 	NebulousCore: 星云之核冷却

@@ -255,7 +255,6 @@ BuffDescription: {
 	Banner: You have increased damage and defense against the following:
 	BeetleMight: Melee damage and speed increase by {0}% and {1}% respectively
 	ChaosState: Rod of Discord teleports are disabled
-	LeafCrystal: Emits powerful life pulses at nearby enemies
 	Rabies: Decreased life regen, Causes status effects
 	WarmthExtra: Reduced durations of Chilled and Frozen
 	WeaponImbueConfetti: All attacks cause confetti to appear

@@ -119,6 +119,7 @@ Cooldowns: {
 	KillModeCooldown: Kill Mode Cooldown
 	LifeSteal: Life Steal Cooldown
 	LionHeartShield: Energy Shell Cooldown
+	M1GarandShots: Chambered Rounds
 	MasterChefShieldDurability: MJOLNIR Shield Level
 	MasterChefShieldRecharge: MJOLNIR Shield Recharge
 	NebulousCore: Nebulous Core Cooldown

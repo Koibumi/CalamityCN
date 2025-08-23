@@ -1138,11 +1138,6 @@ CloudElemental: {
 	Description: 雨云元素会保护你
 }
 
-GlacialEmbraceBuff: {
-	DisplayName: 冰川之拥
-	Description: 古老冰霜城堡的魔法会帮助你
-}
-
 Corroslime: {
 	DisplayName: 腐化史莱姆
 	Description: 腐化史莱姆会保护你
@@ -1196,11 +1191,6 @@ DazzlingStabberBuff: {
 DemonshadeSetDevilBuff: {
 	DisplayName: 赤红恶魔
 	Description: 赤红恶魔会保护你
-}
-
-LegionofCelestiaBuff: {
-	DisplayName: Celestial Axe
-	Description: 要是它擅长砍树就好了……
 }
 
 EndoCooperBuff: {
@@ -1273,6 +1263,11 @@ GastricAberrationBuff: {
 	Description: 深海吞食者会保护你
 }
 
+GlacialEmbraceBuff: {
+	DisplayName: 冰川之拥
+	Description: 古老冰霜城堡的魔法会帮助你
+}
+
 HauntedDishesBuff: {
 	DisplayName: 缠怨鬼碟
 	Description: 缠怨鬼碟会保护你
@@ -1321,6 +1316,11 @@ KalandraMirrorBuff: {
 KingofConstellationsBuff: {
 	DisplayName: 天龙
 	Description: 天龙会保护你
+}
+
+LegionofCelestiaBuff: {
+	DisplayName: Celestial Axe
+	Description: 要是它擅长砍树就好了……
 }
 
 LiliesOfFinalityBuff: {

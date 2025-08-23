@@ -10,15 +10,6 @@ SetBonus: {
 		Melee: 15% increased melee speed and 20% increased movement speed
 	}
 
-	Chlorophyte:
-		'''
-		Summons a powerful leaf crystal to shoot pulses of life every {0} seconds
-		The pulses do a base damage of {1} to enemies within its range
-		The pulses also provide a {2} health boost to you and all players on your team
-		Players healed by pulses cannot be healed by another pulse until {3} seconds have passed
-		Both the health boost and the damage scale based on your strongest class
-		'''
-
 	Cobalt: {
 		$parentVal:
 			'''

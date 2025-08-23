@@ -388,7 +388,6 @@ PlagueReaperMask: {
 		'''
 		{0}% increased flight time
 		Enemies afflicted by the Plague take {1}x damage from ranged projectiles
-		Getting hit causes plague cinders to rain from above
 		[c/{2}:Plague Blackout - {3} to greatly empower your damage but completely blind yourself]
 		[c/009418:{$CommonItemTooltip.PercentIncreasedRangedDamage@4} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@5} while blacked out]
 		[c/009418:This effect lasts {6} {^6:second;seconds} and has a cooldown of {7} {^7:second;seconds}]
