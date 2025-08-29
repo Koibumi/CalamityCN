@@ -4,12 +4,12 @@ AcidRainT1: {
 }
 
 AcidRainT2: {
-	EntryName: 酸雨 (阶段 2)
+	EntryName: 酸雨（阶段 2）
 	SpawnInfo: 在击败渊海灾虫后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
 }
 
 AcidRainT3: {
-	EntryName: 酸雨 (阶段 3)
+	EntryName: 酸雨（阶段 3）
 	SpawnInfo: 在击败噬魂幽花后使用[i:CalamityMod/CausticTear]召唤，或等待事件自然发生。
 }
 

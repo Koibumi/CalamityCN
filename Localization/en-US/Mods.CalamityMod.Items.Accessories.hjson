@@ -106,7 +106,7 @@ AmbrosialAmpoule: {
 		'''
 		+50 max life
 		Grants +2 to +5 HP/s life regen based on missing health
-		Standing still grants +1.5 HP/s life regen and +1 HP/s life regen when inflicted with a damage debuff
+		Grants the Honey buff
 		Current boost: +[REGEN] HP/s
 		Fire and sickness debuff durations are halved
 		You emit yellow light if visibility is enabled
@@ -151,10 +151,11 @@ AngelTreads: {
 	DisplayName: Angel Treads
 	Tooltip:
 		'''
-		36% increased running acceleration
-		Increased flight time and grants rocket flight
-		Provides water walking and extra mobility on ice
-		Grants immunity to On Fire! and temporary immunity to lava
+		Allows flight, super fast running, and extra mobility on ice
+		{0}% increased movement speed and {1}% increased flight time
+		Provides the ability to walk on water, honey & lava
+		Grants immunity to fire blocks and {2} seconds of immunity to lava
+		Reduces damage from touching lava
 		'Extreme speed!'
 		'''
 }
@@ -970,10 +971,9 @@ HideofAstrumDeus: {
 	DisplayName: Hide of Astrum Deus
 	Tooltip:
 		'''
-		Taking damage or inflicting true melee strikes drops an immense amount of astral stars from the sky
-		Taking damage temporarily increases true melee damage by 30%
+		True melee strikes drops astral stars from the sky
+		Releases an explosion and temporarily increases true melee damage by 30% when damaged
 		Boost duration scales with the amount of damage you took, up to 10 seconds
-		Attackers take damage and are inflicted with Astral Infection
 		Nullifies the Astral Infection debuff
 		'''
 }
@@ -983,8 +983,7 @@ HoneyDew: {
 	Tooltip:
 		'''
 		+10 max life
-		Grants +1 HP/s life regen, and +1 HP/s life regen when inflicted with a damaging debuff
-		Standing still in Honey grants +1.5 HP/s life regen
+		Grants the Honey buff
 		Sickness debuff durations are halved
 		'''
 }
@@ -1104,8 +1103,7 @@ LivingDew: {
 	Tooltip:
 		'''
 		+25 max life
-		Grants +1 HP/s life regen and an additional 1 HP/s life regen when inflicted with a damaging debuff
-		Standing still in Honey grants +1.5 HP/s life regen
+		Grants the Honey buff
 		Fire and sickness debuff durations are halved
 		'''
 }
@@ -1429,7 +1427,7 @@ Radiance: {
 		[c/CDF69C:Grants +2 to +5 HP/s life regen based on missing health]
 		[c/CDF69C:Recover an additional 6 HP/s while inflicted with a debuff]
 		[c/CDF69C:This eventually slows to 1.33 HP/s when debuffed for an extended time period]
-		[c/CDF69C:Standing still provides +2 HP/s life regen and faster natural regen recovery]
+		[c/CDF69C:Grants the Honey buff]
 		[c/CDF69C:Grants 15 defense while afflicted with any debuff]
 		[c/CDF69C:Each additional debuff grants 5 defense, which slowly decays while not debuffed]
 		[c/CDF69C:Weak damaging debuffs are harmless and halves the duration of most other debuffs]

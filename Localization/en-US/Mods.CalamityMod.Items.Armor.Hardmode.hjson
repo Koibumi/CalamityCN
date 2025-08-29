@@ -211,7 +211,11 @@ HydrothermicHeadMagic: {
 		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
 		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
-	SetBonus: Magic attacks summon damaging and healing flare orbs on hit
+	SetBonus:
+		'''
+		Magic attacks summon damaging and healing flare orbs on hit
+		{$HydrothermicArmor.CommonSetBonus}
+		'''
 }
 
 HydrothermicHeadMelee: {
@@ -225,6 +229,7 @@ HydrothermicHeadMelee: {
 		'''
 		{$Common.AggroBoost}
 		Melee attacks and projectiles cause chaos flames to erupt on enemy hits
+		{$HydrothermicArmor.CommonSetBonus}
 		'''
 }
 
@@ -235,7 +240,11 @@ HydrothermicHeadRanged: {
 		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 		25% chance to save ammo
 		'''
-	SetBonus: You fire a homing chaos flare when using ranged weapons every {0} seconds
+	SetBonus:
+		'''
+		You fire a homing chaos flare when using ranged weapons every {0} seconds
+		{$HydrothermicArmor.CommonSetBonus@1}
+		'''
 }
 
 HydrothermicHeadRogue: {
@@ -249,6 +258,7 @@ HydrothermicHeadRogue: {
 		'''
 		{$Common.RogueStealth}
 		Rogue weapons unleash a volley of homing chaos flames around the player every {1} seconds
+		{$HydrothermicArmor.CommonSetBonus@2}
 		'''
 }
 
@@ -264,6 +274,7 @@ HydrothermicHeadSummon: {
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		Summons a hydrothermic vent to protect you
+		{$HydrothermicArmor.CommonSetBonus@2}
 		'''
 }
 

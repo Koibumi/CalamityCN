@@ -28,7 +28,6 @@ AddedTooltip: {
 		这会提供+1.5HP/s生命再生并加速自然生命再生
 		生命汲取会基于被击中敌怪的数量叠加
 		'''
-	WarmthPotion: 大幅降低冷冻和冰冻减益的持续时间
 	HandWarmer: 穿着全套的防雪盔甲时额外提供生命再生
 	GoldenFishingRod: 鱼线永远不会断裂
 	// Step Stool
@@ -180,8 +179,6 @@ EditedTooltip: {
 		近战伤害增加14%
 		近战攻速增加14%，该效果不会与其下位合成材料叠加
 		'''
-	ObsidianSkullLine: 对燃烧和着火了！减益免疫
-	LavaWaders: 对燃烧和着火了！减益免疫并在7秒内对熔岩免疫
 	Gi: 移动速度和跳跃速度各提高10%
 	GoldPickaxe: 可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片
 	FlaskofCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
@@ -256,7 +253,6 @@ BuffDescription: {
 	BeetleMight: 近战伤害和攻速分别提升 {0}% 和 {1}%
 	ChaosState: 混沌传送杖暂时无法传送
 	Rabies: 降低生命再生，对状态造成影响
-	WarmthExtra: 降低冷冻和冰冻减益的持续时间
 	WeaponImbueConfetti: 所有攻击喷出彩纸
 	WeaponImbueCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
 	WeaponImbueFire: 近战、鞭子和盗贼攻击会使敌人着火

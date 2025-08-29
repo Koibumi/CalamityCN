@@ -212,7 +212,11 @@ HydrothermicHeadMagic: {
 		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
 		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
-	SetBonus: 魔法攻击击中时召唤伤害火球和治疗火球
+	SetBonus:
+		'''
+		魔法攻击击中时召唤伤害火球和治疗火球
+		{$HydrothermicArmor.CommonSetBonus}
+		'''
 }
 
 HydrothermicHeadMelee: {
@@ -226,6 +230,7 @@ HydrothermicHeadMelee: {
 		'''
 		{$Common.AggroBoost}
 		近战攻击和弹幕在击中敌人时喷发出混沌火焰
+		{$HydrothermicArmor.CommonSetBonus}
 		'''
 }
 
@@ -236,7 +241,11 @@ HydrothermicHeadRanged: {
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 		25%几率节省弹药
 		'''
-	SetBonus: 使用远程武器时每{0}秒发射一团追踪的混沌火焰
+	SetBonus:
+		'''
+		使用远程武器时每{0}秒发射一团追踪的混沌火焰
+		{$HydrothermicArmor.CommonSetBonus@1}
+		'''
 }
 
 HydrothermicHeadRogue: {
@@ -250,6 +259,7 @@ HydrothermicHeadRogue: {
 		'''
 		{$Common.RogueStealth}
 		使用盗贼武器攻击时每{1}秒会在你周围释放一阵追踪敌人的混沌火焰
+		{$HydrothermicArmor.CommonSetBonus@2}
 		'''
 }
 
@@ -265,6 +275,7 @@ HydrothermicHeadSummon: {
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		召唤沸腾渊泉保护你
+		{$HydrothermicArmor.CommonSetBonus@2}
 		'''
 }
 

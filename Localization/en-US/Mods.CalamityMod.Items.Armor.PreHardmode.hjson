@@ -19,6 +19,7 @@ AerospecHeadMagic: {
 		'''
 		{$CommonItemTooltip.PercentReducedManaCost}
 		{1}% increased movement speed and magic critical strike chance
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
@@ -29,6 +30,7 @@ AerospecHeadRogue: {
 		'''
 		{$Common.RogueStealth}
 		{1}% increased movement speed and rogue critical strike chance
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
@@ -39,6 +41,7 @@ AerospecHeadMelee: {
 		'''
 		{0}% increased movement speed and melee critical strike chance
 		{$Common.AggroBoost}
+		{$AerospecBreastplate.CommonSetBonus@1}
 		'''
 }
 
@@ -50,13 +53,18 @@ AerospecHeadSummon: {
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		Summons a valkyrie to protect you
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
 AerospecHeadRanged: {
 	DisplayName: Aerospec Hood
 	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
-	SetBonus: "{0}% increased movement speed and ranged critical strike chance"
+	SetBonus:
+		'''
+		{0}% increased movement speed and ranged critical strike chance
+		{$AerospecBreastplate.CommonSetBonus@1}
+		'''
 }
 
 AerospecLeggings: {
@@ -159,7 +167,11 @@ StatigelHeadMelee: {
 		{0}% increased melee damage and melee speed
 		{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 		'''
-	SetBonus: "{$Common.AggroBoost}"
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$StatigelArmor.CommonSetBonus}
+		'''
 }
 
 StatigelHeadRanged: {
@@ -178,7 +190,11 @@ StatigelHeadRogue: {
 		{$Common.RogueDamage}
 		{$Common.RogueCrit@1} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
-	SetBonus: "{$Common.RogueStealth}"
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$StatigelArmor.CommonSetBonus@1}
+		'''
 }
 
 StatigelHeadSummon: {
@@ -192,6 +208,7 @@ StatigelHeadSummon: {
 		'''
 		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		Summons a mini paladin to fight for you, the type depends on what world evil you have
+		{$StatigelArmor.CommonSetBonus@1}
 		'''
 }
 

@@ -19,6 +19,7 @@ AerospecHeadMagic: {
 		'''
 		{$CommonItemTooltip.PercentReducedManaCost}
 		增加{1}%移动速度与魔法暴击率
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
@@ -29,6 +30,7 @@ AerospecHeadRogue: {
 		'''
 		{$Common.RogueStealth}
 		增加{1}%移动速度和盗贼暴击率
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
@@ -39,6 +41,7 @@ AerospecHeadMelee: {
 		'''
 		增加{1}%移动速度和近战暴击率
 		{$Common.AggroBoost}
+		{$AerospecBreastplate.CommonSetBonus@1}
 		'''
 }
 
@@ -50,13 +53,18 @@ AerospecHeadSummon: {
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		召唤天武神保护你
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
 AerospecHeadRanged: {
 	DisplayName: 天蓝兜帽
 	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
-	SetBonus: 增加{1}%移动速度和远程暴击率
+	SetBonus:
+		'''
+		增加{0}%移动速度和远程暴击率
+		{$AerospecBreastplate.CommonSetBonus@1}
+		'''
 }
 
 AerospecLeggings: {
@@ -159,7 +167,11 @@ StatigelHeadMelee: {
 		增加{0}%近战伤害和近战攻速
 		{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 		'''
-	SetBonus: "{$Common.AggroBoost}"
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$StatigelArmor.CommonSetBonus}
+		'''
 }
 
 StatigelHeadRanged: {
@@ -178,7 +190,11 @@ StatigelHeadRogue: {
 		{$Common.RogueDamage}
 		{$Common.RogueCrit@1}和{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
-	SetBonus: "{$Common.RogueStealth}"
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$StatigelArmor.CommonSetBonus@1}
+		'''
 }
 
 StatigelHeadSummon: {
@@ -192,6 +208,7 @@ StatigelHeadSummon: {
 		'''
 		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		召唤小圣卫为你而战，它的种类取决于世界邪恶类型
+		{$StatigelArmor.CommonSetBonus@1}
 		'''
 }
 

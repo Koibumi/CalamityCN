@@ -531,7 +531,7 @@ Exhumed: {
 
 Indignant: {
 	DisplayName: Indignant
-	Description: Summons demons that harm you but drop healing items on death on item usage.
+	Description: Summons demons that harm you but drop healing orbs on death on item usage.
 }
 
 Aflame: {

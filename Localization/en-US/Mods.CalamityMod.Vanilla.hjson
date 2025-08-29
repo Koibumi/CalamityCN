@@ -28,7 +28,6 @@ AddedTooltip: {
 		This grants +1.5 HP/s life regen and accelerates natural life regen
 		Life drain stacks based on the number of enemies being hit
 		'''
-	WarmthPotion: Greatly reduces the duration of Chilled and Frozen
 	HandWarmer: Provides a regeneration boost while wearing the Snow armor
 	GoldenFishingRod: Its fishing line will never break
 	// Step Stool
@@ -180,8 +179,6 @@ EditedTooltip: {
 		14% increased melee damage
 		14% increased melee speed, does not stack with downgrades
 		'''
-	ObsidianSkullLine: Grants immunity to the Burning and On Fire! debuffs
-	LavaWaders: Grants immunity to the Burning and On Fire! debuffs, and 7 seconds of immunity to lava
 	Gi: 10% increased movement and jump speed
 	GoldPickaxe: Can mine Demonite, Crimtane, Meteorite, Sea Prisms, and Sea Prism Crystals
 	FlaskofCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames
@@ -256,7 +253,6 @@ BuffDescription: {
 	BeetleMight: Melee damage and speed increase by {0}% and {1}% respectively
 	ChaosState: Rod of Discord teleports are disabled
 	Rabies: Decreased life regen, Causes status effects
-	WarmthExtra: Reduced durations of Chilled and Frozen
 	WeaponImbueConfetti: All attacks cause confetti to appear
 	WeaponImbueCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames
 	WeaponImbueFire: Melee, Whip, and Rogue attacks set enemies on fire

@@ -531,7 +531,7 @@ Exhumed: {
 
 Indignant: {
 	DisplayName: 愤慨
-	Description: 使用时召唤一个恶魔攻击你，但恶魔死亡后会掉落治疗物品治愈你。
+	Description: 使用时召唤一个恶魔攻击你，但恶魔死亡后会掉落治疗珠治愈你。
 }
 
 Aflame: {
