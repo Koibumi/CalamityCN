@@ -10,6 +10,19 @@ AerialTracker: {
 		'''
 }
 
+AqueousHunterDrone: {
+	DisplayName: P-PMA: Aqueous Hunter Drone
+	Tooltip:
+		'''
+		Summons a shrimp drone that fires bursts of homing plasma missiles
+		<right> while holding any summon weapon to command the shrimp to launch a vertical missile barrage
+		Vertical missiles aim towards your cursor and leave a lingering blast if they hit solid ground
+		Each shrimp uses 4 minion slots
+		[c/1FBFF:'When pursuing the adherents of Gods, Yharim believed no stone should be left unturned.]
+		[c/1FBFF:Weaponry for underwater contingencies was an unusually heavy focus, but no models ever saw deployment.']
+		'''
+}
+
 Auger: {
 	DisplayName: P-GSS: Auger
 	Tooltip:
@@ -220,16 +233,6 @@ SnakeEyes: {
 		Reflected bolts home in and explode on impact
 		[c/1FFBFF:'Equipped with high-end sensors, little can evade them. Even less are able to escape their ever watchful eyes.]
 		[c/1FFBFF:An excellent bridge between my experiments with the sight-based soul powered machines and my latest project.']
-		'''
-}
-
-StarSwallowerContainmentUnit: {
-	DisplayName: Star Swallower Containment Unit
-	Tooltip:
-		'''
-		Summons a biomechanical frog that vomits plasma onto enemies
-		[c/1FFBFF:'These simplistic creatures were mechanized to autonomously transport plasma.]
-		[c/1FFBFF:They are vastly more servicable than their mundane organic counterparts.']
 		'''
 }
 

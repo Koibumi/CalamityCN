@@ -1073,6 +1073,11 @@ AquaticStar: {
 	Description: 深海之星会保护你
 }
 
+AqueousHunterDroneBuff: {
+	DisplayName: Aqueous Hunter Drone Buff
+	Description: 不幸地是，它没法做炒饭
+}
+
 AstralProbeBuff: {
 	DisplayName: 幻星探测器
 	Description: 幻星探测器会保护你

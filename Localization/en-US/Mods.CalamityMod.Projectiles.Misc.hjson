@@ -8,6 +8,7 @@ AnomalysNanogunHoldout.DisplayName: The Anomaly's Nanogun
 AnomalysNanogunMPFBBoom.DisplayName: MPFB Explosion
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastator
 AnomalysNanogunPlasmaBeam.DisplayName: Plasma Beam
+AqueousHunterDroneSummon.DisplayName: Plasma Shrimp
 AugerHoldout.DisplayName: P-GSS Auger
 AugerSlash.DisplayName: Auger Slash
 AugerPull.DisplayName: Auger Pull
@@ -40,6 +41,7 @@ PulseRifleShot.DisplayName: Pulse Bolt
 PulseTurret.DisplayName: Pulse Turret
 PulseTurretShot.DisplayName: Pulse Bolt
 ShortCircuitHook.DisplayName: Short Circuit Hook
+ShrimpPlasmaMissile.DisplayName: Plasma Shrimp Missile
 SnakeEyesSummon.DisplayName: Snake Eyes
 SnakeEyesProjectile.DisplayName: Inescapable Bolt
 StarSwallowerAcid.DisplayName: Acid

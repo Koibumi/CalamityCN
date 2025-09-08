@@ -147,6 +147,7 @@ GrandGuardianBoom.DisplayName: 星宇迸发
 GreenWater.DisplayName: 毒牙
 GrovetendersEntanglingVines.DisplayName: 缠绕疯长
 GrovetendersTouch.DisplayName: 树妖之触
+GildedProboscisProj.DisplayName: 镀金鸟喙
 HeavensMight.DisplayName: 极乐之威
 HeavensMonolith.DisplayName: Heaven's Monolith
 HellionSpike.DisplayName: 爆发尖刺
@@ -159,15 +160,23 @@ LamentationsOfTheChained.DisplayName: 羁系者之哀歌
 LifeScythe.DisplayName: 猎命之镰
 LightBeam.DisplayName: 光束
 LightningThing.DisplayName: 电光
+LucreciaProj.DisplayName: 卢克雷西亚
+LucreciaDNATrailCreator.DisplayName: 卢克雷西亚DNA
+LucreciaDoubleHelix.DisplayName: 卢克雷西亚螺旋彗星
+LucreciaSmallProjectile.DisplayName: 卢克雷西亚
 LuxorsGiftMelee.DisplayName: 卢克索之近战符文
 MantisClawHoldout.DisplayName: 螳螂爪
 MantisClawJet.DisplayName: 螳螂爪喷流
 MantisClawSlash.DisplayName: 螳螂爪快斩
 MicrowaveAura.DisplayName: 微波辐照
 MirrorBlast.DisplayName: 镜之冲击
+MirrorBladeProjectile.DisplayName: 镜之刃
+MirrorBladeSlash.DisplayName: 镜之刃斩切
+MirrorBladeSlashCreator.DisplayName: 镜之刃斩切
 MonstrousKnife.DisplayName: 畸变飞刀
 MourningSkull.DisplayName: 恐惧骷髅
 MourningstarFlail.DisplayName: 晨星链刃
+MutilatorSwordProj.DisplayName: 斩切刃
 Nebudust.DisplayName: 星云余烬
 NebulashFlail.DisplayName: 星云鞭
 NebulaShot.DisplayName: 子弹
@@ -301,8 +310,3 @@ WulfrumScrew.DisplayName: 钨钢螺丝钉
 WulfrumScrewdriverProj.DisplayName: 钨钢螺丝刀
 YinYoDark.DisplayName: 黑暗碎块
 YinYoLight.DisplayName: 光明碎块
-MutilatorSwordProj.DisplayName: 斩切刃
-MirrorBladeProjectile.DisplayName: 镜之刃
-MirrorBladeSlash.DisplayName: 镜之刃斩切
-MirrorBladeSlashCreator.DisplayName: 镜之刃斩切
-GildedProboscisProj.DisplayName: 镀金鸟喙

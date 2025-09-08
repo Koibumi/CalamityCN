@@ -8,6 +8,7 @@ AnomalysNanogunHoldout.DisplayName: 异象纳米枪
 AnomalysNanogunMPFBBoom.DisplayName: MPFB爆炸
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB毁灭仪
 AnomalysNanogunPlasmaBeam.DisplayName: 离子光束
+AqueousHunterDroneSummon.DisplayName: 等离子虾
 AugerHoldout.DisplayName: P-GSS Auger
 AugerSlash.DisplayName: Auger Slash
 AugerPull.DisplayName: Auger Pull
@@ -40,6 +41,7 @@ PulseRifleShot.DisplayName: 脉冲束
 PulseTurret.DisplayName: 脉冲炮塔
 PulseTurretShot.DisplayName: 脉冲弹
 ShortCircuitHook.DisplayName: Short Circuit Hook
+ShrimpPlasmaMissile.DisplayName: 等离子虾导弹
 SnakeEyesSummon.DisplayName: 蛇眼
 SnakeEyesProjectile.DisplayName: 无法逃避的能量矢
 StarSwallowerAcid.DisplayName: 酸

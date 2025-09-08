@@ -10,6 +10,19 @@ AerialTracker: {
 		'''
 }
 
+AqueousHunterDrone: {
+	DisplayName: P-PMA: Aqueous Hunter Drone
+	Tooltip:
+		'''
+		召唤一只发射追踪等离子导弹群的虾无人机
+		手持任何召唤武器时<right>以指令虾发射一阵垂直导弹
+		垂直导弹瞄向光标发射，命中实体地面时产生滞留爆炸
+		每只虾使用4个仆从栏位
+		[c/1FBFF:“当追剿神之信徒时，亚利姆认为不应放过任何一个角落。]
+		[c/1FBFF:水下应急武器曾异常受到重视，但却未曾有型号部署。”]
+		'''
+}
+
 Auger: {
 	DisplayName: P-GSS: Auger
 	Tooltip:
@@ -220,16 +233,6 @@ SnakeEyes: {
 		被反弹的能量矢会追踪并在接触敌怪时爆炸
 		[c/1FFBFF:“装备有高端的传感器，几乎无人可以避开它们。能逃脱它们目光的则更少了。]
 		[c/1FFBFF:在我基于视觉灵魂的动力机器实验和我最新的项目之间的一座优秀桥梁。”]
-		'''
-}
-
-StarSwallowerContainmentUnit: {
-	DisplayName: 噬星者控制元件
-	Tooltip:
-		'''
-		召唤一个生物力学青蛙，向敌人倾吐电浆
-		[c/1FFBFF:“这些简单的生物被机械化以自主运输等离子体。]
-		[c/1FFBFF:它们比普通的有机对应物更具服务性。”]
 		'''
 }
 

@@ -229,15 +229,7 @@ AsgardianAegis: {
 		'''
 		Allows the ability to dash, empowered by a cosmic inferno
 		This dash can ram through enemies without taking damage
-		Grants immunity to knockback and fire blocks, as well as multiple debuffs
-		'''
-	HoldShiftTooltip:
-		'''
-		  On Fire!, Hellfire, Burning, Chilled, Frozen, Frostburn, Frostbite, Weak,
-		  Broken Armor, Bleeding, Poisoned, Acid Venom, Sulphuric Poisoning, Slow, Confused,
-		  Silenced, Cursed, Darkness, Webbed, Mighty Wind, Stoned, Armor Crunch, Blackout,
-		  Brain Rot, Burning Blood, Heavy Bleeding, Laceration, Cursed Inferno, Brimstone Flames,
-		  Shadowflame, Daybroken, Nightwither, Holy Flames, Voidfrost, God Slayer Inferno
+		Grants immunity to knockback
 		'''
 }
 
@@ -247,13 +239,7 @@ AsgardsValor: {
 		'''
 		Allows the ability to ram dash
 		This dash can ram through enemies without taking damage
-		Grants immunity to knockback and fire blocks, as well as multiple debuffs
-		'''
-	HoldShiftTooltip:
-		'''
-		  On Fire!, Hellfire, Chilled, Frozen, Frostburn, Frostbite, Weak,
-		  Broken Armor, Bleeding, Poisoned, Slow, Confused, Silenced, Cursed,
-		  Darkness, Mighty Wind, Stoned, Brimstone Flames, Burning
+		Grants immunity to knockback
 		'''
 }
 
@@ -438,7 +424,7 @@ CoinofDeceit: {
 	DisplayName: Coin of Deceit
 	Tooltip:
 		'''
-		Stealth strikes only expend 85% of your max stealth
+		Stealth strikes only expend 90% of your max stealth
 		6% increased rogue crit chance
 		'''
 }
@@ -734,14 +720,9 @@ ElysianAegis: {
 		'''
 		Allows the ability to dash, empowered by holy fire
 		This dash can ram through enemies without taking damage
-		Grants immunity to knockback, fire blocks, as well as multiple debuffs
+		Grants immunity to knockback
+		'Blessed by the Profaned Flame'
 		'''
-	HoldShiftTooltip:
-		'''
-		  On Fire!, Hellfire, Cursed Inferno, Shadowflame, Daybroken,
-		  Holy Flames, Brimstone Flames, Burning
-		'''
-	FlavorTooltip: "'Blessed by the Profaned Flame'"
 }
 
 EnchantedPearl: {
@@ -1281,7 +1262,6 @@ OrnateShield: {
 		'''
 		Allows the ability to dash
 		This dash can ram through enemies without taking damage
-		Grants immunity to Chilled, Frostburn, Frostbite, and Frozen
 		'''
 }
 
