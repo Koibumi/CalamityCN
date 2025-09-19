@@ -282,6 +282,7 @@ EarlyBloomRod: {
 	Tooltip:
 		'''
 		Fires six lines at once. Line never snaps
+		Equip this as an accessory to disable fishing minigames
 		'The early bird catches the fish'
 		'''
 }
@@ -291,7 +292,12 @@ FeralDoubleRod: {
 	Tooltip:
 		'''
 		Fires two lines at once
-		Just as you have tamed the jungle monster, you can now tame the fish in the sea
+		Gains fishing power the more life you have lost
+		Provides a fishing minigame
+		Press <right> to drain life
+		Draining life speeds up catches
+		Bobbers can hook onto enemies, dealing damage when life is drained
+		Equip this as an accessory to use this minigame for other rods
 		'''
 }
 
@@ -300,8 +306,12 @@ HeronRod: {
 	Tooltip:
 		'''
 		Increases fishing power by {0}x when in space
-		'A silent head and beak lanced down and plucked it out by the head,
-		and the beak swallowed the little fish while its tail waved frantically.'
+		Provides a fishing minigame
+		Moving while fishing instead moves your bobbers
+		Rings appear over time above the water's surface
+		Touching a ring hooks an item onto the bobber
+		Bobbers will automatically reel in hooked items upon landing back in the water
+		Equip this as an accessory to use this minigame for other rods
 		'''
 }
 
@@ -309,9 +319,11 @@ NavyFishingRod: {
 	DisplayName: Navy Fishing Rod
 	Tooltip:
 		'''
-		While held, slowly electrifies nearby enemies
-		'The sea is a city.
-		Just below are highways, boulevards, streets and roundabouts bustling with submarine traffic.'
+		Fires bobbers that inflict Static Discharge on nearby enemies
+		Provides a fishing minigame
+		The bobber will float at your height underwater, allowing underwater fishing
+		Move in the indicated direction while fishing to catch items
+		Equip this as an accessory to use this minigame for other rods
 		'''
 }
 
@@ -319,10 +331,13 @@ RiftReeler: {
 	DisplayName: Rift Reeler
 	Tooltip:
 		'''
-		Fires three to five lines at once
+		Fires four lines at once
 		Can fish in lava
-		'The battlefield is a scene of constant chaos.
-		The winner will be the one who controls that chaos, both the pole and the fish.'
+		Provides a fishing minigame
+		Moving while fishing instead moves your bobbers
+		Rifts appear over time in liquids, containing an item
+		When bobbers touch a rift, they automatically reel in the item within
+		Equip this as an accessory to use this minigame for other rods
 		'''
 }
 
@@ -331,6 +346,7 @@ SlurperPole: {
 	Tooltip:
 		'''
 		Can fish in lava
+		Equip this as an accessory to disable fishing minigames
 		'It is the burning lava of the soul that has a furnace within--a very volcano of grief and sorrow.'
 		'''
 }
@@ -340,6 +356,11 @@ TheDevourerofCods: {
 	Tooltip:
 		'''
 		Fires ten lines at once. Line never snaps and can fish from lava
+		Provides a fishing minigame
+		Hooked items stay hooked forever
+		Common fish are automatically consumed while fishing
+		Consuming fish allows a bobber to hook a new item and feeds the user
+		Equip this as an accessory to use this minigame for other rods
 		'The devourer was once just an Eater of Shoals'
 		'''
 }
@@ -349,13 +370,22 @@ VerstaltiteFishingRod: {
 	Tooltip:
 		'''
 		Increases fishing power by {0}x when in the tundra
+		Equip this as an accessory to disable fishing minigames
 		The ancient alloy's prismatic qualities are perfect for attracting fish
 		'''
 }
 
 WulfrumRod: {
 	DisplayName: Wulfrum Fishing Pole
-	Tooltip: "'This barely works, but it's better than nothing...'"
+	Tooltip:
+		'''
+		Can fish up Wulfrum Metal Scrap and Wulfrum Energy Cores
+		Provides a fishing minigame
+		Move in the indicated direction while fishing to catch items
+		The rod empowers the longer you go without a mistake, speeding it up
+		Equip this as an accessory to use this minigame for other rods
+		'This barely works, but it's better than nothing...'
+		'''
 }
 
 // Bait

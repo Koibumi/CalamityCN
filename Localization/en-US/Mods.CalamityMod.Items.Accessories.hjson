@@ -1556,7 +1556,7 @@ ScuttlersJewel: {
 	DisplayName: Scuttler's Jewel
 	Tooltip:
 		'''
-		Stealth strike projectiles spawn a jewel spike when destroyed
+		Stealth strike projectiles spawn a jewel spike on hit or when destroyed
 		Can also be broken down at an extractinator
 		'''
 }

@@ -1,4 +1,4 @@
-SmallWorldWarning: "[c/FF0000:SMALL WORLDS NOT SUPPORTED BY CALAMITY]"
+﻿SmallWorldWarning: "[c/FF0000:SMALL WORLDS NOT SUPPORTED BY CALAMITY]"
 // Main Menu Name
 MainMenu: Calamity Style
 MainMenuClassic: Calamity Style - Classic
@@ -133,7 +133,7 @@ Cooldowns: {
 	PrismaticLaser: Prismatic Laser Barrage Cooldown
 	ProfanedSoulShieldDurability: Profaned Soul Shield Durability
 	ProfanedSoulShieldRecharge: Profaned Soul Shield Recharge
-	RaidersBoost: Extra Critical Chance
+	RaidersBoost: Extra Critical Strike Chance
 	RelicOfResilienceCooldown: Relic of Resilience Cooldown
 	RogueBooster: Rogue Booster Cooldown
 	SandCloak: Sand Cloak Cooldown

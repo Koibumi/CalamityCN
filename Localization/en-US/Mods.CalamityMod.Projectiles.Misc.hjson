@@ -57,6 +57,7 @@ WavePounderBoom.DisplayName: Explosion
 WavePounderProjectile.DisplayName: Wave Pounder
 // Environmental
 AcidDrop.DisplayName: Acid
+BarrelCactusProjectile.DisplayName: Barrel Cactus
 BrimstoneGeyser.DisplayName: Smoke
 GeyserTelegraph.DisplayName: Geyser
 HotSteam.DisplayName: Steam

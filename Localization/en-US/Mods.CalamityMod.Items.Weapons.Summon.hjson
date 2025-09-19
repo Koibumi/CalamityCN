@@ -485,7 +485,8 @@ IgneousExaltation: {
 	Tooltip:
 		'''
 		Summons an Igneous blade that orbits around you
-		<right> to launch all blades towards the cursor
+		When your minion slots are full, <left> again to launch all blades towards the cursor
+		This ability has a two-second cooldown that requires holding this item
 		'''
 }
 
@@ -855,7 +856,15 @@ ViralSprout: {
 
 ViridVanguard: {
 	DisplayName: Virid Vanguard
-	Tooltip: Summons a circular formation of blades that slice nearby enemies to pieces
+	Tooltip:
+		'''
+		Alternates between summoning axes and swords, both laced with a powerful poison
+		Axes orbit the player, dealing high damage at a close range
+		Swords chase down enemies with extreme precision, tearing them to shreds
+		All weapons inflict Sage Poison, which becomes more powerful the more weapons are summoned
+		When all minion slots are full, <left> again to spin up a flurry of slashes aimed at your cursor
+		This ability has a five-second cooldown that requires holding this item
+		'''
 }
 
 VoidConcentrationStaff: {

@@ -1044,8 +1044,9 @@ ScorchedEarth: {
 	DisplayName: Scorched Earth
 	Tooltip:
 		'''
-		Fires a burst of four fuel-air rockets which explode into cluster bombs
-		Each burst consumes two rockets each
+		Fires a burst of four heat seeking missiles that rapidly accelerate after a short delay
+		All rockets explode into napalm cluster bombs on impact
+		50% chance to save ammo
 		'Burns your targets to a fine crisp'
 		'''
 }
