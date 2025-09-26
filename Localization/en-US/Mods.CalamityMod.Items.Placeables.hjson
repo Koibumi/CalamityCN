@@ -4144,16 +4144,6 @@ EutrophicGlassWall: {
 	Tooltip: ""
 }
 
-EutrophicSandWall: {
-	DisplayName: Unsafe Eutrophic Sand Wall
-	Tooltip: ""
-}
-
-EutrophicSandWallSafe: {
-	DisplayName: Eutrophic Sand Wall
-	Tooltip: ""
-}
-
 ExoPlatingWallItem: {
 	DisplayName: Exo Plating Wall
 	Tooltip: ""
@@ -4195,11 +4185,6 @@ NavyplateWall: {
 }
 
 NavystoneWall: {
-	DisplayName: Unsafe Navystone Wall
-	Tooltip: ""
-}
-
-NavystoneWallSafe: {
 	DisplayName: Navystone Wall
 	Tooltip: ""
 }
@@ -4651,5 +4636,10 @@ ShellTrimBrickWall: {
 
 BasaltSlab: {
 	DisplayName: Basalt Slab
+	Tooltip: ""
+}
+
+UnsafeNavystoneWall: {
+	DisplayName: Unsafe Navystone Wall
 	Tooltip: ""
 }

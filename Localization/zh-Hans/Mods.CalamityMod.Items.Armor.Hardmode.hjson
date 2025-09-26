@@ -4,6 +4,7 @@ AstralBreastplate: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxManaBy}
 		{$CommonItemTooltip.PercentIncreasedDamage@1}
+		{$Common.AmmoUseReduction@2}
 		'''
 }
 
@@ -49,10 +50,9 @@ BrimflameCowl: {
 	SetBonus:
 		'''
 		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
-		额外增加15%魔法伤害和暴击率
 		[c/{1}:硫火狂暴 - {2}开启，持续{3}秒，期间{$CommonItemTooltip.PercentIncreasedMagicDamage@4}]
 		[c/FF9173:然而，这将带来快速的生命值流失，并禁用魔力再生和魔力药水]
-		[c/FF9173:此状态可以手动关闭, 硫火狂暴有{5}秒冷却时间]
+		[c/FF9173:此状态可以手动关闭，硫火狂暴有{5}秒冷却时间]
 		'''
 }
 
@@ -96,7 +96,7 @@ DaedalusHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		20%几率节省弹药
+		{$Common.AmmoUseReduction@2}
 		'''
 	SetBonus: 当你被击中时释放水晶碎片
 }
@@ -239,7 +239,7 @@ HydrothermicHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		25%几率节省弹药
+		{$Common.AmmoUseReduction@2}
 		'''
 	SetBonus:
 		'''
@@ -318,7 +318,11 @@ LunicCorpsHelmet: {
 
 LunicCorpsVest: {
 	DisplayName: 雷神之锤胸甲
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}"
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
+		{$Common.AmmoUseReduction@1}
+		'''
 }
 
 MolluskShelleggings: {
@@ -394,7 +398,7 @@ PlagueReaperMask: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		25%几率节省弹药
+		{$Common.AmmoUseReduction@2}
 		'''
 	SetBonus:
 		'''

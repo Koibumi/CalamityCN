@@ -9,13 +9,18 @@ AuricTeslaCuisses: {
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
 		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
-		使你获得魔毯的效果
+		提供魔法飞毯效果
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:FlyingCarpet] [c/aaaaaa:飞毯的效果]
 		'''
 }
 
 AuricTeslaHeadRanged: {
 	DisplayName: 金兜铁面盔
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}"
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$Common.AmmoUseReduction@2}
+		'''
 	SetBonus:
 		'''
 		龙蒿套装、血炎套装和弑神者套装的套装奖励
@@ -217,7 +222,11 @@ BloodflareHeadMelee: {
 
 BloodflareHeadRanged: {
 	DisplayName: 血弑曲角盔
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}"
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
+		{$Common.AmmoUseReduction@1}
+		'''
 	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
 		'''
@@ -277,6 +286,7 @@ DemonshadeBreastplate: {
 		{$CommonItemTooltip.IncreasesMaxManaBy}
 		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
 		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		{$Common.AmmoUseReduction@3}
 		站立不动时吸收暗影以获取指数加速的生命再生
 		'''
 }
@@ -443,7 +453,11 @@ GodSlayerHeadMelee: {
 
 GodSlayerHeadRanged: {
 	DisplayName: 弑神者头套
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}"
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$Common.AmmoUseReduction@2}
+		'''
 	SetBonus: "{$GodSlayerHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
 		'''
@@ -486,6 +500,7 @@ OmegaBlueChestplate: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$Common.AmmoUseReduction@2}
 		你的攻击会造成Hadopelagic Pressure减益
 		生命再生归零
 		'''
@@ -664,7 +679,11 @@ TarragonHeadMelee: {
 
 TarragonHeadRanged: {
 	DisplayName: 龙蒿面罩
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}"
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$Common.AmmoUseReduction@2}
+		'''
 	SetBonus: "{$TarragonHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
 		'''

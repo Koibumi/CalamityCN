@@ -573,10 +573,13 @@ DeificAmulet: {
 	DisplayName: 神圣护符
 	Tooltip:
 		'''
-		受到伤害时会召唤星星从天而降并延长受伤后无敌时间
+		受到伤害时释放一阵追踪星星[TOGGLE]
+		延长各种来源的无敌时间
 		根据你已损失的生命值在受伤时获得额外的无敌帧
 		满血时提供10无敌帧，最高提升至25%以下血量时的40无敌帧
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
 		'''
+	ToggleEffect: 并增加移动速度
 }
 
 DepthCharm: {
@@ -751,7 +754,8 @@ EtherealTalisman: {
 		增加15%魔法伤害和5%魔法暴击率
 		增加150点最大魔力值并降低10%魔力消耗
 		扩大魔力星的拾取范围
-		若打开饰品可见性，你会在需要时自动饮用魔力药水
+		你会在需要时自动饮用魔力药水
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:ManaFlower] [c/aaaaaa:魔力花的效果]
 		'''
 }
 
@@ -1432,14 +1436,17 @@ RampartofDeities: {
 	DisplayName: 神之壁垒
 	Tooltip:
 		'''
-		受到伤害时会召唤星星从天而降并延长受伤后无敌时间
+		受到伤害时释放一阵追踪星星[TOGGLE]
+		延长各种来源的无敌时间
 		根据你已损失的生命值在受伤时获得额外的无敌帧
 		满血时提供10无敌帧，最高提升至25%以下血量时的40无敌帧
 		受到200点以上伤害时提供30额外无敌帧
 		对击退免疫
 		生命低于50%时会在你的周围生成能够降低25%所受伤害的护盾
 		生命值高于25%时会将团队中其他玩家所受伤害的25%转移到佩戴者身上
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
 		'''
+	ToggleEffect: 并增加移动速度
 }
 
 RareElementalinaBottle: {
@@ -1731,8 +1738,10 @@ StatisNinjaBelt: {
 		获得高速冲刺的能力
 		增加10%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
 		将移动加速度和减速度提升为1.6倍
-		可以游泳、攀爬和闪避攻击
+		可以游泳[TOGGLE]和闪避攻击
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
 		'''
+	ToggleEffect: 、攀爬
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
@@ -1743,9 +1752,11 @@ StatisVoidSash: {
 		获得高速冲刺的能力
 		增加20%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
 		将移动加速度和减速度提升为1.85倍
-		可以游泳、攀爬和闪避攻击
+		可以游泳[TOGGLE]和闪避攻击
 		如果关闭饰品可见性，视觉效果会减弱
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
 		'''
+	ToggleEffect: 、攀爬
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 

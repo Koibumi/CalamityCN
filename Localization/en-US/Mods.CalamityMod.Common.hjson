@@ -12,6 +12,7 @@ DoubleTapDown: Double tap {0}
 // Miscellaneous stats/info
 AggroBoost: Enemies are more likely to target you
 AggroReduction: Enemies are less likely to target you
+AmmoUseReduction: "{0}% chance to save ammo"
 KnockbackImmunity: Grants immunity to knockback
 AbyssLightLevel1: Provides a small amount of light in the abyss
 AbyssLightLevel2: Provides a moderate amount of light in the abyss

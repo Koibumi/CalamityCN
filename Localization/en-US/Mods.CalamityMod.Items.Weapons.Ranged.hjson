@@ -126,7 +126,11 @@ AstralBlaster: {
 
 AstrealDefeat: {
 	DisplayName: Astreal Defeat
-	Tooltip: All arrows are converted to Astreal Arrows that emit flames as they travel
+	Tooltip:
+		'''
+		All arrows are converted to Astreal Arrows that emit flames as they travel
+		33% chance to save ammo
+		'''
 }
 
 Auralis: {
@@ -210,6 +214,7 @@ BlossomFlux: {
 		'''
 		Fires a stream of leaves
 		Press <right> to fire a spore orb that explodes into a cloud of spore gas
+		50% chance to save ammo
 		'''
 	LegendaryText:
 		'''
@@ -635,6 +640,7 @@ Infinity: {
 		'''
 		Fires a twin stream of energy bolts that split
 		Press <right> to fire a barrage of normal bullets
+		80% chance to save ammo
 		'They say infinity is neverending, yet you hold it in your hands'
 		'''
 }
@@ -1127,6 +1133,7 @@ Shredder: {
 		'''
 		Fires a barrage of energy bolts that split and bounce
 		Press <right> to fire a barrage of normal bullets instead
+		60% chance to save ammo
 		'The myth, the legend, the weapon that drops more frames than any other'
 		'''
 }

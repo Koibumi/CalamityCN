@@ -573,10 +573,13 @@ DeificAmulet: {
 	DisplayName: Deific Amulet
 	Tooltip:
 		'''
-		Causes stars to fall and increases length of invincibility after taking damage
-		Grants bonus invincibility frames based on your missing health
+		Releases a burst of homing stars [TOGGLE]after taking damage
+		Increases the length of invincibility from various sources
+		Grants bonus invincibility frames when hurt, based on your missing health
 		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:PanicNecklace] [c/aaaaaa:Panic Necklace's effect]
 		'''
+	ToggleEffect: "and increases movement speed "
 }
 
 DepthCharm: {
@@ -751,7 +754,8 @@ EtherealTalisman: {
 		15% increased magic damage, 5% increased magic critical strike chance
 		+150 max mana and 10% decreased mana usage
 		Increases pickup range for mana stars
-		You automatically use mana potions when needed if visibility is on
+		You automatically use mana potions when needed
+		[c/aaaaaa:Shift-<right> in your inventory to toggle] [i:ManaFlower] [c/aaaaaa:Mana Flower's effect]
 		'''
 }
 
@@ -1433,14 +1437,17 @@ RampartofDeities: {
 	DisplayName: Rampart of Deities
 	Tooltip:
 		'''
-		Causes stars to fall and increases length of invincibility after taking damage
-		Grants bonus invincibility frames based on your missing health
+		Releases a burst of homing stars [TOGGLE]after taking damage
+		Increases the length of invincibility from various sources
+		Grants bonus invincibility frames when struck, based on your missing health
 		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
 		Being struck for over 200 damage grants 30 additional invincibility frames
 		Grants immunity to knockback
 		Puts a shell around the owner when below 50% life that reduces damage by 25%
 		Absorbs 25% of damage done to players on your team when above 25% life
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:PanicNecklace] [c/aaaaaa:Panic Necklace's effect]
 		'''
+	ToggleEffect: "and increases movement speed "
 }
 
 RareElementalinaBottle: {
@@ -1732,8 +1739,10 @@ StatisNinjaBelt: {
 		Provides a high-speed dash
 		10% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
 		Increases movement acceleration and deceleration by 1.6x
-		Grants the ability to swim, climb walls, and dodge attacks
+		Grants the ability to swim[TOGGLE] and dodge attacks
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:ClimbingClaws] [c/aaaaaa:Climbing Claws]
 		'''
+	ToggleEffect: ", climb walls,"
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
@@ -1744,9 +1753,11 @@ StatisVoidSash: {
 		Provides a high-speed dash
 		20% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
 		Increases movement acceleration and deceleration by 1.85x
-		Grants the ability to swim, climb walls, and dodge attacks
+		Grants the ability to swim[TOGGLE] and dodge attacks
 		Visual effects are reduced if visibility is disabled
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:ClimbingClaws] [c/aaaaaa:Climbing Claws]
 		'''
+	ToggleEffect: ", climb walls,"
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 

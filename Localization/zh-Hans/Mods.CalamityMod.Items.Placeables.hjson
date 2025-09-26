@@ -4144,16 +4144,6 @@ EutrophicGlassWall: {
 	Tooltip: ""
 }
 
-EutrophicSandWall: {
-	DisplayName: 危险富营养沙墙
-	Tooltip: ""
-}
-
-EutrophicSandWallSafe: {
-	DisplayName: 富营养沙墙
-	Tooltip: ""
-}
-
 ExoPlatingWallItem: {
 	DisplayName: 星流镶板墙
 	Tooltip: ""
@@ -4195,11 +4185,6 @@ NavyplateWall: {
 }
 
 NavystoneWall: {
-	DisplayName: 危险沉沦渊石墙
-	Tooltip: ""
-}
-
-NavystoneWallSafe: {
 	DisplayName: 沉沦渊石墙
 	Tooltip: ""
 }
@@ -4651,5 +4636,10 @@ ShellTrimBrickWall: {
 
 BasaltSlab: {
 	DisplayName: Basalt Slab
+	Tooltip: ""
+}
+
+UnsafeNavystoneWall: {
+	DisplayName: 危险沉沦渊石墙
 	Tooltip: ""
 }

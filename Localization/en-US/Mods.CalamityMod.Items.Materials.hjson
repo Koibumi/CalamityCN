@@ -326,3 +326,8 @@ AnodizedWulfrumMetal: {
 	DisplayName: Anodized Wulfrum Metal
 	Tooltip: ""
 }
+
+WillOWisp: {
+	DisplayName: Will O Wisp
+	Tooltip: ""
+}
