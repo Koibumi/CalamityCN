@@ -1,0 +1,18 @@
+Venom.ItemTooltip: Sickness - 30 DPS
+BetsysCurse.ItemTooltip: -40 defense
+CursedInferno.ItemTooltip: Heat - 24 DPS
+Frostburn2.ItemTooltip: Cold - 50 DPS
+Frostburn.ItemTooltip: Cold - 8 DPS
+OnFire3.ItemTooltip: Heat - 15 DPS
+OnFire.ItemTooltip: Heat - 6 DPS
+Ichor.ItemTooltip: -10 defense
+Oiled.ItemTooltip:
+	'''
+	Heat - 25 DPS. Recieves 2x the effect from Heat multipliers
+	Only does damage when paired with another Heat debuff
+	'''
+Poisoned.ItemTooltip: Sickness - 6 DPS
+PotionSickness.ItemTooltip: ""
+Slimed.ItemTooltip: Enhances Heat debuff damage
+Wet.ItemTooltip: Enhances Electric debuff damage
+Electrified.ItemTooltip: Electric - 10.5 DPS. Deals 4x damage to moving targets

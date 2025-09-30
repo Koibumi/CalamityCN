@@ -253,7 +253,7 @@ BloodflareHeadRogue: {
 		'''
 		高于{0}%生命值时增加{1}点防御
 		盗贼武器暴击会爆出血珠
-		捡起这些血珠会减少药水疾病的持续时间
+		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
 		{$BloodflareBodyArmor.CommonSetBonus}
 		'''
 }

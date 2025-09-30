@@ -11,6 +11,11 @@ Mods: {
 				Tooltip: Plays 'Hadopelagic Pressure' by DM DOKURO
 			}
 
+			AbyssLayer3AltMusicBox: {
+				DisplayName: 音乐盒（深层深渊替代）
+				Tooltip: Plays 'R'lyehian Depths' by Heart Plus Up!
+			}
+
 			AbyssLayer3MusicBox: {
 				DisplayName: 音乐盒（深层深渊）
 				Tooltip: Plays 'hydrothermophobia' by CDMusic
@@ -320,6 +325,7 @@ Mods: {
 					AbyssLayer1: hesitation
 					AbyssLayer2: Hadopelagic Pressure
 					AbyssLayer3: hydrothermophobia
+					AbyssLayer3Alt: R'lyehian Depths
 					AbyssLayer4: void
 					AbyssLegacy: R'LYEH
 					AcidRainTier1: corrosion!

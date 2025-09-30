@@ -253,7 +253,7 @@ BloodflareHeadRogue: {
 		'''
 		Grants {0} defense when above {1}% life
 		Rogue critical strikes burst into blood orbs
-		Picking up these blood orbs reduces the duration of [Potion Sickness]
+		Picking up these blood orbs reduces the duration of [cbuff:PotionSickness]
 		{$BloodflareBodyArmor.CommonSetBonus}
 		'''
 }

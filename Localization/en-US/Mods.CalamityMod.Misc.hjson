@@ -41,6 +41,8 @@ Tier4KnowledgeTooltip: The Underworld schematic must be deciphered first
 Tier5KnowledgeTooltip: The Ice biome schematic must be deciphered first
 // Other CombatText uses and Item Messages
 ShiftToExpand: Hold Shift to see an expanded description
+AltExpand: Hold {0} to see debuff information
+AltExpandUnset: Set a keybind to see debuff information
 LearnedSchematic: You learned how to create new things!
 CragmawVibeCheck: Vibe check.
 AutocannonHot: OUCH! HOT!

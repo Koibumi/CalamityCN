@@ -115,7 +115,7 @@ ArterialAssault: {
 		'''
 		Fires a group of 5 homing blood arrows
 		These blood arrows burst into blood orbs upon striking an enemy
-		Picking up these blood orbs reduces the duration of [Potion Sickness]
+		Picking up these blood orbs reduces the duration of [cbuff:PotionSickness]
 		'''
 }
 
@@ -202,7 +202,7 @@ BloodBoiler: {
 	Tooltip:
 		'''
 		Fires twin streams of bloodfire that returns to you
-		Retuning bloodfire reduces [Potion Sickness] if it struck an enemy
+		Retuning bloodfire reduces [cbuff:PotionSickness] if it struck an enemy
 		Uses your health as ammo
 		20% chance to save health
 		'''

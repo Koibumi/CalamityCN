@@ -124,71 +124,85 @@ Withered: {
 AstralInfectionDebuff: {
 	DisplayName: 幻星感染
 	Description: 你的血肉正在被幻星熔蚀
+	ItemTooltip: 疾病系 - 37.5 DPS
 }
 
 AuricRebuke: {
 	DisplayName: Auric Rebuke
 	Description: 你的细胞正在猛烈地相互碰撞
+	ItemTooltip: 电系 - 100 DPS，对移动目标造成4倍伤害
 }
 
 BanishingFire: {
 	DisplayName: 放逐之火
 	Description: 你的罪孽不会被宽赦
+	ItemTooltip: 火系 - 造成的伤害等同于最大生命值的0.1%或2000，取二者中更高的
 }
 
 BrimstoneFlames: {
 	DisplayName: 硫磺火
 	Description: 焚烧身心
+	ItemTooltip: 火系 - 30 DPS
 }
 
 BurningBlood: {
 	DisplayName: 血液沸腾
 	Description: 你的血液沸腾了
+	ItemTooltip: 疾病系 - 20 DPS
 }
 
 BrainRot: {
 	DisplayName: 大脑溃烂
 	Description: 你的神经元像玉米粒一样爆裂
+	ItemTooltip: 疾病系 - 20 DPS
 }
 
 DemonicFlames: {
 	DisplayName: Demonic Flames
 	Description: 献祭之火正在灼烧你的灵魂
+	ItemTooltip: 火系 - 造成的伤害取决于施加减益的物品
 }
 
 ElementalMix: {
 	DisplayName: 元素谐鸣
 	Description: 美妙的元素交响乐正在活剥你
+	ItemTooltip: 无类型 - 200 DPS
 }
 
 CrushDepth: {
 	DisplayName: 深渊水压
 	Description: 被深海水压粉碎
+	ItemTooltip: 水系 - 50 DPS
 }
 
 RiptideDebuff: {
 	DisplayName: 激流
 	Description: 被强力水浪鞭打
+	ItemTooltip: 水系 - 15 DPS
 }
 
 Dragonfire: {
 	DisplayName: 龙焰
 	Description: 被熊熊火焰吞没
+	ItemTooltip: 火系 - 480 DPS
 }
 
 GodSlayerInferno: {
 	DisplayName: 弑神怒焰
 	Description: 你的血肉在燃烧
+	ItemTooltip: 火系 - 250 DPS
 }
 
 HeavyBleeding: {
 	DisplayName: 重度出血
 	Description: 你需要缝针
+	ItemTooltip: 无类型 - 40 DPS
 }
 
 HolyFlames: {
 	DisplayName: 神圣之火
 	Description: 神圣之光将你焚化
+	ItemTooltip: 火系 - 150 DPS
 }
 
 HolyInferno: {
@@ -199,31 +213,37 @@ HolyInferno: {
 Laceration: {
 	DisplayName: 血管爆裂
 	Description: 你血流如注
+	ItemTooltip: 无类型 - 200 DPS
 }
 
 ManaBurn: {
 	DisplayName: 魔力烧蚀
 	Description: 过多的魔力正在烧蚀你的身心
+	ItemTooltip: ""
 }
 
 MiracleBlight: {
 	DisplayName: 超位崩解
 	Description: 星流共振撕碎了组成你身体的物质
+	ItemTooltip: 无类型 - 1500 DPS
 }
 
 Nightwither: {
 	DisplayName: 夜魇
 	Description: 被月之射线瓦解
+	ItemTooltip: 冷系 - 100 DPS
 }
 
 Plague: {
 	DisplayName: 瘟疫
 	Description: 从内部腐烂
+	ItemTooltip: 疾病系 - 50 DPS
 }
 
 SagePoison: {
 	DisplayName: 鼠尾草中毒
 	Description: 中毒
+	ItemTooltip: 疾病系 - 造成的伤害与召唤的鼠尾草之灵数量相关
 }
 
 SearingLava: {
@@ -239,6 +259,7 @@ ShellfishClaps: {
 Shred: {
 	DisplayName: 解离
 	Description: 有人造了十把三尖匕首……
+	ItemTooltip: ""
 }
 
 SnapClamDebuff: {
@@ -249,36 +270,56 @@ SnapClamDebuff: {
 StaticDischarge: {
 	DisplayName: Static Discharge
 	Description: 被静电冲击
+	ItemTooltip: 电系 - 2.5 DPS，对移动目标造成4倍伤害
 }
 
 SulphuricPoisoning: {
 	DisplayName: 硫磺海剧毒
 	Description: 酸性海水正在烧灼你的血肉
+	ItemTooltip: 疾病系 - 120 DPS
 }
 
 TrueVulnerabilityHex: {
 	DisplayName: 真·孱弱巫咒
 	Description: 终末已至
+	ItemTooltip:
+		'''
+		火系 - 1998 DPS
+		受到的来自所有来源的伤害增加
+		减速敌怪
+		'''
 }
 
 Vaporfied: {
 	DisplayName: 蒸汽波
 	Description: 蒸汽波是极美的
+	ItemTooltip:
+		'''
+		无类型 - 15 DPS
+		减速敌怪
+		'''
 }
 
 VermillionFlux: {
 	DisplayName: Vermillion Flux
 	Description: 猩红色的尖锐电弧贯穿了你的全身
+	ItemTooltip: 电系 - 50 DPS，对移动目标造成4倍伤害
 }
 
 Voidfrost: {
 	DisplayName: Voidfrost
 	Description: 太空的虚无吞噬了所有的温暖与生命
+	ItemTooltip: 冷系 - 100 DPS
 }
 
 VulnerabilityHex: {
 	DisplayName: 孱弱巫咒
 	Description: 你的精神毅力正在消散
+	ItemTooltip:
+		'''
+		火系 - 1332 DPS
+		减速敌怪
+		'''
 }
 
 WeakBrimstoneFlames: {
@@ -643,6 +684,7 @@ AbsorberRegen: {
 		你被顶尖的自然力量所祝福
 		+{0}HP/s生命再生，{1}%伤害和{2}%伤害减免
 		'''
+	ItemTooltip: 增加生命再生，伤害和伤害减免
 }
 
 AbyssalDivingSuitBuff: {
@@ -743,6 +785,7 @@ CoralSymbiosis: {
 CosmicFreeze: {
 	DisplayName: 宙宇冰封
 	Description: 寒气逼人，犹如身于宙域
+	ItemTooltip: 增加再生，尤其是在站立不动时，并冻结附近敌怪
 }
 
 DivineBless: {
@@ -798,6 +841,7 @@ IceShieldBuff: {
 Mushy: {
 	DisplayName: 与菇共生
 	Description: 增加{0}点防御和+{1}HP/s生命再生
+	ItemTooltip: 增加防御和生命再生
 }
 
 PhantomicEmpowerment: {
@@ -868,6 +912,7 @@ ReaverRage: {
 		大地之怒
 		增加{0}点防御和{1}%伤害
 		'''
+	ItemTooltip: 增加防御和伤害
 }
 
 SandsWindBuff: {
@@ -918,6 +963,7 @@ TarraLifeRegen: {
 AbsorberAffliction: {
 	DisplayName: 吸尽之痛
 	Description: 该死的大自然，你真可怕！
+	ItemTooltip: 疾病系 - 200 DPS
 }
 
 AndromedaCripple: {
@@ -928,11 +974,13 @@ AndromedaCripple: {
 ArmorCrunch: {
 	DisplayName: 碎甲
 	Description: 你的护甲被撕裂了
+	ItemTooltip: 伤害减免降低15%
 }
 
 Crumbling: {
 	DisplayName: 粉碎
 	Description: 你的护甲损伤了
+	ItemTooltip: 伤害减免降低8%
 }
 
 Clamity: {
@@ -957,6 +1005,7 @@ Enraged: {
 Eutrophication: {
 	DisplayName: 富营养化
 	Description: 过多的营养物质拖慢了你的步伐
+	ItemTooltip: 减速敌怪
 }
 
 ExoFreeze: {
@@ -977,16 +1026,19 @@ FrozenLungs: {
 GalvanicCorrosion: {
 	DisplayName: 电偶腐蚀
 	Description: 你的四肢正被腐蚀
+	ItemTooltip: 减速敌怪
 }
 
 GlacialState: {
 	DisplayName: 冰河时代
 	Description: 无法移动
+	ItemTooltip: 冻结敌怪
 }
 
 HadopelagicPressure: {
 	DisplayName: Hadopelagic Pressure
 	Description: 急速沉入深海之棺
+	ItemTooltip: 水系 - 200 DPS
 }
 
 IcarusFolly: {
@@ -1001,11 +1053,17 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: 辐射
 	Description: 你的皮肤正被侵蚀
+	ItemTooltip:
+		'''
+		无类型 - 10 DPS
+		增加受到疾病系减益的伤害
+		'''
 }
 
 MarkedforDeath: {
 	DisplayName: 死亡标记
 	Description: 伤害减免降低
+	ItemTooltip: 伤害减免降低50%
 }
 
 PearlAura: {
@@ -1021,11 +1079,13 @@ ProfanedWeakness: {
 TemporalSadness: {
 	DisplayName: 莫名的悲伤
 	Description: 蓝瘦香菇
+	ItemTooltip: 冻结敌怪
 }
 
 TimeDistortion: {
 	DisplayName: 时间扭曲
 	Description: 时间流逝减缓
+	ItemTooltip: 减速敌怪
 }
 
 Warped: {
@@ -1041,6 +1101,7 @@ WeakPetrification: {
 WhisperingDeath: {
 	DisplayName: 死亡低语
 	Description: 死亡临近；攻击力和生命再生降低
+	ItemTooltip: 降低接触伤害
 }
 
 WitherDebuff: {
@@ -1593,6 +1654,16 @@ PopoBuff: {
 PopoNoselessBuff: {
 	DisplayName: 没鼻子的雪宝
 	Description: 你的鼻子被别人偷走了！
+}
+
+Daybroken: {
+	DisplayName: 破晓
+	ItemTooltip: 火系 - 100 DPS
+}
+
+Shadowflame: {
+	DisplayName: 暗影焰
+	ItemTooltip: 火系 - 30 DPS
 }
 
 ForbiddenStealthSummonTagBuff: {

@@ -206,7 +206,7 @@ ArchaicPowder: {
 	DisplayName: Archaic Powder
 	Tooltip:
 		'''
-		Increases mining speed by 30%
+		Increases mining speed by 25%
 		Provides immunity to damage from falling blocks and dart traps
 		65% resistance to all damage from traps
 		Does not stack with downgrades

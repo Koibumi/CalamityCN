@@ -53,6 +53,7 @@ MOAB: {
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加32%跳跃速度并允许自动跳跃
 		使你获得云朵瓶、暴雪瓶和沙暴瓶的二段跳效果
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:Jetpack] [c/aaaaaa:喷气背包的效果]
 		“气球之母”
 		'''
 }
@@ -103,9 +104,10 @@ TracersCelestial: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		增加24%奔跑加速度并在冰面上获得额外的机动性
-		使你获得在水面，熔岩和蜂蜜上行走的能力
-		使你免疫燃烧和熔岩
+		增加24%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“荒诞的速度！”
 		'''
 }
@@ -115,9 +117,10 @@ TracersElysian: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		增加36%奔跑加速度并在冰面上获得额外的机动性
-		使你获得在水面，熔岩和蜂蜜上行走的能力
-		使你免疫燃烧和熔岩
+		增加36%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“荒诞的速度！”
 		'''
 }
@@ -127,9 +130,10 @@ TracersSeraph: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		增加50%奔跑加速度并在冰面上获得额外的机动性
-		使你获得在水面，熔岩和蜂蜜上行走的能力
-		使你免疫燃烧，熔岩和来自物块的伤害
+		增加50%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩和来自物块的伤害，包括[i:CalamityMod/AuricOre]圣金源矿
+		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“更加荒诞的速度！”
 		'''
 }

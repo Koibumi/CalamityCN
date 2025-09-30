@@ -1,0 +1,18 @@
+Venom.ItemTooltip: 疾病系 - 30 DPS
+BetsysCurse.ItemTooltip: 降低40点防御
+CursedInferno.ItemTooltip: 火系 - 24 DPS
+Frostburn2.ItemTooltip: 冷系 - 50 DPS
+Frostburn.ItemTooltip: 冷系 - 8 DPS
+OnFire3.ItemTooltip: 火系 - 15 DPS
+OnFire.ItemTooltip: 火系 - 6 DPS
+Ichor.ItemTooltip: 降低10点防御
+Oiled.ItemTooltip:
+	'''
+	火系 - 25 DPS，受到火系乘数2倍的效果
+	仅在与另一种火系减益同时作用时才会造成伤害
+	'''
+Poisoned.ItemTooltip: 疾病系 - 6 DPS
+PotionSickness.ItemTooltip: ""
+Slimed.ItemTooltip: 增强火系减益伤害
+Wet.ItemTooltip: 增强电系减益伤害
+Electrified.ItemTooltip: 电系 - 10.5 DPS，对移动目标造成4倍伤害

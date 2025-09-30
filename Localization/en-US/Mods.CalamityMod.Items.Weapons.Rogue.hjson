@@ -77,7 +77,7 @@ BloodsoakedCrasher: {
 		Throws a bloody axe that is affected by gravity and can bounce twice
 		The axe speeds up over time, but will slow down upon hitting an enemy
 		Spews blood orbs upon enemy hits
-		Picking up these blood orbs reduces the duration of [Potion Sickness]
+		Picking up these blood orbs reduces the duration of [cbuff:PotionSickness]
 		Stealth strikes spawn homing blood bolts on hit
 		'''
 }

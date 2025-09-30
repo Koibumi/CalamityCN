@@ -53,6 +53,7 @@ MOAB: {
 		{$CommonItemTooltip.FlightAndSlowfall}
 		32% increased jump speed and allows auto-jump
 		Grants the player cloud, blizzard, and sandstorm mid-air jumps
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:Jetpack] [c/aaaaaa:jetpack]
 		'The Mother Of All Balloons'
 		'''
 }
@@ -103,9 +104,10 @@ TracersCelestial: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		24% increased running acceleration and greater mobility on ice
-		Provides the ability to walk on water, honey, and lava
-		Grants immunity to fire and lava
+		24% increased running acceleration
+		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
+		Provides immunity to lava
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
 		'Ludicrous speed!'
 		'''
 }
@@ -115,9 +117,10 @@ TracersElysian: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		36% increased running acceleration and greater mobility on ice
-		Provides the ability to walk on water, honey, and lava
-		Grants immunity to fire and lava
+		36% increased running acceleration
+		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
+		Provides immunity to lava
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
 		'Ludicrous speed!'
 		'''
 }
@@ -127,9 +130,10 @@ TracersSeraph: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		50% increased running acceleration and greater mobility on ice
-		Provides the ability to walk on water, honey, and lava
-		Grants immunity to fire, lava, and harmful block effects
+		50% increased running acceleration
+		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
+		Provides immunity to lava and damaging tiles, including [i:CalamityMod/AuricOre] Auric Ore
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
 		'Taking speed EVEN FURTHER BEYOND!'
 		'''
 }
