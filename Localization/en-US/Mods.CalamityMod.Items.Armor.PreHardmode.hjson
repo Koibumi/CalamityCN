@@ -132,7 +132,7 @@ SnowRuffianMask: {
 	SetBonus:
 		'''
 		You can glide to negate fall damage
-		Ranged critical strikes frostburn enemies for {0} {^0:second;seconds}
+		Ranged critical strikes inflict [cbuff:Frostburn] for {0} {^0:second;seconds}
 		'''
 }
 
@@ -227,7 +227,7 @@ SulphurousHelmet: {
 	SetBonus:
 		'''
 		{$Common.RogueStealth}
-		Attacking and being attacked by enemies inflicts poison for {1} {^1:second;seconds}
+		Attacking and being attacked by enemies inflicts [cbuff:Poisoned] for {1} {^1:second;seconds}
 		Grants an additional jump that summons a sulphurous bubble
 		Reduces the severity of the sulphuric waters
 		'''

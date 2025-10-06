@@ -16,3 +16,9 @@ PotionSickness.ItemTooltip: ""
 Slimed.ItemTooltip: Enhances Heat debuff damage
 Wet.ItemTooltip: Enhances Electric debuff damage
 Electrified.ItemTooltip: Electric - 10.5 DPS. Deals 4x damage to moving targets
+Honey.ItemTooltip:
+	'''
+	Increases health regeneration by 1 HP/s
+	Increases natural regeneration acceleration by 300%
+	Reduces damage taken from DoT debuffs by 2 HP/s
+	'''

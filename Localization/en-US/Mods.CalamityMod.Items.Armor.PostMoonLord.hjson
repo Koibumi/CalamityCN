@@ -19,7 +19,7 @@ AuricTeslaHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus:
 		'''
@@ -225,7 +225,7 @@ BloodflareHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
-		{$Common.AmmoUseReduction@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 		'''
 	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
@@ -286,7 +286,7 @@ DemonshadeBreastplate: {
 		{$CommonItemTooltip.IncreasesMaxManaBy}
 		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
 		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
-		{$Common.AmmoUseReduction@3}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@3}
 		Standing still absorbs shadows to grant exponentially accelerating life regen
 		'''
 }
@@ -425,10 +425,10 @@ GodSlayerChestplate: {
 	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}"
 	CommonSetBonus:
 		'''
-		Press {0} to dash towards your cursor for 2 seconds
+		Press {0} to [c/ff00ff:Dimensional Drive] towards your cursor for 2 seconds
 		Enemies you dash through take massive damage
-		During the dash you are immune to damage and most debuffs
-		The dash has a {1} second cooldown
+		During [c/ff00ff:Dimensional Drive] you are immune to damage and most debuffs
+		[c/ff00ff:Dimensional Drive] has a {1} second cooldown
 		'''
 }
 
@@ -456,7 +456,7 @@ GodSlayerHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus: "{$GodSlayerHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
@@ -500,7 +500,7 @@ OmegaBlueChestplate: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		Your attacks inflict Hadopelagic Pressure
 		No positive life regen
 		'''
@@ -670,7 +670,7 @@ TarragonHeadMelee: {
 		'''
 	SetBonusEffect:
 		'''
-		Taking damage gives the Tarra Life buff, which grants +{0} HP/s life regen
+		Taking damage gives [cbuff:CalamityMod/TarraLifeRegen], which grants +{0} HP/s life regen
 		{1} to cloak yourself in life energy that heavily reduces enemy contact damage for {2} seconds
 		This has a {3} second cooldown
 		{$TarragonBreastplate.CommonSetBonus}
@@ -682,7 +682,7 @@ TarragonHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus: "{$TarragonHeadRanged.SetBonusEffect}"
 	SetBonusEffect:

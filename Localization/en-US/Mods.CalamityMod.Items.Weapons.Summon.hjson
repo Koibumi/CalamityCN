@@ -747,9 +747,16 @@ StaffOfNecrosteocytes: {
 		'''
 }
 
-StaffoftheMechworm: {
-	DisplayName: Staff of the Mechworm
-	Tooltip: Summons an aerial mechworm to fight for you
+VoidEaterMarionette: {
+	DisplayName: Void Eater Marionette
+	Tooltip:
+		'''
+		Contains the power to control a miniature Devourer
+		Repeated summons increase the length and power of the Devourer
+		The Devourer attacks with [c/ff00ff:Divinity Devourer], [c/ff00ff:Faith Incinerator] and [c/ff00ff:Ultracosmic Maelstrom]
+		Can play fetch with dropped items 
+		Shift-<right> this item in your inventory when the Devourer has been spawned to prioritize fetching
+		'''
 }
 
 StarspawnHelixStaff: {

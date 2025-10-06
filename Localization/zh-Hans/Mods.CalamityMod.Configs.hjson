@@ -123,6 +123,16 @@ CalamityClientConfig: {
 			'''
 	}
 
+	FancyBackgroundVisuals: {
+		Label: "[i:CalamityMod/BlueDistortedMonolith] 切换华丽背景视觉效果"
+		Tooltip:
+			'''
+			控制是否在游戏的某些部分启用华丽背景视觉效果，如Boss战期间。
+			禁用时，在某些情况下将会显示主要视觉效果的简化版本。
+			如果您有可见性问题或性能低下，推荐禁用此选项。
+			'''
+	}
+
 	FasterFallHotkey: {
 		Label: "[i:CalamityMod/BallAndChain] 快速下落"
 		Tooltip:

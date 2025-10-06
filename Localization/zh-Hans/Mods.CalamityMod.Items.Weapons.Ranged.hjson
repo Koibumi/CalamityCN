@@ -7,7 +7,6 @@ AcesHigh: {
 		黑桃能无限穿透
 		方块会产生爆炸
 		梅花能分裂为三个小扑克
-		80%几率节省弹药
 		'''
 }
 
@@ -86,7 +85,7 @@ Archerfish: {
 	Tooltip:
 		'''
 		将火枪子弹转化为一束水流
-		33%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -126,11 +125,7 @@ AstralBlaster: {
 
 AstrealDefeat: {
 	DisplayName: 灵星寂灭
-	Tooltip:
-		'''
-		将所有箭矢转化为星能之箭，飞行时生成追踪的魂灵星炎
-		33%几率节省弹药
-		'''
+	Tooltip: 将所有箭矢转化为星能之箭，飞行时生成追踪的魂灵星炎
 }
 
 Auralis: {
@@ -143,7 +138,6 @@ Auralis: {
 		不移动且使用右键瞄准5秒以上在你周围产生极光
 		极光会降低你下一次所受弹幕伤害中的100点
 		此效果至多持续20秒，且拥有30秒冷却时间
-		50%几率节省弹药
 		'''
 }
 
@@ -184,7 +178,7 @@ BlightSpewer: {
 		'''
 		发射粘附于物块上的瘟疫纳米机器云
 		纳米机器会主动锁定附近的敌人
-		40%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -214,7 +208,6 @@ BlossomFlux: {
 		'''
 		发射如水流般密集的叶之箭
 		<right>发射会散发毒云的孢子球
-		50%几率节省弹药
 		'''
 	LegendaryText:
 		'''
@@ -265,7 +258,7 @@ ChromaticEruption: {
 		'''
 		蓄力喷射彩虹火焰和成对的追踪彩色耀斑
 		使用凝胶作为弹药
-		70%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -307,7 +300,6 @@ ConferenceCall: {
 	Tooltip:
 		'''
 		发射密集的子弹，同时从空中召唤更多的子弹
-		50%几率节省弹药
 		[c/768EE6:@全体成员]
 		'''
 }
@@ -360,7 +352,7 @@ DaemonsFlame: {
 	Tooltip:
 		'''
 		发射4支常规箭矢的同时发射恶魔焰火球
-		66%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -384,13 +376,13 @@ DeadSunsWind: {
 		'''
 }
 
-Deathwind: {
-	DisplayName: 死亡之风
+ThreadOfEradication: {
+	DisplayName: Thread of Eradication
 	Tooltip:
 		'''
-		一次发射四支箭矢
-		将木箭转化为星云箭
-		星云箭造成更多伤害并且会施加弑神怒焰减益
+		充能[c/ff00ff:God's Bane Doombeam]
+		按住武器使用会让它转而充能[c/ff00ff:Hyperdeath Rift]
+		充能[c/ff00ff:Hyperdeath Rift]时，弓的转向速度降低
 		'''
 }
 
@@ -411,7 +403,7 @@ DragonsBreath: {
 		发射足够长的时间后，你会开始使用特殊的能量弹
 		使用能量弹时你会射出一束不消耗弹药的龙息光束
 		能量耗尽抛壳后，射速会回到最初的状态
-		80%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -450,7 +442,7 @@ FetidEmesis: {
 		当枪管过热时会吐出一阵腐烂肉块
 		发射肉块后，枪必须冷却完成才可继续使用
 		开火时按下<right>会持续发射肉块
-		75%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -461,7 +453,7 @@ FirestormCannon: {
 		快速发射一连串照明弹，并让武器积累灼热值
 		发射过久会使武器过热，短时间内无法使用
 		按下<right>收起武器，保留其灼热值
-		70%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“这能出岔子我吃”
 		'''
 }
@@ -502,7 +494,7 @@ FlurrystormCannon: {
 		'''
 		发射雪球，使用时间越长，发射速度越快
 		有几率同时发射一个冰块，命中时碎裂
-		50%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -563,7 +555,6 @@ HalleysInferno: {
 		射出一连串高压月耀喷流
 		右键以扩大视野
 		使用凝胶作为弹药
-		50%几率节省弹药
 		“哈雷彗星比想象中到得早”
 		'''
 }
@@ -640,7 +631,7 @@ Infinity: {
 		'''
 		发射一对分裂的能量束
 		右键发射一团普通子弹
-		80%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“只要你把它握在手中，无限的解离就不会停止”
 		'''
 }
@@ -658,7 +649,7 @@ Kingsbane: {
 		当你停止开火时会继续倾泻大量金源弹
 		金源弹会迅速追踪附近的敌人，并无视50点防御
 		使用时不断消耗弹药
-		90%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -709,7 +700,7 @@ MagnomalyCannon: {
 		'''
 		发射一颗强大的嘉登火箭，击溃万物
 		火箭周围有隐形伤害圈，击中敌人时分裂出激光
-		66%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -852,7 +843,7 @@ OnyxChainBlaster: {
 	Tooltip:
 		'''
 		发射数颗子弹和一个玛瑙碎片
-		50%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -861,7 +852,7 @@ Onyxia: {
 	Tooltip:
 		'''
 		向敌人倾泻弹雨与玛瑙碎片
-		50%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -882,7 +873,7 @@ OverloadedBlaster: {
 		过载的凝胶珍珠额外造成60%伤害，但不再穿透
 		凝胶珍珠在接触到物块后会高速反弹
 		使用凝胶作为弹药
-		25%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -892,7 +883,7 @@ P90: {
 		'''
 		以极高的频率释放一连串穿甲弹
 		穿甲弹无视30点防御
-		75%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“弹雨倾盆”
 		'''
 }
@@ -918,7 +909,7 @@ Photoviscerator: {
 		发射持续性的星流辐射光束，分解一切
 		按住右键发射追踪星流火焰，可以黏附在敌人身上灼烧它们
 		使用凝胶作为弹药
-		95%几率节省弹药
+		光束有{0}%的几率节省弹药
 		'''
 }
 
@@ -970,7 +961,7 @@ PridefulHuntersPlanarRipper: {
 		闪电弹暴击时会使你获得可堆叠的速度加成
 		至多获得20%移动速度和加速度加成
 		切换手持的物品会重置加成
-		33%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1023,7 +1014,7 @@ Riftburst: {
 	Tooltip:
 		'''
 		发射五发普通箭，击中敌怪后生成幻影箭
-		66%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1042,7 +1033,7 @@ Sandblaster: {
 		'''
 		发射沙弹，击中敌人后爆炸并减速它们
 		使用沙块作为弹药
-		50%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1052,7 +1043,7 @@ ScorchedEarth: {
 		'''
 		发射一束四发热追踪导弹，导弹会在短暂延迟后急剧加速
 		所有火箭在碰撞时会爆炸成凝固汽油集簇炸弹
-		50%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“将你的目标烤的外焦里嫩”
 		'''
 }
@@ -1072,7 +1063,7 @@ SDFMG: {
 	DisplayName: SDFMG
 	Tooltip:
 		'''
-		50%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“来自于泰拉大陆之边界”
 		'''
 }
@@ -1133,7 +1124,6 @@ Shredder: {
 		'''
 		发射一团会分裂弹射的能量子弹
 		右键发射一团火枪子弹
-		60%几率节省弹药
 		“神话，传说，这把枪能让你的电脑爆炸”
 		'''
 }
@@ -1158,7 +1148,7 @@ SomaPrime: {
 		每层解离减益每秒造成600点伤害，该伤害受到你远程属性的影响
 		解离减益同样具有造成3倍伤害的暴击能力，并可以造成超暴击
 		将火枪子弹转化为高速子弹
-		80%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1180,7 +1170,7 @@ SpectralstormCannon: {
 		发射过久会使武器过热，短时间内无法使用
 		但是，触发过热时会释放一阵强大的灵魂并重置灼热值
 		按下<right>收起武器，保留其灼热值
-		70%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“必须佩戴灵气爆炸防护镜”
 		'''
 }
@@ -1212,7 +1202,7 @@ Starmada: {
 	Tooltip:
 		'''
 		发射星辰与等离子星弹
-		66%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1292,6 +1282,7 @@ Svantechnical: {
 		'''
 		发射三股能量束，能量束会分裂成追踪光标位置的光束
 		按下右键发射一团普通子弹
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“以构造换取伤害的古老平衡”
 		'''
 }
@@ -1315,7 +1306,6 @@ TelluricGlare: {
 		迅速发射一连串箭矢
 		每隔一箭，将箭矢转化为能够穿透的光耀巨箭，但在击中后迅速消失
 		将木箭转化为更强力的巨箭，造成更高伤害
-		75%几率节省弹药
 		'''
 }
 
@@ -1365,7 +1355,7 @@ TheSevensStriker: {
 		左键消耗1枚钱币开赌老虎机
 		赌博结果取决于使用的钱币种类
 		右键迅速发射一连串硬币
-		右键有80%几率节省弹药且无法直接将铂金币作为弹药发射
+		右键有{0}%的几率节省弹药且无法直接将铂金币作为弹药发射
 		“给予伟大的神射手的枪械
 		锻造自无名男子之手”
 		'''
@@ -1378,7 +1368,6 @@ TheStorm: {
 		'''
 		从天而降一阵追踪闪电和箭矢
 		将木箭转化为强力的电光
-		95%几率节省弹药
 		'''
 }
 
@@ -1415,7 +1404,7 @@ Ultima: {
 		射出连续的电浆光矢
 		随使用时间的增加，光矢会被替换成镭射死光
 		持续射击时，光矢将会充能形成实体光束
-		90%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1425,7 +1414,6 @@ UniversalGenesis: {
 		'''
 		从枪口发射一簇子弹，令一簇坠星朝鼠标位置降落
 		将火枪子弹转化为击中后召唤额外坠星的唤星弹
-		50%几率节省弹药
 		“令星空坠落到敌人头上”
 		'''
 }
@@ -1445,7 +1433,7 @@ Voidragon: {
 		'''
 		每隔一发就会发射虚空爆破弹
 		每一发都会射出魔火之触
-		75%几率节省弹药
+		发射虚空爆破弹不消耗弹药，发射子弹时有{0}%的几率节省弹药
 		'''
 }
 
@@ -1460,7 +1448,7 @@ WildfireBloom: {
 		'''
 		蓄力发射一簇能量之火和两片追踪的野火
 		使用凝胶作为弹药
-		50%几率节省弹药
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 

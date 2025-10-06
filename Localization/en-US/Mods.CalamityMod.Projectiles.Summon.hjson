@@ -167,11 +167,10 @@ LostSoulGold.DisplayName: Gold Soul
 LostSoulLarge.DisplayName: Soul
 LostSoulSmall.DisplayName: Soul
 LuxorsGiftSummon.DisplayName: Luxor's Summon
-MechwormBody.DisplayName: Mechworm
-MechwormHead.DisplayName: Mechworm
-MechwormLaser.DisplayName: Mechworm Laser
-MechwormTail.DisplayName: Mechworm
-MechwormTeleportRift.DisplayName: Rift
+VoidEaterMarionetteBody.DisplayName: Void Eater Marionette
+VoidEaterMarionetteHead.DisplayName: Void Eater Marionette
+VoidEaterMarionetteTail.DisplayName: Void Eater Marionette
+DoGWeaponTeleportRift.DisplayName: Rift
 MidnightSunBeaconProj.DisplayName: Midnight Sun Beacon
 MidnightSunBeam.DisplayName: Midnight Beam
 MidnightSunShot.DisplayName: Midnight Shot
@@ -314,6 +313,7 @@ ViridVanguardBlade.DisplayName: Vanguard Blade
 VoidConcentrationAura.DisplayName: Concentrated Void Aura
 VoidConcentrationBlackhole.DisplayName: Black Hole
 VoidConcentrationOrb.DisplayName: Void Orb
+VoidEaterMarionetteProjectile.DisplayName: Void Eater Marionette
 VolcanicFireballSummon.DisplayName: Volcanic Fireball
 WaterElementalMinion.DisplayName: Anahita
 WaterElementalSong.DisplayName: Siren Song

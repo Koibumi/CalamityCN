@@ -957,6 +957,7 @@ TarragonImmunity: {
 TarraLifeRegen: {
 	DisplayName: 生命涌流
 	Description: 快速再生生命
+	ItemTooltip: ""
 }
 
 // Stat debuffs
@@ -1409,9 +1410,9 @@ MagicHatBuff: {
 	Description: 我会一直留着你的灵魂当人质，但你找到的东西都得留下！
 }
 
-Mechworm: {
-	DisplayName: 星宇神卫
-	Description: 星宇神卫会保护你
+VoidEaterMarionetteBuff: {
+	DisplayName: Void Eater Marionette
+	Description: 掌控吞噬者的力量在你手中
 }
 
 MidnightSunBuff: {

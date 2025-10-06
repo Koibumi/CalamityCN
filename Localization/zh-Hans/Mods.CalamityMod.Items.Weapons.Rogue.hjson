@@ -369,12 +369,12 @@ Equanimity: {
 		'''
 }
 
-Eradicator: {
-	DisplayName: 湮灭
+DimensionTearingDisk: {
+	DisplayName: Dimension-Tearing Disk
 	Tooltip:
 		'''
-		投出一个向周围敌人发射星云激光的飞盘
-		潜伏攻击会挂在敌人身上，并散射大量激光
+		投出一个飞盘，向最近敌怪的方向撕裂空间
+		潜伏攻击会挂在敌人身上并释放[c/ff00ff:God's Bane Doombeam Array]
 		'''
 }
 

@@ -19,7 +19,7 @@ AuricTeslaHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus:
 		'''
@@ -225,7 +225,7 @@ BloodflareHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
-		{$Common.AmmoUseReduction@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 		'''
 	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
@@ -286,7 +286,7 @@ DemonshadeBreastplate: {
 		{$CommonItemTooltip.IncreasesMaxManaBy}
 		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
 		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
-		{$Common.AmmoUseReduction@3}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@3}
 		站立不动时吸收暗影以获取指数加速的生命再生
 		'''
 }
@@ -425,10 +425,10 @@ GodSlayerChestplate: {
 	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
 	CommonSetBonus:
 		'''
-		按下 {0} 键允许你朝光标方向冲刺2秒
+		按下 {0} 键允许你朝光标方向[c/ff00ff:Dimensional Drive]2秒
 		被冲刺撞到的敌人会受到极高的伤害
-		在冲刺过程中你免疫伤害和绝大多数减益
-		弑神者冲刺有{1}秒冷却时间
+		在[c/ff00ff:Dimensional Drive]过程中你免疫伤害和绝大多数减益
+		[c/ff00ff:Dimensional Drive]有{1}秒冷却时间
 		'''
 }
 
@@ -456,7 +456,7 @@ GodSlayerHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus: "{$GodSlayerHeadRanged.SetBonusEffect}"
 	SetBonusEffect:
@@ -500,7 +500,7 @@ OmegaBlueChestplate: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		你的攻击会造成Hadopelagic Pressure减益
 		生命再生归零
 		'''
@@ -670,7 +670,7 @@ TarragonHeadMelee: {
 		'''
 	SetBonusEffect:
 		'''
-		受到伤害时你会获得生命涌流增益，提供+{0}HP/s生命再生
+		受到伤害时你会获得[cbuff:CalamityMod/TarraLifeRegen]增益，提供+{0}HP/s生命再生
 		{1}将自已以生命能量包裹，大大降低你受到的接触伤害，持续{2}秒
 		此效果有{3}秒冷却时间
 		{$TarragonBreastplate.CommonSetBonus}
@@ -682,7 +682,7 @@ TarragonHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus: "{$TarragonHeadRanged.SetBonusEffect}"
 	SetBonusEffect:

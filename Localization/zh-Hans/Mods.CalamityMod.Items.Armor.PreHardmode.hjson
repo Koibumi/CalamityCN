@@ -132,7 +132,7 @@ SnowRuffianMask: {
 	SetBonus:
 		'''
 		你可以缓降以消除坠落伤害
-		远程暴击对敌人施加{0}秒霜冻
+		远程暴击对敌人施加{0}秒[cbuff:Frostburn]
 		'''
 }
 
@@ -227,7 +227,7 @@ SulphurousHelmet: {
 	SetBonus:
 		'''
 		{$Common.RogueStealth}
-		攻击敌人或被敌人攻击时对其造成{1}秒中毒减益
+		攻击敌人或被敌人攻击时对其造成{1}秒[cbuff:Poisoned]减益
 		获得一段额外跳跃，跳跃时生成硫磺泡泡
 		降低硫磺海水的威胁性
 		'''

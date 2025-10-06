@@ -232,13 +232,9 @@ DarkSpark: {
 		'''
 }
 
-DeathhailStaff: {
-	DisplayName: 死亡冰雹
-	Tooltip:
-		'''
-		释放星云激光从天而降
-		“在你的敌人头顶降下死亡之雨！”
-		'''
+HyperdeathRiftScepter: {
+	DisplayName: Hyperdeath Rift Scepter
+	Tooltip: 用[c/ff00ff:Hyperdeath Rift Ripper]将空间撕裂成两半
 }
 
 DeathValleyDuster: {
@@ -950,6 +946,29 @@ UltraLiquidator: {
 UndinesRetribution: {
 	DisplayName: 深渊女神之复仇
 	Tooltip: 召唤一群追踪矛
+}
+
+UnstableCastersGauntlet: {
+	DisplayName: Unstable Caster's Gauntlet
+	Tooltip:
+		'''
+		<left>发射穿透针
+		<right>召唤一圈符印，每个符印代表一种本源元素
+		当符印存在时按住<left>会消耗随机符印，每个符印释放一次攻击
+		当元素环存在时再次<right>会将所有空符印栏替换为[c/DD84E8:扭曲]符印
+		[c/DD84E8:扭曲]符印会自动发射一阵不精确的紫色冲击
+		所有行为都需要使用足够的[c/EADAF5:魔能]
+		[c/EADAF5:魔能]会随时间恢复
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/DBD7CA:秩序]符印总会造成暴击且无限穿透
+		[c/ABB6D4:湮灭]符印会无视敌怪25点防御
+		[c/E89B8E:火焰]符印会施加破晓
+		[c/8ECBE8:海洋]符印会施加深渊水压
+		[c/E1E88E:天空]符印具有极强击退
+		[c/ACCF9F:大地]符印会分裂成尖锐岩石
+		'''
 }
 
 ValkyrieRay: {

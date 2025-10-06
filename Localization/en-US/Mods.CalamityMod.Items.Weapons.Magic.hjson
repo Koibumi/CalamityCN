@@ -232,13 +232,9 @@ DarkSpark: {
 		'''
 }
 
-DeathhailStaff: {
-	DisplayName: Deathhail Staff
-	Tooltip:
-		'''
-		Casts a storm of nebula lasers from the sky
-		'Rain death upon your foes!'
-		'''
+HyperdeathRiftScepter: {
+	DisplayName: Hyperdeath Rift Scepter
+	Tooltip: Tears space in two with [c/ff00ff:Hyperdeath Rift Ripper]
 }
 
 DeathValleyDuster: {
@@ -950,6 +946,29 @@ UltraLiquidator: {
 UndinesRetribution: {
 	DisplayName: Undine's Retribution
 	Tooltip: Casts a swarm of homing spears
+}
+
+UnstableCastersGauntlet: {
+	DisplayName: Unstable Caster's Gauntlet
+	Tooltip:
+		'''
+		<left> to fire piercing needles
+		<right> to summon a ring of sigils, each representing a primordial element
+		Hold <left> with sigils available to consume random sigils, each unleashing an attack
+		<right> again while the elemental ring is out to replace all empty slots with [c/DD84E8:Warped] sigils
+		[c/DD84E8:Warped] sigils automatically fire barrages of inaccurate purple blasts
+		All actions require sufficient [c/EADAF5:Vis] to use
+		[c/EADAF5:Vis] is restored over time
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/DBD7CA:Ordo] sigils always land critical strikes and pierce infinitely
+		[c/ABB6D4:Perdito] sigils ignore 25 points of enemy defense
+		[c/E89B8E:Ignis] sigils inflict Daybroken
+		[c/8ECBE8:Aqua] sigils inflict Crush Depth
+		[c/E1E88E:Aer] sigils boast substantial knockback
+		[c/ACCF9F:Terra] sigils split into sharp rocks
+		'''
 }
 
 ValkyrieRay: {

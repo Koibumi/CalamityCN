@@ -19,14 +19,30 @@ ProfanedBossText: Holy flames burn away at your wings...
 GhostBossText2: Wails echo through the dilapidated dungeon halls...
 GhostBossText3: Long-dead prisoners seek their zealous revenge...
 // Devourer of Gods
-EdgyBossText: Don't get cocky!
-EdgyBossText2: A fatal mistake!
-EdgyBossText3: Delicious...
-EdgyBossText4: Did that hurt?
-EdgyBossText5: It's not over yet!
-EdgyBossText6: A GOD DOES NOT FEAR DEATH!
-EdgyBossText7: You are no god... but I shall feast upon your essence regardless!
-EdgyBossText8: You think...you can butcher...ME!?
+DoGSpawn: You are no god... but I shall feast upon your essence regardless!
+DoGSubphase1: You've done better than most, but don't get cocky!
+DoGPhase2: It's not over yet, kid!
+DoGPhase3: A GOD DOES NOT FEAR DEATH!
+DoGHead1: Fall to your knees, worm!
+DoGHead2: Let's see how much longer you'll last...
+DoGHead3: Getting tired yet?
+DoGHead4: You'll fall, just like the others!
+DoGHead5: Give up! It'll be easier for both of us!
+DoGHead6: Let me end you already!
+DoGHead7: This is starting to get ridiculous...!
+DoGHead8: How are you doing this?!
+DoGHead9: Are you playing me for a fool?!
+DoGHead10: Why won't you DIE?!
+DoGHead11: FALL!
+DoGHead12: BEGONE!
+DoGHead13: DIE!
+DoGHeadDeath1: Tasteless slop.
+DoGHeadDeath2: Delicious... A feast worthy of a god!
+DoGHeadDeath3: And STAY dead!
+DoGHeadDeath4: WEAK.
+DoGHeadDeath5: PATHETIC. ALL THAT RUNNING JUST TO DIE TO A SINGLE TOUCH?!
+DoGHeadRunning: You can't run forever!
+DoGHeadRunning2: WHAT'S THE PROBLEM?! CAN'T RUN ANYMORE?!
 // Yharon
 FlameText: The air is getting warmer around you.
 // Draedon (introduction)

@@ -7,7 +7,6 @@ AcesHigh: {
 		Spades pierce enemies
 		Diamonds violently explode 
 		Clubs split into three
-		80% chance to save ammo
 		'''
 }
 
@@ -86,7 +85,7 @@ Archerfish: {
 	Tooltip:
 		'''
 		Converts musket balls into streams of water
-		33% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -126,11 +125,7 @@ AstralBlaster: {
 
 AstrealDefeat: {
 	DisplayName: Astreal Defeat
-	Tooltip:
-		'''
-		All arrows are converted to Astreal Arrows that emit flames as they travel
-		33% chance to save ammo
-		'''
+	Tooltip: All arrows are converted to Astreal Arrows that emit flames as they travel
 }
 
 Auralis: {
@@ -143,7 +138,6 @@ Auralis: {
 		Standing still for 5 or more seconds while using the scope ability will summon an aurora
 		The aurora reduces the damage of the next projectile hit by 100 
 		This effect lasts up to 20 seconds and has a 30 second cooldown
-		50% chance to save ammo
 		'''
 }
 
@@ -184,7 +178,7 @@ BlightSpewer: {
 		'''
 		Fires clouds of plague nanomachines that stick to tiles
 		Nanomachines aggressively lock onto nearby enemies
-		40% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -214,7 +208,6 @@ BlossomFlux: {
 		'''
 		Fires a stream of leaves
 		Press <right> to fire a spore orb that explodes into a cloud of spore gas
-		50% chance to save ammo
 		'''
 	LegendaryText:
 		'''
@@ -265,7 +258,7 @@ ChromaticEruption: {
 		'''
 		Charges up to spew rainbow flames and pairs of homing chromatic flares
 		Uses gel for ammo
-		70% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -307,7 +300,6 @@ ConferenceCall: {
 	Tooltip:
 		'''
 		Fires a tight spread of bullets that call more bullets from the sky
-		50% chance to save ammo
 		[c/768EE6:@everyone]
 		'''
 }
@@ -360,7 +352,7 @@ DaemonsFlame: {
 	Tooltip:
 		'''
 		Shoots daemon flame fireballs as well as 4 regular arrows
-		66% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -384,13 +376,13 @@ DeadSunsWind: {
 		'''
 }
 
-Deathwind: {
-	DisplayName: Deathwind
+ThreadOfEradication: {
+	DisplayName: Thread of Eradication
 	Tooltip:
 		'''
-		Fires a spread of 4 arrows
-		Wooden arrows are converted into nebula arrows
-		Nebula arrows deal more damage and inflict god slayer inferno
+		Charges up [c/ff00ff:God's Bane Doombeam]
+		Channelling the weapon causes it to charge up [c/ff00ff:Hyperdeath Rift] instead
+		While charging [c/ff00ff:Hyperdeath Rift], the bow's turning speed is slowed down
 		'''
 }
 
@@ -411,7 +403,7 @@ DragonsBreath: {
 		Upon firing for long enough, you will begin using a cartridge of energy
 		While using a cartridge you will shoot a draconic beam of fire that doesn't consume ammo
 		Once a cartridge has been ejected you will return to the original fire rate
-		80% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -450,7 +442,7 @@ FetidEmesis: {
 		When the barrel overheats, a spread of fetid chunks is vomited out
 		After firing, the gun must cool back down before it can be used again
 		Pressing <right> while firing will instantly launch the chunks
-		75% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -461,7 +453,7 @@ FirestormCannon: {
 		Fires a rapid barrage of flares that builds up a searing heat in the weapon
 		Firing for too long overheats the weapon, leaving it unusable for a short period
 		Press <right> to put away the weapon, which preserves its heat
-		70% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'What could go wrong?'
 		'''
 }
@@ -502,7 +494,7 @@ FlurrystormCannon: {
 		'''
 		Fires a chain of snowballs that become faster over time
 		Has a chance to also fire an ice chunk that shatters into shards
-		50% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -563,7 +555,6 @@ HalleysInferno: {
 		Fires a burst of intensely concentrated lunar fire jets
 		Press <right> to zoom out
 		Uses gel for ammo
-		50% chance to save ammo
 		'Halley arrived sooner than expected'
 		'''
 }
@@ -640,7 +631,7 @@ Infinity: {
 		'''
 		Fires a twin stream of energy bolts that split
 		Press <right> to fire a barrage of normal bullets
-		80% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'They say infinity is neverending, yet you hold it in your hands'
 		'''
 }
@@ -658,7 +649,7 @@ Kingsbane: {
 		When you stop firing you will release a barrage of auric bullets
 		Auric bullets aggressively home in on enemies and ignore 50 points of defense
 		Constantly consumes ammo while in use
-		90% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -709,7 +700,7 @@ MagnomalyCannon: {
 		'''
 		Launches a powerful exo rocket to nuke anything and everything
 		Rockets are surrounded by an invisible damaging aura and split into damaging beams on hit
-		66% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -852,7 +843,7 @@ OnyxChainBlaster: {
 	Tooltip:
 		'''
 		Fires a spread of bullets and an onyx shard
-		50% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -861,7 +852,7 @@ Onyxia: {
 	Tooltip:
 		'''
 		Fires a storm of bullets and onyx shards
-		50% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -882,7 +873,7 @@ OverloadedBlaster: {
 		Overloaded slime pearls deal 60% more damage but no longer pierce
 		Slime pearls bounce off of walls at very high speed
 		Uses gel for ammo
-		25% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -892,7 +883,7 @@ P90: {
 		'''
 		Unleashes a stream of armor-piercing rounds at an incredible rate
 		Armor-piercing rounds ignore 30 defense
-		75% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'It's a bullet hose'
 		'''
 }
@@ -918,7 +909,7 @@ Photoviscerator: {
 		Emits a continuous beam of exo radiation that disintegrates everything
 		Press <right> to fire homing exo flares which stick to and incinerate enemies
 		Uses gel for ammo
-		95% chance to save ammo
+		The beam has a {0}% chance to save ammo
 		'''
 }
 
@@ -970,7 +961,7 @@ PridefulHuntersPlanarRipper: {
 		Lightning bolt crits grant a stacking speed boost to the player
 		This stacks up to 20 percent bonus movement speed and acceleration
 		The boost will reset if the player holds a different item
-		33% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1023,7 +1014,7 @@ Riftburst: {
 	Tooltip:
 		'''
 		Fires a spread of 5 arrows and emits phantom arrows on enemy hits
-		66% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1042,7 +1033,7 @@ Sandblaster: {
 		'''
 		Fires sand bullets that explode and slow enemies on hit
 		Uses sand as ammo
-		50% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1052,7 +1043,7 @@ ScorchedEarth: {
 		'''
 		Fires a burst of four heat seeking missiles that rapidly accelerate after a short delay
 		All rockets explode into napalm cluster bombs on impact
-		50% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'Burns your targets to a fine crisp'
 		'''
 }
@@ -1072,7 +1063,7 @@ SDFMG: {
 	DisplayName: SDFMG
 	Tooltip:
 		'''
-		50% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'It came from the edge of Terraria'
 		'''
 }
@@ -1133,7 +1124,6 @@ Shredder: {
 		'''
 		Fires a barrage of energy bolts that split and bounce
 		Press <right> to fire a barrage of normal bullets instead
-		60% chance to save ammo
 		'The myth, the legend, the weapon that drops more frames than any other'
 		'''
 }
@@ -1158,7 +1148,7 @@ SomaPrime: {
 		Shred deals 600 DPS per stack and scales with your ranged stats
 		Damage ticks of Shred can critically strike for 3x damage and can supercrit
 		Replaces musket balls with enhanced High Velocity Bullets
-		80% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1180,7 +1170,7 @@ SpectralstormCannon: {
 		Firing for too long overheats the weapon, leaving it unusable for a short period
 		However, triggering overheat releases a powerful burst of souls and resets heat
 		Press <right> to put away the weapon, which preserves its heat
-		70% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'Ectoplasmic blast rated visor mandatory'
 		'''
 }
@@ -1212,7 +1202,7 @@ Starmada: {
 	Tooltip:
 		'''
 		Fires a barrage of stars and plasma blasts
-		66% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1292,6 +1282,7 @@ Svantechnical: {
 		'''
 		Fires a trinity of energy bolts that split into beams that track your cursor
 		Press <right> to fire a barrage of normal bullets
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'The age old balance of trading damage for frames'
 		'''
 }
@@ -1315,7 +1306,6 @@ TelluricGlare: {
 		Rapidly fires volleys of arrows
 		Every other arrow is converted into radiant greatarrows which pierce but quicky dissapear after striking
 		Wooden arrows are converted into more powerful greatarrows that deal increased damage
-		75% chance to save ammo
 		'''
 }
 
@@ -1365,7 +1355,7 @@ TheSevensStriker: {
 		Press <left> to consume 1 coin and play a slot machine
 		The quality of the outcome depends on the coin used
 		Press <right> to rapidly fire a barrage of coins
-		The coin barrage has an 80% chance to save ammo and will not fire platinum coins
+		The coin barrage has an {0}% chance to save ammo and will not fire platinum coins
 		'A gun given to a great gunslinger
 		Forged by the arms of a man given no name'
 		'''
@@ -1378,7 +1368,6 @@ TheStorm: {
 		'''
 		Fires a spread of homing lightning bolts and arrows from the sky
 		Converts wooden arrows into powerful electric beams
-		95% chance to save ammo
 		'''
 }
 
@@ -1415,7 +1404,7 @@ Ultima: {
 		Casts a continuous stream of plasma bolts
 		Over time the bolts are replaced with powerful lasers
 		Bolts power up into solid beams as you continue shooting
-		90% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1425,7 +1414,6 @@ UniversalGenesis: {
 		'''
 		Fires a spread of bullets from the gun and a flurry of stars to rain down on the cursor
 		Converts musket balls into starcaller shots that summon additional stars on enemy hits
-		50% chance to save ammo
 		'Let the starry sky fall upon your enemies'
 		'''
 }
@@ -1445,7 +1433,7 @@ Voidragon: {
 		'''
 		Fires void blasts that explode every other shot
 		Shoots demon flame tentacles alongside every shot
-		75% chance to save ammo
+		Void blasts consume no ammo and bullets have a {0}% chance to save ammo
 		'''
 }
 
@@ -1460,7 +1448,7 @@ WildfireBloom: {
 		'''
 		Charges up to emit a stream of energized flames and pairs of homing wildfire flares
 		Uses gel for ammo
-		50% chance to save ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 

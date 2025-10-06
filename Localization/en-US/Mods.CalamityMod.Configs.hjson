@@ -123,6 +123,16 @@ CalamityClientConfig: {
 			'''
 	}
 
+	FancyBackgroundVisuals: {
+		Label: "[i:CalamityMod/BlueDistortedMonolith] Toggle Fancy Background Visuals"
+		Tooltip:
+			'''
+			Controls whether or not fancy background visuals will be displayed during certain parts of the game, such as boss fights.
+			When disabled, a simplified version of the main visual will be displayed in certain cases.
+			Recommended to have disabled if you struggle with visibility issues or low performance.
+			'''
+	}
+
 	FasterFallHotkey: {
 		Label: "[i:CalamityMod/BallAndChain] Enable Fast Falling"
 		Tooltip:

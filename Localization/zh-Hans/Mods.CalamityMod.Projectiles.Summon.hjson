@@ -167,11 +167,10 @@ LostSoulGold.DisplayName: 黄金灵魂
 LostSoulLarge.DisplayName: 灵魂
 LostSoulSmall.DisplayName: 灵魂
 LuxorsGiftSummon.DisplayName: 卢克索之召唤符文
-MechwormBody.DisplayName: 星宇神卫
-MechwormHead.DisplayName: 星宇神卫
-MechwormLaser.DisplayName: 星宇神卫激光
-MechwormTail.DisplayName: 星宇神卫
-MechwormTeleportRift.DisplayName: 星界裂痕
+VoidEaterMarionetteBody.DisplayName: Void Eater Marionette
+VoidEaterMarionetteHead.DisplayName: Void Eater Marionette
+VoidEaterMarionetteTail.DisplayName: Void Eater Marionette
+DoGWeaponTeleportRift.DisplayName: Rift
 MidnightSunBeaconProj.DisplayName: 极昼信标
 MidnightSunBeam.DisplayName: 极昼光束
 MidnightSunShot.DisplayName: 极昼信标子弹
@@ -314,6 +313,7 @@ ViridVanguardBlade.DisplayName: 葱茏之锋
 VoidConcentrationAura.DisplayName: 虚空统御
 VoidConcentrationBlackhole.DisplayName: 黑洞
 VoidConcentrationOrb.DisplayName: 虚空
+VoidEaterMarionetteProjectile.DisplayName: Void Eater Marionette
 VolcanicFireballSummon.DisplayName: 火山炎球
 WaterElementalMinion.DisplayName: 阿娜希塔
 WaterElementalSong.DisplayName: 塞壬之歌

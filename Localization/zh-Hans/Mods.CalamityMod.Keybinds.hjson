@@ -7,11 +7,11 @@ AscendantInsigniaHotKey.DisplayName: 进升证章飞行
 BoosterDash.DisplayName: 喷射器冲刺
 DashDoubleTapOverride.DisplayName: 单击冲刺
 ExoChairSlowDown.DisplayName: 星流飞椅减速
-GodSlayerDash.DisplayName: 弑神者冲刺
+GodSlayerDash.DisplayName: Dimensional Drive
 GravistarSabatonHotkey.DisplayName: Interstellar Stompers猛击
 NormalityRelocator.DisplayName: 常态定位器
 RageMode.DisplayName: 怒气模式
 SpectralVeilTeleport.DisplayName: 幽灵披风传送
 TransformerHotKey.DisplayName: 变压器转换
 GravitySwapOverride.DisplayName: 重力翻转
-ExpandDebuffInfo.DisplayName: 查看减益信息
+ExpandDebuffInfo.DisplayName: 查看增/减益信息

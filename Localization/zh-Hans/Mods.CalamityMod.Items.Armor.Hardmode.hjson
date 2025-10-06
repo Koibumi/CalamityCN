@@ -4,7 +4,7 @@ AstralBreastplate: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxManaBy}
 		{$CommonItemTooltip.PercentIncreasedDamage@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 }
 
@@ -45,7 +45,7 @@ BrimflameCowl: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
 		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance@2}
-		使你免疫着火了！、硫磺火和霜冻减益
+		对[cbuff:OnFire]，[cbuff:CalamityMod/BrimstoneFlames]和[cbuff:Frostburn]免疫
 		'''
 	SetBonus:
 		'''
@@ -96,7 +96,7 @@ DaedalusHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus: 当你被击中时释放水晶碎片
 }
@@ -196,7 +196,7 @@ HydrothermicArmor: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage}
-		免疫火焰和熔岩
+		免疫熔岩和[cbuff:OnFire]
 		'''
 	CommonSetBonus:
 		'''
@@ -239,7 +239,7 @@ HydrothermicHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus:
 		'''
@@ -321,7 +321,7 @@ LunicCorpsVest: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
-		{$Common.AmmoUseReduction@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 		'''
 }
 
@@ -364,7 +364,7 @@ PlaguebringerCarapace: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-		使你免疫瘟疫减益
+		对[cbuff:CalamityMod/Plague]免疫
 		'''
 }
 
@@ -389,7 +389,7 @@ PlaguebringerVisor: {
 		'''
 		获得瘟疫冲刺，使敌怪被瘟疫折磨
 		召唤一只小小的瘟疫使者，释放蜂群追杀你的敌人
-		友方蜜蜂会造成瘟疫减益
+		友方蜜蜂会施加[cbuff:CalamityMod/Plague]减益
 		'''
 }
 
@@ -398,7 +398,7 @@ PlagueReaperMask: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus:
 		'''
@@ -471,7 +471,7 @@ ReaverHeadTank: {
 		{$Common.AggroBoost}
 		受到持续性伤害减益时的生命恢复损失降低{0}%
 		降低{1}%移动速度和飞行时间
-		受伤时获得{2}秒掠夺者之怒
+		受伤时获得{2}秒[cbuff:CalamityMod/ReaverRage]
 		'''
 }
 
@@ -495,7 +495,7 @@ TitanHeartMask: {
 	Tooltip:
 		'''
 		{$Common.RogueDamage}和{$Common.RogueVelocity@1}
-		盗贼武器会造成幻星感染
+		盗贼武器会施加[cbuff:CalamityMod/AstralInfectionDebuff]
 		'''
 	SetBonus:
 		'''

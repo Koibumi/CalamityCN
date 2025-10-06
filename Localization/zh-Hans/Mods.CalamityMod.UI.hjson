@@ -9,6 +9,7 @@ Nanomachines: 纳米机器条
 Rage: 怒气条
 Flight: "{0} 剩余飞行时间"
 Charge: 当前充能
+Vis: 当前魔能
 DefenseDamage: 防御损伤
 SulphurousWater: 硫磺海水腐蚀条
 Stealth: 潜行槽
@@ -111,7 +112,7 @@ Cooldowns: {
 	GaelsRage: 盖尔大剑怒气冷却
 	BandCooldown: Band Cooldown
 	GlobalDodge: 深渊影遁冷却
-	GodSlayerDash: 神弑者之停息
+	GodSlayerDash: Dimensional Drive Cooldown
 	HellbornShots: 地狱降临子弹数
 	HolyProtection: 神圣防护
 	InkBomb: 墨水炸弹冷却

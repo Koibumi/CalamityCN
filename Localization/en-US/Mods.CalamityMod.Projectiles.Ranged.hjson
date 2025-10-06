@@ -67,7 +67,6 @@ DrizzlefishFireball.DisplayName: Drizzlefish Fireball
 DrizzlefishFireSplit.DisplayName: Drizzlefish Flames
 DryadsTearMain.DisplayName: Dryad's Tear
 DryadsTearSplit.DisplayName: Dryad's Tear
-DWArrow.DisplayName: Death's Arrow
 ElysianArrowProj.DisplayName: Elysian Arrow
 ElysianArrowRain.DisplayName: Elysian Light
 EmesisGore.DisplayName: Rotten Gore
@@ -263,3 +262,4 @@ SulphuricDrop.DisplayName: Sulphuric Drop
 AcidRocket.DisplayName: Acid Rocket
 M1GarandBulletCasing.DisplayName: M1 Garand Bullet Casing
 M1GarandEmptyClip.DisplayName: M1 Garand Empty Clip
+M1GarandShot.DisplayName: .30-06 Round

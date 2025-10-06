@@ -16,3 +16,9 @@ PotionSickness.ItemTooltip: ""
 Slimed.ItemTooltip: 增强火系减益伤害
 Wet.ItemTooltip: 增强电系减益伤害
 Electrified.ItemTooltip: 电系 - 10.5 DPS，对移动目标造成4倍伤害
+Honey.ItemTooltip:
+	'''
+	生命再生增加1HP/s
+	自然再生加速度增加300%
+	持续性伤害减益的伤害降低2HP/s
+	'''

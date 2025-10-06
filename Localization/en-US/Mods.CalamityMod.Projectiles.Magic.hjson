@@ -3,6 +3,10 @@ AcidGunStream.DisplayName: Acid Stream
 AcidicReed.DisplayName: Acidic Reed
 AcidicSaxBubble.DisplayName: Acid Bubble
 AcidicSaxMist.DisplayName: Acid Mist
+AerSigil.DisplayName: Aer Sigil
+AerSigilBlast.DisplayName: Aer Blast
+AerSigilFeather.DisplayName: Aer Feather
+AerSigilMissile.DisplayName: Aer Missile
 AetherBeam.DisplayName: Aether Beam
 AnahitasArpeggioNote.DisplayName: Anahita's Song
 Ancient2.DisplayName: Ancient Dust
@@ -10,6 +14,10 @@ ApoctosisBlast.DisplayName: Apoctosis Blast
 ApotheosisEnergy.DisplayName: Apotheosis Energy
 ApotheosisWorm.DisplayName: The Devourer of Gods
 AquamarineBolt.DisplayName: Aqua Bolt
+AquaSigil.DisplayName: Aqua Sigil
+AquaSigilWaterball.DisplayName: Aqua Waterball
+AquaSigilWaterballExplosion.DisplayName: Aqua Waterball Explosion
+AquaSigilWaterdroplet.DisplayName: Aqua Waterdroplet
 ArcticBearPawProj.DisplayName: Arctic Bear Paw
 ArtAttackStar.DisplayName: Artsy Star
 ArtAttackStrike.DisplayName: Art Attack
@@ -51,8 +59,9 @@ CosmicTentacle.DisplayName: Dark Tentacle
 CryoBlast.DisplayName: Cryo Blast
 DarkSparkBeam.DisplayName: Dark Spark Beam
 DarkSparkPrism.DisplayName: Dark Crystal
-DeathhailBeam.DisplayName: Deathhail
+HyperdeathRiftScepterBeam.DisplayName: Hypderdeath Rift Ripper
 DeathValleyDusterProjectile.DisplayName: Death Valley Duster
+DeathhailBeam.DisplayName: Deathhail Beam
 EelDrop.DisplayName: Acid Eel Drop
 EidolicWailSoundwave.DisplayName: Eidolic Wail
 EldritchTentacle.DisplayName: Eldritch Tentacle
@@ -98,6 +107,10 @@ IceBlockIcicle.DisplayName: Ice Barrage Icicle
 IceCluster.DisplayName: Ice Cluster
 Icicle.DisplayName: Icicle
 IcicleStaffProj.DisplayName: Furious Icicle
+IgnisSigil.DisplayName: Ignis Sigil
+IgnisSigilFireballExplosion.DisplayName: Ignis Fireball Explosion
+IgnisSigilFireball.DisplayName: Ignis Fireball
+IgnisSigilEmbers.DisplayName: Ignis Ember
 IncineratingFireball.DisplayName: Incinerating Fireball
 InfernadoFriendly.DisplayName: Infernado
 InfernadoMarkFriendly.DisplayName: Infernado Mark
@@ -147,7 +160,12 @@ NightOrb.DisplayName: Night's Orb
 NightsRayBeam.DisplayName: Night's Ray
 NuclearFuryProjectile.DisplayName: Nuclear Fury
 OmicronBeam.DisplayName: Omicron Beam
+OrdoSigil.DisplayName: Ordo Sigil
+OrdoSigilBeam.DisplayName: Ordo Beam
 PartySparkle.DisplayName: Pretty Sparkle
+PerditoSigil.DisplayName: Perdito Sigil
+PerditoSigilShot.DisplayName: Perdito Shot
+PerditoSigilShotCreator.DisplayName: Perdito Shot Creator
 PhantasmalFuryProj.DisplayName: Phantasmal Fury
 Phantom.DisplayName: Phantom
 PhasedGodRay.DisplayName: Phased God Ray
@@ -198,6 +216,7 @@ SHPExplosion.DisplayName: SHPB Explosion
 SHPL.DisplayName: SHPL
 SHPS.DisplayName: SHPS
 SHPV.DisplayName: SHPV
+SigilSet.DisplayName: Sigil Set
 SilvaBurst.DisplayName: Silva Burst
 SlitheringEelProjectile.DisplayName: Slithering Eel
 SmallSpirit.DisplayName: Small Angry Spirit
@@ -219,6 +238,10 @@ SylvRay.DisplayName: Sylv Ray
 TacticiansElectricBoom.DisplayName: Electric Explosion
 TacticiansTrumpCardProj.DisplayName: Trump Beam
 TearsofHeavenProjectile.DisplayName: Tears of Heaven
+TerraSigil.DisplayName: Terra Sigil
+TerraSigilLargeRock.DisplayName: Terra Large Rock
+TerraSigilMediumRock.DisplayName: Terra Medium Rock
+TerraSigilSmallRock.DisplayName: Terra Small Rock
 Teslabeam.DisplayName: Teslabeam
 TradewindsProjectile.DisplayName: Tradewinds Feather
 TridentIcicle.DisplayName: Trident Icicle
@@ -236,6 +259,7 @@ VenusianExplosion.DisplayName: Venusian Explosion
 VenusianFlame.DisplayName: Venusian Cinder
 VisceraBeam.DisplayName: Viscera
 VisceraBoom.DisplayName: Viscera Boom
+VisNeedle.DisplayName: Vis Needle
 VitriolicViperFang.DisplayName: Vitriolic Fang
 VitriolicViperSpit.DisplayName: Vitriolic Spit
 VividBeam.DisplayName: Vivid Beam
@@ -250,6 +274,9 @@ VolterionOrb.DisplayName: Unstable Ball Lightning
 VolterionShot.DisplayName: Ultracharged Filament
 VortexElementalBeam.DisplayName: Vortex Lightning
 WaterLeechProj.DisplayName: Water Leech
+WarpSigil.DisplayName: Warp Sigil
+WarpSigilShot.DisplayName: Warped Shot
+WarpSigilShotCreator.DisplayName: Warped Shot Creator
 WaywasherProj.DisplayName: Waywasher Wave
 WingmanGrenade.DisplayName: Mana Grenade
 WingmanShot.DisplayName: Mana Shot

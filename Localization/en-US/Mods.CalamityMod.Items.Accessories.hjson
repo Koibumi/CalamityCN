@@ -573,13 +573,11 @@ DeificAmulet: {
 	DisplayName: Deific Amulet
 	Tooltip:
 		'''
-		Releases a burst of homing stars [TOGGLE]after taking damage
-		Increases the length of invincibility from various sources
-		Grants bonus invincibility frames when hurt, based on your missing health
-		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
+		Releases a burst of homing star-bees[TOGGLE] and drenches you in [cbuff:Honey] after taking damage
+		Increases the length of invincibility, with it increasing even more when at low health
 		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:PanicNecklace] [c/aaaaaa:Panic Necklace's effect]
 		'''
-	ToggleEffect: "and increases movement speed "
+	ToggleEffect: ", increases movement speed,"
 }
 
 DepthCharm: {
@@ -1437,17 +1435,14 @@ RampartofDeities: {
 	DisplayName: Rampart of Deities
 	Tooltip:
 		'''
-		Releases a burst of homing stars [TOGGLE]after taking damage
-		Increases the length of invincibility from various sources
-		Grants bonus invincibility frames when struck, based on your missing health
-		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
-		Being struck for over 200 damage grants 30 additional invincibility frames
 		Grants immunity to knockback
-		Puts a shell around the owner when below 50% life that reduces damage by 25%
-		Absorbs 25% of damage done to players on your team when above 25% life
+		Releases a blast of homing star-bees[TOGGLE] and drenches you in [cbuff:Honey] after taking damage
+		Increases the length of invincibility, with it increasing even more when at low health or taking high damage attacks
+		Reduces damage taken by 25% when below 50% life
+		Absorbs 25% of damage done to players on your team when you are above 25% life
 		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:PanicNecklace] [c/aaaaaa:Panic Necklace's effect]
 		'''
-	ToggleEffect: "and increases movement speed "
+	ToggleEffect: ", increases movement speed,"
 }
 
 RareElementalinaBottle: {

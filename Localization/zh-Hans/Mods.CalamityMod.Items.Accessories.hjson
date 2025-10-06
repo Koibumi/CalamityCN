@@ -573,13 +573,11 @@ DeificAmulet: {
 	DisplayName: 神圣护符
 	Tooltip:
 		'''
-		受到伤害时释放一阵追踪星星[TOGGLE]
-		延长各种来源的无敌时间
-		根据你已损失的生命值在受伤时获得额外的无敌帧
-		满血时提供10无敌帧，最高提升至25%以下血量时的40无敌帧
+		受到伤害时释放一阵追踪星星蜜蜂[TOGGLE]并将你浸在[cbuff:Honey]中
+		延长无敌帧时间，生命值越低延长地越久
 		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
 		'''
-	ToggleEffect: 并增加移动速度
+	ToggleEffect: ，增加移动速度
 }
 
 DepthCharm: {
@@ -1436,17 +1434,14 @@ RampartofDeities: {
 	DisplayName: 神之壁垒
 	Tooltip:
 		'''
-		受到伤害时释放一阵追踪星星[TOGGLE]
-		延长各种来源的无敌时间
-		根据你已损失的生命值在受伤时获得额外的无敌帧
-		满血时提供10无敌帧，最高提升至25%以下血量时的40无敌帧
-		受到200点以上伤害时提供30额外无敌帧
 		对击退免疫
-		生命低于50%时会在你的周围生成能够降低25%所受伤害的护盾
+		受到伤害时释放一阵追踪星星蜜蜂[TOGGLE]并将你浸在[cbuff:Honey]中
+		延长无敌帧时间，生命值越低或受到高伤害攻击时延长地越久
+		生命低于50%时降低25%所受伤害
 		生命值高于25%时会将团队中其他玩家所受伤害的25%转移到佩戴者身上
 		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
 		'''
-	ToggleEffect: 并增加移动速度
+	ToggleEffect: ，增加移动速度
 }
 
 RareElementalinaBottle: {

@@ -4,7 +4,7 @@ AstralBreastplate: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxManaBy}
 		{$CommonItemTooltip.PercentIncreasedDamage@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 }
 
@@ -45,7 +45,7 @@ BrimflameCowl: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
 		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance@2}
-		Immunity to On Fire!, Brimstone Flames and Frostburn
+		Immunity to [cbuff:OnFire], [cbuff:CalamityMod/BrimstoneFlames] and [cbuff:Frostburn]
 		'''
 	SetBonus:
 		'''
@@ -96,7 +96,7 @@ DaedalusHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus: Getting hit causes you to emit a blast of crystal shards
 }
@@ -196,7 +196,7 @@ HydrothermicArmor: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage}
-		Grants immunity to fire and lava
+		Grants immunity to lava and [cbuff:OnFire]
 		'''
 	CommonSetBonus:
 		'''
@@ -239,7 +239,7 @@ HydrothermicHeadRanged: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus:
 		'''
@@ -321,7 +321,7 @@ LunicCorpsVest: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
-		{$Common.AmmoUseReduction@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 		'''
 }
 
@@ -364,7 +364,7 @@ PlaguebringerCarapace: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-		Grants immunity to the Plague
+		Grants immunity to [cbuff:CalamityMod/Plague]
 		'''
 }
 
@@ -389,7 +389,7 @@ PlaguebringerVisor: {
 		'''
 		Grants a plague dash which can slam through enemies without taking damage
 		Summons a lil' plaguebringer which swarms your foes with little bees
-		Friendly bees inflict the plague
+		Friendly bees inflict [cbuff:CalamityMod/Plague]
 		'''
 }
 
@@ -398,7 +398,7 @@ PlagueReaperMask: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$Common.AmmoUseReduction@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus:
 		'''
@@ -471,7 +471,7 @@ ReaverHeadTank: {
 		{$Common.AggroBoost}
 		Reduces the life regen lost from damage over time debuffs by {0}%
 		{1}% decreased movement speed and flight time
-		Grants Reaver Rage for {2} {^2:second;seconds} after taking damage
+		Grants [cbuff:CalamityMod/ReaverRage] for {2} {^2:second;seconds} after taking damage
 		'''
 }
 
@@ -495,7 +495,7 @@ TitanHeartMask: {
 	Tooltip:
 		'''
 		{$Common.RogueDamage} and {$Common.RogueVelocity@1}
-		Rogue weapons inflict the Astral Infection debuff
+		Rogue weapons inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 		'''
 	SetBonus:
 		'''

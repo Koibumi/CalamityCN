@@ -383,12 +383,12 @@ Equanimity: {
 		'''
 }
 
-Eradicator: {
-	DisplayName: Eradicator
+DimensionTearingDisk: {
+	DisplayName: Dimension-Tearing Disk
 	Tooltip:
 		'''
-		Throws a disk that fires nebula lasers at nearby enemies
-		Stealth strikes stick to enemies and unleash a barrage of lasers in all directions
+		Throws a disk that tears space in the direction of the nearest enemy
+		Stealth strikes stick to enemies and unleash [c/ff00ff:God's Bane Doombeam Array]
 		'''
 }
 

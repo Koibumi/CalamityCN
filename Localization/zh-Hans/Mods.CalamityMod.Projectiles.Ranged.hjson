@@ -67,7 +67,6 @@ DrizzlefishFireball.DisplayName: 龙雨鱼炎弹
 DrizzlefishFireSplit.DisplayName: 龙雨鱼息
 DryadsTearMain.DisplayName: 树妖之泪
 DryadsTearSplit.DisplayName: 树妖之泪
-DWArrow.DisplayName: 死亡之箭
 ElysianArrowProj.DisplayName: 极乐箭
 ElysianArrowRain.DisplayName: 极乐之光
 EmesisGore.DisplayName: 腐败血迹
@@ -263,3 +262,4 @@ SulphuricDrop.DisplayName: 硫酸液滴
 AcidRocket.DisplayName: 酸性导弹
 M1GarandBulletCasing.DisplayName: M1加兰德弹壳
 M1GarandEmptyClip.DisplayName: M1加兰德空弹夹
+M1GarandShot.DisplayName: .30-06子弹

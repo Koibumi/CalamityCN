@@ -13,7 +13,6 @@ RecipeGroup: {
 	LunarPickaxe: "{$LegacyMisc.37} Lunar Pickaxe"
 	LunarHamaxe: "{$LegacyMisc.37} Lunar Hamaxe"
 	AnyQuiver: "{$LegacyMisc.37} Quiver"
-	AnyWings: "{$LegacyMisc.37} Wings"
 }
 
 // Status
@@ -41,7 +40,7 @@ Tier4KnowledgeTooltip: The Underworld schematic must be deciphered first
 Tier5KnowledgeTooltip: The Ice biome schematic must be deciphered first
 // Other CombatText uses and Item Messages
 ShiftToExpand: Hold Shift to see an expanded description
-AltExpand: Hold {0} to see debuff information
+AltExpand: Hold {0} to see buff information
 AltExpandUnset: Set a keybind to see debuff information
 LearnedSchematic: You learned how to create new things!
 CragmawVibeCheck: Vibe check.

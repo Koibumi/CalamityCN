@@ -12,7 +12,6 @@ DoubleTapDown: 双击{0}
 // Miscellaneous stats/info
 AggroBoost: 敌人更有可能以你为目标
 AggroReduction: 敌人不太可能以你为目标
-AmmoUseReduction: "{0}%几率节省弹药"
 KnockbackImmunity: 对击退免疫
 AbyssLightLevel1: 在深渊中提供少量光照
 AbyssLightLevel2: 在深渊中提供适量光照

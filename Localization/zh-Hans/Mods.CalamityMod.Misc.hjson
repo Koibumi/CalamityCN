@@ -13,7 +13,6 @@ RecipeGroup: {
 	LunarPickaxe: "{$LegacyMisc.37} 夜明锭镐"
 	LunarHamaxe: "{$LegacyMisc.37} 夜明锭锤斧"
 	AnyQuiver: "{$LegacyMisc.37} 箭袋"
-	AnyWings: "{$LegacyMisc.37} 翅膀"
 }
 
 // Status
@@ -41,8 +40,8 @@ Tier4KnowledgeTooltip: 需要先破译地狱原型图
 Tier5KnowledgeTooltip: 需要先破译雪原原型图
 // Other CombatText uses and Item Messages
 ShiftToExpand: 按住Shift键查看更多描述
-AltExpand: 按住{0}查看减益信息
-AltExpandUnset: 设置按键以查看减益信息
+AltExpand: 按住{0}查看增/减益信息
+AltExpandUnset: 设置按键以查看增/减益信息
 LearnedSchematic: 你学会了如何制作新的东西！
 CragmawVibeCheck: 感觉如何？
 AutocannonHot: 我焯！好烫！

@@ -51,9 +51,12 @@ DoGBeam.DisplayName: 传送门光束
 DoGBeamPortal.DisplayName: 传送门光束
 DoGDeath.DisplayName: 死亡之光
 DoGDeathBoom.DisplayName: 宇宙爆裂
-DoGFire.DisplayName: 死亡之火
+DoGFire.DisplayName: Faith Incinerator
+DoGLaserWalls.DisplayName: God's Bane Doombeam Array
+DoGLaserWallsBigBeam.DisplayName: Hyperdeath Rift Ripper
 DoGP1EndPortal.DisplayName: 噬神者维度传送门
-DoGTeleportRift.DisplayName: 星宇裂隙
+DoGRiftCrack.DisplayName: DoG Distortion Crack
+DoGTeleportRift.DisplayName: DoG Distortion Rift
 DoGWingdings.DisplayName: 某自命不凡者的叫嚣
 DraedonSummonLaser.DisplayName: wowowow超级xx的巨型末日死光！！
 DyingSun.DisplayName: 垂死之日
@@ -166,3 +169,5 @@ WaterSpear.DisplayName: 水之枪
 YharonBulletHellVortex.DisplayName: 子弹地狱旋涡
 YharonFireball.DisplayName: 龙炎弹
 YharonFireball2.DisplayName: 龙炎弹
+FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
+HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Scepter Beam

@@ -51,9 +51,12 @@ DoGBeam.DisplayName: Portal Laser
 DoGBeamPortal.DisplayName: Beam Portal
 DoGDeath.DisplayName: Death Beam
 DoGDeathBoom.DisplayName: Cosmic Explosion
-DoGFire.DisplayName: Death Fire
+DoGFire.DisplayName: Faith Incinerator
+DoGLaserWalls.DisplayName: God's Bane Doombeam Array
+DoGLaserWallsBigBeam.DisplayName: Hyperdeath Rift Ripper
 DoGP1EndPortal.DisplayName: Portal
-DoGTeleportRift.DisplayName: Rift
+DoGRiftCrack.DisplayName: DoG Distortion Crack
+DoGTeleportRift.DisplayName: DoG Distortion Rift
 DoGWingdings.DisplayName: Ramblings of Wing DoGster
 DraedonSummonLaser.DisplayName: Giant Fuck-off Deathray of Doom
 DyingSun.DisplayName: Dying Sun
@@ -166,3 +169,5 @@ WaterSpear.DisplayName: Water Spear
 YharonBulletHellVortex.DisplayName: Bullet Hell Vortex
 YharonFireball.DisplayName: Dragon Fireball
 YharonFireball2.DisplayName: Dragon Fireball
+FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
+HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Scepter Beam

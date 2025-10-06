@@ -747,9 +747,16 @@ StaffOfNecrosteocytes: {
 		'''
 }
 
-StaffoftheMechworm: {
-	DisplayName: 星宇神卫召唤杖
-	Tooltip: 召唤星宇护卫为你而战
+VoidEaterMarionette: {
+	DisplayName: Void Eater Marionette
+	Tooltip:
+		'''
+		蕴含掌控小型吞噬者的力量
+		重复召唤会增加吞噬者的长度和威力
+		吞噬者会使用[c/ff00ff:Divinity Devourer]，[c/ff00ff:Faith Incinerator]和[c/ff00ff:Ultracosmic Maelstrom]攻击
+		可以与掉落物品互动
+		召唤吞噬者后在物品栏中按住Shift<right>以优先拾取掉落物品
+		'''
 }
 
 StarspawnHelixStaff: {
