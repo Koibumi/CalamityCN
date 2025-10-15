@@ -1382,3 +1382,12 @@ WulfrumKnife: {
 		<right>磁化所有插在敌人身上的飞刀，使它们飞回你并恢复潜行值
 		'''
 }
+
+Pumpkaboom: {
+	DisplayName: Pumpkaboom
+	Tooltip:
+		'''
+		投掷一个可以粘在敌怪身上的南瓜，延迟一段时间后爆炸
+		潜伏攻击会投掷更大的南瓜，拉取敌人并释放更大的爆炸
+		'''
+}

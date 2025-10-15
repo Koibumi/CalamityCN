@@ -75,6 +75,16 @@ FoxDrive: {
 		'''
 }
 
+FrostyBatBottle: {
+	DisplayName: Frosty Bat Bottle
+	Tooltip:
+		'''
+		Summons an icy bat to light your way that flies towards your cursor when you dash
+		{$Common.AbyssLightLevel1}
+		[c/6ECAC3:'All the world's bats are prime to squeak!']
+		'''
+}
+
 GeyserShell: {
 	DisplayName: Geyser Shell
 	Tooltip: Summons a little flak hermit
@@ -186,6 +196,16 @@ ThiefsDime: {
 		Summons Goldie the rogue coin to collect nearby coins and light your way
 		{$Common.AbyssLightLevel1}
 		'Once worthless treasure, now a relic of a thief's companionship'
+		'''
+}
+
+ToastyBatBottle: {
+	DisplayName: Toasty Bat Bottle
+	Tooltip:
+		'''
+		Summons a fiery bat to light your way that leaves a trail of glowing embers
+		{$Common.AbyssLightLevel1}
+		[c/CF6454:'Guaranteed to NOT knock you off your hellbridge']
 		'''
 }
 

@@ -152,7 +152,6 @@ PlagueTaintedDrone.DisplayName: Plague Tainted Drone
 PlanarRipperBolt.DisplayName: Planar Bolt
 PlanarRipperExplosion.DisplayName: Planar Explosion
 PlanetaryAnnihilationProj.DisplayName: Planetary Ball
-PlasmaBlast.DisplayName: Plasma Blast
 PlasmaExplosion.DisplayName: Plasma Explosion
 PolarStar.DisplayName: Star Shot
 PrecisionBolt.DisplayName: Precision Bolt
@@ -212,6 +211,9 @@ SproutingArrowSplit.DisplayName: Sprouting Arrow
 SputterComet.DisplayName: Sputter Comet
 SputterCometBig.DisplayName: Sputter Comet
 SpykerProj.DisplayName: Spyker
+StarfleetStar.DisplayName: Starfleet Star
+StarmadaHitProj.DisplayName: Starmada
+StarmadaStar.DisplayName: Starmada Star
 StarmageddonBinaryStarCenter.DisplayName: Starmageddon Binary Star Center
 StarmageddonStar.DisplayName: Starmageddon Star
 StarmageddonStar2.DisplayName: Starmageddon Star

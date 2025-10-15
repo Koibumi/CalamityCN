@@ -95,7 +95,7 @@ ArcNovaDiffuser: {
 		'''
 		Charges and fires a rapid burst of nova bolts
 		The first charging stage increases the fire rate of the burst
-		The second charging stage replaces the rapid burst with a devastating nova blast
+		The second charging stage replaces the rapid burst with a devastating nova blast that always crits
 		'''
 }
 
@@ -832,7 +832,7 @@ OntologicalDespoiler: {
 		Null condensate shots fire rapidly and home in on enemies
 		At 50% charge or higher, rate of fire significantly increases
 		Fully charged unstable condensate lobs a homing disruption sphere
-		Fully charged null condensate emits a hitscan null-annihilation beam
+		Fully charged null condensate emits a hitscan null-annihilation beam that always crits
 		Each mode charges slower when used repeatedly and resets to full speed when swapped
 		'Rob them of continuity and the laws of physics they hold so dear.'
 		'''
@@ -1194,15 +1194,32 @@ Spyker: {
 
 Starfleet: {
 	DisplayName: Starfleet
-	Tooltip: Fires a spread of plasma blasts
+	Tooltip:
+		'''
+		<left> fires a spread of starshots
+		<right> fires a concussive short range starburst
+		Holding down <right> disables the recoil damper
+		Starshots can be accelerated by firing when the starburst goes off
+		Perfect timing reduces spread and increases damage
+		Imperfect timing still increases damage, but heavily increases spread
+		Uses fallen stars, 50% chance to save ammo
+		'Etoile, et toi'
+		'''
 }
 
 Starmada: {
 	DisplayName: Starmada
 	Tooltip:
 		'''
-		Fires a barrage of stars and plasma blasts
-		{$CommonItemTooltip.PercentChanceToSaveAmmo}
+		<left> fires a spread of starshots
+		<right> fires a concussive short range starburst
+		Holding down <right> disables the recoil damper
+		Starshots can be accelerated by firing when the starburst goes off
+		Perfect timing reduces spread, increases damage, and adds a stacking weapon power buff
+		Imperfect timing still increases damage, but heavily increases spread and reduces weapon power
+		The weapon power buff strengthens both starshots and the concussive starburst
+		Uses fallen stars, 50% chance to save ammo
+		'Et toi, et moi'
 		'''
 }
 

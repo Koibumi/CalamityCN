@@ -1844,7 +1844,7 @@ SupremeBaitTackleBoxFishingStation: {
 		'''
 		Increases fishing power by 50
 		Fishing line will never break and decreases chance of bait consumption
-		Allows fishing in lava and detects hooked fish
+		Allows fishing in lava
 		'''
 }
 
@@ -2073,8 +2073,8 @@ WarbanneroftheRighteous: {
 	DisplayName: Warbanner of the Righteous
 	Tooltip:
 		'''
-		Grants a scaling damage boost based on how close you are to enemies
-		Maximum damage boost is 20%, minimum damage boost is -30%
+		Multiplies all damage based on how close you are to enemies
+		Maximum damage boost is 15%, minimum damage boost is -15%
 		Emit a blazing aura that burns and repels nearby enemies
 		Enemies take increasing damage the closer they are to you and the longer they are near you
 		Effects are transparent and silent if visibility is disabled

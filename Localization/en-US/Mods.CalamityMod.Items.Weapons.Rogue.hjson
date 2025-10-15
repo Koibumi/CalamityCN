@@ -1396,3 +1396,12 @@ WulfrumKnife: {
 		<right> to magnetize all stuck knives back to you, restoring stealth
 		'''
 }
+
+Pumpkaboom: {
+	DisplayName: Pumpkaboom
+	Tooltip:
+		'''
+		Throws a pumpkin which sticks to enemies and explodes after a delay
+		Stealth strikes throw larger pumpkins which pull enemies in before releasing a larger explosion
+		'''
+}

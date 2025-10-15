@@ -1290,11 +1290,6 @@ FieryDraconidBuff: {
 	Description: 炽焰天龙会保护你
 }
 
-FlarebatBuff: {
-	DisplayName: Flarebat
-	Description: 火构造体会保护你
-}
-
 FleshBallBuff: {
 	DisplayName: 血肉之球
 	Description: 为什么这玩意在跟着你？
@@ -1303,11 +1298,6 @@ FleshBallBuff: {
 FlowersOfMortalityBuff: {
 	DisplayName: 告死之花
 	Description: 天界之花环绕在你的身边
-}
-
-FrostbatBuff: {
-	DisplayName: Frostbat
-	Description: 冰构造体会保护你
 }
 
 FrostBlossomBuff: {
@@ -1669,5 +1659,15 @@ Shadowflame: {
 
 ForbiddenStealthSummonTagBuff: {
 	DisplayName: Forbidden Stealth Summon Tag Buff
-	Description: If you're seeing this, something went horribly wrong
+	Description: 如果你正看到这个，说明出现了严重错误
+}
+
+FrostyBatBuff: {
+	DisplayName: Frosty Bat Friend
+	Description: 一只寒霜蝙蝠在周围掠动
+}
+
+ToastyBatBuff: {
+	DisplayName: Toasty Bat Friend
+	Description: 一只炽焰蝙蝠在你肩头扑棱
 }

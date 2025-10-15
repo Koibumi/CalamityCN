@@ -75,6 +75,16 @@ FoxDrive: {
 		'''
 }
 
+FrostyBatBottle: {
+	DisplayName: Frosty Bat Bottle
+	Tooltip:
+		'''
+		召唤一只寒霜蝙蝠点亮你的道路，当你冲刺时它会飞向光标
+		{$Common.AbyssLightLevel1}
+		[c/6ECAC3:“全世界的蝙蝠都准备好吱吱叫了！”]
+		'''
+}
+
 GeyserShell: {
 	DisplayName: 间歇泉贝壳
 	Tooltip: 召唤小酸丘寄居蟹
@@ -186,6 +196,16 @@ ThiefsDime: {
 		召唤金制硬币收集附近的钱币并照亮你的道路
 		{$Common.AbyssLightLevel1}
 		“曾经一文不值的财宝，现在是见证窃贼之间的友情的遗物”
+		'''
+}
+
+ToastyBatBottle: {
+	DisplayName: Toasty Bat Bottle
+	Tooltip:
+		'''
+		召唤一只炽焰蝙蝠，留下一道发光余烬轨迹以点亮你的道路
+		{$Common.AbyssLightLevel1}
+		[c/CF6454:“保证不会把你撞下地狱平台”]
 		'''
 }
 

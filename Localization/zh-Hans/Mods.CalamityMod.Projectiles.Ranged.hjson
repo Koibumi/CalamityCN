@@ -152,7 +152,6 @@ PlagueTaintedDrone.DisplayName: 玷疫无人机
 PlanarRipperBolt.DisplayName: 位面猎魂弹
 PlanarRipperExplosion.DisplayName: 位面肃清
 PlanetaryAnnihilationProj.DisplayName: 行星球
-PlasmaBlast.DisplayName: 爆炸波
 PlasmaExplosion.DisplayName: 等离子爆炸
 PolarStar.DisplayName: 北辰之矢
 PrecisionBolt.DisplayName: 精准之箭
@@ -212,6 +211,9 @@ SproutingArrowSplit.DisplayName: 春芽箭
 SputterComet.DisplayName: 飞溅彗星
 SputterCometBig.DisplayName: 飞溅彗星
 SpykerProj.DisplayName: 叶针
+StarfleetStar.DisplayName: Starfleet Star
+StarmadaHitProj.DisplayName: Starmada
+StarmadaStar.DisplayName: Starmada Star
 StarmageddonBinaryStarCenter.DisplayName: 双星中心
 StarmageddonStar.DisplayName: 橙星
 StarmageddonStar2.DisplayName: 蓝星

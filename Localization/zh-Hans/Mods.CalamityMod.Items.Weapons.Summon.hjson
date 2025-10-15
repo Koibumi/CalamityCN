@@ -927,24 +927,6 @@ YharonsKindleStaff: {
 		'''
 }
 
-FlarebatStaff: {
-	DisplayName: Flarebat Staff
-	Tooltip:
-		'''
-		召唤一只纯火蝙蝠构造体为你战斗
-		以高速移动力攻击敌怪
-		'''
-}
-
-FrostbatStaff: {
-	DisplayName: Frostbat Staff
-	Tooltip:
-		'''
-		召唤一只纯冰蝙蝠构造体为你战斗
-		以缓慢而精确的机动性攻击敌怪
-		'''
-}
-
 AmphibiansGuitar: {
 	DisplayName: Amphibian's Guitar
 	Tooltip:

@@ -927,24 +927,6 @@ YharonsKindleStaff: {
 		'''
 }
 
-FlarebatStaff: {
-	DisplayName: Flarebat Staff
-	Tooltip:
-		'''
-		Summons a bat construct of pure fire to fight for you
-		Swoops towards foes with great haste
-		'''
-}
-
-FrostbatStaff: {
-	DisplayName: Frostbat Staff
-	Tooltip:
-		'''
-		Summons a bat construct of pure ice to fight for you
-		Swoops towards foes with slow and precise maneuvers
-		'''
-}
-
 AmphibiansGuitar: {
 	DisplayName: Amphibian's Guitar
 	Tooltip:
