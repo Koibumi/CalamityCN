@@ -190,7 +190,7 @@ CinnamonRoll: {
 }
 
 PurpleHaze: {
-	DisplayName: purpleHaze
+	DisplayName: Purple Haze
 	Tooltip:
 		'''
 		{0}% increased damage, but lowers defense by {1}%

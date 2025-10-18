@@ -130,15 +130,6 @@ AbyssalTreasure: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BleachedAnglingKit: {
-	DisplayName: Bleached Angling Kit
-	Tooltip:
-		'''
-		Has a chance to contain various fishing gear
-		{$CommonItemTooltip.RightClickToOpen}
-		'''
-}
-
 FleshyGeode: {
 	DisplayName: Fleshy Geode
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
@@ -147,15 +138,6 @@ FleshyGeode: {
 NecromanticGeode: {
 	DisplayName: Necromantic Geode
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-}
-
-SandyAnglingKit: {
-	DisplayName: Sandy Angling Kit
-	Tooltip:
-		'''
-		Has a chance to contain various fishing gear
-		{$CommonItemTooltip.RightClickToOpen}
-		'''
 }
 
 StarterBag: {

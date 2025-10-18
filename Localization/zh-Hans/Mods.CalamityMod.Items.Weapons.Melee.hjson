@@ -793,6 +793,17 @@ LifehuntScythe: {
 	Tooltip: 命中后会治疗你并发射一个能量镰刀
 }
 
+Lightspeed: {
+	DisplayName: Lightspeed
+	Tooltip:
+		'''
+		[c/c7f5ff:释放一连串戳刺，命中时积攒元素精通]
+		[c/c2fff2:元素精通会随时间衰减，但到达最大后短时间内不会衰减]
+		[c/ffdfba:处于最大元素精通时按下<right>会朝光标冲刺]
+		[c/ffc7c7:冲刺期间命中敌怪会恢复一些元素精通]
+		'''
+}
+
 LionHeart: {
 	DisplayName: 狮心圣裁
 	Tooltip:
@@ -809,7 +820,7 @@ Lucrecia: {
 		'''
 		[c/9370db:挥舞时发射螺旋的暗光碎片]
 		[c/837ce4:用剑身命中时积攒能量]
-		[c/7489ee:能量会随时间衰减，但到达最大能量后短时间内能量不会衰减]
+		[c/7489ee:能量会随时间衰减，但到达最大后短时间内不会衰减]
 		[c/6495f7:处于最大能量时按下<right>以发射双螺旋彗星]
 		'''
 }
@@ -1169,11 +1180,6 @@ SpineOfThanatos: {
 		三条鞭子撞击在一起时会发射出棱晶光
 		如果有敌怪在撞击的视线范围内，光束会射向它们
 		'''
-}
-
-StarburstShiv: {
-	DisplayName: Starburst Shiv
-	Tooltip: 发射彩虹短剑，击中敌人后会生成额外的短剑弹幕
 }
 
 StarnightLance: {

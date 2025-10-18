@@ -793,6 +793,17 @@ LifehuntScythe: {
 	Tooltip: Heals you on hit and shoots an energy scythe
 }
 
+Lightspeed: {
+	DisplayName: Lightspeed
+	Tooltip:
+		'''
+		[c/c7f5ff:Unleash a flurry of stabs which build Elemental Mastery on hit]
+		[c/c2fff2:Elemental Mastery is lost over time but briefly stops depleting after reaching its maximum]
+		[c/ffdfba:Press <right> with maximum Elemental Mastery to dash toward your cursor]
+		[c/ffc7c7:Hitting an enemy during the dash refunds some Elemental Mastery]
+		'''
+}
+
 LionHeart: {
 	DisplayName: Lion Heart
 	Tooltip:
@@ -1169,11 +1180,6 @@ SpineOfThanatos: {
 		Once all three collide, a prism of light is shot outward
 		If an enemy is within the line of sight of the whips on collision, the light will fire towards it
 		'''
-}
-
-StarburstShiv: {
-	DisplayName: Starburst Shiv
-	Tooltip: Shoots a rainbow shiv that spawns additional shivs on hit
 }
 
 StarnightLance: {

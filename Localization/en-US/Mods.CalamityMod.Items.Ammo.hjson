@@ -60,7 +60,7 @@ FlashRound: {
 	DisplayName: Flash Round
 	Tooltip:
 		'''
-		A ricocheting bullet that confuses enemies when it flashes and deals more damage with each bounce
+		A ricocheting bullet that deals more damage with each bounce
 		The damage bonus is 1.13x or +2 flat damage per bounce, depending on which is stronger
 		'''
 }

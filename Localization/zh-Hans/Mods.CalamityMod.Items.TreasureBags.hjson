@@ -130,15 +130,6 @@ AbyssalTreasure: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BleachedAnglingKit: {
-	DisplayName: 褪色钓鱼箱
-	Tooltip:
-		'''
-		有几率获得各种渔具
-		{$CommonItemTooltip.RightClickToOpen}
-		'''
-}
-
 FleshyGeode: {
 	DisplayName: 血肉晶簇
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
@@ -147,15 +138,6 @@ FleshyGeode: {
 NecromanticGeode: {
 	DisplayName: 死灵晶簇
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-}
-
-SandyAnglingKit: {
-	DisplayName: 砂质钓鱼箱
-	Tooltip:
-		'''
-		有几率获得各种渔具
-		{$CommonItemTooltip.RightClickToOpen}
-		'''
 }
 
 StarterBag: {
