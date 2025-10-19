@@ -708,7 +708,7 @@ TarragonHeadRogue: {
 		'''
 		使用盗贼武器暴击敌人{0}次时你会获得{1}秒无敌时间
 		此效果有{2}秒冷却
-		若你受到减益影响，则提升{3}%盗贼伤害
+		每受到一个减益影响，你提升{3}%盗贼伤害
 		{$TarragonBreastplate.CommonSetBonus}
 		'''
 }
