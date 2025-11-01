@@ -187,7 +187,7 @@ CalamityConfig: {
 	}
 
 	FlightBar: {
-		Label: "[i:CalamityMod/DrewsWings] 显示飞行时间条"
+		Label: "[i:AngelWings] 显示飞行时间条"
 		Tooltip:
 			'''
 			启用飞行时间UI条，显示玩家翅膀的剩余飞行时间。
@@ -314,7 +314,7 @@ CalamityConfig: {
 
 	RemoveLavaDropsFromLavaSlimes: {
 		Label: "[i:LavaWaders] 熔岩史莱姆不再生成岩浆"
-		Tooltip: 启用此配置时，原版的熔岩史莱姆会被替换为另一种全新的不会生成岩浆的熔岩史莱姆。
+		Tooltip: 启用此配置时，熔岩史莱姆在专家模式下不再生成岩浆。
 	}
 
 	RemoveReforgeRNG: {

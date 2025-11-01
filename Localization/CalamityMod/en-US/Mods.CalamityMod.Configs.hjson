@@ -187,7 +187,7 @@ CalamityConfig: {
 	}
 
 	FlightBar: {
-		Label: "[i:CalamityMod/DrewsWings] Display Flight Bar"
+		Label: "[i:AngelWings] Display Flight Bar"
 		Tooltip:
 			'''
 			Enables the Flight Bar UI, which shows the player's remaining wing flight time.
@@ -314,7 +314,7 @@ CalamityConfig: {
 
 	RemoveLavaDropsFromLavaSlimes: {
 		Label: "[i:LavaWaders] Remove Lava Drops From Lava Slimes"
-		Tooltip: When enabled, Lava Slimes will be replaced with a new Lava Slime that no longer drops lava.
+		Tooltip: When enabled, Lava Slimes will be prevented from dropping lava in Expert Mode.
 	}
 
 	RemoveReforgeRNG: {
