@@ -99,8 +99,9 @@ TarragonWings: {
 		'''
 }
 
-TracersCelestial: {
-	DisplayName: Celestial Tracers
+MoonWalkers: {
+	DisplayName: Moon Walkers
+	TreadsName: Moon Boots
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
@@ -112,8 +113,9 @@ TracersCelestial: {
 		'''
 }
 
-TracersElysian: {
-	DisplayName: Elysian Tracers
+VoidStriders: {
+	DisplayName: Void Striders
+	TreadsName: Void Kicks
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
@@ -125,8 +127,9 @@ TracersElysian: {
 		'''
 }
 
-TracersSeraph: {
+SeraphTracers: {
 	DisplayName: Seraph Tracers
+	TreadsName: Seraph Treads
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}

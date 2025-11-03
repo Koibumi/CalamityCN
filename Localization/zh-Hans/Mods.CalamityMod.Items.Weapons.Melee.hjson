@@ -42,7 +42,12 @@ AirSpinner: {
 
 AmidiasTrident: {
 	DisplayName: 海王三叉戟
-	Tooltip: 发射追踪旋涡
+	Tooltip:
+		'''
+		[c/CCE9FF:击中敌怪施加][c/28A3FF:Sea King's Assurance]，[c/CCE9FF:可以叠加八层]
+		右键点击会旋转三叉戟，然后刺向空中，消耗所有附近叠层的Sea King's Assurance
+		每叠加一层，右键攻击就会造成更多伤害
+		'''
 }
 
 AnarchyBlade: {
@@ -1486,10 +1491,16 @@ UrchinMace: {
 
 VanishingPoint: {
 	DisplayName: Vanishing Point
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		发射一只元素之矛，飞行过程中会分裂数次
+		发射一束矛光，飞行过程中会分裂数次
 		“撕裂宇宙！”
+		'''
+	TooltipGFB:
+		'''
+		发射一束矛光，飞行过程中会分裂超级多次，多到离谱。
+		“撕裂弹幕上限！”
 		'''
 }
 

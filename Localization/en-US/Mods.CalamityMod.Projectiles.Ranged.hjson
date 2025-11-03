@@ -1,3 +1,4 @@
+AcidRocket.DisplayName: Acid Rocket
 AdamAcceleratorBeam.DisplayName: Adamantite Particle Beam
 AMR2.DisplayName: AMR
 AMRShot.DisplayName: AMR
@@ -98,6 +99,8 @@ GodSlayerSlugProj.DisplayName: God Slayer Slug
 HalleysComet.DisplayName: Halley's Comet
 HandheldTankShell.DisplayName: Tank Shell
 HeavenlyGaleProj.DisplayName: Heavenly Gale
+HellbornProj.DisplayName: Hell-born Gunblast
+HellbornShell.DisplayName: Hell's Shell
 HiveMissile.DisplayName: Hive Missile
 HiveNuke.DisplayName: Hive Nuke
 HolyFireBulletProj.DisplayName: Holy Fire Bullet
@@ -112,8 +115,14 @@ HallowPointRoundProj.DisplayName: Hallow-Point Round
 ImpactRound.DisplayName: Impact Round
 KarasawaShot.DisplayName: Karasawa Shot
 LeafArrow.DisplayName: Leaf Arrow
+LeviatitanAberration.DisplayName: Leviatitan Aberration
+LeviatitanExplosion.DisplayName: Leviatitan Explosion
+LeviatitanMeteor.DisplayName: Leviatitan Meteor
 LunarBolt.DisplayName: Bolt
 LuxorsGiftRanged.DisplayName: Luxor's Ranged
+M1GarandBulletCasing.DisplayName: M1 Garand Bullet Casing
+M1GarandEmptyClip.DisplayName: M1 Garand Empty Clip
+M1GarandShot.DisplayName: .30-06 Round
 MagnaShot.DisplayName: Magna Bolt
 MagnomalyAura.DisplayName: Magnomaly Aura
 MagnomalyBeam.DisplayName: Beam
@@ -121,6 +130,7 @@ MagnomalyExplosion.DisplayName: Explosion
 MagnomalyRocket.DisplayName: Nuke
 MarksmanShot.DisplayName: Marksman Shot
 MechanicalBarracuda.DisplayName: Barracuda
+MegalodonShot.DisplayName: Megalodon Shot
 MeowCreature.DisplayName: the creature :3
 MeowFire.DisplayName: Purr Fire
 MineralMortarProjectile.DisplayName: Onyx Bomb
@@ -172,6 +182,7 @@ RealmRavagerBullet.DisplayName: Explosive Bullet
 RicoshotCoin.DisplayName: Ricoshot Coin
 RocketFire.DisplayName: Fire
 RubberMortarRoundProj.DisplayName: Rubber Mortar
+RubicoPrimeMag.DisplayName: Rubico Prime Mag
 SandblasterBullet.DisplayName: Sandstorm
 ScorchedEarthClusterBomb.DisplayName: Cluster Bomb
 ScorchedEarthRocket.DisplayName: Rocket
@@ -218,7 +229,9 @@ StarmageddonBinaryStarCenter.DisplayName: Starmageddon Binary Star Center
 StarmageddonStar.DisplayName: Starmageddon Star
 StarmageddonStar2.DisplayName: Starmageddon Star
 StormSurgeTornado.DisplayName: Surge
+SulphuricAcidCannonExplosion.DisplayName: Sulphuric Acid Cannon Explosion
 SulphuricBlast.DisplayName: Sulphuric Blast
+SulphuricDrop.DisplayName: Sulphuric Drop
 SuperradiantBolt.DisplayName: Superradiant Bolt
 SuperradiantSaw.DisplayName: Superradiant Saw
 SuperradiantSawLingering.DisplayName: Ultraradiant Saw
@@ -252,16 +265,3 @@ WaterSpout.DisplayName: Spout
 WildfireBloomFire.DisplayName: Wildfire Fire
 WildfireBloomFlare.DisplayName: Wildfire Flare
 WulfrumScrapBullet.DisplayName: High Speed Scrap
-HellbornProj.DisplayName: Hell-born Gunblast
-HellbornShell.DisplayName: Hell's Shell
-RubicoPrimeMag.DisplayName: Rubico Prime Mag
-MegalodonShot.DisplayName: Megalodon Shot
-SulphuricAcidCannonExplosion.DisplayName: Sulphuric Acid Cannon Explosion
-LeviatitanAberration.DisplayName: Leviatitan Aberration
-LeviatitanMeteor.DisplayName: Leviatitan Meteor
-LeviatitanExplosion.DisplayName: Leviatitan Explosion
-SulphuricDrop.DisplayName: Sulphuric Drop
-AcidRocket.DisplayName: Acid Rocket
-M1GarandBulletCasing.DisplayName: M1 Garand Bullet Casing
-M1GarandEmptyClip.DisplayName: M1 Garand Empty Clip
-M1GarandShot.DisplayName: .30-06 Round

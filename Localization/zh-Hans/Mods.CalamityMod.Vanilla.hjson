@@ -54,11 +54,26 @@ AddedTooltip: {
 	FeatherfallPotion: 禁止在空中时的飞行时间恢复
 	TitanGloveLine: 真近战伤害增加10%
 	YoyoGlove: 第二个悠悠球伤害减少50%
-	DefensePrefix: +{0}% 伤害减免
-	LuckyPrefix: +0.05 运气值
 	CrimsonBreastplate: +1HP/s生命再生
 	CrimsonOtherPieces: +0.5HP/s生命再生
 	Picksaw: 可开采深渊中的熔渣矿
+}
+
+PrefixTooltip: {
+	ArcaneBuffStat:
+		'''
+		+{0}最大魔力
+		+{1}%魔法伤害
+		-{2}%魔力消耗
+		'''
+	ArmorPenStat: +{0}盔甲穿透
+	CritStat: +{0}%暴击率
+	DamageStat: +{0}%伤害
+	DefenseStat: +{0}防御
+	DRStat: +{0}%伤害减免
+	LuckStat: +{0}运气
+	MeleeSpeedStat: +{0}%近战速度
+	SpeedStat: +{0}%移动速度
 }
 
 EditedTooltip: {

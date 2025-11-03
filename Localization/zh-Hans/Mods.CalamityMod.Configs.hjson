@@ -546,6 +546,15 @@ CalamityServerConfig: {
 			'''
 	}
 
+	SimplifyAccessoryReforge: {
+		Label: "[i:Autohammer] 简化饰品重铸"
+		Tooltip:
+			'''
+			使饰品重铸更简单，限定出现以下前缀选项：
+			          - 护佑，险恶，幸运，迅捷，暴力，奥秘，寂静，Invigorating，Dauntless
+			'''
+	}
+
 	TownNPCSpawnRateMultiplier: {
 		Label: "[i:GuideVoodooDoll] 城镇NPC生成速率乘数"
 		Tooltip:

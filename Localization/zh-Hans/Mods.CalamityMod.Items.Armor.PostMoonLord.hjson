@@ -10,7 +10,7 @@ AuricTeslaCuisses: {
 		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
 		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		提供魔法飞毯效果
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:FlyingCarpet] [c/aaaaaa:飞毯的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:FlyingCarpet] [c/aaaaaa:飞毯的效果]
 		'''
 }
 

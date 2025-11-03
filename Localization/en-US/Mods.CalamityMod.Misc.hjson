@@ -59,6 +59,7 @@ SevensDoubles: Doubles!
 SevensTriples: Triples!
 StylishHammerHit: Stylish!
 GenericConsumedText: "[c/8A8A8A:You have already consumed this item]"
+CelestialOnionText: You have already consumed a Celestial Onion. Consuming another would distort you.
 SanguineTangerineText: You have already consumed a Sanguine Tangerine. Eating any more would make your blood too thick to flow.
 MiracleFruitText: You have already consumed a Miracle Fruit. It would take a miracle to put you back together if you ate another.
 TaintedCloudberryText: You have already consumed a Tainted Cloudberry. Your body would become dust if you ate more than one.

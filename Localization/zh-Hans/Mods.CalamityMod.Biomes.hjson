@@ -87,28 +87,28 @@ FloralParadiseBiome: {
 }
 
 BasaltGullyBiome: {
-	DisplayName: Basalt Gully Biome
-	TownNPCDialogueName: the Basalt Gully Biome
+	DisplayName: Basalt Gully
+	TownNPCDialogueName: the Basalt Gully
 }
 
 GleamingBurrowsBiome: {
-	DisplayName: Gleaming Burrows Biome
-	TownNPCDialogueName: the Gleaming Burrows Biome
+	DisplayName: Gleaming Burrows
+	TownNPCDialogueName: the Gleaming Burrows
 }
 
 PolypForestBiome: {
-	DisplayName: Polyp Forest Biome
-	TownNPCDialogueName: the Polyp Forest Biome
+	DisplayName: Polyp Forest
+	TownNPCDialogueName: the Polyp Forest
 }
 
 RadiantReefsBiome: {
-	DisplayName: Radiant Reefs Biome
-	TownNPCDialogueName: the Radiant Reefs Biome
+	DisplayName: Radiant Reefs
+	TownNPCDialogueName: the Radiant Reefs
 }
 
 TimelessShoresBiome: {
-	DisplayName: Timeless Shores Biome
-	TownNPCDialogueName: the Timeless Shores Biome
+	DisplayName: Timeless Shores
+	TownNPCDialogueName: the Timeless Shores
 }
 
 ClamDenBiome: {

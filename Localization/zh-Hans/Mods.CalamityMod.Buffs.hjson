@@ -1659,7 +1659,12 @@ Shadowflame: {
 
 ForbiddenStealthSummonTagBuff: {
 	DisplayName: Forbidden Stealth Summon Tag Buff
-	Description: 如果你正看到这个，说明出现了严重错误
+	Description: 如果你正看到这个，说明出现了严重的错误
+}
+
+SeaKingsAssurance: {
+	DisplayName: Sea King's Assurance
+	Description: 如果你正看到这个，说明出现了极其严重的错误
 }
 
 FrostyBatBuff: {

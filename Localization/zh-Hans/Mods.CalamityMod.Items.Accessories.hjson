@@ -575,7 +575,7 @@ DeificAmulet: {
 		'''
 		受到伤害时释放一阵追踪星星蜜蜂[TOGGLE]并将你浸在[cbuff:Honey]中
 		延长无敌帧时间，生命值越低延长地越久
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
 		'''
 	ToggleEffect: ，增加移动速度
 }
@@ -753,7 +753,7 @@ EtherealTalisman: {
 		增加150点最大魔力值并降低10%魔力消耗
 		扩大魔力星的拾取范围
 		你会在需要时自动饮用魔力药水
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:ManaFlower] [c/aaaaaa:魔力花的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ManaFlower] [c/aaaaaa:魔力花的效果]
 		'''
 }
 
@@ -1439,7 +1439,7 @@ RampartofDeities: {
 		延长无敌帧时间，生命值越低或受到高伤害攻击时延长地越久
 		生命低于50%时降低25%所受伤害
 		生命值高于25%时会将团队中其他玩家所受伤害的25%转移到佩戴者身上
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
 		'''
 	ToggleEffect: ，增加移动速度
 }
@@ -1734,7 +1734,7 @@ StatisNinjaBelt: {
 		增加10%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
 		将移动加速度和减速度提升为1.6倍
 		可以游泳[TOGGLE]和闪避攻击
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
 		'''
 	ToggleEffect: 、攀爬
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
@@ -1749,7 +1749,7 @@ StatisVoidSash: {
 		将移动加速度和减速度提升为1.85倍
 		可以游泳[TOGGLE]和闪避攻击
 		如果关闭饰品可见性，视觉效果会减弱
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
 		'''
 	ToggleEffect: 、攀爬
 	HoldShiftTooltip: "{$Common.DodgeInformation}"

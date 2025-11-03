@@ -53,7 +53,7 @@ MOAB: {
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加32%跳跃速度并允许自动跳跃
 		使你获得云朵瓶、暴雪瓶和沙暴瓶的二段跳效果
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:Jetpack] [c/aaaaaa:喷气背包的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:Jetpack] [c/aaaaaa:喷气背包的效果]
 		“气球之母”
 		'''
 }
@@ -99,41 +99,44 @@ TarragonWings: {
 		'''
 }
 
-TracersCelestial: {
-	DisplayName: 天界翼靴
+MoonWalkers: {
+	DisplayName: Moon Walkers
+	TreadsName: Moon Boots
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加24%奔跑加速度
 		提供[i:CalamityMod/AngelTreads]天使之靴的效果
 		使你免疫熔岩
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“荒诞的速度！”
 		'''
 }
 
-TracersElysian: {
-	DisplayName: 极乐翼靴
+VoidStriders: {
+	DisplayName: Void Striders
+	TreadsName: Void Kicks
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加36%奔跑加速度
 		提供[i:CalamityMod/AngelTreads]天使之靴的效果
 		使你免疫熔岩
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“荒诞的速度！”
 		'''
 }
 
-TracersSeraph: {
+SeraphTracers: {
 	DisplayName: 炽天使翼靴
+	TreadsName: Seraph Treads
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加50%奔跑加速度
 		提供[i:CalamityMod/AngelTreads]天使之靴的效果
 		使你免疫熔岩和来自物块的伤害，包括[i:CalamityMod/AuricOre]圣金源矿
-		[c/aaaaaa:在物品栏中按住Shift<right>开启/关闭] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“更加荒诞的速度！”
 		'''
 }

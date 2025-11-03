@@ -1,3 +1,4 @@
+AcidRocket.DisplayName: 酸性导弹
 AdamAcceleratorBeam.DisplayName: 精金粒子光束
 AMR2.DisplayName: AMR
 AMRShot.DisplayName: AMR
@@ -98,6 +99,8 @@ GodSlayerSlugProj.DisplayName: 弑神弹
 HalleysComet.DisplayName: 哈雷彗星
 HandheldTankShell.DisplayName: 坚硬外壳
 HeavenlyGaleProj.DisplayName: 天堂之风
+HellbornProj.DisplayName: 地狱枪爆
+HellbornShell.DisplayName: 地狱弹壳
 HiveMissile.DisplayName: 蜂巢爆炸
 HiveNuke.DisplayName: 蜂巢核弹
 HolyFireBulletProj.DisplayName: 圣火弹
@@ -112,8 +115,14 @@ HallowPointRoundProj.DisplayName: 神圣空尖弹
 ImpactRound.DisplayName: 冲击波
 KarasawaShot.DisplayName: 卡拉萨瓦炮弹
 LeafArrow.DisplayName: 叶之箭
+LeviatitanAberration.DisplayName: 海潮吞食者
+LeviatitanMeteor.DisplayName: 海潮流星
+LeviatitanExplosion.DisplayName: 海潮爆炸
 LunarBolt.DisplayName: 月光束
 LuxorsGiftRanged.DisplayName: 卢克索之远程符文
+M1GarandBulletCasing.DisplayName: M1加兰德弹壳
+M1GarandEmptyClip.DisplayName: M1加兰德空弹夹
+M1GarandShot.DisplayName: .30-06子弹
 MagnaShot.DisplayName: 麦格纳飞弹
 MagnomalyAura.DisplayName: 磁暴
 MagnomalyBeam.DisplayName: 磁极光束
@@ -121,6 +130,7 @@ MagnomalyExplosion.DisplayName: 磁极爆炸
 MagnomalyRocket.DisplayName: 磁极核弹
 MarksmanShot.DisplayName: 神射手射击
 MechanicalBarracuda.DisplayName: 梭鱼
+MegalodonShot.DisplayName: 巨舰喷流
 MeowCreature.DisplayName: 喵喵喵:3
 MeowFire.DisplayName: 彩虹喵火焰
 MineralMortarProjectile.DisplayName: 玛瑙炸弹
@@ -172,6 +182,7 @@ RealmRavagerBullet.DisplayName: 爆炸性弹头
 RicoshotCoin.DisplayName: 钱币
 RocketFire.DisplayName: 火箭残片
 RubberMortarRoundProj.DisplayName: 橡胶迫击炮
+RubicoPrimeMag.DisplayName: 绝路Prime弹匣
 SandblasterBullet.DisplayName: 沙尘暴
 ScorchedEarthClusterBomb.DisplayName: 集束炸弹
 ScorchedEarthRocket.DisplayName: 火箭
@@ -218,7 +229,9 @@ StarmageddonBinaryStarCenter.DisplayName: 双星中心
 StarmageddonStar.DisplayName: 橙星
 StarmageddonStar2.DisplayName: 蓝星
 StormSurgeTornado.DisplayName: 潮涌
+SulphuricAcidCannonExplosion.DisplayName: 硫酸炮爆炸
 SulphuricBlast.DisplayName: 硫磺酸风
+SulphuricDrop.DisplayName: 硫酸液滴
 SuperradiantBolt.DisplayName: 超辐矢
 SuperradiantSaw.DisplayName: 超辐圆锯
 SuperradiantSawLingering.DisplayName: 极辐圆锯
@@ -252,16 +265,3 @@ WaterSpout.DisplayName: 激流
 WildfireBloomFire.DisplayName: 野火
 WildfireBloomFlare.DisplayName: 野火爆焰
 WulfrumScrapBullet.DisplayName: 高速废料
-HellbornProj.DisplayName: 地狱枪爆
-HellbornShell.DisplayName: 地狱弹壳
-RubicoPrimeMag.DisplayName: 绝路Prime弹匣
-MegalodonShot.DisplayName: 巨舰喷流
-SulphuricAcidCannonExplosion.DisplayName: 硫酸炮爆炸
-LeviatitanAberration.DisplayName: 海潮吞食者
-LeviatitanMeteor.DisplayName: 海潮流星
-LeviatitanExplosion.DisplayName: 海潮爆炸
-SulphuricDrop.DisplayName: 硫酸液滴
-AcidRocket.DisplayName: 酸性导弹
-M1GarandBulletCasing.DisplayName: M1加兰德弹壳
-M1GarandEmptyClip.DisplayName: M1加兰德空弹夹
-M1GarandShot.DisplayName: .30-06子弹

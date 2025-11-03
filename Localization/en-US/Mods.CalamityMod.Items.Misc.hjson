@@ -316,8 +316,8 @@ TaintedCloudberry: {
 }
 
 // Spawn Blockers
-SpawnBlockersOn: Currently enabled
-SpawnBlockersOff: Currently disabled
+SpawnBlockersOn: Spawns are currently disabled
+SpawnBlockersOff: Spawns are currently enabled
 
 AntiCystOintment: {
 	DisplayName: Anti-Cyst Ointment

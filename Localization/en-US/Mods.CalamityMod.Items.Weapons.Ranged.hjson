@@ -677,7 +677,7 @@ M1Garand: {
 	DisplayName: M1 Garand
 	Tooltip:
 		'''
-		Shots fired only inherit the damage of the bullet used
+		Converts bullets into .30-06 rounds which inherit the damage of the converted bullet
 		Fires 8 bullets before ejecting the rifle's cartridge
 		Bullets which ricochet off coins can ricochet off cartridges too
 		'Mind your thumb'
@@ -971,7 +971,7 @@ PristineFury: {
 		'''
 		Fires an intense helix of flames that burst into a column of smoke
 		<right> to disperse a limited supply of flammable crystalline powder that restores over time
-		Powder can be ignited, causuing it to explode for extra damage
+		Powder can be ignited, causing it to explode for extra damage
 		Both helix flames and other nearby explosions can ignite the powder
 		Uses gel for ammo
 		'''

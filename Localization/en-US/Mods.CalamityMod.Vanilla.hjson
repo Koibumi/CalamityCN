@@ -54,11 +54,26 @@ AddedTooltip: {
 	FeatherfallPotion: Disables all airborne flight recovery
 	TitanGloveLine: 10% increased true melee damage
 	YoyoGlove: Secondary yoyos will do 50% less damage
-	DefensePrefix: +{0}% damage reduction
-	LuckyPrefix: +0.05 luck
 	CrimsonBreastplate: +1 HP/s life regen
 	CrimsonOtherPieces: +0.5 HP/s life regen
 	Picksaw: Can mine Scoria Ore located in the Abyss
+}
+
+PrefixTooltip: {
+	ArcaneBuffStat:
+		'''
+		+{0} max mana
+		+{1}% magic damage
+		-{2}% mana cost
+		'''
+	ArmorPenStat: +{0} armor penetration
+	CritStat: +{0}% critical strike chance
+	DamageStat: +{0}% damage
+	DefenseStat: +{0} defense
+	DRStat: +{0}% damage reduction
+	LuckStat: +{0} luck
+	MeleeSpeedStat: +{0}% melee speed
+	SpeedStat: +{0}% movement speed
 }
 
 EditedTooltip: {

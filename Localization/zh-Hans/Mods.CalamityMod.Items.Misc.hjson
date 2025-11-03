@@ -316,8 +316,8 @@ TaintedCloudberry: {
 }
 
 // Spawn Blockers
-SpawnBlockersOn: 当前启用
-SpawnBlockersOff: 当前禁用
+SpawnBlockersOn: 当前禁用生成
+SpawnBlockersOff: 当前启用生成
 
 AntiCystOintment: {
 	DisplayName: 抗囊肿药膏
