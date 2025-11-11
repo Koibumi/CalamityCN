@@ -391,15 +391,6 @@ LegendaryShortTooltip:
 	[c/BABABA:按住Shift键以仔细聆听]
 	'''
 
-BallAndChain: {
-	DisplayName: 球镣
-	Tooltip:
-		'''
-		标记为收藏后，可使你的所有冲刺效果无效化
-		“不堪重负……”
-		'''
-}
-
 BrimstoneLocus: {
 	DisplayName: 硫火魔珠
 	Tooltip:

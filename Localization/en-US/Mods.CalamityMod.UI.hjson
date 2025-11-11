@@ -103,8 +103,6 @@ Cooldowns: {
 	BubblyBurrowCooldown: Bubbly Burrow Cooldown
 	ChaosState: Teleportation Cooldown
 	DivineBless: Divine Bless Cooldown
-	DivingPlatesBreaking: Abyssal Diving Suit Plates Durability
-	DivingPlatesBroken: Abyssal Diving Suit Broken Plates
 	DSOCritCooldown: Extra Critical Strike Chance
 	ParryCooldown: Parry Ability Cooldown
 	ElementalMastery: Elemental Mastery

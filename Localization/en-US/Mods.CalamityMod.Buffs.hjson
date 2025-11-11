@@ -692,11 +692,6 @@ AbyssalDivingSuitBuff: {
 	Description: You are made of metal
 }
 
-AbyssalDivingSuitPlates: {
-	DisplayName: Abyssal Diving Suit Plates
-	Description: "{0}% increased damage reduction"
-}
-
 AbyssalMadness: {
 	DisplayName: Abyssal Madness
 	Description: Increased damage, critical strike chance, and tentacle aggression and range

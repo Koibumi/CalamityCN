@@ -79,11 +79,7 @@ CalamityClientConfig: {
 
 	CooldownDisplay: {
 		Label: "[i:CalamityMod/NebulousCore] 冷却显示"
-		Tooltip:
-			'''
-			在增益和减益栏下方显示重要的冷却图标。
-			设为1图标显示会更加紧凑，设为0不会显示图标。
-			'''
+		Tooltip: 在增益和减益栏下方显示重要的冷却图标。
 	}
 
 	DebuffDisplay: {
@@ -252,17 +248,7 @@ CalamityClientConfig: {
 
 	SetBonusDoubleTap: {
 		Label: "[i:VortexHelmet] 允许双击启用套装奖励"
-		Tooltip:
-			'''
-			允许所有套装奖励被原版双击{$Key.DOWN}热键（或{$Key.UP}，取决于你的游戏设置）启用。
-			设为“自动”时，如果绑定了灾厄的{$Keybinds.ArmorSetBonus.DisplayName}热键，原版双击会被自动禁用。
-			'''
-
-		Options: {
-			On: 始终开启
-			Auto: 自动
-			Off: 始终关闭
-		}
+		Tooltip: 允许所有套装奖励被原版双击{$Key.DOWN}热键（或{$Key.UP}，取决于你的游戏设置）启用。
 	}
 
 	ShopNewAlert: {
@@ -574,4 +560,40 @@ CalamityServerConfig: {
 	}
 }
 
-SetBonusDoubleTapOptions.Tooltip: ""
+CooldownDisplayOptions: {
+	Tooltip: ""
+
+	Full: {
+		Label: 完整
+		Tooltip: 在图标周围显示圆环以指示冷却时间
+	}
+
+	Compact: {
+		Label: 紧凑
+		Tooltip: 在图标上显示变化以指示冷却时间
+	}
+
+	Hidden: {
+		Label: 隐藏
+		Tooltip: ""
+	}
+}
+
+SetBonusDoubleTapOptions: {
+	Tooltip: ""
+
+	On: {
+		Label: 始终开启
+		Tooltip: 始终启用双击。可与灾厄的{$Keybinds.ArmorSetBonus.DisplayName}热键一起使用。
+	}
+
+	Auto: {
+		Label: 自动
+		Tooltip: 只要绑定了灾厄的{$Keybinds.ArmorSetBonus.DisplayName}热键就会禁用双击。
+	}
+
+	Off: {
+		Label: 始终关闭
+		Tooltip: 始终禁用双击。可用来完全禁用套装奖励的触发。
+	}
+}

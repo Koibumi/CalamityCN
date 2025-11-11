@@ -177,9 +177,7 @@ EditedTooltip: {
 	RifleScope1: Increase view range for guns (<right> to zoom out)
 	RifleScope2: The scope effect can be toggled with visibility
 	SniperScope: 12% increased ranged critical strike chance
-	MagicQuiver: Increases arrow damage by 5% and greatly increases arrow speed
-	MoltenQuiver1: Increases arrow damage by 7% and greatly increases arrow speed
-	MoltenQuiver2: Lights wooden arrows ablaze and all arrows inflict Hellfire
+	MoltenQuiver: Lights wooden arrows ablaze and all arrows inflict Hellfire
 	MagicHat: 6% increased magic critical strike chance
 	PowerGlove: 10% increased melee speed, does not stack with downgrades
 	BerserkerGlove: 10% increased true melee damage

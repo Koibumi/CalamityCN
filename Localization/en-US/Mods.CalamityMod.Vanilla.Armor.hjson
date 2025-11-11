@@ -29,7 +29,6 @@ SetBonus: {
 	Eskimo:
 		'''
 		Multiplies all cold-based debuff damage by 1.25x
-		Cold enemies will deal reduced contact damage to the player
 		Provides immunity to the Chilled, Frozen, and Frostburn debuffs
 		'''
 	Rain:

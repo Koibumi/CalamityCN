@@ -391,15 +391,6 @@ LegendaryShortTooltip:
 	[c/BABABA:Hold Shift to listen closer]
 	'''
 
-BallAndChain: {
-	DisplayName: Ball and Chain
-	Tooltip:
-		'''
-		Favorite this item to disable any dashes granted by equipment
-		'So heavy...'
-		'''
-}
-
 BrimstoneLocus: {
 	DisplayName: Brimstone Locus
 	Tooltip:

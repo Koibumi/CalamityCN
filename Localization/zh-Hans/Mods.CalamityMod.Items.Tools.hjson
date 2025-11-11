@@ -63,6 +63,20 @@ Bakidon: {
 		'''
 }
 
+BallAndChain: {
+	DisplayName: 球镣
+	Tooltip:
+		'''
+		切换此物品以禁用任何冲刺效果
+		<right>切换
+		[STATE]
+		“不堪重负……”
+		'''
+	// This is "backwards" because enabling this disables dashes
+	TooltipEnabled: 当前禁用冲刺
+	TooltipDisabled: 当前启用冲刺
+}
+
 BeastialPickaxe: {
 	DisplayName: 野性镐
 	Tooltip: ""

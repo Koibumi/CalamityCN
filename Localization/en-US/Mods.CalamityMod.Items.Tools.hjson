@@ -63,6 +63,20 @@ Bakidon: {
 		'''
 }
 
+BallAndChain: {
+	DisplayName: Ball and Chain
+	Tooltip:
+		'''
+		Toggle this item to disable any dashes granted by equipment
+		<right> to toggle
+		[STATE]
+		'So heavy...'
+		'''
+	// This is "backwards" because enabling this disables dashes
+	TooltipEnabled: Dashes are currently disabled
+	TooltipDisabled: Dashes are currently enabled
+}
+
 BeastialPickaxe: {
 	DisplayName: Beastial Pickaxe
 	Tooltip: ""

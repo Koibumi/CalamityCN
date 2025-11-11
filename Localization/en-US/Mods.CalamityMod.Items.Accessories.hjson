@@ -26,9 +26,6 @@ AbyssalDivingSuit: {
 		'''
 		Transforms the holder into an armored diver:
 		Increases max movement speed and acceleration while underwater, but reduces it outside of water
-		The suit's armored plates increase damage reduction by 15%
-		Wearing this suit grants 15% damage reduction for hits under 50 damage
-		The suit can absorb up to 3 hits over 50 damage, and will take 3 minutes to regenerate
 		Grants the ability to swim, extends underwater breathing, emits light underwater, and improves mobility on ice
 		Provides a moderate amount of light, reduces breath loss, and reduces damage caused by drowning in the abyss
 		Abyss creatures are less likely to see you, mitigates the abyss' defense reduction, and lets you sink faster in liquids

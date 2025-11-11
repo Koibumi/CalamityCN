@@ -177,9 +177,7 @@ EditedTooltip: {
 	RifleScope1: 扩大枪的视野范围（<right>可拉远视野）
 	RifleScope2: 扩大视野效果可通过可见性开启或关闭
 	SniperScope: 提高12%远程暴击率
-	MagicQuiver: 增加5%的箭矢伤害，并大幅提高箭矢速度
-	MoltenQuiver1: 增加7%的箭矢伤害，并大幅提高箭矢速度
-	MoltenQuiver2: 点燃木箭且所有箭矢造成狱炎减益
+	MoltenQuiver: 点燃木箭且所有箭矢造成狱炎减益
 	MagicHat: 提高6%魔法暴击率
 	PowerGlove: 近战攻速增加10%，该效果不会与其下位合成材料叠加
 	BerserkerGlove: 真近战伤害增加10%
