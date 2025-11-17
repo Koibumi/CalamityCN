@@ -96,7 +96,7 @@ TequilaSunriseBuff: {
 
 Trippy: {
 	DisplayName: 幻菇中毒
-	Description: 你看到了世界的本质……同时增加{0}%伤害
+	Description: 你看到了世界的本质……
 }
 
 VodkaBuff: {

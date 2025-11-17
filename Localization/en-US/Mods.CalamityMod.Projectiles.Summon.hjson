@@ -241,7 +241,6 @@ SandMark.DisplayName: Mark
 SandnadoMinion.DisplayName: Sandnado
 SandTornado.DisplayName: Tornado
 SarosAura.DisplayName: Saros Aura
-SarosMicrosun.DisplayName: Saros Microsun
 SarosSunfire.DisplayName: Saros Sunfire
 SeashineSwordProj.DisplayName: Seashine Sword
 SeekerSummonProj.DisplayName: Soul Seeker
@@ -274,9 +273,6 @@ MinionPlasmaBlast.DisplayName: Volatile Plasma Blast
 MinionPlasmaGas.DisplayName: Superheated Plasma Cloud
 MinionTeslaOrb.DisplayName: Tesla Sphere
 SmallSkeletonMinion.DisplayName: Small Skeleton
-SolarBeam.DisplayName: Solar Beam
-SolarGod.DisplayName: Vengeful Solar Spirit
-SolarPixie.DisplayName: Solar Pixie
 Spikecrag.DisplayName: Spikecrag
 SpikecragSpike.DisplayName: Spikecrag Spike
 SquirrelSquireAcorn.DisplayName: Squirrel Acorn
@@ -331,3 +327,8 @@ WulfrumFusionBolt.DisplayName: Fusion Bolt
 YharonMinionFireball.DisplayName: Dragon Fireball
 AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
 AmphibiansGuitarProjectile.DisplayName: Note
+SunSpiritBeam.DisplayName: Sun Spirit Beam
+SunSpiritMinion.DisplayName: Sun Spirit Minion
+VengefulSunBeam.DisplayName: Vengeful Sun Beam
+VengefulSunSpiritMinion.DisplayName: Vengeful Sun Spirit Minion
+SarosEclipseBeam.DisplayName: Saros Eclipse Beam

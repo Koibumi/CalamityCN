@@ -112,6 +112,7 @@ SeaMinnowBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SearslugBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SharkoonBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ShockstormShuttleBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+ShoreskipperBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ShroombleBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SightseerColliderBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SightseerSpitterBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -509,32 +510,6 @@ BabyGhostBellJar: {
 	Tooltip: ""
 }
 
-CalamityCanvas2023: {
-	DisplayName: Calamity Canvas 2023
-	Tooltip:
-		'''
-		当放置时，<right>打开一个UI，允许你自定义画作的焦点
-		<left>使焦点跟随鼠标，再次<left>来设置焦点
-		也可以使用方向键来手动调整焦点位置
-		使用滚轮可放大或缩小焦点
-		按住Shift在不关闭UI的情况下隐藏UI
-		“拥抱混沌”
-		'''
-}
-
-CalamityCanvas2024: {
-	DisplayName: Calamity Canvas 2024
-	Tooltip:
-		'''
-		当放置时，<right>打开一个UI，允许你自定义画作的焦点
-		<left>使焦点跟随鼠标，再次<left>来设置焦点
-		也可以使用方向键来手动调整焦点位置
-		使用滚轮可放大或缩小焦点
-		按住Shift在不关闭UI的情况下隐藏UI
-		“拥抱混乱”
-		'''
-}
-
 AquaticScourgeRelic: {
 	DisplayName: 渊海灾虫圣物
 	Tooltip: 对其可能的未来的一瞥……
@@ -770,16 +745,6 @@ CrimsonEffigy: {
 		'''
 }
 
-ThankYouPainting: {
-	DisplayName: Thank You
-	Tooltip:
-		'''
-		感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！
-		这幅画的大小无法容纳整个团队
-		长按Shift键可以查看以前和当前的开发者
-		'''
-}
-
 EffigyOfDecay: {
 	DisplayName: 腐朽雕像
 	Tooltip:
@@ -898,6 +863,51 @@ PurpleDistortedMonolith: {
 NavyPrismTorch: {
 	DisplayName: 富营养棱晶火把
 	Tooltip: 可放置于水中
+}
+
+AmidiasPainting: {
+	DisplayName: Sea King's Release
+	Tooltip:
+		'''
+		'O. Rios'
+		'September-October!'
+		'''
+}
+
+CalamityCanvas2023: {
+	DisplayName: Calamity Canvas 2023
+	Tooltip:
+		'''
+		当放置时，<right>打开一个UI，允许你自定义画作的焦点
+		<left>使焦点跟随鼠标，再次<left>来设置焦点
+		也可以使用方向键来手动调整焦点位置
+		使用滚轮可放大或缩小焦点
+		按住Shift在不关闭UI的情况下隐藏UI
+		“拥抱混沌”
+		'''
+}
+
+CalamityCanvas2024: {
+	DisplayName: Calamity Canvas 2024
+	Tooltip:
+		'''
+		当放置时，<right>打开一个UI，允许你自定义画作的焦点
+		<left>使焦点跟随鼠标，再次<left>来设置焦点
+		也可以使用方向键来手动调整焦点位置
+		使用滚轮可放大或缩小焦点
+		按住Shift在不关闭UI的情况下隐藏UI
+		“拥抱混乱”
+		'''
+}
+
+ThankYouPainting: {
+	DisplayName: Thank You
+	Tooltip:
+		'''
+		感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！
+		这幅画的大小无法容纳整个团队
+		长按Shift键可以查看以前和当前的开发者
+		'''
 }
 
 PiggyCage: {

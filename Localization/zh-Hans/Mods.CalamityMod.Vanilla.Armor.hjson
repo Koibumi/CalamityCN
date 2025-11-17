@@ -70,17 +70,8 @@ SetBonus: {
 		增加10%真近战伤害
 		免疫火块并短暂免疫岩浆
 		'''
-	MonkTier2:
-		'''
-		增加10%盗贼暴击率和伤害
-		增加15%召唤伤害
-		增加90点最大潜行值
-		'''
-	MonkTier3:
-		'''
-		增加10%盗贼伤害和20%召唤伤害
-		增加100点最大潜行值
-		'''
+	MonkTier2: "{$Common.RogueStealth}"
+	MonkTier3: "{$Common.RogueStealth}"
 	Mythril:
 		'''
 		击败敌怪时时释放秘银火焰，一段时间后会追踪敌怪
@@ -128,20 +119,6 @@ SetBonus: {
 		增加10%的伤害和暴击率
 		增加90点最大潜行值
 		'''
-	SquireTier2:
-		'''
-		+1.5HP/s生命再生
-		增加15%召唤伤害和10%近战暴击率
-		'''
-	HuntressTier2: 增加10%召唤和远程伤害
-	ApprenticeTier2: 增加10%召唤伤害和魔法暴击率
-	SquireTier3:
-		'''
-		+3HP/s生命再生
-		增加10%召唤伤害和15%近战暴击率
-		'''
-	HuntressTier3: 增加10%召唤和远程伤害
-	ApprenticeTier3: 增加15%召唤伤害和魔法暴击率
 	SpectreHealing:
 		'''
 		将魔法伤害转化为治疗能量

@@ -241,7 +241,6 @@ SandMark.DisplayName: 瀚漠铭印
 SandnadoMinion.DisplayName: 沙龙卷
 SandTornado.DisplayName: 沙龙卷
 SarosAura.DisplayName: 星律光环
-SarosMicrosun.DisplayName: 星律微阳
 SarosSunfire.DisplayName: 星律阳炎
 SeashineSwordProj.DisplayName: 海耀剑刃
 SeekerSummonProj.DisplayName: 灵魂搜寻者
@@ -274,9 +273,6 @@ MinionPlasmaBlast.DisplayName: 挥发性等离子光球
 MinionPlasmaGas.DisplayName: 等离子气云
 MinionTeslaOrb.DisplayName: 特斯拉球状闪电
 SmallSkeletonMinion.DisplayName: 小骨龙
-SolarBeam.DisplayName: 仇阳烈光
-SolarGod.DisplayName: 复仇之阳
-SolarPixie.DisplayName: 太阳之灵
 Spikecrag.DisplayName: 地刺王
 SpikecragSpike.DisplayName: 地刺王之刺
 SquirrelSquireAcorn.DisplayName: 松鼠橡子
@@ -331,3 +327,8 @@ WulfrumFusionBolt.DisplayName: 融合束
 YharonMinionFireball.DisplayName: 龙崽火球
 AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
 AmphibiansGuitarProjectile.DisplayName: 音符
+SunSpiritBeam.DisplayName: 太阳之灵光束
+SunSpiritMinion.DisplayName: 太阳之灵
+VengefulSunBeam.DisplayName: 复仇之阳光束
+VengefulSunSpiritMinion.DisplayName: 复仇之阳
+SarosEclipseBeam.DisplayName: 星律日食光束

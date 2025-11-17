@@ -8,14 +8,36 @@ DodgeInfo:
 	'''
 
 AddedTooltip: {
+	/*
+	Accessories
+	*/
+	TitanGloveLine: 真近战伤害增加10%
+	YoyoGlove: 第二个悠悠球伤害减少50%
 	EyeoftheGolem: 提高20%暴击伤害
+	RifleScope: 扩大视野效果可通过可见性切换
+	ArcaneFlower: 增加5%魔法伤害
+	HellfireTreads:
+		'''
+		所有火焰类减益伤害乘以1.5，该效果不会与其下位合成材料叠加
+		所有攻击造成狱炎减益
+		'''
+	FairyBoots:
+		'''
+		大幅度提升仙灵的生成概率，在白天地表也能自然生成
+		附近仙灵会提供+2HP/s生命再生，6点防御与10%移动速度
+		仙灵免疫敌怪的伤害并能跟随你
+		'''
+	FleshKnucklesLine: 最大生命增加25
+	HandWarmer: 穿着全套的防雪盔甲时额外提供生命再生
+	/*
+	Others
+	*/
 	TruffleWorm:
 		'''
 		在海洋钓一条猪鲨
 		海洋群系外会狂暴
 		'''
 	SlimeGun: 史莱姆类敌人会受到更多来自火系减益的伤害
-	FleshKnucklesLine: 最大生命增加25
 	RodofDiscord: 混沌状态下禁用传送
 	Pwnhammer:
 		'''
@@ -28,34 +50,14 @@ AddedTooltip: {
 		这会提供+1.5HP/s生命再生并加速自然生命再生
 		生命汲取会基于被击中敌怪的数量叠加
 		'''
-	HandWarmer: 穿着全套的防雪盔甲时额外提供生命再生
 	GoldenFishingRod: 鱼线永远不会断裂
-	// Step Stool
-	PortableStool: 站在梯凳上会提升5%暴击率
 	Tombstones:
 		'''
 		13个各种墓碑会将周围环境变为墓地
 		墓地会有各种新物品出售以及新的配方
 		'''
-	DeathSickle: 命中造成死亡低语减益
-	HellfireTreads:
-		'''
-		所有火焰类减益伤害乘以1.5，该效果不会与其下位合成材料叠加
-		所有攻击造成狱炎减益
-		'''
-	FairyBoots:
-		'''
-		大幅度提升仙灵的生成概率，在白天地表也能自然生成
-		附近仙灵会提供+2HP/s生命再生，6点防御与10%移动速度
-		仙灵免疫敌怪的伤害并能跟随你
-		'''
-	ArcaneFlower: 增加5%魔法伤害
-	RifleScope: 扩大视野效果可通过可见性开启或关闭
 	FeatherfallPotion: 禁止在空中时的飞行时间恢复
-	TitanGloveLine: 真近战伤害增加10%
-	YoyoGlove: 第二个悠悠球伤害减少50%
-	CrimsonBreastplate: +1HP/s生命再生
-	CrimsonOtherPieces: +0.5HP/s生命再生
+	CrimsonArmorPieces: +0.5HP/s生命再生
 	Picksaw: 可开采深渊中的熔渣矿
 }
 
@@ -121,17 +123,9 @@ EditedTooltip: {
 		在腐化之地使用召唤世界吞噬怪
 		在腐化之地外消失
 		'''
-	MasterExclusive: 大师或者复仇
-	// Sparkle Slime Balloon
-	GelBalloon:
-		'''
-		投掷粘液和闪亮晶体的混合物
-		史莱姆类敌人会受到更多来自火系减益的伤害
-		'''
-	// Ancient Manipulator
-	LunarCraftingStation: 用于制作材料为月亮碎片，夜明锭和幻星锭的物品
-	AnkhShield1: 对击退免疫
-	AnkhShield2: 对大多数减益免疫，包括强风
+	/*
+	Life Regen
+	*/	
 	Campfires: 在篝火附近时生命再生增加0.5HP/s
 	HeartLantern: 放置在附近时提供+1HP/s生命再生
 	BottledHoney:
@@ -144,41 +138,31 @@ EditedTooltip: {
 	CharmofMyths: 提供+1HP/s生命再生并降低治疗药水25%冷却
 	RegenerationPotion: 提供+2HP/s生命再生
 	HamBat: 击败敌怪会暂时提供+3HP/s生命再生
-	// Arcane Crystal
+	// Vital Crystal
 	AegisCrystal: 永久提升自然生命再生
-	ArcheryPotion: 增加20%箭矢速度和5%箭矢伤害
-	// Aerial Bane
-	DD2BetsyBow: 发射紧密分布的6支分裂箭
-	AleSake:
-		'''
-		提高10%近战伤害但降低5%防御
-		在酒精中毒效果中被视为一种酒
-		{$Common.AlcoholWarning}
-		'''
-	FlameWakerBoots:
-		'''
-		所有火焰类减益伤害乘以1.25
-		所有攻击造成着火了！减益
-		“再也不会如履薄冰了”
-		'''
+	/*
+	OOA armors
+	*/
+	ApprenticeHat: 增加1最大哨兵栏，降低10%魔力消耗
+	ApprenticeRobe: 增加15%召唤和魔法伤害
+	ApprenticeTrousers: 增加10%召唤伤害，15%魔法暴击率和20%移动速度
+	SquireGreatHelm: 增加1最大哨兵栏并提供+2HP/s生命再生
+	SquireGreaves: 增加10%召唤伤害以及15%近战暴击率和移动速度
+	MonkBrows: 增加1最大哨兵栏和15%盗贼弹幕速度
+	MonkShirt: 增加15%召唤和盗贼伤害
+	MonkPants: 增加15%盗贼暴击率和20%移动速度
+	// Valhalla Knight
+	SquireAltShirt: 增加30%召唤伤害并提供+4HP/s生命再生
+	// Shinobi Infiltrator
+	MonkAltHead: 增加2最大哨兵栏以及20%召唤和盗贼伤害
+	MonkAltShirt0: 增加20%召唤伤害和盗贼弹幕速度
+	MonkAltShirt1: 增加5%盗贼暴击率
+	MonkAltPants: 增加10%召唤伤害和盗贼暴击率
+	/*
+	Accessories
+	*/
 	SunMoonStones: 暴击率、生命再生、
 	CelestialStoneShell: 小幅提高伤害、
-	MagnetFlower: 减少10%魔力消耗
-	ArcaneFlowerManaCloak: 减少12%魔力消耗
-	Magiluminescence:
-		'''
-		移动加速度和减速度提升为1.75倍
-		移动速度提升为1.15倍。该效果适用于移动饰品
-		'''
-	FrogLeg: 提高{0}%跳跃速度并可自动跳跃
-	// Soaring Insignia
-	EmpressFlightBooster1: 翅膀飞行时间增加33%
-	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提升为1.25倍
-	RifleScope1: 扩大枪的视野范围（<right>可拉远视野）
-	RifleScope2: 扩大视野效果可通过可见性开启或关闭
-	SniperScope: 提高12%远程暴击率
-	MoltenQuiver: 点燃木箭且所有箭矢造成狱炎减益
-	MagicHat: 提高6%魔法暴击率
 	PowerGlove: 近战攻速增加10%，该效果不会与其下位合成材料叠加
 	BerserkerGlove: 真近战伤害增加10%
 	MechanicalGlove:
@@ -192,64 +176,19 @@ EditedTooltip: {
 		近战伤害增加14%
 		近战攻速增加14%，该效果不会与其下位合成材料叠加
 		'''
-	Gi: 移动速度和跳跃速度各提高10%
-	GoldPickaxe: 可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片
-	FlaskofCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
-	FlaskofFire: 近战、鞭子和盗贼攻击会使敌人着火
-	FlaskofGold: 近战、鞭子和盗贼攻击会使敌人掉落更多金子
-	FlaskofIchor: 近战、鞭子和盗贼攻击会降低敌人防御力
-	FlaskofNanites: 近战、鞭子和盗贼攻击会让敌人进入困惑状态
-	FlaskofParty: 所有攻击都会喷撒彩纸
-	FlaskofPoison: 近战、鞭子和盗贼攻击会使敌人中毒
-	FlaskofVenom: 近战、鞭子和盗贼攻击会对敌人施放酸性毒液
-	SolarFlarePieces: 提供+1HP/s生命再生
-	/*
-	OOA sets
-	*/
-	SquireGreatHelm: 增加1最大哨兵栏并提供+0.5HP/s生命再生
-	SquirePlating: 增加5%召唤伤害和15%近战伤害
-	SquireGreaves:
+	MoltenQuiver: 点燃木箭且所有箭矢造成狱炎减益
+	RifleScope1: 扩大枪的视野范围（<right>可拉远视野）
+	RifleScope2: 扩大视野效果可通过可见性切换
+	SniperScope: 提高12%远程暴击率
+	Magiluminescence:
 		'''
-		增加5%召唤伤害和近战暴击率
-		移动速度增加15%
+		移动加速度和减速度提升为1.75倍
+		移动速度提升为1.15倍。该效果适用于移动饰品
 		'''
-	MonkBrows: 增加1最大哨兵栏和10%盗贼弹幕速度
-	MonkShirt: 增加5%召唤和盗贼伤害
-	MonkPants1: 增加5%召唤伤害和盗贼暴击率
-	MonkPants2: 移动速度增加20%
-	// Valhalla Knight
-	SquireAltHead: 增加2最大哨兵栏，15%召唤伤害和近战伤害
-	SquireAltShirt: 增加15%召唤伤害并提供+1HP/s生命再生
-	SquireAltPants: 增加10%召唤伤害
-	HuntressJerkin:
-		'''
-		增加10%召唤，5%远程伤害和暴击率
-		10%几率不消耗弹药
-		'''
-	HuntressPants: 增加5%召唤伤害和20%移动速度
-	ApprenticeHat: 增加1最大哨兵栏和5%魔法伤害，降低10%魔力消耗
-	ApprenticeRobe: 增加10%召唤和魔法伤害
-	ApprenticeTrousers:
-		'''
-		增加5%召唤伤害和魔法暴击率
-		移动速度增加20%
-		'''
-	// Shinobi Infiltrator
-	MonkAltHead:
-		'''
-		增加2最大哨兵栏
-		增加10%召唤和盗贼伤害
-		'''
-	MonkAltShirt0: 增加10%召唤伤害和15%盗贼弹幕速度
-	MonkAltShirt1: 增加5%盗贼暴击率
-	MonkAltPants: 增加10%召唤伤害和盗贼暴击率
-	// Red Riding
-	HuntressAltShirt: 增加10%召唤和远程伤害，20%几率不消耗弹药
-	HuntressAltPants: 增加20%召唤伤害和5%远程暴击率
-	// Dark Artist
-	ApprenticeAltHead: 增加10%召唤伤害和魔法伤害
-	ApprenticeAltShirt: 增加15%召唤伤害和10%魔法伤害
-	ApprenticeAltPants: 增加10%召唤伤害
+	FrogLeg: 提高{0}%跳跃速度并可自动跳跃
+	// Soaring Insignia
+	EmpressFlightBooster1: 翅膀飞行时间增加33%
+	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提升为1.25倍
 	GravityGlobe:
 		'''
 		提升32%跳跃速度，并提升下落速度
@@ -258,6 +197,52 @@ EditedTooltip: {
 		按{$Key.UP}反转重力
 		按{$Key.DOWN}加速下落
 		'''
+	FlameWakerBoots:
+		'''
+		所有火焰类减益伤害乘以1.25
+		所有攻击造成着火了！减益
+		“再也不会如履薄冰了”
+		'''
+	/*
+	Armor
+	*/
+	MagicHat: 提高6%魔法暴击率
+	Gi: 移动速度和跳跃速度各提高10%
+	SolarFlarePieces: 提供+1HP/s生命再生
+	/*
+	Potions
+	*/
+	ArcheryPotion: 增加5%箭矢伤害和20%箭矢速度
+	AleSake:
+		'''
+		提高10%近战伤害但降低5%防御
+		在酒精中毒效果中被视为一种酒
+		{$Common.AlcoholWarning}
+		'''	
+	FlaskofCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
+	FlaskofFire: 近战、鞭子和盗贼攻击会使敌人着火
+	FlaskofGold: 近战、鞭子和盗贼攻击会使敌人掉落更多金子
+	FlaskofIchor: 近战、鞭子和盗贼攻击会降低敌人防御力
+	FlaskofNanites: 近战、鞭子和盗贼攻击会让敌人进入困惑状态
+	FlaskofParty: 所有攻击都会喷撒彩纸
+	FlaskofPoison: 近战、鞭子和盗贼攻击会使敌人中毒
+	FlaskofVenom: 近战、鞭子和盗贼攻击会对敌人施放酸性毒液	
+	/*
+	Others
+	*/
+	// Aerial Bane
+	DD2BetsyBow: 发射紧密分布的6支分裂箭
+	GoldPickaxe: 可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片
+	MasterExclusive: 大师或者复仇
+	// Sparkle Slime Balloon
+	GelBalloon:
+		'''
+		投掷粘液和闪亮晶体的混合物
+		史莱姆类敌人会受到更多来自火系减益的伤害
+		'''
+	// Ancient Manipulator
+	LunarCraftingStation: 用于制作材料为月亮碎片，夜明锭和炫星锭的物品
+	AnkhShield: 对大多数减益免疫，包括强风
 }
 
 // Buff Descriptions

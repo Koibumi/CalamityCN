@@ -70,17 +70,8 @@ SetBonus: {
 		10% extra true melee damage
 		Grants immunity to fire blocks and temporary immunity to lava
 		'''
-	MonkTier2:
-		'''
-		10% increased rogue damage and critical strike chance
-		15% increased summon damage
-		+90 maximum stealth
-		'''
-	MonkTier3:
-		'''
-		10% increased rogue damage and 20% increased summon damage
-		+100 maximum stealth
-		'''
+	MonkTier2: "{$Common.RogueStealth}"
+	MonkTier3: "{$Common.RogueStealth}"
 	Mythril:
 		'''
 		Enemy hits release mythril flares, which home in on enemies after a short delay
@@ -128,20 +119,6 @@ SetBonus: {
 		10% increased damage and critical strike chance
 		+90 maximum stealth
 		'''
-	SquireTier2:
-		'''
-		Grants +1.5 HP/s life regen
-		15% increased summon damage and 10% increased melee critical strike chance
-		'''
-	HuntressTier2: 10% increased summon and ranged damage
-	ApprenticeTier2: 10% increased summon damage and magic critical strike chance
-	SquireTier3:
-		'''
-		Grants +3 HP/s life regen
-		10% increased summon damage and 15% increased melee critical strike chance
-		'''
-	HuntressTier3: 10% increased summon and ranged damage
-	ApprenticeTier3: 15% increased summon damage and magic critical strike chance
 	SpectreHealing:
 		'''
 		Converts magic damage to healing force

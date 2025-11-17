@@ -661,10 +661,10 @@ SarosPossession: {
 	DisplayName: Saros Possession
 	Tooltip:
 		'''
-		Summons a radiant aura that gives absolute control of light itself
-		The aura will annihilate enemies with orbs of radiance
-		There can only be one aura at a time
-		Requires 6 minion slots
+		Summons a radiant aura harnessing the power of primordial light
+		Repeated summons increase the power of the aura
+		<left> with full summon slots to channel an eclipse beam that decays over time
+		This beam recharges when not in use
 		'''
 }
 
@@ -779,7 +779,7 @@ SunSpiritStaff: {
 	Tooltip:
 		'''
 		Summons a solar spirit to protect you
-		There can only be one spirit at a time
+		Repeated summons increase its power
 		'''
 }
 
@@ -838,8 +838,8 @@ VengefulSunStaff: {
 	DisplayName: Vengeful Sun Staff
 	Tooltip:
 		'''
-		Summons a vengeful solar spirit to protect you
-		There can only be one spirit at a time
+		Summons an eclipse spirit to protect you
+		Repeated summons increase its power
 		'''
 }
 

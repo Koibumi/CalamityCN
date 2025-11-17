@@ -128,6 +128,11 @@ Slurpfish: {
 }
 
 // Sunken Sea Catches
+CoralskinFoolfish: {
+	DisplayName: Coralskin Foolfish
+	Tooltip: 伪装是大自然最绝佳的防御之一
+}
+
 EutrophicCrate: {
 	DisplayName: 富养匣
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
@@ -138,9 +143,23 @@ EutrophicSandfish: {
 	QuestDescription: 你知道沙漠里的蜥蜴往伊尔梅兰旧地钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。你，现在就去把它抓来，这样我就有新的宠物了！
 }
 
+GleamingCucumber: {
+	DisplayName: Gleaming Cucumber
+	Tooltip: 在Polyp Forest底部发现的黏滑生物
+}
+
 GreenwaveLoach: {
 	DisplayName: 绿波泥鳅
 	Tooltip: 一种濒危的鱼，应该会有人出高价买下它
+}
+
+MoltenFishron: {
+	DisplayName: Molten Fishron
+	Tooltip:
+		'''
+		Instead of honking it makes crisp wheezing noises 
+		Or maybe it actually is wheezing due to being taken out of lava
+		'''
 }
 
 PrismCrate: {
@@ -195,6 +214,20 @@ SparklingEmpress: {
 		太好了！
 		那我们就去看看上面的世界吧，顺便让我享用一顿美餐！”
 		'''
+}
+
+SpecularSturgeon: {
+	DisplayName: Specular Sturgeon
+	Tooltip:
+		'''
+		一种栖息于深处的鱼，可以繁衍数代
+		无需多言，它是个老家伙！
+		'''
+}
+
+Squidoom: {
+	DisplayName: Squidoom
+	Tooltip: 据说长时间凝视它会被催眠
 }
 
 SunkenSailfish: {

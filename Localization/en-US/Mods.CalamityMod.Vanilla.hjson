@@ -8,14 +8,36 @@ DodgeInfo:
 	'''
 
 AddedTooltip: {
+	/*
+	Accessories
+	*/
+	TitanGloveLine: 10% increased true melee damage
+	YoyoGlove: Secondary yoyos will do 50% less damage
 	EyeoftheGolem: 20% increased critical strike damage
+	RifleScope: The scope effect can be toggled with visibility
+	ArcaneFlower: 5% increased magic damage
+	HellfireTreads:
+		'''
+		Multiplies all fire-based debuff damage by 1.5x, does not stack with downgrades
+		All attacks inflict Hellfire
+		'''
+	FairyBoots:
+		'''
+		Fairies can spawn at any time on the surface and spawn far more frequently
+		Nearby fairies grant +2 HP/s life regen, 6 defense and 10% movement speed
+		Fairies are immune to damage and will no longer flee
+		'''
+	FleshKnucklesLine: Max life increased by 25
+	HandWarmer: Provides a regeneration boost while wearing the Snow armor
+	/*
+	Others
+	*/
 	TruffleWorm:
 		'''
 		Summons Duke Fishron if used as bait in the Ocean
 		Enrages outside the Ocean
 		'''
 	SlimeGun: Slimed enemies take more damage from fire-based debuffs
-	FleshKnucklesLine: Max life increased by 25
 	RodofDiscord: Teleportation is disabled while Chaos State is active
 	Pwnhammer:
 		'''
@@ -28,34 +50,14 @@ AddedTooltip: {
 		This grants +1.5 HP/s life regen and accelerates natural life regen
 		Life drain stacks based on the number of enemies being hit
 		'''
-	HandWarmer: Provides a regeneration boost while wearing the Snow armor
 	GoldenFishingRod: Its fishing line will never break
-	// Step Stool
-	PortableStool: Standing on the stool grants 5% increased critical strike chance
 	Tombstones:
 		'''
 		13 of any tombstone turns the surrounding area into a graveyard
 		Graveyards have various new item sales and recipes
 		'''
-	DeathSickle: Inflicts Whispering Death on hit
-	HellfireTreads:
-		'''
-		Multiplies all fire-based debuff damage by 1.5x, does not stack with downgrades
-		All attacks inflict Hellfire
-		'''
-	FairyBoots:
-		'''
-		Fairies can spawn at any time on the surface and spawn far more frequently
-		Nearby fairies grant +2 HP/s life regen, 6 defense and 10% movement speed
-		Fairies are immune to damage and will no longer flee
-		'''
-	ArcaneFlower: 5% increased magic damage
-	RifleScope: The scope effect can be toggled with visibility
 	FeatherfallPotion: Disables all airborne flight recovery
-	TitanGloveLine: 10% increased true melee damage
-	YoyoGlove: Secondary yoyos will do 50% less damage
-	CrimsonBreastplate: +1 HP/s life regen
-	CrimsonOtherPieces: +0.5 HP/s life regen
+	CrimsonArmorPieces: +0.5 HP/s life regen
 	Picksaw: Can mine Scoria Ore located in the Abyss
 }
 
@@ -121,17 +123,9 @@ EditedTooltip: {
 		Summons the Eater of Worlds when used in the Corruption
 		Despawns outside the Corruption
 		'''
-	MasterExclusive: Master or Revengeance
-	// Sparkle Slime Balloon
-	GelBalloon:
-		'''
-		Throws a mixture of slime and sparkling crystals
-		Slimed enemies take more damage from fire-based debuffs
-		'''
-	// Ancient Manipulator
-	LunarCraftingStation: Used to craft items from Lunar Fragments, Luminite, and Astral Bars
-	AnkhShield1: Grants immunity to knockback
-	AnkhShield2: Grants immunity to most debuffs, including Mighty Wind
+	/*
+	Life Regen
+	*/
 	Campfires: Life regen is increased by 0.5 HP/s when near a campfire
 	HeartLantern: Grants +1 HP/s life regeneration when placed nearby
 	BottledHoney:
@@ -144,41 +138,31 @@ EditedTooltip: {
 	CharmofMyths: Grants +1 HP/s life regeneration and reduces the cooldown of healing potions by 25%
 	RegenerationPotion: Provides +2 HP/s life regeneration
 	HamBat: Defeating enemies temporarily grants +3 HP/s life regen
-	// Arcane Crystal
+	// Vital Crystal
 	AegisCrystal: Permanently boosts natural life regeneration
-	ArcheryPotion: 20% increased arrow speed and 5% increased arrow damage
-	// Aerial Bane
-	DD2BetsyBow: Shoots a tight spread of 6 splitting arrows
-	AleSake:
-		'''
-		Increases melee damage by 10% and reduces defense by 5%
-		Counts as an alcohol for Alcohol Poisoning
-		{$Common.AlcoholWarning}
-		'''
-	FlameWakerBoots:
-		'''
-		Multiplies all fire-based debuff damage by 1.25x
-		All attacks light enemies on fire
-		'Never get cold feet again'
-		'''
+	/*
+	OOA armors
+	*/
+	ApprenticeHat: Increases your max number of sentries by 1, 10% reduced mana cost
+	ApprenticeRobe: 15% increased summon damage and magic damage
+	ApprenticeTrousers: 10% increased summon damage, 15% increased magic critical strike chance, 20% increased movement speed
+	SquireGreatHelm: Increases your max number of sentries by 1 and grants +2 HP/s life regen
+	SquireGreaves: 10% increased summon damage, 15% increased melee critical strike chance and movement speed
+	MonkBrows: Increases your max number of sentries by 1 and increases rogue velocity by 15%
+	MonkShirt: 15% increased summon and rogue damage
+	MonkPants: 15% increased rogue critical strike chance and 20% increased movement speed
+	// Valhalla Knight
+	SquireAltShirt: 30% increased summon damage and grants +4 HP/s life regen
+	// Shinobi Infiltrator
+	MonkAltHead: Increases your max number of sentries by 2 and increases summon & rogue damage by 20%
+	MonkAltShirt0: 20% increased summon damage and rogue velocity
+	MonkAltShirt1: 5% increased rogue critical strike chance
+	MonkAltPants: 10% increased summon damage and rogue critical strike chance
+	/*
+	Accessories
+	*/
 	SunMoonStones: critical strike chance, life regeneration,
 	CelestialStoneShell: Minor increase to damage,
-	MagnetFlower: 10% reduced mana cost
-	ArcaneFlowerManaCloak: 12% reduced mana cost
-	Magiluminescence:
-		'''
-		Increases movement acceleration and deceleration by 1.75x
-		Increases movement speed by 1.15x. This bonus applies to running boot accessories
-		'''
-	FrogLeg: Increases jump speed by {0}% and allows auto-jump
-	// Soaring Insignia
-	EmpressFlightBooster1: Increases wing flight time by 33%
-	EmpressFlightBooster2: Increases movement and jump speed by 10% and acceleration by 1.25x
-	RifleScope1: Increase view range for guns (<right> to zoom out)
-	RifleScope2: The scope effect can be toggled with visibility
-	SniperScope: 12% increased ranged critical strike chance
-	MoltenQuiver: Lights wooden arrows ablaze and all arrows inflict Hellfire
-	MagicHat: 6% increased magic critical strike chance
 	PowerGlove: 10% increased melee speed, does not stack with downgrades
 	BerserkerGlove: 10% increased true melee damage
 	MechanicalGlove:
@@ -192,64 +176,19 @@ EditedTooltip: {
 		14% increased melee damage
 		14% increased melee speed, does not stack with downgrades
 		'''
-	Gi: 10% increased movement and jump speed
-	GoldPickaxe: Can mine Demonite, Crimtane, Meteorite, Sea Prisms, and Sea Prism Crystals
-	FlaskofCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames
-	FlaskofFire: Melee, Whip, and Rogue attacks set enemies on fire
-	FlaskofGold: Melee, Whip, and Rogue attacks make enemies drop more gold
-	FlaskofIchor: Melee, Whip, and Rogue attacks decrease enemies defense
-	FlaskofNanites: Melee, Whip, and Rogue attacks confuse enemies
-	FlaskofParty: All attacks cause confetti to appear
-	FlaskofPoison: Melee, Whip, and Rogue attacks poison enemies
-	FlaskofVenom: Melee, Whip, and Rogue attacks inflict Acid Venom on enemies
-	SolarFlarePieces: Grants +1 HP/s life regeneration
-	/*
-	OOA sets
-	*/
-	SquireGreatHelm: Increases your max number of sentries by 1 and grants +0.5 HP/s life regen
-	SquirePlating: 5% increased summon damage and 15% increased melee damage
-	SquireGreaves:
+	MoltenQuiver: Lights wooden arrows ablaze and all arrows inflict Hellfire
+	RifleScope1: Increase view range for guns (<right> to zoom out)
+	RifleScope2: The scope effect can be toggled with visibility
+	SniperScope: 12% increased ranged critical strike chance
+	Magiluminescence:
 		'''
-		5% increased summon damage and melee critical strike chance
-		15% increased movement speed
+		Increases movement acceleration and deceleration by 1.75x
+		Increases movement speed by 1.15x. This bonus applies to running boot accessories
 		'''
-	MonkBrows: Increases your max number of sentries by 1 and increases rogue velocity by 10%
-	MonkShirt: 5% increased summon and rogue damage
-	MonkPants1: 5% increased summon damage and rogue critical strike chance
-	MonkPants2: 20% increased movement speed
-	// Valhalla Knight
-	SquireAltHead: Increases your max number of sentries by 2 and increases summon and melee damage by 15%
-	SquireAltShirt: 15% increased summon damage and grants +1 HP/s life regen
-	SquireAltPants: 10% increased summon damage
-	HuntressJerkin:
-		'''
-		10% increased summon damage and 5% increased ranged damage and critical strike chance
-		10% chance to not consume ammo
-		'''
-	HuntressPants: 5% increased summon damage and 20% increased movement speed
-	ApprenticeHat: Increases your max number of sentries by 1, 5% increased magic damage and 10% reduced mana cost
-	ApprenticeRobe: 10% increased summon and magic damage
-	ApprenticeTrousers:
-		'''
-		5% increased summon damage and magic critical strike chance
-		20% increased movement speed
-		'''
-	// Shinobi Infiltrator
-	MonkAltHead:
-		'''
-		Increases your max number of sentries by 2
-		10% increased summon and rogue damage
-		'''
-	MonkAltShirt0: 10% increased summon damage and 15% increased rogue velocity
-	MonkAltShirt1: 5% increased rogue critical strike chance
-	MonkAltPants: 10% increased summon damage and rogue critical strike chance
-	// Red Riding
-	HuntressAltShirt: 10% increased summon and ranged damage and 20% chance to not consume ammo
-	HuntressAltPants: 20% increased summon damage and 5% increased ranged critical strike chance
-	// Dark Artist
-	ApprenticeAltHead: 10% increased summon & magic damage
-	ApprenticeAltShirt: 15% increased summon damage and 10% increased magic damage
-	ApprenticeAltPants: 10% increased summon damage
+	FrogLeg: Increases jump speed by {0}% and allows auto-jump
+	// Soaring Insignia
+	EmpressFlightBooster1: Increases wing flight time by 33%
+	EmpressFlightBooster2: Increases movement and jump speed by 10% and acceleration by 1.25x
 	GravityGlobe:
 		'''
 		Provides 32% increased jump speed and increased fall speed
@@ -258,6 +197,52 @@ EditedTooltip: {
 		Press {$Key.UP} to change gravity
 		Press {$Key.DOWN} to fall faster
 		'''
+	FlameWakerBoots:
+		'''
+		Multiplies all fire-based debuff damage by 1.25x
+		All attacks light enemies on fire
+		'Never get cold feet again'
+		'''
+	/*
+	Armor
+	*/
+	MagicHat: 6% increased magic critical strike chance
+	Gi: 10% increased movement and jump speed
+	SolarFlarePieces: Grants +1 HP/s life regeneration
+	/*
+	Potions
+	*/
+	ArcheryPotion: 5% increased arrow damage and 20% increased arrow speed
+	AleSake:
+		'''
+		Increases melee damage by 10% and reduces defense by 5%
+		Counts as an alcohol for Alcohol Poisoning
+		{$Common.AlcoholWarning}
+		'''
+	FlaskofCursedFlames: Melee, Whip, and Rogue attacks inflict enemies with cursed flames
+	FlaskofFire: Melee, Whip, and Rogue attacks set enemies on fire
+	FlaskofGold: Melee, Whip, and Rogue attacks make enemies drop more gold
+	FlaskofIchor: Melee, Whip, and Rogue attacks decrease enemies defense
+	FlaskofNanites: Melee, Whip, and Rogue attacks confuse enemies
+	FlaskofParty: All attacks cause confetti to appear
+	FlaskofPoison: Melee, Whip, and Rogue attacks poison enemies
+	FlaskofVenom: Melee, Whip, and Rogue attacks inflict Acid Venom on enemies
+	/*
+	Others
+	*/
+	// Aerial Bane
+	DD2BetsyBow: Shoots a tight spread of 6 splitting arrows
+	GoldPickaxe: Can mine Demonite, Crimtane, Meteorite, Sea Prisms, and Sea Prism Crystals
+	MasterExclusive: Master or Revengeance
+	// Sparkle Slime Balloon
+	GelBalloon:
+		'''
+		Throws a mixture of slime and sparkling crystals
+		Slimed enemies take more damage from fire-based debuffs
+		'''
+	// Ancient Manipulator
+	LunarCraftingStation: Used to craft items from Lunar Fragments, Luminite, and Astral Bars
+	AnkhShield: Grants immunity to most debuffs, including Mighty Wind
 }
 
 // Buff Descriptions

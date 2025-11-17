@@ -128,6 +128,11 @@ Slurpfish: {
 }
 
 // Sunken Sea Catches
+CoralskinFoolfish: {
+	DisplayName: Coralskin Foolfish
+	Tooltip: Camouflage is one of nature's best defenses
+}
+
 EutrophicCrate: {
 	DisplayName: Eutrophic Crate
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
@@ -138,9 +143,23 @@ EutrophicSandfish: {
 	QuestDescription: You ever wondered what would happen if a lizard that lived in the desert wandered too deep into those old Ilmeran areas? Well I know, and it looks super cool! But it's way too slippery for me to get my hands on, so you go and get it so I can keep it as a pet!
 }
 
+GleamingCucumber: {
+	DisplayName: Gleaming Cucumber
+	Tooltip: A slippery, slimy creature found on the Polyp Forest's floor
+}
+
 GreenwaveLoach: {
 	DisplayName: Greenwave Loach
 	Tooltip: An endangered fish that is highly prized in the market
+}
+
+MoltenFishron: {
+	DisplayName: Molten Fishron
+	Tooltip:
+		'''
+		Instead of honking it makes crisp wheezing noises 
+		Or maybe it actually is wheezing due to being taken out of lava
+		'''
 }
 
 PrismCrate: {
@@ -195,6 +214,20 @@ SparklingEmpress: {
 		Good!
 		Then let us set out and see the world beyond as I enjoy a fine feast!'
 		'''
+}
+
+SpecularSturgeon: {
+	DisplayName: Specular Sturgeon
+	Tooltip:
+		'''
+		A deep-dwelling fish that can live for many generations
+		Needless to say, it's old!
+		'''
+}
+
+Squidoom: {
+	DisplayName: Squidoom
+	Tooltip: Those who gaze at it for too long are said to enter a hypnotic state
 }
 
 SunkenSailfish: {

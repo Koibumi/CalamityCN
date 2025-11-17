@@ -183,6 +183,11 @@ SearslugItem: {
 	Tooltip: ""
 }
 
+ShoreskipperItem: {
+	DisplayName: "{$NPCs.Shoreskipper.DisplayName}"
+	Tooltip: ""
+}
+
 ShroombleItem: {
 	DisplayName: "{$NPCs.Shroomble.DisplayName}"
 	Tooltip: ""

@@ -96,7 +96,7 @@ TequilaSunriseBuff: {
 
 Trippy: {
 	DisplayName: Trippy
-	Description: You see the world for what it truly is... and you also have a {0}% increase to all damage
+	Description: You see the world for what it truly is...
 }
 
 VodkaBuff: {
