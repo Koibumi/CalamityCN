@@ -24,7 +24,8 @@ AquasScepter: {
 	DisplayName: Aqua的权杖
 	Tooltip:
 		'''
-		召唤一朵巨大的风暴云哨兵向你的敌人倾泻暴雨，并用过载特斯拉能量打击附近的敌人
+		{$CommonItemTooltip.Sentry}
+		召唤一朵巨大的风暴云向你的敌人倾泻暴雨，并用过载特斯拉能量打击附近的敌人
 		“船长！我想-我们要有一场雨中冒险了！”
 		'''
 }
@@ -44,6 +45,7 @@ AtlasMunitionsBeacon: {
 	DisplayName: 擎天军用信标
 	Tooltip:
 		'''
+		{$CommonItemTooltip.Sentry}
 		[c/F2B629:向前放置一台星流能量驱动、固定的巨炮]
 		[c/F2B629:巨炮会向在它攻击范围内的敌人开火]
 		[c/F27049:如果敌人距离过近，它会进入过载模式]
@@ -96,7 +98,11 @@ BrittleStarStaff: {
 
 CadaverousCarrion: {
 	DisplayName: 干缩腐尸
-	Tooltip: 在地面上召唤一个恶心的，喷吐鲨鱼的硫海遗爵的头
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		在地面上召唤一个恶心的，喷吐鲨鱼的硫海遗爵的头
+		'''
 }
 
 CalamarisLament: {
@@ -115,7 +121,11 @@ CalamarisLament: {
 
 CausticCroakerStaff: {
 	DisplayName: 腐蚀蛙法杖
-	Tooltip: 召唤一个在敌人接近时爆炸的蟾蜍
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一个在敌人接近时爆炸的蟾蜍
+		'''
 }
 
 CausticStaff: {
@@ -214,7 +224,8 @@ CryogenicStaff: {
 	DisplayName: 寒极法杖
 	Tooltip:
 		'''
-		召唤一个冰晶结构来保护你
+		{$CommonItemTooltip.Sentry}
+		召唤一个冰晶结构体，向你的敌人释放严寒
 		攻击速度和射程会随着攻击时间的增加而增加
 		'''
 }
@@ -277,7 +288,11 @@ DragonbloodDisgorger: {
 
 DreadmineStaff: {
 	DisplayName: 恐惧渊雷法杖
-	Tooltip: 召唤恐惧渊雷为你而战
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一个炮塔，用渊雷包围你的敌人
+		'''
 }
 
 ElementalAxe: {
@@ -420,7 +435,8 @@ GuidelightofOblivion: {
 	DisplayName: 遗境魂灯
 	Tooltip:
 		'''
-		召唤失落之灯炮塔为你而战
+		{$CommonItemTooltip.Sentry}
+		召唤一个灯笼，用火焰吞噬你的敌人
 		“无尽火焰的暗影之梦，火焰吞噬，余烬落下”
 		'''
 }
@@ -437,7 +453,11 @@ HerringStaff: {
 
 HivePod: {
 	DisplayName: 星幻巢
-	Tooltip: 召唤星幻巢来保护你
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一个星幻巢，向你的敌人释放星幻蜂
+		'''
 }
 
 IgneousExaltation: {
@@ -508,7 +528,11 @@ MirrorofKalandra: {
 
 OrthoceraShell: {
 	DisplayName: 直角石壳
-	Tooltip: 在光标位置召唤一个悬空的直角石哨卫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一个悬空的直角石，向你的敌人喷射酸液流
+		'''
 }
 
 Perdition: {
@@ -532,7 +556,11 @@ PlantationStaff: {
 
 PolypLauncher: {
 	DisplayName: 珊瑚召唤杖
-	Tooltip: 召唤一个会向附近的敌怪发射珊瑚块的珊瑚堆
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一个会向附近的敌怪发射珊瑚块的珊瑚堆
+		'''
 }
 
 PuffShroom: {
@@ -554,14 +582,18 @@ RustyBeaconPrototype: {
 	DisplayName: 锈蚀信标原型
 	Tooltip:
 		'''
-		召唤一架废弃已久的无人机来支援你
-		无人机会在指定地点徘徊并释放会造成辐射减益的剧毒波
+		{$CommonItemTooltip.Sentry}
+		召唤一架废弃已久的无人机，被动地释放辐射波
 		'''
 }
 
 SanctifiedSpark: {
 	DisplayName: 圣耀火花
-	Tooltip: 召唤亵渎能量炮塔为你而战
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一只友好的献祭者，向你的敌人发射神圣火花
+		'''
 }
 
 SandSharknadoStaff: {
@@ -617,17 +649,26 @@ SlimePuppetStaff: {
 SpikecragStaff: {
 	DisplayName: 地刺王法杖
 	Tooltip: "[GFB]"
-	TooltipNormal: 召唤一个地刺王来保护你
+	TooltipNormal:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一片石笋，向你的敌人散射尖刺
+		'''
 	TooltipGFB:
 		'''
-		召唤一个地刺王来保护你
+		{$CommonItemTooltip.Sentry}
+		召唤一片石笋，向你的敌人散射尖刺
 		击败亵渎天神以解放它真正的力量
 		'''
 }
 
 SquirrelSquireStaff: {
 	DisplayName: 松鼠召唤杖
-	Tooltip: 召唤一只松鼠为你而战
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		召唤一只松鼠，向你的敌人投掷橡实
+		'''
 }
 
 StaffOfNecrosteocytes: {
@@ -818,6 +859,7 @@ HarvestStaff: {
 	DisplayName: 丰收
 	Tooltip:
 		'''
+		{$CommonItemTooltip.Sentry}
 		种下一片南瓜地，在附近长出南瓜
 		生物或玩家接近时南瓜会蹦出来
 		一旦南瓜蹦了出来，它便会积极地阻截敌人，在撞击敌人时爆炸

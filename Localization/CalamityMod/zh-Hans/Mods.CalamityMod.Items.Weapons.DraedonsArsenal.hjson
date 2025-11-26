@@ -158,7 +158,8 @@ PulseTurretRemote: {
 	DisplayName: 脉冲炮塔遥控装置
 	Tooltip:
 		'''
-		召唤一个脉冲炮塔，用聚能脉冲消灭附近的敌人
+		{$CommonItemTooltip.Sentry}
+		召唤一个炮塔，向你的敌人发射爆炸性脉冲冲击
 		同时只能存在至多一个脉冲炮塔
 		'''
 }
