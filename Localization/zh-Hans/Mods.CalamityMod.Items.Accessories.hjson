@@ -2,9 +2,9 @@ Abaddon: {
 	DisplayName: 魔鬼之庇护
 	Tooltip:
 		'''
-		增加8%的暴击率
-		暴击会产生爆炸，并将附近的敌人用硫磺火引燃
-		减少50%硫磺火减益造成的伤害
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		暴击会产生爆炸，并用[cbuff:CalamityMod/BrimstoneFlames]引燃附近的敌人
+		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]造成的伤害
 		'''
 }
 
@@ -29,8 +29,8 @@ AbyssalDivingSuit: {
 		获得游泳能力，延长水下呼吸时间，可在水下发光并提升冰面上的移动力
 		在深渊中提供适量光照，减缓在深渊中时的氧气消耗速度并降低在深渊中溺水所造成的伤害
 		深渊生物不太可能看见你，降低深渊的防御削减效果并使你在液体中更快地下潜
-		免疫硫磺海水的效果以及深渊水压加快氧气消耗速度的效果
-		减轻Hadopelagic Pressure加快氧气消耗速度的效果
+		免疫硫磺海水的效果以及[cbuff:CalamityMod/CrushDepth]加快氧气消耗速度的效果
+		减轻[cbuff:CalamityMod/HadopelagicPressure]加快氧气消耗速度的效果
 		'''
 }
 
@@ -39,7 +39,7 @@ AbyssalMirror: {
 	Tooltip:
 		'''
 		敌怪不太可能瞄准你，即便是在深渊中亦是如此
-		潜行值恢复速度在站定不动时增加25%，在移动时增加12%
+		潜行值恢复速度在站定不动时增加{0}%，在移动时增加{1}%
 		使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
 		'''
 	HoldShiftTooltip:
@@ -54,7 +54,7 @@ AeroStone: {
 	DisplayName: 天蓝石
 	Tooltip:
 		'''
-		提供50帧额外飞行时间
+		提供{0}秒额外飞行时间
 		在空中且没有处于飞行或滑翔状态时，你的飞行时间会缓慢恢复
 		“远古遗物之一”
 		'''
@@ -62,16 +62,16 @@ AeroStone: {
 
 Affliction: {
 	DisplayName: 灾劫之尖啸
-	Tooltip: 为所有队友增加0.5HP/s生命再生、10%最大生命值、7%伤害减免、9点防御和10%伤害
+	Tooltip: 为所有队友增加{0}HP/s生命再生、{1}%最大生命值、{2}%伤害减免、{3}点防御和{4}%伤害
 }
 
 AlchemicalFlask: {
 	DisplayName: 冶金烧瓶
 	Tooltip:
 		'''
-		所有的攻击都会造成瘟疫减益并降低50%所受瘟疫减益的伤害
+		所有的攻击都会造成[cbuff:CalamityMod/Plague]并降低{0}%[cbuff:CalamityMod/Plague]造成的伤害
 		弹幕在击中敌人时会生成瘟疫搜寻者
-		受伤时释放瘟疫蜜蜂并将你浸在蜂蜜中
+		受伤时释放瘟疫蜜蜂并将你浸入[cbuff:Honey]
 		'''
 }
 
@@ -79,7 +79,7 @@ AlluringBait: {
 	DisplayName: 诱惑鱼饵
 	Tooltip:
 		'''
-		增加10点渔力
+		增加{0}点渔力
 		增加钓到的药水材料鱼的数量
 		'''
 }
@@ -88,7 +88,7 @@ AmalgamatedBrain: {
 	DisplayName: 融合之脑
 	Tooltip:
 		'''
-		增加5%伤害
+		增加{0}%伤害
 		受到伤害后困惑附近敌怪并生成一只沼泽之眼
 		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
 		使你获得闪避攻击的能力
@@ -101,9 +101,9 @@ AmbrosialAmpoule: {
 	DisplayName: 百草天香瓶
 	Tooltip:
 		'''
-		增加50点最大生命值
-		基于失去的生命值获得+2~+5HP/s生命再生
-		获得蜂蜜增益
+		增加{0}点最大生命值
+		基于失去的生命值获得+{1}~+{2}HP/s生命再生
+		获得[cbuff:Honey]增益
 		当前加成：+[REGEN]HP/s
 		减半受到火系和疾病系减益的持续时间
 		饰品可见性开启时你会发出黄光
@@ -114,7 +114,7 @@ AncientFossil: {
 	DisplayName: 远古化石
 	Tooltip:
 		'''
-		增加10%挖掘速度
+		增加{0}%挖掘速度
 		提供对来自下落方块的伤害免疫
 		'''
 }
@@ -134,13 +134,13 @@ AngelicAlliance: {
 		'''
 		召唤圣天之力，强化你的攻击和仆从
 		勇气注入双拳，启迪充盈脑海，祝福映于身后，这一切使你拥有无穷之力，使你能对眼前的敌人做出最终审判
-		增加2格最大仆从栏位、15%召唤伤害和8%其他职业伤害
-		使用翅膀在空中时+2HP/s生命再生
-		按下 [KEY] 键获得15秒神之祝福
-		拥有圣天祝福增益时，你每拥有一个仆从，便会出现一个圣天使助你一臂之力
-		每出现一个圣天使都会使你回复2点生命值
-		所有仆从的攻击都会造成放逐之火减益，并使你获得不受其他效果影响的+4HP/s生命再生
-		此效果有1分钟冷却时间
+		增加{0}格最大仆从栏位、{1}%召唤伤害和{2}%其他职业伤害
+		当飞行时间未满时+{3}HP/s生命再生
+		按下 [KEY] 键获得{4}秒[cbuff:CalamityMod/DivineBless]增益
+		激活效果时，你每拥有一个仆从，便会出现一个圣天使
+		圣天使会用圣光蒸发敌怪，每个圣天使生成时会为你回复{5}点生命值
+		仆从攻击会施加[cbuff:CalamityMod/BanishingFire]，并使你获得不受其他效果影响的+{6}HP/s生命再生
+		此效果有{7}分钟冷却时间
 		'''
 }
 
@@ -162,9 +162,9 @@ AquaticEmblem: {
 	Tooltip:
 		'''
 		大多数海洋敌人变得友好并允许水下呼吸
-		在水下时会逐渐增加防御但会逐渐降低移动速度
-		离开水时防御加成和移动速度降低效果会逐渐消失
-		防御至多增加50点，移动速度至多降低10%
+		在水下的{0}秒内会逐渐增加防御但降低移动速度
+		此效果在离开水时缓慢消失，在乘坐坐骑时重置
+		防御至多增加{1}点，移动速度至多降低{2}%
 		在深渊中提供少量光照并适量减缓在深渊中时的氧气消耗速度
 		'''
 }
@@ -180,11 +180,11 @@ AquaticHeart: {
 	FullTooltip:
 		'''
 		哇哦！你可以游泳了！
-		在水下时会增加15%最大速度和加速度
+		在水下时会增加{0}%最大速度和加速度
 		大幅度减缓氧气消耗速度并在深渊中提供少量光照
-		攻击者会被施加冰河时代减益
-		获得一个易碎的冰障，对一次攻击有20%伤害减免
-		冰障会在碎裂30秒后再生
+		攻击者会被施加[cbuff:CalamityMod/GlacialState]
+		获得一个易碎的冰障，对一次攻击有{1}%伤害减免
+		冰障会在碎裂{2}秒后再生
 		'''
 }
 
@@ -192,7 +192,7 @@ ArcFlashRing: {
 	DisplayName: Arc Flash Ring
 	Tooltip:
 		'''
-		攻击有6%几率召唤从天而降的闪电，造成4倍伤害
+		攻击有{0}%几率召唤从天而降的闪电，造成{1}倍伤害
 		单次攻击每击中一个敌怪，召唤闪电的几率就会降低
 		闪电的伤害基于非暴击伤害，但能够暴击
 		如果关闭饰品可见性，闪电效果会变得透明且安静
@@ -203,9 +203,9 @@ ArchaicPowder: {
 	DisplayName: 古元粉末
 	Tooltip:
 		'''
-		增加25%挖掘速度
+		增加{0}%挖掘速度
 		提供对来自下落方块和飞镖陷阱的伤害免疫
-		提供对所有陷阱65%的伤害减免
+		提供对所有陷阱{1}%的伤害减免
 		不与下位叠加
 		'''
 }
@@ -214,9 +214,9 @@ AscendantInsignia: {
 	DisplayName: 进升证章
 	Tooltip:
 		'''
-		飞行时间增加50%，移动速度和跳跃速度提高15%，加速度提升为1.5倍
-		按下 [KEY] 键会给予你飞升之力，提供4秒的无限飞行时间
-		飞升有40秒冷却时间
+		飞行时间增加{0}%，移动速度和跳跃速度提高{1}%，加速度提升为{2}倍
+		按下 [KEY] 键会给予你飞升之力，提供{3}秒的无限飞行时间
+		飞升有{4}秒冷却时间
 		'''
 }
 
@@ -224,9 +224,9 @@ AsgardianAegis: {
 	DisplayName: 阿斯加德之庇护
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		获得被宇宙狱火加强的冲刺能力
 		此冲刺可以在不受伤害的情况下撞击穿过敌怪
-		对击退免疫
 		'''
 }
 
@@ -234,9 +234,9 @@ AsgardsValor: {
 	DisplayName: 阿斯加德之英勇
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		获得撞击冲刺能力
 		此冲刺可以在不受伤害的情况下撞击穿过敌怪
-		对击退免疫
 		'''
 }
 
@@ -293,7 +293,7 @@ BlazingCore: {
 	DisplayName: 渎火核心
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		亵渎天神的炽热之心
 		按下 [KEY] 键会将你包裹在发光的亵渎水晶中，并激活一次格挡
 		包裹后短时间内受击会使水晶破碎
@@ -308,7 +308,7 @@ BloodflareCore: {
 	DisplayName: 血炎晶核
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		防御损伤恢复时会治疗你，每恢复1点防御便恢复1点生命值
 		受到伤害时会将至少一半的防御转化为防御损伤
 		'''
@@ -531,7 +531,7 @@ DarkSunRing: {
 	DisplayName: 蚀日尊戒
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		增加12%伤害
 		+0.5HP/s生命再生和2格最大仆从栏位
 		增加仆从击退
@@ -615,8 +615,8 @@ DraedonsHeart: {
 	DisplayName: 嘉登之心
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		减少敌怪{0}%接触伤害
-		对击退免疫
 		[NANODESC]
 		在完全充能时，按下 [KEY] 键会在{2}秒内逐渐回复{1}点生命值
 		回复生命值时，降低[DR]%所受伤害
@@ -716,9 +716,9 @@ ElysianAegis: {
 	DisplayName: 极乐之庇护
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		获得被圣火加强的冲刺能力
 		此冲刺可以撞击穿过敌怪但不受伤害
-		对击退免疫
 		“被亵渎之火所祝福”
 		''' 
 }
@@ -787,6 +787,7 @@ FlameLickedShell: {
 	DisplayName: 舐火甲壳
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		按下 [KEY] 键会将你包裹在焦岩之中，并激活一次格挡
 		包裹后短时间内受击会使焦岩破裂
 		焦岩破裂时，会向外发射一圈硫火飞弹，并且让你对此次伤害有90%的伤害减免
@@ -868,7 +869,7 @@ GiantTortoiseShell: {
 	DisplayName: 巨大龟壳
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		增加5%伤害减免但降低10%冲刺速度
 		受击后会恢复冲刺速度并降低防御和伤害减免，持续3秒
 		'''
@@ -1237,7 +1238,7 @@ OldDukeScales: {
 	DisplayName: 硫海遗爵之鳞
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		增加10%伤害减免，最大移动速度和加速度
 		增加25%冲刺速度和距离
 		在冷却栏中加入一个耐力追踪器
@@ -1416,7 +1417,7 @@ RadiantOoze: {
 	DisplayName: 光泥
 	Tooltip:
 		'''
-		基于失去的生命值获得+2~+5HP/s生命再生
+		基于失去的生命值获得+{0}~+{1}HP/s生命再生
 		当前加成：+[REGEN]HP/s
 		饰品可见性开启时你会发出黄光
 		'''
@@ -1431,7 +1432,7 @@ RampartofDeities: {
 	DisplayName: 神之壁垒
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		受到伤害时释放一阵追踪星星蜜蜂[TOGGLE]并将你浸在[cbuff:Honey]中
 		延长无敌帧时间，生命值越低或受到高伤害攻击时延长地越久
 		生命低于50%时降低25%所受伤害
@@ -1858,8 +1859,8 @@ TheAbsorber: {
 	DisplayName: 阴阳吸星石
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		增加{0}%移动速度和跳跃速度
-		对击退免疫
 		攻击者会受到极高伤害以及一个残废性疾病减益
 		使用治疗药水后会产生一个持续{1}秒的绿色光环
 		首次进入光环会净化所有减益，光环内会提供+{2}HP/s生命再生，{3}%伤害和{4}%伤害减免
@@ -1949,7 +1950,7 @@ TheSponge: {
 	DisplayName: 化绵留香石
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		获得一个{0}点生命值的屏障
 		屏障激活时会提供{1}%伤害减免
 		[ADREN]
@@ -2051,9 +2052,9 @@ VoidofExtinction: {
 	DisplayName: 终结虚空
 	Tooltip:
 		'''
-		增加13%的暴击率
-		暴击会产生爆炸，用硫磺火引燃敌怪
-		减少50%硫磺火减益造成的伤害
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		暴击会产生爆炸，并用[cbuff:CalamityMod/BrimstoneFlames]引燃附近的敌人
+		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]造成的伤害
 		'''
 }
 
@@ -2108,7 +2109,7 @@ YharimsGift: {
 	DisplayName: 寻神者之礼
 	Tooltip:
 		'''
-		对击退免疫
+		{$Common.KnockbackImmunity}
 		被击中时会使燃火流星从天而降
 		移动时会在身后留下爆裂龙尘
 		增加15%伤害和移动速度
@@ -2161,15 +2162,6 @@ Popo: {
 		将装备者变成雪人
 		“不要让恶魔抢走你的鼻子！”
 		'''
-}
-
-PunchCard: {
-	DisplayName: Punch Card
-	Tooltip: "[c/842593:'Please... please get world record...']"
-	// These are used to spawn the item via chat -- both must be all lower case for the detection to work
-	SpawnText1: 太晚了
-	SpawnText1Alt: 太晚了
-	SpawnText2: 该睡觉
 }
 
 SharkyPlush: {

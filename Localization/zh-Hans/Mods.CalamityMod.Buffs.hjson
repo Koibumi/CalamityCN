@@ -1671,3 +1671,8 @@ ToastyBatBuff: {
 	DisplayName: Toasty Bat Friend
 	Description: 一只炽焰蝙蝠在你肩头扑棱
 }
+
+EnchantedBladeStaffBuff: {
+	DisplayName: Enchanted Blade Staff
+	Description: 不包含垃圾剑刃
+}

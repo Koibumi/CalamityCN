@@ -36,6 +36,15 @@ BlasphemousDonut: {
 		'''
 }
 
+BottledPanacea: {
+	DisplayName: Bottled Panacea
+	Tooltip:
+		'''
+		使用时治愈你所有的疾病系和电系减益
+		此效果有30秒冷却
+		'''
+}
+
 BoundingPotion: {
 	DisplayName: 弹跳药水
 	Tooltip: 增加{0}%跳跃速度和{1}%跳跃高度

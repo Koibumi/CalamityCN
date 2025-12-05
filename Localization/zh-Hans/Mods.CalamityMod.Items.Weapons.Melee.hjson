@@ -438,19 +438,11 @@ EmpyreanKnives: {
 
 EntropicClaymore: {
 	DisplayName: 熵阔剑
-	Tooltip: "[GFB]"
-	TooltipNormal:
+	Tooltip:
 		'''
 		发射一群在空气中游动的活性等离子体
 		等离子体会追踪你的光标或附近的敌怪，优先考虑更接近的
 		等离子体可穿透，但击中首个敌怪后不再有追踪效果
-		'''
-	TooltipGFB:
-		'''
-		发射一群在空气中游动的死亡绦虫
-		绦虫会追踪你的光标或附近的敌怪，优先考虑更接近的
-		绦虫可穿透，但击中首个敌怪后不再有追踪效果
-		[c/FF0000:“上吧我的绦虫们，让他们的蛋蛋巨痒难耐”]
 		'''
 }
 
@@ -1304,13 +1296,11 @@ Terratomere: {
 
 TerrorBlade: {
 	DisplayName: 惊惧魂刃
-	GFBName: TERROR BLADD4
 	Tooltip:
 		'''
 		发射惊惧剑气，击中物块时反弹
-		每次反弹或穿透怪物时发生爆炸[STATUS]
+		每次反弹或穿透怪物时发生爆炸
 		'''
-	GFB: “忽略我的拼写”
 }
 
 TheBurningSky: {

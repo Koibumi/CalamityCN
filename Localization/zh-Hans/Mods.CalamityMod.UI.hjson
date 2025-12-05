@@ -128,6 +128,7 @@ Cooldowns: {
 	OmegaBlueActive: 深渊狂乱
 	OmegaBlueCooldown: 深渊狂乱冷却
 	PermafrostConcoction: 秘药冷却
+	Panacea: Panacea Cooldown
 	PlagueBlackout: 瘟疫爆发冷却
 	PotionSickness: 治疗冷却
 	PrismaticLaser: 光棱冷却
@@ -611,13 +612,13 @@ Disenchant: 祛魔
 BetterUnderworld: 正在生成更平滑的地狱
 BetterShimmer: 正在将微光放置在合理的位置
 UnderworldStructures: 正在掩埋阿萨福勒与恶魔的战争遗迹
-UnderworldPillars: 正在建造地狱支柱
 UnderworldTreesAndGrass: 正在种植地狱植株
 UnderworldGeyserTraps: 正在添加一片地狱雷区
 ShimmerShrine: 正在发掘一口远古微光井
 EvilIslandCorrupt: 正在生成一个腐化浮岛
 EvilIslandCrimson: 正在生成一个猩红浮岛
 AstralChest: 正在放置一个星幻箱
+LivingMahoganyTree: 正在种植一棵巨型丛林树
 BetterJungleTemple: 正在建造更大的丛林神庙
 JungleTempleAltar: 正在放置丛林蜥蜴祭坛
 GiantBeehive: 正在建造巨大蜂巢

@@ -8,7 +8,7 @@ AndroombaBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AnthozoanCrabBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AquaticUrchinBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AriesBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-ArmoredDiggerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+BurrowerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AstraglomerateBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AstralachneaBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AstralProbeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -690,7 +690,7 @@ AltarOfTheAccursedItem: {
 	Tooltip:
 		'''
 		Offer [i:CalamityMod/AshesofCalamity] {$Items.Materials.AshesofCalamity.DisplayName} at this altar to summon the Witch
-		Doing so will create a square arena of blocks, with the altar at its center
+		Doing so will create a square arena, with the altar at its center
 		The Witch enrages while you are outside of the arena
 		Hovering over the altar while using ruler measurements will display a temporary arena box
 		{$CommonItemTooltip.SpecialCrafting}
@@ -3986,11 +3986,6 @@ VolcanicSand: {
 
 // End of Sunken Sea
 
-Dreadstone: {
-	DisplayName: Dreadstone
-	Tooltip: ""
-}
-
 UelibloomBrick: {
 	DisplayName: Uelibloom Brick
 	Tooltip: ""
@@ -4667,5 +4662,10 @@ BasaltSlab: {
 
 UnsafeNavystoneWall: {
 	DisplayName: Unsafe Navystone Wall
+	Tooltip: ""
+}
+
+MossyStone: {
+	DisplayName: Mossy Stone
 	Tooltip: ""
 }

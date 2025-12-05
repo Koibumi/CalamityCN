@@ -2,9 +2,9 @@ Abaddon: {
 	DisplayName: Abaddon
 	Tooltip:
 		'''
-		8% increased critical strike chance
-		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
-		Reduces the damage of the Brimstone Flames debuff by 50%
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		Critical strikes explode, igniting nearby foes with [cbuff:CalamityMod/BrimstoneFlames]
+		Reduces damage taken from [cbuff:CalamityMod/BrimstoneFlames] by {1}%
 		'''
 }
 
@@ -29,8 +29,8 @@ AbyssalDivingSuit: {
 		Grants the ability to swim, extends underwater breathing, emits light underwater, and improves mobility on ice
 		Provides a moderate amount of light, reduces breath loss, and reduces damage caused by drowning in the abyss
 		Abyss creatures are less likely to see you, mitigates the abyss' defense reduction, and lets you sink faster in liquids
-		Grants immunity to the sulphurous waters and Crush Depth's increased breath loss
-		Grants resistance to the increased breath loss caused by Hadopelagic Pressure
+		Grants immunity to the sulphurous waters and [cbuff:CalamityMod/CrushDepth]'s increased breath loss
+		Grants resistance to the increased breath loss caused by [cbuff:CalamityMod/HadopelagicPressure]
 		'''
 }
 
@@ -39,7 +39,7 @@ AbyssalMirror: {
 	Tooltip:
 		'''
 		Enemies are less likely to target you, even in the abyss
-		Generate stealth 25% faster when standing still and 12% faster while moving
+		Generate stealth {0}% faster when standing still and {1}% faster while moving
 		Grants the ability to dodge attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies
 		'''
 	HoldShiftTooltip:
@@ -54,7 +54,7 @@ AeroStone: {
 	DisplayName: Aero Stone
 	Tooltip:
 		'''
-		Provides an additional 50 flight time
+		Provides an additional {0} seconds of flight time
 		You slowly recover flight time while in the air while not flying or gliding
 		'One of the ancient relics'
 		'''
@@ -62,16 +62,16 @@ AeroStone: {
 
 Affliction: {
 	DisplayName: Affliction
-	Tooltip: Gives all teammates +0.5 HP/s life regen, +10% max life, 7% damage reduction, 9 defense and 10% increased damage
+	Tooltip: Gives all teammates +{0} HP/s life regen, +{1}% max life, {2}% damage reduction, {3} defense and {4}% increased damage
 }
 
 AlchemicalFlask: {
 	DisplayName: Alchemical Flask
 	Tooltip:
 		'''
-		All attacks inflict the Plague and reduces damage taken from the Plague by 50%
+		All attacks inflict the [cbuff:CalamityMod/Plague] and reduces damage taken from the [cbuff:CalamityMod/Plague] by {0}%
 		Projectiles spawn plague seekers on enemy hits
-		Releases plague bees when damaged and douses you in honey 
+		Releases plague bees and douses you in [cbuff:Honey] when damaged
 		'''
 }
 
@@ -79,7 +79,7 @@ AlluringBait: {
 	DisplayName: Alluring Bait
 	Tooltip:
 		'''
-		Increases fishing power by 10
+		Increases fishing power by {0}
 		Increases the yield of potion ingredient fish
 		'''
 }
@@ -88,7 +88,7 @@ AmalgamatedBrain: {
 	DisplayName: Amalgamated Brain
 	Tooltip:
 		'''
-		5% increased damage
+		{0}% increased damage
 		Taking damage confuses nearby enemies and spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds
 		Grants the ability to dodge attacks
@@ -101,9 +101,9 @@ AmbrosialAmpoule: {
 	DisplayName: Ambrosial Ampoule
 	Tooltip:
 		'''
-		+50 max life
-		Grants +2 to +5 HP/s life regen based on missing health
-		Grants the Honey buff
+		+{0} max life
+		Grants +{1} to +{2} HP/s life regen based on missing health
+		Grants the [cbuff:Honey] buff
 		Current boost: +[REGEN] HP/s
 		Fire and sickness debuff durations are halved
 		You emit yellow light if visibility is enabled
@@ -114,7 +114,7 @@ AncientFossil: {
 	DisplayName: Ancient Fossil
 	Tooltip:
 		'''
-		Increases mining speed by 10%
+		Increases mining speed by {0}%
 		Provides immunity to damage from falling blocks
 		'''
 }
@@ -134,13 +134,13 @@ AngelicAlliance: {
 		'''
 		Call upon the force of heaven to empower your attacks and minions
 		Courage, Enlightenment, Bliss. United in Judgement
-		+2 max minions, 15% increased summon damage, and 8% increased damage to all other classes
-		+2 HP/s life regen while airborne using wings
-		Press [KEY] to grace yourself in divinity for 15 seconds
-		While Divine Bless is active, for every minion you have, an archangel shall be summoned to aid you in combat
-		Each spawned angel will instantly restore 2 HP
-		All minion attacks inflict Banishing Fire, and you are granted a flat 4 HP/s regen
-		This effect has a cooldown of 1 minute
+		+{0} max minions, {1}% increased summon damage, and {2}% increased damage to all other classes
+		+{3} HP/s life regen while flight time is partially or fully expended
+		Press [KEY] to grace yourself with the [cbuff:CalamityMod/DivineBless] buff for {4} seconds
+		While active, an archangel is summoned for every minion you have
+		Archangels vaporize foes with heavenly light and each restore {5} HP upon spawning
+		Minion attacks inflict [cbuff:CalamityMod/BanishingFire], and you gain a flat {6} HP/s regen
+		This effect has a cooldown of {7} minute
 		'''
 }
 
@@ -162,9 +162,9 @@ AquaticEmblem: {
 	Tooltip:
 		'''
 		Most ocean enemies become friendly and allows breathing underwater
-		Being underwater boosts your defense over time, and slows movement speed
-		The defense boost and movement speed reduction slowly vanish outside of water
-		Maximum defense boost is 50 and movement speed reduction is 10%
+		Being underwater gradually increases defense but slows movement speed over {0} seconds
+		This effect slowly vanishes outside of water and resets while mounted
+		Maximum defense boost is {1} and movement speed reduction is {2}%
 		Provides a small amount of light and moderately reduces breath loss in the abyss
 		'''
 }
@@ -180,11 +180,11 @@ AquaticHeart: {
 	FullTooltip:
 		'''
 		Wow, you can swim now!
-		Being underwater increases max speed and acceleration by 15%
+		Being underwater increases max speed and acceleration by {0}%
 		Greatly reduces breath loss and provides a small amount of light in the abyss
-		Attackers are inflicted with Glacial State
-		Gain a fragile ice barrier that grants 20% damage reduction for one hit
-		The ice shield regenerates after 30 seconds
+		Attackers are inflicted with [cbuff:CalamityMod/GlacialState]
+		Gain a fragile ice barrier that grants {1}% damage reduction for one hit
+		The ice shield regenerates after {2} seconds
 		'''
 }
 
@@ -192,7 +192,7 @@ ArcFlashRing: {
 	DisplayName: Arc Flash Ring
 	Tooltip:
 		'''
-		Attacks have a 6% chance to call down a lightning bolt for 4x damage
+		Attacks have a {0}% chance to call down a lightning bolt for {1}x damage
 		The chance is reduced for each enemy an attack hits
 		The bolt's damage is based on non-crit damage, but can itself crit 
 		Bolts are transparent and silent if visibility is disabled
@@ -203,9 +203,9 @@ ArchaicPowder: {
 	DisplayName: Archaic Powder
 	Tooltip:
 		'''
-		Increases mining speed by 25%
+		Increases mining speed by {0}%
 		Provides immunity to damage from falling blocks and dart traps
-		65% resistance to all damage from traps
+		{1}% resistance to all damage from traps
 		Does not stack with downgrades
 		'''
 }
@@ -214,9 +214,9 @@ AscendantInsignia: {
 	DisplayName: Ascendant Insignia
 	Tooltip:
 		'''
-		Increases wing flight time by 50%, movement and jump speed by 15%, and acceleration by 1.5x
-		Pressing [KEY] grants you the power of ascension, providing infinite flight time for 4 seconds
-		Ascension has a 40 second cooldown
+		Increases wing flight time by {0}%, movement and jump speed by {1}%, and acceleration by {2}x
+		Pressing [KEY] grants you the power of ascension, providing infinite flight time for {3} seconds
+		Ascension has a {4} second cooldown
 		'''
 }
 
@@ -224,9 +224,9 @@ AsgardianAegis: {
 	DisplayName: Asgardian Aegis
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		Allows the ability to dash, empowered by a cosmic inferno
 		This dash can ram through enemies without taking damage
-		Grants immunity to knockback
 		'''
 }
 
@@ -234,9 +234,9 @@ AsgardsValor: {
 	DisplayName: Asgard's Valor
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		Allows the ability to ram dash
 		This dash can ram through enemies without taking damage
-		Grants immunity to knockback
 		'''
 }
 
@@ -293,7 +293,7 @@ BlazingCore: {
 	DisplayName: Blazing Core
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		The searing core of the Profaned Goddess
 		Pressing [KEY] will activate a parry, encasing you in luminous profaned crystal
 		Being hit shortly after encasement will shatter the crystal
@@ -308,7 +308,7 @@ BloodflareCore: {
 	DisplayName: Bloodflare Core
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		Recovering defense damage heals you, each defense recovered gives 1 HP
 		Taking damage converts at least half of your total defense in defense damage
 		'''
@@ -531,7 +531,7 @@ DarkSunRing: {
 	DisplayName: Dark Sun Ring
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		12% increased damage
 		+0.5 HP/s life regen and +2 max minions
 		Increased minion knockback
@@ -615,8 +615,8 @@ DraedonsHeart: {
 	DisplayName: Draedon's Heart
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		{0}% reduced contact damage from enemies
-		Grants immunity to knockback
 		[NANODESC]
 		With full Nanomachines, press [KEY] to heal {1} health over {2} {^2:second;seconds}
 		While healing, you take [DR]% less damage
@@ -716,9 +716,9 @@ ElysianAegis: {
 	DisplayName: Elysian Aegis
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		Allows the ability to dash, empowered by holy fire
 		This dash can ram through enemies without taking damage
-		Grants immunity to knockback
 		'Blessed by the Profaned Flame'
 		'''
 }
@@ -787,7 +787,7 @@ FlameLickedShell: {
 	DisplayName: Flame-Licked Shell
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		Pressing [KEY] will activate a parry, encasing you in rocks
 		Being hit shortly after encasement will implode the rocks
 		Upon implosion, a ring of brimstone hellfire is launched outwards and you receive 90% DR for that hit
@@ -869,7 +869,7 @@ GiantTortoiseShell: {
 	DisplayName: Giant Tortoise Shell
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		5% increased damage reduction and 10% reduced dash velocity
 		Taking a hit restores dash velocity and reduces defense and damage reduction for 3 seconds
 		'''
@@ -1238,7 +1238,7 @@ OldDukeScales: {
 	DisplayName: Old Duke's Scales
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		10% increased damage reduction, max movement speed, and acceleration
 		25% increased dash velocity and length
 		Adds a stamina tracker to the cooldown rack
@@ -1417,7 +1417,7 @@ RadiantOoze: {
 	DisplayName: Radiant Ooze
 	Tooltip:
 		'''
-		Grants +2 to +5 HP/s life regen based on missing health
+		Grants +{0} to +{1} HP/s life regen based on missing health
 		Current boost: +[REGEN] HP/s
 		You emit yellow light if visibility is enabled
 		'''
@@ -1432,7 +1432,7 @@ RampartofDeities: {
 	DisplayName: Rampart of Deities
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		Releases a blast of homing star-bees[TOGGLE] and drenches you in [cbuff:Honey] after taking damage
 		Increases the length of invincibility, with it increasing even more when at low health or taking high damage attacks
 		Reduces damage taken by 25% when below 50% life
@@ -1859,8 +1859,8 @@ TheAbsorber: {
 	DisplayName: The Absorber
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		{0}% increased movement and jump speed
-		Grants immunity to knockback
 		Attackers take immense damage and are afflicted with a crippling sickness debuff
 		Using a healing potion will spawn a green aura that lasts for {1} seconds
 		Walking into the aura removes all debuffs once and grants {2} HP/s regen, {3}% damage, and {4}% damage reduction
@@ -1949,7 +1949,7 @@ TheSponge: {
 	DisplayName: The Sponge
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		Gain a barrier with {0} health
 		The barrier grants {1}% damage reduction while active
 		[ADREN]
@@ -2051,9 +2051,9 @@ VoidofExtinction: {
 	DisplayName: Void of Extinction
 	Tooltip:
 		'''
-		13% increased critical strike chance
-		Critical strikes explode, igniting enemies with Brimstone Flames
-		Reduces the damage of the Brimstone Flames debuff by 50%
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		Critical strikes explode, igniting nearby foes with [cbuff:CalamityMod/BrimstoneFlames]
+		Reduces damage taken from [cbuff:CalamityMod/BrimstoneFlames] by {1}%
 		'''
 }
 
@@ -2108,7 +2108,7 @@ YharimsGift: {
 	DisplayName: Yharim's Gift
 	Tooltip:
 		'''
-		Grants immunity to knockback
+		{$Common.KnockbackImmunity}
 		Flaming meteors rain down after getting hit
 		Volatile dragon dust trails behind you
 		Increases damage and movement speed by 15%
@@ -2161,15 +2161,6 @@ Popo: {
 		Transforms the holder into a snowman
 		'Don't let the demons steal your nose'
 		'''
-}
-
-PunchCard: {
-	DisplayName: Punch Card
-	Tooltip: "[c/842593:'Please... please get world record...']"
-	// These are used to spawn the item via chat -- both must be all lower case for the detection to work
-	SpawnText1: it's late
-	SpawnText1Alt: its late
-	SpawnText2: go to bed
 }
 
 SharkyPlush: {

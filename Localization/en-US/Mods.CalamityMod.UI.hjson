@@ -127,6 +127,7 @@ Cooldowns: {
 	OldDukeScalesFatigue: Stamina
 	OmegaBlueActive: Abyssal Madness
 	OmegaBlueCooldown: Abyssal Madness Cooldown
+	Panacea: Panacea Cooldown
 	PermafrostConcoction: Permafrost's Concoction Cooldown
 	PlagueBlackout: Plague Blackout Cooldown
 	PotionSickness: Healing Cooldown
@@ -611,13 +612,13 @@ Disenchant: Disenchant
 BetterUnderworld: Creating a smoother Underworld
 BetterShimmer: Placing shimmer in a sane location
 UnderworldStructures: Remnants of an Azafurian and Demonic war
-UnderworldPillars: Constructing Underworld pillars
 UnderworldTreesAndGrass: Growing Underworld flora
 UnderworldGeyserTraps: Adding an Underworld minefield
 ShimmerShrine: Excavating an ancient shimmer well
 EvilIslandCorrupt: Adding a putrid floating island
 EvilIslandCrimson: Adding a grotesque floating island
 AstralChest: Placing an astral chest
+LivingMahoganyTree: Growing a giant jungle tree
 BetterJungleTemple: Building a bigger jungle temple
 JungleTempleAltar: Placing the Lihzahrd altar
 GiantBeehive: Building a giant beehive

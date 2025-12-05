@@ -267,16 +267,6 @@ MiracleFruit: {
 
 MushroomPlasmaRoot.DisplayName: 蘑菇根质
 
-NimbleBounder: {
-	DisplayName: Nimble Bounder
-	Tooltip:
-		'''
-		永久增加{0}%移动速度和跳跃速度
-		永久增加{1}%加速度
-		[c/842593:“可能对速通很有用”]
-		'''
-}
-
 PhantomHeart: {
 	DisplayName: 幻影之心
 	Tooltip:

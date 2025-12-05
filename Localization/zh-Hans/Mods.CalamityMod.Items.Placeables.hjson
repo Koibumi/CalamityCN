@@ -8,7 +8,7 @@ AndroombaBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AnthozoanCrabBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AquaticUrchinBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AriesBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-ArmoredDiggerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+BurrowerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AstraglomerateBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AstralachneaBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 AstralProbeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -690,7 +690,7 @@ AltarOfTheAccursedItem: {
 	Tooltip:
 		'''
 		在其上使用[i:CalamityMod/AshesofCalamity] {$Items.Materials.AshesofCalamity.DisplayName}以召唤硫火女巫
-		以祭坛为中心创造一个大型方型场地
+		以祭坛为中心创造一个方型场地
 		离开场地会使女巫狂暴
 		将标尺测量线悬停在祭坛上会临时显示场地范围
 		{$CommonItemTooltip.SpecialCrafting}
@@ -3986,11 +3986,6 @@ VolcanicSand: {
 
 // End of Sunken Sea
 
-Dreadstone: {
-	DisplayName: Dreadstone
-	Tooltip: ""
-}
-
 UelibloomBrick: {
 	DisplayName: 龙蒿砖
 	Tooltip: ""
@@ -4667,5 +4662,10 @@ BasaltSlab: {
 
 UnsafeNavystoneWall: {
 	DisplayName: 危险沉沦渊石墙
+	Tooltip: ""
+}
+
+MossyStone: {
+	DisplayName: Mossy Stone
 	Tooltip: ""
 }

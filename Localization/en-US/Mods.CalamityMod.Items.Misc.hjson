@@ -267,16 +267,6 @@ MiracleFruit: {
 
 MushroomPlasmaRoot.DisplayName: Mushroom Plasma Root
 
-NimbleBounder: {
-	DisplayName: Nimble Bounder
-	Tooltip:
-		'''
-		Permanently increases movement and jump speed by {0}%
-		Permanently increases acceleration by {1}%
-		[c/842593:'Might be useful for speedrunning']
-		'''
-}
-
 PhantomHeart: {
 	DisplayName: Phantom Heart
 	Tooltip:

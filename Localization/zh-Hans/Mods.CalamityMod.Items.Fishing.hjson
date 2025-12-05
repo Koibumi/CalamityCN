@@ -1,6 +1,8 @@
 // Quest fish tooltips
 CaughtInAstral: “抓捕位置：星辉瘟疫”
 CaughtInBrimstoneCrag: “抓捕位置：硫火之崖”
+CaughtInSnow: “抓捕位置：苔原”
+CaughtInSpace: “抓捕位置：天湖”
 CaughtInSunkenSea: “抓捕位置：沉沦之海”
 
 // Astral Infection Catches
@@ -109,7 +111,7 @@ DragoonDrizzlefish: {
 
 Havocfish: {
 	DisplayName: 混乱鱼
-	Tooltip: 右键以提取[i:CalamityMod/EssenceofHavoc]精华
+	QuestDescription: When you killed that gross flesh wall, so much chaos and havoc was infused into those ruinous crags that even the lava sprouted fish made of the pure essence! Go fetch it for me, pure havoc sounds like exactly what my next scheme needs!
 }
 
 Shadowfish: {
@@ -193,14 +195,14 @@ SparklingEmpress: {
 		'''
 		发射一股不稳定魔法水流
 		发射一段时间后，鱼身会开始闪光
-		在闪光状态下停止使用将恢复少量魔力和生命值
+		在闪光状态下停止使用将恢复少量魔力
 		“一条美丽的鱼，似乎以魔力为食”
 		'''
 	TooltipGFB:
 		'''
 		发射一股不稳定魔法水流
 		发射一段时间后，鱼身会开始闪光
-		在闪光状态下停止使用将恢复少量魔力和生命值
+		在闪光状态下停止使用将恢复少量魔力
 		“你好啊，看来你是生面孔。
 		也许你很惊讶我这样一条鱼居然会说话？
 		别担心，我没有恶意。
@@ -252,7 +254,7 @@ EnchantedStarfish: {
 
 FishofEleum: {
 	DisplayName: 冰川鱼
-	Tooltip: 右键以提取[i:CalamityMod/EssenceofEleum]精华
+	QuestDescription: It's so unfair that all the cool fish only come out when you slay big demon guys! I mean that "cool" in two ways by the way. I've seen fish in the tundra materialized out of the essence of pure coldness! It's about time I get an ice pack for my fish, so fetch me that fish, or you're cold!
 }
 
 FishofFlight: {
@@ -306,7 +308,7 @@ SulphurousCrate: {
 
 SunbeamFish: {
 	DisplayName: 日光鱼
-	Tooltip: 右键以提取[i:CalamityMod/EssenceofSunlight]精华
+	QuestDescription: Have you ever seen those sunskaters that float way above the clouds? Well, I'll let you in on my little secret: They began their lives as little fish! So what are you waiting for, go reach for the stars and pluck one down for me!
 }
 
 // Fishing Rods

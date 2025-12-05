@@ -445,7 +445,7 @@ CalamityServerConfig: {
 		Label: "[i:Pwnhammer] Early Hardmode Progression Rework"
 		Tooltip:
 			'''
-			Demon Altars no longer spawn ores and crimson/corruption blocks when broken.
+			Demon Altars no longer spawn ores when broken.
 			Wall of Flesh spawns Cobalt and Palladium ore on first kill.
 			The first mech boss you fight has 20% (10% in Expert and Master) less HP and damage and spawns Mythril and Orichalcum ore on first kill.
 			The second mech boss you fight has 10% (5% in Expert and Master) less HP and damage and spawns Adamantite and Titanium ore on first kill.

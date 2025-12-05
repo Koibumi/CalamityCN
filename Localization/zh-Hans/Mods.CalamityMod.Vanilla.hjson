@@ -188,7 +188,7 @@ EditedTooltip: {
 	FrogLeg: 提高{0}%跳跃速度并可自动跳跃
 	// Soaring Insignia
 	EmpressFlightBooster1: 翅膀飞行时间增加33%
-	EmpressFlightBooster2: 移动和跳跃速度提高10%，加速度提升为1.25倍
+	EmpressFlightBooster2: 移动速度提高7.5%，跳跃速度提高10%，加速度提升为1.25倍
 	GravityGlobe:
 		'''
 		提升32%跳跃速度，并提升下落速度

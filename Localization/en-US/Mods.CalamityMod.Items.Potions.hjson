@@ -36,6 +36,15 @@ BlasphemousDonut: {
 		'''
 }
 
+BottledPanacea: {
+	DisplayName: Bottled Panacea
+	Tooltip:
+		'''
+		Cures you of all sickness and electricity debuffs when consumed
+		This has a 30 second cooldown
+		'''
+}
+
 BoundingPotion: {
 	DisplayName: Bounding Potion
 	Tooltip: "{0}% increased jump speed and {1}% increased jump height"

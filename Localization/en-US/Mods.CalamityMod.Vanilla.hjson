@@ -188,7 +188,7 @@ EditedTooltip: {
 	FrogLeg: Increases jump speed by {0}% and allows auto-jump
 	// Soaring Insignia
 	EmpressFlightBooster1: Increases wing flight time by 33%
-	EmpressFlightBooster2: Increases movement and jump speed by 10% and acceleration by 1.25x
+	EmpressFlightBooster2: Increases movement speed by 7.5%, jump speed by 10%, and acceleration by 1.25x
 	GravityGlobe:
 		'''
 		Provides 32% increased jump speed and increased fall speed

@@ -142,14 +142,13 @@ ExoticPheromones: {
 
 EyeofDesolation: {
 	DisplayName: 荒芜之眼
-	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
-		召唤灾厄之影[GFB]
+		召唤灾厄之影
+		复仇模式下，以你为底部创建一个方型场地
 		{$Common.NotConsumable}
 		“她在这里。”
 		'''
-	GFBInfo: 以你为中心，创建一个方形战斗场地
 }
 
 NaiadsWarhorn: {

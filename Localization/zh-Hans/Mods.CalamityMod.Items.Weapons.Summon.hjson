@@ -927,6 +927,11 @@ YharonsKindleStaff: {
 		'''
 }
 
+EnchantedBladeStaff: {
+	DisplayName: Enchanted Blade Staff
+	Tooltip: 召唤一把附魔飞刀为你而战
+}
+
 AmphibiansGuitar: {
 	DisplayName: Amphibian's Guitar
 	Tooltip:

@@ -438,19 +438,11 @@ EmpyreanKnives: {
 
 EntropicClaymore: {
 	DisplayName: Entropic Claymore
-	Tooltip: "[GFB]"
-	TooltipNormal:
+	Tooltip:
 		'''
 		Fires a spread of living plasma that swims though the air
 		Plasma will track your cursor or enemies near it, prioritizing which is closest
 		The plasma pierces, but will stop tracking after hitting the first enemy
-		'''
-	TooltipGFB:
-		'''
-		Fires a spread of dead tapeworms that swim throuh the air
-		Tapeworms will track your cursor or enemies near it, prioritizing which is closest
-		The tapeworms pierce, but will stop tracking after hitting the first enemy
-		[c/FF0000:'Go my tapeworms, make their balls itch']
 		'''
 }
 
@@ -1304,13 +1296,11 @@ Terratomere: {
 
 TerrorBlade: {
 	DisplayName: Terror Blade
-	GFBName: TERROR BLADD4
 	Tooltip:
 		'''
 		Fires a terror beam that bounces off tiles
-		On every bounce it emits an explosion[STATUS]
+		On every bounce it emits an explosion
 		'''
-	GFB: "'Ignore my spelling.'"
 }
 
 TheBurningSky: {

@@ -1,6 +1,8 @@
 // Quest fish tooltips
 CaughtInAstral: "'Caught in the Astral Infection'"
 CaughtInBrimstoneCrag: "'Caught in the Brimstone Crag'"
+CaughtInSnow: "'Caught in Tundra'"
+CaughtInSpace: "'Caught in Sky Lakes'"
 CaughtInSunkenSea: "'Caught in the Sunken Sea'"
 
 // Astral Infection Catches
@@ -109,7 +111,7 @@ DragoonDrizzlefish: {
 
 Havocfish: {
 	DisplayName: Havocfish
-	Tooltip: Press <right> to extract [i:CalamityMod/EssenceofHavoc] essence
+	QuestDescription: When you killed that gross flesh wall, so much chaos and havoc was infused into those ruinous crags that even the lava sprouted fish made of the pure essence! Go fetch it for me, pure havoc sounds like exactly what my next scheme needs!
 }
 
 Shadowfish: {
@@ -193,14 +195,14 @@ SparklingEmpress: {
 		'''
 		Fires a stream of erratic magic
 		After firing for long enough, the fish will shine
-		Ceasing use of the fish while it shines will restore some of your mana and life
+		Ceasing use of the fish while it shines will restore some of your mana
 		'An beautiful fish that seems to feed on mana'
 		'''
 	TooltipGFB:
 		'''
 		Fires a stream of erratic magic
 		After firing for long enough, the fish will shine
-		Ceasing use of the fish while it shines will restore some of your mana and life
+		Ceasing use of the fish while it shines will restore some of your mana
 		'Hello there, you seem to be an unfamiliar face around here.
 		Perhaps you are surprised a fish like me is able to speak?
 		No need for worry, I have no intention of any foul play.
@@ -252,7 +254,7 @@ EnchantedStarfish: {
 
 FishofEleum: {
 	DisplayName: Fish of Eleum
-	Tooltip: Press <right> to extract [i:CalamityMod/EssenceofEleum] essence
+	QuestDescription: It's so unfair that all the cool fish only come out when you slay big demon guys! I mean that "cool" in two ways by the way. I've seen fish in the tundra materialized out of the essence of pure coldness! It's about time I get an ice pack for my fish, so fetch me that fish, or you're cold!
 }
 
 FishofFlight: {
@@ -306,7 +308,7 @@ SulphurousCrate: {
 
 SunbeamFish: {
 	DisplayName: Sunbeam Fish
-	Tooltip: Press <right> to extract [i:CalamityMod/EssenceofSunlight] essence
+	QuestDescription: Have you ever seen those sunskaters that float way above the clouds? Well, I'll let you in on my little secret: They began their lives as little fish! So what are you waiting for, go reach for the stars and pluck one down for me!
 }
 
 // Fishing Rods

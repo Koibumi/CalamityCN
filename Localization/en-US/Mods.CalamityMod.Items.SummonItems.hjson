@@ -142,14 +142,13 @@ ExoticPheromones: {
 
 EyeofDesolation: {
 	DisplayName: Eye of Desolation
-	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
-		Summons the Calamitas Clone[GFB]
+		Summons the Calamitas Clone
+		Creates a square arena in Revengeance Mode, with you at its bottom
 		{$Common.NotConsumable}
 		'She is here.'
 		'''
-	GFBInfo: Creates a square arena of blocks, with you at its center
 }
 
 NaiadsWarhorn: {
