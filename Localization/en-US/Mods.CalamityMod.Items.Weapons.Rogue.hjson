@@ -1381,6 +1381,7 @@ WulfrumKnife: {
 		Fires wulfrum knives in bursts of 3 that stick in enemies
 		Stealth strikes make the knife fly further and hit several times at once
 		<right> to magnetize all stuck knives back to you, restoring stealth
+		Returning knives also temporarily allows using stealth strikes without rogue armor
 		'''
 }
 
