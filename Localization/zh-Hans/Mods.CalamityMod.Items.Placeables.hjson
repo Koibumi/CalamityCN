@@ -4669,3 +4669,5 @@ MossyStone: {
 	DisplayName: Mossy Stone
 	Tooltip: ""
 }
+
+// GildedAxolotlBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"

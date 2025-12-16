@@ -250,7 +250,7 @@ VictideGreaves: {
 
 VictideHeadBarrier: {
 	DisplayName: 胜潮隐帽
-	Tooltip: 
+	Tooltip:
 		'''
 		+{0} HP/s生命再生
 		提升{1}倍移动加速度和减速度
@@ -266,7 +266,7 @@ VictideHeadBarrier: {
 
 VictideHeadBurrow: {
 	DisplayName: 胜潮蟹盔
-	Tooltip: 
+	Tooltip:
 		'''
 		提升{0}%移动速度和加速度
 		提供水下呼吸能力，略微降低在深渊中氧气流失速率
@@ -283,7 +283,7 @@ VictideHeadBurrow: {
 
 VictideHeadSnail: {
 	DisplayName: 胜潮面罩
-	Tooltip: 
+	Tooltip:
 		'''
 		{$CommonItemTooltip.IncreasesFishingPowerBy}
 		{$Common.AggroReduction}

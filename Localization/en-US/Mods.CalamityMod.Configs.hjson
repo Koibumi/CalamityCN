@@ -386,6 +386,11 @@ CalamityClientConfig: {
 		Label: "[i:Book] Wiki Status Message"
 		Tooltip: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
 	}
+
+	TileTextureBlendingQuality: {
+		Label: "[i:GlowPaint] Tile Merge Soft Blending"
+		Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
+	}
 }
 
 CalamityServerConfig: {
@@ -594,5 +599,28 @@ SetBonusDoubleTapOptions: {
 	Off: {
 		Label: Always Off
 		Tooltip: Always disables double-tap. Can be used to completely disable set bonus activation.
+	}
+}
+
+TileBlendingQuality: {
+	Tooltip: ""
+
+	Disable: {
+		Label: Disabled
+		Tooltip: Tile texture soft blending is disabled.
+	}
+
+	Normal: {
+		Label: Enabled
+		Tooltip: Tile texture soft blending is enabled.
+	}
+
+	High: {
+		Label: Enabled + Slices
+		Tooltip:
+			'''
+			Tile texture soft blending is enabled and uses sliced rendering.
+			[c/F05A5A:Not recommended for low-end devices.]
+			'''
 	}
 }

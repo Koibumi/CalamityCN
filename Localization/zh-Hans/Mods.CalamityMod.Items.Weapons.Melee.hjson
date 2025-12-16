@@ -643,7 +643,7 @@ GeliticBlade: {
 
 GildedProboscis: {
 	DisplayName: 镀金鸟喙
-	Tooltip: 
+	Tooltip:
 		'''
 		根据对敌怪造成的伤害量偷取生命
 		<left>蓄力一次精准刺击

@@ -125,7 +125,7 @@ EditedTooltip: {
 		'''
 	/*
 	Life Regen
-	*/	
+	*/
 	Campfires: 在篝火附近时生命再生增加0.5HP/s
 	HeartLantern: 放置在附近时提供+1HP/s生命再生
 	BottledHoney:
@@ -218,7 +218,7 @@ EditedTooltip: {
 		提高10%近战伤害但降低5%防御
 		在酒精中毒效果中被视为一种酒
 		{$Common.AlcoholWarning}
-		'''	
+		'''
 	FlaskofCursedFlames: 近战、鞭子和盗贼攻击会对敌人施放诅咒焰
 	FlaskofFire: 近战、鞭子和盗贼攻击会使敌人着火
 	FlaskofGold: 近战、鞭子和盗贼攻击会使敌人掉落更多金子
@@ -226,7 +226,7 @@ EditedTooltip: {
 	FlaskofNanites: 近战、鞭子和盗贼攻击会让敌人进入困惑状态
 	FlaskofParty: 所有攻击都会喷撒彩纸
 	FlaskofPoison: 近战、鞭子和盗贼攻击会使敌人中毒
-	FlaskofVenom: 近战、鞭子和盗贼攻击会对敌人施放酸性毒液	
+	FlaskofVenom: 近战、鞭子和盗贼攻击会对敌人施放酸性毒液
 	/*
 	Others
 	*/

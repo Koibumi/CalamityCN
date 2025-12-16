@@ -503,3 +503,8 @@ SuperDummy: {
 		只能同时存在50个大草人
 		'''
 }
+
+GildedAxolotlItem: {
+	// DisplayName: Gilded Axolotl
+	// Tooltip: ""
+}

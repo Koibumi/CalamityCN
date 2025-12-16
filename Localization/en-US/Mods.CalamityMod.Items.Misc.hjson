@@ -504,3 +504,8 @@ SuperDummy: {
 		Can only spawn 50 super dummies at once
 		'''
 }
+
+GildedAxolotlItem: {
+	DisplayName: Gilded Axolotl
+	Tooltip: ""
+}

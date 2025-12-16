@@ -387,6 +387,11 @@ CalamityClientConfig: {
 		Label: "[i:Book] Wiki状态讯息"
 		Tooltip: 启用/禁用进入世界的Wiki状态讯息提示。
 	}
+
+	TileTextureBlendingQuality: {
+		// Label: "[i:GlowPaint] Tile Merge Soft Blending"
+		// Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
+	}
 }
 
 CalamityServerConfig: {
@@ -595,5 +600,28 @@ SetBonusDoubleTapOptions: {
 	Off: {
 		Label: 始终关闭
 		Tooltip: 始终禁用双击。可用来完全禁用套装奖励的触发。
+	}
+}
+
+TileBlendingQuality: {
+	// Tooltip: ""
+
+	Disable: {
+		// Label: Disabled
+		// Tooltip: Tile texture soft blending is disabled.
+	}
+
+	Normal: {
+		// Label: Enabled
+		// Tooltip: Tile texture soft blending is enabled.
+	}
+
+	High: {
+		// Label: Enabled + Slices
+		/* Tooltip:
+			'''
+			Tile texture soft blending is enabled and uses sliced rendering.
+			[c/F05A5A:Not recommended for low-end devices.]
+			''' */
 	}
 }

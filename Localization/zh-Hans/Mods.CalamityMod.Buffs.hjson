@@ -1676,3 +1676,8 @@ EnchantedBladeStaffBuff: {
 	DisplayName: Enchanted Blade Staff
 	Description: 不包含垃圾剑刃
 }
+
+FortunesFavor: {
+	// DisplayName: Fortune's Favor
+	// Description: How bold. Life regen increased by {0} HP/s
+}

@@ -25,9 +25,21 @@ Mods: {
 			}
 
 			zhLang: {
-				zh.Label: 简体中文
-				hk.Label: 繁體中文（香港）
-				tw.Label: 繁体中文（台灣）
+				zh: {
+					Label: 简体中文
+					// Tooltip: ""
+				}
+
+				hk: {
+					Label: 繁體中文（香港）
+					// Tooltip: ""
+				}
+
+				tw: {
+					Label: 繁体中文（台灣）
+					// Tooltip: ""
+				}
+
 				// Tooltip: ""
 			}
 		}
