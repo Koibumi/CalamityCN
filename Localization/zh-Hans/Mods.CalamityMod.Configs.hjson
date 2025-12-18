@@ -369,6 +369,11 @@ CalamityClientConfig: {
 			'''
 	}
 
+	TileTextureBlendingQuality: {
+		Label: "[i:GlowPaint] 图格合并的软混合"
+		Tooltip: 修改不同类型的图格合并在一起时使用的软混合渲染器的质量。
+	}
+
 	VanillaCooldownDisplay: {
 		Label: "[i:HealingPotion] 原版冷却显示"
 		Tooltip:
@@ -386,11 +391,6 @@ CalamityClientConfig: {
 	WikiStatusMessage: {
 		Label: "[i:Book] Wiki状态讯息"
 		Tooltip: 启用/禁用进入世界的Wiki状态讯息提示。
-	}
-
-	TileTextureBlendingQuality: {
-		// Label: "[i:GlowPaint] Tile Merge Soft Blending"
-		// Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
 	}
 }
 
@@ -604,24 +604,24 @@ SetBonusDoubleTapOptions: {
 }
 
 TileBlendingQuality: {
-	// Tooltip: ""
+	Tooltip: ""
 
 	Disable: {
-		// Label: Disabled
-		// Tooltip: Tile texture soft blending is disabled.
+		Label: 禁用
+		Tooltip: 禁用图格材质的软混合。
 	}
 
 	Normal: {
-		// Label: Enabled
-		// Tooltip: Tile texture soft blending is enabled.
+		Label: 启用
+		Tooltip: 启用图格材质的软混合。
 	}
 
 	High: {
-		// Label: Enabled + Slices
-		/* Tooltip:
+		Label: 启用 + 切片
+		Tooltip:
 			'''
-			Tile texture soft blending is enabled and uses sliced rendering.
-			[c/F05A5A:Not recommended for low-end devices.]
-			''' */
+			启用图格材质的软混合并使用切片渲染。
+			[c/F05A5A:不推荐低端设备开启。]
+			'''
 	}
 }

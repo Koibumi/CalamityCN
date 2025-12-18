@@ -262,16 +262,6 @@ FishofFlight: {
 	Tooltip: 右键以提取[i:SoulofFlight]灵魂
 }
 
-FishofLight: {
-	DisplayName: 光明之鱼
-	Tooltip: 右键以提取[i:SoulofLight]灵魂
-}
-
-FishofNight: {
-	DisplayName: 暗影之鱼
-	Tooltip: 右键以提取[i:SoulofNight]灵魂
-}
-
 GlimmeringGemfish: {
 	DisplayName: 闪光宝石鱼
 	Tooltip: 右键以提取[ITEMS]宝石

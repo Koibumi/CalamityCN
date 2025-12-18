@@ -798,6 +798,11 @@ Encased: {
 	Description: 增加{0}点防御和{1}%伤害减免，但……
 }
 
+FortunesFavor: {
+	DisplayName: Fortune's Favor
+	Description: How bold. 生命再生增加{0}HP/s
+}
+
 GraxBoost: {
 	DisplayName: 格拉克斯之助
 	Description: 防御力增加，你的肌肉更加强壮
@@ -1675,9 +1680,4 @@ ToastyBatBuff: {
 EnchantedBladeStaffBuff: {
 	DisplayName: Enchanted Blade Staff
 	Description: 不包含垃圾剑刃
-}
-
-FortunesFavor: {
-	// DisplayName: Fortune's Favor
-	// Description: How bold. Life regen increased by {0} HP/s
 }

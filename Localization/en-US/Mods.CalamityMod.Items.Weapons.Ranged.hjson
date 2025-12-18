@@ -65,11 +65,6 @@ AntiMaterielRifle: {
 		'''
 }
 
-AquashardShotgun: {
-	DisplayName: Aquashard Shotgun
-	Tooltip: Converts musket balls into aquashards that split upon hitting an enemy
-}
-
 Arbalest: {
 	DisplayName: Arbalest
 	Tooltip:
@@ -1109,6 +1104,18 @@ Shadethrower: {
 		'''
 }
 
+Shardshocker: {
+	DisplayName: Shardshocker
+	Tooltip:
+		'''
+		Fires an electrically charged crystal that travels a short distance before stopping
+		The crystal will hang in the air and occasionally give off damaging pulses of electricity
+		Hitting a stopped crystal with a moving one will detonate both in a massive explosion that lets off homing shards
+		Direct hits with the crystal will create a smaller explosion and stun enemies
+		'Plasmaaaaaa!'
+		'''
+}
+
 Shellshooter: {
 	DisplayName: Shellshooter
 	Tooltip:
@@ -1329,6 +1336,15 @@ TelluricGlare: {
 TheBallista: {
 	DisplayName: The Ballista
 	Tooltip: Converts wooden arrows into greatarrows that crush enemy armor and break into shards
+}
+
+TheBlunderbass: {
+	DisplayName: The Blunderbass
+	Tooltip:
+		'''
+		Fires a large crystal that travels a short distance before bursting into homing shards
+		Direct hits with the crystal stun enemies and increase the amount of shards created
+		'''
 }
 
 TheHive: {

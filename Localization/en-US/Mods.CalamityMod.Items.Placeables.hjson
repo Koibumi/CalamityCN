@@ -55,6 +55,7 @@ FusionFeederBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GammaSlimeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GhostBellBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GiantSquidBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+GildedAxolotlBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GnasherBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GulperEelBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 HadarianBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -4669,5 +4670,3 @@ MossyStone: {
 	DisplayName: Mossy Stone
 	Tooltip: ""
 }
-
-GildedAxolotlBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"

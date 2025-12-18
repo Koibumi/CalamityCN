@@ -798,6 +798,11 @@ Encased: {
 	Description: Increased defense by {0} and damage reduction by {1}%, but...
 }
 
+FortunesFavor: {
+	DisplayName: Fortune's Favor
+	Description: How bold. Life regen increased by {0} HP/s
+}
+
 GraxBoost: {
 	DisplayName: Grax Boost
 	Description: Your defenses and muscles are strong
@@ -1671,9 +1676,4 @@ ToastyBatBuff: {
 EnchantedBladeStaffBuff: {
 	DisplayName: Enchanted Blade Staff
 	Description: No junk blades included
-}
-
-FortunesFavor: {
-	DisplayName: Fortune's Favor
-	Description: How bold. Life regen increased by {0} HP/s
 }

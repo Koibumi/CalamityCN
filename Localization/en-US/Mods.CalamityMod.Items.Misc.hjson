@@ -53,6 +53,11 @@ BabyGhostBellPinkItem: {
 	Tooltip: ""
 }
 
+GildedAxolotlItem: {
+	DisplayName: Gilded Axolotl
+	Tooltip: ""
+}
+
 NanodroidDysfunctionalItem: {
 	DisplayName: Dysfunctional Nanodroid
 	Tooltip: ""
@@ -503,9 +508,4 @@ SuperDummy: {
 		<right> to kill all super dummies
 		Can only spawn 50 super dummies at once
 		'''
-}
-
-GildedAxolotlItem: {
-	DisplayName: Gilded Axolotl
-	Tooltip: ""
 }

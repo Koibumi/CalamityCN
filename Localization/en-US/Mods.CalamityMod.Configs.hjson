@@ -368,6 +368,11 @@ CalamityClientConfig: {
 			'''
 	}
 
+	TileTextureBlendingQuality: {
+		Label: "[i:GlowPaint] Tile Merge Soft Blending"
+		Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
+	}
+
 	VanillaCooldownDisplay: {
 		Label: "[i:HealingPotion] Display Vanilla Cooldowns"
 		Tooltip:
@@ -385,11 +390,6 @@ CalamityClientConfig: {
 	WikiStatusMessage: {
 		Label: "[i:Book] Wiki Status Message"
 		Tooltip: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
-	}
-
-	TileTextureBlendingQuality: {
-		Label: "[i:GlowPaint] Tile Merge Soft Blending"
-		Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
 	}
 }
 

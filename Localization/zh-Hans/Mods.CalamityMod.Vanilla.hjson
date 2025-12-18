@@ -13,7 +13,8 @@ AddedTooltip: {
 	*/
 	TitanGloveLine: 真近战伤害增加10%
 	YoyoGlove: 第二个悠悠球伤害减少50%
-	EyeoftheGolem: 提高20%暴击伤害
+	// Also used by Sniper Scope
+	EyeoftheGolem: 提高15%暴击伤害
 	RifleScope: 扩大视野效果可通过可见性切换
 	ArcaneFlower: 增加5%魔法伤害
 	HellfireTreads:

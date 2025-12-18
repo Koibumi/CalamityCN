@@ -65,11 +65,6 @@ AntiMaterielRifle: {
 		'''
 }
 
-AquashardShotgun: {
-	DisplayName: 碎水霰弹枪
-	Tooltip: 将火枪子弹转化为蓝晶碎片，击中敌人时分裂为追踪碎片
-}
-
 Arbalest: {
 	DisplayName: 劲弩
 	Tooltip:
@@ -1109,6 +1104,18 @@ Shadethrower: {
 		'''
 }
 
+Shardshocker: {
+	DisplayName: Shardshocker
+	Tooltip:
+		'''
+		发射一块电充能水晶，移动短距离后停止
+		水晶会停在空中并定期释放伤害性电能脉冲
+		用移动的水晶命中静止的水晶会引爆二者，产生大爆炸并释放追踪碎片
+		水晶直接命中会产生较小的爆炸并晕眩敌怪
+		'Plasmaaaaaa!'
+		'''
+}
+
 Shellshooter: {
 	DisplayName: 螺壳重弓
 	Tooltip:
@@ -1329,6 +1336,15 @@ TelluricGlare: {
 TheBallista: {
 	DisplayName: 破城巨弓
 	Tooltip: 将木箭转化为能击碎敌人的护甲并且会碎裂为化石碎片的破城巨箭
+}
+
+TheBlunderbass: {
+	DisplayName: The Blunderbass
+	Tooltip:
+		'''
+		发射一块大型水晶，移动短距离后炸成追踪碎片
+		水晶直接命中会晕眩敌怪并增加产生的碎片数量
+		'''
 }
 
 TheHive: {

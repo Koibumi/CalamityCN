@@ -262,16 +262,6 @@ FishofFlight: {
 	Tooltip: Press <right> to extract [i:SoulofFlight] souls
 }
 
-FishofLight: {
-	DisplayName: Fish of Light
-	Tooltip: Press <right> to extract [i:SoulofLight] souls
-}
-
-FishofNight: {
-	DisplayName: Fish of Night
-	Tooltip: Press <right> to extract [i:SoulofNight] souls
-}
-
 GlimmeringGemfish: {
 	DisplayName: Glimmering Gemfish
 	Tooltip: Press <right> to extract [ITEMS] gems

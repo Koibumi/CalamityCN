@@ -6,7 +6,7 @@ AngelicBeam.DisplayName: Angelic Beam
 AnimosityBullet.DisplayName: Brimstone Round
 AquaBlast.DisplayName: Aqua Blast
 AquaBlastToxic.DisplayName: Aqua Blast Toxic
-Aquashard.DisplayName: Aquashard
+Aquashard.DisplayName: Aqua Crystal
 AquashardSplit.DisplayName: Aquashard
 ArcherfishRing.DisplayName: Archerfish Ring
 ArcherfishShot.DisplayName: Water Round
@@ -202,6 +202,7 @@ SevensStrikerGrape.DisplayName: Grapes
 SevensStrikerOrange.DisplayName: Orange
 SevensStrikerPlatinumCoin.DisplayName: Platinum Coin
 ShadeFire.DisplayName: Shady Fire
+ShardshockerCrystal.DisplayName: Charged Aqua Crystal
 Shell.DisplayName: Shell
 Shockblast.DisplayName: Blast
 ShockblastRound.DisplayName: Round

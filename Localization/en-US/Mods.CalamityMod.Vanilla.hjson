@@ -13,7 +13,8 @@ AddedTooltip: {
 	*/
 	TitanGloveLine: 10% increased true melee damage
 	YoyoGlove: Secondary yoyos will do 50% less damage
-	EyeoftheGolem: 20% increased critical strike damage
+	// Also used by Sniper Scope
+	EyeoftheGolem: 15% increased critical strike damage
 	RifleScope: The scope effect can be toggled with visibility
 	ArcaneFlower: 5% increased magic damage
 	HellfireTreads:

@@ -53,6 +53,11 @@ BabyGhostBellPinkItem: {
 	Tooltip: ""
 }
 
+GildedAxolotlItem: {
+	DisplayName: Gilded Axolotl
+	Tooltip: ""
+}
+
 NanodroidDysfunctionalItem: {
 	DisplayName: 功能失调的纳米机器人
 	Tooltip: ""
@@ -502,9 +507,4 @@ SuperDummy: {
 		右键点击灭杀所有大草人
 		只能同时存在50个大草人
 		'''
-}
-
-GildedAxolotlItem: {
-	// DisplayName: Gilded Axolotl
-	// Tooltip: ""
 }
