@@ -1,89 +1,281 @@
 AbyssalWarhammer: {
+	DisplayName: 深渊战锤
+	Tooltip: ""
+}
+
+AcidwoodAxe: {
+	DisplayName: 酸蚀木斧
+	Tooltip: ""
+}
+
+AcidwoodHammer: {
+	DisplayName: 酸蚀木锤
+	Tooltip: ""
+}
+
+AcidwoodPickaxe: {
+	DisplayName: 酸蚀木镐
+	Tooltip: ""
 }
 
 AerialHamaxe: {
-}
-
-AstralHamaxe: {
-}
-
-AstralPickaxe: {
-}
-
-AxeofPurity: {
-}
-
-BeastialPickaxe: {
-}
-
-BerserkerWaraxe: {
-}
-
-BlossomPickaxe: {
-}
-
-BobbitHook: {
+	DisplayName: 天蓝锤斧
+	Tooltip: ""
 }
 
 AridArtifact: {
+	DisplayName: 干旱生成器
+	Tooltip:
+		'''
+		召唤沙尘暴
+		使用后，沙尘暴会在一段时间后开始
+		若在沙尘暴期间使用，沙尘暴会在一段时间后停止
+		'''
+}
+
+AstralHamaxe: {
+	DisplayName: 幻星锤斧
+	Tooltip: ""
+}
+
+AstralPickaxe: {
+	DisplayName: 幻星镐
+	Tooltip: ""
+}
+
+AxeofPurity: {
+	DisplayName: 纯净之斧
+	Tooltip:
+		'''
+		左击作为工具使用
+		右击净化邪恶
+		'''
+}
+
+Bakidon: {
+	DisplayName: Bakidon
+	Tooltip:
+		'''
+		一件据说可以固定苍穹的失落造物
+		<left>以短暂冻结昼夜更替
+		在天界事件期间失效
+		不使用时时间冻结能力会重新充能
+		'''
+}
+
+BallAndChain: {
+	DisplayName: 球镣
+	Tooltip:
+		'''
+		切换此物品以禁用任何冲刺效果
+		<right>切换
+		[STATE]
+		“不堪重负……”
+		'''
+	// This is "backwards" because enabling this disables dashes
+	TooltipEnabled: 当前禁用冲刺
+	TooltipDisabled: 当前启用冲刺
+}
+
+BeastialPickaxe: {
+	DisplayName: 野性镐
+	Tooltip: ""
+}
+
+BerserkerWaraxe: {
+	DisplayName: 野性斧
+	Tooltip: ""
+}
+
+BlossomPickaxe: {
+	DisplayName: 繁花镐
+	Tooltip: 可开采圣金源矿
+}
+
+BobbitHook: {
+	DisplayName: 博比特虫钩
+	Tooltip:
+		'''
+		以极致的速度将你拉向物块
+		{$Common.GrappleStats}
+		'''
 }
 
 Cosmolight: {
-}
-
-TorrentialTear: {
+	DisplayName: 宇宙之光
+	Tooltip:
+		'''
+		一件因接触原始宇宙能量而再次焕发的失落造物
+		按住<left>以大幅加速昼夜更替
+		<right>以永久冻结昼夜更替
+		时间冻结效果永久持续且在天界事件期间生效
+		'''
 }
 
 CrystylCrusher: {
+	DisplayName: 终级碾碎器
+	Tooltip:
+		'''
+		按住右键发射一道晶体光束，光束顶部的箭头可以破坏任何物块
+		“来自逝去时代的原始武器……”
+		'''
+}
+
+DriftwoodAxe: {
+	DisplayName: Driftwood Axe
+	Tooltip: 当你潮湿时效率提升
+}
+
+DriftwoodHammer: {
+	DisplayName: Driftwood Hammer
+	Tooltip: 当你潮湿时效率提升
+}
+
+DriftwoodPickaxe: {
+	DisplayName: Driftwood Pickaxe
+	Tooltip: 当你潮湿时效率提升
 }
 
 FellerofEvergreens: {
+	DisplayName: 翡翠斧
+	Tooltip: 摇晃树时偶尔掉落额外的水果
 }
 
 Gelpick: {
+	DisplayName: 凝胶镐
+	Tooltip: ""
 }
 
 GenesisPickaxe: {
+	DisplayName: 创世镐
+	Tooltip: "{$Common.CanMineUelibloom}"
 }
 
 Grax: {
+	DisplayName: 格拉克斯
+	Tooltip:
+		'''
+		击中敌人后会在短时间内大幅度增加你的伤害、防御和伤害减免
+		右键使用时不会破坏墙壁或砍伐树木
+		'''
 }
 
 GreatbayPickaxe: {
+	DisplayName: 大湾镐
+	Tooltip: 可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片
 }
 
 InfernaCutter: {
+	DisplayName: 炼狱
+	Tooltip:
+		'''
+		暴击时会生成小爆炸
+		挥舞时会生成一些火星
+		'''
 }
 
 MarniteDeconstructor: {
+	DisplayName: 合成岩重构器
+	Tooltip:
+		'''
+		它的引擎产生的强光射线能够远距离挖掘墙壁
+		{$Common.ArmorPenetration}
+		'''
 }
 
 MarniteObliterator: {
+	DisplayName: 合成岩抹除器
+	Tooltip:
+		'''
+		利用钻石聚焦出一束长距离的挖掘光束
+		{$Common.ArmorPenetration}
+		'''
+}
+
+MonolithAxe: {
+	DisplayName: 星石斧
+	Tooltip: ""
+}
+
+MonolithHammer: {
+	DisplayName: 星石锤
+	Tooltip: ""
+}
+
+MonolithPickaxe: {
+	DisplayName: 星石镐
+	Tooltip: ""
 }
 
 ReefclawHamaxe: {
+	DisplayName: 礁爪锤斧
+	Tooltip: ""
 }
 
 SeismicHampick: {
+	DisplayName: 震波锤镐
+	Tooltip:
+		'''
+		可开采丛林蜥蜴砖
+		左键作为镐使用
+		右键作为锤使用
+		'''
 }
 
 ShardlightPickaxe: {
+	DisplayName: 碎光镐
+	Tooltip: ""
 }
 
 SkyfringePickaxe: {
+	DisplayName: 天喙镐
+	Tooltip: 可开采狱石
 }
 
 TectonicTruncator: {
+	DisplayName: 地壳斧正者
+	Tooltip: ""
+}
+
+TorrentialTear: {
+	DisplayName: 洪流之泪
+	Tooltip:
+		'''
+		召唤滂沱大雨
+		使用后，大雨会在一段时间后开始
+		若在下雨期间使用，雨会在一段时间后停止
+		'''
 }
 
 WulfrumDiggingTurtle: {
+	DisplayName: 钨钢掘地机械龟
+	Tooltip:
+		'''
+		投掷一个不结实的采矿装置来挖掘一条小隧道
+		在紧急情况下，右键可立即引爆所有挖掘机械龟
+		'''
 }
 
 WulfrumDrill: {
+	DisplayName: 钨钢钻头
+	Tooltip: ""
 }
 
 WulfrumScaffoldKit: {
+	DisplayName: 钨钢云梯工具包
+	Tooltip:
+		'''
+		放置临时金属脚手架。每建造{0}块便会消耗一块[i:CalamityMod/WulfrumMetalScrap]{$Items.Materials.WulfrumMetalScrap.DisplayName}
+		脚手架需要从实心物块开始放置
+		“为你需要速建而不需要持续效果的东西而存在”
+		'''
 }
 
 WulfrumTreasurePinger: {
+	DisplayName: 钨钢探测仪
+	Tooltip:
+		'''
+		帮助你找到比钨钢更有价值的金属
+		这个破东西看起来质量太差了。 [c/fc4903:它迟早会坏掉]
+		'''
 }

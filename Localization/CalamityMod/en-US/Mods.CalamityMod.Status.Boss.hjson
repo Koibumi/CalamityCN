@@ -1,1 +1,135 @@
-
+// Slime God
+SlimeGodRun: The Slime God flees to fight another day...
+// Cryogen
+CryogenBossText: Cryogen is derping out!
+PyrogenBossText: Pyrogen is derping out!
+// Calamitas Clone
+CalamitasBossText: You underestimate my power...
+CalamitasBossText2: Rise again, my siblings.
+CalamitasBossText3: Impressive child, most impressive...
+// Great Sand Shark
+SandSharkText: Something stirs in the warm desert sands...
+SandSharkText2: An enormous apex predator approaches...
+// Plaguebringer Goliath
+PlagueBossText: PLAGUE NUKE BARRAGE ARMED, PREPARING FOR LAUNCH!!!
+PlagueBossText2: MISSILES LAUNCHED, TARGETING ROUTINE INITIATED!!!
+// Providence
+ProfanedBossText: Holy flames burn away at your wings...
+// Polterghast
+GhostBossText2: Wails echo through the dilapidated dungeon halls...
+GhostBossText3: Long-dead prisoners seek their zealous revenge...
+// Devourer of Gods
+DoGSpawn: You are no god... but I shall feast upon your essence regardless!
+DoGSubphase1: You've done better than most, but don't get cocky!
+DoGPhase2: It's not over yet, kid!
+DoGPhase3: A GOD DOES NOT FEAR DEATH!
+DoGHead1: Fall to your knees, worm!
+DoGHead2: Let's see how much longer you'll last...
+DoGHead3: Getting tired yet?
+DoGHead4: You'll fall, just like the others!
+DoGHead5: Give up! It'll be easier for both of us!
+DoGHead6: Let me end you already!
+DoGHead7: This is starting to get ridiculous...!
+DoGHead8: How are you doing this?!
+DoGHead9: Are you playing me for a fool?!
+DoGHead10: Why won't you DIE?!
+DoGHead11: FALL!
+DoGHead12: BEGONE!
+DoGHead13: DIE!
+DoGHeadDeath1: Tasteless slop.
+DoGHeadDeath2: Delicious... A feast worthy of a god!
+DoGHeadDeath3: And STAY dead!
+DoGHeadDeath4: WEAK.
+DoGHeadDeath5: PATHETIC. ALL THAT RUNNING JUST TO DIE TO A SINGLE TOUCH?!
+DoGHeadRunning: You can't run forever!
+DoGHeadRunning2: WHAT'S THE PROBLEM?! CAN'T RUN ANYMORE?!
+// Yharon
+FlameText: The air is getting warmer around you.
+// Draedon (introduction)
+DraedonIntroductionText1: I have waited long for this moment.
+DraedonIntroductionText2: Your nature fascinates me, for I do not understand it.
+DraedonIntroductionText3: You will face my creations, which have surpassed gods.
+DraedonIntroductionText4: And you will show me your disposition through battle.
+DraedonIntroductionText5: Now, choose.
+DraedonResummonText: Make your choice.
+DraedonBossRushText: Make your choice. You have 20 seconds.
+// Draedon (Exo Mechs mid-battle dialogue)
+DraedonExoPhase1Text1: Designs improved with time and knowledge are the essence of my work.
+DraedonExoPhase1Text2: Through no other method can I approach perfection.
+DraedonExoPhase2Text1: Your performance falls neatly within the margins of error.
+DraedonExoPhase2Text2: That is quite satisfactory. We will proceed to the next phase of testing.
+DraedonExoPhase3Text1: Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger.
+DraedonExoPhase3Text2: Even now, I monitor your actions. Nothing should escape the bounds of my calculations.
+DraedonExoPhase4Text1: Curious. Very curious.
+DraedonExoPhase4Text2: You progress steadily against more difficult challenges.
+DraedonExoPhase5Text1: Your nature remains unknown to me. This will not do.
+DraedonExoPhase5Text2: ...I sought perfection. Fate must favor irony, for that must have been my first mistake.
+DraedonExoPhase6Text1: Absurd.
+DraedonExoPhase6Text2: I will no longer let my calculations impede my observation of this battle.
+DraedonExoPhase6Text3: I shall show you the full fury of my final machine.
+DraedonAresEnrageText: How foolish. You cannot escape.
+// Draedon (ending)
+DraedonEndText1: An unknown factor--a catalyst is what you are.
+DraedonEndText2: Nearly as disconnected to this land and its history as I am.
+DraedonEndText3: ...Excuse my introspection. I must gather my thoughts after that display.
+DraedonEndText4: This land has become stale and stiff with blood that has been spilled until now.
+DraedonEndText5: You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see.
+DraedonEndText6: Now. You wish to reach the Tyrant. I cannot assist you in that.
+DraedonEndText7: It is not a matter of spite, for I would wish nothing more than to observe such a conflict.
+DraedonEndText8: But you have managed before. You will find a way eventually.
+DraedonEndText9: I must acknowledge your triumph, but I will return now to my machinery.
+DraedonEndKillAttemptText: ...Quite unnecessary.
+// Draedon (GFB)
+DraedonMechdusaBeginText: ...Die.
+DraedonMechdusaEndText1: Wait, what? How?
+DraedonMechdusaEndText2: No
+// SCal (First Battle)
+SCalSummonText: Do you enjoy going through hell?
+SCalStartText: You should have just died...
+SCalBH2Text: It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?
+SCalBH3Text: You've harnessed great power, but you wield it for no one but yourself.
+SCalBrothersText: Would you like to meet my family? Horrible, isn't it?
+SCalPhase2Text: You will suffer greatly.
+SCalBH4Text: It's absurd to even think of trying to get away. As long as you live, you will suffer.
+SCalSeekerRingText: An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?
+SCalBH5Text: You have no stake in this battle. No one gave you any say in this matter!
+SCalSepulcher2Text: Once the dust has settled and only one remains, if it is you, what value will this have had?!
+SCalDesparationText1: Just stop!
+SCalDesparationText2: I have no future if I lose here.
+SCalDesparationText3: Once you have bested me, you will only have one path forward.
+SCalDesparationText4: And that path... also has no future.
+SCalAcceptanceText1: Even if he has thrown all else away, his power remains.
+SCalAcceptanceText2: I have no more energy left to resent him, or you...
+SCalAcceptanceText3: It will all be in your hands now.
+// SCal (Rematch)
+SCalSummonTextRematch: If you're looking for some fourth-degree burns, you've got the right person.
+SCalStartTextRematch: When the time comes, would you like to join my creation?
+SCalBH2TextRematch: You'll still have to work hard for this victory.
+SCalBH3TextRematch: I haven't had such an interesting target dummy to test my magic on in a long time.
+SCalBrothersTextRematch: Empty shells of their former selves. I doubt even a scrap of their spirits remain.
+SCalPhase2TextRematch: Here we go again.
+SCalBH4TextRematch: I wonder if you've seen these in your nightmares since our first battle?
+SCalSeekerRingTextRematch: Your skill hasn't faltered in the least.
+SCalBH5TextRematch: Isn't this exciting?
+SCalSepulcher2TextRematch: Here comes the crawling tomb, one last time.
+SCalDesparationText1Rematch: A terrific display, I concede this match to you.
+SCalDesparationText2Rematch: No doubt you will face enemies stronger than I.
+SCalDesparationText3Rematch: I trust you will not make the same mistakes he did.
+SCalDesparationText4Rematch: I can't imagine what your future holds now.
+// Permafrost (GFB)
+PermafrostSummonText: Are you prepared for a task most Sisyphean?
+PermafrostBirbSwarmText: Those hearts were a bit too brutal for my taste. How about some lovely birds instead?
+PermafrostBH2Text: Getting tired from the battle, adventurer? Hungry? How does some Delicious Meat sound?
+PermafrostBH3Text: Suprised at how I am holding my own again you? I did train Calamitas, after all!
+PermafrostDoGText: The serpent!? How!? What is HE doing here!? Is he here to torment me further!? Kill it, adventurer!
+PermafrostPhase2Text: Ha! I suppose I can no longer be "chill" about this duel! Get it?
+PermafrostBH4Text: Need a break? Can you not even keep up with an old man?
+PermafrostHallowBossSpamText: You truly have grown strong! Thankfully, I and Calamitas reconstructed this to assist me.
+PermafrostBH5Text: Why, it has been quite long since I have had an excuse to use these magics!
+PermafrostSecondBirbSwarmText: I must say, those birds earlier were rather cute! Do some more not sound nice?
+PermafrostNonchalantText: I must say, I am not the mage I used to be. This is starting to tire my old body...
+PermafrostBruhText: Ha! Just kidding! Watch what happens when I cast a spell I know!
+PermafrostGiveUpText: Gah, I think I pulled a muscle! Ah, well. I seems that I must concede. Well fought!
+// April Fools
+AprilFools: The LORDE is approaching...
+AprilFoolsGFB: La Ruga is approaching...

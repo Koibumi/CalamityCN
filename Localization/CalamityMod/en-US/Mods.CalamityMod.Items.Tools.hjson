@@ -1,89 +1,281 @@
 AbyssalWarhammer: {
+	DisplayName: Abyssal Warhammer
+	Tooltip: ""
+}
+
+AcidwoodAxe: {
+	DisplayName: Acidwood Axe
+	Tooltip: ""
+}
+
+AcidwoodHammer: {
+	DisplayName: Acidwood Hammer
+	Tooltip: ""
+}
+
+AcidwoodPickaxe: {
+	DisplayName: Acidwood Pickaxe
+	Tooltip: ""
 }
 
 AerialHamaxe: {
-}
-
-AstralHamaxe: {
-}
-
-AstralPickaxe: {
-}
-
-AxeofPurity: {
-}
-
-BeastialPickaxe: {
-}
-
-BerserkerWaraxe: {
-}
-
-BlossomPickaxe: {
-}
-
-BobbitHook: {
+	DisplayName: Aerial Hamaxe
+	Tooltip: ""
 }
 
 AridArtifact: {
+	DisplayName: Arid Artifact
+	Tooltip:
+		'''
+		Summons a sandstorm
+		The sandstorm will happen shortly after the item is used
+		If used during a sandstorm, the sandstorm will stop some time afterward.
+		'''
+}
+
+AstralHamaxe: {
+	DisplayName: Astral Hamaxe
+	Tooltip: ""
+}
+
+AstralPickaxe: {
+	DisplayName: Astral Pickaxe
+	Tooltip: ""
+}
+
+AxeofPurity: {
+	DisplayName: Axe of Purity
+	Tooltip:
+		'''
+		<left> to use as a tool
+		<right> to cleanse evil
+		'''
+}
+
+Bakidon: {
+	DisplayName: Bakidon
+	Tooltip:
+		'''
+		A lost artifact said to pin the heavens in place
+		<left> to freeze the passage of day and night temporarily
+		This does not work during celestial anomalies
+		The time freeze recharges while not in use
+		'''
+}
+
+BallAndChain: {
+	DisplayName: Ball and Chain
+	Tooltip:
+		'''
+		Toggle this item to disable any dashes granted by equipment
+		<right> to toggle
+		[STATE]
+		'So heavy...'
+		'''
+	// This is "backwards" because enabling this disables dashes
+	TooltipEnabled: Dashes are currently disabled
+	TooltipDisabled: Dashes are currently enabled
+}
+
+BeastialPickaxe: {
+	DisplayName: Beastial Pickaxe
+	Tooltip: ""
+}
+
+BerserkerWaraxe: {
+	DisplayName: Berserker Waraxe
+	Tooltip: ""
+}
+
+BlossomPickaxe: {
+	DisplayName: Blossom Pickaxe
+	Tooltip: Can mine Auric Ore
+}
+
+BobbitHook: {
+	DisplayName: Bobbit Hook
+	Tooltip:
+		'''
+		Retracts upon attaching to a tile with extreme speeds
+		{$Common.GrappleStats}
+		'''
 }
 
 Cosmolight: {
-}
-
-TorrentialTear: {
+	DisplayName: Cosmolight
+	Tooltip:
+		'''
+		A lost artifact freshly rekindled by exposure to raw cosmic energies
+		Hold <left> to drastically accelerate the passage of day and night
+		<right> to freeze the passage of day and night indefinitely
+		The time freeze lasts forever and works during celestial anomalies
+		'''
 }
 
 CrystylCrusher: {
+	DisplayName: Crystyl Crusher
+	Tooltip:
+		'''
+		Hold <right> to channel a beam that destroys just about anything
+		'A primitive weapon from a bygone era...'
+		'''
+}
+
+DriftwoodAxe: {
+	DisplayName: Driftwood Axe
+	Tooltip: Improved efficiency while you are wet
+}
+
+DriftwoodHammer: {
+	DisplayName: Driftwood Hammer
+	Tooltip: Improved efficiency while you are wet
+}
+
+DriftwoodPickaxe: {
+	DisplayName: Driftwood Pickaxe
+	Tooltip: Improved efficiency while you are wet
 }
 
 FellerofEvergreens: {
+	DisplayName: Feller of Evergreens
+	Tooltip: Occasionally drops extra fruits from shaking trees
 }
 
 Gelpick: {
+	DisplayName: Gelpick
+	Tooltip: ""
 }
 
 GenesisPickaxe: {
+	DisplayName: Genesis Pickaxe
+	Tooltip: "{$Common.CanMineUelibloom}"
 }
 
 Grax: {
+	DisplayName: Grax
+	Tooltip:
+		'''
+		Hitting an enemy will greatly boost your damage, defense, and damage reduction for a short time
+		Press <right> to use without hammering down walls or chopping down trees
+		'''
 }
 
 GreatbayPickaxe: {
+	DisplayName: Greatbay Pickaxe
+	Tooltip: Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals
 }
 
 InfernaCutter: {
+	DisplayName: Inferna Cutter
+	Tooltip:
+		'''
+		Critical hits with the blade cause small explosions
+		Generates a number of small sparks when swung
+		'''
 }
 
 MarniteDeconstructor: {
+	DisplayName: Marnite Deconstructor
+	Tooltip:
+		'''
+		Its engine generates hardlight rays capable of excavating walls from a long distance
+		{$Common.ArmorPenetration}
+		'''
 }
 
 MarniteObliterator: {
+	DisplayName: Marnite Obliterator
+	Tooltip:
+		'''
+		Uses a diamond focus to project a long-range digging beam of light
+		{$Common.ArmorPenetration}
+		'''
+}
+
+MonolithAxe: {
+	DisplayName: Monolith Axe
+	Tooltip: ""
+}
+
+MonolithHammer: {
+	DisplayName: Monolith Hammer
+	Tooltip: ""
+}
+
+MonolithPickaxe: {
+	DisplayName: Monolith Pickaxe
+	Tooltip: ""
 }
 
 ReefclawHamaxe: {
+	DisplayName: Reefclaw Hamaxe
+	Tooltip: ""
 }
 
 SeismicHampick: {
+	DisplayName: Seismic Hampick
+	Tooltip:
+		'''
+		Capable of mining Lihzahrd Bricks
+		Press <left> to use as a pickaxe
+		Press <right> to use as a hammer
+		'''
 }
 
 ShardlightPickaxe: {
+	DisplayName: Shardlight Pickaxe
+	Tooltip: ""
 }
 
 SkyfringePickaxe: {
+	DisplayName: Skyfringe Pickaxe
+	Tooltip: Able to mine Hellstone
 }
 
 TectonicTruncator: {
+	DisplayName: Tectonic Truncator
+	Tooltip: ""
+}
+
+TorrentialTear: {
+	DisplayName: Torrential Tear
+	Tooltip:
+		'''
+		Summons the rain
+		Rain will start some time after this item is used
+		If used while it's raining, the rain will stop some time afterward
+		'''
 }
 
 WulfrumDiggingTurtle: {
+	DisplayName: Wulfrum Digging Turtle
+	Tooltip:
+		'''
+		Throws a rickety mining contraption to dig out a small tunnel
+		In case of an emergency, press <right> to instantly detonate all your digging turtles
+		'''
 }
 
 WulfrumDrill: {
+	DisplayName: Wulfrum Drill
+	Tooltip: ""
 }
 
 WulfrumScaffoldKit: {
+	DisplayName: Wulfrum Scaffold Kit
+	Tooltip:
+		'''
+		Places down temporary metal scaffolding. Uses up [i:CalamityMod/WulfrumMetalScrap] {$Items.Materials.WulfrumMetalScrap.DisplayName} for {0} tiles built
+		Scaffold needs to be adjacent to a solid tile to be placed down
+		'For when you need something built fast and don't need it to last.'
+		'''
 }
 
 WulfrumTreasurePinger: {
+	DisplayName: Wulfrum Treasure Pinger
+	Tooltip:
+		'''
+		Locates nearby metal that's hopefully more valuable than wulfrum
+		This contraption seems incredibly shoddy. [c/FC4903:It'll break sooner than later for sure]
+		'''
 }

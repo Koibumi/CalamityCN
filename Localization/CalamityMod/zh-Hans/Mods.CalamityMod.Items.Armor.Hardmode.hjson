@@ -1,143 +1,531 @@
 AstralBreastplate: {
+	DisplayName: 星幻胸甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedDamage@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
 }
 
 AstralHelm: {
+	DisplayName: 星幻头盔
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
+		能够探测附近生物，敌怪弹幕，危险源和宝藏
+		每当你对敌怪造成暴击，就会降下落星
+		该效果有{2}秒冷却时间
+		'''
 }
 
 AstralLeggings: {
+	DisplayName: 星幻护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 BrimflameBoots: {
+	DisplayName: 硫火靴子
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
+}
+
+BrimflameCowl: {
+	DisplayName: 硫火兜帽
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance@2}
+		对[cbuff:OnFire]，[cbuff:CalamityMod/BrimstoneFlames]和[cbuff:Frostburn]免疫
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
+		[c/{1}:硫火狂暴 - {2}开启，持续{3}秒，期间{$CommonItemTooltip.PercentIncreasedMagicDamage@4}]
+		[c/FF9173:然而，这将带来快速的生命值流失，并禁用魔力再生和魔力药水]
+		[c/FF9173:此状态可以手动关闭，硫火狂暴有{5}秒冷却时间]
+		'''
 }
 
 BrimflameRobes: {
-}
-
-BrimflameScowl: {
-}
-
-CirrusDress: {
+	DisplayName: 硫火长袍
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}"
 }
 
 DaedalusBreastplate: {
+	DisplayName: 代达罗斯胸甲
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}"
 }
 
 DaedalusHeadMagic: {
+	DisplayName: 代达罗斯兜帽
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus: 你有{0}%的几率治疗所受伤害{1}%的生命值
 }
 
 DaedalusHeadMelee: {
+	DisplayName: 代达罗斯战盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		你能将弹幕反弹回敌怪，取消它们的伤害
+		{$Common.ReflectInformation}
+		'''
 }
 
 DaedalusHeadRanged: {
+	DisplayName: 代达罗斯头饰
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus: 当你被击中时释放水晶碎片
 }
 
 DaedalusHeadRogue: {
+	DisplayName: 代达罗斯头罩
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$Common.RogueVelocity@2}和{$CommonItemTooltip.PercentIncreasedMovementSpeed@3}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		盗贼弹幕飞行时释放水晶碎片
+		'''
 }
 
 DaedalusHeadSummon: {
+	DisplayName: 代达罗斯面具
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		悬浮在你头顶的代达罗斯水晶会保护你
+		'''
 }
 
 DaedalusLeggings: {
+	DisplayName: 代达罗斯护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 FathomSwarmerBoots: {
+	DisplayName: 幻渊鱼群护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedSummonDamage}
+		使你获得游泳能力
+		浸没在液体中时{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 FathomSwarmerBreastplate: {
+	DisplayName: 幻渊鱼群胸甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		降低深渊造成的防御削减效果
+		'''
 }
 
 FathomSwarmerVisage: {
+	DisplayName: 幻渊鱼群面罩
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		提供水下呼吸与照明效果
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		获得爬墙的能力
+		浸没在液体中时{$CommonItemTooltip.PercentIncreasedSummonDamage@2}，增加{3}点防御和+{4}HP/s生命再生
+		在深渊提供适量光照，并适度减少深渊中的氧气损耗	
+		'''
 }
 
 ForbiddenCirclet: {
+	DisplayName: 禁戒金箍
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}和{$Common.RogueVelocity@1}"
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{1}在光标位置召唤一个远古风暴
+		远古风暴消耗{2}魔力值并受召唤伤害和盗贼伤害的加成
+		潜伏攻击会标记敌怪，让召唤物击中时产生追踪的禁戒吞噬者
+		使用召唤武器时不会重置潜行值
+		手持盗贼武器时仆从造成的伤害不再降低
+		'''
 }
 
 HydrothermicArmor: {
+	DisplayName: 渊泉盔甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}
+		免疫熔岩和[cbuff:OnFire]
+		'''
+	CommonSetBonus:
+		'''
+		生命值低于{0}%时获得狱火药水效果
+		你受伤时会在原地产生一场烈焰爆炸
+		'''
 }
 
 HydrothermicHeadMagic: {
+	DisplayName: 渊泉面具
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus:
+		'''
+		魔法攻击击中时召唤伤害火球和治疗火球
+		{$HydrothermicArmor.CommonSetBonus}
+		'''
 }
 
 HydrothermicHeadMelee: {
+	DisplayName: 渊泉战盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}和{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		近战攻击和弹幕在击中敌人时喷发出混沌火焰
+		{$HydrothermicArmor.CommonSetBonus}
+		'''
 }
 
 HydrothermicHeadRanged: {
+	DisplayName: 渊泉头饰
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus:
+		'''
+		使用远程武器时每{0}秒发射一团追踪的混沌火焰
+		{$HydrothermicArmor.CommonSetBonus@1}
+		'''
 }
 
 HydrothermicHeadRogue: {
+	DisplayName: 渊泉兜帽
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		使用盗贼武器攻击时每{1}秒会在你周围释放一阵追踪敌人的混沌火焰
+		{$HydrothermicArmor.CommonSetBonus@2}
+		'''
 }
 
 HydrothermicHeadSummon: {
+	DisplayName: 渊泉头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		召唤沸腾渊泉保护你
+		{$HydrothermicArmor.CommonSetBonus@2}
+		'''
 }
 
 HydrothermicSubligar: {
+	DisplayName: 渊泉战裙
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 LunicCorpsBoots: {
+	DisplayName: 雷神之锤靴子
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedCritChance}
+		增加{1}%速度和加速度
+		'''
 }
 
 LunicCorpsHelmet: {
+	DisplayName: 雷神之锤头盔
+	Tooltip:
+		'''
+		增加{0}%弓以外的远程伤害
+		给予夜视和生物探测效果
+		'''
+	SetBonus:
+		'''
+		增加{0}%跳跃速度
+		[c/{1}:雷神之锤护盾 - 投影一个至多吸收{2}点伤害的泡泡护盾]{3}
+		[c/52CBDE:受击后{4}秒护盾开始重新充能]
+		[c/52CBDE:重新从0到充满需要花费{5}秒]
+		[c/52CBDE:重新充能期间被击中会重置充能计时器]
+		[c/9EA67F:“结束这场战争”]
+		'''
+	ShieldAdren: 如果护盾抵挡了所有伤害，则受击损失的肾上腺素减半
 }
 
 LunicCorpsVest: {
+	DisplayName: 雷神之锤胸甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+		'''
 }
 
 MolluskShelleggings: {
+	DisplayName: 软壳护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		降低你的水平移动速度
+		'''
 }
 
 MolluskShellmet: {
+	DisplayName: 软壳贝盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		在液体中行动不受阻碍
+		降低你的水平移动速度
+		'''
+	SetBonus:
+		'''
+		增加{0}%伤害减免
+		两只贝壳会在战斗中助你一臂之力
+		'''
 }
 
 MolluskShellplate: {
+	DisplayName: 软壳贝甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		降低你的水平移动速度
+		'''
 }
 
 PlaguebringerCarapace: {
+	DisplayName: 瘟疫使者铠甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		对[cbuff:CalamityMod/Plague]免疫
+		'''
 }
 
 PlaguebringerPistons: {
+	DisplayName: 瘟疫使者推进靴
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}和{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		你走过的草地会百花齐放，站在无草泥土上时有几率长出染料植物
+		'''
 }
 
 PlaguebringerVisor: {
+	DisplayName: 瘟疫使者面甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		获得瘟疫冲刺，使敌怪被瘟疫折磨
+		召唤一只小小的瘟疫使者，释放蜂群追杀你的敌人
+		友方蜜蜂会施加[cbuff:CalamityMod/Plague]减益
+		'''
 }
 
 PlagueReaperMask: {
+	DisplayName: 瘟疫死神面具
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus:
+		'''
+		增加{0}%飞行时间
+		远程弹幕会对受瘟疫减益作用的敌人造成{1}倍伤害
+		[c/{2}:瘟疫爆发 - {3}以大幅提升伤害但完全失去视野]
+		[c/009418:瘟疫爆发期间{$CommonItemTooltip.PercentIncreasedRangedDamage@4}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@5}]
+		[c/009418:此效果持续{6}秒并有{7}秒冷却]
+		'''
 }
 
 PlagueReaperStriders: {
+	DisplayName: 瘟疫死神长靴
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 PlagueReaperVest: {
+	DisplayName: 瘟疫死神夹克
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}
+		使你免疫瘟疫减益
+		'''
 }
 
 ReaverCuisses: {
+	DisplayName: 掠夺者护胫
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
 }
 
 ReaverHeadExplore: {
+	DisplayName: 掠夺者头饰
+	Tooltip:
+		'''
+		增加{0}%挖掘速度
+		增加{1}%物块和墙的放置速度
+		免疫熔岩并且在液体中行动不受阻碍
+		'''
+	SetBonus:
+		'''
+		发光并显示宝藏和矿石的位置
+		{$Common.AggroReduction}并获得水下呼吸能力
+		在深渊中时会提供适量以上效果
+		增加{0}格物块放置及工具的范围
+		增加物品的拾取范围
+		'''
 }
 
 ReaverHeadMobility: {
+	DisplayName: 掠夺者面罩
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}和跳跃速度提高{1}%"
+	SetBonus:
+		'''
+		免疫摔落伤害并允许连续跳跃
+		增加{0}%飞行时间和水平飞行速度
+		钩爪的射速和牵引速度增加{1}%
+		降低冲刺类效果{2}%冷却时间
+		'''
 }
 
 ReaverHeadTank: {
+	DisplayName: 掠夺者战盔
+	Tooltip: 增加{0}点最大生命值和+{1}HP/s生命再生
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		受到持续性伤害减益时的生命恢复损失降低{0}%
+		降低{1}%移动速度和飞行时间
+		受伤时获得{2}秒[cbuff:CalamityMod/ReaverRage]
+		'''
 }
 
 ReaverScaleMail: {
+	DisplayName: 掠夺者鳞甲
+	Tooltip: 增加{0}%伤害减免
 }
 
 TitanHeartBoots: {
+	DisplayName: 泰坦之心靴子
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 TitanHeartMantle: {
+	DisplayName: 泰坦之心斗篷
+	Tooltip: "{$Common.RogueDamage}和{1}%盗贼击退"
 }
 
 TitanHeartMask: {
+	DisplayName: 泰坦之心面具
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueVelocity@1}
+		盗贼武器会施加[cbuff:CalamityMod/AstralInfectionDebuff]
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		潜伏攻击会造成{1}倍的击退并产生幻星爆炸
+		{$Common.KnockbackImmunity}
+		'''
 }
 
 UmbraphileBoots: {
+	DisplayName: 日影靴子
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
 }
 
 UmbraphileHood: {
+	DisplayName: 日影兜帽
+	Tooltip: "{$Common.RogueDamage}和{$Common.RogueVelocity@1}"
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		盗贼武器击中敌人时概率产生爆炸
+		潜伏攻击总是产生爆炸
+		'''
 }
 
 UmbraphileRegalia: {
+	DisplayName: 日影斗篷
+	Tooltip: "{$Common.RogueDamageCrit}"
 }

@@ -1,97 +1,151 @@
 // Boss Bags
 AquaticScourgeBag: {
+	DisplayName: 宝藏袋（渊海灾虫）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 AstrumAureusBag: {
+	DisplayName: 宝藏袋（白金星舰）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 AstrumDeusBag: {
+	DisplayName: 宝藏袋（星神游龙）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BrimstoneWaifuBag: {
+BrimstoneElementalBag: {
+	DisplayName: 宝藏袋（硫磺火元素）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CalamitasCloneBag: {
+	DisplayName: 宝藏袋（灾厄之影）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CalamitasCoffer: {
+	DisplayName: 宝藏保险箱（灾厄）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CeaselessVoidBag: {
+	DisplayName: 宝藏袋（无尽虚空）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CrabulonBag: {
+	DisplayName: 宝藏袋（菌生蟹）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CryogenBag: {
+	DisplayName: 宝藏袋（极地之灵）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 DesertScourgeBag: {
+	DisplayName: 宝藏袋（荒漠灾虫）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 DevourerofGodsBag: {
+	DisplayName: 宝藏袋（神明吞噬者）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 DraedonBag: {
+	DisplayName: 宝藏盒（星流巨械）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 DragonfollyBag: {
+	DisplayName: 宝藏袋（痴愚金龙）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 HiveMindBag: {
+	DisplayName: 宝藏袋（腐巢意志）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 LeviathanBag: {
+	DisplayName: 宝藏袋（利维坦和阿娜希塔）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 OldDukeBag: {
+	DisplayName: 宝藏袋（硫海遗爵）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 PerforatorBag: {
+	DisplayName: 宝藏袋（血肉宿主）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 PlaguebringerGoliathBag: {
+	DisplayName: 宝藏袋（瘟疫使者歌莉娅）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 PolterghastBag: {
+	DisplayName: 宝藏袋（噬魂幽花）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ProvidenceBag: {
+	DisplayName: 宝藏袋（亵渎天神，普罗维登斯）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 RavagerBag: {
+	DisplayName: 宝藏袋（毁灭魔像）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SignusBag: {
+	DisplayName: 宝藏袋（神之使徒，西格纳斯）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SlimeGodBag: {
+	DisplayName: 宝藏袋（史莱姆之神）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 StormWeaverBag: {
+	DisplayName: 宝藏袋（风暴编织者）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 YharonBag: {
+	DisplayName: 宝藏储存箱（犽戎）
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 // Miscellaneous Bags
 AbyssalTreasure: {
-}
-
-BleachedAnglingKit: {
+	DisplayName: 深渊宝藏
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 FleshyGeode: {
+	DisplayName: 血肉晶簇
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 NecromanticGeode: {
-}
-
-SandyAnglingKit: {
+	DisplayName: 死灵晶簇
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 StarterBag: {
+	DisplayName: 新手礼包
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SulphuricTreasure: {
+	DisplayName: 硫磺宝藏
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }

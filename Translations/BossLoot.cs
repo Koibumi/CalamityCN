@@ -9,8 +9,10 @@ using CalamityMod.NPCs.Bumblebirb;
 using CalamityMod.NPCs.ProfanedGuardians;
 using CalamityCN.Utils;
 
-namespace CalamityCN.Translations.Patch {
-    public class BossLoot {
+namespace CalamityCN.Translations.Patch
+{
+    public class BossLoot
+    {
         // private static List<ILHook> ILHooksT;
         // public static void Load() {
         //     ILHooksT = new List<ILHook>();

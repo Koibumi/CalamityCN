@@ -1,567 +1,2200 @@
 Abaddon: {
-}
-
-AbyssalAmulet: {
+	DisplayName: 魔鬼之庇护
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		暴击会产生爆炸，并用[cbuff:CalamityMod/BrimstoneFlames]引燃附近的敌人
+		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]造成的伤害
+		'''
 }
 
 AbyssalDivingGear: {
+	DisplayName: 深渊潜游装
+	Tooltip:
+		'''
+		减少深渊氧气耗尽时水压造成的伤害
+		移除深渊造成的生命流失效果
+		使你获得水下游泳能力并大幅度延长水下呼吸时间
+		提供水下光照以及在冰面上获得额外的机动性
+		在深渊中提供适量光照并大幅度减缓在深渊中时的氧气消耗速度
+		'''
 }
 
 AbyssalDivingSuit: {
+	DisplayName: 深渊潜游服
+	Tooltip:
+		'''
+		将穿戴者变为身披重甲的潜水员：
+		在水下时增加最大移动速度和加速度但在陆地上时降低
+		获得游泳能力，延长水下呼吸时间，可在水下发光并提升冰面上的移动力
+		在深渊中提供适量光照，减缓在深渊中时的氧气消耗速度并降低在深渊中溺水所造成的伤害
+		深渊生物不太可能看见你，降低深渊的防御削减效果并使你在液体中更快地下潜
+		免疫硫磺海水的效果以及[cbuff:CalamityMod/CrushDepth]加快氧气消耗速度的效果
+		减轻[cbuff:CalamityMod/HadopelagicPressure]加快氧气消耗速度的效果
+		'''
 }
 
 AbyssalMirror: {
-}
-
-AscendantInsignia: {
+	DisplayName: 深渊魔镜
+	Tooltip:
+		'''
+		敌怪不太可能瞄准你，即便是在深渊中亦是如此
+		潜行值恢复速度在站定不动时增加{0}%，在移动时增加{1}%
+		使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
+		'''
+	HoldShiftTooltip:
+		'''
+		{$Common.DodgeInformation}
+		闪避攻击时会使你获得潜行值
+		'''
+	FlavorTooltip: “光无法到达海洋深处”
 }
 
 AeroStone: {
+	DisplayName: 天蓝石
+	Tooltip:
+		'''
+		提供{0}秒额外飞行时间
+		在空中且没有处于飞行或滑翔状态时，你的飞行时间会缓慢恢复
+		“远古遗物之一”
+		'''
 }
 
 Affliction: {
+	DisplayName: 灾劫之尖啸
+	Tooltip: 为所有队友增加{0}HP/s生命再生、{1}%最大生命值、{2}%伤害减免、{3}点防御和{4}%伤害
 }
 
 AlchemicalFlask: {
+	DisplayName: 冶金烧瓶
+	Tooltip:
+		'''
+		所有的攻击都会造成[cbuff:CalamityMod/Plague]并降低{0}%[cbuff:CalamityMod/Plague]造成的伤害
+		弹幕在击中敌人时会生成瘟疫搜寻者
+		受伤时释放瘟疫蜜蜂并将你浸入[cbuff:Honey]
+		'''
 }
 
 AlluringBait: {
+	DisplayName: 诱惑鱼饵
+	Tooltip:
+		'''
+		增加{0}点渔力
+		增加钓到的药水材料鱼的数量
+		'''
 }
 
 AmalgamatedBrain: {
+	DisplayName: 融合之脑
+	Tooltip:
+		'''
+		受到伤害后困惑附近敌怪并生成一只沼泽之眼
+		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
+		使你获得闪避攻击的能力
+		闪避攻击后召唤伤害和暴击率会增加10%
+		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 AmbrosialAmpoule: {
-}
-
-AmidiasPendant: {
-}
-
-AmidiasSpark: {
+	DisplayName: 百草天香瓶
+	Tooltip:
+		'''
+		增加{0}点最大生命值
+		基于失去的生命值获得+{1}~+{2}HP/s生命再生
+		获得[cbuff:Honey]增益
+		当前加成：+[REGEN]HP/s
+		减半受到火系和疾病系减益的持续时间
+		饰品可见性开启时你会发出黄光
+		'''
 }
 
 AncientFossil: {
+	DisplayName: 远古化石
+	Tooltip:
+		'''
+		增加{0}%挖掘速度
+		提供对来自下落方块的伤害免疫
+		'''
 }
 
 AnechoicPlating: {
+	DisplayName: 吸音隔板
+	Tooltip:
+		'''
+		深渊生物不太可能看到你
+		降低深渊压力的防御削减效果
+		'''
 }
 
 AngelicAlliance: {
+	DisplayName: 圣天誓盟
+	Tooltip:
+		'''
+		召唤圣天之力，强化你的攻击和仆从
+		勇气注入双拳，启迪充盈脑海，祝福映于身后，这一切使你拥有无穷之力，使你能对眼前的敌人做出最终审判
+		增加{0}格最大仆从栏位、{1}%召唤伤害和{2}%其他职业伤害
+		当飞行时间未满时+{3}HP/s生命再生
+		按下 [KEY] 键获得{4}秒[cbuff:CalamityMod/DivineBless]增益
+		激活效果时，你每拥有一个仆从，便会出现一个圣天使
+		圣天使会用圣光蒸发敌怪，每个圣天使生成时会为你回复{5}点生命值
+		仆从攻击会施加[cbuff:CalamityMod/BanishingFire]，并使你获得不受其他效果影响的+{6}HP/s生命再生
+		此效果有{7}分钟冷却时间
+		'''
 }
 
 AngelTreads: {
+	DisplayName: 天使之靴
+	Tooltip:
+		'''
+		提供飞行，超快速奔跑以及冰面上的额外机动性
+		增加{0}%移动速度和{1}%飞行时间
+		可让人在水、蜂蜜和熔岩上行走
+		对火块免疫并在{2}秒内对熔岩免疫
+		减少因触碰熔岩而受到的伤害
+		“极致的速度！”
+		'''
 }
 
 AquaticEmblem: {
+	DisplayName: 海波纹章
+	Tooltip:
+		'''
+		大多数海洋敌人变得友好并允许水下呼吸
+		在水下的{0}秒内会逐渐增加防御但降低移动速度
+		此效果在离开水时缓慢消失，在乘坐坐骑时重置
+		防御至多增加{1}点，移动速度至多降低{2}%
+		在深渊中提供少量光照并适量减缓在深渊中时的氧气消耗速度
+		'''
 }
 
 AquaticHeart: {
+	DisplayName: 渊洋之心
+	Tooltip:
+		'''
+		将佩戴者变为水元素
+		[STATUS]
+		'''
+	LockedTooltip: "[c/F05A5A:这颗珍珠的魔法被古老的诅咒抑制了]"
+	FullTooltip:
+		'''
+		哇哦！你可以游泳了！
+		在水下时会增加{0}%最大速度和加速度
+		大幅度减缓氧气消耗速度并在深渊中提供少量光照
+		攻击者会被施加[cbuff:CalamityMod/GlacialState]
+		获得一个易碎的冰障，对一次攻击有{1}%伤害减免
+		冰障会在碎裂{2}秒后再生
+		'''
+}
+
+ArcFlashRing: {
+	DisplayName: Arc Flash Ring
+	Tooltip:
+		'''
+		攻击有{0}%几率召唤从天而降的闪电，造成{1}倍伤害
+		单次攻击每击中一个敌怪，召唤闪电的几率就会降低
+		闪电的伤害基于非暴击伤害，但能够暴击
+		如果关闭饰品可见性，闪电效果会变得透明且安静
+		'''
 }
 
 ArchaicPowder: {
+	DisplayName: 古元粉末
+	Tooltip:
+		'''
+		增加{0}%挖掘速度
+		提供对来自下落方块和飞镖陷阱的伤害免疫
+		提供对所有陷阱{1}%的伤害减免
+		不与下位叠加
+		'''
+}
+
+AscendantInsignia: {
+	DisplayName: 进升证章
+	Tooltip:
+		'''
+		飞行时间增加{0}%，移动速度和跳跃速度提高{1}%，加速度提升为{2}倍
+		按下 [KEY] 键会给予你飞升之力，提供{3}秒的无限飞行时间
+		飞升有{4}秒冷却时间
+		'''
 }
 
 AsgardianAegis: {
+	DisplayName: 阿斯加德之庇护
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		获得被宇宙狱火加强的冲刺能力
+		此冲刺可以在不受伤害的情况下撞击穿过敌怪
+		'''
 }
 
 AsgardsValor: {
+	DisplayName: 阿斯加德之英勇
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		获得撞击冲刺能力
+		此冲刺可以在不受伤害的情况下撞击穿过敌怪
+		'''
 }
 
 AuricSoulArtifact: {
+	DisplayName: 圣魂神物
+	Tooltip:
+		'''
+		你每召唤一只炽焰天龙，便会获得一个仆从栏位
+		忠诚
+		'''
 }
 
 BadgeofBravery: {
-}
-
-BlazingCore: {
-}
-
-BloodflareCore: {
-}
-
-BloodPact: {
-}
-
-BloodstainedGlove: {
-}
-
-BloodyWormScarf: {
-}
-
-BloodyWormTooth: {
-}
-
-BloomStone: {
-}
-
-BlunderBooster: {
-}
-
-Calamity: {
-}
-
-ChaliceOfTheBloodGod: {
-}
-
-ChaosStone: {
-}
-
-CoinofDeceit: {
-}
-
-CorrosiveSpine: {
-}
-
-CorruptFlask: {
-}
-
-CounterScarf: {
-}
-
-CrawCarapace: {
+	DisplayName: 勇气勋章
+	Tooltip:
+		'''
+		增加10%近战伤害和暴击率
+		增加5点近战护甲穿透
+		'''
 }
 
 Baroclaw: {
+	DisplayName: 潜渊爪
+	Tooltip:
+		'''
+		增加10%伤害和5%伤害减免
+		攻击者会受到高伤害以及碎甲和深渊水压减益
+		'''
 }
 
-CrimsonFlask: {
+BatholithBangle: {
+	DisplayName: Batholith Bangle
+	Tooltip:
+		'''
+		魔法攻击命中敌怪时生成必定暴击的强力花岗岩闪光
+		此效果具有10秒冷却
+		如果关闭饰品可见性，视觉效果和音效会减弱
+		[c/0189D7:“坚固花岗岩辐射的能量遍布你的全身”]
+		'''
 }
 
-CrownJewel: {
+BlackGlassBand: {
+	DisplayName: Black Glass Band
+	Tooltip:
+		'''
+		命中敌怪会生成必定暴击的黑曜石闪光
+		此效果具有5秒冷却，但如果闪光杀死了敌怪，将会减半冷却时间
+		如果关闭饰品可见性，视觉效果和音效会减弱
+		[c/655DC5:“一只拥有无限潜力的闪亮手环”]
+		'''
 }
 
-CryoStone: {
+BlazingCore: {
+	DisplayName: 渎火核心
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		亵渎天神的炽热之心
+		按下 [KEY] 键会将你包裹在发光的亵渎水晶中，并激活一次格挡
+		包裹后短时间内受击会使水晶破碎
+		水晶破碎时，神圣之星会向外螺旋扩散且受到的伤害会被抵消
+		破碎后，此伤害减免效果将进入冷却
+		处于冷却期间时触发格挡会召唤额外的治愈之星，但受击伤害不会降低
+		{$Common.AbyssLightLevel2}
+		'''
 }
 
-DaawnlightSpiritOrigin: {
+BloodflareCore: {
+	DisplayName: 血炎晶核
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		防御损伤恢复时会治疗你，每恢复1点防御便恢复1点生命值
+		受到伤害时会将至少一半的防御转化为防御损伤
+		'''
 }
 
-DarkMatterSheath: {
+BloodPact: {
+	DisplayName: 血契
+	Tooltip:
+		'''
+		增加25%最大生命值
+		对流血、血液沸腾和重度出血免疫
+		增加25%治疗药水的治疗量
+		'''
 }
 
-DarkSunRing: {
+BloodstainedGlove: {
+	DisplayName: 血染手套
+	Tooltip: 潜伏攻击会附带8点护甲穿透并为你回复5点生命值
 }
 
-DeadshotBrooch: {
+BloodyWormScarf: {
+	DisplayName: 血蠕虫围巾
+	Tooltip: 增加10%伤害减免与近战伤害
 }
 
-DeepDiver: {
+BloodyWormTooth: {
+	DisplayName: 血蠕虫之牙
+	Tooltip: 增加10%近战伤害
 }
 
-DeificAmulet: {
+BloomStone: {
+	DisplayName: 绽花石
+	Tooltip:
+		'''
+		增加50%治疗药水的治疗量，但治疗效果会随时间推移逐渐生效
+		钩爪的牵引速度提升50%，并且在附着点长出花朵
+		接触花朵会使其散布花粉，花粉临时提升随时间治疗速度
+		生命值为满时治疗速度大幅下降
+		“远古遗物之一”
+		'''
 }
 
-DepthCharm: {
+BlunderBooster: {
+	DisplayName: 悖论增幅器
+	Tooltip:
+		'''
+		增加12%盗贼伤害和15%盗贼弹幕速度
+		增加10%潜行值恢复速度
+		在玩家周围召唤一个红色的闪电光环并电击附近的敌人
+		如果关闭饰品可见性，光环会变得透明
+		按下 [KEY] 键消耗25%最大潜行值来进行向上的快速斜冲
+		此冲刺会留下红色闪电轨迹
+		此效果有1秒冷却时间
+		'''
 }
 
-DimensionalSoulArtifact: {
+Calamity: {
+	DisplayName: 灾厄
+	Tooltip:
+		'''
+		用女巫的硫火点燃你的光标，使光标被炽热的光环包围
+		光环会对与其接触的敌人造成巨额伤害和孱弱巫咒减益
+		聚焦敌怪2.5秒会诅咒它们，将孱弱巫咒进升为真正形态
+		受到真·孱弱巫咒影响的敌怪所受任何来源的伤害变为1.15倍
+		如果是炽热光标自身触发上述效果，则所受伤害变为2.5倍
+		装备在时装栏中时仅会改变光标的颜色，且不会造成伤害
+		这些改动在与彩虹光标同时使用时也会生效
+		'''
 }
 
-DraedonsHeart: {
+ChaliceOfTheBloodGod: {
+	DisplayName: 血神圣杯
+	Tooltip:
+		'''
+		增加25%最大生命值
+		对流血、血液沸腾、重度出血和血管爆裂免疫
+		+2HP/s生命再生并缩短25%的治疗药水冷却时间
+		受到5点以上伤害时，将超出的部分转化为流血效果
+		这种效果不会影响生命恢复
+		使用治疗药水能够抵消部分流血伤害，至多50%其治疗量
+		在流血时解除装备将会立即造成剩余伤害
+		“竟然为了一滴血付出了这么多”
+		'''
 }
 
-DragonScales: {
-}
-
-DynamoStemCells: {
-}
-
-EclipseMirror: {
-}
-
-EldritchSoulArtifact: {
-}
-
-ElectriciansGlove: {
-}
-
-ElementalGauntlet: {
-}
-
-ElementalQuiver: {
-}
-
-ElysianAegis: {
-}
-
-EnchantedPearl: {
-}
-
-EtherealExtorter: {
-}
-
-EtherealTalisman: {
-}
-
-EvasionScarf: {
-}
-
-EyeoftheStorm: {
-}
-
-FeatherCrown: {
-}
-
-FilthyGlove: {
-}
-
-FlameLickedShell: {
-}
-
-FleshTotem: {
-}
-
-FrostBarrier: {
-}
-
-FrostFlare: {
-}
-
-FungalClump: {
-}
-
-FungalSymbiote: {
-}
-
-GiantPearl: {
-}
-
-GiantShell: {
-}
-
-GiantTortoiseShell: {
-}
-
-GladiatorsLocket: {
-}
-
-GloveOfPrecision: {
-}
-
-GloveOfRecklessness: {
-}
-
-GrandGelatin: {
-}
-
-GravistarSabaton: {
-}
-
-HallowedRune: {
-}
-
-HarpyRing: {
-}
-
-HeartofDarkness: {
-}
-
-HeartoftheElements: {
-}
-
-HideofAstrumDeus: {
-}
-
-HoneyDew: {
-}
-
-HowlsHeart: {
-}
-
-InfectedJewel: {
-}
-
-InkBomb: {
-}
-
-IronBoots: {
-}
-
-JellyChargedBattery: {
-}
-
-Laudanum: {
-}
-
-LeviathanAmbergris: {
-}
-
-LifeJelly: {
-}
-
-LivingDew: {
-}
-
-LumenousAmulet: {
-}
-
-LuxorsGift: {
+ChaosStone: {
+	DisplayName: 混乱石
+	Tooltip:
+		'''
+		禁用魔力药水的自动消耗
+		魔力值不足时也可使用消耗魔力的物品
+		使用魔力会溢出为负魔力，使你获得魔力烧蚀
+		你的魔力值越低，魔力烧蚀越强烈
+		当你拥有魔力烧蚀时攻击会对敌怪施加魔力烧蚀
+		每50点负魔力会让魔力烧蚀附加1%的攻击伤害
+		负魔力上限为你的最大魔力值
+		'''
 }
 
 CleansingJelly: {
+	DisplayName: 纯净胶质
+	Tooltip:
+		'''
+		使用治疗药水后会产生一个持续{0}秒的蓝色光环
+		首次进入光环会净化所有减益
+		'''
+}
+
+CoinofDeceit: {
+	DisplayName: 欺诈硬币
+	Tooltip:
+		'''
+		潜伏攻击只会消耗90%潜行值
+		增加6%盗贼暴击率
+		'''
+}
+
+CorrosiveSpine: {
+	DisplayName: 腐蚀脊椎
+	Tooltip:
+		'''
+		增加5%移动速度
+		所有疾病系和水系减益的伤害乘以1.25
+		所有攻击都将辐射敌怪，降低硫磺海水的威胁性
+		受击时爆炸成辐射毒云
+		'''
+}
+
+CorruptFlask: {
+	DisplayName: 腐化药瓶
+	Tooltip:
+		'''
+		处于腐化之地时增加4%伤害减免和6点防御
+		对大脑溃烂免疫
+		'''
+}
+
+CounterScarf: {
+	DisplayName: 反击围巾
+	Tooltip:
+		'''
+		增加10%真近战伤害
+		使你获得双击方向键冲刺能力，冲刺时受伤会闪避这次伤害
+		闪避效果有30秒冷却时间，期间你仍然可以进行冲刺
+		'''
+}
+
+CrawCarapace: {
+	DisplayName: 蟹爪壳
+	Tooltip:
+		'''
+		增加7%伤害
+		攻击者会受到伤害以及粉碎减益
+		'''
+}
+
+CrimsonFlask: {
+	DisplayName: 血腥药瓶
+	Tooltip:
+		'''
+		处于猩红之地时增加4%伤害减免和6点防御
+		对血液沸腾免疫
+		'''
+}
+
+CrownJewel: {
+	DisplayName: 王冠宝石
+	Tooltip:
+		'''
+		+1HP/s生命再生
+		受到任何减益时会额外获得+1.5HP/s生命再生
+		'''
+}
+
+CryoStone: {
+	DisplayName: 冰川石
+	Tooltip:
+		'''
+		所有冷系减益的伤害倍率乘以1.5
+		创造一个环绕着你的冰盾，冰盾会伤害并减速与其接触的敌人
+		“远古遗物之一”
+		'''
+}
+
+DaawnlightSpiritOrigin: {
+	DisplayName: 曙旼始灵
+	Tooltip:
+		'''
+		暴击率高于100%时所有远程武器可以造成超暴击
+		用靶心标记敌怪和Boss，命中靶心时提升暴击率
+		额外暴击率会随时间快速消散
+		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
+		'''
+	HoldShiftTooltip:
+		'''
+		暴击率高于100%时所有远程武器可以造成超暴击
+		用靶心标记附近敌怪和Boss，被命中后靶心短暂消失
+		命中靶心的远程攻击会提升暴击率
+		大型弹幕和爆炸无法命中靶心
+		使用时间越长的武器命中靶心时提升的暴击率更多
+		额外暴击率会随时间快速消散
+		暴击率提升越多，消散速度越快
+		开启饰品可见性或在时装栏中会召唤一位来自另一个世界的英灵
+		'''
+	FlavorTooltip: “一缕失落宇宙的残烬，久久等待着她的御主”
+}
+
+DarkMatterSheath: {
+	DisplayName: 暗物质剑鞘
+	Tooltip:
+		'''
+		增加10点最大潜行值
+		移动但不攻击时增加潜行值恢复速度
+		潜伏攻击只会消耗50%潜行值
+		增加6%盗贼伤害和盗贼暴击率
+		'''
+}
+
+DarkSunRing: {
+	DisplayName: 蚀日尊戒
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		增加12%伤害
+		+0.5HP/s生命再生和2格最大仆从栏位
+		增加仆从击退
+		随一天的时间推移获得各种增益
+		'''
+	HoldShiftTooltip:
+		'''
+		在白天时+2HP/s生命再生
+		在夜晚时增加16点防御
+		在日食时+1HP/s生命再生和8点防御
+		'''
+	FlavorTooltip: “蕴含着日蚀之阴的力量”
+}
+
+DeadshotBrooch: {
+	DisplayName: 神射手胸针
+	Tooltip:
+		'''
+		增加12%远程伤害、7%远程暴击率并降低20%弹药消耗率
+		按下 [KEY] 键会自动交换弹药槽中弹药的顺序
+		交换的弹药类型取决于你手持武器的弹药类型
+		'''
+}
+
+DeepDiver: {
+	DisplayName: 深潜者
+	Tooltip:
+		'''
+		获得冷却较短的冲刺能力
+		此冲刺可以在不受伤害的情况下撞击穿过敌怪
+		极大提高水下移动力
+		'''
+}
+
+DeificAmulet: {
+	DisplayName: 神圣护符
+	Tooltip:
+		'''
+		受到伤害时释放一阵追踪星星蜜蜂[TOGGLE]并将你浸在[cbuff:Honey]中
+		延长无敌帧时间，生命值越低延长地越久
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
+		'''
+	ToggleEffect: ，增加移动速度
+}
+
+DepthCharm: {
+	DisplayName: 深渊咒符
+	Tooltip:
+		'''
+		减少在深渊溺水时造成的伤害
+		移除深渊水压加快氧气消耗速度的效果
+		'''
+}
+
+DiamondOfTheDeep: {
+	DisplayName: Diamond of the Deep
+	Tooltip:
+		'''
+		将所有水系减益的伤害提升至1.75倍
+		缓慢积攒至多3个不同的深渊灵魂
+		当冲刺时，灵魂四散
+		如果[c/CB7AD7:生命值低于50%]，灵魂会治疗你，否则会攻击附近的敌怪
+		灵魂将按顺序生成，根据颜色具有不同的效果
+		[c/3CB371: 命中敌怪时爆炸，并造成深渊水压减益] / [c/CB7AD7:恢复8生命值]
+		[c/FF4500: 穿透敌怪，并造成狱炎减益] / [c/CB7AD7:临时提升10点防御力]
+		[c/1E90FF: 能够多次命中敌怪，并造成Hadopelagic Pressure减益] / [c/CB7AD7:恢复5%最大生命值]
+		如果关闭饰品可见性，灵魂会变得透明且安静
+		'''
+}
+
+DimensionalSoulArtifact: {
+	DisplayName: 维魂神物
+	Tooltip:
+		'''
+		所有伤害乘1.2倍，代价是所受伤害增加15%
+		力量
+		'''
+}
+
+DraedonsHeart: {
+	DisplayName: 嘉登之心
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		减少敌怪{0}%接触伤害
+		[NANODESC]
+		在完全充能时，按下 [KEY] 键会在{2}秒内逐渐回复{1}点生命值
+		回复生命值时，降低[DR]%所受伤害
+		“纳米机器，小子”
+		'''
+	NanomachinesAdd:
+		'''
+		获得纳米机器条
+		纳米机器条会在与Boss战斗时随时间充能，但受到伤害会使纳米机器条停止充能 {0} 秒
+		'''
+	NanomachinesReplace:
+		'''
+		将肾上腺素条替换为纳米机器条
+		与肾上腺素不同，你在受到伤害时不会失去纳米机器条而是停止充能 {0} 秒
+		'''
+}
+
+DragonScales: {
+	DisplayName: 浴火龙鳞
+	Tooltip:
+		'''
+		盗贼武器的弹幕在飞行时会生成缓慢移动的火球
+		潜伏攻击弹幕击中时会生成地狱龙卷
+		增加10%移动速度和加速度
+		对龙焰免疫
+		只有真龙才能拥有真正的宝藏
+		'''
+}
+
+DynamoStemCells: {
+	DisplayName: 痴愚金龙干细胞
+	Tooltip:
+		'''
+		增加10%远程伤害和移动速度
+		远程武器每3秒发射强大的迷你龙裔
+		降低所受龙焰和带电减益的伤害
+		'''
+}
+
+EclipseMirror: {
+	DisplayName: 日蚀魔镜
+	Tooltip:
+		'''
+		增加10点最大潜行值
+		增加6%盗贼伤害和盗贼暴击率
+		敌怪不太可能瞄准你，即便是在深渊中亦是如此
+		潜行值恢复速度在站定不动时增加25%，在移动但不攻击时也会增加
+		潜伏攻击只会消耗50%潜行值
+		在黑日之光的聚爆之中，你能够闪避一次攻击，聚爆会在大范围内造成很高的伤害
+		'''
+	HoldShiftTooltip:
+		'''
+		{$Common.DodgeInformation}
+		闪避攻击时会使你获得大量的潜行值
+		'''
+	FlavorTooltip: “它所映出的只有无边黑暗”
+}
+
+EldritchSoulArtifact: {
+	DisplayName: 惧魂神物
+	Tooltip:
+		'''
+		增加10%近战攻速、25%远程弹幕速度、15%潜行值恢复速度、1格最大仆从栏位并降低25%魔力消耗
+		对死亡低语免疫
+		知识
+		'''
+}
+
+ElectriciansGlove: {
+	DisplayName: 电击手套
+	Tooltip:
+		'''
+		潜伏攻击击中敌人时会释放电火花并为你回复10点生命值
+		潜伏攻击也会附带8点护甲穿透、额外造成8%伤害
+		'''
+}
+
+ElementalGauntlet: {
+	DisplayName: 元素之握
+	Tooltip:
+		'''
+		近战攻击和弹幕会造成元素谐鸣减益
+		增加15%近战伤害和近战攻速
+		增加5%近战暴击率
+		增加20%真近战伤害并增加近战击退
+		允许近战武器自动挥舞并增加近战武器大小
+		不与下位合成材料叠加
+		'''
+}
+
+ElementalinaBottle: {
+	DisplayName: 元素瓶
+	Tooltip: 召唤一个沙暴元素为你而战
+}
+
+ElysianAegis: {
+	DisplayName: 极乐之庇护
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		获得被圣火加强的冲刺能力
+		此冲刺可以撞击穿过敌怪但不受伤害
+		“被亵渎之火所祝福”
+		'''
+}
+
+EnchantedPearl: {
+	DisplayName: 附魔珍珠
+	Tooltip:
+		'''
+		增加10点渔力
+		增加15%钓到宝匣和包含战利品的鱼的概率
+		宝匣有25%概率变为更高品质，且钓到宝匣时会产生视觉性的珍珠效果
+		'''
+}
+
+EtherealExtorter: {
+	DisplayName: 虚空掠夺者
+	Tooltip:
+		'''
+		盗贼武器的弹幕在击中时会爆炸成追踪灵魂
+		增加8%盗贼伤害和5点最大潜行值
+		'''
+}
+
+EtherealTalisman: {
+	DisplayName: 空灵护符
+	Tooltip:
+		'''
+		增加15%魔法伤害和5%魔法暴击率
+		增加150点最大魔力值并降低10%魔力消耗
+		扩大魔力星的拾取范围
+		你会在需要时自动饮用魔力药水
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ManaFlower] [c/aaaaaa:魔力花的效果]
+		'''
+}
+
+EvasionScarf: {
+	DisplayName: 闪避围巾
+	Tooltip:
+		'''
+		增加15%真近战伤害
+		使你获得双击方向键冲刺能力，冲刺过程中受伤会闪避这次伤害
+		闪避效果有30秒冷却时间，期间你仍然可以正常冲刺
+		'''
+}
+
+EyeoftheStorm: {
+	DisplayName: 风暴之眼
+	Tooltip: 召唤雨云元素为你而战
+}
+
+FeatherCrown: {
+	DisplayName: 天羽头冠
+	Tooltip:
+		'''
+		增加15%盗贼弹幕速度
+		潜伏攻击在击中敌人时会召唤羽毛从天而降
+		'''
+}
+
+FilthyGlove: {
+	DisplayName: 污秽手套
+	Tooltip: 潜伏攻击会附带8点护甲穿透并额外造成8%伤害
+}
+
+FlameLickedShell: {
+	DisplayName: 舐火甲壳
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		按下 [KEY] 键会将你包裹在焦岩之中，并激活一次格挡
+		包裹后短时间内受击会使焦岩破裂
+		焦岩破裂时，会向外发射一圈硫火飞弹，并且让你对此次伤害有90%的伤害减免
+		破裂后，此伤害减免效果将进入冷却
+		处于冷却期间时触发格挡会发射一轮较弱的硫火飞弹，但受击伤害不会降低
+		'''
+}
+
+FleshTotem: {
+	DisplayName: 血肉图腾
+	Tooltip:
+		'''
+		减半敌人的接触伤害
+		减半接触伤害的效果有20秒冷却时间
+		'''
+}
+
+FrostBarrier: {
+	DisplayName: 寒冰屏障
+	Tooltip:
+		'''
+		你受击时会冻结附近的敌人
+		对冷冻和霜冻免疫
+		'''
+}
+
+FrostFlare: {
+	DisplayName: 霜冻之炎
+	Tooltip:
+		'''
+		所有攻击和弹幕都会造成霜冻减益
+		对霜冻、冷冻和冰冻免疫
+		生命值高于50%时增加10%伤害
+		生命值低于50%时增加15点防御、15%最大移动速度和加速度
+		使你获得对冷系攻击的抗性
+		'''
+}
+
+FungalClump: {
+	DisplayName: 真菌块
+	Tooltip:
+		'''
+		召唤一块真菌球为你而战
+		真菌球会吸附在敌人身上并偷取它们的生命值来治疗你
+		'''
+}
+
+FungalSymbiote: {
+	DisplayName: 真菌共生体
+	Tooltip:
+		'''
+		你走过的草地会长出蘑菇
+		食用蘑菇会使你获得与菇共生增益，增加5点防御和+1HP/s生命再生
+		拥有与菇共生增益时增加10%伤害
+		'''
+}
+
+GiantPearl: {
+	DisplayName: 大珍珠
+	Tooltip:
+		'''
+		光明之环环绕身周
+		减速被光环笼罩的敌人
+		处于光环范围内的敌怪将受到追踪棱晶碎块的轰炸
+		{$Common.AbyssLightLevel1}
+		'''
+}
+
+GiantShell: {
+	DisplayName: 巨大甲壳
+	Tooltip:
+		'''
+		降低10%冲刺速度
+		受击后会恢复冲刺速度并降低防御，持续3秒
+		'''
+}
+
+GiantTortoiseShell: {
+	DisplayName: 巨大龟壳
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		增加5%伤害减免但降低10%冲刺速度
+		受击后会恢复冲刺速度并降低防御和伤害减免，持续3秒
+		'''
+}
+
+GladiatorsLocket: {
+	DisplayName: 角斗士金锁
+	Tooltip:
+		'''
+		敌人在死亡时会掉落生命珠
+		你的移动速度和伤害会随着生命值的降低而增加，至多增加20%，在生命值低于50%时达到
+		'''
+}
+
+GloveOfPrecision: {
+	DisplayName: 精准手套
+	Tooltip:
+		'''
+		降低15%盗贼攻速
+		增加10%盗贼伤害和暴击率，15%盗贼弹幕速度
+		'''
+}
+
+GloveOfRecklessness: {
+	DisplayName: 鲁莽手套
+	Tooltip:
+		'''
+		增加15%盗贼攻速，但降低10%盗贼伤害和5%盗贼暴击率
+		增加15%潜行值恢复速度
+		使盗贼武器的弹幕更不精准
+		'''
+}
+
+GrandGelatin: {
+	DisplayName: 绚彩明胶
+	Tooltip:
+		'''
+		增加{0}%移动速度和跳跃速度
+		使用治疗药水后会产生一个持续{1}秒的纯净光环
+		首次进入光环会净化所有减益，光环内会提供+{2}HP/s生命再生
+		'''
+}
+
+HallowedRune: {
+	DisplayName: 神圣符文
+	Tooltip:
+		'''
+		仆从攻击会提供各种增益
+		不与下位合成材料叠加
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/8ce0ff:  神圣之力][c/ccf1ff:会增加10%召唤伤害并对敌怪降下落星]
+		[c/d08aff:  神圣之佑][c/eed4ff:会增加4点防御和4%伤害减免]
+		[c/ff8cb5:  神圣之辉][c/ffccde:会获得+1.5HP/s生命再生]
+		'''
+}
+
+HarpyRing: {
+	DisplayName: 女妖指环
+	Tooltip: 增加10%移动速度和20%飞行时间
+}
+
+HeartofDarkness: {
+	DisplayName: 黑暗之心
+	Tooltip: 你的怒气值会持续充能且脱离战斗后怒气值也不会流失
+}
+
+HeartoftheElements: {
+	DisplayName: 元灵之心
+	Tooltip:
+		'''
+		召唤所有的元素之灵保护你
+		“世界之心”
+		'''
+}
+
+HideofAstrumDeus: {
+	DisplayName: 星神隐壳
+	Tooltip:
+		'''
+		使用真近战武器击中敌人时会令幻星从天而降
+		受到伤害后释放爆炸并暂时增加30%真近战伤害
+		增幅的持续时间基于你受到的伤害值，至多持续10秒
+		无害化幻星感染减益
+		'''
+}
+
+HoneyDew: {
+	DisplayName: 蜂蜜露珠
+	Tooltip:
+		'''
+		增加10点最大生命值
+		获得蜂蜜增益
+		减半受到疾病系减益的持续时间
+		'''
+}
+
+HowlsHeart: {
+	DisplayName: 哈尔之心
+	Tooltip:
+		'''
+		召唤哈尔为你而战，卡西法会照亮你的道路，小萝卜头会跟随着你
+		把该饰品放在时装栏位里也能召唤出三人组，但是没有战斗或探索功能
+		'''
+}
+
+IlmerisSpark: {
+	DisplayName: 伊尔梅里斯电火花石
+	Tooltip:
+		'''
+		在水下时攻击会施加Static Discharge减益
+		受到伤害后使敌怪受到冲击
+		被冲击的敌怪会持续释放电火花
+		'''
+}
+
+InfectedJewel: {
+	DisplayName: 疫染星石
+	Tooltip:
+		'''
+		被动获得+1HP/s生命再生
+		受到任何减益时会获得12点防御和+2HP/s生命再生
+		没有受到减益后获得的防御会快速消散
+		除首个减益外每个减益额外提供4点防御
+		使幻星感染减益对你不造成伤害
+		“一颗被太空腐败玷污的漂亮宝石”
+		'''
+}
+
+InkBomb: {
+	DisplayName: 墨水炸弹
+	Tooltip:
+		'''
+		增加7%潜行值恢复速度
+		受到伤害时会投掷出数枚会爆炸成墨水云雾并困惑敌怪的墨汁炸弹
+		被击中时会回复大量潜行值
+		此效果有20秒冷却时间
+		'''
+}
+
+InterstellarStompers: {
+	DisplayName: Interstellar Stompers
+	Tooltip:
+		'''
+		增加6%移动速度和20%跳跃速度，免疫摔落伤害
+		按住{$Key.DOWN}提高最大下落速度
+		在半空中按 [KEY] 键会在0.33秒内充能一次极速猛击
+		落下时你可以撞击穿过敌人而不受到接触伤害
+		一旦接触到地面你就会在脚下产生爆炸
+		猛击时间越长，爆炸的伤害越高，范围越大
+		猛击到地面后会暂时增加40%跳跃速度
+		'''
+}
+
+IronBoots: {
+	DisplayName: 铁靴
+	Tooltip:
+		'''
+		按住{$Key.DOWN}提高最大下落速度，即使在水中也是如此
+		当击中地面时，在你的脚边释放一个冲击波
+		冲击波的伤害和大小随你下落的时间提升
+		免疫摔落伤害
+		'''
+}
+
+JellyChargedBattery: {
+	DisplayName: 凝胶充能电池
+	Tooltip:
+		'''
+		增加1格最大仆从栏位和7%召唤伤害
+		仆从攻击会产生静电球
+		'''
+}
+
+Laudanum: {
+	DisplayName: 鸦片酊
+	Tooltip:
+		'''
+		将某些减益转化为正面增益并延长其持续时间
+		如果你对这些减益免疫，还会移除这些免疫效果
+		'''
+	HoldShiftTooltip:
+		'''
+		  受影响的减益：{$Buffs.ArmorCrunch.DisplayName}、{$BuffName.Blackout}、{$BuffName.Bleeding}、{$BuffName.BrokenArmor}、{$BuffName.Chilled}、{$BuffName.Confused}、
+		  {$BuffName.Cursed}、{$BuffName.Darkness}、{$BuffName.VortexDebuff}、{$BuffName.Ichor}、{$BuffName.Silenced}、{$BuffName.Slow}、{$BuffName.Weak}和{$Buffs.WhisperingDeath.DisplayName}
+		'''
+}
+
+LeviathanAmbergris: {
+	DisplayName: 利维坦龙涎香
+	Tooltip:
+		'''
+		增加120%冲刺初速度，降低33%冲刺冷却，大幅提升冲刺减速度
+		你的冲刺会被水赋能，使用粘稠水流击退并伤害附近的敌人
+		如果关闭饰品可见性，视觉效果会减弱
+		'''
+}
+
+LifeJelly: {
+	DisplayName: 生命胶质
+	Tooltip:
+		'''
+		使用治疗药水后会产生一个持续{0}秒的粉色光环
+		光环内提供+{1}HP/s生命再生
+		'''
+}
+
+LivingDew: {
+	DisplayName: 生命露珠
+	Tooltip:
+		'''
+		增加25点最大生命值
+		获得蜂蜜增益
+		减半受到火系和疾病系减益的持续时间
+		'''
+}
+
+LuxorsGift: {
+	DisplayName: 卢克索的礼物
+	Tooltip:
+		'''
+		召唤一个紧跟着你的圣甲虫发射器
+		根据你手持武器类型，圣甲虫向敌怪发射不同种类的射弹
+		手持工具时，武器类型不会更新
+		不使用时，圣甲虫会自动压缩成一个小光球
+		'''
 }
 
 ManaPolarizer: {
+	DisplayName: 魔能谐振仪
+	Tooltip:
+		'''
+		增加50点最大魔力值
+		基于当前魔力值提供生命再生和魔法伤害
+		魔力值越低意味着生命再生更高，但魔法伤害更低
+		生命再生范围为-2~2HP/s，魔法伤害范围为5%~15%
+		处于魔力疾病状态下提供的再生减半
+		在手持魔法武器时魔法弹幕能够汲取敌人生命
+		'''
 }
 
 MarniteRepulsionShield: {
+	DisplayName: 合成岩斥力盾
+	Tooltip:
+		'''
+		你背后的敌人会被高击退力的强光针刺攻击
+		[c/FFF191:背刺者要当心了！]
+		'''
 }
 
 MirageMirror: {
+	DisplayName: 幻影魔镜
+	Tooltip:
+		'''
+		降低深渊外敌人的攻击性
+		站定不动时增加25%潜行值恢复速度，移动时增加12%潜行值恢复速度
+		“使你周围光线扭曲”
+		'''
 }
 
 MoonstoneCrown: {
+	DisplayName: 月长石头冠
+	Tooltip:
+		'''
+		增加15%盗贼弹幕速度
+		潜伏攻击在击中敌人时会释放月耀球
+		盗贼武器的弹幕会在其飞行轨迹上召唤追踪月亮符文
+		'''
 }
 
 Nanotech: {
+	DisplayName: 纳米技术
+	Tooltip:
+		'''
+		盗贼武器的弹幕会在其飞行轨迹上留下纳米刀刃
+		潜伏攻击在击中敌人时会释放纳米光束和火花
+		潜伏攻击会附带15点护甲穿透、额外造成5%伤害并为你回复2点生命值
+		增加15%盗贼伤害和15%盗贼弹幕速度
+		潜伏攻击会对非潜伏攻击提供10%暴击率加成，持续5秒
+		'''
 }
 
 NebulousCore: {
+	DisplayName: 星云之核
+	Tooltip:
+		'''
+		增加10%伤害
+		召唤漂浮的小星云保护你
+		受到致死伤害时会复活你到100点生命值
+		此效果有90秒冷却时间
+		'''
 }
 
 NecklaceofVexation: {
+	DisplayName: 恼怒项链
+	Tooltip:
+		'''
+		随生命值降低，提升至多30%伤害
+		当前加成: [DAMAGE]%
+		所有攻击都会造成酸性毒液减益
+		复仇
+		'''
 }
 
 NuclearFuelRod: {
+	DisplayName: 核燃料棒
+	Tooltip:
+		'''
+		增加1格最大仆从栏位
+		仆从攻击会释放辐射光环
+		对辐射免疫
+		'''
 }
 
 Nucleogenesis: {
+	DisplayName: 核子之源
+	Tooltip:
+		'''
+		增加4格最大仆从栏位
+		对暗影焰和辐射免疫
+		增加15%召唤伤害和仆从击退
+		仆从会造成多种减益
+		仆从攻击会生成伤害火花
+		不与下位合成材料叠加
+		'''
 }
 
 OccultSkullCrown: {
+	DisplayName: 玄秘颅冠
+	Tooltip:
+		'''
+		你的怒气值会持续充能，即便是脱离战斗后怒气值也不会流失
+		将某些减益转化为正面增益并延长其持续时间
+		如果你对这些减益免疫，还会移除这些免疫效果
+		增加20%肾上腺素充能效率
+		增加5%最大移动速度和加速度
+		'''
+	HoldShiftTooltip:
+		'''
+		  受影响的减益：{$Buffs.ArmorCrunch.DisplayName}、{$BuffName.Blackout}、{$BuffName.Bleeding}、{$BuffName.BrokenArmor}、{$BuffName.Chilled}、{$BuffName.Confused}、
+		  {$BuffName.Cursed}、{$BuffName.Darkness}、{$BuffName.VortexDebuff}、{$BuffName.Ichor}、{$BuffName.Silenced}、{$BuffName.Slow}、{$BuffName.Weak}和{$Buffs.WhisperingDeath.DisplayName}
+		'''
+	FlavorTooltip: “只有打不过史莱姆王的人才戴这破烂……”
 }
 
 OceanCrest: {
+	DisplayName: 海波项链
+	Tooltip:
+		'''
+		在水下静止不动时可恢复氧气
+		潮湿时挖掘速度提高15%
+		'''
 }
 
 OldDie: {
+	DisplayName: 老旧骰子
+	Tooltip:
+		'''
+		增加20%运气值
+		“你很幸运，诅咒不会落到你头上。大概吧”
+		'''
 }
 
 OldDukeScales: {
+	DisplayName: 硫海遗爵之鳞
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		增加10%伤害减免，最大移动速度和加速度
+		增加25%冲刺速度和距离
+		在冷却栏中加入一个耐力追踪器
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/c3dfff:  使用任何冲刺会消耗20%耐力]
+		[c/c3dfff:  不进行冲刺后1.5秒，耐力会逐渐恢复]
+		[c/c3dfff:  静止时耐力恢复地更快]
+		[c/c3dfff:  如果耐力降到0%，你会进入疲惫状态]
+		[c/e3545c:  处于疲惫状态时，该物品的伤害减免和移动速度加成失效]
+		[c/e3545c:  疲惫状态下会降低30%移动速度和50%冲刺速度]
+		[c/c3dfff:  此减益会一直持续到耐力再次恢复至100%]
+		'''
 }
 
 OrnateShield: {
+	DisplayName: 宝光盾牌
+	Tooltip:
+		'''
+		获得冲刺能力
+		此冲刺可以在不受伤害的情况下撞击穿过敌怪
+		'''
 }
 
 PearlofEnthrallment: {
+	DisplayName: 魅惑珍珠
+	Tooltip:
+		'''
+		召唤水之元素为你而战
+		水之元素会待在你的上方并向附近敌人发射水矛、冰雾和音符
+		'''
 }
 
 PermafrostsConcoction: {
+	DisplayName: 永冻秘药
+	Tooltip:
+		'''
+		增加50点最大魔力值并降低15%魔力消耗
+		低于50%生命值时+0.5HP/s生命再生，低于25%生命值时+1HP/s生命再生，低于10%生命值时+2HP/s生命再生
+		受到任意火系减益时+3HP/s生命再生
+		受到致死伤害时会复活并将生命值回复至30%，此效果有3分钟冷却
+		复活后的3秒内你会被禁锢在寒冰屏障中
+		'''
 }
 
 PhantomicArtifact: {
+	DisplayName: 幻魂神物
+	Tooltip:
+		'''
+		仆从攻击会提供各种增益
+		不与下位合成材料叠加
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/8ce0ff:  幻魂之力][c/ccf1ff:会增加10%召唤伤害并向敌怪投掷幻魂之刃]
+		[c/d08aff:  幻魂坚盾][c/eed4ff:会增加10点防御和5%伤害减免，获得一个20%伤害减免的幻魂壁垒]
+		[c/ff8cb5:  幻魂还生][c/ffccde:会提供+1HP/s生命再生并偶尔掉落幻魂之心，接触时额外获得+1HP/s生命再生]
+		'''
 }
 
 PlaguedFuelPack: {
+	DisplayName: 瘟疫燃料背包
+	Tooltip:
+		'''
+		增加8%盗贼伤害和15%盗贼弹幕速度
+		增加10%潜行值恢复速度
+		按下 [KEY] 键消耗25%最大潜行值进行快速向上的斜冲
+		此冲刺会留下瘟疫毒云轨迹
+		此效果有1秒冷却时间
+		'''
 }
 
-PlagueHive: {
+PlanebreakersPouch: {
+	DisplayName: Planebreaker's Pouch
+	Tooltip:
+		'''
+		增加15%远程伤害和5%远程暴击率，并降低20%弹药消耗率
+		20%几率不消耗箭矢
+		按下 [KEY] 键会自动交换弹药槽中弹药的顺序
+		交换的弹药类型取决于你手持武器的弹药类型
+		'''
 }
 
 ProfanedSoulArtifact: {
+	DisplayName: 渎魂神物
+	Tooltip:
+		'''
+		召唤你自己的守卫与你一同战斗
+		攻击守卫会额外提供一个仆从栏位并在攻击时发射一圈圣矛
+		防御守卫会产生一个由亵渎岩加固的薄弱护盾
+		[ADREN]
+		护盾一旦破碎，亵渎岩会被向外送出并在受击5秒后再生
+		受伤会重置计时器
+		治疗守卫每几秒会回复你15点生命值
+		圣洁
+		'''
+	ShieldAdren: 如果所有伤害被吸收，则受击损失的肾上腺素减半
 }
 
 ProfanedSoulCrystal: {
+	DisplayName: 渎神魂晶
+	Tooltip:
+		'''
+		将你变身为亵渎之神的神使
+		[STATUS]
+		'''
+	Locked: "[c/F05A5A:这块水晶中的魂魄被{0}污染了。]"
+	LockedBoth: "[c/F05A5A:这块水晶中的魂魄被{0}和{1}污染了。]"
+	ExoMechsLock: 未知频率
+	CalamitasLock: 强大的硫火魔法
+	Reject: 商人会拒绝收购这样一个被玷污的物品
+	FullTooltip:
+		'''
+		基于一天中的时间给予被动增益
+		大幅增强亵渎守卫掉落的圣物的力量
+		如果你拥有{0}个仆从栏位可获得额外效果
+		召唤你自己的守卫与你一同战斗
+		所有非召唤攻击都被转换，且在没有仆从存在时效果会增强
+		[c/ffa680:近战][c/ffd2bf:攻击变为一波投矛]
+		[c/99ffa7:远程][c/bfffc8:攻击变为一阵火球与陨石]
+		[c/8cbeff:魔法][c/bfdbff:攻击变为巨大的分裂火球，消耗{1}魔力]
+		[c/d791f2:鞭子][c/e1b6f2:被亵渎水晶赐能]
+		[c/f285a2:盗贼][c/f2b6c6:攻击变为死亡水晶螺旋]
+		我的人生平淡无奇
+		[c/FFBF49:现在我们以纯化之名将其焚尽]
+		'''
+}
+
+ProtolithBangle: {
+	DisplayName: Protolith Bangle
+	Tooltip:
+		'''
+		远程攻击命中敌怪时生成必定暴击且能命中多个敌怪的大理石闪光
+		此效果具有7秒冷却
+		如果关闭饰品可见性，视觉效果和音效会减弱
+		[c/C5B965:“手腕上的冰冷大理石让你心神放松”]
+		'''
 }
 
 QuiverofNihility: {
+	DisplayName: 虚无箭袋
+	Tooltip:
+		'''
+		增加5%远程暴击率
+		召唤四个虚空力场环绕你
+		穿过力场的箭矢会获得75%的伤害加成且速度翻倍
+		“充满比夜空更暗的物质”
+		'''
 }
 
 Radiance: {
+	DisplayName: 辐辉
+	Tooltip:
+		'''
+		增加70点最大生命值
+		大幅提升生命再生，基于失去的生命值增强
+		根据你受到的减益增加额外防御，并大幅降低减益效果
+		当前加成：+[REGEN]HP/s和[DEFENSE]防御
+		饰品可见性开启时你会发出闪耀的蓝光
+		“一块曾经腐烂的水晶，现在闪烁着无瑕的纯净”
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/CDF69C:基于失去的生命值获得+2~+5HP/s生命再生]
+		[c/CDF69C:受到减益影响时每秒额外恢复6点生命值]
+		[c/CDF69C:随受到减益的时间延长，此效果逐渐降低至每秒1.33点生命值]
+		[c/CDF69C:获得蜂蜜增益]
+		[c/CDF69C:受到任何减益时会获得15点防御]
+		[c/CDF69C:每个额外减益会提供5点防御，如果未受到减益，增加的防御会逐渐消散]
+		[c/CDF69C:使较弱的伤害性减益无害化，并减半其他大多数减益的持续时间]
+		'''
 }
 
 RadiantOoze: {
+	DisplayName: 光泥
+	Tooltip:
+		'''
+		基于失去的生命值获得+{0}~+{1}HP/s生命再生
+		当前加成：+[REGEN]HP/s
+		饰品可见性开启时你会发出黄光
+		'''
 }
 
 RaidersTalisman: {
+	DisplayName: 掠夺者护符
+	Tooltip: 潜伏攻击会对非潜伏攻击提供15%暴击率加成，持续10秒
 }
 
 RampartofDeities: {
+	DisplayName: 神之壁垒
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		受到伤害时释放一阵追踪星星蜜蜂[TOGGLE]并将你浸在[cbuff:Honey]中
+		延长无敌帧时间，生命值越低或受到高伤害攻击时延长地越久
+		生命低于50%时降低25%所受伤害
+		生命值高于25%时会将团队中其他玩家所受伤害的25%转移到佩戴者身上
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:PanicNecklace] [c/aaaaaa:恐慌项链的效果]
+		'''
+	ToggleEffect: ，增加移动速度
+}
+
+RareElementalinaBottle: {
+	DisplayName: 稀有元素瓶
+	Tooltip:
+		'''
+		召唤一个沙暴元素来治疗你
+		;D
+		'''
 }
 
 ReaperToothNecklace: {
+	DisplayName: 猎魂鲨齿项链
+	Tooltip:
+		'''
+		增加20%伤害
+		增加15点护甲穿透
+		“取自顶级掠食者的恐怖战利品”
+		'''
 }
 
-Regenator: {
+Regenerator: {
+	DisplayName: 再生护符
+	Tooltip:
+		'''
+		你的生命值无法超过最大生命值的{0}%
+		提升受到伤害后的无敌时间长度
+		提供强大的特殊生命再生，每秒恢复{1}生命值
+		所有常规生命再生将被禁用，并转换为伤害
+		当前伤害加成：[DAMAGE]%
+		'''
 }
 
 RogueEmblem: {
+	DisplayName: 盗贼徽章
+	Tooltip: 增加15%盗贼伤害
 }
 
 RoseStone: {
+	DisplayName: 玫瑰石
+	Tooltip: 召唤硫磺火元素为你而战
 }
 
 RottenBrain: {
+	DisplayName: 腐烂之脑
+	Tooltip:
+		'''
+		受到伤害后生成一只沼泽之眼
+		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
+		'''
 }
 
 RottenDogtooth: {
+	DisplayName: 腐烂犬齿
+	Tooltip: 潜伏攻击会造成2.5秒粉碎减益并多造成8%伤害
 }
 
 RoverDrive: {
+	DisplayName: 钨钢屏障生成仪
+	Tooltip:
+		'''
+		获得一个{0}点生命值的屏障
+		[ADREN]
+		屏障会在受击{1}秒后开始再生生命值，需要{2}秒恢复至满生命值
+		受击会重置计时器
+		也可通过提炼机进行拆分
+		'''
+	ShieldAdren: 如果所有伤害被吸收，则受击损失的肾上腺素减半
 }
 
 RuinMedallion: {
-}
-
-RustyMedallion: {
+	DisplayName: 毁灭勋章
+	Tooltip:
+		'''
+		潜伏攻击只消耗75%的最大潜行值
+		增加6%盗贼伤害和盗贼暴击率
+		'''
 }
 
 SandCloak: {
+	DisplayName: 沙尘披风
+	Tooltip:
+		'''
+		冲刺产生一个大型保护性沙尘龙卷，伤害其中的敌人
+		沙尘龙卷持续15秒，但如果你再次冲刺将会提前消散
+		龙卷会缓慢跟随你，身处龙卷中的所有玩家获得4点防御，且加速度提升为1.75倍
+		龙卷消散后，有15秒冷却时间
+		'''
 }
 
 SandSharkToothNecklace: {
+	DisplayName: 旱海鲨牙项链
+	Tooltip:
+		'''
+		增加10点护甲穿透
+		增加10%伤害
+		'''
+}
+
+ScionsCurio: {
+	DisplayName: Scions Curio
+	Tooltip:
+		'''
+		远程攻击命中会提升辐射减益的效果
+		辐射的持续伤害受你的远程伤害和暴击率影响
+		击杀时，敌人会爆炸，散播辐射
+		受伤时小古玩会用爆炸来反击敌怪
+		'''
 }
 
 ScuttlersJewel: {
+	DisplayName: 潜遁者宝石
+	Tooltip:
+		'''
+		潜伏攻击的弹幕在击中或被摧毁时会生成宝石钉
+		也可以通过提炼机进行拆分
+		'''
+}
+
+SeaSpiritAmulet: {
+	DisplayName: Sea Spirit Amulet
+	Tooltip:
+		'''
+		缓慢积攒跟随你的灵魂珠，至多8个
+		当冲刺时，灵魂四散
+		如果[c/CB7AD7:生命值低于50%]，灵魂会治疗你，否则会攻击附近的敌怪
+		所有水系减益的伤害乘以1.35
+		如果关闭饰品可见性，灵魂珠会变得透明且安静
+		'''
 }
 
 ShatteredCommunity: {
+	DisplayName: 幻灭心元石
+	Tooltip:
+		'''
+		“幻灭于不可知的仇恨中，它仍然包含着归一心元石大部分的力量……”
+		增加10%伤害，最大生命值和移动速度
+		增加10点防御和+1HP/s生命再生
+		增加5%暴击率和伤害减免，以及20%飞行时间
+		[RAGEDESC]
+		受到伤害时会使你获得怒气值，该效果与你的防御属性无关
+		怒气模式激活时，受到伤害获得的怒气值会减半
+		在怒气模式下造成伤害能够进一步增加怒气模式的伤害加成
+		当前等级：[LEVEL] (+[LEVEL]% 怒气模式伤害)
+		距离下一等级：[PROGRESS]%
+		总怒气模式伤害：[DAMAGE]
+		'''
+	RageAdd:
+		'''
+		获得随时间充能的怒气条
+		越靠近敌怪，怒气条充能速度越快
+		当怒气条填满时，可以按下{0}键获得短暂的伤害提升
+		'''
+	RageModified: 你的怒气值会持续充能，即便是脱离战斗后怒气值也不会流失
+	LevelUpText: 归一心元石破碎了……
 }
 
 ShieldoftheHighRuler: {
+	DisplayName: 至高统治之盾
+	Tooltip:
+		'''
+		增加10点最大生命值
+		使你免疫击退和大多数减益
+		使你获得强化的克苏鲁护盾冲刺能力
+		撞击敌人会使冲刺冷却减半
+		如果弹幕从正面击中你，它造成的伤害降低15%
+		'''
+	HoldShiftTooltip:
+		'''
+		  着火了！、冷冻、霜冻、软弱、破损盔甲、流血
+		  剧毒、缓慢、困惑、沉默、诅咒、黑暗
+		  强风、石化、燃烧
+		'''
+	FlavorTooltip: “为了王国的命运”
 }
 
 ShieldoftheOcean: {
+	DisplayName: 海之盾
+	Tooltip:
+		'''
+		按下 [KEY] 键将激活一次格挡，将你包裹在一个泡泡中
+		在包裹后短时间内被击中会使泡泡破裂，对该次攻击提供60%伤害减免
+		当泡泡破裂时，附近的敌怪会被弹开，与物块碰撞时还会受到伤害
+		无法被弹开的敌怪会直接受到大量伤害
+		泡泡破裂后，伤害减免效果会进入20秒冷却
+		冷却期间，被格挡的伤害不会被减免，弹开也不会使敌怪受到碰撞伤害
+		'''
 }
 
 SigilofCalamitas: {
+	DisplayName: 灾厄符章
+	Tooltip:
+		'''
+		增加15%魔法伤害并降低10%魔力消耗
+		增加100点最大魔力值
+		扩大魔力星的拾取范围
+		'''
 }
 
 SilencingSheath: {
+	DisplayName: 寂静刀鞘
+	Tooltip: 增加10点最大潜行值和4%潜行值恢复速度
 }
 
 SlagsplitterPauldron: {
+	DisplayName: 熔火碎矿肩甲
+	Tooltip:
+		'''
+		你的冲刺会被火焰赋能，接触敌人时爆发
+		冲刺期间对击退免疫并获得10%伤害减免
+		被冲刺击中的敌人的盔甲会粉碎
+		如果关闭饰品可见性，视觉效果会减弱
+		'''
 }
 
 SpectralVeil: {
+	DisplayName: 幽灵披风
+	Tooltip:
+		'''
+		按下 [KEY] 键消耗25%最大潜行值，向鼠标方向进行传送并使你无敌
+		在无敌时间内闪避攻击时会使你的潜行值回复至满
+		受到混沌状态减益的影响时无法进行传送
+		增加15%潜行值恢复速度
+		“披风里面布满了尖牙利齿……”
+		'''
 }
 
 SpelunkersAmulet: {
+	DisplayName: 探险者护符
+	Tooltip: 使你获得洞穴探险增益并增加10%挖掘速度
 }
 
 SpiritGlyph: {
+	DisplayName: 灵魂浮雕
+	Tooltip: 仆从攻击会提供各种增益
+	HoldShiftTooltip:
+		'''
+		[c/8ce0ff:  灵魂力量][c/ccf1ff:会增加10%召唤伤害]
+		[c/d08aff:  灵魂防御][c/eed4ff:会增加4点防御]
+		[c/ff8cb5:  灵魂恢复][c/ffccde:会提供+1HP/s生命再生]
+		'''
 }
 
 StarbusterCore: {
+	DisplayName: 星爆核心
+	Tooltip:
+		'''
+		增加1格最大仆从栏位
+		仆从攻击会释放星体爆炸
+		'''
 }
 
 StarTaintedGenerator: {
+	DisplayName: 玷星之源
+	Tooltip:
+		'''
+		增加2格最大仆从栏位和7%召唤伤害
+		仆从攻击会释放星体爆炸并造成多种减益
+		对辐射免疫
+		不与下位合成材料叠加
+		'''
 }
 
 StatisBlessing: {
+	DisplayName: 斯塔提斯的祝福
+	Tooltip:
+		'''
+		增加2格最大仆从栏位和12%召唤伤害
+		增加仆从击退
+		'''
 }
 
 StatisCurse: {
+	DisplayName: 斯塔提斯的诅咒
+	Tooltip:
+		'''
+		增加3格最大仆从栏位和12%召唤伤害
+		增加仆从击退
+		仆从攻击会造成暗影焰减益并使你免疫暗影焰
+		不与下位合成材料叠加
+		'''
 }
 
 StatisNinjaBelt: {
+	DisplayName: 斯塔提斯的忍者腰带
+	Tooltip:
+		'''
+		获得高速冲刺的能力
+		增加10%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
+		将移动加速度和减速度提升为1.6倍
+		可以游泳[TOGGLE]和闪避攻击
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
+		'''
+	ToggleEffect: 、攀爬
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 StatisVoidSash: {
+	DisplayName: 斯塔提斯的虚空饰带
+	Tooltip:
+		'''
+		获得高速冲刺的能力
+		增加20%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
+		将移动加速度和减速度提升为1.85倍
+		可以游泳[TOGGLE]和闪避攻击
+		如果关闭饰品可见性，视觉效果会减弱
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
+		'''
+	ToggleEffect: 、攀爬
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 // Be warned translators, this thing fucking sucks
 StatMeter: {
+	DisplayName: 属性统计器
+	FoolsName: 意大利面过滤器
+	Tooltip:
+		'''
+		显示玩家几乎所有属性的数据
+		进攻/实用数据根据手持物品变化
+		[REV]
+		[ITEMS]
+		[GENERIC]
+		[ABYSS]
+		'''
+	RevStats:
+		'''
+		怒气模式伤害加成：{0}% | 怒气模式持续时间： {1} 秒
+		肾上腺素伤害加成：{2}% | 肾上腺素伤害减免加成：{3}%
+		'''
+
 	ClassNameOverride: {
+		Default: 无职业伤害（不受任何加成影响）
+		Generic: 无职业伤害
+		NoSpeed: （不受攻速加成影响）
+		SummonMeleeSpeed: （鞭子）
 	}
+
+	DamageStats:
+		'''
+		伤害类型：{0}
+		伤害加成：{1}
+		护甲穿透：{2}
+		'''
+	DamageBase: "[{0} 基础伤害] +"
+	DamageNormal: "{0}%"
+	DamageMult: " x{0}"
+	DamageFlat: " {0} 固定伤害"
+	Crit: " | 暴击率：{0}%"
+	AttackSpeed: 攻速：{0}%
+	WhipMeleeInheritance: " [{0}% 继承自近战攻速]"
+	// Class stats
+	AmmoStats: 弹药消耗率：{0}%
+	ManaStats: 魔力值消耗：{0}% | 魔力值恢复速度：{1}
+	SummonStats: 仆从栏位数量：{0} | 哨兵栏位数量：{1}
+	WhipStats: 鞭子范围提升：{0}%
+	RogueStats:
+		'''
+		最大潜行值：{0} | 站定恢复速度：{1} / 秒 | 移动时恢复速度：{2} / 秒
+		盗贼弹幕飞行速度提升：{3}%
+		'''
+	// Utility stats
+	ToolRange: 工具范围加成：({0}, {1})
+	MiningSpeed: " | 挖掘速度加成：{0}%"
+	PlacementRange: 放置范围加成：({0}, {1})
+	TileSpeed: " | 物块放置速度加成：{0}%"
+	WallSpeed: " | 墙放置速度加成：{0}%"
+	// Other stats
+	GenericStats:
+		'''
+		防御力：{0} | 伤害减免：{1}% |生命再生：{2} HP/s
+		移速：{3}% | 跳跃提升：{4}%
+		'''
+	FlightTime: " | 飞行时间：{0} 秒"
+	MiscStats: 仇恨值：{0} | 运气值：{1}%
+	AbyssStats:
+		'''
+		深渊光照强度：{0}
+		呼吸困难程度：{1}
+		呼吸条耗尽后生命流失速度：{2}
+		防御削减：{3}
+		'''
+	AbyssStatsHidden: 其他深渊状态数据只有身处深渊才会显示
 }
 
 StressPills: {
+	DisplayName: 压力药丸
+	Tooltip:
+		'''
+		增加20%肾上腺素充能效率
+		增加5%移动速度和加速度
+		'''
 }
 
 SupremeBaitTackleBoxFishingStation: {
+	DisplayName: 万能渔具包
+	Tooltip:
+		'''
+		增加50点渔力
+		钓鱼线永远都不会断，降低鱼饵消耗率
+		可以在熔岩中钓鱼
+		'''
+}
+
+TeslasAmulet: {
+	DisplayName: Tesla's Amulet
+	Tooltip:
+		'''
+		生成一个减速敌怪的电场
+		关闭饰品可见性时电场会变得透明
+		降低Static Discharge减益的持续时间
+		'''
 }
 
 TheAbsorber: {
+	DisplayName: 阴阳吸星石
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		增加{0}%移动速度和跳跃速度
+		攻击者会受到极高伤害以及一个残废性疾病减益
+		使用治疗药水后会产生一个持续{1}秒的绿色光环
+		首次进入光环会净化所有减益，光环内会提供+{2}HP/s生命再生，{3}%伤害和{4}%伤害减免
+		敌人攻击{5}%的伤害会被转化为对你的治疗
+		'''
 }
 
 TheAmalgam: {
+	DisplayName: 聚合之脑
+	Tooltip:
+		'''
+		增加10%伤害
+		所有攻击都造成多种减益，并且将所有元素减益伤害提升至3倍
+		大部分增益持续时间翻倍并且死亡后也仍然存在
+		受到伤害后困惑附近敌怪并生成一只沼泽之眼
+		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
+		使你获得闪避攻击的能力
+		闪避攻击后召唤伤害和暴击率会增加10%
+		“你毫无头绪这些东西是怎么聚在一起的”
+		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 TheBee: {
+	DisplayName: 蜜蜂护符
+	Tooltip:
+		'''
+		在生命值全满时基于你的伤害减免增加伤害
+		在生命值全满时受到的伤害减半
+		任何能量护盾必须充满才能使以上效果生效
+		减半伤害的效果有6秒冷却时间
+		'''
 }
 
 TheCamper: {
+	DisplayName: 露营者
+	Tooltip:
+		'''
+		除非站定不动，否则降低50%造成的伤害
+		站定不动时基于手持的武器给予增益并在你周为生成伤害光环
+		移动时会像站定不动时再生生命
+		{$Common.AbyssLightLevel1}
+		“只有休息好才能取得战斗的胜利”
+		'''
 }
 
 TheCommunity: {
+	DisplayName: 归一心元石
+	Tooltip:
+		'''
+		[STATS]
+		“广大泰拉玩家的精神结晶”
+		感谢众多支持者的努力，让这一模组成为现实！
+		也感谢汉化组的各位的努力，让灾厄模组的汉化成为可能！
+		'''
+	StatsList:
+		'''
+		提升{0}%伤害和{1}%暴击率
+		增加{2}%最大生命值，{3}%伤害减免以及{4}防御力
+		受到伤害性减益时+{5}HP/s生命再生
+		增加{6}%移动速度和{7}%飞行时间
+		随着你击败诸多Boss会变得更加强力（已解锁{8}%）
+		'''
 }
 
 TheEvolution: {
+	DisplayName: 进化者
+	Tooltip:
+		'''
+		反弹击中你的弹幕，抵消其伤害并对敌怪造成10倍伤害
+		{$Common.ReflectInformation}
+		反弹一道弹幕后，你会获得最高的自然生命再生，持续10秒
+		冷却期间再次被相同弹幕击中时，此弹幕对你造成的伤害降低25%
+		'''
 }
 
 TheFirstShadowflame: {
+	DisplayName: 始源暗影炎
+	Tooltip:
+		'''
+		增加1格最大仆从栏位
+		仆从攻击会造成暗影焰减益并使你对暗影焰免疫
+		'''
 }
 
 TheSponge: {
+	DisplayName: 化绵留香石
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		获得一个{0}点生命值的屏障
+		屏障激活时会提供{1}%伤害减免
+		[ADREN]
+		屏障会在受击{2}秒后开始再生生命值，需要{3}秒恢复至满生命值
+		受击会重置计时器
+		'''
+	ShieldAdren: 如果所有伤害被吸收，则受击损失的肾上腺素减半
 }
 
 TheTransformer: {
+	DisplayName: 变压器
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		在你周围生成转换圈，当有弹幕穿过或敌怪死亡时，会生成不断变形的液态金属滴
+		液态金属滴会环绕你，对命中的敌人造成少量伤害和击退
+		圈中至多同时容纳30个液态金属滴
+		按下 [KEY] 键将所有液态金属滴转换为针状，并向你的光标发射
+		“你是怎么从时尚小垃圾里拼出这玩意的？它没把你也转换了真是谢天谢地”
+		'''
+	TooltipGFB:
+		'''
+		在你周围生成转换圈，当有弹幕穿过或敌怪死亡时，会生成不断变形的液态金属滴
+		液态金属滴会环绕你，对命中的敌人造成少量伤害和击退
+		圈中能够容纳的液态金属滴没有上限，但你的电脑可能有
+		按下 [KEY] 键将所有液态金属滴转换为针状，并向你的光标发射
+		“虽然不是牛肉坦克学说，但绝对有「突破」级强度！”
+		'''
 }
 
 ToxicHeart: {
+	DisplayName: 毒疫之心
+	Tooltip:
+		'''
+		你的心脏与瘟疫一同脉动，向体外释放脉冲
+		脉冲频率与生命再生相关，且击杀敌怪的脉冲会再次释放脉冲并治疗你
+		所有疫病减益的伤害倍率乘以1.5
+		如果关闭饰品可见性，饰品效果会变得透明且安静
+		'''
 }
 
 TrinketofChi: {
+	DisplayName: 气功念珠
+	Tooltip:
+		'''
+		10秒不受到伤害后获得8%伤害减免
+		此增益在受击后消失
+		为你和你的队友提供+1HP/s生命再生
+		'''
 }
 
 UnstableGraniteCore: {
+	DisplayName: 不稳定花岗岩核心
+	Tooltip:
+		'''
+		周期性生成一个不稳定能量场，能量场会用电弧能量反复打击附近的敌人
+		电弧能量能够穿透大部分防御
+		'''
 }
 
 VampiricTalisman: {
+	DisplayName: 吸血鬼符咒
+	Tooltip:
+		'''
+		盗贼暴击时会汲取敌人生命
+		潜伏攻击会对非潜伏攻击提供15%暴击率加成和更多的生命偷取，持续10秒
+		潜伏攻击会造成重度出血和碎甲减益并多造成8%伤害
+		'Possessing the talisman makes you yearn for blood'
+		'''
+	YearningForBlood: THIS ENDLESS HUNGER WON'T END
 }
 
 VeneratedLocket: {
+	DisplayName: 敬天神盗盒
+	Tooltip:
+		'''
+		增加10%盗贼伤害
+		盗贼弹幕会从光标上方召唤一个复制品
+		潜伏攻击会释放一圈自动追踪敌人的宇宙匕首
+		“无论你去哪儿，你总不会孤身一人”
+		'''
 }
 
 VitalJelly: {
+	DisplayName: 活力胶质
+	Tooltip: 提高12%移动速度和跳跃速度
 }
 
 VoidofCalamity: {
+	DisplayName: 灾劫虚空
+	Tooltip:
+		'''
+		增加12%伤害
+		被击中时会使硫磺火雨从天而降
+		'''
 }
 
 VoidofExtinction: {
+	DisplayName: 终结虚空
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedCritChance}
+		暴击会产生爆炸，并用[cbuff:CalamityMod/BrimstoneFlames]引燃附近的敌人
+		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]造成的伤害
+		'''
 }
 
 VoltaicJelly: {
+	DisplayName: 伏打凝胶
+	Tooltip:
+		'''
+		增加1格最大仆从栏位
+		仆从攻击会施加Static Discharge
+		'''
 }
 
-WarbanneroftheSun: {
-}
-
-WifeinaBottle: {
-}
-
-WifeinaBottlewithBoobs: {
+WarbanneroftheRighteous: {
+	DisplayName: Warbanner of the Righteous
+	Tooltip:
+		'''
+		基于你离敌怪的距离提供乘算伤害加成
+		最近提供15%伤害，最远降低15%伤害
+		迸发炽烈的光环，灼烧并击退周围的敌怪
+		敌怪离你越近，接近时间越长，受到的伤害越高
+		如果关闭饰品可见性，饰品效果会变得透明且安静
+		'''
 }
 
 WulfrumAcrobaticsPack: {
+	DisplayName: 钨钢杂技背包
+	Tooltip:
+		'''
+		提供一个钨钢弹弓
+		弹弓的属性随你装备的钩爪而变化
+		如果装备的钩爪拥有特殊效果，弹弓也可受益
+		弹弓允许你驾驭高级绳索摆动物理学
+		按住{$Key.DOWN}或{$Key.UP}来收回或伸长弹弓的绳索
+		在侦测到致命跌落时会自动尝试抓住附近的墙壁
+		按住{$Key.DOWN}时，此安全功能将不会激活
+		增加8%移动速度
+		'''
 }
 
 WulfrumBattery: {
+	DisplayName: 钨钢电池
+	Tooltip:
+		'''
+		开启饰品可见性时你的召唤物会散发光芒
+		增加7%召唤伤害
+		钨钢敌怪会额外掉落碎片
+		也可以通过提炼机进行拆分
+		'''
 }
 
 YharimsGift: {
+	DisplayName: 寻神者之礼
+	Tooltip:
+		'''
+		{$Common.KnockbackImmunity}
+		被击中时会使燃火流星从天而降
+		移动时会在身后留下爆裂龙尘
+		增加15%伤害和移动速度
+		[c/FCA92B:“神的力量蕴藏于其中”]
+		'''
 }
 
 // Vanity Accessories
 AbandonedWulfrumHelmet: {
+	DisplayName: 废弃钨钢头盔
+	Tooltip:
+		'''
+		一个磨损生锈的头盔，看起来像是老式的钨钢头盔
+		装备在饰品栏可将持有者变成钨钢机器人
+		也可以像普通头盔一样穿戴在头盔栏和对应的时装栏里
+		[c/83B87E:“拾荒者和劫掠者常常穿着这种脆弱的盔甲]
+		[c/83B87E:其丰富的功能性以及通用性让它也能作为一种货币在交易中使用”]
+		'''
 }
 
-CrystalHeartVodka: {
+GhostBracelet: {
+	DisplayName: Ghost Bracelet
+	Tooltip: Wow.... It looks at me with its hollow eyes full of curiosity
 }
 
-CocosFeather: {
+GoldenBomb: {
+	DisplayName: Golden Bomb
+	Tooltip: "'I AM THE BOMB'"
 }
 
 HapuFruit: {
+	DisplayName: 心跳果
+	Tooltip: “一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”
+}
+
+LucisSight: {
+	DisplayName: Luci's Sight
+	Tooltip: "'Fashionable glasses? In Earthia's current economy?!'"
 }
 
 OracleHeadphones: {
+	DisplayName: 神谕耳机
+	Tooltip: “嘿，游戏结束！”
 }
 
 Popo: {
+	DisplayName: 魔法围巾帽
+	Tooltip:
+		'''
+		将装备者变成雪人
+		“不要让恶魔抢走你的鼻子！”
+		'''
 }
 
-RedBow: {
+SharkyPlush: {
+	DisplayName: Sharky Plush
+	Tooltip: "[c/696969:'Look out, for the force without form...']"
+}
+
+TheComb: {
+	DisplayName: The Comb
+	Tooltip:
+		'''
+		使穿戴者的头发光泽耀人
+		闪光粒子会被附近的宝箱吸引
+		“我们可不找屎”
+		'''
+}
+
+XyksBlessingBlue: {
+	DisplayName: Xyk's Blessing (Blue)
+	Tooltip:
+		'''
+		为你的冲刺，翅膀和死亡添加视觉效果
+		<right>以改变形态
+		'It's simply too much to turn back now; passion and time have long since stained it.
+		[c/5f8ae1:Have I always been so selfish?']
+		'''
+}
+
+XyksBlessingOrange: {
+	DisplayName: Xyk's Blessing (Orange)
+	Tooltip:
+		'''
+		为你的冲刺，翅膀和死亡添加视觉效果
+		<right>以改变形态
+		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
+		[c/E1B65F:Prove that it was never a waste.']
+		'''
 }

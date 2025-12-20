@@ -1,9 +1,9 @@
 displayName = 灾厄Mod-汉化补丁
 author = Kcovin&灾厄维基汉化组
 version = 4.0
-modReferences = CalamityMod
-weakReferences =  CalamityModMusic
+modReferences = CalamityMod,CalamityModMusic
+weakReferences =  CalamityHunt
 hideCode = true
 buildIgnore = *.csproj, compile_temp\*, obj\*, bin\*, .vs\*. lib\*, Scripts\*
-side=client
+side= NoSync
 translationMod = true

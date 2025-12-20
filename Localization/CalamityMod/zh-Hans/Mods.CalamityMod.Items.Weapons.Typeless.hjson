@@ -1,23 +1,71 @@
 Aestheticus: {
+	DisplayName: 美学魔杖
+	Tooltip:
+		'''
+		发射爆炸水晶减速敌人
+		受所有的伤害属性加成
+		'''
+}
+
+ClaretCannon: {
+	DisplayName: 深红手炮
+	Tooltip:
+		'''
+		发射一发超浓缩深红子弹
+		深红子弹在命中敌怪时爆炸，并释放出血珠
+		爆炸将撕碎敌怪，造成[cbuff:CalamityMod/Laceration]减益并巨幅降低其防御
+		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
+		没有[cbuff:PotionSickness]时，将会增强自然生命再生
+		每10秒钟只能发射一次
+		'''
 }
 
 EyeofMagnus: {
+	DisplayName: 马格努斯之眼
+	Tooltip:
+		'''
+		发射追踪宇宙物质，命中时恢复生命和魔力
+		爆炸成削弱敌怪防护能力的星云
+		受所有伤害属性的平均值加成
+		'''
 }
 
 LunicEye: {
+	DisplayName: 星光之眼
+	Tooltip:
+		'''
+		发射能够削弱敌怪防护能力的追踪能量矢
+		受所有伤害属性的平均值加成
+		'''
 }
 
 RelicOfDeliverance: {
-}
-
-RelicOfResilience: {
+	DisplayName: 渡魂圣物
+	Tooltip:
+		'''
+		<left>骑乘上矛，长按<left>进一步驱动长矛，并使你减速
+		释放左键将你以高速发射出去，但有Boss存活时速度减半
+		蓄力时失去太多速度将终止蓄力，并重置你的速度
+		冲刺能使你撞击穿过敌怪，也能穿过物块
+		滞留在物块中过久会将你传送回进入物块的位置
+		<right>脱离长矛
+		举起这柄长矛会大幅降低所有召唤物的伤害
+		[c/FF8C00:复仇驱使着我，我的脑海中别无他物，唯有复仇。]
+		[c/FF8C00:巨龙从我身上夺走了一切，支离破碎，散落一地。]
+		[c/FF8C00:但当我在她身边起舞时，方知有物值得为之而战。]
+		'''
 }
 
 Skynamite: {
+	DisplayName: 天蓝炸药
+	Tooltip:
+		'''
+		扔出一个无视重力的悬浮炸药
+		”你无需精通空气动力学就能扔这玩意“
+		'''
 }
 
 StarStruckWater: {
-}
-
-YanmeisKnife: {
+	DisplayName: 星水
+	Tooltip: 向一些物块蔓延星辉瘟疫
 }

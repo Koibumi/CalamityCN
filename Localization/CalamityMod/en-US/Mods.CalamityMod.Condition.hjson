@@ -1,3 +1,62 @@
 // Drop conditions
 Drops: {
+	CataclysmKilledLast: Drops if defeated after {$NPCs.Catastrophe.DisplayName}
+	CatastropheKilledLast: Drops if defeated after {$NPCs.Cataclysm.DisplayName}
+	Cynosure: After defeating both Draedon and Calamitas
+	DownedDS: After defeating the Desert Scourge
+	DownedCrab: After defeating Crabulon
+	DownedHM: After defeating the Hive Mind
+	DownedPerfs: After defeating the Perforators
+	DownedHMOrPerfs: After defeating the Hive Mind or the Perforators
+	DownedSG: After defeating the Slime God
+	DownedCryo: After defeating Cryogen
+	DownedAS: After defeating the Aquatic Scourge
+	DownedBrim: After defeating the Brimstone Elemental
+	DownedDest: After defeating the Destroyer
+	DownedCal: After defeating Calamitas Clone
+	DownedCalPlant: After defeating Calamitas or Plantera
+	DownedLevi: After defeating the Leviathan and Anahita
+	DownedAureus: After defeating Astrum Aureus
+	DownedPBG: After defeating the Plaguebringer Goliath
+	DownedRav: After defeating the Ravager
+	DownedAD: After defeating Astrum Deus
+	DownedGuard: After defeating the Profaned Guardians
+	DownedBirb: After defeating the Dragonfolly
+	DownedProv: After defeating Providence
+	DownedSig: After defeating Signus
+	DownedSW: After defeating the Storm Weaver
+	DownedCV: After defeating the Ceaseless Void
+	DownedPolter: After defeating the Polterghast
+	DownedOD: After defeating the Old Duke
+	DownedDoG: After defeating the Devourer of Gods
+	DownedYharon: After defeating Yharon
+	DownedExos: After defeating the Exo Mechs
+	DownedSCal: After defeating Calamitas
+	DownedAEW: After defeating the Primordial Wyrm
+	DownedClam: After defeating the Giant Clam
+	DownedClamHM: After defeating the Giant Clam in Hardmode
+	DownedGSS: After defeating the Great Sand Shark
+	DownedBetsy: After defeating Betsy
+	DownedT1AR: After defeating the first tier of Acid Rain
+	DownedT2AR: After defeating the second tier of Acid Rain
+	FirstKill: Drops only on the first kill
+	MechBoss: Drops on the first kill of the final Mechanical Boss
+	ProvidenceEnraged: Drops if Providence has been enraged
+	ProvidenceChallenge:
+		'''
+		Drops if Providence was defeated only with the [i:CalamityMod/ProfanedSoulArtifact] Profaned Soul Artifact
+		{$Bestiary_ItemDropConditions.IsExpert}
+		'''
 }
+
+// Other conditions
+HasFlareGun: While holding a Flare Gun upgrade
+LacewingBestiary: When at least 40% of the Bestiary has been completed
+HasRogueArmor: While wearing rogue armor
+HasWings: While wearing wings
+InAstral: In the Astral Infection
+InCrag: In the Brimstone Crags
+InSulph: In the Sulphurous Sea
+InSunken: In the Sunken Sea
+InRev: In Revengeance Mode
+InRevOrMM: In Revengeance Mode or in Master Mode

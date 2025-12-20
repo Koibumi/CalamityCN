@@ -1,62 +1,181 @@
 AstralSolution: {
+	DisplayName: 星源溶液
+	Tooltip:
+		'''
+		可由环境改造枪使用
+		蔓延星辉瘟疫
+		'''
 }
 
 BloodfireArrow: {
+	DisplayName: 血炎箭
+	Tooltip:
+		'''
+		尖端浸透鲜血的高速箭矢，造成1.3倍伤害
+		射出这些箭矢会消耗你的生命值
+		命中时加快自然生命再生并为你回复生命值
+		'''
 }
 
 BloodfireBullet: {
+	DisplayName: 血炎弹
+	Tooltip:
+		'''
+		可以穿过物块，并在命中时基于致命程度加快你的自然生命再生
+		基于你当前的生命再生与自然生命再生造成额外伤害
+		此伤害上限为1.1倍
+		'''
 }
 
 BloodRune: {
+	DisplayName: 血之符文
+	Tooltip:
+		'''
+		由寒冰弹幕使用
+		“在某些类似符文的壁画上发现的”
+		'''
 }
 
 BubonicRound: {
+	DisplayName: 鼠疫弹
+	Tooltip: 命中时散播瘟疫并无视敌人10%防御
 }
 
 CinderArrow: {
-}
-
-ElysianArrow: {
-}
-
-FlashRound: {
-}
-
-GodSlayerSlug: {
-}
-
-HallowPointRound: {
-}
-
-HolyFireBullet: {
-}
-
-HailstormBullet: {
-}
-
-HyperiusBullet: {
-}
-
-IcicleArrow: {
-}
-
-MarksmanRound: {
-}
-
-MortarRound: {
-}
-
-RubberMortarRound: {
-}
-
-SproutingArrow: {
+	DisplayName: 余烬箭
+	Tooltip: 爆炸成弱性燃烧硫磺火碎片的箭矢
 }
 
 DryadsTear: {
+	DisplayName: 树妖之泪
+	Tooltip: 撞击时分裂出无视敌怪10点防御的追踪碎片
+}
+
+ElysianArrow: {
+	DisplayName: 极乐之箭
+	Tooltip: 撞击时从上方和下方向最近的敌怪召唤净化之光
+}
+
+FlashRound: {
+	DisplayName: 眩晕弹
+	Tooltip:
+		'''
+		具有反弹能力的子弹，每次反弹都将造成更多伤害
+		每次反弹的伤害加成是1.13倍和2点之间的较高者
+		'''
+}
+
+GodSlayerSlug: {
+	DisplayName: 弑神弹
+	Tooltip:
+		'''
+		具有无限穿透能力的重型弹药，其威力足以撕裂时空
+		命中目标的子弹会扭曲时空至玩家身后并超级充能，击中敌怪后碎裂
+		'''
+}
+
+HailstormBullet: {
+	DisplayName: 冰雹风暴弹
+	Tooltip:
+		'''
+		发射后速度会快速衰减
+		暴击会引发霜爆，造成额外伤害并冻结非Boss敌怪
+		'''
+}
+
+HallowPointRound: {
+	DisplayName: 神圣空尖弹
+	Tooltip:
+		'''
+		命中时释放圣光，将子弹的基础伤害提升至[DAMAGE]
+		如果弹药被特殊枪械转化，则此效果不生效
+		'''
+}
+
+HolyFireBullet: {
+	DisplayName: 圣火弹
+	Tooltip:
+		'''
+		造成1.15倍伤害，并在撞击时爆炸的亵渎子弹
+		如果开火后立刻撞击，爆炸范围更大且子弹造成更高伤害
+		额外伤害加成至多为1.15倍
+		'''
+}
+
+HyperiusBullet: {
+	DisplayName: 海伯里斯弹
+	Tooltip:
+		'''
+		耀眼的多彩子弹，撞击时分裂出闪烁的色彩漩涡
+		该子弹造成的伤害会被储存在目标上
+		随储存的伤害增多，将会开始溢出，缓慢地释放并对目标造成伤害
+		来自海伯里斯弹以外的攻击将会释放部分储存的伤害
+		这种释放方式会造成额外20%伤害
+		'''
+}
+
+IcicleArrow: {
+	DisplayName: 冰锥箭
+	Tooltip:
+		'''
+		发射后箭矢会快速冻结为天降冰锥
+		在箭矢完全冻结前击中敌怪或物块会使它向上反弹
+		'''
+}
+
+MarksmanRound: {
+	DisplayName: 神射手弹
+	Tooltip:
+		'''
+		一种精心制作的子弹，可以在钱币上反弹
+		这允许其他枪械可以利用神枪手柯尔特或迈达斯统帅抛出的硬币
+		'''
+}
+
+MortarRound: {
+	DisplayName: 迫击炮弹
+	Tooltip:
+		'''
+		专用高爆弹
+		爆炸范围大。会摧毁物块
+		可由普通枪械使用
+		'''
+}
+
+RubberMortarRound: {
+	DisplayName: 橡胶迫击炮弹
+	Tooltip:
+		'''
+		专用高爆弹
+		爆炸范围大。每次反弹时都会摧毁物块
+		可由普通枪械使用
+		'''
+}
+
+SproutingArrow: {
+	DisplayName: 春芽箭
+	Tooltip:
+		'''
+		射出一支迅速一分为二的能量箭矢
+		这些箭矢无视8点防御
+		'''
 }
 
 VanquisherArrow: {
+	DisplayName: 征戮箭
+	Tooltip:
+		'''
+		可以穿过物块并能追踪敌怪
+		击中敌怪时撕裂虚空
+		'''
 }
 
 VeriumBolt: {
+	DisplayName: 钫箭
+	Tooltip:
+		'''
+		命中时标记敌人，短时间后造成额外伤害
+		此伤害随命中箭矢数量增加而逐步叠加
+		已经扎满了……
+		'''
 }

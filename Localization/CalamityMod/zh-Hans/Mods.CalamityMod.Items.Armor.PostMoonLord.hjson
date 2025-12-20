@@ -1,143 +1,743 @@
 AuricTeslaBodyArmor: {
+	DisplayName: 古圣金源盔甲
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
 }
 
 AuricTeslaCuisses: {
+	DisplayName: 古圣金源腿甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		提供魔法飞毯效果
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:FlyingCarpet] [c/aaaaaa:飞毯的效果]
+		'''
 }
 
-AuricTeslaHoodedFacemask: {
+AuricTeslaHeadRanged: {
+	DisplayName: 金兜铁面盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus:
+		'''
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadRanged.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadRanged.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		继承自弑神者套装的套装奖励：
+		{$GodSlayerHeadRanged.SetBonusEffect}
+		'''
 }
 
-AuricTeslaPlumedHelm: {
+AuricTeslaHeadRogue: {
+	DisplayName: 金羽十杀盔
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadRogue.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadRogue.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		继承自弑神者套装的套装奖励：
+		{$GodSlayerHeadRogue.SetBonusEffect}
+		'''
 }
 
-AuricTeslaRoyalHelm: {
+AuricTeslaHeadMelee: {
+	DisplayName: 金源耀日盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		龙蒿套装、血炎套装和弑神者套装的套装奖励
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadMelee.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadMelee.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		继承自弑神者套装的套装奖励：
+		{$GodSlayerHeadMelee.SetBonusEffect}
+		'''
 }
 
-AuricTeslaSpaceHelmet: {
+AuricTeslaHeadSummon: {
+	DisplayName: 金宇星界盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		龙蒿套装、血炎套装和始源林海套装的套装奖励
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadSummon.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadSummon.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		继承自始源林海套装的套装奖励：
+		{$SilvaHeadSummon.SetBonusEffect}
+		'''
 }
 
-AuricTeslaWireHemmedVisage: {
+AuricTeslaHeadMagic: {
+	DisplayName: 金虚万象盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus:
+		'''
+		龙蒿套装、血炎套装和始源林海套装的套装奖励
+		按住 Shift 查看这些套装奖励，点按 Shift 切换到下一个
+		'''
+	SetBonus1:
+		'''
+		继承自龙蒿套装的套装奖励：
+		{$TarragonHeadMagic.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		继承自血炎套装的套装奖励：
+		{$BloodflareHeadMagic.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		继承自始源林海套装的套装奖励：
+		{$SilvaHeadMagic.SetBonusEffect}
+		'''
 }
 
 BloodflareBodyArmor: {
+	DisplayName: 血炎铠甲
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	CommonSetBonus:
+		'''
+		大幅增加生命再生，等同于猩红盔甲
+		击中一个生命值低于50%的敌人会掉落红心
+		这个效果有5秒冷却时间
+		'''
 }
 
 BloodflareCuisses: {
+	DisplayName: 血炎护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
 }
 
 BloodflareHeadMagic: {
+	DisplayName: 血魇九头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus: "{$BloodflareHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		魔法武器每{0}秒会发射一个灵魂弹幕
+		魔法武器暴击每{1}秒会产生血爆
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadMelee: {
+	DisplayName: 血碾溃阵盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}和{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$BloodflareHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		使用真近战武器打击敌人{0}次进入鲜血狂怒状态，持续{1}秒
+		此期间近战伤害和暴击率提升{2}%，来自敌人的接触伤害降低{3}%
+		此效果有{4}秒冷却时间
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadRanged: {
+	DisplayName: 血弑曲角盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+		'''
+	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		{0}释放噬魂幽花的冤魂摧毁你的敌人
+		此效果有{1}秒冷却时间
+		远程武器每{2}秒发射出一个爆炸血炎珠
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadRogue: {
+	DisplayName: 血饮魔精盔
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$BloodflareHeadRogue.SetBonusEffect@1}
+		'''
+	SetBonusEffect:
+		'''
+		高于{0}%生命值时增加{1}点防御
+		盗贼武器暴击会爆出血珠
+		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadSummon: {
+	DisplayName: 血戮狂龙盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$BloodflareHeadSummon.SetBonusEffect@2}
+		'''
+	SetBonusEffect:
+		'''
+		召唤噬魂幽花地雷环绕你
+		低于{0}%生命值增加{1}点防御
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 DemonshadeBreastplate: {
+	DisplayName: 魔影装甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@3}
+		站立不动时吸收暗影以获取指数加速的生命再生
+		'''
 }
 
 DemonshadeGreaves: {
+	DisplayName: 魔影护胫
+	Tooltip: 魔影极速
 }
 
 DemonshadeHelm: {
+	DisplayName: 魔影头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedDamage@1}和{$CommonItemTooltip.PercentIncreasedCritChance@2}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		受伤时发射暗影射线和恶魔镰刀
+		召唤一只友善的红恶魔为你战斗
+		{2}以黑魔法咒语激怒周围的敌人{3}秒
+		这道咒语使它们受到{4}倍的伤害，同时它们对你造成{5}倍伤害
+		'''
 }
 
 EmpyreanCloak: {
+	DisplayName: 皇天斗篷
+	Tooltip: "{$Common.RogueDamage}和{$Common.RogueCrit@1}"
 }
 
 EmpyreanCuisses: {
+	DisplayName: 皇天腿甲
+	Tooltip:
+		'''
+		{$Common.RogueDamageCrit}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 EmpyreanMask: {
+	DisplayName: 皇天面具
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$Common.RogueVelocity@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		盗贼弹幕击中敌人产生特殊效果
+		受伤时受到来自宇宙的怒火加持
+		'''
 }
 
 FearmongerGreathelm: {
+	DisplayName: 神惧者头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@2}
+		你的双眼迸发出纯粹的恐惧之源
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		手持非召唤武器时仆从造成的伤害不再降低
+		免疫除最强形式外的一切霜，火相关的减益
+		仆从攻击会提供+{1}HP/s生命再生并大幅加速生命再生
+		'''
 }
 
 FearmongerGreaves: {
+	DisplayName: 神惧者护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 FearmongerPlateMail: {
+	DisplayName: 神惧者板甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		增加{2}点最大生命值和{3}%伤害减免
+		'''
 }
 
 GemTechBodyArmor: {
+	DisplayName: 天钻胸甲
+	Tooltip: “你怎么可以如此堕落！先前的作战方案都让你喂猪了吗？”
 }
 
 GemTechHeadgear: {
+	DisplayName: 天钻头饰
+	Tooltip: “恶魔说：好了你赢了，收拾东西滚蛋吧”
+	AbilityBrief: "[c/{0}:强力宝石 - 六个宝石碎片缓缓绕着你旋转；其中五个对应五个职业，还有一个基础宝石]"
+	AbilityDescription:
+		'''
+		每一个激活的宝石都会给对应职业极大的加成，防御宝石则提供对防御的提升
+		强大的敌人会破坏宝石，宝石会射出并对最近的敌人造成大量伤害
+		破碎的宝石会在一段时间后重新凝聚
+		失去的宝石对应你使用的武器的职业，所以最好准备一些武器来切换！
+		'''
+	GeneralGemInfo:
+		'''
+		如果一次受到超过{0}的伤害，你会损失一个宝石
+		失去的宝石与你最近一次使用的武器职业相对应
+		如果你已经损失了那个宝石，那么这次失去的将会是基础宝石
+		宝石在损失时会破碎，并向最近的敌人或Boss飞去，造成{1}基础伤害
+		破碎的宝石需要{2}秒来重新凝聚
+		'''
+	RedGemInfo: "[i:CalamityMod/GemTechRedGem] 红色宝石给予{0}最大潜行值，增加盗贼属性，并让非盗贼武器不消耗潜行值"
+	YellowGemInfo: "[i:CalamityMod/GemTechYellowGem] 黄色宝石增加近战属性，让近战攻击释放宝石碎片。真近战攻击释放宝石碎片的冷却时间更少"
+	GreenGemInfo: "[i:CalamityMod/GemTechGreenGem] 绿色宝石增加远程属性，并召唤飞镖弹快速向被远程弹幕击中的敌人飞去"
+	BlueGemInfo: "[i:CalamityMod/GemTechBlueGem] 蓝色宝石给予{0}最大仆从栏，增加召唤伤害，并取消手持非召唤武器的召唤伤害降低惩罚"
+	PurpleGemInfo: "[i:CalamityMod/GemTechPurpleGem] 紫色宝石给予{0}最大魔力，增加魔法属性，并在你手持非魔法武器时为你快速回复魔力"
+	PinkGemInfo: "[i:CalamityMod/GemTechPinkGem] 粉色基础宝石给予{0}防御，增加伤害减免、移动速度和跳跃速度，以及+{1}HP/s生命再生"
+	GemBonusInfo:
+		'''
+		如果所有宝石同时存在，用任何武器击中敌人会提供持续{1}秒的+{0}HP/s生命再生
+		如果在这{1}秒内，你使用了另一职业的武器超过{3}秒，增加的生命再生会变成+{2}HP/s
+		'''
 }
 
 GemTechSchynbaulds: {
+	DisplayName: 天钻战裙
+	Tooltip: “以眼还眼，以牙还牙”
 }
 
 GodSlayerChestplate: {
+	DisplayName: 弑神者胸甲
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	CommonSetBonus:
+		'''
+		按下 {0} 键允许你朝光标方向[c/ff00ff:Dimensional Drive]2秒
+		被冲刺撞到的敌人会受到极高的伤害
+		在[c/ff00ff:Dimensional Drive]过程中你免疫伤害和绝大多数减益
+		[c/ff00ff:Dimensional Drive]有{1}秒冷却时间
+		'''
 }
 
 GodSlayerHeadMelee: {
+	DisplayName: 弑神者头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}和{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$GodSlayerHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		一次受到超过{0}点伤害会释放出一群弑神飞镖
+		{$GodSlayerChestplate.CommonSetBonus@1}
+		'''
 }
 
 GodSlayerHeadRanged: {
+	DisplayName: 弑神者头套
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus: "{$GodSlayerHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		远程武器射击时每{0}秒发射一枚弑神榴霰弹
+		{$GodSlayerChestplate.CommonSetBonus@1}
+		'''
 }
 
 GodSlayerHeadRogue: {
+	DisplayName: 弑神者面具
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$GodSlayerHeadRogue.SetBonusEffect@1}
+		'''
+	SetBonusEffect:
+		'''
+		满生命值时增加{0}%盗贼伤害，暴击率和弹幕速度
+		如果一次攻击对你造成了超过{1}伤害，你的无敌时间增加
+		{$GodSlayerChestplate.CommonSetBonus@2}
+		'''
 }
 
 GodSlayerLeggings: {
+	DisplayName: 弑神者护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 OmegaBlueChestplate: {
+	DisplayName: 蓝色欧米茄胸甲
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		你的攻击会造成Hadopelagic Pressure减益
+		生命再生归零
+		'''
 }
 
 OmegaBlueHelmet: {
+	DisplayName: 蓝色欧米茄头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		在液体中行动不受阻碍
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		短程触手会偷取敌人生命值治疗你
+		[c/{1}:深渊狂乱 - {2}以进入狂暴状态{3}秒]
+		[c/99ABFF:激活时，触手的攻击欲望和攻击范围都会增加，并且总会暴击]
+		[c/99ABFF:同时{$CommonItemTooltip.PercentIncreasedDamageCritChance@4}]
+		[c/99ABFF:此效果有{5}秒冷却]
+		'''
 }
 
 OmegaBlueTentacles: {
+	DisplayName: 蓝色欧米茄触手
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
 }
 
 PrismaticGreaves: {
+	DisplayName: 光棱护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamage}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+		降低{2}%非魔法伤害
+		增加{3}%飞行时间和{4}%跳跃速度
+		'''
 }
 
 PrismaticHelmet: {
+	DisplayName: 光棱头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		降低{4}%非魔法伤害
+		生命值低于500的敌人不会造成接触伤害
+		此效果在Boss存活时失效
+		'''
+	SetBonus:
+		'''
+		提高魔力再生速度
+		[c/{0}:棱光天降 - {1}在光标位置召唤一阵激光，持续{2}秒]
+		[c/67F4FB:此效果有{3}秒冷却]
+		'''
 }
 
 PrismaticRegalia: {
+	DisplayName: 光棱斗篷
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
+		降低{1}%非魔法伤害
+		魔法攻击有{2}%概率会发射一对追踪火箭
+		'''
 }
 
 SilvaArmor: {
+	DisplayName: 始源林海盔甲
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	CommonSetBonus:
+		'''
+		+{0}HP/s生命再生
+		最大速度和加速度增加{1}%
+		受到致命伤害会将你复活并使你{2}秒内免疫所有伤害
+		这个效果有{3}分钟冷却时间，冷却时间不会在Boss存在或事件期间计时
+		'''
 }
 
 SilvaHeadMagic: {
+	DisplayName: 始源林海兜帽
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus: "{$SilvaHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		不能穿透的魔法弹幕击中敌人后有几率产生强大的自然能量爆炸
+		{$SilvaArmor.CommonSetBonus}
+		'''
 }
 
 SilvaHeadSummon: {
+	DisplayName: 始源林海头盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$SilvaHeadSummon.SetBonusEffect@2}
+		'''
+	SetBonusEffect:
+		'''
+		召唤用生命能量攻击敌人的远古叶片水晶
+		{$SilvaArmor.CommonSetBonus}
+		'''
 }
 
 SilvaLeggings: {
+	DisplayName: 始源林海护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 TarragonBreastplate: {
+	DisplayName: 龙蒿胸甲
+	Tooltip:
+		'''
+		增加{0}%伤害和{1}%暴击率
+		+{2}HP/s生命再生和{3}%伤害减免
+		'''
+	CommonSetBonus:
+		'''
+		增加红心拾取范围
+		敌人死亡时有几率额外掉落红心
+		'''
 }
 
 TarragonHeadMagic: {
+	DisplayName: 龙蒿面具
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2}和{$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus: "{$TarragonHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		每五次暴击时发射叶片风暴
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadMelee: {
+	DisplayName: 龙蒿战盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}和{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$TarragonHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		受到伤害时你会获得[cbuff:CalamityMod/TarraLifeRegen]增益，提供+{0}HP/s生命再生
+		{1}将自已以生命能量包裹，大大降低你受到的接触伤害，持续{2}秒
+		此效果有{3}秒冷却时间
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadRanged: {
+	DisplayName: 龙蒿面罩
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus: "{$TarragonHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		远程弹幕击中敌人时生成追踪的生命能量
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadRogue: {
+	DisplayName: 龙蒿头盔
+	Tooltip:
+		'''
+		{$Common.RogueDamage}和{$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$TarragonHeadRogue.SetBonusEffect@1}
+		'''
+	SetBonusEffect:
+		'''
+		使用盗贼武器暴击敌人{0}次时你会获得{1}秒无敌时间
+		此效果有{2}秒冷却
+		每受到一个减益影响，你提升{3}%盗贼伤害
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadSummon: {
+	DisplayName: 龙蒿角盔
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$TarragonHeadSummon.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		召唤围绕你的生命光环，对敌人造成伤害
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonLeggings: {
+	DisplayName: 龙蒿护胫
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }

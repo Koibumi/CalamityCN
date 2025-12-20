@@ -1,26 +1,64 @@
 Brimrose: {
+	DisplayName: 硫火玫瑰
+	Tooltip: 召唤可骑乘的硫火玫瑰坐骑
+}
+
+ExoArmamentsKit: {
+	DisplayName: Exo Armaments Kit
+	Tooltip:
+		'''
+		召唤一台可骑乘的战争机器
+		“恰好适合你个头的超级武器”
+		'''
 }
 
 ExoThrone: {
-}
-
-Fabsol: {
+	DisplayName: 星流之盒
+	Tooltip:
+		'''
+		召唤一个相当舒适、极其灵活的星流飞椅坐骑
+		坐在飞椅上时按住 [KEY] 键将会精确减速
+		“舒适的电竞椅，危险的电竞椅”
+		'''
 }
 
 FollyFeed: {
+	DisplayName: 痴愚饲料
+	Tooltip: 召唤可骑乘的恐怖畸变物种
 }
 
 GazeOfCrysthamyr: {
+	DisplayName: 克里斯塔米尔的凝视
+	Tooltip:
+		'''
+		召唤一条可骑乘的暗影巨龙坐骑
+		长按{$Key.UP}加快上升速度
+		'''
 }
 
 TheCartofGods: {
+	DisplayName: 神明矿车
+	Tooltip: ""
 }
 
 OnyxExcavatorKey: {
+	DisplayName: 玛瑙挖掘机钥匙
+	Tooltip:
+		'''
+		召唤一台可骑乘的玛瑙钻机坐骑
+		<left>挖掘前方物块，将世界搅得一团糟
+		丝毫不顾及栖息在这片土地上的任何生物
+		环保局和善待动物组织的人事后肯定会找你喝茶
+		挖掘能力取决于你物品栏中最高镐力的镐子
+		'''
 }
 
 SuspiciousLookingJellyBean: {
+	DisplayName: 可疑的果冻豆
+	Tooltip: 果冻豆
 }
 
 TundraLeash: {
+	DisplayName: 冻原拴绳
+	Tooltip: 召唤可骑乘的雾凇猎犬坐骑
 }

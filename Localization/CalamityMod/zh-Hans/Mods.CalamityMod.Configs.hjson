@@ -1,157 +1,627 @@
-CalamityConfig: {
+CalamityClientConfig: {
+	DisplayName: 客户端配置
+
 	Headers: {
+		Gameplay: 总体游戏内容改动
+		Graphics: 画面改动
+		UI: UI改动
+		MeterPositions: 属性条位置
+		MusicToggles: 音乐切换
+	}
+
+	AbyssLayer3Alt: {
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] 深渊三层音乐替代"
+		Tooltip: 在深渊的热泉区域播放灾厄OST——“R'lyehian Depths”。
 	}
 
 	AdrenalineMeterPosX: {
+		Label: "[i:LaserRuler] 肾上腺素条X轴坐标"
+		Tooltip:
+			'''
+			肾上腺素条的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。
+			'''
 	}
 
 	AdrenalineMeterPosY: {
+		Label: "[i:LaserRuler] 肾上腺素条Y轴坐标"
+		Tooltip:
+			'''
+			肾上腺素条的 Y 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则肾上腺素条可以被鼠标拖动。
+			'''
 	}
 
 	Afterimages: {
-	}
-
-	BossesStopWeather: {
+		Label: "[i:SteampunkGoggles] 残影"
+		Tooltip:
+			'''
+			为灾厄NPC，射弹等物体开启残影渲染。
+			关闭以提升性能。
+			'''
 	}
 
 	BossHealthBarExtraInfo: {
-	}
-
-	BossHealthBoost: {
-	}
-
-	DefaultDashEnabled: {
-	}
-
-	BossZen: {
+		Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] Boss血条额外信息"
+		Tooltip:
+			'''
+			在灾厄的Boss血条上添加额外信息。
+			这包括Boss的实际生命值或剩余的部位/体节数量。
+			'''
 	}
 
 	ChargeMeter: {
+		Label: "[i:CalamityMod/DraedonPowerCell] 显示充能条"
+		Tooltip:
+			'''
+			开启充能条UI，显示玩家当前手持嘉登造物的充能值。
+			如果没有手持嘉登造物，充能条总是处于隐藏状态。
+			'''
 	}
 
 	ChargeMeterPosX: {
+		Label: "[i:LaserRuler] 充能条X轴坐标"
+		Tooltip:
+			'''
+			充能条的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则充能条可以被鼠标拖动。
+			'''
 	}
 
 	ChargeMeterPosY: {
-	}
-
-	ChilledWaterRework: {
+		Label: "[i:LaserRuler] 充能条Y轴坐标"
+		Tooltip:
+			'''
+			充能条的 Y 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则充能条可以被鼠标拖动。
+			'''
 	}
 
 	CooldownDisplay: {
+		Label: "[i:CalamityMod/NebulousCore] 冷却显示"
+		Tooltip: 在增益和减益栏下方显示重要的冷却图标。
 	}
 
 	DebuffDisplay: {
+		Label: "[i:FlaskofIchor] 显示敌人减益"
+		Tooltip: 在所有Boss和迷你Boss上方添加一排图标，显示当前受到的减益。
 	}
 
-	EarlyHardmodeProgressionRework: {
+	DevourerofGodsEulogy: {
+		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
+		Tooltip: 在神明吞噬者被击败后播放灾厄OST——“Scourge of the Universe (Eulogy for the Ego)”。
 	}
 
-	FasterBaseSpeed: {
+	DisableGravityScreenSwap: {
+		Label: 反转重力时不翻转屏幕
+		Tooltip:
+			'''
+			禁用原版反转重力时带来的屏幕翻转效果，以翻转玩家代之
+			如果屏幕翻转分散注意力或带来晕车感，请启用此选项
+			'''
+	}
+
+	EnableVanillaTextureEdits: {
+		Label: "[i:Paintbrush] 启用原版材质更改"
+		Tooltip:
+			'''
+			启用对原版Boss材质的细微修改，以改善攻击预警效果。
+			禁用此配置以适配材质包。
+			'''
+	}
+
+	EnergyShieldOpacity: {
+		Label: "[i:CalamityMod/TheSponge] 能量护盾透明度"
+		Tooltip:
+			'''
+			设置在玩家上方渲染的能量护盾的不透明度。
+			将此项设置为0以完全禁用能量护盾视觉效果。
+			'''
+	}
+
+	FancyBackgroundVisuals: {
+		Label: "[i:CalamityMod/BlueDistortedMonolith] 切换华丽背景视觉效果"
+		Tooltip:
+			'''
+			控制是否在游戏的某些部分启用华丽背景视觉效果，如Boss战期间。
+			禁用时，在某些情况下将会显示主要视觉效果的简化版本。
+			如果您有可见性问题或性能低下，推荐禁用此选项。
+			'''
 	}
 
 	FasterFallHotkey: {
-	}
-
-	FasterJumpSpeed: {
-	}
-
-	FasterTilePlacement: {
+		Label: "[i:CalamityMod/BallAndChain] 快速下落"
+		Tooltip:
+			'''
+			启用后，你可以在空中按住{$Key.DOWN}以更快地向下降落。
+			此配置不会增加你的最大下降速度，只会增加加速度。
+			灾厄平衡设定是在启用此配置的基础上进行的。
+			'''
 	}
 
 	FlightBar: {
+		Label: "[i:AngelWings] 显示飞行时间条"
+		Tooltip:
+			'''
+			启用飞行时间UI条，显示玩家翅膀的剩余飞行时间。
+			如果受到降低飞行时间的减益影响它也会指示。
+			玩家当前的飞行时间无限时它会呈亮蓝色。
+			'''
 	}
 
 	FlightBarPosX: {
+		Label: "[i:LaserRuler] 飞行时间条X轴坐标"
+		Tooltip:
+			'''
+			飞行时间条的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则飞行时间条可以被鼠标拖动。
+			'''
 	}
 
 	FlightBarPosY: {
+		Label: "[i:LaserRuler] 飞行时间条Y轴坐标"
+		Tooltip:
+			'''
+			飞行时间条的 Y 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则飞行时间条可以被鼠标拖动。
+			'''
 	}
 
-	ForceTownSafety: {
-	}
-
-	HigherJumpHeight: {
+	Interludes: {
+		Label: "[i:CalamityModMusic/Interlude1MusicBox] 插曲"
+		Tooltip:
+			'''
+			开启游戏内三首插曲的播放：
+			在灾厄之影被击败后播放灾厄OST——“Silence before the storms”。
+			在月亮领主被击败后播放灾厄OST——“Storms before the catastrophes”。
+			在犽戎被击败后播放灾厄OST——“Catastrophes before the calamity”。
+			'''
 	}
 
 	MeterPosLock: {
-	}
-
-	MusicModReminderMessage: {
-	}
-
-	NerfExpertDebuffs: {
-	}
-
-	NewVanillaTextures: {
+		Label: "[i:GemLockTopaz] 属性条位置锁定"
+		Tooltip:
+			'''
+			无法点击屏幕上的各种灾厄属性条。
+			开启后防止它们被鼠标拖动。
+			'''
 	}
 
 	ParticleLimit: {
+		Label: "[i:FragmentStardust] 最大粒子数"
+		Tooltip:
+			'''
+			设定同时存在的最大粒子数。
+			粒子和溅血效果是分开的。
+			调低以提升性能。
+			[c/F05A5A:将其调至1000以下可能会导致某些内容无法正确显示。]
+			'''
+	}
+
+	Photosensitivity: {
+		Label: "[i:DiscoBall] 光敏模式"
+		Tooltip:
+			'''
+			降低或禁用某些视觉效果的亮度和/或炫目程度。
+			也会禁用所有屏幕震动效果。
+			强烈建议光敏人士使用此模式。
+			'''
 	}
 
 	RageMeterPosX: {
+		Label: "[i:LaserRuler] 怒气条X轴坐标"
+		Tooltip:
+			'''
+			怒气条的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。
+			'''
 	}
 
 	RageMeterPosY: {
-	}
-
-	RemoveLavaDropsFromLavaSlimes: {
-	}
-
-	RemoveReforgeRNG: {
+		Label: "[i:LaserRuler] 怒气条Y轴坐标"
+		Tooltip:
+			'''
+			怒气条的 Y 坐标位置，以屏幕高度的百分比度量。
+			如果属性条位置锁定被关闭，则怒气条可以被鼠标拖动。
+			'''
 	}
 
 	RipperMeterShake: {
+		Label: "[i:CalamityMod/RedLightningContainer] 怒气与肾上腺素条震动"
+		Tooltip:
+			'''
+			开启怒气与肾上腺素时，条的震动幅度。
+			设为0完全禁用震动。
+			'''
 	}
 
 	ScreenshakePower: {
+		Label: "[i:CalamityMod/WavePounder] 屏幕震动幅度"
+		Tooltip:
+			'''
+			屏幕震动效果的具体强度。
+			设为零以禁用屏幕震动效果。
+			[c/FF232C:所有屏幕震动的视觉效果在值为1时相对平衡。]
+			[c/FF232C:更高的值可能会使人感到恶心，或是对一部分人有较为恶劣的负面影响。]
+			'''
+	}
+
+	SetBonusDoubleTap: {
+		Label: "[i:VortexHelmet] 允许双击启用套装奖励"
+		Tooltip: 允许所有套装奖励被原版双击{$Key.DOWN}热键（或{$Key.UP}，取决于你的游戏设置）启用。
 	}
 
 	ShopNewAlert: {
+		Label: "[i:GoldChest] 商店新物品提示"
+		Tooltip: 当城镇NPC的商店中解锁新物品时，在相应 NPC 头上显示一个图标。
 	}
 
 	SpeedrunTimer: {
+		Label: "[i:Stopwatch] 显示速通计时器"
+		Tooltip:
+			'''
+			启用游戏内速通计时器，时间显示为毫秒。
+			第二行显示最近一次Boss击杀的时间。
+			每个玩家时间独立，仅进入世界后计时。
+			'''
 	}
 
 	SpeedrunTimerPosX: {
+		Label: "[i:LaserRuler] 速通计时器X轴坐标"
+		Tooltip:
+			'''
+			速通计时器的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则速通计时器可以被鼠标拖动。
+			'''
 	}
 
 	SpeedrunTimerPosY: {
+		Label: "[i:LaserRuler] 速通计时器Y轴坐标"
+		Tooltip:
+			'''
+			速通计时器的 Y 坐标位置，以屏幕高度的百分比度量。
+			如果属性条位置锁定被关闭，则速通计时器可以被鼠标拖动。
+			'''
 	}
 
 	StealthInvisibility: {
+		Label: "[i:CalamityMod/StealthHairDye] 潜行隐身"
+		Tooltip:
+			'''
+			启用时玩家会随着潜行值增加逐渐隐身。
+			该效果视觉上类似于蘑菇套的隐身。
+			'''
 	}
 
 	StealthMeter: {
+		Label: "[i:CalamityMod/EclipseMirror] 显示潜行条"
+		Tooltip:
+			'''
+			开启显示玩家当前潜行值的潜行条。
+			如果没有装备盗贼盔甲，潜行条会总是处于隐藏状态。
+			'''
 	}
 
 	StealthMeterPosX: {
+		Label: "[i:LaserRuler] 潜行条X轴坐标"
+		Tooltip:
+			'''
+			潜行条的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+			'''
 	}
 
 	StealthMeterPosY: {
+		Label: "[i:LaserRuler] 潜行条Y轴坐标"
+		Tooltip:
+			'''
+			潜行条的 Y 坐标位置，以屏幕高度的百分比度量。
+			如果属性条位置锁定被关闭，则潜行条可以被鼠标拖动。
+			'''
+	}
+
+	StutterFix: {
+		Label: "[i:TrifoldMap] 修复加载卡顿"
+		Tooltip:
+			'''
+			加载卡顿指玩家快速移动时，世界没来得及加载导致的卡顿
+			启用后会在进入世界时，一次性加载整个世界
+			这个功能会导致泰拉瑞亚在加载世界期间无响应，此时不要关闭游戏
+			恢复响应后即可正常进入世界，并且不再会有加载卡顿
+			只推荐无法忍受加载卡顿的玩家使用
+			'''
 	}
 
 	SulphuricWaterMeterPosX: {
+		Label: "[i:LaserRuler] 硫磺海水腐蚀条X轴坐标"
+		Tooltip:
+			'''
+			硫磺海水腐蚀条的 X 坐标位置，以屏幕宽度的百分比度量。
+			如果属性条位置锁定被关闭，则腐蚀条可以被鼠标拖动。
+			'''
 	}
 
 	SulphuricWaterMeterPosY: {
+		Label: "[i:LaserRuler] 硫磺海水腐蚀条Y轴坐标"
+		Tooltip:
+			'''
+			硫磺海水腐蚀条的 Y 坐标位置，以屏幕高度的百分比度量。
+			如果属性条位置锁定被关闭，则腐蚀条可以被鼠标拖动。
+			'''
 	}
 
-	PotionSelling: {
+	SunkenSeaBackgroundDistortion: {
+		Label: "[i:CalamityMod/SeaRemains] 沉沦之海背景畸变"
+		Tooltip:
+			'''
+			为沉沦之海的独特背景添加额外的畸变着色器.
+			畸变着色器模拟水下的畸变效果。    
+			[c/FF232C:注意：只有将“图像 - 水波质量”设置为关时才会生效。] 
+			'''
 	}
 
-	PlayerRespawnTime_BossAlive: {
+	TextEffects: {
+		Label: "[i:LeinforsAccessory] 额外文本特效"
+		Tooltip:
+			'''
+			当启用时，某些灾厄稀有度的物品名称将会有额外视觉特效。
+			如果不希望视觉效果过于杂乱，请禁用此项。
+			'''
 	}
 
-	TownNPCSpawnRateMultiplier: {
-	}
-
-	TownNPCsSpawnAtNight: {
+	TileTextureBlendingQuality: {
+		Label: "[i:GlowPaint] 图格合并的软混合"
+		Tooltip: 修改不同类型的图格合并在一起时使用的软混合渲染器的质量。
 	}
 
 	VanillaCooldownDisplay: {
+		Label: "[i:HealingPotion] 原版冷却显示"
+		Tooltip:
+			'''
+			为混沌状态，药水疾病和神圣防护添加特定冷却图标。
+			减益仍会出现在增益栏中，但这会让它们更容易被看见。
+			'''
+	}
+
+	VCMMStatusMessage: {
+		Label: "[i:MusicBoxMartians] VCMM状态讯息"
+		Tooltip: 启用/禁用进入世界的VCMM状态讯息提示。
 	}
 
 	WikiStatusMessage: {
+		Label: "[i:Book] Wiki状态讯息"
+		Tooltip: 启用/禁用进入世界的Wiki状态讯息提示。
+	}
+}
+
+CalamityServerConfig: {
+	DisplayName: 服务端配置
+	Denied: 你无权修改此配置
+
+	Headers: {
+		ExpertMaster: 专家和大师模式改动
+		Gameplay: 总体游戏内容改动
+		BaseBoosts: 基础属性加成
+	}
+
+	BossesStopWeather: {
+		Label: "[i:CalamityMod/TorrentialTear] Boss战停雨"
+		Tooltip:
+			'''
+			启用后，许多后期Boss在召唤时会停止降雨和相关天气。
+			如果你在游戏后期与Boss战斗时遇到性能问题，请启用此选项。
+			'''
+	}
+
+	BossHealthBoost: {
+		Label: "[i:LifeCrystal] Boss生命值百分比强化"
+		Tooltip:
+			'''
+			全局百分比提升所有Boss的生命值。
+			与多人血量提升叠加。
+			不会影响已生成的Boss。
+			'''
+	}
+
+	DefaultDashEnabled: {
+		Label: "[i:Tabi] 默认冲刺"
+		Tooltip:
+			'''
+			不需要任何装备或使用物品的情况下默认给予玩家一个很弱的冲刺。
+			此冲刺会被其他可用冲刺所替代，这也包括其他模组的。
+			'''
+	}
+
+	BossZen: {
+		Label: "[i:CalamityMod/ZenPotion] Boss大幅降低敌怪生成率"
+		Tooltip:
+			'''
+			所有存活的Boss都会大幅降低常规敌怪的生成率。
+			这也可以防止Boss存活时发生史莱姆雨。
+			灾厄平衡设定是在启用此配置的基础上进行的。
+			'''
+	}
+
+	ChilledWaterRework: {
+		Label: "[i:ArcticDivingGear] 冻水重做"
+		Tooltip: 启用时，雪原生物群落和冰雪生物群落的水会快速消耗玩家的呼吸条而不是造成冷冻减益。
+	}
+
+	EarlyHardmodeProgressionRework: {
+		Label: "[i:Pwnhammer] 困难模式早期流程重做"
+		Tooltip:
+			'''
+			破坏邪恶祭坛不再生成矿石。
+			首次击杀血肉墙会使钯金矿和钴矿在世界中生成。
+			第一个战斗的机械boss血量和伤害降低20%（专家及大师难度中降低10%），首次击败时会使秘银矿和山铜矿在世界中生成。
+			第二个战斗的机械boss血量和伤害降低10%（专家及大师难度中降低5%），首次击败时会使钛金矿和精金矿在世界中生成。
+			首次击败第三个机械boss会使神圣矿在世界中生成。
+			'''
+	}
+
+	FasterBaseSpeed: {
+		Label: "[i:HermesBoots] 更高基础移速"
+		Tooltip:
+			'''
+			大幅提高玩家的基础移动速度（移动速度+50%）。
+			如果加载了 Terraria Overhaul 模组，则此设置无效。
+			灾厄平衡设定是在启用此配置的基础上进行的。
+			'''
+	}
+
+	FasterRopeClimbSpeed: {
+		Label: "[i:Rope] 更快爬绳速度"
+		Tooltip:
+			'''
+			大幅提高玩家爬绳的速度（提高在绳上的加速度和减速度）。
+			灾厄平衡设定是在启用此配置的基础上进行的。
+			'''
+	}
+
+	FasterJumpSpeed: {
+		Label: "[i:FrogLeg] 更高基础跳跃速度"
+		Tooltip:
+			'''
+			小幅提高玩家的基础跳跃速度。
+			灾厄平衡设定是在启用此配置的基础上进行的。
+			'''
+	}
+
+	FasterTilePlacement: {
+		Label: "[i:ArchitectGizmoPack] 更快的基础建造速度"
+		Tooltip:
+			'''
+			大幅提高玩家放置方块和墙壁速度。
+			此设置会与砌砖刀、便携式水泥搅拌机等饰品效果叠加。
+			'''
+	}
+
+	ForceTownSafety: {
+		Label: "[i:Sunflower] 强制城镇安全"
+		Tooltip:
+			'''
+			通过降低刷怪率，抵消专家和大师模式允许敌人在城镇附近生成的影响。
+			这可能会产生意想不到的副作用，例如使小动物难以找到。
+			'''
+	}
+
+	NerfExpertDebuffs: {
+		Label: "[i:AnkhCharm] 减益持续时间增幅移除"
+		Tooltip:
+			'''
+			禁用专家模式减益持续时间的翻倍以及大师模式的三倍。
+			灾厄平衡设定是在启用此配置的基础上进行的。
+			'''
+	}
+
+	RemoveLavaDropsFromLavaSlimes: {
+		Label: "[i:LavaWaders] 熔岩史莱姆不再生成岩浆"
+		Tooltip: 启用此配置时，熔岩史莱姆在专家模式下不再生成岩浆。
+	}
+
+	RemoveReforgeRNG: {
+		Label: "[i:TinHammer] 移除重铸随机性"
+		Tooltip:
+			'''
+			移除哥布林工匠重铸武器和饰品时的随机性。
+			当有其他模组对重铸做出修改时禁用以防冲突。
+			'''
+	}
+
+	PlayerRespawnTime_BossAlive: {
+		Label: "[i:Stopwatch] Boss战玩家重生时间"
+		Tooltip:
+			'''
+			当有Boss存活时，设定玩家的重生时间，以秒为单位。在单人模式和多人模式下是同等生效的。
+			当没有Boss存活时，单人模式和多人模式的玩家都会在3秒内重生。
+			'''
+	}
+
+	SimplifyAccessoryReforge: {
+		Label: "[i:Autohammer] 简化饰品重铸"
+		Tooltip:
+			'''
+			使饰品重铸更简单，限定出现以下前缀选项：
+			          - 护佑，险恶，幸运，迅捷，暴力，奥秘，寂静，Invigorating，Dauntless
+			'''
+	}
+
+	TownNPCSpawnRateMultiplier: {
+		Label: "[i:GuideVoodooDoll] 城镇NPC生成速率乘数"
+		Tooltip:
+			'''
+			此数值越高，城镇NPC生成的速率越快。
+			让你在Boss战中灰飞烟灭的城镇快速恢复。
+			'''
+	}
+
+	TownNPCsSpawnAtNight: {
+		Label: "[i:ClothierVoodooDoll] 城镇NPC在夜间生成"
+		Tooltip:
+			'''
+			启用此选项时城镇NPC可以在夜晚生成。
+			这也包括老人。
+			'''
+	}
+}
+
+CooldownDisplayOptions: {
+	Tooltip: ""
+
+	Full: {
+		Label: 完整
+		Tooltip: 在图标周围显示圆环以指示冷却时间
+	}
+
+	Compact: {
+		Label: 紧凑
+		Tooltip: 在图标上显示变化以指示冷却时间
+	}
+
+	Hidden: {
+		Label: 隐藏
+		Tooltip: ""
+	}
+}
+
+SetBonusDoubleTapOptions: {
+	Tooltip: ""
+
+	On: {
+		Label: 始终开启
+		Tooltip: 始终启用双击。可与灾厄的{$Keybinds.ArmorSetBonus.DisplayName}热键一起使用。
+	}
+
+	Auto: {
+		Label: 自动
+		Tooltip: 只要绑定了灾厄的{$Keybinds.ArmorSetBonus.DisplayName}热键就会禁用双击。
+	}
+
+	Off: {
+		Label: 始终关闭
+		Tooltip: 始终禁用双击。可用来完全禁用套装奖励的触发。
+	}
+}
+
+TileBlendingQuality: {
+	Tooltip: ""
+
+	Disable: {
+		Label: 禁用
+		Tooltip: 禁用图格材质的软混合。
+	}
+
+	Normal: {
+		Label: 启用
+		Tooltip: 启用图格材质的软混合。
+	}
+
+	High: {
+		Label: 启用 + 切片
+		Tooltip:
+			'''
+			启用图格材质的软混合并使用切片渲染。
+			[c/F05A5A:不推荐低端设备开启。]
+			'''
 	}
 }

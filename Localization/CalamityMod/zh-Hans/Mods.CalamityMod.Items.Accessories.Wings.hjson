@@ -1,44 +1,151 @@
 AureateBooster: {
-}
-
-DrewsWings: {
+	DisplayName: 玉金喷射器
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressUpToBooster}
+		“优雅地音速飞行！”
+		'''
 }
 
 ElysianWings: {
+	DisplayName: 极乐之翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		被亵渎之火祝福
+		'''
 }
 
 ExodusWings: {
+	DisplayName: 逸界之翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		当你穿着皇天套装时，永久获得皇天之暴怒增益
+		随着异界之心的搏动而振翅
+		'''
 }
 
 HadalMantle: {
+	DisplayName: 幽渊斗篷
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		由深渊的怒火驱动
+		'''
 }
 
 HadarianWings: {
+	DisplayName: 哈达尔星翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressDownToHover}
+		由星辉瘟疫驱动的翅膀
+		'''
 }
 
 MOAB: {
+	DisplayName: 气球之母
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		增加32%跳跃速度并允许自动跳跃
+		使你获得云朵瓶、暴雪瓶和沙暴瓶的二段跳效果
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:Jetpack] [c/aaaaaa:喷气背包的效果]
+		“气球之母”
+		'''
 }
 
 SilvaWings: {
+	DisplayName: 始源林海之翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		“纯粹的自然之力”
+		'''
 }
 
 SkylineWings: {
+	DisplayName: 天羽之翼
+	Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 }
 
 SoulofCryogen: {
+	DisplayName: 极寒之魂
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		飞行时降下冰锥
+		'''
 }
 
 StarlightWings: {
+	DisplayName: 星光之翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		夜莺之翼
+		'''
 }
 
 TarragonWings: {
+	DisplayName: 龙蒿叶之翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		“源于丛林”
+		'''
 }
 
-TracersCelestial: {
+MoonWalkers: {
+	DisplayName: Moon Walkers
+	TreadsName: Moon Boots
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		增加24%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		“Hee hee！”
+		'''
 }
 
-TracersElysian: {
+VoidStriders: {
+	DisplayName: Void Striders
+	TreadsName: Void Kicks
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		增加36%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		“荒诞的速度！”
+		'''
 }
 
-TracersSeraph: {
+SeraphTracers: {
+	DisplayName: 炽天使翼靴
+	TreadsName: Seraph Treads
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		增加50%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩和来自物块的伤害，包括[i:CalamityMod/AuricOre]圣金源矿
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		“更加荒诞的速度！”
+		'''
+}
+
+WingsofRebirth: {
+	DisplayName: 涅槃龙翼
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		“华焰璀璨，直至最终”
+		'''
 }

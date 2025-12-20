@@ -1,0 +1,946 @@
+Items: {
+	OverloadedSludge: {
+		DisplayName: 过载淤泥
+		Tooltip:
+			'''
+			召唤史莱姆之神
+			不消耗
+			“它看起来有点被腐化了”
+			'''
+	}
+
+	StormCatcher: {
+		DisplayName: Storm Catcher
+		Tooltip: ""
+	}
+
+	GoopDye: {
+		DisplayName: 凝浆染料
+		Tooltip: ""
+	}
+
+	ChromaticMass: {
+		DisplayName: 虹色物质
+		Tooltip: “感觉就像冰冷的等离子体”
+	}
+
+	ShatteredHeartOfDarkness: {
+		DisplayName: 幻灭之心
+		Tooltip: ""
+	}
+
+	GoozmaRelicItem: {
+		DisplayName: 古泽玛圣物
+		Tooltip: ""
+	}
+
+	GoozmaRelic: {
+		DisplayName: 古泽玛圣物
+		Tooltip: ""
+	}
+
+	GoozmaLore: {
+		DisplayName: 古泽玛
+		Tooltip: tooltip
+	}
+
+	Goozmolisher: {
+		// DisplayName: Goozmolisher
+		// Tooltip: ""
+	}
+
+	Goozmortar: {
+		// DisplayName: Goozmortar
+		// Tooltip: ""
+	}
+
+	GoozMonolith: {
+		DisplayName: 季风信标
+		Tooltip: ""
+	}
+
+	TreasureTrunk: {
+		DisplayName: 宝藏箱
+		Tooltip: <right>以开启
+	}
+
+	GoozmaMask: {
+		DisplayName: 古泽玛面具
+		Tooltip: ""
+	}
+
+	TreasureBucket: {
+		DisplayName: 宝藏桶
+		Tooltip: <right>以开启
+	}
+
+	GoozmaTrophyItem: {
+		DisplayName: 古泽玛纪念章
+		Tooltip: ""
+	}
+
+	GoozmaTrophy: {
+		DisplayName: 古泽玛纪念章
+		Tooltip: ""
+	}
+
+	ImperialGelato: {
+		DisplayName: 意式皇家冰淇淋
+		Tooltip:
+			'''
+			召唤一个肿包泡泡宝宝
+			“适合皇家的甜点！”
+			'''
+	}
+
+	GoozmaMusicBoxP1: {
+		DisplayName: 音乐盒（古泽玛）
+		Tooltip: ""
+	}
+
+	GoozmaMusicBoxP2: {
+		DisplayName: 音乐盒(古泽玛绝望阶段)
+		Tooltip: ""
+	}
+
+	GoozmaSoulMusicBox: {
+		DisplayName: 音乐盒（虹色之魂）
+		Tooltip: ""
+	}
+
+	GoozmaSoul: {
+		DisplayName: 虹色金源魄
+		Tooltip: 吸收以获得无边粘稠之力
+	}
+
+	YharonSoulMusicBox: {
+		DisplayName: 音乐盒（巨龙之魂）
+		Tooltip: ""
+	}
+
+	YharonSoul: {
+		DisplayName: 重生金源魄
+		Tooltip: 吸收以获得无边重生之力
+	}
+
+	SlimeMonsoonMonolith: {
+		DisplayName: 史莱姆季风信标
+		Tooltip: “使用相当大量的黏液”
+	}
+
+	CrimulanMask: {
+		DisplayName: 血污面具
+		Tooltip: ""
+	}
+
+	DivineMask: {
+		DisplayName: 圣洁面具
+		Tooltip: ""
+	}
+
+	EbonianMask: {
+		DisplayName: 腐檀面具
+		Tooltip: ""
+	}
+
+	StellarMask: {
+		DisplayName: 星恒面具
+		Tooltip: ""
+	}
+
+	Goozmaga: {
+		DisplayName: 遗神蛊弹
+		Tooltip:
+			'''
+			掷出行星，命中后环绕目标运动
+			若一个敌怪已有行星环绕，再次攻击它会提升行星的运动速度
+			此效果可以叠加 8 次
+			潜伏攻击会额外召唤两颗较小的行星环绕命中目标
+			<right>消灭所有现存的行星和小行星
+			'''
+	}
+
+	ShogunChestplate: {
+		DisplayName: 神胶幕府将军铠
+		Tooltip:
+			'''
+			增加20%伤害
+			增加9%的伤害减免并大幅增加生命再生速度
+			大幅提高加速度和机动性 
+			'''
+	}
+
+	ShogunHelm: {
+		DisplayName: 神胶幕府将军兜
+		Tooltip:
+			'''
+			增加20%伤害
+			增加15%暴击率
+			增加15%近战攻速
+			'''
+	}
+
+	ShogunPants: {
+		DisplayName: 神胶幕府将军臑当
+		Tooltip:
+			'''
+			增加20%伤害
+			增加50%移动速度
+			大幅提高加速度和机动性 
+			'''
+	}
+
+	AuricSole: {
+		DisplayName: 古圣金源靴
+		Tooltip:
+			'''
+			<right>以取消激活
+			你能够在任何平面上滑动
+			警告：也许会造成过高的速度
+			“亚利姆会因此恨你的”
+			'''
+	}
+
+	DischargedAuricSole: {
+		DisplayName: 未充能的古圣金源靴
+		Tooltip:
+			'''
+			<right>以激活
+			你能够在任何平面上滑动
+			警告：也许会造成过高的速度
+			“亚利姆会因此恨你的”
+			'''
+	}
+
+	EbonianBehemuckTrophyItem: {
+		DisplayName: 腐檀邪浆纪念章
+		Tooltip: ""
+	}
+
+	EbonianBehemuckTrophy: {
+		DisplayName: 腐檀邪浆纪念章
+		Tooltip: ""
+	}
+
+	DivineGargooptuarTrophyItem: {
+		DisplayName: 圣洁凝魔纪念章
+		Tooltip: ""
+	}
+
+	DivineGargooptuarTrophy: {
+		DisplayName: 圣洁凝魔纪念章
+		Tooltip: ""
+	}
+
+	CrimulanGlopstrosityTrophyItem: {
+		DisplayName: 血污噬胶纪念章
+		Tooltip: ""
+	}
+
+	CrimulanGlopstrosityTrophy: {
+		DisplayName: 血污噬胶纪念章
+		Tooltip: ""
+	}
+
+	StellarGeliathTrophyItem: {
+		DisplayName: 星恒黏兽纪念章
+		Tooltip: ""
+	}
+
+	StellarGeliathTrophy: {
+		DisplayName: 星恒黏兽纪念章
+		Tooltip: ""
+	}
+
+	PumpActionSwampgun: {
+		DisplayName: 泵动式凝沼枪
+		Tooltip: 射出通常无害的粘液
+	}
+
+	Parasanguine: {
+		DisplayName: 赤血凝伞
+		Tooltip:
+			'''
+			按住<left>或攻击敌人会积攒额外的血液
+			当血液条较高时<right>将会释放出多余的血液 
+			右键后使用<left>会进行一次毁灭性的旋转打击
+			“喂一只史莱姆能够得到什么？一个更大的史莱姆。”
+			'''
+	}
+
+	Gobflogger: {
+		DisplayName: 凝痕鞭挞
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			打击敌人以获得少量鞭子攻速提升
+			“稳扎稳打，才能成功”
+			'''
+	}
+
+	CrystalGauntlets: {
+		DisplayName: 晶光手套
+		Tooltip:
+			'''
+			按住左键可以蓄力爆发出强大的球状闪电
+			蓄力完毕后，松开左键向敌人释放球状闪电
+			右键拍手，引爆所有释放的球状闪电
+			“无限力量！”
+			'''
+	}
+
+	SplendorJam: {
+		DisplayName: 异彩果酱
+		Tooltip:
+			'''
+			启用压力条
+			压力值会被动地累积，站在敌怪附近可以提升其累积速率
+			你会随压力等级提升逐渐发出明亮的光芒
+			压力值提升至 0%、25%、50、75%以及100% 时有明显的视觉效果
+			压力值达到 25% 时你的武器会引发爆炸
+			压力值达到 75% 时爆炸会更加剧烈，范围增大并造成更多伤害
+			压力值高于 25% 双击下键激活恶意模式
+			恶意模式会显著增加你的伤害，同时你会获得固定伤害、护甲穿透和暴击率加成
+			加成效果与其持续时间取决于你当前剩余的压力值
+			“恐怖之物正在逼近……”
+			'''
+	}
+
+	TheSlimer: {
+		DisplayName: The Slimer
+		Tooltip:
+			'''
+			喷出大量粘稠的浆液
+			史莱姆喷出时会被卡住，形成堵塞
+			被阻挡时右键点击可发射胆汁炸弹
+			“不要与猩红史莱姆混淆”
+			'''
+	}
+
+	PureAuricSoul: {
+		DisplayName: 金源魄
+		Tooltip: 吸收以获得无边伟力
+	}
+
+	SludgeShaker: {
+		DisplayName: 污泥混凝器
+		Tooltip:
+			'''
+			喷射出巨大的史莱姆黏浆
+			喷射出的史莱姆会粘在物块上
+			“摇匀，不要搅拌”
+			'''
+	}
+
+	SupremeRestorationPotion: {
+		RestoreLifeText: Mods.CalamityHunt.Items.SupremeRestorationPotion.RestoreLifeText
+		DisplayName: 终极恢复药水
+		Tooltip: 缩短药水疾病时间
+	}
+
+	ChromaticTorch: {
+		DisplayName: 虹色火把
+		Tooltip: ""
+	}
+
+	StickyHand: {
+		DisplayName: 黏黏小手
+		Tooltip:
+			'''
+			当你靠近钩爪末端时自动脱钩
+			按住钩爪键使钩爪固定在物块上
+			'It won't break, I promise'
+			'''
+	}
+
+	Trailblazer: {
+		DisplayName: 焰径虹光
+		Tooltip:
+			'''
+			用凝胶作为弹药
+			忽视15点敌人防御
+			80%几率不消耗凝胶
+			'''
+	}
+
+	SlimeCane: {
+		DisplayName: 史莱姆手杖
+		Tooltip:
+			'''
+			召唤一组四个史莱姆扈从保护你
+			再次使用此武器可以消耗一个召唤栏使史莱姆们升级
+			史莱姆总共可以被升级四次
+			当史莱姆们被升至满级时，一个古泽莫姆会出现在你的身后，向敌人喷吐熔融射线
+			“假如我能拭去表面的污垢，使它像我一样美丽，那该有多好”
+			'''
+	}
+
+	FissionFlyer: {
+		DisplayName: 裂变飞刃
+		Tooltip:
+			'''
+			扔出一个环刃，环刃会分裂为三个小刀环
+			潜伏攻击会分裂出更多的小刀环并留下一个巨大刀片
+			'''
+	}
+
+	ScytheOfTheOldGod: {
+		DisplayName: 旧神巨镰
+		Tooltip:
+			'''
+			挥动一把巨型镰刀进行三段斩
+			“别和硫海遗爵的镰刀搞混了……
+			……没别的了。”
+			'''
+	}
+
+	Goomoire: {
+		DisplayName: 遗忘蛊书
+		Tooltip:
+			'''
+			施展封印咒语，将敌人吸入其中 
+			“别被吸进去！烫！”
+			'''
+	}
+
+	SlimeNinjaStatue: {
+		DisplayName: 史莱姆忍者雕像
+		Tooltip:
+			'''
+			被四个史莱姆雕像环绕时，使用凝胶催化剂互动，即可召唤史莱姆雨
+			“无论如何，这家伙是谁？”
+			'''
+	}
+
+	GelatinousCatalyst: {
+		DisplayName: 凝胶催化剂
+		Tooltip: 在史莱姆忍者雕像两侧摆放4个史莱姆雕像并对其使用，可以召唤一场史莱姆雨
+	}
+
+	PluripotentSpawnEgg: {
+		DisplayName: 多能刷怪蛋
+		Tooltip:
+			'''
+			在史莱姆忍者雕像两侧摆放4个史莱姆雕像并对其使用，即可直接召唤古泽玛
+			不消耗
+			'''
+	}
+
+	PaladinPalanquin: {
+		DisplayName: 圣卫花轿
+		Tooltip:
+			'''
+			召唤一个可骑乘的油滑气泡坐骑
+			“正如皇室成员一般！”
+			'''
+	}
+
+	ChromaticBomb: {
+		DisplayName: 虹色炸弹
+		Tooltip: 掷出一个无视重力，并且能破坏物块的黑洞
+	}
+
+	ChromaticGooztick: {
+		DisplayName: 虹色凝光棒
+		Tooltip: 无视重力并可在物块上反弹
+	}
+
+	DynamoRod: {
+		DisplayName: Dynamo Dynamite
+		Tooltip: 在爆炸中生成一个庞大的、能破坏物块的黑洞
+	}
+
+	BadApple: {
+		DisplayName: Bad Apple
+		Tooltip:
+			'''
+			“一个苹果，来自一棵悲惨的果树，在古泽玛的某次暴行中被彻底摧毁
+			它似乎已经转变成了某种全新的东西，因此味道可能很糟糕
+			如果它的味道不怪，那它的气味肯定好不到哪去”
+			'''
+	}
+
+	ThrowingStars: {
+		// DisplayName: Throwing Stars
+		// Tooltip: ""
+	}
+
+	CometKunai: {
+		DisplayName: 彗星苦无
+		Tooltip:
+			'''
+			释放一连串的苦无和星星，成功命中时数量加倍
+			潜伏攻击无论落在哪都会落下流星雨
+			“群星之力掌握在我的手中……”
+			'''
+	}
+
+	GoopHairDye: {
+		DisplayName: 凝浆染发剂
+		Tooltip: ""
+	}
+
+	AncientSlimeMonsoonMonolith: {
+		DisplayName: 远古史莱姆季风天塔柱
+		Tooltip: ""
+	}
+
+	AntiMassAccumulator: {
+		DisplayName: 反质量蓄能器
+		Tooltip:
+			'''
+			交替射出质子球和充能电子束
+			质子球会对半径内的敌人造成伤害，并使被击中的敌人带电
+			电子束会对带电的敌人造成额外伤害
+			“请勿直视设备的操作终端”
+			'''
+	}
+
+	GoozmaBoulderItem: {
+		DisplayName: 杂色巨石
+		Tooltip: “极度危险”
+	}
+
+	IOUASoul: {
+		// DisplayName: I O U A Soul
+		// Tooltip: REMOVED content LOOOOOOL
+	}
+
+	StrangeManPortrait: {
+		DisplayName: 一个陌生人画像
+		Tooltip: ""
+	}
+
+	TendrilCursorAttachment: {
+		DisplayName: 缠绕光标
+		Tooltip:
+			'''
+			将悬挂的虹色卷须附着到光标上
+			卷须的数量取决于该物品放置的栏位
+			“不知为何，它们知道如何解开自己”
+			'''
+	}
+
+	FissionFlayer: {
+		// DisplayName: to be determined
+		// Tooltip: ""
+	}
+
+	TrailblazerGoggles: {
+		DisplayName: 焰径虹光护目镜
+		Tooltip: “想要引领前路，便需看清前方，而这对护目镜不让你看。”
+	}
+
+	TrailblazerBackpack: {
+		DisplayName: 焰径虹光战术背包
+		Tooltip: “想要成为先驱者，便需做好准备。幸运的是，这个背包里除了燃料以外什么都没有。”
+	}
+
+	ShogunWings: {
+		Tooltip: “让你降温的最佳选择”
+		DisplayName: 千折纸扇
+	}
+
+	NuclearLemonade: {
+		DisplayName: 核子柠檬水
+		Tooltip:
+			'''
+			所有属性大幅提升
+			可能会杀死你
+			“像核冬天一样冷！”
+			'''
+	}
+
+	ChromaticCampfire: {
+		DisplayName: 虹色篝火
+		Tooltip: ""
+	}
+
+	AshenSoul: {
+		// DisplayName: Ashen Auric Soul
+		// Tooltip: Absorb to gain immense, magmatic powers
+	}
+
+	RottenSoul: {
+		// DisplayName: Rotten Auric Soul
+		// Tooltip: Absorb to gain immense, radioactive powers
+	}
+
+	GoozmaMusicBoxExiledP1: {
+		DisplayName: 音乐盒（Exiled Goozma）
+		// Tooltip: ""
+	}
+
+	GoozmaMusicBoxExiledP2: {
+		DisplayName: 音乐盒（Exiled Goozma Desperate）
+		// Tooltip: ""
+	}
+
+	GoozmaMusicBoxJteohP1: {
+		DisplayName: 音乐盒（Jteoh Goozma）
+		// Tooltip: ""
+	}
+
+	GoozmaMusicBoxJteohP2: {
+		DisplayName: 音乐盒（Jteoh Goozma Desperate）
+		// Tooltip: ""
+	}
+}
+
+NPCs: {
+	Goozma: {
+		DisplayName: 古泽玛
+
+		BossChecklistIntegration: {
+			EntryName: 古泽玛
+			SpawnInfo: 击败血肉墙后，将[i:CalamityHunt/OverloadedSludge]在史莱姆雨期间扔到史莱姆王身上。
+			DespawnMessage: "[c/7a7a7a:{0} {1}分崩离析了……]"
+		}
+
+		InfernumTitle:
+			'''
+			凝元烁点
+			古泽玛
+			'''
+	}
+
+	CrimulanGlopstrosity.DisplayName: 血污噬胶
+	DivineGargooptuar.DisplayName: 圣洁凝魔
+	EbonianBehemuck.DisplayName: 腐檀邪浆
+	StellarGeliath.DisplayName: 星恒黏兽
+	Goozmite.DisplayName: 古泽蚂
+	GelatinousSpawn.DisplayName: 凝胶之卵
+	PluripotentSpawn.DisplayName: 多能之卵
+}
+
+Projectiles: {
+	EbonstonePillar.DisplayName: 腐檀之柱
+	EbonstoneTooth.DisplayName: 腐檀之齿
+	FoulSlime.DisplayName: 污浊史莱姆
+	PureSlimeball.DisplayName: 纯净史莱姆
+	SlimeShot.DisplayName: 凝虹弹
+	ToxicSludge.DisplayName: 毒性污泥
+	TrailingStar.DisplayName: 星之曳光
+	Wormhole.DisplayName: 虫洞
+	GoozmaSpawn.DisplayName: 凝元奇点
+	GooLightning.DisplayName: 旧神之雷
+	RainbowBall.DisplayName: 虹球弹幕
+	PrismDestroyer.DisplayName: 毁灭光棱
+	BloatedBlast.DisplayName: 湮灭膨胀
+	PixieBall.DisplayName: 精灵球
+	GelCrystalShard.DisplayName: 凝胶水晶碎片
+	EbonianBehemuckClone.DisplayName: 小腐檀邪浆
+	HolyExplosion.DisplayName: 圣光爆发
+	CrimulanSmasher.DisplayName: 血污碾压
+	FusionRay.DisplayName: 聚能射线
+	GoozmaDeathGodrays.DisplayName: 旧神死光
+	BloatBabyProj.DisplayName: 肿包泡泡宝宝
+	ShootingStar.DisplayName: 流星
+	GoozmagaBomb.DisplayName: 行星团
+	GoozmagaShrapnel.DisplayName: 微行星团
+	StellarGelatine.DisplayName: 恒星明胶
+	ConstellationStar.DisplayName: 星体
+	ConstellationLine.DisplayName: 星座线
+	SlimeBomb.DisplayName: 滴答史莱姆炸弹
+	SpaceRock.DisplayName: 星际陨石
+	StellarDebris.DisplayName: 恒星碎片
+	BlackHoleBlender.DisplayName: 黑洞旋涡
+	CosmicDust.DisplayName: 宇宙之尘
+	InterstellarFlame.DisplayName: 星际烈焰
+	ThrowableChunk.DisplayName: 浮空巨石
+	MiniRainbowBall.DisplayName: 小虹球弹幕
+	RainbowLaser.DisplayName: 彩虹激光
+	PumpActionSwampgunHeld.DisplayName: 泵动式凝沼枪
+	ParasanguineHeld.DisplayName: 赤血凝伞
+	ParasanguineBlood.DisplayName: 凝伞之血
+	SwampBall.DisplayName: 凝沼球
+	GobfloggerProj.DisplayName: 凝痕鞭挞
+	CrystalGauntletBall.DisplayName: 球状闪电
+	CrystalLightning.DisplayName: 晶化闪电
+	CrystalGauntletBallThrown.DisplayName: 球状闪电
+	CrystalPiercer.DisplayName: 魔晶穿刺
+	CrystalBoom.DisplayName: 鼓掌
+	CrimulanShockwave.DisplayName: 血腥震波
+	SludgeShakerHeld.DisplayName: 污泥混凝器
+	DarkSludge.DisplayName: 暗沉淤泥
+	SludgeLighter.DisplayName: 淤泥燃星
+	StickyHandProj.DisplayName: 黏黏小手
+	TrailblazerFlame.DisplayName: 虹光之焰
+	FissionFlyerProj.DisplayName: 裂变飞刃
+	FissionFlyerMiniRing.DisplayName: 环状利刃
+	ScytheOfTheOldGodHeld.DisplayName: 旧神巨镰
+	StressExplosion.DisplayName: 压力爆破
+	GoomoireSuck.DisplayName: 蛊书旋风
+	SplendorTentacle.DisplayName: 奇观之触
+	SlimeCaneGemCounter.DisplayName: 史莱姆手杖辅助弹幕
+	ChromaticBombProjectile.DisplayName: 虹色炸弹
+	ChromaticGooztickProjectile.DisplayName: 虹色凝光棒
+	DynamoRodProjectile.DisplayName: 电流炸药
+	CrimulanClyde.DisplayName: 殷红小可
+	DivinePinky.DisplayName: 神圣小粉
+	EbonianBlinky.DisplayName: 腐檀小闪
+	StellarInky.DisplayName: 恒星小墨
+	CometKunaiCritProjectile.DisplayName: 彗星苦无
+	CometKunaiGhostProjectile.DisplayName: 彗星苦无
+	CometKunaiProjectile.DisplayName: 彗星苦无
+	CometKunaiStealthProjectile.DisplayName: 彗星苦无
+	CometKunaiStarfall.DisplayName: 彗星苦无
+	Goozmoem.DisplayName: 古泽莫姆
+	BlinkySpikeBall.DisplayName: 小闪的刺球
+	PinkyLight.DisplayName: 小粉的闪光
+	GoozmoemRay.DisplayName: 熔融射线
+	AntiMassBioBall.DisplayName: 反质量生物球
+	AntiMassColliderProj.DisplayName: 反物质对撞器
+	AntiMassMacroLaser.DisplayName: 反物质巨型激光
+	AntiMassDeathLaser.DisplayName: 反物质死亡激光
+	AntiMassBioStrike.DisplayName: 反物质生物火花
+	AntiMassAccumulatorProj.DisplayName: 反物质蓄能器
+	ShakerSludge.DisplayName: 混凝污泥
+	GoozmaBoulderProjectile.DisplayName: 杂色巨石
+	StellarBlackHole.DisplayName: 恒星黑洞
+	FissionFlyerProjectile.DisplayName: 裂变飞刀
+	CometKunaiSuperProjectile.DisplayName: 超级彗星苦无
+	FissionFlayerProjectile.DisplayName: to be determined
+}
+
+Chat: {
+	SlimeMonsoon: 史莱姆季风开始了……
+	NinjaShrineFailure: 如果附近没有足够的史莱姆雕像，神龛就不完整。
+	NinjaShrineFailureFunny: 你向神龛供奉，却一无所获。
+}
+
+Bestiary: {
+	Goozma: 一个接近临界点的史莱姆奇点，吞噬了一个过饱和的核心。它释放出强大的信息素，将其意志施加到其主体之外并影响所有的史莱姆。
+	CrimulanGlopstrosity: 一团浓缩的内脏腐烂物，以邪恶、扭曲的热情凶猛地捍卫其粘液主人。古泽玛的每一位圣卫都由独特的核心分别凝固而成。
+	DivineGargooptuar: 一团浓缩的辉煌神性，以令人眼花缭乱、浮夸的热情凶猛地捍卫其粘液主人。作为其身体的延伸，古泽玛的圣卫只拥有有限的自主权。
+	EbonianBehemuck: 一团浓缩的剧毒腐蚀物，以无情、坚定的热忱凶猛地捍卫其粘液主人。古泽玛的圣卫被有意地避免了同化。
+	StellarGeliath: 一团浓缩的至高无上的力量，以空灵、超凡的活力凶猛地捍卫其粘液主人。如果单独留下，古泽玛可以吸收宇宙中的所有物质。
+	Goozmite: 严格来说这不是一个独立的个体；相反，古泽玛身体的一个无定形部分已经分化，可以虹吸物质进行粘稠的自我复制。古泽玛的粘液用途广泛且在物理上矛盾，它是几乎所有现存物质的混合体。
+}
+
+Buffs: {
+	BloatBabyBuff: {
+		DisplayName: 肿包泡泡宝宝
+		Description: 它似乎和其他人一样喜欢你
+	}
+
+	Gobbed: {
+		DisplayName: 被吞噬
+		Description: 你受苦了
+	}
+
+	Swamped: {
+		DisplayName: 被淹没
+		Description: 你已经被淹没了！
+	}
+
+	Absorption: {
+		DisplayName: 凝之痕
+		Description: 鞭子的速度只是增加了一点点，就只加了一点点，并没有增加太多，你甚至可能不会注意到它，因为它真的太小了
+	}
+
+	FusionBurn: {
+		DisplayName: 聚变焚烧
+		Description: 这很痛，Varik
+	}
+
+	PaladinPalanquinBuff: {
+		DisplayName: 圣卫花轿
+		Description: 这几乎跟待在一个真史莱姆里一样舒服
+	}
+
+	SplendorJamBuff: {
+		DisplayName: 恶意模式
+		Description: 你压力山大
+	}
+
+	SlimeCaneBuff: {
+		DisplayName: 史莱姆派对
+		Description: Inky、Blinky、Pinky和Clyde会保护你
+	}
+
+	Doomed: {
+		DisplayName: 末日
+		Description: 一切都结束了
+	}
+}
+
+Tiles: {
+	GoozmaMusicBoxP1Tile.MapEntry: 音乐盒
+	GoozmaMusicBoxP2Tile.MapEntry: 音乐盒
+	GoozmaSoulMusicBoxTile.MapEntry: 音乐盒
+	YharonSoulMusicBoxTile.MapEntry: 音乐盒
+	ChromaticCampfirePlaced.MapEntry: 虹色篝火
+	// GoozmaMusicBoxExiledP1Tile.MapEntry: Goozma Music Box Exiled P1 Tile
+	// GoozmaMusicBoxExiledP2Tile.MapEntry: Goozma Music Box Exiled P2 Tile
+	// GoozmaMusicBoxJteohP1Tile.MapEntry: Goozma Music Box Jteoh P1 Tile
+	// GoozmaMusicBoxJteohP2Tile.MapEntry: Goozma Music Box Jteoh P2 Tile
+}
+
+Config: {
+	VisualHeader: 视觉效果
+	StressHeader: 压力条
+
+	HolyExplosionToggle: {
+		Label: 神圣爆炸屏幕震动切换
+		Tooltip: 禁用此功能可大幅降低圣洁凝魔的神圣爆炸视觉效果
+	}
+
+	StressPosX: {
+		Label: 压力条 X 坐标位置
+		Tooltip: 调整压力条的水平位置
+	}
+
+	StressPosY: {
+		Label: 压力条 Y 坐标位置
+		Tooltip: 调整压力条的垂直位置
+	}
+
+	StressShake: {
+		Label: 压力条震动切换
+		Tooltip: 切换压力条的震动效果
+	}
+
+	Distortion: {
+		Label: 季风扭曲效果
+		Tooltip: 调整史莱姆季风扭曲效果的强度
+	}
+
+	LightningToggle: {
+		Label: 季风雷暴切换
+		Tooltip: 启用或禁用史莱姆季风的雷暴视觉效果
+	}
+
+	ContentHeader: 目录
+}
+
+LoreGeneric:
+	'''
+	[c/E3AF40:寄宿其上的低语流入你的耳中……]
+	[c/BEBEBE:长按 “左Shift”键以仔细聆听]
+	'''
+LoreGoozma:
+	'''
+	在万物阶级中，一个最令人恐惧不安之物
+	想想，一个底层生物的顶点，尽管没有任何巨龙的血脉，却仍然能够拥有金源魄……
+	它变得更为强大，几乎成为了一个由残缺之物构成的完美存在……也许我们永远不会知晓是何物造就了一个真正的神明。
+	对于你将这种名副其实的毁灭存在催化出来的好奇心超过了我对它的恐惧。
+	是什么影响了它的形成？其外表掩盖了它那巧妙、复杂的操纵能力。
+	可惜，其努力的成果最终却化为泡影。这是历史循环中的一个永恒的规律。
+	也许从泰拉瑞亚的角度来看，我们所做出的成就与只会无能蠕动的史莱姆相差不了多少。
+	'''
+
+Configs: {
+	Config: {
+		DisplayName: 配置
+
+		epilepsy: {
+			Label: "{$Mods.CalamityHunt.Config.HolyExplosionToggle.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.HolyExplosionToggle.Tooltip}"
+		}
+
+		stressX: {
+			Label: "{$Mods.CalamityHunt.Config.StressPosX.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.StressPosX.Tooltip}"
+		}
+
+		stressY: {
+			Label: "{$Mods.CalamityHunt.Config.StressPosY.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.StressPosY.Tooltip}"
+		}
+
+		stressShake: {
+			Label: "{$Mods.CalamityHunt.Config.StressShake.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.StressShake.Tooltip}"
+		}
+
+		monsoonDistortion: {
+			Label: "{$Mods.CalamityHunt.Config.Distortion.Label}"
+			Tooltip: "{$Mods.CalamityHunt.Config.Distortion.Tooltip}"
+		}
+
+		monsoonLightning: {
+			Tooltip: "{$Mods.CalamityHunt.Config.LightningToggle.Tooltip}"
+			Label: "{$Mods.CalamityHunt.Config.LightningToggle.Label}"
+		}
+
+		shadowspecCurse: {
+			Label: 魔影诅咒
+			Tooltip: 诅咒所有魔影等级的物品，使它们在古泽玛被击败前无法使用
+		}
+
+		oldsky: {
+			Label: 旧版天空
+			Tooltip: ""
+		}
+
+		overrideVanillaBalance: {
+			Label: 覆盖原版平衡
+			Tooltip: ""
+		}
+
+		photosensitiveToggle: {
+			Label: 切换光敏效果
+			Tooltip: 禁用可能会引发光敏性疾病的一些效果
+		}
+
+		debugMode: {
+			Label: Debug模式
+			Tooltip:
+				'''
+				启用针对测试游戏机制的功能优化
+				不建议玩家启用
+				'''
+		}
+
+		GoozmaMusicPreference: {
+			// Label: Goozma Music Preference
+			// Tooltip: ""
+		}
+	}
+}
+
+OrRev: " 或复仇"
+SetBonuses.Shogun:
+	'''
+	增加17%伤害和5仆从栏
+	{$CommonItemTooltip.FlightAndSlowfall}
+	{$CommonItemTooltip.PressDownToHover}
+	穿戴任何翅膀都会覆盖这个飞行效果
+	允许冲刺并增强其他冲刺的能力
+	按住DOWN来加速下落
+	增加跳跃速度 
+	免疫许多游戏末期和影响移动的减益
+	'''
+StickyHandStats:
+	'''
+	长度: 56
+	发射速度: 25
+	回收速度: 10
+	牵引速度: 17
+	'''
+GoozmaShadowspecCurse: "[c/462545:一块粘液的诅咒阻止了你使用此物品……]"
+AnyEvilBlock: 任意邪恶物块
+SludgeWarning: 不能用来召唤史莱姆之神
+
+CalamityModName: {
+	Display: Calamity Mod
+	Internal: CalamityMod
+}
+
+Emotes.GoozmaEmote.Command: 古泽玛
+Draeting.Goozma:
+	'''
+	一个活着的悖论，颠覆了我对金源魄本质的一切认知。 
+	神明的本质与仪式不可分割，寻神者似乎对此深信不疑。虽然这是一个完全不科学的推测，但我别无选择，只能接受这一点——他和仅存的金源巨龙具有联系，知道的比我更多，如果引起了他的愤怒，他很快就会终止我的工作。这并不奇怪，我并不知道故事的全貌，直至现在，我仍然错过了许多细节。 
+
+	从战斗结束的那一刻起，我就在马不停蹄地分析它的回放。虽然一种自然现象似乎创造出了一个全新的金源魄，但我对于这一过程的本质知之甚少；正如它被创造出来一样，它又回到了诞生之初的摇篮之中。 
+
+	对此，我有两种主流理论，尽管我对它们的准确性没有太大的信心。 
+	第一种与它诞生的方式有关。即使是最基本的科学家也不难掌握加压的自然过程。举个通俗易懂的例子，就拿碳来说，当受到极大的压力时，它的结构就会发生变化，变为钻石。基于这一事实，在灵魂层面或许也有与这类似的现象；一抹平平无奇的灵魂，作为基本单位，与其他相似的灵魂共压缩于一点，指数级爆炸增长的力量或将产生。
+
+	另一种我并不确定，但仍有考虑的余地：你所说的“史莱姆之神”可能是一个更古老、更受崇敬的一位神祇的碎片，而你的仪式只是让它恢复了最初的形态。这也就意味着，它的灵魂并非像我现在想的那样是自然产生的，而是分裂出来的——用强大力量的一小部分创造出的庸俗假象。
+
+	这两种理论，无论哪种被证明是正确的，都将会提供新的研究路径。尽管你的取名能力还有待提高，但我必须赞扬你竭尽全力进行研究的精神，无论被研究生物的资料有多么充足——而我也从未预想过如此巨大的科学突破会隐藏在最常见的有害生物当中。 
+	'''

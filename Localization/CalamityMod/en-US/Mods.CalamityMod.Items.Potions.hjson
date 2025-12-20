@@ -1,144 +1,438 @@
 AnechoicCoating: {
+	DisplayName: Anechoic Coating
+	Tooltip: Reduces creatures' ability to detect you in the abyss
 }
 
 AstralInjection: {
+	DisplayName: Astral Injection
+	Tooltip:
+		'''
+		Restores {0} mana per second
+		Lower your health by {1} and inflicts {$BuffName.ManaSickness} when used
+		'''
 }
 
 AureusCell: {
+	DisplayName: Aureus Cell
+	Tooltip: Grants the {$BuffName.MagicPower} and {$BuffName.ManaRegeneration} buffs
 }
 
 Baguette: {
+	DisplayName: Baguette
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MinorStats}
+		{$Potions.RedWine.DisplayName} heals {0} HP, but reduces life regen by {1} HP/s
+		[c/FCE391:'je suis Monte']
+		'''
 }
 
 BlasphemousDonut: {
+	DisplayName: Blasphemous Donut
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'Donut worry, it's perfectly edible'
+		'''
+}
+
+BottledPanacea: {
+	DisplayName: Bottled Panacea
+	Tooltip:
+		'''
+		Cures you of all sickness and electricity debuffs when consumed
+		This has a 30 second cooldown
+		'''
 }
 
 BoundingPotion: {
+	DisplayName: Bounding Potion
+	Tooltip: "{0}% increased jump speed and {1}% increased jump height"
 }
 
 CalciumPotion: {
+	DisplayName: Calcium Potion
+	Tooltip: Grants {0}% knockback resistance
 }
 
 CeaselessHungerPotion: {
+	DisplayName: Ceaseless Hunger Potion
+	Tooltip: Causes you to suck up all items in the world
 }
 
 DeliciousMeat: {
-}
-
-Fabsoup: {
+	DisplayName: Delicious Meat
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'So very delicious'
+		'''
 }
 
 FlaskOfBrimstone: {
+	DisplayName: Flask of Brimstone
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.BrimstoneFlames.DisplayName}
 }
 
 FlaskOfCrumbling: {
+	DisplayName: Flask of Crumbling
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.Crumbling.DisplayName}
 }
 
 FlaskOfHolyFlames: {
+	DisplayName: Flask of Holy Flames
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.HolyFlames.DisplayName}
 }
 
 GravityNormalizerPotion: {
+	DisplayName: Gravity Normalizer Potion
+	Tooltip: Disables the low gravity of space and grants immunity to the {$BuffName.VortexDebuff} debuff
 }
 
 HadalStew: {
+	DisplayName: Hadal Stew
+	Tooltip:
+		'''
+		Only gives [S] seconds of {$BuffName.PotionSickness}
+		{$CommonItemTooltip.MediumStats}
+		{$CommonItemTooltip.MinuteDuration}
+		'''
+}
+
+LavaChickenBroth: {
+	DisplayName: Lava Chicken Broth
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MajorStats}
+		'It's tasty as hell'
+		'''
 }
 
 OmegaHealingPotion: {
+	DisplayName: Omega Healing Potion
+	Tooltip: ""
 }
 
 PhotosynthesisPotion: {
+	DisplayName: Photosynthesis Potion
+	Tooltip: Dropped hearts heal {0} more HP
 }
 
 PotionofOmniscience: {
+	DisplayName: Potion of Omniscience
+	Tooltip:
+		'''
+		Highlights nearby creatures, enemy projectiles,
+		danger sources, and treasure
+		'''
 }
 
 ShadowPotion: {
+	DisplayName: Shadow Potion
+	Tooltip:
+		'''
+		{0}% increased stealth generation
+		Turns the player into a shadow with glowing eyes
+		Visual effects can be disabled with the Stealth Invisibility config
+		'''
 }
 
 SoaringPotion: {
+	DisplayName: Soaring Potion
+	Tooltip: "{0}% increased flight time and horizontal flight speed"
 }
 
 SulphurskinPotion: {
+	DisplayName: Sulphurskin Potion
+	Tooltip: Reduces the effects of the sulphuric waters
 }
 
 SupremeHealingPotion: {
+	DisplayName: Supreme Healing Potion
+	Tooltip: ""
 }
 
 SupremeManaPotion: {
-}
-
-TeslaPotion: {
+	DisplayName: Supreme Mana Potion
+	Tooltip: ""
 }
 
 ZenPotion: {
+	DisplayName: Zen Potion
+	Tooltip: Vastly decreases enemy spawn rate
 }
 
 ZergPotion: {
+	DisplayName: Zerg Potion
+	Tooltip: Vastly increases enemy spawn rate
 }
 
-// Drunk Princess Shop Items
+// Very normal Keg crafts
 BloodyMary: {
+	DisplayName: Bloody Mary
+	Tooltip:
+		'''
+		{0}% increased damage and movement speed during a Blood Moon
+		Reduces life regen by {1} HP/s and defense by {2}%
+		{$Common.AlcoholWarning}
+		'''
 }
 
 CaribbeanRum: {
+	DisplayName: Caribbean Rum
+	Tooltip:
+		'''
+		Increases life regen by {0} HP/s, movement speed by {1}%
+		Makes you floaty and reduces defense by {2}%
+		{$Common.AlcoholWarning}
+		'''
 }
 
 CinnamonRoll: {
+	DisplayName: Cinnamon Roll
+	Tooltip:
+		'''
+		Multiplies all fire-based debuff damage by {0}x and increases mana regeneration
+		Reduces defense by {1}%
+		{$Common.AlcoholWarning}
+		'''
+}
+
+PurpleHaze: {
+	DisplayName: Purple Haze
+	Tooltip:
+		'''
+		{0}% increased damage, but lowers defense by {1}%
+		Increases immune time after being struck
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Everclear: {
+	DisplayName: Everclear
+	Tooltip:
+		'''
+		{0}% increased damage
+		Reduces life regen by {1} HP/s and defense by {2}%
+		Counts as 2 alcohols for {$Buffs.AlcoholPoisoning.DisplayName}
+		{$Common.AlcoholWarning}
+		'''
 }
 
 EvergreenGin: {
-}
-
-FabsolsVodka: {
+	DisplayName: Evergreen Gin
+	Tooltip:
+		'''
+		Multiplies all sickness and water-related debuff damage by {0}x
+		Reduces life regen by {1} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Fireball: {
+	DisplayName: Fireball
+	Tooltip:
+		'''
+		Multiplies all fire-based debuff damage by {0}x
+		Reduces life regen by {1} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 GrapeBeer: {
+	DisplayName: Grape Beer
+	Tooltip:
+		'''
+		Reduces defense by {0}% for {1} seconds
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Margarita: {
+	DisplayName: Margarita
+	Tooltip:
+		'''
+		Halves the duration of most harmful debuffs
+		Reduces defense by {0}% and life regen by {1} HP/s
+		{$Common.AlcoholWarning}
+		{$CommonItemTooltip.MinuteDuration@2}
+		'''
 }
 
 Moonshine: {
+	DisplayName: Moonshine
+	Tooltip:
+		'''
+		Increases defense by {0} and damage reduction by {1}%
+		Reduces life regen by {2} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 MoscowMule: {
+	DisplayName: Moscow Mule
+	Tooltip:
+		'''
+		Increases damage by {0}%, knockback by {1}% and critical strike chance by {2}%
+		Reduces life regen by {3} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 OddMushroom: {
+	DisplayName: Odd Mushroom
+	Tooltip:
+		'''
+		Causes you to see many fake, vibrant copies of all nearby entities
+		[c/FF232C:These visual effects may be nauseating or otherwise bad for some]
+		'Trippy'
+		'''
 }
 
 OldFashioned: {
+	DisplayName: Old Fashioned
+	Tooltip:
+		'''
+		Multiplies most non-weapon, non-debuff damage by {0}x
+		Multiplies all weapon damage by {1}x
+		{$Common.AlcoholWarning}
+		'''
 }
 
 RedWine: {
+	DisplayName: Red Wine
+	Tooltip:
+		'''
+		Reduces life regen by {0} HP/s for {1} seconds
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Rum: {
+	DisplayName: Rum
+	Tooltip:
+		'''
+		Increases life regen by {0} HP/s and movement speed by {1}%
+		Reduces defense by {2}%
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Screwdriver: {
+	DisplayName: Screwdriver
+	Tooltip:
+		'''
+		Multiplies piercing projectile damage by {0}x
+		Reduces life regen by {1} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 StarBeamRye: {
+	DisplayName: Star Beam Rye
+	Tooltip:
+		'''
+		Increases max mana by {0}, magic damage by {1}%,
+		and reduces mana usage by {2}%
+		Reduces defense by {3}% and life regen by {4} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Tequila: {
+	DisplayName: Tequila
+	Tooltip:
+		'''
+		Increases knockback by {0}%, crit chance by {1}% and defense by {2} during daytime
+		Reduces life regen by {3} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 TequilaSunrise: {
+	DisplayName: Tequila Sunrise
+	Tooltip:
+		'''
+		Increases knockback by {0}%, crit chance by {1}% and defense by {2} during daytime
+		Reduces life regen by {3} HP/s
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Vodka: {
+	DisplayName: Vodka
+	Tooltip:
+		'''
+		Increases damage by {0}% and critical strike chance by {1}%
+		Reduces life regen by {2} HP/s and defense by {3}%
+		{$Common.AlcoholWarning}
+		'''
 }
 
 Whiskey: {
+	DisplayName: Whiskey
+	Tooltip:
+		'''
+		Increases damage by {0}%, knockback by {1}% and critical strike chance by {2}%
+		Reduces defense by {3}%
+		{$Common.AlcoholWarning}
+		'''
 }
 
 WhiteWine: {
+	DisplayName: White Wine
+	Tooltip:
+		'''
+		Increases magic damage by {0}%
+		Reduces defense by {1}% and life regen by {2} HP/s
+		{$Common.AlcoholWarning}
+		'''
+}
+
+// Food
+Barberry: {
+	DisplayName: Barberry
+	Tooltip: "{$CommonItemTooltip.MediumStats}"
+}
+
+Cometfruit: {
+	DisplayName: Cometfruit
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'Tastes stellar!'
+		'''
+}
+
+Jackfruit: {
+	DisplayName: Jackfruit
+	Tooltip: "{$CommonItemTooltip.MinorStats}"
+}
+
+Lotus: {
+	DisplayName: Lotus
+	Tooltip: "{$CommonItemTooltip.MediumStats}"
+}
+
+Mangosteen: {
+	DisplayName: Mangosteen
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'Queen of fruits'
+		'''
+}
+
+Salak: {
+	DisplayName: Salak
+	Tooltip: "{$CommonItemTooltip.MinorStats}"
+}
+
+ShroomBowl: {
+	DisplayName: Shroom Bowl
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'He has been grounded'
+		'''
 }

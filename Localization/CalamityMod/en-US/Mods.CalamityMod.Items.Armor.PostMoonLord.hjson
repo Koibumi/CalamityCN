@@ -1,143 +1,743 @@
 AuricTeslaBodyArmor: {
+	DisplayName: Auric Tesla Body Armor
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}"
 }
 
 AuricTeslaCuisses: {
+	DisplayName: Auric Tesla Cuisses
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		Provides a magical flying carpet
+		[c/aaaaaa:Shift-<right> in your inventory to toggle] [i:FlyingCarpet] [c/aaaaaa:Flying Carpet's effect]
+		'''
 }
 
-AuricTeslaHoodedFacemask: {
+AuricTeslaHeadRanged: {
+	DisplayName: Auric Tesla Hooded Facemask
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus:
+		'''
+		Ranged Tarragon, Bloodflare and God Slayer armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		'''
+	SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadRanged.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadRanged.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Inherited God Slayer Set Bonus:
+		{$GodSlayerHeadRanged.SetBonusEffect}
+		'''
 }
 
-AuricTeslaPlumedHelm: {
+AuricTeslaHeadRogue: {
+	DisplayName: Auric Tesla Plumed Helm
+	Tooltip:
+		'''
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		Rogue Tarragon, Bloodflare and God Slayer armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		'''
+	SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadRogue.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadRogue.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Inherited God Slayer Set Bonus:
+		{$GodSlayerHeadRogue.SetBonusEffect}
+		'''
 }
 
-AuricTeslaRoyalHelm: {
+AuricTeslaHeadMelee: {
+	DisplayName: Auric Tesla Royal Helm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		Melee Tarragon, Bloodflare and God Slayer effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		'''
+	SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadMelee.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadMelee.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Inherited God Slayer Set Bonus:
+		{$GodSlayerHeadMelee.SetBonusEffect}
+		'''
 }
 
-AuricTeslaSpaceHelmet: {
+AuricTeslaHeadSummon: {
+	DisplayName: Auric Tesla Space Helmet
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		Summoner Tarragon, Bloodflare and Silva armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		'''
+	SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadSummon.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadSummon.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Inherited Silva Set Bonus:
+		{$SilvaHeadSummon.SetBonusEffect}
+		'''
 }
 
-AuricTeslaWireHemmedVisage: {
+AuricTeslaHeadMagic: {
+	DisplayName: Auric Tesla Wire-Hemmed Visage
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus:
+		'''
+		Magic Tarragon, Bloodflare and Silva armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		'''
+	SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadMagic.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadMagic.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Inherited Silva Set Bonus:
+		{$SilvaHeadMagic.SetBonusEffect}
+		'''
 }
 
 BloodflareBodyArmor: {
+	DisplayName: Bloodflare Body Armor
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	CommonSetBonus:
+		'''
+		Greatly increased life regen, equivalent to Crimson armor
+		Enemies below 50% life drop a heart when struck
+		This effect has a 5 second cooldown
+		'''
 }
 
 BloodflareCuisses: {
+	DisplayName: Bloodflare Cuisses
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
 }
 
 BloodflareHeadMagic: {
+	DisplayName: Bloodflare Hydra Hood
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus: "{$BloodflareHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		Magic weapons fire ghostly bolts every {0} seconds
+		Magic critical strikes cause blood explosions every {1} seconds
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadMelee: {
+	DisplayName: Bloodflare Ram Mask
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage} and {$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$BloodflareHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		After striking an enemy {0} times with true melee you will enter a blood frenzy for {1} seconds
+		During this you will gain {2}% increased melee damage, critical strike chance, and {3}% reduced contact damage
+		This effect has a {4} second cooldown
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadRanged: {
+	DisplayName: Bloodflare Horned Helm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+		'''
+	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		{0} to unleash the lost souls of polterghast to destroy your enemies
+		This effect has a {1} second cooldown
+		Ranged weapons fire bloodsplosion orbs every {2} seconds
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadRogue: {
+	DisplayName: Bloodflare Imp Mask
+	Tooltip:
+		'''
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$BloodflareHeadRogue.SetBonusEffect@1}
+		'''
+	SetBonusEffect:
+		'''
+		Grants {0} defense when above {1}% life
+		Rogue critical strikes burst into blood orbs
+		Picking up these blood orbs reduces the duration of [cbuff:PotionSickness]
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 BloodflareHeadSummon: {
+	DisplayName: Bloodflare Wyvern Helm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$BloodflareHeadSummon.SetBonusEffect@2}
+		'''
+	SetBonusEffect:
+		'''
+		Summons polterghast mines to circle you
+		Grants {0} defense when below {1}% life
+		{$BloodflareBodyArmor.CommonSetBonus}
+		'''
 }
 
 DemonshadeBreastplate: {
+	DisplayName: Demonshade Breastplate
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@3}
+		Standing still absorbs shadows to grant exponentially accelerating life regen
+		'''
 }
 
 DemonshadeGreaves: {
+	DisplayName: Demonshade Greaves
+	Tooltip: Shadow speed
 }
 
 DemonshadeHelm: {
+	DisplayName: Demonshade Helm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedDamage@1} and {$CommonItemTooltip.PercentIncreasedCritChance@2}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		Shadowbeams and demon scythes will fire down when you are hit
+		A friendly red devil follows you around
+		{2} to enrage nearby enemies with a dark magic spell for {3} seconds
+		This makes them take {4}x total damage, but they will deal {5}x damage to you
+		'''
 }
 
 EmpyreanCloak: {
+	DisplayName: Empyrean Cloak
+	Tooltip: "{$Common.RogueDamage} and {$Common.RogueCrit@1}"
 }
 
 EmpyreanCuisses: {
+	DisplayName: Empyrean Cuisses
+	Tooltip:
+		'''
+		{$Common.RogueDamageCrit}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 EmpyreanMask: {
+	DisplayName: Empyrean Mask
+	Tooltip:
+		'''
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$Common.RogueVelocity@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		Rogue projectiles have special effects on enemy hits
+		Imbued with cosmic wrath when you are damaged
+		'''
 }
 
 FearmongerGreathelm: {
+	DisplayName: Fearmonger Greathelm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@2}
+		Pure terror radiates from your eyes
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		Minions no longer deal less damage while wielding non-summoner weapons
+		Immunity to all but the strongest forms of frost and flame
+		Minion attacks grant +{1} HP/s life regen and massively accelerate life regen
+		'''
 }
 
 FearmongerGreaves: {
+	DisplayName: Fearmonger Greaves
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 FearmongerPlateMail: {
+	DisplayName: Fearmonger Plate Mail
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		+{2} max life and {3}% increased damage reduction
+		'''
 }
 
 GemTechBodyArmor: {
+	DisplayName: Gem Tech Body Armor
+	Tooltip: "'You sunk low enough for me to reach.'"
 }
 
 GemTechHeadgear: {
+	DisplayName: Gem Tech Headgear
+	Tooltip: "'The Devil said: Revel in your victory; You've earned your damning. Pack your things and leave.'"
+	AbilityBrief: "[c/{0}:Power Gems - Six gem fragments idly orbit you; one for each class, and a base gem]"
+	AbilityDescription:
+		'''
+		Each active gem provides a bonus for its respective class, while the defensive gem grants defensive boosts
+		Powerful enemy hits will dislodge gems, launching them into the nearest enemy for huge damage
+		Lost gems regenerate after a while
+		The lost gem is the same class as the weapon you are using, so better prepare for some weapon switching action!
+		'''
+	GeneralGemInfo:
+		'''
+		A gem is lost when you take more than {0} damage in a single hit
+		The type of gem lost is the same as the class of the most recently used weapon
+		If said gem has already been lost, the base gem is lost instead
+		When a gem is lost, it breaks off and homes towards the nearest enemy or boss, if one is present, dealing a base of {1} damage
+		Gems have a {2} second delay before they appear again
+		'''
+	RedGemInfo: "[i:CalamityMod/GemTechRedGem] The red gem grants {0} maximum stealth, increased rogue stats, and makes stealth only consumable by rogue weapons"
+	YellowGemInfo: "[i:CalamityMod/GemTechYellowGem] The yellow gem provides increased melee stats and makes melee attacks release shards on hit with a cooldown. This cooldown is shorter for true melee attacks"
+	GreenGemInfo: "[i:CalamityMod/GemTechGreenGem] The green gem provides increased ranged stats and causes flechettes to fly swiftly towards targets when they are damaged by a ranged projectile"
+	BlueGemInfo: "[i:CalamityMod/GemTechBlueGem] The blue gem grants {0} maximum minions, increased summon damage, and negates the summon damage penalty while wielding non-summoner weapons"
+	PurpleGemInfo: "[i:CalamityMod/GemTechPurpleGem] The violet gem grants {0} maximum mana, increased magic stats, and makes mana rapidly regenerate when holding a non-magic weapon"
+	PinkGemInfo: "[i:CalamityMod/GemTechPinkGem] The pink base gem grants {0} defense, increased damage reduction, movement speed, jump speed, and +{1} HP/s life regen"
+	GemBonusInfo:
+		'''
+		When all gems exist simultaneously, hitting a target with any weapon grants you +{0} HP/s life regen for {1} seconds
+		This is increased to +{2} HP/s life regen if a weapon of another class is used during that {1} second period for {3} seconds
+		'''
 }
 
 GemTechSchynbaulds: {
+	DisplayName: Gem Tech Schynbaulds
+	Tooltip: "'If they hurt you, kick them down.'"
 }
 
 GodSlayerChestplate: {
+	DisplayName: God Slayer Chestplate
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	CommonSetBonus:
+		'''
+		Press {0} to [c/ff00ff:Dimensional Drive] towards your cursor for 2 seconds
+		Enemies you dash through take massive damage
+		During [c/ff00ff:Dimensional Drive] you are immune to damage and most debuffs
+		[c/ff00ff:Dimensional Drive] has a {1} second cooldown
+		'''
 }
 
 GodSlayerHeadMelee: {
+	DisplayName: God Slayer Horned Greathelm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage} and {$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$GodSlayerHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		Releases a swarm of god killer darts when taking over {0} damage in one hit
+		{$GodSlayerChestplate.CommonSetBonus@1}
+		'''
 }
 
 GodSlayerHeadRanged: {
+	DisplayName: God Slayer Helmet
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus: "{$GodSlayerHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		Ranged weapons fire a god killer shrapnel round every {0} seconds
+		{$GodSlayerChestplate.CommonSetBonus@1}
+		'''
 }
 
 GodSlayerHeadRogue: {
+	DisplayName: God Slayer Mask
+	Tooltip:
+		'''
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$GodSlayerHeadRogue.SetBonusEffect@1}
+		'''
+	SetBonusEffect:
+		'''
+		{0}% increased rogue damage, critical strike chance, and velocity when at full health
+		Increased length of invincibility when taking over {1} damage in one hit
+		{$GodSlayerChestplate.CommonSetBonus@2}
+		'''
 }
 
 GodSlayerLeggings: {
+	DisplayName: God Slayer Leggings
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 OmegaBlueChestplate: {
+	DisplayName: Omega Blue Chestplate
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		Your attacks inflict Hadopelagic Pressure
+		No positive life regen
+		'''
 }
 
 OmegaBlueHelmet: {
+	DisplayName: Omega Blue Helmet
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		You can move freely through liquids
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		Short-ranged tentacles heal you by sucking enemy life
+		[c/{1}:Abyssal Madness - {2} to go berserk for {3} seconds]
+		[c/99ABFF:While active, tentacles attack with greater range and aggression, and always critically strike]
+		[c/99ABFF:This also grants {$CommonItemTooltip.PercentIncreasedDamageCritChance@4}]
+		[c/99ABFF:This effect has a {5} second cooldown]
+		'''
 }
 
 OmegaBlueTentacles: {
+	DisplayName: Omega Blue Tentacles
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
 }
 
 PrismaticGreaves: {
+	DisplayName: Prismatic Greaves
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamage} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+		{2}% decreased non-magic damage
+		{3}% increased flight time and {4}% increased jump speed
+		'''
 }
 
 PrismaticHelmet: {
+	DisplayName: Prismatic Helmet
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		{4}% decreased non-magic damage
+		Enemies with less than 500 max health deal no contact damage
+		This does not occur while a boss is alive
+		'''
+	SetBonus:
+		'''
+		Increased mana regeneration rate
+		[c/{0}:Prismatic Barrage - {1} to unleash a laser barrage at the cursor for {2} seconds]
+		[c/67F4FB:This has a {3} second cooldown]
+		'''
 }
 
 PrismaticRegalia: {
+	DisplayName: Prismatic Regalia
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
+		{1}% decreased non-magic damage
+		Magic attacks have a {2}% chance to fire a pair of homing rockets
+		'''
 }
 
 SilvaArmor: {
+	DisplayName: Silva Armor
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	CommonSetBonus:
+		'''
+		+{0} HP/s life regen
+		{1}% increased max run speed and acceleration
+		Taking fatal damage will revive you and make you invulnerable to all damage for {2} seconds
+		This effect has a {3} minute cooldown, which does not decrement if any bosses or events are active
+		'''
 }
 
 SilvaHeadMagic: {
+	DisplayName: Silva Masked Cap
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus: "{$SilvaHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		Magic projectiles which cannot pierce will occasionally set off potent blasts of nature energy
+		{$SilvaArmor.CommonSetBonus}
+		'''
 }
 
 SilvaHeadSummon: {
+	DisplayName: Silva Horned Hood
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$SilvaHeadSummon.SetBonusEffect@2}
+		'''
+	SetBonusEffect:
+		'''
+		Summons an ancient leaf prism to blast your enemies with life energy
+		{$SilvaArmor.CommonSetBonus}
+		'''
 }
 
 SilvaLeggings: {
+	DisplayName: Silva Leggings
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }
 
 TarragonBreastplate: {
+	DisplayName: Tarragon Breastplate
+	Tooltip:
+		'''
+		{0}% increased damage and {1}% increased critical strike chance
+		+{2} HP/s life regen and {3}% increased damage reduction
+		'''
+	CommonSetBonus:
+		'''
+		Increased heart pickup range
+		Enemies have a chance to drop extra hearts on death
+		'''
 }
 
 TarragonHeadMagic: {
+	DisplayName: Tarragon Mask
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
+	SetBonus: "{$TarragonHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		On every 5th critical strike you will fire a leaf storm
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadMelee: {
+	DisplayName: Tarragon Helm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage} and {$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$TarragonHeadMelee.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		Taking damage gives [cbuff:CalamityMod/TarraLifeRegen], which grants +{0} HP/s life regen
+		{1} to cloak yourself in life energy that heavily reduces enemy contact damage for {2} seconds
+		This has a {3} second cooldown
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadRanged: {
+	DisplayName: Tarragon Visage
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus: "{$TarragonHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		Ranged projectiles spawn homing life energy and leaves on enemy hits
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadRogue: {
+	DisplayName: Tarragon Helmet
+	Tooltip:
+		'''
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$TarragonHeadRogue.SetBonusEffect@1}
+		'''
+	SetBonusEffect:
+		'''
+		After every {0} rogue critical hits you will gain {1} seconds of damage immunity
+		This effect has a cooldown of {2} seconds
+		While under the effects of a debuff you gain {3}% increased rogue damage
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonHeadSummon: {
+	DisplayName: Tarragon Horned Helm
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$TarragonHeadSummon.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
+		Summons a life aura around you that damages nearby enemies
+		{$TarragonBreastplate.CommonSetBonus}
+		'''
 }
 
 TarragonLeggings: {
+	DisplayName: Tarragon Leggings
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+		'''
 }

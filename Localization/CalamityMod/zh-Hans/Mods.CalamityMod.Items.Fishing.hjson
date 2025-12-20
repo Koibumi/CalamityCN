@@ -1,161 +1,420 @@
+// Quest fish tooltips
+CaughtInAstral: “抓捕位置：星辉瘟疫”
+CaughtInBrimstoneCrag: “抓捕位置：硫火之崖”
+CaughtInSnow: “抓捕位置：苔原”
+CaughtInSpace: “抓捕位置：天湖”
+CaughtInSunkenSea: “抓捕位置：沉沦之海”
+
 // Astral Infection Catches
 AldebaranAlewife: {
+	DisplayName: 毕宿五灰西鲱
+	Tooltip: 被幻星击中的一条鱼
 }
 
 ArcturusAstroidean: {
+	DisplayName: 大角海星
+	Tooltip: 处于星辉瘟疫或硫磺海时渔力提高至{0}倍
 }
 
 AstralCrate: {
+	DisplayName: 星幻匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 AstrophageItem: {
+	DisplayName: 噬星体
+	Tooltip: 召唤一只跟随你的噬星体
 }
 
 MonolithCrate: {
+	DisplayName: 星石匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ProcyonidPrawn: {
+	DisplayName: 南河三明虾
+	Tooltip: ""
 }
 
 TwinklingPollox: {
+	DisplayName: 北河三烁光鱼
+	Tooltip: 它的鳞闪烁着水晶的光泽
 }
 
 UrsaSergeant: {
+	DisplayName: 大熊座雀鲷
+	Tooltip:
+		'''
+		用幻星之爪重击敌人
+		受到伤害会降低攻击冷却，但也会对你施加{$Buffs.AstralInfectionDebuff.DisplayName}
+		击杀敌人也会降低攻击冷却
+		如果关闭饰品可见性，重击会变得透明且安静
+		'''
 }
 
 // Brimstone Crag Catches
 Bloodfin: {
+	DisplayName: 血鳍
+	Tooltip:
+		'''
+		提供大幅增加自然生命再生的增益并且+{0}HP/s生命再生
+		受到伤害性减益影响时生命再生会提升至+{1}HP/s
+		如果生命值低于{3}%此增益会每{2}秒直接回复生命值
+		{$CommonItemTooltip.SecondDuration@4}
+		“血管新生的奇迹”
+		'''
 }
 
 Brimlish: {
+	DisplayName: 小硫火鱼
+	QuestDescription: 你真的击败了那个巨大的火中女士？我听说她的孩子们逃进了岩浆里，而且其中一个化作了鱼！我才不会让岩浆烧了我的手，所以你给我搞到一条，这样我的岩浆鱼缸就能派上用场了！
 }
 
 BrimstoneCrate: {
+	DisplayName: 硫磺火匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CharredLasher: {
+	DisplayName: 焦黑鞭笞者
+	Tooltip: 这条稀有的鱼可以卖个好价钱
 }
 
 CoastalDemonfish: {
+	DisplayName: 海岸恶魔鱼
+	Tooltip: 它的角将诅咒任何触碰它的人
 }
 
 CragBullhead: {
+	DisplayName: 硫火崖回鱼
+	Tooltip: 它的鳞片烫手的吓人
 }
 
 DragoonDrizzlefish: {
+	DisplayName: 硫火喷吐鱼
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		发射各种狱炎和硫磺火球
+		有时会发射更大的分裂火球
+		它的硫磺火囊里似乎装有燃料
+		“当即复仇的滋味最为甜美”
+		'''
+	TooltipGFB:
+		'''
+		发射各种狱炎和硫磺火球
+		有时会发射更大的分裂火球
+		右键给这个小家伙喂一点美味的凝胶
+		“他是个饥肠辘辘的孩子”
+		'''
 }
 
 Havocfish: {
+	DisplayName: 混乱鱼
+	QuestDescription: When you killed that gross flesh wall, so much chaos and havoc was infused into those ruinous crags that even the lava sprouted fish made of the pure essence! Go fetch it for me, pure havoc sounds like exactly what my next scheme needs!
 }
 
 Shadowfish: {
+	DisplayName: 暗影鱼
+	Tooltip: 黑暗蔓延
 }
 
 SlagCrate: {
+	DisplayName: 焦炭匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 Slurpfish: {
+	DisplayName: 饮食者鱼
+	QuestDescription: 嘿 {0}，让你去地狱遗迹的岩浆里钓鱼听起来是不是灾灾又厄厄？但我听说那里有一条会啜人心魂的恐怖怪鱼！我还要保管好自己的灵魂，所以你快去！鱼可不会自己上钩！
 }
 
 // Sunken Sea Catches
+CoralskinFoolfish: {
+	DisplayName: Coralskin Foolfish
+	Tooltip: 伪装是大自然最绝佳的防御之一
+}
+
 EutrophicCrate: {
+	DisplayName: 富养匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 EutrophicSandfish: {
+	DisplayName: 富养沙地鱼
+	QuestDescription: 你知道沙漠里的蜥蜴往伊尔梅兰旧地钻的太深会发生什么吗？我知道，它们超酷的！可惜它们太滑了我没抓住。你，现在就去把它抓来，这样我就有新的宠物了！
+}
+
+GleamingCucumber: {
+	DisplayName: Gleaming Cucumber
+	Tooltip: 在Polyp Forest底部发现的黏滑生物
 }
 
 GreenwaveLoach: {
+	DisplayName: 绿波泥鳅
+	Tooltip: 一种濒危的鱼，应该会有人出高价买下它
+}
+
+MoltenFishron: {
+	DisplayName: Molten Fishron
+	Tooltip:
+		'''
+		Instead of honking it makes crisp wheezing noises 
+		Or maybe it actually is wheezing due to being taken out of lava
+		'''
 }
 
 PrismCrate: {
-}
-
-PrismaticGuppy: {
+	DisplayName: 棱晶匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 RustedJingleBell: {
+	DisplayName: 锈蚀铃铛
+	Tooltip:
+		'''
+		召唤一只小鬼铃水母宠物
+		在水下提供适量光照
+		'''
 }
 
 SerpentsBite: {
+	DisplayName: 巨蛇之咬
+	Tooltip: "{$Common.GrappleStats}"
 }
 
 Serpentuna: {
+	DisplayName: 巨蛇金枪鱼
+	QuestDescription: 我受够了！零花钱老是被那些伊尔梅兰水蛇偷走！我要把它们的小蛇一网打尽，而你得来帮我！……啥？我才不会用它们偷别人的钱……
 }
 
 SparklingEmpress: {
+	DisplayName: 闪光皇后鱼
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		发射一股不稳定魔法水流
+		发射一段时间后，鱼身会开始闪光
+		在闪光状态下停止使用将恢复少量魔力
+		“一条美丽的鱼，似乎以魔力为食”
+		'''
+	TooltipGFB:
+		'''
+		发射一股不稳定魔法水流
+		发射一段时间后，鱼身会开始闪光
+		在闪光状态下停止使用将恢复少量魔力
+		“你好啊，看来你是生面孔。
+		也许你很惊讶我这样一条鱼居然会说话？
+		别担心，我没有恶意。
+		这么好的天，我只是想找一顿纯粹魔力的美餐！
+		而你有很多很多魔力，对吧？
+		或许你会大发慈悲，为一条小鱼慷慨解囊？
+		如果你并非菩萨心肠，我还有一个折中之策。
+		很简单，你向我这条小鱼提供魔力。
+		而我会用我的鱼鱼魔法给你提供强大的攻击力。
+		能接受这个折中之策吗？
+		太好了！
+		那我们就去看看上面的世界吧，顺便让我享用一顿美餐！”
+		'''
+}
+
+SpecularSturgeon: {
+	DisplayName: Specular Sturgeon
+	Tooltip:
+		'''
+		一种栖息于深处的鱼，可以繁衍数代
+		无需多言，它是个老家伙！
+		'''
+}
+
+Squidoom: {
+	DisplayName: Squidoom
+	Tooltip: 据说长时间凝视它会被催眠
 }
 
 SunkenSailfish: {
+	DisplayName: 沉沦帆鱼
+	Tooltip: 以60英里的时速巡航
 }
 
 SurfClam: {
+	DisplayName: 碎浪蛤
+	QuestDescription: 据说一大群蛤已经占据了沉沦之海！光是听到蛤这个字就足以让我垂涎三尺！你会帮我止住饥饿吗？你绝对会！把我的盘中餐和你自己完完整整地带回来！
 }
 
 // Other Catches
 EnchantedStarfish: {
+	DisplayName: 附魔星鱼
+	Tooltip:
+		'''
+		{$ItemTooltip.ManaCrystal}
+		可替代 [i:ManaCrystal] {$ItemName.ManaCrystal}
+		'''
 }
 
 FishofEleum: {
+	DisplayName: 冰川鱼
+	QuestDescription: It's so unfair that all the cool fish only come out when you slay big demon guys! I mean that "cool" in two ways by the way. I've seen fish in the tundra materialized out of the essence of pure coldness! It's about time I get an ice pack for my fish, so fetch me that fish, or you're cold!
 }
 
 FishofFlight: {
-}
-
-FishofLight: {
-}
-
-FishofNight: {
+	DisplayName: 飞翔之鱼
+	Tooltip: 右键以提取[i:SoulofFlight]灵魂
 }
 
 GlimmeringGemfish: {
+	DisplayName: 闪光宝石鱼
+	Tooltip: 右键以提取[ITEMS]宝石
 }
 
 Gorecodile: {
+	DisplayName: 血鳄
+	Tooltip: 右键以提取[i:CalamityMod/BloodOrb]血珠
 }
 
 HydrothermalCrate: {
+	DisplayName: 渊泉匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 Spadefish: {
+	DisplayName: 铲子鱼
+	Tooltip:
+		'''
+		“鱼怎么能拿来掘地呢？
+		有些问题还是不要深究的好……”
+		'''
 }
 
 StuffedFish: {
+	DisplayName: 填充草药鱼
+	Tooltip: 右键以提取[HERBS]草药和[SEEDS]种子
 }
 
 SulphurousCrate: {
+	DisplayName: 硫海匣
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SunbeamFish: {
+	DisplayName: 日光鱼
+	QuestDescription: Have you ever seen those sunskaters that float way above the clouds? Well, I'll let you in on my little secret: They began their lives as little fish! So what are you waiting for, go reach for the stars and pluck one down for me!
 }
 
 // Fishing Rods
 EarlyBloomRod: {
+	DisplayName: 龙蒿钓竿
+	Tooltip:
+		'''
+		一次性投放六根鱼线，鱼线永远都不会断
+		作为饰品装备时取消钓鱼小游戏
+		“早起的鸟儿有鱼吃”
+		'''
 }
 
 FeralDoubleRod: {
+	DisplayName: 野性双头钓竿
+	Tooltip:
+		'''
+		一次性投放两根鱼线
+		损失生命值越多，增加的渔力越多
+		提供钓鱼小游戏
+		<right>以流失生命
+		流失生命会加速捕获
+		浮标可以钩住敌怪，当流失生命时对它们造成伤害
+		作为饰品装备时让其他钓竿使用此钓竿的小游戏
+		'''
 }
 
 HeronRod: {
+	DisplayName: 白鹭钓竿
+	Tooltip:
+		'''
+		处于太空时渔力提高至{0}倍
+		提供钓鱼小游戏
+		钓鱼时移动会移动浮标而不是玩家
+		水面上方会随时间出现圆环
+		接触圆环时浮标会上钩物品
+		浮标落回水中时会自动收取上钩的物品
+		作为饰品装备时让其他钓竿使用此钓竿的小游戏
+		'''
 }
 
 NavyFishingRod: {
+	DisplayName: 沉沦渊石钓竿
+	Tooltip:
+		'''
+		投放对附近敌怪施加Static Discharge的浮标
+		提供钓鱼小游戏
+		浮标会漂浮在与你等高的水下，允许你在水下钓鱼
+		钓鱼时朝指示方向移动以捕获物品
+		作为饰品装备时让其他钓竿使用此钓竿的小游戏
+		'''
 }
 
 RiftReeler: {
+	DisplayName: 岩缝取鱼者
+	Tooltip:
+		'''
+		一次性投放四根鱼线
+		可以在熔岩中钓鱼
+		提供钓鱼小游戏
+		钓鱼时移动会移动浮标而不是玩家
+		裂缝会随时间在液体中出现，其中包含物品
+		浮标接触裂缝时会自动收取其内部的物品
+		作为饰品装备时让其他钓竿使用此钓竿的小游戏
+		'''
 }
 
 SlurperPole: {
+	DisplayName: 饮食者钓竿
+	Tooltip:
+		'''
+		可以在熔岩中钓鱼
+		作为饰品装备时取消钓鱼小游戏
+		“我们的灵魂中蕴藏着一个熔炉，这熔炉是一座充满着悲痛与哀伤的火山。”
+		'''
 }
 
 TheDevourerofCods: {
+	DisplayName: 鳕鱼吞噬者
+	Tooltip:
+		'''
+		一次性投放十根鱼线。鱼线永远都不会断并且可以在熔岩中钓鱼
+		提供钓鱼小游戏
+		上钩的物品会被永久地钩住
+		钓鱼时普通鱼会被自动消耗
+		消耗鱼时浮标会上钩新物品和投喂使用者
+		作为饰品装备时让其他钓竿使用此钓竿的小游戏
+		“就连神明吞噬者也曾经在这样的鱼群中掠食”
+		'''
 }
 
 VerstaltiteFishingRod: {
+	DisplayName: 寒元钓竿
+	Tooltip:
+		'''
+		处于苔原时渔力提高至{0}倍
+		作为饰品装备时取消钓鱼小游戏
+		这种远古合金反射出的多彩光泽非常适合吸引鱼儿
+		'''
 }
 
 WulfrumRod: {
+	DisplayName: 钨钢钓竿
+	Tooltip:
+		'''
+		可以钓到钨钢金属废料和钨钢能源核心
+		提供钓鱼小游戏
+		钓鱼时朝指示方向移动以捕获物品
+		你持续无误操作的时间越长，钓竿会增强，钓鱼速度加快
+		作为饰品装备时让其他钓竿使用此钓竿的小游戏
+		“这玩意儿质量很差，但总比没有好……”
+		'''
 }
 
 // Bait
 GrandMarquisBait: {
+	DisplayName: 尊爵鱼饵
+	Tooltip: ""
 }

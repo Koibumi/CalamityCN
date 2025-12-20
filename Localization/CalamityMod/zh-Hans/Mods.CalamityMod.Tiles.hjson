@@ -1,5 +1,62 @@
+// Ambient Objects
+GiantBulb: 巨型世纪之花花苞
+Fossil: 化石
+Column: 柱
+Ribs: 肋骨
+Stalagmite: 石笋
+Stalactite: 钟乳石
+PirateCrate: 废弃板条箱
+// Basic Calamity Furniture
+Basin: 火盆
+LavaFountain: 熔岩喷泉
+BaroqueCello: Baroque Cello
+Jukebox: Jukebox
+PipeOrgan: 管风琴
+Sconce: 壁灯
+// Draedon Lab Furniture
+Console: 控制台
+ContainmentBox: 密封箱
+Display: 展柜
+ElectricPanel: 实验室配电盘
+ReinforcedCrate: 加固板条箱
+Screen: 荧幕
+Server: 服务器
+Terminal: 终端机
+// Individual entries
+// Sulphurous Sea & Abyss
+SteamGeyser.MapEntry: 喷硫间歇泉
+AbyssVent.MapEntry: 深渊喷口
+ThermalVent.MapEntry: 热泉喷口
+// Brimstone Crag
+SpineSapling.MapEntry: 脊椎树苗
+SpineTree.MapEntry: 巨大脊椎
+// Draedon
+InactivePowerCellFactory.MapEntry: 未激活能源电池工厂
+OnyxExcavatorTile.MapEntry: 玛瑙挖掘机
+CodebreakerTile.MapEntry: 密码破译器基站
+// Ores
+AerialiteOre.MapEntry: 天蓝矿
+AerialiteOreDisenchanted.MapEntry: 未注魔的天蓝矿
+AstralOre.MapEntry: 炫星矿
+AuricOre.MapEntry: 圣金源矿
+CryonicOre.MapEntry: 寒元矿
+ExodiumOre.MapEntry: 起源之簇
+HallowedOre.MapEntry: 神圣矿
+InfernalSuevite.MapEntry: 地狱角砾岩
+PerennialOre.MapEntry: 永恒矿
+ScoriaOre.MapEntry: 熔渣矿
+UelibloomOre.MapEntry: 龙蒿矿
+// Misc
+ArenaTile.MapEntry: 战斗场地
+
 AshenChest: {
+	MapEntry0: "{$Items.Placeables.AshenChest.DisplayName}"
+	MapEntry1: 上锁的{$Items.Placeables.AshenChest.DisplayName}
 }
 
 AstralChestLocked: {
+	MapEntry0: "{$Items.Placeables.AstralChest.DisplayName}"
+	MapEntry1: 上锁的{$Items.Placeables.AstralChest.DisplayName}
 }
+
+PlaguedPlateBed.MapEntry: “床”

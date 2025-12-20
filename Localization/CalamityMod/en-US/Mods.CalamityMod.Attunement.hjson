@@ -1,66 +1,173 @@
 // Broken Biome Blade
 DefaultAttunement: {
+	Name: Pure Clarity
+	Function: Fires a weak sword beam that crushes enemy defenses
 }
 
 HotAttunement: {
+	Name: Arid Grandeur
+	Function:
+		'''
+		Conjure searing blades in front of you that get larger with enemy hits
+		The blades will bounce you off of tiles while in the air
+		'''
 }
 
 ColdAttunement: {
-}
-
-TropicalAttunement: {
+	Name: Biting Embrace
+	Function: Perform a 3 strike combo with a glacial blade, with the final strike freezing foes for a split second
 }
 
 EvilAttunement: {
+	Name: Decay's Retort
+	Function: Lunge forward with a ghostly rapier projection, bouncing away from struck targets and leeching their life
 }
 
 // Mended Biome Blade
 TrueDefaultAttunement: {
+	Name: Pure Clarity
+	Function:
+		'''
+		Fires a weak sword beam that crushes enemy defenses
+		Landing three true melee hits charges a powerful lunge, unleashed when you stop swinging the sword
+		Enemies struck by the lunge are marked with a sigil that sword beams will home in on
+		'''
 }
 
 TrueHotAttunement: {
+	Name: Arid Grandeur
+	Function:
+		'''
+		Conjure searing blades in front of you that get larger with enemy hits
+		The blades will bounce you off of tiles while in the air
+		Releasing after the blades are fully charged sends them hurtling forwards to shred your foes
+		'''
 }
 
 TrueColdAttunement: {
+	Name: Biting Embrace
+	Function:
+		'''
+		Perform a 3 strike combo with a glacial blade, with the final strike freezing foes for a split second
+		Harmful lingering glacial mist is released on each swing
+		'''
 }
 
 TrueTropicalAttunement: {
+	Name: Grovetender's Touch
+	Function:
+		'''
+		Throw out the blade using a vine whip
+		Striking enemies with the tip of the whip as it cracks guarantees a critical hit
+		Spreading vines sprout from critical strikes, which can hit up to three targets
+		'''
 }
 
 TrueEvilAttunement: {
+	Name: Decay's Retort
+	Function:
+		'''
+		Lunge forward with a ghostly rapier projection, bouncing away from struck targets and leeching their life
+		Landing three strikes without touching the ground turns your next attack into an empowered dash thrust
+		'''
 }
 
 HolyAttunement: {
-}
-
-AstralAttunement: {
-}
-
-MarineAttunement: {
+	Name: Heaven's Might
+	Function:
+		'''
+		Swing the sword around you, accelerating and dealing more damage over time
+		Once swung for long enough, releasing hurls the sword towards your cursor for a short time
+		Striking an enemy with the hurled sword at maximum power causes an astral monolith to erupt from them
+		'''
 }
 
 // True Biome Blade
 WhirlwindAttunement: {
+	Name: Swordsmith's Pride
+	Function:
+		'''
+		Hold <left> to swing the sword around you, accelerating and dealing more damage over time
+		Homing astral energies are wildly fired around you while swinging
+		Once swung for long enough, releasing hurls the sword towards your cursor
+		The hurled sword erupts into astral monoliths on enemy hits
+		'''
+	PassiveDesc: Striking enemies occasionally spawns homing astral bombers that spread the Astral Infection
 }
 
 FlailBladeAttunement: {
+	Name: Lamentations of the Chained
+	Function:
+		'''
+		Lash out with a flurry of chained blades
+		Striking enemies with the tip of the blades guarantees a critical strike
+		Critical strikes send out extra phantom chains which latch onto multiple targets
+		'''
+	PassiveDesc: An enchanted chain hook floats near you which spins and freezes enemies while dealing damage
 }
 
 SuperPogoAttunement: {
+	Name: Sanguine Fury
+	Function:
+		'''
+		Conjure molten blades in front of you that get larger with enemy hits
+		The blades will bounce you off of tiles while in the air
+		Releasing sends the charged blades hurtling forwards like a wheel
+		Attacking immediately after throwing the blade launches you toward it, slicing through enemies and healing you
+		'''
+	PassiveDesc: Striking enemies will rarely heal you
 }
 
 ShockwaveAttunement: {
+	Name: Earthen Tides
+	Function:
+		'''
+		Charge an earth-shattering lunge, release to unleash a devastating blow
+		Homing sword beams are emitted as the sword charges up
+		Striking an enemy with the lunge creates a shockwave and marks them with an armor crunching sigil that attracts sword beam homing
+		Striking the earth with the lunge will cause several blasts of dust to erupt around you
+		'''
+	PassiveDesc: Periodically emit large shock waves while attacking
 }
 
 // Galaxia
 PhoenixAttunement: {
+	Name: Phoenix's Pride
+	Function:
+		'''
+		Swing the sword around you, accelerating over time
+		The swirling nebula constantly emits homing cosmic bolts
+		Release to hurl the sword toward the cursor alongside 6 gigantic cosmic bolts
+		The hurled sword erupts into a blazing tornado on enemy hits
+		'''
 }
 
 AriesAttunement: {
+	Name: Aries' Wrath
+	Function:
+		'''
+		Binds the sword to your cursor through a chain of constellations
+		Striking enemies causes nebulous explosions which spawn homing cosmic bolts
+		'''
 }
 
 PolarisAttunement: {
+	Name: Polaris' Gaze
+	Function:
+		'''
+		Channel Galaxia's power into a vortex of celestial energies
+		The vortex powers up over time and while hitting enemies
+		Release to fire a powerful star directly on your cursor that bombards nearby enemies with bolts
+		Attacking immediately after firing the star launches you toward it, damaging enemies
+		'''
 }
 
 AndromedaAttunement: {
+	Name: Andromeda's Stride
+	Function:
+		'''
+		Charge a spatial lunge, release to unleash a galactic blow
+		Charging the sword periodically emits homing bolts
+		Lunging into enemies rains large homing stars from the heavens
+		'''
 }

@@ -1,8 +1,6 @@
-using CalamityCN.Systems;
-
-namespace CalamityCN
+/*namespace CalamityCN
 {
-    /*TODO
+    TODO
     internal static class CalamityCNUtils
     {
         public static string tc(this string strSimple)
@@ -17,5 +15,5 @@ namespace CalamityCN
             return strSimple;
         }
     }
-    */
-}
+    
+}*/
