@@ -1,3 +1,5 @@
+AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
+AmphibiansGuitarProjectile.DisplayName: Note
 AndromedaDeathRay.DisplayName: Beam
 AndromedaRegislash.DisplayName: Regislash
 AndromedaUI_Background.DisplayName: UI
@@ -90,6 +92,8 @@ DormantBrimseekerBab.DisplayName: Dormant Brimseeker
 DormantBrimseekerSummoner.DisplayName: Dormant Brimseeker
 Dreadmine.DisplayName: Dreadmine
 DreadmineTurret.DisplayName: Dreadmine Turret
+EnchantedKnifeSummon.DisplayName: Enchanted Knife
+EnchantedKnifeStaffProjectile.DisplayName: Enchanted Knife Beam
 EndoBeam.DisplayName: Endo Beam
 EndoCooperBody.DisplayName: Ascened Cooper
 EndoCooperLimbs.DisplayName: Ascened Cooper
@@ -242,6 +246,7 @@ SandnadoMinion.DisplayName: Sandnado
 SandTornado.DisplayName: Tornado
 SarosAura.DisplayName: Saros Aura
 SarosSunfire.DisplayName: Saros Sunfire
+SarosEclipseBeam.DisplayName: Eclipse Beam
 SeashineSwordProj.DisplayName: Seashine Sword
 SeekerSummonProj.DisplayName: Soul Seeker
 SepulcherMinion.DisplayName: Sepulcher
@@ -285,6 +290,8 @@ StormjawBaby.DisplayName: Stormjaw Baby
 SummonAstralExplosion.DisplayName: Explosion
 SummonBrimstoneExplosion.DisplayName: Explosion
 SummonBrimstoneExplosionSmall.DisplayName: Explosion
+SunSpiritBeam.DisplayName: Sun Beam
+SunSpiritMinion.DisplayName: Sun Spirit
 TacticalPlagueJet.DisplayName: Tactical Plague Jet
 TundraFlameBlossom.DisplayName: Tundra Flame Blossoms
 TundraFlameBlossomsOrb.DisplayName: Tundra Flame Blossoms Orb
@@ -303,6 +310,8 @@ UniverseSplitterField.DisplayName: Field
 UniverseSplitterHugeBeam.DisplayName: Universe Splitter Ray
 UniverseSplitterSmallBeam.DisplayName: Universe Splitter Ray
 Valkyrie.DisplayName: Valkyrie
+VengefulSunBeam.DisplayName: Vengeful Sun Beam
+VengefulSunSpiritMinion.DisplayName: Vengeful Sun Spirit
 VileFeederProjectile.DisplayName: Eater of Souls Mini
 VileFeederSummon.DisplayName: Baby Eater
 ViridVanguardBlade.DisplayName: Vanguard Blade
@@ -325,12 +334,3 @@ WulfrumDroid.DisplayName: Wulfrum Droid
 WulfrumEnergyBurst.DisplayName: Wulfrum Bolt
 WulfrumFusionBolt.DisplayName: Fusion Bolt
 YharonMinionFireball.DisplayName: Dragon Fireball
-EnchantedBladeSummon.DisplayName: Enchanted Blade
-EnchantedBladeStaffProjectile.DisplayName: Enchanted Blade Beam
-AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
-AmphibiansGuitarProjectile.DisplayName: Note
-SunSpiritBeam.DisplayName: Sun Spirit Beam
-SunSpiritMinion.DisplayName: Sun Spirit Minion
-VengefulSunBeam.DisplayName: Vengeful Sun Beam
-VengefulSunSpiritMinion.DisplayName: Vengeful Sun Spirit Minion
-SarosEclipseBeam.DisplayName: Saros Eclipse Beam

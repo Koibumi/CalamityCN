@@ -86,7 +86,6 @@ DepthCrusherProjectile.DisplayName: 深渊碾碎者
 DepthCrusherSplitProjectile.DisplayName: 深渊碾碎者喷流
 DevilsDevastationThrownBlade.DisplayName: 破灭之掷刃
 DevilsSunriseCyclone.DisplayName: 邪锋黎明
-DNA.DisplayName: 卢克雷西亚剑气
 DracoBeam.DisplayName: 天龙座射线
 DracoBeam2.DisplayName: 天龙座射线
 DraconicSpark.DisplayName: 暴风灼焱
@@ -163,10 +162,9 @@ LightningThing.DisplayName: 电光
 LightspeedDashHitbox.DisplayName: Lightspeed Rupture
 LightspeedHoldout.DisplayName: Lightspeed
 LightspeedM1Hitbox.DisplayName: Lightspeed Stab
-LucreciaProj.DisplayName: 卢克雷西亚
-LucreciaDNATrailCreator.DisplayName: 卢克雷西亚DNA
-LucreciaDoubleHelix.DisplayName: 卢克雷西亚螺旋彗星
-LucreciaSmallProjectile.DisplayName: 卢克雷西亚
+LucreciaBolt.DisplayName: Lucrecia Bolt
+LucreciaDNATrailCreator.DisplayName: 夜光彗星轨迹
+LucreciaHoldout.DisplayName: 卢克雷西亚
 LuxorsGiftMelee.DisplayName: 卢克索之近战符文
 MantisClawHoldout.DisplayName: 螳螂爪
 MantisClawJet.DisplayName: 螳螂爪喷流
@@ -241,8 +239,6 @@ SpatialSpear2.DisplayName: 元素长枪
 SpatialSpear3.DisplayName: 元素长枪
 SpatialSpear4.DisplayName: 元素长枪
 SpineOfThanatosProjectile.DisplayName: 塔纳托斯的脊柱
-StarburstBeam.DisplayName: 星光短剑
-StarburstSHIV.DisplayName: 短 剑
 StarnightBeam.DisplayName: 夜之星光
 StarofJudgement.DisplayName: 制裁之星
 StarofOrder.DisplayName: 秩序之星

@@ -108,6 +108,19 @@ Nidhogg: {
 		'''
 }
 
+PhalanxSurge: {
+	DisplayName: W-LSR: Phalanx Surge
+	Tooltip:
+		'''
+		发射一扇激光
+		按住<right>充能，使武器能够向前刺出，用能量矛刺穿敌人
+		发射充能攻击时按住<left>会使你高速向前飞刺并造成额外伤害
+		充能攻击有一个较短的冷却时间
+		[c/1FFBFF:“寻神者军队中对近程武器的呼声不计其数。]
+		[c/1FFBFF:一把能刺穿敌人的激光槊自然收获了雷鸣般的掌声。”]
+		'''
+}
+
 Phaseslayer: {
 	DisplayName: 相位剑
 	Tooltip:
@@ -199,19 +212,6 @@ PulseTurretRemote: {
 		'''
 }
 
-PhalanxSurge: {
-	DisplayName: W-LSR: Phalanx Surge
-	Tooltip:
-		'''
-		发射一扇激光
-		按住<right>充能，使武器能够向前刺出，用能量矛刺穿敌人
-		发射充能攻击时按住<left>会使你高速向前飞刺并造成额外伤害
-		充能攻击有一个较短的冷却时间
-		[c/1FFBFF:“寻神者军队中对近程武器的呼声不计其数。]
-		[c/1FFBFF:一把能刺穿敌人的激光槊自然收获了雷鸣般的掌声。”]
-		'''
-}
-
 ShortCircuit: {
 	DisplayName: P-TSL: Short Circuit
 	Tooltip:
@@ -264,15 +264,6 @@ TheAnomalysNanogun: {
 		'''
 }
 
-WavePounder: {
-	DisplayName: 震波炸弹
-	Tooltip:
-		'''
-		扔出一颗会爆炸出强烈震荡波的炸弹
-		潜伏攻击会使炸弹释放出更为强劲的震荡波
-		'''
-}
-
 Vulcan: {
 	DisplayName: R-GSS: Vulcan
 	Tooltip:
@@ -283,5 +274,14 @@ Vulcan: {
 		当鱼叉消失时，所有被磁化的子弹向附近的敌人发射，并提高伤害
 		[c/1FFBFF:“最初设计为顶挂式光束挖掘装置，移除电池仅略微减轻了其重量。]
 		[c/1FFBFF:鲜有用处，战斗法师部队对此怨声载道。”]
+		'''
+}
+
+WavePounder: {
+	DisplayName: 震波炸弹
+	Tooltip:
+		'''
+		扔出一颗会爆炸出强烈震荡波的炸弹
+		潜伏攻击会使炸弹释放出更为强劲的震荡波
 		'''
 }

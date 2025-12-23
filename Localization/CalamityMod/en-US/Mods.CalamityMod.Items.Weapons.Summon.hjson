@@ -10,6 +10,16 @@ AbandonedSlimeStaff: {
 		'''
 }
 
+AmphibiansGuitar: {
+	DisplayName: Amphibian's Guitar
+	Tooltip:
+		'''
+		Summons up to 8 guitars that spin around you and shoot notes at the target, ocasianally firing spread shots
+		If all 8 guitars are present some notes become empowered dealing extra damage
+		"I'll show you suffering!"
+		'''
+}
+
 AncientIceChunk: {
 	DisplayName: Ancient Ice Chunk
 	Tooltip:
@@ -311,6 +321,11 @@ DreadmineStaff: {
 EnchantedConch: {
 	DisplayName: Enchanted Conch
 	Tooltip: Summons a hermit crab to fight for you
+}
+
+EnchantedKnifeStaff: {
+	DisplayName: Enchanted Knife Staff
+	Tooltip: Summons an Enchanted Knife to fight for you
 }
 
 Endogenesis: {
@@ -747,18 +762,6 @@ StaffOfNecrosteocytes: {
 		'''
 }
 
-VoidEaterMarionette: {
-	DisplayName: Void Eater Marionette
-	Tooltip:
-		'''
-		Contains the power to control a miniature Devourer
-		Repeated summons increase the length and power of the Devourer
-		The Devourer attacks with [c/ff00ff:Divinity Devourer], [c/ff00ff:Faith Incinerator] and [c/ff00ff:Ultracosmic Maelstrom]
-		Can play fetch with dropped items 
-		Shift-<right> this item in your inventory when the Devourer has been spawned to prioritize fetching
-		'''
-}
-
 StarspawnHelixStaff: {
 	DisplayName: Starspawn Helix Staff
 	Tooltip: Summons astral probes to protect you
@@ -888,6 +891,18 @@ VoidConcentrationStaff: {
 		'''
 }
 
+VoidEaterMarionette: {
+	DisplayName: Void Eater Marionette
+	Tooltip:
+		'''
+		Contains the power to control a miniature Devourer
+		Repeated summons increase the length and power of the Devourer
+		The Devourer attacks with [c/ff00ff:Divinity Devourer], [c/ff00ff:Faith Incinerator] and [c/ff00ff:Ultracosmic Maelstrom]
+		Can play fetch with dropped items 
+		Shift-<right> this item in your inventory when the Devourer has been spawned to prioritize fetching
+		'''
+}
+
 WarloksMoonFist: {
 	DisplayName: Warloks' Moon Fist
 	Tooltip:
@@ -924,20 +939,5 @@ YharonsKindleStaff: {
 		'''
 		Summons a fiery draconid to fight for you
 		Requires 5 minion slots to use
-		'''
-}
-
-EnchantedBladeStaff: {
-	DisplayName: Enchanted Blade Staff
-	Tooltip: Summons an Enchanted Knife to fight for you
-}
-
-AmphibiansGuitar: {
-	DisplayName: Amphibian's Guitar
-	Tooltip:
-		'''
-		Summons up to 8 guitars that spin around you and shoot notes at the target, ocasianally firing spread shots
-		If all 8 guitars are present some notes become empowered dealing extra damage
-		"I'll show you suffering!"
 		'''
 }

@@ -58,6 +58,34 @@ MOAB: {
 		'''
 }
 
+MoonWalkers: {
+	DisplayName: Moon Walkers
+	TreadsName: Moon Boots
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		24% increased running acceleration
+		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
+		Provides immunity to lava
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
+		'Hee hee!'
+		'''
+}
+
+SeraphTracers: {
+	DisplayName: Seraph Tracers
+	TreadsName: Seraph Treads
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		50% increased running acceleration
+		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
+		Provides immunity to lava and damaging tiles, including [i:CalamityMod/AuricOre] Auric Ore
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
+		'Taking speed EVEN FURTHER BEYOND!'
+		'''
+}
+
 SilvaWings: {
 	DisplayName: Silva Wings
 	Tooltip:
@@ -99,20 +127,6 @@ TarragonWings: {
 		'''
 }
 
-MoonWalkers: {
-	DisplayName: Moon Walkers
-	TreadsName: Moon Boots
-	Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		24% increased running acceleration
-		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
-		Provides immunity to lava
-		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
-		'Hee hee!'
-		'''
-}
-
 VoidStriders: {
 	DisplayName: Void Striders
 	TreadsName: Void Kicks
@@ -124,20 +138,6 @@ VoidStriders: {
 		Provides immunity to lava
 		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
 		'Ludicrous speed!'
-		'''
-}
-
-SeraphTracers: {
-	DisplayName: Seraph Tracers
-	TreadsName: Seraph Treads
-	Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		50% increased running acceleration
-		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
-		Provides immunity to lava and damaging tiles, including [i:CalamityMod/AuricOre] Auric Ore
-		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
-		'Taking speed EVEN FURTHER BEYOND!'
 		'''
 }
 

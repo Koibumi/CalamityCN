@@ -10,6 +10,16 @@ AbandonedSlimeStaff: {
 		'''
 }
 
+AmphibiansGuitar: {
+	DisplayName: Amphibian's Guitar
+	Tooltip:
+		'''
+		召唤至多8把环绕你旋转的吉他，吉他会朝目标发射音符，偶尔散射
+		如果8把吉他全部出现，一些音符会被增幅并造成额外伤害
+		“我要让你受苦！”
+		'''
+}
+
 AncientIceChunk: {
 	DisplayName: 千载寒晶
 	Tooltip:
@@ -311,6 +321,11 @@ DreadmineStaff: {
 EnchantedConch: {
 	DisplayName: 附魔海螺
 	Tooltip: 召唤寄居蟹为你而战
+}
+
+EnchantedKnifeStaff: {
+	DisplayName: Enchanted Knife Staff
+	Tooltip: Summons an Enchanted Knife to fight for you
 }
 
 Endogenesis: {
@@ -747,18 +762,6 @@ StaffOfNecrosteocytes: {
 		'''
 }
 
-VoidEaterMarionette: {
-	DisplayName: Void Eater Marionette
-	Tooltip:
-		'''
-		蕴含掌控小型吞噬者的力量
-		重复召唤会增加吞噬者的长度和威力
-		吞噬者会使用[c/ff00ff:Divinity Devourer]，[c/ff00ff:Faith Incinerator]和[c/ff00ff:Ultracosmic Maelstrom]攻击
-		可以与掉落物品互动
-		召唤吞噬者后在物品栏中按住Shift<right>以优先拾取掉落物品
-		'''
-}
-
 StarspawnHelixStaff: {
 	DisplayName: 唤星螺旋杖
 	Tooltip: 召唤幻星探测器来保护你
@@ -888,6 +891,18 @@ VoidConcentrationStaff: {
 		'''
 }
 
+VoidEaterMarionette: {
+	DisplayName: Void Eater Marionette
+	Tooltip:
+		'''
+		蕴含掌控小型吞噬者的力量
+		重复召唤会增加吞噬者的长度和威力
+		吞噬者会使用[c/ff00ff:Divinity Devourer]，[c/ff00ff:Faith Incinerator]和[c/ff00ff:Ultracosmic Maelstrom]攻击
+		可以与掉落物品互动
+		召唤吞噬者后在物品栏中按住Shift<right>以优先拾取掉落物品
+		'''
+}
+
 WarloksMoonFist: {
 	DisplayName: Warloks的月亮之拳
 	Tooltip:
@@ -924,20 +939,5 @@ YharonsKindleStaff: {
 		'''
 		召唤一只炽焰天龙为你而战
 		需要至少5格仆从栏位才能使用
-		'''
-}
-
-EnchantedBladeStaff: {
-	DisplayName: Enchanted Blade Staff
-	Tooltip: 召唤一把附魔飞刀为你而战
-}
-
-AmphibiansGuitar: {
-	DisplayName: Amphibian's Guitar
-	Tooltip:
-		'''
-		召唤至多8把环绕你旋转的吉他，吉他会朝目标发射音符，偶尔散射
-		如果8把吉他全部出现，一些音符会被增幅并造成额外伤害
-		“我要让你受苦！”
 		'''
 }

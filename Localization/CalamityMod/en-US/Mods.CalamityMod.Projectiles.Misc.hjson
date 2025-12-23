@@ -1,5 +1,4 @@
 // Damageable
-ArtifactOfResilienceBulwark.DisplayName: Artifact of Resilience
 MarniteRepulsionHitbox.DisplayName: Repulsion Matrix
 // Draedon's Arsenal
 AerialTrackerLaser.DisplayName: Laser
@@ -15,11 +14,9 @@ AugerPull.DisplayName: Auger Pull
 CountermeasurePalmBlast.DisplayName: Palm Blast
 GaussEnergy.DisplayName: Gauss Energy
 GaussFlux.DisplayName: Gauss Flux
-GaussPistolShot.DisplayName: Gauss Shot
 ImmolationArrow.DisplayName: Immolation Arrow
 ImmolationBurst.DisplayName: Immolation Burst
 ImmolationSpray.DisplayName: Immolation Spray
-LaserRifleShot.DisplayName: Laser Rifle
 MassivePlasmaExplosion.DisplayName: Plasma Explosion
 MountedScannerLaser.DisplayName: Deathray
 MountedScannerSummon.DisplayName: Mounted Scanner
@@ -44,15 +41,12 @@ ShortCircuitHook.DisplayName: Short Circuit Hook
 ShrimpPlasmaMissile.DisplayName: Plasma Shrimp Missile
 SnakeEyesSummon.DisplayName: Snake Eyes
 SnakeEyesProjectile.DisplayName: Inescapable Bolt
-StarSwallowerAcid.DisplayName: Acid
-StarSwallowerSummon.DisplayName: Pet Froge
 SystemBaneLightning.DisplayName: Lightning
 SystemBaneProjectile.DisplayName: System Bane
 TeslaCannonShot.DisplayName: Tesla Beam
-UnstableMatter.DisplayName: Unstable Matter
 VoltageStream.DisplayName: Voltage Stream
 VulcanProjectile.DisplayName: Vulcan Shot
-VulcanSpear.DisplayName: Vulcanite Lance
+VulcanSpear.DisplayName: Vulcan Harpoon
 WavePounderBoom.DisplayName: Explosion
 WavePounderProjectile.DisplayName: Wave Pounder
 // Environmental
@@ -84,4 +78,3 @@ PlagueShot.DisplayName: Plague Shot
 PlagueShotBuffer.DisplayName: Plague Shot
 WaterShot.DisplayName: Water Shot
 WaterShotBuffer.DisplayName: Water Shot
-FrequencyManipulatorEnergy.DisplayName: Frequency Manipulator Energy

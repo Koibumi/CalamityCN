@@ -229,11 +229,6 @@ DarkSpark: {
 		'''
 }
 
-HyperdeathRiftScepter: {
-	DisplayName: Hyperdeath Rift Scepter
-	Tooltip: 用[c/ff00ff:Hyperdeath Rift Ripper]将空间撕裂成两半
-}
-
 DeathValleyDuster: {
 	DisplayName: 死亡之尘
 	Tooltip:
@@ -433,6 +428,11 @@ Heresy: {
 		从翻开的书页中召唤火焰与灵魂
 		你翻书的时间越长，攻击越强
 		'''
+}
+
+HyperdeathRiftScepter: {
+	DisplayName: Hyperdeath Rift Scepter
+	Tooltip: 用[c/ff00ff:Hyperdeath Rift Ripper]将空间撕裂成两半
 }
 
 HyphaeRod: {

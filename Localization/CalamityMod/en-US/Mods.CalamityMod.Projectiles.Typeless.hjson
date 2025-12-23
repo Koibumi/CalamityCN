@@ -5,9 +5,8 @@ AmuletEnergy.DisplayName: Sea Spirit
 ArcZap.DisplayName: Arc Zap
 ArtifactOfResilienceShards.DisplayName: Artifact Shard
 AscendantAura.DisplayName: Ascendant Aura
-AstralFallingSand.DisplayName: Astral Falling Sand
-AstralSandBallFalling.DisplayName: Astral Sand
-AstralSandBallGun.DisplayName: Astral Sand
+AstralSandBallFalling.DisplayName: Astral Sand Ball
+AstralSandBallGun.DisplayName: Astral Sand Ball
 AstralSpray.DisplayName: Astral Spray
 AstralStar.DisplayName: Star
 AuricLandMineExplosion.DisplayName: Auric Land Mine Explosion
@@ -15,7 +14,9 @@ BabyCannonballProjectile.DisplayName: Baby Cannonball Projectile
 BasicBurst.DisplayName: Nondescript Damaging Explosion
 BasicBurstExclusive.DisplayName: Nondescript Damaging Explosion
 BasicPlagueBee.DisplayName: Basic Plague Bee
+BatholithBangleProjectile.DisplayName: Granite Flash
 BlackGlassBandProjectile.DisplayName: Obsidian Strike
+BlackPearlFalling.DisplayName: Black Pearl
 BlazingStarHeal.DisplayName: Blazing Star Heal
 BlazingStarThatDoesNotHeal.DisplayName: Blazing Star That Does Not Heal
 BlazingSun.DisplayName: Blazing Sun
@@ -47,6 +48,8 @@ DevourerofCodsBobber.DisplayName: Devourer of Cods Bobber
 DiamondOfTheDeepProjectile.DisplayName: Abyss Spirit
 DirectStrike.DisplayName: Nondescript Damaging Entity
 DragonDust.DisplayName: Dust
+DunesandBallFalling.DisplayName: Dunesand Ball
+DuneSandBallGun.DisplayName: Dunesand Ball
 EarlyBloomBobber.DisplayName: Early Bloom Bobber
 EmpyreanBlast.DisplayName: Empyrean Blast
 EmpyreanEmber.DisplayName: Empyrean Ember
@@ -54,7 +57,8 @@ EmpyreanGlob.DisplayName: Empyeran Glob
 EmpyreanMarble.DisplayName: Empyrean Marble
 EmpyreanStellarDetritus.DisplayName: Empyrean Stellar Detritus
 EnergyShell.DisplayName: Energy Shell
-EutrophicSandBallGun.DisplayName: Eutrophic Sand
+EutrophicSandBallFalling.DisplayName: Eutrophic Sand Ball
+EutrophicSandBallGun.DisplayName: Eutrophic Sand Ball
 ExoTankHoverThrust.DisplayName: Exo Thrust
 ExoTankLaser.DisplayName: Mini Exo Pulse Laser
 ExoTankMissile.DisplayName: Miracle Missile
@@ -64,6 +68,7 @@ FestiveWingsOrnament.DisplayName: Ornament
 FlameLickedBarrage.DisplayName: Flame Licked Barrage
 FlameLickedHellblast.DisplayName: Flame Licked Hellblast
 FlashBolt.DisplayName: The Reminder
+FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
 FuckYou.DisplayName: Explosion
 FungalClumpMinion.DisplayName: Fungal Clump
 GemTechArmorGem.DisplayName: Trireme's Gem
@@ -104,7 +109,10 @@ PauldronDash.DisplayName: Pauldron Dash
 PauldronExplosion.DisplayName: Pauldron Explosion
 PearlAuraShard.DisplayName: Prism Shard
 PlaguePulse.DisplayName: Plague Pulse
+PinkPearlFalling.DisplayName: Pink Pearl
 PoisonousSeawater.DisplayName: Seawater
+PolypSandBallFalling.DisplayName: Polyp Sand Ball
+PolypSandBallGun.DisplayName: Polyp Sand Ball
 ProtolithBangleProjectile.DisplayName: Marble Shatter
 PscTransformAnimation.DisplayName: Psc Transform Animation
 PscTransformRocks.DisplayName: Psc Transform Rocks
@@ -118,6 +126,7 @@ RustyMedallionDroplet.DisplayName: Acid Droplet
 SandCloakVeil.DisplayName: Dust Veil
 SandExplosion.DisplayName: Sand
 SCalAltarArenaVisual.DisplayName: Supreme Calamitas Arena Visual
+ScionsCurioMini.DisplayName: Scions Curio
 Seashell.DisplayName: Seashell
 SepulcherSoul.DisplayName: Tormented Soul
 SerpentsBiteHook.DisplayName: Serpent's Bite
@@ -134,7 +143,7 @@ StickyFeatherAero.DisplayName: Feather
 StomperSlam.DisplayName: Stomper Slam
 SuicideBomberDemon.DisplayName: Demon
 SulphuricAcidBubbleFriendly.DisplayName: Acid Bubble
-SulphurousSandBallGun.DisplayName: Sulphurous Sand
+SulphurousSandBallGun.DisplayName: Sulphurous Sand Ball
 TarraEnergy.DisplayName: Tarra Energy
 TarragonAura.DisplayName: Tarragon Aura
 TatteredFairyDust.DisplayName: Tattered Fairy Dust
@@ -149,9 +158,12 @@ VictideBobber.DisplayName: Snail Bobber
 VictideSeaSnail.DisplayName: Sea Snail
 VictideSpirit.DisplayName: Bubbly Spirit
 VoidFieldGenerator.DisplayName: Void Field Generator
+VolcanicSandBallFalling.DisplayName: Volcanic Sand Ball
+VolcanicSandBallGun.DisplayName: Volcanic Sand Ball
 WarbannerDamage.DisplayName: The Unmatched Power of the Sun
 WarbannerLight.DisplayName: Warbanner Light
 WhiteLabSeeker.DisplayName: Seeking Mechanism
+WhitePearlFalling.DisplayName: White Pearl
 WulfrumBobber.DisplayName: Wulfrum Bobber
 WulfrumDiggingTurtleProjectile.DisplayName: Digging Turtle
 WulfrumHook.DisplayName: Wulfrum Slingshot
@@ -160,15 +172,3 @@ YellowLabSeeker.DisplayName: Seeking Mechanism
 VoidofExtinctionCrit.DisplayName: Void of Extinction Crit
 XykDeathAnim.DisplayName: Xyk Death Animation
 XykWings.DisplayName: Xyk Wings
-BatholithBangleProjectile.DisplayName: Batholith Bangle Projectile
-ScionsCurioMini.DisplayName: Scions Curio Mini
-BlackPearlFalling.DisplayName: Black Pearl Falling
-DunesandBallFalling.DisplayName: Dunesand Ball Falling
-EutrophicSandBallFalling.DisplayName: Eutrophic Sand Ball Falling
-PinkPearlFalling.DisplayName: Pink Pearl Falling
-PolypSandBallFalling.DisplayName: Polyp Sand Ball Falling
-VolcanicSandBallFalling.DisplayName: Volcanic Sand Ball Falling
-WhitePearlFalling.DisplayName: White Pearl Falling
-DuneSandBallGun.DisplayName: Dunesandball
-PolypSandBallGun.DisplayName: Polyp Sandball
-VolcanicSandBallGun.DisplayName: Volcanic Sandball

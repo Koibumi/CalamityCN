@@ -20,6 +20,11 @@ ClaretCannon: {
 		'''
 }
 
+ColdheartIcicle: {
+	DisplayName: Coldheart Icicle
+	Tooltip: "'N(ice) work'"
+}
+
 EyeofMagnus: {
 	DisplayName: Eye of Magnus
 	Tooltip:

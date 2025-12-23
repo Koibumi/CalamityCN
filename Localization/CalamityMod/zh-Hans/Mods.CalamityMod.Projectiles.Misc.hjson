@@ -1,5 +1,4 @@
 // Damageable
-ArtifactOfResilienceBulwark.DisplayName: 灵之形
 MarniteRepulsionHitbox.DisplayName: 斥力矩阵
 // Draedon's Arsenal
 AerialTrackerLaser.DisplayName: Laser
@@ -15,11 +14,9 @@ AugerPull.DisplayName: Auger Pull
 CountermeasurePalmBlast.DisplayName: 掌心冲击
 GaussEnergy.DisplayName: 高斯能量
 GaussFlux.DisplayName: 高斯流能
-GaussPistolShot.DisplayName: 高斯电能弹
 ImmolationArrow.DisplayName: Immolation Arrow
 ImmolationBurst.DisplayName: Immolation Burst
 ImmolationSpray.DisplayName: Immolation Spray
-LaserRifleShot.DisplayName: 激光步枪
 MassivePlasmaExplosion.DisplayName: 等离子爆炸
 MountedScannerLaser.DisplayName: 红色死光
 MountedScannerSummon.DisplayName: 架式扫射机
@@ -44,15 +41,12 @@ ShortCircuitHook.DisplayName: Short Circuit Hook
 ShrimpPlasmaMissile.DisplayName: 等离子虾导弹
 SnakeEyesSummon.DisplayName: 蛇眼
 SnakeEyesProjectile.DisplayName: 无法逃避的能量矢
-StarSwallowerAcid.DisplayName: 酸
-StarSwallowerSummon.DisplayName: 宠物青蛙
 SystemBaneLightning.DisplayName: 电磁束
 SystemBaneProjectile.DisplayName: 神经系统紊乱装置
 TeslaCannonShot.DisplayName: 特斯拉光束
-UnstableMatter.DisplayName: 不稳定物质
 VoltageStream.DisplayName: 高压电流
 VulcanProjectile.DisplayName: Vulcan Shot
-VulcanSpear.DisplayName: Vulcanite Lance
+VulcanSpear.DisplayName: Vulcan Harpoon
 WavePounderBoom.DisplayName: 震荡波
 WavePounderProjectile.DisplayName: 震波炸弹
 // Environmental
@@ -84,4 +78,3 @@ PlagueShot.DisplayName: 瘟疫爆弹
 PlagueShotBuffer.DisplayName: 瘟疫爆弹
 WaterShot.DisplayName: 水流
 WaterShotBuffer.DisplayName: 水流
-FrequencyManipulatorEnergy.DisplayName: 变频器能量

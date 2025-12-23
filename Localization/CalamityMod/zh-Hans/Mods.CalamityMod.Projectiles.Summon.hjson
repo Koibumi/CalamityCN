@@ -1,3 +1,5 @@
+AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
+AmphibiansGuitarProjectile.DisplayName: 音符
 AndromedaDeathRay.DisplayName: 能量射线
 AndromedaRegislash.DisplayName: 能量光刃
 AndromedaUI_Background.DisplayName: UI
@@ -90,6 +92,8 @@ DormantBrimseekerBab.DisplayName: 沉眠寻焰者
 DormantBrimseekerSummoner.DisplayName: 沉眠寻焰者
 Dreadmine.DisplayName: 惧魂雷
 DreadmineTurret.DisplayName: 恐惧炮塔
+EnchantedKnifeSummon.DisplayName: Enchanted Knife
+EnchantedKnifeStaffProjectile.DisplayName: Enchanted Knife Beam
 EndoBeam.DisplayName: 源生射线
 EndoCooperBody.DisplayName: 源生冰灵
 EndoCooperLimbs.DisplayName: 源生冰灵
@@ -242,6 +246,7 @@ SandnadoMinion.DisplayName: 沙龙卷
 SandTornado.DisplayName: 沙龙卷
 SarosAura.DisplayName: 星律光环
 SarosSunfire.DisplayName: 星律阳炎
+SarosEclipseBeam.DisplayName: 星律蚀日光束
 SeashineSwordProj.DisplayName: 海耀剑刃
 SeekerSummonProj.DisplayName: 灵魂搜寻者
 SepulcherMinion.DisplayName: 灾坟魔物
@@ -285,6 +290,8 @@ StormjawBaby.DisplayName: 风暴蚁狮
 SummonAstralExplosion.DisplayName: 爆裂星辰
 SummonBrimstoneExplosion.DisplayName: 硫火爆炸
 SummonBrimstoneExplosionSmall.DisplayName: 硫火爆炸
+SunSpiritBeam.DisplayName: 太阳之灵光束
+SunSpiritMinion.DisplayName: 太阳之灵
 TacticalPlagueJet.DisplayName: 战术瘟疫喷气背包
 TundraFlameBlossom.DisplayName: 永冻之焱华
 TundraFlameBlossomsOrb.DisplayName: 永冻焱华珠
@@ -303,6 +310,8 @@ UniverseSplitterField.DisplayName: 力场
 UniverseSplitterHugeBeam.DisplayName: 渊宇裂解光
 UniverseSplitterSmallBeam.DisplayName: 渊宇裂光
 Valkyrie.DisplayName: 瓦尔基里光束
+VengefulSunBeam.DisplayName: 复仇之阳光束
+VengefulSunSpiritMinion.DisplayName: 复仇之阳
 VileFeederProjectile.DisplayName: 迷你灵魂饮食者
 VileFeederSummon.DisplayName: 腐化吞噬者宝宝
 ViridVanguardBlade.DisplayName: 葱茏之锋
@@ -325,12 +334,3 @@ WulfrumDroid.DisplayName: 钨钢机器人
 WulfrumEnergyBurst.DisplayName: 钨钢能量束
 WulfrumFusionBolt.DisplayName: 融合束
 YharonMinionFireball.DisplayName: 龙崽火球
-EnchantedBladeSummon.DisplayName: Enchanted Blade
-EnchantedBladeStaffProjectile.DisplayName: Enchanted Blade Beam
-AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
-AmphibiansGuitarProjectile.DisplayName: 音符
-SunSpiritBeam.DisplayName: 太阳之灵光束
-SunSpiritMinion.DisplayName: 太阳之灵
-VengefulSunBeam.DisplayName: 复仇之阳光束
-VengefulSunSpiritMinion.DisplayName: 复仇之阳
-SarosEclipseBeam.DisplayName: 星律蚀日光束

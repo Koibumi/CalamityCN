@@ -229,11 +229,6 @@ DarkSpark: {
 		'''
 }
 
-HyperdeathRiftScepter: {
-	DisplayName: Hyperdeath Rift Scepter
-	Tooltip: Tears space in two with [c/ff00ff:Hyperdeath Rift Ripper]
-}
-
 DeathValleyDuster: {
 	DisplayName: Death Valley Duster
 	Tooltip:
@@ -433,6 +428,11 @@ Heresy: {
 		Releases fire and souls upward from a held book
 		As the book is held the power of both increases
 		'''
+}
+
+HyperdeathRiftScepter: {
+	DisplayName: Hyperdeath Rift Scepter
+	Tooltip: Tears space in two with [c/ff00ff:Hyperdeath Rift Ripper]
 }
 
 HyphaeRod: {

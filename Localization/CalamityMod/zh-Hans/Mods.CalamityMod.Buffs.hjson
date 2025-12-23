@@ -465,6 +465,11 @@ FoxPetBuff: {
 	Description: 狐狸宠物？狐 狸 宠 物
 }
 
+FrostyBatBuff: {
+	DisplayName: Frosty Bat Friend
+	Description: 一只寒霜蝙蝠在周围掠动
+}
+
 FurtasticDuoBuff: {
 	DisplayName: 毛茸茸的伙伴们
 	Description: 它们做到了！毛茸茸的伙伴们围在你周围
@@ -528,6 +533,11 @@ SparksBuff: {
 ThirdSageBuff: {
 	DisplayName: 第三贤者
 	Description: 额，这不可能是鬼
+}
+
+ToastyBatBuff: {
+	DisplayName: Toasty Bat Friend
+	Description: 一只炽焰蝙蝠在你肩头扑棱
 }
 
 YharonSonBuff: {
@@ -1260,6 +1270,11 @@ DemonshadeSetDevilBuff: {
 	Description: 赤红恶魔会保护你
 }
 
+EnchantedKnifeStaffBuff: {
+	DisplayName: Enchanted Knife
+	Description: Junk knives not included
+}
+
 EndoCooperBuff: {
 	DisplayName: 源生寒晶
 	Description: 寒古宙以来冰封的晶体会保护你
@@ -1565,11 +1580,6 @@ SoulSeekerBuff: {
 	Description: 它渴望汝所拥有之物……
 }
 
-StarSwallowerBuff: {
-	DisplayName: 噬星者
-	Description: 并不能吞噬星星
-}
-
 StellarTorusBuff: {
 	DisplayName: 星环
 	Description: 召唤一个环形轨道烤熟你的敌人
@@ -1665,19 +1675,4 @@ ForbiddenStealthSummonTagBuff: {
 SeaKingsAssurance: {
 	DisplayName: Sea King's Assurance
 	Description: 如果你正看到这个，说明出现了极其严重的错误
-}
-
-FrostyBatBuff: {
-	DisplayName: Frosty Bat Friend
-	Description: 一只寒霜蝙蝠在周围掠动
-}
-
-ToastyBatBuff: {
-	DisplayName: Toasty Bat Friend
-	Description: 一只炽焰蝙蝠在你肩头扑棱
-}
-
-EnchantedBladeStaffBuff: {
-	DisplayName: Enchanted Blade Staff
-	Description: 不包含垃圾剑刃
 }

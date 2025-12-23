@@ -288,6 +288,15 @@ DesecratedWater: {
 		'''
 }
 
+DimensionTearingDisk: {
+	DisplayName: Dimension-Tearing Disk
+	Tooltip:
+		'''
+		投出一个飞盘，向最近敌怪的方向撕裂空间
+		潜伏攻击会挂在敌人身上并释放[c/ff00ff:God's Bane Doombeam Array]
+		'''
+}
+
 DoomsdayDevice: {
 	DisplayName: Doomsday Device
 	Tooltip:
@@ -367,15 +376,6 @@ Equanimity: {
 		扔出一把能使敌人迷惑的回旋镖，在敌人之间反弹
 		命中敌人时交替召唤追踪的光明碎块或穿透的黑暗碎块
 		潜伏攻击在每次反弹时交替释放光明或黑暗爆炸，强化另一种颜色的碎块
-		'''
-}
-
-DimensionTearingDisk: {
-	DisplayName: Dimension-Tearing Disk
-	Tooltip:
-		'''
-		投出一个飞盘，向最近敌怪的方向撕裂空间
-		潜伏攻击会挂在敌人身上并释放[c/ff00ff:God's Bane Doombeam Array]
 		'''
 }
 

@@ -5,9 +5,8 @@ AmuletEnergy.DisplayName: Sea Spirit
 ArcZap.DisplayName: 电弧
 ArtifactOfResilienceShards.DisplayName: 灵之形碎块
 AscendantAura.DisplayName: 进升之息
-AstralFallingSand.DisplayName: 幻星陨砂
-AstralSandBallFalling.DisplayName: 星幻沙块
-AstralSandBallGun.DisplayName: 星环沙块
+AstralSandBallFalling.DisplayName: 星幻沙球
+AstralSandBallGun.DisplayName: 星幻沙球
 AstralSpray.DisplayName: 星体喷流
 AstralStar.DisplayName: 幻星
 AuricLandMineExplosion.DisplayName: 金源地雷爆炸
@@ -15,7 +14,9 @@ BabyCannonballProjectile.DisplayName: 小炮弹水母
 BasicBurst.DisplayName: 难以形容的破坏性爆炸
 BasicBurstExclusive.DisplayName: 难以形容的破坏性爆炸
 BasicPlagueBee.DisplayName: 基础瘟疫蜜蜂
+BatholithBangleProjectile.DisplayName: 花岗岩闪光
 BlackGlassBandProjectile.DisplayName: 黑曜石冲击
+BlackPearlFalling.DisplayName: 黑珍珠
 BlazingStarHeal.DisplayName: 治愈神圣之星
 BlazingStarThatDoesNotHeal.DisplayName: 非治愈神圣之星
 BlazingSun.DisplayName: 烈日
@@ -47,6 +48,8 @@ DevourerofCodsBobber.DisplayName: 鳕鱼吞噬者浮漂
 DiamondOfTheDeepProjectile.DisplayName: 深渊灵魂
 DirectStrike.DisplayName: 难以形容的破坏性实体
 DragonDust.DisplayName: 龙尘之径
+DunesandBallFalling.DisplayName: Dunesand Ball
+DuneSandBallGun.DisplayName: Dunesand Ball
 EarlyBloomBobber.DisplayName: 龙蒿钓竿浮漂
 EmpyreanBlast.DisplayName: 皇天爆破
 EmpyreanEmber.DisplayName: 皇天余烬
@@ -54,7 +57,8 @@ EmpyreanGlob.DisplayName: 皇天液滴
 EmpyreanMarble.DisplayName: 皇天大理石
 EmpyreanStellarDetritus.DisplayName: 皇天星源碎屑
 EnergyShell.DisplayName: 能量庇护
-EutrophicSandBallGun.DisplayName: 富营养沙
+EutrophicSandBallFalling.DisplayName: 富营养沙球
+EutrophicSandBallGun.DisplayName: 富营养沙球
 ExoTankHoverThrust.DisplayName: 星流助推
 ExoTankLaser.DisplayName: 迷你星流脉冲激光
 ExoTankMissile.DisplayName: 奇迹导弹
@@ -64,6 +68,7 @@ FestiveWingsOrnament.DisplayName: 装饰品
 FlameLickedBarrage.DisplayName: 舐火散弹
 FlameLickedHellblast.DisplayName: 舐火狱燃爆
 FlashBolt.DisplayName: The Reminder
+FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
 FuckYou.DisplayName: 爆炸
 FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
@@ -104,7 +109,10 @@ PauldronDash.DisplayName: 肩甲冲刺
 PauldronExplosion.DisplayName: 肩甲爆炸
 PearlAuraShard.DisplayName: 棱镜碎片
 PlaguePulse.DisplayName: 毒疫脉冲
+PinkPearlFalling.DisplayName: 粉珍珠
 PoisonousSeawater.DisplayName: 海水
+PolypSandBallFalling.DisplayName: Polyp Sand Ball
+PolypSandBallGun.DisplayName: Polyp Sand Ball
 ProtolithBangleProjectile.DisplayName: 大理石爆破
 PscTransformAnimation.DisplayName: 渎神魂晶转换动画
 PscTransformRocks.DisplayName: 渎神魂晶转换陨石
@@ -118,6 +126,7 @@ RustyMedallionDroplet.DisplayName: 酸性液滴
 SandCloakVeil.DisplayName: 沙尘龙卷
 SandExplosion.DisplayName: 流沙
 SCalAltarArenaVisual.DisplayName: 至尊灾厄场地预览
+ScionsCurioMini.DisplayName: Scions Curio
 Seashell.DisplayName: 贝壳
 SepulcherSoul.DisplayName: 折磨之魂
 SerpentsBiteHook.DisplayName: 巨蟒之咬
@@ -149,9 +158,12 @@ VictideBobber.DisplayName: 蜗牛浮标
 VictideSeaSnail.DisplayName: 海蜗牛
 VictideSpirit.DisplayName: 泡泡魂灵
 VoidFieldGenerator.DisplayName: 虚空力场生成器
+VolcanicSandBallFalling.DisplayName: Volcanic Sand Ball
+VolcanicSandBallGun.DisplayName: Volcanic Sand Ball
 WarbannerDamage.DisplayName: 无！上！圣！光！
 WarbannerLight.DisplayName: 战旗之光
 WhiteLabSeeker.DisplayName: 实验室定位仪
+WhitePearlFalling.DisplayName: 白珍珠
 WulfrumBobber.DisplayName: 钨钢浮标
 WulfrumDiggingTurtleProjectile.DisplayName: 掘地机械龟
 WulfrumHook.DisplayName: 钨钢弹弓
@@ -160,15 +172,3 @@ YellowLabSeeker.DisplayName: 实验室定位仪
 VoidofExtinctionCrit.DisplayName: 终结虚空暴击
 XykDeathAnim.DisplayName: Xyk死亡动画
 XykWings.DisplayName: Xyk之翼
-BatholithBangleProjectile.DisplayName: Batholith Bangle Projectile
-ScionsCurioMini.DisplayName: Scions Curio Mini
-BlackPearlFalling.DisplayName: 黑珍珠
-DunesandBallFalling.DisplayName: Dunesand Ball Falling
-EutrophicSandBallFalling.DisplayName: 富营养沙球
-PinkPearlFalling.DisplayName: 粉珍珠
-PolypSandBallFalling.DisplayName: Polyp Sand Ball Falling
-VolcanicSandBallFalling.DisplayName: Volcanic Sand Ball Falling
-WhitePearlFalling.DisplayName: 白珍珠
-DuneSandBallGun.DisplayName: Dunesandball
-PolypSandBallGun.DisplayName: Polyp Sandball
-VolcanicSandBallGun.DisplayName: Volcanic Sandball

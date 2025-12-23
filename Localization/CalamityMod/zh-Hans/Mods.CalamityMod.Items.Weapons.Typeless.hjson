@@ -20,6 +20,11 @@ ClaretCannon: {
 		'''
 }
 
+ColdheartIcicle: {
+	DisplayName: 寒心冰柱
+	Tooltip: “冰之杰作”
+}
+
 EyeofMagnus: {
 	DisplayName: 马格努斯之眼
 	Tooltip:

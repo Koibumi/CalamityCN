@@ -302,6 +302,15 @@ DesecratedWater: {
 		'''
 }
 
+DimensionTearingDisk: {
+	DisplayName: Dimension-Tearing Disk
+	Tooltip:
+		'''
+		Throws a disk that tears space in the direction of the nearest enemy
+		Stealth strikes stick to enemies and unleash [c/ff00ff:God's Bane Doombeam Array]
+		'''
+}
+
 DoomsdayDevice: {
 	DisplayName: Doomsday Device
 	Tooltip:
@@ -381,15 +390,6 @@ Equanimity: {
 		Throws a confusing boomerang that ricochets between enemies
 		Enemy hits alternate summoning homing light shards or piercing dark shards
 		Stealth strikes cause an alternating explosion of light or dark on every ricochet, empowering the opposite color of shard
-		'''
-}
-
-DimensionTearingDisk: {
-	DisplayName: Dimension-Tearing Disk
-	Tooltip:
-		'''
-		Throws a disk that tears space in the direction of the nearest enemy
-		Stealth strikes stick to enemies and unleash [c/ff00ff:God's Bane Doombeam Array]
 		'''
 }
 

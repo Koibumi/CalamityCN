@@ -23,6 +23,26 @@ AerialHamaxe: {
 	Tooltip: ""
 }
 
+AntiCystOintment: {
+	DisplayName: 抗囊肿药膏
+	Tooltip:
+		'''
+		切换此物品的状态可阻止血肉囊在你附近生成
+		按下右键切换
+		[STATE]
+		'''
+}
+
+AntiTumorOintment: {
+	DisplayName: 抗肿瘤药膏
+	Tooltip:
+		'''
+		切换此物品的状态可阻止腐化肿瘤在你附近生成
+		按下右键切换
+		[STATE]
+		'''
+}
+
 AridArtifact: {
 	DisplayName: 干旱生成器
 	Tooltip:
@@ -87,6 +107,16 @@ BerserkerWaraxe: {
 	Tooltip: ""
 }
 
+BleachBall: {
+	DisplayName: 白色水球
+	Tooltip:
+		'''
+		切换此物品的状态可阻止渊海灾虫自然生成
+		按下右键切换
+		[STATE]
+		'''
+}
+
 BlossomPickaxe: {
 	DisplayName: 繁花镐
 	Tooltip: 可开采圣金源矿
@@ -98,6 +128,26 @@ BobbitHook: {
 		'''
 		以极致的速度将你拉向物块
 		{$Common.GrappleStats}
+		'''
+}
+
+BrimstoneLocus: {
+	DisplayName: 硫火魔珠
+	Tooltip:
+		'''
+		[c/C61B40:“我不仅可以用强大的魔法增强你的装备，还可以引出某些物品真正的死灵之力，]
+		[c/C61B40:将它们转化为全新的形态。]
+		[c/C61B40:当该物品被放在你的背包中时，能够进行死灵灌注的武器装备会被标出。”]
+		'''
+}
+
+BrokenWaterFilter: {
+	DisplayName: 破损净水器
+	Tooltip:
+		'''
+		切换此物品的状态可阻止酸雨自然生成
+		按下右键切换
+		[STATE]
 		'''
 }
 
@@ -118,6 +168,17 @@ CrystylCrusher: {
 		'''
 		按住右键发射一道晶体光束，光束顶部的箭头可以破坏任何物块
 		“来自逝去时代的原始武器……”
+		'''
+}
+
+DisgustingMeat: {
+	DisplayName: Disgusting Meat
+	Tooltip:
+		'''
+		调试物品，生成并使用这个物品来移除永久升级
+		<left>将移除生命和魔力值升级，在没有使用灾厄升级时使用会移除原版升级
+		<right>将移除怒气，肾上腺素升级和其他强化
+		被移除的强化物品会以物品形式被吐出
 		'''
 }
 
@@ -192,6 +253,25 @@ MarniteObliterator: {
 		'''
 }
 
+MomentumCapacitor: {
+	DisplayName: 动量电容器
+	GFBName: 解脱樊笼
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		当使用动量电容器时，
+		你的最高速度会持续且不可控的增加
+		此效果在Boss存活时失效
+		'''
+	TooltipGFB:
+		'''
+		欢乐的时光
+		更快
+		警告：可能有灾难性的后果
+		此效果在Boss存活时失效
+		'''
+}
+
 MonolithAxe: {
 	DisplayName: 星石斧
 	Tooltip: ""
@@ -207,9 +287,50 @@ MonolithPickaxe: {
 	Tooltip: ""
 }
 
+NormalityRelocator: {
+	DisplayName: 常态定位器
+	Tooltip:
+		'''
+		按下 [KEY] 传送至鼠标位置
+		传送后的0.5秒内会使下落速度翻倍
+		受到混沌状态减益的影响时无法进行传送
+		放在物品栏中时仍然有效
+		“眨眼即至！”
+		'''
+}
+
 ReefclawHamaxe: {
 	DisplayName: 礁爪锤斧
 	Tooltip: ""
+}
+
+RelicOfConvergence: {
+	DisplayName: 聚魂圣物
+	Tooltip:
+		'''
+		在光标位置产生一块亵渎水晶，不断使用此物品后，水晶会释放治愈光环并破碎
+		所有在作用范围内的玩家会被治疗{0}点生命值
+		队友会获得50%额外治疗
+		举起这块水晶会大幅降低所有召唤物的伤害
+		[c/FF8C00:我未曾知晓善意。我的同辈和家庭未曾向我报以同情。]
+		[c/FF8C00:我寻觅一个足以信赖之人。一个能洗净我焦虑的存在。]
+		[c/FF8C00:我遇见她时，看到她光耀的笑容，方知寻觅终有结果。]
+		'''
+}
+
+RelicOfResilience: {
+	DisplayName: 塑魂圣物
+	Tooltip:
+		'''
+		手持这件物品会使亵渎碎岩环绕你和附近队友旋转
+		亵渎碎岩环绕你时，你的最低防御被设置为150，最低伤害减免被设置为10%
+		受击或按下<right>吸收碎岩，随即向外炸开，削弱命中的敌人
+		此效果在受击后有10秒的冷却时间
+		举起护盾且亵渎碎岩处于激活状态时，大幅降低所有召唤物的伤害，仅对手持这件物品的玩家生效
+		[c/FF8C00:我曾袖手旁观一场屠杀。誓言被打破，我遭到排斥。]
+		[c/FF8C00:奋进的意志尽数散尽。我的念想唯余不要孤独死去。]
+		[c/FF8C00:但当她将信仰注入我的盾中时，我将永不动摇此志。]
+		'''
 }
 
 SeismicHampick: {
@@ -227,9 +348,40 @@ ShardlightPickaxe: {
 	Tooltip: ""
 }
 
+SirenproofEarMuffs: {
+	DisplayName: 防海妖耳塞
+	Tooltip:
+		'''
+		切换此物品的状态可阻止阿娜希塔生成
+		按下右键切换
+		[STATE]
+		'''
+}
+
 SkyfringePickaxe: {
 	DisplayName: 天喙镐
 	Tooltip: 可开采狱石
+}
+
+SulphurousSeaWorldSideChanger: {
+	DisplayName: 硫海世界选边转换器
+	Tooltip:
+		'''
+		如果你的海洋被视为硫磺海，请生成并使用这个
+		当深渊损坏时也可以使用该物品修复
+		'''
+}
+
+SuperDummy: {
+	DisplayName: 大草人
+	Tooltip:
+		'''
+		生成一个大草人
+		每秒恢复百万生命值
+		受到造成持续伤害的减益时不会死亡
+		右键点击灭杀所有大草人
+		只能同时存在50个大草人
+		'''
 }
 
 TectonicTruncator: {
@@ -244,6 +396,16 @@ TorrentialTear: {
 		召唤滂沱大雨
 		使用后，大雨会在一段时间后开始
 		若在下雨期间使用，雨会在一段时间后停止
+		'''
+}
+
+VoodooDemonVoodooDoll: {
+	DisplayName: 巫毒恶魔的巫毒娃娃
+	Tooltip:
+		'''
+		切换此物品的状态可阻止巫毒恶魔在你附近生成
+		按下右键切换
+		[STATE]
 		'''
 }
 

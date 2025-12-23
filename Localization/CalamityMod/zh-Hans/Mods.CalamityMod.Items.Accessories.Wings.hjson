@@ -58,6 +58,34 @@ MOAB: {
 		'''
 }
 
+MoonWalkers: {
+	DisplayName: Moon Walkers
+	TreadsName: Moon Boots
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		增加24%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		“Hee hee！”
+		'''
+}
+
+SeraphTracers: {
+	DisplayName: 炽天使翼靴
+	TreadsName: Seraph Treads
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		增加50%奔跑加速度
+		提供[i:CalamityMod/AngelTreads]天使之靴的效果
+		使你免疫熔岩和来自物块的伤害，包括[i:CalamityMod/AuricOre]圣金源矿
+		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
+		“更加荒诞的速度！”
+		'''
+}
+
 SilvaWings: {
 	DisplayName: 始源林海之翼
 	Tooltip:
@@ -99,20 +127,6 @@ TarragonWings: {
 		'''
 }
 
-MoonWalkers: {
-	DisplayName: Moon Walkers
-	TreadsName: Moon Boots
-	Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		增加24%奔跑加速度
-		提供[i:CalamityMod/AngelTreads]天使之靴的效果
-		使你免疫熔岩
-		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
-		“Hee hee！”
-		'''
-}
-
 VoidStriders: {
 	DisplayName: Void Striders
 	TreadsName: Void Kicks
@@ -124,20 +138,6 @@ VoidStriders: {
 		使你免疫熔岩
 		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“荒诞的速度！”
-		'''
-}
-
-SeraphTracers: {
-	DisplayName: 炽天使翼靴
-	TreadsName: Seraph Treads
-	Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		增加50%奔跑加速度
-		提供[i:CalamityMod/AngelTreads]天使之靴的效果
-		使你免疫熔岩和来自物块的伤害，包括[i:CalamityMod/AuricOre]圣金源矿
-		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
-		“更加荒诞的速度！”
 		'''
 }
 

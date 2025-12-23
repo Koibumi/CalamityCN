@@ -465,6 +465,11 @@ FoxPetBuff: {
 	Description: Fox Pet? FOX PET
 }
 
+FrostyBatBuff: {
+	DisplayName: Frosty Bat Friend
+	Description: A frosty bat flits about
+}
+
 FurtasticDuoBuff: {
 	DisplayName: Furtastic Duo
 	Description: They just did! The Furtastic Duo will accompany you!
@@ -528,6 +533,11 @@ SparksBuff: {
 ThirdSageBuff: {
 	DisplayName: Third Sage
 	Description: Eh? No way it's an oni
+}
+
+ToastyBatBuff: {
+	DisplayName: Toasty Bat Friend
+	Description: A fiery bat flutters at your shoulder
 }
 
 YharonSonBuff: {
@@ -1260,6 +1270,11 @@ DemonshadeSetDevilBuff: {
 	Description: The red devil will protect you
 }
 
+EnchantedKnifeStaffBuff: {
+	DisplayName: Enchanted Knife
+	Description: Junk knives not included
+}
+
 EndoCooperBuff: {
 	DisplayName: Endo Cooper
 	Description: The ascened Cooper will protect you
@@ -1561,11 +1576,6 @@ SoulSeekerBuff: {
 	Description: It definitely wants something from you
 }
 
-StarSwallowerBuff: {
-	DisplayName: Star Swallower
-	Description: Mmmm myes
-}
-
 StellarTorusBuff: {
 	DisplayName: Stellar Torus
 	Description: Summons a Torus Orbital that fries your foes
@@ -1661,19 +1671,4 @@ ForbiddenStealthSummonTagBuff: {
 SeaKingsAssurance: {
 	DisplayName: Sea King's Assurance
 	Description: If you're seeing this, something assuredly went horribly wrong
-}
-
-FrostyBatBuff: {
-	DisplayName: Frosty Bat Friend
-	Description: A frosty bat flits about
-}
-
-ToastyBatBuff: {
-	DisplayName: Toasty Bat Friend
-	Description: A fiery bat flutters at your shoulder
-}
-
-EnchantedBladeStaffBuff: {
-	DisplayName: Enchanted Blade Staff
-	Description: No junk blades included
 }

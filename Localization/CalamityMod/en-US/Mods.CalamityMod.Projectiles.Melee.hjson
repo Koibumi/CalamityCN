@@ -86,7 +86,6 @@ DepthCrusherProjectile.DisplayName: Depth Crusher
 DepthCrusherSplitProjectile.DisplayName: Depth Crusher Jet
 DevilsDevastationThrownBlade.DisplayName: Devils Devastation Thrown Blade
 DevilsSunriseCyclone.DisplayName: Devil's Sunrise
-DNA.DisplayName: DNA
 DracoBeam.DisplayName: Draconic Beam
 DracoBeam2.DisplayName: Draconic Beam
 DraconicSpark.DisplayName: Draconic Spark
@@ -163,10 +162,9 @@ LightningThing.DisplayName: Lightning
 LightspeedDashHitbox.DisplayName: Lightspeed Rupture
 LightspeedHoldout.DisplayName: Lightspeed
 LightspeedM1Hitbox.DisplayName: Lightspeed Stab
-LucreciaProj.DisplayName: Lucrecia
-LucreciaDNATrailCreator.DisplayName: Lucrecia DNA
-LucreciaDoubleHelix.DisplayName: Lucrecia Helix Comet
-LucreciaSmallProjectile.DisplayName: Lucrecia
+LucreciaBolt.DisplayName: Lucrecia Bolt
+LucreciaDNATrailCreator.DisplayName: Darklight Comet Trail
+LucreciaHoldout.DisplayName: Lucrecia
 LuxorsGiftMelee.DisplayName: Luxor's Melee
 MantisClawHoldout.DisplayName: Mantis Claw
 MantisClawJet.DisplayName: Mantis Claw Jet
@@ -241,8 +239,6 @@ SpatialSpear2.DisplayName: Elemental Spear
 SpatialSpear3.DisplayName: Elemental Spear
 SpatialSpear4.DisplayName: Elemental Spear
 SpineOfThanatosProjectile.DisplayName: Spine of Thanatos
-StarburstBeam.DisplayName: Star Shiv
-StarburstSHIV.DisplayName: SHIV
 StarnightBeam.DisplayName: Starnight Beam
 StarofJudgement.DisplayName: Star of Judgement
 StarofOrder.DisplayName: Star of Order

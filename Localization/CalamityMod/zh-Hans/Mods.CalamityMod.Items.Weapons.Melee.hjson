@@ -483,17 +483,6 @@ ExaltedOathblade: {
 		'''
 }
 
-MawOfInfinity: {
-	DisplayName: Maw of Infinity
-	Tooltip:
-		'''
-		挥舞由吞噬者的巨口铸成的剑进行三连击
-		第一次挥舞仅命中近距离范围
-		第二次挥舞额外发射[c/ff00ff:Faith Incinerator]
-		第三次挥舞向你的光标发射[c/ff00ff:Divinity Devourer]，爆炸造成大量伤害
-		'''
-}
-
 Exoblade: {
 	DisplayName: 星流之刃
 	Tooltip:
@@ -816,8 +805,8 @@ Lucrecia: {
 	Tooltip:
 		'''
 		[c/9370db:挥舞时发射螺旋的暗光碎片]
-		[c/837ce4:用剑身命中时积攒能量]
-		[c/7489ee:能量会随时间衰减，但到达最大后短时间内不会衰减]
+		[c/837ce4:用剑身命中时积攒夜光能量]
+		[c/7489ee:夜光能量会随时间衰减，但到达最大后短时间内不会衰减]
 		[c/6495f7:处于最大能量时按下<right>以发射双螺旋彗星]
 		'''
 }
@@ -839,6 +828,17 @@ MantisClaws: {
 		按住右键在你面前形成一个加压气泡
 		一旦气泡完全形成，它会立刻破碎，用水流喷射敌怪
 		“三虾五除二的事”
+		'''
+}
+
+MawOfInfinity: {
+	DisplayName: Maw of Infinity
+	Tooltip:
+		'''
+		挥舞由吞噬者的巨口铸成的剑进行三连击
+		第一次挥舞仅命中近距离范围
+		第二次挥舞额外发射[c/ff00ff:Faith Incinerator]
+		第三次挥舞向你的光标发射[c/ff00ff:Divinity Devourer]，爆炸造成大量伤害
 		'''
 }
 

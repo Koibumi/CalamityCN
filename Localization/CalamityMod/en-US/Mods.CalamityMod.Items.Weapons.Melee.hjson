@@ -483,17 +483,6 @@ ExaltedOathblade: {
 		'''
 }
 
-MawOfInfinity: {
-	DisplayName: Maw of Infinity
-	Tooltip:
-		'''
-		Swings a blade forged from the Devourer's maw in a 3-swing combo
-		The first swing only hits close range
-		The second swing additionally launches [c/ff00ff:Faith Incinerator]
-		The third swing unleashes [c/ff00ff:Divinity Devourer] at your cursor, exploding for massive damage
-		'''
-}
-
 Exoblade: {
 	DisplayName: Exoblade
 	Tooltip:
@@ -816,8 +805,8 @@ Lucrecia: {
 	Tooltip:
 		'''
 		[c/9370db:Fires a spiraling darklight shard when swung]
-		[c/837ce4:Hits with the blade itself build energy]
-		[c/7489ee:Energy is lost over time but briefly stops depleting after reaching its maximum]
+		[c/837ce4:Hits with the blade itself build Darklight Energy]
+		[c/7489ee:Darklight Energy is lost over time but briefly stops depleting after reaching its maximum]
 		[c/6495f7:Press <right> with maximum energy to fire a double helix comet]
 		'''
 }
@@ -839,6 +828,17 @@ MantisClaws: {
 		Press <right> to form a pressurized bubble in front of you
 		Once fully formed, the bubble is instantly snapped down on, blasting foes with a water jet
 		'It's just that shrimple'
+		'''
+}
+
+MawOfInfinity: {
+	DisplayName: Maw of Infinity
+	Tooltip:
+		'''
+		Swings a blade forged from the Devourer's maw in a 3-swing combo
+		The first swing only hits close range
+		The second swing additionally launches [c/ff00ff:Faith Incinerator]
+		The third swing unleashes [c/ff00ff:Divinity Devourer] at your cursor, exploding for massive damage
 		'''
 }
 

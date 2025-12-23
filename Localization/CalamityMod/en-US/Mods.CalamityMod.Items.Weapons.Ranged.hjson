@@ -371,16 +371,6 @@ DeadSunsWind: {
 		'''
 }
 
-ThreadOfEradication: {
-	DisplayName: Thread of Eradication
-	Tooltip:
-		'''
-		Charges up [c/ff00ff:God's Bane Doombeam]
-		Channelling the weapon causes it to charge up [c/ff00ff:Hyperdeath Rift] instead
-		While charging [c/ff00ff:Hyperdeath Rift], the bow's turning speed is slowed down
-		'''
-}
-
 DeepcoreGK2: {
 	DisplayName: Deepcore GK2
 	Tooltip:
@@ -1401,6 +1391,16 @@ TheStorm: {
 		'''
 		Fires a spread of homing lightning bolts and arrows from the sky
 		Converts wooden arrows into powerful electric beams
+		'''
+}
+
+ThreadOfEradication: {
+	DisplayName: Thread of Eradication
+	Tooltip:
+		'''
+		Charges up [c/ff00ff:God's Bane Doombeam]
+		Channelling the weapon causes it to charge up [c/ff00ff:Hyperdeath Rift] instead
+		While charging [c/ff00ff:Hyperdeath Rift], the bow's turning speed is slowed down
 		'''
 }
 

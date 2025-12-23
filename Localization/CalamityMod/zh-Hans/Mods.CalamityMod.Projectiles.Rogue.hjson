@@ -18,6 +18,7 @@ BallisticPoisonCloud.DisplayName: 渊毒云
 BarrelShrapnel.DisplayName: 针叶片
 BileExplosion.DisplayName: 胆汁
 BlastBarrelProjectile.DisplayName: 爆炸桶
+BlazingStarOrbital.DisplayName: 烈火之星轨道
 BlazingStarProj.DisplayName: 烈火之星
 BloodsoakedCrashax.DisplayName: 血沫重斧
 BlueFlamePillar.DisplayName: 圣炎柱
@@ -122,6 +123,7 @@ GacruxianProj.DisplayName: 南十字星蜗
 GelDartProjectile.DisplayName: 凝胶飞镖
 GhoulishGougerBoomerang.DisplayName: 狱卒之镰
 GildedDaggerProj.DisplayName: 黄金飞刀
+GlaiveOrbital.DisplayName: 回飞刃轨道
 GlaiveProj.DisplayName: 海星回旋镖
 GleamingDaggerProj.DisplayName: 铂金飞刀
 GodsParanoiaDart.DisplayName: 神妄苦无
@@ -323,5 +325,3 @@ WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 钨钢飞刀
-GlaiveOrbital.DisplayName: 回飞刃轨道
-BlazingStarOrbital.DisplayName: 烈火之星轨道
