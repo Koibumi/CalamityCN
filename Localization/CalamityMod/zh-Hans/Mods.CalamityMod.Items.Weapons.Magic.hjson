@@ -32,6 +32,17 @@ AlulaAustralis: {
 	Tooltip: 发射优美的极光，路径上会降下星辰
 }
 
+AlphaDraconis: {
+	DisplayName: Alpha Draconis
+	Tooltip:
+		'''
+		向光标处降下流星雨
+		成功击中后有时会产生可以被拾取的星芒
+		有足够星芒时<right>召唤天龙座来保护你
+		天龙座会随时间燃烧星芒，也可以通过<right>取消
+		'''
+}
+
 AnahitasArpeggio: {
 	DisplayName: 阿娜希塔琶音
 	Tooltip: "[GFB]"
@@ -175,15 +186,6 @@ ChronomancersScythe: {
 		直接用镰刀击中敌人有概率生成一个时钟
 		接触时钟会提升移动速度与加速度，每个时钟提升5%
 		此加成至多叠加3次，每过5秒便会降低一级
-		'''
-}
-
-ClamorNoctus: {
-	DisplayName: 星龙破空杖
-	Tooltip:
-		'''
-		召唤暗夜飞龙与繁星从天而降，会附着在敌人和物块上并爆炸
-		“令天幕坠落”
 		'''
 }
 

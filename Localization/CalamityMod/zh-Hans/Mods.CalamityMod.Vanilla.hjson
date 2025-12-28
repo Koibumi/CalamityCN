@@ -216,7 +216,7 @@ EditedTooltip: {
 	ArcheryPotion: 增加5%箭矢伤害和20%箭矢速度
 	AleSake:
 		'''
-		提高10%近战伤害但降低5%防御
+		增加15%近战武器尺寸但降低10%近战速度
 		在酒精中毒效果中被视为一种酒
 		{$Common.AlcoholWarning}
 		'''

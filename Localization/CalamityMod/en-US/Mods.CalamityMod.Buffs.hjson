@@ -6,22 +6,22 @@ AlcoholPoisoning: {
 
 BloodyMaryBuff: {
 	DisplayName: Bloody Mary
-	Description: Damage and movement speed increased during a Blood Moon, life regen and defense reduced
+	Description: Increased enemy spawn rates, reduced piercing weapon effectiveness
 }
 
 CaribbeanRumBuff: {
 	DisplayName: Caribbean Rum
-	Description: Life regen and movement speed increased, you are floaty and defense is reduced
+	Description: Increased movement speed, reduced gravity
 }
 
 CinnamonRollBuff: {
 	DisplayName: Cinnamon Roll
-	Description: Mana regen rate and fire debuff damage increased, defense reduced
+	Description: Greatly increased dash speed, greatly reduced dash distance
 }
 
 PurpleHazeBuff: {
 	DisplayName: Purple Haze
-	Description: Damage and invulnerability frames increased, defense reduced
+	Description: Increased damage after a stealth strike, reduced stealth strike damage
 }
 
 EverclearBuff: {
@@ -31,32 +31,37 @@ EverclearBuff: {
 
 EvergreenGinBuff: {
 	DisplayName: Evergreen Gin
-	Description: Sickness and water debuff damage increased, life regen reduced
+	Description: Sickness and water debuff damage increased, electric and heat debuff damage reduced
 }
 
 FireballBuff: {
 	DisplayName: Fireball
-	Description: Fire debuff damage increased, life regen reduced
+	Description: Heat debuff damage increased, sickness debuff damage reduced
 }
 
 GrapeBeerBuff: {
 	DisplayName: Grape Beer
-	Description: Defense reduced
+	Description: Ranged projectiles gain homing, reduced critical strike damage
+}
+
+ManhattanBuff: {
+	DisplayName: Manhattan
+	Description: Cold debuff damage increased, water debuff damage reduced
 }
 
 MargaritaBuff: {
 	DisplayName: Margarita
-	Description: Reduced duration to most debuffs, defense and life regen reduced
+	Description: Reduced duration to most harmful debuffs, reduced damage dealt to enemies from debuffs
 }
 
 MoonshineBuff: {
 	DisplayName: Moonshine
-	Description: Defense and damage reduction increased, life regen reduced
+	Description: Increased maximum health, increased defense damage taken
 }
 
 MoscowMuleBuff: {
 	DisplayName: Moscow Mule
-	Description: Damage, critical strike chance, and knockback increased, life regen reduced
+	Description: Increased knockback, reduced piercing weapon effectiveness
 }
 
 OldFashionedBuff: {
@@ -66,32 +71,32 @@ OldFashionedBuff: {
 
 RedWineBuff: {
 	DisplayName: Red Wine
-	Description: Life regen reduced
+	Description: Increased vertical speed, reduced flight time
 }
 
 RumBuff: {
 	DisplayName: Rum
-	Description: Movement speed and life regen increased, defense reduced
+	Description: Increased non-minion summon damage, decreased minion damage
 }
 
 ScrewdriverBuff: {
 	DisplayName: Screwdriver
-	Description: Piercing projectile damage increased, life regen reduced
+	Description: Improved building ability, reduced damage
 }
 
 StarBeamRyeBuff: {
 	DisplayName: Star Beam Rye
-	Description: Max mana and magic damage increased. Defense, mana usage, and life regen reduced
+	Description: Increased magic damage, reduced mana regeneration
 }
 
 TequilaBuff: {
 	DisplayName: Tequila
-	Description: Critical strike chance, defense, and knockback increased during daytime, life regen reduced
+	Description: Increased electric debuff damage, reduced cold debuff damage
 }
 
 TequilaSunriseBuff: {
 	DisplayName: Tequila Sunrise
-	Description: Critical strike chance, defense, and knockback increased during daytime, life regen reduced
+	Description: Increased life regeneration, increased damage taken from debuffs
 }
 
 Trippy: {
@@ -101,17 +106,17 @@ Trippy: {
 
 VodkaBuff: {
 	DisplayName: Vodka
-	Description: Damage and critical strike chance increased, defense and life regen reduced
+	Description: Increased typeless debuff damage, reduced other debuff damage
 }
 
 WhiskeyBuff: {
 	DisplayName: Whiskey
-	Description: Damage, critical strike chance, and knockback increased, defense reduced
+	Description: Increased damage when swapping weapons
 }
 
 WhiteWineBuff: {
 	DisplayName: White Wine
-	Description: Magic damage increased, life regen and defense reduced
+	Description: Regenerate flight time when near enemies, reduced flight time
 }
 
 // Cooldowns
@@ -1671,4 +1676,9 @@ ForbiddenStealthSummonTagBuff: {
 SeaKingsAssurance: {
 	DisplayName: Sea King's Assurance
 	Description: If you're seeing this, something assuredly went horribly wrong
+}
+
+CnidarianSummonTagBuff: {
+	DisplayName: Cnidarian Summon Tag Buff
+	Description: you are not seeing this
 }

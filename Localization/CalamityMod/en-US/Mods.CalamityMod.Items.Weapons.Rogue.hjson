@@ -808,16 +808,6 @@ NastyCholla: {
 		'''
 }
 
-NightsGaze: {
-	DisplayName: Night's Gaze
-	Tooltip:
-		'''
-		Strike your foes with this spear of the night
-		Throws a spear that shatters when it hits an enemy
-		Stealth strikes cause the spear to summon homing stars as it flies
-		'''
-}
-
 OrichalcumSpikedGemstone: {
 	DisplayName: Orichalcum Spiked Gemstone
 	Tooltip: Stealth strikes last longer and summon petals on enemy hits
@@ -1332,6 +1322,18 @@ Valediction: {
 		'''
 		Throws a homing reaper scythe
 		Stealth strikes spawn razorblade typhoons on enemy hits
+		'''
+}
+
+Vega: {
+	DisplayName: Vega
+	Tooltip:
+		'''
+		Throws a spear that shatters into star fragments on impact and generates Starbursts
+		Stealth strikes conjure an image of Lyra to deal immense damage in an area
+		<right> to consume 20 Starbursts and immediately perform a stealth strike, regardless of your current Stealth
+		This strike calls all star fragments to attack the damaged foe
+		'The final song of a misunderstood genius... or just a madman'
 		'''
 }
 

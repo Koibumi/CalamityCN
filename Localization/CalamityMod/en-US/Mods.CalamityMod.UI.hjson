@@ -145,6 +145,7 @@ Cooldowns: {
 	SpeedBlasterBoost: Speed Blaster Boost
 	SpongeDurability: Sponge Barrier Durability
 	SpongeRecharge: Sponge Barrier Recharge
+	Starburst: Stratus Starbursts
 	SuperradiantSawBoost: Superradiant Saw Boost
 	TarragonCloak: Tarragon Cloak Cooldown
 	TarragonImmunity: Tarragon Immunity Cooldown
@@ -345,9 +346,9 @@ Communication: {
 		Inquiry: Yharim
 		Response:
 			'''
-			The Godseeker. He once fascinated me nearly as much as you now do, both of you being unpredictable catalysts of a new era. I first heard word of him and the Crusade via scoutbot reports twenty-two years after the crusades began. While the rumors about Yharim himself and his war plans to conquer a city on the continent I was on intrigued me, another rumor demanded my full attention. Supposedly, he was accompanied by the Auric dragon that was the catalyst for the Auric dragons' rebirth.\n
+			The Godseeker. He once fascinated me nearly as much as you now do, both of you being unpredictable catalysts of a new era. I first heard word of him and the Crusade via scoutbot reports twenty-two years after the crusades began. While the rumors about Yharim himself and his war plans to conquer a city on the continent I was on intrigued me, another rumor demanded my full attention. Supposedly, he was accompanied by the auric dragon that was the catalyst for the auric dragons' rebirth.\n
 
-			I saw this as an opportunity that could not be missed. I modified a scoutbot to enable two-way communication and dispatched it to the city that was supposedly Yharim's target. I had expected it to arrive while the city was still under siege to have an edge in negotiations, but by the time my machine arrived, the city had fallen a week prior. Such military might was beyond anything I had deemed possible at the time. It was then the Godseeker interested me just as much as the Auric dragon did.\n
+			I saw this as an opportunity that could not be missed. I modified a scoutbot to enable two-way communication and dispatched it to the city that was supposedly Yharim's target. I had expected it to arrive while the city was still under siege to have an edge in negotiations, but by the time my machine arrived, the city had fallen a week prior. Such military might was beyond anything I had deemed possible at the time. It was then the Godseeker interested me just as much as the auric dragon did.\n
 
 			Yharim was a very distinctive figure even then and it was not difficult to locate him. I found him in a charred street directing the cleanup effort. After he spotted my reconnaissance drone unexpectedly, we had a tense but brief negotiation. I discovered he had a passion for military history, as he quickly deduced that I was the source of the mysterious beings of steel and oil from centuries past. Despite the initial tension, I found him receptive to my offers after his realization. Perhaps he viewed me akin to a mythical force of nature not allied with the gods.\n
 
@@ -357,7 +358,7 @@ Communication: {
 
 			Though I was disappointed that I had little chance to study Yharon given he was what initially drew me to Yharim, I would be presented with many other opportunities throughout the next seventy-two years: the Archmage's magic, the Devourer's realm, and the Witch's power were the most notable. The Crusade taught me that I progressed faster with external aid, even if it only served as inspiration.\n
 
-			My last interaction with Yharim was not even a year before I first observed you. He had come to me some months after his nearly fatal encounter with Braelor and Statis and requested that I enhance his Auric armor with my newly-invented exotechnology. We spoke little before he departed to the Dragon Aerie, and I believe him to still be there.
+			My last interaction with Yharim was not even a year before I first observed you. He had come to me some months after his nearly fatal encounter with Braelor and Statis and requested that I enhance his auric armor with my newly-invented exotechnology. We spoke little before he departed to the Dragon Aerie, and I believe him to still be there.
 			'''
 	}
 
@@ -369,11 +370,11 @@ Communication: {
 
 			Even if I dared to evoke Yharim's wrath, I cannot survey the Aerie. My attempts at locating it have been fruitless despite having surveyed this world's surface and skies many times over. Perhaps it avoids observation, as per some manner of cloaking. It is also possible it simply exists outside of conventional space, in a pocket dimension of sorts. Either case would make detecting it via my current methods drastically more difficult.\n
 
-			What I do know is that the Dragon Aerie is an unusually large sky island that acted as the sacred home of the Auric dragons. Few others were ever allowed to tread there, as a sort of religious sanctuary or holy ground.\n
+			What I do know is that the Dragon Aerie is an unusually large sky island that acted as the sacred home of the auric dragons. Few others were ever allowed to tread there, as a sort of religious sanctuary or holy ground.\n
 
-			It is also where Auric dragons would be laid to rest in preparation for their revival by Yharon. As their revival on the Aerie was a commonly accepted fact even at the start of recorded history, the sky island must be at least 2,000 years old, with Yharon himself being a similar age.\n
+			It is also where auric dragons would be laid to rest in preparation for their revival by Yharon. As their revival on the Aerie was a commonly accepted fact even at the start of recorded history, the sky island must be at least 2,000 years old, with Yharon himself being a similar age.\n
 
-			Considering the extraordinary power of the Auric dragons and the sanctity of the Dragon Aerie, I am left to ponder: did the Aerie make the Auric dragons powerful, or is the Aerie inundated with power due to their extended presence? Perhaps more importantly, what made them leave the safety of the Aerie even as their kind were being slain? I eagerly await the uncovering of such mysteries.
+			Considering the extraordinary power of the auric dragons and the sanctity of the Dragon Aerie, I am left to ponder: did the Aerie make the auric dragons powerful, or is the Aerie inundated with power due to their extended presence? Perhaps more importantly, what made them leave the safety of the Aerie even as their kind were being slain? I eagerly await the uncovering of such mysteries.
 			'''
 	}
 
@@ -437,9 +438,9 @@ Communication: {
 			'''
 			The "Mechanical Trio", as most call them, are what you annoyingly refer to as The Destroyer, Retinazer & Spazmatism, and, though it pains me to call it this, "Skeletron Prime". While you may be an exceptional individual, I question your naming capabilities. For your information, their formal designations are HM-03, HSx-00, HSy-01, and HF-04 respectively.\n
 
-			They were a rudimentary but potent start to my experimentation with engines of war. In search of inspiration, I turned to study the gods and their purportedly unmatched might. While each deity wielded a unique worldly aspect, all drew their strength from an identical source: the soul of an Auric dragon.\n
+			They were a rudimentary but potent start to my experimentation with engines of war. In search of inspiration, I turned to study the gods and their purportedly unmatched might. While each deity wielded a unique worldly aspect, all drew their strength from an identical source: the soul of an auric dragon.\n
 
-			As acquiring an Auric soul was and still is infeasible, experiments with more mundane souls soon began. I was initially discouraged upon discovering that individual souls held a paltry amount of spiritual power, but their potential when coalesced far surpassed my predictions.\n
+			As acquiring an auric soul was and still is infeasible, experiments with more mundane souls soon began. I was initially discouraged upon discovering that individual souls held a paltry amount of spiritual power, but their potential when coalesced far surpassed my predictions.\n
 
 			Upon further research, I confirmed that a soul's strength is defined by its intense emotions or resolve. Here, Yharim's unrivaled charisma and skill at evoking passion within the hearts of others was key. Not only was finding a source of emblazoned souls trivial, but many of his most stalwart troops even directly consented to having their souls embedded in my machines after their demise at the hands of the enemy.\n
 

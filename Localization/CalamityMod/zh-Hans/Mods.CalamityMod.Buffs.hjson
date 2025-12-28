@@ -6,22 +6,22 @@ AlcoholPoisoning: {
 
 BloodyMaryBuff: {
 	DisplayName: 血腥玛丽
-	Description: 在血月期间伤害和移动速度增加，但生命再生和防御力降低
+	Description: 敌怪生成率增加，但穿透武器效果降低
 }
 
 CaribbeanRumBuff: {
 	DisplayName: 加勒比朗姆酒
-	Description: 生命再生和移动速度增加，但你漂浮不定且防御力降低
+	Description: 移动速度增加，但重力降低
 }
 
 CinnamonRollBuff: {
 	DisplayName: 肉桂威士忌
-	Description: 魔力再生速率和火系减益的伤害增加，但防御力降低
+	Description: 冲刺速度大幅增加，但冲刺距离大幅降低
 }
 
 PurpleHazeBuff: {
 	DisplayName: 紫色阴霾
-	Description: 伤害增加，额外延长无敌帧，但防御力降低
+	Description: 潜伏攻击后的伤害增加，但潜伏攻击的伤害降低
 }
 
 EverclearBuff: {
@@ -31,32 +31,37 @@ EverclearBuff: {
 
 EvergreenGinBuff: {
 	DisplayName: 常青松子酒
-	Description: 疫病和水系减益的伤害增加，但生命再生降低
+	Description: 疾病系和水系减益的伤害增加，但电系和火系减益的伤害降低
 }
 
 FireballBuff: {
 	DisplayName: 火龙酒
-	Description: 火系减益的伤害增加，但生命再生降低
+	Description: 火系减益的伤害增加，但疾病系减益的伤害降低
 }
 
 GrapeBeerBuff: {
 	DisplayName: 葡萄啤酒
-	Description: 防御力降低
+	Description: 远程弹幕可以追踪，但暴击伤害降低
+}
+
+ManhattanBuff: {
+	DisplayName: Manhattan
+	Description: 冷系减益的伤害增加，但水系减益的伤害降低
 }
 
 MargaritaBuff: {
 	DisplayName: 玛格丽塔酒
-	Description: 大部分减益的持续时间缩短，但防御力和生命再生降低
+	Description: 大部分伤害性减益的持续时间缩短，但减益对敌怪造成的伤害降低
 }
 
 MoonshineBuff: {
 	DisplayName: 摩闪酒
-	Description: 防御力和伤害减免增加，但生命再生降低
+	Description: 最大生命值增加，但受到的防御损伤也增加
 }
 
 MoscowMuleBuff: {
 	DisplayName: 莫斯科骡子
-	Description: 伤害、暴击率和击退增加，但生命再生降低
+	Description: 击退增加，但穿透武器效果降低
 }
 
 OldFashionedBuff: {
@@ -66,32 +71,32 @@ OldFashionedBuff: {
 
 RedWineBuff: {
 	DisplayName: 红葡萄酒
-	Description: 生命再生降低
+	Description: 垂直速度增加，但飞行时间降低
 }
 
 RumBuff: {
 	DisplayName: 朗姆酒
-	Description: 移动速度和生命再生增加，但防御力降低
+	Description: 非仆从的召唤伤害增加，但仆从伤害降低
 }
 
 ScrewdriverBuff: {
 	DisplayName: 螺丝起子
-	Description: 穿透类弹幕的伤害增加，但生命再生降低
+	Description: 建造能力增加，但伤害降低
 }
 
 StarBeamRyeBuff: {
 	DisplayName: 星界黑麦威士忌
-	Description: 最大魔力值和魔法伤害增加且魔力消耗降低，但防御力和生命再生降低
+	Description: 魔法伤害增加，但魔力再生降低
 }
 
 TequilaBuff: {
 	DisplayName: 龙舌兰酒
-	Description: 在白天时暴击率、防御力和击退增加，但生命再生降低
+	Description: 电系减益的伤害增加，但冷系减益的伤害降低
 }
 
 TequilaSunriseBuff: {
 	DisplayName: 龙舌兰日出
-	Description: 在白天时暴击率、防御力和击退增加，但生命再生降低
+	Description: 生命再生增加，但受到减益的伤害也增加
 }
 
 Trippy: {
@@ -101,17 +106,17 @@ Trippy: {
 
 VodkaBuff: {
 	DisplayName: 伏特加
-	Description: 伤害和暴击率增加，但防御力和生命再生降低
+	Description: 无类型减益的伤害增加，但其他减益的伤害降低
 }
 
 WhiskeyBuff: {
 	DisplayName: 威士忌
-	Description: 伤害、暴击率和击退增加，但防御力降低
+	Description: 切换武器时伤害增加
 }
 
 WhiteWineBuff: {
 	DisplayName: 白葡萄酒
-	Description: 魔法伤害增加，但生命再生和防御力降低
+	Description: 在敌怪附近时飞行时间会再生，但飞行时间降低
 }
 
 // Cooldowns
@@ -1675,4 +1680,9 @@ ForbiddenStealthSummonTagBuff: {
 SeaKingsAssurance: {
 	DisplayName: Sea King's Assurance
 	Description: 如果你正看到这个，说明出现了极其严重的错误
+}
+
+CnidarianSummonTagBuff: {
+	DisplayName: Cnidarian Summon Tag Buff
+	Description: 你不该看到这个
 }

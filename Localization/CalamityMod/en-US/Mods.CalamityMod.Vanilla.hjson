@@ -216,7 +216,7 @@ EditedTooltip: {
 	ArcheryPotion: 5% increased arrow damage and 20% increased arrow speed
 	AleSake:
 		'''
-		Increases melee damage by 10% and reduces defense by 5%
+		Increases melee weapon scale by 15%, but decreases melee speed by 10%
 		Counts as an alcohol for Alcohol Poisoning
 		{$Common.AlcoholWarning}
 		'''

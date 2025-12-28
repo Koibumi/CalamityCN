@@ -1,0 +1,271 @@
+Phases:
+	'''
+	{
+	  "DefaultColor": "6383FF",
+	  "DefaultSpeaker": "DevourerOfGods",
+	  "AlignType": 1,
+
+	  "TextDelay": 2,
+	  "BasePunctuationDelay": {
+	    "Delay": 10,
+	    "ForceSet": false,
+	    "Locks": false
+	  },
+	  "PunctuationDelayCap": 30,
+	  "PunctuationDelays": {
+	    "!": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    },
+	    "?": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    }
+	  },
+
+	  "Pages": [
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):你不是神……]]",
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):但你的灵魂仍是我的盛宴！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):你比大部分人做得更好，但别得意！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):还没完呢，小子！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Colors(2, 0.5, FF00FF, 00FFFF):[Shaking(5):[Scale(2): [Pause(0.33)]神！]]][Colors(2, 0.5, 00FFFF, FF00FF):[Shaking:[Scale(1.5):不惧]]][Colors(2, 0.5, FF00FF, 00FFFF):[Shaking(5):[Scale(2): [Pause(0.33)]死亡！]]]"
+	      ]
+	    }
+	  ]
+	}
+	'''
+Death:
+	'''
+	{
+	  "DefaultColor": "6383FF",
+	  "DefaultSpeaker": "DevourerOfGods",
+	     "AlignType": 1,
+
+	  "TextDelay": 2,
+	  "BasePunctuationDelay": {
+	    "Delay": 10,
+	    "ForceSet": false,
+	    "Locks": false
+	  },
+	  "PunctuationDelayCap": 30,
+	  "PunctuationDelays": {
+	    "!": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    },
+	    "?": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    }
+	  },
+
+	  "Pages": [
+	    {
+	      "TextDelay": 0,
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):味同[Pause(0.25)]嚼蜡。]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):美味……不愧是神之盛宴！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):[Shaking:一直]安息吧！]]"
+	      ]
+	    },
+
+	    {
+	      "TextDelay": 0,
+	      "Lines": [
+	        "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):不堪一击。]]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):[Shaking:可悲。]逃跑那么久，连[Shaking:一击]也承受不住？！]]"
+	      ]
+	    }
+	  ]
+	}
+	'''
+Head:
+	'''
+	{
+	  "DefaultColor": "6383FF",
+	  "DefaultSpeaker": "DevourerOfGods",
+	     "AlignType": 1,
+
+	  "TextDelay": 2,
+	  "BasePunctuationDelay": {
+	    "Delay": 10,
+	    "ForceSet": false,
+	    "Locks": false
+	  },
+	  "PunctuationDelayCap": 30,
+	  "PunctuationDelays": {
+	    "!": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    },
+	    "?": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    }
+	  },
+
+	  "Pages": [
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):跪地求饶吧，小虫子！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):看你能撑多久……]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):累了吗？]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):你终会像其他人一样倒下！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):放弃吧！对彼此都轻松点！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):这就来终结你！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):开始变得荒谬了……！]]"
+	      ]
+
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):你是怎么办到的？！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):你把我当傻子耍吗？！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):你怎么还没[Shaking:死？！]]]"
+	      ]
+	    },
+
+	    {
+	      "TextDelay": 0,
+	      "Lines": [
+	        "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):倒下！]]]"
+	      ]
+	    },
+
+	    {
+	      "TextDelay": 0,
+	      "Lines": [
+	        "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):滚开！]]]"
+	      ]
+	    },
+
+	    {
+	      "TextDelay": 0,
+	      "Lines": [
+	        "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):死！]]]"
+	      ]
+	    }
+	  ]
+	}
+	'''
+Running:
+	'''
+	{
+	  "DefaultColor": "6383FF",
+	  "DefaultSpeaker": "DevourerOfGods",
+	     "AlignType": 1,
+
+	  "TextDelay": 2,
+	  "BasePunctuationDelay": {
+	    "Delay": 10,
+	    "ForceSet": false,
+	    "Locks": false
+	  },
+	  "PunctuationDelayCap": 30,
+	  "PunctuationDelays": {
+	    "!": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    },
+	    "?": {
+	      "Delay": 20,
+	      "ForceSet": true,
+	      "Locks": true
+	    }
+	  },
+
+	  "Pages": [
+	    {
+	      "Lines": [
+	        "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):你没法一直逃跑！]]"
+	      ]
+	    },
+
+	    {
+	      "Lines": [
+	        "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):怎么了？！跑不动了吗？！]]]"
+	      ]
+	    }
+	  ]
+	}
+	'''

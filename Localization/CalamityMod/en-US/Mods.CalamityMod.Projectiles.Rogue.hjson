@@ -165,6 +165,7 @@ LostSoulFriendly.DisplayName: Lost Soul
 LuminousShard.DisplayName: Stardust Shard
 LunarKunaiProj.DisplayName: Lunar Kunai
 LuxorsGiftRogue.DisplayName: Luxor's Rogue
+LyraConstellation.DisplayName: Lyra Constellation
 MalachiteBolt.DisplayName: Malachite
 MalachiteProj.DisplayName: Malachite
 MalachiteStealth.DisplayName: Malachite
@@ -183,9 +184,6 @@ NanoblackSplit.DisplayName: Nanoblack Blade
 NanoblackStealthSplit.DisplayName: Nanoblack Afterimage
 NastyChollaBol.DisplayName: Nasty Cholla
 NastyChollaNeedle.DisplayName: Cactus Needle
-NightsGazeProjectile.DisplayName: Night's Gaze
-NightsGazeSpark.DisplayName: Night's Gaze Spark
-NightsGazeStar.DisplayName: Night's Gaze Star
 OrichalcumSpikedGemstoneProjectile.DisplayName: Orichalcum Gemstone
 PalladiumJavelinProjectile.DisplayName: Palladium Javelin
 PartisanExplosion.DisplayName: Profaned Explosion
@@ -315,6 +313,9 @@ ValariBoomerang.DisplayName: Frostcrush Valari
 Valaricicle.DisplayName: Valaricicle
 Valaricicle2.DisplayName: Valaricicle
 ValedictionBoomerang.DisplayName: Valediction
+VegaProjectile.DisplayName: Vega
+VegaSpark.DisplayName: Vega Spark
+VegaStar.DisplayName: Vega Star
 VeneratedKnife.DisplayName: Venerated Knife
 WaveSkipperProjectile.DisplayName: Wave Skipper
 WebBallBol.DisplayName: Web Ball

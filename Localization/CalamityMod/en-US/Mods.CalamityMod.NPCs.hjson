@@ -506,19 +506,19 @@ SeaKing: {
 	}
 
 	Help: {
-		YharonDefeated1: Auric is near impossible to work with without being attuned to a Dragon or using the claimed soul of a Dragon to perform a "mock" attunement. However, if one can work with it truly powerful things can be created; enough so that using it in anything was deemed heretical by the Gods.
-		YharonDefeated2: The Golden Heretic, Yharim, possesses strength that may just surpass all of the Gods. When you face him, be well prepared for the battle of your life.
+		YharonDefeated1: Auric is near impossible to work with without being attuned to a dragon, or using the claimed soul of a dragon to perform a "mock" attunement. However, if one can work with it truly powerful things can be created; enough so that using it in anything was deemed heretical by the gods.
+		YharonDefeated2: The Golden Heretic, Yharim, possesses strength that may just surpass all of the gods. When you face him, be well prepared for the battle of your life.
 		YharonDefeated3: Draedon isn't a frontline fighter; he is a scientist and inventor. He is unlikely to face you directly, and will likely have his creations confront you instead. Be prepared for anything that blasphemous machine could throw at you.
 		DoGDefeated1: The Devourer's armor was specially made by Draedon. Extremely flexible yet durable and massive, it may be one of his most impressive creations. I shudder to think of what unholy things he may be able to create now, if his research has not stopped.
 		DoGDefeated2: With the cosmic steel you can fashion many of your weapons into much more powerful forms.
-		DoGDefeated3: The Devourer of Gods is truly an enigma. Some say it's not even from this world at all. What is known is that he is a being that can devour the essence of Gods entirely, leaving absolutely nothing left. It's no wonder Yharim recruited that monster.
+		DoGDefeated3: The Devourer of Gods is truly an enigma. Some say it's not even from this world at all. What is known is that he is a being that can devour the essence of gods entirely, leaving absolutely nothing left. It's no wonder Yharim recruited that monster.
 		PolterghastDefeated1: The Abyss holds many secrets revealed with time. Checking it out again may not be a bad idea.
 		PolterghastDefeated2: Ah... I can sense a powerful change in the weather. You may want to venture to the Sulphurous Seas once more during the rain to experience it.
 		ProvidenceDefeated1: The Rune of Kos holds a significant portion of Providence's brand of magic, easily distinguishable from all others. Activating it in certain places would have some... risky consequences.
-		ProvidenceDefeated2: I do wonder what has happened to Braelor and Statis. I have heard or seen very little of either. In my days, both were great heroes to those who worshiped the Gods. Have they been killed, captured, or are they simply in hiding?
+		ProvidenceDefeated2: I do wonder what has happened to Braelor and Statis. I have heard or seen very little of either. In my days, both were great heroes to those who worshiped the gods. Have they been killed, captured, or are they simply in hiding?
 		MoonLordDefeated1: Your adventure focuses to the jungle it seems. The Dragonfolly and its swarming offspring should be eliminated before their numbers spiral out of control.
 		MoonLordDefeated2: Profaned creatures now lurk in the Hallow and in Hell. If you destroy enough and gather their essence together you shall be able to capture the attention of the Profaned Guardians.
-		MoonLordDefeated3: The Profaned Guardians serve Providence, one of the few Gods even I despise. The Guardians attempt to eliminate threats to their Goddess preemptively, and it is likely that their next target is you.
+		MoonLordDefeated3: The Profaned Guardians serve Providence, one of the few gods even I despise. The Guardians attempt to eliminate threats to their goddess preemptively, and it is likely that their next target is you.
 		MoonLordDefeated4: Providence can likely be drawn out for combat by using the relic her Guardians left behind. I wonder... Why has Yharim not challenged her? Is he simply that negligent now?
 		MoonLordDefeated5: Providence was a great threat to Yharim and his army. She would appear out of seemingly thin air, wreck havoc, and vanish before much damage could be done to her. Perhaps she would be overconfident in facing but a single warrior.
 		GolemDefeated1: The men at the front of the dungeon are performing a ritual to keep the Moon Lord contained in his prison. In order to gain Yharim's attention, however, you may need to defeat them.
@@ -538,7 +538,7 @@ SeaKing: {
 		PreHardmode5: The Sulphurous Sea was created more than a millenia ago, but it has gotten truly unbearable in the past decades. It's the fault of that accursed robot, Draedon, dumping waste and abandoned projects in there constantly. It's viler than it's ever been, thanks to him.
 		PreHardmode6: Be careful what you attack in the {0}. You might just unveil a greater threat than what was there before.
 		PreHardmode7: Scattered across the lands are shrines dedicated to the gods. They contain powerful gear that may help you on your adventures.
-		PreHardmode8: I assume you have heard of the legendary ninja, Statis? He and his clan worshiped the God of slime, who may be a survivor of the war due to its trickery and knowing when to hide or flee.
+		PreHardmode8: I assume you have heard of the legendary ninja, Statis? He and his clan worshiped the god of slime, who may be a survivor of the war due to its trickery and knowing when to hide or flee.
 		PreHardmode9: The {0} is a relatively recent development in the world, and its formation marked the start of Yharim's treacherous war. Although the source of its growth would be sealed away, nothing was ever done about the original manifestations.
 		PreHardmode10: Throughout the world lie various structures left behind by Draedon. Archaic defenses may remain, but the goods inside may be worth your while.
 	}
@@ -565,3 +565,5 @@ WildBumblebirb.DisplayName: Wild Bumblebirb
 DraconicSwarmer.DisplayName: Draconic Swarmer
 Dragonfolly.DisplayName: Dragonfolly
 Shoreskipper.DisplayName: Shoreskipper
+BrainIllusion.DisplayName: Brain Illusion
+FalseBrain.DisplayName: False Brain

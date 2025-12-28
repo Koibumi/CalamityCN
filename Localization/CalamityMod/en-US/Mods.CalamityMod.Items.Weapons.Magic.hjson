@@ -32,6 +32,17 @@ AlulaAustralis: {
 	Tooltip: Fires a beautiful aurora trailed by a star shower
 }
 
+AlphaDraconis: {
+	DisplayName: Alpha Draconis
+	Tooltip:
+		'''
+		Calls down a meteor shower towards the cursor
+		Successful hits sometimes create Starbursts that can be picked up
+		<right> with enough Starbursts to summon Draco to protect you
+		Draco burns Starbursts over time, and can be disspelled with <right>
+		'''
+}
+
 AnahitasArpeggio: {
 	DisplayName: Anahita's Arpeggio
 	Tooltip: "[GFB]"
@@ -175,15 +186,6 @@ ChronomancersScythe: {
 		Direct hits with the scythe have a chance to spawn clocks
 		Collecting the clocks increases movement speed and acceleration by 5% for each clock collected
 		This stacks up to 3 times and each level wears off after 5 seconds
-		'''
-}
-
-ClamorNoctus: {
-	DisplayName: Clamor Noctus
-	Tooltip:
-		'''
-		Fires night wyverns and stars from the sky that stick to enemies and tiles and explode
-		'Let the sky fall'
 		'''
 }
 

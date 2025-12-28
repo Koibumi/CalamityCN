@@ -538,7 +538,8 @@ HalleysInferno: {
 	Tooltip:
 		'''
 		Fires a burst of intensely concentrated lunar fire jets
-		Press <right> to zoom out
+		Generates Starbursts over time when hitting enemies
+		<right> to rapid-fire Starbursts
 		Uses gel for ammo
 		'Halley arrived sooner than expected'
 		'''
@@ -812,7 +813,7 @@ OntologicalDespoiler: {
 	DisplayName: Ontological Despoiler
 	Tooltip:
 		'''
-		Condenses chargeable pockets of concentrated unreality. <right> to swap modes
+		Condenses chargeable pockets of concentrated unreality. <right> to swap modes only after firing a charged shot
 		Unstable condensate shots trifurcate and pierce enemies
 		Null condensate shots fire rapidly and home in on enemies
 		At 50% charge or higher, rate of fire significantly increases

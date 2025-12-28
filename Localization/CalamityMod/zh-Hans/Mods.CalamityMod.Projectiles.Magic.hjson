@@ -8,6 +8,7 @@ AerSigilBlast.DisplayName: Aer Blast
 AerSigilFeather.DisplayName: Aer Feather
 AerSigilMissile.DisplayName: Aer Missile
 AetherBeam.DisplayName: 以太射线
+AlphaDraconisStar.DisplayName: 流星
 AnahitasArpeggioNote.DisplayName: 阿娜希塔之音
 Ancient2.DisplayName: 亘古之尘
 ApoctosisBlast.DisplayName: 凋亡冲击
@@ -48,8 +49,6 @@ CauldronProjSmall.DisplayName: 熔岩溅滴
 ChronoIcicleLarge.DisplayName: 时之冰锥
 ChronoIcicleSmall.DisplayName: 时之冰锥
 ChronomancersScytheHoldout.DisplayName: 时空术士之镰
-ClamorNoctusStar.DisplayName: 裂空之星
-ClamorNoctusWyvern.DisplayName: 星龙
 ClimaxBeam.DisplayName: 光伏射线
 ClimaxProj.DisplayName: 光伏磁球
 CoralSpike.DisplayName: 珊瑚刺
@@ -59,9 +58,9 @@ CosmicTentacle.DisplayName: 次元之触
 CryoBlast.DisplayName: 霜寒爆裂
 DarkSparkBeam.DisplayName: 寂虚光束
 DarkSparkPrism.DisplayName: 寂虚之光
-HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
 DeathValleyDusterProjectile.DisplayName: 死亡之尘
 DeathhailBeam.DisplayName: Deathhail Beam
+DracoConstellation.DisplayName: 天龙座
 EelDrop.DisplayName: 酸鳗液滴
 EidolicWailSoundwave.DisplayName: 哀怨之声
 EldritchTentacle.DisplayName: 哀怨之触
@@ -101,6 +100,7 @@ HellfireExplosionFriendly.DisplayName: 狱火炎爆
 HellwingBat.DisplayName: 狱烬蝙蝠
 HolyFlame.DisplayName: 圣火
 HolyLaser.DisplayName: 圣光聚束
+HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
 IceBarrageMain.DisplayName: 寒冰弹幕
 IceBlock.DisplayName: 寒冰弹幕冰块
 IceBlockIcicle.DisplayName: 寒冰弹幕冰柱

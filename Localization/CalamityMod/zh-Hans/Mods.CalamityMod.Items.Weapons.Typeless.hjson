@@ -74,3 +74,14 @@ StarStruckWater: {
 	DisplayName: 星水
 	Tooltip: 向一些物块蔓延星辉瘟疫
 }
+
+StratusSphere: {
+	DisplayName: 幻云天球
+	Tooltip:
+		'''
+		发射一个奇点，对周围大范围区域内的实体产生影响
+		受影响的玩家会随时间生成星芒，而敌怪会受到伤害
+		<right>使星芒形成屏障，受伤时失去星芒而不是生命值
+		发射奇点会取消屏障，而产生屏障时会取消奇点
+		'''
+}

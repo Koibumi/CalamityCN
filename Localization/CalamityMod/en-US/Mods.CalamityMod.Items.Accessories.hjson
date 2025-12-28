@@ -1035,6 +1035,18 @@ IronBoots: {
 		'''
 }
 
+IVDripOnTheRocks: {
+	DisplayName: IV Drip on the Rocks
+	Tooltip:
+		'''
+		Multiplies most non-weapon, non-debuff damage by {0}x
+		Multiplies all weapon damage by {1}x
+		Counts as an alcohol stack toward Alcohol Poisoning
+		{$Common.AlcoholWarning}
+		'(drunken mumbling)'
+		'''
+}
+
 JellyChargedBattery: {
 	DisplayName: Jelly-Charged Battery
 	Tooltip:

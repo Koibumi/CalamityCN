@@ -8,6 +8,7 @@ AerSigilBlast.DisplayName: Aer Blast
 AerSigilFeather.DisplayName: Aer Feather
 AerSigilMissile.DisplayName: Aer Missile
 AetherBeam.DisplayName: Aether Beam
+AlphaDraconisStar.DisplayName: Shooting Star
 AnahitasArpeggioNote.DisplayName: Anahita's Song
 Ancient2.DisplayName: Ancient Dust
 ApoctosisBlast.DisplayName: Apoctosis Blast
@@ -48,8 +49,6 @@ CauldronProjSmall.DisplayName: Smaullerdron
 ChronoIcicleLarge.DisplayName: Chrono Icicle
 ChronoIcicleSmall.DisplayName: Chrono Icicle
 ChronomancersScytheHoldout.DisplayName: Chronomancer's Scythe
-ClamorNoctusStar.DisplayName: Clamor Star
-ClamorNoctusWyvern.DisplayName: Clamor Wyvern
 ClimaxBeam.DisplayName: Voltaic Bolt
 ClimaxProj.DisplayName: Voltaic Orb
 CoralSpike.DisplayName: Coral Spike
@@ -59,9 +58,9 @@ CosmicTentacle.DisplayName: Dark Tentacle
 CryoBlast.DisplayName: Cryo Blast
 DarkSparkBeam.DisplayName: Dark Spark Beam
 DarkSparkPrism.DisplayName: Dark Crystal
-HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
 DeathValleyDusterProjectile.DisplayName: Death Valley Duster
 DeathhailBeam.DisplayName: Deathhail Beam
+DracoConstellation.DisplayName: Draco
 EelDrop.DisplayName: Acid Eel Drop
 EidolicWailSoundwave.DisplayName: Eidolic Wail
 EldritchTentacle.DisplayName: Eldritch Tentacle
@@ -101,6 +100,7 @@ HellfireExplosionFriendly.DisplayName: Explosion
 HellwingBat.DisplayName: Ashen Hellwing
 HolyFlame.DisplayName: Holy Flame
 HolyLaser.DisplayName: Holy Laser
+HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
 IceBarrageMain.DisplayName: Ice Barrage
 IceBlock.DisplayName: Ice Barrage Block
 IceBlockIcicle.DisplayName: Ice Barrage Icicle

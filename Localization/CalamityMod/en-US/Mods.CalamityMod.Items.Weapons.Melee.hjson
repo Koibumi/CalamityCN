@@ -310,8 +310,10 @@ CrescentMoon: {
 	DisplayName: Crescent Moon
 	Tooltip:
 		'''
-		Fires a whip sword that summons homing crescent moons
-		'People wanted the moon, let's bring the moon to them'
+		Throws a lunar flail that releases homing moons at the apex of its path
+		Holding <left> spins the flail around you, generating Starbursts
+		With 20 Starbursts, hold <left> again after throwing the flail to cause it to explode
+		Instead of releasing moons, this explosion summons Scorpius to do immense damage
 		'''
 }
 
@@ -619,9 +621,13 @@ GalileoGladius: {
 	DisplayName: Galileo Gladius
 	Tooltip:
 		'''
-		Shoots a homing crescent moon
-		Spawns planetoids on enemy hits
-		'Don't underestimate the power of small space swords'
+		Rapidly stabs in front of the player, generating Starbursts on hit
+		<right> to throw the gladius on a constellation chain, impaling foes
+		When the blade is impaled, use <left> or <right> to free it
+		<left> pulls it free and deals high damage, consuming 10 Starbursts
+		<right> pulls youself to the blade, allowing you to jump off the foe
+		Jumping off a foe consumes 20 Starbursts and provides invincibility
+		'Figaro, magnifico'
 		'''
 }
 

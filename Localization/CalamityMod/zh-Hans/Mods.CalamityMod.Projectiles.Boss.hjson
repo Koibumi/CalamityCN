@@ -24,6 +24,7 @@ BigFlare2.DisplayName: 巨型耀斑
 BirbAura.DisplayName: 龙魂光环
 BirbAuraFlare.DisplayName: 龙魂弹
 BloodGeyser.DisplayName: 血涌泉
+BloodScythe.DisplayName: Blood Scythe
 BrimstoneBall.DisplayName: 炼狱硫火球
 BrimstoneBarrage.DisplayName: 硫火飞弹
 BrimstoneFire.DisplayName: 炼狱硫火
@@ -44,6 +45,8 @@ CalamitousExplosion.DisplayName: Calamitous Explosion
 CalamitousFireball.DisplayName: Calamitous Fireball
 CataclysmicFlame.DisplayName: Cataclysmic Flame
 CatastrophicCinder.DisplayName: Catastrophic Cinder
+CirclingBloodScythe.DisplayName: Circling Blood Scythe
+CrimsonEye.DisplayName: Crimson Eye
 CrimulanSpike.DisplayName: 血化尖刺
 CursedFire.DisplayName: 诅咒之火
 DarkEnergyBall.DisplayName: 暗能量
@@ -73,6 +76,7 @@ FlareBomb.DisplayName: 炎爆弹
 FlareDust.DisplayName: 灼焱余烬
 FlareDust2.DisplayName: 炎爆弹
 Flarenado.DisplayName: 灼焱龙卷
+FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
 FrostMist.DisplayName: 霜雾
 GolemInfernoBolt.DisplayName: 石巨人火球
 GolemInfernoBlast.DisplayName: 石巨人火球爆炸
@@ -97,6 +101,7 @@ IceBomb.DisplayName: 冰锥
 IceRain.DisplayName: 冰晶雨
 IchorBlob.DisplayName: 灵液弹
 IchorShot.DisplayName: 灵液弹
+IchorShower.DisplayName: Ichor Shower
 Infernado.DisplayName: 烈焰龙卷
 Infernado2.DisplayName: 烈焰龙卷
 InfernadoRevenge.DisplayName: 烈焰龙卷
@@ -148,6 +153,7 @@ SCalBrimstoneFireblast.DisplayName: 无际裂变
 SCalBrimstoneGigablast.DisplayName: 深渊炙炎
 SCalRitualDrama.DisplayName: 至尊灾厄
 HomingLaserDart.DisplayName: 追踪飞镖
+HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
 ShadeNimbusHostile.DisplayName: 乌云
 ShaderainHostile.DisplayName: 阴影之雨
 ShadowflameFireball.DisplayName: 暗影火球
@@ -161,6 +167,8 @@ StormWeaverFrostWaveTelegraph.DisplayName: 霜浪脉冲
 SupremeCataclysmFist.DisplayName: 硫火碎魂拳
 SupremeCatastropheSlash.DisplayName: 斩魂幻锋
 SwirlingFire.DisplayName: 炽焰
+TelekineticEnemyGrab.DisplayName: Telekinetic Enemy Grab
+TelekineticBlast.DisplayName: Telekinetic Blast
 ThanatosBeamStart.DisplayName: 黑 金棱镜蛇的激光
 ThanatosBeamTelegraph.DisplayName: 伽马瓦解射线
 ThanatosLaser.DisplayName: 星流脉冲激光

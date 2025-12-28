@@ -1035,6 +1035,18 @@ IronBoots: {
 		'''
 }
 
+IVDripOnTheRocks: {
+	DisplayName: IV Drip on the Rocks
+	Tooltip:
+		'''
+		大多数非武器，非减益的伤害乘以{0}
+		所有武器的伤害乘以{1}
+		在酒精中毒效果中被视为一种酒
+		{$Common.AlcoholWarning}
+		“（醉语喃喃）”
+		'''
+}
+
 JellyChargedBattery: {
 	DisplayName: 凝胶充能电池
 	Tooltip:

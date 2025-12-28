@@ -165,6 +165,7 @@ LostSoulFriendly.DisplayName: 迷失之魂
 LuminousShard.DisplayName: 星尘碎片
 LunarKunaiProj.DisplayName: 夜明苦无
 LuxorsGiftRogue.DisplayName: 卢克索之盗贼符文
+LyraConstellation.DisplayName: 天琴座
 MalachiteBolt.DisplayName: 孔雀翎
 MalachiteProj.DisplayName: 孔雀翎
 MalachiteStealth.DisplayName: 孔雀翎
@@ -183,9 +184,6 @@ NanoblackSplit.DisplayName: 纳米黑锋
 NanoblackStealthSplit.DisplayName: 黑纳米残像
 NastyChollaBol.DisplayName: 仙人掌尖钉球
 NastyChollaNeedle.DisplayName: 仙人掌刺
-NightsGazeProjectile.DisplayName: 夜之凝视
-NightsGazeSpark.DisplayName: 夜之凝视枪魂
-NightsGazeStar.DisplayName: 夜凝星
 OrichalcumSpikedGemstoneProjectile.DisplayName: 山铜宝石钉
 PalladiumJavelinProjectile.DisplayName: 钯金标枪
 PartisanExplosion.DisplayName: 圣火爆焱
@@ -315,6 +313,9 @@ ValariBoomerang.DisplayName: 霜碎回力标
 Valaricicle.DisplayName: 碎霜
 Valaricicle2.DisplayName: 碎霜
 ValedictionBoomerang.DisplayName: 辞别飞镰
+VegaProjectile.DisplayName: Vega
+VegaSpark.DisplayName: Vega Spark
+VegaStar.DisplayName: Vega Star
 VeneratedKnife.DisplayName: 敬天弑神刀
 WaveSkipperProjectile.DisplayName: 越浪蛟
 WebBallBol.DisplayName: 蛛网球

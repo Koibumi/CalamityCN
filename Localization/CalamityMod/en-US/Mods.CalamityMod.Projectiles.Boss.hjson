@@ -24,6 +24,7 @@ BigFlare2.DisplayName: Big Flare
 BirbAura.DisplayName: Draconic Aura
 BirbAuraFlare.DisplayName: Draconic Aura Flare
 BloodGeyser.DisplayName: Blood Geyser
+BloodScythe.DisplayName: Blood Scythe
 BrimstoneBall.DisplayName: Brimstone Fireball
 BrimstoneBarrage.DisplayName: Brimstone Dart
 BrimstoneFire.DisplayName: Brimstone Fire
@@ -44,6 +45,8 @@ CalamitousExplosion.DisplayName: Calamitous Explosion
 CalamitousFireball.DisplayName: Calamitous Fireball
 CataclysmicFlame.DisplayName: Cataclysmic Flame
 CatastrophicCinder.DisplayName: Catastrophic Cinder
+CirclingBloodScythe.DisplayName: Circling Blood Scythe
+CrimsonEye.DisplayName: Crimson Eye
 CrimulanSpike.DisplayName: Crimulan Spike
 CursedFire.DisplayName: Eye Fire
 DarkEnergyBall.DisplayName: Dark Energy
@@ -73,6 +76,7 @@ FlareBomb.DisplayName: Flare Bomb
 FlareDust.DisplayName: Flare Dust
 FlareDust2.DisplayName: Flare Bomb
 Flarenado.DisplayName: Flarenado
+FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
 FrostMist.DisplayName: Frost Mist
 GolemInfernoBolt.DisplayName: Golem Fire Bolt
 GolemInfernoBlast.DisplayName: Golem Fire Blast
@@ -97,6 +101,7 @@ IceBomb.DisplayName: Ice Bomb
 IceRain.DisplayName: Ice Rain
 IchorBlob.DisplayName: Ichor Blob
 IchorShot.DisplayName: Ichor Shot
+IchorShower.DisplayName: Ichor Shower
 Infernado.DisplayName: Infernado
 Infernado2.DisplayName: Infernado
 InfernadoRevenge.DisplayName: Infernado
@@ -148,6 +153,7 @@ SCalBrimstoneFireblast.DisplayName: Brimstone Fireblast
 SCalBrimstoneGigablast.DisplayName: Brimstone Gigablast
 SCalRitualDrama.DisplayName: Calamitous Ritual Drama
 HomingLaserDart.DisplayName: Homing Dart
+HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
 ShadeNimbusHostile.DisplayName: Shade Nimbus
 ShaderainHostile.DisplayName: Shade Rain
 ShadowflameFireball.DisplayName: Shadowflame Fireball
@@ -161,6 +167,8 @@ StormWeaverFrostWaveTelegraph.DisplayName: Frost Wave Telegraph
 SupremeCataclysmFist.DisplayName: Fist of Fury
 SupremeCatastropheSlash.DisplayName: Resonance Slash
 SwirlingFire.DisplayName: Fire
+TelekineticEnemyGrab.DisplayName: Telekinetic Enemy Grab
+TelekineticBlast.DisplayName: Telekinetic Blast
 ThanatosBeamStart.DisplayName: T Hanos Beam
 ThanatosBeamTelegraph.DisplayName: Gamma Disintegration Beam Telegraph
 ThanatosLaser.DisplayName: Exo Pulse Laser

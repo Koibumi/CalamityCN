@@ -11,7 +11,7 @@ LoreAbyss: {
 		While there are many sightless crevasses in the deep sea, this one is a geological marvel.
 		It is located unsettlingly close to the shoreline. Somehow, even eons of tectonics could not seal or crush it.
 		The isolated Abyss is the debatably tranquil home of the naiad Anahita and other reclusive sea creatures.
-		Here I disposed of the burgeoning remains of Silva, the Goddess of Life itself. Obviously, she of all Gods refused to truly die.
+		Here I disposed of the burgeoning remains of Silva, the goddess of life itself. Obviously, she of all gods refused to truly die.
 		My wishes were that she would be forgotten, but her tenacity and very willpower is remarkable. 
 		Diffused, her influence inundated that pit of crushing pressure with flora and fauna aplenty.
 		Her great roots continue to thrash and tear at the impossibly dense stone, growing uncontrollably.
@@ -81,8 +81,8 @@ LoreAstrumDeus: {
 	DisplayName: Astrum Deus
 	Lore:
 		'''
-		On our world, this being is revered as the God of the night sky. It is said to devour dying stars and birth new ones in turn.
-		Unlike the many Gods you or I know, it is guiltless. An important distinction, for it was equally as diseased as they.
+		On our world, this being is revered as the god of the night sky. It is said to devour dying stars and birth new ones in turn.
+		Unlike the many gods you or I know, it is guiltless. An important distinction, for it was equally as diseased as they.
 		The infection that tainted its body is from beyond Terraria. Neither I nor Draedon recognize it fully.
 		With its will subsumed, it hurled a chunk of infested astral matter at our world, then came to guard it.
 		Thankfully, such a grandiose being that walks amongst the stars is likely not truly dead.
@@ -95,7 +95,7 @@ LoreAwakening: {
 	DisplayName: Awakening
 	Lore:
 		'''
-		The tombs of the Dragons stir. My eyes lift to see ancient dust dancing from high ledges.
+		The tombs of the dragons stir. My eyes lift to see ancient dust dancing from high ledges.
 		These grand wings… how long has it been since I was a hero worthy of their name?
 		It feels like centuries have passed, yet all I've done is blink.
 		Look upon my works, as they are… Ruined. None would dare seek me out; tread my path.
@@ -121,7 +121,7 @@ LoreBloodMoon: {
 	DisplayName: Blood Moon
 	Lore:
 		'''
-		This malevolence is not the work of any God. Blood moons trace their origins to the dawn of history.
+		This malevolence is not the work of any god. Blood moons trace their origins to the dawn of history.
 		It is an occurrence equally sinister and banal. Everyone is acclimated to the shambling hordes of undead.
 		Organized societies are not threatened in the slightest. If anything, they welcome the opportunity to train green foot soldiers.
 		Those with fire in their veins may strike out on their own, to revel in the slaughter.
@@ -135,7 +135,7 @@ LoreBrainofCthulhu: {
 	Lore:
 		'''
 		It is true that unspeakable abominations may now be commonplace, largely by my hand.
-		Though they have always been a product of the folly of the Gods, the same Gods would cull them in equal measure.
+		Though they have always been a product of the folly of the gods, the same gods would cull them in equal measure.
 		My decimation of the falsely divine left many old horrors unconstrained, with new ones birthed every year.
 		Now, they are your stepping stones.
 		'''
@@ -166,10 +166,10 @@ LoreCalamitas: {
 		When I first saw her, she was still a girl. Prostrated in my court, garbed in charred rags as she trembled.
 		I could not grasp the unfathomable, raw power of the fell magics that coursed through her.
 		She could scant control it herself. Permafrost recognized this immediately. With a pained face, he counseled me to look after her.
-		The Witch entered his tutelage, and soon after my service. She was ablaze with desire to douse the Gods in her wicked wrath.
+		The Witch entered his tutelage, and soon after my service. She was ablaze with desire to douse the gods in her wicked wrath.
 		Indeed, the faithful already quaked in her presence. Her name was a moniker of theirs, one uttered quietly in fear.
 		In my campaigns, I counted on her sheer capacity for annihilation as my ace in the hole.
-		No man: army, city or God could stand against her unbridled fury.
+		No man, army, city or god could stand against her unbridled fury.
 		Eventually, the girl's horrific sin was too much for her to bear. She left my side along with her mentor.
 		The weight of her deeds haunts her to this day. She despises me, and I cannot blame her.
 		Please, if you would... show her respect where I did not.
@@ -210,9 +210,9 @@ LoreCorruption: {
 	DisplayName: The Corruption
 	Lore:
 		'''
-		To not properly dispose of the essence of a slain God is a fatal mistake. This wasteland stands as proof of such.
-		Having slain my first Gods, I turned a blind eye as corrupt essence gushed from their rent forms and burrowed into the bowels of Terraria.
-		The mere existence of this putrid place proves that the Gods of old were beyond redemption.
+		To not properly dispose of the essence of a slain god is a fatal mistake. This wasteland stands as proof of such.
+		Having slain my first gods, I turned a blind eye as corrupt essence gushed from their rent forms and burrowed into the bowels of Terraria.
+		The mere existence of this putrid place proves that the gods of old were beyond redemption.
 		'''
 	Tooltip: ""
 }
@@ -233,8 +233,8 @@ LoreCrimson: {
 	Lore:
 		'''
 		The foul air, the morbid fauna, the disgusting terrain… Here lies the first mistake of my crusade.
-		The essence of a God does not simply vanish when the body dies. It must be properly disposed of or destroyed entirely.
-		Essence of a pious God could never fester into a mire as dreadful as this.
+		The essence of a god does not simply vanish when the body dies. It must be properly disposed of or destroyed entirely.
+		Essence of a pious god could never fester into a mire as dreadful as this.
 		'''
 	Tooltip: ""
 }
@@ -248,7 +248,7 @@ LoreCynosure: {
 		You have rent all asunder as they crossed your path. The very land now bends to your will.
 		Do you not see how the grass parts where you step, how the stars illuminate where you gaze?
 		Terraria itself kneels to you, whether it be out of fear or respect.
-		This is the strength the Dragons held. The primordial power they commanded.
+		This is the strength the dragons held. The primordial power they commanded.
 		Little stands between us now. If you did not seek battle with me, I doubt you would have come so far.
 		When you are prepared: seek the grave of the Light, at the summit of the Dragon Aerie.
 		I await your challenge.
@@ -286,8 +286,8 @@ LoreDevourerofGods: {
 	Lore:
 		'''
 		The infamous, otherworldly glutton, in the flesh. His imposing title was self-granted, but undeniable truth made it stick.
-		He is a formidable foe: Capable of swallowing Gods whole, absorbing their essence in its entirety.
-		I ordered Draedon to armor his gargantuan form, so he could safely best even the greater Gods in single combat.
+		He is a formidable foe: Capable of swallowing gods whole, absorbing their essence in its entirety.
+		I ordered Draedon to armor his gargantuan form, so he could safely best even the greater gods in single combat.
 		Fittingly, he possessed a serpent's tongue. He manipulated me incessantly, driving me to awful acts.
 		I recruited him out of desperation. My war had dragged on for decades, and I would do anything to have it end.
 		It was then my negligence was born. My descent began the moment recruiting this scoundrel crossed my mind.
@@ -302,7 +302,7 @@ LoreDragonfolly: {
 	DisplayName: Dragonfolly
 	Lore:
 		'''
-		Near the close of the Draconic Era, there are records of the "impure" Dragon species.
+		Near the close of the Draconic Era, there are records of the "impure" dragon species.
 		Wyverns, basilisks, Pigrons and the like are documented. Though none are sure how exactly they came to be.
 		To this day, scholars argue over the true names and lineages of these creatures.
 		Names aside: it is clear the first offshoots are pure enough to retain the great strength of their forebears.
@@ -319,9 +319,9 @@ LoreDukeFishron: {
 		'''
 		Outlandish as they may seem, this species is the single mightiest of the seas.
 		They are relentless hunters and can easily spend significant time out of the water.
-		Folklore holds that the Fishrons claim heritage from the true Dragons; countless years back.
+		Folklore holds that the fishrons claim heritage from the true dragons; countless years back.
 		While there are many such tales of creatures hailing draconic descent, this case is factual.
-		Genetic heritage or not: the Fishrons lack Auric souls. I would know well.
+		Genetic heritage or not: the fishrons lack auric souls. I would know well.
 		'''
 	Tooltip: ""
 }
@@ -357,7 +357,7 @@ LoreExoMechs: {
 	Lore:
 		'''
 		What a terrifying marvel of engineering. Draedon's specialty always lay in the machines of war, but these are immaculate.
-		His bold claim that no God can match his work is, however… incorrect. He is not privy to the Traitor almighty.
+		His bold claim that no god can match his work is, however… incorrect. He is not privy to the Traitor almighty.
 		Regardless, from steel and wit alone, he has forged engines of destruction that rival Calamitas.
 		It brings me little comfort to remark that even she, at least has a heart to speak of.
 		Draedon is an amoral monster beyond compare. He is entirely devoid of humanity and compassion.
@@ -386,7 +386,7 @@ LoreGolem: {
 		'''
 		What a sad, piteous thing. Truly, a mockery in every sense of the word.
 		The Lihzahrds were abandoned by their deity long ago. They set upon creating the idol as a pathetic replacement.
-		The result is an amalgamation of the concepts and themes of many Gods, prominently the heat of the sun.
+		The result is an amalgamation of the concepts and themes of many gods, prominently the heat of the sun.
 		It is a far cry from a mechanical god… for the better. The alternative is too chilling to consider.
 		While I believe this insignificant construct deserves no mention, the Lihzahrds revere it unflinchingly.
 		I see no need to intervene in affairs beneath me and my people.
@@ -398,7 +398,7 @@ LoreHiveMind: {
 	DisplayName: The Hive Mind
 	Lore:
 		'''
-		Some semblance of a God's mind may survive death, much like the twitches of a crushed insect.
+		Some semblance of a god's mind may survive death, much like the twitches of a crushed insect.
 		What little remains attempts to convene and coalesce in worship. A desperate attempt that its power may yet be restored. How pitiful.
 		Fortunately for us, the futility of this effort is unmatched. The biomass obeys; even though nothing is accomplished. 
 		Divine power is known to be rooted in faith. Gods are forged of their own strength, and the mindless spread of corruption is its own foul reverence.
@@ -451,7 +451,7 @@ LoreOldDuke: {
 		'''
 		That was possibly one of the oldest mundane living beings on the face of the planet.
 		The first Fishrons were spotted in the middle of the Draconic Era. What exotic prestige…!
-		Fishrons were one of the original offshoots of pure-blooded Auric Dragons.
+		Fishrons were one of the original offshoots of pure-blooded auric dragons.
 		They are so old and venerated that many historians are convinced they are the original sea monsters of folklore.
 		This particular Duke's guile is self-evident: It evaded centuries of hunting, and until now had survived a most thorough poisoning.
 		Above almost all others, this creature was a living fable. One must wonder what goes through the mind of a fading legend….
@@ -463,7 +463,7 @@ LorePerforators: {
 	DisplayName: The Perforators and Their Hive
 	Lore:
 		'''
-		These creatures were unique. They wielded the slain Gods' power as purely as possible, veins flowing with spilt ichor. 
+		These creatures were unique. They wielded the slain gods' power as purely as possible, veins flowing with spilt ichor. 
 		All that exists in the Crimson is truly the divine turned inside out; their gore now glistens with perverse treachery for all to bear witness.
 		The mire reeks of centuries of vile manipulation and callous domination of the hapless. 
 		Judgement has long passed and only extinction is left waiting.
@@ -521,14 +521,14 @@ LorePrelude: {
 	DisplayName: Prelude
 	Lore:
 		'''
-		In ages past, now named the Draconic Era, the majestic Dragons protected Terraria from all threats.
+		In ages past, now named the Draconic Era, the majestic dragons protected Terraria from all threats.
 		Their famed might was put to the ultimate test by an aberrant behemoth from beyond the stars.
-		Fighting with all their strength, the Dragons could wound and weaken it… but not destroy it.
+		Fighting with all their strength, the dragons could wound and weaken it… but not destroy it.
 		Lacking options, they tore the monster down to a shadow of its former self; sealing it away.
-		What is left of it now lies imprisoned in the Moon, as far away as the Dragons could banish it.
+		What is left of it now lies imprisoned in the Moon, as far away as the dragons could banish it.
 		Much of dragonkind was lost as casualties in that struggle, and they never recovered.
 		Zeratros himself was gravely injured. It seemed his power, along with his life, would be lost forever.
-		One mortal, sworn to the service of the Dragons, rose in determination to save their virtuous King.
+		One mortal, sworn to the service of the dragons, rose in determination to save their virtuous King.
 		'''
 	Tooltip: ""
 }
@@ -540,7 +540,7 @@ LoreProfanedGuardians: {
 		The Guardians are foul extensions of the Profaned Goddess' power, wielders of the same wicked flame.
 		They were given partial autonomy to hunt down threats, rarely spotted outside of temples sanctified in her name.
 		She has been expanding her iniquitous domain, and she believes you to be her largest threat.
-		After all, it was you that finished off the voidborn horror that catalyzed the downfall of the Dragons.
+		After all, it was you that finished off the voidborn horror that catalyzed the downfall of the dragons.
 		Draw her out from hiding. Have no mercy; the Profaned Goddess shows none herself.
 		'''
 	Tooltip: ""
@@ -552,10 +552,10 @@ LoreProvidence: {
 		'''
 		A glorious day.
 		Deeds of valor of this caliber are enshrined in legend. Of this age only the Witch, Braelor and myself can compare.
-		Providence was perhaps one of the wickedest Gods, hellbent on purification through erasure.
+		Providence was perhaps one of the wickedest gods, hellbent on purification through erasure.
 		Her worshippers saw little value in life. Pain was not a price they felt justified to pay.
 		The Profaned Goddess promised her followers she would end inequality by reducing all to featureless ash.
-		Those devoted to her were weak-willed, yet she reigned as one of the mightiest Gods.
+		Those devoted to her were weak-willed, yet she reigned as one of the mightiest gods.
 		Perhaps it was their easily-swayed nature that let her draw so much power from them….
 		'''
 	Tooltip: ""
@@ -605,12 +605,12 @@ LoreRequiem: {
 	Lore:
 		'''
 		As the Light Dragon was fading, a monk visited him. Nearly none understand what transpired that day.
-		Most say his passing was eased. The truth? Zeratros' Auric soul was consumed; utterly.
+		Most say his passing was eased. The truth? Zeratros' auric soul was consumed; utterly.
 		The monk stood, wreathed in Primordial Light, declaring themselves Xeroc. The First God.
-		When a Dragon is laid to rest on the Aerie, its powers are relinquished so they may one day return.
+		When a dragon is laid to rest on the Aerie, its powers are relinquished so they may one day return.
 		Xeroc renounced their sworn oath and broke the cycle, becoming a traitor without equal.
-		Word of the ascension spread quickly. Many attempted to follow suit, hoping to claim an Auric soul for themselves.
-		Now you know… Good intentions or no, all Gods are sinners. Each and every one complicit in genocide.
+		Word of the ascension spread quickly. Many attempted to follow suit, hoping to claim an auric soul for themselves.
+		Now you know… Good intentions or no, all gods are sinners. Each and every one complicit in genocide.
 		Wherever your journey may lead, whether you are with me or against…. May fortune favor you.
 		For nothing else will.
 		'''
@@ -637,7 +637,7 @@ LoreSkeletron: {
 	Lore:
 		'''
 		An unfortunate old man who was caught by an ancient cult, cursing him for trespassing on their ancient library.
-		They were once my friends. The leader is infatuated with Dragons, with a dream of even resurrecting one.
+		They were once my friends. The leader is infatuated with dragons, with a dream of even resurrecting one.
 		The very walls of that place are cursed further still. The magic has long since faded as the soldiers rotted within.
 		Do not expect to learn much from those tarnished tomes. They were penned with misguided zeal. 
 		'''
@@ -720,7 +720,7 @@ LoreUnderworld: {
 		'''
 		The hellish reputation the underworld gets is rather a recent development. 
 		The layers of ash choking the formerly great cities is still warm. 
-		The more domineering of Gods wished for me to champion their causes, asking to rule their society from here. 
+		The more domineering of gods wished for me to champion their causes, asking to rule their society from here. 
 		Yet despite being surrounded by magma, Azafure simply burned when their wishes were not met.
 		Such is the unfortunate price of war, though I have no regrets fighting for my people.
 		'''
@@ -731,7 +731,7 @@ LoreWallofFlesh: {
 	DisplayName: The Wall of Flesh
 	Lore:
 		'''
-		To contain the essence of a slain God is no small thing. It is rather a towering, ghastly construct.
+		To contain the essence of a slain god is no small thing. It is rather a towering, ghastly construct.
 		The Wall was lashed together with foul sinew and fouler magics, forming a rudimentary prison of flesh.
 		It served its purpose: halting the diffusion of undue divine influence.
 		Were it not for this alchemical breakthrough, the very world I fought for may have been lost in the carnage I wrought.
@@ -746,9 +746,9 @@ LoreYharon: {
 	Lore:
 		'''
 		The return of the Age of Dragons, dashed. Just like that, it is but ashes in the wind….
-		Yharon was the last of the Auric Dragons. As a phoenix, his domain of power includes rebirth.
-		The Gods thought him culled with the rest of his kind, but he returned as an egg. Hidden on the Aerie.
-		I was destined to consume his Auric soul when he hatched, and rule forever as God-King.
+		Yharon was the last of the auric dragons. As a phoenix, his domain of power includes rebirth.
+		The gods thought him culled with the rest of his kind, but he returned as an egg hidden on the Aerie.
+		I was destined to consume his auric soul when he hatched, and rule forever as God-King.
 
 		[c/FCA92B:Destiny is for the weak.]
 

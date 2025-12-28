@@ -22,7 +22,6 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
-		{$Potions.RedWine.DisplayName}会回复{0}生命值但降低{1}HP/s生命再生
 		[c/FCE391:“我骑上去了！”]
 		'''
 }
@@ -172,8 +171,8 @@ BloodyMary: {
 	DisplayName: 血腥玛丽
 	Tooltip:
 		'''
-		在血月期间增加{0}%伤害和移动速度
-		降低{1}HP/s生命再生和{2}%防御
+		敌怪生成率增加至7倍
+		大幅降低穿透武器的效果
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -182,8 +181,8 @@ CaribbeanRum: {
 	DisplayName: 加勒比朗姆酒
 	Tooltip:
 		'''
-		增加{0}HP/s生命再生和{1}%移动速度
-		令你变得飘飘若仙并降低{2}%防御
+		增加{0}%移动速度
+		降低{1}%重力
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -192,8 +191,8 @@ CinnamonRoll: {
 	DisplayName: 肉桂威士忌
 	Tooltip:
 		'''
-		所有火系减益的伤害倍率乘以{0}并增加魔力再生速率
-		降低{1}%防御
+		大幅增加冲刺速度
+		大幅降低冲刺距离
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -202,8 +201,7 @@ PurpleHaze: {
 	DisplayName: 紫色阴霾
 	Tooltip:
 		'''
-		增加{0}%伤害，但降低{1}%防御
-		延长受伤后无敌时间
+		潜伏攻击5秒后，所有伤害增加{0}%，但潜伏攻击的伤害降低{1}%
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -223,8 +221,8 @@ EvergreenGin: {
 	DisplayName: 常青松子酒
 	Tooltip:
 		'''
-		所有疫病和水系减益的伤害倍率乘以{0}
-		-{1}HP/s生命再生
+		增加{0}%水系和疾病系减益的伤害
+		降低{1}%电系和火系减益的伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -233,8 +231,8 @@ Fireball: {
 	DisplayName: 火龙酒
 	Tooltip:
 		'''
-		所有火系减益的伤害倍率乘以{0}
-		-{1}HP/s生命再生
+		增加{0}%火系减益的伤害
+		降低{1}%疾病系减益的伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -243,7 +241,19 @@ GrapeBeer: {
 	DisplayName: 葡萄啤酒
 	Tooltip:
 		'''
-		降低{0}%防御，持续{1}秒
+		子弹，箭，飞镖和火箭可以追踪
+		如果同时发射多个，只有其中五个可以享受到效果
+		降低{0}%暴击伤害
+		{$Common.AlcoholWarning}
+		'''
+}
+
+Manhattan: {
+	DisplayName: Manhattan
+	Tooltip:
+		'''
+		增加{0}%冷系减益的伤害
+		降低{1}%水系减益的伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -252,10 +262,9 @@ Margarita: {
 	DisplayName: 玛格丽塔酒
 	Tooltip:
 		'''
-		减半大多数减益的持续时间
-		降低{0}%防御和{1}HP/s生命再生
+		减半你受到的伤害性减益的持续时间
+		你施加的减益的伤害降低{0}%
 		{$Common.AlcoholWarning}
-		{$CommonItemTooltip.MinuteDuration@2}
 		'''
 }
 
@@ -263,8 +272,9 @@ Moonshine: {
 	DisplayName: 摩闪酒
 	Tooltip:
 		'''
-		增加{0}点防御和{1}%伤害减免
-		-{2}HP/s生命再生
+		最大生命值增加{0}%
+		受攻击时至少会受到一半防御的防御损伤
+		防御损伤需要两倍时间恢复
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -273,8 +283,8 @@ MoscowMule: {
 	DisplayName: 莫斯科骡子
 	Tooltip:
 		'''
-		增加{0}%伤害、{1}%击退和{2}%暴击率
-		-{3}HP/s生命再生
+		增加{0}%击退，所有攻击会造成极强击退
+		降低穿透武器的效果
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -310,7 +320,8 @@ RedWine: {
 	DisplayName: 红葡萄酒
 	Tooltip:
 		'''
-		-{0}HP/s生命再生，持续{1}秒
+		增加{0}%垂直速度
+		降低{1}%飞行时间
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -319,8 +330,8 @@ Rum: {
 	DisplayName: 朗姆酒
 	Tooltip:
 		'''
-		+{0}HP/s生命再生和{1}%移动速度
-		降低{2}%防御
+		增加{0}%非仆从的召唤伤害
+		降低{1}%仆从伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -329,8 +340,8 @@ Screwdriver: {
 	DisplayName: 螺丝起子
 	Tooltip:
 		'''
-		穿透类弹幕的伤害倍率乘以{0}
-		-{1}HP/s生命再生
+		大幅增加物块和墙的放置范围和速度
+		大幅降低造成的伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -339,9 +350,10 @@ StarBeamRye: {
 	DisplayName: 星界黑麦威士忌
 	Tooltip:
 		'''
-		增加{0}点最大魔力值和{1}%魔法伤害
-		降低{2}%魔力消耗
-		降低{3}%防御和{4}HP/s生命再生
+		禁用自然魔力再生
+		即便是在使用物品，魔力也以固定速率再生
+		魔法武器造成的伤害会基于其消耗魔力的速度增加
+		受魔力疾病影响时不生效
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -350,8 +362,8 @@ Tequila: {
 	DisplayName: 龙舌兰酒
 	Tooltip:
 		'''
-		在白天时增加{0}%击退、{1}%暴击率和{2}点防御
-		-{3}HP/s生命再生
+		增加{0}%电系减益的伤害
+		降低{1}%冷系减益的伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -360,8 +372,8 @@ TequilaSunrise: {
 	DisplayName: 龙舌兰日出
 	Tooltip:
 		'''
-		在白天时增加{0}%击退、{1}%暴击率和{2}点防御
-		-{3}HP/s生命再生
+		受到伤害性减益后大幅增加自然生命再生
+		增加{0}%受到减益的伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -370,8 +382,8 @@ Vodka: {
 	DisplayName: 伏特加
 	Tooltip:
 		'''
-		增加{0}%伤害和{1}%暴击率
-		降低{2}HP/s生命再生和{3}%防御
+		增加{0}%无类型减益的伤害
+		降低{1}%其他减益的伤害
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -380,8 +392,10 @@ Whiskey: {
 	DisplayName: 威士忌
 	Tooltip:
 		'''
-		增加{0}%伤害、{1}%击退和{2}%暴击率
-		降低{3}%防御
+		对手持武器的职业提供{0}%至{1}%伤害
+		每个职业都会单独追踪此加成
+		手持相同职业的武器时间越长，此加成会降低，完全衰减需要{2}秒
+		手持不同职业武器后此加成会重新充能，完全重新充能需要{3}秒
 		{$Common.AlcoholWarning}
 		'''
 }
@@ -390,8 +404,8 @@ WhiteWine: {
 	DisplayName: 白葡萄酒
 	Tooltip:
 		'''
-		增加{0}%魔法伤害
-		降低{1}%防御和{2}HP/s生命再生
+		离敌怪越近，你就越能恢复飞行时间
+		降低{0}%飞行时间
 		{$Common.AlcoholWarning}
 		'''
 }
