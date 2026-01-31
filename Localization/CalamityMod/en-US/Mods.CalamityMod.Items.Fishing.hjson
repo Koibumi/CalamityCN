@@ -1,9 +1,10 @@
-// Quest fish tooltips
-CaughtInAstral: "'Caught in the Astral Infection'"
-CaughtInBrimstoneCrag: "'Caught in the Brimstone Crag'"
-CaughtInSnow: "'Caught in Tundra'"
-CaughtInSpace: "'Caught in Sky Lakes'"
-CaughtInSunkenSea: "'Caught in the Sunken Sea'"
+﻿// Quest fish tooltips
+CaughtInAstral: Caught in the Astral Infection
+CaughtInBrimstoneCrag: Caught in the Brimstone Crag
+CaughtInSnow: Caught in Tundra
+CaughtInSpace: Caught in Sky Lakes
+CaughtInSunkenSea: Caught in the Sunken Sea
+LocationTooltip: "'{0}'"
 
 // Astral Infection Catches
 AldebaranAlewife: {
@@ -169,12 +170,18 @@ PrismCrate: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
+PrismaticGuppy: {
+	DisplayName: Prismatic Guppy
+	Tooltip: Throwing these in an aquarium would be insanity
+}
+
 RustedJingleBell: {
 	DisplayName: Rusted Jingle Bell
 	Tooltip:
 		'''
-		Summons a baby ghost bell light pet
+		Summons a baby ghost bell to light the way for you
 		Provides a moderate amount of light while underwater
+		{$Common.AbyssLightLevel}
 		'''
 }
 
@@ -190,31 +197,10 @@ Serpentuna: {
 
 SparklingEmpress: {
 	DisplayName: Sparkling Empress
-	Tooltip: "[GFB]"
-	TooltipNormal:
+	Tooltip:
 		'''
-		Fires a stream of erratic magic
-		After firing for long enough, the fish will shine
-		Ceasing use of the fish while it shines will restore some of your mana
-		'An beautiful fish that seems to feed on mana'
-		'''
-	TooltipGFB:
-		'''
-		Fires a stream of erratic magic
-		After firing for long enough, the fish will shine
-		Ceasing use of the fish while it shines will restore some of your mana
-		'Hello there, you seem to be an unfamiliar face around here.
-		Perhaps you are surprised a fish like me is able to speak?
-		No need for worry, I have no intention of any foul play.
-		I only hope to find a delectable meal of pure mana on this fine day!
-		You have a supply of mana, yes?
-		Would you perchance be so kind as to share a bit with this small fish?
-		If it is not to your liking do not worry, for I have a compromise to make you.
-		It should be simple enough, you provide me, the fish, with your mana.
-		But, in turn I shall provide you plentiful offensive power through my art of fish magic.
-		Is this an applicable compromise?
-		Good!
-		Then let us set out and see the world beyond as I enjoy a fine feast!'
+		Fires a concentrated laser to annihilate your foes
+		Defeated enemies explode into prism shards
 		'''
 }
 

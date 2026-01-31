@@ -65,8 +65,8 @@ Affliction: {
 	Tooltip: Gives all teammates +{0} HP/s life regen, +{1}% max life, {2}% damage reduction, {3} defense and {4}% increased damage
 }
 
-AlchemicalFlask: {
-	DisplayName: Alchemical Flask
+AlchemicalDecanter: {
+	DisplayName: Alchemical Decanter
 	Tooltip:
 		'''
 		All attacks inflict the [cbuff:CalamityMod/Plague] and reduces damage taken from the [cbuff:CalamityMod/Plague] by {0}%
@@ -107,6 +107,11 @@ AmbrosialAmpoule: {
 		Fire and sickness debuff durations are halved
 		You emit yellow light if visibility is enabled
 		'''
+}
+
+AmidiasPendant: {
+	DisplayName: Amidias' Pendant
+	Tooltip: Periodically rains down prism shards that can briefly stun enemies
 }
 
 AncientFossil: {
@@ -180,7 +185,7 @@ AquaticHeart: {
 		'''
 		Wow, you can swim now!
 		Being underwater increases max speed and acceleration by {0}%
-		Greatly reduces breath loss and provides a small amount of light in the abyss
+		Greatly reduces breath loss and reduces the darkness intensity in the abyss
 		Attackers are inflicted with [cbuff:CalamityMod/GlacialState]
 		Gain a fragile ice barrier that grants {1}% damage reduction for one hit
 		The ice shield regenerates after {2} seconds
@@ -299,7 +304,6 @@ BlazingCore: {
 		Upon shattering, holy stars spiral outwards and damage taken is negated
 		After shattering, this damage reduction effect goes on cooldown
 		Damage parried whilst on cooldown summons additional healing stars, and will not be reduced
-		{$Common.AbyssLightLevel2}
 		'''
 }
 
@@ -319,7 +323,7 @@ BloodPact: {
 		'''
 		Increases max HP by 25%
 		Grants immunity to Bleeding, Burning Blood and Heavy Bleeding
-		Healing Potions are 25% more effective
+		Healing Potions are 33% more effective
 		'''
 }
 
@@ -399,11 +403,10 @@ ChaosStone: {
 		'''
 		Disables automatic potion consumption
 		Items that consume mana can be used even without the required mana amount
-		Mana usage can overflow into negative mana, causing you to receive [Mana Burn]
+		Mana usage can overflow into negative mana, causing you to both receive and inflict [cbuff:CalamityMod/ManaBurn]
 		The lower your mana, the more intense the manafire burns
-		Attacks while you have [Mana Burn] inflict [Mana Burn] on enemies
-		Every 50 negative mana increases [Mana Burn] by 1% of the attack's damage
 		Negative Mana is capped at your maximum mana amount
+		Current maximum intensity with your maximum mana: -[REGEN] HP/s, and burns enemies for [DAMAGE]% of dealt damage
 		'''
 }
 
@@ -430,14 +433,14 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		5% increased movement speed
-		Multiplies all sickness and water-related debuff damage by 1.25x
+		25% increased Sickness and Water debuff damage
 		All attacks irradiate enemies and reduces the severity of the sulphuric waters
 		You burst into radioactive clouds when struck
 		'''
 }
 
-CorruptFlask: {
-	DisplayName: Corrupt Flask
+UnholyTonic: {
+	DisplayName: Unholy Tonic
 	Tooltip:
 		'''
 		Increases damage reduction by 4% and defense by 6 while in the corruption
@@ -449,7 +452,6 @@ CounterScarf: {
 	DisplayName: Counter Scarf
 	Tooltip:
 		'''
-		10% increased true melee damage
 		Grants the ability to dash; dashing into an attack will cause you to dodge it
 		After a successful dodge you must wait 30 seconds before you can dodge again
 		'''
@@ -464,8 +466,8 @@ CrawCarapace: {
 		'''
 }
 
-CrimsonFlask: {
-	DisplayName: Crimson Flask
+ViciousTonic: {
+	DisplayName: Vicious Tonic
 	Tooltip:
 		'''
 		Increases damage reduction by 4% and defense by 6 while in the crimson
@@ -486,7 +488,7 @@ CryoStone: {
 	DisplayName: Cryo Stone
 	Tooltip:
 		'''
-		Multiplies all cold-based debuff damage by 1.5x
+		50% increased Cold debuff damage
 		Creates a rotating ice shield around you that damages and slows down enemies on contact
 		'One of the ancient relics'
 		'''
@@ -589,7 +591,7 @@ DiamondOfTheDeep: {
 	DisplayName: Diamond of the Deep
 	Tooltip:
 		'''
-		Multiplies all water debuff damage by 1.6x
+		60% increased Water debuff damage
 		Slowly accrue up to three different abyssal spirits
 		Dash to disperse the spirits and have them attack enemies
 		When dispersed [c/CB7AD7:below 50% life], the spirits support you instead
@@ -757,9 +759,9 @@ EvasionScarf: {
 	DisplayName: Evasion Scarf
 	Tooltip:
 		'''
-		15% increased true melee damage
 		Grants the ability to dash; dashing into an attack will cause you to dodge it
 		After a successful dodge you must wait 30 seconds before you can dodge again
+		Has a shorter dash cooldown than most dashes
 		'''
 }
 
@@ -850,8 +852,7 @@ GiantPearl: {
 		'''
 		You have a light aura around you
 		Enemies within the aura are slowed down
-		Enemies that remain within the aura are bombarded by homing prism shards
-		{$Common.AbyssLightLevel1}
+		{$Common.AbyssGlow}
 		'''
 }
 
@@ -922,7 +923,7 @@ HallowedRune: {
 	HoldShiftTooltip:
 		'''
 		[c/8ce0ff:  Hallowed Power] [c/ccf1ff: grants 10% increased summon damage and rains stars on enemies]
-		[c/d08aff:  Hallowed Defense] [c/eed4ff: grants 4 defense and 4% damage reduction]
+		[c/d08aff:  Hallowed Defense] [c/eed4ff: grants 5 defense]
 		[c/ff8cb5:  Hallowed Regen] [c/ffccde: grants +1.5 HP/s life regen]
 		'''
 }
@@ -978,12 +979,7 @@ HowlsHeart: {
 
 IlmerisSpark: {
 	DisplayName: Ilmeris' Spark
-	Tooltip:
-		'''
-		Attacks inflict Static Discharge while underwater
-		Taking damage causes the enemy to be shocked
-		Shocked enemies constantly release sparks
-		'''
+	Tooltip: Taking damage releases a blast of sparks
 }
 
 InfectedJewel: {
@@ -1117,7 +1113,7 @@ ManaPolarizer: {
 		Increases max mana by 50
 		Provides life regeneration and magic damage that scales based on how much mana you have
 		Lower mana means more life regeneration, but less magic damage
-		These scale from -2 to 2 HP/sec, and 5% to 15% damage
+		These scale from -2 to 2 HP/sec, and 15% to 5% damage
 		The provided regeneration is halved when under Mana Sickness
 		Magic projectiles steal enemy life while holding a magic weapon
 		'''
@@ -1200,7 +1196,7 @@ Nucleogenesis: {
 	DisplayName: Nucleogenesis
 	Tooltip:
 		'''
-		Increases your max number of mininons by 4
+		Increases your max number of minions by 4
 		Grants immunity to Shadowflame and Irradiated
 		15% increased summon damage, and increased minion knockback
 		Minions inflict a variety of debuffs
@@ -1306,7 +1302,7 @@ PhantomicArtifact: {
 	HoldShiftTooltip:
 		'''
 		[c/8ce0ff:  Phantomic Empowerment] [c/ccf1ff: grants 10% increased summon damage and throws knives at enemies]
-		[c/d08aff:  Phantomic Shield] [c/eed4ff: grants 10 defense, 5% damage reduction and a 20% damage reduction bulwark]
+		[c/d08aff:  Phantomic Shield] [c/eed4ff: grants 10 defense and a 20% damage reduction bulwark]
 		[c/ff8cb5:  Phantomic Regen] [c/ffccde: grants 1 HP/s life regen and occasionally drops phantom hearts which grant an additional 1 HP/s life regen]
 		'''
 }
@@ -1577,7 +1573,7 @@ SeaSpiritAmulet: {
 		Slowly accumulate up to eight spirit orbs that follow you
 		Spirits disperse when dashing
 		If below 50% life, they will heal you, otherwise they will attack nearby enemies
-		Multiplies all water debuff damage by 1.35x
+		35% increased Water debuff damage
 		Spirit orbs are transparent and silent if visibility is disabled
 		'''
 }
@@ -1631,12 +1627,8 @@ ShieldoftheOcean: {
 	DisplayName: Shield of the Ocean
 	Tooltip:
 		'''
-		Pressing [KEY] will activate a parry, encasing you in a bubble
-		Being hit shortly after encasement will pop the bubble, granting 60% DR for that hit
-		Upon popping, nearby enemies are violently launched away from you, and will be damaged if they collide with tiles
-		Enemies which cannot be launched instead directly take large damage
-		After popping, the damage reducing effect goes on a 20 second cooldown
-		Damage parried whilst on cooldown will not be reduced, and will not deal collision damage to launched enemies
+		Increased defense by 5 when submerged in liquid
+		10% increased movement speed and +1 HP/s life regen while wearing Victide armor
 		'''
 }
 
@@ -1689,7 +1681,7 @@ SpiritGlyph: {
 	HoldShiftTooltip:
 		'''
 		[c/8ce0ff:  Spirit Power] [c/ccf1ff:grants 10% increased summon damage]
-		[c/d08aff:  Spirit Defense] [c/eed4ff:grants 4 defense]
+		[c/d08aff:  Spirit Defense] [c/eed4ff:grants 3 defense]
 		[c/ff8cb5:  Spirit Regen] [c/ffccde:grants +1 HP/s life regeneration]
 		'''
 }
@@ -1828,10 +1820,10 @@ StatMeter: {
 	MiscStats: Aggro: {0} | Luck: {1}%
 	AbyssStats:
 		'''
-		Abyss Light Strength: {0}
-		Breath Loss Rate: {1}
-		Life Lost Per Tick at Zero Breath: {2}
-		Defense Lost From Pressure: {3}
+		Abyss Darkness: {0} | Player Glow: {1}x | Flashlight Width: {2}x
+		Breath Loss Rate: {3}
+		Life Lost Per Tick at Zero Breath: {4}
+		Defense Lost From Pressure: {5}
 		'''
 	AbyssStatsHidden: Abyss stats are only displayed while in the Abyss
 }
@@ -1882,8 +1874,7 @@ TheAmalgam: {
 	DisplayName: The Amalgam
 	Tooltip:
 		'''
-		10% increased damage
-		All attacks inflict a variety of debuffs and multiplies all elemental debuff damage by 3x
+		All attacks inflict a variety of debuffs, 200% increased elemental debuff damage
 		Most buffs last twice as long, and persist after dying
 		Taking damage confuses nearby enemies and spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds
@@ -1912,7 +1903,7 @@ TheCamper: {
 		You deal 50% less damage unless stationary
 		Standing still grants buffs depending on held item, and creates a damaging aura around you
 		While moving, you regenerate health as if standing still
-		{$Common.AbyssLightLevel1}
+		{$Common.AbyssGlow} when standing still
 		'In rest may we find victory'
 		'''
 }
@@ -1939,9 +1930,8 @@ TheEvolution: {
 	DisplayName: The Evolution
 	Tooltip:
 		'''
-		Reflects projectiles that hit you, negating their damage and dealing 10x damage to enemies
-		{$Common.ReflectInformation}
-		Reflecting a projectile grants maximum natural life regen for 10 seconds
+		Allows you to dodge projectiles, reflecting highly damaging mirror shards back at enemies
+		{$Common.DodgeInformation}
 		Getting hit by the same enemy projectile type during cooldown will resist its damage by 25%
 		'''
 }
@@ -1996,7 +1986,7 @@ ToxicHeart: {
 		'''
 		Your heart beats with the plague, pulsing outside of your body
 		Pulse frequency scale with regen, and pulses that kill enemies pulse again to heal you
-		Multiplies all sickness debuff damage by 1.5x
+		50% increased Sickness debuff damage
 		Effects are transparent and silent if visibility is disabled
 		'''
 }

@@ -51,6 +51,7 @@ MOAB: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressUpToBooster}
 		32% increased jump speed and allows auto-jump
 		Grants the player cloud, blizzard, and sandstorm mid-air jumps
 		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:Jetpack] [c/aaaaaa:jetpack]

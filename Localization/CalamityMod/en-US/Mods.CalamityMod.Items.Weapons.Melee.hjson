@@ -42,12 +42,7 @@ AirSpinner: {
 
 AmidiasTrident: {
 	DisplayName: Amidias' Trident
-	Tooltip:
-		'''
-		[c/CCE9FF:Striking enemies inflicts] [c/28A3FF:Sea King's Assurance], [c/CCE9FF:which can stack up to eight]
-		Right click to spin the trident then thrust into the air, expending all nearby stacks of Sea King's Assurance
-		Secondary attack deals more damage for every stack applied
-		'''
+	Tooltip: Shoots homing whirlpools
 }
 
 AnarchyBlade: {
@@ -313,7 +308,8 @@ CrescentMoon: {
 		Throws a lunar flail that releases homing moons at the apex of its path
 		Holding <left> spins the flail around you, generating Starbursts
 		With 20 Starbursts, hold <left> again after throwing the flail to cause it to explode
-		Instead of releasing moons, this explosion summons Scorpius to do immense damage
+		Instead of releasing moons, this explosion summons Scorpius to do immense damage and inflict [cbuff:CalamityMod/Voidfrost]
+		'Lunacy derived from genius'
 		'''
 }
 
@@ -365,7 +361,7 @@ DevilsDevastation: {
 		'''
 		[c/d13ca2:The perfect blade of the Underworld, wielding the power of Brimstone directly.]
 		[c/d13ca2:Humans understand this force as Havoc, the inevitable sundering of all order in fire.]
-		[c/d13ca2:Perhaps this is why the Brimstone Elemental had strength unrivaled by her sisters.]	
+		[c/d13ca2:Perhaps this is why the Brimstone Elemental had strength unrivaled by her sisters.]
 		'''
 }
 
@@ -622,7 +618,7 @@ GalileoGladius: {
 	Tooltip:
 		'''
 		Rapidly stabs in front of the player, generating Starbursts on hit
-		<right> to throw the gladius on a constellation chain, impaling foes
+		<right> to throw the gladius on a constellation chain, impaling foes and inflicting [cbuff:CalamityMod/Voidfrost]
 		When the blade is impaled, use <left> or <right> to free it
 		<left> pulls it free and deals high damage, consuming 10 Starbursts
 		<right> pulls youself to the blade, allowing you to jump off the foe
@@ -1079,7 +1075,7 @@ Riptide: {
 	Tooltip:
 		'''
 		{$Common.YoyoStats}
-		Rapidly pulses riptide waves which get larger the more hits landed by the yoyo
+		Sprays a spiral of aqua streams
 		'''
 }
 
@@ -1115,6 +1111,11 @@ SausageMaker: {
 ScourgeoftheCosmos: {
 	DisplayName: Scourge of the Cosmos
 	Tooltip: Throws a bouncing cosmic scourge that emits tiny homing cosmic scourges on enemy and tile hits
+}
+
+SeashineSword: {
+	DisplayName: Seashine Sword
+	Tooltip: Shoots an aqua sword beam
 }
 
 SeekingScorcher: {

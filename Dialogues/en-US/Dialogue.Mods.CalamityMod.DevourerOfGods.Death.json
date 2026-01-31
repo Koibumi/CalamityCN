@@ -1,0 +1,54 @@
+﻿{
+    "Revision": 1,
+    "DefaultColor": "6383FF",
+    "DefaultSpeaker": "DevourerOfGods",
+    "AlignType": 1,
+    "TextDelay": 2,
+    "BasePunctuationDelay": {
+        "Delay": 10,
+        "ForceSet": false,
+        "Locks": false
+    },
+    "PunctuationDelayCap": 30,
+    "PunctuationDelays": {
+        "!": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        },
+        "?": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        }
+    },
+    "Pages": [
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Tasteless [Pause(0.25)]slop.]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Delicious... A feast worthy of a god!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):And [Shaking:STAY] dead!]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):WEAK.]]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):[Shaking:PATHETIC.] ALL THAT RUNNING JUST TO DIE TO A [Shaking:SINGLE TOUCH?!]]]"
+            ]
+        }
+    ]
+}

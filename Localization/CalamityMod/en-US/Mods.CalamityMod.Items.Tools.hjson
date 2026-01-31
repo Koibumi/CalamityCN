@@ -175,7 +175,6 @@ DisgustingMeat: {
 	DisplayName: Disgusting Meat
 	Tooltip:
 		'''
-		Debug item, spawn and use to remove permanent upgrades
 		<left> will remove health and mana upgrades, use with no Calamity upgrades to remove vanilla upgrades
 		<right> will remove rage and adrenaline upgrades, plus other miscellaneous boosters
 		Removed boosters will be vomited out of you as items
@@ -415,6 +414,7 @@ WulfrumDiggingTurtle: {
 		'''
 		Throws a rickety mining contraption to dig out a small tunnel
 		In case of an emergency, press <right> to instantly detonate all your digging turtles
+		The turtle scales with your pickaxe power
 		'''
 }
 

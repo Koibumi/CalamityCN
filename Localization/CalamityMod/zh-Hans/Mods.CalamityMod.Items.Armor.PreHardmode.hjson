@@ -240,60 +240,68 @@ SulphurousLeggings: {
 
 VictideBreastplate: {
 	DisplayName: 胜潮胸甲
-	Tooltip: +{0} HP/s生命再生
+	Tooltip:
+		'''
+		5% increased damage reduction and critical strike chance
+		+5 defense and 10% increased damage reduction while submerged in liquid
+		'''
+	CommonSetBonus:
+		'''
+		When using any weapon you have a 10% chance to throw a returning seashell projectile
+		This seashell does true damage and does not benefit from any damage class
+		Provides increased underwater mobility and slightly reduces breath loss in the abyss
+		'''
 }
 
 VictideGreaves: {
 	DisplayName: 胜潮护胫
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+	Tooltip:
+		'''
+		Movement speed increased by 8%
+		Movement speed increased by 30% while submerged in liquid
+		'''
 }
 
-VictideHeadBarrier: {
+VictideHeadMagic: {
 	DisplayName: 胜潮隐帽
-	Tooltip:
-		'''
-		+{0} HP/s生命再生
-		提升{1}倍移动加速度和减速度
-		'''
+	Tooltip: 增加5%魔法伤害
+	SetBonus: +1.5 HP/s life regen and 10% increased magic damage while submerged in liquid
+}
+
+VictideHeadMelee: {
+	DisplayName: Victide Shellmet
+	Tooltip: 5% increased melee damage
 	SetBonus:
 		'''
-		[c/{0}:护卫之潮 - 形成一个浪潮屏障，爆发时将你发射出去]
-		[c/A2D6FF:屏障提供{1}点防御，缓慢恢复受到伤害的{2}%]
-		[c/A2D6FF:{3}使屏障迸发{4}秒并将你向光标方向推进]
-		[c/A2D6FF:该冲刺能够穿过敌人，并对它们造成伤害]
+		Enemies are more likely to target you
+		+1.5 HP/s life regen and 10% increased melee damage while submerged in liquid
 		'''
 }
 
-VictideHeadBurrow: {
-	DisplayName: 胜潮蟹盔
-	Tooltip:
-		'''
-		提升{0}%移动速度和加速度
-		提供水下呼吸能力，略微降低在深渊中氧气流失速率
-		'''
+VictideHeadRanged: {
+	DisplayName: Victide Coral Turban
+	Tooltip: 5% increased ranged damage
+	SetBonus: +1.5 HP/s life regen and 10% increased ranged damage while submerged in liquid
+}
+
+VictideHeadRogue: {
+	DisplayName: Victide Headcrab
+	Tooltip: 5% increased rogue damage
 	SetBonus:
 		'''
-		允许在水中快速移动
-		[c/{0}:泡泡之穴 - {1}短暂变身为迅捷的水之魂灵]
-		[c/A2D6FF:水之魂灵可以用方向键控制，能够穿过物块]
-		[c/A2D6FF:在这一形态下无视大多数伤害，但不能使用物品]
-		[c/A2D6FF:此效果持续{2}秒并有{3}秒冷却]
+		+60 maximum stealth
+		+1.5 HP/s life regen and 10% increased rogue damage while submerged in liquid
 		'''
 }
 
-VictideHeadSnail: {
-	DisplayName: 胜潮面罩
-	Tooltip:
-		'''
-		{$CommonItemTooltip.IncreasesFishingPowerBy}
-		{$Common.AggroReduction}
-		'''
+VictideHeadSummon: {
+	DisplayName: Victide Mask
+	Tooltip: 10% increased summon damage
 	SetBonus:
 		'''
-		提升物品拾取范围
-		[c/{0}:钓鱼助手 - 召唤一只海蜗牛在你附近钓鱼]
-		[c/A2D6FF:当你站定钓鱼时，海蜗牛自动抛竿收杆]
-		[c/A2D6FF:海蜗牛继承玩家的钓鱼能力和属性]
+		+1 max minion
+		Summons a sea snail to protect you
+		+1.5 HP/s life regen and 10% increased summon damage while submerged in liquid
 		'''
 }
 

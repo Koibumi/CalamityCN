@@ -1,0 +1,96 @@
+﻿{
+    "Revision": 1,
+    "DefaultColor": "6383FF",
+    "DefaultSpeaker": "DevourerOfGods",
+    "AlignType": 1,
+    "TextDelay": 3,
+    "InPunctuationDelay": 1,
+    "BasePunctuationDelay": {
+        "Delay": 1,
+        "ForceSet": false,
+        "Locks": false
+    },
+    "PunctuationDelayCap": 30,
+    "PunctuationDelays": {
+        "!": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        },
+        "?": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        }
+    },
+    "Pages": [
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):跪地求饶吧，小虫子！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):看你还能撑多久......]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):这就累了？]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):他们会倒下，你也会！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):放弃吧！对你我都好！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):让我来终结你吧！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):越来越离谱了......！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):你怎么搞的？！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):你想耍我吗？！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):怎么不[Shaking(1):去][Shaking:死？！]]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):倒下！]]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):滚开！]]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking(5):[Scale(2):[Colors(0.1, 1, 00FFFF, FF00FF):死！！]]]"
+            ]
+        }
+    ]
+}

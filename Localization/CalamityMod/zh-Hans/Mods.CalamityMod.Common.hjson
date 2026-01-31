@@ -13,9 +13,9 @@ DoubleTapDown: 双击{0}
 AggroBoost: 敌人更有可能以你为目标
 AggroReduction: 敌人不太可能以你为目标
 KnockbackImmunity: 对击退免疫
-AbyssLightLevel1: 在深渊中提供少量光照
-AbyssLightLevel2: 在深渊中提供适量光照
-AbyssLightLevel3: 在深渊中提供大量光照
+AbyssLightLevel1: Reduces the darkness intensity of the abyss
+AbyssFlashlight: Increases flashlight width in the abyss
+AbyssGlow: Increases visibily range in the abyss
 AbyssBreathLevel1: 略微缓解深渊造成的呼吸困难
 AbyssBreathLevel2: 适当缓解深渊造成的呼吸困难
 AbyssBreathLevel3: 大大缓解深渊造成的呼吸困难

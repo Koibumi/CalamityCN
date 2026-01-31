@@ -179,7 +179,7 @@ Cnidarian: {
 	Tooltip:
 		'''
 		Fishes up an electric jellyfish
-		Periodically sends out sparks to electrocute nearby enemies.
+		Periodically sends out sparks to electrocute nearby enemies
 		[c/5C95A1:'From looking at their less sapient brethren, the Old Kingdom's inhabitants adapted tools and weapons designed for underwater efficiency.]
 		[c/5C95A1:The electric properties of ghost bells remain useful even after death, having been commonly used as conduits.']
 		'''
@@ -688,17 +688,6 @@ ScabRipper: {
 	Tooltip: Summons a baby blood crawler to protect you
 }
 
-SeashineHilt: {
-	DisplayName: Seashine Hilt
-	Tooltip:
-		'''
-		Summons a brilliant sea prism blade to slice your enemies
-		Blades will charge up while you hold this item
-		Pressing <right> will order all fully charged blades to swipe at your cursor
-		Each sword only consumes half a minion slot
-		'''
-}
-
 ShellfishStaff: {
 	DisplayName: Shellfish Staff
 	Tooltip:
@@ -715,8 +704,9 @@ Sirius: {
 		Summons the brightest star in the sky, Sirius, to protect you
 		Continue summoning to complete Canis Major
 		Repeated summons increase its power greatly, even after the constellation is complete
-		Sirius passively generates Starbursts when near enemies
-		When Starbursts are full, Sirius consumes them to launch a powerful piercing quasar
+		Sirius passively generates Starbursts when targeting enemies
+		When Starbursts are full, Sirius consumes them to launch a powerful piercing quasar that inflicts [cbuff:CalamityMod/Voidfrost]
+		'A guide to a dream never realized'
 		'''
 }
 

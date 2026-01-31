@@ -1,0 +1,49 @@
+{
+    "Revision": 1,
+    "DefaultColor": "6383FF",
+    "DefaultSpeaker": "DevourerOfGods",
+    "AlignType": 1,
+    "TextDelay": 6,
+    "InPunctuationDelay": 1,
+    "BasePunctuationDelay": {
+        "Delay": 2,
+        "ForceSet": false,
+        "Locks": false
+    },
+    "PunctuationDelayCap": 30,
+    "PunctuationDelays": {
+        "!": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        },
+        "?": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        }
+    },
+    "Pages": [
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):你不是神......]]",
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):但你的灵魂[Pause(0.2):仍]是我的盛宴！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):你确实比多数人强，但别太狂！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 2, 00FFFF, FF00FF):还没完呢，小子！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Colors(0.3, 3, FF00FF, 00FFFF):[Shaking(5):[Scale(1.6):神！]][Shaking:[Scale(1.6):[Pause(0.4): 不]]][Shaking:[Scale(1.6):惧]][Shaking(5):[Scale(1.8):死]][Shaking(5):[Scale(2):亡！]]]"
+            ]
+        }
+    ]
+}

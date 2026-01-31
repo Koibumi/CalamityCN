@@ -1,4 +1,4 @@
-﻿SmallWorldWarning: "[c/FF0000:SMALL WORLDS NOT SUPPORTED BY CALAMITY]"
+SmallWorldWarning: "[c/FF0000:SMALL WORLDS NOT SUPPORTED BY CALAMITY]"
 // Main Menu Name
 MainMenu: Calamity Style
 MainMenuClassic: Calamity Style - Classic
@@ -34,47 +34,52 @@ DifficultyClickText: "[c/919191:Click to select a difficulty mode]"
 ExpertDifficultyLock: "[c/919191:Higher difficulty modes can only be toggled in Expert Mode or above]"
 ChangingTheRules: "[c/919191:You cannot change the rules now!]"
 DifficultySwitch: Difficulty changed from [c/{0}:{1}] to [c/{2}:{3}].
-ClassicInfo: Your Adventure Begins... A far more relaxed Terraria experience
-ExpertShortInfo: "[c/FFBA75:Fortune & Glory, Kid. For those looking for a more difficult vanilla experience]"
+ClassicInfo: Your Adventure Begins... A relaxed, casual Terraria experience
+ExpertShortInfo: "[c/FF9900:Fortune & Glory, Kid. For those looking for a more difficult vanilla experience]"
 ExpertExpandedInfo:
 	'''
 	[c/A87A07:Most bosses gain new attacks and more difficult attack patterns]
 	[c/A87A07:Most enemies have twice as much health, deal twice as much damage and receive 10% less knockback]
 	[c/A87A07:Certain enemies have new attacks, can inflict new debuffs or have a higher chance of inflicting debuffs they already had]
-	[c/A87A07:Enemies drop more loot, as well as having higher chances]
+	[c/A87A07:Enemies drop more loot and have higher drop rates for their items]
+	[c/A87A07:Bosses have exclusive, signature "Expert drop" items]
 	[c/A87A07:Players drop more of their coins on death]
 	'''
-MasterShortInfo: "[c/1CFFAA:Game over man, game over! A tougher step up in stats from Expert Mode]"
+MasterShortInfo: "[c/FF2619:Game over man, game over! A tough step up in stats from Expert Mode]"
 MasterExpandedInfo:
 	'''
-	[c/029C6D:Most enemies have even more health and knockback resistance added on from Expert Mode]
-	[c/029C6D:Bosses have new exclusive vanity rewards]
-	[c/029C6D:Players drop ALL their coins on death]
-	[c/029C6D:Players gain an additional accessory slot at the start of the game]
+	[c/bd5e6e:Most enemies have even more health and knockback resistance than in Expert Mode]
+	[c/bd5e6e:All foes deal even more damage than in Expert Mode]
+	[c/bd5e6e:Bosses have new exclusive vanity rewards]
+	[c/bd5e6e:Players drop ALL their coins on death]
+	[c/bd5e6e:Players gain an additional accessory slot at the start of the game]
 	'''
+LegendaryShortInfo: "[c/32CD32:For those who are worthy... Even higher stats than Master Mode]"
+LegendaryExpandedInfo: "[c/0b870b:Enemies have further increased health and contact damage from Master Mode]"
 Revengeance: Revengeance
-RevengeanceShortInfo: "[c/F54254:The intended Calamity experience! Can only be enabled in Expert Mode!]"
+RevengeanceShortInfo: "[c/F54254:The intended Calamity experience. Can only be enabled in Expert Mode]"
 RevengeanceExpandedInfo:
 	'''
 	[c/B55362:Enables the] [c/85FFE9:Adrenaline] [c/B55362:mechanic. You gain Adrenaline while fighting bosses. Getting hit drops Adrenaline back to 0]
 	[c/B55362:    When Adrenaline is maxed, press] {1} [c/B55362:for a large damage boost]
 	[c/B55362:Enables the] [c/FF8B54:Rage] [c/B55362:mechanic. You gain Rage when in proximity of enemies or by using certain items]
 	[c/B55362:    When Rage is maxed, press] {0} [c/B55362:for a temporary damage boost]
-	[c/B55362:Most foes have higher stats and more aggressive AIs]
-	[c/B55362:Bosses have new AI mechanics, new phases, and will drop Master Mode loot. Enemies spawn more frequently]
-	[c/F7342A:This mode is more difficult than Expert. Be sure to prepare for the challenge]
+	[c/B55362:Many enemies have new, more aggressive behavior patterns. Enemies spawn more frequently]
+	[c/B55362:All bosses have new attacks and patterns. Some are completely changed]
+	[c/B55362:Bosses will drop both "Expert drop" items and Master Mode's vanity rewards]
 	'''
 Death: Death
-DeathShortInfo: "[c/E066F7:A far more difficult challenge than Revengeance Mode! Can only be enabled in Master Mode!]"
+DeathShortInfo: "[c/E066F7:A far greater challenge than Revengeance! Can only be enabled in Master Mode]"
 DeathExpandedInfo:
 	'''
-	[c/B834E0:All foes will pose a much larger threat with highly aggressive AIs]
-	[c/B834E0:Bosses have substantially harder AI changes. Enemies are even more numerous and can easily overwhelm you]
+	[c/B834E0:Most basic enemies pose a much larger threat with highly aggressive behavior]
+	[c/B834E0:Blood Moons spawn unending waves of foes which can quickly overwhelm you]
+	[c/B834E0:Bosses are substantially faster and much more difficult than in Revengeance Mode]
 	[c/B834E0:Debuffs are especially lethal and the Abyss is significantly more dangerous]
-	[c/E945FF:Vigilance and tenacity are crucial to survival]
 	'''
-// Legendary (FTW + Master) + Death Mode
 Malice: Malice
+MaliceShortInfo: "[c/f08080:For those who wish for suffering. Can only be enabled in Legendary Mode]"
+MaliceExpandedInfo: "[c/a34e4e:Enemies have Death Mode and For The Worthy behavior with Legendary Mode stats]"
 // Calamity Health Bar
 ExoTwinsNameNormal: XS-01 Artemis and XS-03 Apollo
 ExoTwinsNameHekate: Eyes of XB-∞ Hekate

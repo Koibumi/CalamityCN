@@ -1,5 +1,6 @@
 BabyCannonballJellyfish.DisplayName: 小炮弹水母
 Bloatfish.DisplayName: 肿胀翻车鱼
+BrainIllusion.DisplayName: Brain Illusion
 BobbitWormHead.DisplayName: 博比特虫
 BoxJellyfish.DisplayName: 灯水母
 Burrower.DisplayName: Burrower
@@ -11,7 +12,10 @@ TinySquid: 小乌贼
 Cuttlefish.DisplayName: 红乌贼
 DevilFish.DisplayName: 魔鬼鱼
 DevilFishAlt.DisplayName: 魔鬼鱼
+DraconicSwarmer.DisplayName: Draconic Swarmer
+Dragonfolly.DisplayName: Dragonfolly
 EidolonWyrmHead.DisplayName: 幻海妖龙
+FalseBrain.DisplayName: False Brain
 GiantSquid.DisplayName: 巨大乌贼
 GulperEelHead.DisplayName: 大嘴鳗
 Laserfish.DisplayName: 激光鱼
@@ -20,9 +24,11 @@ MirageJelly.DisplayName: 幻海水母
 MorayEel.DisplayName: 海鳝
 OarfishHead.DisplayName: 桨鱼
 ReaperShark.DisplayName: 猎魂鲨
+Shoreskipper.DisplayName: Shoreskipper
 SlabCrab.DisplayName: 石板蟹
 ToxicMinnow.DisplayName: 剧毒米诺鱼
 Viperfish.DisplayName: 蝰蛇鱼
+WildBumblebirb.DisplayName: Wild Bumblebirb
 AcidEel.DisplayName: 酸水鳗
 BabyFlakCrab.DisplayName: 小高口蟹
 BloodwormNormal.DisplayName: 血蠕虫
@@ -169,7 +175,7 @@ EbonianBlightSlime.DisplayName: 黑檀枯萎史莱姆
 Eidolist.DisplayName: 幻妖灵巫
 FearlessGoldfishWarrior.DisplayName: 无畏金鱼战士
 Frogfish.DisplayName: 躄鱼
-Horse.DisplayName: 大地元素
+EarthElementale.DisplayName: 大地元素
 IceClasper.DisplayName: 食魂冰虫
 ImpiousImmolator.DisplayName: 亵渎献祭者
 KingSlimeJewelRuby.DisplayName: 王冠红宝石
@@ -187,7 +193,6 @@ ScornEater.DisplayName: 吞食魔
 ShockstormShuttle.DisplayName: 风暴飞碟
 Shroomble.DisplayName: Shroomble
 Stormlion.DisplayName: 风暴蚁狮
-StormlionSentry.DisplayName: Stormlion Sentry
 Sunskater.DisplayName: 寻阳鱼
 SuperDummyNPC.DisplayName: 大草人
 WildBumblefuck.DisplayName: 癫狂龙裔
@@ -258,52 +263,18 @@ MicrobialCluster.DisplayName: 微生物群
 Sulflounder.DisplayName: 硫磺比目鱼
 Toxicatfish.DisplayName: 剧毒鲶鱼
 Trasher.DisplayName: 捣碎鳄
-AlphaSeaMinnow.DisplayName: Alpha Sea Minnow
-AlphaSeaMinnowGold.DisplayName: Gold Alpha Sea Minnow
-MinnowPrime: Minnow Prime
 BabyGhostBell.DisplayName: 小鬼铃水母
-CarrionSwallower.DisplayName: Carrion Swallower
+BlindedAngler.DisplayName: Blinded Angler
 Clam.DisplayName: 蛤
 EutrophicRay.DisplayName: 富养鳐鱼
-FesteringRemains.DisplayName: Festering Remains
 GhostBell.DisplayName: 鬼铃水母
 GiantClam.DisplayName: 巨像蛤
 Clamitas: 灾蛤之影
 SupremeClamitas: 至尊巨蛤，蛤拉米塔斯
-GildedAxolotl.DisplayName: Gilded Axolotl
-GoldBabyGhostBell: Gold Baby Ghost Bell
-GoldPolypPanasea: Gold Polyp Panasea
-GoldPrismaticGuppy: Gold Prismatic Guppy
-HauntedChum.DisplayName: Haunted Chum
-Jellyghoul.DisplayName: Jellyghoul
-KelpieSeadragon.DisplayName: Kelpie Seadragon
-LazarusLampfish.DisplayName: Lazarus Lampfish
-Leerslug.DisplayName: Leerslug
-LostShoal.DisplayName: Lost Shoal
-PearlpodBlack.DisplayName: Pearlpod
-PearlpodPink.DisplayName: Pearlpod
-PearlpodWhite.DisplayName: Pearlpod
-PodobooKoi.DisplayName: Podoboo Koi
-PolypPanasea.DisplayName: Polyp Panasea
-Polyperil.DisplayName: Polyperil
 PrismBack.DisplayName: 棱晶背龟
-Probesnout.DisplayName: Probesnout
-ProbesnoutGold.DisplayName: Gold Probesnout
-PrismaticGuppy.DisplayName: Prismatic Guppy
-RadiantBabyGhostBell: Radiant Baby Ghost Bell
-RadiantPolypPanasea: Radiant Polyp Panasea
-RadiantPrismaticGuppy: Radiant Prismatic Guppy
-RadiantSlugbun: Radiant Slugbun
-SandProwler.DisplayName: Sand Prowler
-SandProwlerNested.DisplayName: Sand Prowler
-Scavenger.DisplayName: Scavenger
 SeaFloaty.DisplayName: 海蜉蝣
 SeaMinnow.DisplayName: 海洋米诺鱼
-SeaMinnowGold.DisplayName: Gold Sea Minnow
-Searslug.DisplayName: Searslug
-Sharkoon.DisplayName: Sharkoon
-Slugbun.DisplayName: Slugbun
-Steampod.DisplayName: Steampod
+SeaSerpent1.DisplayName: Sea Serpent
 BrimstoneHeart.DisplayName: 硫磺火心
 SepulcherHead.DisplayName: 灾坟魔物
 SoulSeekerSupreme.DisplayName: 至尊探魂者
@@ -560,10 +531,3 @@ SeaKing: {
 		Princess_LovesNPC: 当我在{NPCName}附近的时候，他总是报以微笑，为此我喜欢待在他身边！
 	}
 }
-
-WildBumblebirb.DisplayName: Wild Bumblebirb
-DraconicSwarmer.DisplayName: 癫狂龙裔
-Dragonfolly.DisplayName: 痴愚金龙
-Shoreskipper.DisplayName: Shoreskipper
-BrainIllusion.DisplayName: Brain Illusion
-FalseBrain.DisplayName: False Brain

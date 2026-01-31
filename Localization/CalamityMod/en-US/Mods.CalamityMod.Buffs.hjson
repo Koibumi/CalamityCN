@@ -224,7 +224,11 @@ Laceration: {
 ManaBurn: {
 	DisplayName: Mana Burn
 	Description: The excess of mana sears your body and mind
-	ItemTooltip: ""
+	ItemTooltip:
+		'''
+		Typeless
+		Every 100 negative mana reduces your life regen by 4 HP/s, but burns enemies for 3% of dealt damage
+		'''
 }
 
 MiracleBlight: {
@@ -314,7 +318,7 @@ VermillionFlux: {
 Voidfrost: {
 	DisplayName: Voidfrost
 	Description: The emptiness of space devours all warmth and life
-	ItemTooltip: Cold - 100 DPS
+	ItemTooltip: Cold - 200 DPS
 }
 
 VulnerabilityHex: {
@@ -813,11 +817,6 @@ Encased: {
 	Description: Increased defense by {0} and damage reduction by {1}%, but...
 }
 
-FortunesFavor: {
-	DisplayName: Fortune's Favor
-	Description: How bold. Life regen increased by {0} HP/s
-}
-
 GraxBoost: {
 	DisplayName: Grax Boost
 	Description: Your defenses and muscles are strong
@@ -830,7 +829,7 @@ GreenJellyRegen: {
 
 HallowedRuneDefense: {
 	DisplayName: Hallowed Defense
-	Description: Increased defense by {0} and damage reduction by {1}%
+	Description: Increased defense by {0}
 }
 
 HallowedRunePower: {
@@ -873,7 +872,7 @@ PhantomicShield: {
 	DisplayName: Phantomic Shield
 	Description:
 		'''
-		Defense increased by {0} and damage reduction increased by {1}%
+		Increased defense by {0}
 		An ephemeral bulwark protects you
 		'''
 }
@@ -1200,6 +1199,11 @@ BrittleStar: {
 	Description: The brittle star will protect you
 }
 
+BurrowerBuff: {
+	DisplayName: Burrower
+	Description: A friendly burrower answered your call
+}
+
 CalamarisLamentBuff: {
 	DisplayName: Calamari
 	Description: Time to transport all of your foes to stupid squid jail!
@@ -1519,11 +1523,6 @@ SandElemental: {
 SarosPossessionBuff: {
 	DisplayName: Saros Possession
 	Description: A radiant aura protects you
-}
-
-SeashineSwordBuff: {
-	DisplayName: Seashine Sword
-	Description: A beautiful dance of crystalline blades...
 }
 
 SeaSnailBuff: {

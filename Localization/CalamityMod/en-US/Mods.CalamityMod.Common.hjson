@@ -13,9 +13,9 @@ DoubleTapDown: Double tap {0}
 AggroBoost: Enemies are more likely to target you
 AggroReduction: Enemies are less likely to target you
 KnockbackImmunity: Grants immunity to knockback
-AbyssLightLevel1: Provides a small amount of light in the abyss
-AbyssLightLevel2: Provides a moderate amount of light in the abyss
-AbyssLightLevel3: Provides a large amount of light in the abyss
+AbyssLightLevel: Reduces the darkness intensity of the abyss
+AbyssFlashlight: Increases flashlight width in the abyss
+AbyssGlow: Increases visibily range in the abyss
 AbyssBreathLevel1: Slightly reduces breath loss in the abyss
 AbyssBreathLevel2: Moderately reduces breath loss in the abyss
 AbyssBreathLevel3: Greatly reduces breath loss in the abyss

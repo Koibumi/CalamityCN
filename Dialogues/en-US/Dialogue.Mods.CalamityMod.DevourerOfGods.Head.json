@@ -1,0 +1,95 @@
+{
+    "Revision": 1,
+    "DefaultColor": "6383FF",
+    "DefaultSpeaker": "DevourerOfGods",
+    "AlignType": 1,
+    "TextDelay": 2,
+    "BasePunctuationDelay": {
+        "Delay": 10,
+        "ForceSet": false,
+        "Locks": false
+    },
+    "PunctuationDelayCap": 30,
+    "PunctuationDelays": {
+        "!": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        },
+        "?": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        }
+    },
+    "Pages": [
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Fall to your knees, worm!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Let's see how much longer you'll last...]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Getting tired yet?]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):You'll fall, just like the others!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Give up! It'll be easier for both of us!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Let me end you already!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):This is starting to get ridiculous...!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):How are you doing this?!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Are you playing me for a fool?!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):Why won't you [Shaking:DIE?!]]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):FALL!]]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):BEGONE!]]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):DIE!]]]"
+            ]
+        }
+    ]
+}

@@ -46,10 +46,8 @@ OnyxExcavatorKey: {
 	Tooltip:
 		'''
 		Summons a rideable Onyx Drill mount
-		<left> to mine blocks in front of you so you can destroy all the neat world generation
-		with complete disregard for all the creatures that inhabit these lands
-		I am sure the EPA and PETA would like to have a word with you afterwards
-		The power of the destruction scales with the highest powered pickaxe in your inventory
+		Hold <left> to drill blocks while moving either horizontally or downwards
+		The drill's pickaxe power and mining speed copy the best pickaxe in your inventory
 		'''
 }
 

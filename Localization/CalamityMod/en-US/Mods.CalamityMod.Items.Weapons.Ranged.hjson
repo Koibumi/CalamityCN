@@ -75,6 +75,11 @@ Arbalest: {
 		'''
 }
 
+AquashardShotgun: {
+	DisplayName: Aquashard Shotgun
+	Tooltip: Converts musket balls into aquashards that split upon hitting an enemy
+}
+
 Archerfish: {
 	DisplayName: Archerfish
 	Tooltip:
@@ -538,8 +543,8 @@ HalleysInferno: {
 	Tooltip:
 		'''
 		Fires a burst of intensely concentrated lunar fire jets
-		Generates Starbursts over time when hitting enemies
-		<right> to rapid-fire Starbursts
+		<right> to rapid-fire Starbursts that inflict [cbuff:CalamityMod/Voidfrost]
+		Generates Starbursts when hitting enemies, depending on your accuracy
 		Uses gel for ammo
 		'Halley arrived sooner than expected'
 		'''
@@ -965,7 +970,7 @@ PristineFury: {
 		'''
 		'I and many others lost everything in this world's darkest hour.
 		I saw a beast descend from the heavens. A hulking cosmic monstrosity that heralded countless angels of death.
-		My family was torn from me by them, and my people forsake me. Even our supposed protectors did nothing to aid us.
+		My family was torn from me, my people forsake me. Even our supposed protectors did nothing to aid us.
 		And thus I swore to those I lost that I would do what is right, that my blaze's light would dwarf even that of Zeratros' Sun;
 		That one day, this cruel world would know nothing less than My perfect fury.'
 		'''
@@ -1095,18 +1100,6 @@ Shadethrower: {
 		'''
 }
 
-Shardshocker: {
-	DisplayName: Shardshocker
-	Tooltip:
-		'''
-		Fires an electrically charged crystal that travels a short distance before stopping
-		The crystal will hang in the air and occasionally give off damaging pulses of electricity
-		Hitting a stopped crystal with a moving one will detonate both in a massive explosion that lets off homing shards
-		Direct hits with the crystal will create a smaller explosion and stun enemies
-		'Plasmaaaaaa!'
-		'''
-}
-
 Shellshooter: {
 	DisplayName: Shellshooter
 	Tooltip:
@@ -1129,6 +1122,16 @@ Shredder: {
 Shroomer: {
 	DisplayName: Shroomer
 	Tooltip: Fires bullets and an extremely powerful homing mushroom
+}
+
+SlagfireDouser: {
+	DisplayName: Slagfire Douser
+	Tooltip:
+		'''
+		Lobs armor-penetrating lava in bursts
+		Armor-penetrating lava ignores 10 points of enemy defense
+		[c/FF9900:Capable of dousing townsfolk in lava too...]
+		'''
 }
 
 SlagMagnum: {
@@ -1196,7 +1199,6 @@ Starfleet: {
 		'''
 		<left> fires a spread of starshots
 		<right> fires a concussive short range starburst
-		Holding down <right> disables the recoil damper
 		Starshots can be accelerated by firing when the starburst goes off
 		Perfect timing reduces spread and increases damage
 		Imperfect timing still increases damage, but heavily increases spread
@@ -1211,7 +1213,6 @@ Starmada: {
 		'''
 		<left> fires a spread of starshots
 		<right> fires a concussive short range starburst
-		Holding down <right> disables the recoil damper
 		Starshots can be accelerated by firing when the starburst goes off
 		Perfect timing reduces spread, increases damage, and adds a stacking weapon power buff
 		Imperfect timing still increases damage, but heavily increases spread and reduces weapon power
@@ -1327,15 +1328,6 @@ TelluricGlare: {
 TheBallista: {
 	DisplayName: The Ballista
 	Tooltip: Converts wooden arrows into greatarrows that crush enemy armor and break into shards
-}
-
-TheBlunderbass: {
-	DisplayName: The Blunderbass
-	Tooltip:
-		'''
-		Fires a large crystal that travels a short distance before bursting into homing shards
-		Direct hits with the crystal stun enemies and increase the amount of shards created
-		'''
 }
 
 TheHive: {

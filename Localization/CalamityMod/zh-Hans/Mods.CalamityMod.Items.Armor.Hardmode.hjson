@@ -166,6 +166,7 @@ FathomSwarmerVisage: {
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		提供水下呼吸与照明效果
+		极大提高深渊中的可见性
 		'''
 	SetBonus:
 		'''
@@ -445,7 +446,7 @@ ReaverHeadExplore: {
 		'''
 		发光并显示宝藏和矿石的位置
 		{$Common.AggroReduction}并获得水下呼吸能力
-		在深渊中时会提供适量以上效果
+		极大提高深渊中的可见性
 		增加{0}格物块放置及工具的范围
 		增加物品的拾取范围
 		'''

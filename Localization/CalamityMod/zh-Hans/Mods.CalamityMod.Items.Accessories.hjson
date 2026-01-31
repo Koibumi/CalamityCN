@@ -65,8 +65,8 @@ Affliction: {
 	Tooltip: 为所有队友增加{0}HP/s生命再生、{1}%最大生命值、{2}%伤害减免、{3}点防御和{4}%伤害
 }
 
-AlchemicalFlask: {
-	DisplayName: 冶金烧瓶
+AlchemicalDecanter: {
+	DisplayName: Alchemical Decanter
 	Tooltip:
 		'''
 		所有的攻击都会造成[cbuff:CalamityMod/Plague]并降低{0}%[cbuff:CalamityMod/Plague]造成的伤害
@@ -107,6 +107,11 @@ AmbrosialAmpoule: {
 		减半受到火系和疾病系减益的持续时间
 		饰品可见性开启时你会发出黄光
 		'''
+}
+
+AmidiasPendant: {
+	DisplayName: Amidias' Pendant
+	Tooltip: Periodically rains down prism shards that can briefly stun enemies
 }
 
 AncientFossil: {
@@ -180,7 +185,7 @@ AquaticHeart: {
 		'''
 		哇哦！你可以游泳了！
 		在水下时会增加{0}%最大速度和加速度
-		大幅度减缓氧气消耗速度并在深渊中提供少量光照
+		大幅度减缓氧气消耗速度并reduces the darkness intensity in the abyss
 		攻击者会被施加[cbuff:CalamityMod/GlacialState]
 		获得一个易碎的冰障，对一次攻击有{1}%伤害减免
 		冰障会在碎裂{2}秒后再生
@@ -299,7 +304,6 @@ BlazingCore: {
 		水晶破碎时，神圣之星会向外螺旋扩散且受到的伤害会被抵消
 		破碎后，此伤害减免效果将进入冷却
 		处于冷却期间时触发格挡会召唤额外的治愈之星，但受击伤害不会降低
-		{$Common.AbyssLightLevel2}
 		'''
 }
 
@@ -319,7 +323,7 @@ BloodPact: {
 		'''
 		增加25%最大生命值
 		对流血、血液沸腾和重度出血免疫
-		增加25%治疗药水的治疗量
+		增加33%治疗药水的治疗量
 		'''
 }
 
@@ -399,11 +403,10 @@ ChaosStone: {
 		'''
 		禁用魔力药水的自动消耗
 		魔力值不足时也可使用消耗魔力的物品
-		使用魔力会溢出为负魔力，使你获得魔力烧蚀
+		使用魔力会溢出为负魔力，使你获得并对敌怪施加[cbuff:CalamityMod/ManaBurn]
 		你的魔力值越低，魔力烧蚀越强烈
-		当你拥有魔力烧蚀时攻击会对敌怪施加魔力烧蚀
-		每50点负魔力会让魔力烧蚀附加1%的攻击伤害
 		负魔力上限为你的最大魔力值
+		当前最大魔力烧蚀强度为-[REGEN] HP/s，并对敌怪造成已造成伤害的[DAMAGE]%
 		'''
 }
 
@@ -430,14 +433,14 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		所有疾病系和水系减益的伤害乘以1.25
+		所有疾病系和水系减益的伤害增加25%
 		所有攻击都将辐射敌怪，降低硫磺海水的威胁性
 		受击时爆炸成辐射毒云
 		'''
 }
 
-CorruptFlask: {
-	DisplayName: 腐化药瓶
+UnholyTonic: {
+	DisplayName: Unholy Tonic
 	Tooltip:
 		'''
 		处于腐化之地时增加4%伤害减免和6点防御
@@ -449,7 +452,6 @@ CounterScarf: {
 	DisplayName: 反击围巾
 	Tooltip:
 		'''
-		增加10%真近战伤害
 		使你获得双击方向键冲刺能力，冲刺时受伤会闪避这次伤害
 		闪避效果有30秒冷却时间，期间你仍然可以进行冲刺
 		'''
@@ -464,8 +466,8 @@ CrawCarapace: {
 		'''
 }
 
-CrimsonFlask: {
-	DisplayName: 血腥药瓶
+ViciousTonic: {
+	DisplayName: Vicious Tonic
 	Tooltip:
 		'''
 		处于猩红之地时增加4%伤害减免和6点防御
@@ -486,7 +488,7 @@ CryoStone: {
 	DisplayName: 冰川石
 	Tooltip:
 		'''
-		所有冷系减益的伤害倍率乘以1.5
+		所有冷系减益的伤害增加50%
 		创造一个环绕着你的冰盾，冰盾会伤害并减速与其接触的敌人
 		“远古遗物之一”
 		'''
@@ -589,7 +591,7 @@ DiamondOfTheDeep: {
 	DisplayName: Diamond of the Deep
 	Tooltip:
 		'''
-		将所有水系减益的伤害提升至1.75倍
+		增加60%水系减益伤害
 		缓慢积攒至多3个不同的深渊灵魂
 		当冲刺时，灵魂四散
 		如果[c/CB7AD7:生命值低于50%]，灵魂会治疗你，否则会攻击附近的敌怪
@@ -757,9 +759,9 @@ EvasionScarf: {
 	DisplayName: 闪避围巾
 	Tooltip:
 		'''
-		增加15%真近战伤害
 		使你获得双击方向键冲刺能力，冲刺过程中受伤会闪避这次伤害
 		闪避效果有30秒冷却时间，期间你仍然可以正常冲刺
+		冲刺冷却比大多数冲刺都短
 		'''
 }
 
@@ -850,8 +852,7 @@ GiantPearl: {
 		'''
 		光明之环环绕身周
 		减速被光环笼罩的敌人
-		处于光环范围内的敌怪将受到追踪棱晶碎块的轰炸
-		{$Common.AbyssLightLevel1}
+		{$Common.AbyssGlow}
 		'''
 }
 
@@ -922,7 +923,7 @@ HallowedRune: {
 	HoldShiftTooltip:
 		'''
 		[c/8ce0ff:  神圣之力][c/ccf1ff:会增加10%召唤伤害并对敌怪降下落星]
-		[c/d08aff:  神圣之佑][c/eed4ff:会增加4点防御和4%伤害减免]
+		[c/d08aff:  神圣之佑][c/eed4ff:会增加5点防御]
 		[c/ff8cb5:  神圣之辉][c/ffccde:会获得+1.5HP/s生命再生]
 		'''
 }
@@ -978,12 +979,7 @@ HowlsHeart: {
 
 IlmerisSpark: {
 	DisplayName: 伊尔梅里斯电火花石
-	Tooltip:
-		'''
-		在水下时攻击会施加Static Discharge减益
-		受到伤害后使敌怪受到冲击
-		被冲击的敌怪会持续释放电火花
-		'''
+	Tooltip: Taking damage releases a blast of sparks
 }
 
 InfectedJewel: {
@@ -1117,7 +1113,7 @@ ManaPolarizer: {
 		增加50点最大魔力值
 		基于当前魔力值提供生命再生和魔法伤害
 		魔力值越低意味着生命再生更高，但魔法伤害更低
-		生命再生范围为-2~2HP/s，魔法伤害范围为5%~15%
+		生命再生范围为-2~2HP/s，魔法伤害范围为15%~5%
 		处于魔力疾病状态下提供的再生减半
 		在手持魔法武器时魔法弹幕能够汲取敌人生命
 		'''
@@ -1306,7 +1302,7 @@ PhantomicArtifact: {
 	HoldShiftTooltip:
 		'''
 		[c/8ce0ff:  幻魂之力][c/ccf1ff:会增加10%召唤伤害并向敌怪投掷幻魂之刃]
-		[c/d08aff:  幻魂坚盾][c/eed4ff:会增加10点防御和5%伤害减免，获得一个20%伤害减免的幻魂壁垒]
+		[c/d08aff:  幻魂坚盾][c/eed4ff:会增加10点防御并获得一个20%伤害减免的幻魂壁垒]
 		[c/ff8cb5:  幻魂还生][c/ffccde:会提供+1HP/s生命再生并偶尔掉落幻魂之心，接触时额外获得+1HP/s生命再生]
 		'''
 }
@@ -1577,7 +1573,7 @@ SeaSpiritAmulet: {
 		缓慢积攒跟随你的灵魂珠，至多8个
 		当冲刺时，灵魂四散
 		如果[c/CB7AD7:生命值低于50%]，灵魂会治疗你，否则会攻击附近的敌怪
-		所有水系减益的伤害乘以1.35
+		所有水系减益的伤害增加35%
 		如果关闭饰品可见性，灵魂珠会变得透明且安静
 		'''
 }
@@ -1631,12 +1627,8 @@ ShieldoftheOcean: {
 	DisplayName: 海之盾
 	Tooltip:
 		'''
-		按下 [KEY] 键将激活一次格挡，将你包裹在一个泡泡中
-		在包裹后短时间内被击中会使泡泡破裂，对该次攻击提供60%伤害减免
-		当泡泡破裂时，附近的敌怪会被弹开，与物块碰撞时还会受到伤害
-		无法被弹开的敌怪会直接受到大量伤害
-		泡泡破裂后，伤害减免效果会进入20秒冷却
-		冷却期间，被格挡的伤害不会被减免，弹开也不会使敌怪受到碰撞伤害
+		Increased defense by 5 when submerged in liquid
+		10% increased movement speed and +1 HP/s life regen while wearing Victide armor
 		'''
 }
 
@@ -1689,7 +1681,7 @@ SpiritGlyph: {
 	HoldShiftTooltip:
 		'''
 		[c/8ce0ff:  灵魂力量][c/ccf1ff:会增加10%召唤伤害]
-		[c/d08aff:  灵魂防御][c/eed4ff:会增加4点防御]
+		[c/d08aff:  灵魂防御][c/eed4ff:会增加3点防御]
 		[c/ff8cb5:  灵魂恢复][c/ffccde:会提供+1HP/s生命再生]
 		'''
 }
@@ -1828,10 +1820,10 @@ StatMeter: {
 	MiscStats: 仇恨值：{0} | 运气值：{1}%
 	AbyssStats:
 		'''
-		深渊光照强度：{0}
-		呼吸困难程度：{1}
-		呼吸条耗尽后生命流失速度：{2}
-		防御削减：{3}
+		Abyss Darkness: {0} | Player Glow: {1}x | Flashlight Width: {2}x
+		呼吸困难程度：{3}
+		呼吸条耗尽后生命流失速度：{4}
+		防御削减：{5}
 		'''
 	AbyssStatsHidden: 其他深渊状态数据只有身处深渊才会显示
 }
@@ -1882,8 +1874,7 @@ TheAmalgam: {
 	DisplayName: 聚合之脑
 	Tooltip:
 		'''
-		增加10%伤害
-		所有攻击都造成多种减益，并且将所有元素减益伤害提升至3倍
+		所有攻击都造成多种减益，并且将所有元素减益伤害提升200%
 		大部分增益持续时间翻倍并且死亡后也仍然存在
 		受到伤害后困惑附近敌怪并生成一只沼泽之眼
 		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
@@ -1912,7 +1903,7 @@ TheCamper: {
 		除非站定不动，否则降低50%造成的伤害
 		站定不动时基于手持的武器给予增益并在你周为生成伤害光环
 		移动时会像站定不动时再生生命
-		{$Common.AbyssLightLevel1}
+		站立不动时{$Common.AbyssGlow}
 		“只有休息好才能取得战斗的胜利”
 		'''
 }
@@ -1940,9 +1931,8 @@ TheEvolution: {
 	DisplayName: 进化者
 	Tooltip:
 		'''
-		反弹击中你的弹幕，抵消其伤害并对敌怪造成10倍伤害
-		{$Common.ReflectInformation}
-		反弹一道弹幕后，你会获得最高的自然生命再生，持续10秒
+		Allows you to dodge projectiles, reflecting highly damaging mirror shards back at enemies
+		{$Common.DodgeInformation}
 		冷却期间再次被相同弹幕击中时，此弹幕对你造成的伤害降低25%
 		'''
 }
@@ -1997,7 +1987,7 @@ ToxicHeart: {
 		'''
 		你的心脏与瘟疫一同脉动，向体外释放脉冲
 		脉冲频率与生命再生相关，且击杀敌怪的脉冲会再次释放脉冲并治疗你
-		所有疫病减益的伤害倍率乘以1.5
+		所有疫病减益的伤害倍率增加50%
 		如果关闭饰品可见性，饰品效果会变得透明且安静
 		'''
 }

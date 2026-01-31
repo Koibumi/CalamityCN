@@ -83,5 +83,6 @@ StratusSphere: {
 		Influenced players gain Starbursts over time, while enemies instead take damage
 		<right> to cause Starbursts to form a barrier, causing you to lose Starbursts instead of health
 		Launching the singularity deactivates the barrier, and creating a barrier deactivates the singularity
+		'Channeling souls into stars, an inane concept'
 		'''
 }

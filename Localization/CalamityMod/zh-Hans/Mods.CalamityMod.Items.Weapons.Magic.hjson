@@ -40,6 +40,8 @@ AlphaDraconis: {
 		成功击中后有时会产生可以被拾取的星芒
 		有足够星芒时<right>召唤天龙座来保护你
 		天龙座会随时间燃烧星芒，也可以通过<right>取消
+		天龙座会施加[cbuff:CalamityMod/Voidfrost]
+		“对疯狂的一种模仿”
 		'''
 }
 
@@ -1056,7 +1058,7 @@ Volterion: {
 
 Waywasher: {
 	DisplayName: 清道夫
-	Tooltip: 发射两道大型漩涡水波
+	Tooltip: 倾泻一阵不精准的水柱
 }
 
 Wingman: {

@@ -42,12 +42,7 @@ AirSpinner: {
 
 AmidiasTrident: {
 	DisplayName: 海王三叉戟
-	Tooltip:
-		'''
-		[c/CCE9FF:击中敌怪施加][c/28A3FF:Sea King's Assurance]，[c/CCE9FF:可以叠加八层]
-		右键点击会旋转三叉戟，然后刺向空中，消耗所有附近叠层的Sea King's Assurance
-		每叠加一层，右键攻击就会造成更多伤害
-		'''
+	Tooltip: Shoots homing whirlpools
 }
 
 AnarchyBlade: {
@@ -313,7 +308,8 @@ CrescentMoon: {
 		扔出一把月之连枷，在路径顶端释放追踪月亮
 		按住<left>会让连枷围着你旋转，生成星芒
 		拥有20星芒时，扔出连枷后再次按住<left>会使其爆炸
-		爆炸不会释放月亮，而是召唤天蝎座造成大量伤害
+		爆炸不会释放月亮，而是召唤天蝎座造成大量伤害，并造成[cbuff:CalamityMod/Voidfrost]
+		“源于天才的疯癫”
 		'''
 }
 
@@ -365,7 +361,7 @@ DevilsDevastation: {
 		'''
 		[c/d13ca2:完美的地狱之剑，直接掌握着硫磺火之力。]
 		[c/d13ca2:人类将这种力量理解为浩劫，即一切秩序在火焰之中的必然毁灭。]
-		[c/d13ca2:或许这就是硫磺火元素掌握着她的姐妹所不能匹敌之力量的原因。]	
+		[c/d13ca2:或许这就是硫磺火元素掌握着她的姐妹所不能匹敌之力量的原因。]
 		'''
 }
 
@@ -622,7 +618,7 @@ GalileoGladius: {
 	Tooltip:
 		'''
 		快速在玩家前方戳刺，命中时生成星芒
-		<right>用星链扔出短剑，刺穿敌人
+		<right>用星链扔出短剑，刺穿敌人并施加[cbuff:CalamityMod/Voidfrost]
 		当处于刺穿状态时，使用<left>或<right>释放短剑
 		<left>拉出短剑并造成高伤害，消耗10星芒
 		<right>将你自己拉向短剑，允许你跃上敌人
@@ -1079,7 +1075,7 @@ Riptide: {
 	Tooltip:
 		'''
 		{$Common.YoyoStats}
-		迅速迸发出激波，悠悠球命中次数越多，激波越大
+		Sprays a spiral of aqua streams
 		'''
 }
 
@@ -1115,6 +1111,11 @@ SausageMaker: {
 ScourgeoftheCosmos: {
 	DisplayName: 灾劫宙怨
 	Tooltip: 掷出一个宇宙灾虫，击中敌人和方块时反弹并释放出追踪的小宇宙灾虫
+}
+
+SeashineSword: {
+	DisplayName: Seashine Sword
+	Tooltip: Shoots an aqua sword beam
 }
 
 SeekingScorcher: {

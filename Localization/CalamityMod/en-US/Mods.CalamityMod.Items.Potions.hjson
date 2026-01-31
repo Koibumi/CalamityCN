@@ -93,7 +93,7 @@ HadalStew: {
 	Tooltip:
 		'''
 		Only gives [S] seconds of {$BuffName.PotionSickness}
-		{$CommonItemTooltip.MediumStats}
+		{$CommonItemTooltip.MajorStats}
 		{$CommonItemTooltip.MinuteDuration}
 		'''
 }
@@ -166,7 +166,6 @@ ZergPotion: {
 	Tooltip: Vastly increases enemy spawn rate
 }
 
-// Very normal Keg crafts
 BloodyMary: {
 	DisplayName: Bloody Mary
 	Tooltip:
@@ -242,7 +241,6 @@ GrapeBeer: {
 	Tooltip:
 		'''
 		Bullets, Arrows, Darts, and Rockets gain homing
-		If many are fired at the same time, this only applies to five of them
 		{0}% reduced critical strike damage
 		{$Common.AlcoholWarning}
 		'''
@@ -376,7 +374,7 @@ Vodka: {
 	Tooltip:
 		'''
 		{0}% increased Typeless debuff damage
-		{1}% decreased other debuff damage
+		{1}% decreased elemental debuff damage
 		{$Common.AlcoholWarning}
 		'''
 }

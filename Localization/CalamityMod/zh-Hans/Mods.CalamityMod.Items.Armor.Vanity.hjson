@@ -268,16 +268,6 @@ TheGrandGarment: {
 	Tooltip: Part of The High-Flying Finery
 }
 
-VictideCoralTurban: {
-	DisplayName: 胜潮瑚巾
-	Tooltip: ""
-}
-
-VictideShellmet: {
-	DisplayName: 胜潮贝盔
-	Tooltip: ""
-}
-
 YharonMask: {
 	DisplayName: 犽戎面具
 	Tooltip: ""

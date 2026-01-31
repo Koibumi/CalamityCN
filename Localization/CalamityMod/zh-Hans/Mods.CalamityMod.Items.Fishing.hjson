@@ -1,9 +1,9 @@
 // Quest fish tooltips
-CaughtInAstral: “抓捕位置：星辉瘟疫”
-CaughtInBrimstoneCrag: “抓捕位置：硫火之崖”
-CaughtInSnow: “抓捕位置：苔原”
-CaughtInSpace: “抓捕位置：天湖”
-CaughtInSunkenSea: “抓捕位置：沉沦之海”
+CaughtInAstral: 抓捕位置：星辉瘟疫
+CaughtInBrimstoneCrag: 抓捕位置：硫火之崖
+CaughtInSnow: 抓捕位置：苔原
+CaughtInSpace: 抓捕位置：天湖
+CaughtInSunkenSea: 抓捕位置：沉沦之海
 
 // Astral Infection Catches
 AldebaranAlewife: {
@@ -169,12 +169,18 @@ PrismCrate: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
+PrismaticGuppy: {
+	DisplayName: 棱晶孔雀鱼
+	Tooltip: Throwing these in an aquarium would be insanity
+}
+
 RustedJingleBell: {
 	DisplayName: 锈蚀铃铛
 	Tooltip:
 		'''
-		召唤一只小鬼铃水母宠物
+		召唤一只小鬼铃水母为你照亮前路
 		在水下提供适量光照
+		{$Common.AbyssLightLevel}
 		'''
 }
 
@@ -191,30 +197,10 @@ Serpentuna: {
 SparklingEmpress: {
 	DisplayName: 闪光皇后鱼
 	Tooltip: "[GFB]"
-	TooltipNormal:
+	Tooltip:
 		'''
-		发射一股不稳定魔法水流
-		发射一段时间后，鱼身会开始闪光
-		在闪光状态下停止使用将恢复少量魔力
-		“一条美丽的鱼，似乎以魔力为食”
-		'''
-	TooltipGFB:
-		'''
-		发射一股不稳定魔法水流
-		发射一段时间后，鱼身会开始闪光
-		在闪光状态下停止使用将恢复少量魔力
-		“你好啊，看来你是生面孔。
-		也许你很惊讶我这样一条鱼居然会说话？
-		别担心，我没有恶意。
-		这么好的天，我只是想找一顿纯粹魔力的美餐！
-		而你有很多很多魔力，对吧？
-		或许你会大发慈悲，为一条小鱼慷慨解囊？
-		如果你并非菩萨心肠，我还有一个折中之策。
-		很简单，你向我这条小鱼提供魔力。
-		而我会用我的鱼鱼魔法给你提供强大的攻击力。
-		能接受这个折中之策吗？
-		太好了！
-		那我们就去看看上面的世界吧，顺便让我享用一顿美餐！”
+		Fires a concentrated laser to annihilate your foes
+		Defeated enemies explode into prism shards
 		'''
 }
 

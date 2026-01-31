@@ -1,0 +1,55 @@
+﻿{
+    "Revision": 1,
+    "DefaultColor": "6383FF",
+    "DefaultSpeaker": "DevourerOfGods",
+    "AlignType": 1,
+    "TextDelay": 4,
+    "InPunctuationDelay": 1,
+    "BasePunctuationDelay": {
+        "Delay": 1,
+        "ForceSet": false,
+        "Locks": false
+    },
+    "PunctuationDelayCap": 30,
+    "PunctuationDelays": {
+        "!": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        },
+        "?": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        }
+    },
+    "Pages": [
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):食之[Pause(0.25):无]味。]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):美味......可堪与神媲美！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):死了就[Shaking:别想][Shaking(1):再起来！]]]"
+            ]
+        },
+        {
+            "TextDelay": 0,
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):孱弱不堪。]]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Colors(0.1, 1, 00FFFF, FF00FF):[Scale(1.7):可悲。][Scale(1.5):逃跑那么久，到头来[Shaking(1):不堪][Shaking:一击]？！]]"
+            ]
+        }
+    ]
+}

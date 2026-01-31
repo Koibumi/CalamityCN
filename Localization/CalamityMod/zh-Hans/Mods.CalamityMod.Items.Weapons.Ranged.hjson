@@ -75,6 +75,11 @@ Arbalest: {
 		'''
 }
 
+AquashardShotgun: {
+	DisplayName: Aquashard Shotgun
+	Tooltip: Converts musket balls into aquashards that split upon hitting an enemy
+}
+
 Archerfish: {
 	DisplayName: 射水鱼
 	Tooltip:
@@ -538,8 +543,8 @@ HalleysInferno: {
 	Tooltip:
 		'''
 		射出一连串高压月耀喷流
-		击中敌怪时随时间生成星芒
-		<right>快速发射星芒
+		<right>快速发射星芒并造成[cbuff:CalamityMod/Voidfrost]
+		击中敌怪时随攻击准度生成星芒
 		使用凝胶作为弹药
 		“哈雷彗星比想象中到得早”
 		'''
@@ -965,7 +970,7 @@ PristineFury: {
 		'''
 		“和很多人一样，我在世界的至暗之刻失去了一切。
 		我目睹一只巨兽自天堂而降。一只宇宙巨兽，紧随其后降临了无数告死天使。
-		我的家人被它们夺走，我的同族放弃了我。就连我们应允的守护者也未伸出援手。
+		我的家人被夺走，我的同族放弃了我。就连我们应允的守护者也未伸出援手。
 		因此我向我失去的所有人起誓，我之所作所为皆为正义，我的火焰将令泽拉托斯之阳黯然失色。
 		我起誓，终有一天，我的完美怒火将焚尽这残酷的世界。”
 		'''
@@ -1095,18 +1100,6 @@ Shadethrower: {
 		'''
 }
 
-Shardshocker: {
-	DisplayName: Shardshocker
-	Tooltip:
-		'''
-		发射一块电充能水晶，移动短距离后停止
-		水晶会停在空中并定期释放伤害性电能脉冲
-		用移动的水晶命中静止的水晶会引爆二者，产生大爆炸并释放追踪碎片
-		水晶直接命中会产生较小的爆炸并晕眩敌怪
-		'Plasmaaaaaa!'
-		'''
-}
-
 Shellshooter: {
 	DisplayName: 螺壳重弓
 	Tooltip:
@@ -1129,6 +1122,16 @@ Shredder: {
 Shroomer: {
 	DisplayName: 蘑菇狙击枪
 	Tooltip: 发射子弹以及强大的追踪蘑菇
+}
+
+SlagfireDouser: {
+	DisplayName: Slagfire Douser
+	Tooltip:
+		'''
+		Lobs armor-penetrating lava in bursts
+		Armor-penetrating lava ignores 10 points of enemy defense
+		[c/FF9900:Capable of dousing townsfolk in lava too...]
+		'''
 }
 
 SlagMagnum: {
@@ -1196,7 +1199,6 @@ Starfleet: {
 		'''
 		<left>散射一阵星弹
 		<right>发射震荡性短程星爆
-		按住<right>禁用反冲减震器
 		星爆产生时发射星弹可以将星弹加速
 		完美时机会降低散射程度并增加伤害
 		非完美时机仍会增加伤害，但大幅增加散射程度
@@ -1211,7 +1213,6 @@ Starmada: {
 		'''
 		<left>散射一阵星弹
 		<right>发射震荡性短程星爆
-		按住<right>禁用反冲减震器
 		星爆产生时发射星弹可以将星弹加速
 		完美时机会降低散射程度，增加伤害并获得一层可叠加的武器威力增益
 		非完美时机仍会增加伤害，但大幅增加散射程度并降低武器威力
@@ -1327,15 +1328,6 @@ TelluricGlare: {
 TheBallista: {
 	DisplayName: 破城巨弓
 	Tooltip: 将木箭转化为能击碎敌人的护甲并且会碎裂为化石碎片的破城巨箭
-}
-
-TheBlunderbass: {
-	DisplayName: The Blunderbass
-	Tooltip:
-		'''
-		发射一块大型水晶，移动短距离后炸成追踪碎片
-		水晶直接命中会晕眩敌怪并增加产生的碎片数量
-		'''
 }
 
 TheHive: {

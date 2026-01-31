@@ -1,0 +1,38 @@
+﻿{
+    "Revision": 1,
+    "DefaultColor": "6383FF",
+    "DefaultSpeaker": "DevourerOfGods",
+    "AlignType": 1,
+    "TextDelay": 6,
+    "InPunctuationDelay": 1,
+    "BasePunctuationDelay": {
+        "Delay": 2,
+        "ForceSet": false,
+        "Locks": false
+    },
+    "PunctuationDelayCap": 30,
+    "PunctuationDelays": {
+        "!": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        },
+        "?": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        }
+    },
+    "Pages": [
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):你没法一直躲下去！]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Shaking:[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):怎么了？！跑不动了吗？！]]]"
+            ]
+        }
+    ]
+}

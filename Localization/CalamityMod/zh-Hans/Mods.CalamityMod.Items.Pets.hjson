@@ -26,6 +26,15 @@ BrimstoneJewel: {
 		'''
 }
 
+BurrowerController: {
+	DisplayName: Burrower Beacon
+	Tooltip:
+		'''
+		Requests a friendly burrower to follow you around and illuminate ores
+		Counts as a light pet
+		'''
+}
+
 CharredRelic: {
 	DisplayName: 焦灼残偶
 	Tooltip: 包含一些硫磺火石
@@ -36,7 +45,6 @@ ChromaticOrb: {
 	Tooltip:
 		'''
 		召唤古老的龙光宠物，可以显示敌人和危险源
-		{$Common.AbyssLightLevel1}
 		“它在你的手上散发温暖的光芒”
 		'''
 }
@@ -56,7 +64,6 @@ EnchantedButterfly: {
 	Tooltip:
 		'''
 		召唤一只神秘的发光蜻蜓宠物
-		{$Common.AbyssLightLevel1}
 		“给它投喂蝴蝶，让它茁壮成长！”
 		'''
 }
@@ -80,7 +87,6 @@ FrostyBatBottle: {
 	Tooltip:
 		'''
 		召唤一只寒霜蝙蝠点亮你的道路，当你冲刺时它会飞向光标
-		{$Common.AbyssLightLevel1}
 		[c/6ECAC3:“全世界的蝙蝠都准备好吱吱叫了！”]
 		'''
 }
@@ -116,7 +122,7 @@ LittleLight: {
 	Tooltip:
 		'''
 		召唤一个小型构造体跟着你，并提供大量光照
-		{$Common.AbyssLightLevel3}
+		{$Common.AbyssLightLevel}
 		“它已经找你很长时间了”
 		'''
 }
@@ -146,7 +152,6 @@ RadiatingCrystal: {
 	Tooltip:
 		'''
 		召唤发光的辐射海参宠物
-		{$Common.AbyssLightLevel1}
 		“这块水晶含有痕量的海参毒素”
 		'''
 }
@@ -167,6 +172,7 @@ StrangeOrb: {
 		'''
 		召唤一个迷你海洋之灵照明宠物
 		在深渊中提供大量光照
+		{$Common.AbyssLightLevel}
 		'''
 }
 
@@ -194,7 +200,6 @@ ThiefsDime: {
 	Tooltip:
 		'''
 		召唤金制硬币收集附近的钱币并照亮你的道路
-		{$Common.AbyssLightLevel1}
 		“曾经一文不值的财宝，现在是见证窃贼之间的友情的遗物”
 		'''
 }
@@ -204,7 +209,6 @@ ToastyBatBottle: {
 	Tooltip:
 		'''
 		召唤一只炽焰蝙蝠，留下一道发光余烬轨迹以点亮你的道路
-		{$Common.AbyssLightLevel1}
 		[c/CF6454:“保证不会把你撞下地狱平台”]
 		'''
 }

@@ -19,7 +19,7 @@ AddedTooltip: {
 	ArcaneFlower: 增加5%魔法伤害
 	HellfireTreads:
 		'''
-		所有火焰类减益伤害乘以1.5，该效果不会与其下位合成材料叠加
+		所有热能减益伤害增加50%，该效果不会与其下位合成材料叠加
 		所有攻击造成狱炎减益
 		'''
 	FairyBoots:
@@ -200,7 +200,7 @@ EditedTooltip: {
 		'''
 	FlameWakerBoots:
 		'''
-		所有火焰类减益伤害乘以1.25
+		所有热能减益伤害增加25%
 		所有攻击造成着火了！减益
 		“再也不会如履薄冰了”
 		'''
@@ -340,8 +340,6 @@ MerchantChat: {
 	AcidRain: 如果这场酸雨持续下去，很快就会出现土块短缺的情况！
 	Bandit: 我现在拥有好几个天使雕像，那可真是稀世珍品啊！你要来一个吗？
 }
-
-NurseChat.HealNotAllowed: 现在不是治疗的时候！
 
 PainterChat: {
 	Corruption: 一点点的不舒服无法阻止我身为画家的工作！

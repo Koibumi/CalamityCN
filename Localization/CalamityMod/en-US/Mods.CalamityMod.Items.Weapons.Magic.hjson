@@ -40,6 +40,8 @@ AlphaDraconis: {
 		Successful hits sometimes create Starbursts that can be picked up
 		<right> with enough Starbursts to summon Draco to protect you
 		Draco burns Starbursts over time, and can be disspelled with <right>
+		Draco inflicts [cbuff:CalamityMod/Voidfrost]
+		'An imitation of insanity'
 		'''
 }
 
@@ -1056,7 +1058,7 @@ Volterion: {
 
 Waywasher: {
 	DisplayName: Waywasher
-	Tooltip: Casts two large swirling waves
+	Tooltip: Casts a deluge of inaccurate water bolts
 }
 
 Wingman: {

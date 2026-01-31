@@ -1,6 +1,6 @@
 // Put their internal name here
 NPCName: {
-	Guide: 当接下掌管血肉墙的大任之后，向导在恶魔的传说里就成了神一般的人物。然而，这位曾经的术士学徒如今却在品味平凡的生活，并以其尖锐的洞见为冒险者提供指导。
+	Guide: 当接下掌管血肉墙的大任之后，向导在恶魔的传说里就成了神一般的人物。然而，这位曾经的术士学徒如今却在品味平凡的生活，为大家提供有用的建议和合成配方。
 	Dryad: 树妖是席尔瓦所开创的生命魔法的践行者。她与大自然紧密相连，可以分析世界各地的自然纯洁度。她还售卖种子！
 	Mechanic: 机械师因试图探听她不该知道的消息而被监禁。她出售可以组装任何东西的电线和工具。
 	EmpressButterfly: 这些女皇的使魔会从周围的环境汲取力量并传递给它们的主人。它们酷似女皇已逝的爱人，如果其中一只在混乱的夜晚死去，她将以最最猛烈的暴怒回敬凶手。
@@ -56,13 +56,12 @@ NPCName: {
 	RaggedCaster: "{$CommonEntries.RaggedCaster}"
 	RaggedCasterOpenCoat: "{$CommonEntries.RaggedCaster}"
 	DungeonGuardian: The Old Man is cursed to never leave nor enter the Dungeon, much less die. Whoever crosses paths with him and dares to descend into those halls shall not pass!
-	BoneSerpentHead: Mighty serpentine beasts ruled hell since before history, later led by the exiled Flame Dragon. For said alliance, their obsidian scales were turned to Ash shortly after his demise. Now their skeletal husks remain, forced to protect the demonic territory using stolen Azafurian spells.
+	BoneSerpentHead: Mighty serpentine beasts ruled hell since before history, but after the demise of their liege, godly wrath had their obsidian scales immolated. Now only their skeletal husks remain, forced by stolen spells to protect demonic territory.
 	Demon: Despite being a primitive civilization, demons populate most of the underworld. Unlike their lesser brothers, they cast shadow magic rather than hell magic.
-	VoodooDemon: Demons have several religious practices, specially sacrifices. They worship the Wall of Flesh ever since it started roaming the underworld, using offerings to draw it closer.
-	RedDevil: Conjuring potent spears of dark magic, these elite demons look after the adventurer that destroyed their perceived deity.
+	VoodooDemon: Demons have several religious practices, especially sacrifices. They worship the Wall of Flesh ever since it started roaming the underworld, using offerings to draw it closer.
+	RedDevil: Conjuring potent spears of dark magic, these elite demons hunt after the adventurer that destroyed their perceived deity.
 	WyvernHead: Deeply in tune with the magic of the world, these serpentine dragons guard the skyward ruins of Chrysadia on behalf of the Storm Dragon. Now, their duty calls louder as divine essence surges through the land.
-	Harpy: Winged, demi-human creatures from distant southward mountains who came to inhabit Chrysadia after its tragic downfall. They defend their new territory fiercely against invaders with their razor-sharp feathers.
-	Scutlix: One of the few creatures left in the Martian homeworld, these creatures function similarly to horses. That is, if horses could fire lasers from their eyes.
+	Harpy: Winged, demi-human creatures from distant southward mountains who came to inhabit the sky archipelago after the ruin of its old civilization. They defend their new territory fiercely against invaders with their razor-sharp feathers.
 	MartianProbe: Sensing growing power on the planet, otherworldly beings send space-age technology to scan for valuable resources.
 	SeekerHead: Godly magicks have unleashed the dark influences that gave birth to the Eater of Worlds, producing smaller, but just as deadly worms.
 	DesertDjinn: Buried in these caves lie cryptic artifacts older than Ilmeris, their origins swept away by the sands of time. Corrupted by divine magicks, the once friendly djinns within them now reemerge, full of hostility.
@@ -73,7 +72,7 @@ NPCName: {
 	PirateCaptain: A pirate captain's love for riches is only rivaled by his desire to explore! Word that the Crusade had seemingly ended spread fast across the world, and abundances to plunder in this continent attracted this sea dweller and his motley crew.
 	MartianSaucerCore: Following the destruction of their planet by otherworldly creatures, the Martians' military evolved at an unprecedented rate. They were prepared to fight back any future threats, and also pillage any other worlds they could find.
 	TorchGod: An unknown entity responsible for a torch's eternal flicker, however easily angered by the unsightly, ungrateful abuse of torch placement.
-	EyeofCthulhu: A gargantuan monster of unknown origins, responsible for plaguing the night with Demon Eyes. It was given the title of "Cthulhu", which means "Great Beast" in the language of dragons.
+	EyeofCthulhu: A gargantuan monster of unknown origins, responsible for plaguing the night with Demon Eyes. Beasts of such caliber are often given the title of "Cthulhu", a word that meant "great beast" in the language of dragons.
 	BrainofCthulhu: The death of a god often birthed great monsters due to the volatile nature of godly essence. The culling of such abominations used to be cause for songs and festivities, but now, they only give birth to disappointments.
 	SkeletronHead: A demonic construct that bursts out of the Old Man when necessary and the most dangerous part of the curse laid by the Dragon Cult. They hoped to stop all intruders with it, but one was too cunning even for them.
 	WallofFlesh: Originally created by Azafurian mages as a gambit to seal away godly essence, the towering wall broke free after the city's destruction. Its existence was problematic, but its demise has ushered even greater instability upon the world.
@@ -82,7 +81,7 @@ NPCName: {
 	Spazmatism: A pair of mechanical eyes built by Draedon for reconnaissance and assassination, Spazmatism chases at high speed, exhaling cursed flames.
 	TheDestroyer: Despite being made with repurposed mining equipment, the Destroyer was built for fighting other deities in single combat, decorated in laser-armed probes, which detach from its body when damaged.
 	SkeletronPrime: Built with the express purpose of inciting fear into the hearts of any god worshiper, this machine has more arms than ever before, and a variety of fierce weapons.
-	Plantera: A creation of the Vernal Pass meant to replace Braelor in his absence. They harnessed dead animal souls to give it life, but the span of such magic was far larger than anticipated. It didn't take long for the Plantera to grow out of control and slaughter its masters.
+	Plantera: A dormant, yet powerful floral guardian grown by the elders of the Vernal Pass, using volatile animal souls as nourishment. Unshackled in a fit of herbage carnage, its reach now spans the entire jungle.
 	HallowBoss: Despite their parentage, children of gods do not inherit a shred of their power. The Empress chose to claim power for herself by siphoning it from other places and beings. She found a perfect candidate in the Hallow due to its unstable nature, and is now transformed into a mighty fae.
 	Golem: A remarkable display of ingenuity constructed by the Lihzahrd race. Seeking light after they hid away in their temple out of shame for driving their goddess away, they built this construct. Powered by solar energy cells, it is ready to guard the Temple.
 	DukeFishron: An aquatic-evolved species which lives in isolation in the depths of the ocean. Despite their shortcomings, they still share blood with the dragons of old, claiming near complete dominion over the oceans. Legends claim it only surfaces in search of a rare, savory type of worm.
@@ -100,7 +99,7 @@ CommonEntries: {
 	SandShark: Sand Sharks lived in the shallow waters of Ilmeris, hiding beneath the sand. They were thankfully well equipped to deal with the fallout of the Incineration.
 	AngryBones: Cursed with undeath, the former prisoners of the Dungeon roam endlessly through its halls, seeking a victim for their unending fury.
 	BlueArmoredBones: Mercenaries hired by Yharim to guard the Dungeon, the Marching Blues were disciplined and relentless, sundering any escapees that decided to rise against their jailors.
-	HellArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Azafure, the fiery glow of the Molten Legion is unmistakable. If anyone ever tried to hide, their red-hot armaments would melt the hideout immediately.
+	HellArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Azafure, the fiery glow of the Molten Legion is unmistakable. When the halls of the Dungeon lit up, every prisoner knew hell would be let loose.
 	RustyArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Underground factions, the Rusted Company's weapons are jagged and rough through use and neglect. The brutality they employed on the field was enough to make many prisoners give up on freedom.
 	Diabolist: Mages of Azafure who bear the Diabolic Sigil, a certificate of their prowess, wielding flames as intense as any in the underworld. They were effective at blocking passageways and at making prisoners talk.
 	Necromancer: These sorcerers were trained in Azafure and bore the Necromantic Sign, a certificate of their prowess. Much like they terrorized prisoners with the bodies of their friends, so do they terrorize the Dungeon now.

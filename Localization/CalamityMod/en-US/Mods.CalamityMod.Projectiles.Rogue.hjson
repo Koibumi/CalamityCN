@@ -225,7 +225,7 @@ RegulusRiotProj.DisplayName: Regulus Riot
 RotBallProjectile.DisplayName: Rot Ball
 SacrificeProjectile.DisplayName: Sacrificial Dagger
 SamsaraSlicerProjectile.DisplayName: Samsara Slicer
-SamsaraSlicerSmallDisk.DisplayName: Samsara Slicer
+SamsaraSlicerSmallDisk.DisplayName: Samsara Slicer Split
 SandDollarFrag.DisplayName: Sand Dollar Frag
 SandDollarProj.DisplayName: Sand Dollar
 SandDollarStealth.DisplayName: Sand Dollar Duststorm
@@ -258,6 +258,7 @@ SkyBomberGas.DisplayName: Irradiated Cloud
 SkyfinNuke.DisplayName: Skyfin Nuke
 SludgeSplotchProj1.DisplayName: Sludge Splotch
 SludgeSplotchProj2.DisplayName: Sludge Splotch
+SmallCoral.DisplayName: Small Coral
 SnapClamProj.DisplayName: Snap Clam
 SnapClamStealth.DisplayName: Snap Clam
 SpearofDestinyProjectile.DisplayName: Destiny Spear

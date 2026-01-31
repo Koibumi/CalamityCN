@@ -51,6 +51,7 @@ MOAB: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressUpToBooster}
 		增加32%跳跃速度并允许自动跳跃
 		使你获得云朵瓶、暴雪瓶和沙暴瓶的二段跳效果
 		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:Jetpack] [c/aaaaaa:喷气背包的效果]

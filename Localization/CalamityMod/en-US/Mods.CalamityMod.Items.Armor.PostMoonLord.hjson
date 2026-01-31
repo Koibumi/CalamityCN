@@ -252,8 +252,7 @@ BloodflareHeadRogue: {
 	SetBonusEffect:
 		'''
 		Grants {0} defense when above {1}% life
-		Rogue critical strikes burst into blood orbs
-		Picking up these blood orbs reduces the duration of [cbuff:PotionSickness]
+		Rogue critical strikes have lifesteal
 		{$BloodflareBodyArmor.CommonSetBonus}
 		'''
 }

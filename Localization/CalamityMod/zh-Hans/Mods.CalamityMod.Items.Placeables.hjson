@@ -19,6 +19,7 @@ BabyCannonballJellyfishBanner.DisplayName: "{$Items.Placeables.FormattedBannerNa
 BabyFlakCrabBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 BabyGhostBellBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 BelchingCoralBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+BlindedAnglerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 BloatfishBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 BloomSlimeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 BobbitWormBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -26,7 +27,6 @@ BohldohrBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 BoxJellyfishBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 CalamityEyeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 CannonballJellyfishBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-CarrionSwallowerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ChaoticPufferBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 CladCrabBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ClamBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -55,22 +55,15 @@ FusionFeederBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GammaSlimeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GhostBellBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GiantSquidBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-GildedAxolotlBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GnasherBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 GulperEelBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 HadarianBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-HauntedChumBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 HeatSpiritBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 IceClasperBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ImpiousImmolatorBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 InfernalCongealmentBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 IrradiatedSlimeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-JellyghoulBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-KelpieSeadragonBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 LaserfishBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-LazarusLampfishBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-LeerslugBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-LostShoalBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 LuminousCorvinaBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 MantisBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 MantisShrimpBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -82,7 +75,6 @@ NuclearToadBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 OarfishBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 OrthoceraBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 OverloadedSoldierBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-PearlpodBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PerennialSlimeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PestilentSlimeBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PhantomSpiritBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -90,11 +82,7 @@ PiggyBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PlaguebringerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PlagueChargerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PlagueshellBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-PodobooKoiBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-PolyperilBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 PrismBackBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-PrismaticGuppyBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-ProbesnoutBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ProfanedEnergyBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 RadiatorBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ReaperSharkBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -103,28 +91,21 @@ RepairUnitBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 RimehoundBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 RotdogBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 RubyCrawlerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-SandProwlerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
+SeaSerpentBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SapphireCrawlerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-ScavengerBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ScornEaterBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ScryllarBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SeaFloatyBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SeaMinnowBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-SearslugBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-SharkoonBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ShockstormShuttleBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-ShoreskipperBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 ShroombleBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SightseerColliderBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SightseerSpitterBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SkyfinBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SlabCrabBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-SlugbunBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SoulSlurperBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-SteampodBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 StellarCulexBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 StormlionBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
-StormlionSentryBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SulflounderBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SulphurousSkaterBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
 SunskaterBanner.DisplayName: "{$Items.Placeables.FormattedBannerName}"
@@ -408,7 +389,8 @@ Rock: {
 		战斗已然结束，而尘埃尚未落定
 		在一个足以抹灭坚石的古恒之地，静坐着一位僧侣
 		他敢于质问过去，他敢于直面命运
-		“让过去成为永恒的真正代价到底是什么？为何我们永远受困于我们自己的未来？”
+		“让过去成为永恒的真正代价到底是什么？
+		为何我们永远受困于我们自己的未来？”
 		'''
 }
 
@@ -832,16 +814,6 @@ ExoObelisk: {
 	Tooltip: “星流能量渗入大气之中”
 }
 
-ForgottenNobleStatue: {
-	DisplayName: Forgotten Noble Statue
-	Tooltip: ""
-}
-
-ForgottenScholarStatue: {
-	DisplayName: Forgotten Scholar Statue
-	Tooltip: ""
-}
-
 FrigidMonolith: {
 	DisplayName: 霜冻天塔柱
 	Tooltip: “天边染上一抹冷冽的极光”
@@ -854,11 +826,6 @@ KelpTorch: {
 
 OldDukeMonolith: {
 	DisplayName: Elden Diorama
-	Tooltip: ""
-}
-
-OtonilouStatue: {
-	DisplayName: Otonilou Memorial
 	Tooltip: ""
 }
 
@@ -875,15 +842,6 @@ PurpleDistortedMonolith: {
 NavyPrismTorch: {
 	DisplayName: 富营养棱晶火把
 	Tooltip: 可放置于水中
-}
-
-AmidiasPainting: {
-	DisplayName: Sea King's Release
-	Tooltip:
-		'''
-		'O. Rios'
-		'September-October!'
-		'''
 }
 
 CalamityCanvas2023: {
@@ -910,6 +868,11 @@ CalamityCanvas2024: {
 		按住Shift在不关闭UI的情况下隐藏UI
 		“拥抱混乱”
 		'''
+}
+
+ForgivenessPainting: {
+	DisplayName: Forgiveness
+	Tooltip: "'D. User'"
 }
 
 ThankYouPainting: {
@@ -974,11 +937,6 @@ SulphurousTorch: {
 	Tooltip: 可放置于水中
 }
 
-SunkenIdol: {
-	DisplayName: Sunken Idol
-	Tooltip: ""
-}
-
 ThaumaticChair: {
 	DisplayName: 奇迹之椅
 	Tooltip: 克洛伊最好的创造物之一
@@ -986,7 +944,11 @@ ThaumaticChair: {
 
 ThermalTorch: {
 	DisplayName: Thermal Torch
-	Tooltip: 可放置于水中
+	Tooltip:
+		'''
+		可放置于水中
+		放置后可驱散深渊的魔法黑暗
+		'''
 }
 
 TranquilityCandle: {
@@ -996,7 +958,11 @@ TranquilityCandle: {
 
 VoidTorch: {
 	DisplayName: Void Torch
-	Tooltip: 可放置于水中
+	Tooltip:
+		'''
+		可放置于水中
+		放置后可驱散深渊的魔法黑暗
+		'''
 }
 
 AnahitaTrophy: {
@@ -4679,5 +4645,15 @@ UnsafeNavystoneWall: {
 
 MossyStone: {
 	DisplayName: Mossy Stone
+	Tooltip: ""
+}
+
+EutrophicSandWall: {
+	DisplayName: Unsafe Eutrophic Sand Wall
+	Tooltip: ""
+}
+
+EutrophicSandWallSafe: {
+	DisplayName: Eutrophic Sand Wall
 	Tooltip: ""
 }

@@ -1,0 +1,48 @@
+{
+    "Revision": 1,
+    "DefaultColor": "6383FF",
+    "DefaultSpeaker": "DevourerOfGods",
+    "AlignType": 1,
+    "TextDelay": 2,
+    "BasePunctuationDelay": {
+        "Delay": 10,
+        "ForceSet": false,
+        "Locks": false
+    },
+    "PunctuationDelayCap": 30,
+    "PunctuationDelays": {
+        "!": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        },
+        "?": {
+            "Delay": 20,
+            "ForceSet": true,
+            "Locks": true
+        }
+    },
+    "Pages": [
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):You are no god...]]",
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):But I shall feast upon your essence regardless!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):You've done better than most, but don't get cocky!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):It's not over yet, kid!]]"
+            ]
+        },
+        {
+            "Lines": [
+                "[Colors(2, 0.5, 00FFFF, FF00FF):[Shaking:[Scale(1.5):A]]][Colors(2, 0.5, FF00FF, 00FFFF):[Shaking(5):[Scale(2): [Pause(0.33)]GOD]]][Colors(2, 0.5, 00FFFF, FF00FF):[Shaking:[Scale(1.5): DOES NOT FEAR]]][Colors(2, 0.5, FF00FF, 00FFFF):[Shaking(5):[Scale(2): [Pause(0.33)]DEATH!]]]"
+            ]
+        }
+    ]
+}

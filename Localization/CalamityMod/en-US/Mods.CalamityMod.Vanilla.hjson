@@ -19,7 +19,7 @@ AddedTooltip: {
 	ArcaneFlower: 5% increased magic damage
 	HellfireTreads:
 		'''
-		Multiplies all fire-based debuff damage by 1.5x, does not stack with downgrades
+		50% increased Heat debuff damage, does not stack with downgrades
 		All attacks inflict Hellfire
 		'''
 	FairyBoots:
@@ -200,7 +200,7 @@ EditedTooltip: {
 		'''
 	FlameWakerBoots:
 		'''
-		Multiplies all fire-based debuff damage by 1.25x
+		25% increased Heat debuff damage
 		All attacks light enemies on fire
 		'Never get cold feet again'
 		'''
@@ -340,8 +340,6 @@ MerchantChat: {
 	AcidRain: If this acid rain keeps up, there'll be a shortage of Dirt Blocks soon enough!
 	Bandit: I happen to have several Angel Statues at the moment, a truely rare commodity. Want one?
 }
-
-NurseChat.HealNotAllowed: Now is not the time!
 
 PainterChat: {
 	Corruption: A little sickness isn't going to stop me from doing my work as an artist!

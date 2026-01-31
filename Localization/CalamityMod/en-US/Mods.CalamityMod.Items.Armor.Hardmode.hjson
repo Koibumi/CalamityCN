@@ -166,6 +166,7 @@ FathomSwarmerVisage: {
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		Provides breathing and light underwater
+		Greatly enhances visibility in the abyss
 		'''
 	SetBonus:
 		'''
@@ -445,7 +446,7 @@ ReaverHeadExplore: {
 		'''
 		Emits light and shows the location of treasure and ore
 		{$Common.AggroReduction} and grants underwater breathing
-		These have a moderate effect while in the Abyss
+		Greatly enhances visibility in the abyss
 		Increased block placement & tool range by {0}
 		Increases pickup range for items
 		'''

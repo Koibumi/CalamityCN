@@ -4,12 +4,12 @@ AegisBeam.DisplayName: Aegis Beam
 AegisBlast.DisplayName: Aegis Blast
 AegisBlast2.DisplayName: Aegis Blast
 AegisFlame.DisplayName: Aegis Flame
-AmidiasTridentBoltProj.DisplayName: Trident Bolt
 AmidiasWhirlpool.DisplayName: Whirlpool
 AncientBeam.DisplayName: Ancient Beam
 AncientStar.DisplayName: Ancient Star
 AndromedasStride.DisplayName: Andromeda's Stride
 AndromedasStrideBoltSpawner.DisplayName: Andromeda Shock
+AquaStream.DisplayName: Aqua Stream
 AridGrandeur.DisplayName: Arid Grandeur
 AriesWrath.DisplayName: Aries's Wrath
 AriesWrathConstellation.DisplayName: Constellation
@@ -68,7 +68,7 @@ CosmicShivBlade.DisplayName: Cosmic Beam
 CosmicShivTrail.DisplayName: Cosmic Shiv Trail
 CosmicSpiritBomb.DisplayName: Cosmic Bomb
 CrescentMoonFlail.DisplayName: Crescent Moon
-CrescentMoonProj.DisplayName: Crescent Moon
+CrescentMoonProj.DisplayName: Seeking Moon
 CrystylCrusherRay.DisplayName: Crystyl Crusher Ray
 Cyclone.DisplayName: Cyclone
 DarkBall.DisplayName: Dark Ball
@@ -133,6 +133,7 @@ GalaxySmasherHammer.DisplayName: Galaxy Smasher
 GalaxySmasherMini.DisplayName: Cosmic Shard
 GalileosMoon.DisplayName: Crescent Moon
 GalileosPlanet.DisplayName: Planet
+GalileoGladiusThrown.DisplayName: Galileo Gladius (Thrown)
 GayBeam.DisplayName: Iridescent Beam
 GelWave.DisplayName: Gelitic Wave
 GemTechYellowShard.DisplayName: Trireme's Yellow Gem
@@ -216,7 +217,6 @@ RemsRevengeExplosion.DisplayName: Blood Explosion
 RendingNeedle.DisplayName: Rending Needle
 RespiteblockBlood.DisplayName: Respiteblock Blood
 RespiteblockHoldout.DisplayName: Respiteblock
-RiptideWave.DisplayName: Wave
 Rox1.DisplayName: Rock
 RoxcaliburProj.DisplayName: Roxcalibur
 RSSolarFlare.DisplayName: Flare
@@ -230,6 +230,7 @@ ScorcherExplosion.DisplayName: Scorching Crystal Blast
 ScorpiusConstellation.DisplayName: Scorpius Constellation
 ScourgeoftheCosmosMini.DisplayName: Miniature Cosmic Scourge
 ScourgeoftheCosmosProj.DisplayName: Cosmic Scourge
+SeashineSwordProj.DisplayName: Seashine Beam
 SeekingScorcherProj.DisplayName: Scorching Seeker
 SolarNeedle.DisplayName: Solar Needle
 SolsticeBeam.DisplayName: Solstice Beam

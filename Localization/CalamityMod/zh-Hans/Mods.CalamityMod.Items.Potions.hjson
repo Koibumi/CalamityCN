@@ -93,7 +93,7 @@ HadalStew: {
 	Tooltip:
 		'''
 		只造成[S]秒{$BuffName.PotionSickness}
-		{$CommonItemTooltip.MediumStats}
+		{$CommonItemTooltip.MajorStats}
 		{$CommonItemTooltip.MinuteDuration}
 		'''
 }
@@ -166,7 +166,6 @@ ZergPotion: {
 	Tooltip: 大幅度增加敌怪生成率
 }
 
-// Very normal Keg crafts
 BloodyMary: {
 	DisplayName: 血腥玛丽
 	Tooltip:
@@ -242,7 +241,6 @@ GrapeBeer: {
 	Tooltip:
 		'''
 		子弹，箭，飞镖和火箭可以追踪
-		如果同时发射多个，只有其中五个可以享受到效果
 		降低{0}%暴击伤害
 		{$Common.AlcoholWarning}
 		'''
@@ -383,7 +381,7 @@ Vodka: {
 	Tooltip:
 		'''
 		增加{0}%无类型减益的伤害
-		降低{1}%其他减益的伤害
+		降低{1}%元素减益的伤害
 		{$Common.AlcoholWarning}
 		'''
 }

@@ -6,7 +6,7 @@ AngelicBeam.DisplayName: 天使之光
 AnimosityBullet.DisplayName: 硫磺火子弹
 AquaBlast.DisplayName: 澄净喷流
 AquaBlastToxic.DisplayName: 剧毒喷流
-Aquashard.DisplayName: 水晶
+Aquashard.DisplayName: 碎水弹
 AquashardSplit.DisplayName: 碎水弹
 ArcherfishRing.DisplayName: 水之环
 ArcherfishShot.DisplayName: 水之境
@@ -203,7 +203,6 @@ SevensStrikerGrape.DisplayName: 葡萄
 SevensStrikerOrange.DisplayName: 橙子
 SevensStrikerPlatinumCoin.DisplayName: 铂金钱币
 ShadeFire.DisplayName: 暗影火焰
-ShardshockerCrystal.DisplayName: 充能水晶
 Shell.DisplayName: 贝壳箭
 Shockblast.DisplayName: 震爆冲击波
 ShockblastRound.DisplayName: 震爆冲击波
@@ -214,6 +213,7 @@ Sickness.DisplayName: 疫病
 SicknessRound.DisplayName: 瘟疫子弹
 SicknessRound2.DisplayName: 瘟疫子弹
 SlagRound.DisplayName: 熔渣子弹
+Slagfire.DisplayName: 熔渣火焰
 SlimeBolt.DisplayName: 史莱姆喷溅
 SparkSpreaderFire.DisplayName: 爆裂火花
 SpectralFlare.DisplayName: 光谱照明弹

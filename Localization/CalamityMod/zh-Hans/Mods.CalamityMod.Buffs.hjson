@@ -224,7 +224,11 @@ Laceration: {
 ManaBurn: {
 	DisplayName: 魔力烧蚀
 	Description: 过多的魔力正在烧蚀你的身心
-	ItemTooltip: ""
+	ItemTooltip:
+		'''
+		Typeless
+		Every 100 negative mana reduces your life regen by 4 HP/s, but burns enemies for 3% of dealt damage
+		'''
 }
 
 MiracleBlight: {
@@ -314,7 +318,7 @@ VermillionFlux: {
 Voidfrost: {
 	DisplayName: Voidfrost
 	Description: 太空的虚无吞噬了所有的温暖与生命
-	ItemTooltip: 冷系 - 100 DPS
+	ItemTooltip: 冷系 - 200 DPS
 }
 
 VulnerabilityHex: {
@@ -813,11 +817,6 @@ Encased: {
 	Description: 增加{0}点防御和{1}%伤害减免，但……
 }
 
-FortunesFavor: {
-	DisplayName: Fortune's Favor
-	Description: How bold. 生命再生增加{0}HP/s
-}
-
 GraxBoost: {
 	DisplayName: 格拉克斯之助
 	Description: 防御力增加，你的肌肉更加强壮
@@ -830,7 +829,7 @@ GreenJellyRegen: {
 
 HallowedRuneDefense: {
 	DisplayName: 神圣之佑
-	Description: 增加{0}点防御和{1}%伤害减免
+	Description: 增加{0}点防御
 }
 
 HallowedRunePower: {
@@ -873,7 +872,7 @@ PhantomicShield: {
 	DisplayName: 幻魂坚盾
 	Description:
 		'''
-		增加{0}点防御和{1}%伤害减免
+		增加{0}点防御
 		幻魂壁垒保护着你
 		'''
 }
@@ -1200,6 +1199,11 @@ BrittleStar: {
 	Description: 脆弱海星会保护你
 }
 
+BurrowerBuff: {
+	DisplayName: Burrower
+	Description: A friendly burrower answered your call
+}
+
 CalamarisLamentBuff: {
 	DisplayName: 乌贼
 	Description: 是时候把你所有仇敌都送进愚蠢的鱿鱼监狱了！
@@ -1523,11 +1527,6 @@ SandElemental: {
 SarosPossessionBuff: {
 	DisplayName: 掌控星律
 	Description: 闪熠的流光日环保护着你
-}
-
-SeashineSwordBuff: {
-	DisplayName: 海耀之剑
-	Description: 绝美的晶体剑刃之舞……
 }
 
 SeaSnailBuff: {

@@ -225,7 +225,7 @@ RegulusRiotProj.DisplayName: 星神游龙之混沌
 RotBallProjectile.DisplayName: 腐烂之球
 SacrificeProjectile.DisplayName: 牺牲之匕
 SamsaraSlicerProjectile.DisplayName: 回春环刃
-SamsaraSlicerSmallDisk.DisplayName: 回春环刃
+SamsaraSlicerSmallDisk.DisplayName: 分裂回春环刃
 SandDollarFrag.DisplayName: 沙币碎块
 SandDollarProj.DisplayName: 沙币
 SandDollarStealth.DisplayName: 沙币沙尘暴
@@ -258,6 +258,7 @@ SkyBomberGas.DisplayName: 辐射云
 SkyfinNuke.DisplayName: 天翼核弹
 SludgeSplotchProj1.DisplayName: 污泥斑点
 SludgeSplotchProj2.DisplayName: 污泥斑点
+SmallCoral.DisplayName: 小型珊瑚
 SnapClamProj.DisplayName: 夹贝
 SnapClamStealth.DisplayName: 夹贝
 SpearofDestinyProjectile.DisplayName: 命运之矛

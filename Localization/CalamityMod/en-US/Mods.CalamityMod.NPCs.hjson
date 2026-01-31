@@ -1,5 +1,6 @@
 BabyCannonballJellyfish.DisplayName: Baby Cannonball Jellyfish
 Bloatfish.DisplayName: Bloatfish
+BrainIllusion.DisplayName: Brain Illusion
 BobbitWormHead.DisplayName: Bobbit Worm
 BoxJellyfish.DisplayName: Box Jellyfish
 Burrower.DisplayName: Burrower
@@ -11,7 +12,10 @@ TinySquid: Tiny Squid
 Cuttlefish.DisplayName: Cuttlefish
 DevilFish.DisplayName: Devil Fish
 DevilFishAlt.DisplayName: Devil Fish
+DraconicSwarmer.DisplayName: Draconic Swarmer
+Dragonfolly.DisplayName: Dragonfolly
 EidolonWyrmHead.DisplayName: Eidolon Wyrm
+FalseBrain.DisplayName: False Brain
 GiantSquid.DisplayName: Giant Squid
 GulperEelHead.DisplayName: Gulper Eel
 Laserfish.DisplayName: Laserfish
@@ -20,9 +24,11 @@ MirageJelly.DisplayName: Mirage Jelly
 MorayEel.DisplayName: Moray Eel
 OarfishHead.DisplayName: Oarfish
 ReaperShark.DisplayName: Reaper Shark
+Shoreskipper.DisplayName: Shoreskipper
 SlabCrab.DisplayName: Slab Crab
 ToxicMinnow.DisplayName: Toxic Minnow
 Viperfish.DisplayName: Viperfish
+WildBumblebirb.DisplayName: Wild Bumblebirb
 AcidEel.DisplayName: Acid Eel
 BabyFlakCrab.DisplayName: Baby Flak Crab
 BloodwormNormal.DisplayName: Bloodworm
@@ -169,7 +175,7 @@ EbonianBlightSlime.DisplayName: Ebonian Blight Slime
 Eidolist.DisplayName: Eidolist
 FearlessGoldfishWarrior.DisplayName: Fearless Goldfish Warrior
 Frogfish.DisplayName: Frogfish
-Horse.DisplayName: Earth Elemental
+EarthElemental.DisplayName: Earth Elemental
 IceClasper.DisplayName: Ice Clasper
 ImpiousImmolator.DisplayName: Impious Immolator
 KingSlimeJewelRuby.DisplayName: Ruby Jewel
@@ -187,7 +193,6 @@ ScornEater.DisplayName: Scorn Eater
 ShockstormShuttle.DisplayName: Shockstorm Shuttle
 Shroomble.DisplayName: Shroomble
 Stormlion.DisplayName: Stormlion
-StormlionSentry.DisplayName: Stormlion Sentry
 Sunskater.DisplayName: Sunskater
 SuperDummyNPC.DisplayName: Super Dummy
 WildBumblefuck.DisplayName: Draconic Swarmer
@@ -258,52 +263,18 @@ MicrobialCluster.DisplayName: Microbial Cluster
 Sulflounder.DisplayName: Sulflounder
 Toxicatfish.DisplayName: Toxicatfish
 Trasher.DisplayName: Trasher
-AlphaSeaMinnow.DisplayName: Alpha Sea Minnow
-AlphaSeaMinnowGold.DisplayName: Gold Alpha Sea Minnow
-MinnowPrime: Minnow Prime
 BabyGhostBell.DisplayName: Baby Ghost Bell
-CarrionSwallower.DisplayName: Carrion Swallower
+BlindedAngler.DisplayName: Blinded Angler
 Clam.DisplayName: Clam
 EutrophicRay.DisplayName: Eutrophic Ray
-FesteringRemains.DisplayName: Festering Remains
 GhostBell.DisplayName: Ghost Bell
 GiantClam.DisplayName: Giant Clam
 Clamitas: Clamitas
 SupremeClamitas: Supreme Clamitas
-GildedAxolotl.DisplayName: Gilded Axolotl
-GoldBabyGhostBell: Gold Baby Ghost Bell
-GoldPolypPanasea: Gold Polyp Panasea
-GoldPrismaticGuppy: Gold Prismatic Guppy
-HauntedChum.DisplayName: Haunted Chum
-Jellyghoul.DisplayName: Jellyghoul
-KelpieSeadragon.DisplayName: Kelpie Seadragon
-LazarusLampfish.DisplayName: Lazarus Lampfish
-Leerslug.DisplayName: Leerslug
-LostShoal.DisplayName: Lost Shoal
-PearlpodBlack.DisplayName: Pearlpod
-PearlpodPink.DisplayName: Pearlpod
-PearlpodWhite.DisplayName: Pearlpod
-PodobooKoi.DisplayName: Podoboo Koi
-PolypPanasea.DisplayName: Polyp Panasea
-Polyperil.DisplayName: Polyperil
 PrismBack.DisplayName: Prism-Back
-Probesnout.DisplayName: Probesnout
-ProbesnoutGold.DisplayName: Gold Probesnout
-PrismaticGuppy.DisplayName: Prismatic Guppy
-RadiantBabyGhostBell: Radiant Baby Ghost Bell
-RadiantPolypPanasea: Radiant Polyp Panasea
-RadiantPrismaticGuppy: Radiant Prismatic Guppy
-RadiantSlugbun: Radiant Slugbun
-SandProwler.DisplayName: Sand Prowler
-SandProwlerNested.DisplayName: Sand Prowler
-Scavenger.DisplayName: Scavenger
 SeaFloaty.DisplayName: Sea Floaty
 SeaMinnow.DisplayName: Sea Minnow
-SeaMinnowGold.DisplayName: Gold Sea Minnow
-Searslug.DisplayName: Searslug
-Sharkoon.DisplayName: Sharkoon
-Slugbun.DisplayName: Slugbun
-Steampod.DisplayName: Steampod
+SeaSerpent1.DisplayName: Sea Serpent
 BrimstoneHeart.DisplayName: Brimstone Heart
 SepulcherHead.DisplayName: Sepulcher
 SoulSeekerSupreme.DisplayName: Soul Seeker
@@ -560,10 +531,3 @@ SeaKing: {
 		Princess_LovesNPC: "{NPCName} always smiles when I'm nearby, I like being around him just for that!"
 	}
 }
-
-WildBumblebirb.DisplayName: Wild Bumblebirb
-DraconicSwarmer.DisplayName: Draconic Swarmer
-Dragonfolly.DisplayName: Dragonfolly
-Shoreskipper.DisplayName: Shoreskipper
-BrainIllusion.DisplayName: Brain Illusion
-FalseBrain.DisplayName: False Brain

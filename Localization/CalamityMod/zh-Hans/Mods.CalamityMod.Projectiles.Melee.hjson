@@ -4,12 +4,12 @@ AegisBeam.DisplayName: 庇护之光
 AegisBlast.DisplayName: 宙斯爆怒
 AegisBlast2.DisplayName: 宙斯低语
 AegisFlame.DisplayName: 宙斯怒火
-AmidiasTridentBoltProj.DisplayName: Trident Bolt
 AmidiasWhirlpool.DisplayName: 阿米迪亚斯漩涡
 AncientBeam.DisplayName: 远古之光
 AncientStar.DisplayName: 远古之星
 AndromedasStride.DisplayName: 仙女座之跃
 AndromedasStrideBoltSpawner.DisplayName: 仙女座震击
+AquaStream.DisplayName: Aqua Stream
 AridGrandeur.DisplayName: 旱瘠之伟
 AriesWrath.DisplayName: 白羊座之怒
 AriesWrathConstellation.DisplayName: 星座之击
@@ -68,7 +68,7 @@ CosmicShivBlade.DisplayName: 宇宙射线
 CosmicShivTrail.DisplayName: 宇宙短剑尾迹
 CosmicSpiritBomb.DisplayName: 宙能聚爆
 CrescentMoonFlail.DisplayName: 新月
-CrescentMoonProj.DisplayName: 新月
+CrescentMoonProj.DisplayName: 寻觅之月
 CrystylCrusherRay.DisplayName: 晶体碾碎射线
 Cyclone.DisplayName: 旋风
 DarkBall.DisplayName: 暗影球
@@ -133,6 +133,7 @@ GalaxySmasherHammer.DisplayName: 银河溃灭者
 GalaxySmasherMini.DisplayName: 宇宙碎片
 GalileosMoon.DisplayName: 新月
 GalileosPlanet.DisplayName: 伽利略行星
+GalileoGladiusThrown.DisplayName: Galileo Gladius (Thrown)
 GayBeam.DisplayName: 虹色光束
 GelWave.DisplayName: 凝胶波
 GemTechYellowShard.DisplayName: 星宇流霆宝石
@@ -216,7 +217,6 @@ RemsRevengeExplosion.DisplayName: 鲜血爆裂
 RendingNeedle.DisplayName: 撕裂之针
 RespiteblockBlood.DisplayName: 喘息区鲜血
 RespiteblockHoldout.DisplayName: 喘息区
-RiptideWave.DisplayName: 激波
 Rox1.DisplayName: 石之约
 RoxcaliburProj.DisplayName: 石约与胜利之剑
 RSSolarFlare.DisplayName: 红日之炎
@@ -230,6 +230,7 @@ ScorcherExplosion.DisplayName: 焚罪水晶爆裂
 ScorpiusConstellation.DisplayName: 天蝎座
 ScourgeoftheCosmosMini.DisplayName: 宇宙劫难
 ScourgeoftheCosmosProj.DisplayName: 宇宙灾祸
+SeashineSwordProj.DisplayName: 海耀光束
 SeekingScorcherProj.DisplayName: 炽炎焚罪者
 SolarNeedle.DisplayName: 日针
 SolsticeBeam.DisplayName: 近日点光束
