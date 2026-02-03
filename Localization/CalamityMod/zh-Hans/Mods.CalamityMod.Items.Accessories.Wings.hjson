@@ -67,7 +67,7 @@ MoonWalkers: {
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加24%奔跑加速度
 		提供[i:CalamityMod/AngelTreads]天使之靴的效果
-		使你免疫熔岩
+		免疫熔岩
 		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“Hee hee！”
 		'''
@@ -81,7 +81,7 @@ SeraphTracers: {
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加50%奔跑加速度
 		提供[i:CalamityMod/AngelTreads]天使之靴的效果
-		使你免疫熔岩和来自物块的伤害，包括[i:CalamityMod/AuricOre]圣金源矿
+		免疫熔岩和来自物块的伤害，包括[i:CalamityMod/AuricOre]圣金源矿
 		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“更加荒诞的速度！”
 		'''
@@ -136,7 +136,7 @@ VoidStriders: {
 		{$CommonItemTooltip.FlightAndSlowfall}
 		增加36%奔跑加速度
 		提供[i:CalamityMod/AngelTreads]天使之靴的效果
-		使你免疫熔岩
+		免疫熔岩
 		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:AngelWings] [c/aaaaaa:翅膀的效果]
 		“荒诞的速度！”
 		'''

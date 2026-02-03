@@ -47,7 +47,8 @@ OnyxExcavatorKey: {
 		'''
 		召唤一台可骑乘的玛瑙钻机坐骑
 		<left>挖掘前方或下方物块，取决于移动方向
-		挖掘能力及速度取决于你物品栏中最高镐力的镐子
+		钻头的镐力和挖掘速度取决于你物品栏中最好的镐子
+		'Irresponsibly demolishing all the neat world generation and causing unchecked ecological devastation? Splendid'
 		'''
 }
 

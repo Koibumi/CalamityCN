@@ -49,12 +49,12 @@ MasterShortInfo: "[c/2619:游戏结束了，伙计，游戏结束了！比专家
 MasterExpandedInfo:
 	'''
 	[c/bd5e6e:大部分敌怪在专家模式基础上有更多的生命值和更高的击退抗性]
-	[c/bd5e6e:所有敌人都比专家模式造成更多的伤害]
+	[c/bd5e6e:所有敌怪都比专家模式造成更多的伤害]
 	[c/bd5e6e:Boss们拥有新的独有装饰性奖励]
 	[c/bd5e6e:玩家死亡时会掉落所有钱币]
 	[c/bd5e6e:玩家在游戏开始时会获得一个额外饰品栏]
 	'''
-LegendaryShortInfo: "[c/32CD32:为配得上的人献上……比大师模式更高的数值]"
+LegendaryShortInfo: "[c/32CD32:献给配得上的人……比大师模式更高的数值]"
 LegendaryExpandedInfo: "[c/0b870b:敌怪的生命值和接触伤害在大师模式基础上进一步提高]"
 Revengeance: 复仇
 RevengeanceShortInfo: "[c/F54254:预期的灾厄之旅。只能在专家模式开启]"
@@ -64,7 +64,7 @@ RevengeanceExpandedInfo:
 	[c/B55362:    当肾上腺素条满时，按下] {1} [c/B55362:提升大量伤害]
 	[c/B55362:开启] [c/FF8B54:怒气] [c/B55362:机制。接近敌怪或使用特定物品时会积攒怒气条]
 	[c/B55362:    当怒气条满时，按下] {0} [c/B55362:获得暂时的伤害提升]
-	[c/B55362:许多敌怪获得了新的更具进攻性的行为模式，而且生成更为频繁]
+	[c/B55362:许多敌怪获得了新的更具进攻性的行为模式。敌怪生成更为频繁]
 	[c/B55362:Boss们拥有新的攻击和行为模式。有些会彻底改变]
 	[c/F7342A:Boss们会同时掉落“专家模式掉落”物品和大师模式装饰性奖励]
 	'''
@@ -78,7 +78,7 @@ DeathExpandedInfo:
 	[c/B834E0:减益更致命，深渊更危险]
 	'''
 Malice: 恶意
-MaliceShortInfo: "[c/f08080:为追求折磨的人献上。只能在传奇模式下开启]"
+MaliceShortInfo: "[c/f08080:献给追求折磨的人。只能在传奇模式下开启]"
 MaliceExpandedInfo: "[c/a34e4e:敌怪具有死亡模式和FTW的行为模式，并具有传奇模式数值]"
 // Calamity Health Bar
 ExoTwinsNameNormal: XS-01 阿尔忒弥斯和 XS-03 阿波罗

@@ -45,7 +45,7 @@ BrimflameCowl: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
 		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance@2}
-		对[cbuff:OnFire]，[cbuff:CalamityMod/BrimstoneFlames]和[cbuff:Frostburn]免疫
+		免疫[cbuff:OnFire]，[cbuff:CalamityMod/BrimstoneFlames]和[cbuff:Frostburn]
 		'''
 	SetBonus:
 		'''
@@ -173,7 +173,7 @@ FathomSwarmerVisage: {
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		获得爬墙的能力
-		浸没在液体中时{$CommonItemTooltip.PercentIncreasedSummonDamage@2}，增加{3}点防御和+{4}HP/s生命再生
+		浸没在液体中时{$CommonItemTooltip.PercentIncreasedSummonDamage@2}，增加{3}点防御和{4}HP/s生命再生
 		在深渊提供适量光照，并适度减少深渊中的氧气损耗	
 		'''
 }
@@ -294,7 +294,7 @@ LunicCorpsBoots: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedCritChance}
-		增加{1}%速度和加速度
+		增加{1}%移动速度和加速度
 		'''
 }
 
@@ -314,7 +314,7 @@ LunicCorpsHelmet: {
 		[c/52CBDE:重新充能期间被击中会重置充能计时器]
 		[c/9EA67F:“结束这场战争”]
 		'''
-	ShieldAdren: 如果护盾抵挡了所有伤害，则受击损失的肾上腺素减半
+	ShieldAdren: "[c/52CBDE:如果护盾抵挡了所有伤害，则受击损失的肾上腺素减半]"
 }
 
 LunicCorpsVest: {
@@ -365,7 +365,7 @@ PlaguebringerCarapace: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-		对[cbuff:CalamityMod/Plague]免疫
+		免疫[cbuff:CalamityMod/Plague]
 		'''
 }
 
@@ -375,7 +375,7 @@ PlaguebringerPistons: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}和{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
-		你走过的草地会百花齐放，站在无草泥土上时有几率长出染料植物
+		你走过的草地会百花齐放，站在无草泥土上时有极低几率长出染料植物
 		'''
 }
 
@@ -388,7 +388,7 @@ PlaguebringerVisor: {
 		'''
 	SetBonus:
 		'''
-		获得瘟疫冲刺，使敌怪被瘟疫折磨
+		获得瘟疫冲刺，可以在不受伤害的情况下撞击穿过敌怪
 		召唤一只小小的瘟疫使者，释放蜂群追杀你的敌人
 		友方蜜蜂会施加[cbuff:CalamityMod/Plague]减益
 		'''
@@ -425,7 +425,7 @@ PlagueReaperVest: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}
-		使你免疫瘟疫减益
+		免疫瘟疫
 		'''
 }
 
@@ -466,7 +466,7 @@ ReaverHeadMobility: {
 
 ReaverHeadTank: {
 	DisplayName: 掠夺者战盔
-	Tooltip: 增加{0}点最大生命值和+{1}HP/s生命再生
+	Tooltip: 增加{0}点最大生命值和{1}HP/s生命再生
 	SetBonus:
 		'''
 		{$Common.AggroBoost}
@@ -488,7 +488,7 @@ TitanHeartBoots: {
 
 TitanHeartMantle: {
 	DisplayName: 泰坦之心斗篷
-	Tooltip: "{$Common.RogueDamage}和{1}%盗贼击退"
+	Tooltip: "{$Common.RogueDamage}和盗贼击退增加{1}%"
 }
 
 TitanHeartMask: {

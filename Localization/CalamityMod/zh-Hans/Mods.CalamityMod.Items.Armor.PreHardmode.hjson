@@ -91,7 +91,7 @@ DesertProwlerPants: {
 	Tooltip:
 		'''
 		{$Common.RogueCrit}
-		对{$BuffName.WindPushed}免疫
+		免疫{$BuffName.WindPushed}
 		'''
 }
 
@@ -242,14 +242,14 @@ VictideBreastplate: {
 	DisplayName: 胜潮胸甲
 	Tooltip:
 		'''
-		5% increased damage reduction and critical strike chance
-		+5 defense and 10% increased damage reduction while submerged in liquid
+		增加5%伤害减免和暴击率
+		浸没在液体中时增加5点防御和10%伤害减免
 		'''
 	CommonSetBonus:
 		'''
-		When using any weapon you have a 10% chance to throw a returning seashell projectile
-		This seashell does true damage and does not benefit from any damage class
-		Provides increased underwater mobility and slightly reduces breath loss in the abyss
+		使用任何武器时都有10%几率发射回旋贝壳弹幕
+		贝壳造成真实伤害，不受任何职业伤害加成影响
+		提高水下机动性，稍微减缓深渊中呼吸条消耗速度
 		'''
 }
 
@@ -257,51 +257,51 @@ VictideGreaves: {
 	DisplayName: 胜潮护胫
 	Tooltip:
 		'''
-		Movement speed increased by 8%
-		Movement speed increased by 30% while submerged in liquid
+		增加8%移动速度
+		浸没在液体中时增加30%移动速度
 		'''
 }
 
 VictideHeadMagic: {
 	DisplayName: 胜潮隐帽
 	Tooltip: 增加5%魔法伤害
-	SetBonus: +1.5 HP/s life regen and 10% increased magic damage while submerged in liquid
+	SetBonus: 浸没在液体中时+1.5HP/s生命再生和增加10%魔法伤害
 }
 
 VictideHeadMelee: {
-	DisplayName: Victide Shellmet
-	Tooltip: 5% increased melee damage
+	DisplayName: 胜潮贝盔
+	Tooltip: 增加5%近战伤害
 	SetBonus:
 		'''
-		Enemies are more likely to target you
-		+1.5 HP/s life regen and 10% increased melee damage while submerged in liquid
+		敌人更有可能以你为目标
+		浸没在液体中时+1.5HP/s生命再生和增加10%近战伤害
 		'''
 }
 
 VictideHeadRanged: {
-	DisplayName: Victide Coral Turban
-	Tooltip: 5% increased ranged damage
-	SetBonus: +1.5 HP/s life regen and 10% increased ranged damage while submerged in liquid
+	DisplayName: 胜潮瑚巾
+	Tooltip: 增加5%远程伤害
+	SetBonus: 浸没在液体中时+1.5HP/s生命再生和增加10%远程伤害
 }
 
 VictideHeadRogue: {
-	DisplayName: Victide Headcrab
-	Tooltip: 5% increased rogue damage
+	DisplayName: 胜潮蟹盔
+	Tooltip: 增加5%盗贼伤害
 	SetBonus:
 		'''
-		+60 maximum stealth
-		+1.5 HP/s life regen and 10% increased rogue damage while submerged in liquid
+		增加60点最大潜行值
+		浸没在液体中时+1.5HP/s生命再生和增加10%盗贼伤害
 		'''
 }
 
 VictideHeadSummon: {
-	DisplayName: Victide Mask
-	Tooltip: 10% increased summon damage
+	DisplayName: 胜潮面罩
+	Tooltip: 增加10%召唤伤害
 	SetBonus:
 		'''
-		+1 max minion
-		Summons a sea snail to protect you
-		+1.5 HP/s life regen and 10% increased summon damage while submerged in liquid
+		增加1仆从栏
+		召唤一只海蜗牛保护你
+		浸没在液体中时+1.5HP/s生命再生和增加10%召唤伤害
 		'''
 }
 

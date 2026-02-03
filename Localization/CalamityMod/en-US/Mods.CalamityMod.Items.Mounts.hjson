@@ -48,6 +48,7 @@ OnyxExcavatorKey: {
 		Summons a rideable Onyx Drill mount
 		Hold <left> to drill blocks while moving either horizontally or downwards
 		The drill's pickaxe power and mining speed copy the best pickaxe in your inventory
+		'Irresponsibly demolishing all the neat world generation and causing unchecked ecological devastation? Splendid'
 		'''
 }
 

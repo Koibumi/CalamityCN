@@ -12,7 +12,7 @@ Mods: {
 			}
 
 			AbyssLayer3AltMusicBox: {
-				DisplayName: 音乐盒（深层深渊替代）
+				DisplayName: 音乐盒（深层深渊备选）
 				Tooltip: Plays 'R'lyehian Depths' by Heart Plus Up!
 			}
 

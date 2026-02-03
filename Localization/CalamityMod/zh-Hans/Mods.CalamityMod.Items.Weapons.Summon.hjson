@@ -264,7 +264,7 @@ DazzlingStabberStaff: {
 	Tooltip:
 		'''
 		召唤三把由亵渎材料制成的神圣匕首为你而战
-		圣焰匕首会英勇地将所有反对它们的东西化为灰烬
+		圣焰匕首会英勇地将所有反对者化为灰烬
 		水晶匕首会优雅地将敌人雕刻成丝带
 		亵渎匕首会野蛮地，永久地进行分裂与改革
 		“朝着她的未来，永远前进”
@@ -325,7 +325,7 @@ EnchantedConch: {
 
 EnchantedKnifeStaff: {
 	DisplayName: Enchanted Knife Staff
-	Tooltip: Summons an Enchanted Knife to fight for you
+	Tooltip: 召唤一把附魔飞刀为你而战
 }
 
 Endogenesis: {
@@ -531,7 +531,7 @@ KingofConstellationsTenryu: {
 
 LegionofCelestia: {
 	DisplayName: Legion of Celestia
-	Tooltip: 召唤一把着魔的天界斧头为你战斗
+	Tooltip: 召唤一把着魔的天界斧头为你而战
 }
 
 LiliesOfFinality: {
@@ -706,6 +706,7 @@ Sirius: {
 		重复召唤会大幅加强其威力，即便星座已经完善
 		索敌时天狼星会被动地生成星芒
 		当星芒满时，天狼星会消耗它们来发射强力的穿透星体并造成[cbuff:CalamityMod/Voidfrost]
+		“通往未竟之梦的指南”
 		'''
 }
 

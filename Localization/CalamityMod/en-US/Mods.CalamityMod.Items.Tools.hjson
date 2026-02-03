@@ -310,7 +310,7 @@ RelicOfConvergence: {
 		Creates a profaned crystal at the cursor that channels a healing aura before shattering
 		All players within the area of effect are healed for {0} HP
 		Allies gain 50% extra healing
-		Holding out the crystal heavily reduces the damage of all summons
+		Holding out the crystal reduces the damage of all summons, decreases defense, and increases incoming damage
 		[c/FF8C00:Never once had I known kindness. Neither my peers or family had a shred of compassion for me.]
 		[c/FF8C00:I wished for someone I could confide. A presence that cleansed me of anxiety.]
 		[c/FF8C00:And when I saw Her radiant smile when we met, I knew I had finally found it.]

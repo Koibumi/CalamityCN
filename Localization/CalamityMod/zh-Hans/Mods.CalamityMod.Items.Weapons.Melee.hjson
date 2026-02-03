@@ -42,7 +42,7 @@ AirSpinner: {
 
 AmidiasTrident: {
 	DisplayName: 海王三叉戟
-	Tooltip: Shoots homing whirlpools
+	Tooltip: 发射追踪旋涡
 }
 
 AnarchyBlade: {
@@ -100,7 +100,7 @@ ArkoftheElements: {
 	ComboInfo:
 		'''
 		<left>进行一次五连斩，斩击以掷出剑刃结束
-		在剑刃掷出时松开<left>键会造成额外伤害
+		在剑刃掷出时松开左键会造成额外伤害
 		'''
 	ParryInfo:
 		'''
@@ -148,7 +148,7 @@ BallOFugu: {
 	DisplayName: 河豚链球
 	Tooltip:
 		'''
-		扔出一只乱动的深渊河豚
+		扔出一只挣扎的深渊河豚
 		旋转时会积累剧毒尖刺
 		尖刺会在河豚回归时喷出
 		'''
@@ -718,7 +718,7 @@ Hellkite: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		一把巨龙时代的远古重剑，由阿萨福勒最负盛名的锻造大师打造而成。
+		一把巨龙时代的远古重剑，由阿萨福勒最负盛名的锻造大师打造而成
 		挥舞一把带强力击退的缓慢重剑
 		按住右键会开始充能一次加强型挥舞
 		满充能时松开右键会释放一次必定暴击的毁灭斩切
@@ -726,7 +726,7 @@ Hellkite: {
 		'''
 	TooltipGFB:
 		'''
-		一把巨龙时代的远古重剑，由阿萨福勒最负盛名的锻造大师打造而成。
+		一把巨龙时代的远古重剑，由阿萨福勒最负盛名的锻造大师打造而成
 		挥舞一把带强力击退的缓慢重剑
 		按住右键会开始充能一次加强型挥舞
 		满充能时松开右键会释放一次必定暴击的毁灭斩切
@@ -806,7 +806,7 @@ Lucrecia: {
 	DisplayName: 卢克雷西亚
 	Tooltip:
 		'''
-		[c/9370db:挥舞时发射螺旋的暗光碎片]
+		[c/9370db:挥舞时发射螺旋的夜光碎片]
 		[c/837ce4:用剑身命中时积攒夜光能量]
 		[c/7489ee:夜光能量会随时间衰减，但到达最大后短时间内不会衰减]
 		[c/6495f7:处于最大能量时按下<right>以发射双螺旋彗星]
@@ -1075,7 +1075,7 @@ Riptide: {
 	Tooltip:
 		'''
 		{$Common.YoyoStats}
-		Sprays a spiral of aqua streams
+		发射水流
 		'''
 }
 
@@ -1114,8 +1114,8 @@ ScourgeoftheCosmos: {
 }
 
 SeashineSword: {
-	DisplayName: Seashine Sword
-	Tooltip: Shoots an aqua sword beam
+	DisplayName: 海耀之刃
+	Tooltip: 发射水刃剑气
 }
 
 SeekingScorcher: {

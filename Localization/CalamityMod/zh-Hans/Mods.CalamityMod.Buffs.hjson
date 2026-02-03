@@ -66,7 +66,7 @@ MoscowMuleBuff: {
 
 OldFashionedBuff: {
 	DisplayName: 古典酒
-	Description: 非武器伤害增加，武器伤害降低
+	Description: 非武器伤害增加，但武器伤害降低
 }
 
 RedWineBuff: {
@@ -226,8 +226,8 @@ ManaBurn: {
 	Description: 过多的魔力正在烧蚀你的身心
 	ItemTooltip:
 		'''
-		Typeless
-		Every 100 negative mana reduces your life regen by 4 HP/s, but burns enemies for 3% of dealt damage
+		无类型
+		每100点负魔力会-4HP/s生命再生，并对敌怪造成已造成伤害的3%
 		'''
 }
 
@@ -294,7 +294,7 @@ TrueVulnerabilityHex: {
 	ItemTooltip:
 		'''
 		火系 - 1998 DPS
-		受到的来自所有来源的伤害增加
+		受到所有来源的伤害增加
 		减速敌怪
 		'''
 }
@@ -718,7 +718,7 @@ AbyssalMadness: {
 
 AdrenalineMode: {
 	DisplayName: 肾上腺素
-	Description: 总伤害翻{0}倍
+	Description: 总伤害乘{0}
 }
 
 AeolianEarthBuff: {
@@ -854,7 +854,7 @@ IceShieldBuff: {
 
 Mushy: {
 	DisplayName: 与菇共生
-	Description: 增加{0}点防御和+{1}HP/s生命再生
+	Description: 增加{0}点防御和{1}HP/s生命再生
 	ItemTooltip: 增加防御和生命再生
 }
 
@@ -916,7 +916,7 @@ ProfanedCrystalWhipBuff: {
 
 RageMode: {
 	DisplayName: 暴怒模式
-	Description: 总伤害乘以{0}
+	Description: 总伤害乘{0}
 }
 
 ReaverRage: {
@@ -1014,7 +1014,7 @@ DoGExtremeGravity: {
 
 Enraged: {
 	DisplayName: 激怒
-	Description: 总伤害乘以1.5，但你受到1.25倍伤害
+	Description: 总伤害乘1.5，但你受到1.25倍伤害
 }
 
 Eutrophication: {
@@ -1201,7 +1201,7 @@ BrittleStar: {
 
 BurrowerBuff: {
 	DisplayName: Burrower
-	Description: A friendly burrower answered your call
+	Description: 友好的burrower回应了你的召唤
 }
 
 CalamarisLamentBuff: {
@@ -1280,8 +1280,8 @@ DemonshadeSetDevilBuff: {
 }
 
 EnchantedKnifeStaffBuff: {
-	DisplayName: Enchanted Knife
-	Description: Junk knives not included
+	DisplayName: 附魔飞刀
+	Description: 不含垃圾飞刀
 }
 
 EndoCooperBuff: {

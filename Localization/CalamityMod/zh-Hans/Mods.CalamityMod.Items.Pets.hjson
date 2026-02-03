@@ -30,8 +30,8 @@ BurrowerController: {
 	DisplayName: Burrower Beacon
 	Tooltip:
 		'''
-		Requests a friendly burrower to follow you around and illuminate ores
-		Counts as a light pet
+		召唤一只友好的burrower跟随你并照亮矿石
+		视为照明宠物
 		'''
 }
 

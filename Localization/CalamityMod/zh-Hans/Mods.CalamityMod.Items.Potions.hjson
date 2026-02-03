@@ -308,8 +308,8 @@ OldFashioned: {
 	DisplayName: 古典酒
 	Tooltip:
 		'''
-		大多数非武器，非减益的伤害乘以{0}
-		所有武器的伤害乘以{1}
+		大多数非武器，非减益的伤害乘{0}
+		所有武器的伤害乘{1}
 		{$Common.AlcoholWarning}
 		'''
 }

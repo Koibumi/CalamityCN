@@ -10,7 +10,7 @@ CalamityClientConfig: {
 	}
 
 	AbyssLayer3Alt: {
-		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] 深渊三层音乐替代"
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] 深渊三层音乐备选"
 		Tooltip: 在深渊的热泉区域播放灾厄OST——“R'lyehian Depths”。
 	}
 
@@ -36,7 +36,7 @@ CalamityClientConfig: {
 		Label: "[i:SteampunkGoggles] 残影"
 		Tooltip:
 			'''
-			为灾厄NPC，射弹等物体开启残影渲染。
+			为灾厄NPC，弹幕等物体开启残影渲染。
 			关闭以提升性能。
 			'''
 	}

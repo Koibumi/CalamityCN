@@ -76,8 +76,8 @@ Arbalest: {
 }
 
 AquashardShotgun: {
-	DisplayName: Aquashard Shotgun
-	Tooltip: Converts musket balls into aquashards that split upon hitting an enemy
+	DisplayName: 碎水霰弹枪
+	Tooltip: 将火枪子弹转化为蓝晶碎片，击中敌人时分裂为追踪碎片
 }
 
 Archerfish: {
@@ -578,7 +578,7 @@ Hellborn: {
 	DisplayName: 地狱降临
 	Tooltip:
 		'''
-		一把巨龙时代的华丽枪械，由阿萨福勒最负盛名的锻造大师打造而成。
+		一把巨龙时代的华丽枪械，由阿萨福勒最负盛名的锻造大师打造而成
 		<left>将枪在手中旋转，快速击打附近敌怪
 		用枪自身命中敌怪时会给枪装填子弹，至多12发
 		<right>时消耗一发子弹发射具有强后坐力的巨大能量球
@@ -1128,9 +1128,9 @@ SlagfireDouser: {
 	DisplayName: Slagfire Douser
 	Tooltip:
 		'''
-		Lobs armor-penetrating lava in bursts
-		Armor-penetrating lava ignores 10 points of enemy defense
-		[c/FF9900:Capable of dousing townsfolk in lava too...]
+		抛射一阵穿甲熔岩流
+		穿甲熔岩无视敌怪10点防御
+		[c/FF9900:也能把镇民浸泡在熔岩中……]
 		'''
 }
 
@@ -1218,7 +1218,7 @@ Starmada: {
 		非完美时机仍会增加伤害，但大幅增加散射程度并降低武器威力
 		武器威力增益会同时增强星弹和震荡性星爆
 		使用坠落之星，有50%的几率节省弹药
-		“星辰，与你”
+		“你，与我”
 		'''
 }
 

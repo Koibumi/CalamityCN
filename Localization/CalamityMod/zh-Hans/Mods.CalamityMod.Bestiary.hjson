@@ -44,8 +44,8 @@ AstralSlime: 史莱姆早已适应了吸收此地的物质和能量，因此星�
 Atlas: 这些生物融合体是星辉瘟疫的骑士，臂力惊人。尽管沉重的身躯拖慢了擎星者的速度，一拳粉碎星辉树对它们而言是轻而易举的事。它们的心脏就算从体内扯下也能继续缓慢跳动，它们的生命不会轻易结束。
 FusionFeeder: 巨量的魔力让这些曾经的沙鲨变得迟钝，让它们的移动变得及其缓慢。它们再也不会需要食物，唯一渴求的只有远方的群星。
 Hadarian: 曾经的沙漠秃鹫如今已经被转化成了全新的存在。它们的羽毛发生脱落，取而代之的是黏糊的组织和岩石般的硬板。它们仍像雕像一样蹲坐着，仿佛注视着一切，又好像目中空无一物。
-Astraglomerate: Amalgamations of several creatures, with all of their features rendered unrecognizable after being fused into a singular being. Unable to act on their own due to their immense mass, Astraglomerates choose instead to split off small parts of themselves to fight for them.
-Glomerling: Glomerlings may be rather unthreatening alone, though dangerous in large numbers. Being simply extensions of a hive, they lack a preservation instinct, and fight ferociously to the death so that they may serve the greater whole.
+Astraglomerate: 数种生物的混合体，它们原先的特征早已模糊不清，成为了这单一存在的一部分。Astraglomerate由于巨大的质量无法行动，因此转而选择分裂出更小的自己来作战。
+Glomerling: 单个Glomerling几乎没有威胁，但成群结队的Glomerling就是另一回事了。它们单纯只是巢穴的延伸，缺乏自我保护的本能，只会为了大局勇猛战斗至死。
 Mantis: 星幻螳螂是星辉瘟疫功能最复杂的生物体，它们的速度极快，利爪可以轻松切开最坚硬金属以外的一切。当它们和敌人距离较远，它们还能凝结空气中潜藏的魔力形成刃碟，扔向敌人。
 Nova: 由纯粹的星尘和魔力创造的，扭曲而简单的生物，内部有一颗很不稳定的核心。就算它们连自保的手段都没有，它们依然坚定地保护着星辉瘟疫。它们唯一的攻击手段就是将自己的核心过充能，让自己燃烧起来。
 SightseerCollider: 曾经的恶魔之眼变成了死亡星辰的延伸。和它们更大的变种不同，这些监星眼缺乏向敌人喷涂的能力，它们能做的只有毫无顾虑地冲向进入星辉瘟疫之地的入侵者。
@@ -79,7 +79,7 @@ CryoSlime: 被大法师附魔的史莱姆，用作将冻土寒力水晶化为魔
 Eidolist: 巨龙教曾经的教徒，如今正祈求他们新主人的宠爱。多亏了他们妖龙一般的身体，他们可以短期居住在深渊中，以达成某个全新的目的。
 FearlessGoldfishWarrior: 尽管金鱼只生存在它们的池塘和湖泊中，但也不乏在风暴中上岸寻找同样来到地表的蠕虫为食。甚至有传言说这些水生的战士会手持闪闪发光的匕首，但在大多数人看来，这些故事的可信度堪比缘木求鱼。
 Frogfish: 躄鱼无时不刻都在完美伪装自己，时刻准备出击，是它们让海洋展现出了与平静截然相反的一面。在曾经不可一世的帝国腹地，找到真正的平静相当困难。
-Horse: 硫磺火元素苏醒后，阿萨福勒的锻造大师曾试图用发条和水晶将元素的力量束缚在一具机器身体之中。尽管这一壮举确实值得敬畏，但似乎随着阿萨福勒的毁灭，创造元素之灵替代品的梦想并没能真正实现。
+EarthElemental: 硫磺火元素苏醒后，阿萨福勒的锻造大师曾试图用发条和水晶将元素的力量束缚在一具机器身体之中。尽管这一壮举确实值得敬畏，但似乎随着阿萨福勒的毁灭，创造元素之灵替代品的梦想并没能真正实现。
 IceClasper: 尽管它们确切的起源成谜，但可以确信这些空灵的生物会设法抹除家园中的一切暖源。基于这个事实和已经发现的化石，许多人猜测食魂冰虫可能对冻原的诞生起到了关键作用。
 ImpiousImmolator: 以她的形象雕刻而成的塑像，以制造者的生命力所点亮。毕竟，当你的祈愿是看到世界被她的圣火所环绕时，自己的生命又算得上什么代价呢？
 MantisShrimp: 当冒险家被问及最危险的生物为何时，得到的答案通常千奇百怪。但几乎只有水手会提到一种小而壮的螳螂虾。它们的攻击十分迅速，产生的能量足以将水加热到和阿萨福勒的岩浆相同的温度。
@@ -187,7 +187,7 @@ ProfanedGuardianCommander: 在一个一切记忆都已淡忘的古老年代，�
 ProfanedGuardianDefender: 在一个一切记忆都已淡忘的古老年代，有四位勇士借助彼此的信任击杀了一条巨龙，而只有一人将享用它的金源魄。“我的力量万里挑一。”她们中的盾侍女说，“我将成为那一位。”众人噤声，直至普罗维登斯开口：“你的力量缺乏信念，以至妄图从天中摘下星辰。”
 ProfanedGuardianHealer: 在一个一切记忆都已淡忘的古老年代，有四位斗士借助坚毅的决心击杀了一条巨龙，而只有一人将享用它的金源魄。“我的勇气绝后空前。”她们中的圣职者说，“我将成为那一位。”众人噤声，直至普罗维登斯开口：“你的勇气让你无视真理，你的自傲会把你拖入深渊。”
 Providence: 在一个一切记忆都已淡忘的古老年代，有四位远见者。她们以一腔正义之怒杀死了一条龙。她们的领导者享用了巨龙的烈焰金源魄。“这个世界缺乏引导，人民心中充满黑暗。”她说。众人噤声，直至普罗维登斯再次开口：“我们将共同前行，让光明重返世间。”如是。
-Ravager: The mangled reincarnation of the God of Sacrifices, given life once more. Necromancers sworn to his faith returned his broken body to his temple, offering their own lives as sacrifice so they could reverse his Death. Yet, necromancy is an imperfect art, and the god has very little of his mind left, simply destroying all it comes across.
+Ravager: 祭献之神残余的化身，二度得到了生命。死灵术士们向他的信仰起誓，他们会将他破碎的尸体带回他的神庙，并献上他们自己的生命作为祭品以扭转他的死亡。然而死灵技艺存在缺陷，神明的思维所剩无几，仅仅只是毁灭了它遇到的一切。
 Signus: “万愿皆有偿”。 只要一份以玛瑙为界、以鲜血封印的契约，就能让一个人实现任何愿望——途径、承诺、背叛。奇怪的是，在众神的时代到来之前，没有任何关于西格纳斯的历史记录，而直到今天也鲜有对它记载。也许，一个人只要付出适当的代价，或许就能亲自了解西格纳斯的真相。
 SlimeGodPaladin: 由于史莱姆之神过于弱小，它会避免直接战斗。它并没有塑造保护它的守卫，而是用无数的枯萎史莱姆制造守卫。它们的污秽和它们神明的纯净形成了鲜明的反差。
 SlimeGodCore: 尽管史莱姆之神是一只贪吃的史莱姆，为了维护世界的平衡它还是禁止自己生长失控。在圣战中它还是遭到了追杀，但它还是凭借无数的撤退技巧活了下来。它所履行的职责和行动的守则正是让玛瑙族人崇拜这位弱小神明的理由。

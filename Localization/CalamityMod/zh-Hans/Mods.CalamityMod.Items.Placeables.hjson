@@ -1620,7 +1620,7 @@ AuricDisplay: {
 }
 
 AuricLandMine: {
-	DisplayName: Auric Land Mine
+	DisplayName: 金源地雷
 	Tooltip: 踩上后爆炸……
 }
 
@@ -1946,7 +1946,7 @@ DriftwoodPlatform: {
 
 DriftwoodSink: {
 	DisplayName: Driftwood Sink
-	Tooltip: Counts as a water source
+	Tooltip: 视为水源
 }
 
 DriftwoodSofa: {
@@ -1975,102 +1975,102 @@ DriftwoodWorkBench: {
 }
 
 AncientNavystoneBathtub: {
-	DisplayName: Ancient Navystone Bathtub
+	DisplayName: 远古沉沦渊石浴缸
 	Tooltip: ""
 }
 
 AncientNavystoneBed: {
-	DisplayName: Ancient Navystone Bed
+	DisplayName: 远古沉沦渊石床
 	Tooltip: ""
 }
 
 AncientNavystoneBench: {
-	DisplayName: Ancient Navystone Bench
+	DisplayName: 远古沉沦渊石长凳
 	Tooltip: ""
 }
 
 AncientNavystoneBookcase: {
-	DisplayName: Ancient Navystone Bookcase
+	DisplayName: 远古沉沦渊石书架
 	Tooltip: ""
 }
 
 AncientNavystoneCandelabra: {
-	DisplayName: Ancient Navystone Candelabra
+	DisplayName: 远古沉沦渊石烛台
 	Tooltip: ""
 }
 
 AncientNavystoneCandle: {
-	DisplayName: Ancient Navystone Candle
+	DisplayName: 远古沉沦渊石蜡烛
 	Tooltip: ""
 }
 
 AncientNavystoneChair: {
-	DisplayName: Ancient Navystone Chair
+	DisplayName: 远古沉沦渊石椅
 	Tooltip: ""
 }
 
 AncientNavystoneChandelier: {
-	DisplayName: Ancient Navystone Chandelier
+	DisplayName: 远古沉沦渊石吊灯
 	Tooltip: ""
 }
 
 AncientNavystoneChest: {
-	DisplayName: Ancient Navystone Chest
+	DisplayName: 远古沉沦渊石箱
 	Tooltip: ""
 }
 
 AncientNavystoneClock: {
-	DisplayName: Ancient Navystone Clock
+	DisplayName: 远古沉沦渊石钟
 	Tooltip: ""
 }
 
 AncientNavystoneDoor: {
-	DisplayName: Ancient Navystone Door
+	DisplayName: 远古沉沦渊石门
 	Tooltip: ""
 }
 
 AncientNavystoneDresser: {
-	DisplayName: Ancient Navystone Dresser
+	DisplayName: 远古沉沦渊石梳妆台
 	Tooltip: ""
 }
 
 AncientNavystoneLamp: {
-	DisplayName: Ancient Navystone Lamp
+	DisplayName: 远古沉沦渊石灯
 	Tooltip: ""
 }
 
 AncientNavystoneLantern: {
-	DisplayName: Ancient Navystone Lantern
+	DisplayName: 远古沉沦渊石灯笼
 	Tooltip: ""
 }
 
 AncientNavystonePiano: {
-	DisplayName: Ancient Navystone Piano
+	DisplayName: 远古沉沦渊石钢琴
 	Tooltip: ""
 }
 
 AncientNavystonePlatform: {
-	DisplayName: Ancient Navystone Platform
+	DisplayName: 远古沉沦渊石平台
 	Tooltip: ""
 }
 
 AncientNavystoneSink: {
-	DisplayName: Ancient Navystone Sink
-	Tooltip: Counts as a water source
+	DisplayName: 远古沉沦渊石水槽
+	Tooltip: 视为水源
 }
 
 AncientNavystoneTable: {
-	DisplayName: Ancient Navystone Table
+	DisplayName: 远古沉沦渊石桌
 	Tooltip: ""
 }
 
 AncientNavystoneWorkBench: {
-	DisplayName: Ancient Navystone Work Bench
+	DisplayName: 远古沉沦渊石工作台
 	Tooltip: ""
 }
 
 AncientSmoothNavystone: {
-	DisplayName: Ancient Smooth Navystone
+	DisplayName: 远古平滑沉沦渊石
 	Tooltip: ""
 }
 
@@ -2080,102 +2080,102 @@ EutrophicShelf: {
 }
 
 NavystoneBathtub: {
-	DisplayName: Navystone浴缸
+	DisplayName: 沉沦渊石浴缸
 	Tooltip: ""
 }
 
 NavystoneBed: {
-	DisplayName: Navystone床
+	DisplayName: 沉沦渊石床
 	Tooltip: ""
 }
 
 NavystoneBookcase: {
-	DisplayName: Navystone书架
+	DisplayName: 沉沦渊石书架
 	Tooltip: ""
 }
 
 NavystoneCandelabra: {
-	DisplayName: Navystone烛台
+	DisplayName: 沉沦渊石烛台
 	Tooltip: ""
 }
 
 NavystoneCandle: {
-	DisplayName: Navystone蜡烛
+	DisplayName: 沉沦渊石蜡烛
 	Tooltip: ""
 }
 
 NavystoneChair: {
-	DisplayName: Navystone椅
+	DisplayName: 沉沦渊石椅
 	Tooltip: ""
 }
 
 NavystoneChandelier: {
-	DisplayName: Navystone吊灯
+	DisplayName: 沉沦渊石吊灯
 	Tooltip: ""
 }
 
 NavystoneChest: {
-	DisplayName: Navystone箱
+	DisplayName: 沉沦渊石箱
 	Tooltip: ""
 }
 
 NavystoneClock: {
-	DisplayName: Navystone钟
+	DisplayName: 沉沦渊石钟
 	Tooltip: ""
 }
 
 NavystoneDoor: {
-	DisplayName: Navystone门
+	DisplayName: 沉沦渊石门
 	Tooltip: ""
 }
 
 NavystoneDresser: {
-	DisplayName: Navystone梳妆台
+	DisplayName: 沉沦渊石梳妆台
 	Tooltip: ""
 }
 
 NavystoneLamp: {
-	DisplayName: Navystone灯
+	DisplayName: 沉沦渊石灯
 	Tooltip: ""
 }
 
 NavystoneLantern: {
-	DisplayName: Navystone灯笼
+	DisplayName: 沉沦渊石灯笼
 	Tooltip: ""
 }
 
 NavystoneLyre: {
-	DisplayName: Navystone Lyre
+	DisplayName: 沉沦渊石里拉琴
 	Tooltip: ""
 }
 
 NavystonePlatform: {
-	DisplayName: Navystone平台
+	DisplayName: 沉沦渊石平台
 	Tooltip: ""
 }
 
 NavystoneSink: {
-	DisplayName: Navystone水槽
+	DisplayName: 沉沦渊石水槽
 	Tooltip: 视为水源
 }
 
 NavystoneTable: {
-	DisplayName: Navystone桌
+	DisplayName: 沉沦渊石桌
 	Tooltip: ""
 }
 
 NavystoneToilet: {
-	DisplayName: Navystone Toilet
+	DisplayName: 沉沦渊石马桶
 	Tooltip: ""
 }
 
 NavystoneTriclinium: {
-	DisplayName: Navystone Triclinium
+	DisplayName: 沉沦渊石餐桌
 	Tooltip: ""
 }
 
 NavystoneWorkBench: {
-	DisplayName: Navystone工作台
+	DisplayName: 沉沦渊石工作台
 	Tooltip: ""
 }
 
@@ -2570,7 +2570,7 @@ OtherworldlyChair: {
 }
 
 OtherworldlyChandelier: {
-	DisplayName: 异域烛台
+	DisplayName: 异域吊灯
 	Tooltip: ""
 }
 
@@ -3409,7 +3409,7 @@ VoidWorkBench: {
 }
 
 ChargedWulfrumEnergyBarrier: {
-	DisplayName: Charged Wulfrum Energy Barrier
+	DisplayName: 充能钨钢能量屏障
 	Tooltip: ""
 }
 
@@ -3464,7 +3464,7 @@ WulfrumDresser: {
 }
 
 WulfrumEnergyBarrier: {
-	DisplayName: Wulfrum Energy Barrier
+	DisplayName: 钨钢能量屏障
 	Tooltip: ""
 }
 
@@ -3494,7 +3494,7 @@ WulfrumPiano: {
 }
 
 WulfrumPlatform: {
-	DisplayName: Wulfrum Platform
+	DisplayName: 钨钢平台
 	Tooltip: ""
 }
 
@@ -3610,7 +3610,7 @@ AnodizedWulfrumPlatform: {
 
 AnodizedWulfrumSink: {
 	DisplayName: Anodized Wulfrum Sink
-	Tooltip: Counts as a water source
+	Tooltip: 视为水源
 }
 
 AnodizedWulfrumSleepingPod: {
@@ -3893,42 +3893,42 @@ ShellstoneSlab: {
 }
 
 BlackPearlPile: {
-	DisplayName: Black Pearl Pile
+	DisplayName: 黑珍珠堆
 	Tooltip: ""
 }
 
 PinkPearlPile: {
-	DisplayName: Pink Pearl Pile
+	DisplayName: 粉珍珠堆
 	Tooltip: ""
 }
 
 WhitePearlPile: {
-	DisplayName: White Pearl Pile
+	DisplayName: 白珍珠堆
 	Tooltip: ""
 }
 
 CyanCoral: {
-	DisplayName: Cyan Coral
+	DisplayName: 青珊瑚
 	Tooltip: ""
 }
 
 MagentaCoral: {
-	DisplayName: Magenta Coral
+	DisplayName: 品红珊瑚
 	Tooltip: ""
 }
 
 OrangeCoral: {
-	DisplayName: Orange Coral
+	DisplayName: 橙珊瑚
 	Tooltip: ""
 }
 
 LimeCoral: {
-	DisplayName: Lime Coral
+	DisplayName: 青柠珊瑚
 	Tooltip: ""
 }
 
 YellowCoral: {
-	DisplayName: Yellow Coral
+	DisplayName: 黄珊瑚
 	Tooltip: ""
 }
 
@@ -3995,7 +3995,7 @@ AerialiteBrickWall: {
 }
 
 AncientSmoothNavystoneWall: {
-	DisplayName: Ancient Smooth Navystone Wall
+	DisplayName: 远古平滑沉沦渊石墙
 	Tooltip: ""
 }
 
@@ -4139,7 +4139,7 @@ ElumplateWall: {
 }
 
 EutrophicGlassWall: {
-	DisplayName: Eutrophic Glass Wall
+	DisplayName: 富养玻璃墙
 	Tooltip: ""
 }
 
@@ -4344,7 +4344,7 @@ WulfrumComplexPanelWall: {
 }
 
 WulfrumEnergyBarrierWall: {
-	DisplayName: Wulfrum Energy Barrier Wall
+	DisplayName: 钨钢能量屏障墙
 	Tooltip: ""
 }
 
@@ -4649,11 +4649,11 @@ MossyStone: {
 }
 
 EutrophicSandWall: {
-	DisplayName: Unsafe Eutrophic Sand Wall
+	DisplayName: 危险富营养沙墙
 	Tooltip: ""
 }
 
 EutrophicSandWallSafe: {
-	DisplayName: Eutrophic Sand Wall
+	DisplayName: 富营养沙墙
 	Tooltip: ""
 }

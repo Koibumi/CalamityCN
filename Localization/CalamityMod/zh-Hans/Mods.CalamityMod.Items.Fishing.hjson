@@ -4,6 +4,7 @@ CaughtInBrimstoneCrag: 抓捕位置：硫火之崖
 CaughtInSnow: 抓捕位置：苔原
 CaughtInSpace: 抓捕位置：天湖
 CaughtInSunkenSea: 抓捕位置：沉沦之海
+LocationTooltip: "“{0}”"
 
 // Astral Infection Catches
 AldebaranAlewife: {
@@ -111,7 +112,7 @@ DragoonDrizzlefish: {
 
 Havocfish: {
 	DisplayName: 混乱鱼
-	QuestDescription: When you killed that gross flesh wall, so much chaos and havoc was infused into those ruinous crags that even the lava sprouted fish made of the pure essence! Go fetch it for me, pure havoc sounds like exactly what my next scheme needs!
+	QuestDescription: 当你杀死那堵恶心的血肉墙时，破败的崖壁被注入了如此多的混乱和混沌，以至于熔岩中出现了由纯精华构成的鱼！帮我把它抓来，纯净的混沌听起来正是我下个计划所需的！
 }
 
 Shadowfish: {
@@ -126,13 +127,13 @@ SlagCrate: {
 
 Slurpfish: {
 	DisplayName: 饮食者鱼
-	QuestDescription: 嘿 {0}，让你去地狱遗迹的岩浆里钓鱼听起来是不是灾灾又厄厄？但我听说那里有一条会啜人心魂的恐怖怪鱼！我还要保管好自己的灵魂，所以你快去！鱼可不会自己上钩！
+	QuestDescription: 嘿{0}，让你去地狱遗迹的岩浆里钓鱼听起来是不是灾灾又厄厄？但我听说那里有一条会啜人心魂的恐怖怪鱼！我还要保管好自己的灵魂，所以你快去！鱼可不会自己上钩！
 }
 
 // Sunken Sea Catches
 CoralskinFoolfish: {
-	DisplayName: Coralskin Foolfish
-	Tooltip: 伪装是大自然最绝佳的防御之一
+	DisplayName: 珊瑚拟态鲽
+	Tooltip: 伪装是自然最好的防御之一
 }
 
 EutrophicCrate: {
@@ -159,8 +160,8 @@ MoltenFishron: {
 	DisplayName: Molten Fishron
 	Tooltip:
 		'''
-		Instead of honking it makes crisp wheezing noises 
-		Or maybe it actually is wheezing due to being taken out of lava
+		它没有叫而是发出清脆的喘息声 
+		或者它实际上可能是因为刚被从熔岩中带出而正在喘息
 		'''
 }
 
@@ -171,7 +172,7 @@ PrismCrate: {
 
 PrismaticGuppy: {
 	DisplayName: 棱晶孔雀鱼
-	Tooltip: Throwing these in an aquarium would be insanity
+	Tooltip: 把这玩意养在水族箱里？你肯定是疯了
 }
 
 RustedJingleBell: {
@@ -196,11 +197,10 @@ Serpentuna: {
 
 SparklingEmpress: {
 	DisplayName: 闪光皇后鱼
-	Tooltip: "[GFB]"
 	Tooltip:
 		'''
-		Fires a concentrated laser to annihilate your foes
-		Defeated enemies explode into prism shards
+		发射一道聚焦激光来歼灭你的敌人
+		被击杀的敌人会爆出棱晶碎片
 		'''
 }
 
@@ -240,7 +240,7 @@ EnchantedStarfish: {
 
 FishofEleum: {
 	DisplayName: 冰川鱼
-	QuestDescription: It's so unfair that all the cool fish only come out when you slay big demon guys! I mean that "cool" in two ways by the way. I've seen fish in the tundra materialized out of the essence of pure coldness! It's about time I get an ice pack for my fish, so fetch me that fish, or you're cold!
+	QuestDescription: 伙计，凭什么所有冷酷的鱼都在你杀死大恶魔后才跑出来！顺带一提，我说的“冷酷”是两方面的。我在苔原中见过由极寒精华化成的鱼！是时候给我的鱼搞个冰袋了，所以快去把那条鱼抓来，否则有你好看！
 }
 
 FishofFlight: {
@@ -284,7 +284,7 @@ SulphurousCrate: {
 
 SunbeamFish: {
 	DisplayName: 日光鱼
-	QuestDescription: Have you ever seen those sunskaters that float way above the clouds? Well, I'll let you in on my little secret: They began their lives as little fish! So what are you waiting for, go reach for the stars and pluck one down for me!
+	QuestDescription: 你见过那些飘浮在云上的寻阳鱼吗？好吧，我可以告诉你个小秘密：它们最开始也是小鱼！所以你还等什么，去找颗星星然后抓一条给我！
 }
 
 // Fishing Rods
@@ -384,13 +384,13 @@ GrandMarquisBait: {
 
 // Bobbers
 ScrapBobber: {
-	DisplayName: Wulfrum Bobber
+	DisplayName: 钨钢浮标
 	Tooltip:
 		'''
 		提供钓鱼小游戏
 		钓鱼时朝指示方向移动以捕获物品
 		你持续无误操作的时间越长，钓竿会增强，钓鱼速度加快
-		“本来应该安装了一个探鱼器，但那玩意只在你指着自己时发出哔哔声……”
+		“本来应该安装了一个探鱼器，但那玩意只在你指着自己时哔哔叫……”
 		'''
 }
 
@@ -406,7 +406,7 @@ NavystoneBobber: {
 }
 
 SkylineBobber: {
-	DisplayName: Acrobatic Bobber
+	DisplayName: 杂技浮标
 	Tooltip:
 		'''
 		{$ItemTooltip.FishingBobber}
@@ -419,7 +419,7 @@ SkylineBobber: {
 }
 
 PerennialBobber: {
-	DisplayName: Feral Bobber
+	DisplayName: 野性浮标
 	Tooltip:
 		'''
 		{$ItemTooltip.FishingBobber}

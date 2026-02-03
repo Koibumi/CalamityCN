@@ -1874,7 +1874,7 @@ TheAmalgam: {
 	DisplayName: The Amalgam
 	Tooltip:
 		'''
-		All attacks inflict a variety of debuffs, 200% increased elemental debuff damage
+		All attacks inflict a variety of debuffs, 300% increased elemental debuff damage
 		Most buffs last twice as long, and persist after dying
 		Taking damage confuses nearby enemies and spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds
