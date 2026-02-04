@@ -1,12 +1,12 @@
 // Critters
 AlphaSeaMinnowItem: {
-	DisplayName: "{$NPCs.AlphaSeaMinnow.DisplayName}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.AlphaSeaMinnow.DisplayName}"
+	// Tooltip: ""
 }
 
 AlphaSeaMinnowGoldItem: {
-	DisplayName: "{$NPCs.AlphaSeaMinnowGold.DisplayName}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.AlphaSeaMinnowGold.DisplayName}"
+	// Tooltip: ""
 }
 
 AndroombaItem: {
@@ -19,208 +19,208 @@ AndroombaItem: {
 }
 
 BabyCannonballJellyfishItem: {
-	DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
+	// DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
 	Tooltip: 可以被大炮发射
 }
 
 BabyFlakCrabItem: {
-	DisplayName: "{$NPCs.BabyFlakCrab.DisplayName}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.BabyFlakCrab.DisplayName}"
+	// Tooltip: ""
 }
 
 BabyGhostBellItem: {
-	DisplayName: Blue Baby Ghost Bell
-	Tooltip: ""
+	// DisplayName: Blue Baby Ghost Bell
+	// Tooltip: ""
 }
 
 BabyGhostBellGoldItem: {
-	DisplayName: "{$NPCs.GoldBabyGhostBell}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.GoldBabyGhostBell}"
+	// Tooltip: ""
 }
 
 BabyGhostBellGreenItem: {
-	DisplayName: Green Baby Ghost Bell
-	Tooltip: ""
+	// DisplayName: Green Baby Ghost Bell
+	// Tooltip: ""
 }
 
 BabyGhostBellRadiantItem: {
-	DisplayName: "{$NPCs.RadiantBabyGhostBell}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.RadiantBabyGhostBell}"
+	// Tooltip: ""
 }
 
 BabyGhostBellPinkItem: {
-	DisplayName: Pink Baby Ghost Bell
-	Tooltip: ""
+	// DisplayName: Pink Baby Ghost Bell
+	// Tooltip: ""
 }
 
 GildedAxolotlItem: {
-	DisplayName: Gilded Axolotl
-	Tooltip: ""
+	// DisplayName: Gilded Axolotl
+	// Tooltip: ""
 }
 
 NanodroidDysfunctionalItem: {
 	DisplayName: 功能失调的纳米机器人
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 NanodroidItem: {
 	DisplayName: "{$NPCs.Nanodroid.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 NanodroidPlagueGreenItem: {
 	DisplayName: 绿色瘟疫纳米机器人
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 NanodroidPlagueRedItem: {
 	DisplayName: 红色瘟疫纳米机器人
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 PearlpodBlackItem: {
-	DisplayName: Black Pearlpod
-	Tooltip: ""
+	// DisplayName: Black Pearlpod
+	// Tooltip: ""
 }
 
 PearlpodItem: {
-	DisplayName: White Pearlpod
-	Tooltip: ""
+	// DisplayName: White Pearlpod
+	// Tooltip: ""
 }
 
 PearlpodPinkItem: {
-	DisplayName: Pink Pearlpod
-	Tooltip: ""
+	// DisplayName: Pink Pearlpod
+	// Tooltip: ""
 }
 
 PolypPanaseaGoldItem: {
-	DisplayName: "{$NPCs.GoldPolypPanasea}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.GoldPolypPanasea}"
+	// Tooltip: ""
 }
 
 PolypPanaseaGreenItem: {
-	DisplayName: Green Polyp Panasea
-	Tooltip: ""
+	// DisplayName: Green Polyp Panasea
+	// Tooltip: ""
 }
 
 PolypPanaseaItem: {
-	DisplayName: Red Polyp Panasea
-	Tooltip: ""
+	// DisplayName: Red Polyp Panasea
+	// Tooltip: ""
 }
 
 PolypPanaseaPurpleItem: {
-	DisplayName: Purple Polyp Panasea
-	Tooltip: ""
+	// DisplayName: Purple Polyp Panasea
+	// Tooltip: ""
 }
 
 PolypPanaseaRadiantItem: {
-	DisplayName: "{$NPCs.RadiantPolypPanasea}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.RadiantPolypPanasea}"
+	// Tooltip: ""
 }
 
 PolypPanaseaTurquoiseItem: {
-	DisplayName: Turquoise Polyp Panasea
-	Tooltip: ""
+	// DisplayName: Turquoise Polyp Panasea
+	// Tooltip: ""
 }
 
 PiggyItem: {
 	DisplayName: "{$NPCs.Piggy.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 PrismaticGuppyBlueItem: {
-	DisplayName: Blue Prismatic Guppy
-	Tooltip: ""
+	// DisplayName: Blue Prismatic Guppy
+	// Tooltip: ""
 }
 
 PrismaticGuppyGoldItem: {
-	DisplayName: "{$NPCs.GoldPrismaticGuppy}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.GoldPrismaticGuppy}"
+	// Tooltip: ""
 }
 
 PrismaticGuppyGreenItem: {
-	DisplayName: Green Prismatic Guppy
-	Tooltip: ""
+	// DisplayName: Green Prismatic Guppy
+	// Tooltip: ""
 }
 
 PrismaticGuppyPinkItem: {
-	DisplayName: Pink Prismatic Guppy
-	Tooltip: ""
+	// DisplayName: Pink Prismatic Guppy
+	// Tooltip: ""
 }
 
 PrismaticGuppyRadiantItem: {
-	DisplayName: "{$NPCs.RadiantPrismaticGuppy}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.RadiantPrismaticGuppy}"
+	// Tooltip: ""
 }
 
 ProbesnoutGoldItem: {
-	DisplayName: "{$NPCs.ProbesnoutGold.DisplayName}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.ProbesnoutGold.DisplayName}"
+	// Tooltip: ""
 }
 
 ProbesnoutItem: {
-	DisplayName: "{$NPCs.Probesnout.DisplayName}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.Probesnout.DisplayName}"
+	// Tooltip: ""
 }
 
 RepairUnitItem: {
 	DisplayName: "{$NPCs.RepairUnitCritter.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 SeaFloatyItem: {
 	DisplayName: "{$NPCs.SeaFloaty.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 SeaMinnowItem: {
 	DisplayName: "{$NPCs.SeaMinnow.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 SeaMinnowGoldItem: {
-	DisplayName: "{$NPCs.SeaMinnowGold.DisplayName}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.SeaMinnowGold.DisplayName}"
+	// Tooltip: ""
 }
 
 SearslugItem: {
-	DisplayName: "{$NPCs.Searslug.DisplayName}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.Searslug.DisplayName}"
+	// Tooltip: ""
 }
 
 ShoreskipperItem: {
 	DisplayName: "{$NPCs.Shoreskipper.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 ShroombleItem: {
 	DisplayName: "{$NPCs.Shroomble.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 SlugbunBurrowsItem: {
-	DisplayName: Burrows Slugbun
-	Tooltip: ""
+	// DisplayName: Burrows Slugbun
+	// Tooltip: ""
 }
 
 SlugbunItem: {
-	DisplayName: Reef Slugbun
-	Tooltip: ""
+	// DisplayName: Reef Slugbun
+	// Tooltip: ""
 }
 
 SlugbunPolypItem: {
-	DisplayName: Polyp Slugbun
-	Tooltip: ""
+	// DisplayName: Polyp Slugbun
+	// Tooltip: ""
 }
 
 SlugbunRadiantItem: {
-	DisplayName: "{$NPCs.RadiantSlugbun}"
-	Tooltip: ""
+	// DisplayName: "{$NPCs.RadiantSlugbun}"
+	// Tooltip: ""
 }
 
 TwinklerItem: {
 	DisplayName: "{$NPCs.Twinkler.DisplayName}"
-	Tooltip: ""
+	// Tooltip: ""
 }
 
 // Permanent Boosters

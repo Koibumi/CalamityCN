@@ -209,6 +209,7 @@ CrushsawCrasher: {
 		留祸
 		硫磺
 		牛黄
+		流灭
 		'''
 	GFBLastWords:
 		'''
@@ -218,6 +219,8 @@ CrushsawCrasher: {
 		吠爪
 		辉爪
 		灰爪
+		飞瓜
+		灰瓜
 		'''
 	GFBWordSeparator: ""
 }
@@ -775,10 +778,10 @@ NanoblackReaper: {
 		'''
 	HoldShiftTooltip:
 		'''
-		'He who picks up the pen writes the script.
-		She has no intention of ever putting it down.
-		Her design eclipses your countable stars.
-		The gleam She exudes will put them all to shame.'
+		“他执笔书写剧本。
+		“而她从未有意放下。
+		“她的设计可令你们那可数的星辰尽皆失色。
+		“她无意间流溢的光华就会将其贬若云泥。”
 		'''
 	FlavorTooltip: “生灵在她的无尽仇恨中溺亡”
 }
@@ -1314,6 +1317,7 @@ Vega: {
 		潜伏攻击会召唤天琴座的图象，在一片区域内造成大量伤害
 		<right>消耗20星芒并立刻进行一次潜伏攻击，这与当前潜行值无关
 		此击也会召唤所有的星星碎片攻击被伤害的敌怪并施加[cbuff:CalamityMod/Voidfrost]
+		使用Vega消耗了星芒的10秒后，即使没有穿着盗贼盔甲，也可以施展潜伏攻击
 		“被误解天才的绝唱……亦或只是个疯子”
 		'''
 }

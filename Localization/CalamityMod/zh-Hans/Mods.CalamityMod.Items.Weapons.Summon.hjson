@@ -491,7 +491,7 @@ HivePod: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		Summons an astraglomerate to spawn glomerings at your enemies
+		召唤一只astraglomerate来向你的敌人放出glomerings。
 		'''
 }
 

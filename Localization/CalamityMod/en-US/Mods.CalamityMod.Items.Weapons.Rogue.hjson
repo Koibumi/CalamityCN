@@ -1328,6 +1328,7 @@ Vega: {
 		Stealth strikes conjure an image of Lyra to deal immense damage in an area
 		<right> to consume 20 Starbursts and immediately perform a stealth strike, regardless of your current Stealth
 		This strike calls all star fragments to attack the damaged foe and inflicts [cbuff:CalamityMod/Voidfrost]
+		Consuming Starbursts with Vega allows using stealth for 10 seconds, even without rogue armor
 		'The final song of a misunderstood genius... or just a madman'
 		'''
 }

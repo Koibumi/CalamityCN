@@ -27,7 +27,7 @@
         {
             "Lines": [
                 "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):你不是神......]]",
-                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):但你的灵魂[Pause(0.2):仍]是我的盛宴！]]"
+                "[Scale(1.5):[Colors(0.1, 1, 00FFFF, FF00FF):但你的灵魂[Pause(0.2)]仍是我的盛宴！]]"
             ]
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "Lines": [
-                "[Colors(0.3, 3, FF00FF, 00FFFF):[Shaking(5):[Scale(1.6):神！]][Shaking:[Scale(1.6):[Pause(0.4): 不]]][Shaking:[Scale(1.6):惧]][Shaking(5):[Scale(1.8):死]][Shaking(5):[Scale(2):亡！]]]"
+                "[Colors(0.3, 3, FF00FF, 00FFFF):[Shaking(5):[Scale(1.6):神！]][Shaking:[Scale(1.6):[Pause(0.4)] 不]][Shaking:[Scale(1.6):惧]][Shaking(5):[Scale(1.8):死]][Shaking(5):[Scale(2):亡！]]]"
             ]
         }
     ]
