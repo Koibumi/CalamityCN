@@ -95,13 +95,13 @@ NPCName: {
 }
 
 CommonEntries: {
-	DemonEye: That suspicious feeling of being watched may very well come true in the dark of night, when the Eye of Cthulhu's minions roam the skies.
-	SandShark: Sand Sharks lived in the shallow waters of Ilmeris, hiding beneath the sand. They were thankfully well equipped to deal with the fallout of the Incineration.
-	AngryBones: Cursed with undeath, the former prisoners of the Dungeon roam endlessly through its halls, seeking a victim for their unending fury.
-	BlueArmoredBones: Mercenaries hired by Yharim to guard the Dungeon, the Marching Blues were disciplined and relentless, sundering any escapees that decided to rise against their jailors.
-	HellArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Azafure, the fiery glow of the Molten Legion is unmistakable. When the halls of the Dungeon lit up, every prisoner knew hell would be let loose.
-	RustyArmoredBones: Mercenaries hired by Yharim to guard the Dungeon hailing from Underground factions, the Rusted Company's weapons are jagged and rough through use and neglect. The brutality they employed on the field was enough to make many prisoners give up on freedom.
-	Diabolist: Mages of Azafure who bear the Diabolic Sigil, a certificate of their prowess, wielding flames as intense as any in the underworld. They were effective at blocking passageways and at making prisoners talk.
-	Necromancer: These sorcerers were trained in Azafure and bore the Necromantic Sign, a certificate of their prowess. Much like they terrorized prisoners with the bodies of their friends, so do they terrorize the Dungeon now.
-	RaggedCaster: Casters directly from the Dragon Cult, their cursed magic leaves their victims helplessly lost in utter darkness. They perished attempting to contain the onslaught that happened beneath their halls.
+	DemonEye: 漆黑的夜里，克苏鲁之眼的仆从游荡在空中，你的被监视感很可能并非错觉。
+	SandShark: 沙鲨栖息于伊尔梅里斯的浅水区，藏身于沙层之下。它们具备出色的适应力，得以在灾厄焚海的余波下幸存。
+	AngryBones: 受到不死诅咒的原地牢囚徒在大厅中不停游荡，想找一个宣泄无尽愤怒的对象。
+	BlueArmoredBones: 雇佣兵团“黯蓝行军”，在亚利姆授意下镇守地牢。它们纪律严明、冷酷无情，对任何胆敢反抗狱卒的逃亡者都绝不留情，予以剿灭。
+	HellArmoredBones: 来自阿萨福勒的雇佣兵团“熔火军团”，在亚利姆授意下镇守地牢，没人会认它们的炽热光芒。当地牢的走廊被照亮时，每个囚犯都明白，地狱之门即将开启。
+	RustyArmoredBones: 来自地底派系的雇佣兵团“锈蚀连队”，在亚利姆授意下镇守地牢。它们的武器由于经年使用和疏于养护，已有豁口，且非常粗糙。它们在战场上的残酷行径，足以令众多囚犯彻底放弃对自由的渴望。
+	Diabolist: 阿萨福勒的法师，肩上的魔教旗昭告着它们强大的力量。它们挥舞着猛烈的火焰，宛如自地狱而来，精于封锁退路，迫使囚犯开口招供。
+	Necromancer: 这些巫士曾在阿萨福勒受训，身携的死灵标旗昭告着它们强大的力量。过去，囚犯们眼看自己友人的尸骸被它们唤起，无不心惊胆战。如今，它们用着同一套手段，在地牢中横行。
+	RaggedCaster: 直属于巨龙教的施法者，它们施展的诅咒魔法会让受害者无助地迷失于无尽的黑暗。在对抗来自于地牢深处的猛烈攻势时，他们最终命丧黄泉。
 }
