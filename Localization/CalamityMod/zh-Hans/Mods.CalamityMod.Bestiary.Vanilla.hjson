@@ -19,7 +19,7 @@ NPCName: {
 	GreekSkeleton: 大理石洞穴在神攫时代会被用作竞技场。追求荣誉的斗士曾蜂拥而至，但如今满眼所见只有他们的躯壳。
 	UndeadViking: 圣战过后，天下割据，群雄四起。维京人就是其中之一，但他们还是太轻易败给了苔原的寒风。
 	IcyMerman: 人鱼很少会远离海洋，那里有丰沛的海水，而且是他们所崇敬的元素之灵如今的居所。这样做可能会迷路走到寒冷的洞穴里，变成冰冷的不死鱼人。
-	IceElemental: After splitting, the fragments of an Elemental may become stranded and inaccessible. Ice Elementals were once part of Anahita, left behind during her journey to the Ocean. 它们冰冷的碎片能冻结一切。
+	IceElemental: 元素之灵的碎片破裂之后，就会被切断而无法重联。冰雪精曾是阿娜希塔的一部分，在她的海洋之旅中被落在了后面。它们冰冷的碎片能冻结一切。
 	DesertBeast: 作为扎根旱地的巨龙分支，蛇蜥怪坚硬的躯体使其成为强大的威胁。
 	DuneSplicerHead: 沙漠中体型最大的普通蠕虫。即使在神圣魔法的加持下，它们也仍旧弱于灾虫，只会被饥饿裹挟，癫狂奔行。
 	SandElemental: 破碎的大地元素通过利用不同材料的特性所呈现出的最强大的一种形态。作为一种柔媚的形态，她召唤出来的龙卷风能撕毁一切。
@@ -27,7 +27,7 @@ NPCName: {
 	SandsharkCorrupt: "{$CommonEntries.SandShark}"
 	SandsharkCrimson: "{$CommonEntries.SandShark}"
 	SandsharkHallow: "{$CommonEntries.SandShark}"
-	MeteorHead: When meteorites strike the surface, their fragments lay scattered for the taking. Some pieces have a higher mana density, coming to life and attacking anything nearby.
+	MeteorHead: 当陨石撞击地表时，碎片散落一地，等着被捡走。有些碎片的魔力密度更高，就会活过来并攻击周遭的一切。
 	AngryBones: "{$CommonEntries.AngryBones}"
 	AngryBonesBig: "{$CommonEntries.AngryBones}"
 	AngryBonesBigMuscle: "{$CommonEntries.AngryBones}"
@@ -44,24 +44,24 @@ NPCName: {
 	RustyArmoredBonesFlail: "{$CommonEntries.RustyArmoredBones}"
 	RustyArmoredBonesSword: "{$CommonEntries.RustyArmoredBones}"
 	RustyArmoredBonesSwordNoArmor: "{$CommonEntries.RustyArmoredBones}"
-	SkeletonSniper: Part of Yharim's military force in their past lives, these eagle-eyed sharpshooters let nothing escape their crosshairs, even when their place of operation were these cramped halls.
-	TacticalSkeleton: Part of Yharim's military force in their past lives, with thick armor and mighty boomsticks, they were the frontline against the invader that massacred the guards in these halls.
-	SkeletonCommando: Part of Yharim's military force in their past lives, their rocket-powered rage could wipe out entire crowds of escapees had they ever once dared to step out of their cells.
-	BoneLee: This Onyx Kinsman was apprehended by Yharim's troops, and after countless failed escape attempts, used as an example to other prisoners.
-	Paladin: Several Godseeker Knights were assigned to guard the Dungeon, yet not even they could fight against, much less see, their killer. Word of the massacre that happened in these halls never got out, the wails of the dead forever silenced.
+	SkeletonSniper: 作为亚利姆军队曾经的一员，这些鹰眼神枪手不会放过任何目标，即使他们如今的战场是这狭窄的厅堂。
+	TacticalSkeleton: 作为亚利姆军队曾经的一员，这些骷髅准备了厚重的盔甲和强大的三发猎枪，当有侵略者闯入厅堂屠戮守卫时，就由他们来充当前线。
+	SkeletonCommando: 作为亚利姆军队曾经的一员，这些被诅咒的骷髅的火箭动力怒火可以把整群的越狱者清除殆尽，只要他们敢踏出牢房一步。
+	BoneLee: 这位玛瑙族人曾被亚利姆的部队拘押，在无数失败的越狱尝试之后，他被当成了典型，以儆效尤。
+	Paladin: 一些寻神者骑士曾被派来守护地牢，但即使是他们，也无法在死前予以反击，更何况完全看不到自己葬身谁手。关于这场大屠杀的消息从来没有传出外界，属于亡者的墙壁唯余沉默。
 	DiabolistRed: "{$CommonEntries.Diabolist}"
 	DiabolistWhite: "{$CommonEntries.Diabolist}"
 	Necromancer: "{$CommonEntries.Necromancer}"
 	NecromancerArmored: "{$CommonEntries.Necromancer}"
 	RaggedCaster: "{$CommonEntries.RaggedCaster}"
 	RaggedCasterOpenCoat: "{$CommonEntries.RaggedCaster}"
-	DungeonGuardian: The Old Man is cursed to never leave nor enter the Dungeon, much less die. Whoever crosses paths with him and dares to descend into those halls shall not pass!
-	BoneSerpentHead: Mighty serpentine beasts ruled hell since before history, but after the demise of their liege, godly wrath had their obsidian scales immolated. Now only their skeletal husks remain, forced by stolen spells to protect demonic territory.
-	Demon: Despite being a primitive civilization, demons populate most of the underworld. Unlike their lesser brothers, they cast shadow magic rather than hell magic.
-	VoodooDemon: Demons have several religious practices, especially sacrifices. They worship the Wall of Flesh ever since it started roaming the underworld, using offerings to draw it closer.
-	RedDevil: Conjuring potent spears of dark magic, these elite demons hunt after the adventurer that destroyed their perceived deity.
-	WyvernHead: Deeply in tune with the magic of the world, these serpentine dragons guard the skyward ruins of Chrysadia on behalf of the Storm Dragon. Now, their duty calls louder as divine essence surges through the land.
-	Harpy: Winged, demi-human creatures from distant southward mountains who came to inhabit the sky archipelago after the ruin of its old civilization. They defend their new territory fiercely against invaders with their razor-sharp feathers.
+	DungeonGuardian: 老人被诅咒永世不得离开地牢，甚至不能死去。敢下到这些厅堂之中，与他狭路相逢的人，都不得通过！
+	BoneSerpentHead: 威猛的蛇形猛兽从史前时代就曾统治着地狱，但当它们的君主陨落后，神明的怒火就熔毁了它们的黑曜石蛇鳞。如今它们剩下的只有骨架，却还由被窃取的咒语驱使着保护恶魔的领土。
+	Demon: 尽管只是一种原始文明，恶魔还是遍布着地狱的大部分地区。与它们的小兄弟不同，恶魔使用的是暗影魔法，而非地狱魔法。
+	VoodooDemon: 恶魔有不少宗教实践，尤其是血祭。自从血肉墙开始在地狱游荡，它们就开始崇拜它，为其献上祭品来祈求接近。
+	RedDevil: 这些精英恶魔能召唤出强大的黑魔法长矛，用以狩猎那些摧毁了被它们认作神明之物的挑战者。
+	WyvernHead: 因其与世间的魔力紧密相连，这些蛇形龙类为风暴巨龙而守护着克里沙迪亚向着天空的废墟。如今，神明精华流溢遍地，它们使命的呼唤比以往更为强烈。
+	Harpy: 半人半鸟的女鸟妖，Winged, demi-human creatures from distant southward mountains who came to inhabit the sky archipelago after the ruin of its old civilization. They defend their new territory fiercely against invaders with their razor-sharp feathers.
 	MartianProbe: Sensing growing power on the planet, otherworldly beings send space-age technology to scan for valuable resources.
 	SeekerHead: Godly magicks have unleashed the dark influences that gave birth to the Eater of Worlds, producing smaller, but just as deadly worms.
 	DesertDjinn: Buried in these caves lie cryptic artifacts older than Ilmeris, their origins swept away by the sands of time. Corrupted by divine magicks, the once friendly djinns within them now reemerge, full of hostility.
