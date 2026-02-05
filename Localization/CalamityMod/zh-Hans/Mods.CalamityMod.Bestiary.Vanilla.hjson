@@ -61,14 +61,16 @@ NPCName: {
 	VoodooDemon: 恶魔有不少宗教实践，尤其是血祭。自从血肉墙开始在地狱游荡，它们就开始崇拜它，为其献上祭品来祈求接近。
 	RedDevil: 这些精英恶魔能召唤出强大的黑魔法长矛，用以狩猎那些摧毁了被它们认作神明之物的挑战者。
 	WyvernHead: 因其与世间的魔力紧密相连，这些蛇形龙类为风暴巨龙而守护着克里沙迪亚向着天空的废墟。如今，神明精华流溢遍地，它们使命的呼唤比以往更为强烈。
-	Harpy: 半人半鸟的女鸟妖，Winged, demi-human creatures from distant southward mountains who came to inhabit the sky archipelago after the ruin of its old civilization. They defend their new territory fiercely against invaders with their razor-sharp feathers.
-	MartianProbe: Sensing growing power on the planet, otherworldly beings send space-age technology to scan for valuable resources.
-	SeekerHead: Godly magicks have unleashed the dark influences that gave birth to the Eater of Worlds, producing smaller, but just as deadly worms.
-	DesertDjinn: Buried in these caves lie cryptic artifacts older than Ilmeris, their origins swept away by the sands of time. Corrupted by divine magicks, the once friendly djinns within them now reemerge, full of hostility.
-	ChaosElemental: Manifestations of the unstable Essence of the Hallow, they erratically make chase with an uncontrollable surge of luminous power.
-	GoblinThief: Thieves forcefully conscripted in the Goblin Army in exchange for freedom, these pesky foes specialize in nimble movement and close-quarters combat.
-	GoblinSummoner: Goblins that reach such a mastery over the arcane are treated like royalty, prize jewels of their society. Warlocks in particular conjure unfathomable shadowflame ghasts through a powerful hex.
-	GoblinSorcerer: Goblins struggle to manipulate magic, only scantily capable of conjuring the simplest of spells. Those that can have the potential for manipulating magicked shadow energy through a form of hexing.
+	Harpy: 来自南方远山的有翼亚人，在旧文明覆灭后迁居天空群岛，他们通过用锋利的羽毛刺穿入侵者来保护自己的地盘不被侵犯。
+	MartianProbe: 异界生物察觉到星球上的力量不断壮大，便派出太空时代的技术来扫描寻找宝贵的资源。
+	SeekerHead: 神明魔法释放了黑暗的影响力，催生了世界吞噬怪，产生了更小但同样致命的蠕虫。
+	DesertDjinn: 被埋在存放着比伊尔梅里斯更古老的神秘古物的洞穴中，它们的起源早已被时间之沙冲走了，神圣的魔法腐化了昔日友善的沙漠巨灵的心智，它们归来了，满腔敌意。
+	ChaosElemental: 作为神圣之地那不稳定本质的具象化，它们会带着无法控制的发光能量，疯狂地追逐。
+	GoblinThief: 这些恼人的盗贼们被强征加入哥布林军队以换取自由，他们尤其擅长敏捷移动和近身作战。
+	GoblinSummoner: 那些精通魔法的哥布林在其族群中尊如王侯，珍若瑰宝。术士尤其擅长通过强大的魔法召唤出高深莫测的暗影焰恶魂。
+	GoblinSorcerer: 哥布林们努力操纵魔法，只能勉强施展最简单的咒语，有些擅长操纵的哥布林能通过巫术变出暗影能量。
+
+
 	PirateCaptain: A pirate captain's love for riches is only rivaled by his desire to explore! Word that the Crusade had seemingly ended spread fast across the world, and abundances to plunder in this continent attracted this sea dweller and his motley crew.
 	MartianSaucerCore: Following the destruction of their planet by otherworldly creatures, the Martians' military evolved at an unprecedented rate. They were prepared to fight back any future threats, and also pillage any other worlds they could find.
 	TorchGod: An unknown entity responsible for a torch's eternal flicker, however easily angered by the unsightly, ungrateful abuse of torch placement.
