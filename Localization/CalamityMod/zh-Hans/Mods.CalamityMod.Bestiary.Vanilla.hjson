@@ -82,16 +82,16 @@ NPCName: {
 	TheDestroyer: Despite being made with repurposed mining equipment, the Destroyer was built for fighting other deities in single combat, decorated in laser-armed probes, which detach from its body when damaged.
 	SkeletronPrime: Built with the express purpose of inciting fear into the hearts of any god worshiper, this machine has more arms than ever before, and a variety of fierce weapons.
 	Plantera: A dormant, yet powerful floral guardian grown by the elders of the Vernal Pass, using volatile animal souls as nourishment. Unshackled in a fit of herbage carnage, its reach now spans the entire jungle.
-	HallowBoss: Despite their parentage, children of gods do not inherit a shred of their power. The Empress chose to claim power for herself by siphoning it from other places and beings. She found a perfect candidate in the Hallow due to its unstable nature, and is now transformed into a mighty fae.
-	Golem: A remarkable display of ingenuity constructed by the Lihzahrd race. Seeking light after they hid away in their temple out of shame for driving their goddess away, they built this construct. Powered by solar energy cells, it is ready to guard the Temple.
-	DukeFishron: An aquatic-evolved species which lives in isolation in the depths of the ocean. Despite their shortcomings, they still share blood with the dragons of old, claiming near complete dominion over the oceans. Legends claim it only surfaces in search of a rare, savory type of worm.
-	CultistBoss: The fanatical leader of the Dragon Cult, hell-bent on resurrecting a dragon. He upholds their sacred duty of keeping the cosmic behemoth sealed far away on the moon, an oath he swore to long ago when he pledged himself in their service.
-	CultistDevote: Utterly devoted, Lunatic Devotees are so paranoid over the prospect of their ritual failing that they stay unflinching even when threatened with death. Fear only makes them work harder.
-	LunarTowerNebula: The second pillar, created to spawn beings from beyond that filled the Minds of all with gloom. These troops specialized in disabling the enemy's intelligence, ensuring no countermeasures could be planned against the dominator.
-	LunarTowerSolar: The fourth and last pillar, created as Sunlight bled and marked doom. A miniscule shard of its power was used to make it, and yet its spawns accompanied the dominator directly in his conquest against the dragons.
-	LunarTowerVortex: The first pillar, created as black Storm clouds on the horizon loomed. While the dominator fought the mightiest of dragons, the spawns of this pillar focused on exterminating any mundane life they could find, appearing in seemingly infinite droves.
-	LunarTowerStardust: The third Pillar, created as Life rose to fight, but was given no room. Its spawns found particular utility in searching and picking off stronger beings that could pose a threat to the creatures of the Vortex.
-	MoonLordCore: The cosmic behemoth that brought Terraria to its knees 800 years ago, freed from its lunar prison in a weakened state. It had the power to siphon and dominate souls, including those possessed by dragons, permanently wounding them. It hails from an incomprehensible fissure of broken spacetime which leeches energy from our dimension to sustain itself.
+	HallowBoss: 纵然流淌着神之血脉，神之子们却没有继承分毫神力。光之女皇惟有从其他领域与生灵之中汲取力量，以期打造自己的权柄。而那片神圣之地，因其不稳定的本质，成了她觊觎的绝佳目标。如今，她已化身为一位强大的妖灵。
+	Golem: 丛林蜥蜴族群匠心独具的杰作。自驱逐族中女神以来，蜥蜴人们心怀羞愧，躲进神庙之中，一心寻觅光明。它由太阳能电池供电，随时准备保卫神庙。
+	DukeFishron: 一种在深海中独自繁衍生息的水生进化物种。尽管存在种种不足，它们仍与古老龙族血脉相连，宣称对海洋拥有近乎绝对的统治权。传说中，它们浮出水面只为寻找一种稀有而美味的蠕虫。
+	CultistBoss: 巨龙教的狂热首领，一心执念于复活巨龙。他恪守着神圣的职责，将一头宇宙巨兽封印于遥远月面，这是他多年前立誓效巨龙教时便已许下的庄重誓言。
+	CultistDevote: 全心全意的忠教徒，对仪式失败的担忧近乎偏执，即使面对死亡的威胁也始终忠于使命。恐惧只会让他们更加拼命。
+	LunarTowerNebula: 第二根天界柱，能够唤来异界生物，令生者的心灵皆被阴霾笼罩。它的部众专精于瓦解敌人的心智，防止任何人暗中谋划反击，威胁其主宰。
+	LunarTowerSolar: 第四根，亦是最后的天界柱，诞生于日光如血之际，标志着末日降临。其主宰仅取微末力量便铸就此柱，个中造物一经孕育，便追随主宰，投身于对抗巨龙的征伐之中。
+	LunarTowerVortex: 第一根天界柱，诞生于天际乌云如墨、暴风骤起之时。当其主宰与最强大的巨龙鏖战之际，此柱孕育的生灵倾巢而出，好似无穷无尽，专注于剿灭所遇的一切凡俗生命。
+	LunarTowerStardust: 第三根天界柱，诞生于生命奋起反抗却无立足之地之时。其所孕育之物功勋卓著，只因凡是可能威胁星旋造物的强大存在，皆会被其部众寻来猎杀。
+	MoonLordCore: 八百年前，这头宇宙巨兽曾令整个泰拉瑞亚俯首。如今，它元气大伤、实力衰微，却悍然挣脱了月亮监狱的束缚。它拥有吸噬并掌控灵魂的力量，能对目标造成永久的损伤，即便巨龙之魄亦无法幸免。它来自一处难以名状的时空裂隙，裂隙不断汲取我们维度的能量，以维系自身的存在。
 }
 
 CommonEntries: {
