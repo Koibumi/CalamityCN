@@ -1,4 +1,4 @@
-AnglerFlash.DisplayName: Angler Flash
+// AnglerFlash.DisplayName: Angler Flash
 AstralMeteorProj.DisplayName: 星辉陨石
 BelchingCoralSpike.DisplayName: 喷涌珊瑚刺
 CarrionPus.DisplayName: Carrion Pus
@@ -18,7 +18,7 @@ FlameBurstHostile.DisplayName: 炙炎
 GammaAcid.DisplayName: 酸
 GammaBeam.DisplayName: 伽马射线
 GammaRayBurst.DisplayName: 伽马燃料光束
-GhostBellShock.DisplayName: Electrical Field
+// GhostBellShock.DisplayName: Electrical Field
 HorsPoisonBlast.DisplayName: 剧毒唾液
 HorsWaterBlast.DisplayName: 水
 IceClasperEnemyProjectile.DisplayName: 冰块
@@ -35,15 +35,15 @@ NuclearToadGoo.DisplayName: 放射性蟾蜍分泌物
 OrthoceraStream.DisplayName: 酸液流
 PearlBurst.DisplayName: 爆裂珍珠
 PearlRain.DisplayName: 珍珠雨
-PodobooSpit.DisplayName: Podoboo Spit
-PodobooSpitHoming.DisplayName: Psychic Podoboo Spit
-PodobooSpitSplitting.DisplayName: Loose Podoboo Spit
-PodobooSpitUltima.DisplayName: Ultima Podoboo Spit
+// PodobooSpit.DisplayName: Podoboo Spit
+// PodobooSpitHoming.DisplayName: Psychic Podoboo Spit
+// PodobooSpitSplitting.DisplayName: Loose Podoboo Spit
+// PodobooSpitUltima.DisplayName: Ultima Podoboo Spit
 PrismBackCrystal.DisplayName: Prism-Back Shard
 PufferExplosion.DisplayName: 刺豚爆炸
-SharkoonExplosion.DisplayName: Sharkoon Explosion
-ShoreskipperTackle.DisplayName: Shoreskipper Tackle
-StormlionSentryBullet.DisplayName: Stormlion Sentry Bullet
+// SharkoonExplosion.DisplayName: Sharkoon Explosion
+// ShoreskipperTackle.DisplayName: Shoreskipper Tackle
+// StormlionSentryBullet.DisplayName: Stormlion Sentry Bullet
 StormMarkHostile.DisplayName: 暴风铭印
 SulphuricAcidBubble.DisplayName: 酸性气泡
 SulphuricAcidMist.DisplayName: 酸雾
