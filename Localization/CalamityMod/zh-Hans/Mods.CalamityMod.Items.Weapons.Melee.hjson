@@ -405,7 +405,7 @@ DragonRage: {
 }
 
 DriftwoodSword: {
-	DisplayName: Driftwood Sword
+	DisplayName: 漂流木剑
 	Tooltip: 当你潮湿时这把剑会更强
 }
 
@@ -782,7 +782,7 @@ LifehuntScythe: {
 }
 
 Lightspeed: {
-	DisplayName: Lightspeed
+	DisplayName: 流光刺
 	Tooltip:
 		'''
 		[c/c7f5ff:释放一连串戳刺，命中时积攒元素精通]
@@ -834,13 +834,13 @@ MantisClaws: {
 }
 
 MawOfInfinity: {
-	DisplayName: Maw of Infinity
+	DisplayName: 永噬之颚
 	Tooltip:
 		'''
 		挥舞由吞噬者的巨口铸成的剑进行三连击
 		第一次挥舞仅命中近距离范围
-		第二次挥舞额外发射[c/ff00ff:Faith Incinerator]
-		第三次挥舞向你的光标发射[c/ff00ff:Divinity Devourer]，爆炸造成大量伤害
+		第二次挥舞额外发射[c/ff00ff:焚灭虔信之火]
+		第三次挥舞向你的光标发射[c/ff00ff:噬神者]，爆炸造成大量伤害
 		'''
 }
 
@@ -1140,7 +1140,7 @@ Shimmerspark: {
 }
 
 SkytideDragoon: {
-	DisplayName: Skytide Dragoon
+	DisplayName: 苍澜龙骑兵
 	Tooltip:
 		'''
 		降下一道闪电打击敌怪并为矛尖蓄能
@@ -1487,7 +1487,7 @@ UrchinMace: {
 }
 
 VanishingPoint: {
-	DisplayName: Vanishing Point
+	DisplayName: 灭点
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
