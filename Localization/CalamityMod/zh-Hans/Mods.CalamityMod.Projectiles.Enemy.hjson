@@ -1,8 +1,8 @@
 // AnglerFlash.DisplayName: Angler Flash
 AstralMeteorProj.DisplayName: 星辉陨石
 BelchingCoralSpike.DisplayName: 喷涌珊瑚刺
-CarrionPus.DisplayName: Carrion Pus
-ClamBubbleBlast.DisplayName: Clam Bubble Blast
+// CarrionPus.DisplayName: Carrion Pus
+// ClamBubbleBlast.DisplayName: Clam Bubble Blast
 CrabBoulder.DisplayName: 海蚀岩
 CragmawAcidDrop.DisplayName: 酸滴
 CragmawBeam.DisplayName: 伽马射线
@@ -24,7 +24,7 @@ HorsWaterBlast.DisplayName: 水
 IceClasperEnemyProjectile.DisplayName: 冰块
 InkBombHostile.DisplayName: 墨水炸弹
 InkPoisonCloud.DisplayName: 墨水云雾
-JellyghoulBolt.DisplayName: Jellyghoul Bolt
+// JellyghoulBolt.DisplayName: Jellyghoul Bolt
 LightningCloud.DisplayName: 云
 MantisRing.DisplayName: 幻星螳螂
 MaulerAcidBubble.DisplayName: 强酸泡泡
@@ -39,7 +39,7 @@ PearlRain.DisplayName: 珍珠雨
 // PodobooSpitHoming.DisplayName: Psychic Podoboo Spit
 // PodobooSpitSplitting.DisplayName: Loose Podoboo Spit
 // PodobooSpitUltima.DisplayName: Ultima Podoboo Spit
-PrismBackCrystal.DisplayName: Prism-Back Shard
+// PrismBackCrystal.DisplayName: Prism-Back Shard
 PufferExplosion.DisplayName: 刺豚爆炸
 // SharkoonExplosion.DisplayName: Sharkoon Explosion
 // ShoreskipperTackle.DisplayName: Shoreskipper Tackle

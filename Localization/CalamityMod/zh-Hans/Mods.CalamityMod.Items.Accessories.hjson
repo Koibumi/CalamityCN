@@ -2135,11 +2135,6 @@ GhostBracelet: {
 	Tooltip: 哇……它用空洞的眼睛满是好奇地看着我
 }
 
-GoldenBomb: {
-	DisplayName: Golden Bomb
-	Tooltip: "'I AM THE BOMB'"
-}
-
 HapuFruit: {
 	DisplayName: 心跳果
 	Tooltip: “一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”

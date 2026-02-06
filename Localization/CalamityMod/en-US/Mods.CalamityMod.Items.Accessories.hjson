@@ -2134,11 +2134,6 @@ GhostBracelet: {
 	Tooltip: Wow.... It looks at me with its hollow eyes full of curiosity
 }
 
-GoldenBomb: {
-	DisplayName: Golden Bomb
-	Tooltip: "'I AM THE BOMB'"
-}
-
 HapuFruit: {
 	DisplayName: Ha-pu Fruit
 	Tooltip: "'A fruit that calms your nerves (may have unintended side effects)'"
