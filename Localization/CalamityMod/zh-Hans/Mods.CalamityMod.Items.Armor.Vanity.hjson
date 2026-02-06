@@ -129,18 +129,18 @@ LeviathanMask: {
 }
 
 LucisBoots: {
-	DisplayName: Luci's Boots
-	Tooltip: "'One small step a time, you can do this.'"
+	DisplayName: Luci的战靴
+	Tooltip: “每次迈出一小步，你可以的”
 }
 
 LucisHairstyle: {
-	DisplayName: Luci's Hairstyle
-	Tooltip: "'Hero of Light, Luci Skyshot.'"
+	DisplayName: Luci的发型
+	Tooltip: “光之英雄，Luci Skyshot”
 }
 
 LucisMilitaryUniform: {
-	DisplayName: Luci's Military Uniform
-	Tooltip: "'Bearing the iconic Liberation Army insignia of freedom.'"
+	DisplayName: Luci的军装
+	Tooltip: “佩戴者标志性的解缚军自由徽章”
 }
 
 OldDukeMask: {
@@ -254,18 +254,18 @@ ThanatosMask: {
 }
 
 TheCommandersCap: {
-	DisplayName: The Commanders Cap
-	Tooltip: Part of The High-Flying Finery
+	DisplayName: 统御冠帽
+	Tooltip: 雄心华服套装的一部分
 }
 
 TheFormalFootwear: {
-	DisplayName: The Formal Footwear
-	Tooltip: Part of The High-Flying Finery
+	DisplayName: 仪制靴履
+	Tooltip: 雄心华服套装的一部分
 }
 
 TheGrandGarment: {
-	DisplayName: The Grand Garment
-	Tooltip: Part of The High-Flying Finery
+	DisplayName: 华辉衣袍
+	Tooltip: 雄心华服套装的一部分
 }
 
 YharonMask: {

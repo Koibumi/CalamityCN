@@ -434,23 +434,23 @@ HardenedEutrophicSand: {
 // Floral Paradise
 
 AlgalSlateItem: {
-	DisplayName: Algal Slate
-	Tooltip: ""
+	// DisplayName: Algal Slate
+	// Tooltip: ""
 }
 
 PeatItem: {
-	DisplayName: Peat
-	Tooltip: ""
+	// DisplayName: Peat
+	// Tooltip: ""
 }
 
 PeatMossItem: {
-	DisplayName: Peat Moss
-	Tooltip: ""
+	// DisplayName: Peat Moss
+	// Tooltip: ""
 }
 
 ScintillatingBloom: {
-	DisplayName: Scintillating Bloom
-	Tooltip: ""
+	// DisplayName: Scintillating Bloom
+	// Tooltip: ""
 }
 
 // End of Floral Paradise
@@ -820,12 +820,12 @@ FrigidMonolith: {
 }
 
 KelpTorch: {
-	DisplayName: Kelp Torch
+	DisplayName: 海藻火把
 	Tooltip: 可放置于水中
 }
 
 OldDukeMonolith: {
-	DisplayName: Elden Diorama
+	DisplayName: 硫海立体布景
 	Tooltip: ""
 }
 
@@ -871,7 +871,7 @@ CalamityCanvas2024: {
 }
 
 ForgivenessPainting: {
-	DisplayName: Forgiveness
+	DisplayName: 宽恕
 	Tooltip: "'D. User'"
 }
 
@@ -943,7 +943,7 @@ ThaumaticChair: {
 }
 
 ThermalTorch: {
-	DisplayName: Thermal Torch
+	DisplayName: 热泉火把
 	Tooltip:
 		'''
 		可放置于水中
@@ -957,7 +957,7 @@ TranquilityCandle: {
 }
 
 VoidTorch: {
-	DisplayName: Void Torch
+	DisplayName: 虚空火把
 	Tooltip:
 		'''
 		可放置于水中
@@ -1196,7 +1196,7 @@ WulfrumLureItem: {
 }
 
 ZenithThrone: {
-	DisplayName: Zenith Throne
+	DisplayName: 天顶王座
 	Tooltip: “游戏不再，唯余DPS……”
 }
 
@@ -1875,102 +1875,102 @@ CosmiliteWorkBench: {
 }
 
 DriftwoodBaroqueCello: {
-	DisplayName: Driftwood Baroque Cello
+	DisplayName: 漂流木巴洛克大提琴
 	Tooltip: ""
 }
 
 DriftwoodBathtub: {
-	DisplayName: Driftwood Bathtub
+	DisplayName: 漂流木浴缸
 	Tooltip: ""
 }
 
 DriftwoodBed: {
-	DisplayName: Driftwood Bed
+	DisplayName: 漂流木床
 	Tooltip: ""
 }
 
 DriftwoodBookcase: {
-	DisplayName: Driftwood Bookcase
+	DisplayName: 漂流木书架
 	Tooltip: ""
 }
 
 DriftwoodCandelabra: {
-	DisplayName: Driftwood Candelabra
+	DisplayName: 漂流木烛台
 	Tooltip: ""
 }
 
 DriftwoodCandle: {
-	DisplayName: Driftwood Candle
+	DisplayName: 漂流木蜡烛
 	Tooltip: ""
 }
 
 DriftwoodChair: {
-	DisplayName: Driftwood Chair
+	DisplayName: 漂流木椅
 	Tooltip: ""
 }
 
 DriftwoodChandelier: {
-	DisplayName: Driftwood Chandelier
+	DisplayName: 漂流木吊灯
 	Tooltip: ""
 }
 
 DriftwoodChest: {
-	DisplayName: Driftwood Chest
+	DisplayName: 漂流木箱
 	Tooltip: ""
 }
 
 DriftwoodDoor: {
-	DisplayName: Driftwood Door
+	DisplayName: 漂流木门
 	Tooltip: ""
 }
 
 DriftwoodDresser: {
-	DisplayName: Driftwood Dresser
+	DisplayName: 漂流木梳妆台
 	Tooltip: ""
 }
 
 DriftwoodLamp: {
-	DisplayName: Driftwood Lamp
+	DisplayName: 漂流木灯
 	Tooltip: ""
 }
 
 DriftwoodLantern: {
-	DisplayName: Driftwood Lantern
+	DisplayName: 漂流木灯笼
 	Tooltip: ""
 }
 
 DriftwoodPlatform: {
-	DisplayName: Driftwood Platform
+	DisplayName: 漂流木平台
 	Tooltip: ""
 }
 
 DriftwoodSink: {
-	DisplayName: Driftwood Sink
+	DisplayName: 漂流木水槽
 	Tooltip: 视为水源
 }
 
 DriftwoodSofa: {
-	DisplayName: Driftwood Sofa
+	DisplayName: 漂流木沙发
 	Tooltip: ""
 }
 
 DriftwoodSundial: {
-	DisplayName: Driftwood Sundial
+	DisplayName: 漂流木日晷
 	Tooltip: ""
 }
 
 DriftwoodTable: {
-	DisplayName: Driftwood Table
+	DisplayName: 漂流木桌
 	Tooltip: ""
 }
 
 DriftwoodToilet: {
-	DisplayName: Driftwood Toilet
+	DisplayName: 漂流木马桶
 	Tooltip: ""
 }
 
 DriftwoodWorkBench: {
-	DisplayName: Driftwood Work Bench
+	DisplayName: 漂流木工作台
 	Tooltip: ""
 }
 
@@ -2425,17 +2425,17 @@ MarniteWorkBench: {
 }
 
 PolishedMarniteBlock: {
-	DisplayName: Polished Marnite Block
+	DisplayName: 抛光合成岩
 	Tooltip: ""
 }
 
 PolishedMarnitePlatform: {
-	DisplayName: Polished Marnite Platform
+	DisplayName: 抛光合成岩平台
 	Tooltip: ""
 }
 
 PolishedMarniteWall: {
-	DisplayName: Polished Marnite Wall
+	DisplayName: 抛光合成岩墙
 	Tooltip: ""
 }
 
@@ -3414,7 +3414,7 @@ ChargedWulfrumEnergyBarrier: {
 }
 
 ChargedWulfrumWallMountedBulb: {
-	DisplayName: Charged Wulfrum Wall Mounted Bulb
+	DisplayName: 充能钨钢壁挂灯泡
 	Tooltip: ""
 }
 
@@ -3484,7 +3484,7 @@ WulfrumLantern: {
 }
 
 WulfrumPanels: {
-	DisplayName: Wulfrum Panels
+	DisplayName: 钨钢面板
 	Tooltip: ""
 }
 
@@ -3504,12 +3504,12 @@ WulfrumPlating: {
 }
 
 WulfrumSheets: {
-	DisplayName: Wulfrum Sheets
+	DisplayName: 钨钢板材
 	Tooltip: ""
 }
 
 WulfrumSiding: {
-	DisplayName: Wulfrum Siding
+	DisplayName: 钨钢挡板
 	Tooltip: ""
 }
 
@@ -3534,7 +3534,7 @@ WulfrumToilet: {
 }
 
 WulfrumWallMountedBulb: {
-	DisplayName: Wulfrum Wall Mounted Bulb
+	DisplayName: 钨钢壁挂灯泡
 	Tooltip: ""
 }
 
@@ -3544,107 +3544,107 @@ WulfrumWorkBench: {
 }
 
 AnodizedWulfrumBathtub: {
-	DisplayName: Anodized Wulfrum Bathtub
+	DisplayName: 电镀钨钢浴缸
 	Tooltip: ""
 }
 
 AnodizedWulfrumBookcase: {
-	DisplayName: Anodized Wulfrum Bookcase
+	DisplayName: 电镀钨钢书架
 	Tooltip: ""
 }
 
 AnodizedWulfrumChair: {
-	DisplayName: Anodized Wulfrum Chair
+	DisplayName: 电镀钨钢椅
 	Tooltip: ""
 }
 
 AnodizedWulfrumChandelier: {
-	DisplayName: Anodized Wulfrum Chandelier
+	DisplayName: 电镀钨钢吊灯
 	Tooltip: ""
 }
 
 AnodizedWulfrumChest: {
-	DisplayName: Anodized Wulfrum Chest
+	DisplayName: 电镀钨钢箱
 	Tooltip: ""
 }
 
 AnodizedWulfrumDeskLight: {
-	DisplayName: Anodized Wulfrum Desk Light
+	DisplayName: 电镀钨钢台灯
 	Tooltip: ""
 }
 
 AnodizedWulfrumDoor: {
-	DisplayName: Anodized Wulfrum Door
+	DisplayName: 电镀钨钢门
 	Tooltip: ""
 }
 
 AnodizedWulfrumDresser: {
-	DisplayName: Anodized Wulfrum Dresser
+	DisplayName: 电镀钨钢梳妆台
 	Tooltip: ""
 }
 
 AnodizedWulfrumJukebox: {
-	DisplayName: Anodized Wulfrum Jukebox
+	DisplayName: 电镀钨钢点唱机
 	Tooltip: ""
 }
 
 AnodizedWulfrumLamp: {
-	DisplayName: Anodized Wulfrum Lamp
+	DisplayName: 电镀钨钢灯
 	Tooltip: ""
 }
 
 AnodizedWulfrumLantern: {
-	DisplayName: Anodized Wulfrum Lantern
+	DisplayName: 电镀钨钢灯笼
 	Tooltip: ""
 }
 
 AnodizedWulfrumPanels: {
-	DisplayName: Anodized Wulfrum Panels
+	DisplayName: 电镀钨钢面板
 	Tooltip: ""
 }
 
 AnodizedWulfrumPlatform: {
-	DisplayName: Anodized Wulfrum Platform
+	DisplayName: 电镀钨钢平台
 	Tooltip: ""
 }
 
 AnodizedWulfrumSink: {
-	DisplayName: Anodized Wulfrum Sink
+	DisplayName: 电镀钨钢水槽
 	Tooltip: 视为水源
 }
 
 AnodizedWulfrumSleepingPod: {
-	DisplayName: Anodized Wulfrum Sleeping Pod
+	DisplayName: 电镀钨钢睡眠舱
 	Tooltip: ""
 }
 
 AnodizedWulfrumSofa: {
-	DisplayName: Anodized Wulfrum Sofa
+	DisplayName: 电镀钨钢沙发
 	Tooltip: ""
 }
 
 AnodizedWulfrumTable: {
-	DisplayName: Anodized Wulfrum Table
+	DisplayName: 电镀钨钢桌
 	Tooltip: ""
 }
 
 AnodizedWulfrumTrim: {
-	DisplayName: Anodized Wulfrum Trim
+	DisplayName: 电镀钨钢切角砖
 	Tooltip: ""
 }
 
 AnodizedWulfrumToilet: {
-	DisplayName: Anodized Wulfrum Toilet
+	DisplayName: 电镀钨钢马桶
 	Tooltip: ""
 }
 
 AnodizedWulfrumWorkBench: {
-	DisplayName: Anodized Wulfrum Work Bench
+	DisplayName: 电镀钨钢工作台
 	Tooltip: ""
 }
 
 RoundedAnodizedWulfrumPanels: {
-	DisplayName: Rounded Anodized Wulfrum Panels
+	DisplayName: 圆角电镀钨钢面板
 	Tooltip: ""
 }
 
@@ -3858,12 +3858,12 @@ SulphurousShale: {
 // Sunken Sea
 
 Basalt: {
-	DisplayName: Basalt
+	DisplayName: 玄武岩
 	Tooltip: ""
 }
 
 Driftwood: {
-	DisplayName: Driftwood
+	DisplayName: 漂流木
 	Tooltip: ""
 }
 
@@ -3878,17 +3878,17 @@ Navystone: {
 }
 
 Shellstone: {
-	DisplayName: Shellstone
+	DisplayName: 贝壳岩
 	Tooltip: ""
 }
 
 PolishedNavystoneBrick: {
-	DisplayName: Polished Navystone Brick
+	DisplayName: 抛光沉沦渊石砖
 	Tooltip: ""
 }
 
 ShellstoneSlab: {
-	DisplayName: Shellstone Slab
+	DisplayName: 贝壳板岩
 	Tooltip: ""
 }
 
@@ -3933,32 +3933,32 @@ YellowCoral: {
 }
 
 Runestone: {
-	DisplayName: Runestone
+	DisplayName: 符文石
 	Tooltip: ""
 }
 
 RuneSand: {
-	DisplayName: Runesand
+	DisplayName: 符文沙
 	Tooltip: ""
 }
 
 Limestone: {
-	DisplayName: Limestone
+	DisplayName: 石灰岩
 	Tooltip: ""
 }
 
 PolypSand: {
-	DisplayName: Polyp Sand
+	DisplayName: 珊瑚虫沙
 	Tooltip: ""
 }
 
 TableCoralLeft: {
-	DisplayName: Table Coral
+	DisplayName: 台面珊瑚
 	Tooltip: ""
 }
 
 VolcanicSand: {
-	DisplayName: Volcanic Sand
+	DisplayName: 火山沙
 	Tooltip: ""
 }
 
@@ -4119,17 +4119,17 @@ RustedPlatingWall: {
 // End of Draedon
 
 AnodizedWulfrumTrimWall: {
-	DisplayName: Anodized Wulfrum Trim Wall
+	DisplayName: 电镀钨钢角砖墙
 	Tooltip: ""
 }
 
 ChargedWulfrumEnergyBarrierWall: {
-	DisplayName: Charged Wulfrum Energy Barrier Wall
+	DisplayName: 充能钨钢能量屏障墙
 	Tooltip: ""
 }
 
 DriftwoodWall: {
-	DisplayName: Driftwood Wall
+	DisplayName: 漂流木墙
 	Tooltip: ""
 }
 
@@ -4174,7 +4174,7 @@ HavocplateWall: {
 }
 
 LimestoneWall: {
-	DisplayName: Limestone Wall
+	DisplayName: 石灰岩墙
 	Tooltip: ""
 }
 
@@ -4239,12 +4239,12 @@ PyreMantleWall: {
 }
 
 RoundedAnodizedWulfrumPanelWall: {
-	DisplayName: Rounded Anodized Wulfrum Panel Wall
+	DisplayName: 圆角电镀钨钢面板墙
 	Tooltip: ""
 }
 
 RunestoneWall: {
-	DisplayName: Runestone Wall
+	DisplayName: 符文石墙
 	Tooltip: ""
 }
 
@@ -4264,12 +4264,12 @@ ScoriaBrickWall: {
 }
 
 ShellstoneSlabWall: {
-	DisplayName: Shellstone Slab Wall
+	DisplayName: 贝壳板岩墙
 	Tooltip: ""
 }
 
 ShellstoneWall: {
-	DisplayName: Shellstone Wall
+	DisplayName: 贝壳岩墙
 	Tooltip: ""
 }
 
@@ -4339,7 +4339,7 @@ VoidstoneWall: {
 }
 
 WulfrumComplexPanelWall: {
-	DisplayName: Wulfrum Complex Panel Wall
+	DisplayName: 钨钢复杂面板墙
 	Tooltip: ""
 }
 
@@ -4349,12 +4349,12 @@ WulfrumEnergyBarrierWall: {
 }
 
 WulfrumPanelWall: {
-	DisplayName: Wulfrum Panel Wall
+	DisplayName: 钨钢面板墙
 	Tooltip: ""
 }
 
 WulfrumPillar: {
-	DisplayName: Wulfrum Pillar
+	DisplayName: 钨钢支柱
 	Tooltip: ""
 }
 
@@ -4364,12 +4364,12 @@ WulfrumPlatingWall: {
 }
 
 WulfrumSheetWall: {
-	DisplayName: Wulfrum Sheet Wall
+	DisplayName: 钨钢板材墙
 	Tooltip: ""
 }
 
 WulfrumSidingWall: {
-	DisplayName: Wulfrum Siding Wall
+	DisplayName: 钨钢挡板墙
 	Tooltip: ""
 }
 
@@ -4474,142 +4474,142 @@ WaterTurret: {
 // Draedon lab lights
 
 CagedLablightItem: {
-	DisplayName: Caged Lablight
+	DisplayName: 实验室笼灯
 	Tooltip: ""
 }
 
 AgedLablightItem: {
-	DisplayName: Aged Lablight
+	DisplayName: 老旧实验室笼灯
 	Tooltip: ""
 }
 
 MiniCagedLablightItem: {
-	DisplayName: Mini Caged Lablight
+	DisplayName: 实验室迷你笼灯
 	Tooltip: ""
 }
 
 MiniAgedLablightItem: {
-	DisplayName: Mini Aged Lablight
+	DisplayName: 老旧实验室迷你笼灯
 	Tooltip: ""
 }
 
 CagedCinderlightItem: {
-	DisplayName: Caged Cinderlight
+	DisplayName: 狱烬笼灯
 	Tooltip: ""
 }
 
 AgedCinderlightItem: {
-	DisplayName: Aged Cinderlight
+	DisplayName: 老旧狱烬笼灯
 	Tooltip: ""
 }
 
 MiniCagedCinderlightItem: {
-	DisplayName: Mini Caged Cinderlight
+	DisplayName: 狱烬迷你笼灯
 	Tooltip: ""
 }
 
 MiniAgedCinderlightItem: {
-	DisplayName: Mini Aged Cinderlight
+	DisplayName: 老旧狱烬迷你笼灯
 	Tooltip: ""
 }
 
 CagedFlamelightItem: {
-	DisplayName: Caged Flamelight
+	DisplayName: 混沌笼灯
 	Tooltip: ""
 }
 
 AgedFlamelightItem: {
-	DisplayName: Aged Flamelight
+	DisplayName: 老旧混沌笼灯
 	Tooltip: ""
 }
 
 MiniCagedFlamelightItem: {
-	DisplayName: Mini Caged Flamelight
+	DisplayName: 混沌迷你笼灯
 	Tooltip: ""
 }
 
 MiniAgedFlamelightItem: {
-	DisplayName: Mini Aged Flamelight
+	DisplayName: 老旧混沌迷你笼灯
 	Tooltip: ""
 }
 
 CagedFrostlightItem: {
-	DisplayName: Caged Frostlight
+	DisplayName: 永冻笼灯
 	Tooltip: ""
 }
 
 AgedFrostlightItem: {
-	DisplayName: Aged Frostlight
+	DisplayName: 老旧永冻笼灯
 	Tooltip: ""
 }
 
 MiniCagedFrostlightItem: {
-	DisplayName: Mini Caged Frostlight
+	DisplayName: 永冻迷你笼灯
 	Tooltip: ""
 }
 
 MiniAgedFrostlightItem: {
-	DisplayName: Mini Aged Frostlight
+	DisplayName: 老旧永冻迷你笼灯
 	Tooltip: ""
 }
 
 CagedBiolightItem: {
-	DisplayName: Caged Biolight
+	DisplayName: 疫病笼灯
 	Tooltip: ""
 }
 
 AgedBiolightItem: {
-	DisplayName: Aged Biolight
+	DisplayName: 老旧疫病笼灯
 	Tooltip: ""
 }
 
 MiniCagedBiolightItem: {
-	DisplayName: Mini Caged Biolight
+	DisplayName: 疫病迷你笼灯
 	Tooltip: ""
 }
 
 MiniAgedBiolightItem: {
-	DisplayName: Mini Aged Biolight
+	DisplayName: 老旧疫病迷你笼灯
 	Tooltip: ""
 }
 
 CagedBlacklightItem: {
-	DisplayName: Caged Blacklight
+	DisplayName: 黑光笼灯
 	Tooltip: ""
 }
 
 AgedBlacklightItem: {
-	DisplayName: Aged Blacklight
+	DisplayName: 老旧黑光笼灯
 	Tooltip: ""
 }
 
 MiniCagedBlacklightItem: {
-	DisplayName: Mini Caged Blacklight
+	DisplayName: 黑光迷你笼灯
 	Tooltip: ""
 }
 
 MiniAgedBlacklightItem: {
-	DisplayName: Mini Aged Blacklight
+	DisplayName: 老旧黑光迷你笼灯
 	Tooltip: ""
 }
 
 CagedFloodlightItem: {
-	DisplayName: Caged Floodlight
+	DisplayName: 沉沦笼灯
 	Tooltip: ""
 }
 
 AgedFloodlightItem: {
-	DisplayName: Aged Floodlight
+	DisplayName: 老旧沉沦笼灯
 	Tooltip: ""
 }
 
 MiniCagedFloodlightItem: {
-	DisplayName: Mini Caged Floodlight
+	DisplayName: 沉沦迷你笼灯
 	Tooltip: ""
 }
 
 MiniAgedFloodlightItem: {
-	DisplayName: Mini Aged Floodlight
+	DisplayName: 老旧沉沦迷你笼灯
 	Tooltip: ""
 }
 
@@ -4619,22 +4619,22 @@ AridSoil: {
 }
 
 RunestoneTerracotta: {
-	DisplayName: Runestone Terracotta
+	DisplayName: 符文石俑
 	Tooltip: ""
 }
 
 ShellTrimBrick: {
-	DisplayName: Shell Trim Brick
+	DisplayName: 贝壳切角砖
 	Tooltip: ""
 }
 
 ShellTrimBrickWall: {
-	DisplayName: Shell Trim Brick Wall
+	DisplayName: 贝壳切角砖墙
 	Tooltip: ""
 }
 
 BasaltSlab: {
-	DisplayName: Basalt Slab
+	DisplayName: 玄武岩板
 	Tooltip: ""
 }
 
@@ -4644,7 +4644,7 @@ UnsafeNavystoneWall: {
 }
 
 MossyStone: {
-	DisplayName: Mossy Stone
+	DisplayName: 苔藓石
 	Tooltip: ""
 }
 

@@ -82,36 +82,36 @@ AstralCaveDesert: {
 }
 
 FloralParadiseBiome: {
-	DisplayName: Floral Paradise
-	TownNPCDialogueName: the Floral Paradise
+	DisplayName: 花之乐园
+	TownNPCDialogueName: 花之乐园
 }
 
 BasaltGullyBiome: {
-	DisplayName: Basalt Gully
-	TownNPCDialogueName: the Basalt Gully
+	DisplayName: 玄武岩海沟
+	TownNPCDialogueName: 玄武岩海沟
 }
 
 GleamingBurrowsBiome: {
-	DisplayName: Gleaming Burrows
-	TownNPCDialogueName: the Gleaming Burrows
+	DisplayName: 明光隧洞
+	TownNPCDialogueName: 明光隧洞
 }
 
 PolypForestBiome: {
-	DisplayName: Polyp Forest
-	TownNPCDialogueName: the Polyp Forest
+	DisplayName: 珊瑚虫之森
+	TownNPCDialogueName: 珊瑚虫之森
 }
 
 RadiantReefsBiome: {
-	DisplayName: Radiant Reefs
-	TownNPCDialogueName: the Radiant Reefs
+	DisplayName: 熠光暗礁
+	TownNPCDialogueName: 熠光暗礁
 }
 
 TimelessShoresBiome: {
-	DisplayName: Timeless Shores
-	TownNPCDialogueName: the Timeless Shores
+	DisplayName: 永恒海岸
+	TownNPCDialogueName: 永恒海岸
 }
 
 ClamDenBiome: {
-	DisplayName: Clam Den
-	TownNPCDialogueName: the Clam Den
+	DisplayName: 蛤巢
+	TownNPCDialogueName: 蛤巢
 }

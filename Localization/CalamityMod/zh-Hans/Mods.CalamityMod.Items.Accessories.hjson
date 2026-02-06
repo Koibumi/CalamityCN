@@ -2131,7 +2131,7 @@ AbandonedWulfrumHelmet: {
 }
 
 GhostBracelet: {
-	DisplayName: Ghost Bracelet
+	DisplayName: 小幽灵手链
 	Tooltip: 哇……它用空洞的眼睛满是好奇地看着我
 }
 
@@ -2146,8 +2146,8 @@ HapuFruit: {
 }
 
 LucisSight: {
-	DisplayName: Luci's Sight
-	Tooltip: "'Fashionable glasses? In Earthia's current economy?!'"
+	DisplayName: Luci的目光
+	Tooltip: “一副时尚眼镜？就厄尔西亚现在的经济状况？！”
 }
 
 OracleHeadphones: {
@@ -2165,12 +2165,12 @@ Popo: {
 }
 
 SharkyPlush: {
-	DisplayName: Sharky Plush
+	DisplayName: 鲨鲨玩偶
 	Tooltip: "[c/696969:“小心无形之力……”]"
 }
 
 TheComb: {
-	DisplayName: The Comb
+	DisplayName: 梳子
 	Tooltip:
 		'''
 		使穿戴者的头发光泽耀人
@@ -2180,23 +2180,23 @@ TheComb: {
 }
 
 XyksBlessingBlue: {
-	DisplayName: Xyk's Blessing (Blue)
+	DisplayName: Xyk的祝福（蓝色）
 	Tooltip:
 		'''
 		为你的冲刺，翅膀和死亡添加视觉效果
 		<right>以改变形态
-		'It's simply too much to turn back now; passion and time have long since stained it.
-		[c/5f8ae1:Have I always been so selfish?']
+		“事已至此，已无法回头；热切与时光早已将其浸染。
+		[c/5f8ae1:难道我一直如此自私吗？”]
 		'''
 }
 
 XyksBlessingOrange: {
-	DisplayName: Xyk's Blessing (Orange)
+	DisplayName: Xyk的祝福（橙色）
 	Tooltip:
 		'''
 		为你的冲刺，翅膀和死亡添加视觉效果
 		<right>以改变形态
-		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
-		[c/E1B65F:Prove that it was never a waste.']
+		“即便如此，时光亦不等人。去重拾那份满足，向世界昭示吧。
+		[c/E1B65F:证明这一切，从未虚掷。”]
 		'''
 }

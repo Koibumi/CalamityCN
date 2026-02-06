@@ -323,11 +323,11 @@ YharonSoulFragment: {
 }
 
 AnodizedWulfrumMetal: {
-	DisplayName: Anodized Wulfrum Metal
+	DisplayName: 电镀钨钢金属
 	Tooltip: ""
 }
 
 WillOWisp: {
-	DisplayName: Will O Wisp
+	DisplayName: 荧魂
 	Tooltip: ""
 }
