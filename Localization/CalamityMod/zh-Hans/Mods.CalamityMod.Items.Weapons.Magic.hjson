@@ -33,7 +33,7 @@ AlulaAustralis: {
 }
 
 AlphaDraconis: {
-	DisplayName: Alpha Draconis
+	DisplayName: 天龙座阿尔法
 	Tooltip:
 		'''
 		向光标处降下流星雨
@@ -62,7 +62,7 @@ AnahitasArpeggio: {
 }
 
 Apathanull: {
-	DisplayName: Apathanull
+	DisplayName: 寂虚之触
 	Tooltip:
 		'''
 		发射一阵暗黑宇宙触手串烧你的敌人
@@ -136,7 +136,7 @@ Atlantis: {
 }
 
 AuguroftheVoid: {
-	DisplayName: Augur of the Void
+	DisplayName: 虚空先兆
 	Tooltip: 创造元素触手戳刺你的敌人
 }
 
@@ -435,8 +435,8 @@ Heresy: {
 }
 
 HyperdeathRiftScepter: {
-	DisplayName: Hyperdeath Rift Scepter
-	Tooltip: 用[c/ff00ff:Hyperdeath Rift Ripper]将空间撕裂成两半
+	DisplayName: 终灭裂隙权杖
+	Tooltip: 用[c/ff00ff:终灭裂隙撕裂光]将空间撕裂成两半
 }
 
 HyphaeRod: {
@@ -568,7 +568,7 @@ NuclearFury: {
 }
 
 Nucleosynthesis: {
-	DisplayName: Nucleosynthesis
+	DisplayName: 聚核射线
 	Tooltip:
 		'''
 		发射四道天体射线
@@ -950,7 +950,7 @@ UndinesRetribution: {
 }
 
 UnstableCastersGauntlet: {
-	DisplayName: Unstable Caster's Gauntlet
+	DisplayName: 无常术师手套
 	Tooltip:
 		'''
 		<left>发射穿透针
@@ -1048,7 +1048,7 @@ VoltaicClimax: {
 }
 
 Volterion: {
-	DisplayName: Volterion
+	DisplayName: 雷霆意志
 	Tooltip:
 		'''
 		释放一道高压电流，命中时炸成5颗球状闪电

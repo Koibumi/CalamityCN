@@ -3,10 +3,10 @@ AcidGunStream.DisplayName: 酸液流
 AcidicReed.DisplayName: 酸化芦苇
 AcidicSaxBubble.DisplayName: 酸性气泡
 AcidicSaxMist.DisplayName: 酸雾
-AerSigil.DisplayName: Aer Sigil
-AerSigilBlast.DisplayName: Aer Blast
-AerSigilFeather.DisplayName: Aer Feather
-AerSigilMissile.DisplayName: Aer Missile
+AerSigil.DisplayName: 天空符印
+AerSigilBlast.DisplayName: 天空爆炸
+AerSigilFeather.DisplayName: 天空羽毛
+AerSigilMissile.DisplayName: 天空导弹
 AetherBeam.DisplayName: 以太射线
 AlphaDraconisStar.DisplayName: 流星
 AnahitasArpeggioNote.DisplayName: 阿娜希塔之音
@@ -15,10 +15,10 @@ ApoctosisBlast.DisplayName: 凋亡冲击
 ApotheosisEnergy.DisplayName: 圣神能量
 ApotheosisWorm.DisplayName: 打人不疼的神明吞噬者
 AquamarineBolt.DisplayName: 海耀
-AquaSigil.DisplayName: Aqua Sigil
-AquaSigilWaterball.DisplayName: Aqua Waterball
-AquaSigilWaterballExplosion.DisplayName: Aqua Waterball Explosion
-AquaSigilWaterdroplet.DisplayName: Aqua Waterdroplet
+AquaSigil.DisplayName: 海洋符印
+AquaSigilWaterball.DisplayName: 海洋水球
+AquaSigilWaterballExplosion.DisplayName: 海洋水球爆炸
+AquaSigilWaterdroplet.DisplayName: 海洋水滴
 ArcticBearPawProj.DisplayName: 北极熊爪
 ArtAttackStar.DisplayName: 艺术之星
 ArtAttackStrike.DisplayName: 艺术攻击
@@ -59,7 +59,7 @@ CryoBlast.DisplayName: 霜寒爆裂
 DarkSparkBeam.DisplayName: 寂虚光束
 DarkSparkPrism.DisplayName: 寂虚之光
 DeathValleyDusterProjectile.DisplayName: 死亡之尘
-DeathhailBeam.DisplayName: Deathhail Beam
+DeathhailBeam.DisplayName: 死亡冰雹
 DracoConstellation.DisplayName: 天龙座
 EelDrop.DisplayName: 酸鳗液滴
 EidolicWailSoundwave.DisplayName: 哀怨之声
@@ -100,17 +100,17 @@ HellfireExplosionFriendly.DisplayName: 狱火炎爆
 HellwingBat.DisplayName: 狱烬蝙蝠
 HolyFlame.DisplayName: 圣火
 HolyLaser.DisplayName: 圣光聚束
-HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
+HyperdeathRiftScepterBeam.DisplayName: 终灭裂隙撕裂光
 IceBarrageMain.DisplayName: 寒冰弹幕
 IceBlock.DisplayName: 寒冰弹幕冰块
 IceBlockIcicle.DisplayName: 寒冰弹幕冰柱
 IceCluster.DisplayName: 冰簇
 Icicle.DisplayName: 冰锥
 IcicleStaffProj.DisplayName: 高速冰柱
-IgnisSigil.DisplayName: Ignis Sigil
-IgnisSigilFireballExplosion.DisplayName: Ignis Fireball Explosion
-IgnisSigilFireball.DisplayName: Ignis Fireball
-IgnisSigilEmbers.DisplayName: Ignis Ember
+IgnisSigil.DisplayName: 火焰符印
+IgnisSigilFireballExplosion.DisplayName: 火焰爆炸
+IgnisSigilFireball.DisplayName: 火焰火球
+IgnisSigilEmbers.DisplayName: 火焰余烬
 IncineratingFireball.DisplayName: 焚海火球
 InfernadoFriendly.DisplayName: 烈焰龙卷
 InfernadoMarkFriendly.DisplayName: 火龙卷标记
@@ -160,12 +160,12 @@ NightOrb.DisplayName: 永夜球
 NightsRayBeam.DisplayName: 永夜粒子束
 NuclearFuryProjectile.DisplayName: 原子暴怒
 OmicronBeam.DisplayName: 奥密克戎射线
-OrdoSigil.DisplayName: Ordo Sigil
-OrdoSigilBeam.DisplayName: Ordo Beam
+OrdoSigil.DisplayName: 秩序符印
+OrdoSigilBeam.DisplayName: 秩序光束
 PartySparkle.DisplayName: 漂亮火花
-PerditoSigil.DisplayName: Perdito Sigil
-PerditoSigilShot.DisplayName: Perdito Shot
-PerditoSigilShotCreator.DisplayName: Perdito Shot Creator
+PerditoSigil.DisplayName: 湮灭符印
+PerditoSigilShot.DisplayName: 湮灭之击
+PerditoSigilShotCreator.DisplayName: 湮灭之击
 PhantasmalFuryProj.DisplayName: 亡魂之怒
 Phantom.DisplayName: 幻魂
 PhasedGodRay.DisplayName: 相位光束
@@ -216,7 +216,7 @@ SHPExplosion.DisplayName: 等离子冲击波
 SHPL.DisplayName: 等离子镭射束
 SHPS.DisplayName: SHPS
 SHPV.DisplayName: SHPV
-SigilSet.DisplayName: Sigil Set
+SigilSet.DisplayName: 法阵
 SilvaBurst.DisplayName: 始源林海爆炸
 SlitheringEelProjectile.DisplayName: 蜿蜒酸鳗
 SmallSpirit.DisplayName: 愤怒灵魂
@@ -238,10 +238,10 @@ SylvRay.DisplayName: 仙子伊布光线
 TacticiansElectricBoom.DisplayName: 电流爆裂
 TacticiansTrumpCardProj.DisplayName: 王牌光束
 TearsofHeavenProjectile.DisplayName: 天堂之泪
-TerraSigil.DisplayName: Terra Sigil
-TerraSigilLargeRock.DisplayName: Terra Large Rock
-TerraSigilMediumRock.DisplayName: Terra Medium Rock
-TerraSigilSmallRock.DisplayName: Terra Small Rock
+TerraSigil.DisplayName: 大地符印
+TerraSigilLargeRock.DisplayName: 大地巨石
+TerraSigilMediumRock.DisplayName: 大地石块
+TerraSigilSmallRock.DisplayName: 大地小石
 Teslabeam.DisplayName: 特斯拉光束
 TradewindsProjectile.DisplayName: 信风羽
 TridentIcicle.DisplayName: 寒冰三叉戟
@@ -259,7 +259,7 @@ VenusianExplosion.DisplayName: 金星火焰
 VenusianFlame.DisplayName: 金耀余烬
 VisceraBeam.DisplayName: 酸蚀内脏
 VisceraBoom.DisplayName: 酸蚀爆炸
-VisNeedle.DisplayName: Vis Needle
+VisNeedle.DisplayName: 魔能针刺
 VitriolicViperFang.DisplayName: 酸蚀尖牙
 VitriolicViperSpit.DisplayName: 酸蚀唾液
 VividBeam.DisplayName: 耀界光束
@@ -274,9 +274,9 @@ VolterionOrb.DisplayName: 不稳定球状闪电
 VolterionShot.DisplayName: 超充能灯丝
 VortexElementalBeam.DisplayName: 闪电
 WaterLeechProj.DisplayName: 水蛭
-WarpSigil.DisplayName: Warp Sigil
-WarpSigilShot.DisplayName: Warped Shot
-WarpSigilShotCreator.DisplayName: Warped Shot Creator
+WarpSigil.DisplayName: 扭曲符印
+WarpSigilShot.DisplayName: 扭曲之击
+WarpSigilShotCreator.DisplayName: 扭曲之击
 WaywasherProj.DisplayName: 清道夫弹幕
 WingmanGrenade.DisplayName: 魔能榴弹
 WingmanShot.DisplayName: 魔能子弹
