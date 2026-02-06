@@ -113,12 +113,12 @@ ArkoftheElements: {
 
 AstralPike: {
 	DisplayName: 幻星矛
-	Tooltip: 命中时召唤一群幻星
+	Tooltip: 命中时召唤一群幻星并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 AstralScythe: {
 	DisplayName: 星幻镰刀
-	Tooltip: 发射会加速的镰刀环
+	Tooltip: 发射会加速的镰刀环并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 Ataraxia: {
@@ -308,7 +308,7 @@ CrescentMoon: {
 		扔出一把月之连枷，在路径顶端释放追踪月亮
 		按住<left>会让连枷围着你旋转，生成星芒
 		拥有20星芒时，扔出连枷后再次按住<left>会使其爆炸
-		爆炸不会释放月亮，而是召唤天蝎座造成大量伤害，并造成[cbuff:CalamityMod/Voidfrost]
+		爆炸不会释放月亮，而是召唤天蝎座造成大量伤害，并造成[cbuff:CalamityMod/Voidfrost]减益
 		“源于天才的疯癫”
 		'''
 }
@@ -618,7 +618,7 @@ GalileoGladius: {
 	Tooltip:
 		'''
 		快速在玩家前方戳刺，命中时生成星芒
-		<right>用星链扔出短剑，刺穿敌人并施加[cbuff:CalamityMod/Voidfrost]
+		<right>用星链扔出短剑，刺穿敌人并造成[cbuff:CalamityMod/Voidfrost]减益
 		当处于刺穿状态时，使用<left>或<right>释放短剑
 		<left>拉出短剑并造成高伤害，消耗10星芒
 		<right>将你自己拉向短剑，允许你跃上敌人
@@ -903,7 +903,7 @@ Nadir: {
 
 Nebulash: {
 	DisplayName: 星云鞭
-	Tooltip: 发射一道闪光的链刃，击中敌人时爆炸
+	Tooltip: 发射一道闪光的链刃，击中敌人时爆炸并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 NeptunesBounty: {
@@ -1352,7 +1352,7 @@ TheMicrowave: {
 	Tooltip:
 		'''
 		{$Common.YoyoStatsInfinite}
-		以辐射破坏附近敌人的生物组织和机械原件
+		以辐射破坏附近敌人的生物组织和机械原件并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		“用幻星的传统方式料理你的敌人，是舌尖上的灾厄的著名菜点”
 		'''
 }

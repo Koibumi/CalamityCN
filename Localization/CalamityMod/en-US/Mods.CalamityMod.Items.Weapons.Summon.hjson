@@ -2,6 +2,7 @@ AbandonedSlimeStaff: {
 	DisplayName: Abandoned Slime Staff
 	Tooltip:
 		'''
+		Summons an astral slime that inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 		Consumes all of the remaining minion slots on use
 		Must be used from the hotbar
 		Increased power and size based on the number of minion slots used
@@ -756,7 +757,7 @@ StaffOfNecrosteocytes: {
 
 StarspawnHelixStaff: {
 	DisplayName: Starspawn Helix Staff
-	Tooltip: Summons astral probes to protect you
+	Tooltip: Summons astral probes that inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 }
 
 StellarTorusStaff: {

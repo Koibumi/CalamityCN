@@ -120,7 +120,7 @@ ArterialAssault: {
 
 AstralBlaster: {
 	DisplayName: 幻星冲击炮
-	Tooltip: 将火枪子弹转化为追踪幻星弹
+	Tooltip: 将火枪子弹转化为可施加[cbuff:CalamityMod/AstralInfectionDebuff]减益的追踪幻星弹
 }
 
 AstrealDefeat: {
@@ -145,7 +145,7 @@ AuroraBlazer: {
 	DisplayName: 极光烈焰
 	Tooltip:
 		'''
-		喷出以星形轨迹运动的星云烈焰
+		喷出以星形轨迹运动的星云烈焰并施加[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		使用凝胶作为弹药
 		'''
 }
@@ -196,7 +196,7 @@ BloodBoiler: {
 	Tooltip:
 		'''
 		发射两股会回到你身边的生命血火
-		如果命中敌怪，返回的生命血火将减少[cbuff:PotionSickness]的冷却
+		如果命中敌怪，返回的生命血火将减少[cbuff:PotionSickness]的持续时间
 		消耗你的生命作为弹药
 		20%几率节省生命
 		'''
@@ -543,7 +543,7 @@ HalleysInferno: {
 	Tooltip:
 		'''
 		射出一连串高压月耀喷流
-		<right>快速发射星芒并造成[cbuff:CalamityMod/Voidfrost]
+		<right>快速发射星芒并造成[cbuff:CalamityMod/Voidfrost]减益
 		击中敌怪时随攻击准度生成星芒
 		使用凝胶作为弹药
 		“哈雷彗星比想象中到得早”
@@ -1231,7 +1231,7 @@ StarSputter: {
 	DisplayName: 星辰溅散
 	Tooltip:
 		'''
-		发射一束陨星
+		发射一束陨星并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		每四次攻击发射一个更大的陨星
 		“眺望遥远星系的闪烁群星”
 		'''
@@ -1239,7 +1239,7 @@ StarSputter: {
 
 StellarCannon: {
 	DisplayName: 新星炮
-	Tooltip: 发射一个爆炸幻星水晶
+	Tooltip: 发射一个爆炸幻星水晶并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 StormSurge: {
@@ -1311,6 +1311,7 @@ TauCannon: {
 		一级充能发射一阵小激光
 		二级充能发射一道快速消失的能量光束
 		三级充能发射一道大激光并在你周围产生星幻传送门
+		这些攻击会造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		“这把武器的伦理十分可疑”
 		'''
 }

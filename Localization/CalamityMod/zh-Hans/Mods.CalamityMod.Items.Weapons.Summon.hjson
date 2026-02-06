@@ -2,6 +2,7 @@ AbandonedSlimeStaff: {
 	DisplayName: 淡忘之史
 	Tooltip:
 		'''
+		召唤会造成[cbuff:CalamityMod/AstralInfectionDebuff]的星幻史莱姆
 		使用时会消耗所有的仆从栏位
 		必须在快捷栏使用
 		基于消耗的仆从栏位数量增加伤害和尺寸
@@ -705,7 +706,7 @@ Sirius: {
 		持续召唤会完善大犬座
 		重复召唤会大幅加强其威力，即便星座已经完善
 		索敌时天狼星会被动地生成星芒
-		当星芒满时，天狼星会消耗它们来发射强力的穿透星体并造成[cbuff:CalamityMod/Voidfrost]
+		当星芒满时，天狼星会消耗它们来发射强力的穿透星体并造成[cbuff:CalamityMod/Voidfrost]减益
 		“通往未竟之梦的指南”
 		'''
 }
@@ -756,7 +757,7 @@ StaffOfNecrosteocytes: {
 
 StarspawnHelixStaff: {
 	DisplayName: 唤星螺旋杖
-	Tooltip: 召唤幻星探测器来保护你
+	Tooltip: 召唤幻星探测器并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 StellarTorusStaff: {

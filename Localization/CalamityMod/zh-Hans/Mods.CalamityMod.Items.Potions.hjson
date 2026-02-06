@@ -41,6 +41,7 @@ BottledPanacea: {
 		'''
 		使用时治愈你所有的疾病系和电系减益
 		此效果有30秒冷却
+		（译注：暂无获取方式但与沉沦海更新内容存在双关，故暂时不译）
 		'''
 }
 
@@ -247,7 +248,7 @@ GrapeBeer: {
 }
 
 Manhattan: {
-	DisplayName: Manhattan
+	DisplayName: 曼哈顿
 	Tooltip:
 		'''
 		增加{0}%冷系减益的伤害
@@ -415,7 +416,7 @@ Barberry: {
 }
 
 Cometfruit: {
-	DisplayName: Cometfruit
+	DisplayName: 彗星果
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
@@ -424,17 +425,17 @@ Cometfruit: {
 }
 
 Jackfruit: {
-	DisplayName: Jackfruit
+	DisplayName: 菠萝蜜
 	Tooltip: "{$CommonItemTooltip.MinorStats}"
 }
 
 Lotus: {
-	DisplayName: Lotus
+	DisplayName: 忘忧果
 	Tooltip: "{$CommonItemTooltip.MediumStats}"
 }
 
 Mangosteen: {
-	DisplayName: Mangosteen
+	DisplayName: 山竹
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
@@ -443,7 +444,7 @@ Mangosteen: {
 }
 
 Salak: {
-	DisplayName: Salak
+	DisplayName: 蛇皮果
 	Tooltip: "{$CommonItemTooltip.MinorStats}"
 }
 

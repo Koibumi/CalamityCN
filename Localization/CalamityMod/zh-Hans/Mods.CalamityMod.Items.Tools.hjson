@@ -172,7 +172,7 @@ CrystylCrusher: {
 }
 
 DisgustingMeat: {
-	DisplayName: Disgusting Meat
+	DisplayName: 怪味柴肉
 	Tooltip:
 		'''
 		<left>将移除生命和魔力值升级，在没有使用灾厄升级时使用会移除原版升级

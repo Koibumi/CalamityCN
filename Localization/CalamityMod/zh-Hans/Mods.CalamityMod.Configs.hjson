@@ -542,7 +542,7 @@ CalamityServerConfig: {
 		Tooltip:
 			'''
 			使饰品重铸更简单，限定出现以下前缀选项：
-			          - 护佑，险恶，幸运，迅捷，暴力，奥秘，寂静，Invigorating，Dauntless
+			          - 护佑，险恶，幸运，迅捷，暴力，奥秘，寂静，焕生，不屈
 			'''
 	}
 

@@ -120,7 +120,7 @@ ArterialAssault: {
 
 AstralBlaster: {
 	DisplayName: Astral Blaster
-	Tooltip: Converts musket balls into homing astral rounds
+	Tooltip: Converts musket balls into homing astral rounds that inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 }
 
 AstrealDefeat: {
@@ -145,7 +145,7 @@ AuroraBlazer: {
 	DisplayName: Aurora Blazer
 	Tooltip:
 		'''
-		Spews a nebula stream which forms a star shaped pattern
+		Spews a nebula stream which forms a star shaped pattern and inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 		Uses gel for ammo
 		'''
 }
@@ -1231,7 +1231,7 @@ StarSputter: {
 	DisplayName: Star Sputter
 	Tooltip:
 		'''
-		Fires a chain of comets
+		Fires a chain of comets that inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 		Fires a bigger, more powerful comet every four rounds
 		'Look to the stars for a galaxy far, far away'
 		'''
@@ -1239,7 +1239,7 @@ StarSputter: {
 
 StellarCannon: {
 	DisplayName: Stellar Cannon
-	Tooltip: Launches an explosive astral crystal
+	Tooltip: Launches an explosive astral crystal that inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 }
 
 StormSurge: {
@@ -1311,6 +1311,7 @@ TauCannon: {
 		Charge level one fires a burst of bolts
 		Charge level two fires a beam of energy that quickly fizzles out
 		Charge level three fires a massive laser and creates astral portals around you
+		Inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 		'This weapon is very ethically questionable'
 		'''
 }

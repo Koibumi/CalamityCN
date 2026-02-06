@@ -4,7 +4,7 @@ Abaddon: {
 		'''
 		{$CommonItemTooltip.PercentIncreasedCritChance}
 		暴击会产生爆炸，并用[cbuff:CalamityMod/BrimstoneFlames]引燃附近的敌人
-		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]造成的伤害
+		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]减益造成的伤害
 		'''
 }
 
@@ -143,7 +143,7 @@ AngelicAlliance: {
 		按下 [KEY] 键获得{4}秒[cbuff:CalamityMod/DivineBless]增益
 		激活效果时，你每拥有一个仆从，便会出现一个圣天使
 		圣天使会用圣光蒸发敌怪，每个圣天使生成时会为你回复{5}点生命值
-		仆从攻击会施加[cbuff:CalamityMod/BanishingFire]，并使你获得不受其他效果影响的+{6}HP/s生命再生
+		仆从攻击会施加[cbuff:CalamityMod/BanishingFire]减益，并使你获得不受其他效果影响的+{6}HP/s生命再生
 		此效果有{7}分钟冷却时间
 		'''
 }
@@ -186,7 +186,7 @@ AquaticHeart: {
 		哇哦！你可以游泳了！
 		在水下时会增加{0}%最大速度和加速度
 		大幅度减缓氧气消耗速度并降低深渊中的黑暗强度
-		攻击者会被施加[cbuff:CalamityMod/GlacialState]
+		攻击者会被施加[cbuff:CalamityMod/GlacialState]减益
 		获得一个易碎的冰障，对一次攻击有{1}%伤害减免
 		冰障会在碎裂{2}秒后再生
 		'''
@@ -403,7 +403,7 @@ ChaosStone: {
 		'''
 		禁用魔力药水的自动消耗
 		魔力值不足时也可使用消耗魔力的物品
-		使用魔力会溢出为负魔力，使你获得并对敌怪施加[cbuff:CalamityMod/ManaBurn]
+		使用魔力会溢出为负魔力，使你获得并对敌怪施加[cbuff:CalamityMod/ManaBurn]减益
 		你的魔力值越低，魔力烧蚀越强烈
 		负魔力上限为你的最大魔力值
 		当前最大魔力烧蚀强度为-[REGEN]HP/s，并对敌怪造成已造成伤害的[DAMAGE]%
@@ -1853,7 +1853,7 @@ TeslasAmulet: {
 		'''
 		生成一个减速敌怪的电场
 		关闭饰品可见性时电场会变得透明
-		降低Static Discharge减益的持续时间
+		降低静电逸散减益的持续时间
 		'''
 }
 
@@ -2054,7 +2054,7 @@ VoidofExtinction: {
 		'''
 		{$CommonItemTooltip.PercentIncreasedCritChance}
 		暴击会产生爆炸，并用[cbuff:CalamityMod/BrimstoneFlames]引燃附近的敌人
-		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]造成的伤害
+		减少{1}%[cbuff:CalamityMod/BrimstoneFlames]减益造成的伤害
 		'''
 }
 
@@ -2063,7 +2063,7 @@ VoltaicJelly: {
 	Tooltip:
 		'''
 		增加1格最大仆从栏位
-		仆从攻击会施加Static Discharge
+		仆从攻击会施加静电逸散
 		'''
 }
 

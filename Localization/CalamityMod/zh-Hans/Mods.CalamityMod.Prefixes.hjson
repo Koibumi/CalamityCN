@@ -1,7 +1,7 @@
 Accessory: {
 	Silent.DisplayName: 寂静
-	Invigorating.DisplayName: Invigorating
-	Dauntless.DisplayName: Dauntless
+	Invigorating.DisplayName: 焕生
+	Dauntless.DisplayName: 不屈
 	// New modifier effects (this is only positive)
 	StealthGenTooltip: +{0}%潜行值恢复速度
 	LifeRegenTooltip: +{0}HP/s生命再生

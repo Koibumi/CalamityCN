@@ -500,7 +500,7 @@ OmegaBlueChestplate: {
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
 		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
-		你的攻击会造成Hadopelagic Pressure减益
+		你的攻击会造成深渊重压减益
 		生命再生归零
 		'''
 }

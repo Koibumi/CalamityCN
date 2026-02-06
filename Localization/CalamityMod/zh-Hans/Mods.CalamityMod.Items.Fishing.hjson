@@ -320,7 +320,7 @@ NavyFishingRod: {
 	DisplayName: 沉沦渊石钓竿
 	Tooltip:
 		'''
-		投放对附近敌怪施加Static Discharge的浮标
+		投放对附近敌怪施加静电逸散的浮标
 		“大海是座城市。
 		就在我脚下，那是高速公路、林荫大道、大街小巷，海下的车辆行人熙熙攘攘。”
 		'''

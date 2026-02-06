@@ -132,7 +132,7 @@ SnowRuffianMask: {
 	SetBonus:
 		'''
 		你可以缓降以消除坠落伤害
-		远程暴击对敌人施加{0}秒[cbuff:Frostburn]
+		远程暴击对敌人造成{0}秒[cbuff:Frostburn]减益
 		'''
 }
 

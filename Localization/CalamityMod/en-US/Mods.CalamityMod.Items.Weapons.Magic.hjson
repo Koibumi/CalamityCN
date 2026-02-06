@@ -29,7 +29,7 @@ AethersWhisper: {
 
 AlulaAustralis: {
 	DisplayName: Alula Australis
-	Tooltip: Fires a beautiful aurora trailed by a star shower
+	Tooltip: Fires a beautiful aurora that inflicts [cbuff:CalamityMod/AstralInfectionDebuff] trailed by a star shower
 }
 
 AlphaDraconis: {
@@ -122,12 +122,12 @@ ArtAttack: {
 
 AstralachneaStaff: {
 	DisplayName: Astralachnea Staff
-	Tooltip: Fires a spread of homing astral spider fangs
+	Tooltip: Fires a spread of homing astral spider fangs that inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 }
 
 AstralStaff: {
 	DisplayName: Astral Staff
-	Tooltip: Summons a large crystal from the sky that has a large area of effect on impact
+	Tooltip: Summons a large crystal from the sky that has a large area of effect on impact and inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 }
 
 Atlantis: {

@@ -45,7 +45,7 @@ GrapeBeerBuff: {
 }
 
 ManhattanBuff: {
-	DisplayName: Manhattan
+	DisplayName: 曼哈顿
 	Description: 冷系减益的伤害增加，但水系减益的伤害降低
 }
 
@@ -133,7 +133,7 @@ AstralInfectionDebuff: {
 }
 
 AuricRebuke: {
-	DisplayName: Auric Rebuke
+	DisplayName: 金源之斥
 	Description: 你的细胞正在猛烈地相互碰撞
 	ItemTooltip: 电系 - 100 DPS，对移动目标造成4倍伤害
 }
@@ -163,7 +163,7 @@ BrainRot: {
 }
 
 DemonicFlames: {
-	DisplayName: Demonic Flames
+	DisplayName: 恶魔之焰
 	Description: 献祭之火正在灼烧你的灵魂
 	ItemTooltip: 火系 - 造成的伤害取决于施加减益的物品
 }
@@ -277,7 +277,7 @@ SnapClamDebuff: {
 }
 
 StaticDischarge: {
-	DisplayName: Static Discharge
+	DisplayName: 静电逸散
 	Description: 被静电冲击
 	ItemTooltip: 电系 - 2.5 DPS，对移动目标造成4倍伤害
 }
@@ -310,13 +310,13 @@ Vaporfied: {
 }
 
 VermillionFlux: {
-	DisplayName: Vermillion Flux
+	DisplayName: 赤羽流霆
 	Description: 猩红色的尖锐电弧贯穿了你的全身
 	ItemTooltip: 电系 - 50 DPS，对移动目标造成4倍伤害
 }
 
 Voidfrost: {
-	DisplayName: Voidfrost
+	DisplayName: 虚空霜蚀
 	Description: 太空的虚无吞噬了所有的温暖与生命
 	ItemTooltip: 冷系 - 200 DPS
 }
@@ -475,7 +475,7 @@ FoxPetBuff: {
 }
 
 FrostyBatBuff: {
-	DisplayName: Frosty Bat Friend
+	DisplayName: 霜糖蝙蝠瓶
 	Description: 一只寒霜蝙蝠在周围掠动
 }
 
@@ -545,7 +545,7 @@ ThirdSageBuff: {
 }
 
 ToastyBatBuff: {
-	DisplayName: Toasty Bat Friend
+	DisplayName: 焦糖蝙蝠瓶
 	Description: 一只炽焰蝙蝠在你肩头扑棱
 }
 
@@ -722,7 +722,7 @@ AdrenalineMode: {
 }
 
 AeolianEarthBuff: {
-	DisplayName: Aeolian Earth
+	DisplayName: 风佑地坚
 	Description:
 		'''
 		你被始源能量增强了
@@ -930,7 +930,7 @@ ReaverRage: {
 }
 
 SandsWindBuff: {
-	DisplayName: Sand's Wind
+	DisplayName: 风沙加护
 	Description:
 		'''
 		你被沙之力量增强了
@@ -1051,7 +1051,7 @@ GlacialState: {
 }
 
 HadopelagicPressure: {
-	DisplayName: Hadopelagic Pressure
+	DisplayName: 深渊重压
 	Description: 急速沉入深海之棺
 	ItemTooltip: 水系 - 200 DPS
 }
@@ -1135,7 +1135,7 @@ AbandonedSlimeBuff: {
 }
 
 AmphibiansGuitarBuff: {
-	DisplayName: Amphibian's Guitars
+	DisplayName: 草帽蛙的吉他
 	Description: 毫无价值的人类……
 }
 
@@ -1150,7 +1150,7 @@ AquaticStar: {
 }
 
 AqueousHunterDroneBuff: {
-	DisplayName: Aqueous Hunter Drone Buff
+	DisplayName: 水下猎捕无人机
 	Description: 不幸地是，它没法做炒饭
 }
 
@@ -1200,8 +1200,8 @@ BrittleStar: {
 }
 
 BurrowerBuff: {
-	DisplayName: Burrower
-	Description: 友好的burrower回应了你的召唤
+	DisplayName: 掘地者
+	Description: 友好的掘地者回应了你的召唤
 }
 
 CalamarisLamentBuff: {
@@ -1400,7 +1400,7 @@ KingofConstellationsBuff: {
 }
 
 LegionofCelestiaBuff: {
-	DisplayName: Celestial Axe
+	DisplayName: 塞拉斯蒂娅斧子
 	Description: 要是它擅长砍树就好了……
 }
 
@@ -1425,7 +1425,7 @@ MagicHatBuff: {
 }
 
 VoidEaterMarionetteBuff: {
-	DisplayName: Void Eater Marionette
+	DisplayName: 虚空吞噬者傀具
 	Description: 掌控吞噬者的力量在你手中
 }
 
@@ -1672,7 +1672,7 @@ Shadowflame: {
 }
 
 ForbiddenStealthSummonTagBuff: {
-	DisplayName: Forbidden Stealth Summon Tag Buff
+	DisplayName: 禁戒潜伏召唤标记
 	Description: 如果你正看到这个，说明出现了严重的错误
 }
 
@@ -1682,6 +1682,6 @@ SeaKingsAssurance: {
 }
 
 CnidarianSummonTagBuff: {
-	DisplayName: Cnidarian Summon Tag Buff
+	DisplayName: 水母钓竿标记
 	Description: 你不该看到这个
 }
