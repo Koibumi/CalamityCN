@@ -39,6 +39,7 @@ AuroradicalThrow: {
 		Launches a star that splits after a short period of time
 		Split stars home in on nearby enemies after a few seconds
 		Stealth strikes summon a meteor upon enemy impact
+		Inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 		'''
 }
 
@@ -557,6 +558,7 @@ HeavenfallenStardisk: {
 		Throws a stardisk upwards which then launches itself towards your mouse cursor
 		Explodes into a star of astral bolts on hit
 		Stealth strikes rain astral energy bolts from the sky
+		Inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 		'''
 }
 
@@ -668,6 +670,7 @@ LeonidProgenitor: {
 		Throws a bombshell that explodes, summoning a meteor to impact the site
 		Press <right> to throw a spread of gravity affected comets that explode, leaving behind a star
 		Stealth strikes lob a bombshell that additionally splits into comets on hit
+		Inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 		'''
 }
 
@@ -867,7 +870,7 @@ RadiantStar: {
 	DisplayName: Radiant Star
 	Tooltip:
 		'''
-		Throws daggers that explode and split after a while
+		Throws daggers that explode and split after a while and inflict [cbuff:CalamityMod/AstralInfectionDebuff]
 		Stealth strikes split more with a devastating explosion that sucks enemies in
 		'''
 }
@@ -904,7 +907,7 @@ RegulusRiot: {
 	DisplayName: Regulus Riot
 	Tooltip:
 		'''
-		Fires a swift homing disk
+		Fires a swift homing disk that inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
 		Stealth strikes explode into energy stars
 		'''
 }
@@ -1124,7 +1127,7 @@ StellarKnife: {
 	DisplayName: Stellar Knife
 	Tooltip:
 		'''
-		Throws knives that stop middair and then home into enemies
+		Throws knives that stop middair and then home into enemies, inflicting [cbuff:CalamityMod/AstralInfectionDebuff]
 		Stealth strikes throw a volley of 10 knives in a spread
 		'ZA WARUDO'
 		'''

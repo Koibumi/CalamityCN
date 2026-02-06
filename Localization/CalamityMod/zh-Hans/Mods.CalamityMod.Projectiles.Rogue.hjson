@@ -96,7 +96,7 @@ EpidemicShredderProjectile.DisplayName: 瘟疫回旋镖
 EquanimityDarkShard.DisplayName: 阴极
 EquanimityLightShard.DisplayName: 阳极
 EquanimityProj.DisplayName: 寂静回旋镖
-DimensionTearingDiskProjectile.DisplayName: Dimension-Tearing Disk
+DimensionTearingDiskProjectile.DisplayName: 破界飞盘
 ExecutionersBladeProj.DisplayName: 终结者之刃
 ExecutionersBladeStealthProj.DisplayName: 终结追魂刃
 ExorcismProj.DisplayName: 驱魔十字架
@@ -202,10 +202,10 @@ PrismRocket.DisplayName: 棱晶火箭
 PrismShurikenBlade.DisplayName: 衍曜旋刃
 ProfanedPartisanProj.DisplayName: 渎神投矛
 ProfanedPartisanSpear.DisplayName: 渎神之矛
-PumpkaboomSmall.DisplayName: Small Pumpkaboom
-PumpkaboomBoomSmall.DisplayName: Pump-kaboom!
-PumpkaboomBig.DisplayName: Big Pumpkaboom
-PumpkaboomBoomBig.DisplayName: Pump-KABOOM!!
+PumpkaboomSmall.DisplayName: 小南瓜炸弹
+PumpkaboomBoomSmall.DisplayName: 南瓜-炸弹！
+PumpkaboomBig.DisplayName: 大南瓜炸弹
+PumpkaboomBoomBig.DisplayName: 南瓜-炸弹！！
 RadiantExplosion.DisplayName: 辐射爆炸
 RadiantStar2.DisplayName: 辐射星
 RadiantStarKnife.DisplayName: 辐射星
@@ -215,8 +215,8 @@ RealityRuptureLance.DisplayName: 万象崩碎矛
 RealityRuptureMini.DisplayName: 现实裂片
 RealityRuptureStealth.DisplayName: 盈虚裂片
 ReaperProjectile.DisplayName: 死神飞镰
-ReboundingRainbowProj.DisplayName: Rebounding Rainbow
-ReboundingRainbowSplit.DisplayName: Rebounding Rainbow
+ReboundingRainbowProj.DisplayName: 折跃流虹
+ReboundingRainbowSplit.DisplayName: 折跃流虹
 RefractionRotorProjectile.DisplayName: 衍曜旋刃
 RefractionRotorSlashCreator.DisplayName: 衍曜斩切生成器
 RefractionSlash.DisplayName: 衍曜斩切
@@ -245,13 +245,13 @@ SeraphimAngelicLight2.DisplayName: 炽天使光球
 SeraphimBeamLarge.DisplayName: 神圣之光
 SeraphimDagger.DisplayName: 六翼天使
 SeraphimProjectile.DisplayName: 六翼天使
-ShatteredExplosion.DisplayName: Shattered Dawn Blast
-ShatteredDawnKnife.DisplayName: Shattered Dawn
-ShatteredDawnScorchedBlade.DisplayName: Scorched Blade
+ShatteredExplosion.DisplayName: 破碎黎明爆炸
+ShatteredDawnKnife.DisplayName: 破碎黎明
+ShatteredDawnScorchedBlade.DisplayName: 匕首
 ShinobiBladeProjectile.DisplayName: 忍者之刃
 ShockBolt.DisplayName: 震爆闪电
 ShockExplosion.DisplayName: 震爆
-DoomsdayDeviceProjectile.DisplayName: Doomsday Device
+DoomsdayDeviceProjectile.DisplayName: 末日诡雷
 ShockTeslaAura.DisplayName: 闪电光环
 ShroomerangSpore.DisplayName: 真菌孢子
 SkyBomberGas.DisplayName: 辐射云
@@ -270,8 +270,8 @@ SphereBladed.DisplayName: 致命之球
 SphereBlue.DisplayName: 蓝色致命之球
 SphereSpiked.DisplayName: 致命刺球
 SphereYellow.DisplayName: 黄色致命刺球
-SporeKnifeBud.DisplayName: Spore Knife Bud
-SporeKnifeProj.DisplayName: Spore Knife
+SporeKnifeBud.DisplayName: 孢子投刀
+SporeKnifeProj.DisplayName: 孢子投刀
 StealthNimbus.DisplayName: 云
 StealthNimbusCloud.DisplayName: 雨云
 StealthRain.DisplayName: 雨
@@ -314,15 +314,15 @@ ValariBoomerang.DisplayName: 霜碎回力标
 Valaricicle.DisplayName: 碎霜
 Valaricicle2.DisplayName: 碎霜
 ValedictionBoomerang.DisplayName: 辞别飞镰
-VegaProjectile.DisplayName: Vega
-VegaSpark.DisplayName: Vega Spark
-VegaStar.DisplayName: Vega Star
+VegaProjectile.DisplayName: 织女星
+VegaSpark.DisplayName: 织女星芒
+VegaStar.DisplayName: 织女星星
 VeneratedKnife.DisplayName: 敬天弑神刀
 WaveSkipperProjectile.DisplayName: 越浪蛟
 WebBallBol.DisplayName: 蛛网球
-WhitewaterAura.DisplayName: Whitewater Aura
-WhitewaterProj.DisplayName: Whitewater Flask
-WhitewaterSpear.DisplayName: Whitewater Spear
+WhitewaterAura.DisplayName: 激流光环
+WhitewaterProj.DisplayName: 白水烧瓶
+WhitewaterSpear.DisplayName: 水矛
 WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
