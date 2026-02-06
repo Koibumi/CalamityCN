@@ -253,7 +253,7 @@ ChickenCannon: {
 }
 
 ChromaticEruption: {
-	DisplayName: Chromatic Eruption
+	DisplayName: 虹彩喷涌
 	Tooltip:
 		'''
 		蓄力喷射彩虹火焰和成对的追踪彩色耀斑
@@ -410,7 +410,7 @@ Drataliornus: {
 }
 
 DriftwoodBow: {
-	DisplayName: Driftwood Bow
+	DisplayName: 漂流木弓
 	Tooltip: 当你潮湿时这把弓会更强
 }
 
@@ -815,7 +815,7 @@ NullificationPistol: {
 }
 
 OntologicalDespoiler: {
-	DisplayName: Ontological Despoiler
+	DisplayName: 模因根除者
 	Tooltip:
 		'''
 		能量槽中凝集了浓缩的虚妄，可进行充能。仅在进行充能射击后可以<right>切换模式
@@ -1001,7 +1001,7 @@ ReedBlowgun: {
 }
 
 Riftburst: {
-	DisplayName: Riftburst
+	DisplayName: 隙裂
 	Tooltip:
 		'''
 		发射五发普通箭，击中敌怪后生成幻影箭
@@ -1019,7 +1019,7 @@ RubicoPrime: {
 }
 
 Sandblaster: {
-	DisplayName: Sandblaster
+	DisplayName: 喷砂机
 	Tooltip:
 		'''
 		发射沙弹，击中敌人后爆炸并减速它们
@@ -1125,7 +1125,7 @@ Shroomer: {
 }
 
 SlagfireDouser: {
-	DisplayName: Slagfire Douser
+	DisplayName: 熔渣倾泻者
 	Tooltip:
 		'''
 		抛射一阵穿甲熔岩流
@@ -1304,7 +1304,7 @@ Svantechnical: {
 }
 
 TauCannon: {
-	DisplayName: Tau Cannon
+	DisplayName: T粒子炮
 	Tooltip:
 		'''
 		一把发射星幻能量的笨重突击步枪，拥有三级充能

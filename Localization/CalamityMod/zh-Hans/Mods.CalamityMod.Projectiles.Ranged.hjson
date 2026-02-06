@@ -42,8 +42,8 @@ ChargedBlast.DisplayName: 能量束
 ChargedBlastSplit.DisplayName: 分裂能量束
 ChickenExplosion.DisplayName: 肯德炸鸡
 ChickenRocket.DisplayName: 小鸡火箭
-ChromaticFire.DisplayName: Chromatic Fire
-ChromaticFlare.DisplayName: Chromatic Flare
+ChromaticFire.DisplayName: 喷涌虹彩
+ChromaticFlare.DisplayName: 喷涌虹闪
 CinderArrowProj.DisplayName: 余烬箭
 ClamorRifleProj.DisplayName: 聚能弹
 ClamorRifleProjSplit.DisplayName: 聚能弹
@@ -147,12 +147,12 @@ NorfleetExplosion.DisplayName: 爆炸
 NovaChargedShot.DisplayName: 新星冲击波
 NovaShot.DisplayName: 新星矢
 NukeOfBliss.DisplayName: 亵渎核弹
-NullFlash.DisplayName: Null Flash
+NullFlash.DisplayName: 空无闪
 NullShot.DisplayName: 空弹
-OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
-OntoligicalDespoilerBurst.DisplayName: Disruption Blast
-OntologicalDespoilerGrenade.DisplayName: Disruption Sphere
-OntologicalDespoilerShot.DisplayName: Unreality Condensate
+OntologicalDespoilerBeam.DisplayName: 空无湮灭射线束
+OntoligicalDespoilerBurst.DisplayName: 阻断能量爆炸
+OntologicalDespoilerGrenade.DisplayName: 阻断能量球
+OntologicalDespoilerShot.DisplayName: 浓缩的虚妄
 OpalChargedStrike.DisplayName: 充能水晶矢
 OpalStrike.DisplayName: 热能矢
 PiercingBullet.DisplayName: 穿甲弹
@@ -206,8 +206,8 @@ ShadeFire.DisplayName: 暗影火焰
 Shell.DisplayName: 贝壳箭
 Shockblast.DisplayName: 震爆冲击波
 ShockblastRound.DisplayName: 震爆冲击波
-ShortCircuitExplosion.DisplayName: Short Circuit
-ShortCircuitShot.DisplayName: Short Circuit Shot
+ShortCircuitExplosion.DisplayName: 肖特过载枪
+ShortCircuitShot.DisplayName: 肖特过载弹
 Shroom.DisplayName: 真菌
 Sickness.DisplayName: 疫病
 SicknessRound.DisplayName: 瘟疫子弹
@@ -224,9 +224,9 @@ SproutingArrowSplit.DisplayName: 春芽箭
 SputterComet.DisplayName: 飞溅彗星
 SputterCometBig.DisplayName: 飞溅彗星
 SpykerProj.DisplayName: 叶针
-StarfleetStar.DisplayName: Starfleet Star
-StarmadaHitProj.DisplayName: Starmada
-StarmadaStar.DisplayName: Starmada Star
+StarfleetStar.DisplayName: 星辰冲击波星弹
+StarmadaHitProj.DisplayName: 群星大炮
+StarmadaStar.DisplayName: 大炮星弹
 StarmageddonBinaryStarCenter.DisplayName: 双星中心
 StarmageddonStar.DisplayName: 橙星
 StarmageddonStar2.DisplayName: 蓝星
@@ -237,9 +237,9 @@ SulphuricDrop.DisplayName: 硫酸液滴
 SuperradiantBolt.DisplayName: 超辐矢
 SuperradiantSaw.DisplayName: 超辐圆锯
 SuperradiantSawLingering.DisplayName: 极辐圆锯
-TauCannonBeam.DisplayName: Tau Cannon Beam
-TauCannonBolt.DisplayName: Tau Cannon Bolt
-TauCannonPortal.DisplayName: Tau Cannon Portal
+TauCannonBeam.DisplayName: T粒子炮激光
+TauCannonBolt.DisplayName: T粒子光束
+TauCannonPortal.DisplayName: T粒子炮传送门
 TelluricGlareArrow.DisplayName: 辐光之箭
 TheMaelstromExplosion.DisplayName: 猎魂爆炸
 TheMaelstromShark.DisplayName: 猎魂鲨
