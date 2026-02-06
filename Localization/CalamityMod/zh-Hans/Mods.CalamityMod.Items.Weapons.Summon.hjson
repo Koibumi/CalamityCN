@@ -11,7 +11,7 @@ AbandonedSlimeStaff: {
 }
 
 AmphibiansGuitar: {
-	DisplayName: Amphibian's Guitar
+	DisplayName: 草帽蛙的吉他
 	Tooltip:
 		'''
 		召唤至多8把环绕你旋转的吉他，吉他会朝目标发射音符，偶尔散射
@@ -324,7 +324,7 @@ EnchantedConch: {
 }
 
 EnchantedKnifeStaff: {
-	DisplayName: Enchanted Knife Staff
+	DisplayName: 附魔飞刀法杖
 	Tooltip: 召唤一把附魔飞刀为你而战
 }
 
@@ -530,7 +530,7 @@ KingofConstellationsTenryu: {
 }
 
 LegionofCelestia: {
-	DisplayName: Legion of Celestia
+	DisplayName: 塞拉斯蒂娅之军
 	Tooltip: 召唤一把着魔的天界斧头为你而战
 }
 
@@ -884,7 +884,7 @@ VoidConcentrationStaff: {
 }
 
 VoidEaterMarionette: {
-	DisplayName: Void Eater Marionette
+	DisplayName: 虚空吞噬者傀具
 	Tooltip:
 		'''
 		蕴含掌控小型吞噬者的力量

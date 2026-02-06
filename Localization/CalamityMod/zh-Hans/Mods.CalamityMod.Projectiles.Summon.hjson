@@ -1,4 +1,4 @@
-AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
+AmphibiansGuitarMinion.DisplayName: 草帽蛙的吉他
 AmphibiansGuitarProjectile.DisplayName: 音符
 AndromedaDeathRay.DisplayName: 能量射线
 AndromedaRegislash.DisplayName: 能量光刃
@@ -58,7 +58,7 @@ Catastromini.DisplayName: 小灾难
 CatastropheSummon.DisplayName: 灾难
 CausticStaffProjectile.DisplayName: 荆棘
 CausticStaffSummon.DisplayName: 蚀骨之龙
-CelestialAxeMinion.DisplayName: Celestial Axe
+CelestialAxeMinion.DisplayName: 塞拉斯蒂娅斧头
 Cinder.DisplayName: 余烬
 CinderBlossom.DisplayName: 余烬之花
 CloudElementalMinion.DisplayName: 云之灵
@@ -92,8 +92,8 @@ DormantBrimseekerBab.DisplayName: 沉眠寻焰者
 DormantBrimseekerSummoner.DisplayName: 沉眠寻焰者
 Dreadmine.DisplayName: 惧魂雷
 DreadmineTurret.DisplayName: 恐惧炮塔
-EnchantedKnifeSummon.DisplayName: Enchanted Knife
-EnchantedKnifeStaffProjectile.DisplayName: Enchanted Knife Beam
+EnchantedKnifeSummon.DisplayName: 附魔飞刀
+EnchantedKnifeStaffProjectile.DisplayName: 附魔飞刀射线
 EndoBeam.DisplayName: 源生射线
 EndoCooperBody.DisplayName: 源生冰灵
 EndoCooperLimbs.DisplayName: 源生冰灵
@@ -171,10 +171,10 @@ LostSoulGold.DisplayName: 黄金灵魂
 LostSoulLarge.DisplayName: 灵魂
 LostSoulSmall.DisplayName: 灵魂
 LuxorsGiftSummon.DisplayName: 卢克索之召唤符文
-VoidEaterMarionetteBody.DisplayName: Void Eater Marionette
-VoidEaterMarionetteHead.DisplayName: Void Eater Marionette
-VoidEaterMarionetteTail.DisplayName: Void Eater Marionette
-DoGWeaponTeleportRift.DisplayName: Rift
+VoidEaterMarionetteBody.DisplayName: 虚空吞噬者傀具
+VoidEaterMarionetteHead.DisplayName: 虚空吞噬者傀具
+VoidEaterMarionetteTail.DisplayName: 虚空吞噬者傀具
+DoGWeaponTeleportRift.DisplayName: 裂隙
 MidnightSunBeaconProj.DisplayName: 极昼信标
 MidnightSunBeam.DisplayName: 极昼光束
 MidnightSunShot.DisplayName: 极昼信标子弹
@@ -255,7 +255,6 @@ SilvaCrystal.DisplayName: 始源林海水晶
 SilvaCrystalExplosion.DisplayName: 始源林海爆炸
 SiriusBeam.DisplayName: 天狼星光
 SiriusQuasar.DisplayName: 天狼星
-SiriusExplosion.DisplayName: 天狼星爆炸
 SiriusMinion.DisplayName: 天狼星
 SkeletalDragonChild.DisplayName: 骨龙之子
 SkeletalDragonMother.DisplayName: 骨龙之母
