@@ -152,7 +152,7 @@ EyeofDesolation: {
 }
 
 NaiadsWarhorn: {
-	DisplayName: Naiad's Warhorn
+	DisplayName: 那伊阿得斯战号
 	Tooltip:
 		'''
 		在海洋使用以召唤阿娜希塔
@@ -163,7 +163,7 @@ NaiadsWarhorn: {
 }
 
 MarkofProvidence: {
-	DisplayName: Mark of Providence
+	DisplayName: 普罗维登斯神印
 	Tooltip:
 		'''
 		亵渎火焰的华贵符文

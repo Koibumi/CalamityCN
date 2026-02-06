@@ -1,10 +1,10 @@
 BabyCannonballJellyfish.DisplayName: 小炮弹水母
 Bloatfish.DisplayName: 肿胀翻车鱼
-BrainIllusion.DisplayName: Brain Illusion
+BrainIllusion.DisplayName: 大脑幻象
 BobbitWormHead.DisplayName: 博比特虫
 BoxJellyfish.DisplayName: 灯水母
-Burrower.DisplayName: Burrower
-BurrowerHitbox.DisplayName: Burrower
+Burrower.DisplayName: 掘地者
+BurrowerHitbox.DisplayName: 掘地者
 CannonballJellyfish.DisplayName: 炮弹水母
 ChaoticPuffer.DisplayName: 混乱刺鲀
 ColossalSquid.DisplayName: 巨像乌贼
@@ -12,10 +12,10 @@ TinySquid: 小乌贼
 Cuttlefish.DisplayName: 红乌贼
 DevilFish.DisplayName: 魔鬼鱼
 DevilFishAlt.DisplayName: 魔鬼鱼
-DraconicSwarmer.DisplayName: Draconic Swarmer
-Dragonfolly.DisplayName: Dragonfolly
+DraconicSwarmer.DisplayName: 癫狂龙翼
+Dragonfolly.DisplayName: 痴愚金龙
 EidolonWyrmHead.DisplayName: 幻海妖龙
-FalseBrain.DisplayName: False Brain
+FalseBrain.DisplayName: 假脑
 GiantSquid.DisplayName: 巨大乌贼
 GulperEelHead.DisplayName: 大嘴鳗
 Laserfish.DisplayName: 激光鱼
@@ -24,11 +24,11 @@ MirageJelly.DisplayName: 幻海水母
 MorayEel.DisplayName: 海鳝
 OarfishHead.DisplayName: 桨鱼
 ReaperShark.DisplayName: 猎魂鲨
-Shoreskipper.DisplayName: Shoreskipper
+Shoreskipper.DisplayName: 滩涂鱼
 SlabCrab.DisplayName: 石板蟹
 ToxicMinnow.DisplayName: 剧毒米诺鱼
 Viperfish.DisplayName: 蝰蛇鱼
-WildBumblebirb.DisplayName: Wild Bumblebirb
+WildBumblebirb.DisplayName: 野生癫痫鸟
 AcidEel.DisplayName: 酸水鳗
 BabyFlakCrab.DisplayName: 小高口蟹
 BloodwormNormal.DisplayName: 血蠕虫
@@ -53,8 +53,8 @@ AstralSlime.DisplayName: 幻星史莱姆
 Atlas.DisplayName: 擎星者
 FusionFeeder.DisplayName: 融食鲨
 Hadarian.DisplayName: 哈达尔星鹫
-Astraglomerate.DisplayName: Astraglomerate
-Glomerling.DisplayName: Glomerling
+Astraglomerate.DisplayName: 星幻巢
+Glomerling.DisplayName: 星幻球体
 Mantis.DisplayName: 星幻螳螂
 Nova.DisplayName: 新星
 SightseerCollider.DisplayName: 对撞观星眼
@@ -157,7 +157,7 @@ AuroraSpirit.DisplayName: 极光之灵
 BloomSlime.DisplayName: 龙蒿史莱姆
 Bohldohr.DisplayName: 神庙滚石
 BucketZombie.DisplayName: "{$NPCName.Zombie}"
-CladCrab.DisplayName: Clad Crab
+CladCrab.DisplayName: 岩甲蟹
 CloudElemental.DisplayName: 雨云元素
 Cnidrion.DisplayName: 卧龙海马
 CrawlerAmber.DisplayName: 琥珀爬虫
@@ -191,7 +191,7 @@ Rimehound.DisplayName: 雾凇猎犬
 Rotdog.DisplayName: 血犬
 ScornEater.DisplayName: 吞食魔
 ShockstormShuttle.DisplayName: 风暴飞碟
-Shroomble.DisplayName: Shroomble
+Shroomble.DisplayName: 茸宝
 Stormlion.DisplayName: 风暴蚁狮
 Sunskater.DisplayName: 寻阳鱼
 SuperDummyNPC.DisplayName: 大草人

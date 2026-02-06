@@ -147,8 +147,8 @@ EutrophicSandfish: {
 }
 
 GleamingCucumber: {
-	DisplayName: Gleaming Cucumber
-	Tooltip: 在Polyp Forest底部发现的黏滑生物
+	// DisplayName: Gleaming Cucumber
+	Tooltip: 在珊瑚虫之森底部发现的黏滑生物
 }
 
 GreenwaveLoach: {
@@ -157,7 +157,7 @@ GreenwaveLoach: {
 }
 
 MoltenFishron: {
-	DisplayName: Molten Fishron
+	// DisplayName: Molten Fishron
 	Tooltip:
 		'''
 		它没有叫而是发出清脆的喘息声 
@@ -205,7 +205,7 @@ SparklingEmpress: {
 }
 
 SpecularSturgeon: {
-	DisplayName: Specular Sturgeon
+	// DisplayName: Specular Sturgeon
 	Tooltip:
 		'''
 		一种栖息于深处的鱼，可以繁衍数代
@@ -214,7 +214,7 @@ SpecularSturgeon: {
 }
 
 Squidoom: {
-	DisplayName: Squidoom
+	// DisplayName: Squidoom
 	Tooltip: 据说长时间凝视它会被催眠
 }
 

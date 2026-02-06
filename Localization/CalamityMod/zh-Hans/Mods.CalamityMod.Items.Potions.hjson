@@ -36,7 +36,7 @@ BlasphemousDonut: {
 }
 
 BottledPanacea: {
-	DisplayName: Bottled Panacea
+	DisplayName: 瓶装Panacea
 	Tooltip:
 		'''
 		使用时治愈你所有的疾病系和电系减益
@@ -448,7 +448,7 @@ Salak: {
 }
 
 ShroomBowl: {
-	DisplayName: Shroom Bowl
+	DisplayName: 茸煲
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
