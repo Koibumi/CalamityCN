@@ -1392,7 +1392,7 @@ ThreadOfEradication: {
 	DisplayName: 湮灭之弦
 	Tooltip:
 		'''
-		充能[c/ff00ff:宇宙爆裂]
+		充能[c/ff00ff:神殇宙灭激光]
 		按住武器使用会让它转而充能[c/ff00ff:终灭裂隙]
 		充能[c/ff00ff:终灭裂隙]时，弓的转向速度降低
 		'''
