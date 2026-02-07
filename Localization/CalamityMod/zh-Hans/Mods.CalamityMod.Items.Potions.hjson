@@ -411,7 +411,7 @@ WhiteWine: {
 
 // Food
 Barberry: {
-	DisplayName: Barberry
+	DisplayName: 小檗
 	Tooltip: "{$CommonItemTooltip.MediumStats}"
 }
 
