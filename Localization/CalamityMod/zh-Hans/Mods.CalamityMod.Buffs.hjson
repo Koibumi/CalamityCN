@@ -30,12 +30,12 @@ EverclearBuff: {
 }
 
 EvergreenGinBuff: {
-	DisplayName: 常青松子酒
+	DisplayName: 常青金酒
 	Description: 疾病系和水系减益的伤害增加，但电系和火系减益的伤害降低
 }
 
 FireballBuff: {
-	DisplayName: 火龙酒
+	DisplayName: 火龙
 	Description: 火系减益的伤害增加，但疾病系减益的伤害降低
 }
 
@@ -50,7 +50,7 @@ ManhattanBuff: {
 }
 
 MargaritaBuff: {
-	DisplayName: 玛格丽塔酒
+	DisplayName: 玛格丽塔
 	Description: 大部分伤害性减益的持续时间缩短，但减益对敌怪造成的伤害降低
 }
 
@@ -65,7 +65,7 @@ MoscowMuleBuff: {
 }
 
 OldFashionedBuff: {
-	DisplayName: 古典酒
+	DisplayName: 古典
 	Description: 非武器伤害增加，但武器伤害降低
 }
 
@@ -90,7 +90,7 @@ StarBeamRyeBuff: {
 }
 
 TequilaBuff: {
-	DisplayName: 龙舌兰酒
+	DisplayName: 龙舌兰
 	Description: 电系减益的伤害增加，但冷系减益的伤害降低
 }
 

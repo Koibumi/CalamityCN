@@ -218,7 +218,7 @@ Everclear: {
 }
 
 EvergreenGin: {
-	DisplayName: 常青松子酒
+	DisplayName: 常青金酒
 	Tooltip:
 		'''
 		增加{0}%水系和疾病系减益的伤害
@@ -228,7 +228,7 @@ EvergreenGin: {
 }
 
 Fireball: {
-	DisplayName: 火龙酒
+	DisplayName: 火龙
 	Tooltip:
 		'''
 		增加{0}%火系减益的伤害
@@ -258,7 +258,7 @@ Manhattan: {
 }
 
 Margarita: {
-	DisplayName: 玛格丽塔酒
+	DisplayName: 玛格丽塔
 	Tooltip:
 		'''
 		减半你受到的伤害性减益的持续时间
@@ -306,7 +306,7 @@ OddMushroom: {
 }
 
 OldFashioned: {
-	DisplayName: 古典酒
+	DisplayName: 古典
 	Tooltip:
 		'''
 		大多数非武器，非减益的伤害乘{0}
@@ -358,7 +358,7 @@ StarBeamRye: {
 }
 
 Tequila: {
-	DisplayName: 龙舌兰酒
+	DisplayName: 龙舌兰
 	Tooltip:
 		'''
 		增加{0}%电系减益的伤害
