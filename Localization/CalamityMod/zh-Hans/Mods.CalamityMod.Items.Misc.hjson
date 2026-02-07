@@ -284,7 +284,7 @@ PhantomHeart: {
 RedLightningContainer.DisplayName: 电刑之容
 
 SacredStrawberry: {
-	DisplayName: Sacred Strawberry
+	DisplayName: 圣佑草莓
 	Tooltip:
 		'''
 		永久增加{0}点最大生命值
@@ -294,7 +294,7 @@ SacredStrawberry: {
 }
 
 SanguineTangerine: {
-	DisplayName: Sanguine Tangerine
+	DisplayName: 沐血柑橘
 	Tooltip:
 		'''
 		永久增加{0}点最大生命值
@@ -306,7 +306,7 @@ SanguineTangerine: {
 StarlightFuelCell.DisplayName: 星光能量核心
 
 TaintedCloudberry: {
-	DisplayName: Tainted Cloudberry
+	DisplayName: 污浊云莓
 	Tooltip:
 		'''
 		永久增加{0}点最大生命值
