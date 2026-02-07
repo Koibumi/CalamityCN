@@ -20,13 +20,13 @@ GhostBossText2: 哀嚎声回响在破旧的地牢大厅之中……
 GhostBossText3: 逝去已久的囚犯们寻求着自己的狂热复仇……
 // Devourer of Gods
 DoGSpawn: 你不是神……但你的灵魂仍是我的盛宴！
-DoGSubphase1: 你确实比多数人强，但别太狂！
+DoGSubphase1: 你确实出类拔萃，但别狂妄自大！
 DoGPhase2: 还没完呢，小子！
 DoGPhase3: 神！不惧死亡！
 DoGHead1: 跪地求饶吧，小虫子！
 DoGHead2: 看你还能撑多久……
 DoGHead3: 这就累了？
-DoGHead4: 他们会倒下，你也会！
+DoGHead4: 他们已经倒下，你也会！
 DoGHead5: 放弃吧！对你我都好！
 DoGHead6: 让我来终结你吧！
 DoGHead7: 越来越离谱了……！
