@@ -1,5 +1,5 @@
 AerialTracker: {
-	DisplayName: P-LSR: Aerial Tracker
+	DisplayName: P-LSR：空域侦击器
 	Tooltip:
 		'''
 		扔出一个会向周围敌人发射激光的飞盘
@@ -11,7 +11,7 @@ AerialTracker: {
 }
 
 AqueousHunterDrone: {
-	DisplayName: P-PMA: Aqueous Hunter Drone
+	DisplayName: P-PMA：水下猎捕无人机
 	Tooltip:
 		'''
 		召唤一只发射追踪等离子导弹群的虾无人机
@@ -24,7 +24,7 @@ AqueousHunterDrone: {
 }
 
 Auger: {
-	DisplayName: P-GSS: Auger
+	DisplayName: P-GSS：螺旋钻
 	Tooltip:
 		'''
 		一台能产生磁能刃的腕戴式设备
@@ -35,7 +35,7 @@ Auger: {
 }
 
 CountermeasureMitt: {
-	DisplayName: B-LSR: Countermeasure Mitt
+	DisplayName: B-LSR：指向反击装置
 	Tooltip:
 		'''
 		一副每个指尖带有激光发射器的精密焊接手套
@@ -58,7 +58,7 @@ GalvanizingGlaive: {
 }
 
 HolofibreImmolator: {
-	DisplayName: R-PMA: Holofibre Immolator
+	DisplayName: R-PMA：纤化焚毁器
 	Tooltip:
 		'''
 		发射三个受到重力影响的等离子球，融解并穿过敌怪
@@ -88,7 +88,7 @@ MountedScanner: {
 }
 
 Nidhogg: {
-	DisplayName: B-GSS: Nidhogg
+	DisplayName: B-GSS：尼德霍格
 	Tooltip:
 		'''
 		一把能够快速开火的磁能轨道枪，在命中时产生持续牵引较弱敌人的磁能内爆
@@ -101,7 +101,7 @@ Nidhogg: {
 }
 
 PhalanxSurge: {
-	DisplayName: W-LSR: Phalanx Surge
+	DisplayName: W-LSR：锋矢之涌
 	Tooltip:
 		'''
 		发射一扇激光
@@ -162,7 +162,7 @@ PulseDragon: {
 }
 
 PulseGrenade: {
-	DisplayName: R-PLS: Pulse Grenade
+	DisplayName: R-PLS：脉冲手雷
 	Tooltip:
 		'''
 		一颗自我修复的手雷，将追踪敌人并爆炸为8块脉冲破片
@@ -204,7 +204,7 @@ PulseTurretRemote: {
 }
 
 ShortCircuit: {
-	DisplayName: P-TSL: Short Circuit
+	DisplayName: P-TSL：肖特过载枪
 	Tooltip:
 		'''
 		按下<left>快速发射具有高击退力的眩晕电弧
@@ -256,7 +256,7 @@ TheAnomalysNanogun: {
 }
 
 Vulcan: {
-	DisplayName: R-GSS: Vulcan
+	DisplayName: R-GSS：火神加特林
 	Tooltip:
 		'''
 		一把魔力驱动的点放式加特林炮

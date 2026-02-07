@@ -1,30 +1,30 @@
 // Damageable
 MarniteRepulsionHitbox.DisplayName: 斥力矩阵
 // Draedon's Arsenal
-AerialTrackerLaser.DisplayName: Laser
-AerialTrackerProjectile.DisplayName: Aerial Tracker
+AerialTrackerLaser.DisplayName: 激光
+AerialTrackerProjectile.DisplayName: 空域侦击器
 AnomalysNanogunHoldout.DisplayName: 异象纳米枪
 AnomalysNanogunMPFBBoom.DisplayName: MPFB爆炸
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB毁灭仪
 AnomalysNanogunPlasmaBeam.DisplayName: 离子光束
 AqueousHunterDroneSummon.DisplayName: 等离子虾
-AugerHoldout.DisplayName: P-GSS Auger
-AugerSlash.DisplayName: Auger Slash
-AugerPull.DisplayName: Auger Pull
+AugerHoldout.DisplayName: P-GSS 螺旋钻
+AugerSlash.DisplayName: 螺旋钻斩击
+AugerPull.DisplayName: 螺旋钻牵引
 CountermeasurePalmBlast.DisplayName: 掌心冲击
 GaussEnergy.DisplayName: 高斯能量
 GaussFlux.DisplayName: 高斯流能
-ImmolationArrow.DisplayName: Immolation Arrow
-ImmolationBurst.DisplayName: Immolation Burst
-ImmolationSpray.DisplayName: Immolation Spray
+ImmolationArrow.DisplayName: 焚毁箭
+ImmolationBurst.DisplayName: 焚毁爆炸
+ImmolationSpray.DisplayName: 纤化焚毁
 MassivePlasmaExplosion.DisplayName: 等离子爆炸
 MountedScannerLaser.DisplayName: 红色死光
 MountedScannerSummon.DisplayName: 架式扫射机
-NidhoggRailgunBigShot.DisplayName: Nidhogg Railgun
-NidhoggRailgunBlast.DisplayName: Nidhogg Beam
-NidhoggExplosion.DisplayName: Magnetic Implosion
-PhalanxSurgeLance.DisplayName: Laser Lance
-PhalanxSurgeLaser.DisplayName: Phalanx Laser
+NidhoggRailgunBigShot.DisplayName: 尼德霍格轨道枪
+NidhoggRailgunBlast.DisplayName: 尼德霍格能量束
+NidhoggExplosion.DisplayName: 磁能内爆
+PhalanxSurgeLance.DisplayName: 激光矛
+PhalanxSurgeLaser.DisplayName: 锋涌飞刺
 PhaseslayerBeam.DisplayName: 热熔光刃
 PlasmaCasterShot.DisplayName: 血浆束
 PlasmaGrenadeProjectile.DisplayName: 等离子手雷
@@ -37,7 +37,7 @@ PulsePistolShot.DisplayName: 聚能脉冲弹
 PulseRifleShot.DisplayName: 脉冲束
 PulseTurret.DisplayName: 脉冲炮塔
 PulseTurretShot.DisplayName: 脉冲弹
-ShortCircuitHook.DisplayName: Short Circuit Hook
+ShortCircuitHook.DisplayName: 肖特过载钩
 ShrimpPlasmaMissile.DisplayName: 等离子虾导弹
 SnakeEyesSummon.DisplayName: 蛇眼
 SnakeEyesProjectile.DisplayName: 无法逃避的能量矢
@@ -45,8 +45,8 @@ SystemBaneLightning.DisplayName: 电磁束
 SystemBaneProjectile.DisplayName: 神经系统紊乱装置
 TeslaCannonShot.DisplayName: 特斯拉光束
 VoltageStream.DisplayName: 高压电流
-VulcanProjectile.DisplayName: Vulcan Shot
-VulcanSpear.DisplayName: Vulcan Harpoon
+VulcanProjectile.DisplayName: 火神子弹
+VulcanSpear.DisplayName: 火神鱼叉
 WavePounderBoom.DisplayName: 震荡波
 WavePounderProjectile.DisplayName: 震波炸弹
 // Environmental
