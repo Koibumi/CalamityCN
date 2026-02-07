@@ -890,7 +890,7 @@ VoidEaterMarionette: {
 		'''
 		蕴含掌控小型吞噬者的力量
 		重复召唤会增加吞噬者的长度和威力
-		吞噬者会使用[c/ff00ff:Divinity Devourer]，[c/ff00ff:Faith Incinerator]和[c/ff00ff:Ultracosmic Maelstrom]攻击
+		吞噬者会使用[c/ff00ff:噬神者]，[c/ff00ff:焚灭虔信之火]和[c/ff00ff:超宇宙狂涡]攻击
 		可以与掉落物品互动
 		召唤吞噬者后在物品栏中按住Shift<right>以优先拾取掉落物品
 		'''

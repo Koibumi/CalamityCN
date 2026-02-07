@@ -3913,7 +3913,7 @@ CyanCoral: {
 }
 
 MagentaCoral: {
-	DisplayName: 品红珊瑚
+	DisplayName: 紫珊瑚
 	Tooltip: ""
 }
 
@@ -3923,7 +3923,7 @@ OrangeCoral: {
 }
 
 LimeCoral: {
-	DisplayName: 青柠珊瑚
+	DisplayName: 绿珊瑚
 	Tooltip: ""
 }
 

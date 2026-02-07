@@ -623,7 +623,7 @@ GalileoGladius: {
 		<left>拉出短剑并造成高伤害，消耗10星芒
 		<right>将你自己拉向短剑，允许你跃上敌人
 		跃上敌人时消耗20星芒并提供无敌帧
-		'Figaro, magnifico'
+		“Figaro, magnifico”
 		'''
 }
 
@@ -1374,7 +1374,7 @@ TheObliterator: {
 		{$Common.YoyoStatsInfinite}
 		[GFB]
 		'''
-	TooltipNormal: 偶尔向附近敌怪释放小型[c/ff00ff:Dimensional Drive]
+	TooltipNormal: 偶尔向附近敌怪释放微型[c/ff00ff:维度猛击]
 	TooltipGFB: 恐怕这件武器上只沾染了一点微不足道的灰尘
 }
 

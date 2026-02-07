@@ -598,7 +598,7 @@ DiamondOfTheDeep: {
 		灵魂将按顺序生成，根据颜色具有不同的效果
 		[c/3CB371: 命中敌怪时爆炸，并造成深渊水压减益] / [c/CB7AD7:恢复8生命值]
 		[c/FF4500: 穿透敌怪，并造成狱炎减益] / [c/CB7AD7:临时提升10点防御力]
-		[c/1E90FF: 能够多次命中敌怪，并造成Hadopelagic Pressure减益] / [c/CB7AD7:恢复5%最大生命值]
+		[c/1E90FF: 能够多次命中敌怪，并造成深渊重压减益] / [c/CB7AD7:恢复5%最大生命值]
 		如果关闭饰品可见性，灵魂会变得透明且安静
 		'''
 }
@@ -979,7 +979,7 @@ HowlsHeart: {
 
 IlmerisSpark: {
 	DisplayName: 伊尔梅里斯电火花石
-	Tooltip: Taking damage releases a blast of sparks
+	Tooltip: 受到伤害时会释放电火花冲击
 }
 
 InfectedJewel: {
@@ -1627,8 +1627,8 @@ ShieldoftheOcean: {
 	DisplayName: 海之盾
 	Tooltip:
 		'''
-		Increased defense by 5 when submerged in liquid
-		10% increased movement speed and +1 HP/s life regen while wearing Victide armor
+		浸没在液体中时增加5点防御
+		当你穿着胜潮套装时，增加10%移动速度和+1HP/s生命再生
 		'''
 }
 
