@@ -2170,7 +2170,7 @@ NavystoneToilet: {
 }
 
 NavystoneTriclinium: {
-	DisplayName: 沉沦渊石餐桌
+	DisplayName: 沉沦渊石躺椅
 	Tooltip: ""
 }
 
@@ -4614,7 +4614,7 @@ MiniAgedFloodlightItem: {
 }
 
 AridSoil: {
-	DisplayName: Arid Soil
+	DisplayName: 旱土
 	Tooltip: ""
 }
 
