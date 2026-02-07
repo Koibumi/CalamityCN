@@ -69,21 +69,21 @@ NPCName: {
 	GoblinThief: 这些恼人的盗贼们被强征加入哥布林军队以换取自由，他们尤其擅长敏捷移动和近身作战。
 	GoblinSummoner: 那些精通魔法的哥布林在其族群中尊如王侯，珍若瑰宝。术士尤其擅长通过强大的魔法召唤出高深莫测的暗影焰恶魂。
 	GoblinSorcerer: 哥布林们努力操纵魔法，只能勉强施展最简单的咒语，有些擅长操纵的哥布林能通过巫术变出暗影能量。
-	PirateCaptain: A pirate captain's love for riches is only rivaled by his desire to explore! Word that the Crusade had seemingly ended spread fast across the world, and abundances to plunder in this continent attracted this sea dweller and his motley crew.
-	MartianSaucerCore: Following the destruction of their planet by otherworldly creatures, the Martians' military evolved at an unprecedented rate. They were prepared to fight back any future threats, and also pillage any other worlds they could find.
-	TorchGod: An unknown entity responsible for a torch's eternal flicker, however easily angered by the unsightly, ungrateful abuse of torch placement.
-	EyeofCthulhu: A gargantuan monster of unknown origins, responsible for plaguing the night with Demon Eyes. Beasts of such caliber are often given the title of "Cthulhu", a word that meant "great beast" in the language of dragons.
-	BrainofCthulhu: The death of a god often birthed great monsters due to the volatile nature of godly essence. The culling of such abominations used to be cause for songs and festivities, but now, they only give birth to disappointments.
-	SkeletronHead: A demonic construct that bursts out of the Old Man when necessary and the most dangerous part of the curse laid by the Dragon Cult. They hoped to stop all intruders with it, but one was too cunning even for them.
-	WallofFlesh: Originally created by Azafurian mages as a gambit to seal away godly essence, the towering wall broke free after the city's destruction. Its existence was problematic, but its demise has ushered even greater instability upon the world.
-	QueenSlimeBoss: After fleeing the initial battle, the Slime God attempted to rebuild its Paladins with the emerged energy of the Hallow. However, it was ensnared by its own creation, unable to control the vast and unstable power of it.
-	Retinazer: A pair of mechanical eyes built by Draedon for reconnaissance and assassination, Retinazer focuses its energy into firing powerful lasers.
-	Spazmatism: A pair of mechanical eyes built by Draedon for reconnaissance and assassination, Spazmatism chases at high speed, exhaling cursed flames.
-	TheDestroyer: Despite being made with repurposed mining equipment, the Destroyer was built for fighting other deities in single combat, decorated in laser-armed probes, which detach from its body when damaged.
-	SkeletronPrime: Built with the express purpose of inciting fear into the hearts of any god worshiper, this machine has more arms than ever before, and a variety of fierce weapons.
-	Plantera: A dormant, yet powerful floral guardian grown by the elders of the Vernal Pass, using volatile animal souls as nourishment. Unshackled in a fit of herbage carnage, its reach now spans the entire jungle.
+	PirateCaptain: 海盗船长对财富的热爱，唯有其对探索的渴望可与之匹敌！圣战似乎已近尾声，消息迅速传遍世界，这块大陆上有如此丰富的资源可供掠夺，引来了这位海上霸主和他麾下形形色色的船员。
+	MartianSaucerCore: 在母星遭到异界生物摧毁后，火星人便以前所未有的速度发展着军事力量。他们做好了准备，既能反击任何未来的威胁，还准备掠夺目之所及的任何世界。
+	TorchGod: 主管火把永恒摇曳的未知存在，如果发现有人不知好歹，将火把摆放得很难看，就相当容易发怒。
+	EyeofCthulhu: 一只来源不明的巨型怪物，能够召唤恶魔眼肆虐夜空。如此级别的怪兽，常被冠以“克苏鲁”之名——在巨龙的语言中，这个词意为“巨兽”。
+	BrainofCthulhu: 神明陨落之时，因其神性精华的狂暴不羁，往往孕育出强大的怪物。往昔，剿灭这些可憎之物值得歌颂与欢庆，而今，只令人徒增失望。
+	SkeletronHead: 这尊恶魔造物乃是巨龙教诅咒中最危险的部分，必要之时，将会从老人体内迸发而出。他们本想借此阻挡所有入侵者，却未曾料到，有位来者狡猾至极，连他们也难以招架。
+	WallofFlesh: 这堵高墙最初由阿萨福勒的法师们设计，旨在封印神性精华。然而，在阿萨福勒毁灭后，它挣脱束缚，重获自由。其存在本就隐患重重，而它的崩塌更给世界带来了前所未有的动荡。
+	QueenSlimeBoss: 在初战溃逃后，史莱姆之神曾试图用神圣之地涌现的能量来重塑其圣卫。然而，它却无法掌控这庞大而不稳定的力量，为自己的亲手造物所困。
+	Retinazer: 一对由嘉登打造的机械之眼，专为侦察与暗杀而生。这只激光眼能汇聚能量，发射强大的激光。
+	Spazmatism: 一对由嘉登打造的机械之眼，专为侦察与暗杀而生。这只魔焰眼能喷吐诅咒焰，高速追击目标。
+	TheDestroyer: 尽管毁灭者由采矿设备改造而成，但它专为单挑神明而生，周身装有带激光武器的探测怪，它们一旦受到伤害，就会从体表脱离。
+	SkeletronPrime: 这架机械的铸造，只为在一切信神者心中植入恐惧。其采取了前所未有的多臂架构，并装配上了各式凶悍的武器。
+	Plantera: 这尊沉眠的花之守护者，拥有强大的力量。它由常春回廊的长老们培育，汲取动物那躁动不安的灵魂为养分。植被肆虐，屠杀来袭，它挣脱束缚，已将自己的根须蔓延至整个丛林。
 	HallowBoss: 纵然流淌着神之血脉，神之子们却没有继承分毫神力。光之女皇惟有从其他领域与生灵之中汲取力量，以期打造自己的权柄。而那片神圣之地，因其不稳定的本质，成了她觊觎的绝佳目标。如今，她已化身为一位强大的妖灵。
-	Golem: 丛林蜥蜴族群匠心独具的杰作。自驱逐族中女神以来，蜥蜴人们心怀羞愧，躲进神庙之中，一心寻觅光明。它由太阳能电池供电，随时准备保卫神庙。
+	Golem: 丛林蜥蜴族群匠心独具的杰作。自驱逐它们的女神以来，蜥蜴人们心怀羞愧，躲进神庙之中，一心寻觅光明。它由太阳能电池供电，随时准备保卫神庙。
 	DukeFishron: 一种在深海中独自繁衍生息的水生进化物种。尽管存在种种不足，它们仍与古老龙族血脉相连，宣称对海洋拥有近乎绝对的统治权。传说中，它们浮出水面只为寻找一种稀有而美味的蠕虫。
 	CultistBoss: 巨龙教的狂热首领，一心执念于复活巨龙。他恪守着神圣的职责，将一头宇宙巨兽封印于遥远月面，这是他多年前立誓效巨龙教时便已许下的庄重誓言。
 	CultistDevote: 全心全意的忠教徒，对仪式失败的担忧近乎偏执，即使面对死亡的威胁也始终忠于使命。恐惧只会让他们更加拼命。
