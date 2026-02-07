@@ -234,7 +234,7 @@ EnchantedStarfish: {
 	Tooltip:
 		'''
 		{$ItemTooltip.ManaCrystal}
-		可替代 [i:ManaCrystal] {$ItemName.ManaCrystal}
+		可替代[i:ManaCrystal]{$ItemName.ManaCrystal}
 		'''
 }
 

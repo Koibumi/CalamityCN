@@ -1,4 +1,4 @@
-BeeWings: 没有按住{$Key.DOWN}时降低下降速度
+BeeWings: 没有按住 {$Key.DOWN} 时降低下降速度
 BoneWings: 受击时飞行时间减半
 DemonWings: 提升下降速度
 FestiveWings: 生成能够恢复飞行时间的装饰品

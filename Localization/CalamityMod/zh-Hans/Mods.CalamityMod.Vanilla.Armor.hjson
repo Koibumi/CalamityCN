@@ -39,7 +39,7 @@ SetBonus: {
 		'''
 	Forbidden:
 		'''
-		{$LegacyTooltip.48} {0} 可将远古风暴召唤到光标位置
+		{$LegacyTooltip.48}{0}可将远古风暴召唤到光标位置
 		手持魔法武器时仆从造成的伤害不再降低
 		'''
 	Frost:

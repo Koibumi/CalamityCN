@@ -195,8 +195,8 @@ EditedTooltip: {
 		提升32%跳跃速度，并提升下落速度
 		提供一次重力助推跳跃，在重力翻转时重新充能
 		略微提升未装备翅膀时的空中移动速度
-		按{$Key.UP}反转重力
-		按{$Key.DOWN}加速下落
+		按 {$Key.UP} 反转重力
+		按 {$Key.DOWN} 加速下落
 		'''
 	FlameWakerBoots:
 		'''
