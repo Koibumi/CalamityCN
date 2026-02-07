@@ -182,17 +182,17 @@ DisgustingMeat: {
 }
 
 DriftwoodAxe: {
-	DisplayName: Driftwood Axe
+	DisplayName: 漂流木斧
 	Tooltip: 当你潮湿时效率提升
 }
 
 DriftwoodHammer: {
-	DisplayName: Driftwood Hammer
+	DisplayName: 漂流木锤
 	Tooltip: 当你潮湿时效率提升
 }
 
 DriftwoodPickaxe: {
-	DisplayName: Driftwood Pickaxe
+	DisplayName: 漂流木镐
 	Tooltip: 当你潮湿时效率提升
 }
 
