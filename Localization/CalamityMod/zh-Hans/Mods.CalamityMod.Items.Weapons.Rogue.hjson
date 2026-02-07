@@ -4,7 +4,7 @@ AdamantiteThrowingAxe: {
 }
 
 AntlionSkewer: {
-	DisplayName: Antlion Skewer
+	DisplayName: 蚁狮串
 	Tooltip:
 		'''
 		掷出被活活串起来的蚁狮，向前方发射沙爆弹
@@ -292,7 +292,7 @@ DesecratedWater: {
 }
 
 DimensionTearingDisk: {
-	DisplayName: Dimension-Tearing Disk
+	DisplayName: 破界飞盘
 	Tooltip:
 		'''
 		投出一个飞盘，向最近敌怪的方向撕裂空间
@@ -301,7 +301,7 @@ DimensionTearingDisk: {
 }
 
 DoomsdayDevice: {
-	DisplayName: Doomsday Device
+	DisplayName: 末日诡雷
 	Tooltip:
 		'''
 		使用这把武器直接命中会积攒潜行值
@@ -871,7 +871,7 @@ RealityRupture: {
 }
 
 ReboundingRainbow: {
-	DisplayName: Rebounding Rainbow
+	DisplayName: 折跃流虹
 	Tooltip:
 		'''
 		掷出飞盘，敌怪在附近时有几率生成数个新的飞盘
@@ -1007,7 +1007,7 @@ ShardofAntumbra: {
 }
 
 ShatteredDawn: {
-	DisplayName: Shattered Dawn
+	DisplayName: 破碎黎明
 	Tooltip:
 		'''
 		投掷一把会分裂成灼热追踪匕首的匕首
@@ -1090,7 +1090,7 @@ SpentFuelContainer: {
 }
 
 SporeKnife: {
-	DisplayName: Spore Knife
+	DisplayName: 孢子投刀
 	Tooltip:
 		'''
 		投掷一把长满藤蔓的匕首，爆裂成一片毒性孢子云
@@ -1310,7 +1310,7 @@ Valediction: {
 }
 
 Vega: {
-	DisplayName: Vega
+	DisplayName: 织女星
 	Tooltip:
 		'''
 		扔出一支矛，碰撞时碎裂成星星碎片并生成星芒
@@ -1341,7 +1341,7 @@ WebBall: {
 }
 
 Whitewater: {
-	DisplayName: Whitewater
+	DisplayName: 激流瓶
 	Tooltip:
 		'''
 		掷出一个魔法白水烧瓶，短暂延迟后开始发光
@@ -1373,7 +1373,7 @@ WulfrumKnife: {
 }
 
 Pumpkaboom: {
-	DisplayName: Pumpkaboom
+	DisplayName: 南瓜炸弹
 	Tooltip:
 		'''
 		投掷一个可以粘在敌怪身上的南瓜，延迟一段时间后爆炸
