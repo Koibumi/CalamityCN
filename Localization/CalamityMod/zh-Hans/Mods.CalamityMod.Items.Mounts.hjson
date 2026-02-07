@@ -4,7 +4,7 @@ Brimrose: {
 }
 
 ExoArmamentsKit: {
-	DisplayName: Exo Armaments Kit
+	DisplayName: 星流军械组
 	Tooltip:
 		'''
 		召唤一台可骑乘的战争机器
@@ -48,7 +48,7 @@ OnyxExcavatorKey: {
 		召唤一台可骑乘的玛瑙钻机坐骑
 		<left>挖掘前方或下方物块，取决于移动方向
 		钻头的镐力和挖掘速度取决于你物品栏中最好的镐子
-		'Irresponsibly demolishing all the neat world generation and causing unchecked ecological devastation? Splendid'
+		“毫不负责地毁坏所有安宁世界，造成无法控制的生态破坏？那很好了”
 		'''
 }
 

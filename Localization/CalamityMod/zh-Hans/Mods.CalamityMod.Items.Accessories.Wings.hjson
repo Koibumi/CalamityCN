@@ -60,8 +60,8 @@ MOAB: {
 }
 
 MoonWalkers: {
-	DisplayName: Moon Walkers
-	TreadsName: Moon Boots
+	DisplayName: 月亮行者翼靴
+	TreadsName: 月亮行者靴
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
@@ -75,7 +75,7 @@ MoonWalkers: {
 
 SeraphTracers: {
 	DisplayName: 炽天使翼靴
-	TreadsName: Seraph Treads
+	TreadsName: 炽天使之靴
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
@@ -129,8 +129,8 @@ TarragonWings: {
 }
 
 VoidStriders: {
-	DisplayName: Void Striders
-	TreadsName: Void Kicks
+	DisplayName: 虚空翼靴
+	TreadsName: 虚空步靴
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}

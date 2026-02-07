@@ -193,7 +193,7 @@ AquaticHeart: {
 }
 
 ArcFlashRing: {
-	DisplayName: Arc Flash Ring
+	DisplayName: 弧光指环
 	Tooltip:
 		'''
 		攻击有{0}%几率召唤从天而降的闪电，造成{1}倍伤害
@@ -272,7 +272,7 @@ Baroclaw: {
 }
 
 BatholithBangle: {
-	DisplayName: Batholith Bangle
+	DisplayName: 岩基手镯
 	Tooltip:
 		'''
 		魔法攻击命中敌怪时生成必定暴击的强力花岗岩闪光
@@ -283,7 +283,7 @@ BatholithBangle: {
 }
 
 BlackGlassBand: {
-	DisplayName: Black Glass Band
+	DisplayName: 黑璃手镯
 	Tooltip:
 		'''
 		命中敌怪会生成必定暴击的黑曜石闪光
@@ -440,7 +440,7 @@ CorrosiveSpine: {
 }
 
 UnholyTonic: {
-	DisplayName: Unholy Tonic
+	DisplayName: 邪秽秘药
 	Tooltip:
 		'''
 		处于腐化之地时增加4%伤害减免和6点防御
@@ -467,7 +467,7 @@ CrawCarapace: {
 }
 
 ViciousTonic: {
-	DisplayName: Vicious Tonic
+	DisplayName: 恶毒秘药
 	Tooltip:
 		'''
 		处于猩红之地时增加4%伤害减免和6点防御
@@ -588,7 +588,7 @@ DepthCharm: {
 }
 
 DiamondOfTheDeep: {
-	DisplayName: Diamond of the Deep
+	DisplayName: 渊洋晶钻
 	Tooltip:
 		'''
 		水系减益的伤害增加60%
@@ -1007,12 +1007,12 @@ InkBomb: {
 }
 
 InterstellarStompers: {
-	DisplayName: Interstellar Stompers
+	DisplayName: 踏星靴
 	Tooltip:
 		'''
 		增加6%移动速度和20%跳跃速度，免疫摔落伤害
 		按住{$Key.DOWN}提高最大下落速度
-		在半空中按 [KEY] 键会在0.33秒内充能一次极速猛击
+		在半空中按[KEY]键会在0.33秒内充能一次极速猛击
 		落下时你可以撞击穿过敌人而不受到接触伤害
 		一旦接触到地面你就会在脚下产生爆炸
 		猛击时间越长，爆炸的伤害越高，范围越大
@@ -1032,7 +1032,7 @@ IronBoots: {
 }
 
 IVDripOnTheRocks: {
-	DisplayName: IV Drip on the Rocks
+	DisplayName: 冰古典点滴
 	Tooltip:
 		'''
 		大多数非武器，非减益的伤害乘{0}
@@ -1320,7 +1320,7 @@ PlaguedFuelPack: {
 }
 
 PlanebreakersPouch: {
-	DisplayName: Planebreaker's Pouch
+	DisplayName: 破界者行囊
 	Tooltip:
 		'''
 		增加15%远程伤害和5%远程暴击率，并降低20%弹药消耗率
@@ -1376,7 +1376,7 @@ ProfanedSoulCrystal: {
 }
 
 ProtolithBangle: {
-	DisplayName: Protolith Bangle
+	DisplayName: 原石手镯
 	Tooltip:
 		'''
 		远程攻击命中敌怪时生成必定暴击且能命中多个敌怪的大理石闪光
@@ -1547,7 +1547,7 @@ SandSharkToothNecklace: {
 }
 
 ScionsCurio: {
-	DisplayName: Scions Curio
+	DisplayName: 硫海珍嗣
 	Tooltip:
 		'''
 		远程攻击命中会提升辐射减益的效果
@@ -1567,7 +1567,7 @@ ScuttlersJewel: {
 }
 
 SeaSpiritAmulet: {
-	DisplayName: Sea Spirit Amulet
+	DisplayName: 海灵护身符
 	Tooltip:
 		'''
 		缓慢积攒跟随你的灵魂珠，至多8个
@@ -1848,7 +1848,7 @@ SupremeBaitTackleBoxFishingStation: {
 }
 
 TeslasAmulet: {
-	DisplayName: Tesla's Amulet
+	DisplayName: 特斯拉护身符
 	Tooltip:
 		'''
 		生成一个减速敌怪的电场
@@ -2018,9 +2018,9 @@ VampiricTalisman: {
 		盗贼暴击时会汲取敌人生命
 		潜伏攻击会对非潜伏攻击提供15%暴击率加成和更多的生命偷取，持续10秒
 		潜伏攻击会造成重度出血和碎甲减益并多造成8%伤害
-		'Possessing the talisman makes you yearn for blood'
+		“拥有这个符咒会让你渴望鲜血”
 		'''
-	YearningForBlood: THIS ENDLESS HUNGER WON'T END
+	YearningForBlood: 渴！血！永！无！止！境！
 }
 
 VeneratedLocket: {
@@ -2068,7 +2068,7 @@ VoltaicJelly: {
 }
 
 WarbanneroftheRighteous: {
-	DisplayName: Warbanner of the Righteous
+	DisplayName: 正义战旗
 	Tooltip:
 		'''
 		基于你离敌怪的距离提供乘算伤害加成

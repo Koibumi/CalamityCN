@@ -395,7 +395,7 @@ ScrapBobber: {
 }
 
 NavystoneBobber: {
-	DisplayName: Sunken Sinker
+	DisplayName: 沉沦渔坠
 	Tooltip:
 		'''
 		{$ItemTooltip.FishingBobber}
@@ -431,7 +431,7 @@ PerennialBobber: {
 }
 
 ScoriaBobber: {
-	DisplayName: Volcanic Sinker
+	DisplayName: 火山渔坠
 	Tooltip:
 		'''
 		{$ItemTooltip.FishingBobber}
