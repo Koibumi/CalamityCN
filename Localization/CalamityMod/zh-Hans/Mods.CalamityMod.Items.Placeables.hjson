@@ -660,7 +660,7 @@ YharonRelic: {
 }
 
 CausticTorch: {
-	DisplayName: Caustic Torch
+	DisplayName: 腐蚀火把
 	Tooltip: 可放置于水中
 }
 
