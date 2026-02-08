@@ -114,6 +114,11 @@ Mods: {
 				Tooltip: This music box is unfinished and does not work
 			}
 
+			BrainstormTrailerMusicBox: {
+				DisplayName: Music Box (Brainstorm Trailer)
+				Tooltip: Plays a trailer score by Moonburn, CDMusic, and TYESKI
+			}
+
 			BrimstoneCragsMusicBox: {
 				DisplayName: Music Box (Brimstone Crags)
 				Tooltip: Plays 'The Step Below Hell' by DM DOKURO
@@ -342,6 +347,7 @@ Mods: {
 					BossRushTier2: Onslaught of Beasts
 					BossRushTier3: Reign of Lords
 					BossRushTier4: Trial of the Insane
+					BrainstormTrailer: Brainstorm Trailer
 					BrimstoneCrags: The Step Below Hell
 					BrimstoneElemental: Left Alone
 					CalamitasClone: Raw, Unfiltered Calamity
@@ -391,6 +397,7 @@ Mods: {
 					DMDOKURO: by DM DOKURO
 					DMDOKUROFeature: by DM DOKURO and SixteenInMono
 					HeartPlusUp: by Heart Plus Up!
+					MoonburnFeature: by Moonburn, CDMusic, and TYESKI
 					PinpinNeon: by PinpinNeon
 					RoverdriveX: by RoverdriveX
 				}
