@@ -492,7 +492,7 @@ HivePod: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一只星幻巢来向你的敌人放出星幻球体。
+		召唤一只星幻巢来向你的敌人放出星幻球体
 		'''
 }
 
