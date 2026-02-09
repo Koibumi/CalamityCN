@@ -2390,7 +2390,7 @@ MarniteLantern: {
 }
 
 MarniteLight: {
-	DisplayName: 合成岩火把
+	DisplayName: 合成岩小灯
 	Tooltip: ""
 }
 
