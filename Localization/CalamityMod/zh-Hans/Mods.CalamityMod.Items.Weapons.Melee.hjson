@@ -868,7 +868,7 @@ MonolithSword: {
 
 MonstrousKnives: {
 	DisplayName: 畸变飞刀
-	Tooltip: 扔出一阵短射程飞刀，有几率治疗玩家
+	Tooltip: 扔出一阵短射程飞刀并治疗玩家
 }
 
 Mourningstar: {
