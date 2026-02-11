@@ -2149,7 +2149,7 @@ HapuFruit: {
 
 LittleE: {
 	DisplayName: “E”人
-	Tooltip: “这是一个缩小版的我，{0}。我要把它交给你。”
+	Tooltip: “那是缩小版的我，{0}。我希望你拥有它。”
 }
 
 LucisSight: {
