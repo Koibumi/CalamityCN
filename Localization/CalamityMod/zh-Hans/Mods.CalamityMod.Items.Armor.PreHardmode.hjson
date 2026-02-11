@@ -39,7 +39,7 @@ AerospecHeadMelee: {
 	Tooltip: "{$CommonItemTooltip.PercentIncreasedMeleeDamage}"
 	SetBonus:
 		'''
-		增加{1}%移动速度和近战暴击率
+		增加{0}%移动速度和近战暴击率
 		{$Common.AggroBoost}
 		{$AerospecBreastplate.CommonSetBonus@1}
 		'''
