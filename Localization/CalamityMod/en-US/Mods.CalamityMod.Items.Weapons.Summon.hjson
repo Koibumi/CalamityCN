@@ -834,8 +834,8 @@ VengefulSunStaff: {
 	DisplayName: Vengeful Sun Staff
 	Tooltip:
 		'''
-		Summons an eclipse spirit to protect you
-		Repeated summons increase its power
+		Summons a sun spirit to protect you
+		Repeated summons eclipse the spirit and increase its power
 		'''
 }
 

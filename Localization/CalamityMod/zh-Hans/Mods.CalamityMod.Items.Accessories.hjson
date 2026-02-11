@@ -40,13 +40,10 @@ AbyssalMirror: {
 		'''
 		敌怪不太可能瞄准你，即便是在深渊中亦是如此
 		潜行值恢复速度在站定不动时增加{0}%，在移动时增加{1}%
-		使你获得闪避攻击的能力，闪避攻击时会释放伤害性流明晶流体云并眩晕附近的敌人
+		{$Common.DodgeProvided}
+		闪避攻击会使你恢复潜行值，释放伤害性流明晶流体云并眩晕附近的敌人
 		'''
-	HoldShiftTooltip:
-		'''
-		{$Common.DodgeInformation}
-		闪避攻击时会使你获得潜行值
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 	FlavorTooltip: “光无法到达海洋深处”
 }
 
@@ -90,7 +87,7 @@ AmalgamatedBrain: {
 		'''
 		受到伤害后困惑附近敌怪并生成一只沼泽之眼
 		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
-		使你获得闪避攻击的能力
+		{$Common.DodgeProvided}
 		闪避攻击后召唤伤害和暴击率会增加10%
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
@@ -439,15 +436,6 @@ CorrosiveSpine: {
 		'''
 }
 
-UnholyTonic: {
-	DisplayName: 邪秽秘药
-	Tooltip:
-		'''
-		处于腐化之地时增加4%伤害减免和6点防御
-		免疫大脑溃烂
-		'''
-}
-
 CounterScarf: {
 	DisplayName: 反击围巾
 	Tooltip:
@@ -463,15 +451,6 @@ CrawCarapace: {
 		'''
 		增加7%伤害
 		攻击者会受到伤害以及粉碎减益
-		'''
-}
-
-ViciousTonic: {
-	DisplayName: 恶毒秘药
-	Tooltip:
-		'''
-		处于猩红之地时增加4%伤害减免和6点防御
-		免疫血液沸腾
 		'''
 }
 
@@ -666,13 +645,10 @@ EclipseMirror: {
 		敌怪不太可能瞄准你，即便是在深渊中亦是如此
 		潜行值恢复速度在站定不动时增加25%，在移动但不攻击时也会增加
 		潜伏攻击只会消耗50%潜行值
-		在黑日之光的聚爆之中，你能够闪避一次攻击，聚爆会在大范围内造成很高的伤害
+		{$Common.DodgeProvided}
+		闪避攻击时会使你获得大量的潜行值，并释放伤害性极高的黑日之光聚爆
 		'''
-	HoldShiftTooltip:
-		'''
-		{$Common.DodgeInformation}
-		闪避攻击时会使你获得大量的潜行值
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 	FlavorTooltip: “它所映出的只有无边黑暗”
 }
 
@@ -1731,9 +1707,10 @@ StatisNinjaBelt: {
 	Tooltip:
 		'''
 		获得高速冲刺的能力
-		增加10%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
+		增加10%移动速度，32%跳跃速度并免疫摔落伤害
 		将移动加速度和减速度提升为1.6倍
-		可以游泳[TOGGLE]和闪避攻击
+		可以游泳[TOGGLE]和自动跳跃
+		{$Common.DodgeProvided}
 		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
 		'''
 	ToggleEffect: 、攀爬
@@ -1745,9 +1722,10 @@ StatisVoidSash: {
 	Tooltip:
 		'''
 		获得高速冲刺的能力
-		增加20%移动速度，32%跳跃速度，允许自动跳跃并免疫摔落伤害
+		增加20%移动速度，32%跳跃速度并免疫摔落伤害
 		将移动加速度和减速度提升为1.85倍
-		可以游泳[TOGGLE]和闪避攻击
+		可以游泳[TOGGLE]和自动跳跃
+		{$Common.DodgeProvided}
 		如果关闭饰品可见性，视觉效果会减弱
 		[c/aaaaaa:在物品栏中按住Shift<right>切换] [i:ClimbingClaws] [c/aaaaaa:攀爬爪的效果]
 		'''
@@ -1878,7 +1856,7 @@ TheAmalgam: {
 		大部分增益持续时间翻倍并且死亡后也仍然存在
 		受到伤害后困惑附近敌怪并生成一只沼泽之眼
 		沼泽之眼会向你上方飞走并爆炸成几朵暗影云
-		使你获得闪避攻击的能力
+		{$Common.DodgeProvided}
 		闪避攻击后召唤伤害和暴击率会增加10%
 		“你毫无头绪这些东西是怎么聚在一起的”
 		'''
@@ -1946,6 +1924,17 @@ TheFirstShadowflame: {
 		'''
 }
 
+ThePointer: {
+	DisplayName: 指向器
+	Tooltip:
+		'''
+		允许自动瞄准敌人
+		按下[KEY]来在鼠标附近的敌人中切换锁定目标
+		在所有附近的敌人都切换过一遍后，再次按键将禁用这个功能
+		“绝佳的逗猫棒”
+		'''
+}
+
 TheSponge: {
 	DisplayName: 化绵留香石
 	Tooltip:
@@ -2002,6 +1991,15 @@ TrinketofChi: {
 		'''
 }
 
+UnholyTonic: {
+	DisplayName: 邪秽秘药
+	Tooltip:
+		'''
+		处于腐化之地时增加4%伤害减免和6点防御
+		免疫大脑溃烂
+		'''
+}
+
 UnstableGraniteCore: {
 	DisplayName: 不稳定花岗岩核心
 	Tooltip:
@@ -2031,6 +2029,15 @@ VeneratedLocket: {
 		盗贼弹幕会从光标上方召唤一个复制品
 		潜伏攻击会释放一圈自动追踪敌人的宇宙匕首
 		“无论你去哪儿，你总不会孤身一人”
+		'''
+}
+
+ViciousTonic: {
+	DisplayName: 恶毒秘药
+	Tooltip:
+		'''
+		处于猩红之地时增加4%伤害减免和6点防御
+		免疫血液沸腾
 		'''
 }
 
@@ -2140,6 +2147,11 @@ HapuFruit: {
 	Tooltip: “一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”
 }
 
+LittleE: {
+	DisplayName: “E”人
+	Tooltip: “这是一个缩小版的我，{0}。我要把它交给你。”
+}
+
 LucisSight: {
 	DisplayName: Luci的目光
 	Tooltip: “一副时尚眼镜？就厄尔西亚现在的经济状况？！”
@@ -2162,6 +2174,11 @@ Popo: {
 SharkyPlush: {
 	DisplayName: 鲨鲨玩偶
 	Tooltip: "[c/696969:“小心无形之力……”]"
+}
+
+GlimmeringRibbon: {
+	DisplayName: 闪烁丝带
+	Tooltip: “我们生来无色。是我们遇到的人们给我们带来了颜色。”
 }
 
 TheComb: {

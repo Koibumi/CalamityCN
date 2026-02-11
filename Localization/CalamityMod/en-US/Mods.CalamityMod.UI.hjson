@@ -123,7 +123,7 @@ Cooldowns: {
 	InkBomb: Ink Bomb Cooldown
 	KillModeActive: Kill Mode Active
 	KillModeCooldown: Kill Mode Cooldown
-	LifeSteal: Life Steal Cooldown
+	LifeSteal: Life Steal Remaining
 	LionHeartShield: Energy Shell Cooldown
 	M1GarandShots: Chambered Rounds
 	MasterChefShieldDurability: MJOLNIR Shield Level

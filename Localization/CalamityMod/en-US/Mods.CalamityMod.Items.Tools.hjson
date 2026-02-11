@@ -3,18 +3,8 @@ AbyssalWarhammer: {
 	Tooltip: ""
 }
 
-AcidwoodAxe: {
-	DisplayName: Acidwood Axe
-	Tooltip: ""
-}
-
 AcidwoodHammer: {
 	DisplayName: Acidwood Hammer
-	Tooltip: ""
-}
-
-AcidwoodPickaxe: {
-	DisplayName: Acidwood Pickaxe
 	Tooltip: ""
 }
 
@@ -181,18 +171,8 @@ DisgustingMeat: {
 		'''
 }
 
-DriftwoodAxe: {
-	DisplayName: Driftwood Axe
-	Tooltip: Improved efficiency while you are wet
-}
-
 DriftwoodHammer: {
 	DisplayName: Driftwood Hammer
-	Tooltip: Improved efficiency while you are wet
-}
-
-DriftwoodPickaxe: {
-	DisplayName: Driftwood Pickaxe
 	Tooltip: Improved efficiency while you are wet
 }
 
@@ -271,18 +251,8 @@ MomentumCapacitor: {
 		'''
 }
 
-MonolithAxe: {
-	DisplayName: Monolith Axe
-	Tooltip: ""
-}
-
 MonolithHammer: {
 	DisplayName: Monolith Hammer
-	Tooltip: ""
-}
-
-MonolithPickaxe: {
-	DisplayName: Monolith Pickaxe
 	Tooltip: ""
 }
 

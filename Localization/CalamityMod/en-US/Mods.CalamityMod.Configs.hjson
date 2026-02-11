@@ -93,7 +93,7 @@ CalamityClientConfig: {
 	}
 
 	DisableGravityScreenSwap: {
-		Label: Disable Gravity Screen Flip
+		Label: "[i:GravityGlobe] Disable Gravity Screen Flip"
 		Tooltip:
 			'''
 			Disables vanilla's screen-flipping from changing gravity, flipping the player instead.

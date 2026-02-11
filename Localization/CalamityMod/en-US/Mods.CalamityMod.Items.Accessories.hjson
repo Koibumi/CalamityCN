@@ -39,14 +39,11 @@ AbyssalMirror: {
 	Tooltip:
 		'''
 		Enemies are less likely to target you, even in the abyss
-		Generate stealth {0}% faster when standing still and {1}% faster while moving
-		Grants the ability to dodge attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies
+		Generate stealth 25% faster when standing still and 12% faster while moving
+		{$Common.DodgeProvided}
+		Dodging an attack restores stealth and releases a cloud that damages and stuns nearby enemies
 		'''
-	HoldShiftTooltip:
-		'''
-		{$Common.DodgeInformation}
-		Dodging an attack gives stealth
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 	FlavorTooltip: "'Light does not reach the depths of the ocean'"
 }
 
@@ -90,7 +87,7 @@ AmalgamatedBrain: {
 		'''
 		Taking damage confuses nearby enemies and spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds
-		Grants the ability to dodge attacks
+		{$Common.DodgeProvided}
 		After dodging, summon damage and crit chance are boosted by 10%
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
@@ -439,15 +436,6 @@ CorrosiveSpine: {
 		'''
 }
 
-UnholyTonic: {
-	DisplayName: Unholy Tonic
-	Tooltip:
-		'''
-		Increases damage reduction by 4% and defense by 6 while in the corruption
-		Grants immunity to Brain Rot
-		'''
-}
-
 CounterScarf: {
 	DisplayName: Counter Scarf
 	Tooltip:
@@ -463,15 +451,6 @@ CrawCarapace: {
 		'''
 		7% increased damage
 		Attackers take damage and are inflicted with Crumbling
-		'''
-}
-
-ViciousTonic: {
-	DisplayName: Vicious Tonic
-	Tooltip:
-		'''
-		Increases damage reduction by 4% and defense by 6 while in the crimson
-		Grants immunity to Burning Blood
 		'''
 }
 
@@ -666,13 +645,10 @@ EclipseMirror: {
 		Enemies are less likely to target you, even in the abyss
 		Stealth generates 25% faster when standing still and is boosted while moving if not attacking
 		Stealth strikes only expend 50% of your max stealth
-		Grants the ability to dodge attacks in a blast of darksun light, which inflicts extreme damage in a wide area
+		{$Common.DodgeProvided}
+		Dodging an attack restores stealth and releases a burst of highly damaging darksun light
 		'''
-	HoldShiftTooltip:
-		'''
-		{$Common.DodgeInformation}
-		Dodging an attack grants a lot of stealth
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 	FlavorTooltip: "'Its reflection shows naught but darkness'"
 }
 
@@ -1731,9 +1707,10 @@ StatisNinjaBelt: {
 	Tooltip:
 		'''
 		Provides a high-speed dash
-		10% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
+		10% increased movement speed, 32% increased jump speed and negates fall damage
 		Increases movement acceleration and deceleration by 1.6x
-		Grants the ability to swim[TOGGLE] and dodge attacks
+		Allows the user to swim[TOGGLE] and auto jump
+		{$Common.DodgeProvided}
 		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:ClimbingClaws] [c/aaaaaa:Climbing Claws]
 		'''
 	ToggleEffect: ", climb walls,"
@@ -1745,10 +1722,10 @@ StatisVoidSash: {
 	Tooltip:
 		'''
 		Provides a high-speed dash
-		20% increased movement speed, 32% increased jump speed, allows auto-jump, and negates fall damage
+		20% increased movement speed, 32% increased jump speed, and negates fall damage
 		Increases movement acceleration and deceleration by 1.85x
-		Grants the ability to swim[TOGGLE] and dodge attacks
-		Visual effects are reduced if visibility is disabled
+		Allows the user to swim[TOGGLE] and auto jump
+		{$Common.DodgeProvided}
 		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:ClimbingClaws] [c/aaaaaa:Climbing Claws]
 		'''
 	ToggleEffect: ", climb walls,"
@@ -1878,7 +1855,7 @@ TheAmalgam: {
 		Most buffs last twice as long, and persist after dying
 		Taking damage confuses nearby enemies and spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds
-		Grants the ability to dodge attacks
+		{$Common.DodgeProvided}
 		After dodging, summon damage and crit chance are boosted by 10%
 		'You have no idea how it's staying together'
 		'''
@@ -1945,6 +1922,17 @@ TheFirstShadowflame: {
 		'''
 }
 
+ThePointer: {
+	DisplayName: The Pointer
+	Tooltip:
+		'''
+		Allows automatic targeting of enemies
+		Press [KEY] to cycle through targets near your mouse
+		After cycling through all close enemies, the next press will disable it
+		'Great for cats!'
+		'''
+}
+
 TheSponge: {
 	DisplayName: The Sponge
 	Tooltip:
@@ -2001,6 +1989,15 @@ TrinketofChi: {
 		'''
 }
 
+UnholyTonic: {
+	DisplayName: Unholy Tonic
+	Tooltip:
+		'''
+		Increases damage reduction by 4% and defense by 6 while in the corruption
+		Grants immunity to Brain Rot
+		'''
+}
+
 UnstableGraniteCore: {
 	DisplayName: Unstable Granite Core
 	Tooltip:
@@ -2030,6 +2027,15 @@ VeneratedLocket: {
 		Rogue projectiles summon a clone from above the cursor
 		Stealth strikes unleash a ring of seeking cosmilite knives
 		'You'll never be alone, no matter where you go'
+		'''
+}
+
+ViciousTonic: {
+	DisplayName: Vicious Tonic
+	Tooltip:
+		'''
+		Increases damage reduction by 4% and defense by 6 while in the crimson
+		Grants immunity to Burning Blood
 		'''
 }
 
@@ -2139,6 +2145,11 @@ HapuFruit: {
 	Tooltip: "'A fruit that calms your nerves (may have unintended side effects)'"
 }
 
+LittleE: {
+	DisplayName: Little E
+	Tooltip: "'That's a little version of me, {0}. I want you to have it.'"
+}
+
 LucisSight: {
 	DisplayName: Luci's Sight
 	Tooltip: "'Fashionable glasses? In Earthia's current economy?!'"
@@ -2161,6 +2172,11 @@ Popo: {
 SharkyPlush: {
 	DisplayName: Sharky Plush
 	Tooltip: "[c/696969:'Look out, for the force without form...']"
+}
+
+GlimmeringRibbon: {
+	DisplayName: Glimmering Ribbon
+	Tooltip: "'We are born colorless. It's the people we meet who give us color.'"
 }
 
 TheComb: {

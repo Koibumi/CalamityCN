@@ -641,7 +641,7 @@ GildedProboscis: {
 		刺击初始较弱，随蓄力时间逐渐强化
 		<right>向前冲刺并进行强力上挑
 		冲刺的距离取决于你是否朝着冲刺方向移动
-		总是暴击
+		总是暴击，你的暴击率会增加暴击伤害
 		'''
 }
 
@@ -863,7 +863,7 @@ MirrorBlade: {
 
 MonolithSword: {
 	DisplayName: 星石剑
-	Tooltip: ""
+	Tooltip: "{$Common.ArmorPenetration}"
 }
 
 MonstrousKnives: {

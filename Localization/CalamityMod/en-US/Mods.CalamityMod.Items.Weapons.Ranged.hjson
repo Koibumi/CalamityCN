@@ -196,7 +196,7 @@ BloodBoiler: {
 	Tooltip:
 		'''
 		Fires twin streams of bloodfire that returns to you
-		Retuning bloodfire reduces [cbuff:PotionSickness] if it struck an enemy
+		Returning bloodfire reduces [cbuff:PotionSickness] if it struck an enemy
 		Uses your health as ammo
 		20% chance to save health
 		'''

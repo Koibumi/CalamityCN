@@ -93,7 +93,7 @@ CalamityClientConfig: {
 	}
 
 	DisableGravityScreenSwap: {
-		Label: 反转重力时不翻转屏幕
+		Label: "[i:GravityGlobe]反转重力时不翻转屏幕"
 		Tooltip:
 			'''
 			禁用原版反转重力时带来的屏幕翻转效果，以翻转玩家代之

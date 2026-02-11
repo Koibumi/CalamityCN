@@ -86,7 +86,7 @@ ScrewdriverBuff: {
 
 StarBeamRyeBuff: {
 	DisplayName: 星界黑麦威士忌
-	Description: 魔法伤害增加，但魔力再生降低
+	Description: 魔力再生增加，但魔法伤害降低
 }
 
 TequilaBuff: {

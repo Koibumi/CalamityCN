@@ -1,10 +1,8 @@
 DashKey: 面朝一个方向时按下 {0}
 DodgeInfo:
 	'''
-	获得闪避能力
-	低于最大生命值5%伤害的攻击不会触发闪避
-	根据被闪避的攻击伤害，闪避有{0}到{1}秒的冷却时间
-	该冷却时间与其他的闪避或反弹效果共享
+	{$Common.DodgeProvided}
+	{$Common.DodgeInformation}
 	'''
 
 AddedTooltip: {

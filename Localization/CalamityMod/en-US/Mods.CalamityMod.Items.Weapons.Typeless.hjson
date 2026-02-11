@@ -80,7 +80,7 @@ StratusSphere: {
 	Tooltip:
 		'''
 		Launches a singularity which exerts influence on all entities in a large area around it
-		Influenced players gain Starbursts over time, while enemies instead take damage
+		Influenced players gain Starbursts over time and will consume Starbursts to fly when out of flight time
 		<right> to cause Starbursts to form a barrier, causing you to lose Starbursts instead of health
 		Launching the singularity deactivates the barrier, and creating a barrier deactivates the singularity
 		'Channeling souls into stars, an inane concept'

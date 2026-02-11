@@ -388,7 +388,7 @@ ScrapBobber: {
 	Tooltip:
 		'''
 		Provides a fishing minigame
-		Move in the indicated direction while fishing to catch items
+		Hold movement inputs in the indicated directions while fishing to catch items
 		The rod empowers the longer you go without a mistake, speeding it up
 		'There's supposed to be a fish finder installed, but it only beeps when you point it at yourself...'
 		'''

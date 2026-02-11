@@ -239,7 +239,7 @@ DeathValleyDuster: {
 		'''
 		Casts an enchanted blast of sand that passes through enemies and tiles
 		Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind Buff
-		The Sand's Wind Buff increases your defense by 10, damage by 12%, and greatly buffs mana regen
+		The {$Buffs.SandsWindBuff.DisplayName} buff increases your defense by {0}, damage by {1}%, and greatly buffs mana regen
 		'''
 }
 
@@ -963,7 +963,7 @@ UnstableCastersGauntlet: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/DBD7CA:Ordo] sigils always land critical strikes and pierce infinitely
+		[c/DBD7CA:Ordo] sigils always land critical strikes
 		[c/ABB6D4:Perdito] sigils ignore 25 points of enemy defense
 		[c/E89B8E:Ignis] sigils inflict Daybroken
 		[c/8ECBE8:Aqua] sigils inflict Crush Depth

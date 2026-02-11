@@ -641,7 +641,7 @@ GildedProboscis: {
 		The thrust begins weak, but becomes more powerful the longer it's held
 		<right> to dash forward with a mighty upstrike
 		The distance you dash depends on if you are moving with or against the dash
-		Always critically strikes
+		Always critically strikes, with critical strike chance increasing critical strike damage
 		'''
 }
 
@@ -863,7 +863,7 @@ MirrorBlade: {
 
 MonolithSword: {
 	DisplayName: Monolith Sword
-	Tooltip: ""
+	Tooltip: "{$Common.ArmorPenetration}"
 }
 
 MonstrousKnives: {

@@ -809,6 +809,11 @@ DraconicIncense: {
 	Tooltip: “龙火在空气中冉冉升起”
 }
 
+OldDukeMonolith: {
+	DisplayName: 硫海立体布景
+	Tooltip: “以剧毒紊流遮天蔽日”
+}
+
 ExoObelisk: {
 	DisplayName: 星流方尖碑
 	Tooltip: “星流能量渗入大气之中”
@@ -824,9 +829,9 @@ KelpTorch: {
 	Tooltip: 可放置于水中
 }
 
-OldDukeMonolith: {
-	DisplayName: 硫海立体布景
-	Tooltip: ""
+OtonilouStatue: {
+	// DisplayName: Otonilou Memorial
+	// Tooltip: ""
 }
 
 PlagueHumidifier: {

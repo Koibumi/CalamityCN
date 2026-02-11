@@ -86,7 +86,7 @@ ScrewdriverBuff: {
 
 StarBeamRyeBuff: {
 	DisplayName: Star Beam Rye
-	Description: Increased magic damage, reduced mana regeneration
+	Description: Increased mana regeneration, reduced magic damage
 }
 
 TequilaBuff: {

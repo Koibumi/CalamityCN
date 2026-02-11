@@ -4,6 +4,7 @@ RogueCrit: 盗贼暴击率增加{0}%
 RogueDamageCrit: 盗贼伤害和暴击率各增加{0}%
 RogueVelocity: 盗贼弹幕速度增加{0}%
 RogueStealth: 最大潜行值增加{0}点
+CritDamageTootip: "{0}%暴击伤害"
 // Armor Set Bonus key states
 BothArmorSetBonusKeys: 按下{0}或双击{1}
 NoArmorSetBonusKey: 按下套装奖励键
@@ -26,11 +27,12 @@ NotConsumable: 不消耗
 SummonTagDamageFlat: "{0}召唤标记伤害"
 SummonTagDamageMult: "{0}倍召唤标记伤害"
 SummonTagCrit: "{0}%召唤标记暴击率"
+DodgeProvided: 使你获得闪避攻击的的能力，或使已有的闪避能力加强
 DodgeInformation:
 	'''
-	低于最大生命值5%伤害的攻击不会触发闪避
-	根据被闪避的攻击伤害，闪避有20-90秒的冷却时间
-	该冷却时间与其他的闪避或反弹效果共享
+	[i/Terraria:BlackBelt]低于最大生命值5%伤害的攻击不会触发闪避
+	[i/Terraria:BlackBelt]闪避的冷却时间最大为90秒，根据被闪避的攻击伤害会有不同程度的缩短
+	[i/Terraria:BlackBelt]装备的闪避饰品每增加一个，冷却时间就会缩短15%
 	'''
 ReflectInformation:
 	'''

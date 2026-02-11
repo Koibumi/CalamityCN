@@ -3,18 +3,8 @@ AbyssalWarhammer: {
 	Tooltip: ""
 }
 
-AcidwoodAxe: {
-	DisplayName: 酸蚀木斧
-	Tooltip: ""
-}
-
 AcidwoodHammer: {
 	DisplayName: 酸蚀木锤
-	Tooltip: ""
-}
-
-AcidwoodPickaxe: {
-	DisplayName: 酸蚀木镐
 	Tooltip: ""
 }
 
@@ -181,18 +171,8 @@ DisgustingMeat: {
 		'''
 }
 
-DriftwoodAxe: {
-	DisplayName: 漂流木斧
-	Tooltip: 当你潮湿时效率提升
-}
-
 DriftwoodHammer: {
 	DisplayName: 漂流木锤
-	Tooltip: 当你潮湿时效率提升
-}
-
-DriftwoodPickaxe: {
-	DisplayName: 漂流木镐
 	Tooltip: 当你潮湿时效率提升
 }
 
@@ -271,18 +251,8 @@ MomentumCapacitor: {
 		'''
 }
 
-MonolithAxe: {
-	DisplayName: 星石斧
-	Tooltip: ""
-}
-
 MonolithHammer: {
 	DisplayName: 星石锤
-	Tooltip: ""
-}
-
-MonolithPickaxe: {
-	DisplayName: 星石镐
 	Tooltip: ""
 }
 

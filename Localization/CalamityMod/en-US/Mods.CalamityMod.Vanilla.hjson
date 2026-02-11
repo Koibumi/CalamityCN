@@ -1,10 +1,8 @@
 DashKey: Press {0} while facing a direction
 DodgeInfo:
 	'''
-	Grants the ability to dodge attacks
-	Attacks that deal less than 5% of your max life in damage will not be dodged
-	The dodge has a cooldown that ranges between {0} and {1} seconds depending on the dodged attack's damage
-	The cooldown is shared with all other dodges and reflects
+	{$Common.DodgeProvided}
+	{$Common.DodgeInformation}
 	'''
 
 AddedTooltip: {
