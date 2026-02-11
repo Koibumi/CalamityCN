@@ -349,8 +349,8 @@ StarBeamRye: {
 	DisplayName: 星界黑麦威士忌
 	Tooltip:
 		'''
-		增加魔力再生，即使再使用物品时也是如此
-		魔法武器的伤害提高至{0}倍
+		增加魔力再生，即使在使用物品时也是如此
+		魔法武器的伤害乘{0}
 		{$Common.AlcoholWarning}
 		'''
 }
