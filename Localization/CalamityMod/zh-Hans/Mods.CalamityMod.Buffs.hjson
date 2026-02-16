@@ -475,7 +475,7 @@ FoxPetBuff: {
 }
 
 FrostyBatBuff: {
-	DisplayName: 霜糖蝙蝠瓶
+	DisplayName: 霜糖蝙蝠伙伴
 	Description: 一只寒霜蝙蝠在周围掠动
 }
 
@@ -545,7 +545,7 @@ ThirdSageBuff: {
 }
 
 ToastyBatBuff: {
-	DisplayName: 焦糖蝙蝠瓶
+	DisplayName: 焦糖蝙蝠伙伴
 	Description: 一只炽焰蝙蝠在你肩头扑棱
 }
 
