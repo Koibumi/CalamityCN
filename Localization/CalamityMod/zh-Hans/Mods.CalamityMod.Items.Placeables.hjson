@@ -2080,7 +2080,7 @@ AncientSmoothNavystone: {
 }
 
 EutrophicShelf: {
-	DisplayName: 富养制造架
+	DisplayName: 富养灯架
 	Tooltip: ""
 }
 
