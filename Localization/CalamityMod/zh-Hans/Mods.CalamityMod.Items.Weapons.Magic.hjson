@@ -611,11 +611,7 @@ PhoenixFlameBarrage: {
 
 Photosynthesis: {
 	DisplayName: 光合射线
-	Tooltip:
-		'''
-		发射一条明亮的光束，在命中敌人时转化为能量
-		命中时敌人距离越远生成的能量越多
-		'''
+	Tooltip: 发射一条明亮的光束，在命中敌人时转化为能量
 }
 
 PlagueStaff: {

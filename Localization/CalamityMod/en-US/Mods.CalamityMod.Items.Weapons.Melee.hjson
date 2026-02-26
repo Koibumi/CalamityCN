@@ -629,7 +629,7 @@ GalileoGladius: {
 
 GeliticBlade: {
 	DisplayName: Gelitic Blade
-	Tooltip: Fires a gel wave that slows down on enemy hits
+	Tooltip: Fires a fast gel wave that speeds up on enemy hits
 }
 
 GildedProboscis: {

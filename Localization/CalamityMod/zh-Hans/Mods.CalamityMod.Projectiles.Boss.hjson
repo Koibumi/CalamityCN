@@ -23,6 +23,7 @@ BigFlare.DisplayName: 巨型耀斑
 BigFlare2.DisplayName: 巨型耀斑
 BirbAura.DisplayName: 龙魂光环
 BirbAuraFlare.DisplayName: 龙魂弹
+BloodBombRTS.DisplayName: 血炸弹
 BloodGeyser.DisplayName: 血涌泉
 BloodScythe.DisplayName: 血镰
 BrimstoneBall.DisplayName: 炼狱硫火球
@@ -134,7 +135,7 @@ PhantomShot2.DisplayName: 幽魂飞弹
 PlagueExplosion.DisplayName: 瘟疫导弹
 PlagueStingerGoliath.DisplayName: 制导瘟疫弹
 PlagueStingerGoliathV2.DisplayName: 制导瘟疫弹V2
-ProfanedSpear.DisplayName: 瘟疫长矛
+ProfanedSpear.DisplayName: 亵渎长矛
 ProvidenceCrystal.DisplayName: 圣洁水晶
 ProvidenceCrystalShard.DisplayName: 神圣碎晶片
 ProvidenceHolyRay.DisplayName: 圣之耀光

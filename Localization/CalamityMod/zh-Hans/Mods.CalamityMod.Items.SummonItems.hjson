@@ -286,7 +286,7 @@ Teratoma: {
 Terminus: {
 	DisplayName: 终末石
 	GFBName: 终末杖
-	Tooltip: 激活Boss Rush模式，再次使用以退出Boss Rush模式
+	Tooltip: 按住<left>开始或结束Boss Rush
 }
 
 YharonEgg: {

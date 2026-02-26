@@ -13,7 +13,6 @@ AbyssalDivingGear: {
 	Tooltip:
 		'''
 		Reduces the damage caused by the pressure of the abyss while out of breath
-		Removes the bleed effect caused by the abyss
 		Grants the ability to swim and greatly extends underwater breathing
 		Provides light underwater and extra mobility on ice
 		Provides a moderate amount of light and reduces breath loss in the abyss
@@ -632,7 +631,7 @@ DynamoStemCells: {
 		'''
 		10% increased ranged damage and movement speed
 		Ranged weapons fire a powerful mini swarmer every 3 seconds
-		Reduces damage taken from Dragonfire and Electrified
+		Reduces damage taken from Dragonfire
 		'''
 }
 
@@ -1089,7 +1088,7 @@ ManaPolarizer: {
 		Increases max mana by 50
 		Provides life regeneration and magic damage that scales based on how much mana you have
 		Lower mana means more life regeneration, but less magic damage
-		These scale from -2 to 2 HP/sec, and 15% to 5% damage
+		These scale from -2 to +2 HP/s, and 15% to 5% damage
 		The provided regeneration is halved when under Mana Sickness
 		Magic projectiles steal enemy life while holding a magic weapon
 		'''
@@ -1526,10 +1525,11 @@ ScionsCurio: {
 	DisplayName: Scions Curio
 	Tooltip:
 		'''
-		Ranged hits increase the effectiveness of the Irradiated debuff
-		Irradiated damage over time scales off of your ranged damage and crit chance
-		On kill, enemies burst, spreading Irradiated
+		Ranged hits increase the effectiveness of [cbuff:CalamityMod/Irradiated]
+		[cbuff:CalamityMod/Irradiated] damage over time scales off of your ranged damage and crit chance
+		On kill, enemies burst, spreading [cbuff:CalamityMod/Irradiated]
 		Taking damage causes the curio to explode in retaliation
+		Current [cbuff:CalamityMod/Irradiated] damage: [DAMAGE]
 		'''
 }
 
@@ -1851,7 +1851,7 @@ TheAmalgam: {
 	DisplayName: The Amalgam
 	Tooltip:
 		'''
-		All attacks inflict a variety of debuffs, 300% increased elemental debuff damage
+		All attacks inflict a variety of debuffs, 200% increased elemental debuff damage
 		Most buffs last twice as long, and persist after dying
 		Taking damage confuses nearby enemies and spawns a dank creeper
 		The dank creeper flies above you, exploding into several shaderain clouds

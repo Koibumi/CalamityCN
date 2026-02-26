@@ -337,7 +337,7 @@ Endogenesis: {
 		Changes attack modes by resummoning or reusing the staff 
 		The first mode makes it shoot sweeping lasers aimed at the enemy 
 		The second mode sacrifices its limbs to shoot out homing projectiles 
-		The third mode allows it to agressively tackle its enemies 
+		The third mode allows it to aggressively tackle its enemies 
 		The fourth mode makes the limbs function as endothermic flamethrowers 
 		Requires 10 minion slots to be summoned 
 		There can only be one construct at a time
@@ -854,7 +854,7 @@ ViralSprout: {
 	Tooltip:
 		'''
 		Summons a sage spirit to fight for you
-		Inflicts Sage Poison, a debuff that becomes stronger the more spirits you own
+		Inflicts [cbuff:CalamityMod/SagePoison], a debuff that becomes stronger the more spirits you own
 		'''
 }
 
@@ -865,7 +865,7 @@ ViridVanguard: {
 		Alternates between summoning axes and swords, both laced with a powerful poison
 		Axes orbit the player, dealing high damage at a close range
 		Swords chase down enemies with extreme precision, tearing them to shreds
-		All weapons inflict Sage Poison, which becomes more powerful the more weapons are summoned
+		All weapons inflict [cbuff:CalamityMod/Sage Poison], which becomes more powerful the more weapons are summoned
 		When all minion slots are full, <left> again to spin up a flurry of slashes aimed at your cursor
 		This ability has a five-second cooldown that requires holding this item
 		Shift-<right> this item in your inventory to change the rotation direction

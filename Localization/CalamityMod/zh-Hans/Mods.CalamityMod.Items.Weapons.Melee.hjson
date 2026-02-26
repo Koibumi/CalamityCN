@@ -629,7 +629,7 @@ GalileoGladius: {
 
 GeliticBlade: {
 	DisplayName: 凝胶波刃
-	Tooltip: 发射凝胶波，击中敌人时使其减速
+	Tooltip: 发射快速的凝胶波，击中敌人时加速
 }
 
 GildedProboscis: {

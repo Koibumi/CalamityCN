@@ -54,8 +54,8 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/DraedonPowerCell] Display Charge Meter"
 		Tooltip:
 			'''
-			Enables the Charge Meter UI, which displays the current charge of the player's held weapon.
-			The Charge Meter is always hidden if not holding a weapon which requires charge.
+			Enables the Charge Meter UI, which displays the current charge of the player's held item.
+			The Charge Meter is always hidden if not holding an item which requires charge.
 			'''
 	}
 
@@ -533,15 +533,6 @@ CalamityServerConfig: {
 			'''
 			Sets the respawn time for players when a boss is alive, in seconds. This applies equally in single player and multiplayer.
 			When no boss is alive, players will respawn in 3 seconds in both single player and multiplayer.
-			'''
-	}
-
-	SimplifyAccessoryReforge: {
-		Label: "[i:Autohammer] Simplify Accessory Reforging"
-		Tooltip:
-			'''
-			Makes accessory reforging simpler by restricting options to the following prefixes:
-			          - Warding, Menacing, Lucky, Quick, Violent, Arcane, Silent, Invigorating, Dauntless
 			'''
 	}
 

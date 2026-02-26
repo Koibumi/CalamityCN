@@ -252,12 +252,22 @@ Plague: {
 SagePoison: {
 	DisplayName: Sage Poison
 	Description: Poisoned
-	ItemTooltip: Sickness - DPS scales with summoned Viral Sprout amount
+	ItemTooltip:
+		'''
+		Sickness - 25 DPS per Viral Sprout / 50 DPS per Virid Vanguard
+		Ignores 75% of enemy sickness weaknesses and resistances
+		'''
 }
 
 SearingLava: {
 	DisplayName: Searing Lava
 	Description: The brimstone lava sears your flesh
+	ItemTooltip:
+		'''
+		Heat - 20 DPS
+		Ignores enemy heat weaknesses and resistances
+		Gains double effect from Heat debuff amplifiers
+		'''
 }
 
 ShellfishClaps: {

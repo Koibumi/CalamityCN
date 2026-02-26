@@ -786,9 +786,13 @@ NanoblackReaper: {
 	DisplayName: Nanoblack Reaper
 	Tooltip:
 		'''
-		Unleashes a storm of nanoblack energy blades
-		Blades target bosses whenever possible
-		Stealth strikes cause the scythe to create a large amount of homing afterimages instead of energy blades
+		Throws a scythe which rapidly forms a swarm of nanoblack tesselations from hard light
+		Nanoblack tesselations each emit an instantaneous zero-point energy strike
+		Zero-point energy strikes have 150 armor penetration and will target bosses whenever possible
+		Release <left> just as the scythe begins returning to carve through the enemy closest to your cursor at light speed
+		Light-speed carves have 150 armor penetration. If timed in a 4-frame window, they supercrit with +100% critical strike chance
+		<right> with sufficient stealth to massively increase attack speed for a short time
+		Scythes thrown during flurries emit supercharged energy strikes but cannot be returned manually
 		'''
 	HoldShiftTooltip:
 		'''
@@ -977,17 +981,10 @@ ScourgeoftheSeas: {
 
 SeafoamBomb: {
 	DisplayName: Seafoam Bomb
-	Tooltip: "[GFB]"
-	TooltipNormal:
+	Tooltip:
 		'''
 		Throws a bomb that explodes into a bubble which deals extra damage to enemies
 		Stealth strikes are faster and explode into 5 bubbles
-		'''
-	TooltipGFB:
-		'''
-		Throws a bomb that explodes into a bubble which deals extra damage to enemies
-		Stealth strikes are faster and explode into 5 bubbles
-		[c/256b93:'Right back in S tier!']
 		'''
 }
 
@@ -1127,7 +1124,7 @@ StellarKnife: {
 	DisplayName: Stellar Knife
 	Tooltip:
 		'''
-		Throws knives that stop middair and then home into enemies, inflicting [cbuff:CalamityMod/AstralInfectionDebuff]
+		Throws knives that stop midair and then home into enemies, inflicting [cbuff:CalamityMod/AstralInfectionDebuff]
 		Stealth strikes throw a volley of 10 knives in a spread
 		'ZA WARUDO'
 		'''

@@ -179,9 +179,16 @@ MoltenAmputatorProj.DisplayName: 熔岩切碎者
 MoonSigil.DisplayName: 月亮符文
 MycorootProj.DisplayName: 蘑菇根质
 MythrilKnifeProjectile.DisplayName: 秘银飞刀
+
+NanoblackLightspeedCarve: {
+	Perfect: 超光速之怒
+	Standard: 光速切割
+}
+
 NanoblackMain.DisplayName: 黑纳米死神
-NanoblackSplit.DisplayName: 纳米黑锋
-NanoblackStealthSplit.DisplayName: 黑纳米残像
+NanoblackPiercingStrike.DisplayName: 零点能量打击
+NanoblackStrike.DisplayName: 零点能量打击
+NanoblackTesselation.DisplayName: 黑纳米嵌合体
 NastyChollaBol.DisplayName: 仙人掌尖钉球
 NastyChollaNeedle.DisplayName: 仙人掌刺
 OrichalcumSpikedGemstoneProjectile.DisplayName: 山铜宝石钉
@@ -327,3 +334,4 @@ WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 钨钢飞刀
+NanoblackLightspeedCarveSlashVisual.DisplayName: 黑纳米光速切割视觉效果

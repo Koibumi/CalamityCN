@@ -286,7 +286,7 @@ Teratoma: {
 Terminus: {
 	DisplayName: Terminus
 	GFBName: Ogscule
-	Tooltip: Activates Boss Rush Mode, using it again will deactivate Boss Rush Mode
+	Tooltip: Hold <left> to start or end the Boss Rush
 }
 
 YharonEgg: {

@@ -611,11 +611,7 @@ PhoenixFlameBarrage: {
 
 Photosynthesis: {
 	DisplayName: Photosynthesis
-	Tooltip:
-		'''
-		Casts a brilliant ray that dissolves into energy on enemy hits
-		More energy is created the farther along the ray the hit enemy is
-		'''
+	Tooltip: Casts a brilliant ray that dissolves into energy on enemy hits
 }
 
 PlagueStaff: {

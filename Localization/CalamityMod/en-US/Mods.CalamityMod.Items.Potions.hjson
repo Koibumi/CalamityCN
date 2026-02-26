@@ -272,7 +272,7 @@ Moonshine: {
 		'''
 		Increases maximum health by {0}%
 		Attacks always take at least half your defense worth of defense damage
-		Defense damage takes twice as long to recover
+		Defense damage takes three times as long to recover
 		{$Common.AlcoholWarning}
 		'''
 }

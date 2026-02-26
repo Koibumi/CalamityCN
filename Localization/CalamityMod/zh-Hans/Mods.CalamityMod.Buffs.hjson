@@ -252,12 +252,22 @@ Plague: {
 SagePoison: {
 	DisplayName: 鼠尾草中毒
 	Description: 中毒
-	ItemTooltip: 疾病系 - 造成的伤害与召唤的鼠尾草之灵数量相关
+	ItemTooltip:
+		'''
+		疾病系 - 每个鼠尾草之灵 25 DPS/每把葱茏之锋 50 DPS
+		无视敌怪75%的疾病系弱性与抗性
+		'''
 }
 
 SearingLava: {
 	DisplayName: 硫焰灼烧
 	Description: 硫火岩浆烧灼着你的血肉
+	ItemTooltip:
+		'''
+		火系 - 20 DPS
+		无视敌怪火系弱性与抗性
+		受火系减益增幅时产生的效果翻倍
+		'''
 }
 
 ShellfishClaps: {

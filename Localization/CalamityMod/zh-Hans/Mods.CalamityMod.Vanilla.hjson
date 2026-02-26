@@ -147,8 +147,8 @@ EditedTooltip: {
 	ApprenticeTrousers: 增加10%召唤伤害，15%魔法暴击率和20%移动速度
 	SquireGreatHelm: 增加1最大哨兵栏并提供+2HP/s生命再生
 	SquireGreaves: 增加10%召唤伤害以及15%近战暴击率和移动速度
-	MonkBrows: 增加1最大哨兵栏和15%盗贼弹幕速度
-	MonkShirt: 增加15%召唤和盗贼伤害
+	MonkBrows: 增加1最大哨兵栏和20%盗贼弹幕速度
+	MonkShirt: 增加20%召唤和盗贼伤害
 	MonkPants: 增加15%盗贼暴击率和20%移动速度
 	// Valhalla Knight
 	SquireAltShirt: 增加30%召唤伤害并提供+4HP/s生命再生
@@ -156,7 +156,7 @@ EditedTooltip: {
 	MonkAltHead: 增加2最大哨兵栏以及20%召唤和盗贼伤害
 	MonkAltShirt0: 增加20%召唤伤害和盗贼弹幕速度
 	MonkAltShirt1: 增加5%盗贼暴击率
-	MonkAltPants: 增加10%召唤伤害和盗贼暴击率
+	MonkAltPants: 增加20%召唤伤害和盗贼暴击率
 	/*
 	Accessories
 	*/

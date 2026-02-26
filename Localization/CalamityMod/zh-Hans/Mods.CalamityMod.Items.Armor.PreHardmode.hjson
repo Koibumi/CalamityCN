@@ -123,12 +123,12 @@ SnowRuffianChestplate: {
 
 SnowRuffianGreaves: {
 	DisplayName: 雪境暴徒护胫
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedCritChance}"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
 }
 
 SnowRuffianMask: {
 	DisplayName: 雪境暴徒面具
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedCritChance}"
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
 	SetBonus:
 		'''
 		你可以缓降以消除坠落伤害

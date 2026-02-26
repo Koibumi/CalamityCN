@@ -147,8 +147,8 @@ EditedTooltip: {
 	ApprenticeTrousers: 10% increased summon damage, 15% increased magic critical strike chance, 20% increased movement speed
 	SquireGreatHelm: Increases your max number of sentries by 1 and grants +2 HP/s life regen
 	SquireGreaves: 10% increased summon damage, 15% increased melee critical strike chance and movement speed
-	MonkBrows: Increases your max number of sentries by 1 and increases rogue velocity by 15%
-	MonkShirt: 15% increased summon and rogue damage
+	MonkBrows: Increases your max number of sentries by 1 and increases rogue velocity by 20%
+	MonkShirt: 20% increased summon and rogue damage
 	MonkPants: 15% increased rogue critical strike chance and 20% increased movement speed
 	// Valhalla Knight
 	SquireAltShirt: 30% increased summon damage and grants +4 HP/s life regen
@@ -156,7 +156,7 @@ EditedTooltip: {
 	MonkAltHead: Increases your max number of sentries by 2 and increases summon & rogue damage by 20%
 	MonkAltShirt0: 20% increased summon damage and rogue velocity
 	MonkAltShirt1: 5% increased rogue critical strike chance
-	MonkAltPants: 10% increased summon damage and rogue critical strike chance
+	MonkAltPants: 20% increased summon damage and rogue critical strike chance
 	/*
 	Accessories
 	*/
