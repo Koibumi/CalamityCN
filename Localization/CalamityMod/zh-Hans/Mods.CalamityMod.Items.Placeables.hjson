@@ -809,7 +809,7 @@ DraconicIncense: {
 	Tooltip: “龙火在空气中冉冉升起”
 }
 
-OldDukeMonolith: {
+EldenDiorama: {
 	DisplayName: 硫海立体布景
 	Tooltip: “以剧毒紊流遮天蔽日”
 }
