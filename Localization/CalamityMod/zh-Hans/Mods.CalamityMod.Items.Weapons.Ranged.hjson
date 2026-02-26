@@ -1129,7 +1129,7 @@ SlagfireDouser: {
 	Tooltip:
 		'''
 		喷射一阵熔岩流
-		熔岩流无视敌怪10点防御并造成[cbuff:CalamityMod/SearingLava]
+		熔岩流无视敌怪10点防御并造成[cbuff:CalamityMod/SearingLava]减益
 		[c/FF9900:也能把镇民浸泡在熔岩中……]
 		'''
 }

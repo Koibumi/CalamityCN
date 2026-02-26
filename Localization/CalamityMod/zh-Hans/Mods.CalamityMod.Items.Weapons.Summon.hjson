@@ -854,7 +854,7 @@ ViralSprout: {
 	Tooltip:
 		'''
 		召唤一个鼠尾草之灵为你而战
-		鼠尾草之灵会造成[cbuff:CalamityMod/SagePoison]，召唤的鼠尾草之灵越多，减益的伤害越高
+		鼠尾草之灵会造成[cbuff:CalamityMod/SagePoison]减益，召唤的鼠尾草之灵越多，减益的伤害越高
 		'''
 }
 
@@ -865,7 +865,7 @@ ViridVanguard: {
 		交替召唤斧与剑，二者都附带剧毒
 		斧围绕玩家，在近距离内造成极高伤害
 		剑以极高精度追击敌人，将它们撕个粉碎
-		所有武器都会造成[cbuff:CalamityMod/SagePoison]，武器召唤的越多，减益越强
+		所有武器都会造成[cbuff:CalamityMod/SagePoison]减益，武器召唤的越多，减益越强
 		当所有仆从栏满时，再次<left>会朝你的光标旋转一阵斩击
 		此能力有五秒冷却，需要手持此武器才会计时
 		在物品栏中按住Shift<right>以改变其旋转方向

@@ -254,7 +254,7 @@ SagePoison: {
 	Description: 中毒
 	ItemTooltip:
 		'''
-		疾病系 - 每个鼠尾草之灵 25 DPS/每把葱茏之锋 50 DPS
+		疾病系 - 每个鼠尾草之灵 25 DPS / 每把葱茏之锋 50 DPS
 		无视敌怪75%的疾病系弱性与抗性
 		'''
 }
@@ -1521,7 +1521,7 @@ ResurrectionButterflyBuff: {
 
 SageSpiritBuff: {
 	DisplayName: 鼠尾草之灵
-	Description: 靠的太近了，很不舒服
+	Description: 靠得太近了，很不舒服
 }
 
 Sandnado: {

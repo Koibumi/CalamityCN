@@ -1525,11 +1525,11 @@ ScionsCurio: {
 	DisplayName: 硫海珍嗣
 	Tooltip:
 		'''
-		远程攻击命中会提升[cbuff:CalamityMod/Irradiated]的效果
-		[cbuff:CalamityMod/Irradiated]的持续伤害受你的远程伤害和暴击率影响
-		击杀时，敌怪会爆炸，散播[cbuff:CalamityMod/Irradiated]
+		远程攻击命中会提升[cbuff:CalamityMod/Irradiated]减益的效果
+		[cbuff:CalamityMod/Irradiated]减益的持续伤害受你的远程伤害和暴击率影响
+		击杀时，敌怪会爆炸，散播[cbuff:CalamityMod/Irradiated]减益
 		你受伤时珍嗣会自爆反击敌怪
-		当前[cbuff:CalamityMod/Irradiated]伤害：[DAMAGE]
+		当前[cbuff:CalamityMod/Irradiated]减益伤害：[DAMAGE]
 		'''
 }
 
@@ -1779,7 +1779,7 @@ StatMeter: {
 	WhipStats: 鞭子范围提升：{0}%
 	RogueStats:
 		'''
-		最大潜行值：{0} | 站定恢复速度：{1} / 秒 | 移动时恢复速度：{2} / 秒
+		最大潜行值：{0} | 站定恢复速度：每秒 {1} | 移动时恢复速度：每秒 {2}
 		盗贼弹幕飞行速度提升：{3}%
 		'''
 	// Utility stats
