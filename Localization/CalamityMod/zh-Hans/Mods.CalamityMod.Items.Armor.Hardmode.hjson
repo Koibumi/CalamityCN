@@ -92,7 +92,7 @@ DaedalusHeadMelee: {
 }
 
 DaedalusHeadRanged: {
-	DisplayName: 代达罗斯头饰
+	DisplayName: 代达罗斯头罩
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}和{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
@@ -102,7 +102,7 @@ DaedalusHeadRanged: {
 }
 
 DaedalusHeadRogue: {
-	DisplayName: 代达罗斯头罩
+	DisplayName: 代达罗斯面罩
 	Tooltip:
 		'''
 		{$Common.RogueDamage}和{$Common.RogueCrit@1}

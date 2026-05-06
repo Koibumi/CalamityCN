@@ -251,7 +251,7 @@ BloodflareHeadRogue: {
 		'''
 	SetBonusEffect:
 		'''
-		高于{0}%生命值时增加{1}点防御
+		高于{1}%生命值时增加{0}点防御
 		盗贼武器暴击可以偷取生命
 		{$BloodflareBodyArmor.CommonSetBonus}
 		'''
@@ -273,7 +273,7 @@ BloodflareHeadSummon: {
 	SetBonusEffect:
 		'''
 		召唤噬魂幽花地雷环绕你
-		低于{0}%生命值增加{1}点防御
+		低于{1}%生命值增加{0}点防御
 		{$BloodflareBodyArmor.CommonSetBonus}
 		'''
 }

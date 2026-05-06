@@ -2410,7 +2410,7 @@ MarniteSink: {
 }
 
 MarniteSofa: {
-	DisplayName: 合成岩长凳
+	DisplayName: 合成岩沙发
 	Tooltip: ""
 }
 

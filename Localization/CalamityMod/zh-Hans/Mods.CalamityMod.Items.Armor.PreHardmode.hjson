@@ -161,7 +161,7 @@ StatigelHeadMagic: {
 }
 
 StatigelHeadMelee: {
-	DisplayName: 斯塔提斯战盔
+	DisplayName: 斯塔提斯头盔
 	Tooltip:
 		'''
 		增加{0}%近战伤害和近战攻速
@@ -326,7 +326,7 @@ WulfrumHat: {
 		'''
 		[c/{0}:钨钢阵线 - {1}以装备能量装甲]，这会消耗1块[i:CalamityMod/WulfrumMetalScrap][c/{0}:{$Items.Materials.WulfrumMetalScrap.DisplayName}]
 		[c/6EC05D:装甲激活时，你只能使用聚变炮，但你的防御属性提升]
-		[c/6EC05D:装甲最多持续{2}秒，但每次受击会失去{3}秒耐久]
+		[c/6EC05D:装甲最多持续{2}秒，但每次受击会使持续时间减少{3}秒]
 		[c/BEBEBE:按住Shift以查看聚变炮的属性]
 		'''
 }

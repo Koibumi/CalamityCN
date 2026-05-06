@@ -19,7 +19,7 @@ AndroombaItem: {
 }
 
 BabyCannonballJellyfishItem: {
-	// DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
+	DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
 	Tooltip: 可以被大炮发射
 }
 
@@ -60,22 +60,22 @@ GildedAxolotlItem: {
 
 NanodroidDysfunctionalItem: {
 	DisplayName: 功能失调的纳米机器人
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 NanodroidItem: {
 	DisplayName: "{$NPCs.Nanodroid.DisplayName}"
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 NanodroidPlagueGreenItem: {
 	DisplayName: 绿色瘟疫纳米机器人
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 NanodroidPlagueRedItem: {
 	DisplayName: 红色瘟疫纳米机器人
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 PearlpodBlackItem: {
@@ -125,7 +125,7 @@ PolypPanaseaTurquoiseItem: {
 
 PiggyItem: {
 	DisplayName: "{$NPCs.Piggy.DisplayName}"
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 PrismaticGuppyBlueItem: {
@@ -165,17 +165,17 @@ ProbesnoutItem: {
 
 RepairUnitItem: {
 	DisplayName: "{$NPCs.RepairUnitCritter.DisplayName}"
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 SeaFloatyItem: {
-	DisplayName: "{$NPCs.SeaFloaty.DisplayName}"
+	// DisplayName: "{$NPCs.SeaFloaty.DisplayName}"
 	// Tooltip: ""
 }
 
 SeaMinnowItem: {
 	DisplayName: "{$NPCs.SeaMinnow.DisplayName}"
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 SeaMinnowGoldItem: {
@@ -189,13 +189,13 @@ SearslugItem: {
 }
 
 ShoreskipperItem: {
-	DisplayName: "{$NPCs.Shoreskipper.DisplayName}"
+	// DisplayName: "{$NPCs.Shoreskipper.DisplayName}"
 	// Tooltip: ""
 }
 
 ShroombleItem: {
 	DisplayName: "{$NPCs.Shroomble.DisplayName}"
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 SlugbunBurrowsItem: {
@@ -220,7 +220,7 @@ SlugbunRadiantItem: {
 
 TwinklerItem: {
 	DisplayName: "{$NPCs.Twinkler.DisplayName}"
-	// Tooltip: ""
+	Tooltip: ""
 }
 
 // Permanent Boosters
