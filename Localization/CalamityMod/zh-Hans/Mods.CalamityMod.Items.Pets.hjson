@@ -54,7 +54,6 @@ CosmicPlushie: {
 	Tooltip:
 		'''
 		召唤宇宙的吞食者……？
-		魔影套装的赤红恶魔不会出现
 		“可能装有锋利物件”
 		'''
 }
@@ -104,6 +103,16 @@ HermitsBoxofOneHundredMedicines: {
 		“气霁风梳新柳发
 		冰消波洗旧苔须
 		欢迎回来，搭档”
+		'''
+}
+
+IronBall: {
+	DisplayName: 铁球
+	Tooltip:
+		'''
+		召唤一颗活铁球
+		<left>来抚摸它
+		<right>让它坐在你的肩膀上
 		'''
 }
 
@@ -164,6 +173,11 @@ RomajedaOrchid: {
 RottingEyeball: {
 	DisplayName: 腐烂眼球
 	Tooltip: 召唤一个腐化聚合物
+}
+
+StarSwallowerUnit: {
+	DisplayName: 噬星者控制元件
+	Tooltip: 召唤一只生物力学青蛙
 }
 
 StrangeOrb: {

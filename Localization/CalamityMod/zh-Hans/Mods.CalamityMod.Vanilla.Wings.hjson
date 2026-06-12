@@ -1,6 +1,6 @@
 BeeWings: 没有按住 {$Key.DOWN} 时降低下降速度
 BoneWings: 受击时飞行时间减半
-DemonWings: 提升下降速度
+DemonWings: 下降时提升下降速度且加速度更快
 FestiveWings: 生成能够恢复飞行时间的装饰品
 FinWings: 允许在水中快速移动
 TatteredFairyWings: 留下快速耗尽飞行时间的仙尘轨迹

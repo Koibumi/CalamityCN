@@ -24,8 +24,8 @@ BabyCannonballJellyfishItem: {
 }
 
 BabyFlakCrabItem: {
-	// DisplayName: "{$NPCs.BabyFlakCrab.DisplayName}"
-	// Tooltip: ""
+	DisplayName: "{$NPCs.BabyFlakCrab.DisplayName}"
+	Tooltip: ""
 }
 
 BabyGhostBellItem: {
@@ -125,6 +125,11 @@ PolypPanaseaTurquoiseItem: {
 
 PiggyItem: {
 	DisplayName: "{$NPCs.Piggy.DisplayName}"
+	Tooltip: ""
+}
+
+PiggyGoldItem: {
+	DisplayName: "{$NPCs.PiggyGold.DisplayName}"
 	Tooltip: ""
 }
 
@@ -329,3 +334,8 @@ LegendaryShortTooltip:
 	[c/FF6F00:昔日的传奇故事萦绕在你周围……]
 	[c/BABABA:按住Shift键以仔细聆听]
 	'''
+
+DisgustingSlop: {
+	DisplayName: Disgusting Slop
+	Tooltip: 可被提炼
+}

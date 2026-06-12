@@ -640,7 +640,7 @@ RavagerRelic: {
 }
 
 SignusRelic: {
-	DisplayName: 神之使徒，西格纳斯圣物
+	DisplayName: 西格纳斯圣物
 	Tooltip: 对其未来的模样的一瞥……
 }
 
@@ -677,6 +677,7 @@ CorruptionEffigy: {
 		但代价是损失{1}%伤害减免
 		无法与血腥雕像效果叠加
 		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
 }
 
 AltarOfTheAccursedItem: {
@@ -737,6 +738,7 @@ CrimsonEffigy: {
 		但代价是损失{2}%最大生命值
 		无法与腐化雕像效果叠加
 		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
 }
 
 EffigyOfDecay: {
@@ -777,6 +779,20 @@ SunkenSeaFountain: {
 GloomTorch: {
 	DisplayName: 幽匿火把
 	Tooltip: ""
+}
+
+GluttonyBlender: {
+	DisplayName: Gluttony Blender
+	Tooltip:
+		'''
+		一台奇怪的工业装置，似乎可以加工食物
+		有可能将食物变为更有营养的东西……也许吧
+		'''
+	SalesPitch:
+		'''
+		'A state of the art machine, created by my partner Hoggart! You can put anything in it, and it'll make a nutritious delicacy for you to snack on!'
+		'I myself can attest for its quality, I use it to make my breakfast, lunch and dinner!'
+		'''
 }
 
 LanternCenter: {
@@ -886,12 +902,17 @@ ThankYouPainting: {
 		'''
 		感谢所有灾厄制作组成员，所有支持它的人，以及所有玩家和让它至今生机勃勃的人！
 		这幅画的大小无法容纳整个团队
-		长按Shift键可以查看以前和当前的开发者
+		长按Shift键可以查看开发者列表，按下Shift键可以在当前的开发者和以前的开发者间切换
 		'''
 }
 
 PiggyCage: {
 	DisplayName: 猪猪笼
+	Tooltip: ""
+}
+
+PiggyCageGold: {
+	DisplayName: 金小猪猪笼
 	Tooltip: ""
 }
 
@@ -926,6 +947,11 @@ SeaMinnowJar: {
 	Tooltip: ""
 }
 
+ShroombleCage: {
+	DisplayName: 茸宝笼
+	Tooltip: ""
+}
+
 SpitefulCandle: {
 	DisplayName: 恶念蜡烛
 	Tooltip:
@@ -945,6 +971,20 @@ SulphurousTorch: {
 ThaumaticChair: {
 	DisplayName: 奇迹之椅
 	Tooltip: 克洛伊最好的创造物之一
+}
+
+TheMonument: {
+	DisplayName: The Monument
+	Tooltip:
+		'''
+		纪念资本主义成就的丰碑
+		通过附近的城镇NPC税收资助，尽管他们可能对此不太高兴
+		'''
+	SalesPitch:
+		'''
+		'Don't you think your town is a bit too boring? Don't you wish you could get more money out of your troubles? Well, I've got you the perfect two-in-one deal!'
+		'This statue I made myself is so marvelous that it'll singlehandedly raise the price of housing around here! Just sit back, and enjoy the sight and the money!'
+		'''
 }
 
 ThermalTorch: {
@@ -4652,6 +4692,18 @@ MossyStone: {
 	DisplayName: 苔藓石
 	Tooltip: ""
 }
+
+GreedPot: {
+	DisplayName: Urn of Avarice
+	Tooltip: 将你的财宝献入瓮中，你的贪婪终会得到满足
+	SalesPitch:
+		'''
+		'Say, you use all kinds of ores for your stuff, but finding precious minerals isn't easy, is it? Well, I got the solution for you!'
+		'Just throw any ore you got in this urn and they'll turn into even rarer ones! No more looking for tungsten for hours on end!'
+		'''
+}
+
+HorribleHogBanner.DisplayName: Horrible Hog Banner
 
 EutrophicSandWall: {
 	DisplayName: 危险富营养沙墙

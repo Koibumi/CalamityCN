@@ -274,7 +274,7 @@ Mods: {
 			}
 
 			SignusMusicBox: {
-				DisplayName: 音乐盒（神之使徒，西格纳斯）
+				DisplayName: 音乐盒（西格纳斯）
 				Tooltip: Plays 'Servants of the Scourge (Type S)' by DM DOKURO
 			}
 

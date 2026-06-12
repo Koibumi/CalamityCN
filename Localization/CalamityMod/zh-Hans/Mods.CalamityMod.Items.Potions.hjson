@@ -8,7 +8,7 @@ AstralInjection: {
 	Tooltip:
 		'''
 		每秒恢复{0}魔力
-		使用时生命值降低{1}且被施加{$BuffName.ManaSickness}减益
+		使用后受到[cbuff:ManaSickness]减益
 		'''
 }
 
@@ -22,6 +22,7 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
+		和[cbuffplr:CalamityMod/RedWineBuff]绝配
 		[c/FCE391:“我骑上去了！”]
 		'''
 }
@@ -36,12 +37,11 @@ BlasphemousDonut: {
 }
 
 BottledPanacea: {
-	// DisplayName: 瓶装Panacea
+	// DisplayName: Bottled Panacea
 	Tooltip:
 		'''
 		使用时治愈你所有的疾病系和电系减益
 		此效果有30秒冷却
-		（译注：暂无获取方式但与沉沦海更新内容存在双关，故暂时不译）
 		'''
 }
 
@@ -65,7 +65,8 @@ DeliciousMeat: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
-		“太好吃了”
+		{$Common.NotConsumable}，但需要{0}分钟再生
+		“一条似乎永远不会被完全消耗的赐福猪肉……”
 		'''
 }
 
@@ -157,6 +158,21 @@ SupremeManaPotion: {
 	Tooltip: ""
 }
 
+TheConcoction: {
+	DisplayName: The Concoction
+	EasterEggText: 扣除9999生命值
+	Tooltip:
+		'''
+		恢复9999生命值
+		甚至在你拥有耐药性的情况下重复按下快速治疗也可以使用
+		'''
+	SalesPitch:
+		'''
+		'Aren't you tired of how unreliable your healing potions are? What if you're in the middle of a zombie horde and sick to the core of those things?!'
+		'With my concoction, you won't have to worry about that! Just a sip of this bad boy and you'll be good as new, ready to take on the world!'
+		'''
+}
+
 ZenPotion: {
 	DisplayName: 禅定药水
 	Tooltip: 大幅度降低敌怪生成率
@@ -167,6 +183,27 @@ ZergPotion: {
 	Tooltip: 大幅度增加敌怪生成率
 }
 
+BaconOil: {
+	DisplayName: Bacon Oil
+	Tooltip:
+		'''
+		根据你的伤害属性加成提供“不错”的移动力
+		在{$Buffs.AlcoholPoisoning.DisplayName}效果中被视为三种酒
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		根据你的伤害属性加成提供“不错”的移动力
+		在{$Buffs.AlcoholPoisoning.DisplayName}效果中被视为三种酒
+		如果也同时直接饮用了Bacon Oil，移动力会变得更怪异
+		'''
+	SalesPitch:
+		'''
+		'Monks go on and on about forgoing attachment. I don't think this is what they meant. It's better!'
+		'Don't mind the accident disclaimer: get yourself some of this slippery fat oil, and not a bit of this world will be able to hold you down!'
+		'''
+}
+
 BloodyMary: {
 	DisplayName: 血腥玛丽
 	Tooltip:
@@ -174,6 +211,12 @@ BloodyMary: {
 		敌怪生成率增加至7倍
 		大幅降低穿透武器的效果
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		敌怪生成率增加至7倍
+		大幅降低穿透武器的效果
+		如果也同时直接饮用了血腥玛丽，敌怪生成率增加至10倍
 		'''
 }
 
@@ -185,6 +228,11 @@ CaribbeanRum: {
 		降低{1}%重力
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		增加{0}%移动速度
+		降低{1}%重力
+		'''
 }
 
 CinnamonRoll: {
@@ -195,14 +243,10 @@ CinnamonRoll: {
 		大幅降低冲刺距离
 		{$Common.AlcoholWarning}
 		'''
-}
-
-PurpleHaze: {
-	DisplayName: 紫色阴霾
-	Tooltip:
+	DripEffect:
 		'''
-		潜伏攻击5秒后，所有伤害增加{0}%，但潜伏攻击的伤害降低{1}%
-		{$Common.AlcoholWarning}
+		大幅增加冲刺速度
+		大幅降低冲刺距离
 		'''
 }
 
@@ -215,6 +259,12 @@ Everclear: {
 		在{$Buffs.AlcoholPoisoning.DisplayName}效果中被视为两种酒
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		增加{0}%伤害
+		降低{1}HP/s生命再生和{2}%防御
+		在{$Buffs.AlcoholPoisoning.DisplayName}效果中被视为两种酒
+		'''
 }
 
 EvergreenGin: {
@@ -224,6 +274,11 @@ EvergreenGin: {
 		增加{0}%水系和疾病系减益的伤害
 		降低{1}%电系和火系减益的伤害
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		增加{0}%水系和疾病系减益的伤害
+		降低{1}%电系和火系减益的伤害
 		'''
 }
 
@@ -235,6 +290,11 @@ Fireball: {
 		降低{1}%疾病系减益的伤害
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		增加{0}%火系减益的伤害
+		降低{1}%疾病系减益的伤害
+		'''
 }
 
 GrapeBeer: {
@@ -242,8 +302,16 @@ GrapeBeer: {
 	Tooltip:
 		'''
 		子弹，箭，飞镖和火箭可以追踪
-		降低{0}%暴击伤害
+		弹幕对越远处的敌怪造成的伤害越低
+		在距离{1}格远时到达最低，伤害乘{0}
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		子弹，箭，飞镖和火箭可以追踪
+		弹幕对越远处的敌怪造成的伤害越低
+		在距离{1}格远时到达最低，伤害乘{0}
+		如果也同时直接饮用了葡萄啤酒，追踪距离增加
 		'''
 }
 
@@ -255,6 +323,11 @@ Manhattan: {
 		降低{1}%水系减益的伤害
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		增加{0}%冷系减益的伤害
+		降低{1}%水系减益的伤害
+		'''
 }
 
 Margarita: {
@@ -264,6 +337,11 @@ Margarita: {
 		减半你受到的伤害性减益的持续时间
 		你施加的减益的伤害降低{0}%
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		减半你受到的伤害性减益的持续时间
+		你施加的减益的伤害降低{0}%
 		'''
 }
 
@@ -276,6 +354,12 @@ Moonshine: {
 		防御损伤需要三倍时间恢复
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		最大生命值增加{0}%
+		受攻击时至少会受到一半防御的防御损伤
+		防御损伤需要三倍时间恢复
+		'''
 }
 
 MoscowMule: {
@@ -285,6 +369,11 @@ MoscowMule: {
 		增加{0}%击退，所有攻击会造成极强击退
 		降低穿透武器的效果
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		增加{0}%击退，所有攻击会造成极强击退
+		降低穿透武器的效果
 		'''
 }
 
@@ -313,6 +402,21 @@ OldFashioned: {
 		所有武器的伤害乘{1}
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		大多数非武器，非减益的伤害乘{0}
+		所有武器的伤害乘{1}
+		'''
+}
+
+PurpleHaze: {
+	DisplayName: 紫色阴霾
+	Tooltip:
+		'''
+		潜伏攻击5秒后，所有伤害增加{0}%，但潜伏攻击的伤害降低{1}%
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect: 潜伏攻击5秒后，所有伤害增加{0}%，但潜伏攻击的伤害降低{1}%
 }
 
 RedWine: {
@@ -322,6 +426,11 @@ RedWine: {
 		增加{0}%垂直速度
 		降低{1}%飞行时间
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		增加{0}%垂直速度
+		降低{1}%飞行时间
 		'''
 }
 
@@ -333,6 +442,11 @@ Rum: {
 		降低{1}%仆从伤害
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		增加{0}%非仆从的召唤伤害
+		降低{1}%仆从伤害
+		'''
 }
 
 Screwdriver: {
@@ -342,6 +456,11 @@ Screwdriver: {
 		大幅增加物块和墙的放置范围和速度
 		大幅降低造成的伤害
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		大幅增加物块和墙的放置范围和速度
+		大幅降低造成的伤害
 		'''
 }
 
@@ -353,6 +472,11 @@ StarBeamRye: {
 		魔法武器的伤害乘{0}
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		增加魔力再生，即使在使用物品时也是如此
+		魔法武器的伤害乘{0}
+		'''
 }
 
 Tequila: {
@@ -362,6 +486,11 @@ Tequila: {
 		增加{0}%电系减益的伤害
 		降低{1}%冷系减益的伤害
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		增加{0}%电系减益的伤害
+		降低{1}%冷系减益的伤害
 		'''
 }
 
@@ -373,6 +502,25 @@ TequilaSunrise: {
 		增加{0}%受到减益的伤害
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		受到伤害性减益后大幅增加自然生命再生
+		增加{0}%受到减益的伤害
+		'''
+}
+
+TheElixir: {
+	DisplayName: The Elixir
+	Tooltip:
+		'''
+		可作为返回药水使用
+		偶尔会把你传送到……[c/AA23C4:某些地方]
+		'''
+	SalesPitch:
+		'''
+		'Return potions are nifty and all, but they taste like bogus! But with my special formula, it'll magically taste like your favorite food!'
+		'Besides, you ain't finding them for much cheaper around these parts. Trust me, you're practically stealing me!'
+		'''
 }
 
 Vodka: {
@@ -382,6 +530,11 @@ Vodka: {
 		增加{0}%无类型减益的伤害
 		降低{1}%元素减益的伤害
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		增加{0}%无类型减益的伤害
+		降低{1}%元素减益的伤害
 		'''
 }
 
@@ -395,6 +548,14 @@ Whiskey: {
 		手持不同职业武器后此加成会重新充能，完全重新充能需要{3}秒
 		{$Common.AlcoholWarning}
 		'''
+	DripEffect:
+		'''
+		对手持武器的职业提供{0}%至{1}%伤害
+		每个职业都会单独追踪此加成
+		手持相同职业的武器时间越长，此加成会降低，完全衰减需要{2}秒
+		手持不同职业武器后此加成会重新充能，完全重新充能需要{3}秒
+		如果也同时直接饮用了威士忌，伤害范围变为{4}%至{5}%
+		'''
 }
 
 WhiteWine: {
@@ -404,6 +565,11 @@ WhiteWine: {
 		离敌怪越近，你就越能恢复飞行时间
 		降低{0}%飞行时间
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		离敌怪越近，你就越能恢复飞行时间
+		降低{0}%飞行时间
 		'''
 }
 
@@ -441,6 +607,15 @@ Mangosteen: {
 		'''
 }
 
+QualitySlop: {
+	DisplayName: Quality Slop
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MajorStats}
+		“你只是因为它不错才喜欢它”
+		'''
+}
+
 Salak: {
 	DisplayName: 蛇皮果
 	Tooltip: "{$CommonItemTooltip.MinorStats}"
@@ -452,5 +627,23 @@ ShroomBowl: {
 		'''
 		{$CommonItemTooltip.MediumStats}
 		“他已经落地生根”
+		'''
+}
+
+TheSandwich: {
+	DisplayName: The Sandwich
+	Tooltip:
+		'''
+		用这片大陆上最好的面包，奶酪和鱼制作的三明治！
+		所有属性小幅降低
+		你每受一种酒影响就增加{0}%伤害
+		允许你比正常情况多喝2种酒
+		拥有三明治效果时酒类效果不会消失
+		“如果这是你曾吃过唯一的东西，那它尝起来可能确实不错……”
+		'''
+	SalesPitch:
+		'''
+		'...You want to buy my lunch?'
+		'Well, no matter! But it won't be cheap! This sandwich is made with the best the market can offer, so ready your wallet!'
 		'''
 }

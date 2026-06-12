@@ -53,7 +53,7 @@ CalamitasClone: {
 
 CeaselessVoid: {
 	EntryName: 无尽虚空
-	SpawnInfo: 在地牢使用[i:CalamityMod/RuneofKos]。
+	SpawnInfo: 在地牢使用[i:CalamityMod/MarkofProvidence]。
 	DespawnMessage: "[c/4B0082:古老的空间裂缝穿梭去无人所知之地了。]"
 }
 
@@ -179,8 +179,8 @@ Ravager: {
 }
 
 Signus: {
-	EntryName: 神之使徒，西格纳斯
-	SpawnInfo: 在地狱使用[i:CalamityMod/RuneofKos]。
+	EntryName: 西格纳斯
+	SpawnInfo: 在地狱使用[i:CalamityMod/MarkofProvidence]。
 	DespawnMessage: "[c/BA55D3:西格纳斯以难以理解的能力原地消失。]"
 }
 
@@ -192,7 +192,7 @@ SlimeGod: {
 
 StormWeaver: {
 	EntryName: 风暴编织者
-	SpawnInfo: 在太空使用[i:CalamityMod/RuneofKos]。
+	SpawnInfo: 在太空使用[i:CalamityMod/MarkofProvidence]。
 	DespawnMessage: "[c/EE82EE:风暴编织者将自身藏于翻涌的雷雨云中。]"
 }
 

@@ -13,6 +13,23 @@ AerialHamaxe: {
 	Tooltip: ""
 }
 
+AggressiveVoucher: {
+	DisplayName: Aggressive Voucher
+	Tooltip:
+		'''
+		在物品栏中收藏此物品以增加获得理想修饰语的可能
+		此效果仅在重铸饰品时生效
+		目标修饰语：{0}
+		可选修饰语：{1}
+		[c/aaaaaa:在物品栏中按住Shift<right>切换目标修饰语]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
+}
+
 AntiCystOintment: {
 	DisplayName: 抗囊肿药膏
 	Tooltip:
@@ -141,6 +158,20 @@ BrokenWaterFilter: {
 		'''
 }
 
+CombatVoucher: {
+	DisplayName: Combat Voucher
+	Tooltip:
+		'''
+		在物品栏中收藏此物品以增加获得理想修饰语的可能
+		此效果仅在重铸武器时生效
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
+}
+
 Cosmolight: {
 	DisplayName: 宇宙之光
 	Tooltip:
@@ -166,7 +197,7 @@ DisgustingMeat: {
 	Tooltip:
 		'''
 		<left>将移除生命和魔力值升级，在没有使用灾厄升级时使用会移除原版升级
-		<right>将移除怒气，肾上腺素升级和其他强化
+		<right>将移除怒气和肾上腺素升级，以及其他杂项强化，如恶魔之心
 		被移除的强化物品会以物品形式被吐出
 		'''
 }
@@ -195,7 +226,7 @@ Grax: {
 	DisplayName: 格拉克斯
 	Tooltip:
 		'''
-		击中敌人后会在短时间内大幅度增加你的伤害、防御和伤害减免
+		击中敌人后会增加{0}%伤害和{1}点防御，持续{2}秒
 		右键使用时不会破坏墙壁或砍伐树木
 		'''
 }
@@ -203,6 +234,23 @@ Grax: {
 GreatbayPickaxe: {
 	DisplayName: 大湾镐
 	Tooltip: 可开采魔矿、猩红矿、陨石、海棱晶和棱晶碎片
+}
+
+HurriedVoucher: {
+	DisplayName: Hurried Voucher
+	Tooltip:
+		'''
+		在物品栏中收藏此物品以增加获得理想修饰语的可能
+		此效果仅在重铸饰品时生效
+		目标修饰语：{0}
+		可选修饰语：{1}
+		[c/aaaaaa:在物品栏中按住Shift<right>切换目标修饰语]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
 }
 
 InfernaCutter: {
@@ -268,6 +316,23 @@ NormalityRelocator: {
 		'''
 }
 
+OddVoucher: {
+	DisplayName: Odd Voucher
+	Tooltip:
+		'''
+		在物品栏中收藏此物品以增加获得理想修饰语的可能
+		此效果仅在重铸饰品时生效
+		目标修饰语：{0}
+		可选修饰语：{1}
+		[c/aaaaaa:在物品栏中按住Shift<right>切换目标修饰语]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
+}
+
 ReefclawHamaxe: {
 	DisplayName: 礁爪锤斧
 	Tooltip: ""
@@ -291,11 +356,13 @@ RelicOfResilience: {
 	DisplayName: 塑魂圣物
 	Tooltip:
 		'''
-		手持这件物品会使亵渎碎岩环绕你和附近队友旋转
-		亵渎碎岩环绕你时，你的最低防御被设置为150，最低伤害减免被设置为10%
-		受击或按下<right>吸收碎岩，随即向外炸开，削弱命中的敌人
-		此效果在受击后有10秒的冷却时间
-		举起护盾且亵渎碎岩处于激活状态时，大幅降低所有召唤物的伤害，仅对手持这件物品的玩家生效
+		手持此物品会使亵渎碎岩环绕你和附近队友旋转
+		5秒后，即便没有手持此物品，它也会保留环绕的亵渎岩
+		继续手持此物品会不断增加亵渎岩的数量以及防御，直到达到最大强度
+		亵渎碎岩环绕你时，你的最低防御被设置为200，最低伤害减免被设置为10%
+		手持此物品时受击或按下<right>吸收碎岩，随即向外炸开，削弱命中的敌人
+		此效果在受击后有10秒的冷却时间，如果手持此物品，重新充能速度加快
+		举起护盾且亵渎碎岩处于激活状态时，大幅降低所有召唤物的伤害
 		[c/FF8C00:我曾袖手旁观一场屠杀。誓言被打破，我遭到排斥。]
 		[c/FF8C00:奋进的意志尽数散尽。我的念想唯余不要孤独死去。]
 		[c/FF8C00:但当她将信仰注入我的盾中时，我将永不动摇此志。]
@@ -358,6 +425,21 @@ TectonicTruncator: {
 	Tooltip: ""
 }
 
+TheGift: {
+	DisplayName: The Gift
+	Tooltip:
+		'''
+		把这份精美的礼物送给你的一个城镇NPC以示感谢
+		这可能会让他们喜爱你或讨厌你，直到他们打开礼物时才能知道！
+		效果会持续24小时
+		'''
+	SalesPitch:
+		'''
+		'Buying gifts for people is hard, and you gotta make sure your people are happy, so how about we kill two birds with one stone?'
+		'Hand this nifty box to someone and it'll suddenly contain the perfect gift for the person you handed it to!' 
+		'''
+}
+
 TorrentialTear: {
 	DisplayName: 洪流之泪
 	Tooltip:
@@ -365,6 +447,23 @@ TorrentialTear: {
 		召唤滂沱大雨
 		使用后，大雨会在一段时间后开始
 		若在下雨期间使用，雨会在一段时间后停止
+		'''
+}
+
+UnbreakableVoucher: {
+	DisplayName: Unbreakable Voucher
+	Tooltip:
+		'''
+		在物品栏中收藏此物品以增加获得理想修饰语的可能
+		此效果仅在重铸饰品时生效
+		目标修饰语：{0}
+		可选修饰语：{1}
+		[c/aaaaaa:在物品栏中按住Shift<right>切换目标修饰语]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
 		'''
 }
 
@@ -390,7 +489,7 @@ WulfrumDiggingTurtle: {
 
 WulfrumDrill: {
 	DisplayName: 钨钢钻头
-	Tooltip: ""
+	Tooltip: "{$Common.ArmorPenetration}"
 }
 
 WulfrumScaffoldKit: {

@@ -1,22 +1,54 @@
-Venom.ItemTooltip: 疾病系 - 30 DPS
+Venom: {
+	ItemTooltipPlayer: 疾病系 - 15 DPS
+	ItemTooltipEnemy: 疾病系 - 30 DPS
+}
+
 BetsysCurse.ItemTooltip: 降低40点防御
-CursedInferno.ItemTooltip: 火系 - 24 DPS
-Frostburn2.ItemTooltip: 冷系 - 50 DPS
-Frostburn.ItemTooltip: 冷系 - 8 DPS
-OnFire3.ItemTooltip: 火系 - 15 DPS
-OnFire.ItemTooltip: 火系 - 6 DPS
-Ichor.ItemTooltip: 降低10点防御
-Oiled.ItemTooltip:
+
+CursedInferno: {
+	ItemTooltipPlayer: 火系 - 12 DPS
+	ItemTooltipEnemy: 火系 - 24 DPS
+}
+
+Frostburn2: {
+	ItemTooltipPlayer: 冷系 - 8 DPS
+	ItemTooltipEnemy: 冷系 - 25 DPS
+}
+
+// Frostburn deals the same damage to players and enemies
+Frostburn: {
+	ItemTooltipPlayer: 冷系 - 8 DPS
+	ItemTooltipEnemy: 冷系 - 8 DPS
+}
+
+OnFire3.ItemTooltipEnemy: 火系 - 15 DPS
+
+// On Fire deals the same damage to players and enemies
+OnFire: {
+	ItemTooltipPlayer: 火系 - 6 DPS
+	ItemTooltipEnemy: 火系 - 6 DPS
+}
+
+Ichor.ItemTooltipEnemy: 降低10点防御
+Oiled.ItemTooltipEnemy:
 	'''
 	火系 - 25 DPS，受到火系乘数2倍的效果
 	仅在与另一种火系减益同时作用时才会造成伤害
 	'''
-Poisoned.ItemTooltip: 疾病系 - 6 DPS
-PotionSickness.ItemTooltip: ""
-Slimed.ItemTooltip: 增强火系减益伤害
-Wet.ItemTooltip: 增强电系减益伤害
-Electrified.ItemTooltip: 电系 - 10.5 DPS，对移动目标造成4倍伤害
-Honey.ItemTooltip:
+Poisoned.ItemTooltipEnemy: 疾病系 - 6 DPS
+PotionSickness.ItemTooltipPlayer: ""
+Slimed.ItemTooltipEnemy: 增强火系减益伤害
+Wet.ItemTooltipEnemy: 增强电系减益伤害
+Confused.ItemTooltipEnemy: 逆转移动方向
+Webbed.ItemTooltipEnemy: 减速敌怪
+Frozen.ItemTooltipEnemy: 冻结敌怪
+
+Electrified: {
+	ItemTooltipPlayer: 电系 - 4 DPS，对移动中的玩家造成5倍伤害
+	ItemTooltipEnemy: 电系 - 15 DPS，对移动中的目标造成4倍伤害
+}
+
+Honey.ItemTooltipPlayer:
 	'''
 	生命再生增加1HP/s
 	自然再生加速度增加300%

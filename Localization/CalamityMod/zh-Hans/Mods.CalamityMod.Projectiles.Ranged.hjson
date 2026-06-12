@@ -67,7 +67,6 @@ DrizzlefishFire.DisplayName: 龙雨鱼之火
 DrizzlefishFireball.DisplayName: 龙雨鱼炎弹
 DrizzlefishFireSplit.DisplayName: 龙雨鱼息
 DryadsTearMain.DisplayName: 树妖之泪
-DryadsTearSplit.DisplayName: 树妖之泪
 ElysianArrowProj.DisplayName: 极乐箭
 ElysianArrowRain.DisplayName: 极乐之光
 EmesisGore.DisplayName: 腐败血迹
@@ -189,7 +188,6 @@ ScorchedEarthClusterBomb.DisplayName: 集束炸弹
 ScorchedEarthRocket.DisplayName: 火箭
 ScorpioRocket.DisplayName: 纳米导弹
 ScorpioLargeRocket.DisplayName: 纳米核弹
-SeaDragonMuzzleBlast.DisplayName: 海龙火舌
 SeaDragonRocket.DisplayName: 海龙爆炎弹
 SeasSearingBubble.DisplayName: 灼热泡泡
 SeasSearingSecondary.DisplayName: 海浴
@@ -261,9 +259,14 @@ VanquisherArrowMain.DisplayName: 征戮箭
 VanquisherArrowProj.DisplayName: 征戮箭
 VeriumBoltProj.DisplayName: 钫束
 VernalBolt.DisplayName: 煦春光束
-Voidragon.DisplayName: 太虚星龙炮
-VoidragonTentacle.DisplayName: 太虚星龙触须
 WaterSpout.DisplayName: 激流
 WildfireBloomFire.DisplayName: 野火
 WildfireBloomFlare.DisplayName: 野火爆焰
 WulfrumScrapBullet.DisplayName: 高速废料
+AbyssalFire.DisplayName: 深渊火焰
+BlahajBlast.DisplayName: Blahaj Blast
+MegalodonRocket.DisplayName: 巨舰鲨火箭
+VoidBlast.DisplayName: 虚空爆
+OmniSniperShot.DisplayName: Omni Sniper Shot
+OmniGrenade.DisplayName: Omni Grenade
+OmniShotgunShot.DisplayName: Omni Shotgun Shot

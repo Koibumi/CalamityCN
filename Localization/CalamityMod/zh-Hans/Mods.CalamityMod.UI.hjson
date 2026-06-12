@@ -151,9 +151,11 @@ Cooldowns: {
 	SpongeDurability: 海绵屏障耐久
 	SpongeRecharge: 海绵屏障充能
 	Starburst: 幻云星芒
+	Stooldown: Stooldown
 	SuperradiantSawBoost: 超辐戮锯加成
 	TarragonCloak: 龙蒿披风冷却
 	TarragonImmunity: 龙蒿无敌冷却
+	TransformerCooldown: 转换器冷却
 	UniverseSplitter: 渊宇天基炮冷却
 	WarbanneroftheRighteousBuff: 战旗强度
 	WardingWave: 护卫之潮冷却
@@ -239,7 +241,7 @@ Communication: {
 
 			在1385年7月30日，扩展实验室不再可行。因此，我决定拓展我的视野。我向大陆送出了数以百计的遥控侦察无人机，但我当时并未意识到在没有准备妥善时这么做会引起多大的注意。\n
 
-			在接下来的几年里，各种传说与谣言开始在附近的城市流传。许多人声称他们遇到的漫游生物并非血肉之躯，而是由钢铁与机油组成。学者们试图研究我的机器，一些探险家甚至跟踪我的创造物，回到了我的一个侦察设施。\n
+			在接下来的几年里，各种传说与谣言开始在附近的城市流传。许多人生成他们遇到的漫游生物并非血肉之躯，而是由钢铁与机油组成。学者们试图研究我的机器，一些探险家甚至跟踪我的创造物，回到了我的一个侦察设施。\n
 
 			然而，随着时间流逝，我学会了用更为巧妙的方式进行这些操作。慢慢地，关于我机械的传说变得越来越少了。在1421年，我的造物与我都已经变成了纯粹的传说，直至圣战开始.
 			'''
@@ -662,6 +664,7 @@ Abyss: 正在处理席尔瓦的遗体
 SulphurSea2: 正在辐射一侧的海洋
 Roxcalibur: 渴望摇动的剑柄发出呼唤
 AuricLandMines: 正在放置弑神陷阱
+IronBall: 正在多加一点铁
 // Hold Shift tooltip default
 HoldShiftTooltipExtensionIndicator: 按住Shift以了解更多
 HoldShiftTooltipReplacementIndicator: 按住Shift以了解详细信息

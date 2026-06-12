@@ -83,7 +83,7 @@ ArkoftheCosmos: {
 		'''
 		<right>用剑刃向前方剪出
 		剑刃击中敌人时会进行招架，并使你短暂无敌
-		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少160点
+		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少120点
 		格挡后会获得16层充能，充能会强化普通攻击
 		'''
 	BlastInfo: 当有充能层数时，双击<right>会引起时空之中的大撕裂，并一次性释放所有充能
@@ -106,19 +106,19 @@ ArkoftheElements: {
 		'''
 		<right>用剑刃向前方剪出
 		剑刃击中敌人时会进行招架，并使你短暂无敌
-		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少100点
+		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少60点
 		格挡后会获得10层充能，充能会强化普通攻击，让你可以同时使用两把剑刃
 		'''
 }
 
 AstralPike: {
 	DisplayName: 幻星矛
-	Tooltip: 命中时召唤一群幻星并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+	Tooltip: 命中时召唤一群幻星并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 AstralScythe: {
 	DisplayName: 星幻镰刀
-	Tooltip: 发射会加速的镰刀环并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+	Tooltip: 发射会加速的镰刀环并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 Ataraxia: {
@@ -161,11 +161,7 @@ BansheeHook: {
 
 Basher: {
 	DisplayName: 痛击者
-	Tooltip:
-		'''
-		挥舞一根腐朽的木棍，在击中敌怪时施加中毒和辐射减益
-		挥舞时按下右键会增加木棍的伤害，但也会在命中时将你击退
-		'''
+	Tooltip: 挥舞一根在命中时将你击退的腐朽木棍
 }
 
 BladecrestOathsword: {
@@ -190,7 +186,11 @@ BlightedCleaver: {
 
 Bonebreaker: {
 	DisplayName: 碎骨者
-	Tooltip: 发射标枪黏在敌人身上，之后爆炸成碎片
+	Tooltip:
+		'''
+		发射标枪黏在敌人身上，之后爆炸成碎片
+		命中的标枪会造成几种减益
+		'''
 }
 
 BotanicPiercer: {
@@ -200,7 +200,7 @@ BotanicPiercer: {
 
 Brimlance: {
 	DisplayName: 硫磺火矛
-	Tooltip: 击中敌人时产生硫磺火爆炸
+	Tooltip: 击中敌人时产生造成[cbuff:CalamityMod/BrimstoneFlames]减益的爆炸
 }
 
 Brimlash: {
@@ -265,14 +265,14 @@ Carnage: {
 
 CelestialClaymore: {
 	DisplayName: 星宙阔剑
-	Tooltip: 在光标附近生成会爆炸的宇宙能量之星，可以施加多种减益
+	Tooltip: 在光标附近生成会爆炸的宇宙能量之星
 }
 
 ClamCrusher: {
 	DisplayName: 海蚌锤
 	Tooltip:
 		'''
-		掷出大蚌，令敌人短时间内晕眩
+		掷出造成[cbuff:CalamityMod/Eutrophication]减益的大蚌，令敌人短时间内晕眩
 		大蚌受重力影响，掷向空中砸到敌人时造成更多伤害
 		'''
 }
@@ -286,8 +286,8 @@ CosmicDischarge: {
 	DisplayName: 寒宙弹刃
 	Tooltip:
 		'''
-		用能引发冰川爆破的弹鞭击打敌人并使玩家获得寒宙增益
-		此增益会令玩家在站定不动时增加2HP/s生命再生并冻结周围敌人
+		用能引发冰川爆破的弹鞭击打敌人并使玩家获得[cbuffplr:CalamityMod/CosmicFreeze]增益
+		[cbuffplr:CalamityMod/CosmicFreeze]增益会令玩家在站定不动时增加2HP/s生命再生并冻结周围敌人
 		'''
 }
 
@@ -390,7 +390,7 @@ DragonPow: {
 	DisplayName: 龙魂破
 	Tooltip:
 		'''
-		发射龙头，释放龙息火星
+		发射龙头，释放造成[cbuff:CalamityMod/Dragonfire]减益的火星
 		击中敌人时召唤花瓣和瀑布弹幕
 		'''
 }
@@ -399,8 +399,8 @@ DragonRage: {
 	DisplayName: 巨龙之怒
 	Tooltip:
 		'''
-		旋转武器，命中敌怪时产生爆炸
-		每十次命中召唤一圈火环
+		旋转武器，命中敌怪时产生造成[cbuff:CalamityMod/Dragonfire]减益的爆炸
+		每过两秒，命中时会召唤一圈火球，火球会瞄准生命值最多的敌怪
 		'''
 }
 
@@ -415,18 +415,14 @@ Earth: {
 		'''
 		一把绚丽的棱晶剑，有着无与伦比的近战能力
 		命中时大幅治疗你
-		每隔一次挥舞会从天上召唤三道盖亚陨石打击附近敌怪
+		每隔一次挥舞会召唤三道盖亚陨石湮灭附近敌怪
 		“凡属祂所生的，必晓得其造物主的荣美与烈怒。”
 		'''
 }
 
 EarthenPike: {
 	DisplayName: 磐石地元叉
-	Tooltip:
-		'''
-		挥舞时喷射化石碎片
-		击碎敌人的防御
-		'''
+	Tooltip: 挥舞时喷射化石碎片
 }
 
 EmpyreanKnives: {
@@ -453,12 +449,19 @@ EvilSmasher: {
 	DisplayName: 邪恶粉碎者
 	Tooltip:
 		'''
-		每用这把锤子击杀一名敌人都会获得属性提升
-		属性到达最大值时停止增长
-		如果使用其他物品会移除加成
-		受击时移除一次属性提升
+		进行一次强力锤击，能够粉碎所有邪恶
+		用锤击命中物块会产生爆炸并将你往回推
+		命中敌怪时会对使用者和目标都施加[cbuff:CalamityMod/SmashedEvil]
+		充能后命中会增加伤害，爆炸半径和[cbuffplr:CalamityMod/SmashedEvil]的持续时间
 		“邪恶！粉碎邪恶！粉碎……者！”
 		'''
+	//All damage and kill dialogue has the capitalization randomized when said
+	DamageDialogue0: smash!
+	DamageDialogue1: evil!
+	DamageDialogue2: crush!
+	DamageDialogue3: des.. troy!
+	KillDialogue0: smash evil!
+	KillDialogue1: smash.. er!
 }
 
 ExaltedOathblade: {
@@ -490,6 +493,7 @@ Exoblade: {
 		冲刺过程中命中敌人会造成巨量伤害并反弹自己
 		反弹后立即按下左键可挥出一道强力斩击
 		强力斩击范围更大，会治疗你并引发一次大爆炸
+		命中的敌怪会被[cbuff:CalamityMod/MiracleBlight]减益撕裂
 		'''
 }
 
@@ -629,7 +633,7 @@ GalileoGladius: {
 
 GeliticBlade: {
 	DisplayName: 凝胶波刃
-	Tooltip: 发射快速的凝胶波，击中敌人时加速
+	Tooltip: 发射快速的凝胶波，击中敌人时加速，并用[cbuff:Slimed]减益覆盖它们
 }
 
 GildedProboscis: {
@@ -656,18 +660,16 @@ GrandDad: {
 	TooltipNormal:
 		'''
 		一把深不可测的重剑，凭借其纯粹的力量撕碎敌人
-		命中时治疗你
-		命中较弱敌怪时会用巨大力量将它们击飞
-		被击飞的敌怪在碰到墙壁和地板时会受到大量伤害
-		挥舞时按住<right>会大幅降低剑的伤害但却会增加击飞速度和伤害
+		命中时为你和所有附近队友提供持续的治疗
+		命中低生命值的敌怪会用不可思议的力量将它们击飞
+		被击飞的敌怪在碰撞墙壁和地板时会被秒杀
 		[c/00B8DF:“你是怎么挥舞起半颗星星重的东西的？”]
 		'''
 	TooltipGFB:
 		'''
 		一把可撕碎敌人的高质量剑
-		命中较弱敌怪会用巨大力量将它们扔飞，经常将它们陷入物块中
+		命中低生命值的敌怪会用不可思议的力量将它们扔飞，真棒 >:]
 		被扔飞的敌怪在猛击墙壁和地板时会变成果酱
-		挥舞时按住<right>会大幅降低剑的伤害但却会增加扔飞速度和伤害，真棒 >:]
 		[c/00B8DF:“请阅读武器的描述。”]
 		'''
 }
@@ -742,7 +744,6 @@ HolyCollider: {
 		蓄力挥击会在撞击点周围漂浮四道滞留的圣火
 		用未蓄力的挥击击中圣火会将其推动，并延长其存在时间
 		蓄力挥击为圣火注能，击中时将其转化为圣之爆焱，并发射向你的光标
-		挥舞时按住<right>会重复进行未蓄力的挥击，命中时散布神圣之火
 		'''
 }
 
@@ -768,12 +769,10 @@ Lacerator: {
 		击中敌人时召唤一把血锯撕碎它们
 		悠悠球击中敌人越频繁，锯刃造成的伤害越高，未击中敌人时锯刃会消散
 		触碰锯刃边缘的敌人会被撕下血珠
-		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
-		锯刃旋转的方向由你最初投掷悠悠球的方向决定
-		[GFB]
+		捡起这些血珠会减少[cbuffplr:PotionSickness]的持续时间
+		锯刃旋转的方向由你最初投掷悠悠球的方向决定[GFB]
 		'''
-	TooltipNormal: 竟然有人觉得用这东西可以在某一时间与神明吞噬者战斗，可笑
-	TooltipGFB: 或许真能用它挑战神明吞噬者……
+	GFBFlavor: "[c/ff0a0a:或许真能用它挑战神明吞噬者……]"
 }
 
 LifehuntScythe: {
@@ -786,7 +785,7 @@ Lightspeed: {
 	Tooltip:
 		'''
 		[c/c7f5ff:释放一连串戳刺，命中时积攒元素精通]
-		[c/c2fff2:元素精通会随时间衰减，但到达最大后短时间内不会衰减]
+		[c/c2fff2:如果几秒内没有积攒元素精通，它会随时间衰减]
 		[c/ffdfba:处于最大元素精通时按下<right>会朝光标冲刺]
 		[c/ffc7c7:冲刺期间命中敌怪会恢复一些元素精通]
 		'''
@@ -796,7 +795,7 @@ LionHeart: {
 	DisplayName: 狮心圣裁
 	Tooltip:
 		'''
-		击中敌人时产生能量爆炸
+		击中时产生能量爆炸
 		右键召唤可以使伤害减半的能量庇护
 		此效果有45秒冷却时间
 		'''
@@ -808,7 +807,7 @@ Lucrecia: {
 		'''
 		[c/9370db:挥舞时发射螺旋的夜光碎片]
 		[c/837ce4:用剑身命中时积攒夜光能量]
-		[c/7489ee:夜光能量会随时间衰减，但到达最大后短时间内不会衰减]
+		[c/7489ee:如果几秒内没有积攒夜光能量，它会随时间衰减]
 		[c/6495f7:处于最大能量时按下<right>以发射双螺旋彗星]
 		'''
 }
@@ -839,8 +838,8 @@ MawOfInfinity: {
 		'''
 		挥舞由吞噬者的巨口铸成的剑进行三连击
 		第一次挥舞仅命中近距离范围
-		第二次挥舞额外发射[c/ff00ff:焚灭虔信之火]
-		第三次挥舞向你的光标发射[c/ff00ff:噬神者]，爆炸造成大量伤害
+		第二次挥舞额外发射[ceffect/dog:焚灭虔信之火]
+		第三次挥舞向你的光标发射[ceffect/dog:噬神者]，爆炸造成大量伤害
 		'''
 }
 
@@ -889,7 +888,7 @@ Murasama: {
 
 MycelialClaws: {
 	DisplayName: 真菌爪
-	Tooltip: 击中敌怪时获得6秒与菇共生增益
+	Tooltip: 击中敌怪时获得6秒[cbuffplr:CalamityMod/Mushy]增益
 }
 
 Nadir: {
@@ -903,7 +902,7 @@ Nadir: {
 
 Nebulash: {
 	DisplayName: 星云鞭
-	Tooltip: 发射一道闪光的链刃，击中敌人时爆炸并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+	Tooltip: 发射一道闪光的链刃，击中敌人时爆炸并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 NeptunesBounty: {
@@ -983,8 +982,10 @@ Pandemic: {
 	DisplayName: 瘟疫狂潮
 	Tooltip:
 		'''
-		{$Common.YoyoStatsInfinite}
-		有敌人在附近时发射瘟疫搜寻者
+		{$Common.YoyoStats}
+		每命中一个感染[cbuff:CalamityMod/Plague]减益的独特敌怪会增加悠悠球的大小，强度和滞空时间
+		如果目标已被感染，那么会刷新[cbuff:CalamityMod/Plague]减益的持续时间
+		配重会造成[cbuff:CalamityMod/Plague]减益且移动速度翻倍
 		'''
 }
 
@@ -1055,7 +1056,7 @@ RemsRevenge: {
 	DisplayName: 雷姆的复仇
 	Tooltip:
 		'''
-		击中敌人时迸发出血花，降低其{0}点防御
+		击中敌人时迸发出血花，造成[cbuff:CalamityMod/WitherDebuff]减益
 		“致命的晨星之锤，正适合它鬼族的使用者”
 		'''
 }
@@ -1163,7 +1164,7 @@ SolsticeClaymore: {
 	Tooltip:
 		'''
 		依照现实时间，发射出颜色不同的剑气
-		在白天造成破晓减益，在晚上造成夜魇减益
+		在白天造成[cbuff:CalamityMod/Daybroken]减益，在晚上造成[cbuff:CalamityMod/Nightwither]减益
 		'''
 }
 
@@ -1172,7 +1173,7 @@ SoulHarvester: {
 	Tooltip:
 		'''
 		发射出一把灵魂镰刀
-		击中生命值低的敌怪时发生爆炸，传播瘟疫
+		击中生命值低的敌怪时发生爆炸，散播瘟疫
 		'''
 }
 
@@ -1272,7 +1273,7 @@ Swordsplosion: {
 
 TaintedBlade: {
 	DisplayName: 污浊之刃
-	Tooltip: 击中敌人时施加中毒减益
+	Tooltip: 击中敌人时施加[cbuff:Poisoned]减益
 }
 
 TeardropCleaver: {
@@ -1314,7 +1315,7 @@ TheBurningSky: {
 	DisplayName: 焚灭天惩
 	Tooltip:
 		'''
-		朝光标位置降下一股巨龙火焰
+		朝光标位置降下一股[cbuff:CalamityMod/Dragonfire]
 		“剑指苍穹，见证末日”
 		'''
 }
@@ -1338,13 +1339,17 @@ TheGodsGambit: {
 	Tooltip:
 		'''
 		{$Common.YoyoStatsInfinite}
-		有敌人在附近时发射凝胶束
+		有敌人在附近时发射伤害性凝胶束
 		'''
 }
 
 TheLastMourning: {
 	DisplayName: 末晓之殇
-	Tooltip: 击中敌人时召唤燃烧南瓜和烈焰头骨，后者在击中敌人时分裂成数个火焰弹
+	Tooltip:
+		'''
+		召唤燃烧南瓜和烈焰头骨
+		南瓜和头骨在击中敌人时分裂成数个火焰弹
+		'''
 }
 
 TheMicrowave: {
@@ -1352,7 +1357,7 @@ TheMicrowave: {
 	Tooltip:
 		'''
 		{$Common.YoyoStatsInfinite}
-		以辐射破坏附近敌人的生物组织和机械原件并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+		以辐射破坏附近敌人的生物组织和机械原件并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		“用幻星的传统方式料理你的敌人，是舌尖上的灾厄的著名菜点”
 		'''
 }
@@ -1363,7 +1368,7 @@ TheMutilator: {
 		'''
 		命中敌怪时强化这把武器，提升其伤害
 		强化达到最大时，命中敌怪将造成一次血珠爆发
-		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
+		捡起这些血珠会减少[cbuffplr:PotionSickness]的持续时间
 		'''
 }
 
@@ -1374,7 +1379,11 @@ TheObliterator: {
 		{$Common.YoyoStatsInfinite}
 		[GFB]
 		'''
-	TooltipNormal: 偶尔向附近敌怪释放微型[c/ff00ff:维度猛击]
+	TooltipNormal:
+		'''
+		偶尔向附近敌怪释放微型[ceffect/dog:维度猛击]
+		配重击中时会立刻进行另一次[ceffect/dog:维度猛击]
+		'''
 	TooltipGFB: 恐怕这件武器上只沾染了一点微不足道的灰尘
 }
 
@@ -1383,7 +1392,7 @@ TheOracle: {
 	Tooltip:
 		'''
 		{$Common.YoyoStatsInfinite}
-		发出闪电光圈，在击中敌人时充能
+		发出金源闪电光圈，在击中敌人时充能
 		充能完全时发射圣金源珠
 		“我看到了过去，当下，将来……还有你的死期”
 		'''
@@ -1405,7 +1414,7 @@ TriactisTruePaladinianMageHammerofMight: {
 		投掷一把沉重，受重力影响的战锤，击中敌人后会返回玩家
 		击中敌怪会释放七彩光焰，围绕着被击中的敌怪旋转
 		第四次命中不会返回，而是将光焰转化为强光锤
-		这些光锤会汇聚并产生一次坍缩宇宙的爆炸
+		这些光锤会汇聚并产生一次总是暴击的坍缩宇宙爆炸
 		'''
 }
 
@@ -1420,7 +1429,7 @@ TrueArkoftheAncients: {
 		'''
 		<right>向前延展方舟
 		剑刃击中敌人时会进行招架，并使你短暂无敌
-		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少80点
+		你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少30点
 		格挡后会获得10层充能，充能会强化普通攻击，并且剑刃会发射更加强大的弹幕
 		'''
 }
@@ -1448,7 +1457,7 @@ TrueCausticEdge: {
 	Tooltip:
 		'''
 		发出弹射绝望光束
-		命中敌人时施加酸性毒液减益并减速
+		命中敌人时施加[cbuff:Venom]减益并减速
 		'''
 }
 
@@ -1512,13 +1521,13 @@ Violence: {
 		'''
 		一柄恶魔三叉戟，被诅咒带来永世的血雨腥风
 		<left>令三叉戟跟随鼠标，以毁灭性的速度撕碎你的敌人
-		<right>掷出三叉戟，以恣睢之力撕裂敌人，造成孱弱巫咒减益
+		<right>掷出三叉戟，以恣睢之力撕裂敌人，造成[cbuff:CalamityMod/VulnerabilityHex]减益
 		'''
 }
 
 Virulence: {
 	DisplayName: 瘟疫毒刃
-	Tooltip: 发射瘟疫之云
+	Tooltip: 发射一朵造成[cbuff:CalamityMod/Plague]减益的云
 }
 
 VoidEdge: {

@@ -33,7 +33,7 @@ AngelicShotgun: {
 	DisplayName: 天使圣火炮
 	Tooltip:
 		'''
-		每次发射子弹的同时天空都会发射辐射光束
+		每次发射子弹的同时天空都会降下造成[cbuff:CalamityMod/HolyFlames]减益的辐射光束
 		将火枪子弹转化为神圣空尖弹，同时增强辐射光束
 		“战斗直到胜利”
 		'''
@@ -45,8 +45,8 @@ Animosity: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		发射一片低散布的硫磺火霰弹
-		按下<right>发射一发威力强大的硫磺火炮弹，命中时施加死亡低语减益
+		发射一片低散布的[cbuff:CalamityMod/BrimstoneFlames]霰弹
+		按下<right>发射一发威力强大的硫磺火炮弹，让敌人受到[cbuff:CalamityMod/MarkedforDeath]减益
 		'''
 	TooltipGFB:
 		'''
@@ -60,7 +60,7 @@ AntiMaterielRifle: {
 	DisplayName: 反器材狙击步枪
 	Tooltip:
 		'''
-		将火枪子弹转化为.50口径的狙击子弹，撕裂敌人的防御和伤害减免
+		将火枪子弹转化为.50口径的狙击子弹，撕裂敌人的防御和并让敌人被[cbuff:CalamityMod/MarkedforDeath]
 		命中敌人时发射第二轮弹雨，暴击时子弹更多
 		'''
 }
@@ -103,7 +103,7 @@ Arietes41: {
 	DisplayName: 白羊座 41
 	Tooltip:
 		'''
-		交替发射生命偷取子弹和电能子弹
+		交替发射生命偷取子弹和造成[cbuff:Electrified]减益的子弹
 		电能子弹碰撞时会释放小型冲击波，对命中的敌人造成额外伤害
 		'''
 }
@@ -114,13 +114,13 @@ ArterialAssault: {
 		'''
 		发射五支跟踪鲜血箭
 		鲜血箭命中敌怪时爆出血珠
-		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
+		捡起这些血珠会减少[cbuffplr:PotionSickness]的持续时间
 		'''
 }
 
 AstralBlaster: {
 	DisplayName: 幻星冲击炮
-	Tooltip: 将火枪子弹转化为可施加[cbuff:CalamityMod/AstralInfectionDebuff]减益的追踪幻星弹
+	Tooltip: 将火枪子弹转化为散播[cbuff:CalamityMod/AstralInfectionDebuff]减益的追踪幻星弹
 }
 
 AstrealDefeat: {
@@ -132,7 +132,7 @@ Auralis: {
 	DisplayName: 极光
 	Tooltip:
 		'''
-		发射可以削减敌人防线的高速闪光子弹
+		发射让敌怪被[cbuff:CalamityMod/MarkedforDeath]的高速闪光子弹
 		右键扩大视野
 		不移动时提供伤害加成，至多可达25%
 		不移动且使用右键瞄准5秒以上在你周围产生极光
@@ -145,7 +145,7 @@ AuroraBlazer: {
 	DisplayName: 极光烈焰
 	Tooltip:
 		'''
-		喷出以星形轨迹运动的星云烈焰并施加[cbuff:CalamityMod/AstralInfectionDebuff]减益
+		喷出以星形轨迹运动的星云烈焰并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		使用凝胶作为弹药
 		'''
 }
@@ -176,7 +176,7 @@ BlightSpewer: {
 	DisplayName: 枯萎散播者
 	Tooltip:
 		'''
-		发射粘附于物块上的瘟疫纳米机器云
+		发射粘附于物块上的[cbuff:CalamityMod/Plague]纳米机器云
 		纳米机器会主动锁定附近的敌人
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
@@ -196,7 +196,7 @@ BloodBoiler: {
 	Tooltip:
 		'''
 		发射两股会回到你身边的生命血火
-		如果命中敌怪，返回的生命血火将减少[cbuff:PotionSickness]的持续时间
+		如果命中敌怪，返回的生命血火将减少[cbuffplr:PotionSickness]的持续时间
 		消耗你的生命作为弹药
 		20%几率节省生命
 		'''
@@ -241,7 +241,7 @@ Buzzkill: {
 	Tooltip:
 		'''
 		按住左键以将一把近距离的圆锯旋转起来
-		释放左键会发射圆锯，可以在物块上反弹和撕裂敌人
+		释放左键会发射圆锯，可以在物块上反弹并撕裂敌怪
 		在手中加速圆锯会增加它们的伤害并允许它们穿透更多的敌怪
 		“不要与带锯霰弹枪混淆”
 		'''
@@ -249,7 +249,7 @@ Buzzkill: {
 
 ChickenCannon: {
 	DisplayName: 小鸡大炮
-	Tooltip: 发射小鸡火箭，产生巨大燃爆
+	Tooltip: 发射小鸡火箭，产生巨大的造成[cbuff:CalamityMod/Dragonfire]减益的燃爆
 }
 
 ChromaticEruption: {
@@ -264,14 +264,18 @@ ChromaticEruption: {
 
 ClamorRifle: {
 	DisplayName: 音波步枪
-	Tooltip: 将火枪子弹转化为追踪能量束
+	Tooltip:
+		'''
+		将火枪子弹转化为追踪能量束
+		能量束会短暂晕眩敌怪
+		'''
 }
 
 CleansingBlaze: {
 	DisplayName: 净化怒焰
 	Tooltip:
 		'''
-		释放一束可以穿过物块的火焰
+		释放一束可以穿过物块的火焰，造成[cbuff:CalamityMod/GodSlayerInferno]减益
 		使用凝胶作为弹药
 		'''
 }
@@ -291,7 +295,6 @@ Condemnation: {
 		'''
 		发射出注入了仇恨魔法的绯红弩箭
 		左键长按以填充箭矢，最多填充九支箭矢，松开以将其一起发射出
-		右键可使其连续发射
 		'''
 }
 
@@ -389,9 +392,9 @@ DragonsBreath: {
 	DisplayName: 巨龙之息
 	Tooltip:
 		'''
-		以逐渐加快的频率发射龙息火球
+		以逐渐加快的频率发射强烈的造成[cbuff:CalamityMod/Dragonfire]减益的爆炸
 		发射足够长的时间后，你会开始使用特殊的能量弹
-		使用能量弹时你会射出一束不消耗弹药的龙息光束
+		使用能量弹时你会射出一束不消耗弹药的纯粹[cbuff:CalamityMod/Dragonfire]光束
 		能量耗尽抛壳后，射速会回到最初的状态
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
@@ -401,7 +404,7 @@ Drataliornus: {
 	DisplayName: 赤陨霸龙弓
 	Tooltip:
 		'''
-		发射一连串龙焰火球，发射速度随使用时间增加而加快
+		发射一连串造成[cbuff:CalamityMod/Dragonfire]减益的箭，发射速度随使用时间增加而加快
 		火球会降下陨石雨，留下龙尘造成伤害。在最大速度时会发射额外的火球，触发“火球激流”效果，火球具有追踪能力
 		火球激流发动时，如果受到伤害，攻击会被打断，同时降低飞行时间
 		右键点击发射两团毁灭性的强大火球
@@ -431,7 +434,6 @@ FetidEmesis: {
 		发射加速子弹流直到枪管过热
 		当枪管过热时会吐出一阵腐烂肉块
 		发射肉块后，枪必须冷却完成才可继续使用
-		开火时按下<right>会持续发射肉块
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
@@ -441,7 +443,7 @@ FirestormCannon: {
 	Tooltip:
 		'''
 		快速发射一连串照明弹，并让武器积累灼热值
-		发射过久会使武器过热，短时间内无法使用
+		发射过久会使武器过热，短时间内无法使用并让你受到[cbuffplr:OnFire]减益
 		按下<right>收起武器，保留其灼热值
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		“这能出岔子我吃”
@@ -523,7 +525,7 @@ GoldenEagle: {
 
 Goobow: {
 	DisplayName: 凝胶弓
-	Tooltip: 发射两束凝胶
+	Tooltip: 额外发射两束凝胶
 }
 
 GunkShot: {
@@ -559,7 +561,7 @@ HavocsBreath: {
 	DisplayName: 混乱之息
 	Tooltip:
 		'''
-		射出一束锥形高温硫磺火
+		射出一束锥形高温[cbuff:CalamityMod/BrimstoneFlames]
 		使用凝胶作为弹药
 		'''
 }
@@ -571,6 +573,7 @@ HeavenlyGale: {
 		发射一连串迅速的增压星流晶体箭
 		手持此弓并且不攻击一段时间后会使晶体更加强大
 		当晶体足够强大时会在被击中的任何目标上方召唤星流闪电激流
+		被星流闪电命中的敌怪会被[cbuff:CalamityMod/MiracleBlight]减益雾化
 		'''
 }
 
@@ -608,7 +611,7 @@ Hydra: {
 	DisplayName: 九头蛇
 	Tooltip:
 		'''
-		发射4发剧毒子弹
+		发射3颗灌注[cbuff:Venom]减益的血球
 		每3秒增加一个枪头，至多增加三个枪头
 		左键可命令任何现有的枪头开火
 		右键发射会造成强大爆炸伤害的枪头
@@ -621,8 +624,8 @@ Infinity: {
 	Tooltip:
 		'''
 		发射一对分裂的能量束
-		右键发射一团普通子弹
-		{$CommonItemTooltip.PercentChanceToSaveAmmo}
+		{$Common.ArmorPenetration}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 		“只要你把它握在手中，无限的解离就不会停止”
 		'''
 }
@@ -638,7 +641,7 @@ Kingsbane: {
 		'''
 		启动完毕后，迅速发射子弹
 		当你停止开火时会继续倾泻大量金源弹
-		金源弹会迅速追踪附近的敌人，并无视50点防御
+		金源弹会迅速追踪附近的敌人，无视50点防御并造成[cbuff:CalamityMod/AuricRebuke]减益
 		使用时不断消耗弹药
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
@@ -649,7 +652,7 @@ Leviatitan: {
 	Tooltip:
 		'''
 		发射高速海潮弹
-		每六次射击释放能撕裂敌人防御的追踪吞食者
+		每六次射击释放撕裂敌人防御的追踪吞食者
 		右键点击吐出命中时爆炸的流星
 		“LMG可不是轻机枪的意思”
 		'''
@@ -689,7 +692,7 @@ MagnomalyCannon: {
 	DisplayName: 磁极异变
 	Tooltip:
 		'''
-		发射一颗强大的嘉登火箭，击溃万物
+		发射一颗强大的嘉登火箭，击溃万物并造成[cbuff:CalamityMod/MiracleBlight]减益
 		火箭周围有隐形伤害圈，击中敌人时分裂出激光
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
@@ -700,7 +703,7 @@ Malevolence: {
 	Tooltip:
 		'''
 		一次发射两支箭矢
-		将木箭转化为接触后爆炸成蜜蜂的瘟疫箭
+		将木箭转化为接触后爆炸成蜜蜂的[cbuff:CalamityMod/Plague]箭
 		'''
 }
 
@@ -717,8 +720,10 @@ Megalodon: {
 	DisplayName: 巨舰鲨
 	Tooltip:
 		'''
-		快速交替发射子弹和加压水流
-		水流不消耗弹药
+		装填一个30发的弹匣，快速发射子弹和加压水流
+		发射完重新装填前，枪会发射一枚强力的追踪火箭
+		火箭伤害基于射击命中的次数
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -774,7 +779,7 @@ Monsoon: {
 
 Needler: {
 	DisplayName: 叶针枪
-	Tooltip: 将火枪子弹转化为钉在敌人身上并爆炸的叶针
+	Tooltip: 将火枪子弹转化为灌注[cbuff:Venom]减益的叶针，可以钉在敌人身上并爆炸
 }
 
 NettlevineGreatbow: {
@@ -847,6 +852,23 @@ Onyxia: {
 		'''
 }
 
+OmniGun: {
+	DisplayName: The Omnigun
+	Tooltip:
+		'''
+		一把依次使用其多种模式的多用途武器
+		第一枪是狙击弹，会随时间增加伤害并总是暴击
+		第二枪是10发标准子弹
+		第三枪是一道毁灭性的近程散射
+		第四枪是一颗危险但强力的手雷，会摧毁包括你在内的一切
+		'''
+	SalesPitch:
+		'''
+		'Why carry four different guns when you can carry just one? That's what I used to ask myself!'
+		'With this thing-a-beauty, even a bumbling moron can become invincible - and for the right price, it can be yours!'
+		'''
+}
+
 OpalStriker: {
 	DisplayName: 鹅卵石冲击波
 	Tooltip:
@@ -890,14 +912,14 @@ PearlGod: {
 
 PestilentDefiler: {
 	DisplayName: 疫病污染者
-	Tooltip: 将火枪子弹转化为会爆裂成瘟疫碎片的瘟疫子弹
+	Tooltip: 将火枪子弹转化为会爆裂成瘟疫碎片的[cbuff:CalamityMod/Plague]子弹
 }
 
 Photoviscerator: {
 	DisplayName: 星火解离者
 	Tooltip:
 		'''
-		发射持续性的星流辐射光束，分解一切
+		发射持续性的星流光束，分解一切并造成[cbuff:CalamityMod/MiracleBlight]减益
 		按住右键发射追踪星流火焰，可以黏附在敌人身上灼烧它们
 		使用凝胶作为弹药
 		光束有{0}%的几率节省弹药
@@ -908,9 +930,9 @@ PlagueTaintedSMG: {
 	DisplayName: 玷污之疫SMG
 	Tooltip:
 		'''
-		发射瘟疫子弹，在暴击时生成瘟疫自爆无人机
+		发射[cbuff:CalamityMod/Plague]子弹，在暴击时生成瘟疫自爆无人机
 		敌怪越近，子弹的伤害和击退更高
-		无人机命中受瘟疫感染的敌怪时有极高的暴击率
+		无人机命中受[cbuff:CalamityMod/Plague]减益感染的敌怪时有极高的暴击率
 		右键发射无人机群
 		'''
 }
@@ -931,12 +953,14 @@ PolarisParrotfish: {
 		'''
 		迅速发射一串彩色星星
 		你离敌怪越近，开火速度越快
+		{$Common.ArmorPenetration}
 		“它带有北极星的标记”
 		'''
 	TooltipGFB:
 		'''
 		迅速发射一串彩色星星
 		你离敌怪越近，开火速度越快
+		{$Common.ArmorPenetration}
 		<right>给这个小女孩一点关照
 		“她是个快乐的女孩”
 		'''
@@ -947,7 +971,7 @@ PridefulHuntersPlanarRipper: {
 	Tooltip:
 		'''
 		每四发子弹会有一发造成135%的伤害
-		将火枪子弹转化为闪电弹
+		将火枪子弹转化为造成[cbuff:Electrified]减益的闪电弹
 		闪电弹的弹幕速度很快，并在击杀敌人时产生爆炸
 		闪电弹暴击时会使你获得可堆叠的速度加成
 		至多获得20%移动速度和加速度加成
@@ -960,7 +984,7 @@ PristineFury: {
 	DisplayName: 纯元怒焰
 	Tooltip:
 		'''
-		发射一股猛烈的螺旋烈焰，爆裂成一阵烟雾
+		发射一股猛烈的，造成[cbuff:CalamityMod/HolyFlames]减益的螺旋烈焰，爆裂成一阵烟雾
 		<right>散布易燃圣晶粉尘，粉尘可用量有限，随时间恢复
 		粉尘可被点燃，会使其爆炸造成额外伤害
 		螺旋烈焰和附近的其他爆炸都能点燃粉尘
@@ -1063,9 +1087,10 @@ Seadragon: {
 	DisplayName: 海龙
 	Tooltip:
 		'''
-		交替释放大量的子弹和加压水流
-		额外发射火箭并释放毁灭性爆炸
-		水流不消耗弹药
+		装填一个50发的弹匣，交替发射子弹和加压水流
+		水流会召唤在你周围游动的小鱼
+		当所有子弹发射完重新装填时，召唤的鱼会聚向光标处
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
 
@@ -1083,7 +1108,7 @@ SepticSkewer: {
 	Tooltip:
 		'''
 		发射一把充满毒素的邪恶链式鱼叉
-		鱼叉会粘在敌怪身上并造成长时间的硫磺海剧毒
+		鱼叉会粘在敌怪身上并造成长时间的[cbuff:CalamityMod/SulphuricPoisoning]减益
 		被刺穿1秒后，鱼叉会撕开它们并喷出伤害性血污
 		按右键手动撕出所有鱼叉，造成额外伤害
 		接近死亡的敌怪会被返回的鱼叉拖回你身边并在它们到达你后被处决
@@ -1095,7 +1120,7 @@ Shadethrower: {
 	DisplayName: 影流喷射器
 	Tooltip:
 		'''
-		喷射影流之云，使敌人的大脑溃烂
+		喷射影流之云，使敌人受到[cbuff:CalamityMod/BrainRot]减益
 		使用凝胶作为弹药
 		'''
 }
@@ -1114,7 +1139,6 @@ Shredder: {
 	Tooltip:
 		'''
 		发射一团会分裂弹射的能量子弹
-		右键发射一团火枪子弹
 		“神话，传说，这把枪能让你的电脑爆炸”
 		'''
 }
@@ -1129,14 +1153,14 @@ SlagfireDouser: {
 	Tooltip:
 		'''
 		喷射一阵熔岩流
-		熔岩流无视敌怪10点防御并造成[cbuff:CalamityMod/SearingLava]减益
+		熔岩流无视敌怪10点防御并用[cbuff:CalamityMod/SearingLava]减益覆盖你的敌人
 		[c/FF9900:也能把镇民浸泡在熔岩中……]
 		'''
 }
 
 SlagMagnum: {
 	DisplayName: 熔渣马格南
-	Tooltip: 将火枪子弹转化为化石碎片，命中后生成额外的碎片
+	Tooltip: 将火枪子弹转化为造成[cbuff:CalamityMod/ArmorCrunch]减益的化石碎片，命中后生成额外的碎片
 }
 
 SomaPrime: {
@@ -1144,10 +1168,10 @@ SomaPrime: {
 	Tooltip:
 		'''
 		如果这把武器的暴击率超过了100%，它可以造成超暴击
-		所有发射的子弹都有5%概率造成解离，一种可堆叠的流血减益
-		暴击默认造成3倍而非2倍伤害，并有30%概率造成解离减益
-		每层解离减益每秒造成600点伤害，该伤害受到你远程属性的影响
-		解离减益同样具有造成3倍伤害的暴击能力，并可以造成超暴击
+		所有发射的子弹都有5%概率造成[cbuff:CalamityMod/Shred]减益，一种可堆叠的流血减益
+		暴击默认造成3倍而非2倍伤害，并有30%概率造成[cbuff:CalamityMod/Shred]减益
+		每层[cbuff:CalamityMod/Shred]减益每秒造成600点伤害，该伤害受到你远程属性的影响
+		[cbuff:CalamityMod/Shred]减益同样具有造成3倍伤害的暴击能力，并可以造成超暴击
 		将火枪子弹转化为高速子弹
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
@@ -1166,9 +1190,9 @@ SpectralstormCannon: {
 	DisplayName: 光谱风暴
 	Tooltip:
 		'''
-		发射一连串光谱照明弹，并让武器积累灼热值
+		发射一连串造成[cbuff:CalamityMod/Nightwither]减益的光谱照明弹，并让武器积累灼热值
 		降温时会持续释放寻热幻灵
-		发射过久会使武器过热，短时间内无法使用
+		发射过久会使武器过热，短时间内无法使用并让你受到[cbuffplr:CalamityMod/Nightwither]减益
 		但是，触发过热时会释放一阵强大的灵魂并重置灼热值
 		按下<right>收起武器，保留其灼热值
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
@@ -1190,7 +1214,7 @@ SpeedBlaster: {
 
 Spyker: {
 	DisplayName: 叶针霰弹炮
-	Tooltip: 将火枪子弹转化为会钉在敌人身上并爆炸的叶针
+	Tooltip: 将火枪子弹转化为灌注[cbuff:Venom]减益的叶针，可以钉在敌人身上并爆炸
 }
 
 Starfleet: {
@@ -1231,7 +1255,7 @@ StarSputter: {
 	DisplayName: 星辰溅散
 	Tooltip:
 		'''
-		发射一束陨星并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+		发射一束陨星并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		每四次攻击发射一个更大的陨星
 		“眺望遥远星系的闪烁群星”
 		'''
@@ -1239,7 +1263,7 @@ StarSputter: {
 
 StellarCannon: {
 	DisplayName: 新星炮
-	Tooltip: 发射一个爆炸幻星水晶并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+	Tooltip: 发射一个爆炸幻星水晶并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 StormSurge: {
@@ -1257,7 +1281,7 @@ SulphuricAcidCannon: {
 	Tooltip:
 		'''
 		发射追踪的酸性火箭
-		酸性火箭将黏在敌人身上，短暂的延迟后爆炸成剧毒烟雾
+		酸性火箭将黏在敌人身上，短暂的延迟后爆炸成毒雾
 		'''
 }
 
@@ -1297,8 +1321,8 @@ Svantechnical: {
 	Tooltip:
 		'''
 		发射三股能量束，能量束会分裂成追踪光标位置的光束
-		按下右键发射一团普通子弹
-		{$CommonItemTooltip.PercentChanceToSaveAmmo}
+		{$Common.ArmorPenetration}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
 		“以构造换取伤害的古老平衡”
 		'''
 }
@@ -1311,7 +1335,6 @@ TauCannon: {
 		一级充能发射一阵小光束
 		二级充能发射一道快速消失的能量激光
 		三级充能发射一道大激光并在你周围产生星幻传送门
-		这些攻击会造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		“这把武器的伦理十分可疑”
 		'''
 }
@@ -1328,7 +1351,7 @@ TelluricGlare: {
 
 TheBallista: {
 	DisplayName: 破城巨弓
-	Tooltip: 将木箭转化为能击碎敌人的护甲并且会碎裂为化石碎片的破城巨箭
+	Tooltip: 将木箭转化为能造成[cbuff:CalamityMod/ArmorCrunch]减益并且会碎裂为化石碎片的破城巨箭
 }
 
 TheHive: {
@@ -1337,7 +1360,7 @@ TheHive: {
 		'''
 		以较高的散布发射四发导弹，命中敌人或物块时爆炸
 		蓄力发射会降低武器散布，并且会提高导弹的弹速
-		发射器蓄力至满后会发射一颗爆炸范围极大的核弹
+		发射器蓄力至满后会发射一颗爆炸范围极大的造成[cbuff:CalamityMod/Plague]减益的核弹
 		'''
 }
 
@@ -1348,7 +1371,7 @@ TheJailor: {
 
 TheMaelstrom: {
 	DisplayName: 幽漩风暴
-	Tooltip: 发射能够产生水爆炸的充能猎魂鲨
+	Tooltip: 发射充能猎魂鲨，能够产生水爆炸
 }
 
 ThePack: {
@@ -1361,7 +1384,7 @@ ThermoclineBlaster: {
 	Tooltip:
 		'''
 		交替发射烈焰子弹与寒霜子弹
-		这把枪可以使任何类型的子弹附带烈焰与寒霜效果
+		这把枪可以影响任何类型的子弹
 		'''
 }
 
@@ -1371,8 +1394,6 @@ TheSevensStriker: {
 		'''
 		左键消耗1枚钱币开赌老虎机
 		赌博结果取决于使用的钱币种类
-		右键迅速发射一连串硬币
-		右键有{0}%的几率节省弹药且无法直接将铂金币作为弹药发射
 		“给予伟大的神射手的枪械
 		锻造自无名男子之手”
 		'''
@@ -1384,7 +1405,7 @@ TheStorm: {
 	Tooltip:
 		'''
 		从天而降一阵追踪闪电和箭矢
-		将木箭转化为强力的电光
+		将木箭转化为强力的闪电
 		'''
 }
 
@@ -1392,9 +1413,10 @@ ThreadOfEradication: {
 	DisplayName: 湮灭之弦
 	Tooltip:
 		'''
-		充能[c/ff00ff:神殇宙灭激光]
-		按住武器使用会让它转而充能[c/ff00ff:终灭裂隙]
-		充能[c/ff00ff:终灭裂隙]时，弓的转向速度降低
+		充能[ceffect/dog:神殇宙灭激光]
+		按住武器使用会让它转而充能[ceffect/dog:终灭裂隙]
+		充能[ceffect/dog:终灭裂隙]时，弓的转向速度降低
+		总是暴击，你的暴击率会增加暴击伤害
 		'''
 }
 
@@ -1410,7 +1432,7 @@ TitaniumRailgun: {
 
 Toxibow: {
 	DisplayName: 剧毒烈弓
-	Tooltip: 将木箭转换为缓慢移动的能够造成辐射减益的爆炸箭矢
+	Tooltip: 将木箭转换为缓慢移动的能够造成[cbuff:CalamityMod/Irradiated]减益的爆炸箭矢
 }
 
 TyrannysEnd: {
@@ -1418,7 +1440,7 @@ TyrannysEnd: {
 	Tooltip:
 		'''
 		将火枪子弹转化为.70口径的狙击弹，造成毁灭性伤害
-		击中敌人时造成死亡标记，并且无视对方的防御
+		让敌人被[cbuff:CalamityMod/MarkedforDeath]，并且无视对方的防御
 		暴击会召唤6发额外子弹
 		“击穿即便是拥有着最精良武装的敌人心脏”
 		'''
@@ -1429,8 +1451,7 @@ Ultima: {
 	Tooltip:
 		'''
 		射出连续的电浆光矢
-		随使用时间的增加，光矢会被替换成镭射死光
-		持续射击时，光矢将会充能形成实体光束
+		持续射击时，随使用时间的增加，光矢将会充能形成实体光束
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
 		'''
 }
@@ -1458,9 +1479,11 @@ Voidragon: {
 	DisplayName: 太虚星龙炮
 	Tooltip:
 		'''
-		每隔一发就会发射虚空爆破弹
-		每一发都会射出魔火之触
-		发射虚空爆破弹不消耗弹药，发射子弹时有{0}%的几率节省弹药
+		装填一个50发的弹匣，交替发射子弹和浓缩虚空爆
+		当所有子弹发射完后，枪会发射一股巨大的深渊火焰
+		深渊火焰的强度受射击命中的次数加成
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
+		[c/620BB0:“融入黑暗”]
 		'''
 }
 

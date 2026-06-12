@@ -2,7 +2,7 @@ AbandonedSlimeStaff: {
 	DisplayName: 淡忘之史
 	Tooltip:
 		'''
-		召唤会造成[cbuff:CalamityMod/AstralInfectionDebuff]的星幻史莱姆
+		召唤会散播[cbuff:CalamityMod/AstralInfectionDebuff]的星幻史莱姆
 		使用时会消耗所有的仆从栏位
 		必须在快捷栏使用
 		基于消耗的仆从栏位数量增加伤害和尺寸
@@ -48,7 +48,6 @@ AresExoskeleton: {
 		使用后构建出拥有四个槽位的外骨骼武装配置器：离子加农炮，特斯拉加农炮，镭射加农炮，高斯核弹加农炮
 		点击一个武器选项，随后点击一个武装槽位，可以召唤一门该种类的加农炮
 		点击已被占据的槽位会清空它，并卸载对应的加农炮
-		加农炮占据3格仆从栏位
 		'''
 }
 
@@ -73,7 +72,7 @@ AtlasMunitionsBeacon: {
 
 BelladonnaSpiritStaff: {
 	DisplayName: 颠茄灵杖
-	Tooltip: 召唤一个会投掷魔法剧毒花瓣的可爱的颠茄之灵
+	Tooltip: 召唤一个会投掷魔法花瓣的可爱的颠茄之灵
 }
 
 BlackHawkRemote: {
@@ -91,7 +90,7 @@ BorealisBomber: {
 	Tooltip:
 		'''
 		召唤星幻炸弹追逐你的敌人
-		星幻炸弹会在命中敌人时猛烈爆炸
+		星幻炸弹会在命中敌人时猛烈爆炸，散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		星幻炸弹不会占据仆从栏位
 		'''
 }
@@ -103,7 +102,7 @@ BrittleStarStaff: {
 		召唤一只会冲向敌人的脆弱的海蛇尾
 		海蛇尾会一直攻击敌人直到其破碎，其破碎后会迅速再生
 		<right>以切换海蛇尾的状态
-		当海蛇尾处于环绕状态时，每只海蛇尾会为玩家提供4点防御
+		当海蛇尾处于环绕状态时，每只海蛇尾会为玩家提供{0}点防御
 		'''
 }
 
@@ -144,8 +143,14 @@ CausticStaff: {
 	Tooltip:
 		'''
 		召唤一条迷你龙为你而战
-		龙会对敌人施加几种衰弱减益
-		仅在手持召唤武器或是工具时才会施加减益
+		召唤的龙越多，攻击速度越快，造成的减益越多
+		'''
+	HoldShiftTooltip:
+		'''
+		总会造成[cbuff:OnFire3]减益
+		召唤两条龙时会造成[cbuff:CursedInferno]减益
+		召唤三条龙时会造成[cbuff:Venom]减益
+		召唤四条龙时会造成[cbuff:Ichor]和[cbuff:CalamityMod/MarkedforDeath]减益
 		'''
 }
 
@@ -205,8 +210,9 @@ CosmicImmaterializer: {
 	Tooltip:
 		'''
 		召唤一个宇宙之灵为你而战
-		宇宙之灵在探测到敌人时会发射大量的跟踪能源箭
-		需要至少10格仆从栏位才能使用并且同时只能存在至多一个宇宙之灵
+		宇宙之灵会向探测到的敌怪发射大量的跟踪能源箭
+		命中的敌怪会被[cbuff:CalamityMod/MiracleBlight]减益净化
+		同时只能存在至多一个宇宙之灵
 		'''
 }
 
@@ -224,11 +230,7 @@ CosmicViperEngine: {
 
 Cosmilamp: {
 	DisplayName: 无限之灯
-	Tooltip:
-		'''
-		在你的头顶召唤一盏宇宙灯为你而战
-		每盏宇宙灯占据两格仆从栏位
-		'''
+	Tooltip: 在你的头顶召唤一盏宇宙灯为你而战
 }
 
 CrimslimeStaff: {
@@ -292,7 +294,7 @@ DormantBrimseeker: {
 		'''
 		召唤一个硫火搜寻者
 		当仆从栏位耗尽时，再次使用则会召唤一个硫火光环
-		光环会强化硫火搜寻者并产生伤害性火球
+		光环会强化硫火搜寻者并产生伤害性[cbuff:CalamityMod/BrimstoneFlames]球
 		同时只能存在至多一个光环
 		当你在镜子里看到他们的倒影时，他们绝对看起来更加可怕
 		'''
@@ -304,8 +306,7 @@ DragonbloodDisgorger: {
 		'''
 		召唤一只骨龙和她的两个孩子
 		孩子吐出的血炎球在命中敌怪时爆发成血珠
-		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
-		需要至少6格仆从栏位才能使用
+		捡起这些血珠会减少[cbuffplr:PotionSickness]的持续时间
 		同时只能存在至多一家骨龙
 		'''
 }
@@ -339,7 +340,6 @@ Endogenesis: {
 		第二形态：发射大量追踪冰晶
 		第三形态：连续冲撞敌人
 		第四形态：旋转并向四周喷射极寒之火
-		需要至少10格仆从栏位才能使用
 		同时只能存在至多一个冰晶结构
 		[c/B0FBFF:“不包含冰的双关语”]
 		'''
@@ -356,11 +356,7 @@ EndoHydraStaff: {
 
 EntropysVigil: {
 	DisplayName: 混乱之祈祷
-	Tooltip:
-		'''
-		召唤迷你灾厄之影和她的两兄弟来保护你
-		每个三人组占据2格仆从栏位
-		'''
+	Tooltip: 召唤迷你灾厄之影和她的两兄弟来保护你
 }
 
 EtherealSubjugator: {
@@ -399,11 +395,7 @@ FleshOfInfidelity: {
 
 FlowersOfMortality: {
 	DisplayName: 告死之花
-	Tooltip:
-		'''
-		在你的头顶召唤五朵元素之花
-		共占据3格仆从栏位
-		'''
+	Tooltip: 在你的头顶召唤五朵元素之花
 }
 
 ForgottenApexWand: {
@@ -493,6 +485,7 @@ HivePod: {
 		'''
 		{$CommonItemTooltip.Sentry}
 		召唤一只星幻巢来向你的敌人放出星幻球体
+		星幻球体命中时散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		'''
 }
 
@@ -512,9 +505,9 @@ InfectedRemote: {
 	Tooltip:
 		'''
 		召唤一个代号为“瘟疫雌蜂”的人形混血瘟疫使者在战斗中帮助你
-		需要至少3格仆从栏位才能使用并且同时只能存在至多一只瘟疫雌蜂
+		同时只能存在至多一只瘟疫雌蜂
 		瘟疫雌蜂会使用各种方式的攻击，通过内部的计时器进行循环
-		所有的攻击都会传播瘟疫，正如她最初的设计意图一样
+		所有的攻击都会传播[cbuff:CalamityMod/Plague]减益，正如她最初的设计意图一样
 		“贴在后面的便条写着：
 		[c/1FFBFF:警告：受试者具有极强的腐蚀性和传染性。请避免直接接触。”]
 		'''
@@ -524,7 +517,7 @@ KingofConstellationsTenryu: {
 	DisplayName: 天龙，群星的君王
 	Tooltip:
 		'''
-		使用4格仆从栏位，召唤一对天体巨龙为你而战
+		召唤一对天体巨龙为你而战
 		同一时间只能存在一对巨龙
 		“吞噬恒星的巨龙”
 		'''
@@ -539,7 +532,6 @@ LiliesOfFinality: {
 	DisplayName: 终焉百合
 	Tooltip:
 		'''
-		需要2个仆从栏才能使用
 		只能召唤一次
 		“苏醒”
 		'''
@@ -553,7 +545,7 @@ Metastasis: {
 		当灾坟魔物存在时，你的周围会不断出现硫磺火心
 		当硫磺火心过多时，灾坟魔物会中断攻击，转而攻击硫磺火心
 		硫磺火心越多，上述情况越频繁
-		需要四个仆从栏位且只能召唤一只
+		只能召唤一次
 		'''
 	Calamitas:
 		'''
@@ -589,8 +581,7 @@ MutatedTruffle: {
 		'''
 		召唤一只年轻猪龙鱼辐射你的敌人
 		猪龙鱼会在冲刺、释放弹幕和释放台风的攻击方式间循环
-		需要3个仆从栏位
-		只能召唤1只
+		只能召唤一只
 		'''
 }
 
@@ -599,7 +590,7 @@ OrthoceraShell: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一个悬空的直角石，向你的敌人喷射酸液流
+		召唤一个悬空的直角石，向你的敌人喷射造成[cbuff:CalamityMod/Irradiated]和[cbuff:Venom]减益的液流
 		'''
 }
 
@@ -610,7 +601,7 @@ Perdition: {
 		{$CommonItemTooltip.Sentry}
 		在光标位置召唤一个永劫信标
 		当有敌人被<right>标记时，它会从其下方召唤出灵魂之流，将敌人湮没在永劫地狱中
-		需要1个哨兵栏位召唤且同时只能存在至多一个永劫信标
+		同时只能存在至多一个永劫信标
 		'''
 }
 
@@ -619,7 +610,7 @@ PlantationStaff: {
 	Tooltip:
 		'''
 		召唤一只世纪小花以花之怒摧毁敌人
-		占用3个仆从栏位并且只能同时存在一朵世纪小花
+		只能同时存在一朵世纪小花
 		'''
 }
 
@@ -652,7 +643,7 @@ RustyBeaconPrototype: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.Sentry}
-		召唤一架废弃已久的无人机，被动地释放辐射波
+		召唤一架废弃已久的无人机，被动地释放[cbuff:CalamityMod/Irradiated]波
 		'''
 }
 
@@ -662,7 +653,7 @@ SanctifiedSpark: {
 		'''
 		{$CommonItemTooltip.Sentry}
 		召唤一只友好的献祭者向你飘来
-		献祭者会迅速向附近的敌怪发射追踪火焰，随后再次向你飘来
+		献祭者会迅速向附近的敌怪发射造成[cbuff:CalamityMod/HolyFlames]减益的追踪火焰，随后再次向你飘来
 		攻击完后，你每拥有4个召唤栏，献祭者就会向你发射一道治疗束
 		“他们可能有些粘人，但至少很温暖。”
 		'''
@@ -679,8 +670,9 @@ SarosPossession: {
 		'''
 		召唤驭使始源之光力量的璀璨光环
 		重复召唤会增强它的力量
-		召唤栏满时<left>可以引导一道随时间衰弱的蚀日光束
-		未在使用时光束会重新充能
+		召唤栏满时<left>可以引导一道[ceffect/darksun:集束射线]
+		[ceffect/darksun:集束射线]在使用时会不断衰弱，不使用时会重新充能
+		[ceffect/darksun:“从天空撕下的光影芭蕾”]
 		'''
 }
 
@@ -691,11 +683,7 @@ ScabRipper: {
 
 ShellfishStaff: {
 	DisplayName: 海贝法杖
-	Tooltip:
-		'''
-		召唤海贝为你而战
-		每只海贝占据2格仆从栏位
-		'''
+	Tooltip: 召唤可附着在敌怪身上的海贝，造成[cbuff:CalamityMod/ShellfishClaps]减益
 }
 
 Sirius: {
@@ -757,7 +745,7 @@ StaffOfNecrosteocytes: {
 
 StarspawnHelixStaff: {
 	DisplayName: 唤星螺旋杖
-	Tooltip: 召唤幻星探测器并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+	Tooltip: 召唤幻星探测器并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 StellarTorusStaff: {
@@ -783,7 +771,7 @@ TacticalPlagueEngine: {
 	DisplayName: 战术瘟疫引擎
 	Tooltip:
 		'''
-		召唤一架瘟疫战机，打得敌人叫妈妈
+		召唤一架造成[cbuff:CalamityMod/Plague]减益的战机，打得敌人叫妈妈
 		战机会消耗你物品栏中的子弹
 		有时会发射导弹而非子弹
 		50%几率节省弹药
@@ -802,7 +790,7 @@ TemporalUmbrella: {
 		- 一把青色雨伞会优雅的击败你的敌人
 		- 一杆淡紫色步枪会射击那些阻碍你前进的人
 		最重要的是，你得戴上一顶礼帽
-		需要至少5格仆从栏位才能使用并且同时只能存在至多一套工具
+		同时只能存在至多一套工具
 		“如此结实，我敢说它一击就能打趴那些黑手党”
 		'''
 }
@@ -876,11 +864,11 @@ VoidConcentrationStaff: {
 	DisplayName: 幽冥统御
 	Tooltip:
 		'''
-		召唤出一个虚空光环，发射虚空球以攻击敌人
-		当虚空光环存在时，增加5%仆从伤害
-		需要至少3格仆从栏位才能使用
-		同时只能存在至多一个光环
-		<right>可发射逐渐变大的黑洞
+		用暗能量包围你，但使所有攻击造成的伤害降低15%
+		<right>将暗能量浓缩向一个目标，让你的仆从聚焦它并产生追踪光束
+		当被聚焦的目标受到任何来源的伤害后，它们会被额外的暗能量攻击
+		如果攻击来自仆从或哨兵，这些暗能量的强度会翻倍
+		10秒后暗能量会重新环绕你
 		'''
 }
 
@@ -890,7 +878,7 @@ VoidEaterMarionette: {
 		'''
 		蕴含掌控小型吞噬者的力量
 		重复召唤会增加吞噬者的长度和威力
-		吞噬者会使用[c/ff00ff:噬神者]，[c/ff00ff:焚灭虔信之火]和[c/ff00ff:超宇宙狂涡]攻击
+		吞噬者会使用[ceffect/dog:噬神者]，[ceffect/dog:焚灭虔信之火]和[ceffect/dog:超宇宙狂涡]攻击
 		可以与掉落物品互动
 		召唤吞噬者后在物品栏中按住Shift<right>以优先拾取掉落物品
 		'''
@@ -898,20 +886,12 @@ VoidEaterMarionette: {
 
 WarloksMoonFist: {
 	DisplayName: Warloks的月亮之拳
-	Tooltip:
-		'''
-		召唤一个星界之拳来痛击你的敌人
-		需要至少4格仆从栏位才能使用
-		'''
+	Tooltip: 召唤一个星界之拳来痛击你的敌人
 }
 
 WitherBlossomsStaff: {
 	DisplayName: 凋零绽放法杖
-	Tooltip:
-		'''
-		在你的头顶召唤四朵凋零枯花
-		共占据2格仆从栏位
-		'''
+	Tooltip: 在你的头顶召唤四朵凋零枯花
 }
 
 WulfrumController: {
@@ -921,16 +901,12 @@ WulfrumController: {
 		召唤一架钨钢无人机为你而战
 		手持遥控器时<right>以使你的无人机在正常模式和增压模式间切换
 		增压的无人机会停止攻击并为你聚集钨钢能量
-		每架无人机会提供+0.5HP/s生命再生和3点防御力
+		每架无人机会提供+{0}HP/s生命再生和{1}点防御力
 		保持你的光标离其他玩家足够近的话可以治疗他们
 		'''
 }
 
 YharonsKindleStaff: {
 	DisplayName: 巨龙七星灯
-	Tooltip:
-		'''
-		召唤一只炽焰天龙为你而战
-		需要至少5格仆从栏位才能使用
-		'''
+	Tooltip: 召唤一只炽焰天龙为你而战
 }

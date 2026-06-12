@@ -1,4 +1,3 @@
-AbaddonCrit.DisplayName: 硫火爆破
 AeroExplosive.DisplayName: 天蓝爆炸
 AllianceTriangle.DisplayName: 圣天三角
 AmuletEnergy.DisplayName: 海灵
@@ -42,8 +41,8 @@ CursorProj.DisplayName: 蒸汽波水晶
 CursorProjSplit.DisplayName: 蒸汽波水晶
 CyanLabSeeker.DisplayName: 实验室定位仪
 DarkIce.DisplayName: 暗冰
+DebuffSpreadEffect.DisplayName: 减益散播效果
 DeepseaBlaze.DisplayName: 深海之耀
-DemonshadeRedDevil.DisplayName: 红恶魔
 DevourerofCodsBobber.DisplayName: 鳕鱼吞噬者浮标
 DiamondOfTheDeepProjectile.DisplayName: 深渊灵魂
 DirectStrike.DisplayName: 难以形容的破坏性实体
@@ -51,9 +50,10 @@ DragonDust.DisplayName: 龙尘之径
 DunesandBallFalling.DisplayName: 沙丘沙球
 DuneSandBallGun.DisplayName: 沙丘沙球
 EarlyBloomBobber.DisplayName: 龙蒿钓竿浮标
+Elumphant.DisplayName: 冰川象
+ElumphantMist.DisplayName: 冰川象之雾
 EmpyreanBlast.DisplayName: 皇天爆破
 EmpyreanEmber.DisplayName: 皇天余烬
-EmpyreanGlob.DisplayName: 皇天液滴
 EmpyreanMarble.DisplayName: 皇天大理石
 EmpyreanStellarDetritus.DisplayName: 皇天星源碎屑
 EnergyShell.DisplayName: 能量庇护
@@ -74,10 +74,12 @@ FungalClumpMinion.DisplayName: 真菌球
 GemTechArmorGem.DisplayName: 星流天钻
 GenericElectricSpark.DisplayName: 电火花
 GhostlyBolt.DisplayName: 血炎灵魂
+GluttonyBlenderAnimation.DisplayName: Gluttony Blender Animation
 GodKiller.DisplayName: 神杀
 GodSlayerShrapnel.DisplayName: 弑神者火焰
 GodSlayerShrapnelRound.DisplayName: 弑神者光环
 GreenLabSeeker.DisplayName: 实验室定位仪
+Gunshot.DisplayName: 枪击
 HeronBobber.DisplayName: 苍鹭浮标
 HideOfAstrumDeusExplosion.DisplayName: 隐壳爆炸
 HolyExplosionSupreme.DisplayName: 极乐爆炸
@@ -109,6 +111,7 @@ PauldronDash.DisplayName: 肩甲冲刺
 PauldronExplosion.DisplayName: 肩甲爆炸
 PearlAuraShard.DisplayName: 棱镜碎片
 PlaguePulse.DisplayName: 毒疫脉冲
+Pigion.DisplayName: Pigion
 PinkPearlFalling.DisplayName: 粉珍珠
 PoisonousSeawater.DisplayName: 海水
 PolypSandBallFalling.DisplayName: 珊瑚虫沙球
@@ -137,10 +140,13 @@ SkyFlareFriendly.DisplayName: 烈焰
 SlimeStream.DisplayName: 史莱姆流
 SlurperBobber.DisplayName: 灵魂饮食者浮标
 SpiritOriginBullseye.DisplayName: 靶心
-StandingFire.DisplayName: 火焰
+SpringStoolFX.DisplayName: Spring Stool
+StandingFire.DisplayName: 灾厄火焰
 StarStruckWaterBottle.DisplayName: 星水瓶
+StepStoolBonusFX.DisplayName: 梯凳加成
 StickyFeatherAero.DisplayName: 羽毛
 StomperSlam.DisplayName: 踏星靴猛击
+StratusBlackHole.DisplayName: 幻云奇点
 SuicideBomberDemon.DisplayName: 恶魔
 SulphuricAcidBubbleFriendly.DisplayName: 酸性气泡
 SulphurousSandBallGun.DisplayName: 硫磺沙球
@@ -148,10 +154,13 @@ TarraEnergy.DisplayName: 泰拉能量
 TarragonAura.DisplayName: 龙蒿光环
 TatteredFairyDust.DisplayName: 褴褛仙灵之尘
 TeslaAura.DisplayName: 磁暴
+TileSlamDamage.DisplayName: Grand Damage
 TitanHeartBoom.DisplayName: 泰坦之心爆炸
 TransformerAura.DisplayName:转换器光环
 TransformerBlob.DisplayName: 转换器裂片
+TrustyOldBobber.DisplayName: Trusty Old Bobber
 UrsaSlash.DisplayName: 大熊座斩击
+V8000SoulVisual.DisplayName: V8000灵魂
 VerstaltiteBobber.DisplayName: 极寒浮标
 VoidFieldGenerator.DisplayName: 虚空力场生成器
 VolcanicSandBallFalling.DisplayName: 火山沙球
@@ -165,7 +174,5 @@ WulfrumDiggingTurtleProjectile.DisplayName: 掘地机械龟
 WulfrumHook.DisplayName: 钨钢弹弓
 WulfrumLureSignal.DisplayName: 信号
 YellowLabSeeker.DisplayName: 实验室定位仪
-VoidofExtinctionCrit.DisplayName: 终结虚空暴击
 XykDeathAnim.DisplayName: Xyk死亡动画
 XykWings.DisplayName: Xyk之翼
-StratusBlackHole.DisplayName: 幻云奇点

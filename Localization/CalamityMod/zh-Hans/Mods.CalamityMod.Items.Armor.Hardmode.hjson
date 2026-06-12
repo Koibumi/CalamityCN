@@ -10,12 +10,16 @@ AstralBreastplate: {
 
 AstralHelm: {
 	DisplayName: 星幻头盔
-	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}"
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage}和{$CommonItemTooltip.PercentIncreasedCritChance@1}
+		能够探测附近生物，敌怪弹幕，危险源和宝藏
+		[c/aaaaaa:在物品栏中按住Shift<right>切换][cbuffplr:CalamityMod/Omniscience][c/aaaaaa:增益的效果]
+		'''
 	SetBonus:
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
-		能够探测附近生物，敌怪弹幕，危险源和宝藏
 		每当你对敌怪造成暴击，就会降下落星
 		该效果有{2}秒冷却时间
 		'''
@@ -45,7 +49,7 @@ BrimflameCowl: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxManaBy}和{$CommonItemTooltip.PercentReducedManaCost@1}
 		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance@2}
-		免疫[cbuff:OnFire]，[cbuff:CalamityMod/BrimstoneFlames]和[cbuff:Frostburn]
+		免疫[cbuffplr:OnFire]，[cbuffplr:CalamityMod/BrimstoneFlames]和[cbuffplr:Frostburn]减益
 		'''
 	SetBonus:
 		'''
@@ -174,7 +178,7 @@ FathomSwarmerVisage: {
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		获得爬墙的能力
 		浸没在液体中时{$CommonItemTooltip.PercentIncreasedSummonDamage@2}，增加{3}点防御和{4}HP/s生命再生
-		在深渊提供适量光照，并适度减少深渊中的氧气损耗	
+		在深渊提供适量光照，并适度减少深渊中的氧气损耗
 		'''
 }
 
@@ -197,7 +201,7 @@ HydrothermicArmor: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedDamage}
-		免疫熔岩和[cbuff:OnFire]
+		免疫熔岩和[cbuffplr:OnFire]减益
 		'''
 	CommonSetBonus:
 		'''
@@ -346,7 +350,7 @@ MolluskShellmet: {
 	SetBonus:
 		'''
 		增加{0}%伤害减免
-		两只贝壳会在战斗中助你一臂之力
+		两只贝壳会在战斗中助你一臂之力，造成[cbuff:CalamityMod/ShellfishClaps]减益
 		'''
 }
 
@@ -365,7 +369,7 @@ PlaguebringerCarapace: {
 		'''
 		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-		免疫[cbuff:CalamityMod/Plague]减益
+		免疫[cbuffplr:CalamityMod/Plague]减益
 		'''
 }
 
@@ -425,7 +429,7 @@ PlagueReaperVest: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}
-		免疫瘟疫
+		免疫[cbuffplr:CalamityMod/Plague]减益
 		'''
 }
 
@@ -472,7 +476,7 @@ ReaverHeadTank: {
 		{$Common.AggroBoost}
 		受到持续性伤害减益时的生命恢复损失降低{0}%
 		降低{1}%移动速度和飞行时间
-		受伤时获得{2}秒[cbuff:CalamityMod/ReaverRage]增益
+		受伤时获得{2}秒[cbuffplr:CalamityMod/ReaverRage]增益
 		'''
 }
 

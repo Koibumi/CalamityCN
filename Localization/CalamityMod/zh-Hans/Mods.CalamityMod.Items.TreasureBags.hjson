@@ -105,7 +105,7 @@ RavagerBag: {
 }
 
 SignusBag: {
-	DisplayName: 宝藏袋（神之使徒，西格纳斯）
+	DisplayName: 宝藏袋（西格纳斯）
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 

@@ -10,7 +10,7 @@ AbyssShocker: {
 
 AcidGun: {
 	DisplayName: 酸液枪
-	Tooltip: 喷出三股酸液流
+	Tooltip: 喷出三股辐射酸液流
 }
 
 AetherfluxCannon: {
@@ -20,16 +20,12 @@ AetherfluxCannon: {
 
 AethersWhisper: {
 	DisplayName: 以太之低语
-	Tooltip:
-		'''
-		在击中物块时会分裂并造成长时的暗影焰减益
-		弹幕移动过程中伤害会逐渐增加
-		'''
+	Tooltip: 发射虚空光束，光束在移动过程中伤害会逐渐增加，击中物块时会分裂
 }
 
 AlulaAustralis: {
 	DisplayName: 南极光羽
-	Tooltip: 发射优美的极光，路径上会降下星辰并造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+	Tooltip: 发射优美的极光，路径上会降下星辰并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 AlphaDraconis: {
@@ -122,12 +118,12 @@ ArtAttack: {
 
 AstralachneaStaff: {
 	DisplayName: 星幻蛛法杖
-	Tooltip: 发射一排追踪星幻蛛毒牙
+	Tooltip: 发射一排追踪星幻蛛毒牙并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 AstralStaff: {
 	DisplayName: 幻星法杖
-	Tooltip: 召唤有着大爆炸范围的大水晶从天而降
+	Tooltip: 召唤有着大爆炸范围的大水晶从天而降并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 Atlantis: {
@@ -173,9 +169,9 @@ BurningSea: {
 	DisplayName: 蒸海硫火
 	Tooltip:
 		'''
-		产生一个在你附近悬浮的大型硫磺火球点燃敌怪
+		产生一个在你附近悬浮的大型火球点燃敌怪，造成[cbuff:CalamityMod/BrimstoneFlames]减益
 		按住火球太久会使它燃尽
-		这会用硫磺火点燃你并且需要经过一段很长的延迟才能再次发射
+		这会让[cbuffplr:CalamityMod/BrimstoneFlames]点燃你并且需要经过一段很长的延迟才能再次发射
 		'''
 }
 
@@ -183,7 +179,7 @@ ChronomancersScythe: {
 	DisplayName: 时空术士之镰
 	Tooltip:
 		'''
-		迅速发射冰锥
+		迅速发射冰锥，对敌怪造成[cbuff:CalamityMod/TimeDistortion]减益
 		按住右键环绕自身挥舞镰刀，释放一圈钟形排列的追踪冰锥
 		直接用镰刀击中敌人有概率生成一个时钟
 		接触时钟会提升移动速度与加速度，每个时钟提升5%
@@ -202,9 +198,10 @@ CoralSpout: {
 		'''
 		像霰弹枪一样发射珊瑚碎块
 		长按攻击键为此武器充能，同时减小散射范围
+		珊瑚碎块无视敌怪5点防御
 		充能完毕后的攻击会射出一块能附着在敌人身上一段时间的大型珊瑚碎块
 		拾取掉落的大珊瑚碎块时会回复150点魔力值
-		珊瑚碎块还会使你获得能够增加珊瑚泥伤害和充能速度的增益
+		珊瑚碎块还会使你获得[cbuffplr:CalamityMod/CoralSymbiosis]增益
 		[c/5C95A1:“知识至关重要，昔日海洋王国的许多书吏都知道应不惜一切将知识保存]
 		[c/5C95A1:因为使用了大量防水石板，他们的图书馆比绝大多数其它地方的图书馆要大得多。”]
 		'''
@@ -238,8 +235,7 @@ DeathValleyDuster: {
 	Tooltip:
 		'''
 		发射一道可以穿过敌怪和物块的附魔沙暴
-		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得风沙加护增益
-		[cbuff:CalamityMod/SandsWindBuff]增益会增加{0}点防御和{1}%伤害，并大幅提升魔力再生
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得[cbuffplr:CalamityMod/SandsWindBuff]增益
 		'''
 }
 
@@ -411,6 +407,7 @@ HeliumFlash: {
 	Tooltip:
 		'''
 		发射挥发性星核，随即引发巨大聚变爆炸
+		总是暴击，你的暴击率会增加暴击伤害
 		“于刹那之间瞥见星海浩瀚之威”
 		'''
 }
@@ -436,7 +433,7 @@ Heresy: {
 
 HyperdeathRiftScepter: {
 	DisplayName: 终灭裂隙权杖
-	Tooltip: 用[c/ff00ff:终灭裂隙撕裂光]将空间撕裂成两半
+	Tooltip: 用[ceffect/dog:终灭裂隙撕裂光]将空间撕裂成两半
 }
 
 HyphaeRod: {
@@ -511,7 +508,7 @@ MadAlchemistsCocktailGlove: {
 	Tooltip:
 		'''
 		以高速投掷具有多种效果的烧瓶
-		右键投掷会造成元素谐鸣的烧瓶
+		右键投掷会造成[cbuff:CalamityMod/ElementalMix]减益的烧瓶
 		红色烧瓶会爆炸
 		蓝色烧瓶爆裂成毒云
 		绿色烧瓶产生月炎射线
@@ -592,7 +589,11 @@ Omicron: {
 
 ParasiticSceptor: {
 	DisplayName: 寄生权杖
-	Tooltip: 发射一群会吸附在敌人身上的辐射性水蛭，每只水蛭造成的伤害随时间增加
+	Tooltip:
+		'''
+		发射一群会吸附在敌人身上的辐射性水蛭
+		每只水蛭会造成可叠加的持续性[cbuff:CalamityMod/Irradiated]减益
+		'''
 }
 
 PhantasmalFury: {
@@ -604,7 +605,7 @@ PhoenixFlameBarrage: {
 	DisplayName: 星火凤凰雨
 	Tooltip:
 		'''
-		召唤火幕从天而降
+		召唤[cbuff:CalamityMod/Dragonfire]火幕从天而降
 		“圣火洗礼”
 		'''
 }
@@ -616,7 +617,7 @@ Photosynthesis: {
 
 PlagueStaff: {
 	DisplayName: 瘟疫法杖
-	Tooltip: 发射4颗密集的瘟疫之牙
+	Tooltip: 发射4颗密集的毒牙，造成[cbuff:CalamityMod/Plague]减益
 }
 
 PlasmaRifle: {
@@ -634,7 +635,7 @@ PlasmaRod: {
 		'''
 		发射一束低伤等离子射线
 		击中物块时会分裂成伤害更高的几束射线
-		直接击中敌人时则会造成暗影焰减益
+		直接击中敌人时则会造成[cbuff:CalamityMod/Shadowflame]减益
 		'''
 }
 
@@ -648,8 +649,7 @@ PrimordialAncient: {
 	Tooltip:
 		'''
 		发射五道始源沙暴，一段时间后向你的光标汇聚并产生大爆炸
-		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得{$Buffs.AeolianEarthBuff.DisplayName}增益
-		{$Buffs.AeolianEarthBuff.DisplayName}增益会增加{0}%伤害减免和{1}%伤害，并大幅提升魔力再生
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得[cbuffplr:CalamityMod/AeolianEarthBuff]增益
 		'''
 }
 
@@ -658,8 +658,7 @@ PrimordialEarth: {
 	Tooltip:
 		'''
 		发射两道相互汇聚并爆炸的附魔沙暴
-		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得{$Buffs.SandsWindBuff.DisplayName}增益
-		{$Buffs.SandsWindBuff.DisplayName}增益会增加{0}点防御和{1}%伤害，并大幅提升魔力再生
+		满魔力值且没有魔力疾病减益时使用此法术书会使你和被它击中的任何玩家获得[cbuffplr:CalamityMod/SandsWindBuff]增益
 		'''
 }
 
@@ -698,7 +697,7 @@ RecitationoftheBeast: {
 	Tooltip:
 		'''
 		召唤环绕玩家的狂野之镰
-		随即将它们向光标处发射并追踪敌人
+		镰刀会向光标处发射并追踪附近敌人
 		'''
 }
 
@@ -727,7 +726,7 @@ SanguineFlare: {
 		'''
 		蓄力一团不断积蓄力量的猩红火焰
 		当命中敌怪时，火焰造成鲜血爆炸，并分裂出血珠
-		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
+		捡起这些血珠会减少[cbuffplr:PotionSickness]的持续时间
 		'''
 }
 
@@ -781,6 +780,7 @@ SHPC: {
 		{0}
 		<right>将这把武器用作集魂器，吸收游荡灵魂
 		一旦释放，灵魂激光将喷涌而出，激光数量与吸入灵魂的数量成正比
+		在物品栏中按住Shift<right>以弹出当前注入的灵魂
 		'''
 	// These are the soul effect descriptions, the number is the item ID of the soul
 	NoSoul: "[c/808080:武器中暂未注入任何灵魂]"
@@ -831,7 +831,7 @@ StaffofBlushie: {
 
 StarShower: {
 	DisplayName: 流星雨
-	Tooltip: 从天空中召唤数个幻星，向光标位置汇聚
+	Tooltip: 从天空中召唤数个幻星，向光标位置汇聚并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 SubsumingVortex: {
@@ -843,6 +843,7 @@ SubsumingVortex: {
 		当漩涡的附近有敌人时，漩涡会向敌人发射多个快速移动的小漩涡
 		经过足够时间后松开右键会将大漩涡向光标方向释放
 		伤害随手持漩涡时长的增加而增加
+		命中的敌怪会完全被[cbuff:CalamityMod/MiracleBlight]减益吞噬
 		'''
 }
 
@@ -859,7 +860,7 @@ TacticiansTrumpCard: {
 	DisplayName: 战术家的王牌
 	Tooltip:
 		'''
-		发射一道剑气，在击中敌人时对敌人进行电疗
+		发射一道造成[cbuff:Electrified]减益的剑气
 		“来自未来一位公主的记忆涌上你的心头……”
 		'''
 }
@@ -961,8 +962,8 @@ UnstableCastersGauntlet: {
 		'''
 		[c/DBD7CA:秩序]符咒总会造成暴击
 		[c/ABB6D4:混沌]符咒会无视敌怪25点防御
-		[c/E89B8E:火]之符咒会施加破晓减益
-		[c/8ECBE8:水]之符咒会施加深渊水压减益
+		[c/E89B8E:火]之符咒会施加[cbuff:CalamityMod/Daybroken]减益
+		[c/8ECBE8:水]之符咒会施加[cbuff:CalamityMod/CrushDepth]减益
 		[c/E1E88E:风]之符咒具有极强击退
 		[c/ACCF9F:地]之符咒会分裂成尖锐岩石
 		'''
@@ -989,7 +990,11 @@ Vehemence: {
 
 VenusianTrident: {
 	DisplayName: 金星三叉戟
-	Tooltip: 发射一团狱炎三叉戟，造成巨大爆炸并释放熔岩火焰碎片
+	Tooltip:
+		'''
+		发射一团狱炎三叉戟，造成巨大爆炸并释放熔岩火焰碎片
+		总是暴击，你的暴击率会增加暴击伤害
+		'''
 }
 
 Vesuvius: {
@@ -1007,7 +1012,7 @@ Viscera: {
 		'''
 		迅速发射一组穿透鲜血束
 		光束第一次命中敌怪时会爆出血珠
-		捡起这些血珠会减少[cbuff:PotionSickness]的持续时间
+		捡起这些血珠会减少[cbuffplr:PotionSickness]的持续时间
 		每组连续发射的鲜血束伤害会逐步提升
 		每组的最后一道鲜血束不再穿透，而是在命中敌怪时爆炸
 		'''
@@ -1027,8 +1032,8 @@ VividClarity: {
 	Tooltip:
 		'''
 		向光标位置发射五道随机的星流能量束
-		命中敌怪或击中物块时，能量束可能会爆炸成大型闪光
-		从天而降一道额外激光，或是分裂成能量球
+		命中敌怪或击中物块时可能会爆炸成大型闪光，从天而降一道额外激光或是分裂成能量球
+		命中的敌怪会被[cbuff:CalamityMod/MiracleBlight]减益液化
 		“它的威严激发了无与伦比的天才壮举”
 		'''
 }
@@ -1100,6 +1105,6 @@ YharimsCrystal: {
 	DisplayName: 亚利姆水晶
 	GFBName: 压力木水晶
 	Tooltip: "[GFB]"
-	TooltipNormal: 发射猛烈的破坏死光
+	TooltipNormal: 发射猛烈的破坏死光，造成[cbuff:CalamityMod/Dragonfire]减益
 	TooltipGFB: ……仍一跟累管
 }

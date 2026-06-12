@@ -46,8 +46,8 @@ UrsaSergeant: {
 	DisplayName: 大熊座雀鲷
 	Tooltip:
 		'''
-		用幻星之爪重击敌人
-		受到伤害会降低攻击冷却，但也会对你施加{$Buffs.AstralInfectionDebuff.DisplayName}
+		用幻星之爪重击敌人，造成[cbuff:CalamityMod/AstralInfectionDebuff]减益
+		受到伤害会降低攻击冷却，但也会对你施加[cbuff:CalamityMod/AstralInfectionDebuff]减益
 		击杀敌人也会降低攻击冷却
 		如果关闭饰品可见性，重击会变得透明且安静
 		'''
@@ -58,10 +58,8 @@ Bloodfin: {
 	DisplayName: 血鳍
 	Tooltip:
 		'''
-		提供大幅增加自然生命再生的增益并且+{0}HP/s生命再生
-		受到伤害性减益影响时生命再生会提升至+{1}HP/s
-		如果生命值低于{3}%此增益会每{2}秒直接回复生命值
-		{$CommonItemTooltip.SecondDuration@4}
+		获得一个每{0}秒恢复1点生命值的增益
+		{$CommonItemTooltip.SecondDuration@1}
 		“血管新生的奇迹”
 		'''
 }
@@ -267,9 +265,14 @@ Spadefish: {
 	DisplayName: 铲子鱼
 	Tooltip:
 		'''
+		向敌怪扔一条铲子鱼
+		潜伏攻击会让你在扔出前旋转铲子，伤害附近敌怪
+		[c/aaaaaa:在物品栏中按住Shift<right>来[TOGGLE]破坏物块的功能]
 		“鱼怎么能拿来掘地呢？
 		有些问题还是不要深究的好……”
 		'''
+	TextWhileEnabled: 禁用
+	TextWhileDisabled: 启用
 }
 
 StuffedFish: {
@@ -320,7 +323,7 @@ NavyFishingRod: {
 	DisplayName: 沉沦渊石钓竿
 	Tooltip:
 		'''
-		投放对附近敌怪施加静电逸散的浮标
+		投放对附近敌怪施加[cbuff:CalamityMod/StaticDischarge]减益的浮标
 		“大海是座城市。
 		就在我脚下，那是高速公路、林荫大道、大街小巷，海下的车辆行人熙熙攘攘。”
 		'''
@@ -330,7 +333,7 @@ RiftReeler: {
 	DisplayName: 岩缝取鱼者
 	Tooltip:
 		'''
-		一次性投放四根鱼线
+		一次性投放四根鱼线。浮标接触敌怪时会造成伤害
 		可以在熔岩中钓鱼
 		“战场永远是充满混乱的场所。
 		胜者必须是能够控制混乱之人，垂钓也是同样的道理。”
@@ -358,6 +361,16 @@ TheDevourerofCods: {
 		'''
 }
 
+TrustyOldRod: {
+	DisplayName: Trusty Old Rod
+	Tooltip: 允许你钓到极其……“奇异”的渔获
+	SalesPitch:
+		'''
+		'Me and Hoggart have worked together with the best fishermen in the world to bring you the most effective rod on the market!'
+		'With state-of-the-art technology, you can fish anything! Don't let a single creature elude your hook anymore!'
+		'''
+}
+
 VerstaltiteFishingRod: {
 	DisplayName: 寒元钓竿
 	Tooltip:
@@ -377,35 +390,27 @@ WulfrumRod: {
 }
 
 // Bait
+RageBait: {
+	DisplayName: Rage Bait
+	Tooltip:
+		'''
+		探测咬钩的鱼
+		极不可靠
+		'''
+	SalesPitch:
+		'''
+		'Do you want to know a secret? Fishing takes so long because the fish are dumb! They'll always swim right by your hook!'
+		'But with this bait right here? No longer! It'll make your hook the only thing they can think of. You'll be swimming in fishes in the blink of an eye!' 
+		'''
+}
+
 GrandMarquisBait: {
 	DisplayName: 尊爵鱼饵
 	Tooltip: ""
 }
 
 // Bobbers
-ScrapBobber: {
-	DisplayName: 钨钢浮标
-	Tooltip:
-		'''
-		提供钓鱼小游戏
-		钓鱼时按住指示方向的移动输入以捕获物品
-		你持续无误操作的时间越长，钓竿会增强，钓鱼速度加快
-		“本来应该安装了一个探鱼器，但那玩意只在你指着自己时哔哔叫……”
-		'''
-}
-
-NavystoneBobber: {
-	DisplayName: 沉沦渔坠
-	Tooltip:
-		'''
-		{$ItemTooltip.FishingBobber}
-		提供钓鱼小游戏
-		浮标会漂浮在与你等高的水下，允许你在水下钓鱼
-		钓鱼时朝指示方向移动以捕获物品
-		'''
-}
-
-SkylineBobber: {
+AcrobaticBobber: {
 	DisplayName: 杂技浮标
 	Tooltip:
 		'''
@@ -418,7 +423,7 @@ SkylineBobber: {
 		'''
 }
 
-PerennialBobber: {
+FeralBobber: {
 	DisplayName: 野性浮标
 	Tooltip:
 		'''
@@ -430,7 +435,18 @@ PerennialBobber: {
 		'''
 }
 
-ScoriaBobber: {
+SunkenSinker: {
+	DisplayName: 沉沦渔坠
+	Tooltip:
+		'''
+		{$ItemTooltip.FishingBobber}
+		提供钓鱼小游戏
+		浮标会漂浮在与你等高的水下，允许你在水下钓鱼
+		钓鱼时朝指示方向移动以捕获物品
+		'''
+}
+
+VolcanicSinker: {
 	DisplayName: 火山渔坠
 	Tooltip:
 		'''
@@ -440,5 +456,16 @@ ScoriaBobber: {
 		钓鱼时移动会移动浮标而不是玩家
 		裂缝会随时间在液体中出现，其中包含物品
 		浮标接触裂缝时会自动收取其内部的物品
+		'''
+}
+
+WulfrumBobber: {
+	DisplayName: 钨钢浮标
+	Tooltip:
+		'''
+		提供钓鱼小游戏
+		钓鱼时按住指示方向的移动输入以捕获物品
+		你持续无误操作的时间越长，钓竿会增强，钓鱼速度加快
+		“本来应该安装了一个探鱼器，但那玩意只在你指着自己时哔哔叫……”
 		'''
 }

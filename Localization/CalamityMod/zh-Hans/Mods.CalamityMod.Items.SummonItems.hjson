@@ -71,7 +71,7 @@ CosmicWorm: {
 		'''
 		召唤神明吞噬者
 		{$Common.NotConsumable}
-		“无名的巨蟒已经准备对你动手了。”
+		[ceffect/dog:“无名的巨蟒已经准备对你动手了。”]
 		'''
 }
 
@@ -177,7 +177,7 @@ MarkofProvidence: {
 		召唤无尽虚空
 		在地表消失
 		'''
-	SpawnSignus: 召唤神之使徒，西格纳斯
+	SpawnSignus: 召唤西格纳斯
 	SpawnWeaver: 召唤风暴编织者
 }
 
@@ -287,6 +287,16 @@ Terminus: {
 	DisplayName: 终末石
 	GFBName: 终末杖
 	Tooltip: 按住<left>开始或结束Boss Rush
+}
+
+TheHousingContract: {
+	DisplayName: The Housing Contract
+	Tooltip: 用于为城镇领养一只猪猪
+	SalesPitch:
+		'''
+		'Have you ever wanted to take care of a piggy? As part of our campaign to stop piggy abuse, you can get one here and now!'
+		'Just sign here and we'll deliver you one posthaste!'
+		'''
 }
 
 YharonEgg: {

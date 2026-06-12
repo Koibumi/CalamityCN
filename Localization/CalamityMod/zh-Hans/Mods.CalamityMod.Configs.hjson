@@ -208,6 +208,15 @@ CalamityClientConfig: {
 			'''
 	}
 
+	BoCSpriteChange: {
+		Label: "[i:BrainOfConfusion] 移除可能引人不适的图像"
+		Tooltip:
+			'''
+			替换一些Boss贴图以移除可能引人不适，让人触发恐惧症的图像。
+			如果你对身体恐怖不舒服或拥有密集恐惧症时强烈推荐开启。
+			'''
+	}
+
 	RageMeterPosX: {
 		Label: "[i:LaserRuler] 怒气条X轴坐标"
 		Tooltip:

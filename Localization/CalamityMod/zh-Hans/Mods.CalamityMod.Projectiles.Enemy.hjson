@@ -19,6 +19,14 @@ GammaAcid.DisplayName: 酸
 GammaBeam.DisplayName: 伽马射线
 GammaRayBurst.DisplayName: 伽马燃料光束
 // GhostBellShock.DisplayName: Electrical Field
+HorribleHogChargeHitbox.DisplayName: Horrible Hog
+HorribleHogRubble.DisplayName: Rubble
+HorribleHogShockwave.DisplayName: Sinister Swine Shockwave
+HorribleHogShockwaveSpawner.DisplayName: Horrible Hog Shockwave Spawner
+HorribleHogVomitBomb.DisplayName: Barf Bomb
+HorribleHogVomitChunk.DisplayName: Horrible Hog's Leftovers
+HorribleHogVomitEye.DisplayName: Regurgitated Demon Eye
+HorribleHogZombieSpawner.DisplayName: Horrible Hog Zombie Spawner
 HorsPoisonBlast.DisplayName: 剧毒唾液
 HorsWaterBlast.DisplayName: 水
 IceClasperEnemyProjectile.DisplayName: 冰块

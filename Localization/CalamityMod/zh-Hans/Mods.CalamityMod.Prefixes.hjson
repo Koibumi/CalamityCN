@@ -2,13 +2,16 @@ Accessory: {
 	Silent.DisplayName: 寂静
 	Invigorating.DisplayName: 焕生
 	Dauntless.DisplayName: 不屈
+	Friendly.DisplayName: 友善
 	// New modifier effects (this is only positive)
 	StealthGenTooltip: +{0}%潜行值恢复速度
 	LifeRegenTooltip: +{0}HP/s生命再生
 	MaxLifeBoostTooltip: +{0}最大生命
+	FriendlyTooltip: +{0}仆从
 }
 
 Weapon: {
+	Horrible.DisplayName: 恐怖
 	Atrocious.DisplayName: 糟糕
 	Blunt.DisplayName: 钝化
 	Feathered.DisplayName: 覆羽

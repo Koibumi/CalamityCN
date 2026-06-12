@@ -91,7 +91,7 @@ DesertProwlerPants: {
 	Tooltip:
 		'''
 		{$Common.RogueCrit}
-		免疫{$BuffName.WindPushed}
+		免疫[cbuffplr:WindPushed]减益
 		'''
 }
 

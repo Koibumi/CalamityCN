@@ -22,7 +22,7 @@ ExodusWings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		当你穿着皇天套装时，永久获得皇天之暴怒增益
+		当你穿着皇天套装时，永久获得[cbuffplr:CalamityMod/EmpyreanWrath]增益
 		随着异界之心的搏动而振翅
 		'''
 }

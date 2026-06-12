@@ -246,7 +246,7 @@ SandnadoMinion.DisplayName: 沙龙卷
 SandTornado.DisplayName: 沙龙卷
 SarosAura.DisplayName: 星律光环
 SarosSunfire.DisplayName: 星律阳炎
-SarosEclipseBeam.DisplayName: 星律蚀日光束
+SarosEclipseBeam.DisplayName: 集束射线
 SeashineSwordProj.DisplayName: 海耀剑刃
 SeekerSummonProj.DisplayName: 灵魂搜寻者
 SepulcherMinion.DisplayName: 灾坟魔物
@@ -317,9 +317,11 @@ VictideSeaSnail.DisplayName: 海蜗牛
 VileFeederProjectile.DisplayName: 迷你灵魂饮食者
 VileFeederSummon.DisplayName: 腐化吞噬者宝宝
 ViridVanguardBlade.DisplayName: 葱茏之锋
-VoidConcentrationAura.DisplayName: 虚空统御
-VoidConcentrationBlackhole.DisplayName: 黑洞
-VoidConcentrationOrb.DisplayName: 虚空
+VoidConcentrationSummonTagProj.DisplayName: 暗能量漩涡
+VoidConcentrationBeam.DisplayName: 浓缩光束
+VoidConcentrationDarkEnergy.DisplayName: 环绕暗能量
+VoidConcentrationMinion.DisplayName: 幽冥统御仆从
+VoidConcentrationMark.DisplayName: 幽冥统御标记
 VoidEaterMarionetteProjectile.DisplayName: 虚空吞噬者傀具
 VolcanicFireballSummon.DisplayName: 火山炎球
 WaterElementalMinion.DisplayName: 阿娜希塔

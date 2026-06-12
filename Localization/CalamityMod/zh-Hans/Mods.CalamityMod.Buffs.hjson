@@ -1,7 +1,16 @@
+// General (Player) and (Enemy) indicators for buff tags
+OnPlayer: （对玩家）
+OnEnemy: （对敌怪）
+
 // Alcohols (including Odd Mushroom)
 AlcoholPoisoning: {
 	DisplayName: 酒精中毒
 	Description: 你饮酒过量，代谢紊乱，气息奄奄
+}
+
+BaconOilBuff: {
+	DisplayName: Bacon Oil
+	Description: 哦，天哪，你把它洒的身上到处都是！
 }
 
 BloodyMaryBuff: {
@@ -41,7 +50,7 @@ FireballBuff: {
 
 GrapeBeerBuff: {
 	DisplayName: 葡萄啤酒
-	Description: 远程弹幕可以追踪，但暴击伤害降低
+	Description: 远程弹幕可以追踪，但对远距离敌怪的伤害降低
 }
 
 ManhattanBuff: {
@@ -72,6 +81,7 @@ OldFashionedBuff: {
 RedWineBuff: {
 	DisplayName: 红葡萄酒
 	Description: 垂直速度增加，但飞行时间降低
+	ItemTooltipPlayer: 使法棍治疗200点生命值，但会降低2HP/s生命再生，持续15秒
 }
 
 RumBuff: {
@@ -129,85 +139,104 @@ Withered: {
 AstralInfectionDebuff: {
 	DisplayName: 幻星感染
 	Description: 你的血肉正在被幻星熔蚀
-	ItemTooltip: 疾病系 - 37.5 DPS
+	ItemTooltipPlayer: 疾病系 - 12 DPS
+	ItemTooltipEnemy: 疾病系 - 37.5 DPS
 }
 
 AuricRebuke: {
 	DisplayName: 金源之斥
 	Description: 你的细胞正在猛烈地相互碰撞
-	ItemTooltip: 电系 - 100 DPS，对移动目标造成4倍伤害
+	ItemTooltipPlayer: 电系 - 8 DPS，对移动中的玩家造成5倍伤害
+	ItemTooltipEnemy: 电系 - 100 DPS，对移动中的目标造成4倍伤害
 }
 
 BanishingFire: {
 	DisplayName: 放逐之火
 	Description: 你的罪孽不会被宽赦
-	ItemTooltip: 火系 - 造成的伤害等同于最大生命值的0.1%或2000，取二者中更高的
+	ItemTooltipEnemy: 火系 - 造成的伤害等同于最大生命值的0.1%或2000，取二者中更高的
 }
 
 BrimstoneFlames: {
 	DisplayName: 硫磺火
 	Description: 焚烧身心
-	ItemTooltip: 火系 - 30 DPS
+	ItemTooltipPlayer: 火系 - 15 DPS
+	ItemTooltipEnemy: 火系 - 30 DPS
 }
 
 BurningBlood: {
 	DisplayName: 血液沸腾
 	Description: 你的血液沸腾了
-	ItemTooltip: 疾病系 - 20 DPS
+	ItemTooltipPlayer: 疾病系 - 4 DPS
+	ItemTooltipEnemy: 疾病系 - 20 DPS
 }
 
 BrainRot: {
 	DisplayName: 大脑溃烂
 	Description: 你的神经元像玉米粒一样爆裂
-	ItemTooltip: 疾病系 - 20 DPS
+	ItemTooltipPlayer: 疾病系 - 4 DPS
+	ItemTooltipEnemy: 疾病系 - 20 DPS
 }
 
 DemonicFlames: {
 	DisplayName: 恶魔之焰
 	Description: 献祭之火正在灼烧你的灵魂
-	ItemTooltip: 火系 - 造成的伤害取决于施加减益的物品
+	ItemTooltipEnemy: 火系 - 造成的伤害取决于施加减益的物品
 }
 
 ElementalMix: {
 	DisplayName: 元素谐鸣
 	Description: 美妙的元素交响乐正在活剥你
-	ItemTooltip: 无类型 - 200 DPS
+	ItemTooltipEnemy: 无类型 - 200 DPS
 }
 
 CrushDepth: {
 	DisplayName: 深渊水压
 	Description: 被深海水压粉碎
-	ItemTooltip: 水系 - 50 DPS
-}
-
-RiptideDebuff: {
-	DisplayName: 激流
-	Description: 被强力水浪鞭打
-	ItemTooltip: 水系 - 15 DPS
+	ItemTooltipPlayer:
+		'''
+		水系 - 9 DPS
+		增加在深渊中时的氧气消耗速度
+		'''
+	ItemTooltipEnemy: 水系 - 50 DPS
 }
 
 Dragonfire: {
 	DisplayName: 龙焰
 	Description: 被熊熊火焰吞没
-	ItemTooltip: 火系 - 480 DPS
+	ItemTooltipPlayer: 火系 - 25 DPS
+	ItemTooltipEnemy: 火系 - 480 DPS
 }
 
 GodSlayerInferno: {
 	DisplayName: 弑神怒焰
 	Description: 你的血肉在燃烧
-	ItemTooltip: 火系 - 250 DPS
+	ItemTooltipPlayer: 火系 - 20 DPS
+	ItemTooltipEnemy: 火系 - 250 DPS
+}
+
+HadopelagicPressure: {
+	DisplayName: 深渊重压
+	Description: 急速沉入深海之棺
+	ItemTooltipPlayer:
+		'''
+		水系 - 20 DPS
+		增加在深渊中时的氧气消耗速度
+		'''
+	ItemTooltipEnemy: 水系 - 175 DPS
 }
 
 HeavyBleeding: {
 	DisplayName: 重度出血
 	Description: 你需要缝针
-	ItemTooltip: 无类型 - 40 DPS
+	ItemTooltipPlayer: 无类型 - 8 DPS
+	ItemTooltipEnemy: 无类型 - 40 DPS
 }
 
 HolyFlames: {
 	DisplayName: 神圣之火
 	Description: 神圣之光将你焚化
-	ItemTooltip: 火系 - 150 DPS
+	ItemTooltipPlayer: 火系 - 20 DPS
+	ItemTooltipEnemy: 火系 - 150 DPS
 }
 
 HolyInferno: {
@@ -218,41 +247,52 @@ HolyInferno: {
 Laceration: {
 	DisplayName: 血管爆裂
 	Description: 你血流如注
-	ItemTooltip: 无类型 - 200 DPS
+	ItemTooltipPlayer: 无类型 - 18 DPS
+	ItemTooltipEnemy: 无类型 - 200 DPS
 }
 
 ManaBurn: {
 	DisplayName: 魔力烧蚀
 	Description: 过多的魔力正在烧蚀你的身心
-	ItemTooltip:
+	ItemTooltipEnemy:
 		'''
 		无类型
-		每100点负魔力会-4HP/s生命再生，并对敌怪造成已造成伤害的3%
+		每100点负魔力会降低4HP/s生命再生，并对敌怪造成已造成伤害的5%
 		'''
 }
 
 MiracleBlight: {
 	DisplayName: 超位崩解
 	Description: 星流共振撕碎了组成你身体的物质
-	ItemTooltip: 无类型 - 1500 DPS
+	ItemTooltipPlayer: 无类型 - 30 DPS
+	ItemTooltipEnemy: 无类型 - 1500 DPS
 }
 
 Nightwither: {
 	DisplayName: 夜魇
 	Description: 被月之射线瓦解
-	ItemTooltip: 冷系 - 100 DPS
+	ItemTooltipPlayer: 冷系 - 20 DPS
+	ItemTooltipEnemy: 冷系 - 100 DPS
 }
 
 Plague: {
 	DisplayName: 瘟疫
 	Description: 从内部腐烂
-	ItemTooltip: 疾病系 - 50 DPS
+	ItemTooltipPlayer: 疾病系 - 15 DPS
+	ItemTooltipEnemy: 疾病系 - 50 DPS
+}
+
+RiptideDebuff: {
+	DisplayName: 激流
+	Description: 被强力水浪鞭打
+	ItemTooltipPlayer: 水系 - 3 DPS
+	ItemTooltipEnemy: 水系 - 15 DPS
 }
 
 SagePoison: {
 	DisplayName: 鼠尾草中毒
 	Description: 中毒
-	ItemTooltip:
+	ItemTooltipEnemy:
 		'''
 		疾病系 - 每个鼠尾草之灵 25 DPS / 每把葱茏之锋 50 DPS
 		无视敌怪75%的疾病系弱性与抗性
@@ -262,7 +302,8 @@ SagePoison: {
 SearingLava: {
 	DisplayName: 硫焰灼烧
 	Description: 硫火岩浆烧灼着你的血肉
-	ItemTooltip:
+	ItemTooltipPlayer: 火系 - 15 DPS
+	ItemTooltipEnemy:
 		'''
 		火系 - 20 DPS
 		无视敌怪火系弱性与抗性
@@ -273,37 +314,46 @@ SearingLava: {
 ShellfishClaps: {
 	DisplayName: 贝壳痛咬
 	Description: 大快朵颐
+	ItemTooltipEnemy: 无类型 - 每只扇贝仆从 75 DPS
 }
 
 Shred: {
 	DisplayName: 解离
 	Description: 有人造了十把三尖匕首……
-	ItemTooltip: ""
+	ItemTooltipEnemy: ""
 }
 
 SnapClamDebuff: {
 	DisplayName: 扇贝轻夹
 	Description: 被扇贝夹住
+	ItemTooltipEnemy: 无类型 - 每只附着扇贝 7.5 DPS
 }
 
 StaticDischarge: {
 	DisplayName: 静电逸散
 	Description: 被静电冲击
-	ItemTooltip: 电系 - 2.5 DPS，对移动目标造成4倍伤害
+	ItemTooltipPlayer: 电系 - 1.5 DPS，对移动中的玩家造成4倍伤害
+	ItemTooltipEnemy: 电系 - 2.5 DPS，对移动中的目标造成4倍伤害
 }
 
 SulphuricPoisoning: {
 	DisplayName: 硫磺海剧毒
 	Description: 酸性海水正在烧灼你的血肉
-	ItemTooltip: 疾病系 - 120 DPS
+	ItemTooltipPlayer: 疾病系 - 3 DPS
+	ItemTooltipEnemy: 疾病系 - 175 DPS
 }
 
 TrueVulnerabilityHex: {
 	DisplayName: 真·孱弱巫咒
 	Description: 终末已至
-	ItemTooltip:
+	ItemTooltipPlayer:
 		'''
-		火系 - 1998 DPS
+		火系 - 25 DPS
+		受到所有来源的伤害增加
+		'''
+	ItemTooltipEnemy:
+		'''
+		火系 - 1332 DPS
 		受到所有来源的伤害增加
 		减速敌怪
 		'''
@@ -312,7 +362,7 @@ TrueVulnerabilityHex: {
 Vaporfied: {
 	DisplayName: 蒸汽波
 	Description: 蒸汽波是极美的
-	ItemTooltip:
+	ItemTooltipEnemy:
 		'''
 		无类型 - 15 DPS
 		减速敌怪
@@ -322,19 +372,26 @@ Vaporfied: {
 VermillionFlux: {
 	DisplayName: 赤羽流霆
 	Description: 猩红色的尖锐电弧贯穿了你的全身
-	ItemTooltip: 电系 - 50 DPS，对移动目标造成4倍伤害
+	ItemTooltipPlayer: 电系 - 5 DPS，对移动中的玩家造成5倍伤害
+	ItemTooltipEnemy: 电系 - 37.5 DPS，对移动中的目标造成4倍伤害
 }
 
 Voidfrost: {
 	DisplayName: 虚空霜蚀
 	Description: 太空的虚无吞噬了所有的温暖与生命
-	ItemTooltip: 冷系 - 200 DPS
+	ItemTooltipPlayer: 冷系 - 20 DPS
+	ItemTooltipEnemy: 冷系 - 250 DPS
 }
 
 VulnerabilityHex: {
 	DisplayName: 孱弱巫咒
 	Description: 你的精神毅力正在消散
-	ItemTooltip:
+	ItemTooltipPlayer:
+		'''
+		火系 - 15 DPS
+		降低防御和伤害减免
+		'''
+	ItemTooltipEnemy:
 		'''
 		火系 - 1332 DPS
 		减速敌怪
@@ -344,6 +401,22 @@ VulnerabilityHex: {
 WeakBrimstoneFlames: {
 	DisplayName: 较弱的硫磺火
 	Description: 使用至尊女巫的能力会使你受苦，但会让你的武器更强大
+}
+
+WindChilled: {
+	DisplayName: 风寒
+	Description: 最好穿件外套
+	ItemTooltipPlayer:
+		'''
+		冷系 - 2 DPS
+		降低移动速度
+		'''
+	ItemTooltipEnemy:
+		'''
+		冷系 - 6 DPS
+		如果敌怪受到水系减益，伤害乘1.5
+		增强水系减益
+		'''
 }
 
 // Mounts
@@ -432,6 +505,11 @@ BabyGhostBellBuff: {
 BearBuff: {
 	DisplayName: 小熊
 	Description: 守护天使正跟着你
+}
+
+BeldumBuff: {
+	DisplayName: 铁球
+	Description: 超亮的！
 }
 
 BloodBound: {
@@ -549,6 +627,11 @@ SparksBuff: {
 	Description: 这东西吃蝴蝶
 }
 
+StarSwallowerPetBuff: {
+	DisplayName: 噬星者
+	Description: 并不能吞噬星星
+}
+
 ThirdSageBuff: {
 	DisplayName: 第三贤者
 	Description: 额，这不可能是鬼
@@ -623,7 +706,7 @@ AstralInjectionBuff: {
 
 BaguetteBuff: {
 	DisplayName: 法棍
-	Description: 和红酒绝配
+	Description: 生命再生降低2HP/s
 }
 
 BloodfinBoost: {
@@ -680,6 +763,11 @@ SulphurskinBuff: {
 	Description: 硫海之水对你的影响效果降低
 }
 
+SwinesWrathBuff: {
+	DisplayName: Swine's Wrath
+	Description: 神圣精华正在拒绝你的身体
+}
+
 WeaponImbueBrimstone: {
 	DisplayName: 武器灌注：硫火
 	Description: 近战、鞭子和盗贼攻击会用硫磺火焰点燃敌人
@@ -713,7 +801,7 @@ AbsorberRegen: {
 		你被顶尖的自然力量所祝福
 		+{0}HP/s生命再生，{1}%伤害和{2}%伤害减免
 		'''
-	ItemTooltip: 增加生命再生，伤害和伤害减免
+	ItemTooltipPlayer: 增加生命再生，伤害和伤害减免
 }
 
 AbyssalDivingSuitBuff: {
@@ -738,6 +826,7 @@ AeolianEarthBuff: {
 		你被始源能量增强了
 		伤害减免增加{0}%，伤害增加{1}%，大幅提升魔力再生
 		'''
+	ItemTooltipPlayer: 增加8%伤害减免，15%伤害并大幅提升魔力再生
 }
 
 Afflicted: {
@@ -804,12 +893,13 @@ ChiRegenBuff: {
 CoralSymbiosis: {
 	DisplayName: 珊瑚共生
 	Description: 珊瑚泥充能加快，多造成{0}点伤害
+	ItemTooltipPlayer: 增加珊瑚泥的充能速度和伤害
 }
 
 CosmicFreeze: {
 	DisplayName: 宙宇冰封
 	Description: 寒气逼人，犹如身于宙域
-	ItemTooltip: 增加再生，尤其是在站立不动时，并冻结附近敌怪
+	ItemTooltipPlayer: 增加再生，尤其是在站立不动时，并冻结附近敌怪
 }
 
 DivineBless: {
@@ -820,6 +910,7 @@ DivineBless: {
 EmpyreanWrath: {
 	DisplayName: 皇天之暴怒
 	Description: 皇天之暴怒
+	ItemTooltipPlayer: 增加伤害和暴击率
 }
 
 Encased: {
@@ -865,7 +956,7 @@ IceShieldBuff: {
 Mushy: {
 	DisplayName: 与菇共生
 	Description: 增加{0}点防御和{1}HP/s生命再生
-	ItemTooltip: 增加防御和生命再生
+	ItemTooltipPlayer: 增加防御和生命再生
 }
 
 PhantomicEmpowerment: {
@@ -936,7 +1027,7 @@ ReaverRage: {
 		大地之怒
 		增加{0}点防御和{1}%伤害
 		'''
-	ItemTooltip: 增加防御和伤害
+	ItemTooltipPlayer: 增加10点防御和10%伤害
 }
 
 SandsWindBuff: {
@@ -946,6 +1037,7 @@ SandsWindBuff: {
 		你被沙之力量增强了
 		防御增加{0}点，伤害增加{1}%，大幅提升魔力再生
 		'''
+	ItemTooltipPlayer: 增加4点防御，12%伤害并大幅提升魔力再生
 }
 
 SilvaRevival: {
@@ -981,14 +1073,14 @@ TarragonImmunity: {
 TarraLifeRegen: {
 	DisplayName: 生命涌流
 	Description: 快速再生生命
-	ItemTooltip: ""
+	ItemTooltipPlayer: ""
 }
 
 // Stat debuffs
 AbsorberAffliction: {
 	DisplayName: 吸尽之痛
 	Description: 该死的大自然，你真可怕！
-	ItemTooltip: 疾病系 - 200 DPS
+	ItemTooltipEnemy: 疾病系 - 200 DPS
 }
 
 AndromedaCripple: {
@@ -999,13 +1091,25 @@ AndromedaCripple: {
 ArmorCrunch: {
 	DisplayName: 碎甲
 	Description: 你的护甲被撕裂了
-	ItemTooltip: 伤害减免降低15%
+	ItemTooltipPlayer: 降低防御和伤害减免
+	ItemTooltipEnemy: 伤害减免降低15%
+}
+
+Bane: {
+	DisplayName: Bane
+	Description: 远古诅咒笼罩着你
+	ItemTooltipEnemy:
+		'''
+		无类型 - 20 DPS
+		不受减益伤害乘数加成
+		受你的暴击率加成
+		'''
 }
 
 Crumbling: {
 	DisplayName: 粉碎
 	Description: 你的护甲损伤了
-	ItemTooltip: 伤害减免降低8%
+	ItemTooltipEnemy: 伤害减免降低8%
 }
 
 Clamity: {
@@ -1030,7 +1134,7 @@ Enraged: {
 Eutrophication: {
 	DisplayName: 富营养化
 	Description: 过多的营养物质拖慢了你的步伐
-	ItemTooltip: 减速敌怪
+	ItemTooltipEnemy: 减速敌怪
 }
 
 ExoFreeze: {
@@ -1051,19 +1155,7 @@ FrozenLungs: {
 GalvanicCorrosion: {
 	DisplayName: 电偶腐蚀
 	Description: 你的四肢正被腐蚀
-	ItemTooltip: 减速敌怪
-}
-
-GlacialState: {
-	DisplayName: 冰河时代
-	Description: 无法移动
-	ItemTooltip: 冻结敌怪
-}
-
-HadopelagicPressure: {
-	DisplayName: 深渊重压
-	Description: 急速沉入深海之棺
-	ItemTooltip: 水系 - 200 DPS
+	ItemTooltipEnemy: 减速敌怪
 }
 
 IcarusFolly: {
@@ -1078,7 +1170,12 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: 辐射
 	Description: 你的皮肤正被侵蚀
-	ItemTooltip:
+	ItemTooltipPlayer:
+		'''
+		无类型 - 2 DPS
+		降低防御和伤害减免
+		'''
+	ItemTooltipEnemy:
 		'''
 		无类型 - 10 DPS
 		增加受到疾病系减益的伤害
@@ -1087,13 +1184,14 @@ Irradiated: {
 
 MarkedforDeath: {
 	DisplayName: 死亡标记
-	Description: 伤害减免降低
-	ItemTooltip: 伤害减免降低50%
+	Description: 受到的伤害增加
+	ItemTooltipEnemy: 敌怪受到1.1倍伤害
 }
 
 PearlAura: {
 	DisplayName: 珍珠光环
 	Description: 减速
+	ItemTooltipEnemy: 减速敌怪
 }
 
 ProfanedWeakness: {
@@ -1104,13 +1202,13 @@ ProfanedWeakness: {
 TemporalSadness: {
 	DisplayName: 莫名的悲伤
 	Description: 蓝瘦香菇
-	ItemTooltip: 冻结敌怪
+	ItemTooltipEnemy: 减速敌怪
 }
 
 TimeDistortion: {
 	DisplayName: 时间扭曲
 	Description: 时间流逝减缓
-	ItemTooltip: 减速敌怪
+	ItemTooltipEnemy: 减速敌怪
 }
 
 Warped: {
@@ -1126,7 +1224,8 @@ WeakPetrification: {
 WhisperingDeath: {
 	DisplayName: 死亡低语
 	Description: 死亡临近；攻击力和生命再生降低
-	ItemTooltip: 降低接触伤害
+	ItemTooltipPlayer: 取消生命再生，降低伤害
+	ItemTooltipEnemy: 降低伤害
 }
 
 WitherDebuff: {
@@ -1136,6 +1235,7 @@ WitherDebuff: {
 		枯萎了……
 		防御降低{0}点
 		'''
+	ItemTooltipEnemy: 降低20点防御
 }
 
 // Summons
@@ -1282,11 +1382,6 @@ DankCreeperBuff: {
 DazzlingStabberBuff: {
 	DisplayName: 耀目穿刺者
 	Description: 时刻戒护
-}
-
-DemonshadeSetDevilBuff: {
-	DisplayName: 赤红恶魔
-	Description: 赤红恶魔会保护你
 }
 
 EnchantedKnifeStaffBuff: {
@@ -1505,9 +1600,9 @@ PuffWarriorBuff: {
 	Description: 它自信且兴奋地保护着你
 }
 
-RareSandElemental: {
-	DisplayName: 稀有沙元素
-	Description: 沙元素会治疗你
+OasisElementalBuff: {
+	DisplayName: 绿洲元素
+	Description: 绿洲元素会治疗你
 }
 
 ResurrectionButterflyBuff: {
@@ -1673,17 +1768,28 @@ PopoNoselessBuff: {
 
 Daybroken: {
 	DisplayName: 破晓
-	ItemTooltip: 火系 - 100 DPS
+	ItemTooltipPlayer: 火系 - 20 DPS
+	ItemTooltipEnemy: 火系 - 100 DPS
 }
 
 Shadowflame: {
 	DisplayName: 暗影焰
-	ItemTooltip: 火系 - 30 DPS
+	ItemTooltipPlayer: 火系 - 15 DPS
+	ItemTooltipEnemy: 火系 - 30 DPS
 }
 
 ForbiddenStealthSummonTagBuff: {
 	DisplayName: 禁戒潜伏召唤标记
 	Description: 如果你正看到这个，说明出现了严重的错误
+}
+
+Malnourished: {
+	DisplayName: Malnourished
+	Description:
+		'''
+		所有属性小幅降低
+		感觉你的肝脏变强了！
+		'''
 }
 
 SeaKingsAssurance: {
@@ -1694,4 +1800,25 @@ SeaKingsAssurance: {
 CnidarianSummonTagBuff: {
 	DisplayName: 水母钓竿标记
 	Description: 你不该看到这个
+}
+
+SmashedEvil: {
+	DisplayName: 粉碎邪恶
+	Description: 增加伤害，移动速度和生命再生
+	ItemTooltipEnemy:
+		'''
+		全类型 - 20 DPS
+		增加5点所受伤害
+		'''
+	ItemTooltipPlayer:
+		'''
+		再生恢复到满强度的速度增加200%
+		增加10%伤害
+		增加20%移动速度
+		'''
+}
+
+VoidConcentrationSummonTagBuff: {
+	DisplayName: 幽冥统御召唤标记增益
+	Description: 你永不该看到这个
 }

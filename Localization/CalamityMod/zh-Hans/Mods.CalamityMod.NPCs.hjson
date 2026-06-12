@@ -29,7 +29,7 @@ Shoreskipper.DisplayName: 滩涂鱼
 SlabCrab.DisplayName: 石板蟹
 ToxicMinnow.DisplayName: 剧毒米诺鱼
 Viperfish.DisplayName: 蝰蛇鱼
-WildBumblebirb.DisplayName: 野生癫痫鸟
+WildBumblebirb.DisplayName: 癫狂龙裔
 AcidEel.DisplayName: 酸水鳗
 BabyFlakCrab.DisplayName: 小高口蟹
 BloodwormNormal.DisplayName: 血蠕虫
@@ -172,6 +172,7 @@ CrawlerTopaz.DisplayName: 黄玉爬虫
 CrimulanBlightSlime.DisplayName: 血腥枯萎史莱姆
 Cryon.DisplayName: 冰人
 CryoSlime.DisplayName: 寒元史莱姆
+DivineSwine.DisplayName: Divine Swine
 EbonianBlightSlime.DisplayName: 黑檀枯萎史莱姆
 Eidolist.DisplayName: 幻妖灵巫
 FearlessGoldfishWarrior.DisplayName: 无畏金鱼战士
@@ -186,6 +187,7 @@ OverloadedSoldier.DisplayName: 过载装甲骷髅
 PerennialSlime.DisplayName: 永恒史莱姆
 PhantomSpirit.DisplayName: 幻影幽灵
 Piggy.DisplayName: 小猪猪
+PiggyGold.DisplayName: 金小猪猪
 PlanterasFreeTentacle.DisplayName: 世纪之花触手
 ProfanedEnergyBody.DisplayName: 亵渎能量
 Rimehound.DisplayName: 雾凇猎犬
@@ -196,7 +198,6 @@ Shroomble.DisplayName: 茸宝
 Stormlion.DisplayName: 风暴蚁狮
 Sunskater.DisplayName: 寻阳鱼
 SuperDummyNPC.DisplayName: 大草人
-WildBumblefuck.DisplayName: 癫狂龙裔
 WulfrumAmplifier.DisplayName: 钨钢增幅器
 WulfrumDrone.DisplayName: 钨钢无人机
 WulfrumGyrator.DisplayName: 钨钢回转器
@@ -247,7 +248,7 @@ RavagerBody.DisplayName: 毁灭魔像
 RockPillar.DisplayName: 石柱
 CosmicLantern.DisplayName: 无限灯笼
 CosmicMine.DisplayName: 星界雷
-Signus.DisplayName: 神之使徒，西格纳斯
+Signus.DisplayName: 西格纳斯
 CorruptSlimeSpawn.DisplayName: 腐化史莱姆
 CrimsonSlimeSpawn.DisplayName: 血腥史莱姆
 CrimulanPaladin.DisplayName: 血化圣卫
@@ -285,9 +286,9 @@ SupremeCataclysm.DisplayName: 至尊灾祸
 SupremeCatastrophe.DisplayName: 至尊灾难
 Yharon.DisplayName: 重生之龙，犽戎
 YharonPhase2: 璀璨华焰，犽戎
-// Town NPCs, Pets, etc
 AndroombaFriendly.DisplayName: 仙女座扫除机老友
 
+// Town NPCs, Pets, etc
 Archmage: {
 	DisplayName: 大法师
 	Census.SpawnCondition: 击败极地之灵
@@ -324,6 +325,9 @@ Archmage: {
 		DislikeNPC: 我不喜欢{NPCName}的公然漠视魔法，我没有指责他的意思，但他非常愚昧。
 		LikeNPC_Princess: "{NPCName}会一些非常古老的咒语，尤其她这年纪的人让我印象深刻。"
 		Princess_LovesNPC: "{NPCName}做的冰淇淋是我尝过的最好吃的冰淇淋，太赞了！"
+		Monument: What a hideous statue! I always advocated for artistic community projects, but this... you really should have better quality control over what gets into your town!
+		GiftPositive: '''"How culture shaped magic" by Medomaion of Stratia?! I thought this book was lost centuries ago! How did you find it, and how did you...?! Well, no matter! This is the perfect gift, thank you!'''
+		GiftNegative: Could you please explain what your last gift was? You made an attempt on my life by trying to freeze me!? You better have a good explanation about how a snowstorm made its way inside that box!
 	}
 }
 
@@ -404,6 +408,9 @@ Bandit: {
 		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
 		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
 		Princess_LovesNPC: "{NPCName}送给我的东西，其他人好像也有一模一样的，我想知道这是怎么做到的！"
+		Monument: Yo, if your pockets ever feel lighter, that's not me, alright? You brought this on yourself buddy.
+		GiftPositive: Heeeey, my man! How's it goin'? I really 'preciate your gift, I have no idea how you got your hands on that kind of lockpicker's kit, but you'd catch me dead before I asked any questions!
+		GiftNegative: Hey man, what the hell is up with that gift?! I'm the most wanted in seven different city-states, do you got any idea how much a warrant on my name messes up my work?! You better do something to clean that mess before they have me walking to the gallows!
 	}
 }
 
@@ -447,6 +454,9 @@ BrimstoneWitch: {
 		DislikeNPC: 太吵了！ {NPCName} 只会每天制造噪音！我受不了她！
 		LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。"
 		Princess_LovesNPC: "{NPCName}总是很孤独，这就是我想和她一起玩的原因，谁都不该那样孤单！"
+		Monument: That monument is ugly as sin.
+		GiftPositive: Hey, uh... thanks for the gift, really. I never thought you'd ever give me anything, for obvious reasons. But... thanks, really. It's lovely.
+		GiftNegative: What the hell was that gift? You know what, I don't even want to think about it. Screw you.
 	}
 }
 
@@ -486,7 +496,7 @@ SeaKing: {
 		DoGDefeated3: 吞噬者的身上确实存在很多谜团，有的人说它甚至根本就不是来自这个世界。我们只知道，他是一个可以完全吞噬神明精元，不留下任何东西的存在。难怪亚利姆会招募那个怪物。
 		PolterghastDefeated1: 深渊中潜藏的诸多秘密，随着时间流逝而逐渐浮现出来。再去探索一次，也许会有新收获。
 		PolterghastDefeated2: 啊……我感觉到天气强烈变化。你不妨趁着雨天再去硫磺海看看会发生什么。
-		ProvidenceDefeated1: 宇宙符文散发着亵渎天神核心能量，掩盖了其他物品的光芒。在某些地方激活它会……造成危险的后果。
+		ProvidenceDefeated1: 普罗维登斯神印散发着她的核心能量，掩盖了其他物品的光芒。在某些地方激活它会……造成危险的后果。
 		ProvidenceDefeated2: 我真的很好奇布瑞耶尔和斯塔提斯身上到底发生了什么，最近我很少了解到关于他们的消息。在我的时代，这两位对敬仰神明的人们而言都是伟大的英雄。他们是被杀了？抓住了？还是只是纯粹躲起来了呢？
 		MoonLordDefeated1: 看来你在丛林的探险比较频繁。考虑到痴愚金龙和它有如虫潮的后代在丛林肆意发展，你最好在它们数量失控前将它们尽数消灭。
 		MoonLordDefeated2: 亵渎生物潜伏在神圣之地和地狱里。如果你将它们的精华聚集起来，就能引起亵渎守卫的注意。
@@ -530,5 +540,71 @@ SeaKing: {
 		HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！"
 		LikeNPC_Princess: "{NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。"
 		Princess_LovesNPC: 当我在{NPCName}附近的时候，他总是报以微笑，为此我喜欢待在他身边！
+		Monument: Take that horrible statue out of my sight! It is a disgrace to art, and to so unabashedly extort your people...! I expected much more of you.
+		GiftPositive: It was quite the delight to see that you gifted me custom-made shoes. Few people seem to realize that "walking" tends to leave my tail quite sore. Thank you, sincerely!
+		GiftNegative: A dead fish?! You gifted me a dead fish?! You managed to cross every line with that "gift"! Leave, I don't want to see you any longer.
 	}
 }
+
+ShadySalesman: {
+	DisplayName: Shady Salesman
+	Census.SpawnCondition: 击败Horrible Hog
+
+	Chat: {
+		Normal1: Have you ever wondered why coins are shiny? Simple! It's to match my partner's dazzling products!
+		Normal2: Have you ever had a dream? If you have the cash, I can sell you several!
+		Normal3: Whatever you are thinking, I have the perfect thing for you, at a genuinely excessive discount!
+		Normal4: Is your life rapidly shrinking? Want to know this world's marvels before your time comes? Are the local merchants only showing you worthless hogwash?! Worry not, Hoggart and I have just the solution! Hogwash sold separately.
+		Normal5: There's a saying that goes "the grass is greener on the other side." It's absolute balderdash!! For 5 platinum coins, you can buy our Greener Paint and make your life the greenest!
+		Normal6: They say keeping an Angel Statue nearby is more dangerous than a loaded gun. That's why I own multiple guns - in case some hooligan tries to sell me an Angel Statue!
+		TownPigPresent1: You're searching for the lil' Piggy? Don't worry, chum! Hoggart and I gave it a Camo-Projector 2000 so it could disappear into the night. This way, not a single rotbrain will lay their nasty half-fingers on it, huehe!
+		TownPigPresent2: Rumors are runnin' around that I'm inexplicably two Pigg'ins stacked on top of each other. What shameless slander! Don't they know that, if that were true, I'd charge twice the price? Hahaha!
+		TownPigPresent3: You better take real good care of that piglet. Your sight gotta be good for something other than eyeballing my discounts! Otherwise, who knows what will happen to the swine stock market...
+		TownPigPresent4: Where the Piggy went? Could've sworn I saw it chasing down a four-legged carrot. Now's your chance to chase Fortune and Glory, pal, by buying these MARVELOUS wares!
+		Rain: People always say "rain, rain, go away! Come back another day!", but everyone knows it would be better if it came back never! To solve this, I intend to invest in Hoggart's Dome Program, we just need 500 platinum coins to get it off the ground!
+		WindyDay: Aren't you tired of your house being blown away by any shoddy gust of wind? Well, I have the solution to your problem! With my state-of-the-art industrial super glue (for only 5 gold coins a pack), you too may survive the attack of invaders with outstanding lung capacity!
+		Desert: Exhausted from this oven-like heat? Yearning for something to help you cool down? Check out our revolutionary new product: water! It comes in all flavors of flavorless! Any bottle shape is available, from round to triangular! Feel the chill of molten ice as it enters your guts! It even has healing properties! Sip our free sample for the low price of 50 gold!
+		Tundra: Did you ever hear the tragedy of Kevin Bacon the Wise? I thought not, It's not a story the Elumphants would tell you. Kevin Bacon was a Ham Lord of the Hogs, so powerful and so wise he could use his Hogtusk to influence metal to create gold... Unfortunately, he taught his apprentice everything he knew, then his apprentice out-cashed and deposed him. Ironic. He could save others from debt, but not himself.
+		Graveyard: Does that zombie look like a happy customer? No!! It's full of maggots!! It has no life savings!! While you still do, hurry up and spend yours on a funky edition, happiness-smelling Maggot Repellent!
+		BloodMoon1: These shambling deadheads are the worst! How am I supposed to rip people off when they're all either dead, broke or fighting for their lives?!
+		BloodMoon2: Like my partner always says, price makes the prize! Hire our Moon Doom Cannon, and enjoy a whole year without the meatsack invasion! Fund the construction of the Eclipse variant and get a deluxe model with a neat robotic decal! All for 5000 platinum coins!
+		BloodMoon3: Violence is at every corner tonight, huh? Remember these words, buddy: make deals, not war!
+		Hardmode: Those pesky merchants still want to sell you full-price, low quality copper tools?! Bird droppings!! Barter with me, and you'll receive Palladium at HOG-WILD prizes!
+		MoonLordDefeated: I've been told this land is ruled by three gnomes in a suit of armor. That's impossible! Gnomes are the most deplorable customers I've dealt with. They can't handle a spoon without snapping it in half!! It's always the halflings...
+	}
+}
+
+TownPiggy: {
+	DisplayName: 城镇猪猪
+	Census.SpawnCondition: 使用The Housing Contract
+
+	Name: {
+		Oolong: Oolong
+		Napoleon: Napoleon
+		Waddles: Waddles
+		Crenando: Crenando
+		Olivia: Olivia
+		Wilbur: Wilbur
+		Pumbaa: Pumbaa
+		Peppa: Peppa
+		Conan: Conan
+		Reuben: Reuben
+		Porky: Porky
+		Hamm: Hamm
+		Runt: Runt
+		Roko: Roko
+		RichardHam: Richard Ham
+		Curly: Curly
+		Techno: Techno
+		JohnPork: John Pork
+		Piglet: Piglet
+	}
+
+	Chat: {
+		0: Oink!
+		1: Squeal...
+		2: Snort!
+	}
+}
+
+HorribleHog.DisplayName: Horrible Hog

@@ -143,11 +143,6 @@ ExoPrism: {
 	Tooltip: 分形能量在其表面闪烁
 }
 
-GalacticaSingularity: {
-	DisplayName: 星系异石
-	Tooltip: 广阔宇宙的结晶
-}
-
 GrandScale: {
 	DisplayName: 大狂鲨鳞
 	Tooltip: 顶级捕食者的巨大鳞片
@@ -175,12 +170,7 @@ Lumenyl: {
 
 MeldBlob: {
 	DisplayName: 冥思溶剂
-	Tooltip: ""
-}
-
-MeldConstruct: {
-	DisplayName: 冥思构造体
-	Tooltip: ""
+	Tooltip: “扭曲记忆的尖啸在此物质中回荡”
 }
 
 MiracleMatter: {

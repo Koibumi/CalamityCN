@@ -11,6 +11,8 @@ NoArmorSetBonusKey: 按下套装奖励键
 ArmorSetBonusKey: 按下{0}
 DoubleTapDown: 双击{0}
 // Miscellaneous stats/info
+MinionSlotCost: 使用{0}个仆从栏位
+MinionSlotCostSingle: 使用{0}个仆从栏位
 AggroBoost: 敌人更有可能以你为目标
 AggroReduction: 敌人不太可能以你为目标
 KnockbackImmunity: 免疫击退
@@ -22,6 +24,12 @@ AbyssBreathLevel2: 适当缓解深渊造成的呼吸困难
 AbyssBreathLevel3: 大大缓解深渊造成的呼吸困难
 AlcoholWarning: 饮用三种以上的酒或许对你的肝脏不太好
 ArmorPenetration: 无视敌怪{0}点防御
+SalesmanShrinePitch:
+	'''
+	'You know that neat treasure you found when I was definitely not following you?'
+	'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+	'''
+AverageDamageInfo: 此武器受所有伤害属性的平均值加成
 CanMineUelibloom: 可开采龙蒿矿
 NotConsumable: 不消耗
 SummonTagDamageFlat: "{0}召唤标记伤害"
@@ -47,19 +55,30 @@ GrappleStats:
 	回收速度：{2}
 	牵引速度：{3}
 	'''
+StatsAwful: 糟糕
+StatsPoor: 差
+StatsAverage: 普通
+StatsGood: 好
+StatsGreat: 很好
+StatsExcellent: 优异
 WingStats:
 	'''
 	飞行时间：{0}秒
-	最高水平速度：{1}mph
-	最高垂直速度：{2}mph
+	最高水平速度：{1}
+	最高垂直速度：{2}
+	水平加速度：{3}
+	垂直加速度：{4}
 	'''
-WingStatsAcceleration:
+WingStatsFull:
 	'''
-	水平加速度：每秒{0}mph
-	垂直加速度：
-	每秒{1}mph
-	当上升速度低于{3}mph时：每秒{2}mph
-	在下降期间重新上升时：每秒{4}mph
+	飞行时间：{0}秒
+	最高水平速度：{1}（{2}mph）
+	最高垂直速度：{3}（{4}mph）
+	水平加速度：{5}（{6}mph/秒）
+	垂直加速度：{7}
+	- {8}mph/秒
+	- 当上升速度低于{10}mph时{9}mph/秒
+	- 在下降期间重新上升时{11}mph/秒
 	'''
 WingStatsHover:
 	'''
