@@ -176,7 +176,7 @@ RottingEyeball: {
 }
 
 StarSwallowerUnit: {
-	DisplayName: 噬星者控制元件
+	DisplayName: 四脚吞星兽控制器
 	Tooltip: 召唤一只生物力学青蛙
 }
 

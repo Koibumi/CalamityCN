@@ -336,6 +336,6 @@ LegendaryShortTooltip:
 	'''
 
 DisgustingSlop: {
-	DisplayName: Disgusting Slop
+	DisplayName: 劣质泔水
 	Tooltip: 可被提炼
 }

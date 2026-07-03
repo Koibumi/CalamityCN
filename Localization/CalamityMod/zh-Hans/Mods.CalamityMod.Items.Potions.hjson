@@ -159,7 +159,7 @@ SupremeManaPotion: {
 }
 
 TheConcoction: {
-	DisplayName: The Concoction
+	DisplayName: 绝命合剂
 	EasterEggText: 扣除9999生命值
 	Tooltip:
 		'''
@@ -168,8 +168,8 @@ TheConcoction: {
 		'''
 	SalesPitch:
 		'''
-		'Aren't you tired of how unreliable your healing potions are? What if you're in the middle of a zombie horde and sick to the core of those things?!'
-		'With my concoction, you won't have to worry about that! Just a sip of this bad boy and you'll be good as new, ready to take on the world!'
+		“难道你不对治疗药水如此不靠谱而感到厌倦吗？要是你正被一大群僵尸围住，还对那些东西深恶痛绝呢？！”
+		“有了我的合剂，你就不用担心这个了！只需抿一小口这好东西，你就会完好如初，准备好征服世界！”
 		'''
 }
 
@@ -184,7 +184,7 @@ ZergPotion: {
 }
 
 BaconOil: {
-	DisplayName: Bacon Oil
+	DisplayName: 培根油
 	Tooltip:
 		'''
 		根据你的伤害属性加成提供“不错”的移动力
@@ -195,12 +195,12 @@ BaconOil: {
 		'''
 		根据你的伤害属性加成提供“不错”的移动力
 		在{$Buffs.AlcoholPoisoning.DisplayName}效果中被视为三种酒
-		如果也同时直接饮用了Bacon Oil，移动力会变得更怪异
+		如果也同时直接饮用了培根油，移动力会变得更怪异
 		'''
 	SalesPitch:
 		'''
-		'Monks go on and on about forgoing attachment. I don't think this is what they meant. It's better!'
-		'Don't mind the accident disclaimer: get yourself some of this slippery fat oil, and not a bit of this world will be able to hold you down!'
+		“僧侣们成天念叨着要放下执念。我寻思他们指的不是这个。这玩意儿更好！”
+		“别在乎什么免责声明：给自己整点儿这种滑溜溜的肥油，这世上就没东西能困住你了！”
 		'''
 }
 
@@ -510,7 +510,7 @@ TequilaSunrise: {
 }
 
 TheElixir: {
-	DisplayName: The Elixir
+	DisplayName: 灵疸妙药
 	Tooltip:
 		'''
 		可作为返回药水使用
@@ -518,8 +518,8 @@ TheElixir: {
 		'''
 	SalesPitch:
 		'''
-		'Return potions are nifty and all, but they taste like bogus! But with my special formula, it'll magically taste like your favorite food!'
-		'Besides, you ain't finding them for much cheaper around these parts. Trust me, you're practically stealing me!'
+		“返回药水好用是好用，但喝起来一股假货味儿！不过用上我的特殊配方，它就会魔法般地尝起来像你最爱的美食！”
+		“而且，在这地方你可找不到便宜这么多的。相信我，你简直是在打劫我！”
 		'''
 }
 
@@ -608,7 +608,7 @@ Mangosteen: {
 }
 
 QualitySlop: {
-	DisplayName: Quality Slop
+	DisplayName: 优质泔水
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MajorStats}
@@ -631,7 +631,7 @@ ShroomBowl: {
 }
 
 TheSandwich: {
-	DisplayName: The Sandwich
+	DisplayName: 三冥治
 	Tooltip:
 		'''
 		用这片大陆上最好的面包，奶酪和鱼制作的三明治！
@@ -643,7 +643,7 @@ TheSandwich: {
 		'''
 	SalesPitch:
 		'''
-		'...You want to buy my lunch?'
-		'Well, no matter! But it won't be cheap! This sandwich is made with the best the market can offer, so ready your wallet!'
+		“……你想买我的午餐？”
+		“罢了，无所谓！但这可不便宜！这三明治用的是市面上最好的材料，所以准备好你的钱包吧！”
 		'''
 }

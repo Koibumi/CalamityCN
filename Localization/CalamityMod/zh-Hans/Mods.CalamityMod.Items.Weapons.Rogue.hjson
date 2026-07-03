@@ -1407,7 +1407,7 @@ Pumpkaboom: {
 }
 
 LemonNade: {
-	DisplayName: Lemon 'nade
+	DisplayName: 爆汁柠檬雷
 	Tooltip:
 		'''
 		禁用常规的潜行值恢复

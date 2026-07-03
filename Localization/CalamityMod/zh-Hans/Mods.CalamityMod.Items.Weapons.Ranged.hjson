@@ -525,7 +525,7 @@ GoldenEagle: {
 
 Goobow: {
 	DisplayName: 凝胶弓
-	Tooltip: 额外发射两束凝胶
+	Tooltip: 额外发射两束伤害性凝胶
 }
 
 GunkShot: {
@@ -853,7 +853,7 @@ Onyxia: {
 }
 
 OmniGun: {
-	DisplayName: The Omnigun
+	DisplayName: 交变万能枪
 	Tooltip:
 		'''
 		一把依次使用其多种模式的多用途武器
@@ -864,8 +864,8 @@ OmniGun: {
 		'''
 	SalesPitch:
 		'''
-		'Why carry four different guns when you can carry just one? That's what I used to ask myself!'
-		'With this thing-a-beauty, even a bumbling moron can become invincible - and for the right price, it can be yours!'
+		“既然能只带一把枪，干嘛要带四把不同的？我以前总这么问自己！”
+		“有了这小美人儿，连笨手笨脚的蠢蛋都能变得所向披靡——而且只要价格合适，它就是你的了！”
 		'''
 }
 

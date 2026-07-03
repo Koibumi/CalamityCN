@@ -172,7 +172,7 @@ CrawlerTopaz.DisplayName: 黄玉爬虫
 CrimulanBlightSlime.DisplayName: 血腥枯萎史莱姆
 Cryon.DisplayName: 冰人
 CryoSlime.DisplayName: 寒元史莱姆
-DivineSwine.DisplayName: Divine Swine
+DivineSwine.DisplayName: 天灵猪猪
 EbonianBlightSlime.DisplayName: 黑檀枯萎史莱姆
 Eidolist.DisplayName: 幻妖灵巫
 FearlessGoldfishWarrior.DisplayName: 无畏金鱼战士
@@ -187,7 +187,7 @@ OverloadedSoldier.DisplayName: 过载装甲骷髅
 PerennialSlime.DisplayName: 永恒史莱姆
 PhantomSpirit.DisplayName: 幻影幽灵
 Piggy.DisplayName: 小猪猪
-PiggyGold.DisplayName: 金小猪猪
+PiggyGold.DisplayName: 金猪猪
 PlanterasFreeTentacle.DisplayName: 世纪之花触手
 ProfanedEnergyBody.DisplayName: 亵渎能量
 Rimehound.DisplayName: 雾凇猎犬
@@ -321,13 +321,13 @@ Archmage: {
 		LikeBiome: 这儿的温度让我能保存魔力，因为我的作品不会在严寒中融化。
 		DislikeBiome: 这儿的太阳太毒辣啦！请立刻让我搬到别处去！
 		HateBiome: 这里太邪恶了，不适合我！
-		LikeNPC: "{NPCName} 学识渊博，还是个很受尊敬的法师。"
+		LikeNPC: "{NPCName}学识渊博，还是个很受尊敬的法师。"
 		DislikeNPC: 我不喜欢{NPCName}的公然漠视魔法，我没有指责他的意思，但他非常愚昧。
 		LikeNPC_Princess: "{NPCName}会一些非常古老的咒语，尤其她这年纪的人让我印象深刻。"
 		Princess_LovesNPC: "{NPCName}做的冰淇淋是我尝过的最好吃的冰淇淋，太赞了！"
-		Monument: What a hideous statue! I always advocated for artistic community projects, but this... you really should have better quality control over what gets into your town!
-		GiftPositive: '''"How culture shaped magic" by Medomaion of Stratia?! I thought this book was lost centuries ago! How did you find it, and how did you...?! Well, no matter! This is the perfect gift, thank you!'''
-		GiftNegative: Could you please explain what your last gift was? You made an attempt on my life by trying to freeze me!? You better have a good explanation about how a snowstorm made its way inside that box!
+		Monument: 多么令人讨厌的雕像啊！我一直提倡艺术性社区项目，但这玩意……你真的应该对进入你镇子里的东西进行更好的质量控制！
+		GiftPositive: '''Medomaion of Stratia所著的《文化如何塑造魔法》？！我以为这本书几个世纪前就丢了！你是怎么找到的，又怎么……？！算了，没关系！这是最完美的礼物，谢谢！'''
+		GiftNegative: 你能解释下刚才的礼物是啥玩意吗？你企图冰冻我，取我性命！？你最好好好解释为什么从那个盒子中可以产生一场暴风雪！
 	}
 }
 
@@ -372,8 +372,8 @@ Bandit: {
 		Night2: 你觉得时不时从天上掉下来的那些落星会不会是很好的投掷武器？
 		BrimstoneWitch: 嘿，嘿，灾厄真的搬进来和我们一起住了吗？为什么？为什么？？？
 		Merchant: 别告诉{0}我把他的一些货物换成天使雕像了。
-		NurseArmsDealer: 别告诉{0}其实{0}身上那么多伤口我也有责任。
-		NamedLaura: 别告诉[护士的名字]其实[军火商的名字]身上那么多伤口我也有责任。
+		NurseArmsDealer: 别告诉{0}其实{1}身上那么多伤口我也有责任。
+		NamedLaura: 地图最棒的一点是，如果天上有什么东西掉下来能够第一时间找到。
 		NamedPenelope: 想象一下，要是多几只手那得能扔的多快啊！
 		NamedValerie: 你没钱的话，给点吃的也行。
 		NamedRowan: 通常来说动物只是食物或者活靶子，但龙是个例外。
@@ -404,13 +404,13 @@ Bandit: {
 		LikeBiome: 我知道许多富商会穿过沙漠，这是个偷他们东西的好地方。
 		DislikeBiome: 太沉闷、潮湿了。这种环境下我会行动迟缓，差劲。
 		HateBiome: 这里没人住，为什么要住这里？！这里简直是个垃圾场！
-		LikeNPC: "{NPCName} 的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
-		DislikeNPC: "{NPCName} 真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
-		LikeNPC_Princess: 我不忍心从 {NPCName} 那里偷任何东西，她太可爱了！
+		LikeNPC: "{NPCName}的口袋里不仅有刺球还有一大笔钱，但他心不在焉都没注意到被我偷了，笑死我了。"
+		DislikeNPC: "{NPCName}真是个伪君子！我不喜欢她是出于原则！……也因为她几乎没有任何物质财富。"
+		LikeNPC_Princess: 我不忍心从{NPCName}那里偷任何东西，她太可爱了！
 		Princess_LovesNPC: "{NPCName}送给我的东西，其他人好像也有一模一样的，我想知道这是怎么做到的！"
-		Monument: Yo, if your pockets ever feel lighter, that's not me, alright? You brought this on yourself buddy.
-		GiftPositive: Heeeey, my man! How's it goin'? I really 'preciate your gift, I have no idea how you got your hands on that kind of lockpicker's kit, but you'd catch me dead before I asked any questions!
-		GiftNegative: Hey man, what the hell is up with that gift?! I'm the most wanted in seven different city-states, do you got any idea how much a warrant on my name messes up my work?! You better do something to clean that mess before they have me walking to the gallows!
+		Monument: 哟，如果你觉得你的口袋变轻了，那可不是我的原因，好吗？这是你自找的，伙计。
+		GiftPositive: 嘿，哥们！近况如何？我真的很感激你的礼物，我不知道你怎么搞到那种开锁工具的，但打死我也不多问一句！
+		GiftNegative: 嘿，哥们，你那礼物咋回事？！我可是七个不同城邦的头号通缉犯，你知道通缉令上挂着我的名字会把我的活儿搞得一团糟吗？！你最好在他们把我挂上绞刑架前把这烂摊子收拾干净！
 	}
 }
 
@@ -450,13 +450,13 @@ BrimstoneWitch: {
 		LikeBiome: 我以前从来没有机会住在这样的地方。有树木和鸟鸣……我很喜欢。
 		DislikeBiome: 这是一个残酷的笑话？我无法忍受在这里待着，我已经试着赎罪了。
 		HateBiome: 这里的灵魂不安宁，这种感觉真的不好。
-		LikeNPC: "{NPCName} 是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。"
-		DislikeNPC: 太吵了！ {NPCName} 只会每天制造噪音！我受不了她！
-		LikeNPC_Princess: "{NPCName} 是个异常的讨人喜欢的孩子。"
+		LikeNPC: "{NPCName}是个经历过可怕诅咒的人，他忍受了下来，令人印象深刻。"
+		DislikeNPC: 太吵了！ {NPCName}只会每天制造噪音！我受不了她！
+		LikeNPC_Princess: "{NPCName}是个异常的讨人喜欢的孩子。"
 		Princess_LovesNPC: "{NPCName}总是很孤独，这就是我想和她一起玩的原因，谁都不该那样孤单！"
-		Monument: That monument is ugly as sin.
-		GiftPositive: Hey, uh... thanks for the gift, really. I never thought you'd ever give me anything, for obvious reasons. But... thanks, really. It's lovely.
-		GiftNegative: What the hell was that gift? You know what, I don't even want to think about it. Screw you.
+		Monument: 那座纪念碑跟罪恶一样丑陋。
+		GiftPositive: 嘿，呃……真心感谢你的礼物。我从没想过你会给我任何东西，原因显而易见。但……真的谢谢。它很可爱。
+		GiftNegative: 我去，那礼物是啥玩意？算了吧，我都不想提。去你的。
 	}
 }
 
@@ -535,48 +535,48 @@ SeaKing: {
 		LikeBiome: 靠近大海，苦乐参半。但我还是忍不住喜欢它。
 		DislikeBiome: 阳光太刺眼了，我不喜欢这里的干旱气候。
 		HateBiome: 这就不是能住的地方，快放我走！
-		LikeNPC: "{NPCName} 的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！"
+		LikeNPC: "{NPCName}的行为方式对我来说太粗鲁了，但他对海洋的热爱我十分欣赏！"
 		DislikeNPC: 我这一生已经受够了屠杀，{NPCName}没有意识到他的破坏倾向。
-		HateNPC: "{NPCName} 只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！"
+		HateNPC: "{NPCName}只是个孩子，但他对海洋生物的态度是无法容忍的，绝对无法容忍！"
 		LikeNPC_Princess: "{NPCName}公主。多么天真无邪，希望恐怖的战争永远不会降临到她身上。"
 		Princess_LovesNPC: 当我在{NPCName}附近的时候，他总是报以微笑，为此我喜欢待在他身边！
-		Monument: Take that horrible statue out of my sight! It is a disgrace to art, and to so unabashedly extort your people...! I expected much more of you.
-		GiftPositive: It was quite the delight to see that you gifted me custom-made shoes. Few people seem to realize that "walking" tends to leave my tail quite sore. Thank you, sincerely!
-		GiftNegative: A dead fish?! You gifted me a dead fish?! You managed to cross every line with that "gift"! Leave, I don't want to see you any longer.
+		Monument: 把那座骇人的雕像从我的视线中移走！它玷污了艺术，还肆无忌惮地勒索你的子民……！我还是高看你了。
+		GiftPositive: 你送我一双特制的鞋真是让我感到欣喜不已。很少有人意识到“行走”会让我的尾巴很疼。衷心感谢！
+		GiftNegative: 一条死鱼？！你居然送我一条死鱼？！你的“礼物”真是要突破所有底线！滚，我不想再看到你了。
 	}
 }
 
 ShadySalesman: {
-	DisplayName: Shady Salesman
-	Census.SpawnCondition: 击败Horrible Hog
+	DisplayName: 可疑猪贩
+	Census.SpawnCondition: 击败骇人猪猪
 
 	Chat: {
-		Normal1: Have you ever wondered why coins are shiny? Simple! It's to match my partner's dazzling products!
-		Normal2: Have you ever had a dream? If you have the cash, I can sell you several!
-		Normal3: Whatever you are thinking, I have the perfect thing for you, at a genuinely excessive discount!
-		Normal4: Is your life rapidly shrinking? Want to know this world's marvels before your time comes? Are the local merchants only showing you worthless hogwash?! Worry not, Hoggart and I have just the solution! Hogwash sold separately.
-		Normal5: There's a saying that goes "the grass is greener on the other side." It's absolute balderdash!! For 5 platinum coins, you can buy our Greener Paint and make your life the greenest!
-		Normal6: They say keeping an Angel Statue nearby is more dangerous than a loaded gun. That's why I own multiple guns - in case some hooligan tries to sell me an Angel Statue!
-		TownPigPresent1: You're searching for the lil' Piggy? Don't worry, chum! Hoggart and I gave it a Camo-Projector 2000 so it could disappear into the night. This way, not a single rotbrain will lay their nasty half-fingers on it, huehe!
-		TownPigPresent2: Rumors are runnin' around that I'm inexplicably two Pigg'ins stacked on top of each other. What shameless slander! Don't they know that, if that were true, I'd charge twice the price? Hahaha!
-		TownPigPresent3: You better take real good care of that piglet. Your sight gotta be good for something other than eyeballing my discounts! Otherwise, who knows what will happen to the swine stock market...
-		TownPigPresent4: Where the Piggy went? Could've sworn I saw it chasing down a four-legged carrot. Now's your chance to chase Fortune and Glory, pal, by buying these MARVELOUS wares!
-		Rain: People always say "rain, rain, go away! Come back another day!", but everyone knows it would be better if it came back never! To solve this, I intend to invest in Hoggart's Dome Program, we just need 500 platinum coins to get it off the ground!
-		WindyDay: Aren't you tired of your house being blown away by any shoddy gust of wind? Well, I have the solution to your problem! With my state-of-the-art industrial super glue (for only 5 gold coins a pack), you too may survive the attack of invaders with outstanding lung capacity!
-		Desert: Exhausted from this oven-like heat? Yearning for something to help you cool down? Check out our revolutionary new product: water! It comes in all flavors of flavorless! Any bottle shape is available, from round to triangular! Feel the chill of molten ice as it enters your guts! It even has healing properties! Sip our free sample for the low price of 50 gold!
-		Tundra: Did you ever hear the tragedy of Kevin Bacon the Wise? I thought not, It's not a story the Elumphants would tell you. Kevin Bacon was a Ham Lord of the Hogs, so powerful and so wise he could use his Hogtusk to influence metal to create gold... Unfortunately, he taught his apprentice everything he knew, then his apprentice out-cashed and deposed him. Ironic. He could save others from debt, but not himself.
-		Graveyard: Does that zombie look like a happy customer? No!! It's full of maggots!! It has no life savings!! While you still do, hurry up and spend yours on a funky edition, happiness-smelling Maggot Repellent!
-		BloodMoon1: These shambling deadheads are the worst! How am I supposed to rip people off when they're all either dead, broke or fighting for their lives?!
-		BloodMoon2: Like my partner always says, price makes the prize! Hire our Moon Doom Cannon, and enjoy a whole year without the meatsack invasion! Fund the construction of the Eclipse variant and get a deluxe model with a neat robotic decal! All for 5000 platinum coins!
-		BloodMoon3: Violence is at every corner tonight, huh? Remember these words, buddy: make deals, not war!
-		Hardmode: Those pesky merchants still want to sell you full-price, low quality copper tools?! Bird droppings!! Barter with me, and you'll receive Palladium at HOG-WILD prizes!
-		MoonLordDefeated: I've been told this land is ruled by three gnomes in a suit of armor. That's impossible! Gnomes are the most deplorable customers I've dealt with. They can't handle a spoon without snapping it in half!! It's always the halflings...
+		Normal1: 你有没有想过为什么钱币闪闪发亮？很简单！是为了和我合伙人那炫目的产品相配！
+		Normal2: 你有过梦想吗？如果你有现金，我可以卖给你好几个！
+		Normal3: 不管你在想什么，我都有完美的东西给你，而且折扣高得离谱，童叟无欺！
+		Normal4: 时光飞逝，人生苦短？想在入土前见识见识这世界的奇观吗？本地那些商贩是不是净拿些一文不值的废话糊弄你？！别发愁，我和Hoggart正好有招！废话需另购。
+		Normal5: 俗话说“别人家的草总是更绿”。这纯属胡说八道！！只要5枚铂金币，买下我们的“更绿漆”，让你的日子变成最绿的那一片！
+		Normal6: 他们说身边放个天使雕像比上好膛的枪还危险。所以我备了好几把枪——以防哪个流氓想卖给我天使雕像！
+		TownPigPresent1: 你在找那只小猪？别担心，伙计！Hoggart和我给它配了个“迷彩投影仪2000”，这样它就能消失在夜色里了。这么一来，没一个蠢脑瓜能用他们那肮脏的半根手指碰它，嘿嘿！
+		TownPigPresent2: 谣言四起，莫名其妙地说我是两只猪叠在一起。真是无耻的诽谤！他们难道不知道，要是真的，我会收双倍的钱吗？哈哈哈！
+		TownPigPresent3: 你最好好好照顾那只小猪。你的眼睛除了盯着我的折扣，总得有点别的用处！不然，谁知道猪猪股市会发生什么……
+		TownPigPresent4: 小猪去哪儿了？我发誓我看见它追着一根四条腿的胡萝卜跑了。现在你的机会来了，朋友，追逐财富与荣耀，只需买下这些绝妙的商品！
+		Rain: 人们总是说“雨儿，雨儿，快走开！改天再来吧！”，但谁都知道它永远不回来才更好！为了解决这个，我打算投资Hoggart的‘穹顶计划’，我们只需要500个铂金币作为启动资金！
+		WindyDay: 你难道不为自己的房子被任何一阵破风刮走而感到厌倦吗？好吧，我有解决你问题的办法！用上我最尖端的工业超强力胶水（每包只需5金币），你也能抵御那些肺活量惊人的入侵者的攻击！
+		Desert: 被烤箱般的高温热得筋疲力尽了？渴望能帮你凉快下来的东西吗？看看我们革命性的新产品：水！它有各种无味的口味！任何瓶装形状任选，从圆形到三角形！感受融冰般的寒意涌入你的肚肠！它甚至有治疗功效！只需50金币低价，就能品尝我们的免费样品！
+		Tundra: 你听说过智者凯文·培根的悲剧吗？我想没有，毕竟这不是冰川象们会告诉你的故事。凯文·培根是猪群的一位火腿领主，他法力无边，智慧超群，他能用他的猪牙改造金属来凭空炼出真金……不幸的是，他把自己的毕生所学都教给了徒弟，结果他的徒弟不仅赚得比他多，还罢黜并取代了他。真是讽刺啊。他能拯救别人于债务之中，却救不了自己。
+		Graveyard: 那个僵尸看起来像个高兴的顾客吗？不！！它满身是蛆！！它没有毕生的积蓄！！趁你还有，快把你那份花在一款时髦又散发幸福气味的驱蛆剂上吧！
+		BloodMoon1: 这些蹒跚的死脑筋最讨厌了！当人们不是死了、破产了就是在拼命时，我还怎么敲他们一笔？！
+		BloodMoon2: 正如我合伙人常说的，一分钱一分货！租一门我们的‘月劫巨炮’，享受整一年不受这些肉块入侵的安宁！要是资助日食型号的建造，还能额外获得一款带有精美机器人贴画的豪华版！上述全部仅需5000铂金币！
+		BloodMoon3: 今晚暴力无处不在，对吧？记住这句话，哥们：要交易，不要交战！
+		Hardmode: 那些讨厌的商人还想按原价卖给你低质量的铜制工具？！和鸟屎一样！！跟我交易，你就能以疯狂猪猪价获得钯金！
+		MoonLordDefeated: 有人告诉我这片土地由三个穿着盔甲的侏儒统治。这不可能！侏儒是我打交道的顾客中最可悲的那一类。他们甚至连勺子都不会用，只会把它掰成两半！！总是这些小矮子……
 	}
 }
 
 TownPiggy: {
 	DisplayName: 城镇猪猪
-	Census.SpawnCondition: 使用The Housing Contract
+	Census.SpawnCondition: 使用猪猪许可证
 
 	Name: {
 		Oolong: Oolong
@@ -601,10 +601,10 @@ TownPiggy: {
 	}
 
 	Chat: {
-		0: Oink!
-		1: Squeal...
-		2: Snort!
+		0: 哼！
+		1: （尖叫）……
+		2: （鼻息声）！
 	}
 }
 
-HorribleHog.DisplayName: Horrible Hog
+HorribleHog.DisplayName: 骇人猪猪

@@ -220,7 +220,7 @@ BloodflareHeadMelee: {
 }
 
 BloodflareHeadRanged: {
-	DisplayName: Bloodflare Demon Helm
+	DisplayName: 血弑魔颅盔
 	Tooltip:
 		'''
 		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}

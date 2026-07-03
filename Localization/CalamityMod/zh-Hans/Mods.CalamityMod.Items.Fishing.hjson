@@ -362,12 +362,12 @@ TheDevourerofCods: {
 }
 
 TrustyOldRod: {
-	DisplayName: Trusty Old Rod
+	DisplayName: 老伙计钓竿
 	Tooltip: 允许你钓到极其……“奇异”的渔获
 	SalesPitch:
 		'''
-		'Me and Hoggart have worked together with the best fishermen in the world to bring you the most effective rod on the market!'
-		'With state-of-the-art technology, you can fish anything! Don't let a single creature elude your hook anymore!'
+		“我和Hoggart与世上最棒的渔夫携手合作，为你带来了市面上最高效的钓竿！”
+		“凭借我们的尖端科技，你什么都能钓上来！再也别让任何生物躲过你的鱼钩！”
 		'''
 }
 
@@ -391,7 +391,7 @@ WulfrumRod: {
 
 // Bait
 RageBait: {
-	DisplayName: Rage Bait
+	DisplayName: 红温诱饵
 	Tooltip:
 		'''
 		探测咬钩的鱼
@@ -399,8 +399,8 @@ RageBait: {
 		'''
 	SalesPitch:
 		'''
-		'Do you want to know a secret? Fishing takes so long because the fish are dumb! They'll always swim right by your hook!'
-		'But with this bait right here? No longer! It'll make your hook the only thing they can think of. You'll be swimming in fishes in the blink of an eye!' 
+		“想知道个秘密吗？钓鱼之所以费时，是因为鱼儿们都是些蠢蛋！它们总在你的鱼钩旁边游！”
+		“但有了这鱼饵？那就不会了！它会让你的鱼钩成为它们脑中唯一的念头。眨眼间你就会被鱼群包围！” 
 		'''
 }
 

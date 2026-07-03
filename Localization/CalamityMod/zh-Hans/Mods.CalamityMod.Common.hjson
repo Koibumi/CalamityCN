@@ -26,8 +26,8 @@ AlcoholWarning: 饮用三种以上的酒或许对你的肝脏不太好
 ArmorPenetration: 无视敌怪{0}点防御
 SalesmanShrinePitch:
 	'''
-	'You know that neat treasure you found when I was definitely not following you?'
-	'Turns out there was a whole pile of those trinkets, stashed conveniently close to the treasure chest! Finders keepers - or perhaps you wanna seal a deal?'
+	“你还记得我肯定没跟踪你时你找到的那个漂亮宝藏吗？”
+	“事实证明有一大堆那玩意儿，就方便地藏在宝箱旁边！先到先得——或者，你想做个交易？”
 	'''
 AverageDamageInfo: 此武器受所有伤害属性的平均值加成
 CanMineUelibloom: 可开采龙蒿矿

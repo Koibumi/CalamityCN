@@ -9,7 +9,7 @@ AlcoholPoisoning: {
 }
 
 BaconOilBuff: {
-	DisplayName: Bacon Oil
+	DisplayName: 培根油
 	Description: 哦，天哪，你把它洒的身上到处都是！
 }
 
@@ -628,7 +628,7 @@ SparksBuff: {
 }
 
 StarSwallowerPetBuff: {
-	DisplayName: 噬星者
+	DisplayName: 四脚吞星兽
 	Description: 并不能吞噬星星
 }
 
@@ -764,7 +764,7 @@ SulphurskinBuff: {
 }
 
 SwinesWrathBuff: {
-	DisplayName: Swine's Wrath
+	DisplayName: 猪猪之怒
 	Description: 神圣精华正在拒绝你的身体
 }
 
@@ -1096,7 +1096,7 @@ ArmorCrunch: {
 }
 
 Bane: {
-	DisplayName: Bane
+	DisplayName: 祸乱
 	Description: 远古诅咒笼罩着你
 	ItemTooltipEnemy:
 		'''
@@ -1784,7 +1784,7 @@ ForbiddenStealthSummonTagBuff: {
 }
 
 Malnourished: {
-	DisplayName: Malnourished
+	DisplayName: 吃得坏
 	Description:
 		'''
 		所有属性小幅降低
@@ -1803,7 +1803,7 @@ CnidarianSummonTagBuff: {
 }
 
 SmashedEvil: {
-	DisplayName: 粉碎邪恶
+	DisplayName: 惩恶
 	Description: 增加伤害，移动速度和生命再生
 	ItemTooltipEnemy:
 		'''

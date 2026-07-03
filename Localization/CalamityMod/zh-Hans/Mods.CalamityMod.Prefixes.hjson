@@ -11,7 +11,7 @@ Accessory: {
 }
 
 Weapon: {
-	Horrible.DisplayName: 恐怖
+	Horrible.DisplayName: 骇人
 	Atrocious.DisplayName: 糟糕
 	Blunt.DisplayName: 钝化
 	Feathered.DisplayName: 覆羽

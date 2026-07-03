@@ -782,7 +782,7 @@ GloomTorch: {
 }
 
 GluttonyBlender: {
-	DisplayName: Gluttony Blender
+	DisplayName: 暴食搅拌器
 	Tooltip:
 		'''
 		一台奇怪的工业装置，似乎可以加工食物
@@ -790,8 +790,8 @@ GluttonyBlender: {
 		'''
 	SalesPitch:
 		'''
-		'A state of the art machine, created by my partner Hoggart! You can put anything in it, and it'll make a nutritious delicacy for you to snack on!'
-		'I myself can attest for its quality, I use it to make my breakfast, lunch and dinner!'
+		“一个蕴含着尖端科技的机器，由我的合伙人Hoggart创造！你把任何东西放进去，它都能给你做成营养美味的小吃！”
+		“我自己就能为它的质量保证，我的一日三餐全靠它！”
 		'''
 }
 
@@ -912,7 +912,7 @@ PiggyCage: {
 }
 
 PiggyCageGold: {
-	DisplayName: 金小猪猪笼
+	DisplayName: 金猪猪笼
 	Tooltip: ""
 }
 
@@ -974,7 +974,7 @@ ThaumaticChair: {
 }
 
 TheMonument: {
-	DisplayName: The Monument
+	DisplayName: 丰碑
 	Tooltip:
 		'''
 		纪念资本主义成就的丰碑
@@ -982,8 +982,8 @@ TheMonument: {
 		'''
 	SalesPitch:
 		'''
-		'Don't you think your town is a bit too boring? Don't you wish you could get more money out of your troubles? Well, I've got you the perfect two-in-one deal!'
-		'This statue I made myself is so marvelous that it'll singlehandedly raise the price of housing around here! Just sit back, and enjoy the sight and the money!'
+		“你不觉得你的小镇有点太无聊了吗？你不希望从麻烦中多赚点钱吗？好吧，我为你准备了完美的二合一方案！”
+		“这座我亲手制作的雕像是如此神奇，单凭它就能把周围的房价拉高！你只需坐享其成，欣赏风景，等着收钱就行！”
 		'''
 }
 
@@ -4694,16 +4694,16 @@ MossyStone: {
 }
 
 GreedPot: {
-	DisplayName: Urn of Avarice
+	DisplayName: 强欲之瓮
 	Tooltip: 将你的财宝献入瓮中，你的贪婪终会得到满足
 	SalesPitch:
 		'''
-		'Say, you use all kinds of ores for your stuff, but finding precious minerals isn't easy, is it? Well, I got the solution for you!'
-		'Just throw any ore you got in this urn and they'll turn into even rarer ones! No more looking for tungsten for hours on end!'
+		“你看，你做东西要用各种矿石，但找珍贵的矿物可不容易，对吧？嗯，我有个解决方案给你！”
+		“只管把你手头的任何矿石扔进这个瓮里，它们就会变成更稀有的矿石！再也无需花上数小时去找钨矿了！”
 		'''
 }
 
-HorribleHogBanner.DisplayName: Horrible Hog Banner
+HorribleHogBanner.DisplayName: 骇人猪猪旗
 
 EutrophicSandWall: {
 	DisplayName: 危险富营养沙墙

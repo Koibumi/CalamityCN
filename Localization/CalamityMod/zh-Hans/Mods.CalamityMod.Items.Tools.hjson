@@ -14,7 +14,7 @@ AerialHamaxe: {
 }
 
 AggressiveVoucher: {
-	DisplayName: Aggressive Voucher
+	DisplayName: 强袭重铸券
 	Tooltip:
 		'''
 		在物品栏中收藏此物品以增加获得理想修饰语的可能
@@ -25,8 +25,8 @@ AggressiveVoucher: {
 		'''
 	SalesPitch:
 		'''
-		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
-		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		“那边那个哥布林，对。你知道他只是在骗你的钱吗？不过别担心，我和Hoggart有个解决方案！”
+		“只需要把这东西给他，然后看着他像有神圣的灵感附体般地给你敲打装备！出来的东西就会跟新的一样！”
 		'''
 }
 
@@ -159,7 +159,7 @@ BrokenWaterFilter: {
 }
 
 CombatVoucher: {
-	DisplayName: Combat Voucher
+	DisplayName: 好斗重铸券
 	Tooltip:
 		'''
 		在物品栏中收藏此物品以增加获得理想修饰语的可能
@@ -167,8 +167,8 @@ CombatVoucher: {
 		'''
 	SalesPitch:
 		'''
-		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
-		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		“那边那个哥布林，对。你知道他只是在骗你的钱吗？不过别担心，我和Hoggart有个解决方案！”
+		“只需要把这东西给他，然后看着他像有神圣的灵感附体般地给你敲打装备！出来的东西就会跟新的一样！”
 		'''
 }
 
@@ -237,7 +237,7 @@ GreatbayPickaxe: {
 }
 
 HurriedVoucher: {
-	DisplayName: Hurried Voucher
+	DisplayName: 急迫重铸券
 	Tooltip:
 		'''
 		在物品栏中收藏此物品以增加获得理想修饰语的可能
@@ -248,8 +248,8 @@ HurriedVoucher: {
 		'''
 	SalesPitch:
 		'''
-		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
-		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		“那边那个哥布林，对。你知道他只是在骗你的钱吗？不过别担心，我和Hoggart有个解决方案！”
+		“只需要把这东西给他，然后看着他像有神圣的灵感附体般地给你敲打装备！出来的东西就会跟新的一样！”
 		'''
 }
 
@@ -317,7 +317,7 @@ NormalityRelocator: {
 }
 
 OddVoucher: {
-	DisplayName: Odd Voucher
+	DisplayName: 奇异重铸券
 	Tooltip:
 		'''
 		在物品栏中收藏此物品以增加获得理想修饰语的可能
@@ -328,8 +328,8 @@ OddVoucher: {
 		'''
 	SalesPitch:
 		'''
-		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
-		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		“那边那个哥布林，对。你知道他只是在骗你的钱吗？不过别担心，我和Hoggart有个解决方案！”
+		“只需要把这东西给他，然后看着他像有神圣的灵感附体般地给你敲打装备！出来的东西就会跟新的一样！”
 		'''
 }
 
@@ -426,7 +426,7 @@ TectonicTruncator: {
 }
 
 TheGift: {
-	DisplayName: The Gift
+	DisplayName: 魔猪的礼物
 	Tooltip:
 		'''
 		把这份精美的礼物送给你的一个城镇NPC以示感谢
@@ -435,8 +435,8 @@ TheGift: {
 		'''
 	SalesPitch:
 		'''
-		'Buying gifts for people is hard, and you gotta make sure your people are happy, so how about we kill two birds with one stone?'
-		'Hand this nifty box to someone and it'll suddenly contain the perfect gift for the person you handed it to!' 
+		“给人挑礼物很难，你还得确保收礼物的人开心，所以我们为何不一石二鸟呢？”
+		“把这个精巧的盒子递给别人，它就会突然装着最完美的礼物！”
 		'''
 }
 
@@ -451,7 +451,7 @@ TorrentialTear: {
 }
 
 UnbreakableVoucher: {
-	DisplayName: Unbreakable Voucher
+	DisplayName: 永固重铸券
 	Tooltip:
 		'''
 		在物品栏中收藏此物品以增加获得理想修饰语的可能
@@ -462,8 +462,8 @@ UnbreakableVoucher: {
 		'''
 	SalesPitch:
 		'''
-		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
-		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		“那边那个哥布林，对。你知道他只是在骗你的钱吗？不过别担心，我和Hoggart有个解决方案！”
+		“只需要把这东西给他，然后看着他像有神圣的灵感附体般地给你敲打装备！出来的东西就会跟新的一样！”
 		'''
 }
 

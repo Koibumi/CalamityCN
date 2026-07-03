@@ -1,5 +1,5 @@
 Abaddon: {
-	DisplayName: 魔鬼之庇护
+	DisplayName: 亚巴顿
 	Tooltip:
 		'''
 		暴击时用[cbuff:CalamityMod/Bane]减益诅咒敌怪，减益伤害受你的暴击率加成
@@ -157,7 +157,7 @@ AngelTreads: {
 }
 
 Apollyon: {
-	DisplayName: Apollyon
+	DisplayName: 亚玻伦
 	Tooltip:
 		'''
 		暴击时用[cbuff:CalamityMod/Bane]减益诅咒敌怪，减益伤害受你的暴击率大幅加成
@@ -253,7 +253,7 @@ AsgardsValor: {
 }
 
 FadedIdolatry: {
-	DisplayName: Faded Idolatry
+	DisplayName: 圣魂归寂
 	Tooltip:
 		'''
 		召唤[i:CalamityMod/YharonsKindleStaff]炽焰天龙所需的仆从栏位减1
@@ -594,7 +594,7 @@ DiamondOfTheDeep: {
 }
 
 CrushingEgo: {
-	DisplayName: Crushing Ego
+	DisplayName: 噬宇之傲
 	Tooltip:
 		'''
 		所有伤害乘1.3，代价是所受伤害增加20%
@@ -664,7 +664,7 @@ EclipseMirror: {
 }
 
 FragmentsOfAnotherWorld: {
-	DisplayName: Fragments of Another World
+	DisplayName: 异世裂片
 	Tooltip:
 		'''
 		免疫[cbuffplr:CalamityMod/WhisperingDeath]减益
@@ -785,12 +785,12 @@ FilthyGlove: {
 }
 
 FishStocks: {
-	DisplayName: Fish Stocks
+	DisplayName: 钓鱼大盘
 	Tooltip:
 		'''
-		调取一张鱼类资源图
-		将鱼类资源的状态作为乘数来提供属性
-		未装备时，效果仅会在资源数量相同或更高时取消
+		调取一张鱼类股票图
+		将鱼类股票的状态作为乘数来提供属性
+		未装备时，效果仅会在股票数量相同或更高时取消
 		'''
 	HoldShiftTooltip:
 		'''
@@ -808,8 +808,8 @@ FishStocks: {
 		'''
 	SalesPitch:
 		'''
-		'Fishing is hard, but you know what's easy? Economy! With this little gadget made by my partner Hoggart, you can make the process just as easy!'
-		'Pull the line when it's up, don't when it's down! It's as simple as that!'
+		“钓鱼很难，但你知道什么容易吗？经济！用我合伙人Hoggart做的这个小玩意儿，你能让这过程变得一样容易！”
+		“行情涨了就拉线，跌了就别拉！就这么简单！”
 		'''
 }
 
@@ -973,8 +973,8 @@ HeartofDarkness: {
 	Tooltip: 你的怒气值会持续充能且脱离战斗后怒气值也不会流失
 	SalesPitch:
 		'''
-		'Some people enjoy simple truths in life: good and evil, health and sickness.'
-		'I'm not sure how healthy they are, but these edgy gadgets are bound to get your blood pumping! Help me give them simple labels and I'll give you a heart-stopping discount!'
+		“有些人喜欢生活中简单的道理：善与恶，健康与病痛。”
+		“我不确定它们有多健康，但这些酷酷的小玩意儿肯定能让你热血沸腾！帮我把它们简单归个类，我就给你一个让人喘不上气的折扣！”
 		'''
 }
 
@@ -1720,7 +1720,7 @@ SpiritGlyph: {
 }
 
 SpringStool: {
-	DisplayName: Spring Stool
+	DisplayName: 弹簧凳
 	Tooltip:
 		'''
 		按住 {$Key.UP} 可以够到更高的地方
@@ -1882,8 +1882,8 @@ StressPills: {
 		'''
 	SalesPitch:
 		'''
-		'Some people enjoy simple truths in life: good and evil, health and sickness.'
-		'I'm not sure how healthy they are, but these edgy gadgets are bound to get your blood pumping! Help me give them simple labels and I'll give you a heart-stopping discount!'
+		“有些人喜欢生活中简单的道理：善与恶，健康与病痛。”
+		“我不确定它们有多健康，但这些酷酷的小玩意儿肯定能让你热血沸腾！帮我把它们简单归个类，我就给你一个让人喘不上气的折扣！”
 		'''
 }
 
@@ -2300,7 +2300,7 @@ XyksBlessingOrange: {
 }
 
 FrozenCube: {
-	DisplayName: Frozen Cube
+	DisplayName: 冰立方
 	Tooltip:
 		'''
 		一颗内部包含某样东西的冰块

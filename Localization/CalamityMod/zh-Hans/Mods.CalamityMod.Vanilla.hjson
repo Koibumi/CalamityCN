@@ -278,7 +278,7 @@ SeedTooltips: {
 }
 
 // Vanilla NPC dialogues added by Calamity
-AnglerChat.SeaKing: Hey! Someone tell {0} to quit trying to throw me outta town, it's not gonna work!
+AnglerChat.SeaKing: 嘿！有人跟{0}说想把我赶出镇子，那是不存在的。
 
 ArmsDealerChat: {
 	MentionQuadBarrel: 那老头临终前留了把破枪。你明白我的意思了吗?
@@ -334,19 +334,19 @@ MechanicChat: {
 	HasPortalGun: 那是什么玩意儿？它使我的传送机看起来像个儿童玩具！
 	MoonLordDefeated: 你说你的机关没成功是什么意思？和我没关系！
 	Eclipse: 呃……我的夜灯需要开着吗？
-	AcidRain: Oh darn! I should've waterproofed my gadgets, they're starting to corrode.
+	AcidRain: 该死！我应该给我的小玩意儿加入防水功能……它们已经开始被腐蚀了。
 }
 
 MerchantChat: {
 	MoonLordDefeated: 每天晚上似乎都比上一个晚上更加吓人。我感觉一些不可名状的恐惧在向我们蔓延。
 	Eclipse: 你制杖吗？！快把那些破灯关掉！
 	AcidRain: 如果这场酸雨持续下去，很快就会出现土块短缺的情况！
-	Bandit: Have you any idea why I have several Angel Statues in my stock, friend? Please relieve me of them!
+	Bandit: 朋友，你知道为什么我的库存里有几个天使雕像吗？请帮我摆脱它们！
 }
 
 NurseChat: {
-	Bandit: You wouldn't happen to be taking stuff from my biohazard container, would you?
-	PlanteraDefeatedAndBanditPresent: Things have been going missing lately. First used needles, then dirty scalpels, and now... waste IV bags?
+	Bandit: 你该不会碰巧在从我的生物危害容器中拿东西吧？
+	PlanteraDefeatedAndBanditPresent: 最近老有东西不翼而飞。先是使用过的针头，然后是脏手术刀，现在是……废弃点滴袋？
 }
 
 PainterChat: {
@@ -367,25 +367,25 @@ PainterChat: {
 }
 
 PartyGirlChat: {
-	Eclipse1: My light display is turning into an accidental bug zapper. Yeah I don't know, but at least the monsters are enjoying it.
+	Eclipse1: 我的灯光变成了个意料之外的机器。我不知道，但至少怪物们会喜欢它的。
 	Eclipse2: 哦！我爱这样每个人都穿着奇服异装的派对！
 }
 
 PirateChat: {
-	PreLeviathan: Aye, I hear of a mythical creature in the oceans, singing with an alluring voice. Careful when yer fishin out there, matey!
+	PreLeviathan: 是的，我听说有一种神秘的海洋生物，用迷人的声音唱歌。在外面钓鱼时要小心，伙计。
 	WetScourgeDefeated: 我要再次感谢你们照顾那条海蛇。或者那是另一条……
-	SeaKing: There be many a legend about that {0}! He ain't quite how the stories make him outta be though.
-	Ocean: Aye, the open waters! This be a scene any sea dog can admire!
-	SulphurSea1: It ain't much a sight, but these waters still be teamin' with life.
-	SulphurSea2: Argh, this is no proper dock! Me ship might just sink from the acid alone!
+	SeaKing: 关于{0}的传说有很多！不过他不是很明白那些故事是怎么出来的。
+	Ocean: 是的，那片开阔水域！这是任何老水手都能欣赏的风景！
+	SulphurSea1: 虽然表面上一片死寂，但在这些水域里仍然有生命。
+	SulphurSea2: 啊，这里不是合适的码头！我的船可能会因为酸性而沉没！
 }
 
 SkeletonMerchantChat.Normal: 你买啥？
 
 SteampunkerChat: {
 	MoonLordDefeated: 是的！我现在也在考虑当一名太空大盗。
-	Astral: Golly! Some of my machines are going haywire thanks to this Astral Infection. I shan't have built them here!
-	Hallow: I dinnae have any Unicorn proof tech here, you're a wee bit on your own mate.
+	Astral: 天哪！由于星辉瘟疫，我的一些机器开始出故障。我就不该在这里修建的。
+	Hallow: 我这里没有任何独角兽保护技术，你得靠自己了。
 }
 
 StylistChat: {
@@ -402,181 +402,181 @@ TaxCollectorChat: {
 	PreBrimmy: 那些阿萨福勒上的朋克以为他们可以在我的领地免费住下？我告诉你，在那里处理好我的工作，不然别想领钱。
 	HasSlickCane: 我的天！那根拐杖太装逼了！
 	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
-	Has500Plat: Where and how are you getting all of this money?! Scram, you have no need for me!
+	Has500Plat: 这些钱你到底是怎么弄来的？！滚开，你根本不需要我了！
 }
 
 TruffleChat.Normal: 我感到不太安全，我觉得这有贪婪之物正在跟着我，这让我害怕。
 
 WitchDoctorChat: {
 	BloodMoon: 这是一个很好的时间来挑选最好的药水成分。
-	PrePlantera: I recall rumors about some villagers that were creating a monster to defend their village. Such magic could never tame beasts, but perhaps it can be of use to you.
-	Jungle: I wonder how my kind is doing.上次我看望他们的时候，他们正忙于赞颂……太阳吧，我想。
+	PrePlantera: 我记得有传闻说一些村民在制造怪物来保卫他们的村庄。这种魔法不可能驯服野兽，但也许他们的魔法对你而言会有些用。
+	Jungle: 我想知道我的同类过得怎么样。上次我看望他们的时候，他们正忙于赞颂……太阳吧，我想。
 }
 
 WizardChat.Hardmode: 这空间太小了，让人感到难受。
 
 TownNPCMood: {
 	// Default dialogues if, for example, a modded NPC does not have a dialogue line registered
-	DefaultMonument: I hate The Monument.
-	DefaultGiftPositive: I love The Gift.
-	DefaultGiftNegative: I hate The Gift.
+	DefaultMonument: 我讨厌丰碑。
+	DefaultGiftPositive: 我喜爱魔猪的礼物。
+	DefaultGiftNegative: 我讨厌魔猪的礼物。
 
 	Angler: {
-		Monument: That monument is sooooooo ugly! I think it needs some chopped fish thrown allllll over it!
-		GiftPositive: Hey! I don't know how you got a hold of all that squishy gross stuff in that gift, but it might be the best prank material I've ever seen! He he he!
-		GiftNegative: Are you stupid?! I would NEVER fall for such a laaaaame gift prank like that! You better catch a lot of awesome fish to make up!
+		Monument: 那座纪念碑太太太太丑了！我想应该往它上面丢满剁碎的鱼！
+		GiftPositive: 嘿！我不知道你是怎么搞到那些黏糊糊的恶心玩意当礼物的，但这可能是我见过最好的恶作剧材料了！嘿嘿嘿！
+		GiftNegative: 你是个蠢蛋吗？！我才不会上这种拙劣恶作剧礼物的当！你最好抓一大堆超棒的鱼来弥补！
 	}
 
 	ArmsDealer: {
-		Monument: Was anyone really itchin' to have a big ol' statue in my firing ground? Because I wasn't!
-		GiftPositive: That new ammo belt was just the gift I've been lookin' for, buddy! Let's test it out together later!
-		GiftNegative: Do you know what you're doin' by pullin' a bomb in a box prank on me? I can kill you in over seven hundred ways, and that's just with my guns!
+		Monument: 真有人急着在我的射击场上立一尊大雕像吗？反正我没有！
+		GiftPositive: 那条新的弹药带是我一直在找的礼物啊，伙计！我们等下一起去试试！
+		GiftNegative: 你知不知道用炸弹盒子给我整个恶作剧有什么下场？我能用七百多种方式杀了你，而这还只是光用枪！
 	}
 
 	BestiaryGirl: {
-		Monument: This monument is like, totally giving me the creeps, bro!
-		MonumentTransformed: Rrr... BIG ROCK. BAD! NO!!
-		GiftPositive: Hey!! You're like, suuuper rad and all for gifting me that cute little bunny! Now umm... I need to think of a name for it!
-		GiftPositiveTransformed: LOVE. GOOD GIFT. CUTE!
-		GiftNegative: Eek!! Did you really, like, gift me a dead bunny? I really totally hate when people think that's funny!
-		GiftNegativeTransformed: Grahh!! HATE. CRUEL. GIFT. WATCH YOURSELF!!
+		Monument: 这座纪念碑简直让我浑身发毛，兄弟！
+		MonumentTransformed: 呃……大石头。坏！不行！！
+		GiftPositive: 嘿！！你能送我那只可爱的小兔子当礼物真的超级棒！现在嘛……我得给它起个名字！
+		GiftPositiveTransformed: 喜欢。好礼物。可爱！
+		GiftNegative: 啊！！你真的送了我一只死兔子嘛？我真的超讨厌有人以此为乐！
+		GiftNegativeTransformed: 呃啊！！讨厌。残忍。礼物。你好自为之！！
 	}
 
 	Clothier: {
-		Monument: I think I am becoming too old to understand this... "modern art".
-		GiftPositive: There was a simple bell in that gift, but its ring was simply extraordinary. Perhaps this means I truly believe...
-		GiftNegative: Can we get serious now? No one warned me! No one said "You are about to receive the most wretched gift in history". No one could train for that!
+		Monument: 我想我太老了，无法理解这种……“现代艺术”。
+		GiftPositive: 那件礼物里就一个普通的铃铛，但它的响声非同凡响。也许这意味着我真的相信……
+		GiftNegative: 现在我们能认真点吗？没人警告过我！没人说过“你将收到史上最烂的礼物”。没人能训练那玩意！
 	}
 
 	Cyborg: {
-		Monument: Analysis of nearby monument: Provides zero positive qualities to all lifeforms nearby.
-		GiftPositive: Gift content scan revealed extremely pure silicon for use in upgraded processors. It appears I appreciate that.
-		GiftNegative: Gift content scan revealed attempt to trigger malfunction in my systems. Translation: I hate this.
+		Monument: 附近纪念碑分析报告：对周边所有生命体不提供正面价值。
+		GiftPositive: 礼物内容扫描显示其含有用于升级处理器的极高纯硅。看来我对它很满意。
+		GiftNegative: 礼物内容扫描显示有人试图触发我的系统故障。意思是：我讨厌这玩意。
 	}
 
 	DD2Bartender: {
-		Monument: Had a lot of customers lately complaining about that big monument outside. I gotta say, they're right.
-		GiftPositive: The pint in that gift of yours reminded me of what I serve back in Etheria! Ahh, I really miss it... but that was quite thoughtful of you.
-		GiftNegative: What vile concoction of a drink was that? One sip of it and I had to wipe down the bar again! Were you conspiring with the Kobolds?!
+		Monument: 最近有许多顾客抱怨外面那座大纪念碑。我得说，他们是对的。
+		GiftPositive: 你礼物里的一品脱酒让我想起了我在埃特尼亚卖的！啊，我十分想念它……不过你太贴心了。
+		GiftNegative: 到底是怎么调的破饮料？抿一口就让我得再把吧台擦一遍！你是跟那群狗头人串通了？！
 	}
 
 	Demolitionist: {
-		Monument: You know, there is a use for that monument - it'll make for a good demolition test for my biggest dynamite yet!
-		GiftPositive: Hey, is that a shipment of ale? That's the only thing us dwarves love more than blowing things up! You're da' bomb!
-		GiftNegative: ARGH! You see yourself as a joker, giving me a water gun? That's an affront to my craft in two ways! Now I'm itching to turn you into a firework!
+		Monument: 你知道吗，那座纪念碑有个用处——它可以用来测试我最大雷管的爆炸！
+		GiftPositive: 嘿，那是一批麦芽酒吗？那可是我们矮人唯一比炸东西更喜欢的东西！你是个人才！
+		GiftNegative: 啊！你觉得送我把水枪挺幽默？这简直是对我手艺的双重侮辱！现在我真想把你做成烟花！
 	}
 
 	Dryad: {
-		Monument: I don't like that monument. I can sense its ugly stain on nature.
-		GiftPositive: I have no need for material goods as a nature spirit... but I can at least sense your gift was given out of genuine compassion.
-		GiftNegative: It would be unwise for you to tread near me after "gifting" me an oozing mass of corruption. I question whether you are committed to purifying the world...
+		Monument: 我不喜欢那座纪念碑。我能感到它对大自然留下的丑陋污痕。
+		GiftPositive: 作为自然精灵，我没有对材料物质的需求……但我至少能感到你的礼物是出于真诚的善意。
+		GiftNegative: 在你“送”我一块渗出腐败的物质后，你最好离我远点。我怀疑你是否真的致力于净化这个世界……
 	}
 
 	DyeTrader: {
-		Monument: Oh no no, that dull monument cannot be. Its mere presence is sucking the color and vibrancy out of life itself!
-		GiftPositive: What an extraordinary batch of rare flowers there was in that gift, friend! I must thank you for your help, browse my colors at reduced coin in exchange!
-		GiftNegative: You think you can pull such a drab gift prank on me, I don't think so! I want no business of yours after that attack on my precious palettes!
+		Monument: 哦不不不，那座灰暗的纪念碑可不能留。它仅仅矗在那儿就吸收了生命本身的色彩和活力！
+		GiftPositive: 那礼物里有一批多么非凡的稀有花朵啊，朋友！我必须感谢你的帮助，作为回报，你可以以优惠价购买我的染料。
+		GiftNegative: 你觉得你能用这种无聊的礼物恶作剧捉弄我，想都别想！在你对我的珍贵调色盘下手后，我就不想跟你有任何商品往来了！
 	}
 
 	GoblinTinkerer: {
-		Monument: You know, even the barbaric goblin camp I was once part of never considered the concept of a useless monument that just funnels funds.
-		GiftPositive: What a fascinating welding-cutting combo tool in that gift! I would love to reverse-engineer and tinker it for my own research.
-		GiftNegative: When I reached into your unassuming gift, my hands were lacerated by a handful of spiky balls! I'm afraid I will have to hike my prices to cover the medical costs.
+		Monument: 你知道嘛，即便是我曾待过的野蛮哥布林营地也不会考虑建一座只会圈钱的纪念碑。
+		GiftPositive: 那礼物里的焊接切割组合工具可太棒了！我想拆解改装它用来自己研究。
+		GiftNegative: 当我把手伸进你那平平无奇的礼物时，我的手被一堆尖球刺得鲜血淋漓！恐怕我要提高价格来补医药费了。
 	}
 
 	Golfer: {
-		Monument: This must be mockery. I don't want a monument of greed erected so close to my home.
-		GiftPositive: I don't know where you found that wedge, but it's been a real lifesaver in the sand. Thanks for helping my game!
-		GiftNegative: Tell me something. Why did the shoddy driver in that gift splinter all over the place after one swing? Golf is a delicate sport, and this really hurts!
+		Monument: 这准会成为笑柄。我可不想在家附近建一座贪婪的纪念碑。
+		GiftPositive: 我不知道你上哪找到的那根挖起杆，但它在沙地里确实是救命稻草。感谢你对我游戏的帮助！
+		GiftNegative: 你跟我说说。为什么你送的破球杆挥舞一次后就裂的到处都是？高尔夫是项精细的运动，而这真的很恼火！
 	}
 
 	Guide: {
-		Monument: I quite dislike that monument you have over there. How could one have such little humbleness!
-		GiftPositive: A thoughtful gift in this world is always a welcome sight. I greatly appreciate it!
-		GiftNegative: Apologies, I'm currently in shock over your decision to gift me my own voodoo doll. If only I could curse you!
+		Monument: 我很不喜欢那边那座纪念碑。人怎能如此不自谦！
+		GiftPositive: 一份贴心的礼物在这个世界上总是令人欣喜的。非常感谢！
+		GiftNegative: 抱歉，我正对你决定送我自己的巫毒娃娃当礼物感到震惊。要是我能诅咒你就好了！
 	}
 
 	Mechanic: {
-		Monument: Any more money I have to fork over for this monument and I'm going to have to start charging an electric bill! I would hate to do that.
-		GiftPositive: Thanks to your gift of signal extenders, I can connect more of this world than ever! That extra burst of motivation is just what I need to finish wiring up this town!
-		GiftNegative: What compelled you to be so reckless as to gift me an EMP device? Everyone is yelling at me like it's MY fault! Well, now it will be YOUR problem to pay it off when you buy all your wire.
+		Monument: 要是再让我给那座纪念碑掏钱的话，我就要开始收电费了！我可不想那么做。
+		GiftPositive: 多亏你送的信号扩展器，我能连通比以往更多的世界区域了！那股额外的动力正是我完成整个城镇布线所需的！
+		GiftNegative: 到底是什么让你如此鲁莽，送我个电磁脉冲装置？所有人都冲我嚷嚷，搞得像是我的过错一样！当你买所有电路时，这笔帐就会变成你的问题了。
 	}
 
 	Merchant: {
-		Monument: That awful monument is driving away my business!
-		GiftPositive: What a lovely gift of exotic wares you gave me, friend! Please peruse my shop at clearance rates.
-		GiftNegative: Why offer a "gift" of rubbish Angel Statues? I tire of your jokes, so if you want business, it'll be extra.
+		Monument: 那座糟糕的纪念碑正在赶走我的生意！
+		GiftPositive: 你送我的那批异国货物太好了，朋友！请以清仓价逛我的商店吧。
+		GiftNegative: 为什么送一堆垃圾天使雕像当“礼物”？我已经厌烦了你的玩笑，所以你想交易的话，得加钱。
 	}
 
 	Nurse: {
-		Monument: Eww, who would put such an ugly rock in this town?
-		GiftPositive: Hey! Thanks for that gift from earlier. You ever need face reconstruction, you know who to call.
-		GiftNegative: YOU, I hope you understand that gifting the ONLY DOCTOR HERE some snake oil is how to make me never want to treat you!
+		Monument: 呃，谁会把这么丑陋的石头放在镇上？
+		GiftPositive: 嘿！谢谢你之前送的礼物。哪天你需要面部重建的话，你该知道找谁。
+		GiftNegative: 你！我希望你能明白给这里唯一的医生送蛇油当礼物的代价就是我不会再给你治病了！
 	}
 
 	Painter: {
-		Monument: That statue certainly is thought provoking. I'm awestruck by how bleak, dull, and hopeless it makes its environs feel.
-		GiftPositive: How did ya know exactly the paint color I have been looking for? My newest mural greatly appreciates dat!
-		GiftNegative: You must be sick and cruel, because that water bomb prank of yours washed all over my latest work! Aye, you oughta be covered in red, and not paint!
+		Monument: 那座雕像确实引人深思。我惊愕于它能让周遭环境感到荒凉，沉闷和绝望。
+		GiftPositive: 你怎么知道我一直在找的就是这个漆色？我最新的壁画正好需要！
+		GiftNegative: 你肯定是个恶毒残忍的家伙，因为你的水炸弹恶作剧把我所有的作品全弄湿了！哼，你该被喷的一身红，而且不是漆！
 	}
 
 	PartyGirl: {
-		Monument: Yeeesh, we're gonna have an ugly statue of big money around? That like, totally kills the party mood around here.
-		GiftPositive: PARTY GIFTS? FOR ME? Oh just you wait, I'm gonna throw the BIGGEST party this town has ever seen, forever and always!
-		GiftNegative: I knew you were trouble when you walked in that suspicious looking box! It's too late now to say sorry!
+		Monument: 咦，我们这要建一座大价钱的丑陋雕像吗？那会完全消除这里的派对氛围。
+		GiftPositive: 派对礼物？给我？你等着，我将办一场镇上空前绝后的最大派对，永远不停！
+		GiftNegative: 当你带着那个看起来可疑的箱子走进来时，我就知道你是个麻烦！现在道歉太迟了！
 	}
 
 	Pirate: {
-		Monument: Arr, ye landlubbers have filthy tastes in decoration! That statue be askin' to be washed away!
-		GiftPositive: HAR HAR! Ye bring me the best bottle o' rum I ever taste in me life! Nothin' more for me to say, sea dog!
-		GiftNegative: Arr, ye scallywag! Ye be askin' to be sent to Davy Jones' locker with that foul concoction ye gave me earlier!
+		Monument: 呃，你们这帮旱鸭子装饰品味也太差了！那座雕像就该被冲走！
+		GiftPositive: 哈哈哈！你给我带来了这辈子我喝过的最好的一瓶朗姆酒！无需多言，哥们！
+		GiftNegative: 呃，你个兔崽子！你刚才给我喝的破玩意儿是想让我葬身海底嘛！
 	}
 
 	Princess: {
-		Monument: Um... my people have been frequently complaining about that monument. May I request it be taken down, please?
-		GiftPositive: I do appreciate your thoughtfulness with this gift, my loyal subject! It's always so wonderful to see the many fantastic things inside one!
-		GiftNegative: Um... may I ask what you were implying with the contents of that gift? Perhaps I shouldn't worry so, but I do find myself concerned...
+		Monument: 呃……我的子民总是抱怨那座纪念碑。请问可以把它拆了吗？
+		GiftPositive: 我很感激你这份礼物的心意，我的子民！看到那么多奇妙的事物在里面总是很开心！
+		GiftNegative: 呃……我想问问你送的礼物是想暗示什么？可能我不该这么焦虑，但我确实有些在意……
 	}
 
 	SantaClaus: {
-		Monument: Is this what the holiday season means to people now? Naughty, you are!
-		GiftPositive: Ho ho ho! What an unusual feeling for someone to be gifting me something at this time of year! You'd be great taking up the mantle!
-		GiftNegative: What a horrible gift you thought you could give me. You will get no presents this year!
+		Monument: 这就是现在假期对人们的意义吗？你真淘气！
+		GiftPositive: 吼吼吼！一年中的这个时候居然有人给我送礼物，真是非同寻常的感觉！你来接替这份工作还挺不错的！
+		GiftNegative: 你居然送我这么骇人的礼物。今年你没礼物了！
 	}
 
 	Steampunker: {
-		Monument: Oi, that bloody big rock you got outside is a monumental mistake! Decommission it this very instant!
-		GiftPositive: Ahh, what a deeply inspiring jetpack engine! The breakthroughs in steampunk technology from this will be exquisite! Consider this sale a return of generosity.
-		GiftNegative: When I opened your gift, a sudden blast of cold air condensed all of my steam! Were it not for my backup systems, my machines would be unusable! You bloody better watch yourself!
+		Monument: 喂，你外面那块该死的大石头真是巨大的错误！赶快拆了那玩意！
+		GiftPositive: 啊，多么令人深受启发的喷气背包引擎！这将会为蒸汽朋克技术带来重大突破！这单生意就当你慷慨的回礼了。
+		GiftNegative: 当我打开你的礼物，一股突如其来的冷风凝结了我所有的蒸汽！要不是我有备份系统，我的机器就用不了了！你他妈最好小心点！
 	}
 
 	Stylist: {
-		Monument: That statue has been the talk of the town! ...As in, everyone cannot stand the gross thing.
-		GiftPositive: Thanks hun, that gift of new exotic hair dyes was just what I was missin' in my life! I know just who else could use some of this style too!
-		GiftNegative: What were you pullin' on me with a fireball in a gift box? That could've singed me bald, and I could never be a stylist without hair! NEVER!
+		Monument: 那座雕像已经是镇上热议的了！……也就是说，所有人都受不了那恶心玩意。
+		GiftPositive: 谢了亲爱的，你送的异域染发剂正是我生活中缺少的！我还知道谁也能用上这样的！
+		GiftNegative: 你送我的礼物盒里放个火球什么意思？那玩意差点把我烧成秃子，没头发我可当不了发型师！绝对不行！
 	}
 
 	TaxCollector: {
-		Monument: Bah! You shouldn't be seeing this message, plebian!
-		GiftPositive: What a steal, getting a gift full of the only thing worth a damn in this world -- money!
-		GiftNegative: Bah! You think you're a jester with that lump of coal? Get out of my sight!
+		Monument: 呸！你不该看到这条消息的，贱民！
+		GiftPositive: 太划算了，收到一份装满这世界上唯一值钱东西的礼物——钱！
+		GiftNegative: 呸！你觉得送块煤就能当小丑逗乐了？滚出我的视野！
 	}
 
 	Truffle: {
-		Monument: Your kind have very strange decorative tastes, such as that monument nearby.
-		GiftPositive: I love them, my new gifted shroomble companions. It's great to see more of our kind around here!
-		GiftNegative: A little pig jumped out of that gift you gave me earlier, and tried to eat my face! Perhaps I can't trust you either.
+		Monument: 你们的装饰品味真奇怪，比如附近的纪念碑。
+		GiftPositive: 我喜欢他们，我新收到的蘑菇伙伴。看到这里有更多我们的同类真是太棒了！
+		GiftNegative: 刚才你送我的礼物里蹦出来一只小猪，还想咬我的脸！可能我再也不能相信你了。
 	}
 
 	WitchDoctor: {
-		Monument: A vile disruption of nature, that monument is. My soul is wracked with contempt for this unsightly edifice.
-		GiftPositive: A kind offering to my people, this gift is. May you be blessed by kindred spirits in trying times.
-		GiftNegative: Sacrilegious defilement against my arts - I speak of your false gift. May your woes be many, and your days few.
+		Monument: 那座纪念碑是自然界中的毒瘤。我的灵魂对这个丑陋的建筑物充满了蔑视。
+		GiftPositive: 这份礼物是对我同类的善意馈赠。愿你在艰难时刻得到志同道合灵魂的庇佑。
+		GiftNegative: 对我艺术的亵渎玷污——我指你那虚伪的礼物。愿你苦难繁多，而时日无多。
 	}
 
 	Wizard: {
-		Monument: If I was your age, I would've blasted that loathsome monument with a giant fireball! Alas, I can't recall the spell.
-		GiftPositive: An authentic tome of wisdom from the Archmage himself? What a prized possession!! ...uh, who is the Archmage again?
-		GiftNegative: Do you take me for a fool to place a hex on that gift? How about I place a hex on your wallet, and all of your money disappears when you buy from me!!
+		Monument: 如果我像你这么大，我会用个大火球炸了那座讨厌的纪念碑！可惜，我不记得那个法术了。
+		GiftPositive: 一本大法师所著的智慧真典？多么珍贵的宝贝啊！！……呃，谁是大法师来着？
+		GiftNegative: 你觉得我是个傻瓜吗，在那件礼物里下咒？我给你的钱包下个咒如何，你找我买东西的时候所有的钱都会消失！！
 	}
 }

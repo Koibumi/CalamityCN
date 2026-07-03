@@ -290,12 +290,12 @@ Terminus: {
 }
 
 TheHousingContract: {
-	DisplayName: The Housing Contract
+	DisplayName: 猪猪许可证
 	Tooltip: 用于为城镇领养一只猪猪
 	SalesPitch:
 		'''
-		'Have you ever wanted to take care of a piggy? As part of our campaign to stop piggy abuse, you can get one here and now!'
-		'Just sign here and we'll deliver you one posthaste!'
+		“你是否曾想过照顾一只小猪？作为我们停止虐猪运动的一部分，你现在就能在这里领养一只！”
+		“在这里签个字，我们就会火速给你送来！”
 		'''
 }
 

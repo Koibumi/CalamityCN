@@ -456,12 +456,12 @@ EvilSmasher: {
 		“邪恶！粉碎邪恶！粉碎……者！”
 		'''
 	//All damage and kill dialogue has the capitalization randomized when said
-	DamageDialogue0: smash!
-	DamageDialogue1: evil!
-	DamageDialogue2: crush!
-	DamageDialogue3: des.. troy!
-	KillDialogue0: smash evil!
-	KillDialogue1: smash.. er!
+	DamageDialogue0: 粉碎！
+	DamageDialogue1: 邪恶！
+	DamageDialogue2: 碾碎！
+	DamageDialogue3: 破……坏！
+	KillDialogue0: 粉碎邪恶！
+	KillDialogue1: 粉碎……它！
 }
 
 ExaltedOathblade: {
