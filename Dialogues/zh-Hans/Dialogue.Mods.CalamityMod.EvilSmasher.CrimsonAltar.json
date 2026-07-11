@@ -24,24 +24,24 @@
     },
     "Pages": [
         {
-            "Lines": [
-                "You, slayer of the flesh tower...[Pause(0.25)] we have an offer fitting of your deeds."
-            ]
+          "Lines": [
+            "你，斩杀血肉之墙的英雄……[Pause(0.25)]我们有一个与你的功绩相称的提议。."
+          ]
         },
         {
-            "Lines": [
-                "We can bestow you might untold...[Pause(0.25)] [Shaking:to grind your enemies to dust!]"
-            ]
+          "Lines": [
+            "我们可以赋予你难以言喻的力量……[Pause(0.25)] [Shaking:将你的敌人碾成粉末！]"
+          ]
         },
         {
-            "Lines": [
-                "Simply yield the holy hammer unto the altar."
-            ]
+          "Lines": [
+            "只需将圣锤献给祭坛即可。"
+          ]
         },
         {
-            "Lines": [
-                "Kneel, and we shall render you the strength."
-            ]
+          "Lines": [
+            "跪下吧，我们将赐予你力量。"
+          ]
         }
     ]
 }

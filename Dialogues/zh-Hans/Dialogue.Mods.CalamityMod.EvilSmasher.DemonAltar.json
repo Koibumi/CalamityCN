@@ -24,24 +24,24 @@
     },
     "Pages": [
         {
-            "Lines": [
-                "Bearer of the Holy Hammer...[Pause(0.25)] [Wavy:desirest thou to taste true power?]"
-            ]
+          "Lines": [
+            "圣锤的持有者……[Pause(0.25)][Wavy:你渴望尝到真正的力量吗？]"
+          ]
         },
         {
-            "Lines": [
-                "Thine eyes shall be opened...[Pause(0.25)] [Shaking:thou shalt be even as the gods!]"
-            ]
+          "Lines": [
+            "睁大你的双眼……[Pause(0.25)] [Shaking:你将与​​神平起平坐！]"
+          ]
         },
         {
-            "Lines": [
-                "Yield the hammer unto us upon the altar."
-            ]
+          "Lines": [
+            "把锤子交到祭坛上给我们。"
+          ]
         },
         {
-            "Lines": [
-                "Surrender, and thou shalt surely receive our might."
-            ]
+          "Lines": [
+            "屈服吧，你必将承受我们的威能。"
+          ]
         }
     ]
 }
