@@ -257,7 +257,7 @@ FadedIdolatry: {
 	Tooltip:
 		'''
 		召唤[i:CalamityMod/YharonsKindleStaff]炽焰天龙所需的仆从栏位减1
-		[c/ffe100:'Once everything has crumbled to dust, what will be left of the world you created?']
+		[c/ffe100:‘待到万物皆归尘土，你创造的世界还剩下何物？’]
 		'''
 }
 
@@ -598,7 +598,7 @@ CrushingEgo: {
 	Tooltip:
 		'''
 		所有伤害乘1.3，代价是所受伤害增加20%
-		[c/ff00ff:'Don the mask of arrogance, and dance by your lonesome. Once the ball has gone quiet, you'll be the last man standing.']
+		[c/ff00ff:‘戴上傲慢的假面，孤身一人起舞。直至铃声消逝，唯余你伫立此处。’]
 		'''
 }
 
@@ -673,7 +673,7 @@ FragmentsOfAnotherWorld: {
 		魔力消耗降低{2}%
 		增加{3}个最大哨兵栏位
 		增加{4}%盗贼攻速
-		[c/ff0000:'Don't speak of your desires to the shadows, they listen.']
+		[c/ff0000:‘不要向阴影诉说你的欲望，他们会听着的。’]
 		'''
 }
 
