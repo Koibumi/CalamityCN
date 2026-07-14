@@ -257,7 +257,7 @@ FadedIdolatry: {
 	Tooltip:
 		'''
 		召唤[i:CalamityMod/YharonsKindleStaff]炽焰天龙所需的仆从栏位减1
-		[c/ffe100:‘待到万物皆归尘土，你创造的世界还剩下何物？’]
+		[c/ffe100:“待到万物皆归尘土，你创造的世界还剩下何物？”]
 		'''
 }
 
@@ -598,7 +598,7 @@ CrushingEgo: {
 	Tooltip:
 		'''
 		所有伤害乘1.3，代价是所受伤害增加20%
-		[c/ff00ff:‘戴上傲慢的假面，孤身一人起舞。直至铃声消逝，唯余你伫立此处。’]
+		[c/ff00ff:“戴上傲慢的假面，孤身一人起舞。直至铃声消逝，唯余你伫立此处。”]
 		'''
 }
 
@@ -673,7 +673,7 @@ FragmentsOfAnotherWorld: {
 		魔力消耗降低{2}%
 		增加{3}个最大哨兵栏位
 		增加{4}%盗贼攻速
-		[c/ff0000:‘不要向阴影诉说你的欲望，他们会听着的。’]
+		[c/ff0000:“不要向阴影诉说你的欲望，他们会听着的。”]
 		'''
 }
 
@@ -774,8 +774,8 @@ FeatherCrown: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/81B7F7:Young mages would don feathers and gaze into the starlit night, as if welcoming the breath of the heavens.]
-		[c/81B7F7:To commune with mana was to commune with the world, and further, its draconic masters.]
+		[c/81B7F7:年轻的法师们会戴上羽毛，凝视星光璀璨的夜空，仿佛在迎接天堂的吐息。]
+		[c/81B7F7:与魔力交流便是与世界交流，更进一步，便是与那巨龙之主交流。]
 		'''
 }
 
@@ -1186,8 +1186,8 @@ MoonstoneCrown: {
 		'''
 	HoldShiftTooltip:
 		'''
-		[c/27F5E0:Countless tears were shed over Chrysadia's marring: when its eventide clouds gave way not to beloved stars,]
-		[c/27F5E0:or to dear patrons, but to a ravenous void and its unyielding dread.]
+		[c/27F5E0:无数的眼泪为克里沙迪亚的毁灭而流落：当笼罩它的暮云散去，迎来的不是挚爱星辰，]
+		[c/27F5E0:也不是亲爱的赞助者，而是一片贪婪虚空及其不灭的恐惧。]
 		'''
 }
 
