@@ -1,9 +1,9 @@
 BeeWings: 没有按住 {$Key.DOWN} 时降低下降速度
 BoneWings: 受击时飞行时间减半
-DemonWings: 下降时提升下降速度且加速度更快
+DemonWings: 提升下降速度且增加下降期间重新上升的加速度
 FestiveWings: 生成能够恢复飞行时间的装饰品
 FinWings: 允许在水中快速移动
-TatteredFairyWings: 留下快速耗尽飞行时间的仙尘轨迹
+TatteredFairyWings: 留下一串仙尘轨迹，与之接触会消耗飞行时间
 WingsNebula: 悬停时大幅提高星云盔甲的星云强化焰的拾取距离
 WingsSolar: 当使用耀斑冲刺消耗耀斑充能层数时，恢复飞行时间
 WingsStardust: 
