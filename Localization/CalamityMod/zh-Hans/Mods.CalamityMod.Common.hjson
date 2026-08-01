@@ -18,7 +18,7 @@ AggroReduction: 敌人不太可能以你为目标
 KnockbackImmunity: 免疫击退
 AbyssLightLevel: 降低深渊中的黑暗强度
 AbyssFlashlight: 增加深渊中的手电筒宽度
-AbyssGlow: 增加深渊中的可见性
+AbyssGlow: 增加深渊中的可见范围
 AbyssBreathLevel1: 略微缓解深渊造成的呼吸困难
 AbyssBreathLevel2: 适当缓解深渊造成的呼吸困难
 AbyssBreathLevel3: 大大缓解深渊造成的呼吸困难

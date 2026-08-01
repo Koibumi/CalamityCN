@@ -212,7 +212,7 @@ BrimstoneSword: {
 	DisplayName: 硫火之刃
 	Tooltip:
 		'''
-		击中敌人时释放硫磺火间歇泉
+		击中敌人时释放[cbuff:CalamityMod/BrimstoneFlames]间歇泉
 		右键会将其像标枪一样掷出，击中时爆炸
 		'''
 }
