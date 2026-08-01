@@ -579,25 +579,25 @@ TownPiggy: {
 	Census.SpawnCondition: 使用猪猪许可证
 
 	Name: {
-		Oolong: Oolong
-		Napoleon: Napoleon
-		Waddles: Waddles
+		Oolong: 乌龙
+		Napoleon: 拿破仑
+		Waddles: 摇摇
 		Crenando: Crenando
-		Olivia: Olivia
-		Wilbur: Wilbur
-		Pumbaa: Pumbaa
-		Peppa: Peppa
-		Conan: Conan
+		Olivia: 奥莉薇
+		Wilbur: 威尔伯
+		Pumbaa: 彭彭
+		Peppa: 佩奇
+		Conan: 万能猪柯南
 		Reuben: Reuben
-		Porky: Porky
-		Hamm: Hamm
-		Runt: Runt
+		Porky: 猪小弟
+		Hamm: 火腿
+		Runt: 乳猪
 		Roko: Roko
-		RichardHam: Richard Ham
+		RichardHam: 理查德·哼
 		Curly: Curly
 		Techno: Techno
 		JohnPork: John Pork
-		Piglet: Piglet
+		Piglet: 小猪皮杰
 	}
 
 	Chat: {

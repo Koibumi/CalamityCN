@@ -947,7 +947,7 @@ UndinesRetribution: {
 }
 
 UnstableCastersGauntlet: {
-	DisplayName: 不稳定术师手套
+	DisplayName: 不稳定法师护手
 	Tooltip:
 		'''
 		<left>发射穿透性奥术飞针
