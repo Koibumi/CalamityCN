@@ -1,22 +1,22 @@
-using System.ComponentModel;
-using Terraria.ModLoader.Config;
+// using System.ComponentModel;
+// using Terraria.ModLoader.Config;
 
-namespace CalamityCN
-{
+// namespace CalamityCN
+// {
 
-    public class CalamityCNConfig : ModConfig
-    {
+//     public class CalamityCNConfig : ModConfig
+//     {
 
-        public static CalamityCNConfig Instance;
-        public override ConfigScope Mode => ConfigScope.ClientSide;
-        public override void OnLoaded()
-        {
-            Instance = this;
-        }
-        
-        /*[ReloadRequired]
-        [Header("Conversion")]
-        [DefaultValue(zhLang.zh)]
-        public zhLang Lang;*/
-    }
-}
+//         public static CalamityCNConfig Instance;
+//         public override ConfigScope Mode => ConfigScope.ClientSide;
+//         public override void OnLoaded()
+//         {
+//             Instance = this;
+//         }
+
+//         /*[ReloadRequired]
+//         [Header("Conversion")]
+//         [DefaultValue(zhLang.zh)]
+//         public zhLang Lang;*/
+//     }
+// }
