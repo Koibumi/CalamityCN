@@ -14,7 +14,7 @@ AerialHamaxe: {
 }
 
 AggressiveVoucher: {
-	DisplayName: 强袭重铸券
+	DisplayName: 好斗重铸券
 	Tooltip:
 		'''
 		在物品栏中收藏此物品以改变你下一次重铸饰品的结果
@@ -159,7 +159,7 @@ BrokenWaterFilter: {
 }
 
 CombatVoucher: {
-	DisplayName: 好斗重铸券
+	DisplayName: 强袭重铸券
 	Tooltip:
 		'''
 		在物品栏中收藏此物品以改变你下一次重铸武器的结果
