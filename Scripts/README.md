@@ -34,3 +34,19 @@ python Scripts/check_translation_age.py --format csv > translation-age.csv
 
 发现英文较新的条目时退出码为 1，解析或 Git 错误时退出码为 2；没有发现时为 0。
 
+## 检查颜色代码
+
+比较 `Localization/CalamityMod/en-US` 和 `Localization/CalamityMod/zh-Hans` 中同一条目的 `[c/颜色:文本]` 标记。颜色值不区分大小写，但会检查标记的顺序和重复次数；报告会保留英文和中文原文，方便判断中文翻译是否有意拆分文本。默认生成 `Scripts/Output/color-code-review.txt`：
+
+```powershell
+python Scripts/check_color_codes.py
+```
+
+指定其他输出文件：
+
+```powershell
+python Scripts/check_color_codes.py --output color-code-review.txt
+```
+
+发现不对应时退出码为 1，文件或解析错误时退出码为 2，没有发现时为 0。
+
